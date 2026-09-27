@@ -1,0 +1,1335 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 5 (Daten und Zufall)“, IQB Berlin – Auswertung (Kodieranweisung, Lösungen)
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L5_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Auswertung“ mit 1–4 Seiten; hier 59 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== adventskalender · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2017; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2017
+
+Adventskalender
+Teilaufgabe 1:
+RICHTIG
+ |
+ | Teilaufgabe 2:
+RICHTIG
+ |
+1 24 1 18 7 18 7 24
+
+ | Teilaufgabe 3:
+RICHTIG
+ |
+3 24 1 22 24 1 3
+
+ |
+
+===== bevoelkerungsdichte · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2014
+
+Auswertung – Bevölkerungsdichte
+Teilaufgabe 1
+RICHTIG
+ | Saarland
+ | Teilaufgabe 2
+RICHTIG
+ | 3790
+Beispiel(e)
+(Grenzfall)
+3861-71
+[Anm.: Nur der Term ist aufgeschrieben.]
+ |
+
+===== bistroumfrage · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2016
+
+Bistroumfrage
+Teilaufgabe 1:
+RICHTIG
+ |
+Wir führen eine Befragung Wir interpretieren die Wir überlegen uns
+durch. Untersuchungsergebnisse. geeignete Fragen.
+3 5 2
+
+ | Teilaufgabe 2:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== bonbons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2012
+
+[Bild: image1.jpeg]Bonbons
+RICHTIG
+ |
+4 6 1 2 4 10 1 5 1 10
+
+ |
+
+===== brettspiel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, K6, Jahrgang 2011
+
+Brettspiel
+RICHTIG
+ |
+5 1 1
+5 6
+5 6
+
+ |
+
+===== chancen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K3, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Chancen
+Teilaufgabe 1
+RICHTIG
+ | Genau 4 Kreissektoren werden ausgemalt. Die Auswahl der Kreissektoren ist beliebig.
+
+z. B.
+
+Anm.: Die Kreissektoren müssen nicht vollständig gefärbt sein. Sie können auch mittels Kreuzen markiert werden.
+ | FALSCH
+ | Alle Antworten bei denen nicht genau 4 Kreissektoren ausgemalt/gekennzeichnet werden.
+
+z. B.
+
+ |
+
+Teilaufgabe 2
+RICHTIG
+ | Richtige Antwort Kreuz bei "Bei Michaels Glücksrad und bei Julias Glücksrad ist die  Gewinnwahrscheinlichkeit gleich." UND richtige Begründung, in welcher entweder auf die Wahrscheinlichkeiten verwiesen, auf die gefärbten Flächenanteile oder die Zahl der gefärbten Felder eingegangen wird.
+
+z. B.
+Die Gewinnwahrscheinlichkeit beträgt bei beiden Glücksrädern
+
+.
+
+ODER
+Sowohl bei Michael als auch bei Julia sind 6 von 12 Feldern eingefärbt. Die Gewinnwahrscheinlichkeiten sind also gleich.
+
+ODER (Grenzfall)
+Beide Glücksräder sind gleich gefärbt.
+
+ODER (Grenzfall)
+
+ =
+
+ | FALSCH
+ | Alle anderen fehlerhaften, unvollständigen oder falschen Antworten.
+
+z. B.
+Bei Michael ist die Gewinnwahrscheinlichkeit größer, weil immer abwechselnd die Felder eingefärbt sind.
+
+ODER
+Bei Julia ist die Gewinnwahrscheinlichkeit größer, weil sie das größere Glücksrad gebastelt hat.
+
+ODER
+Bei beiden ist die Gewinnwahrscheinlichkeit gleich groß, weil beide 12 Felder in ihr Glücksrad gezeichnet haben.
+ |
+
+===== darstellungindiagrammen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Darstellung in Diagrammen
+RICHTIG
+ | Im Jahr 2009 sind 65 Millionen Flaschen verkauft worden.
+ |
+
+===== fahrradtour · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K4, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K3, K4, K5, K6, Jahrgang 2011
+
+Fahrradtour
+Teilaufgabe 1
+RICHTIG
+ | Die ergänzte Säule muss eine Fahrstrecke von 20 km veranschaulichen.
+Säulenbreite und Beschriftung der Säule sind zu vernachlässigen.
+Zeichentoleranz bezüglich der Höhe  1mm.
+ |
+Teilaufgabe 2
+RICHTIG
+ | 50 (ODER 50 km oder ca. 50 ODER ca. 50 km ODER Angaben in anderer Längeneinheit mit passender Maßzahl)
+ |
+Teilaufgabe 3
+RICHTIG
+ |
+10 7
+km 10 km 30 km 60 km 70 km
+
+ |
+
+===== fahrraeder · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 1B, K3, K6, Jahrgang 2016
+
+Fahrräder
+Teilaufgabe 1:
+RICHTIG
+ | 69
+ | Teilaufgabe 2:
+RICHTIG
+ | Die Aufgabe (Fragestellung) muss so formuliert sein, dass sie mit den gegebenen Angaben (26 Fahrräder der Frauen, 43 Fahrräder der Männer) gelöst werden kann, und keine bloße Umformulierung der Fragestellung aus Teilaufgabe 1 ist.
+Beispiel(e)
+Wie viele Frauen stellen ihr Fahrrad am Bahnhof ab?
+Wie viele Frauen müssten noch hinzukommen, damit es genauso viele Frauen wie Männer sind, die ihr Fahrrad am Bahnhof abstellen?
+Lina behauptet: „Es sind mehr als doppelt so viele Männer wie Frauen, die ihr Fahrrad am Bahnhof abstellen.“ Prüfe diese Behauptung.
+Stelle die Anteile der Frauen und der Männer in einem Kreisdiagramm dar.
+Stelle die Anzahlen der Frauen und der Männer in einem Diagramm dar.
+An diesem Bahnhof gibt es insgesamt 240 Abstellplätze für Fahrräder. Wie viele Fahrräder können zusätzlich noch dort abgestellt werden?
+Wie viel Prozent der derzeit besetzten Abstellplätze werden von Frauen belegt?
+An diesem Bahnhof gibt es 240 Abstellplätze für Fahrräder. Wie viel Prozent dieser Plätze sind derzeit belegt?
+(Grenzfall)
+Eine eigene Aufgabe, die sich auf eine selbst erstellte Tabelle bezieht.
+[Anm.: Eine Lösung der selbst formulierten Aufgabe ist nicht erforderlich.]
+ |
+
+===== fischezaehlen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2011
+
+Fische zählen
+RICHTIG
+ | 2000
+ |
+
+===== freibad · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K4, K6, Jahrgang 2017
+
+Freibad
+Teilaufgabe 1:
+RICHTIG
+ | 5306
+ | Teilaufgabe 2:
+RICHTIG
+ | Begründung, in welcher darauf eingegangen wird, dass sich die Juni-Säule auf einen Monat, alle anderen Säulen auf eine Woche beziehen.
+Beispiel(e)
+Alle anderen Säulen beziehen sich nur auf eine Woche. Bei der Säule für den Juni hat man aber den ganzen Monat zusammengefasst. Dadurch fällt auf den ersten Blick nicht auf, dass die wöchentlichen Besucherzahlen in diesem Zeitraum viel kleiner waren.
+Für den Juni werden die Daten von ca. vier Wochen zusammengefasst, sonst ist es immer nur eine Woche.
+Grenzfall
+Sie haben den Juni insgesamt berechnet.
+ |
+
+===== freizeitbeschaeftigungen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+
+Auswertung – Freizeitbeschäftigungen
+Teilaufgabe 1
+RICHTIG
+ | 200
+ | Teilaufgabe 2
+RICHTIG
+ | Musik ODER Sport ODER Kino
+UND
+Computer ODER Theater
+ | Teilaufgabe 3
+RICHTIG
+ | Ergänzung der fehlenden Säulen mit den folgenden Werten:
+Kino: -2
+Theater: +2
+
+12
+10
+8
+6
+4
+l
+h a
+z 2
+n
+A
+Musik Sport
+0
+Computer Kino Theater
+- 2
+- 4
+- 6
+Freizeitbeschäftigung
+- 8
+
+UND
+Beschreibung: Darstellung der Differenz zwischen Nennungsanzahl in 8. und 7. Klassenstufe.
+Beispiel(e)
+Anzahl Nennungen in Klasse 8 - Anzahl Nennungen in Klasse 7
+(Grenzfall)
+Die Differenz wird nur in eine Richtung (Zunahme oder Abnahme) beschrieben.
+ |
+
+===== freizeitkosten · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K1, K2, K6, Jahrgang 2015
+
+Freizeitkosten
+RICHTIG
+ | Nein
+UND
+Begründung, zum Beispiel durch Angabe eines Gegenbeispiels.
+Beispiel(e)
+Wenn Betty im Februar 49 € ausgegeben hätte, dann läge das arithmetische Mittel bei 33 €. Das ist aber nicht exakt die Mitte zwischen 20 und 49.
+ |
+
+===== fuehrerschein · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K4, K6, Jahrgang 2015
+
+Führerschein
+Teilaufgabe 1:
+RICHTIG
+ | 27,9
+ | Teilaufgabe 2:
+RICHTIG
+ | Die Aussage ist falsch
+UND
+Begründung mit einem Gegenbeispiel (Bremen, Hamburg oder Saarland).
+
+Beispiel(e)
+Grenzfall: Feststellung, dass es Bundesländer gibt, in denen die Durchfallquote in der Theorie-Prüfung niedriger ist (ohne Nennung eines konkreten Beispiels).
+ |
+
+===== gluecksrad · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K4, Jahrgang 2011
+
+Glücksrad
+Teilaufgabe 1
+RICHTIG
+ |
+240 - mal 120 - mal 60 - mal Das kann ich nicht
+entscheiden, weil
+das ja Zufall ist.
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Etwa die Hälfte der eingezeichneten Sektoren ist grün gefärbt.
+Richtig ist dabei auch, wenn das Glücksrad in vier Viertel, sechs Sechstel etc. eingeteilt wird, von denen jeweils die Hälfte „grün“ markiert oder entsprechend beschriftet wird.
+ |
+
+===== gluecksraddrehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K3, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Glücksrad drehen
+Teilaufgabe 1
+RICHTIG
+ | Angabe des richtigen Winkels des Sektors C UND dessen Darstellung im Glücksrad.
+Anmerkungen:
+• Wird der Sektor C nicht beschriftet, wird dennoch Code 1 vergeben.
+• Sektor C kann auch neben Sektor A gezeichnet werden.
+• Sektor C kann auch an anderen Stellen im Kreis eingezeichnet werden
+
+Sektor A B C
+Winkel 20 ° 30 ° 120 °
+
+Zeichentoleranz:  2°
+
+C
+B
+A
+
+ODER (Grenzfall)
+Der Winkel wird korrekt eingezeichnet, es fehlt jedoch das Gradmaß in der Tabelle.
+ | FALSCH
+ | Alle fehlerhaften oder falschen Antworten.
+
+z. B.
+Der Winkel wird korrekt angegeben, jedoch wurde er nicht eingezeichnet.
+ | Teilaufgabe 2
+RICHTIG
+ | Anzahl der Lose mit dem Buchstaben C: 180 (Lose)
+Anzahl der Lose mit dem Buchstaben D: 90 (Lose)
+ |
+
+===== glueckssaeckchen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, Jahrgang 2016; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K1, K2, K5, K6, Jahrgang 2016
+
+Glückssäckchen
+Teilaufgabe 1:
+RICHTIG
+ | A
+UND
+Begründung mit vergleichendem Bezug auf die Anteile weißer Kugeln in den Säckchen, der bei A am höchsten ist.
+Beispiel(e)
+Der Anteil der weißen Kugeln ist bei Beutel A am höchsten, nämlich 50 %, bei B sind es nur 40 % und bei C nur 42,8 %.
+Bei Beutel A sind es genauso viele weiße wie schwarze Kugeln. Bei den beiden anderen Säckchen sind es mehr schwarze als weiße Kugeln.
+In A sind mehr weiße Kugeln als in B, aber gleich viele schwarze Kugeln. Die Wahrscheinlichkeit zu gewinnen ist bei A also größer als bei B. In A sind gleich viele weiße Kugeln wie in C, jedoch weniger schwarze Kugeln. Die Wahrscheinlichkeit zu gewinnen ist bei A also größer als bei C.
+(Grenzfall)
+A: , B: , C: ; ohne Anmerkung zum Vergleich
+ | Teilaufgabe 2:
+RICHTIG
+ |
+ | Teilaufgabe 3:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== gummibaeren · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2016
+
+Gummibären
+Teilaufgabe 1:
+RICHTIG
+ |
+ | Teilaufgabe 2:
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== hausaufgaben · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2016
+
+Hausaufgaben
+Teilaufgabe 1:
+RICHTIG
+ |
+Arbeitszeiten in Minuten 15 17 20 25
+Häufigkeit 3 1 6 2
+
+ | Teilaufgabe 2:
+RICHTIG
+ |
+15 min
+18 min
+20 min 24
+min
+
+ |
+
+===== haushaltsabfaelle · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+
+Auswertung – Haushaltsabfälle
+Teilaufgabe 1
+RICHTIG
+ | Sachsen
+ | Teilaufgabe 2
+RICHTIG
+ | Jede Zahl im Bereich [505;520], auch wenn diese in der angegebenen Genauigkeit nicht ablesbar sein mag.
+ |
+
+===== internetauktion · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K5, Jahrgang 2016
+
+Internetauktion
+Teilaufgabe 1:
+RICHTIG
+ | 94 €
+ | Teilaufgabe 2:
+RICHTIG
+ | 398 €
+ |
+
+===== kaumeinechance · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 1A, K1, K3, K6, Jahrgang 2013
+
+Auswertung – Kaum eine Chance
+Teilaufgabe 1
+RICHTIG
+ |
+[Anm.: Akzeptiert werden alle Werte im Intervall [0,16; 0,17] sowie die entsprechenden Prozentangaben.]
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== kugelnziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K2, Jahrgang 2017
+
+Kugeln ziehen
+
+RICHTIG
+ | 3
+ |
+
+===== liebstesschulfach · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K2, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, K6, Jahrgang 2017
+
+Liebstes Schulfach
+Teilaufgabe 1:
+RICHTIG
+ |
+9 17 17 9 26 50 26 100
+
+ | Teilaufgabe 2:
+RICHTIG
+ | Begründung, durch die deutlich wird, dass Deutsch nicht als Lieblingsfach zu wählen auch anders gedeutet werden kann, als in dem Sinne, dass man es generell nicht mag.
+Beispiel(e)
+Es heißt ja nur, dass sie andere Fächer mehr mögen als Deutsch.
+Man kann mehrere Lieblingsfächer haben.
+Wenn es nicht das liebste Fach ist, heißt es ja nicht, dass man es überhaupt nicht mag.
+ | FALSCH
+ | Alle anderen Antworten
+Beispiel(e)
+Die Schüler sollten ihr Lieblingsfach wählen.
+Die Schüler sollten ein Fach wählen, dass sie am meisten mögen.
+ |
+
+===== luftballons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K6, Jahrgang 2015
+
+Luftballons
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== menschaergeredichnicht · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K3, K6, Jahrgang 2015
+
+Mensch ärgere dich nicht
+Teilaufgabe 1:
+RICHTIG
+ |
+ | Teilaufgabe 2:
+RICHTIG
+ | Nein
+UND
+Begründung mit Bezug zur Gleichheit der Wahrscheinlichkeiten für 1 und 6.
+[Anm.: Es kann auch der Begriff der Schwierigkeit verwendet werden.]
+Beispiel(e)
+Die Wahrscheinlichkeit bleibt gleich, da entweder die 1 oder die 6 günstig ist und immer 6 mögliche Ausgänge da sind.
+Grenzfall: Weil beide gleich wahrscheinlich sind.
+ |
+
+===== muckibude · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017
+
+Muckibude
+Teilaufgabe 1:
+RICHTIG
+ | 400
+ | Teilaufgabe 2:
+RICHTIG
+ | 2015 UND 2016
+ |
+
+===== naschkatze · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+
+Auswertung - Naschkatze
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== nebenjob · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, K3, K5, K6, Jahrgang 2014
+
+Auswertung - Nebenjob
+Teilaufgabe 1
+RICHTIG
+ | 156
+ | Teilaufgabe 2
+RICHTIG
+ | Die Lösung ist richtig, wenn beide Spalten ohne Dopplungen komplett ausgefüllt sind und im Mittel 168 € pro Woche verdient werden.
+Beispiel(e)
+
+Leons letzter Arbeitsmonat
+Anzahl der
+Verdienst in Euro
+Arbeitsstunden
+1. Woche: 16 192
+Durchschnittlicher
+2. Woche: 15 180
+Verdienst pro Woche:
+168 Euro 3. Woche: 14 168
+4. Woche: 13 156
+5. Woche: 12 144
+
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+ |
+
+===== niederschlaege · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2015; Teilaufgabe 3: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2015
+
+Niederschläge
+Teilaufgabe 1:
+RICHTIG
+ | Es wird einer der Monate Januar, Februar, März, April, Mai, September, Oktober oder November genannt.
+[Anm.: Auch wenn mehrere der oben genannten Monate genannt werden, wird die Aufgabe als richtig gewertet. Werden auch vereinzelt falsche Monate genannt, wird die Aufgabe als falsch zu werten.]
+ | Teilaufgabe 2:
+RICHTIG
+ |
+wahr falsch
+Es gab einen Monat ohne Niederschlag.
+In mehr als der Hälfte der Monate regnete es weniger als
+im Durchschnitt.
+In den Monaten Juli, August und September regnete es
+zusammen mehr als im gesamten Rest des Jahres.
+
+ | Teilaufgabe 3:
+RICHTIG
+ | 142,7
+ |
+
+===== niederschlag · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 3: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015; Teilaufgabe 4: AFB III, Kompetenzstufe 4, K1, K4, Jahrgang 2015
+
+Niederschlag
+Teilaufgabe 1:
+RICHTIG
+ | Januar
+ | Teilaufgabe 2:
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | Teilaufgabe 3:
+RICHTIG
+ | Juni
+ | Teilaufgabe 4:
+RICHTIG
+ | Nein
+UND
+Begründung, auch beispielgebunden, dass man ausgehend von monatlichen Durchschnittswerten nicht auf die einzelnen Daten schließen kann.
+Beispiel(e)
+Man kann in einem Monat den heißesten Tag haben, der Rest sind nur kalte Tage.
+Im Juli betrug die Durchschnittstemperatur 18° C, im Mai 16° C. Nimmt man nun an, dass einer Durchschnittstemperatur nur zwei Daten zugrunde liegen, könnten dies im Juli 19° C und 17° C gewesen sein und im Mai
+20° C und 12° C.
+[Anm.: Es muss nicht explizit gesagt werden, dass 20>19 ist.]
+Übereinstimmenden Durchschnittswerten können sehr unterschiedliche Werte zugrunde liegen. Bei nur zwei Daten und einem Durchschnitt von z. B. 25° C könnten dies zweimal 25° C sein oder 40° C und 10° C.
+[Anm.: Hier wird nicht mit konkreten Werten aus dem Diagramm argumentiert. Es genügt auch, wenn ein Hinweis auf die Durchschnittstemperatur gegeben wird.]
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Nein, z. B. 20° C im Mai und 19° C im Juni.
+[Anm.: Der Bezug zu den monatlichen Durchschnittswerten bleibt unklar.]
+ |
+
+===== plaettchenziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2013
+
+Auswertung – Plättchen ziehen
+RICHTIG
+ |
+ |
+
+===== ratenbeimtest · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2015
+
+Raten beim Test
+Teilaufgabe 1:
+RICHTIG
+ | 0,25
+ | Teilaufgabe 2:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== restaurantgewinnspiel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K1, K3, K6, Jahrgang 2011
+
+Restaurantgewinnspiel
+Teilaufgabe 1
+RICHTIG
+ |
+richtig falsch
+Durchschnittlich jede einhundertste Rechnung muss nicht
+bezahlt werden.
+Bei 100 Gästen darf mit Sicherheit einer umsonst essen.
+Die Wahrscheinlichkeit, dass die Rechnung nicht bezahlt
+werden muss, liegt bei 1%.
+Jeden Abend muss mindestens ein Gast sein Essen nicht
+bezahlen.
+
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+7 100 10 100 19 100 20 100 7 10
+
+ |
+Teilaufgabe 3
+RICHTIG
+ | „Nein“ wird angekreuzt UND in der Begründung wird auf die sich nicht verändernde Ausgangssituation, warum jeder Gast dieselbe Gewinnwahrscheinlichkeit hat, Bezug genommen.
+
+Z. B.:
+Dies ist so, weil immer die gleichen 100 Kugeln im Behälter sind. Damit ist die Wahrscheinlichkeit zu gewinnen bei jedem Gast gleich.
+
+ODER
+Dies ist so, weil die Kugeln immer wieder zurückgelegt werden und die nächste Kugel nicht weiß, welche vorher gezogen wurde. („Der Zufall hat kein Gedächtnis.“)
+
+ODER
+Es bleiben immer gleich viele Kugeln im Behälter. Also bleibt die Wahrscheinlichkeit immer unverändert.
+
+ODER
+Es stimmt nicht, da er auch keine anderen Bedingungen hat als die anderen, die nicht gewonnen haben.
+ |
+RICHTIG
+ | ODER
+Das stimmt nicht, da die Gewinnwahrscheinlichkeit für jeden Gast 1 % beträgt, egal ob schon viele verloren haben.
+
+ODER
+Weil die Kugel immer wieder zurückgelegt wird.
+
+ODER (Grenzfall)
+Es hat nichts damit zu tun, ob heute schon jemand gewonnen hat.
+ | FALSCH
+ | Alle anderen Antworten,
+
+Z. B.:
+Der Gast hat nicht Recht, weil die Wahrscheinlichkeit immer gleich bleibt.
+Anm.: Ausführungen, warum die Wahrscheinlichkeit unverändert bleibt, fehlen. Wäre die Wahrscheinlichkeit mit 1 % genauer spezifiziert, wird die Aufgabe als richtig gewertet.
+
+ODER
+Die Behauptung ist falsch, weil die Kugeln immer neu gemischt werden, die Chancen also für jeden gleich sind.
+Anm.: Ausführungen, warum die Wahrscheinlichkeit unverändert bleibt, fehlen.
+
+ODER
+Man weiß ja nicht, wie viele Gäste da waren, vielleicht waren es nur zwei, dann ist die Chance sehr gering.
+
+ODER
+Er hat Recht, weil sich durch viele Fehlzüge die Chance zu gewinnen erhöht.
+
+ODER
+Es ist Zufall, ob man gewinnt oder nicht.
+
+ODER
+Es ist sehr unwahrscheinlich, dass der Gast etwas gewinnt.
+ |
+
+===== rotgelbgruen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K1, K3, Jahrgang 2017
+
+Rot, gelb, grün
+Teilaufgabe 1:
+RICHTIG
+ |
+1 7 5 7 1 12 5 12
+
+ | Teilaufgabe 2:
+RICHTIG
+ | Gelb
+UND
+Begründung, bei der auf den relativen Anteil der gelben Kugeln an der Gesamtzahl der Kugeln verwiesen wird.
+Beispiel(e)
+4 aus 12 Kugeln
+Grenzfall
+Die gelben Kugeln machen in der Urne ein Drittel aus.
+ |
+
+===== rubbellose · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2015
+
+Rubbellose
+Teilaufgabe 1:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ | Teilaufgabe 2:
+RICHTIG
+ | 100
+ |
+
+===== rundfunkgebuehren · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K3, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K4, Jahrgang 2014; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2014
+
+Auswertung - Rundfunkgebühren
+Teilaufgabe 1
+RICHTIG
+ | In Spalte 1 fehlt 1992.
+In Spalte 2 fehlt 5.
+In Spalte 3 fehlt 6,70 Euro.  Lösungen aus dem Intervall [6,20; 6,80] Euro sind richtig.
+[Anm.: Die fehlenden Daten können auch in der Tabelle notiert werden.
+In Spalte 1 kann auch "92" ergänzt werden.
+Wird für den fehlenden Wert in Spalte 3 nur "6,70" oder "6,7" angegeben ("EUR" fehlt), wird dies als richtig gewertet. Angaben in anderer Einheit sind richtig, sofern diese angegeben ist.
+Für den Wert in Spalte 3 ist ein Lösungsintervall angegeben, da die Lösung i. d. R. aus dem Diagramm abgelesen wird und erst ab Item 02 eine Auseinandersetzung mit Spalte 4, mithilfe derer der exakte Wert angegeben werden kann, erforderlich ist.]
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Einer der drei Einträge fehlt oder ist falsch.
+ | Teilaufgabe 2
+RICHTIG
+ | In Spalte 4 fehlt 1,70 Euro.
+In Spalte 5 fehlt 0,23 Euro. (Lösungsintervall: [0,22;0,23] Euro)
+[Anm.: Werden die fehlenden Werte nur z. B. mit "1,70" oder "1,7" angegeben ("EUR" fehlt), wird dies als richtig gewertet.
+Angaben in anderer Einheit sind richtig, sofern diese angegeben ist (z. B. 23 ct).]
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Einer der beiden Einträge fehlt oder ist falsch.
+ | Teilaufgabe 3
+RICHTIG
+ | Für die Bewertung als richtig genügt die Angabe eines Vorteils. Die Unterschiede werden nicht bewertet.
+Die genannten Unterschiede können rein beschreibend sein und sich auf die Art der Darstellung beziehen, können aber auch wertend sein, indem Vorteile benannt werden, die Abbildung 2 gegenüber Abbildung 1 aufweist.
+Die genannten Unterschiede gehen nicht in die Bewertung ein, es sei denn, hier wird bereits ein Vorteil erwähnt.
+[Anm.: Die Aufgabenstellung fordert zur Nennung von zwei Unterschieden auf, um das Eindenken in die Abbildung zu erleichtern.]
+Mögliche Vorteile, die genannt werden können:
+Abbildung 2 stellt die zeitliche Entwicklung der Gebühren besser (übersichtlicher) dar.
+Man hat regelmäßige Zeitabstände und ein Graph ist übersichtlicher.
+Man kann deutlich die Veränderung (den Preisunterschied) sehen.
+Man kann den Verlauf der steigenden Preise nachvollziehen.
+Abbildung 2 ist geeigneter, da man in ihr den Verlauf der Rundfunkgebühren besser sehen kann. (ODER Man kann den Verlauf der Gebühren viel besser erkennen.)
+Er hat einen besseren Maßstab und ist übersichtlicher.
+Man sieht genau die Steigung im Vergleich mit den anderen Jahren.
+Abbildung 2 kann als Funktionsgraph aufgefasst werden.
+In der Abbildung 2 kann man einen Graphen zeichnen. Somit kann man genauer erkennen, wie viel es gestiegen ist.
+Man sieht besser, wie es gestiegen ist.
+Man kann sich leichter vorstellen, wie schnell die Gebühren pro Jahr steigen.
+Die Jahressprünge sind gleich.
+Durch die regelmäßigen Jahresangaben kann man besser erkennen, wie sich die Gebühren verändert haben.
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Abbildung 2 ist übersichtlicher.
+Punkte kann man besser ablesen.
+Ohne Balken ist es übersichtlicher.
+Man kann eine Gerade zeichnen.
+Die Abbildung 2 ist anschaulicher, weil nicht sehr viele Daten dort stehen, die leicht durcheinander bringen.
+Abbildung 2 hat andere Jahreszahlen. (ODER Es sind andere Jahreszahlen.)
+Man kann erkennen, dass die Werte ansteigen.
+(Grenzfall)
+Es ist übersichtlicher und geht bis 2010, ist also viel praktischer.
+[Anm.: Unklar bleibt, was übersichtlicher ist.]
+(Grenzfall)
+Man kann die Werte in Abbildung 2 besser ablesen als in Abbildung 1.
+[Anm.: Unklar bleibt, dass insbesondere die Entwicklung der Gebührenerhöhungen besser erkennbar ist.]
+Man sieht nicht nur, wann die Gebühren gestiegen sind, sondern auch, wie sie in zehn Jahren gestiegen sind.
+[Anm.: Dies sieht man auch in der anderen Abbildung]
+ |
+
+===== saeulenhoehe · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, K5, Jahrgang 2013
+
+Auswertung – Säulenhöhe
+Teilaufgabe 1
+RICHTIG
+ | 6
+ | Teilaufgabe 2
+RICHTIG
+ | 10
+[Anm.: Die Säule kann auch in das Diagramm eingezeichnet werden.
+Toleranz:  1 mm)]
+ |
+
+===== schluessel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2017
+
+Schlüssel
+
+RICHTIG
+ |
+1 4 1 2 3 4 1 3
+0
+
+ |
+
+===== schokoladenbonbons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K3, K6, Jahrgang 2014
+
+Auswertung - Schokoladenbonbons
+Teilaufgabe 1
+RICHTIG
+ |
+ | Teilaufgabe 2
+RICHTIG
+ | Bonbondose 1
+UND
+korrekte Begründung, bei der die Wahrscheinlichkeiten, ein Bonbon mit dunkler Schokolade aus einer der beiden Dosen zu ziehen, verglichen werden.
+Beispiel(e)
+3 von 10 ist mehr als 3 von 14.
+1. Dose: insgesamt 10 Bonbons, davon 3 mit dunkler Schokolade, also:
+
+2. Dose insgesamt 14 Bonbons, davon 3 mit dunkler Schokolade, also:
+
+Da 30 % > 21 %, ist die Wahrscheinlichkeit in der ersten Dose höher.
+ |
+
+===== schulkleidung · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 3, K4, K6, Jahrgang 2017
+
+Schulkleidung
+Teilaufgabe 1:
+RICHTIG
+ | Ein Säulendiagramm ist gezeichnet, in dem:
+die drei Säulen für "ja", "nein" und "keine Angaben" in demselben Maßstab gezeichnet sind und jeweils die richtige Höhe haben,
+die Säulen bzw. die Hochachse nachvollziehbar beschriftet ist (auf der Hochachse genügt dabei die Angabe eines Wertes)
+[Anm.: 658 der Befragten haben keine Angaben gemacht (Auch: 3,7 % von 17812  659 wird akzeptiert.). Im Säulendiagramm können Absolut- oder Prozentangaben dargestellt werden. Die Angabe der Überschrift des Diagramms ist nicht zwingend erforderlich.]
+Beispiel(e)
+Mit absoluten Zahlen:
+
+Mit Prozent:
+
+Grenzfälle
+Statt eines Säulen- wird ein Balkendiagramm gezeichnet (waagerechte Ausrichtung der drei Säulen).
+Statt Säulen werden Striche gezeichnet.
+Nur zwei von drei Säulen werden beschriftet.
+ | FALSCH
+ | Alle anderen Antworten
+Beispiel(e)
+Eine Säule wird nicht dargestellt.
+Jegliche Beschriftung fehlt.
+Der Maßstab der drei Säulen stimmt nicht überein.
+Statt eines Säulen- wird ein Streifendiagramm gezeichnet.
+ | Teilaufgabe 2:
+RICHTIG
+ | Eine Erläuterung, in der herausgestellt wird, dass sich die Prozentangaben nur auf die Höhe beziehen, aber durch die Darstellung als Dreieck der untere Teil der Figur (das Trapez) optisch stärker betont wird.
+[Anm.: Die Lösung ist auch richtig, wenn analog mit der oberen kleineren Teilfläche argumentiert wird. Ebenso ist auch eine räumliche Interpretation der Figur (z. B. als Pyramide) zulässig.]
+Beispiel(e)
+Zwar entsprechen die Höhen der beiden Teilfiguren (Dreieck und Trapez) den Umfrageergebnissen, die Flächeninhalte jedoch nicht. Der Flächeninhalt des Trapezes ist größer, so dass man leicht denken kann, dass die Antwort "nein" deutlich überwiegt.
+Das Dreieck ist unten breiter, deshalb sieht es so aus, als ob das Dunkle mehr wäre. Oben wird es schmaler und das Helle sieht weniger aus.
+Sie hat "nein" als Unterteil des Dreiecks genommen, welches dann breiter und auffälliger ist.
+Sie hat den unteren Teil der "Säule" breiter dargestellt, der dadurch größer wirkt.
+Weil die Pyramide unten sehr dick und breit ist, sieht das aus, als ob sehr viele Schüler dagegen sind.
+Grenzfälle
+Weil das unten mehr aussieht.
+Weil die Fläche für "nein" größer ist.
+Lisas Position wird durch die unterschiedlich großen Flächeninhalte beider Teilfiguren verdeutlicht.
+Sie hat für die Prozentzahl für "nein" die untere Hälfte der Pyramide gewählt, so sieht es mehr aus, weil es mehr Volumen hat.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Die beiden Teilfiguren entsprechen nicht den Umfragedaten.
+Lisa wählt verschiedene Farben. Der dunklere Ton tritt deutlicher hervor.
+Sie hat das Dreieck in zwei Teile geteilt. Der helle Teil soll "ja" bedeuten, der dunkle "nein".
+"Nein" wird betont, weil sie es nach unten gestellt hat.
+Sie hat ihre Meinung in Prozenten dargestellt.
+Sie zeigt, dass nicht 100 % an der Befragung teilgenommen haben und deshalb nicht genau gesagt werden kann, wer will und wer nicht.
+ |
+
+===== schulstatistik · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Schulstatistik
+RICHTIG
+ |
+Gesamtschule Grundschule Sekundarschule Gymnasium
+
+ |
+
+===== schwarzweisswuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K3, K6, Jahrgang 2014
+
+Auswertung - Schwarz-Weiß-Würfel
+Teilaufgabe 1
+RICHTIG
+ |
+ | Teilaufgabe 2
+RICHTIG
+ | In einer richtigen Antwort wird die Anzahl der schwarzen bzw. weißen Würfelseiten als ausschlaggebend herausgestellt. Der Begriff Wahrscheinlichkeit muss nicht explizit erwähnt werden.
+Beispiele(e)
+Es sind sechs Würfelseiten und von diesen sind vier weiß, also kann die Wahrscheinlichkeit für eine weiße Würfelseite nicht (1)/(2) sein.
+Es sind vier weiße und nur zwei schwarze Seiten.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Tim hat nicht Recht, weil von vier Seiten nur zwei weiß gefärbt sind.
+ |
+
+===== spielwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 2, K3, K6, Jahrgang 2017
+
+Spielwürfel
+Teilaufgabe 1:
+RICHTIG
+ |
+ | Teilaufgabe 2:
+RICHTIG
+ |
+wahr falsch
+Je mehr Seitenflächen es sind, umso größer ist die
+Wahrscheinlichkeit.
+Wenn die gewünschte Zahl lange nicht gewürfelt wurde,
+ist die Wahrscheinlichkeit beim nächsten Wurf größer als
+vorher.
+
+ |
+
+===== sprechstunde · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Sprechstunde
+Teilaufgabe 1:
+RICHTIG
+ | 7
+ | Teilaufgabe 2:
+RICHTIG
+ | 10
+ |
+
+===== streichholzziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K6, Jahrgang 2016
+
+Streichholzziehen
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ | 69
+ |
+
+===== temperaturen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Temperaturen in Frankfurt am Main
+Teilaufgabe 1
+RICHTIG
+ | 5 (oder 5,0).
+Anm.: Wird das Gradzeichen zusätzlich angegeben, ist die Lösung dennoch als richtig zu kodieren.
+ |
+Teilaufgabe 2
+RICHTIG
+ | In das Diagramm wurde der fehlende Punkt bei 19,0 °C eingezeichnet.
+Zeichentoleranz:  1 mm
+ |
+Teilaufgabe 3
+RICHTIG
+ |
+In Frankfurt am Main … richtig falsch
+… ist der Dezember der Monat mit der tiefsten Durchschnitts -
+temperatur.
+… ist der Anstieg der Durchschnittstemperatur zwischen März
+und April größer als zwischen April und Mai.
+… beträgt der Unterschied zwischen der tiefsten und der
+höchsten Durchschnittstemperatur 16,8 °C.
+
+ |
+
+===== tombolazumschulfest · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2014
+
+Auswertung - Tombola zum Schulfest
+Teilaufgabe 1
+RICHTIG
+ | 90
+ | Teilaufgabe 2
+RICHTIG
+ | [Bild: image1.png]
+[Anm: Auch alle anders angeordneten Streifendiagramme sind richtig, wenn die Streifenbreite den jeweiligen Losarten entspricht:
+  -  kleine Gewinne/70: Streifenbreite 7 Kästchenlängen
+  -  mittlere Gewinne/30: Streifenbreite 3 Kästchenlängen
+  -  Hauptgewinne/10: Streifenbreite 1 Kästchenlänge
+  -  Nieten/90: Streifenbreite 9 Kästchenlängen.]
+ | FALSCH
+ | Alle anderen Antworten, auch richtige Diagramme ohne Beschriftung.
+ |
+
+===== waage · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013
+
+Auswertung – Waage
+Teilaufgabe 1
+RICHTIG
+ |
+54 kg 56 kg 56 kg 56 kg 57 kg 59 kg 65 kg 68 kg 69 kg
+
+ | Teilaufgabe 2
+RICHTIG
+ | 15
+ |
+
+===== wahrscheinlicher · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K1, K3, Jahrgang 2013
+
+Auswertung – Wahrscheinlicher
+RICHTIG
+ | Beim einmaligen Werfen einer Münze liegt "Kopf" oben.
+
+UND
+
+Begründung mit
+ - Verweis auf die Wahrscheinlichkeiten beider Ereignisse oder
+ - Vergleich der Anzahlen der möglichen Ergebnisse.
+[Anm.: Für p(Kopf) werden alle zu 1/2 wertgleichen Angaben akzeptiert, für p(6) alle Werte aus dem Intervall [0,15; 0,18].]
+
+Beispiel(e)
+• Die Wahrscheinlichkeit eine Sechs zu würfeln beträgt . Die Wahrscheinlichkeit, dass beim Münzwurf "Kopf" oben liegt, beträgt .
+• In beiden Fällen ist nur ein Ergebnis günstig. Beim Würfel sind sechs Ergebnisse möglich, bei der Münze nur zwei. Demnach ist die Wahrscheinlichkeit, eine Sechs zu würfeln, kleiner als die Wahrscheinlichkeit für "Kopf".
+• (Grenzfall)
+Weil es beim Würfel sogar sechs mögliche Ergebnisse gibt.
+[Anm.: "Sogar" lässt vermuten, dass ein Vergleich der beiden Ergebnismengen stattgefunden hat und die Abhängigkeit der Wahrscheinlichkeit von der Mächtigkeit des Ergebnisraums erkannt wurde.]
+• (Grenzfall)
+Weil es bei der Münze nur zwei Seiten gibt.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Beim einmaligen Werfen einer Münze liegt "Kopf" oben.
+Begründung:
+Denn eine Sechs fällt nur ganz selten.
+[Anm.: Hier wird nur mit "Lebenserfahrung" argumentiert.]
+ |
+
+===== werbelotterie · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K4, K5, Jahrgang 2017
+
+Werbelotterie
+Teilaufgabe 1:
+RICHTIG
+ |
+ | Teilaufgabe 2:
+RICHTIG
+ |
+ |
+
+===== werbemarkt · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K2, K3, K4, K6, Jahrgang 2016
+
+Werbemarkt
+RICHTIG
+ | eine Zahl aus dem Intervall [24; 28]
+UND
+Überlegungen, bei denen die kontinuierliche und fast gleichmäßige Zunahme der Werbeausgaben in den Jahren 2010 bis 2015 auf die folgenden drei Jahre bis 2018 fortgesetzt wird.
+Beispiel(e)
+Die Aufwendungen im Werbebereich sind in 5 Jahren um etwas mehr als 5 Mrd. € gestiegen. Das sind pro Jahr ungefähr 1 Mrd. €. Im Jahr 2018 werden dann also etwa 25 Mrd. € für Werbung aufgewendet.
+Die Zunahme der Aufwendungen im Werbebereich ist fast linear. Wenn man die Säulenspitzen mit einer Strecke verbindet und diese entsprechend verlängert, kann man die Werbekosten für das Jahr am Diagramm ablesen. Sie betragen im Jahr 2018 etwa 25 Mrd. €.
+ |
+
+===== wettkampfwaehlen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2015
+
+Wettkampf wählen
+RICHTIG
+ | Jungen: Fußball
+UND
+Mädchen: Volleyball
+ |
+
+===== winkelwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2016
+
+Winkelwürfel
+Teilaufgabe 1:
+RICHTIG
+ | 1. Kästchen wurde angekreuzt (1. Zeile)
+
+UND
+
+3. Kästchen wurde angekreuzt (2. Zeile)
+ | Teilaufgabe 2:
+RICHTIG
+ | 5 Zahlen, deren Summe 1 ergibt
+UND
+gleiche Wahrscheinlichkeiten für die Ergebnisse "1" und "2" bzw. für "3" und "5"
+Beispiel(e)
+
+Ergebnis
+1 2 3 4 5
+Anzahl 258 270 122 230 120 252
+Wahrscheinlichkeit 0,264 0,264 0,121 0,230 0,121
+Wahrscheinlichkeit 0,26 0,26 0,12 0,24 0,12
+Wahrscheinlichkeit 0,25 0,25 0,125 0,25 0,125
+
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+
+Ergebnis
+1 2 3 4 5
+Anzahl 258 270 122 230 120 252
+Wahrscheinlichkeit 0,258 0,270 0,122 0,230 0,120
+
+[Anm.: Nur die relativen Häufigkeiten werden ermittelt.]
+ |
+
+===== wuerfelnmitquader · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K3, K4, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2013
+
+Auswertung – Würfeln mit Quader
+Teilaufgabe 1
+RICHTIG
+ | [Bild: image1.png]
+
+[Anm.: Statt Zahlen sind auch eine entsprechende Anzahl von Punkten möglich]
+ |
+Teilaufgabe 2
+RICHTIG
+ | Die Zahlen müssen so eingetragen werden, dass folgende Bedingungen der Symmetrie und Normierung erfüllt sind:
+ - gegenüberliegende Flächen haben gleiche Werte
+ - die Wahrscheinlichkeiten ergeben zusammen 1
+ - kleinere Flächen haben kleinere Werte.
+
+Beispiel(e)
+•
+
+1 6 1 12 1 4 1 6 1 12 1 4
+Augenzahl 1 2 3 4 5 6
+Wahrscheinlichkeit 24,9% 8,1% 17,0% 17,0% 8,1% 24,9%
+Augenzahl 1 2 3 4 5 6
+Wahrscheinlichkeit 25% 8% 17% 17% 8% 25%
+Augenzahl 1 2 3 4 5 6
+Wahrscheinlichkeit
+
+[Anm.: Auch die Angabe gröberer Zahlen ist möglich.]
+ |
+
+===== wuerfelnmitzweiwuerfeln · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K2, K4, K5, K6, Jahrgang 2011
+
+Würfeln mit zwei Würfeln
+Teilaufgabe 1
+RICHTIG
+ | (1,5), (5,1), (2,4), (4,2), (3,3)
+
+Die Ergebnisse können auch in anderer Reihenfolge oder anderer Darstellungsform angegeben werden, z. B. durch Einkreisen der zugehörigen „Würfe“ o. ä.
+
+Z. B.:
+1 und 5, 2 und 4, zweimal die drei, 4 und 2, 5 und 1
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+
+  (alle gleichwertigen Darstellungen erlaubt)
+
+Z. B.:
+
+ODER
+
+ODER
+Ca. 17 %
+ |
+Teilaufgabe 3
+RICHTIG
+ |
+Es ist mindestens eine 1 dabei.
+Die Würfelsumme ist genau 9.
+Die Würfelsumme ist genau 2.
+Es ist genau eine 5 dabei.
+
+ |
+
+===== zaehlungvonfahrzeugen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Zählung von Fahrzeugen
+RICHTIG
+ | Richtige Zeichnung
+
+300
+260
+220
+180
+140
+100
+60
+20
+Motorräder / Bus PKW LKW
+Mofas und andere
+
+Anm.:
+• Zulässige Abweichung der Höhen der Säulen: 1 mm.
+• Die Säulen dürfen unterschiedlich breit sein.
+• Die Säulen dürfen durch Striche dargestellt werden.
+ | FALSCH
+ | Alle anderen Antworten, z. B. wenn eine Säule zu ungenau gezeichnet wurde oder vollständig fehlt.
+ |
+
+===== zahlenwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K3, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 1A, K3, K6, Jahrgang 2013
+
+Auswertung – Zahlenwürfel
+Teilaufgabe 1
+RICHTIG
+ |  (oder gleichwertige Angabe, wie z. B.  3, %)
+[Anm.: Auch gerundete und mit "etwa" versehene Angaben sind richtig,  z. B. "etwa 3 %" oder "etwa 0,03" oder "etwa 3,3 %".]
+
+Beispiel(e)
+• (Grenzfall)
+3,3 % (oder "3 %" oder "0,03")
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• 1:29 (Chancenverhältnis)
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 3
+RICHTIG
+ | Nein
+
+UND
+
+eine Antwort, in welcher auf einen der folgenden Aspekte Bezug genommen wird:
+ - Unabhängigkeit der einzelnen Würfe oder
+ - Gleichwahrscheinlichkeit aller Ergebnisse oder
+ - Zufälligkeit der Ergebnisse oder
+ - Analogie zum Ziehen mit Zurücklegen.
+[Anm.: Wird in der Antwort der Begriff "Wahrscheinlichkeit" mit dem Begriff "Chance" verwechselt, wird die Aufgabe als richtig gewertet.]
+
+Beispiel(e)
+• Beim nächsten Wurf fällt jede der 30 Zahlen mit derselben Wahrscheinlichkeit (also auch die 2).
+• Keine der Zahlen ist bevorzugt.
+• Bei jedem Wurf kann jede der Zahlen fallen.
+• Der Würfel hat kein Gedächtnis (und weiß nicht, dass die Zahl 2 noch "fehlt").
+• (Grenzfall)
+"Er hat nicht Recht, denn eine Zahl kann auch zweimal fallen."
+[Anm.: Die Zufälligkeit eines einzelnen Ergebnisses scheint erkannt worden zu sein, aber hier wurde überlesen, dass die Zahl 2 bisher noch gar nicht gefallen war.]
+ |
+zu Teilaufgabe 3
+FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Stefan hat Recht, denn nach 29 Würfen ist nur noch die 2 übrig.
+ |
+
+===== zufallsversuche · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2012; Teilaufgabe 4: AFB III, Kompetenzstufe 3, K2, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Zufallsversuche
+Teilaufgabe 1
+RICHTIG
+ |
+ Ereignis Ergebnisse (Ausgänge)
+ Die Augenzahl ist gerade. 2, 4, 6, 8, 10, 12
+ Die Augenzahl ist durch 5 teilbar. 5, 10
+ Die Augenzahl ist kleiner als 5. 1, 2, 3, 4
+ Die Augenzahl ist zweistellig und ungerade. 11
+
+Anm.: Die Tabelle muss vollständig ausgefüllt sein.
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtig ist die Beschreibung eines Ereignisses mit nur drei Ergebnissen. Diese müssen nicht genannt werden.
+
+z. B.
+Die Augenzahl ist kleiner als 4.
+
+ODER
+Der Würfel zeigt eine 5, 6 oder eine 11.
+
+ODER
+Die Augenzahl ist zweistellig.
+
+ODER
+Die Augenzahl ist durch 4 teilbar.
+ |
+
+Teilaufgabe 3
+RICHTIG
+ | Häufigste Augensumme (13) UND richtige Begründung unter Verweis auf deren relative/absolute Häufigkeit in Abgrenzung zur relativen/absoluten Häufigkeit der anderen möglichen Augensummen.
+
+z. B.
+Die Augensumme 13 ist am häufigsten, da sie in 12 von 144 Kombinationen fällt. Für alle anderen Augensummen gibt es weniger Kombinationsmöglichkeiten (siehe Übersicht).
+ | RICHTIG
+ |
+1 2 3 4 5 6 7 8 9 10 11 12
+1 2 3 4 5 6 7 8 9 10 11 12 13
+2 3 4 5 6 7 8 9 10 11 12 13 14
+3 4 5 6 7 8 9 10 11 12 13 14 15
+4 5 6 7 8 9 10 11 12 13 14 15 16
+5 6 7 8 9 10 11 12 13 14 15 16 17
+6 7 8 9 10 11 12 13 14 15 16 17 18
+7 8 9 10 11 12 13 14 15 16 17 18 19
+8 9 10 11 12 13 14 15 16 17 18 19 20
+9 10 11 12 13 14 15 16 17 18 19 20 21
+10 11 12 13 14 15 16 17 18 19 20 21 22
+11 12 13 14 15 16 17 18 19 20 21 22 23
+12 13 14 15 16 17 18 19 20 21 22 23 24
+
+Anm.: Die Tabelle muss nicht vollständig sein, wenn daraus hervorgeht, dass die 13 als Diagonale in jeder Spalte und Zeile vorkommt. Alternativ könnte der Ergebnisraum auch mittels eines verkürzten Baumdiagramms dargestellt werden.
+
+ODER
+Die Argumentation über Symmetrie: Mögliche Augensummen sind 2, 3, ..., 24. Die Zahl in der Mitte kommt am häufigsten vor. Dies ist die 13.
+Anm.: Diese Lösung muss keine tabellarische Übersicht aller möglichen Ergebnisse aufweisen.
+
+ODER
+Die Zahl des 1. Würfels kann mit 12 verschiedenen Zahlen des 2. Würfels kombiniert werden. Die 2 ist dabei die kleinste Augensumme, die 24 die größte Augensumme. Die 13 ist dabei die häufigste Augensumme. Dies liegt daran, dass egal welche Zahl der 1. Würfel zeigt, der 2. Würfel immer eine passende Augenzahl zeigen kann, so dass sich als Summe 13 ergibt. Dies ist bei den anderen Zahlen nicht der Fall. Denn zeigt der 1. Würfel z. B. eine 12, dann kann niemals eine Augensumme kleiner als 13 herauskommen. Zeigt der 1. Würfel hingegen eine 1, kann keine Augensumme größer als 13 herauskommen. Die Augensumme 13 ist bei beiden Fällen aber möglich.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B.
+Die Augensumme 13 ist am häufigsten, da es am meisten Kombinationen mit dieser Augensumme gibt.
+Anm.: Begründung fehlt. (Ohne Bezug auf eine Tabelle.)
+
+ODER
+Die häufigste Augensumme ergibt sich immer nach dem Muster n + 1. Also ist 13 die häufigste Augensumme.
+Anm.: Das Muster n + 1 wird nicht begründet bzw. erläutert.
+ |
+Teilaufgabe 4
+RICHTIG
+ |
+2 n n · n n + 1 n + 2
+
+ |

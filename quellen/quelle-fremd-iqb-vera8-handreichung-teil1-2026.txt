@@ -1,0 +1,214 @@
+Quelle: VERA-3 und VERA-8 2026, Didaktische Handreichung Teil I (allgemeiner Teil, ohne Aufgaben), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V3u8-2026_Did-Hdrg-Teil-I_2025-12-16_85VlvLj.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 6 (pdfinfo)
+Lizenzvermerk: kein Vermerk
+Textfassung: pdftotext -layout (poppler).
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+     Vergleichsarbeiten
+ 3. und 8. Jahrgangsstufe
+   (VERA-3 und VERA-8)
+Didaktische Handreichung
+            Teil I
+
+
+
+
+Allgemeine Erläuterungen zu
+           VERA
+Inhalt
+
+1.       Was sind die Vergleichsarbeiten (VERA) in der 3. und 8. Jahrgangsstufe?................. 2
+2.       VERA-Testhefte und Bildungsstandards ...................................................................... 3
+3.       Aufbau der Testaufgaben ............................................................................................. 4
+4.       Testauswertung und Ergebnisinterpretation ................................................................. 4
+
+
+
+
+                                                             1
+1. Was sind die Vergleichsarbeiten (VERA) in der 3. und 8. Jahr-
+   gangsstufe?
+Im Frühjahr jedes Jahres werden in den 3. und 8. Klassen der allgemeinbildenden Schulen in
+Deutschland parallel sogenannte Vergleichsarbeiten (oder kurz VERA) in den Fächern
+Mathematik, Deutsch und/oder erste Fremdsprache (Englisch/Französisch, nur VERA-8)
+und/oder im Fach Französisch in der zweiten Fremdsprache (nur VERA-8) geschrieben. VERA
+geht auf einen Beschluss der Kultusministerkonferenz zurück, schließt an ähnliche
+Erhebungen einzelner Länder in früheren Jahren an und wird jährlich durchgeführt. Die
+zentrale Funktion von VERA liegt in der Unterstützung der Lehrkräfte bei der Unterrichts- und
+Schulentwicklung.
+Die Länder haben sich im März 2012 auf gemeinsame Zielsetzungen und einheitliche
+Rahmenbedingungen sowie Regeln im Umgang mit den Daten und Ergebnissen verständigt.
+Mit der im März 2018 beschlossenen „Vereinbarung zur Weiterentwicklung der
+Vergleichsarbeiten (VERA)“ (vgl. Beschluss der Kultusministerkonferenz vom 08.03.2012
+i. d. F. v. 15.03.2018) wurde die Funktion von VERA als Instrument der Schul- und
+Unterrichtsentwicklung noch einmal gestärkt. In diesem Rahmen wurden auch Verabredungen
+im Hinblick auf die Weiterentwicklung des Testinstruments getroffen, das seit dem VERA-
+Durchgang 2020 eingesetzt wird (vgl. https://www.kmk.org/themen/qualitaetssicherung-in-
+schulen/bildungsmonitoring/verfahren-zur-qualitaetssicherung-auf-schulebene.html).
+Das Institut zur Qualitätsentwicklung im Bildungswesen an der Humboldt-Universität zu Berlin
+(IQB) entwickelt im Auftrag der Länder die Testaufgaben und Ergänzungsmaterialien für
+VERA.
+Zuständig für die Durchführung von VERA sind die Länder. Sie organisieren sowohl den Ablauf
+als auch die Ergebnisrückmeldung in eigener Verantwortung und haben dabei teilweise
+unterschiedliche Regelungen getroffen, da das Testverfahren in jeweils landesspezifische
+Strategien der Qualitätssicherung und Qualitätsentwicklung eingebettet ist und die konkreten
+Regelungen den Gegebenheiten vor Ort Rechnung tragen müssen. So werden zum einen die
+Arbeiten u. U. nicht in allen Fächern verpflichtend geschrieben; zum anderen unterscheidet
+sich die Form der Ergebnisrückmeldung. Auch die Bezeichnung für VERA variiert zwischen
+den Ländern – so sind z. B. auch Benennungen wie Kompetenztest, Lernstandserhebung oder
+KERMIT üblich. Die Testdurchführung und die Eingabe der Lösungen der Schülerinnen und
+Schüler liegt in der Regel in der Verantwortung der Lehrkräfte und in einigen Ländern bei
+externen Test-leitungen.
+Im Unterschied zu internationalen Schulleistungsuntersuchungen wie PISA, IGLU oder TIMSS
+ist VERA kein stichprobengestütztes Verfahren auf der Ebene des Schulsystems, mit dem die
+Leistungsfähigkeit des schulischen Bildungssystems beobachtet und evaluiert wird. VERA ist
+vielmehr ein Instrument der Unterrichtsentwicklung, mit dem Lehrkräfte feststellen können,
+inwieweit ihre Schülerinnen und Schüler die abschlussbezogenen Bildungsstandards bereits
+ein Jahr vor ihrem Erreichen erfüllen. Die Ergebnisse liefern den Lehrkräften wichtige Hinweise
+auf Stärken und Schwächen in jeder einzelnen Klasse. Häufig unterrichten die Länder auch
+die Schülerinnen und Schüler bzw. deren Eltern in zentraler, schriftlicher Form über die
+Ergebnisse. Die VERA-Ergebnisse bilden für die Lehrkräfte in Ergänzung zu ihren
+unterrichtspraktischen-professionellen Erfahrungen einen wichtigen Ansatzpunkt dafür, in
+welchen Bereichen im Unterricht verstärkt inhaltliche Schwerpunkte gesetzt werden müssen,
+damit möglichst alle Schülerinnen und Schüler die Regelstandards erreichen. Wie dies erreicht
+werden kann und welche konkreten Maßnahmen dazu in der einzelnen Schule jeweils
+umgesetzt und anschließend auch überprüft werden müssen, sollte vor dem Hintergrund der
+Ergebnisse gemeinsam in den Kollegien und Fachkonferenzen diskutiert und vereinbart
+werden.
+
+
+
+
+                                              2
+2. VERA-Tests und Bildungsstandards
+Alle Testheftversionen enthalten unterschiedlich schwierige Aufgaben, sodass individuelle
+Leistungsunterschiede auch innerhalb von heterogenen Klassen angemessen berücksichtigt
+werden.
+Die Kompetenzorientierung des Tests ergibt sich durch die Entwicklung der einzelnen
+Testaufgaben auf der Basis der länderübergreifenden Bildungsstandards. Die Bildungs-
+standards bilden seit dem Schuljahr 2004/2005 die Grundlage für die Lehrpläne und
+beschreiben, welche Kompetenzen Schülerinnen und Schüler am Ende der 4. und 9.
+Jahrgangsstufe in der Regel beherrschen sollen (Regelstandards). Für die Sekundarstufe I
+gibt es Bildungsstandards sowohl für den ersten Schulabschluss bzw. den
+Hauptschulabschluss (ESA/HSA) als auch für den Mittleren Schulabschluss (MSA).
+Die KMK-Bildungsstandards in der Fassung von 2003/2004 wurden bzw. werden zurzeit
+überarbeitet. Für die Fächer Deutsch und Mathematik in der Primarstufe und Sekundarstufe I
+wurden sie in ihrer neuen Fassung im Jahr 2022 bzw. für die Fächer Englisch und Französisch
+in der Sekundarstufe I im Jahr 2023 veröffentlicht. Die vorliegenden Testaufgaben beziehen
+sich noch auf die alten Bildungsstandards von 2003/2004. Weitere Informationen finden Sie
+hier: https://www.iqb.hu-berlin.de/bista/WeiterentwicklungBiSta/
+Das IQB operationalisiert die Bildungsstandards in konkreten Testaufgaben. Bildungs-
+standards sind fachdidaktisch begründete und auf mittlerem Abstraktionsgrad formulierte
+Leistungserwartungen an die Schülerinnen und Schüler. Sie nehmen damit eine Mittelstellung
+zwischen sehr allgemeinen Bildungszielen einerseits und konkreten Aufgabenstellungen
+andererseits ein und setzen diese miteinander in Beziehung. Sie sind dadurch sowohl
+zukunfts- und verwendungsoffen als auch gesellschaftlich konsensfähig. Mithilfe der
+Testergebnisse kann nachgewiesen werden, wie gut Schülerinnen und Schüler in der Lage
+sind, fachbezogene Aufgaben und Probleme zu lösen. 1
+Bildungsstandards bestehen dreidimensional aus
+•   einer generalisierten inhaltsbezogenen Komponente (Leitidee, Basiskonzept), die am
+    ehesten den Inhalten traditioneller Lehrpläne entspricht,
+•   einer prozessual-formalen Komponente (allgemeine fachbezogene Kompetenzen)
+•   und einer eher kognitiven Komponente (Anforderungsbereiche, z. B. Anwendung, Über-
+    tragung, Kritik).
+Sie fokussieren auf den Kernbereich des jeweiligen Faches und zielen auf kumulatives, d. h.
+systematisch vernetztes Lernen ab. Ihre Schwerpunkte liegen stärker auf den
+prozessbezogenen und weniger auf den inhaltsbezogenen Kompetenzen.
+Die Bildungsstandards der ersten Fremdsprache werden zudem auf den Gemeinsamen
+Europäischen Referenzrahmen für Sprachen des Europarates (kurz: GER) bezogen. Diese
+Spezifik wird in Teil II der entsprechenden Handreichung fachspezifisch ausgeführt.
+Für das Konzept der Bildungsstandards sind damit zwei Grundsätze maßgeblich:
+1. Die Standards bauen zwar auf einer (kumulativ zu erweiternden) Basis des theoretischen
+   Fachwissens auf, zielen aber vor allem auf das reale Handeln(-Können) und reflexiv-
+   kritische Bewerten(-Können) ab. Das Lösen von fachlichen Problemen wird über einen
+   langfristigen Kompetenzaufbau angestrebt.
+2. Die Standards sind outputorientiert, enthalten also Zielformulierungen und geben den
+   Lehrkräften lediglich Hinweise, wie diese Ziele erreicht werden können. Jede Schule bzw.
+   Fachkonferenz soll in Form eines Schulcurriculums einen eigenen, den jeweiligen
+
+1 Das Kompetenz-Konzept der Bildungsstandards unterscheidet sich dementsprechend von den sog. Schlüssel-
+
+kompetenzen (fachliche, methodische, soziale und personale Kompetenz) der berufspädagogischen Diskussion.
+Zum Konzept der Bildungsstandards siehe die sog. Klieme-Expertise, zugänglich u. a. beim BMBF
+(https://www.researchgate.net/publication/281345382_Zur_Entwicklung_nationaler_Bildungsstandards_Eine_Exp
+ertise_Stand_Juni_2003).
+
+
+                                                    3
+   Schülerinnen und Schülern angepassten, fördernden und differenzierenden Weg zu den
+   Zielen finden.
+Die VERA-3-Arbeiten beziehen sich auf die Bildungsstandards der 4. Klasse. Der relativ frühe
+Testzeitpunkt in der 3. Klasse ist bewusst gewählt, da auf diese Weise frühzeitig erkannt wird,
+in welchen Bereichen Stärken und Schwächen bestehen, auf deren Grundlage
+Fördermaßnahmen rechtzeitig eingeleitet werden können.
+Die VERA-8-Arbeiten beziehen sich auf Bildungsstandards der 9. bzw. 10. Klasse. Der frühe
+Testzeitpunkt – drei Monate vor Ende der 8. Klasse – verschafft den Lehrkräften genügend
+Zeit, den Kompetenzstand der Klasse bezogen auf den Haupt- bzw. Mittleren Schulabschluss
+zu verorten und passende Fördermaßnahmen einzuleiten.
+
+
+3. Aufbau der Testaufgaben
+Die Testaufgaben bestehen aus einer Anleitung, einem Stimulus (z. B. Lese- oder Hörtext,
+Abbildung) und z. T. mehreren Aufgabenstellungen (den Items bzw. Teilaufgaben). Die
+Teilaufgaben sind in der Regel unabhängig voneinander lösbar. Die Lösung kann in Form einer
+Ankreuzaufgabe, als Lücken- bzw. Kurzantwort oder mit ausführlicher Darlegung des
+Lösungsweges gefordert werden.
+Die in den VERA-Testheften eingesetzten Aufgaben wurden von erfahrenen Lehrkräften aus
+allen Schulformen und allen Ländern entwickelt und erprobt, anschließend von
+Wissenschaftlerinnen und Wissenschaftlern aus den jeweiligen Fachdidaktiken, die mit den
+Bildungsstandards vertraut sind, bewertet und überarbeitet. Fachvertretungen aus den
+Ländern begutachten und diskutieren die Aufgaben, die dann nach einer erneuten
+Überarbeitungsphase schließlich ein Jahr vor ihrem Einsatz an einer Stichprobe von ca. 3.000
+Schülerinnen und Schülern erprobt werden.
+Dieser aufwendige Vortest soll zum einen sicherstellen, dass die auf ihre fachdidaktische Güte
+überprüften Aufgaben sowohl fair (bspw. geschlechterneutral, Minderheiten nicht
+benachteiligend etc.) als auch trennscharf sind (d. h.: schwierigere Aufgaben werden eher von
+leistungsstärkeren als von leistungsschwächeren Schülerinnen und Schülern gelöst). Zum
+anderen lassen sich über diesen Vortest realistische Schwierigkeitswerte der Aufgaben
+gewinnen, welche die Grundlage für die Zusammenstellung der Tests sind.
+Die Bepunktung des Tests ist für Lehrkräfte zum Teil etwas ungewöhnlich, da sie sich von der
+bekannten Bepunktung (z. B. in Klassenarbeiten) etwas unterscheidet. Damit das
+Testergebnis eindeutig interpretiert werden kann, dürfen nur vollständig gelöste Aufgaben als
+„richtig“ gewertet werden. Anders als bei Klassenarbeiten, bei denen die individuelle
+Leistungsfeststellung im Vordergrund steht, handelt es sich bei den Vergleichsarbeiten um
+diagnostische Tests, mit denen der Lernstand von Lerngruppen festgestellt werden soll.
+Zentral ist eine möglichst genaue Zuordnung des erzielten Lernstandes zu den in den
+Bildungsstandards beschriebenen fachlichen Anforderungen. Die Bewertung bzw.
+Anerkennung erbrachter Teilleistungen ist hierzu nicht erforderlich bzw. kann das Testergebnis
+nur anhand vollständig gelöster Aufgaben eindeutig interpretiert werden.
+Es handelt sich also bei den in VERA verwendeten Aufgaben um Testaufgaben; sie sollen
+einzelne Aspekte der Bildungsstandards möglichst trennscharf und zuverlässig abprüfen. Für
+den Kompetenzerwerb eignen sich hingegen Lernaufgaben grundsätzlich besser. Die
+vorliegende Handreichung soll dazu beitragen, abgeleitet von den Testaufgaben Ideen für
+Unterrichtsaufgaben und Lernaufgaben zu entwickeln, die als bereicherndes
+Gestaltungselement kompetenzfördernd und lernwirksam im Unterricht einsetzbar sind.
+
+
+4. Testauswertung und Ergebnisinterpretation
+Die einfachste Form der Ergebnisrückmeldung besteht in der Angabe, wie viel Prozent der
+Schülerinnen und Schüler eine Aufgabe korrekt gelöst haben (Lösungshäufigkeit). Wenn die
+
+                                              4
+Lehrkräfte hierzu Vergleichswerte erhalten (z. B. Ergebnisse anderer Klassen oder Schulen),
+ist ihnen eine näherungsweise Verortung ihrer Klasse möglich.
+Zusammengefasste Klassenergebnisse eines VERA-Tests sind als zuverlässig zu betrachten
+und bieten für Lehrkräfte einen hohen Nutzen als Orientierungshilfe hinsichtlich der
+Kompetenzentwicklung ihrer Klasse/n im Vergleich zu anderen Klassen. Um diesen Nutzen,
+der den Ausgangspunkt für eine kompetenzorientierte Unterrichtsentwicklung bilden kann,
+nicht einzuschränken, sind spezielle Vorbereitungsmaßnahmen (teaching to the test) sowie
+unzulässige Hilfestellungen bei der Testdurchführung zu vermeiden.
+Da die Schwierigkeitsgrade der meisten Aufgaben bekannt sind, kann durch eine statistische
+Berechnung für jede Schülerin und jeden Schüler auch ein Wert für ihre/seine Kompetenz
+zurückgemeldet werden. Diese Werte (wie sie auch von PISA bekannt sind) werden durch
+Beschreibungen der Kompetenzniveaus inhaltlich veranschaulicht. Dieses individuelle
+Testergebnis bedarf jedoch ergänzender diagnostischer Informationen, z. B. zum individuellen
+Lernfortschritt, um für die einzelne Schülerin bzw. den einzelnen Schülerin diagnostisch
+aussagekräftig zu sein.
+
+
+
+
+                                             5
+

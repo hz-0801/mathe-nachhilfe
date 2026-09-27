@@ -1,0 +1,1206 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 3 (Raum und Form)“, IQB Berlin – Aufgabe
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L3_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Aufgabe“ mit 1–4 Seiten; hier 42 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: je Aufgabendatei im Kopf als Bild, Wortlaut je Aufgabe unten
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== ansichteneinestischs · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Ansichten eines Tischs
+[Bild: image1.png]
+[Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de I Q) p _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Ansichten eines Tischs
+
+Auf einem Tisch befinden sich die Gegenstande Teller, Gabel, Glas und Tasse mit
+Untertasse. Der Tisch wurde von verschiedenen seitlichen Kamerapositionen A bis D aus
+fotografiert. Abbildung 1 zeigt die Ansicht von oben.
+
+Cc
+
+Abbildung 1
+
+Ordne den folgenden Abbildungen die Kameraposition zu, von der aus jeweils
+fotografiert wurde.
+
+Gib unter jeder Abbildung den jeweils zutreffenden Buchstaben an.
+
+Abbildung 2
+
+Abbildung 2 zeigt die Ansicht aus der Kameraposition
+
+Abbildung 3
+
+Abbildung 3 zeigt die Ansicht aus der Kameraposition
+
+Abbildung 4
+
+Abbildung 4 zeigt die Ansicht aus der Kameraposition _
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== besonderevierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Besondere Vierecke
+
+Es soll ein Rechteck gezeichnet werden. Eine Seite ist bereits eingezeichnet.
+Vervollständige diese zu einem Rechteck.
+Zeichne mit Geodreieck, Lineal oder Zirkel.
+
+===== bewegec · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Bewege C
+
+Mit einer Geometrie - Software wurde Folgendes konstruiert:
+eine Strecke AB, dazu die Mittelsenkrechte m und ein Punkt C auf m. C wird mit A und B
+verbunden, um das Dreieck ABC zu erhalten.
+Der Punkt C wird auf der Mittelsenkrechten m nach unten bewegt. In der Zeichnung siehst du
+zwei Beispiele mit verschiedenen Positionen von C:
+m m
+C
+35 °
+C
+45 °
+M M B A B A
+
+Teilaufgabe 1: Bewege C
+
+C soll so weit nach unten bewegt werden, dass ein gleichseitiges Dreieck ABC entsteht.
+Konstruiere dieses Dreieck in Figur 1.
+m
+M B A
+Figur 1
+
+ | M35007_A
+ | Teilaufgabe 2: Bewege C
+
+C soll so weit bewegt werden, dass der Winkel bei C ( ACB) 132 ° groß ist.
+Konstruiere dieses Dreieck in Figur 2.
+m
+M A B
+Figur 2
+
+ | M35007_C
+ |
+
+===== briefmarkenschachteln · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Briefmarkenschachteln
+
+Martin sammelt neuerdings Briefmarken. Er will sie vorläufig in kleinen, selbst gebastelten
+Schachteln aufbewahren.
+Hier sind Netze für weitere Schachteln. Vor dem Zusammenkleben beschriftet sie Martin.
+Vervollständige die Beschriftung.
+
+Teilaufgabe 1
+
+SCHWEIZ
+S C H W
+
+Teilaufgabe 2
+
+PORTUGAL
+P O R T
+U
+G
+A
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Briefmarkenschachteln
+
+Martin sammelt neuerdings Briefmarken. Er will sie vorlaufig in kleinen, selbst gebastelten
+Schachteln aufbewahren.
+
+1} TJAYTL
+
+Hier sind Netze fur weitere Schachteln. Vor dem Zusammenkleben beschriftet sie Martin.
+
+Vervollstandige die Beschriftung.
+
+Teilaufgabe 1
+
+SCHWEIZ
+S|C}]H|W
+Teilaufgabe 2
+PORTUGAL
+P/O/;R{IT
+
+c
+
+oO
+
+>
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== drehkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Drehkörper
+
+Ein Körper, der aus fünf gleich großen Würfeln besteht, wird gedreht.
+
+Welcher der folgenden Körper kann sich ergeben?
+Kreuze an.
+
+ | M35008_A
+ |
+
+===== dreieckeergaenzen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Dreiecke ergänzen
+
+Ergänze das gegebene Dreieck zu zwei verschiedenen Parallelogrammen.
+
+===== eckenanpyramiden · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Ecken an Pyramiden
+
+Die Abbildung zeigt eine Pyramide. Sie hat fünf Flächen:
+eine viereckige Grundfläche und vier dreieckige
+Seitenflächen.
+Gib an, wie viele Ecken diese Pyramide hat.
+Ecken
+
+===== eckenundkanten · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Ecken und Kanten
+
+Ergänze die Tabelle.
+Gesamtzahl der Gesamtzahl der
+Ecken Kanten
+Quader
+12
+Pyramide mit viereckiger
+Grundfläche
+5
+
+===== eingefaerbterkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Eingefärbter Körper
+
+Der dargestellte Körper besteht aus drei gleich großen Würfeln.
+Dieser Körper wird vollständig in Farbe getaucht.
+
+Nach dem Färben wird der Körper wieder in die einzelnen Würfel zerlegt.
+Gib an, wie viele Seitenflächen insgesamt ungefärbt sind.
+Seitenflächen
+
+===== fahrtrichtunggeradeaus · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Fahrtrichtung geradeaus
+
+Dieses Verkehrszeichen zeigt an: „Vorgeschriebene Fahrtrichtung - geradeaus“.
+
+Teilaufgabe 1
+
+Zeichne eine Symmetrieachse in das Bild ein.
+
+Teilaufgabe 2
+
+Wie viele Symmetrieachsen hat dieses Verkehrszeichen insgesamt?
+Kreuze an.
+1 2 3 4
+
+===== geometrischekoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Geometrische Körper erkennen
+
+In der nachfolgenden Tabelle sind Körper benannt.
+Prüfe, ob diese in der Abbildung zu sehen sind.
+Kreuze jeweils an.
+ja nein
+Zylinder
+Quader
+Pyramide
+Kegel
+Kugel
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) ® _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Geometrische KOrper erkennen
+
+\@ 9 o@P
+
+In der nachfolgenden Tabelle sind Kérper benannt.
+Priife, ob diese in der Abbildung zu sehen sind.
+Kreuze jeweils an.
+
+ja nein
+Zylinder oO oO
+Quader oO oO
+Pyramide oO |
+Kegel oO oO
+Kugel oO |
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== grosserwagen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Großer Wagen
+
+Gregor zeichnet 6 Sterne, die zum Sternbild „Großer Wagen“ gehören, vereinfacht in ein
+Koordinatensystem.
+y
+5
+3
+1. Stern
+5. Stern 4. Stern
+1 6. Stern
+x
+- 5 - 3 - 1 1 3 5
+2. Stern - 1
+3. Stern
+- 3
+- 5
+
+Teilaufgabe 1
+
+Gregor notiert:
+„Zu diesem Sternbild gehören die Sterne mit den Koordinaten
+1. Stern ( 4 | 2), 2. Stern ( 4 | - 0,5),
+3. Stern (1 |), 4. Stern ( | 1),
+5. Stern ( - 3 | 1), 6. Stern ( |). “
+Vervollständige die Koordinaten der Sterne.
+
+Teilaufgabe 2
+
+Gregor zeichnet noch einen Stern ein, der zum Sternbild „Großer Wagen“ gehört.
+Dieser Stern hat die Koordinaten: 7. Stern ( - 6 | - 1).
+Zeichne diesen Stern in das Koordinatensystem ein und verbinde ihn mit dem
+6. Stern.
+
+Teilaufgabe 3
+
+Verlängert man die gedachte Verbindungslinie zwischen dem 2. und dem 1. Stern des
+„Großen Wagens“ vom 1. Stern aus um das Fünffache nach oben, findet man den
+Polarstern.
+Schreibe die Koordinaten auf, die der Polarstern in Gregors Koordinatensystem hätte.
+Hinweis: Man kann den Stern nicht mehr in das Koordinatensystem einzeichnen.
+Polarstern ( |)
+
+===== innenwinkel2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Innenwinkel 2
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+Teilaufgabe 3
+[Bild: image4.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Innenwinkel 2
+
+Zur Erinnerung: In jedem Dreieck betragt die Summe der drei InnenwinkelgréRen 180°.
+
+Teilaufgabe 1
+Bei einem rechtwinkligen Dreieck ist die GréRe des Innenwinkels a@ gegeben.
+
+Erganze in der Tabelle eine Moglichkeit fiir die Groen der beiden anderen
+Innenwinkel £ und y des Dreiecks.
+
+a B 1g
+
+20°
+aufgabe 2
+
+Teil
+
+Von einem gleichschenkligen Dreieck ist die GréRe des Innenwinkels a mit 50°
+
+gegeben. Es gibt verschiedene Moglichkeiten, wie groR jeweils die beiden anderen
+Innenwinkel sein kénnen.
+
+Notiere zwei verschiedene Méglichkeiten in den Tabellen.
+1. Méglichkeit:
+
+a B 6
+50°
+
+2. Méglichkeit:
+
+a B 7
+50°
+Teilaufgabe 3
+Es gibt keine gleichseitigen Dreiecke, die rechtwinklig sind.
+Begrtinde die Aussage.
+
+Copyright Text, Grafik und Tellaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== koordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Quadrat im Koordinatensystem
+
+In einem Koordinatensystem liegt ein Quadrat ABCD.
+Die Punkte B, C und D haben die Koordinaten B (4 | - 2), C (4 | 3) und D (- 1 | 3).
+Welches sind die Koordinaten des Punktes A?
+Kreuze an.
+A (- 1 | 4) A (- 1 | - 3) A (- 1 | - 2) A (- 2 | - 1)
+
+===== kreiseundvierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Kreise und Vierecke
+
+Gegeben ist jeweils ein Kreis mit dem Radius r = 3 cm.
+
+Teilaufgabe 1
+
+Zeichne ein Quadrat exakt so ein,
+dass seine vier Eckpunkte auf der
+Kreislinie liegen.
+
+
+Teilaufgabe 2
+
+Martin sagt: „Wenn ich eine Raute
+(Rhombus) ABCD so zeichne, dass die
+Eckpunkte B und D auf der Kreislinie
+liegen, müssen auch die beiden anderen
+Eckpunkte A und C immer auf der
+Kreislinie liegen. “
+
+Hat Martin Recht?
+Kreuze an.
+Ja Nein
+Begründe deine Entscheidung.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Kreise und Vierecke
+
+Gegeben ist jeweils ein Kreis mit dem Radius r = 3cm.
+
+Teilaufgabe 1
+
+Zeichne ein Quadrat exakt so ein,
+dass seine vier Eckpunkte auf der
+Kreislinie liegen.
+
+Teilaufgabe 2
+
+Martin sagt: ,Wenn ich eine Raute
+(Rhombus) ABCD so zeichne, dass die
+Eckpunkte B und D auf der Kreislinie
+liegen, mussen auch die beiden anderen
+Eckpunkte A und C immer auf der
+Kreislinie liegen.“
+
+Hat Martin Recht?
+
+Kreuze an.
+
+O ja Nein
+
+Begriinde deine Entscheidung.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== lagederwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Lage der Würfel
+
+Die Abbildung zeigt vier Spielwürfel, die alle in der gleichen Weise beschriftet sind. Die
+Augenzahlen gegenüberliegender Seiten ergänzen sich immer zu 7. Daher liegen jeweils die
+Augenzahlen 1 und 6 einander räumlich gegenüber, die Augenzahlen 2 und 5 sowie 3 und 4
+ebenfalls.
+
+Diejenigen Seitenflächen dieser Spielwürfel, die sich vollständig berühren, haben immer die
+gleiche Augenzahl. Einige Augenzahlen fehlen in der Abbildung.
+Gib an, welche Augenzahl auf der grauen Seitenfläche fehlt.
+Auf der grauen Seitenfläche fehlt die Augenzahl.
+Schreibe die einzelnen Schritte auf, wie du zu deiner Lösung gekommen bist.
+
+===== parallelogramme · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Deckungsgleiche Parallelogramme
+
+Zeichne eine Gerade so durch das gegebene Parallelogramm, dass zwei zueinander
+deckungsgleiche Parallelogramme entstehen.
+
+===== punkteimkoordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K4, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Punkte im Koordinatensystem
+
+y
+13
+12
+11
+10
+9 C
+8
+7
+6
+5
+B
+4
+A
+3
+2
+1
+x 1 2 3 4 5 6 7 8 9 10 11 12 13
+- 1
+- 2
+
+Teilaufgabe 1: Punkte im Koordinatensystem
+
+Ergänze einen vierten Punkt D im gegebenen Koordinatensystem, so dass eine Raute (ein
+Rhombus) entsteht.
+Gib die Koordinaten des Eckpunktes D an.
+
+ | M35020_A
+ | Teilaufgabe 2: Punkte im Koordinatensystem
+
+Die Strecke AB soll achsensymmetrisch zur Strecke AC sein.
+Zeichne die passende Achse ein.
+
+ |
+
+===== punktgenau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Punktgenau
+
+y
+3
+2
+P
+1
+x
+- 3 - 2 - 1 1 2 3
+- 1
+- 2
+- 3
+
+Teilaufgabe 1
+
+Welche Koordinaten hat der Punkt P?
+Kreuze an.
+P (- 1 | 2) P (1 | - 2) P (2 | 1) P (- 2 | 1)
+
+Teilaufgabe 2
+
+Zeichne den Punkt Q (1 | 3) in das Koordinatensystem ein.
+
+===== punktgesucht · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Punkt gesucht
+
+Gegeben sind die Punkte A, B und D in dem abgebildeten Koordinatensystem.
+Gesucht ist ein Punkt P, der
+- von den Punkten A und B den gleichen Abstand hat und
+- von dem Punkt D den Abstand d von 5 Längeneinheiten hat.
+y
+12
+10
+8
+D 6
+4
+A B
+2
+0
+x
+0 2 4 6 8 10 12
+
+Teilaufgabe 1
+
+Konstruiere im obigen Bild einen Punkt P, der die gegebenen Bedingungen erfüllt.
+Gib die Koordinaten des Punktes an.
+P ( ______ | ______)
+
+Teilaufgabe 2
+
+Verändere den in der Aufgabenstellung gegebenen Abstand d (5 Längeneinheiten) so, dass
+es keinen solchen gesuchten Punkt P gibt.
+Gib einen passenden Wert für d an.
+d = _______ Längeneinheiten
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Punkt gesucht
+
+Gegeben sind die Punkte A, B und D in dem abgebildeten Koordinatensystem.
+Gesucht ist ein Punkt P, der
+
+- von den Punkten A und B den gleichen Abstand hat und
+- von dem Punkt D den Abstand d von 5 Langeneinheiten hat.
+
+Yh
+42-—-
+ds
+at
+
+D
+Ato x
+A B
+poppe
+0 2 4 6 8-10-42
+
+Teilaufgabe 1
+
+Konstruiere im obigen Bild einen Punkt P, der die gegebenen Bedingungen erfilllt.
+Gib die Koordinaten des Punktes an.
+
+p(__ | _)
+
+Teilaufgabe 2
+
+Verandere den in der Aufgabenstellung gegebenen Abstand d (5 Langeneinheiten) so, dass
+es keinen solchen gesuchten Punkt P gibt.
+
+Gib einen passenden Wert fiir d an.
+
+d= Langeneinheiten
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== pyramidenbau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Pyramidenbau
+
+In einem Magnetbaukasten befinden sich magnetische Stäbe und Kugeln. Mario baut
+damit Pyramiden und ihre Netze. Für jede Kante nimmt er einen Magnetstab.
+Abbildung 1 zeigt eine Pyramide mit dreieckiger Grundfläche. In Abbildung 2 wurde mit
+Stäben und Kugeln das Netz dieser Pyramide gelegt.
+
+Foto: © IQB Foto: © IQB
+Abbildung 1 Abbildung 2
+
+Das Netz aus Abbildung 2 soll zu der Pyramide aus Abbildung 1 „zusammengeklappt“
+werden.
+Gib an, wie viele Stäbe und wie viele Kugeln dazu entfernt werden müssen.
+Stäbe Kugeln
+
+===== quadernetz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadernetz
+
+Aus dem Netz eines Körpers kann man diesen zusammenfalten, ohne das Netz
+vorher auseinanderzuschneiden.
+Kreuze jeweils an, ob es sich um das Netz eines Quaders handelt.
+ja nein
+
+===== quadernetz2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadernetz 2
+
+Welche der folgenden Abbildungen zeigt das Netz eines Quaders?
+Kreuze an.
+
+===== quadernetzvervollstaendigen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadernetz vervollständigen
+
+Dieses Netz eines Quaders ist unvollständig. Es gibt mehrere Möglichkeiten, dieses
+unvollständige Netz zu einem vollständigen Quadernetz zu ergänzen.
+Ergänze in der Zeichnung fehlende Flächen, so dass ein vollständiges Quadernetz
+entsteht.
+
+===== quadrate · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadrate
+
+Im Koordinatensystem sind die drei Punkte A, B und D gegeben.
+y
+D
+8
+7
+6
+5
+4
+3
+2
+A B
+1
+0
+x 0 1 2 3 4 5 6 7 8 9 10 11 12
+Wo muss der vierte Punkt C liegen, damit ein Quadrat ABCD entsteht?
+Zeichne den Punkt C ein.
+
+===== quadratundraute · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadrat und Raute
+Teilaufgabe 1
+
+Gegeben ist eine Gerade, die durch den Ursprung eines Koordinatensystems verläuft.
+Ein Stück dieser Geraden soll eine Diagonale in einem Quadrat ABCD sein.
+A und C sollen auf der Geraden liegen.
+Zeichne ein solches Quadrat ein.
+y
+7
+6
+5
+4
+3
+2
+1
+x
+1 2 3 4 5 6 7
+
+Teilaufgabe 2
+
+Gegeben ist eine Gerade, die durch den Ursprung eines Koordinatensystems verläuft.
+Es soll eine Raute (Rhombus) APCQ gezeichnet werden, die kein Quadrat ist.
+A und C sollen wieder auf der Geraden liegen.
+Zeichne eine solche Raute ein.
+y
+7
+6
+5
+4
+3
+2
+1
+x
+1 2 3 4 5 6 7
+
+===== quadratzeichnen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Quadrat zeichnen
+
+Zeichne ein Quadrat mit der Seitenlänge 5 cm.
+
+===== rechteck · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rechteck
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Rechteck
+
+Es soll ein vierter Punkt C so erganzt werden, dass das Viereck ABCD ein Rechteck
+ist.
+
+Zeichne diesen Punkt C in das Koordinatensystem ein.
+
+Copyright Text, Grafik und Teliaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== regelmaessigevielecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K2, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Regelmäßige Vielecke
+Teilaufgabe 1: Regelmäßige Vielecke
+
+Zeichne in dem gegebenen gleichseitigen Dreieck alle Symmetrieachsen ein.
+C
+B A
+
+ | M35026_A
+ | Teilaufgabe 2: Regelmäßige Vielecke
+
+Zeichne in dem gegebenen Quadrat alle Symmetrieachsen ein.
+D C
+A B
+
+ | M35026_B
+ | Teilaufgabe 3: Regelmäßige Vielecke
+
+Wie viele Symmetrieachsen haben die in der Tabelle aufgeführten regelmäßigen Vielecke?
+Zur Erinnerung: Bei einem regelmäßigen Vieleck (Dreieck, Viereck, Fünfeck, Sechseck) sind
+alle Seiten gleich lang und die Ecken liegen auf einem gemeinsamen Kreis.
+Trage jeweils die Anzahl der Symmetrieachsen ein.
+Anzahl der
+Regelmäßiges Vieleck
+Symmetrieachsen
+Fünfeck
+Sechseck
+27 - Eck
+
+ |
+ |
+
+===== schachtelnpacken · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K6, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K1, K2, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Schachteln packen
+
+kleine Schachtel mittlere Schachtel große Schachtel
+(nicht maßstabsgerecht)
+Zu einer Verpackungsserie gehören verschieden große würfelförmige Schachteln. Die
+Kantenlänge der kleinen Schachtel beträgt 5 cm. Die Kanten der mittleren Schachtel sind 1 cm
+länger als die doppelte Kantenlänge der kleinen Schachtel, und die Kanten der großen
+Schachtel sind 1 cm länger als die doppelte Kantenlänge der mittleren Schachtel.
+
+Teilaufgabe 1
+
+Gib die Kantenlängen der beiden anderen Schachteln an.
+ Mittlere Schachtel: cm
+ Große Schachtel: cm
+
+Teilaufgabe 2
+
+Wie viele der kleinen Schachteln passen höchstens in die große Schachtel?
+Kreuze an.
+4 12 16 27 64
+
+Teilaufgabe 3
+
+Die Serie wird um eine vierte Schachtel, eine „Riesenschachtel“, erweitert. Ihre Kantenlänge
+ist 1 cm länger als die doppelte Kantenlänge der großen Schachtel. Es sollen so viele kleine
+Schachteln wie möglich in die Riesenschachtel gepackt werden. Drei Schülerinnen haben
+aufgeschrieben, wie sie deren Anzahl berechnet haben.
+Kreuze jeweils an, ob die Argumentation richtig ist.
+richtig falsch
+Die Kantenlänge wird dreimal verdoppelt. Also
+passen jetzt 2 × 2 × 2 = 8 kleine Schachteln
+Lisa nebeneinander, und das in Länge, Breite und Höhe.
+Also passen 8 × 8 × 8 = 512 kleine Schachteln in die
+Riesenschachtel.
+Die Riesenschachtel hat eine Kantenlänge von
+47 cm. Da passen 9 kleine Schachteln
+Frieda
+nebeneinander. Also passen 9 × 9 × 9 = 729 kleine
+Schachteln in die Riesenschachtel.
+Die Riesenschachtel hat ein Volumen von
+3 3
+(47 cm) = 103 823 cm. Die kleine Schachtel hat ein
+3 3
+Erika Volumen von (5 cm) = 125 cm. Es passen also
+103823: 125, d. h. 830 kleine Schachteln in die
+Riesenschachtel.
+
+===== schneekristalle · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Schneekristalle
+
+Hier ist ein Schneekristall abgebildet.
+Wie viele Symmetrieachsen hat dieser Schneekristall
+(von kleinen Abweichungen abgesehen)?
+Kreuze an.
+3
+4
+6
+12
+
+===== seitenflaechen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, Jahrgang 2013; Teilaufgabe 3: AFB I, Kompetenzstufe 3, K2, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Körper mit Seitenflächen
+
+Im Folgenden werden nur Körper betrachtet, deren Oberfläche aus ebenen Vielecken besteht.
+Es gibt also keine gebogenen oder gewölbten Flächen.
+
+Teilaufgabe 1
+
+Aus wie vielen Flächen besteht die Oberfläche eines Quaders?
+Die Oberfläche eines Quaders besteht aus Flächen.
+
+Teilaufgabe 2
+
+Nenne einen Körper, dessen Oberfläche aus genau fünf Flächen besteht. Wenn du die
+Bezeichnung des Körpers nicht kennst, kannst du ihn auch skizzieren.
+ oder Skizze:
+
+Teilaufgabe 3
+
+Es soll ein Körper konstruiert werden, dessen Oberfläche aus genau vier Flächen besteht.
+Welche Form haben diese Flächen?
+Kreuze an.
+Alle vier Flächen sind...
+… fünfeckig. … dreieckig. … rechteckig. … quadratisch.
+
+===== streckeimkoordinatenkreuz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Strecke im Koordinatenkreuz
+
+AD
+In einem Koordinatensystem ist die Strecke gegeben.
+y
+5
+4
+3
+D
+2
+1
+A
+x
+- 1 1 2 3 4 5
+- 1
+
+Teilaufgabe 1
+
+AD
+Die Strecke soll eine Seite des Quadrats ABCD sein.
+Gib die Koordinaten der zwei Punkte B und C des Quadrats an.
+B ( |) C ( |)
+
+Teilaufgabe 2
+
+AD
+Die Strecke soll an der y - Achse gespiegelt werden.
+Gib die Koordinaten der beiden Spiegelpunkte an.
+A ’ ( |) D ’ ( |)
+
+===== trapezohnesymmetrie · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K1, K4, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Trapez ohne Symmetrie
+
+Das dargestellte Trapez hat keine Symmetrieachse.
+D C
+68 ° 69 ° (nicht maßstabsgerecht)
+A B
+
+AB CD
+Entscheide jeweils, ob die folgenden Begründungen richtig sind.
+Kreuze an.
+Dieses Trapez hat keine Symmetrieachse, weil … richtig falsch
+… ein Trapez mit unterschiedlich langen Seiten und
+niemals eine Symmetrieachse hat.
+… ein Trapez mit unterschiedlich großen Innenwinkeln in
+den Punkten A und B niemals eine Symmetrieachse hat.
+… ein Trapez niemals eine Symmetrieachse hat.
+
+===== unfertigerwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Unfertiger Würfel
+
+Hier wurde begonnen, aus kleinen Würfeln der Kantenlänge 1 cm einen großen Würfel
+zusammenzusetzen, der die Kantenlänge 4 cm haben soll.
+Die in der Zeichnung verdeckten Würfel sind schon alle eingebaut.
+
+Teilaufgabe 1
+
+Peter will zuerst die beiden unteren Schichten vervollständigen.
+Gib an, wie viele Würfel er dafür noch benötigt.
+
+Teilaufgabe 2
+
+Stell dir vor, du könntest um das Gebilde aus der Zeichnung herumgehen.
+Wie viele Seitenflächen der kleinen Würfel kannst du dann insgesamt von rechts, von hinten,
+von links und von vorne sehen?
+Kreuze an.
+19 32 38 51
+
+===== ungewoehnlicherspielwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Ungewöhnlicher Spielwürfel
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Ungew6ohnlicher Spielwurfel
+
+Dieser ,Spielwirfel* entstand, indem aus einem wirfelformigen Korper ein Viertel
+herausgeschnitten wurde. Er wurde aus verschiedenen Ansichten fotografiert.
+
+Teilaufgabe 1
+
+Hier ist ein Netz dieses ,Spielwirfels“ skizziert. Man sieht die AuRenflache des
+Wirfels.
+
+Wenn das Netz zusammengefaltet ist, soll es so aussehen wie der fotografierte
+»Spielwtrfel".
+
+Zeichne die Punkte, die sich auf den Seitenflachen des ,,Spielwurfels“ befinden, in das
+Netz ein.
+
+Teil
+aufgabe 2
+
+Hier wurde noch ein anderes Netz dieses ,Spielwirfels“ skizziert. Es fehlt noch die
+Seitenflache mit den drei Punkten.
+
+Zeichne die fehlende Seitenflache passend an das Netz.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 4 dlegalcode.de
+
+===== verkehrszeichen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2012; Teilaufgabe 3: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012; Teilaufgabe 4: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Verkehrszeichen
+Teilaufgabe 1
+
+Ist das Bild des Verkehrszeichens achsensymmetrisch?
+Kreuze jeweils an.
+ja nein
+
+Teilaufgabe 2
+
+Spiegele die Figur an der Spiegelachse s.
+Zeichne mit Geodreieck oder Lineal.
+s
+
+Teilaufgabe 3
+
+Zeichne alle Spiegelachsen in diese Figur ein.
+
+Teilaufgabe 4
+
+Beim Spiegeln dieses Verkehrszeichens ist ein Fehler unterlaufen.
+Kreise den Fehler ein.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Verkehrszeichen
+
+Teilaufgabe 1
+Ist das Bild des Verkehrszeichens achsensymmetrisch?
+
+Kreuze jeweils an.
+
+ja nein
+O O
+O O
+O O
+O O
+O O
+
+Teilaufgabe 2
+Spiegele die Figur an der Spiegelachse s.
+Zeichne mit Geodreieck oder Lineal.
+
+Teilaufgabe 3
+Zeichne alle Spiegelachsen in diese Figur ein.
+
+\4
+&
+Teilaufgabe 4
+Beim Spiegeln dieses Verkehrszeichens ist ein Fehler unterlaufen.
+Kreise den Fehler ein.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== winkelgamma · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K4, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Winkel Gamma
+
+AM MB MC MC AM BM
+In diesem Dreieck sind die Strecken, und gleich lang.
+C
+g 1 g 2
+b a
+x
+b a
+x x A M B
+(nicht maßstabsgerecht)
+Niki behauptet: „Dann ist g = g + g ein rechter Winkel. “ 1 2
+Dazu will sie einen Beweis in der Klasse vortragen. Sie hat ihre Argumentations -
+schritte auf Karteikarten notiert, die sie der Reihe nach an die Tafel heften will.
+Hier sind die noch nicht sortierten Karten:
+K 1 K 2 2 g + 2 g = 180 ° K 3 K 4 AMC und MBC 1 2 Daraus folgt,
+sind gleich - dass die
+g = g + g Û g + g = 90 ° 1 2 1 2
+schenklige Basiswinkel gleich
+Dreiecke. groß sind, also: Û g = 90 °
+a + b + g = 180 ° K 5 K 6 K 7 K 8 Einsetzen in den a = g
+ ist genauso 1
+Winkelsummen - g + g + g + g
+1 2 1 2 lang wie und und
+satz für
+= 180 °
+Dreiecke: wie, also gilt: b = g 2
+Zusammenfassen:
+Bringe alle Argumentationskarten für Nikis Vortrag in eine logisch richtige Reihenfolge.
+Trage hierzu die restlichen Kartennummern in der Reihenfolge des Vortrags ein:
+K 1 K 7 K 5
+
+===== woliegtc · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Wo liegt C?
+Teilaufgabe 1:
+
+Ergänze einen Punkt C im Koordinatensystem so, dass ein Dreieck ABC mit einem 1 1
+rechten Winkel in Punkt C entsteht. 1
+y
+8
+A 7
+6
+5
+4
+3
+2
+B 1
+- 2 - 1 1 2 3 4 5 6 7 8 9 10 11 12 13 x - 1
+- 2
+Gib die Koordinaten des Punktes C an, den du eingezeichnet hast. 1
+C ( |) 1
+
+Teilaufgabe 2:
+
+Ergänze einen Punkt C im Koordinatensystem so, dass ein rechtwinkliges Dreieck 2
+ABC entsteht. Jetzt soll der rechte Winkel in Punkt B liegen. 2
+y
+8
+A 7
+6
+5
+4
+3
+2
+B 1
+- 2 - 1 1 2 3 4 5 6 7 8 9 10 11 12 13 x - 1
+- 2
+Gib die Koordinaten des Punktes C an, den du eingezeichnet hast. 2
+C ( |) 2
+
+===== wuerfelnetze · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Würfelnetze
+
+Bei welcher Abbildung handelt es sich um das Netz (Abwicklung) eines Würfels?
+Kreuze an.
+
+===== wuerfelturm · Leitidee Raum und Form (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016; Teilaufgabe 3: AFB III, Kompetenzstufe 3, K2, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Würfelturm
+
+Wenn man einen Würfel auf einen Tisch legt, sind fünf Seitenflächen sichtbar (vorne,
+hinten, links, rechts und oben).
+...
+
+Teilaufgabe 1:
+
+Zwei Würfel werden übereinander gestapelt.
+Kreuze an, wie viele Würfelseitenflächen sichtbar sind. Die oberste Würfelseitenfläche
+wird dabei mitgezählt.
+5 8 9 10 12
+
+Teilaufgabe 2:
+
+Wie viele Würfelseitenflächen sind sichtbar, wenn man 3 bzw. 4 bzw. 10 Würfel
+übereinander stapelt? Die oberste Würfelseitenfläche wird dabei mitgezählt.
+Ergänze die folgende Tabelle.
+Anzahl der übereinander Anzahl der sichtbaren
+gestapelten Würfel Würfelseitenflächen
+3
+4
+…...
+10
+
+Teilaufgabe 3:
+
+Nun werden n Würfel übereinander gestapelt.
+Gib eine Vorschrift (Formel) an, mit der man die Anzahl A (n) der sichtbaren
+Würfelseitenflächen allgemein berechnen kann. Die oberste Würfelseitenfläche wird
+dabei mitgezählt.
+A (n) =
+
+===== zweikreise · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zwei Kreise
+
+  || rAB
+In der Abbildung ist A der Mittelpunkt des Kreises K und B der Mittelpunkt des Kreises K. 1 2
+Beide Kreise haben den gleichen Radius.
+H
+K K 1 2
+a D F
+A B
+G
+(nicht maßstabsgerecht)
+
+Teilaufgabe 1:
+
+Prüfe jeweils, ob die folgenden Aussagen auf diese Figur zutreffen oder nicht.
+Kreuze an.
+Aussage wahr falsch
+Alle Winkel im Dreieck ABH sind gleich groß.
+Das Dreieck BFH ist gleichseitig.
+Das Dreieck DFH ist gleichschenklig.
+Im Dreieck AHD sind alle drei Winkel unterschiedlich
+groß.
+Der Winkel a beträgt 60 °.
+
+Teilaufgabe 2:
+
+Sonja behauptet: „Der Flächeninhalt des großen Dreiecks DFH ist dreimal so groß wie
+der Flächeninhalt des kleinen Dreiecks ABH. “
+Hat sie recht?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.

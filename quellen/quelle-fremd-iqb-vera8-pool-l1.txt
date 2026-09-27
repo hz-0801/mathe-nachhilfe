@@ -1,0 +1,2212 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 1 (Zahl)“, IQB Berlin – Aufgabe
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L1_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Aufgabe“ mit 1–4 Seiten; hier 82 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: je Aufgabendatei im Kopf als Bild, Wortlaut je Aufgabe unten
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== 20prozent · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+20 Prozent
+
+Berechne 20% von 80 m.
+m
+
+===== 700milliarden · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+700 Milliarden
+
+Eric hört in den Nachrichten, dass in den USA über einen Kredit von 700 Milliarden Dollar zur
+Behebung einer akuten Finanzkrise diskutiert wird.
+Schreibe diese Zahl in Ziffern.
+
+ | M15034_A
+ |
+
+===== anteileingeometrischenobjekten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014; Teilaufgabe 3: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Anteile in geometrischen Objekten
+
+3 4
+Welche Anteile sind grau gefärbt?
+Trage jeweils einen passenden Bruch und einen passenden Prozentsatz in die
+Tabelle ein.
+gefärbter Anteil gefärbter Anteil
+als Bruch als Prozentsatz
+75%
+
+===== anzahlvonnullen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Anzahl von Nullen
+Teilaufgabe 1
+
+Wie viele Nullen hat eine Milliarde, wenn man diese Zahl mit Ziffern schreibt?
+Kreuze an.
+6 7 9 10 12
+
+Teilaufgabe 2
+
+Ergänze den fehlenden Wert.
+ 1000 · = 1 Milliarde
+
+===== aufgabenreihen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K2, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Aufgabenreihen
+[Bild: image1.png]Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Aufgabenreihen
+
+Sandra schreibt aufeinanderfolgende ungerade Zahlen auf, beginnend bei 1, und macht
+diese Aufgabenreihe daraus.
+
+1 =1
+14300 =4
+14#34+5 =9
+
+Teilaufgabe 1
+Setze diese Aufgabenreihe passend fort.
+
+Schreibe hierzu die nachsten zwei Rechnungen auf.
+
+Teil
+aufgabe 2
+
+Sebastian setzt die Aufgabenreihe noch weiter fort. Er erhalt 61 als Ergebnis.
+Kann das sein?
+
+Kreuze an.
+
+OO Ja O Nein
+
+Notiere deinen L6sungsweg.
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== aussenthermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Außenthermometer
+Teilaufgabe 1:
+
+Ein Außenthermometer zeigt - 4 °C. Die Außentemperatur steigt um 6 °C an.
+Wie hoch ist die Außentemperatur danach?
+Kreuze an.
+- 10 °C - 2 °C + 2 °C + 10 °C
+
+Teilaufgabe 2:
+
+Ein Außenthermometer zeigt + 8 °C und später - 2 °C an.
+Gib an, um wie viel Grad sich die Außentemperatur verändert hat.
+Grad
+
+===== autokauf · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K3, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Autokauf
+
+Herr Berger möchte ein neues Auto kaufen. Nach Angabe des Händlers soll es ohne
+Mehrwertsteuer 19 900 € kosten. Herrn Berger ist dies zu teuer, und so handelt er mit
+dem Händler eine Preisermäßigung von 12% aus. Zu dem ermäßigten Preis kommen
+dann noch 19% Mehrwertsteuer hinzu.
+Herr Berger rechnet einfach: 19 900 € zuzüglich 7%.
+Liefert diese Rechnung das richtige Ergebnis?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== bahncard · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bahncard
+[Bild: image1.png]Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Bahncard
+
+Wenn man Oofter langere Strecken mit dem Zug fahrt, lohnt es sich, eine Bahncard zu
+kaufen. Mit einer Bahncard erhalt man ein Jahr lang bei jedem Kauf einer Fahrkarte eine
+Ermafigung auf den Normalpreis.
+
+Der Normalpreis fiir eine Hin- und Rickfahrt auf der Strecke Hamburg-Berlin betragt
+insgesamt 140,00€.
+
+Teilaufgabe 1
+
+Herr Krause besitzt eine Bahncard 25. Damit erhalt er eine ErmaRigung von 25 % auf
+den Normalpreis.
+
+Wie viel muss er fiir die Hin- und Ruickfahrt auf der Strecke Hamburg-Berlin insgesamt
+bezahlen?
+
+Kreuze an.
+OU 25,00€ OO 35,00€ OU 70,00€ 0 105,00€ 0 175,00€
+
+Teil
+aufgabe 2
+
+Frau Schnell kauft sich eine Bahncard 50. Damit erhalt sie eine ErmaRigung von 50 %
+auf den Normalpreis. Fir die Bahncard 50 bezahlt Frau Schnell 230,00€.
+
+Wie oft muss Frau Schnell die Strecke Hamburg-Berlin (Hin- und Ruckfahrt) fahren,
+damit sich der Kauf der Bahncard 50 im Vergleich zum Normalpreis lohnt?
+
+Gib das Ergebnis an.
+
+Sie muss die Strecke Hamburg-Berlin mindestens -mal hin und zuriick
+fahren.
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== broetchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Brötchen
+
+Marcus hat im Sonderangebot 3 Brötchen für insgesamt 95 Cent gekauft.
+Ein einzelnes Brötchen kostet 40 Cent.
+
+Teilaufgabe 1
+
+Gib an, wie viel Cent Marcus bei seinem Einkauf im Vergleich zu einem Kauf von drei
+einzelnen Brötchen gespart hat.
+Cent
+
+Teilaufgabe 2
+
+Frau Schwarz will 10 Brötchen kaufen.
+Bei welcher Variante zahlt sie am wenigsten?
+Kreuze an.
+Frau Schwarz kauft…
+… 10 Brötchen zum Einzelpreis.
+… 4 mal 3 Brötchen im Sonderangebot.
+… 3 mal 3 Brötchen im Sonderangebot und 1 Brötchen zum Einzelpreis.
+… 2 mal 3 Brötchen im Sonderangebot und 4 Brötchen zum Einzelpreis.
+
+===== bruchundprozentsatz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bruch und Prozentsatz
+
+In der Tabelle stehen Prozentsätze und zugehörige Dezimalbrüche.
+Vervollständige die Tabelle.
+Prozentsatz 50%% 80%
+Dezimalbruch 0,5 0,3
+
+===== colakaesten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Colakästen
+
+Ein Getränkemarkt hat Cola im Angebot:
+Ein Kasten mit 12 Flaschen kostet 6,66 €. Hinzu kommen 3,30 € Pfand.
+Man bekommt die 3,30 € Pfand zurück, wenn man einen Kasten mit 12 leeren Flaschen
+zurückbringt. Für eine einzelne leere Flasche erhält man 0,15 € zurück.
+Teilaufgabe 1
+
+Tom bringt nur den Kasten (ohne Flaschen) zurück.
+Gib an, wie viel Geld er zurückbekommt.
+€
+
+Teilaufgabe 2
+
+Herr Melzer bringt 3 Kästen mit jeweils 12 leeren Colaflaschen zum Getränkemarkt
+und nimmt einen vollen Kasten Cola aus dem Angebot mit.
+Welche Aussage ist richtig?
+Kreuze an.
+Herr Melzer muss an der Kasse noch etwas bezahlen.
+Herr Melzer bekommt noch Geld zurück.
+Begründe mit einer Rechnung.
+
+===== computerspielsucht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Computerspielsucht
+
+Nach einer Untersuchung der Universität Koblenz - Landau zeigt jeder neunte Jugendliche ein
+krankhaftes Computerspielverhalten.
+Wie viel Prozent der Jugendlichen sind das?
+Kreuze den Prozentsatz an, der am besten passt.
+ca. 9% ca. 11% ca. 12% ca. 90%
+
+ | M15019_A
+ |
+
+===== croissant · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Croissant
+
+Marc tankt für 43,80 €. Im Tankstellenladen kauft er noch ein Schoko - Croissant.
+Er bezahlt beides mit einem 50 € - Schein und bekommt 4,95 € zurück.
+Gib an, wie teuer das Schoko - Croissant ist.
+€
+
+===== damenuhr · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K2, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, K3, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Damenuhr
+
+Ein goldfa r benes Uh r engehäuse mit w eißem Zi ff e r nbl a tt und ganggenauem Q ua r t z w e r k. 4 schmuc k v olle W echsel r inge zum A ustauschen. 4 W echsela r mbänder in 4 aktuellen F a r ben. S c h w a r z B r aun R ot B eige
+Ein Versandhaus bietet eine Damenuhr
+Ein goldfarbenes Uhrengehäuse an, deren Uhrengehäuse mit vier
+mit weißem Ziffernblatt und verschiedenen Wechselringen und vier
+ganggenauem Quartzwerk. verschiedenen Wechselarmbändern
+kombiniert werden kann (siehe
+Abbildung).
+4 schmuckvolle Wechselringe zum Austauschen.
+4 Wechselarmbänder in 4 aktuellen Farben.
+Schwarz Braun Rot Beige
+
+Teilaufgabe 1
+
+Auf wie viele verschiedene Arten kann das Uhrengehäuse mit den vier verschiedenen
+Wechselringen und den vier verschiedenen Wechselarmbändern kombiniert werden?
+Kreuze an.
+4 8 9 16 unendlich viele
+
+Teilaufgabe 2
+
+Bei einer anderen Damenuhr soll das Uhrengehäuse ebenfalls mit verschiedenen
+Wechselringen und verschiedenen Wechselarmbändern kombiniert werden.
+Dabei sollen genau 12 Kombinationen möglich sein.
+Wie viele Wechselringe und wie viele Wechselarmbänder muss man dazu anbieten?
+Gib alle Möglichkeiten an.
+
+===== dasistgerundet · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Das ist gerundet
+
+
+Runde die Zahl 5,143 auf eine Stelle nach dem Komma.
+5,143
+
+===== divisionvonzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Division von Zahlen
+
+Eine ganze Zahl ist durch eine andere ganze Zahl teilbar, wenn bei der Division kein Rest
+bleibt.
+
+Entscheide jeweils, ob die Aussage wahr oder falsch ist.
+Kreuze jeweils an.
+Eine mehrziffrige Zahl ist immer durch 4 teilbar, wenn... wahr falsch
+… sie zweimal nacheinander jeweils durch 2 teilbar ist.
+… die letzte Ziffer eine 4 oder eine 8 ist.
+… sie eine gerade Zahl ist.
+… die aus den letzten beiden Ziffern gebildete Zahl durch
+4 teilbar ist.
+
+===== dreieckimquadrat · Leitidee Zahl (auch im Archiv L3)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2014; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Dreieck im Quadrat
+
+Auf gleichgroßen quadratischen Zeichenblättern wird ein Muster mit gleichschenkligen
+Dreiecken entworfen. Das jeweils nachfolgende Zeichenblatt entsteht dadurch, dass man
+jedes Teilquadrat des Vorgängerblattes durch vier gleichgroße Quadrate mit je einem
+gleichschenkligen Dreieck ersetzt. Die ersten beiden Blätter sind hier gezeichnet:
+Zeichenblatt 1: Zeichenblatt 2:
+a a
+
+Teilaufgabe 1
+
+Gib an, wie viele gleichschenklige graue Dreiecke sich auf Zeichenblatt 3 befinden.
+Auf Zeichenblatt 3 befinden sich gleichschenklige graue Dreiecke.
+
+Teilaufgabe 2
+
+Mit welchem Rechenschritt kann man die Anzahl der gleichschenkligen grauen
+Dreiecke auf einem beliebigen Zeichenblatt aus der Anzahl der gleichschenkligen
+grauen Dreiecke auf dem Vorgängerblatt berechnen?
+Kreuze an.
+Man rechnet: Neue Anzahl = Anzahl der grauen Dreiecke auf dem Vorgängerblatt…
++ 3 · 3 + 4 · 4
+
+Teilaufgabe 3
+
+Luca behauptet: „Je mehr gleichschenklige graue Dreiecke ein solches Zeichenblatt
+enthält, desto größer wird der Anteil der grauen Fläche an der Gesamtfläche. “
+Stimmt diese Behauptung?
+Kreuze an.
+Nein Ja
+Begründe deine Entscheidung.
+
+===== dreieckszahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K2, K4, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2013; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013; Teilaufgabe 4: AFB II, Kompetenzstufe 3, K2, K4, K5, K6, Jahrgang 2013; Teilaufgabe 5: AFB III, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Dreieckszahlen
+
+Zahlen, die sich aus der Summe aufeinanderfolgender
+natürlicher Zahlen ergeben, heißen Dreieckszahlen.
+Dreieckszahlen, beginnend mit der 1, lassen sich
+veranschaulichen, indem man Plättchen in Dreiecksform
+legt.
+Abbildung 1 zeigt die Dreieckszahl 10, denn hierfür
+benötigt man 10 Plättchen.
+Man rechnet so: 1 + 2 + 3 + 4 = 10.
+Abbildung 1
+Die Dreieckszahlen heißen D, D... In der folgenden Tabelle sind die ersten vier dargestellt: 1 2
+Nummerierung 1. Figur 2. Figur 3. Figur 4. Figur
+Veranschaulichung
+Dreickszahl 1 3 6 10
+Bezeichnung D D D D 1 2 3 4
+
+Teilaufgabe 1
+
+Gib die beiden nächsten Dreieckszahlen D und D an. 5 6
+ D = 5
+ D = 6
+
+Teilaufgabe 2
+
+Welche Zahl muss man zur Dreieckszahl D addieren, um die Dreieckszahl D zu erhalten? 10 11
+Kreuze an.
+6 9 10 11 12
+
+Teilaufgabe 3
+
+Gib eine Formel an, mit der man eine beliebige Dreieckszahl D aus deren n
+Vorgängerdreieckszahl D berechnen kann. n - 1
+ D = n
+
+Teilaufgabe 4
+
+  34 6 2
+Peter möchte eine Formel entwickeln, mit der man eine Dreieckszahl D berechnen kann, n
+ohne den Vorgänger zu kennen. Hierzu legt er zwei Darstellungen der Dreieckszahl D so 3
+nebeneinander, dass 3 Reihen mit jeweils 4 Plättchen entstehen.
+Er rechnet dann: D 3
+3
+4
+Gib an, wie man die Dreieckszahl D ebenso direkt berechnen kann. 4
+D = 4
+
+Teilaufgabe 5
+
+Gib eine Formel an, mit der man eine Dreieckszahl D direkt berechnen kann, ohne den n
+Vorgänger zu kennen.
+D = n
+
+===== durch1001teilbar · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K1, K2, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Durch 1001 teilbar
+
+Peter behauptet: „Wenn man eine dreistellige Zahl zweimal hintereinander
+aufschreibt, dann entsteht eine sechsstellige Zahl, die immer durch 1001 teilbar ist. “
+Beispiel: 243243: 1001 = 243
+Welches Argument kann Peter verwenden, um seine Behauptung zu begründen?
+Kreuze jeweils an, ob das Argument geeignet ist oder nicht.
+nicht
+geeignet
+geeignet
+Alle sechsstelligen Zahlen sind durch 1001 teilbar, denn
+diese sind alle größer als 1001.
+Alle sechsstelligen Zahlen sind durch 1000 teilbar.
+Außerdem sind alle sechsstelligen Zahlen durch 1 teilbar.
+Also sind sie auch durch 1001 teilbar.
+Die sechsstellige Zahl ist durch 1001 teilbar, da ihre
+Bildung nach dem folgenden Muster erfolgt:
+abc · 1001 = abc · 1000 + abc · 1 = abc 000 + abc = abcabc
+Die sechsstellige Zahl ist durch 1001 teilbar, weil in 1001
+nur Nullen und Einsen enthalten sind.
+Die sechsstellige Zahl ist durch 1001 teilbar, weil sie so
+entsteht, dass die dreistellige Zahl mit 1000 multipliziert
+und dann die dreistellige Zahl zum Ergebnis addiert wird.
+
+===== dvdplayer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K3, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Kauf eines DVD-Players
+
+In einem Online - Shop im Internet ist ein Angebot für einen tragbaren DVD - Player zu finden.
+Der ursprüngliche Preis dieses DVD - Players von 99,99 € wird um 20% reduziert.
+Wenn man den Rechnungsbetrag vom Bankkonto abbuchen lässt, bekommt man auf diesen
+reduzierten Preis nochmal einen Rabatt von 5%.
+
+Teilaufgabe 1
+
+Gib den Preis für den DVD - Player an, wenn man ihn ohne Abbuchung vom Bankkonto
+bezahlt. Runde auf ganze Cent.
+€
+
+Teilaufgabe 2
+
+Es wird behauptet: „Statt zunächst den Preisnachlass von 20% und anschließend den Rabatt
+von 5% abzuziehen, kann man auch einmalig 25% vom Preis des DVD - Players abziehen! “
+Ist diese Behauptung richtig?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== fahrradcomputer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Fahrradcomputer
+
+Anna hat einen Fahrradcomputer an ihrem Fahrrad.
+Foto: © IQB
+
+Teilaufgabe 1
+
+Eine halbe Stunde nach dem Start hat sie 9 km zurückgelegt.
+Welche Durchschnittsgeschwindigkeit wird auf dem Fahrradcomputer angezeigt?
+Kreuze an.
+20 km / h 4,5 km / h 9 km / h 18 km / h
+
+Teilaufgabe 2
+
+45 Minuten nach dem Start zeigt der Computer eine Durchschnittsgeschwindigkeit von
+16 km / h an. Anna muss zu dem Zeitpunkt noch 8 km bis zu ihrem Fahrtziel fahren. Auf dieser
+Reststrecke hat sie Rückenwind und will deutlich schneller fahren, damit am Ziel eine
+Durchschnittsgeschwindigkeit von 20 km / h für die gesamte Fahrstrecke angezeigt wird.
+Mit welcher durchschnittlichen Geschwindigkeit muss sie auf der Reststrecke fahren?
+Anna muss auf der Reststrecke durchschnittlich _______ km / h fahren.
+Schreibe auf, wie du zu deiner Lösung gekommen bist.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Fahrradcomputer
+
+Anna hat einen Fahrradcomputer an ihrem Fahrrad.
+
+Teilaufgabe 1
+Eine halbe Stunde nach dem Start hat sie 9km zuriickgelegt.
+
+Welche Durchschnittsgeschwindigkeit wird auf dem Fahrradcomputer angezeigt?
+Kreuze an.
+
+O O Oo O
+4,5km/h 9km/h 18 km/h 20 km/h
+Teilaufgabe 2
+
+45 Minuten nach dem Start zeigt der Computer eine Durchschnittsgeschwindigkeit von
+
+16 km/h an. Anna muss zu dem Zeitpunkt noch 8 km bis zu ihrem Fahrtziel fahren. Auf dieser
+Reststrecke hat sie Riickenwind und will deutlich schneller fahren, damit am Ziel eine
+Durchschnittsgeschwindigkeit von 20 km/h fiir die gesamte Fahrstrecke angezeigt wird.
+
+Mit welcher durchschnittlichen Geschwindigkeit muss sie auf der Reststrecke fahren?
+Anna muss auf der Reststrecke durchschnittlich km/h fahren.
+
+Schreibe auf, wie du zu deiner Losung gekommen bist.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== faschingsdeko · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Faschingsdeko
+
+Die Schülerinnen und Schüler der Klasse 8 a wollen für ihre Faschingsfeier Kreppband zur
+Dekoration verwenden. Das Kreppband wird in Packungen mit jeweils 4 verschiedenen
+Farben angeboten: weiß (w), rot (r), blau (b) und grün (g).
+
+Es sollen immer 2 Kreppbänder verschiedener Farben zu Girlanden
+zusammengedreht werden.
+Schreibe alle möglichen Farbkombinationen auf.
+
+===== fehlendezahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fehlende Zahlen
+
+Trage jeweils die fehlende Zahl in das Kästchen.
+
+Teilaufgabe 1
+
++ 9 = 4
+
+Teilaufgabe 2
+
+ 4 + = - 17
+
+===== fieberthermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Fieberthermometer
+
+35 36 37 38 39 40 41 42
+Die Abbildung zeigt ein Fieberthermometer. Die schwarze dicke Linie zeigt die gemessene
+Körpertemperatur in Grad Celsius an.
+
+Teilaufgabe 1
+
+Gib an, wie viel °C die gemessene Körpertemperatur in der Abbildung beträgt.
+°C
+
+Teilaufgabe 2
+
+Zu einem anderen Zeitpunkt beträgt die Körpertemperatur 37,9 °C. Sie steigt dann um 2,3 °C
+an.
+Gib an, wie viel °C die Körpertemperatur nach dem Temperaturanstieg beträgt.
+°C
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Fieberthermometer
+
+Die Abbildung zeigt ein Fieberthermometer. Die schwarze dicke Linie zeigt die gemessene
+K6rpertemperatur in Grad Celsius an.
+
+= TEE )
+
+Teilaufgabe 1
+Gib an, wie viel °C die gemessene K6rpertemperatur in der Abbildung betragt.
+
+°c
+
+Teilaufgabe 2
+
+Zu einem anderen Zeitpunkt betragt die KOrpertemperatur 37,9 °C. Sie steigt dann um 2,3°C
+an.
+
+Gib an, wie viel °C die Korpertemperatur nach dem Temperaturanstieg betragt
+°c
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== fruehstuecksbroetchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Frühstücksbrötchen
+Teilaufgabe 1: Frühstücksbrötchen
+
+Angelika kauft sechs normale Brötchen zu je 0,35 € und vier Körnerbrötchen zu je 0,45 €.
+Gib an, wie viel sie insgesamt bezahlen muss.
+€
+Schreibe deinen Rechenweg auf.
+
+ | M15128_A
+ | Teilaufgabe 2: Frühstücksbrötchen
+
+Angelika kauft fünf normale Brötchen zu je 0,35 € und zahlt mit einem Fünf - Euro - Schein.
+Gib an, wie viel Geld sie zurück erhält.
+€
+Schreibe auf, wie du vorgehst.
+
+ | M15128_B
+ | Teilaufgabe 3: Frühstücksbrötchen
+
+Reichen 10 €, um zwölf normale Brötchen zu je 35 Cent und zwölf Körnerbrötchen zu je
+45 Cent zu kaufen?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+ | M15128_C
+ |
+
+===== fussballtabelle · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K3, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, K3, K6, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K3, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Fußballtabelle
+
+P Verein Sp S U N TD P
+Bei Fußball - Meisterschaftsspielen gilt: 1 Borussia M ʼ Gladbach 17 12 3 2 28: 10 39
+2 VfL Wolfsburg 17 10 5 2 39: 21 35
+Für einen Sieg erhält eine Mannschaft drei 3 Bayern München 17 11 1 5 39: 14 34
+Punkte, für ein Unentschieden einen Punkt, 4 Bayer 04 Leverkusen 17 10 3 4 34: 17 33
+5 Borussia Dortmund 17 9 4 4 29: 16 31 für Niederlagen gibt es keinen Punkt.
+6 Werder Bremen 17 7 5 5 24: 26 26
+7 FSV Mainz 05 17 6 4 7 26: 24 22 Die Punkte aller Spiele einer Mannschaft
+8 FC Augsburg 17 6 4 7 21: 21 22
+werden addiert. 9 1. FC Köln 17 4 9 4 17: 17 21
+10 Schalke 04 17 5 6 6 14: 19 21
+11 Eintracht Frankfurt 17 5 5 7 22: 28 20
+12 SC Freiburg 17 5 5 7 19: 22 19
+13 VfB Stuttgart 17 5 4 8 22: 28 19
+
+Teilaufgabe 1:
+
+Die Saison hat gerade begonnen. Eine Mannschaft hat bisher zweimal gespielt.
+Wie viele Punkte kann diese Mannschaft haben?
+Gib alle Möglichkeiten an.
+
+Teilaufgabe 2:
+
+Begründe, warum eine Mannschaft nach drei Spielen nicht acht Punkte haben kann.
+
+Teilaufgabe 3:
+
+Nach 14 Spielen hat eine Mannschaft 26 Punkte.
+Wie viele Spiele könnte diese Mannschaft gewonnen haben?
+Nenne alle Möglichkeiten.
+
+===== haelfte · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Hälfte
+
+Wie viel ist die Hälfte von 1 Million?
+Schreibe dein Ergebnis in Ziffern.
+
+===== handygebuehr · Leitidee Zahl (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Handygebühr
+
+Inas Handyanbieter verlangt eine Grundgebühr von 5 Euro im Monat und zusätzlich
+9 Cent pro Gesprächsminute.
+
+Teilaufgabe 1
+
+Ina hatte im Januar 20 Gesprächsminuten.
+Gib an, wie viel sie einschließlich der Grundgebühr bezahlen muss.
+€
+
+Teilaufgabe 2
+
+ 0,095 xy  50,09 xy  50,09 yx  0,095 yx
+Die Höhe der monatlichen Telefonrechnung lässt sich mit einer Gleichung ermitteln.
+Dabei wird der Preis y (in Euro) in Abhängigkeit von der Anzahl x der
+Gesprächsminuten berechnet.
+Kreuze die passende Gleichung an.
+
+===== harzwanderung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Harzwanderung
+
+Peter und Markus planen eine Wanderung
+durch den Harz.
+
+Teilaufgabe 1
+
+Die Wanderung soll in Stolberg beginnen und Skizze
+Halberstadt
+auf einem der eingezeichneten Wanderwege
+nach Halberstadt führen (s. Skizze).
+Quedlin - Gib anhand der Skizze eine mögliche
+Blanken -
+burg Wanderroute von Stolberg nach Halberstadt an.
+burg
+Thale
+Ergänze die beiden Lücken.
+Stolberg Gernrode Gernrode
+Günters -
+ Halberstadt
+berge
+Harzgerode
+Stolberg
+
+Teilaufgabe 2
+
+Aus wie vielen verschiedenen Wanderrouten (siehe Skizze aus Teilaufgabe 1) können Peter
+und Markus insgesamt wählen, um von Stolberg über Gernrode nach Halberstadt zu
+kommen?
+Gib das Ergebnis an.
+ verschiedene Wanderrouten
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) p__ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Harzwanderung
+
+Peter und Markus planen eine Wanderung
+durch den Harz.
+
+Teilaufgabe 1
+Die Wanderung soll in Stolberg beginnen und Skizze
+
+auf einem der eingezeichneten Wanderwege Halberstadt
+nach Halberstadt fllhren (s. Skizze).
+Gib anhand der Skizze eine mégliche Blanken- Quedlin-
+Wanderroute von Stolberg nach Halberstadt an. burg burg
+Erganze die beiden Lticken.
+Stolberg —»> —» Gernrode Gernrode
+> —> Halberstadt berge
+
+Harzgerode
+
+Stolberg
+
+Teilaufgabe 2
+
+Aus wie vielen verschiedenen Wanderrouten (siehe Skizze aus Teilaufgabe 1) konnen Peter
+und Markus insgesamt wahlen, um von Stolberg Uber Gernrode nach Halberstadt zu
+kommen?
+
+Gib das Ergebnis an.
+
+verschiedene Wanderrouten
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== heizkosten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Heizkosten
+
+Mit einer neuen Heizungsanlage kann man bis zu 40% des Energieverbrauchs einsparen.
+Dieser verringerte Verbrauch kann durch sparsames Heizen um weitere 30% reduziert
+werden.
+
+Um wie viel Prozent kann der Verbrauch nach dem Einbau der neuen Anlage und
+dem anschließenden sparsamen Umgang mit Energie insgesamt höchstens gesenkt
+werden?
+Kreuze an.
+12% 42% 58% 70%
+
+===== holzwuerfel · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Holzwürfel
+
+Ein gelber Holzwürfel, ein blauer Holzwürfel und ein roter Holzwürfel sollen zu einem
+Dreierturm aufeinander gelegt werden.
+Beispiel:
+gelb
+blau
+rot
+Grafik: © IQB
+
+Gib an, wie viele verschiedene Möglichkeiten es gibt, aus diesen drei Holzwürfeln
+einen Dreierturm zu bauen.
+Anzahl der Möglichkeiten:
+
+===== jeansmitermaessigung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K3, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Jeans mit Ermäßigung
+
+In einem Kaufhaus wird eine Jeans mit 20% Ermäßigung angeboten. Der neue Preis
+beträgt nun 48,00 €. Wie teuer war die Jeans vorher?
+Kreuze an.
+38,40 € 48,20 € 57,60 € 60,00 € 68,00 €
+
+===== kreisefaerben · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Kreise färben
+
+Färbe 20% dieser Kreise ein.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Kreise farben
+
+Farbe 20% dieser Kreise ein.
+
+OO0O0O0
+OO00O0
+OO0O0O0
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== literberechnungen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Literberechnungen
+Teilaufgabe 1: Literberechnungen
+
+Gib an, wie viel von 10 Liter sind.
+Liter
+3
+4
+
+ | M15127_A
+ | Teilaufgabe 2: Literberechnungen
+
+ von einem Volumen sind 6 Liter.
+Gib an, wie groß das Volumen ist.
+Liter
+2
+3
+
+ | M15127_B
+ |
+
+===== lohnerhoehung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Lohnerhöhung
+
+Eine Werbefirma erhöht den Lohn für das Verteilen von 500 Werbeprospekten
+von 5,00 € auf 5,50 €.
+
+Gib an, um wie viel Prozent der Lohn erhöht wird.
+Der Lohn wird um% erhöht.
+
+===== maedchenanteil · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Mädchenanteil
+
+In der Klasse 7 a sind 8 Mädchen und 15 Jungen.
+
+8 23 8 15 15 8 23 8
+Wie groß ist der Anteil der Mädchen in der gesamten Klasse 7 a?
+Kreuze an.
+
+===== mathematikarbeit · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Mathematikarbeit
+
+Rolf sagt: „In der letzten Mathematikarbeit habe ich 48 von 60 Punkten erreicht, das sind
+............. der Gesamtpunktzahl. “
+Welcher der folgenden Prozentsätze muss eingesetzt werden?
+Kreuze an.
+12% 12,5% 48% 60% 80%
+
+ | M15025_A
+ |
+
+===== mauerauszahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Mauer aus Zahlen
+
+ 37
+Bei allen folgenden Zahlenmauern steht in jedem Stein das Produkt der beiden darunter
+liegenden Steine (siehe Abbildung).
+21
+3 7
+Man rechnet also und erhält 21.
+
+Teilaufgabe 1:
+
+Ergänze die folgende Zahlenmauer vollständig.
+140
+2 5
+
+Teilaufgabe 2:
+
+Gib an, welche Zahl man für x einsetzen muss.
+48
+3 - 4 x
+x =
+
+Teilaufgabe 3:
+
+Gib an, welche Zahl man für x einsetzen kann.
+256
+x x x
+x =
+
+===== mittezwischenzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Mitte zwischen Zahlen
+
+Gib an, welche Zahl genau in der Mitte der beiden Zahlen 6,06 und 6,6 liegt.
+
+ |
+ |
+
+===== nachfolgerzahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Nachfolgerzahl
+
+Frank behauptet:
+„Wähle eine natürliche Zahl und bilde ihre Nachfolgerzahl. Quadriere beide Zahlen und ziehe
+das kleinere Ergebnis vom größeren ab. Dann erhältst du die Summe der beiden ursprünglich
+gewählten Zahlen. “
+
+Teilaufgabe 1
+
+Überprüfe Franks Behauptung mit den beiden Zahlen 12 und 13.
+
+Teilaufgabe 2
+
+Stimmt Franks Behauptung auch für zwei beliebige aufeinander folgende natürliche Zahlen?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== nullkommaacht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Null Komma Acht
+Teilaufgabe 1:
+
+8:  0,8 0,8:  0,8
+Ergänze jeweils die fehlende Zahl so, dass die Gleichung stimmt.
+
+Teilaufgabe 2:
+
+:80,8 :0,80,8
+Ergänze jeweils die fehlende Zahl so, dass die Gleichung stimmt.
+
+===== osterhase · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Osterhase
+
+Das Bild zeigt drei unterschiedlich große
+Schokoladenosterhasen. Der kleine Osterhase wiegt
+25 g, der mittlere Osterhase wiegt 100 g und der große
+Osterhase wiegt 1000 g.
+
+Teilaufgabe 1
+
+3
+1 cm Schokolade wiegt 1,3 g. Der große Osterhase wird geschmolzen.
+3
+Gib an, wie viel cm Schokolade dabei ungefähr entstehen.
+3
+ Es entstehen ungefähr cm Schokolade.
+
+Teilaufgabe 2
+
+Die nachfolgende Tabelle enthält Aussagen über die drei Schokoladenosterhasen.
+Kreuze jeweils an, ob die Aussage wahr oder falsch ist.
+wahr falsch
+Der kleine Osterhase wiegt ein Viertel des mittleren
+Osterhasen.
+Der mittlere Osterhase wiegt das Vierfache des kleinen
+Osterhasen.
+Das Gewicht des großen Osterhasen entspricht 400% des
+Gewichts des kleinen Osterhasen.
+Aus dem großen Osterhasen könnte man 10 mittlere
+Osterhasen machen.
+
+===== parlamentswahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Parlamentswahl
+
+Bei einer Parlamentswahl wurden in einem Wahlbezirk 12 650 gültige Stimmen
+abgegeben. Davon fielen 42% auf den Kandidaten Herrn Aal.
+
+Teilaufgabe 1
+
+Gib die Anzahl der Stimmen an, die Herr Aal bei dieser Wahl bekam.
+Stimmen
+
+Teilaufgabe 2
+
+Herr Aal kandidiert vier Jahre später auch bei der nächsten Wahl.
+Diesmal bekommt er allerdings weniger Stimmen als vor vier Jahren. Trotzdem hat
+sich sein Stimmanteil auf 44% erhöht.
+Nenne eine mögliche Ursache, warum dies so sein kann.
+
+===== passendeschuhe · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K4, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Passende Schuhe
+
+Das Deutsche Schuhinstitut hat
+Die Schuhe sind...
+genauso viele Frauen wie Männer
+befragt, ob ihre Schuhe zu klein,
+passend oder zu groß sind (siehe zu klein
+Abbildung 1). Die Befragungs -
+ergebnisse beziehen sich jeweils
+Frauen
+auf 100 Frauen und 100 Männer. passend
+Männer
+zu groß
+0 20 40 60 80
+Abbildung 1
+
+Teilaufgabe 1
+
+In einer Zeitung steht zu dieser Grafik: „ 80 Prozent aller Befragten tragen Schuhe, die ihnen
+nicht passen. “
+Ist diese Aussage richtig?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+Teilaufgabe 2
+
+Die im Balkendiagramm dargestellten zu
+Befragungsergebnisse der Frauen und klein
+pas - Männer sollen in ein gemeinsames
+send Kreisdiagramm übertragen werden
+(siehe Abbildung 2).
+zu groß
+Wie viel Grad muss der Kreisausschnitt Frauen Männer
+für den Anteil der Männer haben, denen
+die Schuhe zu groß sind?
+Abbildung 2
+Kreuze an.
+270 ° 37,5 ° 75 ° 135 °
+
+===== prozentanteilschaetzen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Prozentanteil schätzen
+
+Wie viel Prozent der Kreisfläche sind grau gefärbt?
+Schätze und kreuze an.
+20% 30% 50% 70% 80%
+
+===== quadratdifferenz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2012; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Quadratdifferenz
+
+2 2 Hans und Karin wollen die Differenz 5 - 4 berechnen.
+Karin sagt: „Das ist bei zwei aufeinanderfolgenden Zahlen ganz einfach. Das Ergebnis ist die
+Summe der beiden Zahlen 5 und 4. Und das ist 9. “
+2 2 Hans ist erstaunt: „Tatsächlich, es stimmt: 5 - 4 = 25 - 16 = 9. “
+
+Teilaufgabe 1
+
+2 2 Bestimme auf dieselbe Weise wie Karin die Differenz 12 - 11.
+Kontrolliere dein Ergebnis, indem du die Differenz wie Hans berechnest.
+
+Teilaufgabe 2
+
+Hans rechnet wie Karin und bekommt bei zwei anderen aufeinanderfolgenden natürlichen
+Zahlen als Ergebnis 27.
+Welche beiden Zahlen hat er verwendet?
+Prüfe das Ergebnis auch noch einmal, indem du die Differenz der Quadrate dieser beiden
+Zahlen berechnest.
+
+Teilaufgabe 3
+
+Gegeben sind nun allgemein zwei aufeinanderfolgende natürliche Zahlen b und a mit
+b = a - 1.
+Begründe, dass die folgende Rechenregel immer stimmt:
+2 2 Die Differenz a - b ist gleich der Summe a + b.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Quadratdifferenz
+
+Hans und Karin wollen die Differenz 5¢ - 42 berechnen.
+
+Karin sagt: ,Das ist bei zwei aufeinanderfolgenden Zahlen ganz einfach. Das Ergebnis ist die
+Summe der beiden Zahlen 5 und 4. Und das ist 9.“
+
+Hans ist erstaunt: ,,Tatsachlich, es stimmt: 52 - 42 = 25 - 16 = 9."
+
+Teilaufgabe 1
+Bestimme auf dieselbe Weise wie Karin die Differenz 12? - 11? .
+
+Kontrolliere dein Ergebnis, indem du die Differenz wie Hans berechnest.
+
+Teilaufgabe 2
+
+Hans rechnet wie Karin und bekommt bei zwei anderen aufeinanderfolgenden natiirlichen
+Zahlen als Ergebnis 27.
+
+Welche beiden Zahlen hat er verwendet?
+
+Priife das Ergebnis auch noch einmal, indem du die Differenz der Quadrate dieser beiden
+Zahlen berechnest.
+
+Teilaufgabe 3
+
+Gegeben sind nun allgemein zwei aufeinanderfolgende natirliche Zahlen b und a mit
+b=a-1.
+
+Begriinde, dass die folgende Rechenregel immer stimmt:
+Die Differenz a? - b? ist gleich der Summe a + b.
+
+Copyright Text und Teilaufgaben: QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== rabattaktion · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Rabattaktion
+
+Eine Firma plant eine Rabattaktion. Dabei sollen die Verkaufspreise (in denen 19%
+Mehrwertsteuer enthalten ist) so gesenkt werden, dass die Kunden die Mehrwertsteuer von
+19% praktisch nicht bezahlen müssen.
+Welches Schild passt am besten zu dieser Rabattaktion?
+Kreuze an.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q)
+
+Institut zur Qualitatsentwicklung im Bildungswesen
+
+Rabattaktion
+
+Eine Firma plant eine Rabattaktion. Dabei sollen die Verkaufspreise (in denen 19%
+Mehrwertsteuer enthalten ist) so gesenkt werden, dass die Kunden die Mehrwertsteuer von
+19% praktisch nicht bezahlen mussen.
+
+Welches Schild passt am besten zu dieser Rabattaktion?
+
+Kreuze an.
+
+O
+
+Oo
+
+O
+
+O
+
+Te
+
+RABAT
+
+AUFALLEBESTELLUNGEN,
+
+5
+
+v0
+
+3%
+
+RABAT
+
+AUFALLEBESTELLUNGEN,
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== raeumungsverkauf · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K3, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Räumungsverkauf
+
+Häufig wird ein Räumungsverkauf durchgeführt, wenn ein Geschäft
+RÄUMUNGS - umgebaut oder geschlossen wird. Dabei werden Waren billig
+angeboten und ihre Preise oft sogar mehrfach reduziert. VERKAUF
+e b a f g u
+a t s f ä h c s
+e G n e g
+e W%
+0 5 10%
+% 0 4
+20% 5 0
+%% 0
+3
+% 0 4 2
+0 1 0 30%%%
+Abbildung 1
+
+Teilaufgabe 1
+
+Der Preis der Jeans wird reduziert (siehe Abbildung 2).
+6 4 €
+- 2 5%
+Abbildung 2
+Tina hat 50 €. Kann sie sich davon diese Jeans kaufen?
+Kreuze an.
+Ja Nein
+Gib deinen Lösungsweg an.
+
+Teilaufgabe 2
+
+In den letzten Tagen eines Räumungsverkaufs sagt der Geschäftsführer: „Um die
+Lager leer zu bekommen, senken wir die bereits um 25% reduzierten Preise
+nochmals um 25% gegenüber den schon reduzierten Preisen“ (siehe Abbildung 3).
+vorher 120 €
+jetzt 69 €
+Abbildung 3
+Überprüfe, ob der Endpreis der Jacke zur Aussage des Geschäftsführers passt.
+Kreuze an.
+Nein Ja
+Begründe deine Entscheidung.
+
+===== rathausuhr · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rathausuhr
+
+Die Rathausuhr hat einen hohen und einen tiefen Glockenton.
+Der hohe Glockenton erklingt
+· zur Viertelstunde einmal,
+· zur halben Stunde zweimal,
+· zur Dreiviertelstunde dreimal und
+· zur ganzen Stunde viermal.
+Der tiefe Glockenton gibt zusätzlich zu jeder vollen Stunde die
+Uhrzeit an, also um 1 Uhr (oder um 13 Uhr) mit einem
+Glockenschlag, um 2 Uhr (oder um 14 Uhr) mit zwei
+Glockenschlägen und so weiter.
+
+Teilaufgabe 1
+
+Wie oft erklingt der tiefe Glockenton im Zeitraum von kurz vor 1 Uhr bis kurz
+nach 4 Uhr?
+Kreuze an.
+4 - mal 10 - mal 30 - mal 40 - mal
+
+Teilaufgabe 2
+
+Denk dir eine kurze Aufgabe zu den Glockentönen der Rathausuhr aus, deren
+Ergebnis lautet: 10 Glockenschläge. In deiner Aufgabe sollen sowohl hohe als auch
+tiefe Glockentöne gezählt werden.
+
+===== rechenvorteil · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Rechenvorteil
+
+4 · 3,15 · 25 =
+Wie kann Susanne einen Rechenvorteil nutzen, um diese Aufgabe ohne Nebenrechnung oder
+Taschenrechner zu lösen?
+Rechne vor.
+
+ | M15002_A
+ |
+
+===== richtigumgeformt · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Richtig umgeformt
+Teilaufgabe 1
+
+Wandle den Term 2 x + 4 a in ein Produkt der Form · () um.
+Teilaufgabe 2
+
+Multipliziere den Term 4 k · (2 k – m) aus.
+4 k · (2 k – m) =
+
+===== schokoladenfiguren · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Schokoladenfiguren
+
+In der Zeitung war über die Produktion von Schokoladenfiguren zu lesen:
+„Der Osterhase liegt deutlich vor dem Weihnachtsmann:
+Schätzungsweise 100 Millionen Hasen wurden im Jahr 2008 zum Osterfest produziert. “
+Das Kreisdiagramm zeigt die Anteile der Weihnachtsmänner und Osterhasen an der
+Produktion dieser Schokoladenfiguren.
+Weihnachtsmänner
+57%
+Osterhasen%
+3
+4
+% davon
+7
+5
+ 10% dunkle Schokolade
+43%
+ 90% Milchschokolade
+
+Teilaufgabe 1: Schokoladenfiguren
+
+Gib die ungefähre Anzahl der Osterhasen aus dunkler Schokolade an.
+Ergänze dazu den folgenden Satz.
+Etwa Osterhasen waren aus dunkler Schokolade.
+
+ | M15122_A
+ | Teilaufgabe 2: Schokoladenfiguren
+
+Wie viele Schokoladenfiguren insgesamt (Osterhasen und Weihnachtsmänner) wurden etwa
+produziert?
+Kreuze an.
+100 Millionen 125 Millionen 150 Millionen 175 Millionen 200 Millionen
+
+ | M15122_B
+ |
+
+===== schrankbreiten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schrankbreiten
+[Bild][Bild]
+Schrankbreiten Kombinieren Sie Schränke aus 5 versch.
+70 = 40 30 Breiten!
+Endlos - 75 = 45 30
+80 = 40 40 System,
+85 = 45 40
+planbar
+90 = 45 45
+alle 5 cm! 95 = 50 45 30 cm 40 cm 45 cm 50 cm 80 cm
+100 = 50 50
+105 = 45 30 30
+110 = 80 30
+115 = 45 40 30
+120 = 80 40
+125 = 80 45
+Grafik: © IQB 130 = 80 50 Abbildung 1
+135 =
+140 = 80 30 30
+145 = 50 50 45
+Grafik: © IQB Abbildung 2
+Die Einzelschränke gibt es in fünf verschiedenen Breiten. Man kann sie in unter -
+schiedlichen Kombinationen nebeneinander stellen und erhält so für jedes Zimmer den
+passenden Schrank.
+
+Stelle eine Schrankkombination von 135 cm Breite zusammen.
+Trage in die Tabelle die Anzahl der benötigten Einzelschränke ein.
+Schrankbreite Anzahl
+30 cm
+40 cm
+45 cm
+50 cm
+80 cm
+
+===== skalaundzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K4, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Skala und Zahlen
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-bertinde | Q) 5 institut zur Qualitatsentwicklung im Bildungswesen
+
+Skala und Zahlen
+
+Zwei Zahlen sind auf dem obigen Ausschnitt der Zahlengeraden mit einem Pfeil
+markiert.
+
+Trage die zwei Zahlen in die Kastchen ein.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== stammbruecheuntersuchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Stammbrüche untersuchen
+
+1 17
+Ein Bruch mit einer 1 im Zähler und einer beliebigen natürlichen Zahl größer 0 im
+Nenner heißt Stammbruch. ist ein Beispiel für einen Stammbruch.
+
+Teilaufgabe 1
+
+1 4 1 3 1 2 1 4 1 100
+Stammbrüche sollen nun der Größe nach geordnet werden.
+Ergänze die folgende Tabelle. Ein Beispiel ist bereits eingetragen.
+nächstkleinerer nächstgrößerer
+Stammbruch
+Stammbruch Stammbruch
+
+Teilaufgabe 2
+
+1 10
+Wie viele Stammbrüche sind kleiner als?
+Kreuze an.
+8 9 10 unendlich viele
+
+===== steilestrasse · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K4, K5, K6, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Steile Straße
+
+Das Verkehrszeichen in Abbildung 1 gibt an, dass die Straße dort
+ein Gefälle von 12% hat. Ein Gefälle von 12% bedeutet, dass
+zwischen zwei Orten ein Höhenunterschied von 12 m besteht,
+wenn die zugehörige Horizontalstrecke 100 m lang ist (siehe
+Abbildung 2).
+Abbildung 1 Ort A
+1 2%
+ G e f
+ä l 12 m l e
+Ort B Abbildung 2
+100 m Horizontalstrecke (nicht maßstabsgerecht)
+
+Teilaufgabe 1:
+
+Die Straße „An der Steilen Wand“ in der sächsischen Stadt Meerane hat ein Gefälle
+von 13%. Die Horizontalstrecke zwischen dem Beginn dieses Gefälles und dessen
+Ende beträgt ca. 250 m.
+Wie groß ist der Höhenunterschied, der auf diesem Straßenstück überwunden wird?
+Der Höhenunterschied beträgt ca. m.
+
+Teilaufgabe 2:
+
+Die steilste Straße der Welt liegt in Neuseeland und heißt „Baldwin Street“. Ein sehr
+steiler Abschnitt der Straße überwindet bei einer Horizontalstrecke von 154 m einen
+Höhenunterschied von 47 m.
+Wie viel Prozent Gefälle hat die Straße auf diesem Abschnitt?
+Das Gefälle beträgt ca.%.
+
+Teilaufgabe 3:
+
+Steigungen oder Gefälle werden manchmal nicht in Prozent wie in Abbildung 1,
+sondern durch die Größe des Winkels (siehe Abbildung 3) beschrieben.
+Ort A
+a
+Ort B Abbildung 3
+(nicht maßstabsgerecht)
+Gib die Größe des Winkels a an, der zu 100% Gefälle gehört.
+a = °
+Notiere deinen Lösungsweg.
+
+===== sterneundsandkoerner · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: kein Vermerk
+
+Sterne und Sandkörner
+
+Für große Zahlen gibt es Zahlwörter. Diese heißen, der Reihe nach notiert:
+Tausend, Million, Milliarde, Billion, Billiarde, Trillion, Trilliarde, Quadrillion und so weiter.
+Der Faktor zum nächstgrößeren Zahlwort ist dabei immer 1000.
+Im folgenden Artikel der Zeitung „Der Tagesspiegel“ wird ein solches Zahlwort verwendet.
+Darin heißt es:
+„Es gibt viel mehr Sterne im All als Sandkörner auf der Erde. Das haben australische
+Astronomen ausgerechnet. Sie schauten sich mit Fernrohren einen kleinen Teil des
+Himmels an und schätzten auf dieser Grundlage die Zahl der Sterne. Sie kamen auf
+70 Trilliarden Sterne. Damit ist die Anzahl der Sterne im All zehnmal so groß wie die der
+Sandkörner auf der Erde. “
+Quelle: © Dr. Hartmut Wewetzer, Gibt es mehr Sterne im All als Sandkörner auf der Erde?, aus: Der Tagesspiegel, Berlin; Nr. 21043 (2011), S. 14.
+
+Teilaufgabe 1
+
+Gib an, wie viele Sterne es laut Zeitungsartikel gibt.
+ Sterne
+Notiere, wie viele Nullen diese Zahl insgesamt hat.
+Nullen
+
+Teilaufgabe 2
+
+10 n
+Ein Ausschreiben sehr großer Zahlen in Ziffern kann unübersichtlich sein. Deshalb
+wird beim Schreiben solcher Zahlen oftmals eine Zehnerpotenz verwendet. Der
+Wert der Hochzahl n gibt die Anzahl der Stellen an, um die das Komma des Faktors
+vor der Zehnerpotenz verschoben wird.
+Beispiel:
+3 Es ist 1000 = 1 · 10.
+3 Man kann also 5000 als 5 · 10 schreiben. Entsprechend kann man die Zahl 3217 als
+3 3,217 · 10 schreiben.
+Ergänze im folgenden Beispiel die in der Zehnerpotenz fehlende Hochzahl.
+70 Trilliarden = 7 · 10
+
+===== suchediezahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Suche die Zahl
+
+Schreibe die richtigen Zahlen in die Kästchen.
+5 × = 10 3 × = 24 7 × = 21
+
+ |
+
+===== temperaturdifferenz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Temperaturdifferenz
+
+An einem Herbsttag misst Tim morgens im Garten eine Temperatur von - 1 °C.
+Am Nachmittag beträgt die Temperatur an der gleichen Stelle 18 °C.
+Gib an, um wie viel Grad Celsius die Temperatur angestiegen ist.
+Die Temperatur ist um °C gestiegen.
+
+===== thermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2017, 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K3, K4, Jahrgang 2017, 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Thermometer
+Teilaufgabe 1
+
+Gib an, welche Temperatur das Thermometer anzeigt.
+°C
+40
+30
+20
+10
+0
+- 10
+° C
+
+Teilaufgabe 2
+
+Später zeigt das Thermometer - 3 °C. Danach steigt die Temperatur um 15 Grad.
+Gib an, welche Temperatur das Thermometer nun anzeigt.
+Das Thermometer zeigt nun °C an.
+
+===== thermometeranzeigen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Zwei Thermometeranzeigen
+
+Das linke Thermometer zeigt die Temperatur, die °C °C
+morgens gemessen wurde. Das rechte Thermometer
+40 40 zeigt die Temperatur, die mittags gemessen wurde.
+Gib den Temperaturunterschied an.
+30 30
+Der Temperaturunterschied beträgt °C.
+20 20
+10 10
+0 0
+- 10 - 10
+ morgens mittags
+
+===== treppenmasse · Leitidee Zahl (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K5, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K3, K5, K6, Jahrgang 2013; Teilaufgabe 4: AFB II, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Treppenmaße
+
+ 263cm hb
+Man muss jeden Tag viele verschiedenartige
+Treppen überwinden. Damit man das
+Treppensteigen als angenehm empfindet,
+orientieren sich Treppenbauer an der folgenden
+Schrittmaßregel (siehe Abbildung):
+Schrittmaßregel:
+Tritthöhe h
+Auftritt b
+(nicht maßstabsgerecht)
+
+Teilaufgabe 1
+
+In der folgenden Tabelle sind die Maße von zwei Treppen angegeben.
+Treppe 1 Treppe 2
+Tritthöhe h 19 cm 12 cm
+Auftritt b 44 cm 39 cm
+Kreuze jeweils an, ob die Schrittmaßregel erfüllt ist.
+Begründe deine Antwort durch eine Rechnung.
+ja nein Rechnung
+Bei Treppe 1 ist die Schrittmaßregel erfüllt.
+Bei Treppe 2 ist die Schrittmaßregel erfüllt.
+
+Teilaufgabe 2
+
+Eine Wohnhaustreppe hat einen Auftritt von b = 27 cm.
+Gib die Tritthöhe gemäß der Schrittmaßregel an.
+h = cm
+
+Teilaufgabe 3
+
+ 263cm hb
+Beim Bau einer Treppe soll die Schrittmaßregel beachtet werden.
+Peter behauptet: „Es gilt dann: Je kleiner die Tritthöhe h, desto größer der Auftritt b. “
+Hat Peter Recht?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+Teilaufgabe 4
+
+ 263cm hb
+Eine Treppe hat eine Steigung von 45 °. Die Schrittmaßregel ist erfüllt.
+Gib an, welche Maße die Tritthöhe h und der Auftritt b dann haben müssen.
+Tritthöhe h: cm
+Auftritt b: cm
+
+===== ueberschlagdochmal · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K3, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Überschlag doch mal
+
+Max meint, dass er ziemlich viel Zeit in der Schule verbringt. Er fragt sich, wie viele
+Unterrichtsstunden es in acht Schuljahren wohl schon waren.
+Welche Zahl passt am besten?
+Kreuze an.
+ca. 1000 Unterrichtsstunden
+ca. 10 000 Unterrichtsstunden
+ca. 100 000 Unterrichtsstunden
+ca. 1 000 000 Unterrichtsstunden
+
+===== ueberschlagsrechnung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Überschlagsrechnung
+
+
+Das Ergebnis von 91 · 88 soll durch eine Überschlagsrechnung im Kopf annähernd ermittelt
+werden.
+Welche Überschlagsrechnung eignet sich dafür am besten?
+Kreuze an.
+91 · 88
+80 · 80 90 · 90 90 · 80 91 · 85 100 · 90
+
+===== verbindungsstrecken · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Verbindungsstrecken
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Verbindungsstrecken
+
+In der Abbildung sind fuinf Punkte A, B, C, D und E gegeben. Jeder der vier Punkte A, B,
+C, D ist mit jedem anderen der vier Punkte A, B, C, D durch eine Strecke verbunden. So
+entstehen sechs verschiedene Verbindungsstrecken.
+
+D
+
+E
+e
+
+A
+
+Teilaufgabe 1
+
+Wie viele solcher Verbindungsstrecken entstehen zusatzlich, wenn man die Punkte
+A, B, C, Dund E in gleicher Weise verbindet?
+
+Du kannst das in der Zeichnung oben ausprobieren.
+
+Es gibt. = .s zusatzliche Verbindungsstrecken.
+
+Teil
+aufgabe 2
+
+20 Punkte liegen verteilt auf einem Kreis. Dann gibt es 190 verschiedene
+Verbindungsstrecken.
+
+Wie viele dieser Verbindungsstrecken gibt es insgesamt, wenn man einen 21. Punkt
+auf den Kreis hinzunimmt?
+
+Es gibtinsgesamt  ——sssss«wVerbindungsstrecken.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 4 dlegalcode.de
+
+===== vonlinkswievonrechts · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Von links wie von rechts
+
+252 und 4774 sind natürliche Zahlen, die von links und rechts gelesen gleich sind. Zahlen
+mit dieser Eigenschaft heißen Palindromzahlen. Dabei darf die erste und letzte Ziffer keine
+Null sein. 252 ist zum Beispiel eine 3 - stellige Palindromzahl und 4774 eine 4 - stellige
+Palindromzahl.
+
+Teilaufgabe 1:
+
+Ergänze die Zahl 38 zu einer
+4 - stelligen Palindromzahl:
+und zu einer
+5 - stelligen Palindromzahl:.
+
+Teilaufgabe 2:
+
+Wie viele verschiedene 4 - stellige Palindromzahlen gibt es?
+Kreuze an.
+16 72 81 90 100
+
+===== wahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Wahl
+[Bild: image1.png]Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-bertinde | Q) 5 institut zur Qualitatsentwicklung im Bildungswesen
+
+Wahl
+Bei einer Wahl erreichten die Parteien A, B, C und D folgende Ergebnisse:
+Wahlergebnisse
+36,8%
+33,4%
+19,8%
+64%
+A B c D
+
+Teilaufgabe 1
+
+Zur Wahl traten auch noch weitere Parteien an, die wegen ihrer geringen
+Stimmenzahl nicht im Diagramm auftauchen.
+
+Wie viel Prozent der Stimmen entfielen insgesamt auf diese weiteren Parteien?
+
+Stimmenanteil der weiteren Parteien: %
+
+Teil
+aufgabe 2
+
+24 Millionen Menschen gingen zur Wahl.
+
+Wie viele Menschen haben demnach die Partei A gewahlt?
+
+Ungefahre Anzahl der Wahlerinnen und Wahler der Partei A:
+
+Copyright Text, Grafik und Tellaufgaben: 108 e. V. Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 4 dlegalcode.de
+
+===== weitsprung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K3, K4, K5, Jahrgang 2011; Teilaufgabe 4: AFB III, Kompetenzstufe 2, K3, K4, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Weitsprung
+
+In der Klasse 8 a wird im Sportunterricht Weitsprung trainiert. Jeder Schüler hat drei Versuche.
+Die Sportlehrerin gibt die drei Sprungweiten in ein Tabellenkalkulationsprogramm ein und
+lässt für jeden Schüler die mittlere Weite berechnen.
+So sieht die Tabelle für die zehn Mädchen der Klasse aus:
+Sprung 2 (in m) Sprung 3 (in m) mittlere Weite (in m) Name Vorname Sprung 1 (in m)
+3,86 Müller Jacqueline 4,10 3,92 3,96
+Frauenstein Chantal 4,20 4,53 4,12 4,283333333
+Yilmaz 3,90 3,75 4,10 3,916666667 Emine
+3,963333333 Ostrovski Anna 4,57 4,62 2,70
+Berghoff Dilara 3,20 4,52 3,65 3,79
+Schulte Lisa 3,56 3,85 3,99 3,8
+Sara Kaufmann 4,24 4,32 4,41 4,323333333
+Li Xin Xin 4,20 4,25 4,32 4,256666667
+3,15 3,29 Meier Vanessa 3,25 3,47
+3,70 3,14 Homberg Eva - Maria 3,52 2,20
+
+Teilaufgabe 1: Weitsprung
+
+Beschreibe, wie die mittlere Weite in Spalte F berechnet wird.
+
+ | M15037_A
+ | Teilaufgabe 2: Weitsprung
+
+Die mittlere Weite in der Zelle F 2 wurde mithilfe einer Formel berechnet. In dieser Formel
+wurden Zellenbezeichnungen wie C 2, D 2 und E 2 als Variablen verwendet.
+Gib eine passende solche Formel an.
+
+ | M15037_B
+ | Teilaufgabe 3: Weitsprung
+
+Man kann in der Tabellenkalkulation vorgeben, mit wie vielen Nachkommastellen eine Zahl
+angezeigt werden soll.
+Gib an, wie viele Nachkommastellen in Spalte F sinnvoll sind.
+Begründe deine Antwort.
+
+ | M15037_C
+ | Teilaufgabe 4: Weitsprung
+
+Die Sportlehrerin sagt: „Sara ist die beste Weitspringerin der Klasse. “ Marc protestiert: „Nein,
+Anna ist viel besser. “
+Nenne ein Argument dafür, dass Anna die beste Weitspringerin der Klasse ist.
+
+ | M15037_E
+ |
+
+===== wundersamerechenergebnisse · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K5, Jahrgang 2011; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Wundersame Rechenergebnisse
+
+Simone multipliziert einstellige, zweistellige bzw. dreistellige Zahlen mit den Faktoren 11, 101
+und 1001. Sie wundert sich über die Rechenergebnisse, die sie erhält:
+(1) 7 ‧ 11 = 77 5 ‧ 11 = 55
+(2) 38 ‧ 101 = 3838 45 ‧ 101 = 4545
+(3) 306 ‧ 1001 = 306306 692 ‧ 1001 = 692692
+
+Teilaufgabe 1: Wundersame Rechenergebnisse
+
+Schreibe eine vierte Zeile auf, in der du das obige Aufgabenmuster mit zwei weiteren
+Beispielen fortsetzt.
+(4) ‧ = ‧ =
+
+ | M16016_A
+ | Teilaufgabe 2: Wundersame Rechenergebnisse
+
+Ergänze den folgenden Text.
+„Wenn man eine dreistellige Zahl mit 1001 multipliziert, dann …
+. “
+Begründe diese Aussage nun allgemein.
+
+ | M16016_B
+ |
+
+===== zahlenaddieren · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zahlen addieren
+Teilaufgabe 1
+
+Die Summe von zwei ganzen Zahlen, die beide größer als 0 sind, soll 8 ergeben.
+Schreibe alle Möglichkeiten auf, wie diese Summe gebildet werden kann.
+
+Teilaufgabe 2
+
+1 8
+Nun geht es um Bruchzahlen, die größer als 0 sind.
+Die Summe von zwei solchen Bruchzahlen soll ergeben.
+Schreibe ein Beispiel auf, wie die Summe gebildet werden kann. Die Brüche müssen
+dabei vollständig gekürzt sein.
+
+===== zahlengesucht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zahlen gesucht
+Teilaufgabe 1
+
+Schreibe alle dreistelligen Zahlen auf, die aus den Ziffern 1, 2 und 3 gebildet werden können.
+In keiner der Zahlen darf eine dieser Ziffern mehrfach vorkommen.
+
+Teilaufgabe 2
+
+Luisa weiß, dass man aus den vier Ziffern 1, 2, 3 und 4 insgesamt genau 24 verschiedene
+vierstellige Zahlen bilden kann, in denen keine dieser vier Ziffern mehrfach vorkommt.
+Wie viele verschiedene fünfstellige Zahlen können insgesamt gebildet werden, wenn man
+ebenso mit den Ziffern 1, 2, 3, 4 und 5 vorgeht?
+Gib dein Ergebnis an.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zahlen gesucht
+
+Teilaufgabe 1
+
+Schreibe alle dreistelligen Zahlen auf, die aus den Ziffern 1, 2 und 3 gebildet werden koénnen.
+In keiner der Zahlen darf eine dieser Ziffern mehrfach vorkommen.
+
+Teilaufgabe 2
+
+Luisa wei, dass man aus den vier Ziffern 1, 2, 3 und 4 insgesamt genau 24 verschiedene
+vierstellige Zahlen bilden kann, in denen keine dieser vier Ziffern mehrfach vorkommt.
+
+Wie viele verschiedene finfstellige Zahlen konnen insgesamt gebildet werden, wenn man
+ebenso mit den Ziffern 1, 2, 3, 4 und 5 vorgeht?
+
+Gib dein Ergebnis an.
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== zahlenmauer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, Jahrgang 2012; Teilaufgabe 3: AFB I, Kompetenzstufe 1B, K2, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zahlenmauer
+
+Zahlenmauern sind aus Steinen gebaut.
+Dabei steht in jedem Stein die Summe der beiden darunter liegenden Steine.
+Beispiel:
+18
+5 13
+
+Teilaufgabe 1
+
+Ergänze die drei fehlenden Zahlen in der Zahlenmauer.
+78
+31 12
+
+Teilaufgabe 2
+
+Gib an, welche Zahl man hier für x einsetzen muss.
+15
+ x =
+3 - 4 x
+
+Teilaufgabe 3
+
+Gib an, welche Zahl man hier für x einsetzen muss.
+12 000
+ x =
+x x x
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zahlenmauer
+
+Zahlenmauern sind aus Steinen gebaut.
+Dabei steht in jedem Stein die Summe der beiden darunter liegenden Steine.
+
+Beispiel:
+Ispl 18
+
+Teilaufgabe 1
+Erganze die drei fehlenden Zahlen in der Zahlenmauer.
+
+78
+
+31 12
+
+Teilaufgabe 2
+Gib an, welche Zahl man hier fiir x einsetzen muss.
+
+15
+
+Teilaufgabe 3
+Gib an, welche Zahl man hier fiir x einsetzen muss.
+
+12000
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== zahlenstrahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zahlenstrahl
+Teilaufgabe 1
+
+Auf welche Zahl zeigt der Pfeil?
+Schreibe die Zahl in das Kästchen.
+0 1
+
+Teilaufgabe 2
+
+1 5
+Markiere die Zahl mit einem Pfeil auf dem gegebenen Zahlenstrahl.
+1 0
+
+===== zahlensuche · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Zahlensuche
+
+In der Tabelle sind jeweils eine natürliche Zahl, ihr Vorgänger (die vorangehende natürliche
+Zahl) und das Doppelte dieses Vorgängers einander zugeordnet.
+Vervollständige die Tabelle.
+Zahl 5 6
+Vorgänger der
+4 9
+Zahl
+Vorgänger
+8 30
+doppelt
+
+===== zahlensumme · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zahlensumme
+
+Lässt sich jede natürliche Zahl, die größer als 5 ist, als Summe aus drei aufeinanderfolgenden
+natürlichen Zahlen darstellen?
+Kreuze an.
+Ja Nein
+Begründe deine Entscheidung.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zahlensumme
+
+Lasst sich jede natiirliche Zahl, die gr6er als 5 ist, als Summe aus drei aufeinanderfolgenden
+natirlichen Zahlen darstellen?
+
+Kreuze an.
+Ja 1 Nein
+
+Begriinde deine Entscheidung.
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== zahlgesucht2 · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zahl gesucht
+
+Gegeben ist ein Zahlenstrahl.
+Auf welche Zahl zeigt der Pfeil ungefähr? Schreibe die Zahl in das Kästchen.
+0 1 000 000
+
+===== zeitumrechnung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2015; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zeitumrechnung
+
+Meistens - z. B. auf einer Stoppuhr - gibt man eine Zeitspanne in Stunden, Minuten und
+Sekunden an.
+Zum Rechnen ist es aber oft praktischer, die Zeit als Dezimalzahl in Stunden anzugeben.
+Ein Beispiel: 1,5 Stunden bedeutet 1 Stunde und 30 Minuten.
+
+Teilaufgabe 1
+
+Wie lautet das Ergebnis der Umwandlung für die Zeitspanne „ 1 Stunde und 45
+Minuten“?
+Kreuze an.
+1,45 Stunden 1,65 Stunden 1,75 Stunden 1,85 Stunden
+
+Teilaufgabe 2
+
+Hier wird eine Zeitspanne als Dezimalzahl in Stunden angegeben:
+t = 3,65 Stunden
+Rechne diese Zeitspanne in Stunden und Minuten um.
+Gib das Ergebnis an.
+t = Stunden und Minuten
+
+Teilaufgabe 3
+
+Gegeben ist allgemein eine Zeitspanne als Dezimalzahl in Stunden: t = a, b Stunden.
+Zum Beispiel hat dann bei t = 23,71 Stunden a den Wert 23 und b den Wert 71.
+Jede Angabe t = a, b Stunden kann dann in Stunden und Minuten umgerechnet
+werden.
+Beschreibe unter Verwendung von a und b den Rechenweg, den man gehen muss,
+um eine solche Umrechnung durchzuführen.
+
+===== zuschauerzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 3, K1, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Zuschauerzahlen
+Teilaufgabe 1
+
+Zu einem Fußballspiel kamen 48 548 Zuschauer.
+Runde diese Zahl auf Tausender.
+
+Teilaufgabe 2
+
+An einem bestimmten Bundesliga - Spieltag wurden für die 9 Spiele die folgenden
+Zuschauerzahlen gemeldet:
+24 000, 61 673, 39 000, 24 487, 51 500, 29 313, 54 057, 31 000 und 48 548.
+Günther sagt: „An diesem Spieltag waren insgesamt 363 578 Zuschauer in den Stadien. “
+Sabine meint: „Das kann man bestimmt nicht so genau sagen, weil …“.
+Ergänze die Argumentation von Sabine.
+
+===== zwanzigprozent · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zwanzig Prozent
+
+Gib 20% von 150 € an.
+€
+
+===== zweitaschenrechner · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K1, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zwei Taschenrechner
+[Bild: image1.png]
+
+Teilaufgabe 1[Bild: image3.png]
+Teilaufgabe 2[Bild: image4.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zwei Taschenrechner
+
+Yasmina und David losen die Aufgabe ,Werbeaktion“ mit dem Taschenrechner. Beide
+haben unterschiedliche Taschenrechner, aber beide driicken jeweils die gleiche
+Tastenfolge.
+
+Trotzdem sehen sie unterschiedliche Ergebnisse:
+
+Aufgabe: Werbeaktion
+
+Werbeaktion: ,20% mehr zum gleichen Preis.“ Normalerweise sind in der Verpackung
+250g.
+
+Wie viel ist jetzt in der Verpackung?
+
+Tastenfolge:
+BHVOysjWIoeej
+
+Yasminas Taschenrechner zeigt an: Davids Taschenrechner zeigt an:
+
+Teilaufgabe 1
+Die Prozenttaste auf beiden Rechnern funktioniert unterschiedlich.
+
+Beschreibe, was die Taschenrechner bei der Eingabe ,,+ 20 %* rechnen.
+
+Bei Yasmina:
+
+Bei David:
+
+Teilaufgabe 2
+Davids Taschenrechner gibt offenbar bezogen auf die Aufgabe ,Werbeaktion“ ein
+falsches Ergebnis an.
+
+Gib eine Tastenfolge an, mit der David bei der Aufgabe ,Werbeaktion“ das richtige
+Ergebnis erhalt.
+Verwende dazu die Zahlentasten und einige der folgenden Tasten:
+
+OGOWWUME)
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 4 dlegalcode.de
+
+===== zwischenzweizahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zwischen zwei Zahlen
+
+Welche der folgenden Zahlen liegt zwischen 0,06 und 0,07?
+Kreuze an.
+0,00062 0,0062 0,062 0,62
+
+===== zwischenzweizahlen2 · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zwischen zwei Zahlen 2
+Teilaufgabe 1
+[Bild: image1.png]Teilaufgabe 2[Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-bertinde | Q) 5 institut zur Qualitatsentwicklung im Bildungswesen
+
+Zwischen zwei Zahlen 2
+
+Teilaufgabe 1
+Gib zwei unterschiedliche rationale Zahlen an, die zwischen —4,5 und —3,5 liegen.
+
+Teil
+aufgabe 2
+
+Wie viele unterschiedliche Zahlen liegen zwischen —4,5 und —3,5?
+
+Kreuze an.
+
+O2 O13 ima) O11 0 mehr als 11
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 4 dlegalcode.de

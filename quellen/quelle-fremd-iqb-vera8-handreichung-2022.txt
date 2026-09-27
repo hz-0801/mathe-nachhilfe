@@ -1,0 +1,1376 @@
+Quelle: VERA-8 Mathematik 2022, Didaktische Handreichung Teil II (Modul B), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_2022_MA_ModulB_KohKSZE.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 33 (pdfinfo)
+Lizenzvermerk: kein Vermerk
+Textfassung: pdftotext -layout (poppler); Formeln und Abbildungen fehlen, Seitenwechsel als Formfeed.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+    Vergleichsarbeiten 2022
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+  Fachdidaktische Orientierung
+ Leitidee Zahl und Leitidee Raum
+            und Form
+Inhaltsverzeichnis
+1    Einleitung ...................................................................................................................... 3
+2    Bildungsstandards und Kompetenzmodell im Fach Mathematik ................................... 3
+3    Die Leitidee Zahl ........................................................................................................... 6
+     3.1 Schwerpunktthema: Anteile ................................................................................. 8
+     3.2     Vorstellungen zum Umgang mit Bruchzahlen entwickeln ....................................11
+     3.3     Anteile in den VERA-8 Erhebungen ....................................................................13
+4    Die Leitidee Raum und Form .......................................................................................18
+     4.1 Schwerpunktthema: Ebene Geometrie ...............................................................19
+     4.2     Modellieren mit dynamischer Geometriesoftware: Konstruktionsaufgabe ...........23
+     4.3     Ebene Geometrie in den VERA-8 Erhebungen ...................................................26
+5    Abschließende Anmerkungen ......................................................................................30
+6    Literaturverzeichnis......................................................................................................31
+7    Abbildungsverzeichnis .................................................................................................33
+8    Tabellenverzeichnis .....................................................................................................33
+9    Verzeichnis der Beispielaufgaben ................................................................................33
+
+
+
+
+Autorinnen und Autoren der fachdidaktischen Erläuterungen in den Modulen B und C sind
+Elena Jedtke, Maxim Brnic und Ilja Ay. Die gezeigten Testaufgaben entstanden in Kooperation
+von Lehrkräften aus zehn Bundesländern und Fachdidaktikerinnen / Fachdidaktikern unter Fe-
+derführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische Leitung)
+und des Instituts zur Qualitätsentwicklung im Bildungswesen.
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                             auch online finden können?
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+
+                                                                 2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2003, 2004a, 2004b) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt
+(siehe Abschnitt 2, S. 3). Anschließend werden die beiden zur Wahl stehenden Schwerpunkte
+der diesjährigen Ergänzungsmodule näher erläutert: die Leitidee Zahl mit Fokus auf Anteile
+sowie die Leitidee Raum und Form mit Fokus auf Ebene Geometrie (siehe Abschnitt 3, S. 6).
+Dabei wird in beiden Abschnitten ein besonderes Augenmerk auf zentrale Inhalte der
+Schwerpunktsetzungen gelegt. Es werden Herausforderungen geschildert und Beispiele
+vorgestellt, wie Lehrkräfte mit diesen in der Unterrichtspraxis umgehen können. Des Weiteren
+wird insbesondere im Bereich Ebene Geometrie aufgezeigt, wie digitale Werkzeuge
+gewinnbringend in den Unterricht eingebunden werden können. In den dazugehörigen
+Kapiteln 3 und 4 werden außerdem Aufgaben aus VERA-8 vorgestellt, die jeweils einem der
+diesjährigen Schwerpunkte beider Leitideen zugeordnet werden können. Es werden in diesem
+Rahmen Beispiele für Aufgabenformulierungen gezeigt, welche die verschiedenen
+allgemeinen Kompetenzen adressieren und zudem im Unterricht zur Förderung der
+Kompetenzen herangezogen werden können.
+
+
+
+2 Bildungsstandards und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa
+der PISA-Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003
+Bildungsstandards für die Fächer Deutsch, Mathematik und die erste Fremdsprache
+(Englisch / Französisch) ein 1. Dies sollte Zielklarheit in Bezug auf die von Schülerinnen und
+Schülern zu erreichenden Kompetenzen in diesen Fächern schaffen sowie eine Überprüfung
+des Erreichten ermöglichen (Blum, Drüke-Noe, Hartung & Köller, 2010, S. 14–16). So sollte
+der Übergang von einer sehr stark inputorientierten Steuerung im Bildungswesen zu einer
+Kombination aus Input- und Output-Steuerung erreicht werden. Die zentrale Idee dabei war
+es, Kriterien festzulegen, die eine länderübergreifende Standardsetzung ermöglichen.
+Dadurch soll die Leistung von Lernenden bzw. Lerngruppen über die Grenzen eines Bundes-
+landes hinaus vergleichbar erfasst werden können. Zu diesem Zweck greifen die Bildungs-
+standards allgemeine Bildungsziele auf und benennen Kompetenzen, die Schülerinnen und
+Schüler bis zu einer bestimmten Jahrgangsstufe an zentralen Inhalten erworben haben
+sollen (KMK, 2003, 2004a).
+
+
+
+1 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+                                                3
+Den Bildungsstandards für das Fach Mathematik liegt der Anspruch zu Grunde, den Mathe-
+matikunterricht allgemeinbildend zu gestalten. Dabei wird davon ausgegangen, dass ein
+allgemeinbildender Mathematikunterricht Schülerinnen und Schülern die folgenden drei Grun-
+derfahrungen ermöglicht (Winter, 1995, S. 37):
+
+   (1) Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus
+        Natur, Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu
+        verstehen,
+
+   (2) mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+        Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+        eigener Art kennen zu lernen und zu begreifen,
+
+   (3) in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die
+        Mathematik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Eingedenk dieser drei Grunderfahrungen wurde das Kompetenzmodell im Fach Mathematik
+entwickelt, welches im Folgenden erläutert wird. Das Kompetenzmodell ergibt sich nicht
+allein aus der Fachsystematik, sondern ist ausgerichtet an Lernprozessen und Phänomenen
+mathematischen Handelns im Unterricht und im Alltag. Es werden in diesem Modell zunächst
+die folgenden drei Dimensionen unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Inhaltsbezogene mathematische Kompetenzen, strukturiert nach Leitideen und
+   3. Anforderungsbereiche.
+
+                                                                              L1:   Zahl
+                                                                              L2:   Messen
+                                                                              L3:   Raum und Form
+   Anspruch                                         Inhalte                   L4:   Funktionaler Zusammenhang
+   (Anforderungsbereiche)                           (Leitideen)               L5:   Daten und Zufall
+   Komplexe Tätigkeiten,
+   Verallgemeinerungen      AB III                       L5
+                                                    L4
+   Zusammenhänge            AB II              L3
+   herstellen
+                                          L2
+   Direkte, einfache        AB I     L1
+   Tätigkeiten
+                                     K1
+                                               K2
+                                                    K3
+                                                          K4
+                                                                K5
+                                                                     K6
+
+                                                          Prozesse
+                                                          (Allgemeine Kompetenzen)
+                                                          K1:    Mathematisch argumentieren
+                                                          K2:    Probleme mathematisch lösen
+                                                          K3:    Mathematisch modellieren
+                                                          K4:    Mathematische Darstellungen verwenden
+                                                          K5:    Mit symbolischen, formalen und technischen
+                                                                 Elementen der Mathematik umgehen
+                                                          K6:    Mathematisch kommunizieren
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+
+
+
+                                                                          4
+Die allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells und
+beschreiben, auf welche Art mathematische Inhalte bearbeitet werden. Im Einzelnen sind dies
+die    Kompetenzen      mathematisch      argumentieren (K1),     Probleme     mathematisch
+lösen (K2), mathematisch modellieren (K3), mathematische Darstellungen verwenden (K4),
+mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) und
+mathematisch kommunizieren (K6). Diese allgemeinen mathematischen Kompetenzen sind
+differenziert zu betrachten, obwohl sie im Verbund erworben und angewendet werden
+können, d. h. bei der Bearbeitung eines mathematischen Gegenstands oft mehrere dieser
+Kompetenzen benötigt werden. Mit der getrennten Betrachtung ist zum einen die Absicht ver-
+bunden, spezifische Eigenschaften und Anforderungen von Aufgaben im Mathematikunterricht
+transparent zu machen. Dies ermöglicht es, den Mathematikunterricht differenzierter zu pla-
+nen. Ein mathematischer Inhalt kann den Schülerinnen und Schülern dann z. B.
+entlang verschiedener, durchzuführender Tätigkeiten zugänglich gemacht werden. Zum
+anderen ermöglicht die getrennte Betrachtung von allgemeinen mathematischen Kompeten-
+zen es, Schülerleistungen differenzierter zu analysieren und so gezieltere Diagnosen zu
+stellen.
+
+Die zweite Dimension des Modells, d. h. die inhaltsbezogenen mathematischen Kompetenzen,
+bilden fünf Leitideen. Diese fünf Leitideen sind Zahl (L1), Messen (L2), Raum und Form (L3),
+Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). In den Bildungsstandards wird
+dazu erläutert: „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete
+und durchzieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer
+inhaltsbezogenen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in
+jedem Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im
+inhaltlichen Zusammenhang betont werden soll.“ (KMK, 2003, S. 18). Mit den Leitideen ist die
+Absicht verbunden, Phänomene mathematischer Tätigkeiten zu beschreiben (Freudenthal,
+1983). Diese Leitideen stehen zwar mit Fachgebieten der Mathematik in Verbindung, sind mit
+diesen jedoch nicht identisch. Mit ihnen wird versucht zu fassen, welche mathematischen
+Mittel zum Einsatz kommen, wenn eine Situation oder ein Problem im Mathematikunterricht
+angegangen wird. In der Konsequenz bedeutet das, dass alle Leitideen gleichberechtigt
+nebeneinanderstehen. Auch wenn der Aufbau eines an die Fachsystematik anschlussfähigen
+konzeptuellen Systems Ziel des Mathematikunterrichts sein soll, sind die Leitideen und auch
+die inhaltsbezogenen Kompetenzen, welche zu den einzelnen Leitideen gehören, nicht
+zuallererst der Fachsystematik verpflichtet. Es ergibt sich aus ihnen keine Hierarchie, wie es
+beispielsweise in einem axiomatisch aufgebauten Fachgebiet der Mathematik der Fall wäre.
+Weiterhin folgen die Leitideen auch nicht einem fachdidaktischen Aufbau im Sinne einer
+zeitlichen Abfolge im Lernprozess („erst kommt das Zählen, dann kommt das Messen, usw.“).
+Sie erlauben es, bestimmte mathematische Phänomene unter einer Kategorie, d. h. einer
+Leitidee, zusammenzufassen. Leitideen können als fundamentale Ideen aufgefasst werden
+                                              5
+(vgl. Schwill, 1993), die im Mathematikunterricht auf jedem intellektuellen Niveau vermittelt
+werden können und in verschiedenen Gebieten eines Inhaltsbereichs vielfältig anwendbar
+sind.
+
+Die dritte und letzte Dimension des Kompetenzmodells der Bildungsstandards bilden drei An-
+forderungsbereiche. Anforderungsbereiche beschreiben unterschiedliche Niveaus, auf denen
+eine    bestimmte   allgemeine     Kompetenz       zur   Bearbeitung   einer   mathematischen
+Aufgabe benötigt wird. Es werden dabei in der Regel drei Anforderungsbereiche
+unterschieden. Mit dem Anforderungsbereich I werden Anforderungen an allgemeine
+Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte befähigen. Zum
+Anforderungsbereich II zählen solche Anforderungen an allgemeine Kompetenzen, die es
+Schülerinnen und Schülern ermöglichen Zusammenhänge herzustellen und Gelerntes
+anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen, die es
+Schülerinnen und Schülern erlauben zu verallgemeinern und zu reflektieren.
+
+Alle Bestandteile des Kompetenzmodells sind zentrale Punkte der Bildungsstandards und ste-
+hen gleichwertig nebeneinander. Im Folgenden werden ein spezieller Aspekt der Leitidee Zahl
+sowie ein Aspekt aus der Leitidee Raum und Form herausgegriffen und erläutert. Dies bedeu-
+tet jedoch nicht, dass andere Bestandteile der Bildungsstandards diesem Aspekt in irgendeiner
+Weise nachstehen. Insbesondere die verstärkte Orientierung des Mathematikunterrichts an
+den      allgemeinen     mathematischen        Kompetenzen         (Prozessdimension     des
+Kompetenzmodells) ist eine Errungenschaft der Bildungsstandards, die auch bei der
+gesonderten Betrachtung einer Leitidee nicht in Vergessenheit geraten darf.
+
+
+
+3 Die Leitidee Zahl
+
+In den Bildungsstandards im Fach Mathematik für den mittleren Schulabschluss werden
+unter der Leitidee Zahl verschiedene inhaltsbezogene Kompetenzen zusammengefasst.
+Diese lauten (KMK, 2003, S. 10):
+
+Die Schülerinnen und Schüler
+   •    nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von
+        natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwen-
+        digkeit,
+   •    stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreib-
+        weise,
+   •    begründen die Notwendigkeit von Zahlbereichserweiterungen an Beispielen,
+   •    nutzen Rechengesetze, auch zum vorteilhaften Rechnen,
+   •    nutzen zur Kontrolle Überschlagsrechnungen und andere Verfahren,
+   •    runden Rechenergebnisse entsprechend dem Sachverhalt sinnvoll,
+
+                                               6
+   •   verwenden Prozent- und Zinsrechnung sachgerecht,
+   •   erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren
+       Umkehrungen und nutzen diese Zusammenhänge,
+   •   wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen
+       Algorithmen bzw. Kalküle zu Grunde liegen,
+   •   führen in konkreten Situationen kombinatorische Überlegungen durch, um die Anzahl
+       der jeweiligen Möglichkeiten zu bestimmen,
+   •   prüfen und interpretieren Ergebnisse in Sachsituationen unter Einbeziehung einer kri-
+       tischen Einschätzung des gewählten Modells und seiner Bearbeitung.
+
+Die Bildungsstandards im Fach Mathematik für den Hauptschulabschluss beinhalten zur
+Leitidee Zahl weitestgehend dieselben inhaltsbezogenen Kompetenzen (KMK, 2004a). Dort
+wird allerdings dem (Kopf-)Rechnen noch eine größere Rolle zugeschrieben, wohingegen zum
+Beispiel Begründungen zur Notwendigkeit von Zahlbereichserweiterungen nicht gefordert wer-
+den. Auch ohne die explizite Nennung der Notwendigkeit für Zahlbereichserweiterungen neh-
+men    diese   eine   zentrale   Stellung   im   Rahmen    der   Leitidee   Zahl   und   im
+Mathematikunterricht der Sekundarstufe I ein (Hefendehl-Hebeker & Prediger, 2006; Hefen-
+dehl-Hebeker & Schwank, 2015). Die Schülerinnen und Schüler sollen ein Verständnis dafür
+entwickeln, was natürliche, rationale und später auch reelle Zahlen ausmachen und wieso die
+sukzessive Erweiterung des Zahlbereichs im Laufe der Schulzeit sinnvoll ist. Hefendehl-He-
+beker und Schwank (2015) geben fünf Leitfragen an, die in diesem Kontext als
+Orientierung dienen können. Die erste Leitfrage bezieht sich auf die Erscheinungsform der
+Zahlen, das heißt, wie sich beispielsweise rationale Zahlen von natürlichen Zahlen
+unterscheiden. Außerdem sei es wichtig zu hinterfragen, welche Art von Phänomenen
+mithilfe der Zahlen beschrieben werden können und welche neuen Verständigungsmöglich-
+keiten entstehen. Bezogen auf das gewählte Beispiel von natürlichen und rationalen Zahlen
+beinhaltet dies auf der phänomenologischen Ebene unter anderem die Beschreibbarkeit von
+Verteilungsprozessen („Luisa bekommt 1/8 des Kuchens, Emil bekommt 1/4 davon und
+Fabienne die restlichen 5/8.“). Die beiden letzten aufgeworfenen Fragen betreffen zum einen
+die Anwendbarkeit von (bekannten) Rechenoperationen und möglicherweise notwendige
+Adaptionen. Zum anderen wird die Frage gestellt, welche arithmetischen Spielräume sich
+durch die Zahlbereichserweiterung ergeben.
+
+In den folgenden drei Unterkapiteln werden Anteile und damit die Zahlbereichserweiterung von
+den natürlichen zu den positiven rationalen Zahlen genauer in den Blick genommen. Dabei
+wird zunächst dargestellt, wie Anteile im Laufe der Schulzeit thematisiert werden.
+Einen weiteren wichtigen Aspekt stellen die (Grund-)Vorstellungen von Anteilen (im Rahmen
+der Bruchrechnung) dar, die Schülerinnen und Schüler aufbauen sollen. Nach den
+allgemeinen Erläuterungen wird exemplarisch erörtert, wie die Zahlbereichserweiterung der
+
+
+                                             7
+natürlichen zu den positiven rationalen Zahlen (Bruchzahlen) sinnstiftend vermittelt werden
+kann. Schließlich werden VERA-8 Aufgaben vorgestellt, die die Vorstellungen zu Anteilen ab-
+prüfen. Dabei wird insbesondere darauf eingegangen, welche allgemeinen Kompetenzen ne-
+ben adäquaten Grundvorstellungen zur Lösung der Aufgaben benötigt werden.
+
+
+3.1    Schwerpunktthema: Anteile
+
+In der Grundschule wird der Fokus auf die natürlichen Zahlen gelegt und die Schülerinnen und
+Schüler sollen zunächst ein elementares Verständnis des dezimalen Stellenwertsystems der
+positiven Zahlen bis 1 000 000 und der vier Grundrechenarten aufbauen (KMK, 2004b).
+
+In der Sekundarstufe I wird dieses Verständnis vertieft und erweitert (KMK, 2003, 2004a). Re-
+lativ zu Beginn der Sekundarstufenzeit erfolgt in der Regel die erste Zahlbereichserweiterung
+der natürlichen zu den positiven rationalen Zahlen (Padberg & Wartha, 2017). Mit Einführung
+von Brüchen werden Anteile im Mathematikunterricht erstmalig differenzierter in den Blick ge-
+nommen 2.    So    gibt   es   verschiedene         Grundvorstellungen   zu   Brüchen,    die   sich
+(mindestens) 3 in die beiden Kategorien „Bruch als Anteil“ und „Bruch als Operator“ aufteilen
+lassen (vgl. Abbildung 2), wobei die erste Kategorie den heutigen Mathematikunterricht
+dominiert (Padberg & Wartha, 2017).
+Anteile spielen auch in späteren Themen der Sekundarstufe eine wichtige Rolle. Im Bereich
+der Leitidee Zahl betrifft das insbesondere die Prozentrechnung sowie die Zinsrechnung.
+Beide Themen können als spezielle Anwendungsgebiete der Bruchrechnung gesehen
+werden (Gellner, 2011; Zech, 1995). Für beide Themen stellen daher der Anteilsbegriff sowie
+die Bruchrechnung wichtige Lernvoraussetzungen dar, weshalb diesen unter anderem ein be-
+sonderer Stellenwert beigemessen wird (Padberg & Wartha, 2017; Wessel, 2015).
+
+  a)                        b) Wie viel Euro sind
+                               3/4 von 1200 €?
+
+
+
+
+Abbildung 2: Grundvorstellungen zu Brüchen: a) Bruch als Anteil: Ein Pizzastück als Visualisierung
+der "Teil eines Ganzen"-Vorstellung, b) Bruch als Operator: Diese Grundvorstellung wird auch „Anteil-
+von“-Vorstellung genannt, z. B. einen Anteil von einem Geldbetrag berechnen.
+
+
+
+
+2 Es sei an dieser Stelle darauf hingewiesen, dass auch in der Grundschule, zum Beispiel im Rahmen
+
+der Kombinatorik, schon der Begriff der Anteile intuitiv vorbereitet wird.
+3 Vgl. Wartha und Güse (2009, S. 263): „In der Literatur finden sich zahlreiche Aufzählungen an
+
+Interpretationen von Bruchzahlen“. Beispielsweise werden diese diskutiert von Malle (2004).
+
+                                                    8
+Der zuvor erwähnte Übergang von den natürlichen Zahlen zu den (positiven) rationalen
+Zahlen – und damit zu Brüchen – ist mit Grundvorstellungsumbrüchen verbunden, was diese
+Zahlbereichserweiterung zu einer besonderen Herausforderung werden lässt (Tabelle 1;
+vgl. Wartha & Güse, 2009; Winter, 1999). Grundvorstellungen bezeichnen allgemein
+inhaltliche Deutungen zu mathematischen Begriffen, die diesen Sinn geben können. Sie sollen
+dazu befähigen, Operationen auf der Vorstellungsebene durchzuführen und mathematische
+Begriffe in realen Kontexten zu verwenden (Vom Hofe, 1992). Ein Ziel des Mathematikunter-
+richts sollte die Vermittlung mehrerer Grundvorstellungen sein, damit die Schülerinnen und
+Schüler dazu befähigt werden, sich umfassend und flexibel mit einem Begriff oder einem Sach-
+verhalt zu beschäftigen und diesen anzuwenden (Greefrath, Oldenburg, Siller, Ulm & Wei-
+gand, 2016). Für die Grundvorstellung eines Bruches als Anteil werden zwei untergeordnete
+Grundvorstellungen genannt, bei denen ein Bruch als Teil eines Ganzen oder als Teil mehrerer
+Ganzer verstanden wird (Padberg & Wartha, 2017). Ein Bruch als Teil eines
+Ganzen stellt die intuitivere Vorstellung dar. Häufig werden geometrische Objekte genutzt, um
+„das Ganze“ zu visualisieren und anschaulich in Teilstücke teilen zu können (vgl. Abbildung 2).
+Dies kann sowohl auf ikonischer Ebene, durch Zeichnungen, als auch auf enaktiver Ebene,
+durch Falten von Papier, geschehen. Zu beachten ist hierbei, dass den Schülerinnen und
+Schülern vermittelt wird, dass es zum Beispiel nicht „das Drittel“ gibt, sondern unterschiedliche
+„Ganze“ auch verschiedene Drittel-Flächen ergeben können (vgl. Abbildung 3).
+
+
+
+
+Abbildung 3: Visualisierungen verschiedener „Drittel-Flächen“
+
+Die Vorstellung eines Bruchs als Teil mehrerer Ganzer stellt eine größere Herausforderung
+dar. Den Schülerinnen und Schülern muss vermittelt werden, dass eine Kombination
+mehrerer Teile „das Ganze“ darstellen kann (vgl. Abbildung 4). Bei der „Teil mehrerer
+Ganzer“-Vorstellung steht dabei eine gerechte Aufteilung im Fokus. Es geht also „um die ex-
+plizite Betrachtung mehrerer identischer Ganzer, etwa drei gleich große[r] Pizzen, drei[er] Tü-
+ten mit je acht Bonbons, drei identisch unterteilte[r] Rechtecke“ (Reinhold, 2019). 4
+Es kann eingängig verdeutlicht werden, dass es eine Vielzahl an Möglichkeiten gibt, Anteile
+mehrerer Ganzer zu verteilen. In dem Kontext aus Abbildung 4 könnte man zum Beispiel die
+Frage stellen:
+„Wie viel Pizza bekommen drei Personen, wenn vier Pizzen gerecht verteilt werden sollen?“.
+
+
+4 Eine diskrete Menge mehrerer zum Beispiel geometrischer Objekte, die nicht gerecht verteilt werden
+
+soll, würde der Grundvorstellung „Teil eines Ganzen“ zugeordnet werden, wobei „das Ganze“ erkannt
+werden muss als eine aus mehreren Teilen bestehende, diskrete Menge (Reinhold, 2019).
+
+                                                 9
+Es   gibt   auch    innerhalb      gerechter      Anteilsbestimmungen           sehr   viele   verschiedene
+Verteilmöglichkeiten. Im Beispiel könnte man in diesem Sinne jeder Person etwas von jeder
+Pizza geben oder die Pizzen nacheinander verteilen, so dass nicht zwingend jeder etwas von
+allen Pizzen erhält.
+
+
+
+
+Abbildung 4: Das „Ganze“ kann auch aus mehreren Ganzen bestehen. Anschaulich dargestellt zum
+Beispiel durch vier Pizzen, die gerecht verteilt werden sollen.
+
+In Tabelle 1 werden Umbrüche von den natürlichen zu Bruchzahlen dargestellt (Hefendehl-
+Hebeker & Prediger, 2006). Sie werden dabei in zwei Kategorien zu Grundvorstellungen – zu
+den Zahlen bzw. zu den Rechenoperationen – sowie in Umbrüche in den Bereichen der Zahl-
+darstellung und der Ordnungsrelationen aufgeteilt. Im Rahmen der Grundvorstellungen von
+Zahlen werden neben der Betrachtung von Anteilen noch andere Interpretationen von Bruch-
+zahlen aufgeführt, die durchaus relevant sind, jedoch aufgrund der hiesigen Fokussierung auf
+Anteile an dieser Stelle nicht weiter ausgeführt werden.
+
+Tabelle 1: Übersicht zu Umbrüchen in den Vorstellungen zu Zahlen und Operationen bei der Zahlbe-
+reichserweiterung von ℕ zu ℚ+
+
+                    Natürliche Zahlen                            Bruchzahlen
+
+Grundvorstellungen Beschreiben in erster Linie Anzahlen, Ord-    Dienen zur Beschreibung von Anteilen eines
+zu den Zahlen       nungszahlen, auch als Rechenzahlen ver-      Ganzen, Verteilsituationen, multiplikativen
+                    wendet                                       Vergleichen, relativen Anteilen, Verhältnis-
+                                                                 sen
+
+Zahldarstellung     Eindeutige Zuordnung eines Zahlzeichens      Darstellung nicht eindeutig: eine Bruchzahl
+                    im dezimalen Stellenwertsystem,              kann durch unendlich viele Brüche oder eine
+
+                    basierend auf der Idee der Zehnerbünde-      Dezimalzahl oder Prozentzahl dargestellt
+
+                    lung                                         werden
+
+Ordnungsrelation    Interpretiert als „weniger als“ (Anzahlen)   Interpretation als „weniger als“ unproblema-
+                    bzw. „früher als“ (Ordnungszahlen)           tisch
+
+                    Jede Zahl hat einen eindeutigen Nachfolger   Rechnerische Ausführung schwieriger als
+                                                                 Interpretation
+
+                                                                 Kein eindeutiger Nachfolger, da Brüche
+                                                                 dicht liegen
+
+
+                                                      10
+Grundvorstellungen Addition: Hinzufügen, Zusammenfügen         Addition und Subtraktion bleiben der Vor-
+für Operationen     Subtraktion: Wegnehmen, Vermindern         stellung nach gleich
+
+                    Multiplikation: fortgesetztes Hinzufügen   Der Einfachheit der Vorstellung entspricht
+                                                               keine vergleichbare Einfachheit der Durch-
+                    Division: Verteilen, Einteilen
+                                                               führung
+
+                                                               Multiplikation und Division mit eingeschränk-
+                                                               ten und modifizierten Interpretationen
+
+                                                               Rechnerische Ausführung einfach
+
+                                                               Neue Ordnungseigenschaften für Multiplika-
+                                                               tion/Division
+
+
+Aus der Tabelle geht hervor, dass es eine Vielzahl an Diskontinuitäten in anderen Bereichen
+gibt, die die Zahlbereichserweiterung zu einer Herausforderung machen. Insbesondere gilt
+dies für die Uneindeutigkeit der Zahldarstellungen von Brüchen und eine Variation des Ver-
+ständnisses der Multiplikation und Division (vgl. Tabelle 1). Allen drei Umbrüchen sollte daher
+bei der Einführung von Bruchzahlen im Mathematikunterricht besondere Aufmerksamkeit ge-
+widmet werden (Padberg & Wartha, 2017). Prediger (2006) schlägt in diesem Kontext ein vor-
+stellungsorientiertes Vorgehen vor, welches im nächsten Abschnitt näher betrachtet wird.
+
+
+3.2     Vorstellungen zum Umgang mit Bruchzahlen entwickeln
+
+Statt die Gleichwertigkeit verschiedener Brüche formal durch das Erweitern und Kürzen von
+Brüchen einzuführen, empfiehlt Prediger (2006) die Uneindeutigkeit der Zahldarstellung bei
+Brüchen vorab als inhaltliches Konzept aufzubauen. Dafür schlägt sie einen sechsschrittigen
+Lernweg vor, bei dem das rechnerische Erweitern und Kürzen entdeckend erfahrbar
+gemacht werden soll:
+
+„Lernende…
+      1. … entdecken, dass es unterschiedliche Brüche gibt, die denselben Anteil oder eine ver-
+      wandte Verteilungssituation beschreiben. Diese Brüche nennen wir gleichwertige
+      Brüche.
+      2. ... erklären in unterschiedlichen inhaltlichen Deutungen, wieso zwei Brüche gleichwertig
+      sind […].
+      3. ... finden zu einer Bruchzahl möglichst viele gleichwertige Brüche.
+      4. ... entdecken das Erweitern und Kürzen als Möglichkeit, auf der rechnerischen Ebene
+      sehr schnell gleichwertige Brüche zu finden.
+      5. ... gewinnen Vertrauen in den Kalkül durch mehrmaliges Überprüfen, dass die
+      inhaltliche und die formale Ebene zusammenpassen. (Erhalte ich durch Kürzen wirklich
+      gleichwertige Brüche?)
+      6. Nochmalige Deutung des Kalküls auf der inhaltlichen Ebene: Erweitern lässt sich
+      deuten als Verfeinern von Anteilen, Kürzen als Vergröbern“. (Prediger, 2006, S. 9)
+
+                                                     11
+Die Schülerinnen und Schüler lernen auf diesem Wege zunächst auf ikonischer und auf
+enaktiver Ebene die Gleichwertigkeit von Brüchen kennen. Anschließend werden auf
+verständnisorientierter Ebene Erklärungen für verschiedene (Sach-)Situationen gesucht, um
+später auf formaler Ebene das Kürzen und Erweitern von Brüchen als sinnvolle rechnerische
+Methode und sogar Erleichterung des Erkennens von Vielfachen wahrzunehmen. Dabei
+sollte auch nach Einführung und Üben des Kalküls nicht vergessen werden, die inhaltliche –
+verständnisorientierte – Ebene zu betonen.
+
+Im Bereich der Multiplikation von Brüchen bedingen sich laut Prediger (2006) gleich mehrere
+Herausforderungen durch inhaltliche Vorstellungen, die die Schülerinnen und Schüler bis dato
+zur Multiplikation verinnerlicht haben. Dies betrifft zum einen die Vorstellung der
+Multiplikation als „mehr werden“, als „fortgesetztes Hinzufügen“, wie es im Abschnitt zuvor in
+Tabelle 1 genannt wurde. Dass die Multiplikation zweier Brüche eine Zahl ergeben kann, die
+kleiner ist als beide Brüche, widerspricht dieser – für natürliche Zahlen durchaus korrekten –
+Vorstellung. Ein Umdenken und die Erweiterung der Vorstellungen zur Multiplikation als
+„Anteil-Nehmen“ sind notwendig. Zum anderen kann es problematisch sein, wenn die Grund-
+vorstellung des Bruchs als Anteil, wie sie eben geschildert wurde, im Vergleich zu der eines
+Bruchs als Operator zu sehr überbetont wird. Die Operatorvorstellung findet sich in der Litera-
+tur oft umschrieben als „Von-Ansatz“ (Padberg & Wartha, 2017, S. 20). Hierbei wird ein Bruch
+dazu       genutzt,   um   multiplikative   Handlungsweisen,         die     auf    Größen        angewendet
+werden, in Kürze zu beschreiben (Padberg & Wartha, 2017; vgl. Abbildung 2b). Bei der
+Multiplikation von Brüchen ist es notwendig, beide Vorstellungen zu kombinieren, und einen
+der Brüche als Operator, den anderen als Anteil von diesem Operator zu verstehen. Die Rech-
+       1   2   1                                                                    2         1
+nung ⋅ = soll demnach so verstanden werden, dass die Hälfte von genau ergibt. Diese
+       2   3   3                                                                    3         3
+                                                    1      2
+Betrachtung vereinfacht die Plausibilität von 3 < 3 als Lösung der Rechnung, da das oben
+
+beschriebene Umdenken hin zur Multiplikation als „Anteil-Nehmen“ geschehen kann. Prediger
+(2006)      schlägt   auch   im   Rahmen      der       Multiplikation     vor,    nicht   kalkül-   sondern
+verständnisorientiert vorzugehen. Wird zunächst vermittelt, dass bei der Multiplikation zweier
+Brüche „Anteile von Anteilen“ gebildet werden, so können – wie schon bei dem Erweitern und
+Kürzen von Brüchen – die „formale[n] Rechenregeln als hilfreiche Verkürzungen eines bereits
+durchdrungenen Vorgehens“ erfasst und gewürdigt werden (Prediger, 2006, S. 9). Ebenso
+parallel zu dem eben geschilderten Vorgehen bieten sich für das Entdecken der
+Multiplikationsregeln enaktive und ikonische Darstellungen an. Die Schülerinnen und Schüler
+können zum Beispiel ikonisch durch passende Zeichnungen selbst auf die Multiplikationsregel
+„Zähler mal Zähler und Nenner mal Nenner“ kommen.
+
+
+
+
+                                                    12
+                                    3 2 6
+                                     ⋅ =
+                                    5 4 20
+
+Abbildung 5: Ikonische Darstellung der Multiplikation zweier positiver Bruchzahlen
+
+Dabei kann auf bekannte Operationen aus dem Bereich der Geometrie wie die Berechnung
+von Flächeninhalten zurückgegriffen werden, um den Multiplikationsbegriff auch wirklich auf
+der Vorstellungsebene zu erweitern (vgl. Abbildung 5).
+
+
+3.3   Anteile in den VERA-8 Erhebungen
+
+Auf den vorangegangenen Seiten wurden insbesondere verschiedene (Grund-)Vorstellungen
+zu Anteilen thematisiert. In diesem Abschnitt werden exemplarisch Aufgaben der
+vergangenen VERA-8 Erhebungen vorgestellt, die sich mit diesem Lerngegenstand
+beschäftigen. Um den Fokus an dieser Stelle auch auf die allgemeinen Kompetenzen zu len-
+ken, wird erläutert, welche der sechs Kompetenzen jeweils für die Beantwortung der
+Aufgabe wie benötigt werden. Diese Ausführungen zeigen gleichzeitig Möglichkeiten auf,
+durch welche Art von Aufgabenstellungen die sechs Kompetenzen im Mathematikunterricht
+gefördert werden können. Es ist jedoch nicht möglich, an dieser Stelle die ganze Bandbreite
+der prozessbezogenen Kompetenzen vorzustellen. Dafür sei auf die einschlägige Literatur
+verwiesen (z. B. Blum et al., 2010).
+
+
+
+
+                                                 13
+Beispielaufgabe 1: „Anteile in geometrischen Objekten“
+
+Welche Anteile sind grau gefärbt?
+Trage jeweils einen passenden Bruch und einen passenden Prozentsatz in die
+Tabelle ein.
+
+                                gefärbter Anteil           gefärbter Anteil
+                                   als Bruch               als Prozentsatz
+
+                                       3
+                                                                 75 %
+                                       4
+
+
+
+
+Die Aufgabe „Anteile in geometrischen Objekten“ spricht auf inhaltlicher Ebene klar die Grund-
+vorstellung von Bruchzahlen als Teil eines Ganzen an (Beispielaufgabe 1). Es werden unter-
+schiedliche „Ganze“ angeboten, die den Schülerinnen und Schülern aufzeigen, dass es kein
+starres „Ganzes“ gibt, sondern verschiedene Visualisierungen möglich sind. Neben der An-
+gabe des gefärbten Anteils der Figuren als Bruch, wird auch die Angabe des Prozentsatzes
+gefordert. Um rechnerisch auf die Lösung zu kommen, rechnen die Schülerinnen und Schüler
+
+in der ersten Zeile zum Beispiel                         . Dabei stellt die Multiplikation ein „Anteil-
+
+Nehmen“ dar, wie es bei dem Aufbau von Vorstellungen zur Multiplikation von Brüchen ver-
+mittelt werden sollte. Auf Ebene der allgemeinen Kompetenzen werden bei dieser Aufgabe
+die Kompetenzen mathematische Darstellungen verwenden (K4) und mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) angesprochen. Es gilt,
+den Darstellungen von geometrischen Objekten die Information zu entnehmen, in wie viele
+Teilobjekte sie eingeteilt sind und wie viele davon eingefärbt wurden (K4). Diese Information
+soll übertragen werden auf eine Bruchzahl, bei welcher der Nenner aus der Anzahl der gleich
+großen Teilobjekte besteht und der Zähler aus den davon eingefärbten Teilen. Die eingefärbte
+Fläche soll zudem als prozentualer Anteil am Ganzen angegeben werden (K5).
+
+
+
+
+                                               14
+Beispielaufgabe 2: „Schokoladenfiguren“
+
+
+
+
+ Teilaufgabe 1
+  Gib die ungefähre Anzahl der Osterhasen aus dunkler Schokolade an.
+  Ergänze dazu den folgenden Satz.
+
+   Etwa                   Osterhasen waren aus dunkler Schokolade.
+
+
+
+  Wie viele Schokoladenfiguren insgesamt (Osterhasen und Weihnachtsmänner) wurden etwa
+  produziert?
+  Kreuze an.
+
+
+
+  100 Millionen     125 Millionen        150 Millionen     175 Millionen    200 Millionen
+
+
+
+Auf inhaltlicher Ebene wird bei der Aufgabe „Schokoladenfiguren“ gefordert, die beiden
+Begriffe Anteil und Anzahl voneinander abzugrenzen (Beispielaufgabe 2). Die Anteile der
+Schokoladenfiguren werden in dem Kreisdiagramm prozentual angegeben. In dem Zeitungs-
+text wird hingegen die Anzahl der Schokoladenosterhasen angegeben. In beiden Teilaufgaben
+werden Anzahlen als Antworten erwartet. Zur Beantwortung der ersten Frage müssen die
+Schülerinnen und Schüler erkennen, dass die Anzahl „100 Millionen Hasen“ dem Text
+entnommen werden kann und der Anteil „10 % dunkle Schokolade“ aus der Beschreibung des
+Diagramms. Hier wird ein Verständnis der Multiplikation als „Anteil-Nehmen“ benötigt. Für die
+zweite    Teilaufgabe     ist    ein     Kreisdiagramm        als    Visualisierung    der     gesamten
+Schokoladenfigur-Produktion angegeben. Die Schülerinnen und Schüler können über
+verschiedene Strategien zu der korrekten Lösung von Teilaufgabe 2 kommen. Sie können die
+Aufgabe    zum     Beispiel     in     Teilprobleme      zerlegen.   Aus   dem     Text      sowie   dem
+Kreisdiagramm kann geschlossen werden, dass 100 Millionen Schokoladenosterhasen 57 %
+
+
+                                                    15
+der gesamten Schokoladenfigur-Produktion darstellen. In einem ersten Schritt kann
+berechnet werden, wie viele Schokoladenweihnachtsmänner dann 43 % der gesamten
+Produktion ausmachen. In einem zweiten Schritt können beide Anzahlen addiert werden, wo-
+mit näherungsweise die Lösung „175 Millionen Schokoladenfiguren“ erhalten wird.
+Alternativ können die Schülerinnen und Schüler direkt die 57 % Schokoladenosterhasen auf
+100 % Schokoladenfigur-Produktion hochrechnen, da keine weiteren Figuren außer
+                                                      100 𝑀𝑀𝑀𝑀𝑀𝑀.       100 𝑀𝑀𝑀𝑀𝑀𝑀.
+Osterhasen und Weihnachtsmänner beachtet werden (        57         =               ⋅ 100 ≈ 175 𝑀𝑀𝑀𝑀𝑀𝑀.). In
+                                                                          57
+                                                         100
+
+dieser Teilaufgabe wird die allgemeine Kompetenz Probleme mathematisch lösen (K2)
+angesprochen. Die Schülerinnen und Schüler können mit mehr als einer Strategie zu dem
+gesuchten Ergebnis kommen, wobei nicht direkt ersichtlich ist, wie dies geschehen kann (der
+Weg ist zunächst unklar). Die Schülerinnen und Schüler können das Problem zum Beispiel in
+mehrere Teilprobleme zerlegen (erstes, zweischrittiges Beispiel) oder auch die heuristische
+Strategie „Vorwärtsarbeiten“ anwenden (zweites Beispiel). In beiden Teilaufgaben werden zu-
+dem die prozessbezogenen Kompetenzen mathematische Darstellungen verwenden (K4), mit
+symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) und ma-
+thematisch kommunizieren (K6) angesprochen. Es müssen Informationen aus einem Kreisdi-
+agramm und aus einem mathematikhaltigen Text entnommen werden und die Begriffe Anteil
+und Anzahl korrekt verarbeitet werden (K4, K6). Zur Lösung der beiden Teilaufgaben sind
+verschiedene Rechnungen notwendig (K5).
+
+
+
+
+                                            16
+Beispielaufgabe 3: „Räumungsverkauf“
+
+ Häufig wird ein Räumungsverkauf durchgeführt, wenn ein Geschäft
+ umgebaut oder geschlossen wird. Dabei werden Waren billig                RÄUMUNGS-
+ angeboten und ihre Preise oft sogar mehrfach reduziert.                    VERKAUF
+                                                                                                be
+                                                                                            ufga
+                                                                                       äftsa
+                                                                                 esch
+                                                                             en G
+                                                                          Weg
+                                                                                                   50 %
+                                                                                    10 %
+                                                                          40 %
+                                                                   50 %             20 %
+
+                                                                                           30 %
+
+                                                                   10 %
+                                                                           40 %     30 %
+                                                                                           20 %
+
+                                                                   Abbildung 1
+
+ Teilaufgabe 1
+ In den letzten Tagen eines Räumungsverkaufs sagt der Geschäftsführer: „Um die
+ Lager leer zu bekommen, senken wir die bereits um 25 % reduzierten Preise
+ nochmals um 25 % gegenüber den schon reduzierten Preisen“.
+
+                       vorher 120 €
+                         jetzt   69 €
+
+
+
+
+                                    Abbildung 3
+
+ Überprüfe, ob der Endpreis der Jacke zur Aussage des Geschäftsführers passt.
+ Kreuze an.
+       Ja                 Nein
+ Begründe deine Entscheidung.
+
+
+
+
+Das letzte Beispiel zum Thema Anteile in den VERgleichsArbeiten der 8. Klassen ist die
+Aufgabe „Räumungsverkauf“ (Beispielaufgabe 3). Es wird auf einen Kontext aus der
+Lebenswelt der Schülerinnen und Schüler zurückgegriffen. Die korrekte Lösung der Aufgabe
+besteht aus der Antwort „Nein“ inklusive einer Begründung für diese Entscheidung. Die Rech-
+nung zum Abzug von zwei Mal 25 % des Ursprungspreises kann zum Beispiel
+                                                  3                3
+zweischrittig wie folgt aussehen: 120 € ⋅ = 90 € und 90 € ⋅ = 67,50 €. Es wird also
+                                                  4                4
+
+inhaltlich erneut das Verständnis der Multiplikation als „Anteil-Nehmen“ abgeprüft, in Kombi-
+nation mit einem Kontext aus der Prozentrechnung. Auf Ebene der allgemeinen Kompetenzen
+werden dieses Mal die Kompetenzen mathematisch argumentieren (K1), mathematisch mo-
+dellieren (K3) und mit symbolischen, formalen und technischen Elementen der Mathematik
+umgehen (K5) angesprochen. Anders als bei den vorangegangenen Beispielen wird hier eine
+Begründung für die Entscheidung ja / nein gefordert (K1). Mathematisches Modellieren ist
+
+                                                      17
+notwendig,   da die Aufgabe eine realitätsnahe Problemstellung aufzeigt, die mit
+mathematischen Methoden bearbeitet werden soll (K3). In dem Aufgabenbeispiel „Schokola-
+denfiguren“ sind mathematische Darstellungen gegeben, sodass kein Übertragen der realen
+Situation in die „Welt der Mathematik“ notwendig ist und die Kompetenz Probleme mathema-
+tisch lösen (K2) statt der Kompetenz mathematisch modellieren (K3) abgeprüft wird. Bei der
+Aufgabe „Räumungsverkauf“ sind hingegen realweltliche Darstellungen gegeben und es ist
+eine Mathematisierung der Situation notwendig (K3). Die zweimalige Preissenkung erfordert
+schließlich die Rechnung mit Prozenten oder Bruchzahlen (K5).
+
+
+
+4 Die Leitidee Raum und Form
+
+Unter der Leitidee Raum und Form werden in den Bildungsstandards im Fach Mathematik für
+den mittleren Schulabschluss verschiedene inhaltsbezogene Kompetenzen zusammenge-
+fasst. Diese lauten (KMK, 2003, S. 11):
+
+„Die Schülerinnen und Schüler
+   •   erkennen und beschreiben geometrische Strukturen in der Umwelt,
+   •   operieren gedanklich mit Strecken, Flächen und Körpern,
+   •   stellen geometrische Figuren im kartesischen Koordinatensystem dar,
+   •   stellen Körper (z. B. als Netz, Schrägbild oder Modell) dar und erkennen Körper aus
+       ihren entsprechenden Darstellungen,
+   •   analysieren und klassifizieren geometrische Objekte der Ebene und des Raumes,
+   •   beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte
+       (wie Symmetrie, Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rah-
+       men des Problemlösens zur Analyse von Sachzusammenhängen,
+   •   wenden Sätze der ebenen Geometrie bei Konstruktionen, Berechnungen und Bewei-
+       sen an, insbesondere den Satz des Pythagoras und den Satz des Thales,
+   •   zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener
+       Hilfsmittel wie Zirkel, Lineal, Geodreieck oder dynamische Geometriesoftware,
+   •   untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben
+       und formulieren diesbezüglich Aussagen,
+   •   setzen geeignete Hilfsmittel beim explorativen Arbeiten und Problemlösen ein.“
+
+In den Bildungsstandards Mathematik für den Hauptschulabschluss finden sich viele der
+genannten Aspekte wieder, es wird jedoch weniger der Fokus auf Problemlöse- und Beweis-
+prozesse gelegt (KMK, 2004a). Ebenso finden fachliche Analysen und exploratives Arbeiten
+dort keine direkte Erwähnung. Besonders hervorgehoben werden in beiden Versionen der Bil-
+dungsstandards im Bereich ebener Geometrie Konstruktionsaufgaben. Die Schülerinnen und
+Schüler sollen dabei gezielt Sätze der ebenen Geometrie anwenden und angemessene
+
+                                             18
+Hilfsmittel nutzen. Neben den gängigen Hilfsmitteln, wie Zirkel und Lineal, wird in den
+Bildungsstandards in diesem Zusammenhang dynamische Geometriesoftware explizit aufge-
+führt.
+
+In den folgenden drei Unterkapiteln wird, analog zu dem Vorgehen bei der Leitidee Zahl, zu-
+nächst das Schwerpunktthema der diesjährigen VERA-8 Erhebung Ebene Geometrie
+näher betrachtet. Dabei wird zunächst dargestellt, welche Inhalte der ebenen Geometrie im
+Laufe der Schulzeit thematisiert werden. Im Anschluss daran werden Konstruktionen in den
+Blick genommen. Einerseits werden verschiedene Werkzeuge, ihr Nutzen und ihre
+Bedeutung vorgestellt. Auf der anderen Seite werden (fachdidaktische) Gründe für
+Konstruktionen im Mathematikunterricht angeführt und insbesondere betrachtet, welchen
+Mehrwert dynamische Geometriesoftware (DGS) haben kann. Es wird ein Beispielszenario für
+den Unterricht erläutert, bei dem Konstruktionen in GeoGebra zu kreativen Lösungen einer
+Modellierungsaufgabe führen können (Hertleif, 2018). Abgeschlossen wird Kapitel 4 mit
+Beispielen zu VERA-8 Aufgaben aus dem Bereich der ebenen Geometrie. Wie schon in
+Kapitel 3.3 werden die Aufgaben auf die benötigten inhaltlichen Fähigkeiten aus dem Bereich
+Ebene Geometrie 5 untersucht sowie die erforderlichen prozessbezogenen Kompetenzen be-
+schrieben.
+
+
+4.1      Schwerpunktthema: Ebene Geometrie
+
+Mit Einführung der Bildungsstandards im Fach Mathematik für den Primarbereich wurde „ein
+geometrisches Kerncurriculum für den Grundschulbereich“ formuliert (Sträßer, 2015, S. 8).
+Schon in der Grundschule lernen die Schülerinnen und Schüler viele Aspekte der ebenen Ge-
+ometrie auf einer elementaren Ebene kennen (KMK, 2004b). Zum Beispiel sollen sie
+lernen, geometrische Figuren und Abbildungen zu erkennen, darzustellen und zu benennen.
+Aber auch Flächeninhalt und Umfang finden bereits hier Erwähnung, meist auf enaktiver oder
+ikonischer Ebene, beispielsweise „durch Auslegen mit Einheitsflächen“ (KMK, 2004b, S. 10).
+Außerdem      können    Faltaktivitäten   oder   das   Spannen     geometrischer     Figuren    auf
+einem Geobrett eine Rolle spielen (Franke & Reinhold, 2016). Flächen- und Umfangberech-
+nungen können zu der Leitidee Raum und Form gezählt werden, was in den Bildungsstan-
+dards für den Primarbereich auch durchweg der Fall ist (KMK, 2004b). Da in der Sekundarstufe
+die beiden Leitideen Raum und Form sowie Messen unterschieden werden, ergeben sich im
+Inhaltsfeld   Geometrie     Überschneidungen       beider   Leitideen    (KMK,    2003,    2004a).
+
+
+
+
+5 Anders als im Bereich der Bruchrechnung wurden im Bereich der Geometrie bis heute keine allgemein
+
+anerkannten Grundvorstellungen formuliert, sondern es gibt lediglich erste Versuche solche herauszu-
+arbeiten und zu benennen (Ludwig, Filler & Lambert, 2015). Aus diesem Grund findet der Begriff der
+Grundvorstellungen in Kapitel 4 keine weitere Erwähnung.
+
+
+                                                 19
+Flächen- und Umfangberechnungen werden dort der Leitidee Messen zugeordnet und
+deshalb an dieser Stelle nicht weiter thematisiert.
+
+In der Sekundarstufe werden die in der Grundschule vorwiegend ganzheitlich und handelnd
+erfahrenen ebenen Figuren systematischer untersucht, indem „Seiten-, Winkel-, Diagonalen-
+und Symmetrieeigenschaften“ thematisiert werden (Roth & Wittmann, 2018, S. 107). Zu den
+elementaren Figuren wie Rechteck, Dreieck und Quadrat kommen weitere Figuren, wie zum
+Beispiel Parallelogramme hinzu. Hierbei sind im Mathematikunterricht unter anderem das
+eben schon erwähnte Konstruieren sowie das Beweisen und das Problemlösen in der
+ebenen Geometrie von zentraler Bedeutung (z. B. Holland, 2007; Weigand et al., 2018). Den
+Autoren zufolge können unter Rückgriff auf Konstruktionen sowohl Probleme gelöst als auch
+verschiedene Sachverhalte bewiesen werden. Konstruktionsaufgaben werden daher im
+Folgenden näher in den Blick genommen.
+
+Konstruieren kann man allgemein als das Erzeugen ideeller Objekte (auf Ebene der
+Vorstellungen) verstehen (Ludwig & Weigand, 2018). Damit ist gemeint, dass beim Konstruie-
+ren im Kopf Objekte entstehen können, die frei von Fehlern durch ungenaue technische Aus-
+führung sind. Es führt in der Vorstellung zu theoretisch exakten Ergebnissen. Zudem ist bei
+klassischen Konstruktionen jeder einzelne Schritt klar nachvollziehbar, was als theoretische
+Exaktheit bezeichnet wird. Praktisch jedoch können Konstruktionen, die per Hand
+gezeichnet werden, niemals exakt sein. Beispielsweise werden durch das Ansetzen einer Zir-
+kelspitze oder die Dicke eines Bleistifts auf dieser Ebene immer Ungenauigkeiten
+verursacht (Ludwig & Weigand, 2018). In Tabelle 2 (linke Spalte) sind verschiedene Gründe
+für den Einsatz von Konstruktionsaufgaben im Geometrieunterricht aufgeführt. Konstruktions-
+aufgaben bieten demnach vielfältige Möglichkeiten für Problemlöse- und Beweistätigkeiten
+(Hattermann, Kadunz, Rezat & Sträßer, 2015; Ludwig & Weigand, 2018). Sie können zum
+Beispiel „illustrative Beispiele für Existenz und All-Aussagen liefern“ oder „die Funktion und
+Reichweite von Gegenbeispielen“ (Hattermann et al., 2015, S. 191) sowie unmögliche Kon-
+struktionen aufzeigen. Des Weiteren können mithilfe von Konstruktionen neue Begriffe oder
+Handlungsvorschriften eingeführt werden. Konstruktionen fördern praktische Fähigkeiten,
+wenn zum Beispiel per Hand Zeichnungen angefertigt werden sollen. Es ist ebenso möglich,
+die Kreativität der Schülerinnen und Schüler durch eigene Konstruktionen positiv zu beeinflus-
+sen. Neben diesen Aspekten lassen sich methodisch einige Gründe für Konstruktionen auf-
+zählen. Erneut werden Problemstellungen hervorgehoben, die sich in vielfacher Weise über
+Konstruktionsaufgaben ergeben (Ludwig & Weigand, 2018). Außerdem können Konstruktio-
+nen häufig auf verschiedenen Schwierigkeitsniveaus gehandhabt werden und eignen sich so-
+mit für Differenzierungsaufgaben. Nicht zuletzt bieten Konstruktionsaufgaben die Möglichkeit
+der Wiederholung und Anwendung bereits behandelter Sätze und Begriffe (Ludwig & Weigand,
+2018).
+
+
+                                               20
+Tabelle 2: Gründe für Konstruktionsaufgaben im Rahmen des Geometrieunterrichts
+
+                   Warum Zirkel- und Lineal-Konstruktio-
+                                                                  Warum dynamische Geometriesoftware?
+                   nen?
+
+Allgemeine und     -   Entwickeln von Problemlösefähigkeiten      -   Gültigkeit einer Konstruktion an „sehr
+
+inhaltsspezifische -   Entwickeln von Argumentationsfähig-            vielen“ Einzelfällen überprüfbar
+
+Ziele und              keiten                                         (Variation)
+
+Kompetenzen:       -   Einführen neuer Begriffe (z. B. Paralle-   -   Entdecken von Zusammenhängen, Ei-
+
+                       logramm, Mittelsenkrechte) und                 genschaften, Gesetzmäßigkeiten und
+
+                       Handlungsvorschriften (z. B. spiegeln,         Sätzen (Variation)
+
+                       zentrisch strecken)                        -   Visualisierung der Bewegung von
+
+                   -   Entwickeln kreativer Fähigkeiten               konstruierten Punkten beim Variieren
+
+                   -   Entwickeln praktischer Fähigkeiten             von Objekten (Ortslinienfunktion)
+
+                       (z. B. Feinmotorik, zeichnen)              -   Heuristisches   Hilfsmittel   (Ortslinien-
+
+                   -   Vermitteln von Kenntnissen über histori-       funktion)
+
+                       sche Wurzeln der Mathematik und als        -   Erzeugung von Konstruktions-Modulen
+
+                       zentrale Grundlage für den Aufbau von          für die Konzentration auf zentrale
+
+                       dynamischer Geometriesoftware                  Aspekte einer Problemlösung oder
+                                                                      Beweisführung
+                                                                  -   Erzeugung von Modulen für die
+                                                                      übersichtlichere Darstellung eines
+                                                                      Lösungsweges
+
+
+Methodische        -   Quelle für Problemstellungen
+Funktion:          -   Darstellung auf verschiedenen Schwierigkeitsstufen (Differenzierung)
+                   -   Wiederholung und Anwendung bereits bekannter Begriffe und Sätze
+
+
+Bevor im nächsten Abschnitt ein unterrichtspraktischer Vorschlag für eine Konstruktionsauf-
+gabe vorgestellt wird, werden unterschiedliche Werkzeuge dargestellt, die im Rahmen von
+Konstruktionen eingesetzt werden können. Ludwig und Weigand (2018) geben hierfür einen
+guten Überblick. Als klassische Werkzeuge nennen sie unter anderem Zirkel und
+Lineal, das Geodreieck und den Computer. Alternativ werden, insbesondere für den
+Anfangsunterricht der Sekundarstufe I, das Spannen von Seilen, das Falten von Papier
+sowie (Freihand-)Zeichnungen vorgestellt (vgl. Abbildung 6). Teilweise können diese
+Werkzeuge schon aus Primarstufenzeiten bekannt sein. Sie bieten jedoch auch in der
+Sekundarstufe noch vielfältige Möglichkeiten zur Veranschaulichung und zum entdeckenden
+Lernen.
+
+
+
+
+                                                       21
+  a                                          b
+
+                                                              Falz
+      Falz
+                                I2
+
+                                                        A
+                                                                              B
+              I1
+  c
+
+Abbildung 6: a) mit Seilen gespannte Quadrate auf einem Geobrett, b) ebener Schnitt durch einen
+Würfel mittels eines Gummibandes und c) Konstruktion einer Winkelhalbierenden bzw. einer Mittelsenk-
+rechten mittels Papierfalten
+
+Auf zeichnerischer Ebene betonen Ludwig und Weigand (2018), dass es hilfreich und
+zeitsparend sein kann, die Schülerinnen und Schüler Freihandzeichnungen von Objekten an-
+fertigen zu lassen, bevor exaktere Konstruktionen durchgeführt werden. Dies gilt vor allem,
+wenn das Durchführen von Konstruktionen für Schülerinnen und Schüler noch ungewohnt ist.
+Anhand solcher Zeichnungen lassen sich schon diverse Eigenschaften einer Figur,
+beispielsweise eines Parallelogramms, wiedergeben, bei denen eine exaktere Zeichnung kei-
+nen direkten Mehrwert hätte. Dies soll jedoch nicht heißen, dass es im Anschluss an
+Freihandzeichnungen nicht wichtig und sinnvoll sei, zu exakteren Werkzeugen überzugehen.
+Zu diesen zählen die oben genannten klassischen Werkzeuge, etwa Zirkel-und-Lineal-Kon-
+struktionen. Mit ihnen lassen sich die historischen Wurzeln der Mathematik über
+Jahrtausende zurückverfolgen (vgl. Tabelle 2). Schon ohne Messskala lassen sich mithilfe die-
+ser beiden Werkzeuge verschiedenste Grundkonstruktionen herstellen. Beispielhaft sei die
+Konstruktion eines Kreises aus seinem Mittelpunkt und einem Punkt auf der Kreislinie genannt.
+Später können mittels eines Geodreiecks Winkel gemessen, Parallelen gezeichnet, sowie das
+Geodreieck         als   Lot-   und   Tangentenzeichner       herangezogen        werden.    Diese
+Tätigkeiten hatten bis vor einigen Jahren vielfache Anwendungen bei verschiedenen
+Berufen. Architekten, Bauzeichner und Nautiker nutzten vergleichbare Werkzeuge. Auch
+
+                                                 22
+aktuell sind Kenntnisse über die Funktionsweisen und praktischen Durchführungen noch von
+Nutzen, um verständig mit den heute üblichen (Computer-)Werkzeugen umgehen zu
+können. Im Geometrieunterricht der weiterführenden Schulen wird ebenso zunehmend mit di-
+gitalen Werkzeugen und Medien gearbeitet, insbesondere die Nutzung dynamischer
+Geometriesoftware (DGS) wie GeoGebra hat sich durchgesetzt. DGS kombinieren die
+Möglichkeiten von Zirkel- und Lineal-Konstruktionen mit Geodreieck-Operationen und bieten
+zudem noch vielfältige weitere Möglichkeiten (vgl. Tabelle 2, rechte Spalte). Besonders
+hervorzuheben ist an dieser Stelle der Zugmodus, welcher die Variation einer erstellten
+Konstruktion ermöglicht. Außerdem können Ortslinien von Punkten eingezeichnet werden,
+wenn das konstruierte Gebilde variiert wird. Sind häufig benötigte Konstruktionen wie die der
+Mittelsenkrechten den Schülerinnen und Schülern bekannt, so gibt es die Möglichkeit, diese
+als Modul abzuspeichern. Dann können diese bekannten Konstruktionen bei der Erstellung
+komplexerer Konstruktionen automatisiert erzeugt werden. Im folgenden Abschnitt wird ein
+Beispiel illustriert, wie eine DGS im Mathematikunterricht eingesetzt werden kann.
+
+
+4.2     Modellieren mit dynamischer Geometriesoftware: Konstruktionsaufgabe
+
+Hertleif (2018) stellt eine Modellierungsaufgabe vor, die in den Jahrgangsstufen 7 bis 9
+flexibel auf unterschiedlichen Wissensständen und Leistungsniveaus bearbeitet werden kann.
+Ist die Klasse gewohnt, mit der DGS GeoGebra zu arbeiten, so reicht voraussichtlich eine
+einzelne 45-minütige Unterrichtsstunde für die Bearbeitung aus. Ansonsten sollte
+besser eine Doppelstunde eingeplant werden. In dem genannten Artikel befindet sich neben
+einer Kopiervorlage ein Verweis auf zusätzliches Online-Material. Dieses enthält eine
+GeoGebra-Datei, welche den Einstieg in die Bearbeitung der Aufgabe via DGS erleichtern
+kann.
+
+Modellieren erfordert eine Übertragung einer realen Situation in die Mathematik sowie die spä-
+tere Rückbesinnung auf die reale Situation. Üblicherweise wird dazu in der Schule ein vier-
+schrittiger Modellierungskreislauf genutzt, etwa der in Abbildung 7 dargestellte Kreislauf nach
+Blum (1985). 6
+
+
+
+
+6 Für nähere Informationen zu den Prozessen, die bei der Bearbeitung einer Modellierungsaufgabe
+
+ablaufen können, sei auf die zahlreichen Veröffentlichungen dazu verwiesen (z. B. Blum, 1985; Bor-
+romeo Ferri, Greefrath & Kaiser, 2013; Greefrath, 2018; Hinrichs, 2008; Leiss & Tropper, 2014).
+
+                                                23
+Abbildung 7: Modellierungskreislauf nach Blum (1985)
+
+Hertleif (2018) hebt besonders hervor darauf zu achten, dass die Schülerinnen und Schüler zu
+Beginn wirklich (realweltliche) Annahmen treffen, Vereinfachungen vornehmen und diese spä-
+ter bei der Interpretation des Ergebnisses berücksichtigen sowie die Plausibilität des
+Ergebnisses validieren. Ansonsten bestehe die Gefahr, dass der Fokus zu stark auf die rech-
+nerischen Tätigkeiten gelegt wird. Bei der Arbeit mit einer DGS wie GeoGebra sollte
+zudem die Gefahr im Hinterkopf behalten werden, dass die Schülerinnen und Schüler
+unreflektiert damit umgehen und per trial-and-error versuchen auf eine Lösung zu kommen.
+Diesem Vorgehen kann durch die Einforderung von gezielten Annahmen und Vereinfachun-
+gen entgegengewirkt werden. Das heißt, dass die Schülerinnen und Schüler explizit dazu an-
+gehalten werden sollen, ihre Annahmen und Vereinfachungen der Situation zu formulieren. In
+dem Artikel von Hertleif (2018) werden verschiedene Chancen und Risiken des
+DGS-Einsatzes beim Modellieren aufgezählt, darunter auch die folgenden positiven Effekte:
+Die Schülerinnen und Schüler können in GeoGebra leicht verschiedene Modelle ausprobieren
+und miteinander vergleichen, auch solche, die sie (noch) nicht erlernt haben. Die Zeit zur Kon-
+struktion geometrischer Objekte kann verkürzt werden, ohne Genauigkeit zu verlieren. In eini-
+gen Modellen ist es sogar möglich, am Computer deutlich genauer zu arbeiten als
+es händisch möglich wäre. Durch diese Zeitersparnis kann in Summe mehr Zeit für die Be-
+sprechung der Aufgabe und für die Diskussion der Ergebnisse im Plenum bleiben.
+
+In der Modellierungsaufgabe „Turm“ geht es um die Berechnung, wie groß die Fläche einer
+Etage eines Bürogebäudes in Köln-Deutz ist, die zur Miete angeboten wird (vgl. Abbildung 8).
+
+
+
+
+                                              24
+Abbildung 8: Außenansicht des „KölnTriangle“ sowie Grundriss einer Etage des Gebäudes
+
+Etwa unter Rückgriff auf die GeoGebra-Datei aus dem Online-Material von Hertleif (2018), in
+der der Grundriss einer solchen Etage implementiert wurde, können die Schülerinnen und
+Schüler eigenverantwortlich überlegen, wie sie die Fläche der Etage am genauesten berech-
+nen können. 7 Da der Grundriss keiner üblichen – aus dem Mathematikunterricht bekannten –
+Form entspricht, müssen die Schülerinnen und Schüler zunächst Annahmen treffen und
+Vereinfachungen vornehmen. Vor der Berechnung der Fläche können sie die Fläche mit ihnen
+bekannten Formen annähern, sie also näherungsweise (re-)konstruieren. Die Schülerinnen
+und Schüler, mit denen die Aufgabe getestet wurde, erstellten viele verschiedene
+Modelle. Das einfachste entsprach einer Annäherung via Dreieck und Kreis. Hierbei wurde ein
+(zu großer) Kreis durch die drei Eckpunkte des Grundrisses gelegt sowie ein (zu kleines) Drei-
+eck konstruiert, dessen Eckpunkte den Eckpunkten des Grundrisses entsprachen. Der Flä-
+cheninhalt wurde in diesem Beispiel durch eine Mittelwertbildung der Flächen beider
+Annäherungen bestimmt. Für weitere, zum Teil mathematisch deutlich komplexere Modelle,
+die von den Schülerinnen und Schülern selbstständig entwickelt wurden, sei auf die Original-
+quelle verwiesen (Hertleif, 2018). Die Unterrichtsstunde sollte damit abgeschlossen werden,
+dass die gefundenen Ergebnisse im Plenum gesammelt, verglichen und gegeneinander abge-
+wogen werden. So kann die Reflexionsleistung der Schülerinnen und Schüler unterstützt und
+gefördert werden. Außerdem kann erreicht werden, dass sie Mathematikaufgaben – insbeson-
+dere solche mit realem Kontext – nicht in jedem Fall als eindeutig lösbar ansehen, sondern die
+Abhängigkeit      der     Lösung      von     getroffenen     Annahmen         und     Vereinfachungen
+erfassen.
+
+
+7 Da der Grundriss frei im Internet verfügbar ist, kann er alternativ von jeder Person selbst bei
+
+GeoGebra eingefügt werden.
+
+                                                   25
+Die Annäherung von ungewöhnlichen Flächen durch bekannte Objekte bietet vielfältige
+Möglichkeiten für anwendungsbezogene (Modellierungs-)Aufgaben. Ein weiteres Beispiel
+kann bei Hertleif und Adamek (2016) nachgeschlagen werden, bei dem die Fläche des
+Pillnitzer Schlossgartens modelliert und (re-)konstruiert werden soll. Es sind in der ebenen
+Geometrie aber natürlich im Bereich des Modellierens (mit und ohne DGS) auch diverse
+andere mathematische Inhalte als die Betrachtung von Flächeninhalten möglich. Eine Model-
+lierungsaufgabe zum Satz des Pythagoras stellt zum Beispiel die Feuerwehr-Aufgabe und da-
+bei die Frage nach der maximalen Rettungshöhe mithilfe eines Feuerwehrautos dar (Fuchs &
+Blum, 2008; Holzäpfel & Leiss, 2014).
+
+
+4.3   Ebene Geometrie in den VERA-8 Erhebungen
+
+In den VERgleichsArbeiten der 8. Klassen wurde die oben dargestellte allgemeine Kompetenz
+mathematisch modellieren (K3) im Rahmen der Leitidee Raum und Form mit dem Schwer-
+punkt Ebene Geometrie bisher nicht getestet. In diesem Abschnitt zu Ebener Geometrie in den
+VERA-8 Erhebungen werden Beispielaufgaben dargestellt. Um den Fokus auf die weiteren,
+prozessbezogenen Kompetenzen zu lenken, wird zudem erläutert, welche der Kompetenzen
+jeweils für die Beantwortung der Aufgabe benötigt werden und inwiefern dies der Fall ist. Diese
+Ausführungen sollen erneut aufzeigen, durch welche Art von Aufgabenstellungen die
+allgemeinen Kompetenzen (auch im Mathematikunterricht) gefördert und abgeprüft werden
+können.
+
+
+
+
+                                              26
+Beispielaufgabe 4: „Kreise und Vierecke"
+
+ Gegeben ist jeweils ein Kreis mit dem Radius r = 3 cm.
+
+
+ Teilaufgabe 1
+ Zeichne ein Rechteck so ein, dass
+ seine vier Eckpunkte auf der
+ Kreislinie liegen.
+ Das Rechteck soll genau doppelt so
+ lang wie breit sein.
+                                                          ×
+
+
+
+
+ Teilaufgabe 2
+ Zeichne ein Quadrat exakt so ein,
+ dass seine vier Eckpunkte auf der
+ Kreislinie liegen.
+
+
+
+                                                          ×
+
+
+
+
+ Teilaufgabe 3
+ Martin sagt: „Wenn ich eine Raute
+ (Rhombus) ABCD so einzeichne, dass
+ die Eckpunkte B und D auf der Kreislinie
+ liegen, müssen auch die beiden anderen
+ Eckpunkte A und C immer auf der
+ Kreislinie liegen.“
+                                                          ×
+ Hat Martin Recht?
+ Kreuze an.
+
+         Ja                 Nein
+
+
+ Begründe deine Entscheidung.
+
+
+
+
+Die Aufgabe „Kreise und Vierecke“ ist eine klassische Konstruktionsaufgabe (Beispielauf-
+gabe 4). In Teilaufgabe 2 ist den Schülerinnen und Schülern sowohl der Ausgangspunkt als
+auch das Ziel der Aufgabe klar. Wie sie jedoch dieses Ziel erreichen können, ein Quadrat mit
+vier Ecken auf der Kreislinie in den Kreis einzuzeichnen, ist nicht vorgegeben. Es gibt nicht
+den einen Weg, der zur Lösung führt, sondern sie können über verschiedene Strategien zu
+einer erfolgreichen Lösung gelangen. Eine Möglichkeit stellt die heuristische Strategie „Rück-
+wärtsarbeiten“ dar. Die Lernenden gehen dabei von einem Quadrat aus und überlegen sich
+passende Eigenschaften des Quadrats. Davon ausgehend können sie im Anschluss ihr
+
+                                                   27
+Vorgehen     planen   und    die   Konstruktion    durchführen.    Ergebnis    sollten   zwei
+orthogonale Geraden durch den Mittelpunkt des Kreises sein, welche die vier Eckpunkte des
+Quadrates an der Kreislinie markieren. Dadurch, dass verschiedene Strategien zum Ziel
+führen können und kein direkt ersichtlicher Weg vorgegeben ist, wird bei Teilaufgabe 2 die
+prozessbezogene Kompetenz Probleme mathematisch lösen (K2) angesprochen. Bei der
+Konstruktion des Quadrates mithilfe eines Werkzeugs wie dem Geodreieck werden
+außerdem die beiden Kompetenzen mathematische Darstellungen verwenden (K4) und
+mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+gefordert. Teilaufgabe 3 stellt ein gutes Beispiel dafür da, wie Konstruktionsaufgaben mit Ar-
+gumentationen verknüpft werden können. Die Aussage von Martin zeigt eine typische
+All-Aussagen-Aufgabe auf, bei der die Schülerinnen und Schüler erkennen müssen, dass sie
+diese anhand eines einzelnen Gegenbeispiels widerlegen können. Um zu einem solchen Ge-
+genbeispiel zu gelangen, sind erneut verschiedene Strategien möglich. Die Lernenden können
+beispielsweise durch systematisches Variieren, ausgehend von einem Quadrat als Spezialfall
+einer Raute, zu der gewünschten Lösung kommen. Durch die Forderung nach einer Begrün-
+dung ist diese Aufgabe klar der Kompetenz mathematisch argumentieren (K1) zuzuordnen.
+Da erneut verschiedene Strategien angewandt werden können, wird außerdem die Kompetenz
+Probleme mathematisch lösen (K2) angesprochen. Ebenfalls wird mit mathematischen Dar-
+stellungen umgegangen, weshalb auch mathematische Darstellungen verwenden (K4) benö-
+tigt wird.
+
+
+
+
+                                             28
+Beispielaufgabe 5: „Bewege C“
+
+Mit einer Geometrie-Software wurde Folgendes konstruiert: eine Strecke AB,
+dazu die Mittelsenkrechte m und ein Punkt C auf m. C wird mit A und B
+verbunden, um das Dreieck ABC zu erhalten.
+Der Punkt C wird auf der Mittelsenkrechten m nach unten bewegt. In der
+Zeichnung siehst du zwei Beispiele mit verschiedenen Positionen von C:
+
+           m                              m
+               C
+         35°
+
+                                               C
+                                         45°
+
+
+
+
+  A            M      B        A               M     B
+
+
+Teilaufgabe 1
+C soll so weit nach unten bewegt werden, dass ein gleichseitiges Dreieck ABC
+entsteht.
+Konstruiere dieses Dreieck in Figur 1.
+
+Teilaufgabe 2
+C soll an eine Position bewegt werden, in der ein rechtwinkliges Dreieck ABC
+entsteht.
+Konstruiere dieses Dreieck in Figur 2.
+
+Das zweite Beispiel „Bewege C“ aus dem Bereich Ebene Geometrie stellt erneut eine
+Konstruktionsaufgabe dar (Beispielaufgabe 5). Dieses Mal wird gedanklich mit einer dynami-
+schen Geometriesoftware gearbeitet. Um dies auf Papier zu handhaben, müssen die
+Schülerinnen und Schüler aus den Werkzeugen Zirkel-und-Lineal oder Geodreieck wählen.
+Es führen wieder mehrere Strategien zu einer korrekten Lösung. Wichtig ist, dass die
+Schülerinnen und Schüler aus dem Text die Informationen entnehmen, dass es sich bei m um
+die Mittelsenkrechte der Strecke ����
+                                 𝐴𝐴𝐴𝐴 handelt und dass die Konstruktion eines gleichseitigen
+Dreiecks gefordert ist. Dessen Eigenschaften müssen den Schülerinnen und Schülern bekannt
+sein, um eine korrekte Konstruktion durchzuführen. Entweder wird ausgenutzt, dass alle drei
+Winkel 60° betragen müssen oder sie zeichnen zwei Kreise um A bzw. B mit jeweils dem
+Radius ����
+       𝐴𝐴𝐴𝐴. Der Schnittpunkt beider Kreise mit der Mittelsenkrechten m gibt den Punkt C eines
+gleichseitigen Dreiecks an. Da aus einem mathematikhaltigen Text Informationen entnommen
+werden    müssen,      wird    bei       dieser    Aufgabe   die   prozessbezogene   Kompetenz
+mathematisch kommunizieren (K6) gefordert. Außerdem muss die gegebene geometrische
+Konstellation analysiert werden, weshalb mathematische Darstellungen verwenden (K4) an-
+gesprochen wird. Durch die Planung der Konstruktion auf verschiedenen denkbaren
+Wegen wird, wie schon bei den Aufgaben zuvor, die Kompetenz Probleme mathematisch
+
+                                                    29
+lösen (K2) gefordert und die Konstruktion selbst erfordert den Umgang mit technischen Ele-
+menten der Mathematik (K5).
+
+
+
+5 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalteten erstmalig zwei Themenschwer-
+punkte aus zwei inhaltsbezogenen Kompetenzen (Leitideen), die als Ergänzungsmodule für
+die VERA-8 Testung zur Auswahl standen. Im Bereich der Leitidee Zahl war dies der Schwer-
+punkt Anteile. Im Bereich der Leitidee Raum und Form der Schwerpunkt Ebene
+Geometrie. Aus beiden Themen wurden zentrale Inhalte betrachtet, welche durch die
+Bildungsstandards vorgegeben werden. Zum Abschluss sei noch einmal darauf hingewiesen,
+dass es an dieser Stelle nicht möglich war, alle inhaltlichen Aspekte aus beiden Bereichen
+darzustellen, sofern diese Inhalte überhaupt eindeutig und vollständig festlegbar sind. Es
+wurde jedoch versucht auf besondere Hürden und Möglichkeiten sowohl bei dem Thema An-
+teile als auch im Feld der Ebenen Geometrie hinzuweisen und Anregungen für die
+Unterrichtspraxis zu geben. Zudem wurde aufgezeigt, welche Aufgabenmerkmale darauf hin-
+deuten, bestimmte prozessbezogene Kompetenzen abzuprüfen. Diese können und
+sollten auch im Mathematikunterricht dazu genutzt werden, die allgemeinen Kompetenzen zu
+fördern. Auch in Bezug auf die prozessbezogenen Kompetenzen sei abschließend erneut da-
+rauf hingewiesen, dass die Kompetenzen K1 bis K6 komplexer sind, als in den Beispielen
+gezeigt werden konnte. Für weitere Beispiele und Anmerkungen stellt die in den vorangegan-
+genen Kapiteln genannte Literatur eine gute Ausgangslage dar (z. B. Blum et al., 2010).
+
+
+
+
+                                            30
+6 Literaturverzeichnis
+
+Blum, W. (1985). Anwendungsorientierter Mathematikunterricht in der didaktischen Diskus-
+   sion. Mathematische Semesterberichte. Zur Pflege des Zusammenhangs zwischen
+   Schule und Universität, 32(2), 195–232.
+Blum, W., Drüke-Noe, C., Hartung, R. & Köller, O. (Hrsg.). (2010). Bildungsstandards Mathe-
+   matik: konkret. Sekundarstufe I: Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungs-
+   ideen (4. Aufl.). Berlin: Cornelsen Scriptor.
+Borromeo Ferri, R., Greefrath, G. & Kaiser, G. (Hrsg.). (2013). Mathematisches Modellieren
+   für Schule und Hochschule. Theoretische und didaktische Hintergründe. Wiesbaden:
+   Springer Spektrum. https://doi.org/10.1007/978-3-658-01580-0
+Franke, M. & Reinhold, S. (2016). Didaktik der Geometrie in der Grundschule (3. Auflage).
+   Berlin: Springer Spektrum.
+Freudenthal, H. (1983). Didactical phenomenology of mathematical structures. Dordrecht:
+   Reidel.
+Fuchs, M. & Blum, W. (2008). Selbstständiges Lernen im Mathematikunterricht mit "bezie-
+   hungsreichen" Aufgaben. In J. Thonhauser (Hrsg.), Aufgaben als Katalysatoren von Lern-
+   prozessen (S. 135–148). Münster: Waxmann.
+Gellner, L. (2011). Prozent - und Zinsrechnung in kleinen Schritten. Hamburg: Persen Ver-
+   lag.
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht. Berlin, Heidel-
+   berg: Springer. https://doi.org/10.1007/978-3-662-57680-9
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V. & Weigand, H.-G. (2016). Didaktik der
+   Analysis. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-
+   662-48877-5
+Hattermann, M., Kadunz, G., Rezat, S. & Sträßer, R. (2015). Geometrie: Leitidee Raum und
+   Form. In R. Bruder, L. Hefendehl-Hebeker, B. Schmidt-Thieme & H.-G. Weigand (Hrsg.),
+   Handbuch der Mathematikdidaktik (S. 185–219). Berlin, Heidelberg: Springer Berlin Hei-
+   delberg.
+Hefendehl-Hebeker, L. & Prediger, S. (2006). Unzählig viele Zahlen: Zahlbereiche erweitern -
+   Zahlvorstellungen wandeln. Praxis der Mathematik in der Schule, 48(11), 1–7.
+Hefendehl-Hebeker, L. & Schwank, I. (2015). Arithmetik: Leitidee Zahl. In R. Bruder, L. He-
+   fendehl-Hebeker, B. Schmidt-Thieme & H.-G. Weigand (Hrsg.), Handbuch der Mathema-
+   tikdidaktik (S. 77–115). Berlin, Heidelberg: Springer Berlin Heidelberg.
+Hertleif, C. (2018). Wie groß ist die Etage? Dynamische Geometrie Software (DGS) als Hilfs-
+   mittel beim Modellieren nutzen. Mathematik lehren, 207, 16–19.
+Hertleif, C. & Adamek, C. (2016). Der Pillnitzer Schlossgarten - Modellieren in Theorie und
+   Praxis. Mathematik 5-10, 37, 42–54.
+Hinrichs, G. (2008). Modellierung im Mathematikunterricht. Heidelberg: Springer Spektrum.
+Holland, G. (2007). Geometrie in der Sekundarstufe. Entdecken - Konstruieren - Deduzieren
+   (3., neu bearb. und erw. Aufl.). Hildesheim: Franzbecker.
+Holzäpfel, L. & Leiss, D. (2014). Modellieren in der Sekundarstufe. In H. Linneweber-Lam-
+   merskitten (Hrsg.), Fachdidaktik Mathematik. Grundbildung und Kompetenzaufbau im Un-
+   terricht der Sek. I und II (S. 159–178). Seelze: Kallmeyer.
+KMK. (2003). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss. Zu-
+   griff am 27.08.2019. Verfügbar unter https://www.kmk.org/fileadmin/Dateien/veroeffentli-
+   chungen_beschluesse/2003/2003_12_04-Bildungsstandards-Mathe-Mittleren-SA.pdf
+KMK. (2004a). Bildungsstandards für den Haupschulabschluss. Zugriff am 27.08.2019. Ver-
+   fügbar unter https://www.kmk.org/fileadmin/veroeffentlichungen_beschlu-
+   esse/2004/2004_10_15-Bildungsstandards-Mathe-Haupt.pdf
+
+
+
+                                            31
+KMK. (2004b). Bildungsstandards im Fach Mathematik für den Primarbereich. Verfügbar un-
+   ter https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2004/2004_10_15-
+   Bildungsstandards-Mathe-Primar.pdf
+Leiss, D. & Tropper, N. (2014). Umgang mit Heterogenität im Mathematikunterricht. Berlin,
+   Heidelberg: Springer Spektrum. https://doi.org/10.1007/978-3-642-45109-6
+Ludwig, M., Filler, A. & Lambert, A. (Hrsg.). (2015). Geometrie zwischen Grundbegriffen und
+   Grundvorstellungen. Jubiläumsband des Arbeitskreises Geometrie in der Gesellschaft für
+   Didaktik der Mathematik. Wiesbaden: Springer Spektrum. https://doi.org/10.1007/978-3-
+   658-06835-6
+Ludwig, M. & Weigand, H.-G. (2018). Konstruieren. In H.-G. Weigand, A. Filler, R. Hölzl, S.
+   Kuntze, M. Ludwig, J. Roth et al. (Hrsg.), Didaktik der Geometrie für die Sekundarstufe I
+   (3., erweiterte und überarbeitete Auflage, S. 43–66). Berlin, Heidelberg: Springer Spekt-
+   rum.
+Malle, G. (2004). Grundvorstellungen zu Bruchzahlen. Mathematik lehren, (123), 4–8.
+Padberg, F. & Wartha, S. (2017). Didaktik der Bruchrechnung (5. Auflage). Berlin: Springer
+   Spektrum. https://doi.org/10.1007/978-3-662-52969-0
+Prediger, S. (2006). Vorstellungen zum Operieren mit Brüchen entwickeln und erheben. Vor-
+   schläge für vorstellungsorientierte Zugänge und diagnostische Aufgaben. Praxis der Ma-
+   thematik in der Schule, 48(11), 8–12.
+Reinhold, F. (2019). Wirksamkeit von Tablet-PCs bei der Entwicklung des Bruchzahlbegriffs
+   aus mathematikdidaktischer und psychologischer Perspektive. Eine empirische Studie in
+   Jahrgangsstufe 6. Wiesbaden: Springer Spektrum. Verfügbar unter
+   https://doi.org/10.1007/978-3-658-23924-4
+Roth, J. & Wittmann, G. (2018). Ebene Figuren und Körper. In H.-G. Weigand, A. Filler, R.
+   Hölzl, S. Kuntze, M. Ludwig, J. Roth et al. (Hrsg.), Didaktik der Geometrie für die Sekun-
+   darstufe I (3., erweiterte und überarbeitete Auflage, S. 107–147). Berlin, Heidelberg:
+   Springer Spektrum.
+Schwill, A. (1993). Fundamentale Ideen der Informatik. Zentralblatt für Didaktik der Mathe-
+   matik, 25(1), 20–31.
+Sträßer, R. (2015). Grundbegriffe, Grundvorstellungen und Nutzungen der Geometrie. In M.
+   Ludwig, A. Filler & A. Lambert (Hrsg.), Geometrie zwischen Grundbegriffen und Grundvor-
+   stellungen. Jubiläumsband des Arbeitskreises Geometrie in der Gesellschaft für Didaktik
+   der Mathematik (S. 1–11). Wiesbaden: Springer Spektrum.
+Vom Hofe, R. (1992). Grundvorstellungen mathematischer Inhalte als didaktisches Modell.
+   Journal für Mathematik-Didaktik, 13(4), 345–364.
+Wartha, S. & Güse, M. (2009). Zum Zusammenhang zwischen Grundvorstellungen zu Bruch-
+   zahlen und arithmetischem Grundwissen. Journal für Mathematik-Didaktik, 30(3-4), 256–
+   280.
+Weigand, H.-G., Filler, A., Hölzl, R., Kuntze, S., Ludwig, M., Roth, J. et al. (Hrsg.). (2018). Di-
+   daktik der Geometrie für die Sekundarstufe I (3., erweiterte und überarbeitete Auflage).
+   Berlin, Heidelberg: Springer Spektrum. https://doi.org/10.1007/978-3-662-56217-8
+Wessel, L. (2015). Fach- und sprachintegrierte Förderung durch Darstellungsvernetzung und
+   Scaffolding. Wiesbaden: Springer Fachmedien Wiesbaden. https://doi.org/10.1007/978-3-
+   658-07063-2
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+   für Didaktik der Mathematik, 21(61), 37–46.
+Winter, H. (1999). Mehr Sinnstiftung, mehr Einsicht, mehr Leistungsfähigkeit im Mathematik-
+   unterricht, dargestellt am Beispiel der Bruchrechnung. Manuskript: RWTH Aachen. Zugriff
+   am 04.10.2021. Verfügbar unter http://www.matha.rwth-
+   aachen.de/de/lehre/ss09/sfd/Bruchrechnen.pdf
+Zech, F. (1995). Mathematik erklären und verstehen. Eine Methodik des Mathematikunter-
+   richts mit besonderer Berücksichtigung von lernschwachen Schülern und Alltagsnähe.
+   Berlin: Cornelsen.
+
+                                                32
+7 Abbildungsverzeichnis
+
+Abbildung 1: https://www.iqb.hu-berlin.de/institut/ab/sek1_ma
+(letzter Zugriff: 04.10.2021) ................................................................................................... 4
+Abbildung 2a): https://pixabay.com/de/illustrations/pizza-pizza-symbol-pizza-slice-1428931/
+(letzter Zugriff: 04.10.2021). .................................................................................................. 8
+Abbildung 3: IQB ................................................................................................................. 9
+Abbildung 4: IQB in Anlehnung an Abbildung 2a). ..............................................................10
+Abbildung 5: IQB ................................................................................................................13
+Abbildung 6: a), b) Ludwig & Weigand (2018, S. 46)
+ c) IQB in Anlehnung an Ludwig & Weigand (2018, S. 46)....................................................22
+Abbildung 7: Blum (1985) ...................................................................................................24
+Abbildung 8: https://de.wikipedia.org/wiki/Kölntriangle#/
+media/Datei:KölnTriangle_(0684).jpg (letzter Zugriff: 04.10.2021)
+https://architekturfuehrer.koeln/objekt/kolntriangle (letzter Zugriff: 04.10.2021) ....................25
+
+
+8      Tabellenverzeichnis
+
+Tabelle 1: Ausschnitt aus Hefendehl-Hebeker und Prediger (2006, S. 4.) ...........................10
+Tabelle 2: In Anlehnung an Ludwig und Weigand (2018, 61f.) .............................................21
+
+
+9      Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Anteile in geometrischen Objekten“ (IQB) ...........................................14
+Beispielaufgabe 2: „Schokoladenfiguren“ (IQB) ..................................................................15
+Beispielaufgabe 3: „Räumungsverkauf“ (IQB) ....................................................................17
+Beispielaufgabe 4: „Kreise und Vierecke" (IQB) .................................................................27
+Beispielaufgabe 5: „Bewege C“ (IQB).................................................................................29
+
+
+
+
+                                                                33
+

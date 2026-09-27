@@ -1,0 +1,1462 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 4 (Funktionaler Zusammenhang)“, IQB Berlin – Auswertung (Kodieranweisung, Lösungen)
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L4_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Auswertung“ mit 1–4 Seiten; hier 67 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== abstandaufdemwasser · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K3, K4, Jahrgang 2011
+
+Abstand auf dem Wasser
+RICHTIG
+ |
+Abstand zum Abstand zum
+Leuchtturm (km) Leuchtturm (km)
+11 11
+10 10
+9 9
+8 8
+7 7
+6 6
+5 5
+4 4
+3 3
+2 2
+1 1
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab Fahrzeit ab
+Hafen (min) Hafen (min)
+Abstand zum Abstand zum
+Leuchtturm (km) Leuchtturm (km)
+11 11
+10 10
+9 9
+8 8
+7 7
+6 6
+5 5
+4 4
+3 3
+2 2
+1 1
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab
+Hafen (min) Hafen (min)
+
+ |
+
+===== ampelkarte · Leitidee Funktionaler Zusammenhang (auch im Archiv L5)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2013
+
+Auswertung – Ampelkarte
+Teilaufgabe 1
+RICHTIG
+ | Fett				Farbe: rot
+gesättigte Fettsäure		Farbe: rot
+Zucker				Farbe: gelb
+Salz				Farbe: grün
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+ja nein
+Orangensaft: 100 ml enthalten 9,3 g Zucker
+Apfelschorle: 200 ml enthalten 10,6 g Zucker
+Cola: ein Glas (250 ml) enthält 27 g Zucker
+
+ |
+
+===== anderelaenderanderenoten · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K5, K6, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K2, K3, K6, Jahrgang 2015
+
+Andere Länder - andere Noten
+Teilaufgabe 1:
+RICHTIG
+ | 4
+ODER
+4,0
+ | Teilaufgabe 2:
+RICHTIG
+ | Alle Punktzahlen, die größer oder gleich 89 und kleiner als 91 sind
+UND
+passender Lösungsweg.
+Beispiel(e)
+5,5 =   5 + 1
+Erreichte Punktzahl = 90
+5,5  =   5 + 1; x = 90
+Ich habe es probiert. Ein passender Wert ist 89, denn
+  5 + 1 = 5,45. Das ist gerundet 5,5.
+ | Teilaufgabe 3:
+RICHTIG
+ | Angabe einer Formel, die für die Maximalpunktzahl den Wert 10 und
+für 0 Punkte den Wert 1 ergibt.
+Beispiel(e)
+
+ |
+
+===== aussagenzurprop · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, Jahrgang 2011
+
+Aussagen zur proportionalen Zuordnung
+RICHTIG
+ |
+D (60 | 40) A (10 | 15) B (30 | 20) C (45 | 30)
+
+ |
+
+===== berechnex · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Berechne x
+RICHTIG
+ | x = 9
+ |
+
+===== bestimmex · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2017
+
+Bestimme x
+
+RICHTIG
+ | 20
+ |
+
+===== druckmaschinen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2016
+
+Druckmaschinen
+Teilaufgabe 1:
+RICHTIG
+ | 6
+ | Teilaufgabe 2:
+RICHTIG
+ | 2
+ |
+
+===== eindeutig · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, Jahrgang 2015
+
+Auswertung – Eindeutig
+Teilaufgabe 1
+RICHTIG
+ |
+ 332174 xx  324 xx  332174 xx
+Es gibt keine Lösung. Es gibt eine Lösung.
+
+ | Teilaufgabe 2
+RICHTIG
+ | Angabe einer Gleichung, deren Lösungsmenge unendlich ist.
+Beispiel(e)
+x + 2 = x + 2
+ |
+
+===== einfachegleichung · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014
+
+Auswertung – Einfache Gleichung
+RICHTIG
+ | 2
+ |
+
+===== eiscafe · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 1A, K5, K6, Jahrgang 2017
+
+Eiscafé
+Teilaufgabe 1:
+RICHTIG
+ | 3,70
+ | Teilaufgabe 2:
+RICHTIG
+ | Eiscafé Arnoldo ist angekreuzt
+UND
+Lösungsweg, bei dem der Preis für eine Kugel Eis im Eiscafé Venezia oder der Gesamtpreis für fünf Kugeln im Eiscafé Arnoldo berechnet wurde.
+Beispiel(e)
+Preis für eine Kugel Eis im Eiscafé Venezia:
+Es wird nur der Preis für fünf Kugeln Eis im Eiscafé Arnoldo berechnet:
+ |
+
+===== fliesen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2011
+
+Fliesen
+RICHTIG
+ | 40
+ |
+
+===== freunde · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 1B, K4, K6, Jahrgang 2014; Teilaufgabe 3: AFB II, Kompetenzstufe 1A, K4, K6, Jahrgang 2014
+
+Auswertung – Freunde
+Teilaufgabe 1
+RICHTIG
+ | Beide Kreuze sind richtig gesetzt.
+Der Älteste in der Gruppe ist:
+
+Alex Bastian Can Daniel
+
+Der Kleinste in der Gruppe ist:
+
+Alex Bastian Can Daniel
+
+ | Teilaufgabe 2
+RICHTIG
+ | Beide Kreuze sind richtig gesetzt.
+
+trifft
+trifft zu
+nicht zu
+Die zwei Kleinsten sind auch die zwei Jüngsten.
+Weder der Älteste noch der Jüngste sind der
+Kleinste oder der Größte.
+
+ | Teilaufgabe 3
+RICHTIG
+ | Der Punkt für Erol (E) liegt links und unterhalb von Punkt C.
+[Anm.: Dieser Punkt muss nicht beschriftet werden.]
+Beispiel(e)
+Möglich ist auch eine allgemeine Lösung:
+
+Körpergröße
+B
+C
+D
+A
+Alter
+
+ |
+
+===== fuellverhalten · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K3, K4, Jahrgang 2017
+
+Füllverhalten
+Teilaufgabe 1:
+RICHTIG
+ | Graph enthält eine Strecke mit positiver Steigung im ersten Quadranten, beginnend im Koordinatenursprung oder auf der x-Achse.
+[Anm.: Es genügt, wenn der Verlauf durch dicht aneinander liegende Punkte dargestellt wird.]
+Beispiel(e)
+
+Füllhöhe Füllhöhe
+0 0
+0 Zeit 0 Zeit
+Füllhöhe Füllhöhe
+0 0
+0 Zeit 0 Zeit
+
+ | Teilaufgabe 2:
+RICHTIG
+ |
+Füllhöhe Füllhöhe
+0 0
+0 0 Zeit Zeit
+Füllhöhe Füllhöhe
+0 0
+0 0 Zeit Zeit Zeit
+
+ |
+
+===== fuenfundvierzig · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011
+
+Fünfundvierzig
+RICHTIG
+ | 7
+ |
+
+===== geldanlegen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K3, K6, Jahrgang 2017
+
+Geld anlegen
+Teilaufgabe 1:
+RICHTIG
+ |
+2018 € 2036 € 2108 € 2110 €
+
+ | Teilaufgabe 2:
+RICHTIG
+ | Nein
+UND
+Begründung, die darauf  beruht, dass sich bei geändertem Grundwert auch der Prozentwert ändert.
+Beispiel(e)
+Der Betrag, den sie auf ihr Konto einzahlen möchte, ist um 150 € geringer. Also erhält sie für diese 150 € auch keine Zinsen. Sie bekommt also insgesamt weniger Zinsen, als wenn sie den gesamten Betrag zur Bank bringt. Deshalb ist ihr Guthaben am Ende geringer.
+Zahlt man weniger ein, erhält man weniger Zinsen.
+Der Grundwert verringert sich, also auch die Zinsen.
+ | FALSCH
+ | Alle anderen Antworten
+Beispiel(e)
+Sie erhält nicht die gleichen Zinsen.
+ |
+
+===== geradenimkoordinatensystem · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015
+
+Auswertung – Geraden im Koordinatensystem
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== geschichtezurgraphik · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Geschichte zur Graphik
+RICHTIG
+ |
+Paula und Sepp machen eine Bergtour. Zuerst steigt der Weg nur wenig an
+und die beiden kommen gut voran. Dann ist der Weg eine Zeit lang eben.
+Zum Schluss ist der Weg bis zum Gipfel ziemlich steil und Paula und Sepp
+kommen nur langsam voran.
+Herr Heuer kauft Aktien. Zuerst steigt der Wert der Aktien. Dann bleibt er
+eine Zeit lang konstant. Schließlich steigt der Wert steil an und Herr Heuer
+könnte die Aktien mit Gewinn verkaufen.
+Lisa und Sven machen eine Radtour. Nach einiger Zeit hat Sven eine
+Panne und sie müssen sein Rad reparieren. Für den Rest der Strecke
+fahren beide mit höherer Geschwindigkeit, um die versäumte Zeit
+aufzuholen.
+Lars ist auf dem Weg zur Schule. Unterwegs fällt ihm ein, dass er seinen
+Taschenrechner vergessen hat, den er für die Mathearbeit braucht. Er läuft
+zurück nach Hause, nimmt den Taschenrechner und muss sich jetzt
+beeilen, um pünktlich zur Schule zu kommen.
+
+ |
+
+===== geschwindigkeit · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2013
+
+Auswertung – Geschwindigkeitsüberschreitung
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== gewitter · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2013
+
+Auswertung – Gewitter
+Teilaufgabe 1
+RICHTIG
+ | 1,5
+ | Teilaufgabe 2
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== gleichungenloesenistni · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2011; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K5, K6, Jahrgang 2011
+
+Gleichungen lösen ist nicht schwierig
+Teilaufgabe 1
+RICHTIG
+ |
+4 8 20 44 56
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Die Lösung ist richtig, wenn die Gleichung erkennbar durch Umformen gelöst wurde.
+
+Z. B.:
+7x-14 = 38 | +14
+     7x = 52 | :7
+       x =
+
+ODER
+7x = 52
+  x =
+
+Anmerkungen:
+• Akzeptiert wird auch 7
+
+ODER  7,4 ODER jedes andere korrekt gerundete Ergebnis.
+• Die einzelnen Umformungsschritte müssen mathematisch richtig sein, ihre Reihenfolge ist beliebig.
+• Wird nach einem Rechenfehler folgerichtig weitergerechnet, wird die Aufgabe als richtig gewertet.
+• Wird mit der Aufgabe 7x - 14 = 42 korrekt gerechnet, wird die Aufgabe als richtig gewertet.
+ |
+FALSCH
+ | Alle anderen Antworten.
+Anm.: Wird ein Umformungsfehler gemacht, wird die Aufgabe als „Falsch“ gewertet.
+
+ODER
+Es wird richtig , jedoch nicht zu Ende gerechnet,
+z. B. 7x = 52
+x =
+ | Teilaufgabe 3
+RICHTIG
+ | Angabe von je zwei Gleichungen, die sich leicht durch Probieren bzw. besser durch Umformen lösen lassen.
+
+UND
+
+Darlegung einer nachvollziehbaren Erklärung, warum Probieren bzw. Umformen die besser geeignete Lösungsmethode ist. Dabei muss darauf verwiesen werden, dass das Lösen durch Probieren dann nicht mehr sinnvoll ist, wenn in längeren Gleichungen „schwierige“ Rechnungen erforderlich sind und der Wert für x nicht mit wenigen Probierschritten gefunden werden kann oder wenn die Lösung nicht ganzzahlig ist.
+
+Anm.: Die Erläuterungen lassen ggf. erst im Zusammenhang mit den Gleichungen erkennen, dass die Systematik erkannt wurde.
+
+Z. B.
+
+Probieren                                     Umformen
+
+1. Gleichung: 25 = 2x + 5               1. Gleichung: 11x + 8,5 = 24x - 3,2
+
+2. Gleichung: a + a = 4                   2. Gleichung: 3x + 4 - x = 21 + 4x
+
+Die linken beiden Gleichungen können aufgrund der einfachen Zahlen, die es möglich machen im Kopf zu rechnen, leicht durch Probieren gelöst werden. Hinzu kommt, dass nur auf einer Seite des Gleichheitszeichens Variablen stehen. Die rechten beiden Gleichungen sind länger und weisen größere Zahlen bzw. Kommazahlen auf. Auch Brüche wären denkbar. Außerdem sind auf beiden Seiten des Gleichheitszeichens Glieder mit Variablen zu finden.
+
+ODER
+
+Probieren                                  Umformen
+1. Gleichung: 20 = 4x                 1. Gleichung: 6b + 18 = 2
+
+ b - 3
+2. Gleichung: 4a = 4                   2. Gleichung: 3x + 4 - x = 10
+
+Die Gleichungen auf der rechten Seite sind nicht so einfach durch Probieren zu lösen wie die beiden anderen Gleichungen, da sie Brüche enthalten.
+ |
+RICHTIG
+ | ODER (Grenzfall)
+
+Probieren                                       Umformen
+1. Gleichung: x + x = 20                   1. Gleichung: 7x - 15 = 23
+2. Gleichung: x + x = 26                   2. Gleichung: 7x - 16 = 23
+
+Anm.: In beiden Fällen werden je zwei strukturell gleiche Beispiele angegeben, die sich nur minimal unterscheiden, dennoch aber den Vorgaben genügen.
+
+ODER
+„Beim Probieren sieht man es gleich, was rauskommt. Beim Umformen muss man schon rechnen.“, sofern passende illustrierende Beispiele angegeben sind.
+ | FALSCH
+ | Alle anderen Antworten, insbesondere Antworten mit fehlender, fehlerhafter oder falscher Begründung.
+
+Z. B.:
+Nur einfache Gleichungen können durch Probieren gelöst werden, komplizierte Gleichungen nicht.
+Anm.: In dieser Erklärung wird zwar auf die Komplexität der Gleichungen verwiesen, jedoch nicht genauer erläutert, worauf diese beruht.
+
+ODER
+Wenn man sich sicher sein möchte, dass die Gleichung richtig gelöst ist, sollte man sie immer durch Umformen lösen.
+Anm.: Es wird kein Bezug zu den strukturellen Gegebenheiten der Gleichungen hergestellt.
+
+ODER
+Wenn man gut im Kopf rechnen kann, kann man alle Gleichungen leicht durch Probieren lösen.
+Anm.: Es wird kein Bezug zu den strukturellen Gegebenheiten der Gleichungen hergestellt.
+ |
+
+===== gleichungfinden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014
+
+Auswertung – Gleichung finden
+Teilaufgabe 1
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | 9
+ |
+
+===== gleichungloesen1 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013
+
+Auswertung – Gleichung lösen 1
+RICHTIG
+ | -10
+ |
+
+===== gleichungloesen2 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2013
+
+Auswertung – Gleichung lösen 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== gleichungloesen3 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016
+
+Gleichung lösen 3
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== gleichungveraendern · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015
+
+Auswertung – Gleichung verändern
+Teilaufgabe 1
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ |
+ODER
+
+ODER
+
+ |
+
+===== gueterverkehr · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2013
+
+Auswertung – Güterverkehr
+Teilaufgabe 1
+RICHTIG
+ | 650
+ | Teilaufgabe 2
+RICHTIG
+ | 1. Kästchen ist angekreuzt.
+ |
+
+===== hochrad · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 1, K2, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K2, K3, K5, K6, Jahrgang 2011
+
+: Hochrad
+Teilaufgabe 1
+RICHTIG
+ | Akzeptiert werden alle Angaben aus dem Intervall [70; 75]m, auch mit dem Zusatz „ca.“.
+
+Z. B.:
+73,5 m
+ |
+Teilaufgabe 2
+RICHTIG
+ | 7
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+21 (Anzahl der Umdrehungen des Hinterrades, gerundet)
+ |
+Teilaufgabe 3
+RICHTIG
+ |
+27 12 16 21
+
+ |
+
+===== imkreislaufen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, Jahrgang 2013
+
+Auswertung – Im Kreis laufen
+RICHTIG
+ | 3. (links unten) Kästchen wurde angekreuzt
+ |
+
+===== inliner · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K2, K3, K5, K6, Jahrgang 2014
+
+Auswertung - Inliner
+Teilaufgabe 1
+RICHTIG
+ | Akzeptiert werden alle Lösungen, bei denen die folgenden Informationen des Textes richtig berücksichtigt wurden:
+Lara legt 12 km in 40 min zurück (Abschnitt 1)
+Lara macht eine 30-minütige Pause im Eiscafé (Abschnitt 2)
+Lara legt 6 km in 30 Minuten zurück (Abschnitt 3)
+Beispiel(e)
+
+gefahrene
+Strecke (in km)
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2 Zeit
+(in min)
+0 130 10 20 30 40 50 60 70 80 90 100 110 120 140
+
+[Anm.: Der Graph muss in den Abschnitten 1 und 3 nicht unbedingt linear steigen.
+Die "Eckpunkte" (0|0), (40|12), (70|12) und (100|18) müssen richtig eingetragen werden.
+Der Graph kann auch über die gefahrene Strecke von 18 km hinaus verlängert werden. (Die Seerunde ist dann zwar beendet, aber Lara könnte ja auch weiterfahren.)]
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+ | Teilaufgabe 2
+RICHTIG
+ | Ja
+UND
+eine richtige Begründung, in welcher davon ausgegangen wird, dass Paul gleichbleibend mit einer Geschwindigkeit von 28 km/h unterwegs ist und Lara demzufolge noch im Eiscafé antrifft. Dieser Nachweis kann rechnerisch oder zeichnerisch geführt werden.
+
+Beispiel(e)
+In einer halben Stunde fährt Paul 14 km. Das ist weiter als die Entfernung zum Café. D. h. nach 70 min. ist er an dem Café schon vorbeigeradelt. Lara ist bis zur 70. Minute noch im Eiscafé.
+Zeichnerische Lösung
+
+gefahrene
+Strecke (in km)
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2 Zeit
+(in min)
+0 130 10 20 30 40 50 60 70 80 90 100 110 120 140
+
+Lara ist noch im Eiscafé, wenn Paul vorbeiradelt. Dies erkennt man daran, dass sich die beiden Graphen schneiden. [Anm.: Auch ohne eine derartige Erläuterung wird die Lösung hier akzeptiert, sofern die richtige Antwort (Ja) gewählt wurde.]
+ODER
+Weder "Ja" noch "Nein" oder beide Kästchen sind angekreuzt
+UND
+eine richtige Begründung, in der herausgestellt wird, dass es sich bei Pauls Geschwindigkeit um eine Durchschnittsgeschwindigkeit handelt, weshalb man nicht sagen kann, ob Lara noch im Eiscafé ist, wenn Paul vorbeiradelt.
+[Anm.: Wird eine solche Begründung genannt, wird die Aufgabe auch als richtig gewertet, wenn nur "Ja" oder nur "Nein" angekreuzt ist.]
+Beispiel(e)
+Bei Pauls Geschwindigkeit handelt es sich um eine Durchschnittsgeschwindigkeit. Er könnte z. B. auf dem ersten Teilstück bis zum Eiscafé sehr langsam gefahren sein und das zweite Teilstück nach dem Eiscafé dann sehr schnell zurücklegt haben. So kann es sein, dass er Lara nicht mehr antrifft, wenn er vorbeikommt.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+ |
+
+===== joggen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K3, K4, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Joggen
+Teilaufgabe 1
+RICHTIG
+ | Trainingspuls: mindestens:  108       höchstens:  140
+
+ODER (Grenzfall)
+Trainingspuls: mindestens:  107       höchstens:  141
+ | FALSCH
+ | Alle anderen Antworten.
+
+z. B.
+nicht gerundete Werte: 107,25; 140,25
+ |
+
+Teilaufgabe 2
+RICHTIG
+ | Ein Term für die untere Grenze des Trainingspulses wird angegeben (x steht für Lebensalter in Jahren).
+Anm.: Statt x kann jede beliebige Variable verwendet werden.
+
+0,65  (200 - x)
+
+ODER
+65/100  (200 - x)
+
+ODER
+65 %  (200 - x)
+
+ODER (Grenzfall)
+untere Grenze: 200 - x = y; Puls = y  65 : 100
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B.
+200 - x  65/100
+
+ODER
+(200 - x )  65 und (200 - x )  85
+
+ODER
+(200 - 35 )  65/100
+
+ODER
+x  65 %
+ |
+
+RICHTIG
+ | Richtige Formel, die die Zelladresse A4 bzw. einen Verweis auf das Lebensalter enthält. Auch Formeln, die direkt in die Tabelle (auch ohne Gleichheitszeichen oder mit einem anderen Mal-Zeichen, z. B. "*") eingetragen sind, werden als richtig gewertet.
+
+z. B.
+D4: = 0,85  (200 - A4)
+
+ODER
+D4: = 85/100  (200 - A4)
+
+ODER
+D4: = 85 %  (200 - A4)
+
+ODER (Grenzfall)
+keine Angabe für D4, aber in der Tabelle stehen in den freien Zellen in Spalte D die richtigen Formeln, also
+D5: = 0,85  (200 - A5); D6: = 0,85  (200 - A6) usw.
+
+ODER (Grenzfall)
+D4: = 0,85  (200-x)
+Anm.: Hier wurde statt der Zelladresse die oft gebräuchliche Variable x notiert.
+
+ODER (Grenzfall)
+D4: = B4*0,85
+ | Teilaufgabe 3
+
+FALSCH
+ | Alle anderen Antworten.
+
+z. B.
+Es ist ein falscher Term angegeben.
+
+ODER
+Der Term enthält keine Variablen: D4: = (200 -15) * 85 : 100
+ |
+
+===== jubilaeumsgeschenk · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, Jahrgang 2017
+
+Jubiläumsgeschenk
+Teilaufgabe 1
+RICHTIG
+ |
+[Anm.: Auch die (teilweise) Angabe von Einheiten in der Gleichung ist zulässig.]
+
+Grenzfall
+
+ | Teilaufgabe 2
+RICHTIG
+ | Nein
+UND
+Begründung, in welcher daraufhin hingewiesen wird, dass sich der Preis für die Rosen zwar verdoppelt, der Preis für die Karte jedoch nicht und sich deshalb auch die Summe nicht verdoppelt.
+[Anm.: Die Argumentation kann auch beispielgebunden erfolgen. D. h. anhand eines Beispiels kann gezeigt werden, dass die Behauptung nicht stimmt.]
+Beispiel(e)
+Der Preis für die Rosen ohne Karte verdoppelt sich, aber der Preis für die Karte bleibt gleich. Deshalb verdoppelt sich der Gesamtpreis nicht.
+Wenn eine Rose 3 € und die Karte 2 €  kostet, dann kostet ein Strauß aus 10 Rosen mit Karte 32 €. Ein Strauß aus 20 Rosen mit Karte kostet 62 €. Das ist keine Verdoppelung des Gesamtpreises.
+
+Grenzfall
+Nein, der Preis verdoppelt sich nicht, da man auch die Karte berücksichtigen muss.
+[Anm.: Zwar wird nicht direkt darauf verwiesen, dass sich der Preis der Karte nicht verdoppelt, doch ist dies laut Aufgabentext auch nicht der Fall. Die Karte scheint als ausschlaggebend erkannt worden zu sein.]
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Nein, der Preis verdoppelt sich nicht. Man bekommt sicher Mengenrabatt.
+ |
+
+===== kraftfutter · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Kraftfutter
+RICHTIG
+ | Das Kraftfutter reicht 21 Tage.
+Anm.: Auch die Antwort 3 Wochen wird akzeptiert.
+ |
+
+===== lagevonzweigeraden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K4, Jahrgang 2014
+
+Auswertung - Lage von zwei Geraden
+RICHTIG
+ | Die Geraden verlaufen parallel zueinander.
+UND
+Korrekte Begründung unter Bezug auf die identische Steigung und die voneinander abweichenden y-Achsenabschnitte. Dies kann auch durch einen rechnerischen Ansatz erfolgen.
+Beispiel(e)
+Beide Geraden haben die Steigung 4. Sie sind also parallel.
+(Grenzfall)
+Beide Geraden haben dieselbe Steigung (ohne Angabe der 4).
+Zeichnerische Lösungen sind auch zu akzeptieren:
+
+y
+4
+3
+2
+1
+x
+- 4 - 3 - 2 - 1 1 2 3 4
+- 1
+- 2
+- 3
+- 4
+
+(Grenzfall)
+Falscher Achsenabschnitt eingezeichnet.
+(Grenzfall)
+Die gezeichneten Geraden verlaufen nicht parallel, jedoch ist ein Steigungsdreieck erkennbar.
+ |
+
+===== linearefunktionen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Lineare Funktionen anwenden
+RICHTIG
+ |
+ 0,52 yx  25 yx  20,5 yx  52 yx
+Herr Hinze kauft einen Rosenstrauß. Eine Rose kostet 2 €.
+Im Blumenladen wird für das Binden des Straußes
+zusätzlich 0,50 € berechnet.
+Florian verkauft auf dem Bücherbasar seine alten Comics
+für je 2 €. Von seinen Einnahmen muss er 5 € Standgebühr
+bezahlen. Trotzdem erwartet er, dass er einen guten
+Gewinn macht.
+Sven leiht sich im Urlaub ein Fahrrad. Er muss eine
+Grundgebühr von 2 € bezahlen und zusätzlich pro Tag eine
+Leihgebühr von 5 €.
+Frau Meier kauft für eine Bastelarbeit farbige Pappe. Jeder
+Bogen kostet 0,50 €. Außerdem kauft sie eine Tube
+Spezialkleber für 2,00 €.
+
+Anm.: Die Lösung ist nur richtig, wenn alle Zuordnungen richtig sind.
+ |
+
+===== linearundproportional · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K6, Jahrgang 2011; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2011
+
+Linear und proportional
+Teilaufgabe 1
+RICHTIG
+ |
+ja nein
+Ein Stromanbieter verlangt eine monatliche Grundgebühr. Für
+jede verbrauchte Kilowattstunde Strom ist zusätzlich eine
+festgelegte Gebühr zu zahlen.
+Das Schwimmbecken eines Freibades ist zu Saisonbeginn
+leer. Vor der Eröffnung der Freibadsaison wird das Schwimm -
+becken mit Wasser befüllt. Dabei ist die pro Stunde
+einlaufende Wassermenge gleich.
+Ein Sparbetrag wird für drei Jahre mit einem festen Zinssatz
+angelegt. Nach dem ersten Jahr werden auch die Zinsen
+verzinst.
+
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+Wenn bereits 4 von 5 Kreuzen richtig gesetzt wurden.
+
+ y x
+richtig falsch
+Für jedes Wertepaar x und y einer proportionalen Funktion hat
+der Quotient den gleichen Wert. (Dabei ist x, y 0.)
+Jede proportionale Funktion ist auch eine lineare Funktion.
+Jede lineare Funktion ist auch eine proportionale Funktion.
+Bei einer proportionalen Funktion gehört zum Doppelten des
+x - Werts die Hälfte des y - Werts.
+Bei einer linearen Funktion hat die zugehörige Gerade immer
+eine positive Steigung.
+
+ |
+
+===== massstabsleiste · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2016
+
+Maßstabsleiste
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== massstabsrechner · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Maßstabsrechner
+RICHTIG
+ |
+45 km 3 km 15 km 20 km
+
+ |
+
+===== ohrhaenger · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K3, K5, K6, Jahrgang 2014
+
+Auswertung - Ohrhänger
+Teilaufgabe 1
+RICHTIG
+ | 5
+UND
+Lösungsweg, der den Drahtbedarf für einen Ohrhänger (18 cm) und die Gesamtlänge des Drahts (90 cm) berücksichtigt.
+Beispiel(e)
+
+(Grenzfall)
+
+(Grenzfall)
+
+ | Teilaufgabe 2
+RICHTIG
+ | 4
+UND
+Lösungsweg, bei dem mittels des Drahtbedarfs für einen Ohrhänger (12 cm + 3 cm) die Länge einer Dreiecksseite (4 cm) errechnet wird.
+ODER
+Es wird nachgewiesen, dass bei einer Länge der Dreiecksseiten von 4 cm für 6 Ohrhänger exakt 90 cm Draht verbraucht werden.
+Beispiel(e)
+
+ |
+
+===== papier · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2014
+
+Auswertung - Papier
+RICHTIG
+ | 22 (ODER ca. 22)
+[Anm.: Angaben in anderen Maßeinheiten mit passender Maßzahl werden auch als richtig gewertet.]
+ |
+
+===== parkhaus · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K4, K5, Jahrgang 2015
+
+Auswertung – Parkhaus
+RICHTIG
+ |
+[Anm.: Als Grenzfall ist das Diagramm auch ohne Kennzeichnung der Intervallgrenzen (leere und gefüllte Kreise) zu akzeptieren.]
+ |
+
+===== pflaumen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016
+
+Pflaumen
+RICHTIG
+ | 0,95
+ |
+
+===== pinsel · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K5, Jahrgang 2017
+
+Pinsel
+Teilaufgabe 1:
+RICHTIG
+ | eine Zahl aus dem Intervall [17,4; 18,6]
+[Anm.: Die Abbildungen und damit die Länge der Pinsel können abhängig vom Druck variieren. Daher kann das Lösungsintervall abweichen]
+ | Teilaufgabe 2:
+RICHTIG
+ |
+
+ |
+
+===== punkteaufgeraden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K5, Jahrgang 2013; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K5, K6, Jahrgang 2013
+
+Auswertung – Punkte auf Geraden
+Teilaufgabe 1
+RICHTIG
+ | Es kann eine Rechnung (Punktprobe) durchgeführt oder inhaltliche Überlegungen unter Verwendung des y-Achsenabschnitts und der Steigung dargelegt werden.
+
+Beispiel(e)
+•
+
+3 3 2 yx 
+y
+A
+3
+2
+1
+0
+x 0
+- 1 1 2 3 4 5 6
+- 1
+- 2
+- 3
+- 4
+
+Also liegt der Punkt auf der Geraden.
+• Die Gerade schneidet die y-Achse im Punkt ( 0 | -3 ). Bewegt man sich von diesem Punkt aus gemäß der Steigung schrittweise nach rechts, erreicht man auch den Punkt A ( 4 | 3 ).
+•   4 - 3 = 3
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• Der Punkt A liegt auf der Geraden mit der Gleichung.
+• Ja, denn die Punktprobe stimmt.
+[Anm.: Nachweis fehlt]
+ |
+Teilaufgabe 2
+RICHTIG
+ | Nein
+
+UND
+
+Begründung
+Zur Begründung kann rechnerisch eine Geradengleichung mithilfe zweier Punkte bestimmt und damit überprüft werden, ob der dritte Punkt ebenfalls auf dieser Geraden liegt. Alternativ kann die Begründung auch durch ein gedankliches Abschreiten von Punkt zu Punkt im Koordinatensystem und dessen Darlegung oder eine Zeichnung (Skizze ausreichend) erfolgen.
+
+Beispiel(e) für rechnerische Begründungen
+• aus P1 und P2 Geradengleichung bilden:
+y = - x + 2
+und x-Wert von P3 einsetzen:
+y = -   7 + 2
+y = - 1,5  - 2
+
+Beispiel(e) für zeichnerische Begründungen
+•
+
+y
+2
+P 1
+1
+P 2
+x
+1 2 3 4 5 6 7
+- 1
+P 3
+- 2
+
+[Anm.: Eine Skizze ohne eingezeichnete Gerade ist ebenfalls als richtig zu werten, wenn "Nein" angekreuzt wurde.]
+ |
+zu Teilaufgabe 2
+RICHTIG
+ | Beispiel(e) für Begründungen mit Bezug zu der Schrittfolge im Koordinatensystem:
+• Die Punkte P1 und P2 liegen auf einer Geraden. Um von P1 zu P2 zu kommen, gehe ich zwei Schritte nach rechts und einen Schritt nach unten. Mit einer entsprechenden Schrittfolge gelange ich dann von P2 aber nicht zu P3. Also liegt Punkt P3 nicht auf dieser Geraden.
+• Geht man von P1 zu P2, so geht man zwei Einheiten nach rechts und eine nach unten. Von P2 zu P3 geht man drei Einheiten nach rechts, also anderthalb mal so weit wie von P1 zu P2. Um von P2 zu P3 zu gelangen, müsste man, wenn alle drei Punkte auf derselben Geraden liegen würden, ebenfalls anderthalb mal so weit von P2 aus nach unten gehen. Man geht aber zwei Einheiten nach unten statt nur anderthalb. Also liegen die drei Punkte nicht auf derselben Geraden.
+• Die Punkte P1, P2 und P3 liegen nicht auf einer Geraden, da die Schrittfolge im Koordinatensystem von Punkt zu Punkt nicht identisch ist.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• Drei Punkte können niemals auf einer Geraden liegen.
+ | Teilaufgabe 3
+RICHTIG
+ | Die Lageveränderung der Geraden wird richtig beschrieben (Gerade wird parallel verschoben). Dabei muss deutlich werden, dass sich der
+y-Achsenabschnitt ändert.
+
+Beispiel(e)
+• Wenn b verändert wird, wird die ursprüngliche Gerade parallel verschoben. Wird b größer, wird die Gerade in positive Richtung verschoben, wird b kleiner, wird die Gerade in negative Richtung verschoben.
+• Die Gerade wird (parallel) verschoben.
+• Die Gerade wird nach oben oder unten verschoben
+[Anm.: Beide Richtungen müssen genannt werden, auch die Richtungsangaben links und rechts sind statthaft.]
+• Der y-Achsenabschnitt der Geraden ändert sich. Die Steigung nicht.
+ |
+
+===== rechtskurve · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K3, K4, Jahrgang 2017
+
+Rechtskurve
+
+RICHTIG
+ |
+Geschwindigkeit Geschwindigkeit
+Zeit Zeit
+Geschwindigkeit Geschwindigkeit
+Zeit Zeit
+
+ |
+
+===== reiseverlauf · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K4, K6, Jahrgang 2015; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K3, K4, K6, Jahrgang 2015
+
+Auswertung – Reiseverlauf
+Teilaufgabe 1
+RICHTIG
+ |
+trifft nicht
+trifft zu
+zu
+Während A fährt, haben A und B die gleiche
+Geschwindigkeit.
+A fährt früher los als B.
+Der Weg, den B fährt, ist kürzer als der Weg von A.
+
+ | Teilaufgabe 2
+RICHTIG
+ | Nein
+UND
+Begründung, in der festgestellt wird, dass sich das Fahrzeug dann gleichzeitig an verschiedenen Orten befinden müsste.
+Beispiel(e)
+Dies kann nicht sein, da das Fahrzeug dann zur selben Uhrzeit an verschiedenen Orten sein müsste.
+Dies geht nicht, da das Fahrzeug dann z. B. um 14 Uhr 5 km und gleichzeitig 10 km weit von zu Hause entfernt sein müsste.
+Geschwindigkeit ist eine Weg-Zeit-Funktion. Eine Parallele zur zweiten Achse ist aber keine Funktion.
+Das ist unmöglich, da das Auto unendlich schnell fahren müsste, damit dieses Schaubild zustande kommen könnte.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+ |
+
+===== rolltreppe · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K4, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Rolltreppe
+Teilaufgabe 1
+RICHTIG
+ | Nach einer Minute Rolltreppenfahrt ist Monika noch 10,5 m unterhalb des Straßenniveaus.
+Anm.: Höhenangaben aus dem Intervall [10;11] sind zu akzeptieren.
+
+ODER (Grenzfall)
+-10,5 m
+ |
+Teilaufgabe 2
+RICHTIG
+ | 1,4 min
+Akzeptiert werden aus der Graphik abgelesene und berechnete Lösungen im Intervall [1,375 min; 1,5 min].
+Anm.: Die entsprechende Angabe der Zeit in anderer Einheit ist zulässig, sofern dann die gewählte Einheit angegeben ist.
+ |
+
+Teilaufgabe 3
+RICHTIG
+ | Akzeptiert werden alle Graphen, deren erster Abschnitt bis zur halben Höhe (10,5 m) unter dem Straßenniveau steiler ist als Monikas Graph, da Sven schneller als die Rolltreppe ist und der zweite Abschnitt des Graphen parallel zu Monikas Graphen verläuft. Der erste Abschnitt muss nicht linear sein.
+
+z. B.
+
+Höhe
+3 m
+Zeit Straßenniveau
+0 m
+0,5 min 1,0 min 1,5 min 2,0 min
+- 3 m
+- 6 m
+- 9 m
+Monika
+- 12 m
+- 15 m
+- 18 m
+Bahnsteigniveau
+- 21 m
+- 24 m
+
+ |
+
+===== sauerkraut · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K4, K5, K6, Jahrgang 2015
+
+Auswertung - Sauerkraut
+Teilaufgabe 1
+RICHTIG
+ | Aus der Antwort muss ersichtlich werden, dass Felix nicht berücksichtigt, dass die jeweils hinzugekommenen Bakterien sich auch vermehren.
+[Anm.: Es muss nicht explizit festgestellt werden, dass falsch argumentiert wird.]
+Beispiel(e)
+Felix denkt, dass jeden Tag 70 % der anfänglich zugegebenen Bakterienmenge hinzukommen.
+Das ist falsch, denn 35 g stimmen nur am ersten Tag.
+Felix hat nicht Recht. Am ersten Tag kommen 35 g hinzu. Danach kommen aber immer mehr Bakterien hinzu.
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Felix hat nicht Recht.
+[Anm.: Eine Erläuterung dieser Aussage fehlt.]
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== schnittpunktvongraphen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 5, K4, K5, Jahrgang 2011
+
+Schnittpunkt von Graphen
+RICHTIG
+ | Die beiden Graphen schneiden sich im Punkt S( 1 | 1 ).
+
+Anmerkung:
+Der inhaltliche Kern dieses Items ist die Idee des Gleichsetzens. Ob dies rechnerisch oder zeichnerisch geschieht, ist unerheblich. Dies begründet die Auswahl der Grenzfälle.
+
+Mögliche Lösungen:
+
+Der Schnittpunkt hat die Koordinaten x = 1 und y = 1.
+
+ODER (Grenzfall)
+Beide Graphen werden richtig in ein Koordinatensystem gezeichnet und der Schnittpunkt ist erkennbar. Die Koordinaten des Schnittpunkts werden z. B. durch gestrichelte Linien zu den Achsen angedeutet, aber nicht explizit angegeben.
+
+ODER (Grenzfall)
+Die Koordinaten des Schnittpunkts werden errechnet, aber nicht explizit nach Abschluss der Rechnung angegeben.
+
+ODER (Grenzfall)
+Die Geraden werden richtig in ein Koordinatensystem eingezeichnet, die Koordinaten des Schnittpunkts jedoch falsch abgelesen.
+
+ODER (Grenzfall)
+Eine der beiden Geraden wird falsch in ein Koordinatensystem eingezeichnet und die Koordinaten des Schnittpunkts werden folgerichtig angegeben.
+
+ODER (Grenzfall)
+Bei der rechnerischen Bestimmung der Koordinaten des Schnittpunkts unterläuft ein Fehler, die Koordinaten des Schnittpunkts werden folgerichtig angegeben.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+Beide Geraden werden falsch in ein Koordinatensystem eingezeichnet und die Koordinaten des Schnittpunkts werden folgerichtig abgelesen.
+ |
+
+===== schokoladenpreis · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013
+
+Auswertung – Schokoladenpreis
+Teilaufgabe 1
+RICHTIG
+ |  g
+ | Teilaufgabe 2
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== tabelle · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Tabelle
+RICHTIG
+ |
+3 b = a + 1 b = 2 a - 1 b = ‧ a
+a = b - 2 a = b + 2 2
+
+ |
+
+===== tabelleausfuellen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, K4, Jahrgang 2015
+
+Auswertung – Tabelle ausfüllen
+RICHTIG
+ |
+Masse in kg 3 4 6 8
+Preis in € 15 20 30 40
+
+ |
+
+===== tankinhalt · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2016
+
+Tankinhalt
+RICHTIG
+ | eine Zahl aus dem Intervall [49; 50]
+ |
+
+===== temperatur · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K5, K6, Jahrgang 2017
+
+Temperatur
+Teilaufgabe 1:
+RICHTIG
+ | 41
+ | Teilaufgabe 2:
+RICHTIG
+ |
+ |
+
+===== traktor · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K5, Jahrgang 2016
+
+Traktor
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== trapezvariation · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K2, K5, Jahrgang 2016
+
+Trapezvariation
+Teilaufgabe 1:
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | Teilaufgabe 2:
+RICHTIG
+ | Ja
+
+UND
+Begründung (auch anhand eines Beispiels) über die gleichbleibende Summe der Seitenlängen a und c.
+Beispiel(e)
+ ;
+Wenn man die Seitenlängen a und c so verändert, dass deren Summe gleich bleibt, bleibt auch der Flächeninhalt gleich.
+(Grenzfall)
+Man kann sie so verändern, dass es am Ende ein Rechteck wird und somit ist der Flächeninhalt gleich, da nichts weggenommen oder vergrößert wurde.
+(Grenzfall)
+Man kann die Seitenlängen a und c vertauschen.
+ |
+
+===== tropfenderwasserhahn · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K4, Jahrgang 2015
+
+Tropfender Wasserhahn
+Teilaufgabe 1:
+RICHTIG
+ | 600
+ | Teilaufgabe 2:
+RICHTIG
+ | 1. Kästchen wurde angekreuzt (oben links)
+ | FALSCH
+ | 2. Kästchen wurde angekreuzt (oben rechts)
+3. Kästchen wurde angekreuzt (unten links)
+4. Kästchen wurde angekreuzt (unten rechts)
+ |
+
+===== tunnelbohrmaschine · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Tunnelbohrmaschine
+Teilaufgabe 1
+RICHTIG
+ | Der Tunnel wird etwa 2,8 km (gerundet 3 km)lang.
+Anm.: Akzeptiert wird auch die Angabe 2800 m (gerundet 3000 m), sofern die Einheit m angegeben ist.
+ | FALSCH
+ | Alle anderen Antworten.
+
+z. B.
+2800
+ |
+Teilaufgabe 2
+RICHTIG
+ | VERA müsste am Tag 14 m Tunnel schaffen.
+Anm.: Akzeptiert werden auch die Angaben in anderer Einheit, sofern diese dann angegeben ist.
+
+ODER (Grenzfall)
+Der Schüler hat in Teilaufgabe 1 ein falsches Ergebnis und berechnet
+(falsches Ergebnis aus Teilaufgabe 1) : 200 richtig.
+ |
+
+===== ungleichungerfuellen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Ungleichung erfüllen
+RICHTIG
+ | Angabe von drei der Zahlen 0, 1, 2, 3, 4, 5.
+ |
+
+===== verlaufdesgraphen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K4, K6, Jahrgang 2016
+
+Verlauf des Graphen
+Teilaufgabe 1:
+RICHTIG
+ |
+Die Gerade … wahr falsch
+… verläuft durch den Koordinatenursprung ( 0 | 0).
+… hat eine positive Steigung.
+… schneidet die x - Achse im Punkt ( 5 | 0).
+
+ | Teilaufgabe 2:
+RICHTIG
+ |
+Die Gerade … wahr falsch
+… verläuft durch den Koordinatenursprung ( 0 | 0).
+… hat eine positive Steigung.
+… schneidet die y - Achse im Punkt ( 0 | n).
+
+ |
+
+===== verschiedenerechtecke · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2015; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2015
+
+Auswertung – Verschiedene Rechtecke
+Teilaufgabe 1
+RICHTIG
+ | 3
+UND
+12
+[Anm.: Bei vertauschten Werten ist die Lösung falsch.]
+ | Teilaufgabe 2
+RICHTIG
+ | H
+UND
+( 18 | 2 )
+ | Teilaufgabe 3
+RICHTIG
+ |
+wahr falsch
+Diese beiden Punkte haben vertauschte Koordinaten.
+Verbindet man jeweils diese beiden Punkte deckungs -
+gleicher Rechtecke, so verlaufen alle entstehenden
+Geraden parallel zueinander.
+Diese beiden Punkte liegen achsensymmetrisch zur
+Geraden mit der Gleichung y = x.
+
+ |
+
+===== vielebroetchen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2014
+
+Auswertung - Viele Brötchen
+RICHTIG
+ |
+Anzahl Brötchen 1 2 3 4 5
+Kosten der Brötchen 0,30 € 0,60 € 0,90 € 1,20 € 1,50 €
+
+[Anm.: Die Einheit „€“ muss nicht angegeben sein. Akzeptiert werden auch die Beschriftungen "Anzahl/ Preis" oder "Menge/ Preis". Die 1. Spalte muss komplett beschriftet sein.]
+ |
+
+===== volumenverkleinerung · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Volumenverkleinerung
+Teilaufgabe 1
+RICHTIG
+ |
+um ca. 47% um ca. 9% um ca. 19% um ca. 27%
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtige Begründung mittels einer allgemeinen Rechnung, einer Beispielrechnung oder einer eher begrifflichen Argumentation, in welcher Bezug auf die aus der Veränderung des Volumens folgende Veränderung der Kantenlänge und damit der Oberflächengröße des Würfels genommen wird. Auch eine Ausschlussargumentation kann gegeben werden.
+
+z. B.
+Allgemeine Rechnung:
+27 % Verringerung des Volumens bedeutet eine Multiplikation des Volumens mit 0,73, das entspricht einer Multiplikation der Kantenlängen mit
+
+ und damit einer Multiplikation der Oberflächengröße mit
+
+ , also einer Verringerung um 19 %.
+
+ODER
+Wenn das Volumen um 27 % verringert wird, muss die Kantenlänge des Würfels mit
+
+ 0,9 multipliziert werden und die Oberfläche mit 0,81. Also bleibt von der ursprünglichen Oberfläche noch 81 % übrig.
+
+ODER
+Volumen:
+
+Oberfläche:
+
+Also: 100 % - 81 % = 19 %
+ |
+RICHTIG
+ | ODER
+Ausschlussargumentation
+Die richtige Lösung muss kleiner als 27 % sein,da sich der Oberflächeninhalt weniger verkleinert als das Volumen (quadratisch versus kubisch- das muss aber nicht angegeben werden!)
+27 % und 47 % können daher nicht richtig sein.
+9 % ist zu klein, weil dies nur der zugehörigen Längenverringerung entspräche, denn
+
+ODER
+Beispielrechnung
+Wenn der ursprüngliche Würfel eine Kantenlänge von 10 cm hat, dann hat er ein Volumen 1000 cm3, der verkleinerte Würfel hat dann ein Volumen von 730 cm3 und damit eine Kantenlänge 9 cm (
+
+).
+Der ursprüngliche Würfel hat eine Oberflächengröße von 600 cm2, der verkleinerte hat eine Oberflächengröße von  6  81 cm2 = 486 cm2. Das entspricht einer prozentualen Verringerung von 19 % (
+
+).
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Begründungen.
+
+z. B.
+Da das Volumen um 27 % verringert wird, verringert sich auch die Oberfläche um 27 %, denn es handelt sich um denselben Würfel.
+ |
+
+===== wosinddiepunkte · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016
+
+Wo sind die Punkte?
+Teilaufgabe 1:
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2:
+RICHTIG
+ | Markierung ( 2 | 5 )
+
+y
+g
+Q ( 2 | 5)
+5
+1
+0
+x
+1 5 0
+
+[Anm.: Der Punkt muss nicht beschriftet werden]
+ |
+
+===== zahlgesucht · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Zahl gesucht
+RICHTIG
+ |
+70 7 0,07 0,7
+
+ |
+
+===== zoobesuch · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K4, K6, Jahrgang 2014
+
+Auswertung - Zoobesuch
+RICHTIG
+ |
+Weg Weg
+Zeit Zeit
+Weg Weg
+Zeit Zeit
+
+ |
+
+===== zweitegerade · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Zweite Gerade
+RICHTIG
+ | Jede Gerade, die die Vorgabe erfüllt.
+[Anm.: Diese zweite Gerade muss nicht die y-Achse schneiden und auch nicht durch den Ursprung des Koordinatensystems verlaufen.]
+ |
+
+===== ungewoehnlichermittelwert · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: keine (nur im Word-Archiv)
+
+Ungewöhnlicher Mittelwert
+Teilaufgabe 1:
+RICHTIG
+ | 11
+ | Teilaufgabe 2:
+RICHTIG
+ |
+s = Punktzahl m = Punktzahl
+schriftlicher mündlicher P = Gesamtpunktzahl
+Prüfungsteil Prüfungsteil
+Schüler 1 9 6 8
+Schüler 2 14 12 8
+
+Grenzfall
+7 oder 9 für Schüler 2
+ |

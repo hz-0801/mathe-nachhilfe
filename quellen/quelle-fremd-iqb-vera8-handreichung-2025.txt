@@ -1,0 +1,1526 @@
+Quelle: VERA-8 Mathematik 2025, Didaktische Handreichung Teil II (Modul B), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_2025_MA_ModulB_LjTPG3v.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 39 (pdfinfo)
+Lizenzvermerk: kein Vermerk
+Textfassung: pdftotext -layout (poppler); Formeln und Abbildungen fehlen, Seitenwechsel als Formfeed.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+    Vergleichsarbeiten 2025
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+ Fachdidaktische Orientierung
+   Leitidee Raum und Form
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 4
+3    DIE LEITIDEE RAUM UND FORM ................................................................................ 7
+     3.1      SCHWERPUNKTTHEMA: RÄUMLICHE GEOMETRIE ..................................................... 8
+     3.2      RÄUMLICHE GEOMETRIE IN VERA-8 .....................................................................12
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................17
+5    LITERATURVERZEICHNIS ..........................................................................................18
+6    ABBILDUNGSVERZEICHNIS .......................................................................................20
+7    TABELLENVERZEICHNIS ...........................................................................................20
+8    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................20
+
+
+
+
+Autorinnen und Autoren1 der fachdidaktischen Erläuterungen in Teil II sind Marlena Meyer,
+Antonia Rewer und Laura Wirth. Die gezeigten Testaufgaben entstanden in Kooperation von
+Lehrkräften aus zehn Bundesländern und Fachdidaktikerinnen und Fachdidaktikern unter Fe-
+derführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische Leitung)
+und des Instituts zur Qualitätsentwicklung im Bildungswesen (IQB) e. V.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit, Vollstän-
+digkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt der
+verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+
+1 Aufgrund der dynamischen Diskussion zum sprachlichen Umgang mit geschlechtlicher Vielfalt sowie
+
+
+der Positionierung des Rats für deutsche Rechtschreibung und der Schulbehörden einiger Länder ge-
+gen Schreibweisen mit Wortbinnenzeichen (z. B. Genderstern) verwenden wir Doppelnennungen (z. B.
+Schülerinnen und Schüler) oder geschlechtsneutrale Formulierungen (z. B. Lehrkräfte). Hiermit sind
+ausdrücklich Personen aller Geschlechter gemeint.
+
+                                                               2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2015) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Diese
+didaktische Handreichung zu VERA-8 verfolgt das Ziel, Sie als Lehrkräfte im Bemühen um
+einen   kompetenzorientierten   Mathematikunterricht   zu    unterstützen,   indem   einzelne
+Testaufgaben    erläutert   werden,    Informationen    zu     Nutzungsmöglichkeiten     der
+Vergleichsarbeiten im Unterricht gegeben werden sowie auf förderdiagnostische Materialien
+und auf entsprechende Literatur hingewiesen wird. Sie können daher besonders von Ihnen im
+Anschluss an die Vergleichsarbeiten genutzt werden, um Schülerinnen und Schülern
+spezifische Lernangebote zu machen. Es wird zunächst der Aufbau der Bildungsstandards
+vorgestellt. Da sich die Entwicklung der VERA-8 Aufgaben für das Jahr 2025 an den
+Bildungsstandards aus dem Jahr 2004 orientiert und eine Umstellung in VERA-8 auf die
+überarbeiteten Bildungsstandards aus dem Jahr 2022 erst zu einem späteren Zeitpunkt erfolgt,
+bezieht sich auch diese Handreichung auf die Bildungsstandards aus dem Jahr 2004.
+Anschließend wird einer der Schwerpunkte, die in den diesjährigen Ergänzungsmodulen zur
+Wahl stehen, näher erläutert: die Leitidee Raum und Form mit einem Fokus auf Räumliche
+Geometrie. Es werden insbesondere zu Aspekten des Schwerpunktes fachdidaktische
+Herausforderungen geschildert und Anregungen vorgestellt, wie mit diesen in der
+unterrichtlichen Praxis im Fach Mathematik umgegangen werden kann. In dem dazugehörigen
+Kapitel werden außerdem Aufgaben aus VERA-8 präsentiert, die sich der diesjährigen
+Schwerpunktsetzung zuordnen lassen. Diese ausgewählten Beispiele zeigen exemplarisch,
+wie bestimmte allgemeine Kompetenzen gezielt durch eine Testaufgabe geprüft werden
+können. Darüber hinaus werden Hinweise gegeben, inwiefern diese Aufgaben auch im
+Unterricht als Lerngelegenheit zur Förderung der Kompetenzen eingesetzt werden kann.
+
+
+
+
+                                             3
+2 Bildungsstandards2 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/Franzö-
+sisch) ein3. Eine grundlegende Wende stand bevor, da die Qualität von schulischer Arbeit
+durch nationale Bildungsstandards, welche verbindliche Anforderungen an das Lehren und
+Lernen in der Schule formulieren, gesichert und gesteigert werden soll (Klieme et al., 2003):
+Während zuvor der Input im Vordergrund stand, also Inhalte und Themen, sollte nun auch der
+Output stärkere Beachtung finden, also die konkreten Kompetenzen, Wissensstrukturen,
+Werte, über die Schülerinnen und Schüler nach dem Unterricht verfügen sollen. Inhalte sollten
+mit der Entwicklung von Persönlichkeitsmerkmalen verknüpft werden, die die Basis für ein
+lebenslanges Lernen legen und so persönliche Weiterentwicklung und gesellschaftliche
+Teilhabe ermöglichen (Klieme et al., 2003). Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+          „Mathematische Grundbildung umfasst die Fähigkeit einer Person zum mathe-
+          matischen Argumentieren sowie Mathematik in einer Vielzahl von Alltagskontexten
+          einzusetzen, in denen Problemstellungen mathematisch formuliert, bearbeitet und
+          interpretiert werden. Dies beinhaltet mathematische Konzepte, Fakten und Methoden,
+          um Phänomene zu beschreiben, zu erklären und vorauszusagen. Mathematik-
+          kompetenz hilft Personen zu erkennen, welche Rolle Mathematik in der Welt spielt, um
+          fundierte Urteile abzugeben sowie gut begründete Entscheidungen zu treffen, so wie
+          sie von konstruktiven, engagierten und reflektierten Bürgerinnen und Bürgern des
+          21. Jahrhunderts benötigt werden“ (OECD, 2023, Abschnitt Übersicht, Absatz 3, eigene
+          Übersetzung).
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schülerinnen und
+Schüler bis zu einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben
+haben sollen (KMK, 2004, 2005). Dabei sollte ein allgemeinbildender Mathematikunterricht
+Schülerinnen und Schülern die folgenden drei Grunderfahrungen ermöglichen (Winter, 1995,
+S. 37):
+
+
+
+
+2 Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss weiterent-
+
+
+wickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil II bezieht
+sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind, da sich die
+Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+3 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                   4
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus
+       Natur, Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu
+       verstehen,
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+       Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+       eigener Art kennen zu lernen und zu begreifen,
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die Mathe-
+       matik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Handlungsrahmen bedeutet insbesondere, dass im Vorder-
+grund die verbindliche Einhaltung von konsensuell ausgehandelten Zielvorgaben steht, wobei
+den Schulen dabei Freiraum für die innerschulische Lernplanung gelassen wird, um diese
+Ziele zu erreichen. Es werden in diesem Modell zunächst die folgenden drei Dimensionen
+unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Leitideen
+   3. Anforderungsbereiche
+
+
+
+                 Anforderungsbereich III
+
+
+
+                 Anforderungsbereich II
+
+
+
+                 Anforderungsbereich I
+
+                                                                 Leitideen
+                                           L5   Daten und Zufall
+                                         L4     Funktionaler Zusammenhang
+                                       L3       Raum und Form
+                                     L2         Messen
+                                   L1           Zahl
+     K1   K2   K3   K4   K5   K6
+
+                            Mathematisch kommunizieren
+                      Mit symbolischen, formalen und technischen
+                      Elementen der Mathematik umgehen
+                  Mathematische Darstellungen verwenden
+             Mathematisch modellieren                      Allgemeine
+        Probleme mathematisch lösen                        mathematische
+                                                           Kompetenzen
+    Mathematisch argumentieren
+
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+                                                   5
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den Kompeten-
+zen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“ (Leiss & Blum,
+2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2), Mathematisch modellieren (K3), Mathematische Darstel-
+lungen verwenden (K4), Mit symbolischen, formalen und technischen Elementen der Mathe-
+matik umgehen (K5) und Mathematisch kommunizieren (K6). Diese Allgemeinen mathemati-
+schen Kompetenzen sollen differenziert betrachtet werden, auch wenn sie üblicherweise im
+Verbund erworben werden und häufig auch gemeinsam angewendet werden müssen. Insbe-
+sondere werden bei der Bearbeitung von komplexeren mathematischen Aufgaben oft mehrere
+dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die Absicht verbunden,
+spezifische Eigenschaften und Anforderungen von Aufgaben im Mathematikunterricht
+transparent zu machen, was eine differenziertere Planung des Mathematikunterrichts ermög-
+licht. So kann ein mathematischer Inhalt den Schülerinnen und Schülern entlang verschiede-
+ner durchzuführender mathematischer Tätigkeiten zugänglich gemacht werden. Inhalte
+können durch die multiperspektivische und wiederholte Betrachtung eher in ihrer Gänze
+verstanden werden und mathematische Kompetenzen anhand unterschiedlichster Erschei-
+nungen über den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+Leitideen eine zweite Dimension des Modells. Die fünf Leitideen sind Zahl (L1), Messen (L2),
+Raum und Form (L3), Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). In den
+Bildungsstandards wird zu den Leitideen erläutert:
+
+       „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durch-
+       zieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezoge-
+       nen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem
+       Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im
+       inhaltlichen Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im Lern-
+prozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben es,
+bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen. Auch soll durch
+die Betonung von Leitideen deutlich werden, dass sich aus mathematischen Phänomenen wie
+dem Zählen, dem Messen oder dem Umgang mit Zufällen mathematische Sachgebiete
+herausgebildet haben (Greefrath 2018, Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische Kompe-
+tenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+                                                6
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine Kompe-
+tenzen, die es Schülerinnen und Schülern ermöglichen, Zusammenhänge herzustellen und
+Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen,
+die es Schülerinnen und Schülern abverlangen, zu verallgemeinern und zu reflektieren.
+
+Im Folgenden wird exemplarisch ein Aspekt der Leitidee Raum und Form herausgegriffen und
+erläutert. Eine Orientierung des Mathematikunterrichts an den Allgemeinen mathematischen
+Kompetenzen – also der Prozessdimension des Kompetenzmodells – ist eine maßgebliche
+Errungenschaft der Bildungsstandards, die jedoch auch bei exemplarischer Betrachtung ein-
+zelner Leitideen nicht in den Hintergrund geraten sollte.
+
+
+
+3 Die Leitidee Raum und Form
+
+Für die Leitidee Raum und Form werden die inhaltsbezogenen mathematischen Kompetenzen
+in den Bildungsstandards für den mittleren Schulabschluss folgendermaßen konkretisiert
+(KMK, 2004, S. 11):
+
+Die Schülerinnen und Schüler
+   •   erkennen und beschreiben geometrische Strukturen in der Umwelt,
+   •   operieren gedanklich mit Strecken, Flächen und Körpern,
+   •   stellen geometrische Figuren im kartesischen Koordinatensystem dar,
+   •   stellen Körper (z.B. als Netz, Schrägbild oder Modell) dar und erkennen Körper aus
+       ihren entsprechenden Darstellungen,
+   •   analysieren und klassifizieren geometrische Objekte der Ebene und des Raumes,
+   •   beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte
+       (wie Symmetrie, Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rah-
+       men des Problemlösens zur Analyse von Sachzusammenhängen,
+   •   wenden Sätze der ebenen Geometrie bei Konstruktionen, Berechnungen und Bewei-
+       sen an, insbesondere den Satz des Pythagoras und den Satz des Thales,
+   •   zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener
+       Hilfsmittel wie Zirkel, Lineal, Geodreieck oder dynamische Geometriesoftware,
+   •   untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben
+       und formulieren diesbezüglich Aussagen,
+   •   setzen geeignete Hilfsmittel beim explorativen Arbeiten und Problemlösen ein.
+In den Bildungsstandards Mathematik für den Hauptschulabschluss finden sich viele der
+genannten Aspekte wieder, es wird jedoch weniger der Fokus auf Problemlöse- und Beweis-
+prozesse gelegt (KMK, 2004). Ebenso finden fachliche Analysen und exploratives
+
+                                               7
+Arbeiten dort keine direkte Erwähnung, obgleich sich empirisch zeigt, dass konstruktivistische,
+explorative Ansätze besonders für leistungsschwächere Schülerinnen und Schüler wirksam
+sind (u.a. Reiss et al., 2006). Besonders hervorgehoben werden in beiden Versionen der
+Bildungsstandards das Analysieren und Anfertigen verschiedener Darstellungen von Körpern.
+In diesem Rahmen sollen die Schülerinnen und Schüler auch gedanklich mit Körpern operie-
+ren (z.B. gedankliche Rotationen von Körpern durchführen) und Körper aus verschiedenen
+Darstellungen (z.B. Schrägbild oder Körpernetz) erkennen können.
+
+In den folgenden zwei Unterkapiteln wird zunächst das Schwerpunktthema der diesjährigen
+VERA-8 Erhebung Räumliche Geometrie näher betrachtet. Schülerinnen und Schüler werden
+in ihrem alltäglichen Leben ständig mit der räumlichen Geometrie konfrontiert, da sich unser
+Leben in einem dreidimensionalen Raum abspielt. Um sich in der Umwelt zu orientieren oder
+sich selbst in der Umwelt wahrzunehmen, ist ein räumliches Vorstellungsvermögen notwendig.
+Die Förderung eines solchen räumlichen Vorstellungsvermögens ist ein Ziel des Geometrie-
+unterrichts in der Schule (Weigand, 2018). In den folgenden Unterkapiteln wird zunächst dar-
+gestellt, wie Inhalte der räumlichen Geometrie im Unterricht thematisiert werden können. Im
+Anschluss daran werden Beispiele zu VERA-8 Aufgaben aus dem Bereich der räumlichen
+Geometrie vorgestellt. Die Aufgaben werden auf die benötigten inhaltlichen Fähigkeiten aus
+dem Bereich Räumliche Geometrie untersucht sowie die erforderlichen prozessbezogenen
+Kompetenzen beschrieben.
+
+
+3.1   Schwerpunktthema: Räumliche Geometrie
+Der Mathematikunterricht soll drei Grunderfahrungen (Winter, 1995) ermöglichen (vgl. Kapi-
+tel 2) und somit zur Bildung der Schülerinnen und Schüler beitragen (KMK, 2004). Zur Ermög-
+lichung dieser Grunderfahrungen kann auch die Geometrie beitragen: So soll beispielsweise
+im Rahmen der ersten Grunderfahrungen die Umwelt mithilfe der Geometrie erschlossen
+werden (Weigand, 2018). Das heißt: Die uns umgebende Welt soll unter einer geometrischen
+Perspektive gesehen, geometrische Figuren und Körper in unserer Umwelt (z.B. in Verpackun-
+gen) erkannt und bezüglich ihrer Funktion und Bedeutung analysiert werden. Das Konstruieren
+mit Zirkel und Lineal bietet Einblicke in die deduktive Welt der Mathematik und das Erfahren
+typischer mathematischer Arbeitsweisen, womit die zweite Grunderfahrung ermöglicht wird.
+Im Rahmen der dritten Grunderfahrung soll das Problemlösen mit Geometrie erlernt werden,
+welches als eine der Grunderfahrungen eines allgemeinbildenden Mathematikunterrichts
+zählt. Für das Problemlösen stellt die Geometrie ein geeignetes Übungsfeld dar, da viele
+geometrische Probleme in Modellen oder Zeichnungen veranschaulicht werden können und
+Handlungen (beispielsweise mit Zirkel und Lineal) verständlich nachzuvollziehen sind
+(Weigand, 2018).
+
+
+
+                                              8
+Da das alltägliche Leben im dreidimensionalen Raum abläuft, kommt der Thematisierung der
+räumlichen Geometrie im Schulunterricht eine besondere Bedeutung zu (Weigand, 2018).
+
+Sollen raumgeometrische Objekte auf einem Zeichenblatt oder einem Computerbildschirm
+dargestellt werden, so ist die Projektion der dreidimensionalen Objekte in die Ebene erforder-
+lich (Weigand, 2018). Um auch im Unterricht mit raumgeometrischen Objekten zu arbeiten,
+kann dynamische Geometriesoftware für die Raumgeometrie verwendet werden. Ein Beispiel
+dafür ist der 3D-Modus in GeoGebra. Eine weitere Möglichkeit, Modelle von raumgeometri-
+schen Objekten im Mathematikunterricht zu erzeugen, ist die 3D-Druck-Technologie. Mithilfe
+des 3D-Drucks können individuelle Anschauungsobjekte durch Lehrkräfte oder auch selbst-
+ständig durch Schülerinnen und Schüler erzeugt werden. Auf diese Weise kann auch das for-
+schend-entdeckende Lernen von Schülerinnen und Schülern gefördert werden (Witzke &
+Hoffart, 2018). Zudem kann die Bedeutung und Erstellung von Modellen von realweltlichen
+Objekten thematisiert werden. An dieser Stelle lässt sich somit eine Parallele zwischen der
+Arbeit mit der 3D-Druck Technologie bzw. dem Entwicklungsprozess von Modellen für den 3D-
+Druck und dem Mathematischen Modellieren (K3) ziehen.
+
+Modelle sind auch bei der Thematisierung von Körpern im Mathematikunterricht von großer
+Bedeutung. Modelle dienen, beispielsweise bei Berechnungen, als Anschauungshilfen und
+können das räumliche Vorstellungsvermögen unterstützen. Es gibt verschiedene Modelle
+raumgeometrischer Objekte, denen jeweils unterschiedliche didaktische Bedeutungen zuge-
+schrieben werden (Roth & Wittmann, 2018). Zum Einstieg in das Thema Körper bieten sich
+sogenannte Kompaktmodelle bzw. Vollmodelle an. Diese stellen Prototypen der Körper dar
+und bieten sich zum Beschreiben der Eigenschaften eines Körpers an (zum Beispiel, um die
+Anzahl der Ecken eines Quaders zu beschreiben). So können Alltagsgegenstände im Schul-
+unterricht als Vollmodelle dienen. Um einen Einblick in das Innere eines Körpers zu erhalten
+oder die Kanten eines Körpers stärker zu fokussieren, bietet sich die Arbeit mit Kantenmodel-
+len an. Bei diesen fehlen die Flächen des Körpers. Ein Kantenmodell kann aus Holzstäbchen
+selbst angefertigt werden. Zudem bietet die Arbeit mit Flächenmodellen die Möglichkeit, Kör-
+pernetze darzustellen. Diese können ebenfalls eigenständig, beispielsweise aus Papier, an-
+gefertigt werden. Des Weiteren eignen sich Körpernetze, um den Zusammenhang zwischen
+räumlicher und ebener Geometrie herzustellen, indem die Oberfläche der Körper in die Ebene
+abgewickelt wird. Da Gegenstände der realen Umwelt zunächst als Körper erfasst werden und
+man erst in einem zweiten Schritt, zum Beispiel durch Betrachtung der Oberfläche eines Kör-
+pers oder von bildlichen Darstellungen, zur Zeichenebene gelangt ist, eine parallele Betrach-
+tung von ebenen Figuren und Körpern sinnvoll (Roth & Wittmann, 2018). Eine Gegenüberstel-
+lung der verschiedenen Modelle raumgeometrischer Objekte ist in Tabelle 1 anhand eines
+Würfels beispielhaft dargestellt.
+
+
+                                              9
+Vollmodell                      Kantenmodell                  Flächenmodell
+
+
+
+
+Tabelle 1: Verschiedene Modelle eines Würfels
+
+
+Sind die Schülerinnen und Schüler bereits ein wenig mit Körpern vertraut, können Körpernetze
+oder in der Ebene dargestellte Vollmodelle auch zur Schulung des räumlichen Vorstellungs-
+vermögens oder im Rahmen der Kopfgeometrie eingesetzt werden (Roth & Wittmann, 2018),
+um somit das gedankliche Operieren mit Körpern zu fördern. Unter dem räumlichen Vorstel-
+lungsvermögen wird die Fähigkeit verstanden, sich Objekte vorzustellen und in Gedanken
+damit zu operieren (z.B. Zusammenfalten eines Würfelnetzes oder Drehen eines Würfels).
+Voraussetzung dafür ist, dass Objekte zuvor visuell wahrgenommen und Vorstellungsbilder
+aufgebaut werden. Schülerinnen und Schüler können nur dann in Gedanken mit Objekten ope-
+rieren, wenn sie diese bereits visuell wahrgenommen und im visuellen Gedächtnis gespeichert
+haben. Indem sichtbare Objekte wahrgenommen werden, also beispielsweise (wieder) erkannt
+und Gemeinsamkeiten und Unterschiede verschiedener Objekte erfasst werden, können sol-
+che Vorstellungsbilder aufgebaut werden. Die Fähigkeit des räumlichen Vorstellungsvermö-
+gens besteht aus den fünf Komponenten: Räumliche Wahrnehmung, Veranschaulichung,
+Mentale Rotation, Räumliche Beziehungen, Räumliche Orientierung. Diese Komponenten be-
+schreiben verschiedene Fähigkeiten des räumlichen Vorstellungsvermögens, zum Beispiel die
+Fähigkeit, sich gedanklich Aktivitäten wie das Falten oder Schneiden von räumlichen Objekten
+oder Objektteilen vorzustellen (Veranschaulichung) oder die Fähigkeit, sich Rotationen von
+Objekten vorzustellen (Mentale Rotation) (Maier, 1999). Ein Beispiel für eine Diagnoseaufgabe
+zur Komponente Mentale Rotation ist in Abbildung 2 zu sehen. Eine ausführliche Beschreibung
+der Komponenten sowie weitere Diagnoseaufgaben werden in Maier, 1999 und Roth und Witt-
+mann, 2018 beschrieben.
+
+
+
+
+                                                10
+Abbildung 2: Diagnoseaufgabe zur Komponente Mentale Rotation (Roth & Wittmann, 2018)
+
+
+
+Um das räumliche Vorstellungsvermögen zu fördern, sollte vor allem die Vorstellung von Be-
+wegungen, wie zum Beispiel Rotationen, geschult werden. Dies kann unter anderem mit der
+Kopfgeometrie unterstützt werden (Roth & Wittmann, 2018). Mithilfe der Kopfgeometrie wer-
+den geometrische Probleme ohne die Nutzung von Hilfsmitteln im Kopf gelöst. Dadurch kann
+neben der Entwicklung des räumlichen Vorstellungsvermögens auch Sicherheit im Gebrauch
+der Fachsprache gewonnen werden, Grundvorstellungen zu geometrischen Begriffen können
+aufgebaut und angewendet sowie geometrische Grundbegriffe gesichert und vertieft werden
+(Roth & Wittmann, 2018). Ein Beispiel für eine Aufgabe zur Kopfgeometrie ist in Abbildung 3
+zu sehen.
+
+
+
+
+Abbildung 3: Beispielaufgabe zur Kopfgeometrie (Roth & Wittmann, 2018, S. 144)
+
+
+Für die Arbeit mit Aufgaben zur Kopfgeometrie werden drei Phasen erläutert (Senftleben,
+1996; Roth und Wittmann, 2018): In der ersten Phase verbalisiert die Lehrkraft eine Aufgaben-
+stellung. In der zweiten Phase wird im Kopf mit Objekten operiert. In der dritten Phase werden
+Ergebnisse präsentiert und diskutiert. Zur Unterstützung ist es möglich, zunächst Hilfsmittel
+einzusetzen (Senftleben, 1996). So kann die Lehrkraft in der ersten Phase ein Bild oder ein
+                                              11
+konkretes Modell eines geometrischen Objekts zur Verdeutlichung der Aufgabenstellung zu
+Hilfe nehmen. In der dritten Phase können die Schülerinnen und Schüler bei der Präsentation
+der Ergebnisse ihr Ergebnis aufzeichnen oder zum Beispiel aus Papier oder Knete nachbauen.
+
+
+3.2     Räumliche Geometrie in VERA-8
+Im folgenden Abschnitt werden drei Beispielaufgaben zur räumlichen Geometrie dargestellt.
+Zudem wird erläutert, auf welche Allgemeinen mathematischen Kompetenzen der Bildungs-
+standards diese jeweils abzielen und wie diese Aufgaben vertiefend im Unterricht genutzt wer-
+den können. Die erste Aufgabe „Ecken und Kanten“ fokussiert das Analysieren von geometri-
+schen Objekten des Raumes. In der zweiten Aufgabe „Würfelnetz“ steht das Erkennen von
+Körpern aus entsprechenden Darstellungen (hier aus dem Netz eines Körpers) im Vorder-
+grund. Die dritte Aufgabe „Lage der Würfel“ thematisiert das gedankliche Operieren mit Kör-
+pern.
+
+Im Folgenden ist die Aufgabe „Ecken und Kanten“ dargestellt.
+
+Beispielaufgabe 1: „Ecken und Kanten“
+
+Ergänze die Tabelle.
+                                        Gesamtzahl der   Gesamtzahl der
+                                        Ecken            Kanten
+Würfel
+
+
+
+
+                                                8
+
+
+
+
+Prisma mit sechseckiger Grundfläche
+
+
+
+
+                                                                18
+
+
+
+
+Die Aufgabe „Ecken und Kanten“ spricht die Kompetenz Mathematische Darstellungen ver-
+wenden (K4) an: Die Schülerinnen und Schüler bestimmen mithilfe von perspektivischen
+Zeichnungen der Körper Würfel und Prisma die Anzahl der Ecken bzw. Kanten dieser Körper.
+Fehler bei der Bearbeitung der Aufgabe können sich dadurch ergeben, wenn Schülerinnen
+
+                                                12
+und Schüler Schwierigkeiten mit den Begriffen Ecken und Kanten haben. Um die Begriffe
+einführend zu thematisieren, können diese anhand von haptischem Material veranschaulicht
+werden.
+
+Die Aufgabe kann im Unterricht dazu genutzt werden, um mit Schülerinnen und Schülern
+perspektivische Darstellungen und verschiedene Arten von Projektionen zu thematisieren.
+Lernende können an perspektivische Darstellungen herangeführt werden, indem sie zunächst
+vorgefertigte Zeichnungen vervollständigen. Zum tieferen Verständnis kann es hilfreich sein,
+wenn die eigentlich nicht sichtbaren Kanten, welche in der Aufgabe „Ecken und Kanten“ ge-
+strichelt dargestellt sind, zunächst gar nicht vorzugeben, sondern diese von den Schülerinnen
+und Schülern selbst einzeichnen zu lassen. Zudem kann die Aufgabe im Unterricht dahinge-
+hend erweitert werden, dass die Tabelle für weitere Körper fortgeführt wird. Auch das Zeichnen
+eines bestimmten Körpers anhand einer vorgegebenen Anzahl von Ecken und/ oder Kanten
+ist denkbar. So können Schülerinnen und Schüler beispielsweise dazu aufgefordert werden,
+ein Prisma mit 6 Ecken und 9 Kanten zu zeichnen, was zusätzlich Problemlösefähigkeiten
+erfordert. Zudem können solche perspektivischen Darstellungen im Unterricht genutzt werden,
+um mit den Schülerinnen und Schülern Kantenmodelle nachzubauen (siehe auch Kapitel 3.1).
+Dazu können beispielsweise Strohhalme, Holzstäbchen oder Ähnliches als Kanten dienen, die
+mit Pfeifenputzern oder Knete verbunden werden. Weiterführend können die konstruierten Mo-
+delle dann aus verschiedenen Perspektiven (zum Beispiel aus der Vorderansicht, der Drauf-
+sicht oder als Schrägbild) auf ein Zeichenblatt übertragen werden und so verschiedene per-
+spektivische Darstellungen thematisiert werden.
+
+Die Beispielaufgabe 2 „Würfelnetz“ thematisiert Körpernetze, indem die Schülerinnen und
+Schüler zum Vervollständigen eines Würfelnetzes aufgefordert werden.
+
+Beispielaufgabe 2: „Würfelnetz“
+
+
+Paul hat begonnen, ein Würfelnetz zu zeichnen. Er muss noch ein einzelnes Quadrat
+an das Netz zeichnen, um ein intaktes Würfelnetz zu erhalten.
+
+
+
+
+Kreuze alle Kanten an, an denen Paul das Quadrat zeichnen könnte, um ein
+Würfelnetz zu erhalten.
+
+Zur Lösung der Aufgabe „Würfelnetz“ ist die Kompetenz Mathematische Darstellungen ver-
+wenden (K4) erforderlich, da Schülerinnen und Schüler beurteilen, wie das Netz zu einem
+Würfelnetz vervollständigt werden kann. Zudem wird die Kompetenz Probleme mathematisch
+                                                13
+lösen (K2) benötigt, da es sich um ein Problem handelt, welches es strategisch zu lösen gilt,
+beispielsweise mithilfe eines zeichnerischen Ansatzes oder einer gedanklichen Operation. Die
+Schülerinnen und Schüler können zum Finden der verschiedenen Lösungsmöglichkeiten Heu-
+rismen (z.B. systematisches Probieren, Skizzen erstellen) verwenden.
+
+Eine Herausforderung bei dieser Aufgabe ist der erforderliche gedankliche Wechsel zwischen
+einer Darstellung der Oberfläche eines Körpers und seiner räumlichen Gestalt. Es ist anzu-
+nehmen, dass den Lernenden dieser Wechsel leichter zugänglich gemacht werden kann, in-
+dem sie ihn auch handelnd erfahren. Dazu kann beispielsweise mithilfe dynamischer Geomet-
+riesoftware der Übergang vom Netz eines Körpers zu seiner räumlichen Gestalt visualisiert
+werden. Mithilfe von folgendem GeoGebra-Applet können verschiedene Netze eines Würfels
+betrachtet und zu einem Würfel zusammengeklappt werden. Zudem können der Würfel und
+das Würfelnetz gedreht und rotiert und so von verschiedenen Seiten betrachtet werden:
+https://www.geogebra.org/m/teCkgD2S
+
+Solche Körpernetze können im 3D Grafikrechner von GeoGebra (mit der Funktion „Netz“) auch
+zu anderen Körpern selbst erstellt werden. Durch die Möglichkeit, in GeoGebra verschiedene
+geometrische Köper zu erstellen und diese zu drehen und rotieren, kann das räumliche Vor-
+stellungsvermögen unterstützt werden.
+
+Ebenso können Schülerinnen und Schüler auch eigenständig entsprechende Aufgaben formu-
+lieren, indem sie verschiedene Körpernetze zeichnen und sich diese gegenseitig vorlegen. Die
+Lernenden erhalten durch dieses Vorgehen nicht nur eine Lösungsstrategie für dieses Prob-
+lem, sondern können das Verfahren des Bastelns eines Modells, entsprechend angeleitet und
+unterrichtlich gesichert, zur Überprüfung von Annahmen oder zur Lösung von Problemen auch
+anderweitig anwenden.
+
+Die nächste Aufgabe fokussiert das Analysieren geometrischer Objekte des Raumes sowie
+das gedankliche Operieren mit Würfeln. Im Folgenden ist die Beispielaufgabe 3 „Lage der
+Würfel“ dargestellt.
+
+
+
+
+                                             14
+Beispielaufgabe 3: „Lage der Würfel“
+
+
+Die Abbildung zeigt vier Spielwürfel, die alle in der gleichen Weise beschriftet sind.
+Die Augenzahlen gegenüberliegender Seiten ergänzen sich immer zu 7. Daher liegen
+jeweils die Augenzahlen 1 und 6 einander räumlich gegenüber, die Augenzahlen 2
+und 5 sowie 3 und 4 ebenfalls.
+
+
+
+
+Diejenigen Seitenflächen dieser Spielwürfel, die sich vollständig berühren, haben
+immer die gleiche Augenzahl. Einige Augenzahlen fehlen in der Abbildung.
+Gib an, welche Augenzahl auf der grauen Seitenfläche fehlt.
+
+   Auf der grauen Seitenfläche fehlt die Augenzahl              .
+Schreibe die einzelnen Schritte auf, wie du zu deiner Lösung gekommen bist.
+
+
+
+
+Für die Aufgabe „Lage der Würfel“ ist die Kompetenz Probleme mathematisch lösen (K2) er-
+forderlich, da das dargestellte Problem ein strategiegestütztes Vorgehen erfordert. Die zu be-
+rücksichtigenden Zusammenhänge zwischen der dargestellten räumlichen Anordnung der vier
+Würfel und den gegebenen Bedingungen für die Augenzahlen sind dabei die entscheidende
+Hürde. Zudem erfordert die Aufgabe die Kompetenz Mathematische Darstellungen verwenden
+(K4), da mit der Darstellung mehrerer Würfel gearbeitet wird. Zur Lösung der Aufgabe können
+Heurismen verwendet werden. So kann die für die graue Seite passende Augenzahl beispiels-
+weise durch Vorwärtsarbeiten gefunden werden, indem sich die Schülerinnen und Schüler
+Schritt für Schritt die fehlenden Augenzahlen auf den Würfelseiten überlegen und sich so dem
+Ziel, der Augenzahl auf der grauen Würfelseite, nähern. Dabei können sich die Schülerinnen
+und Schüler folgende Fragen stellen (Kuzle & Bruder, 2016): „Was ist gegeben? Was kann ich
+aus dem folgern, was ich schon weiß?“ Auch durch systematisches Probieren kann die
+gesuchte Augenzahl gefunden werden, indem die sichtbaren weißen Würfelseiten vervollstän-
+digt, mögliche Augenzahlen der grauen Seitenfläche ausprobiert und die in der Aufgabenstel-
+lung geforderten Bedingungen geprüft werden. Als weitere Unterstützung können Lernenden
+
+                                                     15
+Spielwürfel zur Verfügung gestellt werden, sodass diese wie in der Aufgabe dargestellt ange-
+ordnet werden können und die fehlenden Augenzahlen erkundet werden können. So können
+die Schülerinnen und Schüler beispielsweise auch entdecken, dass die gesuchte Augenzahl
+sowohl eine eins als auch eine sechs sein kann.
+
+Wird die Aufgabe ohne haptisches Material bearbeitet, so erfordert die Aufgabe räumliches
+Vorstellungsvermögen, da es notwendig ist, sich die Rückseiten der Würfel beziehungsweise
+die Augenzahlen auf den sich berührenden Seiten vorzustellen. Wie bereits in Kapitel 3.1 be-
+schrieben, kann das räumliche Vorstellungsvermögen mithilfe der Kopfgeometrie unterstützt
+werden. Eine weitere Beispielaufgabe zur Kopfgeometrie, welche ebenfalls die Seitenflächen
+eines Quaders thematisiert, zeigt Abbildung 4.
+
+
+
+
+Abbildung 4: Beispielaufgabe zur Kopfgeometrie (Roth & Wittmann, 2018, S. 145)
+
+
+Zusammenfassend gibt es beim Arbeiten mit der räumlichen Geometrie also eine Vielzahl an
+Möglichkeiten, wie mit dreidimensionalen Objekten gearbeitet werden kann. Um das räumliche
+Vorstellungsvermögen zu schulen und das gedankliche Operieren mit Körpern zu ermögli-
+chen, ist es hilfreich, mit Modellen, Netzen, Schrägbildern oder Ähnlichem und haptischem
+Material zu arbeiten. In diesem Rahmen können auch Zusammenhänge zwischen der ebenen
+und räumlichen Geometrie thematisiert und der Wechsel zwischen diesen erleichtert werden.
+
+
+
+
+                                              16
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Raum und Form ist dies der Schwerpunkt Räumliche Geometrie, im
+Bereich der Leitidee Funktionaler Zusammenhang der Schwerpunkt Proportionale und anti-
+proportionale Zuordnungen. Aus beiden Themen wurden zentrale Inhalte betrachtet, welche
+durch die Bildungsstandards vorgegeben werden. Für weitere Anregungen für die Unterrichts-
+praxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der didaktischen Hand-
+reichungen verwiesen. Zudem wurde aufgezeigt, welche Aufgabenmerkmale mit welchen all-
+gemeinen mathematischen Kompetenzen einhergehen. Für weitere Beispiele und Anregun-
+gen stellt die in den vorangegangenen Kapiteln genannte Literatur eine gute Ausgangslage
+dar.
+
+
+
+
+                                           17
+5 Literaturverzeichnis
+
+Blum, W. (2010). Einführung. In W. Blum, C. Drüke-Noe, R. Hartung, & O. Köller (Hrsg.), Bil-
+
+       dungsstandards Mathematik: Konkret. Sekundarstufe I: Aufgabenbeispiele, Unter-
+
+       richtsanregungen, Fortbildungsideen. Cornelsen Scriptor.
+
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht: Didaktische
+
+       Perspektiven zum Sachrechnen in der Sekundarstufe. Springer.
+
+       https://doi.org/10.1007/978-3-662-57680-9
+
+Klieme, Eckhard; Avenarius, Hermann; Blum, Werner; Döbrich, Peter; Gruber, Hans; Prenzel,
+
+       Manfred; Reiss, Kristina; Riquarts, Kurt; Rost, Jürgen; Tenorth, Heinz-Elmar; Vollmer,
+
+       Helmut J.; Bundesministerium für Bildung und Forschung. (2003). Zur Entwicklung
+
+       nationaler Bildungsstandards. Eine Expertise. Bonn, Berlin.
+
+KMK. (2004). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss. Be-
+
+       schluss vom 4.12.2003. Wolters Kluwer.
+
+KMK. (2005). Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Be-
+
+       schluss vom 15.10.2004. Wolters Kluwer.
+
+KMK. (2015). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife. Be-
+
+       schluss der Kultusministerkonferenz vom 18.10.2012. Wolters Kluwer.
+
+Kuzle, A., & Bruder, R. (2016). Probleme lösen lernen im Themenfeld Geometrie. mathematik
+
+       lehren, 196, 2–9.
+
+Leiss, D., & Blum, W. (2010). Beschreibung zentraler Kompetenzen. In W. Blum, C. Drüke-
+
+       Noe, R. Hartung, & O. Köller (Hrsg.), Bildungsstandards Mathematik: Konkret. Sekun-
+
+       darstufe I: Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungsideen. Cornelsen
+
+       Scriptor.
+
+Maier, P. H. (1999): Raumgeometrie mit Raumvorstellung – Thesen zur Neustrukturierung
+
+       des Geometrieunterrichts. Mathematikunterricht, 45(3), 3-18.
+
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading,
+
+       Science, Problem Solving and Financial Literacy. OECD Publishing.
+
+
+
+                                             18
+Reiss, K., Heinze, A., Kuntze, S., Kessler, S., Rudolph-Albert, F., & Renkl, A. (2006). Mathe-
+
+       matiklernen mit heuristischen Lösungsbeispielen. In M. Prenzel, L. Allolio-Näcke, &
+
+       Deutsche Forschungsgemeinschaft (Hrsg.), Untersuchungen zur Bildungsqualität von
+
+       Schule: Abschlussbericht des DFG-Schwerpunktprogramms (S. 194–208). Waxmann.
+
+Roth, J., & Wittmann, G. (2018). Ebene Figuren und Körper. In H.-G. Weigand, A. Filler, R.
+
+       Hölzl, S. Kuntze, M. Ludwig, J. Roth, B. Schmidt-Thieme, & G. Wittmann, Didaktik der
+
+       Geometrie für die Sekundarstufe I (S. 107–148). Springer. https://doi.org/10.1007/978-
+
+       3-662-56217-8
+
+Senftleben, H.-G. (1996). Erkundungen zur Kopfgeometrie (unter besonderer Beachtung der
+
+       Einbeziehung kopfgeometrischer Aufgaben in den Mathematikunterricht der Grund-
+
+       schule). Journal für Mathematik-Didaktik, 17(1), 49–72.
+
+       https://doi.org/10.1007/BF03339309
+
+Weigand, H.-G. (2018). Ziele des Geometrieunterrichts. In H.-G. Weigand, A. Filler, R. Hölzl,
+
+       S. Kuntze, M. Ludwig, J. Roth, B. Schmidt-Thieme, & G. Wittmann, Didaktik der Geo-
+
+       metrie für die Sekundarstufe I (S. 1–20). Springer. https://doi.org/10.1007/978-3-662-
+
+       56217-8
+
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+
+       für Didaktik der Mathematik, 21(61), 37–46. https://doi.org/10.1515/dmvm-1996-0214
+
+Witzke, I., & Hoffart, E. (2018). 3D-Drucker: Eine Idee für den Mathematikunterricht? Mathe-
+
+       matikdidaktische Perspektiven auf ein neues Medium für den Unterricht. Beiträge zum
+
+       Mathematikunterricht 2018, 2015–2018.
+
+
+
+
+                                              19
+6 Abbildungsverzeichnis
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards ......................................................... 5
+
+Abbildung 2: Diagnoseaufgabe zur Komponente Mentale Rotation (Roth & Wittmann, 2018)
+.............................................................................................................................................11
+
+Abbildung 3: Beispielaufgabe zur Kopfgeometrie (Roth & Wittmann, 2018, S. 144) .............11
+
+Abbildung 4: Beispielaufgabe zur Kopfgeometrie (Roth & Wittmann, 2018, S. 145) .............16
+
+
+
+
+7 Tabellenverzeichnis
+
+Tabelle 1: Verschiedene Modelle eines Würfels ...................................................................10
+
+
+
+8 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Ecken und Kanten“ (IQB) ......................................................................12
+
+Beispielaufgabe 2: „Würfelnetz“ (IQB) ..................................................................................13
+
+Beispielaufgabe 3: „Lage der Würfel“ (IQB) ..........................................................................15
+
+
+
+
+                                                                     20
+    Vergleichsarbeiten 2025
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+ Fachdidaktische Orientierung
+     Leitidee Funktionaler
+       Zusammenhang
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 4
+3    DIE LEITIDEE FUNKTIONALER ZUSAMMENHANG .................................................... 7
+     3.1      SCHWERPUNKTTHEMA: PROPORTIONALE UND ANTIPROPORTIONALE ZUORDNUNGEN 9
+     3.2      PROPORTIONALE UND ANTIPROPORTIONALE ZUORDNUNGEN IN VERA-8 .................12
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................16
+5    LITERATURVERZEICHNIS ..........................................................................................17
+6    ABBILDUNGSVERZEICHNIS .......................................................................................18
+7    TABELLENVERZEICHNIS ...........................................................................................19
+8    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................19
+
+
+
+
+Autorinnen und Autoren4 der fachdidaktischen Erläuterungen in Teil II sind Marlena Meyer,
+Antonia Rewer und Laura Wirth. Die gezeigten Testaufgaben entstanden in Kooperation von
+Lehrkräften aus zehn Bundesländern und Fachdidaktikerinnen und Fachdidaktikern unter
+Federführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische Leitung)
+und des Instituts zur Qualitätsentwicklung im Bildungswesen (IQB) e. V.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit, Vollstän-
+digkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt der
+verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+
+4 Aufgrund der dynamischen Diskussion zum sprachlichen Umgang mit geschlechtlicher Vielfalt sowie
+
+
+der Positionierung des Rats für deutsche Rechtschreibung und der Schulbehörden einiger Länder ge-
+gen Schreibweisen mit Wortbinnenzeichen (z. B. Genderstern) verwenden wir Doppelnennungen (z. B.
+Schülerinnen und Schüler) oder geschlechtsneutrale Formulierungen (z. B. Lehrkräfte). Hiermit sind
+ausdrücklich Personen aller Geschlechter gemeint.
+
+                                                               2
+ 1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2015) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Diese
+didaktische Handreichung zu VERA-8 verfolgt das Ziel, Sie als Lehrkräfte im Bemühen um
+einen   kompetenzorientierten   Mathematikunterricht    zu    unterstützen,   indem   einzelne
+Testaufgaben     erläutert   werden,   Informationen     zu     Nutzungsmöglichkeiten       der
+Vergleichsarbeiten im Unterricht gegeben werden sowie auf förderdiagnostische Materialien
+und auf entsprechende Literatur hingewiesen wird. Sie können daher besonders von Ihnen im
+Anschluss an die Vergleichsarbeiten genutzt werden, um Schülerinnen und Schülern
+spezifische Lernangebote zu machen. Es wird zunächst der Aufbau der Bildungsstandards
+vorgestellt. Da sich die Entwicklung der VERA-8 Aufgaben für das Jahr 2025 an den
+Bildungsstandards aus dem Jahr 2004 orientiert und eine Umstellung in VERA-8 auf die
+überarbeiteten Bildungsstandards aus dem Jahr 2022 erst zu einem späteren Zeitpunkt erfolgt,
+bezieht sich auch diese Handreichung auf die Bildungsstandards aus dem Jahr 2004.
+Anschließend wird einer der Schwerpunkte, die in den diesjährigen Ergänzungsmodulen zur
+Wahl stehen, näher erläutert: die Leitidee Funktionaler Zusammenhang mit einem Fokus auf
+das Thema Proportionale und antiproportionale Zuordnungen. Es werden insbesondere zu
+Aspekten   des   Schwerpunktes     fachdidaktische     Herausforderungen      geschildert   und
+Anregungen vorgestellt, wie mit diesen in der unterrichtlichen Praxis im Fach Mathematik
+umgegangen werden kann. In dem dazugehörigen Kapitel werden außerdem Aufgaben aus
+VERA-8 präsentiert, die sich der diesjährigen Schwerpunktsetzung zuordnen lassen. Diese
+ausgewählten Beispiele zeigen exemplarisch, wie bestimmte allgemeine Kompetenzen gezielt
+durch eine Testaufgabe geprüft werden können. Darüber hinaus werden Hinweise gegeben,
+inwiefern diese Aufgaben auch im Unterricht als Lerngelegenheit zur Förderung der
+Kompetenzen eingesetzt werden kann.
+
+
+
+
+                                             3
+2 Bildungsstandards5 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/Franzö-
+sisch) ein6. Eine grundlegende Wende stand bevor, da die Qualität von schulischer Arbeit
+durch nationale Bildungsstandards, welche verbindliche Anforderungen an das Lehren und
+Lernen in der Schule formulieren, gesichert und gesteigert werden soll (Klieme et al., 2003):
+Während zuvor der Input im Vordergrund stand, also Inhalte und Themen, sollte nun auch der
+Output stärkere Beachtung finden, also die konkreten Kompetenzen, Wissensstrukturen,
+Werte, über die Schülerinnen und Schüler nach dem Unterricht verfügen sollen. Inhalte sollten
+mit der Entwicklung von Persönlichkeitsmerkmalen verknüpft werden, die die Basis für ein
+lebenslanges Lernen legen und so persönliche Weiterentwicklung und gesellschaftliche
+Teilhabe ermöglichen (Klieme et al., 2003). Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+          „Mathematische Grundbildung umfasst die Fähigkeit einer Person zum mathe-
+          matischen Argumentieren sowie Mathematik in einer Vielzahl von Alltagskontexten
+          einzusetzen, in denen Problemstellungen mathematisch formuliert, bearbeitet und
+          interpretiert werden. Dies beinhaltet mathematische Konzepte, Fakten und Methoden,
+          um Phänomene zu beschreiben, zu erklären und vorauszusagen. Mathematik-
+          kompetenz hilft Personen zu erkennen, welche Rolle Mathematik in der Welt spielt, um
+          fundierte Urteile abzugeben sowie gut begründete Entscheidungen zu treffen, so wie
+          sie von konstruktiven, engagierten und reflektierten Bürgerinnen und Bürgern des
+          21. Jahrhunderts benötigt werden“ (OECD, 2023, Abschnitt Übersicht, Absatz 3, eigene
+          Übersetzung).
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schülerinnen und
+Schüler bis zu einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben
+haben sollen (KMK, 2004, 2005). Dabei sollte ein allgemeinbildender Mathematikunterricht
+Schülerinnen und Schülern die folgenden drei Grunderfahrungen ermöglichen (Winter, 1995,
+S. 37):
+
+
+
+
+5 Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss weiterent-
+
+
+wickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil II bezieht
+sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind, da sich die
+Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+6 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                   4
+   4. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus
+       Natur, Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu
+       verstehen,
+   5. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+       Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+       eigener Art kennen zu lernen und zu begreifen,
+   6. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die Mathe-
+       matik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Handlungsrahmen bedeutet insbesondere, dass im Vorder-
+grund die verbindliche Einhaltung von konsensuell ausgehandelten Zielvorgaben steht, wobei
+den Schulen dabei Freiraum für die innerschulische Lernplanung gelassen wird, um diese
+Ziele zu erreichen. Es werden in diesem Modell zunächst die folgenden drei Dimensionen
+unterschieden (siehe Abbildung 1):
+
+   4. Allgemeine mathematische Kompetenzen
+   5. Leitideen
+   6. Anforderungsbereiche
+
+
+
+                 Anforderungsbereich III
+
+
+
+                 Anforderungsbereich II
+
+
+
+                 Anforderungsbereich I
+
+                                                                 Leitideen
+                                           L5   Daten und Zufall
+                                         L4     Funktionaler Zusammenhang
+                                       L3       Raum und Form
+                                     L2         Messen
+                                   L1           Zahl
+     K1   K2   K3   K4   K5   K6
+
+                            Mathematisch kommunizieren
+                      Mit symbolischen, formalen und technischen
+                      Elementen der Mathematik umgehen
+                  Mathematische Darstellungen verwenden
+             Mathematisch modellieren                      Allgemeine
+        Probleme mathematisch lösen                        mathematische
+                                                           Kompetenzen
+    Mathematisch argumentieren
+
+
+Abbildung 5: Kompetenzmodell der Bildungsstandards
+
+                                                   5
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den Kompeten-
+zen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“ (Leiss & Blum,
+2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2), Mathematisch modellieren (K3), Mathematische Darstel-
+lungen verwenden (K4), Mit symbolischen, formalen und technischen Elementen der Mathe-
+matik umgehen (K5) und Mathematisch kommunizieren (K6). Diese Allgemeinen mathemati-
+schen Kompetenzen sollen differenziert betrachtet werden, auch wenn sie üblicherweise im
+Verbund erworben werden und häufig auch gemeinsam angewendet werden müssen. Insbe-
+sondere werden bei der Bearbeitung von komplexeren mathematischen Aufgaben oft mehrere
+dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die Absicht verbunden,
+spezifische Eigenschaften und Anforderungen von Aufgaben im Mathematikunterricht
+transparent zu machen, was eine differenziertere Planung des Mathematikunterrichts ermög-
+licht. So kann ein mathematischer Inhalt den Schülerinnen und Schülern entlang verschiede-
+ner durchzuführender mathematischer Tätigkeiten zugänglich gemacht werden. Inhalte
+können durch die multiperspektivische und wiederholte Betrachtung eher in ihrer Gänze
+verstanden werden und mathematische Kompetenzen anhand unterschiedlichster Erschei-
+nungen über den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+Leitideen eine zweite Dimension des Modells. Die fünf Leitideen sind Zahl (L1), Messen (L2),
+Raum und Form (L3), Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). In den
+Bildungsstandards wird zu den Leitideen erläutert:
+
+       „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durch-
+       zieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezoge-
+       nen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem
+       Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im
+       inhaltlichen Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im Lern-
+prozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben es,
+bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen. Auch soll durch
+die Betonung von Leitideen deutlich werden, dass sich aus mathematischen Phänomenen wie
+dem Zählen, dem Messen oder dem Umgang mit Zufällen mathematische Sachgebiete
+herausgebildet haben (Greefrath 2018, Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische Kompe-
+tenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+                                                6
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine Kompe-
+tenzen, die es Schülerinnen und Schülern ermöglichen, Zusammenhänge herzustellen und
+Gelerntes
+anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen, die es
+Schülerinnen und Schülern abverlangen, zu verallgemeinern und zu reflektieren.
+
+Im Folgenden wird exemplarisch ein Aspekt der Leitidee Funktionaler Zusammenhang her-
+ausgegriffen und erläutert. Eine Orientierung des Mathematikunterrichts an den Allgemeinen
+mathematischen Kompetenzen – also der Prozessdimension des Kompetenzmodells – ist
+eine maßgebliche Errungenschaft der Bildungsstandards, die jedoch auch bei exemplarischer
+Betrachtung einzelner Leitideen nicht in den Hintergrund geraten sollte.
+
+
+
+3 Die Leitidee Funktionaler Zusammenhang
+
+In den Bildungsstandards im Fach Mathematik für den mittleren Schulabschluss werden unter
+der Leitidee Funktionaler Zusammenhang die folgenden, inhaltsbezogenen Kompetenzen zu-
+sammengefasst (KMK, 2004):
+
+Die Schülerinnen und Schüler
+
+   •   nutzen Funktionen als Mittel zur Beschreibung quantitativer Zusammenhänge,
+   •   erkennen und beschreiben funktionale Zusammenhänge und stellen diese in sprachli-
+       cher, tabellarischer oder graphischer Form sowie gegebenenfalls als Term dar,
+   •   analysieren, interpretieren und vergleichen unterschiedliche Darstellungen funktionaler
+       Zusammenhänge (wie lineare, proportionale und antiproportionale),
+   •   lösen realitätsnahe Probleme im Zusammenhang mit linearen, proportionalen und an-
+       tiproportionalen Zuordnungen,
+   •   interpretieren lineare Gleichungssysteme graphisch,
+   •   lösen Gleichungen, und lineare Gleichungssysteme kalkülmäßig bzw. algorithmisch,
+       auch unter Einsatz geeigneter Software, und vergleichen ggf. die Effektivität ihres Vor-
+       gehens mit anderen Lösungsverfahren (wie mit inhaltlichem Lösen oder Lösen durch
+       systematisches Probieren),
+   •   untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von linearen und quadrati-
+       schen Gleichungen sowie linearen Gleichungssystemen und formulieren diesbezüglich
+       Aussagen,
+   •   bestimmen kennzeichnende Merkmale von Funktionen und stellen Beziehungen zwi-
+       schen Funktionsterm und Graph her,
+
+
+
+                                              7
+   •   wenden insbesondere lineare und quadratische Funktionen sowie Exponentialfunktio-
+       nen bei der Beschreibung und Bearbeitung von Problemen an,
+   •   verwenden die Sinusfunktion zur Beschreibung von periodischen Vorgängen,
+   •   beschreiben Veränderungen von Größen mittels Funktionen, auch unter Verwendung
+       eines Tabellenkalkulationsprogramms,
+   •   geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion
+       beschrieben werden können.
+
+Auch in den Bildungsstandards für den Hauptschulabschluss (KMK, 2005) finden sich die
+aufgeführten inhaltsbezogenen Kompetenzen wieder, wobei prozentualem Wachstum und
+Maßstäben in den Bildungsstandards für den Hauptschulabschluss eine größere Bedeutung
+zugeschrieben wird. Lineare Gleichungssysteme, quadratische Funktionen, Exponential-
+funktionen sowie periodische Vorgänge sind in den Bildungsstandards für den Hauptschul-
+abschluss nicht aufgeführt. Da ebendiese inhaltsbezogenen Kompetenzen keinen Bestandteil
+der VERA-8 Erhebung darstellen, beinhalten die Bildungsstandards beider Abschlüsse für den
+Lernstand der Jahrgangsstufe 8 im Wesentlichen die gleichen inhaltsbezogenen
+Kompetenzen.
+
+Funktionale Zusammenhänge sind allgegenwärtig, zum Beispiel die Strecke beim Busfahren,
+die in einer bestimmten Zeit zurückgelegt wird, oder der Einkaufspreis beim Bäcker in
+Abhängigkeit von der Anzahl der Brötchen. Immer dann, wenn „eine Größe von einer anderen
+Größe abhängt“ (Greefrath et al., 2016, S. 36), kommen wir auf natürliche Weise in Kontakt
+damit. Bereits in der Grundschule werden erste funktionale Denkweisen vermittelt (Vollrath,
+1989). Die Bildungsstandards im Fach Mathematik für den Primarbereich (KMK, 2005b)
+beschreiben in dieser Hinsicht die Leitidee Muster und Strukturen, an die in der
+Sekundarstufe I unter anderem die Leitidee Funktionaler Zusammenhang anschließt. In der
+Primarstufe stehen dabei unter anderem die Fähigkeiten im Fokus, funktionale Beziehungen
+in Sachsituationen zu erkennen, sprachlich zu beschreiben und in Tabellen darzustellen. In
+der Sekundarstufe I werden daran anknüpfend das kartesische Koordinatensystem und
+Variablen eingeführt und funktionale Zusammenhänge auch mithilfe von Termen sowie
+Funktionsgraphen dargestellt. Der Umgang mit proportionalen und antiproportionalen
+funktionalen Zusammenhängen wird explizit als inhaltsbezogene Kompetenz genannt. Die
+Schülerinnen und Schüler sollen diese speziellen Arten von funktionalen Zusammenhängen
+analysieren, interpretieren und vergleichen können. Darüber hinaus sollen sie lernen,
+realitätsnahe Probleme, denen ein proportionaler oder antiproportionaler Zusammenhang
+zugrunde liegt, zu lösen. Proportionale sowie anti-proportionale Zuordnungen gehören zu den
+ersten funktionalen Zusammenhängen, auf die Schülerinnen und Schüler im Unterricht stoßen
+(Heiderich & Hussmann, 2013) und stellen in den diesjährigen VERA-8 Erhebungen ein
+Schwerpunktthema dar.
+                                              8
+3.1   Schwerpunktthema: Proportionale und antiproportionale Zuordnungen
+
+Proportionale und antiproportionale Zuordnungen stellen einen wichtigen alltagsrelevanten In-
+halt des Mathematikunterrichts dar (Hafner, 2012). Oftmals werden proportionale Zuordnun-
+gen mit Modellierungen im Kontext Einkaufen eingeführt. Der Anzahl oder der Menge eines
+Artikels wird der zugehörige Preis zugeordnet. Hierbei wird üblicherweise vereinfachend an-
+genommen, dass es keine Aktionen oder Rabatte auf diesen Artikel gibt. Aber auch eine Au-
+tofahrt mit konstanter Geschwindigkeit kann mit den Größen zurückgelegte Strecke und benö-
+tigte Zeit durch eine proportionale Zuordnung modelliert werden. Demgegenüber stehen
+Situationen, die mithilfe von antiproportionalen Zuordnungen beschrieben werden können,
+welche sich in der Realität ebenfalls finden. Konkret lässt sich das Abpumpen eines Wasser-
+beckens, für das je nach Anzahl identischer Pumpen unterschiedlich viel Zeit benötigt wird,
+mittels antiproportionaler Zuordnung modellieren. Im Unterricht sollte im Zusammenhang mit
+proportionalen und antiproportionalen Zuordnungen immer die entsprechende Modellierung
+thematisiert werden und oben genannte Vereinfachungen sollten explizit diskutiert werden, um
+deutlich zu machen, dass die Realität oftmals nur in Grenzen durch ein Modell abgebildet wer-
+den kann (Greefrath, 2018). Proportionale und antiproportionale Zuordnungen sollten im Un-
+terricht nicht isoliert voneinander behandelt werden, sondern gerade das Wechselspiel und
+der Vergleich zwischen ihnen sollten fokussiert werden. Darüber hinaus sollten ebenfalls aus-
+reichend Beispiele herangezogen werden, die der Fehlvorstellung entgegenwirken, dass eine
+Zuordnung entweder proportional oder antiproportional sein muss. In diesem Zusammenhang
+könnte beispielsweise thematisiert werden, dass in Supermärkten oft mit verhältnismäßig nied-
+rigeren Preisen für größere Mengen geworben wird. Durch diesen „Mengenrabatt“ wird die
+Proportionalität aufgehoben.
+
+Je nach Problemsituation können verschiedene Lösungsstrategien verwendet werden, um
+Aufgabenstellungen, denen ein proportionaler oder antiproportionaler Zusammenhang zu-
+grunde liegt, zu lösen (Hafner, 2012). Diese Lösungsstrategien hängen eng mit den Grundvor-
+stellungen zu proportionalen und antiproportionalen Zuordnungen zusammen, sodass der Auf-
+bau tragfähiger und vielfältiger Grundvorstellungen dazu beiträgt, dass Problemsituationen
+adäquat gelöst werden können.
+
+Sowohl für proportionale als auch für antiproportionale Zuordnungen existieren verschiedene
+Grundvorstellungen, durch die der jeweilige Begriff inhaltlich gedeutet werden kann. Der Auf-
+bau tragfähiger Grundvorstellungen ist notwendig, um ein tiefgründiges Verständnis mathe-
+matischer Begriffe aufzubauen (Greefrath, 2018).
+
+Bei den Grundvorstellungen von proportionalen und antiproportionalen Zuordnungen handelt
+es sich um abstrahierte Handlungsvorstellungen. Sie basieren auf den fachlich charakteristi-
+schen Eigenschaften.
+
+                                             9
+Die Grundvorstellungen zu proportionalen Zuordnungen sind in Abbildung 2 anhand einer Ta-
+belle veranschaulicht. Die Vervielfachungsvorstellung beinhaltet, dass bei einer Vervielfa-
+chung der Ausgangsgröße (z.B. Anzahl) auch die zugeordnete Größe (z.B. Preis in €) um
+denselben Faktor vervielfacht wird. Die Verhältnisvorstellung besagt, dass der Quotient zweier
+Ausgangsgrößen und der Quotient derer zugeordneter Größen gleich ist. Die Quotientenvor-
+stellung hingegen basiert darauf, dass der Quotient von zugeordneter Größe und der jeweili-
+gen Ausgangsgröße immer konstant ist. Der Faktor, mit dem die Ausgangsgröße multipliziert
+wird, um die zugeordnete Größe zu erhalten, nennt sich Proportionalitätsfaktor. Dieser ist cha-
+rakterisierend für die Proportionalitätsvorstellung.
+
+Bei der Additionsvorstellung gilt: Werden zwei Ausgangsgrößen miteinander addiert, so erhält
+man eine neue Ausgangsgröße. Werden die jeweilig zugeordneten Größen der zwei Aus-
+gangsgrößen miteinander addiert, so erhält man die zugeordnete Größe der neuen Ausgangs-
+größe (Greefrath, 2018; Hafner 2012).
+
+
+
+
+Abbildung 6: Grundvorstellungen proportionaler Zuordnungen am Beispiel „Einkaufen“
+
+
+Die Grundvorstellungen zu antiproportionalen Zuordnungen lassen sich mit Ausnahme der
+Additionsvorstellung analog herleiten (Abbildung 3).
+
+
+
+
+Abbildung 7: Grundvorstellungen antiproportionaler Zuordnungen am Beispiel „Abpumpen“
+
+
+
+                                               10
+Alle im Folgenden angeführten Strategien zur Lösung von Aufgaben, für die Proportionalität
+vorausgesetzt wird (Tabelle 1), können analog auf Aufgaben mit antiproportional zugrunde
+liegendem Zusammenhang übertragen werden. In der Tabelle 1 wird das Standardverfahren
+für jede Strategie beispielhaft skizziert. Die genannten Strategien können jedoch auch nicht
+standardisiert, d.h. zum Beispiel ohne sie konkret in dieser Art zu notieren, durchgeführt wer-
+den. Das Aktivieren und Entwickeln solcher eher informeller Strategien fördert ein intuitives
+proportionales Verständnis (Prediger et al., 2017; Pöhler & Prediger, 2017).
+
+Bei dem individuellen Dreisatz kommt die Vervielfachungsvorstellung zum Tragen. Ausgehend
+von dem gegebenen Wertepaar wird durch Multiplikation (Hochrechnen) mit dem passenden
+Faktor der gesuchte Wert zur Ausgangsgröße ermittelt. Diese Methode bietet sich vor allem
+dann an, wenn der passende Faktor leicht ersichtlich ist, wie zum Beispiel bei einer Verdopp-
+lung. In anderen Beispielen kann es sich jedoch auch anbieten, ausgehend vom gegebenen
+Wert durch Division (Runterrechnen) den gesuchten Wert zu ermitteln. Auch eine Kombination
+aus Hoch- und Runterrechnen ist eine individuelle Anwendung des Dreisatzes. Bei der Ope-
+ratormethode wird der Proportionalitätsfaktor genutzt, um den zugehörigen Wert zur Aus-
+gangsgröße zu berechnen. Bei der Bruch-/ Verhältnisgleichung wird von der Verhältnisvorstel-
+lung oder der Quotientenvorstellung Gebrauch gemacht, um eine Bruchgleichung aufzustellen
+und so den gesuchten Wert zu bestimmen. Bei dem bekannten klassischen Dreisatz wird, um
+von einem gegebenen Wertepaar auf das gesuchte Wertepaar zu kommen, ein Zwischen-
+schritt gemacht. In diesem Zwischenschritt wird das Wertepaar ermittelt, bei dem der erste
+Wert die Maßzahl 1 hat. Im nächsten Schritt wird das Wertepaar mit dem gesuchten Wert
+ermittelt. Insgesamt wird also zweimal hintereinander die Vervielfachungsvorstellung genutzt.
+
+                                             Bruch-/
+Individueller Dreisatz Operatormethode                               Klassischer Dreisatz
+                                             Verhältnisgleichung
+
+
+
+
+Tabelle 2: Lösungsstrategien am Beispiel „Einkaufen“
+
+Welche Strategie gewählt wird, hängt einerseits von der konkreten Aufgabe und dem darin
+gegebene Zahlenmaterial ab und andererseits von individuellen Präferenzen der Schülerinnen
+und Schüler (Hafner, 2012).
+
+
+
+
+                                              11
+Durch die Vermittlung von tragfähigen Grundvorstellungen kann das flexible Einsetzen ver-
+schiedener Lösungsstrategien gefördert und der reinen Anwendung auswendig gelernter
+Schemata ohne tiefgründiges Verständnis entgegengewirkt werden.
+
+Sowohl proportionale als auch antiproportionale Zuordnungen können in unterschiedlichen
+Formen dargestellt werden: algebraisch, graphisch, tabellarisch und verbal. Um mit unter-
+schiedlichen Problemsituationen umgehen zu können, ist die Fähigkeit erforderlich, flexibel
+zwischen Darstellungsformen wechseln zu können. Da Darstellungswechsel Schülerinnen und
+Schülern häufig Schwierigkeiten bereiten (Nitsch, 2015), sollten diese im Unterricht besonders
+intensiv betrachtet werden. Anwendungsbezogene Aufgaben im Zusammenhang mit propor-
+tionalen und antiproportionalen Zuordnungen sollten zum Beispiel nicht immer nur die reine
+Übersetzung von Text zu Tabelle erfordern (Greefrath, 2018), sondern auch andere Darstel-
+lungswechsel in den Fokus rücken.
+
+
+3.2   Proportionale und antiproportionale Zuordnungen in VERA-8
+
+Im Folgenden werden Aufgaben aus vergangenen VERA-8 Erhebungen dargestellt, in denen
+Proportionalität bzw. Antiproportionalität eine Rolle spielen. Diese Aufgaben werden hinsicht-
+lich ihrer geforderten Kompetenzen analysiert.
+
+Bei der Aufgabe „Tropfender Wasserhahn“ geht es um den proportionalen Zusammenhang
+zwischen vergangener Zeit nach Beginn der Beobachtung eines tropfenden Wasserhahns und
+der Menge Wasser, die in dieser Zeit aus dem Hahn getropft ist. Für beide Teilaufgaben ist es
+notwendig, den Aufgabentext und die Tabelle in Teilaufgabe 1 und die Graphen in Teilaufgabe
+2 sinnentnehmend zu erfassen (Mathematisch kommunizieren - K6) und zu erkennen, dass
+das gleichmäßige Tropfen mathematisch als ein proportionales Wachstum modelliert werden
+kann (Mathematisch modellieren - K3).
+
+
+
+
+                                             12
+Beispielaufgabe 4: „Tropfender Wasserhahn“
+
+
+Bei Familie Rector tropft seit einigen Tagen ein undichter Wasserhahn. Ben, der Sohn der
+Familie, will untersuchen, wie viel Wasser dabei verloren geht. Er fängt das gleichmäßig
+tropfende Wasser in einem Messbecher auf.
+Teilaufgabe 1:
+
+Ben sieht ab und zu nach, wie viel Wasser inzwischen im Messbecher ist. Die Tabelle
+zeigt Bens Messergebnisse.
+
+ Zeit in h            0,5     4
+                3
+ Wasser in cm         150   1200
+
+Gib an, wie viel nach zwei Stunden im Messbecher war.
+
+                    cm3
+Teilaufgabe 2:
+
+Welches Diagramm stellt die verlorene Wassermenge in Abhängigkeit von der Zeit am
+besten dar?
+Kreuze an.
+
+
+
+
+In Teilaufgabe 1 soll dann die Wassermenge nach 2 Stunden bestimmt werden. Für die
+Berechnung müssen die Schülerinnen und Schüler eines der in der Tabelle angegebenen
+Wertepaare nutzen. Mit einer der oben genannten Strategien (individueller Dreisatz, Opera-
+tormethode, Bruch-/ Verhältnisgleichung, klassischer Dreisatz) oder auch nicht standardisier-
+ten Variationen können sie dann den fehlenden Wert bestimmen. Hierbei handelt es sich um
+die Anwendung eines Routineverfahrens, weshalb ebenfalls die Kompetenz Mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) in geringem Maß gefor-
+dert wird. Auch wenn in der Erhebung nur das Ergebnis erfasst wird, macht es bei ähnlichen
+Aufgaben im Unterricht Sinn, den Lösungsweg der Schülerinnen und Schüler zu betrachten
+
+
+                                             13
+und verschiedene Lösungswege zu thematisieren. Auf diese Weise können unterschiedliche
+Grundvorstellungen zu proportionalen Zuordnungen in den Vordergrund rücken. So könnte bei
+der vorliegenden Aufgabe vor allem der individuelle Dreisatz als effiziente Lösungsstrategie
+thematisiert werden, da durch Vervierfachung des ersten angegebenen Wertepaares oder
+durch Halbierung des zweiten Wertepaares direkt der gesuchte Wert bestimmt werden kann.
+
+Die Kompetenz Mathematische Darstellungen verwenden (K4) steht in Teilaufgabe 2 im Vor-
+dergrund. Die Schülerinnen und Schüler müssen von einer verbal beschriebenen Situation zu
+einer graphischen Darstellung wechseln, um den passenden Graphen auszuwählen. Aus
+didaktischer Sicht sind Darstellungswechsel zwischen Text und Graph auch deshalb von
+Interesse, da hier – anders als bei der Darstellung eines funktionalen Zusammenhangs als
+Funktionsgleichung – symbolische, formale und technische Elemente der Mathematik (K5)
+weitgehend ausgeklammert werden können. Hierdurch ergeben sich mindestens zwei Poten-
+ziale: Zum einen kann durch den Darstellungswechsel zwischen Text und Funktionsgraph
+direkt das Verständnis funktionaler Zusammenhänge von Schülerinnen und Schülern adres-
+siert werden. Es wird keine zusätzliche Hürde dadurch errichtet, dass Schülerinnen und Schü-
+ler zum Beispiel mit Symbolen für Variablen arbeiten oder rechnerisch Lösungsverfahren
+durchführen. Zum anderen können auch solche funktionalen Zusammenhänge in den Blick
+genommen werden, die Lernenden auf algebraischer Ebene (noch) nicht bekannt sind. Damit
+kann zum Beispiel die Absicht verbunden werden, einer zu starken Überbetonung bestimmter
+funktionaler Zusammenhänge entgegenzuwirken. Nimmt man im Unterricht stets nur eine ein-
+zige Funktionsart in den Blick, besteht die Gefahr, bei Schülerinnen und Schülern den Eindruck
+hervorzurufen, dass im Grunde alle funktionalen Zusammenhänge proportional, antiproportio-
+nal usw. sind.
+
+Daher sollte an verschiedenen Stellen in unterschiedlichen Jahrgangsstufen das Verständnis
+der Lernenden von funktionalen Zusammenhängen gefordert und gefördert werden. Lernauf-
+gaben können so aussehen, dass Schülerinnen und Schüler zu einer in einem Text geschil-
+derten Situation einen Graphen skizzieren oder umgekehrt zu einem Graphen eine Geschichte
+entwickeln. Zur Überprüfung, zum Beispiel in Klassenarbeiten, können Aufgaben wie diese mit
+geschlossenen Antwortformaten verwendet werden. In höheren Jahrgangsstufen können
+dann die Aufgaben auch durch verschiedene Funktionstypen bereichert werden.
+
+
+
+
+                                             14
+Beispielaufgabe 5: „Fliesen“
+
+
+Zum Fliesen eines Küchenbodens werden 100 Platten mit einer Größe von jeweils
+0,16 m2 benötigt. Der Besitzer entschließt sich dann aber doch, Fliesen der Größe
+0,2 m2 verlegen zu lassen.
+Gib an, wie viele Fliesen jetzt mindestens benötigt werden.
+
+                 Fliesen
+
+
+In der Aufgabe „Fliesen“ geht es um den funktionalen Zusammenhang zwischen der Größe
+einer Fliese und der Anzahl der für die Küche benötigten Fliesen. Die Schülerinnen und Schü-
+ler sollen annehmen, dass es sich hierbei um einen antiproportionalen Zusammenhang han-
+delt. Zur Bearbeitung der Aufgabe sind dem Aufgabentext zunächst die relevanten Informati-
+onen (z.B. Anzahl der benötigten kleineren Fliesen) zu entnehmen (Mathematisch kommuni-
+zieren - K6). Zur Lösung der Aufgabe können wieder die im vorherigen Kapitel beschriebenen
+Strategien angewendet werden. Unter anderem bietet sich besonders die Bruch- und Verhält-
+nisgleichung an, die im Folgenden anhand der Aufgabe „Fliesen“ dargestellt wird.
+                               0,16    𝑥𝑥
+Bruch- Verhältnisgleichung:         =
+                               0,2    100
+
+                                      0,16·100
+                               𝑥𝑥 =            = 80
+                                         0,2
+
+Alternativ kann so vorgegangen werden, dass zuerst die Größe der auszulegenden Fläche
+berechnet wird (16 m2). Hierbei kommt die Produktvorstellung zum Tragen. Anschließend kann
+dann mittels der Antiproportionalitätsvorstellung die Anzahl der Fliesen bestimmt werden, die
+bei den neuen größeren Fliesen benötigt wird ( 16𝑚𝑚2 : 0,2𝑚𝑚2 = 80). Dies stellt die Operatorme-
+thode bei antiproportionalen Zusammenhängen dar. Diese Aufgabe fordert und fördert dem-
+entsprechend die Anwendung von Routineverfahren sowie den Umgang mit vertrauten Sym-
+bolen (Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen -
+K5).
+
+Bei Verwendung dieser oder ähnlicher Aufgaben im Unterricht sollten vor allem Vereinfachun-
+gen thematisiert werden, die getroffen werden, um den Kontext als antiproportionale oder pro-
+portionale Zuordnung zu modellieren. Bei der Aufgabe „Fliesen“ werden vor allem zwei As-
+pekte Zwecks einer Vereinfachung außer Acht gelassen. Einerseits wird die Form der Fläche
+des Küchenbodens und andererseits die Form der Fläche der Fliesen nicht berücksichtigt.
+Diese könnten jedoch entscheidend dafür sein, wie viele Fliesen letztendlich benötigt werden,
+wenn man den potenziellen Verschnitt miteinbezieht. Aufgrund des unterschiedlichen Ver-
+schnitts, je nachdem welche Fliesen verlegt werden, kann der Zusammenhang dann nicht
+mehr als antiproportional behandelt werden. Es sollte thematisiert werden, wie in der Realität
+
+                                                 15
+in solch einer Situation vorgegangen werden würde. Vermutlich würde eher zuerst die Länge
+und Breite des Raumes ausgemessen werden, um dann die Anzahl der benötigten Fliesen zu
+bestimmen, indem berechnet wird, wie viele Fliesen in die Länge bzw. Breite passen. Geht es
+darum, wie viele Fliesen letztendlich bestellt werden sollten, um den gesamten Raum zu flie-
+sen, würde man vermutlich einige Fliesen in Reserve mitbestellen, falls bei der Arbeit welche
+kaputt gehen. Das Treffen und Beschreiben von Annahmen und Vereinfachungen ist vor allem
+hinsichtlich des Mathematischen Modellierens (K3) eine wichtige Kompetenz, die bei den
+Schülerinnen und Schülern gefördert werden sollte.
+
+Insgesamt konnte anhand der beiden Aufgaben vergangener VERA-8 Erhebungen zu propor-
+tionalen bzw. antiproportionalen Zuordnungen gezeigt werden, inwiefern verschiedene Grund-
+vorstellungen zum Tragen kommen, welche Lösungsstrategien je nach Aufgabe sinnvoll zu
+thematisieren sind und warum auch Darstellungswechsel von großer Bedeutung sind.
+
+
+
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Raum und Form ist dies der Schwerpunkt Räumliche Geometrie, im
+Bereich der Leitidee Funktionaler Zusammenhang der Schwerpunkt Proportionale und anti-
+proportionale Zuordnungen. Aus beiden Themen wurden zentrale Inhalte betrachtet, welche
+durch die Bildungsstandards vorgegeben werden. Für weitere Anregungen für die Unterrichts-
+praxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der didaktischen Hand-
+reichungen verwiesen. Zudem wurde aufgezeigt, welche Aufgabenmerkmale mit welchen all-
+gemeinen mathematischen Kompetenzen einhergehen. Für weitere Beispiele und Anregun-
+gen stellt die in den vorangegangenen Kapiteln genannte Literatur eine gute Ausgangslage
+dar.
+
+
+
+
+                                             16
+5 Literaturverzeichnis
+
+Blum, W. (2010). Einführung. In W. Blum, C. Drüke-Noe, R. Hartung, & O. Köller (Hrsg.), Bil-
+
+       dungsstandards Mathematik: Konkret. Sekundarstufe I: Aufgabenbeispiele, Unter-
+
+       richtsanregungen, Fortbildungsideen. Cornelsen Scriptor.
+
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht: Didaktische
+
+       Perspektiven zum Sachrechnen in der Sekundarstufe. Springer.
+
+       https://doi.org/10.1007/978-3-662-57680-9
+
+Greefrath, G., Oldenburg, R., Siller, H.-S., Ulm, V., & Weigand, H.-G. (2016). Didaktik der
+
+       Analysis. Springer. https://doi.org/10.1007/978-3-662-48877-5
+
+Hafner, T. (2012). Proportionalität und Prozentrechnung. In T. Hafner (Hrsg.), Proportionalität
+
+       und Prozentrechnung in der Sekundarstufe I: Empirische Untersuchung und didakti-
+
+       sche Analysen (S. 33–60). Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-
+
+       8348-8668-2_5
+
+Heiderich, S. & Hußmann, S. (2013). „Linear, proportional, antiproportional... Wie soll ich das
+
+       denn alles auseinanderhalten“ – Funktionen verstehen mit Merksätzen?! In H. All-
+
+       mendinger, K. Lengnink, A. Vohns, & G. Wickel (Hrsg.), Mathematik verständlich un-
+
+       terrichten: Perspektiven für Unterricht und Lehrerbildung (S. 27–45). Springer.
+
+       https://doi.org/10.1007/978-3-658-00992-2_3
+
+Klieme, Eckhard; Avenarius, Hermann; Blum, Werner; Döbrich, Peter; Gruber, Hans; Prenzel,
+
+       Manfred; Reiss, Kristina; Riquarts, Kurt; Rost, Jürgen; Tenorth, Heinz-Elmar; Vollmer,
+
+       Helmut J.; Bundesministerium für Bildung und Forschung. (2003). Zur Entwicklung
+
+       nationaler Bildungsstandards. Eine Expertise. Bonn, Berlin.
+
+KMK. (2004). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss. Be-
+
+       schluss vom 4.12.2003. Wolters Kluwer.
+
+KMK. (2005). Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Be-
+
+       schluss vom 15.10.2004. Wolters Kluwer.
+
+KMK. (2005b). Bildungsstandards im Fach Mathematik für den Primarbereich. Beschluss vom
+
+       15.10.2004. München, Neuwied: Luchterhand.
+
+                                              17
+KMK. (2015). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife. Be-
+
+        schluss der Kultusministerkonferenz vom 18.10.2012. Wolters Kluwer.
+
+Leiss, D., & Blum, W. (2010). Beschreibung zentraler Kompetenzen. In W. Blum, C. Drüke-
+
+        Noe, R. Hartung, & O. Köller (Hrsg.), Bildungsstandards Mathematik: Konkret. Sekun-
+
+        darstufe I: Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungsideen. Cornelsen
+
+        Scriptor.
+
+Nitsch, R. (2015). Diagnose von Lernschwierigkeiten im Bereich funktionaler Zusammen-
+
+        hänge: Eine Studie zu typischen Fehlermustern bei Darstellungswechseln. Springer.
+
+        https://doi.org/10.1007/978-3-658-10157-2
+
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading,
+
+        Science, Problem Solving and Financial Literacy. OECD Publishing.
+
+Pöhler, B., & Prediger, S. (2017). Verstehensförderung erfordert auch Sprachförderung –
+
+        Hintergründe und Ansätze einer Unterrichtseinheit zum Prozente verstehen, erklären
+
+        und berechnen. In A. Fritz, S. Schmidt, & G. Ricken (Hrsg.), Handbuch Rechen-
+
+        schwäche: Lernwege, Schwierigkeiten und Hilfen bei Dyskalkulie (S. 436–459). Beltz.
+
+Prediger, S., Selter, C., Hußmann, S., & Nührenbörger, M. (Hrsg.). (2017). Mathe sicher kön-
+
+        nen. Handreichungen für ein Diagnose- und Förderkonzept zur Sicherung mathemati-
+
+        scher Basiskompetenzen. Sachrechnen: Größen – Überschlagen –Textaufgaben –
+
+        Diagramme – Proportionen – Prozentrechnung. Cornelsen.
+
+Vollrath, H.-J. (1989): Funktionales Denken. Journal für Mathematikdidaktik, 10, 3–37.
+
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+
+        für Didaktik der Mathematik, 21(61), 37–46. https://doi.org/10.1515/dmvm-1996-0214
+
+
+
+6 Abbildungsverzeichnis
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards ......................................................... 5
+
+Abbildung 2: Grundvorstellungen proportionaler Zuordnungen am Beispiel „Einkaufen“.......10
+
+Abbildung 3: Grundvorstellungen antiproportionaler Zuordnungen am Beispiel „Abpumpen“10
+
+                                                     18
+7 Tabellenverzeichnis
+
+Tabelle 1: Lösungsstrategien am Beispiel „Einkaufen“ .........................................................11
+
+
+
+8 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Tropfender Wasserhahn“ (IQB) .............................................................13
+
+Beispielaufgabe 2: „Fliesen“ (IQB) ........................................................................................15
+
+
+
+
+                                                            19
+

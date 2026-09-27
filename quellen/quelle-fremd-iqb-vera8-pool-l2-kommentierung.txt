@@ -1,0 +1,1853 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 2 (Messen)“, IQB Berlin – Didaktische Kommentierung
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L2_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Didaktische Kommentierung“ mit 1–4 Seiten; hier 47 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== apfelsaftschorle · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Apfelsaftschorle
+Merkmale der Teilaufgabe
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematisch modellieren (K3)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Messen (L2), da es um den Vergleich verschiedener Volumina geht.
+Zunächst ist das Gesamtvolumen der Apfelsaftschorle unter Rückgriff auf die Vorstellung des Zusammenfügens zu berechnen (K3, K5). Anschließend ist zu überprüfen, ob die zur Verfügung stehende 1,5 Liter Flasche für die berechnete Menge ausreicht (K5). Hierzu müssen die zu vergleichenden Größen gegebenenfalls in dieselbe Einheit umgewandelt (z. B. 1,5 Liter und 1,3 Liter) und dann verglichen werden. Es genügt auch eine Überlegung, die ohne die konkrete Addition auskommt: 4/5 ist weniger als 1, also ist 4/5 plus 0,5 weniger als 1,5 (K5). Die geforderte „Begründung“ (die auf K1 verweist) besteht bei dieser Aufgabe lediglich im Größenvergleich, sodass Kompetenz K1 hier in keinem nennenswerten Umfang gefordert ist.
+Da es sich hinsichtlich der Anforderungen an die Kompetenzen jeweils um ganz elementare Aktivitäten handelt, gehört diese Aufgabe dem Anforderungsbereich I an.
+Mögliche Schwierigkeiten
+Die Menge der hergestellten Apfelsaftschorle wird falsch berechnet. Statt der korrekten Bruch-Addition werden jeweils Zähler und Nenner addiert [Fehllösung:
+
+ Liter Apfelsaft-schorle] (K5).
+Es kommt zu Fehlern bei der Umrechnung des Volumens der Apfelsaftschorle in einen Dezimalbruch [Fehllösung z. B.: 130 ml Apfelsaftschorle] (K5).
+In der Begründung wird lediglich gesagt, dass das Fassungsvermögen der Flasche aus-reicht, ohne auf die durchgeführte Rechnung bzw. den Größenvergleich einzugehen (K1 oder K6). Dies zeigt die folgende Schülerlösung.
+[Bild: image3.png]
+Weiterarbeit und Förderung
+Kommt es bei der Aufgabe zu Fehlern, sind diese höchstwahrscheinlich auf Schwierigkeiten im Umgang mit Brüchen zurückzuführen. Sie können auf ungenügend ausgebildeten Grundvorstellungen zu Bruchteilen sowie deren Größenvergleich oder Addition im Kontext einer Realsituation beruhen.
+Aus diesem Grund bietet es sich zunächst an, die Aufgabe praktisch zu lösen, indem tat-sächlich Apfelsaftschorle nach der angegebenen Beschreibung hergestellt wird. Dies ermöglicht den Schülern einen handelnden Zugang zur Thematik und lässt sie gegebenenfalls ihren Fehler selbstständig entdecken bzw. berichtigen.
+Zusätzlich oder alternativ kann die Aufgabe auf zeichnerischer Ebene bearbeitet werden, indem die zu mischenden Mengen jeweils mittels eines Rechtecks veranschaulicht werden.
+Anhand dieser Veranschaulichung können die Schülerinnen und Schüler selbstständig erkennen, dass die beiden Bruchteile nicht einfach addiert werden können, da ihre Nenner verschieden sind und diese demnach zunächst vereinheitlicht werden müssen. Dies kann leicht durch eine Verfeinerung der Einteilung in Zehntel geschehen. Werden die zu mischenden Mengen nun zusammengefügt, kann leicht überprüft werden, ob die eineinhalb Liter Flasche ausreicht. In diesem Zusammenhang bietet es sich auch an herauszuarbeiten, dass zur Beantwortung dieser Frage lediglich geprüft werden muss, ob
+
+ < 1 gilt. Auch dies kann unter Rückgriff auf eine zeichnerische Darstellung geschehen. Hierauf aufbauend kann die Darstellung natürlicher Zahlen als Bruch wiederholt werden.
+
+===== aussagendreiecke · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Aussagen über Dreiecke
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mit symbolischen/formalen/technischen Elementen umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Beide Teilaufgaben gehören zur Leitidee Messen (L2), da sie das Berechnen von Winkelgrößen im Dreieck zum Gegenstand haben.
+In Teilaufgabe 1 ist zunächst eine Strategie zu entwickeln (K2), wie die fehlenden Winkelgrößen mit Bezug zu den gegebenen Bedingungen sowie zur Winkelsumme im Dreieck zu errechnen sind (K5).
+In Teilaufgabe 2 müssen zunächst die Aufgabenstellung und die Begrifflichkeiten „allgemeiner Term“ und „in Abhängigkeit von“ erfasst werden (K6). Auch hier ist es wieder erforderlich, die in der Aufgabe gegebenen Informationen über die Winkelgröße von  in Form einer Gleichung mit bekanntem Wissen über Winkelbeziehungen im Dreieck strategisch zu verknüpfen (K2) und so  in Abhängigkeit von  zu bestimmen (K5).
+Beide Teilaufgaben fordern ein strategisches Vorgehen mit Verknüpfung von mathematischen Kenntnissen, Fertigkeiten und Fähigkeiten verschiedener Gebiete, weshalb sie dem Anforderungsbereich II zuzuordnen sind.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 1:
+Antwortalternative (Fehllösung: 67,5°): Der Winkel  wird nicht beachtet; so ergibt sich 45°  2    180° als zu lösende Gleichung (K5).
+Antwortalternative (Fehllösung: 90°): Vermutlich wird  zunächst richtig berechnet und durch die Gleichung   2   unkritisch verdoppelt (K2).
+Antwortalternative (Fehllösung: 135°): Es wird einfach die Differenz zwischen der bekannten Winkelgröße von  und der Winkelsumme von 180° gebildet (K2).
+Zu Teilaufgabe 2:
+Es wird kein Bezug zur Größe der Innenwinkelsumme hergestellt, so dass zu vermuten ist, dass das Wissen darüber nicht aktiviert (K5) oder kein vollständiger Bearbeitungsansatz gefunden werden konnte (K2). Dies demonstriert die folgende Schülerlösung.
+[Bild: image1.jpeg]
+Es wurde ein falscher Wert für die Größe der Innenwinkelsumme verwendet [Fehllösung:   360°  3  ] (K5).
+Der Term wird nicht in Abhängigkeit von  dargestellt, was auf Nichtverständnis der Begrifflichkeit „in Abhängigkeit von“ (K6) oder auf fehlende strategische Fähigkeiten (K2) zurückgeführt werden kann [Fehllösung:   180°  ( + )].
+Es wird mit den Angaben aus Teilaufgabe 1 ,  und  konkret berechnet, wie die folgende Schülerlösung zeigt (K6).
+[Bild: image2.jpeg]
+Die Gleichung wird fehlerhaft umgestellt oder der Term wird z. B. durch vergessene Klammern bzw. falsche Rechenzeichen fehlerhaft dargestellt, wie die folgende Schülerlösung demonstriert (K5).
+[Bild: image3.jpeg]
+Anregungen für den Unterricht
+Wesentliche Schwierigkeiten bei dieser Aufgabe bestehen in der Deutung der zugrundeliegenden Gleichung und im Umgang mit dieser.
+Um den Umgang mit Gleichungen im Kontext Winkelgrößen zu fördern, können zunächst z. B. mit folgenden – weniger komplexen – Aufgaben Winkelgrößen berechnet und Winkelbeziehungen veranschaulicht werden:
+
+       45,4    1 80, 4    2 45, 3
+1.) 2.) 3.)
+a) Berechne.
+b) Zeichne den Winkel und veranschauliche an diesem geeignet die
+Winkelbeziehung zwischen und.
+
+Strategien zur Berechnung von Winkelgrößen im Rahmen entsprechend komplexerer, innermathematischer Kontexte bedürfen zunächst der reflektierten Auseinandersetzung. Das gemeinsame Herausarbeiten von Strategiefragen und -techniken kann hilfreich sein:
+Welche Winkelgröße ist gegeben? Markiere sie in der Figur.
+Welche Winkelgröße ist durch eine Gleichung näher bestimmt und ist z. B. ein Vielfaches oder ein Teil eines anderen Winkels in der Figur? Notiere den Term im entsprechenden Winkelfeld.
+Welche Winkelgröße ist gesucht?
+Welche Aussagen lassen sich über die Winkelgrößen in der Figur noch treffen? Speziell: Gibt es aufgrund von besonderen geometrischen Bedingungen gleich große Winkel (Scheitelwinkel, Stufenwinkel, Wechselwinkel, ...)? Ist eine weitere Winkelgröße aufgrund besonderer geometrischer Bedingungen bekannt bzw. zu erschließen? Ist die Summe mehrerer Winkelgrößen aufgrund besonderer geometrischer Bedingungen bekannt (Winkelsumme im n-Eck, Nebenwinkel, ...)?
+Lassen sich Terme/Gleichungen – Aussagen über die Winkelbeziehungen in der gegebenen Figur – aufstellen? Lassen sich unbekannte Winkelgrößen allgemein durch andere ausdrücken?
+...
+Die gewonnenen Einsichten und Heurismen können anschließend anhand weiterer ähnlicher Aufgaben gefestigt und vertieft werden. Dabei eignen sich z. B. Aufgaben zur Berechnung von Winkelgrößen bei Geradenkreuzungen, an parallelen Geraden oder in n-Ecken, die sich leicht entwickeln lassen oder auch in Schulbüchern zu finden sind.
+
+===== berechnungenamrechteck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2016
+
+Didaktische Handreichung: Berechnungen am Rechteck
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da der Flächeninhalt und der Umfang eines Rechtecks berechnet werden soll.
+Da Operationen mit den Längenangaben am Rechteck durchzuführen sind, fragt die Aufgabe Kompetenzen im Bereich Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) ab.
+Es sind allerdings nur elementare Lösungsverfahren und das direkte Anwenden von Formeln nötig, so dass die Aufgabe dem Anforderungsbereich I zuzuordnen ist.
+Anregungen für den Unterricht
+Im Gegensatz zu vielen anderen Aufgaben sind hier keine Maßeinheiten vorgegeben (siehe Abbildung 1). Zur erfolgreichen Bearbeitung dieser Aufgabe sind deshalb die Rechenverfahren auszuwählen und Einheiten anzugeben. Die folgende Schülerlösung zeigt, dass der Schüler Einheiten von Flächeninhalten und Umfängen richtig angeben kann, aber die Verfahren verwechselt.
+[Bild: image1.png]
+Abbildung 1: Schülerlösung
+Eine Möglichkeit dem im Unterricht entgegenzuwirken besteht darin, die Multiplikation schon früh mit der Vorstellung der Berechnung des Flächeninhalts eines Rechtecks zu verbinden. In diesem Sinne wäre die Berechnung des Flächeninhalts eines Rechtecks eine Visualisierung der Multiplikation (siehe Abbildung 2).
+[Bild: image2.jpeg]
+Abbildung 2: Multiplikation als Flächenberechnung
+Dieses Vorgehen bietet über mehrere Klassenstufen hinweg angewendet diverse didaktische Potenziale. Zum einen könnte die Multiplikation anschaulich von der Addition aus entwickelt werden, indem die Multiplikation als Zusammenfassung bzw. Vereinfachung des Abzählens von Quadratflächen verstanden wird. In der Sekundarstufe I kann auf diese Veranschaulichung zurückgegriffen werden, wenn im Unterricht Terme und Termumformungen behandelt werden (siehe Abbildung 3). Insbesondere eignet sich dieses Verfahren, um die binomischen Formeln zu visualisieren (siehe Abbildung 4).
+[Bild: image3.jpeg]
+Abbildung 3: Visualisierung von 7a + 5a = 12a
+Mithilfe dieser anschaulichen Deutung der Multiplikation wird dann auch der Grundstein für eine geometrische Deutung verschiedener Arten der Multiplikation bei Vektoren in der Sekundarstufe II gelegt (siehe Abbildung 4). So liefert der Betrag des Kreuzprodukts zweier Vektoren den Flächeninhalt des Parallelogramms, das durch die beiden Vektoren aufgespannt wird. Der Betrag des Spatprodukts liefert den Rauminhalt des Spats.
+[Bild: image4.png]
+Abbildung 4: Visualisierung der 1. Binomischen Formel
+
+===== berndunddasbrot · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Didaktische Handreichung: Bernd und das Brot
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe wird der Leitidee Zahl (L2) zugeordnet, weil hier mit Gewichtsangaben umgegangen werden muss.
+In der Aufgabe soll ein Lückentext ausgefüllt werden. Hierzu müssen die Gewichtsangaben 500 g, 5 kg und 55,5 kg den Objekten Brot, Schultasche und eigener Körper mit Schultasche korrekt zugeordnet werden. Die Lernenden müssen dazu Ankervorstellungen zu Massen nutzen, um insbesondere Gramm und Kilogramm voneinander abgrenzen zu können (K5).
+Da die Schülerinnen und Schüler hier nur mit gut bekannten Größen umgehen müssen, wird die Aufgabe dem Anforderungsbereich I zugeordnet.
+Anregungen für den Unterricht
+Die Fähigkeit zum Abschätzen von Größen ist eine wesentliche Voraussetzung dafür, Mathematik auch im Alltag adäquat anwenden zu können. Darüber hinaus bietet sie insbesondere für den Mathematik- oder Physikunterricht die wertvolle Möglichkeit, Ergebnisse aus Anwendungsaufgaben auf ihre Plausibilität hin zu überprüfen. Um Größen korrekt abschätzen zu können, brauchen Lernende ein profundes (Welt-)Wissen über Bezugsgrößen („Stützpunktwissen“), das für Abschätzungen herangezogen werden kann. Wie hoch ist eine Tür? Wie groß ist ein Fußballfeld? Wie schwer ist eine erwachsene Frau oder ein Mann? Wie schnell fahre ich auf dem Fahrrad, maximal und im Durchschnitt? Solche und weitere Fragen sollten von Heranwachsenden in diesem Zusammenhang beantwortet werden können. Ein solches Weltwissen kann nicht ad hoc in einem einzelnen Unterrichtsgang ausgebildet und verinnerlicht werden. Vielmehr geht es darum, das Wissen über Bezugsgrößen im Laufe der Schulzeit systematisch auszubilden und schon in den frühen (Unterrichts-)Jahren zu fördern.
+Zu Beginn der Sekundarstufe I können Lernende, ausgerüstet z. B. mit einem Maßband, eigene Erkundungen auf dem Schulhof oder im Klassenraum (Wie viel Platz hat jedes Kind im Klassenraum?) anstellen. Hausaufgaben können auf kreative Weise auch die städtische Umgebung, das eigene Zuhause oder den eigenen Körper (Wie lang ist ein Schritt? Wie groß ist die Spannweite meiner Arme?) einbeziehen. Die Erkundungen sollten in verschiedene Aufgaben und unterschiedliche Themengebiete eingebettet sein. Dazu müssen nicht zwangsläufig neue und andere Aufgaben entwickelt werden. Oft besteht die Möglichkeit, Aufgaben aus Schulbüchern zu öffnen, indem die Werte einer Aufgabe durch eine vom Lernenden anzustellende Abschätzung ersetzt werden, ein Foto anstelle einer Skizze mit Maßangaben verwendet wird oder im Anschluss an eine Anwendungsaufgabe dazu aufgefordert wird, Ergebnisse an der Realität zu prüfen. Ein Plakat im Klassenraum, auf dem verschiedene Vergleichsgrößen festgehalten werden, kann die Ergebnisse solcher Erkundungen überzeitlich sichern und in diversen Unterrichtssituationen spontan herangezogen werden.
+Auch der Blick über die Grenzen des Mathematikunterrichts hinaus ist lohnenswert. So bietet neben dem Fach Physik beispielsweise der Erdkundeunterricht vielfältige Gelegenheiten, ein Wissen über Vergleichsgrößen (Durchschnittstemperaturen, Niederschlagsmengen, Flächen von Städten und Ländern, Entfernungen zwischen bestimmten Orten) auszubilden. Auf dieses Wissen kann, entsprechend gesichert, auch im Mathematikunterricht zurückgegriffen und die beiden Fächer so thematisch miteinander verknüpft werden.
+Schülerinnen und Schüler können  im Nachgang, ähnlich wie in der obigen Aufgabe, eigene kurze Texte entwerfen und wechselseitig bearbeiten, um das Verständnis der Lernenden von Größenangaben zu überprüfen.
+
+===== butter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2015
+
+Didaktische Handreichung: Butter
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), weil es hier um die Bestimmung von Länge und Masse geht.
+Die Schülerinnen und Schüler sollen anhand eines Fotos bestimmen, wie viel Masse von einem Stück Butter abgeteilt wurde. Sie können hierbei auf eine auf der Butterverpackung abgebildete Skala zurückgreifen, die mögliche Schnittstellen für Stücke zu je 50 g markiert. Die Lernenden müssen auf dem Foto erkennen, dass ungefähr anderthalb Stücke zu je 50 g abgeschnitten wurden (K4). Hieraus lässt sich wiederum berechnen, dass die abgeschnittene Butter etwa 75 g wiegen muss (K5).
+Weil die benötigten Informationen sich direkt aus der Abbildung ablesen lassen und nur einfache Routinerechnungen durchgeführt werden müssen, handelt es sich hier um Anforderungsbereich I.
+Anregungen für den Unterricht
+Mathematisch betrachtet kann diese Aufgabe auf die graphische Darstellung von Brüchen als Anteile geometrischer Figuren zurückgeführt werden:
+[Bild: image1.png]
+Abbildung 1
+
+[Bild][Bild]Im Unterricht dienen diese graphischen Darstellungen dazu, ein intuitives Verständnis von Brüchen als Teil eines Ganzen auszubilden. Der Reiz dieser speziellen Aufgabe besteht darin, diese Vorstellung mit realen Gegenständen zu verknüpfen. Es wird kein unterteiltes Rechteck oder ein unterteilter Kreis betrachtet, sondern eine Packung Butter, die man so in einem Supermarkt finden kann. Schokoladentafeln oder Stücke eines Fladenbrots können im Unterricht sowohl der Anschauung als auch der Motivation dienen. Auch das Rechnen mit Brüchen lässt sich auf diese Weise veranschaulichen:
+[Bild: image2.png]
+ | Abbildung 2
+
+[Bild][Bild][Bild: image3.png]
+ | Abbildung 3
+
+===== derriese · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K3, K4, K5, K6, Jahrgang 2015
+
+Didaktische Handreichung: Der Riese
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematisches Modellieren (K3),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Weil es in dieser Aufgabe um die Bestimmung einer Länge geht, wird sie der Leitidee Messen (L2) zugeordnet.
+In der Aufgabenstellung ist eine Zeichnung zu sehen, die den oberen Teil eines großen Kopfes darstellt. Die Schülerinnen und Schüler sollen mit mathematischen Mitteln bestimmen, wie groß ein Riese ungefähr sein müsste, zu dem der abgebildete Teil des Kopfes gehört. Derlei Tätigkeiten erfordern die Kompetenz mathematisch zu modellieren (K3). Die Aufgabe weist im Hinblick sowohl auf den Lösungsweg als auch auf die zu treffenden Annahmen und das Ergebnis eine große Offenheit auf. Die Schülerinnen und Schüler müssen demnach ein für sie unbekanntes Problem lösen (K2). Zunächst müssen die Lernenden abschätzen, welches Verhältnis zwischen der Höhe des abgebildeten Teils des Kopfes und der gesamten Körpergröße besteht (K4). Hierzu können sie sich auf die eigenen Körperproportionen oder die eines erwachsenen Menschen beziehen. Anschließend lässt sich dieses Verhältnis auf die Zeichnung übertragen und mithilfe der in der Aufgabenstellung genannten Höhe des herausragenden Kopfteils die gesuchte Größe berechnen. Hierzu kann beispielsweise das Dreisatzverfahren verwendet werden (K5). Abschließend soll der eigene Lösungsweg dokumentiert werden (K6).
+Aufgrund des hohen Grades an Offenheit (vor allem in Bezug auf zu treffende Annahmen und den Lösungsweg), stellt die Aufgabe hohe kognitive Anforderungen in Bezug auf das mathematische Modellieren und Problemlösen. Die Aufgabe wird daher dem Anforderungsbereich III zugeordnet.
+Anregungen für den Unterricht
+Die Fähigkeit zum Abschätzen von Größen ist eine wesentliche Voraussetzung dafür, Mathematik auch im Alltag adäquat anwenden zu können. Darüber hinaus bietet sie insbesondere für den Mathematik- oder Physikunterricht die wertvolle Möglichkeit, Ergebnisse aus Anwendungsaufgaben auf ihre Plausibilität hin zu überprüfen. Um Größen korrekt abschätzen zu können, brauchen Lernende ein profundes (Welt-)Wissen über Bezugsgrößen („Stützpunktwissen“), das für Abschätzungen herangezogen werden kann. Wie hoch ist eine Tür? Wie groß ist ein Fußballfeld? Wie schwer/groß ist eine erwachsene Frau oder ein Mann? Wie schnell fahre ich auf dem Fahrrad, maximal und im Durchschnitt? Solche und weitere Fragen sollten von Heranwachsenden in diesem Zusammenhang beantwortet werden können. Ein solches Weltwissen kann nicht ad hoc in einem einzelnen Unterrichtsgangausgebildet und verinnerlicht werden. Vielmehr geht es darum, das Wissen über Bezugsgrößen im Laufe der Schulzeit systematisch auszubilden und schon in den frühen (Unterrichts-)Jahren zu fördern.
+Zu Beginn der Sekundarstufe I können Lernende, ausgerüstet z. B. mit einem Maßband, eigene Erkundungen auf dem Schulhof oder im Klassenraum (wie viel Platz hat jedes Kind im Klassenraum?) anstellen. Hausaufgaben können auf kreative Weise auch die städtische Umgebung, das eigene Zuhause oder den eigenen Körper(Wie lang ist ein Schritt? Wie groß ist die Spannweite meiner Arme?) einbeziehen. Die Erkundungen sollten in verschiedene Aufgaben und unterschiedliche Themengebiete eingebettet sein. Dazu müssen nicht zwangsläufig neue, gänzlich andere Aufgaben entwickelt werden. Oft besteht die Möglichkeit, Aufgaben aus Schulbüchern zu öffnen, indem die Werte einer Aufgabe eben durch eine vom Lernenden anzustellende Abschätzung ersetzt werden, ein Foto anstelle einer Skizze mit Maßangaben verwendet wird oder im Anschluss an eine Anwendungsaufgabe dazu aufgefordert wird, Ergebnisse an der Realität zu prüfen. Ein Plakat im Klassenraum, auf dem verschiedene Vergleichsgrößen festgehalten werden, kann die Ergebnisse solcher Erkundungen überzeitlich sichern und in diversen Unterrichtssituationen spontan herangezogen werden.
+Auch der Blick über die Grenzen des Mathematikunterrichts hinaus ist lohnenswert. So bietet neben dem Fach Physik beispielsweise der Erdkundeunterricht vielfältige Gelegenheiten, ein Wissen über Vergleichsgrößen (Durchschnittstemperaturen, Niederschlagsmengen, Flächen von Städten und Ländern, Entfernungen zwischen bestimmten Orten) auszubilden. Auf dieses Wissen kann, entsprechend gesichert, auch im Mathematikunterricht zurückgegriffen und die beiden Fächer können so thematisch miteinander verknüpft werden.
+Es gibt eine Vielzahl weiterer Modellierungsprobleme, bei denen wie in der obigen Aufgabe auch Abschätzungen angestellt werden müssen. Im Folgenden seien einige Beispielaufgaben genannt, die für eine Weiterarbeit im Unterricht geeignet sind. Die erste Aufgabe ist dabei noch recht nah an der obigen Aufgabe, während in der zweiten und dritten Aufgabe neben dem Abschätzen von Größen auch das Modellieren mit geometrischen Formen eine große Rolle spielt:
+
+[Bild][Bild]Wie groß wäre ein Riese ungefähr, zu dem dieser Teil des Daumens gehört?
+[Bild: image1.png]
+ |
+
+[Bild][Bild]Der Elefant soll baden.
+Wie viel Wasser läuft aus einem randvollen Becken heraus?
+[Bild: image2.jpeg]
+
+ |
+
+[Bild: image3.png] Wie viel Luft passt in diesen Heißluftballon?
+
+[Bild][Bild][Bild: image4.png]
+ |
+
+===== derstern · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K5, Jahrgang 2016
+
+Didaktische Handreichung: Der Stern
+
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da der Flächeninhalt einer Figur bestimmt werden soll. Dazu muss der gegebenen Figur die Maßangabe von 1 cm pro Kästchen entnommen und zur weiteren Berechnung verwendet werden.
+Das Lösen der Aufgabe erfordert Kompetenzen im Bereich Mathematische Darstellungen verwenden (K4). Denn die Schülerinnen und Schüler müssen mit der gegebenen mathematischen Darstellung umgehen und ggf. neue Darstellungen erzeugen, um die Frage zu beantworten. Dazu ist es zudem notwendig, dass sie mit den geometrischen Objekten und den errechneten Größen Operationen vornehmen, was Kompetenzen im Bereich Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) erfordert.
+Die Aufgabe erfordert das verständige Interpretieren und Verändern der gegebenen Darstellung, sowie die mehrschrittige Anwendung von mathematischen Prozeduren (beispielsweise Zerlegen, Flächenberechnung, Zusammenfassen) und den Umgang mit Termen. Daher ist die Aufgabe dem Anforderungsbereich II zuzuordnen.
+Anregungen für den Unterricht
+Wurde in der Aufgabe „Der Stern“ die Figur von Schülerinnen und Schülern konkret beschriftet, erhöht sich der diagnostische Wert der Schülerlösung. In Abbildung 1 ist eine Schülerlösung zu sehen, bei der die Teilflächen des Sterns mit Maßzahlen versehen worden sind. Die angekreuzte Lösung lässt erkennen, dass der Schüler das Prinzip der Flächenberechnung, eine unbekannte Figur in bekannte Figuren zu zerlegen, beherrscht. Er nutzt dabei die mathematische Darstellung (K4). Zum falschen Ergebnis gelangt der Schüler, weil er offensichtlich den Flächeninhalt der Dreiecksflächen nicht korrekt bestimmt hat. Sofern der Schüler versucht hat, die Dreiecksflächeninhalte mittels einer Formel zu berechnen, sollte die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) in dieser Hinsicht weiter gefördert werden. Wenn der Schüler versucht hat, die Dreiecksflächen in der Abbildung mental neu zu organisieren, um so auf den Flächeninhalt zu schließen, so sollte an dieser Stelle die Kompetenz Mathematische Darstellungen verwenden (K4) weiter gefördert werden.
+Eine Intervention seitens der Lehrkraft könnte sich die vorhandene Kompetenz im Umgang mit der mathematischen Darstellung zunutze machen, um Kompetenzen im Bereich des technischen Arbeitens weiter zu fördern. Da der Schüler verstanden hat, dass zur Berechnung des Flächeninhalts einer unbekannten Figur diese in bekannte Figuren zerlegt werden kann, ist anzunehmen, dass er ebenso versteht, dass eine „unbekannte“ Figur wie das Dreieck zu einer bekannten Figur wie dem Rechteck erweitert werden kann. Auf diesem Wege erhält der Schüler die Möglichkeit, die Formel zur Berechnung des Flächeninhalts eines Dreiecks argumentativ-anschaulich zu erschließen.
+[Bild: image1.png]
+ | Abbildung  SEQ Abbildung \* ARABIC 3: Schülerlösung
+Will man im Unterricht darüber hinaus Strategien zur Berechnung von Flächeninhalten unbekannter Figuren trainieren, bietet es sich an, die Aufgabe „Der Stern“ durch die folgende Beispielaufgabe zu ergänzen. Sofern die Seitenlänge der Zacken, die diagonal zu einem einzelnen Kästchen verlaufen, weder rechnerisch (Satz von Pythagoras) noch durch Messen (Zeichnung nicht maßstabsgerecht) ermittelt werden kann, besteht eine naheliegende Strategie darin, von der Gesamtfläche des Gitters all solche Flächen abzuziehen, die nicht zum gegeben Zackenstern gehören.
+
+Auf das Gitterpapier ist ein 8 - zackiger Stern gezeichnet.
+1 cm (nicht maßstabsgerecht)
+Gib den Flächeninhalt dieses Sterns an.
+2 cm
+
+Soll der Flächeninhalt hingegen „vorwärts“ berechnet werden, d. h. ohne von der Gesamt-fläche Flächeninhalte abzuziehen, so erfordert dies eine komplexere mentale Neuorganisation bei den „kleinen“ Zacken des 8-zackigen Sterns. Im Unterricht kann jedoch auch auf eine näherungsweise Bestimmung des Flächeninhalts verweisen werden. Schülerinnen und Schüler würden dann zunächst ganze Quadrate zählen, die zur Figur gehören, und dann überlegen, wie groß der Flächeninhalt ist, der von Dreiecksflächen nur teilweise ausgefüllt wird.
+Flankierend können in die Bestimmung des Flächeninhalts Überlegungen zur Symmetrie der Figur aufgenommen werden. Es müsste dann lediglich der Flächeninhalt eines Viertels des Zacken-Sterns bestimmt werden.
+Eine weitere Strategie zur Bestimmung des Flächeninhalts könnte darin bestehen, die Figur neu und dann maßstabsgerecht zu zeichnen. Ein solches Vorgehen erlaubt es, die Diagonale in einem Kästchen (Grundseite der „kleinen“ Zacken) zu messen. Es muss nicht auf den Satz von Pythagoras zurückgegriffen werden.
+Um Problemlösekompetenzen im Unterricht bezüglich der Flächeninhaltsberechnung zu fördern, sollten möglichst verschiedene Strategien erarbeitet und systematisiert werden.
+
+===== figurauszweidreiecken · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K1, K4, K6, Jahrgang 2014
+
+Didaktische Handreichung: Figur aus zwei Dreiecken
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört der Leitidee Messen (L2) an, da es um die Größe von Winkeln geht.
+Zur Bearbeitung der Aufgabe sind zunächst die einzelnen Antwortalternativen zu lesen und inhaltlich zu verstehen. Dabei sind insbesondere Fachbegriffe wie z. B. „kongruent“ und „Scheitelwinkel“ richtig zu erfassen (K6). Parallel dazu müssen anhand der Zeichnung verschiedene Winkelbeziehungen erkannt werden, mit deren Hilfe sich die Frage, ob die Winkel    und     gleich groß sind, beantworten lässt (K4). Die verschiedenen Antwortalternativen werden somit in Beziehung zur Zeichnung gesetzt, um deren Richtigkeit zu prüfen und argumentativ untermauern zu können (K1).
+Aufgrund der Arbeit auf allgemeiner Ebene gehört diese Aufgabe dem Anforderungsbereich III an.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Antwortalternative [01] (Fehllösung: richtig):
+Wird diese Antwortalternative fälschlicherweise als richtig bewertet, kann es daran liegen, dass der Begriff „kongruent“ inhaltlich nicht richtig erfasst worden ist bzw. dieser mit dem Begriff „ähnlich“ verwechselt wird.
+Antwortalternative [02] (Fehllösung: falsch):
+Die falsche Beurteilung dieser Antwortalternative kann auf mangelnde Fachkenntnisse hinweisen. Insbesondere der Begriff „Scheitelwinkel“ sowie die Innenwinkelsumme im Dreieck könnten hierbei Probleme bereitet haben. Der Schritt von
+                            zu                     kann nicht vollzogen werden. Auch die formale Schreibweise kann für die Schülerinnen und Schüler ungewohnt sein.
+Antwortalternative [03] (Fehllösung: richtig):
+Wird diese Antwortalternative fälschlicherweise als richtig bewertet, deutet dies auf die Fehlvorstellung hin, Winkelgrößen in Figuren seien von der Größe der Figur abhängig.
+Antwortalternative [04] (Fehllösung: falsch):
+Die falsche Beurteilung dieser Antwortalternative kann auf Schwierigkeiten mit dem Begriff „Wechselwinkel“ hindeuten, oder der hier angeführte Satz über identische Winkel ist nicht bekannt.
+Antwortalternative [05] (Fehllösung: richtig)
+Wird diese Antwortalternative als richtig bewertet, wurde offenbar nicht erkannt, dass es sich bei den Winkeln     und    um Scheitelwinkel handelt.
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Aufgabe Schwierigkeiten auf, können der Winkelbegriff sowie wichtige Winkelbeziehungen wiederholt werden. Dabei bietet es sich zunächst an, die Unabhängigkeit der Größe eines Winkels von der Schenkellänge zu thematisieren. Hierzu können mehrere Folien- oder Pappexemplare desselben Winkels mit unterschiedlicher Schenkellänge übereinandergelegt werden.
+Zur Wiederholung der Winkelbeziehungen in Dreiecken kann die Ebene mit kongruenten Dreiecken parkettiert werden, wodurch den Schülerinnen und Schülern auch ein handelnder Zugang zur Thematik ermöglicht werden kann. So können sie anhand der Parkettierung leicht Scheitel- und Nebenwinkel sowie Wechsel- und Stufenwinkel erkennen und ihre Besonderheiten wiederholen. Auch die Innenwinkelsumme eines Dreiecks kann am Beispiel veranschaulicht und auf allgemeiner Ebene bewiesen werden, wodurch die Kompetenz mathematisch Argumentieren trainiert wird. Denkbar ist ebenfalls das Angebot einer begonnenen Beweisdarstellung, die zu Ende geführt werden muss, oder eine Art Lückentext. Ein möglicher Lückentext kann leicht aus den Antwortalternativen der Testaufgabe erzeugt werden, wie folgendes Beispiel zeigt:
+[Bild][Bild]
+ | Die beiden Winkel  und  sind gleich groß, da beide Winkel einen _______________ gemeinsam haben und ihre beiden anderen _______________ parallel zueinander verlaufen. Die Winkel  und  sind demnach ____________________ an _________________________ verlaufenden Geraden.
+ | Im Anschluss an diese Wiederholungsphase bietet sich eine Übungsphase mit Aufgaben zur Winkelberechnung in verschiedenen Figuren unter Berücksichtigung verschiedener Winkelbeziehungen an. Geeignete Aufgaben können z. B. dem hessischen Mathematikwettbewerb, Gruppe B, 2012 entnommen werden.
+
+===== flaechengleichodernicht · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K4, Jahrgang 2016
+
+Didaktische Handreichung: Flächengleich oder nicht?
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematisch argumentieren (K1)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Beide Teilaufgaben sind der Leitidee Messen (L2) zuzuordnen, da Aussagen über die Flächeninhalte von Parallelogrammen getroffen werden müssen.
+Teilaufgabe 1 erfordert dabei die Operation mit den gegebenen Längenangaben und damit Kompetenzen im Bereich Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5). In beiden Teilaufgaben werden mathematische Darstellungen von Parallelogrammen verwendet (K4). In Teilaufgabe 2 soll eine situationsadäquate mathematische Argumentation entwickelt werden. Somit werden auch Kompetenzen im Bereich Mathematisch argumentieren (K1) gefordert.
+Während die Teilaufgabe 1 nur elementare Lösungsverfahren und das direkte Anwenden einer Formel erfordert und daher dem Anforderungsbereich I zuzuordnen ist, muss in Teilaufgabe 2 eine überschaubare mehrschrittige Argumentation erläutert und entwickelt werden, weswegen diese Teilaufgabe dem Anforderungsbereich II zuzuordnen ist.
+Anregungen für den Unterricht
+In der ersten Teilaufgabe wird neben den für die Berechnung des Flächeninhalts des Parallelogramms notwendigen Angaben der Länge der Grundseite und der Länge der Höhe noch die vernachlässigbare Angabe zur Länge einer weiteren Seite gemacht. Die überflüssige Angabe einer Größe zwingt dazu, aus den gegebenen Angaben die relevanten Angaben sinnvoll zu entnehmen. Eine weit verbreitete Ausweichstrategie besteht bei solchen Aufgaben darin, alle gegebenen Zahlen auf irgendeine Weise miteinander zu verrechnen. In Abbildung 1 ist eine solche Schülerlösung zu sehen. Der Schüler verrechnet vermutlich die angegebenen Maßzahlen wie folgt: .
+[Bild: image2.jpeg]
+Abbildung 1: Schülerlösung 1
+Beide Teilaufgaben zielen auf die Bestimmung des Flächeninhalts eines Parallelogramms ab. In Teilaufgabe 1 kann dies kalkülhaft geschehen. In Teilaufgabe 2 wird hingegen eine Begründung verlangt, und somit ein verständiger Umgang mit Flächenberechnungen gefordert. Schülerlösungen zu beiden Aufgaben eignen sich in der Zusammenschau daher gut dafür, Fehlvorstellungen im Umgang mit Parallelogrammen zu diagnostizieren. Zwar ist es aus unterrichtspraktischer Sicht erwartbar, dass zumeist Teilaufgabe 1 gelöst werden kann, Schwierigkeiten hingegen in Teilaufgabe 2 auftreten. Dass dies nicht immer der Fall sein muss, soll durch folgende Schülerlösung in Abbildung 2 illustriert werden.[Bild: image3.jpeg]
+Abbildung 2: Schülerlösung 2
+Schülerlösung 2 ist insofern interessant, als dass es der Schülerin gelingt, in Teilaufgabe 2 eine adäquate Antwort zu geben. Gleichzeitig lässt die von ihr angefertigte Skizze in Teilaufgabe 1 vermuten, dass sie das Prinzip der Flächeninhaltsberechnung eines Parallelogramms kennt. Dennoch führt dies nicht zur korrekten Berechnung des Flächeninhalts in Teilaufgabe 1. Vermutlich hat die Schülerin auf die Formel zur Berechnung des Flächeninhalts von Dreiecken zurückgegriffen.
+Dieser Fehler führt in Teilaufgabe 2, folgerichtig angewendet, dazu, dass trotzdem eine schlüssige Begründung gegeben werden kann. Eine individuelle Förderung könnte zunächst hier ansetzen. In einem Gespräch könnte in Erfahrung gebracht werden, ob tatsächlich fälschlicherweise auf die Formel zur Berechnung des Flächeninhalts von Dreiecken anstelle von Parallelogrammen zurückgegriffen worden ist. Sodann könnte die Schülerin entlang der erkennbaren Potenziale, die ihre Schülerlösung sichtbar machen, zur korrekten Berechnung des Flächeninhalts geleitet werden.
+
+===== flaecheninhalt · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Flächeninhalt
+Merkmale der Aufgabe
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1B
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da der Flächeninhalt eines Rechtecks zu berechnen ist.
+Hierzu sind der abgebildeten Figur zunächst die Längen der beiden Rechteckseiten zu entnehmen (K4). Anschließend sind diese gemäß der Formel zur Berechnung des Flächeninhalts eines Rechtecks miteinander zu multiplizieren (K5).
+Aufgrund des Umgangs mit einer vertrauten Figur und einer vertrauten Formel wird die Aufgabe in den Anforderungsbereich I eingeordnet.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Statt des Flächeninhalts wird der Umfang des Rechtecks berechnet (Fehllösung: 16). Dies kann auf nicht genügend ausgebildete Grundvorstellungen zum Umfang bzw. zum Flächeninhalt hindeuten.
+Anregungen für den Unterricht
+Schwierigkeiten bei der Bearbeitung der Aufgabe können auf ungenügend ausgebildete Grundvorstellungen zurückgeführt werden. Zu ihrer Verbesserung bieten sich handlungsorientierte Ansätze an, wie z. B. das Auslegen verschiedener Figuren mit Einheitsquadraten oder ihr Umrahmen mit Wolle oder Draht zur Umfangsbestimmung. Vor diesem Hintergrund können die Formeln zur Berechnung des Flächeninhalts bzw. des Umfangs (wiederholend) abgeleitet werden.
+Zur Förderung leistungsstärkerer Schülerinnen und Schüler können Aufgaben zum operativen Durcharbeiten der Thematik gestellt werden. Hierzu bieten sich beispielsweise folgenden Aufgaben an:
+Ein Rechteck hat einen Flächeninhalt von 25 cm2. Welchen Umfang kann das Rechteck haben.
+Ein Quadrat hat einen Umfang von 100 cm. Welche Seitenlängen kann ein Rechteck mit demselben Umfang haben?
+Zeichne zwei verschiedene Rechtecke mit einem Flächeninhalt von 24 cm2.
+Zeichne ein Rechteck mit einem Flächeninhalt von 14 cm2 und einem Umfang von
+32 cm.
+Zur Bearbeitung dieser Aufgaben ist es zunächst notwendig, sich einen Lösungsweg zurechtzulegen. Dies macht es erforderlich, die Zusammenhänge zwischen den Seitenlängen, dem Flächeninhalt und dem Umfang der jeweiligen Figur zu durchdenken. So kann einerseits das Verständnis dieser Zusammenhänge gefördert und andererseits die Kompetenz K2 (Probleme mathematisch lösen) in den Unterricht eingebunden werden.
+
+===== fliesenfuerdenfussboden · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2015
+
+Didaktische Handreichung: Fliesen für den Fußboden
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 4. Funktionaler Zusammenhang
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Die erste Teilaufgabe gehört zur Leitidee Messen (L2), weil hier aus einer Skizze die Seitenlängen verschiedener Quadrate bestimmt werden sollen. In der zweiten Teilaufgabe geht es um die Beschreibung eines funktionalen Zusammenhangs (L4).
+In der gegebenen Skizze ist zu sehen, wie eine quadratische Fläche mit einer Seitenlänge von einem Meter mit drei Typen quadratischer Fliesen unterschiedlicher Größe ausgelegt werden soll. Hierbei ist zu erkennen, dass die Seitenlänge des größten Fliesentyps halb so groß wie die Seitenlänge der zu bedeckenden Fläche ist. Die Seitenlänge des mittelgroßen Fliesentyps ist wiederum halb so groß wie die Seitenlänge des großen Fliesentyps und die Seiten der kleinen Fliesen sind halb so lang wie die Seiten des mittelgroßen Fliesentyps. Für eine korrekte Lösung der Teilaufgabe 1 müssen die Lernenden diese Informationen aus der Skizze entnehmen (K4), um auf die Seitenlängen der drei Fliesentypen schließen zu können (K2, K5).
+In Teilaufgabe 2 sollen die Schülerinnen und Schüler mathematisch beschreiben, wie sich eine Halbierung der Seitenlänge der Fliesen auf die Anzahl der benötigten Fliesen auswirkt (K2, K5). Hierzu müssen sie insbesondere die gegebenen sprachlich kodierten Relationsinformationen dekodieren (K6).
+Die erste Teilaufgabe wird dem Anforderungsbereich I zugeordnet, weil die gesuchten Werte sich mithilfe der gegebenen Skizze leicht ermitteln lassen und die kognitiven Anforderungen an das Problemlösen hier eher gering sind. In der zweiten Teilaufgabe soll ein Zusammenhang zwischen zwei Größen hergestellt werden, weshalb es sich hier um Anforderungsbereich II handelt.
+Anregungen für den Unterricht
+Die Aufgabe bietet die Möglichkeit, den mathematischen Gehalt, Quadratflächen enaktiv, ikonisch und symbolisch zugänglich zu machen. So empfiehlt es sich zunächst durch Quadrate aus Pappe, die für verschiedene Fliesengrößen stehen, die Situation nachzubilden. Anhand dieses Modells können die beiden Teilaufgaben bereits beantwortet werden. Die Lösung der ersten Teilaufgaben ergibt sich dabei bereits aus der Konstruktion der Pappfliesen durch sukzessives Halbieren. Eine Idee zur Lösung der zweiten Aufgaben kann durch Probieren mit den Pappfliesen ermittelt werden.
+Anschließend kann ein Graph, eine weitere ikonische Darstellung neben der Zeichnung aus der Aufgabe, in ein Koordinatensystem gezeichnet werden, bei dem auf der x-Achse die Seitenlängen der quadratischen Fliesen abgetragen werden und auf der y-Achse die Anzahl an Fliesen, die benötigt wird, um einen Quadratmeter mit Fliesen auszulegen. Letztlich kann der Zusammenhang auch symbolisch,  als Funktionsgleichung (Anzahl der Fliesen = 1 m²/[Seitenlänge einer Fliese]²), gefasst werden. Die ikonische oder symbolische Darstellung kann dann herangezogen werden, um beispielsweise die Bedingungen der Aufgabe zu verändern und so weitere Abhängigkeiten, wenn etwa eine Fliese dreimal länger ist als die andere, zu untersuchen.
+Wie man leicht sieht, lässt sich die Aufgabe variieren, indem beispielsweise die Form oder die Größe der auszulegenden Fläche geändert wird. Ebenso lässt sich die Aufgabe zur Umkehraufgabe verändern, was anhand der zusätzlichen Teilaufgabe beispielhaft sichtbar wird.
+
+[Bild][Bild]
+1 16 1 8 1 4 1 2
+Der Fußboden einer Küche soll ebenfalls mit quadratischen Fliesen ausgelegt werden,
+die alle dieselbe Größe haben. Es stehen zwei Fliesengrößen zur Auswahl. Von den
+kleineren Fliesen würde man 16 - mal so viele Fliesen benötigen wie von den größeren
+Fliesen. In welchem Verhältnis stehen die Seitenlängen der kleineren und der
+größeren Fliesen?
+Kreuze an.
+Die Seitenlänge der kleineren Fliesen beträgt
+… der Seitenlänge der größeren Fliesen.
+
+Auswertung
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Merkmale
+Leitidee
+ | 4. Funktionaler Zusammenhang
+ | Allgemeine Kompetenz
+ | Mathematisches Argumentieren (K1),
+Probleme mathematisch lösen (K2),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ |
+ |
+
+===== fussleisten · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Fußleisten
+
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematisch modellieren (K3)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | III
+ |
+[Bild][Bild]
+Leitidee
+ | Zahl (L1)
+ | Allgemeine Kompetenz
+ | Mathematisch modellieren (K3)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | II
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da mit Größen (Längen, Geldwerte) gerechnet wird. Bei Teilaufgabe 1 sind dem Aufgabentext zunächst die wichtigen Informationen zu den Maßen des Zimmers, der Länge einer Fußleiste sowie zur Berücksichtigung der vorhandenen Tür zu entnehmen (K6). Anschließend ist die Bodenfläche des Zimmers als Rechteck aufzufassen (K3) und dessen Umfang sowie die Zahl der hierfür benötigten Fußleisten zu berechnen (K5). Bei Teilaufgabe 2 kann der gesuchte Preis durch einen einfachen Proportionalitätsschluss berechnet werden (K5).[Bild][Bild]
+Aufgrund der direkten Anwendbarkeit mathematischer Verfahren gehören beide Teilaufgaben zum Anforderungsbereich I.
+
+Zu Teilaufgabe 1:[Bild][Bild]
+Statt des Umfangs wird der Flächeninhalt berechnet. Dies weist auf Defizite bezüglich der Grundvorstellungen zum Umfangs- und Flächeninhaltsbegriff hin.
+Die Breite der Tür wird mit einem fiktiven Maß berücksichtigt. Eine derartige genauere Modellierung ist zwar wünschenswert, jedoch nur bei gleichzeitiger Berücksichtigung des Verschnittes zweckmäßig (K3).
+Zu Teilaufgabe 2:
+Es wird nicht die Zahl der benötigten Fußleisten bei 30 m berechnet, sondern stattdessen mit der in Teilaufgabe 1 berechneten Anzahl an Fußleisten weiter gearbeitet.
+
+===== gesamtkantenlaenge · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2017
+
+Didaktische Handreichung: Gesamtkantenlänge
+
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe wird eine Länge bestimmt. Damit zählt die Aufgabe „Gesamtkantenlänge“ zur Leitidee Messen (L2).
+
+Schülerinnen und Schüler nutzen hier das Schrägbild als Informationsquelle. Daher wird die Kompetenz Mathematische Darstellungen verwenden (K4) verlangt. Zur Berechnung der Gesamtkantenlänge kann ein Term verwendet werden (). Daher wird auch die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) gefordert.
+
+In der Aufgabe „Gesamtkantenlänge“ wird eine vertraute Darstellung genutzt. Die Berechnung der Gesamtkantenlänge gleicht einem Routineverfahren. Daher wird diese Aufgabe dem Anforderungsbereich I zugeordnet.
+Anregungen für den Unterricht
+In der Regel wird im Geometrieunterricht die Flächeninhalts- und Volumenberechnung mit arithmetischen und algebraischen Überlegungen in Verbindung gebracht. So werden beispielweise Formeln verwendet durch Einsetzen oder Umstellen derselben. Formeln zur Berechnung von Flächeninhalten und Volumina weitgehend selbständig zu entdecken fällt vermutlich vielen Schülerinnen und Schülern schwer. Stellt man hingegen die Verbindung zwischen Geometrie, Arithmetik und Algebra durch die Berechnung der Gesamtkantenlänge von bestimmten Polyedern her, gelingt dies vermutlich leichter, da lediglich ein eindimensionaler Aspekt der Körper betrachtet wird. Dabei kann die Aufgabe „Gesamtkantenlänge“ dazu genutzt werden, die eigenständige Entwicklung von Formeln zur Bestimmung der Gesamtkantenlänge verschiedener Polyeder anzuregen. Der mathematische Zusammenhang bietet sich damit an, Variablen einzuführen oder den Umgang mit Variablen zu festigen. Auf diese Weise wird ein Beitrag dazu geleistet, die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) langfristig zu entwickeln.
+
+Werden die Kantenlängen des Quaders mit a, b und c bezeichnet, führt die Berechnung der Gesamtkantenlänge eines Quaders auf die Formel . Im Unterricht können Schülerinnen und Schüler aufgefordert werden diese Formel zu entwickeln. Anschließend werden sie aufgefordert für andere Polyeder Formeln zur Berechnung der Gesamtkantenlänge zu entwickeln. Hier liegt der Würfel nahe (), aber auch ein Quader mit quadratischer Grundfläche
+() oder andere Prismen mit regelmäßigen Grundflächen sind denkbar.
+
+Es bieten sich außerdem regelmäßige Pyramiden an wie Tetraeder (), quadratische Pyramiden () und regelmäßige fünfseitige Pyramiden (). In diesem Zusammenhang kann auch der Fall untersucht werden, bei dem die Seitenflächen gleichseitige Dreiecke sind.
+
+Die geometrischen Objekte sollten den Schülerinnen und Schülern auch als Modelle zum Anfassen zur Verfügung gestellt werden. Auf diese Weise kann der Übergang von einer enaktiven Repräsentation der Kantenlängenberechnung zu einer symbolischen angeregt werden. Werden die geometrischen Objekte lediglich als Schrägbild dargestellt, wird der Übergang von einer ikonischen zu einer symbolischen Repräsentation angeregt.
+
+===== gewerbezone · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Gewerbezone
+Merkmale der Aufgabe
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mit symbolischen/formalen/technischen Elementen umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da es um Flächeninhalte geht.
+Zur Bearbeitung der Aufgabe sind dem Text sowie der Abbildung zunächst die wichtigen Informationen zu entnehmen (K6). Dabei ist insbesondere zwischen der Gesamtfläche und der noch zur Verfügung stehenden Fläche zu unterscheiden. Auch die Formulierung „Grundstücke ab 5000 m2“ ist als wichtig zu erkennen und für die Lösung der Aufgabe zu nutzen. Um die maximale Anzahl an Grundstücken zu erhalten, kann angenommen werden, dass ein Grundstück genau 5000 m2 groß ist. Die zur Lösung der Aufgabe nötigen Rechnungen sind einfach. Auf die notwendige Umrechnung der angegebenen Flächengrößen in eine gemeinsame Einheit folgt eine einfache Division (K5).
+Aufgrund der Anforderungen an das Kommunizieren gehört diese Aufgabe dem Anforderungsbereich II an.
+Folgende Fehler und Schwierigkeiten sind zu erwarten:
+Es gelingt nicht, die Größenangaben sinnvoll miteinander in Beziehung zu setzen. So berechnen die Schülerinnen und Schüler beispielsweise die Größe der bereits verkauften Grundstücksfläche (Fehllösung: 4), wie die folgende Schülerlösung zeigt (K6).
+[Bild: image1.png]
+Es wird nicht mit der noch zur Verfügung stehenden Grundstücksfläche, sondern mit der gesamten Grundstücksfläche gerechnet (Fehllösung: 14) (K6).
+Es kommt zu Fehlern beim Umrechnen der Angaben in eine gemeinsame Flächeneinheit (K5).
+Die Formulierungen „ab 5000 m2“ und „höchstens ___Grundstücke“ bereitet den Schülerinnen und Schülern Schwierigkeiten (K6). Dies kann dazu führen, dass sie die Anzahl möglicher Grundstücke nicht berechnen, sondern diese nur abschätzen (mögliche Fehllösung: z. B. 5).
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Aufgabe Schwierigkeiten auf, kann insbesondere auf die sprachlichen Hürden eingegangen werden. Dabei kann es hilfreich sein, sich den Zusammenhang zwischen der Mindestgröße eines Grundstücks und der maximalen Anzahl an Grundstücken inhaltlich klar zu machen. Hierzu eignet sich eine tabellarische Gegenüberstellung der Grundstückgröße und der jeweiligen Anzahl möglicher Grundstücke. So werden die Formulierungen „Grundstücke ab 5000 m2“ und „höchstens __ Grundstücke“ transparent. Dabei bietet sich auch eine inhaltliche Diskussion an, in welcher darauf eingegangen wird, dass die Zahl der zur Verfügung stehenden Grundstücke von der gewählten Grundstückgroße abhängig ist. In diesem Zusammenhang können auch die Eigenschaften einer antiproportionalen Zuordnung wiederholt und anhand der Tabelle oder dem zugehörigen Graphen veranschaulicht werden.
+Ebenso kann die Aufgabe durch folgende Aufgabenstellung erweitert werden, so dass die Leitidee Zahl (L1) im Fokus steht und dabei die Sachsituation im Kontext der Prozentrechnung und Zinsrechnung behandelt wird:
+Eine Gewerbezone ist 7 ha groß. In den letzten 3 Monaten wurden bereits 65 % der Fläche an verschiedene Firmen verkauft. Von der restlichen Fläche sollen 8 % der nahegelegenen Schule für den Bau eines neuen Sportzentrums zur Verfügung gestellt werden. Die verbleibende Fläche soll in Form einzelner Grundstücke ab einer Größe von 5000 m2 verkauft werden.
+Berechne wie viel Hektar der Fläche bereits verkauft wurden.
+Gib die Größe der für das Sportzentrum vorgesehenen Fläche an.
+Berechne, wie viele Grundstücke noch verkauft werden können.
+ |
+
+===== hauptstaedte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 1B, K2, K3, K4, K5, Jahrgang 2014
+
+Didaktische Handreichung: Hauptstädte
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisches Modellieren (K3),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematisches Modellieren (K3),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Die Aufgabe gehört der Leitidee Messen (L2) an, da Messungen vorgenommen und mit diesen Umrechnungen durchgeführt werden.
+Zur Bearbeitung von Teilaufgabe 24.1 werden zunächst die Orte Berlin und Athen in der Karte gesucht und ihr Abstand gemessen (K4). Mit Hilfe des angegebenen Maßstabes (K3) wird die reale Entfernung berechnet (K5). Die Bearbeitung der Teilaufgabe 24.2 erfordert zunächst das Überlegen einer Vorgehensweise (K2). Zunächst kann die angegebene Entfernung dem Maßstab entsprechend umgerechnet werden (K3, K5). Anschließend kann um Berlin ein Kreis gezeichnet werden, dessen Radius der berechneten Entfernung entspricht. Auf der Kreislinie liegen alle Orte, die von Berlin in Wirklichkeit 1100 km entfernt sind (K3). Alternativ kann die Entfernung der angegebenen Orte zu Berlin auf der Karte gemessen und mit der vorgegebenen bzw. berechneten Entfernung verglichen werden (K4).
+Aufgrund der Anforderungen an das mathematische Modellieren können beide Teilaufgaben bereits dem Anforderungsbereich II zugeordnet werden.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 24.1:
+Es kommt zu Messfehlern. Dies deutet auf Schwierigkeiten im Umgang mit dem Messgerät oder in der Arbeit mit der Karte hin.
+Als Entfernungsangabe wird der Messwert notiert. Die Bedeutung des Maßstabs als Verhältnis der Entfernungen in Karte und Wirklichkeit scheint nicht erfasst worden zu sein. Dies veranschaulicht die folgende Schülerlösung:
+[Bild: image1.png]
+Zu Teilaufgabe 24.2:
+Die Entfernungsangabe kann nicht maßstabsgerecht umgerechnet werden. Dies deutet auf Schwierigkeiten im flexiblen Umgang mit dem Maßstab hin.
+Anregungen für den Unterricht
+Soll der Begriff des Maßstabs im Unterricht erneut aufgegriffen und sollen die Schülerinnen und Schüler zu einem flexiblen Umgang mit diesem befähigt werden, bietet sich eine handelnde Auseinandersetzung mit diesem Thema an. Hierzu können die Schülerinnen und Schüler verschiedene alltägliche Gegenstände ausmessen und diese maßstabsgetreu zeichnen. Besonders geeignet ist dabei z. B. die Darstellung des eigenen Zimmers und dessen Einrichtung. Hierdurch wird die Bedeutung des Maßstabs deutlich und seine Anwendung trainiert. Gemäß den für die Jahrgangsstufe 8 vorgesehenen Unterrichtseinheiten kann diese Idee gut zu einem themenverbindenden Projekt, wie „Meine erste Wohnung“ oder „Mein neues Zimmer“ ausgebaut werden. So können durch weiterführende Fragestellungen auch die Flächenberechnung oder die Prozentrechnung integrativ wiederholt werden. Neben einfachen Übersichtszeichnungen können auch maßstabsgerechte Modelle gebaut werden.
+Auch die Darstellung z. B. mit dem Fahrrad oder dem Auto zurückgelegter Wege bietet sich an. Dabei lassen sich nicht nur reale Daten in eine verkleinerte Karte überführen, sondern leicht auch auf der Karte ermittelte Weglängen in reale Daten umrechnen. Dies kann gut im Rahmen der Vorbereitung einer Klassenfahrt oder eines Wandertages geschehen. Leistungsstärkere Schülerinnen und Schüler können in diesem Zusammenhang auch aufgefordert werden, Weg-Zeit-Diagramme (siehe hierzu auch: Aufgabe Zoobesuch und Aufgabe Inliner der Lernstandserhebung 2014) anzufertigen und zu diesen eine passende Geschichte zu schreiben.
+
+===== holzstab · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Holzstab
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allg. Kompetenz
+ | Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | I
+ |
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allg. Kompetenz
+ | Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | II
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da Längen zu berechnen sind. Zur Bearbeitung beider Teilaufgaben sind einfache Grundrechenoperationen durchzuführen (K5). Teilaufgabe 2 erfordert zusätzlich den Rückgriff auf die Anteilsvorstellung, d. h. „ein Viertel“ muss als vierter Teil von 2 m gedeutet werden. [Bild][Bild]
+Da es sich bei der Bearbeitung der Aufgabe um Routinerechnungen handelt, gehören beide Teilaufgaben zum Anforderungsbereich I.
+
+Zu Teilaufgabe2: Es wird nur ein Viertel von 2 m berechnet, d. h. das „nicht“ wird übersehen (K6).[Bild][Bild]
+
+===== honigbiene · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, Jahrgang 2016
+
+Didaktische Handreichung: Honigbiene
+
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematisch modellieren (K3)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da mit Hilfe von Größen über geeignete Repräsentanten die Länge der Biene geschätzt werden soll.
+Zum Lösen der Aufgabe kann die Biene entweder beispielsweise mit der Länge des Daumennagels auf dem Foto verglichen werden, oder es werden die gegebenen Antwortmöglichkeiten mental repräsentiert und mit der Biene verglichen. In jedem Fall muss zwischen der Realsituation (vermittelt durch das Foto) und den mathematischen Größenangaben hin- und hergewechselt werden, da die gegebenen Antwortmöglichkeiten als mögliche Ergebnisse in Hinblick auf ihre Stimmigkeit und Angemessenheit überprüft werden müssen. Daher fragt die Aufgabe Teilbereiche der Kompetenz Mathematisch Modellieren (K3) ab.
+Da die Interpretation und Validierung der gegebenen Ergebnisse direkt möglich ist, ist die Aufgabe dem Anforderungsbereich I zuzuordnen.
+Anregungen für den Unterricht
+Das Schätzen von Größen mit Hilfe von Vorstellungen über alltagsbezogene Repräsentanten wird in den Bildungsstandards unter der Leitidee Messen (L2) gefasst. Neben diesem mathematisch-inhaltlichen Aspekt ist das Schätzen zumeist in Modellierungsaufgaben relevant und kann als Voraussetzung dafür angesehen werden, Mathematik in realen Situationen anzuwenden.
+Diese Fähigkeit wird im Mathematikunterricht durch Aufgaben, bei denen Größen durch Maßzahlen und Maßeinheiten stets vorgegeben sind, nicht unbedingt gefördert. Lediglich wenn ein Ergebnis zu prüfen ist (Kann die Größenangabe stimmen?), wird den Schülerinnen und Schülern abverlangt, die eigene Vorstellung mit realen Gegebenheiten abzugleichen.
+Die hier vorgestellte Aufgabe „Honigbiene“ zeigt auf einfache Weise, wie mit einem alltagsbezogenen Repräsentanten (Handfläche) die Länge einer Biene abgeschätzt werden kann. Schülerinnen und Schüler sollten möglichst auf verschiedene alltagsbezogene Repräsentanten zurückgreifen können, um Größen in ihrer Umwelt oder in Ergebnissen von Mathematikaufgaben abschätzen zu können. Im Klassenraum könnten dafür Plakate zu Längen, Flächen und Massen (Gewichten) dauerhaft angebracht werden, auf denen Größen von typischen Repräsentanten festgehalten sind, z. B. Höhe eines Türrahmens - 2 m; Handfläche ohne Finger - 1 dm2; Tafel Schokolade – 100 g.
+
+===== judomatte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Judomatte
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allg. Kompetenz
+ | Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | I
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da ein Flächeninhalt zu ermitteln ist. Die hierzu benötigten Maße können dem Aufgabentext direkt entnommen und zur Berechnung genutzt werden (K5).[Bild][Bild]
+Da sich die Anforderungen der Aufgabe auf Routinerechnungen beschränken, gehört diese Aufgabe zum Anforderungsbereich I.
+
+1. Antwortalternative wurde angekreuzt: Vermutlich wird die Schreibweise „8 m2“ mit der Schreibweise „8m x 8m“ im Text und somit auch mit dem zu ermittelnden Flächeninhalt gleichgesetzt.[Bild][Bild]
+2. Antwortalternative wurde angekreuzt: Es ist naheliegend, dass die im Text enthaltenen Zahlen einfach addiert werden, ohne passende Grundvorstellungen zu aktivieren.
+3. Antwortalternative wurde angekreuzt: Vermutlich wird statt des Flächeninhalts der Umfang des Quadrats (32 m) berechnet.
+5. Antwortalternative wurde angekreuzt: Es könnte eine Fehlvorstellung über das gegebene Quadrat vorliegen (Seitenlänge 8m + 8 m).
+
+===== koerperfuellen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014
+
+Didaktische Handreichung: Körper füllen
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da der Rauminhalt eines Quaders bestimmt wird.
+Zur Bearbeitung der Aufgabe ist der Abbildung des Quaders die Anzahl der Kubikzentimeterwürfel zu entnehmen, die in ihn passen (K4). Dabei kann neben unterschiedlichen Strategien wie dem lageweisen gedanklichen „Abzählen“ auch die Berechnung der Würfelanzahl über die Multiplikation der Würfelanzahlen in Länge, Breite und Höhe des Quaders zum Ziel führen (K5).
+Da eine vertraute Darstellung genutzt wird bzw. ein Routineverfahren oder eine vertraute Beziehung verwendet wird, ist diese Aufgabe dem Anforderungsbereich I zuzuordnen.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Die Anzahl der Würfel in Länge, Breite und Höhe wird addiert anstatt multipliziert, d. h. das Routineverfahren zur Volumenbestimmung wird nicht korrekt ausgeführt und das Volumen wird fälschlich mit 14 Kubikzentimeter angegeben (Kästchen 1 wird angekreuzt).
+Es wird nur die Würfelanzahl einer Ebene betrachtet und dabei werden entweder die Länge oder die Höhe des Quaders außer Acht gelassen. Dabei wird die Würfelanzahl einer Ebene nicht genau bestimmt, sondern es wird nur davon ausgegangen, dass das Volumen gering sein muss (Kästchen 1 oder Kästchen 2 wird angekreuzt).
+Anregungen für den Unterricht
+[Bild][Bild]Eine Einsicht in Rauminhalte kann vor allem durch einen konkret handelnden Zugang ermöglicht werden. Dazu können Quader anhand von Kubikzentimeterwürfeln aufgebaut werden. Anhand des enaktiven Vorgehens wird darüber hinaus die Berechnung des Volumens über die Multiplikation der Grundfläche mit der Höhe des Körpers verdeutlicht. Schließlich sind weiterführende Aufgaben auf symbolischer Ebene zu empfehlen. Nachdem die Volumina von Quadern mit verschiedenen Seitenlängen bestimmt wurden, können über ein vorgegebenes Volumen dann auch umgekehrt die Kantenlängen errechnet werden, wie beispielsweise anhand folgender Aufgabenstellung:
+
+ | Das Volumen eines Quaders beträgt 100 Kubikzentimeter. Welche Möglichkeiten für seine Seitenlängen gibt es, wenn diese Vielfache von 1 cm sind?
+ |
+
+===== kopfundkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, K6, Jahrgang 2016
+
+Didaktische Handreichung: Kopf und Körper
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da Schülerinnen und Schüler dem Quellenmaterial (dem Eingangstext) Maßangaben entnehmen und damit Berechnungen durchführen.
+Diese Berechnungen, als Operationen mit Zahlen, erfordern Kompetenzen im Bereich Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5). Zudem müssen dem Eingangstext die wichtigen Informationen entnommen und diese verstanden werden, so dass die Aufgabe auch Kompetenzen im Bereich Mathematisch kommunizieren (K6) erfordert.
+Alles in allem können aber ein elementares Lösungsverfahren und eine Formel direkt angewandt werden, sodass die Aufgabe dem Anforderungsbereich I zuzuordnen ist. Auch entspricht die Ordnung des kurzen, mathematikhaltigen Eingangstexts weitestgehend den Schritten bei der Bearbeitung der beiden Teilaufgaben.
+Anregungen für den Unterricht
+Maßstäbe und Maßstabsleisten verbinden in der Regel den Mathematikunterricht mit Inhalten des Erdkundeunterrichts. Mit der Aufgabe „Kopf und Körper“ wird angedeutet, wie das Erstellen eines Maßstabs mit den Proportionen von Menschen in Verbindung gebracht werden kann. In einem Unterrichtsvorhaben können Schülerinnen und Schüler – mit Maßbändern ausgestattet – Proportionen am eigenen Körper ermitteln und tabellarisch festhalten. Folgende Proportionen können z. B. in den Blick genommen werden:
+Das Verhältnis von …
+…Länge des Unterschenkel zur Länge des Oberschenkels beträgt ca. 1 : 1,
+…Körpergröße zur Spannweite der Arme beträgt ca. 1 : 1,
+…Länge der Beine zur übrigen Körpergröße beträgt ca. 1 : 1,
+…Länge des Kopfes zur gesamten Körpergröße bei 12 Jährigen beträgt ca. 1 : 7,
+…Länge von Kopf bis zum Ende der heruntergelassenen Arme zum Rest der Beine beträgt ca. 9 : 5,
+…Länge von Kinn bis Nasenunterseite zum Rest der Kopflänge beträgt ca. 1 : 3.
+ | Mithilfe solcher und ähnlicher Proportionen können Schülerinnen und Schüler dann von einer gemessenen Länge auf übrige Längen am Körper schließen. Ebenso wäre es denkbar die ermittelten Proportionen für zeichnerische Zwecke zu nutzen. Im Unterricht würde so das Erstellen und Arbeiten mit Maßstäben als eine lebensnahe Praxis erfahren, womit womöglich motivationale Effekte verbunden sind.
+
+===== kreisfiguren · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K2, Jahrgang 2017
+
+Didaktische Handreichung: Kreisfiguren
+
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Kreisfiguren“ werden verschiedene Flächeninhalte miteinander verglichen. Daher gehört die Aufgabe zur Leitidee Messen (L2).
+
+In dieser Aufgabe können Schülerinnen und Schüler, sofern die Kreiszahl  noch nicht bekannt ist, nicht auf eine Formel zur Flächenberechnung zurückgreifen. Daher setzt die Aufgabe „Kreisfiguren“ die Kompetenz Probleme mathematisch lösen (K2) voraus.
+
+Da die Aufgabe zweischrittig ist (Umorganisieren der Figur B und Vergleich mit Figur A) befindet sich die Aufgabe bereits im Anforderungsbereich II.
+Anregungen für den Unterricht
+Vermutlich sind Schülerinnen und Schüler in der achten Klasse fast nur noch den indirekten Vergleich über eine Maßeinheit gewohnt. Dabei können im Mathematikunterricht auch der direkte Vergleich zweier Größen oder der indirekte Vergleich über eine gegebene Größe ohne Rückgriff auf eine der bekannten Maßeinheiten thematisiert werden. Weil Letzteres vermutlich selten geschieht, stellt die Aufgabe „Kreisfiguren“ eine, wenn auch kleine, Hürde dar. Bezogen auf die allgemeinen Kompetenzen der Bildungsstandards erfordert der indirekte Vergleich über eine Maßeinheit in der Regel eine Berechnung mithilfe einer vorgegebenen Formel, sofern es sich aus dem Unterricht bekannte Figuren handelt. Das ebenfalls mögliche Auslegen einer Figur mittels einer Maßeinheit wird vermutlich deutlich seltener im Unterricht erprobt. Es wird demnach vor allem die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) adressiert. Dagegen bietet Aufgaben zum direkten Vergleich oder den indirekten Vergleich über eine gegebene Größe ohne Rückgriff auf eine der bekannten Maßeinheiten das Potenzial die Kompetenzen Mathematisch argumentieren (K1) und Probleme mathematisch lösen (K2) in den Fokus zu nehmen. Dies soll an der folgenden Beispielaufgabe zu „Kreisfiguren“ verdeutlicht werden. Dabei soll an dieser Stelle davon ausgegangen werden, dass den Schülerinnen und Schülern die Kreiszahl  noch nicht bekannt ist.
+
+Beispielaufgabe „Kreisfiguren“
+
+Welche Figur hat den größten Umfang?
+Kreuze an.
+Figur A Figur B Figur C Figur D
+Begründe deine Entscheidung.
+
+Denkbar wäre es im Geometrieunterricht neben der Berechnung von Längen, Flächeninhalten und Volumina auch solche Begründungs- und Problemlöseaufgaben einzubauen, bei denen man auf den direkten Vergleich angewiesen ist. In der Schwierigkeit kann man die Aufgaben leicht steigern, indem man beispielsweise die Kästchen hinter den Figuren entfallen lässt und für die zusammengesetzten Figuren noch weitere Formen (z. B. Ellipsen) verwendet.
+
+Im Anschluss an solche Aufgaben kann über den direkten Vergleich von Längen, Flächen und Volumina und den indirekten Vergleich reflektiert werden. Der Vorteil des indirekten Vergleichs gegenüber dem direkten besteht darin, dass gleich eine ganze Reihe von Größen miteinander verglichen werden können. Der indirekte Vergleich über eine Maßzahl erlaubt es dann, alle möglichen Längen, Flächeninhalte und Volumina miteinander zu vergleichen und darüber hinaus der Größe nach zu ordnen. Der direkte Vergleich mag sich hingegen in diversen Anwendungssituationen anbieten, in denen lediglich entschieden werden muss, welche Länge, welcher Flächeninhalt oder welches Volumen das größere oder größte ist.
+
+===== leistungdesmotors · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2014
+
+Didaktische Handreichung: Leistung des Motors
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört der Leitidee Messen (L2) an, da zu ihrer Bearbeitung situationsgerecht mit Einheiten von Größen umgegangen werden muss. Aufgrund des proportionalen Zusammenhangs zwischen kW und PS spielen auch Inhalte der Leitidee Funktionaler Zusammenhang (L4) eine Rolle.
+Zur Lösung der Aufgabe ist zunächst der Text zu lesen, wobei die relevanten Informationen zu entnehmen sind (K6). Diesbezüglich ist besonders der Begriff „Leistung“ sowie dessen Angabe in zwei verschiedenen Einheiten inhaltlich zu erfassen und als bedeutsam zu erkennen. Anschließend werden die beiden Angaben zur Motorleistung in dieselbe Einheit umgewandelt und miteinander verglichen. Die hierzu mittels des angegebenen Verhältnisses (1 kW entspricht 1,36 PS) durchzuführende Multiplikation bzw. Division ist einfach. Alternativ ist auch eine grobe Abschätzung ausreichend (K5).
+Aufgrund der anzuwendenden Routineverfahren sowie des einfachen und linear gegliederten Aufgabentextes gehört diese Aufgabe dem Anforderungsbereich I an.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Antwortalternative [02] (Fehllösung: Auto B):
+Wird diese Antwortalternative angekreuzt, kann dies auf Schwierigkeiten beim Textverständnis hindeuten. So ist eventuell nicht erfasst worden, dass die Motorleistung der beiden Fahrzeuge in zwei verschiedenen Einheiten angegeben ist. Der Größenvergleich ist somit ohne vorherige Umwandlung in dieselbe Einheit durchgeführt worden.
+Anregungen für den Unterricht
+Schwierigkeiten bei der Bearbeitung dieser Aufgabe können durch Probleme im Umgang mit dem Text entstanden sein. Um diesen zu begegnen, bietet es sich an, die Darstellungsebene zu wechseln und die Informationen des Textes in einer Tabelle zusammenzufassen. Dabei kann in der Regel auf die Vorerfahrungen der Schülerinnen und Schüler zur Darstellung proportionaler Zuordnungen zurückgegriffen werden. Das Vorgehen zur Umwandlung der Angaben in dieselbe Einheit kann dann leicht z. B. über Operatorpfeile am Tabellenrand veranschaulicht werden.
+
+===== maus · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Didaktische Handreichung: Maus
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Größenangaben, bestehend aus Maßzahl und Maßeinheit, realistisch einschätzen zu können, ist eine wesentliche Voraussetzung dafür, Mathematik im außerschulischen Umfeld wie Ausbildung und Beruf anzuwenden. Diese Fähigkeit wird im Mathematikunterricht durch Aufgaben, bei denen Maßzahlen und Maßeinheiten stets vorgegeben sind, nicht unbedingt gefördert. Lediglich wenn ein Ergebnis zu prüfen ist (Kann die Größenangabe stimmen?), wird den Schülerinnen und Schülern abverlangt, die eigene Vorstellung mit realen Gegebenheiten abzugleichen.
+Beide hier vorgestellten Teilaufgaben zeigen, wie auch im Unterricht für Modellierungsaufgaben notwendige Größenvorstellungen ausgebildet werden können. Dabei können die berücksichtigten Kontexte gerne nach den Präferenzen der Lernenden ausgerichtet werden, z. B. aus den Bereichen Sport oder Tierwelt. um etwaige motivationale Vorteile zu nutzen und kognitive Verknüpfungen zwischen Kontext und mathematischem Inhalt zu begünstigen.
+Eine weitere Idee besteht darin, z. B. Längen oder Flächen im Klassenraum z. B. auf einem Poster festzuhalten. So können die Schülerinnen und Schüler stets anhand der Anschauung Ergebnisse oder Antworten in Redebeiträgen spontan validieren.
+
+[Bild][Bild]
+Im folgenden Text fehlen die Maßeinheiten.
+„Bei einer Maus misst der Abstand von der Nasenspitze bis zur Schwanzspitze
+90 bis 120. Ihre Ohren sind zwischen 9 und 12 lang. “
+Welche Maßeinheit ist in allen Lücken dieses Textes sinnvoll?
+Kreuze an.
+Meter (m) Dezimeter (dm) Zentimeter (cm) Millimeter (mm)
+ Auswertung
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ | Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ |
+ |
+
+===== messzylinder · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+
+Didaktische Handreichung: Messzylinder
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da mit Größen gearbeitet wird.
+Es ist eine Flüssigkeitsmenge auf einer Skala eines Messzylinders abzulesen (K4).
+Diese Aufgabe wird dem Anforderungsbereich I zugeordnet, da eine vertraute Darstellung genutzt wird.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Es entstehen Fehler beim Ablesen der Skala des Messzylinders:
+[Bild: image1.png]
+[Bild: image2.png]
+Die vorgegebene Skalierung wird nicht korrekt erfasst, beispielsweise wird ab korrekt abgelesenen 200 ml für einen Skalastrich 1 ml angenommen:
+[Bild: image3.png]
+Anregungen für den Unterricht
+Treten bei der Bearbeitung dieser Aufgabe Schwierigkeiten auf, bietet es sich an, weitere Aufgaben aus anderen Kontexten zu verwenden, bei denen ebenfalls Werte von Skalen abzulesen sind wie z. B. beim Thermometer (siehe hierzu auch die Aufgabe „Temperaturdifferenz“ der Lernstandserhebung 2014), insbesondere vor allem solche, die als Skalierung ein Vielfaches der Einheit verwenden. Weiterführend sind dabei Aufgaben empfehlenswert, die über das reine Ablesen hinaus zu einem vorgegebenen Anfangszustand die Bestimmung einer Veränderung (Steigen oder Fallen) oder eines Endzustands erfordern. Dabei können eigene Darstellungen genutzt werden:
+[Bild][Bild]
+ | In einem Messzylinder sind 110 ml Flüssigkeit. 70 ml werden hinzugegossen.
+Skizziere den Messzylinder und bestimme, wie viel Flüssigkeit sich am Ende darin befindet.
+ | [Bild][Bild]Darüber hinaus kann zu einer symbolischen Darstellung sowohl die entsprechende ikonische Darstellung gefordert werden wie auch die Formulierung eines passenden Textes, wie in der folgenden Aufgabe:
+
+ |
+Skizziere einen Messzylinder zu dieser Aufgabe und formuliere einen passenden Text.
+ |
+
+===== muelltonne · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2017
+
+Didaktische Handreichung: Mülltonne
+
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Mathematisch modellieren (K3)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Mülltonne“ muss ein Volumen berechnet werden. Daher wird die Aufgabe der Leitidee Messen (L2) zugeordnet.
+
+Zur Bearbeitung der Aufgabe müssen einem realen Bild Informationen entnommen werden. Größen sind dabei nicht vorgegeben, sondern müssen (mithilfe einer Vergleichsgröße) geschätzt werden. Auch die Form der Mülltonne muss in ein mathematisches Modell übertragen werden. Damit fordert die Aufgabe vor allem die Kompetenz Mathematisch modellieren (K3). Die Volumenberechnung, d.h. das Rechnen im mathematischen Modell, erfordert zudem die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umzugehen (K5). Der Lösungsweg soll außerdem notiert werden. Gerade wenn Annahmen getroffen werden, ist es wichtig, diese zur Nachvollziehbarkeit der Lösung zu dokumentieren. Daher setzt die Aufgabe „Mülltonne“ auch die Kompetenz Mathematisch kommunizieren (K6) voraus.
+
+Da es sich hier um eine komplexe Modellierung handelt, die zudem bis auf die Interpretation und Validierung gänzlich durchgeführt werden muss, befindet sich die Aufgabe im Anforderungsbereich III.
+Anregungen für den Unterricht
+Offen gestellte Aufgaben wie diese bieten der Lehrkraft die Möglichkeit, ein genaueres Bild von den Kompetenzen einzelner Schülerinnen und Schülern zu erlangen. Es werden im Folgenden zwei exemplarische Lösungen vorgestellt, anhand derer dieses Potential verdeutlicht werden soll.
+
+In Schülerlösung 1 zeigt sich, dass der Proband die nötigen Fähigkeiten im Umgang mit formalen Elementen der Volumenberechnung beherrscht. Das Volumen eines Quaders kann fehlerfrei berechnet werden. Ebenso ist zu erkennen, dass die Kompetenz Mathematisch kommunizieren (K6) ausgebildet ist. Die Messvorgänge sind dokumentiert und die Rechnung anschließend zwar nicht inhaltlich, jedoch dem Ablauf gemäß dargelegt. Die Fehllösung ist hier alleine dem Umstand geschuldet, dass die Mülltonne nur im Bild und nicht in ihren Abmessungen in der Wirklichkeit berücksichtigt worden ist. Es hätte also zur Lösung noch die Verwendung eines Maßstabs hinzugenommen werden müssen.
+
+[Bild: image1.png]
+Abbildung 1: Schülerlösung 1
+
+In Schülerlösung 2 sind ebenfalls die innermathematischen Fähigkeiten vorhanden, um das Volumen eines Quaders zu berechnen. Hier werden auch realistische Annahmen zu den Maßen der Mülltonne gemacht. So führt Schülerlösung 2 zwar zu einem Ergebnis im geforderten Intervall, jedoch kann das Vorgehen nur aus der Rechnung heraus erschlossen werden und es wird nicht deutlich, wie auf die genannten Längenmaße geschlossen worden ist. Dies deutet an, dass die Kompetenz Mathematisch kommunizieren (K6) noch stärker entwickelt werden sollte.
+
+[Bild: image2.png]
+Abbildung 2: Schülerlösung 2
+
+Für die individuelle Rückmeldung an Schülerinnen und Schüler kann eine wie hier vorgestellte detaillierte Durchsicht von Schülerlösungen sinnvoll sein. Schülerinnen und Schüler erhalten so Rückmeldung über ihre Stärken und Schwächen. Hat man von Anfang an vor eine bestimmte Kompetenz zu diagnostizieren, so empfiehlt es sich Testaufgaben dazu gezielt zu formulieren. So kann man beispielsweise zur genauen Diagnose von Modellierungskompetenzen einzelne Teilschritte eines Modellierungskreislaufes adressieren. Im Folgenden werden dazu einige Aufgabentypen ansatzweise beschrieben, aus denen sich gemäß den eigenen Absichten und konkreten Sachverhalten Diagnoseaufgaben formulieren lassen.
+
+Umgang mit Unsicherheit: Aufgaben mit überflüssigen Informationen geben oder, wie im Beispiel „Mülltonne“, Informationen weglassen, die anhand einer Vergleichsgröße geschätzt werden müssen.
+
+Schätzen, Überschlagen: Fermi-Aufgaben, bei denen mit geschätzten Größen Überschlagsrechnungen angestellt werden müssen.
+
+Vereinfachen: Eine gezielte Frage danach stellen, welche Annahmen und/oder Vereinfachungen gemacht werden müssen ohne zu rechnen.
+
+Mathematisieren: Im Aufgabentext eine Situation vorstellen und fragen, welcher mathematische Ansatz oder welche mathematische Darstellung (Graph, Term, …) zur Beschreibung dieser Situation geeignet ist.
+
+Realisieren: Danach fragen, auf welche Situationen ein gegebenes mathematisches Modell (Rechnung, Term, Zeichnung, …) noch passt.
+
+Validieren: Ein gegebenes Ergebnis bewerten lassen oder danach fragen, wie die Gültigkeit eines Ergebnisses sichergestellt werden kann.
+
+[Bild][Bild]Die Beispiele sind entnommen aus S. Hußmann, T. Leuders & S. Prediger (2007). Schülerleistungen verstehen – Diagnose im Alltag. Praxis der Mathematik in der Schule (PM), (15), S. 1-8. Dort finden sich weitere Formulierungshilfen zur Diagnose von mathematischen Verfahren, inhaltlichen Vorstellungen und mathematischen Begriffen. Ein Auszug aus dem Artikel ist auf der Homepage von Timo Leuders zu finden (https://home.ph-freiburg.de/leudersfr/preprint/2007_ hussmannprediger_leuders_diagnose_PM_auszug.pdf). Weitere Aufgabenbeispiele, insbesondere zu Teilschritten des Modellierens finden sich im Buch „Mathematisches Modellieren. Aufgaben für die Sekundarstufe I“ von Katja Maaß (2008, Cornelsen Scriptor: Berlin).
+
+===== nagelbrett · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2014
+
+Didaktische Handreichung: Nagelbrett
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Da es in beiden Teilaufgaben um den Flächeninhalt von Rechtecken geht, sind diese der Leitidee Messen (L2) zuzuordnen.
+Zunächst sind der Aufgabentext und die Abbildungen in Teilaufgabe 25.1 zu erfassen, insofern als auf der Darstellung eines Nagelbrettes (Nagelabstand 2 cm) ein Rechteck mit einem Flächeninhalt von 48 Quadratzentimetern eingezeichnet werden soll, dessen Seiten parallel zu denen des Nagelbretts liegen müssen (K6, K4). Der geforderte Flächeninhalt ist unter dem gegebenen Nagelabstand nur mit den Seitenlängen von 6 cm und 8 cm zu erreichen, da die Auswahl anderer Seitenlängen mit dem Produkt 48 (z. B. 4 mal 12) auf dem gegebenen Nagelbrett nicht darstellbar ist (K2). Dieses Rechteck wird schließlich unter Beachtung des Nagelabstandes von 2 cm auf dem Nagelbrett eingezeichnet (gespannt über 3 bzw. 4 Nägel) (K4).
+In Teilaufgabe 25.2 soll ein Rechteck mit einem Flächeninhalt von 18 Quadratzentimetern auf dem gegebenen Nagelbrett mit 2 cm Nagelabstand gespannt werden. Dieses Problem ist zu lösen, indem mögliche Seitenlängen als Faktoren zum Produkt 18 gefunden werden und daraufhin überprüft werden, ob sie als Vielfache von 2 darstellbar sind (K2). Als mögliche Seitenlängen eines Rechtecks mit dem geforderten Flächeninhalt können sie Schülerinnen und Schüler 1 cm und 18 cm, 2 cm und 9 cm sowie 3 cm und 6 cm ermitteln. Für alle diese Möglichkeiten gilt jedoch, dass jeweils eine ungerade Seitenlänge existiert, wobei die ungerade Seitenlänge bei einem Nagelabstand von 2 cm nicht darstellbar ist (K1). Darüber hinaus wäre aufgrund der Größe des Nagelbretts ohnehin nur das Spannen eines Rechtecks mit den Seitenlängen 3 cm und 6 cm möglich. Eine andere Argumentationsgrundlage kann die Verwendung der Darstellung des Nagelbretts oder das formale Ermitteln der möglichen spannbaren Rechtecke (4 Quadratzentimeter, 8 Quadratzentimeter, 12 Quadratzentimeter, 16 Quadratzentimeter, 24 Quadratzentimeter,...) auf dem vorgegebenen Nagelbrett sein (K2). Dies führt ebenfalls zu der Erkenntnis, dass ein Rechteck mit 18 Quadratzentimetern Flächeninhalt nicht spann- und darstellbar ist.
+Aufgrund der Anwendung einfacher Routineverfahren und der Nutzung einer einfachen Darstellung ist Teilaufgabe 25.1 dem Anforderungsbereich I zuzuordnen.
+Teilaufgabe 25.2 hingegen stellt zudem kognitive Anforderungen an das Problemlösen und erfordert die Entwicklung einer Argumentation; sie wird deshalb dem Anforderungsbereich II zugeordnet.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 25.1:
+Der Aufgabentext wird nicht vollständig erfasst, beispielsweise werden 2 cm für eine Kästchenlänge angenommen anstatt für den Abstand zwischen zwei Nägeln.
+Die Seitenlängen werden nicht korrekt ermittelt.
+
+Zu Teilaufgabe 25.2:
+Die Schülerinnen und Schüler bestimmen mögliche Seitenlängen eines Rechtecks mit einem Flächeninhalt von 18 Quadratzentimetern, lassen jedoch außer Acht, ob dieses auch auf dem vorgegebenen Nagelbrett darstellbar ist, wie folgende Schülerlösung zeigt:
+[Bild: image1.png]
+[Bild: image2.jpeg]
+Die Schülerinnen und Schüler verwechseln den Begriff des Flächeninhalts mit dem der Seitenlänge des Rechtecks. Dies könnte die mögliche Ursache folgender Fehllösung sein:
+[Bild: image3.png]
+[Bild: image3.png]
+
+Anregungen für den Unterricht
+Sollte diese Aufgabe aufgrund von Bearbeitungsschwierigkeiten im Unterricht aufgegriffen werden, empfiehlt es sich, mit Darstellungen von Rechtecken auf dem Nagelbrett zu arbeiten, die auch ein umgekehrt gerichtetes Arbeiten erforderlich machen, wie beispielsweise anhand folgender Aufgabenstellung:
+[Bild][Bild]
+ | Die Abbildung zeigt ein auf einem Nagelbrett gespanntes Rechteck. Der Abstand der benachbarten Nägel auf dem Brett beträgt 2 cm.
+Bestimme den Flächeninhalt des Rechtecks.
+ | Diese Aufgabenstellung erfordert die Bestimmung der Seitenlängen des Rechtecks über den Nagelabstand sowie eine erneute Auseinandersetzung mit dem Flächeninhaltsbegriff. Festigend eignet sich darüber hinaus die Forderung nach dem Spannen eigener Rechtecke, deren zeichnerischer Darstellung auf dem Nagelbrett und die Bestimmung des jeweiligen Flächeninhalts.
+Variierend kann zudem mit einem Nagelbrett mit einem abweichenden Nagelabstand gearbeitet werden (beispielsweise: Der Abstand zwischen zwei benachbarten Nägeln beträgt nun 3cm). In diesem Zusammenhang stellt sich die Frage nach möglichen spann- und darstellbaren Rechtecken und ihren jeweiligen Flächeninhalten.
+
+===== nashorn · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2016
+
+Didaktische Handreichung: Nashorn
+
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematisch modellieren (K3)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da Schülerinnen und Schüler aus dem Quellenmaterial (dem Foto) Maßangaben, nämlich die Schulterhöhe des Nashornbabys, entnehmen und damit eine Berechnung einer Länge durchführen.
+Es wird zwischen einer Realsituation und mathematischen Begriffen bzw. Resultaten hin- und hergewechselt, dazu muss die gegebene Situation verstanden und vereinfacht werden. Die Aufgabe ist folglich der Kompetenz Mathematisch modellieren (K3) zuzuordnen. Beispielsweise steht das Nashornbaby auf dem Foto leicht gedreht, die perspektivische Verzerrung kann bei der Berechnung vernachlässigt werden. Es muss ein geeignetes Modell zur Bestimmung der Länge des Tieres gewählt werden. Möglich ist etwa, durch die gegebenen Maße einen Maßstab zu errechnen und dann auf dem Foto die Strecke vom Kopf des Nashornbabys bis zu seinem Hinterteil zu messen und entsprechend umzurechnen.
+ Da dabei Operationen mit den gemessenen und gegebenen Größen sowie, je nach Lösungsstrategie, mit den Teilstrecken der Körperlänge durchgeführt werden müssen, erfordert die Aufgabe zudem Kompetenzen im Bereich Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5). Außerdem soll der Lösungsweg schriftlich dargestellt werden, so sind auch Kompetenzen im Bereich Mathematisch kommunizieren (K6) nötig.
+Insgesamt wird allerdings nur eine einfache mathematische Aufgabenstellung durch die Identifikation einer naheliegenden Strategie (Vergleich der Länge mit der Schulterhöhe) gelöst, die nur elementare Lösungsverfahren und einfache mathematische Werkzeuge erfordert. Daher ist die Aufgabe dem Anforderungsbereich I zuzuordnen.
+Anregungen für den Unterricht
+Mit der Aufgabe „Nashorn“ wird angedeutet, wie das Erstellen eines Maßstabs mit den Proportionen bei Tieren in Verbindung gebracht werden kann. Diese Überlegungen können auch auf den menschlichen Körper übertragen werden. In einem Unterrichtsvorhaben können Schülerinnen und Schüler - mit Maßbändern ausgestattet - Proportionen am eigenen Körper ermitteln und tabellarisch festhalten. Folgende Proportionen können z. B. in den Blick genommen werden:
+Das Verhältnis von …
+…Länge des Unterschenkel zur Länge des Oberschenkels beträgt ca. 1 : 1,
+…Körpergröße zur Spannweite der Arme beträgt ca. 1 : 1,
+…Länge der Beine zur übrigen Körpergröße beträgt ca. 1 : 1,
+…Länge des Kopfes zur gesamten Körpergröße bei 12 Jährigen beträgt ca. 1 : 7,
+…Länge von Kopf bis zum Ende der heruntergelassenen Arme zum Rest der Beine beträgt ca. 9 : 5,
+…Länge von Kinn bis Nasenunterseite zum Rest der Kopflänge beträgt ca. 1 : 3.
+ | Mithilfe solcher und ähnlicher Proportionen können Schülerinnen und Schüler dann von einer gemessenen Länge auf andere Längen am Körper schließen und die so ermittelten Proportionen für zeichnerische Zwecke nutzen. Im Unterricht würde so das Erstellen und Arbeiten mit Maßstäben als eine lebensnahe Praxis erfahren.
+
+===== pappschachtel · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2017
+
+Didaktische Handreichung: Pappschachtel
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Pappschachtel“ werden ein Volumen und eine Länge ermittelt. Daher gehört diese Aufgabe zur Leitidee Messen (L2).
+
+In Teilaufgabe 1 berechnen Schülerinnen und Schüler das Volumen eines Quaders mithilfe der zugehörigen Formel; in Teilaufgabe 2 stellen Schülerinnen und Schüler eigenständig einen Term zur Berechnung der gesuchten Seitenlänge auf. In beiden Fällen wird also die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5) vorausgesetzt. In Teilaufgabe 2 werden relevante Informationen aus einer mathematischen Darstellung entnommen. Somit wird auch die Kompetenz Mathematische Darstellungen verwenden (K4) benötigt. Da nicht auf ein gänzlich bekanntes Verfahren zurückgegriffen werden kann, verlangt Teilaufgabe 2 außerdem die Kompetenz Probleme mathematisch lösen (K2).
+
+Da in Teilaufgabe 1 eine vertraute Formel zur Berechnung genutzt wird, gehört diese Teilaufgabe zum Anforderungsbereich I. Teilaufgabe 2 wird trotz mehrerer beteiligter Kompetenzen ebenfalls dem Anforderungsbereich I zugeordnet. So wird lediglich eine vertraute Darstellung genutzt, eine Routineaufgabe gelöst, und eine einfache Rechnung durchgeführt.
+Anregungen für den Unterricht
+Die Maximierung des Volumens einer nach oben geöffneten Schachtel ist ein bekanntes Problem, welches in der Regel in der Oberstufe oft neben anderen Extremwertproblemen mit Nebenbedingungen behandelt wird. Die Aufgabe „Pappschachtel“ deutet an, wie man bereits in der Sekundarstufe I auf dieses Problem hinarbeiten kann. Durch weitere Aufgaben kann noch gezielter auf das Extremwertproblem hingearbeitet werden. In der folgenden Beispielaufgabe 1 wird durch die Berechnung des Volumens mit einer anderen Höhe der Schachtel verdeutlicht, dass das Volumen abhängig von der Höhe der Schachtel ist. Damit wird einer bei Schülerinnen und Schülern womöglich anzutreffenden Überzeugung entgegengewirkt, die in der Annahme besteht, dass bei der Verwendung des gleichen Blattes auch immer das gleiche Volumen entsteht.
+
+Beispielaufgabe 1
+
+Wie groß ist das Volumen der Schachtel, wenn die Seitenlänge x aus Abbildung 2
+genau 3 cm lang ist?
+Kreuze an.
+3 3 3 3 3
+123 cm 147 cm 192 cm 300 cm 507 cm
+
+Beispielaufgabe 2 dient nun dazu, den Blick umzukehren. Bisher wurde die Höhe der Schachtel vorgegeben; nun ist die Länge gesucht. An dieser Stelle können Schülerinnen und Schüler mithilfe systematischen Ausprobierens zum Ziel gelangen. Zur Veranschaulichung des Vorgehens ist es als Auswertungsanleitung unter der folgenden Aufgabe angegeben. Dieses Vorgehen bietet zum einen den Vorteil, dass es leicht zugänglich ist und keine großen algebraischen Hürden überwunden werden müssen. Zum anderen wird durch das systematische Ausprobieren der dynamische Charakter des Problems verdeutlicht.
+
+Beispielaufgabe 2
+
+Lena möchte eine solche Schachtel aus quadratischer Pappe mit einer Seitenlänge
+von 13 cm (siehe Abbildung 2) herstellen. Die Schachtel soll ein Volumen von
+3
+120 cm haben.
+
+Gib an, wie lang die Seitenlänge x aus Abbildung 2 dafür ungefähr sein muss.
+x = cm
+Hinweis: Die Seitenlänge x ist auf jeden Fall größer als 3 cm.
+Notiere deinen Lösungsweg.
+
+Auswertung
+RICHTIG
+ | Eine Zahl aus dem Intervall [3,5; 3,7]
+
+UND
+
+Lösungsweg, der auf (systematischem) Probieren oder algebraischer Bestimmung von x beruht.
+
+Beispiel(e)
+- ; dann
+- ; dann
+- ; dann
+- ; dann
+- ; dann
+- Bis 3,6 ist das Volumen zu groß, ab 3,7 zu klein. Bei 3,6 ist das Volumen am dichtesten an 120  dran. Es beträgt dann ca. 121. Lena sollte also 3,6 abschneiden.
+ | Das systematische Probieren braucht zum einen vielleicht sehr lange, zum anderen liefert es in der Regel nur ungefähre Ergebnisse. An dieser Stelle kann man sehr gut die Erarbeitung einer Formel zur Berechnung des Volumens in Abhängigkeit der Höhe der Schachtel motivieren. Es schließt sich demnach die Beispielaufgabe 3 an.
+
+Beispielaufgabe 3
+
+Lena möchte eine solche Schachtel aus quadratischer Pappe mit einer Seitenlänge
+von 13 cm (siehe Abbildung 2) herstellen.
+Gib eine Formel für die Berechnung des Volumens V der Schachtel in Abhängigkeit
+von der Seitenlänge x an.
+V =
+
+In der Sekundarstufe I stehen noch nicht die Möglichkeiten bereit, um Extrempunkte des Graphen der ermittelten Volumenfunktion rechnerisch zu bestimmen. Dennoch bieten sich Möglichkeiten, um auch dieses Problem annähernd zu lösen. Mithilfe des wissenschaftlichen Taschenrechners und der „Table-Funktion“ können Wertetabellen erstellt werden. Durch das Erstellen von Wertetabellen auf immer kleineren Intervallen gelangt man annähernd zum höchstmöglichen Volumen. Ebenso kann der Graph der Volumenfunktion (mit geeigneter Software oder einem geeigneten Taschenrechner) gezeichnet und der Hochpunkt möglichst genau abgelesen werden.
+
+===== parfum · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2015
+
+Didaktische Handreichung: Parfum
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisches Modellieren (K3)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisches Modellieren (K3),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe wird der Leitidee Messen (L2) zugeordnet, weil hier mit Volumina gerechnet werden muss.
+Im Aufgabentext wird beschrieben, dass mit einem Pumpzerstäuber je Pumpstoß etwa 0,2 ml Parfum in der Luft verteilt werden. In der ersten Teilaufgabe soll ermittelt werden, wie viel Parfum durch 10 Pumpstöße verbraucht wird. Die Schülerinnen und Schüler können zu dieser Realsituation ein einfaches mathematisches Modell aufstellen, indem sie den Verbrauch je Pumpstoß mit der Gesamtzahl der Pumpstöße multiplizieren (K3).
+Die zweite Teilaufgabe fragt umgekehrt danach, für wie viele Tage 100 ml Parfum ausreichen, wenn täglich mehrere Pumpstöße verbraucht werden. Die Lernenden müssen hier zunächst eine sinnvolle Annahme darüber treffen, wie viel Parfum täglich verbraucht wird (K3). Anschließend kann der gesuchte Wert berechnet werden, indem die 100 ml durch diesen Wert dividiert werden (K5). Hiernach sollen die Lernenden ihren Lösungsweg dokumentieren (K6).
+Die erste Teilaufgabe wird dem Anforderungsbereich I zugeordnet, weil hier lediglich ein direkt erkennbares Standardmodell aufgestellt werden muss. In Teilaufgabe 2 müssen dagegen weitere Annahmen getroffen und der eigene Lösungsweg dokumentiert werden, weshalb es sich hier um Anforderungsbereich II handelt.
+Anregungen für den Unterricht
+In beiden Teilaufgaben liegt der Fokus auf den Realitätsbezug von Mathematik, weshalb Rechenfehler bei der Auswertung nicht derart stark berücksichtigt werden sollen (siehe Auswertung zu Teilaufgabe 1). In der zweiten Teilaufgabe müssen die Schülerinnen und Schüler eine Annahme dazu treffen, wie viele Pumpstöße pro Tag realistisch sind, wodurch Modellierungskompetenzen (K3) verlangt werden. Eng verbunden mit Modellierungen ist die Kompetenz mathematisch zu kommunizieren, denn anders als bei geschlossenen Aufgaben, kann nicht davon ausgegangen werden, dass Außenstehende die eigenen Annahmen und Überlegungen ohne weiteres nachvollziehen können. Daher sollten Schülerinnen und Schüler im Rahmen solcher Aufgaben dazu angeregt werden, ihre Überlegungen, Rechnungen und Ergebnisse so darzulegen, dass sie von Außenstehenden gut nachvollzogen werden können.
+In den folgenden Lösungen wird der Lösungsweg verständlich dargestellt:
+[Bild: image1.png]
+[Bild: image1.png]
+
+[Bild: image2.png]
+[Bild: image2.png]
+
+Die folgenden Lösungen weisen dagegen keine oder nicht nachvollziehbare Begründungen auf:
+[Bild: image3.png]
+[Bild: image3.png]
+
+[Bild: image4.png]
+[Bild: image4.png]
+
+[Bild: image5.png]
+[Bild: image5.png]
+
+===== quader · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Quader
+Merkmale Teilaufgabe 1
+Leitidee
+ |  Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Hinweise zur Bearbeitung
+Die beiden Teilaufgaben 1 und 2 gehören zur Leitidee Messen (L2), da Volumen bzw. Oberflächeninhalt eines Quaders zu berechnen sind (K5). Die hierzu benötigten Maße sind der Abbildung zu entnehmen (K4).
+Da es sich bei der Abbildung um ein Schrägbild eines bekannten mathematischen Körpers handelt und die notwendigen Rechnungen einfach sind, gehören beide Teilaufgaben dem Anforderungsbereich I an.
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1:
+Die angegebenen Längen der einzelnen Kanten werden addiert [Fehllösung: 15 cm3] (K5).
+Es wird der Oberflächeninhalt und nicht das Volumen berechnet [Fehllösung: 148 cm2]   (K5)
+Zu Teilaufgabe 2:
+1. Antwortalternative (Fehllösung: 45 cm2): Die Längen der sechs sichtbaren Kanten wurden addiert (K5).
+2. Antwortalternative (Fehllösung: 74 cm2): Dies ist die Summe der Flächeninhalte der drei abgebildeten Seitenflächen des Würfels (K4).
+3. Antwortalternative (Fehllösung: 120 cm2): Dies ist die Summe der Flächeninhalte der Vorder- und der Rückseite (K4).
+Weiterarbeit und Förderung
+Treten bei der Bearbeitung der Teilaufgaben Schwierigkeiten auf, bietet es sich an, das Volumen und die Oberfläche handelsüblicher Verpackungen berechnen zu lassen. Die Verpackungen können bei Bedarf leicht in ihre Netze auseinander gefaltet werden, so dass die Zusammensetzung der Netze aus einzelnen rechteckigen Teilflächen veranschaulicht und die Formel zur Berechnung des Oberflächeninhalts erneut hergeleitet werden kann.
+Um den Begriff des Volumens zu verdeutlichen, können diese Körper mit Wasser oder Sand gefüllt oder aber mit Kubikzentimeterwürfelchen ausgelegt werden. Dies ermöglicht den Schülerinnen und Schülern (erneut) einen handelnden Zugang zum Volumenbegriff, wodurch zum Aufbau adäquater Grundvorstellungen beigetragen wird. Analog kann auch der Oberflächenbegriff verdeutlicht werden.
+Weiterführend kann man im Unterricht leicht z. B. auch den Zusammenhang zwischen dem Volumen eines Quaders und dem einer Pyramide bei gleich großer Grundfläche und Höhe thematisieren. Anhand konkreter Beispiele können die Schülerinnen und Schüler selbstständig entdecken, dass bei gleich großer Grundfläche und Höhe das Volumen eines Quaders dreimal so groß ist wie das Volumen einer Pyramide. In diesem Zusammenhang bietet es sich nun an, die Situation operativ durchzuarbeiten und z. B. nach dem Verhältnis der Höhe einer Pyramide und eines Quaders bei gleich großer Grundflächen und Volumina zu fragen. Dies ermöglicht beispielsweise die folgende Aufgabe:
+
+Ein Quader und eine Pyramide haben beide die gleiche Grundfläche und das gleiche
+Volumen.
+Gib an, in welchem Verhältnis die Höhe der Pyramide und die Höhe des Quaders stehen.
+Begründe deine Antwort.
+
+Zur Bearbeitung dieser Aufgabe kann es hilfreich sein, zunächst Zahlenbeispiele zu betrachten, anhand derer die Schülerinnen und Schüler das Verhältnis selbständig entdecken können. In der sich anschließenden Verallgemeinerung kann dann unter Rückgriff auf die bereits gesammelten Kenntnisse eine allgemeine Begründung formuliert werden. Treten bezüglich der Argumentation Schwierigkeiten auf, kann den Schülern auch ein Art Lückentext zur Verfügung gestellt oder aber eine Reihe von geeigneten Stichworten zum Formulieren der Argumentation an die Hand gegeben werden. Ein solcher Text könnte folgendermaßen aussehen:
+Das _____________ einer Pyramide und eines Quaders ist nur von der Größe der Grundfläche und der __________ abhängig. Bei gleicher Höhe und gleich großer _________________ ist das Volumen eines Quaders ______________ so groß wie das Volumen einer _______________. Da das Volumen und die Grundfläche beider Körper in der Aufgabe gleich groß sind, muss ___________________________________________.
+ |
+Weitere Hinweise zum Aufbau der Kompetenz „mathematisch Argumentieren“ im Unterricht können dem Allgemeinen Kapitel zum mathematischen Argumentieren der Vergleichsarbeiten 2010 entnommen werden.
+
+===== quadratflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Quadratfläche
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | II
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da ein Flächeninhalt zu ermitteln ist. Die hierzu benötigten Maße müssen in der Zeichnung gemessen werden (K4), bevor die bekannte Formel angewendet werden kann (K5).[Bild][Bild]
+Da sich die Anforderungen der Aufgabe auf Routineverfahren und -rechnungen beschränken, gehört diese Aufgabe zum Anforderungsbereich I.
+
+Es wird nicht der Flächeninhalt, sondern der Umfang des Quadrates ermittelt, was an mangelnden Vorstellungen zu den beiden Begriffen Flächeninhalt und Umfang liegen kann.[Bild][Bild]
+
+===== quadratimgitter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+
+Didaktische Handreichung: Quadrat im Gitter
+
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da der Flächeninhalt einer Figur bestimmt werden soll. Dazu muss der gegebenen Figur die Maßangabe von 1 cm pro Kästchen entnommen und zur weiteren Berechnung verwendet werden.
+Das Lösen der Aufgabe erfordert Kompetenzen im Bereich Probleme mathematisch lösen (K2), da heuristische Prinzipien, wie etwas das Zerlegen der Figur in geeignete Teilfiguren, angewendet werden. Gleichzeitig müssen die Schülerinnen und Schüler mit der gegebenen mathematischen Darstellung umgehen und ggf. neue Darstellungen erzeugen, um die Frage zu beantworten. Daher werden auch Kompetenzen im Bereich Mathematische Darstellungen verwenden (K4) gefordert.
+Die Aufgabe verlangt nur das Lösen einer einfachen mathematischen Aufgabenstellung, wobei eine Strategie bereits durch den Satz „Du darfst auch Hilfslinien einzeichnen.“ nahegelegt wird. Außerdem werden nur Standarddarstellungen mathematischer Objekte genutzt, so dass die Aufgabe dem Anforderungsbereich I zuzuordnen ist.
+Anregungen für den Unterricht
+Die Aufgabe „Quadrat im Gitter“ kann auf verschiedene Weisen gelöst werden. Eine Strategie besteht darin, zunächst den Flächeninhalt des gesamten Gitters zu berechnen, um dann auf den Flächeninhalt des Quadrats zu schließen. Eine weitere besteht darin, die Seitenlängen des Quadrats zu ermitteln, um den Flächeninhalt des Quadrats direkt zu berechnen. Die zweite Strategie setzt bei einer nicht maßstabsgerechten Zeichnung (wie in dieser Aufgabe) die Anwendung des Satzes von Pythagoras voraus.
+Wurde in Schülerlösungen neben der Angabe des Ergebnisses auch die Zeichnung beschriftet, so erhöht sich das diagnostische Potenzial der Aufgabe. Es lassen sich so gewisse Fehlvorstellungen, bzw. Fehler in Rechenwegen identifizieren. In Abbildung 1 ist eine Schülerlösung zu sehen, bei der die Seitenlänge des Quadrats mit 4 cm angegeben ist. Die Lösung lautet dann eingedenk des Fehlers folgerichtig 16 cm2. Auf die Fehlvorstellung, dass die Länge der Diagonale identisch ist mit der Seitenlänge eines Quadrats, kann die Lehrkraft im Unterricht reagieren. Die Fehlvorstellung lässt sich durch Widerlegung anhand einfacher Beispiele mit Hilfe von Messungen revidieren.
+[Bild: image1.png]
+Abbildung 1: Schülerlösung 1
+Abbildung 2 zeigt eine Schülerlösung, bei der die Seitenlänge des Quadrats vermutlich durch eine einfache Messung ermittelt wurde. Dabei ist nicht berücksichtigt worden, dass die Zeichnung nicht maßstabsgerecht ist. Die Seitenlänge entspricht dennoch relativ genau der tatsächlichen Seitenlänge (), wobei der Satz von Pythagoras in dieser Aufgabe nicht vorausgesetzt wird. Das fehlerhafte Ergebnis ergibt sich bei dieser Schülerlösung daraus, dass anstelle des Flächeninhalts der Umfang () berechnet worden ist. Eine didaktische Intervention der Lehrkraft müsste hier ansetzen. So könnte z. B. die Lehrkraft auf die in der Aufgabe verwendeten Maßeinheiten eingehen, um den Unterschied zwischen Längen- und Flächenmaßen zu erläutern.
+[Bild: image4.png]
+Abbildung 2: Schülerlösung 2
+Die letzte der hier vorgestellten Schülerlösungen in Abbildung 3 zeigt nun, wie man zum korrekten Ergebnis gelangt, ohne auf die Bestimmung der Seitenlänge des Quadrats angewiesen zu sein. Die Beschriftungen an den Seiten des Gitters deuten darauf hin, dass der Schüler zunächst den Flächeninhalt des Gitters von 64 cm2 berechnet. Das korrekte Ergebnis für den Flächeninhalt des Quadrats lässt erkennen, dass der Schüler berücksichtigt hat, dass das Quadrat genau die Hälfte der Fläche des Gitters bedeckt.
+[Bild: image5.png]
+Abbildung 3: Schülerlösung 3
+
+===== rauminhaltvonprismen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K6, Jahrgang 2014
+
+Didaktische Handreichung: Rauminhalt von Prismen
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da es um Rauminhalte von Körpern geht.
+Der Aufgabenstellung sind zunächst die relevanten Informationen bzgl. der Körper und ihrer Maße zu entnehmen und darüber hinaus die Information, dass ein Vergleich der Rauminhalte ohne eine konkrete Berechnung erfolgen soll (K6). Die Informationen bzgl. der Körper und ihrer Maße sind zudem in der Darstellung der Körper visualisiert (K4). Sowohl aus dem Text als auch aus der Abbildung kann gefolgert werden, dass beide Körper eine Grundfläche von 100 Quadratzentimetern haben (Prisma mit quadratischer Grundfläche: 10 cm mal 10 cm). Da nun die Bestimmung des Rauminhalts über die Multiplikation der Grundfläche mit der Höhe der Körper erfolgt und beide Körper eine identische Höhe aufweisen, ergibt sich der Schluss, dass der Rauminhalt der Körper A und B gleich ist.
+Aufgrund der Anforderungen an das sinnentnehmende Erfassen des mathematikhaltigen Textes bzw. der Graphik in Verbindung mit der adäquaten Nutzung der Volumenformel für Prismen wird diese Aufgabe dem Anforderungsbereich II zugewiesen.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Die identischen Grundflächen bzw. Höhen der Körper werden nicht erkannt bzw. die formale Berechnung des Rauminhalts über die Multiplikation der Grundfläche mit der Höhe ist nicht präsent. Somit wird geschlussfolgert, dass ein Vergleich der Rauminhalte ohne konkrete Berechnung nicht möglich ist:
+[Bild: image1.png]
+Die Schülerinnen und Schüler orientieren sich am optischen Anschein, einer der Körper sei größer (dies gilt zumeist für Körper A):
+[Bild: image2.png]
+Anregungen für den Unterricht
+[Bild][Bild]Treten bei der Bearbeitung dieser Aufgabe Schwierigkeiten auf, bietet es sich an, weitere Körper mit unterschiedlich geformten aber erkennbar inhaltsgleichen Grundflächen und identischen Höhen zu vergleichen (siehe hierzu als Wiederholung auch die Aufgabe „Körper füllen“ der Lernstandserhebung 2014). Des Weiteren kann daran anschließend der Vergleich von Körpern mit inhaltsgleichen Grundflächen und unterschiedlichen Höhen erfolgen, woran deutlich wird, dass jeweils der Körper mit der größeren Höhe auch das größere Volumen hat. Ist eine solche Einsicht in den Rauminhaltsbegriff erfolgt, können Aufgabenstellungen weiterführend über Fragen zu Grundflächen und Höhen von Körpern mit vorgegebenen gleichen Rauminhalten variiert werden wie z. B. in folgender Aufgabe:
+
+ | Körper 1 und Körper 2 haben das gleiche Volumen. Die Grundfläche von Körper 1 ist halb so groß wie die von Körper 2.
+Was kannst du über die Höhen zu Körper 1 und Körper 2 sagen?
+ |
+
+===== rauten · Leitidee Messen (auch im Archiv L3)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 4: AFB III, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2015
+
+Didaktische Handreichung: Rauten
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Merkmale der Teilaufgabe 4
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Weil es in den Teilaufgaben 1, 2 und 4 um Flächeninhalte geht, werden sie der Leitidee Messen (L2) zugeordnet. Die Teilaufgabe 3 wird dagegen der Leitidee Raum und Form (L3) zugeordnet, weil hier die geometrischen Eigenschaften und Beziehungen von Rauten und Quadraten im Fokus stehen.
+Im Aufgabentext werden die Eigenschaften einer Folge von Rauten beschrieben. Die erste Teilaufgabe fordert die Schülerinnen und Schüler dazu auf, den Flächeninhalt einer konkreten Raute zu berechnen, die in einem gegebenen Koordinatensystem eingezeichnet ist. Hierzu müssen die Lernenden überlegen, wie sich die Raute in Figuren zerlegen lässt, deren Flächeninhalte leicht berechnet werden können (K2). Gleichschenklige oder rechtwinklige Dreiecke bieten sich dabei besonders an. Benötigte Längen müssen aus der Zeichnung abgelesen werden (K4).
+In der zweiten Teilaufgabe ist ein Flächeninhalt gegeben und es sollen die Koordinaten eines Eckpunkts der zugehörigen Raute in der Figurenfolge bestimmt werden. Die Lernenden können dabei auf verschiedenen Wegen zur Lösung gelangen (K2): So können etwa nacheinander immer größere Rauten in das Koordinatensystem eingezeichnet und deren Flächeninhalte ermittelt werden oder die Schülerinnen und Schüler bestimmen die Flächeninhalte der bereits eingezeichneten Rauten und entdecken eine Abhängigkeit von Koordinaten und Flächeninhalten (K4).
+In der dritten Teilaufgabe soll bestimmt werden, welche Raute der gegebenen Figurenfolge gleichzeitig ein Quadrat ist. Auch hier können verschiedene Vorgehensweisen zu einer korrekten Lösung führen (K2): Es können etwa weitere Rauten in das Koordinatensystem eingezeichnet werden, um durch Probieren zu einer Lösung zu kommen, oder anhand bereits eingezeichneter Rauten wird erkannt, dass eine Raute genau dann ein Quadrat ist, wenn die Diagonalen gleich lang sind (K4).
+Die vierte Teilaufgabe verlangt schließlich das Aufstellen einer allgemeinen Formel, mit welcher sich der Flächeninhalt einer jeden Raute der gegebenen Figurenfolge berechnen lässt (K5). Die Lernenden können die Figur hierzu wie in der ersten Teilaufgabe zerlegen (K2, K4).
+Weil die Lernenden in der Teilaufgabe 1 auf geübte Verfahren der Flächeninhaltsbestimmung zurückgreifen können, gehört diese zum Anforderungsbereich I. Aufgrund der kognitiven Anforderungen an das Problemlösen (selbstständige Wahl einer geeigneten Vorgehensweise) werden sowohl Teilaufgabe 2 als auch Teilaufgabe 3 dem Anforderungsbereich II zugeordnet. Teilaufgabe 4 stellt noch höhere kognitive Anforderungen an das Problemlösen, weil hier nicht mit einer konkreten Figur gearbeitet wird, sondern eine allgemeine Formel aufgestellt werden soll. Sie gehört daher dem Anforderungsbereich III an.
+Anregungen für den Unterricht
+Wesentlich für die didaktische Aufbereitung dieser und ähnlicher Aufgaben für den Unterricht ist zum einen der Wechsel zwischen der graphischen Darstellung im Koordinatensystem und der symbolischen Darstellung als Gleichung und Term. Andererseits ist hier aber auch die Verknüpfung geometrischer Sachverhalte mit funktionalen Zusammenhängen wesentlich. Beide Wesensmerkmale können im Zuge einer Weiterarbeit im Unterricht aufgegriffen werden.
+So kann z. B. eine dynamische Geometriesoftware wie GeoGebra (www.geogebra.org) dazu genutzt werden, mithilfe des integrierten Zugmodus die Veränderung der Koordinaten und des Flächeninhalts in Abhängigkeit von den x-Werten in Echtzeit zu verfolgen und zu visualisieren. Außerdem kann in GeoGebra neben der geometrischen Darstellung die Flächenberechnung in symbolischer und konkreter Form aufgezeigt werden. Dadurch kann sowohl der funktionale Zusammenhang als auch die Beziehung zwischen ikonischer Darstellung und symbolischen Rechnungen deutlich und für Lernende einsichtig gemacht werden.
+
+[Bild: image1.png]
+Abbildung 1
+
+Im Sinne eines nachhaltigen Kompetenzaufbaus sollte der Wechsel zwischen ikonischer und symbolischer Darstellungsform an verschiedenen Stellen einer Unterrichtsreihe und über einen längeren Zeitraum hinweg wiederkehrend thematisiert werden. Auf diese Weise kann den Schülerinnen und Schülern insbesondere auch vermittelt werden, dass der Wechsel von Darstellungsformen eine geeignete heuristische Strategie zur Lösung vieler mathematischer Problemstellungen ist. Aber auch innerhalb der grafischen Darstellung kann durch das heuristische Prinzip der Zerlegung, etwa der Raute in Dreiecke, die Berechnung von unbekannten Flächeninhalten durch berechenbare Teilflächen erreicht werden.
+
+===== rollrasen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K3, K5, K6, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Rollrasen
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | I
+ |
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematisch modellieren (K3)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | IV
+ |
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematisch modellieren (K3)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | V
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da im Rahmen eines Realkontexts verschiedene Größen – insbesondere Flächeninhalt, Volumen und Gewicht – zu berechnen sind. [Bild][Bild]
+Zur Bearbeitung der drei Teilaufgaben sind dem Aufgabentext zunächst die wichtigen Informationen zu entnehmen (K6). Bei Teilaufgabe 1 ist es dann nur noch erforderlich, die Größe der rechteckigen Rasenfläche mittels der bekannten Flächenformel zu berechnen (K5). Teilaufgabe 2 erfordert es, die Rasenfläche gedanklich mit Rollrasenstreifen von 0,6 m x 2 m auszulegen (K2). Hierzu bietet es sich an, die Rasenfläche in geeignete Teilflächen, die sich (problemlos) mit den Rasenstreifen auslegen lassen, zu zerlegen (K3). Die Zahl der benötigten Streifen muss abschließend aufsummiert werden (K5). Diese Teilaufgabe kann auch leicht mittels einer Skizze gelöst werden. Alternativ kann die Größe der auszulegenden Fläche berechnet und durch die Größe eines Rollrasenstreifens dividiert werden (K5), da anfallende Reststücke der Rollrasenstreifen weiterverarbeitet werden können. Bei Teilaufgabe 3 sind die einzelnen Streifen als Quader mit den Maßen 0,6 m x 2 m x 0,03 m aufzufassen (K3). Anschließend sind zunächst das Volumen eines Rollrasenstreifens und damit dann dessen Gewicht zu berechnen, bevor dies zu versiebenfachen ist (K2, K5). Alternativ kann auch das Volumen und das Gewicht eines Quaders mit den Maßen 0,6 m x 2 m x 0,21 m berechnet werden (K2, K5).
+Aufgrund der direkten Nutzbarkeit der Flächeninhaltsformel für das Rechteck gehört Teilaufgabe 1 zum Anforderungsbereich I. Teilaufgabe 2 gehört wegen der mehrfachen Zerlegung der Rasenfläche und den hiermit verbundenen Anforderungen an das Modellieren zum Anforderungsbereich II. Auch Teilaufgabe 3 kann aufgrund des mehrschrittigen Vorgehens, welches ein planmäßiges Vorgehen erforderlich macht, dem Anforderungsbereich II zugeordnet werden.
+
+Zu Teilaufgabe 3:[Bild][Bild]
+Es wird lediglich das Volumen bzw. anschließend das Gewicht eines Rollrasenstreifens berechnet (K6).
+Ein Rollrasenstreifen wird nicht als Quader modelliert, sondern als Rechteckfläche aufgefasst. Der berechnete Flächeninhalt wird somit weiter verwendet, um das Gewicht eines Rollrasenstreifens zu berechnen (K3).
+
+===== schokolinsen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2016
+
+Didaktische Handreichung: Schokolinsen
+
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenzen
+ | Mathematisch modellieren (K3)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Messen (L2) zuzuordnen, da mit Hilfe von Vorstellungen über Repräsentanten (den abgebildeten Figuren) eine Größe (die Anzahl der Schokolinsen auf dem Foto) geschätzt werden muss. Durch das Auszählen der Linsen innerhalb einer dieser Figuren entnehmen Schülerinnen und Schüler Maßangaben aus dem Quellenmaterial und führen damit die Berechnung der Gesamtanzahl der Linsen durch.
+Zur Lösung dieser Aufgabe ist die Kompetenz Mathematisch modellieren (K3) erforderlich, da Schülerinnen und Schüler zwischen der gegebenen Realsituation (den Schokolinsen auf dem Foto) und den mathematischen Begriffen und Methoden (Zerlegung des Bildes mit einer geometrischen Figur) hin- und herwechseln müssen.
+Zur Lösung der Aufgabe muss die gegebene Situation dadurch vereinfacht werden, dass nur ein Teilbereich und nicht das gesamte Bild ausgezählt wird. Dazu ist es zudem nötig, dass mögliche Modelle (Quadrat, Dreieck, Rechteck oder Kreis) bezüglich ihrer Tauglichkeit bewertet werden.
+Da mit den geometrischen Objekten sowie mit der Anzahl der Linsen in einer der Figuren Operationen ausgeführt werden müssen (Bestimmen der Anzahl, wie oft eine der Figuren in das Bild passt, Multiplikation dieser Anzahl mit der Anzahl der Linsen in einer dieser Figuren), erfordert die Aufgabe zudem auch die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5). Außerdem sollen die Schülerinnen und Schüler ihr Vorgehen beschreiben, somit sind sie dazu aufgefordert, mathematisch zu kommunizieren (K6). Sie sollen ihre Überlegungen und Resultate schriftlich darlegen und strukturiert wiedergeben.
+Die Aufgabe erfordert eine elaborierte Strategie sowie implizit auch die Reflektion über verschiedene Lösungswege durch die zweckgerichtete Beurteilung der verschiedenen Darstellungsformen. Schließlich eignet sich theoretisch jede eingezeichnete Figur zum Abschätzen, die Schülerinnen und Schüler sollen aber eine Auswahl der Figur treffen, die ihnen am besten geeignet erscheint. In dieser Aufgabe müssen also mehrere Modelle gegeneinander abgewogen und das geeignetste ausgewählt werden, es muss der Teilbereich innerhalb der ausgewählten Figur ausgezählt werden, es muss abgeschätzt werden, wie oft die ausgewählte Figur in das gesamte Bild passt und dann anhand dieser Zahlen die Gesamtzahl der Linsen abgeschätzt werden. Aufgrund der Vielzahl an Schritten in der Modellierung, der Komplexität der zu modellierenden Situation und der Auswahl (Bewertung) verschiedener möglicher Modelle wird die Aufgabe dem Anforderungsbereich III zugeordnet.
+
+Anregungen für den Unterricht
+Anhand der folgenden Schülerlösungen soll illustriert werden, wie die Ergebnisse zur Aufgabe „Schokolinsen“ ausgewertet und für einen kompetenzorientierten Unterricht nutzbar gemacht werden können. Bei beiden hier vorgestellten Schülerlösungen lassen sich sowohl Kompetenzen identifizieren, über die der Schüler bereits verfügt, als auch Kompetenzen, die es weiter auszubauen gilt.
+[Bild: image1.png]
+Abbildung 1: Schülerlösung 1
+Der Schüler kann Grundideen der Flächenberechnung (Zerlegen und Erweitern) auf einen ihm unbekannten Kontext anwenden. Der Schüler schildert seinen Lösungsweg vollständig und in ganzen Sätzen. Lediglich die Anzahl der Schokolinsen in den einzelnen Quadraten wird nicht genannt. Demnach sind Kompetenzen im Bereich des mathematischen Kommunizierens (K6) nachgewiesen.
+Der Schüler zeigt außerdem auf basalem Niveau, dass er mit einfachen Formeln der Flächenberechnung und den dazugehörigen Grundrechenarten vertraut ist (K5). Weiterhin lässt die Lösung erkennen, dass der Schüler über Modellierungskompetenzen (K3) verfügt. So werden z. B. Annahmen bzw. Abschätzungen zur realen Situation auf dem Foto getroffen – die Anzahl an Schokolinsen wird in der Fläche bestimmt und die Anzahl an Schokolinsen in einem Quadrat abgezählt. Dann wird ein mathematisches Modell aufgestellt (Zerlegung des Bildes in Quadrate) und innermathematisch weitergearbeitet.
+Die Lösung lässt vermuten, dass der Schüler im Quadrat ca. 46 Schokolinsen gezählt hat. Er geht davon aus, dass nur sechs Quadrate insgesamt in das rechteckige Foto passen. Diese Abschätzung weicht stark ab von den realen Gegebenheiten. Das Abschätzen von Größen und das in einem Kontext sinnvolle Anwenden von Überschlagsrechnungen gehört zur umfassenderen Modellierungskompetenz. Diese Teilkompetenzen des Modellierungsprozesses sollten demnach gefördert werden. Dass die Lösung stark abweicht von den realen Gegebenheiten, wäre womöglich aufgefallen, wenn der Schüler am Ende seines Lösungsweges Rückschau gehalten hätte. Der Teilprozess Validieren des Modellierungsprozesses wird noch nicht genügend beherrscht.
+Im Unterricht könnten Abschätzungen und Überschlagsrechnungen mit ähnlichen Aufgaben (z. B. Fermiaufgaben) behandelt werden. Auch das Erstellen von Tabellen mit Vergleichsgrößen kann in diesem Zusammenhang hilfreich sein. Wichtig ist, dass die hieraus resultierenden ungenauen Lösungen nicht als weniger mathematisch und damit als weniger wertvoll erachtet werden.
+Der Teilschritt des Validierens kann anhand vergleichbarer Aufgaben erläutert werden. Die Lehrkraft kann z. B. in einer Plenumsphase diesen Teilschritt explizit einfordern, fremde Lösungswege können (schriftlich) bewertet und das Validieren in Leistungsüberprüfungen gefordert werden.
+[Bild: image2.png]
+Abbildung 2: Schülerlösung 2
+Auch der Schüler aus der zweiten Schülerlösung kann Grundideen der Flächenberechnung (zerlegen und erweitern) auf einen ihm unbekannten Kontext anwenden. Das Ergebnis und der Lösungsweg lassen erkennen, dass der Schüler über Modellierungskompetenzen verfügt. So entspricht das Ergebnis sehr gut den realen Gegebenheiten. Die Aufzählung der Schritte des Lösungswegs lässt erkennen, dass der Schüler insbesondere das Aufstellen von und Arbeiten mit mathematischen Modellen beherrscht. Die dazu nötigen (basalen) Rechenschritte und der Umgang mit (basalen) Formeln der Flächenberechnung werden vom Schüler beherrscht.
+Die Dokumentation des Lösungswegs erfolgt allerdings stichpunktartig. Insbesondere lassen Begriffe wie „messen“, „zählen“ und „ausrechnen“ großen Interpretationsspielraum und müssten vom Schüler konkretisiert werden. An keiner Stelle werden konkrete Zahlen genannt. Es sollte daher insbesondere die Kompetenz des mathematischen zu Kommunizierens (K6) gefördert werden.
+Im Unterricht könnte zunächst verstärkt darauf Wert gelegt werden, dass zu konkreten Aufgaben verschiedene Lösungswege thematisiert werden. Anhand verschiedener Lösungswege kann z. B. ein Katalog mit Kriterien für die Dokumentation von Lösungswegen erarbeitet werden. Um isoliert Kommunikationskompetenzen zu fördern, können den Schülerinnen und Schülern bereits vorgefertigte Lösungswege vorgelegt werden, die dann anhand des Kriterienkatalogs zu bewerten sind. Weiterhin können Lösungswege gegenübergestellt werden, die sich hinsichtlich der verwendeten mathematischen Darstellungsweise unterscheiden. So könnten z. B. das Für und Wider einer grafischen Lösung gegenüber einer rein rechnerischen thematisiert werden. Letztlich sollte sowohl im Bereich der sonstigen Mitarbeit als auch in schriftlichen Leistungsüberprüfungen die Dokumentation von Lösungswegen mit in die Benotung einfließen.
+
+===== schulgrundstueck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Schulgrundstück
+Merkmale Teilaufgabe 1
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Messen (L2), da verschiedene Längen zu bestimmen sind.
+Bei beiden Teilaufgaben sind zunächst die gesuchten Größen aus dem Text zu entnehmen (K6). Zur Bearbeitung der Teilaufgabe 1 ist zunächst die Länge der Strecke a des Schulgebäudes im Bild zu messen (K4). Mit Hilfe des angegebenen Maßstabs muss anschließend die wirkliche Länge des Schulgebäudes berechnet werden (K5).
+Bei Teilaufgabe 2 muss umgekehrt zu einer vorgegebenen wirklichen Länge die entsprechende Länge maßstabsgerecht in die Abbildung eingezeichnet werden. Um die Länge der einzuzeichnenden Laufbahn zu berechnen, wird erneut der gegebene Maßstab verwendet (K4) und umgerechnet (K5).
+Da zur Lösung beider Teilaufgaben nur elementare Fertigkeiten und Fähigkeiten erforderlich sind, gehören beide – trotz ihrer Mehrschrittigkeit – noch dem Anforderungsbereich I an.
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1:
+Es wird nur der im Bild gemessene Wert angegeben. Die wirkliche Länge wird nicht berechnet, d. h. der Maßstab kann entweder nicht abgelesen oder aber nicht eingesetzt werden (K6 oder K4).
+
+Zu Teilaufgabe 1, 2:
+Es wird davon ausgegangen, dass 1 cm im Bild in Wirklichkeit 10 m sind. Dies könnte dadurch zustande gekommen sein, dass die Abbildung nur oberflächlich betrachtet und der gegebenen Strecke einfach eine Länge von 1 cm zugewiesen wurde, weil dies eine häufig im Unterricht verwendete Angabe ist [Fehllösungen: 45 m bzw. 10 cm] (K4).
+Es kommt zu Umrechnungsfehlern zwischen den Einheiten Millimeter und Zentimeter, welche sich auf den verwendeten Maßstab auswirken. So wird z. B. angenommen, dass 10 m = 10 000 mm seien, woraus sich ein Maßstab von 5 : 10 000 ergibt (K5).
+Weiterarbeit und Förderung
+Unterrichtliche Hinweise zur Arbeit mit dem Maßstabsbegriff können dem Didaktischen Kommentar zur Aufgabe „Maßstabsrechner“ entnommen werden, welche auch als Vorbereitung auf die Aufgabe „Schulgrundstück“ genutzt werden kann.
+
+===== umfangundflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+
+Didaktische Handreichung: Umfang und Fläche
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Beide Teilaufgaben gehören zur Leitidee Messen (L2), da sie die Berechnung von Umfang und Flächeninhalt von Rechtecken zum Gegenstand haben.
+In den Teilaufgaben 25.1 und 25.2 ist gefordert, vertraute und geübte Darstellungen von mathematischen Objekten zu nutzen (K4), indem der Umfang bzw. der Flächeninhalt einer gegebenen Figur bestimmt wird. Dabei ist die gegebene Einheit zu beachten. Um Teilaufgabe 25.2 zu lösen, muss die Figur vor der Bestimmung des Flächeninhalts nach bekannten Verfahren in mehrere Rechtecke/ Quadrate zerlegt werden und verlangt somit ein strategisches Vorgehen (K2).
+Teilaufgabe 25.1 gehört aufgrund der Arbeit mit einer einfachen Abbildung und der Anwendung bekannter Vorgehensweisen zum Anforderungsbereich I.
+Aufgrund der notwendigen Entwicklung von Strategien zur Problembearbeitung und der Anwendung von Lösungsverfahren unter Auswahl und Einsatz mathematischer Werkzeuge gehört die Teilaufgabe 25.2 dem Anforderungsbereich II an.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 25.1:
+Es entstehen Abzählfehler bzw. es werden einige Seiten der Figur nicht mitgezählt:
+[Bild: image1.png]
+Die vorgegebene Länge in der Darstellung wird nicht beachtet und die Seitenlänge des kleinen Quadrats wird fälschlich übernommen:
+[Bild: image2.png]
+
+Zu Teilaufgabe 25.2:
+Die Berechnung des Flächeninhalts wird durch Anwendung einer falschen Formel fehlerhaft ausgeführt, beispielsweise wird der Flächeninhalt als das Doppelte des Umfangs ermittelt oder dem Umfang gleichgesetzt:
+[Bild: image3.png]
+Insbesondere bei der Zerlegung der Figur in 5 Teilquadrate wird das mittlere Teilquadrat vergessen.
+Es entstehen Fehler bei der Bestimmung der Länge bzw. Breite bei der Zerlegung in Quadrate und Rechteck.
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Aufgabe Schwierigkeiten auf, ist es insbesondere bei Teilaufgabe 25.2 hilfreich, den Schülerinnen und Schülern einen handelnden Zugang zum Flächeninhaltsbegriff zu ermöglichen. Hierzu kann die konkrete Figur z. B. durch Zerschneiden in mögliche Teilfiguren, (beispielsweise fünf Quadrate), zerlegt und mit den Einheitsquadraten ausgelegt werden. Darüber hinaus kann dieses Vorgehen auf weitere zusammengesetzte Figuren angewandt werden.
+Weiterführend kann auf die fehlende Beziehung/ Unabhängigkeit von Umfang und Flächeninhalt eingegangen werden. Dazu können die Schülerinnen und Schüler angeregt werden, Figuren durch Veränderung des Flächeninhalts der gegebenen Figur zu entwerfen und dabei den Umfang der Figuren beizubehalten. Im weiteren Vorgehen wäre eine denkbare Aufgabe z. B. die folgende:
+[Bild][Bild]
+ | Verändere die gegebene Figur so, dass sich der Flächeninhalt vergrößert, der Umfang aber gleich bleibt.
+ | [Bild][Bild]Darüber hinaus bietet es sich an, den fehlenden Zusammenhang zwischen Umfang und Flächeninhalt, speziell die fehlende Auswirkung einer Veränderung des Umfangs auf den Flächeninhalt, zu thematisieren, wie beispielsweise anhand folgender Aufgabenstellung:
+
+ | Ein Schüler behauptet: „Wenn der Umfang einer Figur größer wird, dann wird auch der Flächeninhalt größer.“
+Begründe anhand einer geeigneten Figur, die im Vergleich zur gegebenen Figur einen größeren Umfang besitzt, dass die Behauptung falsch ist.
+ | Die Bearbeitung solcher Aufgaben dient darüber hinaus der Unterscheidung von Umfang und Flächeninhalt.
+Möglich ist es darüber hinaus bei gesteigertem Anspruch, das Ergebnis der Überlegung, nämlich dass die Behauptung falsch ist, wegzulassen.
+
+===== unregelmaessigesviereck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Unregelmäßiges Viereck
+Merkmale der Teilaufgabe
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Messen (L2), da es um die Berechnung eines Flächeninhalts geht.
+Zur Bearbeitung der Aufgabe müssen die Schülerinnen und Schüler dem Aufgabentext zunächst entnehmen, um welche Art Vierecks es sich handelt und dass eine Methode zur Flächeninhaltsbestimmung gefragt ist (K6). Hierzu muss das Viereck in geeignete Teilfiguren zerlegt oder mit solchen geeignet ergänzt werden. Hierzu sind sie aufgefordert Hilfslinien in das abgebildete Viereck einzuzeichnen und die zu messenden Strecken farbig zu kennzeichnen (K2). Sowohl beim Zerlegen als auch beim Ergänzen des allgemeinen Vierecks müssen die Schülerinnen und Schüler auf einfache Figuren zurückgreifen, deren Flächeninhaltsformeln bekannt sind, und sie passend einzeichnen (K4). Neben dieser zeichnerischen Veranschaulichung ist auch eine verbale Beschreibung des Vorgehens verlangt (K6).
+Da es die Aufgabe faktisch erforderlich macht, eine allgemeingültige Strategie zu finden, gehört sie Anforderungsbereich III an.
+Mögliche Schwierigkeiten
+Die Veranschaulichung anhand der Abbildung fehlt oder ist unvollständig. So kann insbesondere das Einzeichnen der Höhen bei einer Zerlegung in Dreiecke oder eine entsprechenden Ergänzung Schwierigkeiten bereiten. Dies könnte darauf beruhen, dass die Höhe einer Figur nicht als bedeutsam für die Berechnung des Flächeninhalts angesehen wird oder aber den Schülern die Charakteristika einer Höhe nicht vertraut sind (K4 und K6). Dies zeigt die folgende Schülerlösung.
+ [Bild: image2.png]
+Die Beschreibung des Vorgehens ist unvollständig.
+Es wird beispielsweise nur erläutert, in welche Figuren das allgemeine Viereck zerlegt werden kann, jedoch nicht darauf verwiesen, dass die Flächeninhalte der einzelnen Teilflächen zu berechnen und anschließend zu addieren sind (K2 und K6). So fehlt bei der folgenden Schülerlösung beispielsweise die Addition der berechneten Flächeninhalte.
+[Bild: image3.png]
+Es wird erklärt, wie das Viereck zu einer Figur, deren Flächeninhaltsformel bekannt ist, ergänzt werden kann. Auf die Berechnung der Flächeninhalte der Ergänzungsfiguren sowie deren Subtraktion von dem Flächeninhalt der erzeugten Figur, wird nicht eingegangen (K2 und K6).
+
+Flächeninhalt und Umfang werden verwechselt oder der Umfang wird fälschlicherweise in die Rechnung eingebunden. So wird er beispielsweise genutzt, um die Figur in ein Quadrat mit gleichem Umfang zu überführen, dessen Flächeninhalt anschließend berechnet wird, wie die folgende Schülerlösung zeigt.
+[Bild: image4.png]
+Zur Lösung werden bekannte Formeln anderer Figuren direkt auf das allgemeine Viereck (z. B. Dreieck, Parallelogramm) angewendet K6). Dies veranschaulicht die folgende Schülerlösung:
+[Bild: image5.png]
+Weiterarbeit und Förderung
+Bei Schwierigkeiten bietet es sich an, die Schülerinnen und Schüler auf handelnder Ebene daran zu erinnern, dass sich Flächeninhalte von Teilflächen addieren. Hierzu kann z. B. gut das Tangram, bei dem aus verschiedenen Vierecken und Dreiecken unterschiedliche Figuren zusammengesetzt werden müssen, eingesetzt werden.
+Anschließend können zunächst einfache, aus verschiedenen Vierecken zusammengesetzte Flächen betrachtet werden. Dabei sollten solche Figuren bevorzugt werden, die verschiedene Zerlegungs- und Ergänzungsmöglichkeiten aufweisen. Denkbar ist es in diesem Zusammenhang auch, dass die Schüler selbst zusammengesetzte Figuren zeichnen, deren Zerlegung/ Ergänzung von einem Mitschüler vorgenommen bzw. beschrieben werden muss. In einem weiteren Schritt können auch andere Figuren (z. B. Dreiecke, Kreise) mit einbezogen werden, um so auch den unterschiedlichen Leistungsspektren einer Klasse gerecht zu werden und entsprechende Überlegungen in Klasse 9 vorzubereiten. Weitere Informationen zu dieser Aufgabe sind im Allgemeinen Kapitel zur Kompetenz „Probleme mathematisch lösen“ aus VERA-8 2012 zu finden.
+
+===== winkelimdreieck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K5, K6, Jahrgang 2014
+
+Didaktische Handreichung: Winkel im Dreieck
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da eine Winkelgröße zu berechnen ist.
+Zunächst werden dem Aufgabentext die Informationen über die Größen der Innenwinkel des Dreiecks entnommen (K6). Danach kann das gegebene Problem in geeignete Teilprobleme zerlegt werden (K2). Dabei liefert der Rückgriff auf den Satz über die Innenwinkelsumme im Dreieck einen Ansatz für eine Gleichung, mittels der sich die Größe des Winkels Alpha und dann durch Rückgriff auf die Beziehung zwischen Alpha und Gamma die Größe des Winkels Gamma errechnen lässt (K5). Auch eine Lösung durch systematisches Probieren (K2) ist denkbar.
+Die Mehrschrittigkeit dieser Aufgabe begründet deren Einordnung in den Anforderungsbereich II.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Als Lösung wird nicht wie gefordert die Größe des Winkels    , sondern lediglich die in der Aufgabenstellung genannte Beziehung zwischen den beiden Winkeln    und  wiedergegeben (K2), wie die folgende Schülerlösung zeigt:
+[Bild: image4.png]
+Die Winkelsumme im Dreieck wird fälschlich mit 360° angenommen (K5) und folglich wird für   180° errechnet.
+Das Abarbeiten der Teilprobleme gelingt nicht (K2). Lediglich die Größe des Winkels
+             wird als Zwischenergebnis ermittelt und irrtümlich mit der Größe des Winkels
+    gleichgesetzt, wie die folgende Schülerlösung zeigt:
+[Bild: image8.png]
+Anregungen für den Unterricht
+Beim Bearbeiten derartiger Aufgaben kann man mit den Schülerinnen und Schülern das bewusste Anwenden von Problemlösestrategien üben. Eine solche Strategie kann das Anfertigen einer informativen Figur sein, deren Zuhilfenahme die Bearbeitung dieser Aufgabe erheblich vereinfachen kann. So könnte man im vorliegenden Beispiel ein Dreieck skizzieren lassen, in das in einem ersten Schritt alle gegebenen Informationen eingetragen werden. Erst im nächsten Schritt würde man dann passende Gleichungen aufstellen, mittels derer sich die gesuchte Winkelgröße errechnen lässt.
+Auch Variationen dieser Aufgabe sind gut denkbar.
+In einer möglichen Variation könnte man die gegebenen Winkelgrößen verändern (hier: jeweils verdreifachen) und prüfen, wie sich diese Änderung auf die Größe des gesuchten Winkels auswirkt. Die zugehörige Aufgabe könnte lauten:
+[Bild][Bild]
+ | Ein Dreieck hat die Innenwinkel ,  und .
+Es gilt nun:  ist sechsmal so groß wie
+ ist neunmal so groß wie
+Gib an, wie groß der Winkel  ist.
+ | [Bild][Bild]In einer anderen möglichen Variation könnte man in einem Drachenviereck Zusammenhänge zwischen Winkelgrößen untersuchen. Eine solche Aufgabe könnte lauten:
+
+ | In einem Drachenviereck sind die gegenüberliegenden Winkel 90° bzw. 60° groß.
+Berechne die Größe der beiden anderen Winkel.
+ | Schließlich eignet sich diese Art von Aufgaben besonders, um Zusammenhänge zwischen algebraischen, sprachlichen und zeichnerischen Darstellungen zu thematisieren.
+
+===== winkelimparallelogramm · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Winkel im Parallelogramm
+[Bild][Bild]
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1)
+Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | V
+ |
+Didaktischer Kommentar
+In dieser Aufgabe wird der Umfang eines Parallelogramms untersucht, weshalb diese Aufgabe zur Leitidee Messen (L2) gehört. Die Aufgabe enthält auch Elemente der Leitidee Funktionaler Zusammenhang (L4), da die Größe des Winkels  und der Umfang des Parallelogramms funktional voneinander abhängen.[Bild][Bild]
+Der beschriebene dynamische Prozess des Hin- und Herschiebens der Parallelogrammseite ist von den Schülerinnen und Schülern gedanklich in Bezug zu der statischen Darstellung zu setzen. Dies erfordert die Kompetenz Darstellungen verwenden (K4). Innerhalb der Darstellung wird die funktionale Abhängigkeit der Länge des Umfangs von der Winkelgröße  untersucht. Beispielweise durch Anwenden des sog. Extremalprinzips (K2) kann geprüft werden, für welchen Winkel  der Umfang am kleinsten ist. Dabei können die Schülerinnen und Schüler erkennen, dass das Rechteck unter allen möglichen Parallelogrammen den kleinsten Umfang hat. Hierbei muss klar sein, dass ein Rechteck ein Sonderfall eines Parallelogramms ist. Schließlich ist die Argumentation darzulegen und es ist nachvollziehbar zu begründen, welche Winkelgröße  die Bedingung erfüllt. Dies kann z. B. durch Bezug auf die Eigenschaft, dass das Lot die kürzeste Entfernung eines Punkts von einer Geraden darstellt, geschehen. Dabei ist es zweckmäßig eine Fallunterscheidung zu treffen (K1), um alle möglichen Fälle der Winkelgröße  systematisch zu betrachten.
+Diese Aufgabe wird wegen ihrer kognitiven Anforderungen an das Argumentieren in den Anforderungsbereich III eingestuft.
+
+Die Parallelogrammseite wird nur so lange gedanklich nach links verschoben, bis  = 90° ist. Der Fall  > 90° wird nicht erkennbar berücksichtigt, d. h. der „symmetrische Fall“ fehlt. Ein solches Defizit im systematischen Variieren der gegebenen Situation illustriert diese Schülerlösung (K2).[Bild][Bild]
+[Bild: image2.png]
+Die Abhängigkeit der Länge des Umfangs von der Winkelgröße  wird nicht erkannt. Möglicherweise ist eine Verwechslung mit der Invarianz des Flächeninhalts die Ursache (K1).
+Das Erkennen des Rechteckes als besonderes Parallelogramm gelingt nicht, wie die nachfolgende Schülerlösung zeigt (vermutlich liegt eine Fehlvorstellung vom Parallelogramm-Begriff vor). Zudem fehlt hier die Vorstellung einer kontinuierlichen Veränderung des Winkels (Was bedeutet „ < 90°“?).
+[Bild: image3.png]
+
+Es ist nicht bewusst, dass Geraden unbegrenzt sind. Infolgedessen wird die Parallelogrammseite nur in einem eingeschränkten Bereich hin und her verschoben. Im Extremfall wird die Winkelgröße  am linken und am rechten „Ende“ von h gemessen und es wird dann fälschlich der Fall maximalen Umfangs betrachtet, wie die nächste Schülerlösung zeigt (K2).
+[Bild: image4.png]
+
+Der Umgang mit der Bedingung für die Verschiebung der Parallelogrammseite bereitet Probleme. Im einen Fall wird die Veränderlichkeit der Seitenlängen von
+
+ und
+
+ bzw. die Konstanz der Höhe h nicht erkannt. Dies führt zu dem Fehlschluss, dass die Parallelogrammseite nicht wie gefordert auf der Geraden h verschoben werden kann. Infolgedessen wird die Aufgabe als unlösbar betrachtet. Im anderen Fall führt diese Schwierigkeit zu einem entarteten Parallelogramm als Lösung mit =0°. Letzteres zeigt die nachfolgende Schülerlösung exemplarisch (K1).
+[Bild: image7.png]
+
+Vierecke – bzw. Vielecke allgemein – begegnen Schülerinnen und Schülern zumeist in statischer Form, sei es in Schulbüchern oder beim Anfertigen und/oder Analysieren von Konstruktionen. Der Einsatz von Hilfsmitteln, die neben dem statischen zusätzlich den dynamischen Aspekt berücksichtigen, erleichtert den Umgang mit den beschriebenen zahlreichen Fehlvorstellungen. Als Hilfsmittel eignen sich Geobretter oder auch Dynamische Geometriesoftware. Beide ermöglichen es, mit wenig Aufwand dynamisch mit Figuren zu operieren oder in kurzer Zeit mehrere Vielecke nach vorgegebenen Kriterien zu erzeugen. [Bild][Bild]
+In der vorliegenden Aufgabe können beispielsweise mit Gummibändern auf Geobrettern fünf oder sechs Parallelogramme gespannt werden, die stellvertretend verschiedene Fälle für die Größe von  veranschaulichen. Mit Bezug zur Anschauung kann der konkrete Vergleich dieser einzelnen Parallelogramme die Argumentation unterstützen, für welche Größe von  der Umfang des Parallelogramms am kleinsten ist.
+Beim Einsatz einer Dynamischen Geometriesoftware können Messoptionen innerhalb des Programms genutzt werden. Dies ermöglicht es, während des Schiebens der Parallelogrammseite zu beobachten, wie sich Umfang oder Flächeninhalt des Parallelogramms in Abhängigkeit von der Winkelgröße  verändern.
+Aber auch ohne Computereinsatz sind solche Untersuchungen durchführbar, etwa indem aus Strohhalmen oder mithilfe eines Zollstockes Gelenkvierecke hergestellt werden. So kann in einer Erweiterung der vorliegenden Aufgabe mit einem Zollstock ein Parallelogramm bei fester Länge des Umfangs bewegt werden. Auf diese Weise lässt sich visualisieren, dass die Größe des Flächeninhalts sich in Abhängigkeit von der Form des Parallelogramms (und damit auch von ) ändert (Dies ist die „duale“ Aufgabe zur vorgegebenen: maximaler Inhalt bei vorgegebenem Umfang).
+Einen weiteren Ansatz zum Umgang mit den beschriebenen Schwierigkeiten bietet eine sorgfältige Analyse des Aufgabentextes. Dabei lässt sich z. B. durch Unterstreichen im Text herausstellen, welche Elemente der Figur unveränderlich bleiben müssen. Zusätzlich können wichtige fachsprachliche Begriffe wie „Parallelogramm“ und „Gerade“ markiert werden. Deren Bedeutungen können dann thematisiert und im Hinblick auf die vorliegende Aufgabe reflektiert werden. Weitere Anregungen zur Entwicklung von Fachsprache finden sich im Allgemeinen Kapitel zur Kompetenz Kommunizieren.
+Bereitet die Unterscheidung der geometrischen Begriffe „Gerade“ und „Strecke“ Probleme, können auch deren Eigenschaften nochmals kontrastiert werden. Darauf aufbauend lässt sich diese Aufgabe auf zwei Arten variieren. Zum einen kann in der Aufgabenstellung „Gerade“ durch „Strecke“ (einschließlich der Bezeichnungen) ersetzt werden, um zu prüfen, ob und wie sich die Lösung der Aufgabe dann ändert. Zum anderen kann, ebenfalls bei einer Ersetzung von „Gerade“ durch „Strecke“, gefragt werden, wie groß  (bei sonst gleichen Voraussetzungen) werden kann.
+
+===== winkelmessen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Winkel messen
+Merkmale der Aufgabe
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1B
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Messen (L2), da es um das Messen eines Winkels geht.
+Zu ihrer Bearbeitung bestimmen die Schülerinnen und Schüler die Größe des abgebildeten spitzen Winkels mit Hilfe des Geodreiecks (K4, K5).
+Aufgrund der Anwendung von Routineverfahren gehört diese Aufgabe dem Anforderungsbereich I an.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Es wird die falsche Messskala des Geodreiecks verwendet (Fehllösung: 137°) (K5).
+Anregungen für den Unterricht
+Bei Schwierigkeiten mit dieser Aufgabe oder aber auch zur Vorbereitung auf derartige Aufgaben kann mit den Schülerinnen und Schülern das Schätzen von Winkelgrößen geübt werden. Hierzu kann ein Winkelschätzer, bestehend aus zwei ineinandergefügten Kreisscheiben, gebaut werden. Wird eine der beiden Kreisscheiben mit einer Winkelskala versehen, kann man zunächst einen Winkel einstellen, dessen Größe schätzen und den Schätzwert anschließend kontrollieren. Dies kann gut in Partnerarbeit oder als wiederholende Einzelübung zu Beginn einer Unterrichtsstunde geschehen. Auf diese Art und Weise ist es möglich, alle Schülerinnen und Schüler zu aktivieren und den Aufbau geeigneter Größenvorstellungen zu fördern. Anschließend können die Schülerinnen und Schüler beim Messen bzw. Zeichnen von Winkeln aufgefordert werden, ihren Messwert bzw. die Größe des gezeichneten Winkels selbstständig zu überprüfen. Somit werden sie in die Lage versetzt, Fehler, welche durch die Verwendung der falschen Messskala zustande kommen, selbstständig zu erkennen. Leistungsstärkere Schülerinnen und Schüler können sich parallel auch mit dem Messen und Zeichnen von stumpfen und überstumpfen Winkeln beschäftigen und sich die hierbei anzuwendenden Verfahren erarbeiten.
+
+===== wuerfelbau · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Würfelbau
+Merkmale der Teilaufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da in ihr gedanklich mit einem Körper operiert wird, der in verschiedenen Positionen zu sehen ist.
+Das Verwenden von Darstellungen (K4) ist bei der Bearbeitung dieser Aufgabe die zentrale Kompetenz, wobei man den gegebenen Körper in Gedanken räumlich drehen muss.
+Die kognitiven Anforderungen dieser Aufgabe liegen noch im Anforderungsbereich I, da nur mit einer Darstellungsform gearbeitet wird.
+Mögliche Schwierigkeiten
+2. Antwortalternative wurde angekreuzt: Es wird übersehen, dass der Würfelkörper in der untersten Schicht „vorne links“ zwei Würfel aufweist (K4).
+3. Antwortalternative wurde angekreuzt: Es wird nicht beachtet, dass sich in der mittleren Schicht des Würfelkörpers auch „hinten rechts“ ein Würfel befindet (K4).
+Weiterarbeit und Förderung
+Schwierigkeiten bei dieser Aufgabe beruhen vielfach darauf, dass einzelne Teile des Körpers übersehen werden oder dass die gedankliche Bewegung des gesamten Körpers im Raum nicht gelingt. Um solchen Schwierigkeiten zu begegnen, kann der gezeigte Körper mit Steckwürfeln nachgebaut werden, um ihn anschließend real zu drehen und die verschiedenen Ansichten mit den Abbildungen zu vergleichen.
+Bereitet der Umgang mit diesem – schon recht komplexen – Körper Probleme, kann zunächst ein einfacherer Körper nachgebaut werden, der z. B. nur aus vier L-förmig zusammengesteckten Würfeln besteht. Dieser Körper kann dann in drei Ansichten (von oben, von der Seite, von vorne) gezeichnet werden.
+Der Wechsel zwischen verschiedenen Darstellungsformen lässt sich gut in Partnerarbeit üben. Dazu baut ein Partner (verdeckt) einen Körper und formuliert – schriftlich oder mündlich – eine Bauanleitung. Der andere Partner nutzt diese Bauanleitung und skizziert den Körper in verschiedenen Ansichten. Anschließend werden Bauanleitung, Skizze und realer Körper miteinander verglichen und etwaige Korrekturen vorgenommen.
+Schließlich können umgekehrt verschiedene Ansichten eines Körpers vorgegeben werden, und man fordert die Schülerinnen und Schüler auf, den zugehörigen Körper mit Steckwürfeln nachzubauen.
+Man vergleiche auch den didaktischen Kommentar zur Aufgabe „Briefmarkenschachteln“, da auch in dieser Aufgabe gedanklich mit einem Körper operiert wird.
+
+===== wuerfelkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Würfelkörper
+Merkmale Teilaufgabe 1
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Messen (L2), da Volumen und Oberflächeninhalt eines Körpers zu bestimmen sind.
+Zunächst ist anhand des Aufgabentextes und der Abbildung zu erkennen, dass und wie sich der große Würfel aus kleinen Würfelchen mit jeweils 1cm Kantenlänge zusammensetzt (K4). Anschließend muss bei beiden Teilaufgaben durch geschicktes Abzählen bzw. Rechnen (K5) die jeweils gesuchte Größe ermittelt werden.
+Da es sich bei beiden Teilaufgaben um reproduzierende Aktivitäten innerhalb eines klar abgegrenzten Gebietes handelt, gehören diese dem Anforderungsbereich I an.
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1, 2:
+Es werden nur die sichtbaren Würfelchen gezählt und deren Anzahl mit dem Volumen bzw. dem Oberflächeninhalt des großen Würfels gleichgesetzt. Während diese falsche Strategie bei Teilaufgabe 1 zum richtigen Ergebnis führt, ist dies bei Teilaufgabe 2 nicht der Fall [Fehllösung: 27 cm3 bzw. 27 cm2] (K5).
+Weiterarbeit und Förderung
+Soll auf diese Aufgabe aufgrund von Schwierigkeiten bei ihrer Bearbeitung noch einmal im Unterricht eingegangen werden, bietet es sich an, den Würfel konkret nachbauen zu lassen. Dies ermöglicht den Schülern, seine Zusammensetzung noch besser zu erkennen und die richtige Anzahl an Würfelchen zu ermitteln, um das Volumen bzw. den Oberflächeninhalt des Würfels zu bestimmen. Weiterführend könnten die Schülerinnen und Schüler neue Körper bauen, deren Oberfläche und Volumen von den Mitschülern zu bestimmen ist. Dabei sollten auch andere Körper als Würfel und Quader vorkommen. Fordert man die Schüler auf, drei Körper mit demselben Volumen bzw. gleich großer Oberfläche zu bauen, kann auch die Kompetenz Probleme lösen in höherem Maße ins Spiel kommen. Noch schwieriger wird es, wenn Volumen und Oberfläche eines Körpers festgelegt sind. Eine mögliche Aufgabe hierzu ist die folgende:
+Zum Bauen eines Körpers stehen dir viele kleine Würfelchen zur Verfügung. Jedes dieser Würfelchen hat ein Volumen von 1 cm3.
+a)	Baue hiermit einen Körper, dessen Volumen 6 cm3 und dessen Oberflächeninhalt
+	24 cm2 groß ist.
+b)	Fertige eine Skizze deines Körpers an und erkläre, wie du zur Lösung der Aufgabe 	vorgegangen bist.
+c)	Betrachte das zur Verfügung gestellte Modellauto und schätze dessen Volumen. 	Baue aus kleinen Würfelchen einen Körper, der dem Auto in Form und Größe 	ungefähr entspricht. Vergleiche das Volumen dieses Körpers mit deinem Schätzwert.
+ |
+
+===== wuerfeloberflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2015
+
+Didaktische Handreichung: Würfeloberfläche
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mathematisches Argumentieren (K1),
+Probleme mathematisch lösen (K2),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Da es in dieser Aufgabe um die Größe der Oberfläche eines Körpers geht, wird sie der Leitidee Messen (L2) zugeordnet.
+Die Schülerinnen und Schüler sollen bestimmen, um wie viel Prozent die Oberfläche eines Würfels abnimmt, wenn man dessen Kantenlänge halbiert. Zunächst müssen die Lernenden diese im Aufgabentext formulierte Problemstellung korrekt erfassen (K6). Zum richtigen Ergebnis können sie mit verschiedenen Lösungsstrategien kommen (K2): Es können beispielsweise eine Skizze angefertigt, eine Formel zur Berechnung der Würfeloberfläche verwendet oder verschiedene Beispiele betrachtet werden (K5). Abschließend sollen die Schülerinnen und Schüler ihr Ergebnis argumentativ begründen (K1).
+Da hier eine komplexe, mehrschrittige Argumentation entwickelt werden soll und die kognitiven Anforderungen an das Problemlösen eher hoch sind, handelt es sich um eine Aufgabe aus dem Anforderungsbereich III.
+Anregungen für den Unterricht
+Die Schülerinnen und Schüler argumentieren bei der Bearbeitung dieser Aufgabe rechnerisch oder anschaulich anhand einer Skizze. In beiden Fällen kann entweder nur ein Beispiel betrachtet werden oder es wird (z. B. mit Variablen) eine allgemeine Argumentation entwickelt. Statt der Oberfläche des gesamten Würfels können die Lernenden stellvertretend auch nur den Flächeninhalt einer einzigen Seitenfläche betrachten.
+
+Rechnerische Argumentation anhand eines Beispiels, bei der die Oberfläche des gesamten Würfels berechnet wird:
+[Bild: image1.png]
+
+Rechnerische Argumentation anhand eines Beispiels und einer einzigen Seitenfläche (Auf den Zusammenhang von Seiten- und Oberfläche wurde in dieser Argumentation nicht eingegangen. Die Argumentation wurde aber dennoch akzeptiert):
+
+[Bild: image2.png]
+
+Allgemeine rechnerische Argumentation, bei der der Flächeninhalt einer einzigen Seitenfläche betrachtet wird:
+[Bild: image3.png]
+
+Anschauliche Argumentation anhand eines Beispiels und nur einer einzigen Seitenfläche:
+
+[Bild: image4.png]
+
+Allgemeine anschauliche Argumentation, bei der die Oberfläche des gesamten Würfels betrachtet wird:
+
+[Bild: image5.png]
+
+Gerade die verschiedenen Strategien bei der Bearbeitung solcher Begründungsaufgaben bieten die wertvolle Gelegenheit, im Mathematikunterricht binnendifferenziert zu arbeiten. Dabei wird nicht nur entlang des Leistungsstandes der Schülerinnen und Schülerdifferenziert, sondern vor allem anhand der Zugangsweisen, die von den Lernenden präferiert werden. Die verschiedenen Lösungsansätze können von Schülerinnen und Schülern entweder in einem kooperativen Lernsetting selbst entwickelt oder durch Hinweise seitens der Lehrkraft angeregt werden. In jedem Fall sollten sie aber in einer Plenumsphase vorgestellt und gegeneinander abgewogen werden. Eine frühzeitige oder gar ausschließliche Fokussierung auf einen rein algebraischen Lösungsweg ist zu vermeiden.
+Durch ein solches Vorgehen wird sichergestellt, dass zum einen der Anspruch der Binnendifferenzierung gewahrt bleibt und zum anderen alle Lernenden divergierende mathematische Sichtweisen auf ein Problem einnehmen können. Wird dieses Verfahren im Unterricht regelmäßig angewandt und verschiedene Herangehensweisen systematisiert und gesichert, so ist davon auszugehen, dass die Schülerinnen und Schülern heuristische Fähigkeiten entwickeln und damit ihre Kompetenz zum mathematischen Problemlösen (K2) gestärkt wird.
+Die hier vorgestellte Aufgabe lässt sich für den Unterricht variieren, indem die Fragestellung auf andere Körper (Pyramiden, Kugeln usw.) oder Flächen (gleichseitige Dreiecke, Kreisflächen usw.) übertragen wird. In diesem Zusammenhang kann auch reflektierend auf die Umrechnung von Maßeinheiten eingegangen werden. Eine interessante Anwendung ergibt sich, wenn auf dem Computer gespeicherte Bilddateien (z. B. Urlaubsbilder) unter Beibehaltung der Seitenverhältnisse verkleinert (skaliert) werden. Es lässt sich aufgrund des mathematischen Zusammenhangs (Seitenlängen und Flächen) erläutern, warum der Speicherbedarf eines Bildes um deutlich mehr als die Hälfte sinkt, wenn dessen Seitenlängen halbiert werden (siehe Abbildung).
+[Bild: image6.png]
+Das linke abgebildete Foto hat die Maße 12 cm x 16 cm und hat das Speichervolumen 11,356KB (im TIF-Format), verringert man die Seitenlängen jeweils um 50 Prozent, so verringert sich das Speichervolumen auf ein Viertel (2,845KB).
+
+===== wuerfelturm2 · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2017; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2017
+
+Didaktische Handreichung: Würfelturm 2
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Funktionaler Zusammenhang (L4)
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Messen (L2)
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | Funktionaler Zusammenhang (L4)
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+In Teilaufgabe 1 und 3 der Aufgabe „Würfelturm“ steht ein funktionaler Zusammenhang im Vordergrund. Es wird entschieden, wie oft der x-te Würfel in den ersten passt. Deshalb werden diese Teilaufgaben der Leitidee funktionaler Zusammenhang (L4) zugeordnet. In Teilaufgabe 2 wird eine Formel angegeben zur Berechnung des Volumens eines aus Würfeln zusammengesetzten Körpers. Daher steht in dieser Teilaufgabe die Leitidee Messen (L2) im Vordergrund.
+
+In allen drei Teilaufgaben wird die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umzugehen (K5) benötigt. In Teilaufgabe 1 wird zusätzlich die Kompetenz Mathematisch kommunizieren (K6) verlangt, da die Abbildung und der Aufgabentext sinnentnehmend erfasst werden müssen, in Teilaufgabe 2 wird zusätzlich die Kompetenz Mathematische Darstellungen verwenden (K4) vorausgesetzt, da dort zur Darstellungsform Formel gewechselt wird, und in Teilaufgabe 3 wird zusätzlich die Kompetenz Probleme mathematisch lösen (K2) benötigt, da dort ein Problem gelöst werden muss, das aus dem Unterricht noch nicht bekannt ist.
+
+Alle drei Teilaufgaben werden in den Anforderungsbereich II eingeordnet, da in allen drei Teilaufgaben mit Variablen und Termen bzw. Funktionen gearbeitet wird.
+Anregungen für den Unterricht
+Die Aufgabe „Würfelturm“ kann im Unterricht dazu genutzt werden, Schülerinnen und Schülern exponentielles Wachstum näher zu bringen. Je nach Betrachtungsweise handelt es sich um eine exponentielle Zunahme (wenn die Anzahl der Würfel betrachtet wird) oder um eine exponentielle Abnahme (wenn das Volumen der Würfel betrachtet wird). Eine wesentliche Schwierigkeit dieser Aufgabe besteht darin, sich die Anzahl der Würfel vorzustellen, die die halbe Seitenlänge eines anderen haben. In der Abbildung ist der Ausgangswürfel nicht unterteilt. So muss diese Vorstellung ausschließlich gedanklich hergestellt werden. Im Unterricht kann man leicht für eine enaktiv erfassbare Veranschaulichung des Sachverhalts sorgen, z. B. mithilfe von Spielwürfeln, die man zu einem größeren Würfel anordnet (siehe Abbildung 1).
+
+[Bild: image1.png]
+Abbildung 1: Würfelturm mit Spielwürfeln
+
+Will man den Sachverhalt weiter vereinfachen, kann die Oberfläche anstatt des Volumens eines Würfels betrachtet werden. In Vera8 2015 wurde dazu die folgende Aufgabe gestellt:
+
+Beispielaufgabe „Würfeloberfläche“
+[Bild][Bild]
+Verkleinert man die Kantenlänge eines Würfels, verkleinert sich auch die Größe seiner
+Oberfläche.
+Die Kantenlänge eines Würfels wird halbiert.
+Um wie viel Prozent verkleinert sich die Größe seiner Oberfläche?
+Kreuze an.
+um 25% um 50% um 75% um 87,5%
+Begründe deine Antwort.
+
+Darüber hinaus bietet insbesondere Teilaufgabe 2 von „Würfelturm“ die Gelegenheit über eine Summe nachzudenken, die unendlich viele Summanden hat. Hierzu stelle man sich vor, dass nach dem gleichen Muster unendlich viele weitere Würfel auf den Würfelturm gestapelt werden. Die Schülerinnen und Schüler sollen nun entscheiden, ob das Volumen unendlich groß wird oder ob das Volumen eine Obergrenze hat. Der naiven Anschauung zufolge sollte eine Summe mit unendlich vielen Summanden, die größer als 0 sind, auch unendlich groß werden. Allerdings steht dieser Anschauung der Umstand entgegen, dass auch die Volumina der einzelnen Würfel unendlich klein werden. Man demnach immer weniger hinzuaddiert.
+
+Im Schulunterricht verläuft die Klärung dieser Frage in aller Regel nicht über die Thematisierung von unendlichen Reihen und dem Begriff der Konvergenz bzw. Divergenz. Dabei würde schnell deutlich, dass sowohl die Oberfläche als auch das Volumen des Würfelturms bei Hinzunahme unendlich vieler Würfel konvergiert. Im Unterricht kann diese Fragestellung dennoch zumindest der Anschauung nach geklärt werden. Mithilfe eines Tabellenkalkulationsprogramms können sehr gut die Oberfläche und das Volumen des Würfelturms mithilfe von Rekursionen bestimmt werden. Dabei wird einfach zur Bestimmung des Volumens eines Würfelturms mit n Würfeln das Volumen des Würfels n zum Volumen des Würfelturms mit  Würfeln addiert (siehe Abbildung 2).
+
+[Bild: image4.png]
+Abbildung 2: Oberfläche und Volumen des Würfelturms in Abhängigkeit von der Seitenlänge des ersten Würfels
+
+Hier sind aus Platzgründen nur Würfeltürme mit maximal 10 Würfeln dargestellt. Vom Tabellenkalkulationsprogramm kann man die Spalten dieser Tabelle für Würfeltürme mit weiteren Würfeln einfach ergänzen lassen, ohne dass man selbst die Formeln eintippen muss. So können im Unterricht schnell weitere Würfeltürme mit sehr viel mehr Würfeln betrachtet werden. Wie man in der folgenden Abbildung 3 sehen kann, sind die Berechnungen nur von der Zelle B2 abhängig (dunkel hinterlegt), in der die Seitenlänge des ersten Würfels eingetragen wird.
+
+[Bild: image5.png]
+Abbildung 3: Formeln im Tabellenkalkulationsprogramm
+
+Auf diese Weise erhalten Schülerinnen und Schüler einen anschaulich-intuitiven Zugang zur Konvergenz von Reihen. Selbstredend kann die Tabelle auch in einen Funktionsgraphen überführt werden. Hier wird dann ersichtlich, dass die Zunahme der Oberfläche und des Volumens immer weiter abnimmt. Im Mathematikunterricht spielt die hierdurch aufgebaute Vorstellung wieder eine Rolle, wenn beispielsweise in der Oberstufe uneigentliche Integrale mit einem nach rechts offenen Intervall betrachtet werden.
+
+===== zeitangabe · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Didaktische Handreichung: Zeitangabe
+Merkmale
+Leitidee
+ | 2. Messen
+ | Allgemeine Kompetenz
+ | Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Weil es in dieser Aufgabe um die Umrechnung von Zeitangaben (Zeitspannen) geht, wird sie der Leitidee Messen (L2) zugeordnet.
+Die Aufgabenstellung fordert von den Schülerinnen und Schülern, eine in Stunden und als gemischter Bruch gegebene Zeitangabe in Minuten umzurechnen. Hierzu müssen unter Rückgriff auf Alltags- und Erfahrungswissen elementare Rechenstrategien (z. B. 60+60+30 Minuten) angewendet werden (K5).
+Es handelt sich bei dieser Aufgabe um den Anforderungsbereich I, weil die durchzuführende Umrechnung für die Lernenden ein geübtes Routineverfahren darstellt.
+Anregungen für den Unterricht
+Anhand der hier verwendeten Auswahlmöglichkeiten lassen sich bereits einige Rechenfehler und Fehlvorstellungen von Schülerinnen und Schülern illustrieren:
+Wenn die Lernenden den gemischten Bruch  nicht als  interpretieren, sondern als  könnten sie hier fälschlicherweise kürzen und 1 Stunde in 60 min umrechnen.
+Die Lernenden wählen 250 min, weil 1 Stunde nicht in 60 min sondern in 100 min umgerechnet wird. Entsprechend wird auch  Stunde in 50 min umgerechnet.
+Für Testsituationen bietet es sich an, die Auswahlmöglichkeiten für Schülerinnen und Schüler so zu gestalten, dass gewisse Fehlvorstellungen sich in den Antwortmöglichkeiten wiederfinden. So erhält die Lehrperson die Möglichkeit Rückschlüsse darüber anzustellen, welche Schwierigkeiten die Schülerinnen und Schüler mit der entsprechenden Aufgabe haben.
+Isoliert betrachtet, erscheint die hier vorgestellte Aufgabe wenig vielfältig. Dabei handelt es sich bei der üblichen Darstellung einer Zeitdauer in unterschiedlichen Einheiten (z. B. Tage, Stunden, Minuten) um den keineswegs anspruchslosen Fall eines Zahlensystems mit unterschiedlichen Basen. Die Verwendung eines metrischen Einheitensystems würde auch bezogen auf Zeiteinheiten deutliche Vorteile bieten, da Einheiten leicht(er) umgerechnet werden können und so insgesamt in Anwendungszusammenhängen mit Zeitangaben einfacher zu rechnen ist. Zur Verdeutlichung dieses Sachverhalts eignet sich z. B. ein historischer Exkurs, der die Entwicklung und Verbreitung metrischer Einheitensysteme zum Gegenstand hat. Historische und ausländische Größensysteme sind geeignet, mit nicht-dekadisch strukturierten Größenbereichen, zu denen auch die Zeit gehört, Erfahrungen zu sammeln. Gerade ein Blick auf den anglo-amerikanischen Raum, wo nichtmetrische Einheitensysteme auch für Längen, Flächen usw. noch immer gebräuchlich sind, kann in diesem Zusammenhang eine Rolle spielen.

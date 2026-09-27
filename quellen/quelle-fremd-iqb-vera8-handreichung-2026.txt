@@ -1,0 +1,1832 @@
+Quelle: VERA-8 Mathematik 2026, Didaktische Handreichung Teil II (Modul B), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_2026_MA_ModulB_lMRNeBJ.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 44 (pdfinfo)
+Lizenzvermerk: kein Vermerk für das Dokument; auf den sechs Beispielaufgaben (Trapez, Steinhuder Meer, Rechteckige Fläche, Restaurantgewinnspiel, Glücksrad, Glückssäckchen) wortgleich: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“ (bei Rechteckige Fläche „Copyright Text und Teilaufgaben: …“)
+Textfassung: pdftotext -layout (poppler); Formeln und Abbildungen fehlen, Seitenwechsel als Formfeed.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+    Vergleichsarbeiten 2026
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+ Fachdidaktische Orientierung
+       Leitidee Messen
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 3
+3    DIE LEITIDEE MESSEN ................................................................................................ 6
+     3.1      SCHWERPUNKTTHEMA: EBENE FIGUREN ................................................................ 9
+     3.2      EBENE FIGUREN IN VERA-8 .................................................................................14
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................20
+5    LITERATURVERZEICHNIS ..........................................................................................21
+6    ABBILDUNGSVERZEICHNIS .......................................................................................23
+7    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................23
+
+
+
+
+Autorinnen1 der fachdidaktischen Erläuterungen in Teil II sind Lisa Kämmerling, Marlena
+Meyer und Antonia Rewer. Die gezeigten Testaufgaben entstanden in Kooperation von Lehr-
+kräften aus neun Bundesländern und Mathematikdidaktikerinnen und Mathematikdidaktikern
+unter Federführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische
+Leitung) und des Instituts zur Qualitätsentwicklung im Bildungswesen.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit, Vollstän-
+digkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt der
+verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+           https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/
+
+
+
+
+1 Aufgrund der dynamischen Diskussion zum sprachlichen Umgang mit geschlechtlicher Vielfalt sowie
+
+
+der Positionierung des Rats für deutsche Rechtschreibung und der Schulbehörden einiger Länder ge-
+gen Schreibweisen mit Wortbinnenzeichen (z. B. Genderstern) verwenden wir Doppelnennungen (z. B.
+Schülerinnen und Schüler) oder geschlechtsneutrale Formulierungen (z. B. Lehrkräfte). Hiermit sind
+ausdrücklich Personen aller Geschlechter gemeint.
+
+                                                               2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2012) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt.
+Anschließend werden die beiden Schwerpunkte, die in den diesjährigen Ergänzungsmodulen
+zur Wahl stehen, näher erläutert: die Leitidee Messen mit einem Fokus auf Ebene Figuren
+sowie die Leitidee Daten und Zufall mit einem Fokus auf das Thema Zufall. Es werden
+insbesondere zu beiden Schwerpunkten fachdidaktische Herausforderungen hinsichtlich
+typischer Fehler von Lernenden sowie hinsichtlich der Auswahl geeigneter Aufgaben
+geschildert und wissenschaftlich fundierte Zugänge vorgestellt, wie mit diesen in der
+Unterrichtspraxis umgegangen werden kann. In den dazugehörigen Kapiteln 3 und 4 werden
+außerdem Aufgaben aus VERA-8 zu den diesjährigen Schwerpunktsetzungen präsentiert.
+Dabei handelt es sich um Beispiele für Aufgabenformulierungen, welche die verschiedenen
+allgemeinen Kompetenzen adressieren und daher insbesondere im Regelunterricht zur
+Förderung ebendieser Kompetenzen herangezogen werden können.
+
+
+
+2 Bildungsstandards2 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/Franzö-
+sisch) ein3. Eine grundlegende Wende stand bevor: Während zuvor der Input im Vordergrund
+stand, also der Blick auf die zu unterrichtenden Inhalte und Themen die Lehrplanentwicklung
+dominierte, sollte nun auch der Output stärkere Beachtung finden, also der Aufbau von Kom-
+petenzen, Wissensstrukturen und Fertigkeiten über die die Schülerinnen und Schüler nach
+erfolgreichem Unterricht verfügen sollen. Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+
+
+
+2 Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss weiterent-
+
+
+wickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil II bezieht
+sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind, da sich die
+Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+3 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                 3
+       „Mathematische Grundbildung umfasst die Fähigkeit des Einzelnen, Mathematik in
+       einer Vielzahl von Kontexten zu formulieren, anzuwenden und zu interpretieren. Sie
+       umfasst mathematisches Argumentieren und die Verwendung mathematischer
+       Konzepte, Verfahren, Fakten und Werkzeuge zur Beschreibung, Erklärung und Vorher-
+       sage von Phänomenen. Sie hilft dem Einzelnen, die Rolle zu erkennen, die die Mathe-
+       matik in der Welt spielt, und begründete Urteile und Entscheidungen zu treffen, die von
+       konstruktiven, engagierten und reflektierten Bürgerinnen und Bürgern benötigt werden.“
+       (OECD, 2013, S. 25, eigene Übersetzung)
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schülerinnen und
+Schüler bis zu einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben
+haben sollen (KMK, 2004, 2005). Dabei wird davon ausgegangen, dass ein allgemeinbildender
+Mathematikunterricht Schülerinnen und Schülern die folgenden drei Grunderfahrungen
+ermöglicht (Winter, 1995, S. 37):
+
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+       Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu verstehen,
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+       Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+       eigener Art kennen zu lernen und zu begreifen,
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die Mathe-
+       matik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Es werden in diesem Modell zunächst die folgenden drei Di-
+mensionen unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Leitideen
+   3. Anforderungsbereiche
+
+
+
+
+                                                 4
+                 Anforderungsbereich III
+
+
+
+                 Anforderungsbereich II
+
+
+
+                 Anforderungsbereich I
+
+                                                                 Leitideen
+                                           L5   Daten und Zufall
+                                         L4     Funktionaler Zusammenhang
+                                       L3       Raum und Form
+                                     L2         Messen
+                                   L1           Zahl
+     K1   K2   K3   K4   K5   K6
+
+                            Mathematisch kommunizieren
+                      Mit symbolischen, formalen und technischen
+                      Elementen der Mathematik umgehen
+                  Mathematische Darstellungen verwenden
+             Mathematisch modellieren                      Allgemeine
+        Probleme mathematisch lösen                        mathematische
+                                                           Kompetenzen
+    Mathematisch argumentieren
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den Kompeten-
+zen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“ (Leiss & Blum,
+2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2), Mathematisch modellieren (K3), Mathematische Darstel-
+lungen verwenden (K4), Mit symbolischen, formalen und technischen Elementen der Mathe-
+matik umgehen (K5) und Mathematisch kommunizieren (K6). Diese Allgemeinen mathemati-
+schen Kompetenzen sollen differenziert betrachtet werden, auch wenn sie üblicherweise im
+Verbund erworben werden und häufig auch gemeinsam angewendet werden müssen. Insbe-
+sondere werden bei der Bearbeitung von komplexeren mathematischen Aufgaben oft mehrere
+dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die Absicht verbunden,
+spezifische Eigenschaften und Anforderungen von Aufgaben im Mathematikunterricht trans-
+parent zu machen, was eine differenziertere Planung des Mathematikunterrichts ermöglicht.
+So kann ein mathematischer Inhalt den Schülerinnen und Schülern entlang verschiedener
+durchzuführender mathematischer Tätigkeiten zugänglich gemacht werden. Inhalte können
+durch die multiperspektivische und wiederholte Betrachtung eher in ihrer Gänze verstanden
+werden und mathematische Kompetenzen anhand unterschiedlichster Erscheinungen über
+den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+
+
+                                                   5
+Leitideen eine zweite Dimension des Modells, die die mathematischen Inhalte umfasst. Die
+fünf Leitideen sind Zahl (L1), Messen (L2), Raum und Form (L3), Funktionaler Zusammen-
+hang (L4) und Daten und Zufall (L5). In den Bildungsstandards wird zu den Leitideen erläutert:
+
+         „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und
+         durchzieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbe-
+         zogenen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in
+         jedem Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen
+         Arbeitens im inhaltlichen Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im Lern-
+prozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben es,
+bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen (Greefrath 2018,
+Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische Kompe-
+tenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine Kompe-
+tenzen, die es Schülerinnen und Schülern ermöglichen, Zusammenhänge herzustellen und
+Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen,
+die es Schülerinnen und Schülern abverlangen, zu verallgemeinern und zu reflektieren (KMK,
+2004).
+
+Im Folgenden wird die Leitidee Messen fokussiert.
+
+
+
+3 Die Leitidee Messen
+
+Für die Leitidee Messen (L2) werden die inhaltsbezogenen mathematischen Kompetenzen in
+den Bildungsstandards für den Mittleren Schulabschluss folgendermaßen konkretisiert (KMK,
+2004, S. 11).
+
+Die Schülerinnen und Schüler
+   •     nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und
+         Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,
+   •     wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse,
+         Geld, Länge, Fläche, Volumen und Winkel),
+   •     schätzen Größen mit Hilfe von Vorstellungen über geeignete Repräsentanten,
+
+
+
+                                                  6
+   •   berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus
+       zusammengesetzten Figuren,
+   •   berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und
+       Kugel sowie daraus zusammengesetzten Körpern,
+   •   berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung von trigonometri-
+       schen Beziehungen und Ähnlichkeitsbeziehungen,
+   •   nehmen in ihrer Umwelt gezielt Messungen vor, entnehmen Maßangaben aus Quel-
+       lenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den
+       gewählten Weg in Bezug auf die Sachsituation.
+In den Bildungsstandards Mathematik für den Hauptschulabschluss (KMK, 2005) finden sich
+viele der genannten inhaltsbezogenen mathematischen Kompetenzen wieder. Dabei werden
+jedoch einige Einschränkungen vorgenommen. Es entfallen Volumen- und Oberflächenbe-
+stimmung von Kegel und Kugel, sowie die Bestimmung von Streckenlängen und Winkelgrößen
+auch unter Nutzung der Trigonometrie. In beiden Varianten der Bildungsstandards wird im
+Bereich Messen der Umweltbezug besonders hervorgehoben, sei es bei der situationsange-
+messenen Auswahl von Einheiten, der Größenordnungsschätzung, dem Entnehmen von Maß-
+angaben aus Quellenmaterial oder dem Bewerten von Messergebnissen im Kontext einer
+Sachsituation.
+
+Dass gerade dieser Bezug zu realen Objekten in der Leitidee eine besondere Stellung ein-
+nimmt, liegt auch an der grundlegenden Definition des Messens. Im Allgemeinen geht es beim
+Messen darum, die Größe eines Objektes mit Zahlen zu erfassen, also quantitative Aussagen
+über ausgewählte Eigenschaften eines Objektes zu treffen (Leuders & Barzel, 2014). Größen
+sind nicht als natürliche Eigenschaft eines Objektes zu verstehen, sondern vielmehr als die
+Möglichkeit, Objekten der Wirklichkeit in verschiedener Weise (z. B. bezüglich ihres Volumens
+oder ihrer Masse) einen abstrakten Wert aus der Mathematik – bestehend aus Maßzahl (z. B.
+100) und Maßeinheit (z. B. kg) – zuzuordnen. Eine Größe wird mit einer Maßzahl (z. B. 100)
+und einer standardisierten Maßeinheit (z. B. kg) angegeben (Leuders & Barzel, 2014). Zum
+Konzept des Messens gehört daher auch der Umgang mit verschiedenen Größen (z. B. Länge,
+Zeit, Flächeninhalt, Volumen), Maßeinheiten (z. B. Meter, Sekunde) und deren Abkürzungen
+(Leuders & Barzel, 2014).
+
+Mithilfe von Messinstrumenten wird beim Messen ein direkter Vergleich des Objektes mit einer
+festgelegten Einheit durchgeführt (Greefrath, 2018): Es wird ein kleinstes Vergleichsobjekt,
+das auch als Einheit bezeichnet wird, gewählt und gefragt, wie oft dieses in das Objekt passt,
+dessen Größe erfasst werden soll (Grundvorstellung des „Passen in“) (Leuders & Barzel,
+2014). Eine grundsätzliche Vorgehensweise für die zahlenmäßige Erfassung einer Eigen-
+
+
+
+
+                                              7
+schaft eines Objektes ist es also, sich ein passendes Vergleichsobjekt mit bekannter Maßein-
+heit zu wählen und mit dem Objekt zu vergleichen. Dieses Prinzip des Messens greift auf die
+Grundvorstellung zur Division des „Passen in“ zurück (Leuders & Barzel, 2014).
+
+Das Vorgehen des Vergleichens eines bekannten Objektes mit dem zu erfassenden Objekt
+wird auch beim Schätzen angewendet, wobei beim Schätzen jedoch ein gedanklicher Ver-
+gleich durchgeführt wird (Greefrath, 2018). Dafür ist der Aufbau von Stützpunktvorstellungen
+von großer Bedeutung. Bei Stützpunktvorstellungen handelt es sich um mentale Modelle zur
+Größenangabe von Repräsentanten einer Größe (Ruwisch, 2021b). Mögliche Repräsentanten
+sind beispielweise für Längen die Höhe einer Tür zur Größenangabe 2 m, für Gewichte4 eine
+Tafel Schokolade zur Größenangabe 100 g oder für Volumina eine Milchpackung zur Größen-
+angabe 1 l (Franke & Ruwisch, 2013; Greefrath, 2018). Um Stützpunktvorstellungen aufzu-
+bauen, sollten Lernende verschiedene Repräsentanten zu verschiedenen Größen kennen ler-
+nen und diese als Vergleichsobjekte zum Lösen von Sachaufgaben heranziehen, damit diese
+Repräsentanten durch vielfältige Übungen zu Stützpunkten werden können (Franke &
+Ruwisch, 2013). Für eine Vorstellung von Flächeninhalten kann beispielsweise die Fläche ei-
+ner quadratischen Seitentafel einer Schultafel als Repräsentant zur Größenangabe 1 m2 die-
+nen.
+
+Der enge Zusammenhang zwischen realweltlichen Objekten und mathematischen Größen ver-
+deutlicht, dass die Leitidee Messen (L2) stets eine Verknüpfung zwischen alltäglichen Erfah-
+rungen und einer abstrakten Zahlenwelt herstellt. Gerade diese Verknüpfung macht die Leit-
+idee Messen (L2) zu einem zentralen Bestandteil mathematischer Allgemeinbildung. Ebene
+Figuren bilden nicht nur einen wesentlichen Teil des Geometrieunterrichts, sondern auch eine
+grundlegende Basis für das Verständnis des Messens, da das Messen von Flächeninhalten
+eine erste Auseinandersetzung mit mehrdimensionalen Messungen und somit eine tieferge-
+hende Auseinandersetzung mit der Passt-in-Grundvorstellung bedeutet. Ihre Betrachtung er-
+möglicht es, zentrale Aspekte der Leitidee Messen (L2) wie das Vergleichen, Schätzen, Mes-
+sen und Berechnen gezielt aufzugreifen und zu vertiefen. In den folgenden zwei Unterkapiteln
+wird zunächst das Schwerpunktthema der Leitidee Messen (L2) der diesjährigen VERA-8 Er-
+hebung Ebene Figuren näher betrachtet.
+
+
+
+
+4 Der Begriff Gewicht wird aufgrund der Alltagsnähe der Lernenden synonym zum Begriff Masse ver-
+
+
+wendet.
+
+                                               8
+3.1   Schwerpunktthema: Ebene Figuren
+Das diesjährige Schwerpunktthema der VERA-8 Erhebungen im Rahmen der Leitidee Messen
+(L2) lautet Ebene Figuren. Ebene Figuren werden in den Bildungsstandards einerseits, wie
+oben dargestellt, in der Leitidee Messen (L2) aufgegriffen, andererseits sind sie auch im Rah-
+men der Leitidee Raum und Form (L3) verankert (KMK, 2004). Während ebene Figuren in der
+Leitidee Messen (L2) eher im Rahmen des Schätzens, Messens und Berechnens von Flä-
+cheninhalt und Umfang thematisiert werden, stellt die Leitidee Raum und Form (L3) die Geo-
+metrie und somit ebene Figuren eher im Hinblick auf ihre Eigenschaften und Strukturen, Kon-
+struktionen und das gedankliche Operieren in den Vordergrund (KMK, 2004). Beide Leitideen
+adressieren somit das Thema Ebene Figuren, jedoch aus unterschiedlichen, sich ergänzenden
+Perspektiven. Während die Leitidee Messen (L2) eher den operativen Umgang mit Größen
+fokussiert, indem Mess-, Schätz- und Berechnungsprozesse im Vordergrund stehen, zielt die
+Leitidee Raum und Form (L3) primär auf das Erfassen und Begründen geometrischer Struktu-
+ren und Beziehungen ab. Beide Leitideen beziehen sich auf das mathematische Sachgebiet
+der Geometrie, wobei der Leitidee Messen (L2) zusätzlich die mathematischen Sachgebiete
+Arithmetik und Algebra zugehörig sind. Einerseits bilden Kenntnisse über Eigenschaften und
+Beziehungen ebener Figuren aus der Leitidee Raum und Form (L3) die Basis für das sachge-
+rechte Messen und Berechnen, während das handlungsorientierte und rechnerische Arbeiten
+mit Größen und Messwerkzeugen wiederum ein vertiefendes Verständnis geometrischer
+Strukturen ermöglichen. Die beiden Leitideen haben also gewisse Anknüpfungspunkte. Da
+ebene Figuren sowohl Anknüpfungspunkte zur Leitidee Messen (L2) als auch zur Leitidee
+Raum und Form (L3) aufweisen, wird im Folgenden zunächst ein kurzer Einblick über ver-
+schiedene Zugänge zu ebenen Figuren aus der Perspektive der Leitidee Raum und Form (L3)
+aufgezeigt. Anschließend wird dann zu ebenen Figuren im Rahmen der Leitidee Messen (L2)
+übergeleitet.
+
+In der Primarstufe lernen Schülerinnen und Schüler Figuren überwiegend als visuelle Sche-
+mata kennen, sodass Lernende mit den Figurenbegriffen vorrangig bildliche Vorstellungen von
+Prototypen verbinden (Roth & Wittmann, 2018). In der Sekundarstufe I sollten daher zunächst
+Lerngelegenheiten geschaffen werden, um einzelne Eigenschaften von Figuren und Bezie-
+hungen zwischen Figuren erfahrbar zu machen. Ebene Figuren werden in der Mathematik
+meist durch interne Bezüge charakterisiert, also durch Eigenschaften der Seiten, Winkel, Dia-
+gonalen oder Symmetrie. Jedoch nehmen Lernende bei der Betrachtung von Figuren häufig
+zunächst externe Bezüge wahr, beispielsweise die Parallelität von Seiten zum Blattrand. Das
+kann beispielsweise dazu führen, dass Schülerinnen und Schüler einen rechten Winkel nicht
+erkennen, wenn die Figur gegenüber den Blattkanten gedreht ist, ein nicht-aufrecht-stehendes
+gleichschenkliges Dreieck nicht als solches erkennen oder ein auf einer Ecke stehendes
+Quadrat als Raute und nicht als Quadrat bezeichnen (Roth & Wittmann, 2018). Daher ist es
+
+                                              9
+von besonderer Bedeutung, interne Bezüge für Lernende sichtbar zu machen. Dies kann durch
+verschiedene Zugänge zu ebenen Figuren geschehen. Einerseits können Schülerinnen und
+Schüler Figurenbegriffe durch Beispiele lernen, wobei ihnen idealisierte Figuren vorgelegt wer-
+den, welche sie vergleichen und deren Unterschiede und Gemeinsamkeiten sie beschreiben
+sollen. Dabei lernen die Schülerinnen und Schüler Figurenbegriffe durch bildliche Vorstellun-
+gen. Einen weiteren Zugang stellt die operative Begriffsbildung dar, wobei Figurenbegriffe aus
+einer Handlung heraus entwickelt werden. Dabei leiten die Lernenden durch das Beschreiben
+und Reflektieren einer Handlung zentrale Beziehungsstrukturen des Begriffs ab (Roth &
+Wittmann, 2018). Beispielsweise können Lernende anhand der Beschreibung der Entstehung
+des Parallelogramms durch das Schneiden zweier Parallelstreifen ein Parallelogramm kon-
+struieren und aus dieser Beschreibung und Reflexion der Handlung Beziehungen und Struk-
+turen für den Begriff Parallelogramm ableiten. Der Zugang der operativen Begriffsbildung ist
+deshalb von Bedeutung, weil er die Ausbildung innerer Bezüge unterstützt, während beim Ler-
+nen durch Beispiel eher externe Bezüge deutlich werden. Da Lernenden nach der Grundschul-
+zeit ebene Figuren primär als visuelle Schemata bekannt sind, sollten sich beide Zugänge der
+Begriffsbildung ergänzen (Roth & Wittmann, 2018).
+
+Ebene Figuren lassen sich in der Leitidee Messen (L2) der Bildungsstandards im Hinblick auf
+folgende inhaltsbezogene mathematischen Kompetenzen einordnen: Das Nutzen des Grund-
+prinzip des Messens bei der Längen- und Flächenmessung, das situationsgerechte Auswäh-
+len von Einheiten von Größen für Länge, Fläche und Winkel, das Schätzen von Größen mithilfe
+von Vorstellungen über geeignete Repräsentanten sowie das Berechnen von Flächeninhalt
+und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren
+(KMK, 2004).
+Die Grundlage für Messprozesse in der Schule ist die zu Beginn dieses Kapitels beschriebene
+Passt-in-Vorstellung: Man wählt ein Vergleichsobjekt oder eine standardisierte Einheit und
+prüft, wie oft diese in das zu messende Objekt hineinpasst. Auf dieser Idee beruhen sowohl
+konkrete Messhandlungen im Unterricht als auch abstraktere Messverfahren. Im Mathematik-
+unterricht soll sich das Messen von ersten Messprinzipien und dem direkten Messen mit Mess-
+instrumenten zu einem abstrakten rechnerischen Messen auf Basis mathematischer Begriffe,
+Zusammenhänge und Verfahren entwickeln (Büchter & Holzäpfel, 2018). Am Beispiel des Flä-
+cheninhalts ebener Figuren kann der Übergang von tragfähigen Vorstellungen zu Größen zum
+rechnerischen und verallgemeinerten Messen verdeutlicht werden. So wird die Flächeninhalts-
+formel für Rechtecke vorerst für ganzzahlige Seitenlängen durch Auslegen der Fläche mit
+Quadraten (in cm2) motiviert. Ein Beispiel für die Bestimmung des Flächeninhalts eines Recht-
+ecks durch Abzählen der Einheitsquadrate, mit welchen das Rechteck ausgelegt wurde, zeigt
+Abbildung 2. In Anlehnung an das didaktische Stufenmodell zur Behandlung von Größen im
+
+
+
+                                              10
+Mathematikunterricht (Franke & Ruwisch, 2013; Greefrath, 2018) kann es im Unterricht sinn-
+voll sein, zunächst einen solchen Parkettierungszugang mit nicht-standardisierten Objekten zu
+thematisieren, um das konzeptuelle Verständnis des Messens zu unterstützen. So kann bei-
+spielsweise der Flächeninhalt eines Rechtecks zunächst mit nicht-standardisierten Objekten
+ausgelegt werden, um den Flächeninhalt anhand dieser Objekte zu bestimmen. Dabei wird
+also der zu messende Flächeninhalt des Rechtecks mit der Fläche dieser nicht-standardisier-
+ten Objekte direkt verglichen. In einem nächsten Schritt kann dann aus der Idee heraus, dass
+der Vergleich mithilfe nicht-standardisierter Objekten nicht verallgemeinerbar ist, der Vergleich
+mit Einheitsquadraten eingeführt werden, um die Idee der Standardisierung der Referenzob-
+jekte einzuführen und somit auf das Grundprinzip des Messens einzugehen.
+Die Formel für den Rechteckflächeninhalt kann dann erschlossen werden, da x Quadrate in
+eine Reihe des Rechtecks passen und y dieser Reihen in die Rechteckfläche passen. Daraus
+lässt sich die Formel für den Flächeninhalt eines Rechtecks 𝐹𝐹 = 𝑥𝑥 ⋅ 𝑦𝑦 ableiten (Krauter &
+Bescherer, 2013, S. 107). Mithilfe des Auslegens der Fläche mit Einheitsquadraten kann somit
+eine erste plausible Idee für die eigentliche Flächeninhaltsformel entwickelt werden.
+
+      x Quadrate
+
+
+
+
+                              y Reihen
+
+
+
+
+Abbildung 2: Bestimmung der Größe des Flächeninhaltes eines Rechtecks mit Quadraten (angelehnt
+an Krauter & Bescherer, 2013, S. 107)
+
+
+Durch Verfeinern der Quadrate können immer kleinere Quadrate gefunden werden, sodass
+auf diesem Wege auch nichtganzzahlige rationale Seitenlängen motiviert werden können. Da-
+rauf aufbauend werden die Flächeninhalte besonderer Vierecke und Dreiecke durch Zerlegen
+und Ergänzen auf Flächeninhalte von Rechtecken erschlossen. Die Herleitung der Flächenin-
+haltsformel geht somit von der Grundidee des Messens aus: Es wird ein Verfahren gesucht,
+mit welchem sich der Flächeninhalt auch dann bestimmen lässt, wenn ein direktes Abzählen
+von Einheitsquadraten nicht mehr möglich ist. Im späteren Verlauf der Sekundarstufe I kom-
+men schließlich die Betrachtung von Kreisen und damit auch die Kreiszahl 𝜋𝜋 hinzu (Büchter &
+Holzäpfel, 2018). Ein Beispiel für die Flächeninhaltsbestimmung durch Ergänzungsgleichheit
+zeigt Abbildung 3 am Beispiel eines Parallelogramms. Der Flächeninhalt des Parallelogramms
+oben links entspricht dem Flächeninhalt des Rechtecks oben rechts (Kuntze, 2018). Beide
+Figuren lassen sich durch Ergänzung mit paarweise kongruenten Dreiecken jeweils zu einem
+kongruenten Rechteck ergänzen (in Abbildung 3 die beiden unteren Rechtecke). Auf diese
+
+                                               11
+Weise dient das Rechteck also als Referenzobjekte, mit welchem der Flächeninhalt des Pa-
+rallelogramms verglichen werden kann. Für einen formellen, mathematischen Beweis wären
+an dieser Stelle weitere Argumentationen erforderlich, beispielsweise eine Begründung dafür,
+dass die ergänzten Dreiecke tatsächlich so passend eingefügt werden können, damit das
+Rechteck entstehen kann (Kuntze, 2018). Weiterführend kann ein solcher formeller Beweis
+erarbeitet werden. Dennoch kann auch mithilfe der Ergänzungsgleichheit das Argumentieren
+gefördert werden: Wird die Flächengleichheit wie in Abbildung 3 zeichnerisch durch Zerlegen
+und Ergänzen gezeigt, so handelt es sich um einen inhaltlich-anschaulichen Beweis nach Witt-
+mann und Müller (1988), bei welchem auf Messprinzipien zurückgegriffen wird. Indem das zu
+zerlegende Objekt als Referenzobjekt verstanden wird, mit welchem der Flächeninhalt einer
+anderen Figur gemessen wird, ist der Zugang über einen inhaltlich-anschaulichen Beweis für
+das Messen von Größen von großer Bedeutung, da das Schätzen von Größen mithilfe geeig-
+neter Repräsentanten gefördert werden kann, welches Teil der inhaltsbezogenen mathemati-
+schen Kompetenzen zur Leitidee Messen (L2) in den Bildungsstandards ist (KMK, 2004). In-
+haltlich-anschauliche Beweise basieren auf einer Kette von korrekten Schlüssen, bei denen
+Argumente nicht in formaler Form vorliegen, jedoch formalen Argumenten entsprechen
+(Brunner, 2014). Inhaltlich-anschauliche Beweise lassen eine Verallgemeinerung erkennen,
+wenngleich sie im Gegensatz zu formal-deduktiven Beweisen nicht in formaler Sprache und
+nicht in einer lückenlosen Beweiskette aus logischen Schlussfolgerungen vorliegen (Brunner,
+2014). Insbesondere sind sie für die Leitidee Messen (L2) von großer Bedeutung, da mithilfe
+inhaltlich-anschaulicher Beweise im Gegensatz zu formal-deduktiven Beweisen handlungsori-
+entierte Messprinzipien (wie das oben beschriebene Messen mit Referenzobjekten) themati-
+siert werden können. Die verschiedenen Beweistypen charakterisieren sich also durch ihr un-
+terschiedliches didaktisches Potenzial für den Mathematikunterricht.
+
+
+
+
+Abbildung 3: Flächeninhalt eines Parallelogramms (angelehnt an Kuntze, 2018, S. 165)
+
+
+
+                                               12
+Neben der Bestimmung des Flächeninhaltes von besonderen Vierecken und Dreiecken, dem
+Messen von Flächen mithilfe von Referenzobjekten und der Herleitung entsprechender Flä-
+cheninhaltsformeln kann das Zerlegungs- und Ergänzungsprinzip beispielsweise auch zur Nä-
+herung des Flächeninhaltes von Kreisen mithilfe von Polygonen genutzt werden, indem die
+Kreisfläche mit Polygonen ausgelegt wird, sodass die Polygone als Referenzobjekte dienen,
+mit welchen die Kreisfläche näherungsweise gemessen werden kann (Kuzle & Bruder, 2016).
+Darüber hinaus kann das Zerlegungs- und Ergänzungsprinzip auch zur Herleitung von Volu-
+menformeln geometrischer Körperstumpfe oder zur Bearbeitung von Sachaufgaben genutzt
+werden.
+
+Beispielsweise kann mithilfe von Zerlegung und Ergänzung die Fläche eines Ölteppichs nach
+dem Auslaufen von Öl bestimmt werden (Kuzle & Bruder, 2016) oder auch die Größe der
+Oberfläche eines Sees. Auf diese Weise kann einerseits das Messen von Flächen fokussiert,
+andererseits auch das Problemlösenlernen unterstützt werden, da Lernende angeregt werden,
+Heurismen wie die Strategie des Zerlegens und Ergänzens zu nutzen und zudem verschie-
+dene Lösungswege verglichen und diskutiert werden können (Kuzle & Bruder, 2016; G.
+Wittmann, 2018). Gleichzeitig können auch der Umgang mit Messungen und Maßangaben
+aus der Umwelt sowie das Schätzen von Größen mithilfe von Vorstellungen über geeignete
+Repräsentanten gefördert werden, wie es auch die inhaltsbezogenen mathematischen Kom-
+petenzen zur Leitidee Messen (L2) in den Bildungsstandards fordern (KMK, 2004). Das Schät-
+zen von Größen mithilfe von Vorstellungen über geeignete Repräsentanten (Stützpunktvor-
+stellungen) ist vor allem dann erforderlich, wenn der direkte Vergleich von Objekten nicht mög-
+lich ist. Dies ist der Fall, wenn Objekte nicht nebeneinander gelegt werden können (zum Bei-
+spiel weil lediglich ein Foto eines zu schätzenden Objektes vorliegt oder weil das zu schät-
+zende Objekt so groß ist, dass ein direkter Vergleich mit einem anderen Objekt nicht möglich
+ist) oder wenn ebene Figuren, zum Beispiel Rechtecke, miteinander verglichen werden, von
+welchen keine vollständig in die jeweils andere passt (Büchter & Holzäpfel, 2018). Geeignete
+Stützpunkte, die bei zur Bestimmung von Flächeninhalten in Sachsituationen genutzt werden
+können, sind beispielsweise eine Briefmarke (1 cm2), ein Toilettenpapierblatt (1 dm2) oder ein
+Teil einer Wandtafel (1 m2) (Büchter & Holzäpfel, 2018). Stützpunkte sollten durch konkrete
+Messerfahrungen, der Verknüpfung des gelernten Wissens mit mentalen Vorstellungen und
+einem Vergleich verschiedener Stützpunkte zueinander angeeignet werden (Ruwisch, 2021a).
+
+Um das Vornehmen von Messungen in der Umwelt im Sinne der Bildungsstandards (KMK,
+2004) im Kontext ebener Figuren zu fördern, können im Mathematikunterricht Flächeninhalte
+im Klassenzimmer mit einem handlungsorientierten Zugang bestimmt werden (Büchter & Rich-
+ter, 2018). Dazu kann zum Beispiel der Flächeninhalt des Klassenraums bestimmt werden,
+um herauszufinden, ob der Klassenraum einer empfohlenen Mindestgröße für Klassenräume
+entspricht. Dazu kann der Klassenraum mit Meterquadraten aus Zeitungspapier ausgelegt
+                                              13
+werden, beziehungsweise jeweils eine Reihe vorne im Klassenraum und eine Reihe an der
+Seite des Klassenraums ausgelegt werden, um zu bestimmen, wie viele Meterquadrate hin-
+einpassen (Büchter & Richter, 2018). Darauf aufbauend kann der Boden des Klassenraums
+zeichnerisch (zum Beispiel an der Tafel) dargestellt und überlegt werden, wie viele Quadrate
+auf den gesamten Boden passen beziehungsweise wie mit den „Resten“ der Bodenfläche, auf
+die keine ganzen Quadrate passen (bei nicht ganzzahligen Seitenlängen), umgegangen wer-
+den kann (Büchter & Richter, 2018). Solche Messungen in der Umwelt können auch komplexer
+und in Bezug auf andere ebene Figuren gestaltet werden. Der handlungsorientierte Zugang
+über den direkten Vergleich einer zu messenden Fläche mit Meterquadraten kann als Aus-
+gangspunkt genutzt werden, um auch den indirekten Vergleich von zu messenden und schät-
+zenden Flächen zu thematisieren. So kann das Schätzen von Größen mithilfe von Vorstellun-
+gen über geeignete Repräsentanten gefördert werden, indem die Fläche, deren Flächeninhalt
+ermittelt werden soll, nicht durch eine direkte Handlung mit einem Referenzobjekt verglichen
+wird, sondern mithilfe einer mentalen Vorstellung über einen geeigneten Repräsentanten. Bei-
+spielsweise kann der Flächeninhalt eines Klassenraumes ermittelt werden, indem die Fläche
+mental mit einem Repräsentanten, zum Beispiel einer quadratischen Schultafel, abgemessen
+wird. Auf diese Weise kann die Größe der zu bestimmenden Fläche mental mithilfe eines
+Repräsentanten abgemessen werden. Dieser Zugang kann ebenfalls auf komplexere Figuren
+oder größere Flächen übertragen werden, beispielsweise auch auf Flächen, die nicht am glei-
+chen Ort wie die Schülerinnen und Schüler sind. Bei der Bearbeitung von Sachaufgaben im
+Kontext des Messens sollte auch thematisiert werden, welche Genauigkeit bei der Angabe von
+Ergebnissen in Bezug auf die Sachsituation sinnvoll ist (Büchter & Holzäpfel, 2018). So genügt
+es für die Beantwortung der Frage, ob der eigene Klassenraum groß genug ist, wahrscheinlich,
+die ungefähre Größe mithilfe der Meterquadrate zu bestimmen, wohingegen in anderen Sach-
+situationen eine genaue Bestimmung sinnvoller wäre.
+
+
+3.2   Ebene Figuren in VERA-8
+Im Folgenden werden Aufgaben aus vergangenen VERA-8 Erhebungen dargestellt, in denen
+ebene Figuren im Rahmen der Leitidee Messen (L2) eine Rolle spielen. Die Aufgaben werden
+fachdidaktisch kommentiert, indem sie zunächst hinsichtlich ihrer geforderten Kompetenzen
+analysiert werden und anschließend in Anknüpfung an Kapitel 3.1 auf das Zerlegen und Er-
+gänzen von Flächen ebener Figuren, die Arbeit mit Sachsituationen im Kontext von ebenen
+Figuren in der Leitidee Messen (L2) sowie auf verschiedene Beweistypen eingegangen wird.
+
+Die erste Beispielaufgabe ist die Aufgabe „Trapez“. Bei der Aufgabe „Trapez“ geht es um die
+Flächengleichheit eines Trapezes und eines Rechtecks.
+
+
+
+
+                                             14
+Beispielaufgabe 1: „Trapez“
+
+ Zeichne neben das Trapez ein Rechteck mit der gleichen Höhe und dem gleichen
+ Flächeninhalt wie das gegebene Trapez.
+
+
+
+
+  Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+  Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+ Begründe, dass das Rechteck denselben Flächeninhalt hat.
+
+
+Die Aufgabe erfordert das Zeichnen einer ebenen Figur, also das Anfertigen einer Darstellung
+eines mathematischen Objektes, was der Kompetenz Mathematisch darstellen (K4) entspricht.
+Zudem soll die Flächengleichheit beider Figuren begründet werden, wodurch ebenfalls die
+Kompetenz Mathematisch argumentieren (K1) angesprochen wird. Die Begründung kann so-
+wohl verbal, rechnerisch durch Berechnung beider Flächeninhalte als auch zeichnerisch durch
+Zerlegen vorgenommen werden. Da es sich bei der Aufgabe um ein mathematisches Problem
+handelt, dessen Lösung die Anwendung heuristischer Hilfsmittel, Strategien und Prinzipien
+erfordert, wird ebenfalls die Kompetenz Probleme mathematisch lösen (K2) gefördert. So ist
+es beispielsweise denkbar, das Rechteck durch eine Kombination von Vorwärts- und Rück-
+wärtsarbeiten zu zeichnen, indem ausgehend vom Zielzustand (gleiche Höhe, gleicher Flä-
+cheninhalt) schrittweise vorgegangen wird. Wird für die Begründung der Flächengleichheit ein
+zeichnerischer Ansatz mithilfe des Zerlegungsprinzips gewählt, so wird zudem ein heuristi-
+sches Prinzip angewendet. Abbildung 4 zeigt ein Beispiel dafür, wie die Flächengleichheit bei-
+der Figuren zeichnerisch gezeigt werden kann. Wird die Flächengleichheit wie in Abbildung 4
+durch Zerlegen und Ergänzen gelöst, so handelt es sich um einen inhaltlich-anschaulichen
+Beweis (Brunner, 2014). Die Gültigkeit der Behauptung, dass das gezeichnete Rechteck den
+gleichen Flächeninhalt wie das Trapez hat, wird also auf anschauliche Weise gezeigt, da die
+Fläche des Rechtecks mithilfe des Trapezes gemessen werden kann. Als Weiterführung im
+Unterricht könnte ein formal-deduktiver Beweis dafür erarbeitet werden, unter welchen Bedin-
+gungen die Flächengleichheit für alle Trapeze und Rechtecke gilt, indem das Problem verall-
+gemeinert wird.
+
+Wie bereits in Kapitel 3.1 dargestellt, kann das Zerlegen und Ergänzen im Mathematikunter-
+richt auch auf andere ebene Figuren übertragen werden.
+
+
+
+
+                                                              15
+Abbildung 4: Zeichnerische Begründung für die Gleichheit der Größe der Flächeninhalte beider Figu-
+ren durch Zerlegen
+
+Die nächste Beispielaufgabe „Steinhuder Meer“ erfordert das Bestimmen des Flächeninhaltes
+und Umfangs einer Figur in einer Sachsituation.
+
+Beispielaufgabe 2: „Steinhuder Meer“
+
+
+Die Karte zeigt das Steinhuder Meer. Dies ist ein See in Niedersachsen.
+
+
+
+
+                        Mardorf
+
+
+
+                                                              r
+                                                   r    Mee
+                                              hude
+  Meerbruchs-                           Stein
+  wiesen
+                                                                       Steinhude
+
+              Hagenburger
+              Moor                                                                      1 km
+
+Teilaufgabe 1
+
+Bestimme näherungsweise die Uferlänge (den Umfang) des Sees.
+
+   Die Uferlänge beträgt ungefähr                                   km.
+
+Teilaufgabe 2
+
+Bestimme näherungsweise die Größe der Oberfläche des Sees.
+
+   Die Größe der Oberfläche beträgt ungefähr                                            km2.
+
+Notiere deinen Lösungsweg.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+
+
+                                                                  16
+Bei der Aufgabe „Steinhuder Meer“ soll der Umfang (Teilaufgabe 1) sowie die Größe der Ober-
+fläche eines Sees (Teilaufgabe 2) näherungsweise ermittelt werden. Beide Teilaufgaben sind
+in der Leitidee Messen (L2) verankert.
+
+Um in Teilaufgabe 1 den Umfang des Sees zu bestimmen, ist es erforderlich, mit der gegebe-
+nen Darstellung in dem abgebildeten Maßstab zu arbeiten, sodass die Kompetenz Mathema-
+tisch darstellen (K4) gefordert wird. Darüber hinaus wird die nicht geradlinige Begrenzung des
+Sees als geradlinig modelliert, um so näherungsweise den Umfang zu ermitteln. Es wird also
+der Umfang eines Objektes aus der Realität bestimmt, wozu Vereinfachungen vorgenommen
+werden, sodass die Kompetenz Mathematisch modellieren (K3) erforderlich ist. In Teilaufgabe
+1 und in Teilaufgabe 2 werden vertraute Formeln zur Bestimmung von Umfang von Flächen-
+inhalt verwendet, weswegen in beiden Teilaufgaben auch die Kompetenz Mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) erforderlich ist.
+
+In Teilaufgabe 2 ist es für die Bestimmung des Oberflächeninhalts erforderlich, die Oberfläche
+des Sees mit einer geometrischen Figur (Kreis, Rechteck, Trapez oder einer daraus zusam-
+mengesetzten Figur) zu modellieren. Da bei dieser Aufgabe also die Kompetenz Mathematisch
+modellieren (K3) im Vordergrund steht und der Lösungsweg den Messprozess stärker abbildet
+als das Endergebnis, liegt der Fokus bei der Aufgabenbearbeitung auf der Angabe eines an-
+gemessenen und nachvollziehbaren Lösungsweges und weniger auf dem Endergebnis selbst.
+Aufgrund der Tatsache, dass diese Aufgabe verschiedene Modellierungen zulässt, bietet die
+Aufgabe eine Vielzahl an Lösungswegen, um die Größe der Oberfläche des Sees zu bestim-
+men. Ein Lösungsweg besteht darin, die Oberfläche des Sees durch ein Rechteck zu model-
+lieren (siehe Abbildung 5). Bei dieser Lösung wird die Oberfläche also stark vereinfacht als
+Rechteck angenommen. Ein weiterer Lösungsweg kann dadurch beschrieben werden, dass
+die Oberfläche des Sees mit mehreren, verschiedenen Figuren modelliert wird, also durch eine
+zusammengesetzte Figur vereinfacht wird. Abbildung 6 zeigt die Modellierung der Oberfläche
+des Sees mit einer zusammengesetzten Figur, welche aus einem Rechteck und vier Trapezen
+besteht. Bei dieser Modellierung wird also die Oberfläche des Sees in verschiedene Figuren
+zerlegt und sich der Form der Oberfläche des Sees angenähert, dennoch handelt es sich auch
+bei dieser Modellierung um eine starke Vereinfachung. Durch beide Lösungswege wird deut-
+lich, dass eine Vereinfachung unumgänglich ist, um das reale Problem in die Mathematik zu
+übersetzen. Das Zerlegen der Oberfläche des Sees in Teilfiguren kann verfeinert werden, um
+sich der tatsächlichen Form der Oberfläche des Sees weiter anzunähern und somit auch ein
+genaueres Ergebnis zu erhalten. Im Unterricht kann an dieser Stelle diskutiert werden, welche
+Genauigkeit des Ergebnisses bei dieser Aufgabe sinnvoll und notwendig ist (siehe Kapitel 3.1).
+Davon abhängig kann dann eine weniger stark vereinfachte Modellierung oder eine stärker
+vereinfachte Modellierung der Oberfläche des Sees vorgenommen werden. Beides ist in der
+
+
+                                             17
+Aufgabe „Steinhuder Meer“ zulässig, jedoch sollte im Unterricht für unterschiedlich starke Ver-
+einfachungen und das Hinterfragen von Modellierungen sensibilisiert werden. Neben Model-
+lierungskompetenzen (indem zum Beispiel die Teilkompetenz des Vereinfachens anhand der
+Aufgabe thematisiert wird) können bei der Weiterarbeit im Unterricht auch Problemlösekom-
+petenzen erworben werden, indem die Lernenden verschiedene Strategien und Lösungswege
+bei der Modellierung diskutieren (G. Wittmann, 2018).
+
+
+
+
+Abbildung 5: Modellierung der Oberfläche des Sees mit einem Rechteck
+
+
+
+
+Abbildung 6: Modellierung der Oberfläche des Sees mit mehreren Figuren
+
+
+
+
+                                              18
+Die nächste Beispielaufgabe ist die Aufgabe „Rechteckige Fläche“.
+Beispielaufgabe 3: „Rechteckige Fläche“
+
+
+ Frau Schreiner möchte in ihrem Garten eine rechteckige Fläche für ein Wildblumenbeet
+ einzäunen. Der Zaun für diese rechteckige Fläche besteht aus 24 zusammensteckbaren,
+ festen Teilen. Ein Teil hat eine Länge von 0,50 m.
+
+Teilaufgabe 1
+
+ Gib den Umfang dieser rechteckigen Fläche an.
+
+                       m
+
+Teilaufgabe 2
+
+ Herr Schreiner sagt: „Die größte rechteckige Fläche, die wir mit diesen Teilen
+ einfassen können, ist 8 m2 groß.“
+ Hat Herr Schreiner recht?
+ Kreuze an.
+          Ja                                                          Nein
+ Begründe deine Entscheidung.
+ Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+ Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+
+
+In der ersten Teilaufgabe ist es erforderlich, den Umfang einer rechteckigen Fläche anhand
+gegebener Maßangaben eines Zaunes zu bestimmen. Dabei werden Informationen (Maßan-
+gaben) aus dem Aufgabentext entnommen, wodurch die Aufgabe die Kompetenz Mathema-
+tisch kommunizieren (K6) erfordert. Mit den entnommenen Maßangaben werden dann einfa-
+che Berechnungen durchgeführt, wodurch auch die Kompetenz Mit symbolischen, formalen
+und technischen Elementen der Mathematik umgehen (K5) auf einem niedrigen Anforderungs-
+niveau gefordert ist.
+
+In Teilaufgabe 2 handelt es sich um ein Problem, welches die Anwendung heuristischer Hilfs-
+mittel, Strategien und Prinzipien erfordert, sodass die Kompetenz Probleme mathematisch lö-
+sen (K2) erforderlich ist. So ist es zur Lösung der Aufgabe erforderlich, die Maße für die Länge
+und Breite des Rechtecks so zu wählen, dass die größtmögliche Fläche entsteht. Dafür kann
+zum Beispiel durch systematisches Probieren herausgefunden werden, dass ein Quadrat die
+größtmögliche Fläche liefert. Die Aufgabe fördert also die Verwendung von Heurismen und ist
+ein weiteres Beispiel dafür, wie mit Geometrie Problemlösen gelernt werden kann. Im Gegen-
+satz zu den vorherigen Aufgabenbeispielen erfordert diese Aufgabe also nicht das direkte
+Messen oder Berechnen eines Flächeninhaltes einer vorgegebenen Figur, sondern ausge-
+
+
+                                                                19
+hend vom Umfang eines Rechtecks das Bestimmen der größtmöglichen Fläche. Da in Teilauf-
+gabe 2 ebenfalls verschiedene Berechnungen von Flächeninhalt und Umfang durchgeführt
+werden, spricht die Teilaufgabe in geringem Maße auch die Kompetenz Mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) an. Darüber hinaus for-
+dert diese Teilaufgabe eine Begründung dafür, dass die rechteckige Fläche, die mit den gege-
+benen Zaunteilen eingefasst werden kann, nicht 8 m2 groß ist. Aus diesem Grund ist ebenfalls
+die Kompetenz Mathematisch argumentieren (K1) erforderlich. Dabei sind verschiedene Lö-
+sungswege für die Begründung denkbar: Einerseits ist es möglich, durch systematisches Pro-
+bieren zu zeigen, dass ein Rechteck mit einer Fläche von 8 m2 die Maße 2 m × 4 m hätte, man
+jedoch eine Fläche von 9 m2 erhält, wenn 3 m × 3 m als Maße gewählt werden. Bei dieser
+Begründung handelt es sich um einen experimentellen Beweis, da die Behauptung anhand
+einzelner Beispiele geprüft wird (Brunner, 2014). Darüber hinaus ist auch eine allgemeinere
+Begründung unter der Berücksichtigung, dass ein Quadrat unter allen Rechtecken mit glei-
+chem Umfang immer die größtmögliche Fläche hat, möglich. Wird die Begründung auf Basis
+dieses Arguments formuliert, so wird bereits eine Einsicht in die Allgemeingültigkeit erlangt
+und somit ein Ausgangspunkt für einen inhaltlich-anschaulichen Beweis gebildet. Wird anhand
+einer Kette korrekter Schlüsse in formal-symbolischer Sprache anhand der allgemeinen For-
+meln für Umfang und Flächeninhalt von Rechtecken gezeigt, dass ein Quadrat unter allen
+Rechtecken mit gleichem Umfang immer den größten Flächeninhalt hat, so handelt es sich um
+einen formal-deduktiven Beweis.
+
+Insgesamt wird anhand der Aufgaben vergangener VERA-8 Erhebungen deutlich, dass es
+vielfältige Möglichkeiten für den Mathematikunterricht gibt, ebene Figuren im Kontext des Mes-
+sens sowohl innermathematisch als auch in Bezug auf Sachsituationen einzubeziehen. Dabei
+können alle sechs mathematischen Kompetenzen aus den Bildungsstandards gefördert wer-
+den. Vor allem die Kompetenz Mathematisch darstellen (K4) steht bei Aufgaben zu ebenen
+Figuren häufig im Vordergrund, da zumeist mit einer gegebenen Darstellung (einer ebenen
+Figur) gearbeitet wird oder eine mathematische Darstellung (eine ebene Figur) angefertigt
+wird.
+
+
+
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Messen ist dies der Schwerpunkt Ebene Figuren, im Bereich der Leit-
+idee Daten und Zufall der Schwerpunkt Zufall. Aus beiden Themen wurden zentrale Inhalte
+betrachtet, welche durch die Bildungsstandards vorgegeben werden. Für weitere Anregungen
+für die Unterrichtspraxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der
+
+                                             20
+didaktischen Handreichungen verwiesen. Zudem wurden Beispielaufgaben zu den Schwer-
+punktthemen vorgestellt und aufgezeigt, welche allgemeinen mathematischen Kompetenzen
+mit diesen einhergehen. Für weitere Beispiele und Anregungen stellt die in den vorangegan-
+genen Kapiteln genannte Literatur eine gute Ausgangslage dar.
+
+
+
+5 Literaturverzeichnis
+
+Blum, W. (2010). Einführung. In W. Blum, C. Drüke-Noe, R. Hartung, & O. Köller (Hrsg.), Bil-
+dungsstandards Mathematik: Konkret. Sekundarstufe I: Aufgabenbeispiele, Unterrichtsanre-
+gungen, Fortbildungsideen. Cornelsen Scriptor.
+
+Brunner, E. (2014). Mathematisches Argumentieren, Begründen und Beweisen: Grundlagen,
+Befunde und Konzepte. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-41864-
+8
+
+Brunner, E. (2016). Beweistypen: Ihre unterschiedlichen kognitiven Anforderungen und ihr di-
+daktisches Potenzial. In Institut für Mathematik und Informatik der Pädagogischen Hochschule
+Heidelberg (Hrsg.), Beiträge zum Mathematikunterricht (S. 1103–1106). WTM.
+
+Büchter, A., & Holzäpfel, L. (2018). Messen. mathematik lehren, 210, 2–7.
+
+Büchter, A., & Richter, K. (2018). Flächeninhalte im Klassenzimmer bestimmen. Ein hand-
+lungsorientierter Zugang zu Messprinzipien und Maßeigenschaften. mathematik lehren, 14–
+16.
+
+Franke, M., & Ruwisch, S. (2013). Didaktik des Sachrechnens in der Grundschule (2. [über-
+arb.] Aufl., Nachdr). Spektrum Akad. Verl.
+
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht: Didaktische
+Perspektiven zum Sachrechnen in der Sekundarstufe. Springer Berlin Heidelberg.
+https://doi.org/10.1007/978-3-662-57680-9
+
+Klieme, E., Avenarius, H., Blum, W., Döbrich, P., Gruber, H., Prenzel, M., Reiss, K., Riquarts,
+K., Rost, J., Tenorth, H.-E. & Vollmer, H. J. (2003). Zur Entwicklung nationaler Bildungsstan-
+dards. In BMBF (Hrsg.), Bildungsreform Band 1. Zur Entwicklung nationaler Bildungsstan-
+dards: Eine Expertise (S. 7–174). Berlin.
+
+KMK. (2004). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss. Be-
+schluss vom 4.12.2003. Wolters Kluwer.
+
+
+
+                                              21
+KMK. (2005). Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Be-
+schluss vom 15.10.2004. Wolters Kluwer.
+
+KMK. (2012). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife. Be-
+schluss der Kultusministerkonferenz vom 18.10.2012. Wolters Kluwer.
+
+Krauter, S., & Bescherer, C. (2013). Erlebnis Elementargeometrie. Ein Arbeitsbuch zum selbst-
+ständigen und aktiven Entdecken. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-
+8274-3026-7
+
+Kuntze, S. (2018). Flächeninhalt und Volumen. In H.-G. Weigand, A. Filler, R. Hölzl, S. Kuntze,
+M. Ludwig, J. Roth, B. Schmidt-Thieme, & G. Wittmann, Didaktik der Geometrie für die Sekun-
+darstufe I (S. 149–177). Springer. https://doi.org/10.1007/978-3-662-56217-8
+
+Kuzle, A., & Bruder, R. (2016). Probleme lösen lernen im Themenfeld Geometrie. mathematik
+lehren, 196, 2–9.
+
+Leiss, D. & Blum, W. (2010). Beschreibung zentraler Kompetenzen. In W. Blum, C. Drüke-Noe,
+R. Hartung, & O. Köller (Hrsg.), Bildungsstandards Mathematik: Konkret. Sekundarstufe I: Auf-
+gabenbeispiele, Unterrichtsanregungen, Fortbildungsideen. Cornelsen Scriptor.
+
+Leuders, T., & Barzel, B. (2014). Größen, Maße und Messen. In Fachdidaktik Mathematik:
+Grundbildung und Kompetenzaufbau im Unterricht der Sek. I und II (S. 48–68). Klett/
+Kallmeyer.
+
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading, Sci-
+ence, Problem Solving and Financial Literacy. OECD Publishing.
+
+Roth, J., & Wittmann, G. (2018). Ebene Figuren und Körper. In H.-G. Weigand, A. Filler, R.
+Hölzl, S. Kuntze, M. Ludwig, J. Roth, B. Schmidt-Thieme, & G. Wittmann, Didaktik der Geo-
+metrie für die Sekundarstufe I (S. 107–148). Springer. https://doi.org/10.1007/978-3-662-
+56217-8
+
+Ruwisch, S. (2021a). Stützpunkte kennen, vorstellen und nutzen: Von der Kenntnis der Größe
+einzelner Objekte zum Nutzen eines Netzes von Stützpunktvorstellungen. Grundschule Ma-
+thematik, 69, 2–3.
+
+Ruwisch, S. (2021b). Warum nicht Größenvorstellungen? Stützpunkte als Teil der Grundvor-
+stellungen zu „Größen und Messen“. Grundschule Mathematik, 69, 32–35.
+
+
+
+
+                                              22
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+für Didaktik der Mathematik, 21(61), 37–46. https://doi.org/10.1515/dmvm-1996-0214
+
+Wittmann, E. C., & Müller, G. (1988). Wann ist ein Beweis ein Beweis? In P. Bender & H.
+Winter (Hrsg.), Mathematikdidaktik: Theorie und Praxis: Festschrift für Heinrich Winter (S.
+237–258). Cornelsen.
+
+Wittmann, G. (2018). Problemlösen. In H.-G. Weigand, A. Filler, R. Hölzl, S. Kuntze, M. Lud-
+wig, J. Roth, B. Schmidt-Thieme, & G. Wittmann, Didaktik der Geometrie für die Sekundarstufe
+I (S. 67–83). Springer. https://doi.org/10.1007/978-3-662-56217-8
+
+
+
+6 Abbildungsverzeichnis
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards ......................................................... 5
+
+Abbildung 2: Bestimmung der Größe des Flächeninhaltes eines Rechteckes mit Quadraten
+(angelehnt an Krauter & Bescherer, 2013, S. 107) ...............................................................11
+
+Abbildung 3: Flächeninhalt eines Parallelogramms (angelehnt an Kuntze, 2018, S. 165) .....12
+
+Abbildung 4: Zeichnerische Begründung für die Gleichheit der Größe der Flächeninhalte beider
+Figuren durch Zerlegen ........................................................................................................16
+
+Abbildung 5: Modellierung der Oberfläche des Sees mit einem Rechteck ............................18
+
+Abbildung 6: Modellierung der Oberfläche des Sees mit mehreren Figuren .........................18
+
+
+
+7 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Trapez“..................................................................................................15
+
+Beispielaufgabe 2: „Steinhuder Meer“ ..................................................................................16
+
+Beispielaufgabe 3: „Rechteckige Fläche“..............................................................................19
+
+
+
+
+                                                              23
+    Vergleichsarbeiten 2026
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+ Fachdidaktische Orientierung
+   Leitidee Daten und Zufall
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 3
+3    DIE LEITIDEE DATEN UND ZUFALL ............................................................................ 6
+     3.1      SCHWERPUNKTTHEMA: ZUFALL.............................................................................. 8
+     3.2      ZUFALL IN VERA-8 ..............................................................................................13
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................19
+5    LITERATURVERZEICHNIS ..........................................................................................20
+6    ABBILDUNGSVERZEICHNIS .......................................................................................21
+7    TABELLENVERZEICHNIS ...........................................................................................21
+8    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................21
+
+
+
+
+Autorinnen1 der fachdidaktischen Erläuterungen in Teil II sind Lisa Kämmerling, Marlena
+Meyer und Antonia Rewer. Die gezeigten Testaufgaben entstanden in Kooperation von Lehr-
+kräften aus neun Bundesländern und Mathematikdidaktikerinnen und Mathematikdidaktikern
+unter Federführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische
+Leitung) und des Instituts zur Qualitätsentwicklung im Bildungswesen.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit, Vollstän-
+digkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt der
+verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+            https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/
+
+
+
+
+1 Aufgrund der dynamischen Diskussion zum sprachlichen Umgang mit geschlechtlicher Vielfalt sowie
+
+
+der Positionierung des Rats für deutsche Rechtschreibung und der Schulbehörden einiger Länder ge-
+gen Schreibweisen mit Wortbinnenzeichen (z. B. Genderstern) verwenden wir Doppelnennungen (z. B.
+Schülerinnen und Schüler) oder geschlechtsneutrale Formulierungen (z. B. Lehrkräfte). Hiermit sind
+ausdrücklich Personen aller Geschlechter gemeint.
+
+                                                               2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2012) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt.
+Anschließend werden die beiden Schwerpunkte, die in den diesjährigen Ergänzungsmodulen
+zur Wahl stehen, näher erläutert: die Leitidee Messen mit einem Fokus auf Ebene Figuren
+sowie die Leitidee Daten und Zufall mit einem Fokus auf das Thema Zufall. Es werden
+insbesondere zu beiden Schwerpunkten fachdidaktische Herausforderungen hinsichtlich
+typischer Fehler von Lernenden sowie hinsichtlich der Auswahl geeigneter Aufgaben
+geschildert und wissenschaftlich fundierte Zugänge vorgestellt, wie mit diesen in der
+Unterrichtspraxis umgegangen werden kann. In den dazugehörigen Kapiteln 3 und 4 werden
+außerdem Aufgaben aus VERA-8 zu den diesjährigen Schwerpunktsetzungen präsentiert.
+Dabei handelt es sich um Beispiele für Aufgabenformulierungen, welche die verschiedenen
+allgemeinen Kompetenzen adressieren und daher insbesondere im Regelunterricht zur
+Förderung ebendieser Kompetenzen herangezogen werden können.
+
+
+
+2 Bildungsstandards2 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/Franzö-
+sisch) ein3. Eine grundlegende Wende stand bevor: Während zuvor der Input im Vordergrund
+stand, also der Blick auf die zu unterrichtenden Inhalte und Themen die Lehrplanentwicklung
+dominierte, sollte nun auch der Output stärkere Beachtung finden, also der Aufbau von Kom-
+petenzen, Wissensstrukturen und Fertigkeiten über die die Schülerinnen und Schüler nach
+erfolgreichem Unterricht verfügen sollen. Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+       „Mathematische Grundbildung umfasst die Fähigkeit des Einzelnen, Mathematik in
+       einer Vielzahl von Kontexten zu formulieren, anzuwenden und zu interpretieren. Sie
+
+
+
+2 Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss weiterent-
+
+
+wickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil II bezieht
+sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind, da sich die
+Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+3 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                 3
+       umfasst mathematisches Argumentieren und die Verwendung mathematischer
+       Konzepte, Verfahren, Fakten und Werkzeuge zur Beschreibung, Erklärung und Vorher-
+       sage von Phänomenen. Sie hilft dem Einzelnen, die Rolle zu erkennen, die die Mathe-
+       matik in der Welt spielt, und begründete Urteile und Entscheidungen zu treffen, die von
+       konstruktiven, engagierten und reflektierten Bürgerinnen und Bürgern benötigt werden.“
+       (OECD, 2013, S. 25, eigene Übersetzung)
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schülerinnen und
+Schüler bis zu einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben
+haben sollen (KMK, 2004, 2005). Dabei wird davon ausgegangen, dass ein allgemeinbildender
+Mathematikunterricht Schülerinnen und Schülern die folgenden drei Grunderfahrungen
+ermöglicht (Winter, 1995, S. 37):
+
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+       Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu verstehen,
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+       Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+       eigener Art kennen zu lernen und zu begreifen,
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die Mathe-
+       matik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Es werden in diesem Modell zunächst die folgenden drei
+Dimensionen unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Leitideen
+   3. Anforderungsbereiche
+
+
+
+
+                                                 4
+                 Anforderungsbereich III
+
+
+
+                 Anforderungsbereich II
+
+
+
+                 Anforderungsbereich I
+
+                                                                 Leitideen
+                                           L5   Daten und Zufall
+                                         L4     Funktionaler Zusammenhang
+                                       L3       Raum und Form
+                                     L2         Messen
+                                   L1           Zahl
+     K1   K2   K3   K4   K5   K6
+
+                            Mathematisch kommunizieren
+                      Mit symbolischen, formalen und technischen
+                      Elementen der Mathematik umgehen
+                  Mathematische Darstellungen verwenden
+             Mathematisch modellieren                      Allgemeine
+        Probleme mathematisch lösen                        mathematische
+                                                           Kompetenzen
+    Mathematisch argumentieren
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den Kompeten-
+zen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“ (Leiss & Blum,
+2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2), Mathematisch modellieren (K3), Mathematische Darstel-
+lungen verwenden (K4), Mit symbolischen, formalen und technischen Elementen der Mathe-
+matik umgehen (K5) und Mathematisch kommunizieren (K6). Diese Allgemeinen mathemati-
+schen Kompetenzen sollen differenziert betrachtet werden, auch wenn sie üblicherweise im
+Verbund erworben werden und häufig auch gemeinsam angewendet werden müssen. Insbe-
+sondere werden bei der Bearbeitung von komplexeren mathematischen Aufgaben oft mehrere
+dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die Absicht verbunden,
+spezifische Eigenschaften und Anforderungen von Aufgaben im Mathematikunterricht trans-
+parent zu machen, was eine differenziertere Planung des Mathematikunterrichts ermöglicht.
+So kann ein mathematischer Inhalt den Schülerinnen und Schülern entlang verschiedener
+durchzuführender mathematischer Tätigkeiten zugänglich gemacht werden. Inhalte können
+durch die multiperspektivische und wiederholte Betrachtung eher in ihrer Gänze verstanden
+werden und mathematische Kompetenzen anhand unterschiedlichster Erscheinungen über
+den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+
+
+                                                   5
+Leitideen eine zweite Dimension des Modells, die die mathematischen Inhalte umfasst. Die
+fünf Leitideen sind Zahl (L1), Messen (L2), Raum und Form (L3), Funktionaler Zusammen-
+hang (L4) und Daten und Zufall (L5). In den Bildungsstandards wird zu den Leitideen erläutert:
+
+         „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und
+         durchzieht ein mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbe-
+         zogenen mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in
+         jedem Fall eindeutig, sondern davon abhängig, welcher Aspekt mathematischen
+         Arbeitens im inhaltlichen Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im Lern-
+prozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben es,
+bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen (Greefrath 2018,
+Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische Kompe-
+tenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine Kompe-
+tenzen, die es Schülerinnen und Schülern ermöglichen, Zusammenhänge herzustellen und
+Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen,
+die es Schülerinnen und Schülern abverlangen, zu verallgemeinern und zu reflektieren (KMK,
+2004).
+
+Im Folgenden wird die Leitidee Daten und Zufall fokussiert.
+
+
+
+3 Die Leitidee Daten und Zufall
+
+In den Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss werden unter
+der Leitidee Daten und Zufall (L5) die folgenden, inhaltsbezogenen Kompetenzen zusammen-
+gefasst (KMK, 2004a, S. 12):
+
+Die Schülerinnen und Schüler
+
+   •     werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,
+   •     planen statistische Erhebungen,
+   •     sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar,
+   •     auch unter Verwendung geeigneter Hilfsmittel (wie Software),
+   •     interpretieren Daten unter Verwendung von Kenngrößen,
+   •     reflektieren und bewerten Argumente, die auf einer Datenanalyse basieren,
+                                                  6
+   •   beschreiben Zufallserscheinungen in alltäglichen Situationen,
+   •   bestimmen Wahrscheinlichkeiten bei Zufallsexperimenten.
+
+Diese Auflistung deckt sich mehrheitlich mit derjenigen für den Hauptschulabschluss (KMK,
+2005), wobei vereinzelt Unterschiede identifiziert werden können. So hat in den Bildungsstan-
+dards für den Hauptschulabschluss die Datenanalyse einen geringeren Stellenwert. Dies wird
+dadurch ersichtlich, dass die Interpretation unter Verwendung von Kenngrößen sowie die bei
+einer Datenanalyse einhergehende Reflexion und Bewertung von Argumenten nicht explizit
+gefordert werden. Dass Schülerinnen und Schüler eine eigenständige Erhebung planen, wird
+ebenfalls nicht aufgegriffen. Stattdessen wird durch die inhaltsbezogenen Kompetenzen ein
+Alltagsbezug stärker betont. Schülerinnen und Schüler sollen sowohl (berechnete) Häufigkei-
+ten und Mittelwerte als auch lebensnahe Wahrscheinlichkeitsaussagen im Kontext interpretie-
+ren können. Durch die aufgelisteten inhaltlichen Kompetenzen wird bereits ersichtlich, dass
+die Leitidee Daten und Zufall (L5) wesentliche Elemente der Stochastik enthält, darauf aber
+nicht beschränkt ist, sondern u.a. auch funktionale Zusammenhänge oder die Einführung in
+die Prozentrechnung beinhaltet.
+
+Die Leitidee Daten und Zufall (L5) ist auch in alltäglichen Situationen präsent. Dabei lässt sich
+grundsätzlich zwischen den beiden Themenschwerpunkten Daten und Zufall unterscheiden.
+Das Themenfeld Daten ist in der heutigen Zeit durch die Verbreitung von Big Data, Data
+Science und künstlicher Intelligenz in alltäglichen Situationen besonders vertreten. Der
+Themenschwerpunkt Zufall beinhaltet Zufallserscheinungen sowie Wahrscheinlichkeitsbe-
+rechnungen und lässt sich im Rahmen von Gesellschaftsspielen, wie Mensch ärgere dich
+nicht, im Rahmen des Shuffle-Modus von Musikstreamingdiensten oder in anderen Situationen
+wie der Interpretation medizinischer Tests wiederfinden.
+
+Die Bildungsstandards im Fach Mathematik für den Primarbereich (KMK, 2004b) benennen
+die Leitidee Daten, Häufigkeit und Wahrscheinlichkeit, an die in der Sekundarstufe I die Leit-
+idee Daten und Zufall (L5) anschließt. In der Primarstufe stehen dabei die Fähigkeiten im
+Fokus, durch Beobachtungen, Untersuchungen und einfache Experimente, Daten zu sammeln
+und diese z. B. in Schaubildern darzustellen. Dazu zählt auch, Grundbegriffe zu kennen und
+Gewinnchancen bei einfachen Zufallsexperimenten einzuschätzen (KMK, 2004b). Zur Einfüh-
+rung der Wahrscheinlichkeitsrechnung lassen sich zunächst subjektive Einschätzungen mit
+Begriffen wie unmöglich, möglich und sicher vornehmen, wie z. B. bei der Beurteilung von
+„Morgen wird es schneien.“, „Zwei Kinder einer Schule haben am selben Tag Geburtstag.“.
+Ebenso kann auf Grundlage von verschiedenen Ereignissen die Einschätzung von zufällig und
+nicht zufällig erfolgen, z. B. bei Aussagen wie „Bei 0° gefriert das Wasser.“ oder „Der Würfel
+zeigt eine Sechs.“ In den Bildungsstandards für die Sekundarstufe I werden daran anknüpfend
+das Beschreiben von Zufallserscheinungen in alltäglichen Situationen und das Bestimmen von
+
+
+                                               7
+Wahrscheinlichkeiten bei (einfachen) Zufallsexperimenten genannt, wie z. B. das Ziehen einer
+ausgewählten Skatspielkarte.
+
+Da der Alltag unvorhersehbar erscheinende Situationen bereithält, die aber auf Daten, Wahr-
+scheinlichkeit und Zufall beruhen, ist es eine zentrale Aufgabe des Mathematikunterrichts,
+Schülerinnen und Schüler zu befähigten, solche Phänomene zu erkennen, zu unterscheiden
+und kritisch zu reflektieren. Indem die Schülerinnen und Schüler dem Zufall auf die Spur ge-
+hen, entwickeln sie ein tieferes Verständnis, wie Datenanalyse und stochastische Modelle
+unser tägliches Leben beeinflussen – von zufälligen Ereignissen über risikobehaftete Progno-
+sen bis hin zu datenbasierten Entscheidungen.
+
+Diese didaktische Handreichung setzt im Folgenden einen Schwerpunkt auf den Bereich Zufall
+und Wahrscheinlichkeit. Mit dem Fokus auf diese Teilthematik wird eine Differenzierung
+zwischen Zufall und Berechnung dargestellt. Zudem ist ein Wandel der Lehrpläne beobacht-
+bar, der auf Basis der Bildungsstandards 2003/2004 zurückgeht und der die Elemente der
+Stochastik zentral und verbindlich verpflichtend stärker integriert (Krüger et al., 2015, S. 4).
+
+
+3.1   Schwerpunktthema: Zufall
+In Kapitel 2 dieser Handreichung werden die Grunderfahrungen genannt, die Schülerinnen
+und Schüler in einem allgemeinbildenden Mathematikunterricht erfahren sollten. Eine dieser
+Grunderfahrungen beschreibt, dass die Welt auf eine mathematische Weise wahrgenommen
+werden soll (Winter, 1995, S. 37). Ausgehend von der Prämisse, dass gerade Stochastikun-
+terricht durch viele reale Beispiele sehr anwendungsbezogen sein kann, scheint dieser dazu
+prädestiniert zu sein, die eigene Umwelt auf mathematische Weise zu erfahren und einzu-
+schätzen (Krüger et al., 2015).
+
+Der hier gewählte Schwerpunkt Zufall ermöglicht das Erfahren der Mathematik in der persön-
+lichen Umgebung besonders, da individuelle Vorstellungen im Fokus des Stochastikunterrichts
+stehen und die subjektiven Erfahrungen der Schülerinnen und Schüler diesbezüglich stark
+ausgeprägt sind (Hauer-Typpelt, 2010, S. 12). Mit bekannten Spielen lassen sich stochasti-
+sche Gesetzmäßigkeiten anwendungsorientiert vermitteln. Durch das Drehen von Glücksrä-
+dern, das Spielen von Kniffel oder das mögliche Hören des Lieblingssongs bei Musik-
+streamingdiensten im Shuffle-Modus kann ein experimenteller Zugang eröffnet werden. Mit
+dem Fokus, dem Zufall auf der Spur zu sein, lässt sich der Shuffle-Modus von Algorithmen
+abgrenzen, die auf Grundlage des bisherigen Hörverhaltens Songs datenbasiert zusammen-
+stellen.
+
+Vor der Durchführung genannter oder ähnlicher Zufallsexperimente empfiehlt sich aus fachdi-
+daktischer Perspektive, die Schülerinnen und Schüler basierend auf ihren Erfahrungen erste
+Vorhersagen formulieren zu lassen. Anlehnend daran können Prognosen in Form von ersten
+
+                                                8
+Schätzwerten und berechneten Wahrscheinlichkeiten erarbeitet werden (Greefrath et al.,
+2024, S. 253).
+
+Für die Wahrscheinlichkeit und den Zufall existieren Grundvorstellungen, durch die der jewei-
+lige Begriff inhaltlich gedeutet werden kann und die auf deskriptiver Statistik (Beschreiben der
+Daten) basieren. Tragfähige Grundvorstellungen sind notwendig, um ein tiefgründiges Ver-
+ständnis mathematischer Begriffe aufzubauen (Greefrath, 2018). Zudem weisen sie eine
+Dynamik auf, da sie sich während der Schullaufbahn ändern können (Schmelzer, 2018). Wird
+der Begriff zufällig oder Zufall verwendet, ist anzunehmen, dass ein Ereignis nicht vorherseh-
+bar ist. Die mathematische Definition des Zufalls ist jedoch nicht eindeutig (Hauer-Typpelt,
+2010, S. 3.) Die subjektive Wirkung eines Zufalls ist in der Regel von der individuellen Deutung
+abhängig. So wird bei einem Würfelwurf beispielsweise das lange Ausbleiben der Augenzahl
+6 fälschlicherweise als Ausgangspunkt genommen, im nächsten Wurf eine höhere Wahr-
+scheinlichkeit für die Augenzahl 6 anzunehmen. Mit der individuellen Deutung von Zufall lässt
+sich an inhaltliche Themen aus außerschulischen Situationen im Unterricht anknüpfen, um das
+Verständnis des Zufallsbegriff weiter auszubauen und Fehlvorstellungen (wie das Beispiel mit
+dem Würfelwurf) zu korrigieren und entgegenzuwirken.
+
+Damit ermöglichen der Begriff Zufall sowie seine subjektive Wirkung ein Ansetzen an außer-
+schulischen Situationen im Unterricht. Spätestens bei der Einführung des Fachbegriffs Zufalls-
+experiment wird aber deutlich, dass damit eine Untersuchung von Daten sowie Bestimmung
+und Berechnung von Wahrscheinlichkeiten einhergehen. Die Zusammensetzung des Fachbe-
+griffs aus Zufall und Experiment mag für Schülerinnen und Schüler irreführend sein, da das
+Wort Zufall im Wort Zufallsexperiment aus der alltäglichen Perspektive als willkürlich wahrge-
+nommen werden kann. So wird das Wort Zufall im Alltag zum Beispiel dann willkürlich verwen-
+det, wenn von vorgeschlagenen Inhalten auf Social-Media-Plattformen die Rede ist, welche
+jedoch nicht im mathematischen Sinne zufällig erscheinen, sondern auf Grundlage eines (uns
+unbekannten) Algorithmus. Die zugrundliegende mathematische Struktur wird von den Schü-
+lerinnen und Schülern dabei nicht aufgegriffen. An dieser Stelle sollte auf solche Fehlvorstel-
+lungen oder sich weniger entwickelnde und kontextgebundene Grundvorstellungen geachtet
+werden (Krüger et al., 2015).
+
+Der zuvor erwähnte Einbezug der Erfahrungen von Schülerinnen und Schülern bei der Durch-
+führung von Zufallsexperimenten kann als subjektivistischer Zugang zum Wahrscheinlichkeits-
+begriff verstanden werden. Dieser Zugang ist fachdidaktisch relevant, aber zugleich sehr
+herausfordernd. Eine mögliche Schwierigkeit bezieht sich auf das Modellieren der Realsitua-
+tion, da die zuvor skizzierte subjektive Einschätzung des Zufalls die Grundlage des Modellie-
+rens individueller stochastischer Modelle bilden kann. Beispielsweise kann die subjektive An-
+nahme, dass ausschließlich die Mitspielerinnen und Mitspieler eine Sechs würfeln und man
+
+
+                                               9
+selbst nicht, die Durchführung der Realsituation erschweren. An dieser Stelle ist es sinnvoll,
+die Lernenden bei der Formulierung der Annahmen zu unterstützen und stärker zu begleiten.
+
+Um die inhaltliche Ausprägung des Wahrscheinlichkeitsbegriffs zu fördern, können anfangs
+Ereignisse als wahrscheinlich, möglich, unwahrscheinlich oder sicher beschrieben und auf ver-
+schiedenen Skalen grafisch dargestellt werden. Dieses Vorgehen kennen die Schülerinnen
+und Schüler bereits aus der Grundschule (Krüger et al., 2015). Über theoretische Überlegun-
+gen können Ereignisse, die zuvor in der Primarstufe nur als wahrscheinlich – ohne konkreten
+Wert – beschrieben wurden, zu Beginn der Sekundarstufe durch die Wahrscheinlichkeitsbe-
+rechnung exakt angegeben werden. Häufig zeigt sich die theoretische Annahme von gleich-
+wahrscheinlichen Ereignissen, die sich aus Symmetrien ergibt, als ein erster Schritt im Aufbau
+des Wahrscheinlichkeitsbegriffs.
+
+Als stochastische Modelle werden typischerweise zunächst Laplace-Modelle betrachtet.
+Während im vorherigen Abschnitt der subjektivistische Zugang zum Wahrscheinlichkeitsbegriff
+beschrieben wurde, wird mit dem Einsatz von Laplace-Modellen der klassische Zugang ange-
+sprochen. Für die Laplace-Formel gilt: Wenn bei einem Vorgang mit mehreren möglichen
+Ergebnissen angenommen werden kann, dass alle Ergebnisse die gleiche Wahrscheinlichkeit
+besitzen, so hat ein Ereignis A die Wahrscheinlichkeit:
+
+                                Anzahl der für A günstigen Ergebnisse
+                        P(A)=                                         .
+                                 Anzahl aller möglichen Ergebnisse
+
+Die Definition beinhaltet eine Annahme und stellt damit einen erneuten Bezug zum Modellieren
+stochastischer Modelle her. Die Annahme der gleichwahrscheinlichen Ereignisse stellt eine
+theoretische Vereinfachung dar. Bei einigen Zufallsexperimenten erscheint die Annahme der
+Gleichverteilung fachdidaktisch sinnvoll, jedoch nicht immer realistisch sowie gerechtfertigt.
+Manche Alltagssituationen erfahren durch diese Vereinfachung eine Verfälschung (Krüger et
+al., 2015). Werden beispielsweise für eine Klassenverlosung kleine Zettel aus Papier geschnit-
+ten und gefaltet, um diese als Lose zu verwenden, so ist es möglich, dass diese Lose nicht
+alle gleich groß und gleich gefaltet werden, dennoch eine Gleichwahrscheinlichkeit angenom-
+men wird.
+
+Ist das Eintreten von Ereignissen nicht mehr gleichwahrscheinlich oder nicht direkt berechen-
+bar wie beim klassischen Zugang, können durch Beobachtungen von vielfachem Durchführen
+von Experimenten absolute und relative Häufigkeiten strukturiert dargestellt werden. Damit
+wird der frequentistische Zugang zum Wahrscheinlichkeitsbegriff angesprochen. Auch zur Ver-
+meidung von Fehlvorstellungen durch vereinfachte Annahmen ist der frequentistische Zugang
+weiterführend zu thematisieren. Beispielsweise können die Schülerinnen und Schüler beim
+Elfmeterschießen im Sportunterricht oder bei einer Analyse von UEFA-Spielen anhand notier-
+ter Häufigkeiten eine Wahrscheinlichkeit für die Verwandlung von Elfmetern schätzen. Mit
+
+                                              10
+zunehmender Frequenz der Durchführung der Experimente ändert sich die zuvor endliche
+Ergebnismenge des klassischen Wahrscheinlichkeitsbegriffs zu einem beliebig großen Daten-
+umfang. Das empirische Gesetz der großen Zahlen beschreibt die Gesetzmäßigkeit, dass sich
+„die Häufigkeit des Eintretens eines Zufallsereignisses mit zunehmender Anzahl an Durchfüh-
+rungen eines Zufallsereignisses stabilisiert“ (Greefrath et al., 2024, S. 255). Die Einführung
+des frequentistischen Zugangs erfolgt so über das Gütekriterium „je öfter, desto besser“. Durch
+die zunehmenden Wiederholungen wird das Eintreten des Ereignisses in Relation zur Gesamt-
+anzahl an Durchführungen dargestellt. Da jedoch nicht eindeutig festgelegt ist, ab welcher
+Anzahl an Wiederholungen die Ergebnisse als „ausreichend stabil“ gelten können, bleibt das
+empirische Gesetz der großen Zahlen für Lernende oft abstrakt. Um diesen Annäherungspro-
+zess greifbar zu machen, bietet es sich daher an, den Zusammenhang zwischen relativer
+Häufigkeit und Anzahl der Durchführungen anhand von Beispielen (z.B. Würfelwurf) mit
+unterschiedlich großen Stichprobenumfängen zu veranschaulichen. So können Schülerinnen
+und Schüler beobachten, wie sich die relative Häufigkeit mit zunehmender Wiederholungszahl
+an den theoretischen Wahrscheinlichkeitswert angleicht und welche Schwankungen bei
+kleineren Versuchszahlen noch auftreten. Beim frequentistischen Zugang bieten sich realitäts-
+nahe Anwendungen auch mit Unterstützung digitaler Medien besonders an, da sie beliebig
+anwendbar sind und eine hohe Aktivität der Lernenden erzielen. Beispielsweise lassen sich
+stochastische Simulationen mit Tabellenkalkulationen einfach und unkompliziert im Unterricht
+einbeziehen. Da eine Software die Durchführung des Experiments übernimmt, liegt der
+Schwerpunkt für die Lernenden auf dem Interpretieren der Ergebnisse – das zugleich das
+inhaltliche Verständnis fördert (Greefrath et al., 2024).
+
+Als weitere Idee für den frequentistischen Zugang können die Farbverteilung kleiner Gummi-
+bärchen in einer Vielzahl von Tüten untersucht und die absoluten und relativen Häufigkeiten
+in Diagrammen dargestellt werden. Über eine große Menge an Gummibärchentüten wird die
+Wahrscheinlichkeit einer jeden Farbe berechnet und die inhaltsbezogene mathematische
+Kompetenz wie z. B. das Bestimmen von Wahrscheinlichkeiten bei (einfachen) Zufallsexperi-
+menten angesprochen. Im Sinne der didaktischen Reduktion kann im Beispiel der Gummibär-
+                                                                � (alle anderen Farben)
+chen eine Farbe (Ereignis A) und das dazugehörige Gegenereignis A
+gewählt werden (Eichler & Vogel, 2013, S. 32).
+
+Stochastische Simulationen sind typisch für den frequentistischen Zugang, wohingegen beim
+klassischen Zugang Baumdiagramme zur Berechnung von Wahrscheinlichkeiten eingesetzt
+werden. Baumdiagramme unterstützen Lernende bei der Verknüpfung von Elementarereignis-
+sen bei mehrstufigen Vorgängen und im heuristischen Vorgehen durch z. B. das graphisch-
+visuelle Abbilden erster kombinatorischer Überlegungen (z. B. Ziehen mit oder ohne Zurück-
+legen). Das systematische Zählen wird gefördert, indem die Frage nach der Menge aller mög-
+
+
+                                               11
+lichen Ergebnisse beantwortet wird. Tabelle 1 zeigt eine Schrittfolge zur Erstellung von Baum-
+diagrammen, die im Unterricht eingesetzt werden kann. Zweistufige Prozesse werden hier
+häufig als Einstieg gewählt.
+
+Tabelle 1: Schrittfolge als Orientierungsgrundlage (Krüger et al., 2015, S.133)
+
+
+          Stelle dir den Sachverhalt vor und bestimme die Teilvorgänge, indem du dich
+Schritt 1 fragst: „Was passiert zuerst und was passiert dann (und was danach…)?“ Oder:
+          „Was passiert gleichzeitig?“
+
+          Bestimme für jeden Teilvorgang das jeweils betrachtete Merkmal sowie dazu alle
+Schritt 2 möglichen Ergebnisse: „Bei dem Teilvorgang kann das Ergebnis oder das Ergebnis
+          oder ... eintreten.“
+
+            Ordne die Teilvorgänge nacheinander an, nach Möglichkeit im zeitlichen Ablauf
+Schritt 3
+            entsprechend.
+
+          Zeichne ein Baumdiagramm, in dem jedes Ergebnis des ersten Teilvorgangs Aus-
+          gangspunkt für alle Ergebnisse des zweiten Teilvorgangs ist. Gibt es mehr als zwei
+Schritt 4
+          Teilvorgänge, ist wieder jedes Ergebnis des zweiten Teilvorgangs Ausgangspunkt
+          für alle Ergebnisse des dritten Teilvorgangs usw.
+
+Schritt 5 Jedes Pfadende entspricht einem zusammengesetzten Ergebnis, das du in Kurz-
+          form hinter die Pfadenden schreibst.
+
+Aus fachdidaktischer Perspektive fördert das Erstellen von Baumdiagrammen die Entwicklung
+des eigenständigen Lernprozesses. Ohne Hinweise von Mitschülerinnen und Mitschülern oder
+der Lehrkraft kann ein Baumdiagramm skizziert und nach vollständiger Darstellung durch das
+Anwenden der Summenregel überprüft werden (Kütting et al., 2011). Die Summenregel
+besagt, dass am Ende aller Pfade die möglichen Ergebnisse des Zufallsexperiments stehen
+und ihre Wahrscheinlichkeiten summiert 1 ergeben. In den höheren Jahrgängen liegt der
+Fokus auf dem systematischen Einsatz von Baumdiagrammen und Pfadregeln – auch bei
+bedingten Wahrscheinlichkeiten. Vierfeldertafeln und weitere Darstellungen können hier
+eingesetzt werden, um zusätzlich Abhängigkeiten und Zusammenhänge darzustellen. Die
+Konzepte von Unabhängigkeit und Erwartungswert werden eingeführt und angewendet.
+
+
+
+
+                                                  12
+3.2     Zufall in VERA-8
+Im folgenden Abschnitt werden drei Beispielaufgaben aus vergangenen VERA-8-Erhebungen
+dargestellt, in denen die Leitidee Daten und Zufall (L5) mit dem Schwerpunkt Zufall angespro-
+chen wird. Die Aufgaben werden nachfolgend hinsichtlich ihrer geforderten Kompetenz
+analysiert.
+
+Beispielaufgabe 1: „Restaurantgewinnspiel“
+
+
+  Jedes Jahr in der Weihnachtszeit veranstaltet ein Restaurant ein Gewinnspiel. Der Wirt füllt
+  dazu 100 Kugeln mit den Nummern 1 bis 100 in ein undurchsichtiges Gefäß und deckt dieses
+  mit einem Tuch ab. Ein Gast, der die Rechnung bekommt, muss eine Zahl zwischen 1 und
+  100 nennen und dann, ohne hinzusehen, eine Kugel ziehen. Er zeigt dem Wirt die Nummer
+  auf der Kugel und legt die Kugel wieder in das Gefäß zurück.
+
+ Teilaufgabe 1
+  Stimmt die Nummer der gezogenen Kugel mit der vom Gast genannten Zahl überein, muss
+  der Gast die Rechnung nicht bezahlen.
+  Prüfe, ob die folgenden Aussagen richtig sind.
+  Kreuze jeweils an.
+
+                                                                          richtig     falsch
+
+       Durchschnittlich jede einhundertste Rechnung muss nicht
+       bezahlt werden.
+
+       Bei 100 Gästen darf mit Sicherheit einer umsonst essen.
+
+       Die Wahrscheinlichkeit, dass die Rechnung nicht bezahlt
+       werden muss, liegt bei 1 %.
+       Jeden Abend muss mindestens ein Gast sein Essen nicht
+       bezahlen.
+
+ Teilaufgabe 2
+      Enthält die Nummer auf der Kugel mindestens einmal die „Glücksziffer“ 7, bekommt der Gast
+      einen Cappuccino gratis serviert.
+      Wie groß ist die Wahrscheinlichkeit, einen Cappuccino gratis zu bekommen?
+      Kreuze an.
+
+
+            7                  10                   19               20                  7
+           100                100                  100              100                 10
+Die Aufgabe „Restaurantgewinnspiel“ beinhaltet das Beschreiben von Zufallsphänomenen in
+Realsituationen (Gewinnspiel) und die Beurteilung von Wahrscheinlichkeitsaussagen. Die in
+der Aufgabe gegebene Realsituation erfordert das Bilden eines mentalen Modells, das die
+Gewinnsituation – d.h. die Restaurantrechnung muss nicht bezahlt werden – mit verschiede-
+nen Ausgängen erfasst. Nur auf Grundlage des passenden stochastischen Modells kann die
+Aufgabe korrekt gelöst werden. In allen drei Teilaufgaben wird die Kompetenz Mathematisch
+modellieren (K3) angesprochen, da die Schülerinnen und Schüler unter anderem erkennen
+                                                    13
+müssen, dass es sich um ein Laplace-Experiment handelt. Außerdem ist in allen drei Teilauf-
+gaben die Kompetenz Mathematisch kommunizieren (K6) gefordert, da zum Beispiel dem Text
+die Information entnommen werden muss, dass bei dem Gewinnspiel das Ziehen mit Zurück-
+legen erfolgt.
+
+In Teilaufgabe 1 ist die Kompetenz Mathematisch kommunizieren (K6) zusätzlich zum Prüfen
+richtiger oder falscher Aussagen über die Gewinnwahrscheinlichkeit erforderlich, da die Schü-
+lerinnen und Schüler relevante Begriffe wie durchschnittlich, mit Sicherheit oder mindestens
+den einzelnen Aussagen sinnentnehmend erfassen und auf ihr stochastisches Modell bezie-
+hen.
+
+Die zweite Teilaufgabe schließt an der Kompetenz Mathematisch kommunizieren (K6) an, da
+die Formulierung „mindestens einmal die Glücksziffer 7“ im gegebenen realen und mathema-
+tischen Modell gedeutet werden muss. Da es sich hier um ein mathematisches Problem
+handelt, das die Anwendung heuristischer Hilfsmittel, Strategien und Prinzipien erfordert, wird
+ebenso die Kompetenz Probleme mathematisch lösen (K2) gefördert.
+
+Basierend auf der Ergebnismenge Ω= {7, 17,…, 67, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 87, 97}
+ist für die Bestimmung der Anzahl der günstigen Ergebnisse im Verhältnis zur Gesamtanzahl
+der möglichen Ergebnisse eine geeignete Zählstrategie anzuwenden. Gleichzeitig werden die
+Schülerinnen und Schüler dazu aufgefordert, mit dem zuvor aufgestellten stochastischen Mo-
+dell der Laplace-Wahrscheinlichkeit eine konkrete Wahrscheinlichkeit zu bestimmen. Dafür ist
+die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik um-
+gehen (K5) gefragt.
+
+Beide Teilaufgaben verwenden den klassischen Zugang zum Wahrscheinlichkeitsbegriff (vgl.
+Kapitel 3.1), da das Ziehen einer Kugel von 1 bis 100 als gleichwahrscheinlich angenommen
+wird. Ergänzend zu den ersten beiden Teilaufgaben, erweitert die dritte Teilaufgabe den
+Kompetenzerwerb im Bereich des Argumentierens.
+
+ Teilaufgabe 3
+   Der Wirt verrät einem Gast, dass an diesem Abend leider noch niemand gewonnen hat. Der
+   Gast freut sich: „Prima, dann habe ich ja jetzt besonders gute Chancen.“
+   Hat der Gast Recht?
+   Kreuze an.
+                              Ja                        Nein
+
+   Begründe deine Antwort.
+
+ Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+ Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+
+Die getroffene Annahme des Gastes aus Teilaufgabe 3 („Prima, dann habe ich jetzt ja beson-
+ders gute Chancen.“) müssen die Schülerinnen und Schüler zur korrekten Beantwortung der
+
+                                                                14
+Frage revidieren. An dieser Stelle sind verschiedene Begründungen denkbar, die die Kompe-
+tenz Mathematisch argumentieren (K1) ansprechen. Die Argumente werden schriftlich vorge-
+nommen und lassen erkennen, ob sich die Schülerinnen und Schüler bei der Beantwortung
+der Frage auf ein stochastisches Modell oder fälschlicherweise auf subjektive Einschätzungen
+beziehen. Der Aussage in dieser Aufgabe liegt die Fehlvorstellung „Würfelgedächtnis“ zu-
+grunde, welche den Glauben beinhaltet, dass sich frühere Ergebnisse auf Zukünftige auswir-
+ken. Daher sollte die Unabhängigkeit von Zufallsereignissen erneut angesprochen werden.
+Eine Begründung, die auf eine erhöhte Gewinnchance bei einer zuvor hohen Anzahl an Fehl-
+zügen schließen lässt, repräsentiert das Formulieren und Beurteilen von Wahrscheinlichkeits-
+aussagen auf Basis der subjektiven Wirkung von Zufall und lässt die genannte Fehlvorstellung
+vermuten. Die Begründungen sollten sich jedoch auf die gleichbleibende Anzahl der Kugeln
+im Gefäß oder auf die Eigenschaft der Zufälligkeit des Ziehens beziehen, damit sie als korrekt
+gewertet werden können.
+
+Im Unterricht können Fehlvorstellungen mit einer vertieften Auseinandersetzung des subjekti-
+vistischen Zugangs zum Wahrscheinlichkeitsbegriff vermieden werden. Denkbar ist auch eine
+Vereinfachung der Realsituation, indem das Zufallsexperiment mit einer reduzierten Anzahl an
+Kugeln simuliert wird. Mit diesem Zugang wird das Grundverständnis des stochastischen
+Modells der Laplace-Wahrscheinlichkeit vertieft und klar von dem subjektivistischen Zugang
+abgegrenzt.
+
+Anders als in der obigen Aufgabe spricht die zweite Beispielaufgabe „Glücksrad“ einen ande-
+ren Zugang zum Wahrscheinlichkeitsbegriff an.
+
+Beispielaufgabe 2: „Glücksrad“
+
+
+Ein Glücksrad besteht aus drei Feldern: einem roten, einem grünen
+und einem blauen Feld.
+                                                                              blau
+Bei 180 Drehungen wies der Zeiger nach dem Stillstand des           grün
+Glücksrades 66-mal auf das rote Feld und 54-mal auf das grüne
+Feld.
+                                                                             rot
+
+
+
+Teilaufgabe 1
+
+Wie oft zeigte der Zeiger auf das blaue Feld?
+Kreuze an.
+
+
+
+     240-mal                  120-mal                 60-mal          Das kann ich nicht
+                                                                      entscheiden, weil
+                                                                       das ja Zufall ist.
+
+
+
+
+                                                15
+Das klassische Glücksspiel und die Notation der absoluten Häufigkeit der Farben Rot und
+Grün sollte den Schülerinnen und Schülern von möglichen experimentellen Zugängen zur
+Ermittlung von Wahrscheinlichkeiten aus dem Unterricht vertraut sein. Wurde bei dieser Auf-
+gabe die erste Antwortalternative (240-mal) angekreuzt, so wurde die Anzahl der Drehungen
+„blau“ zunächst vermutlich richtig berechnet, das Ergebnis jedoch zu den bereits erfolgten
+Drehungen addiert. Bei Auswahl der zweiten Antwortalternative (120-mal) wurde die Gesamt-
+zahl der Drehungen von „rot“ und „grün“ berechnet. Bei Auswahl der letzten Antwortalternative
+(„Das kann ich nicht entscheiden, weil das ja Zufall ist.“) wurde die Prognose über den Aus-
+gang eines Zufallsversuchs mit der Analyse eines bereits abgeschlossenen Zufallsversuchs,
+wie er hier vorliegt, verwechselt. Damit wird in Teilaufgabe 1 lediglich die Anwendung bekann-
+ter Routineverfahren vorausgesetzt. Die Berechnung der fehlenden absoluten Häufigkeit für
+das blaue Feld kann über das Bestimmen der Differenz von 180 und (66+ 54) erfolgen. Denk-
+bar ist auch eine Lösung der Aufgabe über die Bestimmung des Gegenereignisses, das die
+Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen
+(K5) erfordert. Nicht zwangsläufig müssen die Schülerinnen und Schüler bei dieser Aufgabe
+auf relative Häufigkeiten schließen. Die Lösung über eine Subtraktionsaufgabe zu ermitteln,
+ist ebenfalls zu erwarten: 180 – 66 – 54 = 60.
+
+Im Unterricht bietet diese Aufgabe eine Möglichkeit zur Weiterarbeit am frequentistischen
+Wahrscheinlichkeitsbegriff in Anlehnung an andere Zufallsexperimente. An der hohen Anzahl
+an Durchführungen kann angesetzt und die Aufgabe mit dem Ziel der Berechnung von Wahr-
+scheinlichkeiten mittels relativer Häufigkeiten bearbeitet werden.
+
+Teilaufgabe 2
+
+ Die Aufteilung der Felder im Glücksrad soll so verändert werden, dass der Zeiger bei etwa
+ jeder zweiten Drehung auf dem grünen Feld steht.
+ Ergänze die Zeichnung.
+
+
+
+
+                                            blau
+
+
+
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+
+
+
+                                                                  16
+       grün
+
+
+
+                  rot
+
+
+
+
+Abbildung 2: Antizipierte fehlerhafte Lösung zur Aufgabe „Glücksrad“ Teilaufgabe 2
+
+Die zweite Teilaufgabe spricht die Kompetenz Mathematisch modellieren (K3) an, da die Schü-
+lerinnen und Schüler die Formulierung „etwa jede zweite Drehung“ in die Wahrscheinlichkeit
+von 50 % übersetzen müssen. Mit dem Wissen müssen die Schülerinnen und Schüler das
+vorliegende Glücksrad zur Hälfte grün färben. Dass die Verteilung der grünen Fläche verschie-
+dene Lösungen zulässt, hebt neben den Kompetenzen des Modellierens zudem die Kompe-
+tenz Mathematische Darstellungen verwenden (K4) hervor. Mögliches Vernachlässigen des
+blauen Feldes oder anderweitige Fehler beim Lesen des Textes könnten zur Lösung in Abbil-
+dung 2 führen.
+
+Bei der Analyse der vorhandenen Kompetenzen wird bei dieser Lösung deutlich, dass die
+Formulierung „etwa jede zweite Drehung“ mathematisch korrekt übersetzt wurde, aber nicht in
+die gegebene Darstellung übertragen werden konnte.
+
+An dieser Stelle wäre es didaktisch sinnvoll, die Schülerinnen und Schüler dazu anzuleiten,
+ihre durch das Rückwärtsarbeiten ermittelte Lösung, eigenständig zu überprüfen. Mit dem
+selbstständigen Überprüfen wird die Kompetenz Mathematische Darstellungen verwenden
+(K4) vertieft und gleichzeitig kann das Ergebnis durch die erneute Auseinandersetzung mit der
+Sachsituation überprüft werden.
+
+Als letzte Aufgabe wurde die Beispielaufgabe „Glückssäckchen“ ausgewählt. Hier ist aus-
+schließlich eine Bestimmung von Wahrscheinlichkeiten über Routineverfahren gefordert.
+
+
+
+
+                                                17
+Beispielaufgabe 3: „Glückssäckchen“
+
+
+      A                         B                        C
+
+
+
+
+Bei einem Glücksspiel darf man sich von den drei Säckchen A, B, C eines auswählen.
+Unter den einzelnen Säckchen siehst du, mit welchen Kugeln sie gefüllt werden. In jedem
+Säckchen befinden sich dann schwarze und weiße Kugeln. Man zieht ohne hinzusehen
+aus seinem ausgewählten Säckchen eine Kugel; ist sie weiß, hat man gewonnen, ist sie
+schwarz, hat man verloren.
+
+Teilaufgabe 1
+
+Die Kugeln der drei Säckchen werden alle in einen größeren Sack
+zusammengeschüttet.
+Nun wird aus diesem größeren Sack eine Kugel gezogen.
+Wie groß ist jetzt die Wahrscheinlichkeit zu gewinnen?
+
+
+Die Aufgabe „Glückssäckchen“ erfordert die Kompetenz Mathematisch Modellieren (K3), da
+Schülerinnen und Schüler die reale Situation – das Ziehen einer weißen Kugel als Gewinn –
+in ein stochastisches Modell, das Laplace-Modell, übersetzen und geeignete Verfahren zur
+Wahrscheinlichkeitsbestimmung anwenden. Zudem wird die Kompetenz Mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) benötigt, da Routinever-
+fahren zur Bestimmung von Wahrscheinlichkeiten ausgewählt werden. Ein typischer Fehler
+besteht darin, ausschließlich die weißen Kugeln als Ergebnismenge zu berücksichtigen und
+die schwarzen Kugeln zu übersehen. Dies weist auf Schwierigkeiten beim Aufbau eines voll-
+ständigen Ereignisraums und beim Verknüpfen realer und mathematischer Darstellung hin.
+
+Die Aufgabe eignet sich, um Schülerinnen und Schüler systematisch beim Aufbau eines trag-
+fähigen mentalen Modells des Wahrscheinlichkeitsbegriffs zu unterstützen.
+
+Der Übergang von Teilaufgabe 1 zu Teilaufgabe 2 bietet fachdidaktisches Potential, da sich
+sowohl die Anzahl der für das Ereignis A (gezogene Kugel ist weiß) günstigen Ausgänge als
+auch die Gesamtheit aller möglichen Ergebnisse verändert.
+
+
+
+
+                                             18
+Teilaufgabe 2
+
+Zwei andere Säckchen sind jeweils mit m Kugeln gefüllt. Im ersten Säckchen befinden
+sich n1 weiße Kugeln, im zweiten Säckchen n2 weiße Kugeln. Der Inhalt der beiden
+Säckchen wird wieder in einen großen Sack zusammengeschüttet und es wird aus
+dem großen Sack eine Kugel gezogen.
+Welcher Term gibt die Wahrscheinlichkeit an, mit der man gewinnt?
+Kreuze an.
+     n1 + n2                           n1 ⋅ n2                       n1 ⋅ n2            n1 + n2
+        m                                m                            2⋅m                2⋅m
+
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de
+
+
+
+In Teilaufgabe 2 müssen die Schülerinnen und Schüler mit gegebenen algebraischen Termen
+eine allgemeine Berechnung von Wahrscheinlichkeiten in ähnlich gelagerten Situationen
+untersuchen. Zum einen wird damit die Kompetenz Mit symbolischen, formalen und techni-
+schen Elementen der Mathematik umgehen (K5) angesprochen. Zur Auswahl der korrekten
+Lösung sollten die Schülerinnen und Schüler berücksichtigen, dass die Gewinnwahrschein-
+lichkeit – eine weiße Kugel zu ziehen – bereits für eine konkrete Gesamtmenge an Kugeln in
+Teilaufgabe 1 angesprochen wurde. Durch gedankliches Operieren und das Anwenden von
+heuristischen Strategien wird zum anderen die Kompetenz Probleme mathematisch lösen (K2)
+angesprochen. Mit der bekannten Struktur aus Teilaufgabe 1 und über die Strategie des Ver-
+                                                                                              𝑛𝑛1 +𝑛𝑛2
+allgemeinerns können die Lernenden den korrekten Term auswählen:                                         . Ergänzend
+                                                                                               𝑚𝑚+𝑚𝑚
+
+besteht die Möglichkeit, über die Strategie des Zerlegens, erst den Zähler als die Summe aller
+günstigen Ereignisse zu deuten und im Anschluss den Quotienten in den Sachkontext zu über-
+tragen.
+
+
+
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Messen ist dies der Schwerpunkt Ebene Figuren, im Bereich der Leit-
+idee Daten und Zufall der Schwerpunkt Zufall. Aus beiden Themen wurden zentrale Inhalte
+betrachtet, welche durch die Bildungsstandards vorgegeben werden. Für weitere Anregungen
+für die Unterrichtspraxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der
+didaktischen Handreichungen verwiesen. Zudem wurden Beispielaufgaben zu den Schwer-
+punktthemen vorgestellt und aufgezeigt, mit welchen allgemeinen mathematischen Kompe-
+tenzen mit diesen einhergehen. Für weitere Beispiele und Anregungen stellt die in den voran-
+gegangenen Kapiteln genannte Literatur eine gute Ausgangslage dar.
+                                                                  19
+5 Literaturverzeichnis
+
+Eichler, A. & Vogel, M. (2013). Leitidee Daten und Zufall. Springer Fachmedien Wiesbaden.
+https://doi.org/10.1007/978-3-658-00118-6
+
+Greefrath, G., Oldenburg, R., Siller, H.‑S., Ulm, V. & Weigand, H.‑G. (2024). Digitalisierung im
+Mathematikunterricht. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-68682-9
+
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht: Didaktische
+Perspektiven zum Sachrechnen in der Sekundarstufe. Springer. https://doi.org/10.1007/978-
+3-662-57680-9
+
+Hauer-Typpelt, P. (2009). Angemessene Grundvorstellung zu Wahrscheinlichkeit und Zufall
+entwickeln – Vorschläge für den Stochastikunterricht: Schriftenreihe zur Didaktik der Mathe-
+matik der Österreichischen Mathematischen Gesellschaft (ÖMG), 42.
+
+KMK. (2004a). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss. Be-
+schluss vom 4.12.2003. Wolters Kluwer.
+
+KMK. (2004b). Bildungsstandards im Fach Mathematik für den Primarbereich. Beschluss vom
+15.10.2004. Wolters Kluwer.
+
+KMK. (2005). Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Be-
+schluss vom 15.10.2004. Wolters Kluwer.
+
+Krüger, K., Sill, H.‑D. & Sikora, C. (2015). Didaktik der Stochastik in der Sekundarstufe I.
+Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-43355-3
+
+Kütting, H., Sauer, M. J. & Padberg, F. (2011). Elementare Stochastik. Springer Berlin Heidel-
+berg. https://doi.org/10.1007/978-3-8274-2760-1
+
+Schmelzer, N. (2018). Grundvorstellungen zum Wahrscheinlichkeitsbegriff. In Bender, P., &
+Wassong, T. (Hrsg.), Beiträge zum Mathematikunterricht 2018. 52. Jahrestagung der Gesell-
+schaft für Didaktik der Mathematik. (S. 1611–1614). Verlag für wissenschaftliche Texte und
+Medien.
+
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+für Didaktik der Mathematik, 21(61), 37–46. https://doi.org/10.1515/dmvm-1996-0214
+
+
+
+
+                                              20
+6 Abbildungsverzeichnis
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards ......................................................... 5
+
+Abbildung 2: Antizipierte fehlerhafte Lösung zur Aufgabe „Glücksrad“ Teilaufgabe 2 ...........17
+
+
+
+7 Tabellenverzeichnis
+
+Tabelle 1: Schrittfolge als Orientierungsgrundlage (Krüger et al., 2015, S.133) ....................12
+
+
+
+8 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Restaurantgewinnspiel“ .........................................................................13
+
+Beispielaufgabe 2: „Glücksrad“.............................................................................................15
+
+Beispielaufgabe 3: „Glückssäckchen“ ...................................................................................18
+
+
+
+
+                                                            21
+

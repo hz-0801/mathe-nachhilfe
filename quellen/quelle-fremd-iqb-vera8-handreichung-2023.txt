@@ -1,0 +1,1169 @@
+Quelle: VERA-8 Mathematik 2023, Didaktische Handreichung Teil II (Modul B), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_2023_MA_ModulB_gqWocyx.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 30 (pdfinfo)
+Lizenzvermerk: kein Vermerk
+Textfassung: pdftotext -layout (poppler); Formeln und Abbildungen fehlen, Seitenwechsel als Formfeed.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+       Vergleichsarbeiten 2023
+     8. Jahrgangsstufe (VERA-8)
+Mathematik – Didaktische Handreichung
+                Teil II
+
+
+
+
+    Fachdidaktische Orientierung
+    Leitidee Messen und Leitidee
+    Funktionaler Zusammenhang
+Inhaltsverzeichnis
+
+
+1    Einleitung ...................................................................................................................... 3
+2    Bildungsstandards und Kompetenzmodell im Fach Mathematik ................................... 3
+3    Die Leitidee Messen ..................................................................................................... 7
+     3.1     Schwerpunktthema: Modellieren .......................................................................... 8
+     3.2     Modellieren im Bereich Messen ......................................................................... 10
+     3.3     Modellieren im Bereich Messen in den VERA-8 Erhebungen............................. 13
+4    Die Leitidee Funktionaler Zusammenhang .................................................................. 16
+     4.1     Grundvorstellungen zu Funktionen .................................................................... 17
+     4.2     Schwerpunktthema: Graphen ............................................................................ 19
+     4.3     Graphen in den VERA-8 Erhebungen ................................................................ 20
+     4.4     Darstellungswechsel mit digitalen Werkzeugen ................................................. 26
+5    Abschließende Anmerkungen ..................................................................................... 27
+6    Literaturverzeichnis ..................................................................................................... 28
+7    Abbildungsverzeichnis ................................................................................................ 30
+8    Tabellenverzeichnis .................................................................................................... 30
+9    Verzeichnis der Beispielaufgaben ............................................................................... 30
+
+
+
+
+Autor*innen der fachdidaktischen Erläuterungen in Teil II sind Corinna Hankeln und Ilja Ay.
+Die gezeigten Testaufgaben entstanden in Kooperation von Lehrkräften aus zehn
+Bundesländern und Fachdidaktiker*innen unter Federführung der Arbeitsgruppe Prof.
+Greefrath, Universität Münster (fachdidaktische Leitung) und des Instituts zur Qualitäts-
+entwicklung im Bildungswesen.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit,
+Vollständigkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt
+der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                             auch online finden können?
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+                                                                 2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2005b, 2015) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt.
+Anschließend werden die beiden Schwerpunkte, die in den diesjährigen Ergänzungsmodulen
+zur Wahl stehen, näher erläutert: die Leitidee Messen mit Fokus auf der Kompetenz
+Mathematisches Modellieren sowie die Leitidee Funktionaler Zusammenhang mit Fokus auf
+das Thema Graphen. Dabei wird in beiden Abschnitten ein besonderes Augenmerk auf
+zentrale   Aspekte    der    Schwerpunktsetzungen         gelegt.    Es    werden     fachdidaktische
+Herausforderungen geschildert und Beispiele vorgestellt, wie Lehrkräfte mit diesen in der
+Unterrichtspraxis umgehen können. Des Weiteren wird insbesondere bei Darstellungs-
+wechseln (zwischen Graphen und anderen Darstellungsformen) aufgezeigt, wie digitale
+Werkzeuge gewinnbringend in den Unterricht eingebunden werden können. In den
+dazugehörigen Kapiteln 3 und 4 werden außerdem Aufgaben aus VERA-8 vorgestellt, die sich
+den diesjährigen Schwerpunktsetzungen zuordnen lassen.
+
+
+
+2 Bildungsstandards und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003
+Bildungsstandards für die Fächer Deutsch, Mathematik und die erste Fremdsprache
+(Englisch/Französisch) ein. Eine grundlegende paradigmatische Wende stand bevor:
+Während zuvor der Input im Vordergrund stand, also Inhalte und Themen, sollte nun auch der
+Output stärkere Beachtung finden, also der Aufbau von Kompetenzen, Wissensstrukturen,
+Werten etc.. Inhalte sollten mit der Entwicklung von Persönlichkeitsmerkmalen verknüpft
+werden, die die Basis für ein lebenslanges Lernen legen und so persönliche Weiterentwicklung
+und gesellschaftliche Teilhabe ermöglichen (Klieme et al., 2003). Die OECD betont dabei den
+Anwendungscharakter von Mathematik:
+
+       „Mathematische Grundbildung umfasst die Fähigkeit des Einzelnen, Mathematik in einer
+       Vielzahl von Kontexten zu formulieren, anzuwenden und zu interpretieren. Sie umfasst
+       mathematisches Argumentieren und die Verwendung mathematischer Konzepte, Verfahren,
+       Fakten und Werkzeuge zur Beschreibung, Erklärung und Vorhersage von Phänomenen. Sie
+       hilft dem Einzelnen, die Rolle zu erkennen, die die Mathematik in der Welt spielt, und begründete
+       Urteile und Entscheidungen zu treffen, die von konstruktiven, engagierten und reflektierten
+       Bürgerinnen und Bürgern benötigt werden.“ (OECD, 2013, S. 25, eigene Übersetzung)
+
+
+
+
+                                                  3
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schüler*innen bis zu
+einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben haben sollen (KMK,
+2004,    2005).   Dabei    wird   davon   ausgegangen,     dass    ein    allgemeinbildender
+Mathematikunterricht Schüler*innen die folgenden drei Grunderfahrungen ermöglichen soll
+(Winter, 1995, S. 37):
+
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+        Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu verstehen,
+
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+        Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+        eigener Art kennen zu lernen und zu begreifen,
+
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die
+        Mathematik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert eine Orientierung für Lehrpersonen und
+Schulen zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Orientierung bedeutet insbesondere, dass im Vordergrund
+nicht die Umsetzung eines – aus der fachlichen Systematik entstehenden – „starren Gerüsts“
+steht, sondern dass Schulen ein großer „Freiraum für die innerschulische Lernplanung“ (ebd.,
+S. 9) gelassen wird. Es werden in diesem Modell zunächst die folgenden drei Dimensionen
+unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+
+   2. Leitideen
+
+   3. Anforderungsbereiche
+
+
+
+
+                                             4
+                     Anforderungsbereich III
+
+
+
+                     Anforderungsbereich II
+
+
+
+                     Anforderungsbereich I
+
+                                                                        Leitideen
+                                                  L5   Daten und Zufall
+                                                L4     Funktionaler Zusammenhang
+                                              L3       Raum und Form
+                                            L2         Messen
+                                          L1           Zahl
+       K1   K2    K3    K4   K5    K6
+
+                             Mathematisch kommunizieren
+                       Mit symbolischen, formalen und technischen
+                       Elementen der Mathematik umgehen
+                   Mathematische Darstellungen verwenden
+              Mathematisch modellieren                      Allgemeine
+         Probleme mathematisch lösen                        mathematische
+                                                            Kompetenzen
+     Mathematisch argumentieren
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+Die allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den
+Kompetenzen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“
+(Leiss & Blum, 2010, S. 33). Im Einzelnen sind dies die Kompetenzen mathematisch
+argumentieren (K1), Probleme mathematisch lösen (K2), mathematisch modellieren (K3),
+mathematische Darstellungen verwenden (K4), mit symbolischen, formalen und technischen
+Elementen der Mathematik umgehen (K5) und mathematisch kommunizieren (K6). Diese
+allgemeinen mathematischen Kompetenzen sollen differenziert betrachtet werden, auch wenn
+sie üblicherweise im Verbund erworben werden und häufig auch gemeinsam angewendet
+werden müssen. Insbesondere werden bei der Bearbeitung von komplexeren mathematischen
+Aufgaben oft mehrere dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die
+Absicht verbunden, spezifische Eigenschaften und Anforderungen von Aufgaben im
+Mathematikunterricht transparent zu machen, was eine differenziertere Planung des
+Mathematikunterrichts ermöglicht. So kann ein mathematischer Inhalt den Schüler*innen
+entlang verschiedener durchzuführender mathematischer Tätigkeiten zugänglich gemacht
+
+                                             5
+werden. Inhalte können durch die multiperspektivische und wiederholte Betrachtung eher in
+ihrer Gänze verstanden werden und mathematische Kompetenzen anhand unterschiedlichster
+Erscheinungen über den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010, S. 35). Daher bilden die
+Leitideen die zweite Dimension des Modells. Die fünf Leitideen sind Zahl (L1), Messen (L2),
+Raum und Form (L3), Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). Die fünf
+Leitideen ergeben sich vom Prinzip her, wenn Phänomene aus der Welt mit mathematischen
+Augen betrachtet werden (ebd., S. 20). In den Bildungsstandards wird dazu erläutert:
+
+          „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durchzieht ein
+          mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezogenen
+          mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem Fall eindeutig,
+          sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im inhaltlichen
+          Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im
+Lernprozess („erst kommt das Zählen, dann kommt das Messen, usw.“). Sie erlauben es,
+bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen. Leitideen
+können als fundamentale Ideen aufgefasst werden (vgl. Schwill, 1993), die im
+Mathematikunterricht auf jedem intellektuellen Niveau vermittelt werden können.
+
+Die dritte und letzte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben das
+Schwierigkeitsniveau von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert
+mathematische Kompetenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei
+in der Regel drei Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden
+Anforderungen an allgemeine Kompetenzen beschrieben,                     die zum      Reproduzieren
+unterrichtlicher Inhalte befähigen. Zum Anforderungsbereich II zählen solche Anforderungen
+an allgemeine Kompetenzen, die es Schüler*innen ermöglichen, Zusammenhänge
+herzustellen und Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen
+Anforderungen, die es Schüler*innen abverlangen zu verallgemeinern und zu reflektieren
+(ebd.).
+
+Die drei Bestandteile des Kompetenzmodells stellen gleichwertige Dimensionen der
+Bildungsstandards dar. Im Folgenden werden exemplarisch ein Aspekt der Leitidee Messen
+sowie ein Aspekt der Leitidee Funktionaler Zusammenhang herausgegriffen und erläutert.
+Eine Orientierung des Mathematikunterrichts an den allgemeinen mathematischen
+Kompetenzen – also der Prozessdimension des Kompetenzmodells – ist eine maßgebliche
+Errungenschaft der Bildungsstandards, die auch bei exemplarischer Betrachtung einzelner
+Leitideen nicht in den Hintergrund geraten sollte.
+
+
+                                                   6
+3 Die Leitidee Messen
+
+In den Bildungsstandards im Fach Mathematik für den mittleren Schulabschluss werden unter
+der Leitidee Messen die folgenden inhaltsbezogenen Kompetenzen zusammengefasst (KMK,
+2004):
+
+Die Schüler*innen
+
+   •     nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und
+         Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,
+   •     wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse,
+         Geld, Länge, Fläche, Volumen und Winkel),
+   •     schätzen Größen mit Hilfe von Vorstellungen über geeignete Repräsentanten,
+   •     berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus
+         zusammengesetzten Figuren,
+   •     berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und
+         Kugel sowie daraus zusammengesetzten Körpern,
+   •     berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung von
+         trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen,
+   •     nehmen in ihrer Umwelt gezielt Messungen vor, entnehmen Maßangaben aus
+         Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse
+         sowie den gewählten Weg in Bezug auf die Sachsituation.
+In den Bildungsstandards Mathematik für den Hauptschulabschluss (KMK, 2005) finden sich
+viele der genannten Aspekte wieder. Dabei werden jedoch einige Einschränkungen
+vorgenommen. Es entfallen Volumen- und Oberflächenbestimmung von Kegel und Kugel,
+sowie die Bestimmung von Streckenlängen und Winkelgrößen auch unter Nutzung der
+Trigonometrie. In beiden Varianten der Bildungsstandards wird im Bereich Messen der
+Umweltbezug besonders hervorgehoben, sei es bei der situationsangemessenen Auswahl von
+Einheiten, der Größenschätzung, dem Entnehmen von Maßangaben aus Quellenmaterial oder
+dem Bewerten von Ergebnissen im Kontext einer Sachsituation.
+
+Dass gerade dieser Bezug zu realen Objekten in der Leitidee eine besondere Stellung
+einnimmt, liegt auch an der grundlegenden Definition des Messens. Im Allgemeinen geht es
+beim Messen darum, quantitative Aussagen über bestimmte Eigenschaften eines Objektes zu
+treffen. Demnach wird die Welt der uns umgebenden Phänomene – der Gegenstände,
+Vorgänge und Zustände – durch das Messen in die strukturierte Welt der Zahlen übertragbar
+(Vohns, 2012). Um eine solche Eigenschaft genauer zu erfassen – etwa um verschiedene
+reale Objekte hinsichtlich dieser Eigenschaft zu vergleichen – macht man sich mathematische
+Größen (Länge, Masse, Zeit, Geldbetrag, Fläche, usw.) zunutze (Greefrath, 2010). Messen zu
+erlernen meint also stets auch das Kennen- und Anwenden-Lernen unterschiedlicher Größen.
+Dabei sind Größen nicht als natürliche Eigenschaft eines Objektes zu verstehen, sondern
+vielmehr als die Möglichkeit, den Objekten der Wirklichkeit in verschiedener Weise, z. B.
+
+                                             7
+hinsichtlich ihres Volumens oder ihrer Masse, einen abstrakten Wert der Mathematik
+zuzuordnen, der sich ähnlich wie eine Zahl verhält (Barzel & Leuders, 2014). Messgrößen sind
+dabei im Allgemeinen aus einer Maßzahl und einer standardisierten Maßeinheit wie etwa
+Meter, Liter oder Quadratmeter zusammengesetzt.
+
+Eine grundsätzliche Vorgehensweise für die zahlenmäßige Erfassung einer Eigenschaft eines
+Objektes ist es, sich ein passendes Vergleichsobjekt mit bekannter Maßeinheit zu wählen und
+mit dem Objekt zu vergleichen. Dieses Prinzip des Messens greift auf die Grundvorstellung
+des „Passen in“ zurück (Barzel & Leuders, 2014). Wenn beispielsweise die Maße einer
+Schreibtischplatte ermittelt werden sollen, kann man sich fragen, wie oft ein Vergleichsobjekt
+bekannter Größe (etwa ein DIN A4-Blatt) in die Länge bzw. Breite des Schreibtisches passt.
+Messen kann demnach als Auslegen einer Maßeinheit verstanden werden.
+
+Daher spielt beim Messen oft auch das Schätzen von Größenangaben eine wichtige Rolle,
+insbesondere zur Überprüfung der Plausibilität gefundener Resultate – oder bei so genannten
+unterbestimmten Aufgaben, bei denen gewisse Angaben nicht dem Aufgabentext zu
+entnehmen sind. Um im Laufe der Schulzeit geeignete Vorstellungen zu Messgrößen zu
+entwickeln, ist der Aufbau von Stützpunktvorstellungen von großer Bedeutung. Mögliche
+Repräsentanten bezüglich des Stützpunktwissens zur Größe Volumen sind beispielsweise das
+Fassungsvermögen einer Badewanne (ca. 140 l) oder eines üblichen Putzeimers (ca. 10 l).
+Für eine Vorstellung von Flächeninhalten kann beispielsweise das Wissen über die Größe
+einer Seitentafel (1 m2) oder eines Fußballfeldes (ca. 105 m ∙ 68 m ≈ 7000 m2) dienen.
+
+
+3.1 Schwerpunktthema: Modellieren
+Insbesondere bei der Bearbeitung von Modellierungsaufgaben sind das Schätzen sowie der
+Rückgriff auf verfügbares Stützpunktwissen in verschiedenen Teilprozessen unerlässlich.
+Modellieren meint das Erfassen von Phänomenen der realen Welt mithilfe der Mathematik und
+ist Teil der sechs allgemeinen mathematischen Kompetenzen (K1 – K6) der Bildungs-
+standards für das Fach Mathematik. Modellierungsaufgaben zeichnen sich nicht nur durch
+ihren zwingend vorhandenen Realitätsbezug aus, sondern auch durch eine Vielzahl von
+Teilschritten, die zu ihrer Lösung ausgeführt werden müssen (Kaiser et al., 2015). Eine
+schematische Darstellung eines Modellierungsprozesses stellt der vierschrittige Kreislauf nach
+Maaß (2004) in Abbildung 2 dar.
+
+
+
+
+                                              8
+                            vereinfachen
+         Realität                                      Realmodell
+
+
+
+                                                                mathematisch
+ bewerten
+                                                                darstellen
+
+
+      Mathematische             lösen              Mathematisches
+         Lösung                                        Modell
+
+
+Abbildung 2: Modellierungskreislauf nach Maaß (2004)
+
+Der Kreislauf beginnt oben links damit, dass Schüler*innen zunächst die gegebene
+realweltliche Situation verstehen und erkennen, worin das zu lösende Problem genau besteht.
+Da die Situation in der Realität in der Regel zu komplex ist, um sie vollständig bei der Lösung
+zu berücksichtigen, muss sie in einem ersten Schritt vereinfacht werden (Kaiser et al., 2015).
+Dazu ist es nicht nur erforderlich, Texte zu erfassen, sondern auch Kreativität und
+Allgemeinwissen     sind    gefordert,     um     zu    entscheiden,    welche     Annahmen    und
+Vernachlässigungen sinnvoll sind. Durch diesen ersten Schritt entsteht eine vereinfachte
+Abbildung der Realsituation, das so genannte Realmodell. Dieses Realmodell kann im zweiten
+Schritt mathematisiert, d. h. in die Sprache der Mathematik übersetzt werden. Übersetzen
+meint in diesem Fall das Darstellen notwendiger Elemente der Realsituation durch
+mathematische Objekte. Diese Objekte können je nach Problemverständnis ganz
+unterschiedlicher Art sein, etwa Formeln, Terme, Gleichungen oder auch geometrische
+Figuren. Mithilfe der gewählten Objekte kann dann unter Rückgriff auf formale mathematische
+Operationen gearbeitet und die Aufgabe gelöst werden. „Gelöst“ meint aber nicht zwingend,
+dass die Bearbeitung der Modellierungsaufgabe mit dem Finden eines mathematischen
+Ergebnisses oder dem Notieren eines Antwortsatzes beendet ist. Elementarer Bestandteil der
+Kompetenz     des   Modellierens     ist    das    kritische     Hinterfragen    eines   gefundenen
+Ergebnisses – zumal es bei Modellierungsaufgaben bisweilen nicht nur ein richtiges Ergebnis
+gibt, da es von den zuvor getroffenen Entscheidungen abhängen kann. Die Reflexion kann
+sich auf unterschiedliche Aspekte beziehen. So müssen Schüler*innen darauf achten, dass
+sie   eine   geeignete     Einheit   verwendet         haben,    Plausibilitätsüberlegungen   durch
+Überschlagsrechnungen oder Vergleiche mit bekannten Größen anstellen, oder aber die
+gewählten mathematischen Objekte überdenken. Dies kann auch zum Verwerfen der
+bisherigen Lösung und zu einem erneuten Durchlauf des Kreislaufs führen, wenn die
+Lernenden feststellen, dass ein Ergebnis nicht exakt genug ist, oder ein Modell zu grob oder
+gar falsch gewesen ist. Ziel der Modellierung ist es, eine adäquate Antwort auf die
+                                                  9
+Fragestellung innerhalb des realen Kontextes zu finden. Dabei geht es nicht ausschließlich
+darum, überhaupt eine Antwort zu finden, sondern darum, die Modellierung so oft zu
+verbessern, bis das Ergebnis im realen Kontext plausibel und angemessen genau erscheint
+(Blum, 2007).
+
+
+3.2 Modellieren im Bereich Messen
+Es gibt viele Modellierungsaufgaben, die insbesondere Wissen über Inhalte aus dem Bereich
+Messen erfordern. Dies soll anhand einer Modellierungsaufgabe mit aktuellem Bezug
+veranschaulicht werden: Vor einiger Zeit brannte die Kathedrale Notre-Dame in Paris. Seitdem
+wurden einige Vorschläge gemacht, wie die Kirche wiederaufgebaut werden könnte.
+
+
+
+
+Abbildung 3: Modellierungsproblem Notre-Dame
+
+Ein besonders innovativer Vorschlag stammt von dem schwedischen Architekturbüro UMA.
+Dieses schlug vor, das Dach der Kathedrale durch einen Swimming-Pool zu ersetzen 1.
+Abbildung 3 zeigt eine entsprechende Fotomontage des Architekturbüros. Aus diesem Bild
+können sich interessante Fragestellungen ergeben, etwa „Wie groß ist dieser Pool?“, oder
+auch (etwas schwieriger) „Wie viel Wasser fasst der Pool?“. Solche Fragestellungen können
+von der Lehrperson vorgegeben oder von der Lerngruppe entwickelt werden.
+
+
+
+
+1 Vgl. die Meldung der FAZ vom 14.06.2019 „Ein Schwimmbad auf dem Dach – Wiederaufbau der
+
+Notre-Dame“ (https://www.faz.net/aktuell/gesellschaft/ungluecke/ausgefallene-ideen-fuer-den-
+wiederaufbau-der-notre-dame-16235199.html)
+                                               10
+                                         3m
+
+
+
+Abbildung 4: Modellierungsproblem Notre-Dame – Referenzgröße Statue
+
+Mit Blick auf die Fläche des Pools soll nun also durch eine Modellrechnung ein Flächenmaß
+bestimmt werden. Dazu ist es zunächst nötig, bestimmte Annahmen zu treffen. In diesem Fall
+ist insbesondere die Entnahme bzw. das Schätzen von Größen zentral. Als Referenzgröße
+zum Abschätzen der Längen des Poolrandes können beispielsweise die Statuen am Rand
+genutzt werden. Diese sind etwa drei Meter groß (siehe Abbildung 4). Diese Information kann
+man entweder wissen, im Internet recherchieren oder durch Vergleich mit den im Pool
+befindlichen Personen ableiten. Da es nur um eine Abschätzung geht, sind die
+zentimetergenauen Maße nicht notwendig. Die Höhe der Statuen kann dann genutzt werden,
+um die Seitenlängen des Pools abzuschätzen. Nutzt man das mathematische Modell aus
+Abbildung 5, so lässt sich die Figur in drei Rechtecke, zwei davon gleich groß, sowie einen
+Halbkreis zerlegen.
+
+              12 m
+
+
+
+                      27 m
+
+
+    12 m               12 m
+                               9m
+
+
+
+                      15 m
+
+
+
+
+Abbildung 5: Modellierungsproblem Notre-Dame – Mathematisches Modell
+
+
+                                            11
+Für die Gesamtfläche ergibt sich die folgende Gleichung:
+
+                 12 m ∙ 27 m + 2 ∙ 12 m ∙ 9 m + 0,5 ∙ (6 m)2 ∙ π ≈ 596,55 m2
+
+Die Poolfläche würde also ca. 600 m2 betragen. Es stellt sich die Frage, ob dieses Ergebnis
+plausibel erscheint. Insgesamt verfügt die Notre-Dame über eine Grundfläche von 4800 m2.
+Die gesuchte Fläche entspricht also in etwa einem Achtel der Bodenfläche, dies erscheint auf
+den ersten Blick recht passend. Ein 50 m langes und 25 m breites Schwimmbecken, wie es
+beispielsweise bei olympischen Spielen benutzt wird, hat einen Flächeninhalt von 1250 m2
+und wäre also ungefähr doppelt so groß. Vergleicht man die gesuchte Fläche grafisch mit der
+Fläche eines Schwimmbeckens (siehe Abbildung 6), erscheint dieses Ergebnis plausibel.
+
+
+
+
+Abbildung 6: Modellierungsproblem Notre-Dame – Plausibilitätsprüfung
+
+Diese Aufgabe stellt einige Anforderungen an die Schüler*innen und ist insbesondere durch
+die fehlenden Maßangaben sehr offen. In Bezug auf ihre Offenheit lässt sich diese Aufgabe
+durchaus mit Fermi-Aufgaben vergleichen. Sie eignet sich für den unterrichtlichen Einsatz, da
+mit ihr verdeutlicht werden kann, wie sich mathematische Größen aus realen Gegebenheiten
+ableiten lassen. Sie birgt aber aufgrund ihrer deutlichen Offenheit Schwierigkeiten für
+standardisierte Erhebungen wie etwa VERA-8, insbesondere in Bezug auf die Eingrenzung
+eines realistischen Lösungsintervalls, um eine verlässliche Kodierung sicherzustellen. Wie zur
+Kompetenzmessung im Bereich Modellieren geeignete Aufgaben aussehen können, illustriert
+der folgende Abschnitt.
+
+
+
+
+                                              12
+3.3 Modellieren im Bereich Messen in den VERA-8 Erhebungen
+Die oben erläuterten Fähigkeiten im Bereich des Modellierens innerhalb der Leitidee Messen
+werden auch in den VERA-8 Erhebungen geprüft. Dies wird im Folgenden anhand der beiden
+Aufgaben „Rollrasen“ und „Krawatte“ erläutert.
+
+Die Aufgabe „Rollrasen“ (siehe Beispielaufgabe 1), die dem Anforderungsbereich II
+zuzuordnen ist, thematisiert die Modellierung einer mit Rollrasen zu versehenden Fläche:
+
+Beispielaufgabe 1: „Rollrasen"
+
+
+ Herr Klie hat eine Gartenbaufirma und gestaltet einen Teil seines Firmengeländes in eine
+ Rasenfläche um. Diese neue Rasenfläche ist 11 m lang und 10,5 m breit.
+ Aus Zeitgründen verwendet Herr Klie Rollrasen (siehe Fotos 1 und 2). Als Rollrasen bezeich-
+ net man fertigen Rasen, der in rechteckige Stücke geschnitten und dann zum Transport
+ aufgerollt wird.
+
+
+
+
+             Foto 1                                 Foto 2
+
+ Ein Streifen Rollrasen ist 0,6 m breit, 0,03 m dick und 2 m lang.
+ Ermittle, wie viele Streifen Herr Klie benötigt, um die gesamte Rasenfläche mit Rollrasen
+ auszulegen. Reststücke eines Streifens werden weiterverarbeitet.
+
+Bei dieser Aufgabe spielen Flächenberechnungen in einem realen Kontext eine Rolle. Es sind
+Eigenschaften realer Objekte (hier: des Rollrasens und der Gesamtfläche) in Form der Größe
+Länge angegeben. Damit unterscheidet sich diese Aufgabe in Bezug auf ihre Offenheit von
+der obigen Notre-Dame-Aufgabe. Dies hat den Vorteil, dass ein weniger breites
+Lösungsintervall bestimmt werden kann und so die Aufgabe leichter zu bewerten ist. Anhand
+der gegebenen Maße müssen ein Maß für den Flächeninhalt eines Streifens sowie die Anzahl
+der benötigen Streifen bestimmt werden. Daraus resultiert die Zuordnung zur Leitidee Messen.
+Zunächst müssen dem Aufgabentext die wichtigen Informationen entnommen werden
+(Mathematisch Kommunizieren K6). Es muss weiterhin ein Weg gefunden werden, wie die
+Anzahl der Streifen mathematisch ermittelt werden kann (Probleme mathematisch lösen K2,
+Mathematisch Modellieren K3). Beispielsweise kann die Größe der auszulegenden Fläche
+
+                                               13
+berechnet und durch die Größe eines Rollrasenstreifens dividiert werden, da auch mögliche
+Reststücke weiterverarbeitet werden können. Eine weitere Teilaufgabe der Rollrasen-Aufgabe
+lautet wie folgt:
+
+Beispielaufgabe 2: „Rollrasen"
+
+
+ Herr Klie transportiert mehrere Streifen Rollrasen in einer Schubkarre
+ (siehe Foto 3).
+ Ermittle das Gewicht der sieben Rollen Rollrasen, die er pro Fuhre
+ transportieren kann. Ein m3 Rollrasen wiegt circa 900 kg.
+
+                          kg
+
+
+
+
+                                                                                  Foto 3
+
+In dieser Teilaufgabe können die einzelnen Streifen als Quader mit den Maßen 0,6 m, 2 m und
+0,03 m aufgefasst werden (Mathematisch Modellieren K3). Von diesen berechnet man jeweils
+das Volumen und das Gewicht. Anschließend wird das Ergebnis versiebenfacht. Beide
+Teilaufgaben gehören aufgrund der Anforderungen an das Modellieren und Problemlösen zu
+Anforderungsbereich II.
+
+Schwierigkeiten bei dieser Aufgabe können dann auftreten, wenn ein Rollrasenstreifen nicht
+als Quader modelliert, sondern als Rechteckfläche aufgefasst wird. Es würde somit der
+berechnete Flächeninhalt weiterverwendet werden, um das Gewicht eines Rollrasenstreifens
+zu bestimmen. Somit überprüft diese Aufgabe auch, ob Schüler*innen Vorstellungen zu
+verschiedenen Größen verknüpfen können. Sollten auf Seiten der Lernenden in diesem Fall
+Probleme auftreten, so könnte dies einer starken Orientierung am Kalkül geschuldet sein. Zur
+Bestimmung von Raum- und Flächeninhalten könnte verstärkt auf Anwendungsbeispiele aus
+der Realität gesetzt werden, um Vorstellungen von Größen mit realweltlichen Beispielen zu
+verbinden.
+
+Bei der Aufgabe „Krawatte“ (siehe Beispielaufgabe 3) handelt es sich um eine Schätzaufgabe,
+zu deren Lösung die Höhe der Skulptur mithilfe geeigneter Annahmen geschätzt werden muss.
+Eine Möglichkeit besteht darin, die Körpergröße des Menschen (im rechten Bild) zu schätzen
+und anschließend auf die Länge der Riesenkrawatte zu übertragen. Anhand des linken Bildes
+ist zu erkennen, dass der Mann etwa drei- bis fünfmal so lang wie die Krawatte ist, die er trägt.
+Über dieses Verhältnis lässt sich dann die Körpergröße des ‚Riesenmenschen‘ ermitteln. Bei
+dieser Aufgabe müssen die Schüler*innen angemessen schätzen (Mathematisch Modellieren
+K3) und mit Verhältnissen und Faktoren korrekt umgehen (Mit symbolischen, formalen und
+technischen Elementen der Mathematik umgehen K5).
+                                               14
+Beispielaufgabe 3: „Krawatte“
+
+Viele Bankangestellte tragen eine Krawatte (siehe Abbildung 1).
+
+
+
+
+  Abbildung 1                   Abbildung 2
+Abbildung 2 zeigt ein Kunstwerk im Bankenviertel von Frankfurt am Main. Es stellt
+eine Krawatte dar. Die Krawatte sieht aus, als ließe der Wind sie nach oben flattern.
+Wie groß wäre ein Mann ungefähr, der diese Riesenkrawatte trägt?
+
+   ungefähr                 m
+Notiere deine Annahmen und deinen Lösungsweg.
+Das Lösungsintervall ist relativ breit gewählt, damit im Erwartungshorizont verschiedene
+Schätzungen einbezogen werden können. So werden Körpergrößen zwischen 30 m und 70 m
+als richtig kodiert. Dabei muss der Lösungsweg zusätzlich eine angemessene Modellierung
+erkennen lassen, bei der mithilfe einer Vergleichsgröße und eines entsprechenden Faktors ein
+(impliziter) Bezug zur Länge der Skulptur hergestellt wird. Wünschenswert – im Sinne einer
+adäquateren Modellierung – wäre zudem, wenn in der Lösung der Knick in der Krawatte
+mitberücksichtigt würde. In der Testsituation ist dies jedoch nicht notwendig, da aus
+diagnostischer Sicht Schüler*innen die benötigten Kompetenzen auch bei Vernachlässigung
+des Knicks nachgewiesen haben.
+
+
+
+
+                                            15
+4 Die Leitidee Funktionaler Zusammenhang
+
+In den Bildungsstandards im Fach Mathematik für den mittleren Schulabschluss werden unter
+der Leitidee Funktionaler Zusammenhang die folgenden, inhaltsbezogenen Kompetenzen
+zusammengefasst (KMK, 2004):
+
+Die Schüler*innen
+
+   •   nutzen Funktionen als Mittel zur Beschreibung quantitativer Zusammenhänge,
+   •   erkennen und beschreiben funktionale Zusammenhänge und stellen diese in
+       sprachlicher, tabellarischer oder graphischer Form sowie gegebenenfalls als Term dar,
+   •   analysieren, interpretieren und vergleichen unterschiedliche Darstellungen funktionaler
+       Zusammenhänge (wie lineare, proportionale und antiproportionale),
+   •   lösen realitätsnahe Probleme im Zusammenhang mit linearen, proportionalen und
+       antiproportionalen Zuordnungen,
+   •   interpretieren lineare Gleichungssysteme graphisch,
+   •   lösen Gleichungen und lineare Gleichungssysteme kalkülmäßig bzw. algorithmisch,
+       auch unter Einsatz geeigneter Software, und vergleichen ggf. die Effektivität ihres
+       Vorgehens mit anderen Lösungsverfahren (wie mit inhaltlichem Lösen oder Lösen
+       durch systematisches Probieren),
+   •   untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von linearen und
+       quadratischen Gleichungen sowie linearen Gleichungssystemen und formulieren
+       diesbezüglich Aussagen,
+   •   bestimmen kennzeichnende Merkmale von Funktionen und stellen Beziehungen
+       zwischen Funktionsterm und Graph her,
+   •   wenden       insbesondere      lineare   und     quadratische     Funktionen     sowie
+       Exponentialfunktionen bei der Beschreibung und Bearbeitung von Problemen an,
+   •   verwenden die Sinusfunktion zur Beschreibung von periodischen Vorgängen,
+   •   beschreiben Veränderungen von Größen mittels Funktionen, auch unter Verwendung
+       eines Tabellenkalkulationsprogramms,
+   •   geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion
+       beschrieben werden können.
+Auch in den Bildungsstandards für den Hauptschulabschluss (KMK, 2005) finden sich die
+aufgeführten inhaltsbezogenen Kompetenzen wieder, wobei prozentualem Wachstum und
+Maßstäben in den Bildungsstandards für den Hauptschulabschluss eine größere Bedeutung
+zugeschrieben wird. Insbesondere lineare Gleichungssysteme, quadratische Funktionen,
+Exponentialfunktionen sowie periodische Vorgänge sind in den Bildungsstandards für den
+Hauptschulabschluss nicht aufgeführt. Da ebendiese inhaltsbezogenen Kompetenzen keinen
+Bestandteil der VERA-8 Erhebung darstellen, beinhalten die Bildungsstandards beider
+Abschlüsse für den Lernstand der Jahrgangsstufe 8 im Wesentlichen die gleichen
+inhaltsbezogenen Kompetenzen.
+
+Funktionale Zusammenhänge sind allgegenwärtig, z. B. die Entfernung beim Busfahren, die in
+einer bestimmten Zeit zurückgelegt wird, oder der Einkaufspreis beim Bäcker in Abhängigkeit
+
+                                             16
+von der Anzahl der Brötchen. Immer dann, wenn „eine Größe von einer anderen Größe
+abhängt“ (Greefrath et al., 2016, S. 36), kommen wir auf natürliche Weise in Kontakt damit.
+Bereits in der Grundschule werden erste funktionale Denkweisen vermittelt (Vollrath, 1989).
+Die Bildungsstandards im Fach Mathematik für den Primarbereich (KMK, 2005b) beschreiben
+in dieser Hinsicht die Leitidee Muster und Strukturen, an die sich in der Sekundarstufe I unter
+anderem die Leitidee Funktionaler Zusammenhang anschließt. In der Primarstufe stehen unter
+anderem die Fähigkeiten im Fokus, funktionale Beziehungen in Sachsituationen zu erkennen,
+sprachlich zu beschreiben und in Tabellen darzustellen. In der Sekundarstufe I werden daran
+anknüpfend das kartesische Koordinatensystem und Variablen eingeführt und funktionale
+Zusammenhänge auch mithilfe von Termen und Funktionsgraphen dargestellt. Eine
+besondere Bedeutung wird der Verwendung von und dem Wechsel zwischen verbal-
+situativen, tabellarischen, graphischen und algebraischen Darstellungsformen beigemessen.
+Dies wird im Folgenden als Schwerpunkt behandelt. Dazu werden zunächst unterschiedliche
+Grundvorstellungen zu Funktionen erläutert, um darauf aufbauend das Schwerpunktthema
+dieses Kapitels Graphen im Rahmen von Darstellungsformen und Darstellungswechseln aus
+theoretischer Perspektive sowie anhand von Aufgaben aus der VERA-8 Erhebung zu
+präsentieren.
+
+
+4.1 Grundvorstellungen zu Funktionen
+Funktionale Zusammenhänge können auf unterschiedliche Weise dargestellt werden
+(tabellarisch, graphisch, algebraisch und sprachlich, vgl. Tabelle 1). Je nachdem welche
+Darstellungsform gewählt wird, stehen unterschiedliche inhaltliche Deutungen des Begriffs
+Funktion im Vordergrund. Bewusste Wechsel zwischen den Darstellungsformen können
+Schüler*innen dabei helfen, den Begriff Funktion mit Sinn zu versehen. Ziel ist es, dass die
+Schüler*innen        tragfähige,   inhaltliche   Deutungen   eines   Begriffes,   sogenannte
+Grundvorstellungen aufbauen (u. a. Greefrath et al., 2016; Rolfes, 2018; Vollrath, 1989; vom
+Hofe & Blum, 2016). Im Bereich der Funktionen werden in der Literatur häufig die
+Zuordnungsvorstellung, die Kovariationsvorstellung und die Objektvorstellung unterschieden
+(siehe Tabelle 1).
+
+
+
+
+                                                 17
+Tabelle 1: Grundvorstellungen von Funktionen
+
+           Zuordnung                         Kovariation                             Objekt
+
+                                   Eine Funktion beschreibt, wie sich
+                                                                          Eine Funktion beschreibt ein
+   Eine Funktion beschreibt die          die Veränderung einer
+                                                                           eigenständiges Objekt mit
+   Zuordnung einzelner Werte.        unabhängigen Größe auf eine
+                                                                          bestimmten Eigenschaften.
+                                      abhängige Größe auswirkt.
+                                                                                  f(x) = 5x + 3
+
+                                                                            f(x) ist monoton steigend
+
+                                                                          f(x) ist eine lineare Funktion
+
+                                                                         Abgebildet ist ein Quadrat, das
+                                                                           durch eine Gerade in zwei
+                                                                        kongruente Dreiecke geteilt wird.
+
+
+
+
+Fasst man eine Funktion so auf, dass sie jedem Wert einer bestimmten Größe genau einen
+Wert einer zweiten Größe zuordnet (z. B. einer Ware einen Preis, einem Zeitpunkt eine
+Geschwindigkeit etc.), so legt man die Zuordnungsvorstellung zugrunde. Da in diesem
+Zusammenhang aber meist einzelne Zuordnungen betrachtet werden, ist die Sichtweise auf
+die Funktion eher punktuell und statisch (Laakmann, 2013). In Form einer Tabelle fokussiert
+man in dieser Perspektive vor allem die Gegenüberstellung der zugeordneten Werte. An einem
+Graphen innerhalb eines Koordinatensystems wird die Zuordnungsvorstellung z. B. dadurch
+gefördert, dass betont wird, dass ein Punkt auf dem Graphen aus der Kombination eines x- und
+eines y-Wertes entsteht. Im Gegensatz zu der eher statischen Sichtweise der
+Zuordnungsvorstellung fokussiert die Kovariationsvorstellung die gemeinsame Änderung
+zweier Größen (Laakmann, 2013, S. 84), etwa beim Zusammenhang „je mehr Brötchen man
+kauft, desto höher ist der Preis“. Untersucht werden hierbei nicht lokale Punkte, wie bei der
+Zuordnungsvorstellung, sondern „regionale“ Veränderungen. Die dritte Grundvorstellung ist
+die Objektvorstellung. Insbesondere in höheren Jahrgangsstufen der Sekundarstufe I wird
+eine Funktion auch als „ein einziges Objekt, das einen Zusammenhang als Ganzes darstellt“
+(Greefrath et al., 2016, S. 49) aufgefasst. Objekten können Eigenschaften zugeschrieben
+werden – bei     Funktionen       etwa   Monotonie,        Symmetrie     und     Proportionalität.         Die
+Objektvorstellung steht auch dann im Vordergrund, wenn Funktionsterme vervielfacht oder
+Funktionsgraphen gespiegelt werden und so mit ihnen als Objekten operiert wird.
+                                          18
+Die   Grundvorstellungen            von   Funktionen       können   prinzipiell    in   allen   benannten
+Darstellungsformen deutlich gemacht werden. Jedoch bieten sich einige Darstellungsformen
+zur Verdeutlichung gewisser Grundvorstellungen besonders an. Für ein Verständnis von
+Funktionen      ist    eine    umfassende       Auseinandersetzung          mit   den   unterschiedlichen
+Darstellungsformen und damit auch den Grundvorstellungen nötig. Um mit unterschiedlichen
+Problemsituationen umgehen zu können, ist die Fähigkeit erforderlich, flexibel zwischen
+Darstellungsformen wechseln zu können. Da Schüler*innen gerade solche Wechsel
+Schwierigkeiten bereiten (Nitsch, 2015), sollten diese im Unterricht besonders intensiv
+betrachtet werden. Daher sind die Schwerpunkte der diesjährigen VERA-8 Erhebung der
+Umgang mit Darstellungsformen und der Wechsel zwischen ihnen mit Fokus auf Graphen.
+
+
+4.2 Schwerpunktthema: Graphen
+Zur Erlangung eines vertieften Verständnisses von funktionalen Zusammenhängen sind beim
+Darstellungswechsel sowohl die Darstellungsformen, zwischen denen gewechselt wird, als
+auch die Richtung des Wechsels von Bedeutung, da Darstellungswechsel richtungsabhängig
+sind. So konnte gezeigt werden, dass ein Darstellungswechsel von einer Gleichung zu einer
+graphischen Darstellung andere Fähigkeiten erfordert, als der umgekehrte Wechsel von einem
+Graphen zu einer Gleichung (Janvier, 1987). Die folgende Tabelle gibt einen Überblick über
+Tätigkeiten beim Darstellungswechsel zwischen verschiedenen Darstellungsformen.
+
+Tabelle 2: Beispiele für Tätigkeiten beim Darstellungswechsel zwischen Darstellungsformen
+
+            nach
+                      verbal / situativ      graphisch         tabellarisch             algebraisch
+von
+                                                                                        entnehmen,
+verbal / situativ      umformulieren         skizzieren        Werte finden
+                                                                                   algebraisch ermitteln
+
+                                          Achsenskalierung       ablesen,         annähern, entnehmen,
+graphisch              interpretieren
+                                              ändern            eintragen          algebraisch ermitteln
+
+                           lesen,             Punkte          weitere Werte       annähern, entnehmen,
+tabellarisch
+                       interpretieren       einzeichnen         ermitteln          algebraisch ermitteln
+
+                          Formeln
+                       interpretieren        skizzieren,
+algebraisch                                                     berechnen          algebraisch umformen
+                      (z. B. Bedeutung       abtragen
+                      der Steigung m)
+
+
+Tabelle 2 macht deutlich, dass sogar Wechsel innerhalb einer Darstellungsform möglich sind.
+Beispielsweise ist der Wechsel zwischen einer graphischen Darstellungsform zu einer anderen
+sinnvoll, wenn Zwischenwerte besser erkennbar gemacht oder Prognosen über den Verlauf
+von Graphen angestellt werden sollen.
+                                                      19
+Diese – wie auch die anderen, beschriebenen – Tätigkeiten können dabei als Lernziele
+verstanden werden, die mit der Erlangung allgemeiner mathematischer Kompetenzen
+einhergehen können. Für einen Darstellungswechsel sind immer auch Kompetenzen
+erforderlich. Aufgaben zu Funktionalen Zusammenhängen (L4) und Graphen treffen im
+Wesentlichen den Kern der Kompetenz Mathematische Darstellungen verwenden (K4). Hierzu
+gehören unter anderem:
+
+   •    verschiedene Formen der Darstellung von mathematischen Objekten und Situationen
+        anwenden, interpretieren und unterscheiden,
+   •    Beziehungen zwischen Darstellungsformen erkennen,
+   •    unterschiedliche Darstellungsformen je nach Situation und Zweck auswählen und
+        zwischen ihnen wechseln. (KMK, 2004, S. 8)
+
+Es wird unmittelbar ersichtlich, dass sich diese Kompetenzen in den Tätigkeiten beim
+Darstellungswechsel (siehe Tabelle 2) wiederfinden lassen. Dennoch können solche Aufgaben
+neben    K4   (Mathematische    Darstellungen         verwenden)   noch   andere   Kompetenzen
+(schwerpunktmäßig) beinhalten, wie die Kategorisierungen der einzelnen Aufgaben im Teil III
+der didaktischen Handreichungen und die folgenden Ausführungen zeigen.
+
+
+4.3 Graphen in den VERA-8 Erhebungen
+Seit dem Jahr 2020 werden in den VERA-8 Erhebungen Schwerpunkte in Form von
+Ergänzungsmodulen gesetzt. Ziel ist es, vertiefende Diagnosen am Beispiel zentraler Inhalte
+zu ermöglichen und so Unterrichtsentwicklung nicht nur in der Breite, sondern auch in der Tiefe
+voranzutreiben. Dafür sei auch auf Teil III der didaktischen Handreichungen und die
+dazugehörigen Aufgabenkommentare verwiesen. Im Folgenden werden Aufgaben aus
+vergangenen VERA-8 Erhebungen dargestellt, die Tätigkeiten aus Tabelle 2 ansprechen.
+Dazu wird der Fokus der Analyse auch auf die dabei benötigten Kompetenzen gelegt. Somit
+kann    aufgezeigt   werden,   inwiefern   die    Aufgabenformulierung      beeinflusst,   welche
+Kompetenzen in der Erhebung geprüft oder im Mathematikunterricht gefördert werden können.
+
+Darstellungswechsel: verbal / situativ ↔ graphisch
+
+In der Aufgabe Geschichte zur Graphik (siehe Beispielaufgabe 4) ordnen die Schüler*innen
+einem Graphen eine passende, verbale Situation zu (graphisch → verbal / situativ).
+
+
+
+
+                                                 20
+Beispielaufgabe 4: „Geschichte zur Grafik“
+
+
+      Strecke in km
+
+
+
+
+          0                                                 Zeit in Stunden
+
+
+
+ Eine der folgenden Beschreibungen wurde hier graphisch dargestellt.
+ Kreuze die Beschreibung an, die zu der Graphik passt.
+
+                      Paula und Sepp machen eine Bergtour. Zuerst steigt der
+                      Weg nur wenig an und die beiden kommen gut voran. Dann
+                      ist der Weg eine Zeit lang eben. Zum Schluss ist der Weg bis
+                      zum Gipfel ziemlich steil und Paula und Sepp kommen nur
+                      langsam voran.
+
+                      Herr Heuer kauft Aktien. Zuerst steigt der Wert der Aktien.
+                      Dann bleibt er eine Zeit lang konstant. Schließlich steigt der
+                      Wert steil an und Herr Heuer könnte die Aktien mit Gewinn
+                      verkaufen.
+
+
+                      Lisa und Sven machen eine Radtour. Nach einiger Zeit hat
+                      Sven eine Panne und sie müssen sein Rad reparieren. Für
+                      den Rest der Strecke fahren beide mit höherer
+                      Geschwindigkeit, um die versäumte Zeit aufzuholen.
+
+                      Lars ist auf dem Weg zur Schule. Unterwegs fällt ihm ein,
+                      dass er seinen Taschenrechner vergessen hat, den er für die
+                      Mathearbeit braucht. Er läuft zurück nach Hause, nimmt den
+                      Taschenrechner und muss sich jetzt beeilen, um pünktlich
+                      zur Schule zu kommen.
+
+Neben der Verwendung einer mathematischen Darstellung (K4) kommt in dieser Aufgabe die
+Kompetenz Kommunizieren (K6) zum Tragen, denn mathematikhaltige Grafiken und Texte
+müssen sinnentnehmend erfasst und in Bezug zueinander gesetzt werden. Außerdem wird
+hier mathematisch modelliert (K3), da eine Situation (Sven hat eine Panne und muss sein Rad
+reparieren) in mathematische Strukturen (der Graph verläuft parallel zur x-Achse) übersetzt
+werden muss. Zur vertieften Förderung der Kompetenz Kommunizieren (K6) könnten die
+
+                                                21
+Schüler*innen im Unterricht dazu aufgefordert werden, zu einem gegebenen Graphen eine
+eigene Geschichte zu erzählen und die Geschichte anschließend von einer Mitschülerin bzw.
+einem Mitschüler zurückübersetzen zu lassen. Letzteres stellt eine Umkehrung der Tätigkeit
+dar (verbal / situativ → graphisch).
+
+Darstellungswechsel: tabellarisch ↔ graphisch
+
+Bei der Aufgabe „Vier lineare Funktionen“ (siehe Beispielaufgabe 5) entnehmen die
+Schüler*innen      dem   Graphen    Informationen   und    tragen         sie   in   die   Tabelle   ein
+(graphisch → tabellarisch).
+Beispielaufgabe 5: „Vier lineare Funktionen“
+
+Der Graph der folgenden Funktion setzt sich aus vier linearen Funktionen zusammen.
+   y
+
+   6
+
+   5
+
+   4
+
+   3
+
+   2
+
+   1
+
+   0
+        0    1     2     3    4        5   6   7    8       9        10         x
+
+Ergänze die fehlenden Lücken in der Tabelle.
+
+       Abschnitt   0<X<3                                8 < X < 10
+
+       Steigung                                2
+
+Dabei entnehmen sie der Grafik nicht nur Punkte wie bei der Zuordnungsvorstellung, sondern
+Steigungen im Sinne der Kovariationsvorstellung. Vordergründig müssen die Schüler*innen
+die Beziehungen zwischen den beiden Darstellungsformen erkennen und zwischen ihnen
+wechseln können. Daher ist die Aufgabe der Kompetenz mathematische Darstellungen
+verwenden (K4) zuzuordnen. Auch die umgekehrte Tätigkeit (tabellarisch → graphisch)
+erfordert diese Kompetenz. Dazu kann die ausgefüllte Tabelle vorgegeben werden und die
+Schüler*innen zeichnen den entsprechenden Funktionsgraphen in ein Koordinatensystem ein.
+
+
+
+                                               22
+Darstellungswechsel: algebraisch ↔ graphisch
+
+Die Aufgabe „Gerade einzeichnen“ (siehe Beispielaufgabe 6) stellt eine Aufgabe einfachen
+Anforderungsniveaus dar, in der aus einer vertrauten, symbolischen Darstellung eine
+zeichnerische Darstellung angefertigt werden soll (algebraisch → graphisch), sodass hier im
+Wesentlichen die Kompetenz mathematische Darstellungen verwenden (K4) erforderlich ist.
+
+Beispielaufgabe 6: „Gerade einzeichnen“
+
+
+Zeichne eine Gerade mit der Gleichung y = 2x + 1 in das obige Koordinatensystem ein.
+
+Bei der Aufgabe „Güterverkehr“ (siehe Beispielaufgabe 7) entnehmen die Schüler*innen dem
+Graphen und der verbalen Beschreibung Informationen, um eine Funktionsgleichung für einen
+der Graphen aufzustellen (graphisch → algebraisch).
+
+Neben der mathematischen Darstellung (K4) gehen die Schüler*innen bei dieser Aufgabe mit
+symbolischen, formalen und technischen Elementen der Mathematik um (K5), da sie
+Faktenwissen darüber besitzen müssen, wie eine lineare Gleichung aufgebaut ist und die
+Fertigkeit besitzen müssen, eine Funktionsgleichung aus gegebenen Informationen
+aufzustellen. Zudem kann diese Aufgabe ein Problem darstellen (K2), da die Schüler*innen
+eigenständig geeignete Strategien und Hilfsmittel auswählen müssen. Die Schüler*innen
+könnten die Steigung formal mithilfe von zwei Punkten bestimmen oder aber anhand des
+Steigungsdreiecks visuell entnehmen. Hier wird ersichtlich, dass Aufgaben, in denen
+Darstellungswechsel vollzogen werden, mehr als zwei Darstellungsformen beinhalten
+können – hier etwa die verbale Beschreibung der Situation.
+
+
+
+
+                                            23
+Beispielaufgabe 7: „Güterverkehr“
+
+
+Die Abbildung stellt den Zusammenhang zwischen den Kosten einer transportierten Tonne
+Ware und der Länge des Transportweges für verschiedene Transportmittel dar.
+Die Graphen gehen auch für Transportwege über 500 km so weiter.
+                 Kosten je Tonne in €
+                                                            LKW
+
+
+
+
+     1000
+
+
+
+                                                              Bahn
+
+
+
+
+                                                          Binnenschiff
+      500
+
+
+
+
+      100                                              Länge des
+                                                  Transportweges in km
+         0
+             0          100        200   300        400        500
+
+
+
+   Gib eine Formel an, mit der sich die Kosten je Tonne (y in €) für den Transport mit
+   einem LKW aus der Länge des Transportweges (x in km) berechnen lassen.
+
+      y=
+
+
+
+
+                                             24
+Darstellungswechsel nicht vorgegeben
+
+Insbesondere Problemlöse- (K2) und Argumentationsaufgaben (K1) lassen den Wechsel der
+Darstellungsform häufig unbenannt, da er einen Teil des Problemlöseprozesses bzw. der
+Begründung darstellt, wie die folgende Aufgabe darlegt.
+
+Beispielaufgabe 8: „Punkte auf Geraden“
+
+
+ Gegeben sind die drei Punkte P1 ( 2 | 1 ), P2 ( 4 | 0 ) und P3 ( 7 | −2 ).
+ Liegen alle drei Punkte auf einer Geraden?
+
+                   Ja               Nein
+
+ Begründe deine Antwort.
+
+
+
+
+Die Aufgabe erfordert mathematisches Argumentieren (K1), denn in der Begründung des
+Lösungsweges soll der Zusammenhang zwischen zwei Darstellungen geprüft werden.
+Dadurch, dass die Darstellungsform zur Lösung der Aufgabe nicht vorgegeben ist und die
+Bearbeitung ein gewisses Repertoire an strategischen Hilfsmitteln erfordert, kann hier von
+einer Problemlöseaufgabe (K2) gesprochen werden. Die Schüler*innen können die Aufgabe
+lösen, indem sie algebraisch eine Geradengleichung mithilfe von zwei Punkten aufstellen und
+damit überprüfen, ob der dritte Punkt ebenfalls auf der Geraden liegt. Alternativ können die
+Punkte    auch     gedanklich     oder     in   tabellarischer    Form        „abgeschritten“   werden
+(Kovariationsvorstellung). Es ist ebenfalls möglich, eine Gerade im Koordinatensystem anhand
+zweier Punkte zu zeichnen und grafisch zu prüfen, ob der dritte Punkt auf dieser Geraden liegt.
+Solche Aufgaben können Schüler*innen vor Hürden stellen, da der Lösungsweg durch die
+Aufgabenstellung nicht vorgegeben wird. Sie bieten aber auch die Chance eines
+ganzheitlichen Kompetenzerwerbs. Dazu bedarf es im Unterricht der Thematisierung
+verschiedener Lösungswege (mathematisch Argumentieren K1), auch wenn ein Ansatz
+hinreichend zur Lösung der Aufgabe wäre.
+
+
+
+                                                  25
+4.4 Darstellungswechsel mit digitalen Werkzeugen
+Auch wenn Darstellungswechsel schwierig sind (Nitsch, 2015) und es für Schüler*innen
+vermutlich leichter ist, Aufgaben aus der Perspektive einer einzelnen Darstellungsform zu
+betrachten, sollen die Ausführungen unterstreichen, wie wichtig eine Vernetzung der Aspekte
+von Funktionen ist, damit im Rahmen von Problemsituationen auch komplexe funktionale
+Zusammenhänge erkannt werden können. Eine Möglichkeit, diese Aspekte funktionalen
+Denkens (Vollrath, 1989) zu vernetzen, stellen digitale Werkzeuge dar. Sie bieten den Vorteil,
+funktionale Zusammenhänge flexibel zu visualisieren, was mit händischen Mitteln nur schwer
+durchgeführt werden kann. Digitale Werkzeuge können – beispielsweise mittels Schieberegler
+(s. u.) – dabei helfen, Zusammenhänge zu entdecken und Ideen für Argumentationen und
+Problemlöseprozesse zu finden. Begriffe und deren Eigenschaften können erkundet und
+erklärt werden (Roth, 2008, 2017). Forschungsergebnisse konnten zeigen, dass im Rahmen
+funktionalen Denkens digitale Werkzeuge zu deutlich größeren Leistungszuwächsen führen
+als gegenständlich-materialbasierte Ansätze (Scheuring & Roth, 2017). Außerdem
+argumentieren Schüler*innen, die mit digitalen Werkzeugen arbeiten, häufiger mit
+Veränderungen im Sinne der Kovariationsvorstellung, während Schüler*innen, die enaktiv am
+Material arbeiten, häufiger mit Zuständen im Sinne der Zuordnungsvorstellung argumentieren
+(Roth, 2018). Um alle Grundvorstellungen zu fördern, sollte demnach sowohl mit
+gegenständlichen Materialien und als auch anhand von digitalen Werkzeugen gelernt werden
+(Roth, 2018).
+
+Abbildung 7 zeigt, wie anhand von Schiebereglern in einer dynamischen Geometriesoftware
+Zusammenhänge erkundet werden können. Das linke Fenster der Abbildung 7 zeigt die
+Funktion in symbolischer, das mittlere in graphischer und das rechte in tabellarischer
+Darstellungsform. Alle drei Darstellungen werden bei einer Veränderung eines Parameters
+mittels Schieberegler dynamisch angepasst. Dabei können mit Blick auf die drei
+Grundvorstellungen Begriffe und Eigenschaften wie Konstante, Parameter, Verschiebung,
+Scheitelpunkt usw. thematisiert werden.
+
+
+
+
+                                             26
+Abbildung 7: Zusammenhänge erkennen mithilfe eines Schiebereglers anhand verschiedener
+Darstellungsformen
+
+
+5 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Messen ist dies der Schwerpunkt Modellieren, im Bereich der Leitidee
+Funktionaler Zusammenhang der Schwerpunkt Graphen. Aus beiden Themen wurden zentrale
+Inhalte betrachtet, welche durch die Bildungsstandards vorgegeben werden. Dabei wurde auf
+besondere Hürden und Möglichkeiten sowohl beim Thema Modellieren als auch im
+Themenfeld Graphen hingewiesen. Für weitere Anregungen für die Unterrichtspraxis sei auf
+die Kommentare zu den einzelnen Aufgaben in Teil III der didaktischen Handreichungen
+verwiesen. Zudem wurde aufgezeigt, welche Aufgabenmerkmale mit welchen allgemeinen
+mathematischen Kompetenzen einhergehen. Für weitere Beispiele und Anregungen stellt die
+in den vorangegangenen Kapiteln genannte Literatur eine gute Ausgangslage dar.
+
+
+
+
+                                            27
+6 Literaturverzeichnis
+
+Barzel, B. & Leuders, T. (2014). Größen und Maße. In H. Linneweber-Lammerskitten
+   (Hrsg.), Fachdidaktik Mathematik: Grundbildung und Konmpetenzaufbau im
+   Unterricht der Sek. I und II. Klett Kallmeyer.
+Blum, W. (2007). Mathematisches Modellieren — Zu schwer für Schüler und Lehrer?
+   In E. Vásárhely (Hrsg.), Beiträge zum Mathematikunterricht (S. 3–12). Hildesheim,
+   Berlin: Franzbecker.
+Blum, W., Drüke-Noé, C., Hartung, R. & Köller, O. (2006). Bildungsstandards
+   Mathematik: Konkret — Sekundarstufe I. Berlin: Cornelsen Scriptor.
+Greefrath, G. (2010). Didaktik des Sachrechnens in der Sekundarstufe. Heidelberg:
+   Spektrum.
+Greefrath, G., Oldenburg, R., Ulm, V. Siller, H.-S. & Weigand, H.-G. (2016). Didaktik
+   der Analysis. Berlin: Springer Spektrum.
+Janvier, C. (1987). Translation process in mathematics education. In C. Janvier
+  (Hrsg.), Problems of representation in the teaching and learning of mathematics
+  (S. 27–31). Hillsdale, NJ: Lawrence Erlbaum Associates.
+Kaiser, G., Blum, W., Borromeo Ferri, R. & Greefrath, G. (2015). Anwendungen und
+  Modellieren. In R. Bruder, L. Hefendehl-Hebeker, B. Schmidt-Thieme & H.-G.
+  Weigand (Hrsg.), Handbuch der Mathematikdidaktik (S. 357–383). Berlin,
+  Heidelberg: Springer.
+Klieme, E., Avenarius, H., Blum, W., Döbrich, P., Gruber, H., Prenzel, M., Reiss, K.,
+   Riquarts, K., Rost, J., Tenorth, H.-E. & Vollmer, H. J. (2003). Zur Entwicklung
+   nationaler Bildungsstandards. In BMBF (Hrsg.), Bildungsreform: Bd. 1. Zur
+   Entwicklung nationaler Bildungsstandards: Eine Expertise (S. 7–174). Berlin.
+KMK. Bildungsstandards der Kultusministerkonferenz. Zugriff am 28.05.2021.
+  Verfügbar        unter       https://www.kmk.org/themen/qualitaetssicherung-in-
+  schulen/bildungsstandards.html
+KMK (2004). Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss.
+  Beschluss vom 4.12.2003. München: Luchterhand.
+KMK (2005). Bildungsstandards im Fach Mathematik für den Hauptschulabschluss.
+  Beschluss vom 15.10.2004. München, Neuwied: Luchterhand.
+KMK (2005b). Bildungsstandards im Fach Mathematik für den Primarbereich.
+  Beschluss vom 15.10.2004. München, Neuwied: Luchterhand.
+KMK (2015). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschul-
+  reife (Beschluss vom 18.10.2012). Köln: Carl Link.
+Laakmann, H. (2013). Darstellungen und Darstellungswechsel als Mittel zur Begriffs-
+  bildung. Eine Untersuchung in rechnerunterstützten Lernumgebungen. Wiesbaden:
+  Springer Spektrum.
+
+
+
+
+                                         28
+Leiss, D. & Blum, W. (2010). Beschreibung zentraler mathematischer Kompetenzen.
+  In W. Blum, C. Drüke-Noe, R. Hartung & O. Köller (Hrsg.), Bildungsstandards
+  Mathematik: konkret. Sekundarstufe I: Aufgabenbeispiele, Unterrichtsanregungen,
+  Fortbildungsideen (S. 33–50). Berlin: Cornelsen.
+Maaß, K. (2004). Mathematisches Modellieren im Unterricht. Ergebnisse einer
+  empirischen Studie. Hildesheim u. a.: Franzbecker.
+Nitsch, R. (2015). Diagnose von Lernschwierigkeiten im Bereich funktionaler
+   Zusammenhänge. Eine Studie zu typischen Fehlermustern bei Darstellungs-
+   wechseln. Wiesbaden: Springer Spektrum.
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics,
+  Reading, Science, Problem Solving and Financial Literacy. OECD Publishing.
+Rolfes, T. (2018). Funktionales Denken. Empirische Ergebnisse zum Einfluss von
+  statistischen und dynamischen Repräsentationen. Wiesbaden: Springer Spektrum.
+Roth, J. (2008). Dynamik von DGS – Wozu und wie sollte man sie nutzen. In U.
+  Kortenkamp, H.-G. Weigand & T. Weth (Hrsg.), Informatorische Ideen im
+  Mathematikunterricht (S. 131–138). Hildesheim: Franzbecker.
+Roth, J. (2017). Computer einsetzen: Wozu, wann, wer & wie? Mathematik lehren,
+  205, 35–38.
+Roth, J. (2018, Februar). Grundvorstellungen zu funktionalen Zusammenhängen
+  erarbeiten. Vortrag im Rahmen der DmW-Tagung, Karlsruhe. Zugriff am
+  14.05.2020. Verfügbar unter https://www.juergen-roth.de/vortraege/2018_Roth_
+  Grundvorstellungen_zu_funktionalen_Zusammenhaengen_erarbeiten.pdf
+Scheuring, M. & Roth, J. (2017). Computer-Simulationen oder gegenständliche Materi-
+  alien – Was fördert funktionales Denken besser? In U. Kortenkamp & A. Kuzle
+  (Hrsg.), Beiträge zum Mathematikunterricht 2017 (S. 837–840). Münster: WTM.
+Schwill, A. (1993). Fundamentale Ideen der Informatik. Zentralblatt für Didaktik der
+  Mathematik, 25(1), 20–31.
+Vohns, A. (2012). Grundprinzipien des Messens – Erkunden, Vernetzen, Reflektieren.
+  Mathematik lehren, 173, 20–24.
+Vollrath, H.-J. (1989). Funktionales Denken. Journal für Mathematikdidaktik, 10, 3–37.
+vom Hofe, R. & Blum, W. (2016). „Grundvorstellungen” as a Category of Subject-Matter
+  Didactics. Journal für Mathematikdidaktik, 37, 225–254.
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der
+  Gesellschaft für Didaktik der Mathematik, 21(61), 37–46.
+
+
+
+
+                                         29
+7 Abbildungsverzeichnis
+
+Abbildung 1: IQB in Anlehnung an KMK, 2015, S. 12 .......................................................... 5
+Abbildung 2: Maaß (2004, S. 57) ......................................................................................... 9
+Abbildung 3: https://www.u-m-a.se/filter/Featured/NOTRE-DAME
+             (letzter Zugriff: 30.03.2021) ............................................................................10
+Abbildung 4: https://www.u-m-a.se/filter/Featured/NOTRE-DAME
+             (letzter Zugriff: 30.03.2021) ............................................................................11
+Abbildung 5: IQB ................................................................................................................11
+Abbildung 6: IQB ................................................................................................................12
+Abbildung 7: IQB ................................................................................................................27
+
+
+
+8 Tabellenverzeichnis
+
+Tabelle 1: IQB......................................................................................................................18
+Tabelle 2: vgl. Laakmann (2013, S. 90) ...............................................................................19
+
+
+
+9 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Rollrasen" ...........................................................................................13
+Beispielaufgabe 2: „Rollrasen" ...........................................................................................14
+Beispielaufgabe 3: „Krawatte“ ............................................................................................15
+Beispielaufgabe 4: „Geschichte zur Grafik“ ........................................................................21
+Beispielaufgabe 5: „Vier lineare Funktionen“ ......................................................................22
+Beispielaufgabe 6: „Gerade einzeichnen“ ...........................................................................23
+Beispielaufgabe 7: „Güterverkehr“ ......................................................................................24
+Beispielaufgabe 8: „Punkte auf Geraden“ ...........................................................................25
+
+
+
+
+                                                                 30
+

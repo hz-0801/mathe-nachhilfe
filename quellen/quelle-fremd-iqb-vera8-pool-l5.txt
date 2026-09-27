@@ -1,0 +1,2409 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 5 (Daten und Zufall)“, IQB Berlin – Aufgabe
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L5_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Aufgabe“ mit 1–4 Seiten; hier 59 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: je Aufgabendatei im Kopf als Bild, Wortlaut je Aufgabe unten
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== adventskalender · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2017; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Adventskalender
+[Bild: image1.png]
+Teilaufgabe 1[Bild: image2.png]
+Teilaufgabe 2[Bild: image3.png]
+Teilaufgabe 3
+[Bild: image4.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Adventskalender
+
+Die 24 Schilerinnen und Schiler einer achten Klasse haben
+fiir die Adventszeit einen gemeinsamen Adventskalender mit
+24 Geschenken angefertigt.
+
+Jeder legt ein Kartchen mit seinem Namen in einen Lostopf.
+Ab dem ersten Dezember wird taglich ein Name gezogen, die
+zugehorige Person erhalt das jeweilige Geschenk. Ihr Name
+kann nun nicht mehr gezogen werden.
+
+Die Ziehungen fiir Samstag und Sonntag werden am Montag
+nachgeholt.
+
+Dezember
+Montag Dienstag Mittwoch | Donnerstag Freitag Samstag Sonntag
+1 2 3
+4 5 6 ie 8 9 10
+11 12. 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30 31
+
+Teilaufgabe 1
+
+Gib an, wie viele Personen das Freibad wahrend der 6 Wochen Sommerferien im
+Durchschnitt pro Woche besucht haben.
+
+Personen
+
+Teilaufgabe 2
+
+Jana hat bisher kein Geschenk erhalten. Am Morgen des 07.12., ihrem Geburtstag,
+Uberlegt sie, wie wahrscheinlich es ist, dass ihr Name an diesem Tag gezogen wird.
+
+Kreuze die passende Wahrscheinlichkeit an.
+1 1 7 7
+O53, Os O 3 Os
+Teilaufgabe 3
+
+Am 22.12. ist der letzte Schultag. Deshalb werden die Geschenke vom 23. und 24.12.
+auch am 22.12. verlost. Simon hat bis zu diesem Tag noch kein Geschenk erhalten.
+
+Wie gro ist die Wahrscheinlichkeit, dass er am 22.12. ein Geschenk erhalt?
+Kreuze an.
+
+1 3 22
+Oo; Os, 24 O11
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== bevoelkerungsdichte · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bevölkerungsdichte
+
+Die Tabelle zeigt die Bevölkerungsdichte in den deutschen Bundesländern
+am 31. 12. 2009.
+Bevölkerungsdichte
+Bundesland 2
+(Einwohner pro km)
+Baden - Württemberg 301
+Bayern 177
+Berlin 3. 861
+Brandenburg 85
+Bremen 1. 637
+Hamburg 2. 349
+Hessen 287
+Mecklenburg - Vorpommern 71
+Niedersachsen 166
+Nordrhein - Westfalen 524
+Rheinland - Pfalz 202
+Saarland 398
+Sachsen 226
+Sachsen - Anhalt 115
+Schleswig - Holstein 179
+Thüringen 139
+Tabelle: © IQB, basierend auf Daten der Statistischen Ämter des Bundes und der
+Länder
+
+Teilaufgabe 1
+
+Gib das Bundesland an, in dem die Bevölkerungsdichte am 31. 12. 2009 fast
+2 400 Einwohner pro km betrug.
+Teilaufgabe 2
+Gib die Differenz zwischen dem größten und dem kleinsten Wert der
+Bevölkerungsdichte an (Spannweite).
+
+===== bistroumfrage · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bistroumfrage
+
+Die Klasse 8 a plant eine statistische Untersuchung zum Kaufverhalten im Schulbistro.
+
+Teilaufgabe 1:
+
+Bevor die statistische Untersuchung durchgeführt wird, soll mithilfe von
+Planungskarten ein allgemeiner Ablaufplan erstellt werden.
+Ablaufplan
+Wir formulieren Antworten auf Wir haben ein Problem zu
+das Untersuchungsproblem. lösen.
+6 1
+5 2
+Wir stellen die
+Untersuchungsergebnisse dar
+(Tabelle, Diagramm).
+4 3
+Ordne die folgenden Planungskarten der richtigen Stelle im Ablaufplan zu.
+Schreibe dazu die entsprechenden Nummern in die Kreise auf den Planungskarten.
+Planungskarten
+Wir führen eine Befragung Wir interpretieren die Wir überlegen uns
+durch. Untersuchungsergebnisse. geeignete Fragen.
+
+Teilaufgabe 2:
+
+Ein Ziel der Untersuchung soll es sein, die Wochentage mit dem höchsten
+Getränkeumsatz herauszufinden. Dazu wird eine Umfrage vor der Eröffnung des
+Bistros durchgeführt.
+Welche Frage passt zum Ziel der Umfrage?
+Kreuze eine der folgenden Fragen an.
+Würdest du im Bistro Getränke kaufen?
+An welchen Wochentagen würdest du im Bistro einkaufen?
+Wie viele Getränke würdest du in einer Woche im Bistro kaufen?
+An welchen Wochentagen würdest du im Bistro Getränke kaufen?
+
+===== bonbons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Bonbons
+
+4 6 1 2 4 10 1 5 1 10
+In einer Tüte sind zwei grüne, ein gelbes, zwei weiße, ein orangefarbenes und vier rote
+Bonbons. Jan greift ohne hinzusehen ein Bonbon aus der Tüte.
+Mit welcher Wahrscheinlichkeit ist es rot?
+Kreuze an.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Bonbons
+
+In einer Tite sind zwei griine, ein gelbes, zwei weife, ein orangefarbenes und vier rote
+Bonbons. Jan greift ohne hinzusehen ein Bonbon aus der Tite.
+
+Mit welcher Wahrscheinlichkeit ist es rot?
+
+Kreuze an.
+O Oo O Oo O
+a 1 4 i 4
+10 5 10 2 6
+
+Copyright Text und Teilaufgaben: QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== brettspiel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Brettspiel
+
+Bei einem Brettspiel wird ein sechsseitiger Spielwürfel mit den Zahlen von 1 bis
+6 verwendet. Der Spielstein darf immer um genau so viele Felder
+weitergeschoben werden, wie die Augenzahl beim einmaligen Werfen des
+Würfels anzeigt.
+
+Jan wird das Spiel gewinnen, wenn er beim nächsten Wurf eine Fünf wirft.
+Wie groß ist die Wahrscheinlichkeit für Jan, mit dem nächsten Wurf das Spiel
+zu gewinnen?
+Kreuze an.
+5 1 1
+5 6
+5 6
+
+ | M55005_A
+ |
+
+===== chancen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K3, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Chancen
+
+Für ein Schulfest baut eine Klasse Glücksräder. Die Besucher gewinnen beim Drehen der
+Glücksräder, wenn der Zeiger auf ein graues Feld zeigt.
+
+Teilaufgabe 1
+
+1 3
+Färbe das Glücksrad so, dass die Gewinnwahrscheinlichkeit beträgt.
+
+Teilaufgabe 2
+
+Michael und Julia haben bereits ihre Glücksräder gebastelt.
+Michaels Glücksrad Julias Glücksrad
+Welche der folgenden Aussagen ist richtig?
+Kreuze an.
+Bei Michaels Glücksrad ist die Gewinnwahrscheinlichkeit am größten.
+Bei Julias Glücksrad ist die Gewinnwahrscheinlichkeit am größten.
+Bei Michaels Glücksrad und bei Julias Glücksrad ist die
+Gewinnwahrscheinlichkeit gleich.
+Begründe deine Antwort.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Chancen
+
+Fur ein Schulfest baut eine Klasse Gliicksrader. Die Besucher gewinnen beim Drehen der
+Gliicksrader, wenn der Zeiger auf ein graues Feld zeigt.
+
+Teilaufgabe 1
+
+Farbe das Gliicksrad so, dass die Gewinnwahrscheinlichkeit ; betragt.
+
+Teilaufgabe 2
+Michael und Julia haben bereits ihre Gliicksrader gebastelt.
+
+Michaels Gluicksrad Julias Gluicksrad
+
+Welche der folgenden Aussagen ist richtig?
+
+Kreuze an.
+Oo Bei Michaels Glicksrad ist die Gewinnwahrscheinlichkeit am gréBten .
+oO Bei Julias Gluicksrad ist die Gewinnwahrscheinlichkeit am gr6Rten.
+
+Oo Bei Michaels Gliicksrad und bei Julias Gliicksrad ist die
+Gewinnwahrscheinlichkeit gleich.
+
+Begriinde deine Antwort.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== darstellungindiagrammen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Darstellung in Diagrammen
+
+Die Firma Fruktia stellt die Umsätze ihres neuen Zitronengetränks in einem Diagramm dar.
+Zitronengetränk - Umsatz
+Anzahl verkaufter Flaschen
+(in Mio.)
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+2007 2008 2009 2010
+In welchem Jahr sind 65 Millionen Flaschen verkauft worden?
+Vervollständige den Satz.
+ Im Jahr sind 65 Millionen Flaschen verkauft worden.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) p !nstitut zur Qualitatsentwicklung im Bildungswesen
+
+Darstellung in Diagrammen
+
+Die Firma Fruktia stellt die Umsatze ihres neuen Zitronengetranks in einem Diagramm dar.
+
+Zitronengetrank-Umsatz
+
+Anzahl verkaufter Flaschen
+(in Mio.)
+100
+
+90
+80
+70
+60
+504
+40
+30
+204
+104
+
+o4
+
+2007 2008 2009 2010
+
+In welchem Jahr sind 65 Millionen Flaschen verkauft worden?
+
+Vervollstandige den Satz.
+
+Im Jahr sind 65 Millionen Flaschen verkauft worden.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== fahrradtour · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K4, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K3, K4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fahrradtour
+
+pro Tag gefahrene Kilometer Max und Julia haben in den Ferien eine Radtour von Passau nach Wien unternommen. Die
+Längen ihrer Tagesetappen hat Julia in diesem Säulendiagramm dargestellt. Max verrät
+80 einem Freund: „Weil Julia einen sportlichen Eindruck machen will, hat sie die Säule für den
+68
+letzten Tag einfach weggelassen 70. Am letzten Tag sind wir nämlich nur 20 km gefahren. “ 63
+58
+55 60
+pro Tag gefahrene Kilometer 45
+50 41
+40
+km 30
+20
+10
+0
+m 1 2 3 4 5 6 7
+k
+Tag
+Tag
+
+Teilaufgabe 1: Fahrradtour
+
+Ergänze die Säule für den letzten Tag.
+
+ | Teilaufgabe 2: Fahrradtour
+
+Wie viele Kilometer haben Max und Julia auf der ganzen Tour durchschnittlich pro Tag
+zurückgelegt?
+Gib dein Ergebnis an.
+km
+
+ | M54006_B
+ | Teilaufgabe 3: Fahrradtour
+
+10 7
+Um wie viel wäre die durchschnittliche Strecke pro Tag länger, wenn Max und Julia jeden Tag
+10 km mehr gefahren wären?
+Kreuze an.
+km 10 km 30 km 60 km 70 km
+
+ | M54006_C
+ |
+
+===== fahrraeder · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 1B, K3, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Fahrräder
+
+An einem Morgen notiert Marko in einer Strichliste, wie viele Frauen und wie viele Männer
+ihr Fahrrad am Bahnhof abstellen.
+Frauen Männer
+
+Teilaufgabe 1:
+
+Wie viele Frauen und Männer sind es insgesamt, die ihr Fahrrad abstellen?
+Es sind insgesamt Frauen und Männer.
+
+Teilaufgabe 2:
+
+Formuliere selbst eine Aufgabe, die man mit den Angaben in der Tabelle lösen kann.
+Du musst die Aufgabe nicht lösen.
+
+===== fischezaehlen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fische zählen
+
+AnzahlderFischemitrotemPunkt250 p(FischmitrotemPunktfangen)== AnzahlallerFische(markierteundnichtmarki erte) x
+In einem großen Teich soll die Anzahl der Fische abgeschätzt werden. Dazu werden aus dem
+Teich 250 Fische gefangen, mit einem roten Punkt gekennzeichnet und wieder in den Teich
+freigelassen. Die Wahrscheinlichkeit, einen gekennzeichneten Fisch zu fangen, ist nun
+x: Gesamtzahl der Fische im Teich
+
+An einem anderen Tag werden 400 Fische gefangen. Von diesen 400 Fischen sind 50 mit
+einem roten Punkt markiert.
+Gib an, wie viele Fische schätzungsweise in dem Teich leben.
+
+ | M54028_B
+ |
+
+===== freibad · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K4, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Freibad
+[Bild: image1.png]
+Teilaufgabe 1[Bild: image2.png]
+Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Freibad
+
+Das Freibad in Burgdorf wurde am 1. Juni gedffnet. Am 1. Juli begannen die sechs
+Wochen dauernden Sommerferien. Insgesamt kamen vom 1. Juni bis zum Ende der
+Sommerferien 35681 Besucherinnen und Besucher in das Freibad.
+
+Das Diagramm zeigt die Zahlen der Besucherinnen und Besucher fiir Juni und fur jede
+Woche der Sommerferien.
+
+Anzahl der Besucherinnen und Besucher
+9000 fk
+
+8000
+
+7000
+6000
+
+5000 —
+4000
+3000
+2000
+1000
+0
+
+Juni 1. Ferienwoche 2. Ferienwoche 3. Ferienwoche 4. Ferienwoche 5. Ferienwoche 6. Ferienwoche
+
+Teilaufgabe 1
+
+Gib an, wie viele Personen das Freibad wahrend der 6 Wochen Sommerferien im
+Durchschnitt pro Woche besucht haben.
+
+Personen
+
+Teilaufgabe 2
+
+Im Juni war das Wetter schlecht und das Freibad war an vielen Tagen leer. Aber in
+den Sommerferien war das Wetter sch6n und das Freibad hatte viele Besucherinnen
+und Besucher.
+
+Die Betreiber des Freibads wollten die Zahlen der Besucherinnen und Besucher fur
+den Juni besser aussehen lassen, als sie tatsachlich sind. Deshalb haben sie im
+Diagramm einen Trick angewendet.
+
+Erklare, welchen Trick sie benutzt haben.
+
+Copyright Text, Grafik und Teliaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== freizeitbeschaeftigungen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Freizeitbeschäftigungen
+
+Bei einer Befragung in den Klassenstufen 7 und 8 gaben alle Schülerinnen und Schüler
+ihre beliebteste Freizeitbeschäftigung an. Abbildung 1 zeigt das Ergebnis dieser
+Befragung.
+Beliebteste Freizeitbeschäftigungen
+40
+36 36
+35
+32
+30
+26
+25
+l
+h 21
+a z
+20 n
+A
+15
+15
+12
+10
+10
+7
+5
+5
+0
+Musik Sport Computer Kino Theater
+Freizeitbeschäftigung
+Klassenstufe 7 Klassenstufe 8
+Abbildung 1
+Grafik: © IQB
+Teilaufgabe 1
+
+Gib an, wie viele Schülerinnen und Schüler aus beiden Klassenstufen insgesamt
+befragt wurden.
+Schülerinnen und Schüler
+
+Teilaufgabe 2
+
+Ergänze die beiden folgenden Sätze jeweils durch eine passende
+Freizeitbeschäftigung.
+war in Klassenstufe 7 beliebter als in Klassenstufe 8.
+war in Klassenstufe 8 beliebter als in Klassenstufe 7.
+
+Teilaufgabe 3
+[Bild][Bild]
+12
+10
+8
+6
+4
+l
+h a
+z 2
+n
+A Musik Sport
+0
+Computer Kino Theater
+- 2
+- 4
+- 6
+Freizeitbeschäftigung Abbildung 2
+- 8
+Grafik: © IQB
+Abbildung 2 zeigt Säulen zu den Freizeitbeschäftigungen „Musik“, „Sport“ und
+„Computer“. Diese Säulen ergeben sich aus den Angaben in Abbildung 1. Beachte,
+dass einige Säulen nach unten zeigen.
+Beschreibe, was die Säulen in Abbildung 2 bedeuten, und ergänze die fehlenden
+Säulen für „Kino“ und „Theater“.
+
+===== freizeitkosten · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K1, K2, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Freizeitkosten
+
+Betty hat sechs Monate lang notiert, wie viel Geld sie für ihre Freizeitaktivitäten
+ausgegeben hat.
+Monat Januar Februar März April Mai Juni
+Ausgaben in € 31 31 20 28 30 40
+Sie hat ausgerechnet, dass sie in diesen sechs Monaten durchschnittlich 30 € pro
+Monat ausgegeben hat.
+Dennis sagt: „Die Arbeit hättest du dir sparen können. Das arithmetische Mittel liegt ja
+in jedem Fall immer genau in der Mitte zwischen dem kleinsten und dem größten
+Wert, bei deinen Zahlen also genau zwischen 20 und 40. “
+Hat Dennis Recht?
+Kreuze an.
+Nein Ja
+Begründe deine Entscheidung.
+
+===== fuehrerschein · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K4, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Führerschein
+
+Einen Führerschein zu Durchfallquoten
+Bundesland bekommen, ist nicht einfach.
+Führerscheinprüfungen
+Die Tabelle gibt für die
+Theorie Praxis
+einzelnen Bundesländer an,
+(in%) (in%)
+wie viel Prozent der Theorie -
+Baden - Württemberg 30,1 21,6
+Prüfungen und wie viel Prozent
+Bayern 28,0 23,9 der Praxis - Prüfungen im Jahr
+2009 nicht bestanden wurden. Berlin 34,5 34,3
+Brandenburg 41,2 32,2
+Bremen 29,2 31,8
+Hamburg 30,8 40,0
+Hessen 24,5 19,6
+Mecklenburg - Vorpommern 43,2 31,7
+Niedersachsen 26,4 22,6
+Nordrhein - Westfalen 27,8 24,4
+Rheinland - Pfalz 27,7 23,2
+Saarland 26,9 27,9
+Sachsen 41,1 35,1
+Sachsen - Anhalt 44,0 36,8
+Schleswig - Holstein 26,6 22,5
+Thüringen 41,8 35,1
+Daten: Kraftfahrt - Bundesamt, KBA, 2009
+
+Teilaufgabe 1
+
+Gib an, wie viel Prozent der Praxis - Prüfungen im Saarland 2009 nicht bestanden
+wurden.
+%
+
+Teilaufgabe 2
+
+Überprüfe folgende Aussage anhand der Tabelle:
+„ 2009 war in jedem Bundesland die Durchfallquote in der Theorie - Prüfung höher als in
+der praktischen Prüfung. “
+Kreuze an.
+Die Aussage ist korrekt. Die Aussage ist falsch.
+Begründe deine Entscheidung.
+
+===== gluecksrad · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K4, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Glücksrad
+
+Ein Glücksrad besteht aus drei Feldern: einem roten, einem grünen
+und einem blauen Feld.
+blau
+Bei 180 Drehungen wies der Zeiger nach dem Stillstand des grün
+Glücksrades 66 - mal auf das rote Feld und 54 - mal auf das grüne
+Feld.
+rot
+
+Teilaufgabe 1: Glücksrad
+
+Wie oft zeigte der Zeiger auf das blaue Feld?
+Kreuze an.
+Das kann ich nicht 240 - mal 120 - mal 60 - mal
+entscheiden, weil
+das ja Zufall ist.
+
+ | M55003_A
+ | Teilaufgabe 2: Glücksrad
+
+Die Aufteilung der Felder im Glücksrad soll so verändert werden, dass der Zeiger bei etwa
+jeder zweiten Drehung auf dem grünen Feld steht.
+Ergänze die Zeichnung.
+blau
+
+ | M55003_B
+ |
+
+===== gluecksraddrehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K3, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Glücksrad drehen
+
+1 18 1 12 1 3 1 6 1 4 1 9
+Für eine Verlosung wurde ein Glücksrad entworfen. Es hat sechs verschieden große
+Sektoren, die mit den Buchstaben A, B, C, D, E und F beschriftet sind.
+Beim Drehen des Glücksrades treten diese Ergebnisse mit folgenden Wahrscheinlichkeiten p
+ein:
+Ergebnis A B C D E F
+p
+
+Teilaufgabe 1
+
+Gib in der Tabelle die Größe des Winkels für Sektor C an. Zeichne Sektor C in das
+Kreisdiagramm ein.
+Sektor A B C
+Winkel 20 ° 30 °
+B
+A
+
+Teilaufgabe 2
+
+Das Glücksrad soll durch einen kleinen Eimer mit 540 Losen ersetzt werden. Die Lose sollen
+ebenfalls mit den Buchstaben A, B, C, D, E und F beschriftet sein. Die Ergebnisse sollen mit
+den gleichen Wahrscheinlichkeiten wie beim Glücksrad gezogen werden.
+Gib an, wie viele Lose hierzu mit dem Buchstaben C und wie viele Lose mit dem Buchstaben
+D bedruckt werden müssen.
+Anzahl der Lose mit dem Buchstaben C:
+Anzahl der Lose mit dem Buchstaben D:
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Glucksrad drehen
+
+Fir eine Verlosung wurde ein Gliicksrad entworfen. Es hat sechs verschieden groRe
+Sektoren, die mit den Buchstaben A, B, C, D, E und F beschriftet sind.
+
+Beim Drehen des Gliicksrades treten diese Ergebnisse mit folgenden Wahrscheinlichkeiten p
+ein:
+
+Ergebnis A B Cc D E F
+p ee ee
+18 12 3 6 4 9
+
+Teilaufgabe 1
+
+Gib in der Tabelle die Grée des Winkels fur Sektor C an. Zeichne Sektor C in das
+Kreisdiagramm ein.
+
+Sektor A B Cc
+
+Winkel 20° | 30°
+
+Teilaufgabe 2
+
+Das Gliicksrad soll durch einen kleinen Eimer mit 540 Losen ersetzt werden. Die Lose sollen
+ebenfalls mit den Buchstaben A, B, C, D, E und F beschriftet sein. Die Ergebnisse sollen mit
+den gleichen Wahrscheinlichkeiten wie beim Gliicksrad gezogen werden.
+
+Gib an, wie viele Lose hierzu mit dem Buchstaben C und wie viele Lose mit dem Buchstaben
+D bedruckt werden missen.
+
+Anzahl der Lose mit dem Buchstaben C:
+
+Anzahl der Lose mit dem Buchstaben D:
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== glueckssaeckchen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, Jahrgang 2016; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K1, K2, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Glückssäckchen
+
+A B C
+Bei einem Glücksspiel darf man sich von den drei Säckchen A, B, C eines auswählen.
+Unter den einzelnen Säckchen siehst du, mit welchen Kugeln sie gefüllt werden. In jedem
+Säckchen befinden sich dann schwarze und weiße Kugeln. Man zieht ohne hinzusehen
+aus seinem ausgewählten Säckchen eine Kugel; ist sie weiß, hat man gewonnen, ist sie
+schwarz, hat man verloren.
+
+Teilaufgabe 1:
+
+Bei welchem Säckchen ist die Wahrscheinlichkeit zu gewinnen am größten?
+Kreuze an.
+A B C
+Begründe deine Entscheidung.
+
+Teilaufgabe 2:
+
+Die Kugeln der drei Säckchen werden alle in einen größeren Sack
+zusammengeschüttet.
+Nun wird aus diesem größeren Sack eine Kugel gezogen.
+Wie groß ist jetzt die Wahrscheinlichkeit zu gewinnen?
+
+Teilaufgabe 3:
+
+12 nn m 2   12 nn m 2    12 nn m 12 nn m 
+Zwei andere Säckchen sind jeweils mit m Kugeln gefüllt. Im ersten Säckchen befinden
+sich n weiße Kugeln, im zweiten Säckchen n weiße Kugeln. Der Inhalt der beiden 1 2
+Säckchen wird wieder in einen großen Sack zusammengeschüttet und es wird aus
+dem großen Sack eine Kugel gezogen.
+Welcher Term gibt die Wahrscheinlichkeit an, mit der man gewinnt?
+Kreuze an.
+
+===== gummibaeren · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Gummibären
+
+Nach Herstellerangaben werden vor dem Abfüllen von Gummibären in Tüten die Bären
+folgendermaßen durchgemischt:
+Je ein Sechstel grüne, gelbe, weiße und orangefarbene Bären und ein Drittel rote Bären.
+Die Hälfte der roten Bären schmeckt nach Erdbeere, die andere Hälfte nach Himbeere.
+
+Teilaufgabe 1:
+
+Jan greift sich mit geschlossenen Augen einen Gummibären aus einer frisch
+geöffneten Tüte.
+Mit welcher Wahrscheinlichkeit hat er Himbeergeschmack?
+
+Teilaufgabe 2:
+
+Fünf Gummibären wiegen 10 g.
+Kreuze an, wie viele grüne Gummibären sich etwa in einer 1000 g - Dose befinden.
+20 60 80 160 330
+
+===== hausaufgaben · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Hausaufgaben
+
+Alle zwölf Schülerinnen und Schüler eines Kurses haben die Zeit gemessen, die sie für die
+Hausaufgaben in Mathematik bzw. Deutsch benötigten. In der nächsten Unterrichtsstunde
+wird gefragt, wie viel Zeit jeder brauchte.
+Dabei ergeben sich folgende Listen (Arbeitszeiten in Minuten):
+Mathematik: 15; 20; 25; 20; 15; 17; 20; 20; 25; 20; 20; 15
+Deutsch: 15; 18; 24; 20; 24; 24; 18; 24; 24; 18; 20; 24
+
+Teilaufgabe 1:
+
+Die Arbeitszeiten für die Hausaufgaben in Mathematik sollen in einer
+Häufigkeitstabelle dargestellt werden.
+Ergänze die Tabelle.
+Arbeitszeiten in Minuten 15 17 20 25
+Häufigkeit 3
+
+Teilaufgabe 2:
+
+Das Kreisdiagramm zeigt die Häufigkeitsverteilung der Arbeitszeiten für die
+Hausaufgaben in Deutsch.
+Ordne die Arbeitszeiten den Kreisausschnitten zu.
+min
+min
+min min
+
+===== haushaltsabfaelle · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Haushaltsabfälle
+[Bild][Bild]
+Das Diagramm informiert über die Haushaltsabfälle, die im Jahr 2009 in den einzelnen
+Bundesländern pro Einwohner anfielen. Dabei ist im Diagramm jedem Bundesland eine
+Nummer zugeordnet (vgl. Tabelle).
+600
+1 Baden - Württemberg
+2 Bayern g
+k 3 Berlin
+500 n i
+ r 4 Brandenburg
+e n
+5 Bremen h
+o 400
+6 Hamburg w
+n i
+7 Hessen E
+o 8 Mecklenburg - Vorpommern r
+300 p
+9 Niedersachsen e l
+l ä
+10 Nordrhein - Westfalen f
+b a
+11 Rheinland - Pfalz 200 s
+t l
+12 Saarland a
+h s
+13 Sachsen u
+a 100 14 Sachsen - Anhalt
+H
+15 Schleswig - Holstein
+16 Thüringen
+0
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 Tabelle: © IQB
+Bundesländer (siehe Liste)
+Grafik: © IQB, basierend auf Daten der Statistischen Ämter des Bundes und
+der Länder
+Teilaufgabe 1
+
+In welchem Bundesland gab es die wenigsten Haushaltsabfälle pro Einwohner?
+Ergänze.
+Das Bundesland heißt.
+
+Teilaufgabe 2
+
+Gib an, wie viele Haushaltsabfälle in Rheinland - Pfalz pro Einwohner anfielen.
+kg
+
+===== internetauktion · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Internetauktion
+
+Bei einer Internetauktion beobachtet Rolf die Preisentwicklung für Notebooks. Insgesamt
+werden neun Notebooks des gleichen Typs versteigert.
+Rolf hat sich folgende Endpreise für die Notebooks aufgeschrieben:
+Auktionsnummer Endpreis
+1 390 €
+2 422 €
+3 394 €
+4 355 €
+5 449 €
+6 396 €
+7 380 €
+8 423 €
+9 373 €
+
+Teilaufgabe 1:
+
+Wie groß ist der Preisunterschied zwischen dem teuersten und dem billigsten
+Notebook?
+
+Teilaufgabe 2:
+
+Gib den durchschnittlichen Preis der neun Notebooks an.
+
+===== kaumeinechance · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 1A, K1, K3, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Kaum eine Chance
+
+Enrico, Pauline und Tobias spielen ein Brettspiel, bei dem ein Spieler erst dann weitergehen
+darf, wenn er mit einem normalen Spielwürfel eine Sechs geworfen hat.
+
+Teilaufgabe 1
+
+Gib die Wahrscheinlichkeit an, mit der Enrico bei seinem ersten Wurf eine Sechs wirft:
+
+Teilaufgabe 2
+
+Enrico prahlt, er habe ein System gefunden, mit dem beim Würfeln das Ergebnis des
+nächsten Wurfs vorhergesagt werden kann.
+Pauline widerspricht und sagt: „Das kann nicht sein. Es gibt kein System, mit dem man das
+Ergebnis des nächsten Wurfs vorhersagen kann. “
+Wie kann Pauline argumentieren?
+Kreuze die richtige Aussage an.
+Das Ergebnis des nächsten Wurfs beim Würfeln lässt sich nicht ermitteln, weil...
+… das Rechenverfahren dafür viel zu kompliziert ist.
+… man nicht weiß, was vorher gewürfelt wurde.
+… die Wahrscheinlichkeit für jedes Ergebnis bei jedem Wurf gleich groß ist.
+… man nicht weiß, wie oft vorher schon gewürfelt wurde.
+
+===== kugelnziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K2, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Kugeln ziehen
+[Bild: image1.png][Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Kugeln ziehen
+
+In einem GefaR befinden sich gleich viele rote und blaue Kugeln, die sich nur durch ihre
+Farbe unterscheiden.
+
+Es sollen zusatzlich so viele gelbe Kugeln hinzugefugt werden, dass die
+Wahrscheinlichkeit eine rote Kugel zu ziehen 20 % betragt.
+
+Wie viel mal so viele gelbe wie rote Kugeln mlssen in dem GefaB sein?
+
+“mal so viele gelbe Kugeln
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== liebstesschulfach · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K2, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Liebstes Schulfach
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Liebstes Schulfach
+
+Die Schilerinnen und Schiler einer Klassenstufe wurden gefragt, welches der folgenden
+vier Schulfacher sie am liebsten haben. Jeder durfte nur eines der vier Facher nennen. Die
+Tabelle zeigt das Ergebnis der Umfrage.
+
+Fach Deutsch | Englisch | Biologie Physik
+
+Anzahl 11 13 17 9
+
+Teilaufgabe 1
+
+Wie gro ist der Anteil der befragten Schilerinnen und Schiler, die eine
+Naturwissenschaft (Biologie, Physik) am liebsten haben?
+
+17 9 26 26
+Os OF O55 O i005
+Teil
+aufgabe 2
+Timo sagt: ,Man sieht an den Ergebnissen, dass 39 der befragten Schiller Deutsch
+Uberhaupt nicht mégen.*
+
+Diese Aussage ist falsch.
+
+Begrlnde, warum Timo mit dieser Aussage nicht recht hat.
+|
+
+Copyright Text, Grafik und Tellaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== luftballons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Luftballons
+
+In einem undurchsichtigen Beutel befinden sich 100 Luftballons. 60 davon sind rot, 40 sind
+blau.
+
+1 100 4 10 6 10 1 2
+Paul nimmt ohne hinzusehen einen Luftballon aus dem Beutel.
+Wie groß ist die Wahrscheinlichkeit, dass er einen roten Luftballon erhält?
+Kreuze an.
+
+===== menschaergeredichnicht · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K3, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Mensch ärgere dich nicht
+
+Beim Brettspiel „Mensch ärgere dich nicht“ muss ein
+Spieler mit einem Spielwürfel eine Sechs werfen, um eine
+Spielfigur auf den Startpunkt setzen zu dürfen.
+
+Teilaufgabe 1
+
+Meistens muss ein Spieler mehrmals würfeln, bevor er starten kann.
+Gib die Wahrscheinlichkeit an, dass ein Spieler gleich beim ersten Würfeln eine Sechs
+hat.
+
+Teilaufgabe 2
+
+Tom meint, dass sehr selten eine Sechs gewürfelt wird, und möchte deshalb die
+Spielregeln abwandeln. Er schlägt vor, dass statt einer Sechs eine Eins gewürfelt
+werden muss, damit eine Spielfigur auf den Startpunkt gesetzt werden kann.
+Ändert sich durch Toms Vorschlag die Wahrscheinlichkeit dafür, eine Spielfigur auf
+den Startpunkt setzen zu können?
+Kreuze an.
+Ja Nein
+Begründe deine Entscheidung.
+
+===== muckibude · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Muckibude
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Muckibude
+
+Die Grafik zeigt die Mitgliederzahlen des Fitnessvereins ,Muckibude“ in den Jahren 2012
+bis 2016.
+
+A
+
+2000
+ro
+© 1800
+® 1600:
+1400.
+
+Anzahl der Mitglied
+
+2012 2013 2014 2015 2018 Jahr
+
+Teilaufgabe 1
+Wie viele Mitglieder sind von 2013 bis 2014 hinzugekommen?
+
+Mitglieder
+Teil
+
+aufgabe 2
+In welchen Jahren lag die Anzahl der Mitglieder Uber 1000?
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== naschkatze · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Naschkatze
+[Bild][Bild]
+Kirsten hat mit ihrem neu eröffneten Café „Naschkatze“ Erfolg, denn der Umsatz steigert
+sich im ersten Geschäftsjahr von Quartal zu Quartal.
+18 000 Café
+16 000
+14 000
+o r
+12 000 u
+E
+10 000 n i
+ z
+t 8000
+a
+s 6000
+m Naschkatze
+U 4000
+Grafik: © IQB
+2000
+0
+1. Quartal 2. Quartal 3. Quartal 4. Quartal
+Grafik: © IQB
+
+In welchem Quartal betrug der Umsatz 14 000 Euro?
+Kreuze an.
+1. Quartal 2. Quartal 3. Quartal 4. Quartal
+
+===== nebenjob · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, K3, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Nebenjob
+
+Leon hat einen Nebenjob. Er verdient in einer Stunde 12 Euro.
+Leon bekommt seinen Verdienst wöchentlich ausgezahlt.
+
+Teilaufgabe 1
+
+Im Monat Juli hat Leon folgende Auszahlungen erhalten:
+1. Woche: 168 Euro
+2. Woche: 132 Euro
+3. Woche: 180 Euro
+4. Woche: 144 Euro
+Gib an, wie viel Euro er im Juli durchschnittlich pro Woche erhalten hat.
+Leon hat durchschnittlich Euro pro Woche erhalten.
+
+Teilaufgabe 2
+
+In seinem letzten Nebenjob bekam Leon bei gleichem Stundenlohn 5 - mal seinen
+Verdienst ausgezahlt. Alle Auszahlungen waren unterschiedlich.
+Stelle eine Liste mit möglichen Arbeitsstunden zusammen, sodass Leon in diesen
+5 Wochen auf einen durchschnittlichen Verdienst von 168 Euro pro Woche kommt.
+Fülle die Liste aus.
+Denk daran: Alle fünf Auszahlungen müssen unterschiedlich sein!
+Leons letzter Arbeitsmonat
+Anzahl der
+Verdienst in Euro
+Arbeitsstunden
+1. Woche:
+Durchschnittlicher
+2. Woche:
+Verdienst pro Woche:
+3. Woche: 168 Euro
+4. Woche:
+5. Woche:
+
+===== niederschlaege · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2015; Teilaufgabe 3: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Niederschläge
+
+Diese Übersicht konnte man Anfang des Jahres 2012 der Zeitung entnehmen.
+Niederschlagsmenge im Jahr 2011 in Schwerin
+160 Durchschnittliche monatliche
+146,5
+Niederschlagsmenge:
+137 58,5 Liter pro Quadratmeter
+140
+
+n r i
+ 120 e
+t e
+e g 103,2
+n m
+t e 100
+a r m
+s d
+g a 76,9
+a u 80 l
+h Q
+c o
+s r r
+60 52,6 p e
+r d 46,2
+e e t i
+i 38,2
+34,4 N L 40
+28,6
+19,2
+15 20
+3,8
+0 l i i i t r r r r r r
+z i l r a n s r e e
+a a e e u
+p u u ä b b b b u u J M
+r J g o n A
+M m m t m b u a
+e k e e e J A t
+z v F O p
+e o e
+D N S
+Daten: Deutscher Wetterdienst, 2012
+
+Teilaufgabe 1
+
+Gib einen Monat an, in dem die Niederschlagsmenge unter der durchschnittlichen
+monatlichen Niederschlagsmenge lag.
+
+Teilaufgabe 2
+
+Entscheide anhand des Diagramms, ob die folgenden Aussagen wahr oder falsch
+sind.
+Kreuze jeweils an.
+wahr falsch
+Es gab einen Monat ohne Niederschlag.
+In mehr als der Hälfte der Monate regnete es weniger als
+im Durchschnitt.
+In den Monaten Juli, August und September regnete es
+zusammen mehr als im gesamten Rest des Jahres.
+
+Teilaufgabe 3
+
+Gib die Spannweite (den Unterschied zwischen größtem und kleinstem Wert) der
+monatlichen Niederschlagsmengen an.
+Die Spannweite beträgt Liter pro Quadratmeter.
+
+===== niederschlag · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 3: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015; Teilaufgabe 4: AFB III, Kompetenzstufe 4, K1, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Niederschlag
+
+Die Abbildung zeigt ein Klimadiagramm für Halle an der Saale für das Jahr 2012. Die
+Säulen im Diagramm zeigen, wie viel Niederschlag in jedem Monat fiel. Die Punkte zeigen
+die durchschnittlichen Temperaturen für jeden Monat.
+Klimadiagramm Halle an der Saale
+80
+40
+70 36
+32 60
+T
+28 m e
+m 50 m
+ p
+n 24 i e
+ r
+g a 40
+a t l 20 u
+h r
+c i
+s n 16 r
+30 °
+e C
+d
+e 12 i
+20 N
+8
+10
+4
+0 0
+Jan Feb Mär Apr Mai Jun Jul Aug Sep Okt Nov Dez
+Daten: Deutscher Wetterdienst, 2012
+
+Teilaufgabe 1
+
+Gib an, in welchem Monat die durchschnittliche Temperatur in Halle an der Saale am
+niedrigsten war.
+
+Teilaufgabe 2
+
+Gib die Spannweite (das ist die Differenz des größten und kleinsten Wertes) der
+durchschnittlichen Temperaturen an.
+Welcher Wert passt am besten?
+Kreuze an.
+10 ° C 18 ° C 25 ° C 32 ° C
+
+Teilaufgabe 3
+
+Gib an, in welchem Monat in Halle an der Saale am meisten Niederschlag fiel.
+
+Teilaufgabe 4
+
+Kann man anhand dieses Diagramms sagen, dass für Halle an der Saale im Laufe
+des Monats Juli die höchste Tagestemperatur des Jahres 2012 gemessen wurde?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== plaettchenziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Plättchen ziehen
+
+In einem Gefäß sind – gut gemischt – 20 gleich große Plättchen. Zehn davon sind mit A, die
+anderen zehn sind mit B beschriftet.
+
+Ellen zieht ohne hinzusehen ein Plättchen heraus.
+Gib die Wahrscheinlichkeit dafür an, dass Ellen ein Plättchen mit einem A zieht.
+Die Wahrscheinlichkeit beträgt.
+
+===== ratenbeimtest · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Raten beim Test
+
+Christian beantwortet in einem Test alle vier Fragen nur durch Raten. Zu jeder Frage gibt
+es vier Antworten, von denen immer nur eine richtig ist.
+
+Teilaufgabe 1
+
+Wie groß ist die Wahrscheinlichkeit dafür, dass Christian bei der ersten Frage die
+richtige Antwort ankreuzt?
+Gib dein Ergebnis an.
+
+Teilaufgabe 2
+
+Wie groß ist die Wahrscheinlichkeit ungefähr, dass Christian bei allen vier Fragen des
+Tests die richtigen Antworten ankreuzt?
+Kreuze an.
+ca. 25% ca. 4% ca. 2,5% ca. 0,4%
+
+===== restaurantgewinnspiel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K1, K3, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Restaurantgewinnspiel
+
+Jedes Jahr in der Weihnachtszeit veranstaltet ein Restaurant ein Gewinnspiel. Der Wirt füllt
+dazu 100 Kugeln mit den Nummern 1 bis 100 in ein undurchsichtiges Gefäß und deckt dieses
+mit einem Tuch ab. Ein Gast, der die Rechnung bekommt, muss eine Zahl zwischen 1 und
+100 nennen und dann, ohne hinzusehen, eine Kugel ziehen. Er zeigt dem Wirt die Nummer
+auf der Kugel und legt die Kugel wieder in das Gefäß zurück.
+
+Teilaufgabe 1: Restaurantgewinnspiel
+
+Stimmt die Nummer der gezogenen Kugel mit der vom Gast genannten Zahl überein, muss
+der Gast die Rechnung nicht bezahlen.
+Prüfe, ob die folgenden Aussagen richtig sind.
+Kreuze jeweils an.
+richtig falsch
+Durchschnittlich jede einhundertste Rechnung muss nicht
+bezahlt werden.
+Bei 100 Gästen darf mit Sicherheit einer umsonst essen.
+Die Wahrscheinlichkeit, dass die Rechnung nicht bezahlt
+werden muss, liegt bei 1%.
+Jeden Abend muss mindestens ein Gast sein Essen nicht
+bezahlen.
+
+ | M56004_A
+ | Teilaufgabe 2: Restaurantgewinnspiel
+
+7 100 10 100 19 100 20 100 7 10
+Enthält die Nummer auf der Kugel mindestens einmal die „Glücksziffer“ 7, bekommt der Gast
+einen Cappuccino gratis serviert.
+Wie groß ist die Wahrscheinlichkeit, einen Cappuccino gratis zu bekommen?
+Kreuze an.
+
+ | M56004_B
+ | Teilaufgabe 3: Restaurantgewinnspiel
+
+Der Wirt verrät einem Gast, dass an diesem Abend leider noch niemand gewonnen hat. Der
+Gast freut sich: „Prima, dann habe ich ja jetzt besonders gute Chancen. “
+Hat der Gast Recht?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+ | M56004_D
+ |
+
+===== rotgelbgruen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K1, K3, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rot, gelb, grün
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Rot, gelb, griin
+
+In einer Urne liegen drei rote, vier gelbe und funf griine Kugeln. Man zieht ohne
+Hinzusehen eine Kugel aus der Urne und legt sie anschlief&Send wieder zurtick.
+
+Teilaufgabe 1
+Mit welcher Wahrscheinlichkeit wird eine gruine Kugel gezogen?
+
+Kreuze an.
+1 5 1 5
+O; O; O15 Oi,
+aufgabe 2
+
+Gib die Farbe einer Kugel an, fur die die Wahrscheinlichkeit gezogen zu werden ;
+
+betragt.
+
+Begrtinde deine Antwort.
+
+Copyright Text und Teilaufgaben: 1QB e. V.. Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+Teil
+
+===== rubbellose · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rubbellose
+
+Eine Bäckerei führt zur Fußball - EM eine Verlosung durch. Während der 25 Spieltage
+bekommt jeder Kunde beim Einkauf ein Los mit drei Rubbelfeldern.
+Nach dem Freirubbeln sieht man auf jedem Feld entweder ein Fußballbild oder einen
+freien Kreis.
+Es gilt folgender Gewinnplan:
+Rubbelfelder Gewinn
+3 Fußballbilder ein echter Fußball
+2 Fußballbilder, 1 freier Kreis eine Autofahne
+1 Fußballbild, 2 freie Kreise ein Fußballbrötchen
+3 freie Kreise kein Gewinn
+Die Bäckerei lässt 7500 Lose drucken. 25 davon haben 3 Fußballbilder.
+
+Teilaufgabe 1
+
+1 3 3 25 1 25 1 300 1 7500
+Der erste Kunde bekommt ein Los.
+Mit welcher Wahrscheinlichkeit gewinnt er einen echten Fußball?
+Kreuze an.
+
+Teilaufgabe 2
+
+1 25 1 3 2 3
+Die Wahrscheinlichkeit für den ersten Kunden, eine Autofahne zu gewinnen,
+beträgt. der Autofahnen sind Deutschlandfahnen, sind Fahnen anderer
+Länder.
+Gib an, wie viele Deutschlandfahnen verlost werden.
+ Es werden Deutschlandfahnen verlost.
+
+===== rundfunkgebuehren · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K3, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K4, Jahrgang 2014; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rundfunkgebühren
+[Bild][Bild]
+20 €
+In der folgenden Abbildung ist die Entwicklung der monatlichen Rundfunkgebühren,
+die ein Haushalt bezahlen muss, seit dem Jahr 1953 dargestellt. Die Abbildung 1 18 €
+zeigt, wann es Gebührenerhöhungen gab und wie hoch danach die Gebühren waren.
+16 €
+Rundfunkgebühren in Deutschland
+14 €
+12 €
+10 €
+8 €
+6 €
+4 €
+Abbildung 1
+Grafik: © IQB
+2 €
+Herr Kunze hat sich genauer mit den Daten befasst und viel gerechnet. Seine Ergebnisse
+hat er in einer Tabelle aufgeschrieben. Allerdings hat er in der Kopfzeile nicht alle fünf
+0 €
+Spalten inhaltlich beschriftet. Zudem stehen in einigen Feldern Fragezeichen statt Daten.
+1953 1970 1974 1979 1983 1988 1990 1992 1997 2001 2005 2009
+Jahr Differenz Spalte 3 Spalte 4 Spalte 5
+1953 - 3,60 € - -
+1970 17 4,30 € 0,70 € 0,04 €
+1974 4 5,40 € 1,10 € 0,28 €
+1979 5 1,30 € 0,26 €?
+1983 4 8,30 € 1,60 € 0,40 €
+1988 8,50 € 0,20 € 0,04 €?
+1990 2 9,70 € 1,20 € 0,60 €
+2 12,20 € 2,50 € 1,25 €?
+1997 5 14,40 € 2,20 € 0,44 €
+2001 4 16,10 € 0,43 €?
+2005 4 17,00 € 0,90 € 0,23 €
+2009 4 17,90 € 0,90 €?
+Tabelle: © IQB
+
+Teilaufgabe 1
+
+Gib die Daten an, die in den Spalten 1, 2 und 3 fehlen.
+In der Spalte 1 fehlt.
+In der Spalte 2 fehlt.
+In der Spalte 3 fehlt.
+
+Teilaufgabe 2
+
+Die Daten in den Spalten 4 und 5 lassen sich nicht direkt aus der Abbildung ablesen.
+Sie müssen erst errechnet werden.
+Gib die Daten an, die in diesen beiden Spalten fehlen.
+In der Spalte 4 fehlt.
+In der Spalte 5 fehlt.
+
+Teilaufgabe 3
+
+Herr Kunze hat die Daten aus Abbildung 1 in einer zweiten Abbildung dargestellt.
+20 €
+18 €
+16 €
+14 €
+12 €
+10 €
+8 €
+6 €
+4 €
+2 €
+0 € Abbildung 2
+1950 1960 1970 1980 1990 2000 2010 2020
+Grafik: © IQB
+Nenne zwei Unterschiede, die Abbildung 2 gegenüber Abbildung 1 hat.
+Unterschied 1:
+Unterschied 2:
+Nenne einen Vorteil, den Abbildung 2 im Vergleich zu Abbildung 1 hat. (Du darfst
+auch einen der beiden Unterschiede nutzen.)
+
+===== saeulenhoehe · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Säulenhöhe
+
+cm
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Das Diagramm zeigt drei Säulen mit unterschiedlicher Höhe.
+
+Teilaufgabe 1
+
+Gib die durchschnittliche Höhe dieser drei Säulen an.
+ Die durchschnittliche Höhe beträgt cm.
+
+Teilaufgabe 2
+
+Eine weitere Säule wird in das Diagramm eingezeichnet. Die durchschnittliche Höhe der vier
+Säulen beträgt nun 7 cm.
+Wie hoch ist die vierte Säule?
+ Die vierte Säule ist cm hoch.
+
+===== schluessel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schlüssel
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Schltissel
+
+Andrea hat an ihrem Schliisselbund vier Schlussel, die sehr Aahnlich aussehen. Nur
+einer dieser Schlussel passt in das Schloss ihrer Haustir.
+
+Wie grofR ist die Wahrscheinlichkeit, dass die Haustiir mit dem ersten Schltissel
+aufgeht, den sie zufallig probiert?
+
+Kreuze an.
+
+Oo o4 ot oi Oo
+
+RIO
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== schokoladenbonbons · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K3, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schokoladenbonbons
+
+In einer Bonbondose befinden sich 10 Schokoladenbonbons. Sie sehen von außen alle
+gleich aus. 5 dieser Bonbons sind mit Vollmilchschokolade, 3 mit dunkler Schokolade und
+2 mit weißer Schokolade gefüllt.
+
+Teilaufgabe 1
+
+Gib die Wahrscheinlichkeit dafür an, bei der ersten Entnahme ein Bonbon mit weißer
+Schokoladenfüllung zu bekommen.
+
+Teilaufgabe 2
+
+In einer zweiten Bonbondose sind 7 Bonbons mit Vollmilchschokolade, 3 mit dunkler
+Schokolade und 4 mit weißer Schokolade gefüllt.
+Bei welcher Bonbondose ist die Wahrscheinlichkeit größer, bei der ersten Entnahme
+ein Bonbon mit dunkler Schokolade zu erhalten?
+Kreuze an.
+Bonbondose 1 Bonbondose 2 Die Wahrscheinlichkeit ist
+beide Male gleich.
+Begründe deine Antwort.
+
+===== schulkleidung · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 3, K4, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schulkleidung
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Schulkleidung
+
+An einer Schule wird Uber die Einflhrung einheitlicher Schulkleidung diskutiert. Lisa und
+Paul haben im Internet eine Studie der Fachhochschule Munster zu diesem Thema
+gefunden. Dort wurden insgesamt 17 812 Schilerinnen und Schiler befragt.
+
+Auf die Frage ,Warst du bereit, Schulkleidung zu tragen?“ haben 9018 (50,6 %) der
+Befragten mit ,ja“ geantwortet, 8136 (45,7 %) mit ,nein“, der Rest hat keine Angaben
+gemacht.
+Teilaufgabe 1
+
+Stelle die Ergebnisse der Befragung (,ja“/ ,nein“ / ,keine Angaben‘) in einem
+
+Saulendiagramm dar.
+
+Teil
+aufgabe 2
+Lisa hat die Ergebnisse der Befragung etwas auffalliger dargestellt und dabei ihre
+persénliche Meinung zu dem Thema einflieRen lassen.
+
+Bereit, Schulkleidung zu tragen
+100%
+90%
+80%
+70% Lia
+60% F
+50% 5 nein
+40%
+30%
+20%
+10%
+0%
+
+Lisa ist gegen die Einfuhrung einheitlicher Schulkleidung.
+Erlautere, warum Lisas Diagramm ihre Meinung betont.
+
+Copyright Text, Grafik und Teliaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== schulstatistik · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Schulstatistik
+
+Im Diagramm ist dargestellt, wie viele Schulen es im Schuljahr 2008 / 2009 in Sachsen - Anhalt
+gab. Es werden vier Schulformen unterschieden.
+Schulen in Sachsen - Anhalt
+3 Gesamtschulen
+6
+13
+Gymnasien
+69
+13
+Sekundarschulen 166
+39 Grundschulen
+520
+0 100 200 300 400 500 600
+staatliche Schulen Schulen in freier Trägerschaft
+
+Kreuze an, welche Schulform am häufigsten vertreten ist.
+Grundschule Sekundarschule Gymnasium Gesamtschule
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Schulstatistik
+
+Im Diagramm ist dargestellt, wie viele Schulen es im Schuljahr 2008/2009 in Sachsen-Anhalt
+gab. Es werden vier Schulformen unterschieden.
+
+Schulen in Sachsen-Anhalt
+
+Gesamtschulen PI
+
+: 13
+Gymnasien 69
+
+Sekundarschulen ji3______ 166
+
+Grundschulen |=GgL39
+
+}520
+T T T T T
+0 100 200 300 400 500 600
+O staatliche Schulen @ Schulen in freier Tragerschaft
+Kreuze an, welche Schulform am haufigsten vertreten ist.
+Grundschule Sekundarschule Gymnasium Gesamtschule
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== schwarzweisswuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K3, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schwarz-Weiß-Würfel
+
+Bei einem fairen Spielwürfel (siehe Abbildung) sind die Seiten mit den Augenzahlen 1 und
+6 schwarz gefärbt, die anderen vier Seiten mit den Augenzahlen 2, 3, 4 und 5 sind weiß.
+Grafik: © IQB
+
+Teilaufgabe 1
+
+Gib an, mit welcher Wahrscheinlichkeit beim Würfeln eine gerade Augenzahl nach
+oben zeigt.
+Die Wahrscheinlichkeit beträgt.
+
+Teilaufgabe 2
+
+1 2
+Tim sagt: „Bei diesem Würfel gibt es zwei Ergebnisse: Schwarz und Weiß. Also ist die
+Wahrscheinlichkeit für Schwarz. “
+Erkläre, warum Tim nicht Recht hat.
+
+===== spielwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 2, K3, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Spielwürfel
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Spielwurfel
+
+Man nennt einen Spielwirfel fair, wenn jede seiner Seitenflachen nach einem Wurf mit
+derselben Wahrscheinlichkeit oben liegen kann. Solche Wirfel konnen unterschiedlich
+viele Seitenflachen haben.
+
+Teilaufgabe 1
+
+Die Abbildung zeigt einen fairen 20-seitigen
+Spielwirfel, dessen Seitenflachen mit den
+Zahlen von 1 bis 20 beschriftet sind. 74 v
+
+Gib die Wahrscheinlichkeit dafiir an, dass die
+Zahl 11 geworfen wird.
+
+Teil
+aufgabe 2
+Die folgenden Aussagen beziehen sich auf faire Spielwirfel, deren Seitenflachen alle
+
+mit verschiedenen Zahlen beschriftet sind. Es geht um die Wahrscheinlichkeit eine
+bestimmte Zahl zu wirfeln.
+
+Priife die Aussagen und kreuze jeweils an.
+
+wahr falsch
+Je mehr Seitenflachen es sind, umso grdfer ist die oO oO
+Wahrscheinlichkeit.
+Wenn die gewiinschte Zahl lange nicht gewirfelt wurde,
+ist die Wahrscheinlichkeit beim nachsten Wurf gréRer als oO oO
+vorher.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== sprechstunde · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Sprechstunde
+
+Ein Arzt notiert an einem Vormittag, wie viele Mädchen und Jungen zur Sprechstunde
+kamen. Das Ergebnis hält er in folgender Liste fest:
+Zeit Mädchen Jungen
+9. 00 – 10. 00 Uhr
+10. 00 – 11. 00 Uhr
+11. 00 – 12. 00 Uhr
+
+Teilaufgabe 1
+
+Gib an, wie viele Mädchen insgesamt an diesem Vormittag zur Sprechstunde kamen.
+Mädchen
+
+Teilaufgabe 2
+
+Gib an, wie viele Kinder von 10: 00 Uhr bis 12: 00 Uhr zur Sprechstunde kamen.
+Kinder
+
+===== streichholzziehen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Streichholzziehen
+
+1 5 1 4 1 2 4 5
+Herr Peters hält fünf Streichhölzer in seiner Hand
+(siehe Foto). Vier dieser Streichhölzer haben eine
+normale Länge, eines ist gekürzt. Herr Peters sagt: „Wer
+das kurze Streichholz zieht, macht unser Auto sauber. “
+Sein jüngster Sohn zieht als Erster ein Streichholz.
+Wie groß ist die Wahrscheinlichkeit, dass er das kurze
+Streichholz zieht?
+Kreuze an.
+
+===== temperaturen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Temperaturen in Frankfurt am Main
+
+Die Tabelle und das Diagramm zeigen für Frankfurt am Main die langjährigen Durchschnitts -
+temperaturen der einzelnen Monate in °C.
+Monate Jan. Feb. März Apr. Mai Juni Juli Aug. Sep. Okt. Nov. Dez.
+Durchschnitts -
+1,6 2,3 6,2 9,5 14,2 17,2 19,4 19,0 14,8 9,8 2,7
+temperatur in °C
+21
+20
+19
+18 C
+° 17
+n i 16
+ r
+15 u t
+a 14 r
+e 13
+p 12
+m
+11 e t
+s 10 t
+t i
+9 n
+h 8
+c
+s 7
+h
+c 6 r
+u 5
+D 4
+3
+2
+1
+0
+Jan. Feb. März Apr. Mai Juni Juli Aug. Sep. Okt. Nov. Dez.
+Monate
+
+Teilaufgabe 1
+
+Trage die fehlende Durchschnittstemperatur für den Monat November in die Tabelle ein.
+
+Teilaufgabe 2
+
+Zeichne die fehlende Durchschnittstemperatur für den Monat August in das Diagramm ein.
+
+Teilaufgabe 3
+
+Prüfe, ob die folgenden Aussagen richtig oder falsch sind.
+Kreuze jeweils an.
+In Frankfurt am Main … richtig falsch
+… ist der Dezember der Monat mit der tiefsten Durchschnitts -
+temperatur.
+… ist der Anstieg der Durchschnittstemperatur zwischen März
+und April größer als zwischen April und Mai.
+… beträgt der Unterschied zwischen der tiefsten und der
+höchsten Durchschnittstemperatur 16,8 °C.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Temperaturen in Frankfurt am Main
+
+Die Tabelle und das Diagramm zeigen fiir Frankfurt am Main die langjahrigen Durchschnitts -
+
+temperaturen der einzelnen Monate in °C.
+
+Monate Jan. | Feb. | Marz} Apr.
+
+Mai | Juni
+
+Juli
+
+Aug.
+
+Sep. | Okt.
+
+Nov.
+
+Dez.
+
+Durchschnitts-
+
+temperatur in °C 16 | 23) 6,2 | 9.5
+
+14,2 | 17,2
+
+19,4
+
+19,0
+
+14,8] 9,8
+
+2,7
+
+21.
+20.
+
+19.
+
+18.
+
+17.
+
+16.
+
+15.
+
+14 +
+
+13.
+
+12.
+11
+
+10.
+
+Durchschnittstemperatur in °C
+
+OCRNWAUDNOO
+
+Jan. Feb. Marz Apr. Mai
+
+Juni Juli
+
+Monate
+
+Aug.
+
+Sep.
+
+Okt.
+
+Nov.
+
+Dez.
+
+Teilaufgabe 1
+
+Trage die fehlende Durchschnittstemperatur fir den Monat November in die Tabelle ein.
+
+Teilaufgabe 2
+
+Zeichne die fehlende Durchschnittstemperatur fur den Monat August in das Diagramm ein.
+
+Teilaufgabe 3
+Priife, ob die folgenden Aussagen richtig oder falsch sind.
+
+Kreuze jeweils an.
+
+In Frankfurt am Main ...
+
+richtig
+
+falsch
+
+... ist der Dezember der Monat mit der tiefsten Durchschnitts-
+temperatur.
+
+O
+
+... ist der Anstieg der Durchschnittstemperatur zwischen Marz
+und April groBer als zwischen April und Mai.
+
+O
+
+... betragt der Unterschied zwischen der tiefsten und der
+hdchsten Durchschnittstemperatur 16,8 °C.
+
+O
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== tombolazumschulfest · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Tombola zum Schulfest
+
+Bei einer Tombola auf einem Schulfest befinden sich 200 Lose in einem Gefäß. Davon
+sind 70 kleine Gewinne, 30 mittlere Gewinne und 10 Hauptgewinne. Der Rest sind Nieten.
+
+Teilaufgabe 1
+
+Gib an, bei wie vielen Losen es sich um Nieten handelt.
+Es gibt Nieten.
+
+Teilaufgabe 2
+
+Zeichne die Anteile der vier Losarten in dieses Streifendiagramm ein.
+Beschrifte die Anteile.
+
+===== waage · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Waage
+
+Beim Wiegen von 9 Schülern einer Klasse wurden folgende Gewichte notiert:
+Schüler A B C D E F G H I
+Gewicht 56 kg 65 kg 68 kg 56 kg 69 kg 57 kg 56 kg 59 kg 54 kg
+
+Teilaufgabe 1
+
+Die Gewichte sollen nach ihrer Größe geordnet werden.
+Ergänze.
+54 kg kg kg 56 kg 57 kg kg kg kg 69 kg
+
+Teilaufgabe 2
+
+Gib den Gewichtsunterschied zwischen dem schwersten und dem leichtesten Schüler an.
+ kg
+
+===== wahrscheinlicher · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K1, K3, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Wahrscheinlicher
+
+Welches der beiden Ereignisse hat die höhere Wahrscheinlichkeit?
+Kreuze an.
+Beim einmaligen Werfen eines Spielwürfels fällt eine Sechs.
+Beim einmaligen Werfen einer Münze liegt „Kopf“ oben.
+Begründe deine Entscheidung.
+
+===== werbelotterie · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K4, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Werbelotterie
+[Bild: image1.png]
+Teilaufgabe 1[Bild: image2.png]
+Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Werbelotterie
+
+Die Fluggesellschaft Trans American Airways (Kurzel TAA) veranstaltet eine Lotterie als
+Werbung. Aus einer Trommel werden zufallig nacheinander drei Kugeln mit Buchstaben
+gezogen.
+
+In der Trommel gibt es
+
+9 Kugeln mit dem Buchstaben A,
+4 Kugeln mit dem Buchstaben T und
+7 Kugeln mit dem Buchstaben X.
+
+Teilaufgabe 1
+
+Wie gro ist die Wahrscheinlichkeit, das Kiirzel TAA in der richtigen Reihenfolge zu
+ziehen, wenn die Kugeln nicht zuruckgelegt werden?
+
+Gib diese Wahrscheinlichkeit an.
+
+Teilaufgabe 2
+
+Wie gro ist die Wahrscheinlichkeit, das Kirzel TAA in der richtigen Reihenfolge zu
+ziehen, wenn die Kugeln nach jedem Ziehen zuruckgelegt werden?
+
+Gib diese Wahrscheinlichkeit an.
+
+Copyright Text und Tellaufgaben: 1QB e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.orgilicenses/by/ 4 dlegalcode.de
+
+===== werbemarkt · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K2, K3, K4, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Werbemarkt
+
+25,0
+Die folgende Grafik stellt die Gesamtausgaben für Werbung in den Jahren 2010 bis 2015
+dar. 20,0
+15,0
+10,0
+in Mrd. Euro
+5,0
+0,0
+2010 2011 2012 2013 2014 2015
+
+Nimm an, dass sich die Gesamtausgaben für Werbung in den nächsten Jahren
+ähnlich weiterentwickeln.
+Gib unter dieser Voraussetzung eine Prognose ab, wie hoch die Gesamtausgaben für
+Werbung im Jahr 2018 ungefähr sein werden.
+Ungefähre Höhe der Gesamtausgaben für Werbung im Jahr 2018: Mrd. €
+Notiere deinen Lösungsweg.
+
+===== wettkampfwaehlen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Wettkampf wählen
+
+Zum Sportfest werden in den 7. Klassen zwei Wettkämpfe organisiert, je einer für
+Mädchen und einer für Jungen. Die Jungen und die Mädchen entscheiden durch
+Abstimmung, in welcher Sportart ihr Wettkampf ausgetragen werden soll.
+So stimmen die Jungen ab:
+Sportart Basketball Fußball Handball Volleyball
+Anzahl der Stimmen 19 31 12 8
+So stimmen die Mädchen ab:
+Sportart Feldhockey Fußball Handball Volleyball
+Anzahl der Stimmen 4 32 10 34
+
+In welcher Sportart soll der Wettkampf der Jungen bzw. der Wettkampf der Mädchen
+nun ausgetragen werden?
+Ergänze.
+Jungen: Mädchen:
+
+===== winkelwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Winkelwürfel
+
+Um einen „Winkelwürfel“ herzustellen, wurde aus eine m Holzwürfel ein V iertel
+herausgeschnitten (siehe Abbildung).
+Als Ergebnis eines Wurfes gelten die Punkte, die oben liegen.
+Beim Würfeln treten die folgenden Ergebnisse auf:
+1 2 3 4 5
+
+Teilaufgabe 1:
+
+Einige Ergebnisse sind aufgrund der Form des Winkelwürfels sicherlich
+gleichwahrscheinlich.
+Kreuze jeweils an.
+Das Ergebnis 1 ist gleichwahrscheinlich mit:
+2 3 4 5
+Das Ergebnis 5 ist gleichwahrscheinlich mit:
+1 2 3 4
+
+Teilaufgabe 2:
+
+Mit diesem Winkelwürfel wurde 1000 - mal gewürfelt.
+Aus der Tabelle kannst du entnehmen, wie oft welches Ergebnis vorkam.
+Schätze damit unter Berücksichtigung der Symmetrien des Winkelwürfels die
+Wahrscheinlichkeiten der einzelnen Ergebnisse und trage sie in die Tabelle ein.
+Ergebnis
+1 2 3 4 5
+Anzahl 258 270 122 252 230 120
+Wahrscheinlichkeit
+
+===== wuerfelnmitquader · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K3, K4, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Würfeln mit Quader
+
+Auf die Seitenflächen eines Quaders werden die Augenzahlen 1 bis 6
+geschrieben. Nach 1000 - fachem Werfen des Quaders ergab sich
+folgende Häufigkeitstabelle für die oben liegenden Augenzahlen:
+ Augenzahl 1 2 3 4 5 6
+ absolute Häufigkeit 242 75 179 161 87 256
+Tabelle 1
+
+Teilaufgabe 1
+
+Das Netz dieses Quaders sieht wie hier abgebildet aus.
+Wie könnten die Augenzahlen 1 bis 6 auf dem Quader verteilt sein (vgl. Tabelle 1)?
+Trage eine Möglichkeit in das Netz ein.
+
+Teilaufgabe 2
+
+Was ist die beste Schätzung für die Wahrscheinlichkeiten der sechs Augenzahlen beim
+Werfen dieses Quaders? Beachte dabei die Symmetrie des Quaders.
+Trage die sechs Werte in die folgende Tabelle ein. Orientiere dich an Tabelle 1.
+Augenzahl 1 2 3 4 5 6
+Wahrscheinlichkeit
+
+===== wuerfelnmitzweiwuerfeln · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K2, K4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Würfeln mit zwei Würfeln
+
+Für eine Verlosung wurde das Glücksspiel „Würfeln mit zwei Würfeln“
+ausgewählt.
+In der folgenden Liste sind alle möglichen Ergebnisse beim Würfeln mit zwei
+Würfeln angegeben:
+(1,1) (1,2) (1,3) (1,4) (1,5) (1,6)
+(2,1) (2,2) (2,3) (2,4) (2,5) (2,6)
+(3,1) (3,2) (3,3) (3,4) (3,5) (3,6)
+(4,1) (4,2) (4,3) (4,4) (4,5) (4,6)
+(5,1) (5,2) (5,3) (5,4) (5,5) (5,6)
+(6,1) (6,2) (6,3) (6,4) (6,5) (6,6)
+
+Teilaufgabe 1: Würfeln mit zwei Würfeln
+
+Gib alle Ergebnisse an, die zu „Die Würfelsumme ist genau sechs. “ gehören.
+
+ | M55010_A
+ | Teilaufgabe 2: Würfeln mit zwei Würfeln
+
+Gib die Wahrscheinlichkeit an für:
+„Die Würfelsumme ist kleiner oder gleich vier. “
+
+ | M55010_B
+ | Teilaufgabe 3: Würfeln mit zwei Würfeln
+
+Welches der folgenden vier Ereignisse hat die gleiche Wahrscheinlichkeit wie
+„Die Würfelsumme ist genau 5. “?
+Kreuze an.
+Es ist mindestens eine 1 dabei.
+Die Würfelsumme ist genau 9.
+Die Würfelsumme ist genau 2.
+Es ist genau eine 5 dabei.
+
+ | M55010_C
+ |
+
+===== zaehlungvonfahrzeugen · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zählung von Fahrzeugen
+
+Eine Schülergruppe hat 500 Fahrzeuge beobachtet und gezählt. Ihre Ergebnisse haben die
+Schülerinnen und Schüler in folgender Tabelle dargestellt:
+Fahrzeugart PKW LKW Motorräder / Mofas Bus und andere
+Anzahl 300 120 60 20
+
+Vervollständige das unten stehende Stabdiagramm, indem du an den passenden Stellen die
+Anzahlen der gezählten Fahrzeuge einzeichnest.
+300
+260
+220
+180
+140
+100
+60
+20
+Motorräder / Bus PKW LKW
+Mofas und andere
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zahlung von Fahrzeugen
+
+Eine Schilergruppe hat 500 Fahrzeuge beobachtet und gezahlt. Ihre Ergebnisse haben die
+Schilerinnen und Schiler in folgender Tabelle dargestellt
+
+Fahrzeugart PKW LKW Motorrader/Mofas_ |Bus und andere
+
+Anzahl 300 120 60 20
+
+Vervollstandige das unten stehende Stabdiagramm, indem du an den passenden Stellen die
+Anzahlen der gezahiten Fahrzeuge einzeichnest.
+
+A
+00
+
+260 +
+220 +
+180 +:
+140 4
+100 +
+
+60 +
+
+20 +
+
+PKW LKW Motorrader / Bus
+Mofas und andere
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== zahlenwuerfel · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K3, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 1A, K3, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Zahlenwürfel
+
+Der faire Würfel im Foto hat 30 gleich große Seitenflächen.
+Diese sind mit den Zahlen 1 bis 30 beschriftet.
+
+Teilaufgabe 1
+
+Wie groß ist die Wahrscheinlichkeit, dass die Zahl 9 geworfen wird?
+ Die Wahrscheinlichkeit beträgt.
+
+Teilaufgabe 2
+
+1 30 1 2 1 15
+Wie groß ist die Wahrscheinlichkeit, eine ungerade Zahl zu werfen?
+Kreuze an.
+Das kann man nicht
+berechnen, ohne zu
+wissen, wie häufig
+gewürfelt wird.
+
+Teilaufgabe 3
+
+Stefan hat diesen Würfel 29 - mal geworfen. Dabei ist kein einziges Mal die Zahl 2 gefallen.
+Er sagt: „Beim nächsten Wurf fällt mit Sicherheit die 2, da bei 30 Würfen jede Zahl einmal
+fallen muss. “
+Hat Stefan Recht?
+Kreuze an.
+Ja Nein
+Begründe deine Entscheidung.
+
+===== zufallsversuche · Leitidee Daten und Zufall
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2012; Teilaufgabe 4: AFB III, Kompetenzstufe 3, K2, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zufallsversuche
+
+Mit einem 12 - seitigen Spielwürfel werden Zufallsversuche durchgeführt.
+Die Seiten dieses Würfels sind mit den Zahlen 1 bis 12 beschriftet.
+
+Teilaufgabe 1
+
+Gib zu jedem der folgenden Ereignisse an, welche Zahlen beim Würfeln oben liegen können.
+Schreibe die Ergebnisse in die Tabelle.
+Die oberen beiden Zeilen sind bereits ausgefüllt.
+ Ereignis Ergebnisse (Ausgänge)
+ Die Augenzahl ist gerade. 2, 4, 6, 8, 10, 12
+ Die Augenzahl ist durch 5 teilbar. 5, 10
+ Die Augenzahl ist kleiner als 5.
+ Die Augenzahl ist zweistellig und ungerade.
+
+Teilaufgabe 2
+
+Ein anderes Ereignis bei diesem Würfel soll genau drei Ergebnisse (Ausgänge) haben.
+Beschreibe dazu ein passendes Ereignis.
+
+Teilaufgabe 3
+
+Beim Spielen mit zwei 6 - seitigen Würfeln (s. Abbildung 1) werden oft beide Augenzahlen
+addiert.
+Die Tabelle zeigt alle möglichen Augensummen. Die 7 ist die am häufigsten vorkommende
+Summe.
+Würfel B 1 2 3 4 5 6
+Würfel A
+1 2 3 4 5 6 7
+2 3 4 5 6 7 8
+Abbildung 1 3 4 5 6 7 8 9
+4 5 6 7 8 9 10
+5 6 7 8 9 10 11
+6 7 8 9 10 11 12
+Beim Spielen mit zwei 12 - seitigen Würfeln (s. Abbildung 2) werden ebenfalls beide
+Augenzahlen addiert.
+Gib an, welche Augensumme dabei am häufigsten ist.
+Abbildung 2
+Begründe deine Antwort.
+
+Teilaufgabe 4
+
+Ein n - seitiger Würfel zeigt die Zahlen 1 bis n. Bei einem Spiel mit zwei n - seitigen Würfeln
+werden die beiden gewürfelten Augenzahlen addiert.
+Welche Zahl kommt dabei am häufigsten als Summe vor?
+Kreuze an.
+n + 2 2 n n · n n + 1
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zufallsversuche
+
+Mit einem 12-seitigen Spielwirfel werden Zufallsversuche durchgefuhrt.
+Die Seiten dieses Wirfels sind mit den Zahlen 1 bis 12 beschriftet.
+
+Teilaufgabe 1
+Gib zu jedem der folgenden Ereignisse an, welche Zahlen beim Wirfeln oben liegen kénnen.
+
+Schreibe die Ergebnisse in die Tabelle.
+Die oberen beiden Zeilen sind bereits ausgefilllt.
+
+Ereignis Ergebnisse (Ausgange)
+Die Augenzahl ist gerade. 2, 4, 6, 8, 10, 12
+Die Augenzahl ist durch 5 teilbar. 5,10
+
+Die Augenzahl ist kleiner als 5.
+
+Die Augenzahl ist zweistellig und ungerade.
+
+Teilaufgabe 2
+Ein anderes Ereignis bei diesem Wirfel soll genau drei Ergebnisse (Ausgange) haben.
+
+Beschreibe dazu ein passendes Ereignis.
+
+Teilaufgabe 3
+
+Beim Spielen mit zwei 6-seitigen Wirfeln (s. Abbildung 1) werden oft beide Augenzahlen
+addiert.
+
+Die Tabelle zeigt alle méglichen Augensummen. Die 7 ist die am haufigsten vorkommende
+Summe.
+
+worfelB}] 1 | 2| 3] 4/ 5| 6 = —
+Wirfel A : bats /]
+
+1 2 3 4 5 6 7
+
+2 3 4 5 6 7 8
+
+3 4 5 6 7 8 9 Abbildung 1
+
+4 5 6 7 8 9 | 10
+
+5 6 7 8 9 | 10| 11
+
+6 7 8 9} 10} 11] 12
+
+Beim Spielen mit zwei 12-seitigen Wirfeln (s. Abbildung 2) werden ebenfalls beide
+Augenzahlen addiert.
+
+Gib an, welche Augensumme dabei am haufigsten ist.
+
+| Abbildung 2
+Begriinde deine Antwort.
+
+Teilaufgabe 4
+Ein n-seitiger Wirfel zeigt die Zahlen 1 bis n. Bei einem Spiel mit zwei n-seitigen Wirfeln
+werden die beiden gewirfelten Augenzahlen addiert.
+
+Welche Zahl kommt dabei am haufigsten als Summe vor?
+
+Kreuze an.
+O O O O
+2n nn n+1 n+2
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode

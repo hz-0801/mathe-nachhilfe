@@ -1,0 +1,1154 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 2 (Messen)“, IQB Berlin – Aufgabe
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L2_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Aufgabe“ mit 1–4 Seiten; hier 47 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: je Aufgabendatei im Kopf als Bild, Wortlaut je Aufgabe unten
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== apfelsaftschorle · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Apfelsaftschorle
+
+Zur Herstellung einer Apfelsaftschorle mischt man vier fünftel Liter Apfelsaft mit einem halben
+Liter Mineralwasser.
+
+Passt die Apfelsaftschorle dann in eine Flasche mit einem Fassungsvermögen von maximal
+1,5 Liter?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Apfelsaftschorle
+
+Zur Herstellung einer Apfelsaftschorle mischt man vier fiinftel Liter Apfelsaft mit einem halben
+Liter Mineralwasser.
+
+Passt die Apfelsaftschorle dann in eine Flasche mit einem Fassungsvermdégen von maximal
+1,5 Liter?
+
+Kreuze an.
+OO sa OJ Nein
+
+Begriinde deine Antwort.
+
+Copyright Text und Teilaufgaben: QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== aussagendreiecke · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Aussagen über Dreiecke
+
+C
+g
+a
+b
+b
+B
+a c
+A
+ (nicht maßstabsgerecht)
+
+Teilaufgabe 1
+
+In einem Dreieck mit den Winkeln a, b und g sind b = 45 ° und g = 2 × a.
+Wie groß ist a?
+Kreuze an.
+135 ° 45 ° 67,5 ° 90 °
+
+Teilaufgabe 2
+
+In einem Dreieck mit den Winkeln a, b und g gilt g = 2 × a.
+Gib einen allgemeinen Term an, mit dessen Hilfe man die Größe von b in Abhängigkeit von a
+berechnen kann.
+b =
+
+===== berechnungenamrechteck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Berechnungen am Rechteck
+
+3
+c
+m
+(nicht maßstabsgerecht)
+5 cm
+
+Teilaufgabe 1:
+
+Gib den Flächeninhalt des abgebildeten Rechtecks an.
+
+Teilaufgabe 2:
+
+Gib den Umfang des abgebildeten Rechtecks an.
+
+===== berndunddasbrot · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bernd und das Brot
+
+Fülle den Lückentext sinnvoll aus. Verwende 500 g, 5 kg sowie 55,5 kg jeweils einmal.
+Bernd geht in die 6. Klasse. Seine volle Schultasche wiegt. Auf
+dem Heimweg von der Schule kauft er ein Brot, das wiegt. Bernd
+stellt sich mit seiner vollen Schultasche und dem Brot auf die Waage. Die Waage
+zeigt an.
+
+===== butter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Butter
+
+Petra braucht ein kleines Stück Butter zum Kuchenbacken.
+Gib an, wie viel Butter sie ungefähr von diesem 250 - g - Stück abgeteilt hat.
+g
+
+===== derriese · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K3, K4, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Der Riese
+
+In der Zeichnung ist ein Teil eines Kopfes zu sehen. Dieser Teil ist 3 m hoch.
+Wie groß wäre ein Riese ungefähr, zu dem dieser Teil des Kopfes gehört?
+m
+Schreibe deinen Lösungsweg auf.
+
+===== derstern · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Der Stern
+
+m
+c
+1
+(nicht maßstabsgerecht) 1 cm
+Wie groß ist der Flächeninhalt des abgebildeten Sterns?
+Kreuze an.
+2 2 2 2 7 cm 12 cm 16 cm 20 cm
+
+===== figurauszweidreiecken · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K1, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Figur aus zwei Dreiecken
+
+Gegeben ist eine Figur aus zwei Dreiecken.
+d
+g ‧
+‧ b
+a
+
+Sind die beiden Winkel a und d gleich groß?
+Kreuze jeweils an, ob die Aussagen und deren Begründungen richtig oder falsch sind.
+Die beiden Winkel a und d sind... richtig falsch
+… gleich groß, denn die beiden Dreiecke sind
+kongruent.
+… gleich groß, denn b und g sind Scheitelwinkel und
+daher gleich groß. Außerdem ist a + b = 90 ° und es ist
+g + d = 90 °. Also ist a = 90 ° - b = 90 ° - g = d.
+… nicht gleich groß, denn in einem kleineren Dreieck ist
+auch der entsprechende Winkel kleiner.
+… gleich groß, denn beide Winkel haben einen
+Schenkel gemeinsam und ihre beiden anderen
+Schenkel verlaufen parallel zueinander. a und d sind
+also Wechselwinkel an parallelen Geraden.
+… nicht gleich groß, denn b und g sind nicht gleich groß.
+
+===== flaechengleichodernicht · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Flächengleich oder nicht?
+Teilaufgabe 1:
+
+4 cm 4,5 cm
+5 cm (nicht maßstabsgerecht)
+Gib an, wie groß der Flächeninhalt dieses Parallelogramms ist.
+2
+Der Flächeninhalt des Parallelogramms beträgt cm.
+
+Teilaufgabe 2:
+
+In der Abbildung sind zwei Parallelogramme dargestellt.
+a
+a || b
+b
+Ist der Flächeninhalt der beiden Parallelogramme gleich groß?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== flaecheninhalt · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Flächeninhalt
+
+Gib den Flächeninhalt dieser Figur an.
+3 cm
+5 cm
+(nicht maßstabsgerecht)
+2
+Der Flächeninhalt beträgt cm.
+
+===== fliesenfuerdenfussboden · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Fliesen für den Fußboden
+
+2 Eine 1 m große Teilfläche eines Bades soll mit quadratischen Fliesen unterschiedlicher
+Größe ausgelegt werden (siehe Bild). Die Fliesen sollen so liegen, dass ihre Kanten direkt
+aneinanderstoßen.
+groß mittel
+klein
+1 m
+1 m
+
+Teilaufgabe 1
+
+Gib die Seitenlänge jeder Fliesenart (groß, mittel, klein) an.
+Seitenlänge einer großen Fliese: cm
+Seitenlänge einer mittleren Fliese: cm
+Seitenlänge einer kleinen Fliese: cm
+
+Teilaufgabe 2
+
+Der Rest des Bades soll mit quadratischen Fliesen ausgelegt werden, die alle
+dieselbe Größe haben. Dabei kann man zwischen zwei Fliesengrößen wählen. Die
+Seiten der kleineren Fliesen sind halb so lang wie die Seiten der größeren Fliesen.
+Welche der folgenden Aussagen ist richtig?
+Kreuze an.
+Verwendet man nur die kleineren Fliesen, so benötigt man im Vergleich zu den
+größeren Fliesen...
+… halb so viele. … genauso viele. … doppelt so viele. … viermal so viele.
+
+===== fussleisten · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fußleisten
+
+Ein Zimmer, das 4 m lang und 5 m breit ist, soll renoviert werden. Die Renovierung ist fast
+beendet und nur die Fußleisten fehlen noch.
+
+Teilaufgabe 1: Fußleisten
+
+Gib an, wie viele Fußleisten von je 2,50 m man mindestens braucht.
+Die Breite der Zimmertür soll vernachlässigt werden.
+Man benötigt mindestens Fußleisten.
+
+ | M25135_A
+ | Teilaufgabe 2: Fußleisten
+
+Eine Fußleiste von 2,50 m Länge kostet 3 €.
+Gib an, wie teuer 30 m Fußleisten sind.
+€
+
+ | M25135_B
+ |
+
+===== gesamtkantenlaenge · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Gesamtkantenlänge
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Gesamtkantenlange
+
+Ein Quader hat die in der Abbildung angegebenen Make.
+
+4cm
+
+7 2cm
+
+Sem (nicht ma&stabsgerecht)
+
+Wie lang sind alle Kanten des Quaders zusammen?
+
+Kreuze an.
+
+OO 11cm 0 22cm CJ 33cm
+
+Copyright Text, Grafik und Tellaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+0 44cm
+
+===== gewerbezone · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Gewerbezone
+
+Neben einer Bundesstraße wird mit diesem Plakat für eine neue Gewerbezone geworben.
+2
+Hinweis: 1 ha = 10 000 m
+
+Gib an, in wie viele Grundstücke sich die noch verfügbare Fläche höchstens aufteilen lässt.
+ In höchstens Grundstücke.
+
+===== hauptstaedte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 1B, K2, K3, K4, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Hauptstädte
+
+Die Karte zeigt die europäischen Hauptstädte. In der linken unteren Ecke ist der
+Maßstab dieser Karte angegeben.
+Reykjavik
+Helsinki
+Oslo Stockholm
+Tallinn
+Riga Moskau
+Kopenhagen Dublin Wilna
+Amsterdam Minsk
+London Berlin Warschau
+Brüssel
+Kiew Luxemburg
+Prag Paris
+Bratislava
+Wien Chi ş in ă u Bern Vaduz
+Budapest
+Ljubliana
+Zagreb
+Belgrad Bukarest San Marino
+Monaco Andorra La Sarajevo
+Lissabon Madrid Vella Sofia
+Podgorica Rom, Vatikanstadt
+Skopje
+Tirana Ankara
+Athen
+1 cm ≙ 360 km Nikosia
+Valletta
+Grafik: © IQB
+
+Teilaufgabe 1
+
+Gib an, wie lang die Strecke (Luftlinie) zwischen Berlin und Athen in der Wirklichkeit
+ist.
+km
+
+Teilaufgabe 2
+
+Welche der folgenden Hauptstädte ist etwa 1100 km von Berlin entfernt?
+Kreuze an.
+Reykjavik Luxemburg Helsinki Wilna
+
+===== holzstab · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Holzstab
+Teilaufgabe 1: Holzstab
+
+Ein 3 m langer Holzstab wird in zwei gleich lange Teile zersägt.
+Gib an, wie lang jedes Teil ist.
+m
+
+ | M25137_A
+ | Teilaufgabe 2: Holzstab
+
+Von einem 2 m langen Pfahl steckt ein Viertel im Boden.
+Gib an, wie viel Meter des Pfahls nicht im Boden stecken.
+m
+
+ | M25137_B
+ |
+
+===== honigbiene · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Honigbiene
+
+Wie lang ist diese Biene ungefähr?
+Kreuze an.
+1,5 mm 1,5 cm 1,5 dm 1,5 m
+
+===== judomatte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Judomatte
+
+Bei den Olympischen Spielen wird der Judokampf innerhalb einer 8 m x 8 m
+großen quadratischen Kampfzone ausgetragen.
+Wie groß ist diese?
+Kreuze an.
+2 2 2 2 2 8 m 16 m 32 m 64 m 256 m
+
+ | M25004_A
+ |
+
+===== koerperfuellen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Körper füllen
+
+Ein Quader, dessen Kanten hier dick gezeichnet sind, ist mit einigen kleinen
+3 1 - cm - Würfeln gefüllt.
+1 cm
+1 cm
+1 cm
+Grafik: © IQB
+
+Wie groß ist das Volumen des Quaders insgesamt?
+Kreuze an.
+3 3 3 3 3 14 cm 16 cm 74 cm 90 cm 126 cm
+
+===== kopfundkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Kopf und Körper
+
+Als Faustregel sagt man, dass bei Babys die Länge des Kopfes zur 1
+gesamten Körpergröße ungefähr im Verhältnis 1: 4 steht. Beim
+Erwachsenen dagegen ist dieses Verhältnis ungefähr 1: 8.
+4
+
+Teilaufgabe 1:
+
+Ein Baby hat eine Kopflänge von 12 cm.
+Gib seine ungefähre Körpergröße an.
+Körpergröße: cm
+
+Teilaufgabe 2:
+
+Ein Erwachsener hat eine Körpergröße von 1,84 m.
+Gib die ungefähre Länge seines Kopfes an.
+Länge des Kopfes: cm
+
+===== kreisfiguren · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K2, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Kreisfiguren
+[Bild: image1.png]
+[Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Kreisfiguren
+
+In der Abbildung siehst du Figuren, die durch Kreislinien und Strecken begrenzt sind.
+
+Eo |
+
+Li |
+
+Figur A Figur B Figur C Figur D
+Zwei der vier Figuren haben denselben Flacheninhalt. Welche sind das?
+
+Figur. und Figur ss haben denselben Flacheninhalt.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== leistungdesmotors · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Leistung des Motors
+
+Die Leistung von Fahrzeugmotoren wurde früher in PS angegeben. Mittlerweile wird
+sie in kW angegeben. 1 kW sind etwa 1,36 PS.
+Auto A hat eine Motorleistung von 89 kW.
+Auto B hat eine Motorleistung von 109 PS.
+Welches Auto hat eine größere Motorleistung?
+Kreuze an.
+Auto A
+Auto B
+Die Motorleistung beider Autos ist gleich.
+
+===== maus · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Maus
+
+ Foto: Holger Meinig
+ http:// www. guetersloh. de / Z 3 VldGVyc 2 xvaGQ 0 Y 21 zOjU 2 ODcy. x 4 s
+
+Hier stimmt die Größenangabe nicht: „Mäuse wiegen im Durchschnitt 40 Tonnen. “
+Welche der folgenden Maßeinheiten passt hier zur Maßzahl 40?
+Kreuze an.
+Kilogramm (kg) Gramm (g) Milligramm (mg) Mikrogramm (m g)
+
+===== messzylinder · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Messzylinder
+[Bild][Bild]
+500 ml
+400
+300
+200
+100
+Abbildung 1
+Grafik: © IQB
+Gib an, wie viel Flüssigkeit sich in diesem Messzylinder befindet.
+ml
+
+===== muelltonne · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Mülltonne
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Mulltonne
+
+Ermittle, welches Volumen diese Milltonne etwa hat.
+
+Diese Milltonne hat etwa ein Volumen von
+
+Notiere deinen Lé6sungsweg.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== nagelbrett · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Nagelbrett
+
+Die Abbildung 1 zeigt ein Nagelbrett („Geobrett“).
+Der Abstand der benachbarten Nägel auf dem Brett beträgt 2 cm.
+Man kann mit Hilfe eines Gummirings verschiedene Figuren spannen. Dabei sollen jetzt
+nur Rechtecke gespannt werden, deren Seiten parallel zu den Brettkanten sind.
+2 Die Abbildung 2 zeigt als Beispiel ein Quadrat mit einem Flächeninhalt von 16 cm.
+
+Foto: © IQB Foto: © IQB
+Abbildung 1 Abbildung 2
+
+Teilaufgabe 1
+
+2 Es soll ein Rechteck mit einem Flächeninhalt von 48 cm entstehen.
+Zeichne in die Abbildung 3 ein, wie der Gummiring gespannt werden kann.
+
+Foto: © IQB
+Abbildung 3
+
+Teilaufgabe 2
+
+2 Kann man auf diesem Nagelbrett ein Rechteck von 18 cm spannen?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== nashorn · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Nashorn
+
+Dieses Foto wurde kurz nach der Geburt eines Nashornbabys im Budapester Zoo
+aufgenommen.
+Grafik: Bela Szandelszky, © AP / © dpa Picture - Alliance GmbH
+
+Das Nashornbaby hatte zu diesem Zeitpunkt eine Schulterhöhe von 60 cm (im Bild als
+Doppelpfeil eingezeichnet).
+Welche Länge hatte das Nashornbaby zu diesem Zeitpunkt (von der Nase bis zum
+Hinterteil)?
+Länge:
+Notiere deinen Lösungsweg.
+
+===== pappschachtel · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Pappschachtel
+[Bild: image1.png]
+Teilaufgabe 1[Bild: image2.png]
+Teilaufgabe 2[Bild: image3.png][Bild: image4.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Pappschachtel
+
+Eine Schachtel (siehe Abbildung 1) ist innen 2,5cm hoch und je 8cm breit und 8cm lang.
+
+a Abbildung 1
+
+Teilaufgabe 1
+Wie gro ist das Volumen der Schachtel?
+
+Kreuze an.
+C1 18,5cm* C1 66,5cm* 1 160cm* 1 512cm*
+
+Teilaufgabe 2
+
+Man kann eine solche Schachtel aus einer quadratischen Pappe mit der Seitenlange
+13cm falten. Hierzu muss an jeder der vier Ecken ein Quadrat mit der Seitenlange x
+ausgeschnitten werden (siehe Abbildung 2). Dann missen die Rander an den
+gestrichelten Linien nach oben gefaltet und zusammengeklebt werden.
+
+13cm Abbildung 2 (nicht mastabsgerecht)
+
+Wie gro muss die Seitenlange x sein, damit man die Schachtel aus Abbildung 1
+erhalt?
+
+Kreuze an.
+0 x=2,5cm 0] x=5cm O] x=8cm 0 x=10,5cm
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== parfum · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Parfum
+
+Parfums werden meist in edlen Glasflaschen (siehe Abbildung 1) verkauft. Ein
+Pumpzerstäuber auf diesen Flaschen verteilt das Parfum in winzig kleine Tröpfchen
+(siehe Abbildung 2). Dabei werden mit jedem Pumpstoß durchschnittlich 0,2 ml Parfum
+verteilt.
+Abbildung 1 Abbildung 2
+
+Teilaufgabe 1
+
+Gib an, wie viel Milliliter Parfum bei täglicher Verwendung eines Pumpstoßes nach
+zehn Tagen verbraucht sind.
+ml
+
+Teilaufgabe 2
+
+Sandra kauft eine Parfumflasche mit 100 ml Inhalt.
+Gib an, wie lange diese Flasche wohl reicht, wenn Sandra täglich mehrere Pumpstöße
+Parfum verwendet.
+Tage
+Notiere deinen Lösungsweg.
+
+===== quader · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Quader
+
+Die Abbildung zeigt einen Holzquader.
+m
+c
+6
+m c
+(Abbildung nicht maßstabstreu) 4
+5 cm
+
+Teilaufgabe 1
+
+Berechne das Volumen dieses Quaders.
+3 V = cm
+
+Teilaufgabe 2
+
+Alle Seiten des Quaders sollen mit Papier beklebt werden.
+Wie viel Papier wird (mindestens) benötigt?
+Kreuze an.
+2 2 2 2 148 cm 45 cm 74 cm 120 cm
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Quader
+
+Die Abbildung zeigt einen Holzquader.
+
+|
+|
+
+(Abbildung nicht mastabstreu)
+—+ 5cm —>
+
+Teilaufgabe 1
+Berechne das Volumen dieses Quaders.
+
+V= cm?
+
+Teilaufgabe 2
+Alle Seiten des Quaders sollen mit Papier beklebt werden.
+
+Wie viel Papier wird (mindestens) bendtigt?
+
+Kreuze an.
+O Oo O
+45cm? 74cm? 120 cm?
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+148 cm?
+
+===== quadratflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Quadratfläche
+
+Bestimme den Flächeninhalt des gegebenen Quadrats.
+Gib dein Ergebnis an.
+
+ | M25111_A
+ |
+
+===== quadratimgitter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Quadrat im Gitter
+
+Auf das Gitterpapier ist ein Quadrat gezeichnet.
+2
+1 Kästchen entspricht dabei 1 cm.
+1 cm
+(nicht maßstabsgerecht)
+Gib den Flächeninhalt des Quadrats an. Du darfst auch Hilfslinien einzeichnen.
+2
+cm
+
+===== rauminhaltvonprismen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rauminhalt von Prismen
+[Bild][Bild]
+Körper A Körper B
+m m
+c c
+6 6
+1 1
+a
+2 a = 10 cm G = 100 cm
+Grafik: © IQB
+Die Rauminhalte der zwei Körper A und B sollen verglichen werden, ohne die beiden
+Rauminhalte jedoch konkret auszurechnen. Die Grundfläche von Körper A ist ein
+Quadrat mit 10 cm Kantenlänge, die Grundfläche G von Körper B ist ein Sechseck mit
+2 100 cm Flächeninhalt.
+Welche der folgenden Aussagen ist richtig?
+Der Rauminhalt von Körper A ist größer als der Rauminhalt von Körper B.
+Der Rauminhalt von Körper A ist gleich dem Rauminhalt von Körper B.
+Der Rauminhalt von Körper A ist kleiner als der Rauminhalt von Körper B.
+Man kann die Rauminhalte der zwei Körper nur vergleichen, indem man sie
+konkret ausrechnet.
+
+===== rauten · Leitidee Messen (auch im Archiv L3)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 4: AFB III, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Rauten
+
+Die Eckpunkte D der Rauten A B C D wandern auf der Geraden g mit der Gleichung x x x x x
+y = x. Dabei gilt immer:
+· Die Diagonalen A C dieser Rauten sind 2 cm lang. x x
+· Die Punkte B liegen auf der x - Achse und haben jeweils die gleiche x - Koordinate wie x
+die Punkte D. x
+Im Koordinatensystem sind zwei solche Rauten dargestellt, zu x = 4 und zu x = 7.
+y
+10
+g
+D 7
+5
+D 4
+A C 7 7
+A C 4 4
+1 cm
+1
+x
+B B 4 7
+0 1 5 10
+
+Teilaufgabe 1
+
+Wie groß ist der Flächeninhalt der Raute A B C D? 4 4 4 4
+2 cm
+
+Teilaufgabe 2
+
+2 Die Raute A B C D hat einen Flächeninhalt von 10 cm.
+x x x x
+Gib die Koordinaten des zugehörigen Punktes D an. x
+D ( |) x
+
+Teilaufgabe 3
+
+Für welchen Wert von x ist die Raute A B C D gleichzeitig ein Quadrat? x x x x
+Gib den x - Wert an.
+x =
+
+Teilaufgabe 4
+
+Wie groß ist allgemein der Flächeninhalt der Raute A B C D? x x x x
+Kreuze an.
+2 2 2 2 0,25 x cm 0,5 x cm x cm 2 x cm
+
+===== rollrasen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K3, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Rollrasen
+
+Herr Klie hat eine Gartenbaufirma und gestaltet einen Teil seines Firmengeländes in eine
+Rasenfläche um. Diese neue Rasenfläche ist 11 m lang und 10,5 m breit.
+Aus Zeitgründen verwendet Herr Klie Rollrasen (siehe Fotos 1 und 2). Als Rollrasen bezeich -
+net man fertigen Rasen, der in rechteckige Stücke geschnitten und dann zum Transport
+aufgerollt wird.
+Foto 2 Foto 1
+
+Teilaufgabe 1: Rollrasen
+
+Gib die Größe der neuen Rasenfläche an.
+2 m
+
+ | M25122_A
+ | Teilaufgabe 2: Rollrasen
+
+Ein Streifen Rollrasen ist 0,6 m breit, 0,03 m dick und 2 m lang.
+Ermittle, wie viele Streifen Herr Klie benötigt, um die gesamte Rasenfläche mit Rollrasen
+auszulegen. Reststücke eines Streifens werden weiterverarbeitet.
+Streifen
+Notiere deinen Rechenweg.
+
+ | M25122_B
+ | Teilaufgabe 3: Rollrasen
+
+Herr Klie transportiert mehrere Streifen Rollrasen in einer Schubkarre
+(siehe Foto 3).
+Ermittle das Gewicht der sieben Rollen Rollrasen, die er pro Fuhre
+3 transportieren kann. Ein m Rollrasen wiegt circa 900 kg.
+kg
+Foto 3
+
+ | M25122_C
+ |
+
+===== schokolinsen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Schokolinsen
+
+Auf dem Foto siehst du sehr viele Schokolinsen.
+Schätze, wie viele Schokolinsen auf diesem Foto abgebildet sind. Du kannst dafür
+eine der abgebildeten Figuren verwenden.
+Das Foto zeigt etwa Schokolinsen.
+Beschreibe dein Vorgehen.
+
+===== schulgrundstueck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Schulgrundstück
+
+a 10 m
+Die Abbildung zeigt das Luftbild einer Schule.
+Darauf sind das Schulgrundstück (schwarz
+umrandet) und die Schulgebäude zu sehen.
+
+Teilaufgabe 1
+
+Die zwei größten Gebäude auf dem Grundstück sind die Schulgebäude.
+Bestimme mit Hilfe der Angaben im Bild die Länge a.
+ Länge a dieses Schulgebäudes: m
+
+Teilaufgabe 2
+
+Auf dem Schulhof werden 100 - m - Sprints gelaufen. Sebastian will eine 100 - m - Laufbahn als
+Strecke in das Foto einzeichnen.
+Wie lang ist die Strecke, die er zeichnen müsste?
+ cm
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) ® _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+SchulgrundstUck
+
+Die Abbildung zeigt das Luftbild einer Schule.
+Darauf sind das Schulgrundstiick (schwarz
+umrandet) und die Schulgebaude zu sehen.
+
+Teilaufgabe 1
+Die zwei gr6Rten Gebaude auf dem Grundstiick sind die Schulgebaude.
+
+Bestimme mit Hilfe der Angaben im Bild die Lange a.
+
+Lange a dieses Schulgebaudes: m
+
+Teilaufgabe 2
+
+Auf dem Schulhof werden 100-m-Sprints gelaufen. Sebastian will eine 100-m-Laufbahn als
+Strecke in das Foto einzeichnen.
+
+Wie lang ist die Strecke, die er zeichnen musste?
+
+cm
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== umfangundflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Umfang und Fläche
+
+1 cm
+1 cm
+
+Teilaufgabe 1
+
+Gib an, wie lang der Umfang der dick umrandeten Figur ist.
+cm
+
+Teilaufgabe 2
+
+Gib den Flächeninhalt der dick umrandeten Figur an.
+2 cm
+
+===== unregelmaessigesviereck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Unregelmäßiges Viereck
+
+Flächeninhalte von Rechtecken oder Dreiecken kann man leicht mit Formeln ausrechnen,
+wenn bestimmte Längen gegeben sind oder gemessen werden können.
+Hier ist ein Viereck abgebildet, für das es keine Formel zur direkten Berechnung des
+Flächeninhalts gibt.
+C
+D
+B
+A
+Beschreibe möglichst genau, wie man den Flächeninhalt dieses Vierecks sehr genau
+bestimmen kann.
+Veranschauliche dein Vorgehen in der Abbildung, indem du z. B. die Strecken markierst oder
+einzeichnest, deren Länge du messen musst.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Unregelmafiges Viereck
+
+Flacheninhalte von Rechtecken oder Dreiecken kann man leicht mit Formeln ausrechnen ,
+wenn bestimmte Langen gegeben sind oder gemessen werden k6énnen.
+Hier ist ein Viereck abgebildet, fiir das es keine Formel zur direkten Berechnung des
+
+Flacheninhalts gibt.
+Cc
+
+A
+
+Beschreibe méglichst genau, wie man den Flacheninhalt dieses Vierecks sehr genau
+bestimmen kann.
+
+Veranschauliche dein Vorgehen in der Abbildung, indem du z.B. die Strecken markierst oder
+einzeichnest, deren Lange du messen musst.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== winkelimdreieck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Winkel im Dreieck
+
+Ein Dreieck hat die Innenwinkel a, b und g.
+Es gilt: b ist doppelt so groß wie a.
+g ist dreimal so groß wie a.
+Gib an, wie groß der Winkel g ist.
+g =
+
+===== winkelimparallelogramm · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Winkel im Parallelogramm
+
+Das dargestellte Viereck ABCD ist ein Parallelogramm.
+Die Seite CD dieses Parallelogramms wird gedanklich auf der Geraden h hin und her
+verschoben. Dabei bleibt die Seite CD immer auf der Geraden h. Die Lage der Seite AB
+verändert sich nicht.
+D C
+h
+a
+g
+A B
+
+Gib an, für welche Winkelgröße a der Umfang des Parallelogramms am kleinsten ist.
+Der Umfang des Parallelog ramms ist für a = am kleinsten.
+Begründe deine Antwort.
+
+ | M26006_A
+ |
+
+===== winkelmessen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Winkel messen
+
+Miss die Größe des Winkels a. Runde auf ganze Grad.
+a
+a = °
+
+===== wuerfelbau · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Würfelbau
+
+Marco hat kleine Würfel aufgestapelt und dann so miteinander verklebt, dass dieser Körper
+entstanden ist. Die in der Zeichnung verdeckten Würfel sind alle schon eingebaut.
+
+Drei der folgenden fünf Zeichnungen stellen diesen Körper in einer anderen Ansicht dar.
+Kreuze diese drei Ansichten an.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p__ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Wiurfelbau
+
+Marco hat kleine Wirfel aufgestapelt und dann so miteinander verklebt, dass dieser KOrper
+entstanden ist. Die in der Zeichnung verdeckten Wirfel sind alle schon eingebaut.
+
+Drei der folgenden fiinf Zeichnungen stellen diesen Korper in einer anderen Ansicht dar.
+Kreuze diese drei Ansichten an.
+
+O O 0
+
+rN
+
+J i>. Gn "
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== wuerfelkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Würfelkörper
+
+Ein Würfel ist aus lauter kleinen Würfeln zusammengesetzt (siehe
+3 Bild). Jeder der kleinen Würfel hat ein Volumen von 1 cm.
+(Abbildung nicht maßstabsgerecht)
+
+Teilaufgabe 1
+
+Gib an, wie groß das Volumen des großen Würfels ist.
+3 Das Volumen des großen Würfels beträgt cm.
+
+Teilaufgabe 2
+
+Gib an, wie groß die Oberfläche des großen Würfels ist.
+2 Die Oberfläche des großen Würfels beträgt cm.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Wirfelk6rper
+LZZT| Ein Wirfel ist aus lauter kleinen Wurfeln zusammengesetzt (siehe
+
+Bild). Jeder der kleinen Wirfel hat ein Volumen von 1cm3.
+
+(Abbildung nicht ma&stabsgerecht)
+
+Teilaufgabe 1
+Gib an, wie gro& das Volumen des grofen Wirfels ist.
+
+Das Volumen des groRen Wirfels betragt cm,
+
+Teilaufgabe 2
+Gib an, wie groB die Oberflache des groRen Wirfels ist.
+
+Die Oberflache des groBen Wirfels betragt cm.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== wuerfeloberflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Würfeloberfläche
+
+Verkleinert man die Kantenlänge eines Würfels, verkleinert sich auch die Größe seiner
+Oberfläche.
+Die Kantenlänge eines Würfels wird halbiert.
+Um wie viel Prozent verkleinert sich die Größe seiner Oberfläche?
+Kreuze an.
+um 25% um 50% um 75% um 87,5%
+Begründe deine Antwort.
+
+===== wuerfelturm2 · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2017; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Würfelturm 2
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+Teilaufgabe 3
+[Bild: image4.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Wirm 2
+
+In der Abbildung siehst du einen Wirfelturm. Der erste Wirfel hat die Kantenlange a.
+Die dartiber stehenden Wirfel haben immer die halbe Kantenlange des jeweils darunter
+stehenden Wirfels.
+
+Dritter Warfel
+
+Zweiter Warfel
+
+Erster Wirfel
+
+Teilaufgabe 1
+Gib an, wie oft der zweite Wiurfel in den ersten passt.
+
+-mal
+Teil
+aufgabe 2
+
+Erganze die Formel fur das Gesamtvolumen V dieses Wirfelturms. Auer a sollen
+keine weiteren Variablen benutzt werden.
+
+Teilaufgabe 3
+
+Zwei weitere kleinere Wirfel werden auf die vorhandenen drei Wirfel gestapelt. Das
+heiB&t, die Kantenlange dieser Wirfel ist ebenfalls jeweils halb so gro wie die des
+darunter liegenden Wirfels.
+
+Wie oft passt der fiinfte Wirfel in den ersten?
+Kreuze an.
+
+0 16-mal 0 64-mal (J 512-mal (1 4096-mal
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgilicenses/by/ 4 dlegalcode.de
+
+===== zeitangabe · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zeitangabe
+
+1 2
+Wie viele Minuten sind 2 Stunden?
+60 min 90 min 150 min 250 min

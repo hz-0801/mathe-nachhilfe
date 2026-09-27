@@ -1,0 +1,2048 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 4 (Funktionaler Zusammenhang)“, IQB Berlin – Aufgabe
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L4_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Aufgabe“ mit 1–4 Seiten; hier 67 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: je Aufgabendatei im Kopf als Bild, Wortlaut je Aufgabe unten
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== abstandaufdemwasser · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K3, K4, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Abstand auf dem Wasser
+
+Ein Schiff fährt mit gleichbleibender Geschwindigkeit aus einem Hafen an einem Leuchtturm
+vorbei. Der nachstehenden Abbildung kann man entnehmen, wie viele Minuten es vom
+Ablegen bis zu den markierten Positionen braucht.
+Leuchtturm 35 min
+30 min
+25 min
+20 min
+15 min
+10 min
+5 min
+2 km
+Hafen
+
+Welcher Graph stellt den Abstand des Schiffes zum Leuchtturm als Funktion der Zeit dar?
+Kreuze an.
+Abstand zum Abstand zum
+Leuchtturm (km) Leuchtturm (km)
+11 11
+10 10
+9 9
+8 8
+7 7
+6 6
+5 5
+4 4
+3 3
+2 2
+1 1
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab Fahrzeit ab
+Hafen (min) Hafen (min)
+Abstand zum Abstand zum
+Leuchtturm (km) Leuchtturm (km)
+11 11
+10 10
+9 9
+8 8
+7 7
+6 6
+5 5
+4 4
+3 3
+2 2
+1 1
+2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 Fahrzeit ab
+Hafen (min) Hafen (min)
+
+ | M45025_A
+ |
+
+===== ampelkarte · Leitidee Funktionaler Zusammenhang (auch im Archiv L5)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Ampelkarte
+
+Lebensmittel enthalten unter anderem Fett, gesättigte Fettsäuren, Zucker und Salz zu
+unterschiedlich hohen Anteilen. Die drei Farben der sogenannten Ampelkarte sollen helfen,
+die Höhe der jeweiligen Anteile einzustufen.
+
+Teilaufgabe 1
+
+Der folgenden Tabelle ist zu entnehmen, wann ein Anteil als gering, mittel oder hoch
+einzustufen ist.
+Alle Angaben beziehen sich auf 100 g des Lebensmittels.
+Bestandteil gering (grün) mittel (gelb) hoch (rot)
+Fett  20 g
+gesättigte Fettsäure  5 g
+Zucker  12,5 g
+Salz  1,5 g
+Sandra findet auf einer Dose Nüsse folgende Angaben (pro 100 g):
+Fett 50,8 g
+davon gesättigte Fettsäuren 14 g
+Zucker 5,8 g
+Salz 0,13 g
+Gib an, wie die Ampelkarte für die einzelnen Bestandteile dieser Nüsse gefärbt werden
+müsste.
+Fett Farbe:
+gesättigte Fettsäure Farbe:
+Zucker Farbe:
+Salz Farbe:
+
+Teilaufgabe 2
+
+Für Getränke gelten sogar nur halbe Werte im Vergleich zur Tabelle in Teilaufgabe 1.
+Alle Angaben beziehen sich auf 100 ml des Getränks.
+Bestandteil gering (grün) mittel (gelb) hoch (rot)
+Fett  10 g
+gesättigte Fettsäure  2,5 g
+Zucker  6,25 g
+Salz  0,75 g
+Prüfe, ob der Zuckeranteil der folgenden Getränke hoch ist.
+Kreuze jeweils an.
+ja nein
+Orangensaft: 100 ml enthalten 9,3 g Zucker
+Apfelschorle: 200 ml enthalten 10,6 g Zucker
+Cola: ein Glas (250 ml) enthält 27 g Zucker
+
+===== anderelaenderanderenoten · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K5, K6, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 3, K2, K3, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Andere Länder - andere Noten
+
+ Erreichte Punktzahl 51 Maximalpunktzahl
+In der Schweiz wird - anders als in Deutschland - eine sehr gute Leistung mit 6 benotet,
+und für eine sehr schlechte Leistung bekommt man die Note 1.
+So wird in einigen Schweizer Schulen die Note für eine Mathematikarbeit mit folgender
+Formel berechnet:
+Note =
+Die berechnete Note wird auf eine Stelle nach dem Komma gerundet, d. h. es gibt
+beispielsweise auch die Note 3,6.
+
+Teilaufgabe 1
+
+In einer Mathematikarbeit mit einer Maximalzahl von 50 Punkten wurden 30 Punkte
+erreicht.
+Gib an, welche Note in der Schweiz bei Anwendung der Formel erteilt wird.
+Note:
+
+Teilaufgabe 2
+
+In einer anderen Mathematikarbeit können maximal 100 Punkte erreicht werden. Ein
+Schüler bekommt nach der Formel die Note 5,5.
+Welche Punktzahl kann er erreicht haben?
+Gib eine mögliche Punktzahl an.
+ Punkte
+Notiere deinen Lösungsweg.
+
+Teilaufgabe 3
+
+In den Niederlanden werden sogar die Noten 1 bis 10 vergeben. Die schlechteste
+Note ist die 1, die beste Note ist die 10.
+Stelle für die Niederlande eine Formel auf, mit der sich die Note aus der erreichten
+Punktzahl und der Maximalpunktzahl errechnen lässt.
+Note =
+
+===== aussagenzurprop · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Aussagen zur proportionalen Zuordnung
+
+Die Abbildung zeigt den Graphen einer proportionalen Zuordnung.
+y
+80
+70
+60
+50
+40
+30
+20
+10
+x
+0 10 20 30 40 50 60 70 80
+
+Welcher der vier Punkte A, B, C und D gehört nicht zu diesem Graphen?
+Kreuze an.
+D (60 | 40) A (10 | 15) B (30 | 20) C (45 | 30)
+
+ | M46011_A
+ |
+
+===== berechnex · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Berechne x
+
+Gegeben ist die Gleichung 8 x = 72.
+Berechne x.
+x =
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Berechne x
+
+Gegeben ist die Gleichung 8x = 72.
+Berechne x.
+
+x=
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== bestimmex · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Bestimme x
+[Bild: image1.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-bertinde | Q) 5 institut zur Qualitatsentwicklung im Bildungswesen
+
+Bestimme x
+
+Es giltx -—5=15.
+Welchen Wert hat x?
+
+Copyright Text und Teilaufgaben: 1QB e. V.. Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== druckmaschinen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Druckmaschinen
+
+Eine moderne Druckmaschine kann in vier Stunden 60 000 Bögen Papier bedrucken.
+
+Teilaufgabe 1:
+
+Mit einer solchen Druckmaschine werden 90 000 Bögen Papier bedruckt.
+Gib an, wie lange dies dauert.
+Stunden
+
+Teilaufgabe 2:
+
+Bei einem Druckauftrag von insgesamt 60 000 Bögen Papier drucken zwei solcher
+Druckmaschinen gleichzeitig.
+Gib an, wie lange dies dauert.
+Stunden
+
+===== eindeutig · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Eindeutig
+
+Selina und Jasmin üben das Lösen von Gleichungen.
+
+Teilaufgabe 1
+
+ 332174 xx  324 xx  332174 xx
+„Bei den folgenden Gleichungen sehe ich sofort, ohne zu rechnen, ob sie jeweils eine
+oder keine Lösung haben“, sagt Selina.
+Entscheide, ob die folgenden Gleichungen eine oder keine Lösung haben.
+Kreuze jeweils an.
+Es gibt keine Lösung. Es gibt eine Lösung.
+
+Teilaufgabe 2
+
+Für eine weitere Gleichung finden beide Mädchen nicht nur eine, sondern unendlich
+viele Lösungen. Jasmin sagt: „Es gibt auch Gleichungen mit unendlich vielen
+Lösungen. In diese kann man für x jede beliebige Zahl einsetzen und es entsteht
+immer eine wahre Aussage."
+Notiere eine Gleichung, auf die Jasmins Beschreibung zutrifft.
+
+===== einfachegleichung · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Einfache Gleichung
+
+ 18312 x
+Gegeben ist die Gleichung.
+Gib den Wert für x an.
+x =
+
+===== eiscafe · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 1A, K5, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Eiscafé
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Eiscafé
+
+Im Eiscafé Arnoldo kostet jede Kugel Eis 0,80€.
+Eine Portion Sahne kostet 0,50€.
+
+<X
+
+Teilaufgabe 1
+Gina kauft vier Kugeln Eis mit einer Portion Sahne.
+Wie viel muss Gina bezahlen?
+
+A €
+Teil
+aufgabe 2
+
+Im Eiscafé Venezia bezahit Max fur funf Kugeln Eis ohne Sahne 4,50€.
+In welchem Eiscafé ist eine Kugel Eis ginstiger?
+Kreuze an.
+OU Eiscafé Arnoldo (J Eiscafé Venezia
+Notiere deinen Lésungsweg.
+
+Copyright Text, Grafik und Tellaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== fliesen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fliesen
+
+2 Zum Fliesen eines Badezimmers werden 50 Platten mit einer Größe von jeweils 0,16 m
+benötigt.
+2 Der Besitzer entschließt sich dann aber doch, Fliesen der Größe 0,2 m verlegen zu lassen.
+Gib an, wie viele Fliesen jetzt mindestens nötig sind.
+Fliesen
+
+ | M45017_A
+ |
+
+===== freunde · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 1B, K4, K6, Jahrgang 2014; Teilaufgabe 3: AFB II, Kompetenzstufe 1A, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Freunde
+
+Alex (A), Bastian (B), Can (C) und Daniel (D) sind Freunde.
+Das Diagramm zeigt Informationen zu ihrer Körpergröße und zu ihrem Alter.
+Körpergröße
+B
+C
+D
+A
+Alter
+
+Teilaufgabe 1
+
+Wer ist der Älteste in der Gruppe?
+Kreuze an.
+Alex Bastian Can Daniel
+Wer ist der Kleinste in der Gruppe?
+Kreuze an.
+Alex Bastian Can Daniel
+
+Teilaufgabe 2
+
+Die folgende Tabelle enthält Aussagen über Alex, Bastian, Can und Daniel.
+Prüfe, ob die Aussagen durch das Diagramm bestätigt werden.
+Kreuze jeweils an.
+trifft nicht
+trifft zu
+zu
+Die zwei Kleinsten sind auch die zwei Jüngsten.
+Weder der Älteste noch der Jüngste sind der Kleinste
+oder der Größte.
+
+Teilaufgabe 3
+
+Erol (E) ist Cans Bruder. Er ist jünger und kleiner als Can.
+Zeichne in das gegebene Diagramm eine Möglichkeit ein, wo der Punkt für Erol (E)
+liegen kann.
+
+===== fuellverhalten · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K3, K4, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Füllverhalten
+Teilaufgabe 1
+[Bild: image1.png]Teilaufgabe 2[Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-bertinde | Q) 3 institut zur Qualitatsentwicklung im Bildungswesen
+
+Fullverhalten
+
+Teilaufgabe 1
+Der abgebildete Standzylinder ist leer und wird gleichmaRig mit Wasser befilllt.
+
+Zeichne in das abgebildete Koordinatensystem einen Graphen, der diesen
+Fillvorgang beschreibt.
+
+Fullhdhe
+
+el
+
+Teil
+aufgabe 2
+Das abgebildete GefaR ist leer und wird gleichmaRig mit Wasser befillt, bis es voll ist.
+
+Entscheide, welcher der dargestellten Graphen diesen Fillvorgang am besten
+beschreibt.
+
+Kreuze an.
+oO Oo
+~) 4 Fullhéhe Te
+il
+/
+it
+> >
+Zeit Mo Zeit)
+O Oo
+* Fullhdhe 4 Fiullhohe
+=
+==,
+>
+Zeit
+
+Copyright Text, Grafik und Teliaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== fuenfundvierzig · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Fünfundvierzig
+
+Bestimme die fehlende Zahl.
+ 6 ‧ + 3 = 45
+
+ |
+
+===== geldanlegen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K3, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Geld anlegen
+Teilaufgabe 1
+[Bild: image1.png]Teilaufgabe 2[Bild: image2.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Geld anlegen
+
+Teilaufgabe 1
+
+Hanna legt bei einer Bank 2000€ an. Sie wird in den nachsten drei Jahren nichts von
+diesem Geld abheben. Jahrlich erhalt sie 1,8 % Zinsen. Die Zinsen werden
+mitverzinst.
+
+Wie hoch wird ihr Guthaben bei der Bank nach drei Jahren sein?
+
+Kreuze den Geldbetrag an, der am besten passt.
+OU 2018€ OU 2036€ OJ 2108€ 0 2110€
+
+Teil
+aufgabe 2
+
+Lily m6chte auch Geld anlegen. Der Bankberater teilt ihr mit, dass sie fur ihren
+Geldbetrag innerhalb von vier Jahren insgesamt 150€ Zinsen bekommen wirde.
+Sie Uberlegt sich: ,Dann zahle ich heute einfach 150€ weniger ein. Nach den vier
+Jahren wird dann der Betrag auf dem Konto sein, den ich im Moment habe.“
+
+Hat Lily recht?
+
+Kreuze an.
+
+OO sa 0 Nein
+
+Begrunde deine Entscheidung ohne Rechnung.
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== geradenimkoordinatensystem · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Geraden im Koordinatensystem
+
+ 1 2 2 yx
+Die Abbildung zeigt die Gerade mit der Gleichung.
+y
+1
+x
+0
+1 5
+
+An welcher Stelle schneidet die Gerade die x - Achse?
+Kreuze an.
+x = - 2 x = 0 x = 4 x = 5
+
+===== geschichtezurgraphik · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Geschichte zur Graphik
+
+Strecke in km
+Zeit in Stunden 0
+Eine der folgenden Beschreibungen wurde hier graphisch dargestellt.
+Kreuze die Beschreibung an, die zu der Graphik passt.
+Paula und Sepp machen eine Bergtour. Zuerst steigt der Weg nur wenig an
+und die beiden kommen gut voran. Dann ist der Weg eine Zeit lang eben.
+Zum Schluss ist der Weg bis zum Gipfel ziemlich steil und Paula und Sepp
+kommen nur langsam voran.
+Herr Heuer kauft Aktien. Zuerst steigt der Wert der Aktien. Dann bleibt er
+eine Zeit lang konstant. Schließlich steigt der Wert steil an und Herr Heuer
+könnte die Aktien mit Gewinn verkaufen.
+Lisa und Sven machen eine Radtour. Nach einiger Zeit hat Sven eine
+Panne und sie müssen sein Rad reparieren. Für den Rest der Strecke
+fahren beide mit höherer Geschwindigkeit, um die versäumte Zeit
+aufzuholen.
+Lars ist auf dem Weg zur Schule. Unterwegs fällt ihm ein, dass er seinen
+Taschenrechner vergessen hat, den er für die Mathearbeit braucht. Er läuft
+zurück nach Hause, nimmt den Taschenrechner und muss sich jetzt
+beeilen, um pünktlich zur Schule zu kommen.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Geschichte zur Graphik
+
+Strecke in km
+A
+
+0 > Zeit in Stunden
+
+Eine der folgenden Beschreibungen wurde hier graphisch dargestellt.
+
+Kreuze die Beschreibung an, die zu der Graphik passt.
+
+Paula und Sepp machen eine Bergtour. Zuerst steigt der Weg nur wenig an
+und die beiden kommen gut voran. Dann ist der Weg eine Zeit lang eben.
+
+0 Zum Schluss ist der Weg bis zum Gipfel ziemlich steil und Paula und Sepp
+kommen nur langsam voran.
+
+Herr Heuer kauft Aktien. Zuerst steigt der Wert der Aktien. Dann bleibt er
+oO eine Zeit lang konstant. SchlieRlich steigt der Wert steil an und Herr Heuer
+k6nnte die Aktien mit Gewinn verkaufen.
+
+Lisa und Sven machen eine Radtour. Nach einiger Zeit hat Sven eine
+Panne und sie miissen sein Rad reparieren. Fir den Rest der Strecke
+
+O fahren beide mit héherer Geschwindigkeit, um die versaumte Zeit
+aufzuholen.
+
+Lars ist auf dem Weg zur Schule. Unterwegs fallt inm ein, dass er seinen
+Taschenrechner vergessen hat, den er fir die Mathearbeit braucht. Er lauft
+
+O zuruck nach Hause, nimmt den Taschenrechner und muss sich jetzt
+beeilen, um piinktlich zur Schule zu kommen.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== geschwindigkeit · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Geschwindigkeitsüberschreitung
+
+Für Geschwindigkeitsüberschreitungen (d. h. für zu schnelles Fahren) innerhalb von Ortschaften
+gelten neue Bußgelder.
+ Geschwindigkeitsüberschreitung bisher jetzt
+50 € 80 € um 21 bis 25 km / h
+60 € 100 € um 26 bis 30 km / h
+100 € 160 € um 31 bis 40 km / h
+125 € 200 € um 41 bis 50 km / h
+175 € 280 € um 51 bis 60 km / h
+300 € 480 € um 61 bis 70 km / h
+425 € 760 € über 70 km / h
+
+Jemand fährt in der Innenstadt mit einer Geschwindigkeit von 58 km / h, obwohl dort nur 30 km / h
+erlaubt sind.
+Mit welchem Bußgeld ist jetzt zu rechnen?
+Kreuze an.
+280 € 60 € 100 € 175 €
+
+===== gewitter · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Gewitter
+
+Bei einem Gewitter sieht man den Blitz sofort und
+hört den dazugehörigen Donner erst später. Der
+Schall des Donners braucht etwa drei Sekunden,
+um einen Kilometer zurückzulegen.
+
+Teilaufgabe 1
+
+Ein Blitz ist zu sehen. Den Donner hört man nach 4,5 Sekunden.
+Gib an, wie weit der Blitz ungefähr entfernt ist.
+ Der Blitz ist ungefähr km entfernt.
+
+Teilaufgabe 2
+
+Ein Blitz ist in einer Entfernung von 5,5 Kilometern zu sehen.
+Nach ungefähr wie vielen Sekunden hört man den Donner?
+Kreuze an.
+16,5 s 2,0 s 5,5 s 8,5 s
+
+===== gleichungenloesenistni · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2011; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Gleichungen lösen ist nicht schwierig
+
+Gleichungen können auf verschiedene Arten gelöst werden.
+
+Teilaufgabe 1: Gleichungen lösen ist nicht schwierig
+
+ 71442 x
+Timo soll die Gleichung durch Probieren lösen. Dazu soll er verschiedene Zahlen
+für x einsetzen und ausprobieren, ob die Gleichung dann stimmt.
+Welche Zahl muss eingesetzt werden, damit die Gleichung stimmt?
+Kreuze an.
+4 8 20 44 56
+
+ | M46017_A
+ | Teilaufgabe 2: Gleichungen lösen ist nicht schwierig
+
+ 71438 x
+Daniel soll die Gleichung rechnerisch lösen. Dazu soll er sie schrittweise nach x
+umformen.
+Notiere Daniels Lösungsweg.
+
+ | M46017_B
+ | Teilaufgabe 3: Gleichungen lösen ist nicht schwierig
+
+In den Teilaufgaben 1 und 2 wurden die gegebenen Gleichungen auf zwei verschiedene
+Weisen gelöst. Timo hat die Gleichung durch Probieren gelöst, Daniel durch Umformen.
+Die Wahl der Vorgehensweise hängt auch von der zu lösenden Gleichung ab.
+Gib zwei Gleichungen an, die sich durch Probieren leicht lösen lassen, und gib zwei weitere
+Gleichungen an, die sich besser durch Umformen lösen lassen.
+Probieren
+1. Gleichung:
+2. Gleichung:
+Umformen
+1. Gleichung:
+2. Gleichung:
+Erkläre jeweils, warum du die Gleichungen durch Probieren bzw. durch Umformen löst.
+
+ | M46017_C
+ |
+
+===== gleichungfinden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Gleichung finden
+
+Eine Zahl n wird mit 5 multipliziert. Von diesem Produkt wird 7 subtrahiert.
+Die Differenz ist 38.
+Teilaufgabe 1
+
+Welche der folgenden Gleichungen entspricht dieser Rechnung?
+Kreuze an.
+5 n + 7 = 38
+5 n – 7 = 38
+5 n · 7 = 38
+5 (n – 7) = 38
+
+Teilaufgabe 2
+
+Gib an, wie groß n ist.
+n =
+
+===== gleichungloesen1 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Gleichung lösen 1
+
+ 46 x
+Löse die Gleichung.
+
+===== gleichungloesen2 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Gleichung lösen 2
+
+ 1 3 1 3
+Welche Lösung hat die Gleichung 16 – 6 x = 14?
+Kreuze an.
+x = - 5 x = x = x = 3 x = 4
+
+===== gleichungloesen3 · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Gleichung lösen 3
+
+Welche Zahl ist Lösung der Gleichung 2 x - 4 = 6?
+Kreuze an.
+1 3 5 8 10
+
+===== gleichungveraendern · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Gleichung verändern
+
+2414 x 
+Gegeben ist die Gleichung.
+
+Teilaufgabe 1
+
+Welche Lösung hat die Gleichung?
+Kreuze an.
+3 5 7 10 12
+
+Teilaufgabe 2
+
+Verändere in der Gleichung genau eine der drei Zahlen 2, 4 oder 14 so, dass die
+veränderte Gleichung die Lösung x = 9 hat.
+Gib eine passende neue Gleichung an.
+
+===== gueterverkehr · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Güterverkehr
+
+Das Diagramm stellt für verschiedene Transportmittel den Zusammenhang zwischen den
+Kosten einer transportierten Tonne Ware und der Länge des Transportweges dar.
+Die Graphen gehen auch für Transportwege über 500 km so weiter.
+Kosten je Tonne in €
+LKW
+1000
+Bahn
+Binnenschiff
+500
+100 Länge des
+Transportweges in km
+0 100 200 300 400 500
+
+Teilaufgabe 1
+
+Eine Tonne Ware soll 400 km transportiert werden.
+Gib an, wie teuer dieser Transport mit der Bahn ist.
+€
+
+Teilaufgabe 2
+
+Gib für einen Transportweg von 50 km das günstigste Transportmittel an.
+Kreuze an.
+LKW Bahn Binnenschiff
+
+===== hochrad · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 1, K2, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K2, K3, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Hochrad
+
+Bei einem Hochrad ist das Vorderrad (Durchmesser: d = 1,56 m) V
+wesentlich größer als das Hinterrad (Durchmesser: d = 52 cm). Bei H
+einer Umdrehung des Vorderrades legt man eine Strecke von etwa
+4,90 m zurück.
+Die Abbildung zeigt ein Hochrad (Abb. nicht maßstäblich).
+
+Teilaufgabe 1: Hochrad
+
+Gib an, welche Strecke man bei 15 Radumdrehungen des Vorderrades zurücklegt.
+m
+
+ | M44031_A
+ | Teilaufgabe 2: Hochrad
+
+Gib an, wie viele Umdrehungen des Vorderrades für eine Strecke von 34,3 m notwendig sind.
+Es sind Umdrehungen nötig.
+
+ | M44031_B
+ | Teilaufgabe 3: Hochrad
+
+Wie oft dreht sich das Hinterrad, um eine Strecke von etwa 34,3 m zurückzulegen?
+Kreuze an.
+27 12 16 21
+
+ | M44031_C
+ |
+
+===== imkreislaufen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Im Kreis laufen
+
+Paul läuft im Abstand von ungefähr einem Meter um ein kreisrundes Iglu herum.
+Welcher Graph passt am besten, um diese Bewegung darzustellen?
+Kreuze an.
+d: Entfernung zum Startpunkt (Luftlinie)
+t: benötigte Zeit
+d d
+t t
+d d
+t t
+
+===== inliner · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K2, K3, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Inliner
+
+km h
+Lara umrundet auf Inline - Skates einen See. Sie startet vom Parkplatz aus und braucht für
+die 12 km bis zum Eiscafé 40 Minuten. Im Eiscafé macht Lara 30 min Pause.
+Anschließend fährt sie mit einer Geschwindigkeit von 12 weiter und ist nach einer
+halben Stunde wieder am Parkplatz.
+Teilaufgabe 1
+
+Zeichne in das folgende Koordinatensystem ein Zeit - Weg - Diagramm für Laras
+Seeumrundung.
+gefahrene
+Strecke (in km)
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2 Zeit
+(in min)
+0 130 10 20 30 40 50 60 70 80 90 100 110 120 140
+
+Teilaufgabe 2
+
+km h
+Paul startet mit seinem Fahrrad 40 Minuten später als Lara auf dem Parkplatz. Er fährt
+die gleiche Runde um den See wie Lara. Paul fährt mit einer
+Durchschnittsgeschwindigkeit von 28.
+Ist Lara noch im Eiscafe, wenn Paul dort ankommt?
+Kreuze an.
+Nein Ja
+Begründe deine Entscheidung.
+
+===== joggen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K3, K4, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Joggen
+Teilaufgabe 1
+
+Die ideale Trainingsbelastung
+Rechnen Sie 200 minus Lebensalter. Das ergibt den Maximalpuls. Beim Training sollte man
+mindestens 65% vom Maximalpuls erreichen, aber auch nicht mehr als 85%.
+
+Herr Fuchs ist 35 Jahre alt und trainiert nach dieser Faustregel.
+Trage ein, zwischen welchen Werten sich sein Trainingspuls bewegen sollte. Runde auf
+ganze Zahlen.
+Trainingspuls: mindestens: höchstens:
+
+Teilaufgabe 2
+
+Für ein beliebiges Lebensalter x lässt sich der für den Trainingspuls empfohlene Bereich mit
+Hilfe von Termen beschreiben.
+Gib einen Term für den unteren Wert des Trainingspulses an.
+
+Teilaufgabe 3
+
+Zu einem Lauftreff kommen ganz unterschiedlich alte Menschen. Der Trainer möchte jedem
+Einzelnen sehr schnell den Bereich für seinen Trainingspuls nennen können. Er will deshalb
+eine Tabelle erstellen, aus der er für jedes Lebensalter sofort die richtigen Werte für den
+Trainingspuls ablesen kann. Er verwendet dazu eine Tabellenkalkulation:
+untere Grenze obere Grenze
+
+Der Wert für die obere Grenze des Trainingspulses in der Zelle D 4 wird mit einer Formel
+berechnet. In dieser Formel wird für das Lebensalter die Zellbezeichnung A 4 verwendet.
+Gib eine passende Formel hierfür an.
+D 4: =
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Joggen
+
+Teilaufgabe 1
+
+Die ideale Trainingsbelastung
+
+Rechnen Sie 200 minus Lebensalter. Das ergibt den Maximalpuls. Beim Training sollte man
+mindestens 65% vom Maximalpuls erreichen, aber auch nicht mehr als 85%.
+
+Herr Fuchs ist 35 Jahre alt und trainiert nach dieser Faustregel.
+
+Trage ein, zwischen welchen Werten sich sein Trainingspuls bewegen sollte. Runde auf
+ganze Zahlen.
+
+Trainingspuls: mindestens: hdchstens:
+
+Teilaufgabe 2
+
+Fir ein beliebiges Lebensalter x lasst sich der flr den Trainingspuls empfohlene Bereich mit
+Hilfe von Termen beschreiben.
+
+Gib einen Term fiir den unteren Wert des Trainingspulses an.
+
+Teilaufgabe 3
+
+Zu einem Lauftreff kommen ganz unterschiedlich alte Menschen. Der Trainer méchte jedem
+Einzelnen sehr schnell den Bereich fiir seinen Trainingspuls nennen kénnen. Er will deshalb
+eine Tabelle erstellen, aus der er fiir jedes Lebensalter sofort die richtigen Werte fiir den
+Trainingspuls ablesen kann. Er verwendet dazu eine Tabellenkalkulation:
+
+A [ B [ c D
+1 |Pulswerte beim Training
+2
+3 | Lebensalter_| Maximalpuls
+4 15 185 124 187
+5 16
+6 17
+7 18
+8 19
+9 20
+10 21
+11 22
+12 23
+13 24
+14 25
+18 26
+16 27
+17 28
+18 23
+19 20
+
+Der Wert fiir die obere Grenze des Trainingspulses in der Zelle D4 wird mit einer Formel
+berechnet. In dieser Formel wird fiir das Lebensalter die Zellbezeichnung A4 verwendet.
+
+Gib eine passende Formel hierfiir an.
+
+D4: =
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== jubilaeumsgeschenk · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Jubiläumsgeschenk
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Jubilaumsgeschenk
+
+Frau Lehmann will ihrem Nachbarn zum Jubilaum einen Rosenstrauf schenken. Jede
+Rose kostet 3€. Im Blumenladen will sie zusammen mit dem Strauk eine
+Gluckwunschkarte fur 2€ kaufen.
+
+Teilaufgabe 1
+
+X bezeichnet die Anzahl der Rosen, y bezeichnet den Gesamtpreis in € (Preis der
+Rosen plus Karte).
+
+Gib eine Gleichung an, wie sich y aus x berechnen lasst.
+
+Teil
+aufgabe 2
+Herr Meier will sich an dem Geschenk zum Jubilaum beteiligen. Er schlagt vor, einen
+Strau& mit der doppelten Anzahl an Rosen und dazu eine gemeinsame
+Glickwunschkarte zu kaufen.
+
+Verdoppelt sich dann der Gesamtpreis?
+Kreuze an.
+O Ja C1 Nein
+
+Begrtnde deine Entscheidung.
+
+Copyright Text und Teilaufgaben: 1QB e. V.. Lizenz: Creative Commons (CC BY).
+Volitext unter: https://creativecommons.orgilicenses/by/ 40/legalcode.de
+
+===== kraftfutter · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Kraftfutter
+
+Im Zoo bekommen die Nashörner Kraftfutter. Der Kraftfuttervorrat reicht für fünf Nashörner
+sechs Wochen.
+Gib an, wie lange die gleiche Menge Kraftfutter für 10 Nashörner reicht.
+Das Kraftfutter reicht Tage.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Kraftfutter
+
+Im Zoo bekommen die Nashérner Kraftfutter. Der Kraftfuttervorrat reicht fir funf Nashérner
+sechs Wochen.
+
+Gib an, wie lange die gleiche Menge Kraftfutter fiir 10 Nashdrner reicht.
+
+Das Kraftfutter reicht Tage.
+
+Copyright Text und Teilaufgaben: QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== lagevonzweigeraden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K4, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Lage von zwei Geraden
+
+ 43 yx  43 yx
+Gegeben sind zwei Geraden durch die folgenden Gleichungen:
+1)
+2)
+Welche Lage haben diese Geraden zueinander?
+Kreuze an.
+Die Geraden verlaufen parallel zueinander.
+Die Geraden schneiden sich in einem Punkt.
+Die Geraden sind identisch.
+Begründe deine Entscheidung.
+
+===== linearefunktionen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Lineare Funktionen anwenden
+
+ 0,52 yx  25 yx  20,5 yx  52 yx
+Im Folgenden sind Sachsituationen beschrieben, bei denen jeweils eine Größe einer anderen
+zugeordnet ist. Diese Zuordnungen lassen sich durch Gleichungen darstellen.
+Ordne jeder Sachsituation die passende Gleichung zu, indem du sie jeweils verbindest.
+Herr Hinze kauft einen Rosenstrauß. Eine Rose kostet 2 €.
+Im Blumenladen wird für das Binden des Straußes
+zusätzlich 0,50 € berechnet.
+Florian verkauft auf dem Bücherbasar seine alten Comics
+für je 2 €. Von seinen Einnahmen muss er 5 € Standge -
+bühr bezahlen. Trotzdem erwartet er, dass er einen guten
+Gewinn macht.
+Sven leiht sich im Urlaub ein Fahrrad. Er muss eine
+Grundgebühr von 2 € bezahlen und zusätzlich pro Tag eine
+Leihgebühr von 5 €.
+Frau Meier kauft für eine Bastelarbeit farbige Pappe. Jeder
+Bogen kostet 0,50 €. Außerdem kauft sie eine Tube
+Spezialkleber für 2,00 €.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) ® Institut zur Qualitatsentwicklung im Bildungswesen
+
+Lineare Funktionen anwenden
+
+Im Folgenden sind Sachsituationen beschrieben, bei denen jeweils eine GroBe einer anderen
+zugeordnet ist. Diese Zuordnungen lassen sich durch Gleichungen darstellen.
+
+Ordne jeder Sachsituation die passende Gleichung zu, indem du sie jeweils verbindest.
+
+Herr Hinze kauft einen Rosenstrau&. Eine Rose kostet 2 €.
+Im Blumenladen wird fiir das Binden des StrauBes ly =0,5x +2
+zusatzlich 0,50 € berechnet.
+
+Florian verkauft auf dem Bucherbasar seine alten Comics
+fur je 2€. Von seinen Einnahmen muss er 5 € Standge- y =2x-5
+biihr bezahlen. Trotzdem erwartet er, dass er einen guten
+Gewinn macht.
+
+Sven leiht sich im Urlaub ein Fahrrad. Er muss eine
+Grundgebihr von 2 € bezahlen und zusatzlich pro Tag eine
+
+Leihgebuhr von 5€. 2x +0,5
+
+<
+IL
+
+Frau Meier kauft fur eine Bastelarbeit farbige Pappe. Jeder
+Bogen kostet 0,50€. AuRerdem kauft sie eine Tube =5x+2
+Spezialkleber fiir 2,00 €.
+
+:
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== linearundproportional · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K6, Jahrgang 2011; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Linear und proportional
+
+ ymxb
+Eine proportionale Funktion kann im Koordinatensystem durch eine Gerade dargestellt
+werden, die durch den Punkt (0 | 0) verläuft.
+Jede lineare Funktion kann durch eine Funktionsgleichung der Form beschrieben
+werden.
+
+Teilaufgabe 1: Linear und proportional
+
+Nachfolgend werden drei Sachsituationen beschrieben.
+Entscheide jeweils, ob sich die Sachsituation durch eine lineare Funktion beschreiben lässt.
+Kreuze jeweils an.
+ja nein
+Ein Stromanbieter verlangt eine monatliche Grundgebühr. Für
+jede verbrauchte Kilowattstunde Strom ist zusätzlich eine
+festgelegte Gebühr zu zahlen.
+Das Schwimmbecken eines Freibades ist zu Saisonbeginn
+leer. Vor der Eröffnung der Freibadsaison wird das Schwimm -
+becken mit Wasser befüllt. Dabei ist die pro Stunde
+einlaufende Wassermenge gleich.
+Ein Sparbetrag wird für drei Jahre mit einem festen Zinssatz
+angelegt. Nach dem ersten Jahr werden auch die Zinsen
+verzinst.
+
+ | M46016_A
+ | Teilaufgabe 2: Linear und proportional
+
+ y x
+Beurteile die folgenden Aussagen zu Funktionen.
+Kreuze jeweils an.
+richtig falsch
+Für jedes Wertepaar x und y einer proportionalen Funktion hat
+der Quotient den gleichen Wert. (Dabei ist x, y 0.)
+Jede proportionale Funktion ist auch eine lineare Funktion.
+Jede lineare Funktion ist auch eine proportionale Funktion.
+Bei einer proportionalen Funktion gehört zum Doppelten des
+x - Werts die Hälfte des y - Werts.
+Bei einer linearen Funktion hat die zugehörige Gerade immer
+eine positive Steigung.
+
+ | M46016_B
+ |
+
+===== massstabsleiste · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Maßstabsleiste
+
+Auf einer Karte im Atlas befindet sich diese Maßstabsleiste.
+1 cm
+m
+1000 2000 0 500 1500
+Welcher Maßstab passt dazu?
+Kreuze an.
+1: 500 1: 5000 1: 50 000 1: 500 000
+
+===== massstabsrechner · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Maßstabsrechner
+
+Ein Maßstab gibt das Größenverhältnis von Bild zu Original an. Solche Maßstäbe findet man
+z. B. auf Landkarten und in Modellzeichnungen.
+
+Eine Landkarte ist im Maßstab 1: 300 000 gezeichnet. Zwei Orte sind auf der Karte etwa
+15 cm voneinander entfernt.
+Kreuze an, wie weit diese Orte in der Wirklichkeit voneinander entfernt sind.
+45 km 3 km 15 km 20 km
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Mafsstabsrechner
+
+Ein Ma&stab gibt das Gr6éRenverhaltnis von Bild zu Original an. Solche MaRstabe findet man
+z.B. auf Landkarten und in Modellzeichnungen.
+
+Eine Landkarte ist im Mastab 1 : 300000 gezeichnet. Zwei Orte sind auf der Karte etwa
+15cm voneinander entfernt.
+
+Kreuze an, wie weit diese Orte in der Wirklichkeit voneinander entfernt sind.
+
+O Oo O O
+3km 15km 20km 45km
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== ohrhaenger · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K3, K5, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Papier
+
+Janina biegt Ohrhänger aus Silberdraht, die aus einem
+oberen und einem unteren Teil bestehen. Den oberen
+3 cm
+Teil macht Janina immer 3 cm lang, der untere Teil hat
+immer die Form eines gleichseitigen Dreiecks
+(siehe Abbildung).
+(nicht maßstabsgerecht)
+
+Teilaufgabe 1
+
+Das gleichseitige Dreieck hat eine Seitenlänge von 5 cm.
+Wie viele solche Ohrhänger kann Janina mit 90 cm Silberdraht herstellen?
+Ohrhänger
+Schreibe deinen Lösungsweg auf.
+
+Teilaufgabe 2
+
+Aus weiteren 90 cm Silberdraht biegt Janina nun 6 andere Ohrhänger. Diese sind alle
+gleich groß. Der obere Teil ist wieder 3 cm lang und der untere Teil ist wieder ein
+gleichseitiges Dreieck.
+Wie lang ist eine Dreiecksseite, wenn kein Silberdraht übrig bleiben soll?
+ cm
+Schreibe deinen Lösungsweg auf.
+
+===== papier · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Papier
+
+500 Blatt einer Papiersorte sind 55 mm hoch.
+Gib an, wie hoch 200 Blatt dieser Papiersorte sind.
+ mm
+
+===== parkhaus · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K4, K5, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Parkhaus
+
+In einem Parkhaus gelten folgende Parkgebühren:
+Parkzeit Gebühr
+bis 2 Stunden 4,00 €
+bis 3 Stunden 5,50 €
+bis 4 Stunden 7,00 €
+jede weitere angefangene Stunde 1,00 €
+ab neun Stunden gleichbleibend 13,00 €
+
+Die Parkgebühren für 0 bis 11 Stunden sollen grafisch dargestellt werden.
+Das Diagramm wurde schon begonnen.
+Ergänze das Diagramm.
+Gebühren
+in €
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1 Parkzeit in
+Stunden
+1 2 3 4 5 6 7 8 9 10 11
+
+===== pflaumen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Pflaumen
+
+1 kg Pflaumen kostet 1,90 €.
+
+Gib an, wie viel 500 g Pflaumen kosten.
+€
+
+===== pinsel · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K5, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Pinsel
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Pinsel
+
+Der Pinsel in Abbildung 1 ist im MaRstab 1:3 abgebildet.
+a Abbildung 1
+
+Teilaufgabe 1
+Wie lang ist er in Wirklichkeit?
+
+ane cm
+Teil
+aufgabe 2
+
+Ein anderer Pinsel ist in Wirklichkeit 20cm lang. Er soll im Ma&stab 1:4 abgebildet
+werden.
+
+Welche Abbildung passt am besten?
+Kreuze an.
+
+oO
+
+Copyright Text, Grafik und Teliaufgaben: 108 e. V..Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/ 40/legalcode.de
+
+===== punkteaufgeraden · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K5, Jahrgang 2013; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K5, K6, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Punkte auf Geraden
+Teilaufgabe 1
+
+ 3 3 2 yx
+Weise nach: Der Punkt A (4 | 3) liegt auf der Geraden mit der Gleichung.
+
+Teilaufgabe 2
+
+Gegeben sind die drei Punkte P (2 | 1), P (4 | 0) und P (7 | - 2). 1 2 3
+Liegen alle drei Punkte auf einer Geraden?
+Ja Nein
+Begründe deine Antwort.
+
+Teilaufgabe 3
+
+ ymxb
+Gegeben ist eine lineare Funktion mit der Gleichung.
+Erkläre, wie sich die Lage der Geraden verändert, wenn b variiert wird.
+
+===== rechtskurve · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K3, K4, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Rechtskurve
+
+===== reiseverlauf · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K3, K4, K6, Jahrgang 2015; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K3, K4, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Reiseverlauf
+Teilaufgabe 1
+
+Das Diagramm (siehe Abbildung) zeigt vereinfacht den Reiseverlauf von zwei
+Fahrzeugen A und B.
+Weg
+B
+A
+Zeit Abbildung
+Welche Aussagen passen zu dem Diagramm?
+Kreuze jeweils an.
+trifft nicht
+trifft zu
+zu
+Während A fährt, haben A und B die gleiche
+Geschwindigkeit.
+A fährt früher los als B.
+Der Weg, den B fährt, ist kürzer als der Weg von A.
+
+Teilaufgabe 2
+
+Kann der Reiseverlauf eines Fahrzeugs in einem Weg - Zeit - Diagramm durch eine
+Gerade dargestellt werden, die parallel zur Weg - Achse verläuft?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== rolltreppe · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K4, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2012; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Rolltreppe
+
+In einer U - Bahn - Station befindet sich einer der Bahnsteige genau
+21 m unter Straßenniveau. Nach oben gelangt man mit einer
+Rolltreppe.
+Monika stellt sich unten auf diese Rolltreppe und lässt sich einfach
+hochfahren.
+Das folgende Zeit - Höhen - Diagramm stellt dar, wie tief sie zu jedem
+Zeitpunkt noch unter der Erde (dem Straßenniveau) ist.
+Höhe
+3 m
+Zeit Straßenniveau
+0 m
+0,5 min 1,0 min 1,5 min 2,0 min
+- 3 m
+- 6 m
+- 9 m
+Monika
+- 12 m
+- 15 m
+- 18 m
+Bahnsteigniveau
+- 21 m
+- 24 m
+
+Teilaufgabe 1
+
+Fülle die Lücke im Text:
+Nach einer Minute Rolltreppenfahrt ist Monika noch _______ m unterhalb des
+Straßenniveaus.
+
+Teilaufgabe 2
+
+Gib an, wie lange es etwa dauert, bis Monika 15 m höher ist als das Bahnsteigniveau.
+min
+
+Teilaufgabe 3
+
+Monikas Bruder Sven betritt zusammen mit Monika die gleiche Stufe der Rolltreppe. Er ist ein
+sportlicher Typ und bleibt daher nicht auf derselben Stufe stehen, sondern läuft die Rolltreppe
+hoch. Auf halber Höhe kommt er allerdings an einem Fahrgast mit Koffer nicht vorbei und
+muss ab dort auch einfach mit der Rolltreppe mitfahren.
+Zeichne in das voranstehende Koordinatensystem einen Graphen ein, der zu Svens „Fahrt“
+vom Bahnsteig bis nach oben passt.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) ® _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Rolltreppe
+
+In einer U-Bahn-Station befindet sich einer der Bahnsteige genau
+21m unter StraBenniveau. Nach oben gelangt man mit einer
+Rolltreppe.
+
+Monika stellt sich unten auf diese Rolltreppe und lasst sich einfach
+hochfahren.
+
+Das folgende Zeit-Héhen-Diagramm stellt dar, wie tief sie zu jedem
+Zeitpunkt noch unter der Erde (dem StraRenniveau) ist.
+
+Hohe
+3m : :
+: StraRenniveau :
+Om
+2,0 min:
+
+05min 1,0min 1,5min
+
+Bahnsteigniveau
+
+Teilaufgabe 1
+Fille die Lucke im Text:
+
+Nach einer Minute Rolltreppenfahrt ist Monika noch m unterhalb des
+
+StraRenniveaus.
+
+Teilaufgabe 2
+
+Gib an, wie lange es etwa dauert, bis Monika 15m hoher ist als das Bahnsteigniveau.
+
+min
+Teilaufgabe 3
+Monikas Bruder Sven betritt zusammen mit Monika die gleiche Stufe der Rolltreppe. Er ist ein
+sportlicher Typ und bleibt daher nicht auf derselben Stufe stehen, sondern lauft die Rolltreppe
+hoch. Auf halber Héhe kommt er allerdings an einem Fahrgast mit Koffer nicht vorbei und
+muss ab dort auch einfach mit der Rolltreppe mitfahren.
+
+Zeichne in das voranstehende Koordinatensystem einen Graphen ein, der zu Svens ,,Fahrt*
+vom Bahnsteig bis nach oben passt.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== sauerkraut · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K3, K4, K5, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Sauerkraut
+
+Sauerkraut wird aus Weißkohl hergestellt. Während der Herstellung werden Milchsäure -
+bakterien zugegeben, die sich täglich um 70% gegenüber der Vortagsmenge vermehren.
+Zu Beginn der Produktion werden dem Weißkohl 50 g Bakterien zugegeben.
+Teilaufgabe 1
+
+Felix sagt: „Also kommen täglich 35 g Bakterien dazu. “
+Nimm Stellung zu dieser Aussage.
+
+Teilaufgabe 2
+
+Ulla möchte für verschiedene Tage die Bakterienmenge mit Hilfe eines
+Tabellenkalkulationsprogramms errechnen. Für diese Berechnungen trägt sie in
+einzelne Zellen der Tabelle Formeln ein. Dabei verwendet sie für jede Zelle eine
+Adresse, z. B. B 2 oder D 4.
+In der Tabelle sind bereits solche Formeln enthalten.
+In welcher Spalte sind die richtigen Formeln eingetragen?
+Kreuze an.
+A B C D E
+Anzahl der Menge der Menge der Menge der Menge der
+1
+Tage Bakterien (in g) Bakterien (in g) Bakterien (in g) Bakterien (in g)
+2 0 50 50 50 50
+3 1 = B 2 + 0,7 = C 2 + 35 = D 2 * 1,7 = E 2 * 0,7
+4 2 = B 3 + 0,7 = C 3 + 35 = D 3 * 1,7 = E 3 * 0,7
+5 3 = B 4 + 0,7 = C 4 + 35 = D 4 * 1,7 = E 4 * 0,7
+6 4 = B 5 + 0,7 = C 5 + 35 = D 5 * 1,7 = E 5 * 0,7
+
+===== schnittpunktvongraphen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 5, K4, K5, Jahrgang 2011
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Schnittpunkt von Graphen
+
+ ()21 gxx  ()2 fxx
+Zwei lineare Funktionen g und f haben die Funktionsgleichungen
+und.
+Gib die Koordinaten des Schnittpunkts der Graphen beider Funktionen an.
+Die beiden Graphen schneiden sich im Punkt S ( |).
+
+ | M46012_A
+ |
+
+===== schokoladenpreis · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+Schokoladenpreis
+
+Ein Laden verkauft selbstgemachte Schokolade.
+Beispiele aus dem Angebot:
+Schokoladensorte Preis für 100 g
+Dunkle Schokolade 1,50 €
+Weiße Schokolade 1,40 €
+Milchschokolade 1,10 €
+Gefüllte Schokolade 2,10 €
+Es gibt keine Sonderangebote.
+
+Teilaufgabe 1
+
+Für eine Schokoladensorte ist in diesem Schaubild die Zuordnung der zwei Größen
+Schokoladenmenge (in g) à Schokoladenpreis (in €) dargestellt.
+Preis in €
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+Menge in g
+0 100 200 300 400 500 600 700 800 900 1000
+Das folgende Wertepaar ist mit zwei gestrichelten Linien gekennzeichnet:
+ 200 3,00 g à €
+Ein weiteres Wertepaar ist ebenfalls mit einer gestrichelten Linie hervorgehoben.
+Ergänze die fehlenden Angaben.
+g à €
+
+Teilaufgabe 2
+
+Um welche Schokoladensorte aus dem Angebot des Schokoladenladens handelt es sich bei
+dem Schaubild aus Teilaufgabe 1?
+Kreuze an.
+Gefüllte Schokolade Dunkle Schokolade Weiße Schokolade Milchschokolade
+
+===== tabelle · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Tabelle
+
+Die Tabelle zeigt einen Zusammenhang zwischen a und b.
+a 2 3 4
+b 3 5 7
+Welche der folgenden Gleichungen passt zu diesem Zusammenhang?
+Kreuze an.
+3 b = a + 1 b = 2 a - 1 b = ‧ a a = b - 2 a = b + 2
+2
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Tabelle
+
+Die Tabelle zeigt einen Zusammenhang zwischen a und b.
+
+a 2 3 4
+
+b 3 5 7
+
+Welche der folgenden Gleichungen passt zu diesem Zusammenhang?
+
+Kreuze an.
+O O oO O O
+b=a+1 a=b-2 b=2a-1 b=3-a a=b+2
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== tabelleausfuellen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Tabelle ausfüllen
+
+Die Tabelle zeigt eine proportionale Zuordnung.
+Ergänze den fehlenden Wert.
+Masse in kg 3 4 6 8
+Preis in € 15 20 30
+
+===== tankinhalt · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Tankinhalt
+
+Der Bordcomputer eines Autos zeigt während der Fahrt den aktuellen
+Durchschnittsverbrauch in Liter pro 100 km an (l / 100 km).
+Er zeigt auch an, wie viele Kilometer man noch fahren kann, bis der Tank leer ist.
+Diese Entfernung errechnet der Bordcomputer fortlaufend neu. Er berücksichtigt dabei
+den aktuellen Durchschnittsverbrauch und den aktuellen Tankinhalt.
+Berechne mithilfe der angezeigten Daten, wie viele Liter Kraftstoff in diesem Moment
+noch ungefähr im Tank sind.
+In diesem Moment sind ca. Liter Kraftstoff im Tank.
+
+===== temperatur · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K5, K6, Jahrgang 2017
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Temperatur
+[Bild: image1.png]
+Teilaufgabe 1
+[Bild: image2.png]Teilaufgabe 2[Bild: image3.png]
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) Institut zur Qualitatsentwicklung im Bildungswesen
+
+Temperatur
+
+In Europa werden Temperaturen in Grad Celsius (°C) angegeben, in den USA in Grad
+Fahrenheit (°F). Es gibt eine Regel fiir die Umrechnung:
+
+Multipliziere die Temperatur in °C mit 1,8 und addiere zum Ergebnis 32, dann erhaltst du
+die Temperatur in °F.
+
+Teilaufgabe 1
+Gib die Temperatur 5°C in der Einheit °F an.
+
+°F
+Teil
+aufgabe 2
+Gib eine Formel fur die Umrechnung von Temperaturen in °C nach °F an. Dabei soll C
+fiir Temperaturen in °C stehen und F fur Temperaturen in °F.
+
+F=
+
+Copyright Text und Teilaufgaben: 1QB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.orgllicenses/by/ 40/legalcode.de
+
+===== traktor · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Traktor
+
+Von einem Traktor werden Spielzeugmodelle in
+den folgenden Maßstäben hergestellt:
+1: 120
+1: 87
+1: 50
+1: 32
+
+Bei welchem Maßstab ist das Modell am kleinsten?
+Kreuze an.
+1: 120 1: 87 1: 50 1: 32
+
+===== trapezvariation · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K1, K2, K5, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Trapezvariation
+
+() 2 ach A  
+c Den Flächeninhalt A eines Trapezes kann man mit folgender
+D C
+Formel berechnen:
+h
+·
+A B a
+
+Teilaufgabe 1:
+
+Wie verändert sich der Flächeninhalt, wenn man die Höhe h verdoppelt (a und c aber
+konstant bleiben)?
+Kreuze an.
+Der Flächeninhalt wird quadriert.
+Der Flächeninhalt wird verdoppelt.
+Der Flächeninhalt wird um 2 größer.
+Ohne konkrete Werte kann man diese Frage nicht beantworten.
+
+Teilaufgabe 2:
+
+Die Höhe h soll sich nicht verändern. Kann man dann die Längen der Seiten a und c
+so verändern, dass der Flächeninhalt des Trapezes gleich bleibt?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+===== tropfenderwasserhahn · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Tropfender Wasserhahn
+
+Bei Familie Rector tropft seit einigen Tagen ein undichter
+Wasserhahn.
+Ben, der Sohn der Familie, will untersuchen, wie viel Wasser dabei
+verloren geht. Er fängt das gleichmäßig tropfende Wasser in einem
+Messbecher auf.
+
+Teilaufgabe 1
+
+Ben sieht ab und zu nach, wie viel Wasser inzwischen im Messbecher ist. Die Tabelle
+zeigt Bens Messergebnisse.
+Zeit in Stunden 0,5 4
+3 Wassermenge in cm 150 1200
+Gib an, wie viel Wasser nach zwei Stunden im Messbecher war.
+3 cm
+
+Ben sieht ab und zu nach, wie viel Wasser inzwischen im Messbecher ist. Die Tabelle
+zeigt Bens Messergebnisse.
+Zeit in Stunden 0,5 4
+3 Wassermenge in cm 150 1200
+Gib an, wie viel Wasser nach zwei Stunden im Messbecher war.
+3 cm
+
+Teilaufgabe 2
+
+Welches Diagramm stellt die verlorene Wassermenge in Abhängigkeit von der Zeit am
+besten dar?
+Kreuze an.
+Wassermenge Wassermenge
+3 3 in cm in cm
+Zeit in h Zeit in h
+Wassermenge Wassermenge
+3 3 in cm in cm
+Zeit in h Zeit in h
+
+===== tunnelbohrmaschine · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Tunnelbohrmaschine
+
+Die Tunnelbohrmaschine VERA
+(V on der E lbe R ichtung A lster)
+begann am 15. Mai 2008 mit dem
+Ausbohren des Fahrtunnels für die
+neue Hamburger U - Bahnlinie U 4.
+Diese Tunnelbohrmaschine schafft
+durchschnittlich 10 m Tunnellänge
+in 24 Stunden.
+Für den Bau dieses Tunnels sind
+bei pausenlosem Betrieb vierzig
+Wochen (also 280 Tage)
+angesetzt.
+
+Teilaufgabe 1
+
+Gib an, wie lang der Tunnel der U - Bahnlinie U 4 etwa wird.
+ Der Tunnel wird etwa km lang.
+
+Teilaufgabe 2
+
+Wie viele Meter Tunnel müsste VERA durchschnittlich am Tag schaffen, wenn der U - Bahn -
+tunnel schon nach 200 Tagen fertig sein soll?
+Gib dein Ergebnis an.
+ VERA müsste am Tag m Tunnel schaffen.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de ] Q) ® _ Institut zur Qualitatsentwicklung im Bildungswesen
+
+Tunnelbohrmaschine
+
+Die Tunnelbohrmaschine VERA
+(Von der Elbe Richtung Alster)
+begann am 15. Mai 2008 mit dem
+Ausbohren des Fahrtunnels fir die
+neue Hamburger U-Bahnlinie U4.
+
+Diese Tunnelbohrmaschine schafft
+durchschnittlich 10m Tunnellange
+in 24 Stunden.
+
+Fur den Bau dieses Tunnels sind
+bei pausenlosem Betrieb vierzig
+Wochen (also 280 Tage)
+angesetzt.
+
+Teilaufgabe 1
+Gib an, wie lang der Tunnel der U-Bahnlinie U4 etwa wird.
+
+Der Tunnel wird etwa km lang.
+
+Teilaufgabe 2
+
+Wie viele Meter Tunnel miisste VERA durchschnittlich am Tag schaffen, wenn der U-Bahn-
+tunnel schon nach 200 Tagen fertig sein soll?
+
+Gib dein Ergebnis an.
+
+VERA misste am Tag m Tunnel schaffen.
+
+Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== ungleichungerfuellen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Ungleichung erfüllen
+
+Gib drei natürliche Zahlen für z an, so dass die Ungleichung erfüllt ist.
+
+7 + z
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Ungleichung erfullen
+
+Gib drei natiirliche Zahlen fur z an, so dass die Ungleichung erfilllt ist.
+
+7+Z<13
+1) z=
+2) z=
+3) z=
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== verlaufdesgraphen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K4, K6, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Verlauf des Graphen
+Teilaufgabe 1:
+
+ 55 yx
+Prüfe, ob die Aussagen über die Gerade wahr oder falsch sind.
+Kreuze jeweils an.
+Die Gerade … wahr falsch
+… verläuft durch den Koordinatenursprung ( 0 | 0).
+… hat eine positive Steigung.
+… schneidet die x - Achse im Punkt ( 5 | 0).
+
+Teilaufgabe 2:
+
+ ymxn
+Prüfe, ob die Aussagen über die Gerade wahr oder falsch sind,
+wenn m
+
+===== verschiedenerechtecke · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2015; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Verschiedene Rechtecke
+
+Das Diagramm zeigt Breiten und Längen von Rechtecken, die alle den Flächeninhalt
+2 36 cm haben. Beispielsweise gehört der Punkt B (2 | 18) zu einem Rechteck, das 2 cm
+breit und 18 cm lang ist.
+Länge in cm
+A 36
+34
+32
+30
+28
+26
+24
+22
+20
+B 18
+16
+14
+C 12
+10 D
+8
+E
+6
+F 4
+G
+H 2
+I
+0
+- 2 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 Breite in cm
+
+Teilaufgabe 1
+
+Gib an, wie breit und wie lang das Rechteck ist, das zum Punkt C gehört.
+cm breit
+cm lang
+
+Teilaufgabe 2
+
+Betrachte nun das Rechteck, das zum Punkt B gehört. Es gibt einen anderen Punkt,
+der zu einem deckungsgleichen Rechteck gehört.
+Welcher Punkt ist das?
+Dieser Punkt heißt.
+Er hat die Koordinaten ( |).
+
+Teilaufgabe 3
+
+Betrachte nun immer die beiden Punkte, die zu jeweils deckungsgleichen Rechtecken
+gehören. Entscheide, ob folgende Aussagen wahr oder falsch sind.
+Kreuze jeweils an.
+wahr falsch
+Diese beiden Punkte haben vertauschte Koordinaten.
+Verbindet man jeweils diese beiden Punkte deckungs -
+gleicher Rechtecke, so verlaufen alle entstehenden
+Geraden parallel zueinander.
+Diese beiden Punkte liegen achsensymmetrisch zur
+Geraden mit der Gleichung y = x.
+
+===== vielebroetchen · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Viele Brötchen
+
+In der Bäckerei am Dorfplatz kostet ein Brötchen 0,30 €, egal wie viele Brötchen man
+kauft.
+
+Schreibe die Bezeichnungen für die beiden Tabellenzeilen in die erste Spalte.
+Ergänze dann die fehlenden Werte, so dass man ablesen kann, was die jeweilige
+Anzahl Brötchen kostet.
+1 2 3 4 5
+0,30 €
+
+===== volumenverkleinerung · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Volumenverkleinerung
+
+Ein Würfel wird verkleinert. Das Volumen des neuen Würfels ist um ca. 27% geringer als das
+Volumen des ursprünglichen Würfels.
+
+Teilaufgabe 1
+
+Um wie viel Prozent verkleinert sich dabei seine Oberfläche?
+Kreuze an.
+um ca. 47% um ca. 9% um ca. 19% um ca. 27%
+
+Teilaufgabe 2
+
+Begründe deine Antwort.
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Volumenverkleinerung
+
+Ein Wirfel wird verkleinert. Das Volumen des neuen Wirfels ist um ca. 27% geringer als das
+Volumen des urspriinglichen Wirfels.
+
+Teilaufgabe 1
+Um wie viel Prozent verkleinert sich dabei seine Oberflache?
+
+Kreuze an.
+um ca. 9% um ca. 19% um ca. 27% um ca. 47%
+
+Teilaufgabe 2
+Begriinde deine Antwort.
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== wosinddiepunkte · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Wo sind die Punkte?
+
+In einem Koordinatensystem ist eine Gerade g eingezeichnet.
+y
+g
+5
+1
+0
+x
+0 1 5
+
+Teilaufgabe 1:
+
+Prüfe, welcher der vorgegebenen Punkte auf der Geraden g liegt.
+Kreuze an.
+A ( 4 | 0) B ( 3 | 4) C ( 4 | 3) D ( 0 | 4)
+
+Teilaufgabe 2:
+
+Der Punkt Q (2 | 5) liegt nicht auf der Geraden g.
+Zeichne diesen Punkt in das Koordinatensystem ein.
+
+===== zahlgesucht · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+Lizenzvermerk in der Datei: „Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode“
+
+[Bild: image1.jpeg]Zahl gesucht
+
+Wenn 9 x = 6,3; dann ist x =?
+Kreuze an.
+70 7 0,07 0,7
+[Aufgabentext als Rasterbild; OCR der gerenderten Seiten (tesseract, englisches Modell, Umlaute fehlerhaft):]
+www.igb.hu-berlin.de | Q) p Institut zur Qualitatsentwicklung im Bildungswesen
+
+Zahl gesucht
+
+Wenn 9x = 6,3 ; dann ist x = ?
+
+Kreuze an.
+O Oo O O
+7 0,07 0,7 70
+
+Copyright Text und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY).
+Volltext unter: https://creativecommons.org/licenses/by/3.0/de/legalcode
+
+===== zoobesuch · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, K4, K6, Jahrgang 2014
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zoobesuch
+
+Susann fährt mit dem Fahrrad zügig zum Zoo. Am Eingang muss sie einige Zeit warten,
+um eine Eintrittskarte zu kaufen. Dann geht sie zu Fuß weiter durch den Zoo.
+
+Welches Diagramm passt am besten zu diesem Vorgang?
+Kreuze an.
+Weg Weg
+Zeit Zeit
+Weg Weg
+Zeit Zeit
+
+===== zweitegerade · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Zweite Gerade
+
+Zeichne in dieses Koordinatensystem eine zweite Gerade ein, die eine größere
+Steigung als die dargestellte Gerade hat.
+y
+5
+1
+x
+0 1 5
+
+===== ungewoehnlichermittelwert · Leitidee Funktionaler Zusammenhang
+Metadaten der Seite: keine (nur im Word-Archiv)
+Lizenzvermerk in der Datei: „Copyright Text, Grafik und Teilaufgaben: IQB e. V., Lizenz: Creative Commons (CC BY). Volltext unter: https://creativecommons.org/licenses/by/4.0/legalcode.de“
+
+Ungewöhnlicher Mittelwert
+
+  2 3 sm P
+In einer Mathematikprüfung gibt es einen schriftlichen und einen mündlichen Teil. Für
+jeden Teil kann man zwischen 0 und maximal 15 Punkten erreichen.
+Um den schriftlichen Teil stärker als den mündlichen Teil zu gewichten, wird die
+Gesamtpunktzahl P mithilfe folgender Formel berechnet:
+Dabei ist s die Punktzahl im schriftlichen Prüfungsteil und m die Punktzahl im mündlichen
+Prüfungsteil.
+
+Teilaufgabe 1:
+
+Hans hat im schriftlichen Prüfungsteil 12 Punkte und im mündlichen Prüfungsteil 9
+Punkte erreicht.
+Gib die Gesamtpunktzahl P an, die Hans erreicht hat.
+P =
+
+Teilaufgabe 2:
+
+Vervollständige die Tabelle, die sich auf zwei Schüler bezieht.
+s = Punktzahl m = Punktzahl
+schriftlicher mündlicher P = Gesamtpunktzahl
+Prüfungsteil Prüfungsteil
+Schüler 1 6 8
+Schüler 2 14 12

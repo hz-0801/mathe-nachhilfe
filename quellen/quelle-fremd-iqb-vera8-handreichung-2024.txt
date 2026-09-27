@@ -1,0 +1,1421 @@
+Quelle: VERA-8 Mathematik 2024, Didaktische Handreichung Teil II (Modul B), IQB Berlin
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_2024_MA_ModulB_8ha7Pek.pdf (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/)
+Abrufdatum: 2026-09-27
+Seitenzahl: 36 (pdfinfo)
+Lizenzvermerk: kein Vermerk
+Textfassung: pdftotext -layout (poppler); Formeln und Abbildungen fehlen, Seitenwechsel als Formfeed.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+    Vergleichsarbeiten 2024
+  8. Jahrgangsstufe (VERA-8)
+          Mathematik
+DIDAKTISCHE HANDREICHUNG
+             TEIL II
+
+
+
+
+ Fachdidaktische Orientierung
+        Leitidee Zahl
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 3
+3    DIE LEITIDEE ZAHL...................................................................................................... 7
+     3.1      SCHWERPUNKTTHEMA: HILFSMITTELFREIE AUFGABEN ............................................ 8
+     3.2      BEISPIELAUFGABEN AUS DEM VERA-8 KONTEXT .................................................... 9
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................15
+5    LITERATURVERZEICHNIS ..........................................................................................16
+6    ABBILDUNGSVERZEICHNIS .......................................................................................16
+7    TABELLENVERZEICHNIS ...........................................................................................16
+8    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................17
+
+
+
+
+Autor:innen der fachdidaktischen Erläuterungen in Teil II sind Ilja Ay, Maxim Brnic, Corinna
+Hankeln, Marlena Meyer, Antonia Rewer und Laura Wirth. Die gezeigten Testaufgaben
+entstanden in Kooperation von Lehrkräften aus zehn Bundesländern und Fachdidaktiker:innen
+unter Federführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische
+Leitung) und des Instituts zur Qualitätsentwicklung im Bildungswesen.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit,
+Vollständigkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt
+der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+
+                                                               2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2005b, 2015) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt.
+Anschließend wird einer der Schwerpunkte, die in den diesjährigen Ergänzungsmodulen zur
+Wahl stehen, näher erläutert: die Leitidee Zahl mit einem Fokus auf hilfsmittelfreie Aufgaben.
+Es werden insbesondere zu Aspekten des Schwerpunktes fachdidaktische Heraus-
+forderungen geschildert und Anregungen vorgestellt, wie mit diesen in der Unterrichtspraxis
+umgegangen werden kann. In dem dazugehörigen Kapitel werden außerdem Aufgaben aus
+VERA-8 präsentiert, die sich der diesjährigen Schwerpunktsetzung zuordnen lassen. Dabei
+handelt es sich um Beispiele für Aufgabenformulierungen, welche die verschiedenen
+allgemeinen Kompetenzen adressieren und zudem im Unterricht zur Förderung der
+Kompetenzen herangezogen werden können.
+
+
+
+2 Bildungsstandards1 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/
+Französisch) ein2. Eine grundlegende Wende stand bevor: Während zuvor der Input im
+Vordergrund stand, also Inhalte und Themen, sollte nun auch der Output stärkere Beachtung
+finden, also der Aufbau von Kompetenzen, Wissensstrukturen, Werten, etc.. Inhalte sollten mit
+der Entwicklung von Persönlichkeitsmerkmalen verknüpft werden, die die Basis für ein
+lebenslanges Lernen legen und so persönliche Weiterentwicklung und gesellschaftliche
+Teilhabe ermöglichen (Klieme et al., 2003). Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+        „Mathematische Grundbildung umfasst die Fähigkeit des Einzelnen, Mathematik in einer
+        Vielzahl von Kontexten zu formulieren, anzuwenden und zu interpretieren. Sie umfasst
+        mathematisches Argumentieren und die Verwendung mathematischer Konzepte, Verfahren,
+        Fakten und Werkzeuge zur Beschreibung, Erklärung und Vorhersage von Phänomenen. Sie
+
+
+
+1   Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss
+weiterentwickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil
+II bezieht sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind,
+da sich die Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+2 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                3
+          hilft dem Einzelnen, die Rolle zu erkennen, die die Mathematik in der Welt spielt, und
+          begründete Urteile und Entscheidungen zu treffen, die von konstruktiven, engagierten und
+          reflektierten Bürgerinnen und Bürgern benötigt werden.“ (OECD, 2013, S. 25, eigene
+          Übersetzung)
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schüler:innen bis zu
+einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben haben sollen
+(KMK, 2004, 2005). Dabei wird davon ausgegangen, dass ein allgemeinbildender Mathematik-
+unterricht Schüler:innen die folgenden drei Grunderfahrungen ermöglicht (Winter, 1995,
+S. 37):
+
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+          Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu verstehen,
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+          Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+          eigener Art kennen zu lernen und zu begreifen,
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die
+          Mathematik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Handlungsrahmen bedeutet insbesondere, dass im
+Vordergrund nicht die Umsetzung eines – aus der fachlichen Systematik entstehenden –
+‚starren Gerüsts‘ steht, sondern den Schulen ein großer „Freiraum für die innerschulische
+Lernplanung“ (ebd., S. 9) gelassen wird. Es werden in diesem Modell zunächst die folgenden
+drei Dimensionen unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Leitideen
+   3. Anforderungsbereiche
+
+
+
+
+                                                 4
+                    Anforderungsbereich III
+
+
+
+                    Anforderungsbereich II
+
+
+
+                    Anforderungsbereich I
+
+                                                                      Leitideen
+                                                L5   Daten und Zufall
+                                              L4     Funktionaler Zusammenhang
+                                            L3       Raum und Form
+                                          L2         Messen
+                                        L1           Zahl
+      K1    K2   K3    K4   K5    K6
+
+                             Mathematisch kommunizieren
+                       Mit symbolischen, formalen und technischen
+                       Elementen der Mathematik umgehen
+                   Mathematische Darstellungen verwenden
+              Mathematisch modellieren                      Allgemeine
+         Probleme mathematisch lösen                        mathematische
+                                                            Kompetenzen
+     Mathematisch argumentieren
+
+Abbildung 1: Kompetenzmodell der Bildungsstandards
+
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den
+Kompetenzen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“
+(Leiss & Blum, 2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch
+argumentieren (K1), Probleme mathematisch lösen (K2), Mathematisch modellieren (K3),
+Mathematische Darstellungen verwenden (K4), Mit symbolischen, formalen und technischen
+Elementen der Mathematik umgehen (K5) und Mathematisch kommunizieren (K6). Diese
+Allgemeinen mathematischen Kompetenzen sollen differenziert betrachtet werden, auch wenn
+sie üblicherweise im Verbund erworben werden und häufig auch gemeinsam angewendet
+werden müssen. Insbesondere werden bei der Bearbeitung von komplexeren mathematischen
+Aufgaben oft mehrere dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die
+Absicht verbunden, spezifische Eigenschaften und Anforderungen von Aufgaben im
+Mathematikunterricht transparent zu machen, was eine differenziertere Planung des
+Mathematikunterrichts ermöglicht. So kann ein mathematischer Inhalt den Schüler:innen
+entlang verschiedener durchzuführender mathematischer Tätigkeiten zugänglich gemacht
+werden. Inhalte können durch die multiperspektivische und wiederholte Betrachtung eher in
+                                             5
+ihrer Gänze verstanden werden und mathematische Kompetenzen anhand unterschiedlichster
+Erscheinungen über den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+Leitideen eine zweite Dimension des Modells. Die fünf Leitideen sind Zahl (L1), Messen (L2),
+Raum und Form (L3), Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). In den
+Bildungsstandards wird zu den Leitideen erläutert:
+
+       „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durchzieht ein
+       mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezogenen
+       mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem Fall eindeutig,
+       sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im inhaltlichen
+       Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im
+Lernprozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben
+es, bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen. Vielmehr soll
+durch die Betonung von Leitideen deutlich werden, dass sich aus mathematischen
+Phänomenen wie dem Zählen, dem Messen oder dem Umgang mit Zufällen mathematische
+Sachgebiete herausgebildet haben (Greefrath 2018, Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische
+Kompetenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine
+Kompetenzen, die es Schüler:innen ermöglichen Zusammenhänge herzustellen und
+Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen,
+die es Schüler:innen abverlangen zu verallgemeinern und zu reflektieren (ebd.).
+
+Die drei Bestandteile des Kompetenzmodells stellen gleichwertige Dimensionen der
+Bildungsstandards dar. Im Folgenden werden exemplarisch ein Aspekt der Leitidee Zahl sowie
+ein Aspekt der Leitidee Daten und Zufall herausgegriffen und erläutert. Eine Orientierung des
+Mathematikunterrichts an den Allgemeinen mathematischen Kompetenzen – also der
+Prozessdimension des Kompetenzmodells – ist eine maßgebliche Errungenschaft der
+Bildungsstandards, die auch bei exemplarischer Betrachtung einzelner Leitideen nicht in den
+Hintergrund geraten sollte.
+
+
+
+
+                                                6
+3 Die Leitidee Zahl
+
+Für die Leitidee Zahl werden die inhaltsbezogenen mathematischen Kompetenzen in den
+Bildungsstandards für den mittleren Schulabschluss folgendermaßen konkretisiert (KMK,
+2004, S. 10):
+
+Die Schüler:innen
+
+   •   nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von
+       natürlichen, ganzen und gebrochenen Zahlen entsprechend der
+       Verwendungsnotwendigkeit,
+   •   stellen Zahlen der Situation angemessen dar, unter anderem in
+       Zehnerpotenzschreibweise,
+   •   begründen die Notwendigkeit von Zahlbereichserweiterungen an Beispielen,
+   •   nutzen Rechengesetze, auch zum vorteilhaften Rechnen,
+   •   nutzen zur Kontrolle Überschlagsrechnungen und andere Verfahren,
+   •   runden Rechenergebnisse entsprechend dem Sachverhalt sinnvoll,
+   •   verwenden Prozent- und Zinsrechnung sachgerecht,
+   •   erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren
+       Umkehrungen und nutzen diese Zusammenhänge,
+   •   wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen
+       Algorithmen bzw. Kalküle zu Grunde liegen,
+   •   führen in konkreten Situationen kombinatorische Überlegungen durch, um die Anzahl
+       der jeweiligen Möglichkeiten zu bestimmen,
+   •   prüfen und interpretieren Ergebnisse in Sachsituationen unter Einbeziehung einer
+       kritischen Einschätzung des gewählten Modells und seiner Bearbeitung.
+In den Bildungsstandards im Fach Mathematik für den Hauptschulabschluss wird dem
+(Kopf-)Rechnen      eine   größere   Rolle   zugeschrieben,   während   Begründungen   zur
+Notwendigkeit für Zahlbereichserweiterungen hier nicht gefordert werden (KMK, 2004; KMK,
+2005). Ansonsten beinhalten die Bildungsstandards zur Leitidee Zahl in beiden Versionen im
+Wesentlichen dieselben inhaltsbezogenen Kompetenzen.
+
+Die beschriebenen inhaltsbezogenen Kompetenzen erfordern den Aufbau und die Anpassung
+eines Zahlbegriffs im Laufe der Sekundarstufe I. Die Schüler:innen sollen befähigt werden,
+den Zahlbegriff flexibel zu gebrauchen und mit entsprechenden Repräsentanten umzugehen.
+Darüber hinaus bedeutet das, dass Schüler:innen die Bedeutung und Sinnhaftigkeit der
+unterschiedlichen Zahlenbereiche erfahren. Diese Anforderungen werden auch im
+VERA-8 Kontext aufgegriffen.
+
+So ist es notwendig, dass die Schüler:innen bei den Zahlbereichserweiterungen ihr
+individuelles System an Regeln, Merkhilfen und verinnerlichten Gesetzmäßigkeiten bei
+adäquaten Lerngelegenheiten auf (andauernde) Gültigkeit hin überprüfen. Dabei ist sowohl
+eine souveräne Handhabung der Rechenoperationen als auch die Nutzung von
+
+
+                                               7
+Rechengesetzen zum vorteilhaften Rechnen ein Ziel. Des Weiteren sollen Schüler:innen in
+der Lage sein, Überschlagsrechnungen zu nutzen.
+
+Der Kompetenzaufbau erfolgt dabei insbesondere aus realitätsbezogenen Anwendungen
+heraus, wie zum Beispiel der Prozent- und Zinsrechnung. Dies bedeutet, dass der Aufbau
+eines adäquaten Zahlbegriffs nicht losgelöst von den eigenen Umwelterfahrungen eingeführt
+werden soll.
+
+Diese vielfältigen Facetten der Leitidee Zahl werden auch im VERA-Kontext aufgegriffen. Ein
+Schwerpunkt in diesem Jahr liegt dabei auf hilfsmittelfreien Aufgaben. Daher wird zunächst
+dargelegt, warum hilfsmittelfreie Aufgaben zur Leitidee Zahl in den VERA-8 Erhebungen
+aufgegriffen werden. Anschließend werden Aufgaben vorgestellt, die als hilfsmittelfreie
+Aufgaben im VERA-8 Kontext vorkommen können und bei denen der Mehrwert hilfsmittelfreier
+Aufgaben für den Kompetenzaufbau besonders ersichtlich wird. Dabei wird darauf
+eingegangen, welche allgemeinen Kompetenzen zur Lösung der Aufgaben benötigt werden.
+
+
+3.1   Schwerpunktthema: Hilfsmittelfreie Aufgaben
+Die oben beschriebenen inhaltsbezogenen mathematischen Kompetenzen, die der Leitidee
+Zahl zuzuordnen sind, können nicht nur unter Rückgriff auf Hilfsmittel (wie etwa einen
+Taschenrechner) aufgebaut werden, sondern insbesondere auch bei Aktivitäten ohne Nutzung
+von Hilfsmitteln. Deshalb liegt der Schwerpunkt im Ergänzungsmodul zur Leitidee Zahl in
+diesem Jahr auf Aufgaben, die ohne Hilfsmittel bearbeitet werden können. Dieser Fokus
+ermöglicht die Überprüfung insbesondere folgender inhaltsbezogener mathematischer
+Kompetenzen zur Leitidee Zahl: Schüler:innen nutzen Rechengesetze, auch zum vorteilhaften
+Rechnen und sie nutzen zur Kontrolle Überschlagsrechnungen und andere Kontrollverfahren
+(KMK, 2004, S. 10). Das Prüfen dieser Kompetenzen ist bei der Möglichkeit der Nutzung eines
+Taschenrechners nur beschränkt möglich, da Ergebnisse mithilfe des Taschenrechners
+bestimmt werden können. Dabei wird nicht erwartet, dass Schüler:innen besonders
+langwierige Rechnungen mit vielstelligen Zahlen händisch durchführen. Es wäre auch im
+sonstigen Unterrichtsalltag nicht gefordert, dass Schüler:innen diese ohne Hilfsmittel lösen.
+Die   Entlastung   von   aufwendigen    Rechnungen     stellt   gerade   ein   Potenzial   von
+Taschenrechnern dar, weil die Nutzung eines Taschenrechners in diesem Fall andere wichtige
+didaktische Schwerpunkte wie das mathematische Problemlösen, Modellieren und
+Argumentieren unterstützt. Außerdem trägt die Nutzung des Taschenrechners an einer
+solchen Stelle zur Ausbildung der Kompetenz K5 (Mit symbolischen, formalen und technischen
+Elementen der Mathematik umgehen) bei, da Schüler:innen in der Lage sein sollten,
+mathematische Werkzeuge wie den Taschenrechner sinnvoll und verständig einzusetzen
+(KMK, 2004, S. 9). Im hilfsmittelfreien Teil zur Leitidee Zahl geht es daher nicht um solche
+Aufgaben, bei denen der Taschenrechner eine Entlastung von aufwendigen Rechnungen
+                                             8
+bietet, sondern vor allem um die Überprüfung von Basisfähigkeiten hinsichtlich des Rechnens.
+Dies lässt sich nicht nur auf Grundlage der Bildungsstandards legitimieren. Dass
+Kompetenzen zum „Rechnen können“ notwendig sind, wird auch von Schüler:innen
+wahrgenommen: Laut einer Studie der Stiftung Rechnen glauben 89 % der befragten
+Schüler:innen, dass „Rechnen können“ wichtig für ihre Zukunft ist (Stiftung Rechnen, 2009).
+
+Darüber hinaus kann der hilfsmittelfreie Teil zur Leitidee Zahl Aufgaben enthalten, bei denen
+ein Taschenrechner nicht zur Lösung genutzt werden kann, selbst wenn dieser zur Verfügung
+stünde, beispielsweise, wenn Schüler:innen vorgegebene Anteile in einer Grafik einfärben
+sollen oder sie die Notwendigkeit der Zahlbereichserweiterung begründen sollen.
+
+
+3.2   Beispielaufgaben aus dem VERA-8 Kontext
+Im folgenden Abschnitt wird anhand von vier hilfsmittelfreien Aufgaben dargestellt, welche
+Allgemeinen mathematischen Kompetenzen der Bildungsstandards mit den jeweiligen
+Aufgaben erhoben werden und wie diese Aufgaben vertiefend im Unterricht genutzt werden
+können. Dabei erfolgt die Aufgabenauswahl auf Basis der in Abschnitt 3.1 genannten
+inhaltsbezogenen mathematischen Kompetenzen zur Leitidee Zahl, die mit Hilfsmitteln nur
+eingeschränkt geprüft werden können. Die erste Aufgabe „Vorteilhaft Rechnen“ (siehe
+Beispielaufgabe 1) fokussiert die Nutzung von Rechengesetzen zum vorteilhaften Rechnen.
+Die zweite und dritte Aufgabe „Überschlagsrechnung“ bzw. „Überschlag doch mal“ prüfen
+jeweils   die   Nutzung   von   Überschlagsrechnungen     und     anderen   Verfahren   (siehe
+Beispielaufgabe 2 und 3). Außerdem wird mit der Aufgabe „Zwei Thermometeranzeigen“
+(siehe Beispielaufgabe 4) exemplarisch der Aufgabentyp verdeutlicht, bei der ein
+Taschenrechner ohnehin nicht zur Lösung der Aufgabe genutzt werden kann.
+
+Im Folgenden ist die Aufgabe „Vorteilhaft rechnen“ dargestellt.
+
+
+
+
+                                              9
+Beispielaufgabe 1: „Vorteilhaft Rechnen“
+
+Teilaufgabe 1:
+
+4 ⋅ 0,1⋅ 25 =
+Wie kannst du einen Rechenvorteil nutzen, um diese Aufgabe zu lösen?
+Notiere deinen Lösungsweg.
+
+
+
+
+Teilaufgabe 2:
+
+3 ⋅ 4 ⋅ 10 ⋅ 2 ⋅ 14 ⋅ 0 ⋅ 5 =
+Wie kannst du einen Rechenvorteil nutzen, um diese Aufgabe zu lösen?
+Notiere deinen Lösungsweg.
+
+
+
+
+Teilaufgabe 3:
+
+4 ⋅ 12 + 12 ⋅ 12 − 6 ⋅ 12 =
+Wie kannst du einen Rechenvorteil nutzen, um diese Aufgabe zu lösen?
+Notiere deinen Lösungsweg.
+
+
+
+
+Die Aufgabe „Vorteilhaft Rechnen“ prüft die Kompetenz Mit symbolischen, formalen und
+technischen Elementen der Mathematik umgehen (K5), indem die Lernenden gefordert sind,
+
+
+
+                                           10
+Assoziativ-, Kommutativ- und Distributivgesetz zu nutzen. Essentiell hierfür ist insbesondere
+ein tragfähiges Konzept der Multiplikation.
+
+Eine gemeinsame Betrachtung der Aufgabe im Unterricht kann dazu genutzt werden, den
+Schüler:innen den Vorteil der Nutzung von Rechengesetzen aufzuzeigen. So kann mit
+Teilaufgabe 1 die Nützlichkeit des Kommutativgesetzes aufgezeigt werden, indem das Produkt
+von 4 und 25 gebildet wird. Die Multiplikation einer Zahl mit 100 und das damit einhergehende
+„Anhängen von zwei Nullen“ bzw. die Verschiebung des Kommas um zwei Stellen nach rechts
+ist eine effektivere Maßnahme, als zunächst das Produkt von 4 und 0,1 zu bilden, um
+anschließend mit 25 zu multiplizieren.
+
+Teilaufgabe 2 verdeutlicht die Nützlichkeit des Assoziativgesetzes. Werden zuerst der vierte
+und fünfte Faktor multipliziert und dies fortgeführt, entfallen aufwendige Kopfrechnungen, da
+dann der Spezialfall einer Multiplikation mit Null eintritt.
+
+Für das Aufzeigen der Rechenvorteile, die das Distributivgesetz bietet, eignet sich
+Teilaufgabe 3 in besonderem Maße. Eine Umformung des Terms bringt eine Multiplikation mit
+dem Faktor 12 hervor, welche bedeutend einfacher ist, als zunächst die einzelnen Produkte
+auszurechnen und dann zu addieren.
+
+Neben der Überprüfung, ob Schüler:innen die Rechengesetze beherrschen, unterstreicht
+diese Aufgabe die Relevanz auch hilfsmittelfrei mit Zahlen operieren zu können. Ein Eintippen
+in den Taschenrechner oder das Nutzen eines anderen (digitalen) Hilfsmittels könnte hier
+sogar zu einem Mehraufwand führen.
+
+Die nächsten beiden Aufgaben beziehen sich auf die inhaltsbezogene mathematische
+Kompetenz (zur Kontrolle) Überschlagsrechnungen und andere Verfahren durchführen zu
+können. Beispielaufgabe 2 zeigt die Aufgabe „Überschlagsrechnung“, in der bereits eine
+Rundung auf ganze Zehner zum Erfolg führt. Zur Lösung der Aufgabe ist die Kompetenz
+Probleme mathematisch lösen (K2) erforderlich, indem Schüler:innen erkennen, dass hier das
+Abrunden der 91 auf 90 und das Aufrunden der 88 auf 90 einen adäquaten Überschlag darstellt
+(Antwortmöglichkeit 2).
+
+Beispielaufgabe 2: „Überschlagsrechnung“
+
+
+Das Ergebnis von 91·88
+                  91⋅ 88 soll durch eine Überschlagsrechnung im Kopf annähernd
+ermittelt werden.
+Welche der folgenden Überschlagsrechnungen eignet sich dafür am besten?
+Kreuze an.
+       80 ⋅ 80            90 ⋅ 90            90 ⋅ 80           91⋅ 85       100 ⋅ 90
+
+
+
+
+                                                 11
+Außerdem fordert die Aufgabe „Überschlagsrechnung“ die Kompetenz Mit symbolischen,
+formalen und technischen Elementen der Mathematik umgehen (K5) dadurch, dass
+Schüler:innen Lösungs- und Kontrollverfahren ausführen. Wird Antwortmöglichkeit 4
+ausgewählt, ist das ein Anzeichen dafür, dass die Idee des Überschlags nicht bekannt ist, weil
+mit den Zahlen nicht einfach im Kopf gerechnet werden kann. Es wird die Antwortmöglichkeit
+mit der scheinbar kleinsten Differenz zu 91∙88 ausgewählt. Die anderen Antwortmöglichkeiten
+sind nicht optimal, weil die gewählten Faktoren entweder zu klein sind (Antwortmöglichkeit 1),
+zweimal     abgerundet       (Antwortmöglichkeit 3)   oder    zweimal   aufgerundet     werden
+(Antwortmöglichkeit 5). Prinzipiell wäre diese Aufgabe auch für einen Prüfungsteil, der das
+Nutzen von Hilfsmitteln erlaubt, denkbar. Jedoch besteht die Gefahr, dass Schüler:innen dann
+den Taschenrechner nutzen, um schnell das Ergebnis aller Antwortmöglichkeiten zu
+bestimmen, und dann den Vorschlag auswählen, der am nächsten an dem mit dem
+Taschenrechner bestimmten Ergebnis von 91∙88 liegt.
+
+Eine gemeinsame Betrachtung der Aufgabe im Unterricht ist sinnvoll, weil sie Anlass zur
+Reflektion im Hinblick auf den Rechenaufwand und die Ergebnisgenauigkeit bietet. An dieser
+Stelle    kann   es   sich    lohnen,   die   Schüler:innen   die   Lösungen   der    jeweiligen
+Antwortmöglichkeiten berechnen zu lassen und zu vergleichen. Dabei ist in der Aufgabe
+„Überschlagsrechnung“ ein direkter Überschlag erforderlich (direkte Angabe eines ungefähren
+Ergebnisses). Einen Kontrast dazu stellt der indirekte Überschlag dar, bei dem bestimmt wird,
+ob ein Überschlag über oder unter einem Ergebnis liegt (van den Heuvel-Panhuizen, 2008).
+Stellt sich beispielsweise die Frage, ob das Budget einer Galerie von 10 000 € reicht, um
+91 Fotoleinwände zu kaufen, die je 88 € kosten, wäre 90∙90 € zwar immer noch der genauere
+Überschlag. Bei der Frage, ob der Überschlag unter einer vorgegebenen Zahl liegt, ist die
+Angabe von 100∙90 € an dieser Stelle jedoch auch denkbar, da das Aufrunden beider Zahlen
+hier eine sichere Antwort auf die Frage gibt, ob der Preis für die Fotoleinwände kleiner als der
+vorgegebene Wert von 10 000 € ist. Den Aufgabentypen liegen daher unterschiedliche
+Argumentationsprozesse zugrunde, die im Unterricht thematisiert werden können. Eine
+häufige Schwierigkeit besteht darin, dass die Überschlagsrechnung keinen genauen Regeln
+folgt, sondern gezielt Strategien ausgewählt werden müssen. Einen Gesprächsanlass dazu
+bieten die unterschiedlichen Strategien in der Tabelle 1. Mithilfe dieser Tabelle kann
+verdeutlicht werden, dass die Strategie des „Regelkonformen Rundens“ für das Galerie-
+Beispiel weniger geeignet ist, sondern eher auf die Strategien des „Geschickten Rundens“
+oder der „Kompensation (Überschlag mit Ausgleichsrechnung)“ zurückgegriffen werden sollte.
+Schüler:innen erfahren dabei, dass die Bewertung der Eignung einer Strategie immer
+situationsabhängig erfolgt.
+
+
+
+
+                                                12
+Tabelle 1: Formelle Überschlagsstrategien (Ausschnitt aus Tabelle von KIRA DZLM (2022)).
+
+       Strategie           16, 49 + 15, 49 ≈              239 + 219 + 224 ≈            64 ⋅ 0, 4257 ≈
+ Regelkonformes        16,50 + 15,50 =
+                                     32               240 + 220 + 220 =
+                                                                      680       64 ⋅ 0, 4 = 25,6
+ Runden                16 + 15 =31                    200 + 200 + 200 =
+                                                                      600       64 ⋅ 0 =  0
+                       ...                            ...
+ Geschicktes Runden 16 + 16 = 32                      240 + 220 + 220 =
+                                                                      680       64 ⋅ 0,5 =
+                                                                                         32
+                    (hier: gegensinniges
+                    Verändern)
+
+ Auf bekannte/         16 + 16 =
+                               32                     3 ⋅ 200 =
+                                                              600                                       1
+                                                                                0,4257 entspricht ca.
+ einfache Aufgabe       (hier: bewusstes                                                                2
+                                                                                         1
+ zurückgreifen          Zurückgreifen auf                                       → 64 ⋅     32
+                                                                                           =
+                        Verdopplungsaufgabe)                                             2
+ Kompensation        16 + 15 =31                      200 + 200 + 200 =
+                                                                      600              1
+                                                                                64 ⋅     32
+                                                                                         =
+ (Überschlag mit     (es wurde zweimal                (es wurde dreimal                2      1
+ Ausgleichsrechnung) abgerundet, also liegt           abgerundet, also liegt    (da 0,4257 <    ist, liegt
+                                                                                             2
+                        das Ergebnis ungefähr         das Ergebnis ungefähr     das Ergebnis etwas unter
+                        bei 32)                       bei 670)                  32)
+
+Darüber hinaus können Aufgaben thematisiert werden, bei denen die Überschlagsrechnung
+nicht nur zum Vergleich mit genauen Ergebnissen oder als Vorabeinschätzung der zu
+erwartenden    Größenordnung       dient.      Die    Aufgabe     „Überschlag     doch        mal“   (siehe
+Beispielaufgabe 3) bietet einen Anlass, zu thematisieren, dass eine ungefähre Abschätzung
+im Sachkontext ausreichend ist. Dabei stellt diese Aufgabe Anforderungen an die Kompetenz
+Mathematisch modellieren (K3), da die Realsituation („Wie viele Stunden werden in acht
+Schuljahren in der Schule verbracht?“) zunächst geeignet vereinfacht werden muss. Hierbei
+kommt sogenanntes Stützpunktwissen zum Tragen („Wie viele Wochen Schulferien gibt es?“,
+„Wie viele Tage pro Woche und wie viele Stunden am Tag verbringe ich in der Schule?“),
+mithilfe dessen geeignete Werte geschätzt werden. Diese Annahmen (z. B. 8 Schuljahre,
+40 Schulwochen pro Jahr, 5 Schultage pro Schulwoche und 6 Stunden Schulzeit pro Tag)
+werden in ein mathematisches Modell überführt (8∙40∙5∙6). Durch mathematisches Arbeiten
+(evtl. auch unter Rückgriff auf Rechengesetze wie das Assoziativ- oder Kommutativgesetz),
+das Anforderungen an die Kompetenz Mit symbolischen, formalen und technischen Elementen
+der Mathematik (K5) stellt, erhalten Schüler:innen hier das (exemplarische) Ergebnis 9600.
+Dieses muss anschließend im Sachzusammenhang interpretiert werden.
+
+
+
+
+                                                     13
+Beispielaufgabe 3: „Überschlag doch mal“
+
+Max meint, dass er ziemlich viel Zeit in der Schule verbringt. Er fragt sich, wie viele
+Unterrichtsstunden es in acht Schuljahren wohl schon waren.
+Welche Zahl passt am besten?
+Kreuze an.
+      ca. 1000 Unterrichtsstunden
+      ca. 10 000 Unterrichtsstunden
+      ca. 100 000 Unterrichtsstunden
+      ca. 1 000 000 Unterrichtsstunden
+Begründe deine Entscheidung.
+
+
+
+
+Die vierte und letzte Aufgabe „Zwei Thermometeranzeigen“ (siehe Beispielaufgabe 4) ver-
+knüpft Zahlbereiche und ihre Erweiterungen mit Rechenfähigkeiten im Anwendungskontext.
+
+Beispielaufgabe 4: „Zwei Thermometeranzeigen“
+
+
+ Das linke Thermometer zeigt die Temperatur, die                        °C                    °C
+ morgens gemessen wurde. Das rechte Thermometer
+ zeigt die Temperatur, die mittags gemessen wurde.                40                  40
+ Gib den Temperaturunterschied an.
+                                                                  30                  30
+   Der Temperaturunterschied beträgt               °C.
+                                                                  20                  20
+
+                                                                  10                  10
+
+                                                                    0                     0
+
+                                                                 -10                  -10
+
+
+
+
+                                                          morgens               mittags
+
+
+
+
+                                             14
+Für die Lösung der Aufgabe nutzen Schüler:innen sinntragende Vorstellungen von ganzen
+Zahlen entsprechend der Verwendungsnotwendigkeit (KMK, 2004, S. 10). Dieses Beispiel der
+Temperatur     bietet   einen   Anlass,    den     Schüler:innen   die    Notwendigkeit    der
+Zahlbereichserweiterung zu verdeutlichen, da den Schüler:innen Temperaturen unter 0°C
+normalerweise bereits in ihrem Alltag begegnet sind und hierfür die aus der Grundschule
+bekannten natürlichen Zahlen nicht mehr ausreichen. Dabei muss das Rechnen mit
+natürlichen Zahlen überdacht werden, denn im Kontext von ganzen Zahlen verkleinert das
+Abziehen des Subtrahenden den Minuenden nicht zwangsläufig. Somit stellt diese Aufgabe
+Anforderungen an die Rechenfähigkeiten und -fertigkeiten der Schüler:innen.
+
+In dieser Aufgabe wird die Kompetenz Mathematische Darstellungen verwenden (K4)
+angesprochen, da der Abbildung der Thermometer wichtige Informationen entnommen werden
+müssen. Der sich anschließende Umgang mit den gegebenen Daten erfordert die Kompetenz
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5).
+
+Letztendlich ist beim hilfsmittelfreien Arbeiten im Kontext der Leitidee Zahl das Ziel, dass
+Schüler:innen einerseits Rechengesetze zum vorteilhaften Rechnen nutzen können.
+Andererseits ist ein genaues Rechnen nicht immer sinnvoll und erforderlich. Dabei ist eine
+wichtige Erfahrung für Schüler:innen, dass sie nicht abhängig von ihrem Taschenrechner,
+sondern auch in der Lage sind, Überschlagsrechnungen abhängig vom Kontext
+durchzuführen.
+
+
+
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Zahl ist dies der Schwerpunkt hilfsmittelfreie Aufgaben, im Bereich der
+Leitidee Daten und Zufall der Schwerpunkt Umgang mit Daten. Aus beiden Themen wurden
+zentrale Inhalte betrachtet, welche durch die Bildungsstandards vorgegeben werden. Dabei
+wurde auf besondere Hürden und Möglichkeiten sowohl beim Thema hilfsmittelfreie Aufgaben
+als auch im Themenfeld Umgang mit Daten hingewiesen. Für weitere Anregungen für die
+Unterrichtspraxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der didak-
+tischen Handreichungen verwiesen. Zudem wurde aufgezeigt, welche Aufgabenmerkmale mit
+welchen allgemeinen mathematischen Kompetenzen einhergehen. Für weitere Beispiele und
+Anregungen stellt die in den vorangegangenen Kapiteln genannte Literatur eine gute Aus-
+gangslage dar.
+
+
+
+
+                                              15
+5 Literaturverzeichnis
+
+Blum, W. (2010). Einführung. In W. Blum, C. Drüke-Noe, R. Hartung, & O. Köller (Hrsg.),
+   Bildungsstandards Mathematik: konkret. Sekundarstufe I: Aufgabenbeispiele,
+   Unterrichtsanregungen, Fortbildungsideen (S. 14–32). Berlin: Cornelsen.
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht. Didaktische
+   Perspektiven des Sachrechnens in der Sekundarstufe. Berlin: Springer Spektrum.
+https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+KIRA DZLM. (2022, 08. März). Überschlagsrechnen. Zugriff am 15.11.2022, Verfügbar unter
+   https://kira.dzlm.de/node/131
+Klieme, E., Avenarius, H., Blum, W., Döbrich, P., Gruber, H., Prenzel, M., Reiss, K., Riquarts,
+   K., Rost, J., Tenorth, H.-E. & Vollmer, H. J. (2003). Zur Entwicklung nationaler
+   Bildungsstandards. In BMBF (Hrsg.), Bildungsreform Band 1. Zur Entwicklung nationaler
+   Bildungsstandards: Eine Expertise (S. 7–174). Berlin.
+KMK (2004): Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss.
+   Beschluss vom 4.12.2003. München: Luchterhand.
+KMK (2005): Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Beschluss
+   vom 15.10.2004. München, Neuwied: Luchterhand.
+KMK (2005b). Bildungsstandards im Fach Mathematik für den Primarbereich. Beschluss vom
+   15.10.2004. München, Neuwied: Luchterhand.
+KMK (2015). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife
+   (Beschluss der Kultusministerkonferenz vom 18.10.2012). Köln: Carl Link.
+Leiss, D. & Blum, W. (2010). Beschreibung zentraler mathematischer Kompetenzen. In W.
+   Blum, C. Drüke-Noe, R. Hartung & O. Köller (Hrsg.), Bildungsstandards Mathematik:
+   konkret. Sekundarstufe I: Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungsideen
+   (S. 33–50). Berlin: Cornelsen.
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading,
+   Science, Problem Solving and Financial Literacy. OECD Publishing.
+Stiftung Rechnen (2009). Rechnen in Deutschland. Eine Studie der Stiftung Rechnen und
+   bettermarks. Zugriff am 15.11.2022. Verfügbar unter https://www.stiftungrechnen.de/wp-
+   content/uploads/2021/03/Ergebnisbericht-Studie-Rechnen-in-Deutschland.pdf
+van den Heuvel-Panhuizen, M. (2008). Estimation. In M. van den Heuvel-Panhuizen (Hrsg.),
+   Children learn mathematics: A learning-teaching trajectory with intermediate attainment
+   targets for calculation with whole numbers in primary school (S. 173–202). Sense
+   Publishers.
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+   für Didaktik der Mathematik 21(61), 37–46.
+
+
+6 Abbildungsverzeichnis
+
+Abbildung 1: IQB in Anlehnung an KMK, 2015, S. 12 .......................................................... 5
+
+
+7 Tabellenverzeichnis
+
+Tabelle 1: IQB in Anlehnung an KIRA DZLM (2022)). ..........................................................13
+
+
+
+                                                     16
+8 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Vorteilhaft Rechnen“ ...........................................................................10
+Beispielaufgabe 2: „Überschlagsrechnung“ ........................................................................11
+Beispielaufgabe 3: „Überschlag doch mal“ .........................................................................14
+Beispielaufgabe 4: „Zwei Thermometeranzeigen“ ..............................................................14
+
+
+
+
+                                                         17
+       Vergleichsarbeiten 2024
+     8. Jahrgangsstufe (VERA-8)
+Mathematik – Didaktische Handreichung
+                Teil II
+
+
+
+
+    Fachdidaktische Orientierung
+      Leitidee Daten und Zufall
+Inhaltsverzeichnis
+1    EINLEITUNG ................................................................................................................. 3
+2    BILDUNGSSTANDARDS UND KOMPETENZMODELL IM FACH MATHEMATIK ......... 3
+3    DIE LEITIDEE DATEN UND ZUFALL ............................................................................ 7
+     3.1      SCHWERPUNKTTHEMA: UMGANG MIT DATEN........................................................... 8
+              3.1.1        Phasen einer statistischen Erhebung..................................................... 8
+              3.1.2        Aspekte statistischen Denkens .............................................................10
+     3.2      DATEN IM VERA-8 KONTEXT ................................................................................11
+     3.3      DATEN UND IHRE INTERDISZIPLINARITÄT ................................................................16
+4    ABSCHLIEßENDE ANMERKUNGEN ...........................................................................17
+5    LITERATURVERZEICHNIS ..........................................................................................18
+6    ABBILDUNGSVERZEICHNIS .......................................................................................19
+7    TABELLENVERZEICHNIS ...........................................................................................19
+8    VERZEICHNIS DER BEISPIELAUFGABEN .................................................................19
+
+
+
+
+Autor:innen der fachdidaktischen Erläuterungen in Teil II sind Ilja Ay, Maxim Brnic, Corinna
+Hankeln, Marlena Meyer, Antonia Rewer und Laura Wirth. Die gezeigten Testaufgaben
+entstanden in Kooperation von Lehrkräften aus zehn Bundesländern und Fachdidaktiker:innen
+unter Federführung der Arbeitsgruppe Prof. Greefrath, Universität Münster (fachdidaktische
+Leitung) und des Instituts zur Qualitätsentwicklung im Bildungswesen.
+
+Haftungsausschluss:
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für Richtigkeit,
+Vollständigkeit und Aktualität der eigenen Inhalte und der Inhalte externer Links. Für den Inhalt
+der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+
+
+
+           Wussten Sie, dass Sie viele VERA-Aufgaben und Didaktische Materialien
+                                            auch online finden können?
+
+                                      www.iqb.hu-berlin.de/vera/aufgaben
+
+
+
+
+                                                               2
+1 Einleitung
+
+Die Bildungsstandards der Kultusministerkonferenz (KMK, 2004, 2005, 2005b, 2015) mit ihren
+Leitideen und allgemeinen mathematischen Kompetenzen bilden die Grundlage für die
+VERgleichsArbeiten in der 8. Jahrgangsstufe (VERA-8) im Fach Mathematik. Daher wird in
+dieser didaktischen Handreichung zunächst der Aufbau der Bildungsstandards vorgestellt.
+Anschließend wird einer der Schwerpunkte, die in den diesjährigen Ergänzungsmodulen zur
+Wahl stehen, näher erläutert: die Leitidee Daten und Zufall mit einem Fokus auf das Thema
+Umgang mit Daten. Es werden insbesondere zu Aspekten des Schwerpunktes fachdidaktische
+Herausforderungen geschildert und Anregungen vorgestellt, wie mit diesen in der
+Unterrichtspraxis umgegangen werden kann. In dem dazugehörigen Kapitel werden außerdem
+Aufgaben aus VERA-8 präsentiert, die sich der diesjährigen Schwerpunktsetzung zuordnen
+lassen. Dabei handelt es sich um Beispiele für Aufgabenformulierungen, welche die
+verschiedenen allgemeinen Kompetenzen adressieren und zudem im Unterricht zur Förderung
+der Kompetenzen herangezogen werden können.
+
+
+
+2 Bildungsstandards1 und Kompetenzmodell im Fach Mathematik
+
+Im Anschluss an die Ergebnisse großer internationaler Vergleichsstudien – wie etwa der PISA-
+Studie oder TIMSS – führte die Kultusministerkonferenz (KMK) ab dem Jahr 2003 Bildungs-
+standards für die Fächer Deutsch, Mathematik und die erste Fremdsprache (Englisch/
+Französisch) ein2. Eine grundlegende Wende stand bevor: Während zuvor der Input im
+Vordergrund stand, also Inhalte und Themen, sollte nun auch der Output stärkere Beachtung
+finden, also der Aufbau von Kompetenzen, Wissensstrukturen, Werten, etc.. Inhalte sollten mit
+der Entwicklung von Persönlichkeitsmerkmalen verknüpft werden, die die Basis für ein
+lebenslanges Lernen legen und so persönliche Weiterentwicklung und gesellschaftliche
+Teilhabe ermöglichen (Klieme et al., 2003). Die OECD betont dabei den Anwendungscharakter
+von Mathematik:
+
+        „Mathematische Grundbildung umfasst die Fähigkeit des Einzelnen, Mathematik in einer
+        Vielzahl von Kontexten zu formulieren, anzuwenden und zu interpretieren. Sie umfasst
+        mathematisches Argumentieren und die Verwendung mathematischer Konzepte, Verfahren,
+        Fakten und Werkzeuge zur Beschreibung, Erklärung und Vorhersage von Phänomenen. Sie
+
+
+
+1   Die Bildungsstandards für Mathematik wurden für den Ersten und Mittleren Schulabschluss
+weiterentwickelt und 2022 von der KMK verabschiedet (KMK, 2022). Die Didaktische Handreichung Teil
+II bezieht sich auf die Bildungsstandards, die 2004 und 2003 von der KMK beschlossen worden sind,
+da sich die Normierungsaufgaben für die neuen Bildungsstandards noch in der Entwicklung befinden.
+2 https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+
+
+
+                                                3
+          hilft dem Einzelnen, die Rolle zu erkennen, die die Mathematik in der Welt spielt, und
+          begründete Urteile und Entscheidungen zu treffen, die von konstruktiven, engagierten und
+          reflektierten Bürgerinnen und Bürgern benötigt werden.“ (OECD, 2013, S. 25, eigene
+          Übersetzung)
+
+Zu diesem Zweck benennen die Bildungsstandards Kompetenzen, die Schüler:innen bis zu
+einer bestimmten Jahrgangsstufe anhand zentraler Fachinhalte erworben haben sollen
+(KMK, 2004, 2005). Dabei wird davon ausgegangen, dass ein allgemeinbildender Mathematik-
+unterricht Schüler:innen die folgenden drei Grunderfahrungen ermöglicht (Winter, 1995,
+S. 37):
+
+   1. Erscheinungen der Welt um uns, die uns alle angehen oder angehen sollten, aus Natur,
+          Gesellschaft und Kultur, in einer spezifischen Art wahrzunehmen und zu verstehen,
+   2. mathematische Gegenstände und Sachverhalte, repräsentiert in Sprache, Symbolen,
+          Bildern und Formeln, als geistige Schöpfungen, als eine deduktiv geordnete Welt
+          eigener Art kennen zu lernen und zu begreifen,
+   3. in der Auseinandersetzung mit Aufgaben Problemlösefähigkeiten, die über die
+          Mathematik hinausgehen, (heuristische Fähigkeiten) zu erwerben.
+
+Die Bildungsstandards umfassen in ihrem Wesen die benannten Grunderfahrungen sowie
+Inhalte, Kompetenzen und Niveaustufen, wie das folgende Kompetenzmodell für das Fach
+Mathematik darlegt. Das Kompetenzmodell liefert einen Handlungsrahmen für Lehrpersonen
+und Schulen, zur Einhaltung verbindlicher Ziele sowie zur Weiterentwicklung von Schule und
+Unterricht (Klieme et al., 2003). Handlungsrahmen bedeutet insbesondere, dass im
+Vordergrund nicht die Umsetzung eines – aus der fachlichen Systematik entstehenden –
+‚starren Gerüsts‘ steht, sondern den Schulen ein großer „Freiraum für die innerschulische
+Lernplanung“ (ebd., S. 9) gelassen wird. Es werden in diesem Modell zunächst die folgenden
+drei Dimensionen unterschieden (siehe Abbildung 1):
+
+   1. Allgemeine mathematische Kompetenzen
+   2. Leitideen
+   3. Anforderungsbereiche
+
+
+
+
+                                                 4
+                     Anforderungsbereich III
+
+
+
+                     Anforderungsbereich II
+
+
+
+                     Anforderungsbereich I
+
+                                                                       Leitideen
+                                                 L5   Daten und Zufall
+                                               L4     Funktionaler Zusammenhang
+                                             L3       Raum und Form
+                                           L2         Messen
+                                         L1           Zahl
+      K1    K2    K3   K4    K5    K6
+
+                             Mathematisch kommunizieren
+                       Mit symbolischen, formalen und technischen
+                       Elementen der Mathematik umgehen
+                   Mathematische Darstellungen verwenden
+              Mathematisch modellieren                      Allgemeine
+         Probleme mathematisch lösen                        mathematische
+                                                            Kompetenzen
+     Mathematisch argumentieren
+
+Abbildung 2: Kompetenzmodell der Bildungsstandards
+
+Die Allgemeinen mathematischen Kompetenzen bilden die Prozessdimension des Modells.
+Dabei wird vom Grundgedanken ausgegangen, „das Können der Schüler an den
+Kompetenzen festzumachen, die sie beim Bearbeiten von Aufgaben zu aktivieren haben“
+(Leiss & Blum, 2010, S. 33). Im Einzelnen sind dies die Kompetenzen Mathematisch
+argumentieren (K1), Probleme mathematisch lösen (K2), Mathematisch modellieren (K3),
+Mathematische Darstellungen verwenden (K4), Mit symbolischen, formalen und technischen
+Elementen der Mathematik umgehen (K5) und Mathematisch kommunizieren (K6). Diese
+Allgemeinen mathematischen Kompetenzen sollen differenziert betrachtet werden, auch wenn
+sie üblicherweise im Verbund erworben werden und häufig auch gemeinsam angewendet
+werden müssen. Insbesondere werden bei der Bearbeitung von komplexeren mathematischen
+Aufgaben oft mehrere dieser Kompetenzen benötigt. Mit der getrennten Betrachtung ist die
+Absicht verbunden, spezifische Eigenschaften und Anforderungen von Aufgaben im
+Mathematikunterricht transparent zu machen, was eine differenziertere Planung des
+Mathematikunterrichts ermöglicht. So kann ein mathematischer Inhalt den Schüler:innen
+entlang verschiedener durchzuführender mathematischer Tätigkeiten zugänglich gemacht
+
+                                             5
+werden. Inhalte können durch die multiperspektivische und wiederholte Betrachtung eher in
+ihrer Gänze verstanden werden und mathematische Kompetenzen anhand unterschiedlichster
+Erscheinungen über den Inhalt hinaus erworben werden.
+
+Jedoch reicht der Blick auf die Allgemeinen mathematischen Kompetenzen für eine produktive
+Gestaltung des Mathematikunterrichts nicht aus (Leiss & Blum, 2010). Daher bilden die
+Leitideen eine zweite Dimension des Modells. Die fünf Leitideen sind Zahl (L1), Messen (L2),
+Raum und Form (L3), Funktionaler Zusammenhang (L4) und Daten und Zufall (L5). In den
+Bildungsstandards wird zu den Leitideen erläutert:
+
+       „Eine Leitidee vereinigt Inhalte verschiedener mathematischer Sachgebiete und durchzieht ein
+       mathematisches Curriculum spiralförmig. Die Zuordnung einer inhaltsbezogenen
+       mathematischen Kompetenz zu einer mathematischen Leitidee ist nicht in jedem Fall eindeutig,
+       sondern davon abhängig, welcher Aspekt mathematischen Arbeitens im inhaltlichen
+       Zusammenhang betont werden soll.“ (KMK, 2004, S. 9).
+
+Leitideen folgen keinem fachdidaktischen Aufbau im Sinne einer zeitlichen Abfolge im
+Lernprozess („erst kommt das Zählen, dann kommt das Messen, usw.“), sondern sie erlauben
+es, bestimmte mathematische Inhalte unter einer Kategorie zusammenzufassen. Vielmehr soll
+durch die Betonung von Leitideen deutlich werden, dass sich aus mathematischen
+Phänomenen wie dem Zählen, dem Messen oder dem Umgang mit Zufällen mathematische
+Sachgebiete herausgebildet haben (Greefrath 2018, Blum 2010).
+
+Die dritte Dimension enthält die drei Anforderungsbereiche. Sie beschreiben die Komplexität
+von Aufgaben, denn das Bearbeiten und Lösen von Aufgaben fordert mathematische
+Kompetenzen in unterschiedlichen Ausmaßen (KMK, 2004). Es werden dabei in der Regel drei
+Anforderungsbereiche unterschieden. Mit dem Anforderungsbereich I werden Anforderungen
+an allgemeine Kompetenzen beschrieben, die zum Reproduzieren unterrichtlicher Inhalte
+befähigen. Zum Anforderungsbereich II zählen solche Anforderungen an allgemeine
+Kompetenzen, die es Schüler:innen ermöglichen Zusammenhänge herzustellen und
+Gelerntes anzuwenden. In den Anforderungsbereich III gehören diejenigen Anforderungen,
+die es Schüler:innen abverlangen zu verallgemeinern und zu reflektieren (ebd.).
+
+Die drei Bestandteile des Kompetenzmodells stellen gleichwertige Dimensionen der
+Bildungsstandards dar. Im Folgenden werden exemplarisch ein Aspekt der Leitidee Zahl sowie
+ein Aspekt der Leitidee Daten und Zufall herausgegriffen und erläutert. Eine Orientierung des
+Mathematikunterrichts an den Allgemeinen mathematischen Kompetenzen – also der
+Prozessdimension des Kompetenzmodells – ist eine maßgebliche Errungenschaft der
+Bildungsstandards, die auch bei exemplarischer Betrachtung einzelner Leitideen nicht in den
+Hintergrund geraten sollte.
+
+
+
+
+                                                6
+3 Die Leitidee Daten und Zufall
+
+In den Bildungsstandards im Fach Mathematik für den mittleren Schulabschluss werden unter
+der       Leitidee   Daten   und   Zufall   die   folgenden   inhaltsbezogenen   Kompetenzen
+zusammengefasst (KMK, 2004):
+Die Schüler:innen
+      •    werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,
+      •    planen statistische Erhebungen,
+      •    sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar,
+           auch unter Verwendung geeigneter Hilfsmittel (wie Software),
+      •    interpretieren Daten unter Verwendung von Kenngrößen,
+      •    reflektieren und bewerten Argumente, die auf einer Datenanalyse basieren,
+      •    beschreiben Zufallserscheinungen in alltäglichen Situationen,
+      •    bestimmen Wahrscheinlichkeiten bei Zufallsexperimenten.
+Diese Auflistung deckt sich mehrheitlich mit derjenigen für den Hauptschulabschluss (KMK,
+2005), wobei vereinzelt Unterschiede identifiziert werden können. So hat in den
+Bildungsstandards für den Hauptschulabschluss die Datenanalyse einen geringeren
+Stellenwert. Dies wird dadurch ersichtlich, dass die Interpretation unter Verwendung von
+Kenngrößen sowie die bei einer Datenanalyse einhergehende Reflexion und Bewertung von
+Argumenten nicht explizit gefordert werden. Dass Schüler:innen eine eigenständige Erhebung
+planen, wird ebenfalls nicht aufgegriffen. Stattdessen wird durch die inhaltsbezogenen
+Kompetenzen ein Alltagsbezug stärker betont. Schüler:innen sollen sowohl (berechnete)
+Häufigkeiten und Mittelwerte als auch lebensnahe Wahrscheinlichkeitsaussagen im Kontext
+interpretieren können.
+
+Durch die aufgelisteten inhaltlichen Kompetenzen wird bereits ersichtlich, dass die Leitidee
+Daten und Zufall wesentliche Elemente der Stochastik enthält. Dabei ist sie aber nicht auf die
+Stochastik beschränkt, sondern kann u. a. funktionale Zusammenhänge, das Messen oder die
+Geometrie aufgreifen, beispielsweise im Umgang mit Daten oder bei systematischen
+Experimenten (Biehler & Hartung, 2010).
+
+Diese didaktische Handreichung setzt im Folgenden einen Schwerpunkt auf den
+(stochastischen) Aspekt der Daten. Eine Schwerpunktsetzung auf diese Teilthematik bietet
+sich aus einem lebensnahen und einem didaktisch-bildungspolitischen Grund besonders an.
+Einerseits werden Schüler:innen und Lehrkräfte tagtäglich mit unterschiedlichsten Daten
+konfrontiert, z. B. durch Statistiken in sozialen und digitalen Medien. Andererseits ist ein
+Wandel der Lehrpläne beobachtbar dadurch, dass der Datenaspekt in diesen stärker integriert
+wird.
+
+
+
+
+                                                  7
+3.1     Schwerpunktthema: Umgang mit Daten
+In Kapitel 2 dieser Handreichung werden die Grunderfahrungen genannt, die Schüler:innen in
+einem     allgemeinbildenden     Mathematikunterricht      erfahren      sollen.    Eine     dieser
+Grunderfahrungen beschreibt, dass die Welt auf eine mathematische Weise wahrgenommen
+werden soll (Winter, 1995, S. 37). Ausgehend von der Prämisse, dass sich gerade
+Stochastikunterricht    durch     einen      Anwendungsbezug          auszeichnet      und      als
+„anwendungsorientierter    Unterricht“    bezeichnet   werden    kann,    scheint   dieser    dazu
+prädestiniert zu sein, die eigene Umwelt in der Bedeutung von Winter auf mathematische
+Weise erfahrbar zu machen (Krüger et al., 2015, S. 7). Anhand des hier gewählten
+Schwerpunktes Umgang mit Daten ist diese Perspektive besonders nachvollziehbar, da Daten
+als „Zahlen mit einem Kontext“ aufgegriffen werden können (Biehler & Engel, 2015, S. 229).
+Die Auseinandersetzung mit Daten im Mathematikunterricht kann Erfahrungen in der eigenen
+Umwelt widerspiegeln, da Schüler:innen in einer durch (empirische) Daten beeinflussten Welt
+leben.
+
+Die gesonderte gesellschaftliche Relevanz dieses Schwerpunktthemas Umgang mit Daten
+erfordert, dass Schüler:innen sich differenziert mit Daten und ihren unterschiedlichen
+Repräsentationen beschäftigen und diese interpretieren können, was zum Beispiel bei der
+Konfrontation mit (datenlastigen) Beiträgen sozialer oder anderer Medien gefordert ist. Im
+Verständnis der Bildungsstandards werden darüber hinaus breitere Kompetenzen gefordert
+(Biehler & Hartung, 2010), etwa dass „nicht nur problematische Zeitungsberichte, sondern
+beispielsweise seriös für die Öffentlichkeit produzierte Veröffentlichungen von statistischen
+Ämtern zu verstehen … die Zielperspektive [ist]“ (Biehler & Hartung, 2010, S. 53). Es stellt sich
+somit die Frage, wie ein solcher breiter Kompetenzerwerb erreicht werden kann. Ein
+wesentlicher Aspekt zum Erreichen dieses Ziels ist, dass Lernende die Methode der
+statistischen Erhebung kennen(lernen) und dabei die einzelnen Phasen einer vollständigen
+statistischen Erhebung durchlaufen. Hierbei sind in den jeweiligen Phasen unterschiedliche
+mathematische Kompetenzen gefordert (vgl. Folgekapitel), wobei die Schüler:innen zugleich
+wichtige Erfahrungen sammeln (Biehler & Hartung, 2010).
+
+3.1.1    Phasen einer statistischen Erhebung
+Die mathematischen Kompetenzen, welche in den einzelnen Phasen einer vollständigen
+statistischen Erhebung eine zentrale Bedeutung haben, werden in der folgenden Tabelle 1
+dargestellt:
+
+
+
+
+                                               8
+Tabelle 1: Phasen einer statistischen Erhebung, vgl. Biehler & Hartung, 2010; Biehler & Engel, 2015.
+
+
+             Phase                    Zentrale Kompetenzen             Beispiele / Erläuterung
+
+Problemstellung                                                 Reale Problemstellung in
+                                                                eine statistische Erhebung
+Planung der Erhebung              Mathematisch modellieren (K3)
+                                                                übersetzen, relevante
+Datenerhebung                                                   Variablen identifizieren, …
+
+                                                                Zwischen verschiedenen
+                                  Mathematische Darstellungen statistischen Darstellungen
+Auswertung                        verwenden (K4)                und Visualisierungen
+                                                                Beziehungen erkennen,
+                                  Mit symbolischen, technischen zwischen Darstellungen
+                                  und formalen Elementen der    wechseln, Software zur
+                                  Mathematik umgehen (K5)       Berechnung von
+Interpretation
+                                                                Kenngrößen nutzen, …
+
+                                  Mathematisch argumentieren         Den Lösungsweg
+                                  (K1)                               begründen, den Sachverhalt
+Schlussfolgerung und
+                                                                     schriftlich kommunizieren
+Ergebnisbericht                   Mathematisch kommunizieren         und adressatengerecht
+                                  (K6)                               darlegen, …
+
+Dabei ist zu beachten, dass alle weiteren mathematischen Kompetenzen abhängig von der
+einzelnen Problemstellung ebenfalls in den einzelnen Phasen bedeutsam sein können.
+Beispielsweise kann bei der Auswertung der Daten die Kompetenz Mathematisch
+kommunizieren benötigt werden, um die relevanten Informationen für die folgende
+Interpretation zu identifizieren. Es ist außerdem möglich, dass bei einer statistischen
+Untersuchung die Phasen mehrfach durchlaufen werden. Zum Beispiel kann bei der
+Interpretation festgestellt werden, dass noch weitere Daten benötigt werden, oder es können
+während des Prozesses neue Frage- bzw. Problemstellungen entstehen (Biehler & Engel,
+2015; Krüger et al., 2015, S. 103).
+
+Mithilfe dieser Tabelle wird ebenfalls deutlich, dass eine statistische Erhebung nicht nur
+Kompetenzen im Umgang mit der Datenauswertung und den damit einhergehenden
+Berechnungen oder mathematischen Darstellungen erfordert. Unter anderem wird in den
+letzten Phasen der statistischen Erhebung sichtbar, dass insbesondere Verbalisierungen im
+Stochastikunterricht bedeutsam sind. Diese Rolle der mathematischen Sprache wird dadurch
+deutlich, dass die Kompetenzen mathematisch zu argumentieren und zu kommunizieren
+explizit gefordert und somit gezielt gefördert werden können (Krüger et al., 2015, S. 8).
+
+
+
+
+                                                  9
+3.1.2    Aspekte statistischen Denkens
+Eine zielgerechte Auseinandersetzung mit Problemstellungen beim Umgang mit Daten
+erfordert bei Schüler:innen sogenanntes statistisches Denken. Dieses gilt es aufzubauen und
+ist in fünf Aspekte unterteilbar (Eichler & Vogel, 2013, S. XII; Vogel & Eichler, 2010; vgl. auch
+Biehler & Engel, 2015, S. 225; Wild & Pfannkuch, 1999).
+
+        1. Erkennen der Notwendigkeit von Daten
+
+Die Schüler:innen sollen erkennen, dass erst auf Basis „guter“ Daten und entsprechender
+statistischer Auswertungen Entscheidungen und Aussagen getroffen werden können, die
+allgemein anerkannt sind und nicht nur einer subjektiven Ansicht und Überzeugung
+entsprechen.
+
+        2. Flexible Repräsentation der relevanten Daten
+
+Daten können nicht als „richtig“ oder „falsch“ kategorisiert werden, sondern müssen statistisch
+analysiert werden. Abhängig von der jeweiligen Problemstellung wird jeweils eine andere
+Analysemethode benötigt und die Daten können auf unterschiedliche Weise dargestellt
+werden. Die Auswahl der passenden Analyse- und Darstellungsmethode erfordert Wissen
+über die Potenziale und Grenzen dieser, sodass die Daten aus unterschiedlichen Perspektiven
+wahrgenommen werden können. Beispielsweise können Boxplots und Säulendiagramme zum
+gleichen Datensatz erstellt werden, würden aber unterschiedliche Informationen bereitstellen
+oder entsprechend vernachlässigen.
+
+        3. Einsicht in die Variabilität statistischer Daten
+
+Der Ausgang einer statistischen Erhebung kann nicht genau vorausgesagt werden. Dies wird
+insbesondere durch Experimente deutlich, z. B. dem 50-maligen Werfen eines sechsseitigen
+Würfels. Wenn dieses Experiment wiederholt wird, wird das Ergebnis der Erhebung
+(voraussichtlich) unterschiedlich ausfallen. Damit mit solchen stets unterschiedlichen
+Ergebnissen umgegangen werden kann, ist es bedeutsam, die Gründe für die Variabilität zu
+thematisieren. So können es erklärbare, unerwartete oder zufällige Variationen des
+Ergebnisses sein, es kann sich um einen Sonderfall handeln oder auf eine häufiger
+vorkommende Ursache zurückführen lassen.
+
+        4. Erkennen von Mustern in den Daten und Beschreibung der Muster mit statistischen
+           Modellen
+
+Obwohl bei statistischen Erhebungen eine Variabilität vorhanden ist, sind trotzdem Muster in
+den Daten erkennbar. Würde man das Werfen eines Würfels mehrfach wiederholen, würden
+sich die Ergebnisse der Erhebungen voraussichtlich stets unterscheiden. Trotzdem wäre die
+Binomialverteilung als Muster identifizierbar und beschreibbar. Solche stochastischen Modelle
+
+
+                                                  10
+können insbesondere in den höheren Jahrgangsstufen thematisiert werden und eignen sich
+dafür, den Umgang mit solchen Experimenten und Daten immer wieder aufzugreifen.
+
+      5. Verbinden von Kontext und Statistik
+
+Die Auswertung und Analyse von Daten sind für (reale) Kontexte relevant. Diese Erkenntnis
+muss von Schüler:innen erst einmal erlangt werden. Beispielsweise sollte bei der Interpretation
+der Datenauswertung stets auch der Kontext beachtet werden, damit Interpretations-
+spielräume berücksichtigt werden. Den Schüler:innen sollte also bewusst sein, dass sich die
+Daten und der Kontext gegenseitig bedingen.
+
+
+3.2   Daten im VERA-8 Kontext
+Im VERA-8 Kontext sind Aufgaben zu finden, in denen der Umgang mit Daten geprüft wird.
+Mithilfe zweier Beispielaufgaben wird dies im Folgenden exemplarisch aufgezeigt. Dabei wird
+insbesondere dargelegt, welche Kompetenzen die Aufgaben erfordern und nach Möglichkeit
+Bezug zu den Phasen einer statistischen Erhebung und den Aspekten statistischen Denkens
+genommen.
+
+Dass eine statistische Untersuchung festgelegten und stringenten Phasen folgt und somit in
+einem allgemeinen Ablauf beschrieben werden kann, wird in der Aufgabe „Bistroumfrage“
+(siehe Beispielaufgabe 1) aufgegriffen.
+
+
+
+
+                                               11
+Beispielaufgabe 1: „Bistroumfrage“ - Teilaufgabe 1
+
+
+Die Klasse 8a plant eine statistische Untersuchung zum Kaufverhalten im Schulbistro.
+Bevor die statistische Untersuchung durchgeführt wird, soll mithilfe von
+Planungskarten ein allgemeiner Ablaufplan erstellt werden.
+                                Ablaufplan
+
+
+      Wir formulieren Antworten auf              Wir haben ein Problem zu
+      das Untersuchungsproblem.                           lösen.
+                    6                                         1
+
+
+
+
+                5                                                 2
+
+
+
+
+            Wir stellen die
+     Untersuchungsergebnisse dar
+         (Tabelle, Diagramm).
+                   4                                          3
+
+Ordne die folgenden Planungskarten der richtigen Stelle im Ablaufplan zu.
+Schreibe dazu die entsprechenden Nummern in die Kreise auf den Planungskarten.
+                               Planungskarten
+
+    Wir interpretieren die        Wir führen eine Befragung           Wir überlegen uns
+  Untersuchungsergebnisse.                  durch.                    geeignete Fragen.
+
+
+
+
+Bei dieser Aufgabe sollen Schüler:innen Planungskarten an die richtigen Stellen eines
+Ablaufplans einer statistischen Untersuchung sortieren. Die Planungskarten spiegeln dabei die
+Phasen einer vollständigen statistischen Untersuchung wider: die Problemstellung – die
+Planung der Erhebung – die Datenerhebung – die Auswertung – die Interpretation – die
+Schlussfolgerung und den Ergebnisbericht (vgl. Kapitel 3.1.1).
+
+Da hier aus einfachen mathematikhaltigen Texten bzw. der Abbildung Informationen zu den
+einzelnen Phasen entnommen werden müssen, ist hier die Kompetenz Mathematisch
+kommunizieren (K6) gefordert. Die Abbildung stellt dabei eine Möglichkeit dar, wie die Phasen
+im Unterricht dargestellt werden könnten. Die einzelnen Phasen werden in diesem Ablaufplan
+mit Handlungen verknüpft und somit operationalisiert.
+
+
+                                                12
+Bei der Auseinandersetzung mit der Problemstellung einer Untersuchung und dem Entwickeln
+eines Untersuchungsplans ist oftmals Mathematisches Modellieren (K3) die zentrale
+Kompetenz, auf die Schüler:innen zurückgreifen müssen (siehe Tabelle 1). Anhand der
+folgenden Teilaufgabe wird dies deutlich, da Teilkompetenzen des Modellierens gebraucht
+werden (siehe Beispielaufgabe 2).
+
+Beispielaufgabe 2: „Bistroumfrage“ - Teilaufgabe 2
+
+
+Ein Ziel der Untersuchung soll es sein, die Wochentage mit dem höchsten
+Getränkeumsatz herauszufinden. Dazu wird eine Umfrage vor der Eröffnung des
+Bistros durchgeführt.
+Welche Frage passt zum Ziel der Umfrage?
+Kreuze eine der folgenden Fragen an.
+        Würdest du im Bistro Getränke kaufen?
+        An welchen Wochentagen würdest du im Bistro einkaufen?
+        Wie viele Getränke würdest du in einer Woche im Bistro kaufen?
+        An welchen Wochentagen würdest du im Bistro Getränke kaufen?
+
+Bei dieser Teilaufgabe ist es die Teilkompetenz Vereinfachen des Mathematischen
+Modellierens (K3), die Schüler:innen vordergründig benötigen. Für diese reale Situation – eine
+statistische Untersuchung zum Kaufverhalten im Schulbistro – müssen Annahmen getroffen
+werden. Dabei soll die Situation bzw. das Problem vereinfacht werden, damit das Ziel der
+Untersuchung, den Wochentag mit dem höchsten Getränkeumsatz zu finden, erreicht werden
+kann.
+
+Damit die Situation sinnentnehmend gelesen und verstanden werden kann sowie letztendlich
+die zugehörige richtige Fragestellung ausgewählt wird, ist die Kompetenz Mathematisch
+kommunizieren (K6) notwendig. Die in der Aufgabe formulierten Fragen können als
+Beispielfragen aufgefasst werden, die Schüler:innen im Rahmen einer eigenen Untersuchung
+im Unterricht stellen könnten. Würden die Schüler:innen im Unterricht tatsächlich eine eigene
+Erhebung durchführen oder es würde eine solche Aufgabe thematisiert werden, könnten noch
+weitere differenzierte Fragestellungen von den Schüler:innen oder durch die Lehrkraft gestellt
+werden, z. B. „Wie viele Personen müssen befragt werden, sodass die Stichprobe
+repräsentativ ist?“ oder „Welche Antwortmöglichkeiten sollten angeboten werden?“. Darüber
+hinaus kann anhand dieser Aufgabe die Notwendigkeit von Daten für diese und vergleichbare
+Problemstellungen thematisiert werden. Dass gerade die Erhebung von Daten zu einem
+möglichst objektiven Erkenntnisgewinn beiträgt und so die Fragestellung gewinnbringend für
+die Klasse beantwortet werden kann, kann entsprechend diskutiert werden.
+
+
+
+
+                                                13
+Aufgabenstellungen können auch spätere Phasen einer vollständigen Untersuchung
+thematisieren und bereits erhobene Daten darstellen. Bei der Aufgabe „Schulkleidung“ in der
+Beispielaufgabe 3 ist dies der Fall.
+
+Beispielaufgabe 3: „Schulkleidung“ - Teilaufgabe 1
+
+
+An einer Schule wird über die Einführung einheitlicher Schulkleidung diskutiert. Lisa
+und Paul haben im Internet eine Studie der Fachhochschule Münster zu diesem
+Thema gefunden. Dort wurden insgesamt 17 812 Schülerinnen und Schüler befragt.
+Auf die Frage „Wärst du bereit, Schulkleidung zu tragen?“ haben 9018 (50,6 %) der
+Befragten mit „ja“ geantwortet, 8136 (45,7 %) mit „nein“, der Rest hat keine Angaben
+gemacht.
+Stelle die Ergebnisse der Befragung („ja“ / „nein“ / „keine Angaben“) in einem
+Säulendiagramm dar.
+
+
+
+
+In dieser Aufgabe soll eine Darstellung, das Säulendiagramm, erstellt werden. Diese
+eigenständige    Leistung    greift    auf   die     Kompetenz   Mathematische   Darstellungen
+verwenden (K4) zurück, da zwischen der symbolisch-numerischen Darstellung im Text zu
+einer eigenen graphischen Darstellung gewechselt werden muss. Dies erfordert die
+zielgerichtete Entnahme relevanter Informationen zur Umfrage aus dem Text. Daher ist auch
+die Kompetenz Mathematisch kommunizieren (K6) erforderlich. Anhand des erstellten
+Säulendiagramms kann diagnostiziert werden, ob die Schüler:innen die bedeutsamen
+Informationen aus dem Text entnehmen und auf die Analysetechnik eines Säulendiagramms
+zurückgreifen können.
+
+Dass die Daten nicht nur anhand eines Säulendiagramms, sondern auf flexible Weise
+dargestellt werden können, wird anhand der sich anschließenden Teilaufgabe in
+Beispielaufgabe 4 deutlich. Dabei wird verdeutlicht, dass solche Repräsentationen der Daten
+aus unterschiedlichen Perspektiven entstehen, diese aber auch repräsentieren können, wie
+
+
+                                                   14
+sich an Lisas Diagramm zeigt. Ihre Darstellung erweckt den optischen Eindruck, dass die
+meisten Personen für ein „Nein“ gestimmt haben, obwohl dies nicht der Fall ist. Die für die
+Problemstellung relevanten Prozentangaben sind nur anhand der Höhe ablesbar.
+
+Beispielaufgabe 4: „Schulkleidung“ - Teilaufgabe 2
+
+
+Lisa hat die Ergebnisse der Befragung etwas auffälliger dargestellt und dabei ihre
+persönliche Meinung zu dem Thema einfließen lassen.
+Bereit, Schulkleidung zu tragen
+100 %
+ 90 %
+ 80 %
+ 70 %                                          ja
+ 60 %                                          nein
+ 50 %
+ 40 %
+ 30 %
+ 20 %
+ 10 %
+  0%
+Lisa ist gegen die Einführung einheitlicher Schulkleidung.
+Erläutere, warum Lisas Diagramm ihre Meinung betont.
+
+
+
+
+Die hier geforderte Beurteilung der gegebenen Darstellung entspricht der Kompetenz
+Mathematische Darstellungen verwenden (K4). Da der Sachverhalt schriftlich präsentiert
+werden muss, ist die Kompetenz Mathematisch kommunizieren (K6) verlangt.
+
+In den beiden Teilaufgaben wird sich mit den Phasen Auswertung und Interpretation einer
+statistischen Erhebung befasst. Im vorigen Kapitel 3.1.1 wurde postuliert, dass in diesen
+Phasen die Kompetenz Mathematische Darstellungen verwenden (K4) eine gesonderte
+Bedeutung hat. Dass diese als eine der zentralen Kompetenzen in diesen Schritten der
+Erhebung aufgefasst werden kann, wird durch die beiden Teilaufgaben illustriert. Die
+Sensibilisierung gegenüber unterschiedlichen Darstellungen, die bestimmte Ziele verfolgen,
+kann im begleitenden Mathematikunterricht geübt werden. Beispielsweise können im
+Unterricht vergleichbare Darstellungen aus Zeitungen oder sozialen Netzwerken thematisiert
+werden, die eine kritische Auseinandersetzung erfordern. Eine Möglichkeit wäre, dass die
+
+                                                15
+Schüler:innen       selbst   dazu    aufgefordert        werden,   bestimmte     meinungsvertretende
+Darstellungen zu erstellen. Dann kann darüber reflektiert werden, welche Bedeutung der
+Kontext für die Dateninterpretation hat und ob die flexiblen Darstellungsmöglichkeiten von
+Daten subjektive Überzeugungen beeinflussen.
+
+
+3.3       Daten und ihre Interdisziplinarität
+Das Schwerpunktthema Umgang mit Daten bietet aufgrund seiner Charakteristik viele
+Möglichkeiten zur Vernetzung mit anderen Fächern an. Der Umgang mit Daten stellt nicht nur
+eine mathematikspezifische Aufgabe dar, sondern betrifft alle weiteren natur- und
+gesellschaftswissenschaftlichen        Fächer.      Die     Aufgaben    einer     Mathematiklehrkraft
+unterscheiden sich aber von denen der Fachkolleg:innen und sind folgendermaßen
+beschreibbar:
+
+      -    „Sie [die Mathematiklehrkraft] muss in ihrem Unterricht grundlegende Begriffe,
+           Verfahren sowie Denk- und Arbeitsweisen der Stochastik so vermitteln, dass diese in
+           anderen Fächern verwendet und vertieft werden können.
+      -    Sie muss Koordinator und Berater im Gesamtprozess der Vermittlung stochastischen
+           Wissens und Könnens an ihrer Schule sein.“ (Krüger et al., 2015, S. 5)
+
+Darüber        hinaus   ermöglicht   insbesondere         dieses   Thema   die    Verwendung     von
+Auswertungssoftware oder Tabellenkalkulationsprogrammen. Erst durch die Wahl geeigneter
+Hilfsmittel können auch größere Datenmengen analysiert oder Zufallsversuche vielfach
+simuliert werden. Damit können die Schüler:innen beispielsweise eigene Vermutungen
+überprüfen oder das Verstehen von stochastischen Modellen wird durch ein „Erlebbarmachen“
+erleichtert. Außerdem können graphische Darstellungen auf einfache Weise erstellt werden
+(Biehler & Engel, 2015; Biehler & Hartung, 2010; Eichler & Vogel, 2013, S. 246ff.; Krüger et
+al., 2015, S. 230). Wird eine eigenständige Untersuchung im Unterricht durchgeführt, stehen
+oftmals nicht genügend Daten für eine aussagekräftige Auswertung und Interpretation zur
+Verfügung. Dies ist insbesondere dann der Fall, wenn sich die Fragestellung nicht nur auf die
+eigene Klasse, sondern auf eine größere Population beziehen soll. Eine solche Untersuchung
+könnte dann durch andere öffentliche Daten, z. B. aus dem Schulbuch, dem statistischen
+Bundesamt oder anderen Medien ergänzt werden (Biehler & Hartung, 2010). Dabei ist zu
+beachten, dass sich reale Daten von fiktiven Daten unterscheiden können: „Reale Daten in
+Statistik kommen aus einem Kontext und enthalten Ungewissheit und Fehler, während Daten
+im traditionellen Mathematikunterricht typischerweise fingiert sind und so gewählt wurden,
+dass sie exakt zu einem mathematischen Modell passen.“ (Biehler & Engel, 2015, S. 229).
+Hierbei wird die Variabilität von Daten als ein Aspekt stochastischen Denkens wieder
+ersichtlich.
+
+
+                                                    16
+Letztendlich ist es das Ziel, dass Schüler:innen mit Daten verantwortungsvoll umgehen können
+und ein Bewusstsein für die Variabilität und Analysemöglichkeiten, welche unterschiedliche
+Perspektiven     darstellen   können,   entwickeln.   Die   ständige    Konfrontation    durch
+unterschiedliche Kommunikationsmedien mit Daten im täglichen Leben und einer von Daten
+geprägten Umwelt kann zu einer Ungewissheit und Unsicherheit bei Entscheidungsprozessen
+führen (Biehler & Engel, 2015). Ein entsprechender Kompetenzerwerb kann dazu beitragen,
+dass Schüler:innen solche Prozesse sachgemäß analysieren und interpretieren können.
+
+
+
+4 Abschließende Anmerkungen
+
+Die diesjährigen didaktischen Handreichungen beinhalten erneut zwei Themenschwerpunkte
+aus zwei Leitideen, die als Ergänzungsmodule für die VERA-8 Testung zur Auswahl stehen.
+Im Bereich der Leitidee Zahl ist dies der Schwerpunkt hilfsmittelfreie Aufgaben, im Bereich der
+Leitidee Daten und Zufall der Schwerpunkt Umgang mit Daten. Aus beiden Themen wurden
+zentrale Inhalte betrachtet, welche durch die Bildungsstandards vorgegeben werden. Dabei
+wurde auf besondere Hürden und Möglichkeiten sowohl beim Thema hilfsmittelfreie Aufgaben
+als auch im Themenfeld Umgang mit Daten hingewiesen. Für weitere Anregungen für die
+Unterrichtspraxis sei auf die Kommentare zu den einzelnen Aufgaben in Teil III der didak-
+tischen Handreichungen verwiesen. Zudem wurde aufgezeigt, welche Aufgabenmerkmale mit
+welchen allgemeinen mathematischen Kompetenzen einhergehen. Für weitere Beispiele und
+Anregungen stellt die in den vorangegangenen Kapiteln genannte Literatur eine gute Aus-
+gangslage dar.
+
+
+
+
+                                              17
+5 Literaturverzeichnis
+
+Biehler, R. & Engel, J. (2015). Stochastik: Leitidee Daten und Zufall. In R. Bruder, L.
+   Hefendehl-Hebeker, B. Schmidt-Thieme & H.-G. Weigand (Hrsg.), Handbuch der
+   Mathematikdidaktik (S. 221–251). Berlin, Heidelberg: Springer.
+Biehler, R. & Hartung, R. (2010). Leitidee Daten und Zufall. In W. Blum, C. Drüke-Noe, R.
+   Hartung & O. Köller (Hrsg.), Bildungsstandards Mathematik: konkret. Sekundarstufe I:
+   Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungsideen (S. 51–80). Berlin:
+   Cornelsen.
+Blum, W. (2010). Einführung. In W. Blum, C. Drüke-Noe, R. Hartung, & O. Köller (Hrsg.),
+   Bildungsstandards Mathematik: konkret. Sekundarstufe I: Aufgabenbeispiele,
+   Unterrichtsanregungen, Fortbildungsideen (S. 14–32). Berlin: Cornelsen.
+Eichler, A. & Vogel, M. (2013). Leitidee Daten und Zufall. Von konkreten Beispielen zur
+   Didaktik der Stochastik. Wiesbaden: Springer Spektrum.
+Greefrath, G. (2018). Anwendungen und Modellieren im Mathematikunterricht. Didaktische
+   Perspektiven des Sachrechnens in der Sekundarstufe. Berlin: Springer Spektrum.
+https://www.kmk.org/themen/qualitaetssicherung-in-schulen/bildungsstandards.html
+Klieme, E., Avenarius, H., Blum, W., Döbrich, P., Gruber, H., Prenzel, M., Reiss, K., Riquarts,
+   K., Rost, J., Tenorth, H.-E. & Vollmer, H. J. (2003). Zur Entwicklung nationaler
+   Bildungsstandards. In BMBF (Hrsg.), Bildungsreform Band 1. Zur Entwicklung nationaler
+   Bildungsstandards: Eine Expertise (S. 7–174). Berlin.
+KMK (2004): Bildungsstandards im Fach Mathematik für den Mittleren Schulabschluss.
+   Beschluss vom 4.12.2003. München: Luchterhand.
+KMK (2005): Bildungsstandards im Fach Mathematik für den Hauptschulabschluss. Beschluss
+   vom 15.10.2004. München, Neuwied: Luchterhand.
+KMK (2005b). Bildungsstandards im Fach Mathematik für den Primarbereich. Beschluss vom
+   15.10.2004. München, Neuwied: Luchterhand.
+KMK (2015). Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife
+   (Beschluss der Kultusministerkonferenz vom 18.10.2012). Köln: Carl Link.
+Krüger, K., Sill, H.-D. & Sikora, C. (2015). Didaktik der Stochastik in der Sekundarstufe I. Berlin,
+   Heidelberg: Springer Spektrum.
+Leiss, D. & Blum, W. (2010). Beschreibung zentraler mathematischer Kompetenzen. In W.
+   Blum, C. Drüke-Noe, R. Hartung & O. Köller (Hrsg.), Bildungsstandards Mathematik:
+   konkret. Sekundarstufe I: Aufgabenbeispiele, Unterrichtsanregungen, Fortbildungsideen
+   (S. 33–50). Berlin: Cornelsen.
+OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading,
+   Science, Problem Solving and Financial Literacy. OECD Publishing.
+Vogel, M. & Eichler A. (2010). Leitidee Daten und Zufall in der Sekundarstufe I. In A. Lindmeier
+   & S. Ufer. (Hrsg.), Beiträge zum Mathematikunterricht 2010 (S. 879-882). Münster: WTM-
+   Verlag.
+Wild, C.J., & Pfannkuch, M. (1999). Statistical Thinking in Empirical Enquiry. International
+   Statistical Review 67(3), 223–248.
+Winter, H. (1995). Mathematikunterricht und Allgemeinbildung. Mitteilungen der Gesellschaft
+   für Didaktik der Mathematik 21(61), 37–46.
+
+
+
+
+                                                18
+6 Abbildungsverzeichnis
+
+Abbildung 1: IQB in Anlehnung an KMK, 2015, S. 12 .......................................................... 5
+
+
+7 Tabellenverzeichnis
+
+Tabelle 1: Biehler & Hartung, 2010; Biehler & Engel, 2015. .................................................. 9
+
+
+8 Verzeichnis der Beispielaufgaben
+
+Beispielaufgabe 1: „Bistroumfrage“ - Teilaufgabe 1 ............................................................12
+Beispielaufgabe 2: „Bistroumfrage“ - Teilaufgabe 2 ............................................................13
+Beispielaufgabe 3: „Schulkleidung“ - Teilaufgabe 1 ............................................................14
+Beispielaufgabe 4: „Schulkleidung“ - Teilaufgabe 2 ............................................................15
+
+
+
+
+                                                      19
+

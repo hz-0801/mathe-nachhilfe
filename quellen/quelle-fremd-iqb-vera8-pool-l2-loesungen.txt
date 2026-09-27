@@ -1,0 +1,854 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 2 (Messen)“, IQB Berlin – Auswertung (Kodieranweisung, Lösungen)
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L2_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Auswertung“ mit 1–4 Seiten; hier 47 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== apfelsaftschorle · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Apfelsaftschorle
+RICHTIG
+ | Richtige Antwort (Ja) UND angemessene rechnerische oder verbale Begründung bzw. durch den Verweis auf das ermittelte Gesamtvolumen von 1300 ml (oder richtige Angabe in anderer Einheit).
+
+z. B.
+Ja, die Apfelsaftschorle passt in das Gefäß, denn insgesamt ergibt sich ein Volumen von 1,3 Liter.
+ |
+
+===== aussagendreiecke · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013
+
+Auswertung – Aussagen über Dreiecke
+Teilaufgabe 1
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | Richtiger Term
+
+Beispiel(e)
+•  = 180 - 3
+•  = 180 -  - 2
+[Anm.: Hier wurde zwar nicht zusammengefasst, aber das Bildungsgesetz wurde korrekt erkannt.]
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+•  =  + 2
+•  = 180 -  -
+[Anm.: Dies ist der allgemeine Term. Hier wird nicht die reine Abhängigkeit von  angegeben.]
+ |
+
+===== berechnungenamrechteck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2016
+
+Berechnungen am Rechteck
+Teilaufgabe 1:
+RICHTIG
+ | 15 cm
+ | Teilaufgabe 2:
+RICHTIG
+ | 16 cm
+ |
+
+===== berndunddasbrot · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Auswertung – Bernd und das Brot
+RICHTIG
+ | 5 kg
+UND
+500 g
+UND
+55,5 kg
+[Anm.: Die Einheiten müssen notiert werden.]
+ |
+
+===== butter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2015
+
+Auswertung – Butter
+RICHTIG
+ | Ganzzahlige Antworten aus dem Intervall [70; 80]
+ODER
+Ganzzahlige Antworten aus dem Intervall [170; 180].
+ |
+
+===== derriese · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K3, K4, K5, K6, Jahrgang 2015
+
+Auswertung – Der Riese
+RICHTIG
+ | Angabe einer Größe aus dem Intervall [30 m; 60 m]
+UND
+Lösungsweg unter Berücksichtigung der (implizit )getroffenen Annahmen, die realistisch sein müssen. Der abgebildete Teil des Kopfes passt minimal 10 bis maximal 20 mal in den Körper.
+[Anm.: Es muss berücksichtigt werden, dass die 3 m nur einen Teil des Kopfes ausmachen.]
+Beispiel(e)
+600 cm : 25 cm = 24
+24  160 cm = 3840 cm  38 m
+Wenn mein Kopf 25 cm hoch ist und ich etwa 1,60 m groß bin, müsste der Riese etwa 38 m groß sein.
+Mein halber Kopf ist ca. 15 cm groß. Ich bin 1,50 m groß. Also müsste der Riese ca. 30 m groß sein.
+Der Riese ist in Wirklichkeit 3 m hoch. Man sieht ungefähr die Hälfte des Kopfes. Ich habe herausgefunden, dass dieser Teil des Kopfes bei mir 16-Mal in den Körper passt. Wenn dies auch bei dem Riese so ist, dann müsste dieser etwa 48 m hoch sein.
+ |
+
+===== derstern · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K5, Jahrgang 2016
+
+Der Stern
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== figurauszweidreiecken · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K1, K4, K6, Jahrgang 2014
+
+Auswertung – Figur aus zwei Dreiecken
+RICHTIG
+ | 4 der 5 Kreuze sind richtig gesetzt.
+
+Die beiden Winkel a und d sind... richtig falsch
+… gleich groß, denn die beiden Dreiecke sind
+kongruent.
+… gleich groß, denn b und g sind Scheitelwinkel
+und daher gleich groß. Außerdem ist a + b = 90 °
+und es ist
+g + d = 90 °. Also ist a = 90 ° - b = 90 ° - g = d.
+… nicht gleich groß, denn in einem kleineren
+Dreieck ist auch der entsprechende Winkel
+kleiner.
+… gleich groß, denn beide Winkel haben einen
+Schenkel gemeinsam und ihre beiden anderen
+Schenkel verlaufen parallel zueinander. a und d
+sind also Wechselwinkel an parallelen Geraden.
+… nicht gleich groß, denn b und g sind nicht
+gleich groß.
+
+ |
+
+===== flaechengleichodernicht · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K4, Jahrgang 2016
+
+Flächengleich oder nicht?
+Teilaufgabe 1:
+RICHTIG
+ | 20
+ | Teilaufgabe 2:
+RICHTIG
+ | Ja
+UND
+Begründung mit Hinweis auf die gleiche Länge von Höhe und Grundseite beider Parallelogramme
+Beispiel(e)
+Die Grundseiten und die Höhen der beiden Parallelogramme sind gleich lang.
+Rechnerische Begründung, bei der die Fläche mithilfe gemessener Längen konkret bestimmt wird.
+ |
+
+===== flaecheninhalt · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+
+Auswertung – Flächeninhalt
+RICHTIG
+ | 15
+ |
+
+===== fliesenfuerdenfussboden · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2015
+
+Fliesen für den Fußboden
+Teilaufgabe 1:
+RICHTIG
+ | 50
+UND
+25
+UND
+12,5
+ | Teilaufgabe 2:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== fussleisten · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2011
+
+Fußleisten
+Teilaufgabe 1
+RICHTIG
+ | 8 (Fußleisten)
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+7,2 Fußleisten
+
+ODER
+7 Fußleisten
+ |
+Teilaufgabe 2
+RICHTIG
+ | 36
+ |
+
+===== gesamtkantenlaenge · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2017
+
+Gesamtkantenlänge
+
+RICHTIG
+ |
+11 cm 22 cm 33 cm 44 cm
+
+ |
+
+===== gewerbezone · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, K6, Jahrgang 2013
+
+Auswertung – Gewerbezone
+RICHTIG
+ | 6
+ |
+
+===== hauptstaedte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 1B, K2, K3, K4, K5, Jahrgang 2014
+
+Auswertung – Hauptstädte
+Teilaufgabe 1
+RICHTIG
+ | Maßzahl aus dem Intervall [1750;1950]
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== holzstab · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2011
+
+Holzstab
+Teilaufgabe 1
+RICHTIG
+ | 1,5
+
+Anm.: Akzeptiert werden auch alle anderen wertgleichen Angaben, z. B. 3/2 oder 6/4.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+150
+ |
+Teilaufgabe 2
+RICHTIG
+ | 1,5
+
+Anm.: Akzeptiert werden auch alle anderen wertgleichen Angaben, z. B. 3/2 oder 6/4.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+150
+ |
+
+===== honigbiene · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, Jahrgang 2016
+
+Honigbiene
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== judomatte · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011
+
+Judomatte
+RICHTIG
+ |
+2 2 2 2 2 8 m 16 m 32 m 64 m 256 m
+
+ |
+
+===== koerperfuellen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014
+
+Auswertung - Körper füllen
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== kopfundkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, K6, Jahrgang 2016
+
+Kopf und Körper
+Teilaufgabe 1:
+RICHTIG
+ | 48
+ | Teilaufgabe 2:
+RICHTIG
+ | 23
+ |
+
+===== kreisfiguren · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K2, Jahrgang 2017
+
+Kreisfiguren
+
+RICHTIG
+ | A UND B
+ODER
+B UND A
+ |
+
+===== leistungdesmotors · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2014
+
+Auswertung - Leistung des Motors
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== maus · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Auswertung – Maus
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== messzylinder · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2014
+
+Auswertung - Messzylinder
+RICHTIG
+ | 280
+ |
+
+===== muelltonne · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K3, K5, K6, Jahrgang 2017
+
+Mülltonne
+
+RICHTIG
+ | Volumenangabe aus dem Intervall [75 l, 600 l] bzw. [0,075 ; 0,6 .]
+UND
+Lösungsweg, in dem die Tonne durch einen geeigneten mathematischen Körper modelliert wird (z. B. Quader) und die Kantenlängen des Körpers anhand einer Bezugsgröße (z. B. Größe der Frau) geschätzt werden.
+Beispiel(e)
+Höhe Mülltonne  Höhe Hüfte der Frau  1,1 m
+Maße des Deckels der Mülltonne: ca. 0,5 m mal 0,5 m
+Volumen der Mülltonne  1,1 m  0,5 m  0,5 m 0,3 m
+Ich habe die Höhe der Frau auf 1,60 m geschätzt. Die Tonne ist etwa halb so hoch wie die Frau, also 80 cm. Die Tonne ist etwa doppelt so hoch wie breit. Also ergibt sich für das Volumen:
+
+[Anm.: Volumenangaben in anderer Maßeinheit mit passender Maßzahl sind zulässig. Die Maßeinheit muss angegeben werden. Die Vorgehensweise kann auch anhand des Bildes veranschaulicht werden, indem beispielsweise die Mülltonne mit den richtigen Maßen beschriftet und zusätzlich eine Rechnung notiert wird.]
+ | FALSCH
+ | Alle anderen Antworten, insbesondere solche, bei denen keine Maßeinheit angegeben wird, Maßeinheit und Maßzahl nicht zusammenpassen und in der Notation des Lösungswegs nicht auf eine Bezugsgröße verwiesen wird.
+ |
+
+===== nagelbrett · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2014
+
+Auswertung - Nagelbrett
+Teilaufgabe 1
+RICHTIG
+ | Beispiel(e)
+
+oder eine andere Darstellung mit den Seitenlängen 6 cm und 8 cm (mit Nägeln als Ecken).
+ | FALSCH
+ | Alle anderen Zeichnungen.
+Beispiel(e)
+Schräg liegendes Rechteck mit 48 cm2 Flächeninhalt, obwohl in der Aufgabenstellung "parallel zu den Seitenkanten" gefordert wird.
+ | Teilaufgabe 2
+RICHTIG
+ | Nein
+UND
+Begründung, in der dargelegt wird, dass 18 nicht so in zwei Faktoren zerlegt werden kann, dass beide Faktoren jeweils durch 2 teilbar sind.
+[Anm.: Alternativ kann in der Begründung direkt Bezug auf die Anordnung der Nägel genommen werden.]
+
+Beispiel(e)
+Beide Seitenlängen des Rechtecks müssten aufgrund der Anordnung der Nägel Vielfache von 2 cm sein. Dies ist bei einem Flächeninhalt von 18 cm2 nicht möglich, weil 18 nicht durch 4 teilbar ist.
+Weil man 18 nicht durch 4 teilen kann
+Weil man bei 18 cm2 ungerade Abstände braucht und nicht immer 2 cm Abstände
+Weil man 18 cm2 mit 2 cm x 9 cm oder 3 cm x 6 cm erhält und 9 cm und 3 cm sind keine Vielfache von 2 cm.
+[Anm.: Die beiden Kombinationen 3 - 6 und 2 - 9 müssen genannt werden; 1 - 18 darf fehlen.]
+Bei diesem Brett kann man nur Rechtecke mit den Flächeninhalten von 4, 8, 12, 16, 24, 32, 36, 48 und 64 cm2 spannen.
+[Anm.: Hier wird über die Flächeninhalte der spannbaren Rechtecke argumentiert.]
+Das nächst größere Rechteck nach 16 cm2 hätte den Flächeninhalt 24 cm2. 18 cm2 geht also nicht.
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Antworten, die keinen Bezug zum nächst größeren Rechteck haben
+Antworten, die einfach nur die Unmöglichkeit konstatieren, z.B. "Es geht nicht, da es keinen Platz auf dem Brett für ein solches Rechteck gibt."
+Weil man auf dem Nagelbrett immer nur gerade Zahlen hat
+Weil man 18 cm2 mit 2 cm x 9 cm erhält und 9 cm passen nicht auf das Brett
+Man darf für die Längen nur Zahlen aus der Zweierreihe nehmen
+ |
+
+===== nashorn · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2016
+
+Nashorn
+RICHTIG
+ | eine Länge aus dem Intervall [75 cm; 110 cm]
+UND
+Lösungsweg, bei dem aus dem Verhältnis von Schulterhöhe zu horizontalen Längen von der gegebenen Schulterhöhe von 60 cm auf die Gesamtlänge des Nashorn-Babys geschlossen wird.
+Beispiel(e)
+Das Verhältnis von Schulterhöhe zur Länge des Nashorn-Babys ist auf dem Foto etwa 2 zu 3. Bei einer Schulterhöhe von 60 cm muss das Nashorn-Baby dann etwa 90 cm lang sein.
+Der Rumpf des Nashorn-Babys ist etwa 60 cm lang. Für den Hals und den Kopf müssen ungefähr noch einmal 20 cm (ein Drittel von 60 cm) dazugerechnet werden. Das Nashorn-Baby ist somit ungefähr 80 cm lang.
+Der Pfeil auf dem Foto ist ungefähr so lang wie zwei meiner Finger breit sind. Die Länge des Babys auf dem Foto entspricht etwa drei Fingerbreiten. Also ist das Baby etwa 90 cm lang.
+Gegenüberstellung:
+
+Das Nashornbaby ist etwa 84 cm lang.
+Vom Po bis zum Hals sind es 60 cm. Somit ist der Kopf 30 cm lang, also das gesamte Nashorn 90 cm.
+[Anm.: Wird die Länge der Pfeile nicht von Spitze zu Spitze, sondern nur die Strecke zwischen den Enden gemessen, ergibt sich eine Länge von ca. 1,7 cm. Wird mit diesem Messfehler folgerichtig weitergerechnet, so kann die Aufgabe als richtig bewertet werden.]
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Das Nashorn-Baby ist etwa 90 cm lang.
+Das Nashorn-Baby ist etwa 90 cm lang, da anhand des Fotos zu erkennen ist, dass die Schulterhöhe kleiner ist als die Körperlänge des Babys.
+60 cm abmessen und das Nashorn abmessen.
+ |
+
+===== pappschachtel · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2017
+
+Pappschachtel
+Teilaufgabe 1:
+RICHTIG
+ |
+3 3 3 3
+18,5 cm 66,5 cm 160 cm 512 cm
+
+ | Teilaufgabe 2:
+RICHTIG
+ |
+x = 2,5 cm x = 5 cm x = 8 cm x = 10,5 cm
+
+ |
+
+===== parfum · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K3, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2015
+
+Auswertung – Parfum
+Teilaufgabe 1
+RICHTIG
+ | 2
+[Anm.: Auch Ergebnisse aus dem Intervall [1,5; 2,5] sind richtig.]
+ | Teilaufgabe 2
+RICHTIG
+ | Angabe einer Zeitdauer mit mehr als null und mit höchstens 250 Tagen
+UND
+Lösungsweg, der eine Berücksichtigung der Grundmenge (100 ml) und die Menge des täglich verbrauchten Parfums (mindestens 0,4 ml) erkennen lässt.
+Beispiel(e)
+100 ml : 0,4 ml/Tag = 250 Tage
+100 ml : 0,6 ml/Tag  166 Tage
+100 : 1 = 100. Es reicht 100 Tage.
+100 ml : 2 ml/Tag T = 50 Tage
+[Anm.: Hier steht die Modellierungskompetenz im Fokus, so dass Rechenfehler vernachlässigt werden, solange sinnvolle Annahmen getroffen werden.]
+ |
+
+===== quader · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Quader
+Teilaufgabe 1
+RICHTIG
+ | V = 120 cm3
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+2 2 2 2 45 cm 74 cm 120 cm 148 cm
+
+ |
+
+===== quadratflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011
+
+Quadratfläche
+RICHTIG
+ | Der ermittelte Flächeninhalt liegt im Intervall [25; 27,04] cm2.
+Die Einheit des Ergebnisses ist anzugeben. Angaben in anderen Einheiten mit passender Maßzahl sind zulässig.
+
+Anmerkungen:
+• Die oben angegebene Lösung bezieht sich auf 5,1 cm Sollmaß der Quadratseitenlänge. Die Lösung ist bei drucktechnischen Abweichungen  anzupassen.
+• Zulässige Toleranz beim Messen der Seitenlängen des Quadrats:  1 mm.
+ | FALSCH
+ | Alle Ergebnisse außerhalb des angegebenen Intervalls.
+
+Falsch sind auch Ergebnisse mit richtiger Maßzahl und falscher oder fehlender Einheit, z. B. 25 cm oder 26,01.
+ |
+
+===== quadratimgitter · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+
+Quadrat im Gitter
+RICHTIG
+ | 32
+ |
+
+===== rauminhaltvonprismen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K6, Jahrgang 2014
+
+Auswertung - Rauminhalt von Prismen
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== rauten · Leitidee Messen (auch im Archiv L3)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K4, Jahrgang 2015; Teilaufgabe 4: AFB III, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2015
+
+Auswertung – Rauten
+Teilaufgabe 1
+RICHTIG
+ | 4
+ | Teilaufgabe 2
+RICHTIG
+ |  ( 10 | 10 )
+ | Teilaufgabe 3
+RICHTIG
+ | 2
+ | Teilaufgabe 4
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== rollrasen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K3, K5, K6, Jahrgang 2011
+
+Rollrasen
+Teilaufgabe 1
+RICHTIG
+ | 115,5 m2 (auch 116 m2 wird akzeptiert)
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtiges Ergebnis (97 Streifen) UND nachvollziehbarer Rechenweg. Dieser kann auch mittels einer Zeichnung dargestellt werden.
+
+Z. B.:
+97 Streifen
+Die rechteckige Fläche ist 11 m lang und 10,5 m breit. Wenn ich diese der Länge nach mit ganzen Streifen auslege, dann benötige ich 85 Streifen. Dabei bleibt eine Fläche von 11 m x 0,3 m frei. Um diese auszulegen, benötige ich noch einmal etwa 3 Streifen. Außerdem bleibt eine Fläche von 10,5 m x 1 m frei. Um diese Fläche auszulegen, benötige ich etwa 8 Streifen. Insgesamt benötige ich also etwa 97 Streifen.
+ |
+RICHTIG
+ | ODER
+
+Übrig bleibt:
+
+Insgesamt brauche ich etwas 96 Streifen.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+Ordne ich die Streifen parallel zur Breite von 10,5 m an, benötige ich ca. 18 Reihen. Für jede Reihe sind mindestens 5 Streifen nötig. D. h. ich benötige 90 Streifen.
+ |
+Teilaufgabe 3
+RICHTIG
+ | Ca. 227 kg
+Akzeptiert werden alle Ergebnisse im Intervall [225; 230] kg.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+1080 kg (Die Dicke des Rollrasens wurde nicht berücksichtigt.)
+ |
+
+===== schokolinsen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2016
+
+Schokolinsen
+RICHTIG
+ | eine Zahl aus dem Intervall [200; 800]
+UND
+Eine Beschreibung, in der auf einen geeigneten Repräsentanten verwiesen wird und aus der die angegebene Anzahl folgerichtig hervorgeht.
+Beispiel(e)
+Im eingezeichneten Quadrat sind ca. 30 Schokolinsen. Das Quadrat passt ca. 12-mal in das Foto. Also sind es insgesamt 360 Schokolinsen.
+Im eingezeichneten Rechteck sind ca. 32 Schokolinsen. Das Rechteck passt ca. 15-mal in das Foto. Also sind es insgesamt 480 Schokolinsen.
+Auf dem Foto sind in der Breite ca. 30 Schokolinsen zu sehen und in der Höhe ca. 20. Also sind es insgesamt ca. 600 Schokolinsen.
+
+[Anm.: Die Annahmen, dass die Schokolinsen gleichverteilt und nur in der Fläche verteilt sind, müssen nicht explizit erwähnt werden.]
+ |
+
+===== schulgrundstueck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Schulgrundstück
+Teilaufgabe 1
+RICHTIG
+ | Länge a dieses Schulgebäudes aus dem Intervall [64; 100] m.
+ |
+Teilaufgabe 2
+RICHTIG
+ | Länge der Strecke aus dem Intervall [4; 7] cm.
+ |
+
+===== umfangundflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+
+Auswertung - Umfang und Fläche
+Teilaufgabe 1
+RICHTIG
+ | 36
+ | Teilaufgabe 2
+RICHTIG
+ | 45
+ |
+
+===== unregelmaessigesviereck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Unregelmäßiges Viereck
+RICHTIG
+ | Korrekte Beschreibung der Zerlegungs- oder Ergänzungsmethode UND Einzeichnen von geeigneten, der Beschreibung entsprechenden Hilfslinien in der Abbildung UND Markierung der Strecken, die gemessen werden müssen, insbesondere verwendeter Höhen.
+Die Lösung ist auch richtig, wenn Höhen und andere Strecken ungenau eingezeichnet sind.
+
+Zerlegungsmethode:
+Anm.: Die Beschreibung der Zerlegungsmethode ist korrekt, wenn die Zerlegung des Vierecks in Teilflächen beschrieben wird, deren Flächeninhalte mit einer Formel berechnet werden kann (Das sind Rechtecke, Dreiecke, Parallelogramme und Trapeze.) UND darauf hingewiesen wird, dass die Summe dieser Flächeninhalte den Flächeninhalt des Vierecks ergibt UND anhand der Zeichnung verdeutlicht wird, welche Strecken gemessen werden müssen.
+
+Mögliche Zerlegungen (alle weiteren Zerlegungen, die der obigen Anmerkung entsprechen, sind als richtig zu bewerten):
+
+C
+C
+D
+D
+B
+B
+A
+A
+
+z. B.
+Ich zerlege das Viereck in Teilflächen, deren Flächeninhalte mit den entsprechenden Flächenformeln berechnet werden können. Die Längen kann ich ausmessen. Die Summe der Flächeninhalte der Teilflächen ergibt den Flächeninhalt des Vierecks.
+
+ODER (Grenzfall)
+Addiert man die Teilflächen, so erhält man den Flächeninhalt des Vierecks.
+UND Skizze mit geeigneten Teilfiguren.
+Anm.: Hier wurde zwar die Zerlegungsmethode nicht vollständig beschrieben, aber die Abbildung lässt auf ein korrektes Verständnis schließen
+ | RICHTIG
+ | Ergänzungsmethode:
+Anm.: Die Beschreibung der Ergänzungsmethode ist korrekt, wenn das Viereck so ergänzt wird, dass Flächen entstehen, deren Flächeninhalte mit Hilfe entsprechender Formeln berechnet werden können (Das sind Parallelogramm, Trapez, Rechteck, Dreieck.) UND darauf hingewiesen wird, dass sich der gesuchte Flächeninhalt durch Subtrahieren der ergänzten Teilflächen von der Gesamtfläche ergibt UND anhand der Zeichnung verdeutlicht wird, welche Strecken gemessen werden müssen. Benötigte Höhen und Mittellinien (Trapez) müssen eingezeichnet sein.
+
+Mögliche Ergänzungen (alle weiteren Ergänzungen, die der obigen Anmerkung entsprechen, sind als richtig zu bewerten):
+
+C
+C
+C
+D
+C
+D
+B
+B
+D
+D
+A
+A
+B
+A
+
+z. B.
+Das Viereck wird durch Hinzufügen von Dreiecksflächen zu einem Rechteck ergänzt. Wenn vom Flächeninhalt des Rechtecks die Flächeninhalte der ergänzten Dreiecke subtrahiert werden (die zugehörigen Längen kann man ausmessen), erhält man den Flächeninhalt des Vierecks.
+
+ODER (Grenzfall):
+Zieht man vom Flächeninhalt des Trapezes den Flächeninhalt des Dreiecks ab, so erhält man die gesuchte Fläche.
+UND Skizze mit geeigneten Teilfiguren.
+Anm.: Hier wurde zwar die Ergänzungsmethode nicht vollständig beschrieben, aber die Abbildung lässt auf ein korrektes Verständnis schließen.
+ | FALSCH
+ | Alle anderen unvollständigen, fehlerhaften oder falschen Lösungen
+
+z. B.
+Ich zeichne kleine Kästchen ein, zähle diese zusammen und bestimme so den Flächeninhalt.
+Anm.: Diese Methode ist für das ungefähre Abschätzen des Flächeninhalts geeignet, aber nicht für die exakte Bestimmung.
+
+ODER
+Ich schätze den Flächeninhalt.
+
+ODER
+Ich zerlege das Viereck wie folgt:
+
+C
+D
+B
+A
+
+Anm.: Zwar erfolgte hier das Zerlegen korrekt, allerdings fehlt die Beschreibung, wie sich hieraus der Flächeninhalt des Vierecks ergibt.
+
+ODER
+Es wurden keine Hilfslinien, die die Ergänzung bzw. Zerlegung verdeutlichen, eingezeichnet.
+
+ODER
+Ich zerlege das Viereck wie in der Abbildung veranschaulicht und addiere dann die Summen der Teilflächen.
+
+C
+D
+B
+A
+
+Anm.: Die durch die Zerlegung entstandene Vierecksfläche lässt sich ebenfalls nicht mit einer Formel berechnen.
+ |
+
+===== winkelimdreieck · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K5, K6, Jahrgang 2014
+
+Auswertung - Winkel im Dreieck
+RICHTIG
+ | 90°
+ |
+
+===== winkelimparallelogramm · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2011
+
+Winkel im Parallelogramm
+RICHTIG
+ | Der Umfang des Parallelogramms ist für  = 90° am kleinsten.
+UND Angabe einer Begründung, in der die systematische Variation des Winkels  deutlich wird und der Zusammenhang zwischen der Größe des Winkels  und der Länge des Umfangs erläutert wird. Dabei müssen mind. die beiden Fälle  < 90° und  = 90° ( > 90° optional) betrachtet werden. Alternativ kann auch über den Abstand zweier Punkte und dessen Definition argumentiert werden.
+
+Anm.: Es muss deutlich werden, dass der Umfang berücksichtigt wurde.
+
+Mögliche Überlegungen:
+
+Z. B.:
+Verschiebt man die Seite
+
+ immer weiter nach links, wird der Umfang des Parallelogramms erst kürzer und nach  = 90° wieder länger. Bei  = 90° ist der Umfang am kürzesten, denn dann sind die Seiten
+
+ und
+
+ genauso lang wie der Abstand der Parallelen.
+
+ODER
+Bei  = 90° ist der Umfang am kleinsten, denn dann ist die Länge der beiden Seiten
+
+ und
+
+ gleich dem Abstand der Parallelen und der Abstand zweier Punkte ist deren kürzeste Verbindung.
+
+ODER (Grenzfall)
+Alle diese Parallelogramme haben denselben Flächeninhalt (muss nicht weiter begründet werden). Unter allen diesen Parallelogrammen hat jenes, das ein Rechteck ist, den kleinsten Umfang. Also ist der gesuchte Winkel 90° groß.
+
+ODER (Grenzfall)
+Lässt man
+
+ auf der Parallelen h liegen und macht
+
+ (und damit auch
+
+) kürzer, so wird  größer. Wenn
+
+ (und
+
+) am kürzesten sind, ist
+ = 90°. Verlängert man
+
+ (und damit auch
+
+) in die andere Richtung, vergrößert sich  wieder.
+Anmerkung: Hier wird zwar nichts über
+
+ und
+
+ bzw. über den Umfang des Parallelogramms ausgesagt, aber es ist erkennbar, dass sich dieser in Abhängigkeit der Größe des Winkels  verändert.
+
+ODER (Grenzfall)
+Je spitzer (stumpfer)  ist, umso größer ist der Umfang des Parallelogramms. Also ist er in der Mitte am kleinsten. Dies ist bei  = 90° der Fall.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+Verschiebt man die Seite
+
+ immer weiter nach links, wird der Umfang des Parallelogramms kürzer. Am kürzesten ist er bei  = 90°.
+
+ODER
+Man muss
+
+ so lange verschieben bis ein Rechteck entstanden ist.
+
+ODER
+Ich habe gemessen.
+
+ODER
+Weil bei 90° die Seiten
+
+ und
+
+ am kürzesten sind.
+Anm.: Eine Begründung fehlt.
+
+ODER
+90° ist der direkte Weg zu
+
+.
+ |
+
+===== winkelmessen · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+
+Auswertung – Winkel messen
+RICHTIG
+ | 43
+[Anm.: Winkelangaben aus dem Intervall [;] sind richtig.]
+ |
+
+===== wuerfelbau · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Würfelbau
+RICHTIG
+ |
+
+ |
+
+===== wuerfelkoerper · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K4, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Würfelkörper
+Teilaufgabe 1
+RICHTIG
+ | Das Volumen des großen Würfels beträgt 27 cm3
+ |
+Teilaufgabe 2
+RICHTIG
+ | Die Oberfläche des großen Würfels beträgt 54 cm2
+ |
+
+===== wuerfeloberflaeche · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2015
+
+Auswertung – Würfeloberfläche
+RICHTIG
+ | um 75 %
+UND
+(Begründung der Antwort (algebraisch, zeichnerisch, paradigmatisch, iterativ, inhaltlich)
+ODER
+an einem konkreten Beispiel.)
+Beispiel(e)
+Ein Würfel mit Kantenlänge a hat einen Oberflächeninhalt von . Mit Kantenlänge  ergibt sich als neuer Oberflächeninhalt . Also verringert sich der Oberflächeninhalt um .
+Als Begründung wird auch eine Skizze akzeptiert, aus der hervorgeht, dass der Flächeninhalt jeder Seitenfläche auf ein Viertel schrumpft.
+
+2 a 2 a 2 aaa  2 2 2224 aaaa    
+a
+a
+
+[Anm.: Die Berechnung der Teilfläche ist nicht erforderlich.]
+Wenn die Längen halbiert werden, werden die Flächeninhalte geviertelt. Also fällt  des Flächeninhalts weg.
+ |
+
+===== wuerfelturm2 · Leitidee Messen (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2017; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2017
+
+Würfelturm
+Teilaufgabe 1:
+RICHTIG
+ | 8
+ | Teilaufgabe 2:
+RICHTIG
+ |
+ODER
+
+ | Teilaufgabe 3:
+RICHTIG
+ |
+16 - mal 64 - mal 512 - mal 4096 - mal
+
+ |
+
+===== zeitangabe · Leitidee Messen
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Auswertung – Zeitangabe
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |

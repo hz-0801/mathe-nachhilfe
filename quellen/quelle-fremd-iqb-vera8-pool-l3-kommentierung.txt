@@ -1,0 +1,1797 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 3 (Raum und Form)“, IQB Berlin – Didaktische Kommentierung
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L3_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Didaktische Kommentierung“ mit 1–4 Seiten; hier 42 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== ansichteneinestischs · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2017
+
+Didaktische Handreichung: Ansichten eines Tischs
+
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Mathematisch modellieren (K3)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Ansichten eines Tischs“ wird gedanklich mit verschiedenen Körpern gearbeitet. Somit gehört die Aufgabe zur Leitidee Raum und Form (L3).
+
+Um die Bilder den unterschiedlichen Ansichten zuordnen zu können, sind die konkreten Gegenstände (Glas, Tasse, Teller) unerheblich. Einzig ihre geometrischen Formen sind relevant. In diesem Sinne wird gedanklich mit Modellen operiert. Somit wird in Ansätzen die Kompetenz Mathematisch modellieren (K3) verlangt. Den verschiedenen Graphiken entnehmen Schülerinnen und Schüler Informationen über die Lage der einzelnen Gegenstände. Daher wird hier auch die Kompetenz Mathematisch kommunizieren (K6) vorausgesetzt.
+
+Sowohl die gedankliche Operation mit Modellen als auch die Informationsentnahme aus den Graphiken erfolgt auf einem basalen Niveau. Daher gehört die Aufgabe „Ansichten eines Tischs“ in den Anforderungsbereich I.
+Anregungen für den Unterricht
+Diese Aufgabe im Speziellen und die Leitidee Raum und Form im Allgemeinen setzen bei Schülerinnen und Schüler ein räumliches Vorstellungsvermögen voraus. Das räumliche Vorstellungsvermögen wird in der Regel über mehrere Teilkompetenzen beschrieben. So z. B. durch die Teilkompetenzen des räumlichen Orientierens, des räumlichen Vorstellens und des räumlichen Denkens. Mit der räumlichen Orientierung ist die Fähigkeit gemeint, sich im Raum in Wirklichkeit oder in Gedanken gezielt bewegen zu können. Das räumliche Vorstellen beschreibt die Fähigkeit ein Objekt oder Beziehungen zwischen Objekten gedanklich reproduzieren zu können. Unter dem räumlichen Denken versteht man die Fähigkeit mit Objekten in Gedanken zu operieren. Bezogen auf die Aufgabe „Ansichten eines Tischs“ bedeutet dies, dass hier die Fähigkeit der räumlichen Orientierung verlangt wird. Um die Kameraposition zu wechseln, aus der die einzelnen Fotos gemacht wurden, müssen sich Schülerinnen und Schüler im Raum orientieren, gedanklich den Tisch entlanglaufen. Löst man hingegen die Aufgabe, indem man den Standpunkt des Betrachters gedanklich nicht ändert und stattdessen den Tisch mit seinen Objekten gedanklich bewegt, so wird dazu die Fähigkeit des räumlichen Vorstellens benötigt. Da die Objekte auf dem Tisch unbewegt bleiben, wird hier nicht die Fähigkeit des räumlichen Denkens verlangt.
+
+Das räumliche Vorstellungsvermögen wird in mehreren Modellen zur Beschreibung menschlicher Intelligenz als einer unter mehreren entscheidenden Faktoren aufgefasst. Wenn Intelligenz ein überzeitliches Konzept darstellt, stellt sich die Frage, wie stark durch unterrichtliche Interventionen auf die Entwicklung des räumlichen Vorstellungsvermögens Einfluss genommen werden kann. Tatsächlich deuten Studien darauf hin, dass das räumliche Vorstellungsvermögen in verschiedenen Altersstufen trainiert werden kann (vgl. Maier (1999): Räumliches Vorstellungsvermögen, Donauwörth: Auer-Verlag, S. 81). Hierfür eignet sich die sogenannte Kopfgeometrie. Der Begriff ist angelehnt an das bekannte Kopfrechnen. Gemeint sind Aufgaben, bei denen Schülerinnen und Schüler geometrische Probleme lediglich im Kopf lösen. Grundsätzlich werden dabei drei Phasen unterschieden (vgl. Senftleben (1996): Erkundungen zur Kopfgeometrie, in: Journal für Mathematik-Didaktik 17, H. 1, S. 49 –72): (1) Die Phase der Aufgabenstellung, in der das Problem nicht bloß mündlich sondern ebenso als geschriebener Text und auch unterstützt durch Gestik, einem Bild oder einem geometrischen Modell geschildert werden kann, (2) die Phase des Arbeitens im Kopf, d. h. zur Lösung werden tatsächlich keine Hilfsmittel verwendet und (3) die Phase der Ergebnispräsentation, in der wieder Hilfsmittel erlaubt sind. Es zeigt sich also, dass Kopfgeometrie nicht gänzlich im Kopf erfolgen muss, lediglich der Lösungsweg wird ohne Hilfsmittel beschritten. Wenn man so will, ist die Aufgabe „Ansichten eines Tischs“ bereits eine Aufgabe der Kopfgeometrie.
+
+Aufgaben zur Kopfgeometrie finden sich bei verschiedenen Schulbuchverlagen vor allem für Grundschulen. Doch auch in der Sekundarstufe kann das räumliche Vorstellungsvermögen durch Kopfgeometrie gefördert werden. So kann man beispielweise geometrische Körper, wie z. B. bestimmte Bauklötze, auf unterschiedliche Weise auf den Overhead-Projektor stellen und deren Umrisse an die Wand projizieren. Die Schülerinnen und Schüler können dann anhand der Projektion Vermutungen darüber abgeben, um welchen Körper es sich handeln kann, und die Vermutung be-gründen.
+
+===== besonderevierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2015
+
+Didaktische Handreichung: Besondere Vierecke
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Da es in dieser Aufgabe um das Konstruieren eines Rechtecks geht, gehört sie zur Leitidee Raum und Form (L3).
+In der Aufgabenstellung ist eine Strecke gegeben, die von den Schülerinnen und Schülern mit Geodreieck, Lineal und Zirkel zu einem Rechteck ergänzt werden soll (K4). Die Lernenden müssen hierzu die Eigenschaften eines Rechtecks kennen. Rechte Winkel und Strecken vorgegebener Größe lassen sich entweder mit Zirkel und Lineal konstruieren oder durch Anlegen des Geodreiecks zeichnen (K5).
+Weil hier lediglich auf gewohnte und geübte Grundbegriffe und Zeichentechniken zurückgegriffen wird, kann die Aufgabe dem Anforderungsbereich I zugeordnet werden.
+Anregungen für den Unterricht
+Konstruktionsaufgaben erfordern auch Kenntnisse über die Eigenschaften geometrischer Objekte wie etwa dem Rechteck. Die unten aufgeführte zusätzliche Teilaufgabe macht deutlich, wie aus einer recht einfachen Konstruktionsaufgabe durchaus herausfordernde Aufgaben für den Unterricht entstehen können. Die Lehrperson gibt ein (für die Lernenden unbekanntes) geometrisches Objekt vor, und lässt dieses konkret konstruieren.
+
+[Bild][Bild]Eine Raute ist ein Viereck mit vier gleich langen Seiten.
+Eine Seite ist bereits eingezeichnet.
+Vervollständige diese zu einer Raute.
+Zeichne mit Geodreieck, Lineal oder Zirkel.
+
+Eine Raute ist ein Viereck mit vier gleich langen Seiten.
+Eine Seite ist bereits eingezeichnet.
+Vervollständige diese zu einer Raute.
+Zeichne mit Geodreieck, Lineal oder Zirkel.
+
+ | In der Regel empfiehlt sich gerade bei der Einführung geometrischer Objekte ein induktives Vorgehen, bei dem ausgehend von konkreten Anschauungen abstrakte Definitionen entwickelt werden. Doch auch der deduktive Ansatz kann im Unterricht sinnvoll zur Anwendung kommen. Ein deduktives Vorgehen kann bietet sich z. B. an, wenn Schülerinnen und Schüler selbstständig entwickelte Definitionen ebenso eigenständig auf deren Verallgemeinerbarkeit hin überprüfen sollen. Die Lehrkraft kann das Unterrichtsgeschehen entsprechend durch die Frage lenken, ob auf Grundlage einer vorgeschlagenen Definition vielleicht doch ein eigentlich nicht intendiertes geometrisches Objekt konstruiert werden kann.
+
+===== bewegec · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Bewege C
+[Bild][Bild]
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | III
+ |
+[Bild][Bild]
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | V
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da gleichseitige bzw. gleichschenklige Dreiecke zu konstruieren sind, wobei besondere Eigenschaften dieser Figuren genutzt werden müssen. [Bild][Bild]
+Zur Bearbeitung der beiden Teilaufgaben, müssen dem Aufgabentext zunächst die relevanten Informationen entnommen werden (K6), die gegebenen geometrischen Konstellationen analysiert (K4) und die Mittelsenkrechte mit ihren Eigenschaften als relevant wahrgenommen werden. Zur Lösung von Teilaufgabe 1 ist es ausreichend zu wissen, dass die drei Seiten eines gleichseitigen Dreiecks gleich lang sind. Dann kann das gleichseitige Dreieck direkt konstruiert werden (K2, K4, K5).
+Die Bearbeitung von Teilaufgabe 2 erfordert hingegen die Durchführung mehrerer Teilschritte, welche sich die Schülerinnen und Schüler auch mit Hilfe der abgebildeten Zeichnung erschließen können (K2). Hierbei werden die Eigenschaften gleichschenkliger Dreiecke sowie die Innenwinkelsumme für Dreiecke benötigt, um die zur Konstruktion fehlende Größe der Basiswinkel zu berechnen, bevor die Konstruktion dann durchgeführt werden kann (K5).
+Bei Teilaufgabe 1 kann die charakteristische Eigenschaft gleichseitiger Dreiecke direkt zur Konstruktion genutzt werden, sodass diese Teilaufgabe dem Anforderungsbereich I angehört. Da bei Teilaufgabe 2 die zur Konstruktion wichtigen Daten erst ermittelt werden müssen, ist es naheliegend, diese Teilaufgabe dem Anforderungsbereich II zuzuordnen.
+
+Die charakteristischen Eigenschaften von gleichseitigen bzw. gleichschenkligen Dreiecken sind nicht vertraut (K4 und K5).[Bild][Bild]
+Wie die folgende Schülerlösung zeigt, werden die Eckpunkte A und B einfach mit dem „Endpunkt“ der gegebenen Mittelsenkrechten zu
+
+ verbunden. Dies lässt vermuten, dass die Aufgabe bzw. zumindest ihre Dynamik nicht erfasst wurde.
+[Bild: image3.png]
+Zu 2:
+Der Winkel bei C von 132° wird direkt zur Konstruktion des Dreiecks genutzt. Er wird jedoch bei A abgetragen, so dass der Punkt C nicht mehr auf m liegt, wie die folgende Lösung veranschaulicht (K6).
+[Bild: image4.png]
+
+Die Angabe 132° wird als Winkelsumme im Dreieck aufgefasst und gleichmäßig auf die drei Innenwinkel eines Dreiecks verteilt. Derartige Lösungen deuten darauf hin, dass die Aufgabenstellung unkritisch gelesen wurde.
+
+Bei den genannten Schwierigkeiten bietet es sich an, den Schülerinnen und Schülern die in der Aufgabe beschriebene Konstellation als Datei zur Verfügung zu stellen bzw. diese mit einem dynamischen Geometrieprogramm konstruieren zu lassen. Dabei können insbesondere die Eigenschaften einer Mittelsenkrechten erkannt bzw. thematisiert werden. Werden die Schülerinnen und Schüler nun aufgefordert, den Punkt C – gedanklich oder mit Hilfe des Geometrieprogramms – entlang der Mittelsenkrechten zur Strecke
+
+ zu bewegen, entstehen verschiedene Dreiecke. Dies eine Auseinandersetzung mit den Eigenschaften gleichschenkliger und gleichseitiger Dreiecke. In diesem Rahmen können die Schülerinnen und Schüler auch die Innenwinkelsumme für Dreiecke „wieder“ entdecken und sich so die Berechnung der Basiswinkel in einem gleichschenkligen Dreieck erschließen, sofern die Größe des dritten Winkels angegeben ist. Auf dieser Grundlage können dann ähnliche Aufgaben auch gut ohne dynamische Geometriesoftware bearbeitet werden. Dabei kann die Aufgabe leicht variiert bzw. durch weitere Fragestellungen ergänzt werden. Denkbar wäre es z. B. die Lage der Senkrechten zu verändern und nach den Konsequenzen für die Seitenlängen und Winkelgrößen eines bereits erzeugten Dreiecks zu fragen. Im Anschluss könnte man die Senkrechte mit einer Kathete zur Deckung bringen und den Punkt nun entlang dieser verschieben lassen. Dabei bieten sich insbesondere Fragen/Arbeitsaufträge an, wie:[Bild][Bild]
+Welche verschiedenen Dreieckstypen können durch Verschieben des Punktes C entlang der Kathete erzeugt werden?
+Können gleichseitige oder gleichschenklige Dreiecke entstehen? Begründe.
+Zeichne einen Punkt C so ein, dass ein gleichschenkliges Dreieck entsteht.
+Ergänzende unterrichtliche Anregungen zum Umgang mit fachsprachlichen Problemen bei der Bearbeitung dieser Aufgabe finden sich im Allgemeinen Kapitel zur Kompetenz Kommunizieren (vgl. dort Abschnitt 2.2).
+
+===== briefmarkenschachteln · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Briefmarkenschachteln
+Merkmale Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 1B
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört der Leitidee Raum und Form (L3) an, da mit einem noch oben offenen Quader und zwei seiner möglichen Netze gearbeitet werden muss.
+Bei beiden Teilaufgaben ist es notwendig, zwischen dem Schrägbild des Quaders und seinem Netz zu wechseln, um die im Schrägbild (mental) vorgegebene Beschriftung im Netz richtig zu ergänzen (K4).
+Dieser Wechsel zwischen zwei bekannten mathematischen Darstellungen und die nötigen mentalen Operationen (Wie sind die Buchstaben jeweils ausgerichtet?) rechtfertigen die Einordnung beider Teilaufgaben in den Anforderungsbereich II.
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1, 2:
+Die folgenden Schwierigkeiten und Fehler sind wahrscheinlich alle auf ein noch nicht ausreichend gut entwickeltes räumliches Vorstellungsvermögen zurückzuführen.
+Es wird nicht erkannt, dass es sich bei der fett umrandeten Fläche um die Bodenfläche handelt. Diese wird demzufolge ebenfalls beschriftet.
+Es werden die falschen Seitenflächen beschriftet.
+Die richtige Seitenfläche wird in der falschen Richtung beschriftet, was die folgende Schülerlösung exemplarisch veranschaulicht.
+[Bild: image2.png]
+Weiterarbeit und Förderung
+Um das räumliche Vorstellungsvermögen der Schülerinnen und Schüler zu fördern, können die Briefmarkenschachteln im Unterricht leicht aus den gegebenen Netzen nachgebaut und dann richtig beschriftet werden. Vertiefend ist es denkbar, weitere Beschriftungen einzufordern oder aber diesen Aufgabentyp auf andere Körper (z. B. Pyramide) zu übertragen.
+Weiterführend können Aufgaben zum Würfel oder Quader behandelt werden, in welchen nach allen möglichen Netzen gefragt wird. Sie erfordern neben der Arbeit mit mathematischen Darstellungen (K4) auch das Lösen mathematischer Probleme (K2) und das Begründen der gefundenen Anzahl an Netzen (K1), so dass weitere Kompetenzen gefördert werden können. Derartige Aufgaben bieten sich hierzu besonders an, da sie auf handelnder und auf zeichnerischer Ebene gelöst werden können und demnach vielen Schülerinnen und Schülern einen Zugang ermöglichen. Dabei bietet sich neben der Arbeit mit Pappe oder Papier auch der Einsatz von Klickis an, aus denen verschiedene Netze nachgebaut werden können.
+Diese Aufgabe bietet auch die Möglichkeit, Umkehraufgaben zur gegebenen Frage zu behandeln und schließlich alle drei Grundaufgaben der Prozentrechnung mithilfe einer solchen Darstellung zu thematisieren (Grundwert, Prozentsatz oder Prozentwert ist gesucht). Insbesondere kann bei fehlerhaften Lösungen der obigen Aufgabe gefragt werden, welcher Prozentsatz – anstelle des geforderten – dargestellt ist.
+Schließlich kann diese Aufgabe auch Anlass geben, grundlegende Fertigkeiten, wie das Umwandeln eines Prozentsatzes in einen Hundertstelbruch, einen gekürzten Bruch und einen Dezimalbruch zu üben.
+
+===== drehkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Drehkörper
+[Bild][Bild]
+Leitidee
+ | Raum und Form(L3)
+ | Allg. Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | I
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da gedanklich mit einem Körper zu operieren ist. Zur Bearbeitung der Aufgabe ist zunächst der gegebene Körper hinsichtlich seiner Zusammensetzung aus kleinen Würfeln zu analysieren und mit den zur Auswahl stehenden Körpern abzugleichen. Dabei muss der gegebene Körper in Gedanken gedreht werden, um zu überprüfen, welche der zur Auswahl stehenden Körper erzeugt werden kann (K4). [Bild][Bild]
+Da es sich um eine vertraute Darstellung handelt, gehört diese Aufgabe zum Anforderungsbereich I.
+
+Antwortalternative 1, 2 oder 3 wurde angekreuzt: Dies deutet auf Schwächen hinsichtlich des räumlichen Vorstellungsvermögens hin. Dabei sind insbesondere die Alternativen 2 und 3 diagnostisch interessant, weil der hier abgebildete Körper durch räumliche Ebenenspiegelung des gegebenen Körpers entsteht. [Bild][Bild]
+
+===== dreieckeergaenzen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2016
+
+Didaktische Handreichung: Dreiecke ergänzen
+
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Raum und Form (L3) zuzuordnen, da die Schülerinnen und Schüler eine geometrische Figur unter Verwendung von Geodreieck oder Lineal konstruieren und dabei die Beziehung zwischen Dreieck und Parallelogramm nutzen.
+Dazu sind Kompetenzen im Bereich Probleme mathematisch lösen (K2) erforderlich, da eine geeignete Strategie zur Lösung des gestellten Prinzips gefunden werden muss. Dabei helfen heuristische Prinzipien, etwa das Nutzen der durch das Dreieck vorgegebenen Linien. Zudem müssen mathematische Darstellungen verwendet werden (K4), da aus der gegebenen Darstellung eine neue mathematische Darstellung, nämlich das Parallelogramm, entwickelt wird.
+Da die Aufgabenstellung mit einer naheliegenden Strategie (dem Nutzen gegebener Hilfslinien) lösbar ist, ist die Aufgabe dem Anforderungsbereich I zuzuordnen.
+Anregungen für den Unterricht
+Eine wesentliche Hürde zur Lösung der Aufgabe „Dreiecke ergänzen“ besteht darin, Wissen über Parallelogramme in eine Zeichnung zu übersetzen. Abbildung 1 zeigt beispielsweise eine (unvollständige) Schülerlösung, bei der auf eine bekannte Visualisierung zur Flächeninhaltsberechnung bei Parallelogrammen zurückgegriffen wird.
+[Bild: image1.png]
+Abbildung  SEQ Abbildung \* ARABIC 1: Schülerlösung 1
+Weiterhin kann die Aufgabe gelöst werden, indem die Eigenschaft der gleichlangen Seiten von Parallelogrammen strategisch genutzt wird. In Abbildung 2 ist eine Schülerlösung zu sehen, bei der mit Zirkel und Lineal gearbeitet und nicht auf die Gitternetzlinien zurückgegriffen worden ist. Es wurde dabei ausgenutzt, dass die gegenüberliegenden Seiten im Parallelogramm gleichlang sind.
+[Bild: image2.png]
+Abbildung  SEQ Abbildung \* ARABIC 2: Schülerlösung 2
+Die Aufgabe „Dreiecke konstruieren“ kann im Unterricht folglich zum Anlass genommen werden, um mithilfe von Konstruktionen mit Zirkel und Lineal auf die Eigenschaften von Figuren gezielt einzugehen. Dazu sollte zunächst die Aufgabe leicht abgeändert werden, sodass nur noch ein Dreieck ohne Gitternetzlinien zu sehen ist. In einem weiteren Schritt kann dann im Unterricht die Aufgabe dahingehend erweitert werden, dass auch auf das Messen von Längen oder von Winkeln verzichtet wird (klassische Konstruktionen mit Zirkel und Lineal). Die Aufgabe erhält so eine Progression im Schwierigkeitsgrad und es wird zunehmend die Leitidee Raum und Form (L3) fokussiert, während das Messen (L2) in den Hintergrund tritt.
+[Bild][Bild]
+ | Es lassen sich viele weitere Konstruktionsaufgaben finden, die derart aufgebaut werden können. Die folgende Aufgabe soll als Anregung dienen:
+
+===== eckenanpyramiden · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Ecken an Pyramiden
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1A
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört der Leitidee Raum und Form (L3) an, da es um die Eigenschaften eines geometrischen Körpers geht.
+Zur Bearbeitung der Aufgabe ist die Anzahl der Ecken der gegebenen Pyramide abzulesen oder rein gedanklich zu ermitteln (K4).
+Da es sich bei der Pyramide um einen den Schülerinnen und Schülern vertrauten Körper handelt, kann diese Aufgabe dem Anforderungsbereich I zugewiesen werden.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Die Ecke an der Spitze der Pyramide wird vernachlässigt, was auf fehlendes räumliches Vorstellungsvermögen hindeuten kann (Fehllösung: 4) (K4).
+Die Ecken der einzelnen Flächen werden unabhängig voneinander abgezählt, ohne an deren Überlagerung beim Zusammenfügen zur Pyramide zu denken (Fehllösung: 16) (K4).
+Anregungen für den Unterricht
+Da viele der auftretenden Schwierigkeiten auf Defizite hinsichtlich des räumlichen Vorstellungsvermögens zurückzuführen sind, liegt es nahe, dieses immer wieder zu trainieren. Hierzu können die Schülerinnen und Schüler in einem ersten Schritt beauftragt werden, verschiedene Körper mit geeigneten Materialien nachzubauen. Als Materialien eignen sich besonders Pappe, Zahnstocher/Strohhalme und Knete oder Klickies.
+Eine mögliche Aufgabe ist die folgende:
+
+a) Baue mit Hilfe von Knetkugeln und Strohhalmen die angegebenen Kantenmodelle.
+Verwende für gleichlange Kanten Strohhalme derselben Farbe.
+Erstelle anschließend eine Materialliste, indem du die Tabelle ausfüllst.
+Pyramide mit Prisma mit
+Würfel quadratischer dreieckiger
+Grundfläche Grundfläche
+Anzahl Ecken
+Anzahl Kanten
+Anzahl Seitenflächen
+Anzahl Seitenflächen
+in einer Ecke
+Anzahl Kanten in
+einer Ecke
+b) Wähle dir einen der angegebenen Körper aus und baue das zugehörige Netz.
+Verwende erneut für gleichlange Kanten Strohhalme derselben Farbe.
+Beschreibe das Netz so in Worten, dass dein Sitznachbar das Netz nach deiner
+„Anleitung“ nachbauen / nachzeichnen kann.
+c) Sieh dir die Körper und die Bausätze an. Welcher Bausatz gehört zu welchem
+Körper?
+Begründe deine Antwort.
+(Verändert nach: Lergenmüller, A., u. a.: Mathematik Neue Wege 5. Schrödel -
+Verlag, Braunschweig, 2000, S. 141 ff.)
+
+===== eckenundkanten · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Didaktische Handreichung: Ecken und Kanten
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe geht es um Eigenschaften geometrischer Körper, weshalb sie der Leitidee Raum und Form (L3) zugeordnet wird.
+Die Schülerinnen und Schüler sollen angeben, wie viele Ecken ein Quader hat und wie viele Kanten eine Pyramide mit viereckiger Grundfläche hat. Hierzu können sie auf perspektivische Zeichnungen dieser beiden Körper zurückgreifen (K4).
+Die Aufgabe wird dem Anforderungsbereich I zugeordnet, weil die gesuchten Werte hier aus einer gewohnten Darstellungsform abgelesen werden können.
+Anregungen für den Unterricht
+Im Unterricht kann zunächst auf den umgangssprachlichen und mathematisch korrekten Gebrauch der Begriffe Ecken und Kanten eingegangen werden. So wird umgangssprachlich mitunter formuliert: „Ich habe mich an der Ecke gestoßen.“ Obwohl es sich eigentlich um eine Kante handelt.
+Die Standarddarstellung (Schrägprojektion) geometrischer Körper, wie hier in der Aufgabe, kann dann dazu genutzt werden das räumliche Vorstellungsvermögen der Schülerinnen und Schüler auszubilden. Insbesondere kann es hilfreich sein, die hier gestrichelt angedeuteten, im eigentlichen Sinne nicht sichtbaren Kanten von den Lernenden selbst einzeichnen zu lassen (siehe Aufgabe).
+Im Anschluss daran, können dann grundlegende Eigenschaften geometrischer Körperformen, beispielsweise mit Hilfe von Steckbriefen, thematisiert werden.
+
+[Bild][Bild]Aufgabe
+Ergänze dieses Schrägbild. Achte darauf, dass nicht sichtbare Kanten gestrichelt gezeichnet werden.
+[Bild: image1.png]
+ |
+
+===== eingefaerbterkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2016
+
+Didaktische Handreichung: Eingefärbter Körper
+
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Raum und Form (L3) zuzuordnen, da Schülerinnen und Schüler zur Lösung der Aufgabe gedanklich mit Körpern operieren.
+Somit erfordert die Aufgabe Kompetenzen im Bereich Probleme mathematisch lösen (K2), schließlich muss eine geeignete Lösungsstrategie gefunden werden. Dabei helfen heuristische Prinzipen, wie das Zerlegen des gegebenen Objektes.
+Es sind zudem Kompetenzen aus dem Bereich Mathematische Darstellungen verwenden (K4) erforderlich, da die gegebene Darstellung dazu genutzt wird, die Anzahl der ungefärbten Seitenflächen zu bestimmen.
+Da ein mehrschrittiges Vorgehen zum Finden eines Lösungsweges notwendig ist, der zudem die gedankliche Darstellungsänderung des gegebenen Körpers erfordert, ist die Aufgabe dem Anforderungsbereich II zuzuordnen.
+Anregungen für den Unterricht
+Die Aufgabe „Eingefärbte Körper“ ähnelt der Aufgabe „Würfelturm“ im Kontext. In der Aufgabe „Eingefärbte Körper“ werden die Seitenflächen von Würfeln betrachtet, die nicht eingefärbt sind, also prinzipiell nicht zu sehen sind, wenn die Figur nicht zerlegt wird. In der Aufgabe „Würfelturm“ werden hingegen sichtbare Seitenflächen untersucht. Die beiden Aufgaben unterscheiden sich jedoch hinsichtlich der fokussierten mathematischen Leitidee. Während in der Aufgabe „Eingefärbte Körper“ eine räumliche mathematische Darstellung im Vordergrund steht (L3), geht es in der Aufgabe „Würfelturm“ um die Erkundung eines funktionalen Zusammenhangs (L4), der sich dort zeigt, wenn die gegebene Figur nach einem bestimmten Konstruktionsprinzip erweitert wird.
+Die Aufgabe „Eingefärbte Körper“ kann im Unterricht zum Anlass genommen werden, um Kompetenzen bezogen auf beide Leitideen (L3 und L4) zu fördern. Will die Lehrkraft die Kompetenz fördern, mit einer räumlichen mathematischen Darstellung gedanklich zu verfahren, so bietet es sich an, Körper wie aus dieser Aufgabe oder ähnlichen Aufgaben durch Spielwürfel nachstellen zu lassen (siehe Abbildung 1). Schülerinnen und Schüler notieren dann solche Zahlen, die sich auf den äußeren, prinzipiell sichtbaren Seitenflächen des Körpers befinden. Dem gegenüber stellen sie solche Zahlen, die sich auf den inneren, prinzipiell nicht sichtbaren Seitenflächen der Körper befinden. Auf diese kann geschlossen werden, da die Summe beider Zahlen auf gegenüberliegenden Seitenflächen eines Spielwürfels sieben ergibt. Die Ergebnisse verschiedener Schülergruppen sind vergleichbar, indem man jeweils auf die Anzahl der zwei verschiedenen Arten von Seitenflächen Bezug nimmt.
+[Bild: image1.jpeg][Bild: image2.jpeg][Bild: image3.jpeg]
+ | Abbildung  SEQ Abbildung \* ARABIC 1: Spielwürfel-Körper
+Der Ansatz lässt sich im Anschluss an das hier skizzierte Vorgehen ausbauen, um funktionale Zusammenhänge (insbesondere Folgen) anhand von Körpern zu erkunden, die nach einem bestimmten Konstruktionsprinzip erweitert werden (siehe Kommentar zur Aufgabe „Würfelturm“).
+
+===== fahrtrichtunggeradeaus · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Didaktische Handreichung: Fahrtrichtung geradeaus
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Weil es in beiden Teilaufgaben um Symmetriebetrachtungen geht, werden sie der Leitidee Raum und Form (L3) zugeordnet.
+In der Aufgabenstellung ist ein Bild eines Verkehrszeichens gegeben. Die erste Teilaufgabe fordert die Schülerinnen und Schüler dazu auf, eine Symmetrieachse in das Bild einzuzeichnen, und in der zweiten Teilaufgabe sollen sie angeben, wie viele Symmetrieachsen das abgebildete Verkehrszeichen insgesamt hat (K4).
+Weil die Anforderungen an die genannten Kompetenzen eher gering sind (sie entsprechen Grundschulaufgaben), können beide Teilaufgaben dem Anforderungsbereich I zugeordnet werden.
+Anregungen für den Unterricht
+In dieser Aufgabe wird ein realistisches Material (Verkehrsschild) im Hinblick auf mathematische Eigenschaften (Achsensymmetrie) untersucht. Die Aufgabe kann leicht zu einem Erkundungsauftrag ausgeweitet werden. So können Schülerinnen und Schüler z. B. in einer Hausaufgabe dazu aufgefordert werden, eigene Erkundungen zu Verkehrsschildern oder Gebäuden und deren Symmetrieeigenschaften anzustellen. Mit einer Digitalkamera (z. B. in einem Smartphone) können geometrische Formen leicht festgehalten werden.
+Begriffe aus der Geometrie (wie Achsen- und Punktsymmetrie) bieten die interessante Möglichkeit, anschaulich fassbar gemacht zu werden. D. h. Die Operation „Achsenspiegelung“ lässt sich in konkreten Handlungen umsetzen und in ihren Eigenschaften direkt an Beispielen untersuchen. Hier kann die ikonische Darstellung in Form von Zeichnungen oder die symbolische Darstellung, z. B. in Form von Termen, mit der enaktiven Darstellung (d. h. in Handlungen) verbunden werden. Die Schülerinnen und Schüler können Symmetrieachsen, Mittelsenkrechten und Winkelhalbierende bzw. deren Eigenschaften mit transparentem Papier oder Taschenspiegeln selbst erkunden (s. Abb. 1).
+
+[Bild: image1.jpeg]
+Abbildung  SEQ Abbildung \* ARABIC 1
+Auch der Begriff der Punktsymmetrie (und allgemein der Drehsymmetrie) kann mit zwei übereinandergelegten Blättern, von denen eines idealerweise eine Folie ist, enaktiv-experimentell erschlossen werden. Es bietet sich an, den Drehpunkt durch einen Pin zu fixieren.
+Außerdem lernen die Schülerinnen und Schüler so Aussagen mit Hilfe anschauungsbasierter Argumente zu begründen. Aussagen wie „Dies ist eine Symmetrieachse“ oder „Dies ist ein gleichseitiges Dreieck“ können ohne allein durch Anlegen eines Spiegels bzw. Falten eines Blattes überprüft, bestätigt oder widerlegt werden.
+
+[Bild: image2.png]
+Abbildung  SEQ Abbildung \* ARABIC 2
+
+===== geometrischekoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Geometrische Körper erkennen
+Merkmale der Teilaufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da geometrische Körper identifiziert werden müssen.
+Zur Lösung müssen die Bezeichnungen dieser Körper mit den gegebenen Figuren abgeglichen werden (K4).
+Da es sich dabei um bekannte Körper handelt, gehört diese Aufgabe dem Anforderungsbereich I an.
+Weiterarbeit und Förderung
+Treten bei der Aufgabe Schwierigkeiten auf, können die Schüler im Unterricht aufgefordert werden, je einen „Steckbrief“ zu einem Körper zu erstellen, um deren charakteristische Merkmale herauszuarbeiten und die einzelnen Körper voneinander abzugrenzen. Dabei bietet es sich an, die verschiedenen Körper z. B. mittels Knete und Zahnstochern, Pappe oder Klickis nachzubauen oder nach passenden Alltagsgegenständen suchen zu lassen.
+Mögliche Inhalte eines solchen Steckbriefs könnten sein:
+Anzahl der Flächen, Ecken und Kanten
+Darstellung eines Schrägbildes und eines Netzes
+Angabe des Volumens sowie der Formel zu dessen Berechnung
+Angabe des Oberflächeninhalts sowie der Formel zu dessen Berechnung
+Besonderheiten, z. B. Lagebeziehungen von Begrenzungsflächen
+Unterschiede zu Körpern, mit denen sie leicht verwechselt werden können
+
+Die erstellten Steckbriefe können ggf. in Form einer kleinen Ausstellung allen Schülerinnen und Schülern zugänglich gemacht werden. Werden die Ergebnisse dabei in Form einer Übersicht zusammengetragen, kann diese im folgenden Unterricht wie eine Art Formelsammlung genutzt werden.
+
+===== grosserwagen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+
+Didaktische Handreichung: Großer Wagen
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Alle Teilaufgaben werden der Leitidee Raum und Form (L3) zugeordnet, weil Punkte (Sterne) und eine Figur (Sternbild) in einem Koordinatensystem betrachtet werden.
+In der ersten Teilaufgabe sollen die Lernenden Koordinaten einiger Punkte aus dem Koordinatensystem ablesen und in der zweiten Teilaufgabe umgekehrt einen Punkt mit vorgegebenen Koordinaten einzeichnen (K4).
+Die dritte Teilaufgabe fordert die Schülerinnen und Schüler dazu auf, die Koordinaten eines zusätzlichen Punktes („Polarstern“) anzugeben, der jedoch nicht mehr im abgebildeten Bereich des gezeichneten Koordinatensystems liegt. Die Schülerinnen und Schüler müssen die gegebene Lagebeschreibung gedanklich nachvollziehen, um die gesuchten Koordinaten bestimmen zu können (K6). Hierbei müssen sie jedoch von der gegebenen Darstellung ausgehen (K4).
+Die Teilaufgaben 1 und Teilaufgabe 2 gehören aufgrund der vertrauten Darstellung und der weitgehend reproduktiven Anforderungen zu Anforderungsbereich I, während Teilaufgabe 3 wegen des höheren Abstraktionsgrades dem Anforderungsbereich II zuzuordnen ist.
+Anregungen für den Unterricht
+Diese und ähnliche Aufgaben verbinden ein kartesisches Koordinatensystem mit Objekten aus der Realität. In anderen Beispielen können auch die Koordinaten von Orten auf dem Schulhof oder Gegenständen auf dem Boden des Klassenraums mit Hilfe von Koordinaten beschrieben werden. Zur Einführung kann die Lehrkraft den Koordinatenursprung, die Einteilung der Achsen und deren Ausrichtung vorgeben. Später sollten die Schülerinnen und Schüler dies aber auch eigenständig vornehmen, um zu verstehen, dass die Koordinaten von Punkten im Koordinatensystem stets von diesen Entscheidungen abhängig sind.
+[Bild: image1.jpeg]
+Abbildung 1
+
+Interessant kann dieser Zusammenhang sein, wenn Ergebnisse und Lösungswege aus offenen Anwendungsaufgaben miteinander verglichen werden. Dies dient auch als Vorbereitung für Anwendungsaufgaben zu realitätsnahen Phänomenen, die durch Parabeln oder andere mathematische Modelle beschrieben werden können. Auf der untenstehenden Abbildung ist etwa ein bekannter Brückenbogen in Müngsten zu sehen, der sich durch eine Parabel mathematisch beschreiben lässt.
+Spätestens zur Einführung in die Analytische Geometrie kann bzw. sollte die Verwendung von Koordinaten wiederholt werden. Die Lernenden werden nun aufgefordert, Positionen von Objekten im Raum mittels Koordinaten zu beschreiben. So können Lernende der gymnasialen Oberstufe z. B. dreidimensionale Modelle von Gebäuden oder ähnlichem erstellen und deren Eckpunkte mit Koordinaten beschreiben.
+
+[Bild: image2.png]
+Abbildung 2
+
+===== innenwinkel2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K5, Jahrgang 2017
+
+Didaktische Handreichung: Innenwinkel 2
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Mathematisch argumentieren (K1)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Innenwinkel“ werden unterschiedliche Dreiecke und insbesondere deren Innenwinkel betrachtet. Dabei müssen Schülerinnen und Schüler entscheiden, welche Innenwinkel zu den beschriebenen Dreiecken passen. Damit gehört diese Aufgabe zur Leitidee Raum und Form (L3).
+
+In allen drei Teilaufgaben wird mit vertrauten mathematischen Objekten wie rechtwinkligen, gleichschenkligen und gleichseitigen Dreiecken und deren Eigenschaften operiert. Somit erfordert diese Aufgabe in all ihren Teilen die Kompetenz Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5). In Teilaufgabe 3 wird zusätzlich die Kompetenz Mathematisch argumentieren (K1) vorausgesetzt, da dort eine Aussage argumentativ widerlegt bzw. eine negative Aussage begründet werden soll.
+
+In Teilaufgabe 1 wird der im Aufgabentext angegebene Innenwinkelsatz für Dreiecke auf ein rechtwinkliges Dreieck angewendet. Aufgrund der Routinehaftigkeit wird diese Teilaufgabe dem Anforderungsbereich I zugeordnet. Teilaufgabe 2 bringt ebenfalls den Innenwinkelsatz mit einem aus dem Unterricht bekannten Objekt, dem gleichschenkligen Dreieck, zusammen. Dabei werden jedoch verschiedene Möglichkeiten betrachtet. Damit fällt diese Teilaufgabe in den Anforderungsbereich II. In Teilaufgabe 3 wird eine allgemeingültige mathematische Aussage mit Rückgriff auf andere Sätze der Geometrie begründet. Aufgrund des reflektierenden und allgemeingültigen Charakters gehört diese Teilaufgabe in den Anforderungsbereich III.
+
+Anregungen für den Unterricht
+Alle drei Teilaufgaben von „Innenwinkel“ sind so angelegt, dass das Wissen von Schülerinnen und Schülern über spezielle Dreiecke geprüft wird. In Teilaufgabe 1 und 2 sind die Schülerinnen und Schüler dazu aufgefordert, Angaben zu möglichen Innenwinkeln zu machen. Bereits hier lässt sich ablesen, ob der Innenwinkelsatz mit den Eigenschaften von rechtwinkligen und gleichschenkligen Dreiecken zusammengedacht werden kann. In Teilaufgabe 3 wird dann verlangt, eine allgemeine Aussage der Geometrie zu begründen. Anhand des offenen Aufgabenformats und der argumentativen Anforderung lassen sich Potenziale wie auch Fehlvorstellungen bei Schülerinnen und Schülern in den Antworttexten identifizieren, die durch ein geschlossenes Aufgabenformat und der bloßen Angabe möglicher Winkelgrößen wie in den beiden vorigen Teilaufgaben vermutlich nicht hätten identifiziert werden können. Die folgenden Schülerlösungen sollen dies illustrieren.
+
+In Schülerlösung 1 wird nicht sofort ersichtlich, auf welchen geometrischen Satz Bezug genommen wird. Zwar kann es hier nur vermutet werden, jedoch könnte sich hinter den beiden Formulierungen in (a) und (b) eine anschauliche Vorstellung verbergen, die Euklids Parallelenpostulat ähnelt. Aus der Eigenschaft der Gleichheit aller Winkelgrößen in einem gleichseitigen Dreieck folgt, dass in einem gleichseitigen, rechtwinkligen Dreieck alle Innenwinkel 90° groß seien müssten. Damit erhält man jedoch (nach dem Parallelenpostulat) keinen Schnittpunkt mehr zwischen den beiden parallel liegenden Seiten. Lediglich ein Viereck ist noch möglich. Überträgt man die Eigenschaften Gleichseitigkeit und gleiche Winkelgrößen auf das Viereck, ist das Quadrat aus (b) eine folgerichtige Vorstellung. Selbstverständlich ist nicht davon auszugehen, dass Schülerinnen und Schülern der Bezug zum Parallelenpostulat und der langen Geschichte dieses Postulats bekannt sind. Interessant ist jedoch, dass sich in dieser Schülerlösung bereits eine anschauliche Vorstellung davon zeigen mag. Im Unterricht könnte eine solche Schülerlösung dazu verwendet werden, um das Postulat zu thematisieren.
+
+[Bild: image2.png]
+Abbildung 1: Schülerlösung 1
+
+Schülerlösung 2 lässt in Ansätzen Begründungspotenzial erkennen. Jedoch hat hier die Skizze keine erläuternde Funktion, sondern scheint als Begründung selbst zu dienen. Der Begriff „hier“ legt diese Interpretation nahe. Damit würde der allgemeine Charakter der Aussage nicht begründet werden, sondern lediglich mithilfe eines Einzelfalls argumentiert. Weiterhin ist die Argumentation sprachlich unpräzise. Es bleibt offen, was damit gemeint ist, dass „alles gleich ist“. Zur Förderung der Kompetenz Mathematisch argumentieren (K1) sollten diese Unzulänglichkeiten im Unterricht aufgegriffen und an einer allgemeingültigen Formulierung gearbeitet werden.
+
+[Bild: image3.png]
+Abbildung 2: Schülerlösung 2
+
+Schülerlösung 3 nimmt auf den Innenwinkelsummensatz und auf die Gleichheit aller drei Innenwinkelgrößen im gleichseitigen Dreieck Bezug. Insofern scheint es sich um eine durchweg akzeptable Argumentation zu handeln. Jedoch irritiert die Aussage, dass in einem gleichseitigen Dreieck alle Winkelgrößen „ungefähr“ 60° betragen müssten. Hier mag sich eine Fehlvorstellung verbergen, die im Unterricht korrigiert werden müsste. Auf fachsprachlicher Ebene zeigt sich ein weiteres Problem. Formulierungen wie „das Dreieck ist größer als 180°“ oder „muss an allen Seiten […] 60° haben“ zeigen, dass hier die Fachsprache der Geometrie nicht ausreichend beherrscht wird. Begrifflich müsste zwischen dem Dreieck und seinen Eigenschaften unterschieden werden. Weiterhin müssten die einzelnen Eigenschaften eines Dreiecks sprachlich stärker voneinander abgegrenzt werden. Hierbei könnten Schülerinnen und Schülern Standardformulierungen und Formulierungshilfen an die Hand gegeben werden, damit sie ihren Gebrauch von Fachsprache entwickeln können.
+
+[Bild: image4.png]
+Abbildung 3: Schülerlösung 3
+
+===== koordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Quadrat im Koordinatensystem
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe ist der Leitidee Raum und Form (L3) zuzuweisen, da es um die Darstellung einer geometrischen Figur im Koordinatensystem geht und zudem Wissen zum Konzept des Quadrats zur Problemlösung herangezogen werden muss.
+Die Aufgabe kann mit einfachen Überlegungen gelöst werden, indem eine gedankliche oder eine konkrete Skizze herangezogen wird (K2). In dieser können zunächst die drei gegebenen Punkte des Quadrats in ein Koordinatensystem (mental) eingetragen werden (K4), um so den vierten Punkt A unter Nutzung der charakteristischen Eigenschaften eines Quadrats zu ermitteln (K5). Mit der Feststellung, dass das Quadrat achsenparallel liegt, kann man den Punkt A auch durch Nutzung der bestimmbaren Seitenlänge der Figur lokalisieren bzw. seine Koordinaten berechnen (K2, K5).
+Aufgrund der bekannten geometrischen Figur und der geläufigen fachsprachlichen Begriffe gehört diese Aufgabe dem Anforderungsbereich I an.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+1. Antwortalternative (Fehllösung: A ( -1 I -3 )): Vermutlich erfolgt – ohne Überlegungen zur geometrischen Situation – eine Orientierung ausschließlich an den Koordinaten des Punktes D (-1 I 3 ) (K2 oder K4).
+3. Antwortalternative (Fehllösung: A (-2 I -1 )): Die x- und die y-Koordinaten werden vertauscht (K4).
+4. Antwortalternative (Fehllösung: A (-1 I 4 )): Vermutlich wird – ohne Überlegungen zur geometrischen Situation – für die y-Koordinate des Punktes A fälschlicherweise die x-Koordinate des Punktes B gewählt (K2 oder K4).
+Anregungen für den Unterricht
+Zur Weiterarbeit mit dieser Aufgabe und zur Vertiefung bietet es sich im Unterricht an, mögliche Lösungsstrategien zu veranschaulichen und zu vergleichen.
+Eine Möglichkeit wäre die Bearbeitung entsprechender Aufgaben mit großen Zahlen, deren Lösung durch rein graphische Ermittlung unattraktiv ist.
+
+Folgende zwei Aufgaben können dazu Anregung geben:
+
+In einem Koordinatensystem liegt ein Rechteck ABCD.
+Die Punkte A und B habe die Koordinaten A ( – 35 I 22) und B ( – 50 I 22).
+Das Rechteck hat einen Umfang von u = 218 cm (1 LE = 1 cm).
+Welches sind die Koordinaten der Punkte C und D?
+
+In einem Koordinatensystem liegt ein Parallelogramm ABCD.
+Die Punkte A, B und D haben die Koordinaten A ( 24 I – 12), B ( 70 I – 12) und
+D ( 40 I 15).
+Welches sind die Koordinaten des Punktes C?
+
+===== kreiseundvierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Kreise und Vierecke
+Merkmale Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1)
+Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Hinweise zur Bearbeitung
+Die beiden Teilaufgaben gehören zur Leitidee Raum und Form (L3), da es um Konstruktionen und Argumentationen in ebenen Figuren geht.
+Um in Teilaufgabe 1 ein Quadrat entsprechend der Vorgaben einzuzeichnen, liegt die Anwendung verschiedener Problemlösestrategien nahe, z. B. die des „Rückwärtsarbeitens“ (vgl. hierzu auch das allgemeine Kapitel zur Kompetenz „Probleme mathematisch lösen“). So stellen die Schülerinnen und Schüler in einem ersten Schritt passende Eigenschaften eines Quadrats zusammen. Davon ausgehend können sie ihr Vorgehen planen (K2) und die Konstruktion durchführen (K4, K5). Alternativ können sie Ähnlichkeitsüberlegungen nutzen und mit der Strategie des „Aufblasens“ arbeiten. Dazu stellt man sich ein „kleines“ Quadrat in passender Lage vor, das man gedanklich so lange „aufbläst“ (d. h. ähnlich vergrößert), bis dessen Ecken auf der Kreislinie liegen.
+In Teilaufgabe 2 ist die gegebene Aussage als Allaussage zu identifizieren, die durch Angabe eines Gegenbeispiels widerlegt werden kann (K1). Ein solches Gegenbeispiel kann direkt gezeichnet oder durch einen dynamischen Umgang mit der Figur gewonnen werden. Bei einer dynamischen Herangehensweise können die gegebenen Bedingungen systematisch variiert werden (K2). Dies kann mit dem Spezialfall beginnen, dass die vier Ecken einer Raute, die dann ja sogar ein Quadrat ist, auf der Kreislinie liegen (K4). Anschließend kann durch Verschieben zweier gegenüberliegender Ecken auf der zugehörigen Diagonale eine passende Raute erzeugt werden. Dabei ist es unerheblich, ob die Ecken ins Äußere oder ins Innere des Kreises verschoben werden. Alternativ kann in passender Lage in das Innere des Kreises eine Raute eingezeichnet werden, die nun – ebenfalls wieder durch gedankliches „Aufblasen“ – so vergrößert wird, dass genau zwei ihrer Ecken auf der Kreislinie liegen.
+Teilaufgabe 1 verknüpft grundlegende Begriffe und Verfahren in einem abgegrenzten Gebiet und gehört daher zum Anforderungsbereich I. Teilaufgabe 2 kann wegen ihrer Begründungs-Anforderungen dem Anforderungsbereich III zugewiesen werden.
+
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1:
+Anstelle eines Quadrats wird ein Rechteck eingezeichnet, wie die folgende Schülerlösung zeigt. Dies kann an fehlendem Begriffsverständnis oder an einer falschen Zeichenstrategie liegen (K2 und K5).
+[Bild: image2.png]
+Die Bedingung, dass die Eckpunkte des Quadrats auf der Kreislinie liegen müssen, wird missachtet, wie die folgende Schülerlösung zeigt (K2).
+ 	[Bild: image3.png]
+Ein Quadrat wird so gezeichnet, dass die Kreislinie dessen Seiten tangential berührt, siehe die folgende Schülerlösung (K2).
+[Bild: image4.png]
+
+Zu Teilaufgabe 2:
+Die dargelegte Argumentation ist fehler- oder lückenhaft bzw. es wird nicht erkannt, dass die Behauptung falsch ist (K1).
+Es ist nicht bewusst, dass Quadrate besondere Rauten sind, wie die folgende Schülerlösung zeigt (K5).
+[Bild: image5.png][Bild: image5.png]
+Martin sagt: „Wenn ich eine Raute
+(Rhombus) ABCD so zeichne, dass die
+Eckpunkte B und D auf der Kreislinie
+liegen, müssen auch die beiden anderen
+Eckpunkte A und C immer auf der
+Kreislinie liegen. “
+
+Hat Martin Recht?
+Kreuze an.
+Ja Nein
+Begründe deine Entscheidung.
+
+ | Weiterarbeit und Förderung
+Wesentliche Schwierigkeiten dieser Aufgabe bestehen darin, dass mehrere Bedingungen gleichzeitig erfüllt werden müssen und dies im Verlauf der (zeichnerischen) Bearbeitung aus dem Blick geraten kann.
+Diese Aufgabe eignet sich daher in besonderer Weise, Kontrollstrategien (vgl. hierzu auch das allgemeine Kapitel zur Kompetenz „Probleme mathematisch lösen“) zu wiederholen und dabei vor allem nach Abschluss der Bearbeitung dazu anzuregen, die Einhaltung aller genannten Bedingungen nochmals zu überprüfen. Etwaige Prüffragen könnten z. B. in Teilaufgabe 1 sein:
+Ist das eingezeichnete Viereck tatsächlich ein Quadrat?
+Liegen die Eckpunkte des Quadrats tatsächlich auf der Kreislinie?
+Ergänzend kann man die Eigenschaften eines Quadrats mit Bezug zu der durchgeführten Konstruktion nochmals begründen lassen.
+Wird ein Um-Quadrat gezeichnet (vgl. dritte falsche Schülerlösung zu Teilaufgabe 1), kann man diesen Fehler konstruktiv nutzen und fragen, wie eine Aufgabe lauten müsste, damit diese Konstruktion ihre Lösung ist.
+Diese Aufgabe legt eine Gegenüberstellung verschiedener Lösungswege nahe, deren Vergleich einen Beitrag zur Förderung der Argumentationsfähigkeit leisten kann (vgl. hierzu auch das allgemeine Kapitel zur Kompetenz „Mathematisches Argumentieren“ aus VERA-8 2010). Des Weiteren können inhaltliche Vernetzungen zum Satz des Thales oder auch zum Satz des Pythagoras hergestellt werden, sofern diese Sätze bereits bekannt sind, was zusätzlich die Einbeziehung rechnerischer Lösungswege ermöglicht. Auch inhaltliche Vernetzungen zu verwandten Inkreis- und Umkreisfragestellungen lassen sich herstellen.
+Die Aufgabe kann noch erweitert werden, indem man andere Vierecke als ein Quadrat einzeichnen lässt. Hierfür eignet sich die folgende Aufgabe mit einem Rechteck, die sogar ohne Kenntnis des Satzes des Pythagoras gelöst werden kann. Dazu zeichnet man ein Rechteck mit Seitenlängen im vorgegebenen Verhältnis so in das Kreisinnere ein, dass der Diagonalenschnittpunkt mit dem Kreismittelpunkt übereinstimmt, und gewinnt das gesuchte Rechteck dann wieder durch „Aufblasen“. Diese Aufgabe kann somit als echte Problemlöseaufgabe gestellt werden, deren Lösung auch mithilfe eines dynamischen Geometrieprogramms erkundet werden kann.
+
+===== lagederwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Lage der Würfel
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe ist der Leitidee Raum und Form (L3) zuzuweisen, da gedanklich mit Flächen und Körpern operiert wird.
+Zur Bearbeitung dieser Aufgabe sind zunächst der mathematikhaltige Aufgabentext und die Abbildung sinnentnehmend zu erfassen und zu verknüpfen (K6, K4). Die Lösung dieses anspruchsvollen Problems ist über mehrere Schritte herbeizuführen und fordert ein strategiegestütztes Vorgehen (K2). Die zu berücksichtigenden Zusammenhänge zwischen der dargestellten räumlichen Anordnung der vier Würfel und den gegebenen Bedingungen für die Augenzahlen sind dabei die entscheidende Hürde. Neben der Angabe der gesuchten Augenzahl ist der Lösungsweg auch schriftlich zu präsentieren (K6).
+Diese Aufgabe kann, insbesondere aufgrund der kognitiven Anforderungen an das Problemlösen und das Kommunizieren, bereits dem Anforderungsbereich III zugeordnet werden.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Die dargestellten Zusammenhänge können nicht durchdrungen werden bzw. werden falsch gedeutet. Die folgende Schülerlösung lässt z. B. erkennen, dass der Sachverhalt „Die Augenzahlen gegenüberliegender Seiten ergänzen sich immer zu 7“ falsch verstanden wurde, denn hier sind es offensichtlich die Augenzahlen nebeneinander liegender Seiten zweier Würfel, die zusammen die Summe 7 bilden (K4 und K6).
+[Bild: image1.jpeg]
+Zur Lösung des Problems kann keine adäquate Strategie entwickelt werden, so dass nur eine geratene Augenzahl angegeben wird, die nicht begründet werden kann. Dies zeigt die folgende Schülerlösung (K2).
+[Bild: image2.jpeg]
+Die Ermittlung des Ergebnisses basiert auf einer vordergründigen Strategie, wie die folgende Schülerlösung illustriert (K2).
+[Bild: image3.jpeg]
+Anregungen für den Unterricht
+Die Komplexität dieser Aufgabe kann durch Zerlegung des Sachverhalts in Teilprobleme reduziert werden, um so exemplarisch die Kompetenz K2 „Probleme mathematisch lösen“ zu schulen. So kann es hilfreich sein, zunächst einzelne abgebildete Würfel isoliert zu betrachten – mit den Fragestellungen „Was ist bekannt? Was kann ermittelt werden?“. Bei diesem Vorgehen ist abschließend zu reflektieren, welche Zwischenergebnisse tatsächlich weiterführend und welche überflüssig sind, denn in der Tat ist es z. B. unwichtig zu wissen, welche Augenzahl der vorderer rechte Würfel hinten zeigt. Auch bietet sich an, die Situation mit realen Spielwürfeln nachzustellen, um den Lösungsprozess Schritt für Schritt nachzuvollziehen und das Ergebnis zu überprüfen.
+Weitere unterstützende Strukturierungen und Hilfen könnten z. B. in folgender Form – möglicherweise im Rahmen eines handlungsaktivierenden und Selbständigkeit fördernden Lernarrangements – individuell und differenziert angeboten werden:
+Bereitstellen zweier Würfel zur Überprüfung und Erfassung der Spielwürfeleigenschaften und des Sachverhaltes des Aufgabentextes („Die Augenzahlen gegenüberliegender Würfel ergänzen sich immer zu 7.“, „Diejenigen Seitenflächen dieser Spielwürfel, die sich vollständig berühren, haben immer die gleiche Augenzahl.“)
+Bereitstellen formulierter allgemeiner Fragen, die zur selbständigen Strategiefindung motivieren und unterstützen, z. B.:
+Welche Angaben sind bekannt und welche lassen sich mit Hilfe der Textinformationen ermitteln?
+Welche Angabe/n würden dir für die Lösung des Problems weiterhelfen?
+Nutzt es dir, das Problem in Teilprobleme zu zerlegen? Versuche zunächst, einzelne Aspekte zu betrachten und zu lösen. Vielleicht helfen dir diese Zwischenlösungen später weiter.
+Hast du schon mal ein ähnliches Problem gelöst? Wie bist du bei diesem Problem vorgegangen?
+Vorgabe von den Lösungsprozess strukturierenden Fragen/Teilaufgaben (in schriftlicher Form), z. B.:
+Welche Augenzahl zeigt der vordere linke Würfel auf seiner Rückseite?
+Welche Augenzahl zeigt der vordere rechte Würfel auf seiner Rückseite? Welche Augenzahl zeigt er auf seiner linken Seite?
+Welche Augenzahl zeigt der hinterer rechte Würfel auf seiner linken Seite? Welche Augenzahlen befinden sich auf seiner Vorder- und Rückseite?
+Welche dieser nicht sichtbaren Augenzahlen benötigst du eigentlich, um die Aufgabe lösen zu können?
+Welche Augenzahlen zeigt der graue Würfel auf seiner rechten und seiner vorderen Fläche?
+(Derart führende und konkrete Fragestellungen bieten möglicherweise leistungsschwächeren oder mit Problemaufgaben weniger vertrauten Schülerinnen und Schülern einen Zugang und können einer Resignation dieser entgegenwirken.)
+Bereitstellen von Würfeln zur Ergebnisüberprüfung
+Vorgabe von Formulierungs- und Strukturierungshilfen, welche die Kommunikation bzw. die Lösungswegdarstellung erleichtern, z. B.:
+Anbieten von konkreten, für Argumentationen typischen Satzanfängen und Formulierungen
+Bereitstellen eines vorstrukturierten Arbeitsblattes mit Notationsmöglichkeiten (z. B. 1. Schritt: _______________, 2. Schritt: _______________, ...)
+Anbieten einer Abbildung mit nummerierten Würfeln, was Formulierungen wie z. B. „hintere recht Würfel“, „vordere linke Würfel“ erspart:
+
+Würfel 4 Würfel 3
+Würfel 1
+Würfel 2
+
+...
+
+===== parallelogramme · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Deckungsgleiche Parallelogramme
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1B
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe wird ein Parallelogramm als Objekt der Ebene analysiert, weshalb diese Aufgabe der Leitidee Raum und Form (L3) zugeordnet wird.
+Beim Bearbeiten dieser Aufgabe sind die im Text gegebenen Anforderungen an die Teilfiguren zu identifizieren (K6) und auf eine vertraute Darstellung anzuwenden (K4), was vor allem die Kenntnis der fachsprachlichen Begriffe „deckungsgleich“ und „Parallelogramm“ erfordert. Durch mentale Vorstellungen oder durch Anwenden experimenteller Verfahren lässt sich das Parallelogramm wie gefordert unterteilen, wobei Kontrollstrategien anzuwenden sind, um sicherzustellen, dass beide Anforderungen – „ zwei … deckungsgleiche“ und „Parallelogramme“ gleichzeitig – einzulösen sind (K2).
+Da die Darstellung und auch die fachsprachlichen Begriffe vertraut sind, gehört diese Aufgabe zum Anforderungsbereich I.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Das Parallelogramm wird in zwei andere deckungsgleiche Figuren zerlegt. Dies können z. B. zwei Dreiecke sein, wie die erste Schülerlösung zeigt, oder zwei Trapeze, wie die zweite Schülerlösung illustriert (K6 und K2).
+[Bild: image1.jpeg]
+[Bild: image2.jpeg]
+Anregungen für den Unterricht
+Gelingt „nur“ die Unterteilung des gegebenen Parallelogramms in zwei deckungsgleiche Figuren, kann man die Schülerinnen und Schüler dazu auffordern, nach dem Einzeichnen der Geraden nochmals bewusst Bezug auf den Aufgabentext zu nehmen und zu prüfen, ob sie die Unterteilung wie gefordert vorgenommen und beide Bedingungen berücksichtigt haben. Hierbei könnten ggfs. auch begriffliche Defizite (Was ist ein Parallelogramm?) aufgedeckt werden. Sicherlich ist dies eine Vorgehensweise, die bei den meisten anderen Aufgaben auch sinnvoll ist.
+Wird das gegebene Parallelogramm in zwei deckungsgleiche Dreiecke bzw. Trapeze eingeteilt, kann man die Schülerinnen und Schüler eine Aufgabenstellung formulieren lassen, die zu genau diesen Lösungen führen würde. Dieses Vorgehen sensibilisiert zusätzlich für das genaue Lesen von mathematikhaltigen Texten.
+Des Weiteren bietet es sich an, am Beispiel dieser Aufgabe die Eigenschaften verschiedener Vierecke zu wiederholen. Zu diesem Zweck kann auch die gegebene Ausgangsfigur zu einem anderen Viereck variiert werden, um z. B. zu überlegen, ob sich auch ein Quadrat (ein Rechteck, ein Trapez, eine Raute, …) durch Einzeichnen einer Geraden in zwei deckungsgleiche Quadrate (Rechtecke, Trapeze, Rauten, …) einteilen lässt.
+
+===== punkteimkoordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K4, K5, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Punkte im Koordinatensystem
+[Bild][Bild]
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | II
+ |
+[Bild][Bild]
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | III
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da die Beschäftigung mit ebenen Figuren im Koordinatensystem unter Berücksichtigung von Symmetrieeigenschaften im Mittelpunkt steht.[Bild][Bild]
+Zur Bearbeitung der Teilaufgabe 1 ist es zunächst notwendig, sich die Eigenschaften einer Raute ins Gedächtnis zu rufen, um die gegebene Zeichnung durch Angabe eines vierten Punktes zu einer Raute ergänzen zu können (K2). Der fehlende Punkt ist in das Koordinatensystem einzutragen, die Koordinaten sind abzulesen (K4). Zur Bearbeitung der Teilaufgabe 2 müssen die bei der Durchführung einer Spiegelung zu berücksichtigenden Arbeitsschritte rückwärts angewendet werden, d. h. es muss erkannt werden, dass die einzuzeichnende Achse senkrecht zur Strecke
+
+ sein muss und durch den Mittelpunkt dieser Strecke sowie den Punkt A verlaufen muss (K2). Diese Achse ist anschließend in das Koordinatensystem einzuzeichnen (K4).
+Da zur Bearbeitung dieser Aufgabe einfache mathematische Fakten genutzt und Routineverfahren angewendet werden, gehört diese Aufgabe zum Anforderungsbereich I.
+
+Zu Teilaufgabe 1:[Bild][Bild]
+Die Eigenschaften einer Raute sind nicht bekannt. Stattdessen werden z. B. die Eigenschaften eines Drachenvierecks genutzt (naheliegende Fehllösung z. B. (8/9); K2).
+Die x- und die y-Koordinate werden verwechselt (K5 und K4).
+
+Zu Teilaufgabe 2:
+Die eingezeichnete Achse verläuft zwar durch den Mittelpunkt der Strecke
+
+, ist zu dieser jedoch nicht senkrecht,  d. h. sie verläuft nicht durch den Punkt A. Oder die eingezeichnete Achse verläuft zwar durch den Punkt A, steht aber nicht senkrecht zur Strecke
+
+, d. h. sie verläuft nicht durch deren Mittelpunkt (Vorstellung zum Spiegeln einer Figur im Sinne eines „Klappens/ Faltens“, K4).
+
+===== punktgenau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Punktgenau
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1A
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1B
+ | Aufgabenbezogener Kommentar
+Diese Aufgaben gehört der Leitidee Raum und Form (L3) an, da mit einem kartesischen Koordinatensystem gearbeitet wird.
+Teilaufgabe 1 erfordert es, sich im Koordinatensystem zu orientieren und die Koordinaten eines vorgegebenen Punktes abzulesen (K4). Auch Teilaufgabe 2 erfordert die Orientierung in einem Koordinatensystem (K4). Allerdings ist hier umgekehrt ein vorgegebener Punkt einzutragen.
+Beide Teilaufgaben gehören zum Anforderungsbereich I, da mit vertrauten Darstellungen gearbeitet wird und bekannte Vorgehensweisen genutzt werden.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 1:
+1. Antwortalternative (Fehllösung: ( 1 | -2 )): Die x- und y-Koordinaten werden vertauscht (K4).
+2. Antwortalternative (Fehllösung: ( 2 | 1 )): Bei der y-Koordinate kommt es zu einem Vorzeichenfehler. Dies deutet auf Schwierigkeiten hinsichtlich der Orientierung im Koordinatensystem hin (K4).
+4. Antwortalternative (Fehllösung: ( -1 | 2 )): Die x- und y-Koordinaten werden vertauscht. Zusätzlich kommt es jeweils zu einem Vorzeichenfehler. Dies kann auf Orientierungsschwierigkeiten im Koordinatensystem hindeuten (K4).
+Zu Teilaufgabe 2:
+Die x- und y-Koordinaten werden vertauscht (K4).
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Aufgaben Schwierigkeiten auf, kann es hilfreich sein, das Koordinatensystem ausgehend vom 1. Quadranten im Unterricht nochmals aufzubauen und dabei auch die Vorzeichenregeln in den einzelnen Quadranten zu thematisieren. Dabei kann auch der Übergang von positiven zu negativen Zahlen und umgekehrt auf den Achsen nochmals als Spiegelung an der Null interpretiert werden.
+Merksätze wie „x kommt im Alphabet vor y, also muss auch die x-Koordinate zuerst angegeben werden“ können das Ablesen und Eintragen von Punkten erleichtern.
+Zur weiteren Übung eignen sich spielerische Aufgabenstellungen, wie beispielsweise eine abgewandelte Form des Spiels „Schiffe versenken“. Geeignete Materialien können dem z. B. dem Buch „Mathematik Neue Wege 5“ entnommen werden.
+Die Orientierung im Koordinatensystem lässt sich auch mittels Bewegungsaufgaben gut trainieren. Dabei legt man einen Start- sowie einen Zielpunkt fest und gibt verschiedene Hindernisse vor, welche zu umgehen sind. Durch bestimmte Befehle wie „Drei Schritte in positive Richtung der x-Achse“ lässt sich die Spielfigur durch das Koordinatensystem bewegen. Dabei kann die neue Position jeweils durch Angabe der zugehörigen Koordinaten beschrieben werden. Der jeweils neue Standpunkt kann mittels der Koordinaten angegeben werden. Für leistungsstärkere Schülerinnen und Schüler kann dieser Kontext um Aufgaben zum Rechnen mit Koordinaten erweitert werden. So können beispielsweise die Koordinaten der Bildfigur nach der Durchführung einer Verschiebung mit angegebener Verschiebungsvorschrift (z. B: 3 LE nach rechts, 2 LE nach oben) oder aber der Spiegelung an einer festgelegten Achse berechnet werden.
+
+===== punktgesucht · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, K4, K6, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Punkt gesucht
+Merkmale Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 4
+ | Hinweise zur Bearbeitung
+Beide Teilaufgaben gehören zur Leitidee Raum und Form (L3), denn sie erfordern das Umgehen mit geometrischen Konfigurationen in einem Koordinatensystem.
+In Teilaufgabe 1 entnehmen die Schülerinnen und Schüler in einem ersten Schritt dem Text die zur Konstruktion erforderlichen Informationen (K6). Die tatsächliche Durchführung der Konstruktion legt die Anwendung verschiedener Problemlösestrategien nahe (K2). Eine ist die sog. „Analogiebildung“, deren Umsetzung an dieser Aufgabe im Allgemeinen Kapitel zur Kompetenz „Probleme mathematisch lösen“ beschrieben wird. Eine andere hier naheliegende Problemlösestrategie ist das „Zerlegen in Teilprobleme“, denn die konstruktive Umsetzung von jeder der beiden Abstandsbedingungen kann als einzelnes Teilproblem betrachtet werden. So lassen sich beide Abstandsbedingungen in der gegebenen Darstellung (K4) als jene geometrischen Orte deuten, die zu den Punkten A und B den gleichen bzw. zu D einen festen Abstand haben, d. h. als Mittelsenkrechte zu AB bzw. als Kreis um D mit Radius 5. Die Konstruktion der Mittelsenkrechten – klassisch mit Zirkel oder auch nur mit dem Geodreieck – und des Kreises (K5) schließt mit der Deutung der sich ergebenden Schnittpunkte oder zumindest eines Schnittpunktes und dem Ablesen der Koordinaten ab.
+Auch bei Teilaufgabe 2 ist zunächst das sinnentnehmende Lesen des Textes (K6) erforderlich, um die geforderte Variation der Situation zu verstehen. In der Darstellung (K4) wird dann der Abstand d (gedanklich) so verändert, dass schließlich der Kreis und die Mittelsenkrechte sich nicht mehr schneiden. Diese Veränderung von d erfordert im Rahmen des Problemlösens (K2) eine umfassende Fallunterscheidung oder alternativ eine dynamische Überlegung. Hierbei wird d kontinuierlich verändert, um zu erfassen, für welche Längen von d sich weiterhin zwei Schnittpunkte, nur noch ein oder gar kein Schnittpunkt der Mittelsenkrechten mit dem Kreis ergeben.
+Teilaufgabe 1 gehört vor allem aufgrund der Problemlöseanforderungen zum Anforderungsbereich II. Die Komplexität der Problemlöseanforderungen in Teilaufgabe 2 rechtfertigt deren Einordnung in den Anforderungsbereich III.
+
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1:
+Die Koordinaten des Schnittpunkts bzw. der Schnittpunkte werden vertauscht [Fehllösung (4|3) bzw. (10|3] (K5).
+Nur eine der beiden Teilkonstruktionen gelingt, beispielsweise da die Mittelsenkrechte nicht als Gerade gedeutet wird, so dass sich kein Schnittpunkt mit dem Kreis(bogen) ergibt (K2 und K4).
+Die Achseneinteilung wird missachtet [Fehllösungen (2,5|4) bzw. (2,5|10)] (K4).
+Zu Teilaufgabe 2:
+Es wird nicht erkannt, dass d echt kleiner als 4 LE sein muss [Fehllösung d = 4 LE] (K6 oder K2).
+Die Mittelsenkrechte wird nicht als Gerade, sondern als „kurze Strecke“ gedeutet. Der Radius d wird dementsprechend so groß gewählt, dass die Punkte A und B sowie die „Mittelsenkrechte“ vollständig im Inneren des zugehörigen Kreises liegen [Fehllösung z. B. d = 14 LE] (K2, K4).
+Weiterarbeit und Förderung
+Die Bearbeitung dieser Aufgabe bietet Gelegenheit, geometrische Begriffe zu vertiefen und Grundkonstruktionen zu üben, auch unter eventuellem Einsatz eines dynamischen Geometrieprogramms. Zusätzlich können Argumentationen an den sich ergebenden Figuren durchgeführt werden.
+Einigen der beschriebenen Schwierigkeiten kann mit kleineren Übungen begegnet werden. Das Ablesen von Koordinaten kann an Koordinatensystemen wiederholt werden, deren Achsen ebenfalls nicht mit 1 LE pro Einheit skaliert sind. Um beide Bearbeitungsrichtungen zu berücksichtigen, können zusätzlich Punkte hierin eingezeichnet werden.
+Wird die Mittelsenkrechte nicht als Gerade aufgefasst, kann diese mit einer Höhe im Dreieck kontrastiert werden. Diese Gegenüberstellung macht nochmals den Unterschied zwischen einer Geraden und einer Strecke deutlich. Vertiefend können die geometrischen Eigenschaften des Schnittpunkts der Mittelsenkrechten in einem Dreieck behandelt werden. Dies verdeutlicht zusätzlich die Geradeneigenschaft, da der Schnittpunkt der Mittelsenkrechten bekanntlich auch außerhalb des Dreiecks liegen kann.
+Ausgehend von der gegebenen Konstruktion können weitergehende Aufgaben gestellt werden, z. B.:
+Der Kreis um D soll die Mittelsenkrechte ober- und unterhalb von AB schneiden. Wie muss dann d gewählt werden?
+Welchen minimalen Abstand hat der Kreis von der y-Achse?
+Man vergleiche hierzu auch den didaktischen Kommentar zur Aufgabe „Bewege C“ aus VERA-8 2011.
+
+===== pyramidenbau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2014
+
+Didaktische Handreichung: Pyramidenbau
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da es um räumliches Vorstellungsvermögen bei der Arbeit mit Körpern und ihren Netzen geht.
+Zur Bearbeitung der Aufgabe ist zwischen dem Schrägbild und dem Netz einer Pyramide zu wechseln, um die überflüssigen Stäbe und Kugeln zu erkennen (K4).
+Da es sich um einfache Darstellungen eines vertrauten Körpers handelt, gehört diese Aufgabe zum Anforderungsbereich I.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Die Schülerinnen und Schüler berücksichtigen nicht, dass an der Spitze der Pyramide auch eine Kugel benötigt wird (Fehllösung: 3 Stäbe, 3 Kugeln).
+Das Netz wird gedanklich nicht zu einer Pyramide zusammen gefaltet. Die Schülerinnen und Schüler zählen lediglich die Anzahl der vorhandenen Stäbe und Kugeln, wie die folgende Schülerlösung zeigt:
+[Bild: image1.png]
+Die Schülerinnen und Schüler entscheiden sich für die richtige Anzahl an Kugeln (2 Kugeln). Allerdings erkennen sie nicht, dass sich an drei Seiten je zwei der Stäbe überlappen. Dies veranschaulicht die folgende Schülerlösung:
+[Bild: image2.png]
+Anregungen für den Unterricht
+Schwierigkeiten bei der Aufgabenbearbeitung können unter anderem auf ungenügend ausgebildetes räumliches Vorstellungsvermögen hindeuten. Dieses kann trainiert werden, indem mit realen Körpern gearbeitet oder diese mit verschiedenen Materialien nachgebaut werden. Dabei ist es zentral, dass nicht nur konkret gehandelt wird, sondern, dass immer wieder die Ablösung vom Material angeregt wird. Dies kann beispielsweise gelingen, indem Handlungen verbalisiert, Beobachtungen notiert, Vermutungen überprüft oder Handlungsanweisungen von Partnern umgesetzt werden. Hierzu bieten sich neben einem Magnetbaukasten auch Klickis, Strohhalme und Knete oder Pappmodelle an. Ähnliche Inhalte wie die hier beschriebenen weisen auch die Aufgaben „Quadernetz“ und „Quadernetz vervollständigen“ der Lernstandserhebung 2014 auf. Mögliche Aufgaben zur weiteren Schulung des räumlichen Vorstellungsvermögens im Anschluss an die obigen Aufgaben sind die folgenden, die alle einen gedanklichen Wechsel zwischen Netz und Körper verlangen:
+[Bild][Bild]
+ |
+Foto: © IQB Abbildung 3
+
+Zu der quadratischen Pyramide aus Bild 3 soll das Netz gelegt werden.
+Gib an, wie viele zusätzliche Stäbe und Kugeln noch benötigt werden.
+
+______  Stäbe		______  Kugeln
+
+ |
+
+[Bild][Bild]
+ | Mario will jetzt eine Pyramide mit einer fünfeckigen Grundfläche bauen. Wie viele Kugeln und wie viele Stäbe braucht er für die Pyramide und für das Netz?
+Fülle die Tabelle aus.
+
+ | Anzahl der Kugeln
+ | Anzahl der Stäbe
+ | fünfeckige Pyramide
+ |
+ |
+ | Netz
+der fünfeckigen Pyramide
+ |
+ |
+ |
+ |
+[Bild][Bild]Weiterführend können im Unterricht zusätzliche Kompetenzen eingebunden werden. Dies gelingt beispielweise durch die folgende Aufgabe, welche die Schülerinnen und Schüler zum mathematischen Argumentieren anregt.
+
+ | Mario behauptet: „Wenn ich eine Pyramide mit sechseckiger Grundfläche bauen möchte, brauche ich für die Seitenkanten mehr als einen Magnetstab.“
+
+Foto: © IQB Abbildung 4
+
+Erkläre, warum Mario mit nur einem Magnetstab als Seitenkante Probleme bekommt.
+ | In der Lösung dieser Aufgabe kann darauf verwiesen werden, dass sich bei einer einstöckigen Pyramide mit sechseckiger Grundfläche die Seitenkanten nur in der Ebene berühren, so dass keine Körperform entsteht und sich demnach keine Spitze formen lässt, da die Länge einer Seitenkante ja gleich der Länge der halben Diagonale der Grundseite ist.
+
+===== quadernetz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K4, Jahrgang 2014
+
+Didaktische Handreichung: Quadernetz
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe wird (gedanklich) mit Flächen und Körpern operiert, weshalb sie der Leitidee Raum und Form (L3) zugeordnet wird.
+Die Schülerinnen und Schüler müssen zur Bearbeitung der Aufgabe die dargestellten Netze dahingehend bewerten, ob aus ihnen ein Quader gefaltet werden kann (K4). Dabei können unterschiedliche strategische Vorgehen zum Tragen kommen, insbesondere aber die Identifizierung der (gegenüberliegenden) Flächen und der unterschiedlichen Kantenlängen.
+Die Darstellung einer ebenen Figur muss gedanklich in den Raum übertragen werden. Wegen dieses Darstellungswechsels ist diese Aufgabe dem Anforderungsbereich II zuzuordnen.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Aus der Anzahl der Flächen (6) wird geschlossen, dass es sich bei allen Darstellungen um einen Quader handelt.
+Die Lage von gegenüberliegenden Flächen des Körpers im Netz wird nicht beachtet und somit werden Netz 1 und Netz 2 ebenfalls als Quadernetze betrachtet.
+Aus der Ausrichtung der Flächen in Netz 4 wird geschlossen, dass es sich nicht um einen Quader handelt.
+Anregungen für den Unterricht
+Sollten bei der Bearbeitung der Aufgabe Schwierigkeiten auftreten, bietet es sich an, das gedankliche Operieren mit Netzen durch das konkrete Falten zu einem Quader und umgekehrt durch das Auffalten von Quadern zu ihren Netzen vorzubereiten. Daran kann anschaulich dargestellt werden, dass beispielsweise gegenüberliegende Quaderflächen im Netz nicht aneinander liegen können. Diese Vorstellung kann darüber hinaus durch das Einfärben von Flächen im Netz und deren Übertragung auf den Quader und umgekehrt unterstützt werden. Eine weitere Möglichkeit und Lernchance in Bezug auf den Wechsel der Darstellungsebenen kann das Vervollständigen von Quadernetzen aus vorgegebenen Quadern sowie das Finden und Zeichnen eigener Netze zu einem vorgegebenen Quader sein, wie beispielsweise anhand folgender Aufgabenstellung:
+[Bild][Bild]
+ |
+4 cm
+3 cm
+6 cm
+Grafik: © IQB
+
+Finde mögliche Netze zu diesem Quader und zeichne sie.
+ | Weitere Anregungen hierzu finden sich auch in den didaktischen Kommentaren der Aufgaben „Pyramidenbau“ und „Quadernetz vervollständigen“ der Lernstandserhebung 2014.
+
+===== quadernetz2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2015
+
+Didaktische Handreichung: Quadernetz 2
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe wird der Leitidee Raum und Form (L3) zugeordnet, weil es hier um die Darstellung eines geometrischen Körpers geht.
+Die Schülerinnen und Schüler sollen beurteilen, welche der mathematischen Darstellungen (Netze) zu einem Quader gehört (K4). Hierzu muss eine geeignete Vorgehensweise gefunden werden (K2), um die ebenen Darstellungen mit der räumlichen Veranschaulichung zu verbinden(z. B. gedankliches Falten der Netze).
+Aufgrund der eher geringen Anforderungen in Bezug auf die genannten Kompetenzen wird diese Aufgabe dem Anforderungsbereich I zugeordnet.
+Anregungen für den Unterricht
+Eine wesentliche Hürde, die Schülerinnen und Schüler bewältigen müssen, um diese und ähnliche Aufgaben zu bearbeiten, stellt der erforderliche gedankliche Wechsel zwischen einer zweidimensionalen Darstellung der Oberfläche eines Körpers auf der einen Seite und seiner räumlichen Gestalt auf der anderen Seite dar. Dieser Darstellungswechsel kann in vielen Beispielen handelnd unterstützt werden. So kann die Verknüpfung zwischen Oberfläche und Körperform angebahnt werden. Zur Verknüpfung der räumlichen Vorstellung mit der ebenen Darstellung der Oberflächen bietet es sich beispielsweise an, Quader von den Schülerinnen und Schülern zerschneiden zulassen. Anschließend können Quadernetze (aber auch Würfelnetze, Pyramidennetze usw.)  von Schülerinnen und Schülern gezeichnet, ausgeschnitten und zu einem Körper zusammengeführt werden. Ebenso können Schülerinnen und Schüler auch weitgehend eigenständig entsprechende Aufgaben formulieren, indem sie verschiedene Köpernetze zeichnen und einem anderen Lernenden zur Prüfung vorlegen.
+
+[Bild][Bild]Aufgabe 1: Netze zeichnen
+Überlege Dir zusammen mit deinem Sitznachbarverschiedene Möglichkeiten für Netze, die zu einem Würfel gehören.
+Zeichne diese Netze.
+Wie viele mögliche Netze gibt es? Kannst Du alle Möglichkeiten finden?
+
+Aufgabe 2: Eine eigene Aufgabe erstellen
+Zeichne ein unvollständiges Netz eines Körpers und formuliere dazu eine Aufgabenstellung. Lasse diese von deinem Sitznachbar bearbeiten.
+ |
+Die Lernenden erhalten durch dieses Vorgehen nicht bloß eine Lösungsstrategie für dieses bestimmte Problem. Sie  können vielmehr, entsprechend angeleitet und unterrichtlich gesichert, das Verfahren „Basteln eines Modells“ zur Überprüfung von Annahmen oder zur Lösung von Problemen auch anderweitig anwenden.
+Denkbar wäre, z. B. im Unterricht Probleme zu behandeln, bei denen maßstabsgetreue Zeichnungen hilfreich sind, oder ebene oder dreidimensionale Modelle zu erstellen, die bestimmte Sachverhalte illustrieren. Folgendes Modell soll als Anregung dienen:
+
+[Bild][Bild][Bild: image1.png]
+ | Abbildung: Oberfläche eines Zylinders
+
+===== quadernetzvervollstaendigen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+
+Didaktische Handreichung: Quadernetz vervollständigen
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Die Aufgabe gehört zur Leitidee Raum und Form (L3), da es um Körper und deren Darstellung geht.
+Zur Bearbeitung der Aufgabe muss das begonnene Netz eines Quaders durch zwei weitere Seitenflächen so ergänzt werden, dass es zu einem Quader zusammengefaltet werden kann (K4). Dabei muss eine geeignete Vorgehensweise gefunden werden (K2), z. B. mentales Abwickeln eines Quaders.
+Aufgrund der Offenheit der Aufgabenstellung gehört diese Aufgabe dem Anforderungsbereich II an.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Das Quadernetz wird so ergänzt, dass sich beim Zusammenfalten kein Quader ergibt. Dies deutet darauf hin, dass das räumliche Vorstellungsvermögen nicht hinreichend ausgebildet ist. Diesen Fehler veranschaulicht die folgende Schülerlösung:
+
+[Bild: image1.png]
+Die fehlenden Seitenflächen des Quaders werden an den richtigen Positionen ergänzt. Allerdings wird dabei nicht auf die Längen der einzelnen Seiten geachtet, wie anhand der folgenden Schülerlösung zu erkennen ist:
+[Bild: image2.png]
+Anregungen für den Unterricht
+Bei auftretenden Schwierigkeiten bietet es sich an, das räumliche Vorstellungsvermögen der Schülerinnen und Schüler zu trainieren. Hilfreich sind dabei vor allem Aufgaben, die sie zur handelnden Auseinandersetzung mit verschiedenen Körpern und ihren Darstellungen ermutigen bzw. Aufgaben, bei denen ein Wechsel der Darstellungsebene verlangt wird. So können verschiedene Körper mittels Pappe oder Strohhalmen und Knete nachgebaut werden. Anschließend können Schrägbilder sowie Netze angefertigt und die Körper hinsichtlich der Anzahl an Seitenflächen, Kanten und Ecken analysiert werden. Ähnliche Inhalte weisen auch die Aufgaben Quadernetz und Pyramidenbau der Lernstandserhebung 2014 auf. Darüber hinaus bietet es sich hierbei an, die Berechnung des Volumens und der Oberfläche verschiedener Körper zu wiederholen.
+Im Sinne eines konstruktiven Umgangs mit Fehlern können die Schülerinnen und Schüler aufgefordert werden, verschiedene Quadernetze (richtige und falsche) dahingehend zu überprüfen, ob sich aus diesen jeweils ein Quader zusammenfalten lässt. Dabei kann es hilfreich sein, Flächen, die einander gegenüberliegen würden, in der gleichen Farbe zu färben. Auch das Einfärben von aneinanderstoßenden Kanten kann das gedankliche Zusammenfalten der einzelnen Netze erleichtern. In diesem Zusammenhang können die Schülerinnen und Schüler auch aufgefordert werden, alle möglichen Quadernetze anzugeben und deren Anzahl zu begründen. Dies ermöglicht es, auch Aspekte der Kombinatorik einzubinden und die Kompetenz mathematisch Argumentieren bzw. Probleme mathematisch lösen zu trainieren.
+
+===== quadrate · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2016
+
+Didaktische Handreichung: Quadrate
+
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Raum und Form (L3) zuzuordnen, da Schülerinnen und Schüler zur Lösung eine geometrische Figur im Koordinatensystem darstellen. Um fehlende Punkte zu konstruieren, nutzen sie geometrische Eigenschaften von Quadraten.
+Die Aufgabe erfordert Kompetenzen im Bereich Mathematische Darstellungen verwenden (K4), da sowohl mit den gegebenen Darstellungen der Punkte im Koordinatensystem gearbeitet, als auch die Darstellung neuer Punkte erzeugt werden muss.
+In der Aufgabe wird eine Standarddarstellung mathematischer Objekte genutzt, hier Punkte in einem Koordinatensystem. Daher wird die Aufgabe dem Anforderungsbereich I zugeordnet.
+Anregungen für den Unterricht
+Nach erfolgreicher Bearbeitung kann diese Aufgabe in eine klassische Konstruktionsaufgabe umgewandelt werden. Dazu werden die gegebenen Punkte unabhängig von einem Koordinatensystem auf ein Blatt Papier ohne Rechenkästchen eingetragen. Sind Schülerinnen und Schüler mit solchen Konstruktionen mit Lineal und Zirkel nicht vertraut, erweitert man die Teilaufgabe somit zu einer Problemlöseaufgabe (K2). Abbildung 1 zeigt eine solche Konstruktion.
+
+[Bild: image1.png]
+Abbildung 1: Konstruktion zur Problemlöseaufgabe
+
+===== quadratundraute · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+
+Didaktische Handreichung: Quadrat und Raute
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da mit geometrischen Figuren in einem Koordinatensystem gearbeitet wird.
+In der Aufgabenstellung ist ein Koordinatensystem gegeben, durch dessen Ursprung eine Gerade mit der Steigung 1 verläuft. Die Schülerinnen und Schüler sollen in Teilaufgabe 1 ein Quadrat und in Teilaufgabe 2 eine Raute in ein solches Koordinatensystem einzeichnen (K4). Zusätzlich werden jeweils Bedingungen formuliert, die von den Figuren erfüllt sein sollen (K6): Die Gerade soll eine Diagonale des Quadrats sein und zwei der vier Eckpunkte sollen auf der Geraden liegen. Weiterhin sollen auch zwei Eckpunkte der Raute auf der Geraden liegen und die Raute soll kein Quadrat sein.
+Beide Teilaufgaben werden aufgrund ihrer Anforderungen an die genannten Kompetenzen dem Anforderungsbereich II zugeordnet.
+Anregungen für den Unterricht
+Beide Teilaufgaben machen deutlich, wie durch zusätzliche Bedingungen das Verständnis der Schülerinnen und Schüler bezüglich bestimmter Vierecke (oder allgemeiner Flächen) geprüft bzw. gefördert werden kann. Neben dem Erkennen bestimmter Vierecke oder dem Zeichnen eines bestimmten Vierecks zu gegeben Maßen, können die Lernenden auch dazu aufgefordert werden ein bestimmtes Viereck, das bestimmten Bedingungen genügt, zu konstruieren.
+In dieser Aufgabe sollen bestimmte Eckpunkte des Vierecks auf einer vorgegebenen Geraden liegen. Dabei befindet sich das Quadrat aus Teilaufgabe 1 in prototypischer Lage (Seiten horizontal bzw. vertikal). Für die Raute in Teilaufgabe 2 gilt dies nicht mehr. Die häufige Orientierung von Rauten (horizontale und vertikale Diagonalen) wird durch die zusätzliche Bedingung, Diagonale auf der Geraden, aufgehoben.
+
+===== quadratzeichnen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Quadrat zeichnen
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1A
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört der Leitidee Raum und Form an (L3), da es um die Darstellung einer geometrischer Figuren geht.
+Zur Bearbeitung der Aufgabe ist es zunächst wichtig, sich den Begriff des Quadrats ins Gedächtnis zu rufen (K5), wobei je nach Konstruktion verschiedene Eigenschaften genutzt werden könnten. Anschließend wird das Quadrat mit dem Geodreieck gezeichnet (K5).
+Aufgrund der Arbeit mit einer vertrauten Figur und der Nutzung bekannter Hilfsmittel gehört diese Aufgabe dem Anforderungsbereich I an.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Es wird kein Quadrat sondern ein Rechteck gezeichnet. Dies lässt vermuten, dass den Schülerinnen und Schülern die Eigenschaften eines Quadrates nicht geläufig sind (K5).
+Einer oder mehrere der vier Winkel sind nicht 90° groß, was auf Schwierigkeiten beim Zeichnen hinweisen könnte (K5).
+Anregungen für den Unterricht
+Meist liegt die Schwierigkeit, ein Quadrat zu zeichnen, darin, dass die Technik für das korrekte Zeichnen eines rechten Winkels mit dem Geodreieck nicht beherrscht wird. Es liegt daher nahe, diese Technik wieder zu reaktivieren. Dies kann leicht unter Einbindung leistungsstärkerer Schülerinnen und Schüler in einer Partnerarbeit geschehen.
+Im Unterricht können zur Vor- oder Nachbereitung außerdem die Eigenschaften der verschiedenen Vierecke wiederholt werden. Dabei können neben Beispielen auch Gegenbeispiele angesprochen werden, um die Begriffsbildung anzuregen. Dies kann mit der Erarbeitung einer systematischen Ordnung der Vierecke, dem sogenannten Haus der Vierecke, abgeschlossen werden.
+Weiterführend können Aufgaben zur Konstruktion der einzelnen Vierecke gestellt werden, bei deren Bearbeitung Lösungsstrategien wie das Erstellen einer Planfigur und das Einfärben bekannter Bestimmungsstücke thematisiert werden können. Ergänzend kann das Vorgehen mittels einer Abfolge einzelner Konstruktionsschritte veranschaulicht werden. Geeignete Materialien können z. B. dem Lehrbuch Maßstab entnommen werden.
+Weiterführend können die Konstruktionen mit Fragen nach dem Umfang oder dem Flächeninhalt der Figur verbunden werden. Dabei ist es möglich, den unüblicheren Weg zu beschreiten und beispielsweise den Flächeninhalt oder den Umfang eines Quadrates vorzugeben und dieses anschließend konstruieren zu lassen. Die Lösung derartiger Aufgaben erfordert es zunächst, sich einen Lösungsweg zurechtzulegen, wodurch die Kompetenz Mathematisches Problemlösen in den Unterricht eingebunden wird.
+
+===== rechteck · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017
+
+Didaktische Handreichung: Rechteck
+
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1a
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Rechteck“ wenden Schülerinnen und Schüler ihr Definitionswissen über Rechtecke an, indem Sie einen Eckpunkt im Koordinatensystem ergänzen. Daher gehört diese Aufgabe zur Leitidee Raum und Form (L3).
+
+Dabei wird eine mathematische Darstellung genutzt (Punkte im Koordinatensystem). Somit verlangt die Aufgabe „Rechteck“ die Kompetenz Mathematische Darstellungen verwenden (K4).
+Da es sich um eine vertraute Darstellung handelt, wird diese Aufgabe dem Anforderungsbereich I zugeordnet.
+Anregungen für den Unterricht
+Zur Lösung der Aufgabe „Rechteck“ wird ein Wissen über die Definition eines Rechtecks angewendet, indem Schülerinnen und Schüler ein Rechteck konstruieren bzw. vervollständigen. Somit wird sowohl konzeptuelles als auch prozedurales Wissen geprüft. Während konzeptuelles Wissen mathematische Inhalte wie Begriffe, Lehrsätze und die Zusammenhänge zwischen diesen umfasst, werden mit prozeduralem Wissen in der Regel die Fähigkeiten beschrieben mathematische (Routine-)verfahren auch automatisiert durchführen zu können. Weiterhin wird konzeptuelles Wissen meist in intensionales und extensionales unterteilt. Während die Intension eines Begriffs in der Mathematik seine Definition(en) meint, versteht man unter der Extension eines Begriffes die Verbindungen, die zu anderen Begriffen, Verfahren, Situationen usw. hergestellt werden können.
+
+Hier besteht also das intensionale Wissen darin, dass die Schülerinnen und Schüler wissen, dass bei einem Rechteck jeweils die gegenüberliegenden Seiten gleich lang sind und an jedem Eckpunkt ein rechter Winkel anliegt. Eine Extension auf einem niedrigen Niveau könnte beispielsweise darin bestehen, dass Schülerinnen und Schüler Sachsituationen benennen können, in denen Rechtecke vorkommen (z. B. Fußballfelder, Fenster, …). Eine Extension auf höherem Anforderungsniveau bestünde darin, Vor- und Nachteile rechteckiger Formen in außermathematischen Sachzusammenhängen erläutern zu können (z. B. Welche Vor- und Nachteile hat ein rechteckiger Tisch gegenüber einem runden?). Es wäre jedoch verkürzt, die Extension eines mathematischen Begriffes, eines Lehrsatzes usw. auf die Verbindungen zu außermathematischen Situationen zu beschränken. Innermathematische Bezüge sind ebenso Teil der Extension eines mathematischen Begriffs. Um ein Beispiel für eine innermathematische Extension des Rechteckbegriffs zu geben: Das Rechteck kann zur Veranschaulichung der Multiplikation positiver rationaler Zahlen dienen (siehe Kommentar zur Aufgabe „Aufgabenreihen“). Ebenso kann die Abgrenzung von allgemeineren oder spezifischeren Vierecken (Stichwort: Haus der Vierecke) als innermathematische Extension verstanden werden.
+
+Ob im Unterricht eher prozeduralem oder konzeptuellem Wissen mehr Raum gegeben, in welchem Verhältnis intensionales und extensionales Begriffsverständnis unterrichtet und welche Bezüge von mathematischen Inhalten (inner- oder außermathematische) stärker betont werden sollen, ist Teil der Reihenplanung und obliegt somit der Entscheidung der Lehrkraft oder der Fachkonferenz. Bis hierhin genügt es jedoch zumindest dieser Differenzierungen gewahr zu werden und beispielsweise eine geplante Unterrichtsreihe dahingehend zu befragen, ob den Schülerinnen und Schülern genügend Gelegenheit gegeben worden ist, um sich zu einem mathematischen Inhalt Wissen der unterschiedlichen Wissensarten anzueignen.
+
+Anhand der Aufgabe „Rechteck“ können viele weitere ähnliche Aufgaben erdacht werden, mit denen auf gleiche Weise das konzeptuelle Wissen über bestimmte Vielecke geprüft wird. Beispielweise können die Eckpunkte von Drachenvierecken, Parallelogrammen oder Trapezen im Koordinatensystem ergänzt werden. Im Folgenden sind zwei solcher Aufgaben zu Dreiecken dargestellt. Sie stammen aus Vera8 im Jahr 2016.
+
+Beispielaufgabe 1
+
+Ergänze einen Punkt C im Koordinatensystem so, dass ein Dreieck ABC mit einem 1 1
+rechten Winkel in Punkt C entsteht. 1
+y
+8
+A 7
+6
+5
+4
+3
+2
+B 1
+- 2 - 1 1 2 3 4 5 6 7 8 9 10 11 12 13 x - 1
+- 2
+Gib die Koordinaten des Punktes C an, den du eingezeichnet hast. 1
+C ( |) 1
+
+Beispielaufgabe 2
+
+Ergänze einen Punkt C im Koordinatensystem so, dass ein rechtwinkliges Dreieck 2
+ABC entsteht. Jetzt soll der rechte Winkel in Punkt B liegen. 2
+y
+8
+A 7
+6
+5
+4
+3
+2
+B 1
+- 2 - 1 1 2 3 4 5 6 7 8 9 10 11 12 13 x - 1
+- 2
+Gib die Koordinaten des Punktes C an, den du eingezeichnet hast. 2
+C ( |) 2
+
+===== regelmaessigevielecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K2, K6, Jahrgang 2011
+
+Didaktische Handreichung: Aufgabe Regelmäßige Vielecke
+[Bild][Bild]
+Leitidee
+ | Raum und Form(L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ |
+[Bild][Bild]
+Leitidee
+ | Raum und Form(L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/ formalen/ technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | II
+ |
+[Bild][Bild]
+Leitidee
+ | Raum und Form(L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | IV
+ |
+Didaktischer Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da verschiedene ebene Figuren hinsichtlich ihrer Symmetrieachsen zu untersuchen sind. Zur Bearbeitung der ersten beiden Teilaufgaben ist es wichtig, sich die Eigenschaften eines gleichseitigen Dreiecks bzw. eines Quadrats zu vergegenwärtigen. Hierauf aufbauend können die Symmetrieachsen (ggf. als gedachte „Faltlinien“) eingezeichnet werden (K4). Für die Bearbeitung der Teilaufgabe 3 ist es zunächst nötig, die im Aufgabentext enthaltene allgemeine Beschreibung regelmäßiger Vielecke inhaltlich zu erfassen (K6). Anschließend ist der Zusammenhang zwischen der Anzahl der Ecken regelmäßiger Figuren und der Anzahl der Spiegelachsen zu erkennen. Dabei kann auf die Ergebnisse der beiden ersten Teilaufgaben zurückgegriffen oder aber eine beispielgebundene Untersuchung am Fünfeck bzw. am Sechseck vorgenommen werden (K2). In jedem Fall ist eine Verallgemeinerung notwendig, da der Fall des 27-Ecks sicherlich nicht konkret untersucht wird.[Bild][Bild]
+Da es sich bei den ersten beiden Teilaufgaben um vertraute Darstellungen handelt und zur Bearbeitung der Aufgaben Grundkenntnisse der Mathematik bzw. Routineverfahren angewendet werden können, gehören beide Teilaufgaben zum Anforderungsbereich I. Bei Teilaufgabe 3 hingegen ist es aufgrund des zu erkennenden allgemeinen Zusammenhangs zwischen der Anzahl der Ecken eines regelmäßigen Vierecks und der Anzahl der Symmetrieachsen naheliegend, diese Teilaufgabe dem Anforderungsbereich III zuzuordnen.
+
+Zu Teilaufgabe 1: Es wird lediglich die vertikal verlaufende Spiegelachse eingezeichnet (K4).[Bild][Bild]
+
+Zu Teilaufgabe 2: Als Spiegelachsen werden nur die Mittelsenkrechten der vier Seiten eingezeichnet. Die Diagonalen des Quadrates werden vernachlässigt (K4).
+
+Zu Teilaufgabe 3: Die Anzahl der Spiegelachsen beim Fünfeck und beim Sechseck werden nicht korrekt notiert und die Regelmäßigkeit wird so nicht erkannt. Die Anzahl der Spiegelachsen bei einem 27-Eck wird dann gar nicht angegeben.
+
+===== schachtelnpacken · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K6, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K1, K2, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Schachteln packen
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 5
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1),
+Probleme mathematisch lösen (K2),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe wird (gedanklich) mit Körpern operiert, weshalb sie der Leitidee Raum und Form (L3) zugeordnet wird. Da es auch um Längen geht, ist zudem die Leitidee L2 (Messen) angesprochen.
+In Teilaufgabe 1 müssen die Schülerinnen und Schüler dem mathematikhaltigen Text Informationen entnehmen und die Aufgabenstellung umsetzen (K6), indem sie die Begrifflichkeit „1 cm länger als die doppelte Kantenlänge“ erfassen und zweimal die entsprechenden Kantenlängen berechnen.
+In Teilaufgabe 2 bearbeiten die Schülerinnen und Schüler nach Erfassung der Informationen des Aufgabentextes (K6) ein Problem, dessen Lösung die Anwendung einer geeigneten Strategie erfordert (K2). So ist zunächst zu ermitteln, dass die Kantenlänge der kleinen Schachtel genau 4-mal vollständig in die Kantenlänge der großen Schachtel passt. Durch gedankliches Operieren mit den Würfeln ist dann zu erkennen, dass 4  4  4  64 kleine Schachteln in die große Schachtel passen.
+Für die Bearbeitung von Teilaufgabe 3 müssen die Schülerinnen und Schüler komplexe Texte sinnentnehmend erfassen (K6), die Plausibilität dreier dargestellter Problemlösungen überprüfen (K2) und die jeweiligen Argumentationen verifizieren bzw. falsifizieren (K1). So müssen sie Friedas Lösungsvorgehen und ihr Ergebnis als richtig (s. Erläuterungen zu Teilaufgabe 2) und Lisas sowie Erikas Überlegungen als fehlerhaft identifizieren (s. u.: Schwierigkeiten und Fehler zu Teilaufgabe 3).
+Teilaufgabe 1 kann dem Anforderungsbereich I zugeordnet werden, da sich die gesuchten Größen direkt berechnen lassen. Demgegenüber sind Teilaufgaben 2 und 3, insbesondere wegen der kognitiven Anforderungen an das Problemlösen und Argumentieren, bereits dem Anforderungsbereich II zuzuweisen.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 1:
+Relevante Informationen zur mathematischen Aussage „1 cm länger als die doppelte Kantenlänge“ werden nicht erfasst bzw. können nicht korrekt angewendet werden. Z. B. werden die Kantenlängen jeweils nur verdoppelt [Fehllösungen: 10 cm, 20 cm] oder die Kantenlänger der mittleren Schachtel wird um 1 cm vergrößert und die der großen Schachtel dann verdoppelt [Fehllösungen: 6 cm, 12 cm], wie die abgebildete Schülerlösung zeigt (K6).
+[Bild: image1.jpeg]
+Zu Teilaufgabe 2:
+1. Antwortalternative (Fehllösung: 4): Es wird vermutlich nur betrachtet, wievielmal die kleine Schachtel in die Seitenlänge der großen Schachtel passt (K2).
+2. Antwortalternative (Fehllösung: 12): Vermutlich wird richtig überlegt, dass die Seitenlänge der kleinen Schachtel viermal in die Seitenlänge der großen Schachtel passt; die Anzahl wird dann aber mit dem Faktor 3 multipliziert, anstatt korrekt mit der Hochzahl 3 potenziert zu werden (K2).
+3. Antwortalternative (Fehllösung: 16): Es wird vermutlich nur betrachtet, wievielmal die kleine Schachtel auf die Fläche der großen Schachtel passt: 4  4 (K2).
+4. Antwortalternative (Fehllösung: 27): Der Sachverhalt wird derart fehlgedeutet, dass bei jedem Übergang zu einem größeren Würfel einer pro Kante dazukommt, so dass insgesamt 33 kleine Würfel in den großen passen (K2).
+Zu Teilaufgabe 3:
+1. Antwortalternative (Fehllösung von Lisa): Lisa bezieht sich in ihren Überlegungen ausschließlich auf das Verdoppeln der Kantenlängen und vernachlässigt hier die jeweils hinzukommenden 1 cm (K1).
+3. Antwortalternative (Fehllösung von Erika): Erika berechnet nur den Quotienten der Volumina der beiden Schachteln und lässt dabei unberücksichtigt, dass es sich um kleine gestapelte Schachteln handelt, welche die Riesenschachtel nicht vollständig ausfüllen können, da 5 kein Teiler von 47 ist (K1).
+Anregungen für den Unterricht
+Soll auf diese Aufgabe aufgrund von Schwierigkeiten bei ihrer Bearbeitung noch einmal im Unterricht eingegangen werden, bietet es sich an, den Sachverhalt von Teilaufgabe 2 mit Würfeln konkret nachbauen zu lassen. Dieser handlungsorientierte Zugang ermöglicht es den Schülerinnen und Schülern, die Anzahl der Würfel zunächst zu errechnen und dann am Objekt zu überprüfen.
+Um Vorstellungen zur Ebenen- und Raumgeometrie sukzessiv aufzubauen und weiter zu entwickeln, eignen sich Aufgaben, welche unterschiedliche Zugänge ermöglichen, also gegebenenfalls handelnd (z. B. durch Auslegen mit Flächen wie Quadraten oder Rechtecken oder durch Stapeln von Würfeln), zeichnerisch, rechnerisch und/oder durch inhaltliche Überlegungen gelöst und begründet werden können. Mögliche Aufgaben hierzu sind die folgenden:
+Löse die folgenden Aufgaben. Begründe dein Ergebnis (z. B. durch eine Zeichnung, eine Rechnung, Erklärungen, ...) und stelle deinen Lösungsweg nachvollziehbar dar.
+Eine Wohnzimmerwand soll neu tapeziert werden; sie ist 7,5 m lang. Eine Tapetenbahn ist 56 cm breit. Ermittle, wie viele Tapetenbahnen für die Wand benötigt werden.
+Ein Kinderzimmer ist 6 m lang und 5 m breit. Es soll renoviert und mit quadratischen Teppichboden-Fliesen ausgelegt werden. Ermittle, wie viele Fliesen dafür benötigt werden, wenn diese eine Seitenlänge von 30 cm haben.
+Ermittle, wie viele Spielwürfel mit der Kantenlänge von 1,2 cm in eine quaderförmige Schachtel mit den Innenmaßen 3,6 cm x 5 cm x 5 cm passen.
+Zur Förderung von „dynamischen“ Vorstellungen hinsichtlich des Aspektes „Auswirkungen von Größenänderungen in der Ebene und im Raum“ können Aufgaben folgender Art sowie entsprechende Umkehraufgaben hilfreich sein:
+Löse die folgenden Aufgaben. Begründe dein Ergebnis (z. B. durch eine Zeichnung, eine Rechnung, Erklärungen, ...) und stelle deinen Lösungsweg nachvollziehbar dar.
+Wie verändert sich der Flächeninhalt eines Quadrates (Rechtecks), wenn seine Seitenlänge(n) verdoppelt (verdreifacht/ vervierfacht/ halbiert) werden?
+Wie verändert sich der Flächeninhalt eines Rechtecks, wenn nur die Länge einer Seite verdoppelt (verdreifacht/ vervierfacht/ halbiert) wird?
+Wie verändert sich das Volumen eines Würfels, wenn seine Kantenlänge verdoppelt (verdreifacht/ vervierfacht/ halbiert) werden?
+Wie verändert sich das Volumen eines Quaders, wenn nur eine (oder zwei) Kantenlänge(n) verdoppelt (verdreifacht/ vervierfacht/ halbiert) wird (werden)?
+...
+
+===== schneekristalle · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Schneekristalle
+Merkmale der Aufgabe
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1B
+ | Aufgabenbezogener Kommentar
+In dieser Aufgabe untersuchen die Schülerinnen und Schüler die Symmetrie eines geometrischen Objekts, weshalb diese Aufgabe in die Leitidee Raum und Form (L3) eingeordnet wird.
+Durch Einzeichnen geeigneter Hilfslinien oder durch eine mentale Vorstellung (K2) kann die Anzahl der Symmetrieachsen ermittelt werden (K4), die dieser Schneekristall aufweist.
+Da es um bekannte Begriffe bei einer überschaubaren Figur geht, gehört diese Aufgabe zum Anforderungsbereich I.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+1. Antwortalternative: Vermutlich werden nur die großen Zacken des Schneekristalls beachtet (K4).
+2. Antwortalternative: Es werden wohl nur die horizontale und die vertikale Symmetrieachse „gesehen“ (K4).
+4. Antwortalternative: Die Lage der Symmetrieachsen wird wohl richtig erkannt. Vermutlich werden die Symmetrieachsen jedoch nur bis zum Mittelpunkt des Schneekristalls gedacht und daher ihre Anzahl fälschlich verdoppelt (K2 oder K4).
+Anregungen für den Unterricht
+Um die (äußere) Form des Schneekristalls und dessen Symmetrieeigenschaften besser untersuchen zu können, kann der Umriss des Kristalls zunächst auf durchscheinendes Papier übertragen werden. Schneidet man diese Figur dann aus – es genügt, die Figur nur grob auszuschneiden – und faltet sie geeignet, lässt sich experimentell zunächst die Lage einer Symmetrie- bzw. Spiegelachse bestimmen. Die Richtigkeit des Ergebnisses lässt sich gut überprüfen, indem man das einmal gefaltete Objekt gegen ein Fenster hält.
+Faltet man das Papier wieder auf, kann man den gegebenen Schneekristall nun genauer analysieren – die Art und Anzahl seiner Zacken wie auch sein aufgezeichnetes inneres Muster –, um dann gedanklich oder durch weiteres Falten zu ermitteln, wie viele Symmetrieachsen der Schneekristall insgesamt hat. Dieses Vorgehen macht unmittelbar einsichtig, dass eine Symmetrieachse durch die „ganze Figur“ geht und nicht etwa nur bis zu deren Mittelpunkt reicht. Gleichzeitig wird anschaulich deutlich, dass alle Symmetrieachsen durch den Mittelpunkt des Schneekristalls gehen müssen.
+In einer Erweiterung dieser Aufgabe kann man die Anzahl der Zacken schrittweise um eins erhöhen bzw. vermindern und prüfen, wie sich dies auf die zugehörige Anzahl der Symmetrieachsen auswirkt.
+Auch andere ansprechende Objekte aus der Umwelt bieten sich an, um Symmetrieachsen (auch handelnd) zu ermitteln. Hierzu gehören z. B. Flaggen, Verkehrsschilder, aber ebenso „nicht-mathematische Objekte“ wie Blüten oder Gesichter.
+Schließlich kann man als Erweiterung dieser Aufgabe Umkehraufgaben stellen. Dazu kann man die Anzahl der Symmetrieachsen vorgeben und geometrische Figuren bzw. Vielecke zeichnen oder skizzieren lassen, die diese Anzahl an Symmetrieachsen aufweisen.
+
+===== seitenflaechen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, Jahrgang 2013; Teilaufgabe 3: AFB I, Kompetenzstufe 3, K2, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Körper mit Seitenflächen
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da es um geometrische Körper und ihre Oberflächen geht.
+Teilaufgabe 1 erfordert es von den Schülerinnen und Schülern, die Anzahl an Teilflächen, aus denen sich ein Quader zusammensetzt, zu bestimmen bzw. aus dem Gedächtnis abzurufen (K5).
+Bei Teilaufgabe 2 ist es hingegen erforderlich, ausgehend von der Anzahl an Teilflächen einen möglichen Körper zu benennen oder diesen zu skizzieren. Dieses Problem kann mittels rückwärts gerichteten Arbeitens oder durch Überprüfung der Oberfläche bekannter Körper auf deren Zusammensetzung gelöst werden (K2).
+Zur Bearbeitung der Teilaufgabe 3 ist zunächst die Festlegung „Die Oberfläche soll aus genau vier Teilflächen bestehen“ inhaltlich zu erfassen (K6). Anschließend kann durch systematisches Probieren bzw. Variieren der Form der Seitenflächen die richtige Form für diese ermittelt werden (K2).
+Aufgrund der Arbeit mit bekannten mathematischen Objekten gehört Teilaufgaben 1 dem Anforderungsbereich I an. Den Teilaufgaben 2 und 3 ist aufgrund der Bearbeitung eines Routineproblems derselbe Anforderungsbereich zuzuordnen.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+
+Zu Teilaufgabe 1:
+Die Grundfläche (Standfläche) bzw. die nicht sichtbaren Seitenflächen werden beim Zählen vernachlässigt (Fehllösung z. B.: 5).
+Zu Teilaufgabe 2:
+Die Beschreibung des angegebenen Körpers ist unvollständig (Fehllösung z. B.: Pyramide) (Defizit bzgl. K5).
+Es wird nur der Name eines Alltagsgegenstandes angegeben (Fehllösung z. B.: Kirchendach) (Defizit bzgl. K5).
+Zu Teilaufgabe 3:
+2. Antwortalternative (Fehllösung: rechteckig) und 3. Antwortalternative (Fehllösung: quadratisch): Die Information viereckig wird mit der Anzahl an Ecken/ Kanten einer Teilfläche gleichgesetzt.
+Anregungen für den Unterricht
+Treten bei der Bearbeitung dieser Aufgabe Schwierigkeiten auf, bietet es sich an, die Eigenschaften der verschiedenen Polyeder zu erarbeiten bzw. zu wiederholen. Dies kann leicht anhand von Alltagsgegenständen (z. B. Verpackungen) geschehen. Werden zu jedem mathematischen Körper verschiedene Beispiele zur Verfügung gestellt, können diese von den Schülerinnen und Schülern in gewissen Gruppen sortiert werden, wodurch sie sich deren Eigenschaften bewusst machen. Anschließend können sich die Schülerinnen und Schüler genauer mit einem der Körper auseinandersetzen und z. B. einen Steckbrief mit den wichtigsten Eigenschaften erstellen. Dabei bietet es sich an, die einzelnen Körper entlang ihrer Kanten so „aufzuschneiden“, dass ihr Netz erkennbar ist und demzufolge die Zusammensetzung der Oberfläche aus Teilflächen veranschaulicht werden kann. Werden die Ergebnisse in Form von Lernplakaten zusammengestellt, können diese gegenseitig präsentiert werden.
+Zur Bearbeitung der Teilaufgaben 2 und 3 können den Schülerinnen und Schülern außerdem verschiedene Materialien zur Verfügung gestellt werden, mit deren Hilfe sie die verschiedenen Körper versuchen können nachzubauen. Dabei können sie selbstständig entdecken, welche Körper sich nicht errichten lassen, welche Seitenflächen nicht genutzt werden können bzw. Entdeckungen hinsichtlich der Anzahl der benötigten Seiteflächen, Kanten oder Ecken machen. Als Materialien eignet sich Pappe, Knete und Zahnstocher oder Klickies.
+Weiterführend bietet es sich an die der Anzahl der zur Verfügung stehenden Teilflächen vorzugeben und nach der Existenz eines entsprechenden Körpers zu fragen. Dies ermöglicht es, die Schülerinnen und Schüler zum Lösen mathematischer Probleme durch rückwärtsgerichtete Überlegungen oder das Anfertigen von Skizzen anzuregen und zum Argumentieren aufzufordern.
+
+Eine mögliche Aufgabe ist die folgende:
+
+Es soll ein Körper konstruiert werden, dessen Oberfläche aus genau drei Flächen besteht.
+Die Flächen dürfen nicht gebogen oder gewölbt sein.
+Gibt es einen solchen Körper?
+Kreuze an.
+Ja Nein
+Begründe deine Antwort.
+
+Zur Lösung der Aufgabe können die Schülerinnen und Schüler beispielweise folgendermaßen argumentieren: Die Grundfläche des Körpers muss ein Dreieck sein, denn es gibt keine Fläche, die weniger als drei Seiten hat. (Die Anzahl der Kanten an der Grundfläche kann nur reduziert werden, wenn die Grundfläche rund ist. Damit muss mindestens eine angrenzende Fläche gebogen sein, was ausgeschlossen wurde.) An die drei Seiten der Grundfläche grenzen genau drei Seitenflächen. Damit besteht die Oberfläche des Körpers aus vier Flächen.
+Insbesondere für leistungsstärkere Schülerinnen und Schüler bietet es sich im Anschluss an, die Platonischen Körper hinsichtlich ihrer besonderen Eigenschaften genauer zu betrachten und die Frage zu untersuchen, warum es keine weiteren als die fünf bekannten Platonischen Körper geben kann.
+
+===== streckeimkoordinatenkreuz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2014
+
+Didaktische Handreichung: Strecke im Koordinatenkreuz
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da mit geometrischen Figuren im Koordinatensystem gearbeitet wird.
+Zur Lösung von Teilaufgabe 19.1 wird die Strecke AD unter Berücksichtigung der Eigenschaften eines Quadrats zu einem solchen ergänzt (K2), wobei nur die Koordinaten der Eckpunkte anzugeben sind (K4). Teilaufgabe 19.2 erfordert die Anwendung derselben Kompetenzen (K2, K4), wobei eine Methode zur Achsenspiegelung von Punkten im Koordinatensystem erforderlich und gedanklich durchzuführen ist.
+Aufgrund der weitgehend reproduktiven Anforderungen sowie der vertrauten Darstellung gehören beide Teilaufgaben noch dem Anforderungsbereich I an.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 19.1
+Die Strecke AD wird zu einem Rechteck ergänzt. Dies kann darauf hin deuten, dass Rechteck und Quadrat im Unterricht nicht genügend voneinander abgegrenzt worden sind.
+Die x- und y-Koordinaten werden vertauscht. Dieser Fehler deutet auf zu wenig Vertrautheit in der Arbeit mit dem Koordinatensystem hin.
+
+Zu Teilaufgabe 19.2
+Die Strecke AD wird nicht an der y-Achse, sondern an der x-Achse gespiegelt.
+Die x- und y-Koordinaten werden vertauscht.
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Teilaufgabe 19.1 Schwierigkeiten auf, können zunächst die Eigenschaften der verschiedenen Vierecke wiederholt werden. Dies kann z.¾B. in Kleingruppen erfolgen. Jede Kleingruppe kann aufgefordert werden, zu einem Typ von Viereck einen „Steckbrief“ mit charakteristischen Eigenschaften zu erstellen. Um die Arbeitsergebnisse allen Schülerinnen und Schülern zugänglich zu machen, können diese mittels Plakaten festgehalten und anschließend präsentiert werden. In diesem Zusammenhang kann auch das Haus der Vierecke als gängiges Ordnungssystem thematisiert und dargestellt werden.
+Beim Vertauschen der y- und x-Koordinate bietet es sich an, dies mittels Übungen zum Ablesen und Eintragen von Punkten in ein Koordinatensystem zu wiederholen. Dies kann leicht spielerisch mit einer abgewandelten Form des Spiels „Schiffe versenken“ oder einer Art „Schatzsuche“ geübt werden (siehe dazu: Lergenmüller A./ Schmidt G. (Hrsg.): Mathematik Neue Wege 5. Schroedel, Hannover, 2000).
+Sind anhand der Schülerlösungen zur Teilaufgabe 19.2 Schwierigkeiten beim Spiegeln einer Figur zu erkennen, können das Vorgehen zum Spiegeln sowie die Eigenschaften einer Spiegelung wiederholend behandelt werden, auch mithilfe von Geodreiecken. Die Eigenschaften einer Spiegelung lassen sich mittels eines dynamischen Geometrieprogramms gut veranschaulichen bzw. von den Schülerinnen und Schülern selbstständig (wieder) entdecken.
+Alternativ könnte die Aufgabe so abgewandelt werden, dass das Koordinatensystem den maßgeblichen Bereich im II. Quadranten beinhaltet, so dass die Spiegelung konkret durchgeführt werden kann. Hierauf aufbauend kann der Zusammenhang zwischen den Koordinaten von Original- und Bildpunkt herausgearbeitet werden.
+
+===== trapezohnesymmetrie · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K1, K4, K6, Jahrgang 2016
+
+Didaktische Handreichung: Trapez ohne Symmetrie
+
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Mathematisch argumentieren (K1)
+Mathematische Darstellungen verwenden (K4)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Raum und Form (L3) zuzuordnen, da Schülerinnen und Schüler Eigenschaften des abgebildeten geometrischen Objekts Trapez zueinander in Beziehung setzen, wenn sie die Aufgabe lösen.
+Dazu wird verlangt, gegebene Argumentationen bzw. Begründungen zu verstehen und als wahr oder falsch zu bewerten. Daher sind zum Lösen der Aufgabe Kompetenzen im Bereich Mathematisch argumentieren (K1) erforderlich. Gleichzeitig müssen Schülerinnen und Schüler mathematische Darstellungen verwenden (K4), da sie das gegebene geometrische Objekt verstehen und dessen Eigenschaften zur Auswahl der richtigen Begründung verwenden müssen. Da die Aufgabe es zudem erfordert, aus dem Text sowie den Antwortmöglichkeiten mathematische Informationen zu entnehmen, erfordert die Aufgabe auch Kompetenzen im Bereich Mathematisch kommunizieren (K6).
+Da verschiedene Argumente nach Schlüssigkeit zu bewertet sind und mit einem meist unvertrauten Objekt, nämlich dem Trapez ohne Symmetrieachse, gearbeitet werden muss, ist die Aufgabe dem Anforderungsbereich II zuzuordnen.
+Anregungen für den Unterricht
+Die Aufgabe „Trapez ohne Symmetrie“ zeigt, wie mit einfachen Mitteln eine Aufgabe mit Argumentationsanteil geschaffen werden kann. Indem ein Trapez verwendet wird, dessen Winkel in den Punkten A und B nahezu gleich sind, kann man sich nicht mehr auf augenscheinliche Eigenschaften der Konstruktion verlassen. Vielmehr muss zur Argumentation die mathematische Darstellung gedanklich verändert (z. B. gedankliches Verändern von Winkelgrößen) (K4) und aufgrund dieser Vorstellung argumentiert werden (K1).
+Die Aufgabe ließe sich erweitern, indem Schülerinnen und Schüler ähnliche Aussagen wie in der Auswahltabelle selbst formulieren.
+Der mathematische Inhalt der Aufgabe (Symmetrieeigenschaften) kann auch dazu verwendet werden, alternative Definitionen zu speziellen Vierecken von Schülerinnen und Schülern formulieren zu lassen. Werden Rechtecke bzw. Quadrate meist über den rechten Winkel bzw. zusätzlich über die gleichlangen Seiten definiert, so bietet es sich hier an, eine Definition über die Anzahl der Symmetrieachsen zu finden.
+Ein Rechteck ist dann ein Trapez mit zwei Symmetrieachsen und ein Quadrat ein Trapez mit vier Symmetrieachsen. Diese Definition bietet die Möglichkeit, dass die Definition mit einer konkreten Handlung verbunden wird.
+
+===== unfertigerwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2013
+
+Didaktische Handreichung: Aufgabe Unfertiger Würfel
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Probleme mathematisch lösen (K2),
+Mathematische Darstellungen verwenden (K4),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Da gedanklich mit Flächen und Körpern operiert wird, um geometrische Objekte des Raumes zu analysieren, ist diese Aufgabe der Leitidee Raum und Form (L3) zuzuweisen.
+Teilaufgabe 1 zeigt einen aus Würfeln zusammengesetzten Körper, der zu erfassen ist (K4), um das dargestellte Problem zu lösen. Dazu sind dem Aufgabentext die relevanten Informationen zu entnehmen (K6). Zur Lösung der Aufgabe bedarf es neben räumlichen Vorstellungsvermögens auch der Entwicklung einer Zählstrategie, um die Anzahl der fehlenden Würfel zu bestimmen (K2). So kann diese Anzahl z. B. ermittelt werden, indem man zunächst die unterste Schicht gedanklich mit 3 Würfeln und schließlich die folgende Schicht mit 9 Würfeln komplettiert. Eine alternative Strategie dazu ist die Bildung der Differenz aus der Zahl der Würfel der beiden unteren kompletten Schichten (32) und der Zahl der abgebildeten Würfel (20).
+Ebenso ist in Teilaufgabe 2 in Auseinandersetzung mit der Aufgabenstellung (K6) und dem dargestellten geometrischen Objekt (K4) eine Zählstrategie zu entwickeln, um die Anzahl der nach rechts, hinten, links und vorne zeigenden Seitenflächen der kleinen Würfel zu bestimmen (K2). Zur Lösung ist ein systematisches Vorgehen und evtl. der Einsatz von heuristischen Hilfsmitteln (wie z. B. das Wegstreichen bzw. Markieren gezählter Flächen in der Abbildung) sinnvoll, um nicht den Überblick zu verlieren. Wenn man erkennt, dass nach vorne und hinten sowie nach rechts und links jeweils gleich viele Würfelflächen zeigen, ist die gesuchte Anzahl – ohne Vorstellung der hinteren und linken Seite des Gebildes – durch direktes Abzählen zu bestimmen. Eine andere Lösungsmöglichkeit besteht darin, zunächst die nach vorne und rechts direkt zu sehenden Würfelflächen zu zählen. Durch Vorstellen der beiden nicht zu sehenden Seiten des Gebildes können die Würfelflächen dann gedanklich gezählt werden.
+Beide Teilaufgaben sind, insbesondere wegen der Anforderung an das Problemlösen, dem Anforderungsbereich II zuzuweisen.
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Zu Teilaufgabe 1:
+Aufgabenrelevante Informationen werden nicht erfasst, so dass z. B. nur die unterste Schicht des Würfels oder der ganze Würfel vervollständigt werden [Fehllösungen: 3 bzw. 42] (K6).
+Insbesondere die zweite Schicht des Würfels kann aufgrund einer inadäquaten Zählstrategie oder aufgrund räumlicher Vorstellungsschwierigkeiten nicht korrekt komplettiert werden, wie die folgende Schülerlösung vermuten lässt (K2 oder K4).
+[Bild: image1.jpeg]
+Zu Teilaufgabe 2:
+1. Antwortalternative (Fehllösung: 19): Es werden nur die abgebildeten Würfelflächen, die nach vorne und rechts zeigen, gezählt (K2 oder K6).
+2. Antwortalternative (Fehllösung: 32): Es werden fälschlicherweise alle abgebildeten Würfelflächen – nach vorne, rechts und oben zeigend – gezählt. (K2 oder K6).
+4. Antwortalternative (Fehllösung: 51): Es werden alle Würfelflächen, die nach rechts, links, vorne, hinten und zusätzlich nach oben zeigen, gezählt (K2 oder K6).
+Anregungen für den Unterricht
+Bereitet der Umgang mit der Darstellung Schwierigkeiten, können dieses Objekt und ähnliche Objekte von den Schülerinnen und Schülern mit Würfeln konkret nachgebaut werden. Ein solch handelnder Zugang kann anfänglich nötig sein, um das Wissen und das räumliche Vorstellungsvermögen wieder zu aktivieren sowie die Fähigkeit des gedanklichen Operierens mit Strecken, Flächen und Körpern zu fördern. Im weiteren Verlauf kann schrittweise eine Ablösung vom konkreten Material unterstützt werden, indem beispielsweise das Material lediglich betrachtet, nicht aber bewegt werden darf.
+Eine im Unterricht angestoßene reflektierte Auseinandersetzung mit benutzten und nahe liegenden Zählstrategien sowie heuristischen Hilfsmitteln kann die Schülerinnen und Schüler in ihren Verstehens- und Lernprozessen unterstützen. Dabei kann auf folgende Strategien eingegangen werden:
+Zu Teilaufgabe 1:
+Die zu zählenden Würfel können systematisch Schritt für Schritt abgezählt und die Anzahlen als Zwischenergebnis notiert werden.
+Die gezählten Würfel können markiert werden, um sie nicht noch einmal zu zählen. Die Würfel, die einen anderen Würfel überdecken, könnten z. B. zweimal markiert werden.
+Die nicht zu sehenden Seiten des Gebildes können skizziert werden. Mit den skizzierten Seitenansichten kann konkret gearbeitet und ein gedankliches Operieren unterstützt werden.
+
+A =?
+Viele dieser Strategien können Schülerinnen und Schüler bereits durch einfache Problemaufgaben aus der ebenen Geometrie selber erarbeiten und entdecken. Ein Beispiel ist die Flächeninhaltsbestimmung der abgebildeten, grau markierten Fläche (zusammengesetzt aus Quadraten mit der Seitenlänge 1 m). Dies kann anschließend auf komplexere Figuren oder auf räumliche Objekte übertragen werden.
+So lässt sich der Flächeninhalt dieser Figur z. B. durch folgende Strategien ermitteln:
+A = 21 1 m2 (direktes Abzählen der Einheitsflächen)
+A = (4 m  2 m) + (5 m  2 m) + (3 m  1 m) (Zerlegung in drei Rechtecke als Teilflächen)
+A = (5 m  5 m) – (2 m  1 m) – (2 m  1 m) (Bildung der Differenz aus einem umschriebenen Quadrat und den fehlenden Teilflächen)
+A = (5 m  4 m) + 1 m2 (geschicktes zerlegen und neu zusammensetzen: Das Rechteck links oben wird in die gleich große „Lücke“ rechts unten eingefügt.)
+Zu Teilaufgabe 2:
+Die zu zählenden Würfelflächen können systematisch abgezählt und die Anzahlen als Zwischenergebnisse notiert werden (z. B. zunächst die nach vorne zeigenden Würfelflächen, dann die nach rechts zeigenden Würfelflächen, ...).
+Die gezählten Würfelflächen können – wenn möglich – markiert werden, um sie nicht nochmal zu zählen.
+
+Wie sieht das Gebilde von
+links aus? Stelle dir vor, du
+stehst frontal davor.
+Welche kleinen Würfel des
+unfertigen großen Würfels
+siehst du dann? Färbe sie.
+Die abgebildeten, relevanten Würfelflächen können systematisch farblich markiert werden (z. B. die nach vorne zeigenden Würfelflächen gelb, die nach rechts zeigenden rot, ...).
+Die nicht abgebildeten/nicht zu sehenden Seiten des Gebildes können skizziert werden (was auch durch eine unterstützende Strukturierung – siehe Abbildung – angestoßen werden kann). Mit den skizzierten Seitenansichten kann konkret gearbeitet und ein gedankliches Operieren unterstützt werden.
+
+Zur Weiterarbeit mit dieser Abbildung können z. B. folgende Aufgaben anregen:
+
+a) Gib an, wie viele Würfel bisher verbaut wurden.
+b) Gib an, wie viele Würfel Peter für die dritte Schicht benötigt.
+c) Gib an, wie viele Würfel Peter insgesamt für die Fertigstellung des
+Würfels benötigt.
+d) Gib an, wie viele Würfel Peter für die beiden unteren Schichten
+benötigt, wenn der große Würfel eine Kantenlänge von 6 m haben soll.
+e) Gib an, aus wie vielen kleinen Würfeln ein vollständig großer Würfel
+mit der Kantenlänge von 9 m besteht.
+f) kann man mit genau 100 kleinen Würfeln einen vollständigen großen
+Würfel bauen?
+Begründe deine Antwort.
+g)...
+
+===== ungewoehnlicherspielwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2017
+
+Didaktische Handreichung: Ungewöhnlicher Spielwürfel
+Merkmale der Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 4
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+In der Aufgabe „Ungewöhnlicher Spielwürfel“ wird in beiden Teilaufgaben gedanklich mit einem Körper und einem zugehörigen Netz gearbeitet. Somit gehört die Aufgabe zur Leitidee Raum und Form (L3).
+
+Das Netz eines Körpers ist eine mathematische Darstellung. Somit wird hier die Kompetenz Mathematische Darstellungen verwenden (K4) gefordert. Die gedanklichen Operationen, die von Schülerinnen und Schülern vorgenommen werden müssen, gehören aller Voraussicht nach nicht zu den im Unterricht erlernten Verfahren zur Lösung mathematischer Aufgaben. Daher erfordert die Aufgabe „Ungewöhnliche Spielwürfel“ die Kompetenz Probleme mathematisch lösen (K2).
+
+Schülerinnen und Schüler müssen zwischen der Darstellung der ungewöhnlichen Spielwürfel mithilfe eines Fotos und den möglichen Netzen der Würfel wechseln. Somit erfordert diese Aufgabe Kompetenzen aus dem Anforderungsbereich II.
+Anregungen für den Unterricht
+Diese Aufgabe im Speziellen und die Leitidee Raum und Form (L3) im Allgemeinen setzen bei Schülerinnen und Schülern ein räumliches Vorstellungsvermögen voraus. Das räumliche Vorstellungsvermögen wird in der Regel über mehrere Teilkompetenzen beschrieben. So z. B. durch die Teilkompetenzen des räumlichen Orientierens, des räumlichen Vorstellens und des räumlichen Denkens. Mit der räumlichen Orientierung ist die Fähigkeit gemeint, sich im Raum in Wirklichkeit oder in Gedanken gezielt bewegen zu können. Das räumliche Vorstellen beschreibt die Fähigkeit ein Objekt oder Beziehungen zwischen Objekten gedanklich reproduzieren zu können. Unter dem räumlichen Denken versteht man die Fähigkeit mit Objekten in Gedanken zu operieren. Bezogen auf die Aufgabe „Ungewöhnliche Spielwürfel“ bedeutet dies, dass weniger die Fähigkeit der räumlichen Orientierung verlangt wird. Vielmehr wird die räumliche Vorstellung vorausgesetzt, wenn beispielsweise über die Beziehung von Seitenflächen und Augenzahlen zueinander nachgedacht werden muss. Des Weiteren verlangt die Aufgabe Fähigkeiten im Bereich des räumlichen Denkens, da mit dem Objekt „Spielwürfel“ gedanklich so operiert werden muss, dass daraus ein Netz wird.
+
+Das räumliche Vorstellungsvermögen wird in mehreren Modellen zur Beschreibung menschlicher Intelligenz als einer unter mehreren entscheidenden Faktoren genannt. Wenn Intelligenz ein überzeitliches Konzept darstellt, stellt sich die Frage, wie stark durch unterrichtliche Interventionen auf die Entwicklung des räumlichen Vorstellungsvermögens Einfluss genommen werden kann. Tatsächlich deuten Studien darauf hin, dass das räumliche Vorstellungsvermögen in verschiedenen Altersstufen trainiert werden kann (vgl. Maier (1999): Räumliches Vorstellungsvermögen, Donauwörth: Auer-Verlag, S.81). Hierfür eignet sich die sogenannte Kopfgeometrie. Der Begriff ist angelehnt an das bekannte Kopfrechnen. Gemeint sind Aufgaben, bei denen Schülerinnen und Schüler geometrische Probleme lediglich im Kopf lösen. Grundsätzlich werden dabei drei Phasen unterschieden (vgl. Senftleben (1996): Erkundungen zur Kopfgeometrie, in: JMD 17, H. 1, S. 49 – 72): (1) Die Phase der Aufgabenstellung, in der das Problem nicht bloß mündlich sondern ebenso als geschriebener Text und auch unterstützt durch Gestik, eine Bild oder eine geometrisches Modell geschildert werden kann; (2) die Phase des Arbeiten im Kopf, d. h. zur Lösung werden tatsächlich keine Hilfsmittel verwendet und (3) die Phase der Ergebnispräsentation, in der wieder Hilfsmittel erlaubt sind. Es zeigt sich also, dass Kopfgeometrie nicht gänzlich im Kopf erfolgen muss, lediglich der Lösungsweg wird ohne Hilfsmittel beschritten.
+
+Aufgaben zur Kopfgeometrie finden sich bei verschiedenen Schulbuchverlagen vor allem für Grundschulen. Doch auch in der Sekundarstufe kann das Vorstellungsvermögen zu ebenen und räumlichen Objekten durch Kopfgeometrie gefördert werden. Die folgenden Aufgaben sollen hierzu als Beispiel dienen. Sie zielen speziell auf die räumliche Vorstellung, d. h. die Fähigkeit, ein Objekt oder Beziehungen zwischen Objekten gedanklich reproduzieren zu können.
+
+Beispielaufgabe „Zerrissenes Blatt“
+Von einem weißen Blatt wurden zwei Stücke so abgerissen, dass man nicht mehr genau erkennen kann, welche Figur sich auf dem Blatt befand. Nur noch ein Teil der Figur ist auf dem Blatt zu sehen (siehe Abbildung 1).
+
+[Bild: image1.png]
+Abbildung 1: Zerrissenes Blatt
+
+Kreuze jeweils an, ob sich die genannte Figur auf dem Blatt befunden haben kann.
+
+ | Ja
+ | Nein
+ | Rechtwinkliges Dreieck
+ |
+ |
+ | Gleichseitiges Dreieck
+ |
+ |
+ | Parallelogramm
+ |
+ |
+ | Fünfeck
+ |
+ |
+ |
+Kann sich auf dem Blatt auch ein Trapez befunden haben? Kreuze an.
+
+ ja	 nein
+
+Begründe deine Entscheidung.
+
+Herr Meier will sich an dem Geschenk zum Jubiläum beteiligen. Er schlägt vor, einen
+Strauß mit der doppelten Anzahl an Rosen und dazu eine gemeinsame
+Glückwunschkarte zu kaufen.
+Verdoppelt sich dann der Gesamtpreis?
+Kreuze an.
+Nein Ja
+Begründe deine Entscheidung.
+
+===== verkehrszeichen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2012; Teilaufgabe 3: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012; Teilaufgabe 4: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+
+Didaktische Handreichung: Aufgabe Verkehrszeichen
+Merkmale Teilaufgabe 1
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 4
+ | Merkmale Teilaufgabe 2
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+Mit symbolischen/formalen/technischen Elementen umgehen (K5)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1A
+ | Merkmale Teilaufgabe 3
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale Teilaufgabe 4
+Leitidee
+ | Raum und Form (L3)
+ | Allgemeine Kompetenz
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Hinweise zur Bearbeitung
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da mit ebenen Symmetrien und Abbildungen verständnisorientiert umgegangen werden muss.
+Unter Rückgriff auf Vorstellungen von Achsenspiegelungen und Achsensymmetrien ist in Teilaufgabe 1 zu prüfen, ob die abgebildeten Verkehrszeichen achsensymmetrisch sind (K4), ist in Teilaufgabe 2 eine Figur zu spiegeln (K4, K5), sind in Teilaufgabe 3 die Spiegelachsen einer Figur einzuzeichnen (K4) und ist in Teilaufgabe 4 ein Fehler beim Spiegeln zu finden (K4).
+Da zur Bearbeitung aller Teilaufgaben nur einfache Kenntnisse und Fertigkeiten zu Achsenspiegelungen und Achsensymmetrien zu reproduzieren sind, gehören diese Teilaufgaben zum Anforderungsbereich I.
+Mögliche Schwierigkeiten
+Zu Teilaufgabe 1:
+Wird die zweite Antwortalternative als richtig bewertet, liegt vermutlich eine Verwechslung von Achsen- und Punktsymmetrie vor. Außerdem wurden die Graustufen nicht berücksichtigt (K4).
+Weiterarbeit und Förderung
+Sollten bei der Bearbeitung dieser Teilaufgaben Schwierigkeiten auftreten, bietet es sich an, die Schülerinnen und Schüler diese im Unterricht mittels eines realen Spiegels bearbeiten zu lassen. Dies hilft ihnen, adäquate Vorstellungen von den Eigenschaften einer Achsenspiegelung zu entwickeln. Mit Blick auf die zweite Teilaufgabe kann dies auch mit Hilfe eines dynamischen Geometrieprogramms vertieft werden. Dabei ermöglicht es der Zugmodus des Programms, die Ausgangsfigur zu variieren und die Auswirkungen auf die Bildfigur sowie die Lage zur Spiegelachse zu analysieren. Anschließend können die Eigenschaften einer Achsenspiegelung gesammelt und mit denen anderer Abbildungen verglichen werden, wie dies auch in der folgenden ergänzenden Aufgabe eingefordert wird:
+
+Peter behauptet: „Eine Achsenspiegelung ist immer dasselbe wie eine Drehung um 180 °. “
+Nimm zu Peters Aussage Stellung.
+
+Diese Aufgabe erfordert es zu überprüfen, inwiefern sich die Eigenschaften einer Achsenspiegelung mit denen einer Drehung um 180° decken bzw. ob beide Abbildungen immer zum selben Ergebnis führen. Hierzu ist es zunächst erforderlich, die formulierte „All-Aussage“ als solche zu identifizieren, wozu das Wort „immer“ in seiner mathematischen Bedeutung richtig erfasst werden muss. Sodann kann es hilfreich sein, einzelne Beispiele zu betrachten, anhand derer der Umlaufsinn als ausschlaggebendes Kriterium herausgearbeitet werden kann. In der anschließenden Argumentation muss nun die „All-Aussage“ als falsch ausgewiesen werden. Hierzu kann auf allgemeiner Ebene argumentiert oder ein Gegenbeispiel angegeben werden. Wird hierbei ein dynamisches Geometrieprogramm genutzt, kann man anhand verschiedener Beispiele leicht erkennen, dass die beiden Abbildungen nur in Spezialfällen zum selben Ergebnis führen. Hieraus können die Schülerinnen und Schüler auch folgern, dass sie eine Fallunterscheidung durchführen müssen.
+Weiterführend können im Unterricht auch Verkettungen von Abbildungen untersucht werden. Diesbezüglich bieten sich beispielsweise die Verkettung zweier Spiegelungen an zueinander parallelen Geraden an, welche durch eine Verschiebung ersetzt werden kann. Die folgende Aufgabenstellung könnte hierzu genutzt werden:
+
+Übertrage den Pfeil in dein Heft. Spiegele ihn an der Achse g. Spiegele das Spiegelbild des
+Pfeils anschließend an der Achse h.
+g h
+a) Vergleiche die einzelnen Figuren. Beschreibe, was dir auffällt.
+b) Überlege, welche Abbildung zu demselben Ergebnis führt wie die Spiegelung an zwei
+zueinander parallelen Geraden. Beschreibe die Abbildung möglichst genau.
+
+===== winkelgamma · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K4, K5, K6, Jahrgang 2014
+
+Didaktische Handreichung: Winkel Gamma
+Merkmale
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenz
+ | Mathematisch argumentieren (K1),
+Mathematische Darstellungen verwenden (K4),
+Mit Mathematik symbolisch/ formal/ technisch umgehen (K5),
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da es um Lagebeziehungen und Größen geometrischer Objekte geht.
+Zur Bearbeitung der Aufgabe wird zunächst die Abbildung analysiert und Nikis Behauptung in Beziehung zu dieser gesetzt (K4). Anschließend werden die Karten zu den einzelnen Schritten des Beweises gelesen (K6) und in die logisch richtige Reihenfolge gebracht (K1). Hierzu werden vorhandene Kenntnisse zu den besonderen Dreieckstypen und der Innenwinkelsumme eines Dreiecks sowie deren formale Notation genutzt (K5).
+Aufgrund der Argumentation auf allgemeiner Ebene gehört diese Aufgabe dem Anforderungsbereich III an.
+
+Folgende Schwierigkeiten und Fehler sind zu erwarten:
+Das für den Beweis nötige Fachwissen zur Innenwinkelsumme eines Dreiecks oder zu den Eigenschaften gleichschenkliger Dreiecke fehlt, so dass einige Beweiskärtchen inhaltlich nicht richtig erfasst werden können.
+Einzelne Beweisschritte werden vertauscht. Dies bezieht sich insbesondere auf die Voraussetzung und die Folgerung und wird durch die folgende Schülerlösung veranschaulicht:
+[Bild: image1.png]
+Die formale Schreibweise einzelner Kärtchen bereitet Schwierigkeiten, weshalb deren Inhalte und Beweisschritte inhaltlich nicht richtig erfasst werden können.
+Anregungen für den Unterricht
+Treten bei der Bearbeitung der Aufgabe Schwierigkeiten auf, kann eine vorbereitende Teilaufgabe behandelt werden. Hierzu bietet sich beispielsweise die folgende Aufgabe an:
+[Bild][Bild]
+ |
+Skizze: (nicht maßstäblich)
+C
+γ
+b x a
+α β
+M x B A x
+Grafik: © IQB
+
+In dem Dreieck sollen die Strecken ,  und  gleich lang sein.
+Bestimme die Größe der Winkel ,  und . Notiere deinen Lösungsweg.
+
+ = ______ ° ,  = ______ ° ,   = ______ °
+ | Diese Aufgabe ermöglicht es, die Eigenschaften gleichschenkliger Dreiecke sowie die Innenwinkelsumme eines Dreiecks zu wiederholen und diese zur Berechnung fehlender Größen zu nutzen. Hierbei könnten vorab Lösungsideen gesammelt und an der Tafel festgehalten werden. Denkbar wäre auch eine Vorgabe der Lösungsschritte in wahlloser Anordnung. Alternativ kann die Größe eines Basiswinkels angegeben werden, wodurch den Schülerinnen und Schülern der Einstieg in die Aufgabe erleichtert wird.
+Um den Schülerinnen und Schülern den Übergang von dieser vorbereitenden Teilaufgabe zur Testaufgabe zu erleichtern, bietet sich der Einsatz einer dynamischen Geometriesoftware an, um die Invarianz des Winkels     zu verdeutlichen. Dabei können die Schülerinnen und Schüler mit dem Satz von Thales gleichzeitig erste Beweisideen für die Bearbeitung der Testaufgabe entwickeln.
+Zur Nachbereitung und somit zur Vertiefung der Aufgabe aus der Lernstandserhebung bietet es sich an, die einzelnen Beweisschritte inhaltlich zu besprechen und unbekannte Begriffe bzw. Schwierigkeiten aufgrund der formalen Schreibweise zu klären. Hierzu können einzelne Kärtchen umformuliert oder ergänzt werden. Anschließend kann der Unterschied zwischen Voraussetzung, Behauptung und Folgerung besprochen und gegebenenfalls anhand einer falschen Schülerlösung verdeutlicht werden. Ausgehend von fehlerhaften Schülerlösungen können die einzelnen Beweisschritte dann in die richtige Reihenfolge gebracht werden. Alternativ zu der Arbeit mit den Beweiskärtchen kann ein Lückentext genutzt werden, welcher den Vorteil hat, dass die Überlegungen bereits in der richtigen Reihenfolge notiert sind und für die Schülerinnen und Schüler somit eine Schwierigkeit wegfällt. Dies veranschaulicht die folgende Aufgabe zum Beweis des Außenwinkelsatzes für Dreiecke:
+[Bild][Bild]
+ | [Bild: image7.jpeg]
+ | Abbildung  SEQ Abbildung \* ARABIC 1: Quelle: © Lergenmüller, A./ Schmidt G. u.a. (Hrsg.): Mathematik Neue Wege 7. Schroedel, Hannover, 2000, S. 93.
+
+Auch die Darstellung der Beweisstruktur in einer Art Flussdiagramm kann hilfreich sein, wie durch die folgende Aufgabe zum Beweis des Sehnensatzes veranschaulicht wird:
+[Bild][Bild]
+
+ |
+ | [Bild: image8.jpeg]
+ | Abbildung  SEQ Abbildung \* ARABIC 2: Quelle: © Lergenmüller, A./ Schmidt G. u.a. (Hrsg.): Mathematik Neue Wege 9. Schroedel, Hannover, 2000, S. 67.
+
+===== woliegtc · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+
+Didaktische Handreichung: Wo liegt C?
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 3
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Die Aufgabe ist der Leitidee Raum und Form (L3) zuzuordnen, da Schülerinnen und Schüler geometrische Figuren im Koordinatensystem darstellen, und dazu auch Sätze der ebenen Geometrie bei der Konstruktion anwenden müssen.
+Beide Teilaufgaben erfordern Kompetenzen im Bereich Mathematische Darstellungen verwenden (K4), da sowohl mit den gegebenen Darstellungen der Punkte im Koordinatensystem umgegangen als auch eine neue Darstellung eines dritten Punktes erzeugt werden muss. Dabei soll der Punkt in das System eingezeichnet und seine Koordinaten als Tupel angegeben werden.
+Teilaufgabe 2 erfordert zudem Kompetenzen im Bereich Probleme mathematisch lösen (K2), da heuristische Strategien, wie etwa das Einzeichnen einer Hilfslinie zwischen Punkt A und B, angewandt werden.
+Teilaufgabe 1 erfordert nur die Anfertigung und Nutzung von Standarddarstellungen mathematischer Objekte (Punkt im Koordinatensystem und Tupel) und ist daher dem Anforderungsbereich I zuzuordnen. Teilaufgabe 2 hingegen stellt wegen des mehrschrittigen Vorgehens erhöhte Anforderungen und ist daher dem Anforderungsbereich II zuzuordnen.
+Anregungen für den Unterricht
+In beiden Teilaufgaben von „Wo liegt C?“ wird nach einer möglichen Lösung gefragt. Auf diese Frage aufbauend könnte im Unterricht die Frage gestellt werden, wie alle möglichen Lösungen zu ermitteln sind. In Teilaufgabe 1 führt die Lösung des Problems auf den Satz von Thales. Alle möglichen Lösungen befinden sich demnach auf einer Kreislinie, die durch A und B verläuft. In Teilaufgabe 2 gelangt man zur Lösung über die Gleichung einer zur Gerade durch A und B orthogonalen Geraden. Die Teilaufgabe könnte demnach dazu genutzt werden, um auf das Verhältnis der Änderungsraten zweier Graphen linearer Funktionen einzugehen, wenn diese orthogonal zueinander verlaufen.
+Die didaktische Strategie, von einer speziellen Lösung zur Beschreibung aller Lösungen fortzuschreiten, kann im Unterricht der Koordinatengeometrie an diversen Stellen angewendet werden. So kann man z. B. aus der Frage nach einer Gerade, die zu einer gegebenen Gerade parallel verläuft, die Einführung von Geradenscharen motivieren.
+
+===== wuerfelnetze · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016
+
+Didaktische Handreichung: Würfelnetze
+
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 1b
+ | Aufgabenbezogener Kommentar
+Diese Aufgabe gehört zur Leitidee Raum und Form (L3), da zu ihrer Bearbeitung räumliches Vorstellungsvermögen (oder zumindest spezifisches Wissen über Würfelnetze) unerlässlich ist. Es ist notwendig, gedanklich mit den gegebenen Würfelnetzen zu operieren (K4), d. h. es muss untersucht werden, ob sich die gegebenen Netze zu einem Würfel falten lassen oder nicht. Da es sich bei den Würfelnetzen um für Schülerinnen und Schüler vertraute Darstellungen handelt, ist es naheliegend diese Aufgabe - trotz des notwendigen Transfers von ebenen zu räumlichen Konfigurationen - dem Anforderungsbereich I zuzuordnen.
+Anregungen für den Unterricht
+In Aufgaben zu Würfelnetzen wird das räumliche Vorstellungsvermögen von Schülerinnen und Schülern gefordert. Dabei müssen vor allem gedankliche Wechsel zwischen einer zweidimensionalen Darstellung der Oberfläche eines Körpers auf der einen Seite und seiner räumlichen Gestalt auf der anderen Seite gelingen. Schwierigkeiten können dann entstehen, wenn die Lage der Seitenflächen des Würfels nicht berücksichtigt wird und nur die quadratförmigen Seitenflächen gezählt werden. Sind Schülerinnen und Schüler schnell in der Lage, Netze eines Würfels zu erkennen, so können derartige Aufgaben leicht ausgeweitet werden auf andere Körper. So muss bei Netzen von Quadern neben der Anzahl und der Lage auch die Form der einzelnen Seitenflächen berücksichtigt werden. Bei schiefen Prismen müssen zusätzlich Winkel in die Überlegungen einbezogen werden. Derartige Aufgaben eignen sich demnach für eine binnendifferenzierte Aufgabenverteilung im Unterricht. Dabei können alle Schritte aktiv unterstützt werden, indem Netze aufgezeichnet, ausgeschnitten und gefaltet werden.
+
+===== wuerfelturm · Leitidee Raum und Form (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016; Teilaufgabe 3: AFB III, Kompetenzstufe 3, K2, K5, K6, Jahrgang 2016
+
+Didaktische Handreichung: Würfelturm
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | I
+ | Kompetenzstufe
+ | 2
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 4. Funktionaler Zusammenhang
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+ | Anforderungsbereich
+ | II
+ | Kompetenzstufe
+ | 3
+ | Merkmale der Teilaufgabe 3
+Leitidee
+ | 4. Funktionaler Zusammenhang
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen (K5)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 3
+ | Aufgabenbezogener Kommentar
+Teilaufgabe 1 ist der Leitidee Raum und Form (L3) zugeordnet, da ein geometrischer Körper im Raum untersucht wird.
+Schülerinnen und Schüler müssen in dieser Aufgabe mit einer räumlichen Darstellung umgehen, daher ist die Kompetenz Mathematische Darstellungen verwenden (K4) besonders gefordert. Außerdem ist es zur Bestimmung der Anzahl der Würfelseitenflächen erforderlich, heuristische Prinzipien zu verwenden wie beispielsweise das systematische Probieren. Daher ist auch die Kompetenz Probleme mathematisch lösen (K2) erforderlich.
+Die erste Teilaufgabe wird dem Anforderungsbereich I zugeordnet, da eine einfache Aufgabenstellung durch eine naheliegende Strategie gelöst wird.
+Die Teilaufgaben 2 und 3 gehören zur Leitidee Funktionaler Zusammenhang (L4). Es geht in beiden Teilaufgaben um eine funktionale Beziehung zwischen der Anzahl der gestapelten Würfel und der Anzahl der sichtbaren Würfelseitenflächen.
+Auch in diesen beiden Teilaufgaben ist die Kompetenz Probleme mathematisch lösen (K2) gefordert, da Lösungsstrategien angewendet werden. In Teilaufgabe 2 müssen Schülerinnen und Schüler zudem – genau wie in Teilaufgabe 1 – mit einer räumlichen Darstellung umgehen, da die Anzahl der sichtbaren Seitenflächen bestimmt werden soll. Für Teilaufgabe 3 ist es erforderlich, einen allgemeinen Term mit Variablen zu erstellen (K5) und durch das Erstellen einer solchen Vorschrift die eigenen Überlegungen darzulegen (K6).
+Teilaufgabe 2 ist dem Anforderungsbereich II zugeordnet, da die räumliche Darstellung der Würfel ein verständiges Interpretieren erfordert und die Problemstellung, die Tabelle nach und nach zu ergänzen, mehrschrittig gelöst wird.
+In Teilaufgabe 3 muss eine verallgemeinerte Aussage über die Anzahl der sichtbaren Würfelseitenflächen getroffen werden. Daher ist diese Teilaufgabe dem Anforderungsbereich III zugeordnet.
+Anregungen für den Unterricht
+Um in der Aufgabe „Würfelturm“ den funktionalen Zusammenhang zu erkunden, werden Schülerinnen und Schüler durch die ersten beiden Teilaufgaben geleitet. In Teilaufgabe 1 wird die Frage nach den sichtbaren Seitenflächen eines Würfelturms bestehend aus zwei Würfeln anhand einer konkret gegebenen Darstellung beantwortet. In Teilaufgabe 2 wird ebenso nach einer konkreten Anzahl von sichtbaren Seitenflächen gefragt. Allerdings ist die Anzahl der sichtbaren Seitenflächen für einen Würfelturm aus zehn Würfeln nicht mehr mithilfe der gegebenen Darstellung zu ermitteln. In Teilaufgabe 3 wird nun nach einem allgemeinen Zählprinzip für die Anzahl sichtbarer Seitenflächen gefragt.
+Im Unterricht kann der induktive Aufbau der Aufgabe übernommen werden, um ebenfalls solche oder ähnliche Würfeltürme hinsichtlich eines funktionalen Zusammenhangs zu thematisieren. Schülerinnen und Schüler können beispielsweise in Kleingruppen mit gewöhnlichen Spielwürfeln experimentieren und Würfeltürme wie aus dieser Aufgabe oder Würfeltürme beruhend auf anderen Konstruktionsprinzipien untersuchen (Die Augenzahlen auf den Würfeln bleiben dabei unberücksichtigt). Zwei solcher Konstruktionsprinzipien sollen hier kurz dargestellt werden.
+[Bild: image1.jpeg][Bild: image2.jpeg][Bild: image3.jpeg]
+ | Abbildung 1: Liegender Würfelturm
+In Abbildung 1 wird ein liegender Würfel-„Turm“ für n = 3, n = 4 und n = 5 gezeigt. Bei gleichlautender Fragestellung führt das Konstruktionsprinzip dieses Würfelturms zur Funktionsgleichung A(n)= 3n + 2.
+[Bild: image4.jpeg][Bild: image5.jpeg][Bild: image6.jpeg]
+ | Abbildung 2: Doppelter Würfelturm
+In Abbildung 2 wird ein doppelter Würfelturm gezeigt. Auch hier erhält man die Funktions-gleichung A(n)= 3n + 2, die Funktion ist jedoch nur für gerade n definiert. Im Unterricht könnte die weiterführende Aufgabe gestellt werden, zu einer bestimmten Funktionsgleichung ein weiteres Konstruktionsprinzip zu finden, das zu dieser Funktionsgleichung führt.
+
+===== zweikreise · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2016
+
+Didaktische Handreichung: Zwei Kreise
+Merkmale der Teilaufgabe 1
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 3
+ | Merkmale der Teilaufgabe 2
+Leitidee
+ | 3. Raum und Form
+ | Allgemeine Kompetenzen
+ | Mathematisch argumentieren (K1)
+Probleme mathematisch lösen (K2)
+Mathematische Darstellungen verwenden (K4)
+Mathematisch kommunizieren (K6)
+ | Anforderungsbereich
+ | III
+ | Kompetenzstufe
+ | 5
+ | Aufgabenbezogener Kommentar
+Die Aufgabe gehört primär zur Leitidee Raum und Form (L3), da diverse Dreiecke auf begrifflicher Ebene zu analysieren sind. Teilaufgabe 2 enthält zusätzlich Aspekte der Leitidee Messen (L2), da Flächeninhalte von Dreiecken miteinander verglichen werden.
+In Teilaufgabe 1 müssen dem einleitenden Text zunächst wichtige Informationen zur dargestellten Figur entnommen werden (K6, K4).
+Um anschließend zu überprüfen, ob die zu dieser Figur formulierten Aussagen korrekt sind, müssen diese Aussagen zunächst inhaltlich verstanden werden (K6). Dem Verstehen der mathematischen Begriffe, z. B. „gleichseitig“ oder „gleichschenklig“, kommt hier besondere Bedeutung zu. Dazu ist es naheliegend, die Figur gedanklich in Teilfiguren zu unterteilen (K2, K4).
+Diese Problemlösestrategie kann auch bei Teilaufgabe 2 angewendet werden; insofern sind bei deren Bearbeitung dieselben Kompetenzen wie bei Teilaufgabe 1 involviert. So kann nach einer Unterteilung des Dreiecks DFH in die drei Dreiecke DAH, ABH und BFH sowie der Betrachtung der jeweiligen Grundseitenlängen und der zugehörigen Höhen Sonjas Behauptung als richtig ausgewiesen werden (K1). Abschließend ist die Begründung nachvollziehbar darzulegen (K6).
+Beide Teilaufgaben werden dem Anforderungsbereich III zugeordnet, da in beiden Teilaufgaben Aussagen nicht nur interpretiert, sondern auch bewertet werden.
+Anregungen für den Unterricht
+Beide Aufgaben verlangen von Schülerinnen und Schülern aus einer gegebenen Konstruktion Merkmale von Dreiecken abzuleiten. Zur korrekten Lösung von Teilaufgabe 1 muss beispielsweise erkannt werden, dass das Dreieck ABH gleichseitig ist, worauf die Behauptung „Alle Winkel sind gleich groß.“ folgt. Es muss erkannt werden, dass F und H auf einem Kreis um B liegen und daher das Dreieck BFH gleichschenklig ist. In Teilaufgabe 2 führt die Erkenntnis zur Lösung, dass die Grundseite des Dreiecks DFH dreimal so lang ist wie die vom Dreieck ABH und sich bei gleicher Höhe ein dreimal so großer Flächeninhalt ergibt. Die Aufgabe bietet demnach Anlass über die Konstruktionseigenschaften der Dreiecke ohne Rückgriff auf Maßangaben nachzudenken.
+Die Grafik zur Aufgabe wurde mit einer dynamischen Geometriesoftware erstellt. Dies erlaubt es, auf sehr schnelle und anschauliche Weise geometrische Figuren zu variieren. Dadurch kann von Schülerinnen und Schülern z. B. untersucht werden, welche Strukturmerkmale der Figur erhalten bleiben, wenn der Radius des Kreises verändert wird. Alternativ können in der gegebenen Figur weitere Teildreiecke und deren Eigenschaften untersucht werden, um so Vernetzungen zu anderen Themengebieten, wie z. B. den Winkelsätzen am Kreis, herzustellen. Dabei eröffnen sich auf natürliche Weise weitere Gelegenheiten für Argumentationen, etwa um zu begründen, dass die Dreiecke AFH und DBH rechtwinklig sind.

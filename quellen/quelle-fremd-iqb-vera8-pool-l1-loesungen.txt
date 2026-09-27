@@ -1,0 +1,1885 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 1 (Zahl)“, IQB Berlin – Auswertung (Kodieranweisung, Lösungen)
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L1_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Auswertung“ mit 1–4 Seiten; hier 82 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== 20prozent · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013
+
+Auswertung – 20 Prozent
+RICHTIG
+ | 16
+[Anm.: Auch Angaben in anderer Einheit werden akzeptiert, sofern die Einheit und die entsprechende Maßzahl angegeben sind (z. B. 0,016 km, 160 dm, 1600 cm).]
+ |
+
+===== 700milliarden · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2011
+
+700 Milliarden
+RICHTIG
+ | 700 000 000 000
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+7  1011
+ |
+
+===== anteileingeometrischenobjekten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2014; Teilaufgabe 3: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2014
+
+Auswertung – Anteile in geometrischen Objekten
+RICHTIG
+ |
+1 3
+Alle Lösungen aus dem
+Intervall [ 33; 34 [%
+[ Anm.: Die Lösungen
+können auch mit dem
+Zusatz „etwa“ oder
+„circa“ angegeben
+werden ]
+
+ | RICHTIG
+ |
+2 5
+40%
+
+ | RICHTIG
+ |
+1 2
+50%
+
+ |
+
+===== anzahlvonnullen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013
+
+Auswertung – Anzahl von Nullen
+Teilaufgabe 1
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | 1 000 000
+[Anm.: Statt Ziffern kann auch "1 Million" oder "1 Mio." geschrieben werden.]
+ |
+
+===== aufgabenreihen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K1, K2, Jahrgang 2017
+
+Aufgabenreihen
+Teilaufgabe 1:
+RICHTIG
+ | 1 + 3 + 5 + 7 = 16
+UND
+1 + 3 + 5 + 7 + 9 = 25
+ | Teilaufgabe 2:
+RICHTIG
+ | Nein
+UND
+Lösungsweg, aus welchem hervorgeht, dass durch Addition aller ungeraden positiven Zahlen beginnend mit 1 nicht die Summe 61 entstehen kann, oder darauf verwiesen wird, dass 61 keine Quadratzahl ist.
+Beispiel(e)
+1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
+1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64
+Grenzfall
+Nein es passt nicht, es kommen 64 raus.
+[Anm.: Das Ergebnis ist auch als richtig zu werten, wenn die Ergebnisse der beiden Rechnungen (16 und 25) nicht angegeben werden.]
+ |
+
+===== aussenthermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2016
+
+Außenthermometer
+Teilaufgabe 1:
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2:
+RICHTIG
+ | 10 ODER -10
+[Anm.: Lösungen wie ca. 10 oder mindestens 10 sind im Sinne des Kontexts ebenfalls erlaubt.]
+ |
+
+===== autokauf · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K3, K5, K6, Jahrgang 2014
+
+Auswertung – Autokauf
+RICHTIG
+ | Nein
+UND
+Richtige Begründung auf rechnerischer Ebene, indem Herrn Bergers Rechnung mit der korrekten Rechnung verglichen wird, oder auf inhaltlicher Ebene durch den Verweis auf die sich unterscheidenden Grundwerte.
+[Anm.: Die Rechnung muss nicht vollständig angegeben werden.]
+Beispiel(e)
+Herr Berger rechnet: 19 900 €  1,07 € = 21 293 €
+Rechnet er jedoch zunächst den Rabatt ab und dann die Mehrwertsteuer hinzu, ergibt sich ein Preis von 20839,28 €.
+Herrn Bergers Rechnung ist demnach falsch.
+Da sich die Prozentsätze auf unterschiedliche Grundwerte beziehen, kann Herr Berger nicht wie angegeben rechnen.
+Bei Herrn Bergers Vorgehen ergibt sich ein Faktor von 1,07, richtig wäre jedoch 1,0472 als Produkt aus 0,88 und 1,19. Herrn Bergers Vorgehen ist demnach falsch.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Herr Berger rechnet falsch.
+[Anm.: Begründung fehlt.]
+Herr Berger rechnet richtig, denn 19 % - 12 % sind 7 %.
+ |
+
+===== bahncard · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2017
+
+Bahncard
+Teilaufgabe 1:
+RICHTIG
+ |
+25,00 € 35,00 € 70,00 € 105,00 € 175,00 €
+
+ | Teilaufgabe 2:
+RICHTIG
+ | 4
+ |
+
+===== broetchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2015
+
+Auswertung – Brötchen
+Teilaufgabe 1
+RICHTIG
+ | 25
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== bruchundprozentsatz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2015
+
+Auswertung – Bruch und Prozentsatz
+RICHTIG
+ | Prozentsatz: 30
+UND
+Dezimalbruch: 0,8
+ |
+
+===== colakaesten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2014
+
+Auswertung – Colakästen
+Teilaufgabe 1
+RICHTIG
+ | 1,50 €
+[Anm.: Auch andere Schreibweisen diese Betrages werden akzeptiert, wie z. B. "Ein Euro 50" oder "1 € 50 ct".]
+ | Teilaufgabe 2
+RICHTIG
+ | "Herr Melzer muss an der Kasse noch etwas bezahlen." ist angekreuzt.
+UND
+Die Rechnung lässt einen Vergleich der beiden Beträge 9,90 € und 9,96 € erkennen.
+[Anm: Anstelle eines Vergleichs kann auch die Differenz beider Beträge (0,06 € bzw. 6 Cent) notiert werden.]
+Beispiel(e)
+Das Pfand für den neuen Kasten hebt das Pfand von einem alten Kasten auf. Für zwei leere Kästen bekommt er 6,60 € zurück, er muss aber 6,66 € bezahlen.
+3  3,30  € = 9,90 € (Betrag, den Herr Melzer bei Rückgabe von 3 leeren Kästen erhalten würde.)
+6,66 € + 3,30 € = 9,96 € (Betrag, den Herr Melzer für einen vollen Kasten Cola plus Pfand bezahlen müsste.)
+[Anm.: Die Erläuterungen in den Klammern sind nicht Teil der erwarteten Lösung.]
+(Grenzfall)
+3 Kästen Cola bringen 9,90 €, d. h. er muss noch 6 Cent bezahlen.
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Drei Kästen reichen nicht aus, um einen Kasten mit 12 vollen Colaflaschen zu kaufen.
+[Anm.: fehlende Rechnung]
+ |
+
+===== computerspielsucht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, K6, Jahrgang 2011
+
+Computerspielsucht
+RICHTIG
+ |
+ca. 9% ca. 11% ca. 12% ca. 90%
+
+ |
+
+===== croissant · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K5, Jahrgang 2014
+
+Auswertung – Croissant
+RICHTIG
+ | 1,25
+ |
+
+===== damenuhr · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K2, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, K3, K5, Jahrgang 2013
+
+Auswertung – Damenuhr
+Teilaufgabe 1
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | Die richtige Antwort erfordert die Angabe aller Kombinationsmöglichkeiten
+(2;6), (3;4), (4;3), (6;2).
+
+Beispiel(e)
+• 2 Wechselringe und 6 Wechselarmbänder
+und 3 Wechselringe und 4 Wechselarmbänder
+und 4 Wechselringe und 3 Wechselarmbänder
+und 6 Wechselringe und 2 Wechselarmbänder
+• 2 Wechselringe und 6 Wechselarmbänder
+und 3 Wechselringe und 4 Wechselarmbänder
+und umgekehrt.
+[Anm.:  In dieser Lösung ist erkennbar, dass zur Angabe der weiteren Kombinationsmöglichkeiten die jeweiligen Anzahlen der Wechselringe und der Wechselarmbänder zu vertauschen sind.]
+• (Grenzfall)
+1 Wechselring und 12 Wechselarmbänder
+und 2 Wechselringe und 6 Wechselarmbänder
+und 3 Wechselringe und 4 Wechselarmbänder
+und umgekehrt.
+• (Grenzfall)
+1 Wechselring und 12 Wechselarmbänder
+und 2 Wechselringe und 6 Wechselarmbänder
+und 3 Wechselringe und 4 Wechselarmbänder
+und 4 Wechselringe und 3 Wechselarmbänder
+und 6 Wechselringe und 2 Wechselarmbänder
+und 12 Wechselringe und 1 Wechselarmband.
+[Anm.:  In der Aufgabenstellung ist von verschiedenen Wechselringen und Wechselarmbändern die Rede. Ein Wechselring bzw. ein Wechselband bietet keine Auswahlmöglichkeiten.]
+ | FALSCH
+ | Alle fehlerhaften, unvollständigen oder falschen Antworten. Insbesondere, wenn eine der Kombinationen fehlt oder nur die Hälfte der Kombinationsmöglichkeiten angegeben ist.
+ |
+
+===== dasistgerundet · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2014
+
+Auswertung – Das ist gerundet
+RICHTIG
+ | 5,1
+ |
+
+===== divisionvonzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K6, Jahrgang 2014
+
+Auswertung – Division von Zahlen
+RICHTIG
+ | Alle Kreuze sind richtig gesetzt.
+
+Eine mehrziffrige Zahl ist immer durch
+wahr falsch
+4 teilbar, wenn...
+… sie zweimal nacheinander jeweils
+durch 2 teilbar ist.
+… die letzte Ziffer eine 4 oder eine 8
+ist.
+… sie eine gerade Zahl ist.
+… die aus den letzten beiden Ziffern
+gebildete Zahl durch 4 teilbar ist.
+
+ |
+
+===== dreieckimquadrat · Leitidee Zahl (auch im Archiv L3)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2014; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2014
+
+Auswertung – Dreieck im Quadrat
+Teilaufgabe 1
+RICHTIG
+ | 16
+ | Teilaufgabe 2
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ | Teilaufgabe 3
+RICHTIG
+ | Nein
+UND
+Begründung, dass die graue Fläche stets halb so groß ist wie die gesamte Quadratfläche
+ODER
+Begründung, dass die Summe der Flächeninhalte der Folge-Dreiecke stets so groß ist wie der Flächeninhalt des Vorgänger-Dreiecks.
+Beispiel(e)
+In jedem Teilquadrat ist immer genau die Hälfte der Flächeninhalte grau, die andere Hälfte ist weiß. Dies bleibt auch bei Vergrößerung der Anzahl der Quadrate erhalten.
+ |
+
+===== dreieckszahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K2, K4, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2013; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013; Teilaufgabe 4: AFB II, Kompetenzstufe 3, K2, K4, K5, K6, Jahrgang 2013; Teilaufgabe 5: AFB III, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2013
+
+Auswertung – Dreieckszahlen
+Teilaufgabe 1
+RICHTIG
+ | D5 = 15
+D6 = 21
+ | Teilaufgabe 2
+RICHTIG
+ | 4tes Kästchen wurde angekreuzt.
+ | Teilaufgabe 3
+RICHTIG
+ | Dn = Dn-1 + n
+[Anm.: Akzeptiert werden alle äquivalenten Formeln, auch unter Verwendung anderer (nachvollziehbarer) Bezeichnungen.]
+ | Teilaufgabe 4
+RICHTIG
+ | D4 =  = 10
+[Anm.: Der unausgerechnete Term ist ebenfalls als richtig anzusehen.]
+ | Teilaufgabe 5
+RICHTIG
+ | Dn =
+[Anm.: Akzeptiert werden alle äquivalenten Formeln, auch unter Verwendung anderer (nachvollziehbarer) Bezeichnungen.]
+ |
+
+===== durch1001teilbar · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K1, K2, K5, K6, Jahrgang 2014
+
+Auswertung – Durch 1001 teilbar
+RICHTIG
+ | 4 der 5 Kreuze sind richtig gesetzt.
+
+Alle sechsstelligen Zahlen sind durch 1001
+teilbar, denn diese sind alle größer als 1001.
+Alle sechsstelligen Zahlen sind durch 1000
+teilbar. Außerdem sind alle sechsstelligen Zahlen
+durch 1 teilbar. Also sind sie auch durch 1001
+teilbar.
+Die sechsstellige Zahl ist durch 1001 teilbar, da
+ihre Bildung nach dem folgenden Muster erfolgt:
+abc · 1001 = abc · 1000 + abc · 1 =
+abc 000 + abc = abcabc
+Die sechsstellige Zahl ist durch 1001 teilbar, weil
+in 1001 nur Nullen und Einsen enthalten sind.
+Die sechsstellige Zahl ist durch 1001 teilbar, weil
+sie so entsteht, dass die dreistellige Zahl mit
+1000 multipliziert und dann die dreistellige Zahl
+zum Ergebnis addiert wird.
+
+ |
+
+===== dvdplayer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K3, K5, K6, Jahrgang 2013
+
+Auswertung – Kauf eines DVD-Players
+Teilaufgabe 1
+RICHTIG
+ | 79,99
+
+ODER
+
+(Grenzfall)
+80
+ | Teilaufgabe 2
+RICHTIG
+ | Nein
+
+UND
+
+Richtige Begründung, in welcher darauf verwiesen wird, dass sich der Preisnachlass von 20 % und der Rabatt von 5 % auf unterschiedliche Grundwerte beziehen.
+[Anm.: Auch das Berechnen des jeweils zu zahlenden Betrages wird akzeptiert. Es können auch gerundete Werte verwendet werden. Die Lösung wird auch akzeptiert, wenn bei den Zwischenergebnissen mit aufgerundeten Werten weitergerechnet wird.]
+
+Beispiel(e)
+• Der Preisnachlass von 20 % bezieht sich auf den Grundwert 99,99 .
+Der Rabatt von 5 % bezieht sich dann jedoch auf einen niedrigeren Grundwert.
+• Erst 20 %, dann 5 %:
+0,80  99,99  = 79,99  dann 0,95  79,99  = 75,99
+Sogleich 25 %:
+0,75  99,99  = 74,99
+(Stimmt nicht überein!)
+• Alternative Berechnungsmethoden, z. B. "Dreisatz"
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Ja, man kann die beiden Prozentsätze addieren, da sie sich auf denselben Preis beziehen.
+• (Grenzfall)
+Nein, denn wenn ich gleich 25 % abziehe, ist dies mehr als wenn ich zunächst nur 20 % und dann 5 % abziehe.
+[Anm.: Hier wird nicht erläutert, worauf diese Tatsache beruht.]
+• (Grenzfall)
+Die beiden Grundwerte sind verschieden!
+ |
+
+===== fahrradcomputer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K3, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Fahrradcomputer
+Teilaufgabe 1
+RICHTIG
+ |
+20 km / h 4,5 km / h 9 km / h 18 km / h
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtige Antwort (32) UND richtige Beschreibung des Lösungsweges, in der folgende Aspekte enthalten sind:
+• Anna ist 45 min 16 km/h gefahren. Sie hat dabei einen Weg von 12 km (0,75h  16km/h) zurückgelegt.
+• Insgesamt sind 12 km + 8 km = 20 km zu fahren.
+• Da die Durchschnittsgeschwindigkeit für die Gesamtstrecke 20 km/h betragen soll, hat sie für die verbleibenden 8 km noch eine Viertelstunde Zeit.
+• D. h. sie müsste durchschnittlich so schnell fahren, dass sie in einer Stunde 32 km schaffen würde.
+
+ODER
+• 16 km/h Durchschnittsgeschwindigkeit bedeutet, dass Anna in 45 Minuten 12 Kilometer gefahren ist.
+• Insgesamt sind also 20 km zu fahren.
+• Sie hat somit für die restlichen 8 Kilometer noch 15 Minuten Zeit.
+• Diese muss sie mit einer Geschwindigkeit von 32 km/h fahren.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B.
+Anna muss auf der Reststrecke durchschnittlich 32 km/h fahren, weil sie schneller sein muss als auf den ersten 12 Kilometern, denn sie hat nur 15 Minuten Zeit.
+ |
+
+===== faschingsdeko · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2015
+
+Auswertung – Faschingsdeko
+RICHTIG
+ | Angabe aller sechs Farbkombinationen.
+[Anm.: Die Aufgabe ist ebenfalls richtig, wenn 12 Kombinationen (wr  rw) angegeben werden. Die Kombinationen können auch in anderer Form, z.B. weiß-rot, notiert werden.]
+Beispiel(e)
+weiß-rot, weiß-blau, weiß-grün, rot-blau, rot-grün, blau-grün
+ |
+
+===== fehlendezahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013
+
+Auswertung – Fehlende Zahlen
+Teilaufgabe 1
+RICHTIG
+ | -5
+ | Teilaufgabe 2
+RICHTIG
+ | (-21)
+
+ODER
+
+(Grenzfall)
+ -21
+ |
+
+===== fieberthermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Fieberthermometer
+Teilaufgabe 1
+RICHTIG
+ | 36,8 °C
+ |
+Teilaufgabe 2
+RICHTIG
+ | 40,2 °C
+ |
+
+===== fruehstuecksbroetchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011; Teilaufgabe 3: AFB I, Kompetenzstufe 1, K5, K6, Jahrgang 2011
+
+Frühstücksbrötchen
+Teilaufgabe 1
+RICHTIG
+ | Angabe des richtigen Preises 3,90 (€) und Darlegung des Rechenweges. Dies kann in rechnerischer oder verbal beschreibender Form erfolgen.
+
+Z. B.:
+6  0,35 € + 4 0,45 € = 3,90 €
+
+ODER
+3,90 €
+Ich habe 6 mal 0,35 € und 4 mal 0,45 € gerechnet. Die Ergebnisse habe ich dann zusammengerechnet.
+ | FALSCH
+ | Alle anderen Antworten.
+Z. B.:
+3,90 € (Rechenweg fehlt)
+
+ODER
+4,10 €
+Ich habe 4 mal 0,35 € plus 6 mal 0,45 € gerechnet.
+ |
+Teilaufgabe 2
+RICHTIG
+ | Angabe des richtigen Betrags 3,25 (€) und Darlegung des Lösungsweges. Dies kann in rechnerischer oder verbal beschreibender Form erfolgen.
+
+Z. B.:
+5 € - 5  0,35 € = 3,25 €
+
+ODER
+3,25 €
+Ich habe von den 5 € den Preis der fünf Brötchen abgezogen.
+
+ODER
+3,25 €
+Ich habe 5 mal 0,35 € gerechnet und das Ergebnis von den 5 € abgezogen.
+ | FALSCH
+ | Alle anderen Antworten.
+
+ODER
+3,25 €
+Ich habe fünfmal 0,35 € gerechnet und dann 5 € abgezogen.
+
+ODER
+3,25 € (Rechenweg fehlt)
+
+ODER
+1,75 €
+ |
+
+Teilaufgabe 3
+RICHTIG
+ | Richtige Antwort (Ja) UND Begründung der Antwort durch Verweis auf den zur Verfügung stehenden Betrag und den Preis der Brötchen.
+
+Z. B.:
+Ja, die 10 € reichen, da die Brötchen zusammen 9,60 € kosten.
+
+ODER
+Ja, die 10 € reichen, denn es bleiben 40 Cent übrig.
+
+ODER
+12  0,35 € = 4,20 € und 12  0,45 € = 5,40 €. 4,20 € + 5,40 € = 9,60 €
+
+ODER
+Ist der Ansatz korrekt und liegt jedoch ein „kleiner Rechenfehler“ vor, wird die Aufgabe als „Richtig“ gewertet.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+Ja, das Geld reicht. Die Brötchen kosten weniger als 10 €.
+ |
+
+===== fussballtabelle · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K3, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K1, K2, K3, K6, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K3, K6, Jahrgang 2016
+
+Fußballtabelle
+Teilaufgabe 1:
+RICHTIG
+ | Angabe aller Möglichkeiten: 0, 1, 2, 3, 4, 6 Punkte
+[Anm.: Die Antwort wird auch als richtig gewertet, wenn die Zahlen  0, 1, 2, 3, 4, 6 ohne "Punkte" genannt werden.]
+ | Teilaufgabe 2:
+RICHTIG
+ | Begründung, mit der gezeigt wird, dass nach drei Spielen nicht die Summe von 8 Punkten entstehen kann, wenn eine Mannschaft pro Spiel jeweils 0, 1 oder 3 Punkte erhält.
+Beispiel(e)
+Mit drei Siegen hätte sie bereits mehr als 8 Punkte erhalten. Die Mannschaft müsste also zwei Spiele gewonnen haben. Dann bleiben für das dritte Spiel noch 2 Punkte übrig. Diese können in einem Spiel jedoch nicht erreicht werden.
+Bei zwei gewonnenen Spielen erhält die Mannschaft 6 Punkte. Für die zwei noch fehlenden Punkte benötigt die Mannschaft noch mindestens zwei weitere Spiele, die unentschieden ausgehen müssten. Das sind aber vier statt drei Spiele. Bei einem weiteren Sieg hätte die Mannschaft bereits neun Punkte erreicht.
+ | Teilaufgabe 3:
+RICHTIG
+ | Angabe aller Möglichkeiten: 6, 7, 8 Spiele
+[Anm.: Die Antwort wird auch als richtig gewertet, wenn die Zahlen 6, 7, 8 ohne "Spiele" genannt werden.]
+ |
+
+===== haelfte · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+
+Auswertung – Hälfte
+RICHTIG
+ | 500 000
+ |
+
+===== handygebuehr · Leitidee Zahl (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K3, K5, Jahrgang 2015
+
+Auswertung – Handygebühr
+Teilaufgabe 1
+RICHTIG
+ | 6,80
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== harzwanderung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Harzwanderung
+Teilaufgabe 1
+RICHTIG
+ | Stolberg
+
+ Harzgerode
+
+ Gernrode
+
+ Thale
+
+ Halberstadt
+
+ODER
+Stolberg
+
+ Harzgerode
+
+ Gernrode
+
+ Quedlinburg
+
+ Halberstadt
+
+ODER
+Stolberg
+
+ Harzgerode
+
+ Gernrode
+
+ Blankenburg
+
+ Halberstadt
+
+ODER
+Stolberg
+
+ Güntersberge
+
+ Gernrode
+
+ Thale
+
+ Halberstadt
+
+ODER
+Stolberg
+
+ Güntersberge
+
+ Gernrode
+
+ Quedlinburg
+
+ Halberstadt
+
+ODER
+Stolberg
+
+ Güntersberge
+
+ Gernrode
+
+ Blankenburg
+
+ Halberstadt
+ |
+Teilaufgabe 2
+RICHTIG
+ | 6 verschiedene Wanderrouten
+ |
+
+===== heizkosten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2017
+
+Heizkosten
+
+RICHTIG
+ |
+12% 42% 58% 70%
+
+ |
+
+===== holzwuerfel · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, Jahrgang 2014
+
+Auswertung – Holzwürfel
+RICHTIG
+ | 6
+ |
+
+===== jeansmitermaessigung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K3, K5, Jahrgang 2015
+
+Auswertung – Jeans mit Ermäßigung
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== kreisefaerben · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Kreise färben
+RICHTIG
+ | Insgesamt sind 3 ganze Kreise eingefärbt. (Dabei können auch Bruchteile gefärbt werden.)
+ |
+
+===== literberechnungen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K5, Jahrgang 2011
+
+Literberechnungen
+Teilaufgabe 1
+RICHTIG
+ | 7,5 Liter
+
+Anm.: Alle wertgleichen Angaben werden akzeptiert, z. B. 7 1/2 Liter oder
+15/2 Liter.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+0,75
+
+ODER
+75 Liter
+ |
+Teilaufgabe 2
+RICHTIG
+ | 9 Liter
+
+Anm.: Alle wertgleichen Angaben werden akzeptiert, z. B. 18/2 Liter.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+90
+
+ODER
+3
+ |
+
+===== lohnerhoehung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2015
+
+Auswertung – Lohnerhöhung
+RICHTIG
+ | 10
+ |
+
+===== maedchenanteil · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2015
+
+Auswertung – Mädchenanteil
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== mathematikarbeit · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K3, K5, Jahrgang 2011
+
+Mathematikarbeit
+RICHTIG
+ |
+12% 12,5% 48% 60% 80%
+
+ |
+
+===== mauerauszahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 2, K2, K5, Jahrgang 2016
+
+Mauer aus Zahlen
+Teilaufgabe 1:
+RICHTIG
+ |
+140
+14 10
+7 2 5
+
+ | FALSCH
+ | Alle anderen fehlerhaften, unvollständigen oder falschen Antworten. Insbesondere, wenn nur zwei statt drei Steine (richtig) ausgefüllt wurden.
+ | Teilaufgabe 2:
+RICHTIG
+ | 1
+[Anm.: Die Steine der Zahlenmauer müssen nicht ausgefüllt werden. Als richtig ist es auch zu werten, wenn die Lösung in ein mit x gekennzeichnetes Feld eingetragen wird.]
+ | Teilaufgabe 3:
+RICHTIG
+ | 4 ODER -4
+[Anm.: Die Steine der Zahlenmauer müssen nicht ausgefüllt werden. Als richtig ist es auch zu werten, wenn die Lösung in ein mit x gekennzeichnetes Feld eingetragen wird.]
+ |
+
+===== mittezwischenzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2011
+
+Mitte zwischen Zahlen
+RICHTIG
+ | 6,33
+ |
+
+===== nachfolgerzahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K5, K6, Jahrgang 2013
+
+Auswertung – Nachfolgerzahl
+Teilaufgabe 1
+RICHTIG
+ | Aus der Antwort muss deutlich werden, dass Franks Behauptung anhand der Zahlen 12 und 13 rechnerisch überprüft wird. In diesem Zusammenhang muss der Term  bzw.  konkret verwendet werden.
+
+Beispiel(e)
+•
+•
+
+•
+•
+ | FALSCH
+ | Alle anderen Antworten, bei denen nicht alle Schritte der Angaben im einleitenden Text hinreichend berücksichtigt wurden.
+
+Beispiel(e)
+• Es findet kein Vergleich zwischen den Termen  und  statt.
+ | Teilaufgabe 2
+RICHTIG
+ | „Ja“
+
+UND
+
+angemessene Begründung.
+
+Algebraisch:
+
+ODER
+
+ODER
+Zeichnerisch:
+
+n + 1
+n n
+n + 1
+
+In einer Zeichnung muss die Verallgemeinerung in irgendeiner Form deutlich werden!
+ |
+zu Teilaufgabe 2
+RICHTIG
+ | ODER
+Iterativ:
+
+Die Differenz der Quadrate (linke Spalte) sowie auch die Summe der Ausgangszahlen (rechte Spalte) sind jeweils identisch.
+ODER
+Paradigmatisch:
+Wähle z. B. die beiden Zahlen 2 und 3.
+
+Hierbei wird mit einem konkreten Beispiel operiert, wobei jedoch durch die Termstrukturen die grundlegende allgemeine Struktur erkennbar wird. Daran kann man erkennen, dass dies bei allen weiteren Beispielen ebenso gilt.
+ | FALSCH
+ | Alle anderen Antworten, insbesondere solche, bei denen die Behauptung lediglich an weiteren konkreten Beispielen überprüft wird, ein Schluss auf die allgemeine Struktur jedoch unterbleibt.
+
+Beispiel(e)
+•  und . Also stimmt es.
+[Anm.: Bei diesem Beispiel für Code 0 wird im Gegensatz zur paradigmatischen Begründung, wie sie in Code 1 angegeben ist, nicht deutlich, dass die Wahl der konkreten Zahlen 2 und ihres Nachfolgers 3 beliebig ist, und zudem ist die zugrundeliegende allgemeine Termstruktur nicht erkennbar. Stünde bei der Lösung zusätzlich "z. B." bei den zwei gewählten Zahlen, so wäre die Lösung als richtig zu kodieren.]
+ |
+
+===== nullkommaacht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2016; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K5, Jahrgang 2016
+
+Null Komma Acht
+Teilaufgabe 1:
+RICHTIG
+ | von oben nach unten:
+10    UND    1
+ | Teilaufgabe 2:
+RICHTIG
+ | von oben nach unten:
+6,4    UND    0,64
+ |
+
+===== osterhase · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K3, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K5, K6, Jahrgang 2013
+
+Auswertung – Osterhase
+Teilaufgabe 1
+RICHTIG
+ | 769 ODER 769,2 ODER 770
+ | Teilaufgabe 2
+RICHTIG
+ |
+wahr falsch
+Der kleine Osterhase wiegt ein Viertel des mittleren
+Osterhasen.
+Der mittlere Osterhase wiegt das Vierfache des kleinen
+Osterhasen.
+Das Gewicht des großen Osterhasen entspricht 400% des
+Gewichts des kleinen Osterhasen.
+Aus dem großen Osterhasen könnte man 10 mittlere
+Osterhasen machen.
+
+ |
+
+===== parlamentswahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K6, Jahrgang 2014
+
+Auswertung - Parlamentswahl
+Teilaufgabe 1
+RICHTIG
+ | 5313 Stimmen
+ | Teilaufgabe 2
+RICHTIG
+ | Lösungen, bei denen deutlich wird, dass die Grundgesamtheit (die Anzahl der abgegebenen gültigen Stimmen) möglicherweise kleiner geworden ist.
+Beispiel(e)
+Wahrscheinlich haben in diesem Jahr insgesamt weniger Bürger eine Stimme abgegeben.
+Möglicherweise ist die Anzahl ungültiger Stimmen in diesem Jahr größer als vor vier Jahren.
+Vielleicht hat sich die Größe des Wahlbezirks verkleinert.
+Auch richtig: Weil Bürger aus dem Wahlbezirk weggezogen sind.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+Beispiel(e)
+Wahrscheinlich gab es diesmal weniger Gegenkandidaten.
+[Anm.: Die Anzahl der Kandidaten wirkt sich zwar wahrscheinlich auf das Wahlergebnis aus, ist aber keine Erklärung dafür, dass bei weniger Stimmen trotzdem eine höhere Prozentzahl der Gesamtanzahl an Stimmen erreicht wurde.]
+Wahrscheinlich haben in diesem Jahr insgesamt mehr Bürger eine Stimme abgegeben.
+[Anm.:  Hätten insgesamt mehr Bürger ihre Stimme abgegeben, dann hätten bei der höheren Prozentzahl auch mehr Bürger Herrn Aal ihre Stimme geben müssen als vor vier Jahren.]
+Die Wähler haben (auch) den anderen Kandidaten weniger Stimmen gegeben.
+[Anm.: Damit erhöht sich nicht notwendigerweise der Prozentsatz der Stimmen für Herrn Aal.]
+ |
+
+===== passendeschuhe · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K1, K4, K5, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2013
+
+Auswertung – Passende Schuhe
+Teilaufgabe 1
+RICHTIG
+ | Nein ODER Ja
+
+UND
+
+richtige Begründung, in welcher nachgewiesen wird, dass der Anteil der Befragten ohne passende Schuhe nicht 80 % beträgt. Dieser Nachweis kann mittels einer Rechnung oder einer verbalen Erklärung erfolgen.
+[Anm.: Die Antwort "Ja" wird dann akzeptiert, wenn aus der Begründung deutlich hervorgeht, dass sogar mehr als 80 % der Befragten keine passenden Schuhe tragen.]
+
+Beispiel(e)
+• Ja
+Es sind sogar mehr als 80 %.
+(60 + 75 + 20 + 10) : 200 = 0,825  80 %
+• Nein
+Von den Frauen tragen 80 % Schuhe, die zu groß oder zu klein sind. Von den Männern sind es jedoch 85 %. Somit tragen mehr als 80 % aller Befragten keine passenden Schuhe.
+• Nein
+Nein, denn es tragen nur 80 % aller Frauen keine passenden Schuhe. Bei den Männern sind es sogar 85 %.
+ |
+ | • (Grenzfall, da der Rückschluss Anteil an Personen ohne passende Schuhe an der Gesamtheit der Befragten fehlt)
+Nein
+Frauen: 20 % + 60 % = 80 %
+Männer: 10 % + 75 % = 85 %
+• (Grenzfall)
+Nein
+Nein, es sind sogar mehr als 80% aller Befragten.
+[Anm.: Hier ist die Begründung knapp.]
+• (Grenzfall)
+Nein
+Es sind insgesamt weniger als 20 % mit passenden Schuhen.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Nein
+Nur bei den Frauen sind es genau 80 %.
+[Anm.: Hier wird nicht explizit auf die Männer eingegangen. Falls steht: "... und bei den Männern mehr", wird es zum Grenzfall für Code 1.]
+ |
+Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== prozentanteilschaetzen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2015
+
+Auswertung – Prozentanteil schätzen
+RICHTIG
+ | 5. Kästchen wurde angekreuzt
+ |
+
+===== quadratdifferenz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, K6, Jahrgang 2012; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Quadratdifferenz
+Teilaufgabe 1
+RICHTIG
+ | Sowohl Summe als auch Differenz müssen korrekt berechnet werden:
+12+11=23 UND 144-121=23
+
+z. B.
+23
+UND
+144-121=23
+Anm.: Die Summenbildung muss nicht explizit nochmals notiert werden. Es genügt die Angabe der Differenz 144-121.
+ | FALSCH
+ | Alle anderen unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B. (Grenzfall)
+____________ (ohne Eintrag)
+144-121 = 23
+ |
+
+Teilaufgabe 2
+RICHTIG
+ | Richtige Antwort (13 und 14) UND richtige Rechnung zur Überprüfung.
+
+z. B.
+13, 14
+Die Zahlen sind richtig, denn 14
+
+-13
+
+=196-169=27$
+Anm.:  Der Ausdruck „196 – 169“ muss nicht explizit in der Gleichung auftauchen.
+
+ODER (Grenzfall)
+14
+
+ und 13
+
+ werden als Zahlen genannt, die Rechnung zur Überprüfung wird jedoch richtig durchgeführt.
+
+ODER (Grenzfall)
+196 und 169 werden als Zahlen genannt, die Rechnung zur Überprüfung wird jedoch richtig durchgeführt.
+ | FALSCH
+ | Alle anderen unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B.
+14
+
+ und 13
+
+ werden als Zahlen genannt, die Rechnung zur Überprüfung fehlt.
+ |
+
+Teilaufgabe 3
+RICHTIG
+ |
+
+Anm.: Der Ausdruck
+
+ muss nicht in der Lösung angegeben werden.
+
+ODER
+
+ODER
+
+ODER
+Zeichnerisch
+
+a
+
+1
+b
+a
+b
+1
+
+Der Flächeninhalt der schraffierten Fläche lässt sich auf zwei Arten berechnen:
+A = a2 - b2
+A = 1a + 1(a - 1) = 1a + 1b
+Also gilt: a2 - b2 = a + b
+ |
+RICHTIG
+ |
+ODER (Grenzfall)
+Sind alle Umformungen korrekt durchgeführt, wurde aber (a-1) am Ende nicht durch b ersetzt, ist dies trotzdem als richtig zu bewerten.
+
+Beispiel:
+
+ | FALSCH
+ | Alle anderen unvollständigen, fehlerhaften oder falschen Antworten, insbesondere, wenn die Gültigkeit mittels eines Zahlenbeispiels geprüft wird.
+
+z. B.
+32-22=5; 2+3=5
+ |
+
+===== rabattaktion · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K3, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Rabattaktion
+RICHTIG
+ |
+
+ |
+
+===== raeumungsverkauf · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K1, K3, K5, Jahrgang 2015
+
+Auswertung – Räumungsverkauf
+Teilaufgabe 1
+RICHTIG
+ | Ja
+UND
+Berechnung des neuen Preises.
+Beispiel(e)
+
+;
+
+ | Teilaufgabe 2
+RICHTIG
+ | Nein
+UND
+Begründung, dass der Geschäftsführer nicht recht hat.
+Beispiel(e)
+Bei zweimal 25 % müsste die Jacke 120 €  0,75  0,75 = 67,50 € kosten. Es wurde weniger Rabatt gegeben.
+ |
+
+===== rathausuhr · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2015
+
+Auswertung – Rathausuhr
+Teilaufgabe 1
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | Aufgabe mit der Lösung 10 Glockenschläge
+
+Startzeit Endzeit
+Möglichkeit 1 12: 16 Uhr bis 12: 30 Uhr 13: 00 Uhr bis 13: 14 Uhr
+Möglichkeit 2 13: 31 Uhr bis 13: 45 Uhr 14: 15 Uhr bis 14: 29 Uhr
+Möglichkeit 3 14: 31 Uhr bis 14: 45 Uhr 15: 00 Uhr bis 15: 14 Uhr
+Möglichkeit 4 14: 46 Uhr bis 15: 00 Uhr 15: 30 Uhr bis 15: 44 Uhr
+Möglichkeit 5 16: 46 Uhr bis 17: 00 Uhr 17: 15 Uhr bis 17: 29 Uhr
+Möglichkeit 6 17: 46 Uhr bis 18: 00 Uhr 18: 00 Uhr bis 18: 14 Uhr
+
+Die entsprechenden Zeiten in der Nacht bzw. gegen Morgen sind ebenfalls als richtig zu bewerten.
+Beispiel(e)
+Wie oft erklingen die Glocken zwischen kurz nach halb Drei und kurz nach Drei?
+Peter wartet von 17:48 Uhr bis 18:13 Uhr am Rathausplatz auf seinen Bus. Wie oft hört er die Glocken erklingen?
+Wie viele Glockenschläge erklingen um 18 Uhr?
+Grenzfall
+Es muss keine Aufgabe formuliert sein. Die Angabe der richtigen Uhrzeiten ist ausreichend.
+ |
+
+===== rechenvorteil · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K5, Jahrgang 2011
+
+Rechenvorteil
+RICHTIG
+ | Eine Berechnung (oder Beschreibung), die erkennen lässt, dass zunächst 4 mit 25 multipliziert wird. Das Endergebnis muss dabei nicht berechnet werden.
+
+Z. B.:
+4  25  3,15
+
+ODER
+Susanne rechnet erst 4 mal 25 und das Ergebnis dann mal 3,15.
+
+ODER
+100  3,15
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+Susanne rechnet: 4  3  25
+ |
+
+===== richtigumgeformt · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K5, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K5, Jahrgang 2014
+
+Auswertung - Richtig umgeformt
+Teilaufgabe 1
+RICHTIG
+ | Jede Lösung, die nach Ausmultiplizieren wieder den ursprünglichen Term ergibt.
+Beispiel(e)
+
+ | Teilaufgabe 2
+RICHTIG
+ |
+[Anm.: Die Lösung ist auch richtig, wenn nicht so weit wie möglich vereinfacht wurde.]
+ |
+
+===== schokoladenfiguren · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K2, K4, K5, K6, Jahrgang 2011
+
+Schokoladenfiguren
+Teilaufgabe 1
+RICHTIG
+ | 10 000 000 ODER 10 Millionen
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+100 Millionen 125 Millionen 150 Millionen 175 Millionen 200 Millionen
+
+ |
+
+===== schrankbreiten · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2014
+
+Auswertung - Schrankbreiten
+RICHTIG
+ | Eine der folgenden drei Schrank-Kombinationen muss angegeben sein.
+
+1 x 40 cm, 1 x 45 cm, 1 x 50 cm
+ODER
+3 x 30 cm, 1 x 45 cm
+ODER
+3 x 45 cm
+ |
+
+===== skalaundzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1A, K4, K5, Jahrgang 2017
+
+Skala und Zahlen
+
+RICHTIG
+ |
+- 2 - 1 0 1
+- 1,3 0,6
+
+ |
+
+===== stammbruecheuntersuchen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K5, Jahrgang 2015
+
+Auswertung – Stammbrüche untersuchen
+Teilaufgabe 1
+RICHTIG
+ |
+1 4 1 3 1 2 1 4 1 100
+nächstkleinerer nächstgrößerer
+Stammbruch
+Stammbruch Stammbruch
+1 1
+5 3
+1 1
+102 101
+
+ | Teilaufgabe 2
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== steilestrasse · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K3, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K3, K4, K5, K6, Jahrgang 2016; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2016
+
+Steile Straße
+Teilaufgabe 1:
+RICHTIG
+ | eine Zahl aus dem Intervall [32; 33]
+ | Teilaufgabe 2:
+RICHTIG
+ | eine Zahl aus dem Intervall [30; 31]
+ | Teilaufgabe 3:
+RICHTIG
+ | 45
+UND
+Lösungsweg, bei dem der Winkel 45 berechnet oder argumentativ bzw. zeichnerisch hergeleitet wird.
+Beispiel(e)
+Aus 100 % Höhenunterschied folgt, dass das Dreieck gleichschenklig ist. Daraus folgt .
+Der Schüler zeichnet ein rechtwinkliges Dreieck bei dem An- und Gegenkathete gleich lang sind und misst den Winkel nach.
+
+[Anm.: Das Beispiel zur Lösung mittels der Tangensfunktion dient nur der Korrektur und ist nicht Teil der erwarteten Lösung.]
+ |
+
+===== sterneundsandkoerner · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K6, Jahrgang 2014; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, K6, Jahrgang 2014
+
+Auswertung - Sterne und Sandkörner
+Teilaufgabe 1
+RICHTIG
+ | 70 Trilliarden UND 22
+[Anm.: Das Zahlwort kann auch in Ziffern geschrieben werden.]
+ | Teilaufgabe 2
+RICHTIG
+ | 22
+ |
+
+===== suchediezahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, K5, Jahrgang 2013
+
+Auswertung – Suche die Zahl
+RICHTIG
+ | 5   = 10  3     = 24  7   = 21
+ |
+
+===== temperaturdifferenz · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+
+Auswertung - Temperaturdifferenz
+RICHTIG
+ | 19
+ |
+
+===== thermometer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2017, 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K3, K4, Jahrgang 2017, 2015
+
+Auswertung – Thermometer
+Teilaufgabe 1
+RICHTIG
+ | -8
+[Anm.: Andere gleichwertige Angaben sind auch richtig, wie z. B.
+"minus 8 °C" oder "8 °C unter Null".]
+ | Teilaufgabe 2
+RICHTIG
+ | 12
+[Anm.: Andere gleichwertige Angaben sind auch richtig, wie z. B.
+"+ 12 °C" oder "plus 12 °C" oder "12 °C über Null".]
+ |
+
+===== thermometeranzeigen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2013
+
+Auswertung – Zwei Thermometeranzeigen
+RICHTIG
+ | 15
+ |
+
+===== treppenmasse · Leitidee Zahl (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K3, K4, K5, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K3, K5, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K3, K5, K6, Jahrgang 2013; Teilaufgabe 4: AFB II, Kompetenzstufe 5, K2, K3, K4, K5, Jahrgang 2013
+
+Auswertung – Treppenmaße
+Teilaufgabe 1
+RICHTIG
+ |
+ 2194463 cmcmcm  2123963 cmcmcm
+Bei Treppe 1 ist die Schrittmaßregel erfüllt.
+Bei Treppe 2 ist die Schrittmaßregel erfüllt.
+
+ODER
+
+ 2194482 cmcmcm  2123963 cmcmcm
+Bei Treppe 1 ist die Schrittmaßregel erfüllt.
+Bei Treppe 2 ist die Schrittmaßregel erfüllt.
+
+ODER
+
+ 21944 cmcm  21239 cmcm
+Bei Treppe 1 ist die Schrittmaßregel erfüllt.
+Bei Treppe 2 ist die Schrittmaßregel erfüllt.
+
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• (Grenzfall)
+Schüler hat Auftritt und Höhe verwechselt, Überprüfung aber richtig durchgeführt und entsprechende Folgerungen gezogen.
+ | Teilaufgabe 2
+RICHTIG
+ | 18
+ |
+Teilaufgabe 3
+RICHTIG
+ | Ja
+
+UND
+
+richtige Begründung, in welcher darauf verwiesen wird, dass bei Verkleinerung von h der Summand b größer werden muss, um die Summe 63 zu erhalten.
+
+Beispiel(e)
+• Die Summe aus den beiden Summanden 2h und b soll konstant 63 cm bleiben. Verkleinert man h, dann verkleinert sich auch 2h, der Summand b muss dann vergrößert werden.
+• b = 63 - 2  h: Wenn h kleiner wird, wird die Differenz 63 - 2h größer.
+• Immer wenn h um 1 cm kleiner wird, muss b um 2 cm größer werden.
+• Wenn beide Maße kleiner werden, dann kann das Ergebnis nicht gleich bleiben.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Wenn h kleiner wird muss b größer werden
+[Anm.: Begründung fehlt]
+ | Teilaufgabe 4
+RICHTIG
+ | Tritthöhe h: 21 cm
+Auftritt b: 21 cm
+ |
+
+===== ueberschlagdochmal · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K3, K5, Jahrgang 2014
+
+Auswertung - Überschlag doch mal
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== ueberschlagsrechnung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2013
+
+Auswertung – Überschlagsrechnung
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ |
+
+===== verbindungsstrecken · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, K6, Jahrgang 2017
+
+Verbindungsstrecken
+Teilaufgabe 1:
+RICHTIG
+ | 4
+ | Teilaufgabe 2:
+RICHTIG
+ | 210
+ |
+
+===== vonlinkswievonrechts · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, Jahrgang 2016
+
+Von links wie von rechts
+Teilaufgabe 1:
+RICHTIG
+ | Angabe einer 4-stelligen Palindromzahl:
+3883 ODER 8338
+UND
+Angabe einer 5-stelligen Palindromzahl:
+Beispiel(e)
+48384
+[Anm.: Auf welchen der 5 Stellen der Palindromzahl die vorgegebene "38" steht, ist unerheblich, z. B. 38183 oder 13831 oder 18381.]
+ | Teilaufgabe 2:
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== wahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, K5, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K5, Jahrgang 2017
+
+Wahl
+Teilaufgabe 1:
+RICHTIG
+ | 3,6
+ | Teilaufgabe 2:
+RICHTIG
+ | eine Zahl aus dem Intervall [7 920 000; 8 160 000]
+ |
+
+===== weitsprung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K5, Jahrgang 2011; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K1, K3, K4, K5, Jahrgang 2011; Teilaufgabe 4: AFB III, Kompetenzstufe 2, K3, K4, K6, Jahrgang 2011
+
+Weitsprung
+Teilaufgabe 1
+RICHTIG
+ | Eine Beschreibung, wie man den Mittelwert berechnet. Dies kann rechnerisch (auch an einem konkreten Beispiel) oder verbal beschreibend erfolgen.
+
+Z.B.:
+Ich addiere alle 3 Weiten und dividiere das Ergebnis dann durch drei.
+
+ODER
+Ich nehme den ersten Wert geteilt durch drei plus den zweiten Wert geteilt durch drei plus den dritten Wert geteilt durch drei.
+
+ODER
+Man zählt 4,10; 3,86 und 3,92 zusammen und teilt das Ganze dann durch drei.
+
+ODER
+Man zählt die Werte in den Spalten C, D, E zusammen und teilt sie dann durch 3.
+
+ODER
+
+ODER (Grenzfall)
+Man bildet das arithmetische Mittel der Spalten C, D und E.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z.B.:
+Man zählt 4,10; 3,86 und 3,92 zusammen.
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+
+ODER
+
+ODER
+(C2 + D2 + E2) : 3
+
+ODER
+(C2 + D2 + E2)/3
+
+ODER
+=MITTELWERT(C:E)
+
+ODER
+=MITTELWERT(C;D;E)
+
+Anm.: Syntaxfehler sollen nicht gewertet werden.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+
+ODER
+C2 + D2 + E2 : 3
+ |
+
+Teilaufgabe 3
+RICHTIG
+ | 2 Nachkommastellen werden als richtig gewertet UND angemessene Begründung.
+
+Z. B.:
+Da man Sprünge höchstens auf cm genau misst, sind zwei Nachkommastellen ausreichend.
+
+ODER
+Da nur auf zwei Nachkommastellen genau gemessen wurde, sind in Spalte F auch nur (höchstens) zwei Nachkommastellen sinnvoll.
+Anm.: Auch richtig, wenn analog mit der gemessenen Maßeinheit „cm“ argumentiert wurde.
+
+ODER
+In den Spalten C, D und E wurden nur 2 Stellen gemessen.
+
+ODER
+Bei Sprüngen haben die Millimeter keine Bedeutung mehr. So genau kann man gar nicht messen.
+
+ODER (Grenzfall)
+Man kann (mit einem Maßband) nur auf zwei Nachkommastellen genau messen.
+
+ODER (Grenzfall)
+1 Nachkommastelle wird auch als richtig gewertet, wenn eine angemessene Begründung gegeben wird.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z.B.:
+2 Nachkommastellen, mehr können nicht angezeigt werden.
+
+ODER
+Mit zwei Nachkommastellen ist es am übersichtlichsten.
+
+ODER
+Restliche Ziffern sind unnötig.
+ |
+
+Teilaufgabe 4
+RICHTIG
+ | Ein nachvollziehbares Argument dafür, dass Anna die beste Weitspringerin der Klasse ist, wird gegeben.
+
+Anm.: Vereinfachend darf angenommen werden, dass Sara, falls sie nicht die Beste ist, zumindest als zweitbeste angesehen werden darf. Daher reicht auch ein direkter Vergleich mit Sara aus (statt eines Vergleichs mit den Schülern der ganzen Klasse).
+
+Z. B.:
+Anna ist die beste, da sie den weitesten Sprung von allen hat.
+
+ODER
+Anna ist besser, da sie zweimal am weitesten gesprungen ist (bzw. weiter als Sara) und nur beim dritten Sprung schlecht abgeschnitten hat.
+
+ODER
+Sara ist NUR in der mittleren Weite besser als Anna.
+
+ODER
+Anna ist einmal 4,62 m gesprungen.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+Anna hat nur einen schlechten Sprung.
+
+ODER
+Sara ist besser als Anna.
+
+ODER
+Sara ist besser, weil ihre mittlere Weite besser ist.
+
+ODER
+Anna ist IMMER weiter als Sara gesprungen.
+
+ODER
+Anna ist nicht die beste Weitspringerin, denn sie ist im dritten Sprung nur 2,70 m weit gesprungen.
+
+ODER
+Anna ist nicht die beste Weitspringerin, da sie im Mittel nicht so weit wie
+z. B. Sara gesprungen ist.
+ |
+
+===== wundersamerechenergebnisse · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K5, Jahrgang 2011; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K5, Jahrgang 2011
+
+Wundersame Rechenergebnisse
+Teilaufgabe 1
+RICHTIG
+ | Z. B. 6573  10001 = 65736573         1085  10001 = 10851085
+
+Anm.: Statt 6573 und 1085 können auch beliebige andere vierstellige Zahlen gewählt werden. Das jeweilige Produkt muss zwei sich wiederholende Ziffernfolgen des von 10001 verschiedenen Faktors aufweisen.
+
+Auch die Angabe zweier Aufgaben derart: 12345  100001 = 1234512345 wird akzeptiert. Hier wurde die Anzahl der Nullen nicht um 1 erhöht, sondern verdoppelt.
+
+Wird das Bildungsgesetz z. B. in der Form ABCD  10001 = ABCDABCD notiert, ist dies auch richtig.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Z. B.:
+657  1001 = 657657          275  1001 = 275275
+ |
+Teilaufgabe 2
+RICHTIG
+ | Ergänzung des Textes in der Form:
+
+„Wenn man eine dreistellige Zahl mit 1001 multipliziert, dann erhält man das Ergebnis, indem man die Ausgangszahl zweimal hintereinander schreibt (und als sechsstellige Zahl interpretiert).“
+
+UND
+
+Richtige allgemeine Begründung der Aussage unter Bezug auf die Auswirkungen einer Multiplikation mit 1000 auf den Stellenwert der einzelnen Ziffern sowie die anschließende Addition der gegebenen Zahl.
+
+Anmerkungen:
+• Der Stellenwert der einzelnen Ziffern bzw. deren Veränderung muss dabei nicht angegeben werden.
+• Die Begründung kann in algebraischer oder verbal beschreibender Form erfolgen.
+• Der Fokus liegt auf der Richtigkeit der Begründung.
+
+Z. B.:
+
+Die Ziffern xyz wiederholen sich.
+ |
+RICHTIG
+ | ODER
+Statt eine Zahl mit 1001 zu multiplizieren, kann man die Zahl auch mit 1000 multiplizieren und zum Ergebnis diese Zahl noch einmal addieren.
+Dabei erhält man als Ergebnis nichts Anderes als zweimal die gegebene Zahl hintereinander geschrieben, da bei der Multiplikation mit 1000 drei Nullen angehängt werden. Diese werden bei der Addition der gegebenen Zahl durch deren Ziffern „ersetzt“.
+
+ODER
+Wenn man eine beliebige dreistellige Zahl mit 1001 malnimmt, rechnet man immer
+
+  123 123 123123 000 zzz zzz zzzzzz
+
+ Anm.: Obwohl der explizite Hinweis 1001 = 1000 + 1 fehlt.
+
+ODER (Grenzfall)
+Es gilt n  1001 = n  1000 + n  1
+n ist eine beliebige dreistellige Zahl
+
+Anm.: Das allgemeine Prinzip wurde offensichtlich verstanden. Es fehlt aber die explizite Feststellung, dass n  1000 das n an die 4. - 6. Stelle von rechts hinbringt und dadurch rechts davon den Platz für n lässt.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+Wenn man die 1001 auseinander nimmt und die dreistellige Zahl schriftlich multipliziert, sieht man die Behauptung nach der anschließenden Addition.
+
+ODER (Grenzfall)
+
+123  1001 = 123123
+Weil die Zahl 123 1001-mal multipliziert wurde, erhält man das Ergebnis 123123, aber wenn man das Ergebnis nur 1000-mal multipliziert, erhält man 123000.
+
+Anm.: Hier fehlt der Hinweis, dass rechts von 1000  Zahl die Zahl hinpasst. Diese Begründung ist nur beispielbezogen und letztlich stehen nur Rechnungen da, d. h. eine Verallgemeinerung ist nicht erkennbar.
+ |
+
+===== zahlenaddieren · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K5, Jahrgang 2014
+
+Auswertung - Zahlen addieren
+Teilaufgabe 1
+RICHTIG
+ | 1 + 7; 2 + 6; 3 + 5; 4 + 4
+[Anm.: Die Reihenfolge der Summanden spielt keine Rolle, auch können
+7 + 1, 6 + 2 und 5 + 3 noch zusätzlich genannt werden.]
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+wenn 0 + 8 als Möglichkeit genannt wird.
+ | Teilaufgabe 2
+RICHTIG
+ | Bruchzahlen, deren Summe  ergibt.
+Beispiel(e)
+
+ |
+
+===== zahlengesucht · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K2, Jahrgang 2012
+
+[Bild: image1.jpeg]Zahlen gesucht
+Teilaufgabe 1
+RICHTIG
+ | 123; 132; 213; 231; 312; 321
+Anm.: Die Reihenfolge der Zahlentupel ist irrelevant.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+ |
+Teilaufgabe 2
+RICHTIG
+ | 120
+
+ODER
+5!
+
+ODER
+5  4  3  2  1
+
+ODER
+24  5
+ |
+
+===== zahlenmauer · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K2, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K2, K5, Jahrgang 2012; Teilaufgabe 3: AFB I, Kompetenzstufe 1B, K2, K5, Jahrgang 2012
+
+[Bild: image1.jpeg]Zahlenmauer
+Teilaufgabe 1
+RICHTIG
+ |
+78
+35 43
+4 31 12
+
+ | FALSCH
+ | Alle anderen fehlerhaften, unvollständigen oder falschen Antworten. Insbesondere, wenn nur zwei statt drei Steine richtig ausgefüllt wurden.
+ |
+Teilaufgabe 2
+RICHTIG
+ | x = 20
+Anm.:  Die Steine der Zahlenmauer müssen nicht ausgefüllt werden.
+ |
+Teilaufgabe 3
+RICHTIG
+ | x = 3000
+Anm.:  Die Steine der Zahlenmauer müssen nicht ausgefüllt werden.
+ |
+
+===== zahlenstrahl · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K4, Jahrgang 2015
+
+Auswertung – Zahlenstrahl
+Teilaufgabe 1
+RICHTIG
+ |
+0,5
+0 1
+
+ | Teilaufgabe 2
+RICHTIG
+ |
+0 1
+
+ |
+
+===== zahlensuche · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, K6, Jahrgang 2013
+
+Auswertung – Zahlensuche
+RICHTIG
+ |
+Zahl 5 6 10 16
+Vorgänger der Zahl 4 5 9 15
+Vorgänger doppelt 8 10 18 30
+
+[Anm.: Alle Ergebnisse müssen richtig sein.]
+ |
+
+===== zahlensumme · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K1, K2, K5, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Zahlensumme
+RICHTIG
+ | Richtige Antwort (Nein) UND richtige Begründung, auch durch Angabe eines begründeten Gegenbeispiels.
+
+z. B.
+
+Wenn a ein Vielfaches von 3 ist, dann ist n eine natürliche Zahl.
+Es können also nur Zahlen, die durch drei teilbar sind, als Summe von drei aufeinanderfolgenden Zahlen dargestellt werden.
+
+ODER (Gegenbeispiel)
+Es gilt: 1+2+3=6.
+Die nächste solche Summe ist: 2+3+4=9.
+Also lassen sich die Zahlen 7 und 8 nicht als Summe von drei aufeinanderfolgenden Zahlen darstellen. Somit geht es nicht bei allen natürlichen Zahlen.
+
+ODER (Gegenbeispiel)
+Die Summe von drei aufeinanderfolgenden Zahlen soll 14 sein:
+
+ oder
+
+ oder 4,67 ist keine natürliche Zahl. Also geht es nicht bei allen natürlichen Zahlen.
+
+ |
+
+RICHTIG
+ |
+ODER (inhaltlich)
+Bildet man die Summe von drei Nachbarzahlen, so ist das dasselbe, wie wenn man die mittlere Zahl mit 3 multipliziert. Hierdurch lassen sich aber nur Zahlen, die durch drei teilbar sind, darstellen.
+
+ODER (zeichnerisch)
+
+Die darstellbaren Summen sind also immer nur Vielfache von 3.
+ | FALSCH
+ | Alle anderen unvollständigen, fehlerhaften oder falschen Antworten.
+
+z. B.
+Nein. Sind die Zahlen größer drei, benötigt man auch mehr als drei Zahlen.
+
+ODER
+Nur Angabe einer Zahl ohne Begründung. (z. B. Bei 7 geht es nicht).
+ |
+
+===== zahlgesucht2 · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, Jahrgang 2015
+
+Auswertung – Zahl gesucht
+
+RICHTIG
+ | Angabe einer Zahl aus dem Intervall [240 000; 260 000]
+ |
+
+===== zeitumrechnung · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K5, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K5, Jahrgang 2015; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K2, K6, Jahrgang 2015
+
+Auswertung – Zeitumrechnung
+Teilaufgabe 1
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ | t = 3 Stunden und 39 Minuten
+ | Teilaufgabe 3
+RICHTIG
+ | Beschreibung eines Rechenwegs, in welchem dargelegt wird, dass a die Anzahl der Stunden und 0,b   60 die Anzahl der Minuten angeben.
+Beispiel(e)
+a = Stunden
+0,b  60 = Minuten
+ODER
+60 : 100  b = Minuten (für zweistellige b). Der Hinweis auf die Zweistelligkeit von b wird nicht verlangt.
+a gibt die Anzahl der Stunden an. Die Minuten erhält man, wenn man 0,b mit 60 multipliziert.
+Grenzfall:
+Die Umrechnung kann auch anhand des gegebenen Beispiels oder eines anderen Beispiels durchgeführt werden. Dabei muss der Rechenweg erkennbar sein.
+ |
+
+===== zuschauerzahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2013; Teilaufgabe 2: AFB III, Kompetenzstufe 3, K1, K6, Jahrgang 2013
+
+Auswertung – Zuschauerzahlen
+Teilaufgabe 1
+RICHTIG
+ | 49 000
+ | Teilaufgabe 2
+RICHTIG
+ | Die Begründung muss darauf eingehen, dass bei einigen Vereinen die Zahlen sehr wahrscheinlich gerundet sind und es daher nicht möglich ist, die Gesamtzuschauerzahlen auf Einer genau anzugeben.
+[Anm.: auf-, abgerundet und gerundet ist richtig; auch mit: meistens, oft, immer, alle, manchmal etc.]
+
+Beispiel(e)
+• ...weil manche Zahlen gerundet wurden und manche nicht. Denn es sind bestimmt nicht genau 24 000, 39 000, 51 500 oder 31 000 Zuschauer bei diesen Spielen gewesen. Also kann man daher diese Zahlen nicht alle addieren. Um genaue Werte zu erhalten, müsste man zu den gerundeten Zahlen die genauen Zahlenwerte bekommen.
+• ...weil einige Zuschauerzahlen gerundet wurden. Man kann also nur einen gerundeten Wert ausrechnen und nicht die genaue Zuschauerzahl.
+• (Grenzfall)
+...weil einige Zuschauerzahlen davon wahrscheinlich gerundet sind.
+• (Grenzfall)
+...weil manche Zahlen geschätzt wurden.
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• ... weil mehrere Zuschauerzahlen gemeldet worden sind, und zwar sehr unterschiedliche.
+• (Grenzfall)
+Die Zahlen sind zu ungenau.
+[Anm.: Hier wird die Rundung als Quelle der Ungenauigkeit nicht spezifiziert.]
+ |
+
+===== zwanzigprozent · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K5, Jahrgang 2016
+
+Zwanzig Prozent
+RICHTIG
+ | 30
+ |
+
+===== zweitaschenrechner · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 4, K1, K5, K6, Jahrgang 2017; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K3, K5, K6, Jahrgang 2017
+
+Zwei Taschenrechner
+Teilaufgabe 1:
+RICHTIG
+ | Beschreibung, die darauf eingeht, dass Yasminas Taschenrechner bei der Eingabe von +20 % den Prozentwert der vorangehenden Zahl berechnet und diesen addiert.
+UND
+Beschreibung, die darauf eingeht, dass Davids Taschenrechner die Eingabe von +20 %  als Addition der zum Prozentsatz zugehörigen Dezimalzahl versteht.
+Beispiel(e)
+Yasminas Taschenrechner berechnet den Prozentwert und rechnet diesen plus. Davids Taschenrechner teilt bei Drücken auf % durch 100 und addiert das Ergebnis.
+Bei Yasmina bezieht sich der Prozentsatz auf die Zahl davor. Bei David bezieht sich der Prozentsatz auf die Zahl 1.
+Der Taschenrechner rechnet mal 1,2. Der Taschenrechner rechnet 0,2 = 20 %
+Grenzfall
+(Kombination aus den Antworten, eine Antwort vollkommen richtig, die zweite Antwort im Zusammenhang der ersten richtig interpretierbar)
+Y: Der Taschenrechner zeigt an, was passiert, wenn man 20 % dazu rechnet.
+D: Der Taschenrechner rechnet 20 % in 0,2 um und addiert es.
+ | FALSCH
+ | Beschreibungen, in denen die Rechnungen der Taschenrechner nicht erläutert werden.
+Beispiel(e)
+David und Yasmina erhalten unterschiedliche Ergebnisse, weil ihre Rechner die Eingabe +20 % unterschiedlich interpretieren.
+Davids Rechner rechnet falsch. Yasminas Rechner rechnet richtig.
+Ich denke, dass man das Prozentzeichen weglassen sollte.
+ |
+Teilaufgabe 2:
+RICHTIG
+ | Angabe einer Tastenfolge, mit der Davids Taschenrechner zur vorgegebenen Aufgabe das Ergebnis 300 erhält.
+Beispiel(e)
+
+2 5 0 + 2 0% • 2 5 0 = •
+
+2 5 0 • 0,2 + 2 5 0 = •
+
+Auch die entsprechenden Rechnungen in mehreren Teilschritten
+250 x 20 : 100 = 50 + 250 = 300 (Tastenfolge)
+Grenzfall
+
+2 5 0 • 2 0% = + 2 5 0 =
+
+2 5 0 + 2 0% • 2 5 0
+
+ | FALSCH
+ | Alle anderen Antworten
+Beispiel(e)
+
+2 0 • 2 5 0 ÷ 1 0 0 = •
+
+250 + 50 = 300
+100 % + 20 % = 120 %, es müsste 100 % + 20 % = 1,2 sein.
+[Anm.: Nur die Berechnung des Prozentwerts)
+ |
+
+===== zwischenzweizahlen · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2014
+
+Auswertung - Zwischen zwei Zahlen
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== zwischenzweizahlen2 · Leitidee Zahl
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, Jahrgang 2017; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, Jahrgang 2017
+
+Zwischen zwei Zahlen
+Teilaufgabe 1:
+RICHTIG
+ | zwei unterschiedliche rationale Zahlen aus dem Intervall ]-4,5; -3,5[
+ | Teilaufgabe 2:
+RICHTIG
+ |
+2 3 9 11 mehr als 11
+
+ |

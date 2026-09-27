@@ -1,0 +1,941 @@
+Quelle: VERA-8 Mathematik, Aufgabenpool (Aufgaben der Jahrgänge 2011–2017), Archiv „Alle Aufgaben der Leitidee 3 (Raum und Form)“, IQB Berlin – Auswertung (Kodieranweisung, Lösungen)
+Adresse: https://www.iqb.hu-berlin.de/media/exercise_group_files/VERA-8_Mathematik/V8_MA_L3_Word.zip (verlinkt auf https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/; Metadaten je Aufgabe von https://www.iqb.hu-berlin.de/de/schule/aufgaben/seki/vera-8-mathematik/?page=1…25)
+Abrufdatum: 2026-09-27
+Seitenzahl: entfällt – Word-Dateien (.docx/.doc), je Aufgabe eine Datei „Auswertung“ mit 1–4 Seiten; hier 42 Aufgaben (Aufgaben, die in zwei Archiven liegen, stehen nur unter ihrer ersten Leitidee)
+Lizenzvermerk: kein Vermerk in den Auswertungs- und Kommentierungsdateien; der Vermerk steht in der Aufgabendatei (siehe Aufgabendatei derselben Leitidee)
+Textfassung: Text aus document.xml, Formeln und Aufgabentext aus den eingebetteten EMF/WMF-Bildern (eigener Parser, Zeilen nach Lage sortiert); Rasterbilder als [Bild: …] mit OCR der Seite; Tabellen mit „ | “.
+Ablage: Fremdoriginale-Lauf iqb-vera8 vom 2026-09-27, Konkordanz katalog/_fremd-konkordanz-iqb-vera8.md
+
+===== ansichteneinestischs · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K3, K6, Jahrgang 2017
+
+Ansichten eines Tischs
+
+RICHTIG
+ | Abbildung 2: A
+UND
+Abbildung 3: D
+UND
+Abbildung 4: B
+ |
+
+===== besonderevierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2015
+
+Auswertung – Besondere Vierecke
+RICHTIG
+ | Ein Rechteck ist eingezeichnet.
+Beispiel(e):
+
+ |
+
+===== bewegec · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K2, K4, K5, K6, Jahrgang 2011; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2011
+
+Bewege C
+Teilaufgabe 1
+RICHTIG
+ | Richtige Konstruktion des Punktes C, so dass das entstehende Dreieck ABC gleichseitig ist. Dies kann beispielsweise auf folgende Art und Weise geschehen:
+
+Die Position von C lässt sich als Schnittpunkt eines Kreises um A und eines Kreises um B, jeweils mit Radius
+
+, bestimmen.
+
+ODER
+In A und in B werden 60°-Winkel an die Strecke
+
+abgetragen. C ist der Schnittpunkt der beiden freien Schenkel.
+
+ODER
+In A oder in B wird ein 60°-Winkel an die Strecke
+
+ angetragen. C ist der Schnittpunkt des zugehörigen freien Schenkels und der Mittelsenkrechte m.
+
+Eine Beschreibung der Konstruktion ist jedoch nicht erforderlich.
+Die fehlenden Maße müssen nicht eingetragen werden. Eine Beschriftung des Punktes C, der Winkel oder der Seiten des Dreiecks ist nicht erforderlich.
+Zeichentoleranz  2 mm bzw.  1°
+
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Konstruktionen.
+
+Z. B.:
+Konstruktion des Punktes C, ohne dass dieser mit den beiden anderen Punkten A und B verbunden wird.
+
+ODER
+Es wird ein gleichschenkliges Dreieck konstruiert.
+
+ODER
+Eine (mit Maßen beschriftete) aber falsche Skizze wird angefertigt.
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+
+Anmerkungen:
+• Die erforderliche Zeichengenauigkeit für die Position von C auf m beträgt
+ 2 mm. Eine Beschriftung des Punktes C ist nicht erforderlich.
+• Punkt C kann auch unterhalb von M eingezeichnet werden.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Lösungen.
+
+Z. B. jene Konstruktion, bei der die Basiswinkel jeweils 48° groß sind (Größe Basiswinkel = 180° - 132°)
+ |
+
+===== briefmarkenschachteln · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 1B, K4, Jahrgang 2012; Teilaufgabe 2: AFB II, Kompetenzstufe 2, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Briefmarkenschachteln
+Teilaufgabe 1
+RICHTIG
+ |
+S C H W
+E
+I
+Z
+
+ODER
+
+S C H W E I Z S C H W
+E
+I
+Z
+
+ |
+
+Teilaufgabe 2
+RICHTIG
+ |
+P O R T
+U
+G
+A
+L
+
+ | FALSCH
+ | Alle anderen Lösungen (Insbesondere Buchstaben in falscher Ausrichtung).
+ |
+
+===== drehkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1, K4, Jahrgang 2011
+
+Drehkörper
+RICHTIG
+ |
+
+ |
+
+===== dreieckeergaenzen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2016
+
+Dreiecke ergänzen
+RICHTIG
+ |
+
+Zwei dieser drei Lösungen müssen vorhanden sein.
+[Anm.: Zeichentoleranz:  1 mm]
+Grenzfall
+Parallelogramme wurden in das Innere des Dreiecks gezeichnet. Dabei werden mindestens zwei Seiten des Dreiecks genutzt.
+ |
+
+===== eckenanpyramiden · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013
+
+Auswertung – Ecken an Pyramiden
+RICHTIG
+ | 5
+ |
+
+===== eckenundkanten · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Auswertung – Ecken und Kanten
+RICHTIG
+ | Quader: 8 Ecken
+UND
+Pyramide: 8 Kanten
+ |
+
+===== eingefaerbterkoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, Jahrgang 2016
+
+Eingefärbter Körper
+RICHTIG
+ | 4
+ |
+
+===== fahrtrichtunggeradeaus · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2015
+
+Auswertung – Fahrtrichtung geradeaus
+Teilaufgabe 1
+RICHTIG
+ |
+
+ | Teilaufgabe 2
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== geometrischekoerper · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Geometrische Körper erkennen
+RICHTIG
+ |
+ja nein
+Zylinder
+Quader
+Pyramide
+Kegel
+Kugel
+
+ |
+
+===== grosserwagen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, Jahrgang 2015; Teilaufgabe 3: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+
+Auswertung – Großer Wagen
+Teilaufgabe 1
+RICHTIG
+ | 3. Stern ( 1 | -1 )
+UND
+4. Stern ( 0 | 1 )
+UND
+6. Stern ( -5 | 0,5 )
+ | Teilaufgabe 2
+RICHTIG
+ |
+y
+5
+3
+1. Stern
+5. Stern 4. Stern
+1 6. Stern
+x
+- 5 - 3 - 1 1 3 5
+2. Stern - 1
+7. Stern
+3. Stern
+- 3
+- 5
+
+[Anm.: Auch richtig ist, wenn nur der Stern an der richtigen Stelle eingezeichnet wurde (ohne Beschriftung "7. Stern" und Verbindung zum 6. Stern).]
+ | Teilaufgabe 3
+RICHTIG
+ | ( 4 | 14,5 )
+ |
+
+===== innenwinkel2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 4, K5, Jahrgang 2017; Teilaufgabe 3: AFB III, Kompetenzstufe 5, K1, K5, Jahrgang 2017
+
+Innenwinkel
+Teilaufgabe 1:
+RICHTIG
+ |
+  
+20 ° 90 ° 70 °
+
+ODER
+
+  
+20 ° 70 ° 90 °
+
+ | Teilaufgabe 2:
+RICHTIG
+ | Zwei der folgenden Möglichkeiten:
+
+        
+1. Möglichkeit:
+50 ° 50 ° 80 °
+2. Möglichkeit:
+50 ° 80 ° 50 °
+3. Möglichkeit:
+50 ° 65 ° 65 °
+
+ |
+Teilaufgabe 3:
+RICHTIG
+ | Begründung durch Widerspruch zu Sätzen der Geometrie. Dies kann auch mithilfe einer Zeichnung erfolgen.
+Beispiel(e)
+Im gleichseitigen Dreieck sind alle Winkel gleich groß. Wenn also einer  hat, müssen alle  haben. Das wären aber zusammen .
+In jedem gleichseitigen Dreieck sind alle 3 Innenwinkel gleich groß, d.h. . In einem rechtwinkligen Dreieck ist ein Winkel .
+Wenn das Dreieck rechtwinklig ist, dann liegt diesem Winkel die größte Seite gegenüber. Damit gibt es nicht 3 gleich lange Seiten.
+
+ | FALSCH
+ | Alle anderen Antworten.
+Beispiel(e)
+Seiten haben
+
+ |
+
+===== koordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2013
+
+Auswertung – Quadrat im Koordinatensystem
+RICHTIG
+ | 2. Kästchen wurde angekreuzt.
+ |
+
+===== kreiseundvierecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, K5, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Kreise und Vierecke
+Teilaufgabe 1
+RICHTIG
+ |
+
+Anm.: In der Zeichnung sollen die Hilfslinien (Diagonalen des Quadrats) erkennbar sein.
+Zeichentoleranz:  1 mm
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtige Antwort (Nein) UND Angabe einer Begründung (als Skizze oder verbal), die erkennen lässt, dass die beiden anderen Eckpunkte einer Raute nicht auch auf der Kreislinie liegen müssen.
+Zeichentoleranz:  1 mm
+
+z. B.
+Der Kreismittelpunkt ist Schnittpunkt der beiden Diagonalen der Raute. Diese stehen senkrecht aufeinander und halbieren sich. Nur falls beide Diagonalen auch Durchmesser des Kreises sind, liegen alle 4 Eckpunkte auf der Kreislinie. Dann ist es aber eine spezielle Raute (Quadrat).
+
+ODER
+Bei der Raute liegen nur zwei Ecken auf der Kreislinie, also stimmt Martins Aussage nicht für jede Raute.
+
+ODER
+Dies geht nur bei einem Quadrat.
+Anm.: "Nur" deutet auf das Erkennen des Spezialfalls Quadrat als besondere Raute hin.
+
+ODER (Grenzfall)
+Eine Raute wird gezeichnet.
+ |
+
+===== lagederwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K2, K4, K6, Jahrgang 2013
+
+Auswertung – Lage der Würfel
+RICHTIG
+ | Auf der grauen Seitenfläche fehlt die Augenzahl 1.
+ODER
+Auf der grauen Seitenfläche fehlt die Augenzahl 6.
+ODER
+Auf der grauen Seitenfläche fehlt die Augenzahl 1 oder 6.
+
+UND
+
+eine Beschreibung, wie die fehlende Zahl 1 oder 6 ermittelt wurde. Aus der Beschreibung muss hervorgehen, dass
+ - die Augensumme 7 gegenüberliegender Seitenflächen berücksichtigt wurde,
+ - die jeweils aneinander liegenden Seitenflächen die gleiche Beschriftung tragen.
+ODER
+Die Ermittlung der Positionen der Zahlen 2 bzw. 5 und 3 bzw. 4 wird korrekt beschrieben. Im letzten Schritt der Beschreibung des Lösungsweges wird festgestellt, dass das Zahlenpaar 6 und 1 noch fehlt. Deswegen kann (oder muss) die graue Fläche mit 1 oder mit 6 beschriftet sein.
+[Anm.: Statt der Zahl 1 kann auch ein "dicker Punkt" als Symbol für die Zahl 1 notiert werden oder eine andere Darstellung der Zahl 1. Als weitere Lösung wird auch 6 akzeptiert, da Würfel nicht immer einheitlich beschriftet sind und gegenüberliegende Zahlen (bei Wahrung der Augensumme 7) mitunter vertauscht sind. ]
+
+Beispiel(e)
+• Beim Würfel rechts hinten muss links eine 3 sein, damit muss auch beim Würfel mit der grauen Fläche rechts eine 3 sein. Beim Würfel links vorne muss hinten eine 2 sein, damit muss auch beim Würfel mit der grauen Fläche vorne eine 2 sein. Der Würfel mit der grauen Fläche ist also genauso beschriftet wie der Würfel rechts vorne.
+•
+[Bild: image1.png]
+Von den gegebenen Augenzahlen kann man die gegenüberliegende Seite ergänzen (immer zu 7). Die Würfel, die aneinander liegen, wo aber nichts gegeben ist, kann ich auch bestimmen, weil sie die gleiche Zahl haben wie der Würfel, der daneben liegt. Die Würfel sind gleich beschriftet, also (vorne rechts ist zwei) und beim hinteren Würfel ist vorne auch zwei, deswegen oben 1.
+
+• (Grenzfall)
+[Bild: image2.png]
+[Anm.: In dieser Lösung fehlt die Beschreibung des Lösungsweges. Die Zeichnung lässt jedoch erkennen, was gedacht und wie die Lösung 1 korrekt ermittelt wurde.]
+• (Grenzfall)
+[Bild: image3.png]
+Lösung 1 und Begründung:
+1) Ich habe als erstes die Seiten gezählt, die gegenüberliegen.
+2) Zum Schluss blieben zwei Zahlen übrig, die ich dann aufgeteilt habe!
+[Anm.: In dieser Beschreibung wird der Gedankengang nur oberflächlich aber richtig deutlich. Die fehlende Zahl wird richtig bestimmt.]
+ | FALSCH
+ | Alle anderen Antworten.
+
+Beispiel(e)
+• Da sich die Spielflächen berühren, sieht man, dass der gesuchte Würfel identisch mit dem rechten vorderen ist.
+•
+[Bild: image4.png]
+Vorne stehen 5 und 2. Das heißt, dass hinten 2 und 5 stehen müssen. 4 und 3 werden zu 3 und 4. Zwischen 2 und 3 ist 1.
+[Anm.:  Zwar wird die fehlende Augenzahl richtig ermittelt, allerdings ignoriert die Beschreibung des Lösungsweges, dass vollständig aneinander stoßende Seitenflächen die gleiche Beschriftung tragen.]
+• Lösung 1 und Begründung:
+Weil die 6 innen steht und daher wie beim vorderen Würfel mit 2,3,1 die 6 innen ist und deshalb muss es 1 sein.
+[Anm.: In dieser Lösung wird nicht deutlich, warum "innen" (gemeint ist "unten") die Zahl 6 steht. Es fehlt der Hinweis auf selbe Zahlen bei berührenden Flächen]
+ |
+
+===== parallelogramme · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, K6, Jahrgang 2013
+
+Auswertung – Deckungsgleiche Parallelogramme
+RICHTIG
+ |
+
+ODER
+
+Die Gerade muss durch die Seitenmitten zweier gegenüberliegender Seiten verlaufen.
+Zeichentoleranz:   2 mm
+ |
+
+===== punkteimkoordinatensystem · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 3, K2, K4, K5, Jahrgang 2011
+
+Punkte im Koordinatensystem
+Teilaufgabe 1
+RICHTIG
+ | Richtige Zeichnung und richtige Angabe der Koordinaten des Punktes (9|10).
+
+Toleranz: jeweils  0,1 sowohl bei der x-Koordinate als auch bei der y-Koordinate
+
+Anm.:
+Grenzfälle für „Richtig“:
+(1) Der gesuchte Punkt wird richtig eingezeichnet und dessen Koordinaten richtig angegeben. Die fehlenden Seiten der Raute werden jedoch nicht ergänzt.
+(2) Der gesuchte Punkt wird richtig eingezeichnet und mit den bereits vorhandenen Punkten zu einer Raute ergänzt. Die x- und y-Koordinate werden jedoch vertauscht.
+ | FALSCH
+ | Alle anderen, unvollständigen, fehlerhaften oder falschen Antworten.
+ |
+Teilaufgabe 2
+RICHTIG
+ |
+
+Die Spiegelachse muss durch die Punkte A (3|4) und P (6|7) bzw. D (9|10) verlaufen. Der Punkt P muss nicht eingezeichnet oder benannt werden.
+
+Anmerkungen:
+• Wenn beide Symmetrieachsen eingezeichnet sind, wird dies auch als richtig gewertet.
+• Akzeptiert werden sowohl bei der x-Koordinate als auch bei der y-Koordinate Abweichungen  2 mm.
+ |
+
+===== punktgenau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2013
+
+Auswertung – Punktgenau
+Teilaufgabe 1
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2
+RICHTIG
+ |
+y
+Q
+3
+2
+P
+1
+x
+- 3 - 2 - 1 2 3 1
+- 1
+- 2
+- 3
+
+Zeichengenauigkeit: Die Lösung ist richtig, wenn die Markierung dem "Gitterpunkt" eindeutig zugeordnet werden kann. Zeichentoleranz: 1 mm.
+[Anm.: Die Aufgabe wird auch als richtig gewertet, wenn der Punkt nicht beschriftet wurde.]
+ |
+
+===== punktgesucht · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 5, K2, K4, K5, K6, Jahrgang 2012; Teilaufgabe 2: AFB III, Kompetenzstufe 4, K2, K4, K6, Jahrgang 2012
+
+[Bild: image1.jpeg]Punkt gesucht
+Teilaufgabe 1
+RICHTIG
+ | Richtige Konstruktion UND Angabe eines richtigen Punktes:
+P ( 3 | 4 ) ODER P ( 3 | 10 )
+
+[Bild: image2.png]
+Zeichentoleranz bezüglich der x- und y-Koordinate des Punktes P  1 mm.
+
+Anm.: Der Kreis um Punkt D muss nicht vollständig gezeichnet werden. Es genügt, den Kreisbogen so lang zu zeichnen, dass er zumindest einmal die Mittelsenkrechte von AB schneidet.
+ |
+
+Teilaufgabe 2
+RICHTIG
+ | Angabe eines Beispiels für d, so dass sich keine Lösung ergibt (d < 4 Längeneinheiten).
+
+z. B.
+d = kleiner als 4  Längeneinheiten
+
+ODER
+d = 3 Längeneinheiten
+ | FALSCH
+ | Alle anderen Antworten.
+
+z. B.
+d = 5 Längeneinheiten
+ |
+
+===== pyramidenbau · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2014
+
+Auswertung - Pyramidenbau
+RICHTIG
+ | 3 Stäbe
+2 Kugeln
+ |
+
+===== quadernetz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K4, Jahrgang 2014
+
+Auswertung - Quadernetz
+RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | RICHTIG
+ | 2. Kästchen wurde angekreuzt
+ | RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== quadernetz2 · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2015
+
+Auswertung – Quadernetz 2
+RICHTIG
+ | 4. Kästchen wurde angekreuzt
+ |
+
+===== quadernetzvervollstaendigen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2014
+
+Auswertung - Quadernetz vervollständigen
+RICHTIG
+ | Das zusammengefaltete Netz muss einen Quader ergeben.
+Beispiel(e)
+
+ | FALSCH
+ | Alle Netze, die zusammengefaltet keinen Quader ergeben.
+ |
+
+===== quadrate · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2016
+
+Quadrate
+RICHTIG
+ |
+y
+D C
+8
+7
+6
+5
+4
+3
+2
+B A
+1
+0
+x 0 1 2 3 4 5 6 7 8 9 10 11 12
+
+[Anm.: Als richtig gilt auch, wenn der Punkt ohne oder mit anderer Beschriftung eingezeichnet wird.]
+ |
+
+===== quadratundraute · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K4, K6, Jahrgang 2015; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K4, K6, Jahrgang 2015
+
+Auswertung – Quadrat und Raute
+Teilaufgabe 1
+RICHTIG
+ | Ein eingezeichnetes Quadrat, wobei  eine Diagonale des Quadrats ist.
+[Anm.: Die Eckpunkte müssen nicht markiert oder bezeichnet.]
+Beispiel(e)
+
+y
+7
+6
+D C 5
+4
+3
+2 A B
+1
+x
+1 2 3 4 5 6 7
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Eine eingezeichnete Raute (Rhombus)
+[Anm.: Die Eckpunkte müssen nicht markiert oder bezeichnet.]
+Beispiel(e)
+
+y
+7 Q
+6
+C 5
+4
+3
+2 A
+1 P
+x
+1 2 3 4 5 6 7
+
+ |
+
+===== quadratzeichnen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K5, Jahrgang 2013
+
+Auswertung – Quadrat zeichnen
+RICHTIG
+ | Quadrat mit der Seitenlänge 5 cm, welches nicht freihändig gezeichnet ist.
+[Anm.: Zeichentoleranz  1 mm und  1°
+Etwaige Bezeichnungen des Quadrats gehen nicht in die Kodierung ein.]
+ |
+
+===== rechteck · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1A, K4, Jahrgang 2017
+
+Rechteck
+
+RICHTIG
+ |
+y
+5
+D C
+4
+3
+A B
+2
+1
+x
+0 1 2 3 4 5 6
+
+[Anm.: Als richtig gilt auch, wenn der Punkt ohne Beschriftung eingezeichnet wird.]
+ |
+
+===== regelmaessigevielecke · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, K5, Jahrgang 2011; Teilaufgabe 2: AFB I, Kompetenzstufe 2, K4, K5, Jahrgang 2011; Teilaufgabe 3: AFB III, Kompetenzstufe 4, K2, K6, Jahrgang 2011
+
+Regelmäßige Vielecke
+Teilaufgabe 1
+RICHTIG
+ | Die Lösung ist richtig, wenn alle drei Symmetrieachsen eingezeichnet sind
+
+C
+B A
+
+Anm.: Hinsichtlich der Lage der einzelnen Spiegelachsen ist darauf zu achten, dass diese senkrecht auf der Strecke zwischen den beiden jeweiligen Punkten stehen (1° Abweichung ist hierbei noch akzeptabel) und durch den dritten Punkt verlaufen.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+
+C C
+B B A A
+
+ |
+Teilaufgabe 2
+RICHTIG
+ | Die Lösung ist richtig, wenn alle vier Symmetrieachsen eingezeichnet sind.
+
+C D
+B A
+
+Anm.:
+Hinsichtlich der horizontal bzw. vertikal verlaufenden Spiegelachsen ist darauf zu achten, dass diese senkrecht auf den beiden gegenüberliegenden Seiten des Quadrats stehen und durch deren Mittelpunkte verlaufen. Die beiden diagonal verlaufenden Spiegelachsen müssen durch die beiden gegenüberliegenden Eckpunkte des Quadrats gehen. Bei einer Parallelverschiebung darf die vertikale und horizontale Spiegelachse maximal um  1 mm von der richtigen Lage abweichen. Bei „leichten Schieflagen“ ist 1° Abweichung zu akzeptieren.
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Z. B.:
+
+C D C D
+B A B A
+
+ |
+Teilaufgabe 3
+RICHTIG
+ | Angabe der richtigen Symmetrieachsen-Anzahlen:
+
+Fünfeck: 5 UND
+Sechseck: 6 UND
+27-Eck: 27
+ |
+
+===== schachtelnpacken · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 5, K2, K6, Jahrgang 2013; Teilaufgabe 3: AFB II, Kompetenzstufe 4, K1, K2, K6, Jahrgang 2013
+
+Auswertung – Schachteln packen
+Teilaufgabe 1
+RICHTIG
+ | Mittlere Schachtel:  11
+Große Schachtel:  23
+ | Teilaufgabe 2
+RICHTIG
+ | 5. Kästchen wurde angekreuzt
+ | Teilaufgabe 3
+RICHTIG
+ |
+richtig falsch
+Die Kantenlänge wird dreimal verdoppelt. Also
+passen jetzt 2 × 2 × 2 = 8 kleine Schachteln
+Lisa nebeneinander, und das in Länge, Breite und Höhe.
+Also passen 8 × 8 × 8 = 512 kleine Schachteln in die
+Riesenschachtel.
+Die Riesenschachtel hat eine Kantenlänge von
+47 cm. Da passen 9 kleine Schachteln
+Frieda
+nebeneinander. Also passen 9 × 9 × 9 = 729 kleine
+Schachteln in die Riesenschachtel.
+Die Riesenschachtel hat ein Volumen von
+3 3 (47 cm) = 103 823 cm. Die kleine Schachtel hat ein
+3 3 Erika Volumen von (5 cm) = 125 cm. Es passen also
+103823: 125, d. h. 830 kleine Schachteln in die
+Riesenschachtel.
+
+ |
+
+===== schneekristalle · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K2, K4, Jahrgang 2013
+
+Auswertung – Schneekristalle
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== seitenflaechen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K5, Jahrgang 2013; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, Jahrgang 2013; Teilaufgabe 3: AFB I, Kompetenzstufe 3, K2, Jahrgang 2013
+
+Auswertung – Köper mit Seitenflächen
+Teilaufgabe 1
+RICHTIG
+ | 6
+ |
+Teilaufgabe 2
+RICHTIG
+ | Richtig sind Lösungen, in denen ein Körper genannt, eindeutig beschrieben oder skizziert wird, dessen Oberfläche aus fünf Flächen besteht.
+
+Beispiel(e)
+• Pyramide mit viereckiger Grundfläche
+• Prisma mit dreieckiger Grundfläche
+• Pyramidenstumpf mit dreieckiger Grundfläche, dabei muss die liegende dreieckige Schnittfläche nicht parallel zur Grundfläche verlaufen
+•
+[Bild: image1.png]
+•
+[Bild: image2.png]
+[Anm.: Handskizzen gelten als richtig, wenn die Form eindeutig zu erkennen ist.]
+• (Grenzfall)
+Toblerone(-Packung)
+ | FALSCH
+ | Alle unvollständigen, fehlerhaften oder falschen Antworten.
+
+Beispiel(e)
+• Pyramide (ohne weitere Beschreibung)
+• Prisma (ohne weitere Beschreibung)
+• Lösungen, in denen ein Gegenstand genannt wird, der die entsprechende Form hat oder haben kann, sind falsch.
+Wie: Zelt, Dach, Kirchturmdach
+ | Teilaufgabe 3
+RICHTIG
+ | 1. Kästchen wurde angekreuzt
+ |
+
+===== streckeimkoordinatenkreuz · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2014; Teilaufgabe 2: AFB I, Kompetenzstufe 4, K2, K4, Jahrgang 2014
+
+Auswertung - Strecke im Koordinatenkreuz
+Teilaufgabe 1
+RICHTIG
+ | B ( 4,5 | 2,5 )   C ( 3 | 4 )
+(Grenzfall)
+ B ( 3 | 4 )   C ( 4,5 | 2,5 )
+
+ODER
+B ( 1,5 | - 0,5 )   C ( 0 | 1 )
+(Grenzfall)
+B ( 0 | 1 )   C ( 1,5 | - 0,5 )
+ | Teilaufgabe 2
+RICHTIG
+ | A' (- 3 | 1 )   D' ( - 1,5 | 2,5 )
+ |
+
+===== trapezohnesymmetrie · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K1, K4, K6, Jahrgang 2016
+
+Trapez ohne Symmetrie
+RICHTIG
+ |
+AB CD
+Dieses Trapez hat keine Symmetrieachse, weil … richtig falsch
+… ein Trapez mit unterschiedlich langen Seiten und
+niemals eine Symmetrieachse hat.
+… ein Trapez mit unterschiedlich großen Winkeln in den
+Punkten A und B niemals eine Symmetrieachse hat.
+… ein Trapez niemals eine Symmetrieachse hat.
+
+ |
+
+===== unfertigerwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 2, K2, K4, K6, Jahrgang 2013; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2013
+
+Auswertung – Unfertiger Würfel
+Teilaufgabe 1
+RICHTIG
+ | 12 (Würfel)
+ | Teilaufgabe 2
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ |
+
+===== ungewoehnlicherspielwuerfel · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB II, Kompetenzstufe 4, K2, K4, Jahrgang 2017; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2017
+
+Ungewöhnlicher Spielwürfel
+Teilaufgabe 1:
+RICHTIG
+ | Eines der folgenden Netze liegt vor.
+
+ODER
+
+[Anm.: Andere Zeichnungen mit analogen Beschriftungen sind ebenfalls zugelassen. Die Orientierung der Punkte ist nicht wichtig (z. B. bei der Zwei).]
+ |
+Teilaufgabe 2:
+RICHTIG
+ | Eines der folgenden Netze liegt vor. Die Zeichengenauigkeit wird nicht bewertet.
+
+ODER
+ODER ODER
+ODER
+
+Grenzfälle
+Eines der beiden folgenden Netze wird gezeichnet – hierbei muss aber deutlich werden, dass (wie in der Skizze angedeutet) die winkelförmige Seite immer nur seitlich (Bild 1: links; Bild 2: rechts) an der „Seite ohne Punkte“ befestigt ist.
+
+ODER
+
+Die winkelförmige Seite wurde richtig angefügt, aber nicht mit den drei Punkten versehen.
+ | FALSCH
+ | Alle anderen Antworten
+Beispiel(e)
+Es wurden nur drei Punkte auf das vorgegebene Netz gemalt.
+ |
+
+===== verkehrszeichen · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 4, K4, Jahrgang 2012; Teilaufgabe 2: AFB I, Kompetenzstufe 1A, K4, K5, Jahrgang 2012; Teilaufgabe 3: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012; Teilaufgabe 4: AFB I, Kompetenzstufe 2, K4, Jahrgang 2012
+
+[Bild: image1.jpeg]Verkehrszeichen
+Teilaufgabe 1
+RICHTIG
+ |
+ja nein
+
+ |
+
+Teilaufgabe 2
+RICHTIG
+ |
+s
+
+Anm.: Die gespiegelten Eckpunkte müssen auf den Schnittpunkten des Rasters liegen. Zeichentoleranz diesbezüglich  1 mm.
+ |
+
+Teilaufgabe 3
+
+RICHTIG
+ |
+
+Anm.: Es müssen alle Spiegelachsen eingezeichnet sein. Die einzelnen Achsen dürfen um 1 mm bzw. 3° von ihrer ursprünglichen Lage abweichen.
+ |
+
+Teilaufgabe 4
+RICHTIG
+ |
+
+Anm.: Der Fehler kann auch mittels eines anderen Zeichens (z. B. Kreuz) gekennzeichnet werden. Es kann auch das "S" im linken Bild markiert werden.
+ |
+
+===== winkelgamma · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 5, K1, K4, K5, K6, Jahrgang 2014
+
+Auswertung - Winkel Gamma
+RICHTIG
+ | Die korrekte Reihenfolge der Karten wird notiert:
+
+K 1 K 7 K 2 K 4 K 8 K 5 K 6 K 3
+
+ |
+
+===== woliegtc · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 3, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016
+
+Wo liegt C?
+Teilaufgabe 1:
+RICHTIG
+ | Passender Punkt  eingezeichnet
+UND
+Angabe der Koordinaten von :
+ ( 3 | 1 )
+ODER
+ ( 6 | 7 )
+ODER
+ein Punkt auf dem Thaleskreis
+[Anm.: Die Orientierung des Dreiecks  muss nicht berücksichtigt werden. Der Hinweis auf den Thaleskreis dient nur der Korrektur und ist nicht Teil der erwarteten Lösung.]
+ | Teilaufgabe 2:
+RICHTIG
+ | Passender Punkt , der auf der Geraden mit der Gleichung  liegt.
+
+y
+8
+A 7
+6
+5
+4
+3
+2
+B 1
+- 2 - 1 1 2 3 4 5 6 7 8 9 10 11 12 13 x - 1
+- 2
+
+[Anm.: Toleranz bei x und y um jeweils  0,2]
+UND
+Angabe der Koordinaten von
+ |
+
+===== wuerfelnetze · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 1B, K4, Jahrgang 2016
+
+Würfelnetze
+RICHTIG
+ | 4. Kästchen wurde angekreuzt (Mitte untere Reihe)
+ |
+
+===== wuerfelturm · Leitidee Raum und Form (auch im Archiv L4)
+Metadaten der Seite: Teilaufgabe 1: AFB I, Kompetenzstufe 2, K2, K4, Jahrgang 2016; Teilaufgabe 2: AFB II, Kompetenzstufe 3, K2, K4, Jahrgang 2016; Teilaufgabe 3: AFB III, Kompetenzstufe 3, K2, K5, K6, Jahrgang 2016
+
+Würfelturm
+Teilaufgabe 1:
+RICHTIG
+ | 3. Kästchen wurde angekreuzt
+ | Teilaufgabe 2:
+RICHTIG
+ |
+Anzahl der übereinander Anzahl der sichtbaren
+gestapelten Würfel Würfelseitenflächen
+3 13
+4 17
+…...
+10 41
+
+ | Teilaufgabe 3:
+RICHTIG
+ | n  4 + 1
+[Anm.: Äquivalente Terme und rekursive Formulierungen (A(n) = A(n - 1) + 4;
+A(1) = 5) sind auch als richtig zu werten.]
+ |
+
+===== zweikreise · Leitidee Raum und Form
+Metadaten der Seite: Teilaufgabe 1: AFB III, Kompetenzstufe 3, K2, K4, K6, Jahrgang 2016; Teilaufgabe 2: AFB III, Kompetenzstufe 5, K1, K2, K4, K6, Jahrgang 2016
+
+Zwei Kreise
+Teilaufgabe 1:
+RICHTIG
+ |
+Aussage wahr falsch
+Alle Winkel im Dreieck ABH sind gleich groß.
+Das Dreieck BFH ist gleichseitig.
+Das Dreieck DFH ist gleichschenklig.
+Im Dreieck AHD sind alle drei Winkel unterschiedlich
+groß.
+Der Winkel a beträgt 60 °.
+
+[Anm.: Ein Punkt wird bereits vergeben, wenn 4 der 5 Kreuze richtig gesetzt wurden.]
+ | Teilaufgabe 2:
+RICHTIG
+ | Ja
+UND
+Begründung, die auf die gleiche Höhe beider Dreiecke und die dreifache Länge der Grundseite des Dreiecks  im Vergleich zur Grundseite des Dreiecks  abzielt.
+Beispiel(e)
+Die beiden Dreiecke haben die gleiche Höhe, aber bei einem Dreieck ist die Grundseite dreimal länger.
+ ;
+ | FALSCH
+ | Antworten mit fehlender oder unvollständiger Begründung.
+Beispiel(e)
+Die drei Grundseiten ,  und  sind jeweils gleich lang und ergeben zusammen die Grundseite .
+
+[Anm.: Hier fehlt der Bezug zu den Höhen.]
+ |
