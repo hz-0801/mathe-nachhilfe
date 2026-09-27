@@ -1,4 +1,5 @@
 # Vorschläge für das Urteil im Chat (2026-09-27)
+umgesetzt am 2026-09-27, Commit ca7939b (Abschnitt 1 und 2 nach dem Urteil vom 26.09.; Abschnitt 3 nicht umgesetzt, weil msa/msa-katalog-gym.csv außerhalb des Schreibbereichs des Auftrags liegt; Abschnitt 4 ohne Änderung der Einträge als erledigt geschlossen – Absicht, Sammelthemen)
 
 Zweck: vier Posten aus faellig.md § 2, deren Urteil im Chat mit einem ausgearbeiteten Vorschlag schneller fällt – (1) der Ausbau der neuen Einheiten potenz-exponentialfunktionen 5 und daten 7 (katalog/_marken-neue-einheiten.md), (2) die zwei G-Inhalte aus befund-geltung-2026-09-21.md § 3, (3) das Nebentyp-Etikett von 2025-GYM-K5d, (4) die Namensabweichungen aus katalog/_verweise.md Prüfung 3 (b).
 Stand: Katalog auf Commit b9683ed (Auftrag Nacht 2026-09-27, Teil 7). Abschnitt 1 und 2 von Hilfsagenten (Opus) entworfen und in der Auftragssitzung durchgesehen, Abschnitt 3 und 4 in der Auftragssitzung geschrieben. Zeilennummern der Einträge beziehen sich auf diesen Stand.

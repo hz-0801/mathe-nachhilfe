@@ -1,4 +1,5 @@
 # Vorschläge 29.09.2026 – Katalogbefund 3–8 und Sek-II-Nachzug
+umgesetzt am 2026-09-27, Commit 72a01d3 (Katalogbefund 3 bis 8; die Belegfragen zu Befund 5 – Typzeilen „Spannweite“ und „Boxplot zeichnen“ – liegen in werkzeuge/ und bleiben offen)
 
 Stand 29.09.2026, Katalog auf Commit c8c16ef (Auftrag Nacht 2026-09-29, Teil 8; der Abschnitt „Sek-II-Nachzug“ gehört zu Teil 4 Punkt 7). Zeilennummern „Z.“ der Einträge und der Belegdateien beziehen sich auf diesen Stand.
 

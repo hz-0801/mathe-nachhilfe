@@ -1,4 +1,5 @@
 # Vorschläge Sprossenregel (Sek-I-Einträge)
+umgesetzt am 2026-09-27, Commit 6c51f79 (alle sechs Vorschläge; Hinweis 3: Zehn-Prozent-Schritte als Vorform vor dem Ein-Prozent-Weg)
 Stand 29.09.2026, Katalog auf Commit c8c16ef.
 
 Zweck: Vorschlagsdatei zu Befund Katalog Punkt 2 aus `befund-testlauf-2026-09-25.md`; das Urteil fällt im Chat (`beschluss-2026-09-26.md` Punkt 5). Kein Eintrag ist geändert; erzeugt im Auftrag `auftrag-nacht-2026-09-29.md`, Teil 7.
