@@ -1,0 +1,75 @@
+# Kürzeltabelle der Katalogeinträge (Vorschlag 2026-09-28): drei Großbuchstaben je Eintrag für die Blattkennung XXX-L3. Prüfung: python -c "import csv;r=[z for z in csv.reader(open('katalog/_kuerzel.csv',encoding='utf-8'),delimiter=';') if not z[0].startswith('#')][1:];import os;e=sorted(f[:-3] for f in os.listdir('katalog') if f.endswith('.md') and not f.startswith('_') and f!='index.md');k=[z[0] for z in r];assert len(set(k))==len(k);assert [z[1] for z in r]==e;print(len(r),'Zeilen =',len(e),'Einträge, Kürzel eindeutig')"
+kuerzel;eintrag;begruendung
+AEN;ableitung-und-aenderungsrate;ABL vergeben (ableitungsregeln); zweites Wort Änderungsrate
+ABG;ableitungsgraph-und-funktionsgraph;ABL vergeben, FUN vergeben; Ableitungsgraph
+ABL;ableitungsregeln;
+ABS;abstaende;
+BED;bedingte-wahrscheinlichkeit-und-bayes;
+BIN;binomialverteilung;
+BIF;binomische-formeln;BIN vergeben; FOR (zweites Wort) ist das Papierkürzel der msa-Niveaus, daher Binomische Formeln
+BRU;bruchrechnung;
+DEZ;brueche-dezimalzahlen;BRU vergeben; zweites Wort Dezimalzahlen
+DAT;daten;
+EBE;ebenen;
+EIN;einheiten;
+EXT;extremalprobleme;
+FLA;flaechen;
+FIN;flaecheninhalt-durch-integration;FLA vergeben, INT vergeben; Flächeninhalt durch Integration
+VOL;flaecheninhalt-und-volumen-im-raum;FLA vergeben; zweites Wort Volumen
+FUN;funktionsklassen-und-eigenschaften;
+FUS;funktionsscharen-und-ortskurven;FUN vergeben, ORT vergeben (orthogonalitaet); Funktionsscharen
+GER;geraden;
+GLE;gleichungen-loesen;
+GRE;grenzwerte-und-verhalten-im-unendlichen;
+VER;hypergeometrische-verteilung;HYP vergeben (hypothesentests, ein Wort); zweites Wort Verteilung
+HYP;hypothesentests;
+INT;integrationsregeln;
+KEN;kenngroessen-von-verteilungen;
+KOE;koerper;
+KOM;kombinatorik;
+KON;konfidenzintervalle;
+KRE;kreis;
+KUR;kurvenuntersuchung;
+LAG;lagebeziehungen;
+LIN;lineare-funktionen;
+LGL;lineare-gleichungen;LIN vergeben, GLE vergeben; Anfangsbuchstaben wie LGS: Lineare GLeichungen
+LGS;lineare-gleichungssysteme;Vorgabe 28.09.; Anfangsbuchstaben
+LKO;linearkombination-und-lineare-abhaengigkeit;LIN vergeben; Linearkombination
+MAT;matrizen-und-uebergangsprozesse;
+NOR;normalverteilung-und-sigma-regeln;
+ORT;orthogonalitaet;
+POT;potenz-exponentialfunktionen;
+WUR;potenzen-wurzeln;POT vergeben; zweites Wort Wurzeln
+PRZ;prozentrechnung;Vorgabe 28.09.; Prozentrechnung
+PUN;punkte-und-strecken-im-koordinatensystem;
+PYR;pyramide-kegel-kugel;
+PYT;pythagoras;
+QUA;quadratische-funktionen;
+QGL;quadratische-gleichungen;QUA vergeben, GLE vergeben; Anfangsbuchstaben wie LGS: Quadratische GLeichungen
+RAT;rationale-zahlen;
+REE;reelle-zahlen;
+REK;rekonstruktion-von-bestaenden;
+REF;rekonstruktion-von-funktionsgleichungen;REK vergeben, FUN vergeben; REkonstruktion von Funktionsgleichungen
+ROT;rotationsvolumen;
+SCH;scharen-von-geraden-und-ebenen;
+SNI;schnittmengen;SCH vergeben (scharen-von-geraden-und-ebenen); SchNIttmengen
+SKA;skalarprodukt-und-winkel;
+SPI;spiegelung;
+STA;stammfunktion-und-hauptsatz;
+STR;strahlensaetze;
+SYM;symmetrie-abbildungen;
+TAN;tangente-normale-schnittwinkel;
+TER;terme;
+TRI;trigonometrie;
+TRF;trigonometrische-funktionen;TRI vergeben, FUN vergeben; Anfangsbuchstaben: TRigonometrische Funktionen
+UMK;umkehrfunktion;
+UNA;unabhaengigkeit;
+UNE;uneigentliche-integrale;
+VEK;vektoren-und-rechenoperationen;
+VIE;vierfeldertafel;
+WAH;wahrscheinlichkeit;
+WIN;winkel-dreiecke;
+ZIN;zinsrechnung;
+ZUF;zufallsexperimente-und-pfadregeln;
+ZUG;zufallsgroessen-und-verteilungen;ZUF vergeben, VER vergeben; ZUfallsGrößen
+ZUO;zuordnungen;
