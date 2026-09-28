@@ -32,6 +32,7 @@ Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0;
 - Umkehroperation benennen: „Welche Rechnung macht eine Addition rückgängig?" (plus ↔ minus, mal ↔ geteilt). Vor Einheit 1 und 2.
 - „Was steht bei x?" – Vorzahl und Zeichen bei x lesen (negative Vorzahl, x durch eine Zahl geteilt). Vor Einheit 2.
 - Reihenfolge bestimmen: „Erst Strich, dann Punkt – welche Umformung zuerst?" Vor Einheit 2 (zweischrittig).
+- „Was ist als Nächstes dran?“ – zu einer Gleichung ankreuzen: Klammer auflösen, zusammenfassen, x auf eine Seite bringen, x allein stellen; nichts rechnen. Vor Einheit 3.
 
 ### Merkkasten
 Einheit 2 (Äquivalenzumformungen):
@@ -74,7 +75,7 @@ Grundvorstellung (Blatt 0) [MO, INKL]: Gleichung als Waage – „Zeichne die Wa
 Sprossen je Verfahrenstyp [INKL, LS, FD]:
 - Lösung prüfen (Einheit 1): Zahl einsetzen, eine Rechenoperation (4×) → zweischrittig → wA/fA entscheiden gemischt → x beidseitig → Prüfungshöhe: mit negativer Zahl.
 - Durch Probieren lösen (Einheit 1): Tabelle mit vorgegebenen Kandidaten (3×) → eigene Kandidaten wählen und eingrenzen → Umkehroperation ohne Strich („welche Zahl plus fünf ergibt neun?“) → die Lösung als die Zahl benennen, die die Aussage wahr macht → Prüfungshöhe: kein P10-Original; Zielmarke nach RLP E („Lösen linearer Gleichungen durch systematisches Probieren“) und LISUM-PH Jahrgangsstufe sieben, Block „Mit Gleichungen umgehen“ („Lösen durch systematisches Probieren, auch mit Tabellenkalkulation“): zu einer einschrittigen Gleichung eigene Kandidaten in eine Tabelle eintragen, die Lösung nennen und mit der Probe bestätigen. Das grafische Lösen ist amtlich der Jahrgangsstufe acht und den linearen Funktionen zugewiesen und deshalb hier keine Zielmarke.
-- Umformen (Einheit 2): Umformung nur anschreiben: „Schreibe hinter den Strich, was x allein stellt“, einschrittige Gleichung mit leerem Strich (Vorstufe, Blatt 0) → einschrittig plus/minus (4×) → einschrittig mal/geteilt → negative Lösung → zweischrittig erst Strich dann Punkt (4×, mit Probe [INKL]) → negative Vorzahl → Vorzahl als Bruch → Umkehrung: Gleichung zu gegebener Lösung → Prüfungshöhe: zweischrittig mit negativer Lösung und Probe.
+- Umformen (Einheit 2): Umformung nur anschreiben: „Schreibe hinter den Strich, was x allein stellt“, einschrittige Gleichung mit leerem Strich (Vorstufe, Blatt 0) → einschrittig plus/minus (4×) → einschrittig mal/geteilt → negative Lösung → zweischrittig erst Strich dann Punkt (4×, mit Probe [INKL]) → x steht hinter dem Minus (zwanzig minus x gleich dreizehn) → negative Vorzahl → Vorzahl als Bruch → Umkehrung: Gleichung zu gegebener Lösung → Prüfungshöhe: zweischrittig mit negativer Lösung und Probe.
 - x beidseitig (Einheit 3): erst Seite mit weniger x finden: „Auf welcher Seite steht weniger x?“ (Vorstufe) → x nur rechts wegnehmen (4×) → x beidseitig mit Zahlen beidseitig → vorher zusammenfassen → Klammer → Bruch → Sonderfälle → Prüfungshöhe: Klammer und x beidseitig.
 - Aufstellen (Einheit 4): passende Gleichung ankreuzen (3×) [INKL] → Zahlenrätsel einschrittig → zweischrittig → Alter/Geld → Geometrie mit Formel (geg./ges./F./R. [INKL]) → Prüfungshöhe: Sachverhalt mit Klammer (P10-Form).
 
@@ -94,6 +95,7 @@ Zuordnung: Einheit 1 – Lösung durch Einsetzen prüfen (2018-OS-B1c, 2022-OS-B
 - P10: drei Typen, dazu das Verfahren als Nebenleistung in Gleichungssystemen, Formelumstellungen und Sachaufgaben anderer Themen. Die Zielmarke der Einheit 3 beruht auf keinem Original – **am 10f gesetzt** (A7-Restrisiko geschlossen): Klammer und x auf beiden Seiten, mit Probe; Brüche, Dezimalzahlen und die Sonderfälle bleiben darüber als Vorrat, verschachtelte Klammern und Verhältnisgleichungen mit Summe im Bruch sind nach LISUM-PH Jg. 8 nur Gymnasium und hier nicht aufgenommen.
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
 - [LISUM-PH, 10e/10f] **Erledigt, der Befund war falsch.** Das Waagemodell steht seit 08b an erster Stelle der Grundvorstellung dieses Eintrags; die 10e-Notiz „nennt es nicht“ entstand ohne Blick in den Abschnitt „Für schwache Schüler“. Ergebnis der Gegenlese: die Vorstellung bleibt wie gebaut und verliert die [MO]-Einschränkung – sie ist amtlich benannt (LISUM-PH Jg. 7, eigener Kartensatz im Fördermaterial). Der Vermerk „[MO]/[INKL] Grundvorstellung (Waage …): Übertragung, nicht am Text geprüft“ gilt damit nur noch für die Wahrheitstabelle.
+- Änderungen 2026-09-28 (Urteile vom 28.09.): Einheit 2, Kette Umformen – Sprosse „x steht hinter dem Minus“ nach „zweischrittig“, vor „negative Vorzahl“ (die Vorschlagsdatei nannte „nach negative Lösung“; dazwischen steht seit jeher „zweischrittig“, die Sprosse steht deshalb direkt vor „negative Vorzahl“); Erkennungsschritt „Was ist als Nächstes dran?“ vor Einheit 3. Grundlage: urteil-einbindung-2026-09-28.md.
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
