@@ -38,11 +38,15 @@ Lehrer zur Seite. Das Blatt ist ein Tischblatt; was der Schüler
 davon zu Hause weiterrechnet, ist der Einstieg in die nächste
 Stunde, keine Pflicht.
 
-Ein Blatt trägt einen Teil des Themas: eine bis drei Fertigkeiten,
-je Fertigkeit die volle Leiter. Es ist so lang, wie dieser Teil es
-braucht, aber nie 30 Seiten. Mehr Übung heißt öfter und gemischt,
-nicht mehr gleiche Aufgaben am Stück. Der Lehrer streicht am
-Tisch; das Skript streicht keine Sprosse.
+Ein Blatt ist so lang, wie der bestellte Teil des Themas es
+braucht, je Fertigkeit die volle Leiter. Hat ein Thema mehr als
+drei Fertigkeiten, fragt der Schalter einmal nach dem Teil – oder
+nach allem; sonst fragt er nicht, und ein Zuruf in der Bestellung
+(„alles", „Zweig 2") erspart die Frage. Keine Seitengrenze und
+keine Teilung von sich aus; 30 Seiten sind eine Warnung, keine
+Regel. Mehr Übung heißt öfter und gemischt, nicht mehr gleiche
+Aufgaben am Stück. Der Lehrer streicht am Tisch; das Skript
+streicht keine Sprosse.
 
 Bauprinzip – drei Bilder, jedes für eine Ebene:
 
@@ -84,7 +88,7 @@ die Entscheidung, es auszulassen, trifft der Lehrer.
 Wiederholung ist dasselbe Thema später: ein neues Blatt mit neuen
 Zahlen und kurzer Zone „kennst du schon". Wachhalten (kurze
 gemischte Übung quer durch Gelerntes) ist etwas anderes und
-bekommt keine eigene Blattart; wo es hingehört, ist offen (§ 5).
+bekommt keine eigene Blattart.
 
 ## 2 Gemeinsame Regeln
 
@@ -93,8 +97,11 @@ den Voraussetzungen aus dem Themenkatalog, eine Stufe zurück – um
 ins Thema hineinzuführen, zu sehen, ob der Schüler so weit ist,
 und an Vergessenes zu erinnern. Sie ist auf der Zeitachse die
 Zone hinter dem Schüler, kein eigenes Blatt. Sie ist kurz und
-immer gleich gebaut: je Voraussetzung eine leichte und eine
-Fallstrick-Aufgabe. Auf Zuruf entfällt sie, etwa für die zweite
+immer gleich gebaut: je Voraussetzung eine leichte Aufgabe und je
+typischem Fehler, den der Katalog dort kennt, eine Fallen-Aufgabe;
+kennt er keinen, bleibt es bei der leichten. Weder die Zeit seit
+dem Stoff noch der Schüler ändern die Zahl. Auf Zuruf entfällt
+sie, etwa für die zweite
 Stunde zum Thema. Hängt der Schüler in dieser Zone, ist die Lücke
 älter als das Thema. Je Nummer der Zone steht, wo es dann
 weitergeht: „hängst du hier → Fokus ‹Fertigkeit›" und die Nummer
@@ -109,14 +116,14 @@ drei Dateien: diese Zone, alles ohne sie, alles zusammen. Grund:
 Live rechnet der Schüler sechs Minuten früher; das kippt, wenn ein
 ganzes Blatt in unter zwei Minuten gebaut ist.
 
-Schluss des Lernblatts: „Prüfe dich" – je Fertigkeit des Teils
-eine bis zwei Aufgaben, gemischt, ohne Verfahrensüberschrift und
+Schluss des Lernblatts, eine Seite: „Prüfe dich" – je Fertigkeit
+des Teils eine Aufgabe, gemischt, ohne Verfahrensüberschrift und
 ohne Punkte; der Schüler muss selbst erkennen, was gefragt ist.
-Danach die Seite „Das kann ich": je Fertigkeit eine Zeile in
-Schülersprache und daneben eine typische Aufgabe nur zum Ansehen
-(der Grundfall aus der Bank), damit der Schüler weiß, was die
-Zeile meint; abgehakt wird eine Nummer, deren oberste gerechnete
-Sprosse stimmt.
+Darunter die Liste „Das kann ich": je Fertigkeit ihre Ich-kann-
+Zeile zum Abhaken (dieselben Wörter wie die Überschriften der
+Hauptnummern); abgehakt wird, was in „Prüfe dich" stimmt. Wer
+„Prüfe dich" zu Hause rechnet, hat den Einstieg in die nächste
+Stunde.
 
 Anpassung: Anpassungen an den einzelnen Schüler sind auf Zuruf
 möglich, nicht Pflicht. Feste Option „schwach": Sie ändert die
@@ -252,10 +259,6 @@ Formelsammlung.
 
 ## 5 Offen
 
-- Wachhalten: keine eigene Blattart (§ 1). Ob das Basisheft für
-  Prüflinge dafür kürzer wird (Blöcke zu 5–10, nur gelernte
-  Themen) und ob Klasse 8/9 je etwas bekommt, entscheidet ein
-  Anlass; heute keiner.
 - Musterbeispiel als Bank-Baustein: Prüfstein sind die zwei
   handgebauten Terme-Blätter des Lehrers (TER-S1, TER-S2), die
   noch nicht im Repo liegen.
@@ -291,12 +294,14 @@ Formelsammlung.
 ## 6 Änderungen gegenüber 25.09.2026
 
 - § 1: Bank-Linie neu; Erfolgskriterium umformuliert (Tischblatt,
-  Lehrer zur Seite); „im Zweifel voller" ersetzt durch „ein Teil,
-  1–3 Fertigkeiten, nie 30 Seiten, öfter statt mehr"; kein Dialog
-  über die Lage des Schülers; Wachhalten benannt und abgegrenzt.
-- § 2: Zone kurz und gleich gebaut, mit Verweis „hängst du hier →
-  Fokus"; Schluss „Prüfe dich" und „Das kann ich" mit
-  Beispielaufgabe neu; Option „schwach" mit Musterbeispiel als
+  Lehrer zur Seite); „im Zweifel voller" ersetzt durch „so lang
+  wie der bestellte Teil; ab vier Fertigkeiten einmal die Frage
+  nach dem Teil oder allem; öfter statt mehr"; kein Dialog über
+  die Lage des Schülers; Wachhalten benannt und ausgeschlossen.
+- § 2: Zone kurz und gleich gebaut (eine leichte, je bekanntem
+  Fehler eine Falle), mit Verweis „hängst du hier → Fokus";
+  Schluss „Prüfe dich" (eine Aufgabe je Fertigkeit) mit der
+  Abhakliste auf einer Seite neu; Option „schwach" mit Musterbeispiel als
   Bank-Baustein; Stern und Niveauwörter durch bestelltes Niveau
   ersetzt, Punkte nur im Prüfungsheft; Merkkasten nur auf Zuruf,
   Form wie Formelsammlung (statt „kein Kasten"); Sprache und
@@ -308,7 +313,7 @@ Formelsammlung.
   sind. Der Prüfungsprompt darf aus „klassenarbeit" oder „test"
   keine Probeprüfung mehr machen.
 - § 4: Aufgaben aus der Bank; „Vorbereitung" endgültig entfallen.
-- § 5: neue Posten Wachhalten, Musterbeispiel-Prüfstein,
+- § 5: neue Posten Musterbeispiel-Prüfstein,
   Zonenverweis, MAKOS-Reihenfolge; Fremdoriginale als gesichert
   vermerkt; erledigte Posten (Beispiel je Typ, VERA-8-Profil,
   Sonnet als Baumodell) gestrichen.
