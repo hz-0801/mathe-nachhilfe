@@ -18,7 +18,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 
 - `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-09-28. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
 - `vorschlag-einbindung-2026-09-28.md` – Einbindungslauf K1/K2 (28.09.2026): Befunde aus DDR-Altlehrwerken (Sek I, Pflichtformen, Sek II) und Literatur (Blattarten, Nachhilfe-Situationen) gegen Katalog, bank.md, Sprachregeln, Layoutbefunde, ziel.md und Prompts; je Fund Ort, Quelle, Vorschlag in fünf Zielkategorien; Überschneidungen vorn. Urteil im Chat, Umsetzung danach.
-- `ziel.md` – das Ziel des Blattbaus: beide Blattsorten, Leiter, gemeinsame Regeln, Offenes. Ein neuer Chat liest sie nach uebergabe.md.
+- `ziel.md` – das Ziel des Blattbaus: Bank-Linie, beide Blattsorten, Leiter, gemeinsame Regeln, Offenes, Änderungsliste. Stand 2026-09-28; vorige Fassungen in `archiv/ziel-<datum>.md`. Ein neuer Chat liest sie nach uebergabe.md.
 - `CLAUDE.md` – wenn im Repo erfasst wird: Ablauf je Heft, Arbeitsregeln, Commit-Regel.
 - `katalog-prompt.md` – der Kern: Zeilenregel, die 37 Felder, Vokabular, Prüfung, Abgleichlauf. Gilt für alle Profile.
 - `konzept.md` – warum etwas so ist: Bausteine (§ 2), Themenkatalog (§ 3), Entscheidungen mit Kippbedingung (§ 4), Offenes (§ 6), Jahresroutine (§ 7), neue Prüfung aufnehmen (§ 8), Änderungen (§ 10).
