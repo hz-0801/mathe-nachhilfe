@@ -120,6 +120,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Katalog terme: Fertigkeit „Term durch Zahl teilen“ ergänzen, dann Bankzeilen (K5) | nächster Katalogauftrag | Claude | uebergabe.md § 5 |
 | zusammenbau: Rezept S (schwach) erneuern nach TER-S1/S2 und layout-befunde 1–54 (K6) | nach Entscheidung Musterbeispiel | Claude | uebergabe.md § 5 |
 | aufgabenbank bank/_strittig.md sichten (K7) | nächster Chat | Lehrer/Claude | uebergabe.md § 5 |
+| aufgabenbank: Prüfungshöhe gegen die Sprache der Originale halten – trifft die verfremdete Aufgabe den Wortlaut, den der Schüler in der Prüfung liest (regeln.md Nr. 9)? Stichprobe an den ersten Blättern aus der Bank | erste Blätter aus der Bank liegen | Chat, Lehrer | Chat 28.09.2026 abends (Frage Formulierungen) |
 | README: neue Dateien in quellen/ eintragen (blattarten-literatur, nachhilfe-situationen, register-fundliste, altlehrwerke-*) | nächster Commit an README | Claude | CLAUDE.md § 3 Landkarte |
 
 ## 3 Liegt beim Lehrer
