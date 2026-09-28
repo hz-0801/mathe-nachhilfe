@@ -74,13 +74,13 @@ Blatt.
   vor „Minusklammer zwei Glieder“. Grund: der Zahlenfall begründet
   die Zeichenregel, statt sie zu setzen. +1 Sprosse.
 
-### rationale-zahlen – A, O (Offen 2), A
+### rationale-zahlen – A, Ä, A
 - Addieren/Subtrahieren: „nur das Vorzeichen: ist die Summe größer
   oder kleiner als null? ankreuzen, mit den Beträgen begründen,
   nicht ausrechnen“ nach dem Grundfall. Grund: trifft −2 − 3 = −1.
   +1 Sprosse.
 - Antwortgerüst „Vorzeichen: __ Betrag: __ Ergebnis: __“ in e2/e3:
-  offen (Umfang).
+  Ä, nur in den ersten zwei Varianten (Offen 2).
 - Teilprodukt in der Lösung „drei Faktoren“: A, ist regeln.md
   Nr. 12 am Bestand; ändert drei loesung-Zeilen in e3.
 
@@ -131,12 +131,12 @@ Blatt.
   „Aussagen beurteilen“, „Ergebnisse prüfen“ – A (drei Zeilen).
 - Quantoren in Alltagswörtern (immer, jede, nie, es gibt, sicher)
   – A (Regel 7).
-- prozentrechnung „Überschläge beurteilen“ als Sprosse – O, siehe
-  Offen 1 (gegen Teil A).
+- prozentrechnung „Überschläge beurteilen“ – Ä, als eine
+  fehler-Zeile in der Form P1, keine Sprosse (Offen 1).
 - pythagoras/winkel-dreiecke: Vorstufe „Satz und Umkehrung
   unterscheiden (Wenn-dann-Satz umdrehen, wahr?)“ – A. +1 Vorstufe.
 - layout: jeder Teil endet mit einer fehler- oder begruenden-
-  Aufgabe – O, siehe Offen 5.
+  Aufgabe – Ä, je Fertigkeit (Offen 5).
 - layout: Aussagenserie je Aussage eine Teilaufgabe mit
   Schreibzeile, Urteil als erstes Wort – A.
 
@@ -146,8 +146,8 @@ Blatt.
   (GK) – A; Vorstufe „Stelle, Wert oder Punkt?“ – A; „Ändert sich
   die Monotonie, ändert sich die Krümmung?“ ankreuzen – A. +3.
 - extremalprobleme: feste Nebenbedingung ohne Figur (Zahl zerlegen,
-  Produkt bzw. Summe der Quadrate) – A. Randmaximum – O, siehe
-  Offen 3.
+  Produkt bzw. Summe der Quadrate) – A. Randmaximum – Ä, Vorrat
+  (Offen 3).
 - geraden: Wertetafel zu fünf Parameterwerten – A; Gleichung am
   Quader lesen – A; Merkkasten Einheit 3 als Vier-Fall-Tafel und
   Vorstufe am Quader (schneidend, parallel, windschief zeigen) – A.
@@ -174,7 +174,8 @@ Blatt.
   +1.
 - zufallsexperimente: Lückenterm 1 − (…)^… – A. +1.
 - ableitung-und-aenderungsrate: Tangente mit dem Lineal anlegen,
-  Steigung messen, mit Rechnung vergleichen – O, siehe Offen 4.
+  Steigung messen, mit Rechnung vergleichen – A, braucht Grafik
+  (Offen 4). +1.
 - ebenen: einen Punkt der Ebene finden (zwei Koordinaten null),
   Probe – A. +1.
 
@@ -202,8 +203,7 @@ und Beispiel (2) A; Prüfe dich (3) A; Länge 1–3 Fertigkeiten (4)
 N; Wachhalten (5) N; Zonenverweis (6) A; Zone kurz und gleich
 gebaut (7) A in der Form „je Voraussetzung eine leichte, je Fehler
 eine Falle“.
-- 8 schwach: „Prüfe dich“ mischt zwei Zonenaufgaben ein – O, Offen
-  6.
+- 8 schwach: „Prüfe dich“ mischt zwei Zonenaufgaben ein – A (Offen 6).
 - 9 Fokus: Sprosse zwei- bis dreimal – A (steht so); Folgetermin
   als Zeile – N (nichts hängt an Zeit oder Schüler).
 - 10, 11, 12: ändern nichts.
@@ -212,7 +212,7 @@ eine Falle“.
 
 - 1 Klassenarbeit nur Anlass, pruefungsblatt.md 1.1 – A (Beschluss
   28.09.).
-- 2 Klassenarbeit ohne Ausblick – O, Offen 8.
+- 2 Klassenarbeit ohne Ausblick – N, bleibt Zuruf (Offen 8).
 - 3 Lehrerzeile in der Zonenlösung – Ä (Beschluss 28.09.:
   Fehlerdeutung nur, wo der Katalog einen Fehler kennt; keine
   Bestell-Eingabe je Zeile).
@@ -221,11 +221,11 @@ eine Falle“.
 - 5 Übung zu Hause allein – N (Beschluss 28.09.).
 - 6 Schreibform der Schule gilt auch ohne Arbeit – A (Schalter-
   Prompt, Deutungszeile „Schreibform aus Heft“).
-- 7 Abhaken erst, wenn die oberste gerechnete Sprosse stimmt – O,
-  Offen 7.
+- 7 Abhaken erst, wenn die oberste gerechnete Sprosse stimmt – A,
+  Anweisungszeile auf der Abhakseite (Offen 7).
 - 8 Ein Blatt für alle – bestätigt.
 
-## Offen – acht Fälle für den Lehrer
+## Offen – acht Fälle, vom Lehrer 23:21 alle wie vorgeschlagen entschieden
 
 1. Überschlag prozentrechnung: Teil A will eine Sprosse, in der
    der Schüler selbst überschlägt; Teil B will eine Sprosse, in
