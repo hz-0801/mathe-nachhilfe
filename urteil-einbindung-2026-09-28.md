@@ -1,5 +1,9 @@
 # Urteile zur Einbindung 2026-09-28
 
+umgesetzt am 2026-09-29, Commits cebfd50 (Teil 1, Katalog Sek I), 2a296e5 (Teil 2,
+Katalog Sek II), 25dd6ea (Teil 3, 2025-GYM-K5d), aufgabenbank 64d2c06 (Teil 4,
+Regeldateien); nicht umgesetzt: Teil D/E (ziel.md, Prompts) – Chat.
+
 Urteile über vorschlag-einbindung-2026-09-28.md, Chat
 verbessereBlaetter 28.09. abends (ab 22:44). Bis
 brueche-dezimalzahlen je Eintrag im Chat vom Lehrer entschieden;
