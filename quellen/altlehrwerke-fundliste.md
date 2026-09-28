@@ -80,3 +80,30 @@ Lösungen“ im Band; für L5–L7 liegen die Lösungen in den gesonderten
 Lösungsheften (oben, z. B. 20015 zu L6, 17284 zu L7), nicht angesehen.
 Klasse 10 der Reihe nicht aufgesucht (keine download_id bekannt, für die
 Fragestellung nicht nötig).
+
+## Nachtrag 28.09.2026 – Formenlauf 4 (Sek II)
+
+Ergebnis: `altlehrwerke-formen-sek2.md`. Zählung: 8 von 60 Seitenabrufen
+(Bücherliste mathematikalpha.de, sieben PDF-Bände), 0 von 6 Websuchen, 52
+von 100 Buchseiten als Bild angesehen. Bände im Scratchpad, danach
+gelöscht; nichts ins Repo gesichert.
+
+| Band | download_id | angesehen (gedruckte Seiten) | Nutzen |
+|---|---|---|---|
+| Lehrbuch Klasse 10, Ausgabe 1988 (L10-88), Textschicht | 16012 | 22 | funktionsklassen (a·sin x, sin(bx)) |
+| Lehrbuch Klasse 11, 1980, 5. Aufl. 1987 (L11-80), Textschicht | 16201 | 62, 65, 130, 134, 139, 142, 149, 155, 171, 177, 187, 204, 206, 212, 216, 222, 251, 264 | Differential- und Integralrechnung, Kombinatorik; keine Wendepunkte |
+| Lehrbuch Klasse 12, 1981, 4. Aufl. 1986 (L12-81), Textschicht | 16249 | 21, 28, 47, 60, 63, 79, 83, 90, 100, 101, 178, 181 | Vektoren, Geraden, Lage, Skalarprodukt, Winkel, a·sin(bx + c); keine Ebenen |
+| Lehrbuch für die EOS Klasse 11, Ausgabe 1963, Druck 1966 (K11-63), nur Bild | 16351 | 83, 88, 116, 118, 122, 125, 128, 149, 167, 214, 236, 240, 258, 260, 262, 263, 265 | Wendepunkte, Integral, Vektoren, Ebene, Hessesche Normalform, Abstände |
+| Lehrbuch für die EOS Klasse 12, Ausgabe 1970 (K12-70), nur Bild | 16117 | 10 (dazu Register per OCR) | Parametergleichung der Ebene |
+| Lehrbuch Klasse 12 B-Zweig 1965 (K12B-65), nur Bild | 16784 | nur Inhaltsverzeichnis per OCR | kein Eintrag betroffen |
+| Stempell: Programmierte Einführung in die Wahrscheinlichkeitsrechnung, Verlag Die Wirtschaft 1968 (ST-68), Textschicht; kein Schulbuch | 53509 | PDF-S. 42, 44, 90 | Ersatz für die fehlende Stochastik |
+
+Befund: Die DDR-Lehrbücher Klasse 10–12 haben kein Kapitel
+Wahrscheinlichkeitsrechnung (geprüft 1963, 1965, 1970, 1980–1988); die
+Reihe der 1980er hat weder Ebenengleichung noch Wendepunkte, beides nur in
+den EOS-Bänden der 1960er/1970er. Auf der Liste, nicht genutzt: Klasse 10
+1972 (16267), Klasse 11 1969 (16325), Klasse 10 1964 und EOS 1962 (16195,
+17234), Klasse 10–12 von 1951 bis 1960 (16311, 17004, 17279, 16772, 17027, 16272),
+Tafelwerk Klasse 11–12 1982 (17468), „Aufgaben Mathematik Klasse 10 –
+1978“ (17149), „Lehrgang Mathematik – Klasse 10“ (49209); die
+Lösungshefte zu Klasse 11 und 12 liegen dort neben den Bänden.
