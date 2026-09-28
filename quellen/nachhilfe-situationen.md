@@ -103,9 +103,13 @@ Zahlen gelten für die Nachhilfe als Ganzes (Mehrfachnennung).
 | Anbieterstudie: Anteil Mathe-Noten 5/6 in Klassenarbeiten fiel nach rund 6 Monaten von 41 % auf 16 %. | ohne Kontrollgruppe, schwach | Haag o. J. (Schülerhilfe) |
 | China: Schwächere gewinnen nur bei Grundaufgaben, Stärkere verlieren bei anspruchsvollen. | Längsschnitt, mittel; nur Zusammenfassung | Zhang u. a. 2024 |
 | „Mathe sicher können": Förderschüler lernten mehr als Kontrollgruppe (592 Schüler, 1 Schuljahr, η² = 0,031). | quasi-experimentell, mittel | Prediger/Fischer/Selter/Schöber 2019; HfH o. J. |
-| Übungstests und verteiltes Üben haben hohen Nutzen, Wiederlesen geringen. | Übersichtsarbeit, stark | Dunlosky u. a. 2013 |
-| Bei Hausaufgaben zählt die Sorgfalt, nicht die Zeit. | mehrere Datensätze, korrelativ, mittel | Trautwein 2007 |
-| Schrittweise ausgeblendete Lösungsbeispiele wirken besser als Beispiel-Aufgabe-Paare. | Experimente, mittel | Renkl/Atkinson 2004 |
+
+Lernforschung zum Üben (Verteilen, Vermischen, Abrufen,
+Lösungsbeispiele, Hausaufgaben; Dunlosky 2013, Trautwein 2007,
+Renkl/Atkinson) steht ausführlich in quellen/blattarten-
+literatur.md § 2 und wird hier nicht gedoppelt; genutzt wird nur:
+verteiltes Üben und Übungstests haben hohen Nutzen, bei
+Hausaufgaben zählt die Sorgfalt, nicht die Zeit.
 
 **D – Übertragbarkeit auf 1:1, 90 Minuten, einmal pro Woche:**
 
@@ -131,10 +135,12 @@ Zahlen gelten für die Nachhilfe als Ganzes (Mehrfachnennung).
 | Standortbestimmung schriftlich, mündlich oder gemischt | schriftlich „durchaus 30 Minuten"; mündlich: „in einem solchen zehnminütigen Gespräch" mehr als „in zwanzig Unterrichtsstunden" | Grundschule, übertragbar | Sundermann/Selter 2006 |
 | Diagnoseaufgaben: Fehler finden, „Wie könnte der Anfang aussehen?", Beispiele erfinden | keine Zahl | Sek I/II | Hußmann/Leuders/Prediger 2007 |
 | Hinge Question: eine Auswahlfrage, falsche Antworten = Fehlvorstellungen | Antwort in 2 Min., Auswertung 30 s | alle | Wiliam, nach Glow Scotland o. J. |
-| Kopfübungen: gemischte Grundwissensaufgaben, Überblicksbogen | ~10 Aufgaben, ~10 Min. (Zusammenfassung) | Sek I | Landesbildungsserver BW |
 | BASIS-MATH 4–8 | 48 Items, 20–45 Min., normiert, kostenpflichtig | Kl. 4–8 | Testzentrale |
 | VERA-8, LAL 7 (Berlin/Brandenburg) | Klassentest, Rückmeldung per Portal; Dauer nicht gefunden | Kl. 7/8 | IQB; ISQ |
 | cosh-Selbsttest, VEMINT-Eingangstests | online, adaptiv; Dauer nicht gefunden | Kl. 10/11, Studienbeginn | cosh; TU Darmstadt |
+
+Kopfübungen (Bruder; 5–10 Aufgaben, höchstens 10 Minuten) sind
+in quellen/blattarten-literatur.md § 1 belegt.
 
 - **F.** MSK grenzt sich ab: „Im Gegensatz zur Nachhilfe sollte
   die Förderung langfristig angelegt sein" (MSK Broschüre 2025).
@@ -304,9 +310,22 @@ Hinweise (D):
 - **O.** Entscheidung dieser Sitzung: README.md nicht nachgeführt,
   weil der Auftrag nur diese Datei erlaubt; der Eintrag unter
   `quellen/` in README.md steht aus.
-- **O.** quellen/blattarten-literatur.md lag beim Schreiben noch
-  nicht im Repo; Überschneidungen wurden daher nicht abgeglichen
-  (auch unmittelbar vor dem Commit nicht vorhanden).
+- **O.** Abgleich mit quellen/blattarten-literatur.md (kam
+  parallel, nach dem ersten Commit gelesen): Doppeltes zur
+  Lernforschung und zu Kopfübungen ist hier gestrichen und
+  verweist dorthin. Zwei Befunde von dort treffen diese Datei:
+  (1) Dort fehlt ein **Mischblatt** zum Wachhalten über mehrere
+  Themen. Hier ist Nachhilfe meist langfristig (§ 1.1, im
+  Mittel 10 Monate) – das Mischblatt wäre der Stundenbeginn
+  laufender Nachhilfe und das Blatt für zu Hause, keine eigene
+  Situation A–E. Im Dialog (§ 5) fehlt es; es käme als sechste
+  Antwort „Nichts Bestimmtes, wachhalten" in Frage 1. (2) Dort
+  „Stand statt Zeit" für die Zone: deckt sich mit Frage 2 hier
+  (Stand, nicht „wie lange her"). Beide Dateien schlagen damit
+  eine Blattart vor, die heute fehlt: dort Mischblatt, hier
+  Standort-Blatt. Ob eine Standortseite und ein Mischblatt
+  dieselbe Form haben (wenige gemischte Aufgaben, Auswertung
+  je Aufgabe), entscheidet der Chat.
 
 ## 7 Quellenliste
 
