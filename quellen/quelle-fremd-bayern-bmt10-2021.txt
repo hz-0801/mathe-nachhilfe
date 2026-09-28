@@ -1,0 +1,237 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien, Aufgaben Gruppe A 2021
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2021/bmt10_2021_aufgaben_gruppe_a.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk (nur Bildnachweis „© EuroGeographics bzgl. der Verwaltungsgrenzen“ zur Karte in Aufgabe 5)
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2021                                                                                 A
+
+
+        Bayerischer Mathematik-Test für die Jahrgangsstufe 10 der Gymnasien
+
+Name: __________________________________                   Note:                   _____
+
+Klasse: __________                                         Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+a) Geben Sie für x  IR \ 0 die Lösung der Gleichung 2x = 3 an.
+                                                                                               /1
+
+b) Bestimmen Sie für x IR die Lösungen der Gleichung 2x 2 − 5x − 3 = 0 .
+
+
+
+
+                                                                                               /2
+
+
+
+Aufgabe 2
+Die in IR definierte Funktion f : x ( x + 3 ) − 4 hat genau
+                                           2
+
+zwei Nullstellen. Die Abbildung zeigt den Graphen Gf von f.
+
+a) Gf schneidet die y-Achse im Punkt P. Berechnen Sie die
+   y-Koordinate von P.
+
+
+
+
+                                                                                               /1
+
+b) Betrachtet wird nun allgemein für jeden Wert b IR die in IR definierte Funktion
+   fb : x ( x + 3 ) + b .
+                   2
+
+
+  Geben Sie an, für welche Werte von b die Funktion fb keine Nullstelle besitzt.
+
+
+                                                                                               /1
+
+c) Betrachtet wird ferner für jeden Wert a IR die in IR definierte Funktion
+   fa : x ( x + a ) − 4 .
+                   2
+
+
+  Begründen Sie, dass die Funktion fa für jeden Wert von a zwei Nullstellen besitzt.
+
+
+
+
+                                                                                               /1
+
+BMT10 2021                                  Seite 2 (von 4)                                                       A
+
+
+
+Aufgabe 3
+Am 3. Oktober 1990 wurde die deutsche Wiedervereinigung vollzogen.
+
+a) Im abgebildeten Kreisdiagramm ist der Anteil p der                          Bevölkerungsverteilung
+   Einwohner Gesamtdeutschlands dargestellt, die im                                                    ehemalige
+   Jahr 1990 im Gebiet der ehemaligen DDR lebten. Der                                                    DDR
+   Mittelpunktswinkel des zugehörigen grau gefärbten
+   Sektors beträgt 72°.
+  Berechnen Sie den Anteil p in Prozent.
+
+
+                                                                           ehemalige
+                                                                             BRD                                         /1
+
+b) Gemäß einer repräsentativen Umfrage aus dem Jahr 2018 unter jungen1 Deutschen waren
+   69 % der jungen Westdeutschen, aber nur 56 % der jungen Ostdeutschen der Meinung, dass
+   es nach wie vor kulturelle Unterschiede zwischen Ost- und Westdeutschen gibt.
+  Basierend auf diesen Daten soll der Anteil aller jungen Deutschen berechnet werden, die
+  2018 der Meinung waren, dass es nach wie vor kulturelle Unterschiede zwischen Ost- und
+  Westdeutschen gibt.
+  Beurteilen Sie, ob dafür der Ansatz ( 69% + 56%) : 2 geeignet ist.
+
+
+
+
+                                                                                                                         /1
+
+c) Die nebenstehende Karte zeigt Deutschland im                                            1,7 cm
+   Maßstab 1:15000000 .
+  Durch eine Abschätzung mithilfe des eingezeichneten
+  Rechtecks soll ein Näherungswert für den Inhalt der
+  Fläche Ostdeutschlands (in der Karte grau dargestellt)
+  ermittelt werden.                                                                                         2,8 cm
+
+  Geben Sie mithilfe der angegebenen Seitenlängen
+  einen Ansatz zur Berechnung des Flächeninhalts
+  Ostdeutschlands in km2 an.
+
+
+
+
+                                                                        © EuroGeographics bzgl. der Verwaltungsgrenzen
+
+
+
+                                                                                                                         /2
+
+
+
+
+   1 Als jung wurden in dieser Umfrage 16- bis 30-Jährige bezeichnet.
+
+BMT10 2021                            Seite 3 (von 4)                                 A
+
+
+
+Aufgabe 4
+                                                                                  R
+Mit dem abgebildeten Messbecher kann das
+Volumen von Flüssigkeiten abgemessen werden. Er
+kann modellhaft als Kegel mit Gesamthöhe H und
+Grundkreisradius R betrachtet werden (vgl. Skizze).
+                                                                             H
+
+a) Der Messbecher ist innen mit einer Skala
+   beschriftet, sodass das Volumen der eingefüllten
+   Flüssigkeit in ml abgelesen werden kann. Eine
+   der drei nachfolgenden Skalen ist grundsätzlich
+   dafür geeignet. Kreuzen Sie (nur) diese an.
+
+                             250                  250               250
+                                                  200
+                             200
+                             0                    150               200
+                             150
+                                                  100               150
+                             100
+                                                                    100
+                                 50                   50             50
+
+                        □                   □                   □                         /1
+
+b) Der Messbecher ist nun 10 cm hoch mit Wasser gefüllt; der Radius des Wasserspiegels
+   beträgt 4 cm. Berechnen Sie, wie groß das Volumen des Wassers im Messbecher in etwa
+   ist. Verwenden Sie dazu den Näherungswert π  3 .
+
+
+
+
+                                                                                          /2
+
+Die Mantelfläche des Messkegels mit Grundkreisradius R und
+Gesamthöhe H wird aus einem Stück Blech gefertigt, das die
+Form eines Kreissektors hat. Dieser Sektor hat die Bogenlänge
+b und den Radius m (vgl. Abbildung).
+                                                                b
+                                                                                      m
+c) Erklären Sie anschaulich, warum b = 2π  R gilt.
+
+
+
+
+                                                                                          /1
+
+d) Geben Sie eine Gleichung an, die den Zusammenhang von m, R und H beschreibt.
+
+
+                                                                                          /1
+
+BMT10 2021                                               Seite 4 (von 4)                                                          A
+
+
+
+Aufgabe 5
+a) Ergänzen Sie folgenden Text fachsprachlich korrekt:
+
+  Um bei einem Laplace-Experiment die Wahrscheinlichkeit eines Ereignisses A zu
+  berechnen, dividiert man die Anzahl .....................................................................................
+  ................................................................... durch die Anzahl ...............................................
+
+  ............................................................................. .                                                        /1
+
+b) Ein Glücksrad hat acht gleich große Sektoren, die
+   gefärbt und mit Zahlen beschriftet sind (vgl. Ab-
+   bildung). Das Glücksrad wird zweimal gedreht.                                                      blau
+   Nach der ersten Drehung wird die dabei erzielte
+   Zahl, nach der zweiten Drehung die dabei erzielte                                                    1
+   Farbe notiert.
+  Betrachtet wird das Ereignis E: „Das Rad zeigt
+  zuerst eine ungerade Zahl und dann rot.“
+                                                                                    gelb
+
+
+
+
+                                                                                                                                 rot
+                                                                                                                         3
+                                                                                           2
+  Bestimmen Sie die Wahrscheinlichkeit des
+  Gegenereignisses E von E.
+                                                                                                         1
+                                                                                                       grün
+                                                                                                                                         /2
+
+
+
+Aufgabe 6
+Für jeden Wert m IR wird die
+Gerade mit der Gleichung
+y = m  x + 4 betrachtet.
+
+a) Zeichnen Sie in nebenstehendes
+   Koordinatensystem die Gerade zu
+   m = −2 ein.                                                                                                                           /1
+
+b) Ermitteln Sie den Wert von m so,
+   dass das Dreieck, das die zu-
+   gehörige Gerade im ersten
+   Quadranten mit den beiden
+   Koordinatenachsen einschließt, den
+   Flächeninhalt 6 hat.
+
+
+
+
+                                                                                                                                         /2

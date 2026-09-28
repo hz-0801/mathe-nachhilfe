@@ -1,0 +1,303 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 8, Wahlpflichtfächergruppe II/III 2024, Lösung mit Punktverteilung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2024/2024_JT_Mathe_8_II_Loesung.pdf
+ABRUF: 2026-09-28
+SEITEN: 5
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+                            JAHRGANGSSTUFENTEST 2024
+                               IM FACH MATHEMATIK
+               FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+
+
+
+HINWEIS:
+              Bei formalen Mängeln soll großzügig verfahren werden.
+              Es werden nur ganze Punkte vergeben.
+
+
+BEWERTUNGSMAßSTAB:
+                      Erreichte Punkte                     Note
+                           21 – 17                          1
+                           16 – 14                          2
+                           13 – 11                          3
+                           10 – 8                           4
+                            7–5                             5
+                            4–0                             6
+
+
+ANMERKUNGEN:
+             Im Lösungsmuster ist zu jeder Aufgabe eine Zuordnung zu den
+             mathematischen Leitideen und den mathematischen Kompetenzen
+             angegeben. Aufgeführt sind jeweils die im Vordergrund stehenden
+             Leitideen und Kompetenzen, bezogen auf den dargestellten Lö-
+             sungsvorschlag.
+
+
+
+MATHEMATISCHE LEITIDEEN –                ALLGEMEINE MATHEMATISCHE
+PIKTOGRAMME:                             KOMPETENZEN:
+
+    1
+    2       ZAHL                         K1   M ATHEMATISCH ARGUMENTIEREN
+
+0       1   MESSEN                       K2   PROBLEME MATHEMATISCH LÖSEN
+
+            RAUM UND FORM                K3   M ATHEMATISCH MODELLIEREN
+
+            FUNKTIONALER ZUSAMMENHANG    K4   M ATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+                                              MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN
+            DATEN UND ZUFALL             K5   ELEMENTEN DER M ATHEMATIK UMGEHEN
+
+                                         K6   KOMMUNIZIEREN
+
+              JAHRGANGSSTUFENTEST 2024 IM FACH MATHEMATIK
+           FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+                      WAHLPFLICHTFÄCHERGRUPPE II/III
+                         (ARBEITSZEIT: 45 MINUTEN)
+
+                                                LÖSUNGSMUSTER
+
+
+1 Berechne.                                                                                                          __/1
+
+     a)  23  
+                2
+                                                                      1 3
+                                                               b)         
+                                                                     6 2
+
+                                                                                                                     __/1
+
+                64                                                       20
+
+
+
+1
+2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+2 Ergänze den Exponenten so, dass die Rechnung stimmt.                                                               __/1
+                14
+    67 ∙ 6              = 6 21
+1
+2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+3 Gegeben sind die beiden Punkte A (2 | 1) und B (6 | 3).                                                            __/1
+                                                
+
+    Gib die Koordinaten des Pfeils AB an.
+    
+               4 
+    AB           
+                    
+            
+                2 
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+4 Es gilt: g || h.                                                                            C
+                                                                                                                   __/1
+                                                           h
+                                                                                              95°
+    Gib das Winkelmaß ε an.
+
+
+                                                                                                      60°
+                                                           g A                                              B
+            25
+      = _______ °                                                       Die Skizze ist nicht maßtreu.
+    PROBLEME MATHEMATISCH LÖSEN
+
+
+5 Begründe, dass die Geraden g und h                                                                                 __/1
+  nicht parallel sind.
+                                                                                                    44°         g
+    ______________________________________
+     z. B.: Die Summe der angegebenen
+    ______________________________________
+     Winkel beträgt nicht 180°.
+    ______________________________________
+                                                                                                                h
+    ______________________________________
+                                                                                       126°
+
+                                                                                     Die Skizze ist nicht maßtreu.
+    MATHEMATISCH ARGUMENTIEREN
+
+6 Der Punkt C liegt auf dem Thaleskreis über AB .                                               __/1
+                                                                 C
+   Bestimme das Maß  des Winkels CBA.
+
+
+                                                                                   
+                                                         A 50°                              B
+          40
+   = _______°                                            Die Skizze ist nicht maßtreu.
+
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+7 Für ein Dreieck ABC gilt:  = 63°.                                                            __/1
+   Gib zwei Winkelmaße  und  an, die dieses Dreieck haben könnte.
+
+           37            80
+     = _______° ;  = _______°    z. B.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+8 Gegeben sind die Punkte A, B und C.                                                           __/1
+   Ermittle den Punkt M, der von den       A                                        C
+   Punkten A, B und C gleich weit
+   entfernt ist.
+
+
+                                                           M
+                                                 z. B.
+
+                                                                                  B
+
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+9 Die beiden Freundinnen Anna und                                                               __/1
+  Bea möchten sich gerne treffen.
+  Der Bereich, in dem der Treffpunkt liegt,
+  soll weniger als 4 km von Annas Wohnort (A)
+  und zugleich weniger als 2 km von Beas
+  Wohnort (B) entfernt liegen.                      A                                   B
+  Markiere den Bereich, in dem der Treffpunkt
+  liegen könnte.
+   (1 cm ≙ 1 km)
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+10 Der Trinkwasservorrat auf einem Segelschiff reicht für 9 Personen noch 20 Tage               __/1
+   lang.
+   Berechne, wie lange dieser Vorrat für 5 Personen ausreichen würde.
+
+
+
+
+                                          36
+   Der Vorrat würde für 5 Personen noch _______ Tage lang ausreichen.
+   PROBLEME MATHEMATISCH LÖSEN
+
+11 Ein Bankhaus macht folgendes Angebot:                                                                    __/1
+                     Unser „Super-Zins-Angebot“:
+                      Sie leihen sich 5000 € und
+                     zahlen nach 12 Monaten nur
+                            5250 € zurück!
+
+     Ermittle, wie viel Prozent Zinsen die Bank bei
+     diesem Angebot verlangt.
+                           5
+     Die Bank verlangt _________ % Zinsen.
+     PROBLEME MATHEMATISCH LÖSEN
+
+
+12 Luzies neues Handy kostet 357 €. In diesem Preis ist die Mehrwertsteuer in Höhe                          __/1
+   von 19 % schon enthalten.
+     Berechne die Höhe der Mehrwertsteuer in Euro.
+
+
+
+
+                                   57
+     Die Mehrwertsteuer beträgt _______ €.
+     PROBLEME MATHEMATISCH LÖSEN
+
+
+13 Schreibe ohne Potenz.                                                                                    __/1
+                        301 740
+     3,0174 ꞏ 10 5 = _____________
+ 1
+ 2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+14 Erwin behauptet, dass für jedes x ∈ Q
+                                       I gilt: x² > x. Seine Behauptung ist falsch.                         __/1
+     Gib eine Zahl für x an, für die Erwins Behauptung nicht zutrifft.
+            1             z. B.
+     x = _______
+ 1
+ 2   KOMMUNIZIEREN
+
+
+15 Zu einem Term T(x) wurde eine Wertetabelle erstellt ( G = Q
+                                                             I ).                                           __/1
+              x                      –1                       0                    1              2
+             T(x)                     2                       4                    6              8
+     Kreuze den passenden Term an.
+       2x²                   6x                    x∙x+4                  x – (x + 4)    x + (x + 4)
+ 1
+ 2   PROBLEME MATHEMATISCH LÖSEN
+
+
+16 Vereinfache den folgenden Term so weit wie möglich ( G = Q
+                                                            I ).                                            __/1
+
+     17x + 25 + 17 – 15x =                42 + 2x
+
+
+ 1
+ 2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+17 Bestimme die Lösungsmenge L der Gleichung ( G = Q
+                                                   I ).                                                         __/1
+               18 + 2x = 8
+
+
+
+
+                                                                                                  –5
+                                                                                          L = { _______ }
+ 1
+ 2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+18 Kreuze die Gleichung an, die zum Text passt ( G = Q
+                                                     I ).                                                       __/1
+
+     „Die Hälfte einer Zahl vermehrt um 5 ist genauso groß wie die Summe aus – 3 und 7.“
+
+       0,5 ∙ x + 5 = – 3 ∙ 7                                    0,5 ∙ x ∙ 5 = – 3 + 7
+       x : 2 ∙ 5 = –3 ∙ 7                                       x : 2 + 5 = –3 + 7
+ 1
+ 2   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+19 In der Tabelle sind die Schuhgrößen der Spieler einer Handballmannschaft                                     __/1
+   angegeben.
+   Ergänze die Schuhgröße von Spieler Nr. 7 so, dass die Spannweite der
+   angegebenen Schuhgrößen 5 beträgt.
+      Spieler-
+                        1            2            3            4             5     6         7
+      Nr.
+
+      Schuh-                                                                                         z. B.
+                       41           43           45            43           44     45       40
+      größe
+
+     PROBLEME MATHEMATISCH LÖSEN
+
+
+20 Das Diagramm zeigt die                                                                                       __/1
+   Handy-Nutzungszeit
+   von Luca im Laufe einer
+   Woche.
+   Gib an, wie viele Stunden
+   Luca das Handy durch-
+   schnittlich pro Tag nutzt.
+
+
+
+
+                                              3
+     Luca nutzt das Handy durchschnittlich _______ Stunden pro Tag.
+     MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+                                                                                                 Viel Erfolg!

@@ -1,0 +1,195 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 8, Wahlpflichtfächergruppe II/III, Angabe 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/2023_JT_Mathe_8_II_Angabe.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+                     JAHRGANGSSTUFENTEST 2023 IM FACH MATHEMATIK
+                  FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+                             WAHLPFLICHTFÄCHERGRUPPE II/III
+                                (ARBEITSZEIT: 45 MINUTEN)
+
+    NAME:                                                                         NOTE:
+    KLASSE:       8 ________                                                      PUNKTE: _________ /21
+
+
+1 Berechne.                                                                                               __/1
+                   2
+          3                                                      5 4
+                                                                        =
+       a)   =                                              b)
+          4                                                     2,5 3
+
+                                                                                                          __/1
+
+
+
+
+2 Berechne.                                                                                               __/1
+  10 5 ∙ 10 – 5 : 10 – 5 =
+
+
+
+
+                                                           I +).
+3 Kreuze den Term an, der zum Term x10 äquivalent ist (G = Q                                              __/1
+       x +x  5     5
+                               x ∙x
+                                 2     5
+                                                     x ∶x
+                                                       15   5
+                                                                      (x ) 5 5
+
+
+
+
+4 Verena soll den Mittelpunkt M der Strecke AB mit A (5 | 3) und B (4 | 8) berechnen.                     __/1
+  Sie rechnet:
+                                 M (5 + 4 | 3 + 8) = M (9 | 11).
+
+     Beschreibe, was sie bei ihrer Rechnung falsch gemacht hat.
+     _______________________________________________________________
+     _______________________________________________________________
+     _______________________________________________________________
+
+
+5                                    
+                                       →    4                                                           __/1
+     Gegeben ist der Pfeil AB =                .
+                                            −2 
+     Gib geeignete Koordinaten für die
+     Punkte A und B an.
+
+     A ( ____ | ____ ) und B ( ____ | ____ )
+
+6 Gib das Winkelmaß α an.                                                                      h       __/1
+   Es gilt: g || h.                                                           60°
+
+
+                                                                        50°
+   α = ________°                                                    α                          g
+
+                                                             Die Skizze ist nicht maßtreu.
+
+
+7 Gib das Winkelmaß β an.                                                                              __/1
+  Es gilt: g || h.                                   40°                                       h
+
+
+                                                                                β              g
+
+   β = ________°
+                                                             Die Skizze ist nicht maßtreu.
+
+
+8 Markiere alle Punkte Pn, die von der Gerade g den Abstand 2 cm haben.                                __/1
+
+
+
+                                                                    g
+
+
+
+
+9 Vervollständige die Strecke AB zum                     y                                             __/1
+  Dreieck ABC mit γ = 90°, so dass
+  der Punkt C auf der y-Achse liegt.                     2
+                                                                                           B
+                                                         1
+
+
+                                                         O                                         x
+                                                –1                 1      2     3      4
+                                                     A
+
+10 Beschreibe, wie man den Mittelpunkt M des Inkreises eines Dreiecks ABC                              __/1
+   ermitteln kann.
+   _________________________________________________________________________
+   _________________________________________________________________________
+   _________________________________________________________________________
+
+11 Gib einen Term u(x) an, der die Maßzahl des                  C
+                                                                                               __/1
+   Umfangs des Dreiecks ABC darstellt (G = QI +).          x               x+3
+
+   u (x) = ____________________                     A                                   B
+                                                                     2x
+                                                        Die Skizze ist nicht maßtreu.
+
+
+                                                           I +).
+12 Vereinfache den folgenden Term so weit wie möglich (G = Q                                   __/1
+
+   10x² : 2x = ___________
+
+13 Max hat die nebenstehende Gleichung                                                         __/1
+                                                          0,5 + 4x = −19,5          | −0,5
+   mit der Grundmenge G = IN richtig gelöst.
+   Begründe, warum er als Lösungsmenge L                 ⇔        4x = −20          |:4
+   die leere Menge angibt.                               ⇔          x = −5
+   _____________________________________
+                                                                    L={ }
+   _____________________________________
+   _________________________________________________________________
+
+
+14 Bestimme die Lösungsmenge L der folgenden Gleichung (G = Q
+                                                            I ).                               __/1
+   4x – x + 3 = −3
+
+
+
+
+                                                                             L = { _______ }
+
+15 Belege den Platzhalter so, dass die Lösungsmenge L der Ungleichung stimmt                   __/1
+   (G = IN ).
+
+   x – 23 >
+   L = {x | x > 30}
+
+
+16 Der Preis eines Elektrofahrrads wurde zum Vorjahr um 20 % erhöht und beträgt                __/1
+   jetzt 3000 €.
+   Berechne, wie viel das Fahrrad vor der Preiserhöhung gekostet hat.
+
+
+
+
+   Das Fahrrad hat vor der Preiserhöhung __________ € gekostet.
+
+17 Zwei baugleiche Bagger können in zwei Stunden 1000 m³ Erde bewegen.        __/1
+   Kreuze an, wie viel Erde vier dieser baugleichen Bagger in drei Stunden
+   bewegen können.
+     1500 m³          3000 m³      4000 m³        6000 m³      8000 m³
+
+
+
+
+18 Berechne den Wert des Terms T(x) = x + 3x für x = –10.                     __/1
+
+
+
+   T(–10) = ___________
+
+
+
+19 Gib den Wert von x an, so dass man 100 als arithmetisches Mittel           __/1
+   aller 5 Zahlen erhält.
+
+     93    96    95    102    x
+
+
+
+   x = ____________
+
+20 Das Diagramm zeigt, wie viele vegetarische und                             __/1
+   nicht vegetarische Menüs in einer Schulmensa
+   in den ersten beiden Schulwochen verkauft wurden.
+   Jona sagt: „Der Anteil der vegetarischen Menüs ist in
+   der 1. Woche genauso groß wie in der 2. Woche.“
+   Begründe, dass Jona Recht hat.
+   __________________________________________
+   __________________________________________
+   __________________________________________

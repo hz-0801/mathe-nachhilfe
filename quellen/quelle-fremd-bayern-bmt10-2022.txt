@@ -1,0 +1,204 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien, Aufgaben Gruppe A 2022
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2022/bmt10_2022_aufgaben_gruppe_a.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2022                                                                                      A
+
+
+
+        Bayerischer Mathematik-Test für die Jahrgangsstufe 10 der Gymnasien
+
+Name: __________________________________                        Note:                   _____
+
+Klasse: __________                                              Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Geben Sie jeweils die Lösung(en) der Gleichung an.
+
+a) x 2 = 100      ( x ∈ IR )
+
+
+
+                                                                                                    /1
+
+b) x −1 = 100     ( x ∈ IR \ {0} )
+
+
+
+                                                                                                    /1
+
+
+
+Aufgabe 2
+                                        4
+Gegeben ist die Funktion f : x            − 2 mit dem Definitionsbereich IR \ {−3} .
+                                       x+3
+
+a) Zeigen Sie rechnerisch, dass −1 Nullstelle von f ist.
+
+
+
+
+                                                                                                    /1
+
+b) Beschreiben Sie, wie der Graph von f durch Verschieben aus dem Graphen der in IR \ {0}
+                                     4
+   definierten Funktion g : x         hervorgeht.
+                                     x
+
+
+
+
+                                                                                                    /2
+
+BMT10 2022                           Seite 2 (von 4)                                       A
+
+
+
+Aufgabe 3
+An einer Hauswand soll ein rechteckiger Gemüsegarten angelegt und an den drei
+offenen Seiten eingezäunt werden (vgl. Abbildung). Dabei bezeichnen x und b die
+Seitenlängen des Gemüsegartens in Metern.
+Die Gesamtlänge des Zauns soll 12 m betragen.
+
+a) Für einen bestimmten Wert von x ist der so geplante Gemüse-
+   garten quadratisch. Berechnen Sie für diesen Fall den Flächen-
+   inhalt des Gemüsegartens.
+
+
+                                                                                               /2
+
+Es wird untersucht, ob durch eine andere Wahl von x bei gleichbleibender Zaunlänge
+ein größerer Flächeninhalt erreicht werden kann. Hierzu wird die Funktion f mit
+f (x) =x ⋅ (12 − 2x ) betrachtet, deren Graph eine nach unten geöffnete Parabel ist.
+
+b) Begründen Sie, dass der Flächeninhalt des Gemüsegartens in m2 durch den Term f ( x )
+   beschrieben wird.
+
+
+
+                                                                                               /1
+
+c) Geben Sie die beiden Nullstellen von f an und bestimmen Sie x so, dass der Flächeninhalt
+   des Gemüsegartens maximal wird.
+
+                                                                                               /2
+
+
+
+Aufgabe 4
+Die Kinder der sechsten Klassen eines Gymnasiums haben als zweite Fremdsprache ent-
+weder Latein oder Französisch gewählt. Unter den Kindern wird eines zufällig ausgewählt.
+Betrachtet werden folgende Ereignisse:
+  L: Das Kind hat Latein gewählt.
+  M: Das Kind ist ein Mädchen.
+
+a) Bei einer der folgenden Vierfeldertafeln passt der grau gefärbte Bereich zum Ereignis
+   „Genau eines der beiden Ereignisse L und M tritt ein.“. Kreuzen Sie (nur) diese an.
+      □       L L          □       L L          □       L L          □       L L
+          M                    M                    M                    M
+          M                    M                    M                    M
+                                                                                               /1
+
+b) Eine der folgenden Mengenschreibweisen gehört zum Ereignis „Ein Kind hat Französisch
+   gewählt und ist kein Mädchen.“ Kreuzen Sie (nur) diese an.
+     □    L ∩M         □   L ∪M          □   L ∩M         □   L ∪M           □   L ∩M          /1
+
+BMT10 2022                            Seite 3 (von 4)                                     A
+
+
+
+Aufgabe 5
+Seit Dezember 2017 führt eine neue Seilbahn auf die Zugspitze.
+
+a) Eine Gondel dieser Seilbahn bietet Platz für 120 Personen. Geben Sie die Anzahl der
+   Personen in der Gondel an, wenn diese bezüglich der Personenzahl zu 30 % ausgelastet
+   ist.
+
+
+                                                                                               /1
+
+b) Die Seilbahn überwindet einen Höhenunterschied
+   von h = 1945 m . Nimmt man vereinfachend an,
+   dass die Fahrstrecke der Länge l = 4467 m
+   geradlinig verläuft, so schließen das Seil und die
+   Horizontale einen Steigungswinkel α ein
+   (vgl. Abbildung).
+  Geben Sie eine Gleichung an, durch die der Steigungswinkel α aus l und h berechnet
+  werden kann.
+
+
+                                                                                               /1
+
+In der Realität variiert die Steigung von Bergbahnen im Streckenverlauf. So ist der maximale
+Steigungswinkel der Zugspitzseilbahn deutlich größer als der Wert, der sich aus Aufgabe 5b
+ergeben würde.
+Nachfolgende Tabelle gibt die maximalen Steigungen und die zugehörigen Steigungswinkel
+für die Seilbahn und für die ebenfalls auf die Zugspitze führende Zahnradbahn an.
+                                               Zahnradbahn       Seilbahn
+              maximale Steigung                     0,25            1,04
+              zugehöriger Steigungswinkel           14°             46°
+
+c) Ergänzen Sie folgende Erläuterung:
+
+     Die Steigung einer Seilbahn oder Schiene ist wie die Steigung einer Gerade im
+     Koordinatensystem festgelegt. Eine Steigung von 0,25 bedeutet beispielsweise,
+     dass bei einer horizontalen Entfernung von ________ m eine Höhendifferenz von
+     ________ m überwunden wird.                                                               /1
+
+d) Die maximale Steigung ist nicht direkt proportional zum zugehörigen Steigungswinkel.
+   Beschreiben Sie unter Einbeziehung der konkreten Werte aus obiger Tabelle, wie man
+   dies zeigen könnte.
+
+
+
+
+                                                                                               /1
+
+BMT10 2022                            Seite 4 (von 4)                                  A
+
+
+
+Aufgabe 6
+a) Ein Dreieck mit einer Seite der Länge 4 cm und zugehöriger Höhe h hat den Flächeninhalt
+   6 cm2 .
+  Berechnen Sie h.
+
+
+
+
+                                                                                             /1
+
+b) Betrachtet wird ein Dreieck ABC. Die Gerade g
+   verläuft parallel zur Gerade AB durch den
+   Punkt C (vgl. Abbildung). Spiegelt man g an AB,
+   erhält man die Bildgerade g′ .
+  Zeichnen Sie g′ ein und begründen Sie:
+     Ist Q ein beliebiger Punkt auf g ′ , so hat das
+     Dreieck AQB den gleichen Flächeninhalt wie
+     das Dreieck ABC.
+
+
+
+
+                                                                                             /2
+
+
+
+Aufgabe 7
+Die Abbildung zeigt ein rechtwinkliges Dreieck mit drei
+Halbkreisen, die jeweils eine der Dreiecksseiten als
+Durchmesser haben.
+Begründen Sie mithilfe einer Rechnung, dass die Summe
+der Flächeninhalte der beiden kleineren Halbkreise gleich
+dem Flächeninhalt des größten Halbkreises ist.
+
+
+
+
+                                                                                             /2

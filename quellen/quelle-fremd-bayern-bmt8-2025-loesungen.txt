@@ -1,0 +1,60 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien 2025, Lösungshinweise und Notenschlüssel (Gruppe A und B)
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2025/BMT8_2025_Loesungen.pdf
+ABRUF: 2026-09-28
+SEITEN: 1
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2025                      Lösungshinweise und Notenschlüssel
+
+
+Die Lösungshinweise enthalten keine vollständigen Lösungen der Aufgaben. Nicht genannte, aber
+gleichwertige Lösungswege sind entsprechend zu bewerten.
+
+                                                                                    Prozessbezogene
+Aufgabe      Lösungshinweise (Gruppe A)              Lösungshinweise (Gruppe B)
+                                                                                      Kompetenzen
+ 1a       − 87                                     − 83                            K5
+ 1b       13,01                                   17,01                            K5
+ 2a                                                       3                        K5, K3, K2
+          4 m  2 m  1,5 m − 3 m  2 m  1,2 m = 4,8 m
+ 2b       1000-mal so groß.                                                        K3, K4
+ 3          11x − 8x + 12 = 0                      13x − 10x + 15 = 0          K5
+           3x = −12  x = − 4                      3x = −15  x = −5
+ 4         = 9x 6 + x 6 = 10x 6                    = 9a 6 + a 6 = 10a 6          K5
+ 5        z. B.: Im abgebildeten Tabellenblatt liefert die Formel den Wert         K1, K2, K4
+          52 + 60 = 82 (bzw. 32 + 40 = 52 ), also nicht das arithmetische Mittel
+                  2                    2
+          von 52 und 60 (bzw. 32 und 40).
+ 6a       Die Aussage steht mit dem Diagramm in Einklang, da                       K4, K6
+                 50        = 1 (bzw.        50        = 1 ) gilt.
+          24 + 50 + 40 + 36 3        36 + 40 + 50 + 24 3
+
+ 6b       20; 25                                  25; 20                           K5, K2
+ 6c       Median: 6                               Median: 4                        K1, K2, K5
+          Begründung: 150  24 + 50               Begründung: 150  36 + 40
+                       2                                       2
+ 6d       Die Anzahl der Teilnehmenden des Vorjahrs ist unbekannt.                 K1
+ 7a       C (8 | 5)                                C (7 | 5)                       K4
+ 7b       6  3 = 18                               5  4 = 20                      K4, K5
+ 7c       z. B.: E ( 0 | 8 )                      z. B.: E ( 0 | 9 )        K2, K4
+ 8a       Da A und C auf dem Kreis liegen, Da B und C auf dem Kreis liegen, K1
+          gilt MA = MC .                          gilt MB = MC .
+
+ 8b       Da das Dreieck AMC                      Da das Dreieck MBC                K1, K2, K5
+          gleichschenklig mit Basiswinkel α       gleichschenklig mit Basiswinkel β
+          ist, gilt  CMA = 180 − 2α .           ist, gilt  BMC = 180 − 2β .
+            CMA ist ein Nebenwinkel von            BMC ist ein Nebenwinkel von
+          δ, also folgt δ = 2α .                  δ, also folgt δ = 2β .
+
+
+
+Die von einer Schülerin oder einem Schüler insgesamt erreichten Bewertungseinheiten werden gemäß
+folgender Tabelle in eine Note umgesetzt:
+                                       Anzahl erreichter BE            Note
+                                             21   – 16                  1
+                                             15   – 13                  2
+                                             12   – 10                  3
+                                             9    – 7                   4
+                                             6    – 4                   5
+                                             3    – 0                   6

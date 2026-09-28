@@ -1,0 +1,224 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien, Aufgaben Gruppe A 2021
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2021/bmt8_2021_aufgaben_gruppe_a.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2021                                                                                A
+
+
+            Bayerischer Mathematik-Test für die Jahrgangsstufe 8 der Gymnasien
+
+Name: __________________________________                   Note:                _____
+
+Klasse: __________                                         Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Berechne.
+
+a) ( −7 ) =
+        2
+                                                                                             /1
+
+b) 3 −2 =                                                                                    /1
+
+
+
+Aufgabe 2
+Betrachtet wird die folgende Rechenanweisung: „Denke dir eine natürliche Zahl. Verdopple
+sie und subtrahiere vom Ergebnis 3. Multipliziere die Zahl, die du nach dieser Rechnung
+erhältst, mit 5 und addiere anschließend 15.“
+
+a) Jakob denkt sich die Zahl 9 und rechnet richtig. Gib sein Endergebnis an.
+
+                                                                                             /1
+
+b) Stelle in Abhängigkeit von der gedachten Zahl n einen allgemeinen Term auf, der die
+   Rechenanweisung beschreibt. Vereinfache anschließend deinen Term so weit wie
+   möglich.
+
+
+
+
+                                                                                             /2
+
+
+
+Aufgabe 3
+                 I die Lösung der Gleichung 21 x − 2 = 21 − x + 2x .
+Bestimme für x  Q
+
+
+
+
+                                                                                             /2
+
+BMT8 2021                               Seite 2 (von 4)                                      A
+
+
+
+Aufgabe 4
+Ein Würfel hat die Kantenlänge 40 cm.
+
+a) Berechne das Volumen dieses Würfels in Litern.
+
+                                                                                                 /2
+
+Ein solcher Würfel wurde als Sitzhocker gebaut (vgl.
+Abbildung). Für die sechs Seitenflächen wurden 1 cm dicke
+Holzbretter verwendet. Innen ist der Sitzhocker hohl.
+Das Volumen des verbauten Holzes soll berechnet werden.
+b) Ein korrekter Ansatz für diese Berechnung ist
+
+
+
+
+                                                                    40 cm
+   ( 40cm)3 − ( 40cm − 2cm)3 .
+   Gib die Bedeutung des Subtrahenden ( 40cm − 2cm)
+                                                           3
+
+   im Sachzusammenhang an.
+
+
+
+
+                                                                                                 /1
+
+c) Der Ansatz 6  ( 40cm)  1cm liefert einen Näherungswert für das Volumen des verbauten
+                          2
+
+   Holzes. Begründe ohne zu rechnen, dass dieser Näherungswert größer ist als der
+   korrekte Wert.
+
+
+
+
+                                                                                                 /1
+
+
+
+Aufgabe 5
+Auf einer Party befinden sich m Mädchen und j Jungen, wobei die Anzahl der Jungen um
+20 % kleiner ist als die der Mädchen. Zwei der folgenden Gleichungen passen dazu. Kreuze
+(nur) diese an.
+□ j = m − 100
+           20           □ m = j − 100
+                                   20              □ j = 0,8m               □ m = 0,8 j
+□ m = 20 j              □ j = 20m                  □ m = j − 51 j           □ j = m − 51 m
+                                                                                                 /2
+
+BMT8 2021                                 Seite 3 (von 4)                                                                                 A
+
+
+
+Aufgabe 61
+a) Die Anzahl der in Deutschland
+   pro Person verbrauchten                                                              Plastiktütenverbrauch pro Person in Deutschland
+
+
+
+
+                                            Anzahl der verbrauchten Plastiktüten
+   Plastiktüten sank von 68 im Jahr                                                80
+   2015 auf 24 im Jahr 2018. Durch                                                 70
+   die Darstellung in der Abbildung
+                                                                                   60
+   könnte der Eindruck entstehen,
+   dass die Anzahl der pro Person                                                  50
+   verbrauchten Plastiktüten                                                       40
+   deutlich stärker gesunken ist als
+   dies tatsächlich der Fall war.                                                  30
+   Erläutere die Ursache für diesen                                                20
+   Eindruck.
+                                                                                   10
+
+                                                                                   0
+                                                                                                 2015                      2018
+
+
+
+
+                                                                                                                                              /1
+
+b) Im Jahr 2018 wurden in Deutschland etwa 2 Milliarden Plastiktüten verbraucht. Die Dicke
+   der Folie, aus der die Tüten bestehen, beträgt durchschnittlich etwa 0,05 mm. In einem
+   Gedankenexperiment werden alle diese Tüten zu einem Stapel übereinandergelegt.
+   Schätze mit einer Rechnung die Höhe dieses Stapels ab. Gib dein Ergebnis in Kilometern
+   an.
+
+
+
+
+                                                                                                                                              /2
+
+c) Durch das Verpackungsgesetz vom 01.01.2019 soll die Recyclingquote von Kunststoff-
+   verpackungen, die in Privathaushalten anfallen, um 27 Prozentpunkte von 36 Prozent vor
+   Inkrafttreten des Gesetzes auf 63 Prozent im Jahr 2022 ansteigen. Einer der folgenden
+   Brüche ist gleich dem Prozentsatz, um den diese Recyclingquote ansteigen soll. Kreuze
+   (nur) diesen an.
+  □ 36
+    27            □ 100
+                     36
+                                   □ 36
+                                     63
+                                                                                        □ 27
+                                                                                          63
+                                                                                                        □ 100
+                                                                                                           27            □ 100
+                                                                                                                            36
+
+                                                                                                                                              /1
+
+
+
+
+   1 Quellen: Umweltbundesamt, Handelsverband und Gesellschaft für Verpackungsforschung
+
+BMT8 2021                             Seite 4 (von 4)                                   A
+
+
+
+Aufgabe 7
+Folgender Datensatz soll in einem Boxplot dargestellt werden:
+1; 1; 2; 2; 2; 2; 3; 4; 4; 6; 6; 7; 9
+Vervollständige den Boxplot durch Einzeichnen des fehlenden Medians.
+
+
+
+
+                                                                                            /1
+
+
+
+Aufgabe 8
+Die Eckpunkte des Dreiecks ABC liegen auf
+einem Kreis, dessen Mittelpunkt M auch der
+Mittelpunkt der Seite AB ist. Um zu
+beweisen, dass ein solches Dreieck bei C
+einen rechten Winkel hat, wird das Dreieck
+durch die Strecke MC in zwei Teildreiecke
+zerlegt.
+
+a) Zunächst soll bewiesen werden, dass α = δ gilt (vgl. Abbildung). Dazu müssen die
+   folgenden Aussagen in die richtige Reihenfolge gebracht werden.
+     I. Das Dreieck AMC ist gleichschenklig mit Basis AC .
+     II. A und C liegen auf einem Kreis um M.
+     III. α = δ
+     IV. AM = CM
+  Trage die Nummern der Aussagen passend in die Schlussfolgerungskette ein:
+
+                 ⟹                 ⟹                ⟹      III.
+                                                                                            /1
+
+b) Ebenso lässt sich zeigen, dass β = ε gilt.
+  Zeige, dass aus α = δ und β = ε mithilfe der Innenwinkelsumme im Dreieck ABC folgt,
+  dass δ + ε = 90 gilt. Damit ist obige Aussage (Satz des Thales) bewiesen.
+
+
+
+
+                                                                                            /2

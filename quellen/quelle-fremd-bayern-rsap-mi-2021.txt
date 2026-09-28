@@ -1,0 +1,247 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin, Angaben 2021
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2021/2021_mi_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Prüfungsdauer:                Abschlussprüfung 2021
+ 150 Minuten                        an den Realschulen in Bayern
+
+                                             Mathematik I
+
+
+Name: _______________________________                 Vorname: _______________________________
+
+Klasse: ____________                 Platznummer: ____________                   Punkte: ____________
+
+            Aufgabe A 1                                                         Haupttermin
+
+A 1.0 Informationen über die Leistungsfähigkeit eines Sportlers kann man mithilfe von
+      sogenannten Laktat-Tests ermitteln, da die Laktat-Konzentration im Blut mit
+      steigender Laufgeschwindigkeit zunimmt.
+       Bei einem solchen Test wird die Laktat-Konzentration              (Millimol pro Liter Blut)
+
+       in Abhängigkeit von der Geschwindigkeit          erfasst.
+       Für Paul lässt sich dieser Zusammenhang bei einem Test näherungsweise durch die
+       Funktion f mit der Gleichung y  0,011,5x  0,85  G
+                                                           I  IR0  IR0  beschreiben.
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+A 1.1 Bei Paul wurde für die Geschwindigkeiten von                    und           jeweils eine
+       Messung der Laktat-Konzentration durchgeführt.
+       Berechnen Sie mithilfe der Funktion f die zugehörigen Funktionswerte für diese
+       beiden Geschwindigkeiten und ermitteln Sie sodann, um wie viel Prozent sich die
+       Laktat-Konzentration zwischen diesen beiden Messungen erhöht hat.
+
+
+
+
+                                                                                                     3P
+A 1.2 Berechnen Sie die nach y aufgelöste Gleichung der Umkehrfunktion zu f.
+
+
+
+
+                                                                                                     2P
+
+          Aufgabe A 2                                                       Haupttermin 2021
+
+A 2.0 Punkte Bn  x 0,5 x  4  und Punkte Cn liegen auf der Geraden g mit der Gleichung
+                     I  IR  IR  . Sie sind für x   4,25 zusammen mit dem Punkt A  0 0 
+      y  0,5x  4  G
+      und Punkten Dn Eckpunkte von Trapezen ABnCnDn .
+                                       1
+      Es gilt: Bn ADn  45 ; ADn         ABn ;  ABn    DnCn .
+                                       2
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+A 2.1 Im Koordinatensystem sind die Gerade g und das Trapez AB1C1D1 für x   3
+      bereits eingezeichnet.
+      Zeichnen Sie das Trapez AB2C2D2 für x  2 ein.
+                                   y
+                                   1
+                                   A
+       −5                          O            1                       5                x
+
+
+
+
+                                                D1
+
+                                           C1
+
+                                  −5
+                    B1
+
+         g
+                                                                                                1P
+
+A 2.2 Im Trapez AB3C3D3 gilt: C3B3 A  90.
+      Berechnen Sie den zugehörigen Wert von x.
+
+
+
+
+                                                                                                3P
+
+          Aufgabe A 2                                           Haupttermin 2021
+
+A 2.3 Zeigen Sie rechnerisch, dass für die Koordinaten der Punkte Dn in Abhängigkeit
+      von x gilt: Dn  0,18x  1,41 0,53x  1,41 .
+
+
+
+
+                                                                                       3P
+
+A 2.4 Berechnen Sie die Gleichung des Trägergraphen t der Punkte Dn und zeichnen Sie
+      diesen in das Koordinatensystem zu A 2.1 ein.
+
+
+
+
+                                                                                       3P
+
+            Aufgabe A 3                                                    Haupttermin 2021
+
+A 3.0 Gegeben      ist    ein   Schrägbild     des                     H                       G
+      Würfels ABCDEFGH mit AB  4 cm .                                       R
+      P ist der Mittelpunkt der Strecke  AD ,               E                    F
+      Q ist der Mittelpunkt der Strecke  AC 
+      und     R   ist    der    Mittelpunkt     der
+      Strecke EG .
+
+      Runden Sie im Folgenden auf zwei                                 D                       C
+      Stellen nach dem Komma.                                      P
+                                                                             Q
+                                                              A                        B
+
+A 3.1 Punkte Sn  QR  legen zusammen mit P und Q Winkel QPSn mit dem Maß  fest.
+      Sie sind für   l0l; l63,43l die Spitzen von Pyramiden EFGHSn                   mit der
+      Grundfläche EFGH.
+      Zeichnen Sie die Strecke PS1  und die Pyramide EFGHS1 für   30 in die
+      Zeichnung zu A 3.0 ein.                                                                        1P
+
+A 3.2 Zeigen Sie rechnerisch, dass für das Volumen V der Pyramiden EFGHSn in
+      Abhängigkeit von  gilt: V      21,33  10,67  tan   cm3 .
+
+
+
+
+                                                                                                     3P
+A 3.3 Unter den Pyramiden EFGHSn hat die Pyramide EFGHS0                         das   maximale
+      Volumen V0 . Begründen Sie, weshalb gilt: VWürfel : V0  3 :1.
+
+
+
+
+                                                                                                     2P
+
+ Prüfungsdauer:                       Abschlussprüfung 2021
+ 150 Minuten                                 an den Realschulen in Bayern
+
+                                                       Mathematik I
+
+            Aufgabe B 1                                                                   Haupttermin
+
+B 1.0 Gegeben ist die Funktion f1 mit der Gleichung y  3  log3  x  7   4  G
+                                                                                 I  IR  IR  .
+
+        Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 1.1 Geben Sie die Gleichung der Asymptote h des Graphen zu f1 an.
+        Zeichnen Sie sodann den Graphen zu f1 für x   4; 9 in ein Koordinatensystem.
+
+        Für die Zeichnung: Längeneinheit 1 cm;  4 < x < 9 ;  6 < y < 4                                   2P
+
+B 1.2 Der Graph der Funktion f1 wird durch Achsenspiegelung an der x-Achse und
+                                                             1
+        anschließende Parallelverschiebung mit dem Vektor v    auf den Graphen
+                                                               2
+        der Funktion f2 abgebildet.
+
+        Bestätigen Sie durch Rechnung, dass für die Gleichung der Funktion f2 gilt:
+        y   3  log3  x  6   2  G
+                                       I  IR  IR  .
+
+        Zeichnen Sie sodann den Graphen zu f2 für x   4; 9 in das Koordinatensystem
+        zu B 1.1 ein.                                                                                      3P
+
+B 1.3 Punkte A n  x  3  log3  x  6   2           auf    dem   Graphen   zu   f2     und   Punkte
+
+        Dn  x 3  log3  x  7   4  auf dem Graphen zu f1 haben dieselbe Abszisse x. Sie sind
+        für x   3,46 zusammen mit Punkten Bn und Cn Eckpunkte von Parallelogram-
+        men AnBnCnDn . Die Punkte Bn liegen dabei ebenfalls auf dem Graphen zu f2 , ihre
+        x-Koordinate ist stets um 4 größer als die Abszisse x der Punkte A n .
+
+        Zeichnen Sie das Parallelogramm A 1B1C1D1 für x  1,5 und das Parallelogramm
+        A2B2C2D2 für x  4 in das Koordinatensystem zu B 1.1 ein.                                          2P
+
+B 1.4 Zeigen Sie rechnerisch, dass für den Flächeninhalt A der Parallelo-
+      gramme AnBnCnDn in Abhängigkeit von der Abszisse x der Punkte A n gilt:
+
+        A  x   12  log3  x 2  13x  42   24  FE .                                              3P
+
+B 1.5 Im Parallelogramm A3B3C3D3 liegt der Punkt D3 auf der x-Achse.
+        Bestimmen Sie rechnerisch den Flächeninhalt des Parallelogramms A3B3C3D3 .                         3P
+
+B 1.6 Das Parallelogramm A 4B4C4D4 hat einen Flächeninhalt von 16 FE.
+        Bestimmen Sie rechnerisch die Koordinaten des Punktes B4 .                                         4P
+
+
+                                                         Bitte wenden!
+
+ Prüfungsdauer:                  Abschlussprüfung 2021
+ 150 Minuten                          an den Realschulen in Bayern
+
+                                               Mathematik I
+
+           Aufgabe B 2                                                  Haupttermin
+
+B 2.0 Die Diagonalen  AC  und BD des Drachenvierecks ABCD schneiden sich im
+       Punkt M. Das Drachenviereck ABCD ist die Grundfläche der Pyramide ABCDS mit
+       der Spitze S und der Höhe MS .
+       Es gilt: AC  11cm ; AM  4,5 cm ; BD  10 cm ; MS  9 cm .
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 2.1 Zeichnen Sie das Schrägbild der Pyramide ABCDS, wobei               AC   auf der
+       Schrägbildachse und der Punkt A links vom Punkt C liegen soll.
+                                  1
+       Für die Zeichnung gilt: q  ;   45 .
+                                  2
+       Berechnen Sie sodann das Maß des Winkels MSC.
+       Ergebnis: MSC  35,84                                                         3P
+
+B 2.2 Punkte Pn liegen auf der Strecke CS . Die Winkel PnMS haben das Maß  mit
+          0 ;90 . Die Punkte Pn sind zusammen mit den Punkten B und D die
+       Eckpunkte von Dreiecken BDPn .
+       Zeichnen Sie die Strecke MP1  sowie das Dreieck BDP1 für   30 in das
+       Schrägbild zu B 2.1 ein.
+       Zeigen Sie sodann, dass für die Länge der Strecken MPn  in Abhängigkeit von 
+                                5,27
+       gilt: MPn                        cm .                                           3P
+                         sin    35,84 
+
+B 2.3 Das Dreieck BDP2 ist gleichseitig. Berechnen Sie den zugehörigen Wert für  .        3P
+
+B 2.4 Die Pyramiden BDSPn haben die Grundfläche BDS und die Spitzen Pn . Die
+       Höhenfußpunkte Fn der Pyramiden BDSPn liegen auf der Strecke MS .
+
+       Zeichnen Sie die Höhe FP
+                               1 1  in das Schrägbild zu B 2.1 ein.
+
+
+       Berechnen Sie sodann das Volumen V der Pyramiden BDSPn in Abhängigkeit
+       von  .
+                                          5,27  sin        
+       Zwischenergebnis : FnPn                        cm                             3P
+                                      sin    35,84     
+
+B 2.5 Die Pyramiden ABDS und BDSP3 haben das gleiche Volumen.
+       Berechnen Sie den zugehörigen Wert für  .                                          3P
+
+
+                                                Bitte wenden!

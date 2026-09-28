@@ -1,0 +1,55 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien 2024, Lösungshinweise und Notenschlüssel (Gruppe A und B)
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2024/BMT10_2024_Loesungen.pdf
+ABRUF: 2026-09-28
+SEITEN: 1
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2024                 Lösungshinweise und Notenschlüssel
+
+
+Die Lösungshinweise enthalten keine vollständigen Lösungen der Aufgaben. Nicht genannte, aber
+gleichwertige Lösungswege sind entsprechend zu bewerten.
+                                                                                Prozessbezogene
+Aufgabe     Lösungshinweise (Gruppe A)             Lösungshinweise (Gruppe B)
+                                                                                  Kompetenzen
+ 1a       20                                  30                                K5
+ 1b            3                                   4                            K5
+          2x                                  3x
+ 2a       −3 und 3                            −2 und 2                          K5
+ 2b       Verschiebung um 9 in negative       Verschiebung um 4 in negative     K4, K6, K1, K5
+          y-Richtung; Wertemenge:             y-Richtung; Wertemenge:
+          [− 9; +∞[                           [− 4; +∞[
+ 3a       2;4;6;8                             1;3;5;7;9                         K3, K6
+ 3b                                                                             K4, K6
+
+
+
+ 4a       Man dividiert 85 Millionen durch 0,19.                                K6, K5
+ 4b       erster Term                         zweiter Term                      K5
+ 5a       39                                  36                                K5, K3
+ 5b       Die Länge des Bremswegs vervierfacht sich.                            K6, K1, K3
+ 5c       Einzeichnen des Graphen von r; 60 km                                  K3, K4, K2
+                                             h
+ 5d       3+c⋅ 1 = 7 ⇔ c = 8                  3 + k ⋅ 1 = 9 ⇔ k = 12            K2, K3, K5
+                   2                                   2
+ 6a       72π                                                                   K5
+ 6b       Einzeichnen eines geeigneten        gesuchter Wert: 3                 K1, K4, K2
+                                                              8
+          rechtwinkligen Dreiecks
+ 7a       2 und 2,5                           2 und 1,5                         K4, K6
+ 7b       a⋅ 5 =5                             a⋅ 3 =3                           K1, K4, K5
+             a                                   a
+ 7c       a= 5                                a= 3                              K2, K1, K4
+
+
+
+Die von einer Schülerin oder einem Schüler insgesamt erreichten Bewertungseinheiten werden gemäß
+folgender Tabelle in eine Note umgesetzt:
+                                   Anzahl erreichter BE       Note
+                                         21   – 16             1
+                                         15   – 13             2
+                                         12   – 10             3
+                                          9   – 7              4
+                                          6   – 4              5
+                                          3   – 0              6

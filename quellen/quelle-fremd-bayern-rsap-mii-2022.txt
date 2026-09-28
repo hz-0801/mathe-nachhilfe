@@ -1,0 +1,240 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin, Angaben 2022
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2022/2022_mii_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+Prüfungsdauer:                Abschlussprüfung 2022
+ 150 Minuten
+                                   an den Realschulen in Bayern
+
+                                           Mathematik II
+
+
+Name: ______________________________                  Vorname: ______________________________
+
+Klasse: ________                      Platznummer: ________                   Punkte: ________
+
+          Aufgabe A 1                                                  Haupttermin
+
+A 1.0 Die Vorlage eines Kerzenhalters für kugelförmige Kerzen
+      ist ein Rotationskörper mit der Rotationsachse MN.
+      Nebenstehende Skizze zeigt den Axialschnitt dieses
+      Rotationskörpers. Der Punkt C ist der Schnittpunkt der
+      Geraden AB und ED.
+
+      Es gilt: AE  9 cm ; GF  5 cm ; BD  5 cm ;
+                 CN  5,5 cm ; r  MG  MF ; AE BD.
+
+A 1.1 Berechnen Sie das Volumen des Rotationskörpers.
+      Runden Sie auf zwei Stellen nach dem Komma.
+      Zwischenergebnis: CM  9,9 cm ; Ergebnis: V  141,21cm3 
+                                                              
+
+
+
+
+                                                                                           4P
+A 1.2 Der Kerzenhalter soll aus Marmor gefertigt werden. 1 cm³ des verwendeten Marmors
+      hat eine Masse von 2,7 g.
+      Berechnen Sie die Masse des Kerzenhalters. Runden Sie auf ganze Gramm.
+
+
+
+                                                                                           1P
+
+          Aufgabe A 2                                                 Haupttermin 2022
+
+A 2.0 Gegeben ist das Viereck ABCD.
+      Es gilt: AB  BC  8 cm ; AD  3 cm ; CBA  110 ; ADB  80.
+
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+
+
+
+A 2.1 Zeichnen Sie die Strecke BD  in die Zeichnung zu A 2.0 ein.
+      Berechnen Sie sodann das Maß des Winkels DBA und die Länge der Strecke BD  .
+       Teilergebnisse: DBA  21,67 ; BD  7,96 cm 
+                                                    
+
+
+
+
+                                                                                         3P
+
+           Aufgabe A 2                                               Haupttermin 2022
+
+A 2.2 Berechnen Sie den Flächeninhalt des Vierecks ABCD.
+       Ergebnis: A ABCD  43,58 cm2 
+
+
+
+
+                                                                                        2P
+
+                                                                          mit dem
+A 2.3 Der Punkt M ist der Mittelpunkt der Strecke BC  . Der Kreisbogen CB
+       Mittelpunkt M schneidet die Strecke  AC  in den Punkten C und E.
+                                    und Strecke EM in die Zeichnung zu A 2.0 ein.
+       Zeichnen Sie den Kreisbogen CB                                                   1P
+
+A 2.4 Die Strecke EM ist parallel zur Strecke  AB  .
+       Begründen Sie, weshalb für das Maß des Winkels EMB gilt: EMB  70 .
+                                                            mit dem Mittelpunkt M.
+       Berechnen Sie sodann die Bogenlänge des Kreisbogens EB
+
+
+
+
+                                                                                        2P
+                                                                           und die
+A 2.5 Berechnen Sie den Flächeninhalt der Figur, die durch den Kreisbogen EB
+      Strecken EM und BM begrenzt wird.
+       Bestimmen Sie sodann den prozentualen Anteil dieses Flächeninhalts am
+       Flächeninhalt des Vierecks ABCD.
+
+
+
+
+                                                                                        2P
+
+          Aufgabe A 3                                                    Haupttermin 2022
+
+A 3.0 Ein Floh kann bezogen auf seine Körpergröße sehr weit
+      und sehr hoch springen.
+      Ein solcher Sprung kann näherungsweise durch die
+      Parabel p: y   0,1x 2  3,5x  G
+                                       I  IR 0  IR 0  beschrieben
+
+      werden. Dabei entspricht x cm der horizontal gemesse-
+      nen Entfernung vom Absprungpunkt P  0 0  und y cm
+      der zugehörigen Höhe über dem Boden. Der Floh landet
+      im Punkt Q  xQ 0  auf dem Boden.
+
+
+A 3.1 Berechnen Sie die Koordinaten des Scheitelpunkts S der Parabel p.
+      Zeichnen Sie sodann die Parabel p für x 0; x Q  in das Koordinatensystem ein.
+
+
+
+
+                                                                                            3P
+
+A 3.2 Geben Sie die maximale Höhe und die Weite dieses Sprungs an.
+      Runden Sie auf ganze Zentimeter.
+
+              maximale Höhe: __________ cm                    Weite: __________ cm          1P
+
+A 3.3 Der rechts abgebildete Floh kann bis zu 0,6 m weit springen.
+      Kreuzen Sie an, wie weit ein 1,80 m großer Mensch ungefähr
+      springen würde, wenn er im Verhältnis zu seiner Körpergröße
+      genauso weit wie dieser Floh springen könnte.
+
+              q 3,6 m         q 36 m          q 360 m         q 3600 m                      1P
+
+ Prüfungsdauer:                   Abschlussprüfung 2022
+  150 Minuten
+                                         an den Realschulen in Bayern
+
+                                                  Mathematik II
+
+           Aufgabe B 1                                                       Haupttermin
+
+B 1.0 Die Parabel p mit dem Scheitelpunkt S  3 5  hat eine Gleichung der Form
+                                 I  IR  IR und b, c  IR .
+       y   0,5x 2  bx  c mit G
+       Die Gerade g hat die Gleichung y   0,25x  3 mit G
+                                                          I  IR  IR .
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 1.1 Zeigen Sie rechnerisch, dass die Parabel p die Gleichung y   0,5x 2  3x  0,5 hat.
+       Zeichnen Sie sodann die Parabel p und die Gerade g für x   2; 8 in ein
+       Koordinatensystem ein.
+       Für die Zeichnung: Längeneinheit 1 cm;  2 < x < 10 ;  8 < y < 6                       3P
+
+                                                                                       
+B 1.2 Punkte Bn  x  0,25x  3  auf der Geraden g und Punkte Dn x  0,5x 2  3x  0,5 auf
+       der Parabel p haben dieselbe Abszisse x. Sie sind zusammen mit Punkten A n und
+       Cn Eckpunkte von Drachenvierecken AnBnCnDn mit den Symmetrieachsen AnCn und
+       den Diagonalenschnittpunkten M n .
+       Es gilt: M n An  2 LE ; M nCn  4 LE ; y Dn  y Bn .
+       Zeichnen Sie das Drachenviereck A1B1C1D1 für x  0 und                das    Drachen-
+       viereck A2B2 C2D2 für x  6 in das Koordinatensystem zu B 1.1 ein.                      2P
+
+B 1.3 Begründen Sie, weshalb der Flächeninhalt der Dreiecke AnBnDn stets halb so groß
+      wie der Flächeninhalt der Dreiecke BnCnDn ist.                                           1P
+
+B 1.4 Ermitteln Sie rechnerisch, für welche Werte von x es Drachenvierecke AnBnCnDn gibt.      3P
+
+B 1.5 Unter den Drachenvierecken AnBnCnDn hat das Drachenviereck A0B0 C0D0 den
+      maximalen Flächeninhalt.
+      Berechnen Sie diesen Flächeninhalt und den zugehörigen Wert für x.
+       Zwischenergebnis: BnDn  x     0,5x 2  3,25x  3,5  LE                          4P
+                                                                    
+
+B 1.6 Unter den Drachenvierecken AnBnCnDn gibt es zwei Drachenvierecke A3B3 C3D3 und
+      A4B4 C4D4 , die bei C3 bzw. C4 rechtwinklig sind.
+       Begründen Sie, warum B 3D 3  B 4D4  8 LE gilt.
+       Berechnen Sie sodann die x-Koordinaten von B3 und B4 .                                  3P
+
+
+
+
+                                                  Bitte wenden!
+
+ Prüfungsdauer:                 Abschlussprüfung 2022
+  150 Minuten
+                                       an den Realschulen in Bayern
+
+                                               Mathematik II
+
+               Aufgabe B 2                                                           Haupttermin
+
+B 2.0 Die nebenstehende Skizze zeigt ein Schrägbild des geraden
+      Prismas ABCDEF, dessen Grundfläche das gleichschenklige
+      Dreieck ABC mit der Basis  AB  ist. M ist der Mittelpunkt der
+       Strecke  AB  .
+
+       Es gilt: CM  8 cm ; CF  11cm ; AB  10 cm .
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+
+B 2.1 Zeichnen Sie das Schrägbild des Prismas ABCDEF mit der Strecke FM , wobei die
+       Strecke CM auf der Schrägbildachse und der Punkt C links vom Punkt M liegen
+       soll.
+       Für die Zeichnung gilt: q  1 ;   45 .
+                                   2
+       Berechnen Sie sodann die Länge der Strecke FM und das Maß des Winkels CFM.
+        Teilergebnisse: FM  13,60 cm ; CFM  36,03                                                   4P
+                                                     
+
+B 2.2 Für Punkte Pn auf der Strecke FM gilt: FPn  x   x cm  x  IR ; x  0 ; 13,60   .
+       Zeichnen Sie das Dreieck CPF
+                                  1 für x  4 in das Schrägbild zu B 2.1 ein.
+       Berechnen Sie sodann den Flächeninhalt des Dreiecks CPF
+                                                             1 sowie die Länge der
+       Strecke CP1  .                                                                                   3P
+
+B 2.3 Das Dreieck ABC ist die Grundfläche von Pyramiden ABCPn mit den Höhen PnK n  ,
+       wobei Kn  CM gilt.
+       Zeichnen Sie die Pyramide ABCP1 und die Höhe PK
+                                                      1 1  in das Schrägbild zu B 2.1
+
+       ein.                                                                                               1P
+
+B 2.4 Zeigen Sie, dass sich das Volumen V der Pyramiden ABCPn in Abhängigkeit von x
+       wie folgt darstellen lässt: V  x   146,67  10,80x  cm3 .                                     3P
+
+B 2.5 Das Volumen der Pyramide ABCP2 beträgt 15 %                            des     Volumens       des
+      Prismas ABCDEF.
+      Ermitteln Sie durch Rechnung den zugehörigen Wert für x.                                            2P
+
+B 2.6 Unter den Punkten Pn hat der Punkt P0 die kürzeste Entfernung zu C.
+       Zeichnen Sie die Pyramide ABCP0 in das Schrägbild zu B 2.1 ein.
+       Berechnen Sie sodann das Maß des Winkels AP0B .                                                    4P
+
+                                               Bitte wenden!

@@ -1,0 +1,60 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien 2021, Lösungshinweise und Notenschlüssel (Gruppe A und B)
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2021/bmt10_2021_loesungshinweise.pdf
+ABRUF: 2026-09-28
+SEITEN: 1
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2021                        Lösungshinweise und Notenschlüssel
+
+
+Die Lösungshinweise enthalten keine vollständigen Lösungen der Aufgaben. Nicht genannte, aber
+gleichwertige Lösungswege sind entsprechend zu bewerten.
+
+                                                                                      Allgemeine math.
+    Aufgabe                                   Lösungshinweise
+                                                                                       Kompetenzen1
+    1a        2                                        3                              K5
+              3                                        7
+
+    1b        − 21 und 3                               − 31 und 2                     K5
+
+    2a        5                                        13                             K5
+    2b        b0                                      a0                            K 2, K 4
+    2c        z. B.: a (bzw. b) bewirkt nur eine Verschiebung von Gf in x-Richtung,   K 1, K 4
+              also hat fa (bzw. fb ) wie f zwei Nullstellen.
+    3a        p = 20 %                                                                K5
+    3b        z. B.: Nein, da davon auszugehen ist, dass sich die Anzahlen junger     K 1, K 3, K 6
+              Ostdeutscher und junger Westdeutscher unterscheiden.
+    3c        1,7  150 km  2,8  150 km              2,2  120 km  3,4  120 km    K 3, K 4
+    4a        zweite Skala                             dritte Skala                   K4
+    4b        V = 31 π  r 2  h  160 cm3             V = 31 π  r 2  h  250 cm3   K 3, K 5
+
+    4c        z. B.: b wird zum Umfang des Grundkreises mit Radius R.                 K 6, K 4, K 2
+    4d        z. B.: R2 + H2 = m2                                                     K 4, K 5
+    5a        z. B.: … „der für das Ereignis A günstigen Ergebnisse“ durch die An-    K6
+              zahl „aller möglichen Ergebnisse“.
+    5b        1− 84  41 = 78                          1− 41  84 = 87                K 3, K 5, K 6
+
+    6a        ---                                                                     K4
+    6b        Nullstelle 3, also m = − 34                                             K 2, K 4, K 5
+
+
+
+Die von einer Schülerin oder einem Schüler insgesamt erreichten Bewertungseinheiten werden gemäß
+folgender Tabelle in eine Note umgesetzt:
+                                             Anzahl erreichter BE        Note
+                                                  21   – 16               1
+                                                  15   – 13               2
+                                                  12   – 10               3
+                                                  9    – 7                4
+                                                  6    – 4                5
+                                                  3    – 0                6
+
+
+
+
+1
+  K 1: Mathematisch argumentieren; K 2: Probleme mathematisch lösen; K 3: Mathematisch modellie-
+ren; K 4: Mathematische Darstellungen verwenden; K 5: Mit symbolischen, formalen und technischen
+Elementen der Mathematik umgehen; K 6: Kommunizieren

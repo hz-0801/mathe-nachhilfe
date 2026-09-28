@@ -1,0 +1,350 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin, Angaben 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2023/2023_mii_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit          Abschlussprüfung 2023
+Aufgabengruppe A:
+                                an den Realschulen in Bayern
+    30 Minuten
+
+                                       Mathematik II
+                                  taschenrechnerfreier Teil
+
+Name: _____________________________              Vorname: _____________________________
+
+Klasse: ________                   Platznummer: ________                   ________ / 11
+
+        Aufgabengruppe A                                         Haupttermin
+
+
+A1    Die Skizze zeigt das gleichschenklige Trapez ABCD mit       D       C
+      der Höhe DE .
+
+      Es gilt: AB  11cm ; AE  4 cm ; BAD  60.
+
+      Berechnen Sie die Längen der Strecken DE und DC .
+      Zeigen Sie sodann rechnerisch, dass für den Flächen- A                       B
+                                                                   E
+      inhalt A des Trapezes ABCD gilt: A  28 3 cm2 .
+      Teilergebnis: DC  3 cm
+                             
+
+
+
+
+                                                                                   3,5 P
+
+
+
+
+        taschenrechnerfreier Teil
+
+         Aufgabengruppe A                                               Haupttermin 2023
+
+A 2.0 Die Funktion p hat eine Gleichung der Form y   0,5x2  bx  c  b, c, x, y  IR . Ihr
+      Graph ist eine Parabel mit dem Scheitelpunkt S   2 1,5  .
+
+A 2.1 Geben Sie die Gleichung der Parabel in der Scheitelpunktsform an.
+
+
+
+
+                                                                                                  1P
+
+A 2.2 Kreuzen Sie die Wertemenge der Funktion p an.
+            y y   2        y y   2         y y  1,5         y y  1,5            1P
+
+
+
+
+A 3.0 Die Tasten C, D, E, G und A eines Klaviers
+      können mithilfe einer Software angeschlagen
+      werden. Dabei werden Melodien erzeugt, indem
+      vier Tasten zufällig nacheinander angeschlagen                 C D E     G A
+      werden.
+      Beispiel für eine solche Melodie: A – C – D – C
+
+A 3.1 Zeigen Sie rechnerisch, dass 625 verschiedene Melodien erzeugt werden können.
+
+
+
+
+                                                                                                 1,5 P
+
+A 3.2 Geben Sie die Wahrscheinlichkeit dafür an, dass die Melodie A – C – D – C entsteht.
+
+
+
+
+                                                                                                  1P
+
+A 3.3 Geben Sie die Wahrscheinlichkeit dafür an, dass eine Melodie entsteht, bei der viermal
+      dieselbe Taste angeschlagen wird.
+
+
+
+
+                                                                                                  1P
+
+
+
+
+         taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                            Haupttermin 2023
+
+A 3.4 Für eine bestimmte Melodie werden folgende Vorgaben in der Software eingestellt:
+      Als erstes wird die Taste C und als zweites die Taste A angeschlagen. Zudem soll jede
+      Taste höchstens einmal angeschlagen werden.
+      Ergänzen Sie im Baumdiagramm die zugehörigen Tasten.
+
+
+
+
+                                                                                              2P
+
+
+
+
+         taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2023
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2023
+  150 Minuten                  an den Realschulen in Bayern
+
+                               Mathematik II – Haupttermin
+
+
+
+
+Prüfungsdauer: 150 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+30 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11              _____ / 11
+
+
+                              Aufgabe B 1:    _____ / 6               _____ / 6
+
+
+                              Aufgabe B 2:    _____ / 4               _____ / 4
+
+
+                              Aufgabe B 3:    _____ / 15,5            _____ / 15,5
+
+
+                              Aufgabe B 4:    _____ / 16              _____ / 16
+
+
+                                 Gesamt:      _____ / 52,5            _____ / 52,5
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+        Aufgabengruppe B                                           Haupttermin 2023
+
+B 1.0 Der Punkt M ist der Mittelpunkt der Strecke AB und des                Q
+                    . Die Punkte P, Q und R liegen auf dem
+      Kreisbogens BA
+                   und bilden zusammen mit dem Punkt M            R                  P
+      Kreisbogen BA
+      das Drachenviereck MPQR mit der Symmetrieachse MQ
+      (siehe Skizze).
+                                                               A                          B
+      Es gilt: AM  4 cm ; QMA  90 ; PMR  100.                        M
+
+      Runden Sie auf zwei Stellen nach dem Komma.
+
+                                                    sowie das Drachenviereck MPQR.
+B 1.1 Zeichnen Sie die Strecke AB , den Kreisbogen BA
+
+
+
+
+                                                                                          2P
+B 1.2 Berechnen Sie den Umfang des Drachenvierecks MPQR.
+      Ergebnis: u  14,76 cm
+
+
+
+
+                                                                                          2P
+
+B 1.3 Berechnen Sie den prozentualen Anteil des Umfangs des Drachenvierecks MPQR am
+                                                      sowie der Strecke AB zusam-
+      Umfang der Figur, die sich aus dem Kreisbogen BA
+      mensetzt.
+
+
+
+
+                                                                                          2P
+
+       Aufgabengruppe B                                      Haupttermin 2023
+
+B2   Nebenstehende Skizze zeigt den Axialschnitt eines
+     Rotationskörpers mit der Rotationsachse DJ.                     J
+
+     Es gilt:   CM  BL  r  3 cm ; ML  1,5 cm ;
+                JL  6 cm ; KL  1cm .
+
+     Berechnen Sie die Länge der Strecke AK und das
+                                                             A       K       G
+     Volumen des Rotationskörpers.
+                                                         B           L           F
+     Runden Sie auf zwei Stellen nach dem Komma.
+                                                                     M
+     Teilergebnis: AK  2,5 cm                         C                       E
+                               
+
+
+
+
+                                                                         r
+                                                                     D
+
+
+
+
+                                                                                     4P
+
+
+  Prüfungsdauer:                     Abschlussprüfung 2023
+   150 Minuten                         an den Realschulen in Bayern
+
+                                              Mathematik II
+
+             Aufgabe B 3                                                              Haupttermin
+
+
+                                                                               
+B 3.0 Die Parabel p verläuft durch die Punkte P 6 6 und Q 8 3 . Sie hat eine Gleichung
+      der Form y   0,25x  bx  c  b, c, x, y  IR  .
+                             2
+
+
+                                              1
+      Die Gerade g hat die Gleichung y           x  1  x, y  IR  .
+                                              5
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 3.1 Zeigen Sie durch Berechnung der Werte für b und c, dass die Parabel die Gleichung
+      y   0,25x 2  2x  3 hat.
+      Zeichnen Sie sodann die Parabel p und die Gerade g für x   2; 10 in ein
+      Koordinatensystem ein.
+      Für die Zeichnung: Längeneinheit 1 cm;  2  x  11;  2  y  7                               4P
+
+                 1       
+                                                                              
+B 3.2 Punkte An  x x  1 auf der Geraden g und Punkte Cn x  0,25x2  2x  3 auf der
+                 5       
+                                                                                             
+      Parabel p haben dieselbe Abszisse x und sind zusammen mit Punkten Bn Eckpunkte
+      von gleichseitigen Dreiecken AnBnCn . Es gilt: y Cn  y An .
+      Zeichnen Sie die Dreiecke A1B1C1 für x  0 und A2B2C2 für x  5 in das Koordinaten-
+      system zu B 3.1 ein.                                                                           2P
+
+B 3.3 Ermitteln Sie rechnerisch, für welche Belegungen von x es Dreiecke AnBnCn gibt.                3P
+
+B 3.4 Zeigen Sie durch Rechnung, dass für die Länge der Strecken AnCn in Abhängigkeit
+                                                  
+      von x gilt: AnCn  x    0,25x2  1,8x  4 LE .                                              1P
+
+
+B 3.5 Ermitteln Sie die maximale Streckenlänge A0C0 sowie den zugehörigen Wert für x.
+      Berechnen Sie sodann den maximalen Flächeninhalt Amax der Dreiecke AnBnCn .                    3P
+
+B 3.6 Die Winkel zwischen der Geraden g und den Strecken AnBn haben jeweils das gleiche
+      Maß.
+      Berechnen Sie das zugehörige Maß , für das gilt:   90 .                                   2,5 P
+
+
+
+
+                                              Bitte wenden!
+
+  Prüfungsdauer:                   Abschlussprüfung 2023
+   150 Minuten                              an den Realschulen in Bayern
+
+                                                     Mathematik II
+
+              Aufgabe B 4                                                      Haupttermin
+
+
+B 4.0 Die nebenstehende Skizze zeigt ein Schrägbild                  S
+       der Pyramide ABCDS mit der Höhe AS , deren
+       Grundfläche die Raute ABCD ist.
+
+       Es gilt: AC  11cm ; BD  6 cm ; AS  9 cm .
+       Runden Sie im Folgenden auf zwei Stellen nach
+       dem Komma.
+                                                                                  D
+                                                                     A                       C
+                                                                           B
+
+B 4.1 Zeichnen Sie das Schrägbild der Pyramide ABCDS, wobei die Strecke AC auf der
+      Schrägbildachse und der Punkt A links vom Punkt C liegen soll.
+                                        1
+       Für die Zeichnung gilt: q            ;   45 .
+                                        2
+       Berechnen Sie sodann die Länge der Strecke CS und das Maß des Winkels SCA.
+       Teilergebnisse: CS  14,21cm; SCA  39,29                                                4P
+                                                  
+
+B 4.2 Für Punkte Pn  CS gilt: SPn  x   x cm  x  IR; 0  x  14,21 . Die Punkte Pn sind die
+       Spitzen von Pyramiden ABDPn mit den Höhen PnFn .
+
+       Zeichnen Sie für x  3 die Pyramide ABDP1 und die Höhe PF
+                                                               1 1 in das Schrägbild zu
+
+       B 4.1 ein.
+       Berechnen Sie sodann das Maß des Winkels SP1A .
+       Zwischenergebnis: AP1  7,47 cm                                                            4P
+                                      
+
+B 4.3 Zeigen Sie, dass für das Volumen der Pyramiden ABDPn in Abhängigkeit von x gilt:
+       V  x     3,47x  49,5  cm3 .                                                           3P
+
+B 4.4 Ermitteln Sie rechnerisch, für welchen Wert von x das Volumen der zugehörigen
+      Pyramide ABDP2 um 80 % kleiner ist als das Volumen der Pyramide ABCDS.                        3P
+
+B 4.5 Unter den Pyramiden ABDPn hat die Pyramide ABDP0 das größte Volumen.
+       Begründen Sie, weshalb das Volumen der Pyramide ABDP0 halb so groß ist wie das
+       Volumen der Pyramide ABCDS.                                                                  2P
+
+
+
+
+                                                     Bitte wenden!

@@ -1,0 +1,331 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin 2024, Lösungsmuster und Bewertung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2024/2024_mii_ht_l.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Lösungsmuster                     Abschlussprüfung 2024
+ und Bewertung                            an den Realschulen in Bayern
+
+                                                 Mathematik II
+
+            Aufgabengruppe A                                                     Haupttermin
+
+ AUFGABE A 1: FUNKTIONEN
+
+                          2
+        y   3   x  4  5
+                                                                                                   L4
+A 1.1                                                                    x, y  IR             2   K4
+
+                                                                                                   L4
+A 1.2   z. B.:   y  x5                                                 x, y  IR             1   K2
+
+ AUFGABE A 2: RAUMGEOMETRIE
+
+                                      S
+
+
+
+
+                                        S1
+
+
+
+
+A 2.0                                              D
+
+
+
+
+                                                                                     C1
+        A                              M                           C
+
+
+
+
+                      B
+
+                                                                                                   L3
+A 2.1   Einzeichnen der Pyramide ABC1DS1                                                   1,5     K4
+
+
+        V  x   16  4x    7  x  cm3
+                                                                                                   L1
+A 2.2                                                                                          1   K5
+
+
+
+
+                                                   Seite 1 von 6
+
+ AUFGABE A 3: RAUMGEOMETRIE
+
+        Sinnvolle Modellierung, z. B.:
+                    Breite von drei Fingern in Wirklichkeit: 6 cm
+                    Folglich gilt:
+                     Radius des Bodens der Verpackung: 3 cm                                           L2
+A3                   Höhe der Verpackung: 60 cm                                                   4   K3
+                                                                                                      K5
+                        2
+                    V3
+                          3  60 cm3       V  1800 cm3
+                                  30
+
+        Die Verpackung hat ein Volumen von etwa 1800 cm3 .
+
+ AUFGABE A 4: EBENE GEOMETRIE
+
+        52  12 2  13 2                                                  169  169  w              L3
+A4                                                                                                2   K2
+        Folglich ist das Dreieck ABC rechtwinklig beim Eckpunkt A.                                    K5
+
+
+
+                                                                                              11,5
+
+
+
+
+         Aufgabengruppe B                                                           Haupttermin
+
+
+ AUFGABE B 1: DATEN UND ZUFALL
+
+
+                                        2                            10
+                                        12                           12
+
+                                                                                                      L5
+B 1.1                                                                                         2,5     K3
+                                                                                                      K4
+                 1                      10                           2                 9
+             11                         11                           11                11
+
+
+
+                 2       1
+                    2 10 10 2                                                  7                      L5
+B 1.2   P                                                           P                      2   K2
+             12 11 12 11 12 11                                                 22                     K5
+
+
+                                  7
+                                                                          P M M  68%
+                                                                                                      L1
+        P M M   1                                                                                 L5
+B 1.3                             22                                                              2   K1
+                                                                                                      K3
+        Wegen 68 %  70 % ist die Vermutung falsch.                                                   K5
+
+
+                                                                                              6,5
+
+
+
+
+                                                    Seite 2 von 6
+
+ AUFGABE B 2: RAUMGEOMETRIE
+
+                  2             1       2             1         2
+        V  MB    TM             TD    ST         NE    SN
+                                3                     3
+
+                   SN   6,5  2  cm                                    SN  4,5 cm
+                                                                                              L2
+B 2.1              NE        4,5 cm                                                       4   K2
+                                                                         NE  1,38 cm        K5
+                  2 cm       6,5 cm
+
+                         1                 1                  
+        V  12   1,5   2 2    6,5  1,38 2    4,5  cm3      V  22,97 cm3
+                         3                 3                  
+                                                                                              L3
+B 2.2   Set 3                                                                             1   K4
+
+
+                                                                                          5
+
+
+
+
+                                                      Seite 3 von 6
+
+ AUFGABE B 3: FUNKTIONEN
+
+        S 2 7 und P  4  5   p
+                                        2
+                   5  a  4  2  7                                           a  IR \ 0
+                  …
+                 a  0,5                                                         L  0,5
+                            2
+        p: y  0,5   x  2   7                                                x, y  IR
+        p:...
+        p: y  0,5x2  2x  5
+
+
+
+            p
+                                5
+
+
+
+
+                                                                             B2                                       L4
+B 3.1                                                                                                             5   K4
+                                                    C2                                                                K5
+
+                                1
+                                                    B1
+
+                     C1         O           1                            5
+                                                                             A2
+            g
+
+
+
+
+                            5
+
+
+
+
+                                                A1
+
+                                                                                                                      L3
+B 3.2   Einzeichnen der Dreiecke A1B1C1 und A2B2C2                                                                2   K4
+
+
+
+                                   
+        A nBn  x   0,5x  0,5x2  2x  5  LE
+                                                                                x  IR ;x   1,53; 6,53 
+                                                                                                                      L4
+B 3.3                                                                                                             1
+                                               
+                                                                                                                      K5
+                                2
+        A nBn  x    0,5x  2,5x  5 LE
+
+
+
+
+                                                         Seite 4 von 6
+
+                                         
+        A nBn  x    0,5x2  2,5x  5 LE                   x  IR ;x   1,53; 6,53 
+        …                                                                                           L2
+                                                                                                    L4
+B 3.4                                                                                         2,5
+        A 0B0  8,13 LE                                                                             K2
+                                                                                                    K5
+
+        A max  0,5  8,13  3 FE                             A max  12,20 FE
+                                                                                                    L2
+B 3.5   tan  90     0,5                                   63,43                      1,5   K2
+                                                                                                    K5
+
+        Für die gleichschenkligen Dreiecke A3B3C3 und A4B4C4 gilt:
+
+        A 3B 3  B 3C 3  A 4B 4  B 4C 4  B nC n .
+                           3 LE                                                                     L2
+        sin63,43                                            B nC n  3,35 LE                      L3
+B 3.6                  B nC n                                                                 3     L4
+                                                                                                    K2
+                                                                                                    K5
+                   0,5x2  2,5x  5  3,35                   x  IR ;x   1,53; 6,53 
+                  …
+                 x   0,59  x  5,59                       L   0,59 ; 5,59
+
+                                                                                              15
+
+
+
+ AUFGABE B 4: EBENE GEOMETRIE
+                                                D F
+                                                                        C
+
+
+
+                                                     G
+
+
+
+        E                                                                   H
+
+
+                                                                                                    L3
+B 4.1                                                                                         3     K4
+
+
+
+
+                   A                                                            B
+
+
+
+
+                                              Seite 5 von 6
+
+        Die Winkel DBA und BDC sind als Wechselwinkel an den Parallelen AB und CD
+        maßgleich.
+
+                       112  102  112                                                                        L2
+         cos DBA                                                                  DBA  62,96             L3
+B 4.2                        2 1110                                                                     4   K1
+                                                                                                              K2
+         DCB  180  85                                                             DCB  95             K5
+
+                 CD                 11cm
+                                                                                     CD  4,14 cm
+         sin  85  62,96        sin95
+
+                                      ADB
+         u  AE  ED  DB                        2  DB  
+                                          360
+                                 2
+                   ED  6,52  11  2  6,5 11 cos 105  62,96  cm              ED  7,55 cm            L2
+B 4.3                                                                                                     4   K2
+                                                                                                              K5
+                  ADB  180  2  62,96                                          ADB  54,08
+                               54,08            
+         u   6,5  7,55  11         2 11   cm                                 u  35,43 cm
+                                360             
+
+                                                       
+        Einzeichnen der Strecke CG und des Kreisbogens FH
+                     DCB             2
+         ASektor             CG                                                                           L2
+                      360                                                                                    L3
+B 4.4                                 CG                                                                  3   K2
+                  sin62,96                                                         CG  3,69 cm             K4
+                                                                                                              K5
+                                    4,14 cm
+                      95
+         ASektor            3,69 2   cm2                                   ASektor  11,29 cm 2
+                     360
+
+         ABCD  0,5 11 3,69 cm2                                               ABCD  20,30 cm2
+                                                                                                              L1
+B 4.5                                                                                                     2   L2
+         11,29                                                                                                K5
+                 100%  55,62%
+         20,30
+
+                                                                                                         16
+
+
+Hinweis: Bei einigen Teilaufgaben sind auch andere Lösungswege möglich. Für richtige andere Lösungen gelten die
+         jeweils angegebenen Punkte entsprechend; die Anzahl der Punkte bei den einzelnen Teilaufgaben darf jedoch
+         nicht verändert werden. Insbesondere sind Lösungswege, bei denen der (grafikfähige) Taschenrechner
+         verwendet wird, entsprechend ihrer Dokumentation bzw. ihrer Nachvollziehbarkeit zu bepunkten.
+
+         Bei der Korrektur ist zu beachten, dass die Vervielfältigung der Lösungsvorlage zu Verzerrungen der
+         Zeichnungen führen kann.
+
+
+
+
+                                                          Seite 6 von 6

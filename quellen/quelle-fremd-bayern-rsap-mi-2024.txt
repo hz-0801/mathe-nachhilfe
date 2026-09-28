@@ -1,0 +1,357 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin, Angaben 2024
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2024/2024_mi_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit           Abschlussprüfung 2024
+Aufgabengruppe A:
+                                 an den Realschulen in Bayern
+    35 Minuten
+
+                                         Mathematik I
+                                    taschenrechnerfreier Teil
+
+Name: _____________________________                Vorname: _____________________________
+
+Klasse: ________                    Platznummer: ________                        ________ / 11,5
+
+        Aufgabengruppe A                                                 Haupttermin
+
+
+A 1.0 Das gleichschenklige Dreieck ABC mit der Basis BC ist die Grundfläche einer
+      Pyramide ABCS mit der Höhe AS . Der Punkt M ist der Mittelpunkt der Basis BC .
+      Es gilt: BC  9 cm ; AC  7 cm ; SCA  45 .
+      Die Zeichnung zeigt nur die Grundfläche der Pyramide ABCS im Schrägbild.
+      Für das Schrägbild gilt:   60 ; AM liegt auf der Schrägbildachse.
+
+
+
+
+                                                                     C
+
+
+
+
+                           A                                M
+
+
+
+
+                                                   B
+
+
+A 1.1 Geben Sie den Wert für den Verzerrungsmaßstab q an. Entnehmen Sie der Zeichnung
+      zu A 1.0 die dazu erforderlichen Maße.
+
+
+
+                                                                                            1P
+A 1.2 Ergänzen Sie die Zeichnung zu A 1.0 zum Schrägbild der Pyramide ABCS.                1,5 P
+
+
+        taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                           Haupttermin 2024
+
+A 2.0 In einer Urne befinden sich 25 Kugeln gleicher Art. Fünf Kugeln sind mit dem
+      Buchstaben B, alle anderen mit dem Buchstaben A beschriftet. Es wird nacheinander
+      jeweils eine Kugel zufällig ohne Zurücklegen gezogen. Sobald man dabei eine Kugel
+      mit dem Buchstaben B erhält, erfolgt kein weiteres Ziehen.
+
+A 2.1 Das Baumdiagramm zeigt die möglichen Ergebnisse für das Ziehen der ersten Kugeln.
+      Ergänzen Sie die zugehörigen Wahrscheinlichkeiten.
+
+
+
+
+                                                                                             2P
+
+A 2.2 Berechnen Sie die Wahrscheinlichkeit dafür, dass entweder beim ersten oder zweiten
+      Ziehen eine Kugel mit dem Buchstaben B gezogen wird.
+
+
+
+
+                                                                                            2,5 P
+
+A 2.3 Beim wievielten Ziehen erhält man mit einer Wahrscheinlichkeit von 100 % eine Kugel
+      mit dem Buchstaben B? Begründen Sie.
+
+
+
+
+                                                                                            1,5 P
+        taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                                Haupttermin 2024
+
+                                               1
+A 3.0 Die Funktion f1 hat die Gleichung y           mit x, y  IR und x   2 .
+                                               x2
+
+                          
+A 3.1 Der Punkt P 142 yP liegt auf dem Graphen zu f1.
+      Berechnen Sie den zugehörigen Wert für yP.
+
+
+
+
+                                                                                           1P
+
+A 3.2 Begründen Sie, weshalb die Funktion f1 keine Nullstelle besitzt.
+
+
+
+
+                                                                                           1P
+
+A 3.3 Der Graph der Funktion f1 wird durch Parallelverschiebung mit einem der folgenden
+      Vektoren auf den Graphen der Funktion f2 abgebildet. Die Funktion f2 besitzt eine
+      Nullstelle.
+                                           
+      Kreuzen Sie den passenden Vektor v an.
+         2                 2               0                   0 
+       v               v                v                 v                1P
+           0                  0                 2                    2
+
+
+
+
+         taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2024
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2024
+  170 Minuten                  an den Realschulen in Bayern
+
+                                Mathematik I – Haupttermin
+
+
+
+
+Prüfungsdauer: 170 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+35 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11,5            _____ / 11,5
+
+
+                              Aufgabe B 1:    _____ / 6,5             _____ / 6,5
+
+
+                              Aufgabe B 2:    _____ / 5               _____ / 5
+
+
+                              Aufgabe B 3:    _____ / 15,5            _____ / 15,5
+
+
+                              Aufgabe B 4:    _____ / 15,5            _____ / 15,5
+
+
+                                 Gesamt:      _____ / 54              _____ / 54
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+         Aufgabengruppe B                                                   Haupttermin 2024
+
+B 1.0 Gegeben ist die Funktion f mit der Gleichung y   0,75  log2  x  1  3  x,y  IR  .
+       Im Koordinatensystem ist der Graph der Funktion f bereits eingezeichnet.
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+               5
+
+
+
+
+                                                 Graph zu f
+               1
+
+
+               O       1                         5
+
+
+                                            
+B 1.1 Punkte A n x  0,75  log2  x  1  3 auf dem Graphen zu f bilden zusammen mit den
+       Punkten B  4,5 3,5  und C  2 3,5  Dreiecke A nBC .
+       Ergänzen Sie im Koordinatensystem zu B 1.0 die Dreiecke A1BC für x  0,5 und
+       A2BC für x  4 .
+       Ermitteln Sie sodann rechnerisch, für welche Belegungen von x es Dreiecke A nBC
+       gibt.
+
+
+
+
+                                                                                                   4,5 P
+
+B 1.2 Das Dreieck A3BC ist gleichschenklig mit der Basis BC .
+       Bestimmen Sie rechnerisch die Koordinaten des Punktes A 3 .
+
+
+
+
+                                                                                                    2P
+
+          Aufgabengruppe B                                          Haupttermin 2024
+
+B 2.0 Gegeben sind das Trapez ABCD und Punkte Pn auf der Diagonalen BD (siehe
+      Zeichnung). Die Punkte C, D und Pn legen Dreiecke CDPn fest. Die Winkel DCPn
+      haben das Maß  mit   0; 51,34 .
+      Es gilt: AB  7 cm ; CD  11cm ; AD  5 cm ; ADC  90 ; AB  CD.
+      Die Zeichnung zeigt das Dreieck CDP1 für   20 .
+
+      D                                                         M     C
+
+
+
+
+                            P1
+
+
+
+
+      A                                          B
+
+B 2.1 Zeigen Sie rechnerisch, dass für die Länge der Strecken DPn in Abhängigkeit von 
+                            11 sin 
+      gilt: DPn                        cm .
+                        sin  35,54   
+      Berechnen Sie sodann die Länge der Strecke DP1 .
+      Runden Sie auf zwei Stellen nach dem Komma.
+
+
+
+
+                                                                                          4P
+
+B 2.2 Das Dreieck CDP2 ist gleichschenklig mit der Basis CD .
+      Ergänzen Sie das Dreieck CDP2 in der Zeichnung zu B 2.0.                            1P
+
+
+  Prüfungsdauer:               Abschlussprüfung 2024
+   170 Minuten                       an den Realschulen in Bayern
+
+                                                Mathematik I
+
+             Aufgabe B 3                                               Haupttermin
+
+
+B 3.0 Der Punkt A  0 0  ist gemeinsamer Eckpunkt von Rechtecken ABnCnDn .
+
+      Die Eckpunkte Bn  x  0,25x  6  liegen auf der Geraden g mit der Gleichung
+                                                    1
+      y   0,25x  6  x,y  IR  . Es gilt: BnCn   ABn .
+                                                    2
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 3.1 Zeichnen Sie die Gerade g sowie die Rechtecke AB1C1D1 für x  1 und AB2C2D2 für
+       x  7 in ein Koordinatensystem.
+      Für die Zeichnung: Längeneinheit 1 cm;  5  x  8; 1  y  8                     2,5 P
+
+B 3.2 Ermitteln Sie rechnerisch die Koordinaten der Punkte C n in Abhängigkeit von der
+      Abszisse x der Punkte Bn .
+       Ergebnis: Cn 1,13x  3 0,25x  6                                              3,5 P
+                                           
+
+B 3.3 Zeigen Sie, dass sich der Umfang u der Rechtecke ABnCnDn in Abhängigkeit von der
+      Abszisse x der Punkte Bn wie folgt darstellen lässt:
+
+      u  x   9,54x2  27x  324 LE .                                                   3P
+
+B 3.4 Der Punkt C3 liegt auf der y–Achse.
+      Berechnen Sie den Umfang des Rechtecks AB3C3D3 .                                   2,5 P
+
+B 3.5 Für den Punkt C4 gilt: C4  g .
+
+      Begründen Sie, warum das zugehörige Rechteck AB4C4D4 den minimalen Umfang
+      hat.
+      Bestimmen Sie sodann den minimalen Umfang sowie die zugehörige Belegung für x.      4P
+
+
+
+
+                                                Bitte wenden!
+
+  Prüfungsdauer:            Abschlussprüfung 2024
+   170 Minuten                  an den Realschulen in Bayern
+
+                                        Mathematik I
+
+            Aufgabe B 4                                               Haupttermin
+
+
+B 4.0 Die Diagonalen AC und BD der Raute ABCD schneiden sich im Punkt M.
+      Die Raute ABCD ist die Grundfläche der Pyramide ABCDS mit der Höhe MS .
+
+      Es gilt: AC  12 cm ; BD  8 cm ; CS  9,5 cm.
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 4.1 Zeichnen Sie das Schrägbild der Pyramide ABCDS, wobei die Strecke AC auf der
+      Schrägbildachse und der Punkt A links vom Punkt C liegen soll.
+                                 1
+      Für die Zeichnung gilt: q  ;   45.
+                                 2
+      Berechnen Sie sodann das Maß des Winkels SCA und die Länge der Strecke MS .
+      Teilergebnisse: SCA  50,83; MS  7,37 cm                                         4P
+                                                 
+
+B 4.2 Punkte Pn liegen auf der Strecke CS . Die Winkel CAPn haben das Maß  mit
+        0;50,83  . Die Punkte Pn sind zusammen mit den Punkten A und C die
+      Eckpunkte von Dreiecken ACPn . Die Dreiecke ACPn sind Grundflächen von
+      Pyramiden ACPnB mit der Spitze B.
+      Zeichnen Sie die Pyramide ACP1B für   35 in das Schrägbild zu B 4.1 ein.           1P
+
+
+B 4.3 Zeigen Sie, dass für die Länge der Strecken APn in Abhängigkeit von  gilt:
+                         9,30
+       APn                      cm .
+                  sin    50,83
+
+      Für die Strecke AP2 gilt: AP2  10 cm.
+      Berechnen Sie den zugehörigen Wert von  .                                           3,5 P
+
+B 4.4 Zeigen Sie, dass für das Volumen V der Pyramiden ACPnB in Abhängigkeit von  gilt:
+                 74,40  sin 
+      V                       cm3 .
+               sin    50,83 
+
+      Berechnen Sie sodann, um wie viel Prozent das Volumen der Pyramide ACP1B kleiner
+      ist als das Volumen der Pyramide ABCDS.                                               5P
+
+B 4.5 Die Pyramide ACP3B hat dasselbe Volumen wie die Pyramide AP3SB .
+
+      In welchem Verhältnis steht das Volumen der Pyramide ACP3B zum Volumen der
+      Pyramide ABCDS? Begründen Sie.                                                        2P
+
+
+                                        Bitte wenden!

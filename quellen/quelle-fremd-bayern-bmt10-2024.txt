@@ -1,0 +1,221 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien, Aufgaben Gruppe A 2024
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2024/BMT10_2024_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2024                                                                              A
+
+
+              Bayerischer Mathematik-Test für die Jahrgangsstufe 10 der Gymnasien
+
+Name: __________________________________                   Note:                _____
+
+Klasse: __________                                         Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Vereinfachen Sie die folgenden Terme jeweils so weit wie möglich.
+
+a)    40 ⋅ 10 =
+
+
+
+
+                                                                                             /1
+
+          6
+b) 6 x 3 =
+     3x
+
+
+
+
+                                                                                             /1
+
+
+
+Aufgabe 2
+                                                     ) x2 − 9 .
+Gegeben ist die in IR definierte Funktion g mit g ( x=
+
+a) Geben Sie die Nullstellen von g an.
+
+
+                                                                                             /1
+
+b) Beschreiben Sie, wie der Graph von g aus dem Graphen der in IR definierten Funktion f
+   mit f ( x ) = x 2 hervorgeht, und geben Sie die Wertemenge von g an.
+
+
+
+
+                                                                                             /2
+
+BMT10 2024                                  Seite 2 (von 4)                            A
+
+
+
+Aufgabe 3
+In einem Behälter befinden sich 100 Kugeln, die mit den Zahlen von 1 bis 100 durch-
+nummeriert sind. Es wird eine Kugel zufällig gezogen.
+Betrachtet werden die folgenden Ereignisse:
+A: „Die Zahl auf der Kugel ist einstellig.“
+B: „Die Zahl auf der Kugel ist gerade.“
+
+a) Geben Sie alle Zahlen an, die auf der gezogenen Kugel stehen können, wenn das Ereignis
+   A ∩ B eintritt.
+
+
+                                                                                            /1
+
+b) Schraffieren Sie im abgebildeten Mengendiagramm die zu
+   folgendem Ereignis passende Fläche:
+   „Die Zahl auf der Kugel ist einstellig oder gerade.“
+
+
+
+                                                                                            /1
+
+
+
+Aufgabe 4
+In Deutschland leben ca. 85 Millionen Menschen; dies sind ca. 19 % der Einwohner der
+Europäischen Union.
+
+a) Geben Sie an, wie man mithilfe dieser Informationen die Einwohnerzahl der Europäischen
+   Union berechnen könnte.
+
+
+
+
+                                                                                            /1
+
+b) In Bayern leben ca. 13 Millionen Menschen. Einer der folgenden Terme beschreibt den
+   Anteil der Einwohner Bayerns an den Einwohnern der Europäischen Union. Kreuzen Sie
+   (nur) diesen an.
+
+   ◯ 13 ⋅ 0,19              ◯     13                   ◯ 85 ⋅ 0,19     ◯      85
+       85                       85 ⋅ 0,19                 13               13 ⋅ 0,19
+                                                                                            /1
+
+BMT10 2024                            Seite 3 (von 4)                                         A
+
+
+
+Aufgabe 5
+Bei einer Gefahrenbremsung eines Pkw hängen die Länge des Reaktionswegs und die
+Länge des Bremswegs von der Geschwindigkeit des Pkw ab. In Anlehnung an im Alltag
+verwendete Faustregeln wird diese Abhängigkeit im Folgenden für eine trockene Fahrbahn
+mithilfe zweier in IR + definierter Funktionen beschrieben:
+                             Reaktionsweg              Bremsweg
+
+                                                               ( 10 )
+                                                                 2
+                               r :x  3⋅ x           b:x  1 ⋅ x
+                                        10                 2
+
+
+Dabei ist x die Geschwindigkeit des Pkw in km , r ( x ) die Länge des Reaktionswegs in
+                                                 h
+Metern und b ( x ) die Länge des Bremswegs in Metern.
+
+a) Ergänzen Sie folgenden Satz:
+     Bei einer Geschwindigkeit von 130 km ist der Reaktionsweg __________ m lang.
+                                             h                                                     /1
+
+b) Beschreiben Sie allgemein, wie sich die Länge des Bremswegs verändert, wenn die
+   Geschwindigkeit verdoppelt wird.
+
+
+
+                                                                                                   /1
+
+c) Die Abbildung zeigt den Graphen von b.
+  Zeichnen Sie den Graphen von r in die Abbildung ein
+  und lesen Sie die Geschwindigkeit ab, für die im Falle
+  einer Gefahrenbremsung der Bremsweg genauso
+  lang ist wie der Reaktionsweg.
+
+
+                                                                                                   /2
+
+d) Erfolgt eine Gefahrenbremsung nicht auf trockener, sondern auf eisglatter Fahrbahn, so
+   bleibt der Reaktionsweg gleich lang, der Bremsweg wird jedoch c-mal so lang ( c > 1 ), d. h.
+
+                                                                                          ( 10 )
+                                                                                           2
+  die Länge des Bremswegs wird mithilfe der in IR + definierten Funktion B : x  c ⋅ 1 ⋅ x
+                                                                                      2
+  beschrieben.
+  Die Länge des Anhaltewegs ist die Summe der Längen von Reaktions- und Bremsweg.
+  Berechnen Sie den Wert von c, wenn bei einer Geschwindigkeit von 10 km der Anhalte-
+                                                                       h
+  weg auf einer eisglatten Fahrbahn 7 m lang ist.
+
+
+
+
+                                                                                                   /2
+
+BMT10 2024                            Seite 4 (von 4)                                    A
+
+
+
+Aufgabe 6
+Gegeben ist ein Zylinder mit der Höhe 8; seine Grundfläche ist ein Kreis mit Radius 3.
+
+a) Kreuzen Sie (nur) denjenigen Term an, der das Volumen des Zylinders angibt.
+  ◯ 6π           ◯ 12π          ◯ 24π          ◯ 48π          ◯ 56π         ◯ 72π
+                                                                                             /1
+
+b) Die Strecke AB ist ein Durchmesser der Grundfläche des
+   Zylinders; der Punkt C ist der Mittelpunkt der Deckfläche. Im
+   Dreieck ABC wird der Innenwinkel bei C mit γ bezeichnet
+   (vgl. Abbildung).
+  Bestimmen Sie mithilfe geeigneter Eintragungen in der Abbildung
+  den Wert von tan   ( ).
+                      γ
+                      2
+
+
+
+
+                                                                                             /2
+
+
+
+Aufgabe 7
+
+Die Abbildung zeigt den Graphen der in IR +
+definierten Funktion f : x  5 .
+                            x
+
+              ( a)
+Die Punkte Q a | 5 mit a ∈ IR + liegen auf dem
+Graphen von f. Für jeden Wert von a wird das
+Rechteck OPQR betrachtet, von dem zwei Seiten
+auf den Koordinatenachsen liegen. Die Abbildung
+stellt die Situation für einen bestimmten Wert von a
+dar.
+
+a) Geben Sie für a = 2 die Seitenlängen des
+   Rechtecks an.
+
+
+
+                                                                                             /1
+
+b) Zeigen Sie, dass das Rechteck für jeden Wert von a den Flächeninhalt 5 hat.
+
+
+
+
+                                                                                             /1
+
+c) Es gibt einen Wert von a, für den Q auf der Gerade mit der Gleichung y = x liegt. Geben
+   Sie diesen Wert exakt an.
+
+                                                                                             /1

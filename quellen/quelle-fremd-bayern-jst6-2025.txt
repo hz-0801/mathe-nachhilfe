@@ -1,0 +1,190 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 6, Angabe 2025
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2025/2025_JT_Mathematik_6_Angabe.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+             JAHRGANGSSTUFENTEST 2025 IM FACH MATHEMATIK
+          FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+                        (ARBEITSZEIT: 45 MINUTEN)
+
+NAME:                                                          NOTE:
+
+KLASSE:   6 __________                                         PUNKTE: _________ /21
+
+
+1 Berechne.                                                                            __/1
+    a) 4  ( 75  15 )                       b) 3768  12 
+
+
+
+                                                                                       __/1
+
+
+
+
+2 Berechne.                                                                            __/1
+    a) 2 10  3 10  7 10 
+             5        3
+                                              b)  35  7 
+
+
+                                                                                       __/1
+
+
+
+
+3 Die nebenstehenden vier Zahlenkarten sind gegeben.                                   __/1
+  Jede Karte darf nur einmal verwendet werden.
+  Gib die größte elfstellige Zahl an, die mit diesen
+  Zahlenkarten gelegt werden kann.
+
+   Die größte elfstellige Zahl lautet:   __________________
+
+
+4 Luca wollte die Aufgabe vorteilhaft lösen und hat dabei einen Fehler gemacht.        __/1
+  Beschreibe den Fehler in der Rechnung.
+
+
+
+
+5 Ergänze die beiden letzten Ziffern der fünfstelligen Zahl,                           __/1
+  so dass die Zahl durch 3 und durch 25 teilbar ist.
+
+
+   Die fünfstellige Zahl lautet:   7 8 9 ___ ___
+
+6 Eine der nebenstehenden Zahlen ist                                                      __/1
+  keine Primzahl. Kreuze an.
+
+
+7 Markiere  102 an der Zahlengerade.                                                     __/1
+
+
+
+
+8                                                                                         __/1
+    Ergänze die fehlende Zahl.                 23  _______   12
+
+9 In einem Gefrierschrank beträgt die Temperatur  18 °C.                                 __/1
+    Barbara vergisst die Tür des Gefrierschranks richtig zu schließen. Dadurch steigt
+    die Temperatur alle 5 Minuten um 3 °C.
+    Gib die Temperatur an, die nach 20 Minuten im Gefrierschrank herrscht.
+
+    Nach 20 Minuten beträgt die Temperatur _______°C.
+
+
+10 Bestimme das Winkelmaß  .                                                             __/1
+
+      = ________°
+
+
+
+
+                                                          Die Skizze ist nicht maßtreu.
+
+
+11 Gib das Maß  des gezeichneten Winkels an.                                             __/1
+
+      = ________°
+
+                                                           
+
+
+
+12 Zeichne die Gerade h ein,                                                              __/1
+   die parallel zur Geraden g
+   und durch den
+    Punkt P  2 |  1  verläuft.
+
+13 Nur eine Aussage ist richtig. Kreuze diese an.                           __/1
+   Bei jeder Pyramide …
+       ☐ gibt es mehr Ecken als Kanten.
+       ☐ ist die Grundfläche ein Quadrat.
+       ☐ sind die Seitenflächen Dreiecke.
+       ☐ gibt es vier Begrenzungsflächen.
+
+
+14 Ordne die folgenden vier Massen der Größe nach.                          __/1
+               3t           28000 kg           5,44 kg         5 kg 400 g
+
+
+
+
+15 Im Lincoln Memorial in Washington steht ein Mann                         __/1
+   zwischen zwei Säulen.
+   Bestimme die Höhe einer Säule vom Boden
+   bis zur Decke.
+
+
+
+
+   Eine Säule ist ungefähr _________ Meter hoch.
+
+
+
+16 Bei einem Gewitter ermittelt Jonas die Zeit zwischen Blitz und Donner.   __/1
+   Er kennt die Faustregel:
+   „Wenn 10 Sekunden vergehen, dann ist der Blitz 3400 m entfernt.“
+   Bestimme die Entfernung des Blitzes, wenn zwischen Blitz und Donner
+   12 Sekunden liegen.
+
+
+
+
+   Der Blitz ist damit __________ Meter entfernt.
+
+17 Bestimme den Flächeninhalt A der Figur.                                                        __/1
+
+   Es gilt:           1 cm 2
+
+
+
+
+   A = ___________ cm²
+
+
+
+
+18 Es sind jeweils Umfang u und Flächeninhalt A von Vierecken gegeben.                            __/1
+   Eines dieser Vierecke ist ein Quadrat. Kreuze an.
+
+        ☐ Viereck 1             ☐ Viereck 2        ☐ Viereck 3         ☐ Viereck 4
+        u = 20 cm               u = 24 cm          u = 27 cm           u = 72 cm
+        A = 16 cm²              A = 36 cm²         A = 81 cm²          A = 134 cm²
+
+
+
+
+19 Bei der 2. Mathematikschulaufgabe                                                              __/1
+   der Klasse 6a haben insgesamt                        Notenverteilung
+                                                              Klasse 6aKlasse 6a
+                                              9
+   27 Schülerinnen und Schüler                 9
+                                              8
+   mitgeschrieben.                             8
+                                              7
+   Dabei ist jede Note mindestens             6
+                                               7
+   einmal vorgekommen.                         6
+                                              5
+                                               5
+                                              4
+                                               4
+   Ergänze die fehlenden Säulen im            3
+                                               3
+   Diagramm so, dass eine mögliche            2
+                                               2
+   Notenverteilung dargestellt wird.          1
+                                               1
+                                              0
+                                               0
+                                                    1     2      3         4       5        6
+                                                    1     2      3        4    5        6
+                                                                 Noten
+                                                                  Noten
+
+
+
+                                                                                   Viel Erfolg!

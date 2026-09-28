@@ -1,0 +1,190 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien, Aufgaben Gruppe A 2022
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2022/bmt8_2022_aufgaben_gruppe_a.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2022                                                                               A
+
+
+
+         Bayerischer Mathematik-Test für die Jahrgangsstufe 8 der Gymnasien
+
+Name: __________________________________                  Note:                 _____
+
+Klasse: __________                                        Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Die Gerade g verläuft durch die Punkte A und B. Der Punkt C liegt nicht auf g
+(vgl. Abbildung).
+
+
+
+
+a) Konstruiere die Mittelsenkrechte der Strecke AB .                                        /1
+
+b) Vervollständige, sodass eine wahre Aussage entsteht.
+
+     Der Abstand des Punkts C zur Gerade g ist die Länge der Strecke CS , wobei S der
+
+     Schnittpunkt von g und _______________________________________________ ist.
+
+
+
+
+                                                                                            /1
+
+c) Ermittle diejenigen Punkte, die von g den Abstand 2 cm haben und zugleich von C genau
+   3 cm entfernt sind. Markiere diese Punkte farbig.                                        /2
+
+BMT8 2022                            Seite 2 (von 4)                                     A
+
+
+
+Aufgabe 2
+                                  2 1 1
+Bestimme die Lösung der Gleichung =  + x.
+                                  3 6 8
+
+
+
+
+                                                                                              /2
+
+
+
+Aufgabe 3
+Die abgebildete Tabelle wurde mit einem                            A             B
+Tabellenkalkulationsprogramm erstellt.                    1        2
+Gib den Wert an, der durch die Formel in der Zelle B2     2        7       =A1*(A2-3)
+berechnet wird.                                           3
+
+
+                                                                                              /1
+
+
+
+Aufgabe 4
+a) Susanne sagt: „Wenn ich den Wert des Terms 13 ⋅ 84 + 87 ⋅ 84 berechnen soll, ergibt sich
+   durch die Verwendung des Distributivgesetzes ein Rechenvorteil.“
+  Erkläre den Rechenvorteil anhand des Terms.
+
+
+
+
+                                                                                              /1
+
+b) Vereinfache folgenden Term so weit wie möglich:
+   3a ⋅ (1 − 2a ) + 7a2 =
+
+
+
+
+                                                                                              /2
+
+BMT8 2022                           Seite 3 (von 4)                                                A
+
+
+
+Aufgabe 5
+In einer Umfrage mussten Erwachsene
+angeben, mit welcher Schulnote sie ihre
+                                                      40 %
+Mathematikkenntnisse selbst einschätzen
+würden.
+Nebenstehendes Säulendiagramm zeigt                            30 %
+die Anteile der einzelnen Noten.
+
+                                                                        18 %
+
+
+
+                                              7%
+                                                                                  4%
+                                                                                           1%
+
+                                             Note 1   Note 2   Note 3   Note 4   Note 5   Note 6
+
+
+a) Beurteile, ob folgende Aussage mit dem Diagramm in Einklang steht:
+     Jeder Zwanzigste der Befragten schätzt seine Mathematikkenntnisse schlechter als
+     Note 4 ein.
+
+
+
+
+                                                                                                       /1
+
+b) Die Daten sollen als Kreisdiagramm dargestellt werden. Berechne die Größe des Winkels
+   für den Sektor „Note 2“.
+
+
+
+                                                                                                       /1
+
+c) Gib einen Term an, mit dem sich die Durchschnittsnote der Selbsteinschätzungen
+   berechnen lässt.
+
+
+
+
+                                                                                                       /1
+
+d) Bestimme die Gesamtzahl der Befragten unter der Annahme, dass genau 300 der
+   Befragten ihre Mathematikkenntnisse mit Note 3 einstuften.
+
+
+
+
+                                                                                                       /1
+
+BMT8 2022                            Seite 4 (von 4)                                  A
+
+
+
+Aufgabe 6
+a) Gib 2,5 h in Minuten an.
+
+
+                                                                                          /1
+
+b) Von den folgenden Darstellungen beschreiben genau zwei das gleiche Volumen wie
+   0,2 dm3 . Kreuze (nur) diese beiden an.
+  □ 0,2 l □ 2 cm3 □ 0,23 cm3           □ 200 cm3       □ 2 ⋅ 103 cm3 □ 0,02 m3            /2
+
+
+
+Aufgabe 7
+Nebenstehende nicht maßstabsgetreue
+Abbildung zeigt die parallelogrammförmige
+Seitenfläche eines Treppengeländers.
+
+a) Berechne die Größe des Winkels β, wenn
+   der Neigungswinkel α der Treppe
+   gegenüber der Horizontalen 34° beträgt.
+
+
+
+
+                                                                                          /1
+
+b) Berechne den Inhalt der Seitenfläche für
+   b = 0,8 m und d = 4 m .
+
+
+
+
+                                                                                          /1
+
+c) Begründe mithilfe von Überlegungen zum Flächeninhalt des Parallelogramms, dass sich
+                                     b⋅d
+   die Länge c mit der Gleichung c =     berechnen lässt, wenn a, b und d bekannt sind.
+                                      a
+
+
+
+
+                                                                                          /2

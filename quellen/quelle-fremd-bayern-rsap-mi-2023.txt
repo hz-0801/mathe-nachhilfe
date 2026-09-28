@@ -1,0 +1,358 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin, Angaben 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2023/2023_mi_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit           Abschlussprüfung 2023
+Aufgabengruppe A:
+                                 an den Realschulen in Bayern
+    30 Minuten
+
+                                        Mathematik I
+                                   taschenrechnerfreier Teil
+
+Name: _____________________________                Vorname: _____________________________
+
+Klasse: ________                    Platznummer: ________                        ________ / 11,5
+
+        Aufgabengruppe A                                               Haupttermin
+
+A1    Punkte Bn liegen auf der Geraden g mit der Gleichung y   2x  6  x, y  IR  . Die
+                          x                   6
+                                      und AD    mit A  0 0  spannen zusammen mit
+                                       
+                                           
+      Pfeile ABn  x             
+                           2x  6            2 
+      Punkten Cn für x  3,6 Parallelogramme ABnCnD auf.
+      In das Koordinatensystem sind die Gerade g sowie das Parallelogramm AB1C1D für
+       x  1,5 eingezeichnet.
+
+                     C1
+                                              5
+
+
+
+                                                         B1
+
+
+            D
+                                              1
+
+
+                    5                        OA     1                      5
+                                                                 g
+
+      Überprüfen Sie rechnerisch, ob das Parallelogramm AB1C1D ein Rechteck ist.
+
+
+
+
+                                                                                              2,5 P
+
+        taschenrechnerfreier Teil
+
+         Aufgabengruppe A                                                 Haupttermin 2023
+
+A 2.0 Gegeben ist die Funktion f mit der Gleichung y  3  2x  24  x, y  IR .
+
+A 2.1 Berechnen Sie die Nullstelle der Funktion f.
+
+
+
+
+                                                                                             2P
+
+A 2.2 Geben Sie die Gleichung der Asymptote des Graphen von f an.
+
+
+
+
+                                                                                             1P
+
+
+
+
+A 3.0 Ein Glücksrad besteht aus drei kongruenten Sektoren, die wie abgebildet
+      beschriftet sind.
+
+A 3.1 Lionel dreht dreimal am Glücksrad.
+      Geben Sie die Wahrscheinlichkeit dafür an, dass er dreimal die Zahl 10 erhält.
+
+
+
+
+                                                                                             1P
+
+A 3.2 Christiane dreht nur zweimal am Glücksrad.
+      Bestimmen Sie die Wahrscheinlichkeit dafür, dass sie zweimal hintereinander die
+      gleiche Zahl erhält.
+
+
+
+
+                                                                                             2P
+
+
+         taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                           Haupttermin 2023
+
+A 4.0 Der Punkt P   3 1 legt zusammen mit Punkten Qn für   0;180 Pfeile
+               2,5  sin  
+      PQn                  fest.
+                       3      
+                                 
+A 4.1 Zeichnen Sie den Pfeil PQ1 für   0 in das Koordinatensystem ein.
+
+
+
+
+                                 1
+
+
+                                 O       1
+                                                                                      1P
+                              3
+A 4.2 Für den Pfeil PQ2 gilt: PQ2    .
+                                    3
+      Bestimmen Sie die zugehörigen Werte von  .
+
+
+
+
+                                                                                      2P
+
+
+
+
+        taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2023
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2023
+  150 Minuten                  an den Realschulen in Bayern
+
+                                Mathematik I – Haupttermin
+
+
+
+
+Prüfungsdauer: 150 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+30 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11,5            _____ / 11,5
+
+
+                              Aufgabe B 1:    _____ / 5               _____ / 5
+
+
+                              Aufgabe B 2:    _____ / 4,5             _____ / 4,5
+
+
+                              Aufgabe B 3:    _____ / 16,5            _____ / 16,5
+
+
+                              Aufgabe B 4:    _____ / 16,5            _____ / 16,5
+
+
+                                 Gesamt:      _____ / 54              _____ / 54
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+        Aufgabengruppe B                                                 Haupttermin 2023
+
+B 1.0 Der Punkt A  3 3  ist gemeinsamer Eckpunkt von gleichschenkligen Dreiecken
+      ABnCn mit den Basen BnCn . Die Eckpunkte B n  x  x  3  der Dreiecke ABnCn liegen
+      auf der Geraden g mit der Gleichung y   x  3  x, y  IR  .
+      Es gilt: Bn ACn  45.
+
+B 1.1 In das Koordinatensystem sind die Gerade g und das Dreieck AB1C1 für x  3 bereits
+      eingezeichnet.
+      Ergänzen Sie das Dreieck AB2C2 für x  1.
+
+                            g
+
+                                                          A
+
+
+
+
+                                     1                                  C1
+
+
+
+                                                                                             1P
+B 1.2 Berechnen Sie die Koordinaten der Punkte Cn in Abhängigkeit von der Abszisse x der
+      Punkte Bn . Runden Sie auf zwei Stellen nach dem Komma.
+
+
+
+
+                                                                                             4P
+
+        Aufgabengruppe B                                            Haupttermin 2023
+
+B 2.0 Von den Reservierungen in einem Restaurant erfolgen 35 % telefonisch („T“), der Rest
+      über die Homepage („H“). Bei 18 % der telefonischen Reservierungen kommt es zu
+      Fehlern („F“), bei Reservierungen über die Homepage liegt der Anteil der Fehler bei
+                 
+      p % p  IR . Die übrigen Reservierungen erfolgen ohne Fehler („oF“).
+
+B 2.1 Zeichnen Sie ein zugehöriges Baumdiagramm, in dem die Anteile ersichtlich sind.
+
+
+
+
+                                                                                             2,5 P
+
+B 2.2 Erfahrungsgemäß kommt es bei 15 % aller Reservierungen zu einem Fehler. Ein
+      zufällig ausgewählter Gast, der eine Reservierung über die Homepage vorgenommen
+      hat, wird zur Zufriedenheit mit dem Restaurant befragt.
+      Berechnen Sie die Wahrscheinlichkeit p % dafür, dass es bei der Reservierung dieses
+      Gastes zu einem Fehler kam.
+
+
+
+
+                                                                                              2P
+
+
+  Prüfungsdauer:                  Abschlussprüfung 2023
+   150 Minuten                             an den Realschulen in Bayern
+
+                                                    Mathematik I
+
+             Aufgabe B 3                                                  Haupttermin
+
+B 3.0 Gegeben ist die Funktion f1 mit der Gleichung y  0,75 x  4  1  x, y  IR  und die
+      Funktion f2 mit der Gleichung y  0,75 x  2  3  x, y  IR  .
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 3.1 Geben Sie die Wertemenge von f1 an und zeichnen Sie die Graphen zu f1 und f2 für
+       x   3; 8  in ein Koordinatensystem.
+      Für die Zeichnung: Längeneinheit 1 cm;  3  x  8 ;  4  y  9                          4P
+
+                                                                                x 
+B 3.2 Der Graph der Funktion f1 kann durch Parallelverschiebung mit dem Vektor v   v 
+                                                                                    yv 
+      auf den Graphen der Funktion f2 abgebildet werden  x v , y v  IR  .
+                                                        
+      Geben Sie die Koordinaten des Vektors v an.                                               1P
+
+                                                                                     
+B 3.3 Punkte A n x 0,75 x  4  1 auf dem Graphen zu f1 und Punkte B n x 0,75 x  2  3 auf
+      dem Graphen zu f2 haben dieselbe Abszisse x. Sie sind zusammen mit Punkten Cn
+      Eckpunkte von Dreiecken A nBnCn .
+
+      Es gilt: AnCn  5 LE ; Bn AnCn  60.
+      Zeichnen Sie das Dreieck A1B1C1 für x   2 und das Dreieck A 2B 2 C 2 für x  3,5 in
+      das Koordinatensystem zu B 3.1 ein.
+      Berechnen Sie sodann die x-Koordinate des Punktes C1 .                                    4P
+
+B 3.4 Zeigen Sie rechnerisch, dass für die Länge der Strecken AnBn in Abhängigkeit von
+      der Abszisse x der Punkte An gilt:
+
+                       
+       AnBn  x   0,78  0,75
+                                  x 2
+                                            
+                                          4 LE .
+
+      Berechnen Sie sodann den Flächeninhalt des Dreiecks A1B1C1 .                              4P
+
+B 3.5 Das Dreieck A 3B 3 C 3 ist gleichschenklig mit der Basis B3C3 .
+      Berechnen Sie die zugehörige x-Koordinate des Punktes A 3 .                               2P
+
+B 3.6 Begründen Sie, weshalb das Dreieck A 3B 3 C 3 gleichseitig ist.                          1,5 P
+
+
+
+
+                                                    Bitte wenden!
+
+  Prüfungsdauer:               Abschlussprüfung 2023
+   150 Minuten                       an den Realschulen in Bayern
+
+                                               Mathematik I
+
+            Aufgabe B 4                                                   Haupttermin
+
+B 4.0 Das Trapez ABCD mit AD BC ist die Grundfläche des                      H
+                                                                                        G
+      Prismas ABCDEFGH mit der Höhe AE (siehe Skizze).
+                                                                      E
+      Es gilt: AB  5,5 cm; AD  8 cm; BAD  90;                                 F
+
+               BC  6 cm; AE  9 cm.
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+                                                                             D
+                                                                                        C
+
+
+
+B 4.1 Zeichnen Sie das Schrägbild des Prismas ABCDEFGH und die Strecke AF, wobei die
+      Strecke AB auf der Schrägbildachse und der Punkt A links vom Punkt B liegen soll.
+      Für die Zeichnung gilt: q  1 ;   45 .
+                                  2
+      Zeigen Sie sodann, dass für das Maß des Winkels FAE gilt: FAE  31,43 .              3P
+
+B 4.2 Punkte Sn liegen auf der Strecke AF . Die Winkel AESn haben das Maß  mit
+         0; 90 . Die Punkte Sn sind die Spitzen von Pyramiden ABCDSn mit den
+      Höhen SnTn . Es gilt: Tn  AB .
+      Zeichnen Sie für   70 die Strecke ES1 , die Pyramide ABCDS1 und die Höhe S1T1
+      in das Schrägbild zu B 4.1 ein.
+      Ermitteln Sie sodann rechnerisch die Länge der Strecken ASn in Abhängigkeit von .
+                                      9  sin        
+      Teilergebnis: ASn                        cm                                     3,5 P
+                               sin    31,43     
+
+B 4.3 In der Pyramide ABCDS2 gilt: AT2  3,5 cm .
+
+      Berechnen Sie die Länge der Strecke AS2 sowie den zugehörigen Wert für  .
+      Teilergebnis: AS2  6,71cm                                                          3,5 P
+                                
+
+B 4.4 Zeigen Sie durch Rechnung, dass für das Volumen V der Pyramiden ABCDSn in
+                                          98,56  sin 
+      Abhängigkeit von  gilt: V                       cm3 .                             3P
+                                        sin    31,43 
+
+B 4.5 Unter den Strecken ESn hat die Strecke ES0 die minimale Länge.
+      Begründen Sie, dass für die zugehörige Belegung für  gilt:   58,57 .
+      Berechnen Sie sodann den prozentualen Anteil des Volumens der Pyramide ABCDS0
+      am Volumen des Prismas ABCDEFGH.                                                      3,5 P
+
+                                              Bitte wenden!

@@ -1,0 +1,380 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin 2023, Lösungsmuster und Bewertung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2023/2023_mi_ht_l.pdf
+ABRUF: 2026-09-28
+SEITEN: 7
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Lösungsmuster                   Abschlussprüfung 2023
+ und Bewertung                            an den Realschulen in Bayern
+
+                                                 Mathematik I
+
+         Aufgabengruppe A                                                          Haupttermin
+
+ AUFGABE A 1: EBENE GEOMETRIE
+
+                 1,5                                                   1,5 
+        AB1                                                           AB1   
+                2 1,5  6                                                   3
+                                                                                                     L3
+A1      1,5    6                                                                        2,5     K1
+         3    2   3  0                                                                       K5
+           
+        Das Parallelogramm AB1C1D ist somit kein Rechteck.
+
+ AUFGABE A 2: FUNKTIONEN
+
+                   0  3  2x  24                                       x  IR
+                                                                                                     L4
+A 2.1              …                                                                             2   K5
+
+                  x3                                                   L  3
+
+                                                                                                     L4
+A 2.2   Asymptote: y   24                                                                      1   K5
+
+ AUFGABE A 3: DATEN UND ZUFALL
+
+         8                                                                                           L5
+A 3.1                                                                                            1   K5
+        27
+
+                                     2 2 1 1 5                                                       L5
+A 3.2   P 10 10   P 15 15                                                              2   K3
+                                     3 3 3 3 9                                                       K5
+
+ AUFGABE A 4: EBENE GEOMETRIE
+
+
+
+                                     Q1
+
+
+
+                                                                                                     L3
+A 4.1                                                                                            1   K4
+
+
+               P                     1
+
+
+                                     O       1
+
+
+
+
+                                                   Seite 1 von 7
+
+                 2,5  sin   3                                         0 ;180
+                                                                                                      L4
+A 4.2            …                                                                              2     K5
+
+                  30    150                                    L  30 ;150
+
+                                                                                               11,5
+
+
+
+
+         Aufgabengruppe B                                                       Haupttermin
+
+ AUFGABE B 1: EBENE GEOMETRIE
+
+
+                                g     B2
+
+                                                                A
+                                                                                                      L3
+B 1.1                                                                                           1     L4
+                                                                                                      K4
+
+
+                                       C2 1                          C1
+
+
+
+
+             
+                       
+        OCn  OA  ACn
+                                   
+                       O;   45
+                 ABn I         ACn
+                           cos45  sin45   x  3 
+                 ACn  x                        x  3  3                     x  IR
+                              sin45    cos45               
+                 …                                                                                    L4
+B 1.2                                                                                           4     K2
+                          1,42x  2,13 
+                 ACn  x                
+                                                                                                      K5
+
+                               2,13 
+                  3  1,42x  2,13 
+        OCn  x                                                                x  IR
+                     3    2,13 
+                 1,42x  0,87 
+        OCn  x                                                 Cn 1,42x  0,87 0,87 
+                        0,87     
+
+                                                                                                5
+
+
+
+
+                                                Seite 2 von 7
+
+ AUFGABE B 2: DATEN UND ZUFALL
+
+
+
+
+                               35 %                                       65 %
+
+                                                                                                         L5
+B 2.1                     T                                                      H                 2,5   K3
+                                                                                                         K4
+
+
+          18 %                          82 %                       p%                100 % – p %
+
+         F                                  oF                 F                         oF
+
+
+                 35       18       65       p       15
+                                                                                 p IR
+                 100 100 100 100                    100
+                 …                                                                                       L5
+                                                                                                         K2
+B 2.2                                                                                              2
+                p  13                                                              L  13            K3
+                                                                                                         K5
+
+        Die Wahrscheinlichkeit dafür, dass es bei der Reservierung dieses Gastes zu
+        einem Fehler kam, liegt bei etwa 13 %.
+
+                                                                                                   4,5
+
+
+
+
+                                                          Seite 3 von 7
+
+ AUFGABE B 3: FUNKTIONEN
+
+        W  y y  1
+
+
+
+
+                   A1
+
+
+
+                            5
+
+                                                      C1
+                                                                                                         L4
+B 3.1                                                                                                4   K4
+                                                                                                         K5
+                                                             A2
+                                                                                Graph zu f1
+                            1
+
+              B1
+                            O            1                                 5              C2
+
+
+
+
+                                                             B2
+                                                                                Graph zu f2
+
+
+
+
+           2                                                                                         L4
+B 3.2   v                                                                                         1
+            4 
+                                                                                                         K5
+
+
+
+        Einzeichnen der Dreiecke A1B1C1 und A 2B2 C2
+                                                                                                         L3
+                           x C1  x A1                                                                   L4
+B 3.3   Wegen sin60                        gilt: x C1  x A1  5  sin60 .                        4   K4
+                                 5                                                                       K5
+        xC1   2  5  sin60                                                          xC1  2,33
+
+
+
+
+                                                           Seite 4 von 7
+
+         AnBn  x   0,75
+                               x 4
+                                           
+                                       1 0,75x  2  3  LE                    x  IR
+
+        …
+
+                     
+         AnBn  x   0,78  0,75
+                                        x 2
+                                                  
+                                                4 LE
+                                                                                                               L2
+B 3.4                                                                                                    4     L4
+        A A1B1C1  0,5  A1B1  A1C1  sin B1A1C1                                                             K5
+
+
+                             
+                   A1B1  0,78  0,75
+                                                 2 2
+                                                           
+                                                          4 LE                    A1B1  6,47 LE
+        AA1B1C1  0,5  6,47  5  sin60 FE                                       AA1B1C1  14,01 FE
+
+
+        Im Dreieck A 3B 3C 3 gilt: A3B3  5 LE .
+                                                                                                               L3
+                  0,78  0,75x  2  4  5                                         x  IR                      L4
+B 3.5                                                                                                    2     K2
+                 …                                                                                             K5
+
+                 x  1,14                                                         L   1,14 
+
+        Der Winkel B 3 A 3C 3 hat das Maß 60 .
+        Folglich gilt für die beiden Basiswinkel C 3B 3 A 3 und A 3C 3B 3 :                                    L3
+B 3.6                                                                                                   1,5
+        C3B3 A3  A3C3B3  180  60  : 2  60 .                                                         K1
+
+        Somit ist das Dreieck A 3B 3C 3 gleichseitig.
+
+                                                                                                        16,5
+
+
+
+
+                                                                   Seite 5 von 7
+
+ AUFGABE B 4: RAUMGEOMETRIE
+
+                              H
+
+                                                                   G
+
+
+
+
+        E
+            M                                       F
+
+                                           S1
+
+
+
+
+                                                                                                 L2
+                                                                                                 L3
+B 4.1                                                                                      3     K4
+                                                                                                 K5
+
+
+
+
+                              D
+
+                                                                   C
+
+
+
+
+        A                                           B
+                                               T1
+                        5,5
+        tan FAE                                                       FAE  31,43
+                         9
+
+        Einzeichnen der Strecke ES1 , der Pyramide ABCDS1 und der Höhe S1T1
+
+         ASn                      9 cm                                                           L3
+                                                                          0; 90
+                    sin 180     31,43  
+                                                                                                 L4
+B 4.2   sin                                                                               3,5   K4
+                                                                                                 K5
+                              9  sin 
+        ASn                                cm
+                        sin    31,43 
+
+                                    3,5 cm
+        cos  90  31,43                                            AS 2  6,71cm
+                                     AS2
+                                                                                                 L3
+                                   9  sin 
+B 4.3               6,71                                                  0; 90   3,5
+                                                                                                 L4
+                             sin    31,43                                                   K2
+                                                                                                 K5
+                    …
+                     46,90                                          L  46,90
+
+
+
+
+                                                        Seite 6 von 7
+
+         V
+              1 1
+                      
+                 AD  BC  AB  SnTn
+              3 2
+                                         
+                                                               Sn Tn
+                     sin  90  31,43                                            0; 90
+                                                          9  sin 
+                                                                       cm
+                                                    sin    31,43 
+                                                                                                                   L3
+B 4.4                                        7,68  sin                                                     3     L4
+                     Sn Tn                                cm                                                   K2
+                                       sin    31,43 
+                    1 1                       7,68  sin 
+         V          8  6   5,5                     cm3                    0; 90
+                    3 2                    sin    31,43 
+                      98,56  sin 
+         V                               cm3
+                    sin    31,43 
+
+        In der Pyramide ABCDS0 gilt:   180  90  31,43 , also   58,57 .
+                               98,56  sin58,57
+         V  58,57                                       cm3                   V  58,57  84,10 cm3
+                          sin  58,57  31,43                                                                   L1
+                                                                                                                   L2
+                                                                                                                   L3
+B 4.5                     1                                                                                 3,5    K1
+         VABCDEFGH             8  6   5,5  9 cm3                           VABCDEFGH  346,5 cm3            K2
+                          2                                                                                        K5
+
+         84,10
+                 100%  24,27%
+         346,5
+
+                                                                                                            16,5
+
+
+Hinweis: Bei einigen Teilaufgaben sind auch andere Lösungswege möglich. Für richtige andere Lösungen gelten die
+         jeweils angegebenen Punkte entsprechend; die Anzahl der Punkte bei den einzelnen Teilaufgaben darf jedoch
+         nicht verändert werden. Insbesondere sind Lösungswege, bei denen der (grafikfähige) Taschenrechner
+         verwendet wird, entsprechend ihrer Dokumentation bzw. ihrer Nachvollziehbarkeit zu bepunkten.
+
+         Bei der Korrektur ist zu beachten, dass die Vervielfältigung der Lösungsvorlage zu Verzerrungen der
+         Zeichnungen führen kann.
+
+
+
+
+                                                                  Seite 7 von 7

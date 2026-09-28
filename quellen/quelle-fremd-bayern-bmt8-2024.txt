@@ -1,0 +1,202 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien, Aufgaben Gruppe A 2024
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2024/BMT8_2024_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2024                                                                             A
+
+
+         Bayerischer Mathematik-Test für die Jahrgangsstufe 8 der Gymnasien
+
+Name: __________________________________                 Note:                _____
+
+Klasse: __________                                       Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Gegeben ist die Gleichung 5x − ( 3x − 6 ) =
+                                          14 .
+
+a) Bestimme die Lösung der Gleichung.
+
+
+
+
+                                                                                           /2
+
+b) Gib an, durch welche Zahl man 14 ersetzen muss, damit die Gleichung die Lösung x = 2
+   hat.
+
+                                                                                           /1
+
+
+
+Aufgabe 2
+Multipliziere aus und vereinfache so weit wie möglich.
+
+(3x + 21 ) =
+        2
+
+
+
+
+                                                                                           /2
+
+BMT8 2024                            Seite 2 (von 4)                                            A
+
+
+
+Aufgabe 3
+In den Jahren 2017 und 2022
+                                              Schwimmfähigkeit von Achtjährigen
+wurden jeweils Untersuchungen
+zur Schwimmfähigkeit acht-          70 %
+jähriger Kinder durchgeführt.                60 %
+                                    60 %
+Dabei wurde jedes Kind in eine
+der folgenden Kategorien ein-       50 %
+gestuft:
+                                    40 %
+• „sichere Schwimmer“
+                                                                31 %
+• „unsichere Schwimmer“             30 %                                25 %
+• „Nichtschwimmer“                                                                     20 %
+                                    20 %
+Das Diagramm zeigt die
+Ergebnisse dieser                   10 %
+                                                                                 9%
+Untersuchungen.
+                                     0%
+                                           sichere Schwimmer     unsichere     Nichtschwimmer
+                                                                Schwimmer
+
+                                                               2017    2022
+
+
+a) Ergänze im Diagramm die fehlende Säule für die Kategorie „sichere Schwimmer“ im Jahr
+   2022.                                                                                            /1
+
+b) Kreuze jeweils an, ob die Aussage mit dem Diagramm in Einklang steht.
+                                                                                      ja   nein
+   Im Jahr 2017 wurden mehr als ein Drittel der Kinder in die Kategorie               ◯       ◯
+   „unsichere Schwimmer“ eingestuft.
+   Im Jahr 2022 war der Anteil der Kinder, die in die Kategorie „Nichtschwimmer“      ◯       ◯
+   eingestuft wurden, mehr als doppelt so groß wie im Jahr 2017.
+   Im Jahr 2022 gab es in den Kategorien „sichere Schwimmer“ und „unsichere           ◯       ◯
+   Schwimmer“ zusammen fünfmal so viele Kinder wie in der Kategorie „Nicht-
+   schwimmer“.                                                                                      /2
+
+c) Bei der Untersuchung im Jahr 2017 wurden 2400 Kinder in die Kategorie „sichere
+   Schwimmer“ eingestuft. Berechne die Gesamtzahl der Kinder, die 2017 untersucht
+   wurden.
+
+
+
+
+                                                                                                    /2
+
+BMT8 2024                             Seite 3 (von 4)                                     A
+
+
+
+Aufgabe 4
+Eine Schiffsroute verläuft geradlinig zwischen
+zwei Leuchttürmen. In der Abbildung werden
+die Schiffsroute durch die Gerade g und die
+Leuchttürme durch die Punkte A und B
+dargestellt.
+
+a) Der Maßstab der Abbildung beträgt
+   1 : 100 000. Bestimme die Entfernung der
+   Leuchttürme in der Wirklichkeit in Metern.
+
+
+
+
+                                                                                                 /1
+
+b) Ein Schiff auf der Schiffsroute ist zu einem bestimmten Zeitpunkt von beiden Leuchttürmen
+   gleich weit entfernt. Ermittle durch eine Konstruktion den Punkt P, der dieser Position des
+   Schiffs entspricht.
+                                                                                                 /1
+
+
+
+Aufgabe 5
+Der Thaleskreis über der Strecke AB hat den
+Mittelpunkt M und den Radius r. Der Punkt C liegt auf
+diesem Thaleskreis. Das Dreieck MBC ist gleichseitig
+(vgl. Abbildung).
+
+a) Der Innenwinkel bei C im Dreieck AMC wird mit φ
+   bezeichnet. Begründe, dass φ= 30° gilt.
+
+
+
+
+                                                                                                 /2
+
+b) Begründe, dass die Dreiecke AMC und MBC den gleichen Flächeninhalt haben.
+
+
+
+
+                                                                                                 /1
+
+BMT8 2024                             Seite 4 (von 4)                                    A
+
+
+
+Aufgabe 6
+Es gilt 81⋅ 49 =
+               3969 .
+
+a) Gib den Wert des Terms 8,1⋅ 0,49 an.
+
+                                                                                              /1
+
+b) Da 81 und 49 Quadratzahlen sind, ist auch 3969 eine Quadratzahl. Bestimme diejenige
+   natürliche Zahl, deren Quadrat gleich 3969 ist.
+
+
+
+                                                                                              /1
+
+c) Um das Produkt zweier beliebiger Zahlen              A     B              C
+   berechnen zu können, wurde mit einem          1           erste Zahl:              81
+   Tabellenkalkulationsprogramm die
+                                                 2          zweite Zahl:              49
+   abgebildete Tabelle erstellt. Ergänze in
+   Zelle C4 die Formel so, dass sie auch         3
+   dann das richtige Ergebnis liefert, wenn      4             Produkt: =
+   die eingetragenen Zahlen 81 und 49            5
+   verändert werden.                             6                                            /1
+
+
+
+Aufgabe 7
+Schneidet man von einem quadratischen Stück Papier
+der Seitenlänge a an einer Ecke ein Quadrat der
+Seitenlänge b ab, so entsteht die in Abbildung 1 grau
+gefärbte achsensymmetrische Figur.
+
+a) Gib einen Term an, der den Umfang dieser Figur
+   beschreibt.                                                              Abb. 1
+
+                                                                                              /1
+
+b) Zerschneidet man die Figur in Abbildung 1 entlang
+   ihrer Symmetrieachse, so kann man die beiden
+   Teilstücke zu einem Rechteck zusammenlegen
+   (vgl. Abbildung 2). Dieses Rechteck hat den                                       Abb. 2
+   gleichen Flächeninhalt wie die ursprüngliche Figur.
+  Erläutere, wie mithilfe dieser Vorgehensweise die binomische Formel
+  ( a + b ) ⋅ ( a − b ) = a 2 − b 2 plausibel gemacht werden kann.
+
+
+
+
+                                                                                              /2

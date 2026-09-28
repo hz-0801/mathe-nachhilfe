@@ -1,0 +1,190 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien, Aufgaben Gruppe A 2025
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2025/BMT10_2025_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2025                                                                                     A
+
+
+        Bayerischer Mathematik-Test für die Jahrgangsstufe 10 der Gymnasien
+
+Name: __________________________________                    Note:                    _____
+
+Klasse: __________                                          Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+a) Bestimmen Sie für x ∈ IR die Lösungen der Gleichung 2x 2 − 14x =
+                                                                  0.
+
+
+
+                                                                                                   /2
+
+b) Geben Sie einen Term einer in IR definierten quadratischen Funktion f an, sodass die
+   Gleichung f ( x ) = 0 keine Lösung in IR besitzt.
+
+
+                                                                                                   /1
+
+
+
+Aufgabe 2
+Ein Glücksrad hat vier Sektoren, die mit den Ziffern 1, 2, 3 und 4 beschriftet sind. Für das
+einmalige Drehen des Glücksrads wird Ω = {1;2;3;4} als Ergebnismenge festgelegt.
+
+a) Geben Sie eine Voraussetzung an, die zusätzlich gelten müsste, damit es sich beim
+   beschriebenen Zufallsexperiment um ein Laplace-Experiment handelt.
+
+
+
+                                                                                                   /1
+
+b) Das Glücksrad wird sechsmal gedreht. Dabei werden die erzielten Ziffern in der Reihen-
+   folge ihres Auftretens notiert, sodass eine sechsstellige Zahl entsteht.
+   Geben Sie einen Term an, mit dem man berechnen kann, wie viele verschiedene
+   sechsstellige Zahlen auf diese Weise entstehen können.
+
+
+                                                                                                   /1
+
+c) Nach 200-maligem Drehen des Glücksrads ergab sich für das Auftreten der Ziffer 2 die
+   relative Häufigkeit 0,3. Berechnen Sie, wie oft die Ziffer 2 erzielt wurde.
+
+
+
+
+                                                                                                   /1
+
+BMT10 2025                               Seite 2 (von 4)                      A
+
+
+
+Aufgabe 3
+
+Gegeben ist die Funktion f : x  8 − 2 mit maximalem Definitionsbereich D.
+                                 x −1
+
+a) Geben Sie D an.
+
+                                                                                  /1
+
+b) Berechnen Sie die Nullstelle von f.
+
+
+
+
+                                                                                  /2
+
+c) Geben Sie eine Gleichung der waagrechten Asymptote des Graphen von f an.
+
+
+                                                                                  /1
+
+
+
+Aufgabe 4
+a) Gegeben ist ein Parallelogramm mit den
+   Seitenlängen 5 und 4 (vgl. Abbildung).
+  Bestimmen Sie einen Term in Abhängigkeit
+  von α, der den Flächeninhalt des
+  Parallelogramms beschreibt.
+
+
+
+
+                                                                                  /2
+
+b) Zeichnen Sie in den abgebildeten Einheitskreis
+   eine Strecke der Länge sin ( α + 90° ) ein.
+
+
+
+
+                                                                                  /1
+
+BMT10 2025                             Seite 3 (von 4)                                  A
+
+
+
+Aufgabe 5
+Im Jahr 2010 gab es in Deutschland 299 000 landwirtschaftliche Betriebe, im Jahr 2023
+waren es nur noch 255 000.
+
+a) Die Anzahl der landwirtschaftlichen Betriebe im Jahr 2023 war um einen bestimmten
+   Prozentsatz kleiner als im Jahr 2010. Genau einer der folgenden Brüche entspricht diesem
+   Prozentsatz. Kreuzen Sie diesen an.
+      299 000 − 255 000       299 000 − 255 000          255 000           299 000
+  ◯                       ◯                       ◯                    ◯
+           299 000                 255 000               299 000           255 000            /1
+
+Die Anzahl der landwirtschaftlichen Betriebe in Deutschland im Zeitraum von 2010 bis 2023
+lässt sich modellhaft durch die in IR definierte Funktion f : x  −3400x + 299 000
+beschreiben. Dabei ist x die seit dem Jahr 2010 vergangene Zeit in Jahren und f ( x ) die
+Anzahl der Betriebe.
+
+b) Berechnen Sie f (10 ) und deuten Sie das Ergebnis im Sachzusammenhang.
+
+
+
+
+                                                                                              /2
+
+c) Wäre ausgehend vom Jahr 2010 der jährliche Rückgang der Anzahl der landwirtschaft-
+   lichen Betriebe nur halb so groß gewesen, so müsste man die lineare Funktion f
+   entsprechend anpassen.
+  Geben Sie einen Term der angepassten Funktion an.
+
+
+                                                                                              /1
+
+BMT10 2025                              Seite 4 (von 4)      A
+
+
+
+Aufgabe 6
+Auf dem Graphen der in IR definierten Funktion
+                                 (       )
+f : x  x 2 liegen die Punkte A − a | a 2 und
+
+  (          )
+B b | b 2 mit a,b > 0 und a ≠ b (vgl. Abbildung 1).
+
+Die Strecke AB schneidet die y-Achse im Punkt
+S (0 | t ) .
+
+a) Tragen Sie die Streckenlängen a, b, t − a 2 und
+   b 2 − t jeweils in das passende Feld in der
+   Abbildung ein.
+                                                                   /1
+
+b) Aufgrund des Strahlensatzes gilt die Gleichung
+     a = b . Löst man diese Gleichung nach t
+      2    2
+      t −a       b −t
+      auf, so ergibt sich genau eine Lösung.
+      Begründen Sie, dass diese Lösung a ⋅ b ist.
+      Hinweis: Sie können dazu beispielsweise a ⋅ b
+      für t einsetzen und anschließend die Terme auf
+      beiden Seiten der Gleichung geeignet
+      umformen.                                           Abb. 1
+
+
+
+
+                                                                   /2
+
+c) Die y-Koordinate von S ist also a ⋅ b . Ergänzen
+   Sie Abbildung 2 so, dass man unter
+   Verwendung des obigen Verfahrens einen
+   Näherungswert für das Produkt der Zahlen 1,8
+   und 2,3 ablesen kann.
+
+
+
+
+                                                                   /1
+                                                          Abb. 2

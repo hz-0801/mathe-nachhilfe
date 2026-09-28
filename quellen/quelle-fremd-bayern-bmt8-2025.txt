@@ -1,0 +1,213 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien, Aufgaben Gruppe A 2025
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2025/BMT8_2025_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2025                                                                              A
+
+
+        Bayerischer Mathematik-Test für die Jahrgangsstufe 8 der Gymnasien
+
+Name: __________________________________                Note:                  _____
+
+Klasse: __________                                      Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Berechne jeweils den Wert des Terms.
+
+a) 13 − 10 2 =
+
+                                                                                             /1
+
+b) 13 + 10 −2 =
+
+                                                                                             /1
+
+
+
+Aufgabe 2
+Die Abbildung zeigt ein
+Schrägbild eines Bauelements
+für eine Brücke mit den
+zugehörigen Kantenlängen.
+Alle Winkel, unter denen
+Kanten des Bauelements
+aufeinandertreffen, sind
+rechte Winkel.
+
+a) Berechne das Volumen
+   des Bauelements.
+
+
+
+
+                                                                                             /2
+
+b) Ein Modell des Bauelements wird im Maßstab 1:10 gefertigt.
+  Kreuze die richtige Vervollständigung an: Das Volumen des Originals ist im Vergleich zum
+  Volumen des Modells …
+  ◯ 10-mal so groß.            ◯ 100-mal so groß.          ◯ 1000-mal so groß.
+  ◯ 30-mal so groß.            ◯ 300-mal so groß.          ◯ 3000-mal so groß.
+
+                                                                                             /1
+
+BMT8 2025                           Seite 2 (von 4)                                         A
+
+
+
+Aufgabe 3
+
+                                            (
+Bestimme die Lösung der Gleichung 11x − 8 ⋅ x − 3 =.
+                                                  2
+                                                   0  )
+
+
+
+
+                                                                                                /2
+
+
+
+Aufgabe 4
+Vereinfache den folgenden Term so weit wie möglich:
+
+(3x 3 ) + x 6 =
+      2
+
+
+
+
+                                                                                                /2
+
+
+
+Aufgabe 5
+Das arithmetische Mittel zweier Zahlen soll mit           A            B               C
+einem Tabellenkalkulationsprogramm berechnet          1
+werden. Dazu soll in Zelle C5 eine Formel
+                                                      2                     Zahl 1:        52
+eingetragen werden (vgl. Abbildung).
+                                                      3                     Zahl 2:        60
+Begründe, dass dazu die Formel =C2+C3/2               4
+nicht geeignet ist.                                   5       arithmetisches Mittel:
+                                                      6
+
+
+
+
+                                                                                                /1
+
+BMT8 2025                             Seite 3 (von 4)                                                                A
+
+
+
+Aufgabe 6
+An einem Gymnasium findet jährlich ein
+                                                                                    Spendenlauf 2025
+Spendenlauf statt. Das Diagramm zeigt für den
+Spendenlauf 2025 die Verteilung der Anzahl                                   60
+der gelaufenen Runden aller Teilnehmenden.                                                   50
+                                                                             50
+a) Beurteile, ob folgende Aussage mit dem
+
+
+
+
+                                                  Anzahl der Teilnehmenden
+   Diagramm in Einklang steht:                                                                        40
+                                                                             40                                36
+     Im Jahr 2025 ist jede dritte Person, die
+     am Spendenlauf teilgenommen hat,                                        30
+     genau 5 Runden gelaufen.                                                       24
+                                                                             20
+
+                                                                             10
+
+                                                                              0
+                                                                                  weniger    5        6      mehr
+                                                                                   als 5                     als 6
+                                                                                     Anzahl der gelaufenen Runden
+                                                                                                                         /1
+
+b) Ergänze folgende Aussagen so, dass sie zum Diagramm passen.
+   Die Anzahl der Teilnehmenden, die genau 6 Runden gelaufen sind, ist um ______ Prozent
+   kleiner als die Anzahl der Teilnehmenden, die genau 5 Runden gelaufen sind.
+   Die Anzahl der Teilnehmenden, die genau 5 Runden gelaufen sind, ist um ______ Prozent
+   größer als die Anzahl der Teilnehmenden, die genau 6 Runden gelaufen sind.
+
+                                                                                                                         /2
+
+c) Entscheide, ob der Median der Anzahl der gelaufenen Runden den Wert 5 oder den Wert
+   6 hat, und begründe deine Entscheidung.
+
+
+
+
+                                                                                                                         /1
+
+d) Im Jahr 2025 sind 24 % der Teilnehmenden mehr als 6 Runden gelaufen; im Vorjahr
+   betrug dieser Anteil 22 %. Begründe, dass man daraus die folgende Aussage nicht folgern
+   kann:
+     Im Jahr 2025 war die Anzahl der Teilnehmenden, die mehr als 6 Runden gelaufen sind,
+     größer als im Vorjahr.
+
+
+
+
+                                                                                                                         /1
+
+BMT8 2025                            Seite 4 (von 4)                            A
+
+
+
+Aufgabe 7
+Das abgebildete Viereck ABCD ist ein
+Parallelogramm.
+
+a) Gib die Koordinaten von C an.
+
+
+
+                                                                                    /1
+
+b) Berechne den Flächeninhalt des
+   Parallelogramms mithilfe der gegebenen
+   Koordinaten.
+
+
+
+
+                                                                                    /1
+
+c) Gib die Koordinaten eines Punkts E an, sodass das Dreieck ABE den gleichen
+   Flächeninhalt wie das Parallelogramm ABCD hat.
+
+                                                                                    /1
+
+
+
+
+Aufgabe 8
+Betrachtet wird ein Kreis mit Mittelpunkt M und
+Durchmesser AB . Der Punkt C liegt auf diesem
+Kreis (vgl. Abbildung).
+
+a) Begründe, dass das Dreieck AMC gleichschenklig
+   ist.
+
+
+
+
+                                                                                    /1
+
+b) Begründe, dass δ = 2α gilt.
+
+
+
+
+                                                                                    /2

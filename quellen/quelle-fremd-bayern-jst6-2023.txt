@@ -1,0 +1,183 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 6, Angabe 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/2023_JT_Mathe_6_Angabe.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+               JAHRGANGSSTUFENTEST 2023 IM FACH MATHEMATIK
+            FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+                          (ARBEITSZEIT: 45 MINUTEN)
+
+  NAME:                                                             NOTE:
+  KLASSE:   6 __________                                            PUNKTE: _________ /21
+
+
+1 Berechne.                                                                                 __/1
+    a) 3240 : 120 =                           b) 103 + 102 =
+
+
+                                                                                            __/1
+
+
+
+
+2 Berechne.                                                                                 __/1
+    a) 2318 − 8319 =                          b) ( −16) ⋅ ( −5) =
+
+
+                                                                                            __/1
+
+
+
+
+3 Lilli hat Zahlen an der Zahlengerade angetragen. Eine Zahl davon ist falsch.              __/1
+  Verbessere die falsche Zahl im Kästchen darüber.
+
+
+              – 150        – 90     0                120
+
+
+     – 200                                       100
+
+
+4 Tom soll mit diesen Ziffernkarten eine vierstellige Zahl legen.                           __/1
+   Begründe, warum jede gelegte Zahl durch 3 teilbar ist.
+                                                                             2
+   _________________________________________________
+
+   _________________________________________________
+
+   _________________________________________________
+
+5 Runde die Zahl 431 499 auf Tausender.                                                     __/1
+
+   431 499 ≈ ________________
+
+6 Für den Platzhalter soll die größtmögliche                                           __/1
+  natürliche Zahl eingesetzt werden, so dass            2
+  eine wahre Aussage entsteht.                              < 200
+  Kreuze diese Zahl an.
+        10          11          14           15            19           20
+
+
+7 Eine Reinigungsfirma hat die Fenster von 25 Stockwerken eines Hochhauses             __/1
+  geputzt. Auf jedem Stockwerk befinden sich 12 Wohnungen mit jeweils
+  4 Fenstern.
+  Gib an, wie viele Fenster die Firma insgesamt geputzt hat.
+
+
+
+
+  Es wurden insgesamt _________ Fenster geputzt.
+
+8 Michael möchte die ungefähre Anzahl            A       B          C   D          E   __/1
+  der Bohnen auf dem Bild abschätzen.
+  Dazu zählt er die Bohnen im Feld A1   1
+  und multipliziert diese Zahl mit der
+  Anzahl der Felder.
+  Beschreibe den Fehler, den er gemacht 2
+  hat.
+  ____________________________________ 3
+  ____________________________________
+  ____________________________________ 4
+  ____________________________________
+  _________________________________________________________________________
+
+
+
+9 Kreuze den passenden Text zum Term (128 + 39) ∙ (56 – 8) an.                         __/1
+          Bilde das Produkt aus der Summe der Zahlen 128 und 39 und dem
+           Quotienten der Zahlen 56 und 8.
+          Addiere die Summe der Zahlen 128 und 39 zur Differenz der Zahlen 56
+           und 8.
+          Bilde den Quotienten aus der Summe der Zahlen 128 und 39 und dem
+           Produkt der Zahlen 56 und 8.
+          Multipliziere die Summe der Zahlen 128 und 39 mit der Differenz der
+           Zahlen 56 und 8.
+
+10 Bestimme den Abstand d des Punktes P von der Gerade g.             g          __/1
+
+
+   d(P; g) = ________ cm
+
+
+
+                                                                       P
+
+
+11 Beschreibe anhand einer geometrischen Eigenschaft, wie sich Kegel und         __/1
+   Pyramide unterscheiden.
+   _________________________________________________________________________
+
+   _________________________________________________________________________
+
+
+12 Simon hat ein Stück Papier aus                                                __/1
+   seinem Heft ausgeschnitten (siehe Abbildung).
+   Zeichne die fünf Faltlinien so ein, dass
+   er daraus einen Quader falten kann.
+
+
+
+
+13 Zeichne einen Winkel mit dem Maß α = 135° und markiere ihn.                   __/1
+
+
+
+
+14 Welches Ergebnis passt zur                                                    __/1
+   folgenden Rechnung?
+   Kreuze an.
+   5 cm ∙ 60 mm =
+    30 mm²             300 mm²            3000 mm²         30 000 mm²
+
+15 Alex, Ali und Armin waren in der Kletterhalle und haben für den Eintritt      __/1
+   insgesamt 24 € bezahlt.
+   Gib an, wie viel Lena und ihre sechs Freundinnen insgesamt bezahlen müssen,
+   wenn sie zum selben Einzelpreis in die Kletterhalle gehen.
+
+
+
+
+   Lena und ihre sechs Freundinnen bezahlen zusammen _______ €.
+
+16 Eisbär Kurti ist in Wirklichkeit 250 cm lang und hat eine Schulterhöhe von 160 cm.           __/1
+   Kreuze an, in welchem Maßstab der Eisbär ungefähr
+   gezeichnet ist.
+    1 : 100     1 : 10     1:1        10 : 1        100 : 1
+
+
+17 Zeichne ein Rechteck mit einem Flächeninhalt A von 12 cm².                                   __/1
+
+
+
+
+18 Ein Quadrat mit der Seitenlänge a = 8 cm wird in zwei                                        __/1
+   Rechtecke aufgeteilt. Das größere Rechteck hat einen
+   Umfang von 28 cm.                                                   8 cm
+   Wie groß ist der Umfang des kleineren Rechtecks?
+   Kreuze an.                                                                       8 cm
+
+                                                                               Die Skizze ist
+                                                                               nicht maßtreu.
+
+
+     12 cm           16 cm          20 cm             22 cm              26 cm
+
+                                                    Anzahl
+19 Das Diagramm zeigt die Anzahl der                                                            __/1
+                                                   180 000
+   verkauften Fahrzeuge der
+   Autohersteller A und B.
+   Hersteller C hat halb so viele Fahrzeuge
+                                                   150 000
+   verkauft wie Hersteller A.
+   Ergänze die Säule für Hersteller C
+   im Diagramm.
+
+                                                   100 000
+
+
+                                                                   A       B        C
+                                                                       Hersteller

@@ -1,0 +1,343 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin 2022, Lösungsmuster und Bewertung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2022/2022_mi_ht_l.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Lösungsmuster                       Abschlussprüfung 2022
+ und Bewertung
+                                         an den Realschulen in Bayern
+
+                                                   Mathematik I
+
+
+          Aufgabengruppe A                                                          Haupttermin
+
+AUFGABE A 1: FUNKTIONEN
+                                           2
+                                   p 
+                 2,50  2,20   1                                    p  IR 
+                                100 
+                 ...
+                p  6,60                                               IL  6,60
+                                 x                                                                    L4
+A 1.1 f: y  2,20  1 6,60                                                   
+                                                                        I  IR  IR
+                                                                        G                        3   K3
+                                                                                                    K5
+                     100 
+                                     7
+                          6,60                                        f  7   3,44
+        f  7   2,20  1    
+                          100 
+        Eine Rose würde voraussichtlich 3,44 € kosten.
+
+                                               x
+                                    6,60 
+                 2  2,20  2,20  1                                 x  IR 
+                                    100 
+                 ...                                                                                  L4
+A 1.2            x  10,85                                             IL  10,85              2   K3
+                                                                                                      K5
+
+        Mia müsste im Jahr 2031 erstmals mehr als doppelt so viel für eine Rose bezahlen
+        wie am 1. Juni 2020.
+
+AUFGABE A 2: RAUMGEOMETRIE
+
+
+
+
+A 2.0
+
+
+
+
+                                                     Seite 1 von 6
+
+                          9                                                                          L2
+A 2.1 tan ASM                                                          ASM  52,13           1   K5
+                          7
+
+A 2.2 Einzeichnen der Strecken MP1  und PQ
+                                            1 1  sowie der Pyramide BCQ1S
+                                                                                                     L3
+                                                                                                 2   K4
+
+
+            MPn                      7 cm
+                                                                          0 ;90 
+        sin52,13         sin 180     52,13  
+                                                                                                     L4
+A 2.3 MP                  5,53                                                               3   K2
+                                            cm
+                      sin    52,13 
+        n                                                                                            K5
+
+
+        Die Strecke MP0  erhält man für   37,87 .
+
+
+                              MQn
+        cos  90                                                      0;90 
+                              MPn
+        …
+                                                                                                     L2
+                          5,53  sin                                                                L4
+A 2.4 MQn                               cm                                                   3   K2
+                       sin    52,13                                                             K5
+
+                      1 1             5,53  sin60
+        V  60       10  7                       cm3              V  60   60,32 cm3
+                      3 2          sin  60  52,13 
+
+AUFGABE A 3: EBENE GEOMETRIE
+
+
+
+
+A 3.0
+
+
+
+
+          4,92    1,94 
+      OP1           ; OQ1  
+             0,87                 
+                               4,06 
+                                                                                                     L3
+A 3.1                                                                                            2   K4
+                                                                                                     K5
+        Einzeichnen des Dreiecks OPQ
+                                   1 1
+
+
+
+
+                                                         Seite 2 von 6
+
+        OPn         5  sin     5  cos   LE                           0; 90 
+                                     2            2
+
+
+
+        ...
+                                                                                                             L4
+A 3.2                                                                                                   2
+        OPn     25   sin2   cos 2   LE
+                                                                                                             K1
+                                                                                                             K5
+
+
+        Wegen sin2   cos2   1 gilt folglich OPn  5 LE für alle    0; 90  .
+
+
+                          4,92   1,94   0,87  4,06
+        cos POQ1                                                             POQ1  105,50
+                                                                                                             L2
+A 3.3         1                                                                                         2
+                                      1,94   4,062
+                                             2                                   1
+                              5                                                                             K5
+
+
+
+
+                                                                                                        20
+
+
+
+
+              Aufgabengruppe B                                                            Haupttermin
+
+AUFGABE B 1: FUNKTIONEN
+
+                   3  log2  0  b   1                                      b  IR
+                   …
+                  b4                                                        IL  4
+
+        f1: y  log2  x  4   1                                             I  IR  IR
+                                                                               G
+
+
+
+
+                                                                                                             L4
+                                                                                                             K2
+B 1.1                                                                                                   3    K4
+                                                                                                             K5
+
+
+
+
+                                                          Seite 3 von 6
+
+                    x'           x             
+                    y '                                                I  IR  IR ; x  IR ; x   4
+                                                                             G
+                        log2  x  4   1 
+                  y '   log2  x' 4   1
+
+                    x''              x'       2 
+                    y ''     log x' 4  1   3                      I  IR  IR ; x'  IR ; x'   4
+                                                                             G
+                                     2                                                                          L4
+B 1.2                                                                                                        3    K4
+                                                                                                                     K5
+                   …
+                  y ''   log2  x'' 6   2
+
+                   f2 : y   log2  x  6   2                             I  IR  IR
+                                                                             G
+
+        Einzeichnen des Graphen zu f2
+
+
+                                                                                                                     L3
+B 1.3 Einzeichnen der Dreiecke A 1B1C1 und A 2B2 C2                                                             2    K4
+
+
+
+        A nCn  x   log2  x  4   1   log2  x  6   2   LE   x  IR ; x   3,26
+                                                                                                                     L3
+B 1.4 …                                                                                                         2    L4
+                                                                                                                     K5
+        A nCn  x   log2  x 2  10x  24   1 LE
+
+
+        A  x   0,5  4  log2  x 2  10x  24   1 FE               x  IR ; x   3,26
+
+        A  x   2  log2  x2  10x  24   2  FE
+                                                                                                                     L3
+B 1.5                                                                                                           3
+                   10  2  log2  x  10x  24   2
+                                                                                                                     L4
+                                     2
+                                                                             x  IR ; x   3,26                     K5
+
+                   …
+                   x  13,06   x  3,06                                 IL  3,06
+
+
+        Bn  x  4 log2  x  4   1                                       x  IR ; x   3,26
+
+                   log2  x  4   1   log2  x  4  6   2             x  IR ; x   3,26
+                                                                                                                     L3
+                                                                                                                     L4
+B 1.6              ...                                                                                          4    K2
+                  x  1,27                                                 IL  1,27                            K5
+
+
+
+        xB4  1,27  4                                                      xB4   5,27
+
+
+                                                                                                                17
+
+
+
+
+                                                           Seite 4 von 6
+
+AUFGABE B 2: EBENE GEOMETRIE
+
+
+
+
+                                                                                                          L3
+B 2.1                                                                                                 3   K4
+
+
+
+
+        Bn I
+             h
+                Dn
+                  tan   0,6                                         30,96
+
+            I  IR  IR ; x  IR ; x  1,57 gilt:
+        Für G
+                                                                                                          L3
+B 2.2  x'   cos  2  30,96  sin  2  30,96       x                                             L4
+                                                                                                     3
+       y'                                                                                         K2
+         sin  2  30,96   cos  2  30,96    0,25x  3                                        K5
+
+        …
+         x'   0,69x  2,64 
+         y '    0,76x  1,41                                   Dn  0,69x  2,64 0,76x  1,41
+                              
+
+
+
+
+                                                    Seite 5 von 6
+
+                                                                                        
+        Wenn die Raute AB2 C2D2 ein Quadrat wäre, so müsste gelten: AB2  AD2  0 .
+                7                                                     7 
+        AB2                                                         AB2         
+               0,25  7  3                                                 1,25 
+                                                                                                              L3
+               0,69  7  2,64 
+B 2.3 AD2                                                                  2,19 
+                                                                     
+                                                                      AD2                             3   K1
+              0,76  7  1,41                                               6,73 
+                                                                                                              K5
+
+
+         7   2,19 
+         1,25    6,73   6,92  0
+                        
+        Folglich ist die Raute AB2 C2D2 kein Quadrat.
+
+                     xDn  0,69x  2,64
+                                                                       I  IR  IR ; x  IR ; x  1,57
+                                                                       G
+                   yDn  0,76x  1,41
+
+                 …                                                                                            L4
+B 2.4           yDn  1,10xDn  4,32                                  I  IR  IR
+                                                                       G                                  3   K4
+                                                                                                              K5
+
+        Trägergraph: y  1,10x  4,32
+
+        Einzeichnen des Trägergraphen t
+
+        Einzeichnen der Raute AB3 C3D3
+
+                  0,69x  2,64  0                                     x  IR ; x  1,57
+                 …
+                 x  3,83                                             IL  3,83
+                                                                                                              L2
+        C3  3,83 0,6  3,83                                          C3  3,83 2,30                        L3
+B 2.5                                                                                                     5   K2
+                                                                                                              K4
+        A AB3C3D3  AD3  d  C3 ; AD3                                                                       K5
+
+
+                  AD3   0,76  3,83  1,41 LE                       AD3  4,32 LE
+
+                  d  C3 ; AD3   3,83 LE
+
+        A AB3C3D3  4,32  3,83 FE                                     A AB3C3D3  16,55 FE
+
+
+                                                                                                         17
+
+
+Hinweis: Bei einigen Teilaufgaben sind auch andere Lösungswege möglich. Für richtige andere Lösungen gelten die
+         jeweils angegebenen Punkte entsprechend; die Anzahl der Punkte bei den einzelnen Teilaufgaben darf jedoch
+         nicht verändert werden. Insbesondere sind Lösungswege, bei denen der (grafikfähige) Taschenrechner
+         verwendet wird, entsprechend ihrer Dokumentation bzw. ihrer Nachvollziehbarkeit zu bepunkten.
+
+         Bei der Korrektur ist zu beachten, dass die Vervielfältigung der Lösungsvorlage zu Verzerrungen der
+         Zeichnungen führen kann.
+
+
+
+
+                                                   Seite 6 von 6

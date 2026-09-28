@@ -1,0 +1,268 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 6 2022, Lösung mit Punktverteilung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2022/_B__2022_JT_Mathe_6_Loesung.pdf
+ABRUF: 2026-09-28
+SEITEN: 5
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+       JAHRGANGSSTUFENTEST 2022 IM FACH MATHEMATIK
+    FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+
+
+
+HINWEIS:
+    Bei formalen Mängeln soll großzügig verfahren werden.
+    Es werden nur ganze Punkte vergeben.
+
+
+BEWERTUNGSMAßSTAB:
+           Erreichte Punkte                  Note
+                21 – 17                       1
+                16 – 14                       2
+                13 – 11                       3
+                 10 – 8                       4
+                  7–5                         5
+                  4–0                         6
+
+
+ANMERKUNGEN:
+   Im Lösungsmuster ist zu jeder Aufgabe eine Zuordnung zu den
+   mathematischen Leitideen und den mathematischen Kompetenzen
+   angegeben. Aufgeführt sind jeweils die im Vordergrund stehenden
+   Leitideen und Kompetenzen, bezogen auf den dargestellten Lö-
+   sungsvorschlag.
+
+
+
+MATHEMATISCHE LEITIDEEN – PIKTOGRAMME:
+        ZAHL
+
+        MESSEN
+
+        RAUM UND FORM
+
+        FUNKTIONALER ZUSAMMENHANG
+
+        DATEN UND ZUFALL
+
+              JAHRGANGSSTUFENTEST 2022 IM FACH MATHEMATIK
+           FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+                         (ARBEITSZEIT: 45 MINUTEN)
+
+                                                 LÖSUNGSMUSTER
+
+
+1 Berechne.                                                                                  __/1
+    a) 8899 : 11 =                                            b) −9 ⋅ 3 + 33 =
+
+
+                                                                                             __/1
+                  809                                                        0
+
+
+
+  MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+2 Berechne.                                                                                  __/1
+    a) 25 ⋅ 7 ⋅ 4 =                                           b) 324 ⋅ 18 =
+
+
+                                                                                             __/1
+                  700                                                      5832
+
+
+
+  MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+3 Max hat ein Minuszeichen vergessen.                                                        __/1
+  Trage das Minuszeichen an der richtigen Stelle ein, so dass die Rechnung stimmt.
+          z. B.                  – 35)·( ___ 2) + ( ___ 200) = +130
+                              ( ___
+  MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+4 Multipliziert man zwei ganze Zahlen, so beträgt der Produktwert –144.                      __/1
+   Gib zwei mögliche Zahlen an.
+
+      z. B.           –2
+                   ________        72
+                            und ________
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+5 Übertrage die fünf abgebildeten Ziffernkarten                                              __/1
+  so auf die Platzhalter, dass die Differenz
+  am größten ist.
+                                                                                 2 3 5 8 9
+                                 9    8      5      –        2      3
+
+   PROBLEME MATHEMATISCH LÖSEN
+
+6 Mila ist in den Urlaub gefahren und hat 3 Hosen, 2 Gürtel und 4 Shirts                                         __/1
+  mitgenommen.
+   Wie viele verschiedene Möglichkeiten hat sie, diese Hosen, Gürtel und Shirts zu
+   kombinieren?
+
+
+
+               24
+   Mila hat ________ Möglichkeiten.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+7 Zu einem Handballspiel kamen auf Tausender gerundet 7000 Zuschauer.                                            __/1
+   Kreuze die größte Zuschauerzahl an, die zu dieser Rundung führt.
+
+     6499                6500             6501              7000              7499           7500
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+8 Die drei Geraden schneiden sich in einem Punkt.                                                                __/1
+  Gib das Winkelmaß α an.                                                                  40°
+
+                                                                                                      20°
+                                                                                             α
+
+         120 °
+   α = _______
+                                                                                 Die Skizze ist nicht maßtreu.
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+
+9 Ergänze die erste Zahl der Zahlenfolge.                                                                        __/1
+
+      16
+   ________ 12           24      20    40     36     72     68
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+10 Ein Flugzeug legt in einer Stunde durchschnittlich 900 km zurück.                                             __/1
+   Gib an, wie viele Minuten das Flugzeug für eine Strecke von 150 km benötigt.
+
+
+
+
+                                              10
+   Für 150 km benötigt es durchschnittlich ________ Minuten.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+11 Zeichne einen Winkel mit dem Maß α = 100° und markiere ihn.                                                   __/1
+
+                                                             α
+                 z. B.
+
+
+
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+12 Zeichne ein Koordinatensystem so, dass der                                     y
+                                                                                                                __/1
+   Punkt A (3 | 1) richtig eingezeichnet ist.
+                                                                                  2
+
+                                                          z. B.                  1
+                                                                                                        A
+
+                                                                                  O   1       2     3       x
+                                                                            –1
+                                                                                 –1
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+13 Die Katze Minka lebt in einem rechteckigen Garten. Der Garten ist 10 m breit und                             __/1
+   hat einen Umfang von 50 m.
+   Wie groß ist die Länge des Gartens? Kreuze an.
+
+
+
+
+     5m                10 m               15 m              30 m              40 m         500 m
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+14 Marlies liest in einem Lexikon über Giraffen:                                                                __/1
+   „Eine ausgewachsene Giraffe wiegt etwa 17-mal so viel wie bei der Geburt und
+   kann 35 Jahre alt werden. Von Kopf bis Fuß erreicht sie eine Höhe von 4,5 m.
+   Bei der Geburt wiegen Giraffenbabys ca. 50 kg und sind nach 6 Jahren
+   ausgewachsen.“
+   Bestimme mithilfe der Angaben aus dem Text, wie schwer eine ausgewachsene
+   Giraffe ist.
+
+
+
+
+                                             850
+   Eine ausgewachsene Giraffe wiegt etwa __________ kg.
+   KOMMUNIZIEREN
+
+
+15 Diese Landkarte zeigt eine Insel.                                                                            __/1
+   In Wirklichkeit sind die Orte Santa Lucia und
+   San Bartolomé ca. 5 km Luftlinie voneinander
+   entfernt.
+   Schätze den „Durchmesser“ der Insel ab.
+
+                                                                                          San Bartolomé
+
+                                                                                             Santa Lucia
+
+      Lösungsintervall: [55 km; 65 km]
+
+
+                                     60
+   Der „Durchmesser“ beträgt etwa ________ km.
+   MATHEMATISCH MODELLIEREN
+
+16 In den 6. Klassen einer Realschule                                                                                   __/1
+   hat ein Teil der Schülerinnen und
+   Schüler für die Pause etwas zu
+   essen mitgebracht, ein Teil nicht.
+   Die Hälfte der Kinder, die eine
+   Pausenverpflegung dabeihaben,
+   hat Obst dabei.
+   Ergänze im Diagramm den
+   fehlenden Balken.
+
+
+
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+
+17 Wie viele Ecken, Kanten und Flächen besitzt eine Pyramide mit quadratischer                                          __/1
+   Grundfläche?
+   Kreuze an.
+    4 Ecken, 6 Kanten, 4 Flächen
+    5 Ecken, 6 Kanten, 4 Flächen
+    8 Ecken, 12 Kanten, 6 Flächen
+    5 Ecken, 8 Kanten, 5 Flächen
+    4 Ecken, 8 Kanten, 5 Flächen
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+
+18 Auf vier verschiedenen Landkarten wurden unterschiedliche Straßenlängen                                              __/1
+   gemessen.
+   Kreuze die Straße an, die in Wirklichkeit am längsten ist.
+    Adrianstraße: 1 cm Länge auf der Karte mit dem Maßstab                                      1 : 12 500
+     Bertastraße:              2 cm Länge auf der Karte mit dem Maßstab                         1 : 10 000
+     Claudiastraße: 3 cm Länge auf der Karte mit dem Maßstab                                    1 : 7 500
+     Dimitristraße:            4 cm Länge auf der Karte mit dem Maßstab                         1 : 5 000
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+19 Simon berechnet den Flächeninhalt A der Figur:                                                                       __/1
+   A = 2 cm ∙ 10 cm + 9 cm ∙ 4 cm = 56 cm²
+   Beschreibe, welchen Fehler er gemacht hat.
+                                                                                                                 9 cm
+   ____________________________________                                                6 cm
+    Der Fehler muss beschrieben werden, z. B.:
+   ____________________________________
+    Er hat die Figur nicht richtig zerlegt und ei- 2 cm
+    nen Teil der Fläche doppelt berechnet.
+   ____________________________________
+                                                                                              10 cm
+   ____________________________________
+                                                                                 Die Skizze ist nicht maßtreu.
+   MATHEMATISCH ARGUMENTIEREN

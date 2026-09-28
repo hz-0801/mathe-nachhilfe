@@ -1,0 +1,206 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien, Aufgaben Gruppe A 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/BMT10_2023_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2023                                                                                  A
+
+
+         Bayerischer Mathematik-Test für die Jahrgangsstufe 10 der Gymnasien
+
+Name: __________________________________                  Note:                     _____
+
+Klasse: __________                                        Bewertungseinheiten: _____ / 21
+
+
+
+
+Aufgabe 1
+Bestimmen Sie für x ∈ IR die Lösungen der Gleichung 2x 2 + x − 10 =.
+                                                                   0
+
+
+
+
+                                                                                                /2
+
+
+
+Aufgabe 2
+Bei einer Untersuchung von Bäumen werden folgende Ereignisse betrachtet:
+T: „Der untersuchte Baum weist einen Schaden durch Trockenheit auf.“
+K: „Der untersuchte Baum weist einen Schaden durch Käferbefall auf.“
+In nebenstehender Vierfeldertafel sind die                             K        K
+Untersuchungsergebnisse für einen Waldbereich mit
+1000 Bäumen dargestellt.                                         T    300              400
+                                                                 T
+                                                                      500              1000
+
+a) Füllen Sie die Vierfeldertafel vollständig aus.                                              /1
+
+Einer der 1000 Bäume wird nun zufällig ausgewählt.
+
+b) Geben Sie die Wahrscheinlichkeit P ( T ∪ K ) in Prozent an.
+
+
+
+
+                                                                                                /1
+
+                                                             (       ) (    )
+c) Kreuzen Sie (nur) die Beschreibung an, die zum Ereignis T ∩ K ∪ T ∩ K passt.
+   ◯ „Der Baum weist keinen der beiden Schäden auf.“
+   ◯ „Der Baum weist genau einen der beiden Schäden auf.“
+   ◯ „Der Baum weist beide Schäden auf.“
+   ◯ „Der Baum weist mindestens einen der beiden Schäden auf.“                                  /1
+
+BMT10 2023                            Seite 2 (von 4)                                        A
+
+
+
+Aufgabe 3
+Die Abbildung zeigt den Graphen der in IR definierten
+Funktion f : x  x 2 .
+
+a) Beschreiben Sie allgemein, was man unter der
+   Wertemenge einer Funktion versteht, und geben Sie
+   die Wertemenge von f an.
+
+
+
+
+                                                                                                 /2
+
+b) Ermitteln Sie mithilfe geeigneter Eintragungen in der Abbildung einen Näherungswert für
+    3,5 .
+                                                                                                 /1
+
+c) Skizzieren Sie den Graphen der in IR definierten Funktion g : x  x 4 in der Abbildung.
+                                                                                                 /1
+
+
+
+Aufgabe 4
+
+                       2x − x 2
+Gegeben ist der Term            .
+                       2x − 4
+
+a) Begründen Sie, dass der Term nicht für alle reellen Zahlen definiert ist.
+
+
+
+
+                                                                                                 /1
+
+b) Kürzen Sie den Term so weit wie möglich.
+
+
+
+
+                                                                                                 /2
+
+BMT10 2023                              Seite 3 (von 4)                                        A
+
+
+
+Aufgabe 5
+Bei Feinstaubmessungen verwendet man die Einheit Mikrogramm (μg). Es gilt 1μg = 10− 6 g .
+a) In einem Klassenzimmer befinden sich 6000 μg Feinstaub. Geben Sie diesen Wert ohne
+   Potenzschreibweise in der Einheit Gramm an.
+
+                                                                                                   /1
+
+Die gezackte Linie in der
+Abbildung stellt für den Zeitraum
+von Januar 2013 bis
+Dezember 2020 die Monats-
+mittelwerte der Feinstaub-
+              μg
+belastung in 3 am Königsplatz
+             m
+in Augsburg dar.
+
+
+
+
+                                                            μg
+b) Im Jahr 2017 betrug der größte Monatsmittelwert 40     . Geben Sie an, um wie viel
+                                                      m3
+   Prozent der größte Monatsmittelwert im Jahr 2018 niedriger war als im Jahr 2017.
+
+                                                                                                   /1
+
+Die gestrichelte Linie in der Abbildung zeigt die grobe Entwicklung der Feinstaubbelastung
+ohne kurzfristige Schwankungen. Diese grobe Entwicklung wird modellhaft durch eine lineare
+Funktion f beschrieben. Dabei ist x die Zahl der Jahre, die seit dem Jahresbeginn 2013
+                                                        μg
+vergangen sind, und f ( x ) die Feinstaubbelastung in 3 .
+                                                       m
+c) Der Graph von f ist eine Gerade, die durch die Punkte ( 0 | 25 ) und ( 6 | 18 ) verläuft.
+   Bestimmen Sie rechnerisch eine Gleichung dieser Gerade.
+
+
+
+
+                                                                                                   /2
+
+d) Die Funktion f soll für eine Vorhersage der Entwicklung in den nächsten Jahren verwendet
+   werden. Beschreiben Sie, wie man mithilfe der Funktion f ermitteln könnte, wie viele Jahre
+   nach Beginn des Jahres 2013 diese Vorhersage erstmals eine Feinstaubbelastung von
+                   μg
+   weniger als 10 3 liefert.
+                   m
+
+
+
+
+                                                                                                   /1
+
+BMT10 2023                            Seite 4 (von 4)                                       A
+
+
+
+Aufgabe 6
+
+a) Geben Sie mithilfe der Abbildung einen Näherungs-
+   wert für sin 53° an.
+
+
+
+
+                                                                                                /1
+
+b) Es gilt sin 30° =0,5 . Begründen Sie, dass in einem rechtwinkligen Dreieck mit den
+   Kathetenlängen 8 cm und 15 cm und der Hypotenusenlänge 17 cm kein Innenwinkel die
+   Größe 30° hat.
+
+
+
+
+                                                                                                /1
+
+
+
+Aufgabe 7
+Ein DIN-A3-Blatt lässt sich durch einen Schnitt in zwei DIN-A4-Blätter zerlegen.
+In der Abbildung werden ein DIN-A3- und ein                    DIN A3              DIN A4
+DIN-A4-Blatt durch Rechtecke mit den Seiten-
+längen 2a und b bzw. b und a veranschaulicht.
+Die beiden Rechtecke sind zueinander ähnlich,
+                                                                                            b
+d. h., die Verhältnisse der Längen sich ent-
+sprechender Seiten stimmen überein.                     2a
+
+                      b
+Begründen Sie, dass     = 2 gilt.                                                    a
+                      a
+
+                                                                  b
+
+
+
+
+                                                                                                /2

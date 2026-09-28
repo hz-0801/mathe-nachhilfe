@@ -1,0 +1,183 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 6, Angabe 2024
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2024/2024_JT_Mathe_6_Angabe.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+                 JAHRGANGSSTUFENTEST 2024 IM FACH MATHEMATIK
+              FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+                            (ARBEITSZEIT: 45 MINUTEN)
+
+    NAME:                                                             NOTE:
+
+    KLASSE:   6 __________                                            PUNKTE: _________ /21
+
+
+1 Berechne.                                                                                   __/1
+      a) 9 + 11 ⋅ 7 =                           b) 13 =
+                                                      2
+
+
+
+
+                                                                                              __/1
+
+
+
+
+2 Berechne.                                                                                   __/1
+      a) 4 ⋅ 17 ⋅ 250 =                         b) − 43 + 26 =
+
+
+
+                                                                                              __/1
+
+
+
+
+3 Unter ANNA-Zahlen versteht man vierstellige Zahlen, bei denen die                           __/1
+  Tausender- und die Einerstelle sowie die Hunderter- und die Zehnerstelle
+  gleich sind.
+     Gib die kleinste ANNA-Zahl zwischen 2300 und 2700 an.        ______________
+
+4 Markiere die Zahl 318 000 an der Zahlengerade.                                              __/1
+
+
+
+
+       298 000               306 000
+
+
+5 Lea hat die Zahl 354 697 auf unterschiedliche Stellen gerundet.                             __/1
+     Kreuze die Zahl an, bei der sie richtig gerundet hat.
+       360 000          354 700        354 690          354 000            340 000
+
+
+6                                                                                             __/1
+     Gib den Nachfolger der Zahl – 999 an.     ___________
+
+7 Ergänze die beiden Lücken,                                                                           __/1
+    so dass die Rechnung stimmt.               _______    ∶ _______ = –70
+
+8                                                                                                      __/1
+    Gib eine vierstellige Zahl an, die durch 3 teilbar ist.     ________
+
+9 Franzi möchte aus einem rechteckigen                                                                 __/1
+                                                                                   h
+  Karton mit der Länge 60 cm eine
+  quaderförmige Schachtel basteln. Dazu hat
+  sie auf den Karton bereits das Netz des
+  Quaders gezeichnet (siehe Skizze).
+    Gib die Höhe h der Schachtel an.
+                                                                                               24 cm
+    Die Höhe h der Schachtel beträgt ________cm.
+                                                                              60 cm
+                                                              Die Skizze ist nicht maßtreu.
+
+
+
+
+10 Zeichne die zur Gerade AB senkrechte Gerade                                                         __/1
+   durch den Punkt D ein.                                                 D
+                                                                                       C
+                                                                                                  B
+
+
+
+                                                                      A
+
+
+11 Gegeben ist ein Kreis k mit seinem Mittelpunkt M                                                    __/1
+   und dem Radius r.                                              k
+    Zeichne einen Kreissektor ein,
+    dessen Mittelpunktswinkel das                                              M
+    Maß α = 100° hat, und markiere ihn.                                                    r
+
+
+
+
+12 Der abgebildete Würfel wurde aus kleinen Würfeln                                                    __/1
+   zusammengesetzt.
+   Der große Würfel wurde dann an seinen 6 Außenflächen
+   mit grauer Farbe angestrichen.
+    Wie viele der kleinen Würfel haben nun genau eine graue
+    Seitenfläche?
+    Ergänze die richtige Anzahl.
+
+    __________ kleine Würfel haben genau eine graue Seitenfläche.
+
+13 Wandle in Millimeter um.                                                            __/1
+
+
+   671 dm = __________ mm
+
+
+14 Carinas Vater will eine Wand vollständig mit Holz              368 cm               __/1
+   verkleiden und möchte die Bretter so anbringen,
+   wie es in der Skizze dargestellt ist.
+   Die Wand hat eine Breite von 368 cm.
+   Im Baumarkt gibt es Bretter mit passender Höhe,
+   aber verschiedenen Breiten.
+                                                       Die Skizze ist nicht maßtreu.
+   Welche Breite sollte Carinas Vater für alle Bretter
+   wählen, wenn er keines der Bretter zersägen möchte und keine Lücke zwischen
+   den Brettern bleiben soll?
+   Kreuze an.
+         9 cm         12 cm        16 cm       20 cm
+
+
+
+
+15 Als Max seinen Einkauf mit einem 20-Euro-Schein bezahlen                            __/1
+   möchte, fragt ihn die Kassiererin: „Hast du vielleicht noch               9,05 €
+   30 Cent?“                                                               + 4,10 €
+   Begründe mit Hilfe des Kassenzettels, warum die Kassiererin
+                                                                           + 2,15 €
+   dieses Geld zusätzlich haben möchte.
+                                                                           15,30 €
+   ________________________________________________________
+   ________________________________________________________
+   _________________________________________________________________________
+
+
+16 Ein Riesenrad hat 16 gleich große Gondeln (siehe Skizze).                           __/1
+   In 3 Gondeln gibt es zusammen 36 Sitzplätze.
+   Berechne, wie viele Sitzplätze das Riesenrad insgesamt hat.
+
+
+
+
+   Das Riesenrad hat insgesamt ________ Sitzplätze.
+
+17 Gib an, wie groß der Flächeninhalt A des                                             __/1
+   Blattes ungefähr ist, wenn ein Kästchen
+   einen Flächeninhalt von 1 cm² hat.
+
+
+
+
+   Der Flächeninhalt A des Blattes beträgt etwa _________ cm².
+
+18 Bei welcher Seitenlänge eines Quadrats erhält man für den Flächeninhalt A und den    __/1
+   Umfang u die gleiche Maßzahl?
+   Kreuze an.
+           2 cm        3 cm         4 cm        5 cm
+
+
+19 Das Diagramm zeigt das Ergebnis einer                                                __/1
+   Umfrage unter den Schülerinnen und
+   Schülern der 6. Klassen einer Realschule.
+   Sie wurden gefragt, wie viele Stunden sie
+   durchschnittlich pro Nacht schlafen.
+   Dabei haben 56 Kinder angegeben,
+   10 Stunden zu schlafen.
+
+
+
+
+   Vervollständige folgende Aussage.
+   An der Umfrage haben insgesamt _________ Schülerinnen und Schüler
+   teilgenommen.
+
+                                                                         Viel Erfolg!

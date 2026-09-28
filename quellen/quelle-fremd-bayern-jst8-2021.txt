@@ -1,0 +1,205 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 8, Wahlpflichtfächergruppe II/III, Angabe 2021
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2021/2021_jt_mathe_8_ii_angabe.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+                 JAHRGANGSSTUFENTEST 2021 IM FACH MATHEMATIK
+              FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+                         WAHLPFLICHTFÄCHERGRUPPE II/III
+                            (ARBEITSZEIT: 45 MINUTEN)
+
+    NAME:                                                         (NOTE:)
+    KLASSE:   8 __________                                        PUNKTE: _________ /21
+
+1 Berechne.                                                                                   __/1
+      a) 931 : 929 =                                b) ( −2)3 =
+
+
+                                                                                              __/1
+
+
+
+
+2 Berechne den Wert der Determinante.                                                         __/1
+      2 3
+          =
+      5 8
+
+
+
+3 Für das Parallelogramm ABCD gilt:                                                           __/1
+     
+       →   4  
+                  →    2   
+                               →    −2 
+     AB =   ; BC =   ; DA =   .
+           1        3           −3 
+                                            
+                                              →
+     Gib die Koordinaten des Pfeils CD an.
+
+     
+       →          
+     CD =         
+                  
+              ___________
+
+
+4                         
+                            →       1
+                                                              y
+     Zeichne den Pfeil AB =            in das            4                                __/1
+                                    −2 
+     Koordinatensystem ein.                                  3
+
+                                                             2
+                                                                      A
+                                                             1
+
+                                                             O    1       2   3   4       x
+
+5 Cem hat sich von Alex 1500 € ausgeliehen und dafür 45 € Zinsen gezahlt.                     __/1
+   Berechne den Zinssatz, den Alex dafür verlangt hat.
+
+
+
+
+   Alex hat ______ % Zinsen verlangt.
+
+
+6 Gib das Winkelmaß β an.                                                           g         __/1
+                                                                          70°
+  Es gilt: g || h.
+
+
+
+                                                                      β
+  β = ______ °                                                  50°                 h
+                                                   Die Skizze ist nicht maßtreu.
+
+7 In einem Laden wirbt der Besitzer: „Wir bieten Ihnen 20 % Rabatt auf alles“. Im             __/1
+  Schaufenster hängt eine Jeans mit einem bereits reduzierten Preis von 48 €.
+   Berechne den ursprünglichen Preis der Hose.
+
+
+
+
+   Die Hose kostete ursprünglich ________ €.
+
+
+8 Kreuze den Term an, dessen Wert –1 ergibt.                                                  __/1
+     (–1)0              – (–1)1             (–1)2               (–1)3
+
+
+9 Es soll der Flächeninhalt A des        y                                                    __/1
+  Parallelogramms ABCD (siehe Abbildung)
+                                         3                                              C
+  berechnet werden.                                         D
+  Ergänze die Lücken in der Determinante.      2
+
+                                               1                                B
+      4 __
+   A=      FE
+      1 __                                             A
+                                               O        1   2    3     4        5       6 x
+
+10                                                             →                            __/1
+     Bei der Parallelverschiebung der Figur mit dem Vektor v sind Fehler unterlaufen
+     (siehe Abbildung).
+     Gib eine Treueeigenschaft der Parallelverschiebung
+     an, die nicht mehr zutrifft.
+
+
+
+     __________________________________________                            →
+                                                                            v
+
+11 Berechne die Koordinaten des Mittelpunkts M der Strecke AB mit A (50 | 3) und            __/1
+     B (4 | 80).
+
+
+
+
+                                                                     M ( _____ | _____ )
+
+
+12 Gib die Lösungsmenge L der Gleichung an: 16x – 15 – 8x = 1 (G = Q
+                                                                   I ).                     __/1
+
+
+
+
+                                                                          L = { _______ }
+
+
+13 Ermittle den Mittelpunkt M des Kreises k                                                 __/1
+   mithilfe des Dreiecks ABC.                         C
+   Es gilt: A, B, C ∈ k.
+
+                                                                                 B
+
+
+                                                                             k
+                                                  A
+
+
+
+14 Gib zu der unten dargestellten Wertetabelle einen möglichen Term an (G = Q
+                                                                            I ).            __/1
+           x         0           1            2           3           4              5
+         T(x)        –7          –6         –5            –4          –3             –2
+
+     T(x) = ___________________
+
+
+15 Kreuze die beiden zueinander äquivalenten Terme an (G = Q
+                                                           I ).                             __/1
+      9x² + 27            6x² + 18         9x² + 3               3² · (x² + 3)
+
+16 Zeichne alle Punkte P n ein,                                                               __/1
+   die eine Entfernung von weniger
+   als 2,5 cm vom Punkt A haben.
+
+                                                                      A
+
+
+
+
+17 Zeichne alle Punkte P n ein,                                                               __/1
+   die von den
+                                                                              R
+   Halbgeraden [QR und [QS
+   den gleichen Abstand haben.
+
+
+
+                                                            S
+                                                                                      Q
+
+
+
+18 Welche Ungleichung passt zum Text (G = ZZ )?                                               __/1
+   Kreuze an.
+   „Das Dreifache einer ganzen Zahl ist mindestens so groß wie die Summe aus – 4
+   und 12.“
+     3x < – 4 + 12        3x > – 4 + 12        3x ≤ – 4 + 12        3x ≥ – 4 + 12
+
+19 Gib die Lösungsmenge L zur Ungleichung an (G = Q
+                                                  I ).                                        __/1
+                 – 6x + 6x – 8 < – 4
+           ⇔              –8 < – 4
+
+
+   L = _________________
+
+
+20 Kreuze den Graphen an, der eine indirekte Proportionalität darstellt.                      __/1
+     y                     y                     y                        y
+
+
+
+
+     O                x    O                x    O                x       O               x
+                                                                               

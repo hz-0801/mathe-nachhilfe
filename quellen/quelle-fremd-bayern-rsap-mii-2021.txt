@@ -1,0 +1,248 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin, Angaben 2021
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2021/2021_mii_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Prüfungsdauer:              Abschlussprüfung 2021
+ 150 Minuten                      an den Realschulen in Bayern
+
+                                         Mathematik II
+
+
+Name: _______________________________              Vorname: _______________________________
+
+Klasse: ____________               Platznummer: ____________                 Punkte: ____________
+
+            Aufgabe A 1                                                      Haupttermin
+
+A 1.0 Die nebenstehende Skizze zeigt die Figur, die
+      durch die Strecken  AB und  AC  sowie den
+                  mit dem Mittelpunkt M und dem
+      Kreisbogen BC                                                  C
+       Radius r  MB begrenzt wird.
+       Es gilt:
+       AD  2 cm ; MA  MB  MC  5 cm ; MDC  90.
+
+       Runden Sie im Folgenden auf zwei Stellen nach           A         D      M              B
+       dem Komma.
+
+                                                                            .
+A 1.1 Berechnen Sie das Maß des Winkels CMD und die Länge b des Kreisbogens BC
+      Teilergebnis: CMD  53,13
+
+
+
+
+                                                                                              3P
+A 1.2 Ermitteln Sie rechnerisch den Flächeninhalt der Figur aus A 1.0.
+
+
+
+
+                                                                                             2P
+
+          Aufgabe A 2                                               Haupttermin 2021
+
+A 2.0 Gegeben sind die Parabel p mit der Gleichung y  0,25x2  3x  8 und die Gerade g
+      mit der Gleichung y   0,25x  6,5. Es gilt: G
+                                                    I  IR  IR .
+      Die Punkte A und B sind die Schnittpunkte der Parabel p und der Gerade g.
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+               y
+
+
+
+
+                     A
+
+
+                                                                               p
+               5
+
+                                                                           B
+                                                                               g
+
+
+
+
+               1
+
+
+               O       1                        5                     10           x
+
+
+
+A 2.1 Berechnen Sie die Koordinaten der Punkte A und B.
+
+
+
+
+                                                                                          3P
+
+          Aufgabe A 2                                                       Haupttermin 2021
+
+
+                                    
+A 2.2 Punkte Pn x 0,25x 2  3x  8 auf p und Punkte Qn  x  0,25x  6,5  auf g haben die-
+      selbe Abszisse x. Für die Strecken PnQn  gilt: y Q n  yPn . Die Mittelpunkte Mn der
+      Strecken PnQn  sind zugleich Mittelpunkte von Kreisen k n mit den Durch-
+      messern PnQn .
+      Zeichnen Sie die Strecke PQ
+                                 1 1  sowie den Mittelpunkt M1 und den Kreis k1 mit dem
+
+                   1 1 für x  7 in das Koordinatensystem zu A 2.0 ein.
+      Durchmesser PQ                                                                           2P
+
+A 2.3 Zeigen Sie rechnerisch, dass für die Länge der Strecken PnQn  in Abhängigkeit von
+      der Abszisse x der Punkte Pn gilt: PnQn  x     0,25x2  2,75x  1,5  LE .
+
+
+
+
+                                                                                               1P
+A 2.4 Unter den Kreisen kn gibt es einen Kreis k 0 mit maximalem Umfang umax .
+      Berechnen Sie umax .
+
+
+
+
+                                                                                               2P
+A 2.5 Ein Kreis k 3 hat den 4-fachen Durchmesser eines Kreises k 2 .
+      Hat k 3 dann den 16-fachen Flächeninhalt von k 2? Begründen Sie Ihre Antwort.
+
+
+
+
+                                                                                               2P
+
+         Aufgabe A 3                                              Haupttermin 2021
+
+A3   Die nebenstehende Skizze zeigt den
+     Axialschnitt ABCDEF eines Körpers mit
+     der Rotationsachse GK. Der Punkt G ist               F                      C
+                                                                      K
+     der Schnittpunkt der Geraden CD und FE.
+
+     Es gilt:                                                 E       H    D
+     AB  CF  5 cm ; AF  BC  4 cm ;
+                                                                      G
+     ED  2,4 cm ; GFK  50 ;
+      AF GK  BC.                                    A                      B
+
+     Berechnen Sie das Volumen des Rotationskörpers auf zwei Stellen nach dem
+     Komma gerundet.
+     Zwischenergebnisse: GK  2,98 cm ; GH  1,43 cm 
+                                                     
+
+
+
+
+                                                                                     5P
+
+ Prüfungsdauer:              Abschlussprüfung 2021
+ 150 Minuten                       an den Realschulen in Bayern
+
+                                           Mathematik II
+
+           Aufgabe B 1                                                   Haupttermin
+
+B 1.0 Die nebenstehende Skizze zeigt das                       D
+      Fünfeck ABCDE.
+
+       Es gilt:                                     E
+       AB  7 cm ; AE  8 cm ; DE  4 cm ;
+       CE  11cm ; CD  9 cm ;                                                         C
+       BAE  90 ; AED  128.
+
+       Runden Sie im Folgenden auf zwei
+       Stellen nach dem Komma.
+
+                                                    A                      B
+
+B 1.1 Zeichnen Sie das Fünfeck ABCDE sowie die Strecken BE und CE .
+
+       Berechnen Sie sodann die Länge der Strecke BE und das Maß des Winkels AEB.
+
+       Teilergebnisse: BE  10,63 cm ; AEB  41,19                                     4P
+                                                    
+
+B 1.2 Ermitteln Sie durch Rechnung den Flächeninhalt des Vierecks ABCE.
+
+       Zwischenergebnis: BEC  36,33                                                 4P
+
+B 1.3 Zeigen Sie rechnerisch, dass für die Länge der Strecke BC und das Maß des
+       Winkels ECB gilt: BC  6,75 cm ; ECB  68,90.                                     2P
+
+B 1.4 Die Punkte F  CE und G  BE legen die Strecke FG fest, wobei gilt:
+       FG BC und CF  3 cm .
+       Ergänzen Sie die Strecke FG in der Zeichnung zu B 1.1 und berechnen Sie den
+       Flächeninhalt des Vierecks BCFG.                                                    4P
+
+B 1.5 Ein Kreis mit dem Mittelpunkt A berührt die Strecke BE  im Punkt R. Er schneidet
+       die Strecke  AB  im Punkt Q und die Strecke  AE im Punkt S.
+                                    und den Punkt R in die Zeichnung zu B 1.1 ein.
+       Zeichnen Sie den Kreisbogen QS
+       Ermitteln Sie sodann rechnerisch den Flächeninhalt des Sektors, der von den
+       Strecken  AQ  und  AS sowie dem Kreisbogen QS
+                                                       begrenzt wird.
+
+                                      
+       Zwischenergebnis: AR  5,27 cm                                                    3P
+
+                                             Bitte wenden!
+
+ Prüfungsdauer:                  Abschlussprüfung 2021
+ 150 Minuten                          an den Realschulen in Bayern
+
+                                               Mathematik II
+
+           Aufgabe B 2                                                       Haupttermin
+
+B 2.0 Die nebenstehende Skizze zeigt ein Schrägbild                                       S
+       der Pyramide ABCS mit der Höhe MS , deren
+       Grundfläche das gleichschenklige Dreieck ABC
+       ist. M ist der Mittelpunkt der Basis BC .
+
+       Es gilt: AM  9 cm ; BC  12 cm ; MS  10 cm .
+                                                                                              C
+
+       Runden Sie im Folgenden auf zwei Stellen nach                    A                 M
+       dem Komma.
+                                                                                      B
+
+B 2.1 Zeichnen Sie das Schrägbild der Pyramide ABCS, wobei die Strecke  AM auf der
+       Schrägbildachse und der Punkt A links vom Punkt M liegen soll.
+                                  1
+       Für die Zeichnung gilt: q = ;  = 45°.                                                     2P
+                                  2
+
+B 2.2 Berechnen Sie die Länge der Strecke  AS , das Maß des Winkels MAS sowie das
+       Volumen der Pyramide ABCS.
+       Ergebnisse: AS  13,45 cm ; MAS  48,01 ; VABCS  180 cm3                              3P
+                                                                   
+
+B 2.3 Für den Punkt D   AS gilt: AD  4 cm .
+       Zeichnen Sie die Strecke DM in das Schrägbild zu B 2.1 ein und berechnen Sie
+       das Maß des Winkels DMA.                                                                   3P
+
+B 2.4 Für Punkte Rn auf der Strecke MS gilt: SRn  x cm  x  IR ; 0  x  10  .
+       Parallelen zur Strecke BC durch die Punkte Rn schneiden die Strecke BS in den
+       Punkten Pn und die Strecke CS in den Punkten Qn . Die Dreiecke PnMQn sind die
+       Grundflächen von Pyramiden PnMQnD mit der Höhe DF , wobei F  MS gilt.
+       Zeichnen Sie die Pyramide PMQ
+                                  1 1D und die Höhe DF  für x  5 in das Schrägbild
+
+       zu B 2.1 ein.                                                                              2P
+
+B 2.5 Zeigen Sie rechnerisch, dass für das Volumen V der Pyramiden PnMQnD in
+       Abhängigkeit von x gilt: V  x    1,26x 2  12,64x  cm3 .
+                                      
+       Zwischenergebnis: DF  6,32 cm                                                           4P
+
+B 2.6 Es gibt Pyramiden P2MQ2D und P3MQ3D , deren Volumen jeweils um 90% kleiner
+       ist als das Volumen der Pyramide ABCS.
+       Berechnen Sie die zugehörigen x-Werte.                                                     3P
+
+                                                Bitte wenden!

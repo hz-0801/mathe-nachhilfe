@@ -1,0 +1,381 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin, Angaben 2025
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2025/2025_mii_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit            Abschlussprüfung 2025
+Aufgabengruppe A:
+                                  an den Realschulen in Bayern
+    35 Minuten
+
+                                         Mathematik II
+                                    taschenrechnerfreier Teil
+
+Name: _____________________________                 Vorname: _____________________________
+
+Klasse: ________                     Platznummer: ________                 Punkte: ________ / 11,5
+
+         Aufgabengruppe A                                                Haupttermin
+
+A 1.0 An einer Realschule wählen die Mädchen („M“) und Jungen („J“) der Jahrgangsstufe 6
+      ihre Wahlpflichtfächergruppe. Einige der Kinder entscheiden sich für die
+      Wahlpflichtfächergruppe III a („IIIa“), alle anderen entscheiden sich nicht für die
+      Wahlpflichtfächergruppe III a („nIIIa“). Das Baumdiagramm zeigt die jeweiligen Anteile.
+
+
+                                 60 %                        40 %
+
+                            M                                        J
+
+                30 %                 70 %               20 %                  80 %
+
+              IIIa                      nIIIa         IIIa                      nIIIa
+
+A 1.1 Für die Schülerzeitung wird ein zufällig ausgewähltes Kind der Jahrgangsstufe 6 zu
+      seiner Wahl befragt.
+      Bestätigen Sie rechnerisch: Es ist mit einer Wahrscheinlichkeit von 26 % ein Kind
+      ausgewählt worden, das sich für die Wahlpflichtfächergruppe III a entschieden hat.
+
+
+
+
+                                                                                                2P
+
+A 1.2 An dieser Schule besuchen 150 Kinder die Jahrgangsstufe 6.
+      Geben Sie an, wie viele dieser Kinder sich für die Wahlpflichtfächergruppe III a
+      entschieden haben.
+
+
+
+
+                                                                                                1P
+
+         taschenrechnerfreier Teil
+
+         Aufgabengruppe A                                                     Haupttermin 2025
+
+A 2.0 Die Parabel p mit dem Scheitelpunkt S  2 3  verläuft durch den Punkt P  0 1 . Sie hat
+
+                                                    yS  a,x,y  IR; a  0  .
+                                                   2
+       eine Gleichung der Form y  a  x  xS
+
+A 2.1 Zeigen Sie, dass gilt: a   0,5 .
+
+
+
+
+                                                                                                   2P
+
+A 2.2 Zeichnen Sie die Parabel p für x  1; 5 in das Koordinatensystem ein.
+
+
+
+
+                                               5
+
+
+
+
+                                               1
+
+
+              5                               O       1                        5
+
+
+
+                                                                                                  1,5 P
+
+A 2.3 Kreuzen Sie an, welche Gleichung ebenfalls die Parabel p beschreibt.
+             y  0,5x2  2x  3
+             y   0,5x2  2x  3
+             y  0,5x2  2x  1
+             y   0,5x2  2x  1                                                                 1P
+
+
+
+         taschenrechnerfreier Teil
+
+       Aufgabengruppe A                                                  Haupttermin 2025
+
+A3   Die Parabel q ist der Graph der Funktion f: y  2x2  4x  8  x, y  IR  .
+     Berechnen Sie die y-Koordinate des Scheitelpunktes der Parabel q.
+     Geben Sie sodann die Wertemenge der Funktion f an.
+
+
+
+
+                                                                                            2P
+
+
+
+                                                                        C
+A4   Die nebenstehende Skizze zeigt eine
+     Raute ABCD, für die gilt: BAD  120.
+     Begründen Sie, dass gilt: AC  AD .            D                                 B
+
+
+
+                                                                        A
+
+
+
+
+                                                                                            2P
+
+
+
+
+       taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2025
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2025
+  170 Minuten                  an den Realschulen in Bayern
+
+                               Mathematik II – Haupttermin
+
+
+
+
+Prüfungsdauer: 170 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+35 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11,5            _____ / 11,5
+
+
+                              Aufgabe B 1:    _____ / 5               _____ / 5
+
+
+                              Aufgabe B 2:    _____ / 6               _____ / 6
+
+
+                              Aufgabe B 3:    _____ / 15,5            _____ / 15,5
+
+
+                              Aufgabe B 4:    _____ / 16              _____ / 16
+
+
+                                 Gesamt:      _____ / 54              _____ / 54
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+        Aufgabengruppe B                                            Haupttermin 2025
+
+B 1.0 In einer Schale liegen 20 Schokoladenkugeln, die sich nur durch die Füllungen
+      unterscheiden. Sechs Kugeln sind mit Nougat („N“), fünf mit Krokant („K“) und die
+      anderen mit Marzipan („M“) gefüllt.
+
+B 1.1 Wilma hat sich zwei zufällig ausgewählte Kugeln genommen und isst sie.
+      Vervollständigen Sie das dazugehörige Baumdiagramm.
+
+
+
+                              6
+                              20
+
+
+                 N
+
+
+
+
+                                                                                              2P
+
+B 1.2 Wilma mag kein Marzipan.
+      Berechnen Sie die Wahrscheinlichkeit dafür, dass Wilma keine Kugel mit Marzipan-
+      füllung gegessen hat.
+
+
+
+
+                                                                                              2P
+
+B 1.3 Wilma hatte Glück, weil in ihren beiden Kugeln kein Marzipan war.
+      Jetzt nimmt ihr Bruder Fred eine ebenfalls zufällig ausgewählte Kugel aus der Schale.
+      Geben Sie die Wahrscheinlichkeit dafür an, dass diese Kugel mit Marzipan gefüllt ist.
+
+
+
+
+                                                                                              1P
+
+        Aufgabengruppe B                                            Haupttermin 2025
+
+B 2.0 Die Staatsverschuldung eines Landes A lag am 01.01.2025 bei 1600 Milliarden Euro.
+      Man nimmt an, dass die Entwicklung der Staatsverschuldung dieses Landes
+                                                                     
+      näherungsweise mithilfe der Funktion f: y  1600 1,03x x,y  IR0 dargestellt werden
+      kann. Dabei gibt x die Anzahl der Jahre seit dem 01.01.2025 und y die
+      Staatsverschuldung in Milliarden Euro an.
+      Runden Sie im Folgenden auf Ganze.
+
+B 2.1 Geben Sie an, um wie viel Prozent die Staatsverschuldung entsprechend der
+      Funktion f jährlich zunimmt.
+
+
+
+                                                                                              1P
+
+B 2.2 Berechnen Sie die Staatsverschuldung laut der Funktion f am 01.01.2045.
+
+
+
+
+                                                                                              2P
+
+B 2.3 Berechnen Sie, nach wie vielen Jahren sich die Staatsverschuldung im Vergleich zum
+      01.01.2025 laut der Funktion f erstmals vervierfacht haben wird.
+
+
+
+
+                                                                                              2P
+
+B 2.4 Die Staatsverschuldung des Landes B war am 01.01.2025 halb so groß wie die
+      des Landes A, es wird aber die gleiche jährliche prozentuale Zunahme angenommen.
+      Kreuzen Sie die Aussage an, die laut der Annahmen für den 01.01.2032 zutrifft.
+       Die Staatsverschuldung des Landes B ist weniger als halb so groß wie die
+        des Landes A.
+       Die Staatsverschuldung des Landes B ist immer noch halb so groß wie die
+        des Landes A.
+       Die Staatsverschuldung des Landes B ist mehr als halb so groß wie die
+        des Landes A.
+       Keine der vorherigen Aussagen trifft zu.                                              1P
+
+
+  Prüfungsdauer:              Abschlussprüfung 2025
+   170 Minuten                     an den Realschulen in Bayern
+
+                                             Mathematik II
+
+            Aufgabe B 3                                                    Haupttermin
+
+                                                                 D               C
+B 3.0 Nebenstehende Skizze zeigt das Trapez ABCD
+      mit AB  CD und der Höhe DE .
+
+      Es gilt: AB  12 cm; BC  10 cm;
+              CBA  65; DBA  40.
+      Runden Sie im Folgenden auf zwei Stellen nach
+      dem Komma.                                             A                            B
+                                                                 E
+
+B 3.1 Zeichnen Sie das Trapez ABCD sowie die Diagonale BD und die Höhe DE .
+      Begründen Sie sodann, warum für das Maß des Winkels DCB gilt: DCB  115 .               3P
+
+B 3.2 Ermitteln Sie rechnerisch die Längen der Strecken CD und BD .
+      Ergebnisse: CD  6,57 cm; BD  14,10 cm                                                 3P
+                                                  
+
+B 3.3 Berechnen Sie die Länge der Strecke DE und den Flächeninhalt des Trapezes ABCD.
+       Teilergebnis: A       84,12 cm2                                                       2P
+                       ABCD             
+
+B 3.4 Punkte G n liegen auf der Strecke BC mit CG n  x cm  x  IR; 0  x  10  .
+      Kreise mit dem Mittelpunkt B und den Radien rn  BG n          schneiden die Strecke AB
+      in Punkten Hn .
+                                                                           
+      Zeichnen Sie für x  2 den Punkt G1 sowie den zugehörigen Kreisbogen G     mit
+                                                                             1H1
+      dem Mittelpunkt B in die Zeichnung zu B 3.1 ein.
+                                                                          
+      Begründen Sie sodann, weshalb der Punkt E auf keinem der Kreisbögen G n H n liegt.        3P
+
+B 3.5 Durch die Strecken BG n und BHn sowie die Kreisbögen G          
+                                                                       n H n werden Kreis-
+      sektoren begrenzt.
+      Zeigen Sie, dass für den Flächeninhalt dieser Kreissektoren in Abhängigkeit von x gilt:
+                                      
+       A  x   0,57x2  11,34x  56,72 cm2 .                                                  2P
+
+B 3.6 Berechnen Sie, für welche Belegung von x der Flächeninhalt des zugehörigen
+      Kreissektors halb so groß wie der Flächeninhalt des Trapezes ABCD ist.     2,5 P
+
+
+
+
+                                             Bitte wenden!
+
+  Prüfungsdauer:                 Abschlussprüfung 2025
+   170 Minuten                         an den Realschulen in Bayern
+
+                                              Mathematik II
+
+             Aufgabe B 4                                                   Haupttermin
+
+                                                                                  S
+B 4.0 Die nebenstehende Skizze zeigt ein Schrägbild der
+      Pyramide ABCDS mit der Höhe MS , deren Grundfläche
+      das Quadrat ABCD mit dem Diagonalenschnittpunkt M ist.
+
+      Es gilt: AC  12 cm; MS  8,5 cm.                                               D
+      Runden Sie im Folgenden auf zwei Stellen nach               A                           C
+      dem Komma.                                                                  M
+                                                                           B
+B 4.1 Zeichnen Sie das Schrägbild der Pyramide ABCDS, wobei die Strecke AC auf der
+      Schrägbildachse und der Punkt A links vom Punkt C liegen soll.
+
+      Für die Zeichnung gilt: q  1 ;   45 .
+                                  2
+      Berechnen Sie sodann die Länge der Strecke AS sowie das Maß des Winkels MAS.
+       Teilergebnisse: AS  10,40 cm; MAS  54,78                                               4P
+                                                   
+
+B 4.2 Für Punkte Pn  AS gilt: SPn  x   x cm  x  IR; 0  x  10,40  . Sie sind die Spitzen
+      von Pyramiden AMDPn mit den Höhen Pn H n .
+
+      Zeichnen Sie für x  5 die Pyramide AMDP1 und die Höhe P1H1 in das Schrägbild zu
+      B 4.1 ein.
+      Berechnen Sie sodann die Länge der Strecke MP1 sowie den Flächeninhalt des
+      Dreiecks AMP1.                                                                                4P
+
+B 4.3 Zeigen Sie, dass für das Volumen der Pyramiden AMDPn in Abhängigkeit von x gilt:
+       V  x     4,92x  51,00  cm3 .
+      Unter den Pyramiden AMDPn hat die Pyramide AMDP0 das maximale Volumen.
+      Geben Sie den zugehörigen Wert von x sowie das maximale Volumen an.                           4P
+
+B 4.4 Die Pyramide AMDP2 hat ein Volumen von 35 cm3 .
+      Berechnen Sie den zugehörigen Wert von x.
+
+      Geben Sie sodann das Intervall für x an, so dass gilt: V  x   35 cm3 .                    2,5 P
+
+B 4.5 Die Höhe der Pyramide AMDP3 ist halb so lang wie die Höhe der Pyramide ABCDS.
+      Begründen Sie, weshalb das Volumen der Pyramide ABCDS achtmal so groß wie das
+      Volumen der Pyramide AMDP3 ist.                                                              1,5 P
+
+
+
+                                              Bitte wenden!

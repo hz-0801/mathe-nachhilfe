@@ -1,0 +1,390 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin, Angaben 2025
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2025/2025_mi_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk (nur Bildnachweis „© Clipdealer.com“ zu einer Abbildung)
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit           Abschlussprüfung 2025
+Aufgabengruppe A:
+                                 an den Realschulen in Bayern
+    35 Minuten
+
+                                        Mathematik I
+                                   taschenrechnerfreier Teil
+
+Name: _____________________________                  Vorname: _____________________________
+
+Klasse: ________                    Platznummer: ________              Punkte: ________ / 11,5
+
+        Aufgabengruppe A                                             Haupttermin
+
+
+A 1.0 Martina kümmert sich um die Wohnungen
+      und die Briefkästen ihrer Nachbarn, wenn
+      diese im Urlaub sind. Sie erhält deshalb von
+      jedem ihrer fünf Nachbarn jeweils einen
+      großen Wohnungs- und einen kleinen
+      Briefkastenschlüssel. Die Schlüssel sind
+      nicht beschriftet. Deshalb kann Martina
+      keiner Wohnung und keinem Briefkasten den
+                                                                             © Clipdealer.com
+      jeweils passenden Schlüssel zuordnen.
+
+      Martina möchte die Post ihres Nachbarn Stephan in dessen Wohnung bringen. Dazu
+      nimmt sie von den zehn Schlüsseln der Nachbarn einen zufällig ausgewählten
+      Wohnungsschlüssel und einen zufällig ausgewählten Briefkastenschlüssel.
+
+A 1.1 Geben Sie an, mit welcher Wahrscheinlichkeit beide Schlüssel passen.
+
+
+
+
+                                                                                                 1P
+
+A 1.2 Bestimmen Sie, mit welcher Wahrscheinlichkeit genau einer der beiden Schlüssel
+      passt.
+
+
+
+
+                                                                                                1,5 P
+
+
+
+
+        taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                                         Haupttermin 2025
+
+A 2.0 Gegeben sind gleichschenklige Dreiecke ABnCn mit den Basen ABn .
+      Die Winkel BnACn haben das Maß  mit    0;90  .
+
+      Es gilt: ACn  4 cm .
+      Die untenstehende Zeichnung zeigt das Dreieck AB1C1 für   40 .
+
+
+
+                                                                     B1
+
+
+
+
+                                                 C1
+
+
+
+
+                                                                M
+                                                                     A
+
+
+A 2.1 Ergänzen Sie in der Zeichnung zu A 2.0 das Dreieck AB2C2 für   75 .                         1P
+
+A 2.2 In den Dreiecken ABnCn gilt für den Abstand a der Punkte Cn zur Geraden ABn :
+      a  x cm  x  IR  .
+      Kreuzen Sie das passende Intervall für x an.
+       0;       0;       0;4       0;4         0;4      0;4          1P
+
+A 2.3 Die Dreiecke ABnCn rotieren um die Gerade ABn .
+      Zeigen Sie, dass für den Oberflächeninhalt O der entstehenden Rotationskörper in
+      Abhängigkeit von  gilt: O     32    sin  cm2 .
+
+
+
+
+                                                                                                    2,5 P
+
+        taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                         Haupttermin 2025
+
+A 2.4 Durch Rotation des Dreiecks AB3C3 um die Gerade AB3 entsteht ein Rotations-
+      körper mit einem Oberflächeninhalt von 16   cm2 .
+      Bestimmen Sie das zugehörige Maß für  .
+
+
+
+
+                                                                                           1,5 P
+
+
+A 3.0 Die Skizze zeigt das rechtwinklige Dreieck ABC mit der Hypotenuse AB und dem
+      Schwerpunkt S. Die Gerade BS schneidet die Seite AC im Punkt M.
+      Es gilt: AC  8 3 cm; BC  4 cm.
+
+                                                  M
+                  A                                                          C
+
+
+                                                            S
+
+
+
+                                                                            B
+
+A 3.1 Begründen Sie ohne zu messen, dass der Punkt M der Mittelpunkt der Strecke AC ist.
+
+
+
+
+                                                                                            1P
+
+A 3.2 Bestimmen Sie mithilfe einer Rechnung das Maß des Winkels CBM.
+
+
+
+
+                                                                                            2P
+
+        taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2025
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2025
+  170 Minuten                  an den Realschulen in Bayern
+
+                                Mathematik I – Haupttermin
+
+
+
+
+Prüfungsdauer: 170 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+35 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11,5            _____ / 11,5
+
+
+                              Aufgabe B 1:    _____ / 5               _____ / 5
+
+
+                              Aufgabe B 2:    _____ / 6,5             _____ / 6,5
+
+
+                              Aufgabe B 3:    _____ / 16              _____ / 16
+
+
+                              Aufgabe B 4:    _____ / 14,5            _____ / 14,5
+
+
+                                 Gesamt:      _____ / 53,5            _____ / 53,5
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+        Aufgabengruppe B                                              Haupttermin 2025
+
+B 1.0 Fünftklässler bemalen für die Abschlussprüflinge ihrer Schule kleine Schachteln mit
+      roter („r“), blauer („b“), grüner („g“) oder weißer („w“) Farbe und befüllen jede
+      Schachtel mit einer Süßigkeit. Für die Befüllung stehen Süßigkeiten in den drei
+      Geschmacksrichtungen Apfel („A“), Birne („B“) oder Mango („M“) zur Verfügung.
+      Das Baumdiagramm zeigt entsprechende Anteile. Es gilt: p  IR .
+
+
+
+                            40 %       30 %    p%
+
+
+              r                    b                 g                    w
+
+        50 %    30 %       50 %    30 %       50 %    30 %        50 %    30 %
+            20 %               20 %               20 %                20 %
+
+        A     B     M      A       B     M    A      B      M     A       B     M
+
+
+B 1.1 Kreuzen Sie den Anteil der weißen Schachteln an.
+            70  p            70  p            70  p                 70  p
+                                          1                  1                         1P
+             100               100               100                    100
+B 1.2 Vor dem Prüfungsraum gibt eine Lehrkraft jedem Prüfling eine zufällig ausgewählte
+      Schachtel. Die Wahrscheinlichkeit dafür, dass die erste ausgegebene Schachtel grün
+      ist und eine Süßigkeit in der Geschmacksrichtung Apfel enthält, beträgt 10 %.
+      Berechnen Sie den Anteil p % der grünen Schachteln.
+
+
+
+
+                                                                                            1,5 P
+
+B 1.3 Sebastian wünscht sich eine rote oder eine blaue Schachtel mit einer Süßigkeit, die
+      nicht die Geschmacksrichtung Birne hat. Er vermutet, dass die erste ausgegebene
+      Schachtel mit einer Wahrscheinlichkeit von mehr als 50 % seinem Wunsch entspricht.
+      Beurteilen Sie diese Vermutung.
+
+
+
+
+                                                                                            2,5 P
+
+        Aufgabengruppe B                                              Haupttermin 2025
+
+B 2.0 Das Rechteck ABCD ist die Grundfläche des                          H                          G
+      Quaders ABCDEFGH. Die Zeichnung zeigt
+      ein Schrägbild des Quaders ABCDEFGH.
+
+      Es gilt: AB  4 cm ; AD  10 cm ; AE  3 cm ;
+               q  1 ;   45 ;                                         D
+                   2                                                                                C
+                                                                             F
+               AB liegt auf der Schrägbildachse. E
+
+      Runden Sie im Folgenden auf zwei Stellen
+      nach dem Komma.
+
+
+                                                     A                           B
+B 2.1 Punkte Pn liegen auf der Strecke AD.
+      Punkte Qn liegen auf der Strecke BC , wobei PnQn AB gilt.
+      Die Dreiecke APn E sind die Grundflächen von Prismen APn EBQn F.
+      Zeichnen Sie das Prisma AP1EBQ1F für AP1  4 cm in das Schrägbild zu B 2.0 ein.            1P
+
+B 2.2 Die Winkel AEPn haben das Maß  mit 0    AED . Zeigen Sie, dass für das
+      Volumen V der Prismen APn EBQn F in Abhängigkeit von  gilt: V     18  tan  cm3 .
+
+
+
+
+                                                                                                 2P
+                                                            3
+B 2.3 Das Volumen des Prismas AP2EBQ2F beträgt 50 cm .
+      Berechnen Sie das zugehörige Winkelmaß  .
+
+
+
+
+                                                                                                1,5 P
+B 2.4 Gibt es unter den Prismen APn EBQn F ein Prisma AP3EBQ3F, dessen Volumen mehr
+      als halb so groß ist wie das Volumen des Quaders ABCDEFGH?
+      Begründen Sie Ihre Entscheidung.
+
+
+
+
+                                                                                                 2P
+
+
+  Prüfungsdauer:                Abschlussprüfung 2025
+   170 Minuten                        an den Realschulen in Bayern
+
+                                               Mathematik I
+
+             Aufgabe B 3                                                      Haupttermin
+
+
+B 3.0 Gegeben sind die Funktionen f1 mit der Gleichung y   3  0,5x  4  3 und f2 mit der
+      Gleichung y  2  0,5x  3  4  x,y  IR  .
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 3.1 Geben Sie die Gleichung der Asymptote des Graphen zu f1 an.
+      Zeichnen Sie zudem die Graphen zu                 f1 und     f2   für   x   5; 4 in ein
+      Koordinatensystem.
+      Für die Zeichnung: Längeneinheit 1 cm;  5  x  4;  6  y  4                                 4P
+
+
+                                        
+B 3.2 Punkte A n x  3  0,5x  4  3 auf dem Graphen zu f1 haben dieselbe Abszisse x wie
+
+      Punkte B  x 2  0,5
+                   n
+                             x3
+                                     
+                                    4 auf dem Graphen zu f2 . Für x   4 sind sie zusammen
+      mit Punkten Cn und Dn die Eckpunkte von Trapezen A nBnCnDn .
+
+      Es gilt: BnA nDn  110; A nDn  2 LE; CnDn  8 LE; A nBn CnDn .
+
+      Zeichnen Sie die Trapeze A1B1C1D1 für x   3 und A 2B2C2D2 für x  1 in das
+      Koordinatensystem zu B 3.1 ein.                                                                 2P
+
+B 3.3 Punkte Fn sind die Fußpunkte der Lote von den Punkten A n auf die Strecken Cn Dn .
+
+      Zeichnen Sie die Strecke A 1F1 in das Koordinatensystem zu B 3.1 ein.
+
+      Zeigen Sie sodann, dass für die Länge aller Strecken A n Fn gilt: A n Fn  1,88 LE .            2P
+
+B 3.4 Bestätigen Sie rechnerisch, dass für die Länge der Strecken A n Bn in Abhängigkeit
+
+                                                                                
+      von der Abszisse x der Punkte A n gilt: A n Bn  x    3,5  0,5x  3  7 LE .                2P
+
+B 3.5 Das Trapez A 3B3C3D3 ist gleichschenklig.
+
+      Berechnen Sie die Länge der Strecke A3B3 sowie die zugehörige Belegung von x.
+       Teilergebnis: A B  6,64 LE                                                                  4P
+                      3 3          
+
+B 3.6 Begründen Sie, dass der Flächeninhalt der Trapeze A nBnCnDn stets kleiner als
+      14,1 FE ist.                                                                                    2P
+
+
+
+
+                                               Bitte wenden!
+
+  Prüfungsdauer:                 Abschlussprüfung 2025
+   170 Minuten                         an den Realschulen in Bayern
+
+                                                 Mathematik I
+
+             Aufgabe B 4                                                  Haupttermin
+
+
+B 4.0 Gegeben ist die Gerade g: y  0,5x  5 mit x,y  IR . Punkte Dn  x 0,5x  5  auf der
+      Geraden g bilden zusammen mit dem Punkt A   3  2  sowie Punkten Bn und Cn
+      Parallelogramme ABnCnDn .
+      Es gilt: BnADn  40 ; ABn  0,5  ADn .
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 4.1 Zeichnen Sie die Gerade g sowie die Parallelogramme AB1C1D1 für x   4,5 und
+       AB2C2D2 für x  2 in ein Koordinatensystem.
+      Für die Zeichnung: Längeneinheit 1 cm;  6  x  7;  2  y  9                           3P
+                                                                 
+B 4.2 Ermitteln Sie rechnerisch die Koordinaten der Pfeile ABn in Abhängigkeit von der
+      Abszisse x der Punkte Dn .
+                           0,55x  3,40  
+       Ergebnis: ABn  x                                                                  4P
+                              0,13x  1,74  
+
+B 4.3 Die Seite D3C3 des Parallelogramms AB3C3D3 liegt auf der Geraden g.
+      Berechnen Sie die Koordinaten des Punktes D3 .                                            3P
+
+B 4.4 Unter den Strecken ADn hat die Strecke AD0 die minimale Länge.
+      Bestimmen Sie rechnerisch die x-Koordinate des Punktes D0 .                              2,5 P
+
+B 4.5 Begründen Sie, weshalb das Parallelogramm AB0C0D0                 unter den Parallelo-
+      grammen ABnCnDn den minimalen Flächeninhalt hat.                                          2P
+
+
+
+
+                                                 Bitte wenden!

@@ -1,0 +1,59 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 10 der Gymnasien 2023, Lösungshinweise und Notenschlüssel (Gruppe A und B)
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/BMT10_2023_Loesungen.pdf
+ABRUF: 2026-09-28
+SEITEN: 1
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT10 2023                          Lösungshinweise und Notenschlüssel
+
+
+
+Die Lösungshinweise enthalten keine vollständigen Lösungen der Aufgaben. Nicht genannte, aber
+gleichwertige Lösungswege sind entsprechend zu bewerten.
+                                                                                                 Allgemeine math.
+  Aufg.       Lösungshinweise (Gruppe A)               Lösungshinweise (Gruppe B)
+                                                                                                   Kompetenzen
+ 1        x1 = −2,5 ; x2 = 2                         x1 = −1,5 ; x2 = 1                         K5
+ 2a                        K         K                                T            T            K4, K5
+
+              T           300       100   400           K            400           100   500
+              T           200       400   600           K            200           300   500
+                          500       500   1000                       600           400   1000
+ 2b       P ( T  K ) = 60 %                         P (K  T ) = 70 %                          K5, K4
+ 2c       zweite Beschreibung                        dritte Beschreibung                        K6, K3, K4
+ 3a       Die Wertemenge einer Funktion ist die Menge all ihrer                                 K6, K4
+          Funktionswerte. Wertemenge von f: IR0+
+ 3b         3,5  1,9 ; z. B. durch das                4,5  2,1 ; z. B. durch das              K2, K1, K4
+          Einzeichnen achsenparalleler               Einzeichnen achsenparalleler
+          Linien                                     Linien
+ 3c       –                                                                                     K4, K5
+ 4a       Für x = 2 ist der Nenner gleich            Für x = 3 ist der Nenner gleich            K1
+          null.                                      null.
+ 4b        −x  ( x − 2)        x                    −x  ( x − 3 )        x                    K5
+                           =−                                         =−
+           2  ( x − 2)         2                     3  ( x − 3)         3
+ 5a       0,006 g                                    0,004 g                                    K5
+ 5b       25 %                                                                                  K3, K4, K5
+ 5c            7                                                                                K5
+          y = − x + 25
+               6
+ 5d       Das Lösen der Gleichung f ( x ) = 10 liefert die gesuchte Anzahl der                  K3, K6
+          Jahre.
+ 6a       sin 53  0,8                              sin 37  0,6                              K4
+ 6b       Kein Quotient zweier Seitenlängen ergibt 0,5.                                         K1, K2
+ 7                         2                                          2                         K2, K1, K3, K4, K5
+          2a b b     b                               2b a a     a
+            =  2 =2 = 2                              =  2 =2 = 2
+          b  a a     a                               a  b b     b
+
+
+Die von einer Schülerin oder einem Schüler insgesamt erreichten Bewertungseinheiten werden gemäß
+folgender Tabelle in eine Note umgesetzt:
+                                          Anzahl erreichter BE             Note
+                                                21   – 16                      1
+                                                15   – 13                      2
+                                                12   – 10                      3
+                                                9    – 7                       4
+                                                6    – 4                       5
+                                                3    – 0                       6

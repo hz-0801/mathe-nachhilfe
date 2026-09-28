@@ -1,0 +1,200 @@
+QUELLE: Bayern, ISB – Bayerischer Mathematik-Test (BMT) für die Jahrgangsstufe 8 der Gymnasien, Aufgaben Gruppe A 2023
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/BMT8_2023_Aufgaben_Gruppe_A.pdf
+ABRUF: 2026-09-28
+SEITEN: 4
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+BMT8 2023                                                                                     A
+
+
+         Bayerischer Mathematik-Test für die Jahrgangsstufe 8 der Gymnasien
+
+Name: __________________________________                      Note:                   _____
+
+Klasse: __________                                            Bewertungseinheiten: _____ / 21
+
+
+
+Aufgabe 1
+Vereinfache jeweils so weit wie möglich.
+
+a) 2y − 7x + 3x =
+
+                                                                                                     /1
+
+b) 0,1a2 ⋅ 30 a3 =
+
+                                                                                                     /1
+          2
+   1 
+c)  x3  =
+   3 
+                                                                                                     /1
+
+
+
+Aufgabe 2
+Das Kino in einer Kleinstadt hat 200 Sitzplätze. Der Eintritt kostet für unter 21-Jährige 7 €, für
+alle anderen 10 €. Der Betreiber des Kinos hat bei einer ausverkauften Filmvorstellung 1820 €
+eingenommen und stellt dazu folgende Gleichung auf:
+                                    7 x + 10 ⋅ ( 200 − x ) =
+                                                           1820
+
+a) Gib an, wofür die Variable x im Sachzusammenhang steht.
+
+
+
+                                                                                                     /1
+
+b) Bestimme die Lösung der Gleichung.
+
+
+
+
+                                                                                                     /2
+
+BMT8 2023                             Seite 2 (von 4)                    A
+
+
+
+Aufgabe 3
+Die Abbildung zeigt eine Raute.
+
+a) Zeichne in die Abbildung alle Symmetrieachsen
+   der Raute ein.
+
+
+
+                                                                             /1
+
+b) Alina behauptet:
+     Wenn ein Viereck in allen Seitenlängen mit
+     der abgebildeten Raute übereinstimmt, dann
+     ist es kongruent dazu.
+  Begründe, dass Alina nicht recht hat, indem du
+  ein geeignetes Viereck als Gegenbeispiel
+  zeichnest.
+
+
+                                                                             /1
+
+
+
+Aufgabe 4
+a) Das abgebildete SUP-Board ist etwa 3 m lang. Schätze die Breite
+   des SUP-Boards nachvollziehbar ab.
+
+
+
+                                                                             /1
+
+b) Üblicherweise wird die Länge von SUP-Boards in Fuß und Zoll
+   angegeben. Ein Zoll entspricht 2,54 cm; ein Fuß entspricht 12 Zoll.
+   Die exakte Länge des abgebildeten SUP-Boards beträgt 10 Fuß
+   und 4 Zoll. Gib einen Term an, mit dem man die exakte Länge
+   dieses SUP-Boards in Zentimetern berechnen könnte.
+
+
+                                                                             /1
+
+c) Das Volumen des SUP-Boards beträgt laut Herstellerangabe
+   280 Liter. Es wird ein Quader mit dem gleichen Volumen
+   betrachtet, der 25 dm lang und 8 dm breit ist. Berechne die Höhe
+   dieses Quaders.
+
+
+
+
+                                                                             /2
+
+BMT8 2023                               Seite 3 (von 4)                                       A
+
+
+
+Aufgabe 5
+Von allen Schülerinnen und Schülern eines Gymnasiums besuchen 55 % eine der
+Jahrgangsstufen 5 bis 8 und ein Fünftel eine der Jahrgangsstufen 11 und 12. An diesem
+Gymnasium wird von jeder Schülerin und jedem Schüler jährlich Kopiergeld eingesammelt.
+Der Geldbetrag richtet sich nach der Jahrgangsstufe (vgl. Tabelle).
+                 Jahrgangstufe          5 bis 8          9 und 10         11 und 12
+                                                                               1
+                 Anteil                  55 %
+                                                                               5
+                 Geldbetrag               8€               10 €               12 €
+
+
+a) Ergänze in der Tabelle den fehlenden Anteil.
+
+
+
+                                                                                                  /1
+
+Die Geldbeträge aller Schülerinnen und Schüler werden in einer langen Datenreihe
+angeordnet:
+                            8 €; ...; 8 €; 10 €; ...; 10 €; 12 €; ...; 12 €
+
+b) Gib den Median dieser Datenreihe an.
+
+
+
+                                                                                                  /1
+
+c) Der Betrag für die Jahrgangsstufen 5 bis 8 wird um 1 € erniedrigt, der Betrag für die
+   Jahrgangsstufen 11 und 12 um 1 € erhöht. Kreuze an, was für das arithmetische Mittel der
+   Datenreihe zutrifft.
+  ◯ Das arithmetische Mittel erhöht sich.
+  ◯ Das arithmetische Mittel bleibt gleich.
+  ◯ Das arithmetische Mittel verringert sich.
+  ◯ Man kann anhand der gegebenen Informationen nicht entscheiden, wie sich das
+    arithmetische Mittel ändert.
+                                                                                                  /1
+
+
+
+Aufgabe 6
+Ein Desinfektionsmittel entfernt laut Hersteller 99 % aller Keime. Berechne nachvollziehbar
+die Anzahl der Keime, die gemäß dieser Angabe nach einer Anwendung des Mittels noch
+übrig sind, wenn zuvor eine Milliarde Keime vorhanden waren.
+
+
+
+
+                                                                                                  /2
+
+BMT8 2023                           Seite 4 (von 4)                                   A
+
+
+
+Aufgabe 7
+In das abgebildete Dreieck ABC ist die Höhe zur Seite AB eingezeichnet.
+
+
+
+
+                                                      4 cm
+
+
+
+
+                                                       10,5 cm
+
+
+a) Berechne den Flächeninhalt des Dreiecks ABC.
+
+
+
+
+                                                                                           /1
+
+b) Zeichne die Höhe zu einer weiteren Seite des Dreiecks ABC ein.
+                                                                                           /1
+
+c) Der Punkt C soll so verschoben werden, dass das neue Dreieck bei C einen rechten
+   Winkel hat. Gib an, wie lang die Höhe zur Seite AB nach der Verschiebung maximal sein
+   kann, und begründe deine Angabe.
+
+
+
+
+                                                                                           /2

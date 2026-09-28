@@ -1,0 +1,345 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin 2021, Lösungsmuster und Bewertung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2021/2021_mii_ht_l.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Lösungsmuster                         Abschlussprüfung 2021
+ und Bewertung                           an den Realschulen in Bayern
+
+                                                Mathematik II
+
+
+            Aufgabengruppe A                                                             Haupttermin
+
+AUFGABE A 1: EBENE GEOMETRIE
+
+
+                          52
+A 1.1 cos CMD                                                              CMD  53,13
+                            5
+             BMC
+        b               2  MB  
+              360                                                                                     3
+                                                                                                           L2
+                                                                                                           K5
+                     BMC  180  53,13                                    BMC  126,87
+             126,87
+        b               2  5   cm                                       b  11,07 cm
+              360
+
+
+                126,87 2       1                                                                        L2
+A 1.2 AFigur           5     5  5  sin53,13  cm2                  AFigur  37,68 cm2        2   K5
+                360            2                    
+
+AUFGABE A 2: FUNKTIONEN
+
+
+A 2.0   y
+
+
+
+
+                 A
+
+
+                                                                                 p
+        5                                             Q1
+
+                                                                             B
+                                                                                 g
+
+
+                                                        M1
+
+        1
+                                                                    k1
+
+        O        1                          5                           10           x
+                                                      P1
+
+
+
+
+                                                    Seite 1 von 6
+
+A 2.1             0,25x2  3x  8   0,25x  6,5                                  x  IR
+                 …
+                 x  0,58  x  10,42                                             IL  0,58; 10,42                   L4
+                                                                                                                   3    K5
+
+         A  0,58  0,25  0,58  6,5                                             A  0,58 6,36 
+
+        B 10,42  0,25 10,42  6,5                                              B 10,42 3,90 
+
+
+
+A 2.2 Einzeichnen der Strecke PQ
+                                1 1  sowie des Punktes M1 und des Kreises k1                                      2
+                                                                                                                        L4
+                                                                                                                        K4
+
+
+
+
+A 2.3 PnQn  x     0,25x  6,5   0,25x 2  3x  8   LE                   x  IR; x   0,58; 10,42 
+                                                                                                                        L4
+                                                                                                                   1    K5
+        PnQn  x     0,25x 2  2,75x  1,5  LE
+
+
+
+A 2.4 u  x     0,25x 2  2,75x  1,5    LE                                 x  IR; x   0,58; 10,42         L3
+                                                                                                                        L4
+        …                                                                                                          2    K2
+        umax  19,05 LE                                                                                                 K5
+
+
+
+
+A 2.5 k 3 hat den 16-fachen Flächeninhalt von k 2 , denn es gilt:
+                                                                                                                        L3
+        Aus d3  4  d2 folgt: r3  4  r2 .                                                                       2    K1
+
+        Somit gilt: A 3  r32     4  r2     16  r22    16  A 2 .
+                                              2
+
+
+
+
+AUFGABE A 3: RAUMGEOMETRIE
+
+               2          1    2          1    2
+A3       V  FK    AF   FK    GK   EH    GH
+                          3               3
+                                   GK
+                   tan50                                                         GK  2,98 cm
+                               0,5  5 cm
+                                                                                                                        L2
+                      GH          2,4 cm                                                                           5
+                                                                                  GH  1,43 cm                         K5
+                   2,98 cm        5 cm
+                                  1                          1                          
+         V   0,5  5     4    0,5  5     2,98    0,5  2,4    1,43  cm3
+                         2                       2                            2
+
+                                  3                          3                          
+         V  61,19 cm3
+
+
+                                                                                                                   20
+
+
+
+                                                             Seite 2 von 6
+
+            Aufgabengruppe B                                                    Haupttermin
+
+AUFGABE B 1: EBENE GEOMETRIE
+
+
+B 1.1                            D
+
+
+
+
+        E
+
+
+                                                                 F
+
+                                                                        C
+        S
+                                                                                                  L2
+                                                                                                  L3
+                                                                                              4   K4
+                                        R                                                         K5
+
+
+
+                                               G
+
+
+
+
+        A                                     Q           B
+
+        BE  7 2  8 2 cm                                               BE  10,63 cm
+
+                          7
+        tan AEB                                                       AEB  41,19
+                          8
+
+
+B 1.2 A ABCE  0,5  AB  AE  0,5  BE  CE  sin BEC
+
+                    BEC  AED  AEB  CED
+                                                                                                  L2
+                              9 2  112  42  2 11 4  cos CED      CED  50,48         4   K2
+                                                                                                  K5
+                    BEC  128  41,19  50,48                       BEC  36,33
+
+        A ABCE   0,5  7  8  0,5 10,63 11 sin36,33  cm2        A ABCE  62,64 cm2
+
+
+
+B 1.3 BC  10,632  112  2 10,63 11 cos 36,33 cm                   BC  6,75 cm
+                                                                                                  L2
+        sin ECB          sin36,33                                                           2   K5
+                                                                       ECB  68,90
+            10,63             6,75
+
+
+                                                        Seite 3 von 6
+
+B 1.4 Einzeichnen der Strecke FG
+
+                                    
+      ABCFG  0,5  BC  FG  d F; BC 
+
+                    FG           11 3  cm                                                L2
+                                                               FG  4,91cm                 L3
+                  6,75 cm            11cm                                              4    K2
+                                                                                            K4
+
+                                  d F; BC 
+                                                                                            K5
+                  sin68,90                                    d F; BC   2,80 cm
+                                     3 cm
+
+      ABCFG  0,5   6,75  4,91  2,80 cm2                   ABCFG  16,32 cm2
+
+
+
+                                   und des Punktes R
+B 1.5 Einzeichnen des Kreisbogens QS
+
+                  BAE           2
+      ASektor              AR  
+                   360                                                                     L2
+                                                                                            L3
+                                     AR                                                3    K4
+                  sin41,19                                    AR  5,27 cm                K5
+                                  8 cm
+                   90
+      ASektor             5,27 2   cm2                      ASektor  21,81cm2
+                  360
+
+
+                                                                                       17
+
+
+
+
+                                                Seite 4 von 6
+
+AUFGABE B 2: RAUMGEOMETRIE
+
+
+B 2.1                                                                S
+
+
+
+
+                                                                          Q1
+
+
+                                                                     R1
+                                                                                                   L3
+                                                                P1                             2   K4
+
+                             D                                       F
+
+                                                                                 C
+
+
+
+
+        A                                                            M
+
+
+
+
+                                                    B
+
+
+
+B 2.2 AS  9 2  10 2 cm                                                       AS  13,45 cm
+                         10
+        tan MAS                                                              MAS  48,01       L2
+                         9                                                                     3   K5
+             1 1
+        V     12  9 10 cm3                                                V  180 cm3
+             3 2
+
+
+B 2.3 Einzeichnen der Strecke DM
+
+        sin DMA         sin MAS
+                                                                                                  L2
+             AD               DM                                                                   L3
+                                                                                               3   K2
+                  DM  9 2  4 2  2  9  4  cos48,01 cm                    DM  6,99 cm        K4
+                                                                                                   K5
+
+        sin DMA         sin48,01
+                                                                              DMA  25,17
+             4                6,99
+
+
+
+                                                     Seite 5 von 6
+
+                                  1D und der Höhe DF 
+                                                                                                                 L3
+B 2.4 Einzeichnen der Pyramide PMQ
+                                1                                                                           2    K4
+
+
+
+               1 1
+B 2.5 V          PnQn  MRn  DF
+               3 2
+
+                     PnQn  x          x cm
+                                                         PnQn  x   1,2  x cm   x  IR ; 0  x  10
+                         12 cm         10 cm
+                                                                                                                 L2
+                         DF       13,45  4  cm                                                           4
+                                                                                                                 L3
+                                                         DF  6,32 cm                                           K2
+                     9 cm              13,45 cm                                                                  K5
+
+
+                     1 1
+           V x      1,2  x  10  x   6,32 cm3                             x  IR ; 0  x  10
+                     3 2
+
+           V  x    1,26x 2  12,64x  cm3
+
+
+
+B 2.6                1,26x 2  12,64x  0,1180                                    x  IR ; 0  x  10
+                                                                                                                 L4
+                     …                                                                                      3    K5
+                    x  1,72  x  8,31                                            IL  1,72; 8,31
+
+
+                                                                                                            17
+
+
+
+Hinweis:       Bei einigen Teilaufgaben sind auch andere Lösungswege möglich. Für richtige andere Lösungen gelten
+               die jeweils angegebenen Punkte entsprechend; die Anzahl der Punkte bei den einzelnen Teilaufgaben darf
+               jedoch nicht verändert werden. Insbesondere sind Lösungswege, bei denen der (grafikfähige) Taschen-
+               rechner verwendet wird, entsprechend ihrer Dokumentation bzw. ihrer Nachvollziehbarkeit zu bepunkten.
+
+               Bei der Korrektur ist zu beachten, dass die Vervielfältigung der Lösungsvorlage zu Verzerrungen der
+               Zeichnungen führen kann.
+
+
+
+
+                                                             Seite 6 von 6

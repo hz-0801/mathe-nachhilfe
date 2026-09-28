@@ -1,0 +1,390 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik II (Wahlpflichtfächergruppe II/III), Haupttermin, Angaben 2024
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2024/2024_mii_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 10
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Bearbeitungszeit            Abschlussprüfung 2024
+Aufgabengruppe A:
+                                   an den Realschulen in Bayern
+    35 Minuten
+
+                                          Mathematik II
+                                     taschenrechnerfreier Teil
+
+Name: _____________________________                 Vorname: _____________________________
+
+Klasse: ________                     Platznummer: ________                         ________ / 11,5
+
+         Aufgabengruppe A                                                Haupttermin
+
+
+A 1.0 Im folgenden Koordinatensystem ist die Parabel p gezeichnet  x,y  IR  .
+
+
+
+
+                        5
+
+
+
+
+                        1
+
+
+                        O      1                      5
+
+
+
+
+                                      p
+
+
+A 1.1 Geben Sie die Gleichung der Parabel p in der Scheitelpunktsform an. Entnehmen Sie
+      der Zeichnung die dazu erforderlichen Informationen.
+
+
+
+
+                                                                                              2P
+
+A 1.2 Geben Sie die Gleichung einer Geraden an, die keinen gemeinsamen Punkt mit der
+      Parabel p hat.
+
+
+
+
+                                                                                              1P
+
+
+
+
+         taschenrechnerfreier Teil
+
+        Aufgabengruppe A                                                      Haupttermin 2024
+
+A 2.0 Die Raute ABCD mit dem Diagonalenschnittpunkt M ist die Grundfläche der
+      Pyramide ABCDS. Das Schrägbild zeigt diese Pyramide mit ihrer Höhe MS .
+      Es gilt: AC  8 cm ; BD  12 cm ; MS  7 cm.
+                                       1
+      In der Zeichnung gilt: q            ;   45 ; AC liegt auf der Schrägbildachse.
+                                       2
+                                                        S
+
+
+
+
+                                                                   D
+
+
+
+
+                         A                              M                    C
+
+
+
+
+                                        B
+
+A 2.1 Es entstehen neue Pyramiden ABCnDSn mit den Höhen MSn und den Grund-
+      flächen ABCnD, wenn man die Strecke AC über C hinaus um 2x cm verlängert und
+      gleichzeitig die Strecke MS von S aus um x cm verkürzt  x  IR ; 0  x  7  .
+
+      Zeichnen Sie für x  2 die Pyramide ABC1DS1 in das Schrägbild zu A 2.0 ein.                1,5 P
+
+A 2.2 Für das Volumen V der Pyramiden ABCnDSn in Abhängigkeit von x gilt:
+                1 1
+      V x      12   8  2x    7  x  cm3 .
+                3 2
+      Bei welchem der folgenden Terme wurde V  x  richtig umgeformt?
+      Kreuzen Sie diesen Term an.
+
+                                              
+          V  x   2  56  8x  14x  2x2 cm3
+
+          V  x   2   56  6x  2x2  cm3
+
+          V  x   16  4x    7  x  cm3
+
+          V  x   16  4x   14  2x  cm3                                                  1P
+
+
+
+        taschenrechnerfreier Teil
+
+       Aufgabengruppe A                                            Haupttermin 2024
+
+A3   Ein Baumarkt bietet zehn gleich große Christbaumkugeln
+     in einer zylinderförmigen Verpackung an.
+     Ermitteln Sie das ungefähre Volumen der Verpackung in
+     Wirklichkeit. Schätzen Sie die dafür benötigten Größen
+     anhand des Bildes ab.
+
+
+
+
+                                                                                      4P
+
+A4   Gegeben ist das Dreieck ABC.
+     Es gilt: AB  5 cm ; BC  13 cm ; AC  12 cm .
+     Zeigen Sie rechnerisch, dass das Dreieck ABC rechtwinklig ist.
+     Geben Sie an, bei welchem Eckpunkt der rechte Winkel liegt.
+
+
+
+
+                                                                                      2P
+
+
+       taschenrechnerfreier Teil
+
+           Aufgabengruppe A            Haupttermin 2024
+
+Notizen:
+
+
+
+
+           taschenrechnerfreier Teil
+
+ Prüfungsdauer:            Abschlussprüfung 2024
+  170 Minuten                  an den Realschulen in Bayern
+
+                               Mathematik II – Haupttermin
+
+
+
+
+Prüfungsdauer: 170 Minuten
+
+Die Aufgabengruppe A (Bearbeitung ohne Taschenrechner, aber mit zugelassener Formel-
+sammlung) ist ausschließlich auf dem dafür vorgesehenen Bogen zu bearbeiten und nach
+35 Minuten abzugeben. Wird für die Aufgabengruppe A weniger Zeit benötigt, kann bereits
+– zunächst ohne Taschenrechner – mit der Aufgabengruppe B begonnen werden.
+
+Anschließend dürfen alle zugelassenen Hilfsmittel verwendet werden.
+
+
+
+
+Name: _____________________________           Vorname: _____________________________
+
+
+Klasse: ________                              Platznummer: ________
+
+
+
+
+                                              Erstkorrektur:          Zweitkorrektur:
+
+Erreichte Punkte:      Aufgabengruppe A:      _____ / 11,5            _____ / 11,5
+
+
+                              Aufgabe B 1:    _____ / 6,5             _____ / 6,5
+
+
+                              Aufgabe B 2:    _____ / 5               _____ / 5
+
+
+                              Aufgabe B 3:    _____ / 15              _____ / 15
+
+
+                              Aufgabe B 4:    _____ / 16              _____ / 16
+
+
+                                 Gesamt:      _____ / 54              _____ / 54
+
+
+                                     Note:    ________                ________
+
+
+                              Unterschrift:   ______________          ______________
+
+        Aufgabengruppe B                                           Haupttermin 2024
+
+B 1.0 Manchmal werden zu Fasching Krapfen zum
+      Spaß mit Senf gefüllt. Von zwölf Krapfen sind
+      zwei mit Senf („S“) und zehn mit Marmelade
+      („M“) gefüllt.
+      Martin nimmt sich von den zwölf Krapfen zwei
+      zufällig ausgewählte.
+
+
+
+
+B 1.1 Zeichnen Sie ein zugehöriges Baumdiagramm, in dem alle Anteile ersichtlich sind.
+
+
+
+
+                                                                                         2,5 P
+
+B 1.2 Berechnen Sie die Wahrscheinlichkeit P dafür, dass mindestens einer der beiden
+      ausgewählten Krapfen mit Senf gefüllt ist.
+                      7
+      Ergebnis: P  22 
+
+
+
+
+                                                                                          2P
+
+B 1.3 Martin vermutet, dass mit einer Wahrscheinlichkeit von mehr als 70 % keiner der
+      beiden ausgewählten Krapfen mit Senf gefüllt ist.
+      Beurteilen Sie diese Vermutung.
+
+
+
+
+                                                                                          2P
+
+         Aufgabengruppe B                                                      Haupttermin 2024
+
+B 2.0 Die Vorlage einer Spielfigur ist ein Rotationskörper mit
+      der Rotationsachse MS. Nebenstehende Skizze zeigt                                S
+      grau eingefärbt den zugehörigen Axialschnitt.
+       Es gilt: MB  1cm ; TD  2 cm ; TM  1,5 cm ;
+               NT  2 cm ; ST  6,5 cm ; AH  BC.
+
+B 2.1 Berechnen Sie das Volumen des Rotationskörpers.
+      Runden Sie auf zwei Stellen nach dem Komma.
+       Zwischenergebnis: NE  1,38 cm 
+                                                                         F                       E
+                                                                                       N
+
+
+                                                                               H               C
+                                                                      G                                D
+                                                                                       T
+
+                                                                               A               B
+                                                                                       M
+
+
+
+
+                                                                                                           4P
+
+B 2.2 Die komplette Oberfläche der Spielfigur soll mit einer grauen Schutzfolie beklebt
+      werden.
+       Welches Aufkleber-Set ist hierfür passend? Kreuzen Sie an.
+               Set 1                 Set 2                   Set 3                   Set 4
+
+
+
+
+                  Hinweis: Die Aufkleber - Sets sind maßstabsgetreu verkleinert dargestellt.
+                                                                                                           1P
+
+
+  Prüfungsdauer:                  Abschlussprüfung 2024
+   170 Minuten                      an den Realschulen in Bayern
+
+                                               Mathematik II
+
+             Aufgabe B 3                                                   Haupttermin
+
+B 3.0 Die Parabel p mit dem Scheitelpunkt S  2  7  verläuft durch den Punkt P  4  5  .
+      Sie hat eine Gleichung der Form y  ax2  bx  c mit a  IR \ 0 und b, c, x, y  IR .
+      Die Gerade g hat die Gleichung y  0,5x mit x, y  IR .
+
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 3.1 Zeigen Sie durch Rechnung, dass für die Gleichung der Parabel p gilt:
+       y  0,5x2  2x  5 .
+
+      Zeichnen Sie sodann die Parabel p sowie die Gerade g für x   3; 7  in ein
+      Koordinatensystem.
+      Für die Zeichnung: Längeneinheit 1 cm;  3  x  7;  7  y  6                            5P
+
+
+                   
+B 3.2 Punkte A n x 0,5x2  2x  5    auf der Parabel p und Punkte B  x 0,5x  auf der
+                                                                           n
+
+      Geraden g haben dieselbe Abszisse x. Sie sind für x   1,53; 6,53  zusammen
+      mit Punkten C n die Eckpunkte von Dreiecken A nB nC n . Die Punkte C n liegen
+      ebenfalls auf der Geraden g und ihre Abszisse ist stets um 3 kleiner als die Abszisse x
+      der Punkte Bn .
+      Zeichnen Sie die Dreiecke A1B1C1 für x  2 und A2B2C2 für x  5,5 in das
+      Koordinatensystem zu B 3.1 ein.                                                            2P
+
+B 3.3 Zeigen Sie rechnerisch, dass für die Länge der Strecken A nB n in Abhängigkeit von x
+                                          
+      gilt: A nBn  x    0,5x2  2,5x  5 LE .                                                1P
+
+B 3.4 Unter den Strecken A nB n hat die Strecke A 0B0 die maximale Länge.
+
+      Berechnen Sie die Länge der Strecke A 0B0 sowie den zugehörigen Flächeninhalt des
+      Dreiecks A0B0C0 .                                                                         2,5 P
+
+B 3.5 In allen Dreiecken A nB nC n haben die Winkel C nB nA n das gleiche Maß.
+      Berechnen Sie das zugehörige Maß  .
+       Ergebnis:   63,43                                                                 1,5 P
+
+B 3.6 Unter den Dreiecken A nB nC n gibt es die gleichschenkligen Dreiecke A3B3C3 mit der
+      Basis A3C3 sowie A4B4C4 mit der Basis A4C4 .
+      Begründen Sie rechnerisch, dass die Länge der Schenkel bei diesen gleich-
+      schenkligen Dreiecken stets 3,35 LE beträgt.
+      Berechnen Sie anschließend die zugehörigen Werte für x.                                    3P
+
+                                               Bitte wenden!
+
+  Prüfungsdauer:               Abschlussprüfung 2024
+   170 Minuten                      an den Realschulen in Bayern
+
+                                            Mathematik II
+
+              Aufgabe B 4                                           Haupttermin
+
+B 4.0 Die nebenstehende Skizze zeigt das Fünfeck ABCDE                    D
+                            mit dem Mittelpunkt D und
+      sowie den Kreisbogen AB                                                             C
+
+      dem Radius DA .
+
+      Es gilt:     AB  CD ; AB  10 cm ;                   E
+
+                   AE  6,5 cm ; DA  DB  11cm ;
+                   BAE  105 ; CBA  85.
+
+      Runden Sie im Folgenden auf zwei Stellen
+      nach dem Komma.                                           A                             B
+
+
+B 4.1 Zeichnen Sie das Fünfeck ABCDE mit den Strecken DA und DB sowie den
+                 .
+      Kreisbogen AB                                                                           3P
+
+B 4.2 Begründen Sie, dass gilt: DBA  BDC .
+      Berechnen Sie sodann die Maße der Winkel DBA und DCB sowie die Länge der
+      Strecke CD .
+      Teilergebnisse: DBA  62,96 ; DCB  95 ; CD  4,14 cm                             4P
+                                                               
+
+B 4.3 Berechnen Sie den Umfang der Figur, die durch die Strecken AE , ED , DB sowie den
+                  begrenzt wird.
+      Kreisbogen AB
+      Zwischenergebnis: ED  7,55 cm                                                        4P
+                                    
+
+B 4.4 Ein Kreis um Punkt C berührt die Strecke BD im Punkt G und schneidet die
+      Strecke CD im Punkt F sowie die Strecke BC im Punkt H.
+                                                                               
+      Ergänzen Sie die Zeichnung zu B 4.1 um die Strecke CG und den Kreisbogen FH
+      mit dem Mittelpunkt C.
+      Bestimmen Sie sodann rechnerisch die Länge der Strecke CG und den Flächeninhalt
+                                                                          begrenzt
+      des Sektors, der durch die Strecken FC und CH sowie den Kreisbogen FH
+      wird.
+      Teilergebnisse: CG  3,69 cm ; A        11,29 cm 2                                   3P
+                                      Sektor              
+
+B 4.5 Bestimmen Sie rechnerisch den prozentualen Anteil des Flächeninhalts des Sektors
+      aus B 4.4 am Flächeninhalt des Dreiecks BCD.                                            2P
+
+
+
+
+                                            Bitte wenden!

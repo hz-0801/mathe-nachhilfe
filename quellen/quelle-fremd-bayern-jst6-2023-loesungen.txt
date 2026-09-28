@@ -1,0 +1,276 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 6 2023, Lösung mit Punktverteilung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2023/2023_JT_Mathe_6_Loesung.pdf
+ABRUF: 2026-09-28
+SEITEN: 5
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+                            JAHRGANGSSTUFENTEST 2023
+                               IM FACH MATHEMATIK
+               FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+
+
+
+HINWEIS:
+              Bei formalen Mängeln soll großzügig verfahren werden.
+              Es werden nur ganze Punkte vergeben.
+
+
+BEWERTUNGSMAßSTAB:
+                      Erreichte Punkte                     Note
+                           21 – 17                          1
+                           16 – 14                          2
+                           13 – 11                          3
+                           10 – 8                           4
+                            7–5                             5
+                            4–0                             6
+
+
+ANMERKUNGEN:
+             Im Lösungsmuster ist zu jeder Aufgabe eine Zuordnung zu den
+             mathematischen Leitideen und den mathematischen Kompetenzen
+             angegeben. Aufgeführt sind jeweils die im Vordergrund stehenden
+             Leitideen und Kompetenzen, bezogen auf den dargestellten Lö-
+             sungsvorschlag.
+
+
+MATHEMATISCHE LEITIDEEN –                ALLGEMEINE MATHEMATISCHE
+PIKTOGRAMME:                             KOMPETENZEN:
+
+    1
+    2       ZAHL                         K1   M ATHEMATISCH ARGUMENTIEREN
+
+0       1   MESSEN                       K2   PROBLEME MATHEMATISCH LÖSEN
+
+            RAUM UND FORM                K3   M ATHEMATISCH MODELLIEREN
+
+            FUNKTIONALER ZUSAMMENHANG    K4   M ATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+                                              MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN
+            DATEN UND ZUFALL             K5   ELEMENTEN DER M ATHEMATIK UMGEHEN
+
+                                         K6   KOMMUNIZIEREN
+
+              JAHRGANGSSTUFENTEST 2023 IM FACH MATHEMATIK
+           FÜR DIE JAHRGANGSSTUFE 6 DER REALSCHULEN IN BAYERN
+                         (ARBEITSZEIT: 45 MINUTEN)
+
+                                                LÖSUNGSMUSTER
+
+
+1 Berechne.                                                                             __/1
+    a) 3240 : 120 =                                           b) 103 + 102 =
+
+
+                                                                                        __/1
+                  27                                                       1100
+
+
+
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+2 Berechne.                                                                             __/1
+    a) 2318 − 8319 =                                          b) ( −16) ⋅ ( −5) =
+
+
+                                                                                        __/1
+                 – 6001                                                      80
+
+
+
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+3 Lilli hat Zahlen an der Zahlengerade angetragen. Eine Zahl davon ist falsch.          __/1
+  Verbessere die falsche Zahl im Kästchen darüber.
+
+                                – 80
+                – 150           – 90             0                     120
+
+
+      – 200                                                        100
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+
+4 Tom soll mit diesen Ziffernkarten eine vierstellige Zahl legen.                       __/1
+   Begründe, warum jede gelegte Zahl durch 3 teilbar ist.
+
+    z. B.: Die Quersumme aller hier möglichen vierstelligen
+                                                                                    2
+   _________________________________________________
+    Zahlen beträgt 18. Da 18 durch 3 teilbar ist, sind auch
+   _________________________________________________
+    alle gelegten Zahlen durch 3 teilbar.
+   _________________________________________________
+   MATHEMATISCH ARGUMENTIEREN
+
+
+5 Runde die Zahl 431 499 auf Tausender.                                                 __/1
+                  431 000
+   431 499 ≈ ________________
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+6 Für den Platzhalter soll die größtmögliche                                                                   __/1
+  natürliche Zahl eingesetzt werden, so dass                                    2
+  eine wahre Aussage entsteht.                                                      < 200
+  Kreuze diese Zahl an.
+         10                  11              14                 15                 19           20
+  MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+7 Eine Reinigungsfirma hat die Fenster von 25 Stockwerken eines Hochhauses                                     __/1
+  geputzt. Auf jedem Stockwerk befinden sich 12 Wohnungen mit jeweils
+  4 Fenstern.
+  Gib an, wie viele Fenster die Firma insgesamt geputzt hat.
+
+
+
+
+                         1200
+  Es wurden insgesamt _________ Fenster geputzt.
+  PROBLEME MATHEMATISCH LÖSEN
+
+
+8 Michael möchte die ungefähre Anzahl                                 A         B           C   D          E   __/1
+  der Bohnen auf dem Bild abschätzen.
+  Dazu zählt er die Bohnen im Feld A1   1
+  und multipliziert diese Zahl mit der
+  Anzahl der Felder.
+  Beschreibe den Fehler, den er gemacht 2
+  hat.
+  ____________________________________
+   z. B.:                               3
+  ____________________________________
+   Feld A1 ist kein repräsentatives Feld,
+   da es im Vergleich zu den anderen
+  ____________________________________
+   Feldern deutlich weniger Bohnen
+                                          4
+  ____________________________________
+   enthält. Michael wird so insgesamt
+   eine zu kleine Anzahl erhalten.
+  _________________________________________________________________________
+
+  MATHEMATISCH MODELLIEREN
+
+
+9 Kreuze den passenden Text zum Term (128 + 39) ∙ (56 – 8) an.                                                 __/1
+             Bilde das Produkt aus der Summe der Zahlen 128 und 39 und dem
+              Quotienten der Zahlen 56 und 8.
+             Addiere die Summe der Zahlen 128 und 39 zur Differenz der Zahlen 56
+              und 8.
+             Bilde den Quotienten aus der Summe der Zahlen 128 und 39 und dem
+              Produkt der Zahlen 56 und 8.
+             Multipliziere die Summe der Zahlen 128 und 39 mit der Differenz der
+              Zahlen 56 und 8.
+  MATHEMATISCH KOMMUNIZIEREN
+
+10 Bestimme den Abstand d des Punktes P von der Gerade g.                                   g       __/1
+
+                 2
+   d(P; g) = ________ cm
+
+
+
+                                                                                             P
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+11 Beschreibe anhand einer geometrischen Eigenschaft, wie sich Kegel und                            __/1
+   Pyramide unterscheiden.
+   _________________________________________________________________________
+   z. B.:
+   _________________________________________________________________________
+   Kegel haben – anders als Pyramiden – eine kreisförmige Grundfläche.
+   KOMMUNIZIEREN
+
+
+12 Simon hat ein Stück Papier aus                                                                   __/1
+   seinem Heft ausgeschnitten (siehe Abbildung).
+   Zeichne die fünf Faltlinien so ein, dass
+   er daraus einen Quader falten kann.
+
+
+       Alle 5 Faltlinien müssen richtig eingetragen sein.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+13 Zeichne einen Winkel mit dem Maß α = 135° und markiere ihn.                                      __/1
+
+                                                                                 α
+                                 z. B.:
+
+
+
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+14 Welches Ergebnis passt zur                                                                       __/1
+   folgenden Rechnung?
+   Kreuze an.
+   5 cm ∙ 60 mm =
+     30 mm²                      300 mm²                    3000 mm²               30 000 mm²
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+15 Alex, Ali und Armin waren in der Kletterhalle und haben für den Eintritt                         __/1
+   insgesamt 24 € bezahlt.
+   Gib an, wie viel Lena und ihre sechs Freundinnen insgesamt bezahlen müssen,
+   wenn sie zum selben Einzelpreis in die Kletterhalle gehen.
+
+
+
+
+                                                        56
+   Lena und ihre sechs Freundinnen bezahlen zusammen _______ €.
+   PROBLEME MATHEMATISCH LÖSEN
+
+16 Eisbär Kurti ist in Wirklichkeit 250 cm lang und hat eine Schulterhöhe von 160 cm.                            __/1
+   Kreuze an, in welchem Maßstab der Eisbär ungefähr
+   gezeichnet ist.
+    1 : 100         1 : 10           1:1             10 : 1          100 : 1
+
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+17 Zeichne ein Rechteck mit einem Flächeninhalt A von 12 cm².                                                    __/1
+
+     z. B.:
+
+
+
+
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+18 Ein Quadrat mit der Seitenlänge a = 8 cm wird in zwei                                                         __/1
+   Rechtecke aufgeteilt. Das größere Rechteck hat einen
+   Umfang von 28 cm.                                                                    8 cm
+   Wie groß ist der Umfang des kleineren Rechtecks?
+   Kreuze an.                                                                                        8 cm
+
+                                                                                                Die Skizze ist
+                                                                                                nicht maßtreu.
+
+
+     12 cm                 16 cm                  20 cm                 22 cm             26 cm
+   PROBLEME MATHEMATISCH LÖSEN
+
+                                                                    Anzahl
+19 Das Diagramm zeigt die Anzahl der                                                                             __/1
+                                                                   180 000
+   verkauften Fahrzeuge der
+   Autohersteller A und B.
+   Hersteller C hat halb so viele Fahrzeuge
+                                                                   150 000
+   verkauft wie Hersteller A.
+   Ergänze die Säule für Hersteller C
+   im Diagramm.
+
+                                                                   100 000
+
+
+                                                                                    A       B        C
+                                                                                        Hersteller
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN

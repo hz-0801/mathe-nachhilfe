@@ -1,0 +1,250 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin, Angaben 2022
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2022/2022_mi_ht.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+Prüfungsdauer:                 Abschlussprüfung 2022
+ 150 Minuten
+                                     an den Realschulen in Bayern
+
+                                             Mathematik I
+
+
+Name: ______________________________                 Vorname: ______________________________
+
+Klasse: ________                         Platznummer: ________                        Punkte: ________
+
+           Aufgabe A 1                                                       Haupttermin
+
+A 1.0 Mia lernt in der Schule den Begriff „Inflation“ kennen. Damit wird der Preisanstieg von
+      Produkten über einen bestimmten Zeitraum hinweg bezeichnet. Dieser
+      Zusammenhang lässt sich unter der Annahme einer gleichbleibenden jährlichen
+      Preissteigerung von p % näherungsweise durch eine Funktion f mit einer Gleichung
+                                 x
+                           p 
+      der Form y  a  1
+                           100  G
+                                  I  IR   IR  ; a, p  IR   beschreiben. Dabei steht a € für
+                              
+      den Anfangspreis eines Produkts und y € für dessen Preis nach x Jahren.
+      Mia kauft ihrer Mutter jährlich am 1. Juni Rosen beim örtlichen Blumenladen.
+
+A 1.1 Am 1. Juni 2020 kostete eine Rose noch 2,20 €. Am 1. Juni 2022 lag der Preis pro
+      Rose bei 2,50 €.
+      Berechnen Sie den voraussichtlichen Preis einer Rose am 1. Juni 2027 unter der
+      Voraussetzung, dass die jährliche Preissteigerung von p % gleich bleibt.
+      Runden Sie auf zwei Stellen nach dem Komma.
+       Zwischenergebnis: p  6,60 
+
+
+
+
+                                                                                                     3P
+A 1.2 Berechnen Sie, in welchem Jahr Mia erstmals mehr als doppelt so viel für eine Rose
+      bezahlen müsste wie am 1. Juni 2020, wenn man von einer jährlichen
+      Preissteigerung von 6,60 % ausgeht.
+
+
+
+
+                                                                                                     2P
+
+          Aufgabe A 2                                                    Haupttermin 2022
+
+A 2.0 Die Strecke BC  mit dem Mittelpunkt M ist die Basis des gleichschenkligen
+      Dreiecks ABC. Dieses Dreieck ist die Grundfläche der Pyramide ABCS mit der
+      Höhe MS .
+
+      Es gilt: BC  10 cm ; AM  9 cm ; MS  7 cm .
+
+      Die Zeichnung zeigt ein Schrägbild der Pyramide ABCS.
+      In der Zeichnung gilt: q  1 ;   45 ;  AM liegt auf der Schrägbildachse.
+                                 2
+      Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+
+
+
+A 2.1 Berechnen Sie das Maß des Winkels ASM.
+      Ergebnis: ASM  52,13
+
+
+
+
+                                                                                                   1P
+
+A 2.2 Punkte Pn liegen auf der Strecke  AS . Die Winkel SMPn haben das Maß  mit
+         0 ;90  . Punkte Qn liegen auf der Strecke  AM mit       PnQn    AM . Die
+      Dreiecke BCQn sind die Grundflächen der Pyramiden BCQnS mit der Spitze S und
+      der Höhe MS .
+      Zeichnen Sie die Strecken MP1  und PQ
+                                             1 1  sowie die Pyramide BCQ1S für   60 in
+
+      das Schrägbild zu A 2.0 ein.                                                                 2P
+
+         Aufgabe A 2                                               Haupttermin 2022
+
+A 2.3 Zeigen Sie rechnerisch, dass für die Länge der Strecken MPn  in Abhängigkeit
+                                     5,53
+      von  gilt: MPn                        cm .
+                              sin    52,13 
+      Die Länge der Strecke MP0  ist minimal. Geben Sie den zugehörigen Wert für  an.
+
+
+
+
+                                                                                           3P
+
+A 2.4 Zeigen Sie rechnerisch, dass für die Länge der Strecken MQn  in Abhängigkeit
+                                 5,53  sin 
+      von  gilt: MQn                        cm .
+                              sin    52,13 
+      Berechnen Sie sodann das Volumen der Pyramide BCQ1S .
+
+
+
+
+                                                                                           3P
+
+           Aufgabe A 3                                                      Haupttermin 2022
+
+                                                          2  sin2  
+                        5  sin       
+                                              
+                                                                       mit O  0 0  spannen für
+A 3.0 Pfeile OPn                  und OQn            4
+                           5  cos                                  
+                                                         sin  
+        0 ; 90  Dreiecke OPnQn auf.
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+
+
+
+                                                                   
+A 3.1 Geben Sie für   80 die Koordinaten der Pfeile OP1 und OQ1 an.
+       Zeichnen Sie sodann das Dreieck OPQ
+                                         1 1 in das Koordinatensystem zu A 3.0 ein.
+
+
+
+
+                                                                                                     2P
+
+A 3.2 Begründen Sie rechnerisch, weshalb die Länge der Strecken OPn  konstant ist.
+
+
+
+
+                                                                                                     2P
+
+A 3.3 Berechnen Sie das Maß des Winkels POQ
+                                         1 1.
+
+
+
+
+                                                                                                     2P
+
+ Prüfungsdauer:                    Abschlussprüfung 2022
+  150 Minuten
+                                          an den Realschulen in Bayern
+
+                                                    Mathematik I
+
+           Aufgabe B 1                                                             Haupttermin
+
+B 1.0 Gegeben ist die Funktion f1 mit einer Gleichung der Form y  log2  x  b   1
+        GI  IR  IR ; b  IR  . Der Graph zu f1 schneidet die y-Achse im Punkt P  0 3  .
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 1.1 Zeigen Sie rechnerisch, dass die Funktion f1 die Gleichung y  log2  x  4   1 besitzt.
+
+       Zeichnen Sie sodann den Graphen zu f1 für x   3,5; 6 in ein Koordinatensystem.
+
+       Für die Zeichnung: Längeneinheit 1 cm;  6 < x < 6 ;  2 < y < 5                              3P
+
+B 1.2 Der Graph der Funktion f1 wird durch Achsenspiegelung an der x-Achse sowie
+                                                               2
+       anschließende Parallelverschiebung mit dem Vektor v    auf den Graphen der
+                                                         
+
+                                                               3 
+       Funktion f2 abgebildet.
+
+       Zeigen Sie rechnerisch, dass die Funktion f2 die Gleichung y   log2  x  6   2 mit
+       I  IR  IR besitzt.
+       G
+       Zeichnen Sie sodann den Graphen zu f2 für x   5,5; 6 in das Koordinatensystem
+       zu B 1.1 ein.                                                                                 3P
+
+                                    
+B 1.3 Punkte A n x log2  x  4   1 auf dem Graphen zu f1 haben dieselbe Abszisse x wie
+       Punkte C  x  log  x  6   2  auf dem Graphen zu f . Zusammen mit Punkten B
+                  n           2                                    2                             n
+
+       sind sie für x   3,26 die Eckpunkte von rechtwinkligen Dreiecken A nBnCn mit den
+       Hypotenusen BnCn  . Es gilt: A nBn  4 LE .
+       Zeichnen Sie in das Koordinatensystem zu B 1.1 die Dreiecke A 1B1C1 für x  1 und
+       A 2B2C2 für x  5 ein.                                                                        2P
+
+B 1.4 Zeigen Sie, dass für die Länge der Strecken  AnCn  in Abhängigkeit von der
+       Abszisse x der Punkte A n gilt:
+       A nCn  x   log2  x2  10x  24   1 LE .                                             2P
+
+B 1.5 Das Dreieck A 3B3 C3 hat den Flächeninhalt 10 FE.
+       Bestimmen Sie rechnerisch die x-Koordinate des Punktes A 3 .                                  3P
+
+B 1.6 Der Eckpunkt B4 des Dreiecks A 4B4 C4 liegt auf dem Graphen zu f2 .
+       Berechnen Sie die x-Koordinate des Punktes B4 .                                               4P
+
+
+
+                                                   Bitte wenden!
+
+ Prüfungsdauer:               Abschlussprüfung 2022
+  150 Minuten
+                                     an den Realschulen in Bayern
+
+                                             Mathematik I
+
+           Aufgabe B 2                                                       Haupttermin
+
+B 2.0 Gegeben sind die Geraden g: y  0,25x  3 und h: y  0,6x  G
+                                                                  I  IR  IR  .
+
+       Punkte Bn  x 0,25x  3  auf der Geraden g bilden für x  1,57 zusammen mit dem
+       Punkt A  0 0  und Punkten Cn und Dn Rauten ABnCnDn , wobei die Gerade h  ACn
+       eine der Symmetrieachsen der Rauten ist.
+
+       Runden Sie im Folgenden auf zwei Stellen nach dem Komma.
+
+B 2.1 Zeichnen Sie die Geraden g und h sowie die Rauten AB1C1D1 für x  2,5 und
+      AB2 C2D2 für x  7 in ein Koordinatensystem.
+
+       Für die Zeichnung: Längeneinheit 1 cm; 1 < x < 10 ;  4 < y < 8                    3P
+
+B 2.2 Ermitteln Sie rechnerisch die Koordinaten der Punkte Dn in Abhängigkeit von der
+      Abszisse x der Punkte Bn .
+       Ergebnis: Dn  0,69x  2,64 0,76x  1,41                                         3P
+                                                 
+
+B 2.3 Überprüfen Sie rechnerisch, ob die Raute AB2 C2D2 ein Quadrat ist.                   3P
+
+B 2.4 Bestimmen Sie die Gleichung des Trägergraphen t der Punkte Dn .
+       Zeichnen Sie sodann den Trägergraphen t in das Koordinatensystem zu B 2.1 ein.      3P
+
+B 2.5 Der Punkt D3 der Raute AB3 C3D3 liegt auf der y-Achse.
+       Zeichnen Sie die Raute AB3 C3D3 in das Koordinatensystem zu B 2.1 ein.
+       Berechnen Sie sodann die Koordinaten des Punktes C3 sowie den Flächeninhalt der
+       Raute AB3 C3D3 .
+       Teilergebnis: x C  3,83                                                          5P
+                        3       
+
+
+
+
+                                            Bitte wenden!

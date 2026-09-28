@@ -1,0 +1,286 @@
+QUELLE: Bayern, ISB – Jahrgangsstufentest Mathematik Realschule, Jahrgangsstufe 8, Wahlpflichtfächergruppe II/III 2022, Lösung mit Punktverteilung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Jahrgangsstufenarbeiten/Mathematik/2022/_B__2022_JT_Mathe_8_II_Loesung.pdf
+ABRUF: 2026-09-28
+SEITEN: 5
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+       JAHRGANGSSTUFENTEST 2022 IM FACH MATHEMATIK
+    FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+
+
+
+HINWEIS:
+    Bei formalen Mängeln soll großzügig verfahren werden.
+    Es werden nur ganze Punkte vergeben.
+
+
+BEWERTUNGSMAßSTAB:
+           Erreichte Punkte                  Note
+                21 – 17                       1
+                16 – 14                       2
+                13 – 11                       3
+                 10 – 8                       4
+                  7–5                         5
+                  4–0                         6
+
+
+ANMERKUNGEN:
+   Im Lösungsmuster ist zu jeder Aufgabe eine Zuordnung zu den
+   mathematischen Leitideen und den mathematischen Kompetenzen
+   angegeben. Aufgeführt sind jeweils die im Vordergrund stehenden
+   Leitideen und Kompetenzen, bezogen auf den dargestellten Lö-
+   sungsvorschlag.
+
+
+
+MATHEMATISCHE LEITIDEEN – PIKTOGRAMME:
+        ZAHL
+
+        MESSEN
+
+        RAUM UND FORM
+
+        FUNKTIONALER ZUSAMMENHANG
+
+        DATEN UND ZUFALL
+
+               JAHRGANGSSTUFENTEST 2022 IM FACH MATHEMATIK
+            FÜR DIE JAHRGANGSSTUFE 8 DER REALSCHULEN IN BAYERN
+                       WAHLPFLICHTFÄCHERGRUPPE II/III
+                          (ARBEITSZEIT: 45 MINUTEN)
+
+                                                LÖSUNGSMUSTER
+
+
+1 Berechne.                                                                                                  __/1
+                                                                             −1
+                                                                      1
+    a) 2 : 2 =
+           10       7                                         b) 3 +   =
+                                                                     2
+                                                                                                             __/1
+
+                        8                                                   5
+
+
+
+  MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+2 Formuliere das Potenzgesetz, das hier angewandt wurde.                                                     __/1
+                            2+3
+   22 ⋅ 22 = 22 = 22
+       2        3                    5
+
+
+    z. B.: Potenzen mit gleicher Basis multipliziert man, indem man die
+   _______________________________________________________________
+    Exponenten addiert. Die Basis bleibt gleich.
+   _______________________________________________________________
+   KOMMUNIZIEREN
+
+
+3 Bestimme den Wert der Determinante.                                                                        __/1
+           8 −7
+                =                     68
+                                  _____________________________________
+           4  5
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+4 Bestimme das Winkelmaß α im Dreieck ABC.                                                                   __/1
+                                                                                           C
+
+                                                                                         70°
+
+          50                                                                    α                     120°
+   α = ________°
+                                                                     A                                B
+                                                                      Die Skizze ist nicht maßtreu.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+5 Für die Lösungsmenge L einer Ungleichung (G = Q
+                                                I ) gilt: L = {x | x > –2}.                                  __/1
+   Kreuze die dazu passende Lösungsmenge in Intervallschreibweise an.
+     L = [ – 2; + ∞]                 L = [ – ∞; – 2]         L = ] – 2; + ∞[          L = ] – ∞; – 2[
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+6                                               
+                                                  →
+                                                                                                                      __/1
+    Gib die Koordinaten des Pfeils AB
+    mit A (– 3 | 2) und B (1 | – 4) an.
+
+    
+      →              
+     AB =  4 
+                –6 
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+7 Severin behauptet: „In meinem Viereck haben alle vier Innenwinkel das Maß 80°.“                                     __/1
+    Begründe, warum die Aussage falsch ist.
+    _______________________________________________________________
+     z. B.: Die Summe der Maße der Innenwinkel im Viereck muss 360° betragen.
+    _______________________________________________________________
+    MATHEMATISCH ARGUMENTIEREN
+
+
+8 Bestimme das Maß des Winkels β.                                                           f                         __/1
+    Es gilt: g || h.                                                                            30°
+                                                              h                             100°
+
+
+                                                                                  β
+           130 °
+    β = ________
+                                                               g                      Die Skizze ist nicht maßtreu.
+    PROBLEME MATHEMATISCH LÖSEN
+
+
+9 Welches Zahlenrätsel passt zur nachfolgenden Ungleichung (G = Q
+                                                                I )?                                                  __/1
+  Kreuze an.
+                                   x + 3 > 81 : 9
+
+                   Addiert man zu einer Zahl 3, so erhält man mindestens den
+           
+                   Quotienten aus 81 und 9.
+                   Addiert man zu einer Zahl 3, so erhält man mehr als den
+                  Quotienten aus 81 und 9.
+                   Addiert man zu einer Zahl 3, so erhält man mindestens die
+           
+                   Differenz aus 81 und 9.
+                   Addiert man zu einer Zahl 3, so erhält man mehr als die
+           
+                   Differenz aus 81 und 9.
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+10 Elisa hat 3500 € gespart und möchte dafür 140 € Zinsen erhalten.                                                   __/1
+    Wie hoch müsste der Zinssatz sein?
+
+
+
+
+                            4
+    Der Zinssatz müsste _________ % betragen.
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+11 Zeichne alle Punkte Pn ein, für die gilt:                                                   Pn
+                                                                                                                       __/1
+    MPn = 2 cm
+
+
+                                                                                      M
+
+
+
+
+    PROBLEME MATHEMATISCH LÖSEN
+
+
+12 Zeichne den Umkreis eines rechtwinkligen                                                                            __/1
+    Dreiecks ABC mit γ = 90°.                                                     C
+                                                                                                               B
+                                                           z. B.
+                                                                            A
+
+      Das Dreieck muss nicht eingezeichnet werden.
+    PROBLEME MATHEMATISCH LÖSEN
+
+
+13 Vereinfache so weit wie möglich (G = Q
+                                        I ).                                                                           __/1
+                           100x² – 19x
+    81x² – 19x + 19x² = _________________________
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+14 Der Preis eines T-Shirts ist von 20 Euro auf 25 Euro gestiegen.                                                     __/1
+    Gib die Preissteigerung in Prozent an.
+
+
+
+
+                                    25
+    Der Preis des T-Shirts ist um _______ % gestiegen.
+    MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+15 Der Flächeninhalt A des Rechtecks ABCD soll                                        D                            C   __/1
+   weniger als 60 cm² betragen.
+                                                                                  2x cm
+    Stelle eine passende Ungleichung auf (G = Q
+                                              I ).
+
+    (Die Lösungsmenge muss nicht bestimmt werden.)
+                                                                                      A                            B
+                                                                                                        5 cm
+             z. B. 2x ∙ 5 < 60
+    ________________________________                                              Die Skizze ist nicht maßtreu.
+    MATHEMATISCHE DARSTELLUNGEN VERWENDEN
+
+
+16 Erstelle mit mindestens 6 der dargestellten Karten                                     –5    5         –1   1       __/1
+   einen Term T(y), dessen Termwert nie negativ ist (G = Q
+                                                         I ).
+                                                                                          y         y     (    )
+    Jede Karte darf nur einmal verwendet werden.
+                                                                                          +     –         ∙
+               z. B. (5y + 1)²
+    T(y) = __________________                                                             ²         ³
+    PROBLEME MATHEMATISCH LÖSEN
+
+17 Kreuze anhand der Wertetabelle passend an (G = Q
+                                                  I ).                                                  __/1
+
+        x        0,3          1          3
+
+        y        0,9         27          9
+
+    Die Wertepaare gehören zu einer direkten Proportionalität.
+    Die Wertepaare gehören zu einer indirekten Proportionalität.
+    Es liegt keine direkte und keine indirekte Proportionalität vor.
+    Anhand der vorliegenden Werte ist keine Aussage möglich.
+   PROBLEME MATHEMATISCH LÖSEN
+
+
+18 Gib die Lösungsmenge L der Gleichung (G = Q
+                                             I ) an.                                                    __/1
+                                       7x – 31 = 4
+
+
+
+                                                                                               5
+                                                                                      L = { _______ }
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+19 Die Tabelle gibt die Körpergrößen der Spielerinnen der Basketballmannschaft                          __/1
+   „Isar-Igel“ an:
+             Name                          Tina          Danea              Pia   Lilly      Lotti
+        Körpergröße in cm                  154            170               162   158        156
+   Berechne die durchschnittliche Körpergröße der Basketballmannschaft.
+
+
+
+
+                                                   160
+   A: Der Durchschnitt der Körpergrößen beträgt _________ cm.
+   MIT SYMBOLISCHEN, FORMALEN UND TECHNISCHEN ELEMENTEN DER MATHEMATIK UMGEHEN
+
+
+20 Im Rahmen einer Umfrage befragten die Schülerinnen und Schüler der Klasse 8a                         __/1
+   einer Realschule ihre Eltern zu deren Internetnutzung am Handy. Dabei gaben
+   die Eltern an, dass sie 60 % der Zeit für soziale Medien, 30 % für das Surfen im
+   Internet und 10 % für Musik hören verwenden.
+   Kreuze das Kreisdiagramm an, das die Ergebnisse der Umfrage widerspiegelt.
+                                                                               
+
+
+
+
+   MATHEMATISCHE DARSTELLUNGEN VERWENDEN

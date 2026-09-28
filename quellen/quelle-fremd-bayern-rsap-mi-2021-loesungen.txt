@@ -1,0 +1,374 @@
+QUELLE: Bayern, ISB – Abschlussprüfung Realschule Mathematik I (Wahlpflichtfächergruppe I), Haupttermin 2021, Lösungsmuster und Bewertung
+ADRESSE: https://www.isb.bayern.de/fileadmin/user_upload/Realschule/Leistungserhebungen/Abschlusspruefung/Mathematik/2021/2021_mi_ht_l.pdf
+ABRUF: 2026-09-28
+SEITEN: 6
+LIZENZVERMERK: kein Vermerk
+TEXTFASSUNG: pdftotext -layout (poppler 22); Formeln, Abbildungen, Koordinatensysteme und Ankreuzfelder sind im PDF teils Bilder oder Zeichnungen und fehlen im Text oder sind zerlegt.
+
+ Lösungsmuster                     Abschlussprüfung 2021
+ und Bewertung                            an den Realschulen in Bayern
+
+                                                      Mathematik I
+
+
+          Aufgabengruppe A                                                               Haupttermin
+
+AUFGABE A 1: FUNKTIONEN
+
+
+A 1.1 f 10   0,011,510  0,85                                                f 10   1,43
+
+        f 12   0,011,512  0,85                                              f 12   2,15
+                                                                                                           L1
+                                                                                                           L4
+        2,15  1,43                                                                                    3   K3
+                       100%  50,35%                                                                      K5
+            1,43
+        Die Laktat-Konzentration hat sich um 50,35% erhöht.
+
+
+
+A 1.2              x  0,011,5y  0,85                                          I  IR0  IR0
+                                                                                 G
+                                                                                                           L4
+                   …                                                                                   2   K5
+                  y  log1,5 100x  85 
+
+
+AUFGABE A 2: EBENE GEOMETRIE
+
+
+A 2.1                                        y
+                                             1                   t
+                                             A
+                                             O              D2                                     x
+         −5                                           1                      5
+
+
+
+
+                                                                        C2                                 L3
+                                                       D1                                              1   K4
+                                                               B2
+                                                 C1
+
+                                          −5
+                          B1
+
+            g
+
+
+
+
+                                                            Seite 1 von 6
+
+                       
+                           
+A 2.2            AB3  v g  0
+                                     x 
+                           ABn  x                                x  IR ;x   4,25
+                                        0,5x  4 
+                           
+                               2                                                                         L3
+                           vg                                                                        3
+                                                                                                            L4
+                                 1                                                                        K2
+                                                                                                            K5
+                  x  2
+                  0,5x  4    1   0                             x  IR ;x   4,25
+                             
+                 …
+                x  1,6                                              IL  1,6
+
+                                        
+            A ;  45          A ; k  0,5
+A 2.3 ABn I         ABn' I          ADn
+
+         x'            cos45  sin45   x 
+         y '   0,5   sin45 cos45    0,5x  4               I  IR  IR ;x  IR ;x   4,25
+                                                                      G                                     L3
+                                                                                                  3   K2
+                                                                                                            K5
+        …
+         x'   0,18x  1,41
+         y '    0,53x  1,41                                     Dn  0,18x  1,41 0,53x  1,41
+                             
+
+
+A 2.4                xDn  0,18x  1,41
+                                                                      I  IR  IR ;x  IR ;x   4,25
+                                                                      G
+                   yDn  0,53x  1,41
+                 …                                                                                          L4
+
+                yDn  2,94xDn  5,56                                                                   3   K4
+                                                                                                            K5
+
+        t: y  2,94x  5,56                                           I  IR  IR
+                                                                      G
+
+        Einzeichnen des Trägergraphen
+
+AUFGABE A 3: RAUMGEOMETRIE
+
+
+A 3.0            H                               G
+                            R
+
+        E                            F
+
+
+
+
+                               S1
+                 D                               C
+               P ϕ
+                             Q
+        A                                B
+
+                                                                                                            L3
+A 3.1 Einzeichnen der Pyramide EFGHS1                                                                   1   K4
+
+
+                                                      Seite 2 von 6
+
+              1        2
+A 3.2 V           EF  RSn
+            3
+                   RSn  QR  QSn
+                                              QSn
+                                  tan                    QSn     2  tan  cm        l0l; l63,43l        L3
+                                            0,5  4 cm                                                          3    L4
+                                                                                                                     K2
+                   RSn      4  2  tan   cm                                        l0l; l63,43l
+                   1
+       V            4 2   4  2  tan   cm3                                       l0l; l63,43l
+                   3
+       V      21,33  10,67  tan   cm3
+
+
+A 3.3 Für die Pyramide EFGHS0 gilt: RS0  RQ  4 cm .
+              1               1                                                                                 2
+                                                                                                                     L3
+       V0      4 2  4 cm3   VWürfel             VWürfel : V0  3 :1                                            K1
+              3        3
+                        VWürfel
+
+
+
+                                                                                                                21
+
+
+
+         Aufgabengruppe B                                                                       Haupttermin
+
+AUFGABE B 1: FUNKTIONEN
+
+B 1.1 h: x   7
+                                             y
+                                                                                      Graph zu f1
+
+                                                                       D2
+
+                                                                                                C2
+                                   D1        1
+
+                                                                                                                     L4
+                                             O         1                        5                        x
+                                                                                                                2    K4
+                                                                                                                     K5
+                                                                C1
+
+
+                                   A1
+
+
+
+                                                              B1
+                                                                          A2
+                                            −5                                                  B2
+                                                                                          Graph zu f2
+
+
+                                                                Seite 3 von 6
+
+B 1.2              x'             x                
+                   y '                                                                   I  IR  IR ; x  IR
+                                                                                                G
+                       3  log3  x  7   4  
+                 y '   3 log3  x' 7   4
+
+                   x''               x'          1
+                   y ''     3 log x' 7  4     2                                    I  IR  IR ; x'  IR
+                                                                                                G
+                                       3                                                                                L4
+                                                                                                                     3    K4
+                                                                                                                             K5
+                  …
+                 y ''   3  log3  x'' 6   2
+                  f2 : y   3  log3  x  6   2                                             I  IR  IR
+                                                                                                G
+
+        Einzeichnen des Graphen zu f2
+
+
+                                                                                                                             L3
+B 1.3 Einzeichnen der Parallelogramme A 1B1C1D1 und A2B2C2D2                                                            2    K4
+
+
+
+                       
+B 1.4 A  A nDn  d A n ; BnCn       
+                  A nDn  x   3  log3  x  7   4    3  log3  x  6   2   LE    x  IR ; x   3,46
+                  …                                                                                                          L3
+                                                                                                                             L4
+                  A nDn  x   3  log3  x 2  13x  42   6  LE                                                 3    K2
+                                                                                                                             K5
+
+        A  x   3  log3  x 2  13x  42   6   4 FE                                    x  IR ; x   3,46
+
+        A  x   12  log3  x 2  13x  42   24  FE
+
+
+
+B 1.5             3  log3  x  7   4  0                                                     x  IR ; x   3,46
+                  …                                                                                                          L4
+
+                 x   2,67                                                                     IL   2,67          3    K2
+                                                                                                                             K5
+
+
+        A   2,67   5,15 FE
+
+
+
+B 1.6             12  log3  x 2  13x  42   24  16                                         x  IR ; x   3,46
+
+                  …                                                                                                          L3
+                                                                                                                             L4
+                 x   0,24                                                                     IL   0,24          4    K2
+                                                                                                                             K5
+
+            
+        B4  0,24  4  3  log3   0,24  4  6   2                                         B4  3,76  4,22 
+
+
+                                                                                                                        17
+
+
+                                                                Seite 4 von 6
+
+AUFGABE B 2: RAUMGEOMETRIE
+
+
+B 2.1                                        S
+
+
+
+
+                                           F1                      P1
+
+
+
+                                                                                                  L2
+                                                                                                  L3
+                                                                                              3   K4
+                                                                                                  K5
+                                                          D
+
+
+                                                ϕ
+        A                                                                    C
+                                                M
+
+
+
+                                B
+
+                           11 4,5
+        tan MSC                                                          MSC  35,84
+                                9
+
+
+B 2.2 Einzeichnen der Strecke MP1  sowie des Dreiecks BDP1
+
+            MPn                       9 cm                                                        L3
+                                                                             0 ;90
+        sin35,84          sin 180     35,84                                         3
+                                                                                                  L4
+                                                                                                  K2
+                                                                                                  K4
+                              5,27
+        MPn                            cm
+                      sin    35,84 
+
+
+                                                     10
+B 2.3 Für das Dreieck BDP2 gilt: MP2                     3 cm .
+                                                      2
+                  10                  5,27                                                        L3
+                           3                                                 0 ;90   3
+                                                                                                  L4
+                  2             sin    35,84                                                 K2
+                                                                                                  K5
+                  …
+                   1,64                                                IL  1,64
+
+
+
+
+                                                           Seite 5 von 6
+
+B 2.4 Einzeichnen der Höhe FP
+                             1 1
+
+
+                1 1
+           V      BD  MS  FnPn
+                3 2
+                                FnPn
+                      sin                                                           0 ;90
+                                MPn                                                                               L3
+                                                                                                                  L4
+                                        5,27  sin                                                          3
+                      FnPn                            cm                                                      K2
+                                     sin    35,84                                                            K4
+
+
+                      1 1             5,27  sin 
+           V        10  9                     cm3                             0 ;90
+                      3 2          sin    35,84 
+                          79,05  sin 
+           V                           cm3
+                      sin    35,84 
+
+
+
+B 2.5 Für die Pyramide BDSP3 gilt: F3P3  4,5 cm .
+                                 5,27  sin 
+                      4,5                                                            0 ;90               L3
+                              sin    35,84                                                              3
+                                                                                                                  L4
+                                                                                                                  K2
+                      …                                                                                           K5
+
+
+                       58,38                                                   IL  58,38
+
+
+                                                                                                             15
+
+
+
+Hinweis:        Bei einigen Teilaufgaben sind auch andere Lösungswege möglich. Für richtige andere Lösungen gelten
+                die jeweils angegebenen Punkte entsprechend; die Anzahl der Punkte bei den einzelnen Teilaufgaben darf
+                jedoch nicht verändert werden. Insbesondere sind Lösungswege, bei denen der (grafikfähige) Taschen-
+                rechner verwendet wird, entsprechend ihrer Dokumentation bzw. ihrer Nachvollziehbarkeit zu bepunkten.
+
+                Bei der Korrektur ist zu beachten, dass die Vervielfältigung der Lösungsvorlage zu Verzerrungen der
+                Zeichnungen führen kann.
+
+
+
+
+                                                               Seite 6 von 6
