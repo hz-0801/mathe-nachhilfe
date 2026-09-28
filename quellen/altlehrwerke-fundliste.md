@@ -58,3 +58,25 @@ zweites Buch je Eintrag (Begründung in `altlehrwerke-formen.md`).
 
 Handel, keine Quelle: shop.ddrbuch.de, zvab.com, booklooker.de, ebay.de,
 antiquariat.de (Treffer der Suchen, nicht weiter verfolgt).
+
+## Nachtrag 28.09.2026 – Formenlauf 3 (Begründen, Prüfen, Urteilen)
+
+Ergebnis: `altlehrwerke-pflichtformen.md`. Zählung: 6 von 40 Seitenabrufen
+(`bank.md` der Aufgabenbank, die fünf Bände L5-83, L6-88, L7-85, L8-86,
+L9-87 unter denselben download_id wie oben), 0 von 4 Websuchen, 57 von 80
+Buchseiten angesehen. Bände im Scratchpad, danach gelöscht; nichts ins
+Repo gesichert.
+
+| Band | angesehen (gedruckte Seiten) | Nutzen |
+|---|---|---|
+| L5-83 (16239) | 37–42, 143–149 | Urteilen über Antwortsätze, „Welche Ergebnisse können nicht stimmen?“, Verschiebungen wahr/falsch |
+| L6-88 (16209) | 13, 16, 21, 22, 23, 63, 115, 118, 121, 128, 129 | Teilbarkeit begründen, Beispiele mit Bedingung bilden, Winkelsätze begründen |
+| L7-85 (16231) | 11, 29, 33, 34, 35, 137, 139, 144, 145, 148 | „Urteile und begründe!“ mit Personenaussage, Schülerfehler beim Überschlag, Kreissätze |
+| L8-86 (16205) | 15, 43, 47, 61, 80, 97, 103, 105, 109, 114, 115, 157 | Ralf/Peter als Fehlervorlagen, Darstellungsketten der linearen Funktion, Lösungsanhang |
+| L9-87 (16033) | 71, 72, 73, 75, 77, 81, 82, 178, 180, 182, 203 | Umformungen prüfen, fehlerfreie Vorlage (Klaus), Riss ↔ Körper, Lösungsanhang |
+
+Befund zur Lösungslage: nur L8 und L9 haben einen Anhang „Ausgewählte
+Lösungen“ im Band; für L5–L7 liegen die Lösungen in den gesonderten
+Lösungsheften (oben, z. B. 20015 zu L6, 17284 zu L7), nicht angesehen.
+Klasse 10 der Reihe nicht aufgesucht (keine download_id bekannt, für die
+Fragestellung nicht nötig).
