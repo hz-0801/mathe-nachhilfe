@@ -1,0 +1,303 @@
+# Gegenprobe: 301 Zeilen = 301 Verfahrensketten der Bank (hz-0801/aufgabenbank 0420b4c, bank/*/e*.jsonl, Ketten mit hoehe grundfall); 564 baut_auf-Verweise, alle auf vorhandene Zeilen; kein Zyklus; 34 Zeilen ohne baut_auf
+eintrag;einheit;kette_nr;kette;ich_kann;kurz;folge;baut_auf;wortwahl
+ableitung-und-aenderungsrate;1;1;Mittlere Änderungsrate;Ich kann die mittlere Änderungsrate berechnen;Mittlere Änderungsrate;1;einheiten/2/1, lineare-funktionen/1/1, lineare-funktionen/4/1, potenz-exponentialfunktionen/2/2;Differenzenquotient→mittlere Änderungsrate
+ableitung-und-aenderungsrate;2;1;Ableitung an einer Stelle;Ich kann die Steigung an einer Stelle mit f' berechnen;Steigung an einer Stelle;2;ableitungsregeln/1/2, einheiten/2/1, gleichungen-loesen/1/1, potenz-exponentialfunktionen/2/2;Ableitung an einer Stelle→Steigung an einer Stelle
+ableitung-und-aenderungsrate;3;1;Von der Sekante zur Tangente;Ich kann die Tangentensteigung als Grenzwert finden;Von der Sekante zur Tangente;3;kurvenuntersuchung/4/1;
+ableitung-und-aenderungsrate;4;1;Die Rate als Funktion;Ich kann den Graphen von f' als Änderungsrate lesen;Änderungsrate als Funktion;4;einheiten/2/1, gleichungen-loesen/3/1, kurvenuntersuchung/2/1, potenz-exponentialfunktionen/2/2;Rate→Änderungsrate
+ableitungsregeln;1;2;Potenz-, Faktor- und Summenregel;Ich kann ganzrationale Funktionen ableiten;Potenz-, Faktor-, Summenregel;1;binomische-formeln/3/1, bruchrechnung/3/2, lineare-funktionen/1/1, reelle-zahlen/2/1;
+ableitungsregeln;2;1;Kettenregel;Ich kann verkettete Funktionen wie e^(kx) ableiten;Kettenregel;2;ableitung-und-aenderungsrate/2/1, funktionsklassen-und-eigenschaften/3/1, funktionsklassen-und-eigenschaften/5/1, potenz-exponentialfunktionen/1/3;
+ableitungsregeln;3;1;Produktregel;Ich kann Produkte wie x · eˣ ableiten;Produktregel;3;ableitung-und-aenderungsrate/2/1, funktionsklassen-und-eigenschaften/3/1, potenz-exponentialfunktionen/1/3;
+abstaende;1;2;Abstand zweier Punkte;Ich kann den Abstand zweier Punkte berechnen;Abstand zweier Punkte;1;gleichungen-loesen/1/1, vektoren-und-rechenoperationen/1/2;
+abstaende;2;1;Abstand Punkt–Ebene;Ich kann den Abstand eines Punktes zur Ebene berechnen;Abstand Punkt–Ebene;2;ebenen/2/2, gleichungen-loesen/1/1;
+abstaende;3;1;Lotfußpunkt;Ich kann den Lotfußpunkt berechnen;Lotfußpunkt;3;geraden/1/2, orthogonalitaet/4/1;Laufpunkt→(entfällt)
+abstaende;4;1;Abstand als Argument;Ich kann begründen, welche Strecke die kürzeste ist;Kürzeste Strecke begründen;4;orthogonalitaet/4/1, skalarprodukt-und-winkel/1/1;Abstand als Argument→kürzeste Strecke begründen
+bedingte-wahrscheinlichkeit-und-bayes;1;1;Der Quotient;Ich kann bedingte Wahrscheinlichkeiten berechnen;Bedingte Wahrscheinlichkeit;1;vierfeldertafel/1/2;Quotient→bedingte Wahrscheinlichkeit
+bedingte-wahrscheinlichkeit-und-bayes;2;1;Bayes;Ich kann mit dem Satz von Bayes rechnen;Satz von Bayes;2;zufallsexperimente-und-pfadregeln/6/1;
+bedingte-wahrscheinlichkeit-und-bayes;3;1;Mit Parameter;Ich kann bedingte Wahrscheinlichkeiten mit Parameter angeben;Bedingt mit Parameter;3;;
+binomialverteilung;1;1;Modell erkennen;Ich kann erkennen, ob eine Bernoulli-Kette vorliegt;Bernoulli-Kette erkennen;1;wahrscheinlichkeit/3/3, wahrscheinlichkeit/4/1;Modell→Bernoulli-Kette
+binomialverteilung;2;1;Bernoulli-Formel;Ich kann P(X = k) mit der Bernoulli-Formel berechnen;Bernoulli-Formel;2;kombinatorik/2/1, wahrscheinlichkeit/3/3;
+binomialverteilung;3;1;Kumulierte Wahrscheinlichkeiten;Ich kann „höchstens“ und „mindestens“ berechnen;Höchstens und mindestens;3;daten/2/2, kombinatorik/2/1, lineare-gleichungen/2/3, wahrscheinlichkeit/3/3;kumuliert→höchstens/mindestens
+binomialverteilung;4;1;Umkehraufgaben;Ich kann n für „mindestens ein Treffer“ bestimmen;Wie oft mindestens?;4;gleichungen-loesen/2/1, kenngroessen-von-verteilungen/1/1;Umkehraufgabe→n bestimmen
+binomialverteilung;5;1;Verteilung im Diagramm;Ich kann Wahrscheinlichkeiten im Säulendiagramm ablesen;Verteilung im Diagramm;5;daten/2/2, kenngroessen-von-verteilungen/1/1;
+binomische-formeln;1;1;Summe mal Summe;Ich kann zwei Klammern ausmultiplizieren;Klammer mal Klammer;1;rationale-zahlen/3/1, terme/1/1, terme/2/4, terme/3/2;Summe mal Summe→Klammer mal Klammer
+binomische-formeln;2;2;Binomische Formeln;Ich kann mit den binomischen Formeln rechnen;Binomische Formeln;2;potenzen-wurzeln/3/2, terme/1/1, terme/2/4, terme/3/2;
+binomische-formeln;3;1;Faktorisieren;Ich kann Terme mit binomischen Formeln als Produkt schreiben;Als Produkt schreiben;3;potenzen-wurzeln/3/2, terme/1/1, terme/2/4, terme/4/1;Faktorisieren→als Produkt schreiben
+bruchrechnung;1;3;Addieren/Subtrahieren;Ich kann Brüche addieren und subtrahieren;Brüche plus und minus;1;brueche-dezimalzahlen/1/1, brueche-dezimalzahlen/2/1;
+bruchrechnung;2;1;Dezimal addieren/subtrahieren;Ich kann Dezimalzahlen addieren und subtrahieren;Dezimalzahlen plus und minus;2;brueche-dezimalzahlen/4/1;
+bruchrechnung;3;2;Multiplizieren;Ich kann Brüche multiplizieren;Brüche mal;3;brueche-dezimalzahlen/1/1, brueche-dezimalzahlen/2/1;
+bruchrechnung;3;3;Dividieren;Ich kann Brüche dividieren;Brüche geteilt;4;bruchrechnung/3/2;
+bruchrechnung;4;2;Dezimal multiplizieren/dividieren;Ich kann Dezimalzahlen multiplizieren und dividieren;Dezimalzahlen mal und geteilt;5;brueche-dezimalzahlen/4/1;
+bruchrechnung;5;1;Punkt vor Strich;Ich kann mit Punkt vor Strich richtig rechnen;Punkt vor Strich;6;brueche-dezimalzahlen/4/1;
+brueche-dezimalzahlen;1;1;Anteil bestimmen;Ich kann Anteile als Bruch angeben;Anteil als Bruch;1;;
+brueche-dezimalzahlen;1;2;Bruchteil einer Größe;Ich kann den Bruchteil einer Größe berechnen;Bruchteil einer Größe;2;brueche-dezimalzahlen/1/1;
+brueche-dezimalzahlen;2;1;Kürzen und Erweitern;Ich kann Brüche kürzen und erweitern;Kürzen und Erweitern;3;;
+brueche-dezimalzahlen;3;1;Vergleichen;Ich kann Brüche vergleichen;Brüche vergleichen;4;;
+brueche-dezimalzahlen;4;1;Umwandeln;Ich kann Brüche und Dezimalzahlen ineinander umwandeln;Bruch und Dezimalzahl;5;;
+brueche-dezimalzahlen;5;2;Vergleichen und Ordnen;Ich kann Dezimalzahlen vergleichen und ordnen;Dezimalzahlen ordnen;6;prozentrechnung/1/1;
+daten;1;1;Häufigkeiten;Ich kann Häufigkeiten auszählen und angeben;Häufigkeiten;1;;
+daten;1;2;Häufigkeiten, Sek II;Ich kann relative Häufigkeiten in Prozent angeben;Relative Häufigkeiten;2;daten/1/1, prozentrechnung/2/3;
+daten;2;2;Diagramme lesen;Ich kann Werte in Diagrammen ablesen;Diagramme lesen;3;brueche-dezimalzahlen/5/2;
+daten;3;1;Anteile darstellen;Ich kann Anteile im Streifen- und Kreisdiagramm zeigen;Streifen- und Kreisdiagramm;4;winkel-dreiecke/1/2;
+daten;4;1;Kenngrößen;Ich kann Mittelwert, Median und Spannweite bestimmen;Mittelwert, Median, Spannweite;5;bruchrechnung/4/2, brueche-dezimalzahlen/5/2;Kenngrößen→Mittelwert, Median, Spannweite
+daten;4;2;Kenngrößen aus Listen, Sek II;Ich kann Mittelwert und Standardabweichung berechnen;Mittelwert, Standardabweichung;6;daten/4/1, einheiten/2/1;Kenngrößen→Mittelwert und Standardabweichung
+daten;5;1;Beurteilen;Ich kann Aussagen zu Diagrammen prüfen;Diagramme beurteilen;7;brueche-dezimalzahlen/1/2;
+daten;5;2;Boxplot;Ich kann einen Boxplot lesen und zeichnen;Boxplot;8;;
+daten;6;1;Kenngrößen aus Tabellen und Klassen;Ich kann Mittelwerte aus Häufigkeitstabellen berechnen;Mittelwert aus Tabellen;9;lineare-gleichungen/4/1, potenzen-wurzeln/3/2;"gewichtetes Mittel→Mittelwert; Kenngrößen→Mittelwert"
+daten;7;1;Vierfeldertafel füllen;Ich kann eine Vierfeldertafel ausfüllen;Vierfeldertafel füllen;10;prozentrechnung/2/3;
+daten;7;2;Anteile unterscheiden;Ich kann Anteile aus der Vierfeldertafel ablesen;Anteile in der Vierfeldertafel;11;daten/7/1;
+ebenen;1;1;Parameterform;Ich kann eine Ebene in Parameterform aufschreiben;Parameterform;1;geraden/1/2, lineare-gleichungssysteme/3/1, linearkombination-und-lineare-abhaengigkeit/1/1;
+ebenen;2;1;Koordinatengleichung bestimmen;Ich kann die Koordinatengleichung einer Ebene aufstellen;Koordinatengleichung aufstellen;2;geraden/1/2, lineare-funktionen/4/1, lineare-gleichungssysteme/3/1, linearkombination-und-lineare-abhaengigkeit/1/1;
+ebenen;2;2;Normalenvektor und Nachweise;Ich kann den Normalenvektor ablesen und nutzen;Normalenvektor;3;ebenen/2/1;
+ebenen;3;1;Besondere Lagen;Ich kann besondere Ebenen im Koordinatensystem erkennen;Besondere Ebenen;4;geraden/1/2, koerper/1/1, lineare-funktionen/4/1, linearkombination-und-lineare-abhaengigkeit/1/1, pyramide-kegel-kugel/1/5;
+ebenen;4;1;Parallele Ebenen;Ich kann eine parallele Ebene durch einen Punkt aufstellen;Parallele Ebenen;5;linearkombination-und-lineare-abhaengigkeit/1/1;
+einheiten;1;2;Länge, Masse und Geld umrechnen;Ich kann Längen, Gewichte und Geld umrechnen;Länge, Gewicht, Geld;1;bruchrechnung/4/2, winkel-dreiecke/1/2;Masse→Gewicht
+einheiten;1;3;Maßstab im Koordinatensystem, Sek II;Ich kann Längen im Koordinatensystem in cm umrechnen;Längeneinheiten in cm;2;funktionsklassen-und-eigenschaften/6/1, gleichungen-loesen/1/1;Maßstab→Längen in cm
+einheiten;2;1;Zeit umrechnen und Zeitspannen berechnen;Ich kann Zeiten umrechnen und Zeitspannen berechnen;Zeit und Zeitspannen;3;bruchrechnung/4/2, brueche-dezimalzahlen/1/2, winkel-dreiecke/1/2;
+einheiten;3;1;Flächen- und Volumeneinheiten umrechnen;Ich kann Flächen- und Volumeneinheiten umrechnen;Flächen- und Volumeneinheiten;4;brueche-dezimalzahlen/5/2;
+einheiten;3;2;Flächen- und Volumeneinheiten im Koordinatensystem, Sek II;Ich kann Flächeneinheiten im Koordinatensystem umrechnen;Flächeneinheiten in cm²;5;funktionsklassen-und-eigenschaften/6/1, gleichungen-loesen/1/1;
+einheiten;4;1;Mit Größen rechnen im Sachzusammenhang;Ich kann mit Größen in Sachaufgaben rechnen;Größen in Sachaufgaben;6;bruchrechnung/5/1, lineare-gleichungen/2/3, prozentrechnung/3/1;Sachzusammenhang→Sachaufgabe
+einheiten;4;2;Kosten und Einnahmen, Sek II;Ich kann Kosten und Einnahmen berechnen;Kosten und Einnahmen;7;einheiten/4/1;
+extremalprobleme;1;1;Figur und Term;Ich kann Seiten einer Figur als x und f(x) angeben;Figur am Graphen;1;pythagoras/3/2;Term→x und f(x)
+extremalprobleme;2;1;Zielfunktion aufstellen;Ich kann die Zielfunktion aufstellen;Zielfunktion aufstellen;2;pythagoras/3/2, terme/4/1;
+extremalprobleme;3;1;Maximum bestimmen;Ich kann das Maximum berechnen und deuten;Maximum bestimmen;3;kurvenuntersuchung/2/1;
+flaechen;1;2;Rechteck;Ich kann Fläche und Umfang von Rechtecken berechnen;Rechteck;1;einheiten/1/2;
+flaechen;2;1;Parallelogramm;Ich kann die Fläche eines Parallelogramms berechnen;Parallelogramm;2;bruchrechnung/4/2, winkel-dreiecke/3/2;
+flaechen;3;1;Dreieck;Ich kann die Fläche eines Dreiecks berechnen;Dreieck;3;bruchrechnung/4/2, winkel-dreiecke/3/2;
+flaechen;4;1;Trapez;Ich kann die Fläche eines Trapezes berechnen;Trapez;4;bruchrechnung/4/2, lineare-gleichungen/4/1, winkel-dreiecke/3/2;
+flaechen;5;1;Zusammengesetzte Figuren;Ich kann zusammengesetzte Flächen berechnen;Zusammengesetzte Figuren;5;einheiten/1/2;
+flaecheninhalt-durch-integration;1;1;Fläche zwischen Graph und x-Achse;Ich kann die Fläche zwischen Graph und x-Achse berechnen;Fläche Graph und x-Achse;1;funktionsklassen-und-eigenschaften/2/1, quadratische-gleichungen/2/1, stammfunktion-und-hauptsatz/2/1;
+flaecheninhalt-durch-integration;2;1;Fläche zwischen zwei Graphen;Ich kann die Fläche zwischen zwei Graphen berechnen;Fläche zwischen zwei Graphen;2;funktionsklassen-und-eigenschaften/2/1, quadratische-gleichungen/2/1;
+flaecheninhalt-durch-integration;3;1;Zusammensetzen, Maßstab, Volumen;Ich kann zusammengesetzte Flächen mit Integralen berechnen;Zusammengesetzte Flächen;3;einheiten/4/1, strahlensaetze/1/2;
+flaecheninhalt-durch-integration;4;1;Flächenbedingungen;Ich kann einen Parameter aus dem Flächeninhalt bestimmen;Parameter aus der Fläche;4;;Flächenbedingung→Parameter aus dem Flächeninhalt
+flaecheninhalt-durch-integration;5;1;Flächenbilanz;Ich kann Integrale als Flächenbilanz deuten;Flächenbilanz;5;funktionsklassen-und-eigenschaften/4/1;
+flaecheninhalt-und-volumen-im-raum;1;2;Dreiecksflächen;Ich kann Dreiecksflächen im Raum berechnen;Dreiecksflächen im Raum;1;abstaende/1/2, punkte-und-strecken-im-koordinatensystem/3/1;
+flaecheninhalt-und-volumen-im-raum;2;1;Vierecksflächen;Ich kann Vierecksflächen im Raum berechnen;Vierecksflächen im Raum;2;flaechen/5/1;
+flaecheninhalt-und-volumen-im-raum;3;1;Volumen und Oberfläche;Ich kann das Volumen von Pyramide und Prisma berechnen;Pyramide und Prisma;3;pyramide-kegel-kugel/2/2, strahlensaetze/2/1;
+flaecheninhalt-und-volumen-im-raum;4;1;Zusammengesetzt und Verhältnisse;Ich kann Volumen zusammengesetzter Körper berechnen;Zusammengesetzte Körper;4;pyramide-kegel-kugel/2/2, strahlensaetze/2/1;
+funktionsklassen-und-eigenschaften;1;1;Funktionswert und Punkt;Ich kann Funktionswerte berechnen und als Punkt angeben;Funktionswert und Punkt;1;einheiten/1/3, strahlensaetze/1/2;
+funktionsklassen-und-eigenschaften;2;1;Nullstellen;Ich kann Nullstellen berechnen;Nullstellen;2;einheiten/1/3, strahlensaetze/1/2;
+funktionsklassen-und-eigenschaften;3;1;Definitionsbereich, Wertemenge und Schranken;Ich kann Definitionsbereich und Wertemenge angeben;Definitions- und Wertebereich;3;potenz-exponentialfunktionen/5/3, trigonometrische-funktionen/2/1;
+funktionsklassen-und-eigenschaften;4;1;Symmetrie;Ich kann Symmetrie am Funktionsterm erkennen;Symmetrie;4;symmetrie-abbildungen/1/2;
+funktionsklassen-und-eigenschaften;5;1;Transformationen;Ich kann Verschieben und Strecken am Term ablesen;Verschieben und Strecken;5;potenz-exponentialfunktionen/5/3, trigonometrische-funktionen/2/1;Transformationen→Verschieben und Strecken
+funktionsklassen-und-eigenschaften;6;1;Graph und Term;Ich kann Graph und Funktionsterm einander zuordnen;Graph und Term;6;lineare-funktionen/4/1, potenz-exponentialfunktionen/5/3, trigonometrische-funktionen/2/1;
+funktionsscharen-und-ortskurven;1;1;Scharbegriff und Parameterwert;Ich kann mit einer Funktionsschar rechnen;Funktionsschar;1;quadratische-funktionen/1/1, terme/4/1;Scharbegriff→Funktionsschar
+funktionsscharen-und-ortskurven;2;1;Eigenschaften aller Graphen;Ich kann Eigenschaften aller Graphen einer Schar zeigen;Eigenschaften der Schar;2;quadratische-gleichungen/1/2, terme/4/1;
+funktionsscharen-und-ortskurven;3;1;Extrem- und Wendepunkte mit Parameter;Ich kann Extrem- und Wendepunkte mit Parameter berechnen;Extrempunkte mit Parameter;3;quadratische-gleichungen/1/2, terme/4/1;
+funktionsscharen-und-ortskurven;4;1;Parameter aus Bedingungen;Ich kann einen Parameter aus Bedingungen bestimmen;Parameter bestimmen;4;terme/4/1;
+funktionsscharen-und-ortskurven;5;1;Ortskurve und Kurvenvergleich;Ich kann die Ortskurve von Extrempunkten bestimmen;Ortskurve;5;terme/4/1;
+geraden;1;2;Geradengleichung aufstellen und lesen;Ich kann eine Geradengleichung im Raum aufstellen;Geradengleichung;1;punkte-und-strecken-im-koordinatensystem/1/1, skalarprodukt-und-winkel/1/1;
+geraden;2;1;Punktprobe und Punkte auf der Geraden;Ich kann prüfen, ob ein Punkt auf einer Geraden liegt;Punktprobe;2;vektoren-und-rechenoperationen/1/2;
+geraden;3;1;Lage als Anhang;Ich kann die Lage zweier Geraden begründen;Lage zweier Geraden;3;linearkombination-und-lineare-abhaengigkeit/1/1, vektoren-und-rechenoperationen/1/2;Lage als Anhang→Lage zweier Geraden
+geraden;4;1;Sachgeraden;Ich kann Sachsituationen mit Geraden beschreiben;Geraden in Sachaufgaben;4;lineare-funktionen/1/1, punkte-und-strecken-im-koordinatensystem/1/1;Sachgeraden→Geraden in Sachaufgaben
+gleichungen-loesen;1;1;Schnittpunkte und Stellen;Ich kann Schnittpunkte von Graphen berechnen;Schnittpunkte berechnen;1;potenz-exponentialfunktionen/5/2, quadratische-funktionen/4/1, quadratische-gleichungen/3/3, reelle-zahlen/2/1, terme/4/1;
+gleichungen-loesen;2;1;Gleichungen mit e-Funktion und Logarithmus;Ich kann Gleichungen mit e und ln lösen;Gleichungen mit e und ln;2;ableitungsregeln/1/2, funktionsklassen-und-eigenschaften/3/1, potenz-exponentialfunktionen/5/2, quadratische-funktionen/4/1, quadratische-gleichungen/3/3;Logarithmus→ln
+gleichungen-loesen;3;1;Gleichungen aufstellen und grafisch oder numerisch lösen;Ich kann Gleichungen aufstellen und grafisch lösen;Grafisch und numerisch lösen;3;ableitungsregeln/1/2, quadratische-funktionen/4/1, quadratische-gleichungen/3/3, strahlensaetze/1/2, trigonometrie/2/1, trigonometrische-funktionen/1/1;
+gleichungen-loesen;4;1;Ungleichungen;Ich kann Ungleichungen lösen;Ungleichungen;4;quadratische-funktionen/4/1, quadratische-gleichungen/3/3, terme/4/1;
+grenzwerte-und-verhalten-im-unendlichen;1;2;Ganzrationale Funktionen;Ich kann angeben, wohin ganzrationale Graphen laufen;Verhalten im Unendlichen;1;funktionsklassen-und-eigenschaften/1/1;Verhalten im Unendlichen→wohin der Graph läuft
+grenzwerte-und-verhalten-im-unendlichen;2;1;Produkte aus Polynom und e-Funktion;Ich kann Grenzwerte von Termen mit eˣ angeben;Grenzwerte mit eˣ;2;funktionsklassen-und-eigenschaften/5/1, quadratische-gleichungen/3/3;Produkte aus Polynom und e-Funktion→Terme mit eˣ
+grenzwerte-und-verhalten-im-unendlichen;3;1;Waagerechte Asymptoten;Ich kann waagerechte Asymptoten angeben;Waagerechte Asymptoten;3;funktionsklassen-und-eigenschaften/5/1, quadratische-gleichungen/3/3;
+hypergeometrische-verteilung;1;1;Genau k ohne Zurücklegen;Ich kann Wahrscheinlichkeiten ohne Zurücklegen berechnen;Genau k ohne Zurücklegen;1;binomialverteilung/1/1, kombinatorik/2/1, zufallsexperimente-und-pfadregeln/4/1;hypergeometrisch→ohne Zurücklegen
+hypergeometrische-verteilung;2;1;Kumulieren;Ich kann „höchstens k“ ohne Zurücklegen berechnen;Höchstens k ohne Zurücklegen;2;;Kumulieren→höchstens
+hypothesentests;1;1;Entscheidungsregel;Ich kann eine Entscheidungsregel für einen Test bestimmen;Entscheidungsregel;1;binomialverteilung/3/1, binomialverteilung/5/1, kenngroessen-von-verteilungen/4/1;
+hypothesentests;2;1;Wahl der Nullhypothese;Ich kann die Nullhypothese passend wählen;Nullhypothese wählen;2;;
+hypothesentests;3;1;Fehlerarten und Güte;Ich kann Fehler erster und zweiter Art berechnen;Fehler erster und zweiter Art;3;binomialverteilung/3/1, lineare-funktionen/1/1;Fehlerarten und Güte→Fehler erster und zweiter Art
+integrationsregeln;1;1;Der Regelsatz;Ich kann Stammfunktionen mit den Regeln bilden;Integrationsregeln;1;potenzen-wurzeln/1/3;Regelsatz→Regeln
+integrationsregeln;2;1;Vorgegebene Regeln anwenden;Ich kann vorgegebene Integrationsregeln anwenden;Vorgegebene Regeln;2;terme/4/1;
+kenngroessen-von-verteilungen;1;1;Erwartungswert berechnen und deuten;Ich kann den Erwartungswert berechnen und deuten;Erwartungswert;1;wahrscheinlichkeit/3/3, zufallsgroessen-und-verteilungen/1/2;
+kenngroessen-von-verteilungen;2;1;Rückwärts;Ich kann einen fairen Einsatz berechnen;Faires Spiel;2;quadratische-gleichungen/1/2, wahrscheinlichkeit/3/3;Rückwärts→fairer Einsatz
+kenngroessen-von-verteilungen;3;1;Streuung;Ich kann Varianz und Standardabweichung berechnen;Standardabweichung;3;binomialverteilung/1/1;Streuung→Standardabweichung
+kenngroessen-von-verteilungen;4;1;Diagramm;Ich kann Erwartungswert und p am Säulendiagramm ablesen;Kenngrößen im Diagramm;4;binomialverteilung/1/1;
+koerper;1;1;Körper und Netze;Ich kann Körper erkennen und ihre Netze zeichnen;Körper und Netze;1;;
+koerper;2;1;Quader;Ich kann Volumen und Oberfläche eines Quaders berechnen;Quader;2;einheiten/3/1, flaechen/5/1;
+koerper;3;1;Prisma;Ich kann das Volumen eines Prismas berechnen;Prisma;3;flaechen/5/1, lineare-gleichungen/4/1, potenzen-wurzeln/3/2;
+koerper;4;2;Zylinder;Ich kann Volumen und Oberfläche eines Zylinders berechnen;Zylinder;4;einheiten/3/1, flaechen/5/1, lineare-gleichungen/4/1, potenzen-wurzeln/3/2;
+koerper;5;1;Zusammengesetzt;Ich kann zusammengesetzte Körper berechnen;Zusammengesetzte Körper;5;einheiten/3/1, flaechen/5/1;
+kombinatorik;1;1;Zählprinzip und Anordnungen;Ich kann Möglichkeiten mit dem Zählprinzip zählen;Zählprinzip;1;potenzen-wurzeln/2/1, wahrscheinlichkeit/1/1;
+kombinatorik;2;1;Auswahlen und Binomialkoeffizient;Ich kann Auswahlen mit dem Binomialkoeffizienten zählen;Binomialkoeffizient;2;potenzen-wurzeln/2/1, wahrscheinlichkeit/1/1;
+kombinatorik;3;1;Zählen mit Bedingungen und Wahrscheinlichkeitsterme;Ich kann mit Bedingungen zählen;Zählen mit Bedingungen;3;binomialverteilung/4/1, wahrscheinlichkeit/1/1, zufallsexperimente-und-pfadregeln/3/1;
+konfidenzintervalle;1;1;Lesen und Überdeckung;Ich kann ein Konfidenzintervall ablesen und deuten;Konfidenzintervall lesen;1;lineare-funktionen/1/1, normalverteilung-und-sigma-regeln/2/1, prozentrechnung/2/3;Überdeckung→deuten
+konfidenzintervalle;2;1;Näherungsformel;Ich kann ein Konfidenzintervall mit der Formel berechnen;Mit der Formel rechnen;2;gleichungen-loesen/3/1;Näherungsformel→Formel
+konfidenzintervalle;3;1;Argumente;Ich kann mit Konfidenzintervallen argumentieren;Mit Intervallen argumentieren;3;;
+kreis;1;2;Umfang;Ich kann den Umfang eines Kreises berechnen;Kreisumfang;1;flaechen/1/2, lineare-gleichungen/4/1;
+kreis;2;1;Fläche;Ich kann den Flächeninhalt eines Kreises berechnen;Kreisfläche;2;flaechen/1/2, lineare-gleichungen/4/1;
+kreis;3;1;Kreisteile;Ich kann Kreisausschnitte und Kreisbögen berechnen;Kreisausschnitt und Kreisbogen;3;prozentrechnung/2/3;Kreisteile→Kreisausschnitt und Kreisbogen
+kurvenuntersuchung;1;1;Monotonie;Ich kann mit f' zeigen, wo ein Graph steigt oder fällt;Steigen und Fallen;1;ableitungsregeln/1/2, gleichungen-loesen/1/1, quadratische-funktionen/2/1;Monotonie→steigt oder fällt
+kurvenuntersuchung;2;1;Extrempunkte berechnen;Ich kann Extrempunkte berechnen;Extrempunkte berechnen;2;ableitungsregeln/1/2, funktionsklassen-und-eigenschaften/5/1, gleichungen-loesen/1/1, quadratische-funktionen/2/1;
+kurvenuntersuchung;2;2;Extrempunkte nachweisen;Ich kann nachweisen, dass ein Extrempunkt vorliegt;Extrempunkte nachweisen;3;;
+kurvenuntersuchung;3;1;Wendepunkte und Krümmung;Ich kann Wendepunkte und Krümmung bestimmen;Wendepunkte und Krümmung;4;ableitungsregeln/1/2, funktionsklassen-und-eigenschaften/5/1, gleichungen-loesen/1/1, quadratische-funktionen/2/1;
+kurvenuntersuchung;4;1;Graph und Ableitungsgraph;Ich kann den Graphen von f' aus dem Graphen von f skizzieren;Graph und Ableitungsgraph;5;ableitung-und-aenderungsrate/2/1, funktionsklassen-und-eigenschaften/5/1, quadratische-funktionen/2/1;
+kurvenuntersuchung;5;1;Sachzusammenhang;Ich kann Kurven im Sachzusammenhang deuten;Kurven im Sachzusammenhang;6;ableitung-und-aenderungsrate/2/1;
+lagebeziehungen;1;2;Punktprobe und Seitenlage;Ich kann prüfen, ob ein Punkt in einer Ebene liegt;Punkt und Ebene;1;ebenen/2/1;Seitenlage→(entfällt)
+lagebeziehungen;2;1;Parameter aus der Lagebedingung;Ich kann einen Parameter aus der Lage bestimmen;Parameter aus der Lage;2;quadratische-gleichungen/1/2;Lagebedingung→Lage
+lagebeziehungen;3;1;Gerade und Ebene;Ich kann die Lage von Gerade und Ebene bestimmen;Gerade und Ebene;3;funktionsscharen-und-ortskurven/1/1, geraden/1/2;
+lagebeziehungen;4;1;Lagebefunde im Sachzusammenhang;Ich kann Lagen im Sachzusammenhang deuten;Lage im Sachzusammenhang;4;geraden/1/2, quadratische-gleichungen/1/2;Lagebefunde→Lagen
+lineare-funktionen;1;1;Proportionale Funktion;Ich kann proportionale Funktionen zeichnen;Proportionale Funktion;1;rationale-zahlen/3/1, zuordnungen/2/4;
+lineare-funktionen;2;4;Graph zeichnen;Ich kann den Graphen von y = m·x + n zeichnen;Gerade zeichnen;2;bruchrechnung/3/2;
+lineare-funktionen;2;5;Ablesen;Ich kann Steigung und y-Achsenabschnitt ablesen;m und n ablesen;3;lineare-funktionen/2/4;
+lineare-funktionen;3;2;Funktionswert;Ich kann Funktionswerte berechnen und Punkte prüfen;Punkte und Werte;4;;
+lineare-funktionen;4;1;Gleichung bestimmen;Ich kann die Gleichung einer Geraden bestimmen;Geradengleichung bestimmen;5;terme/2/4;
+lineare-funktionen;5;1;Anwendung;Ich kann lineare Funktionen in Sachaufgaben nutzen;Sachaufgaben;6;zuordnungen/2/4;Anwendung→Sachaufgabe
+lineare-gleichungen;1;2;Lösung prüfen;Ich kann prüfen, ob eine Zahl eine Gleichung löst;Lösung prüfen;1;;
+lineare-gleichungen;1;3;Durch Probieren lösen;Ich kann Gleichungen durch Probieren lösen;Durch Probieren lösen;2;lineare-gleichungen/1/2;
+lineare-gleichungen;2;3;Umformen;Ich kann Gleichungen durch Umformen lösen;Gleichungen umformen;3;terme/2/4;Äquivalenzumformung→umformen
+lineare-gleichungen;3;1;x beidseitig;Ich kann Gleichungen mit x auf beiden Seiten lösen;x auf beiden Seiten;4;bruchrechnung/1/3, terme/2/4, terme/3/2;x beidseitig→x auf beiden Seiten
+lineare-gleichungen;4;1;Aufstellen;Ich kann Gleichungen zu Sachaufgaben aufstellen;Gleichungen aufstellen;5;;
+lineare-gleichungssysteme;1;1;Grafisch;Ich kann Gleichungssysteme zeichnerisch lösen;Zeichnerisch lösen;1;lineare-funktionen/2/4, lineare-gleichungen/1/2, lineare-gleichungen/4/1;grafisch→zeichnerisch
+lineare-gleichungssysteme;1;2;Grafisch, Sek II;Ich kann unendlich viele Lösungen als Gerade zeichnen;Lösungsmenge zeichnen;2;lineare-gleichungssysteme/1/1;Lösungsmenge→unendlich viele Lösungen
+lineare-gleichungssysteme;2;1;Einsetzen;Ich kann Gleichungssysteme durch Einsetzen lösen;Einsetzungsverfahren;3;bruchrechnung/4/2, lineare-gleichungen/1/2, lineare-gleichungen/2/3, lineare-gleichungen/4/1, rationale-zahlen/1/1, terme/1/1;
+lineare-gleichungssysteme;3;1;Addition;Ich kann Gleichungssysteme durch Addieren lösen;Additionsverfahren;4;bruchrechnung/4/2, lineare-gleichungen/1/2, lineare-gleichungen/2/3, rationale-zahlen/1/1, terme/1/1;
+lineare-gleichungssysteme;3;2;Addition, Sek II;Ich kann Sonderfälle beim Additionsverfahren erkennen;Sonderfälle erkennen;5;lineare-gleichungssysteme/3/1;
+lineare-gleichungssysteme;4;1;Sachaufgaben;Ich kann Gleichungssysteme zu Sachaufgaben aufstellen;Sachaufgaben;6;bruchrechnung/4/2, lineare-gleichungen/1/2, lineare-gleichungen/2/3, lineare-gleichungen/4/1, rationale-zahlen/1/1;
+lineare-gleichungssysteme;4;2;Sachaufgaben, Sek II;Ich kann Gleichungssysteme als Sätze lesen;Gleichungen als Sätze lesen;7;lineare-gleichungssysteme/4/1;
+lineare-gleichungssysteme;5;1;Drei Variablen und Lösungsvielfalt;Ich kann Gleichungssysteme mit drei Variablen lösen;Drei Variablen;8;gleichungen-loesen/2/1, lineare-gleichungen/3/1;Lösungsvielfalt→(entfällt)
+linearkombination-und-lineare-abhaengigkeit;1;1;Kollinearität und lineare Abhängigkeit;Ich kann prüfen, ob Vektoren Vielfache sind;Vielfache erkennen;1;;"Kollinearität→Vielfache; lineare Abhängigkeit→Vielfache"
+linearkombination-und-lineare-abhaengigkeit;2;1;Linearkombination mit Nebenbedingung;Ich kann Linearkombinationen mit r + s = 1 deuten;Linearkombination;2;geraden/1/2;Nebenbedingung→r + s = 1
+matrizen-und-uebergangsprozesse;1;1;Matrizen als Rechenobjekte;Ich kann Matrizen mit Vektoren multiplizieren;Matrix mal Vektor;1;daten/2/2, lineare-gleichungssysteme/1/1, prozentrechnung/5/2;Rechenobjekte→(entfällt)
+matrizen-und-uebergangsprozesse;2;1;Vektoren unter Matrizen;Ich kann einen Fixvektor einer Matrix bestimmen;Fixvektor;2;;
+matrizen-und-uebergangsprozesse;3;1;Verflechtung;Ich kann Rohstoffbedarf mit Matrizen berechnen;Rohstoffbedarf;3;vektoren-und-rechenoperationen/3/1;Verflechtung→Rohstoffbedarf
+matrizen-und-uebergangsprozesse;4;1;Übergangsmodell;Ich kann Übergänge mit Diagramm und Matrix beschreiben;Übergänge beschreiben;4;vektoren-und-rechenoperationen/3/1;Übergangsmodell→Übergänge
+matrizen-und-uebergangsprozesse;5;1;Stationär und langfristig;Ich kann berechnen, was sich langfristig einstellt;Langfristige Verteilung;5;potenz-exponentialfunktionen/5/1;stationär→langfristig
+normalverteilung-und-sigma-regeln;1;1;Modell und Glockenkurve;Ich kann die Glockenkurve lesen und skizzieren;Glockenkurve;1;flaecheninhalt-durch-integration/3/1, kenngroessen-von-verteilungen/1/1;
+normalverteilung-und-sigma-regeln;2;1;Wahrscheinlichkeiten berechnen;Ich kann Wahrscheinlichkeiten bei Normalverteilung berechnen;Normalverteilung berechnen;2;flaecheninhalt-durch-integration/3/1;
+normalverteilung-und-sigma-regeln;3;1;Umkehraufgaben und Argumente;Ich kann μ und σ aus Vorgaben bestimmen;μ und σ bestimmen;3;flaecheninhalt-durch-integration/3/1, kenngroessen-von-verteilungen/1/1;Umkehraufgaben→μ und σ bestimmen
+orthogonalitaet;1;4;Rechte Winkel nachweisen;Ich kann rechte Winkel im Dreieck nachweisen;Rechten Winkel nachweisen;1;skalarprodukt-und-winkel/1/1;
+orthogonalitaet;2;1;Rechte Winkel rückwärts;Ich kann einen Parameter für einen rechten Winkel bestimmen;Parameter für rechten Winkel;2;lineare-gleichungssysteme/3/1, quadratische-gleichungen/1/2, vektoren-und-rechenoperationen/1/2;rückwärts→Parameter bestimmen
+orthogonalitaet;3;1;Senkrecht zu Geraden und Ebenen;Ich kann zeigen, dass Gerade und Ebene senkrecht sind;Senkrecht zu Ebenen;3;ebenen/2/1;
+orthogonalitaet;4;1;Lot und Extremum;Ich kann die kürzeste Verbindung über das Lot finden;Lot und kürzester Weg;4;strahlensaetze/2/1;Extremum→kürzeste Verbindung
+potenz-exponentialfunktionen;1;1;Wachstumsart erkennen und begründen;Ich kann lineares und exponentielles Wachstum unterscheiden;Linear oder exponentiell?;1;lineare-funktionen/2/4, prozentrechnung/5/2, zuordnungen/1/1;
+potenz-exponentialfunktionen;1;2;Graph zu einem Wachstumsprozess auswählen;Ich kann den passenden Graphen zu einem Wachstum wählen;Passenden Graphen wählen;2;potenz-exponentialfunktionen/1/1;
+potenz-exponentialfunktionen;1;3;Wertepaare darstellen;Ich kann Wertepaare in ein Koordinatensystem eintragen;Wertepaare eintragen;3;;
+potenz-exponentialfunktionen;2;1;Wachstumsfaktor bestimmen;Ich kann den Wachstumsfaktor bestimmen;Wachstumsfaktor;4;bruchrechnung/3/2, prozentrechnung/2/3, zinsrechnung/2/1;
+potenz-exponentialfunktionen;2;2;Wachstumstabelle fortschreiben;Ich kann eine Wachstumstabelle fortsetzen;Wachstumstabelle;5;potenz-exponentialfunktionen/2/1;
+potenz-exponentialfunktionen;3;1;Exponentialfunktion aufstellen und deuten;Ich kann eine Exponentialfunktion aufstellen;Exponentialfunktion aufstellen;6;zinsrechnung/2/1;
+potenz-exponentialfunktionen;3;2;Wert und Schwellenwert berechnen;Ich kann Werte und Zeitpunkte bei Wachstum berechnen;Wert und Zeitpunkt berechnen;7;potenz-exponentialfunktionen/3/1;Schwellenwert→Zeitpunkt
+potenz-exponentialfunktionen;4;1;Verdopplungs- und Halbwertszeit;Ich kann Verdopplungs- und Halbwertszeit bestimmen;Verdopplung und Halbwertszeit;8;potenzen-wurzeln/1/3, prozentrechnung/5/2, zuordnungen/1/1;
+potenz-exponentialfunktionen;5;1;Wertetabelle und Graph;Ich kann Wertetabelle und Graph von xⁿ erstellen;Potenzfunktion zeichnen;9;koerper/2/1, lineare-funktionen/1/1, quadratische-funktionen/1/1, reelle-zahlen/3/1, symmetrie-abbildungen/3/1, zuordnungen/1/1;
+potenz-exponentialfunktionen;5;2;Funktionswert, Punktprobe und Argument;Ich kann Funktionswerte von Potenzfunktionen berechnen;Potenzfunktion: Werte, Punkte;10;potenz-exponentialfunktionen/5/1;Punktprobe→Punkte prüfen
+potenz-exponentialfunktionen;5;3;Potenzfunktion vom exponentiellen Term unterscheiden;Ich kann xⁿ und aˣ unterscheiden;xⁿ oder aˣ?;11;;Potenzfunktion vom exponentiellen Term→xⁿ und aˣ
+potenzen-wurzeln;1;3;Potenzen;Ich kann Potenzen berechnen;Potenzen;1;bruchrechnung/4/2, brueche-dezimalzahlen/5/2;
+potenzen-wurzeln;2;1;Zehnerpotenzen;Ich kann Zahlen mit Zehnerpotenzen schreiben;Zehnerpotenzen;2;bruchrechnung/4/2, rationale-zahlen/1/1;
+potenzen-wurzeln;3;2;Quadratwurzeln;Ich kann Quadratwurzeln ziehen;Quadratwurzeln;3;bruchrechnung/4/2, rationale-zahlen/1/1, rationale-zahlen/3/1;
+prozentrechnung;1;1;Umwandeln;Ich kann Anteile in Prozent angeben;Prozent als Anteil;1;bruchrechnung/1/3, brueche-dezimalzahlen/4/1;Umwandeln→in Prozent angeben
+prozentrechnung;2;3;Prozentsatz;Ich kann den Prozentsatz berechnen;Prozentsatz;2;zuordnungen/1/1;
+prozentrechnung;3;1;Prozentwert;Ich kann den Prozentwert berechnen;Prozentwert;3;brueche-dezimalzahlen/1/2, zuordnungen/1/1;
+prozentrechnung;4;2;Grundwert;Ich kann den Grundwert berechnen;Grundwert;4;zuordnungen/1/1;
+prozentrechnung;5;2;Veränderung;Ich kann Preiserhöhungen und Rabatte berechnen;Erhöhung und Rabatt;5;brueche-dezimalzahlen/5/2;prozentuale Veränderung→Erhöhung und Rabatt
+punkte-und-strecken-im-koordinatensystem;1;1;Darstellen und Lage lesen;Ich kann Punkte im räumlichen Koordinatensystem eintragen;Punkte im Raum;1;vektoren-und-rechenoperationen/1/2;
+punkte-und-strecken-im-koordinatensystem;2;1;Streckenlänge, Mittelpunkt, Teilpunkte;Ich kann Streckenlängen und Mittelpunkte berechnen;Länge und Mittelpunkt;2;potenzen-wurzeln/3/2, vektoren-und-rechenoperationen/1/2;Teilpunkte→(entfällt)
+punkte-und-strecken-im-koordinatensystem;3;1;Dreiecke nachweisen;Ich kann besondere Dreiecke mit Vektoren nachweisen;Dreiecke nachweisen;3;skalarprodukt-und-winkel/1/1;
+punkte-und-strecken-im-koordinatensystem;4;1;Vierecke nachweisen;Ich kann besondere Vierecke mit Vektoren nachweisen;Vierecke nachweisen;4;linearkombination-und-lineare-abhaengigkeit/1/1, skalarprodukt-und-winkel/1/1;
+punkte-und-strecken-im-koordinatensystem;5;1;Körper und Drehungen;Ich kann Ecken von Körpern im Raum bestimmen;Körper im Koordinatensystem;5;vektoren-und-rechenoperationen/1/2;
+pyramide-kegel-kugel;1;5;Pyramide;Ich kann Volumen und Oberfläche einer Pyramide berechnen;Pyramide;1;bruchrechnung/3/3, koerper/3/1, kreis/2/1, pythagoras/2/2;
+pyramide-kegel-kugel;2;2;Kegel;Ich kann Volumen und Oberfläche eines Kegels berechnen;Kegel;2;bruchrechnung/3/3, koerper/3/1, kreis/1/2, kreis/2/1, pythagoras/2/2, terme/4/1;
+pyramide-kegel-kugel;3;1;Kugel;Ich kann Volumen und Oberfläche einer Kugel berechnen;Kugel;3;bruchrechnung/3/3, einheiten/4/1, kreis/1/2, potenzen-wurzeln/3/2;
+pythagoras;1;2;Hypotenuse;Ich kann mit Pythagoras die Hypotenuse berechnen;Hypotenuse berechnen;1;einheiten/4/1, potenzen-wurzeln/3/2, winkel-dreiecke/3/2;
+pythagoras;2;2;Kathete;Ich kann mit Pythagoras eine Kathete berechnen;Kathete berechnen;2;einheiten/4/1, lineare-gleichungen/4/1, potenzen-wurzeln/3/2, winkel-dreiecke/3/2;
+pythagoras;3;2;Figuren und Körper;Ich kann Pythagoras in Figuren und Körpern anwenden;Pythagoras in Figuren;3;bruchrechnung/2/1, flaechen/2/1, kreis/1/2, pyramide-kegel-kugel/1/5;
+quadratische-funktionen;1;1;Normalparabel und Streckfaktor;Ich kann Normalparabel und gestreckte Parabeln zeichnen;Normalparabel und Streckung;1;lineare-funktionen/3/2, potenzen-wurzeln/3/2;Streckfaktor→gestreckt
+quadratische-funktionen;2;1;Scheitelpunktform;Ich kann mit der Scheitelpunktform arbeiten;Scheitelpunktform;2;potenzen-wurzeln/3/2;
+quadratische-funktionen;3;1;Normalform;Ich kann Parabeln in Normalform untersuchen;Normalform;3;binomische-formeln/2/2;
+quadratische-funktionen;4;1;Nullstellen und Schnittpunkte;Ich kann Nullstellen von Parabeln berechnen;Nullstellen und Schnittpunkte;4;binomische-formeln/2/2, lineare-funktionen/3/2, lineare-funktionen/4/1, lineare-gleichungssysteme/2/1, quadratische-gleichungen/1/2;
+quadratische-gleichungen;1;2;Wurzelziehen und Lösbarkeit;Ich kann Gleichungen wie x² = 9 durch Wurzelziehen lösen;Wurzelziehen;1;lineare-gleichungen/1/2, lineare-gleichungen/2/3, potenzen-wurzeln/3/2;Lösbarkeit→(entfällt)
+quadratische-gleichungen;2;1;Nullprodukt;Ich kann Gleichungen wie (x − 2)(x + 3) = 0 lösen;Produkt gleich null;2;binomische-formeln/2/2, lineare-gleichungen/1/2, lineare-gleichungen/2/3;Nullprodukt→Produkt gleich null
+quadratische-gleichungen;3;3;p-q-Formel;Ich kann quadratische Gleichungen mit der p-q-Formel lösen;p-q-Formel;3;binomische-formeln/2/2, lineare-gleichungen/1/2, lineare-gleichungen/2/3;
+quadratische-gleichungen;4;1;Sachaufgaben;Ich kann Sachaufgaben mit quadratischen Gleichungen lösen;Sachaufgaben;4;lineare-gleichungen/1/2, lineare-gleichungen/2/3, potenzen-wurzeln/3/2;
+rationale-zahlen;1;1;Ordnen;Ich kann negative Zahlen ordnen;Negative Zahlen ordnen;1;brueche-dezimalzahlen/5/2;
+rationale-zahlen;2;3;Addieren/Subtrahieren;Ich kann mit negativen Zahlen plus und minus rechnen;Negative Zahlen: plus, minus;2;bruchrechnung/1/3;Addieren/Subtrahieren→plus und minus
+rationale-zahlen;3;1;Multiplizieren/Dividieren;Ich kann negative Zahlen multiplizieren und dividieren;Negative Zahlen: mal, geteilt;3;bruchrechnung/1/3;
+rationale-zahlen;4;1;Terme und Sachaufgaben;Ich kann negative Zahlen in Sachaufgaben nutzen;Negative Zahlen im Alltag;4;;
+reelle-zahlen;1;1;Zahlbereiche und irrationale Zahlen;Ich kann rationale und irrationale Zahlen unterscheiden;Irrationale Zahlen;1;potenzen-wurzeln/3/2;Zahlbereiche→(entfällt)
+reelle-zahlen;2;1;Potenzgesetze;Ich kann mit Potenzgesetzen rechnen;Potenzgesetze;2;potenzen-wurzeln/1/3, terme/2/4;
+reelle-zahlen;3;1;Wurzelgesetze und rationale Exponenten;Ich kann mit Wurzelgesetzen rechnen;Wurzelgesetze;3;bruchrechnung/3/2, potenzen-wurzeln/1/3, potenzen-wurzeln/3/2, terme/2/4;rationale Exponenten→(entfällt)
+rekonstruktion-von-bestaenden;1;1;Bestand aus Rate;Ich kann aus einer Änderungsrate den Bestand berechnen;Bestand aus Änderungsrate;1;einheiten/1/2, stammfunktion-und-hauptsatz/2/1;Rate→Änderungsrate
+rekonstruktion-von-bestaenden;2;1;Rate und Bestand als Paar;Ich kann begründen, wann ein Bestand wächst oder fällt;Wachsen und Fallen;2;ableitung-und-aenderungsrate/2/1, funktionsklassen-und-eigenschaften/2/1;Rate→Änderungsrate
+rekonstruktion-von-bestaenden;3;1;Am Ratengraphen;Ich kann am Graphen der Änderungsrate den Bestand deuten;Am Graphen der Änderungsrate;3;;Ratengraph→Graph der Änderungsrate
+rekonstruktion-von-funktionsgleichungen;1;1;Ansatz und Punktbedingungen;Ich kann Funktionsgleichungen aus Punkten bestimmen;Gleichung aus Punkten;1;funktionsklassen-und-eigenschaften/4/1, lineare-funktionen/4/1, lineare-gleichungssysteme/3/1;Ansatz und Punktbedingungen→aus Punkten
+rekonstruktion-von-funktionsgleichungen;2;1;Bedingungen mit Ableitung;Ich kann Bedingungen mit Ableitungen aufstellen;Bedingungen mit f';2;lineare-funktionen/4/1;
+rekonstruktion-von-funktionsgleichungen;3;1;Sonderansätze und Modellkritik;Ich kann Sinusfunktionen aufstellen und Modelle bewerten;Sinusfunktion und Modell;3;trigonometrische-funktionen/2/1;"Sonderansätze→Sinusfunktionen; Modellkritik→Modelle bewerten"
+rotationsvolumen;1;1;Die Volumenformel;Ich kann das Volumen eines Rotationskörpers berechnen;Rotationsvolumen;1;einheiten/3/1;
+rotationsvolumen;2;1;Um den Körper herum;Ich kann die Volumenformel am Körper erklären;Volumenformel erklären;2;;
+scharen-von-geraden-und-ebenen;1;2;Die Schar als Familie;Ich kann gemeinsame Punkte einer Schar nachweisen;Gemeinsamer Punkt der Schar;1;ebenen/1/1, ebenen/2/2, gleichungen-loesen/2/1, lagebeziehungen/1/2, orthogonalitaet/3/1;Familie→Schar
+scharen-von-geraden-und-ebenen;2;1;Parameter aus Lagebedingungen;Ich kann einen Parameter für eine Lage bestimmen;Schar: Parameter aus der Lage;2;ebenen/1/1, ebenen/2/2, lagebeziehungen/1/2, orthogonalitaet/3/1;Lagebedingung→Lage
+scharen-von-geraden-und-ebenen;3;1;Parameter aus Maßbedingungen;Ich kann einen Parameter für Winkel oder Abstand bestimmen;Schar: Parameter aus Maßen;3;abstaende/3/1, ebenen/1/1, lagebeziehungen/1/2, skalarprodukt-und-winkel/3/1;Maßbedingung→Winkel oder Abstand
+scharen-von-geraden-und-ebenen;4;1;Scharen am Körper;Ich kann Ebenenscharen an einem Körper deuten;Scharen am Körper;4;ebenen/1/1, lagebeziehungen/1/2, schnittmengen/3/1;
+schnittmengen;1;2;Schnittpunkt von Gerade und Ebene;Ich kann den Schnittpunkt von Gerade und Ebene berechnen;Schnittpunkt Gerade–Ebene;1;ebenen/2/1, lagebeziehungen/3/1;
+schnittmengen;2;1;Schnittpunkt zweier Geraden;Ich kann den Schnittpunkt zweier Geraden berechnen;Schnittpunkt zweier Geraden;2;;
+schnittmengen;3;1;Spuren, Schnittgeraden und Schnittfiguren;Ich kann Spurpunkte und Schnittgeraden bestimmen;Spurpunkte und Schnittgeraden;3;ebenen/2/1;Schnittfiguren→(entfällt)
+skalarprodukt-und-winkel;1;1;Das Skalarprodukt als Objekt;Ich kann das Skalarprodukt berechnen und deuten;Skalarprodukt;1;trigonometrie/1/3, vektoren-und-rechenoperationen/1/2;Objekt→(entfällt)
+skalarprodukt-und-winkel;2;2;Winkel zwischen Vektoren, Kanten und Geraden;Ich kann Winkel zwischen Vektoren und Geraden berechnen;Winkel zwischen Vektoren;2;geraden/3/1;
+skalarprodukt-und-winkel;3;1;Neigungswinkel von Ebenen;Ich kann den Winkel zwischen zwei Ebenen berechnen;Winkel zwischen Ebenen;3;ebenen/2/2;Neigungswinkel→Winkel
+skalarprodukt-und-winkel;4;1;Winkel gegen Ebenen und Bogenmaße;Ich kann den Winkel zwischen Gerade und Ebene berechnen;Winkel Gerade–Ebene;4;ebenen/2/2, geraden/3/1;Bogenmaß→(entfällt)
+spiegelung;1;3;Punkte spiegeln;Ich kann Punkte an Punkten und Ebenen spiegeln;Punkte spiegeln;1;abstaende/2/1, schnittmengen/1/2, vektoren-und-rechenoperationen/2/1;
+spiegelung;2;1;Spiegelebene und Spiegelgerade;Ich kann eine Spiegelebene bestimmen;Spiegelebene bestimmen;2;abstaende/2/1, punkte-und-strecken-im-koordinatensystem/2/1, vektoren-und-rechenoperationen/2/1;
+spiegelung;3;1;Symmetrieebenen von Körpern;Ich kann Symmetrieebenen von Körpern begründen;Symmetrieebenen;3;punkte-und-strecken-im-koordinatensystem/2/1;
+stammfunktion-und-hauptsatz;1;1;Stammfunktion;Ich kann Stammfunktionen bilden;Stammfunktion;1;;
+stammfunktion-und-hauptsatz;2;1;Hauptsatz;Ich kann Integrale mit dem Hauptsatz berechnen;Hauptsatz;2;potenzen-wurzeln/1/3, rationale-zahlen/1/1;
+stammfunktion-und-hauptsatz;3;1;Der Graphenblick;Ich kann den Graphen einer Stammfunktion skizzieren;Graph der Stammfunktion;3;kurvenuntersuchung/4/1, tangente-normale-schnittwinkel/2/1;Graphenblick→Graph der Stammfunktion
+stammfunktion-und-hauptsatz;4;1;Integralfunktion;Ich kann Integralfunktionen deuten;Integralfunktion;4;;
+strahlensaetze;1;2;Maßstab umrechnen;Ich kann mit dem Maßstab umrechnen;Maßstab umrechnen;1;koerper/1/1, winkel-dreiecke/1/2;
+strahlensaetze;1;3;Maßstabsgerecht zeichnen;Ich kann maßstabsgerecht zeichnen;Maßstabsgerecht zeichnen;2;strahlensaetze/1/2;
+strahlensaetze;2;1;Zentrische Streckung und Ähnlichkeit;Ich kann Figuren vergrößern und verkleinern;Vergrößern und verkleinern;3;bruchrechnung/5/1, kreis/1/2, lineare-gleichungen/2/3, winkel-dreiecke/3/2, zuordnungen/2/4;"zentrische Streckung→vergrößern und verkleinern; Ähnlichkeit→(entfällt)"
+strahlensaetze;3;1;Strahlensätze;Ich kann Strecken mit den Strahlensätzen berechnen;Strahlensätze;4;einheiten/4/1, kreis/1/2, zuordnungen/2/4;
+symmetrie-abbildungen;1;2;Punkte und Figuren im Koordinatensystem;Ich kann Punkte im Koordinatensystem eintragen;Koordinatensystem;1;flaechen/1/2;
+symmetrie-abbildungen;2;2;Symmetrieachsen bestimmen;Ich kann Symmetrieachsen einzeichnen;Symmetrieachsen;2;flaechen/1/2, winkel-dreiecke/3/2;
+symmetrie-abbildungen;2;3;Spiegeln und Spiegelbild benennen;Ich kann Figuren an einer Achse spiegeln;An einer Achse spiegeln;3;symmetrie-abbildungen/2/2;
+symmetrie-abbildungen;3;1;Drehen, Verschieben, Punktsymmetrie;Ich kann Figuren drehen und verschieben;Drehen und Verschieben;4;flaechen/1/2, winkel-dreiecke/3/2;Punktsymmetrie→(entfällt)
+tangente-normale-schnittwinkel;1;1;Tangentengleichung;Ich kann die Tangente in einem Punkt aufstellen;Tangentengleichung;1;ableitung-und-aenderungsrate/2/1;
+tangente-normale-schnittwinkel;2;1;Berührung nachweisen;Ich kann nachweisen, dass eine Gerade den Graphen berührt;Berührung nachweisen;2;ableitungsregeln/1/2, gleichungen-loesen/1/1;
+tangente-normale-schnittwinkel;3;1;Normale;Ich kann die Normale in einem Punkt aufstellen;Normale;3;ableitungsregeln/1/2, pythagoras/3/2;
+tangente-normale-schnittwinkel;4;1;Winkel;Ich kann Steigungswinkel und Schnittwinkel berechnen;Steigungs- und Schnittwinkel;4;ableitungsregeln/1/2, trigonometrie/1/3;
+tangente-normale-schnittwinkel;5;1;Dreiecke und Figuren;Ich kann Dreiecke aus Tangente und Achsen berechnen;Dreiecke aus Tangente, Normale;5;ableitungsregeln/1/2, pythagoras/3/2;
+terme;1;1;Term aufstellen;Ich kann Terme zu Situationen aufstellen;Terme aufstellen;1;rationale-zahlen/2/3;
+terme;2;4;Zusammenfassen;Ich kann gleichartige Glieder zusammenfassen;Zusammenfassen;2;;
+terme;2;5;Malnehmen;Ich kann Terme mit Zahlen und Variablen malnehmen;Terme malnehmen;3;;
+terme;3;2;Klammern;Ich kann Klammern auflösen;Klammern auflösen;4;;
+terme;4;1;Ausklammern;Ich kann gemeinsame Faktoren ausklammern;Ausklammern;5;;
+trigonometrie;1;3;Seite berechnen;Ich kann Seiten mit sin, cos und tan berechnen;Seite berechnen;1;pythagoras/1/2, pythagoras/2/2;
+trigonometrie;2;1;Winkel berechnen;Ich kann Winkel mit sin, cos und tan berechnen;Winkel berechnen;2;pythagoras/1/2;
+trigonometrie;3;1;Teildreiecke und Vermessung;Ich kann Höhen und Entfernungen mit Teildreiecken berechnen;Teildreiecke und Vermessung;3;flaechen/4/1, pythagoras/1/2, pythagoras/3/2;
+trigonometrie;4;1;Sinussatz;Ich kann Seiten und Winkel mit dem Sinussatz berechnen;Sinussatz;4;pythagoras/1/2;
+trigonometrische-funktionen;1;1;Einheitskreis und Bogenmaß;Ich kann Winkel am Einheitskreis und im Bogenmaß angeben;Einheitskreis und Bogenmaß;1;kreis/1/2, kreis/3/1, trigonometrie/1/3, zuordnungen/3/1;
+trigonometrische-funktionen;2;1;Sinus- und Kosinusfunktion;Ich kann Sinus- und Kosinusgraphen zeichnen und lesen;Sinus- und Kosinusfunktion;2;lineare-funktionen/1/1, quadratische-funktionen/1/1, symmetrie-abbildungen/2/2, trigonometrie/1/3, zuordnungen/3/1;
+trigonometrische-funktionen;3;1;Parameter und Transformationen;Ich kann Amplitude und Periode am Term ablesen;Amplitude und Periode;3;lineare-funktionen/1/1, quadratische-funktionen/1/1, zuordnungen/3/1;Parameter und Transformationen→Amplitude und Periode
+trigonometrische-funktionen;4;1;Periodische Vorgänge modellieren;Ich kann periodische Vorgänge mit Sinus beschreiben;Periodische Vorgänge;4;daten/3/1, lineare-funktionen/1/1, quadratische-funktionen/1/1, zuordnungen/3/1;modellieren→beschreiben
+umkehrfunktion;1;1;Umkehrbarkeit, Bereiche und Term;Ich kann die Umkehrfunktion bestimmen;Umkehrfunktion;1;gleichungen-loesen/2/1, grenzwerte-und-verhalten-im-unendlichen/1/2, kurvenuntersuchung/1/1;Umkehrbarkeit→(entfällt)
+umkehrfunktion;2;1;Spiegelung an der Winkelhalbierenden;Ich kann den Graphen der Umkehrfunktion zeichnen;Spiegeln an y = x;2;flaechen/3/1, flaecheninhalt-durch-integration/3/1, lineare-funktionen/4/1, pythagoras/3/2;Winkelhalbierende→y = x
+unabhaengigkeit;1;2;Unabhängigkeit prüfen;Ich kann prüfen, ob zwei Ereignisse unabhängig sind;Unabhängigkeit prüfen;1;bedingte-wahrscheinlichkeit-und-bayes/1/1;
+unabhaengigkeit;2;1;Rückwärts;Ich kann Werte für Unabhängigkeit bestimmen;Wert für Unabhängigkeit;2;bedingte-wahrscheinlichkeit-und-bayes/1/1, zufallsexperimente-und-pfadregeln/8/1;Rückwärts→Wert bestimmen
+unabhaengigkeit;3;1;Als Argument;Ich kann erklären, warum der Zufall nicht ausgleicht;Zufall gleicht nicht aus;3;wahrscheinlichkeit/3/3;Ausgleichs-Fehlvorstellung→Zufall gleicht nicht aus
+uneigentliche-integrale;1;1;Der Begriff;Ich kann Flächen ohne rechtes Ende als Grenzwert berechnen;Uneigentliches Integral;1;grenzwerte-und-verhalten-im-unendlichen/2/1;uneigentlich→ohne rechtes Ende
+uneigentliche-integrale;2;1;Die Näherungsdeutung;Ich kann uneigentliche Integrale als Näherung deuten;Näherung deuten;2;flaecheninhalt-durch-integration/5/1, stammfunktion-und-hauptsatz/2/1;Näherungsdeutung→als Näherung deuten
+vektoren-und-rechenoperationen;1;2;Vektorbegriff und Betrag;Ich kann Vektoren bilden und ihre Länge berechnen;Vektor und Länge;1;symmetrie-abbildungen/1/2, terme/4/1;Betrag→Länge
+vektoren-und-rechenoperationen;2;1;Vektorterme am Körper;Ich kann mit Vektoren Punkte am Körper finden;Vektoren am Körper;2;punkte-und-strecken-im-koordinatensystem/1/1;Vektorterme→mit Vektoren
+vektoren-und-rechenoperationen;3;1;Skalarprodukt im Sachzusammenhang;Ich kann Vektoren im Sachzusammenhang nutzen;Vektoren im Sachzusammenhang;3;skalarprodukt-und-winkel/1/1;Skalarprodukt→Vektoren
+vierfeldertafel;1;2;Die Tafel füllen;Ich kann eine Vierfeldertafel mit Anteilen ausfüllen;Vierfeldertafel füllen;1;daten/7/1, wahrscheinlichkeit/2/3, zufallsexperimente-und-pfadregeln/3/1;
+vierfeldertafel;2;1;Aus der Tafel rechnen;Ich kann mit der Vierfeldertafel rechnen;Aus der Tafel rechnen;2;wahrscheinlichkeit/2/3;
+wahrscheinlichkeit;1;1;Zählen;Ich kann Möglichkeiten geordnet zählen;Möglichkeiten zählen;1;;
+wahrscheinlichkeit;2;3;Einstufig;Ich kann einfache Wahrscheinlichkeiten angeben;Einfache Wahrscheinlichkeit;2;brueche-dezimalzahlen/1/1, brueche-dezimalzahlen/2/1, daten/1/1;einstufig→einfach
+wahrscheinlichkeit;3;3;Mit Zurücklegen;Ich kann Baumdiagramme mit Zurücklegen nutzen;Baum mit Zurücklegen;3;bruchrechnung/3/2;
+wahrscheinlichkeit;4;1;Ohne Zurücklegen;Ich kann Wahrscheinlichkeiten ohne Zurücklegen berechnen;Ohne Zurücklegen;4;bruchrechnung/3/2;
+winkel-dreiecke;1;2;Winkel messen;Ich kann Winkel messen und zeichnen;Winkel messen;1;brueche-dezimalzahlen/5/2;
+winkel-dreiecke;2;2;Winkel an Geraden;Ich kann Winkel an Geradenkreuzungen bestimmen;Winkel an Geraden;2;brueche-dezimalzahlen/5/2;
+winkel-dreiecke;3;2;Winkelsumme;Ich kann fehlende Winkel mit der Winkelsumme berechnen;Winkelsumme;3;brueche-dezimalzahlen/5/2;
+winkel-dreiecke;4;1;Konstruieren;Ich kann Dreiecke konstruieren;Dreiecke konstruieren;4;brueche-dezimalzahlen/5/2;
+winkel-dreiecke;5;1;Besondere Linien;Ich kann besondere Linien im Dreieck zeichnen;Besondere Linien;5;brueche-dezimalzahlen/5/2;
+zinsrechnung;1;1;Zinsen berechnen;Ich kann Jahreszinsen berechnen;Jahreszinsen;1;prozentrechnung/2/3, prozentrechnung/3/1, prozentrechnung/4/2, zuordnungen/2/4;
+zinsrechnung;1;2;Monats- und Tageszinsen;Ich kann Monats- und Tageszinsen berechnen;Monats- und Tageszinsen;2;zinsrechnung/1/1;
+zinsrechnung;2;1;Zinseszins;Ich kann Zinseszinsen berechnen;Zinseszins;3;daten/1/1, potenzen-wurzeln/1/3, prozentrechnung/3/1, prozentrechnung/5/2;
+zufallsexperimente-und-pfadregeln;1;1;Ereignisse als Mengen;Ich kann Ergebnisse und Ereignisse als Mengen aufschreiben;Ergebnisse und Ereignisse;1;bedingte-wahrscheinlichkeit-und-bayes/1/1, wahrscheinlichkeit/1/1;
+zufallsexperimente-und-pfadregeln;2;1;Laplace-Experimente;Ich kann Laplace-Wahrscheinlichkeiten berechnen;Laplace-Experimente;2;potenzen-wurzeln/1/3, prozentrechnung/2/3, wahrscheinlichkeit/1/1, wahrscheinlichkeit/2/3;
+zufallsexperimente-und-pfadregeln;3;1;Pfadregeln bei unabhängigen Stufen;Ich kann mit den Pfadregeln rechnen;Pfadregeln;3;potenzen-wurzeln/1/3, wahrscheinlichkeit/3/3;unabhängige Stufen→(entfällt)
+zufallsexperimente-und-pfadregeln;4;1;Ohne Zurücklegen und Umlegen;Ich kann Baumdiagramme ohne Zurücklegen nutzen;Ohne Zurücklegen;4;potenzen-wurzeln/1/3, wahrscheinlichkeit/4/1;Umlegen→(entfällt)
+zufallsexperimente-und-pfadregeln;5;1;Mammutbäume;Ich kann große Bäume mit gleichen Pfaden abkürzen;Große Bäume abkürzen;5;kombinatorik/1/1, potenzen-wurzeln/1/3, wahrscheinlichkeit/3/3, wahrscheinlichkeit/4/1;Mammutbäume→große Bäume
+zufallsexperimente-und-pfadregeln;6;1;Situationsbäume;Ich kann einen Baum aus bedingten Angaben beschriften;Baum aus bedingten Angaben;6;bedingte-wahrscheinlichkeit-und-bayes/1/1;Situationsbaum→Baum aus bedingten Angaben
+zufallsexperimente-und-pfadregeln;7;1;Term und Ereignis;Ich kann Terme als Pfade im Baum lesen;Term und Pfad;7;bedingte-wahrscheinlichkeit-und-bayes/1/1, kombinatorik/1/1;Ergebnisfolge→Pfad
+zufallsexperimente-und-pfadregeln;8;1;Rückwärts;Ich kann fehlende Wahrscheinlichkeiten im Baum berechnen;Baum rückwärts;8;gleichungen-loesen/3/1, wahrscheinlichkeit/4/1;Ast→Wahrscheinlichkeit im Baum
+zufallsgroessen-und-verteilungen;1;2;Verteilung aufstellen;Ich kann die Verteilung einer Zufallsgröße aufstellen;Verteilung aufstellen;1;;
+zufallsgroessen-und-verteilungen;2;1;Verteilung lesen;Ich kann Verteilungen in Tabelle und Diagramm lesen;Verteilung lesen;2;;
+zuordnungen;1;1;Darstellen;Ich kann Zuordnungen in Tabelle und Graph darstellen;Zuordnungen darstellen;1;symmetrie-abbildungen/1/2;
+zuordnungen;1;2;Achseneinteilung;Ich kann die Achsen passend einteilen;Achsen einteilen;2;zuordnungen/1/1;Achseneinteilung→Achsen einteilen
+zuordnungen;2;4;Dreisatz proportional;Ich kann mit dem Dreisatz proportional rechnen;Dreisatz proportional;3;brueche-dezimalzahlen/1/2, symmetrie-abbildungen/1/2;
+zuordnungen;3;1;Antiproportional;Ich kann antiproportionale Aufgaben lösen;Antiproportional;4;bruchrechnung/4/2;
+zuordnungen;4;2;Erkennen;Ich kann erkennen, ob eine Zuordnung proportional ist;Zuordnung erkennen;5;einheiten/2/1;
+zuordnungen;4;3;Rate;Ich kann mit „je Liter“ und „je Stunde“ rechnen;Rechnen mit „je“;6;;Rate→„je“
