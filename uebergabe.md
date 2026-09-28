@@ -113,11 +113,24 @@ Zu entscheiden (Lehrer):
   Schlusszeile).
 
 Konsistenz (Abgleich 28.09. abends):
-- K1 Altlehrwerke nirgends eingebunden (nur quellen/):
-  Vorstufen-Serie („erst benennen“) → Katalog-Sprossen;
-  gemeinsame Anweisung über dem Päckchen, Schrittnamen in der
-  Musterlösung, Kontrolle als Schlusszeile → bank.md und
-  zusammenbau; Pflichtelemente → Entscheidung oben.
+- K1 Quellen der letzten Tage nirgends eingebunden (liegen nur in
+  quellen/ und katalog/_fremd-*): DDR-Bände, Literatur,
+  Fremdoriginale. Einbinden heißt in allen Dimensionen, je mit
+  Ort, an dem es wirkt:
+  · Sprossen – Zahl und Folge je Kette, Vorstufen-Serie („erst
+    benennen“), Kontrolle als Schlussprosse → Katalog, Bank;
+  · Formulierungen – Operatoren, Anweisung über dem Päckchen,
+    Personenaussagen („Hat Karin recht?“), Schrittnamen in der
+    Musterlösung → Sprachregeln, bank.md, Prompt;
+  · Layout – Merkmal über dem Päckchen, Seitenaufbau, Stellung
+    von Beispiel und Merkkasten → layout-befunde, zusammenbau;
+  · Dichte – Aufgaben je Seite und je Schritt (DDR 40–120 Posten,
+    heute 2–4; Literatur: öfter und gemischt statt länger) →
+    Regel für Lernblatt, Fokus, schwach;
+  · Schwerpunkte – welches Thema, welcher Schritt wie viel Raum
+    bekommt, Reihenfolge der Themen je Klasse (DDR, Lehrwerke,
+    P10-Häufigkeit) → Katalog-Marken, Planfrage;
+  dazu die Pflichtelemente-Vorschläge 1–10 (Entscheidung oben).
 - K2 bank.md kannte die Sprachregeln nicht (neue Zeilen wären
   wieder Stichwortsprache) – vorläufiger Verweis am 28.09.
   eingetragen, Abnahme durch den Lehrer offen.
@@ -152,10 +165,12 @@ Verworfen (mit Grund):
 
 Modell: Opus 5.5 (Fable auf Wahl des Lehrers).
 
-1. Einbindungslauf K1/K2 als Vorschlagsdatei: Altlehrwerke und
-   Sprachregeln gegen bank.md, auftrag-eintrag.md, Katalog-
-   Sprossen und zusammenbau halten; je Fund Ort, Wortlaut,
-   Vorschlag. Urteil im Chat, dann Umsetzung.
+1. Einbindungslauf K1/K2 als Vorschlagsdatei: alle Quellen der
+   letzten Tage in den fünf Dimensionen (Sprossen,
+   Formulierungen, Layout, Dichte, Schwerpunkte) gegen Katalog,
+   bank.md, auftrag-eintrag.md, zusammenbau und Prompt halten;
+   je Fund Ort, Wortlaut, Vorschlag. Urteil im Chat, dann
+   Umsetzung.
 2. Testlauf-Bericht v4.4 lesen (bau/merkzettel-abend.md Punkt 1).
 3. ziel.md nachziehen mit den Revisionen aus K4 (Lehrer
    entscheidet) – danach erst der Prompt (Schalter,
