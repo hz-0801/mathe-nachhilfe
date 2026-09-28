@@ -91,6 +91,19 @@ Aus früheren Übergaben gelten weiter (siehe archiv/).
   wirkt).
 - Taschenrechner: Zeichen nur, wo verboten oder nötig; ohne TR
   kopfrechenbare Zahlen.
+- **Beschlüsse 28.09. abends** (aus vorschlag-einbindung-2026-09-28.md,
+  Teil D/E): (1) Lernblatt endet mit „Prüfe dich“ (je Fertigkeit
+  1–2 Aufgaben, gemischt, ohne Verfahrensüberschrift, ohne Punkte),
+  dazu die Abhakseite „Das kann ich“ mit einer Beispielaufgabe je
+  Zeile (Grundfall aus der Bank, nur ansehen). (2) Zone „kennst du
+  schon“ trägt je Nummer den Verweis „hängst du hier → Fokus
+  ‹Fertigkeit›“; Fehlerdeutung nur, wo der Katalog einen typischen
+  Fehler kennt. (3) Keine neue Blattart fürs Wachhalten; Basisheft
+  (Prüfungsprompt) und Klasse 8/9 bleiben offen. (4) Bei „schwach“
+  vorn ein Musterbeispiel mit Ausblenden, als Baustein je Eintrag in
+  der Bank, Form nach DDR-Muster (Schrittname links, „=“
+  untereinander), Inhalt vom Lehrer oder Musterlösung des Grundfalls;
+  Regelfall bleibt ohne Beispiel.
 
 ## 5 Offene Punkte
 
