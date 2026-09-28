@@ -1,187 +1,162 @@
-# Übergabe verbessereBlaetter – 2026-09-27 (Chat vom 26./27.09.)
+# Übergabe verbessereBlaetter – 2026-09-28 (Chat vom 27./28.09.)
 
-Vorherige Übergabe: archiv/uebergabe-2026-09-26.md.
+Vorherige Übergabe: archiv/uebergabe-2026-09-27.md.
 
 ## 1 Ziel
 
-Der bestmögliche Themenkatalog und die beiden Prompts, damit
-erzeugeUnterrichtsblatt() und erzeugePrüfungsblatt() aus wenigen
-Wörtern druckfertige Blätter bauen. Maßstab ist ziel.md
-(Stand 25.09.2026). Neue Linie seit 26.09. (§ 4): Blätter
-entstehen künftig durch Auswahl aus einer Aufgabenbank, nicht
-durch Erzeugung im Chat; der Chat wird vom Bauplatz zum Schalter.
-ziel.md ist darauf noch nicht nachgezogen (§ 6).
+Der bestmögliche Themenkatalog, die Aufgabenbank und die Prompts,
+damit aus wenigen Wörtern druckfertige Blätter entstehen – für den
+Unterricht und für MSA/P10 und Abitur GK. Maßstab ist ziel.md
+(Stand 25.09.) mit den Beschlüssen vom 28.09. (§ 4), die dort
+noch nicht nachgezogen sind. Leitbild bleibt: **ein Blatt für
+alle Schüler** (Leiter je Fertigkeit, der Schüler steigt, so hoch
+er kommt; der Lehrer streicht am Tisch) – jetzt kleiner
+geschnitten und aus der Bank zusammengesetzt statt im Chat
+erzeugt. Die Prompts müssen auch ohne Abo nutzbar bleiben.
 
 ## 2 Arbeitsgrundlage
 
-- ziel.md (25.09.2026), unverändert; Nachzug offen.
-- hz-0801/aufgabenbank (neu, 26.09.): bank.md (Form und Regeln,
-  Stand nach zwei Prüfsteinen), werkzeuge/bank-pruef.py v0.2
-  (Ergebnisstelle, Ankreuzen, Bausteine, Grafik, Sperre; Mengen
-  als Warnung), werkzeuge/mappe.py und mappen/<eintrag>.md (acht
-  Mappen, dazu mappen/_bausteine.md), auftrag-eintrag.md
-  (Vorlage je Eintrag). Gefüllt: prozentrechnung (275 Zeilen),
-  quadratische-funktionen (257 Zeilen), beide mit stand.md und
-  Entscheidungen; im Lauf seit 27.09. 07:10: lineare-funktionen,
-  quadratische-gleichungen, lineare-gleichungen, terme,
-  bruchrechnung, pythagoras (sechs Web-Sitzungen parallel).
-- blattbau: unterrichtsblatt.md v4.4 (Commit 36b7b12, 1447
-  Zeilen; Projektanweisung in erzeugeUnterrichtsblatt() ist v4.4
-  seit 26.09. 19:18); CHANGELOG-Zeile v4.4; mathblatt.sty Stufe 6
-  (cad91ae) mit Anleitung und Probeblatt.
-- mathe-nachhilfe: Nacht 29.09. (Datei nacht-bericht-2026-09-29.md,
-  gelaufen am 26.09. 14–17 Uhr) vollständig: beschluss-2026-09-26.md
-  (Urteile Übersicht, Eichung, CAS Berlin, kreis, Vorschläge),
-  Deutungsliste (f), 2018-ea-B CAS erfasst mit Unterschreitung
-  69/85, Berliner CAS-Hefte nachgetragen (Typen 1421), 2017-ga-B
-  CAS erfasst, marken-bau kreis 1, Merkkasten 0 = p(x),
-  katalog/_vorschlaege-sprossen-2026-09-29.md,
-  katalog/_vorschlaege-2026-09-29.md (Befund 3–8).
-- Testlauf v4.4 läuft seit 26.09. abends im Code-Tab
-  (auftrag-testlauf.md, Ordner blaetter/testlauf-<datum>/);
-  Bericht bericht-testlauf-<datum>.md noch nicht gelesen. Dieser
-  Auftrag zieht auch werkzeuge/testlauf-eingaben.csv (Eingabe 5
-  und 6) und die Testlauf-Vorlage nach und legt zwei Posten an
-  (v4.5 straffen; Aufträge mit Get-Date datieren).
-- Weiter gültig: befund-testlauf-2026-09-25.md (Quelle von v4.4),
-  katalog/_vorschlaege-2026-09-27.md (vier Abschnitte,
-  entschieden am 26.09., siehe § 4), Belegdateien, blatt-pruef.py
-  v0.4, testlauf-auftrag.md.
+- mathe-nachhilfe: ziel.md (25.09.), katalog/ (mit
+  _ichkann.csv, _kuerzel.csv, _fremd-konkordanz-*.md),
+  quellen/altlehrwerke-formen.md, -pflichtformen.md,
+  -formen-sek2.md (DDR-Bände, ausgewertet, **nicht eingebunden**),
+  quellen/blattarten-literatur.md und
+  quellen/nachhilfe-situationen.md (Literatur, 28.09.),
+  quellen/register-fundliste.md (Suche lief 28.09. 18:16).
+- aufgabenbank: 72 Einträge und bank/_basis/ (410 Zeilen);
+  bank.md Stand 27b; werkzeuge/bank-pruef.py v0.6,
+  zusammenbau.py v0.8; bau/layout-befunde.md (Befunde 1–54,
+  maßgeblich für jedes Layout); bau/sprachlauf/regeln.md
+  (Sprachregeln); bank/_strittig.md (1 123 Zeilen, ungesichtet);
+  bank/_punkte.csv.
+- blattbau: unterrichtsblatt.md v4.4, pruefungsblatt.md,
+  mathblatt.sty; Testlauf v4.4 (blaetter/testlauf-2026-09-26/),
+  Bericht ungelesen.
+- Muster „schwach“: zwei von Hand gebaute Blätter Terme plus,
+  minus, mal, geteilt (TER-S1, TER-S2, je 5 Seiten + Lösungen)
+  liegen nur im Chat als PDF, nicht im Repo.
 
 ## 3 Arbeitsstand
 
-Abgeschlossen: Urteile Übersichtsblatt (vertagt), Eichung 2017,
-CAS Berlin, kreis 1; Nachtauftrag 29.09.; v4.4 gebaut und
-eingespielt (Repo und Projektanweisung); Testlauf v4.4 gestartet;
-Katalog-Urteile zu _vorschlaege-2026-09-27.md (alle vier
-Abschnitte) und _vorschlaege-sprossen-2026-09-29.md (sechs
-Vorschläge); Linie Regal/Bank beschlossen; Repo aufgabenbank mit
-zwei Prüfsteinen und Vorbereitung; Modellregel und Web-Sitzungen
-in der Projektanweisung (Stand 27.09.c).
+Abgeschlossen 27./28.09.:
+- Bank Sek I und Sek II vollständig (72 Einträge, rund 13 500
+  Zeilen); Zweitleser blind für 72 Einträge (gegenlese2.md);
+  Bank-Korrektur nach Doppelbefund 28.09. 12:44, strittige Zeilen
+  in bank/_strittig.md.
+- Renderlauf aller Einträge, 144 Bankzeilen behoben.
+- Sprachlauf über alle 29 MSA-Einträge: 6 536 von 7 728
+  Aufgabentexten in ganze, einfache Sätze mit Bezug umgeschrieben;
+  Gegenprobe im Chat: Lösungen, Schritte, Merkmale unverändert;
+  146 Texte mit geänderter Zahlenfolge geprüft (Aufgabe wird vor
+  der fremden Rechnung genannt – kein Fehler). Sek II nicht.
+- zusammenbau v0.8 mit Rezept K (Durchgang: je Schritt eine
+  Aufgabe, Prüfungshöhen) und Layoutbefunden 37/40/49/52/53;
+  fünf Durchgänge gebaut (LIN, QGL, PRZ, POT, TRI; PRZ-K1 nach
+  Sprachlauf neu).
+- Lehrer hat LIN-K1, QGL-K1, PRZ-K1 gelesen: Befunde 35–54.
+- Literatur: Blattarten/Übungsformen, Nachhilfe-Situationen.
 
-Läuft: sechs Bank-Sitzungen (seit 07:10); Testlauf v4.4 am PC.
+Nicht erledigt: Urteilsliste 28.09. (Auftrag lieferte keine
+Datei); Testlauf-Bericht v4.4; ziel.md-Nachzug; Prompts.
 
-Nicht begonnen: Katalogauftrag aus den Urteilen (§ 6 Punkt 2);
-Nachbesserung der zwei Prüfstein-Einträge gegen bank-pruef v0.2
-(83 Abweichungen, Schreibweisen); Runde 3 der Bank (19 Mappen,
-19 Sitzungen; Aufträge liegen beim Lehrer als Dateien
-auftrag-bank-mappen-3.txt und auftrag-bank-<eintrag>.txt);
-Zusammenbau-Skript (Bank → Blatt); Nachzug ziel.md und
-Projektbeschreibung; Lückenlauf Lehrwerke gegen Einheiten.
+## 4 Verbindliche Entscheidungen (neu 28.09.)
 
-## 4 Verbindliche Entscheidungen und Rahmenbedingungen
+Aus früheren Übergaben gelten weiter (siehe archiv/).
 
-Aus früheren Übergaben gelten weiter: Marken, Zweigzeile,
-Ich-kann-Titel, schwach als Form, Bestellung, Regel A/B, Testlauf
-je Version, ein Schreiber je Ordner, Beschlüsse vom 26.09.
-(beschluss-2026-09-26.md).
+- **Ein Blatt für alle bleibt.** Kein Dialog über die Lage des
+  Schülers; der Dialog fragt nach dem **Teil des Themas**
+  (Planfrage 1.3). Ein Blatt ist so lang wie nötig, aber nie
+  30 Seiten: ein Teil = 1–3 Fertigkeiten.
+- **Blattarten:** Lernblatt, Fokus, Prüfungsheft; Schalter
+  „schwach“ (Form, nicht Stoff). Namen bleiben. Das
+  „Kompetenzblatt“ ist keine Blattart, sondern Durchgang/Baustein
+  (gut als Überblick, nicht zum Einüben). Einteilung wird mit
+  der Literatur weiter geschärft (§ 5).
+- **Stern entfällt;** Niveau wird bestellt (FOR zuerst, EBR
+  später). **Punkte** nur im Prüfungsheft, dort immer. Je
+  Original höchstens eine Aufgabe; Prüfungshöhen aus den
+  jüngsten fünf Jahrgängen.
+- **Sprache:** ganze, kurze Sätze; erst die Lage, dann eine
+  Aufforderung; die Frage nennt ihren Bezug; keine Begriffe, die
+  das Blatt nicht einführt; Division als Bruchstrich;
+  Endergebnis als Lösungsmenge; „Zutatenzeile“ (Größen vor der
+  Formel notieren: p, q; m, n; G, W, p %).
+- **Merkkasten** (Befund 54, Umsetzung zurückgestellt): wie eine
+  Formelsammlung – Formel und Voraussetzung, dazu ein bis zwei
+  häufige Fehler, keine erklärenden Sätze.
+- **Altlehrwerke** sind Steinbruch für Katalog, Bank und Prompt
+  (Sprossen, Reihenfolge, Aufgaben, Sprache), **keine neue
+  Blattart**. Dichte nicht übernehmen (Literatur: mehr gleiche
+  Aufgaben am Stück bringt kaum etwas; öfter, verteilt, gemischt
+  wirkt).
+- Taschenrechner: Zeichen nur, wo verboten oder nötig; ohne TR
+  kopfrechenbare Zahlen.
 
-Neu 26./27.09.:
-- Linie: Weg 1 Regal (Blätter über Nacht vorproduziert) sofort,
-  Weg 2 Aufgabenbank als Richtung – begonnen wurde direkt mit der
-  Bank, weil Aufgaben schreiben nur Repo und Netz braucht. Der
-  Chat in erzeugeUnterrichtsblatt() wird zum Schalter: Bestellung
-  lesen, aus der Bank zusammensetzen, kompilieren; Erzeugung nur
-  für Ausnahmen (Klassenarbeit mit Schulaufgaben, personalisiert).
-  Ein Gleis, mehrere Rezepte (Lernblatt, Fokus, Prüfungsheft);
-  ohne Abo bleibt die Bank per Skript nutzbar.
-- Bank-Form: JSONL je Einheit, Felder nach bank.md; pruef trägt
-  nur Ergebniszahlen (keine Zwischenwerte, keine Distraktoren);
-  Erkennungsschritt 4, Grundfall 5, Sprosse 3, Prüfungshöhe 2 je
-  Original, Typ ohne Kette 3, Pflicht je 3, Zone-Paar; Reihenfolge
-  Erkennungsschritt → Kette → Typen ohne Kette → Pflicht; Sperre
-  mit Ausnahme für den Gegenstand der Kette; Opus schreibt,
-  Prüfskript bis null Abweichungen vor jedem Commit.
-- Web-Sitzungen: vom Cloud-Guthaben, parallel in getrennten
-  Ordnern, nur Mappe lesen; der Lehrer hat das Guthaben
-  freigegeben („kann verbrannt werden"), Ziel schnellstmöglich
-  großer Datenbestand ohne Qualitätsverlust.
-- Katalog-Urteile: _vorschlaege-2026-09-27.md alle vier
-  Abschnitte übernehmen; dabei Typ 5.14 und 7.4 nicht zuordnen,
-  dritte Kette potenz 5 als Sprosse mit „baut auf: Einheit 3"
-  (kein Vorrat), daten 7 Variante A, Sinussatz/Lösbarkeit EBR
-  nach Fachbrief 10 (ab 2028), 2025-GYM-K5d Nebentyp „Pythagoras
-  Hypotenuse", Namensabweichungen schließen ohne Änderung.
-  _vorschlaege-sprossen-2026-09-29.md: alle sechs übernehmen,
-  einschließlich Einheitentausch quadratische-gleichungen
-  (p-q-Formel vor Nullprodukt); Zehn-Prozent-Schritte in
-  prozentrechnung E3 als Vorform vor den Ein-Prozent-Weg.
-- Prüfungsheft-Prompt: kein Umbau mehr nach v4.4-Muster; er wird
-  zum zweiten Auswahlrezept der Bank.
-- v4.5 (Straffung) erst nach dem Testlauf v4.4; Kandidaten 4.4,
-  4.6 in die Anleitung, Muster 2.3, 6.3.
-- Modellregel: Opus 5.5 Regelfall auch für Urteilsarbeit; Fable
-  nur auf Wahl des Lehrers. Prognosen nur als Schätzung mit
-  Grundlage (global.md, Vorschlag § 6).
-- Übersichtsblatt vertagt; „mit übersicht" nicht in v4.4.
-- Katalogbefund neu: Vorstufe prozentrechnung E4 verlangt Zahl
-  (stand.md prozentrechnung); Grafiken der Bank nie kompiliert.
+## 5 Offene Punkte
 
-## 5 Offene Punkte und verworfene Ansätze
+Zu entscheiden (Lehrer):
+- Musterbeispiel: bei „schwach“ Standard, obwohl v4.4 es
+  abgeschafft hat? (Literatur: Musterbeispiel mit Ausblenden hilft
+  Anfängern und Schwachen; TER-S1/S2 sind so gebaut.)
+- Vorschlag Speicherform: Bank speichert Aufgaben und Bausteine
+  (Musterbeispiel, gemeinsame Anweisung, Merkkasten,
+  Kopfrechenblock); Blätter nur als Bestellung (bau.json),
+  PDFs nur als Zwischenspeicher und Notvorrat ohne Abo.
+- Ein Prompt mit Prüfungsmodus statt zwei?
+- Literaturbefunde: gemischter Schlussblock „Prüfe dich“ im
+  Lernblatt; Zone als Diagnose mit Verweis („hängst du hier →
+  Nr. 3“) statt Schalter „wie lange her“; Wachhalten über
+  Basisheft (vorhanden) statt neuer Blattart.
+- Pflichtelemente 1–10 aus quellen/altlehrwerke-pflichtformen.md
+  (u. a. fehlerfreie Vorlage „Hat Lea richtig gerechnet?“,
+  Aussagenserie wahr/falsch, Personenaussage, Kontrolle als
+  Schlusszeile).
 
-Offen:
-- Testlauf-Bericht v4.4 lesen (Montag nach 18:00), dann
-  Blatt-Chat „quadratische gleichungen 9 oberschule" – oder, nach
-  der neuen Linie, stattdessen der Zusammenbau aus der Bank.
-- Zusammenbau-Skript: aus bank/<eintrag>/ nach Bestellung
-  (Einheiten, Zone, Fokus) Quelltexte mit den Bausteinen der
-  Vorlage bauen, kompilieren; Zone, Zweigzeile, Kopfzeile,
-  Abhakseite, Nummern deterministisch. Erster Prüfstein
-  prozentrechnung gegen die drei vorhandenen Blätter. Braucht
-  LaTeX → Code-Tab, ab Montag.
-- Kurzer Prompt für erzeugeUnterrichtsblatt() als Schalter, nach
-  dem Zusammenbau-Skript.
-- potenz-exponentialfunktionen und daten in der Bank erst nach dem
-  Katalogauftrag (Einheit 5 und 7 haben noch keine Sprossen).
-- quadratische-gleichungen in der Bank wird mit der alten
-  Einheitenfolge gebaut; nach dem Katalogauftrag e2/e3 umbenennen.
-- Nachbesserung prozentrechnung und quadratische-funktionen gegen
-  bank-pruef v0.2 (Sonnet-Web-Sitzung, nach den sechs).
-- Lückenlauf: alle Kapitel der Lehrwerks-Inhaltsverzeichnisse
-  gegen die Einheiten des Katalogs (Kandidaten: Bruchterme und
-  Bruchgleichungen, lineare Ungleichungen, Boden Kl. 5/6).
-- Aufräumen mathe-nachhilfe (Wurzel auf fünf Dateien, Belege in
-  katalog/belege/, README als Landkarte plus Inventar aus Skript)
-  – nach dem Testlauf, Sonnet, mit Verweisprüfung.
-- Schülerbücher: kapitelweise als Fotos in den Chat, wenn ein
-  Thema dran ist (Schreibform, Kettenfolge, Kapiteltest); nichts
-  ins Repo. Welche Reihen, ist noch nicht genannt.
-- global.md: Absatz „Prognosen" (Wortlaut in der Kandidatendatei
-  dieses Umzugs); der Lehrer hat „später" gesagt.
-- ziel.md und Projektbeschreibung auf die Linie nachziehen.
-- Aus der Übergabe vom 26.09. weiter offen: Vorlage Stufe 7,
-  Fundamente B, Förderhefte, Fotos Inhaltsverzeichnisse, Berlin
-  2026 be-gk/lk, einsortieren.py Sorte uebersicht (ruht).
+Konsistenz (Abgleich 28.09. abends):
+- K1 Altlehrwerke nirgends eingebunden (nur quellen/):
+  Vorstufen-Serie („erst benennen“) → Katalog-Sprossen;
+  gemeinsame Anweisung über dem Päckchen, Schrittnamen in der
+  Musterlösung, Kontrolle als Schlusszeile → bank.md und
+  zusammenbau; Pflichtelemente → Entscheidung oben.
+- K2 bank.md kannte die Sprachregeln nicht (neue Zeilen wären
+  wieder Stichwortsprache) – vorläufiger Verweis am 28.09.
+  eingetragen, Abnahme durch den Lehrer offen.
+- K3 Sek II ohne Sprachlauf – Bank sprachlich uneinheitlich.
+- K4 ziel.md widerspricht den Beschlüssen in drei Punkten:
+  „kein Kasten auf dem Blatt“ (vs. Befund 54), „voller statt
+  kürzer“ (vs. „nie 30 Seiten“), v4.4 „kein Beispiel“ (vs.
+  Literatur); dazu fehlt die Bank-Linie. Revision vorlegen.
+- K5 Katalog-Lücke: „Term durch Zahl teilen“ fehlt (Katalog und
+  Bank); Register-Abgleich als Lückenprüfung.
+- K6 Rezept S (schwach) im Zusammenbau veraltet (leere Seiten,
+  55 TODO bei terme); Rezept K ist Durchgang, nicht Fokus.
+- K7 bank/_strittig.md: 1 123 Zeilen ungesichtet.
+- K8 bau/regal/, bau/kompetenz/, bau/hefte/ stammen aus der
+  überholten Linie „Kompetenzblatt als Grundeinheit“ – bleiben
+  als Material, sind kein Regal im Betrieb.
+- Geprüft und in Ordnung: vier Grafikänderungen in pythagoras,
+  symmetrie-abbildungen, terme stammen aus der Gegenlese-
+  Korrektur, nicht aus dem Sprachlauf.
 
 Verworfen (mit Grund):
-- Übersichtsblatt aus Merkkästen: zu dicht; nur Abbildung und
-  Tabelle, neuer Prüfstein irgendwann.
-- Prompt straffen vor dem Testlauf: zwei Änderungen auf einmal
-  sind nicht messbar.
-- 29 Bank-Sitzungen in der ersten Nacht: Form war ungeprüft;
-  Prüfstein zuerst hat vier Formfehler vor der Breite gefunden.
-- Alle 74 Blätter über Nacht bauen (Weg 1 pur): durch die Bank
-  ersetzt, die dasselbe liefert und Korrekturen behält.
-- Aufräumen als Kosmetik: nur mit Verweisprüfung und Landkarte,
-  sonst nicht.
+- Dialog nach der Lage des Schülers („neu, unsicher, Prüfung“):
+  widerspricht „ein Blatt für alle“.
+- Neue Blattarten Kompetenzblatt/Themenblatt/Übungsblatt:
+  Drift; die alten Namen tragen.
+- Päckchen-Fokus „im DDR-Stil“ mit 40–120 Aufgaben je Seite:
+  Dichte bringt laut Literatur wenig.
+- Alle 424 Durchgänge bauen: vor dem Layout-Durchgang und der
+  Einteilung verfrüht.
 
 ## 6 Nächster Arbeitsschritt
 
-Modell: Opus 5.5.
+Modell: Opus 5.5 (Fable auf Wahl des Lehrers).
 
-1. Berichte der sechs Bank-Sitzungen lesen (Zeilen, Abweichungen,
-   Befunde in stand.md); Guthaben ablesen. Bei brauchbarer Form:
-   auftrag-bank-mappen-3.txt (Sonnet) starten, danach die 19
-   Eintragsaufträge parallel; Nachbesserungs-Sitzung für die zwei
-   Prüfsteine.
-2. Katalogauftrag für den Code-Tab (ab Montag, nach dem Testlauf)
-   aus § 4: Einträge potenz 5 und daten 7 ausbauen, Niveaustufe G
-   (Sinussatz, Lösbarkeit), GYM-K5d, Namensabweichungen
-   schließen, Sprossenvorschläge umsetzen mit Einheitentausch,
-   Katalogbefund 3–8 nach _vorschlaege-2026-09-29.md, Vorstufe
-   prozentrechnung E4, Lückenlauf als Vorschlagsdatei; Marken neu
-   bauen; danach Mappen für potenz und daten.
-3. Testlauf-Bericht lesen; dann Zusammenbau-Skript als Prüfstein
-   an prozentrechnung (Code-Tab, LaTeX).
-4. ziel.md, Projektbeschreibung nachziehen; global.md-Absatz
-   „Prognosen" vorlegen.
+1. Einbindungslauf K1/K2 als Vorschlagsdatei: Altlehrwerke und
+   Sprachregeln gegen bank.md, auftrag-eintrag.md, Katalog-
+   Sprossen und zusammenbau halten; je Fund Ort, Wortlaut,
+   Vorschlag. Urteil im Chat, dann Umsetzung.
+2. Testlauf-Bericht v4.4 lesen (bau/merkzettel-abend.md Punkt 1).
+3. ziel.md nachziehen mit den Revisionen aus K4 (Lehrer
+   entscheidet) – danach erst der Prompt (Schalter,
+   Lernblatt/Fokus/Prüfungsheft, Ausnahmeweg ohne Abo).
