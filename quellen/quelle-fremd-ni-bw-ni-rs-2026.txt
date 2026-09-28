@@ -1,0 +1,960 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 10, E-Kurs und Realschule (seit 2025 eine gemeinsame Arbeit), Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei 10_E-Kurs-RS/2026MatheSjg10E-RS_Teil1.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                                  Mathematik                                       Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                                      Deckblatt                                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                               Zentrale Abschlussarbeit Niedersachsen
+
+                                                2026 Mathematik
+
+
+
+
+                                  Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                 36                   20                  84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note           …………………………………..……..
+    Punktzahl           Punktzahl
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                 ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+       Note                1               2               3                    4                  5              6
+
+      Punkte          84 - 72,5       72 - 61          60,5 - 49,5         49 - 38            37,5 - 17       16,5 - 0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                             Seite 1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                             Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                     Hauptteil 1 (ohne Hilfsmittel)                                 Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+
+
+Aufgabe 1
+
+Löse die Aufgaben.
+
+
+a) – 7 + 30 = __________                     b) 11,5 + 2,35 = __________
+
+
+
+c) 0,8 · 4 = __________                      d) 15 + 5 · 9 = __________
+
+
+
+Aufgabe 2
+
+Bei einer Spendenaktion nimmt der Förderverein einer Schule 402,10 € ein. Davon sollen so viele
+Zirkel wie möglich gekauft werden. Ein Zirkel kostet 7,98 €.
+Herr Gerdes möchte im Kopf überschlagen, wie viele Zirkel er ungefähr kaufen kann.
+
+Notiere eine sinnvolle Überschlagsrechnung.
+
+
+
+
+                                                                                                Abb.: pixabay.com
+
+
+
+
+Herr Gerdes kann ungefähr __________ Zirkel kaufen.
+
+
+
+
+                                                                        1a   1b   1c       1d                       2
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                        1    1    1         1                       2
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 2 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                                             Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                     Hauptteil 1 (ohne Hilfsmittel)                                           Haupttermin
+
+
+Aufgabe 3
+
+Die Tabelle zeigt den Fahrplan des Zuges RE 30 von                             RE 30 Hannover  Wolfsburg
+Hannover nach Wolfsburg.
+                                                                            Hannover         ab              09:48
+Der Zug benötigt 9 Minuten von Hannover nach Lehrte.
+                                                                                             an
+                                                                            Lehrte
+a) Trage die Ankunftszeit in Lehrte in die Tabelle ein.                                      ab              09.58
+
+                                                                                             an              10:15
+                                                                            Meinersen
+b) Ergänze die folgenden Sätze.                                                              ab              10:16
+
+    Der Zug benötigt von Lehrte nach Gifhorn                                                 an              10:25
+                                                                            Gifhorn
+    ________ Minuten.                                                                        ab              10:32
+    In Wolfsburg kommt der Zug wegen einer                                                   an              10:41
+                                                            Abb.: MK Nds.
+    Streckensperrung 27 Minuten später an,                                  Fallersleben
+                                                                                             ab              10:42
+    also um ______________ Uhr.                                             Wolfsburg        an              10:46
+
+
+
+Der Graph zeigt die planmäßige
+Zugfahrt des RE 30.
+
+c) Erkläre, warum der Graph an
+    mehreren Stellen waagerecht
+    verläuft.
+
+    ______________________
+
+    ______________________
+
+    ______________________
+
+    ______________________
+                                                                                                                          Abb.: MK Nds.
+
+
+
+
+    ______________________
+
+    ______________________
+
+    ______________________
+
+
+
+                                                                                                  3a       3b        3c
+                                                                                 Erreichte
+                                                                                 Punktzahl
+                                                                                 Mögliche
+                                                                                                  1         2        1
+                                                                                 Punktzahl
+Niedersächsisches Kultusministerium                                                                           Seite 3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                         Mathematik                               Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                    Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 4
+
+Von 400 Schülerinnen und Schülern einer Schule kommen 35 % mit dem Fahrrad.
+
+a) Berechne die Anzahl der Schülerinnen und Schüler, die mit dem Fahrrad kommen.
+    Notiere deinen Rechenweg.
+
+
+
+
+    Es kommen __________ Schülerinnen und Schüler mit dem Fahrrad zur Schule.
+
+
+
+Drei Schülerinnen haben
+
+
+
+
+                                                                                                           Abb.: MK Nds.
+Prozentsätze in einem
+Prozentstreifen grau dargestellt.
+
+
+
+b) Entscheide, welche Schülerin 35 % dargestellt hat. Begründe deine Entscheidung.
+
+    _________________________________________________________________________
+
+    _________________________________________________________________________
+
+    _________________________________________________________________________
+
+
+
+An einer anderen Schule kommen 40 % der Kinder mit dem Fahrrad. Das sind 120 Kinder.
+
+c) Berechne die Anzahl aller Kinder, die diese Schule besuchen. Notiere deinen Rechenweg.
+
+
+
+
+    Diese Schule besuchen __________ Kinder.
+
+
+
+                                                                                   4a       4b       4c
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                   2         2        2
+                                                                       Punktzahl
+
+Niedersächsisches Kultusministerium                                                            Seite 4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                             Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                     Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Aufgabe 5
+
+In einem Regal stehen 15 Kisten mit Äpfeln. In jeder Kiste sind 8 Äpfel.
+Alle Äpfel werden in Tüten umgepackt. In jede Tüte werden 6 Äpfel gepackt.
+
+a) Berechne, wie viele Tüten man benötigt.
+    Notiere deinen Rechenweg.
+
+
+
+
+    Man benötigt ______ Tüten.
+
+
+
+In einem anderen Betrieb sollen 130 Birnen in Tüten mit jeweils 9 Birnen verpackt werden.
+
+b) Begründe, dass das nicht möglich ist.
+    _________________________________________________________________________
+
+    _________________________________________________________________________
+
+
+
+Aufgabe 6
+
+Ein Dreieck ABC soll gezeichnet werden. Die Strecke AB ist vorgegeben.
+
+
+
+
+a) Miss die Länge der Strecke AB .
+
+     AB = _________ cm
+
+
+
+
+b) Zeichne das Dreieck ABC mit den Winkeln α = 110° und β = 25°.
+    Beschrifte alle Winkel.
+
+c) Bestimme die Größe des Winkels γ.
+
+    γ = ______                                                          5a   5b   6a       6b       6c
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                        2    1    1         3        1
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                                          Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                        Hauptteil 1 (ohne Hilfsmittel)                                        Haupttermin
+
+
+Aufgabe 7
+
+Mia hat einen Würfel mit dem abgebildeten Netz.
+Es gibt die Symbole Stern (S), Kreis (K) und Batterie (B).
+
+
+
+
+                                                                                                                                      Abb.: MK Nds.
+Wenn Mia den Würfel zweimal würfelt, dann erhält sie eine
+Kombination aus zwei Symbolen.
+
+a) Ergänze die Tabelle mit allen weiteren möglichen Kombinationen.
+
+
+                                                   Kombinationen der Symbole
+
+    Symbol 1. Wurf           S        S       S         K         K
+
+    Symbol 2. Wurf           K        B       S         S         B
+
+
+
+Mia zeichnet zu diesem Würfel ein anderes Netz.
+
+b) Zeichne den Kreis in Mias Netz ein.
+
+
+
+
+                                                                                                                 Abb.: MK Nds.
+c) Kreuze die beiden Abbildungen an, die diesen Würfel darstellen.
+                                                                                  Abb.: MK Nds.
+
+
+
+
+             O                   O                O                   O
+
+
+
+
+                                                                                                  7a       7b                    7c
+                                                                           Erreichte
+                                                                           Punktzahl
+                                                                           Mögliche
+                                                                                                  2         1                    1
+                                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                                           Seite 6 von 6
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 10, E-Kurs und Realschule (seit 2025 eine gemeinsame Arbeit), Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei 10_E-Kurs-RS/2026MatheSjg10E-RS_Teil2.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 11.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                           Mathematik                           Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                         Hauptteil 2 und Wahlteil                          Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1 (       )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2 (       )
+
+                                                Wahlaufgabe W3 (       )
+
+                                                Wahlaufgabe W4 (       )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, wenn nichts
+                                 anderes   angegeben       ist.   Schreibe   deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 1 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                          Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                           Hauptteil 2 und Wahlteil                            Haupttermin
+
+
+Aufgabe 1
+
+Es wurden 18 600 Frauen nach ihrer Lieblingssportart
+
+
+
+
+                                                                                                          Abb.: MK Nds.
+gefragt.
+
+a) Fülle die Lücken aus.
+
+    Die beliebteste Sportart ist
+    _________________________ .
+
+    Nordic Walking betreiben am liebsten _______ %
+    der befragten Frauen.
+
+
+
+b) Berechne die Anzahl der befragten Frauen, die am liebsten Yoga betreiben.
+
+
+
+Auch Männer wurden nach ihrer Lieblingssportart gefragt.
+
+c) Berechne zuerst die Winkelgrößen in der Tabelle.
+
+                                      Winkelgröße im
+           Sportart      Anteil
+                                      Kreisdiagramm
+
+      Fußball            25 %
+
+      Basketball         15 %
+
+
+
+
+                                                                                                          Abb.: MK Nds.
+    Zeichne die fehlende Unterteilung in das
+    Kreisdiagramm ein.
+
+
+
+
+Kathrin behauptet: „Mehr Männer als Frauen haben angegeben, dass ihre Lieblingssport Joggen ist.“
+
+d) Nimm Stellung zu Kathrins Behauptung.
+
+
+
+
+                                                                             1a   1b        1c       1d
+                                                                 Erreichte
+                                                                 Punktzahl
+                                                                 Mögliche
+                                                                             2    2         2         1
+                                                                 Punktzahl
+
+Niedersächsisches Kultusministerium                                                         Seite 2 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                               Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                        Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Aufgabe 2
+
+„Super Marion“ ist ein Videospiel. Es erscheinen zufällig die
+Hindernisse Wolke (W), Stein (S) oder Blitz (B), denen „Super
+Marion“ ausweichen muss.
+
+
+
+
+                                                                                                        Abb.: MK Nds./Dall-E3
+Das Baumdiagramm zeigt die Wahrscheinlichkeiten für das
+Erscheinen der Hindernisse.
+
+a) Trage die fehlende Wahrscheinlichkeit in den Kreis ein.
+
+
+
+
+                                                                                                                     Abb.: MK Nds.
+„Super Marion“ trifft nacheinander auf zwei Hindernisse.
+
+b) Berechne die Wahrscheinlichkeit, dass „Super Marion“ zuerst auf eine Wolke (W) und dann auf
+    einen Stein (S) trifft.
+
+
+
+c) Berechne die Wahrscheinlichkeit, dass sie auf zwei gleiche Hindernisse trifft.
+                                                                   2
+    (Wenn du die Teilaufgabe a) nicht gelöst hast, dann rechne mit 20 weiter.)
+
+
+
+                                                                                    2a       2b       2c
+                                                                     Erreichte
+                                                                     Punktzahl
+                                                                     Mögliche
+                                                                                    1         2        3
+                                                                     Punktzahl
+
+Niedersächsisches Kultusministerium                                                           Seite 3 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                             Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                       Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Aufgabe 3                                                                                    y1
+Abgebildet ist die quadratische
+Funktion y1.
+
+a) Kreuze die zugehörige
+    Funktionsgleichung für y1 an.
+
+
+
+    O    y1 = (x + 2)² + 3
+
+    O    y1 = (x + 2)² – 3
+
+    O    y1 = (x – 2)² + 3
+
+    O    y1 = (x – 2)² – 3
+
+
+
+
+                                                                                                 Abb.: MK Nds.
+
+Eine andere Funktion hat die Funktionsgleichung y2 = (x + 1)² – 4.
+
+b) Zeichne den Graphen der Funktion y2 in das Koordinatensystem ein.
+
+
+
+Murat soll die Nullstellen der Funktion y2 berechnen. Er beginnt seine Rechnung so:
+
+                                        0 = (x + 1)² – 4
+                                        …
+c) Beende Murats Rechnung.
+
+
+
+Der Graph einer quadratischen Funktion y3 soll so verlaufen, dass sich die Graphen von y2 und y3
+nicht schneiden.
+
+d) Gib eine Funktionsgleichung für y3 an.
+    Begründe, dass es mehrere mögliche Funktionsgleichungen gibt.
+
+
+                                                                         3a     3b          3c        3d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                          1      2          3          2
+                                                             Punktzahl
+
+Niedersächsisches Kultusministerium                                                         Seite 4 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                        Mathematik                                         Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                     Hauptteil 2 und Wahlteil                                                       Haupttermin
+
+
+Aufgabe 4
+
+Die Abbildung zeigt den Kopf einer Stehlampe.
+
+Die Größe der kreisförmigen Fläche  beträgt 346,36 cm2.
+
+a) Berechne den Radius r.
+
+
+
+
+                                                          (Skizze nicht maßstäblich)
+
+                                3
+Die Fläche  hat die Form eines 4 - Kreisringes.
+
+
+b) Berechne den Flächeninhalt der Fläche .
+
+
+
+
+                                                                                                                       Abb.: MK Nds.
+                                                              (Skizze nicht maßstäblich)
+
+
+
+
+c) Stelle eine allgemeine Formel zur Berechnung des
+
+    Flächeninhalts der Fläche  auf.
+                                                                                                      Abb.: MK Nds.
+
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+
+                                                                                           4a        4b                                4c
+                                                                      Erreichte
+                                                                      Punktzahl
+                                                                      Mögliche
+                                                                                            2            4                             2
+                                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                                        Seite 5 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                                      Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                        Hauptteil 2 und Wahlteil                                          Haupttermin
+
+
+Aufgabe 5
+
+
+
+
+                                                                                                                      Abb.: MK Nds.
+Die Spitze eines Spielgerätes ist von außen mit vier gleichen
+Blech-Dreiecken verkleidet. Das Blech soll erneuert werden.
+
+a) Berechne den Blechbedarf in m².
+
+
+
+
+                                                                           (Skizze nicht maßstäblich)
+
+Die Skizze und das Foto zeigen das komplette
+Spielgerät. Es hat die Form einer Pyramide mit
+quadratischer Grundfläche.
+
+b) Berechne die Länge der Diagonalen d.
+
+
+
+Die Größe des Winkels α beträgt 73°.
+
+c) Berechne die Länge s.
+    (Wenn du die Teilaufgabe b) nicht gelöst hast,
+    dann rechne mit d = 2,53 m weiter.)
+
+
+
+
+                                                           (Skizze nicht maßstäblich)                       Abb.: MK Nds.
+
+
+
+
+                                                                                          5a        5b           5c
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                           2            2         3
+                                                                         Punktzahl
+
+Niedersächsisches Kultusministerium                                                                     Seite 6 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                              Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                        Hauptteil 2 und Wahlteil                               Haupttermin
+
+
+                                 Wahlaufgabe 1 – Wahrscheinlichkeit
+
+
+Jan trinkt gern Kaffee.
+Diese Kaffee-Kapseln liegen unsortiert in einem Gefäß:
+
+
+
+
+                                                                                                          Abb.: MK Nds./Google Flow
+       12 Kapseln Ristretto (R)
+       1 Kapsel Espresso (E)
+       9 Kapseln Lungo (L)
+
+
+Jan greift, ohne hinzusehen, in das Gefäß und zieht nacheinander zwei Kapseln heraus.
+
+a) Ergänze im Baumdiagramm die fehlenden Pfade und Wahrscheinlichkeiten.
+
+
+
+
+                                                                                                          Abb.: MK Nds.
+1. Ziehen
+
+
+
+
+2. Ziehen
+
+
+
+b) Berechne die Wahrscheinlichkeit, dass Jan zuerst Ristretto (R) und dann Espresso (E) zieht.
+
+
+Jan mag keinen Espresso.
+
+c) Berechne die Wahrscheinlichkeit, dass Jan zweimal keinen Espresso zieht.
+
+
+
+Jan berechnet die Wahrscheinlichkeit für ein Ereignis mit der folgenden Rechnung:
+
+                                                     12 11
+                                           P = 1 – ( 22 ∙ 21 )
+
+d) Gib das passende Ereignis an.
+
+
+e) Gib an, wie oft Jan maximal ins Gefäß greifen muss, bis er einen Ristretto (R) zieht.
+
+                                                                     1a   1b      1c        1d       1e
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                     2     2       3         2        1
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                          Seite 7 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                             Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                          Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+                     Wahlaufgabe 2 – Quadratische Funktionen (Seite 1 von 2)
+
+
+
+
+Ein Golfspieler schlägt einen Golfball.
+
+
+
+
+                                                                                                    Abb.: MK Nds./Gemini
+Der Funktionsgraph beschreibt die Flugbahn des Golfballes.
+
+
+
+
+                                                                                                Abb.: MK Nds.
+
+
+a) Fülle die Lücken aus.
+
+    Der Golfball fliegt _____________ weit und maximal _____________ hoch.
+
+
+b) Vervollständige die Funktionsgleichung so, dass sie zur Flugbahn des Golfballes passt.
+
+
+
+                  y1 =  0,003  (x __________________________
+
+
+
+Am nächsten Tag schlägt der Golfspieler den Golfball von einer anderen Position.
+Die Flugbahn wird jetzt durch folgende Funktionsgleichung beschrieben:
+
+             y2 =  0,003 · x² + 0,9 · x  37,5
+
+c) Zeige rechnerisch, dass der Golfball die                Tipp: Nullstellen berechnen
+    gleiche Flugweite hat wie am Vortag.
+                                                           0 =  0,003 · x² + 0,9 · x  37,5│: ( 0,003)
+
+                                                           0 = x² – 300 · x + 12 500
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 8 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                                 Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                          Hauptteil 2 und Wahlteil                                   Haupttermin
+
+
+                     Wahlaufgabe 2 – Quadratische Funktionen (Seite 2 von 2)
+
+
+Die Flugbahn eines anderen Golfballes hat folgende Funktionsgleichung:
+
+                           y3 = – 0,004  (x – 95)² + 35
+
+Ein 22 m hoher Baum steht 45 m vom Koordinatenursprung entfernt.
+
+d) Zeige rechnerisch, dass der Golfball den Baum nicht trifft.
+
+
+
+Die Funktionsgleichungen beschreiben Flugbahnen von Bällen.
+
+e) Welcher Ball fliegt am weitesten? Kreuze die Funktionsgleichung an.
+
+
+
+       y = – 0,006  (x – 95)² + 35      y = – 0,01  (x – 95)² + 35        y = – 0,001  (x – 95)² + 35
+
+                     O                               O                                  O
+
+
+
+
+                                                                       2a        2b      2c       2d       2e
+                                                           Erreichte
+                                                           Punktzahl
+                                                           Mögliche
+                                                                       1         2       4         2        1
+                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 9 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                            Mathematik                                Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                        Hauptteil 2 und Wahlteil                                     Haupttermin
+
+
+                                  Wahlaufgabe 3 – Körperberechnung
+
+
+Auf dem Bild siehst du eine Boje, die aus einem Kegel und einer Halbkugel zusammengesetzt ist.
+Die Boje wird lackiert.
+
+
+
+
+a) Berechne die Höhe hk des Kegels.
+
+
+
+
+b) Berechne die Fläche, die lackiert wird.
+    (Wenn du die Teilaufgabe a) nicht gelöst
+    hast, dann rechne mit hk = 105 cm weiter.)
+
+
+
+
+                                                                                                           Abb.: MK Nds.
+Der Kegel besteht aus Kunststoff.
+1 cm3 Kunststoff hat die Masse m = 0,97 g.
+                                                                          (Skizze nicht maßstäblich)
+
+c) Berechne die Masse des Kegels in kg.
+
+    (Wenn du die Teilaufgabe a) nicht gelöst hast, dann rechne mit hk = 105 cm weiter.)
+
+
+
+d) Vervollständige den Satz.
+
+    Verdreifacht sich der Radius der Boje, …
+
+         O verdreifacht sich das Volumen der Halbkugel.
+
+         O verneunfacht sich das Volumen der Halbkugel.
+
+         O ist das Volumen der Halbkugel 27-mal so groß.
+
+
+
+
+                                                                           3a         3b          3c           3d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                            1          5           3                1
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 10 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                                        Material für Prüflinge
+
+ Sjg. 10 E-Kurs/RS                          Hauptteil 2 und Wahlteil                                           Haupttermin
+
+
+                                      Wahlaufgabe 4 – Trigonometrie
+
+
+Die Abbildung zeigt den Landeanflug des Flugzeuges 1.
+
+
+
+
+                                                                                                                         Abb.: MK Nds.
+Der Landeanflug beginnt auf der Flughöhe h = 10 km.
+Beim Landeanflug legt das Flugzeug 1 eine horizontale
+Entfernung von 198 km zurück.
+
+a) Zeige mithilfe einer Rechnung, dass die Pilotin den
+    Landewinkel  = 2,89° eingestellt hat.                                                     (Skizze nicht maßstäblich)
+
+
+
+
+In Flugzeug 2 stellt der Pilot auf der Flughöhe
+
+
+
+
+                                                                                                                            Abb.: MK Nds.
+h = 10 km den Landewinkel  = 3,00° ein.
+
+b) Berechne für Flugzeug 2 die Länge des Gleitweges g.
+
+
+                                                                                            (Skizze nicht maßstäblich)
+
+
+
+Aufgrund eines Problems muss der Pilot des Flugzeuges 2 „durchstarten“:
+Direkt nach dem Aufsetzen steigt das Flugzeug 2, bis wieder die Flughöhe h erreicht wird.
+
+
+
+
+                                                                                                                            Abb.: MK Nds.
+
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+Beim Steigen stellt der Pilot des Flugzeuges 2 den Winkel γ = 9° ein.
+
+c) Berechne die Größe des Winkels β.
+
+d) Berechne die horizontale Entfernung x.
+
+                                                                                  4a          4b          4c        4d
+                                                                Erreichte
+                                                                Punktzahl
+                                                                Mögliche
+                                                                                   2           3          1          4
+                                                                Punktzahl
+
+Niedersächsisches Kultusministerium                                                                      Seite 11 von 11
+
+[Seitenwechsel]

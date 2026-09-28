@@ -1,0 +1,380 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Realschule, Schuljahrgang 10, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheRS10/2022MatheRSLehrer/2022MatheRSL.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 9.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+Abschlussarbeit 2022                                              Mathematik                                  Erwartungshorizont
+
+Realschule                                                                                                          Haupttermin
+
+
+Ablauf der Prüfung
+
+                                150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                               Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                               Material/Medien     Arbeitsmittel:
+                                                   - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                   - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                   Hilfsmittel:
+    Mathematik Realschule 10
+
+
+
+
+                                                   - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                   - Formelsammlung (vorgegeben unter www.gosin.de)
+                               Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                   Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                   bearbeiten ist.
+                                                    Die Abgabe erfolgt spätestens nach 50 Minuten (Verkürzung der
+                                                     max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                     Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                    Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                     (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                     des Wahlteils.
+
+                                + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                     Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                     sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                    Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+  Notenziffer                            1            2               3               4               5              6
+
+
+ ab … Punkte                            72,5         61             49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+                                                                                                                         1 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                            Mathematik                            Erwartungshorizont
+
+ Realschule                                                                                  Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+ Aufgabe                                    Erwartete Lösung                                     Punkte
+    1a                                               12                                            1
+    1b                                               4,3                                           1
+    1c                                               30                                            1
+    1d                                                1
+                                                                                                   1
+                                                      4
+    2a                                             3,14 km                                         1
+    2b                                               20                                            1
+     3
+                    6,24 cm²           62,4 cm²               624 cm²         6240 cm²
+                                                                                                   1
+                        O                  O                                     O
+
+
+
+    4a                                                                                             1
+    4b                                                                                             1
+
+
+
+    5a                                               16                                            2
+                                               – 61 + 9x = – 16
+    5b                                                9x = 45                                      3
+                                                          x=5
+                                   Jede richtige Gleichung ist zu werten.
+    5c                                                                                             1
+                                    Zum Beispiel: „4x + 13,60 = 47,60“
+
+
+
+
+    6a                                                                                             1
+
+
+
+
+                               Der Graph gehört zur Apfelsorte Jonagold.
+    6b                                                                                             2
+              Für 20 € dieser Apfelsorte erhält man etwa 6,3 kg Äpfel. (Genauigkeit ± 0,1 kg.)
+    6c                             Jede sinnvolle Antwort ist zu werten.                           1
+
+
+                                                                                                 2 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022                         Mathematik                             Erwartungshorizont
+
+Realschule                                                                                  Haupttermin
+
+
+             Zum Beispiel: „Die Einteilung auf beiden Achsen lässt ein genaues Bestimmen
+                                     von Zwischenwerten nicht zu.“
+   7a                  Jede sinnvolle Zerlegung oder Ergänzung ist zu werten.                    1
+   7b                                         A = 27 cm²                                         2
+   7c                                          A = 12x²                                          1
+
+
+
+
+   8a                                                                                            2
+
+
+
+
+   8b                                                                                            2
+
+
+
+
+                              Jede sinnvolle Begründung ist zu werten.
+   8c         Zum Beispiel: „Bei der Spiegelung an dieser Geraden liegen die Pfeile nicht        1
+                                             aufeinander.“
+
+
+
+
+                                                                                               3 von 9
+
+[Seitenwechsel]
+    Abschlussarbeit 2022                         Mathematik                            Erwartungshorizont
+
+    Realschule                                                                                Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+                                                                                                  4 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022                           Mathematik                          Erwartungshorizont
+
+Realschule                                                                               Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe                                   Erwartete Lösung                                Punkte
+   1a                                         16889,60 €                                      2
+                               Jede sinnvolle Rechnung ist zu werten.
+   1b                                                                                         3
+                       Zum Beispiel: „8900 € : 1,19 ∙ 1,16 ≈ 8675,63 € ≠ 8633 €“
+                                              Nein.
+                             Jede sinnvolle Begründung ist zu werten.
+   1c                                                                                         2
+              Zum Beispiel: „Da die y-Achse bei 400 beginnt, wirkt die rechte Säule im
+                         Vergleich zur linken Säule deutlich niedrigerer.“
+
+
+
+   2a                                                                                         2
+
+
+
+
+   2b                                                                                         1
+
+
+
+
+                                                                      1
+   2c                             P (schwarze und weiße Kugel) =                              3
+                                                                      7
+                                                   1
+   3a                                        y=–       x+2                                    2
+                                                   2
+                                            S(3|0,5)
+   3b        (Zur Bestimmung des Schnittpunktes kann ein beliebiges Verfahren gewählt         3
+                                            werden.)
+                                    1
+                       Steigung m: ; y-Achsenabschnitt b: beliebig, außer –1.
+                                    2
+   3c                                                                                         2
+                                                            1
+                                        Zum Beispiel: y =       x+1
+                                                            2
+   4a                                         a ≈ 8,94 cm                                     3
+                                             A ≈ 67,19 cm²
+   4b                                                                                         5
+                                            (A ≈ 60,67 cm²)
+                                  verdoppelt werden.
+   4c                            O verdreifacht werden.                                       1
+                                 O vervierfacht werden.
+
+
+
+                                                                                             5 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022     Mathematik      Erwartungshorizont
+
+Realschule                                     Haupttermin
+
+
+
+
+   5a                                               1
+
+
+   5b                   a ≈ 14,95 cm                2
+   6a                  V ≈ 200,28 cm³               3
+                        m ≈ 1794,48 g
+   6b                                               1
+                       (m ≈ 2449,66 g)
+
+
+
+
+                                                   6 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022                 Mathematik                  Erwartungshorizont
+
+Realschule                                                             Haupttermin
+
+
+Wahlteil
+
+Aufgabe                          Erwartete Lösung                       Punkte
+                       Jede sinnvolle Rechnung ist zu werten.
+   1a                                                                      1
+                       Zum Beispiel: „180° – 90° – 41° = 49° “
+   1b                        (Genauigkeit: ± 1 mm/± 1°)                    3
+
+   1c                                                                      1
+
+   1d                                 ≈ 24,78°                            2
+   1e                               x ≈ 457,28 m                           3
+
+
+
+
+                                    O Pyramide
+                                    O Kegel
+                                    O Kugel
+   2a                                                                      1
+                                     Halbkugel
+                                     Zylinder
+                                    O Quader
+   2b                             60 Schokoküsse                           2
+   2c                              V ≈ 63,13 cm³                           5
+                                           8
+   2d                                 V=       πr³                         2
+                                           3
+
+
+
+
+                                                                           7 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022                          Mathematik                           Erwartungshorizont
+
+Realschule                                                                                Haupttermin
+
+
+
+
+   3a                                                                                         1
+
+
+
+
+   3b                                                                                         4
+
+
+
+
+   3c                                                                                         1
+
+                       Nach 25 Minuten sind noch 41 % des Farbstoffes vorhanden.
+   3d                                                                                         1
+                                          (Genauigkeit: ± 2 %)
+                            10 % Farbstoff sind nach 65 min noch vorhanden.
+   3e                                                                                         1
+                                         (Genauigkeit: ± 2 min)
+                                        Der Patient ist gesund.
+                               Jede sinnvolle Begründung ist zu werten.
+   3f        Zum Beispiel: „Bei einer gesunden Bauchspeicheldrüse sind nach 20 min laut       2
+             Tabelle noch 49 % vorhanden. Bei diesem Patienten ist nach 20 min nur noch
+             die Hälfte (50 %) vorhanden, deswegen ist die Bauchspeicheldrüse gesund.“
+
+
+
+
+                                                                                             8 von 9
+
+[Seitenwechsel]
+Abschlussarbeit 2022                     Mathematik                      Erwartungshorizont
+
+Realschule                                                                     Haupttermin
+
+
+
+
+   4a                                                                              2
+
+
+
+
+   4b                                                                              3
+
+
+
+
+   4c                                    S(– 1| – 5)                               1
+   4d                            x1 ≈ 1,24      x2 ≈ – 3,24                        3
+                       Jede richtige Funktionsgleichung ist zu werten.
+   4e                                                                              1
+                               Zum Beispiel: „y = x² + 2x + 2“
+
+
+
+
+                                                                                   9 von 9
+
+[Seitenwechsel]

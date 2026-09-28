@@ -1,0 +1,1152 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Hauptschule Mathematik mit Lösungen – Prüfungsjahr 2022, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320106/2022 (Jahrgangsseite, Serlo-ID 320106); Prüfungsteile: https://de.serlo.org/mathe/320165/pflichtteil-a1 (Pflichtteil A1, ID 320165); https://de.serlo.org/mathe/320166/pflichtteil-a2 (Pflichtteil A2, ID 320166); https://de.serlo.org/mathe/320167/wahlteil-b (Wahlteil B, ID 320167)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2022  (Serlo-ID 320165)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322530 – https://de.serlo.org/mathe/322530/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Jannik kauft ein. Wie viel muss er insgesamt bezahlen?
+
+- 2 Hefte für je 89 ct
+- 1 Zirkel für 9,78 €
+- 1 Taschenrechner für 18,99 €
+- 1 Geodreieck für 0,95 €
+(1 Pkt.)
+[Eingabefeld: 31,50]
+Lösung:
+Berechnen der Summe, die Jannik für seinen Einkauf bezahlen bezahlen muss.
+Durchführen der schriftlichen Addition:
+
+hspace{8mm}0,89 ; hspace{4mm}+0,89 ; hspace{4mm}+9,78 ; hspace{2mm}+18,99 ; hspace{5mm}+0,95 ; rule{20mm}{0.3mm}
+hspace{9mm}31,50
+
+Jannik muss also insgesamt boxed{31,50 €} bezahlen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322532 – https://de.serlo.org/mathe/322532/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Trage eine passende Zahl ein.
+
+(1)/(4) < underline{ } < (2)/(5)
+(1 Pkt.)
+Lösung:
+Eintragen einer passend Zahl in die Lücke.
+Ermitteln des gemeinsamen Nenners, indem man die Nenner der beiden Brüche miteinander multipliziert.
+
+4·5=20
+
+Der gemeinsame Nenner der beiden Brüche ist dann:  20. 
+
+Eine passende Zahl ist dann z. B.:
+
+ (5)/(20) < boxed{(6)/(20)} < (8)/(20) oder (5)/(20) < boxed{(7)/(20)} < (8)/(20)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322534 – https://de.serlo.org/mathe/322534/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Max kauft sich eine Hose und bezahlt dafür 24 Euro. Wie teuer war die Hose vorher?
+[Abbildung]
+(1 Pkt.)
+[Eingabefeld: 80]
+Lösung:
+Berechnen des Preises der Hose ohne den Rabatt.
+Berechnen des Preises der Hose mithilfe der Formel für den verminderten Grundwert.
+
+Die Formel zur Berechnung des verminderten Grundwerts lautet:
+
+G^{-}=G·(1-p)
+
+Folgende Größen sind bekannt:
+
+G^{-}=24; p=70 %
+
+Einsetzen der bekannten Größen in die Formel und berechnen des Grundwerts G.
+
+mathrm{24=G·(1-(70)/(100)) ⇒ G=(24)/(0,3)}
+
+G=80 €
+
+Die Hose hat vor der Rabattaktion boxed{80 €} gekostet.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322539 – https://de.serlo.org/mathe/322539/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse die Gleichung.
+
+35x+16-12x=18x-(23+8x)
+(1 Pkt.)
+x = [Lücke: -3] 
+Lösung:
+Lösen der Gleichung.
+Berechnen von x.
+  35x+16-12x = 18x-(23+8x)
+  35x+16-12x = 18x-23-8x
+  23x+16 = 10x-23   | -10x-16
+  13x = -39   | :13
+  x = -3
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322541 – https://de.serlo.org/mathe/322541/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Dilara behauptet: „Alle drei Figuren haben den selben Flächeninhalt."
+Hat sie recht? Begründe deine Antwort.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Überprüfen von Dilaras Behauptung.
+[Abbildung]
+Formeln zur Berechnung des Flächeninhalts von Trapez, Rechteck und Parallelogramm:
+
+large{boxed{mathrm{A_{Trapez}=(mg· h)/(2)}} boxed{A_{Rechteck}=a· b} boxed{A_{Parallelogramm}=a· h}}
+Messen der Höhe der Figuren, wir stellen fest, dass: 
+
+large{mathrm{h_{Tr.}=b=h_{Pa.}}}
+
+Messen der Grundseite von Rechteck und Parallelogramm , beim Trapez  messen wir die beiden Seiten g_1 und g_2 und berechnen die mittlere Grundseite mg, wir stellen fest, dass:
+
+large{mathrm{m_{g}=a_{Re.}=a_{Pa.}}}
+
+Da alle Größen der drei Figuren, die zur Berechnung des Flächeninhalts in die Formel eingehen gleich sind, haben alle drei Figuren den gleichen Flächeninhalt. 
+Dilara hat also recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322545 – https://de.serlo.org/mathe/322545/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Quader wird vollständig mit Würfeln gefüllt.
+Das Volumen eines Würfels beträgt 1dm^3.
+Maße des Quaders:
+Länge: 2m
+Breite: 1m
+Höhe: 1,5m
+
+Wie viele 1dm^3 Würfel werden benötigt?
+
+[Abbildung: Zeichnung nicht maßstabsgetreu!]
+(1 Pkt.)
+[Eingabefeld: 3000]
+Lösung:
+Berechnen der Anzahl der kleinen Würfel, die benötigt werden, um den Quader vollständig zu füllen.
+Umrechnen der Maße des Quaders von m in dm.
+
+1m=10dm
+
+Länge: 2· 10dm=20dm
+
+Breite: 1· 10dm=10dm
+
+Höhe: 1,5· 10dm=15dm
+
+Berechnen des Volumens des Quaders.
+
+mathrm{V_{Quader}=l· b· h ⇒ V_{Quader}=20·10·15}
+
+underline{V_{Quader}=3000dm^3}
+
+Der Quader hat ein Volumen von 3000dm^3, der kleine Würfel hat ein Volumen von 1dm^3,
+dann werden boxed{3000} kleine Würfel benötigt, um den Quader vollständig zu füllen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 322548 – https://de.serlo.org/mathe/322548/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Kreuze die passende Lösung an.
+
+Jedes Rechteck ist ...
+
+(1 Pkt.)
+[Auswahl (eine Antwort)]
+  ( ) ... ein Drache
+  ( ) ... eine Raute
+  (x) ... ein Parallelogramm
+  ( ) ... ein Quadrat
+Lösung:
+Ankreuzen der passenden Lösung.
+Ein Rechteck hat die Eigenschaften eines Parallelogramms:
+- gegenüberliegende Seiten sind parallel
+- gegenüberliegende Winkel sind gleich groß
+- zwei auf derselben Seite liegende Winkel ergeben 180°
+- die Diagonalen halbieren sich
+Also ist jedes Rechteck auch ein Parallelogramm, kreuze entsprechend an.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 322550 – https://de.serlo.org/mathe/322550/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Beantworte mit Hilfe des Schaubilds folgende Fragen:
+
+- Wie viel € kosten 50 g Lachs?
+- Wie viel Lachs bekommt man für 2 € ?
+[Abbildung]
+(1 Pkt.)
+50 g Lachs kosten  [Lücke: 1,75]  €.
+Für 2 € bekommt man ca. [Lücke: 57] g Lachs.
+
+Lösung:
+Beantworten der Fragen aus der Aufgabenstellung mit Hilfe des Schaubildes.
+
+[Abbildung]
+Wir lesen aus dem Schaubild ab:
+
+50 g Lachs kosten ca. 1,75 €.
+
+Für 2 € bekommt man  ca. 57 g Lachs.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 322552 – https://de.serlo.org/mathe/322552/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Bei diesem besonderen Würfelnetz sind drei Flächen nicht beschriftet.
+Ergänze die fehlenden Augenzahlen so, dass die Wahrscheinlichkeit eine gerade Zahl zu würfeln bei (2)/(3) liegt.
+Beschrifte alle Flächen.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Beschriften der drei unbeschrifteten Flächen.
+Der Würfel hat 6 Flächen, der Bruch wird auf den Nenner 6 erweitert.
+Wir erhalten dann (4)/(6).  Auf dem Würfel befinden sich bereits zwei gerade und eine ungerade Zahl, also müssen wir den Würfel noch um eine ungerade und zwei gerade Zahle ergänzen.
+Der Würfel kann dann z. B. so aussehen:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 322554 – https://de.serlo.org/mathe/322554/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Im Schülercafé wurde eine Woche lang Eis verkauft.
+Die Tabelle zeigt, wie viele Eiskugeln pro Tag verkauft wurden.
+[Abbildung]
+- Wie viele Eiskugeln wurden durchschnittlich pro Tag verkauft?
+(1 Pkt.)
+[Eingabefeld: 64]
+Lösung:
+Berechnen der durchschnittlich verkauften Eiskugeln pro Tag.
+ Die Formel zur Berechnung des Durchschnitts (arithmetisches Mittel) lautet:
+
+mathrm{{largeφ}=(Wert_1+Wert_2+Wert_3+… Wert_n)/(Anzahl der Werte)}
+
+Einsetzen der Werte aus der Tabelle in die Formel.
+
+{largeφ_{Eiskugeln}}=(45+103+83+65+24)/(5)
+
+{largeφ_{Eiskugeln}}=64
+
+Es werden durchschnittlich boxed{64} Eiskugeln pro Tag verkauft.
+
+
+==============================================================================
+Pflichtteil A2 2022  (Serlo-ID 320166)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322566 – https://de.serlo.org/mathe/322566/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Insgesamt wurden 2400 Personen nach ihrem Wunschurlaubsziel außerhalb Deutschlands befragt.
+[Abbildung]
+Überprüfe folgende Aussagen mithilfe des Diagramms und kreuze an, ob sie wahr sind.
+[Auswahl (mehrere Antworten)]
+  (x) 20% haben für Spanien gestimmt.
+  (x) Mehr als 14% haben Kroatien angegeben.
+  ( ) (3)/(10) der Personen haben ein "sonstiges" Urlaubsziel genannt.
+  (x) Jeder Zehnte hat für Griechenland gestimmt.
+Lösung:
+Lösungsidee: Berechne den Prozentwert, und vergleiche das jeweilige Ergebnis mit den Werten des Diagramms.
+Überprüfen der Aussagen.
+Wir überprüfen die Aussagen mithilfe der Formel:
+
+hspace{40mm}boxed{W=G· p} 
+rule{120mm}{0.8mm}
+ 
+20% haben für Spanien gestimmt.
+
+W=480 p=20 % G=2400
+
+mathrm{480=2400· (20)/(100) ⇒ 480=480}
+
+Die Aussage ist also wahr, kreuze entsprechend an.
+rule{110mm}{0.5mm}
+
+Mehr als 14% haben Kroatien angegeben.
+
+W=346 p=14 % G=2400
+
+mathrm{346>2400· (14)/(100) ⇒ 346>336}
+
+Die Aussage ist also wahr, kreuze entsprechend an.
+rule{110mm}{0.5mm}
+
+(3)/(10) der Personen haben ein „sonstiges“ Urlaubsziel genannt.
+
+W=480 p=30 % G=2400
+
+mathrm{565=2400· (30)/(100) ⇒ 565≠720}
+
+Die Aussage ist also nicht wahr, kreuze entsprechend an.
+rule{122mm}{0.5mm}
+
+Jeder Zehnte hat für Griechenland gestimmt.
+
+W=240 p=10 % G=2400
+
+mathrm{240=2400· (10)/(100) ⇒ 240=240}
+
+Die Aussage ist also wahr, kreuze entsprechend an.
+rule{110mm}{0.5mm}
+[Tabelle]
+Aussage | wahr | falsch
+20% haben für Spanien gestimmt | Large{x} | 
+Mehr als 14% haben Kroatien angegeben | Large{x} | 
+(3)/(10) der Personen haben ein „sonstiges“ Urlaubsziel genannt |  | Large{x}
+Jeder Zehnte hat für Griechenland gestimmt. | Large{x} |
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322568 – https://de.serlo.org/mathe/322568/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Der Quader und der zusammengesetzte Körper haben das gleiche Volumen.
+[Abbildung]
+Berechne die Höhe des Quaders.
+(2 Pkt.)
+[Eingabefeld: 4]
+Lösung:
+Lösungsidee: - Berechne das Volumen des zusammengesetzten Körpers.
+- Setze das Volumen des zusammengesetzten Körpers gleich dem Volumen des Quaders.
+- Löse die Volumenformel des Quaders nach h auf.
+Berechnen der Höhe des Quaders.
+Der zusammengesetzte Körper besteht aus einem Quader und einer quadratischen Pyramide. 
+
+Berechnen des Volumens des Quaders des zusammengesetzten Körpers:
+
+V_{Quader}=l· b· h
+
+Wir entnehmen die entsprechenden Größen der Skizze und setzen diese in die Formel ein.
+
+mathrm{V_{Quader}=3·3·2hspace{30mm}underline{V_{Quader}=18cm^3}}
+
+Berechnen des Volumens der Pyramide des zusammengesetzten Körpers:
+
+mathrm{V_{Pyramide}=(1)/(3)· l· b· h}
+
+Einsetzen der entsprechenden Größen in die Formel.
+
+mathrm{V_{Pyramide}=(1)/(3)·3·3·6hspace{22mm}underline{V_{Pyramide}=18cm^3}}
+
+Berechnen des Volumens des zusammengesetzten Körpers:
+
+mathrm{V_{z.K.}=V_{Quader}+V_{Pyramide}}
+
+mathrm{V_{z.K.}=18+18hspace{36mm}underline{V_{z.K.}=36cm^3}}
+
+Die Höhe textbf{h} des großen Quaders berechnen wir wie folgt:
+
+hspace{60mm}mathrm{V_{Quader}=V_{z.K.}}
+
+V_{Quader}=l· b· hhspace{20mm}Auflösen der Formel nach h.
+
+mathrm{V_{Quader}=l· b· hhspace{20mm}|:(l· b)} und Seiten tauschen
+
+mathrm{h=dfrac{V_{Quader}}{l· b}}hspace{32mm}Einsetzen der entsprechenden Größen in die Formel.
+
+mathrm{h=(36)/(3·3)hspace{48mm}underline{underline{h=4cm}}}
+
+Die Höhe des Quaders beträgt boxed{4cm}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322570 – https://de.serlo.org/mathe/322570/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Zeichne zum abgebildeten Netz den passenden Körper im Schrägbild.
+[Abbildung]
+Lösung:
+Zeichen des Schrägbilds.
+[Abbildung: Die Zeichnung ist nicht maßstabsgetreu.]
+Da im Schrägbild die Strecke 8cm unter einem Winkel von 45° angetragen wird, verkürzt sich diese Strecke um die Hälfte, d. h. der Verkürzungsfaktor q=(1)/(2).
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322572 – https://de.serlo.org/mathe/322572/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Der Vogel ist im Maßstab 1:8 dargestellt.
+[Abbildung]
+Ermittle so genau wie möglich die Flügelspannweite des Vogels in Wirklichkeit.
+(2 Pkt.)
+Lösung:
+Lösungsidee: - Ausmessen der Flügelspannweite dort wo die Flügel am breitesten sind.
+- Multiplizieren des ausgemessenen Werts mit dem Maßstab.
+Ermitteln die Flügelspannweite des Vogels in Wirklichkeit.
+[Abbildung]
+Die Flügelspannweite, die wir in der Skizze ausgemessen haben ist etwa 16cm.
+Der Maßstab beträgt 1:8, d. h. 1cm in der Skizze entspricht 8cm in der Wirklichkeit.
+Um die Flügelspannweite des Vogels in Wirklichkeit zu erhalten multiplizieren wir den gemessenen Wert mit 8.
+
+Die Flügelspannweite des Vogels in Wirklichkeit ist dann:
+
+Flügelspannweite=16·8hspace{30mm}Flügelspannweite=128cm 
+
+Die Flügelspannweite des Vogels beträgt etwa boxed{128cm}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322574 – https://de.serlo.org/mathe/322574/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das Bild zeigt die Netze von zwei besonderen „Spielwürfeln".
+[Abbildung]
+Bei welchem Würfel ist die Wahrscheinlichkeit größer, eine gerade Zahl zu würfeln? Begründe deine Entscheidung.
+(2 Pkt.)
+Lösung:
+Bestimmen, bei welchem Würfel die Wahrscheinlichkeit größer ist, eine gerade Zahl zu würfeln.
+Der linke Würfel hat 6 Flächen, 2 davon sind mit einer geraden Zahl belegt.
+Die Wahrscheinlichkeit eine gerade Zahl zu würfeln ist dann:
+
+mathrm{P_{gerade}=(2)/(6)=33,33 %}
+
+Der rechte Würfel  hat 4 Flächen, 2 davon sind mit einer geraden Zahl belegt.
+Die Wahrscheinlichkeit eine gerade Zahl zu würfeln ist dann:
+
+mathrm{P_{gerade}=(2)/(4)=50 %}
+
+Begründung:
+Da 50 %>33,33 % ist, ist also beim rechten Würfel die Wahrscheinlichkeit größer, eine gerade Zahl zu würfeln.
+
+
+==============================================================================
+Wahlteil B 2022  (Serlo-ID 320167)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322576 – https://de.serlo.org/mathe/322576/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+textbf{a)} Familie Huber möchte für ihren 14-tägigen Urlaub ein Wohnmobil ausleihen.
+      Sie geht davon aus, dass sie im Urlaub 3400km fahren werden.
+      Zwei Angebote stehen zur Auswahl.
+[Abbildung]
+(2 Pkt.)
+Für welches Angebot sollte sich Familie Huber entscheiden? Begründe deine Antwort.
+textbf{b)}Der linke Körper ist zur Hälfte mit Wasser gefüllt. Läuft das Wasser über, wenn es        
+     vollständig in die rechte leere Pyramide umgefüllt wird? Begründe.
+[Abbildung: Zeichnung nicht maßstabsgetreu!]
+(3 Pkt.)
+Lösung:
+Berechnen der Kosten für Angebot A.
+Grundpreis für 14 Tage:hspace{27mm}50·14 = 700 €
+Preis für 3400 km : hspace{12mm}(3400-400)·0,90=2700 €
+Preis für Endreinigung:hspace{48mm}100 €
+rule{115mm}{0.6mm}
+Gesamtpreis Angebot 1: hspace{45mm}3500 €
+rule{115mm}{0.5mm}
+Berechnen der Kosten für Angebot B.
+Grundpreis für 14 Tage:hspace{27mm}60·14=840 €
+Preis für 3400 km : hspace{24mm}3400·0,99=3366 €
+Preis für Endreinigung:hspace{51mm}0 €
+rule{115mm}{0.5mm}
+Preis Angebot 2 ohne Rabatt: hspace{30mm}4206 €
+
+10 % Rabatt:4206·0,10hspace{38mm}-420,60 €
+rule{115mm}{0.5mm}
+Gesamtpreis Angebot 2: hspace{40mm}3785,40 €
+rule{115mm}{0.5mm}
+
+Da das Angebot A weniger kostet als das Angebot B, sollte sich Familie Huber für
+Angebot A entscheiden.
+Prüfen, ob das Wasser überläuft, wenn es vollständig in die leere Pyramide umgefüllt wird.
+Die Formel zur Berechnung des Volumeninhalts eines Quader lautet:
+
+large{V_{Quader}=l· b· h}
+
+Für das Volumen des Wassers im obigen Quader gilt:mathrm{V_{Wasser}=(1)/(2)·4·4· h} 
+
+Die Formel zur Berechnung des Volumeninhalts einer Pyramide lautet:
+
+large{mathrm{V_{Pyramide}=(1)/(3)· l· b· h}}
+
+Für das Volumen der obigen Pyramide gilt:mathrm{V_{Pyramide}=(1)/(3)·4·4· h} 
+
+Damit das Wasser, das sich im Quader befindet, vollständig in die Pyramide gefüllt werden kann ohne dass es überläuft, muss das Volumen der Pyramide mindestens so groß sein wie das Volumen des Wassers.
+
+mathrm{V_{Wasser}stackrel{?}{=}V_{Pyramide}}
+
+mathrm{(1)/(2)·4·4· hstackrel{?}{=}(1)/(3)·4·4· h}
+
+mathrm{(1)/(2)·16· h > (1)/(3)·16· h}
+
+Das Wasser läuft über, wenn es vollständig in die rechte leere Pyramide umgefüllt wird, da das Volumen des Wassers größer ist als das Volumen der Pyramide.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322578 – https://de.serlo.org/mathe/322578/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+textbf{a)}2019 betrug der weltweite Seehandel 11086 Mio. Tonnen.
+      Davon mussten 9,3 % durch den Suezkanal transportiert werden.
+      Die Ladung, die durch den Suezkanal transportiert wurde, ist in folgender Grafik
+      dargestellt:  
+[Abbildung]
+
+- Wie viel Millionen Tonnen wurden durch den Suezkanal transportiert?
+- Wie viel Millionen Tonnen davon waren Öl und Treibstoffe?
+(2 Pkt.)
+
+textbf{b)} Die Abbildung zeigt den Querschnitt des Suezkanals.
+[Abbildung: Zeichnung nicht maßstabsgetreu!]
+
+- Wie breit ist der Suezkanal an der Wasseroberfläche?
+(3 Pkt.)
+Es wurden [Lücke: 1031] Millionen Tonnen durch den Suezkanal transportiert.
+
+[Lücke: 237 | 237,13] Millionen Tonnen davon waren Öl und Treibstoffe.
+
+An der Wasseroberfläche ist der Suezkanal [Lücke: 345 | 345,02] m breit.
+Lösung:
+Lösung zu Aufgabe a.)
+Berechnen wie viel Millionen Tonnen 2019 durch den Suezkanal transportiert wurden.
+Lösen der Aufgabe mithilfe der Prozentformel.
+
+Folgende Größen sind bekannt:
+
+Grundwert: hspace{3mm}G=11086 Mio.
+Prozentsatz: p=9,3 %
+
+Berechnen des Prozentwerts W mit der Formel:
+
+W=G· p
+
+Einsetzen der bekannten Größen.
+
+mathrm{W=11086· (9,3)/(100) ⇒ W=11086·0,093}
+
+underline{underline{W=1031 Mio.}}
+
+Im Jahr 2019 wurden boxed{1031} Mio. Tonnen durch den Suezkanal transportiert.
+
+
+Berechnen wie viel Millionen Tonnen davon Öl und Treibstoffe waren.
+Zum Lösen der Aufgabe verwenden wir wieder die Prozentformel.
+
+Folgende Größen sind bekannt:
+
+Grundwert: hspace{3mm}G=1031 Mio.
+Prozentsatz: p=23 %(siehe Grafik)
+
+Berechnen des Prozentwerts W mit der Formel:
+
+W=G· p
+
+Einsetzen der bekannten Größen.
+
+mathrm{W=1031· (23)/(100) ⇒ W=1031·0,23}
+
+underline{underline{W=237,13 Mio.}}
+
+Im Jahr 2019 wurden ca. boxed{237} Mio. Tonnen Öl und Treibstoffe durch den Suezkanal transportiert.
+Lösung zu Aufgabe b.)
+[Abbildung: Zeichnung nicht maßstabsgetreu!]
+Berechnen der Breite des Suezkanals an der Wasseroberfläche.
+Die grünen Dreiecke sind rechtwinklige Dreiecke, wir berechnen die Seite textbf{a} mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Der Satz des Pythagoras angewandt auf das grüne Dreieck:
+
+69,3^2=a^2+24^2 ⇒ a=√{69,3^2-24^2}
+
+a=√{4802,49-576}
+
+a=√{4226,49}
+
+underline{a=65,01m}
+
+Der Querschnitt des Suezkanals hat die Form eines Trapez. Zur unteren Grundlinie (215m) addieren wir zweimal die berechnete Länge textbf{a}.
+
+Die Breite der Wasseroberfläche ist dann:
+
+Breite_{WO}=215,0+2·65,01
+
+Breite_{WO}=345,02m
+
+Der Suezkanal ist an der Wasseroberfläche 345m breit.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322581 – https://de.serlo.org/mathe/322581/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+textbf{a)}Lisas Spielfigur steht auf dem Feld mit dem Stern.
+Das Ergebnis im Glücksrad gibt an, wie viele Felder sie vorrücken darf.
+- Berechne alle Werte des Glücksrads.
+- Wie hoch ist die Wahrscheinlichkeit, einen Gewinn zu bekommen, wenn das Glücksrad ein Mal gedreht wird?
+[Abbildung]
+(2 Pkt.)
+
+textbf{b)} Es passen immer eine Funktionsgleichung, eine Wertetabelle und ein Graph zusammen.
+- Welche Darstellungen passen zusammen?
+- Ergänze die unvollständigen Darstellungen.
+[Abbildung]
+Funktionsgleichung A
+boxed{y = -3}
+
+Funktionsgleichung B
+boxed{y = -x+2}
+
+Funktionsgleichung C
+boxed{y= }
+[Abbildung]
+(3 Pkt.)
+Lösung:
+Teilaufgabe a.)
+Berechnen aller Werte des Glücksrads.
+mathrm{boxed{√{36}=6} boxed{1^2=1} boxed{√{4}=2} boxed{3+3=6} boxed{√{9}=3} boxed{4,5-1,5=3}}
+
+mathrm{boxed{2^2=4} boxed{3^2=9} boxed{√{16}=4} boxed{5-2=3} boxed{√{25}=5} boxed{2,5+1,5=4}}
+Berechnen der Wahrscheinlichkeit, einen Gewinn zu bekommen, wenn das Glücksrad ein Mal gedreht wird.
+[Abbildung: Das Glücksrad braucht nicht gezeichnet zu werden.]
+Um zu gewinnen muss Lisa die Spielfigur entweder 2 oder 6 Felder vorrücken.
+Auf dem Glücksrad ist einmal eine 2 und zweimal eine 6, das sind 3 von 12 Ereignissen.
+Die Wahrscheinlichkeit berechnet sich dann wie folgt:
+
+mathrm{P_{Gewinn}=(3)/(12)=(1)/(4)=25 %}
+
+Die Wahrscheinlichkeit, dass Lisa gewinnt, beträgt boxed{25 %}.
+Teilaufgabe b.)
+Ergänzen und zuordnen der  Darstellungen:
+Die allgemeine Geradengleichung lautet:
+
+mathrm{y={m}· x+{t}}
+
+Hier ist m die Steigung der Geraden und t der y-Wert, in dem die Gerade die y-Achse schneidet.
+rule{185mm}{0.5mm}
+
+Die Wertetabelle 1 zeigt, dass der y-Wert gleich bleibt, der Graph ist eine Parallele zur x-Achse, welche die y-Achse bei -3 schneidet. 
+
+Der Graph sieht dann so aus:
+[Abbildung]
+Graph c und Wertetabelle 1 gehören dann zur Funktionsgleichung textbf{A}.
+rule{185mm}{0.5mm}
+Bei der Wertetabelle 2 erkennt man an dem Wertepaar (0|0), dass die Gerade durch den Ursprung geht. Der y-Achsenabschnitt t ist also null. 
+
+Graph b ist eine Ursprungsgerade.
+
+Aufstellen der Funktionsgleichung des Graphen b.
+
+Da textbf{t} gleich null ist, brauchen wir nur noch die Steigung textbf{m} zu berechnen.
+
+Die Formel zur Berechnung der Steigung einer Geraden lautet:
+
+mathrm{m=(Delta y)/(Delta x)=(y_2-y_1)/(x_2- x_1)}
+
+Wir entnehmen der Wertetabelle 2 z. B. die Wertepaare (1|2) und (2|4), setzen sie in die Formel ein und berechnen die Steigung m.
+
+mathrm{m=(4-2)/(2-1) ⇒ m=2}
+
+Die Funktionsgleichung C, lautet dann:
+
+ boxed{y=2x}
+
+Graph b und Wertetabelle 2 gehören dann zur Funktionsgleichung textbf{C}.
+rule{185mm}{0.5mm}
+Wertetabelle 3 gehört zur Funktionsgleichung textbf{B} und zu Graph a, wir ergänzen die Wertetabelle 3 entsprechend.
+[Tabelle]
+x | y
+-3 | 5
+-2 | 4
+-1 | 3
+0 | 2
+1 | 1
+2 | 0
+3 | -1
+Zusammenfassung der Zuordnungen.
+[Tabelle]
+Funktionsgleichung | Wertetabelle | Graph
+A: large{y=-3} | ; large{1} | ; large{c}
+C: large{y=2x} | ; large{2} | ; large{b}
+B: large{y=-x+2} | ; large{3} | ; large{a}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322583 – https://de.serlo.org/mathe/322583/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+textbf{a)}Ein Fitnessvideo wurde 38 236-mal angeschaut.
+Durchschnittlich war das 484-mal täglich.
+- Vor wie vielen Tagen wurde das Fitnessvideo hochgeladen?
+Das Video dauert 24 Minuten.
+Nico behauptet: „Wenn ich das Fitnessvideo 38 236-mal ohne Pause hintereinander anschaue, würde das länger als 2 Jahre dauern."
+- Hat Nico recht?(2 Pkt.)
+ textbf{b)}Im Zoo soll ein neues Gehege für Erdmännchen gebaut werden. Die Abbildung zeigt die Grundfläche des Geheges.
+[Abbildung: Zeichnung nicht maßstabsgetreu!]
+- Berechne den Flächeninhalt des Geheges.
+Das gesamte Gehege soll eingezäunt werden.
+- Wie viel Meter Zaun werden benötigt?
+(3 Pkt.)
+Das Fitnessvideo wurde vor [Lücke: 79] Tagen hochgeladen.
+
+Hat Nico recht? [Lücke: nein] (ja/nein)
+
+Den Flächeninhalt des Geheges beträgt: [Lücke: 55] m^2.
+
+Es werden [Lücke: 28,7 | 28,71]m Zaun benötigt um das Gehege einzuzäunen.
+Lösung:
+Teilaufgabe a.)
+Berechnen, vor wie vielen Tagen das Fitnessvideo hochgeladen wurde.
+
+mathrm{Tage=(wie oft Video angeschaut wurde)/(Anzahl täglich)}
+
+mathrm{Tage=(38236)/(484)}
+
+underline{underline{Tage=79}}
+
+Das Video wurde also vor boxed{79} Tagen hochgeladen.
+Prüfen, ob Nico recht hat.
+Multiplizieren der Länge des Videos mit 38236.
+
+mathrm{Laufz._{gesamt}=24·38236 ⇒ Laufz._{gesamt}=917664min}
+
+Umrechnen von Minuten in Tage:
+
+Ein Tag hat 24 Stunden, eine Stunde hat 60 Minuten.  
+
+Ein Tag hat dann, 24·60=1440 Minuten. 
+
+mathrm{(917664)/(1440)=637,27 Tage}
+
+Umrechnen von Tagen in Jahre:
+
+Ein Jahr hat 365 Tage.
+
+mathrm{(637,27)/(365)≈1,75 Jahre}
+
+Nico hat also nicht recht, da 1, 75 Jahre weniger als 2 Jahre sind.
+Teilaufgabe b.)
+Berechnen des Flächeninhalts des Geheges.
+[Abbildung: Die Figur braucht nicht gezeichnet zu werden.]
+Das Gehege setzt sich aus 3 Teilflächen zusammen (siehe Skizze).
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Rechtecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{{A}_{Rechteck}=7·6 ⇒ underline{A_{Rechteck}=42 m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Dreiecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines rechtwinkligen Dreiecks lautet:
+
+mathrm{A_{rechtw. Dreieck}=(a· b)/(2)}
+
+Berechnen der Seiten a und b des rechtwinkligen Dreiecks.
+
+a=7-r ⇒ a=7-3hspace{15mm} a=4m
+
+b=rhspace{49mm}b=3m
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{rechtw. Dreieck}=(4·3)/(2) ⇒ underline{A_{rechtw. Dreieck}=6m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Kreissektors.
+
+Die Formel zur Berechnung des Flächeninhalts eines Kreissektors lautet:
+
+mathrm{A_{Kreissektor}=(r^2·π·α)/(360°)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Kreissektor}=(3^2·π·90°)/(360°) ⇒ A_{Kreissektor}=(9π)/(4) underline{A_{Kreissektor}=7,07m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Geheges.
+
+mathrm{A_{Gehege}=A_{Rechteck}+A_{Dreieck}+A_{Kreissektor} ⇒ A_{Gehege}=42+6+7,07}
+
+underline{underline{A_{Gehege}=55,07m^2}}
+
+Der Flächeninhalt des Geheges beträgt ca.: boxed{55m^2}.
+rule{180mm}{0.8mm}
+Berechnen der Zaunlänge.
+Die Zaunlänge entspricht dem Umfang des Geheges.
+
+mathrm{U_{Gehege}=2·6+7+5+L_{Kreisbogen}}(siehe Skizze)
+
+Berechnen der Länge des Kreisbogens.
+
+mathrm{L_{Kreisbogen}=(2r·π·90°)/(360°) ⇒ L_{Kreisbogen}=(6·π)/(4)}
+
+underline{L_{Kreisbogen}=4,71m}
+
+U_{Gehege}=2·6+7+5+4,71
+
+underline{underline{U_{Gehege}=28,71m}}
+
+Es werden boxed{28,7m} Zaun benötigt um das Gehege einzuzäunen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo ExerciseGroup 332738 – https://de.serlo.org/mathe/332738/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Familie Huber möchte für ihren 14-tägigen Urlaub ein Wohnmobil ausleihen.
+ Sie geht davon aus, dass sie im Urlaub 3400km fahren werden.
+  Zwei Angebote stehen zur Auswahl.
+[Abbildung]
+Für welches Angebot sollte sich Familie Huber entscheiden? Begründe deine Antwort.
+(2 Pkt.)
+Lösung:
+Berechnen der Kosten für Angebot A.
+Grundpreis für 14 Tage:hspace{27mm}50·14 = 700 €
+Preis für 3400 km : hspace{12mm}(3400-400)·0,90=2700 €
+Preis für Endreinigung:hspace{48mm}100 €
+rule{115mm}{0.6mm}
+Gesamtpreis Angebot 1: hspace{45mm}3500 €
+
+Berechnen der Kosten für Angebot B.
+Grundpreis für 14 Tage:hspace{27mm}60·14=840 €
+Preis für 3400 km : hspace{24mm}3400·0,99=3366 €
+Preis für Endreinigung:hspace{51mm}0 €
+rule{115mm}{0.5mm}
+Preis Angebot 2 ohne Rabatt: hspace{30mm}4206 €
+
+10 % Rabatt:4206·0,10hspace{38mm}-420,60 €
+rule{115mm}{0.5mm}
+Gesamtpreis Angebot 2: hspace{40mm}3785,40 €
+
+Da das Angebot A weniger kostet als das Angebot B, sollte sich Familie Huber für
+Angebot A entscheiden.
+
+--- Teilaufgabe b) ---
+Der linke Körper ist zur Hälfte mit Wasser gefüllt. Läuft das Wasser über, wenn es        
+vollständig in die rechte leere Pyramide umgefüllt wird? Begründe.
+[Abbildung]
+(3 Pkt.)
+Lösung:
+Prüfen, ob das Wasser überläuft, wenn es vollständig in die leere Pyramide umgefüllt wird.
+Die Formel zur Berechnung des Volumeninhalts eines Quader lautet:
+
+large{V_{Quader}=l· b· h}
+
+Für das Volumen des Wassers im obigen Quader gilt:mathrm{V_{Wasser}=(1)/(2)·4·4· h} 
+
+Die Formel zur Berechnung des Volumeninhalts einer Pyramide lautet:
+
+large{mathrm{V_{Pyramide}=(1)/(3)· l· b· h}}
+
+Für das Volumen der obigen Pyramide gilt:mathrm{V_{Pyramide}=(1)/(3)·4·4· h} 
+
+Damit das Wasser, das sich im Quader befindet, vollständig in die Pyramide gefüllt werden kann ohne dass es überläuft, muss das Volumen der Pyramide mindestens so groß sein wie das Volumen des Wassers.
+
+mathrm{V_{Wasser}stackrel{?}{=}V_{Pyramide}}
+
+mathrm{(1)/(2)·4·4· hstackrel{?}{=}(1)/(3)·4·4· h}
+
+mathrm{(1)/(2)·16· h > (1)/(3)·16· h}
+
+Das Wasser läuft über, wenn es vollständig in die rechte leere Pyramide umgefüllt wird, da das Volumen des Wassers größer ist als das Volumen der Pyramide.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo ExerciseGroup 332740 – https://de.serlo.org/mathe/332740/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+2019 betrug der weltweite Seehandel 11086 Mio. Tonnen.
+Davon mussten 9,3 % durch den Suezkanal transportiert werden.
+ Die Ladung, die durch den Suezkanal transportiert wurde, ist in folgender Grafik
+ dargestellt:  
+[Abbildung]
+- Wie viel Millionen Tonnen wurden durch den Suezkanal transportiert?
+- Wie viel Millionen Tonnen davon waren Öl und Treibstoffe?
+(2 Pkt.)
+Es wurden [Lücke: 1031] Millionen Tonnen durch den Suezkanal transportiert.
+[Lücke: 237 | 237,13] Millionen Tonnen davon waren Öl und Treibstoffe.
+Lösung:
+Berechnen wie viel Millionen Tonnen 2019 durch den Suezkanal transportiert wurden.
+Lösen der Aufgabe mithilfe der Prozentformel.
+
+Folgende Größen sind bekannt:
+
+Grundwert: hspace{3mm}G=11086 Mio.
+Prozentsatz: p=9,3 %
+
+Berechnen des Prozentwerts W mit der Formel:
+
+W=G· p
+
+Einsetzen der bekannten Größen.
+
+mathrm{W=11086· (9,3)/(100) ⇒ W=11086·0,093}
+
+underline{underline{W=1031 Mio.}}
+
+Im Jahr 2019 wurden boxed{1031} Mio. Tonnen durch den Suezkanal transportiert.
+Berechnen wie viel Millionen Tonnen davon Öl und Treibstoffe waren.
+Zum Lösen der Aufgabe verwenden wir wieder die Prozentformel.
+
+Folgende Größen sind bekannt:
+
+Grundwert: hspace{3mm}G=1031 Mio.
+Prozentsatz: p=23 %(siehe Grafik)
+
+Berechnen des Prozentwerts W mit der Formel:
+
+W=G· p
+
+Einsetzen der bekannten Größen.
+
+mathrm{W=1031· (23)/(100) ⇒ W=1031·0,23}
+
+underline{underline{W=237,13 Mio.}}
+
+Im Jahr 2019 wurden ca. boxed{237} Mio. Tonnen Öl und Treibstoffe durch den Suezkanal transportiert.
+
+--- Teilaufgabe b) ---
+Die Abbildung zeigt den Querschnitt des Suezkanals.
+[Abbildung]
+- Wie breit ist der Suezkanal an der Wasseroberfläche?
+(3 Pkt.)
+An der Wasseroberfläche ist der Suezkanal [Lücke: 345 | 345,02] m breit.
+Lösung:
+[Abbildung]
+Berechnen der Breite des Suezkanals an der Wasseroberfläche.
+Die grünen Dreiecke sind rechtwinklige Dreiecke, wir berechnen die Seite textbf{a} mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Der Satz des Pythagoras angewandt auf das grüne Dreieck:
+
+69,3^2=a^2+24^2 ⇒ a=√{69,3^2-24^2}
+
+a=√{4802,49-576}
+
+a=√{4226,49}
+
+underline{a=65,01m}
+
+Der Querschnitt des Suezkanals hat die Form eines Trapez. Zur unteren Grundlinie (215m) addieren wir zweimal die berechnete Länge textbf{a}.
+
+Die Breite der Wasseroberfläche ist dann:
+
+Breite_{WO}=215,0+2·65,01
+Breite_{WO}=345,02m
+
+Der Suezkanal ist an der Wasseroberfläche 345m breit.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo ExerciseGroup 332742 – https://de.serlo.org/mathe/332742/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Lisas Spielfigur steht auf dem Feld mit dem Stern.
+Das Ergebnis im Glücksrad gibt an, wie viele Felder sie vorrücken darf.
+
+- Berechne alle Werte des Glücksrads.
+- Wie hoch ist die Wahrscheinlichkeit, einen Gewinn zu bekommen, wenn das Glücksrad ein Mal gedreht wird?
+
+[Abbildung]
+(2 Pkt.)
+Lösung:
+Berechnen aller Werte des Glücksrads.
+mathrm{boxed{√{36}=6} boxed{1^2=1} boxed{√{4}=2} boxed{3+3=6} boxed{√{9}=3} boxed{4,5-1,5=3}}
+mathrm{boxed{2^2=4} boxed{3^2=9} boxed{√{16}=4} boxed{5-2=3} boxed{√{25}=5} boxed{2,5+1,5=4}}
+Berechnen der Wahrscheinlichkeit, einen Gewinn zu bekommen, wenn das Glücksrad ein Mal gedreht wird.
+[Abbildung]
+Um zu gewinnen muss Lisa die Spielfigur entweder 2 oder 6 Felder vorrücken.
+Auf dem Glücksrad ist einmal eine 2 und zweimal eine 6, das sind 3 von 12 Ereignissen.
+Die Wahrscheinlichkeit berechnet sich dann wie folgt:
+
+mathrm{P_{Gewinn}=(3)/(12)=(1)/(4)=25 %}
+
+Die Wahrscheinlichkeit, dass Lisa gewinnt, beträgt boxed{25 %}.
+
+--- Teilaufgabe b) ---
+Es passen immer eine Funktionsgleichung, eine Wertetabelle und ein Graph zusammen.
+- Welche Darstellungen passen zusammen?
+- Ergänze die unvollständigen Darstellungen.
+[Abbildung]
+Funktionsgleichung A
+boxed{y = -3}
+
+Funktionsgleichung B
+boxed{y = -x+2}
+
+Funktionsgleichung C
+boxed{y= }
+[Abbildung]
+Lösung:
+Ergänzen und zuordnen der  Darstellungen:
+Die allgemeine Geradengleichung lautet:
+
+mathrm{y={m}· x+{t}}
+
+Hier ist m die Steigung der Geraden und t der y-Wert, in dem die Gerade die y-Achse schneidet.
+rule{185mm}{0.5mm}
+
+Die Wertetabelle 1 zeigt, dass der y-Wert gleich bleibt, der Graph ist eine Parallele zur x-Achse, welche die y-Achse bei -3 schneidet. 
+
+Der Graph sieht dann so aus:
+[Abbildung]
+Graph c und Wertetabelle 1 gehören dann zur Funktionsgleichung textbf{A}.
+
+Bei der Wertetabelle 2 erkennt man an dem Wertepaar (0|0), dass die Gerade durch den Ursprung geht. Der y-Achsenabschnitt t ist also null. 
+
+Graph b ist eine Ursprungsgerade.
+
+Aufstellen der Funktionsgleichung des Graphen b.
+
+Da textbf{t} gleich null ist, brauchen wir nur noch die Steigung textbf{m} zu berechnen.
+
+Die Formel zur Berechnung der Steigung einer Geraden lautet:
+
+mathrm{m=(Delta y)/(Delta x)=(y_2-y_1)/(x_2- x_1)}
+
+Wir entnehmen der Wertetabelle 2 z. B. die Wertepaare (1|2) und (2|4), setzen sie in die Formel ein und berechnen die Steigung m.
+
+mathrm{m=(4-2)/(2-1) ⇒ m=2}
+
+Die Funktionsgleichung C, lautet dann:
+ boxed{y=2x}
+
+Graph b und Wertetabelle 2 gehören dann zur Funktionsgleichung textbf{C}.
+Wertetabelle 3 gehört zur Funktionsgleichung textbf{B} und zu Graph a, wir ergänzen die Wertetabelle 3 entsprechend.
+[Abbildung]
+Zusammenfassung der Zuordnungen.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 332744 – https://de.serlo.org/mathe/332744/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Ein Fitnessvideo wurde 38 236-mal angeschaut.
+Durchschnittlich war das 484-mal täglich.
+- Vor wie vielen Tagen wurde das Fitnessvideo hochgeladen?
+Das Video dauert 24 Minuten.
+Nico behauptet: „Wenn ich das Fitnessvideo 38 236-mal ohne Pause hintereinander anschaue, würde das länger als 2 Jahre dauern."
+- Hat Nico recht?
+(2 Pkt.)
+Das Fitnessvideo wurde vor [Lücke: 79] Tagen hochgeladen.
+Hat Nico recht? [Lücke: nein] (ja/nein)
+Lösung:
+Berechnen, vor wie vielen Tagen das Fitnessvideo hochgeladen wurde.
+
+mathrm{Tage=(wie oft Video angeschaut wurde)/(Anzahl täglich)}
+
+mathrm{Tage=(38236)/(484)}
+
+underline{underline{Tage=79}}
+
+Das Video wurde also vor boxed{79} Tagen hochgeladen.
+
+Prüfen, ob Nico recht hat.
+Multiplizieren der Länge des Videos mit 38236.
+
+mathrm{Laufz._{gesamt}=24·38236 ⇒ Laufz._{gesamt}=917664min}
+
+Umrechnen von Minuten in Tage:
+
+Ein Tag hat 24 Stunden, eine Stunde hat 60 Minuten.  
+
+Ein Tag hat dann, 24·60=1440 Minuten. 
+
+mathrm{(917664)/(1440)=637,27 Tage}
+
+Umrechnen von Tagen in Jahre:
+
+Ein Jahr hat 365 Tage.
+
+mathrm{(637,27)/(365)≈1,75 Jahre}
+
+Nico hat also nicht recht, da 1, 75 Jahre weniger als 2 Jahre sind.
+
+--- Teilaufgabe b) ---
+Im Zoo soll ein neues Gehege für Erdmännchen gebaut werden. Die Abbildung zeigt die Grundfläche des Geheges.
+[Abbildung]
+- Berechne den Flächeninhalt des Geheges.
+Das gesamte Gehege soll eingezäunt werden.
+- Wie viel Meter Zaun werden benötigt?
+(3 Pkt.)
+Den Flächeninhalt des Geheges beträgt: [Lücke: 55] m^2.
+
+Es werden [Lücke: 28,7 | 28,71]m Zaun benötigt um das Gehege einzuzäunen.
+Lösung:
+Berechnen des Flächeninhalts des Geheges.
+[Abbildung]
+Das Gehege setzt sich aus 3 Teilflächen zusammen (siehe Skizze).
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Rechtecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{{A}_{Rechteck}=7·6 ⇒ underline{A_{Rechteck}=42 m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Dreiecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines rechtwinkligen Dreiecks lautet:
+
+mathrm{A_{rechtw. Dreieck}=(a· b)/(2)}
+
+Berechnen der Seiten a und b des rechtwinkligen Dreiecks.
+
+a=7-r ⇒ a=7-3hspace{15mm} a=4m
+
+b=rhspace{49mm}b=3m
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{rechtw. Dreieck}=(4·3)/(2) ⇒ underline{A_{rechtw. Dreieck}=6m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Kreissektors.
+Die Formel zur Berechnung des Flächeninhalts eines Kreissektors lautet:
+
+mathrm{A_{Kreissektor}=(r^2·π·α)/(360°)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Kreissektor}=(3^2·π·90°)/(360°) ⇒ A_{Kreissektor}=(9π)/(4) underline{A_{Kreissektor}=7,07m^2}}
+rule{180mm}{0.5mm}
+Berechnen des Flächeninhalts des Geheges.
+
+mathrm{A_{Gehege}=A_{Rechteck}+A_{Dreieck}+A_{Kreissektor} ⇒ A_{Gehege}=42+6+7,07}
+
+underline{underline{A_{Gehege}=55,07m^2}}
+
+Der Flächeninhalt des Geheges beträgt ca.: boxed{55m^2}.
+
+Berechnen der Zaunlänge.
+Die Zaunlänge entspricht dem Umfang des Geheges.
+
+mathrm{U_{Gehege}=2·6+7+5+L_{Kreisbogen}}(siehe Skizze)
+
+Berechnen der Länge des Kreisbogens.
+
+mathrm{L_{Kreisbogen}=(2r·π·90°)/(360°) ⇒ L_{Kreisbogen}=(6·π)/(4)}
+
+underline{L_{Kreisbogen}=4,71m}
+
+U_{Gehege}=2·6+7+5+4,71
+
+underline{underline{U_{Gehege}=28,71m}}
+
+Es werden boxed{28,7m} Zaun benötigt um das Gehege einzuzäunen.

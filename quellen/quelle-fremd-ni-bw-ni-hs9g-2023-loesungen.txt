@@ -1,0 +1,385 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 9, G-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS9/2023MatheHS9L/2023MatheHS9GL.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                              Mathematik                                   Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                                               Haupttermin
+
+
+Ablauf der Prüfung
+
+                                  120 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                 Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+                                                     (für G- und für E-Kurs)
+                                                     IGS 9: Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil (G-Kurs)
+
+                                 Material/Medien     Arbeitsmittel:
+                                                     - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                     - Geodreieck, Zirkel, Bleistift
+      Mathematik Hauptschule 9
+
+
+
+
+                                                     Hilfsmittel:
+                                                     - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                     - Formelsammlung (vorgegeben unter www.gosin.de)
+
+                                 Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                     Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                     bearbeiten ist.
+                                                      Die Abgabe erfolgt spätestens nach 40 Minuten (Verkürzung der
+                                                       max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                       Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                      Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                       (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                       des Wahlteils.
+
+                                  + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                       Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                       sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                             1            2               3               4               5              6
+
+
+  ab … Punkte                             72,5          61            49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                  Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                            Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                     Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+
+ Aufgabe                                    Erwartete Lösung                                 Punkte
+                                                  2 300
+     1a                                                                                         1
+                                                  2 700
+                                                     -10
+     1b                                                                                         1
+                                                     30
+                                                     3,3
+     1c                                                                                         1
+                                                     4,2
+                                                  6 000
+     2a                                                                                         1
+                                                 12 300
+                                                 15 000
+     2b                                                                                         1
+                                                 19 500
+                                                     10
+     2c                                                                                         1
+                                                     100
+                                              Montag: -5° C
+                                             Dienstag: 11° C
+     3                                                                                          4
+                                            Mittwoch: -13° C
+                                            Donnerstag: -5° C
+     4a                                          2 542,2                                        1
+     4b                                          15 404                                         1
+     4c                                          219,15                                         1
+                                                     20 t
+     5a                                                                                         2
+                                                     1 m²
+                                                                1
+                                        250 g < 0,395 kg <          kg
+                                                                2
+                                       1
+     5b                                    km < 300 m < 0,485 km                                3
+                                       4
+                                                     1
+                                           300 s <       h < 20 min
+                                                     4
+
+     6a                                        5x + 2 = 17                                      1
+
+
+
+     6b                                                                                         2
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                 Mathematik   Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                  Haupttermin
+
+
+
+
+     6c                                                      2
+
+
+
+
+     7a                                                      2
+
+
+
+
+     7b                                                      1
+
+
+
+                                        wahr
+     7c                                                      2
+                                        wahr
+
+
+
+
+Niedersächsisches Kultusministerium                     Seite 3 von 8
+
+[Seitenwechsel]
+    Abschlussarbeit 2023                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 9 – G-Kurs                                                                    Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                     Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                Haupttermin
+
+
+Hauptteil 2
+
+ Aufgabe                                     Erwartete Lösung                           Punkte
+     1a                                             90 €                                   1
+     1b                                             138 €                                  2
+                                         Anzahl der Erwachsenen: 2
+     1c                                                                                    2
+                                            Anzahl der Kinder: 1
+     2a                                            120 m                                   2
+     2b                                            6 270 €                                 3
+     2c                                           43,91 m                                  2
+     3a                                        481 Personen                                2
+                                                    35 %
+
+
+
+
+     3b                                                                                    2
+
+
+
+
+                            Kinder Zahlen im Jahr 60 € weniger als Erwachsene.
+     3c                                                                                    3
+                                     Das ist eine Ersparnis von 40 %.
+     4a                                       9 160 884,18 cm³                             2
+
+
+
+
+     4b                                                                                    3
+
+
+
+
+                                      Nach 65 Minuten ist der Pool voll.
+     5a                                             Ø 3,2                                  2
+     5b                                             30 %                                   2
+
+
+
+
+Niedersächsisches Kultusministerium                                                   Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                  Mathematik                  Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                   Haupttermin
+
+
+                                           Ja, sie hat Recht.
+               Beispiellösung: 85 % der Jugendlichen haben eine bessere Note als 5. Das
+     5c                                                             3                          2
+                                                     ist mehr als .
+                                                                    4
+                                      Jede sinnvolle Antwort ist zu werten.
+                                                          wahr
+     6a                                                                                        2
+                                                         falsch
+                                             7
+                                                 oder 0,35 oder 35 %
+                                            20
+     6b                                                                                        2
+                                            17
+                                                 oder 0,85 oder 85 %
+                                            20
+                                                 6          1
+     6c                                              oder       oder 33 %                      2
+                                              18            3
+
+
+
+
+Niedersächsisches Kultusministerium                                                       Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                            Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                       Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                    Erwartete Lösung                                      Punkte
+                                              80 Personen:
+                                              8 000 g Mehl
+   1a                                          4 ℓ Wasser                                            2
+                                             10 Würfel Hefe
+                                             20 Esslöffel Öl
+   1b                                            190 €                                               2
+   1c                                 r = 20 cm; A ≈ 1 256,64 cm²                                    3
+                                         Nein, er hat nicht Recht.
+              Beispiellösung: Die quadratische Pizza hat einen Flächeninhalt von 1 296 cm².
+   1d                                                                                                3
+                           Das ist mehr als der Flächeninhalt der runden Pizza.
+                                   Jede sinnvolle Antwort ist zu werten.
+
+
+
+                                                   6 cm
+   2a                                          60 Minuten                                            2
+                                              y = - 0,1x + 6
+                                       Brenndauer in Minuten: 10
+                                         Kerzenhöhe in cm: 7,4
+
+
+
+
+   2b                                                                                                3
+
+
+
+
+   2c                                          20 Minuten                                            1
+                                                 falsch
+   2d                                                                                                2
+                                                  wahr
+                                            Ja, sie hat Recht.
+                Beispiellösung: Eine halb so lange Kerze müsste zum Beispiel dicker sein
+   2e         und/oder aus einem langsamer abbrennenden Kerzenwachs bestehen, um die                 2
+                    gleiche Brenndauer wie die doppelt so lange Kerze zu erreichen.
+                                   Jede sinnvolle Antwort ist zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                           Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                          Erwartungshorizont
+
+ Hauptschule 9 – G-Kurs                                                                        Haupttermin
+
+
+   3a                                               120 €                                           2
+   3b                                               25 %                                            3
+                                Nein, er muss keine Lohnsteuer bezahlen.
+             Beispiellösung: Er verdient im Jahr weniger als 9984 €, nämlich nur 9 000 € pro
+   3c                                                                                               2
+                                                  Jahr.
+                                  Jede sinnvolle Antwort ist zu werten.
+                                             Sonstiges: 5 %
+                                        4 Felder für Lebensmittel
+   3d                                                                                               3
+                                           3 Felder für Freizeit
+                                          2 Felder für Kleidung
+
+                                                  möglich
+   4a                                            unmöglich                                          3
+                                                   sicher
+                                          1
+                                               oder 0,1 oder 10 %
+                                         10
+   4b                                                                                               2
+                                          3
+                                               oder 0,3 oder 30 %
+                                         10
+                                          1
+                                              oder 0,5 oder 50 %
+   4c                                     2                                                         2
+                                                      9
+
+
+
+
+   4d                                                                                               2
+
+
+
+                                         1
+                                              oder 0,25 oder 25 %
+                                         4
+              Beispiellösung: Bei zwei Stellen gibt es zu wenige Kombinationsmöglichkeiten
+   4e                                      (100 Möglichkeiten).                                     1
+                                   Jede sinnvolle Antwort ist zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 8 von 8
+
+[Seitenwechsel]

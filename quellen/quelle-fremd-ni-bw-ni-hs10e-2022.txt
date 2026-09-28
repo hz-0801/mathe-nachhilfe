@@ -1,0 +1,957 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS10/2022MatheHS10E_Teil1.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                                 Mathematik                                       Material für Prüflinge
+
+Hauptschule – E-Kurs                                   Deckblatt                                               Haupttermin
+
+
+
+
+                           Dezentrale Abschlussarbeit 2022 Mathematik
+
+                                der [hier Namen der Schule einfügen]
+
+                                in [hier Standort der Schule einfügen]
+
+
+
+
+Name: ______________________________                                         Klasse: ______
+
+Datum: ______________________________
+
+
+
+
+                                 Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                Erreichte
+                Punktzahl
+                Mögliche
+                                     28                 36                   20                  84
+                Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+   Erreichte            Mögliche
+                                               Note           …………………………………..……..
+   Punktzahl            Punktzahl
+                                                              Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                           84                                 ………………………………………....
+                                                              Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+  Notenziffer             1               2               3                   4                   5              6
+
+
+ ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+                                                                                                                     1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                                   Material für Prüflinge
+
+ Hauptschule – E-Kurs                   Hauptteil 1 (ohne Hilfsmittel)                                 Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen in den Lücken.
+
+ a)   ______  6 = 72                           b)   2,7 + 1,6 = ______
+
+                                                     1
+ c)   ______ − (9 + 4) = 17                     d)       : 2 = ______
+                                                     2
+
+
+
+
+Aufgabe 2
+
+Berechne.
+
+a) 2,3 km + 840 m = ________ km
+
+b) 0,5 t + ______ kg = 0,520 t
+
+
+
+Aufgabe 3
+
+Kreuze die richtige Größe für den Flächeninhalt eines DIN-A4-Blattes an.
+
+
+
+
+            6,24 cm²             62,4 cm²             624 cm²                 6240 cm²
+
+                O                  O                      O                      O
+
+
+
+
+                                                     1a       1b         1c      1d      2a       2b        3
+                                       Erreichte
+                                       Punktzahl
+                                       Mögliche
+                                                      1        1         1       1       1         1        1
+                                       Punktzahl
+
+                                                                                                          2 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                                 Material für Prüflinge
+
+ Hauptschule – E-Kurs                   Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Aufgabe 4
+
+Der Pfeil zeigt auf eine Zahl.
+
+
+
+
+                                                                                    Quelle: MK Niedersachsen
+a) Notiere die Zahl über dem Pfeil.
+                                                       4
+b) Zeichne einen zweiten Pfeil ein, der auf die Zahl       zeigt.
+                                                       5
+
+
+
+Aufgabe 5
+
+a) Berechne den Wert des Terms 7x + 12 – 5x für x = 2.
+
+
+
+
+b) Lena hat begonnen, die Gleichung zu lösen. Führe den Rechenweg zu Ende.
+
+    – 14 + 12x – 47 = 3x – 16       | – 3x
+
+    – 14 + 9x – 47 =        – 16
+
+
+
+
+Thomas lädt seine drei Freunde ins Kino ein.
+Er kauft eine Tüte Popcorn für 13,60 € und vier Eintrittskarten.
+Insgesamt bezahlt Thomas 47,60 €.                                             Quelle: MK Niedersachsen
+
+c) Stelle eine Gleichung auf, mit der du den Preis für eine Kinokarte berechnen kannst.
+   Hinweis: Du musst die Gleichung nicht lösen.
+
+
+   _____________________________________
+                                                                         4a   4b      5a        5b        5c
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                         1    1        2         3        1
+                                                       Punktzahl
+                                                                                                         3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                            Mathematik                               Material für Prüflinge
+
+ Hauptschule – E-Kurs                   Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Aufgabe 6
+
+Auf dem Wochenmarkt verkauft Steffi Äpfel.                                    Preis              Preis
+                                                             Menge
+                                                                         „Roter Boskop“       „Jonagold“
+Dafür legt sie eine Tabelle an, um schnell die
+                                                              1 kg           2,80 €             3,20 €
+Preise abzulesen.
+                                                              2 kg           5,60 €             6,40 €
+a) Ergänze die Lücken in der Tabelle.
+                                                              3 kg           8,40 €
+
+                                                                            14,00 €             16,00 €
+
+
+Als Alternative zur Tabelle zeichnet Steffi einen Graphen.
+
+
+
+
+b) Ergänze die folgenden Sätze.                                                                     Quelle: MK Niedersachsen
+
+
+   Der Graph gehört zur Apfelsorte ________________________________ .
+
+   Für 20 € dieser Apfelsorte erhält man etwa ______ kg Äpfel.
+
+
+
+Steffi hat Schwierigkeiten, den Preis für 3,5 kg Äpfel mithilfe des Diagramms zu bestimmen.
+
+c) Erkläre die Schwierigkeiten bei der Bestimmung des genauen Preises.
+
+    __________________________________________________________________________
+
+    __________________________________________________________________________
+
+
+                                                                                      6a       6b                               6c
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                      1         2                               1
+                                                                         Punktzahl
+                                                                                                                               4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                                                  Material für Prüflinge
+
+ Hauptschule – E-Kurs                 Hauptteil 1 (ohne Hilfsmittel)                                                Haupttermin
+
+
+Aufgabe 7
+
+Der Flächeninhalt der abgebildeten Figur soll berechnet werden.
+
+a) Zeichne in die Grafik ein, wie du die Figur zerlegen oder ergänzen kannst.
+
+
+
+
+                                                                           Quelle: MK Niedersachsen
+b) Berechne den Flächeninhalt der Figur.
+
+
+
+
+   A = _________ cm²
+
+
+
+c) Gib eine allgemeine Formel zur Berechnung des Flächeninhaltes der Figur
+   in Abhängigkeit von x an.
+
+
+
+
+                                   A = __________________________________________
+
+       Quelle: MK Niedersachsen
+
+
+
+                                                                                                      7a       7b       7c
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                                      1         2        1
+                                                                       Punktzahl
+
+                                                                                                                       5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                             Material für Prüflinge
+
+ Hauptschule – E-Kurs                Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 8
+
+Max hat begonnen, ein Dreieck an der Geraden g zu spiegeln.
+
+a) Vervollständige die
+   Spiegelung.
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+Der abgebildete Stern ist achsensymmetrisch.
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+b) Zeichne in den Stern alle Symmetrieachsen ein.
+
+
+
+
+Tim hat in das abgebildete Verkehrszeichen eine Gerade eingezeichnet.
+
+c) Begründe, dass diese Gerade keine Symmetrieachse des
+   Verkehrszeichens ist.
+
+    _______________________________________________
+
+    _______________________________________________
+
+    _______________________________________________                               Quelle: MK Niedersachsen
+
+
+
+                                                                                  8a       8b                 8c
+                                                                      Erreichte
+                                                                      Punktzahl
+                                                                      Mögliche
+                                                                                  2         2                          1
+                                                                      Punktzahl
+
+                                                                                                   6 von 6
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS10/2022MatheHS10E_Teil2.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 12.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                    Mathematik                                Material für Prüflinge
+
+Hauptschule 10 – E-Kurs             Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+Name: _____________________________________                        Klasse: ________________
+
+
+
+
+Es wurden die folgenden zwei             Wahlaufgabe W1        (       )
+Aufgaben des Wahlteils gewählt:          Wahlaufgabe W2        (       )
+
+                                         Wahlaufgabe W3        (       )
+
+                                         Wahlaufgabe W4        (       )
+
+
+
+
+Wichtige Hinweise:        Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                          anderes   angegeben        ist.   Schreibe       deine    Lösungswege
+                          ausführlich auf.
+
+
+
+
+                                                                                               1 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                                Mathematik                                 Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                      Hauptteil 2 mit Wahlteil                                     Haupttermin
+
+
+Aufgabe 1
+
+Für eine Studie wurden 1200 Jugendliche gefragt, welche technischen Geräte sie besitzen. Das
+Ergebnis ist im Diagramm dargestellt.
+
+
+
+                   Smartphone                                                             94%
+
+              Computer/Laptop                                                72%
+
+                         Tablet                          38%
+
+
+
+
+                                                                                                            Quelle: JIM-Studie 2020, MK Niedersachsen
+                  Fernsehgerät                                 50%
+
+                        Drucker        15%
+
+                    Radiogerät                           39%
+
+              MP3-Player/iPod                      31%
+
+          tragbare Spielkonsole
+
+                                  0%   10%   20%    30%    40%   50%   60%    70%   80%   90% 100%
+
+
+
+
+a) Fülle die Lücken aus.
+
+  Es sind ________ Prozent der Jugendlichen im Besitz eines Smartphones.
+
+  Fast drei Viertel der Jugendlichen haben einen ________________________________.
+
+
+
+b) Berechne die Anzahl der Jugendlichen, die ein Tablet besitzen.
+
+
+
+504 Jugendliche sind im Besitz einer tragbaren Spielkonsole.
+
+c) Berechne den prozentualen Anteil der Jugendlichen, die ein solches Gerät besitzen.
+
+
+
+d) Zeichne den fehlenden Balken für die tragbare Spielkonsole in das Diagramm ein.
+
+  (Solltest du die Teilaufgabe c) nicht gelöst haben, verwende 43 %.)
+
+                                                                                    1a     1b         1c                                                1d
+                                                                     Erreichte
+                                                                     Punktzahl
+                                                                     Mögliche
+                                                                                    2      1          1                                                 1
+                                                                     Punktzahl
+                                                                                                                                             2 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                                  Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                   Haupttermin
+
+
+Aufgabe 2
+
+Eine Firma bietet folgende Fliese an:
+
+
+
+
+                                                                                                               Quelle: MK Niedersachsen
+a) Berechne den Flächeninhalt der Fliese.
+
+
+
+Die Firma möchte eine quadratische Fliese mit dem
+gleichen Flächeninhalt herstellen.
+
+b) Bestimme die Kantenlänge der quadratischen Fliese.                      (Skizze nicht maßstäblich)
+
+   (Solltest du die Teilaufgabe a) nicht gelöst haben, rechne mit 1240 cm2 weiter.)
+
+
+
+
+Aufgabe 3
+
+Simone näht eine Tischdecke für einen runden Tisch. Der Tisch hat
+einen Durchmesser von 85 cm. Die runde Tischdecke soll überall
+
+
+
+
+                                                                                                                                          Quelle: pixabay.de
+gleichmäßig 15 cm über den Tischrand reichen.
+
+a) Berechne den Flächeninhalt der runden Tischdecke.
+
+
+
+
+Simone schneidet die runde Tischdecke aus einem
+
+
+
+                                                                                                                                                               Quelle: MK Niedersachsen
+rechteckigen Stück Stoff (A = 15 000 cm2) aus. Es bleibt ein
+Rest als Verschnitt übrig.
+
+b) Berechne den prozentualen Anteil des Verschnittes.
+
+   (Solltest du die Teilaufgabe a) nicht gelöst haben, rechne mit
+   10 380,78 cm2 weiter.)
+                                                                           (Skizze nicht maßstäblich)
+
+
+
+
+                                                                              2a       2b       3a        3b
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                              2        1         2        2
+                                                               Punktzahl
+
+                                                                                                        3 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                           Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                            Haupttermin
+
+
+Aufgabe 4
+                                                                     g
+Im Koordinatensystem sind zwei Graphen
+linearer Funktionen dargestellt.
+
+a) Ordne dem Graphen g die passende                                                           h
+   Funktionsgleichung zu. Kreuze an.
+
+
+           ○ y = 2x + 3
+           ○ y = 1,5x + 3
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+           ○ y = −2x + 3
+           ○ y = −3x + 1,5
+b) Gib die Funktionsgleichung des Graphen h an.
+
+                                           2
+c) Zeichne den Graphen der Funktion y = x − 2 in das Koordinatensystem.
+                                           3
+
+
+
+
+Aufgabe 5
+
+In einer Tüte Bonbons befinden sich vier verschiedene
+Geschmackssorten: Zitrone, Orange, Himbeere und Kirsche.
+Von jeder Sorte sind es genau 12 Stück.
+
+Gregor greift blind in die Tüte.                                                                                                Quelle: pixabay.de
+
+
+a) Bestimme die Wahrscheinlichkeit, dass er einen Orangen-
+   Bonbon zieht.
+
+
+Gregor hat tatsächlich einen Orangen-Bonbon gezogen und isst ihn auf. Danach greift er ein zweites
+Mal blind in die Tüte.
+
+b) Bestimme die Wahrscheinlichkeit, dass er auch beim zweiten Mal einen Orangen-Bonbon zieht.
+
+                                                                     4a   4b   4c        5a         5b
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                     2    2     2         2         2
+                                                      Punktzahl
+                                                                                                  4 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                             Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                   Haupttermin
+
+
+Aufgabe 6
+
+Mehrere Teile eines Spielhauses
+müssen repariert werden.
+
+a) Berechne die Länge der
+  Dachkante x.
+
+
+
+
+                                                                                                                  Quelle: MK Niedersachsen
+b) Berechne die Länge des
+  Stützbalkens y.
+
+
+
+                                                                         (Skizze nicht maßstäblich)
+
+
+
+
+Aufgabe 7
+
+In der Abbildung ist ein Strommast dargestellt.
+
+
+
+
+                                                                                                                                             Quelle: MK Niedersachsen
+                                   (Skizzen nicht maßstäblich)
+
+
+a) Berechne die Länge der Haltestange a.
+
+b) Berechne die Größe des Winkels α.
+
+
+
+
+                                                                             6a       6b        7a       7b
+                                                                 Erreichte
+                                                                 Punktzahl
+                                                                 Mögliche
+                                                                              2        2         2        2
+                                                                 Punktzahl
+                                                                                                       5 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                              Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                 Hauptteil 2 mit Wahlteil                                Haupttermin
+
+
+Aufgabe 8
+
+Das abgebildete Werkstück besteht aus zwei Teilkörpern.
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+a) Berechne das Volumen des unteren Teilkörpers.
+
+
+
+Der obere Teilkörper hat ein Volumen von V = 58 cm3.
+
+b) Berechne x.
+
+
+Das Werkstück besteht aus Eisen. 1 cm3 Eisen hat die Masse 7,86 g.
+                                                                                   (Skizze nicht maßstäblich)
+c) Bestimme die Masse des Werkstücks.
+
+(Solltest du die Teilaufgabe a) nicht gelöst haben, rechne mit V = 195,24 cm3 weiter.)
+
+
+
+
+                                                                                  8a        8b       8c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                   1         3        2
+                                                                    Punktzahl
+                                                                                                   6 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                                    Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                     Haupttermin
+
+
+                                     Wahlaufgabe 1 – Körper
+
+Im Spreewald (Brandenburg) steht die abgebildete Pyramide.
+
+
+
+
+                                                                                                                      Quelle: MK Niedersachsen
+                                                     Quelle: pixabay.de
+a) Berechne, wie viel Kubikmeter Erde für den Bau der Pyramide benötigt wurden.
+
+
+Es führt eine Treppe die Pyramide hinauf. Jede Treppenstufe ist 20 cm hoch.
+
+
+
+
+                                                                                                                      Quelle: MK Niedersachsen
+b) Berechne die Anzahl der Treppenstufen.
+                                                 (Skizzen nicht maßstäblich)
+
+c) Berechne die Treppenlänge x.
+
+
+Die Pyramide ist mit Rasen bewachsen und muss regelmäßig gemäht werden.
+
+d) Berechne die Größe der zu mähenden Fläche (Die Treppe kann unberücksichtigt bleiben.).
+   (Solltest du die Teilaufgabe c) nicht gelöst haben, rechne mit 21,60 m weiter.)
+
+
+Neben der Pyramide soll ein Kegel gebaut werden. Die Grundflächen beider Körper sollen gleich groß
+sein.
+
+e) Berechne den Radius des Kegels.
+
+
+f) Kreuze die richtige Aussage an.
+
+   Haben beide Körper auch die gleiche Körperhöhe, dann ist die Treppenlänge des Kegels …
+
+           ⃝      … größer als bei der Pyramide.
+
+           ⃝      … kleiner als bei der Pyramide.
+
+           ⃝      … genauso groß wie bei der Pyramide.
+
+
+
+                                                                          1a   1b   1c   1d       1e       1f
+                                              Erreichte
+                                              Punktzahl
+                                              Mögliche
+                                                                          1    1    2    2         3        1
+                                              Punktzahl
+                                                                                                         7 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                       Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                                 Haupttermin
+
+
+                           Wahlaufgabe 2 (Seite 1 von 2) – Funktionen
+
+Nina mietet einen E-Scooter bei ScooterOne.
+
+                                          ScooterOne
+
+                                 Einmalige Freischaltung: 1,50 €
+
+                                 Fahrpreis pro Minute: 25 Cent
+
+
+
+
+                                                                                                                                Quelle: pixabay.de
+a) Ergänze die fehlenden Werte in der Tabelle.
+
+    Fahrzeit            0 min        3 min           10 min
+     Preis              1,50 €                         4€            4,75 €
+
+
+
+b) Stelle die Funktionsgleichung für das Angebot von ScooterOne auf.
+
+
+
+Nina muss für ihre Fahrt 6,50 € zahlen.
+
+c) Berechne die Fahrzeit.
+
+
+
+Ninas Freundin Diana hat für die gleiche Fahrt einen E-Scooter von Roller2Go ausgewählt.
+
+Das Angebot von Roller2Go ist im Koordinatensystem grafisch dargestellt:
+                                                                                        Quelle: MK Niedersachsen
+
+
+
+
+d) Ergänze im Koordinatensystem den Graphen der Funktion für das Angebot von ScooterOne.
+
+
+
+                                                                                                                     8 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                             Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+                           Wahlaufgabe 2 (Seite 2 von 2) – Funktionen
+
+e) Bestimme die Fahrzeit, für die ScooterOne und Roller2Go den gleichen Preis verlangen.
+
+
+
+Nina betrachtet die beiden Graphen und stellt fest: „Jetzt kann ich auf einen Blick erkennen, für welche
+Fahrzeit ich welchen Anbieter nehmen sollte.“
+
+f) Erkläre, was Nina damit meint.
+
+
+
+
+                                                             2a      2b    2c      2d       2e       2f
+                                              Erreichte
+                                              Punktzahl
+                                              Mögliche
+                                                             2       2      1      2         1        2
+                                              Punktzahl
+
+
+                                                                                                   9 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                           Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                 Hauptteil 2 mit Wahlteil                          Haupttermin
+
+
+                     Wahlaufgabe 3 (Seite 1 von 2) – Wahrscheinlichkeit
+
+Die Klasse 10a bietet auf dem Schulfest ein Spiel mit
+Glücksrädern an.
+
+Ein Spiel besteht aus zwei Drehungen:
+
+
+
+
+                                                                                                                           Quelle: pixabay.de
+Zuerst wird Rad 1, danach Rad 2 gedreht.
+
+
+
+
+a) Gib an, welche Symbole mit der größten Wahrscheinlichkeit angezeigt werden.
+
+                    Rad 1: _______________               Rad 2: _______________
+
+
+
+b) Ergänze die fehlenden Wahrscheinlichkeiten in den gestrichelten Kästchen.
+
+
+
+
+                                                                                                Quelle: MK Niedersachsen
+
+
+
+
+Ein Spieler gewinnt, wenn auf beiden Rädern ein Stern angezeigt wird           .
+
+c) Berechne die Wahrscheinlichkeit für einen Gewinn.
+
+
+
+d) Berechne die Wahrscheinlichkeit, dass zwei verschiedene Symbole angezeigt werden.
+
+
+                                                                                              10 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                                                                   Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                 Hauptteil 2 mit Wahlteil                                                                     Haupttermin
+
+
+                     Wahlaufgabe 3 (Seite 2 von 2) – Wahrscheinlichkeit
+
+Die Klasse 10a entscheidet, dass der Gewinn ein Eis ist. Sie geht davon aus, dass
+1000-mal gespielt wird.
+
+
+
+
+                                                                                                                                               Quelle: pixabay.de
+e) Berechne, wie viele Eis bei 1000 Spielen wahrscheinlich gewonnen werden.
+
+                                                                 1
+  (Solltest du die Teilaufgabe c) nicht gelöst haben, rechne mit 18 weiter.)
+
+
+
+
+Ein Jahr später sollen die Glücksräder mit den gleichen Spielregeln erneut zum Einsatz kommen.
+                                                                                1
+Das zweite Glücksrad wird so umgestaltet, dass die Gewinnwahrscheinlichkeit        beträgt.
+                                                                                32
+
+f) Gestalte das zweite Glücksrad so, dass die gewünschte Wahrscheinlichkeit erzielt wird.
+
+
+
+
+                                                                                 Quelle: pixabay.de, MK Niedersachsen
+
+
+
+
+                                                            3a      3b     3c                        3d                          3e       3f
+                                             Erreichte
+                                             Punktzahl
+                                             Mögliche
+                                                            1       2      1                                            3         2        1
+                                             Punktzahl
+                                                                                                                                       11 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                            Mathematik                            Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                              Haupttermin
+
+
+                                  Wahlaufgabe 4 – Trigonometrie
+
+Dilara lässt ihre Drohne über einem
+freien Feld fliegen.
+
+Sie stellt drei Hütchen A, B und C auf.
+
+Die Drohne fliegt von A über B zu C.
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+a) Berechne die Länge der Strecke x.
+
+
+
+b) Berechne die Länge der Strecke y.
+
+
+
+Dilara möchte die Drohne direkt über sich im Kreis
+fliegen lassen. Die Drohne soll aus ihrer Hand starten
+und auch dorthin wieder zurückfliegen.
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+Der Akku hat noch eine Reichweite von 1000 m.
+
+c) Berechne die Anzahl der vollen Umrundungen,
+   bevor der Akku leer ist. Berücksichtige die
+   Entfernung von Dilara zur Kreisbahn.
+
+
+
+d) Berechne die Größe des Winkels β.
+
+
+
+e) Vergrößert sich der Winkel β und die Flughöhe h bleibt gleich, dann…
+
+
+               ⃝        …verringert sich die Anzahl der Umrundungen, bis der Akku leer ist.
+
+               ⃝        …erhöht sich die Anzahl der Umrundungen, bis der Akku leer ist.
+
+               ⃝        …bleibt die Anzahl der Umrundungen gleich, bis der Akku leer ist.
+
+
+
+                                                                      4a   4b      4c       4d       4e
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                      2     2      3         2        1
+                                                       Punktzahl
+
+
+                                                                                                  12 von 12
+
+[Seitenwechsel]

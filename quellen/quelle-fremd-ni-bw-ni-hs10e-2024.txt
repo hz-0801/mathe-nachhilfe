@@ -1,0 +1,881 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS10/2024MatheHS10E_Teil1.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                                  Mathematik                                       Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                                Deckblatt                                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2024 Mathematik
+
+
+
+
+                                  Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                 36                   20                  84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note           …………………………………..……..
+    Punktzahl           Punktzahl
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                 ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2               3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                             Seite 1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                          Mathematik                                Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen in den Lücken.
+
+a) 45 : _____ = 9                       b) 0,32 + 1,6 = _____
+
+
+
+                                               4
+c) 3 + ( ______ – 5) = – 2              d) 3 · 5 = _____
+
+
+
+
+Aufgabe 2
+
+a) Kreuze die passenden Angaben an.
+
+
+
+
+                                                                                                   Quelle: MK Niedersachsen
+        80 mg                        14 cm                               1,1 mm²        
+
+         80 g                        14 dm                               1,1 cm²        
+
+        80 kg                        14 m                                1,1 dm²        
+
+
+
+b) Gib die fehlenden Einheiten an.
+
+
+1,42 km = 1420 _____
+
+
+
+1,7 m² = 17 000 _____
+
+
+
+256 dm³ = 256 000 _____
+
+                                                            1a         1b      1c    1d       2a                              2b
+                                              Erreichte
+                                              Punktzahl
+                                              Mögliche
+                                                             1         1        1    1         3                              3
+                                              Punktzahl
+Niedersächsisches Kultusministerium                                                              Seite 2 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                         Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 3
+
+a) Gib den grau gefärbten Anteil des Streifens als Bruch und als Prozentsatz an.
+
+
+
+
+    Bruch: _______                    Prozentsatz: _______ %
+
+
+
+b) Färbe 75 % im abgebildeten Quadrat.
+
+
+
+
+Der Flächeninhalt des Quadrates beträgt 16 cm². Es sind 75 % der Fläche gefärbt.
+
+c) Ergänze: Die gefärbte Fläche ist _____ cm² groß.
+
+
+
+
+                                                                                   3a       3b       3c
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                   2         1        1
+                                                                       Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                    Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 1 (ohne Hilfsmittel)                Haupttermin
+
+
+Aufgabe 4
+
+Alina bietet einen Sportkurs an. Jede Person muss pro Kursstunde einen festen Betrag bezahlen. An
+der letzten Kursstunde haben 8 Personen teilgenommen. Alina hatte Einnahmen von 40 €.
+
+Ergänze die Überschriften in der ersten Zeile.
+Berechne die Einnahmen, wenn 14 Personen am Kurs teilnehmen.
+
+
+
+
+                       __________________             __________________
+
+
+                                      8                         40 €
+
+
+
+
+                                  14
+                                                              ______
+
+
+
+
+                                                                                               4
+                                                                                Erreichte
+                                                                                Punktzahl
+                                                                                Mögliche
+                                                                                               3
+                                                                                Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                                              Mathematik                         Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                      Hauptteil 1 (ohne Hilfsmittel)                                    Haupttermin
+
+
+Aufgabe 5
+
+a) Verbinde die Rechenvorschriften mit dem jeweils passenden Term.
+
+
+
+                                                                                3:x
+              Dividiere eine Zahl x durch 3.
+                                                                                3–x
+
+
+                                                                                x–3
+              Subtrahiere eine Zahl x von 3.
+
+                                                                                x:3
+
+
+
+
+                                                      1
+b) Berechne den Wert des Terms 6x – (8 + 10x) für x = 2 .
+
+
+
+
+Aufgabe 6
+
+Die Summe der Augenzahlen von zwei gegenüberliegenden Seiten eines Würfels
+beträgt immer 7.
+
+Zeichne die fehlenden Augenzahlen in des Würfelnetz ein.
+                                        Quelle: MK Niedersachsen
+
+
+
+
+                                                                                                  5a       5b        6
+                                                                                      Erreichte
+                                                                                      Punktzahl
+                                                                                      Mögliche
+                                                                                                  2         2        2
+                                                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                                           Seite 5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                             Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 7
+
+Der Flächeninhalt der abgebildeten Figur soll
+berechnet werden.
+
+a) Zeichne eine geeignete Zerlegung oder Ergänzung
+    in die Figur ein.
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+b) Berechne den Flächeninhalt der Figur.
+
+
+
+
+    Der Flächeninhalt der Figur beträgt ______ cm².
+
+
+
+c) Stelle einen allgemeinen Term für die Berechnung
+    des Flächeninhaltes in Abhängigkeit von a auf.
+
+
+
+
+    A = ___________________
+
+
+
+
+                                                                                                            Quelle: MK Niedersachsen
+
+
+
+
+                                                                                   7a       7b       7c
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                   2         2        1
+                                                                       Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 6 von 6
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS10/2024MatheHS10E_Teil2.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 12.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                           Mathematik                                Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+ Name: _____________________________________                              Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (       )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (       )
+
+                                                Wahlaufgabe W3        (       )
+
+                                                Wahlaufgabe W4        (       )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                                 anderes   angegeben        ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                             Seite 1 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                          Mathematik                           Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                             Haupttermin
+
+
+Aufgabe 1
+
+Das Kreisdiagramm zeigt die prozentuale
+Verteilung der neu zugelassenen Autos in
+Norwegen im April 2022.
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+a) Berechne den Prozentsatz der neu
+   zugelassenen Benzin-Autos.
+
+
+
+Im April 2022 wurden in Norwegen
+insgesamt 9700 Autos neu zugelassen.
+
+b) Berechne die Anzahl der neu zugelassenen Elektro-Autos.
+
+
+
+Im Mai 2022 wurden in Norwegen 8400 Elektro-Autos neu zugelassen. Das war ein Anteil von etwa
+73 %.
+
+c) Berechne die Anzahl aller im Mai 2022 neu zugelassenen Autos.
+
+
+
+Im Mai 2022 wurden in Deutschland 208 000 Autos neu zugelassen. Davon waren 14,1 % Elektro-
+Autos. Anna sagt: „Der Prozentsatz der neu zugelassenen Elektro-Autos ist in Deutschland viel
+kleiner als in Norwegen.“
+Terje behauptet: „Deshalb ist die Anzahl der neu zugelassenen Elektro-Autos in Deutschland
+ebenfalls kleiner.“
+
+d) Entscheide, ob Terjes Behauptung stimmt. Begründe deine Entscheidung.
+
+
+
+
+                                                                          1a   1b         1c       1d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          1     2         2         2
+                                                              Punktzahl
+
+Niedersächsisches Kultusministerium                                                       Seite 2 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                            Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                             Haupttermin
+
+
+Aufgabe 2
+
+
+
+
+                                                                                                   Quelle: MK Nds.
+Beim Elfmeter-Schießen im Fußball gibt es drei Möglichkeiten:
+
+    -   Der Spieler schießt ein Tor (T).
+    -   Der Spieler schießt den Ball am Tor vorbei (V).
+    -   Der Torwart hält den Ball (H).
+
+
+Das Baumdiagramm zeigt die Wahrscheinlichkeiten.
+
+
+
+
+                                                                                                                     Quelle: MK Niedersachsen
+1. Schuss
+
+
+
+
+2. Schuss
+
+
+
+a) Ergänze den fehlenden Wert im Baumdiagramm.
+
+
+
+Es werden zwei Elfmeter geschossen.
+
+b) Ergänze das Baumdiagramm für den zweiten Schuss.
+
+
+
+Beide Elfmeter werden ein Tor.
+
+c) Berechne die Wahrscheinlichkeit.
+
+                                                                                  2a       2b                        2c
+                                                                      Erreichte
+                                                                      Punktzahl
+                                                                      Mögliche
+                                                                                  1         2                        2
+                                                                      Punktzahl
+
+Niedersächsisches Kultusministerium                                                         Seite 3 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                          Mathematik                                                      Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                                        Haupttermin
+
+
+Aufgabe 3
+                                                                       Grundpreis                                 Kosten pro
+                                                              Tarif
+                                                                       pro Monat                                   Buchung
+Eine Bank bietet für die Kontoführung drei
+unterschiedliche Tarife A, B und C an.                          A         4,50 €                                      0,15 €
+
+Im Koordinatensystem ist Tarif B graphisch dargestellt.         B
+a) Fülle die Lücken in der Tabelle aus.
+                                                                C         7,90 €                                          0€
+b) Zeichne den Graphen für Tarif A in das
+   Koordinatensystem.
+
+c) Stelle für Tarif A eine Funktionsgleichung in der Form y = m ∙ x + b auf.
+
+
+                                                                                                      y=
+
+
+
+
+                                                                           Quelle: MK Niedersachsen
+
+
+
+
+Die Bank bietet mit Tarif C eine Buchungs-Flatrate für 7,90 € im Monat an. Frau Weimann tätigt pro
+Monat durchschnittlich 25 Buchungen.
+
+d) Entscheide, welchen der drei Tarife sie wählen sollte. Begründe durch eine Rechnung.
+
+
+
+
+                                                                                   3a                      3b        3c        3d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                                             2             2         2         2
+                                                              Punktzahl
+
+
+Niedersächsisches Kultusministerium                                                                                  Seite 4 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                                 Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                                    Haupttermin
+
+
+Aufgabe 4
+
+Die abgebildete Figur stellt eine Fliese dar.
+
+
+
+
+                                                                                                                                Quelle: MK Niedersachsen
+Die Größe der rechteckigen Fläche  beträgt 920 cm2.
+
+a) Berechne a.
+
+
+                                                                      (Skizze nicht maßstäblich)
+
+b) Berechne y.
+   (Wenn du die Teilaufgabe a) nicht gelöst hast, dann rechne mit a = 11,31 cm weiter.)
+
+
+
+Abgebildet sind drei Reihen eines Verlegemusters mit rechteckigen
+Fliesen. Die rechteckigen Fliesen werden durch sechseckige Fliesen
+ersetzt.
+c) Übertrage das Verlegemuster auf sechseckige Fliesen (siehe oben).
+   Fertige eine Skizze mit drei Reihen an.
+
+
+
+
+                                                                                                                    Quelle: MK Niedersachsen
+Ein anderes Verlegemuster für rechteckige Fliesen sieht wie folgt aus:
+
+d) Erkläre, weshalb dieses Verlegemuster für die sechseckige Fliese
+   nicht geeignet ist.
+
+
+
+
+                                                                             4a       4b         4c        4d
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                              2        3           2        1
+                                                               Punktzahl
+
+Niedersächsisches Kultusministerium                                                                Seite 5 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                                                 Mathematik                              Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                                         Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+Aufgabe 5                                                                                                          Band
+
+Klara bastelt für ihre kleine Schwester zur Einschulung eine kegelförmige
+Schultüte mit r = 12 cm.
+Sie beklebt den oberen Rand der Schultüte mit einem Band.
+
+
+
+
+                                                                                                                                 Quelle: MK Niedersachsen
+Im Bastelgeschäft kann sie Bänder mit unterschiedlichen Längen kaufen:
+40 cm, 60 cm oder 80 cm.
+
+a) Welches Band soll Klara kaufen? Berechne und entscheide.
+
+
+
+                                                  Die Schultüte hat ein Volumen von 11 310 cm³.
+                                                                                                        (Skizze nicht maßstäblich)
+                       Quelle: MK Niedersachsen
+
+
+
+
+                                                  b) Berechne die Höhe hK der Schultüte.
+
+
+
+                                                  c) Berechne die Größe des Winkels α.
+                                                     (Wenn du die Teilaufgabe b) nicht gelöst hast, dann rechne mit
+                                                     hK = 75,51 cm weiter.)
+
+
+
+
+                                                                                                         5a        5b       5c
+                                                                                            Erreichte
+                                                                                            Punktzahl
+                                                                                            Mögliche
+                                                                                                          2         3        3
+                                                                                            Punktzahl
+
+
+Niedersächsisches Kultusministerium                                                                                 Seite 6 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                              Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                                    Haupttermin
+
+
+                                      Wahlaufgabe 1 – Körper
+
+Eine Firma stellt die abgebildete Praline her.                                       Schokoladenplatte
+
+
+
+
+                                                                                                                Quelle: MK Nds.
+Ein Teil der Praline ist von einer kreisförmigen
+Schokoladenplatte bedeckt.
+
+a) Berechne den Flächeninhalt der Schokoladenplatte.
+
+
+Die kugelförmige Nuss hat einen Durchmesser von 6 mm.
+
+b) Berechne das Volumen der Nuss.
+
+
+
+
+                                                                                                                Quelle: MK Niedersachsen
+c) Berechne das Volumen der Schokoladenfüllung.
+   (Wenn du die Teilaufgabe b) nicht gelöst hast, dann
+   rechne mit 112,98 mm3 weiter.)
+
+
+
+                                                                            (Skizze nicht maßstäblich)
+
+Das Volumen der Praline ist immer gleich. Das Volumen der Schokoladenfüllung hängt nur von der
+Größe der Nuss ab.
+
+Timo behauptet: „Wird eine Nuss mit 10 % mehr Volumen genommen, dann verringert sich das
+Volumen der Schokoladenfüllung auch um 10 %.
+
+d) Timos Behauptung ist falsch. Begründe.
+
+
+
+
+                                                                              1a       1b         1c       1d
+                                                                Erreichte
+                                                                Punktzahl
+                                                                Mögliche
+                                                                              3         2         4         1
+                                                                Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 7 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                            Mathematik                                                Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                    Hauptteil 2 mit Wahlteil                                               Haupttermin
+
+
+                             Wahlaufgabe 2 – Wachstum (Seite 1 von 2)
+
+Ein Teich ist 80 m2 groß. Ein Bagger vergrößert die Fläche des Teichs pro Tag um 20 m2.
+Nach 6 Tagen ist die Arbeit abgeschlossen.
+
+
+            Tage               0       1            2           3      4                               5           6
+
+        Fläche des             80     100          120
+        Teichs in m2
+
+
+a) Ergänze die obere Tabelle.
+
+b) Zeichne den Graphen in das Koordinatensystem.
+
+
+
+
+                                                                            Quelle: MK Niedersachsen
+
+
+
+
+Niedersächsisches Kultusministerium                                                                              Seite 8 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                                      Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                     Hauptteil 2 mit Wahlteil                                       Haupttermin
+
+
+                             Wahlaufgabe 2 – Wachstum (Seite 2 von 2)
+
+Der vergrößerte Teich ist ein Jahr später von Algen befallen. Die Algen bedecken zu Beginn 10 m2. Die
+von Algen bedeckte Fläche vergrößert sich täglich um 45 %.
+
+c) Trage den fehlenden Wert in die Tabelle ein. Runde auf eine Nachkommastelle.
+   Zeichne den Graphen in das untenstehende Koordinatensystem.
+
+         Tage               0          1           2            3                 4           5              6
+      Von Algen
+      bedeckte             10         14,5         21                            44,2        64,1           92,9
+     Fläche in m2
+
+
+d) Fülle die Lücken aus.
+
+   Nach etwa ___________ Tagen ist die mit
+   Algen bedeckte Fläche 25 m2 groß.
+
+   Nach 5,5 Tagen ist die mit Algen bedeckte
+   Fläche etwa ________ m2 groß.
+
+
+
+
+                                                                                                                         Quelle: MK Niedersachsen
+                                                                                         X
+
+
+
+                                                                        X
+
+
+
+
+Hadi behauptet: „Nach der doppelten Anzahl an Tagen ist auch die von Algen bedeckten Fläche doppelt
+so groß.“
+
+e) Die Behauptung stimmt nicht. Begründe.
+
+                                                                            2a          2b   2c        2d          2e
+                                                         Erreichte
+                                                         Punktzahl
+                                                         Mögliche
+                                                                            2           2     3         2          1
+                                                         Punktzahl
+
+
+Niedersächsisches Kultusministerium                                                                     Seite 9 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                            Mathematik                      Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                      Haupttermin
+
+
+                       Wahlaufgabe 3 – Wahrscheinlichkeit (Seite 1 von 2)
+Larissa hat für ihre Party eine Playlist mit 100 Songs erstellt:
+
+    -   50 Pop-Songs (P)
+    -   30 Rock-Songs (R)
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+    -   20 Hip-Hop-Songs (H)
+
+
+
+Das Musikprogramm spielt die Songs nach dem Zufallsprinzip ohne
+Wiederholungen ab.
+
+a) Trage die fehlenden Wahrscheinlichkeiten in das Baumdiagramm ein.
+
+
+
+
+Larissa startet die Wiedergabe.                                                                                    Quelle: MK Niedersachsen
+
+b) Als Erstes wird ein Pop-Song oder ein Rock-Song abgespielt. Gib die Wahrscheinlichkeit an.
+
+
+
+Als Erstes werden zwei Pop-Songs abgespielt.
+
+c) Markiere den Pfad und berechne die Wahrscheinlichkeit.
+
+
+
+
+Niedersächsisches Kultusministerium                                                   Seite 10 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                        Mathematik                             Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                Hauptteil 2 mit Wahlteil                              Haupttermin
+
+
+                       Wahlaufgabe 3 – Wahrscheinlichkeit (Seite 2 von 2)
+
+
+Nach einer Weile sind 12 Pop-Songs, 5 Rock-Songs und 3 Hip-Hop-Songs abgespielt worden.
+Als Nächstes wird ein Hip-Hop-Song abgespielt.
+
+d) Berechne die Wahrscheinlichkeit.
+
+
+
+
+Larissa hört neuerdings gern Rap-Musik. Sie möchte 10 Rap-Songs in ihre Playlist einfügen.
+
+Larissa behauptet: „Durch die neuen Songs bleibt die Wahrscheinlichkeit, dass ein Pop-Song
+abgespielt wird, gleich.“
+
+e) Hat Larissa recht? Begründe.
+
+
+
+
+                                                                   3a   3b     3c        3d       3e
+                                                    Erreichte
+                                                    Punktzahl
+                                                    Mögliche
+                                                                   2    2       3         2        1
+                                                    Punktzahl
+
+Niedersächsisches Kultusministerium                                                      Seite 11 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                                Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                                 Haupttermin
+
+
+                            Wahlaufgabe 4 – Berechnungen am Dreieck
+Die Abbildung zeigt einen Carport.
+
+a) Trage in den gestrichelten Kasten den
+   fehlenden Wert ein.
+
+
+
+
+                                                                                                                                            Quelle: MK Niedersachsen
+b) Berechne die Länge x eines
+   Dachbalkens.
+
+
+
+c) Berechne die Größe des Winkels α.
+                                                                           (Skizzen nicht maßstäblich)
+
+
+Auf das Dach soll eine Solaranlage gebaut werden.
+
+d) Berechne die Größe des Winkels β.
+
+   (Wenn du die Teilaufgabe c) nicht gelöst hast, dann
+   rechne mit α = 11,67° weiter.)
+
+
+
+e) Berechne die Länge s der Solaranlage.
+
+
+
+
+                                                                                                                 Quelle: MK Niedersachsen
+Hanna behauptet: „Wenn der grau markierte Winkel (α + β)
+halbiert wird, dann halbiert sich auch die maximale Länge
+der Solaranlage.“
+f) Hannas Behauptung ist falsch.
+ Prüfe zeichnerisch oder rechnerisch.
+
+
+
+
+                                                              4a      4b    4c       4d        4e        4f
+                                               Erreichte
+                                               Punktzahl
+                                               Mögliche
+                                                              1       2      2        2         2        1
+                                               Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 12 von 12
+
+[Seitenwechsel]

@@ -1,0 +1,1024 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Realschule Mathematik mit Lösungen – Prüfungsjahr 2023, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320110/2023 (Jahrgangsseite, Serlo-ID 320110); Prüfungsteile: https://de.serlo.org/mathe/320135/pflichtteil-a1 (Pflichtteil A1, ID 320135); https://de.serlo.org/mathe/320136/pflichtteil-a2 (Pflichtteil A2, ID 320136); https://de.serlo.org/mathe/320137/wahlteil-b (Wahlteil B, ID 320137)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2023  (Serlo-ID 320135)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321010 – https://de.serlo.org/mathe/321010/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+(kein Inhalt)
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321012 – https://de.serlo.org/mathe/321012/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+In der Figur fehlen die Beschriftungen zweier Punkte und zweier Winkel.
+[Abbildung]
+Trage die Punkte S und U sowie die Winkel δ  und φ in die Kästchen ein, sodass die folgenden Aussagen zutreffen.
+
+sinvarepsilon=frac{‾{SU}}{‾{RU}}
+cosφ=frac{‾{SU}}{‾{RU}}
+tanδ=frac{‾{SU}}{‾{ST}}
+[ 1 P ]
+Lösung:
+Betrachte das untere Dreieck
+sin varepsilon =(Gegenkathete)/(Hypotenuse)   
+sinvarepsilon=frac{‾{SU}}{‾{RU}}
+Gegenkathede: ‾{SU}
+Hypothenuse:  ‾{RU}
+=> Punkte U und S, siehe Zeichnung unten.
+
+cos φ =(Ankathete)/(Hypotenuse)
+cosφ=frac{‾{SU}}{‾{RU}}
+Ankathede:  ‾{SU}
+Hypothenuse:  ‾{RU}
+=>  Winkel φ, siehe Zeichnung unten.
+
+Betrachte das obere Dreieck:
+tan δ=(Gegenkathete)/(Ankathete)
+tanδ=frac{‾{SU}}{‾{ST}}
+Gegenkathede:  ‾{SU}
+Ankathede:  ‾{ST}
+=> Winkel δ, siehe Zeichnung unten.
+
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321014 – https://de.serlo.org/mathe/321014/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Zwei Spielwürfel werden gleichzeitig geworfen. Die Augenzahlen werden addiert (Augensumme).
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Berechne die Wahrscheinlichkeit für das Ereignis "Augensumme ungerade".
+Die Wahrscheinlichkeit für das Ereignis "Augensumme ungerade" ist [Lücke: 1/2]  oder[Lücke: 50] %.
+Lösung:
+Lösungsidee: - Ermittle, wie viele verschiedene Zahlenkombinationen insgesamt auftreten können.
+- Ermittel, wie viele davon eine ungerade Augensumme ergeben
+- Berechne die Wahrscheinlichkeit
+Werden zwei Würfel gleichzeitig geworfen, gibt es insgesamt 36 Zahlenkombinationen.
+1. Würfel 2. Würfel Summe ; 1 1 2 ; 1 2 3 ; 1 3 4 ; ... ... ... ; 6 4 10 ; 6 5 11 ; 6 6 12
+
+Bei den 36 möglichen Ergebnissen ergeben 18 Ergebnisse eine ungerade und 18 Ergebnisse eine gerade Zahl.
+Die Wahrscheinlichkeit, dass die Augensumme ungerade ist, beträgt
+P(Augensumme ungerade)=(18)/(36)=(1)/(2)=50%
+
+--- Teilaufgabe b) ---
+Berechne die Wahrscheinlichkeit für das Ereignis „Augensumme kleiner als 4“.
+[ 2 P ]
+Die Wahrscheinlichkeit für das Ereignis „Augensumme kleiner als 4“ ist [Lücke: 1/12]  oder [Lücke: 8,33] %.
+Lösung:
+Lösungsidee: - Ermittle, wie viele verschiedene Zahlenkombinationen insgesamt auftreten können.
+- Ermittel, wie viele davon eine Augensumme <4 ergeben
+- Berechne die Wahrscheinlichkeit
+Von den 36 möglichen Ereignissen ergeben nur die folgenden 3 Würfelkombinationen eine Augensumme <4
+1. Würfel 2. Würfel Summe ; 1 1 2<4 ; 1 2 3<4 ; 1 3 4 ; ... ... ... ; 2 1 3<4 ; 2 2 4 ; 6 4 10 ; 6 5 11 ; 6 6 12
+
+Die Wahrscheinlichkeit für das Ereignis „Augensumme kleiner als 4“ beträgt
+P(Augensumme kleiner als 4)=(3)/(36)=(1)/(12)≈ 8,33%
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321016 – https://de.serlo.org/mathe/321016/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Auf der Oberfläche des Dreiecksprismas ist ein Streckenzug eingezeichnet. Die Grund- und die Deckfläche sind gleichseitige Dreiecke.
+
+[Abbildung]
+Auf welchem Netz ist der Streckenzug richtig abgebildet? Kreuze an.
+(Zeichnungen sind nicht maßstabsgetreu)
+[Abbildung]
+[Abbildung]
+[ 1 P ]
+[Auswahl (eine Antwort)]
+  ( ) Netz (A)
+  ( ) Netz (B)
+  (x) Netz (C)
+  ( ) Netz (D)
+Lösung:
+[Abbildung]
+Die in der obigen Abbildung gleich gefärbten Kanten müssen zusammengefügt werden, um das Dreiecksprisma zu erhalten.
+
+Auf Netz (C) ist der Streckenzug richtig abgebildet.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321018 – https://de.serlo.org/mathe/321018/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Funktionsgleichungen von drei Parabeln sind gegeben.
+
+p_1:  y=(x+3)^2
+p_2:  y=-(1)/(3)x^2-3
+p_3:  y=(x-3)^2-3
+
+Welche der drei Parabeln schneidet die x-Achse zweimal?
+Begründe deine Entscheidung.
+Lösung:
+f(x)=a(x-d)^2+e
+Scheitelpunkt: S(d|e)
+
+p_1:  y=(x+3)^2   
+a=1  => Parabel nach oben geöffnet, S(-3|0). Der Scheitelpunkt liegt auf der x-Achse.
+
+p_2:  y=-(1)/(3)x^2-3
+a<0  =>  Parbel nach unten geöffnet, S(0|-3). Der Scheitelpunkt liegt unterhalb der x-Achse.
+
+p_3:  y=(x-3)^2-3
+a=1  =>  Parabel nach oben geöffnet, S(3|-3). Der Scheitelpunkt liegt unterhalb der x-Achse.
+
+Die Parabel p_3 scheidet die x-Achse zweimal.
+
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321020 – https://de.serlo.org/mathe/321020/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welche Zahl muss eingesetzt werden?
+
+√{32}·√{square}-√{25}=3
+[Eingabefeld: 2]
+Lösung:
+√{32}·√{square}-5 = 3   | +5
+  √{32}·√{square} = 8   | ()^2
+  32·square = 64   | :32
+  square = 2
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321023 – https://de.serlo.org/mathe/321023/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welche der beiden Ranglisten gehört zum abgebildeten Boxplot?
+Begründe mithilfe der Kennwerte.
+[Abbildung]
+[Abbildung]
+[Abbildung]
+[ 1 P ]
+Lösung:
+Die Box des Boxplot gibt den Bereich an, in dem die mittleren 50% aller Werte liegen. 
+
+Die Kennwerte der beiden Ranglisten unterscheiden sich lediglich im oberen
+Quartil. Im Boxplot gilt q_0=55m, deshalb ist es Rangliste B.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321025 – https://de.serlo.org/mathe/321025/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Jugendliche wurden befragt, welchen Freizeitsport sie betreiben. Die Ergebnisse dieser Befragung sind in der Tabelle abgebildet.
+[Tabelle]
+Sportart | Anzahl der Jugendlichen
+Fußball | 40
+Handball | 24
+Volleyball | 16
+Welches der drei Diagramme gehört zur Tabelle?
+Begründe deine Entscheidung.
+[Abbildung]
+[ 1,5 P ]
+Lösung:
+Gesamtzahl der Schüler:  80
+80stackrel{wedge}{=} 100%
+1stackrel{wedge}{=}1,25%
+
+40stackrel{wedge}{=}50%
+24stackrel{wedge}{=}30%
+16stackrel{wedge}{=}20%
+
+Diagramm 1 kann ausgeschlossen werden, da der 50% -Anteil nicht abgebildet ist.
+Diagramm 2 kann ausgeschlossen werden, da weder der 30%- noch der 20%-Anteil abgebildet sind.
+
+Diagramm 3 gehört zu der Tabelle.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo ExerciseGroup 321027 – https://de.serlo.org/mathe/321027/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Emily hat vier Muster aus Plättchen gelegt.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Wie viele Plättchen benötigt Emily für das 8. Muster?
+[Eingabefeld: 22]
+Lösung:
+Jedes Muster hat 3 Plättchnen mehr als das vorherige Muster.
+Das 8. Muster hat also 10+4·3=22 Plättchen.
+
+--- Teilaufgabe b) ---
+Emily möchte die Anzahl der Plättchen bei jedem Muster berechnen. Sie hat vier Formeln zur Auswahl.
+n gibt die Stelle des jeweiligen Musters an, s ist die Summe der Plättchen eines Musters.
+Welche beiden Formeln kann Emily verwenden?
+Kreuze jeweils richtig oder falsch an.
+[ 1,5 P ]
+[Auswahl (mehrere Antworten)]
+  (x) s=3n-2
+  ( ) s=3-2n
+  (x) s=3(n-1)+1
+  ( ) s=2n-1
+
+
+==============================================================================
+Pflichtteil A2 2023  (Serlo-ID 320136)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321030 – https://de.serlo.org/mathe/321030/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im rechtwinkligen Dreieck ABC liegen die beiden gleichschenkligen Dreiecke ABD und BCD.
+
+[Abbildung]
+Es gilt: 
+
+‾{CD}=6,3cm
+γ=41,8°
+‾{AD}=‾{BD}
+‾{BD}=‾{CD}
+
+Berechne den Umfang des Dreiecks ABD.
+Berechne den Flächeninhalt des Dreiecks ABD.
+[ 3,5 P ]
+Der Umfang des Dreiecks ABD beträgt  [Lücke: 21,0] cm.
+
+Der Flächeninhalt des Dreiecks ABD beträgt [Lücke: 19,7] cm^2.
+
+(Eingabe der Werte mit einer Nachkommastelle.)
+Lösung:
+Umfang ABD berechnen
+U_{ABD}=‾{AB}+‾{BD}+‾{AD}
+
+1. Schritt: Berechne ‾{AB}
+ ‾{BD}=‾{AD}=‾{CD}=6,3 cm
+Betrachte nun das Dreieck ABC.
+‾{AC}=‾ {AD}+‾{CD}=12,6cm
+γ=41,8°
+Berechne ‾{AB} mit Hilfe des Sinus
+sin(γ)=(Gegenkathete)/(Hypotenuse)
+sin(41,8°)=frac{‾{AB}}{12,6cm}
+‾{AB}=sin(41,8°)· 12,6cm
+‾{AB}=8,40cm
+
+2. Schritt: Berechne den Umfang
+U_{ABD}=‾{AB}+‾{BD}+‾{AD}
+U_{ABD}=8,40cm+6,3cm+6,3cm
+U_{ABD}=21cm
+Flächeninhalt ABD berechnen
+ABD ist ein gleichseitiges Dreieck.
+A_{ABD}=0,5· a· h
+a=‾{AB}=8,4cm
+1. Schritt
+Berechne die Höhe des Dreiecks ABD mit dem Satz des Pythagoras.
+h^2=‾{AD}^2-((1)/(2)‾{AB})^2
+h=√{(6,3cm)^2-(4,2cm)^2}
+h=4,7cm
+
+2. Schritt
+Berechne des Flächeninhalt
+A_{ABD}=0,5· 8,4cm·4,7cm
+A_{ABD}=19,74cm^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321032 – https://de.serlo.org/mathe/321032/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ein zusammengesetzter Körper besteht aus einem quadratischen Prisma mit aufgesetzter
+quadratischer Pyramide. Dieser zusammengesetzte Körper wurde durch einen Parallelschnitt halbiert. Die Schnittfäche A_s ist grau eingefärbt.
+[Abbildung]
+Es gilt:
+
+s=16,3cm
+α=68,9°
+h_{ges}=20,6cm
+
+Berechne den Flächeninhalt der Schnittfläche A_s.
+
+(Eingabe des Ergebnisses mit einer Nachkommastelle)
+[ 4 P ]
+[Eingabefeld: 159,5]
+Lösung:
+1. Schritt: Länge von a berechnen
+[Abbildung]
+  cos{α} = ((a)/(2))/(s)   | · s
+  s · cos{α} = (a)/(2)   | · 2
+  2· s· cos{α} = a
+  2· 16,3 · cos{68,9^°} = a
+  11,74 = a
+2. Schritt: Länge von h_s berechnen
+[Abbildung]
+  sin{α} = (h_s)/(s)   | · s
+  s· sin{α} = h_s
+  16,3·sin{68,9^°} = h_s
+  15,21 = h_s
+3. Schritt: Länge von h_{Pyr} berechnen
+[Abbildung]
+  h_s^2 = h_{Pyr}^2+((a)/(2))^2   | -((a)/(2))^2
+  h_s^2-((a)/(2))^2 = h_{Pyr}^2   | √{}
+  √{h_s^2-((a)/(2))^2 } = h_{Pyr}
+  √{15,21^2-((11,74)/(2))^2} = h_{Pyr}
+  14,03 = h_{Pyr}
+4. Schritt: Länge von h_{Prisma} berechnen
+h_{Prisma}=h_{ges}-h_{Pyr}
+h_{Prisma}=20,6-14,03=6,57
+5. Schritt: Flächeninhalt berechnen
+A_s=h_{Prisma}· a+(1)/(2)· h_{Pyr}· a
+A_s=6,57 · 11,74 + (1)/(2)· 14,03 · 11,74 = 159,5
+
+Der Flächeninhalt beträgt 159,5cm^2.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321034 – https://de.serlo.org/mathe/321034/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Löse das Gleichungssystem.
+
+(1)      mathrm3(x-y)=y+8
+(2)     3y= (x-5)/(2)
+[ 3 P ]
+Lösung:
+Lösungsidee: - Löse das Gleichungssystem mithilfe des Gleichsetzungsverfahrens.
+Lösen des Gleichungssystems.
+Wir lösen das Gleichungssystem mithilfe des Gleichsetzungsverfahrens.
+
+(1) mathrm{3(x-y)=y+8 ⇒ x=(4y+8)/(3)}
+
+(2) hspace{8mm}mathrm{3y= (x-5)/(2) ⇒ x=6y+5}
+
+Gleichsetzen von (1) und (2) und berechnen der Variablen textbf{y}.
+
+mathrm{(4y+8)/(3)=6y+5}
+
+4y+8=18y+15
+hspace{3mm}-14y=7
+hspace{9mm}y=-0,5
+
+Einsetzen von y in die Gleichung (2) und berechnen der Variablen textbf{x}.
+
+x=6·-0,5+5 ; x=2
+
+Die Lösungsmenge des Gleichungssystems ist:
+
+L=\{2 |-0,5\}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321038 – https://de.serlo.org/mathe/321038/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Abbildung zeigt den Ausschnitt einer verschobenen nach oben geöffneten
+Normalparabel p.
+[Abbildung]
+Bestimme die Funktionsgleichung der Parabel p. Entnimm dazu geeignete
+Werte aus der Zeichnung.
+Eine Gerade g schneidet die y-Achse im Punkt T(0|2) und hat die Steigung m=-2.
+Berechne die Koordinaten der Schnittpunkte A und B der Parabel und der Geraden.
+[ 3 P ]
+Lösung:
+Lösungsidee: - Bestimme die Funktionsgleichung der Parabel p mithilfe der Scheitelform.
+Bestimmen der Funktionsgleichung der Parabel p. 
+Wir bestimmen die Funktionsgleichung mithilfe der Scheitelform.
+
+Die allgemeine Scheitelform einer quadratischen Funktion lautet:
+
+f(x)=a(x-d)^2+e
+
+Folgende Werte sind bekannt:
+
+a=1 Die Parabel p ist eine nach oben geöffnete Normalparabel.
+d=4Siehe Zeichnung.
+
+Wir setzen die Nullstelle N_1(1|0) in die allgemeine Scheitelform ein und berechnen e.
+
+(1-4)^2+e=0
+hspace{4mm}(-3)^2+e=0
+hspace{11mm}9+e=0
+hspace{17mm}e=-9
+
+Aufstellen der Funktionsgleichung.
+
+p:y=(x-4)^2-9
+
+p:y=x^2-8x+16-9
+
+p:y=x^2-8x+7
+
+Die Funktionsgleichung der Parabel textbf{p} lautet:
+
+boxed{p:y={x^2-8x+7}} 
+Berechne die Koordinaten der Schnittpunkte A und B der Parabel und der Geraden.
+Die allgemeine Form einer Geradengleichung lautet:
+
+y=mx+t
+
+Folgende Werte sind aus der Aufgabenstellung bekannt:
+
+m=-2
+hspace{2mm}t=2
+
+Die Funktionsgleichung der Geraden textbf{g} lautet:
+
+g:y=-2x+2
+
+Wir berechnen die Schnittpunkte A und B der Parabel textbf{p} mit der Geraden textbf{g}, indem wir p=g setzen.
+gleichsetzen von p  und g
+  x^2-8x+7 = -2x+2   | +2x-2
+  x^2-6x+5 = 0
+  (x-1)(x-5) = 0
+  x_1 = 1
+  x_2 = 5
+Berechnen der y-Koordinaten der Schnittpunkt A und B.
+
+Einsetzen von x_1 und x_2 in die Funktionsgleichung der Geraden g.
+
+y_1=-2·1+2 ⇒ y_1=0
+
+y_2=-2·5+2 ⇒ y_2=-8
+
+Koordinaten der Schnittpunkte:
+
+A=(1 |0)
+B=(5 |-8)
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321041 – https://de.serlo.org/mathe/321041/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Auf zwei Kreiseln befinden sich die Symbole ●,▲ und ◼. 
+
+[Abbildung]
+Die Felder eines Kreisels sind jeweils gleich groß. Sie sind grau bzw. weiß gefärbt. Die beiden Kreisel werden gedreht und bleiben auf einer Kante liegen.
+
+Berechne die Wahrscheinlichkeit für folgende Ereignisse:
+zwei gleiche Symbole
+Kreis und Dreieck
+höchstens ein graues Feld
+[ 3 P ]
+Die Wahrscheinlichkeit für zwei gleiche Symbole ist [Lücke: 1/3]  oder [Lücke: 33,3] %.
+
+Die Wahrscheinlichkeit für einen Kreis und ein Dreieck ist [Lücke: 1/5]  oder [Lücke: 20] %.
+
+Die Wahrscheinlichkeit für höchstens ein graues Feld ist [Lücke: 13/15]  oder [Lücke: 86,7] %.
+
+
+Lösung:
+Betrachte zuerst die Vierecke, dann die Dreiecke und schließlich die Kreise.
+P(zwei gleiche Symbole) = (2)/(5)·(1)/(3)+(1)/(5)·(1)/(3)+(2)/(5)·(1)/(3)=(2)/(15)+(1)/(15)+(2)/(15)=(5)/(15)=(1)/(3)  bzw.  33,3%
+
+P(° und triangle)= (2)/(5)·(1)/(3)+(1)/(5)·(1)/(3)=(2)/(15)+(1)/(15)=(1)/(5)  bzw. 20%
+
+P(höchstens ein graues Feld)=1-(2)/(5)·(1)/(3)=(15)/(15)-(2)/(15)=(13)/(15) bzw. 86,7%
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321043 – https://de.serlo.org/mathe/321043/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im Diagramm sind die Ausgaben für Onlinewerbung in Deutschland für die Jahre 2020 und 2021 dargestellt.
+[Abbildung]
+Die Ausgaben für Onlinewerbung sind von 2020 bis 2021 angestiegen.
+Berechne den Zuwachs in Prozent.
+
+Die Ausgaben für die Bannerwerbung lagen im Jahr 2020 um 9,5% über dem Betrag von 2019.
+Berechne die Ausgaben für die Bannerwerbung im Jahr 2019.
+
+Laut einer Prognose sollen in den fünf Jahren von 2021 bis 2026 die Ausgaben für die Social-Media-Werbung jährlich um 12,25% bezogen auf das jeweilige Vorjahr ansteigen.
+Wie hoch wären die Ausgaben für die Social-Media-Werbung dann im Jahr 2026?
+[ 3 P ]
+[Eingabefeld: 1094]
+Lösung:
+Zuwachs berechnen
+Berechnung des absoluten Anstiegs W
+W=Online Werbung 2021-Online Werbung 2020=7 789-7 484=305
+
+Berechnung des prozentualen Anstiegs
+Der Prozentsatz p berechnet sich durch Division des Prozentwerts W durch den Grundwert G.
+p=(W)/(G)
+p=(305)/(7 484)≈ 0,0408=4,08%
+Der Zuwachs für Onlinewerbung von 2020 zu 2021 beträgt 4,08%.
+
+Ausgaben für Bannerwerbung
+Die Ausgaben für Bannerwerbung können mithilfe eines Dreisatzes berechnet werden.
+[Abbildung]
+Die Ausgaben für Bannerwerbung lagen 2019 bei 817 Mio. €.
+Ausgaben für Social-Media-Werbung 2026
+Zur Berechnung der Ausgaben wird die Formel für den Zinseszins verwendet.
+Ausgehend von den Ausgaben  im Jahr 2021 von A_{2021}=614 Mio. ergeben sich nach 5 Jahren im Jahr 2026 Ausgaben von
+
+A_{2026}=A_{2021}· (1+0,1225)^{5} =A_{2021}· 1,1225^5
+
+A_{2026}=614·1,1225^{5}≈ 1 094 
+
+Bei einer jährlichen Steigerung von 12,25% werden die Ausgaben für Social-Media-Werbung nach 5 Jahren im Jahr 2026 bei 1 094 Mio. € liegen.
+
+
+==============================================================================
+Wahlteil B 2023  (Serlo-ID 320137)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 321046 – https://de.serlo.org/mathe/321046/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Das gleichschenklige Dreieck ABC und das rechtwinklige Trapez FBDE  überdecken sich teilweise.
+[Abbildung]
+Es gilt:
+
+‾{AC}=11,4cm
+‾{BD}=8,2cm
+γ_1=37,6°
+δ=39,2°
+‾{AC}=‾{BC}
+
+Berechne den Flächeninhalt des Vierecks FBGE.
+
+[5 P]
+[Eingabefeld: 25,7]
+Lösung:
+1. Schritt: Länge von ‾{BF}=‾{AF} 
+Da es sich um ein gleichschenkliges Dreieck handelt, gilt: ‾{AF}=‾{BF} 
+[Abbildung]
+  sin{γ_1} = dfrac{‾{AF}}{‾{AC}}   | · ‾{AC}
+  sin{γ_1}· ‾{AC} = ‾{AF}
+  sin{37,6^°}· 11,4 = ‾{AF}
+  6,96 = ‾{AF}=‾{BF}
+2. Schritt: Länge von ‾{EF}=‾{BH}
+[Abbildung]
+  sin{δ} = dfrac{‾{BH}}{‾{BD}}   | · ‾{BD}
+  sin{δ}· ‾{BD} = ‾{BH}
+  sin{39,2^°} · 8,2 = ‾{BH}
+  5,18 = ‾{BH}=‾{EF}
+3. Schritt: Länge von ‾{EG}
+[Abbildung]
+Zunächst wird die Länge von ‾{CF} berechnet.
+Es gilt γ_1=γ_2 und ‾{BC}=‾{AC}.
+  cos{γ_2} = dfrac{‾{CF}}{‾{BC}}   | · ‾{BC}
+  cos{γ_2}·‾{BC} = ‾{CF}
+  cos{37,6^°}· 11,4 = ‾{CF}
+  9,03 = ‾{CF}
+Länge von ‾{CE}berechnen
+  ‾{CE} = ‾{CF}-‾{EF}
+  ‾{CE} = 9,03-5,18
+  ‾{CE} = 3,85
+Länge von ‾{EG} berechnen
+  tan{γ_2} = dfrac{‾{EG}}{‾{CE}}   | ·‾{CE}
+  tan{γ_2}·‾{CE} = ‾{EG}
+  tan{37,6^°}· 3,85 = ‾{EG}
+  2,96 = ‾{EG}
+4. Schritt: Flächeninhalt A des Vierecks FBGE berechnen
+  A = dfrac{‾{BF}+‾{EG}}{2}·‾{EF}
+  A = (6,96+2,96)/(2)· 5,18
+  A = 25,7
+Flächeninhalt des Vierecks FBGE beträgt 25,7cm^2.
+
+--- Teilaufgabe b) ---
+Eine nach oben geöffnete verschobene Normalparabel p mit der Form y=x^2+bx-2 geht durch den Punkt A(1|1).
+Berechne die Funktionsgleichung der Parabel p.
+
+Die Parabel p geht auch durch den Punkt B(-3|y_B).
+Sie schneidet die y-Achse im Punkt C.
+Bestimme die Koordinaten der Punkte B und C.
+
+Die Punkte A,B und C bilden das Dreieck ABC.
+Berechne den Flächeninhalt des Dreiecks ABC.
+
+Die Gerade g geht durch den Punkt C und hat die Steigung m=-3 .
+Gib die Funktionsgleichung von g an.
+
+Julius behauptet: „Die Gerade g halbiert den Flächeninhalt des Dreiecks ABC".
+Überprüfe diese Aussage und begründe deine Antwort durch Rechnung oder Argumentation.
+[ 5 P ]
+Lösung:
+Funktionsgleichung berechnen
+
+Punkt A(1|1)in p einsetzen
+  y = x^2+b· x-2
+  1 = 1^2+b· 1-2   | -(1^2-2)
+  2 = b
+Die Funktionsgleichung lautet:
+p:y=x^2+2x-2
+Koordinaten bestimmen
+Koordinaten des Punktes B(-3|y_B) in die Funktionsgleichung einsetzen.
+y_B=(-3)^2+2· 3-2
+y_B=1
+Der Punkt B hat die Koordinaten B(-3|1).
+
+Punkt C liegt auf der y-Achse, d.h. x=0.
+y_C=0^2+2· 0 -2
+y_C=-2
+Der Punkt C hat die Koordinate C(0|-2).
+Flächeninhalt berechnen
+[Abbildung]
+Der Flächeninhalt A eines Dreiecks berechnet sich nach der Formel 
+A=(1)/(2)· Grundseite·Höhe auf der Grundseite
+Hier bietet sich die Strecke ‾{BA} als Grundseite an, mit der Länge 1-(-3)=4
+Die Höhe auf der Grundseite ‾{BA} hat die Länge 1-(-2)=3
+
+Flächeninhalt des Dreiecks
+A=(1)/(2)· 4 · 3=6
+
+Funktionsgleichung angeben
+
+Eine lineare Funktion hat die Form
+y=m· x + b
+
+Die Gerade g hat die Steigung m=-3 und geht durch den Punkt C(0|-2).
+g:y=-3· x+b
+
+Einsetzen der Koordinaten von C(0|-2) in die Gleichung der Grade.
+-2=-3· 0+b
+b=-2
+
+Die Funktionsgleichung der Geraden lautet:
+g:y=-3· x -2
+
+Aussage überprüfen
+
+Schnittpunkt der Geraden g mit der Geraden h durch die beiden Punkte A und B ermitteln. 
+Die Gerade h durch die Punkte A und B verläuft parallel zur x-Achse und hat die Form h:y=1
+[Abbildung]
+Schnittpunkt von g mit h
+  -3· x-2 = 1   | +2
+  -3· x = 3   | : (-3)
+  x = -1
+Gerade g schneidet die Gerade h im Punkt M(-1|1).
+[Abbildung]
+Die Gerade g schneidet die Gerade h im Punkt M(-1|1). Dieser Punkt liegt genau auf der Hälfte der Strecke von A nach B. Da die Gerade g auch durch den Punkt C läuft, halbiert sie das Dreieck ABC.
+
+Alternative Begründung:
+Der Flächeninhalt des Dreiecks AMC beträgt:
+A_{AMC}=(1)/(2)· Strecke ‾{MA} · Höhe auf Strecke ‾{MA}
+A_{AMC}=(1)/(2)· 2 · 3=3
+Dies ist genau die Hälfte des Flächeninhalts des Dreiecks ABC.
+
+Julius hat recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 321048 – https://de.serlo.org/mathe/321048/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Zu einer verschobenen nach oben geöffneten Normalparabel gehört die unvollständige Wertetabelle.
+[Tabelle]
+x | -1 | 0 | 1 | 2 | 3 | 4 | 5
+y |  | 1 |  |  |  | 1 | 
+- Bestimme die Funktionsgleichung von p_1.
+- Vervollständige die Wertetabelle.
+Die Gerade g hat die Funktionsgleichung y=mx-2 und geht durch den Punkt P(3|-5).
+- Berechne die Funktionsgleichung von g.
+- Zeige rechnerisch, dass g keinen Schnittpunkt mit p_{1} hat.
+- Gib die Funktionsgleichung einer verschobenen nach oben geöffneten Normalparabel p_2 an, die keinen Schnittpunkt mit g und p_1 hat.
+[5 P]
+Lösung:
+Funktionsgleichung von p_1 bestimmen
+
+p_1 : y=x^2+bx+c
+
+Punkt (0|1) aus der gegebenen Wertetabelle einsetzen.
+1=0^2+b· 0+c ;
+c=1
+
+Punkt (4|1) aus der gegebenen Wertetabelle und c=1 einsetzen.
+  y = x^2+bx+c
+  1 = 4^2+b· 4+1
+  1 = 17+4b   | -17
+  -16 = 4b   | :4
+  -4 = b
+Die Funktionsgleichung lautet:
+p_1 : y=x^2-4x+1
+Wertetabelle vervollständigen
+Zur Vervollständigung der Wertetabelle wird jeweils der gegebene x-Wert in die Funktionsgleichung eingesetzt und er dazugehörige y-Wert berechnet.
+[Tabelle]
+x | -1 | 0 | 1 | 2 | 3 | 4 | 5
+y | textcolor{ff6600}{6} | 1 | textcolor{ff6600}{-2} | textcolor{ff6600}{-3} | textcolor{ff6600}{-2} | 1 | textcolor{ff6600}{6}
+Funktionsgleichung von g bestimmen
+Die Koordinaten des Punktes P(3|-5) in die Gleichung der Geraden g einsetzen.
+  y = mx-2
+  -5 = m· 3-2   | +2
+  -3 = 3m   | :3
+  -1 = m
+Die Funktionsgleichung von g lautet:
+g: y=-x-2
+Rechnerisch zeigen, dass g keinen Schnittpunkt mit p_1 hat
+Zur Bestimmung eines oder mehrerer Schnittpunkte der beiden Funktionsgleichungen werden sie gleich gesetzt und nach x aufgelöst.
+  x^2-4x+1 = -x-2   | +x+2
+  x^2-3x+3 = 0
+  x_{1,2} = -(p)/(2)±√{((p)/(2))^2-q}
+  x_{1,2} = -(-3)/(2)±√{((-3)/(2))^2-3}
+  x_{1,2} = (3)/(2)±√{-(3)/(4)}
+Für die Diskriminante gilt D<0, es gibt also keine Lösung.
+Die beiden Funktionsgleichungen haben keinen Schnittpunkt.
+Funktionsgleichung angeben
+Umwandlung der Funktion p_1 in die Scheitelpunktform
+  y = x^2-4x+1
+  y = x^2-4xtextcolor{ff6600}{+4-4}+1
+  y = (x-2)^2-3
+Aus der Scheitelpunktform kann der Scheitelpunkt S(2|-3) direkt abgelesen werden.
+
+Der Scheitelpunkt der verschobenen Normalparabel p_2 muss oberhalb dem Scheitelpunkt von p_1 liegen. Liegt dieser oberhalb der x-Achse, so kann p_2 auch nicht die Gerade g schneiden.
+
+Eine mögliche Funktionsgleichung ist:
+p_2 : y=(x-2)^2+1mit dem Scheitelpunkt S_2(2|1).
+
+--- Teilaufgabe b) ---
+Aus einem Kegel wird eine regelmäßige fünfseitige Pyramide herausgearbeitet (siehe Abbildung).
+
+[Abbildung]
+Die Eckpunkte der Grundfläche der fünfseitigen Pyramide liegen auf der Kreislinie der Grundfläche des Kegels.
+
+Es gilt:
+a=8,6cm  (Grundkante der Pyramide)
+h_k=15,2cm  (Körperhöhe des Kegels)
+h_p=7,6cm  (Körperhöhe der Pyramide)
+
+Um wie viele cm^2 unterscheiden sich die Inhalte der Mantelflächen des Kegels und der Pyramide?
+[ 5 P ]
+[Eingabefeld: 180,9]
+Lösung:
+1. Schritt: Radius r des Kegels berechnen
+[Abbildung]
+  sin{36^°} = ((a)/(2))/(r)   | · r
+  sin{36^°}· r = (a)/(2)   | : sin{36^°}
+  r = dfrac{a}{2·sin{36^°}}
+  r = dfrac{8,6}{2·sin{36^°}}
+  r = 7,32
+2. Schritt: Höhe h_a berechnen
+h_a ist eine Kathete eines rechtwinkligen Dreiecks. Die Länge der anderen Kathete und die Länge der Hypotenuse sind bekannt. Mithilfe des Satzes des Pythagoras kann die Länge von h_a berechnet werden.
+  h_{a}^2 = r^2-((a)/(2))^2   | √{}
+  h_a = √{r^2-((a)/(2))^2}
+  h_a = √{7,32^2-((8,6)/(2))^2}
+  h_a = 5,92
+3. Schritt: Höhe h_s berechnen
+[Abbildung]
+h_s ist die Hypotenuse eines rechtwinkligen Dreiecks mit den Katheten h_a und h_P.
+Die Länge von h_s kann mithilfe des Satzes des Pythagoras berechnet werden.
+  h_{s}^2 = h_{P}^2+h_{a}^2   | √{}
+  h_s = √{h_{P}^2+h_{a}^2}
+  h_s = √{7,6^2+5,92^2}
+  h_s = 9,63
+4. Schritt: Länge von s_K berechnen
+s_K ist die Mantellinie des Kegels und die Hypotenuse eines rechtwinkligen Dreiecks mit den Katheten  h_K und r. Mithilfe des Satzes des Pythagoras kann die Länge von s_K berechnet werden.
+  s_{K}^2 = r^2+h_{K}^2   | √{}
+  s_K = √{r^2+h_{K}^2}
+  s_K = √{7,32^2+15,2^2}
+  s_K = 16,87
+5. Schritt: Mantelfläche M_P der Pyramide berechnen
+Die Pyramide hat 5 Seitenflächen, die ein Dreieck bilden, mit der Grundfläche a und der Höhe h_s. 
+Der Flächeninhalt A eines Dreiecks berechnet sich nach der Formel
+A=(1)/(2)·Grundfläche·Höhe
+
+Die Mantelfläche der Pyramide berechnet sich dann zu
+  M_P = 5· A_{Seitenfläche}
+  M_P = 5· (a· h_s)/(2)
+  M_P = 5· (8,6· 9,63)/(2)
+  M_P = 207,05
+6. Schritt: Mantelfläche M_K des Kegels berechnen
+  M_K = π· r· s_K
+  M_K = π· 7,32· 16,87
+  M_K = 387,95
+7. Schritt: Differenz der Mantelflächen berechnen
+
+M_{Diff}=M_K-M_P=387,95-207,05=180,9
+
+Die Differenz der Mantelflächen beträgt 180,9cm^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321051 – https://de.serlo.org/mathe/321051/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Die Klasse 10a verkauft Rubbellose. Auf jedem Los befinden sich zwei Streifen. Jeder Streifen enthält die folgenden Ziffern:
+[Abbildung]
+Die Ziffern sind in zufälliger Reihenfolge angeordnet. Der linke Streifen zeigt die Zehnerziffern, der rechte die Einerziffern.
+[Abbildung]
+Auf jedem Streifen wird genau ein Feld freigerubbelt, wodurch eine zweistellige Zahl entsteht. Die obenstehende Abbildung zeigt die Zahl 61.
+- Wie groß ist die Wahrscheinlichkeit, eine Zahl zu erhalten, die größer als 60 ist?
+Die Rubbellose werden für ein Glücksspiel eingesetzt. Dazu wird unten stehender Gewinnplan geprüft.
+[Tabelle]
+Ergebnis | Gewinn
+Zahl größer als 60 | 3 €
+Zahl 33 | 6 €
+restliche Möglichkeiten | kein Gewinn
+Einsatz:  2 €
+- Berechne den Erwartungswert.
+Die Klasse 10a überlegt, auf jedem Streifen der Lose eine 3 durch eine 6  zu ersetzen.
+- Erhöht sich dadurch der Gewinn für die Klasse? Begründe deine Entscheidung durch Rechnung.
+[ 5 P ]
+Lösung:
+Wahrscheinlichkeit berechnen
+
+Auf beiden Streifen sind die Ziffern in zufälliger Folge vorhanden. 
+Um eine Zahl >60 zu erhalten, muss auf dem ersten Streifen die Ziffer 6 freigerubbelt werden. Welche Zahl dann auf dem zweiten Streifen freigerubbelt wird, ist nicht von Bedeutung. Man erhält mit der 6 auf dem ersten Streifen immer eine Zahl >60.
+
+Die Wahrscheinlichkeit P(1. Streifen=6) beträgt (1)/(5). Das Freirubbeln der 6  ist ein von 5 möglichen Ereignissen.
+Die Wahrscheinlichkeit P(2. Streifen beliebg)=1
+
+Beim Freirubbeln eines Feldes auf dem ersten und dem zweiten Streifen handelt es sich um zwei unabhängige Ereignisse.
+
+P(>60)=P(1. Streifen=6)· P(2. Streifen beliebg) = (1)/(5)· 1=(1)/(5) hat{=} 20%
+Erwartungswert berechnen
+
+Wahrscheinlichkeit P(2 mal 3) beträgt:
+P(2 mal 3)=P(1. Streifen=3) · P(2. Streifen=3)
+P(2 mal 3)=(2)/(5)·(2)/(5)=(4)/(25)
+
+Erwartungswert
+E=P(>60)· 3 + P(2 mal 3) · 6-2
+E=(1)/(5)· 3 + (4)/(25) · 6-2
+E=-0,44
+Entscheidung treffen und begründen
+
+Durch Veränderung der Streifen ergeben sich neue Wahrscheinlichkeiten.
+P(>60)=(2)/(5)
+P(2 mal 3)=(1)/(5)·(1)/(5)=(1)/(25)
+
+Der neue Erwartungswert E_{neu} beträgt dann
+E_{neu}=(2)/(5)· 3+(1)/(25)· 6-2=-0,56
+
+E_{neu}=-0,56<E=-0,44 ⇒der Gewinn für die Klasse wird sich langfristig erhöhen.
+
+--- Teilaufgabe b) ---
+Die Abbildung zeigt den Sprung eines Frosches, der annähernd die Form einer Parabel mit der Gleichung  y=ax^2+c  hat.
+Die maximale Höhe des Sprungs ist 139cm . Die Sprungweite beträgt 220cm.
+[Abbildung]
+- Gib eine mögliche Gleichung der zugehörigen Parabel an.
+In einer horizontalen Entfernung von 150cm nach dem Absprung befindet sich ein Schilfrohr, das aus 94cm dem Wasser ragt.
+- In welchem Abstand springt der Frosch darüber?
+Der Sprung eines zweiten Frosches kann mit der Gleichung  y=-(3)/(200)x^2+165  dargestellt werden.
+- Welcher der beiden Frösche springt weiter?
+- Berechne die Differenz der Sprungweiten.
+[ 5 P ]
+Lösung:
+Gleichung der Parabel angeben
+
+Die Parabel hat die Form
+p:y=ax^2+c
+
+Der Scheitelpunkt der Parabel liegt bei x=0 und hat die y-Koordinate y=139. Daraus folgt c=139.
+
+Die Sprungweite beträgt 220cm. Da die Parabel achsensymmetrisch zur y-Achse ist, landet der Frosch am Punkt P(110|0).
+
+  y = ax^2+139
+  0 = a· 110^2+139   | -139
+  -139 = 12 100· a   | : 12 100
+  -0,011 = a
+Die Funktionsgleichung der Parabel lautet:
+p:y=-0,011x^2+139
+Abstand berechnen
+[Abbildung]
+Der Frosch springt bei x=-110 ab und befindet sich nach 150cm an der Stelle x=40.
+y-Wert der Parabel an der Stelle x=40 berechnen.
+y=-0,011· 40^2+139=121,4
+
+Abstand zwischen der Spitze des Schilfrohrs und der Flughöhe des Frosches
+121,4-94=27,4
+
+Der Frosch springt in einem Abstand von 27,4cm über das Schilfrohr.
+Beurteilen, welcher Frosch weiter springt
+
+Absprung- und Landepunkt des zweiten Frosches berechnen. Dazu muss y in der Funktionsgleichung für den zweiten Frosch gleich 0 gesetzt werden. 
+[Abbildung]
+  y = -(3)/(200)x^2+165
+  0 = -(3)/(200)x^2+165   | -165
+  -165 = -(3)/(200)x^2   | :(-(3)/(200))
+  165·(200)/(3) = x^2
+  x_{1,2} = √{165·(200)/(3)}
+  x_{1,2} = ±104,9
+Frosch 2 springt also 2· 104,9=209,8cm weit.
+
+Frosch 1 springt 220-209,8=10,2cm weiter
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo ExerciseGroup 321125 – https://de.serlo.org/mathe/321125/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Das Schaubild zeigt Ausschnitte der Parabel p_1 und der Geraden g.
+[Abbildung]
+- Bestimme die Funktionsgleichungen von p_1 und g . Entnimm dazu geeignete Werte aus dem Schaubild.
+Die Parabel p_1 schneidet die x-Achse in den Punkten N_1 und N_2.
+- Gib die Koordinaten von N_2 an.
+Die Parabel p_2 hat die Funktionsgleichung  y=x^2-2x-3  .
+- Berechne die Koordinaten des Scheitelpunktes S_2 von p_2.
+S_2 bildet mit S_1 und N_1 das Dreieck S_2S_1N_1. Ebenso bildet S_2 mit N_2 und  S_1 das Dreieck S_2N_2S_1.
+- Um wie viele Flächeneinheiten (FE) unterscheiden sich die Flächeninhalte dieser beiden Dreiecke?
+[ 5 P ]
+Lösung:
+Funktionsgleichungen von p_1 und g bestimmen
+
+Die im Schaubild gezeigte Parabel ist symmetrisch zur y-Achse. Aus dem Schaubild kann der Scheitelpunkt S_1(0|4) abgelesen werden. 
+Funktionsgleichung
+p_1 : y=ax^2+4
+Einsetzen von N_1(-4|0)
+  y = a· x^2+4
+  0 = a· (-4)^2 +4
+  0 = 16· a+4   | -4
+  -4 = 16· a   | :16
+  -(1)/(4) = a
+Die Funktionsgleichung p_1 lautet:
+p_1:y=-(1)/(4)x^2+4
+Funktionsgleichung von g bestimmen
+
+g ist eine Gerade, die durch den Punkt N_1(-4|0) verläuft.
+g: y=m· x+4
+Einsetzen von N_1(-4|0)
+  y = m· x+4
+  0 = m· (-4)+4   | -4
+  -4 = -4m   | :(-4)
+  1 = m
+Die Funktionsgleichung g lautet:
+g: y=x+4
+Koordinaten angeben
+
+Zur Berechnung der Schnittpunkte mit der x-Achse wird die Funktion gleich 0 gesetzt.
+  -(1)/(4)x^2+4 = 0   | -4
+  -(1)/(4)x^2 = -4   | :(-(1)/(4))
+  x^2 = 16
+  x_{1,2} = ± 4
+Die Koordinaten des zweiten Schnittpunkts mit der x-Achse sind N_2(4|0).
+Koordinaten des Scheitelpunkts von p_2
+
+Umwandeln der Funktionsgleichung in die Scheitelform
+  y = x^2-2x-3   | +1-1
+  y = x^2-2x+1-1-3
+  y = (x-1)^2-4
+Aus der Scheitelform kann der Scheitelpunkt direkt abgelesen werden.
+Der Scheitelpunkt der Funktionsgleichung p_2 ist S_2(1|-4).
+Differenz der Flächeneinheiten der Dreiecke
+[Abbildung]
+Fläche der beiden rechtwinkligen, rot gefärbten Dreiecke:
+A_{rot}=(1)/(2)· 4 · 4+(1)/(2)· 5· 4=18
+
+Fläche der beiden rechtwinkligen, blau gefärbten Dreiecke:
+A_{blau}=(1)/(2)· 4· 4+(1)/(2)· 3· 4=14
+
+Da die beiden kleinen, stärker gefärbten Dreiecke punktsymmetrisch sind,  heben sie sich bei Berechnung der Flächen gegenseitig auf. 
+
+Der Flächeninhalt des Dreiecks S_2S_1N_1 beträgt 18 FE. 
+Der Flächeninhalt des Dreiecks S_2N_2S_1 beträgt 14 FE.
+
+Die Differenz der Flächeninhalte beträgt
+18-14=4 FE
+
+--- Teilaufgabe b) ---
+Auf einem regelmäßigen achtseitigen Prisma liegt der Streckenzug PQRS mit der Länge von 38,0cm.
+[Abbildung]
+Es gilt:
+
+‾{AR}=14,2cm
+ε=23,0°
+Berechne die Höhe des achtseitigen Prismas.
+
+(Eingabe des Wertes mit zwei Stellen nach dem Komma)
+[ 5 P ]
+[Eingabefeld: 17,36]
+Lösung:
+[Abbildung: Abbildung nicht maßstabsgetreu]
+1. Schritt: Länge von ‾{PQ} berechnen
+  tan{varepsilon} = dfrac{‾{AQ}}{‾{AR}}   | ·‾{AR}
+  tan{varepsilon}·‾{AR} = ‾{AQ}
+  tan{23^°}· 14,2 = ‾{AQ}
+  ‾{AQ} = 6,03
+Zur Vereinfachung der Schreibweise setzen wir ‾{AQ}=a.
+Die Ecken der unteren Grundfläche des Prismas liegen auf einem Kreis mit Radius r.
+[Abbildung: Abbildung nicht maßstabsgetreu]
+Radius r berechnen
+Die Grundfläche des Prismas besteht aus 8 gleich großen Dreiecken, deren spitzer Winkel (360)/(8)=45^° besitzt. Die Hälfte dieses Winkels hat also 22,5^°.
+  sin{22,5^°} = ((a)/(2))/(r)   | · r
+  sin{22,5^°}· r = (a)/(2)   | : sin{22,5^°}
+  r = dfrac{a}{2· sin{22,5^°}}
+  r = dfrac{6,03}{2· sin{22,5^°}}
+  r = 7,88
+Damit kann ‾{PQ} berechnet werden.
+
+‾{PQ}=2· r=2· 7,88=15,76
+2. Schritt: Länge von ‾{QR} berechnen
+
+Das Dreieck QAR ist ein rechtwinkliges Dreieck mit Hypotenuse ‾{QR}. Mithilfe des Satzes des Pythagoras ergibt sich:
+  ‾{QR}^2 = a^2+‾{AR}^2   | √{}
+  ‾{QR} = √{a^2+‾{AR}^2}
+  ‾{QR} = √{6,03^2+14,2^2}
+  ‾{QR} = 15,43
+3. Schritt: Länge von ‾{RS} berechnen
+  ‾{RS} = 38-‾{PQ}-‾{QR}
+  ‾{RS} = 38-15,76-15,43
+  ‾{RS} = 6,81
+4. Schritt: Länge von ‾{RT} berechnen
+
+Da es sich um ein regelmäßiges achtseitiges Prisma handelt, gilt: ‾{TS}=a.
+Das Dreieck RTS ist wieder ein rechtwinkliges Dreieck mit Hypotenuse ‾{RS}.
+  ‾{RT}^2 = ‾{RS}^2-a^2   | √{}
+  ‾{RT} = √{‾{RS}-a^2}
+  ‾{RT} = √{6,81^2-6,03^2}
+  ‾{RT} = 3,16
+5. Schritt: Höhe h des Prismas berechnen
+  h = ‾{AR}+‾{RT}
+  h = 14,2+3,16
+  h = 17,36
+Die Höhe des Prismas beträgt 17,36cm.

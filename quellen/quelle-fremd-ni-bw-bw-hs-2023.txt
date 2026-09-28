@@ -1,0 +1,642 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Hauptschule Mathematik mit Lösungen – Prüfungsjahr 2023, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320109/2023 (Jahrgangsseite, Serlo-ID 320109); Prüfungsteile: https://de.serlo.org/mathe/320162/pflichtteil-a1 (Pflichtteil A1, ID 320162); https://de.serlo.org/mathe/320163/pflichtteil-a2 (Pflichtteil A2, ID 320163); https://de.serlo.org/mathe/320164/wahlteil-b (Wahlteil B, ID 320164)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2023  (Serlo-ID 320162)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321169 – https://de.serlo.org/mathe/321169/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welcher Term beschreibt „die Hälfte der Zahl 3 "?
+Kreuze für jeden Term „richtig“ oder „falsch“ an.
+[ 1 P ]
+[Auswahl (mehrere Antworten)]
+  (x) (3)/(2)
+  ( ) 3-(1)/(2)
+  (x) 0,5·3
+  ( ) 3:(1)/(2)
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321172 – https://de.serlo.org/mathe/321172/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Löse das Zahlenrätsel:
+Subtrahiert man 50 vom Vierfachen einer unbekannten Zahl, so erhält man 10.
+[ 1 P ]
+Die unbekannte Zahl ist [Lücke: 15] .
+Lösung:
+x bezeichnet die unbekannte Zahl. 
+Die Gleichung zur Aufgabenstellung lautet:  
+4· x-50=10
+  4· x-50 = 10   | +50
+  4· x = 60   | :4
+  x = 15
+Die unbekannte Zahl ist die 15.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321175 – https://de.serlo.org/mathe/321175/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gib die fehlende Kantenlänge an, damit in den Quader genau 60 Liter hinein passen.
+a=6dm,   b=2dm,   c_{ }=_____
+[ 1 P ]
+c=[Lücke: 5] dm
+Lösung:
+Um die fehlende Kantenlänge anzugeben, wird die Volumen-Formel eines Quaders aufgestellt und nach c umgestellt.
+
+V=a· b· c
+c=(V)/(a· b)
+
+Beachte:
+1 l=1dm
+
+Gegeben:
+V=60 dm
+a=6dm
+b=2dm
+
+Setze ein:
+c=(60)/(6·2)=5
+
+Die Kantenlänge ist c=5dm.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321177 – https://de.serlo.org/mathe/321177/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Beim Schulfest der Gemeinschaftsschule Burggraben wurden insgesamt 2135 € Gewinn erzielt. Jede der 13 Schulklassen soll 145 € erhalten. Der Rest wird an das Tierheim gespendet.
+
+Berechne die Spende für das Tierheim.
+[ 1 P ]
+Spende für das Tierheim: [Lücke: 250] €
+Lösung:
+Wie viel Geld erhalten die 13 Schulklassen?
+13·145 €=1885 €
+
+Wie viel Geld erhält das Tierheim?
+2135 €-1885 €=250 €
+
+Die Spende für das Tierheim beträgt 250 €.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321179 – https://de.serlo.org/mathe/321179/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eine Schultasche kostete ursprünglich 150 €. Der neue Preis beträgt 100 €.
+Welches Schild muss Julia ins Schaufenster hängen, damit die Aussage stimmt?
+[Abbildung]
+[ 1 P ]
+Lösung:
+Preisdifferenz: 150 €-100 €=50 €
+50 €=(1)/(3)·150 €
+
+Julia muß also dieses Schild ins Schaufenster hängen.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321181 – https://de.serlo.org/mathe/321181/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Berechne den Flächeninhalt der abgebildeten Figur.
+Entnimm die Maße der Zeichnung.
+[Abbildung]
+[ 1 P ]
+Flächeninhalt: [Lücke: 15] cm²
+Lösung:
+Die Figur stellt ein Parallelogramm dar.
+
+Grundlinie:  a
+Höhe:  h_a
+Fläche:  A=a· h_a
+
+Entnimm die Maße der Zeichnung.
+a=5cm
+h_a=3cm
+A=5· 3=15
+Der Flächeninhalt der Figur ist 15cm^2.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321183 – https://de.serlo.org/mathe/321183/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Lässt sich das Dreieck zeichnen? Begründe.
+a=7cm
+b=5cm
+c=15cm
+[ 1 P ]
+Lösung:
+In einem Dreieck gilt: 
+Die Länge einer Dreiecksseite muss immer kleiner sein als die Summe der Längen der anderen beiden Seiten. 
+
+Im genannten Beispiel gilt jedoch:
+15cm>7cm+5cm
+
+Mit den genannte Seitenlänen lässt sich also kein Dreieck zeichnen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321185 – https://de.serlo.org/mathe/321185/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Berechne das Volumen des Körpers.
+[Abbildung]
+[ 1 P ]
+Volumen des Körpers: [Lücke: 130] cm³
+Lösung:
+Berechne zunächst das Volumen des gesamtem Körpers. Dieser ist ein Quader.
+V_{ }=l· b· h
+V_{gesamt}=5cm· 10cm· 3cm=150cm^3
+
+Berechne nun das Volumen eines der ausgeschnittenen Körper:
+V_{Ausschnitt}=1cm· 10cm· 1cm=10cm^3
+
+Das Volumen des abgebildeten Körpers ergibt sich wie folgt:
+V_{Körper}=V_{gesamt}-2· V_{Ausschnitt}
+V_{Körper}=150cm^3-2· 10cm^3
+V_{Körper}=130cm^3
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 321187 – https://de.serlo.org/mathe/321187/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Tom hat täglich die Temperatur gemessen und sie in folgende Tabelle eingetragen.
+[Tabelle]
+Tag | Mo | Di | Mi | Do | Fr | Sa | So
+Temperatur | 0^° C | 1,0^° C | 2,5^° C | 0,5^° C | 1,0^° C | 6,0^° C | 3,0^° C
+Berechne die Durchschnittstemperatur für diese Woche.
+[ 1 P ]
+Durchschnittstemperatur für diese Woche: [Lücke: 2] °C
+Lösung:
+Addiere alle gemessenen Temperaturen und dividiere die Summe durch die Anzahl der gemessenen Werte.
+0°+1°+2,5°+0,5°+1°+6°+3°=14°
+Es wurden 7 Werte gemessen.
+14°:7=2°
+Die Durchschnittstemperatur für diese Woche beträgt also 2°C.
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 321189 – https://de.serlo.org/mathe/321189/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Für 4m^2 Fläche benötigt ein Maler 0,8 Liter Farbe.
+Vervollständige die Tabelle und zeichne den Graphen in das Schaubild ein.
+[Tabelle]
+Fläche in m^2 | Farbmenge in Liter
+1 | 
+2 | 
+3 | 
+4 | 0,8
+6 | 
+[Abbildung]
+[ 1 P ]
+Lösung:
+- Berechne anhand des Farbverbrauchs für 4m^2, wieviel Farbe für einen 1m^2 benötigt wird.
+0,8:4=0,2 l
+Für 1m^2 werden 0,2 l Farbe benötigt.
+- Berechne nun den Farbverbrauch für 2m^2.
+0,2·2=0,4 l
+- Berechne nun den Farbverbrauch für 3m^2.
+0,2·3=0,6 l
+- Berechne nun den Farbverbrauch für 6m^2.
+0,2·6=1,2 l
+[Tabelle]
+Fläche  in m^2 | Farbmenge  in l
+1 | 0,2
+2 | 0,4
+3 | 0,6
+4 | 0,8
+6 | 1,2
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2023  (Serlo-ID 320163)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321198 – https://de.serlo.org/mathe/321198/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Familie Bauer verdient monatlich 3800 €.
+(1)/(3) gibt sie monatlich für Miete und Nebenkosten aus.
+5% gibt sie monatlich für private Versicherungen aus.
+Für Fernsehen, Internet, Telefon und Handyverträge bezahlt die Familie monatlich 119 € .
+
+Berechne den Geldbetrag, der monatlich für alle weiteren Ausgaben übrig bleibt.
+
+[ 2 Pkt. ]
+[Eingabefeld: 2224]
+Lösung:
+Bruchteil: 
+(1)/(3)· 3800 €=(3800 €)/(3)≈1267 €
+Prozent:   
+0,05·3800 €=190 €
+Sonstige Ausgaben:  119 €
+
+3800 €-1267 €-190 €-119 €=2224 €
+Für weitere Ausgaben bleiben monatlich 2224 € übrig.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321200 – https://de.serlo.org/mathe/321200/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Abbildung zeigt den Grundriss eines Zimmers, in dem ein neuer Bodenbelag gelegt
+werden muss.
+
+[Abbildung]
+Bestimṃe den Flächeninhalt der schraffierten Bodenfläche.
+[ 2 Pkt. ]
+[Eingabefeld: 18,25]
+Lösung:
+[Abbildung]
+Unterteile die Figur durch die beiden zusätzlichen Strecken ‾{AB} und ‾{GH}. Du kannst jetzt  4 Teilflächen berechnen.
+
+Fläche ABCD ist ein Trapez: 
+A_{Trapez}=((a+c))/(2)· h
+A_{ABCD}=((5cm+3cm))/(2)·2cm
+A_{ABCD}=8cm^2
+
+Fläche GHIJ ist ebenfalls ein Trapez: 
+A_{GHIJ}=((5cm+2cm))/(2)·1,5cm
+A_{GHIJ}=5,25cm^2
+
+Die beiden Rechtecke GHFE und AFBA sind gleich groß. Flächeninhalt pro Rechteck:
+A_{Rechteck}=l· b
+A_{Rechteck}=5cm· 0,5cm=2,5cm^2
+
+8cm^2+5,25cm^2+2· 2,5cm^2=18,25cm^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321202 – https://de.serlo.org/mathe/321202/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Führe folgende Zeichenanweisungen durch:
+- Zeichne ein beliebiges stumpfwinkliges Dreieck.
+- Beschrifte die Eckpunkte und Seiten dieses Dreiecks.
+- Zeichne alle Winkelhalbierenden ein.
+- Markiere den Schnittpunkt der Winkelhalbierenden mit S.
+[ 2 Pkt. ]
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321204 – https://de.serlo.org/mathe/321204/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+[Abbildung]
+- Handelt es sich bei diesem Schaubild um eine proportionale oder antiproportionale Zuordnung? Begründe.
+- Wie viele Stunden müsste 1 Arbeiter arbeiten?
+[ 2 Pkt. ]
+Lösung:
+- Bei der Antiproportionalität ist das Produkt zweier Größen immer konstant.
+2·20=8·5=10·4=40
+Bei dem Schaubild handelt es sich um eine antiproportionale Zuordnung.
+
+- Ein Arbeiter müsste 40 Stunden arbeiten ( 1·40=40 ).
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321207 – https://de.serlo.org/mathe/321207/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ordne die Aussagen dem Wahrscheinlichkeitsstreifen zu.
+Trage dafür die Buchstaben in das passende Kästchen ein.
+[Abbildung]
+A: Beim einmaligen Würfeln würfelst du keine 6.
+B: Du hast am 1. Januar in der 1. Stunde Mathematik.
+C: Du wirfst eine Münze und sie fällt auf das Wappen.
+D: Ein Tag hat 24 Stunden.
+E: In einer beliebigen Schulklasse haben drei Kinder am gleichen Tag Geburtstag.
+[ 2 Pkt. ]
+Lösung:
+[Abbildung]
+
+
+==============================================================================
+Wahlteil B 2023  (Serlo-ID 320164)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 321210 – https://de.serlo.org/mathe/321210/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Im Jahr 2002 erhielt man bei einer Geldanlage noch 4% Zinsen, 2022 nur noch 0,6% Zinsen.
+Frau Ziegler legte 2002 den Betrag von 5000 € für ein Jahr an.
+- Berechne den Jahreszins für 2002.
+- Wie viel Geld hätte sie 2022 anlegen müssen, um den gleichen Jahreszins wie 2002 zu erhalten?
+[ 2 Pkt. ]
+Jahreszins für 2002:  [Lücke: 200] €.
+Geldanlage in 2022: [Lücke: 33333,33]  €.
+Lösung:
+Lösungsidee: - Verwende zur Lösung der Aufgabe die Prozentformel.
+Berechnen des Jahreszins für 2002.
+Die Prozentformel zur Berechnung des Zinswertes lautet:
+
+W=G· p
+
+Folgende Werte sind bekannt:
+
+G=5000 € ; p=4 %
+
+Einsetzen der bekannten Werte in die Formel:
+
+mathrm{W=5000·(4)/(100)}
+
+W=200 €
+
+Der Jahreszins für das Jahr 2002 beträgt: boxed{200 €}.
+ Berechnen des Grundwertes für 2022.
+Die Formel zur Berechnung des Grundwertes lautet:
+
+mathrm{G=(W)/(p)}
+
+Folgende Werte sind bekannt:
+
+W=200 € ; p=0,6 %
+
+Einsetzen der bekannten Werte in die Formel:
+
+mathrm{G=(200)/((0,6)/(100))}
+
+mathrm{G=(200·100)/(0,6)}
+
+W≈33333,33 €
+
+Im Jahre 2022 hätte Frau Ziegler boxed{33 333,33 €} anlegen müssen, um 200 € Jahreszins zu erhalten.
+
+--- Teilaufgabe b) ---
+Setze einen der beiden Lösungswege fort und berechne die Länge der Seitenkante s.
+[Abbildung]
+Lösungsweg 1:
+Skizze:
+[Abbildung]
+x^2=(4cm)^2+(4cm)^2
+x^2=16cm^2+16cm^2
+x^2=32cm^2    |surd
+x=5,7cm
+Fortsetzen des Lösungsweges 1.
+[Abbildung]
+Berechnen der Seitenkante s mithilfe der Höhe der Pyramide h = 4cm, die
+mit mathrm{(x)/(2)} und s ein rechtwinkliges Dreieck bildet. 
+Anwenden des Satz des Pythagoras. 
+
+Der Satz des Pythagoras angewandt auf das farbige Dreieck lautet:
+
+mathrm{s^2=h^2+((x)/(2))^2}
+
+mathrm{s^2=4^2+((5,7)/(2))^2}
+
+mathrm{s^2=4^2+((5,7)/(2))^2}
+
+s^2=16+8,1225
+
+s=√{24,1225}
+
+boxed{s≈4,9 cm}
+
+Lösungsweg 2:
+Skizze:
+[Abbildung: Die Skizze braucht nicht erstellt zu werden.]
+x^2=(4cm)^2+(2cm)^2
+x^2=16cm^2+4cm^2
+x^2=20cm^2  | surd
+x=4,5cm
+Fortsetzen des Lösungsweges 2.
+[Abbildung: Die Skizze braucht nicht erstellt zu werden.]
+Berechnen der Seitenkante s mithilfe der Hälfte der Grundflächenkante a=2cm,
+die mit x und s ein rechtwinkliges Dreieck bildet.
+
+Anwenden des Satzes des Pythagoras. 
+
+Der Satz des Pythagoras angewandt auf das farbige Dreieck lautet:
+
+s^2=x^2+a^2
+
+s^2=4,5^2+2^2
+
+s=√{20,25+4}
+
+boxed{s≈4,9cm}
+[ 3 Pkt. ]
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 321214 – https://de.serlo.org/mathe/321214/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Claudia muss vier Ziffern eingeben, um eine Eingangstür zu öffnen.
+Leider weiß sie nur noch, dass die erste Ziffer eine 7 ist.
+Auch erinnert sie sich, dass die Ziffern 0,2,3 je einmal vorkommen.
+- Wie viele Kombinationsmöglichkeiten bleiben Claudia?
+- Wie groß ist die Wahrscheinlichkeit, dass Claudia beim ersten Versuch die richtige Ziffernreihenfolge eingibt?
+[ 2 Pkt. ]
+Anzahl der Kombinationsmöglichkeiten: [Lücke: 6] 
+Wahrscheinlichkeit für die richtige Zahlenreihenfolge beim 1. Versuch:  [Lücke: 1/6 | 16,7] 
+Lösung:
+Lösungsidee: - Überlege wieviele 4-stellige Zahlen sich mit den restlichen 3 Ziffern bilden lassen.
+Bestimmen der Kombinationsmöglichkeiten, die  Claudia bleiben.
+Es gibt 6 Kombinationsmöglichkeiten, da die 7 als erste Ziffer bekannt ist.
+Die 6 Kombinationsmöglichkeiten sind:
+
+boxed{7023; 7032; 7203; 7230; 7302; 7320}
+
+Die Wahrscheinlichkeit, dass Claudia beim ersten Versuch die richtige Ziffernreihenfolge eingibt ist dann:
+
+   boxed{(1)/(6) oder ≈16,7 %}
+
+--- Teilaufgabe b) ---
+Beim „Tag der offenen Tür“ führt die Klasse 9a einen Verkauf von Hotdogs durch.
+Folgende Lebensmittel hat sie hierfür eingekauft.
+[Abbildung]
+- Ergänze die Tabelle.
+
+Insgesamt hat die Klasse alle Hotdogs für jeweils 3 € verkauft.
+Die Klasse 9a möchte das Geld nach Abzug der Gesamtkosten an drei verschiedene Projekte spenden:
+Schülerzeitung 50%: 
+Brot für Kinder 25%: 
+Förderverein der Schule 25%:
+- Berechne, wie viel € für jedes Projekt gespendet werden können.
+[ 3 Pkt. ]
+Lösung:
+Ergänzen der Tabelle.
+Berechnung: 
+Stückpreis der Würstchen:
+ 69,00 €:100 = textbf{0,69 €} 
+
+Gesamtpreis der Brötchen:
+ 0,29 €·100=textbf{29,00 €}
+
+Anzahl der Ketchup-Flaschen:
+ 7,96 €:1,99 €=4
+
+Stückpreis der Gläser mit sauren Gurken: 
+4,95 €:5 = textbf{0,99 €}
+
+Gesamtpreis der Röstzwiebel-Beutel: 
+115,80 €−69 €− 29 €−7, 96 €−4,95 € = textbf{4, 89 €}
+Stückpreis der Röstzwiebel-Beutel: 4,89 €:1 = textbf{4,89 €}
+
+Ausfüllen der Tabelle:
+[Abbildung]
+Berechnen, wie viel € für jedes Projekt gespendet werden kann.
+Die Klasse hat 100 Hotdogs für je 3 € verkauft, also:
+100·3 € = 300 € eingenommen. 
+
+Nach Abzug der Gesamtkosten bleiben:
+300 €−115, 80 €=184,20 € 
+
+Damit ist die Spende...
+
+ an die Schülerzeitung
+ 184,20 €·(50)/(100)=textbf{92,10 €} 
+
+an Brot für Kinder
+ 184,20 €·(25)/(100)=textbf{46,05 €} 
+
+an den Förderverein der Schule ebenfalls
+ 184,20 €·(25)/(100)=textbf{46,05 €}
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321216 – https://de.serlo.org/mathe/321216/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+(kein Inhalt)
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo ExerciseGroup 321221 – https://de.serlo.org/mathe/321221/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Grundriss:
+[Abbildung]
+Schrägbild:
+[Abbildung]
+Mit welchen Formeln lässt sich das Volumen dieses Körpers bestimmen?
+Kreuze für jede Formel „richtig“ oder „falsch“ an.
+[ 2 Pkt. ]
+[Abbildung]
+[Abbildung]
+[Auswahl (mehrere Antworten)]
+  (x) V=V_{Quader_{groß}}-2· V_{Dreiecksprisma}
+  ( ) V=V_{Würfel}+V_{Trapezprisma}
+  (x) V=V_{Quader_{klein}}+V_{Würfel}+2· V_{Dreiecksprisma}
+  ( ) V=V_{Quader}-V_{Trapezprisma}
+
+--- Teilaufgabe b) ---
+Das Bild unten zeigt einen 1,80m großen Mann mit einem Regenschirm.
+Er steht neben einem Kunstwerk, das ebenfalls einen Regenschirm darstellt.
+Stell dir vor, der Mann würde als Statue passend zum Kunstwerk gebaut werden.
+Wie groß müsste er sein?
+Berechne.
+[Abbildung]
+[ 3 Pkt. ]
+Entnimm nötige Maße der Zeichnung.
+Lösung:
+Lösungsidee: - Messe aus der Zeichnung die Größe des Mannes, des Regenschirms und des Kunstwerkes.
+- Ermittle den Maßstab
+- Berechne die Größe der Statue des Mannes.
+Berechnen der Größe des Kunstwerkes.
+Folgende Maße wurden der Zeichnung entnommen:
+
+Größe Kunstwerk in der Zeichnung: hspace{5mm} 7,4cm 
+Größe Mann in der Zeichnung: hspace{17mm}3,2cm
+Größe Regenschirm in der Zeichnung: 1,6cm
+
+Der Regenschirm ist halb so groß wie der Mann. 
+
+Ermitteln des Maßstabes:
+
+Größe Mann in der Zeichnung:  3,2cm
+Größe Mann in der Wirklichkeit: 1,80m=180cm
+
+Der Maßstab ist dann:
+
+(180)/(3,2)=56,25 das bedeutet:
+ 1cm in der Zeichnung entspricht 56,25cm in der Wirklichkeit.
+
+Die Größe des Kunstwerkes ist dann:
+
+7,4·56,25=416,25cm
+
+Der Mann ist doppelt so groß ist wie der Regenschirm, seine Statue wäre dann:
+
+416,25·2=832,5cm
+
+Die Statue des Mannes, passend zum Kunstwerk, müsste boxed{8,33m} groß sein.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo ExerciseGroup 321223 – https://de.serlo.org/mathe/321223/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Das Schaubild zeigt den Tauchgang von Hendrik.
+[Abbildung]
+- Wie lange befindet er sich auf einer Tiefe von genau 12 Metern?
+- Ergänze das Diagramm um folgende Sachverhalte:
+Nach 35 Minuten steigt er gleichmäßig in 5 Minuten um 4 Meter auf.
+In dieser Tiefe bleibt er 5 Minuten.
+Nach weiteren 5 Minuten ist er wieder an der Wasseroberfläche.
+[ 2 Pkt. ]
+Lösung:
+Bestimmen der Zeit, die sich der Taucher auf 12m Tiefe befindet.
+[Abbildung]
+Aus dem Diagramm lesen wir ab, der Taucher befindet sich ab 
+der 5. bis zur 15. Minute und von der 30. bis zur 35. Minute in 12m Tiefe.
+Der Taucher befindet sich dann insgesamt textbf{15} Minuten in 12m Tiefe.
+Ergänzen des Diagramms :
+[Abbildung]
+
+--- Teilaufgabe b) ---
+Durchschnittlicher Heizölpreis in Deutschland (in Cent pro Liter):
+[Abbildung]
+- Berechne, um wie viel Prozent der Heizölpreis von 2020 bis 2022 angestiegen ist.
+
+Ein Heizöllieferant erhöht am Anfang des Monats den Preis um 5% pro Liter.
+Am Ende des Monats sinkt er wieder um 5%.
+- Wie ist der Heizölpreis im Vergleich zum Monatsanfang? Kreuze an und begründe deine Entscheidung.
+[ 3 Pkt. ]
+[Auswahl (eine Antwort)]
+  (x) billiger
+  ( ) gleich
+  ( ) teurer
+Lösung:
+Lösungsidee: - Berechne den Anstieg des Heizölpreises mithilfe der Prozentformel.
+Berechnen, um wie viel Prozent der Heizölpreis von 2020 bis 2022 angestiegen ist.
+Heizölpreis 2020: 49,9 ₵
+Heizölpreis 2022:116,8 ₵
+
+Der Anstieg ist dann: 116,8-49,9=66,9 ₵ das entspricht dem Prozentwert.
+
+Wir berechnen nun den Prozentsatz.
+ 
+Die Formel zur Berechnung des Prozentsatzes lautet:
+
+mathrm{p=(W)/(G)·100}
+
+Folgende Werte sind bekannt:
+
+G=49,9 ; W=66,9
+
+Einsetzen in die Formel:
+
+mathrm{p=(66,9)/(49,9)·100=134,07 %}
+
+Von 2020 bis 2022 ist der Heizölpreis also um ca. boxed{134 %} gestiegen.
+Vergleich des Heizölpreis zum Monatsanfang.
+Angenommen, der Preis liegt Anfang des Monats bei 100 ₵ pro Liter. 
+Erhöht der Lieferant den Preis um 5 %, ist der Preis bei:
+100 ₵·1,05=105 ₵
+
+Senkt der Lieferant den Preis ausgehend vom höheren Preis um 5 %%, bleiben
+noch 95 %% übrig:
+105 ₵·0,95=99,75 ₵< 100 ₵
+
+Der Preis im Vergleich zum Monatsanfang ist also niedriger, kreuze entsprechend an.

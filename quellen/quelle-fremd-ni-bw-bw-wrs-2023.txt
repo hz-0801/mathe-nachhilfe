@@ -1,0 +1,963 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Werkrealschule Mathematik mit Lösungen – Prüfungsjahr 2023, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320105/2023 (Jahrgangsseite, Serlo-ID 320105); Prüfungsteile: https://de.serlo.org/mathe/320150/pflichtteil-a1 (Pflichtteil A1, ID 320150); https://de.serlo.org/mathe/320151/pflichtteil-a2 (Pflichtteil A2, ID 320151); https://de.serlo.org/mathe/320152/wahlteil-b (Wahlteil B, ID 320152)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2023  (Serlo-ID 320150)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321445 – https://de.serlo.org/mathe/321445/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gegeben sind folgende Zufallsgeräte.
+[Abbildung]
+- Wie groß ist die Wahrscheinlichkeit, dass bei einem 20-seitigen Würfel (Zahlen von 1 bis 20) eine Zahl kleiner als sieben gewürfelt wird?
+- Wie groß ist die Wahrscheinlichkeit, dass bei dem Glücksrad eine Primzahl gedreht wird?
+[1 Pkt]
+Die Wahrscheinlichkeit, dass bei einem 20-seitigen Würfel (Zahlen von 1 bis 20) eine Zahl kleiner als sieben gewürfelt wird beträgt: [Lücke: 6/20] oder [Lücke: 30] %
+
+Die Wahrscheinlichkeit, dass bei dem Glücksrad eine Primzahl gedreht wird beträgt: [Lücke: 4/10] oder [Lücke: 40] %
+Lösung:
+- Der Würfel hat 20 Seiten. Auf dem Würfel sind sechs Zahlen kleiner als 7, nämlich die1,2,3,4,5 und die 6. Die Wahrscheinlichkeit eine Zahl kleiner als 7 zu würfeln beträgt also (6)/(20) bzw. 30%.
+- Hierfür musst du wissen, was eine Primzahl ist. Das Glücksrad hat 10 Felder. Die Primzahlen auf dem Glücksrad sind die 3,5,7 und die 11. Die Wahrscheinlichkeit, dass auf dem Glücksrad eine Primzahl gedreht wird beträgt also (4)/(10) bzw. 40%.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321447 – https://de.serlo.org/mathe/321447/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Vervollständige die Gleichungen.
+[Abbildung]
+sin (varepsilon)= __________
+
+__________ =dfrac{‾{A C}}{‾{A B}}
+
+[1 Pkt]
+Lösung:
+Im rechtwinkligen Dreieck ACD gilt:
+
+sin{varepsilon}=(Gegenkathete)/(Hypotenuse)=dfrac{‾{AC}}{‾{DC}}
+
+Im rechtwinkligen Dreieck ABC gilt:
+
+tan{β}=(Gegenkathete)/(Ankathete)=dfrac{‾{AC}}{‾{AB}}
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321449 – https://de.serlo.org/mathe/321449/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Immer zwei Zahlen haben den gleichen Wert.
+
+boxed{891 · 10^{4} }    boxed{acht Millionen neunhunderttausend}
+
+    boxed{89,1 · 10^{3} }         boxed{8 910 000}             boxed{0,89· 10^7 }
+- Gib den Zahlenwert an, der zu keinem anderen Zahlenwert passt.
+[1 Pkt]
+[Auswahl (eine Antwort)]
+  ( ) 891·10^{4}
+  ( ) acht Millionen neunhunderttausend
+  (x) 89,1 · 10^{3}
+  ( ) 8 910 000
+  ( ) 0,89· 10^7
+Lösung:
+a)  891·10^4=8910000   
+b) acht Millionen neunhunderttausend
+c)  89,1·10^3=89100  
+d)  8910000
+e) 0,89·10^7=8900000
+
+a) und d) passen zusammen
+b) und e) passen zusammen
+
+c) passt zu keinem anderen Zahlenwert.
+
+Kreuze entsprechend an.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321451 – https://de.serlo.org/mathe/321451/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Das Diagramm zeigt das Ergebnis einer Befragung mit dem Titel „Dein Schulweg".
+[Abbildung]
+Beschreibe, wie sich der Zentralwert verändert, wenn doppelt so viele Schülerinnen/Schüler mit dem Fahrrad zur Schule kommen und die Anzahl der anderen Nennungen gleich bleibt.
+
+[1 Pkt]
+Lösung:
+Der Zentralwert oder Median gibt den mittleren Wert einer geordneten Liste von Werten an.
+
+Liste der Werte aus dem Diagramm
+2   7   9   12   15 
+
+Der Wert 9 ist der Zentralwert. Der Wert 7 gibt die Anzahl der Schüler/Schülerinnen an, die mit dem Fahrrad kommen.
+
+Kommen doppelt so viele  Schüler/Schülerinnen mit dem Fahrrad (7+7=14) , ergibt sich folgende Liste.
+2   9   12   14   15
+
+Der Zentralwert ist in diesem Fall 12.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321453 – https://de.serlo.org/mathe/321453/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im gleichschenkligen Dreieck A B C gilt: 
+‾{A C}=‾{B C}.
+
+Die Gerade g verläuft parallel zur Strecke ‾{B C}.
+[Abbildung]
+Berechne die Winkel α und γ.
+
+[1 Pkt]
+Der Winkel α beträgt: [Lücke: 66] °
+
+Der Winkel und γ beträgt: [Lücke: 48] °
+Lösung:
+Nebenwinkel  und Gleichschenkliges Dreieck 
+α=180°-114°=66°
+
+α=β
+
+Winkelsumme im Dreieck:
+γ=180°-66°-66°=48°
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321455 – https://de.serlo.org/mathe/321455/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Am „Black Friday" wird ein Tablet für 360,00 € angeboten. Der Preis wurde auf 80 % reduziert.
+Bestimme den Preis des Tablets vor dem "Black Friday".
+
+[1 Pkt]
+[Eingabefeld: 450]
+Lösung:
+360 € ≙ 80%
+90 € ≙ 20%
+450 € ≙ 100%
+Der Preis des Tablets vor dem "Black Friday" ist 450 €.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321457 – https://de.serlo.org/mathe/321457/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Bestimme die Anzahl der Lösungen der Gleichung.
+
+2x^2+16x+25=-7
+
+[1 Pkt]
+Anzahl der Lösungen [Lücke: 1] .
+Lösung:
+2x^2+16x+25=-7
+2x^2+16x+32=0
+x^2+8x+16=0
+x_{1,2}=dfrac{-8±√{8^2-4· 16}}{2}
+x_{ }=-4
+
+Die Gleichung hat genau eine Lösung.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321459 – https://de.serlo.org/mathe/321459/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eine Parabel p ist im Vergleich zur Normalparabel
+- um zwei Einheiten nach unten verschoben
+- und mit dem Faktor drei gestreckt.
+Gib die Funktionsgleichung der Parabel p mithilfe der beschriebenen Eigenschaften an.
+
+[1 Pkt]
+Lösung:
+Scheitelform einer Parabel: 
+p:  f(x)=a(x-d)^2+e
+
+e=-2 verschiebt die Parabel um 2 Einheiten nach unten.
+a=3 streckt die Parabel mit dem Faktor 3.
+d=0 bedeutet, dass keine Verschiebung nach rechts oder links erfolgt.
+
+p:  f(x)=3x^2-2
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 321461 – https://de.serlo.org/mathe/321461/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welcher der folgenden Terme passt nicht zur Oberfläche des zusammengesetzten Körpers? Kreuze an.
+[Abbildung]
+[Auswahl (eine Antwort)]
+  ( ) Oberfläche = Oberfläche { }_{text {Kegel }}+ Mantelfläche { }_{text {Zylinder }}
+  ( ) Oberfläche = Oberfläche { }_{text {Zylinder }}+ Oberfläche _{text {Kegel }}-2 · Grundfläche _{text {Zylinder }}
+  (x) Oberfläche = Mantelfläche { }_{text {Kegel }}+ Oberfläche _{text {Zylinder }}
+Lösung:
+Die dritte Aussage muss angekreuzt werden, weil der angegebene Term nicht zur Oberfläche des zusammengesetzten Körpers passt.
+In dem Term wird die Oberseite des Zylinders fälschlicherweise mit in die Berechnung der Oberfläche des zusammengesetzten Körpers aufgenommen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 321464 – https://de.serlo.org/mathe/321464/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+In einer Eisdiele kann man sich ein Eis zusammenstellen.
+Man kann zwischen einem Behältnis, einer Eissorte und einem Topping wählen.
+[Abbildung]
+Bestimme die Anzahl aller möglichen Kombinationen.
+
+[1 Pkt]
+[Eingabefeld: 12]
+Lösung:
+Es gibt 2 Behältnisse, 3 Eissorten und 2 Toppings.
+
+Die Anzahl der möglichen Kombinationen beträgt:
+
+2· 3· 2=12
+
+
+==============================================================================
+Pflichtteil A2 2023  (Serlo-ID 320151)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321469 – https://de.serlo.org/mathe/321469/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Abbildung zeigt eine Bilderfolge aus Punkten.
+[Abbildung]
+- Bestimme die Anzahl der Punkte im 11. Bild.
+- Mit welchem Term kann man die Anzahl der Punkte im x-ten Bild bestimmen? Begründe deine Entscheidung.
+    (A) 2x^2-1
+    (B) 3+2· x
+    (C) 1+2· x
+    (D) x+2
+- Überprüfe, ob es ein Bild mit 45 Punkten gibt.
+[3 Pkt]
+Lösung:
+[Abbildung]
+Anzahl der Punkte im 11. Bild
+
+In jedem Bild kommen immer 2 Punkte im Vergleich zum vorhergehenden Bild hinzu.
+
+Im 11. Bild sind 23 Punkte.
+Term
+
+Mit Term 
+(C) 1+2· x  
+kann  die Anzahl der Punkte im x-ten Bild bestimmt werden. 
+Aus der Abbildung ist zu erkennen, dass die Anzahl der Punkte-Paare jeweils der Nummer des Bildes entspricht.
+Bild mit 45 Punkten
+
+Verwendung der Formel (C)
+
+45=1+2· x text{hphantom{XXX}}| -1
+44=2· x text{hphantom{XX|XXX}} | : 2
+22=x
+
+Das 22-te Bild hat 45 Punkte.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321471 – https://de.serlo.org/mathe/321471/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Liam hat von seinem Opa zum Geburtstag 450,00 € geschenkt bekommen, die er sparen soll. Bei einer Bank bekommt er dafür 1,2 % Zinsen pro Jahr (Zinsen werden mitverzinst).
+- Ergänze den Pfeil in der Tabelle durch den entsprechenden Faktor.
+- Bestimme das Kapital nach 5 Jahren.
+[Abbildung]
+[2 Pkt]
+Lösung:
+Lösungsidee: Verwende die Formeln zur Zinseszinsrechnung
+Pfeil in der Tabelle
+[Abbildung]
+Vom 2. zum 5. Jahr wird das Kapital weitere 3 Jahre verzinst. 
+Der Faktor zur Berechnung des Kapitals ist 1,012^3.
+Kapital nach 5 Jahren
+[Abbildung]
+Das Kapital nach 5 Jahren beträgt
+
+K=450· 1,012^5≈ 477,66
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321473 – https://de.serlo.org/mathe/321473/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Das dargestellte Körpernetz wird gefaltet und anschließend an den grauen Flächen miteinander verklebt.
+[Abbildung]
+- Berechne das Volumen des Körpers.
+Trifft folgende Aussage zu?
+„Wenn man die Dreiecke der Grund- und Deckfläche an ihrer jeweils längsten Seite aneinanderlegt, erhält man eine Raute."
+- Begründe deine Entscheidung.
+[2 Pkt]
+Lösung:
+Körpervolumen
+
+Wenn das Körpernetz verklebt ist, entsteht ein dreiseitiges, gerades Prisma.
+Volumen eines Prismas
+V=Grundfläche·Höhe
+
+Berechnung der Grundfläche A_G 
+Teilt man das Dreieck in der Abbildung in zwei gleich große Hälften, entstehen zwei rechtwinklige Dreiecke mit 
+Hypotenuse c=8,5
+Kathete a=(13)/(2)=6,5
+Kathete b=Höhe des Dreiecks 
+
+Mit dem Satz des Pythagoras kann die Höhe berechnet werden.
+
+  a^2+b^2 = c^2
+  6,5^2+b^2 = 8,5^2   | -6,5^2
+  b^2 = 8,5^2-6,5^2   | √{}
+  b ≈ 5,48
+Anmerkung: Die negative Lösung entfällt bei Längen.
+Fläche eines rechtwinkligen Dreiecks 
+A_{Delta}=(1)/(2)·Kathete 1·Kathete 2
+Das Dreieck der Abbildung besteht aus 2 rechtwinkligen Dreiecken.
+A_G=2· A_{Delta}=2·(1)/(2)· 6,5· 5,48=35,62
+
+Volumen des Prismas
+V=A_G · Höhe=35,62· 10=356,2
+
+Das Volumen des Prismas beträgt rund 356,2cm^3.
+
+Aussage
+
+Eine Raute ist ein Viereck, bei dem alle vier Seiten gleich lang sind.
+
+Die Dreiecke der Grund- und Deckenfläche sind gleichschenklige Dreiecke, ihre Schenkel sind gleich lang. 
+Legt man die Dreiecke an ihrer jeweils längsten Seite zusammen, entsteht deshalb eine Raute.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321475 – https://de.serlo.org/mathe/321475/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Parabel p_{1} hat die Funktionsgleichung y=(1)/(2) x^{2}.
+
+- Untersuche die Parabel p_{1} und ergänze folgenden Satz mit dem richtigen Begriff.
+„Wenn man die x-Werte verdoppelt, dann werden die y-Werte  _________."
+    (A) halbiert      (B) verdoppelt      (C) verdreifacht      (D) vervierfacht
+
+Die Parabel p_{1} wird zuerst um 4 LE nach oben verschoben und dann an der x-Achse gespiegelt.
+- Gib die Funktionsgleichung für die neue Parabel p_{2} an.
+[2 Pkt]
+Lösung:
+Parabel untersuchen
+[Tabelle]
+x | 1 | 2 \ (2· 1) | 4 \ (2· 2) | 8 \ (2· 4)
+y | (1)/(2) | 2 \ (4·(1)/(2)) | 8 \ (4· 2) | 32 \ (4· 8)
+Wenn man die x-Werte verdoppelt, dann werden die y-Werte vervierfacht.
+Antwort (D) ist richtig.
+Parabel verschieben und spiegeln
+[Abbildung]
+Zum Verschieben der Parabel nach oben in y-Richtung wird eine Konstante zum Funktionsterm addiert.
+Der Term nach der Verschiebung um 4 LE lautet:
+y=(1)/(2)x^2+4
+
+Zur Spiegelung der Parabel an der x-Achse wird der Funktionsterm mit -1 multipliziert.
+Der Term nach anschließender Verschiebung lautet:
+y=-(1)/(2)x^2-4
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321477 – https://de.serlo.org/mathe/321477/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Von einem achsensymmetrischen Trapez sind die Koordinaten der Eckpunkte A(-2 |-3), B(6 |-3) und D(0 | 3) gegeben.
+- Zeichne die Punkte in ein Koordinatensystem (1 LE=1 cm) und bestimme die Koordinaten des Punktes C.
+- Bestimme den Flächeninhalt des Trapezes.
+Sebastian behauptet: „Die Gerade g: y=-x+3 teilt das achsensymmetrische Trapez in zwei kongruente (deckungsgleiche) Dreiecke". Hat er Recht?
+- Begründe deine Entscheidung.
+[3 Pkt]
+Lösung:
+Punkt C zeichnen
+[Abbildung]
+Ein symmetrisches Trapez hat zwei gegenüberliegende, parallele Seiten und ist achsensymmetrisch zur Mittelsenkrechten der parallelen Seiten.
+
+Die Koordinaten des Punkts C sind C(4|3).
+Flächeninhalt
+
+Der Flächeninhalt eines Trapezes wird berechnet mit der Formel
+
+A_Trapez=(1)/(2)(a +b)· h
+
+A=(1)/(2)(‾{AB}+‾{DC})· h
+
+A=(1)/(2)(8+4)· 6=36
+Behauptung prüfen
+
+Die Gerade g teilt das Trapez in zwei Dreiecke, die die gemeinsame Seite ‾{BD} und zwei gleich lange Seiten ‾{AD}=‾{BC} haben.
+Die Seiten ‾{AB} und ‾{CD} sind verschieden lang.
+Damit sind die Dreiecke nicht deckungsgleich.
+Sebastian hat nicht recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321480 – https://de.serlo.org/mathe/321480/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Familie König plant eine Fahrradtour. Ihre Route beträgt 135km .
+Sie planen mit einer durchschnittlichen Fahrgeschwindigkeit von 18km/h.
+Zusätzlich rechnen sie 2 Stunden für Pausen mit ein.
+Die Familie möchte spätestens um 18 Uhr am Zielort sein.
+- Bestimme, um wie viel Uhr Familie König spätestens losfahren muss.
+Bei einem Outdoor-Anbieter gelten folgende Preise für geführte Kanufahrten:
+2 Erwachsene + 2 Kinder: 130 €
+1 Erwachsener + 3 Kinder: 105 €
+[Abbildung]
+- Erstelle ein Gleichungssystem.
+- Berechne die Preise für Erwachsene und Kinder.
+[3 Pkt]
+Lösung:
+Gleichungssystem erstellen
+
+Definition:
+x : Preis für einen Erwachsenen
+y:Preis für ein Kind
+
+(I) 2 x + 2y=130
+(II) x+3 y=105
+Preise berechnen
+
+Zur Berechnung der Preise wird das lineare Gleichungssystem mit dem Einsetzverfahren gelöst.
+
+Umformen von (II)
+  x+3y = 105
+  x = 105-3y
+Einsetzen in (I)
+  2(105-3y)+2y = 130
+  210-6y+2y = 130   | -210
+  -4y = -80   | :(-4)
+  y = 20
+Einsetzen in (II)
+  x+3· 20 = 105   | -60
+  x = 45
+Der Preis für einen Erwachsenen beträgt 45 €. 
+Der Preis für ein Kind beträgt 20 €.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321483 – https://de.serlo.org/mathe/321483/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ein Rechteck hat einen Flächeninhalt von 60cm^{2}. 
+Seite a ist 7 cm länger als Seite b.
+- Bestimme die Länge der Diagonalen des Rechtecks.
+[2 Pkt]
+[Eingabefeld: 13]
+Lösung:
+Seitenlängen berechnen
+Seite a ist 7cm länger als Seite b ⇒ a=b+7.
+Flächeninhalt des Rechtecks
+  A = a· b
+  60 = (b+7)· b
+  60 = b^2+7b   | -60
+  0 = b^2+2· 3,5· b+3,5^2-3,5^2-60
+  0 = (b+3,5)^2-3,5^2-60
+  0 = (b+3,5)^2-12,25-60
+  0 = (b+3,5)^2-72,25   | +72,25
+  72,25 = (b+3,5)^2   | √{}
+  8,5 = b+3,5   | -3,5
+  5 = b
+Seite b=5cm lang.
+
+a=b+7
+a=5+7=12
+
+Seite a=12cm lang.
+
+Diagonale berechnen
+Die Diagonale c teilt das Rechteck in zwei gleiche große rechtwinklige Dreiecke mit den Katheten a und b.
+Satz des Pythagoras
+  c^2 = a^2+b^2
+  c^2 = 12^2+5^2
+  c^2 = 144+25
+  c^2 = 169   | √{}
+  c = ± 13
+Für die Länge ist nur der positive Wert sinnvoll.
+
+Die Diagonale ist 13cm lang.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321485 – https://de.serlo.org/mathe/321485/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ein Glücksrad hat folgende Eigenschaften:
+
+- Die Gewinnwahrscheinlichkeit für die Farbe „Grün" beträgt 30 %.
+- Der „blaue" Kreisausschnitt hat einen Winkel von 45^{°}.
+- Die „gelbe" Farbe wird mit der Wahrscheinlichkeit von (1)/(5) gedreht.
+- Der restliche Teil des Glücksrads ist „rot".
+- Zeichne das Glücksrad mit einem Radius von 5cm .
+Das Glücksrad wird zweimal nacheinander gedreht.
+- Berechne die Wahrscheinlichkeit des Ereignisses P (zuerst gelb, dann grün).
+[3 Pkt]
+Lösung:
+Glücksrad zeichnen
+Um das Glücksrad zeichnen zu können, müssen die Wahrscheinlichkeiten der verschiedenen Ereignisse in Winkelgrößen umgerechnet werden.
+Der Innenwinkel eines Kreises beträgt 360^°.
+
+Farbe "grün": 360· 0,3=108^°  
+Wahrscheinlichkeit: 0,3 hat{=} 30%
+
+Farbe "blau": 45^°  
+Wahrscheinlichkeit: (45)/(360)=0,125 hat{=} 12,5%
+
+Farbe "gelb": 360· (1)/(5)=360· 0,2=72^° 
+Wahrscheinlichkeit: (1)/(5)=0,2 hat{=} 20%
+
+Farbe: "rot": 360-(108+45+72)=135^°
+Wahrscheinlichkeit: (135)/(360)=0,375 hat{=} 37,5%
+[Abbildung]
+Wahrscheinlichkeit berechnen
+Zur Berechnung der Wahrscheinlichkeit des Ereignisses P (zuerst gelb, dann grün) wird die Pfadregel verwendet.
+
+P(zuerst gelb, dann grün)=0,2 · 0,3=0,06 hat{=} 6%
+
+
+==============================================================================
+Wahlteil B 2023  (Serlo-ID 320152)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 321596 – https://de.serlo.org/mathe/321596/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Das Bild zeigt die Netze eines sechsseitigen und eines vierseitigen Spielwürfels.
+Es werden Zufallsversuche durchgeführt.
+Beide Würfel werden gleichzeitig geworfen und die Augenzahlen addiert.
+[Abbildung]
+- Welche Augensummen werden am häufigsten gewürfelt? Begründe deine Entscheidung.
+- Bestimme die prozentuale Wahrscheinlichkeit, dass beim Werfen der Würfel Folgendes passiert:
+     - Die Augensumme ist größer als 8 .
+     - Ein Würfel zeigt eine 4, der andere nicht.
+
+[5 Pkt]
+Die Augensummen [Lücke: 5],  [Lücke: 6] und [Lücke: 7] kommen am häufigsten vor.
+
+Die Wahrscheinlichkeit, dass die Augensumme größer als 8 ist, beträgt: [Lücke: 1/8] oder [Lücke: 12,5] %.
+
+Die Wahrscheinlichkeit, dass ein Würfel eine 4 zeigt der andere aber nicht, beträgt: [Lücke: 1/3] oder [Lücke: 33,33] %.
+%
+Lösung:
+[Abbildung]
+Die Tabelle zeigt die aufaddierten Augenzahlen beim Würfeln mit beiden Würfeln. Die Augensummen 5, 6 und 7 kommen am häufigsten vor.
+
+Prozentuale Wahrscheinlichkeiten
+
+Insgesamt existieren 6· 4=24 mögliche Ereignisse beim Würfeln mit einem sechsseitigen und einem vierseitigen Würfel. Jedes Ereignis ist gleich wahrscheinlich mit einer Wahrscheinlichkeit von (1)/(24).
+Eine Augensumme größer als 8 ergibt sich bei folgenden 3 Kombination
+(5,4), (6,3) und (6,4).
+Die Wahrscheinlichkeit P(Augensumme > 8)=(3)/(24)=(1)/(8) hat{=} 12,5%
+
+Bei folgende 8 Ereignissen zeigt ein Würfel eine 4 und der andere Würfel nicht.
+(1,4), (2,4), (3,4), (5,4), (6,4) und (4,1), (4,2), (4,3)
+
+Die Wahrscheinlichkeit P(genau 1 Würfel zeigt 4)=(8)/(24)=(1)/(3) hat{=} 33,33%
+
+--- Teilaufgabe b) ---
+Die Abbildung zeigt einen kegelförmigen Messbecher mit einem Durchmesser d=10cm und dem Winkel α=38,5^°.
+[Abbildung]
+- Zeige, dass gilt: h=((d)/(2))/(tan((α)/(2)))
+Mit dem Messbecher soll Mehl abgemessen werden.
+1cm^3 Mehl hat ein Gewicht von 0,6 g.
+
+- Berechne, wie viel Gramm Mehl maximal in den Messbecher passen.
+Ein regelmäßiges Zwölfeck ist von seinem Umkreis mit einem Radius von 8cm umgeben.
+[Abbildung]
+- Zeige, dass der markierte Winkel 15^° beträgt.
+- Berechne den Umfang des Zwölfecks.
+[5 Pkt]
+Lösung:
+Messbecher
+[Abbildung]
+Der Radius  r=(d)/(2)=(10)/(2)=5 und die Höhe h sind die Katheten eines rechtwinkligen Dreiecks.
+Nach dem Tangens gilt:
+  tan{((α)/(2))} = (((d)/(2)))/(h)   | · h
+  h· tan{((α)/(2))} = (d)/(2)   | : tan{((α)/(2))}
+  h = dfrac{(d)/(2)}{tan{((α)/(2))}}
+  h = dfrac{(10)/(2)}{tan{((38,5^°)/(2))}}
+  h ≈ 14,32
+Gewicht
+
+Volumen des Messbechers berechnen.
+V_{Kegel}=(1)/(3)·Grundfläche·Höhe
+
+Die Grundfläche ist ein Kreis mit Radius r=(d)/(2)=(10)/(2)=5.
+Die Grundfläche eines Kreises beträgt:
+A_{Kreis}=r^2 · π
+Das Volumen des Messbechers beträgt somit
+  V_{Messbecher} = (1)/(3)· r^2·π· h
+  V_{Messbecher} = (1)/(3)· 5^2 · π· 14,32
+  V_{Messbecher} = 374,90
+Das Volumen des Messbechers beträgt 374,90cm^3.
+
+1cm^3 hat ein Gewicht von 0,6 g.
+
+374,9· 0,6=224,94
+
+224,94 g Mehl passen maximal in den Messbecher.
+Zwölfeck
+
+Markierter Winkel
+Der Innenwinkel des Kreises beträgt 360^°
+Das gesamte Zwölfeck besteht aus 12 gleichschenkligen Dreiecken, deren Winkel an Spitze jeweils (360^°)/(12)=30^° betragen.
+Die eingezeichnete Winkelhalbierende der Spitze halbiert diesen Winkel.
+Der markierte Winkel hat somit 15^°.
+
+Umfang
+Zur Berechnung des Umfangs des Zwölfecks wird zunächst die Länge der Basis a des gleichschenkligen Dreiecks berechnet.
+Nach dem Tangens gilt:
+  tan{15^°} = ((a)/(2))/(r)
+  tan{15^°} = ((a)/(2))/(8)   | · 8
+  8· tan{15^°} = (a)/(2)   | · 2
+  16· tan{15^°} = a
+  4,29 ≈ a
+Die Länge der Basis ist 4,29cm.
+Umfang des Zwölfecks
+
+12 · 4,29=51,48 
+
+Der Umfang des Zwölfecks beträgt 51,48cm.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 321620 – https://de.serlo.org/mathe/321620/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Die Abbildung zeigt eine quadratische Pyramide.
+[Abbildung]
+Es gilt:
+
+V=70,58 cm^{3}
+h_{k}=7 cm
+- Zeige rechnerisch, dass die Grundkante der Pyramide 5,5cm lang ist.
+Aus einem DIN A4 - Blatt mit den Maßen 210mm und 297mm soll das Netz der quadratischen Pyramide herausgeschnitten werden.
+- Bestimme den prozentualen Anteil, der als Abfall übrigbleibt.
+- Welche der folgenden Aussagen stimmt? Begründe deine Entscheidung.
+„Wenn man die Grundkante a halbiert und die Körperhöhe h_{k} verdoppelt,
+[5 Pkt]
+[Auswahl (eine Antwort)]
+  ( ) dann bleibt das Volumen einer quadratischen Pyramide gleich."
+  (x) dann halbiert sich das Volumen einer quadratischen Pyramide."
+  ( ) dann verdoppelt sich das Volumen einer quadratischen Pyramide."
+Lösung:
+Grundkante der Pyramide
+
+Volumen einer Pyramide
+V_Pyramide=(1)/(3)·Grundfläche·Höhe
+
+Der Boden der Pyramide ist ein Quadrat mit einer Kantenlänge von a. 
+Die Grundfläche der Pyramide ist damit
+
+Grundfläche=a · a=a^2 
+  V = (1)/(3)· a^2· h_k
+  70,58 = (1)/(3)· a^2 · 7   | · (3)/(7)
+  70,58·(3)/(7) = a^2
+  30,25 = a^2   | √{}
+  √{30,25} = a
+  5,5 = a
+Prozentualer Anteil des Abfalls
+
+Oberfläche der Pyramide
+
+Zunächst muss die Höhe des Dreiecks h_m der Mantelfläche berechnet werden.
+[Abbildung]
+h_m ist die Hypotenuse eines rechtwinkligen Dreiecks. Die Länge wird mit dem Satz des Pythagoras berechnet.
+  h_m^2 = h_k^2+((a)/(2))^2
+  h_m^2 = 7^2+((5,5)/(2))^2
+  h_m^2 = 56,5625   | √{}
+  h_m = 7,52
+  O_Pyramide = Grundfläche+Mantelfläche
+  O_Pyramide = a^2+2· a · h_m
+  O_Pyramide = 5,5^2+2· 5,5 · 7,52
+  O_Pyramide = 112,97
+Die Oberfläche der Pyramide beträgt 112,97cm^2.
+
+Fläche des DIN A4 - Blattes.
+Beachte, dass die Maße des DIN A4 - Blatts in der Ausgabe im mm angegeben sind. 
+O_Blatt=21 · 29,7=623,7
+Die Fläche des DIN A4 - Blatts beträgt 623,70cm^2.
+
+Zur Berechnung des prozentualen Anteils des Abfalls P_Abfall wird der Anteil des Netzes an der Gesamtfläche des DIN A4 - Blatts abgezogen.
+
+ p_Abfall=1-(112,97)/(623,7)≈ 0,8189 hat{=} 81,89%
+
+Der Anteil des Abfalls beträgt 81,89%.
+
+Aussage
+
+Die Aussage::
+ „Wenn man die Grundkante  halbiert und die Körperhöhe  verdoppelt, dann halbiert sich das Volumen einer quadratischen Pyramide."
+ist richtig.
+
+Dies kann leicht durch eine Rechnung überprüft werden, indem (a)/(2)=2,75 und 2· h_k=14 in die Volumenformel eingesetzt wird.
+  V = (1)/(3)· a^2 · h_k
+  V = (1)/(3)· 2,75^2 · 14
+  V = 35,29
+35,29cm^3 ist genau die Hälfte des ursprünglich angegebenen Volumens von 70,58cm^3.
+
+--- Teilaufgabe b) ---
+Zu jeder Funktionsgleichung gehören eine Wertetabelle und ein Graph.
+- Ordne die Darstellungen einander zu.
+- Ergänze die unvollständigen Darstellungen.
+[Abbildung]
+[Abbildung]
+[Abbildung]
+[5 Pkt]
+Lösung:
+Funktionsgleichung fbox{A} gehört zu Wertetabelle fbox{a}.
+Die folgende Abbildung fbox{3} zeigt den dazugehörenden Graphen.
+Die Parabel ist nach oben geöffnet, da der Parameter a=1 vor dem x^2 positiv ist. Sie ist um 4 nach unten vorschoben, da Parameter c=-4 ist.
+[Abbildung]
+Funktionsgleichung fbox{B} gehört zu Wertetabelle fbox{b} und Abbildung fbox{2}.
+Die Parabel ist nach unten geöffnet, da der Parameter a=-(1)/(2) vor dem x^2 negativ ist. Sie ist um 4 nach oben verschoben, da der Parameter c=4 ist.
+[Tabelle]
+x | -3 | -2 | -1 | 0 | 1 | 2 | 3
+y | -0,5 | 2 | 3,5 | 4 | 3,5 | 2 | -0,5
+Funktionsgleichung fbox{C} gehört zu Wertetabelle fbox{c} und Abbildung fbox{1}.
+
+Ermittlung der Funktionsgleichung:
+Aus der Abbildung ist zu sehen, dass die Parabel um 4 nach unten verschoben ist. Daraus folgt c=-4.
+Alternativ kann man in die Funktionsgleichung y=ax^2+c aus der Wertetabelle die Werte x=0 und y=-4 einsetzen und erhält dann:
+-4=a· 0^2+c
+-4=c
+
+Zur Bestimmung des Parameters a wählen wir ein beliebig anderes Wertepaar und setzen es in die allgemeine Funktionsgleichung ein.
+
+x=2 und y=-3
+  y = a· x^2 - 4
+  -3 = a · 2^2 -4   | +4
+  1 = a· 4   | :4
+  (1)/(4) = a
+Die Funktionsgleichung fbox{C} lautet.
+
+y=(1)/(4)x^2-4
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321622 – https://de.serlo.org/mathe/321622/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+An einem Drachen ist eine Schnur mit vier unterschiedlich farbigen Schleifen befestigt.
+[Abbildung]
+- Bestimme die Anzahl der verschiedenen Anordnungsmöglichkeiten der Schleifen.
+In einem Karton befinden sich 150 Schleifen. (1)/(5) davon sind rot und 12 sind gelb. Der Rest der Schleifen ist blau. Es wird zweimal blind ohne Zurücklegen gezogen.
+- Bestimme, mit welcher prozentualen Wahrscheinlichkeit zwei blaue Schleifen gezogen werden.
+Ein Drachenviereck hat einen Flächeninhalt von 1,35 m^{2}.
+Die Diagonale e des Drachen ist um 20 % länger als die Diagonale f.
+- Bestimme die Längen der Diagonalen e und f.
+[5 Pkt]
+Die Anzahl der verschiedenen Anordnungsmöglichkeiten der Schleifen beträgt: [Lücke: 24] .
+
+Die prozentuale Wahrscheinlichkeit, dass zwei blaue Schleifen gezogen werden beträgt: [Lücke: 51,7] %.
+
+Die Länge der Diagonale {e} beträgt: [Lücke: 1,8] m.
+
+Die Länge der Diagonale {f} beträgt: [Lücke: 1,5] m. 
+Lösung:
+Anordnungsmöglichkeiten
+
+Die Anzahl der Permutationen wird mit der Fakultät berechnet. 
+
+Anzahl Anordnungsmöglichkeiten=n! = 4! =1· 2· 3· 4=24
+
+Es gibt 24 Anordnungsmöglichkeiten der Schleifen.
+
+Wahrscheinlichkeit
+
+Anzahl roter Schleifen: 150· (1)/(5)=30
+Anzahl gelber Schleifen: 12
+Anzahl blauer Schleifen: 150-30-12=108 
+
+Die Wahrscheinlichkeit, beim ersten Zug eine blaue Schleife zu ziehen, beträgt:
+P(1. Zug blau)=(108)/(150)
+Da die Schleife nach dem ersten Zug nicht zurückgelegt wird, befinden sich noch insgesamt 149 Schleifen im Karton. Davon sind 29 Schleifen blau.
+Die Wahrscheinlichkeit, beim zweiten Zug eine blaue Schleife zu ziehen, beträgt:
+P(2. Zug blau)=(107)/(149)
+
+Nach der Produktregel wird die Wahrscheinlichkeit berechnet, zweimal blaue Schleifen zu ziehen. 
+P(2 blaue Schleifen)=(108)/(150)·(107)/(149)≈ 0,517 hat{=} 51,7%
+
+Drachenviereck
+
+Die Diagonale e ist um 20% länger als die Diagonale f. 
+Ihre Länge beträgt 
+e=1,2· f
+
+Die Länge der Diagonale f kann jetzt über die Formel zur Berechnung des Flächeninhalts bestimmt werden.
+Flächeninhalt eines Drachenvierecks
+  A = (e· f)/(2)
+  A = (1,2· f · f)/(2)
+  A = (1,2· f^2)/(2)
+  1,35 = 0,6· f^2   | :0,6
+  2,25 = f^2   | √{}
+  1,5 = f
+Länge der Diagonalen e
+e=1,2· f
+e=1,2· 1,5=1,8
+
+--- Teilaufgabe b) ---
+Lisa möchte ihr E-Bike (Neupreis: 2500,00 € ) nach drei Jahren verkaufen. Im Internet liest sie, dass ein E-Bike im ersten Jahr 25 % und in den folgenden Jahren jeweils 10 % an Wert verliert.
+- Bestimme, wie viel Euro das E-Bike nach drei Jahren noch wert ist.
+[Abbildung]
+- Bestimme jeweils den Wertverlust pro Jahr.
+- Erkläre, warum der Wertverlust in Euro jedes Jahr weniger wird.
+Gegeben ist der Halbkreis über ‾{A B} mit dem Mittelpunkt M.
+[Abbildung]
+Es gilt:
+α=50^{°}
+‾{A C}=10,3 cm
+- Berechne den Flächeninhalt des Halbkreises.
+[5 Pkt]
+Lösung:
+E-Bike
+[Abbildung]
+Das E-Bike ist nach 3 Jahren noch 1 518,75 € wert.
+
+Zur Berechnung des Wertverlusts  eines Jahres muss jeweils der prozentuale Anteil des Verlusts vom Anfangswert des Jahres abgezogen werden.
+
+Der Wertverlust verringert sich von Jahr zu Jahr, weil der Anfangswert von Jahr zu Jahr geringer ist.
+
+Halbkreis
+
+1. Schritt: Berechnung der Länge von ‾{AB}
+
+Nach dem Satz des Thales ist das Dreieck ABC ein rechtwinkliges Dreieck mit Hypotenuse ‾{AB}. Die Hypotenuse ist der Durchmesser des Kreises.
+‾{AB} kann mit dem Kosinus berechnet werden.
+  cos{α} = (Ankathete)/(Hypotenuse)
+  cos{50^°} = dfrac{10,3}{‾{AB}}   | · ‾{AB}
+  ‾{AB}· cos{50^°} = 10,3   | : cos{50^°}
+  ‾{AB} = dfrac{10,3}{cos{50^°}}
+  ‾{AB} ≈ 16,03
+2. Schritt: Berechnung des Flächeninhalts des Halbkreises
+
+Der Flächeninhalt eines Kreises beträgt
+A_Kreis=π· r^2
+
+‾{AB} ist der Durchmesser des Kreises. 
+Der Radius r beträgt dann:
+r=dfrac{‾{AB}}{2}=(16,03)/(2)≈ 8,02 
+
+Durchmesser des gesamten Kreises
+A_{Kreis}=π· 8,02^2≈ 202,07
+
+Durchmesser des Halbkreises
+A_{Halbkreis}=dfrac{A_{Kreis}}{2}=(202,07)/(2)≈ 101,04
+
+Der Flächeninhalt des Halbkreises beträgt 101,04cm^2.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo ExerciseGroup 321624 – https://de.serlo.org/mathe/321624/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Durch Vergrößerung des Dreiecks A B C entsteht das ähnliche Dreieck A^{prime} B^{prime} C^{prime}.
+[Abbildung]
+- Bestimme die Seitenlänge a^{prime}.
+- Überprüfe folgende Aussage und begründe deine Entscheidung. „Alle gleichseitigen Dreiecke sind einander ähnlich".
+Gegeben ist ein gleichschenkliges Dreieck A B C mit ‾{A B} als Basis. Die Strecke ‾{R T} ist parallel zur Basis.
+[Abbildung]
+- Bestimmen Sie den Umfang des Dreiecks R T C.
+Es gilt:
+
+ ‾{A B}=15 cm ; ‾{A C}=12 cm ; ‾{R T}=10 cm
+- Zeige, dass gilt: 
+"Wenn die Strecke ‾{R T} halb so lang ist wie die Strecke ‾{A B}, dann ist auch der Umfang des Dreiecks R T C halb so groß wie der Umfang des Dreiecks A B C."
+[5 Pkt]
+Lösung:
+Dreiecksvergrößerung
+
+Seitenlänge a' bestimmen
+Die beiden Dreiecke ABC und A'B'C' sind ähnlich.
+Berechnung des Ähnlichkeitsfaktors k
+
+k=frac{‾{A'B'}}{‾{AB}}=(56)/(20)=2,8
+Dann gilt für die beiden Seiten ‾{B'C'}=a und ‾{BC}
+  k = dfrac{a'}{‾{BC}}
+  2,8 = (a')/(15)   | · 15
+  a' = 42
+Aussage überprüfen
+In einem gleichseitigen Dreieck sind alle drei Seiten gleich lang, d.h. a=b=c.
+Vergrößert oder verkleinert man ein gleichseitiges Dreieck um den Ähnlichkeitsfaktor k,  gilt damit auch k=(a')/(a)=(b')/(b)=(c')/(c)
+Dreiecksumfang
+Nach dem 2. Strahlensatz gilt:
+  dfrac{‾{AC}}{‾{AR}} = dfrac{‾{AB}}{‾{RT}}
+  dfrac{12}{‾{AR}} = (15)/(10)   | ·‾{AR}
+  12 = (15)/(10)·‾{AR}   | ·(10)/(15)
+  (120)/(15) = ‾{AR}
+  8 = ‾{AR}
+‾{CR}=‾{AC}-‾{AR}
+‾{CR}=12-8=4
+
+Umfang des Dreiecks RTC
+Da es sich um ein gleichschenkliges Dreieck handelt, gilt ‾{AC}=‾{BC} und ‾{CR}=‾{CT}.
+
+‾{CR}+‾{CT}+‾{RT}=4+4+10=18
+
+Der Umfang des Dreiecks RTC beträgt 18cm.
+Aussage prüfen
+
+Da es sich um ein gleichschenkliges Dreieck handelt, gilt ‾{AC}=‾{BC} und ‾{CR}=‾{CT}.
+Umfang U_{ABC} des Dreiecks ABC: U_{ABC}=2·‾{AC}+‾{AB}
+
+Umfang U_{RTC} des Dreiecks RTC: U_{RTC}=2·‾{CR}+‾{RT}
+Annahmen: ‾{RT}=dfrac{‾{AB}}{2} und  2· U_{RTC}=U_{ABC}
+  2·(2·‾{CR}+‾{RT}) = 2·‾{AC}+‾{AB}
+  4·‾{CR}+2·‾{RT} = 2·‾{AC}+‾{AB}
+  4·‾{CR}+2·dfrac{‾{AB}}{2} = 2·‾{AC}+‾{AB}   | -‾{AB}
+  4·‾{CR} = 2·‾{AC}   | :2
+  2·‾{CR} = ‾{AC}
+Einsetzen
+
+U_{ABC}=2·(2·‾{CR})+2·‾{RT}
+
+Da U_{RTC}=frac{U_{ABC}}{2}=>U_{RTC}=2·‾{CR}+‾{RT}
+
+--- Teilaufgabe b) ---
+In einem Quader liegt der geschlossene Streckenzug A C I F A. Der Winkel α ist 50^{°} groß.
+[Abbildung]
+- Berechne die Länge des Streckenzuges.
+- Löse die Gleichung:
+(1)/(4) x^{2}-4(x+3)=24-4 x
+[5 Pkt]
+Lösung:
+Länge des Streckenzugs
+
+1. Schritt: ‾{AC} berechnen
+
+‾{AC} ist die Hypotenuse eines rechtwinkligen Dreiecks. 
+Berechnung mit dem Satz des Pythagoras:
+  (‾{AC})^2 = 5^2+5^2
+  (‾{AC})^2 = 50   | √{}
+  ‾{AC} ≈ 7,07
+2. Schritt: ‾{CI} berechnen
+Zunächst wird ‾{GI} berechnet
+  tan{α} = dfrac{‾{FG}}{‾{GI}}
+  tan{50^°} = dfrac{5}{‾{GI}}   | · ‾{GI}
+  ‾{GI}·tan{50^°} = 5   | :tan{50^°}
+  ‾{GI} = dfrac{5}{tan{50^°}}
+  ‾{GI} ≈ 4,2
+‾{CI}=‾{GC}-‾{GI}=8-4,2=3,8
+3. Schritt: ‾{IF} berechnen
+
+‾{IF} ist die Hypotenuse eines rechtwinkligen Dreiecks. ﻿﻿
+Berechnung mit dem Satz des Pythagoras
+  (‾{IF})^2 = (‾{GF})^2+(‾{GI})^2
+  (‾{IF})^2 = 5^2+4,2^2
+  (‾{IF})^2 = 42,64   | √{}
+  ‾{IF} ≈ 6,53
+4. Schritt: ‾{AF} berechnen
+
+‾{AF} ist die Hypotenuse eines rechtwinkligen Dreiecks.
+Berechnung mit dem Satz des Pythagoras
+  (‾{AF})^2 = (‾{AB})^2+(‾{BF})^2
+  (‾{AF})^2 = 5^2+8^2
+  (‾{AF})^2 = 89   | √{}
+  ‾{AF} ≈ 9,43
+5. Schritt: Länge des Streckenzuges berechnen
+
+‾{AC}+‾{CI}+‾{IF}+‾{AF}=7,07+3,8+6,53+9,43=26,83
+
+Der Streckenzug ist 26,83cm lang. 
+Gleichung lösen
+  (1)/(4)x^2-4(x+3) = 24-4x
+  (1)/(4)x^2-4x-12 = 24-4x   | +4x
+  (1)/(4)x^2-12 = 24   | +12
+  (1)/(4)x^2 = 36   | · 4
+  x^2 = 144   | √{}
+  x_{1,2} = ± 12

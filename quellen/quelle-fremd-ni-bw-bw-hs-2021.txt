@@ -1,0 +1,829 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Hauptschule Mathematik mit Lösungen – Prüfungsjahr 2021, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320104/2021 (Jahrgangsseite, Serlo-ID 320104); Prüfungsteile: https://de.serlo.org/mathe/320168/pflichtteil-a1 (Pflichtteil A1, ID 320168); https://de.serlo.org/mathe/320169/pflichtteil-a2 (Pflichtteil A2, ID 320169); https://de.serlo.org/mathe/320170/wahlteil-b (Wahlteil B, ID 320170)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2021  (Serlo-ID 320168)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322652 – https://de.serlo.org/mathe/322652/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Kreuze das richtige Ergebnis an.
+
+31232,5:3,1=
+[Auswahl (eine Antwort)]
+  ( ) 100,75
+  ( ) 1007,5
+  (x) 10075
+  ( ) 10750
+Lösung:
+Bestimme das Ergebnis durch eine Überschlagsrechnung.
+Da beide Zahlen eine Stelle hinter dem Komma haben, kannst du das Komma vernachlässigen. 
+Überschlagsrechnung: 310000:31=10000
+Da für die Überschlagsrechnung von 312325 auf 310000 abgerundet wurde, muss das exakte Ergebnis etwas größer als 10000 sein.
+
+31232,5:3,1=10075
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322656 – https://de.serlo.org/mathe/322656/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In ein Glas passt genau (1)/(4) Liter.
+Wie viele von diesen Gläsern kann man mit dem Inhalt der drei Flaschen füllen?
+[Abbildung]
+[Eingabefeld: 30]
+Lösung:
+Berechne zunächst den Flascheninhalt der 3 Flaschen:
+
+Rechne den gemischten Bruch in einen Bruch um und erweitere diesen auf Viertel.
+
+2(1)/(2)=(5)/(2)=(10)/(4)
+
+3· (10)/(4)=(30)/(4)
+Der Inhalt der 3 Flaschen beträgt  (30)/(4)l. In ein Glas passt (1)/(4) l.
+Mit dem Inhalt der 3 Flaschen können also 30 Gläser gefüllt werden.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322658 – https://de.serlo.org/mathe/322658/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Berechne und gib das Ergebnis mit einer 10er-Potenz an.
+3 700 000·100=
+Lösung:
+3 700 000·100=370 000 000=37·10^7
+
+Weitere Möglichkeiten für die Schreibweise mit einer Zehnerpotenz:
+370·10^6
+3700·10^5
+37000·10^4
+370000·10^3
+3700000·10^2
+37000000·10
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322661 – https://de.serlo.org/mathe/322661/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Schlussverkauf - alles um 75 % reduziert. Stimmt diese Aussage?
+Begründe rechnerisch.
+[Abbildung]
+Lösung:
+120 € widehat{=}100%
+1,2€ widehat{=}1%  |  · 75
+90€ widehat{=}75%
+120€-90€=30€
+
+Wenn die Schuhe um 75% reduziert worden wären, würden sie 30€ und nicht 40€ kosten.
+
+Die Aussage ist also falsch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322664 – https://de.serlo.org/mathe/322664/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse die Gleichung.
+
+4·(3x-2)=8x+7-6x-10
+x = [Lücke: 1/2] 
+Lösung:
+4·(3x-2) = 8x+7-6x-10
+  12x-8 = 8x+7-6x-10
+  12x-8 = 2x-3   | +8, -2x
+  10x = 5   | :10
+  x = (5)/(10)   | :5
+  x = (1)/(2)
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322666 – https://de.serlo.org/mathe/322666/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das Netz gehört zum abgebildeten Quader.
+Zeichne in das Quadernetz die beiden Diagonalen ein.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Mögliche Lösungen:
+[Abbildung]
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 322669 – https://de.serlo.org/mathe/322669/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Haben alle Parallelogramme denselben Flächeninhalt?
+Begründe deine Antwort.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Flächeninhalt eines Parallelogramms:
+A=a· h
+Grundlinie:  a
+Höhe:  h
+
+Die Höhe der 3 Parallelogramme ist gleich.
+Wenn du die Grundlinien der Parallelogramme abmisst, siehts du, dasss sie ebenfalls gleich sind.
+Also ist der Flächeninhalt der 3 Parallelogramme gleich.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 322672 – https://de.serlo.org/mathe/322672/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Im letzten Zeugnis hatten die Schülerinnen und Schüler der Klasse 9b folgende Noten in Mathematik.
+[Tabelle]
+Note 1 | Note 2 | Note 3 | Note 4 | Note 5 | Note 6
+II | III | cancel{IIII} II | III | II | 
+Berechne den Durchschnitt.
+
+(1 Pkt.)
+Der Notendurchschnitt der Schülerinnen und Schüler der Klasse 9b beträgt: [Lücke: 3] 
+Lösung:
+Zähle die Anzahl der Schüler:
+2+3+7+3+2=17
+Berechne die Summe der Noten:2·1+3·2+7·3+3·4+2·5+0·6=2+6+21+12+10+0=51
+Berechne den Notendurchschnitt:
+51:17=3
+
+Der Notendurchschnitt der Schülerinnen und Schüler der Klasse 9b beträgt 3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 322674 – https://de.serlo.org/mathe/322674/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Von 50 Gummibärchen sind 25 rot, 10 grün und 15 gelb.
+Zeichne die prozentuale Verteilung als Balken in das Schaubild ein.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Berechne die prozentuale Verteilung der verschiedenen Gummibärchen z.B. mit Hilfe des Dreisatzes.
+
+50widehat{=}100%
+1widehat{=}2%
+
+Rot:     25widehat{=}25· 2%=50%
+Grün:  10widehat{=}10· 2%=20%
+Gelb:   15widehat{=}15· 2%=30%
+
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 322676 – https://de.serlo.org/mathe/322676/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ergänze die fehlenden Werte der proportionalen Zuordnung.
+[Tabelle]
+Gewicht in g | 20 | 30 | 
+Anzahl der Schrauben |  | 120 | 240
+Lösung:
+Um das Gewicht von 240 Schrauben zu bestimmen, muss du das Gewicht von 120 Schrauben verdoppeln.
+30·2=60
+[Abbildung]
+Um zu bestimmen, wie viele Schrauben ein Gewicht von 20g haben, muss du die Anzahl der Schrauben, die ein gGwicht von 60 g haben, durch 3 teilen.
+240:3=80
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2021  (Serlo-ID 320169)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322680 – https://de.serlo.org/mathe/322680/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Abbildung zeigt die jährlich verwendeten Einwegbecher.
+Ein gezeichneter Becher steht für 100 Mio. Becher.
+Nur von den Papierbechern werden 70 % mit Plastikdeckel verwendet.
+[Abbildung]
+Wie viele Plastikdeckel werden jährlich verwendet?
+(2 Pkt.)
+[Eingabefeld: 1,19]
+Lösung:
+Anzahl Papierbecher: 17·100 Mio.=1700 Mio.=1,7 Mrd.
+
+Lösungsweg mit Hilfe des Dreisatzes:
+ 100% widehat{=}1,7 Mrd.
+ 10% widehat{=}0,17 Mrd.
+ 70% widehat{=}7· 0,17 Mrd.=1,19 Mrd.
+Lösungsweg mit der Prozentformel:
+P=(G· p)/(100)
+  P=(1,7 Mrd.· 70)/(100)
+  P=1,19 Mrd.
+
+Pro Jahr werden also 1,19 Mrd. Plastikdeckel verwendet.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322682 – https://de.serlo.org/mathe/322682/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Der Oberflächeninhalt der quadratischen Pyramide und des Würfels sind gleich groß.
+Berechne die graugefärbte Fläche des Würfels.
+[Abbildung]
+(2 Pkt.)
+[Eingabefeld: 40]
+Lösung:
+Oberfläche der Pyramide:
+O_{text Pyramide}=Grundfläche + Mantelfläche
+
+Grundfläche:
+A=a· a
+A=10cm· 10cm=100cm^2
+
+Mantelfläche:
+Die Mantelfläche der Pyramide besteht aus 4 Seiten. Jede dieser 4 Seiten ist ein Dreieck.
+A_{Dreieck=(1)/(2)· a· h_a}
+A_{Dreieck=(1)/(2)· 10cm · 7cm}
+A_{Dreieck= 35cm^2}
+A_{Mantelfläche= 4· 35cm^2=140cm^2}
+
+O_{Pyramide}=100cm^2+140cm^2=240cm^2
+
+Oberfläche des Würfels:
+O_{Würfel}=6· a^2
+Laut Aufgabenstellung gilt:
+O_{Würfel}=240cm^2   ⇒
+a^2=240cm^2:6=40cm^2
+
+Die grau gefärbte Fläche des Würfels beträgt 40cm^2.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322685 – https://de.serlo.org/mathe/322685/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Basti behauptet, dass ein Dreieck mit den Seitenlängen a=4,5cm, b=5,3cm und c=7,0 cm ein rechtwinkliges Dreieck ist.
+Hat er recht? Begründe.
+(2 Pkt.)
+Lösung:
+In einem rechtwinkligen Dreieck gilt der Satz des Pythagoras.
+a^2+b^2=c^2
+a^2+b^2=(4,5cm)^2+(5,3cm)^2=20,25cm^2+28,09cm^2=48,34cm^2
+c^2=(7cm)^2=49cm^2
+48,34cm^2ne 49cm^2
+
+Das Dreieck mit den Seitenlängen a=4,5cm , b=5,3cm und c=7,0 cm ist nicht rechtwinklig. Basti hat nicht recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322687 – https://de.serlo.org/mathe/322687/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Für das Schulfest möchte Luisa Flyer bestellen.
+Sie hat 3 verschiedene Angebote:
+[Abbildung]
+
+- Welches Angebot gehört zu welchem Graphen?
+- Für welches Angebot soll sich Luisa bei 1000 Flyern entscheiden, wenn sie das günstigste Angebot wählen soll?
+Begründe rechnerisch.
+
+(2 Pkt.)
+Lösung:
+- Zuordnung der Angebote zu den Diagrammen
+Angebot 1 gehört zu Diagramm B
+Angebot 2 gehört zu Diagramm A
+Angebot 3 gehört zu Diagramm C
+
+- Vergleich der Angebote bei 1000 Flyern
+Angebot 1:  45 €+1000·0,39 €=45 €+390 €=435 €
+Angebot 2:  0,45 €·1000=450 €
+Angebot 3:  0,49 €·500+0,39 €·500=245 €+195 €=440 €
+
+Bei 1000 Flyern sollte sich Lisa für Angebot 1 entscheiden.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322689 – https://de.serlo.org/mathe/322689/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Aus zwei Schachteln werden blind Kugeln gezogen. Die Kugel aus der ersten Schachtel bildet die Zehnerstelle der Zahl, die Kugel aus der zweiten Schachtel bildet die Einerstelle der Zahl.
+- Gib alle möglichen Kombinationen an.
+- Berechne die Wahrscheinlichkeit, eine gerade Zahl zu erhalten.
+[Abbildung]
+(2 Pkt.)
+Es gibt [Lücke: 9] mögliche Kombinationen.
+
+Die Wahrscheinlichkeit, eine gerade Zahl zu erhalten beträgt ungefähr: [Lücke: 33 | 33,3] %.
+Lösung:
+- Mögliche Kombinationen
+26, 27, 29
+36, 37, 39
+46, 47, 49
+
+- Berechnung der Wahrscheinlichkeit, eine gerade Zahl zu erhalten.
+Gesamtanzahl aller möglichen Kombinationen:  9
+Anzahl der geraden Zahlen ist 3:  
+⇒ p=(3)/(9)=(1)/(3)≈ 33 %
+Die Wahrscheinlichkeit, eine gerade Zahl zu erhalten, beträgt ungefähr 33 %.
+
+
+==============================================================================
+Wahlteil B 2021  (Serlo-ID 320170)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 324441 – https://de.serlo.org/mathe/324441/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Die abgebildete Umfrage ergab, dass 270 der befragten Personen beim Kauf von Kleidung auf die Marke achten.
+[Abbildung]
+Wie viele der befragten Personen achten beim Kauf auf den Preis?
+Begründe rechnerisch.
+
+(2 Pkt.)
+Lösung:
+Wie viele der befragten Personen achten beim Kauf auf den Preis?
+[Abbildung: Kreisdiagramm]
+Rechnerischen Begründung.
+Ausmessen der Winkel der Sektoren mit dem Winkelmesser.
+
+Gemessene Werte:
+
+Sektor Preis: 195°
+Sektor Marke: 135°
+
+Berechnen der Anzahl der Personen, die auf den Preis achten, mithilfe des Dreisatzes.
+
+135°hat{=}270 ⇒ 1°hat{=}(270)/(135)=2
+
+1°hat{=}2 Personen ⇒ 195°hat{=}195·2=390 Personen
+
+Also achten 390 der befragten Personen beim Einkaufen auf den Preis.
+
+--- Teilaufgabe b) ---
+Familie Klein möchte ihre Rasenfläche entlang der gestrichelten Linie einzäunen.
+[Abbildung]
+Wie viel kostet der Zaun, wenn der Preis für ein 2,5m langes Zaunstück 62,50 €
+beträgt?
+
+3(Pkt.)
+[Eingabefeld: 2187,50]
+Lösung:
+Berechnen der Kosten des Zaunes.
+Messen der Längen der gestrichelten Linien und addieren der gemessenen Längen :
+
+8cm+5cm+2,5cm+2cm=17,5cm
+
+Berechnen mithilfe des Maßstabs die Länge der gestrichelten Linie in Wirklichkeit.
+
+17,5cm·500 = 8750cm = 87,50m
+
+Dividieren der Länge des Zaunes durch die Länge eines Zaunstückes.
+
+87,50:2,50=35
+
+Berechnen der Kosten für den Zaun.
+
+35·62,50=2187,50 €
+
+Die Kosten für den Zaun betragen:  boxed{2187,50 €}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322691 – https://de.serlo.org/mathe/322691/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+textbf{a)} Die abgebildete Umfrage ergab, dass 270 der befragten Personen beim Kauf von 
+ Kleidung auf die Marke achten.
+
+      Wie viele der befragten Personen achten beim Kauf auf den Preis?
+      Begründe rechnerisch.
+[Abbildung]
+(2 Pkt.)
+textbf{b)}Familie Klein möchte ihre Rasenfläche entlang der gestrichelten Linie einzäunen.
+      Wie viel kostet der Zaun, wenn der Preis für ein 2,5m langes Zaunstück 62,50 € beträgt?
+[Abbildung]
+(3 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 324443 – https://de.serlo.org/mathe/324443/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+[Abbildung]
+Wie sollen die Teile gesteckt werden, damit die größtmögliche viereckige Fläche entsteht?
+
+(2 Pkt.)
+Lösung:
+Stecken der Teile, damit eine größtmögliche viereckige Fläche entsteht.
+Die größtmögliche Fläche bei einem Viereck ist immer ein Quadrat. 
+Jede Seite muss also 10 Zaunelemente haben.
+
+[Abbildung: Die Skizze braucht nicht erstellt zu werden.]
+
+--- Teilaufgabe b) ---
+Für einen Schulgarten wurde eine Überdachung gebaut.
+Zuerst wurde Dachform 1 geplant. Aus Kostengründen wurde dann die Dachform 2 gebaut.
+[Abbildung]
+Dachform 1 und Dachform 2 haben den gleichen Flächeninhalt.
+Berechne die Länge von x für Dachform 2.
+
+(3 Pkt.)
+x= [Lücke: 5,5] m
+Lösung:
+Lösungsidee: - Berechne den Flächeninhalt der Dachform 1.
+- Löse die Formel zur Berechnung des Flächeninhalts eines Trapezes nach h auf.
+- Berechne h.
+Berechnen des Flächeninhalts von Dachform 1.
+Die Dachform 1 hat die Form eines regelmäßigen 8-Ecks.
+Dieses 8-Eck ist in 8 gleichschenklige Dreiecke zerlegt. 
+
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Folgende Größen sind bekannt:
+
+mathrm{g=2m ; h=(4,82)/(2)=2,41m}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Dreieck}=(2·2,41)/(2)}
+
+underline{A_{Dreieck}=2,41m^2}
+
+Berechnen des Flächeninhalts von Dachform 1.
+
+mathrm{A_{Dachform 1}=A_{Dreieck}·8 ⇒ A_{Dachform 1}=2,41·8}
+
+underline{A_{Dachform 1}=19,28m^2}
+Berechnen der Länge x von Dachform 2.
+Die Formel zur Berechnung des Flächeninhalts eines Trapezes lautet:
+
+mathrm{A_{Trapez}=((g_1+g_2))/(2)· h}
+
+Für den Flächeninhalt von Dachform 2 gilt dann:
+
+mathrm{A_{Trapez}=((2+5))/(2)· xhspace{20mm}A_{Trapez}=19,28m^2}  (siehe Aufgabenstellung)
+ 
+Auflösen der Formel nach x.
+
+2·19,28=7x |:7 und Seiten tauschen
+
+underline{underline{x=5,51m}}
+
+Die Länge x der Dachform 2 beträgt ca.: boxed{5,5m}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322693 – https://de.serlo.org/mathe/322693/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+[Abbildung]
+Wie sollen die Teile gesteckt werden, damit die größtmögliche viereckige Fläche entsteht?
+
+b) Für einen Schulgarten wurde eine Überdachung gebaut.
+     Zuerst wurde Dachform 1 geplant. Aus Kostengründen wurde dann 
+     die Dachform 2 gebaut.
+[Abbildung]
+Dachform 1 und Dachform 2 haben den gleichen Flächeninhalt.
+Berechne die Länge von x für Dachform 2 .
+(3 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322695 – https://de.serlo.org/mathe/322695/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Für ein Glücksrad gilt:
+- alle Flächen sind gleich groß
+- jede Fläche hat eine andere Farbe
+textbf{Aussage}hspace{110mm}textbf{wahr}hspace{20mm}textbf{falsch}
+
+Je mehr Flächen es sind, umso größer ist diehspace{31mm}rule{15mm}{0.5mm}hspace{18mm}rule{15mm}{0.5mm}
+Wahrscheinlichkeit eine bestimmte Farbe zu drehen.
+
+Die Wahrscheinlichkeit jeder Farbe ist gleich großhspace{20mm}rule{15mm}{0.5mm}hspace{18mm}rule{15mm}{0.5mm}
+
+Eine gewünschte Farbe ist lange nicht gedreht worden.hspace{10mm}rule{15mm}{0.5mm}hspace{18mm}rule{15mm}{0.5mm}
+Die Wahrscheinlichkeit, diese Farbe beim nächstenmal
+zu drehen ist nun höher
+
+Wenn die Wahrscheinlichkeit, eine Farbe zu drehen,hspace{18mm}rule{15mm}{0.5mm}hspace{18mm}rule{15mm}{0.5mm} 
+bei 12,5 % liegt, dann ist das Glücksrad in 8 Flächen
+unterteilt.
+(2 Pkt.)
+
+b) Berechne die abgebildete zusammengesetzte Fläche.
+[Abbildung]
+(3 Pkt.)
+Der Flächeninhalt der zusammengesetzten Fläche beträgt ca.: [Lücke: 414 | 413,31]  cm^2.
+Lösung:
+Teilaufgabe a.)
+[Tabelle]
+Aussage | wahr | falsch
+Je mehr Flächen es sind, umso größer ist die Wahrscheinlichkeit, eine bestimmte Farbe zu drehen. |  | ; ; hspace{2mm}{Large{x}}
+Die Wahrscheinlichkeit jeder Farbe ist gleich groß. | ; ; hspace{2mm}{Large{x}} | 
+Eine gewünschte Farbe ist lange nicht gedreht worden. Die Wahrscheinlichkeit, diese Farbe beim nächsten Mal zu drehen, ist nun höher. |  | ; ; hspace{2mm}{Large{x}}
+Wenn die Wahrscheinlichkeit, eine Farbe zu drehen, bei 12,5% liegt, dann ist das Glücksrad in 8 Flächen unterteilt | ; ; hspace{2mm}{Large{x}} | 
+Teilaufgabe b.)
+Berechnen der zusammengesetzten Fläche.
+[Abbildung: Die Zeichnung ist nicht maßstabsgetreu.]
+Die zusammengesetzte Fläche besteht aus einem gleichschenkligem Trapez und einem Rechteck.
+
+Die Formel zur Berechnung des Flächeninhalts eines Trapezes lautet:
+
+mathrm{A_{Trapez}=((g_1+g_2))/(2)· h}
+
+Berechnen der Höhe h des Trapezes mithilfe des Satzes des Pythagoras.
+
+mathrm{5,8^2=b^2+h^2 ⇒ h=√{5,8^2-b^2} b=((22-16))/(2) ⇒ b=3 cm}
+
+mathrm{h=√{5,8^2-3^2} ⇒ h=√{24,64}}
+
+underline{h≈5 cm}
+
+Berechnen des Flächeninhalts des Trapezes.
+
+mathrm{A_{Trapez}=((22+16))/(2)· 5 ⇒ A_{Trapez}=19·5}
+
+underline{A_{Trapez}≈95 cm^2}
+
+Berechnen des Flächeninhalts des Rechtecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Folgende Größen sind bekannt:
+
+l=22 cm ; b=14,5 cm
+
+A_{Rechteck}=22·14,5
+
+underline{A_{Rechteck}=319,0 cm^2}
+
+Der Flächeninhalt der zusammengesetzten Fläche ist dann:
+
+mathrm{A_{Gesamt}=A_{Trapez}+A_{Rechteck} ⇒ A_{Gesamt}≈95+319,0}
+
+underline{underline{A_{Gesamt}≈414 cm^2}}
+
+Der Flächeninhalt der zusammengesetzten Fläche beträgt ca. boxed{414cm^2}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322697 – https://de.serlo.org/mathe/322697/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Kim hat 1850 € gespart und möchte das Geld bei einer Bank 3 Jahre anlegen. 
+Immer am  Ende des Jahres werden die Zinsen zum Kapital hinzugezählt.
+Sie hat zwei Angebote eingeholt. Wie groß ist der Zinsunterschied?
+Bei welchem Angebot bekommt man nach drei Jahren mehr Zinsen?
+[Abbildung]
+b) Zeichne ein Dreieck mit β=34°, γ=56° und a=10cm und beschrifte die Eckpunkte.
+Wie in der Skizze dargestellt, treffen sich bei einem gleichseitigen Dreieck die 
+Winkelhalbierenden in einem Punkt. 
+Berechne den Winkel δ.
+[Abbildung]
+(3 Pkt.)
+Bei Bank [Lücke: B] erhält Kim nach 3 Jahren mehr Zinsen.
+
+Der Winkel δ beträgt: [Lücke: 120] °
+Lösung:
+Teilaufgabe a.)
+Berechnen des Zinsunterschiedes der Angebote von Bank A und Bank B.
+Bank A:
+
+Beim Angebot von Bank A bleibt der Zinssatz über die 3 Jahre gleich, die Zinsen werden mitverzinst. 
+
+Berechnen der Zinsen mithilfe der Formel zur Berechnung des Zinseszins.
+
+Die Formel zur Berechnung des Zinseszins lautet:
+
+mathrm{K_n=K_0·(1+(P)/(100))^n}
+
+Folgende Größen sind bekannt:
+
+n=3 ; K_0=1850 € ; p=0,9 %
+
+Einsetzen  der bekannten Größen in die Formel.
+
+mathrm{K_3=1850·(1+(0,9)/(100))^3 ⇒ K_3=1850·1,009^3}
+
+underline{K_3=1900,40 €}
+
+Nach 3 Jahren ist Kims Kapital bei Bank A auf 1900,40 € angewachsen. 
+Angebot B:
+
+Beim Angebot von Bank B ändert sich der Zinssatz von Jahr zu Jahr, aber auch hier werden die Zinsen mitverzinst.
+
+Berechnen der Zinsen mithilfe der Formel zur Berechnung des Zinseszins.
+(Formel siehe oben)
+
+Guthaben 1. Jahr
+mathrm{K_1=1850·(1+(0,4)/(100)) ⇒ K_1=1850·1,004}
+hspace{54mm}{underline{K_1=1857,40 €}}
+
+Guthaben 2. Jahr
+mathrm{K_2=1857,40·(1+(1,1)/(100)) ⇒ K_2=1857,40·1,011}
+hspace{60mm}{underline{K_2=1877,83 €}}
+
+Guthaben 3. Jahr
+mathrm{K_3=1877,83·(1+(1,3)/(100)) ⇒ K_3=1877,83·1,013}
+hspace{60mm}{underline{K_3=1902,24 €}}
+
+Nach 3 Jahren ist Kims Kapital bei Bank B auf 1902,24 € angewachsen. 
+Der Zinsunterschied ist die Differenz der Endguthaben, nämlich:
+
+1902,24 € − 1900,40 € = 1,84 €
+
+Nach 3 Jahren erhält Kim bei Bank B boxed{1,84 €} mehr Zinsen als bei Bank A.
+Teilaufgabe b.)
+Zeichnen des Dreiecks.
+[Abbildung: Die Zeichnung ist nicht maßstabsgetreu.]
+Erklärung zum Zeichen des Dreiecks.
+Zeichne die Seite a=10cm.
+Trage den Winkel β=34° am Eckpunkt B an, zeichne eine Hilfslinie (Halbgerade).
+Trage den Winkel γ=56° am Eckpunkt C an, zeichne eine Hilfslinie (Halbgerade).
+Die zwei Halbgeraden schneiden sich im Punkt A.
+Beschrifte das Dreieck entsprechend.
+Berechnen des Winkels δ.
+[Abbildung]
+Das farbige Teildreieck ist ein gleichschenkliges Dreieck.
+
+In diesem Dreieck gilt:
+
+mathrm{α=β=(60°)/(2)=30°} (siehe Aufgabenstellung).
+
+Da die Winkelsumme im Dreieck 180° ist, gilt:
+
+α+β+δ=180° ⇒ δ=180°-(α+β)
+
+δ=180°-(30°+30°)
+
+underline{underline{δ=120°}}
+
+Der Winkel δ beträgt: boxed{120°}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo ExerciseGroup 324445 – https://de.serlo.org/mathe/324445/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+(kein Inhalt)
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 332747 – https://de.serlo.org/mathe/332747/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Für ein Glücksrad gilt:
+- alle Flächen sind gleich groß
+- jede Fläche hat eine andere Farbe
+
+Welche der folgenden Aussagen sind richtig?
+(2 Pkt.)
+[Auswahl (mehrere Antworten)]
+  ( ) Je mehr Flächen es sind, umso größer ist die Wahrscheinlichkeit eine bestimmte Farbe zu drehen.
+  (x) Die Wahrscheinlichkeit jeder Farbe ist gleich groß.
+  ( ) Eine gewünschte Farbe ist lange nicht gedreht worden. Die Wahrscheinlichkeit, diese Farbe beim nächstenmal zu drehen ist nun höher.
+  (x) Wenn die Wahrscheinlichkeit, eine Farbe zu drehen, bei 12,5 % liegt, dann ist das Glücksrad in 8 Flächen unterteilt.
+Lösung:
+[Abbildung]
+
+--- Teilaufgabe b) ---
+Berechne die abgebildete zusammengesetzte Fläche.
+[Abbildung]
+Der Flächeninhalt der zusammengesetzten Fläche beträgt ca.[Lücke: 414] cm².
+ 
+
+Lösung:
+Berechnen der zusammengesetzten Fläche.
+[Abbildung]
+Die zusammengesetzte Fläche besteht aus einem gleichschenkligem Trapez und einem Rechteck.
+
+Die Formel zur Berechnung des Flächeninhalts eines Trapezes lautet:
+
+mathrm{A_{Trapez}=((g_1+g_2))/(2)· h}
+
+Berechnen der Höhe h des Trapezes mithilfe des Satzes des Pythagoras.
+
+mathrm{5,8^2=b^2+h^2 ⇒ h=√{5,8^2-b^2} b=((22-16))/(2) ⇒ b=3 cm}
+
+mathrm{h=√{5,8^2-3^2} ⇒ h=√{24,64}}
+
+underline{h≈5 cm}
+
+Berechnen des Flächeninhalts des Trapezes.
+
+mathrm{A_{Trapez}=((22+16))/(2)· 5 ⇒ A_{Trapez}=19·5}
+underline{A_{Trapez}≈95 cm^2}
+
+Berechnen des Flächeninhalts des Rechtecks.
+
+Die Formel zur Berechnung des Flächeninhalts eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Folgende Größen sind bekannt:
+
+l=22 cm ; b=14,5 cm
+
+A_{Rechteck}=22·14,5
+
+underline{A_{Rechteck}=319,0 cm^2}
+
+Der Flächeninhalt der zusammengesetzten Fläche ist dann:
+
+mathrm{A_{Gesamt}=A_{Trapez}+A_{Rechteck} ⇒ A_{Gesamt}≈95+319,0}
+
+underline{underline{A_{Gesamt}≈414 cm^2}}
+
+Der Flächeninhalt der zusammengesetzten Fläche beträgt ca. boxed{414cm^2}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo ExerciseGroup 332750 – https://de.serlo.org/mathe/332750/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Kim hat 1850 € gespart und möchte das Geld bei einer Bank 3 Jahre anlegen. 
+Immer am  Ende des Jahres werden die Zinsen zum Kapital hinzugezählt.
+Sie hat zwei Angebote eingeholt. Wie groß ist der Zinsunterschied?
+Bei welchem Angebot bekommt man nach drei Jahren mehr Zinsen?
+[Abbildung]
+Bei Bank [Lücke: B] erhält Kim nach 3 Jahren mehr Zinsen.
+Lösung:
+Berechnen des Zinsunterschiedes der Angebote von Bank A und Bank B.
+Bank A:
+
+Beim Angebot von Bank A bleibt der Zinssatz über die 3 Jahre gleich, die Zinsen werden mitverzinst. 
+
+Berechnen der Zinsen mithilfe der Formel zur Berechnung des Zinseszins.
+
+Die Formel zur Berechnung des Zinseszins lautet:
+
+mathrm{K_n=K_0·(1+(P)/(100))^n}
+
+Folgende Größen sind bekannt:
+
+n=3 ; K_0=1850 € ; p=0,9 %
+
+Einsetzen  der bekannten Größen in die Formel.
+
+mathrm{K_3=1850·(1+(0,9)/(100))^3 ⇒ K_3=1850·1,009^3}
+
+underline{K_3=1900,40 €}
+
+Nach 3 Jahren ist Kims Kapital bei Bank A auf 1900,40 € angewachsen. 
+Angebot B:
+
+Beim Angebot von Bank B ändert sich der Zinssatz von Jahr zu Jahr, aber auch hier werden die Zinsen mitverzinst.
+
+Berechnen der Zinsen mithilfe der Formel zur Berechnung des Zinseszins.
+(Formel siehe oben)
+
+Guthaben 1. Jahr
+mathrm{K_1=1850·(1+(0,4)/(100)) ⇒ K_1=1850·1,004}
+hspace{54mm}{underline{K_1=1857,40 €}}
+
+Guthaben 2. Jahr
+mathrm{K_2=1857,40·(1+(1,1)/(100)) ⇒ K_2=1857,40·1,011}
+hspace{60mm}{underline{K_2=1877,83 €}}
+
+Guthaben 3. Jahr
+mathrm{K_3=1877,83·(1+(1,3)/(100)) ⇒ K_3=1877,83·1,013}
+hspace{60mm}{underline{K_3=1902,24 €}}
+
+Nach 3 Jahren ist Kims Kapital bei Bank B auf 1902,24 € angewachsen. 
+Der Zinsunterschied ist die Differenz der Endguthaben, nämlich:
+
+1902,24 € − 1900,40 € = 1,84 €
+
+Nach 3 Jahren erhält Kim bei Bank B boxed{1,84 €} mehr Zinsen als bei Bank A.
+
+--- Teilaufgabe b) ---
+Zeichne ein Dreieck mit β=34°, γ=56° und a=10cm und beschrifte die Eckpunkte.
+Wie in der Skizze dargestellt, treffen sich bei einem gleichseitigen Dreieck die 
+Winkelhalbierenden in einem Punkt. 
+Berechne den Winkel δ.
+[Abbildung]
+(3 Pkt.)
+Der Winkel δ beträgt: [Lücke: 120]°.
+Lösung:
+Zeichnen des Dreiecks.
+[Abbildung]
+Erklärung zum Zeichen des Dreiecks.
+Zeichne die Seite a=10cm.
+Trage den Winkel β=34° am Eckpunkt B an, zeichne eine Hilfslinie (Halbgerade).
+Trage den Winkel γ=56° am Eckpunkt C an, zeichne eine Hilfslinie (Halbgerade).
+Die zwei Halbgeraden schneiden sich im Punkt A.
+Beschrifte das Dreieck entsprechend.
+Berechnen des Winkels δ.
+
+[Abbildung]
+Das farbige Teildreieck ist ein gleichschenkliges Dreieck.
+
+In diesem Dreieck gilt:
+
+mathrm{α=β=(60°)/(2)=30°} (siehe Aufgabenstellung).
+
+Da die Winkelsumme im Dreieck 180° ist, gilt:
+
+α+β+δ=180° ⇒ δ=180°-(α+β)
+
+δ=180°-(30°+30°)
+
+underline{underline{δ=120°}}
+
+Der Winkel δ beträgt: boxed{120°}.

@@ -1,0 +1,1004 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Realschule, Schuljahrgang 10, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheRS10/2023MatheRS10_Teil1.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                  Mathematik                                       Material für Prüflinge
+
+ Realschule                                             Deckblatt                                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2023 Mathematik
+
+
+
+
+                                  Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                 36                   20                  84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note           …………………………………..……..
+    Punktzahl           Punktzahl
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                 ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2               3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                             Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                  Material für Prüflinge
+
+ Realschule                            Hauptteil 1 (ohne Hilfsmittel)                                  Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Wandle in die angegebene Einheit um.
+
+a) 8 km = __________ m
+
+
+
+b) 3,12 cm² = __________ mm²
+
+
+
+c) 150 min = __________ h
+
+
+
+Aufgabe 2
+                                                                                Preis pro Liter
+Frau Spar tankt 5 Liter Benzin.
+
+a) Berechne den Preis.
+                                                                             Benzin   2,038 €
+
+
+
+
+An der Tankstelle müssen die Preise oft gerundet werden.
+
+b) Runde den Preis 34,2552 € auf zwei Nachkommastellen.
+
+
+
+    34,2552 €  ____________ €
+
+
+
+
+                                                                        1a      1b     1c         2a       2b
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                        1       1      1          2         1
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                                      Material für Prüflinge
+
+ Realschule                              Hauptteil 1 (ohne Hilfsmittel)                                     Haupttermin
+
+
+Aufgabe 3
+
+Tasja hat von zwei Schokoladentafeln jeweils einen Teil gegessen. Die grau gefärbten Anteile sind
+übrig.
+
+
+
+
+                                                                                                                     Quelle: MK Niedersachsen
+a) Gib die grau gefärbten Anteile jeweils als Bruch an. Schreibe den Bruch neben die Abbildung.
+
+
+
+Tasja behauptet: „Wenn ich nur die übrig gebliebenen Anteile von beiden Schokoladentafeln esse,
+dann esse ich mehr als eine ganze Schokoladentafel.“
+
+b) Zeige, dass Tasja recht hat.
+
+
+
+
+In der Abbildung ist ein Anteil grau gefärbt.
+
+c) Kreuze die vier richtigen Angaben für den grau gefärbten
+    Anteil an.
+
+                                                          1               1           125              125
+   0,125          1,25        1,25 %     12,5 %
+                                                          8               4           100              1000
+
+                                                                                                  
+
+
+
+
+                                                                                              3a       3b       3c
+                                                                              Erreichte
+                                                                              Punktzahl
+                                                                              Mögliche
+                                                                                              1         2        2
+                                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                                       Seite 3 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                              Material für Prüflinge
+
+ Realschule                           Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 4
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+In einer Eisdiele gibt es vier
+verschiedene Sorten Eis. Am Vormittag
+wurden 40 Kugeln Eis verkauft.
+Das Diagramm zeigt die Anzahl der
+Kugeln für jede Sorte.
+
+
+a) Zeichne die Säule für die Sorte „Erdbeere“ in das Diagramm ein.
+
+b) Erkläre, wie du die Anzahl der Kugeln der Sorte „Erdbeere“ berechnet hast.
+
+    ___________________________________________________________________________
+
+    ___________________________________________________________________________
+
+
+
+Die Anzahl der Kugeln für jede Sorte wird in einem Kreisdiagramm dargestellt.
+
+c) Kreuze das passende Kreisdiagramm an. Begründe deine Entscheidung.
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+                                                                              
+
+
+
+
+                                               O                               
+
+     _________________________________________________________________________
+
+     _________________________________________________________________________
+
+
+
+Nora bestellt zwei verschiedene Sorten Eis. Die Kugeln werden nebeneinander in eine Schale gelegt.
+d) Ermittle die Anzahl der Möglichkeiten, eine Schale mit
+    zwei verschiedenen Sorten Eis zusammenzustellen.
+
+    Es gibt ______ Möglichkeiten.                                               Quelle: MK Niedersachsen
+
+
+
+                                                                          4a     4b         4c       4d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          1       1         2         1
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                               Material für Prüflinge
+
+ Realschule                           Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Aufgabe 5
+
+Zu jedem Graphen gehört genau eine Zuordnung.
+Verbinde jeden Graphen mit der passenden Zuordnung.
+
+              Graphen                                                           Zuordnungen
+
+
+
+
+                                                                       Zeit → Bakterienanzahl in einer
+                                                                       Nährlösung
+
+
+
+
+                                                                       Zeit → Weg, den ein Auto mit
+                                                                       gleichbleibender
+                                                                       Geschwindigkeit zurücklegt
+
+
+
+
+                                                                       Zeit → Höhe einer brennenden
+                                                                       Kerze
+
+
+
+
+                                                                       Zeit → Anzahl der benötigten
+                                                                       Bauarbeiter für ein Projekt
+
+
+
+
+                                                                       Zeit → Temperaturverlauf an
+                                                                       einem Tag
+
+
+
+
+ Quelle: MK Niedersachsen                                                                             5
+                                                                                      Erreichte
+                                                                                      Punktzahl
+                                                                                      Mögliche
+                                                                                                      2
+                                                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                        Material für Prüflinge
+
+ Realschule                           Hauptteil 1 (ohne Hilfsmittel)                       Haupttermin
+
+
+Aufgabe 6
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+Ein Quader wird so halbiert, dass das abgebildete
+Dreiecksprisma entsteht.
+
+a) Berechne das Volumen des Dreiecksprismas.
+
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+    V = _________ cm³
+
+
+
+Das Volumen eines anderen Dreiecksprismas soll berechnet
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+werden.
+
+b) Stelle eine allgemeine Formel zur Berechnung des
+    Volumens in Abhängigkeit von x auf. Fasse die Formel
+    so weit wie möglich zusammen.
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+
+    V = ___________________
+
+
+
+
+                                                                                      6a       6b
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                      2         2
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                        Material für Prüflinge
+
+ Realschule                           Hauptteil 1 (ohne Hilfsmittel)                    Haupttermin
+
+
+Aufgabe 7
+
+Zeichne das Netz des abgebildeten Dreiecksprismas.
+
+
+
+
+                                                                                                   Quelle: MK Niedersachsen
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+
+                                                                                               7
+                                                                                Erreichte
+                                                                                Punktzahl
+                                                                                Mögliche
+                                                                                               2
+                                                                                Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                 Material für Prüflinge
+
+ Realschule                            Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Aufgabe 8
+
+Die Abbildung zeigt die ersten drei Figuren eines Musters.
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+              Figur 1                        Figur 2                          Figur 3
+
+
+a) Vervollständige die unten abgebildete Figur 4 des Musters. Achte auf genaues Zeichnen.
+
+
+
+
+                                                                                                             Quelle: MK Niedersachsen
+b) Gib die Anzahl der schwarzen Dreiecke der nicht abgebildeten Figur 6 des Musters an.
+
+    In der Figur 6 gibt es _____ schwarze Dreiecke.
+
+
+
+Lucas möchte die Anzahl der schwarzen Dreiecke in einer beliebigen Figur x des Musters bestimmen.
+Dafür hat er vier Terme zur Auswahl.
+
+c) Kreuze den passenden Term an.
+
+                        3x + 1         x+3                4x – 3             3x + 4
+                           O             O                   O                 O
+
+
+
+                                                                                      8a       8b       8c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                      2         1        1
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 8 von 8
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Realschule, Schuljahrgang 10, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheRS10/2023MatheRS10_Teil2.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 11.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                           Mathematik                           Material für Prüflinge
+
+ Realschule                                Hauptteil 2 und Wahlteil                          Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1 (       )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2 (       )
+
+                                                Wahlaufgabe W3 (       )
+
+                                                Wahlaufgabe W4 (       )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                                 anderes   angegeben       ist.   Schreibe   deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 1 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                               Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Aufgabe 1
+
+In einer Umfrage wurden 1100 Personen befragt.
+
+
+
+Frage 1: Haben Sie Haustiere?                        Frage 2: Falls ja, welche Haustiere haben Sie?
+
+
+
+
+                                                                                                           Quelle: MK Niedersachsen
+                                                                    ?
+
+
+
+
+a) Berechne die Anzahl der Personen, die Haustiere haben.
+
+
+
+Von den Personen, die Haustiere haben, besitzen 70 Personen Fische.
+
+b) Berechne den prozentualen Anteil der Haustierbesitzer, die Fische haben.
+
+   (Solltest du die Teilaufgabe a) nicht gelöst haben, rechne mit 587 Personen weiter.)
+
+
+
+Michael behauptet: „Bei einer Umfrage muss die Addition der Prozentsätze immer 100 % ergeben.“
+
+c) Begründe, dass Michael nicht recht hat.
+
+
+
+
+                                                                                    1a       1b       1c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                    2         2        1
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 2 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                Mathematik                             Material für Prüflinge
+
+ Realschule                                    Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Aufgabe 2
+
+Die Sitzfläche eines Hockers hat die Form eines
+Dreiviertelkreises. Sie wird mit Leder bezogen.
+
+
+
+a) Berechne die Größe der Sitzfläche.
+
+
+
+Die Sitzfläche wird mit einer Naht umfasst.                                     (Skizze nicht maßstäblich)
+                                                                                Quelle: MK Nds.
+b) Berechne die Länge der Naht.
+
+
+
+Jana hat vier Terme zur Auswahl, um die Länge der Naht zu berechnen.
+
+c) Kreuze die beiden Terme an, mit denen Jana die Länge der Naht berechnen kann.
+
+            3                              3                                               3
+       r ∙ ( π + 2)                   r ∙ ( π + 2)             2r ∙ (π + 2)          2r ∙ ( π + 1)
+            2                              4                                               4
+
+              ⃝                           ⃝                        ⃝                         ⃝
+
+
+
+
+Aufgabe 3
+
+In einem Eimer befinden sich insgesamt 500 Lose. Davon sind 70 Gewinne und der Rest Nieten.
+
+a) Bestimme die Wahrscheinlichkeit, einen Gewinn zu ziehen. Gib das Ergebnis in Prozent an.
+
+
+
+Jonas darf als Erster aus diesem Eimer zwei Lose ziehen.
+
+b) Berechne die Wahrscheinlichkeit, dass Jonas nacheinander zwei Gewinne zieht.
+
+
+
+
+                                                                          2a   2b      2c         3a       3b
+                                                           Erreichte
+                                                           Punktzahl
+                                                           Mögliche
+                                                                          3    3        1         1         3
+                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 3 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                           Material für Prüflinge
+
+ Realschule                               Hauptteil 2 und Wahlteil                            Haupttermin
+
+
+Aufgabe 4
+
+a) Ergänze die Funktionsgleichung
+   der Geraden g.                                                                                g
+
+        y = _____ x + 1,5
+
+
+
+b) Zeichne eine Gerade h mit der
+                                 2
+   Funktionsgleichung y = − 5 x + 2
+
+   in das Koordinatensystem.
+
+
+
+
+Aufgabe 5
+
+
+
+
+                                                                                                         Quelle: MK Nds.
+Uljana macht ihren Führerschein bei der
+Fahrschule „Best Driver“.
+
+
+
+a) Berechne die Gesamtkosten, wenn sie 24 Fahrstunden benötigt.
+
+
+
+b) Stelle die Funktionsgleichung zur Berechnung der Gesamtkosten in der Form y = m ∙ x + b auf.
+
+
+
+Uljana hat 2800 € für die Gesamtkosten zur Verfügung.
+
+c) Berechne die maximale Anzahl der Fahrstunden, die Uljana bezahlen kann.
+
+
+
+
+                                                                     4a   4b   5a        5b       5c
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                     1    2     1         2          2
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                       Seite 4 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                               Material für Prüflinge
+
+ Realschule                               Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Aufgabe 6
+
+Abgebildet ist ein Bauplan für einen Lenkdrachen.
+
+
+
+
+                                                                                                           Quelle: MK Niedersachsen
+                                                                           (Skizze nicht maßstäblich)
+
+
+a) Berechne die Länge einer Leitkante.
+
+
+
+b) Berechne die Größe des Winkels α.
+
+
+
+c) Berechne die Länge der Strecke b.
+   (Solltest du die Teilaufgabe b) nicht gelöst haben, rechne mit α = 53,04° weiter.)
+
+
+
+
+                                                                                   6a        6b       6c
+                                                                     Erreichte
+                                                                     Punktzahl
+                                                                     Mögliche
+                                                                                    3         2        2
+                                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 5 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                        Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+Aufgabe 7
+
+Eine quadratische Pyramide hat ein Volumen von 150 cm3.
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+Die Körperhöhe hK beträgt 19 cm.
+
+
+
+a) Berechne die Länge der Grundkante a.
+
+
+
+
+                                                                        (Skizze nicht maßstäblich)
+
+
+Gegeben sind zwei quadratische Pyramiden mit gleicher Körperhöhe hK.
+
+Das Volumen der ersten Pyramide ist viermal so groß wie das Volumen der zweiten Pyramide.
+
+b) Kreuze die richtige Aussage an und begründe deine Entscheidung.
+
+   Die Grundkante der ersten Pyramide ist …
+
+                  O doppelt so lang wie die Grundkante der zweiten Pyramide.
+
+                  O dreimal so lang wie die Grundkante der zweiten Pyramide.
+
+                  O viermal so lang wie die Grundkante der zweiten Pyramide.
+
+
+
+    Begründung: __________________________________________________________________
+
+    _____________________________________________________________________________
+
+    _____________________________________________________________________________
+
+    _____________________________________________________________________________
+
+
+
+
+                                                                                       7a       7b
+                                                                          Erreichte
+                                                                          Punktzahl
+                                                                          Mögliche
+                                                                                       3         2
+                                                                          Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 6 von 11
+
+[Seitenwechsel]
+                            Abschlussarbeit 2023                             Mathematik                               Material für Prüflinge
+
+                            Realschule                                  Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+                                                             Wahlaufgabe 1 – Körperberechnung
+
+
+                           Die Abbildung zeigt einen kugelförmigen Gasspeicher in Braunschweig.
+                           Er hat den Außendurchmesser d = 27 m.
+
+
+
+
+                                                                                                                                                          Quelle: MK Niedersachsen
+                           a) Berechne die Oberfläche des kugelförmigen Gasspeichers.
+
+
+
+
+                                                            Der Pfeil zeigt auf einen Ring, der kreisförmig um die Mitte des
+                                                            Gasspeichers verläuft. Der Ring ist 90 m lang.
+Quelle: MK Niedersachsen
+
+
+
+
+                                                            b) Berechne den Abstand zwischen dem Gasspeicher und dem Ring.
+
+
+
+
+                           Für Reparaturarbeiten am Gasspeicher wird ein Kran aufgestellt.
+
+
+
+
+                                                                                                                                         Quelle: MK Niedersachsen
+                           c) Berechne die Länge der Strecke x.
+
+
+
+
+                           Die Metallwand des Gasspeichers ist 0,03 m dick.                              (Skizze nicht maßstäblich)
+
+                           d) Berechne das innere Volumen des Gasspeichers.
+
+
+
+                                                                                           3
+                           Der Radius eines anderen kugelförmigen Gasspeichers ist √2 - mal so groß wie der Radius des
+                           Gasspeichers in Braunschweig.
+
+                           e) Zeige mithilfe einer Rechnung, dass das Volumen dieses Gasspeichers doppelt so groß ist.
+
+                                                                                                   1a    1b      1c        1d       1e
+                                                                                    Erreichte
+                                                                                    Punktzahl
+                                                                                    Mögliche
+                                                                                                   2      3       2         2        1
+                                                                                    Punktzahl
+                           Niedersächsisches Kultusministerium                                                              Seite 7 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                           Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+                       Wahlaufgabe 2 (Seite 1 von 2) – Wahrscheinlichkeit
+
+
+Pia und Lea trinken gerne Tee.
+Diese Teebeutel liegen unsortiert in
+
+
+
+
+                                                                                                 Quelle: MK Nds.
+einer Teebox:
+
+    •   10 Beutel Kamillentee (K)
+    •   4 Beutel Erdbeertee (E)
+    •   6 Beutel Apfeltee (A).
+
+
+
+Pia greift ohne hinzusehen in die Teebox und zieht nacheinander zwei Teebeutel heraus.
+
+a) Ergänze im Baumdiagramm die fehlenden Wahrscheinlichkeiten.
+
+
+
+
+                                                                                                                   Quelle: MK Niedersachsen
+                                1
+                                2
+                                                 1
+                                                 5
+
+
+
+                           6             10                  6            10                   5
+              4            19            19      3           19           19        4          19
+              19                                 19                                 19
+
+
+
+
+b) Berechne die Wahrscheinlichkeit, dass Pia erst Kamillentee und dann Apfeltee zieht.
+
+
+
+Pia und Lea mögen keinen Erdbeertee.
+
+c) Berechne die Wahrscheinlichkeit, dass Pia keinen Erdbeertee zieht.
+
+
+
+Lea berechnet die Wahrscheinlichkeit für ein Ereignis mit der folgenden Rechnung:
+
+                                                 1 4 1 10
+                                       P = 1 – ( 2 ∙ 19 + 5 ∙ 19 )
+
+d) Gib das passende Ereignis an.
+
+Niedersächsisches Kultusministerium                                                       Seite 8 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                        Mathematik                           Material für Prüflinge
+
+ Realschule                            Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+                       Wahlaufgabe 2 (Seite 2 von 2) – Wahrscheinlichkeit
+
+
+Pia und Lea wollen mit dem abgebildeten Glücksrad entscheiden, welchen Tee sie als nächstes
+trinken. Sie drehen das Glücksrad zweimal.
+
+e) Begründe, dass das Zufallsexperiment nicht zum Baumdiagramm aus Aufgabenteil a) passt.
+
+
+
+
+                                                                            Quelle: MK Niedersachsen
+
+
+
+
+                                                                  2a   2b    2c        2d       2e
+                                                   Erreichte
+                                                   Punktzahl
+                                                   Mögliche
+                                                                  2    2      3         2        1
+                                                   Punktzahl
+
+Niedersächsisches Kultusministerium                                                     Seite 9 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                            Mathematik                                   Material für Prüflinge
+
+ Realschule                                 Hauptteil 2 und Wahlteil                                    Haupttermin
+
+
+                                      Wahlaufgabe 3 – Trigonometrie
+
+
+Eine Bergbahn im Harz fährt von einer Talstation zu einer Bergstation. Danny hat eine Skizze
+gezeichnet und einige Streckenlängen eingetragen.
+
+
+
+
+                                                                               (Skizze nicht maßstäblich)
+                                                                               Quelle: MK Niedersachsen
+a) Berechne den Höhenunterschied h.
+
+
+Danny hat den Steigungswinkel  der Bergbahn berechnet. Sein Ergebnis für  ist ungefähr 7°.
+b) Bestätige mithilfe einer Rechnung, dass Dannys Ergebnis richtig ist.
+
+
+
+
+                                                                                                             Quelle: MK Nds.
+Eine Bergbahn in den Alpen hat eine Steigung von 9 %.
+c) Entscheide mithilfe einer Rechnung, welche Bergbahn die größere
+    Steigung hat.
+
+
+Danny behauptet: „Die Steigung einer Strecke kann höchstens 100 % betragen.“
+d) Zeige, dass Dannys Behauptung falsch ist.
+
+
+Damit Züge in Kurven schneller fahren können, werden die Gleise
+etwas geneigt. Die maximale Geschwindigkeit hängt vom
+
+Neigungswinkel  ab.
+                                                                                                                        Quelle: MK Niedersachsen
+
+
+
+
+e) Bestimme die maximale Geschwindigkeit, mit der ein Zug bei
+    einem Höhenunterschied von u = 217 mm durch die Kurve
+    fahren darf.
+
+
+                                                                           (Skizze nicht maßstäblich)
+ Neigungswinkel α       max. Geschwindigkeit
+                                 km
+   0° < α < 4,3°              60 h
+                                 km                                    3a       3b       3c        3d       3e
+  4,3° ≤ α < 8,6°             80 h                      Erreichte
+                                 km                     Punktzahl
+       α ≥ 8,6°               90 h                      Mögliche
+                                                                       2        2         3         1        2
+                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 10 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                 Mathematik                                 Material für Prüflinge
+
+ Realschule                                      Hauptteil 2 und Wahlteil                                   Haupttermin
+
+
+                             Wahlaufgabe 4 – Quadratische Funktionen
+
+
+Es wird eine Toreinfahrt in Form einer Parabel gebaut.
+
+Die Parabel hat die Funktionsgleichung y = – x² + 4x – 1.
+
+a) Ergänze den fehlenden Wert in der Wertetabelle.
+
+
+              x in m         0,5             1           1,5           2            2,5            3
+
+              y in m                         2           2,75          3           2,75            2
+
+
+b) Skizziere die parabelförmige Toreinfahrt in
+    das Koordinatensystem.
+
+
+c) Notiere die Funktionsgleichung in der
+    Scheitelpunktform.
+
+
+
+
+                                                                                                                     Quelle: MK Niedersachsen
+                                                                                (Skizze nicht maßstäblich)
+
+Michel hat begonnen, die Breite der Toreinfahrt am Boden zu berechnen.
+
+d) Vervollständige Michels Rechnung und berechne die Breite der Toreinfahrt am Boden.
+              0 = – x² + 4x – 1       | : (–1)
+              0 = x² – 4x + 1
+
+
+Um die Breite der Toreinfahrt am Boden zu berechnen, hat Michel die Gleichung y = – x² + 4x – 1 im
+ersten Schritt folgendermaßen geändert: 0 = – x² + 4x – 1.
+
+e) Begründe Michels ersten Schritt.
+
+
+
+
+                                                                            4a       4b      4c        4d       4e
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                            1         2      2         4         1
+                                                               Punktzahl
+Niedersächsisches Kultusministerium                                                                    Seite 11 von 11
+
+[Seitenwechsel]

@@ -1,0 +1,371 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2025, Schuljahrgang 10, G-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2025, Datei 2025Mathe/2025_ABA_Mathe_10_G-Kurs/EWH/2025MatheSjg10GL.pdf im Archiv 2025Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 9.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2025                                               Mathematik                                  Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                                                       Haupttermin
+
+
+
+
+Ablauf der Prüfung
+
+                                 150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                 Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                                 Material/Medien     Arbeitsmittel:
+                                                     - kariertes Papier mit Rand ist zur Verfügung zu stellen
+                                                     - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                     Hilfsmittel:
+     Mathematik Sjg. 10 G-Kurs
+
+
+
+
+                                                     - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                     - Formelsammlung (vorgegeben unter www.gosin.de)
+                                 Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                     Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                     bearbeiten ist.
+                                                      Die Abgabe erfolgt spätestens nach 50 Minuten (Verkürzung der
+                                                       max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                       Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                      Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                       (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                       des Wahlteils.
+
+                                  + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                       Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                       sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                             1            2               3               4               5              6
+
+
+  ab … Punkte                             72,5         61             49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                        1 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                              Mathematik                         Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                              Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+ Aufgabe                                        Erwartete Lösung                               Punkte
+     1a                                                  4                                        1
+     1b                                                  6                                        1
+     1c                                                 1,5                                       1
+
+     1d                                                  1                                        1
+                                                         3
+                                      Jede richtige Markierung ist zu werten.
+     2a                                                                                           1
+                                       Es müssen 2 Felder markiert werden.
+     2b                                                570 €                                      2
+                                 Jede sinnvolle Begründung ist zu werten.
+     2c        Zum Beispiel: „Jan muss vom ursprünglichen Preis 80 % bezahlen, das ist als        1
+                                           Dezimalbruch 0,8.“
+      3                                                x=5                                        2
+                                                      α = 33°
+     4a                                                                                           1
+                                                (Genauigkeit:  1°)
+     4b                           Das Dreieck ist ein rechtwinkliges Dreieck.                     1
+                                      Jeder richtige Rechenweg ist zu werten.
+     4c                                                                                           1
+                             Zum Beispiel: „β = 180° – 90° – α“ oder „β = 90° – α“
+                                 Die richtig eingezeichnete Höhe ist zu werten.
+     5a                                                                                           1
+                                                (Genauigkeit:  1°)
+     5b                                Jede richtige Parallele ist zu werten.                     1
+     6a                                               C (4l3)                                     1
+     6b                                             A = 3 cm²                                     2
+     6c                                               D (1I3)                                     1
+      7                                   Die Außenlinie ist 330 m lang.                          2
+
+
+
+
+     8a                                                                                           2
+
+
+
+
+                                   Jede sinnvolle Begründung ist zu werten.
+     8b           Zum Beispiel: „Wenn das Maß der Länge verdoppelt wird, dann wird das Maß        1
+                        der Breite halbiert, um den gleichen Flächeninhalt zu erhalten.“
+Niedersächsisches Kultusministerium                                                             2 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                 Mathematik   Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                          Haupttermin
+
+
+     9a                                   7                    2
+     9b                                   34                   1
+
+
+
+     10                                                        1
+
+
+
+
+Niedersächsisches Kultusministerium                          3 von 9
+
+[Seitenwechsel]
+    Abschlussarbeit 2025                         Mathematik                            Erwartungshorizont
+
+    Sjg. 10 G-Kurs                                                                            Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                               4 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                              Mathematik                        Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                            Haupttermin
+
+
+Hauptteil 2
+
+  Aufgabe                                       Erwartete Lösung                              Punkte
+
+
+
+
+     1a                                                                                          2
+
+
+
+
+     1b                                          468 Jugendliche                                 2
+      1c                                              35 %                                       2
+
+
+
+     2a                                                                                          2
+
+
+
+
+     2b                                                                                          2
+
+
+
+
+      2c                          Die dritte Aussage muss angekreuzt werden.                     1
+     2d                               Der erste Term muss angekreuzt werden.                     1
+     3a                                              2,40 m                                      2
+                                          Karls Behauptung ist falsch.
+     3b                                                                                          3
+                                Jede sinnvolle Rechnung ist als richtig zu werten.
+      3c                                            h  1,31 m                                   3
+
+
+
+
+Niedersächsisches Kultusministerium                                                            5 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                            Mathematik                          Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                            Haupttermin
+
+
+     4a                                           0,11 cm³                                       2
+                                      336 Kugeln (317 Kugeln) bzw.
+     4b                346 Kugeln, wenn mit dem gerundeten Ergebnis aus Aufgabe 5a               2
+                                         weitergerechnet wurde.
+      4c                                           49,40 g                                       1
+     4d                                          hK = 4,56 cm                                    3
+     4e                           Die dritte Aussage muss angekreuzt werden.                     2
+
+
+
+     5a                                                                                          1
+
+
+
+                                                125
+     5b                                             = 31,25 %                                    2
+                                                400
+                                                     275
+      5c                                                                                         1
+                                                     400
+                                                     122
+     5d                                                                                          2
+                                                     384
+
+
+
+
+Niedersächsisches Kultusministerium                                                            6 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                              Mathematik                         Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                             Haupttermin
+
+
+Wahlteil
+
+ Aufgabe                                         Erwartete Lösung                                Punkte
+     1a                                             x = 105 mm                                       1
+     1b                                    y  148,49 mm (y  148,35 mm)                             2
+     1c                                            z  274,38 mm                                     3
+                                                 Der Wert stimmt.
+     1d                                                                                              3
+                                 Jede sinnvolle Rechnung ist als richtig zu werten.
+     1e                               Die erste Angabe muss angekreuzt werden.                       1
+
+
+ Aufgabe                                         Erwartete Lösung                                Punkte
+     2a                                              346,36 cm³                                      2
+     2b                                          415,63 g (415,18 g)                                 1
+     2c                               Die Vertiefung hat die Form eines Kegels.                      1
+     2d                                             x  3,62 cm                                      3
+     2e                                                1,85 %                                        2
+     2f                           Die zweite Aussage muss angekreuzt werden.                         1
+
+
+
+
+Niedersächsisches Kultusministerium                                                             7 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                            Mathematik                          Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                             Haupttermin
+
+
+ Aufgabe                                       Erwartete Lösung                                    Punkte
+                                       Für 20 km benötigt Alfons 5 Stunden.
+     3a                                                                                                2
+                                 Alfons Geschwindigkeit beträgt 4 km pro Stunde.
+
+
+
+     3b                                                                                                1
+
+
+
+
+                                                 Claudia
+
+
+
+     3c                                                                                                2
+
+                                                 Alfons
+
+                                                     Bert
+
+
+
+
+     3d                                            6 Stunden                                           1
+     3e                                            y = 4x + 3                                          3
+              Es ist jede Erklärung als richtig zu werten, die Bezug zu den Graphen nimmt (z.B.
+     3f                                                                                                1
+                          gleiche Steigung, Parallelität oder fehlender Schnittpunkt).
+
+
+
+
+Niedersächsisches Kultusministerium                                                               8 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                           Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                                Haupttermin
+
+
+  Aufgabe                                     Erwartete Lösung                                     Punkte
+
+
+
+
+     4a                                                                                                2
+
+
+
+
+                                                      90
+     4b                                                                                                2
+                                                     5112
+      4c           Sie zieht zuerst ein Ei ohne Sammelfigur und dann ein Ei mit Sammelfigur.           1
+                                                      8
+     4d                                                                                                2
+                                                      65
+
+
+
+
+     4e                                                                                                2
+
+
+
+
+      4f                                           11 bis 20                                           1
+
+
+
+
+Niedersächsisches Kultusministerium                                                               9 von 9
+
+[Seitenwechsel]

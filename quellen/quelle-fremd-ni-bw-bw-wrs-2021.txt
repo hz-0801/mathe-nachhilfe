@@ -1,0 +1,1228 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Werkrealschule Mathematik mit Lösungen – Prüfungsjahr 2021, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320102/2021 (Jahrgangsseite, Serlo-ID 320102); Prüfungsteile: https://de.serlo.org/mathe/320156/pflichtteil-a1 (Pflichtteil A1, ID 320156); https://de.serlo.org/mathe/320157/pflichtteil-a2 (Pflichtteil A2, ID 320157); https://de.serlo.org/mathe/320158/wahlteil-b (Wahlteil B, ID 320158)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2021  (Serlo-ID 320156)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323347 – https://de.serlo.org/mathe/323347/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einem Ort in Alaska wurden im März 2020 folgende Temperaturen gemessen.
+[Tabelle]
+Montag | Dienstag | Mittwoch | Donnerstag | Freitag | Samstag | Sonntag
+-4° C | -3° C | -2° C | 0° C | 1° C | 2° C | -1° C
+Berechne den Mittelwert und gib den Minimal- und Maximalwert an.
+(1 Pkt.)
+Der Mittelwert ist: [Lücke: -1] °C
+
+Der Minimalwert ist: [Lücke: -4] °C
+
+Der Maximalwert ist: [Lücke: 2] °C
+Lösung:
+Mittelwert:  ((-4°C)+(-3°C)+(-2°)+(0°C)+(1°C)+(2°C)+(-1°C))/(7)=(-7°C)/(7)=-1°C
+Minimalwert:  -4°C
+Maximalwert:  2°C
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323349 – https://de.serlo.org/mathe/323349/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse die Gleichung.
+
+x^2+22x+21=0
+(1 Pkt.)
+x_1= [Lücke: -1] 
+x_2= [Lücke: -21] 
+Lösung:
+Allgemeine Form einer quadratische Gleichung:  x^2+px+q=0
+pq-Formel:   x_{1,2}=-(p)/(2)±√{((p)/(2))^2-q}
+
+x^2+22x+21=0
+x_{1,2}=-(22)/(2)±√{((22)/(2))^2-21}
+x_{1,2}=-11±√{121-21}=-11± 10
+x_1=-1
+x_2=-21
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323351 – https://de.serlo.org/mathe/323351/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das kreisförmige Ziffernblatt der Turmuhr hat einen Flächeninhalt von 38,5 m^{2}.
+[Abbildung]
+Bestimme durch Überschlag die Länge des Minutenzeigers und kreuze an.
+[Auswahl (eine Antwort)]
+  ( ) 4,3m
+  (x) 3,5m
+  ( ) 6,1m
+  ( ) 5,2m
+Lösung:
+Kreisfläche:  A=r^2·π
+
+38,5m^2=r^2· 3,14
+r^2=12,26m^2
+r=√{12,26m^2}
+r=3,50m
+Der Minutenzeiger ist ungefähr 3,50m lang.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323353 – https://de.serlo.org/mathe/323353/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Im Schrägbild der quadratischen Pyramide ist ein gepunkteter Streckenzug eingezeichnet. Der Punkt C halbiert die Seitenkante.
+[Abbildung]
+hspace{50mm}Übertrage den Streckenzug auf dieses Netz.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+Übertragen des Streckenzugs auf das Netz.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323357 – https://de.serlo.org/mathe/323357/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Konstruiere ein Dreieck mit c=6cm, b=4cm und h_{c}=3,5cm.
+(1 Pkt.)
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 323359 – https://de.serlo.org/mathe/323359/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Bestimme den Winkel α.
+
+g || h
+[Abbildung]
+(1 Pkt.)
+[Eingabefeld: 25]
+Lösung:
+Betrachte das obere Dreieck:
+
+Nennen wir den nicht bezeichneten Winkel des Dreiecks γ.
+Die Winkelsumme im Dreieck beträgt 180°.  
+=>   γ= 180°-120°-35°
+γ =25°
+γ und α sind Wechselwinkel und damit gleich groß.
+α=25°
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323361 – https://de.serlo.org/mathe/323361/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Welche gerundete Lösung ist richtig?
+Kreuze an.
+
+√{50}≈
+[Auswahl (eine Antwort)]
+  ( ) 6,9
+  (x) 7,1
+  ( ) 7,9
+  ( ) 8,5
+Lösung:
+6,9·6,9=47,61
+
+7,1·7,1=50,41
+
+7,9·7,9=62,41
+8,5·8,5=72,25
+√{50}≈7,1
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 323363 – https://de.serlo.org/mathe/323363/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Welche der Aussagen ist richtig?
+Kreuze an.
+[Abbildung]
+(1 Pkt.)
+[Auswahl (eine Antwort)]
+  ( ) mathrm{sin(α)=(c)/(a)}
+  ( ) mathrm{sin(α)=(b)/(c)}
+  (x) mathrm{sin(α)=(a)/(c)}
+  ( ) mathrm{sin(α)=(b)/(a)}
+Lösung:
+sin (α )=(Gegenkathete)/(Hypotenuse)
+
+Winkel α:
+Gegenkathede:  a
+Hypothenuse:  c
+
+sin (α )=(a)/(c)
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 323365 – https://de.serlo.org/mathe/323365/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Sechs deutsche und vier französische Ein-Euro-Münzen befinden sich in einer Kiste. Eine Münze wird blind gezogen und auf einen Tisch gelegt.
+
+Bestimme die Wahrscheinlichkeit, dass diese Münze in Deutschland geprägt wurde und die „Zahl" oben ist.
+(1 Pkt.)
+Die Wahrscheinlichkeit, dass diese Münze in Deutschland geprägt wurde und die „Zahl" oben ist, beträgt: [Lücke: 3/10] oder [Lücke: 30] %.
+Lösung:
+Bestimmen der Wahrscheinlichkeit, dass die Münze in Deutschland geprägt wurde und die „Zahl" oben ist.
+[Abbildung: Das Baumdiagramm braucht nicht gezeichnet zu werden.]
+Die Wahrscheinlichkeit, dass eine deutsche Münze (unabhängig von "Zahl" oder "Kopf") gezogen wird, beträgt:
+
+mathrm{P_{dt.}=(6)/(10)}
+
+Die Wahrscheinlichkeit, dass die Münze mit Zahl "oben" gezogen wird, beträgt:
+
+mathrm{P_{dt. Z.}=(1)/(2)}
+
+Die Wahrscheinlichkeit, dass eine deutsche Münze mit Zahl "oben" gezogen wird, beträgt dann: 
+
+mathrm{P_{ges.}=P_{dt.}· P_{dt. Z.}}(1. Pfadregel)
+
+mathrm{P_{ges}=(6)/(10)·(1)/(2)}
+
+mathrm{P_{ges.}=(6)/(20)}oder30 %
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 323367 – https://de.serlo.org/mathe/323367/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die abgebildete Parabel y_{1} wird an der x Achse gespiegelt.
+[Abbildung]
+Welche der Funktionsgleichungen gibt die neue Parabel y_{2} an? 
+Kreuze an.
+(1 Pkt.)
+[Auswahl (eine Antwort)]
+  (x) mathrm{y_{2}=-x^{2}-1}
+  ( ) mathrm{y_{2}=x^{2}-1}
+  ( ) mathrm{y_{2}=-x^{2}+1}
+  ( ) mathrm{y_{2}=x^{2}+1}
+Lösung:
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2021  (Serlo-ID 320157)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323410 – https://de.serlo.org/mathe/323410/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einem Lostopf befinden sich drei graue und sieben weiße Kugeln.
+Es wird zweimal hintereinander mit Zurücklegen gezogen.
+
+- Erstelle ein vollständiges Baumdiagramm.
+- Für welches Ereignis ergibt sich nun einen Wahrscheinlichkeit von fast 50 % ?
+(2 Pkt.)
+Lösung:
+Erstellen des Baumdiagramms.
+[Abbildung]
+Ereignis, für das sich eine Wahrscheinlichkeit von fast 50 % ergibt.
+Für das Ereignis zwei weiße Kugeln hintereinander zu ziehen, ergibt sich eine Wahrscheinlichkeit von fast 50 %:
+
+mathrm{P_{w; w}=(7)/(10)·(7)/(10) ⇒ P_{w; w}=(49)/(100)}
+
+underline{underline{P_{w; w}=49 %}}
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323413 – https://de.serlo.org/mathe/323413/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Um die Strecken auf einer Schatzkarte zu bestimmen, wurden Hilfslinien eingezeichnet.
+[Abbildung]
+- Berechne‾{AB} .
+- Berechne‾{CS} .
+Es gilt:
+mathrm{‾{BK} \| ‾{AC} \| ‾{DE}}
+
+‾{AK}=145m
+‾{AE}=117m
+
+(2 Pkt.)
+‾{AB}= [Lücke: 87] cm
+
+‾{CS}= [Lücke: 68,57 | 68,6] cm
+Lösung:
+Berechnen der Strecke ‾{textbf{AB}}.
+Folgende Strecken sind bekannt:
+
+‾{AE}=117m 
+‾{BE}=30m (siehe Skizze)
+
+Die Strecke ‾{AB} ist dann:
+
+mathrm{‾{AB}=‾{AE}-‾{BE}}
+
+‾{AB}=117-30
+
+mathrm{underline{underline{‾{AB}=87m}}}
+Berechnen der Strecke ‾{textbf{CS}}.
+Berechnen der Strecke ‾{CS} mithilfe des 2. Strahlensatzes.
+
+Der 2. Strahlensatz angewandt auf die obige Skizze lautet:
+
+mathrm{dfrac{‾{AC}}{‾{BK}}=dfrac{‾{CS}}{‾{BS}}}
+
+Wir lösen die Gleichung nach ‾{CS} auf:
+
+mathrm{‾{CS}=dfrac{‾{AC}·‾{BS}}{‾{BK}}}
+
+Einsetzen der bekannten Größen in die Gleichung..
+
+mathrm{‾{CS}=(120·40)/(70)}
+
+underline{underline{‾{CS}≈68,57m}}
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323415 – https://de.serlo.org/mathe/323415/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Zinssätze, die für Geldanlagen festgelegt werden, sind in den letzten Jahren deutlich gesunken.
+[Abbildung]
+- Berechne, wie viel Zinsen bei Angebot 2020 weniger gezahlt wurden als bei Angebot 2003 .
+Mithilfe der folgenden Excel-Tabelle soll die Verzinsung eines Sparguthabens berechnet werden.
+- Gib die Formeln zur Berechnung der Zellen D4 und E4 ein.
+[Abbildung]
+Lösung:
+Berechnen, wie viel Zinsen bei Angebot 2020 weniger gezahlt wurden als bei Angebot 2003 .
+
+Berechnen der Zinsen für das Angebot 2003.
+
+Die Formel zur Berechnung des Zinseszins lautet:
+
+K_n=K_0·(1+ p)^n
+
+Folgende Größen sind bekannt:
+
+K_0=5000,00 € ; p=5,5 % ; n=3 Jahre
+
+Einsetzen der bekannten Größen in die Formel:
+
+mathrm{K_3=5000·(1+ (5,5)/(100))^3}
+
+K_3=5000·1,055^3
+
+K_3=5871,21 €
+
+Das Kapital nach 3 Jahren beträgt, 5871,21 €. Die gezahlten Zinsen  betragen dann,  
+
+5871,21 €-5000 €=871,21 €
+Berechnen der Zinsen für das Angebot 2020.
+
+Folgende Größen sind bekannt:
+
+K_0=5000,00 € ; p_2=0,6 % ; n=2 Jahre
+hspace{39mm}p_1=1,5 % ; n=1 Jahr
+
+mathrm{K_2=5000·(1+ (0,6)/(100))^2}
+
+K_2=5000·1,006^2
+
+mathrm{K_2=5060,18 € K_3=K_2·(1+(1,5)/(100))}
+
+K_3=5060,18·1,015
+
+K_3=5136,08 €
+
+Das Kapital nach 3 Jahren beträgt, 5136,08 €. Die gezahlten Zinsen  betragen dann,  
+
+5136,08 €-5000 €=136,08 €
+
+Damit wurden bei Angebot 2020 insgesamt boxed{735,13 €} (871,21 €-136,08 €) weniger
+Zinsen bezahlt als bei Angebot 2003.
+Formeln zur Berechnung der Zellen D4 und E4 der Exel-Tabelle.
+mathrm{D4: =B4·(2,40)/(100)}
+
+E4: =B4+D4
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323417 – https://de.serlo.org/mathe/323417/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Der Kegel des abgebildeten Körpers hat eine Körperhöhe h_1 von 6cm.
+[Abbildung]
+(3 Pkt.)
+- Berechne das Volumens des Kegels.
+Insgesamt ist der zusammengesetzte Körper 12cm hoch.
+Der Zylinder hat ein Volumen von 169,7cm^3.
+- Berechne den Radius r_2.
+Das Volumens des Kegels beträgt: [Lücke: 110,8] cm^3.
+
+Der Radius des Zylinders beträgt: [Lücke: 3] cm.
+Lösung:
+Berechnen des Volumens des Kegels.
+[Abbildung]
+Die Formel zur Berechnung des Volumens eines Kegels lautet:
+
+V_{Kegel}=dfrac13· r^2·π· h
+
+Die Höhe des Kegels ist bekannt (siehe Aufgabenstellung), jetzt muss noch der Radius r_1 berechnet werden.
+
+Berechnen von r_1 mithilfe des Tangens.
+
+Das farbige Dreieck ist ein rechtwinkliges Dreieck, im rechtwinkligen Dreieck gilt:
+
+mathrm{(Gegenkathete)/(Ankathete)=tan(α)}
+
+Angewandt auf das farbige Dreieck:
+
+mathrm{(r_1)/(h_1)=tan(35°) ⇒ r_1=h_1· tan(35°)}
+
+r_1=6·0,7002
+
+r_1=4,2cm
+
+Einsetzen der bekannten Größen in die Formel:
+
+V_{Kegel}=dfrac13· 4,2^2·π·6
+
+V_{Kegel}=dfrac13· 105,84·π
+
+V_{Kegel}=110,8cm^3
+
+Das Volumen des Kegels beträgt:boxed{110,8 cm^3}. 
+Berechnen des Radius r_2.
+Die Formel zur Berechnung des Volumens eines Zylinders lautet:
+
+V_Zylinderboldsymbol= r^2·π· h
+
+Auflösen der Formel nach r.
+
+mathrm{r=√{dfrac{V_{Zylinder}}{π·h}}}
+
+Berechnen der Höhe h_{Zyl.}
+
+h_{Zyl.}=12-6
+
+h_{Zyl.}=6cm
+
+Berechnen von r_2:
+
+mathrm{r_2=√{(169,7)/(π·6)} r_2=}√{(169,7)/(18,8)}
+
+r_2=3 cm
+
+Der Radius des Zylinders beträgt:boxed{3 cm}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323419 – https://de.serlo.org/mathe/323419/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Vorderansicht eines Gewächshauses hat die abgebildeten Maße und annähernd die Form einer Parabel. (siehe Abbildung)
+[Abbildung]
+- Ordne der Parabel die entsprechende Funktionsgleichung zu.
+
+    A) y=0,9 x^{2}+1,8
+
+    B) y=-0,9 x^{2}-1,8
+
+    C) y=-0,9 x^{2}+1,8
+
+    D) y=0,9 x^{2}-1,8
+
+- Gib eine mögliche Funktionsgleichung  an, bei der das Gewächshaus am Boden breiter ist. Die Höhe soll gleich bleiben.
+- Berechne für die Funktionsgleichung  y=0,4 x^{2}-3,6 die x-Werte für y=0.
+(3 Pkt.)
+Lösung:
+Zuordnen der Parabel die entsprechende Funktionsgleichung.
+Die Parabel ist nach unten geöffnet und hat den Scheitel S(0|1,8).
+
+Die Scheitelform lautet dann:
+
+y=a(x-0)^2+1,8
+hspace{45mm}ausmultipliziert
+y=ax^2+1,8
+
+Da die Parabel nach unten geöffnet ist, muss der Öffnungsfaktor textbf{a} negativ sein. 
+Die zugehörige Funktionsgleichung ist damit: boxed{textbf{C:} y=-0,9x^2+1,8}
+
+Mögliche Funktionsgleichung, bei der das Gewächshaus am Boden breiter ist, die Höhe aber gleich bleibt. 
+Damit das Gewächshaus am Boden breiter wird, muss der Öffnungsfaktor textbf{a} in der zugehörigen Funktionsgleichung größer als der Öffnungsfaktor (-0,9), aber gleichzeitig kleiner als Null sein. Der Wert 1,8 ändert sich nicht, da die Höhe gleich bleibt.
+Eine möglich Funktionsgleichung wäre dann:
+
+hspace{80mm}boxed{y=-0,2x^2+1,8}
+Lösen der Funktionsgleichung : y=0,4 x^{2}-3,6
+  0,4x^2-3,6 = 0   | +3,6
+  0,4x^2 = 3,6   | :0,4
+  x^2 = 9   | √{ }
+  x_{1/2} = ±√{9}
+  x_1 = 3
+  x_2 = -3
+  mathbb{L} = \{3|-3\}
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 323427 – https://de.serlo.org/mathe/323427/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Felix rutscht eine 145m lange Wasserrutsche in 18,3 Sekunden hinunter.
+[Abbildung]
+- Berechne seine Durchschnittsgeschwindigkeit in km/h.
+Für den Eintritt ins Schwimmbad zahlen 4 Erwachsene und 2 Kinder zusammen 64,00 € . 
+2 Erwachsene und 2 Kinder kosten insgesamt 40,00 € .
+- Erstelle ein Gleichungssystem und berechne die Eintrittspreise für einen Erwachsenen und für ein Kind.
+(3 Pkt.)
+Lösung:
+Berechnen von Felix Durchschnittsgeschwindigkeit in km/h.
+Berechnen der Geschwindigkeit in m/s.
+
+Die Formel zur Berechnung der Geschwindigkeit lautet:
+
+mathrm{v=(Delta s)/(Delta t)}
+
+Einsetzen der bekannten Gößen in die Formel:
+
+mathrm{v=(145)/(18,3) ⇒ v=7,92(m)/(s)}
+
+Umrechnen der Geschwindigkeit von mathrm{(m)/(s)} in mathrm{(km)/(h)}.
+
+mathrm{7,92{ [(m)/(s)]}=(7,92·3600)/(1000)=28,5 [(km)/(h)]}
+
+Die Durchschnittsgeschwindigkeit beträgt etwa: boxed{mathrm{28,5 (km)/(h)}}.
+Erstellen eines Gleichungssystems und berechnen der Eintrittspreise für einen Erwachsenen und für ein Kind.
+Wir bezeichnen den Eintrittspreis für einen Erwachsenen mit textbf{x}, den Eintrittspreis für ein Kind bezeichnen wir mit textbf{y}.  
+
+Mit den Angaben aus der Aufgabenstellung können wir folgendes Gleichungssystem aufstellen.
+
+(I) 4x+2y=64
+(II) 2x+2y=40
+
+Lösen des Gleichungssystems mit dem Additionsverfahren.
+
+Multiplizieren der Gleichung (II) mit (-1):
+
+(I)hspace{7mm} 4x+2y= 64
+(IIa) -2x-2y=-40
+
+Addieren von (I) und (IIa):
+
+4x-2x+2y-2y=64-40
+
+2x=24
+hspace{3mm}x=12
+
+Einsetzen von x=12 in z.B. Gleichung (II):
+
+4·12+2y=64
+hspace{15.5mm}2y=16
+hspace{19mm}y= 8
+
+Der Eintrittspreis für einen Erwachsenen beträgt 12 €, der Eintrittspreis für ein Kind beträgt 8 €.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323429 – https://de.serlo.org/mathe/323429/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Punkte A(-3 | 3), B(3 |-4) und C(1 | 3) werden zu einem Dreieck verbunden.
+- Zeichne das Dreieck in ein Koordinatensystem (LE=1cm).
+- Zeichne die Höhe h_b ein und berechne den Flächeninhalt des Dreiecks.
+Überprüfen Sie folgende Aussage:
+- "Der Schnittpunkt der Mittelsenkrechten des Dreiecks ABC liegt außerhalb des Dreiecks."
+(3 Pkt.)
+Lösung:
+- Dreieck:
+[Abbildung]
+- Höhe h_b der Dreiecksseite b:
+[Abbildung]
+- Fläche des Dreiecks:
+A=(1)/(2)· b· h_b
+Entnehme der Zeichnung:
+b=4cm
+h_b=7cm
+A=(1)/(2)· 4· 7
+A=14
+Das Dreieck hat einen Flächeninhalt von 14cm^2.
+- Schnittpunkt der Mittelsenkrechten:
+[Abbildung]
+Der Schnittpunkt der Mittelsenkrechten des Dreiecks ABC ist der Punkt D und liegt außerhalb der Dreiecks.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 323431 – https://de.serlo.org/mathe/323431/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+[Abbildung]
+In den Jahren 2015 bis 2018 wurden weltweit jährlich durchschnittlich 
+ 4527 Mio. t (Millionen Tonnen) Erdöl gefördert.
+- Berechne wie viel Mio. t Erdöl 2016 weltweit gefördert wurden.
+In Deutschland wurden 2019 insgesamt rund 2 Mio. t Erdöl gefördert.
+Davon entfielen in etwa auf Schleswig-Holstein 1 Mio. t, auf Niedersachsen 0,7 Mio. t und auf Rheinland-Pfalz 0, 15 Mio. t.
+Der Rest wurde in den übrigen Bundesländern gefördert.
+- Erstelle dazu ein Kreisdiagramm.
+(2 Pkt.)
+Lösung:
+- Berechne wie viel Mio. t Erdöl 2016 weltweit gefördert wurden.
+Durchschnitt: 
+
+(4450+x+4516+4630)/(4)=4527
+13596+x=18108
+x=4512
+Im Jahr 2016 wurden weltweit 4512 Mio. t Erdöl gefördert.
+ Erdölförderung 2019 in Deutschland gesamt: 2 Mio. t  
+Schleswig-Holstein: 1 Mio. t 
+Niedersachsen 0,7 Mio. t  
+Rheinland-Pfalz 0, 15 Mio. t. 
+Der Rest wurde in den übrigen Bundesländern gefördert.
+
+- Kreisdiagramm:
+Winkel=(absoluter Wert·360°)/(Gesamtwert)
+Winkel Schleswig Holstein: α=(1·360°)/(2)=180°
+Winkel Niedersachsen: β=(0,7·360°)/(2)=126°
+Winkel Rheinland-Pfalz: γ=(0,15·360°)/(2)=27°
+
+[Abbildung]
+
+
+==============================================================================
+Wahlteil B 2021  (Serlo-ID 320158)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323537 – https://de.serlo.org/mathe/323537/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das abgebildete Kunstwerk „Fußball" besteht innen aus einer Styroporkugel und außen aus einer Hülle aus Leichtbeton.
+Der „Fußball" hat einen Umfang von 4,70 m.
+[Abbildung]
+- Bestimme die Oberfläche des „Fußballs".
+Die Styroporkugel hat ein Gewicht von 21,54 kg und einen Durchmesser von 1,40 m.
+
+- Berechne das Gewicht des "Fußballs", wenn 1 m^{3} Leichtbeton 1050 kg wiegt.
+- Berechne die Winkel α und β im abgebildeten regelmäßigen Fünfeck.
+[Abbildung]
+(5 Pkt.)
+
+
+Noemi baut für ihren Hund einen neuen Auslauf.
+Der Auslauf soll einen Flächeninhalt von 45,5 m^{2} haben. Er wird an 3 Seiten von einem insgesamt 20m langen Drahtzaun begrenzt.
+Entlang der Hauswand gibt es keinen Zaun.
+[Abbildung]
+- Berechne die beiden Möglichkeiten für die Länge a und die Breite b des Auslaufs.
+Von der Normalparabel in der Form y=x^{2}+c sind die folgenden Werte bekannt.
+[Tabelle]
+x | -4 | -3 | -2 | -1 | 0 | 1 | 2
+y | 22 | 15 | 10 |  |  |  | 
+- Vervollständige die Wertetabelle.
+(5 Pkt.)
+Lösung:
+[Abbildung]
+Umfang:  U_{Kugel}=2·π· r
+Volumen:  V_{Kugel}= (4)/(3)·π· r^3
+
+Berechne zunächst den Radius und dann das Volumen des Fußballs.
+Bekannt ist der Umfang des Fußballs U=4,70m.
+2·π· r=4,70
+r=(4,70)/(2· π)
+π=3,14
+r≈0,75 m
+V_{Fußball}=(4)/(3)·3,14·(0,75)^3
+V_{Fußball}=1,77
+Der Fußball hat ein Volumen von 1,77m^3.
+
+Berechne nun das Volumen der Styroporkugel.
+Bekannt ist der Durchmesser d=1,40m.
+r=0,70m
+V_{Styroporkugel}=(4)/(3)·3,14·(0,70)^3
+V_{Styroporkugel}=1,44
+Die Styroporkugel hat ein Volumen von 1,44m^3.
+
+V_{Leichtbeton}=V_{Fußball}-V_{Styroporkugel}
+V_{Leichtbeton}=1,77-1,44=0,33
+Der Leichtbeton hat ein Volumen von 0,33m^3.
+
+Gewicht des Leichtbetons.
+1m^3 Leichtbeton wiegt 1050 kg.
+0,33·1050=346,5
+Der Leichtbeton wiegt 346,5 kg.
+
+Gewicht des Fußballs.
+Gewicht_{Fußball}=Gewicht_{Leichtbeton}+Gewicht_{Styroporkugel}
+346,5+21,54=368,04
+
+Der Fußball hat ein Gewicht von 368,04 kg.
+[Abbildung]
+Regelmäßiges 5-Eck
+
+Innenwinkel: 
+α=(5-2)/(5)180°
+α=108°
+Winkelsumme im Dreieck:
+Die beiden Winkel links und rechts neben β haben (180°-108°):2=36°
+Zusammen mit β ergeben sie 108°.  ⇒
+β=36°
+[Abbildung]
+Rechteck:
+A_{Rechteck}=a· b
+
+Bekannt:
+A_{Rechteck}=45,5m^2
+a+2b=20m
+a=20-2b
+
+Setze a in die Rechteckformel ein.
+(20-2b)· b=45,5
+20b-2b^2-45,5=0
+2b^2-20b+45,5=0
+
+Mitternachtsformel
+ b_{1,2}=frac{-(-20)±√{(-20)^2-4·2·45,5}}{2·2}
+b_{1,2}=frac{20±√{(400-364}}{4}
+b_{1,2}=(20± 6)/(4)
+b_1=6,5   =>   a_1=20-13=7
+b_2=3,5    =>  a_2=20-7=13
+
+Der Auslauf kann entweder die Seitenlängen a_1=7m und b_1=6,5m haben 
+oder die Seitenlängen a_2= 13m und b_2 =3,5m.
+Parabel mit der Form  y=x^2+c
+Wertetabelle
+Berechne c zur Bestimmung der fehlenden Werte. 
+Setze die Werte z.B. x=-4 und y=22 in die Parabel ein.
+22=(-4)^2+c
+c=22-16
+c=6
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323539 – https://de.serlo.org/mathe/323539/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Eine mit 2m Abstand zum Boden installierte LED-Lampe beleuchtet eine kreisrunde Fläche auf dem Boden. (siehe Abbildung)
+- Berechne diese Kreisfläche.
+[Abbildung]
+Mit dieser LED-Lampe soll ein quadratischer Tisch mit einer Seitenlänge von 0,9 m vollständig ausgeleuchtet werden.
+- Berechne den Mindestabstand der Lampe vom Tisch.
+In einem Haushalt muss eine defekte Glühbirne ausgetauscht werden.
+- Bestimme, ab welcher Leuchtdauer in Stunden sich der Einsatz von Leuchtmittel 1 im Vergleich zu Leuchtmittel 2 lohnt.
+[Abbildung]
+(5 Pkt.)
+M ist der Mittelpunkt des Halbkreises.
+
+‾{A B}=14,0cm
+[Abbildung]
+- Berechne den Winkel δ.
+- Berechne die Länge der Strecke ‾{B C}.
+- Berechne den Flächeninhalt der grauen Fläche.
+
+Eine Parabel p: y=0,5x^{2}-1 und die Gerade g: y=1,5x-1 schneiden sich.
+- Ermittle die Schnittpunkte.
+(5 Pkt.)
+Die Kreisfläche ist: [Lücke: 4,15] m^2.
+
+Der Mindestabstand der Lampe vom Tisch ist: [Lücke: 1,1] m.
+
+Ab einer Leuchtdauer von mehr als [Lücke: 40] Stunden lohnt sich der Einsatz von Leuchtmittel 1 im Vergleich zu Leuchtmittel 2 .
+
+Die Größe des Winkels δ beträgt: [Lücke: 42]°.
+
+Die Länge der Strecke ‾{B C} ist: [Lücke: 5,02] cm.
+
+Der Flächeninhalt der grauen Fläche ist: [Lücke: 44,16] cm^2.
+
+Die Schnittpunkte der Parabel mit der Geraden sind:
+
+S_1 [Lücke: 0] | [Lücke: -1] 
+hspace{25mm} und
+S_2[Lücke: 3] | [Lücke: 3,5] 
+Lösung:
+Berechnen der Kreisfläche.
+Die Formel zur Berechnung der Kreisfläche lautet:
+
+A_{Kreis}=r^2·π
+[Abbildung]
+Berechnen des Radius textbf{r} mithilfe des Tangens.
+
+Im rechtwinkligen Dreieck gilt:
+
+mathrm{tan(α)=(Gegenkathete)/(Ankathete)}
+
+Angewandt auf das farbig markierte Dreieck:
+
+mathrm{tan((60°)/(2))=(r)/(2) ⇒ r=2·tan30°}
+
+r=2·0,5774
+
+r=1,15m
+
+A_{Kreis}=1,15^2·π
+
+A_{Kreis}=4,15m^2
+
+Der Flächeninhalt des Kreises beträgt:boxed{4,15m^2}.
+
+Berechnen des Mindestabstands der Lampe vom Tisch.
+[Abbildung]
+Damit der Tisch vollständig ausgeleuchtet wird, muss der Durchmesser des Lichtkegels mindestens so gross wie die Diagonale des Tisches sein.
+
+Berechnen der Diagonale des Tisches.
+
+a^2+a^2=(Diagonale_{Tisch})^2
+
+mathrm{Diagonale_{Tisch}=√{0,81+0,81} ⇒ Diagonale_{Tisch}=√{1,62}}
+
+Diagonale_{Tisch}=1,27m
+
+Der Radius des Lichtkegels ist dann: 
+
+r_{Lichtk.}=1,27:2
+
+r_{Lichtk.}=0,635m
+Berechnen der Höhe der Lampe mithilfe des Tangens.
+
+mathrm{tan(30°)=dfrac{r_{Lichtkegel}}{h_{Lampe}} ⇒ h_{Lampe}=dfrac{r_{Lichtkegel}}{tan(30°)}}
+
+mathrm{h_{Lampe}=(0,635)/(0,5774)}
+
+h_{Lampe}=1,1m
+
+Der Mindestabstand der Lampe vom Tisch beträgt ca. boxed{1,1m}.
+Bestimmen, ab welcher Leuchtdauer in Stunden sich der Einsatz von Leuchtmittel 1 im Vergleich zu Leuchtmittel 2 lohnt.
+Aufstellen der Funktionsgleichungen für Leuchtmittel 1 und Leuchtmittel 2. 
+
+Leuchtmittel 1:hspace{60mm}Leuchtmittel 2:
+
+y_1=0,2x+120hspace{62mm}y_2=1,2x+80
+
+Gleichsetzen der Funktionsgleichungen und berechnen von x:
+
+0,2x+120=1,2x+80
+Berechnen von x.
+  0,2x+120 = 1,2x+80   | -120
+  0,2x = 1,2x-40   | -1,2x
+  -x = -40   | ·(-1)
+  x = 40
+[Abbildung: Die Grafik braucht nicht erstellt zu werden.]
+Der Einsatz von Leuchtmittel 1 im Vergleich zu Leuchtmittel 2, lohnt sich ab einer Leuchtdauer von mehr als textbf{40} Stunden.
+Berechnen des Winkels Large{δ}.
+[Abbildung]
+Das Dreieck ABC ist ein rechtwinkliges Dreieck, da der Punkt textbf{C} auf dem Thaleskreis liegt.
+
+Das Dreieck AMC ist ein gleichschenkliges Dreieck.
+mathrm{‾{AM}=‾{MC}}da diese Strecken Radien des Halbkreises sind. 
+In einem gleichschenkligenDreieck sind die Basiswinkel gleich groß.  
+
+Der Winkel α ist dann:  α=21°.
+
+Berechnen des Winkels δ:
+Da die Winkel δundγNebenwinkel sind, gilt:
+δ+γ=180°
+
+δ=180°-γhspace{40mm}γ=180°-2·21°
+
+δ=180°-(180-2·21°)
+δ=180°-180°+42°
+
+δ=42°
+
+Der Winkel δ beträgt:boxed{42°}.
+
+Berechnen der Länge der Strecke Large{‾{BC}}.
+Da das Dreieck ABC rechtwinklig ist, kann die Strecke ‾{BC} mithilfe des Sinus berechnet werden.
+
+Im rechtwinkligem Dreieck gilt:
+
+mathrm{sin(α)=(Gegenkathete)/(Hypotenuse)}
+
+Angewandt auf das Dreieck ABC:
+
+mathrm{sin(21°)=dfrac{‾{BC}}{‾{AB}} ⇒ ‾{BC}=‾{AC}·sin(21°)}
+
+‾{BC}=14·0,3584
+
+‾{BC}=5,02cm
+
+Die Länge der Strecke ‾{BC} ist beträgt:boxed{5,02cm}. 
+Berechnen des Flächeninhalts der grauen Fläche.
+mathrm{A_{graue Fl.}=A_{Halbkreis}-A_{Dreieck_{ABC}}}
+ 
+
+Berechnen der Fläche des Halbkreises:
+
+mathrm{A_{Halbkreis}=(r^2·π)/(2) ⇒ A_{Halbkreis}=(7^2·π)/(2)}
+
+mathrm{A_{Halbkreis}=(49·π)/(2)}
+
+underline{A_{Halbkreis}=76,97cm^2}
+
+Berechnen der Fläche des Dreiecks large{ABC}:
+mathrm{A_{Dreieck_{ABC}}=dfrac{‾{BC}·‾{AC}}{2} ‾{AC}=√{(‾{AB})^2-(‾{BC})^2}}
+
+mathrm{‾{AC}=√{(14)^2-(5,02)^2}}
+
+mathrm{‾{AC}=√{170,80}}
+
+underline{‾{AC}=13,07cm}
+
+mathrm{A_{Dreieck_{ABC}}=(5,02·13,07)/(2)}
+
+underline{mathrm{A_{Dreieck_{ABC}}=32,81cm^2}}
+
+Berechnen des Flächeninhalts der grauen Fläche:
+A_{graue Fl.}=76,97-32,81
+
+underline{underline{A_{graue Fl.}=44,16cm}}
+
+Der Flächeninhalt der grauen Fläche beträgt:boxed{44,16cm^2}.
+Ermitteln der Schnittpunkte der Parabel Large{textbf{p}} mit der Geraden Large{textbf{g}}.
+Gleichsetzen der Funktionsgleichungen der Parabel textbf{p} und der Geraden textbf{g}.
+
+0,5x^{2}-1=1,5x-1
+Berechnen von x.
+  0,5x^{2}-1 = 1,5x-1   | -1,5x+1
+  0,5x^{2}-1,5x = 0
+  x·(0,5x-1,5) = 0
+  x_1 = 0
+  0,5x-1,5 = 0   | +1,5
+  0,5x = 1,5   | :0,5
+  x_2 = 3
+Einsetzen der beiden x-Werte z. B. in die Funktionsgleichung der Geraden textbf{g}.
+
+y_1=1,5·0-1
+underline{y_1=-1}
+
+y_2=1,5·3-1
+underline{y_2=3,5}_{ }
+Die Schnittpunkte der Parabel und der Geraden sind dann:
+
+S_1(0|-1)und S_2(3|3,5)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323541 – https://de.serlo.org/mathe/323541/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Länge der Grundkante und die Höhe der quadratischen Pyramide 
+betragen jeweils 6,0 m.
+[Abbildung]
+- Berechne den Flächeninhalt einer Seitenfläche.
+- Berechne den Winkel α.
+- Um wievielmal größer wird das Volumen der Pyramide, wenn die Länge der Grundkanten verdoppelt wird und die Pyramidenhöhe unverändert bleibt?                                       Begründe deine Antwort.
+(5 Pkt.)
+Von Juni bis Dezember 2020 war der Mehrwertsteuersatz (MwSt.) von 19 % auf 16 % reduziert. Ein Sweatshirt kostete im Dezember 2020 einschließlich der MwSt. 49,90 €. Ab Januar 2021 wurde die MwSt. wieder auf 19 % erhöht.
+- Berechne den Preis des Sweatshirts im Januar 2021.
+Das Geschäft kalkuliert seine Preise nach folgendem Schema.
+[Abbildung]
+Eine Jacke wird inkl. MwSt. (Bruttopreis) zu 149,90 €  verkauft.
+- Berechne den Einkaufspreis für diese Jacke.
+Für eine Werbeaktion dürfen die Kunden ihren Rabatt auf den Bruttopreis auswürfeln. Hierzu dürfen die Kunden 2-mal mit einem Spielwürfel würfeln und die Ergebnisse werden addiert.
+
+- Bestimme die Wahrscheinlichkeit für einen Rabatt von über 10 %.
+[Abbildung]
+(5 Pkt.)
+Lösung:
+Berechnen des Flächeninhalts einer Seitenfläche.
+[Abbildung: Die Abbildung ist nicht maßstabsgetreu.]
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Angewandt auf das Dreieck ABS:
+
+mathrm{A_{ABS}=dfrac{‾{AB}·‾{MS}}{2}}
+
+Die Strecke ‾{AB} ist bekannt, die Strecke  ‾{MS} muss berechnet werden.
+
+Berechnen der Strecke ‾{MS} mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Angewandt auf das Dreieck MFS:
+
+mathrm{(‾{MS})^2=(‾{MF})^2+(‾{FS})^2}
+
+Einsetzen der bekannten Größen in die Formel:
+
+mathrm{(‾{MS})^2=3^2+6^2 ⇒ ‾{MS}=√{45}}
+
+underline{‾{MS}=6,71m}
+
+Der Flächeninhalt einer Seitenfläche (Dreieck) ist dann:
+
+mathrm{A_{Dreieck}=(6·6,71)/(2)}
+
+underline{underline{A_{Dreieck}=20,13m^2}}
+
+Der Flächeninhalt einer Seitenfläche der Pyramide beträgt: boxed{20,13m^2}.
+
+Berechnen des Winkels α.
+
+[Abbildung: Die Abbildung ist nicht maßstabsgetreu.]
+Berechnen des Winkels α mithilfe des Tangens.
+
+Im rechtwinkligen Dreieck gilt:
+
+mathrm{tan{(α)}=(Gegenkathete)/(Ankathete)}
+
+Für das grün markierte Dreieck gilt dann:
+
+mathrm{tan{(α)}=dfrac{‾{FS}}{‾{AF}}}
+
+Die Strecke ‾{FS} ist bekannt, die Strecke  ‾{AF} muss berechnet werden.
+
+Berechnen der Strecke ‾{AF} mithilfe des Satzes des Pythagoras.
+
+Die Formel zur Berechnung der Diagonale in einem Quadrat lautet:
+
+mathrm{d^2=a^2+a^2 ⇒ d=a·√{2} ‾{AF}=(d)/(2)}
+
+mathrm{‾{AF}=dfrac{6·√{2}}{2} ⇒ ‾{AF}=3·√{2}}
+
+underline{‾{AF}=4,24m}
+
+Der Winkel α ist dann:
+
+mathrm{tan(α)=(6)/(4,24) ⇒ tan(α)=1,4151}
+
+underline{underline{α=54,75°}}
+
+Der Winkel α beträgt: boxed{54,75°}.
+Bestimmen des Vergrößerungsfaktors der Pyramide.
+Die Formel zur Berechnung des Volumeninhalts einer Pyramide lautet:
+
+mathrm{V_{Pyramide}=(1)/(3)· G·{h}}
+
+Berechnen des Volumens der gegebenen Pyramide:
+mathrm{V_{Pyramide1}=(1)/(3)· 6^2·6}
+
+underline{V_{Pyramide1}=72m^2}
+
+Berechnen des Volumens der Pyramide mit verdoppelter Grundkante:
+mathrm{V_{Pyramide2}=(1)/(3)· (2·6)^2·6}
+
+underline{V_{Pyramide2}=288m^2}
+
+Der Vergrößerungsfaktor textbf{k} ist dann:
+
+mathrm{k=(288)/(72) ⇒ k=4}
+
+Bei einer Verdoppelung der Länge der Grundkante wird das Volumen der Pyramide  viermal so groß. 
+Berechnen des Preises des Sweatshirts im Januar 2021.
+Im Dezember 2020 betrug der Preis des Sweatshirts 49,90 €.
+Der Mehrwertsteuersatz im Dezember 2020 war 16 %.
+
+Berechne den Preis des Sweatshirts mithilfe der Formel zur Berechnung des vermehrten Grundwertes.
+
+Die Formel zur Berechnung des vermehrten Grundwertes lautet:
+
+mathrm{G^+=G·(1+(p)/(100))}, wobei G dem Preis ohne Mehrwertsteuer, und  G^+ dem Preis mit hspace{39mm}Mehrwertsteuer entspricht.
+
+Preis ohne Mehrwertsteuer im Dezember 2020:
+
+mathrm{G^+=G·(1+(p)/(100))}
+
+mathrm{49,90=G·(1+(16)/(100)) ⇒ G=(49,90)/(1,16)}
+
+underline{G=43,02 €}
+
+Im Januar wurde der Mehrwertsteuersatz wieder auf 19 % erhöht.
+
+Preis mit Mehrwertsteuer im Januar 2021:
+ 
+ mathrm{G^+=43,02·(1+(19)/(100)) ⇒ G^+=43,02·1,19}
+
+underline{underline{G^+=51,19 €}}
+
+Im Januar 2021 betrug der Preis des Sweatshirts boxed{51,19 €}.
+Berechnen des Einkaufspreises der Jacke.
+Berechnen des Nettopreises der Jacke, der Nettopreis entspricht dem Bruttopreis der Jacke ohne Mehrwertsteuer. 
+
+mathrm{G^+=G·(1+(p)/(100))}
+
+mathrm{149,90=G_{Netto}·(1+(19)/(100)) ⇒ G_{Netto}=(149,90)/(1,19)}
+
+underline{G_{Netto}=125,97 €}
+
+Berechnen des Einkaufpreises der Jacke, der Einkaufspreis entspricht dem Nettopreis der Jacke ohne dem Gewinnzuschlag. 
+
+mathrm{125,97=G_{Einkauf}·(1+(25)/(100)) ⇒ G_{Einkauf}=(125,97)/(1,25)}
+
+underline{underline{G_{Einkauf}=100,78 €}}
+
+Der Einkaufspreis der Jacke beträgt: boxed{100,78 €}.
+Bestimmen der Wahrscheinlichkeit für einen Rabatt von über Large{10 %}.
+Um einen Rabatt zu erhalten, muss die Summe der gewürfelten Zahlen größer als 10 sein. 
+Es gibt drei Möglichkeiten eine Summe größer als 10 zu würfeln:
+
+A: 1. Würfel=5  und 2. Würfel=6: 5+6=11
+B: 1. Würfel=6 und 2. Würfel=5: 6+5=11
+C: 1. Würfel=6 und 2. Würfel=6: 6+6=12
+
+Berechnen der Wahrscheinlichkeit:
+
+mathrm{P_A=(1)/(6)·(1)/(6)=(1)/(36) P_B=(1)/(6)·(1)/(6)=(1)/(36) P_C=(1)/(6)·(1)/(6)=(1)/(36) } 1. Pfadregel
+
+p_{gesamt}=P_A+P_B+P_C2. Pfadregel
+
+mathrm{P_{gesamt}=(1)/(36)+(1)/(36)+(1)/(36)}
+
+underline{underline{mathrm{P_{gesamt}=(3)/(36)≈8,3 %}}}
+
+Die Wahrscheinlichkeit einen Rabatt von über 10 % zu erhalten, beträgt etwa boxed{8,3 %}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323543 – https://de.serlo.org/mathe/323543/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Viereck hat folgende Maße:
+
+a=14m; b=15m; c=10m
+[Abbildung]
+- Bestimme die Winkel α und β.
+- Bestimme den Umfang der Figur.
+(5 Pkt.)
+Die abgebildete Parabel mathrm{y_{1}=x^{2}-3} wird an der Geraden y=2,5 gespiegelt.
+[Abbildung]
+- Zeichne die gespiegelte Parabel in ein geeignetes Koordinatensystem ein
+- Bestimme den Scheitelpunkt der gespiegelten Parabel.
+In einem Koordinatensystem befinden sich die Geraden g_{1}: y=2x+5 und g_{2} mit der Steigung m=-3 und dem y-Achsenabschnitt c=2,5.
+
+- Bestimme den Punkt, an dem sich die beiden Geraden g_{1} und g_{2} schneiden.
+- Überprüfe, welche der Geraden mathrm{y_{1}=2x-3 ; y_{2}=3 x+5} oder y_{3}=-2x+5 parallel zu g_{1} ist. Begründe deine Aussage.
+(5 Pkt.)
+Lösung:
+Bestimmen der Winkel Large{α} und Large{β}.
+[Abbildung: Die Skizze ist nicht maßstabsgerecht.]
+Das Viereck lässt sich in zwei rechtwinklige Dreiecke zerlegen, siehe Skizze.
+
+Berechnen der Strecke textbf{e} mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+large{c^2=a^2+b^2}
+
+Der Satz des Pythagoras angewandt auf das braune Teildreieck (siehe Skizze):
+
+e^2=15^2+10^2 ⇒ e=√{225+100}
+
+e=√{325}
+
+underline{e=18,03m}
+
+Berechnen der Winkel large{α_1} und large{β_1}.
+
+Berechnen des Winkels α_1 mithilfe des Sinus.
+
+Im rechtwinkligen Dreieck gilt:
+
+mathrm{sin(α)=(Gegenkathete)/(Hypotenuse)}
+
+Angewandt auf das braune Teildreieck:
+
+mathrm{sin(α_1)=(15)/(18,03) ⇒ sin(α_1)=0,8319}
+
+underline{α_1=56,3°}
+
+Berechnen des Winkels β_1.
+
+Die Winkelsumme der Innenwinkel im Dreieck beträgt 180°, dann gilt für  β_1:
+
+β_1=180°-90°-56,3°
+
+underline{mathrm{β_1=33,7°}}
+
+Berechnen der Winkel large{α_2} und large{β_2}.
+
+Berechnen des Winkels α_2 mithilfe des Sinus.
+
+mathrm{sin(α_2)=(14)/(18,03) ⇒ sin(α_2)=0,7765}
+
+underline{α_2=50,9°}
+
+Die Winkelsumme der Innenwinkel im Dreieck beträgt 180°, dann gilt für  β_2:
+
+β_2=180°-90°-50,9°
+
+underline{mathrm{β_2=39,1°}}
+
+Die Winkel α und β sind dann:
+
+α=α_1+α_2
+α=56,3°+50,9°
+underline{underline{α=107,2°}}
+
+β=β_1+β_2
+β=33,7°+39,1°
+underline{underline{β=72,8°}}
+
+Der Winkel α beträgt: boxed{α=107,2°} 
+
+Der Winkel β beträgt: boxed{β=72,8°} 
+
+Bestimmen des Umfangs der Figur.
+Umfang der Figur:
+
+U_{Figur}=a+b+c+d
+
+Die Längen der Seiten a; b; csind bekannt, die Länge der Seite d muss noch berechnet werden.
+
+Berechnen der Seite d mithilfe des Satzes des Pythagoras.
+
+d^2=e^2-a^2
+
+d^2=18,03^2-14^2 ⇒ d=√{325,08-196}
+
+d=√{129,08}
+
+underline{d=11,36m}
+
+Der Umfang der Figur ist dann:
+
+U_{Figur}=14+15+10+11,36
+
+underline{underline{U_{Figur}=50,36m}}
+
+Der Umfang der Figur beträgt etwa boxed{50,4m}.
+Einzeichnen der gespiegelten Parabel in ein  Koordinatensystem.
+
+[Abbildung: Darstellung Koordinatensystem]
+Der Abstand der gegebenen Parabel von der Spiegelachse, (y=2,5) beträgt 3+2,5=5,5 LE. Der Scheitelpunkt der gespiegelten Parabel liegt dann 5,5 LE oberhalb der Spiegelachse auf der y-Achse (Normalparabel).
+Darstellung der gegebenen Parabel (blau), der gespiegelten Parabel (grün) und der Spiegelachse im Koordinatensystem.
+
+Bestimmen des Scheitelpunkts der gespiegelten Parabel.
+Die  Scheitelform lautet:
+f(x)=a·(x-x_S)^2+y_S
+
+Da es sich bei der gespiegelten Parabel um eine nach unten geöffnete  Normalparabel handelt, ist der Öffnungsfaktor a=-1.
+
+Der y-Koordinate des Scheitelpunkts y_S=8, die x-Koordinate des Scheitelpunkts x_S=0(siehe Darstellung Koordinatensystem).
+
+Die Scheitelform der gespiegelten Parabel ist dann:
+
+y_{gesp}=-(x+0)^2+8
+
+y_{gesp}=-x^2+8
+
+Der Scheitelpunkt der gespiegelten Parabel ist: S(0|8).
+Bestimmen des Punktes, an dem sich die beiden Geraden large{g_1} und large{g_2}  schneiden.
+Die allgemeine Geradengleichung lautet:
+y=m· x+t
+ 
+Mit den Angaben aus der Aufgabenstellung lässt sich die Funktionsgleichung der Geraden g_2 aufstellen.
+
+Die Funktionsgleichung von g_2:y=-3x+2,5
+
+Gleichsetzen der Geradengleichungen g_1 und g_2.
+Berechnen von x.
+  2x+5 = -3x+2,5   | +3x-5
+  5x = -2,5   | :5
+  x = -0,5
+Einsetzen des berechneten x-Wertes in z. B. g_1
+y=2·(-0,5)+5 ⇒ y=-1+5
+y=4
+
+Der Schnittpunkt der beiden Geraden ist dann:P(-0,5|4)
+Überprüfen, welche der Geraden Large{y_{1}};Large{y_{2}} oder Large{y_{3}} parallel zu Large{g_{1}} ist. Begründe deine Aussage.
+y_1=2x-3
+y_2=3x+5hspace{60mm}g_1=2x+5
+y_2=-2x+5
+
+Zwei Geraden sind parallel, wenn ihre Steigungen gleich sind.
+
+Die allgemeine Geradengleichung lautet:
+y=m· x+t
+
+Vergleichen der Steigungen der gegebenen Geraden.
+
+mathrm{m_{y_1}=2; m_{y_2}=3; m_{y_3}=-2}
+m_{g_1}=2
+
+Begründung:
+
+Die Steigung der Geraden g_1 ist 2, die einzige Gerade, deren Steigung ebenfalls 2 ist, ist die Gerade der Funktionsgleichung y_1. Also ist die Gerade der Funktionsgleichung y_1 parallel zur Geraden g_1.

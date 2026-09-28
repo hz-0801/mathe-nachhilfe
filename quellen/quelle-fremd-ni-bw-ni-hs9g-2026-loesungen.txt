@@ -1,0 +1,363 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 9, G-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei HS9/2026MatheSjg9GL.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                                                 Mathematik                                 Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                                                            Haupttermin
+
+
+Ablauf der Prüfung
+
+                                  120 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit für die Wahlaufgaben
+
+                                 Zusammensetzung    Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+                                                    (für G- und für E-Kurs)
+                                                    IGS 9: Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil (G-
+                                                    Kurs)
+
+                                 Material/Medien    Arbeitsmittel:
+                                                    - kariertes Papier mit Rand ist zur Verfügung zu stellen
+                                                    - Geodreieck, Zirkel, Bleistift
+      Mathematik Sjg. 9 G-Kurs
+
+
+
+
+                                                    Hilfsmittel:
+                                                    - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                    - Formelsammlung (vorgegeben unter www.gosin.de )
+
+                                 Prüfungsverlauf                     Start zwischen 08:00 Uhr – 08:15 Uhr
+                                                    1. Ausgabe und Bearbeitung von Hauptteil 1 (ohne Hilfsmittel).
+                                                    2. Abgabe von Hauptteil 1 spätestens nach 40 Minuten.
+                                                       (Verkürzung der max. vorgesehenen Bearbeitungszeit führt zur
+                                                       Verlängerung der Bearbeitungszeit für den Hauptteil 2 und den
+                                                       Wahlteil.)
+                                                    3. Ausgabe von Hauptteil 2 und Wahlteil sowie der zugelassenen
+                                                       Hilfsmittel (Taschenrechner, Formelsammlung).
+                                                    4. Auswahlzeit 15 Minuten:
+                                                       - Auswählen von zwei der vier Aufgaben des Wahlteils.
+                                                       - Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt.
+                                                       - Durchstreichen der unberücksichtigten Wahlaufgaben.
+                                                    5. Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+                                                    6. Abgabe spätestens 135 Minuten nach dem Start.
+                                                                     Ende zwischen 10:15 Uhr – 10:30 Uhr
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                       Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                             Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                              Haupttermin
+
+
+Bei der Korrektur der Aufgaben ist Folgendes zu beachten:
+Teilpunkte
+       Bei der Bewertung sind halbe Punkte möglich.
+       Folgerichtige Teillösungen oder Endergebnisse werden voll bewertet, auch wenn ein
+        fehlerhaftes Zwischenergebnis oder die vorgegebene Alternativlösung verwendet wurde.
+Rundungen und Einheiten
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wird in
+        der gesamten Arbeit wiederholt nicht oder falsch gerundet, wird insgesamt nur einmal ein
+        Punkt abgezogen.
+       Gerundete Werte gelten auch dann als richtig, wenn ein Gleichheitszeichen statt eines
+        Näherungssymbols verwendet wird.
+       Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weitergerechnet.
+        Abweichungen aufgrund gerundeter Zwischenergebnisse der Schülerinnen und Schüler sind
+        als korrekt zu werten.
+       Bei falschen oder fehlenden Einheiten im Ergebnis oder in einem explizit geforderten
+        Antwortsatz wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+       Fehlende Einheiten in Zwischenschritten führen nicht zum Punktabzug.
+Offene Aufgaben und Antwortsatz
+       Die Bewertung offener Aufgaben orientiert sich an Schlüssigkeit, Nachvollziehbarkeit und
+        Sinnhaftigkeit der Lösungswege.
+       Bei fehlendem Antwortsatz erfolgt ein Punktabzug, sofern der Antwortsatz explizit gefordert
+        oder durch eine zusätzliche Denkleistung notwendig ist.
+Zeichnungen und Messungen
+       Um die Arbeit an maßstäblichen Zeichnungen zu ermöglichen, ist es notwendig, dass die
+        zentrale Abschlussarbeit in den Druckereinstellungen mit einer Skalierung (Maßstab/Zoom)
+        von 100 % gedruckt wird. Alle für die Bewertung relevanten Längen und Winkel sind vor der
+        Korrektur von der Lehrkraft nachzumessen.
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                              Mathematik                              Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                                   Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+
+      Aufgabe                                      Erwartete Lösung                               Punkte
+                                                         13 500
+          1a                                                                                          1
+                                                         9 450
+                                                         13 200
+          1b                                                                                          1
+                                                         16 840
+                                                         12 000
+          1c                                                                                          1
+                                                          120
+                                                           365
+          1d                                                                                          1
+                                                           3,65
+                                                     1,66 m; 66 kg
+           2                                            11min                                         4
+                                                        6,60 €
+           3                          Überschläge von 12 € bis 13 € sind zu werten.                   2
+                                                          3 Eier
+                                                   15 Teelöffel Zucker
+          4a                                           600 g Mehl                                     2
+                                                        3
+                                                        4 ℓ Milch
+                                                          1
+          4b                                              8 ℓ                                         1
+                                 Alle gleichwertigen Angaben sind als richtig zu werten.
+
+
+                                               25 %; 0,25;
+
+
+
+
+                                                    1
+           5                                          ; 0,5;                                          4
+                                                    2
+
+
+
+                                                        4
+                                                        5 ; 80 %
+                                 Alle gleichwertigen Angaben sind als richtig zu werten.
+          6a                                            7:15 Uhr                                      1
+          6b                                             21 min                                       1
+          6c                                            8:15 Uhr                                      2
+          7a                                             18 cm²                                       1
+                            Alle richtig eingezeichneten Rechtecke und der dazu passend
+          7b                                                                                          3
+                                           berechnete Umfang sind zu werten.
+Niedersächsisches Kultusministerium                                                             Seite 3 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                 Mathematik      Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                              Haupttermin
+
+
+          8a                              10 Stühle              1
+          8b                              6 Tische               1
+          8c                              2∙   + 2               1
+
+
+
+
+Niedersächsisches Kultusministerium                        Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                            Mathematik                          Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                             Haupttermin
+
+
+Hauptteil 2
+
+ Aufgabe                                     Erwartete Lösung                               Punkte
+                                                   Lisa 3
+
+
+
+
+     1a                                                                                         2
+
+
+
+
+     1b                                             Sven                                        1
+     1c                               …mehr als die Hälfte der Stimmen.                         1
+                                           Ja, sie hat Recht.
+                 Zum Beispiel: „50% von 4 Stimmen sind 2 Stimmen. Also hätte sie dann 6
+     1d                                                                                         3
+                            Stimmen und somit eine Stimme mehr als Sven.“
+                           Jede sinnvolle Begründung ist als richtig zu werten.
+                                                    10
+                                                   100
+     2a                                             95                                          2
+                                                   100
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+                                                   931
+     2b                                            1000                                         2
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+
+
+
+
+     2c                                                                                         3
+
+
+                                                    8
+                                                   125
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+                  Ein Smartphone ist im Aussehen in Ordnung und in der Technik nicht in
+     2d                                                                                         2
+                                               Ordnung.
+
+
+
+
+Niedersächsisches Kultusministerium                                                       Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                              Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                                  Haupttermin
+
+
+     3a                                             245 €                                            1
+                                                       35 ∙
+                 Zum Beispiel: „Jeder Tag kostet 35 € und es kommen keine weiteren Kosten
+     3b                                                                                              2
+                                                 mehr dazu.“
+                            Jede sinnvolle Begründung ist als richtig zu werten.
+     3c                                            5 Tage                                            2
+
+
+
+
+                                                                         Parallelogramm
+     4a                                                 Parallelogramm         oder                  2
+                                                              oder          Rechteck
+                                                            Raute
+
+
+
+
+     4b                                          1 600 cm²                                           2
+                                          Nein, er hat nicht Recht.
+     4c                      Zum Beispiel: „Der Flächeninhalt vervierfacht sich.“                    2
+                             Jede sinnvolle Begründung ist als richtig zu werten.
+     4d                                           62,65 m                                            2
+
+
+
+
+     5a                                                                                              1
+
+
+
+
+     5b                                          43,01 cm²                                           2
+     5c                                          378,47 cm³                                          2
+     5d                                          204,58 cm²                                          2
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                              Mathematik                             Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                                   Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                       Erwartete Lösung                                      Punkte
+
+
+
+   1a                                                                                                   2
+
+                          Alle gleichwertigen Darstellungen sind als richtig zu werten.
+
+   1b                                                875 €                                              2
+   1c                                                28 %                                               2
+   1d                                               7 840 €                                             2
+                            Jede sinnvolle Begründung ist als richtig zu werten.
+                 Zum Beispiel: „Sie hat nicht recht. Da sich der Grundwert verändert, kann sie
+   1e                                                                                                   2
+                                   nicht einfach die Prozentsätze addieren.“
+
+
+
+
+                                                        3
+                                                        20
+                                     Farid zieht ein grünes Gummibärchen.
+   2a                                                    0                                              4
+                                                         8
+                                                        20
+                            Alle gleichwertigen Angaben sind als richtig zu werten.
+                                                     3
+   2b                                                20                                                 1
+                            Alle gleichwertigen Angaben sind als richtig zu werten.
+
+
+                                                         1
+                                                         16
+   2c                           Alle gleichwertigen Angaben sind als richtig zu werten.                 3
+
+
+
+
+                                                 Ja, er hat Recht.
+                 Zum Beispiel: „Die Brüche können bei der Rechnung getauscht werden, da es
+   2d             eine Multiplikation ist. Außerdem ist es ein Versuch mit Zurücklegen, daher           2
+                       verändert sich die Wahrscheinlichkeit vom 1. zum 2. Zug nicht.“
+                               Jede sinnvolle Begründung ist als richtig zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                              Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                     Erwartungshorizont
+
+ Sjg. 9 G-Kurs                                                                         Haupttermin
+
+
+                                                     15 €
+   3a                                                                                        2
+                                                     4 kg
+   3b                                                  7,5 ∙                                 1
+   3c                                                5 kg                                    2
+                                         beschreibt das Gewicht in kg.
+   3d                                                                                        2
+                                       beschreibt die Gesamtkosten in €.
+
+
+
+
+   3e                                                                                        3
+
+
+
+
+                                                   S (4 |30)
+
+
+   4a                                               Quader                                   1
+   4b                                             1 198 cm²                                  2
+                                    Jede richtige Ergänzung ist zu werten.
+   4c                                                                                        2
+                                  Jede richtig markierte Fläche ist zu werten.
+   4d                                             84,63 cm²                                  3
+   4e                                                  8                                     2
+
+
+
+
+Niedersächsisches Kultusministerium                                                   Seite 8 von 8
+
+[Seitenwechsel]

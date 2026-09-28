@@ -1,0 +1,374 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS9/2023MatheHS9L/2023MatheHS9EL.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                              Mathematik                                   Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                                               Haupttermin
+
+
+Ablauf der Prüfung
+
+                                  120 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                 Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+                                                     (für G- und für E-Kurs)
+                                                     IGS 9: Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil (G-Kurs)
+
+                                 Material/Medien     Arbeitsmittel:
+                                                     - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                     - Geodreieck, Zirkel, Bleistift
+      Mathematik Hauptschule 9
+
+
+
+
+                                                     Hilfsmittel:
+                                                     - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                     - Formelsammlung (vorgegeben unter www.gosin.de)
+
+                                 Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                     Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                     bearbeiten ist.
+                                                      Die Abgabe erfolgt spätestens nach 40 Minuten (Verkürzung der
+                                                       max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                       Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                      Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                       (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                       des Wahlteils.
+
+                                  + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                       Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                       sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                             1            2               3               4               5              6
+
+
+  ab … Punkte                             72,5          61            49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                  Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                            Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                     Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+
+ Aufgabe                                    Erwartete Lösung                                 Punkte
+                                                  2 300
+     1a                                                                                         1
+                                                  2 700
+                                                     -10
+     1b                                                                                         1
+                                                     30
+                                                     3,3
+     1c                                                                                         1
+                                                     4,2
+                                                  6 000
+     2a                                                                                         1
+                                                 12 300
+                                                 15 000
+     2b                                                                                         1
+                                                 19 500
+                                                     10
+     2c                                                                                         1
+                                                     100
+                                              Montag: -5° C
+                                             Dienstag: 11° C
+     3                                                                                          4
+                                            Mittwoch: -13° C
+                                            Donnerstag: -5° C
+     4a                                          2 542,2                                        1
+     4b                                          15 404                                         1
+     4c                                          219,15                                         1
+                                                     20 t
+     5a                                                                                         2
+                                                     1 m²
+                                                                1
+                                        250 g < 0,395 kg <          kg
+                                                                2
+                                       1
+     5b                                    km < 300 m < 0,485 km                                3
+                                       4
+                                                     1
+                                           300 s <       h < 20 min
+                                                     4
+
+     6a                                        5x + 2 = 17                                      1
+
+
+
+     6b                                                                                         2
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                 Mathematik   Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                  Haupttermin
+
+
+
+
+     6c                                                      2
+
+
+
+
+     7a                                                      2
+
+
+
+
+     7b                                                      1
+
+
+
+                                        wahr
+     7c                                                      2
+                                        wahr
+
+
+
+
+Niedersächsisches Kultusministerium                     Seite 3 von 8
+
+[Seitenwechsel]
+    Abschlussarbeit 2023                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 9 – E-Kurs                                                                    Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                   Mathematik                  Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                     Haupttermin
+
+
+Hauptteil 2
+
+ Aufgabe                                       Erwartete Lösung                               Punkte
+     1a                                                   90 €                                   1
+     1b                                                   138 €                                  2
+                                            Ja, er hat Recht.
+              Beispiellösung: Für 30 Jugendliche bezahlt man nur 360 €, also 15 € weniger
+     1c                                                                                          2
+                                      als beim Großgruppenrabatt.
+                                  Jede sinnvolle Antwort ist zu werten.
+     2a                                             481 Personen                                 2
+                                                     38 %
+                                            unter 18 Jahre: 3,7 cm
+     2b                                zwischen 18 und 60 Jahre: 3,8 cm                          3
+                                             über 60 Jahre: 2,5 cm
+                                        ± 1 mm ist als richtig zu werten
+                                          Nein, er hat nicht Recht.
+                  Beispiellösung: Die Mitglieder können mehrere Sportarten ausüben und
+     2c                                                                                          2
+                                                  angeben.
+                                   Jede sinnvolle Antwort ist zu werten.
+                                                           wahr
+     3a                                                                                          2
+                                                          falsch
+                                              1
+     3b                                           oder 0,5 oder 50 %                             2
+                                              2
+                                         3          1
+     3c                                      oder       oder 0,14 oder 14 %                      1
+                                        21          7
+     4a                                                  21,98 m                                 3
+     4b                                       835,32 m² (839,8 m²)                               2
+     4c                                             1 728,35 Zoll                                1
+     5a                                                  Ø 3,23                                  2
+                                           Ja, sie hat Recht.
+               Beispiellösung: 86 % der Jugendlichen haben eine bessere Note als 5. Das
+     5b                                                              3                           2
+                                                    ist mehr als .
+                                                                     4
+                                      Jede sinnvolle Antwort ist zu werten.
+                                                    Note 1: 2-mal
+     5c                                                                                          2
+                                                    Note 5: 2-mal
+     6a                                                 9 160,88 ℓ                               3
+
+
+
+
+Niedersächsisches Kultusministerium                                                         Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                 Mathematik   Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                  Haupttermin
+
+
+
+
+     6b                                                      2
+
+
+
+
+     6c                                                      2
+
+
+
+
+Niedersächsisches Kultusministerium                     Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                            Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                        Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                    Erwartete Lösung                                       Punkte
+                                               4 Personen:
+                                             0,5 Würfel Hefe
+                                              80 Personen:
+   1a                                                                                                 2
+                                              8 000 g Mehl
+                                                4 ℓ Wasser
+                                             20 Esslöffel Öl
+   1b                                            2,50 €                                               2
+   1c                                           5 600 cm³                                             3
+                                         Nein, er hat nicht Recht.
+              Beispiellösung: Die Maxi-Pizza hat den gleichen Flächeninhalt wie alle 4 Mini-
+              Pizzen zusammen, da der Radius einer Maxi-Pizza doppelt so groß ist, wie der
+   1d                                                                                                 3
+               einer Mini-Pizza und die Maxi-Pizza somit den vierfachen Flächeninhalt einer
+                                              Mini-Pizza hat.
+                                   Jede sinnvolle Antwort ist zu werten.
+
+
+
+   2a                                            Kerze B                                              1
+
+
+
+
+   2b                                                                                                 3
+
+
+
+
+                                                  S (20 / 4)
+                   Beispiellösung: An diesem Punkt sind beide Kerzen nach der gleichen
+                                          Brenndauer gleich groß.
+                                    Jede sinnvolle Antwort ist zu werten.
+   2c                                         y = -0,1x + 6                                           2
+                                                  falsch
+   2d                                                                                                 2
+                                                  falsch
+   2e                                         y = -0,4x + 14                                          2
+
+Niedersächsisches Kultusministerium                                                            Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                Mathematik                     Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                      Haupttermin
+
+
+                                                       77,19 €
+   3a                                                   1,2 %                                       4
+                                                      669,60 €
+   3b                                                  832 €                                        1
+                                            Ja, sie hat Recht.
+             Beispiellösung: Ihr werden 19,325 % vom Gehalt abgezogen, das sind ungefähr
+   3c                                                            1                                  2
+                                                    20 %, also .
+                                                                 5
+                                      Jede sinnvolle Antwort ist zu werten.
+   3d                                                 26,51 %                                       3
+
+                                                      möglich
+   4a                                                unmöglich                                      3
+                                                       sicher
+                                             1
+                                                  oder 0,1 oder 10 %
+                                             10
+   4b                                                                                               2
+                                              1
+                                                  oder 0,5 oder 50 %
+                                             2
+                                                   Beispiellösung:
+
+
+
+
+   4c                                                                                               4
+
+
+
+                                      Jede sinnvolle Antwort ist zu werten.
+                                             1
+                                                 oder 0,17 oder 17 %
+                                             6
+              Beispiellösung: Bei zwei Stellen gibt es zu wenige Kombinationsmöglichkeiten
+   4d                                      (100 Möglichkeiten).                                     1
+                                   Jede sinnvolle Antwort ist zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 8 von 8
+
+[Seitenwechsel]

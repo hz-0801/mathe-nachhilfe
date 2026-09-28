@@ -1,0 +1,405 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Hauptschule Mathematik mit Lösungen – Prüfungsjahr 2024, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320111/2024 (Jahrgangsseite, Serlo-ID 320111); Prüfungsteile: https://de.serlo.org/mathe/320159/pflichtteil-a1 (Pflichtteil A1, ID 320159); https://de.serlo.org/mathe/320160/pflichtteil-a2 (Pflichtteil A2, ID 320160); https://de.serlo.org/mathe/320161/wahlteil-b (Wahlteil B, ID 320161)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2024  (Serlo-ID 320159)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321127 – https://de.serlo.org/mathe/321127/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Trage die fehlenden Zahlen in die Kästchen ein.
+[Abbildung]
+[ 1 P ]
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321131 – https://de.serlo.org/mathe/321131/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ordne den Zahlen je einen passenden Wert  zu.
+[Abbildung]
+15%=[Lücke: 15/100] 
+0,7=[Lücke: 7/10] 
+
+[ 1 P]
+Lösung:
+Prozent: 
+15%= (15)/(100)
+
+Umwandeln von Dezimalzahlen in Brüche:
+0,7=(7)/(10)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321133 – https://de.serlo.org/mathe/321133/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Für zwei Variablen und soll gelten a· b=-2. 
+Kreuze die passende Aussage an.
+
+[ 1 P ]
+[Auswahl (eine Antwort)]
+  ( ) Weder a noch b können negativ sein.
+  ( ) Wenn a negativ ist, dann ist auch b negativ.
+  (x) Wenn a negativ ist, dann muss b positiv sein.
+  ( ) Wenn a den Wert 2 hat, dann hat b den Wert (1)/(2).
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321135 – https://de.serlo.org/mathe/321135/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Max kauft sich eine Hose und bezahlt dafür 21 Euro.
+[Abbildung]
+Wie teuer war die Hose vorher?
+
+[ 1 P ]
+[Eingabefeld: 70]
+Lösung:
+[Abbildung]
+Die Hose hat ursprünglich 70 € gekostet.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321137 – https://de.serlo.org/mathe/321137/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Berechne den Flächeninhalt des Dreiecks ABC.
+[Abbildung]
+[ 1 P ]
+[Eingabefeld: 100]
+Lösung:
+Der Flächeninhalt des Dreiecks entspricht einem Viertel des Flächeninhalts des Quadrates.
+
+A_{Quadrat}=(20cm)^2=400cm^2
+A_{Dreieck}=(1)/(4)· 400cm^2=100cm^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321139 – https://de.serlo.org/mathe/321139/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Berechne das Volumen des Körpers.
+[Abbildung]
+[ 1 P ]
+[Eingabefeld: 92]
+Lösung:
+Der Körper besteht aus einem Quader, von dem eine Ecke abgeschnittten wurde.
+V_{Quader}=l· b· h
+l=10
+b=10
+h=1
+V_{Quader}=10·10·1=100
+
+Die abgeschnittene Ecke ist ein halber Quader.
+l=4
+b=4
+h=1
+V_{halber Eckquader}=(1)/(2)· 4· 4· 1=8
+
+V_{Körper}=100-8=92
+
+Der Körper hat ein Volumen von 92cm^3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321141 – https://de.serlo.org/mathe/321141/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Löse die Gleichung.
+8+4x-0,5=5x+3,5+x
+[ 1 P ]
+x=[Lücke: 2] 
+Lösung:
+8+4x-0,5 = 5x+3,5+x
+  7,5+4x = 6x+3,5   | -3,5
+  4+4x = 6x   | -4x
+  4 = 2x   | :2
+  2 = x
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321143 – https://de.serlo.org/mathe/321143/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Zara erzählt: „Als ich in die Schule ging, merkte ich unterwegs, dass ich meine Schultasche vergessen hatte.
+Ich ging zurück nach Hause, holte meine Schultasche und ging in die Schule."
+
+Skizziere im Schaubild einen Graphen, der zu dieser Geschichte passt.
+[Abbildung]
+[ 1 P ]
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 321145 – https://de.serlo.org/mathe/321145/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Zeichne die Punkte A(2|2), B(5|4) und C(1|6) in das Koordinatensystem ein und verbinde die Punkte.
+Spiegle die entstandene Figur an der Spiegelachse.
+[Abbildung]
+[ 1 P ]
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 321147 – https://de.serlo.org/mathe/321147/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Bei einer Befragung gaben 120 Schülerinnen und Schüler ihre Wünsche für den Verkauf in der Cafeteria an.
+[Abbildung]
+Kreuze das Diagramm an, das zur Tabelle passt.
+[Abbildung]
+[ 1 P ]
+Lösung:
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2024  (Serlo-ID 320160)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321149 – https://de.serlo.org/mathe/321149/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+[Abbildung]
+- Um wie viel Euro lag die Miete für eine 86m^2 große Wohnung im Jahr 2022 höher als im Jahr 2002?
+- Herr Rudolph behauptet, dass der Preis vom Jahr 2012 bis zum Jahr 2022 um mehr als 30% gestiegen ist. Überprüfe seine Behauptung.
+[ 2 P ]
+Die Miete lag 2022 um [Lücke: 275,20] € höher als 2002.
+Die Miete ist um [Lücke: 35,5]% gestiegen.
+
+Lösung:
+2002:
+Preis pro m^2:  5,28 €
+Miete für 86 m^2:  86·5,28frac{€}{{m^2}} =454,08 €
+
+2022:
+Preis pro m^2:  8,48 €
+Miete für 86m^2: 86·8,48frac{€}{{m^2}}=729,28 €
+ 
+Differenz:  729,28€-454,08€=275,20€
+Im Jahr 2022 hat man für eine 86m^2 große Wohnung 275,20 € mehr gezahlt als im Jahr 2002.
+Preis pro m^2 in 2012:  6,26 €
+Preis pro m^2 in 2022:  8,48 €
+Berechne den Protentsatz für den Preisanstieg mit Hilfe des Dreisatzes:
+6,26 €mathop{widehat{=}} 100%
+1 € mathop{widehat{=}}(100)/(6,26)%
+8,48 € mathop{widehat{=}}  8,48·(100)/(6,26)% ≈135,5 %
+Herrn Rudolphs Behauptung stimmt, der Preis ist um 35,5% gestiegen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321151 – https://de.serlo.org/mathe/321151/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im Technikunterricht sollen aus einer rechteckigen Holzplatte zwei gleich große Kreise ausgesägt werden. Der Flächeninhalt eines Kreises soll 908cm^2 betragen.
+Bestimme, wie breit und wie lang die Holzplatte mindestens sein muss.
+[ 2 P ]
+Breite: [Lücke: 68] cm
+Länge: [Lücke: 34] cm
+Lösung:
+Kreisfläche: A=r^2·π
+Gegeben:  A= 908cm^2
+Berechne den Radius des Kreises.
+r=√{ (A)/(π)}
+r=√{ (908cm^2)/(π)}
+r≈ 17cm
+[Abbildung]
+Breite der Holzplatte: 4· 17cm=68cm
+Länge der Holzplatte: 2· 17cm=34cm
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321154 – https://de.serlo.org/mathe/321154/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Wie groß sind die Winkel δ und ε im abgebildeten
+Drachen?
+[Abbildung]
+[ 2 P ]
+δ= [Lücke: 70]° 
+ε=  [Lücke: 35] °
+Lösung:
+Die Summe der Innenwinkel im Dreieck ist 180°.
+δ=180°-90°- (40°)/(2)=70°
+ε=180°-90°-(125°-70°)=35°
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321156 – https://de.serlo.org/mathe/321156/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Ergänze die Tabelle so, dass...
+... eine proportionale Zuordnung vorliegt:
+[Abbildung]
+... eine antiproportionale Zuordnung vorliegt:
+[Abbildung]
+[ 2 P ]
+Lösung:
+Proportionale Zuordnung
+Zwischen zwei Größen besteht eine  proportionale Zuordnung, wenn die Größe der einen Zahl aus der anderen hervorgeht, indem man sie mit immer dem gleichen Faktor multipliziert.
+
+Beispiel:
+[Abbildung]
+Antiproportionale Zuordnung
+Zwischen zwei Größen besteht eine antiproportionale Zuordnung, wenn das Produkt zweier Größen immer konstant ist.
+
+Beispiel:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321159 – https://de.serlo.org/mathe/321159/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Klasse 9a plant eine Umfrage mit Auswertung an ihrer Schule zum Kaufverhalten im Schülerbistro.
+Vor der Durchführung soll mit Planungskarten ein allgemeiner Ablaufplan erstellt werden.
+
+Trage die Nummern aus dem Ablaufplan in die passenden Planungskarten ein.
+[Abbildung]
+[ 2 P ]
+Lösung:
+[Abbildung]
+
+
+==============================================================================
+Wahlteil B 2024  (Serlo-ID 320161)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 321161 – https://de.serlo.org/mathe/321161/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+In einem Beutel befinden sich Murmeln unterschiedlicher Farbe.
+Die Wahrscheinlichkeit, ...
+... eine blaue Murmel zu ziehen, liegt bei 25%.
+... eine grüne Murmel zu ziehen, liegt bei (1)/(6).
+... eine gelbe Murmel zu ziehen, liegt bei 50%.
+... eine rote Murmel zu ziehen, liegt bei (1)/(12).
+Bestimme eine mögliche Anzahl für die Farben der Murmeln.
+
+blaue Murmeln:  _____
+grüne Murmeln:  _____
+gelbe Murmeln:  _____
+rote Murmeln:  _____
+[ 2 P ]
+[Lücke: 3]  blaue Murmeln
+[Lücke: 2]  grüne Murmeln
+[Lücke: 6]  gelbe Murmeln
+[Lücke: 1]  rote Murmeln
+Lösung:
+Lösungsidee: Überlege dir eine Anzahl von Murmeln, mit der du die Prozentzahlen und die Brüche leicht berechnen kannst.
+Wähle als Anzahl Murmeln z.B. 12.
+Blaue Murmeln:  0,25· 12=3
+Grüne Murmeln: (1)/(6)·12=2
+Gelbe Murmeln:  0,5· 12=6
+Rote Murmeln:  (1)/(12)·12=1
+
+--- Teilaufgabe b) ---
+Im Jahr 2020 entstanden in Deutschland ungefähr 227 Millionen Tonnen Bau- und Abbruchabfälle.
+Von den Siedlungsabfällen waren 80 % Haushaltsabfälle.
+[Abbildung]
+Berechne die Menge an Haushaltsabfällen.
+[ 3 P ]
+[Eingabefeld: 39,6]
+Lösung:
+Menge der Siedlungsabfälle:
+
+Berechne die Menge der Siedlungsabfälle unter Verwendung des Prozentsatzes der Bau- und Abbruchabfälle. Ermittle das Ergebnis mithilfe des Dreisatzes.
+
+55%  widehat{=}  227 Mio t
+1% widehat{=} (227)/(55) Mio t
+12% widehat{=} (227· 12)/(55) Mio t ≈ 49,5 Mio t
+Menge der Haushaltsabfälle:
+
+80% der Siedlungsabfälle sind Haushaltsabfälle.
+
+100% widehat{=} 49,5 Mio t
+10% widehat{=} 4,95 Mio t
+80% widehat{=} 8· 4,95 Mio t =39,6 Mio t
+
+Die Menge an Haushaltsabfällen betrug ungefähr 39,6 Millionen Tonnen.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 321165 – https://de.serlo.org/mathe/321165/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Identifiziere die Dreiecke, bei denen der Satz des Pythagoras angewendet werden kann.
+Stelle bei diesen Dreiecken eine geeignete Gleichung auf.
+Streiche nicht passende Dreiecke durch.
+[Abbildung]
+[ 2 P ]
+Lösung:
+Der Satz des Pythagoras stellt eine Beziehung zwischen den Seitenlängen eines rechtwinkligen Dreiecks her:
+y^2+z^2=x^2
+[Abbildung]
+x^2+z^2=y^2
+[Abbildung]
+x^2+y^2=z^2
+[Abbildung]
+Dieses Dreieck hat keinen rechten Winkel.
+[Abbildung]
+
+--- Teilaufgabe b) ---
+Die Abbildung zeigt einen Bauklotz in Form eines Prismas.
+[Abbildung]
+- Skizziere das Netz des Prismas.
+- Mehrere dieser Bauklötze sollen in eine quaderförmige Kiste verpackt werden. Die Kiste hat die Abmessungen: Länge: 30cm  Breite 24cm  Höhe: 22cm. Gib die größtmögliche Anzahl der Bauklötze an, die in die Kiste passen. Erläutere deinen Lösungsweg.
+[ 3 P ]
+Lösung:
+Skizze des Netzes:
+[Abbildung]
+Menge der Bauklötze:
+Höhe der Kiste: 22 cm
+Schichte je zwei Bauklötze übereinander, siehe Skizze.
+[Abbildung]
+Außerdem passen 3 nebeneinander und 2 hintereinander.
+Insgesamt passen also  2·3·2=12 Bauklötze in die Kiste.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321167 – https://de.serlo.org/mathe/321167/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Familie Wahl möchte für ihr Haus eine Solaranlage kaufen. Sie haben ausgerechnet, dass sie dann ca. 1500 Euro Stromkosten im Jahr sparen können.
+Für die Solaranlage entstehen folgende Kosten:
+[Abbildung]
+Berechne, nach wie vielen Jahren die eingesparten Stromkosten höher als der Anschaffungspreis der Solaranlage sind.
+[ 2 P ]
+Nach [Lücke: 17]  Jahren.
+Lösung:
+Anschaffungskosten der Solaranlage:  16000 €+4000 €+5500 €=25500 €
+Stromersparnis pro Jahr: 1500 €
+
+25500 €:1500 €=17
+
+Nach 17 Jahren sind die eingesparten Stromkosten höher als der Anschaffungspreis der Solaranlage.
+
+--- Teilaufgabe b) ---
+Eine Firma benötigt für die Herstellung von Pizzen 18300 t Mehl pro Jahr.
+[Abbildung]
+Stimmt die Aussage in der Sprechblase? Begründe.
+[ 3 P ]
+
+[Lücke: 6,1]  Fußballfelder werden benötigt.
+Lösung:
+Rechne die Einheiten um.
+105m =105 000mm
+68m=68000mm
+25 kg=0,025 t
+Mehlpackungen auf der langen Seite des Feldes nebeneinander:
+105000mm:350mm=300
+Mehlpackungen auf der kurzen Seite des Feldes nebeneinander:
+68000mm:170mm=400
+
+Gesamtanzahl Mehlpackungen auf dem Feld: 300· 400=120000
+Gewicht einer Mehlpackung: 0,025 t
+Benötigte Anzahl an Mehlpackungen für 18300 t Mehl:  18300 t:0,025 t=732000
+
+Benötigte Anzahl Fußballfelder für Packungen 732000 Packungen Mehl:
+732000:120000=6,1
+Die Aussage ist richtig.

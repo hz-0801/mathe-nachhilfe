@@ -1,0 +1,815 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS9/2024MatheHS9E_Teil1.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 4.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                                  Mathematik                                         Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                                 Deckblatt                                                 Haupttermin
+
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2024 Mathematik
+
+
+
+
+                                 Hauptteil 1      Hauptteil 2              Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                36                     20                   84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note             …………………………………..……..
+    Punktzahl           Punktzahl
+                                                                 Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                   ………………………………………....
+                                                                 Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2                 3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                   38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                               Seite 1 von 4
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                                   Mathematik                                     Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                         Hauptteil 1 (ohne Hilfsmittel)                                   Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen.
+
+  a)         +            23               56                              b)         ∙            4               70
+            45                                                                        8
+                                           78                                         6
+
+
+Aufgabe 2
+
+Rechne schriftlich.
+
+a) 744,9 + 928,3                                              b) 973 · 25
+
+
+
+
+Aufgabe 3
+
+a) Kreuze die passende Einheit an.
+
+                                      m                                                        m
+                                                                      Füllung/
+                 Größe einer
+                                      m²                           Rauminhalt einer           m²
+                 Rasenfläche
+                                                                     Badewanne
+                                      m³                                                      m³
+
+b) Wandle in die angegebene Einheit um.
+
+   15,05 €       = _________ ct                          1,5 m       = _________ cm
+
+                                                          1
+    5,609 kg     = _________ g                           52 h        = _________ min
+
+
+                                                                      1a         1b       2a       2b       3a          3b
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                       2         2        2        2         2          4
+                                                       Punktzahl
+
+Niedersächsisches Kultusministerium                                                                            Seite 2 von 4
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                                    Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 1 (ohne Hilfsmittel)                                  Haupttermin
+
+
+Aufgabe 4
+
+Ergänze die Zahlenreihen.
+
+
+          69                     71                  73
+
+
+          -8                     -5                                           1
+
+
+         0,2                     0,8                                                                  2,6
+
+
+
+
+Aufgabe 5
+
+Ergänze die Tabelle.
+
+                                 Bruch          Dezimalzahl           Prozent
+
+                                                    0,25
+
+                                      1
+                                      2
+
+                                                                           40 %
+
+
+
+
+Aufgabe 6
+
+Lisa kauft vier Eintrittskarten für den Zoo und dazu eine Tüte Tierfutter für 3 €. Sie bezahlt 51 €.
+
+Kreuze die passende Gleichung an.
+
+               4x + 3 = 51                         4x – 3 = 51                          3x + 4 = 51
+
+
+
+
+                                                                                            4         5        6
+                                                                            Erreichte
+                                                                            Punktzahl
+                                                                            Mögliche
+                                                                                            3         3        1
+                                                                            Punktzahl
+
+Niedersächsisches Kultusministerium                                                                     Seite 3 von 4
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                          Mathematik                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 7
+
+a) Bestimme den Flächeninhalt. Flächeninhalt: _____________
+
+
+                   1 cm
+
+
+
+
+                                                                                                  (Skizze nicht maßstäblich)
+b) Ist die jeweilige Aussage wahr oder falsch? Kreuze an.
+
+                                                                           wahr   falsch
+                Das abgebildete Viereck ist ein Parallelogramm.
+                Das abgebildete Viereck ist achsensymmetrisch.
+                Alle Winkel eines Vierecks ergeben zusammen 180°.
+
+
+c) Zeichne ein Rechteck mit dem gleichen Flächeninhalt. Nutze den Platz neben der Skizze.
+
+
+
+Aufgabe 8
+
+Levi hat beim Lösen einer Gleichung einen Fehler gemacht.
+
+Markiere den Fehler.
+Berichtige den Lösungsweg.
+
+
+
+
+                                                                             7a     7b       7c                                8
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                              1     3         1                                2
+                                                               Punktzahl
+
+
+Niedersächsisches Kultusministerium                                                             Seite 4 von 4
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS9/2024MatheHS9E_Teil2.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 11.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                           Mathematik                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                    Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (      )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (      )
+
+                                                Wahlaufgabe W3        (      )
+
+                                                Wahlaufgabe W4        (      )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                                 anderes   angegeben       ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 1 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                         Mathematik                                    Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                     Haupttermin
+
+
+Aufgabe 1
+
+
+
+
+                                                                                                                    Quelle: MK Nds.
+Die Hauswand soll gestrichen werden.
+
+a) Berechne die Fläche der Hauswand.
+
+
+
+
+                                                                           6m
+
+
+
+
+                                                                                                           4m
+                                                                         9m
+
+                                                    (Skizze nicht maßstäblich)
+
+
+
+
+                                                                                                                    Quelle: MK Nds./Pixabay
+b) Bestimme die Anzahl der benötigten Farb-Eimer.                                   3 ℓ Farb-Eimer
+   (Wenn du Teilaufgabe a) nicht gelöst hast, dann rechne mit                          für 25 m2
+
+   A = 46 m² weiter.)
+
+
+Aufgabe 2
+
+
+
+
+                                                                                                                    Quelle: MK Nds.
+                                                                                                           1,9 cm
+Rima ist 152 cm groß.
+Sie steckt einen Turm aus Bausteinen zusammen,
+der so groß ist wie sie.
+a) Berechne die benötigte Anzahl an Bausteinen.
+                                                                                (Skizzen nicht maßstäblich)
+
+Rima baut einen Turm, der so groß ist wie ihr Vater. Sie benötigt dafür 96 Bausteine.
+b) Wie groß ist ihr Vater? Berechne.
+
+
+
+Ihr Bruder setzt Bausteine nach folgendem Muster zusammen.                                                          Quelle: MK Nds.
+
+
+
+
+                                                                         ∙∙∙
+   1 Baustein         3 Bausteine             6 Bausteine
+
+c) Skizziere das Muster mit 15 Bausteinen.
+
+
+
+                                                                    1a         1b      2a        2b       2c
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                    4          1        1         1        2
+                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 2 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                               Mathematik                                 Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                       Hauptteil 2 und Wahlteil                                   Haupttermin
+
+
+Aufgabe 3
+                                                                                                 (Skizze nicht
+Ein Trinkhalm aus Glas steht in einem Pappbecher.                                                maßstäblich)
+
+a) Wie lang ist der Teil des Trinkhalms im Becher? Berechne.
+
+
+Chris benutzt einen 22 cm langen Trinkhalm aus Glas.
+
+
+
+
+                                                                                                                      Quelle: MK Nds.
+Der leere Pappbecher kippt um, wenn ein Trinkhalm mehr als
+13 cm herausragt.
+
+b) Kippt der Pappbecher mit diesem Trinkhalm um?
+  Berechne und entscheide.                (Wenn du Teilaufgabe a) nicht
+ gelöst hast, dann rechne mit einer Trinkhalmlänge im Becher von 7,55 cm weiter.)
+
+c) Wie hoch muss der Pappbecher mindestens sein, damit er nicht umkippt? Berechne.
+
+
+
+Aufgabe 4
+                                                                                                Einwohnerzahl
+Die Tabelle zeigt die Nachbarländer von Deutschland mit ihren             Nachbarland
+                                                                                                    in Mio.
+Einwohnerzahlen.                                                              Dänemark                5,9
+a) Nenne das Land mit der geringsten Einwohnerzahl.                          Niederlande             17,6
+  Schreibe die Einwohnerzahl in Ziffern vollständig aus.                       Belgien               11,7
+b) Berechne die durchschnittliche Einwohnerzahl der deutschen                 Luxemburg              0,65
+   Nachbarländer.                                                             Frankreich             64,8
+Deutschland hat ca. 84 300 000 Einwohner                                       Schweiz                8,9
+                                      2
+und eine Fläche von 357 588 km .                                              Österreich                 9
+                                                    2
+c) Berechne die Anzahl der Einwohner pro km .
+                                                                              Tschechien             10,7
+
+In Berlin leben 3 700 000 Menschen.                                             Polen                  41
+Nele behauptet: „In Berlin leben etwa 7 % der Einwohner Deutschlands.“
+d) Hat Nele recht? Kreuze an und begründe.
+
+         Ja, sie hat recht.               Nein, sie hat nicht recht.
+
+Begründung: _____________________________________________________________________
+                                                         3a      3b      3c       4a       4b       4c       4d
+ ___________________________               Erreichte
+                                           Punktzahl
+                                           Mögliche
+                                                          2       2      3        2        2         1        2
+                                           Punktzahl
+Niedersächsisches Kultusministerium                                                                  Seite 3 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                            Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                      Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+Aufgabe 5
+                                                 Kosten in €
+In Hannover gibt es eine Grundgebühr für
+Trinkwasser von 20 € pro Jahr.
+Jeder m³ Trinkwasser kostet zusätzlich 2 €.
+
+
+
+a) Ergänze die fehlenden Werte in der
+   Tabelle.
+
+  x: Verbrauch in m3        y: Kosten in €
+
+              0
+
+
+             15
+
+
+                                      220
+
+
+
+b) Stelle die passende Funktionsgleichung                                                   Verbrauch in m³
+
+   auf.
+
+   y = ________∙ x +_________
+
+
+
+c) Kreuze den passenden Funktionstypen an.
+
+           proportional
+
+           antiproportional
+
+           linear
+
+
+
+
+                                                                                    5a       5b       5c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                    3         2        1
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 4 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                           Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+Aufgabe 6
+
+
+
+
+                                                                                                            Quelle: MK Nds.
+Das ist ein 12er-Würfel (Dodekaeder).
+Die Flächen sind mit den Zahlen 1 bis 12 beschriftet.
+
+a) Ergänze die Lücken bei einmaligem Würfeln.
+
+ Ereignis                                                                Wahrscheinlichkeit
+
+ Es wird eine „10“ gewürfelt.
+
+ Es wird eine „durch 3“ oder „durch 4“ teilbare Zahl gewürfelt.
+
+                                                                                 1
+                                                                                 4
+
+
+Mohamad und Emrin spielen mit diesem Würfel.
+
+Mohamad gewinnt, wenn mindestens eine „9“ gewürfelt wird.
+Emrin gewinnt, wenn die Zahl höchstens eine „4“ ist.
+Mohamad beschwert sich: „Das Spiel ist nicht fair.“
+
+b) Hat Mohamad recht? Kreuze an und begründe.
+
+         Ja, er hat recht.            Nein, er hat nicht recht.
+
+Begründung: _____________________________________________________________________
+
+Mohamad zeichnet das Netz eines Dodekaeders.
+c) Beschrifte das Netz mit den Buchstaben A, B und C, sodass folgende Wahrscheinlichkeiten gelten:
+
+ Zahl    Wahrscheinlichkeit                                                                                 Quelle: MK Nds.
+
+                    1
+   A
+                    2
+                    1
+   B
+                    3
+                    1
+   C
+                    6
+
+
+
+                                                                                 6a       6b       6c
+                                                                     Erreichte
+                                                                     Punktzahl
+                                                                     Mögliche
+                                                                                 3         2        2
+                                                                     Punktzahl
+
+Niedersächsisches Kultusministerium                                                        Seite 5 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                            Mathematik                       Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                          Haupttermin
+
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 1 von 2)
+
+2022 lebten in Deutschland etwa 84 Mio. Menschen.
+Die Tabelle zeigt die Verteilung der Blutgruppen.
+
+
+
+
+                                                                                                           Quelle: MK Nds.
+ Blutgruppe              0            A    B         AB
+ Anteil in %          41 %        43 %              5%                    0   A       B       AB
+
+
+a) Ergänze den fehlenden Wert in der Tabelle.
+   Stelle die Anteile im Streifendiagramm dar.
+
+
+
+
+b) Ist die jeweilige Aussage wahr oder falsch? Kreuze an.
+
+ Aussage                                                                      wahr         falsch
+        1
+ Etwa       der Menschen in Deutschland hat die Blutgruppe „AB“.
+        5
+ Blutgruppe „0“ haben in Deutschland etwa achtmal so viele Menschen wie
+ Blutgruppe „AB“.
+
+
+
+
+c) Wie viele Menschen in Deutschland haben die Blutgruppe A? Berechne.
+
+
+
+
+Niedersächsisches Kultusministerium                                                       Seite 6 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                         Mathematik                            Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                 Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 2 von 2)
+
+
+
+   „Die Blutspendenaktion war ein großer Erfolg.
+   Es gab 850 Blutspenden.                                 „Diese Werte sind möglich, aber
+   Davon hatten 400 die Blutgruppe AB.“                    sehr unwahrscheinlich.“
+
+
+
+
+                                                                                                           Quelle: MK Nds.
+         Dr. Razani                                                Nisa
+
+
+
+
+d) Hat Nisa recht? Kreuze an und begründe.
+
+         Ja, sie hat recht.
+         Nein, sie hat nicht recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                          1a    1b       1c       1d
+                                                            Erreichte
+                                                            Punktzahl
+                                                            Mögliche
+                                                                          4     2         2        2
+                                                            Punktzahl
+Niedersächsisches Kultusministerium                                                       Seite 7 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                         Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                               Haupttermin
+
+
+                                      Wahlaufgabe 2 – Körper
+
+Ein zylinderförmiges Aquarium hat die Maße r = 48 cm, hK = 100 cm.
+a) Berechne das Volumen vom Aquarium.
+
+
+
+Das Aquarium ist nicht komplett mit Wasser gefüllt.
+b) Berechne die Füllhöhe.
+
+
+
+
+                                                                                                                    Quelle: MK Nds.
+                                                              V = 600 000 cm³ Wasser
+
+
+
+                                                                     (Skizzen nicht maßstäblich)
+
+
+
+Das Aquarium ist oben offen.
+Alle Flächen bestehen aus Glas.
+
+
+
+
+                                                                                                 hK = 100 cm
+c) Berechne die gesamte Glasfläche.
+
+
+
+
+                                                                                                                    Quelle: MK Nds.
+                                                                                      r = 48 cm
+                                                                         (Skizzen nicht maßstäblich)
+Ein anderes Aquarium hat die Form eines Würfels.
+Es ist oben offen. Es hat eine Glasfläche von 8 000 cm².
+d) Berechne die Kantenlänge a.
+
+
+
+
+                                                                         2a      2b        2c                  2d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                          2       3         3                  2
+                                                             Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 8 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                          Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                     Hauptteil 2 und Wahlteil                          Haupttermin
+
+
+                       Wahlaufgabe 3 – Wahrscheinlichkeit (Seite 1 von 2)
+
+Auf einem Sommerfest entscheidet ein Glücksrad, welche Musikrichtung als nächstes gespielt wird.
+Alle Felder sind gleich groß.
+
+
+
+
+                                                                                                         Quelle: MK Nds.
+a) Ist die jeweilige Aussage wahr oder falsch? Kreuze an.
+
+       Aussage                                                                   wahr     falsch
+
+       Alle Musikrichtungen sind gleich wahrscheinlich.
+
+       Die Wahrscheinlichkeit, dass der Pfeil auf „Pop“ zeigt, liegt bei 25 %.
+
+
+
+
+b) Es wird einmal gedreht. Ergänze die fehlenden Wahrscheinlichkeiten.
+
+                       Ereignis                                  Wahrscheinlichkeit
+
+                       Der Pfeil zeigt nicht auf „Hip-Hop“.
+
+
+                       Der Pfeil zeigt auf „Rock“ oder „Pop“.
+
+
+
+
+Das Glücksrad wird zweimal gedreht.
+c) Wie groß ist die Wahrscheinlichkeit, dass der Pfeil beide Male auf „Schlager“ zeigt? Berechne.
+
+
+
+
+Niedersächsisches Kultusministerium                                                         Seite 9 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                          Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+                       Wahlaufgabe 3 – Wahrscheinlichkeit (Seite 2 von 2)
+
+Lara möchte anstelle des Glücksrades eine Urne verwenden.
+Die Urne hat 16 Kugeln.
+
+d) Beschrifte die Kugeln so, dass die Wahrscheinlichkeiten dem Glücksrad entsprechen.
+   S = Schlager; P = Pop; R = Rock; H = Hip-Hop
+
+
+
+
+                                                                                                              Quelle: MK Nds.
+Lara zieht eine Kugel „Schlager“ aus der Urne. Sie legt die Kugel nicht zurück.
+Sie behauptet: „Jetzt ist die Wahrscheinlichkeit geringer, wieder eine Kugel „Schlager“ zu ziehen.“
+
+e) Hat Lara recht? Kreuze an und begründe.
+
+         Ja, sie hat recht.
+         Nein, sie hat nicht recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                    3a     3b     3c        3d       3e
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                    2      2       2         2        2
+                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 10 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                            Mathematik                                Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                    Hauptteil 2 und Wahlteil                                  Haupttermin
+
+
+                                       Wahlaufgabe 4 – Flächen
+
+Familie Lee möchte ihren Garten umgestalten.
+Ihre rechteckige Terrasse ist 6 m lang und 3 m                        Haus
+breit.
+a) Berechne den Flächeninhalt der Terrasse.
+
+
+
+
+                                                                                                                  Quelle: MK Nds.
+Das Blumenbeet vor der Terrasse ist ein
+                                                               Terrasse
+Halbkreis. Es hat einen Durchmesser von 4,4 m.
+
+
+An der runden Seite des Blumenbeetes werden
+                                                                                                              b
+Randsteinen verlegt.                                                                              Grillecke
+Für einen Meter werden 5 Randsteine benötigt.                                                      a
+b) Berechne die Anzahl der benötigten
+Randsteine.
+                                                                             (Skizzen nicht maßstäblich)
+
+
+Die Grillecke ist ein rechtwinkliges Dreieck. Sie hat einen Flächeninhalt von 12 m².
+c) Bestimme eine Möglichkeit für die Längen der Seiten a und b.
+
+
+         a = _______                   b = _______
+
+
+Bruce behauptet:
+„Wenn die Seitenlängen der Grillecke verdoppelt werden, dann verdoppelt sich auch der
+Flächeninhalt.“
+
+d) Hat Bruce recht? Kreuze an.
+
+          Ja, er hat recht.
+          Nein, er hat nicht recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+                                                                             4a     4b          4c       4d
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                             2         4         2        2
+                                                               Punktzahl
+Niedersächsisches Kultusministerium                                                             Seite 11 von 11
+
+[Seitenwechsel]

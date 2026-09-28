@@ -1,0 +1,1008 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2025, Schuljahrgang 10, G-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2025, Datei 2025Mathe/2025_ABA_Mathe_10_G-Kurs/2025MatheSjg10G_Teil1.pdf im Archiv 2025Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2025                                  Mathematik                                       Material für Prüflinge
+
+ Sjg. 10 G-Kurs                                         Deckblatt                                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2025 Mathematik
+
+
+
+
+                                  Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                 36                   20                  84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+    Punktzahl           Punktzahl
+                                                Note           …………………………………..……..
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                 ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2               3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                   1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                            Mathematik                            Material für Prüflinge
+
+ Sjg. 10 G-Kurs                         Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen in den Lücken.
+
+a) 12 · _____ = 48                                        b) _____ – 15 = – 9
+
+c) 3 · ( 0,5 + _____ ) = 6                                   2
+                                                          d) 3 : 2 = _____
+
+
+
+
+Aufgabe 2
+
+a) Markiere 5 % der Fläche.
+
+
+
+
+Ein Tablet kostet 600 €. Nina erhält 5 % Rabatt auf diesen Preis.
+
+b) Berechne den neuen Preis.
+
+
+
+
+    Der neue Preis beträgt _______ €.
+
+
+
+Jan erhält auf das gleiche Tablet 20 % Rabatt.
+
+
+Er berechnet den neuen Preis so:         600 € · 0,8 = 480 €
+
+c) Begründe, warum Jan mit 0,8 multipliziert hat.
+
+    ______________________________________________________________________________
+
+    ______________________________________________________________________________
+
+    ______________________________________________________________________________
+
+                                                     1a       1b         1c   1d   2a       2b       2c
+                                      Erreichte
+                                      Punktzahl
+                                      Mögliche
+                                                      1       1          1    1    1         2        1
+                                      Punktzahl
+Niedersächsisches Kultusministerium                                                                 2 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                          Mathematik                         Material für Prüflinge
+
+ Sjg. 10 G-Kurs                       Hauptteil 1 (ohne Hilfsmittel)                        Haupttermin
+
+
+Aufgabe 3
+
+Löse die Gleichung.
+
+4x – 17 + 3x = 18
+
+
+
+
+Aufgabe 4
+
+Abgebildet ist das Dreieck ABC.
+
+
+
+
+                                                                                               Quelle: MK Niedersachsen
+a) Miss die Größe des Winkels α.
+
+    Die Größe des Winkels α beträgt _____ °.
+
+
+
+b) Gib die Dreiecksart in Bezug auf die Winkel an.
+
+    Das Dreieck ist ein ___________________________ Dreieck.
+
+
+
+Die Größe des Winkels β soll berechnet werden.
+
+c) Schreibe einen geeigneten Rechenweg auf.
+
+    Rechenweg: ___________________________________________________
+
+
+                                                                          3   4a       4b                                 4c
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          2   1         1                                 1
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                                        3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                         Mathematik                             Material für Prüflinge
+
+ Sjg. 10 G-Kurs                       Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Aufgabe 5
+
+a) Zeichne im Dreieck ABC die Höhe hc ein.
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+b) Zeichne zur Geraden g eine parallele Gerade f im Abstand von 1,5 cm.
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+Aufgabe 6
+
+a) Gib die Koordinaten des Punktes C an.
+
+    C ( _____ | _____ )
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+Die Punkte A, B und C bilden ein Dreieck.
+
+b) Berechne den Flächeninhalt des Dreiecks.
+
+
+
+
+    Der Flächeninhalt beträgt A = __________ cm².
+
+
+
+Es soll ein Punkt D ergänzt werden, sodass ein Parallelogramm entsteht.
+
+c) Ergänze den Punkt D im Koordinatensystem.
+                                                                       5a   5b   6a       6b       6c
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                       1    1    1         2        1
+                                                     Punktzahl
+
+Niedersächsisches Kultusministerium                                                               4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                               Material für Prüflinge
+
+ Sjg. 10 G-Kurs                         Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Aufgabe 7
+
+Den Umfang eines Fußballfeldes nennt man
+Außenlinie.
+
+
+
+
+                                                                                                                  Quelle: MK Niedersachsen
+Berechne die Länge der Außenlinie.
+
+
+
+
+    Die Außenlinie ist ____________ m lang.                                          (Skizze nicht maßstäblich)
+
+
+
+
+Aufgabe 8
+
+Die Rechtecke , ,  und  haben den gleichen Flächeninhalt.
+
+a) Ergänze die fehlenden Werte in der Tabelle.
+
+
+                                                  Länge            Breite
+
+                                 Rechteck          2m              20 m
+
+                                 Rechteck          4m            _______
+
+                                 Rechteck          8m               5m
+
+                                 Rechteck         80 m           _______
+
+
+Bei Rechtecken mit gleichem Flächeninhalt gilt:
+
+Die Zuordnung „Länge eines Rechtecks → Breite eines Rechtecks“ ist antiproportional.
+
+b) Begründe, dass diese Aussage richtig ist.
+
+    ______________________________________________________________________________
+
+    ______________________________________________________________________________
+
+
+
+
+                                                                                     7         8a          8b
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                     2          2           1
+                                                                         Punktzahl
+
+Niedersächsisches Kultusministerium                                                                      5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                             Mathematik                               Material für Prüflinge
+
+ Sjg. 10 G-Kurs                           Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+
+
+                                                                                                                Quelle: MK Niedersachsen
+Aufgabe 9
+
+Lukas spielt Handball.
+
+Er notiert die Anzahl seiner Treffer nach jedem Spiel:
+
+a) Berechne die durchschnittliche Anzahl seiner Treffer pro Spiel.
+
+
+
+    Lukas hatte durchschnittlich ______ Treffer pro Spiel.
+
+
+
+Kira hat in 4 Spielen einen Durchschnitt von 8,5 Treffern erzielt.
+
+b) Gib an, wie viele Treffer Kira insgesamt erzielt hat.
+
+
+
+    Kira hat insgesamt ______ Treffer erzielt.
+
+
+
+Aufgabe 10
+
+Körper A soll mit einem der unten abgebildeten Körper zu einem
+großen Würfel ergänzt werden.
+
+                                                                       Körper A
+
+
+
+Kreuze den passenden Körper an.
+
+
+                                                                                                                                           Quelle: MK Niedersachsen
+
+
+
+
+             O                        O                            O                          O
+
+
+                                                                                       9a         9b       10
+                                                                           Erreichte
+                                                                           Punktzahl
+                                                                           Mögliche
+                                                                                       2          1         1
+                                                                           Punktzahl
+
+Niedersächsisches Kultusministerium                                                                       6 von 6
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2025, Schuljahrgang 10, G-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2025, Datei 2025Mathe/2025_ABA_Mathe_10_G-Kurs/2025MatheSjg10G_Teil2.pdf im Archiv 2025Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 11.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2025                  Mathematik                                Material für Prüflinge
+
+Sjg. 10 G-Kurs                    Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+
+Name: _____________________________________                      Klasse: __________________
+
+
+
+
+Es wurden die folgenden zwei           Wahlaufgabe W1        (       )
+Aufgaben des Wahlteils gewählt:
+                                       Wahlaufgabe W2        (       )
+
+                                       Wahlaufgabe W3        (       )
+
+                                       Wahlaufgabe W4        (       )
+
+
+
+
+Wichtige Hinweise:      Runde Endergebnisse auf 2 Nachkommastellen, wenn nichts
+                        anderes   angegeben        ist.   Schreibe       deine    Lösungswege
+                        ausführlich auf.
+
+
+
+
+                                                                                             1 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                                Mathematik                                  Material für Prüflinge
+
+ Sjg. 10 G-Kurs                                 Hauptteil 2 mit Wahlteil                                                                 Haupttermin
+
+
+
+Aufgabe 1
+
+Jedes Jahr werden 1200 Jugendliche gefragt: „Hast du in diesem Jahr Bücher gelesen?“
+
+
+
+                                               "Ja, ich habe Bücher gelesen."
+                                  45
+                                  40
+                                        40     39
+                                  35
+                                                         34           35
+                                  30                                         32         32
+                    Anteil in %
+
+
+
+
+                                  25
+
+
+
+
+                                                                                                       Quelle: MK Nds, JIM-Studie 2023
+                                  20
+                                  15
+                                  10
+                                   5
+                                   0
+                                       2017   2018      2019         2020   2021        2022
+                                                              Jahr
+
+
+
+a) Kreuze an.
+
+                                                                              wahr           falsch
+
+
+             Der Anteil der Jugendlichen, die Bücher lesen, hat
+             sich von Jahr zu Jahr verringert.
+
+             Der Unterschied zwischen dem höchsten und dem
+             niedrigsten Anteil beträgt 6 %.
+
+
+b) Berechne, wie viele der befragten Jugendlichen im Jahr 2018 Bücher gelesen haben.
+
+
+Im Jahr 2023 haben 420 der befragten 1200 Jugendlichen Bücher gelesen.
+c) Berechne den prozentualen Anteil.
+
+
+
+
+                                                                                          1a          1b                                     1c
+                                                                            Erreichte
+                                                                            Punktzahl
+                                                                            Mögliche
+                                                                                             2               2                                2
+                                                                            Punktzahl
+                                                                                                                                           2 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                                Material für Prüflinge
+
+ Sjg. 10 G-Kurs                          Hauptteil 2 mit Wahlteil                                     Haupttermin
+
+
+
+Aufgabe 2
+
+In einem Computerchip befinden sich Bauteile, die Informationen
+verarbeiten.
+
+
+
+
+                                                                                                                      Quelle: pixabay.com
+Der Amerikaner Gordon Moore untersuchte vor etwa 60 Jahren die
+Entwicklung solcher Computerchips und stellte fest:
+
+„Die Anzahl der Bauteile in einem Computerchip verdoppelt sich von Jahr zu Jahr.“
+
+a) Ergänze die fehlenden Werte für die Jahre 1961 und 1964.
+
+
+                         Jahr            1959     1960       1961   1962          …        1964
+
+
+                  Anzahl der Bauteile     2           4              16           …
+
+
+
+Im Koordinatensystem sind bereits zwei
+Wertepaare eingezeichnet.
+
+b) Ergänze die übrigen Wertepaare.
+
+
+
+
+                                                                                                               Quelle: MK Nds.
+c) Kreuze an.
+
+   Die Anzahl der Bauteile wächst …
+
+       O … quadratisch.
+
+       O … linear.
+
+       O … exponentiell.
+
+
+
+Seit 1959 sind bis heute 66 Jahre vergangen.
+
+d) Kreuze den Term an, mit dem du die Anzahl der Bauteile für das Jahr 2025 berechnen kannst.
+
+                            2 · 266             2 · 662              66 · 22
+                                O                 O                       O
+
+                                                                           2a         2b        2c        2d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                              2       2           1        1
+                                                             Punktzahl
+                                                                                                        3 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                          Mathematik                               Material für Prüflinge
+
+ Sjg. 10 G-Kurs                          Hauptteil 2 mit Wahlteil                                 Haupttermin
+
+
+
+Aufgabe 3
+
+Hausmeister Karl lehnt eine Leiter an eine Hauswand.
+
+a) Berechne die Länge der Leiter.
+
+
+
+Karl behauptet: „Die Größe des Winkels α beträgt 70°“.
+
+
+
+
+                                                                                                           Quelle: MK Nds.
+b) Überprüfe mithilfe einer Rechnung, ob seine Behauptung stimmt.
+
+
+
+Für niedrigere Höhen nutzt Karl eine Klappleiter.
+                                                                       (Skizzen nicht maßstäblich)
+c) Berechne die Höhe h.
+
+
+
+
+                                                                                                           Quelle: pixabay.com, MK Nds.
+
+
+
+
+                                                                                   3a        3b        3c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                    2         3        3
+                                                                    Punktzahl
+                                                                                                     4 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                            Mathematik                                   Material für Prüflinge
+
+ Sjg. 10 G-Kurs                           Hauptteil 2 mit Wahlteil                                       Haupttermin
+
+
+
+Aufgabe 4                                           Sorte      Radius
+
+
+
+
+                                                                                                                      Quelle: pixabay.com
+In der Industrie werden mit eingeschmolzenen          A         0,3 cm
+Kunststoffkugeln Körper hergestellt.                  B        0,15 cm
+Es gibt zwei Sorten Kunststoffkugeln.
+
+a) Berechne das Volumen einer Kunststoffkugel der Sorte A.
+
+
+
+Aus eingeschmolzenen Kunststoffkugeln der Sorte A wird eine
+
+
+
+
+                                                                                                                      Quelle: MK Nds.
+Pyramide mit einem Volumen von V = 38 cm3 hergestellt.
+
+b) Berechne die Anzahl der benötigten Kunststoffkugeln der
+   Sorte A.
+
+(Wenn du Teilaufgabe a) nicht gelöst hast, dann rechne mit
+0,12 cm3 weiter.)
+
+
+
+1 cm3 Kunststoff hat die Masse 1,3 g.
+
+c) Berechne die Masse der Pyramide.
+                                                                                   (Skizze nicht maßstäblich)
+
+
+Die hergestellte Pyramide hat die Kantenlänge a = 5 cm.
+
+d) Berechne die Körperhöhe hK der Pyramide.
+
+
+
+Ein anderer Hersteller verwendet für die Herstellung der Pyramide Kunststoffkugeln der Sorte B.
+Der Radius dieser Kunststoffkugeln ist halb so groß wie bei Sorte A.
+
+e) Kreuze an.
+
+   „Für die Herstellung werden nun ...
+
+          ⃝ 2-mal                      ⃝ 4-mal                       ⃝ 8-mal                          ⃝ 16-mal
+
+   … so viele Kunststoffkugeln wie bei Sorte A benötigt.“
+
+
+                                                                      4a       4b         4c        4d          4e
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                       2       2          1          3          2
+                                                      Punktzahl
+                                                                                                           5 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                          Mathematik                              Material für Prüflinge
+
+ Sjg. 10 G-Kurs                         Hauptteil 2 mit Wahlteil                                   Haupttermin
+
+
+
+Aufgabe 5
+
+Bei einer Werbeaktion verschenkt ein Spielwarengeschäft insgesamt 400 Glücksbringer.
+Die Glücksbringer befinden sich in einem Karton.
+
+
+
+
+                                                                                                            Quelle: pixabay.com
+        Glücksbringer
+
+
+            Anzahl                                           113                        125
+
+
+
+a) Berechne die fehlende Anzahl in der Tabelle.
+
+
+
+Die Kunden ziehen nach ihrem Einkauf zufällig einen Glücksbringer aus dem Karton.
+
+
+b) Bestimme die Wahrscheinlichkeit, dass als Erstes ein            gezogen wird.
+   Gib die Wahrscheinlichkeit sowohl als Bruch als auch in Prozent an.
+
+
+
+c) Berechne die Wahrscheinlichkeit, dass als Erstes ein            oder ein         gezogen wird.
+
+
+
+
+Die ersten Kunden haben fünf          , acht        und drei            gezogen.
+
+
+d) Gib die Wahrscheinlichkeit an, dass als Nächstes ein            gezogen wird.
+
+
+
+
+                                                                              5a   5b         5c       5d
+                                                            Erreichte
+                                                            Punktzahl
+                                                            Mögliche
+                                                                              1    2          1         2
+                                                            Punktzahl
+                                                                                                     6 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                                   Material für Prüflinge
+
+ Sjg. 10 G-Kurs                           Hauptteil 2 mit Wahlteil                                      Haupttermin
+
+
+                          Wahlaufgabe 1 – Berechnungen am Dreieck
+
+Medina bastelt für den Mathematikunterricht aus
+einem DIN-A4-Blatt einen Papierflieger.
+Ihre Aufgabe ist es, eine Faltanleitung mit einigen
+Längen- und Winkelangaben zu erstellen.
+
+a) Ermittle die Länge der Strecke x.
+
+
+
+
+                                                                                                                                       Quelle: MK Nds.
+b) Berechne die Länge der Strecke y.
+
+(Wenn du Teilaufgabe a) nicht gelöst hast,
+dann rechne mit x = 104,9 mm weiter.)
+
+
+
+c) Berechne die Länge der Strecke z.
+
+
+
+Medina gibt die Größe des Winkels α mit 45° an.
+
+d) Überprüfe den Wert mithilfe einer Rechnung.                            (Skizzen nicht maßstäblich)
+
+
+
+
+Medina möchte ihre Faltanleitung für ein kleineres Blatt (DIN-A5)
+anpassen und überlegt, ob sie dafür die Längenangaben und
+
+
+                                                                                                                 Quelle: pixabay.com
+Winkelangaben verändern muss.
+
+e) Kreuze an.
+
+       O Sie muss nur die Längenangaben verändern.
+
+       O Sie muss nur die Winkelangaben verändern.
+
+       O Sie muss die Längenangaben und die Winkelangaben verändern.
+
+       O Sie kann alle Längenangaben und Winkelangaben unverändert lassen.
+
+
+
+
+                                                                     1a       1b        1c        1d        1e
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                     1         2         3         3         1
+                                                      Punktzahl
+                                                                                                          7 von 11
+
+[Seitenwechsel]
+                       Abschlussarbeit 2025                               Mathematik                              Material für Prüflinge
+
+                       Sjg. 10 G-Kurs                               Hauptteil 2 mit Wahlteil                                Haupttermin
+
+
+                                                                Wahlaufgabe 2 – Körper
+
+                                        In einer Eisdiele gibt es spezielle Ständer für Eistüten.
+                                        Die Ständer werden aus Acrylglaszylindern hergestellt
+                                        (alle Maße in cm).
+
+
+
+
+                                                                                                                                                            Quelle: MK Nds.
+                                        a) Berechne das Volumen eines Zylinders.
+Quelle: pixabay.com
+
+
+
+
+                                        1 cm³ Acrylglas hat die Masse 1,2 g.
+
+                                        b) Berechne die Masse eines Zylinders.
+
+                                        (Wenn du Teilaufgabe a) nicht gelöst hast, dann rechne mit 345,98 cm³ weiter.)
+                                                                                                          (Skizzen nicht maßstäblich)
+
+
+                      In den Zylinder wird eine Vertiefung gefräst.
+
+                      c) Ergänze.
+
+                         Die Vertiefung hat die Form eines ______________________.
+
+
+
+
+                                                                                                                                         Quelle: MK Nds.
+                      Die Vertiefung hat ein Volumen von V = 6,4 cm3.
+
+                      d) Berechne die Höhe x der Vertiefung.
+
+
+
+                      e) Wie viel Prozent des Zylindervolumens wurden für die Vertiefung herausgefräst? Berechne.
+
+
+
+                      Es wird eine zweite Variante des Ständers angeboten, die etwas höher ist. Die Grundfläche und die
+                      Vertiefung sind bei beiden Varianten gleich.
+
+                      f) Kreuze die richtige Aussage an.
+
+                         Der herausgefräste Anteil am Zylindervolumen ist im Vergleich
+                                                                                                                                          Quelle: MK Nds.
+
+
+
+
+                         zum ersten Zylinder…
+
+                                        ⃝ …genauso groß.
+                                        ⃝ …kleiner.                                                 (Skizzen nicht maßstäblich)
+
+                                        ⃝ …größer.                                     2a      2b   2c       2d        2e           2f
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                        2       1   1         3         2           1
+                                                                         Punktzahl
+                                                                                                                                  8 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                             Material für Prüflinge
+
+ Sjg. 10 G-Kurs                            Hauptteil 2 mit Wahlteil                              Haupttermin
+
+
+                                  Wahlaufgabe 3 – Funktionen
+
+Alfons, Bert und Claudia wandern denselben Wanderweg.
+Sie starten zu unterschiedlichen Zeitpunkten und laufen
+alle mit konstanter Geschwindigkeit.
+
+In der Grafik ist die Bewegung von Alfons dargestellt.
+
+a) Fülle die Lücken aus.
+
+   Für 20 km benötigt Alfons ______ Stunden.
+
+   Alfons Geschwindigkeit beträgt ______ km pro Stunde.
+
+
+Bert startet 2 Stunden später.
+
+
+
+
+                                                                                                                 Quelle: MK Nds.
+Seine Bewegung ist in der Wertetabelle dargestellt.
+
+     Zeit in        2        3         4        5        6
+    Stunden
+  Gelaufene         0        6                           24
+ Strecke in km
+
+
+b) Ergänze die fehlenden Werte in der Wertetabelle.
+
+
+c) Zeichne die Gerade für Berts Bewegung in das Koordinatensystem aus
+   Aufgabenteil a) ein.
+
+                                                                                                          Quelle: MK Nds.
+
+d) Fülle die Lücke aus: Bert hat Alfons nach _________ Stunden eingeholt.
+
+
+Wenn Alfons startet, ist Claudia bereits 3 km gelaufen. Beide laufen gleich schnell.
+e) Zeichne eine Gerade für Claudias Bewegung in das Koordinatensystem ein und gib die
+   Funktionsgleichung an.
+
+
+
+f) Warum treffen sich Alfons und Claudia auf dem Wanderweg nicht? Erkläre mithilfe der Graphen.
+
+                                                              3a      3b   3c      3d       3e       3f
+                                               Erreichte
+                                               Punktzahl
+                                               Mögliche
+                                                              2       1     2      1         3        1
+                                               Punktzahl
+                                                                                                   9 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                         Mathematik                                                Material für Prüflinge
+
+ Sjg. 10 G-Kurs                         Hauptteil 2 mit Wahlteil                                                  Haupttermin
+
+
+                    Wahlaufgabe 4 – Wahrscheinlichkeit (Seite 1 von 2)
+
+Im Supermarkt steht ein Karton mit 72 Schokoladeneiern.
+In jedem Schokoladenei befindet sich ein Spielzeug.
+10 Eier enthalten eine Sammelfigur als besonderes
+
+
+
+
+                                                                                                                             Quelle: MK Nds.
+Spielzeug.
+
+
+
+Elena wählt zufällig zwei Schokoladeneier aus.
+
+a) Trage die zwei fehlenden Wahrscheinlichkeiten in die gestrichelten Kästchen ein.
+
+
+                                                                                                 = Sammelfigur
+
+                                                                                                 = Keine Sammelfigur
+
+
+
+
+                                                                      Quelle: MK Niedersachsen
+
+
+
+
+b) Berechne die Wahrscheinlichkeit, dass Elena zwei Schokoladeneier mit Sammelfiguren zieht.
+
+
+
+                                                                                                          62     10
+Elena berechnet die Wahrscheinlichkeit für ein Ereignis mit folgender Rechnung: P =
+                                                                                                          72     71
+
+c) Gib das passende Ereignis an.
+
+
+
+Elena hat von den 72 Schokoladeneiern insgesamt 7 gekauft. In 2 Schokoladeneiern waren
+Sammelfiguren. Sie kauft ein weiteres Schokoladenei.
+
+d) Bestimme die Wahrscheinlichkeit, dass dieses Schokoladenei eine Sammelfigur enthält.
+
+
+
+
+                                                                                                                      10 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                             Mathematik                           Material für Prüflinge
+
+ Sjg. 10 G-Kurs                          Hauptteil 2 mit Wahlteil                                Haupttermin
+
+
+                      Wahlaufgabe 4 – Wahrscheinlichkeit (Seite 2 von 2)
+
+Einmal im Jahr gibt es eine Aktion: In jedem Karton mit 72 Schokoladeneiern
+befinden sich nun 9 Sammelfiguren und eine besonders beliebte Bärenfigur.
+
+e) Zeichne in das Baumdiagramm die fehlenden Pfade
+
+
+
+
+                                                                                                                            Quelle: pixabay.com
+   und Wahrscheinlichkeiten für das 2. Ei ein.“
+
+
+
+
+      = Sammelfigur
+
+      = Keine Sammelfigur
+
+      = Bärenfigur
+
+
+
+
+                                                                                                          Quelle: MK Nds.
+Elena überlegt: „Angenommen ich kaufe während der Aktion 1000 Schokoladeneier.
+Wie viele Bärenfiguren werde ich vermutlich erhalten?“
+
+f) Kreuze an.
+
+           ⃝ 1 bis 10               ⃝ 11 bis 20                     ⃝ 21 bis 30            ⃝ 31 bis 40
+
+
+
+
+                                                               4a      4b     4c   4d       4e       4f
+                                              Erreichte
+                                              Punktzahl
+                                              Mögliche
+                                                               2        2     1    2         2        1
+                                              Punktzahl
+                                                                                                  11 von 11
+
+[Seitenwechsel]

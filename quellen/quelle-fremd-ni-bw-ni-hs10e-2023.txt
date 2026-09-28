@@ -1,0 +1,998 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS10/2023MatheHS10E_Teil1.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                  Mathematik                                       Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                                Deckblatt                                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2023 Mathematik
+
+
+
+
+                                  Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                 36                   20                  84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note           …………………………………..……..
+    Punktzahl           Punktzahl
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                 ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2               3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                             Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                  Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs               Hauptteil 1 (ohne Hilfsmittel)                                  Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Wandle in die angegebene Einheit um.
+
+a) 8 km = __________ m
+
+
+
+b) 3,12 cm² = __________ mm²
+
+
+
+c) 150 min = __________ h
+
+
+
+Aufgabe 2
+                                                                                Preis pro Liter
+Frau Spar tankt 5 Liter Benzin.
+
+a) Berechne den Preis.
+                                                                             Benzin   2,038 €
+
+
+
+
+An der Tankstelle müssen die Preise oft gerundet werden.
+
+b) Runde den Preis 34,2552 € auf zwei Nachkommastellen.
+
+
+
+    34,2552 €  ____________ €
+
+
+
+
+                                                                        1a      1b     1c         2a       2b
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                        1       1      1          2         1
+                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                               Mathematik                             Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 3
+
+Tasja hat von zwei Schokoladentafeln jeweils einen Teil gegessen. Die grau gefärbten Anteile sind
+übrig.
+
+
+
+
+                                                                                                                Quelle: MK Niedersachsen
+a) Gib die grau gefärbten Anteile jeweils als Bruch an. Schreibe den Bruch neben die Abbildung.
+
+
+
+Tasja behauptet: „Wenn ich nur die übrig gebliebenen Anteile von beiden Schokoladentafeln esse,
+dann esse ich mehr als eine ganze Schokoladentafel.“
+
+b) Zeige, dass Tasja recht hat.
+
+
+
+
+In der Abbildung ist ein Anteil grau gefärbt.
+
+c) Kreuze die vier richtigen Angaben für den grau gefärbten
+    Anteil an.
+
+                                                              1             1          125            125
+    0,125          1,25         1,25 %      12,5 %
+                                                              8             4          100            1000
+
+                                                                                                 
+
+
+
+
+                                                                                       3a       3b       3c
+                                                                           Erreichte
+                                                                           Punktzahl
+                                                                           Mögliche
+                                                                                       1         2          2
+                                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 3 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                              Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 4
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+In einer Eisdiele gibt es vier
+verschiedene Sorten Eis. Am Vormittag
+wurden 40 Kugeln Eis verkauft.
+Das Diagramm zeigt die Anzahl der
+Kugeln für jede Sorte.
+
+
+a) Zeichne die Säule für die Sorte „Erdbeere“ in das Diagramm ein.
+
+b) Erkläre, wie du die Anzahl der Kugeln der Sorte „Erdbeere“ berechnet hast.
+
+    ___________________________________________________________________________
+
+    ___________________________________________________________________________
+
+    ___________________________________________________________________________
+
+
+
+Die Anzahl der Kugeln für jede Sorte wird in einem Kreisdiagramm dargestellt.
+
+c) Kreuze das passende Kreisdiagramm an. Begründe deine Entscheidung.
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+                                                                              
+
+
+
+
+                                               O                               
+
+     _________________________________________________________________________
+
+     _________________________________________________________________________
+
+Nora bestellt zwei verschiedene Sorten Eis. Die Kugeln werden nebeneinander in eine Schale gelegt.
+
+d) Ermittle die Anzahl der Möglichkeiten, eine Schale mit
+    zwei verschiedenen Sorten Eis zusammenzustellen.
+                                                                                Quelle: MK Niedersachsen
+    Es gibt ______ Möglichkeiten.
+
+                                                                          4a     4b         4c       4d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          1       1         2         1
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Aufgabe 5
+
+Zu jedem Graphen gehört genau eine Zuordnung.
+Verbinde jeden Graphen mit der passenden Zuordnung.
+
+             Graphen                                                            Zuordnungen
+
+
+
+
+                                                                       Zeit → Bakterienanzahl in einer
+                                                                       Nährlösung
+
+
+
+
+                                                                       Zeit → Weg, den ein Auto mit
+                                                                       gleichbleibender
+                                                                       Geschwindigkeit zurücklegt
+
+
+
+
+                                                                       Zeit → Höhe einer brennenden
+                                                                       Kerze
+
+
+
+
+                                                                       Zeit → Anzahl der benötigten
+                                                                       Bauarbeiter für ein Projekt
+
+
+
+
+                                                                       Zeit → Temperaturverlauf an
+                                                                       einem Tag
+
+
+
+
+      Quelle: MK Niedersachsen                                                                        5
+                                                                                      Erreichte
+                                                                                      Punktzahl
+                                                                                      Mögliche
+                                                                                                      2
+                                                                                      Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                        Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                       Haupttermin
+
+
+Aufgabe 6
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+Ein Quader wird so halbiert, dass das abgebildete
+Dreiecksprisma entsteht.
+
+a) Berechne das Volumen des Dreiecksprismas.
+
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+    V = _________ cm³
+
+
+
+Das Volumen eines anderen Dreiecksprismas soll berechnet
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+werden.
+
+b) Stelle eine allgemeine Formel zur Berechnung des
+    Volumens in Abhängigkeit von x auf. Fasse die Formel
+    so weit wie möglich zusammen.
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+
+    V = ___________________
+
+
+
+
+                                                                                      6a       6b
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                      2         2
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                        Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs              Hauptteil 1 (ohne Hilfsmittel)                    Haupttermin
+
+
+Aufgabe 7
+
+Zeichne das Netz des abgebildeten Dreiecksprismas.
+
+
+
+
+                                                                                                   Quelle: MK Niedersachsen
+                                                                       (Skizze nicht maßstäblich)
+
+
+
+
+                                                                                               7
+                                                                                Erreichte
+                                                                                Punktzahl
+                                                                                Mögliche
+                                                                                               2
+                                                                                Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                 Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs               Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Aufgabe 8
+
+Die Abbildung zeigt die ersten drei Figuren eines Musters.
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+              Figur 1                        Figur 2                          Figur 3
+
+
+a) Vervollständige die unten abgebildete Figur 4 des Musters. Achte auf genaues Zeichnen.
+
+
+
+
+                                                                                                             Quelle: MK Niedersachsen
+b) Gib die Anzahl der schwarzen Dreiecke der nicht abgebildeten Figur 6 des Musters an.
+
+    In der Figur 6 gibt es _____ schwarze Dreiecke.
+
+
+
+Lucas möchte die Anzahl der schwarzen Dreiecke in einer beliebigen Figur x des Musters bestimmen.
+Dafür hat er vier Terme zur Auswahl.
+
+c) Kreuze den passenden Term an.
+
+                        3x + 1         x+3                4x – 3             3x + 4
+                           O             O                   O                 O
+
+
+
+                                                                                      8a       8b       8c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                      2         1        1
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 8 von 8
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS10/2023MatheHS10E_Teil2.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 12.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                           Mathematik                                Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                   Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (       )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (       )
+
+                                                Wahlaufgabe W3        (       )
+
+                                                Wahlaufgabe W4        (       )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                                 anderes   angegeben        ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                             Seite 1 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                             Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                 Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+Aufgabe 1
+
+In einer Umfrage wurden 1100 Personen befragt.
+
+
+
+
+a) Berechne die Anzahl der Personen, die Haustiere haben.
+
+
+
+70 Personen haben Fische.
+
+b) Berechne den prozentualen Anteil der Haustierbesitzer, die Fische haben.
+
+   (Solltest du die Teilaufgabe a) nicht gelöst haben, rechne mit 587 Personen weiter.)
+
+
+
+Michael behauptet: „Bei einer Umfrage muss die Addition der Prozentsätze immer 100 % ergeben.“
+
+c) Begründe, dass Michael nicht recht hat.
+
+
+
+
+                                                                                  1a       1b       1c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                  2         2        1
+                                                                    Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 2 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                            Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                  Haupttermin
+
+
+Aufgabe 2
+
+Die Sitzfläche eines Hockers hat die Form eines
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+Dreiviertelkreises und wird mit Leder bezogen.
+
+a) Berechne die Größe der Sitzfläche.
+
+
+
+Die Sitzfläche wird mit einer Naht umfasst.
+
+b) Berechne die Länge der Naht.                                              (Skizze nicht maßstäblich)
+
+
+
+                                                                          3
+Jana hat einen Term zur Berechnung der Länge der Naht aufgestellt:          ∙ π ∙ 2 ∙ r + r2
+                                                                          4
+In ihrem Term befindet sich ein Fehler.
+
+c) Markiere den Fehler.
+
+
+
+
+Aufgabe 3
+
+In einem Eimer befinden sich insgesamt 500 Lose. Davon sind 70 Gewinne und der Rest Nieten.
+
+a) Bestimme die Wahrscheinlichkeit, einen Gewinn zu ziehen.
+
+
+
+Du darfst als erste Person aus diesem Eimer ziehen.
+
+b) Berechne die Wahrscheinlichkeit, nacheinander zwei Gewinne zu ziehen.
+
+
+
+
+                                                                     2a     2b       2c        3a       3b
+                                                      Erreichte
+                                                      Punktzahl
+                                                      Mögliche
+                                                                     3       3        1         1         3
+                                                      Punktzahl
+
+Niedersächsisches Kultusministerium                                                             Seite 3 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                          Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                     Hauptteil 2 mit Wahlteil                           Haupttermin
+
+
+Aufgabe 4
+
+a) Ergänze die Funktionsgleichung                                                                            g
+   der Geraden g.
+
+        y = ______ x + ______
+
+
+
+b) Zeichne die Gerade h mit der
+                              3
+   Funktionsgleichung y =         x + 3 in
+                              2
+   das Koordinatensystem.
+
+
+
+
+Aufgabe 5
+
+Familie Altan möchte Urlaub an der Nordsee machen. Der
+
+
+
+
+                                                                                                         Quelle: MK Niedersachsen
+Vermieter einer Ferienwohnung verlangt 89 € pro Übernachtung
+und für die Endreinigung zusätzlich noch eine einmalige Gebühr
+von 150 €.
+
+a) Berechne den Gesamtpreis für zehn Übernachtungen.
+
+
+
+b) Stelle die Funktionsgleichung zur Berechnung des Gesamtpreises in der Form y = m ∙ x + b auf.
+
+
+
+Familie Altan hat 1800 € für eine Ferienwohnung zur Verfügung.
+
+c) Berechne die maximale Anzahl der Übernachtungen, die Familie Altan buchen kann.
+
+
+
+
+                                                                        4a   4b   5a       5b       5c
+                                                         Erreichte
+                                                         Punktzahl
+                                                         Mögliche
+                                                                        2    2    1         2        2
+                                                         Punktzahl
+
+Niedersächsisches Kultusministerium                                                         Seite 4 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                 Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                  Hauptteil 2 mit Wahlteil                                    Haupttermin
+
+
+Aufgabe 6
+
+Abgebildet ist ein Bauplan für einen Lenkdrachen.
+
+
+
+
+                                                                       (Skizze nicht maßstäblich)
+                                                                       Quelle: MK Niedersachsen
+a) Berechne die Länge der Strecke a.
+
+
+
+b) Berechne die Größe des Winkels α.
+
+
+
+c) Berechne die Länge der Strecke b.
+
+   (Solltest du die Teilaufgabe b) nicht gelöst haben, rechne mit 53,04° weiter.)
+
+
+
+
+                                                                                     6a        6b         6c
+                                                                     Erreichte
+                                                                     Punktzahl
+                                                                     Mögliche
+                                                                                      3           2        2
+                                                                     Punktzahl
+
+Niedersächsisches Kultusministerium                                                               Seite 5 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                            Mathematik                          Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                    Hauptteil 2 mit Wahlteil                              Haupttermin
+
+
+Aufgabe 7
+                                                                                 (Skizze nicht maßstäblich)
+
+Eine Pyramide mit quadratischer Grundfläche
+hat ein Volumen von 150 cm3.
+Die Grundkante a hat eine Länge von 5 cm.
+
+a) Berechne hK.
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+Gegeben sind zwei Pyramiden mit quadratischer Grundfläche und gleicher Körperhöhe hK.
+Das Volumen der ersten Pyramide ist viermal so groß wie das Volumen der zweiten Pyramide.
+
+b) Kreuze die richtige Aussage an.
+
+
+
+Die Grundkante der ersten Pyramide ist …
+
+                                 O doppelt so lang wie die Grundkante der zweiten Pyramide.
+
+                                 O dreimal so lang wie die Grundkante der zweiten Pyramide.
+
+                                 O viermal so lang wie die Grundkante der zweiten Pyramide.
+
+
+
+
+                                                                                            7a        7b
+                                                                             Erreichte
+                                                                             Punktzahl
+                                                                             Mögliche
+                                                                                              3        1
+                                                                             Punktzahl
+
+Niedersächsisches Kultusministerium                                                           Seite 6 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                                    Mathematik                               Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                                           Hauptteil 2 mit Wahlteil                                 Haupttermin
+
+
+                                                               Wahlaufgabe 1 – Körper
+In Braunschweig steht ein kugelförmiger Gasspeicher.
+Die Kugel hat einen Außenradius von r = 13,5 m.
+a) Berechne die Oberfläche der Kugel.
+
+
+
+
+                                                                                                                                     Quelle: MK Niedersachsen
+                                                           Der Pfeil zeigt auf einen Ring, der kreisförmig um die Mitte des
+                                                           Gasspeichers verläuft. Der Ring ist 90 m lang.
+                                Quelle: MK Niedersachsen
+
+
+
+
+                                                           b) Berechne den Abstand zwischen dem Gasspeicher und dem
+                                                              Ring.
+
+
+
+
+Für Reparaturarbeiten am Gasspeicher wird ein Kran aufgestellt.
+
+c) Berechne die Länge x.
+
+
+Die Metallwand des Gasspeichers ist 0,03 m dick.
+
+d) Berechne das Volumen des Hohlraums der Kugel.
+                                                                                                                                                                Quelle: MK Niedersachsen
+
+
+
+
+In einer anderen Stadt steht ein weiterer kugelförmiger Gasspeicher,
+der einen doppelt so großen Durchmesser hat.
+
+e) Begründe, dass dieser Gasspeicher ein achtmal so großes
+   Volumen besitzt.
+
+                                                                                                   (Skizze nicht maßstäblich)
+
+
+                                                                                              1a     1b      1c        1d       1e
+                                                                               Erreichte
+                                                                               Punktzahl
+                                                                               Mögliche
+                                                                                              2      3        2         2        1
+                                                                               Punktzahl
+Niedersächsisches Kultusministerium                                                                                     Seite 7 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                              Mathematik                            Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                      Hauptteil 2 mit Wahlteil                           Haupttermin
+
+
+                      Wahlaufgabe 2 (Seite 1 von 2) – Wachstumsprozesse
+
+Ein Boiler dient zur Erwärmung von Wasser in Küche und Bad.
+
+Wenn der Boiler eingeschaltet wird, erhöht sich die
+Wassertemperatur pro Minute um 15°C.
+
+
+
+
+                                                                                                         Quelle: MK Niedersachsen
+Zu Beginn hat das Wasser im Boiler eine Temperatur von 20°C.
+
+a) Berechne die Wassertemperatur nach 3 Minuten.
+
+
+
+
+b) Stelle die Funktionsgleichung zur Berechnung der Wassertemperatur in der Form y = m ∙ x + b auf.
+
+
+
+
+Nach Abschalten des Boilers um 12:00 Uhr fällt die Temperatur des Wassers pro Stunde um ca. 15 %.
+
+c) Vervollständige die Tabelle.
+
+
+        Uhrzeit         12:00         13:00     14:00       15:00        16:00   17:00        18:00
+
+
+      Temperatur
+                          80           68        57,8        49,1                35,5          30,2
+        in °C
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 8 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                              Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                 Hauptteil 2 mit Wahlteil                               Haupttermin
+
+
+                             Wahlaufgabe 2 (Seite 2 von 2) – Wachstum
+d) Zeichne die Wertepaare in das Koordinatensystem und verbinde sie sinnvoll.
+
+
+
+
+   Fülle die Lücken aus.
+
+
+   Um 12:45 Uhr beträgt die
+   Temperatur __________ °C.
+
+
+
+   Um ______________ Uhr ist
+   die Temperatur um 35°C gefallen.
+
+
+
+
+e) Kreuze an.
+
+   Die im Graph dargestellte Zuordnung ist…
+
+                        ⃝ linear.          ⃝ proportional.               ⃝ exponentiell.
+
+
+
+
+                                                                    2a    2b     2c        2d       2e
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                    1     2       1         5        1
+                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 9 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                            Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                Hauptteil 2 mit Wahlteil                            Haupttermin
+
+
+                       Wahlaufgabe 3 (Seite 1 von 2) – Wahrscheinlichkeit
+Pia und Lea trinken gern Tee.
+
+
+
+
+                                                                                                          Quelle: MK Nds.
+Sie haben diese Teebeutel unsortiert in einer Teebox:
+
+    −   10 Beutel Kamillentee (K)
+    −    4 Beutel Erdbeertee (E)
+    −    6 Beutel Apfeltee (A)
+
+
+
+Pia greift, ohne hinzusehen, in die Teebox und zieht nacheinander zwei Teebeutel heraus.
+
+a) Ergänze im Baumdiagramm die fehlenden Wahrscheinlichkeiten.
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+                                 10
+                                 20
+                                               4
+                                               20
+
+
+
+                           6            10                 6              10                  5
+             4             19           19    3            19             19     4            19
+             19                               19                                 19
+
+
+
+
+b) Berechne die Wahrscheinlichkeit, dass Pia erst Kamillentee und dann Apfeltee zieht.
+
+
+
+Pia und Lea mögen keinen Erdbeertee.
+
+c) Berechne die Wahrscheinlichkeit, dass Pia keinen Erdbeertee zieht.
+
+
+
+Lea berechnet die Wahrscheinlichkeit für ein Ereignis mit der folgenden Rechnung:
+
+                                                  4 3
+                                         P = 1 – (20 ∙ 19 )
+
+d) Gib das passende Ereignis an.
+
+
+
+
+Niedersächsisches Kultusministerium                                                      Seite 10 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                        Mathematik                            Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs               Hauptteil 2 mit Wahlteil                              Haupttermin
+
+
+                       Wahlaufgabe 3 (Seite 2 von 2) – Wahrscheinlichkeit
+Pia hat ein Glücksrad gebaut und behauptet: „Statt zweimal aus der Teebox zu ziehen, können wir
+auch zweimal am Glücksrad drehen.“
+
+e) Begründe, dass das Glücksrad nicht zum
+   Baumdiagramm aus Aufgabenteil a) passt.
+
+
+
+
+                                                                                                      Quelle: MK Niedersachsen
+
+
+
+
+                                                                  3a   3b      3c       3d       3e
+                                                   Erreichte
+                                                   Punktzahl
+                                                   Mögliche
+                                                                  2     2      3         2        1
+                                                   Punktzahl
+
+Niedersächsisches Kultusministerium                                                     Seite 11 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                              Mathematik                                   Material für Prüflinge
+
+ Hauptschule 10 – E-Kurs                      Hauptteil 2 mit Wahlteil                                      Haupttermin
+
+
+                                      Wahlaufgabe 4 – Trigonometrie
+Die Bergbahn „Waldi“ fährt von einer Talstation zu einer Bergstation. Danny hat eine Skizze gezeichnet
+und einige Streckenlängen eingetragen.
+
+
+
+
+a) Berechne den Höhenunterschied h.                                      (Skizzen nicht maßstäblich)
+                                                                         Quelle: MK Nds.
+
+
+b) Berechne die Größe des Steigungswinkels .
+
+
+Die Bergbahn „Rosi“ hat eine Steigung von 9 %.
+c) Entscheide mithilfe einer Rechnung, welche
+    Bergbahn die größere Steigung hat.
+
+
+Danny behauptet: „Die Steigung einer Strecke kann höchstens 100 % betragen.“
+d) Zeige, dass Dannys Behauptung falsch ist.
+
+
+Damit Züge in Kurven schneller fahren können, werden die Gleise
+etwas geneigt. Die maximale Geschwindigkeit hängt vom
+Neigungswinkel α ab.
+                                                                                                                     Quelle: MK Niedersachsen
+e) Bestimme die maximale Geschwindigkeit, mit der ein Zug bei
+    einem Höhenunterschied von u = 217 mm durch die Kurve fahren
+    darf.
+
+                                 max.
+    Neigungswinkel α
+                            Geschwindigkeit
+                                  km                                       (Skizze nicht maßstäblich)
+        0° bis 4,3°             60 h
+                                  km
+    über 4,3° bis 8,6°          80 h
+                                  km
+         über 8,6°              90 h                                     4a        4b       4c         4d       4e
+                                                          Erreichte
+                                                          Punktzahl
+                                                          Mögliche
+                                                                          2        2        3           1        2
+                                                          Punktzahl
+
+Niedersächsisches Kultusministerium                                                                    Seite 12 von 12
+
+[Seitenwechsel]

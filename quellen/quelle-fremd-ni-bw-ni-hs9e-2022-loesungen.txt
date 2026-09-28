@@ -1,0 +1,316 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS9/2022MatheHS9Lehrer/2022MatheHS9EL.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 7.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                                            Mathematik                                   Erwartungshorizont
+
+Hauptschule 9 – E-Kurs                                                                                              Haupttermin
+
+
+Ablauf der Prüfung
+
+                                120 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                               Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+                                                   (für G- und für E-Kurs)
+                                                   IGS 9: Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil (G-Kurs)
+
+                               Material/Medien     Arbeitsmittel:
+                                                   - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                   - Geodreieck, Zirkel, Bleistift
+    Mathematik Hauptschule 9
+
+
+
+
+                                                   Hilfsmittel:
+                                                   - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                   - Formelsammlung (vorgegeben unter www.gosin.de)
+
+                               Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                   Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                   bearbeiten ist.
+                                                    Die Abgabe erfolgt spätestens nach 40 Minuten (Verkürzung der
+                                                     max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                     Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                    Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                     (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                     des Wahlteils.
+
+                                + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                     Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                     sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                    Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+  Notenziffer                            1            2               3               4               5              6
+
+
+ ab … Punkte                            72,5          61            49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+                                                                                                                   Seite 1 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                             Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                     Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+
+ Aufgabe                                  Erwartete Lösung                                   Punkte
+    1a                                           398,79                                          1
+    1b                                          214 811                                          1
+    1c                                           20 256                                          1
+                                                  780
+    2a                                                                                           1
+                                                  860
+                                                 7 000
+    2b                                                                                           1
+                                                 3 000
+                                                  -13
+    2c                                                                                           1
+                                                   2
+    3a                                           30 021                                          1
+    3b                                           15 027                                          1
+                                                6 Ecken
+    4a                                         9 Kanten                                          3
+                                               5 Flächen
+                                                  wahr
+    4b                                           falsch                                          3
+                                                 falsch
+    5a                                           9 cm³                                           1
+    5b                                         18 Würfel                                         1
+    6a                                          5:57 Uhr                                         1
+    6b                                           30 min                                          1
+    6c                                         10:19 Uhr                                         1
+    6d                                   RB 2 (alternativ RB 1)                                  1
+                                             Butter: 250 g
+    7a                                                                                           2
+                                             Zucker: 500 g
+                                         Butter: 1 000 g (1 kg)
+                                         Zucker: 2 000 g (2 kg)
+    7b                                                                                           2
+                                          Mehl: 3 000 g (3 kg)
+                                                 Eier: 8
+                                                   p
+    8a                                                                                           2
+                                                   a
+    8b                                          6 Rollen                                         2
+
+                                                                                           Seite 2 von 7
+
+[Seitenwechsel]
+    Abschlussarbeit 2022                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 9 – E-Kurs                                                                    Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+                                                                                             Seite 3 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                              Erwartungshorizont
+
+Hauptschule 9 – E-Kurs                                                                      Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe                                  Erwartete Lösung                                    Punkte
+                                               April 2°C
+    1a                                         Juni 9°C                                          2
+                         Jede richtige Markierung im Diagramm ist zu werten.
+                                     Höchste Temperatur: August
+    1b                                                                                           2
+                                    Niedrigste Temperatur: Januar
+    1c                                          15°C                                             1
+    1d                                        Ø 4,25°C                                           2
+    2a                                        Sauberfix                                          3
+    2b                                  Das Angebot stimmt.                                      3
+    3                                           5,69 m                                           3
+                                                 C
+    4a                                                                                           2
+                    Beispiellösung: Tim macht nach 2 km einen 5-minütige Pause.
+
+
+
+
+    4b                                                                                           1
+
+
+
+
+    4c                                         y = 0,2 x                                         1
+                                       Nein, sie hat nicht Recht.
+    4d              Beispiellösung: Die Steigung ist bei beiden Abschnitten gleich.              2
+                                 Jede sinnvolle Antwort ist zu werten.
+    5a                                        2 512,80 €                                         2
+    5b                      Der Ring passt in den Karton. (d = 28,65 cm)                         2
+    5c                                        2 178 cm³                                          2
+
+                                                                                           Seite 4 von 7
+
+[Seitenwechsel]
+Abschlussarbeit 2022                         Mathematik                            Erwartungshorizont
+
+Hauptschule 9 – E-Kurs                                                                    Haupttermin
+
+
+                                                wahr
+   6a                                          falsch                                           3
+                                               falsch
+   6b                                           25 %                                            1
+                                              500-mal
+             Beispiellösung: Die Wahrscheinlichkeit eine 3 zu würfeln beträgt 50 %. Bei
+   6c                                                                                           2
+                              1000 Würfen fällt in etwa 500-mal die 3.
+                                Jede sinnvolle Antwort ist zu werten.
+   6d                         6-mal „1“; 3-mal „2“; 2-mal „3“; 1-mal „4“                        2
+
+
+
+
+                                                                                          Seite 5 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                       Mathematik                          Erwartungshorizont
+
+Hauptschule 9 – E-Kurs                                                                Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                 Erwartete Lösung                                Punkte
+  1a                                       5 089,38 cm³                                     2
+  1b                                         15,72 cm                                       2
+   1c                                        3,46 cm                                        3
+  1d                                  13,86 cm² (14,56 cm²)                                 3
+
+
+
+                                      Wasserstand in cm: 45
+                                         Zeit in min: 40
+
+
+
+
+  2a                                                                                        3
+
+
+
+
+  2b                                       y = -2x + 90                                     1
+   2c                                       16:05 Uhr                                       1
+  2d                            Jede sinnvolle Skizze ist zu werten.                        1
+                                               S (15/30)
+                Beispiellösung: Nach 15 Minuten Ablaufzeit haben beide Tonnen eine
+  2e                                                                                        2
+                                       Wasserhöhe von 30 cm.
+                                Jede sinnvolle Erklärung ist zu werten.
+   2f                                        110 min                                        2
+
+
+
+
+                                                                                     Seite 6 von 7
+
+[Seitenwechsel]
+Abschlussarbeit 2022                                Mathematik                              Erwartungshorizont
+
+Hauptschule 9 – E-Kurs                                                                              Haupttermin
+
+
+
+
+  3a                                                                                                       3
+
+
+
+
+  3b                                                                                                       2
+
+                                    12          2
+                                         oder       oder 0,4 oder 40 %
+                                    30          5
+                                   16           8
+  3c                                    oder        oder 0,53 oder 53 %                                    3
+                                   30          15
+                                        Ja, er hat Recht.
+              Beispiellösung: Vor dem Kauf betrug der Anteil der blauen Socken an der
+                                    2                                     6           6
+            Gesamtzahl der Socken . Nach dem Kauf beträgt der Anteil           . Da        größer
+  3d                                6                                     14          14                   2
+                 2
+           ist als , ist auch die Wahrscheinlichkeit höher 2 blaue Socken nacheinander zu
+                 6
+                                              ziehen.
+                              Jede sinnvolle Begründung ist zu werten.
+
+                                               Note 1: 17,5 %
+                                                Note 3: 35 %
+
+
+
+  4a                                                                                                       3
+
+
+
+
+  4b                                     Ursulaschule (Ø = 2,88)                                           3
+  4c                                            wahr; falsch                                               2
+                                       Nein, er hat nicht Recht.
+  4d                     Beispiellösung: Es sind Mehrfachnennungen möglich.                                2
+                               Jede sinnvolle Begründung ist zu werten.
+
+
+
+                                                                                                    Seite 7 von 7
+
+[Seitenwechsel]

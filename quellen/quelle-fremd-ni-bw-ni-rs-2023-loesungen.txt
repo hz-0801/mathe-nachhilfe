@@ -1,0 +1,341 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Realschule, Schuljahrgang 10, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheRS10/2023MatheRS10L/2023MatheRS10L.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 7.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                               Mathematik                                  Erwartungshorizont
+
+ Realschule                                                                                                           Haupttermin
+
+
+Ablauf der Prüfung
+
+                                  150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                 Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                                 Material/Medien     Arbeitsmittel:
+                                                     - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                     - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                     Hilfsmittel:
+      Mathematik Realschule 10
+
+
+
+
+                                                     - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                     - Formelsammlung (vorgegeben unter www.gosin.de)
+                                 Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                     Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                     bearbeiten ist.
+                                                      Die Abgabe erfolgt spätestens nach 50 Minuten (Verkürzung der
+                                                       max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                       Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                      Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                       (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                       des Wahlteils.
+
+                                  + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                       Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                       sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                             1            2               3               4               5              6
+
+
+  ab … Punkte                             72,5         61             49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                  Seite 1 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                            Mathematik                              Erwartungshorizont
+
+ Realschule                                                                                      Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+ Aufgabe                                      Erwartete Lösung                                       Punkte
+     1a                                            8 000 m                                               1
+     1b                                            312 mm²                                               1
+     1c                                              2,5 h                                               1
+     2a                                             10,19 €                                              2
+     2b                                             34,26 €                                              1
+
+
+
+     3a                                                                                                  1
+
+
+                       Jede sinnvolle Antwort ist zu werten (Zeichung oder Rechnung).
+     3b                                                 2 3 17                                           2
+                                       Zum Beispiel: „ 3 + 4 = 12 > 1“
+
+
+
+
+     3c                                                                                                  2
+                (Für jedes richtig gesetzte Kreuz gibt es einen halben Punkt, für jedes falsch
+                                 gesetztes Kreuz einen halben Punkt Abzug.)
+
+
+
+
+     4a                                                                                                  1
+
+
+
+
+                                    Jede sinnvolle Antwort ist zu werten.
+     4b         Zum Beispiel: „Ich habe die Anzahlen der Kugeln der anderen Sorten addiert               1
+                                          und von 40 subtrahiert.“
+
+
+
+
+     4c                                                                                                  2
+
+                                  Jede sinnvolle Begründung ist zu werten.
+                   Zum Beispiel: „Ein Viertelkreis, der für die Sorte „Nuss“ steht (10 von 40
+                                Kugeln), ist nur in Diagramm  abgebildet.“
+     4d                                                6                                                 1
+Niedersächsisches Kultusministerium                                                              Seite 2 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                 Erwartungshorizont
+
+ Realschule                                                                      Haupttermin
+
+
+
+
+      5                                                                                 2
+
+
+
+
+     6a                                          V = 36 cm³                             2
+     6b                                            V = 3x³                              2
+                                      Jedes richtige Netz ist zu werten.
+      7                                                                                 2
+                                          (Genauigkeit: ± 1 mm)
+
+
+
+
+     8a                                                                                 2
+
+
+
+
+     8b                                              19                                 1
+
+     8c                                                                                 1
+
+
+
+
+Niedersächsisches Kultusministerium                                             Seite 3 von 7
+
+[Seitenwechsel]
+    Abschlussarbeit 2023                         Mathematik                            Erwartungshorizont
+
+    Realschule                                                                                Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 4 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                           Erwartungshorizont
+
+ Realschule                                                                                  Haupttermin
+
+
+Hauptteil 2
+
+ Aufgabe                                      Erwartete Lösung                                 Punkte
+     1a                                         671 Personen                                       2
+     1b                                       10,43 % (11,93 %)                                    2
+                           Jede sinnvolle Begründung ist als richtig zu werten.
+     1c             Zum Beispiel: „Michael hat nicht recht, da es bei einer Umfrage auch           1
+                                    Mehrfachnennungen geben kann.“
+     2a                                          8482,30 cm2                                       3
+     2b                                           402,74 cm                                        3
+
+
+     2c                                                                                            1
+
+
+     3a                                     P (ein Gewinn) = 14 %                                  1
+                                                              4830
+                                          P (zwei Gewinne) = 249500
+     3b                                                                                            3
+                            Alle gleichwertigen Angaben sind als richtig zu werten.
+                                                     1
+     4a                                          y = x + 1,5                                       1
+                                                     2
+
+                                                                  g
+                                      h
+
+     4b                                                                                            2
+
+
+
+
+     5a                                             2304 €                                         1
+     5b                                         y = 68∙x + 672                                     2
+     5c                                        31 Fahrstunden                                      2
+     6a                                           140,40 cm                                        3
+     6b                                           α ≈ 51,02°                                       2
+     6c                                    b ≈ 33,39 cm (34,93 cm)                                 2
+     7a                                          a ≈ 4,87 cm                                       3
+                               Die erste Aussage muss angekreuzt werden.
+                                 Jede sinnvolle Begründung ist zu werten.
+     7b                                                                                            2
+               Zum Beispiel: „Wird die doppelt so lange Grundkante der Pyramide quadriert,
+                                    ist das Ergebnis viermal so groß.“
+
+
+Niedersächsisches Kultusministerium                                                          Seite 5 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                               Mathematik                       Erwartungshorizont
+
+ Realschule                                                                                  Haupttermin
+
+
+Wahlteil
+
+ Aufgabe                                       Erwartete Lösung                                Punkte
+     1a                                          O ≈ 2290,22 m²                                    2
+     1b                                 Der Abstand beträgt rund 0,82 m.                           3
+     1c                                            x ≈ 8,49 m                                      2
+     1d                                         V ≈ 10 237,44 m³                                   2
+                                      Jede sinnvolle Rechnung ist zu werten.
+     1e                                               4          3   4                             1
+                                       Zum Beispiel: 3 π (√2∙r) = 2∙ 3 π r3
+                                                           3
+
+
+
+
+     2a                                                                                            2
+
+
+
+
+                                                         6
+                                                   P(K;A) =
+     2b                                                 38                                         2
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+                                                              120
+                                            P(kein Erdbeertee) =
+     2c                                                       190                                  3
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+              Lea berechnet die Wahrscheinlichkeit für das Ereignis P(kein Kamillentee und
+     2d                                                                                            2
+                                          kein Erdbeertee).
+                                Jede sinnvolle Begründung ist zu werten.
+                Zum Beispiel: „Wenn das Glücksrad zweimal gedreht wird, dann entspricht
+     2e                                                                                            1
+                das einem Zufallsexperiment mit Zurücklegen. Die Teebeutel werden nicht
+                                             zurückgelegt.“
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 6 von 7
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                            Mathematik                               Erwartungshorizont
+
+ Realschule                                                                                     Haupttermin
+
+
+     3a                                         h ≈ 0,67 km                                          2
+     3b                     Jede richtige Rechnung ist zu werten. (α ≈ 6,87°≈ 7°)                    2
+                                  Jede richtige Rechnung ist zu werten.
+     3c          Zum Beispiel: „tan-1 (9 :100) ≈ 5,14° < 7°. Die Bergbahn im Harz hat eine           3
+                           größere Steigung als die Bergbahn in den Alpen.“
+                                  Jede sinnvolle Antwort ist zu werten.
+     3d       Zum Beispiel: „100 % entspricht einem Steigungswinkel von 45° (tan 1 = 45°).           1
+                               Es sind auch größere Steigungen möglich.“
+                                                                       km
+     3e                         Die maximale Geschwindigkeit beträgt 90 h .                          2
+
+
+
+
+     4a                                                                                              1
+
+
+
+
+     4b                                                                                              2
+
+
+
+
+     4c                                       y = – (x – 2)² + 3                                     2
+                                           x1 ≈ 0,27    x2 ≈ 3,73
+     4d                                                                                              4
+                            Die Toreinfahrt hat am Boden eine Breite von 3,46 m.
+                                Jede sinnvolle Begründung ist zu werten.
+     4e                                                                                              1
+                       Zum Beispiel: „Für die Schnittpunkte auf der x-Achse ist y = 0.“
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 7 von 7
+
+[Seitenwechsel]

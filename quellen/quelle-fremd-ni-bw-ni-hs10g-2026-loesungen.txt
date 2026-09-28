@@ -1,0 +1,305 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 10, G-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei 10_G-Kurs/2026MatheSjg10GL.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                                                Mathematik                                  Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                                                        Haupttermin
+
+
+
+Ablauf der Prüfung
+
+                                   150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit für die Wahlaufgaben
+
+                                  Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                                  Material/Medien     Arbeitsmittel:
+                                                      - kariertes Papier mit Rand ist zur Verfügung zu stellen
+                                                      - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                      Hilfsmittel:
+                                                      - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+      Mathematik Sjg. 10 G-Kurs
+
+
+
+
+                                                      - Formelsammlung (vorgegeben unter www.gosin.de)
+                                  Prüfungsverlauf                      Start zwischen 08:00 Uhr – 08:15 Uhr
+                                                      1. Ausgabe und Bearbeitung von Hauptteil 1 (ohne Hilfsmittel).
+                                                      2. Abgabe von Hauptteil 1 spätestens nach 50 Minuten.
+                                                         (Verkürzung der max. vorgesehenen Bearbeitungszeit führt zur
+                                                         Verlängerung der Bearbeitungszeit für den Hauptteil 2 und den
+                                                         Wahlteil.)
+                                                      3. Ausgabe von Hauptteil 2 und Wahlteil sowie der zugelassenen
+                                                         Hilfsmittel (Taschenrechner, Formelsammlung).
+                                                      4. Auswahlzeit 15 Minuten:
+                                                         - Auswählen von zwei der vier Aufgaben des Wahlteils.
+                                                         - Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt.
+                                                         - Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      5. Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+                                                      6. Abgabe spätestens 165 Minuten nach dem Start.
+                                                                       Ende zwischen 10:45 Uhr – 11:00 Uhr
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                   Seite 1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                             Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                             Haupttermin
+
+
+
+Bei der Korrektur der Aufgaben ist Folgendes zu beachten:
+Teilpunkte
+       Bei der Bewertung sind halbe Punkte möglich.
+       Folgerichtige Teillösungen oder Endergebnisse werden voll bewertet, auch wenn ein
+        fehlerhaftes Zwischenergebnis oder die vorgegebene Alternativlösung verwendet wurde.
+Rundungen und Einheiten
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wird in
+        der gesamten Arbeit wiederholt nicht oder falsch gerundet, wird insgesamt nur einmal ein
+        Punkt abgezogen.
+       Gerundete Werte gelten auch dann als richtig, wenn ein Gleichheitszeichen statt eines
+        Näherungssymbols verwendet wird.
+       Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weitergerechnet.
+        Abweichungen aufgrund gerundeter Zwischenergebnisse der Schülerinnen und Schüler sind
+        als korrekt zu werten.
+       Bei falschen oder fehlenden Einheiten im Ergebnis oder in einem explizit geforderten
+        Antwortsatz wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+       Fehlende Einheiten in Zwischenschritten führen nicht zum Punktabzug.
+Offene Aufgaben und Antwortsatz
+       Die Bewertung offener Aufgaben orientiert sich an Schlüssigkeit, Nachvollziehbarkeit und
+        Sinnhaftigkeit der Lösungswege.
+       Bei fehlendem Antwortsatz erfolgt ein Punktabzug, sofern der Antwortsatz explizit gefordert
+        oder durch eine zusätzliche Denkleistung notwendig ist.
+Zeichnungen und Messungen
+       Um die Arbeit an maßstäblichen Zeichnungen zu ermöglichen, ist es notwendig, dass die
+        zentrale Abschlussarbeit in den Druckereinstellungen mit einer Skalierung (Maßstab/Zoom)
+        von 100 % gedruckt wird. Alle für die Bewertung relevanten Längen und Winkel sind vor der
+        Korrektur von der Lehrkraft nachzumessen.
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                               Mathematik                         Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                                 Haupttermin
+
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+
+   Aufgabe                                        Erwartete Lösung                                 Punkte
+       1a                                                 23                                          1
+       1b                                               13,85                                         1
+       1c                                                3,2                                          1
+       1d                                                 60                                          1
+       2                              Herr Gerdes kann ungefähr 50 Zirkel kaufen.                     2
+       3a                                                 09:57                                       1
+                            Der Zug benötigt von Lehrte nach Gifhorn 27 Minuten.
+       3b           In Wolfsburg kommt der Zug wegen einer Streckensperrung 27 Minuten                2
+                                       später an, also um 11:13 Uhr.
+                                    Jede sinnvolle Erklärung ist zu werten.
+       3c         Zum Beispiel: „An den waagerechten Stellen hält der Zug, d.h. die Zeit läuft        1
+                               weiter, die Länge der Fahrstrecke bleibt gleich.“
+       4a           Es kommen 140 Schülerinnen und Schüler mit dem Fahrrad zur Schule.                2
+                                        Ayse hat 35 % richtig dargestellt.
+                                   Jede sinnvolle Begründung ist zu werten.
+       4b                                                                                             2
+                     Zum Beispiel: „Maria hat mehr als die Hälfte (50 %) und damit zu viel
+                   markiert. Franka hat etwa ein Fünftel (20 %) und damit zu wenig markiert.“
+       4c                                 Diese Schule besuchen 300 Kinder.                           2
+       5a                               Die Äpfel werden in 20 Tüten verpackt.                        2
+                                   Jede sinnvolle Begründung ist zu werten.
+       5b                                                                                             1
+                          Zum Beispiel: „Das Ergebnis von 130 : 9 ist keine ganze Zahl.“
+                                                       AB = 4,3 cm
+       6a                                                                                             1
+                          (Genauigkeit:  1 mm. Bitte Länge auf dem Ausdruck überprüfen.)
+       6b                Jedes richtig gezeichnete Dreieck mit Beschriftung ist zu werten.            3
+       6c                                              γ = 45°                                        1
+
+
+
+       7a                                                                                             2
+
+
+
+
+       7b                                                                                             1
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 3 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                 Mathematik   Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                          Haupttermin
+
+
+
+
+       7c                                                       1
+
+
+
+
+Niedersächsisches Kultusministerium                     Seite 4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                           Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                              Haupttermin
+
+
+
+Hauptteil 2
+
+ Aufgabe                                     Erwartete Lösung                                 Punkte
+                                   Die beliebteste Sportart ist Fitness.
+     1a                                                                                           2
+                     Nordic Walking betreiben am liebsten 21 % der befragten Frauen.
+     1b                                          1488 Frauen                                      2
+
+
+
+
+     1c                                                                                           3
+
+
+
+
+     2a                                                                                           1
+
+
+
+
+     2b                                            0,55 %                                         3
+                                                    3026
+     2c                                            10000                                          3
+                            Alle gleichwertigen Angaben sind als richtig zu werten.
+     3a                   Die zweite Funktionsgleichung muss angekreuzt werden.                   1
+
+
+Niedersächsisches Kultusministerium                                                         Seite 5 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                               Mathematik                      Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                           Haupttermin
+
+
+
+
+     3b                                                                                         2
+
+
+
+
+                             Der Punkt P liegt auf dem Graphen der Funktion y2.
+     3c                                                                                         3
+                                  Jede sinnvolle Rechnung ist zu werten.
+     3d                         Jede richtige Funktionsgleichung ist zu werten.                 2
+     4a                                             65,97 cm                                    2
+     4b                                            255,25 cm²                                   3
+     4c           Die erste und die vierte Funktionsgleichung müssen angekreuzt werden.         2
+     5a                               Jede sinnvolle Rechnung ist zu werten.                    2
+     5b                                            d ≈ 2,57 m                                   2
+     5c                                     hK ≈ 4,21 m (hK ≈ 4,14 m)                           3
+
+
+
+
+Niedersächsisches Kultusministerium                                                       Seite 6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                         Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                            Haupttermin
+
+
+
+Wahlteil
+
+ Aufgabe                                      Erwartete Lösung                              Punkte
+
+
+
+
+     1a                                                                                         2
+
+
+
+
+     1b             Es werden eine Kapsel Lungo und eine Kapsel Espresso gezogen.               2
+                                                     12
+     1c                                             462                                         2
+                              Jeder gleichwertige Bruch ist als richtig zu werten.
+                                                    216
+     1d                                             462                                         3
+                              Jeder gleichwertige Bruch ist als richtig zu werten.
+     1e                         Die zweite Aussage muss angekreuzt werden.                      1
+
+
+
+
+     2a                                                                                         2
+
+
+
+     2b                                          y = 15x + 50                                   2
+
+
+
+
+     2c                                                                                         3
+
+
+
+
+     2d                                            5,32 cm                                      2
+     2e                          Der zweite Graph muss angekreuzt werden.                       1
+
+
+Niedersächsisches Kultusministerium                                                       Seite 7 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                                Mathematik                  Erwartungshorizont
+
+ Sjg. 10 G-Kurs                                                                        Haupttermin
+
+
+
+                                                   hk = 107 cm
+     3a                                                                                     3
+                                                  364 050,90 cm³
+     3b                                     353 129,37 g (354 096,32 g)                     2
+     3c                          Die dritte Aussage muss angekreuzt werden.                 1
+     3d                                           387 867,31 cm²                            2
+     3e                                         48,42 % (49,08 %)                           2
+
+
+
+     4a                                            e ≈ 195,74 km                            3
+     4b                               Jede sinnvolle Rechnung ist zu werten.                2
+     4c                                            s ≈ 63,92 km                             3
+     4d                               Jede sinnvolle Begründung ist zu werten.              2
+
+
+
+
+Niedersächsisches Kultusministerium                                                   Seite 8 von 8
+
+[Seitenwechsel]

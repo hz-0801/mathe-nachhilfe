@@ -1,0 +1,290 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS9/EWH/2024MatheHS9EL.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                                              Mathematik                                   Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                                               Haupttermin
+
+
+Ablauf der Prüfung
+
+                                  120 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                 Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+                                                     (für G- und für E-Kurs)
+                                                     IGS 9: Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil (G-Kurs)
+
+                                 Material/Medien     Arbeitsmittel:
+                                                     - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                     - Geodreieck, Zirkel, Bleistift
+      Mathematik Hauptschule 9
+
+
+
+
+                                                     Hilfsmittel:
+                                                     - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                     - Formelsammlung (vorgegeben unter www.gosin.de)
+
+                                 Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                     Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                     bearbeiten ist.
+                                                      Die Abgabe erfolgt spätestens nach 40 Minuten (Verkürzung der
+                                                       max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                       Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                      Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                       (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                       des Wahlteils.
+
+                                  + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                       Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                       sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                      Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                             1            2               3               4               5              6
+
+
+  ab … Punkte                             72,5          61            49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                  Seite 1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                               Mathematik                        Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                     Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+
+ Aufgabe                                       Erwartete Lösung                              Punkte
+
+
+     1a                                                                                          2
+
+
+
+
+     1b                                                                                          2
+
+
+     2a                                              1 673,2                                     2
+     2b                                              24 325                                      2
+     3a                                              m²; m³                                      2
+     3b                                1 505 ct; 150 cm; 5 609 g; 330 min                        4
+                                                     75; 77
+     4                                                -2; 4                                      3
+                                                     1,4; 2
+
+
+
+
+     5                                                                                           3
+
+
+
+
+     6                                             4x + 3 = 51                                   1
+     7a                                              30 cm²                                      1
+     7b                                        wahr; falsch; falsch                              3
+     7c                               Jedes richtige Rechteck ist zu werten.                     1
+
+
+     8                                                                                           2
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 6
+
+[Seitenwechsel]
+    Abschlussarbeit 2024                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 9 – E-Kurs                                                                    Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                                Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                           Haupttermin
+
+
+Hauptteil 2
+
+ Aufgabe                                     Erwartete Lösung                                      Punkte
+     1a                                             45 m²                                              4
+     1b                                         2 Farb-Eimer                                           1
+     2a                                         80 Bausteine                                           1
+     2b                                           182,4 cm                                             1
+
+
+
+
+     2c                                                                                                2
+
+
+
+
+     3a                                            7,62 cm                                             2
+                                          14,38 cm (14,45 cm)
+     3b                                                                                                2
+                Der Trinkhalm ragt mehr als 13 cm über den Becher. Der Becher kippt um.
+     3c                       Der Becher muss mindestens 8,49 cm hoch sein.                            3
+     4a                                      Luxemburg; 650 000                                        2
+     4b                                           18,92 Mio.                                           2
+                                        235,75 Einwohner pro km²
+     4c                                                                                                1
+                     (Ein im Kontext sinnvoll gerundeter Wert ist als richtig zu werten.)
+                                          Nein, sie hat nicht recht.
+     4d              Zum Beispiel: „3 700 000 von 84 300 000 Einwohner sind 4,39 %.“                   2
+                           Jede sinnvolle Begründung ist als richtig zu werten.
+     5a                                       20 €; 50 €; 100 m³                                       3
+     5b                                          y = 2x + 20                                           2
+     5c                                             linear                                             1
+                                                      1 1
+                                                     12 ; 2
+     6a                     Alle gleichwertigen Angaben sind als richtig zu werten.                    3
+                                      „Es wird eine 1, 2 oder 3 gewürfelt.“
+                                      Jede richtige Aussage ist zu werten.
+                                           Nein, er hat nicht recht.
+                                                                          4
+                 Zum Beispiel: „Mohamads Gewinnwahrscheinlichkeit ist        , genauso wie
+     6b                                                                   12                           2
+                          Emrins Gewinnwahrscheinlichkeit. Damit ist das Spiel fair.“
+                            Jede sinnvolle Begründung ist als richtig zu werten.
+     6c                                 6-mal „A“; 4-mal „B“, 2-mal „C“                                2
+
+
+
+Niedersächsisches Kultusministerium                                                              Seite 4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                                Mathematik                          Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                        Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                          Erwartete Lösung                                Punkte
+                                                   11 %
+                             Wenn das Diagramm gedruckt genau 10 cm lang ist:
+   1a                                                                                                4
+                               0 = 4,1 cm; A = 4,3; B = 1,1 cm; AB = 0,5 cm
+                                           Genauigkeit: ± 1 mm
+   1b                                               falsch; wahr                                     2
+   1c                                          36,12 Mio. Menschen                                   2
+                                             Ja, sie hat recht.
+              Zum Beispiel: „Nur 5 % der Menschen in Deutschland habe die Blutgruppe AB,
+   1d          von der Blutgruppenverteilung wäre es am wahrscheinlichsten, wenn an dem              2
+                     Tag ca. 43 Menschen mit der Blutgruppe AB gespendet hätten.“
+                            Jede sinnvolle Begründung ist als richtig zu werten.
+
+
+
+
+   2a                                             723 822,95 cm³                                     2
+   2b                                                 82,89 cm                                       3
+   2c                                              37 397,52 cm²                                     3
+   2d                                                  40 cm                                         2
+
+
+
+
+   3a                                               falsch; wahr                                     2
+                                                   5 3
+                                                    ;
+   3b                                              8 8                                               2
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+                                                    4
+   3c                                               64                                               2
+                           Alle gleichwertigen Angaben sind als richtig zu werten.
+   3d                                 4-mal „S“; 4-mal „P“; 2-mal „R“; 6-mal „H“                     2
+                                                  Ja, sie hat recht.
+                                                                                        4
+             Zum Beispiel: „Ja, da beim ersten Zug die Wahrscheinlichkeit „S“ zu ziehen 16
+   3e                                                                                                2
+                                                                                        3
+             beträgt und beim zweiten Zug die Wahrscheinlichkeit „S“ zu ziehen nur noch 15
+                        beträgt.“ Jede sinnvolle Begründung ist als richtig zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                           Seite 5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                              Mathematik                         Erwartungshorizont
+
+ Hauptschule 9 – E-Kurs                                                                        Haupttermin
+
+
+
+
+   4a                                                18 m²                                            2
+   4b                                           35 Randsteine                                         4
+                                               a = 2 m; b = 12 m
+   4c                                                                                                 2
+                                      Jede richtige Aussage ist zu werten.
+                                         Nein, er hat nicht recht.
+              Zum Beispiel: „Der Flächeninhalt vervierfacht sich, wenn sich die Seitenlängen
+   4d                                                                                                 2
+                                               verdoppelt.“
+                           Jede sinnvolle Begründung ist als richtig zu werten.
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 6 von 6
+
+[Seitenwechsel]

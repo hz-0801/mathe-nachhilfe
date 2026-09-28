@@ -1,0 +1,386 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2024, Hauptschule, Schuljahrgang 10, E-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2024, Datei 2024Mathe/2024_ABA_Mathe_HS10/EWH/2024MatheHS10EL.pdf im Archiv 2024Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 9.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2024                                                Mathematik                                  Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                                               Haupttermin
+
+
+
+
+Ablauf der Prüfung
+
+                                  150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                  Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                                  Material/Medien     Arbeitsmittel:
+                                                      - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                      - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                      Hilfsmittel:
+      Mathematik Hauptschule 10
+
+
+
+
+                                                      - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                      - Formelsammlung (vorgegeben unter www.gosin.de)
+                                  Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                      Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                      bearbeiten ist.
+                                                       Die Abgabe erfolgt spätestens nach 50 Minuten (Verkürzung der
+                                                        max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                        Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                       Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                        (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                        des Wahlteils.
+
+                                   + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                        Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                        sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                       Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+   Notenziffer                              1            2               3               4               5              6
+
+
+  ab … Punkte                              72,5         61             49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+Niedersächsisches Kultusministerium                                                                                   Seite 1 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                              Mathematik                         Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                    Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+ Aufgabe                                        Erwartete Lösung                               Punkte
+     1a                                                  5                                         1
+     1b                                                1,92                                        1
+     1c                                                  0                                         1
+
+     1d                                   12                                                       1
+                                          5 oder gleichwertige Lösung
+
+
+
+
+     2a                                                                                            3
+
+
+
+
+                                                         m
+     2b                                                 cm²                                        3
+                                                        cm³
+
+     3a                                                                                            2
+
+                                      Jede richtigte Einfärbung ist zu werten.
+                                                   Zum Beispiel:
+
+     3b                                                                                            1
+
+
+
+
+     3c                                                 12                                         1
+
+
+
+
+      4                                                                                            3
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 2 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                           Mathematik                          Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                  Haupttermin
+
+
+ Aufgabe                                     Erwartete Lösung                                Punkte
+
+
+
+
+     5a                                                                                          2
+
+
+
+
+     5b                                              – 10                                        2
+
+
+      6                                                                                          2
+
+
+     7a                    Jede geeignete Zerlegung oder Ergänzung ist zu werten.                2
+     7b                                              16                                          2
+                                      Jeder richtige Term ist zu werten.
+     7c                                                                                          1
+                                              Zum Beispiel: 4a²
+
+
+
+
+Niedersächsisches Kultusministerium                                                      Seite 3 von 9
+
+[Seitenwechsel]
+    Abschlussarbeit 2024                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 10 – E-Kurs                                                                   Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 4 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                           Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                     Haupttermin
+
+
+Hauptteil 2
+
+  Aufgabe                                      Erwartete Lösung                                 Punkte
+     1a                                               5,3 %                                         1
+     1b                                  7187 oder 7188 Elektro-Autos                               2
+      1c                                    11 506 oder 11507 Autos                                 2
+                                     Terjes Behauptung stimmt nicht.
+                            Jede sinnvolle Begründung ist als richtig zu werten.
+     1d                                                                                             2
+                Zum Beispiel: Es waren in Deutschland 29 328 Elektro-Autos und damit mehr
+                                     Elektro-Autos als in Norwegen.
+
+
+
+     2a                                                                                             1
+
+
+
+     2b                                 Alle 9 Pfade sind richtig ergänzt.                          2
+                                                             225
+                                              P (zwei Tore) =
+      2c                                                     400                                    2
+                             Alle gleichwertigen Angaben sind als richtig zu werten.
+
+
+
+
+     3a                                                                                             2
+
+
+
+
+     3b                                                                                             2
+
+
+
+
+      3c                                       y = 0,15 · x + 4,50                                  2
+                                           Sie sollte Tarif C wählen.
+     3d                                                                                             2
+                                Jede sinnvolle Rechnung ist als richtig zu werten.
+
+
+Niedersächsisches Kultusministerium                                                         Seite 5 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                              Mathematik                         Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                    Haupttermin
+
+
+     4a                                            a = 11,50 cm                                     2
+                                                   y = 29,50 cm
+     4b                                                                                             3
+                                                  (y = 29,31 cm)
+
+
+
+      4c                                                                                            2
+
+
+
+
+     4d                                                                                             1
+                             Jede sinnvolle Erklärung ist als richtig zu werten.
+                    Zum Beispiel: Die sechseckigen Fliesen können nicht lückenlos verlegt
+                                                  werden.
+                                                       75,40 cm
+     5a                                                                                             2
+                                      Sie sollte ein 80 cm langes Band kaufen.
+     5b                                             hK ≈ 75 cm                                      3
+                                                     α ≈ 9,09°
+      5c                                                                                            3
+                                                    (α ≈ 9,03°)
+
+
+
+
+Niedersächsisches Kultusministerium                                                         Seite 6 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                        Mathematik                         Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                              Haupttermin
+
+
+Wahlteil
+
+
+  Aufgabe                                  Erwartete Lösung                                 Punkte
+     1a                                        530,93 mm²                                      3
+     1b                                        113,10 mm3                                      2
+                                              4488,29 mm3
+      1c                                                                                       4
+                                             (4488,41 mm3)
+                              Jede sinnvolle Begründung ist als richtig zu werten.
+     1d          Zum Beispiel: 10 % des Nussvolumens entsprechen nicht 10 % des Volumens       1
+                                           der Schokoladenfüllung.
+
+
+
+
+Niedersächsisches Kultusministerium                                                  Seite 7 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                            Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                      Haupttermin
+
+
+ Aufgabe                                      Erwartete Lösung                                      Punkte
+
+                           Tage       0      1        2        3     4      5       6
+     2a                                                                                                 2
+                       Fläche des     80    100      120       140   160   180     200
+                       Teichs in m2
+
+
+
+
+     2b                                                                                                 2
+
+
+
+
+     2c                                                                                                 3
+
+
+
+
+                    Nach etwa 2,5 Tagen ist die mit Algen bedeckte Fläche 25 m2 groß.                   2
+     2d
+                Nach 5,5 Tagen ist die mit Algen bedeckte Fläche etwa 77,5 m2 ( 5 m²) groß.
+                             Jede sinnvolle Begründung ist als richtig zu werten.
+     2e                                                                                                 1
+                      Zum Beispiel: Der dargestellte Zusammenhang ist nicht proportional.
+
+
+
+
+Niedersächsisches Kultusministerium                                                          Seite 8 von 9
+
+[Seitenwechsel]
+ Abschlussarbeit 2024                             Mathematik                             Erwartungshorizont
+
+ Hauptschule 10 – E-Kurs                                                                       Haupttermin
+
+
+  Aufgabe                                       Erwartete Lösung                                     Punkte
+
+
+
+
+     3a                                                                                                 2
+
+
+
+
+                                                         80
+     3b                                                                                                 2
+                                                         100
+
+                              Der Pfad zu P (1. Song) und zu P (2. Song) ist markiert.
+      3c                                                2450                                            3
+                                                        9900
+                                                         17
+     3d                                                                                                 2
+                                                         80
+                                         Larissa Behauptung ist falsch.
+     3e                                                                                                 1
+                        Die Wahrscheinlichkeit, dass ein Pop-Song abgespielt wird, sinkt.
+
+
+
+  Aufgabe                                       Erwartete Lösung                                     Punkte
+     4a                                                90 cm                                            1
+     4b                                            x ≈ 439,32 cm                                        2
+      4c                                             α ≈ 11,82°                                         2
+     4d                                         β ≈ 25,18° (25,33°)                                     2
+     4e                                            s ≈ 538,42 cm                                        2
+                                Jeder sinnvolle Lösungsweg ist als richtig zu werten.
+      4f                                                 450                                            1
+                                         Zum Beispiel: cos18,5° ≈ 453,43 cm
+
+
+
+
+Niedersächsisches Kultusministerium                                                           Seite 9 von 9
+
+[Seitenwechsel]

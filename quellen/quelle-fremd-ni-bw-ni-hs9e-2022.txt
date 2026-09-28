@@ -1,0 +1,955 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS9/2022MatheHS9E_Teil1.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 5.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                                Mathematik                                         Material für Prüflinge
+
+Hauptschule 9 – E-Kurs                                Deckblatt                                                 Haupttermin
+
+
+
+
+                           Dezentrale Abschlussarbeit 2022 Mathematik
+
+                                der [hier Namen der Schule einfügen]
+
+                                in [hier Standort der Schule einfügen]
+
+
+
+
+Name: ______________________________                                          Klasse: ______
+
+Datum: ______________________________
+
+
+
+
+                                Hauptteil 1     Hauptteil 2              Wahlteil             Summe
+                Erreichte
+                Punktzahl
+                Mögliche
+                                    28                36                     20                   84
+                Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+   Erreichte            Mögliche
+                                              Note             …………………………………..……..
+   Punktzahl            Punktzahl
+                                                               Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                           84                                  ………………………………………....
+                                                               Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+  Notenziffer             1              2                 3                   4                   5              6
+
+
+ ab … Punkte            72,5             61            49,5                   38                  17              0
+
+
+                                                                                                                      1 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                              Mathematik                                    Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 1 (ohne Hilfsmittel)                                    Haupttermin
+
+
+ Name:                                                                         Klasse:
+
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Rechne schriftlich.
+
+a) 340,52 + 58,27                   b) 236 375 – 21 564                                    c) 5 064 · 4
+
+
+
+
+Aufgabe 2
+
+Setze die Zahlenfolge fort.
+
+a)          460               540             620                700
+
+
+b)        23 000          19 000            15 000              11 000
+
+
+c)                            -8               -3                                      7                   12
+
+
+Aufgabe 3
+
+Überschlage und kreuze das richtige Ergebnis an.
+
+a) 9 897 + 20 124 =            23 021         27 021           30 021
+
+b) 5 009 · 3   =               14 027         15 027           16 027
+
+
+
+                                              1a       1b       1c        2a      2b        2c        3a         3b
+                               Erreichte
+                               Punktzahl
+                               Mögliche
+                                               1       1         1        1        1         1         1         1
+                               Punktzahl
+
+                                                                                                                2 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                Hauptteil 1 (ohne Hilfsmittel)                            Haupttermin
+
+
+Aufgabe 4
+
+a) Trage für das abgebildete Prisma die Anzahl der Ecken, Flächen und Kanten ein.
+
+
+
+
+                                                                                                            Quelle: MK Niedersachsen
+                                            _____ Ecken
+
+                                            _____ Kanten
+
+                                            _____ Flächen
+
+
+
+
+b) Überprüfe die Aussagen. Wahr oder falsch? Kreuze an.
+
+
+
+        Aussage                                                                 wahr    falsch
+
+        Bei jedem Prisma sind die Grund- und Deckfläche gleich groß.
+
+        Jedes Prisma ist ein Quader.
+
+        Alle Flächen eines Prismas sind rechteckig.
+
+
+
+
+                                                                                                       Quelle: MK Niedersachsen
+Aufgabe 5
+
+Die Abbildung zeigt ein Würfelgebäude.
+
+Jeder Würfel hat ein Volumen von 1 cm³.
+
+a) Bestimme das Volumen des Würfelgebäudes.
+
+Antwort: _________________________________________________________________________
+
+________________________________________________________________________________
+
+
+
+
+Das Würfelgebäude soll zu einem kleinstmöglichen Würfel ergänzt werden.
+
+b) Es fehlen _____ Würfel zu einem Gesamtwürfel.
+
+
+                                                                           4a      4b       5a       5b
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                           3       3         1        1
+                                                               Punktzahl
+
+                                                                                                    3 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs               Hauptteil 1 (ohne Hilfsmittel)                            Haupttermin
+
+
+Aufgabe 6
+
+Der Fahrplan zeigt die Zugverbindungen zwischen Braunschweig und Schöppenstedt.
+
+ RB Braunschweig - Schöppenstedt
+
+                                            täglich
+
+                                         RB 1             RB 2            RB 3           RB 4
+
+
+
+
+                                                                                                         Quelle: MK Niedersachsen
+ Brauschweig               ab            5:57             7:57            9:57           11:57
+ Wolfenbüttel              an            6:07             8:07            10:07          12:07
+ Wolfenbüttel              ab            6:08             8:08            10:08          12:08
+ Dettum                    an            6:19             8:19            10:19          12:19
+ Dettum                    ab            6:20             8:20            10:20          12:20
+ Schöppenstedt             an            6:27             8:27            10:27          12:27
+
+
+a) In Braunschweig fährt die erste Regionalbahn (RB) um ________ Uhr ab.
+
+b) Die Fahrt von Braunschweig bis Schöppenstedt dauert ________ min.
+
+c) Die RB 3 verspätet sich um 12 Minuten. Sie erreicht Wolfenbüttel voraussichtlich um ________ Uhr.
+
+d) Frau Wagner aus Wolfenbüttel möchte um 9:00 Uhr in Schöppenstedt sein.
+  Sie sollte den Zug _______ nehmen.
+
+
+
+
+                                                                            6a    6b       6c       6d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                            1     1         1        1
+                                                              Punktzahl
+
+                                                                                                   4 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                Hauptteil 1 (ohne Hilfsmittel)                            Haupttermin
+
+
+Aufgabe 7
+
+Susanne möchte Kuchen backen.
+                                                                                        Zutaten
+
+
+
+
+                                                                                                                        Quelle: MK Niedersachsen
+Für einen Kuchen benötigt sie die genannten Zutaten.
+                                                                                       1
+                                                                                         kg Butter
+a) Gib das Gewicht in Gramm an.                                                        4
+
+                                                                                     750 g Mehl
+Butter: __________ g         Zucker: __________ g
+                                                                                   0,5 kg Zucker
+
+Für das Schulfest backt Susanne vier Kuchen.                                             2 Eier
+
+b) Berechne die Menge der Zutaten für vier Kuchen.
+
+Butter: __________           Zucker: __________
+
+Mehl: __________             Eier: __________
+
+
+
+Aufgabe 8
+
+An einem Haus fallen verschiedene Reparaturen an.
+
+a) Entscheide, ob die Zuordnung proportional (p), antiproportional (a) oder keins von beidem (k) ist.
+
+                                                                 p         a        k
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+ 2 m² Laminatboden kosten 14 €.
+ 5 m² kosten 35 €.
+ 2 Handwerker brauchen für die Reparaturen 8 Stunden.
+ 4 Handwerker benötigen 4 Stunden.
+
+
+Ein Zimmer soll tapeziert werden. Eine Rolle Tapete enthält 12 m² Tapete.
+
+Es werden für das Zimmer 5 Rollen benötigt.
+
+b) Berechne die Anzahl der Rollen, wenn auf einer Rolle nur 10 m² Tapete sind.
+
+
+
+
+                                                                           7a      7b       8a        8b
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                               2   2         2        2
+                                                               Punktzahl
+                                                                                                     5 von 5
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS9/2022MatheHS9E_Teil2.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 12.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                   Mathematik                                Material für Prüflinge
+
+Hauptschule 9 – E-Kurs             Hauptteil 2 und Wahlteil                               Haupttermin
+
+
+Name:                                                             Klasse:
+
+
+
+
+Es wurden die folgenden zwei            Wahlaufgabe W1        (       )
+Aufgaben des Wahlteils gewählt:         Wahlaufgabe W2        (       )
+
+                                        Wahlaufgabe W3        (       )
+
+                                        Wahlaufgabe W4        (       )
+
+
+
+
+Wichtige Hinweise:       Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                         anderes   angegeben       ist.   Schreibe        deine    Lösungswege
+                         ausführlich auf.
+
+
+
+
+                                                                                              1 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                    Hauptteil 2 und Wahlteil                                     Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe 1
+
+Der Brocken ist der höchste Berg in Niedersachsen.
+Das Diagramm und die Tabelle zeigen die durchschnittlichen Temperaturwerte des Jahres 2020.
+
+ Monat                    Jan   Feb   Mär     Apr    Mai     Jun      Jul   Aug   Sep     Okt                             Nov           Dez
+ Temperatur in °C         -4    -3    -2               4              12    15    10        4                                  3         1
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+
+
+
+
+a) Ergänze die fehlenden Temperaturwerte in der Tabelle und vervollständige das Diagramm.
+
+b) Notiere den Monat mit der höchsten Temperatur und den Monat mit der niedrigsten Temperatur.
+
+c) Bestimme den Temperaturunterschied zwischen den Monaten Februar und Juli.
+
+d) Berechne die Durchschnittstemperatur für das Jahr 2020.
+
+
+                                                                             1a    1b           1c                                 1d
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                             2      2           1                                  2
+                                                               Punktzahl
+
+                                                                                                                               2 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                            Mathematik                                Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                     Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Aufgabe 2
+
+Ein Supermarkt macht Werbung für Waschmittel.
+
+
+
+
+                                                                                                           Quelle: MK Niedersachsen
+                                                          Waschmeister
+                                                                                       0,31 €
+               Sauberfix           5,99 €                      2 000 g               pro Wäsche
+                 1 000 g                                  50 g pro Wäsche
+             50 g pro Wäsche
+
+
+
+
+a) Berechne, welches Waschmittel pro Wäsche günstiger ist und kreuze an.
+
+        Sauberfix
+        Waschmeister
+
+
+
+
+                                                                                                               Quelle: MK Niedersachsen
+b) Überprüfe rechnerisch, ob das Angebot                           Flüssigfix
+  für Flüssigfix stimmt.                                     heute 20 % günstiger
+                                                            Statt 4,99 € nur 3,99 €
+
+
+
+
+Aufgabe 3
+
+Eine 5,7 m lange Rampe hilft den Schafen beim Einstieg in den Stall.
+Sie lehnt in einer Höhe von 0,4 m am Tor zum Stall.
+
+Berechne den Abstand x vom Beginn der Rampe bis zum Stall.
+                                                                                                              Quelle: MK Niedersachsen
+
+
+
+
+                                                                                       2a       2b        3
+                                                                         Erreichte
+                           0,4 m                                         Punktzahl
+                               •                                         Mögliche
+                                                                                       3         3        3
+                                                                         Punktzahl
+                x          Skizze nicht maßstäblich
+                                                                                                       3 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                           Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                                    Haupttermin
+
+
+Aufgabe 4
+
+Tim macht eine Radtour von Zuhause zum Aussichtspunkt auf dem Berg.
+
+
+
+
+                                                                                     Quelle: MK Niedersachsen
+
+
+a) Ordne den Texten die jeweiligen Abschnitte zu. Ergänze den fehlenden Text.
+
+      Text                                                                                      Abschnitt
+      Tim schafft 2 km in 10 Minuten.                                                                           A
+
+      Tim fährt den Anstieg bis zum Aussichtspunkt.
+
+                                                                                                                B
+
+
+Tim fährt vom Aussichtspunkt weiter. Er braucht bei gleichbleibender Geschwindigkeit ohne anzuhalten
+10 Minuten bis zum 3,5 km entfernten Bergsee.
+
+b) Ergänze die Weiterfahrt im Koordinatensystem.
+
+c) Stelle die Funktionsgleichung für den Abschnitt A auf.                       4a                              4b       4c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                2                               1         1
+                                                                    Punktzahl
+
+                                                                                                                       4 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Kim behauptet: „Tim, du warst in Abschnitt A viel schneller unterwegs als in Abschnitt C.“
+
+d) Hat Kim Recht? Kreuze an und begründe.
+
+         Ja, sie hat Recht.
+         Nein, sie hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+________________________________________________________________________________
+
+
+
+Aufgabe 5
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+In einer Fabrik werden Drahtringe für kreisförmige Dekorationen hergestellt.
+
+Jeder Ring wird aus einem 90 cm langen Messingdraht gebogen.
+
+Es werden insgesamt 800 Ringe hergestellt.
+                                                                       Ring
+                          Kupferdraht       4,99 €/m
+                          Eisendraht        2,99 €/m
+                          Messingdraht      3,49 €/m
+
+
+
+
+a) Berechne mit Hilfe der Tabelle die Materialkosten.
+
+
+
+
+                                                                                                          Quelle: MK Niedersachsen
+Silvia möchte den Ring in einem Karton verpacken.
+                                                                                                  2 cm
+b) Ermittle rechnerisch, ob der Ring in den Karton passt.
+                                                                                            33 cm
+c) Berechne das Volumen des Kartons.
+                                                                     33 cm
+
+                                                                              Skizze nicht maßstäblich
+
+
+
+
+                                                                           4d       5a       5b          5c
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                             2      2         2          2
+                                                             Punktzahl
+
+                                                                                                    5 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                                      Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                                       Haupttermin
+
+
+Aufgabe 6
+
+Im Handel gibt es Würfel mit einer unterschiedlichen Anzahl von Flächen.
+
+
+
+
+                                                                                                                  Quelle: MK Niedersachsen
+                          3                                                                    3
+ A                                                         B
+                                                                                   2           4          2
+                  1       2    3      1                                    1           3            1
+
+                          3                                                3
+
+
+a) Ist die Aussage wahr oder falsch? Kreuze an.
+
+
+
+
+                                                                                                                             Quelle: MK Niedersachsen
+ Aussage                                                                                   wahr         falsch
+                                                                           1
+ Die Wahrscheinlichkeit, mit Würfel A eine 1 oder eine 2 zu würfeln, ist   .
+                                                                           2
+
+ Die Wahrscheinlichkeit, eine 2 zu würfeln, ist bei beiden Würfeln gleich groß.
+
+ Es ist unmöglich, mit Würfel B 6-mal nacheinander eine 1 zu würfeln.
+
+b) Bestimme die Wahrscheinlichkeit, mit Würfel B eine 2 zu würfeln. Notiere das Ergebnis in Prozent.
+
+Ilona behauptet: „Wenn ich mit dem Würfel A 1000-mal würfle, dann wird etwa 200-mal die 3 fallen.
+
+c) Hat Ilona Recht? Kreuze an und begründe.
+
+         Ja, sie hat Recht.                         Nein, sie hat nicht Recht.
+
+
+Begründung: _____________________________________________________________________
+
+________________________________________________________________________________
+
+Die Abbildung zeigt das Netz eines Würfels mit 12 Flächen.
+                                                                                                                  Quelle: MK Niedersachsen
+
+
+
+
+d) Setze die Zahlen 1, 2, 3 und 4 so ein, dass die folgenden Wahrscheinlichkeiten zutreffen.
+
+             1
+   P (1) =
+             2
+
+             1
+   P (2) =
+             4
+
+             1                                                                 6a      6b           6c          6d
+   P (3) =                                                     Erreichte
+             6
+                                                               Punktzahl
+             1                                                 Mögliche
+   P (4) =                                                                     3           1         2          2
+             12                                                Punktzahl
+
+                                                                                                              6 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                             Mathematik                         Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+Wahlteil
+
+                                     Wahlaufgabe 1 - Körper
+
+Eine Firma produziert zylinderförmige Blumentöpfe.
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+Die Töpfe haben einen Durchmesser von 18 cm und eine Höhe von
+20 cm.
+
+a) Berechne das Volumen des Blumentopfes.
+
+
+
+
+Natalie füllt 4 000 cm³ Erde in den Blumentopf.
+
+b) Berechne die Füllhöhe der Erde im Blumentopf.
+
+
+
+
+Die Firma möchte den Blumentopf mit einer Figur aus zwei gleichen
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+Dreiecken verzieren.                                                                  h
+c) Berechne die Höhe eines Dreiecks.
+                                                                                      •
+                                                                                4 cm
+
+
+
+
+d) Berechne den Flächeninhalt der Figur.
+                                                                         (Skizze nicht maßstäblich)
+  (Solltest du Teilaufgabe c) nicht gelöst haben, rechne mit 3,64 cm weiter.)
+
+
+
+
+                                                                           1a   1b        1c       1d
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                           2     2         3        3
+                                                               Punktzahl
+
+                                                                                                 7 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                                            Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                    Hauptteil 2 und Wahlteil                                           Haupttermin
+
+
+                          Wahlaufgabe 2 - Funktionen (Seite 1 von 2)
+
+Herr Jalowiecki lässt das Wasser von seiner Regentonne ab. Das Wasser läuft mit annähernd
+gleichbleibender Geschwindigkeit ab.
+
+a) Vervollständige die Tabelle und zeichne passend zur Wertetabelle einen Graphen in das
+  Koordinatensystem ein.
+
+ Zeit in min               0           5            10        22,5    35                                         45
+
+ Wasserhöhe in cm          90          80           70                20                         10              0
+
+
+
+
+                                                                           Quelle: MK Niedersachsen
+
+
+
+
+b) Bestimme die zur Wasserhöhe passende Funktionsgleichung.
+
+         y = -5x + 90
+         y = -2x + 90
+         y = -10x – 90
+
+
+Herr Jalowiecki lässt das Wasser um 15:30 Uhr ab.
+
+c) Bestimme, um wie viel Uhr das Wasser in der Tonne 20 cm hoch steht.
+
+
+                                                                                                                  8 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                           Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+                            Wahlaufgabe 2 – Funktionen (Seite 2 von 2)
+
+Herr Jalowiecki braucht eine neue Regentonne. Er vergleicht 2 verschiedene Modelle mit gleichem
+Volumen.
+
+
+
+                                              Tonne A
+
+
+
+
+                                                                                                        Quelle: MK Niedersachsen
+                                                                                         Tonne B
+
+
+ Tonne A                  Tonne B
+
+
+
+d) Skizziere die Tonne zum Graphen A.
+
+e) Gib die Koordinaten des Schnittpunktes an und erkläre seine Bedeutung.
+
+
+
+Nach 5 Minuten hat sich etwas vor dem Wasserhahn verfangen. Das Wasser läuft jetzt nur noch halb
+so schnell ab.
+
+f) Gib an, wie lange es jetzt noch dauert, bis die Tonne B leer ist.
+
+
+
+
+                                                             2a        2b   2c   2d       2e       2f
+                                               Erreichte
+                                               Punktzahl
+                                               Mögliche
+                                                             3         1    1    1         2        2
+                                               Punktzahl
+
+
+                                                                                                 9 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                             Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+                              Wahlaufgabe 3 - Wahrscheinlichkeit
+
+In Tobias‘ Schublade befinden sich 4 schwarze (s) und 2 blaue (b) Socken.
+
+Tobias greift, ohne hinzusehen, nacheinander 2 Socken aus seiner Schublade.
+
+a) Ergänze das folgende Baumdiagramm.
+                                                               3
+                                                               5
+                                                                         s
+                              4
+                                            s
+                              6
+
+                                                               2
+
+
+
+
+                                                                                                       Quelle: MK Niedersachsen
+                                                               5
+                                                        4
+                                                        5                s
+
+                                            b
+
+                                                                         b
+
+
+
+
+Tobias zieht 2 schwarze Socken.
+
+b) Markiere den entsprechenden Pfad und berechne die Wahrscheinlichkeit.
+
+c) Berechne, wie hoch die Wahrscheinlichkeit ist, dass er 2 verschiedenfarbige Socken zieht.
+
+
+
+
+Tobias kauft noch 4 blaue Socken und 4 schwarze Socken.
+
+Er behauptet: „Jetzt ist die Wahrscheinlichkeit, 2 blaue Socken zu ziehen, größer als vorher.“
+
+d) Hat Tobias Recht? Kreuze an und begründe.
+
+         Ja, er hat Recht.
+         Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+___________________________________________                                  3a   3b        3c       3d
+                                                             Erreichte
+___________________________________________                  Punktzahl
+                                                             Mögliche
+                                                                             3     2         3        2
+                                                             Punktzahl
+
+                                                                                                  10 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                                       Mathematik                                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                                Hauptteil 2 und Wahlteil                                                                     Haupttermin
+
+
+                                        Wahlaufgabe 4 – Daten (Seite 1 von 2)
+
+Die Schülerzeitung der Ursulaschule hat eine Befragung zum Thema Fernunterricht durchgeführt. Die
+Schülerinnen und Schüler durften den Fernunterricht ihrer Lehrkräfte benoten.
+
+a) Berechne die fehlenden Werte in der Tabelle und vervollständige das Säulendiagramm.
+
+                                                          Anzahl der         Anteil in
+                                              Note
+                                                          Nennungen          Prozent
+                                               1                  70
+
+                                               2                  90         22,5 %
+
+
+
+
+                                                                                          Quelle: MK Niedersachsen
+                                               3               140
+
+                                               4                  40          10 %
+
+                                               5                  40          10 %
+
+                                               6                  20           5%
+
+                                            Insgesamt          400            100 %
+
+
+                                   40
+                                   35
+                                   30
+               Anteil in Prozent
+
+
+
+
+                                   25
+                                   20                                                                                    Quelle: MK Niedersachsen
+
+                                   15
+                                   10
+                                   5
+                                   0
+                                        1          2          3          4         5      6
+
+                                                                  Note
+
+
+An der Goetheschule haben die Lehrkräfte für den Fernunterricht eine Durchschnittsnote von 2,95
+erhalten.
+
+b) Berechne die Durchschnittsnote für den Fernunterricht an der Ursulaschule und kreuze an, welche
+  Schule besser bewertet hat.
+
+                                         Ursulaschule                    Goetheschule
+
+
+
+                                                                                                                                                     11 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                             Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                                        Haupttermin
+
+
+                              Wahlaufgabe 4 – Daten (Seite 2 von 2)
+
+Außerdem wurden die 400 Schülerinnen und Schüler danach gefragt, was sie am meisten am
+Fernunterricht gestört hat. Es durften mehrere Möglichkeiten angegeben werden.
+
+
+
+
+                                                                                         Quelle: MK Niedersachsen
+c) Kreuze an, ob folgende Aussage wahr oder falsch ist.
+
+ Aussage                                                                      wahr     falsch
+ Über 200 Schülerinnen und Schüler haben die „fehlende Tagesstruktur“
+ kritisiert.
+
+ Mehr als jeder dritte Befragte empfand die „Aufgaben als langweilig“.
+
+
+
+Elias behauptet: „Die Prozentsätze können nicht stimmen, weil sie addiert mehr als 100 % ergeben.“
+
+d) Hat Elias recht, dass die Prozentsätze nicht stimmen können? Kreuze an und begründe.
+
+         Ja, er hat recht.
+         Nein, er hat nicht recht.
+
+Begründung: _____________________________________________________________________
+
+________________________________________________________________________________
+
+
+
+                                                                         4a      4b                                 4c       4d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                         3       3                                  2         2
+                                                             Punktzahl
+
+                                                                                                                          12 von 12
+
+[Seitenwechsel]

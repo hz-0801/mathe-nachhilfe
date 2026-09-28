@@ -1,0 +1,841 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2025, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2025, Datei 2025Mathe/2025_ABA_Mathe_9_E-Kurs/2025MatheSjg9E_Teil1.pdf im Archiv 2025Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 5.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2025                                  Mathematik                                         Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                          Deckblatt                                                 Haupttermin
+
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2025 Mathematik
+
+
+
+
+                                 Hauptteil 1      Hauptteil 2              Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                36                     20                   84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note             …………………………………..……..
+    Punktzahl           Punktzahl
+                                                                 Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                   ………………………………………....
+                                                                 Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2                 3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                   38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                              Seite 1 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                                Mathematik                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Rechne schriftlich.
+
+a) 1 324,65 + 478,23                                              b) 3,4 ∙ 2,6
+
+
+
+
+Aufgabe 2
+
+Wandle in die angegebene Einheit um.
+
+a) 7 300 m = _________ km                                         b) 150 min = _________ h
+
+c) _________ g = 1,75 kg                                          d) _________ ct = 2,99 €
+
+
+
+Aufgabe 3
+
+Setze „<“, „>“ oder „=“ ein.
+
+                                                                       1
+a) – 31 ______ 5                                                  b) 3 2 ______ 3,5
+
+                                                                       1        1
+c) – 423 ______ – 321                                             d)     ______ 4
+                                                                       2
+
+
+
+
+                                1a    1b        2a       2b       2c        2d   3a     3b        3c       3d
+                 Erreichte
+                 Punktzahl
+                 Mögliche
+                                 2    2          1       1         1        1    1      1          1        1
+                 Punktzahl
+Niedersächsisches Kultusministerium                                                                 Seite 2 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                           Mathematik                                    Material für Prüflinge
+
+ Sjg. 9 E-Kurs                          Hauptteil 1 (ohne Hilfsmittel)                                  Haupttermin
+
+
+Aufgabe 4
+
+a) Entscheide, bei welcher Zahl das Runden sinnvoll oder nicht sinnvoll ist.
+   Kreuze an.
+
+                                                                                           nicht
+                                                                              sinnvoll
+                                                                                          sinnvoll
+ Die Telefonnummer von Sophie lautet 8981514.
+ An der Tankstelle kostet die Tankfüllung 12,987 €.
+ Lisa soll in ihrem Heft einen Winkel von 45,78° zeichnen.
+ Eine Postleitzahl von Hannover lautet 30165.
+
+
+b) Runde auf zwei Nachkommastellen.
+
+3,477 €  ______________ €
+
+
+
+c) Notiere jeweils zur gerundeten Zahl die kleinste mögliche und die größte mögliche ganze Zahl.
+
+        Kleinste mögliche                                                            Größte mögliche
+                                            Gerundete Zahl
+            ganze Zahl                                                                 ganze Zahl
+                 15                    20 (auf Zehner gerundet)                               24
+                                      140 (auf Zehner gerundet)
+                                      1 250 (auf Zehner gerundet)
+
+
+Aufgabe 5
+
+Max kauft drei Käse-Brötchen für insgesamt 3,90 € und ein Wasser für 1,20 €.
+
+a) Bestimme den Preis für ein Käse-Brötchen.
+
+   Preis für ein Käse-Brötchen: _________
+
+Max bezahlt seinen gesamten Einkauf mit einem 10 Euro-Schein.
+
+b) Berechne sein Rückgeld.
+
+
+
+
+                                                                         4a     4b       4c        5a       5b
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                         2       1        2         1        2
+                                                       Punktzahl
+Niedersächsisches Kultusministerium                                                                  Seite 3 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                         Mathematik                             Material für Prüflinge
+
+ Sjg. 9 E-Kurs                        Hauptteil 1 (ohne Hilfsmittel)                           Haupttermin
+
+
+Aufgabe 6
+
+a) Miss den Winkel, notiere seine Größe und kreuze die passende Winkelart an.
+
+                                              α = __________ °
+
+
+
+                                                  Spitzer Winkel
+                                                  Rechter Winkel
+                                                  Stumpfer Winkel
+
+
+
+
+      α
+
+
+
+
+                                                                                                            Quelle: MK Nds.
+b) Gib die Größe des Winkels β an, ohne ihn zu messen.
+
+   β = __________ °
+
+
+
+                                                           140°
+                                                                    β
+
+
+
+                                                        (Skizze nicht maßstäblich)
+
+
+
+
+                                                                                          6a       6b
+                                                                              Erreichte
+                                                                              Punktzahl
+                                                                              Mögliche
+                                                                                           2        1
+                                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 4 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                          Mathematik                      Material für Prüflinge
+
+ Sjg. 9 E-Kurs                        Hauptteil 1 (ohne Hilfsmittel)                     Haupttermin
+
+
+Aufgabe 7
+
+a) Vervollständige das Schrägbild des Würfels.
+
+
+
+
+                                                                                                        Quelle: MK Nds.
+b) Wahr oder falsch? Kreuze an oder ergänze.
+
+                                                                       wahr    falsch
+ Ein Würfel hat 6 Ecken.
+ Jeder Quader ist ein Würfel.
+ Ein Quader hat ________ Flächen.                                       x
+
+
+
+
+                                                                                    7a        7b
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                     2         3
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 5 von 5
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2025, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2025, Datei 2025Mathe/2025_ABA_Mathe_9_E-Kurs/2025MatheSjg9E_Teil2.pdf im Archiv 2025Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 11.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2025                           Mathematik                               Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (      )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (      )
+
+                                                Wahlaufgabe W3        (      )
+
+                                                Wahlaufgabe W4        (      )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, wenn nichts
+                                 anderes   angegeben       ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 1 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                          Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                           Hauptteil 2 und Wahlteil                                  Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe 1
+
+Eine Marmelade ist im Angebot.
+
+
+
+
+                                                                                                                Quelle: MK Nds./KI Dall-E 3
+a) Überprüfe das Angebot mit einer Rechnung.
+
+   O Ja, das Angebot stimmt.                                                         Statt 3,99 €
+   O Nein, das Angebot stimmt nicht.                                            heute nur 3,19 €!
+                                                                                   Sie sparen 20 %
+Der Hersteller wirbt mit 10 % mehr Inhalt.
+Das Glas Marmelade beinhaltet nun insgesamt 297 g.
+
+b) Berechne den ursprünglichen Inhalt.
+
+
+
+
+Aufgabe 2
+
+Ein kreisrunder Tisch hat einen Umfang von 5 m.
+
+
+
+
+                                                                                                                Quelle: MK Nds./KI Imagen 3
+a) Berechne den Radius des Tisches.
+
+
+
+Der Tischler Jens lackiert die obere Fläche der Tischplatte.
+Die Kosten für die Lackierung betragen 29,50 € pro m².
+
+b) Berechne die Kosten für die Lackierung.
+
+   (Wenn du Teilaufgabe a) nicht gelöst hast, dann rechne mit r = 0,7 m weiter.)
+
+
+
+
+                                                                           1a       1b        2a       2b
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                           3         3         3        3
+                                                               Punktzahl
+Niedersächsisches Kultusministerium                                                            Seite 2 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                        Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                          Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Aufgabe 3
+
+Ein Werkstück besteht aus verschiedenen Körpern.
+
+a) Kreuze an, aus welchen Körpern das Werkstück besteht.
+
+
+
+
+                                                                                                              Quelle: MK Nds.
+                Würfel
+
+                Kugel
+
+                Zylinder
+
+                Kegel
+
+                Pyramide
+
+
+
+b) Berechne das Volumen des Werkstücks.
+
+
+
+
+                                                                         (Skizze nicht maßstäblich)
+
+Cem möchte das Material des Werkstücks bestimmen.
+                                                                        Material              Dichte
+Es wiegt etwa 12 561 g.                                                                             g
+                                                                         Kupfer               8,9 cm³
+c) Bestimme rechnerisch das Material des Werkstücks.
+                                                                                                     g
+   (Wenn du Teilaufgabe b) nicht gelöst hast, dann rechne mit             Silber             10,5 cm³
+   V = 1 411,42 cm³ weiter.)
+
+
+
+
+                                                                                3a          3b          3c
+                                                                   Erreichte
+                                                                   Punktzahl
+                                                                   Mögliche
+                                                                                   2         5           2
+                                                                   Punktzahl
+Niedersächsisches Kultusministerium                                                          Seite 3 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                              Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Aufgabe 4
+
+Familie Klaus geht schwimmen.
+
+                                 Schwimmbad – Hohe Welle – Eintrittspreise
+
+                                              3 Stunden:        Tageskarte:   Jahreskarte:
+
+                 Erwachsene                   4,50 €            7,00 €        149,00 €
+
+                 Kinder/Jugendliche           3,00 €            5,50 €        99,00 €
+
+                 Familienkarte                13,00 €           21,00 €       399,00 €
+
+
+Herr und Frau Klaus möchten mit ihren 2 Kindern 3 Stunden schwimmen gehen.
+
+a) Bestimme den günstigsten Eintrittspreis für 3 Stunden.
+
+
+
+Herr und Frau Peters besuchen mit ihrem Sohn Nikan dasselbe Schwimmbad.
+
+Sie möchten den ganzen Tag im Schwimmbad bleiben.
+
+b) Bestimme den günstigsten Eintrittspreis.
+
+
+
+Nikan behauptet: „Eine Familienkarte lohnt sich für 2 Erwachsene nur, wenn sie mit mindestens
+2 Kindern ins Schwimmbad gehen!“
+
+Hat Nikan Recht?
+
+c) Kreuze an und begründe.
+
+ Ja, er hat Recht.                Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                                         4a       4b       4c
+                                                                          Erreichte
+                                                                          Punktzahl
+                                                                          Mögliche
+                                                                                         1         1        2
+                                                                          Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 4 von 11
+
+[Seitenwechsel]
+   Abschlussarbeit 2025                            Mathematik                                  Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                Hauptteil 2 und Wahlteil                                   Haupttermin
+
+
+Aufgabe 5
+
+
+
+
+                                                                                                                  Quelle: MK Nds.
+Das Jugendzentrum baut eine neue Rampe für den Skate-Park.
+
+a) Berechne die Höhe der Rampe.
+
+
+
+
+                                                                                                Höhe:        cm
+
+
+                                                                                       •
+                                                                    120 cm
+
+Auf der schrägen Fläche wird geskatet.                                           (Skizze nicht maßstäblich)
+
+b) Berechne den Flächeninhalt der schrägen Fläche.
+
+
+
+
+Aufgabe 6
+
+
+
+
+                                                                                                                          Quelle: MK Nds./KI Dall-E 3
+Asya kauft Zutaten für die Zubereitung von Milchshakes.
+
+                                                               Kassenzettel
+
+a) Berechne die Kosten für den Einkauf.                1 ℓ Milch              1,19 €
+                                                       200 mℓ Sahne           1,48 €
+                                                       500 g Eis              2,29 €
+
+
+Für einen Milchshake benötigt sie 200 mℓ Milch, 50 mℓ Sahne und 100 g Eis.
+
+b) Bestimme die maximale Anzahl der Milchshakes, die Asya mit ihrem Einkauf zubereiten kann.
+
+
+
+
+Asya möchte beim nächsten Einkauf die Zutaten so kaufen, dass sie diese restlos aufbraucht.
+
+c) Bestimme eine mögliche Anzahl der Packungen Milch, Sahne und Eis, die sie dafür kaufen muss.
+ Quelle: MK Nds.
+
+
+
+
+                   1 ℓ Milch   200 mℓ Sahne   500 g Eis
+
+                                                                         5a     5b         6a       6b       6c
+                                                          Erreichte
+                                                          Punktzahl
+                                                          Mögliche
+                                                                         3      2          1         3        2
+                                                          Punktzahl
+Niedersächsisches Kultusministerium                                                                  Seite 5 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                            Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Wahlteil
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 1 von 2)
+
+In einer Hauptschule wurde eine Umfrage zum Thema „Lieblingssportart“ durchgeführt.
+Die 50 Kinder haben jeweils genau eine Lieblingssportart angegeben.
+
+                                                                                 sonstige
+ Sportart        Fußball    Handball    Turnen   Schwimmen       Volleyball                     insgesamt
+                                                                                Sportarten
+ absolute
+                   17           8         6            4              10                            50
+ Häufigkeit
+
+                                       Lieblingssportarten
+     18
+     16
+     14
+     12
+
+
+
+
+                                                                                                           Quelle: MK Nds.
+     10
+       8
+       6
+       4
+       2
+       0
+             Fußball       Handball     Turnen   Schwimmen Volleyball          sonstige
+                                                                              Sportarten
+
+a) Ergänze die Tabelle und das Säulendiagramm.
+
+
+
+An einer Gesamtschule haben 9 von 25 Kindern Fußball als Lieblingssportart gewählt.
+
+b) Berechne den Anteil der Kinder in Prozent, die Fußball als Lieblingssportart gewählt haben.
+   Kreuze an, bei welcher Schule der Anteil größer ist.
+
+    Hauptschule                        Gesamtschule
+
+
+
+
+Niedersächsisches Kultusministerium                                                              Seite 6 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                         Mathematik                             Material für Prüflinge
+
+ Sjg. 9 E-Kurs                           Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 2 von 2)
+
+Der Förderverein der Hauptschule hat durch Spenden 7 500 € gesammelt.
+Das Geld soll auf einem Konto gespart werden. Sie holen zwei Angebote ein.
+
+                                                         Angebot „ZinsoKasse“
+                 Angebot „Spar-Bank“
+                                                      Nach einem Jahr erhalten Sie
+                 3 % Zinssatz pro Jahr
+                                                        mit Zinsen 7 650 € zurück.
+
+c) Berechne und entscheide, welches Angebot besser ist.
+
+Antwortsatz: ______________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                                 1a       1b       1c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                 3         3        4
+                                                                    Punktzahl
+Niedersächsisches Kultusministerium                                                        Seite 7 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                                    Mathematik                                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                  Hauptteil 2 und Wahlteil                                                   Haupttermin
+
+
+                                  Wahlaufgabe 2 - Wahrscheinlichkeit
+
+In der Klasse 9a zieht jedes Kind an seinem Geburtstag einen Gutschein aus einer Box und legt ihn
+anschließend zurück.
+Es gibt 6 Freiarbeits-Gutscheine (F), 3 Partnerwahl-Gutscheine (P) und 1 Kiosk-Gutschein
+
+Katharina hat Geburtstag.
+a) Bestimme die Wahrscheinlichkeit.
+
+       Ereignis                                                                                Wahrscheinlichkeit
+       Katharina zieht einen Freiarbeits-Gutschein.
+       Katharina zieht keinen Kiosk-Gutschein.
+
+
+Paul und Jarne haben am gleichen Tag Geburtstag. Beide ziehen jeweils einen Gutschein.
+Paul zieht zuerst und legt seinen Gutschein zurück in die Box. Danach zieht Jarne.
+b) Ergänze das Baumdiagramm.
+
+                                           6                            1
+                                           10             3             10
+                                                         10
+
+
+ Paul zieht                  F                            P                                K
+
+
+
+
+                                                                                                                                        Quelle: MK Nds.
+                        6          1                6           1                6                  1
+                            3                             3                                3
+                       10         10                10         10                10                 10
+                            10                           10                               10
+
+
+ Jarne zieht       F         P         K        F         P         K        F             P             K
+
+
+c) Markiere den Pfad für das Ziehen von zwei Partnerwahl-Gutscheine.
+
+d) Berechne die Wahrscheinlichkeit, zwei Partnerwahl-Gutscheine zu ziehen.
+
+e) Entscheide und begründe, was wahrscheinlicher ist.
+
+       Es werden zwei gleiche Gutscheine hintereinander gezogen.
+
+       Es werden zwei unterschiedliche Gutscheine hintereinander gezogen.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+                                                                                  2a           2b            2c       2d       2e
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                                      2         2            1         2        3
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                                                    Seite 8 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                                Mathematik                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                  Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+                             Wahlaufgabe 3 – Funktionen (Seite 1 von 2)
+
+Der Graph zeigt die Strom-Kosten von Familie Eco.
+
+    Kosten in €        y
+             6000
+
+             5500
+
+             5000
+
+             4500
+
+             4000
+
+             3500
+
+             3000
+
+             2500
+
+             2000
+
+             1500
+
+             1000
+
+                 500
+                                                                                              x
+                   0        5         10   15      20     25      30       35   40      45
+                                                                                         Anzahl der Monate
+                                                                                                                        Quelle: MK Nds.
+
+
+
+
+Die Strom-Kosten betragen 150 € im Monat.
+
+a) Ergänze die Wertetabelle.
+
+         x: Anzahl der Monate              0             1             2                          44
+
+         y: Kosten in €                    0            150                     3 150
+
+
+
+Niedersächsisches Kultusministerium                                                                    Seite 9 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                             Mathematik                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                                    Haupttermin
+
+                             Wahlaufgabe 3 – Funktionen (Seite 2 von 2)
+
+Die Familie Eco baut eine Solaranlage auf ihr Dach.
+Die Solaranlage kostet 1 000 €.
+Die Familie zahlt für ihren Strom jetzt 125 € pro Monat.
+
+            x: Anzahl der Monate              0            1          2          10         20
+            y: Kosten in €                 1 000        1 125        1 250   2 250         3500
+
+
+b) Zeichne den zugehörigen Graphen in das Koordinatensystem ein.
+
+
+
+
+c) Stelle die Funktionsgleichung zu Teilaufgabe b) auf.
+
+   y = ______ ּ x + _______
+
+
+
+d) Gib den Schnittpunkt an und gib an, ab wie viel Monaten sich die Anschaffung einer Solaranlage
+   lohnt. Begründe deine Antwort.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                             3a       3b         3c       3d
+                                                                Erreichte
+                                                                Punktzahl
+                                                                Mögliche
+                                                                             3        2          2         3
+                                                                Punktzahl
+Niedersächsisches Kultusministerium                                                              Seite 10 von 11
+
+[Seitenwechsel]
+ Abschlussarbeit 2025                              Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                                      Haupttermin
+
+
+                                      Wahlaufgabe 4 – Körper
+
+Milo kauft Milch. Die Milchpackung ist ein Prisma mit einer trapezförmigen Grundfläche.
+
+a) Begründe, warum die markierte Fläche die
+   Grundfläche des Körpers ist.
+
+
+
+
+                                                                                                       21 cm
+b) Berechne das Volumen des Körpers.
+
+
+
+
+                                                                                                                    Quelle: MK Nds.
+                                                            19 cm
+
+
+
+
+In einer Milchpackung ist 1 ℓ (1 ℓ ≙ 1 000 cm³).
+                                                                            8 cm
+c) Berechne den Anteil an Luft in der Milchpackung.                                  (Skizze nicht maßstäblich)
+   Gib das Ergebnis in Prozent an.
+   (Wenn du Teilaufgabe b) nicht gelöst hast, dann rechne mit V = 1 194 cm³ weiter.)
+
+
+
+
+d) Berechne die Oberfläche des Körpers.
+
+
+
+
+                                                                                4a       4b       4c           4d
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                1        3         3           3
+                                                                    Punktzahl
+Niedersächsisches Kultusministerium                                                               Seite 11 von 11
+
+[Seitenwechsel]

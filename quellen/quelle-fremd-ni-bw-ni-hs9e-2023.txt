@@ -1,0 +1,874 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS9/2023MatheHS9E_Teil1.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 5.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                                  Mathematik                                         Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                                 Deckblatt                                                 Haupttermin
+
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                                Zentrale Abschlussarbeit Niedersachsen
+
+                                                2023 Mathematik
+
+
+
+
+                                 Hauptteil 1      Hauptteil 2              Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                36                     20                   84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note             …………………………………..……..
+    Punktzahl           Punktzahl
+                                                                 Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                   ………………………………………....
+                                                                 Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+   Notenziffer             1               2                 3                   4                   5              6
+
+
+  ab … Punkte            72,5              61            49,5                   38                  17              0
+
+
+
+
+Niedersächsisches Kultusministerium
+                                                                                                                  Seite 1 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                                   Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                 Hauptteil 1 (ohne Hilfsmittel)                                 Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen.
+
+a)
+                 2 000                                                         3 000
+
+b)
+
+                  - 50                                                           50
+
+c)
+
+                    3                                                               4
+
+
+
+
+Aufgabe 2
+
+a) 7 000 + _______ = 13 000           b) 20 000 - _______ = 5 000                c) 4,5 · _______ = 45
+
+     700 + _______ = 13 000              20 000 - _______ = 500                     0,45 · _______ = 45
+
+
+
+
+Aufgabe 3
+
+Die Temperatur steigt oder fällt. Berechne die fehlenden Werte.
+
+                                      Montag     Dienstag      Mittwoch       Donnerstag
+                                                                                                                  Quelle: MK Niedersachsen
+
+
+
+                     Temperatur
+                                       3° C        - 2° C          _____        - 3° C
+                      morgens
+                    Temperatur-
+                                      - 8° C       + 13° C         + 6° C       _____
+                    veränderung
+                     Temperatur
+                                      _____        _____           - 7° C       - 8° C
+                       abends
+
+
+
+                                                      1a      1b         1c    2a        2b       2c          3
+                                       Erreichte
+                                       Punktzahl
+                                       Mögliche
+                                                      1        1         1      1        1         1          4
+                                       Punktzahl
+Niedersächsisches Kultusministerium                                                                    Seite 2 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                  Mathematik                                    Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                        Hauptteil 1 (ohne Hilfsmittel)                                      Haupttermin
+
+
+Aufgabe 4
+
+Rechne schriftlich.
+
+a) 1 602,9 + 939,3                                  b) 18 149 – 2 745                        c) 73,05 · 3
+
+
+
+
+Aufgabe 5
+
+a) Bestimme, welche Maßangabe der Wirklichkeit am nächsten kommt. Kreuze an.
+
+                                       20 t                                                   1 km²
+         Gewicht
+                                                                    Fläche einer
+         eines                        200 kg                                                    1 m²
+                                                                    Tischplatte
+         LKW                          120 g                                                   1 cm²
+
+
+b) Ordne der Größe nach. Beginne mit dem kleinsten Wert.
+
+               1                                         1                                           1
+                   kg                                        km                                          h
+               2                                         4                                           4
+    250 g               0,395 kg               300 m          0,485 km                 20 min                300 s
+
+
+
+_______ < _______ < _______                         1
+                                         _______ < _______ < _______                            1
+                                                                                     _______ < _______ < _______
+                                                             km                                      km
+                                                        2                                        2
+
+                                               2 km               0,495                2 km                   0,495
+                                               km                                      km
+
+
+
+                                                                                4a      4b      4c            5a         5b
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                                1       1        1             2          3
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                                                Seite 3 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 6
+
+a) Stelle eine zur Abbildung passende Gleichung auf.
+
+
+
+
+                                                                                                               Quelle: MK Niedersachsen
+   x x
+  x x x
+
+
+
+
+b) Stelle die Gleichung 3x + 5 = 11 mit Hilfe der Waage dar.
+
+
+
+
+                                                                                                                  Quelle: MK Niedersachsen
+Malin hat beim Lösen der Gleichung einen Fehler gemacht.
+
+c) Markiere den Fehler und korrigiere den Lösungsweg.
+
+                  12x – 9 =       27        |+9
+                       12x =      27        | : 12
+                          x =     2,25
+
+
+
+
+                                                                                      6a       6b         6c
+                                                                          Erreichte
+                                                                          Punktzahl
+                                                                          Mögliche
+                                                                                      1         2          2
+                                                                          Punktzahl
+Niedersächsisches Kultusministerium                                                                 Seite 4 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                                Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Aufgabe 7
+
+a) Markiere alle Kanten, die die fett gedruckte Kante berühren und zu dieser senkrecht verlaufen.
+
+
+
+
+                                                                                                                          Quelle: MK Niedersachsen
+b) Kreuze an, welches Netz zum oberen Prisma passt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                              Quelle: MK Niedersachsen
+
+
+
+
+c) Wahr oder falsch? Kreuze an.
+
+                                                                              wahr        falsch
+    Der oben abgebildete Körper ist ein Dreiecksprisma.
+    Bei einem Prisma sind die Grund- und Deckfläche deckungsgleich.
+
+
+
+
+                                                                                     7a       7b         7c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                     2         1          2
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 5 von 5
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2023, Hauptschule, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2023, Datei 2023_Mathe/2023MatheHS9/2023MatheHS9E_Teil2.pdf im Archiv 2023Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 12.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2023                           Mathematik                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                    Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (      )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (      )
+
+                                                Wahlaufgabe W3        (      )
+
+                                                Wahlaufgabe W4        (      )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                                 anderes   angegeben       ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                             Seite 1 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                             Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                      Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe 1
+
+Ein Kletterpark bietet folgende Preise an.
+                                               Kinder und Jugendliche             Erwachsene
+       Regulärer Preis pro Person                         15 €                       18 €
+       Ermäßigter Preis pro Person
+                                                          12 €                       15 €
+       (ab 10 Personen Gruppengröße)
+       Großgruppenrabatt: Eine Großgruppe (ab 25 Personen) zahlt pauschal insgesamt 375 €
+
+a) Berechne den Eintrittspreis für 5 Erwachsene.
+
+b) Berechne den günstigsten Preis für eine Gruppe von 4 Kindern und 6 Erwachsenen.
+
+Eine Gruppe mit 30 Jugendlichen plant einen Ausflug in den Kletterpark.
+Jakub behauptet: „Der Großgruppenrabatt ist nicht das günstigste Angebot.“
+
+c) Hat Jakub Recht? Kreuze an und begründe.
+
+          Ja, er hat Recht.                    Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+Aufgabe 2
+
+Ein Sportverein hat 1 300 Mitglieder. Davon sind 37 % unter 18 Jahren und 25 % über 60 Jahre.
+Die restlichen Mitglieder sind zwischen 18 und 60 Jahre.
+
+a) Berechne, wie viele Personen unter 18 Jahre alt sind.
+
+b) Bestimme, wie viel Prozent der Mitglieder zwischen 18 und 60 Jahre alt sind.
+   Stelle die prozentuale Mitgliederverteilung in einem Streifendiagramm dar.
+
+
+
+
+                                                                        1a   1b      1c       2a       2b
+                                                         Erreichte
+                                                         Punktzahl
+                                                         Mögliche
+                                                                        1    2       2         2        3
+                                                         Punktzahl
+Niedersächsisches Kultusministerium                                                             Seite 2 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                         Mathematik                            Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                 Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+Im Sportverein spielen 40 % der Mitglieder Fußball, 30 % Handball, 25 % Tennis und 20 % Volleyball.
+Luis behauptet: „Die Prozentsätze können nicht stimmen, weil sie addiert mehr als 100 % ergeben.“
+
+c) Hat Luis Recht, dass die Prozentsätze nicht stimmen können? Kreuze an und begründe.
+
+          Ja, er hat Recht.                Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+Aufgabe 3
+
+
+
+
+                                                                                                    Quelle: MK Nds.
+In einer Fabrik werden 3 schwarze (s), 12 braune (b) und 9 weiße (w)
+Schokopralinen in Tüten abgefüllt.
+
+a) Ist die jeweilige Aussage wahr oder falsch? Kreuze an.
+
+
+
+ Aussage                                                                 wahr   falsch
+                                                                    1
+ Die Wahrscheinlichkeit, eine braune Schokopraline zu ziehen, ist   .
+                                                                    2
+ Eine schwarze Schokopraline zu ziehen, ist genauso wahrscheinlich,
+ wie eine weiße Schokopraline zu ziehen.
+
+
+b) Bestimme die Wahrscheinlichkeit, eine schwarze oder eine weiße Schokopraline zu ziehen.
+
+Paul hat bereits zwei braune und eine weiße Schokopraline aus der Tüte gegessen.
+
+c) Bestimme die Wahrscheinlichkeit, als nächstes eine schwarze Schokopraline zu ziehen.
+
+
+
+
+                                                                         2c     3a       3b       3c
+                                                            Erreichte
+                                                            Punktzahl
+                                                            Mögliche
+                                                                          2     2         2        1
+                                                            Punktzahl
+Niedersächsisches Kultusministerium                                                        Seite 3 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                Mathematik                                  Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                        Hauptteil 2 und Wahlteil                                    Haupttermin
+
+
+Aufgabe 4
+
+
+
+
+                                                                                                                         Quelle: MK Niedersachsen
+Die größte Kino-Leinwand der Welt steht in Deutschland.
+
+a) Berechne die Höhe h der Leinwand.                                                                              h
+
+Die Leinwand ist mit einem Vorhang aus Stoff abgedeckt.
+                                                                                                              ∙
+b) Berechne, wie viel Stoff für den Vorhang mindestens                                   38 m
+   benötigt wurde.                                                                     Skizze nicht maßstäblich
+
+   (Wenn du Aufgabe a) nicht rechnen konntest, rechne mit einem Wert von 22,1 m weiter)
+
+Leinwanddiagonalen werden in Zoll angegeben.              1 Zoll = 2,54 cm
+
+c) Berechne die Leinwanddiagonale in Zoll.
+
+Aufgabe 5
+
+Die Tabelle zeigt den Notenspiegel der letzten Mathematikarbeit der Klasse 9a.
+
+                                   Note        1     2     3      4       5        6
+                                   Anzahl      2     4     7      6       2        1
+
+a) Berechne den Durchschnitt (das arithmetische Mittel) der Mathematikarbeit.
+
+                             3
+Lisa behauptet: „Mehr als         der Jugendlichen haben eine bessere Note als 5“.
+                             4
+
+b) Hat Lisa Recht? Kreuze an und begründe.
+
+        O Ja, sie hat Recht.               O Nein, sie hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+In einer anderen Klasse sind 20 Schülerinnen und Schüler.
+
+c) Ergänze die Lücken so, dass der Durchschnitt 3,2 entsteht.
+ Note         1       2       3        4       5      6
+ Anzahl               4       6        5              1
+
+
+
+                                                                  4a          4b       4c    5a       5b          5c
+                                                    Erreichte
+                                                    Punktzahl
+                                                    Mögliche
+                                                                      3       2        1     2         2          2
+                                                    Punktzahl
+Niedersächsisches Kultusministerium                                                                     Seite 4 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                        Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                            Haupttermin
+
+
+Aufgabe 6
+
+Im Garten der Familie Özgür
+
+
+
+
+                                                                                                        Quelle: MK Nds.
+steht ein Pool.
+
+a) Berechne das Volumen des           h = 90 cm
+Pools in Litern (ℓ).
+
+
+                                                                     d = 360 cm
+
+
+                                                                            Skizze nicht maßstäblich
+Der Pool wird mithilfe einer Pumpe befüllt.
+
+A In den ersten 10 Minuten steigt die Füllhöhe gleichmäßig auf 40 cm.
+
+B Nach diesen 10 Minuten Laufzeit schaltet die Pumpe wegen Überhitzung für 30 Minuten ab.
+
+    Nach dem Neustart der Pumpe steigt die Füllhöhe gleichmäßig um 20 cm pro 10 Minuten.
+C
+    Die Pumpe wird gestoppt, wenn das Becken randvoll ist.
+
+b) Zeichne den passenden Graphen in das Koordinatensystem ein.
+
+Wasserstand in cm
+
+
+
+
+                                                                                  Zeit in Minuten
+
+
+
+
+                                                                                         6a       6b
+                                                                            Erreichte
+                                                                            Punktzahl
+                                                                            Mögliche
+                                                                                          3         2
+                                                                            Punktzahl
+Niedersächsisches Kultusministerium                                                        Seite 5 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                      Mathematik                       Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs               Hauptteil 2 und Wahlteil                      Haupttermin
+
+
+c) Ordne jedem Gefäß den passenden Füllgraphen zu und ergänze den fehlenden Graphen.
+
+
+
+       A                     B                C                     D
+
+
+
+
+ Quelle: MK Niedersachsen
+
+
+
+
+                                                                                          6c
+                                                                           Erreichte
+                                                                           Punktzahl
+                                                                           Mögliche
+                                                                                           2
+                                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                Seite 6 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                           Mathematik                             Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                                     Haupttermin
+
+
+Wahlteil
+
+                             Wahlaufgabe 1 – Zuordnungen und Körper
+
+Die Klasse 9 plant einen Pizzaverkauf auf dem Stadtfest. Es sollen 80 Pizzen hergestellt werden.
+
+a) Ergänze die fehlenden Mengenangaben.
+
+           4 Personen                 80 Personen
+
+
+
+
+                                                                                              Quelle: MK Nds.
+    400 g Mehl
+    1
+        ℓ Wasser
+    5
+                                        10 Würfel Hefe
+    1 Esslöffel Öl
+
+Für die Zutaten wurden 50 € ausgegeben. Beim Verkauf aller 80 Pizzen soll ein Gewinn von 150 €
+erwirtschaftet werden.
+
+b) Berechne den Verkaufspreis für eine Pizza.
+
+Ein Pizzalieferant produziert kreisrunde Maxi-Pizzen mit dem Radius r = 20 cm.
+
+Jede Pizza passt genau in eine Schachtel mit quadratischer Grundfläche und der
+Höhe hK = 3,5 cm.                                                                                               a
+
+c) Berechne das Volumen der Schachtel.                                    Quelle: MK Niedersachsen
+
+
+In einen Karton passen eine Maxi-Pizza oder 4 Mini-Pizzen.
+
+Peter behauptet:
+„Wenn ich die Maxi-Pizza wähle, kann ich mehr Pizza essen
+als bei den 4 Mini-Pizzen.“
+
+d) Hat er Recht? Kreuze an und begründe.
+
+          Ja, er hat Recht.                 Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+                                                                          1a      1b        1c                  1d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                           2       2         3                      3
+                                                              Punktzahl
+
+Niedersächsisches Kultusministerium                                                           Seite 7 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                 Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                 Haupttermin
+
+
+                             Wahlaufgabe 2 - Funktionen (Seite 1 von 2)
+
+Kerzen haben eine unterschiedliche Brenndauer.
+
+Kerze A: Eine 8 cm lange Kerze brennt gleichmäßig in 40 Minuten ab.
+
+Kerze B: Eine 6 cm lange Kerze brennt gleichmäßig pro Minute 0,1 cm ab.
+            y
+ Kerzenhöhe
+       in cm
+
+
+
+
+                                                         Kerze ____
+
+
+
+
+                                                                          x Brenndauer
+                                                                            in Minuten
+a) Beschrifte den Graphen.
+
+b) Zeichne den fehlenden Graphen in das Koordinatensystem ein.
+   Gib den Schnittpunkt der beiden Graphen an.
+
+   Schnittpunkt S ( ___ | ___ )
+
+   Erkläre die Bedeutung des Schnittpunktes in Bezug auf die Kerzen.
+
+Erklärung: _______________________________________________________________________
+
+ ________________________________________________________________________________
+
+c) Stelle die Funktionsgleichung für die Kerze B auf.
+
+   Kerze B:     y = ______ x + ______
+
+
+
+
+Niedersächsisches Kultusministerium                                              Seite 8 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                            Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+                             Wahlaufgabe 2 – Funktionen (Seite 2 von 2)
+
+Die Funktionsgleichung y = − 0,2 x + 7 beschreibt das Abbrennen einer Kerze C.
+
+d) Kreuze an, ob die jeweilige Aussage wahr oder falsch ist.
+
+                                                                              wahr      falsch
+
+        Die Kerze C brennt langsamer als Kerze B ab.
+
+        Die Funktionsgleichung y = − 0,2 x + 7 der Kerze C beschreibt eine
+        proportionale Funktion.
+
+
+
+
+Eine andere Kerze D ist doppelt so lang wie die Kerze C, soll aber die gleiche Abbrenndauer haben.
+
+e) Notiere eine passende Funktionsgleichung.
+
+   Kerze C: y = − 0,2 x + 7
+
+   Kerze D: y = _______ x + _______
+
+
+
+
+                                                                    2a   2b      2c       2d       2e
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                    1    3       2         2        2
+                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 9 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                                Mathematik                               Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                         Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+                                      Wahlaufgabe 3 - Prozentrechnung
+
+Sonja macht eine Ausbildung in einer Gärtnerei. In der Abbildung siehst du ihre Lohnabrechnung für
+den Monat März im 1. Ausbildungsjahr. Von ihrem Bruttolohn werden Beiträge abgezogen. Der
+Nettolohn wird auf das Konto überwiesen.
+      Gärtnerei Grün                                            Lohnabrechnung
+      Musterstraße 21                                           für den Monat März
+      48531 Nordhorn
+
+        Bruttolohn                                                          100 %          830 €
+
+        abzüglich Krankenversicherung                                       7,3 %         60,59 €
+
+        abzüglich Rentenversicherung                                        9,3 %         _____ €
+
+        abzüglich Arbeitslosenversicherung                                 _____ %        9,96 €
+
+
+
+
+                                                                                                                  Quelle: MK Niedersachsen
+        abzüglich Pflegeversicherung                                       1,525 %        12,66 €
+
+        abzüglich Lohnsteuer*                                                0%               0€
+
+        Nettolohn                                                          80,675 %       _____ €
+
+      *jährlicher Grundfreibetrag 2021 für Ledige 9 984 €
+
+a) Berechne die fehlenden Angaben und trage sie in die Tabelle ein.
+
+Bis zu einem Brutto-Jahreseinkommen von 9 984 € muss keine Lohnsteuer bezahlt werden.
+
+b) Berechne, wie viel Sonja im Monat verdienen darf, so dass sie keine Lohnsteuer bezahlen muss.
+
+                                          1
+Sonja behauptet: „Mir wird ungefähr           vom Bruttolohn abgezogen.“
+                                          5
+
+c) Hat Sonja Recht? Kreuze an und begründe.
+
+          Ja, sie hat Recht.                      Nein, sie hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+Im 3. Ausbildungsjahr erhält Sonja einen monatlichen Bruttolohn von 1 050 €.
+
+d) Berechne, um wie viel Prozent der Bruttolohn                                      3a   3b        3c       3d
+                                                                    Erreichte
+   vom 1. zum 3. Ausbildungsjahr zunimmt.
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                      4   1         2         3
+                                                                    Punktzahl
+
+Niedersächsisches Kultusministerium                                                                 Seite 10 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                             Mathematik                         Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                   Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+                       Wahlaufgabe 4 – Wahrscheinlichkeit (Seite 1 von 2)
+
+Fritz hat ein Zahlenschloss mit einer zufälligen Ziffernkombination.
+Die Kombination seines Schlosses besteht aus 4 Stellen mit den Ziffern
+
+
+
+
+                                                                                                                                 Quelle: MK Nds.
+0 bis 9.
+
+a) Entscheide, ob die folgenden Ereignisse sicher, möglich oder
+   unmöglich sind. Kreuze an.
+
+
+ Ereignis                                                            sicher     möglich     unmöglich
+
+ Alle vier Ziffern sind „größer als 7“.
+
+ Die Ziffernkombination lautet „1 – 2 – 3 – 4 – 5“.
+
+ Die Ziffernkombination ergibt eine Zahl „kleiner als 10 000“.
+
+b) Ergänze die Tabelle.
+
+
+ Ereignis                                                                      Wahrscheinlichkeit
+
+ Bestimme die Wahrscheinlichkeit, dass die erste Ziffer eine „1“ ist.
+
+ Bestimme die Wahrscheinlichkeit, dass die erste Ziffer „kleiner als 5“ ist.
+
+Fritz hat die ersten beiden Ziffern seiner Ziffernkombination vergessen. Er weiß jedoch noch, dass die
+erste Ziffer eine „8“ oder eine „9“ ist und die zweite Ziffer eine „0“, eine „1“ oder eine „2“ ist. Das
+Baumdiagramm zeigt die möglichen Ziffernkombinationen.
+
+c) Ergänze die Lücken im Baumdiagramm und berechne die Wahrscheinlichkeit, dass die Kombination,
+   die das Schloss öffnet, mit „8 – 2“ beginnt.
+                                                                                                      Quelle: MK Niedersachsen
+
+
+
+
+Niedersächsisches Kultusministerium                                                       Seite 11 von 12
+
+[Seitenwechsel]
+ Abschlussarbeit 2023                          Mathematik                              Material für Prüflinge
+
+ Hauptschule 9 – E-Kurs                  Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+                       Wahlaufgabe 4 – Wahrscheinlichkeit (Seite 2 von 2)
+
+Der Händler erklärt: „Es gibt kein Zahlenschloss mit einer Ziffernkombination aus 2 Stellen. Das ist zu
+unsicher.“
+
+d) Erkläre, warum so ein Zahlenschloss zu unsicher ist.
+
+Erklärung: _______________________________________________________________________
+
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                          4a      4b        4c       4d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                           3       2         4        1
+                                                             Punktzahl
+Niedersächsisches Kultusministerium                                                         Seite 12 von 12
+
+[Seitenwechsel]

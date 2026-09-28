@@ -1,0 +1,1019 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei HS9/2026MatheSjg9E_Teil1.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 5.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                                  Mathematik                                         Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                          Deckblatt                                                 Haupttermin
+
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+                               Zentrale Abschlussarbeit Niedersachsen
+
+                                                2026 Mathematik
+
+
+
+
+                                  Hauptteil 1     Hauptteil 2              Wahlteil             Summe
+                  Erreichte
+                  Punktzahl
+                  Mögliche
+                                      28                36                     20                   84
+                  Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+    Erreichte           Mögliche
+                                                Note             …………………………………..……..
+    Punktzahl           Punktzahl
+                                                                 Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                            84                                   ………………………………………....
+                                                                 Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+       Note                1               2                 3                    4                  5              6
+
+      Punkte          84 - 72,5        72 - 61         60,5 - 49,5           49 - 38            37,5 - 17       16,5 - 0
+
+
+
+
+Niedersächsisches Kultusministerium                                                                              Seite 1 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                               Material für Prüflinge
+
+ Sjg. 9 E-Kurs                         Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Berechne.
+
+    a)    8 500 + 5 000 =                        b)     17 400 – 4 200 =
+
+
+            8 500 + 950 =                                  17 400 – 560 =
+
+
+    c)           12 ∙ 1 000 =                    d)        36 500 : 100 =
+
+
+                  1,2 ∙ 100 =                                     36,5 : 10 =
+
+
+Aufgabe 2
+
+Wandle in die angegebene Einheit um und ergänze den Lückentext.
+
+ 66 000 g              660 ct         166 cm            660 s
+
+
+Frau Heine ist _______ m groß und wiegt _______ kg.
+
+Ihr Weg zur Arbeit dauert mit dem Bus _______ min.
+
+Das Ticket für den Bus kostet _______ €.
+
+
+
+Aufgabe 3
+                                                                   Einkauf
+                                                                                                                Abb.: MK Nds.
+
+Überschlage und ergänze den Satz.
+                                                         Bananen 1,95 €
+Der Einkauf kostet ungefähr __________ €.
+                                                         Hafer-Milch 2,49 €
+                                                         Müsli 4,99 €
+                                                         Saft 2,95 €
+
+
+
+
+                                                             1a         1b      1c   1d        2        3
+                                               Erreichte
+                                               Punktzahl
+                                               Mögliche
+                                                              1         1       1    1         4        2
+                                               Punktzahl
+Niedersächsisches Kultusministerium                                                             Seite 2 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Aufgabe 4
+
+Tabea macht Pfannkuchen für 12 Personen.
+                                                           4 Personen            12 Personen
+a) Ergänze die Tabelle für die Zutaten.
+                                                               1 Ei
+
+                                                       5 Teelöffel Zucker
+
+                                                           200 g Mehl
+
+
+
+
+                                                                                                               Abb.: MK Nds.
+                                                            1
+                                                              ℓ Milch
+                                                            4
+
+
+
+Daria macht Pfannkuchen für zwei Personen.
+
+b) Bestimme die Menge an Milch, die sie dafür benötigt.
+
+Antwort: ____________________________
+
+
+
+Aufgabe 5
+
+Ergänze die Tabelle.
+
+        Bruchzahl                     Prozent                Dezimalbruch              Gefärbter Anteil
+
+             3
+                                       75 %                        0,75
+             4
+
+
+             1
+             4                                                                                                                 Abb.: MK Nds.
+
+
+
+
+                                       50 %
+
+
+
+                                                                   0,8
+
+
+
+
+                                                                                       4a        4b        5
+                                                                           Erreichte
+                                                                           Punktzahl
+                                                                           Mögliche
+                                                                                        2         1        4
+                                                                           Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 3 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                                Material für Prüflinge
+
+ Sjg. 9 E-Kurs                         Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Aufgabe 6
+
+ Busfahrplan der Linie 23 – Haltestelle Dorfstraße
+
+
+
+
+                                                                                                                   Abb.: MK Nds.
+                 Abfahrtszeiten                   Abfahrtszeiten                         Haltestellen
+                 Montag – Freitag                 Wochenende                         und Fahrtdauer
+
+
+ 06:00     06:15      06:30    06:45              06:00    06:30
+                                                                                    Dorfstraße
+                                                                                          7 min
+ 07:00     07:15      07:30    07:45              07:00    07:30                    Markt
+                                                                                           2 min
+ 08:00     08:15      08:30    08:45              08:00    08:30                    Kirche
+                                                                                           12 min
+
+                                                                                    Schule
+                                                                                            2 min
+                                                                                    Sportplatz
+
+
+Dunja fährt am Montag mit dem Bus von der Haltestelle „Dorfstraße“ zur Haltestelle „Schule“.
+Sie steht um 07:04 Uhr an der Haltestelle „Dorfstraße“.
+
+a) Nenne die Abfahrtszeit für den nächsten Bus.
+   Abfahrtszeit: _________
+
+b) Nenne ihre Fahrtdauer.
+   Fahrtdauer: __________
+
+
+
+Am Dienstag muss Dunja pünktlich um 8:45 Uhr im Unterricht sein. Sie fährt mit dem Bus.
+Für ihren Weg von der Haltestelle „Schule“ bis zu ihrem Klassenzimmer benötigt sie 5 Minuten.
+
+c) Nenne ihre spätestmögliche Abfahrtszeit von der Haltestelle „Dorfstraße“.
+   (Wenn du Teilaufgabe b) nicht gelöst hast, dann rechne mit einer Fahrtdauer von 23 min weiter.)
+
+
+
+   Spätestmögliche Abfahrtszeit: __________
+
+
+                                                                                    6a        6b         6c
+                                                                        Erreichte
+                                                                        Punktzahl
+                                                                        Mögliche
+                                                                                     1         1          2
+                                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                                Seite 4 von 5
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                            Mathematik                                  Material für Prüflinge
+
+ Sjg. 9 E-Kurs                           Hauptteil 1 (ohne Hilfsmittel)                                 Haupttermin
+
+
+Aufgabe 7
+
+a) Bestimme den Flächeninhalt des abgebildeten Dreiecks. Flächeninhalt: __________ cm²
+
+b) Zeichne ein Rechteck mit dem gleichen Flächeninhalt und bestimme den Umfang des Rechtecks.
+   Umfang Rechteck: __________ cm
+
+
+
+
+                                                                                                                    Abb.: MK Nds.
+Aufgabe 8
+
+Familie Jansen lädt gerne Gäste ein. Wenn viele Gäste kommen, stellen sie Tische und Stühle dazu.
+
+
+
+
+                                                                                                                 Abb.: MK Nds.
+   1 Tisch, 4 Stühle                                                           3 Tische, 8 Stühle
+                                      2 Tische, 6 Stühle
+
+a) Bestimme die Anzahl der Stühle für 4 Tische. Anzahl Stühle: __________
+
+
+b) Bestimme die Anzahl der Tische für 14 Stühle. Anzahl Tische: __________
+
+
+Die Variable x steht für die Anzahl der Tische. Mit einem der Terme lässt sich die jeweilige Anzahl der
+Stühle berechnen.
+c) Kreuze den passenden Term an.
+
+   2∙           2
+
+   2∙                                                                    7a     7b     8a        8b        8c
+                                                        Erreichte
+   4∙           1                                      Punktzahl
+                                                        Mögliche
+                                                                          1       3      1          1        1
+                                                        Punktzahl
+Niedersächsisches Kultusministerium                                                                 Seite 5 von 5
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2026, Schuljahrgang 9, E-Kurs, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2026, Datei HS9/2026MatheSjg9E_Teil2.pdf im Archiv 2026Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 14.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2026                           Mathematik                               Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+
+ Name:_________________________________________________ Klasse: ________________
+
+
+
+
+ Es wurden die folgenden zwei                   Wahlaufgabe W1        (      )
+ Aufgaben des Wahlteils gewählt:                Wahlaufgabe W2        (      )
+
+                                                Wahlaufgabe W3        (      )
+
+                                                Wahlaufgabe W4        (      )
+
+
+
+
+Wichtige Hinweise:               Runde Endergebnisse auf 2 Nachkommastellen, wenn nichts
+                                 anderes   angegeben       ist.   Schreibe       deine    Lösungswege
+                                 ausführlich auf.
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 1 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                           Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                             Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe 1
+
+Eine Klasse hat ihren Klassensprecher gewählt. Insgesamt wurden 21 Stimmen abgegeben.
+
+                       Anzahl der
+        Name
+                        Stimmen
+ Mustafa                    3
+
+ Marie                      2
+
+ Amelie                     6
+
+ Sven                       7
+
+
+
+
+                                                                                                            Abb.: MK Nds.
+ Lisa
+
+
+a) Ergänze den fehlenden Wert in der Tabelle und die fehlende Säule im Diagramm.
+
+b) Vervollständige die Aussage.
+
+   Am meisten Stimmen hat ______________ erhalten.
+
+c) Kreuze die richtige Aussage an.
+
+   Amelie und Sven haben zusammen…
+
+   O …mehr als die Hälfte der Stimmen.              O …weniger als die Hälfte der Stimmen.
+
+                            1
+Amelie behauptet: „Wenn ich 3 mehr Stimmen bekommen hätte, wäre ich Klassensprecherin
+geworden.“
+Hat sie Recht?
+d) Kreuze an und begründe rechnerisch.
+
+    Ja, sie hat Recht.                Nein, sie hat nicht Recht.
+
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+                                                                          1a    1b        1c       1d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          2      1         1        3
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                        Seite 2 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                                 Mathematik                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                  Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Aufgabe 2
+
+Bei der Produktion von Smartphones können Fehler auftreten.
+Zuerst wird das Aussehen und dann die Technik kontrolliert.
+Die Wahrscheinlichkeiten werden im Baumdiagramm dargestellt.                           = „in Ordnung“
+
+                                                                                       = „nicht in Ordnung“
+                                      95                    5
+                                      100                  100
+
+
+
+ Aussehen
+
+                    98                 2
+
+
+
+
+                                                                                                                     Abb.: MK Nds.
+                                                           90
+                    100               100                  100
+
+ Technik
+
+
+a) Ergänze die Lücke im Baumdiagramm.
+
+Bei einem Smartphone sind das Aussehen und die Technik „in Ordnung“.
+b) Berechne die Wahrscheinlichkeit.
+
+Bei einem Smartphone ist genau ein Merkmal „nicht in Ordnung“.
+c) Markiere die Pfade. Berechne die Wahrscheinlichkeit.
+
+
+
+Clarissa behauptet:
+                                               „Smartphones, deren Aussehen in Ordnung
+
+                                                                                                                     Abb.: MK Nds.
+                                              ist, sind mit einer höheren Wahrscheinlichkeit
+                                                         technisch in Ordnung.“
+
+Hat Clarissa Recht?
+
+d) Kreuze an und begründe.
+
+    Ja, sie hat Recht.                      Nein, sie hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+                                                                                  2a     2b        2c       2d
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                  1       2         3        2
+                                                                    Punktzahl
+Niedersächsisches Kultusministerium                                                                 Seite 3 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                        Mathematik                                 Material für Prüflinge
+
+ Sjg. 9 E-Kurs                          Hauptteil 2 und Wahlteil                                  Haupttermin
+
+
+Aufgabe 3
+
+Familie Meyer macht Urlaub auf Mallorca.                           Insel-Autovermietung
+Sie möchten ein Auto mieten.
+                                                                    45 € Grundgebühr
+
+
+
+
+                                                                                                               Abb.: MK Nds.
+a) Berechne den Mietpreis für 4 Tage.                                und 20 € pro Tag
+
+
+
+
+b) Stelle zu dem Angebot eine Funktionsgleichung auf.
+                                                             x: Anzahl Tage
+         ________ ∙     ________
+                                                             y: Gesamtkosten in €
+
+
+
+
+Familie Meyer möchte höchstens 215 € für die Miete ausgeben.
+
+c) Berechne die Anzahl der Tage, die sie das Auto höchstens mieten können.
+
+   Familie Meyer kann das Auto höchstens ______ Tage mieten.
+
+
+
+
+                                                                                3a           3b       3c
+                                                                   Erreichte
+                                                                   Punktzahl
+                                                                   Mögliche
+                                                                                    2         2        3
+                                                                   Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 4 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                             Mathematik                                  Material für Prüflinge
+
+ Sjg. 9 E-Kurs                               Hauptteil 2 und Wahlteil                                    Haupttermin
+
+
+Aufgabe 4
+                                                                                               f = 30 cm
+Peter und Lina bauen einen Lenkdrachen.
+
+a) Berechne den Flächeninhalt des Lenkdrachens.
+
+                                                                                                     •
+Peter behauptet: „Verdoppeln sich e und f, verdoppelt sich auch der
+
+
+
+
+                                                                              e = 50 cm
+
+
+
+
+                                                                                                                                     Abb.: MK Nds.
+Flächeninhalt.“
+
+Hat Peter Recht?
+
+b) Kreuze an und begründe.                                                                                (Skizze nicht
+
+    Ja, er hat Recht.                   Nein, er hat nicht Recht.                                       maßstäblich)
+
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+Peter und Lina lassen den Drachen steigen.
+
+c) Berechne die Entfernung x von Peter zu Lina.
+
+
+
+
+                                                    63 m                                                             Abb.: MK Nds.
+
+                                 30 m
+
+
+
+                                         •
+                                                    x
+
+
+                                                                   (Skizze nicht maßstäblich)
+
+
+                                                                                          4a       4b         4c
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                          2         2         3
+                                                                         Punktzahl
+Niedersächsisches Kultusministerium                                                                 Seite 5 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                              Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                               Haupttermin
+
+
+                                                                                          r = 3,7 cm
+Aufgabe 5
+
+Die abgebildete Dose ist zylinderförmig.
+a) Berechne den Flächeninhalt der Grundfläche der Dose.
+
+
+
+
+                                                                                                               Abb.: MK Nds./ChatGPT
+Die Dose ist mit Limonade gefüllt.
+Die zylinderförmige Dose hat ein Volumen von 378,5 cm³.
+
+b) Berechne die Höhe der Dose.
+
+                                                                                (Skizze nicht maßstäblich)
+c) Begründe, dass 330 mℓ Limonade in diese Dose passen.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+Der Hersteller möchte die Mantelfläche der Dose neu gestalten.
+
+d) Berechne den Flächeninhalt der Mantelfläche.
+   (Wenn du Teilaufgabe b) nicht gelöst hast, dann rechne mit hK = 9,2 cm weiter.)
+
+
+
+
+                                                                           5a      5b        5c        5c
+                                                               Erreichte
+                                                               Punktzahl
+                                                               Mögliche
+                                                                           2        2         1        2
+                                                               Punktzahl
+Niedersächsisches Kultusministerium                                                           Seite 6 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                              Mathematik                            Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+Wahlteil
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 1 von 2)
+
+Die Tabelle zeigt die monatlichen Ausgaben der Familie Omari in Prozent.
+
+                                      Bereich              Anteil in %
+                                  Lebensmittel                25 %
+                                  Miete                       30 %
+                                  Sonstiges                   45 %
+
+
+a) Stelle die Anteile im Streifendiagramm dar.
+
+
+
+
+                                                                                                                Abb.: MK Nds.
+                 0%                                                                    100 %
+
+
+
+
+Insgesamt gibt Familie Omari monatlich 2 500 € aus.
+
+b) Berechne die monatlichen Mietkosten.
+
+
+
+
+Familie Omari kauft einen Kühlschrank für 860 € und nimmt dafür einen Kredit für ein Jahr auf.
+Folgende Angebote stehen zur Wahl:
+
+
+                      Hausbank                                     Stadtbank
+                                                                                                                Abb.: MK Nds.
+
+
+
+
+                                                           Leihen Sie sich 860 € und
+                 Jährlicher Zinssatz:
+                                                            zahlen Sie nach einem
+                        11,75 %
+                                                               Jahr 950 € zurück.
+
+c) Berechne, welches Angebot günstiger ist und kreuze an.
+
+    Das Angebot der Hausbank ist günstiger.
+
+    Das Angebot der Stadtbank ist günstiger.
+
+
+
+
+Niedersächsisches Kultusministerium                                                            Seite 7 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                         Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+                         Wahlaufgabe 1 – Prozentrechnung (Seite 2 von 2)
+
+Die Heizkosten sind erst um 8 % und dann noch einmal um 10 % gestiegen.
+Herr Omari behauptet: „Insgesamt sind die Heizkosten um 18 % gestiegen.“
+
+Hat Herr Omari Recht?
+
+d) Kreuze an und begründe.
+
+    Ja, er hat Recht.                 Nein, er hat nicht Recht.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                          1a   1b       1c       1d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          2    2         4        2
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                      Seite 8 von 14
+
+[Seitenwechsel]
+    Abschlussarbeit 2026                             Mathematik                                  Material für Prüflinge
+
+    Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                                      Haupttermin
+
+
+                          Wahlaufgabe 2 – Wahrscheinlichkeit (Seite 1 von 2)
+
+   In einer kleinen Tüte sind insgesamt 24 Gummibärchen.
+
+
+
+
+                                                                                                                           Abb.: MK Nds./ChatGPT
+   Davon sind 4 rote Gummibärchen, 8 weiße Gummibärchen
+   und 12 grüne Gummibärchen.
+   Farid zieht, ohne hinzusehen, ein Gummibärchen aus der Tüte.
+
+   a) Ergänze in der Tabelle.
+
+    Ereignis                                                             Wahrscheinlichkeit
+
+    Farid zieht ein grünes Gummibärchen.
+
+
+    Farid zieht ein grünes oder ein weißes Gummibärchen.
+
+                                                                                     16
+                                                                                     24
+
+
+   Farid zieht, ohne in die Tüte zu sehen, ein Gummibärchen. Er legt es nicht zurück.
+   Dann zieht er ein zweites Gummibärchen.
+
+   b) Ergänze die beiden Wahrscheinlichkeiten im Baumdiagramm.
+
+
+
+
+                                         4                               8
+                                         24            12                24
+
+
+
+
+                                                                                                                                          Abb.: MK Nds.
+                                                       24
+
+1. Ziehung
+                          rot                          grün                               weiß
+                    3              8            4                 8             4                    7
+                         12                            11                                 12
+                    23             23           23                23            23                   23
+                         23                            23                                 23
+
+
+2. Ziehung     rot       grün        weiß     rot      grün       weiß        rot         grün        weiß
+
+
+
+   c) Berechne die Wahrscheinlichkeit, erst ein grünes Gummibärchen und dann ein rotes
+      Gummibärchen zu ziehen.
+
+
+
+
+   Niedersächsisches Kultusministerium                                                                    Seite 9 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                         Material für Prüflinge
+
+ Sjg. 9 E-Kurs                         Hauptteil 2 und Wahlteil                               Haupttermin
+
+
+                       Wahlaufgabe 2 – Wahrscheinlichkeit (Seite 2 von 2)
+
+Farid hat folgende Nebenrechnung aufgestellt.
+
+
+
+
+                                                                                                           Abb.: MK Nds.
+d) Beschreibe ein Ereignis, das mit diesem Term berechnet werden kann.
+
+Beschreibung: ____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+Eine große Tüte hat doppelt so viele Gummibärchen von jeder Farbe wie die kleine Tüte.
+
+e) Begründe, dass die Wahrscheinlichkeit, beim ersten Zug ein weißes Gummibärchen zu ziehen, bei
+   beiden Tüten gleich ist.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                  2a     2b    2c        2d       2e
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                  3      2     2         2         1
+                                                     Punktzahl
+Niedersächsisches Kultusministerium                                                      Seite 10 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                                   Mathematik                    Material für Prüflinge
+
+ Sjg. 9 E-Kurs                                Hauptteil 2 und Wahlteil                        Haupttermin
+
+
+                             Wahlaufgabe 3 – Funktionen (Seite 1 von 2)
+
+Emely kauft Erdbeeren bei Bauer Sonne. Jedes kg Erdbeeren kostet 7,50 €.
+Hier siehst du den dazugehörigen Graphen:
+
+    Kosten in €
+                       y                                                         1
+
+                 40
+
+                 30
+
+                 20
+
+                 10
+
+
+
+
+                                                                                                             Abb.: MK Nds.
+                                                                                     x
+                  0           1           2     3           4        5   6       7
+                                                                                     Gewicht in kg
+
+Emely kauft 3,5 kg Erdbeeren.
+
+a) Berechne ihre Kosten.
+
+
+
+Bäuerin Hansen verkauft Erdbeeren. Bei ihr gibt es eine Grundgebühr.
+Der Graph zu ihrer Preistabelle verläuft parallel zu dem abgebildeten Graphen.
+
+b) Ergänze ihre Preistabelle.
+
+
+         Gewicht in kg                0             1                3       5
+
+
+         Kosten in €                  5                                                  65
+
+
+
+
+Niedersächsisches Kultusministerium                                                        Seite 11 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                           Mathematik                          Material für Prüflinge
+
+ Sjg. 9 E-Kurs                             Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+                             Wahlaufgabe 3 – Funktionen (Seite 2 von 2)
+
+Pablo kauft Erdbeeren bei einem Erdbeerfest.
+Der Eintritt für das Erdbeerfest kostet 10 €.
+Außerdem zahlt er für jedes kg Erdbeeren 5 €.
+
+c) Zeichne den zugehörigen Graphen in das Koordinatensystem auf Seite 11 ein.
+   Stelle die Funktionsgleichung auf.
+
+         ________ ∙     _________
+
+
+
+Pablo bezahlt auf dem Erdbeerfest insgesamt 35 €.
+
+d) Berechne, wie viel kg Erdbeeren er gekauft hat.
+
+
+
+Pablo vergleicht die Kosten für die Erdbeeren von Bauer Sonne und dem Erdbeerfest.
+
+e) Bestimme, ab welcher Menge Erdbeeren die Gesamtkosten beim Erdbeerfest günstiger sind.
+
+
+
+
+                                                                      3a   3b   3c       3d       3e
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                      1    2    4         2        1
+                                                       Punktzahl
+Niedersächsisches Kultusministerium                                                      Seite 12 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                     Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                     Haupttermin
+
+
+                                Wahlaufgabe 4 – Körper (Seite 1 von 2)
+
+Eine Firma stellt eine Box für Taschentücher her.
+
+
+
+
+                                                                                                      Abb.: MK Nds./ChatGPT
+a) Berechne das Volumen der Box.
+
+                                                                                           9 cm
+
+
+
+                                                           11 cm
+
+                                                                         (Skizze nicht maßstäblich)
+
+Die Pappe der Öffnung wird abgerissen.
+Sie besteht aus zwei Halbkreisen und einem Rechteck.
+
+
+
+
+                                                                                                      Abb.: MK Nds.
+                                                               5 cm
+
+
+
+
+                                                                         (Skizze nicht maßstäblich)
+                                                13 cm
+
+b) Berechne den Flächeninhalt der abgerissenen Pappe.
+
+
+
+c) Berechne den Oberflächeninhalt der geöffneten Box.
+   (Wenn du Teilaufgabe b) nicht gelöst hast, dann rechne
+                                                                                           9 cm
+   mit A = 85,36 cm2 weiter.)
+
+
+                                                           11 cm
+
+
+                                                                         (Skizze nicht maßstäblich)
+
+
+
+
+Niedersächsisches Kultusministerium                                                 Seite 13 von 14
+
+[Seitenwechsel]
+ Abschlussarbeit 2026                          Mathematik                          Material für Prüflinge
+
+ Sjg. 9 E-Kurs                            Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+                                Wahlaufgabe 4 – Körper (Seite 2 von 2)
+
+Max zählt in dem komplett gefüllten Karton 140 Boxen.
+
+
+
+
+                                                                                                          Abb.: MK Nds./ChatGPT
+d) Begründe, warum das nicht sein kann.
+
+Begründung: _____________________________________________________________________
+
+ ________________________________________________________________________________
+
+
+
+
+                                                                          4a   4b       4c       4d
+                                                              Erreichte
+                                                              Punktzahl
+                                                              Mögliche
+                                                                          2    3         3        2
+                                                              Punktzahl
+Niedersächsisches Kultusministerium                                                     Seite 14 von 14
+
+[Seitenwechsel]

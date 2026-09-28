@@ -1,0 +1,848 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Realschule, Schuljahrgang 10, Haupttermin – Hauptteil 1 (ohne Hilfsmittel).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheRS10/2022MatheRS_Teil1.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 6.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                                 Mathematik                                       Material für Prüflinge
+
+Realschule                                             Deckblatt                                               Haupttermin
+
+
+
+
+                           Dezentrale Abschlussarbeit 2022 Mathematik
+
+                                der [hier Namen der Schule einfügen]
+
+                                in [hier Standort der Schule einfügen]
+
+
+
+
+Name: ______________________________                                         Klasse: ______
+
+Datum: ______________________________
+
+
+
+
+                                 Hauptteil 1      Hauptteil 2            Wahlteil             Summe
+                Erreichte
+                Punktzahl
+                Mögliche
+                                     28                 36                   20                  84
+                Punktzahl
+
+
+
+
+Gesamtergebnis
+
+
+   Erreichte            Mögliche
+                                               Note           …………………………………..……..
+   Punktzahl            Punktzahl
+                                                              Datum, Unterschrift (1. Korrektor/-in)
+
+
+
+
+                           84                                 ………………………………………....
+                                                              Datum, Unterschrift (2. Korrektor/-in)
+
+
+
+
+  Notenziffer             1               2               3                   4                   5              6
+
+
+ ab … Punkte            72,5              61            49,5                 38                  17              0
+
+
+
+                                                                                                               Seite 1 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                                   Material für Prüflinge
+
+ Realschule                             Hauptteil 1 (ohne Hilfsmittel)                                 Haupttermin
+
+
+Wichtiger Hinweis: Bearbeite alle Aufgaben auf den Aufgabenblättern.
+
+Aufgabe 1
+
+Ergänze die fehlenden Zahlen in den Lücken.
+
+ a)   ______  6 = 72                           b)   2,7 + 1,6 = ______
+
+                                                     1
+ c)   ______ − (9 + 4) = 17                     d)       : 2 = ______
+                                                     2
+
+
+
+
+Aufgabe 2
+
+Berechne.
+
+a) 2,3 km + 840 m = ________ km
+
+b) 0,5 t + ______ kg = 0,520 t
+
+
+
+Aufgabe 3
+
+Kreuze die richtige Größe für den Flächeninhalt eines DIN-A4-Blattes an.
+
+
+
+
+              6,24 cm²           62,4 cm²             624 cm²                 6240 cm²
+
+                O                  O                      O                      O
+
+
+
+
+                                                     1a       1b         1c      1d      2a       2b        3
+                                       Erreichte
+                                       Punktzahl
+                                       Mögliche
+                                                      1        1         1       1       1         1        1
+                                       Punktzahl
+
+                                                                                                     Seite 2 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                                 Material für Prüflinge
+
+ Realschule                             Hauptteil 1 (ohne Hilfsmittel)                               Haupttermin
+
+
+Aufgabe 4
+
+Der Pfeil zeigt auf eine Zahl.
+
+
+
+
+                                                                                    Quelle: MK Niedersachsen
+a) Notiere die Zahl über dem Pfeil.
+                                                       4
+b) Zeichne einen zweiten Pfeil ein, der auf die Zahl       zeigt.
+                                                       5
+
+
+
+Aufgabe 5
+
+a) Berechne den Wert des Terms 7x + 12 – 5x für x = 2.
+
+
+
+
+b) Lena hat begonnen, die Gleichung zu lösen. Führe den Rechenweg zu Ende.
+
+    – 14 + 12x – 47 = 3x – 16       | – 3x
+
+    – 14 + 9x – 47 =        – 16
+
+
+
+
+Thomas lädt seine drei Freunde ins Kino ein.
+Er kauft eine Tüte Popcorn für 13,60 € und vier Eintrittskarten.
+Insgesamt bezahlt Thomas 47,60 €.                                             Quelle: MK Niedersachsen
+
+c) Stelle eine Gleichung auf, mit der du den Preis für eine Kinokarte berechnen kannst.
+   Hinweis: Du musst die Gleichung nicht lösen.
+
+
+   _____________________________________
+                                                                         4a   4b      5a        5b       5c
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                         1    1        2         3        1
+                                                       Punktzahl
+                                                                                                   Seite 3 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                            Mathematik                               Material für Prüflinge
+
+ Realschule                             Hauptteil 1 (ohne Hilfsmittel)                              Haupttermin
+
+
+Aufgabe 6
+
+Auf dem Wochenmarkt verkauft Steffi Äpfel.                                    Preis              Preis
+                                                             Menge
+                                                                         „Roter Boskop“       „Jonagold“
+Dafür legt sie eine Tabelle an, um schnell die
+                                                              1 kg           2,80 €             3,20 €
+Preise abzulesen.
+                                                              2 kg           5,60 €             6,40 €
+a) Ergänze die Lücken in der Tabelle.
+                                                              3 kg           8,40 €
+
+                                                                            14,00 €             16,00 €
+
+
+Als Alternative zur Tabelle zeichnet Steffi einen Graphen.
+
+
+
+
+b) Ergänze die folgenden Sätze.                                                                     Quelle: MK Niedersachsen
+
+
+   Der Graph gehört zur Apfelsorte ________________________________ .
+
+   Für 20 € dieser Apfelsorte erhält man etwa ______ kg Äpfel.
+
+
+
+Steffi hat Schwierigkeiten, den Preis für 3,5 kg Äpfel mithilfe des Diagramms zu bestimmen.
+
+c) Erkläre die Schwierigkeiten bei der Bestimmung des genauen Preises.
+
+    __________________________________________________________________________
+
+    __________________________________________________________________________
+
+
+                                                                                      6a       6b                              6c
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                      1         2                              1
+                                                                         Punktzahl
+                                                                                                  Seite 4 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                                                  Material für Prüflinge
+
+ Realschule                           Hauptteil 1 (ohne Hilfsmittel)                                                Haupttermin
+
+
+Aufgabe 7
+
+Der Flächeninhalt der abgebildeten Figur soll berechnet werden.
+
+a) Zeichne in die Grafik ein, wie du die Figur zerlegen oder ergänzen kannst.
+
+
+
+
+                                                                           Quelle: MK Niedersachsen
+b) Berechne den Flächeninhalt der Figur.
+
+
+
+
+   A = _________ cm²
+
+
+
+c) Gib eine allgemeine Formel zur Berechnung des Flächeninhaltes der Figur
+   in Abhängigkeit von x an.
+
+
+
+
+                                   A = __________________________________________
+
+       Quelle: MK Niedersachsen
+
+
+
+                                                                                                      7a       7b       7c
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                                      1         2        1
+                                                                       Punktzahl
+
+                                                                                                                  Seite 5 von 6
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                             Material für Prüflinge
+
+ Realschule                          Hauptteil 1 (ohne Hilfsmittel)                             Haupttermin
+
+
+Aufgabe 8
+
+Max hat begonnen, ein Dreieck an der Geraden g zu spiegeln.
+
+a) Vervollständige die
+   Spiegelung.
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+Der abgebildete Stern ist achsensymmetrisch.
+
+
+
+
+                                                                                                    Quelle: MK Niedersachsen
+b) Zeichne in den Stern alle Symmetrieachsen ein.
+
+
+
+
+Tim hat in das abgebildete Verkehrszeichen eine Gerade eingezeichnet.
+
+c) Begründe, dass diese Gerade keine Symmetrieachse des
+   Verkehrszeichens ist.
+
+    _______________________________________________
+
+    _______________________________________________
+
+    _______________________________________________                               Quelle: MK Niedersachsen
+
+
+
+                                                                                  8a       8b                 8c
+                                                                      Erreichte
+                                                                      Punktzahl
+                                                                      Mögliche
+                                                                                  2         2                          1
+                                                                      Punktzahl
+
+                                                                                              Seite 6 von 6
+
+[Seitenwechsel]
+
+===== TEIL 2: Hauptteil 2 und Wahlteil (mit Hilfsmitteln) =====
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Realschule, Schuljahrgang 10, Haupttermin – Hauptteil 2 und Wahlteil.
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheRS10/2022MatheRS_Teil2.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 10.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                  Mathematik                           Material für Prüflinge
+
+Realschule                        Hauptteil 2 und Wahlteil                          Haupttermin
+
+
+Name:                                                        Klasse:
+
+
+
+
+Es wurden die folgenden zwei           Wahlaufgabe W1 (       )
+Aufgaben des Wahlteils gewählt:        Wahlaufgabe W2 (       )
+
+                                       Wahlaufgabe W3 (       )
+
+                                       Wahlaufgabe W4 (       )
+
+
+
+
+Wichtige Hinweise:      Runde Endergebnisse auf 2 Nachkommastellen, sofern nichts
+                        anderes   angegeben       ist.   Schreibe   deine    Lösungswege
+                        ausführlich auf.
+
+
+
+
+                                                                                        1 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                                             Mathematik                              Material für Prüflinge
+
+ Realschule                                                 Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe 1
+
+Im Juli 2020 wurde die Mehrwertsteuer von 19 % auf 16 % gesenkt. Ein Auto kostet ohne
+Mehrwertsteuer 14 560 €.
+
+a) Berechne den Gesamtpreis für das Auto inklusive 16 % Mehrwertsteuer.
+
+
+Herr Aslan berechnet den Preis eines Motorrades
+                                                                           Preis inklusive 19 % Mehrwertsteuer:
+nach der Steuersenkung: „Ich ziehe 3 % von                                                 8900 €
+
+
+
+
+                                                                                                                         Quelle: MK Niedersachsen
+8900 € ab, denn 19 % − 16 % = 3 %. Das
+Motorrad kostet also 8633 €.“
+
+b) Zeige mithilfe einer Rechnung, dass Herr
+   Aslan nicht recht hat.                                                               neuer Preis
+                                                                            inklusive 16 % Mehrwertsteuer: ? €
+
+
+
+
+                                                            In einer Umfrage wurde ermittelt, wie sich das Kaufverhalten
+                                                            durch die Steuersenkung verändert hat.
+                                                            Das Ergebnis dieser Umfrage wurde in einem
+                                                            Säulendiagramm dargestellt.
+
+                                                            Olga behauptet: „Es haben viermal so viele Personen ‚mehr
+                                                            gekauft‘ als ‚weniger gekauft‘.“
+                                 Quelle: MK Niedersachsen
+
+
+
+
+                                                            c)   Hat Olga die Informationen aus dem Säulendiagramm
+                                                                 richtig interpretiert? Begründe deine Aussage.
+
+
+
+
+                                                                                                     1a        1b       1c
+                                                                                         Erreichte
+                                                                                         Punktzahl
+                                                                                         Mögliche
+                                                                                                      2         3        2
+                                                                                         Punktzahl
+
+                                                                                                                      2 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                             Mathematik                             Material für Prüflinge
+
+ Realschule                                  Hauptteil 2 und Wahlteil                              Haupttermin
+
+
+Aufgabe 2
+
+Für ein Zufallsexperiment stehen vier Urnen zur Verfügung.
+
+        1. Urne                    2. Urne                     3. Urne               4. Urne
+
+
+
+
+                                                                                                            Quelle: MK Niedersachsen
+                                                                                       
+
+
+Aus den Urnen wird jeweils eine Kugel gezogen.
+
+                                                   1
+a) Kreuze alle Urnen an, für die gilt: P(weiß) =     .
+                                                   4
+
+
+
+Lisa zieht aus der zweiten Urne nacheinander zwei Kugeln. Die erste gezogene Kugel legt sie nicht
+wieder zurück.
+
+b) Ergänze die fehlenden Wahrscheinlichkeiten im Baumdiagramm.
+
+
+
+
+                                                                                                            Quelle: MK Niedersachsen
+
+
+
+
+c) Berechne die Wahrscheinlichkeit dafür, dass Lisa eine schwarze und eine weiße Kugel in
+   beliebiger Reihenfolge zieht.
+
+                                                                                     2a       2b       2c
+                                                                         Erreichte
+                                                                         Punktzahl
+                                                                         Mögliche
+                                                                                     2         1        3
+                                                                         Punktzahl
+
+                                                                                                     3 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                              Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                                                       Haupttermin
+
+
+Aufgabe 3
+
+Die Abbildung zeigt den Graphen der linearen Funktion y1.
+
+
+
+
+                                                                                        Quelle: MK Niedersachsen
+a) Gib die Funktionsgleichung der Funktion y1 in der Form y1 = mx + b an.
+
+    y1 = __________________________
+
+
+
+                                                       1
+Eine andere Funktion hat die Funktionsgleichung y2 =       x – 1.
+                                                       2
+
+b) Bestimme den Schnittpunkt der Graphen von y1 und y2.
+
+    S ( ____ │ ____ )
+
+
+
+
+Eine Gerade soll parallel zum Graphen der Funktion y2 verlaufen, aber nicht auf ihm liegen.
+
+c) Gib eine mögliche Funktionsgleichung für diese Gerade an.
+
+    y = __________________________                                               3a                                3b       3c
+                                                                    Erreichte
+                                                                    Punktzahl
+                                                                    Mögliche
+                                                                                  2                                3         2
+                                                                    Punktzahl
+                                                                                                                          4 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                                  Material für Prüflinge
+
+ Realschule                             Hauptteil 2 und Wahlteil                                    Haupttermin
+
+
+Aufgabe 4
+
+Die Abbildung zeigt eine zusammengesetzte Figur, die aus einem
+Halbkreis und einem rechtwinkligen Dreieck besteht.
+
+a) Berechne die Länge der Strecke a.
+
+
+
+b) Berechne den Flächeninhalt der abgebildeten Figur. (Solltest
+   du Teilaufgabe a) nicht gelöst haben, rechne mit a = 8,34 cm.)
+
+
+
+Der Flächeninhalt der Figur soll viermal so groß werden.
+
+c) Kreuze die richtige Aussage an.
+                                                                          (Skizze nicht maßstäblich)
+    Damit der Flächeninhalt der Figur viermal so groß wird,                          Quelle: MK Niedersachsen
+
+    müssen alle Längen …
+
+    O verdoppelt werden.
+
+    O verdreifacht werden.
+
+    O vervierfacht werden.
+
+
+
+Aufgabe 5
+
+Gegeben ist das Dreieck ABC.
+
+a) Kreuze die Formel an, mit der du die Größe des Winkels γ
+   berechnen kannst.
+
+              c                   c                c
+    tan γ =             sin γ =          cos γ =
+              b                   b                b
+                                           
+                                                                         (Skizze nicht maßstäblich)
+                                                                                Quelle: MK Niedersachsen
+
+b) Berechne die Länge der Seite a.
+
+
+                                                                    4a     4b        4c        5a       5b
+                                                       Erreichte
+                                                       Punktzahl
+                                                       Mögliche
+                                                                    3       5         1         1          2
+                                                       Punktzahl
+
+                                                                                                      5 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                          Mathematik                        Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                           Haupttermin
+
+
+Aufgabe 6
+
+Eine Firma stellt 5 m lange Kupferrohre her.
+
+a) Berechne das Volumen des Kupfers vom
+   abgebildeten Rohr.
+
+
+
+Die Masse von 1 cm³ Kupfer beträgt 8,96 g.
+
+b) Berechne die Masse des Kupferrohres.
+   (Solltest du Teilaufgabe a) nicht gelöst haben,
+   rechne mit V = 273,45 cm³.)
+
+
+
+
+                                                                    (Skizze nicht maßstäblich)
+                                                                           Quelle: MK Niedersachsen
+
+
+
+
+                                                                                       6a       6b
+                                                                       Erreichte
+                                                                       Punktzahl
+                                                                       Mögliche
+                                                                                        3        1
+                                                                       Punktzahl
+
+                                                                                              6 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                        Mathematik                               Material für Prüflinge
+
+ Realschule                            Hauptteil 2 und Wahlteil                                 Haupttermin
+
+
+Wahlteil
+
+                               Wahlaufgabe 1 – Trigonometrie
+
+
+Die Abbildung zeigt den Übersichtsplan eines Stadtparks.
+
+
+
+
+                                                                                                         Quelle: MK Niedersachsen
+                                                                       (Skizze nicht maßstäblich)
+
+Anna behauptet, dass der Winkel β = 49° beträgt.
+a) Zeige mithilfe einer Rechnung, dass Anna recht hat.
+
+
+
+Anna beginnt mit der maßstäblichen Zeichnung des Übersichtsplans.
+
+b) Vervollständige Annas Zeichnung.
+
+
+
+
+c) Kreuze den Maßstab an, den Anna wählte.
+              1 : 100                     1 : 1000                        1 : 10 000
+                                                                            
+
+
+d) Berechne die Größe des Winkels .
+
+                                                                  1a     1b       1c       1d       1e
+e) Berechne die Länge der Strecke x.                 Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                  1       3       1         2        3
+                                                     Punktzahl
+
+                                                                                                  7 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                              Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                                Haupttermin
+
+
+                                    Wahlaufgabe 2 – Körper
+
+
+Der abgebildete Schokokuss besteht annähernd aus zwei geometrischen Teilkörpern.
+
+a) Kreuze diese beiden Teilkörper an.
+
+
+
+
+                                                                                                     Quelle: MK Niedersachsen
+                Pyramide
+                Kegel
+                Kugel
+                Halbkugel
+                Zylinder
+                Quader
+
+
+
+
+Die Abbildung zeigt den Querschnitt eines Schokokusses.
+
+Ein Hersteller bietet Schokoküsse in einem quaderförmigen Karton an.
+Der Karton ist 20 cm lang, 16 cm breit und 19 cm hoch.
+
+b) Bestimme die maximale Anzahl der Schokoküsse, die in diesem
+   Karton verpackt sind.
+
+                                                                                Quelle: MK Niedersachsen
+c) Berechne das Volumen eines Schokokusses.
+
+
+
+In der Grafik ist ein anderer Schokokuss abgebildet.
+d) Stelle eine allgemeine Formel auf, mit der du das Volumen
+   in Abhängigkeit von r berechnen kannst.
+
+
+
+
+                                                                                 Quelle: MK Niedersachsen
+
+
+
+                                                                         (Skizzen nicht maßstäblich)
+
+                                                                          2a      2b        2c       2d
+                                                             Erreichte
+                                                             Punktzahl
+                                                             Mögliche
+                                                                           1      2         5                 2
+                                                             Punktzahl
+
+
+                                                                                                   8 von 10
+
+[Seitenwechsel]
+     Abschlussarbeit 2022                         Mathematik                                   Material für Prüflinge
+
+ Realschule                                Hauptteil 2 und Wahlteil                                      Haupttermin
+
+
+                                  Wahlaufgabe 3 – Wachstumsprozesse
+
+
+Um eine Bauchspeicheldrüse zu untersuchen, wird dem Patienten ein Farbstoff gespritzt.
+Eine gesunde Bauchspeicheldrüse scheidet pro 10 Minuten ca. 30 % des jeweils noch vorhandenen
+Farbstoffes aus.
+
+
+a) Vervollständige die Tabelle.
+
+     Zeit in Minuten        0       10       20         30            40        50                       80
+
+ Farbstoffmenge
+                            100     70                 34,3         24,0        16,8                   5,8
+      in %
+
+
+
+b) Zeichne die Wertepaare in ein Koordinatensystem und verbinde sie sinnvoll.
+       Wähle für die x-Achse 1 cm für 10 Minuten und für die y-Achse 1 cm für 10 %.
+
+
+
+
+c) Kreuze die Art der Zuordnung an.
+                 linear                     quadratisch                         exponentiell
+                                                                                     
+
+
+
+d) Gib die Farbstoffmenge in % nach 25 Minuten an.
+
+
+e) Gib an, nach welcher Zeit noch 10 % des Farbstoffes vorhanden sind.
+
+
+Einem Patienten werden 0,2 g Farbstoff gespritzt. Nach 20 Minuten sind noch 0,1 g des Farbstoffes in
+der Bauchspeicheldrüse vorhanden.
+f)     Entscheide, ob der Patient eine gesunde Bauchspeicheldrüse hat. Begründe deine Entscheidung.
+
+
+
+
+                                                               3a          3b   3c         3d       3e          3f
+                                               Erreichte
+                                               Punktzahl
+                                               Mögliche
+                                                               1           4     1         1         1          2
+                                               Punktzahl
+
+                                                                                                              9 von 10
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                                  Material für Prüflinge
+
+ Realschule                              Hauptteil 2 und Wahlteil                                   Haupttermin
+
+
+                             Wahlaufgabe 4 – Quadratische Funktionen
+
+
+Die Abbildung zeigt vier Graphen von quadratischen Funktionen.
+
+a) Ordne die Graphen den passenden Funktionsgleichungen zu.
+
+
+                                                                 Funktionsgleichung         Graph
+
+                                                                 y = x² − 3
+
+                                                                 y = (x – 1)²
+
+                                                                 y = (x + 2)² − 2
+
+
+
+
+                                                                                                            Quelle: MK Niedersachsen
+                                                                 y = (x − 3)²
+
+                                                                 y = − (x + 2)² + 3
+
+                                                                 y = − x² + 2
+
+
+
+
+Eine andere quadratische Funktion hat die Funktionsgleichung y = x² + 2x − 4.
+
+b) Vervollständige die Wertetabelle und zeichne den Graphen der Funktion in ein
+   Koordinatensystem.
+
+
+        x               −4         −3         −2            −1           0             1               2
+
+ y = x² + 2x − 4        4          −1                       −5           −4           −1               4
+
+
+
+c) Gib die Koordinaten des Scheitelpunktes der Funktion an.
+d) Berechne die Nullstellen der Funktion y = x² + 2x − 4.
+e) Verändere die Funktionsgleichung y = x² + 2x − 4 so, dass der Graph keine Nullstelle hat.
+
+
+
+
+                                                                    4a        4b      4c       4d          4e
+                                                     Erreichte
+                                                     Punktzahl
+                                                     Mögliche
+                                                                     2          3     1         3          1
+                                                     Punktzahl
+
+                                                                                                     10 von 10
+
+[Seitenwechsel]

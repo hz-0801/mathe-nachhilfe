@@ -1,0 +1,1363 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Realschule Mathematik mit Lösungen – Prüfungsjahr 2021, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320113/2021 (Jahrgangsseite, Serlo-ID 320113); Prüfungsteile: https://de.serlo.org/mathe/320141/pflichtteil-a1 (Pflichtteil A1, ID 320141); https://de.serlo.org/mathe/320142/pflichtteil-a2 (Pflichtteil A2, ID 320142); https://de.serlo.org/mathe/320143/wahlteil-b (Wahlteil B, ID 320143)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2021  (Serlo-ID 320141)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 323742 – https://de.serlo.org/mathe/323742/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Auf der Mantelfläche der quadratischen Pyramide ist ein Streckenzug eingezeichnet.
+Auf welchem der vier abgebildeten Netze wird der Streckenzug richtig dargestellt?
+[Abbildung]
+Lösung:
+Auf Netz B ist der Streckenzug richtig dargestellt.
+
+--- Teilaufgabe b) ---
+Die Grundkante a der quadratischen Pyramide ist 5cm lang.
+Die Körperhöhe h beträgt 6cm.
+Berechne das Volumen der quadratischen Pyramide.
+[Eingabefeld: 50]
+Lösung:
+V_{Pyramide}=(1)/(3)· G· h
+G=a^2
+G=25cm^2
+V=(1)/(3)· 25cm^2· 6cm
+V=(1)/(3)· 150cm^3
+V=50cm^3
+
+Die quadratische Pyramide hat ein Volumen von 50cm^3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322717 – https://de.serlo.org/mathe/322717/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Auf der Mantelfläche der quadratischen Pyramide ist ein Streckenzug eingezeichnet. 
+ Auf welchem der vier abgebildeten Netze wird der Streckenzug richtig dargestellt?
+[Abbildung]
+b) Die Grundkante a der quadratischen Pyramide ist 5cm lang.
+Die Körperhöhe h beträgt 6cm. Berechne das Volumen der quadratischen Pyramide.
+(1,5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322719 – https://de.serlo.org/mathe/322719/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse die Gleichung.
+
+(x-3)(x+5)+7=8(x-2)
+(1,5 Pkt.)
+Lösung:
+(x-3)(x+5)+7 = 8(x-2)
+  x^2+5x-3x-15+7 = 8x-16
+  x^2+2x-8 = 8x-16   | -8x+16
+  x^2-6x+8 = 0
+Benutze die pq_Formel:
+Allgemeiene Form der quadratischen Gleichung:  x^2+px+q=0
+pq_Formel:  x_{1,2}=-(p)/(2)±√{((p)/(2))^2-q}
+
+x_{1,2}=-((-6))/(2)±√{(((-6))/(2))^2-8}
+x_{1,2}=3±√{(-3)^2-8}
+x_{1,2}=3±1
+x_1=4
+x_2=2
+
+mathbb{L}={2,4}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322721 – https://de.serlo.org/mathe/322721/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einem Behälter liegen gelbe, rote und blaue Kugeln. Ingesamt sind es sechs Stück.
+Kim zieht ohne hinzuschauen zwei Kugeln gleichzeitig.
+Im Baumdiagramm sind zwei Wahrscheinlichkeiten angegeben.
+
+a) Ergänze in den beiden leeren Feldern die Wahrscheinlichkeitsangaben.
+
+b) Wie groß ist die Wahrscheinlichkeit, dass Kim zwei rote Kugeln zieht?
+[Abbildung]
+(2 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo ExerciseGroup 323746 – https://de.serlo.org/mathe/323746/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einem Behälter liegen gelbe, rote und blaue Kugeln.
+Ingesamt sind es sechs Stück.
+Kim zieht ohne hinzuschauen zwei Kugeln gleichzeitig.
+Im Baumdiagramm sind zwei Wahrscheinlichkeiten angegeben.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Ergänze in den beiden leeren Feldern die Wahrscheinlichkeitsangaben.
+Lösung:
+[Abbildung]
+1. Feld links oben:  
+Summenregel:  1-(1)/(6)-(1)/(2)=(2)/(6)
+
+2. Feld rechts oben:
+Jetzt sind nur noch 5 Kugeln in dem Behälter. Eine gelbe Kugel wurde bereits gezogen.
+
+--- Teilaufgabe b) ---
+Wie groß ist die Wahrscheinlichkeit, dass
+Kim zwei rote Kugeln zieht?
+(2 P)
+Die Wahrscheinlichkeit, dass Kim 2 rote Kugeln zieht beträgt [Lücke: 1/5] 
+oder  [Lücke: 20] %.
+Lösung:
+Produktregel:
+P(zweimal rot)= (3)/(6)·(2)/(5)=(6)/(30)=(1)/(5) 
+
+Die Wahrscheinlichkeit, dass Kim 2 rote Kugeln zieht beträgt also 20%.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322723 – https://de.serlo.org/mathe/322723/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Sechs Funktionsgleichungen - drei Graphen
+Welche Funktionsgleichung gehört zu welchem Graphen?
+(1) y=-3 x+3
+
+mathrm{(2) y=-(1)/(2)x^2+3}
+
+(3) y=x^2-4x+3
+
+(4) y=3x+3
+
+(5) y=x^2+4x+3
+
+mathrm{(6) y=-(1)/(4)x^2+3}
+[Abbildung]
+b) Die Gerade h hat die Funktionsgleichung mathrm{ y=-(1)/(2) x+2}.
+Zeichne die Gerade h in das abgebildete Koordinatensystem.
+(2 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo ExerciseGroup 323750 – https://de.serlo.org/mathe/323750/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Sechs Funktionsgleichungen - drei Graphen.
+Welche Funktionsgleichung gehört zu welchem Graphen?
+(1) y=-3 x+3
+
+mathrm{(2) y=-(1)/(2)x^2+3}
+
+(3) y=x^2-4x+3
+
+(4) y=3x+3
+
+(5) y=x^2+4x+3
+
+mathrm{(6) y=-(1)/(4)x^2+3}
+[Abbildung]
+Zum Graphen textbf{p}_textbf{1} gehört die Funktionsgleichung [Lücke: 2] .
+
+Zum Graphen textbf{p}_textbf{2} gehört die Funktionsgleichung [Lücke: 3] .
+
+Zum Graphen textbf{g} gehört die Funktionsgleichung [Lücke: 4] .
+Lösung:
+(4) wird g zugeordnet.
+Denn g ist eine Gerade mit folgenden Eigenschaften:
+
+- c_g=3 ist der y-Achsenabschnitt
+- m= (3)/(1) ist die Steigung
+- Die dazugehörige Funktionsgleichung hat die Form y=mx+c_g.
+
+(2) wird p_1 zugeordnet.
+Denn p_1 ist eine Parabel mit folgenden Eigenschaften:
+- Nach unten geöffnet
+- Die dazugehörige Funktionsgleichung ist eine quadratische Gleichung der Form y=ax^2+c
+Und die Punktprobe mit dem Punkt P(2|1) zeigt:
+y=-(1)/(2)x^2+3
+Setze P(2|1) ein:
+1= -(1)/(2)2^2+3
+1=-2+3
+
+(3) wird p_2 zugeordnet.
+Denn p_2 ist eine Parabel mit folgenden Eigenschaften:
+- Nach oben geöffnet
+- Nach rechts verschoben
+- Scheitelpunkt S_2(2|-1)
+- Die dazugehörige Funktionsgleichung ist eine quadratische Gleichung der Form y=a(x-d)^2+e
+Durch Umformung der Funktionsgleichung (3) in die Scheitelpunktform lässt sich der richtige Scheitelpunkt ablesen:
+y=x^2-4x+3
+y=x^2-2·2x+2^2-2^2+3
+y=(x-2)^2-4+3
+y=(x-2)^2-1
+
+--- Teilaufgabe b) ---
+Die Gerade h hat die Funktionsgleichung mathrm{y=-(1)/(2)x+2}.
+Zeichne die Gerade h in das abgebildete Koordinatensystem.
+[Abbildung]
+(2 P)
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 322725 – https://de.serlo.org/mathe/322725/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Weise nach, dass gilt:
+
+mathrm{(10^6)/(5^4·5^2):2^4=4}
+(1 P)
+Lösung:
+(10^6)/(5^4·5^2):2^4 = 4
+  (10^6)/(5^6):2^4= = 4
+  2^6:2^4 = 4
+  2^2 = 4
+  4 = 4
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 322727 – https://de.serlo.org/mathe/322727/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ben legt drei Muster mit quadratischen Kärtchen.
+[Abbildung]
+Er behauptet: „Das zehnte Muster besteht aus 43 Kärtchen."
+Hat Ben recht? Begründe deine Aussage.
+(1 Pkt.)
+Lösung:
+Das erste Muster besteht aus 5 Kärtchen. Jedes weitere Muster hat an den 4 Enden jeweils ein Kärtchen mehr. Das 10. Muster besteht also aus 41 Kärtchen. Ben hat nicht recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 322730 – https://de.serlo.org/mathe/322730/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ordne jedem Kreisdiagramm die passende Aussage zu.
+Trage den Buchstaben unter dem jeweiligen Kreisdiagramm ein.
+[Abbildung]
+(A) Drei Viertel der Schüler*innen kommen im Winter mit dem Bus zur Schule.
+
+(B) 15 % der Schüler*innen besuchen die Klassenstufe 10.
+
+(C) 200 von 300 Schüler*innen haben Geschwister.
+
+(D) 40 % der Schüler*innen fahren im Sommer mit dem Fahrrad zur Schule.
+(1 Pkt.)
+Lösung:
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2021  (Serlo-ID 320142)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322735 – https://de.serlo.org/mathe/322735/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das gleichschenklige Dreieck ABC und das Quadrat ADEF überdecken sich teilweise.
+
+Es gilt:
+‾{BD}=10,0cm
+β=67,0°
+mathrm{‾{AC}=‾{BC}}
+
+Berechne den Umfang des Dreiecks GEC.
+(3,5 Pkt.)
+[Abbildung]
+[Eingabefeld: 34,1]
+Lösung:
+1. Schritt: Berechne die Länge der Dreiecksseite ‾{CE}
+Hierfür musst du zuerst die Länge der Strecke ‾{CD} berechnen. 
+Verwende für die Berechnung die Formel für den Tangens:
+tan(α)=(Gegenkathete)/(Ankathete)
+tan(β)=frac{‾{CD}}{‾{BD}}
+tan(β)·‾{BD}=‾{CD}
+Setze die bekannten Werte ein:
+tan (67° )· 10,0cm=‾{CD}
+23,56cm=‾{CD}
+‾{CE}=‾{CD}-‾{DE}
+Die Länge der Strecke ‾{DE} entspricht der Länge der Strecke ‾{AD}, da es sich um ein Quadrat handelt. Das Dreieck ABC ist gleichschenklig. Also sind ‾{AD} und ‾{BD} gleich lang.
+‾{DE}=‾{BD}=‾{AD}=10,0cm
+‾{CE}=23,56cm-10,0cm=13,56cm
+
+2. Schritt: Berechne dieLänge der Strecke ‾{EG}.
+Verwende für die Berechnung den 2. Strahlensatz.
+frac{‾{AD}}{‾{EG}}=frac{‾{CD}}{‾{CE}}
+
+frac{‾{EG}}{‾{AD}}=frac{‾{CE}}{‾{CD}}
+‾{ EG}=frac{‾{CE}}{‾{CD}}·‾{AD}
+‾{EG}=(13,56cm)/(23,56cm)· 10,0cm
+‾{EG}=5,76cm
+
+3. Schritt: Berechne die Länge der Strecke ‾{CG}.
+Verwende für die Berechnung den Satz des Pythagoras.
+a^2+b^2=c^2
+Setze ein:
+‾{CG}^2=‾{EG}^2+‾{CE}^2
+‾{CG}=√{‾{EG}^2+‾{CE}^2}
+‾{CG}=√{(5,76cm)^2+(13,56cm)^2}
+‾{CG}=14,73cm
+4. Schritt: Berechne den Umfang des Dreiecks GEC:
+Verwende für die Berechnung die Formel für den Umfang eines Dreiecks.
+U=a+b+c
+Setze ein:
+U=‾{CE}+‾{EG}+‾{CG}
+U=13,56cm+5,76cm+14,73cm
+U=34,1cm
+Der Umfang des Dreiecks GEC ist 34,1cm.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322737 – https://de.serlo.org/mathe/322737/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Kunstwerk setzt sich aus einer Halbkugel und einem Kegel zusammen.
+
+[Abbildung]
+Es gilt:
+
+s=3,7m
+h_{ges }=5,1m
+α=72,0°
+
+- Berechne den Oberflächeninhalt des zusammengesetzten Körpers.
+Dieses Kunstwerk soll mit Farbe angestrichen werden.
+Eine 1-Liter-Farbdose reicht für 10 m^{2}.
+- Wie viele Dosen müssen gekauft werden?
+Die Oberfläche des Kunstwerkes beträgt [Lücke: 32,7] m^2.
+
+Es müssen [Lücke: 4] Dosen Farbe gekauft werden.
+Lösung:
+Berechne Oberflächeninhalt des zusammengesetzten Körpers.
+
+- Berechne den Mantelflächeninhalt des Kegels.
+1. Schritt: 
+Dazu benötigst du den Radius r_{Kegel} des Kegels. Verwende für die Berechnung die Formel für den Kosinus.
+
+cos(α)=(Ankathete)/(Hypotenuse)
+
+cos(α)=frac{r_{Kegel}}{s}
+cos(α)· s=r_{Kegel}
+cos(72°)· 3,7m=r_{Kegel}
+1,14m=r_{Kegel}
+Der Radius des Kegels beträgt 1,14m.
+
+2. Schritt:
+Berechne nun den Mantelflächeninhalt des Kegels.
+
+M=π· r_{Kegel}· s 
+M=π· 1,14m· 3,7m
+M=13,25m^2
+Der Mantelflächeninhalt beträgt 13,25m^2.
+
+- Berechne den Oberflächeninhalt der Halbkugel.
+1. Schritt:
+Berechne die Höhe h_{Kegel} . Verwende für die Berechnung die Formel für den Sinus.
+sin (α )=(Gegenkathete)/(Hypotenuse)
+
+sin (α )=frac{h_{Kegel}}{s}
+sin(α)· s=h_{Kegel}
+sin(72°)· 3,7m=h_{Kegel}
+3,52m=h_{Kegel}
+Die Höhe des Kegels beträgt 3,52m.
+
+2. Schritt:
+Berechne den Radius r_{Halbkugel} der Halbkugel.
+r_{Halbkugel}=h_{gesamt}-h_{Kegel}
+r_{Halbkugel}=5,1m-3,52m=1,58m
+Der Radius der Halbkugel beträgt 1,58m.
+
+3. Schritt:
+Berechne den Oberflächeninhalt O_{Halbkugel} der Halbkugel.
+O_{Halbkugel}= (1)/(2)· O_{Kugel}+ Schnittfläche
+O_{Kugel}=4· π · r^2
+O_{Halbkugel}=(1)/(2)· 4· π· r_{Halbkugel}^2+π· r_{Halbkugel}^2
+O_{Halbkugel}=3·π· r_{Halbkugel}^2
+O_{Halbkugel}=23,53m^2
+Die Oberfläche der Halbkugel beträgt 23,53m^2.
+
+- Berechne die Grundfläche A des Kegels.
+A=π· r_{Kegel}^2
+A=π· (1,14m)^2
+A=4,08m^2
+Die Grundfläche A des Kegels beträgt 4,08m^2.
+Berechne den gesamten Oberflächeninhalt des Kunstwerkes.
+O=M_{Kegel}+O_{Halbkugel}-A
+O=13,25m^2+23,53m^2-4,08m^2
+O=32,7m^2
+
+Die Oberfläche des Kunstwerkes beträgt 32,7m^2.
+- Wie viele Dosen Farbe müssen gekauft werden?
+32,7:10=3,27
+
+Es müssen also 4 Dosen Farbe gekauft werden.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322739 – https://de.serlo.org/mathe/322739/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die beiden Glücksräder werden gedreht.
+Wenn sie stehen bleiben, erkennt man im Sichtfenster eine zweistellige Zahl.
+Die Abbildung zeigt die Zahl 43.
+
+Mit welcher Wahrscheinlichkeit ist im Sichtfenster
+- eine Zahl mit zwei gleichen Ziffern zu sehen?
+- eine durch 12 teilbare Zahl zu sehen?
+- höchstens einmal die Ziffer 4 zu sehen?
+[Abbildung]
+(3,5 Pkt.)
+Die Wahrscheinlichkeit eine Zahl mit zwei gleichen Ziffern zu sehen, ist: [Lücke: 1/4 | 5/20 | 25%] .
+
+Die Wahrscheinlichkeit eine durch 12 teilbare Zahl zu sehen ist: [Lücke: 1/10 | 2/20 | 10%] .
+
+Die Wahrscheinlichkeit höchstens einmal die Ziffer 4 zu sehen, ist: [Lücke: 9/10 | 90%] .
+Lösung:
+Das linke Glücksrad hat 4 Felder mit den Beschriftungen 2,3,4 und 5.
+Das rechte Glücksrad hat 5 Felder mit den Beschriftungen 2,3,4,4 und 5.
+
+- Mit welcher Wahrscheinlichkeit ist im Sichtfenster eine Zahl mit zwei gleichen Ziffern zu sehen?
+P(zwei gleiche Ziffern)
+= P(2;2)+P(3;3)+P(4;4)+P(5;5)
+=(1)/(4)·(1)/(5)+(1)/(4)·(1)/(5)+(1)/(4)·(2)/(5)+(1)/(4)·(1)/(5)
+=(5)/(20)
+=(1)/(4)
+
+Die Wahrscheinlichkeit im Sichtfenster eine Zahl mit zwei gleichen Ziffern zu
+sehen beträgt 25%.
+- Mit welcher Wahrscheinlichkeit ist im Sichtfenster eine durch 12 teilbare Zahl zu sehen?
+Die einzige Zahl, die im Sichtfenster zu sehen sein kann und durch 12 teilbar ist, ist die 24, also im linken Glücksrad die 2 und im rechten Glücksrad eine 4.
+
+P(Zahl durch 12 teilbar)
+=(1)/(4)·(2)/(5)
+=(2)/(20)
+=(1)/(10)
+
+Die Wahrscheinlichkeit im Sichtfenster eine Zahl zu sehen, die durch 12 teilbar ist, beträgt 10%.
+- Mit welcher Wahrscheinlichkeit ist im Sichtfenster höchstens einmal die Ziffer 4 zu sehen?
+
+P(höchstens einmal die Ziffer 4)
+=1-P(zweimal die Ziffer 4)
+=1-(1)/(4)·(2)/(5)
+=1-(1)/(10)
+=(9)/(10)
+
+Die Wahrscheinlichkeit im Sichtfenster höchstens einmal die Ziffer 4 zu sehen beträgt 90%.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322741 – https://de.serlo.org/mathe/322741/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Immer mehr Menschen kaufen im Internet ein. Die Grafik zeigt die Umsatzentwicklung des Onlinehandels in Deutschland.
+
+[Abbildung]
+- Um wie viel Prozent ist der Umsatz des Onlinehandels von 2016 bis 2019 insgesamt gestiegen?
+Das Kreisdiagramm zeigt die Umsatzanteile verschiedener Bereiche am Gesamtumsatz des Onlinehandels im Jahr 2017.
+
+[Abbildung]
+- Wie hoch war der Umsatz (in Euro) für den Bereich „Freizeit und Hobby"?
+Laut einer Untersuchung entfielen im Jahr 2017 allein 53,0 % des Bereichs "Elektronik" auf den Onlinehandel mit Smartphones.
+- Wie viel Euro wurden nach dieser Untersuchung im Onlinehandel für Smartphones ausgegeben?
+(3 Pkt.)
+Der Umsatz des Onlinehandels ist von 2016 bis 2019 um insgesamt [Lücke: 32,4] % gestiegen.
+
+Der Umsatz (in Euro) für den Bereich „Freizeit und Hobby" betrug: [Lücke: 7,09] Mrd. Euro.
+
+Es wurden nach dieser Untersuchung  [Lücke: 6,46] Mrd. Euro im Onlinehandel für Smartphones ausgegeben. 
+Lösung:
+- Um wie viel Prozent ist der Umsatz des Onlinehandels von 2016 bis 2019 insgesamt gestiegen?
+W=58,5 Mrd €-44,2 Mrd €
+W=14,3 Mrd € 
+
+p=(W)/(G)
+p=(14,3 )/(44,2)
+p=0,324
+p=32,4%
+Der Umsatz des Onlinehandels ist von 2016 bis 2019 um 32,4% gestiegen.
+
+- Wie hoch war der Umsatz (in Euro) für den Bereich „Freizeit und Hobby“?
+W=G· p
+48,9 Mrd €·0,145=7,09 Mrd €
+
+Der Umsatz für den Bereich "Freizeit und Hobby lag also bei 7,09 Mrd €.
+
+- Wie viel Euro wurden nach dieser Untersuchung im Onlinehandel für Smartphones ausgegeben?
+Ausgaben für Elektronik insgesamt:
+ W=G· p
+48,9 Mrd €·0,249=12,18 Mrd €
+Davon Ausgaben für Smartphones:
+12,18 Mrd €·0,53=6,46 Mrd €
+
+Im Onlinehandel wurden für Smartphones 6,46 Mrd € ausgegeben.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322743 – https://de.serlo.org/mathe/322743/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Parabel p hat die Funktionsgleichung y=x^{2}-6 x+10.
+Eine Gerade g besitzt die Steigung m=-2.
+Sie geht durch den Scheitelpunkt S der Parabel p.
+- Berechne die Koordinaten des zweiten Schnittpunkts Q der Parabel p mit der Geraden g.
+Die Gerade h verläuft senkrecht zur Geraden g und geht durch den Punkt Q.
+- Berechne die Funktionsgleichung der Geraden h.
+Lösung:
+- Berechne die Koordinaten des zweiten Schnittpunkts Q der Parabel p mit der Geraden.
+
+1.Schritt: 
+Bestimme die Scheitelpunktsform der Parabel p mit Hilfe der quadratischen Ergänzung.
+Allgemeine Scheitelpunktsform: f(x)=a(x-d)^2+e
+Scheitelpunkt:  S(d|e)
+
+  y = x^2-6x+10
+   = x^2-2·3x+10
+   = x^2-2·3x+3^2-3^2+10
+   = (x-3)^2-9+10
+   = (x-3)^2+1
+Der Scheitelpunkt der Parabel p ist S(3|1).
+2. Schritt:
+Stelle die Geradengleichung für g auf.
+Allgemeine Form einer Geradengleichung: y=m· x+c
+Steigung :  m=-2
+g:y=-2x+c
+Bestimme c: 
+Da die Gerde g durch den Scheitelpunkt S der Parabel p geht, setze S in g ein.
+
+  1 = -2·3+c
+  1 = -6+c   | +6
+  7 = c
+=>   g: y=-2x+7
+
+3. Schritt:
+Berechne die Schnittpunkte von g und p.
+  -2x+7 = x^2-6x+10   | +2x-7
+  0 = x^2-4x+3
+Zur Berechnun der Schnittpunkte verwende die pq Formel.
+x_{1,2}=-((-4))/(2)±√{(((-4))/(2))^2-3}
+x_{1,2}=2±√{(-2)^2-3}
+x_{1,2}=2±√{4-3}
+x_{1,2}=2±1
+x_1=3
+x_2=1
+Setze x_2 in g ein.
+y=-2·1+7
+y=5
+
+Der 2. Schnittpunkt Q der Parabel p mit der Geraden g hat die Koordinaten Q(1|5).
+
+- Die Gerade h verläuft senkrecht zur Geraden g und geht durch den Punkt Q. Berechne die Funktionsgleichung der Geraden h.
+1. Schritt:
+Bestimme die Steigung der Geraden h:  m_h=-(1)/(m_g)
+m_h=-(1)/((-2))=(1)/(2)
+
+2. Schritt:
+Stelle die Geradengleichung für h auf.
+h:  y=(1)/(2)x+c
+Um c zu bestimmen setze Q in h ein, da Q auf h liegt.
+
+  5 = (1)/(2)·1+c
+  5 = 0,5+c   | -0,5
+  4,5 = c
+=>  h:  y=(1)/(2)x+4,5
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322745 – https://de.serlo.org/mathe/322745/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Im Rahmen einer Umfrage wurden 25 Männer und 25 Frauen getrennt voneinander befragt, wie viele Stunden sie pro Woche lesen.
+Die Ergebnisse dieser Befragungen sind in den beiden Boxplots dargestellt.
+[Abbildung]
+Außerdem sind die Ergebnisse der Befragungen in den beiden Säulendiagrammen abgebildet, wobei das Diagramm (2) unvollständig ist.
+[Abbildung: large{textbf{Diagramm 1}}]
+[Abbildung: large{textbf{Diagramm 2}}]
+Welcher Boxplot gehört zu Diagramm (1)?  Begründe mithilfe der Kennwerte.
+
+Der andere Boxplot gehört zu Diagramm (2). Hier fehlen Säulen von 8 bis 16 Stunden Lesezeit.
+
+- Ergänze mögliche Säulen im Diagramm (2) für die Werte von 8 bis 16 Stunden Lesezeit mithilfe des zugehörigen Boxplots.
+
+Finn behauptet: „Über die Hälfte der Männer liest 7 Stunden oder mehr pro Woche."
+
+- Hat Finn recht? Begründe.
+(3,5 Pkt.)
+Lösung:
+Der Boxplot der Männer gehört zu Diagramm 1.
+Die beiden Boxplots unterscheiden sich nur im oberen Quartil. Deswegen genügt es, sich
+nur diesen Kennwert anzuschauen.
+Oberes Quartil der zu Diagramm 1 gehörenden Rangliste:
+q_0=n·0,75
+n=25
+q_0=25·0,75=18,75
+Das obere Quartil also durch den 19. Wert gegeben. Lies den 19. Wert aus dem Diagramm ab.
+q_0=x_{19}=8 Stunden
+Den Boxplots kann entnommen werden, dass dies dem oberen Quartil des Boxplots der Männer entspricht.
+- Ergänzung möglicher Säulen im Diagramm 2 für die Werte von 8 bis 16 Stunden Lesezeit mithilfe des zugehörigen Boxplots.
+Oberes Quartil:
+Dem Boxplot der Frauen kann entnommen werden, dass das obere Quartil q_0=9 Stunden beträgt. Der 19. Wert wird also bei 9 Stunden eingetragen.
+Maximum:
+Aus dem Boxplot der Frauen kann abgelesen werden, dass der 25. Wert bei 16
+Stunden eingetragen wird.
+Eine mögliche Lösung sieht also wie folgt aus.
+[Abbildung]
+- Die Hälfte aller Männer ist durch 25:2=12,5. Dem Diagramm kann entnommen werden, dass 13 Männer sieben oder mehr Stunden die Woche lesen. 13>12,5. Finn hat also recht.
+
+
+==============================================================================
+Wahlteil B 2021  (Serlo-ID 320143)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 323849 – https://de.serlo.org/mathe/323849/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Gegeben sind das rechtwinklige Dreieck ABC und das gleichschenklige Dreieck ADE.
+
+[Abbildung]
+Es gilt:
+
+‾{AB}=13,2cm
+
+α=55,0°
+
+‾{CE}=8,0cm
+
+mathrm{‾{AE}=‾{DE}}
+
+- Berechne die Länge von ‾{DF}.
+- Berechne den Umfang des VierecksABFE.
+Die Länge von ‾{DF} beträgt: [Lücke: 7,01] cm.
+
+Der Umfang des VierecksABFE beträgt: [Lücke: 41,94] cm.
+Lösung:
+- Berechne die Länge der Strecke ‾{DF}.
+1. Schritt: 
+Berechne die Länge der Strecke ‾{AE}. 
+Berechne zunächst die Länge der Strecke ‾{AC}. 
+Verwende hierfür die Formel für den Kosinus.  cos (α )=(Ankathete)/(Hypotenuse)
+
+cos (α )=frac{‾{AB}}{‾{AC}}
+cos(α)·‾{AC}=‾{AB}
+‾{AC}=frac{‾{AB}}{cos(α)}
+‾{AC}=(13,2 cm)/(cos(55°))
+‾{AC}=23,01cm
+Die Länge der Strecke ‾{AC} beträgt 23,01cm.
+
+‾ {AE}=‾{AC}-‾{CE}
+‾{AE}=23,01cm-8,0cm=15,01cm
+Die Länge der Strecke ‾{AE} beträgt 15,01cm.
+
+2. Schritt: Berechne nun die Länge der Strecke ‾{DF}.
+Das Dreieck ECF ist gleichschenklig, denn
+sphericalangleECF=180°-90°-55°=35°
+sphericalangleAED=180°-55°-55°=70°
+sphericalangleFEC=180°-70°=110°
+sphericalangleCFE=180°-110°-35°=35° 
+
+sphericalangleECF=sphericalangleCFE und somit ist das Dreieck ECF gleichschenklig.
+⇒  ‾ {CF}=‾{CE}=8cm
+Laut Angabe ist das Dreieck ADE gleichschenklig. 
+⇒  ‾{DE}=‾{AE}=15,01cm
+‾{DF}=‾{DE}-‾{EF}
+      = 15,01cm-8,0cm
+      =7,01cm
+Die Länge der Strecke ‾{DF} beträgt 7,01cm.
+
+- Berechne den Umfang des VierecksABFE.
+1. Schritt: 
+Berechne die Länge der Strecke ‾{BF}. 
+Verwende hierfür die Formel für den Sinus.  sin (α )=(Gegenkathete)/(Hypotenuse)
+sin(α)=frac{‾{BF}}{‾{DF}}
+sin(α)· ‾{DF}=‾{BF}
+sin(55°)· 7cm=‾{BF}
+5,73cm≈‾{BF}
+Die Länge der Strecke ‾{BF} beträgt ungefähr 5,73cm.
+
+2. Schritt:
+Berechne nun den Umfang des VierecksABFE.
+U=‾{AB}+‾{BF}+‾{EF}+‾{AE}
+    =13,2cm+5,73cm+8,0cm+15,01cm
+    =41,94cm
+Der  Umfang des VierecksABFE beträgt 41,94cm.
+
+--- Teilaufgabe b) ---
+Die Punkte A(1 |-8) und B(3 |-8) liegen auf einer nach oben geöffneten verschobenen Normalparabel p.
+
+- Gib die Funktionsgleichung der Parabel p in der Normalform y=x^{2}+bx+c an.
+Die Schnittpunkte der Parabel p mit der x-Achse und die Punkte A und B bilden  ein  Viereck.
+- Berechne den Flächeninhalt dieses Vierecks.
+Die Geraden g und h verlaufen jeweils auf den Diagonalen des Vierecks.
+Sie schneiden sich im Punkt Q.
+- Berechne die Koordinaten des Schnittpunktes Q.
+Lösung:
+- Erstelle die Funktionsgleichung der Parabel p.
+p:y=x^2+bx+c
+Setze jeweils A und B in p ein.
+(I)   -8=1^2+b· 1+c
+(II)  -8=3^3+b· 3+c
+
+(I)  -8=1+b+c
+(II) -8=9+3b+c
+(I)  c=-9-b
+Setzte c in (II) ein
+(II)  -8=9+3b+(-9-b)
+(II)  -8=9+3b-9-b
+(II)  -8=2b
+(II)  b=-4
+
+Setze b in (I) ein.
+(I)  -8=1+(-4)+c
+(I)  -8=1-4+c
+(I)  c=-5
+Die Funktionsgleichung der Parabel lautet: p: y=x^2-4x-5.
+- Die Schnittpunkte der Parabel p mit der x-Achse und die Punkte A und B bilden  ein  Viereck. Berechne den Flächeninhalt dieses Vierecks.
+[Abbildung]
+Hierfür benötigst du zunächst die Koordinaten der Schnittpunkte S_1 und S_2 der Parabel p mit der x-Achse.
+Für die Berechnung verwende die pq-Formel.
+
+x^2-4x-5=0
+x_{1,2}=-((-4))/(2)±√{(((-4))/(2))^2+5}
+x_{1,2}=2±√{(-2)^2+5}
+x_{1,2}=2±3
+x_1=2-3=-1
+x_2=2+3=5
+Die beiden Schnittpunkte sind S_1(-1|0) und S_2(5|0).
+
+Bei dem Viereck handelt es sich um ein symmetrisches Trapez.
+A=((a+c))/(2)· h
+A=(6 LE+2 LE)/(2)·8 LE
+A=32 FE
+
+Das Viereck hat einen Flächeninhalt von 32 FE.
+- Die Geraden g und h verlaufen jeweils auf den Diagonalen des Vierecks.
+Sie schneiden sich im Punkt Q.
+[Abbildung]
+Berechne die Koordinaten des Schnittpunktes Q.
+
+1. Schritt:
+Stelle die Gleichung für die Gerade g auf.
+g: y=m_gx+c_g
+Setze jeweils die Punkte A(1|-8) und S_2(5|0) in g ein.
+(I)  -8=m_g· 1+c_g
+(II) 0=m_g·5+c_g
+Subtrahiere (I) - (II):
+-8=-4m_g
+m_g=2
+Setze m_g in (I) ein:
+-8=2+c_g
+c_g=-10
+
+⇒  Die Geradengleichung für g lautet:   g: y=2x-10
+
+2. Schritt:
+Stelle die Gleichung für die Gerade h auf.
+Die Steigung von h ist durch die Symmetrie gegeben⇒  m_h=-2
+h:y=-2x+c_h
+Setze S_1(1|0) in h ein:
+0=-2·(-1)+c_h
+c_h=-2
+⇒  Die Geradengleichung für h lautet:  h:y=-2x-2
+
+3. Schritt:
+Ermittle den Schnittpunkt: Setze g=h
+
+  2x-10 = -2x-2   | +10
+  2x = -2x+8   | +2x
+  4x = 8   | :4
+  x = 2
+Setze x=2 in g ein:
+y=2·2-10
+y=-6
+
+Die Koordinaten des Schnittpunktes lauten Q(2|-6).
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322907 – https://de.serlo.org/mathe/322907/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Gegeben sind das rechtwinklige Dreieck ABC und das gleichschenklige Dreieck ADE.
+
+Es gilt:
+‾{AB}=13,2cm
+α=55,0°
+‾{CE}=8,0cm
+mathrm{‾{AE}=‾{DE}}
+
+- Berechne die Länge von ‾{DF}.
+- Berechne den Umfang des VierecksABFE.
+[Abbildung]
+(5 Pkt.)
+b) Die Punkte A(1 |-8) und B(3 |-8) liegen auf einer nach oben geöffneten verschobenen    Normalparabel p.
+
+- Gib die Funktionsgleichung der Parabel p in der Normalform y=x^{2}+bx+c an.
+Die Schnittpunkte der Parabel p mit der x-Achse und die Punkte A und B bilden ein  
+ Viereck.
+
+- Berechne den Flächeninhalt dieses Vierecks.
+
+Die Geraden g und h verlaufen jeweils auf den Diagonalen des Vierecks.
+Sie schneiden sich im Punkt Q.
+- Berechne die Koordinaten des Schnittpunktes Q.
+(5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322928 – https://de.serlo.org/mathe/322928/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Der Punkt A(-4 |-1) liegt auf der Parabel p_{1} mit der Funktionsgleichung y=x^{2}+b x+7. Die Gerade g schneidet die Parabel p_{1} im Punkt A und im Scheitelpunkt S_{1}.
+- Berechne die Funktionsgleichungen der Parabel p_{1} und der Geraden g.
+Durch Spiegelung des Scheitelpunkts S_{1} an der y-Achse entsteht der Punkt S_{2}.S_{2}ist der Scheitelpunkt einer nach oben geöffneten verschobenen Normalparabel p_{2}.
+- Gib die Funktionsgleichung von p_{2} in der Form y=x^{2}+bx+c an.
+Der Schnittpunkt der Geraden g mit der y-Achse ist der Scheitelpunkt S_{3} der Parabel p_{3}. 
+Die Parabel p_{3} der Form y=a x^{2}+c geht außerdem durch die Scheitelpunkte S_{1} und S_{2}
+- Berechne die Funktionsgleichung der Parabel p_{3}.
+(5 Pkt.)
+
+b) In einer quadratischen Pyramide liegt das gleichschenklige Dreieck EFS.
+
+Es gilt:
+
+mathrm{‾{A B}=‾{E F}=12,6cm}
+α=72,0°
+mathrm{‾{EF} \| ‾{AC}}
+
+- Berechne den Flächeninhalt des Dreiecks EFS.
+- Berechne das Volumen der quadratischen Pyramide.
+[Abbildung]
+(5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo ExerciseGroup 323851 – https://de.serlo.org/mathe/323851/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Der Punkt A(-4 |-1) liegt auf der Parabel p_{1} mit der Funktionsgleichung y=x^{2}+b x+7. Die Gerade g schneidet die Parabel p_{1} im Punkt A und im Scheitelpunkt S_{1}.
+- Berechne die Funktionsgleichungen der Parabel p_{1} und der Geraden g.
+Durch Spiegelung des Scheitelpunkts S_{1} an der y-Achse entsteht der Punkt S_{2}.S_{2}ist der Scheitelpunkt einer nach oben geöffneten verschobenen Normalparabel p_{2}.
+- Gib die Funktionsgleichung von p_{2} in der Form y=x^{2}+bx+c an.
+Der Schnittpunkt der Geraden g mit der y-Achse ist der Scheitelpunkt S_{3} der Parabel p_{3}. Die Parabel p_{3} der Form y=a x^{2}+c geht außerdem durch die Scheitelpunkte S_{1} und S_{2}.
+- Berechne die Funktionsgleichung der Parabel p_{3}.
+(5 P)
+Lösung:
+Um die vollständige Funktionsgleichung p_1 aufzustellen, setze A(-4|-1) in p_1 ein.
+
+- Berechne die Funktionsgleichungen der Parabel p_{1} und der Geraden g.
+  y= = x^2+bx+7
+  -1 = (-4)^2+b·(-4)+7
+  -1 = 16-4· b+7
+  -1 = 23-4· b   | -23
+  -24 = -4· b   | :(-4)
+  b = 6
+=>      p_1:  y=x^2+6x+7
+
+Die Gerade g schneidet p_1 im Scheitelpunkt. Erstelle p_1 in der Scheitelform mit Hilfe der quadratischen Ergänzung.
+  y = x^2+6x+7
+  y = x^2+2·3· x+7
+  y = x^2+2·3· x+3^2-3^2+7
+  y = (x+3)^2-9+7
+  y = (x+3)^2-2
+=>  Der Scheitelpunkt S_1 hat die Koordinaten S_1(-3|-2).
+
+Eine Geradengleichung hat die allgemeine Form y=mx+c.
+Setze A(-4|-1) und S_1(-3|-2)| in die Geradengleichung ein.
+
+(I)  -1=m·(-4)+c
+(II) -2=m·(-3)+c
+
+Subtrahiere (I)-(II)
+         1=-m
+        m=-1
+
+Setze m=-1 in (I) ein.
+-1=(-1)(-4)+c
+-1=4+c
+c=-5
+
+=>   g: y=-x-5
+- Gib die Funktionsgleichung von p_{2} in der Form y=x^{2}+bx+c an.
+Durch Spiegelung von S_1 an der y-Achse ergibt sich für S_2:   S_2(3|-2)
+Stelle nun p_2 zunächst mit Hilfe der Scheitelform auf.
+y=(x-3)^2-2
+y=x^2-6x+9-2
+y=x^2-6x+7
+
+=>   p_2:y=x^2-6x+7
+- Berechnung der Funktionsgleichung p_3.
+Hierfür musst du zunächst den Schnittpunkt der Geraden g mit der y-Achse berechnen.
+g:   y=-x-5    (setze x=0)
+       y=-5
+
+=>   S_3(0|-5) und c=-5
+
+p_3:y=ax^2+c
+Setze  S_2(3|-2) in p_3 ein.
+-2=a· (3)^2-5
+3=a·9
+a=(1)/(3)
+
+=>   p_3:  y=(1)/(3)x^2-5
+
+--- Teilaufgabe b) ---
+In einer quadratischen Pyramide liegt das gleichschenklige Dreieck EFS.
+
+[Abbildung]
+Es gilt:
+
+mathrm{‾{A B}=‾{E F}=12,6cm}
+α=72,0°
+mathrm{‾{EF} \| ‾{AC}}
+
+- Berechne den Flächeninhalt des Dreiecks EFS.
+- Berechne das Volumen der quadratischen Pyramide.
+(5 P)
+Den Flächeninhalt des Dreiecks EFS beträgt: [Lücke: 122,16] cm^2.
+
+Das Volumen der quadratischen Pyramide beträgt: [Lücke: 1016,59] cm^3.
+Lösung:
+[Abbildung]
+- Flächeninhalt des Dreiecks EFS:   A=(1)/(2)·‾{EF}· h_G
+Berechne die Länge der Strecke ‾{EG}.
+‾{EG}= (1)/(2)· ‾{EF}
+      = (1)/(2)· 12,6cm
+       = 6,3cm
+
+Berechne die Länge der Höhe h_g.
+
+Betrachte das Dreieck EGS und verwende die Formel für den Tangens.
+tan(α)=(Gegenkathete)/(Ankathete)
+tan(α)=frac{h_G}{‾{EG}}
+tan(72°)=(h_G)/(6,3cm)
+tan(72°)· 6,3cm=h_G
+h_G=19,39cm
+
+Berechne den Flächeninhalt des Dreiecks EFS.
+A=(1)/(2)· 12,6cm·19,39cm
+    =122,16cm^2
+
+- Berechne das Volumen der quadratischen Pyramide.
+
+V=(1)/(3)· ‾{AB}^2· h
+
+1.) Berechne die Länge der Strecke ‾{AC}. Verwende hierfür den Satz des Pythagoras.
+‾{AC}^2=‾{AB}^2+‾{BC}^2
+‾{AC}=√{‾{AB}^2+‾{BC}^2}
+‾{AC}=√{(12,6cm)^2+(12,6cm)^2}
+‾{AC}=17,82cm
+
+Berechne die Länge der Strecke ‾{MB}.
+‾{MB}=‾{AM}=(1)/(2)·‾ {AC}
+‾{MB}=(1)/(2)· 17,82cm
+‾{BM}=8,91cm
+
+2.) Berechne die Länge der Strecke ‾{GB}. Verwende hierfür den 2. Strahlensatz.
+ frac{‾{AC}}{‾{EF}}=frac{‾{MB}}{‾{GB}}
+frac{‾{EF}}{‾{AC}}=frac{‾{GB}}{‾{MB}}
+frac{‾{EF}}{‾{AC}}· ‾{MB}=‾{GB}
+(12,6cm)/(17,82cm)· 8,91cm=‾{GB}
+‾{GB}=6,3cm
+
+3.) Berechne die Länge der Strecke ‾{MG}.
+‾{MG}=‾{MB}-‾{GB}
+       =8,91cm-6,3cm
+       =2,61cm
+‾{MG}=2,61cm
+
+4.) Berechne die Länge der Höhe h. Verwende hierfür wieder den Satz des Pythagoras.
+h^2+‾{MG}^2=h_G^2
+h=√{h_g^2-‾{MG}^2}
+h=√{(19,39cm)^2-(2,61cm)^2}
+h=19,21cm
+
+5.) Berechne das Volumen der Pyramide.
+V=(1)/(3)· ‾{AB}^2· h
+V=(1)/(3)· (12,6cm)^2· 19,21cm
+V=1016,59cm^3
+
+Das Volumen der Pyramide beträgt 1016,59cm^3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322931 – https://de.serlo.org/mathe/322931/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Zehn gleich große Karten sind mit vier verschiedenen Symbolen (Handball, Radfahren,          
+      Laufen, Fußball) bedruckt.
+      Sie sind nach den vier Symbolen in Stapeln sortiert (siehe Abbildung).
+      Die Karten werden gemischt und verdeckt auf den Tisch gelegt.
+      Sie werden für ein Glücksspiel eingesetzt.
+      Dabei werden zwei Karten gleichzeitig gezogen.
+      Für das Spiel wird der abgebildete Gewinnplan geprüft.
+- Berechne den Erwartungswert.
+Der Veranstalter möchte langfristig pro Spiel einen Erlös von 0,50 € erzielen.
+- Wie hoch muss dann der Gewinn für Laufen und Fussball sein, wenn alles andere unverändert bleibt?
+[Abbildung]
+(5 Pkt.)
+
+b) Die Flugbahn eines Speers ist nahezu parabelförmig.
+    Der Abwurfpunkt A liegt 1,80m über der Abwurflinie.
+    Der Speer erreicht nach 20m, in horizontaler Richtung von der Abwurflinie gemessen,
+     seine maximale Höhe von 9,80m.       
+[Abbildung: (Skizze nicht maßstabsgetreu)]
+- Berechne eine mögliche Funktionsgleichung der Flugkurve des Speers.
+- Wie weit fliegt der Speer?
+Ein zweiter Wurfversuch kann mit der Funktionsgleichung mathrm{y=-(1)/(30) x^{2}+13} beschrieben werden. Die Wurfweite beträgt 38,15m.
+- Gib die Höhe dieses Abwurfpunktes an.
+(5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo ExerciseGroup 323868 – https://de.serlo.org/mathe/323868/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Zehn gleich große Karten sind mit vier verschiedenen Symbolen (Handball, Radfahren, Laufen, Fußball) bedruckt.
+Sie sind nach den vier Symbolen in Stapeln sortiert (siehe Abbildung).
+[Abbildung]
+Die Karten werden gemischt und verdeckt auf den Tisch gelegt. Sie werden für ein Glücksspiel eingesetzt. Dabei werden zwei Karten gleichzeitig gezogen. Für das Spiel wird der abgebildete Gewinnplan geprüft.
+[Abbildung]
+- Berechne den Erwartungswert.
+Der Veranstalter möchte langfristig pro Spiel einen Erlös von 0,50 € erzielen.
+
+- Wie hoch muss dann der Gewinn für Laufen und Fussball sein, wenn alles andere unverändert bleibt?
+(5 P)
+Der Erwartungswert beträgt: [Lücke: -0,33] €.
+
+Der Gewinn für "Laufen und Fußball" muss [Lücke: 2,25]€ betragen.
+Lösung:
+P(zweimal Laufen)=(2)/(10)·(1)/(9)=(1)/(45)
+P(Laufen und Fußball)=(2)/(10)·(1)/(9)+(1)/(10)·(2)/(9)=(2)/(45)
+P(Radfahren und Fußball)=(3)/(10)·(1)/(9)+(1)/(10)·(3)/(9)=(1)/(15)
+
+- Berechne den Erwartungswert.
+E=(1)/(45)· 9€+(2)/(45)· 6 €+(1)/(15)· 3€ -1 €=-0,33 €
+Der Erwartungswert beträgt -0,33 €.
+
+- Wie hoch muss der Gewinn für "Laufen und Fußball" sein, wenn der Veranstalter  langfristig pro Spiel einen Erlös von 0,50 € erzielen möchte und  alles andere unverändert bleibt?
+
+  -0,50€ = (1)/(45)·9€+(2)/(45)· x+(1)/(15)·3€-1€
+  -0,50€ = 0,20€+(2)/(45)· x+0,20€-1€
+  -0,50€ = -0,60€+(2)/(45)· x   | +0,60€
+  0,10€ = (2)/(45)· x   | :(2)/(45)
+  x = 2,25€
+Der Gewinn für "Laufen und Fußball" muss 2,25 € sein, wenn der Veranstalter  langfristig pro Spiel einen Erlös von 0,50 € erzielen möchte und alles andere unverändert bleibt.
+
+--- Teilaufgabe b) ---
+Die Flugbahn eines Speers ist nahezu parabelförmig. 
+Der Abwurfpunkt A liegt 1,80 m über der Abwurflinie.
+Der Speer erreicht nach 20 m, in horizontaler Richtung von der Abwurflinie gemessen, seine maximale Höhe von 9,80 m.
+
+[Abbildung]
+- Berechne eine mögliche Funktionsgleichung der Flugkurve des Speers.
+- Wie weit fliegt der Speer?
+Ein zweiter Wurfversuch kann mit der Funktionsgleichung y=-(1)/(30)x^2+13 beschrieben werden. Die Wurfweite beträgt 38,15 m.
+- Gib die Höhe dieses Abwurfpunktes an.
+(5 P)
+Lösung:
+- Berechne eine mögliche Funktionsgleichung der Flugkurve des Speers. Allgemeine Parabelform: y=ax^2+c
+Abflughöhe 9,8m:  =>   c=9,8
+y=ax^2+9,8
+Die Koordinaten des Abwurfpunktes sind  A(-20|1,8).
+Setze A(-20|1,8) in die Parabel ein.
+
+  1,8 = a·(-20)^2+9,8   | -9,8
+  -8 = a·400   | :400
+  -0,02 = a
+Eine mögliche Funktionsgleichung lautet: y=-0,02x^2+9,8
+- Wie weit fliegt der Speer?
+Beim Auftreffen des Speers auf dem Boden ist die y-Koordinates des Auftreffpunktes 0. Berechne also die Nullstellen der Parabel.
+  -0,02x^2+9,8 = 0   | -9,8
+  -0,02x^2 = -9,8   | : (-0,02)
+  x^2 = 490
+  x_1 = -22,14
+  x_2 = 22,14
+Der Speer trifft also beim Punkt N(22,14|0) auf dem Boden auf.
+Die Wurfweite w ergibt sich aus der Differenz der x-Koordinaten des Abwurfpunktes A und Auftreffpunktes N.
+w=x_N-x_A
+w=22,14-(-20)
+w=42,14
+
+Die Wurfweite beträgt 42,14m.
+- Ein zweiter Wurfversuch kann mit der Funktionsgleichung y=-(1)/(30)x^2+13 beschrieben werden. Die Wurfweite beträgt 38,15 m.
+Gib die Höhe dieses Abwurfpunktes an.
+
+Berechne die x-Koordinate des Aufprallpunktes:
+Die y-Koordinate des Auftreffpunktes ist 0. 
+
+  -(1)/(30)· x^2+13 = 0   | -13
+  -(1)/(30)· x^2 = -13   | :(-(1)/(30))
+  x^2 = 390
+  x_1 = -19,75
+  x_2 = 19,75
+Berechne die x- Koordinate des Abwurfpunktes.
+x_{A2}=x_2-Wurfweite
+x_{A2}=19,75-38,15
+x_{A2}=-18,4
+
+Berechne die y-Koordinate des Abwurfpunktes.
+Setze x_{A2} in die Funktionsgleichung ein.
+y=-(1)/(30)· (-18,4)^2+13
+ y=1,71
+
+Der Abwurfpunkt befindet sich auf einer Höhe von 1,71m.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323009 – https://de.serlo.org/mathe/323009/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Die Gerade g und die verschobene Normalparabel p gehen durch die beiden Punkte \ A(2 | 3)und B(6 | 11). Der Punkt C(4 | y_{c}) liegt auf der Parabel p.
+Die Gerade h steht senkrecht auf g und geht durch C.
+Die Gerade h schneidet die beiden Koordinatenachsen in den Punkten P und Q.
+
+Berechne die Koordinaten von P und Q.
+(5 Pkt.)
+
+b) Ein DIN-A4-Blatt hat die Eckpunkte A, B, C und D.
+Die Punkte M_{1} und M_{2} halbieren die Seitenlängen des DIN-A4-Blatts.
+Das DIN-A4-Blatt wird wie abgebildet gefaltet. Der Punkt A wird zu A^{prime} und liegt nach dem Falten auf M_{1}.
+Der Punkt C wird zum Punkt C^{prime}. Die beiden Papierkanten stoßen entlang von mathrm{‾{M_{1} F}} aneinander.
+Berechne die Flächeninhalte des Dreiecks E M_{1} D und des Vierecks mathrm{FBM_{2}C^{prime}}.
+
+[Abbildung]
+(5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 323870 – https://de.serlo.org/mathe/323870/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Die Gerade g und die verschobene Normalparabel p gehen durch die beiden Punkte A(2|3) und B(6|11).
+Der Punkt C(4|y_c) liegt auf der Parabel p.
+Die Gerade h steht senkrecht auf g und geht durch C.
+Die Gerade h schneidet die beiden Koordinatenachsen in den Punkten P und Q.
+Berechne die Koordinaten von P und Q.
+(5 P)
+Lösung:
+Lösungsidee: - Aufstellen der Funktionsgleichung der Parabel p.
+- Aufstellen der Funktionsgleichung der Geraden g.
+- Aufstellen der Funktionsgleichung der Geraden h.
+- Berechnen der Koordinaten P und Q.
+Berechnen der Koordinaten von P und Q.
+textbf{1.)} Aufstellen der Funktionsgleichung der Parabel p.
+
+Die allgemeine Form einer quadratischen Funktion lautet:
+
+mathrm{f( x)={ax}^2+{bx}+ c}
+
+Durch Einsetzen der Koordinaten des Punktes A und des Punktes B, in die allgemeine Form, erhalten wir folgendes Gleichungssystem:
+
+I (A):4+2b+c= 3 
+II (B):36+6b+c=11
+
+Der  Öffnungsfaktor a=1, da es sich bei der Parabel p um eine Normalparabel handelt.
+
+Auflösen beider Gleichungen nach c und gleichsetzen.
+
+I`:c=3-4-2b
+II`:c=11-36-6b
+Gleichsetzen von I' und II'
+  3-4-2b = 11-36-6b   | +6b
+  -1+4b = -25   | +1
+  4b = -24   | :4
+  b = -6
+Berechnen von c:
+
+Einsetzen von -6 in I' 
+
+c=3-4-2·(-6)
+
+c=-1+12 ⇒ c=11
+
+Die Funktionsgleichung der Parabel p lautet dann:
+
+boxed{p:y=x^2 -6x+11}
+textbf{2.)} Aufstellen der Funktionsgleichung der Geraden g.
+Die allgemeine Geradengleichung lautet:
+
+f(x) = m · x + b
+
+Durch Einsetzen der Koordinaten des Punktes A und des Punktes B in die allgemeine Geradengleichung, erhalten wir folgendes Gleichungssystem:
+
+I (A):2m+b= 3
+I (B):6m+b=11
+
+Auflösen beider Gleichungen nach b und gleichsetzen
+
+I`:b= 3-2m
+II`:b=11-6m
+Gleichsetzen von I' und II'
+  3-2m = 11-6m   | +6m
+  3+4m = 11   | -3
+  4m = 8   | :4
+  m = 2
+Hinweis:
+
+Alternativ kann die Steigung m auch mit der Formel
+
+ mathrm{m=(Delta y)/(Delta x)=(y_2-y_1)/(x_2-x_1)} berechnet werden. 
+
+mathrm{m_g=(11-3)/(6-2)}
+
+mathrm{m_g=(8)/(4) ⇒ m_g=2}
+Berechnen von b:
+
+Einsetzen von 2 in I' 
+
+b=3-4 ⇒ b=-1
+
+Die Funktionsgleichung der Geraden g lautet dann:
+
+boxed{g:y=2x-1}
+textbf{3.)} Aufstellen der Funktionsgleichung der Geraden h.
+Damit die Funktionsgleichung der Geraden h aufgestellt werden kann, muss zuerst die y-Koordinate des Punktes textbf{C} berechnet werden.
+
+Berechnen der y-Koordinate des Punktes textbf{C}.
+
+Einsetzen der x-Koordinate des Punktes textbf{C} in die Funktionsgleichung
+ der Parabel p. 
+
+y=4^2-6·4+11
+
+y=16-24+11
+
+y=3hspace{30mm} C(4|3)
+
+Ermitteln der Steigung m der Funktionsgleichung der Geraden h.
+
+Da die Gerade h senkrecht auf der Geraden g steht, gilt für die Steigungen:
+
+m_g· m_h=-1
+
+mathrm{2· m_h=-1 ⇒ m_h=-(1)/(2)}
+
+Einsetzen der Steigung m_h und der Koordinaten des Punktes textbf{C} in die allgemeine Geradengleichung:
+
+  3 = mathrm{-(1)/(2)·4+b}
+  3 = -2+b   | +2
+  b = 5
+Die Funktionsgleichung der Geraden h lautet dann:
+
+boxed{mathrm{h:y=-(1)/(2)x+5}}
+Berechnen der Koordinaten von P:
+  mathrm{-(1)/(2)x+5} = 0   | ·(-2)
+  x-10 = 0   | +10
+  x = 10
+Die Koordinaten von P sind: 
+boxed{P(10|0)} 
+  
+
+Berechnen der Koordinaten von textbf{Q}:
+
+Einsetzen von x=0 in die Funktionsgleichung der Geraden h:
+
+0+5=y ⇒ y=5
+
+Die Koordinaten von Q sind: 
+boxed{Q(0|5)}
+
+--- Teilaufgabe b) ---
+Ein DIN-A4-Blatt hat die Eckpunkte A,B,C und D.
+Die Punkte M_1 und M_2 halbieren die Seitenlängen des DIN-A4-Blatts.
+
+[Abbildung: Bild 1]
+Das DIN-A4-Blatt wird wie abgebildet gefaltet.
+[Abbildung: Bild 2]
+Der Punkt A wird zu A' und liegt nach dem Falten auf M_1.
+Der Punkt C wird zum Punkt C'. Die beiden Papierkanten stoßen entlang von ‾{M_1F} aneinander.
+
+Berechne die Flächeninhalte des Dreiecks EM_1D und des Vierecks FBM_2C'.
+(5 P)
+Der Flächeninhalte des Dreiecks EM_1D beträgt: [Lücke: 38,98] cm^2.
+
+Der Flächeninhalte des Vierecks FBM_2C' beträgt: [Lücke: 77,96] cm^2.
+Lösung:
+Berechne die Flächeninhalte des Dreiecks Large{EM_1D} und des Vierecks Large{FBM_2C'}.
+[Abbildung: Bild 3]
+Berechnen des Flächeninhaltes des Dreiecks large{EM_1D}.
+Bestimmen des Winkels α_1 mithilfe des Tangens.
+ 
+Das Dreieck M_1C`M_2 ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt:
+
+mathrm{tan{(α)}=(Gegenkathete)/(Ankathete)}
+
+Angewandt auf das Dreieck M_1C`M_2:
+mathrm{tan{(α_1)}=(10,5)/(14,85)}
+
+tan(α_1)=0,7071
+
+α_1=35,26°
+
+Bestimmen des Winkels γ.
+
+γ=180°-90°-α_1-α_2
+
+α_1=α_2wegen Kongruenz der Dreiecke M_1C`M_2 und M_2CM_1.
+
+γ=180°-90°-35,26°-35,26°
+
+γ=19,48°
+
+Bestimmen der Seite ‾{DE}:
+
+mathrm{tan{(γ)}=dfrac{‾{DE}}{14,85} ⇒ ‾{DE}=tan(19,48°)·14,85}
+
+ ‾{DE}=0,3537·14,85
+
+‾{DE}=5,25cm
+
+Berechnen des Flächeninhalts des Dreiecks EM_1D.
+
+mathrm{A_{EM_1D}=dfrac{‾{DM_1}·‾{DE}}{2}}
+
+mathrm{A_{EM_1D}=(14,85·5,25)/(2)}
+
+A_{EM_1D}=38,98cm^2
+
+Der Flächeninhalt des Dreiecks EM_1D beträgt: boxed{38,98cm^2}.
+[]
+[Abbildung]
+Satz des Pythagoras angewandt auf das Dreieck EM_1D:
+
+ (21-y)^2=y^2+14,85^2
+auflösen der Klammer
+  441-42y+y^2 = y^2+220,5225   | -y^2
+  441-42y = 220,5225   | -441
+  -42y = -220,4775   | :(-42)
+  y = 5,25
+Der Flächeninhalt des Dreiecks EM_1D beträgt: boxed{38,98cm^2}.
+Berechnen des Flächeninhaltes des Vierecks large{FBM_2C'}.
+[Abbildung: Bild 4]
+Das grüne Viereck FBM_2C' kann in die rechtwinkligen Dreiecke FM_2C` und FBM_2zerlegt werden, diese beiden Dreiecke sind kongruent, siehe Bild 4.
+ 
+Berechnen des Flächeninhaltes des Dreiecks FM_2C` .
+
+mathrm{A_{FM_2C`}=(x·10,5)/(2)}
+
+Berechnen von x mithilfe des Satzes des Pythagoras.
+
+Die Dreiecke AFE und EFA` sind kongruent.
+
+Satz des Pythagoras angewandt auf das Dreieck AFE:
+
+(‾{EF})^2=15,75^2+(29,7-x)^2
+
+Satz des Pythagoras angewandt auf das Dreieck EFA`:
+
+(‾{EF})^2=15,75^2+(14,85+x)^2
+
+gleichsetzen
+  15,75^2+(29,7-x)^2 = 15,75^2+(14,85+x)^2   | -15,75^2
+  (29,7-x)^2 = (14,85+x)^2
+  882,09-59,4x+x^2 = 220,5225+29,7x+x^2   | -x^2
+  882,09-59,4x = 220,5225+29,7x   | -29,7x-882,09
+  -89,1x = -661,5675   | :(-89,1)
+  x = 7,425
+mathrm{A_{FM_2C`}=A_{FBM_2}=(7,425·10,5)/(2) ⇒ A_{FM_2C`}=A_{FBM_2}=38,98 cm^2}
+
+Der Flächeninhalt des Vierecks FBM_2C' ist dann:
+
+mathrm{A_{FBM_2C'}=A_{FM_2C`}+A_{FBM_2} ⇒ A_{FBM_2C'}=38,98+38,98}
+
+boxed{A_{FBM_2C'}=77,96cm^2}

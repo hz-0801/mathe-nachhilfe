@@ -1,0 +1,362 @@
+Quelle: Niedersachsen, Zentrale Abschlussarbeit Mathematik 2022, Hauptschule, Schuljahrgang 10, G-Kurs, Haupttermin – Erwartungshorizont (Lösungen und Punkte).
+Adresse: https://aba-aufgaben.nibis.de/ (Niedersächsisches Kultusministerium, Download-Formular „Aufgaben der schriftlichen Abschlussarbeiten“, Paket Mathematik 2022, Datei 2022Mathe/2022ABA_MA/2022ABAMatheHS10/2022MatheHS10Lehrer/2022MatheHS10GL.pdf im Archiv 2022Mathe.zip).
+Abruf: 2026-09-28 (ein Abruf des Pakets Mathematik 2022–2026 über download.php nach Bestätigung der Nutzungsbedingungen; keine Anmeldung).
+Seitenzahl: 8.
+Lizenzvermerk: „Es wird darauf hingewiesen, dass die hier bereitgestellten Werke des Niedersächsischen Kultusministeriums zur freien Verwendung unentgeltlich zur Verfügung gestellt werden. Aufgabenstellungen und Lösungsvorgaben dürfen nur veröffentlicht werden, wenn die zur Verfügung gestellten Fassungen inhaltlich nicht verändert werden und bei der Veröffentlichung eine Quellenangabe erfolgt.“ (Nutzungsbedingungen aba-aufgaben.nibis.de; in den PDF selbst kein Lizenzvermerk, Fußzeile „Niedersächsisches Kultusministerium“, Abbildungen „Quelle: MK Niedersachsen“)
+
+ Abschlussarbeit 2022                                              Mathematik                                  Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                                                                              Haupttermin
+
+
+Ablauf der Prüfung
+
+                                150 Minuten Bearbeitungszeit + 15 Minuten Auswahlzeit
+
+                                Zusammensetzung     Hauptteil 1 (ohne Hilfsmittel), Hauptteil 2 und Wahlteil
+
+                                Material/Medien     Arbeitsmittel:
+                                                    - karierte Doppelbögen mit Rand sind zur Verfügung zu stellen
+                                                    - Geodreieck, Parabelschablone, Zirkel, Bleistift
+
+                                                    Hilfsmittel:
+    Mathematik Hauptschule 10
+
+
+
+
+                                                    - Taschenrechner (nicht grafikfähig und nicht programmierbar)
+                                                    - Formelsammlung (vorgegeben unter www.gosin.de)
+                                Prüfungsverlauf     Die Prüfungszeit beginnt mit dem Verteilen des Hauptteils 1 (ohne
+                                                    Hilfsmittel), der von allen Schülerinnen und Schülern hilfsmittelfrei zu
+                                                    bearbeiten ist.
+                                                     Die Abgabe erfolgt spätestens nach 50 Minuten (Verkürzung der
+                                                      max. vorgesehenen Bearbeitungszeit führt zur Verlängerung der
+                                                      Bearbeitungszeit für den Hauptteil 2 und den Wahlteil).
+                                                     Danach erfolgt die Ausgabe der zugelassenen Hilfsmittel
+                                                      (Taschenrechner, Formelsammlung) sowie des Hauptteils 2 und
+                                                      des Wahlteils.
+
+                                 + 15 Minuten       Auswählen von zwei der vier Wahlaufgaben des Wahlteils und
+                                                      Ankreuzen der beiden gewählten Aufgaben auf dem Titelblatt
+                                                      sowie Durchstreichen der unberücksichtigten Wahlaufgaben.
+
+                                                     Bearbeitung von Hauptteil 2 und zwei Wahlaufgaben.
+
+
+
+
+Mindestpunktzahl je Notenziffer
+
+
+  Notenziffer                             1            2               3               4               5              6
+
+
+ ab … Punkte                             72,5         61             49,5             38              17              0
+
+
+Die in der Tabelle angegebenen Punkte sind Mindestpunktzahlen zum Erreichen der jeweiligen
+Notenziffer.
+
+
+
+
+                                                                                                                          1 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                           Mathematik                            Erwartungshorizont
+
+ Hauptschule 10 – G-Kurs                                                                    Haupttermin
+
+
+Hauptteil 1 (ohne Hilfsmittel)
+Bei der Korrektur des Hauptteils 1 (ohne Hilfsmittel) ist Folgendes zu berücksichtigen:
+Bei der Bewertung sind halbe Punkte möglich.
+
+ Aufgabe                                   Erwartete Lösung                                     Punkte
+    1a                                              12                                            1
+    1b                                              4,3                                           1
+    1c                                              30                                            1
+    1d                                               1
+                                                                                                  1
+                                                     4
+    2a                                            3,14 km                                         1
+    2b                                              20                                            1
+     3
+                   6,24 cm²            62,4 cm²              624 cm²          6240 cm²
+                                                                                                  1
+                        O                 O                                     O
+
+
+
+
+    4a                                                                                            1
+    4b                                                                                            1
+
+
+    5a                                              16                                            2
+                                              – 61 + 9x = – 16
+    5b                                               9x = 45                                      3
+                                                         x=5
+                                  Jede richtige Gleichung ist zu werten.
+    5c                                                                                            1
+                                   Zum Beispiel: „4x + 13,60 = 47,60“
+
+
+
+
+    6a                                                                                            1
+
+
+
+
+                              Der Graph gehört zur Apfelsorte Jonagold.
+    6b                                                                                            2
+             Für 20 € dieser Apfelsorte erhält man etwa 6,3 kg Äpfel. (Genauigkeit ± 0,1 kg.)
+                                  Jede sinnvolle Antwort ist zu werten.
+    6c       Zum Beispiel: „Die Einteilung auf beiden Achsen lässt ein genaues Bestimmen          1
+                                     von Zwischenwerten nicht zu.“
+                                                                                                2 von 8
+
+[Seitenwechsel]
+Abschlussarbeit 2022                           Mathematik                           Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                                                     Haupttermin
+
+
+   7a                     Jede sinnvolle Zerlegung oder Ergänzung ist zu werten.                 1
+   7b                                          A = 27 cm²                                        2
+   7c                                           A = 12x²                                         1
+
+
+
+
+   8a                                                                                            2
+
+
+
+
+   8b                                                                                            2
+
+
+
+
+                              Jede sinnvolle Begründung ist zu werten.
+   8c         Zum Beispiel: „Bei der Spiegelung an dieser Geraden liegen die Pfeile nicht        1
+                                             aufeinander.“
+
+
+
+
+                                                                                               3 von 8
+
+[Seitenwechsel]
+    Abschlussarbeit 2022                         Mathematik                            Erwartungshorizont
+
+    Hauptschule 10 – G-Kurs                                                                   Haupttermin
+
+
+Hauptteil 2 und Wahlteil
+Bei der Korrektur des Hauptteils 2 und des Wahlteils ist Folgendes zu berücksichtigen:
+-      Bei der Bewertung sind halbe Punkte möglich.
+-      Bei falschen oder fehlenden Einheiten im Ergebnis oder innerhalb eines explizit geforderten
+       Antwortsatzes wird jeweils ein halber Punkt abgezogen, maximal 3 Punkte insgesamt.
+-      Bei fehlendem Antwortsatz erfolgt der volle Punktabzug, sofern der Antwortsatz explizit gefordert
+       oder durch eine zusätzliche Denkleistung notwendig ist.
+-      Bei den angegebenen Lösungen wurde jeweils mit Taschenrechnerwerten weiter gerechnet.
+       Lösungen der Schülerinnen und Schüler werden auch dann als richtig bewertet, wenn die
+       Rechnung mit auf zwei Nachkommastellen gerundeten Zwischenergebnissen weiter fortgesetzt
+       wird.
+       Die Endergebnisse sollen in der Regel auf zwei Nachkommastellen gerundet werden. Wenn in der
+       Arbeit nicht oder falsch gerundet wird, wird insgesamt nur einmal ein Punkt abgezogen.
+       Bei den Lösungen der Schülerinnen und Schüler wird bei gerundeten Werten auch die Angabe mit
+       Gleichheitszeichen als richtig bewertet.
+-      Bei vielen Aufgaben gibt es alternative Lösungswege, die hier nicht aufgeführt werden können.
+       Richtige Lösungen sind auch bei alternativen Lösungswegen mit der entsprechenden Punktzahl
+       zu bewerten.
+-      Folgerichtige Endergebnisse bzw. Teillösungen sind auch bei fehlerhaften Zwischenergebnissen
+       zu bewerten, wenn der weitere Rechenweg korrekt ist. In diesem Fall sind nur die Punkte für das
+       falsche Zwischenergebnis abzuziehen.
+-      Um den Schülerinnen und Schülern bei komplexeren Aufgaben das Weiterrechnen zu
+       ermöglichen, sind bei diesen Aufgaben angenäherte Zwischenlösungen vorgegeben. Die damit
+       berechneten Ergebnisse werden mit den dafür vorgesehenen Punkten bewertet.
+-      Die Bepunktung von Lösungen offener Aufgabenstellungen richtet sich nach Schlüssigkeit,
+       Nachvollziehbarkeit und Sinnhaftigkeit der Lösungswege.
+
+
+
+
+                                                                                                  4 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                       Mathematik                                           Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                                                                Haupttermin
+
+
+Hauptteil 2
+
+Aufgabe                                Erwartete Lösung                                                 Punkte
+                 Es sind 94 Prozent der Jugendlichen im Besitz eines Smartphones.
+    1a                                                                                                     2
+                         Die Hälfte der Jugendlichen hat ein Fernsehgerät.
+    1b                                   456 Jugendliche                                                   1
+    1c                                        20 %                                                         1
+
+
+
+    1d                                                                                                     1
+
+
+
+    2a                                      1260 cm2                                                       2
+    2b                                      b = 53 cm                                                      1
+    3a                                       115 cm                                                        1
+               Bei der Längen- und Breitenangabe muss das Maß mindestens 115 cm
+    3b                                                                                                     1
+                               und das Produkt 15 000 cm2 betragen.
+    3c                            10 386,89 cm2 (10 751,32 cm2)                                            2
+    4a                                      y = −x + 3                                                     2
+                                               1
+    4b                                      y= x+1                                                         2
+                                               2
+
+
+
+
+    4c                                                                                                     2
+                                                                      Quelle: MK Niedersachsen
+
+
+
+
+                                                           10
+    5a                              P (Orangen-Bonbon) =                                                   2
+                                                           30
+                                                           9
+    5b                              P (Orangen-Bonbon) =                                                   2
+                                                           29
+
+    6a                                      x  1,82 m                                                     2
+    6b                                      y  0,83 m                                                     2
+
+                                                                                                           5 von 8
+
+[Seitenwechsel]
+Abschlussarbeit 2022           Mathematik         Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                 Haupttermin
+
+
+   7a                          57,73 cm3                    2
+   7b                         h  4,94 cm                   2
+   7c                     1947,13 g (1960,05 g)             2
+   8a                          a  2,45 m                   2
+   8b                          α  15,26°                   2
+
+
+
+
+                                                            6 von 8
+
+[Seitenwechsel]
+ Abschlussarbeit 2022                         Mathematik                           Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                                                                            Haupttermin
+
+
+Wahlteil
+
+Aufgabe                                    Erwartete Lösung                                                           Punkte
+    1a                                         5308,33 m3                                                                2
+    1b                                      65 Treppenstufen                                                             1
+    1c                                         x  21,80 m                                                               2
+    1d                                    1526,02 m2 (1512 m2)                                                           2
+    1e                                         α  36,61°                                                                2
+              Verkleinert sich bei gleichbleibender Körperhöhe der Steigungswinkel α, dann
+    1f                                                                                                                   1
+                                    vergrößert sich die Treppenlänge x.
+
+
+
+                Fahrzeit         0 min           3 min           5 min        7 min
+    2a                                                                                                                    2
+                  Preis           1€             1,60 €           2€         2,40 €
+
+
+    2b                                             3€                                                                     1
+
+    2c                                       y = 0,20 · x + 1                                                             2
+
+
+
+
+                                                                                        Quelle: MK Niedersachsen
+                                                                                                                          2
+    2d
+
+
+
+
+                                       Einmalige Freischaltung: 2 €
+    2e                                                                                                                    2
+                                       Fahrpreis pro Minute: 0,10 €
+    2f                       Die dritte Aussage muss angekreuzt werden.                                                   1
+
+
+
+
+                                                                                                                      7 von 8
+
+[Seitenwechsel]
+Abschlussarbeit 2022                       Mathematik                                                 Erwartungshorizont
+
+Hauptschule 10 – G-Kurs                                                                                         Haupttermin
+
+
+
+
+   3a                            Rad 1:                      Rad 2:                                                                      2
+
+
+
+
+                                                                           Quelle: MK Niedersachsen
+   3b                                                                                                                                    2
+
+
+
+
+                           Der Pfad            muss markiert werden.
+   3c                                                    1                                                                               2
+                                       P (        ) = 16
+                                                                      12
+   3d                         P (zwei verschiedene Symbole) =                                                                            3
+                                                                      16
+   3e                     Die dritte Aussage muss angekreuzt werden.                                                                     1
+
+
+
+
+                                                                                                           Quelle: MK Niedersachsen
+
+
+
+
+   4a                                                                                                                                    2
+
+
+
+
+   4b                                      x  56,08 m                                                                                   2
+   4c                                      y  23,51 m                                                                                   2
+   4d                                       150,80 m                                                                                     1
+   4e                                     6 Umrundungen                                                                                  2
+   4f                     Die erste Aussage muss angekreuzt werden.                                                                      1
+
+
+
+
+                                                                                                                                      8 von 8
+
+[Seitenwechsel]

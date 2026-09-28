@@ -1,0 +1,2320 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Realschule Mathematik mit Lösungen – Prüfungsjahr 2022, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320112/2022 (Jahrgangsseite, Serlo-ID 320112); Prüfungsteile: https://de.serlo.org/mathe/320138/pflichtteil-a1 (Pflichtteil A1, ID 320138); https://de.serlo.org/mathe/320139/pflichtteil-a2 (Pflichtteil A2, ID 320139); https://de.serlo.org/mathe/320140/wahlteil-b (Wahlteil B, ID 320140)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2022  (Serlo-ID 320138)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 322335 – https://de.serlo.org/mathe/322335/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse das Gleichungssystem.
+
+(I) 2x+24=7y
+(II) 2y+x-32=0
+(1 Pkt.)
+Lösung:
+Löse beide Gleichungen nach x auf
+(I)   x=3,5y-12
+(II)  x=32-2y
+
+(I)=(II)
+  3,5y-12 = 32-2y   | +2y
+  5,5y-12= = 32   | +12
+  5,5y = 44   | : 5,5
+  y = 8
+Setze y=8 in (I) ein.
+x=3,5·8-12
+x=16
+Die Lösung lautet:  x=16 und y=8.
+[]
+Löse die Gleichung (I) nach x auf.
+(I)  x=3,5y-12
+
+Einsetzungsverfahren 
+Setze x=3,5y-12 in (II) ein.
+2y+(3,5y-12)-32=0
+5,5y-44=0
+5,5y=44
+y=8
+
+Setze y=8 in (I) ein.
+x=3,5·8-12
+x=16
+Die Lösung lautet: x=16 und y=8
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322345 – https://de.serlo.org/mathe/322345/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Jano behauptet: „Die Gleichung 0,5 x^{2}-3 x+4,5=0 hat zwei Lösungen."
+Stimmt die Aussage? Begründe.
+
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 322347 – https://de.serlo.org/mathe/322347/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Bestimme den Winkel α, ohne zu messen.
+[Abbildung]
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322349 – https://de.serlo.org/mathe/322349/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Bestimme den Winkel α, ohne zu messen.
+[Abbildung]
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 322351 – https://de.serlo.org/mathe/322351/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vervollständige den Streckenzug im Würfelnetz.
+[Abbildung]
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322353 – https://de.serlo.org/mathe/322353/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Berechne die Höhe des Hauses.
+[Abbildung]
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 322356 – https://de.serlo.org/mathe/322356/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Beim Memory-Spiel sind immer zwei Karten mit demselben Bild enthalten.
+[Abbildung]
+Der Spieler, der an der Reihe ist, darf zwei Karten umdrehen. Jan hat die oberen Paare bereits gefunden, es sind nur noch die Karten rechts unten im Spiel. Er ist wieder an der Reihe und hat schon eine Karte mit einer Sonne umgedreht.
+- Berechne die Wahrscheinlichkeit, dass auf der zweiten Karte eine Sonne ist.
+[Abbildung]
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 323618 – https://de.serlo.org/mathe/323618/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vervollständige die Gleichungen.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+sin(α)= dfrac{square}{‾{AB}}
+Lösung:
+Betrachte das Dreieck ABC:
+
+sin(α)= (Gegenkathete)/(Hypotenuse)
+sin(α)= dfrac{‾{BC}}{‾{AB}}
+
+--- Teilaufgabe b) ---
+square=dfrac{‾{DE}}{‾{BE}}
+Lösung:
+Betrachte das Dreieck DBE:
+tan(β)=(Gegenkathete)/(Ankathete)
+tan(β)=dfrac{‾{DE}}{‾{BE}}
+
+--- Teilaufgabe c) ---
+cos(varepsilon_1)=(square)/(square)
+(1,5 P)
+Lösung:
+Betrachte das Dreieck DEC:
+cos (varepsilon_1 )=(Ankathete)/(Hypotenuse)
+cos (varepsilon_1 )=frac{‾{DE}}{‾{CD}}
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo ExerciseGroup 323620 – https://de.serlo.org/mathe/323620/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Eine quadratische Pyramide mit der Grundkante  a=6cm  und der Körperhöhe   h=4cm  wird
+vollständig mit Wasser gefüllt.
+
+--- Teilaufgabe a) ---
+Berechne das Volumen der Wassermenge.
+[Eingabefeld: 48]
+Lösung:
+V_{Pyramide}=(1)/(3)· G· h
+G=a^2
+V=(1)/(3)· a^2· h
+V=(1)/(3)·(6 cm)^2· 4 cm
+V=48 cm^3
+Die Wassermenge hat ein Volumen von 48 cm^3.
+
+--- Teilaufgabe b) ---
+Die Wassermenge wird in ein quadratisches Prisma umgefüllt.
+Die Grundkante des quadratischen Prismas beträgt  4cm .
+Wie hoch steht das Wasser im Prisma?
+(1,5 P)
+[Eingabefeld: 3]
+Lösung:
+V_{Pr isma}=G·h
+h=V:G
+G=a^2
+G=16 cm^2
+V=48 cm^3
+h=48 cm^3:16 cm^2
+h=3 cm
+Im Prisma steht das Wasser 3 cm hoch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo ExerciseGroup 323622 – https://de.serlo.org/mathe/323622/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Glücksrad mit vier gleich großen Feldern ist weiß, schwarz und grau gefärbt.
+Es wird zweimal nacheinander gedreht.
+[Abbildung]
+Berechne die Wahrscheinlichkeit des Ereignisses.
+
+--- Teilaufgabe a) ---
+P(zweimal weiß)
+[Eingabefeld: 1/16]
+Lösung:
+P(weiß)=(1)/(4)
+P(zweimal weiß)= (1)/(4)· (1)/(4)=(1)/(16)
+
+--- Teilaufgabe b) ---
+P(grau und schwarz)
+(1,5 P)
+[Eingabefeld: 1/4]
+Lösung:
+P(grau)=(2)/(4)=(1)/(2)
+P(schwarz)=(1)/(4)
+P(grau und schwarz)=(1)/(2)· (1)/(4)+(1)/(4)· (1)/(2)
+P(grau und schwarz)=(1)/(8)+(1)/(8)=(2)/(8)=(1)/(4)
+
+
+------------------------------------------------------------------------------
+Aufgabe 11 des Teils
+[Serlo Exercise 323624 – https://de.serlo.org/mathe/323624/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Welcher der drei Boxplots gehört zur abgebildeten Rangliste?
+Begründe mithilfe der Kennwerte.
+[Tabelle]
+Rang | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13
+Gewicht (in kg) ~~~~~~~~~~~~~~~ | 20 | 30 | 30 | 40 | 50 | 80 | 90 | 100 | 110 | 120 | 150 | 160 | 180
+[Abbildung]
+(1,5 P)
+Lösung:
+Boxplot (B) gehört zu der abgebildeten Rangliste.
+
+Die Kennwerte der Boxplots unterscheiden sich im Zentralwert und dem oberen Quartil.
+Aus z=90 kg und q_0=120 kg ergibt sich Boxplot (B).
+
+
+------------------------------------------------------------------------------
+Aufgabe 12 des Teils
+[Serlo Exercise 323626 – https://de.serlo.org/mathe/323626/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Berechne den Term.
+58·10^4+42·10^4
+
+Kreuze das zum Ergebnis zugehörige Zahlwort an.
+(1,5 P)
+[Auswahl (eine Antwort)]
+  (x) 1 Million
+  ( ) 10 Millionen
+  ( ) 1 Milliarde
+Lösung:
+58·10^4+42·10^4=(58+42)·10^4=100·10000=1000000
+
+
+------------------------------------------------------------------------------
+Aufgabe 13 des Teils
+[Serlo ExerciseGroup 323629 – https://de.serlo.org/mathe/323629/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Emma legt Muster aus Kärtchen.
+Die ersten drei Muster hat sie bereits gelegt.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Gib die Anzahl der Kärtchen für das 7. Muster an (n=7).
+[Eingabefeld: 49]
+Lösung:
+Muster 1: 1 Karte
+1·1
+Muster : 4 Karten
+2·2
+Muster 3: 9 Karten
+3·3
+Muster 7: 49 Karten
+7·7
+
+Für das 7. Muster benötigt Emma 49 Karten.
+
+--- Teilaufgabe b) ---
+Eine der folgenden Formeln kann zur Berechnung der Anzahl der Kärtchen bei allen Mustern verwendet werden.
+Welche Formel sollte Emma auswählen?
+
+s=3n-2
+s=n^2
+s=n^2+n-2
+
+-> n gibt die Stelle des jeweiligen Musters an.
+-> s ist die Summe der einzelnen Kärtchen.
+(1 P)
+[Auswahl (eine Antwort)]
+  ( ) s=3n-2
+  (x) s=n^2
+  ( ) s=n^2+n-2
+Lösung:
+Siehe Teilaufgabe a)
+s=n^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 14 des Teils
+[Serlo Exercise 323631 – https://de.serlo.org/mathe/323631/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Paar Sportschuhe kostet 120 €.
+Im Rahmen einer Rabattaktion wird der Preis um 30 % reduziert.
+Anschließend wird der reduzierte Preis nochmals um 20 % gesenkt.
+Liam behauptet: „Die Sportschuhe kosten somit nur noch die Hälfte des ursprünglichen Preises."
+
+Hat Liam Recht?
+Begründe deine Entscheidung durch Rechnung oder Argumentation.
+(1,5 P)
+Lösung:
+W=p· G
+
+1. Rabattaktion:
+G=120 €
+p=0,7
+W=120 €·0,7=84 €
+
+2: Rabattaktion:
+G=84 €
+p=0,8
+W=84 €·0,8=67,20 €
+67,20 €ne60 €
+Argumentation: 
+Nach der ersten Rabattaktion (30 %) vermindert sich der Grundwert. 
+Die zweite Rabattaktion (20 %) bezieht sich auf diesen verminderten Grundwert. 
+Somit kosten die Sportschuhe mehr als die Hälfte des ursprünglichen Preises.
+
+
+==============================================================================
+Pflichtteil A2 2022  (Serlo-ID 320139)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323165 – https://de.serlo.org/mathe/323165/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Im rechtwinkligen Dreieck ABC gilt:
+
+‾{AC}=9,5cm
+α=40,0°
+mathrm{‾{BC}=‾{BD}}
+
+Berechne den Umfang des Dreiecks ADC.
+[Abbildung]
+(4 Pkt.)
+[Eingabefeld: 20,67]
+Lösung:
+Lösungsidee: - Berechne die Länge der Seiten ‾{AD} und ‾{DC} mithilfe des Sinussatzes.
+[Abbildung]
+Berechnen des Umfangs des Dreiecks textbf{ADC}.
+Folgende Größen sind bekannt:
+
+Das Dreieck ABC ist ein rechtwinkliges Dreieck.
+sphericalangle{ABC}=180°-40°-90°
+sphericalangle{ABC}=50°
+
+ mathrm{‾{BC}=‾{BD}} ⇒ sphericalangle{CDB}=sphericalangle{BCD}
+
+sphericalangle{CDB}=sphericalangle{BCD}=(180°-50°)/(2)=65°
+
+Im Dreieck ADC gilt,  sphericalangle{DCA}=90°-65°=25° und sphericalangle{ADC}=180°-40°-25=115°
+
+Berechnen der Seiten ‾{AD} und ‾{DC} mit dem Sinussatz.
+
+Der Sinussatz angewandt auf unser Dreieck ADC lautet:
+
+mathrm{dfrac{‾{DC}}{sin(40°)}=dfrac{‾{AC}}{sin(115°)}=dfrac{‾{AD}}{sin(25°)}_{ }^{ }}
+
+Berechnen der Seite ‾{textbf{AD}}
+
+mathrm{dfrac{‾{AD}}{sin(25°)}=dfrac{‾{AC}}{sin(115°)} ⇒ ‾{AD}=dfrac{‾{AC}· sin(25°)}{sin(115°)}}
+
+mathrm{‾{AD}=(9,5· sin(25°))/(sin(115°))}
+
+‾{AD}=4,43cm
+
+Berechnen der Seite ‾{textbf{DC}}
+
+mathrm{dfrac{‾{DC}}{sin(40°)}=dfrac{‾{AC}}{sin(115°)} ⇒ ‾{DC}=dfrac{‾{AC}· sin(40°)}{sin(115°)}}
+
+mathrm{‾{DC}=(9,5· sin(40°))/(sin(115°))}
+
+‾{DC}=6,74cm
+
+Der Umfang des Dreiecks ADC ist dann,
+
+mathrm{U_{ADC}=‾{AC}+‾{AD}+‾{DC}}
+U_{ADC}=9,5+4,43+6,74
+boxed{U_{ADC}=20,67cm}
+
+Anmerkung:
+Wir haben hier mit den Sinuswerten gerechnet, die der Rechner liefert, wenn Du mit gerundeten Werten rechnest, erhältst Du ein geringfügig abweichendes Ergebnis.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323167 – https://de.serlo.org/mathe/323167/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+1000 Wachskugeln werden eingeschmolzen. Sie haben jeweils einen Radius von 1,5cm. 
+Mit diesem eingeschmolzenen Wachs werden quadratische Pyramiden gegossen.
+Dazu wird die abgebildete Gussform verwendet. Diese wird vollständig mit Wachs gefüllt.
+Es gilt:
+
+a_{w}=10,0cm (text { Grundkante Würfel })
+s=9,0cm
+t=1,0cm
+
+
+Wie viele solcher Pyramiden können mit dem eingeschmolzenen Wachs gegossen werden?
+[Abbildung]
+(3,5 Pkt.)
+[Eingabefeld: 94]
+Lösung:
+Lösungsidee: - Berechne die Pyramidengrundkante a_P der Pyramide.
+- Berechne die Höhe h der Pyramide.
+- Berechne das Volumen der Pyramide.
+- Berechne das Volumen der  1000 Wachskugeln.
+- Dividiere das Volumen der 1000 Wachskugeln durch das Volumen der Pyramide.
+Berechnen der Anzahl Pyramiden, die mit dem eingeschmolzenen Wachs gegossen werden können.
+a) Berechnen der Pyramidengrundkante a_P:
+ 
+a_P=a_W-2· t
+a_P=10-2·1
+a_P=10-2
+
+a_P=8cm
+ b) Berechnung der Pyramidenhöhe h :
+[Abbildung]
+Die Formel zur Berechnung der Seitenkante S einer quadratischen Pyramide lautet:
+
+mathrm{S=√{h^2+(a_P)/(2)^2}}
+
+Wir lösen die Formel nach der Pyramidenhöhe h auf:
+
+mathrm{h=√{S^2-dfrac{{a_P}}{2}^2}}
+
+mathrm{h=√{9^2-dfrac{{8}}{2}^2}}
+
+mathrm{h=√{81-(64)/(2)} ⇒ h=√{49}}
+
+h=7cm
+
+c) Berechnen des Pyramidenvolumens: 
+
+Die Formel zur Berechnung des Volumens einer Pyramide lautet:
+
+mathrm{V_P=(1)/(3)· a_P^2· h}
+
+mathrm{V_P=(1)/(3)· 8^2· 7}
+
+mathrm{V_P=(64· 7)/(3)}
+
+V_P=149,33cm^3
+
+d) Berechnen des Volumens der 1000 Wachskugeln:
+
+Die Formel zur Berechnung des Volumens einer Kugel lautet:
+
+mathrm{V_K=(4)/(3)· r^3·π}
+
+mathrm{V_K=(4)/(3)· 1,5^3·π}
+
+mathrm{V_K=(4)/(3)· 3,375·π}
+
+V_K=14,137cm^3
+
+Das Volumen von 1000 Wachskugeln ist dann:
+
+mathrm{V_{K_{1000}}=V_K·1000}
+
+mathrm{V_{K_{1000}}=14,137·1000}
+
+mathrm{V_{K_{1000}}=14137cm^3}
+	  
+e) Berechnung der Anzahl der Pyramiden:
+
+mathrm{Anz._P=dfrac{V_{K_{1000}}}{V_P}}
+
+mathrm{Anz._P=(14137)/(149,33)}
+
+Anz._P=94,67
+
+Aus dem eingeschmolzenem Wachs der 1000 Kugeln können boxed{94} Pyramiden gegossen werden.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323169 – https://de.serlo.org/mathe/323169/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse die Gleichung.
+
+(x+2)(x-4)-x=2(x-3)^{2}-12
+(3 Pkt.)
+Lösung:
+Lösungsidee: - Löse die Klammern auf.
+- Löse die quadratische Gleichung mit der Mitternachtsformel.
+Lösen der quadratischen Gleichung.
+  (x+2)(x-4)-x = 2(x-3)^2-12
+  x^2-2x-8-x = 2(x^2-6x+9)-12
+  x^2-3x-8 = 2x^2-12x+18-12
+  x^2-3x-8 = 2x^2-12x+6   | -2x^2
+  -x^2-3x-8 = -12x+6   | +12x-6
+  -x^2+9x-14 = 0   | · (-1)
+  x^2-9x+14 = 0
+Lösen der quadratischen Gleichung mit der Mitternachtsformel.
+
+Die Mitternachtsformel einer quadratischen Gleichung, ax^2+bx+c=0lautet:
+
+hspace{60mm}boxed{mathrm{x_{1,2}=dfrac{-b±√{b^2-4ac}}{2a}}}
+
+mathrm{x_{1,2}=dfrac{-(-9)±√{9^2-4·14}}{2}}
+
+mathrm{x_{1,2}=dfrac{9±√{81-56}}{2}}
+
+mathrm{x_{1,2}=dfrac{9±√{25}}{2}}
+
+mathrm{x_1=(9+5)/(2) ⇒ x_1=7}
+
+mathrm{x_2=(9-5)/(2) ⇒ x_2=2}
+
+mathbb{L}=\{2;7\}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323171 – https://de.serlo.org/mathe/323171/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Das Schaubild zeigt den Ausschnitt einer verschobenen Normalparabel p.
+[Abbildung]
+- Bestimme die Funktionsgleichung von p.
+Die Wertetabelle gehört zur Parabel p.
+[Tabelle]
+x | -3 | -2 | -1 | 0
+y |  |  |  | 
+- Ergänze die fehlenden y-Werte in der Wertetabelle.
+Die Gerade g mit der Funktionsgleichung y=-2x+2 schneidet die Parabel p in den Punkten A und B.
+
+- Berechne die Koordinaten der Schnittpunkte A und B.
+(3,5 Pkt.)
+Lösung:
+Lösungsidee: - Bestimme die Funktionsgleichung von p mithilfe der Scheitelform.
+- Multipliziere die Scheitelform aus.
+Bestimmen der Funktionsgleichung von textbf{p}.
+a.) Aufstellen der Scheitelform.
+
+Die Scheitelform einer quadratischen Gleichung lautet:
+
+f(x)=a(x-x_s)^2+y_s
+
+Da es sich um eine nach oben geöffnete Normalparabel handelt,
+ ist der Öffnungsfaktor a=1.
+
+Der x-Koordinate des Scheitelpunktes x_s=4.
+
+f(x)=1(x-4)^2+y_s
+
+Einsetzen des Punktes P_1(1/0), (siehe Schaubild).
+
+0=(1-4)^2+y_s
+0=(-3)^2+y_s
+0=9+y_s ⇒ y_s=-9
+
+p:y=(x-4)^2-9
+
+Die Funktionsgleichung von p lautet dann:
+
+boxed{p:y=x^2-8x+7}
+ 
+Ergänze die fehlenden textbf{y}-Werte in der Wertetabelle.
+[Tabelle]
+x | -3 | -2 | -1 | 0
+y | 40 | 27 | 16 | 7
+Berechnen der Koordinaten der Schnittpunkte textbf{A} und textbf{B}.
+Berechne die Koordinaten der Schnittpunkte A und B, indem du die Funktionsgleichung der Parabel p mit der Funktionsgleichung der Geraden g gleichsetzt und x berechnest.
+
+gleichsetzen der Funktionsgleichungen
+  x^2-8x+7 = -2x+2   | +2x-2
+  x^2-6x+5 = 0
+Lösen der quadratischen Gleichung mit der Mitternachtsformel.
+
+Die Mitternachtsformel einer quadratischen Gleichung ax^2+bx+c=0 lautet:
+
+hspace{60mm}mathrm{x_{1,2}=dfrac{-b±√{b^2-4ac}}{2a}}
+
+mathrm{x_{1,2}=dfrac{-(-6)±√{(-6)^2-4·5}}{2}}
+
+mathrm{x_{1,2}=dfrac{6±√{36-20}}{2}}
+
+mathrm{x_{1,2}=dfrac{6±√{16}}{2}}
+
+mathrm{x_{1}=(6+4)/(2) ⇒ x_1=5}
+
+mathrm{x_{2}=(6-4)/(2) ⇒ x_2=1}
+
+Einsetzen von x_1 und x_2 in z. B. die Funktionsgleichung der Geraden g und berechnen von y_1 und y_2.
+
+y_1=-2·5+2
+y_1=-8 ⇒ boxed{B(5|-8)}
+
+y_2=-2·1+2
+y_2=0 ⇒ boxed{A(1|0)}
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323173 – https://de.serlo.org/mathe/323173/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Klasse 5c verkauft Lose beim Schulfest.
+Es gibt folgende Gewinne: 12 Fußbälle und 8 Basketbälle.
+Die restlichen 80 Lose sind Nieten.
+
+Francesca möchte zwei Lose ziehen.
+
+Wie groß ist die Wahrscheinlichkeit, dass sie
+- zwei Nieten zieht?
+- einen Fußball und einen Basketball gewinnt?
+Lösung:
+[Abbildung: Das Baudiagramm muss nicht erstellt werden.]
+Berechnen der Wahrscheinlichkeit, dass 2 Nieten gezogen werden.
+In der Lostrommel sind 80 Nieten,  12 Fußbälle und 8 Basketbälle.
+
+Also sind 80+12+8=100 Lose in der Lostrommel.
+Die Wahrscheinlichkeit 2 Nieten zu ziehen berechnet sich dann:
+
+mathrm{P_{2N}=(80)/(100)·(79)/(99)}
+
+mathrm{P_{2N}=(6320)/(9900)}
+
+P_{2N}=0,6384oderP_{2N}=63,85 %
+
+Die Wahrscheinlichkeit 2 Nieten zu ziehen beträgt: boxed{63,85 %}. 
+Berechnen der Wahrscheinlichkeit, einen Fußball und einen Basketball zu gewinnen.
+Die Wahrscheinlichkeit einen Fußball und einen Basketball zu gewinnen berechnet sich dann:
+
+mathrm{P_{Fb+Bb}=(12)/(100)·(8)/(99)=(96)/(9900)}
+
+mathrm{P_{Bb+Fb}=(8)/(100)·(12)/(99)=(96)/(9900)}
+
+mathrm{P_{FbBb}=(96)/(9900)+(96)/(9900)=(192)/(9900)}
+
+mathrm{P_{{FbBb}}=0,0194}oder1,94 %
+
+Die Wahrscheinlichkeit einen Fußball und einen Basketball zu gewinnen beträgt: boxed{1,94 %}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 323175 – https://de.serlo.org/mathe/323175/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Paketzustellungen in Deutschland haben in den letzten Jahren zugenommen. 
+Im Schaubild ist diese Entwicklung dargestellt.
+[Abbildung]
+- Um wie viel Prozent haben die Paketzustellungen von 2014 bis 2019 insgesamt zugenommen?
+Der Dienstleister DHL hatte im Jahr 2019 einen Anteil von 57,0 % an den gesamten Zustellungen.
+- Wie viele Pakete wurden von DHL im Jahr 2019 zugestellt?
+
+Im Jahr 2020 nahm die Anzahl der Paketzustellungen um 9,7 % zu.
+Im darauffolgenden Jahr 2021 stieg die Anzahl der Paketzustellungen um 12,5 %.
+- Trage die Werte für 2020 und 2021 in das oben abgebildete Diagramm ein.
+(3 Pkt.)
+Lösung:
+Lösungsidee: - Berechne die Zunahme der zugestellten Pakete mit der Prozentformel.
+Berechnen der Zunahme, in Prozent, der Paketzustellungen von 2014 bis 2019.
+Die Formel zur Berechnung des Prozentsatzes lautet:
+
+hspace{60mm}mathrm{p=(W)/(G)}
+
+Aus der Aufgabenstellung sind folgende Werte bekannt:
+
+Der Prozentwert textbf{W} ist die Differenz der Paketzustellungen, von 2019 und 2014.
+
+W=3,65-2,78(siehe Tabelle)
+W=0,87
+
+Der Grundwert entspricht der Anzahl der Paketzustellungen des Jahres 2014.
+
+G=2,78(siehe Tabelle)
+
+Einsetzen der bekannten Werte in die Formel:
+
+mathrm{p=(0,87)/(2,78) ⇒ p=0,3129=31,29 %}
+
+Die Paketzustellungen von 2014 bis 2019 haben um insgesamt boxed{31,29 %} zugenommen.
+
+Berechnen der Anzahl Pakete, die 2019 von DHL zugestellt wurden.
+Aus dem Schaubild lesen wir ab, im Jahre 2019 wurden insgesamt 3,65 Mrd Pakete zugestellt, davon wurden 57,0 % von DHL zugestellt. Die Anzahl der von DHL zugestellten Paket entspricht dem Prozentwert textbf{W}.
+
+Berechnen des Prozentwertes mit der Formel: 
+W=G· p
+
+mathrm{W=3,65·(57,0)/(100)}
+
+W=2,08 Mrd
+
+Im Jahr 2019 wurden boxed{2,08 Milliarden} Pakete von DHL zugestellt. 
+
+Eintragen der Werte für 2020 und 2021 in das oben abgebildete Diagramm.
+Berechnen der Zunahme der Paketzustellungen.
+
+2020:3,65·1,097=4,00 Mrd
+2021:4,00·1,125=4,50 Mrd
+  
+[Abbildung]
+
+
+==============================================================================
+Wahlteil B 2022  (Serlo-ID 320140)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 331959 – https://de.serlo.org/mathe/331959/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Im Quadrat ABCD liegen die beiden gleichschenkligen Dreiecke ABF und DEF.
+Es gilt:
+
+‾{AB}=14,0cm
+‾{AF}=12,0cm
+‾{AF}=‾{BF}
+‾{EF}=‾{DF}
+
+- Berechne den Flächeninhalt des Dreiecks AFE.
+- Berechne den Winkel ϵ.
+
+[Abbildung]
+(5 Pkt.)
+Flächeninhalt des Dreiecks AFE:  [Lücke: 19,25] cm².
+Winkelε: [Lücke: 23] °.
+Lösung:
+[Abbildung]
+Berechnen des Flächeninhalts des Dreiecks AFE
+
+Berechnen der Strecke: ‾{AS}
+
+mathrm{‾{AS}=dfrac{‾{AB}}{2}} da das Dreieck ABF gleichschenklig ist.
+
+mathrm{‾{AS}=(14)/(2) ⇒ ‾{AS}=7cm}
+
+Berechnen der Strecke: ‾{AE}
+
+mathrm{‾{AE}=‾{AD}-‾{DE}}
+
+Berechnen der Strecke: ‾{DE}
+
+mathrm{‾{DE}=2·‾{DW}}da das Dreieck EFD gleichschenklig ist.
+
+mathrm{‾{DW}=‾{AD}-‾{FS} ‾{FS}=√{12^2-7^2} ⇒ ‾{FS}=√{95}}
+
+hspace{46mm}‾{FS}=9,75 cm
+
+mathrm{‾{DW}=14-9,75 ⇒ ‾{DW}=4,25cm}
+
+mathrm{‾{DE}=2·4,25 ⇒ ‾{DE}=8,50cm}
+
+mathrm{‾{AE}=14-8,50 ⇒ ‾{AE}=5,50cm}
+
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+für das Dreieck AFE gilt:
+
+mathrm{A_{Dreieck}=dfrac{‾{AE}·‾{AS}}{2} ⇒ A_{Dreieck}=dfrac{5,50·{7}}{2}}
+
+A_{Dreieck}=19,25cm^2
+
+Der Flächeninhalt des Dreiecks AFE beträgt, boxed{19,25cm^2}.
+
+Berechnen des Winkels Large{ε}
+
+mathrm{ε=sphericalangle{AFW}-sphericalangle{EFW}}
+
+mathrm{cos(sphericalangle{AFW})=dfrac{‾{FW}}{‾{AF}} ⇒ cos(sphericalangle{AFW})=(7)/(12)}
+
+cos(sphericalangle{AFW})=0,5833
+
+sphericalangle{AFW}=54,3°
+
+mathrm{tan(sphericalangle{EFW})=dfrac{‾{EW}}{‾{FW}} ⇒ ; tan(sphericalangle{EFW})=(4,25)/(7)}
+
+tan(sphericalangle{EFW})=0,6071
+
+sphericalangle{EFW}=31,3°
+
+ε=54,3°-31,3°
+
+ε=23°
+
+Der Winkel ε beträgt boxed{23°}.
+
+--- Teilaufgabe b) ---
+Die Gerade g hat die Funktionsgleichung  y=x+2.
+
+Die Parabel p_1 hat die Funktionsgleichung  y=-x^2+8. Die Parabel p_1 schneidet die Gerade g in den Punkten P und Q.
+- Berechne die Koordinaten der Schnittpunkte P und Q.
+Durch die beiden Schnittpunkte P und Q verläuft die verschobene nach oben geöffnete Normalparabel p_2.
+
+- Berechne die Koordinaten des Scheitelpunkts S_2 von p_2.
+- Robin behauptet: „Das Dreieck mit den Punkten P,Q und S_2 ist rechtwinklig.“ Hat Robin Recht? Begründe deine Antwort rechnerisch.
+
+(5 Pkt.)
+Lösung:
+Berechnen der Koordinaten der Schnittpunkte textbf{P} und textbf{Q}
+Gleichsetzen von g:y=x+2 und p_1:y=-x^2+8
+
+Lösen der Gleichung
+
+  -x^2+8 = x+2   | -x-2
+  -x^2-x+6 = 0   | ·(-1)
+  x^2+x-6 = 0
+  (x+3)·(x-2) = 0
+  x+3 = 0
+  x_1 = -3
+  x-2 = 0
+  x_2 = 2
+Wir setzen x_1 und x_2 in die Funktionsgleichung der Geradentextbf{g}ein und berechnen y_1 und y_2.
+
+y_1=1·(-3)+2
+y_1=-1
+y_2=1·(2)+2
+y_2=4
+
+Die Koordinaten der Schnittpunkte sind:
+P(-3|-1) Q(2|4)
+
+Berechnen der Koordinaten des Scheitelpunkts S_{2} von p_{2}.  
+Aufstellen der Funktionsgleichung der Parabel p_2.
+
+Die allgemeine Form einer quadratischen Funktion lautet:
+
+mathrm{f(x)={ax}^2+{bx}+c}
+
+Der Öffnungsfaktor ist a=1, da es sich um eine nach oben geöffnete Normalparabel handelt.
+
+Einsetzen der Koordinaten von {P} und {Q} in die allgemeine Form.
+I ({P)}: (-3)^2-3b+c=-1 ⇒ c=3b-10
+
+II ({Q)}: (2)^2+2b+c=4 ⇒ c=-2b
+Gleichsetzen.
+
+3b-10=-2b
+
+5b=10 ⇒ b=2
+
+eingesetzt in II
+
+c=-2·2 ⇒ c=-4
+
+p_2:y=x^2+2x-4
+
+Aufstellen der Scheitelform.
+
+Die  Scheitelform einer quadratischen Funktionsgleichung lautet:
+
+f(x)=a(x-x_s)^2+y_s  (a=1) siehe oben.
+
+p_2:y=(x+1)^2-1-4
+
+Scheitelform der Funktionsgleichung der Parabel p_2.
+
+hspace{40mm}p_2:y=(x+1)^2-5
+
+Koordinaten des Scheitelpunkts: mathrm{{S}_{2}(-1|-5)}
+
+Überprüfen von Robins Behauptung.
+[Abbildung]
+Ist Robins Behauptung richtig, dann muss für das farbige Dreieck der Satz des Pythagoras gelten, nämlich:
+
+mathrm{‾{S_2Q}^2=‾{QP}^2+‾{PS_2}^2}(siehe Skizze)
+
+mathrm{‾{S_2Q}=√{3^2+9^2} ⇒ ‾{S_2Q}=√{90} LE}
+
+mathrm{‾{QP}=√{5^2+5^2} ⇒ ‾{QP}=√{50} LE}
+
+mathrm{‾{PS_2}=√{4^2+2^2} ⇒ ‾{PS_2}=√{20} LE}
+
+Prüfen, ob der Satz des Pythagoras gilt.
+
+mathrm{(√{90})^2=(√{50})^2+(√{20})^2}
+
+90≠50+20
+
+90≠70
+
+Der Satz des Pythagoras gilt nicht in diesem Dreieck, also ist das Dreieck nicht rechtwinklig. 
+
+Robin hat nicht Recht!
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323178 – https://de.serlo.org/mathe/323178/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Im Quadrat ABCD liegen die beiden gleichschenkligen Dreiecke ABF und DEF.
+
+   Es gilt:
+
+‾{A B}=14,0cm
+‾{A F}=12,0cm
+mathrm{‾{AF}=‾{BF}}
+mathrm{‾{EF}=‾{DF}}
+
+- Berechne den Flächeninhalt des Dreiecks AFE.
+- Berechne den Winkel ε.
+[Abbildung]
+(5 Pkt.)
+b) Die Gerade g hat die Funktionsgleichung y=x+2.
+    Die Parabel p_{1} hat die Funktionsgleichung y=-x^{2}+8.
+    Die Parabel p_{1} schneidet die Gerade g in den Punkten P und Q.
+- Berechne die Koordinaten der Schnittpunkte P und Q.
+    Durch die beiden Schnittpunkte P und Q verläuft die verschobene nach oben geöffnete
+    Normalparabel p_2.    
+   
+- Berechne die Koordinaten des Scheitelpunkts S_{2} von p_{2}.
+     Robin behauptet: „Das Dreieck mit den Punkten P, Q und S_{2} ist rechtwinklig.“
+
+- Hat Robin Recht? Begründe deine Antwort rechnerisch.
+(5 Pkt.)
+Lösung:
+[Abbildung]
+Aufgabenteil a.)
+Berechnen des Flächeninhalts des Dreiecks textbf{AFE}
+Berechnen der Strecke: ‾{AS}
+
+mathrm{‾{AS}=dfrac{‾{AB}}{2}} da das Dreieck ABF gleichschenklig ist.
+
+mathrm{‾{AS}=(14)/(2) ⇒ ‾{AS}=7cm}
+
+Berechnen der Strecke: ‾{AE}
+
+mathrm{‾{AE}=‾{AD}-‾{DE}}
+
+Berechnen der Strecke: ‾{DE}
+
+mathrm{‾{DE}=2·‾{DW}}da das Dreieck EFD gleichschenklig ist.
+
+mathrm{‾{DW}=‾{AD}-‾{FS} ‾{FS}=√{12^2-7^2} ⇒ ‾{FS}=√{95}}
+
+hspace{46mm}‾{FS}=9,75 cm
+
+mathrm{‾{DW}=14-9,75 ⇒ ‾{DW}=4,25cm}
+
+mathrm{‾{DE}=2·4,25 ⇒ ‾{DE}=8,50cm}
+
+mathrm{‾{AE}=14-8,50 ⇒ ‾{AE}=5,50cm}
+rule{160mm}{0.5mm}
+
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+für das Dreieck AFE gilt:
+
+mathrm{A_{Dreieck}=dfrac{‾{AE}·‾{AS}}{2} ⇒ A_{Dreieck}=dfrac{5,50·{7}}{2}}
+
+A_{Dreieck}=19,25cm^2
+
+Der Flächeninhalt des Dreiecks AFE beträgt, boxed{19,25cm^2}.
+rule{160mm}{0.5mm}
+
+Berechnen des Winkels Large{ε}
+mathrm{ε=sphericalangle{AFW}-sphericalangle{EFW}}
+
+mathrm{cos(sphericalangle{AFW})=dfrac{‾{FW}}{‾{AF}} ⇒ cos(sphericalangle{AFW})=(7)/(12)}
+
+cos(sphericalangle{AFW})=0,5833
+
+sphericalangle{AFW}=54,3°
+
+mathrm{tan(sphericalangle{EFW})=dfrac{‾{EW}}{‾{FW}} ⇒ ; tan(sphericalangle{EFW})=(4,25)/(7)}
+
+tan(sphericalangle{EFW})=0,6071
+
+sphericalangle{EFW}=31,3°
+
+ε=54,3°-31,3°
+
+ε=23°
+
+Der Winkel ε beträgt boxed{23°}.
+rule{160mm}{1mm}
+Aufgabenteil b.)
+Berechnen der Koordinaten der Schnittpunkte textbf{P} und textbf{Q}
+Gleichsetzen von g:y=x+2 und p_1:y=-x^2+8
+Lösen der Gleichung
+  -x^2+8 = x+2   | -x-2
+  -x^2-x+6 = 0   | · (-1)
+  x^2+x-6 = 0
+  (x+3)·(x-2) = 0
+  x+3 = 0
+  x_1 = -3
+  x-2 = 0
+  x_2 = 2
+Wir setzen x_1 und x_2 in die Funktionsgleichung der Geradentextbf{g}ein und berechnen y_1 und y_2.
+
+y_1=1·(-3)+2
+
+y_1=-1
+
+y_2=1·(2)+2
+
+y_2=4
+
+Die Koordinaten der Schnittpunkte sind:
+
+{P}(-3|-1) {Q}(2|4)
+rule{160mm}{0.5mm}
+Berechnen der Koordinaten des Scheitelpunkts S_{2} von p_{2}.  
+Aufstellen der Funktionsgleichung der Parabel p_2.
+
+Die allgemeine Form einer quadratischen Funktion lautet:
+
+mathrm{f(x)={ax}^2+{bx}+c}
+
+Der Öffnungsfaktor ist a=1, da es sich um eine nach oben geöffnete Normalparabel handelt.
+
+Einsetzen der Koordinaten von {P} und {Q} in die allgemeine Form.
+
+I ({P)}: (-3)^2-3b+c=-1 ⇒ c=3b-10
+
+II ({Q)}: (2)^2+2b+c=4 ⇒ c=-2b
+Gleichsetzen.
+
+3b-10=-2b
+
+5b=10 ⇒ b=2
+
+eingesetzt in II
+
+c=-2·2 ⇒ c=-4
+
+p_2:y=x^2+2x-4
+
+Aufstellen der Scheitelform.
+
+Die  Scheitelform einer quadratischen Funktionsgleichung lautet:
+
+f(x)=a(x-x_s)^2+y_s  (a=1) siehe oben.
+
+p_2:y=(x+1)^2-1-4
+
+Scheitelform der Funktionsgleichung der Parabel p_2.
+
+hspace{40mm}p_2:y=(x+1)^2-5
+
+Koordinaten des Scheitelpunkts: mathrm{{S}_{2}(-1|-5)}
+rule{160mm}{0.5mm}
+Überprüfen von Robins Behauptung.
+[Abbildung]
+Ist Robins Behauptung richtig, dann muss für das farbige Dreieck der Satz des Pythagoras gelten, nämlich:
+
+mathrm{‾{S_2Q}^2=‾{QP}^2+‾{PS_2}^2}(siehe Skizze)
+
+mathrm{‾{S_2Q}=√{3^2+9^2} ⇒ ‾{S_2Q}=√{90} LE}
+
+mathrm{‾{QP}=√{5^2+5^2} ⇒ ‾{QP}=√{50} LE}
+
+mathrm{‾{PS_2}=√{4^2+2^2} ⇒ ‾{PS_2}=√{20} LE}
+
+Prüfen, ob der Satz des Pythagoras gilt.
+
+mathrm{(√{90})^2=(√{50})^2+(√{20})^2}
+
+90≠50+20
+
+90≠70
+
+Der Satz des Pythagoras gilt nicht in diesem Dreieck, also ist das Dreieck nicht rechtwinklig. 
+
+Robin hat nicht Recht!
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 331962 – https://de.serlo.org/mathe/331962/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Das Schaubild zeigt Ausschnitte der verschobenen Normalparabel p_1 und der nach
+unten geöffneten Parabel p_2.
+- Bestimme die Funktionsgleichungen der beiden Parabeln. Entnimm dazu geeignete Werte aus dem Schaubild.
+Die Gerade g verläuft durch die beiden Scheitelpunkte S_1 und S_2.
+- Berechne die Funktionsgleichung von g.
+
+[Abbildung]
+Die Gerade h verläuft senkrecht zu g und geht durch den Punkt R(4|5).
+- Berechne die Funktionsgleichung von h.
+- Gib die Funktionsgleichung einer weiteren verschobenen nach oben geöffneten Normalparabel p_3 an, die keine Punkte mit p_1 und p_2 gemeinsam hat.
+(5 Pkt.)
+Lösung:
+Bestimme der Funktionsgleichungen der beiden Parabeln. 
+Die allgemeine Form einer quadratischen Funktion lautet:
+
+mathrm{f(x)={ax}^2+{bx}+ c}
+
+Einsetzen der Koordinaten der Punkte T(-2|5) und R(4|5) in die allgemeine Form der quadratischen Funktion. Da es sich um eine nach oben geöffnete Normalparabel handelt, gilt für den Öffnungsfaktor: a=1.
+
+I(T): (-2)^2-2b+c=5 ⇒ c=2b+1
+II(R):hspace{6mm}4^2+4b+c=5 ⇒ c=-4b-11
+
+Gleichsetzen.
+2b+1=-4b-11
+hspace{8mm}6b=-12
+hspace{12mm}b=-2
+
+eingesetzt in I
+c=2b+1
+c=2·(-2)+1
+c=-3
+
+Aufstellen der Funktionsgleichung der Parabel p_1.
+boxed{p_1:y=x^2-2x-3}
+
+Zur Ermittlung der Funktionsgleichung der Parabel p_2 verwenden wir die Scheitelform.
+
+Die Scheitelform lautet:
+
+y=a(x-x_s)^2+y_s
+
+Einsetzen der Koordinaten des Scheitelpunktes S_2(0|6).
+
+y=a(x-0)^2+6
+
+Einsetzen der Koordinaten des Punktes T(-2|5) und berechnen des Öffnungsfaktors a.
+
+5=a(-2)^2+6
+5=4a+6
+4a=-1
+hspace{2.5mm}a=-0,25
+
+Aufstellen der Funktionsgleichung der Parabel p_2.
+boxed{p_2:y=-0,25x^2+6}
+
+Berechnen der Funktionsgleichung von g.
+Um die Funktionsgleichung der Geraden g berechnen zu können, müssen wir zuerst die Funktionsgleichung der Parabel p_1 in die Scheitelform umwandeln.
+
+p_1:y=x^2-2x-3
+
+Umwandeln in die Scheitelform.
+
+p_1:y=(x-1)^2-1-3
+
+Aufstellen der Scheitelform Parabel p_1.
+
+p_1:y=(x-1)^2-4 ⇒ S_1(1|-4)
+
+Die allgemeine Geradengleichung lautet:
+
+y=mx+t
+
+Einsetzen der Koordinaten der Scheitelpunkte S_1 und S_2 in die allgemeine Geradengleichung.
+
+I(S_1): m·1+t=-4
+II(S_2): m·0+t=6 ⇒ t=6
+
+Einsetzen in I
+m+6=-4
+hspace{7.5mm}m=-10
+
+Aufstellen der Funktionsgleichung der Geraden g.
+boxed{g:y=-10x+6}
+
+Berechnen der Funktionsgleichung von textbf{h}.
+Stehen zwei Geraden senkrecht aufeinander, dann gilt:m_1· m_2=-1
+
+Berechnen der Steigung m_h der Geraden h.
+m_g · m_h=-1
+-10 · m_h=-1
+hspace{11mm}mathrm{m_h=(1)/(10)}
+Einsetzen von m_h und der Koordinaten des Punktes R in die allgemeine Geradengleichung.
+
+mathrm{(1)/(10)· 4+t=5}
+hspace{16mm}t=5-0,4
+hspace{16mm}t=4,6
+
+Aufstellen der Funktionsgleichung der Geraden h.
+boxed{mathrm{h:y=(1)/(10)x+4,6}}
+
+Berechnung einer möglichen Funktionsgleichung der Parabel p_3
+Damit die Parabel p_3 keinen gemeinsamen Punkt mit p_1 und p_2 hat, muss gelten:
+
+mathrm{{x_S}_3= {x_S}_1} und mathrm{{y_S}_3> {y_S}_2}
+
+Eine solche Funktionsgleichung ist z. B. 
+
+boxed{p_3:y=(x-1)^2+7} 
+
+oder ausmultipliziert 
+
+boxed{p_3:y=x^2-2x+8}
+
+--- Teilaufgabe b) ---
+Ein zusammengesetzter Körper besteht aus einem regelmäßigen
+Fünfeckprisma mit aufgesetzter regelmäßiger fünfseitiger Pyramide.
+[Abbildung]
+Es gilt:
+
+s=12,6cm
+ε=33°
+h_2=5,6cm  (Höhe Prisma)
+
+Berechne den Oberflächeninhalt des zusammengesetzten Körpers.
+[Eingabefeld: 578,20]
+Lösung:
+Berechnen des Oberflächeninhalts des zusammengesetzten Körpers.
+[Abbildung]
+Berechnen der Seite textbf{r} des roten Dreiecks:
+
+Das braune Dreieck ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt: 
+
+mathrm{sin{(α)}=(Gegenkathete)/(Hypotenuse)}
+
+Angewandt auf das braune Dreieck:
+
+mathrm{sin{(ε)}=(r)/(S) ⇒ r={S}·sin({ε})}
+
+Einsetzen der bekannten Größen in die Formel.
+
+r=12,6·sin(33°)
+
+r=12,6·0,5446
+
+underline{r=6,86cm}
+
+Berechnen der Seite textbf{b} mit dem Kosinussatz.
+
+Der Kosinussatz lautet:
+mathrm{c^2=a^2+b^2-2ab·cos(γ)hspace{20mm}γ=(360°)/(5)=72°}(Innenwinkel regelmäßiges 5-Eck)
+
+Angewandt auf das rote Dreieck:
+
+b^2=r^2+r^2-2· r· r·cos(γ)
+
+Einsetzen der bekannten Größen in die Formel.
+
+b^2=6,86^2+6,86^2-2·6,86·6,86·cos{72°}
+b^2=94,12-94,12·0,3090
+b^2=94,12-29,08
+b=√{65,04}
+
+underline{b=8,06cm}
+
+Berechnen der Seite h_b mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Angewandt auf das grüne Dreieck:
+
+mathrm{S^2=(h_b)^2+((b)/(2))^2 ⇒ (h_b)^2=S^2-((b)/(2))^2}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(h_b)^2=12,6^2-((8,06)/(2))^2}
+
+h_b=√{158,76-16,24}
+
+h_b=√{142,52}
+
+underline{h_b=11,94cm}
+
+Berechnen der Fläche des grünen Dreiecks mit der Formel:
+
+mathrm{A_{Delta}=(Grundlinie (b)· Höhe (h_b))/(2)}
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Delta_{grün}}=(8,06·11,94)/(2)}
+
+mathrm{A_{Delta_{grün}}=(96,24)/(2)}
+underline{mathrm{A_{Delta_{grün}}}}=48,12cm
+
+Berechnen der Mantelfläche der Pyramide:
+
+mathrm{M_{Pyramide}=A_{Delta_{grün}}·5}
+
+M_{Pyramide}=48,12·5
+M_{Pyramide}=240,60cm^2
+
+Berechnen der Fläche des blauen Rechtecks:
+
+Die Formel zur Berechnung der Fläche eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Angewandt auf das blaue Rechteck:
+
+A_{Rechteck}=h_s· b
+
+Einsetzen der bekannten Größen in die Formel.
+
+A_{Rechteck}=5,6·8,06
+A_{Rechteck}=45,16cm^2
+
+Berechnen der Mantelfläche des Prismas:
+mathrm{M_{Prisma}=A_{Rechteck}·5}
+
+M_{Pr isma}=45,14·5
+M_{Pr isma}=225,70cm^2
+
+Berechnen der Fläche des roten Dreiecks mit der Formel:
+
+mathrm{A_{Delta}=(1)/(2)· a· b·sin{(α)}}
+
+Angewandt auf das rote Dreieck:
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· r· r·sin{(γ)}}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· 6,86· 6,86·sin{(72°)}}
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· 47,06·0,9511}
+mathrm{A_{Delta _{rot}}}=22,38cm^2
+Berechnen der Grundfläche des Prismas:
+mathrm{A_{Grundfl_{Prisma}}=mathrm{A_{Delta_{rot}}}·5}
+
+mathrm{A_{Grundfl_{Pr isma}}=22,38·5}
+mathrm{A_{Grundfl_{Pr isma}}}=111,90cm^2
+
+Die Oberfläche des zusammengesetzten Körpers ist dann:
+
+mathrm{O_{Körper}=M_{Pyramide}+M_{Prisma}+A_{Grundfl_{Prisma}}}
+
+O_{Körper}=240,60+225,70+111,90
+O_{Körper}=578,20cm^2
+
+Hinweis: 
+Wir haben die Zwischenergebnisse auf 2 Stellen nach dem Komma gerundet und damit weitergerechnet, wenn Du mit den Ergebnissen rechnest, die der Rechner liefert, erhältst Du ein geringfügig abweichendes Ergebnis.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323190 – https://de.serlo.org/mathe/323190/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Das Schaubild zeigt Ausschnitte der verschobenen Normalparabel p_{1} und der nach  
+     unten geöffneten Parabel p_{2}.
+- Bestimme die Funktionsgleichungen der beiden Parabeln. Entnimm dazu geeignete Werte aus dem Schaubild.
+     Die Gerade g verläuft durch die beiden
+     Scheitelpunkte S_{1} und S_{2}.
+
+- Berechne die Funktionsgleichung von g.
+[Abbildung]
+Die Gerade h verläuft senkrecht zu g und geht durch den Punkt R(4 | 5).
+- Berechne die Funktionsgleichung von h.
+- Gib die Funktionsgleichung einer weiteren verschobenen nach oben geöffneten  Normalparabel p_{3} an, die keine Punkte mit p_{1} und p_{2} gemeinsam hat.
+(5 Pkt.)
+
+b) Ein zusammengesetzter Körper besteht aus einem regelmäßigen 
+      Fünfeckprisma mit aufgesetzter regelmäßiger fünfseitiger Pyramide.   
+[Abbildung]
+Es gilt:
+
+s=12,6cm 
+varepsilon =33,0°
+mathrm{h_{2}=5,6cmtext { (Höhe Prisma)} }
+
+Berechne den Oberflächeninhalt des zusammengesetzten Körpers.
+(5 Pkt.)
+Lösung:
+Aufgabenteil a.)
+Bestimme der Funktionsgleichungen der beiden Parabeln. 
+Die allgemeine Form einer quadratischen Funktion lautet:
+
+mathrm{f(x)={ax}^2+{bx}+ c}
+
+Einsetzen der Koordinaten der Punkte T(-2|5) und R(4|5) in die allgemeine Form der quadratischen Funktion. Da es sich um eine nach oben geöffnete Normalparabel handelt, gilt für den Öffnungsfaktor: a=1.
+
+I(T): (-2)^2-2b+c=5 ⇒ c=2b+1
+II(R):hspace{6mm}4^2+4b+c=5 ⇒ c=-4b-11
+
+Gleichsetzen.
+2b+1=-4b-11
+hspace{8mm}6b=-12
+hspace{12mm}b=-2
+
+eingesetzt in I
+c=2b+1
+c=2·(-2)+1
+c=-3
+
+Aufstellen der Funktionsgleichung der Parabel p_1.
+boxed{p_1:y=x^2-2x-3}
+
+Zur Ermittlung der Funktionsgleichung der Parabel p_2 verwenden wir die Scheitelform.
+
+Die Scheitelform lautet:
+
+y=a(x-x_s)^2+y_s
+
+Einsetzen der Koordinaten des Scheitelpunktes S_2(0|6).
+
+y=a(x-0)^2+6
+
+Einsetzen der Koordinaten des Punktes T(-2|5) und berechnen des Öffnungsfaktors a.
+
+5=a(-2)^2+6
+5=4a+6
+4a=-1
+hspace{2.5mm}a=-0,25
+
+Aufstellen der Funktionsgleichung der Parabel p_2.
+boxed{p_2:y=-0,25x^2+6}
+
+rule{185mm}{0.5mm}
+Berechnen der Funktionsgleichung von g.
+Um die Funktionsgleichung der Geraden g berechnen zu können, müssen wir zuerst die Funktionsgleichung der Parabel p_1 in die Scheitelform umwandeln.
+
+p_1:y=x^2-2x-3
+
+Umwandeln in die Scheitelform.
+
+p_1:y=(x-1)^2-1-3
+
+Aufstellen der Scheitelform Parabel p_1.
+
+p_1:y=(x-1)^2-4 ⇒ S_1(1|-4)
+
+Die allgemeine Geradengleichung lautet:
+
+y=mx+t
+
+Einsetzen der Koordinaten der Scheitelpunkte S_1 und S_2 in die allgemeine Geradengleichung.
+
+I(S_1): m·1+t=-4
+II(S_2): m·0+t=6 ⇒ t=6
+
+Einsetzen in I
+m+6=-4
+hspace{7.5mm}m=-10
+
+Aufstellen der Funktionsgleichung der Geraden g.
+boxed{g:y=-10x+6}
+
+rule{185mm}{0.5mm}
+Berechnen der Funktionsgleichung von textbf{h}.
+Stehen zwei Geraden senkrecht aufeinander, dann gilt:m_1· m_2=-1
+
+Berechnen der Steigung m_h der Geraden h.
+m_g · m_h=-1
+-10 · m_h=-1
+hspace{11mm}mathrm{m_h=(1)/(10)}
+Einsetzen von m_h und der Koordinaten des Punktes R in die allgemeine Geradengleichung.
+
+mathrm{(1)/(10)· 4+t=5}
+hspace{16mm}t=5-0,4
+hspace{16mm}t=4,6
+
+Aufstellen der Funktionsgleichung der Geraden h.
+boxed{mathrm{h:y=(1)/(10)x+4,6}}
+
+rule{185mm}{0.5mm}
+ Berechnung einer möglichen Funktionsgleichung der Parabel p_3
+Damit die Parabel p_3 keinen gemeinsamen Punkt mit p_1 und p_2 hat, muss gelten:
+
+mathrm{{x_S}_3= {x_S}_1} und mathrm{{y_S}_3> {y_S}_2}
+
+Eine solche Funktionsgleichung ist z. B. 
+
+boxed{p_3:y=(x-1)^2+7} 
+
+oder ausmultipliziert 
+
+boxed{p_3:y=x^2-2x+8}
+
+rule{185mm}{1mm}
+Aufgabenteil b.)
+Berechnen des Oberflächeninhalts des zusammengesetzten Körpers.
+[Abbildung]
+Berechnen der Seite textbf{r} des roten Dreiecks:
+
+Das braune Dreieck ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt: 
+
+mathrm{sin{(α)}=(Gegenkathete)/(Hypotenuse)}
+
+Angewandt auf das braune Dreieck:
+
+mathrm{sin{(ε)}=(r)/(S) ⇒ r={S}·sin({ε})}
+
+Einsetzen der bekannten Größen in die Formel.
+
+r=12,6·sin(33°)
+
+r=12,6·0,5446
+
+underline{r=6,86cm}
+
+Berechnen der Seite textbf{b} mit dem Kosinussatz.
+
+Der Kosinussatz lautet:
+
+mathrm{c^2=a^2+b^2-2ab·cos(γ)hspace{20mm}γ=(360°)/(5)=72°}(Innenwinkel regelmäßiges 5-Eck)
+
+Angewandt auf das rote Dreieck:
+
+b^2=r^2+r^2-2· r· r·cos(γ)
+
+Einsetzen der bekannten Größen in die Formel.
+
+b^2=6,86^2+6,86^2-2·6,86·6,86·cos{72°}
+b^2=94,12-94,12·0,3090
+b^2=94,12-29,08
+b=√{65,04}
+
+underline{b=8,06cm}
+
+Berechnen der Seite h_b mithilfe des Satzes des Pythagoras.
+
+Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Angewandt auf das grüne Dreieck:
+
+mathrm{S^2=(h_b)^2+((b)/(2))^2 ⇒ (h_b)^2=S^2-((b)/(2))^2}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(h_b)^2=12,6^2-((8,06)/(2))^2}
+
+h_b=√{158,76-16,24}
+
+h_b=√{142,52}
+
+underline{h_b=11,94cm}
+
+Berechnen der Fläche des grünen Dreiecks mit der Formel:
+
+mathrm{A_{Delta}=(Grundlinie (b)· Höhe (h_b))/(2)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Delta_{grün}}=(8,06·11,94)/(2)}
+
+mathrm{A_{Delta_{grün}}=(96,24)/(2)}
+
+underline{mathrm{A_{Delta_{grün}}=48,12cm}}
+Berechnen der Mantelfläche der Pyramide:
+
+mathrm{M_{Pyramide}=A_{Delta_{grün}}·5}
+
+M_{Pyramide}=48,12·5
+
+underline{underline{M_{Pyramide}=240,60cm^2}}
+
+rule{180mm}{1mm}
+Berechnen der Fläche des blauen Rechtecks:
+
+Die Formel zur Berechnung der Fläche eines Rechtecks lautet:
+
+A_{Rechteck}=l· b
+
+Angewandt auf das blaue Rechteck:
+
+A_{Rechteck}=h_s· b
+
+Einsetzen der bekannten Größen in die Formel.
+
+A_{Rechteck}=5,6· 8,06
+
+underline{A_{Rechteck}=45,14cm^2}
+Berechnen der Mantelfläche des Prismas:
+mathrm{M_{Prisma}=A_{Rechteck}·5}
+
+M_{Prisma}=45,14·5
+
+underline{underline{M_{Prisma}=225,70cm^2}}
+
+rule{180mm}{1mm}
+
+Berechnen der Fläche des roten Dreiecks mit der Formel:
+
+mathrm{A_{Delta}=(1)/(2)· a· b·sin{(α)}}
+
+Angewandt auf das rote Dreieck:
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· r· r·sin{(γ)}}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· 6,86· 6,86·sin{(72°)}}
+
+mathrm{A_{Delta_{rot}}=(1)/(2)· 47,06·0,9511}
+
+underline{mathrm{A_{Delta_{rot}}=22,38cm^2}}
+
+Berechnen der Grundfläche des Prismas:
+mathrm{A_{Grundfl_{Prisma}}=mathrm{A_{Delta_{rot}}}·5}
+
+mathrm{A_{Grundfl_{Prisma}}=22,38·5}
+
+underline{underline{mathrm{A_{Grundfl_{Prisma}}=111,90cm^2}}}
+Die Oberfläche des zusammengesetzten Körpers ist dann:
+
+mathrm{O_{Körper}=M_{Pyramide}+M_{Prisma}+A_{Grundfl_{Prisma}}}
+
+O_{Körper}=240,60+225,70+111,90
+
+boxed{O_{Körper}=578,20cm^2} 
+Hinweis: 
+Wir haben die Zwischenergebnisse auf 2 Stellen nach dem Komma gerundet und damit weitergerechnet, wenn Du mit den Ergebnissen rechnest, die der Rechner liefert, erhältst Du ein geringfügig abweichendes Ergebnis.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo ExerciseGroup 331968 – https://de.serlo.org/mathe/331968/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+In einem Gefäß liegen acht Kugeln, die rot, blau und grün gefärbt sind.
+ Es werden zwei Kugeln ohne Zurücklegen gezogen.
+[Abbildung]
+- Wie groß ist die Wahrscheinlichkeit, zwei gleichfarbige Kugeln zu ziehen?
+
+Die Kugeln werden für ein Gewinnspiel eingesetzt. Dazu wird folgender Gewinnplan geprüft.
+- Berechne den Erwartungswert.
+[Abbildung]
+Einsatz: 2,50€ pro Spiel
+
+Der Veranstalter des Gewinnspiels möchte seinen Gewinn pro Spiel auf lange Sicht verdoppeln.
+- Wie hoch müsste dann der Gewinn für „eine grüne und eine blaue Kugel" sein, wenn alles andere unverändert bleibt?
+(5 Pkt.)
+Wahrscheinlichkeit zwei gleichfarbige Kugeln zu ziehen [Lücke: 18/56]  
+oder [Lücke: 32,14] %.
+
+Erwartungswert: [Lücke: -0,14] €.
+
+Gewinn für "eine grüne und eine blaue Kugel"  [Lücke: 8,72] €.
+Lösung:
+Berechnen der Wahrscheinlichkeit zwei gleichfarbige Kugeln zu ziehen.
+[Abbildung]
+Berechnen der Wahrscheinlichkeit, 2 rote Kugeln zu ziehen:
+
+Anwenden der 1. Pfadregel:
+
+mathrm{P_{(rr)}=(4)/(8)·(3)/(7) ⇒ P_{(rr)}=(12)/(56)}
+
+Berechnen der Wahrscheinlichkeit, 2 blaue Kugeln zu ziehen:
+
+Anwenden der 1. Pfadregel:
+
+mathrm{P_{(bb)}=(3)/(8)·(2)/(7) ⇒ P_{(bb)}=(6)/(56)}
+
+Wahrscheinlichkeit 2 gleichfarbige Kugeln zu ziehen:
+
+Anwenden der 2. Pfadregel:
+
+mathrm{P_{2 gleichfarbige K.}=(12)/(56)+(6)/(56) ⇒ P_{2 gleichfarbige K.}=(18)/(56)}
+
+Die Wahrscheinlichkeit 2 gleichfarbige Kugeln zu ziehen beträgt:
+
+(18)/(56)oder32,14 %
+
+Berechnen des Erwartungswertes.
+Der Erwartungswert E berechnet sich nach folgender Formel:
+
+E=x_1· P_1+x_2· P_2+...+x_n· P_n
+
+wobei:
+
+x_1...x_n:Werte
+P_1...P_n:Wahrscheinlichkeiten
+
+ 
+Für unsere Aufgabe ergibt sich dann:
+
+E=x_1· P_1+x_2· P_2+x_3· P_3
+
+Für dieses Glücksspiel gibt es n = 3 mögliche Ereignisse
+
+P_1: zwei gleichfarbige Kugeln:  textbf{rr}   oder textbf{bb}
+
+P_2: eine grüne und eine blaue Kugel: textbf{gb}  oder textbf{bg}
+
+P_3: restliche Möglichkeiten: alle anderen
+
+Wahrscheinlichkeit, zwei gleichfarbige Kugeln zu ziehen:
+hspace{12mm}mathrm{P_1=(18)/(56)} siehe oben
+
+Wahrscheinlichkeit, eine grüne und eine blaue Kugel zu ziehen:
+
+hspace{12mm}mathrm{P_2=(3)/(8)·(1)/(7)+(1)/(8)·(3)/(7) ⇒ P_2=(3)/(56)+(3)/(56)}siehe Baumdiagramm
+
+hspace{12mm}mathrm{P_2=(6)/(56)}
+
+restliche Möglichkeiten: alle anderen
+
+hspace{12mm}mathrm{P_3=(32)/(56)}
+
+Es ergeben sich folgende Gewinnwerte:
+
+textbf{(rr} oder textbf{bb)}  Gleichfarbige Kugeln,  Gewinn: 4,00 €-2,50 € ⇒ underline{ x_1=1,50 €}
+
+textbf{(gb} oder textbf{bg)} Grüne und blaue Kugel, Gewinn: 10,00 €-2,50 € ⇒ underline{ x_2=7,50 €}
+
+hspace{68mm}alle anderen:	0,00 €-2,50 € ⇒ underline{x_3=-2,50 €}
+
+mathrm{E=1,50·(18)/(56)+7,50·(6)/(56)-2,50·(32)/(56)}
+
+mathrm{E=(27)/(56)+(45)/(56)-(80)/(56) ⇒ E=-(8)/(56)}
+
+underline{underline{E=-0,14 €}}
+
+Der Erwartungswert beträgt: boxed{-0,14 €}
+Berechnen der Änderung des Gewinnplans für Verdopplung des Gewinns für den Veranstalter:
+Bei einer Verdoppelung des Gewinns für den Veranstalter verdoppelt sich der Erwartungswert textbf{E}.
+
+E=x_1· P_1+x_2· P_2+...+x_n· P_n
+
+Verdoppelter Erwartungswert:  E=-0,28
+
+Gewinn für „eine grüne und eine blaue Kugel“ : (x-2,50) 
+
+Einsetzen der Werte in die Formel:
+
+mathrm{-0,28=1,50·(18)/(56) + (x-2,50)·(6)/(56) - 2,50·(32)/(56)}
+
+Berechnen von x:
+
+  -0,28 = (27)/(56)+(6x-15)/(56)-(80)/(56)   | ·56
+  -15,68 = 27+6x-15-80
+  −15,68 = 6x-68   | +68
+  52,32 = 6x   | :6
+  x = 8,72
+Will der Veranstalter seinen Gewinn verdoppeln, muss der Gewinn für eine "grüne und eine blaue Kugel", boxed{8,72 €} betragen.
+
+--- Teilaufgabe b) ---
+Das Foto zeigt ein „Tiny House". Die Vorderseite des Hauses ist annähernd parabelförmig.
+Die maximale Höhe des Hauses beträgt 3,00 m.
+Am Boden ist es 2,70 m breit.
+- Berechne eine mögliche Funktionsgleichung für die parabelförmige Außenkante des Hauses.
+[Abbildung]
+Die 2,00 m hohe Eingangstür befindet sich mittig auf der Vorderseite des Hauses. 
+Am oberen Ende der Eingangstür befindet sich ein Vordach, das von Außenkante 
+zu Außenkante reicht.
+- Berechne die Länge dieses Vordachs.
+In 1,00 m Höhe hat der Türrahmen eine waagrechte Entfernung von 0,70m zu den Außenkanten.
+- Berechne den Flächeninhalt der Tür.
+(5 Pkt.)
+Lösung:
+Berechnen einer möglichen Funktionsgleichung für die parabelförmige Außenkante des Hauses.  
+[Abbildung]
+Wir legen den Scheitelpunkt der Parabel z. B. auf die y-Achse und erhalten damit die folgenden Punkte:
+
+P_1(-1,35|0); S(0|3); P_2(1,35|0)
+
+Aufstellen der Funktionsgleichung der Parabel p mithilfe der Scheitelform.
+
+Die allgemeine Scheitelform lautet:
+
+f(x)=a·(x-x_s)^2+y_s
+
+Einsetzen der Koordinaten der Punkte Sund P_2 in die allgemeine Scheitelform.
+
+a·(1,35-0)^2+3=0
+
+1,8225a+3=0 ⇒ 1,8225a=-3
+
+a=-1,646
+
+Eine mögliche Funktionsgleichung der Parabel p lautet dann:
+underline{underline{p:y=-1,646x^2+3}}
+
+Berechnen der Länge des Vordaches.
+[Abbildung]
+Das Vordach befindet sich in einer Höhe von 2m, d. h. der Funktionswert y=2
+-1,646x^2+3=2
+Berechnen von x:
+
+  -1,646x^2+3 = 2   | -3
+  -1,646x^2 = -1   | :(-1,646)
+  x^2 = (-1)/(-1,646)   | √{ }
+  x_{1/2} = ±√{(-1)/(-1,646)}
+  x_{1/2} = ±0,78
+Die Länge des Vordachs beträgt: boxed{1,56m}.
+Berechnen des Flächeninhalts der Tür.
+[Abbildung]
+Berechnen der Breite der Tür.
+
+Einsetzen der y-Koordinate des Punktes B in die Funktionsgleichung und berechnen von x.
+-1,646x^2+3=1
+Berechnen von x:
+  -1,646x^2+3 = 1   | -3
+  -1,646x^2 = -2   | :(-1,646)
+  x^2 = (-2)/(-1,646)   | √{ }
+  x_{1/2} = ±√{(-2)/(-1,646)}
+  x_{1/2} = ±1,102
+Die Breite der Türe berechnet sich dann wie folgt:
+
+(1,102-0,7)·2=0,80m(siehe Bild 3)
+
+Der Flächeninhalt der Tür berechnet sich dann wie folgt:
+
+A_{Tür}=0,80·2
+
+A_{Tür}=1,60m^2
+
+Der Flächeninhalt der Tür beträgt: ⁣boxed{1,60m^2}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 323192 – https://de.serlo.org/mathe/323192/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) In einem Gefäß liegen acht Kugeln, die rot, blau und grün gefärbt sind.
+     Es werden zwei Kugeln ohne Zurücklegen gezogen.
+[Abbildung]
+- Wie groß ist die Wahrscheinlichkeit, zwei gleichfarbige Kugeln zu ziehen?
+Die Kugeln werden für ein Gewinnspiel eingesetzt. Dazu wird folgender Gewinnplan geprüft.
+- Berechne den Erwartungswert.
+[Tabelle]
+Ereignis | Gewinn
+zwei gleichfarbige Kugeln | 4,00 €
+eine grüne und eine blaue Kugel | 10,00 €
+Einsatz: 2,50 € pro Spiel
+Der Veranstalter des Gewinnspiels möchte seinen Gewinn pro Spiel auf lange Sicht verdoppeln.
+- Wie hoch müsste dann der Gewinn für „eine grüne und eine blaue Kugel" sein, wenn alles     andere unverändert bleibt?
+(5 Pkt.)
+
+b) Das Foto zeigt ein „Tiny House". Die Vorderseite des Hauses ist annähernd parabelförmig.
+     Die maximale Höhe des Hauses beträgt 3,00 m.
+     Am Boden ist es 2,70 m breit.
+- Berechne eine mögliche Funktionsgleichung für die parabelförmige Außenkante des      Hauses.
+[Abbildung]
+Die 2,00 m hohe Eingangstür befindet sich mittig auf der Vorderseite des Hauses. 
+Am oberen Ende der Eingangstür befindet sich ein Vordach, das von Außenkante 
+zu Außenkante reicht.
+- Berechne die Länge dieses Vordachs.
+In 1,00 m Höhe hat der Türrahmen eine waagrechte Entfernung von 0,70m zu den Außenkanten.
+- Berechne den Flächeninhalt der Tür.
+(5 Pkt.)
+Lösung:
+Aufgabenteil a.)
+Berechnen der Wahrscheinlichkeit zwei gleichfarbige Kugeln zu ziehen.
+[Abbildung]
+Berechnen der Wahrscheinlichkeit, 2 rote Kugeln zu ziehen:
+
+Anwenden der 1. Pfadregel:
+
+mathrm{P_{(rr)}=(4)/(8)·(3)/(7) ⇒ P_{(rr)}=(12)/(56)}
+
+Berechnen der Wahrscheinlichkeit, 2 blaue Kugeln zu ziehen:
+
+Anwenden der 1. Pfadregel:
+
+mathrm{P_{(bb)}=(3)/(8)·(2)/(7) ⇒ P_{(bb)}=(6)/(56)}
+
+Wahrscheinlichkeit 2 gleichfarbige Kugeln zu ziehen:
+
+Anwenden der 2. Pfadregel:
+
+mathrm{P_{2 gleichfarbige K.}=(12)/(56)+(6)/(56) ⇒ P_{2 gleichfarbige K.}=(18)/(56)}
+
+Die Wahrscheinlichkeit 2 gleichfarbige Kugeln zu ziehen beträgt:
+
+(18)/(56)oder32,14 %
+rule{185mm}{0.5mm}
+Berechnen des Erwartungswertes.
+Der Erwartungswert E berechnet sich nach folgender Formel:
+
+E=x_1· P_1+x_2· P_2+...+x_n· P_n
+
+wobei:
+
+x_1...x_n:Werte
+P_1...P_n:Wahrscheinlichkeiten
+
+ 
+Für unsere Aufgabe ergibt sich dann:
+
+E=x_1· P_1+x_2· P_2+x_3· P_3
+
+Für dieses Glücksspiel gibt es n = 3 mögliche Ereignisse
+
+P_1: zwei gleichfarbige Kugeln:  textbf{rr}   oder textbf{bb}
+
+P_2: eine grüne und eine blaue Kugel: textbf{gb}  oder textbf{bg}
+
+P_3: restliche Möglichkeiten: alle anderen
+
+Wahrscheinlichkeit, zwei gleichfarbige Kugeln zu ziehen:
+
+hspace{12mm}mathrm{P_1=(18)/(56)} siehe oben
+
+Wahrscheinlichkeit, eine grüne und eine blaue Kugel zu ziehen:
+
+hspace{12mm}mathrm{P_2=(3)/(8)·(1)/(7)+(1)/(8)·(3)/(7) ⇒ P_2=(3)/(56)+(3)/(56)}siehe Baumdiagramm
+
+hspace{12mm}mathrm{P_2=(6)/(56)}
+
+restliche Möglichkeiten: alle anderen
+
+hspace{12mm}mathrm{P_3=(32)/(56)}
+
+Es ergeben sich folgende Gewinnwerte:
+
+textbf{(rr} oder textbf{bb)}  Gleichfarbige Kugeln,  Gewinn: 4,00 €-2,50 € ⇒ underline{ x_1=1,50 €}
+
+textbf{(gb} oder textbf{bg)} Grüne und blaue Kugel, Gewinn: 10,00 €-2,50 € ⇒ underline{ x_2=7,50 €}
+
+hspace{68mm}alle anderen:	0,00 €-2,50 € ⇒ underline{x_3=-2,50 €}
+
+mathrm{E=1,50·(18)/(56)+7,50·(6)/(56)-2,50·(32)/(56)}
+
+mathrm{E=(27)/(56)+(45)/(56)-(80)/(56) ⇒ E=-(8)/(56)}
+
+underline{underline{E=-0,14 €}}
+
+Der Erwartungswert beträgt: boxed{-0,14 €}
+rule{185mm}{0.5mm}
+Berechnen der Änderung des Gewinnplans für Verdopplung des Gewinns für den Veranstalter:
+Bei einer Verdoppelung des Gewinns für den Veranstalter verdoppelt sich der Erwartungswert textbf{E}.
+
+E=x_1· P_1+x_2· P_2+...+x_n· P_n
+
+Verdoppelter Erwartungswert:  E=-0,28
+
+Gewinn für „eine grüne und eine blaue Kugel“ : (x-2,50) 
+
+Einsetzen der Werte in die Formel:
+
+mathrm{-0,28=1,50·(18)/(56) + (x-2,50)·(6)/(56) - 2,50·(32)/(56)}
+Berechnen von x
+  -0,28 = mathrm{(27)/(56)+(6x-15)/(56)-(80)/(56)}   | ·56
+  -15,68 = 27+6x-15-80
+  -15,68 = 6x-68   | +68
+  52,32 = 6x   | :6
+  x = 8,72
+Will der Veranstalter seinen Gewinn verdoppeln, muss der Gewinn für eine "grüne und eine blaue Kugel", boxed{8,72 €} betragen. 
+rule{185mm}{1mm}
+Aufgabenteil b.)
+Berechnen einer möglichen Funktionsgleichung für die parabelförmige Außenkante des Hauses.  
+[Abbildung: Bild 1]
+Wir legen den Scheitelpunkt der Parabel z. B. auf die y-Achse und erhalten damit die folgenden Punkte:
+
+P_1(-1,35|0); S(0|3); P_2(1,35|0)
+
+Aufstellen der Funktionsgleichung der Parabel p mithilfe der Scheitelform.
+
+Die allgemeine Scheitelform lautet:
+
+f(x)=a·(x-x_s)^2+y_s
+
+Einsetzen der Koordinaten der Punkte Sund P_2 in die allgemeine Scheitelform.
+
+a·(1,35-0)^2+3=0
+
+1,8225a+3=0 ⇒ 1,8225a=-3
+
+a=-1,646
+
+Eine mögliche Funktionsgleichung der Parabel p lautet dann:
+
+underline{underline{p:y=-1,646x^2+3}}
+rule{185mm}{0.5mm}
+Berechnen der Länge des Vordaches.
+[Abbildung: Bild 2]
+Das Vordach befindet sich in einer Höhe von 2m, d. h. der Funktionswert y=2
+-1,646x^2+3=2
+berechnen von x
+  -1,646x^2+3 = 2   | -3
+  -1,646x^2 = -1   | :(-1,646)
+  x^2 = (-1)/(-1,646)   | √{}
+  x_{1/2} = ±√{(-1)/(-1,646)}
+  x_{1/2} = ±0,78
+Die Länge des Vordachs beträgt: boxed{1,56m}.
+rule{185mm}{0.5mm}
+Berechnen des Flächeninhalts der Tür.
+[Abbildung: Bild 3]
+Berechnen der Breite der Tür.
+
+Einsetzen der y-Koordinate des Punktes B in die Funktionsgleichung und berechnen von x.
+-1,646x^2+3=1
+berechnen von x
+  -1,646x^2+3 = 1   | -3
+  -1,646x^2 = -2   | :(-1,646)
+  x^2 = (-2)/(-1,646)   | √{ }
+  x_{1/2} = ±√{(-2)/(-1,646)}
+  x_{1/2} = ±1,102
+Die Breite der Türe berechnet sich dann wie folgt:
+
+(1,102-0,7)·2=0,80m(siehe Bild 3)
+
+Der Flächeninhalt der Tür berechnet sich dann wie folgt:
+
+A_{Tür}=0,80·2
+
+A_{Tür}=1,60m^2
+
+Der Flächeninhalt der Tür beträgt: ⁣boxed{1,60m^2}.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323194 – https://de.serlo.org/mathe/323194/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Die Parabel p_{1} hat die Funktionsgleichung y=x^{2}-8x+12.
+     Die verschobene, nach oben geöffnete Normalparabel p_{2} hat den Scheitelpunkt S_{2}(1 |-7).
+- Berechne die Koordinaten des Schnittpunkts Q_{1} der beiden Parabeln p_{1} und p_{2}.
+   Die Parabel p_{1} schneidet die x-Achse in den Punkten N_{1} und N_{2}.
+- Berechne die Koordinaten von N_{1} und N_{2}.
+   Die Punkte mathrm{N_{1}, N_{2}} und Q_{1} bilden ein Dreieck.
+- Berechne den Flächeninhalt des Dreiecks mathrm{N_{1} Q_{1} N_{2}}.
+   Der Punkt Q_{1} bewegt sich auf der Parabel p_{2} unterhalb der x-Achse. Dadurch entsteht der   
+   Punkt Q_{2} und somit das Dreieck mathrm{N_{1} Q_{2} N_{2}}.
+- Für welche Lage von Q_{2} wird der Flächeninhalt des Dreiecks am größten?
+- Berechne diesen maximalen Flächeninhalt.
+(5 Pkt.)
+
+b) Das regelmäßige Sechseck und das gleichschenklige Dreieck ABC haben die Seite ‾{AB} 
+     gemeinsam.
+[Abbildung]
+Es gilt: ‾{A B}=12,4cm
+- Berechne den Umfang des Dreiecks A B C.
+Tom behauptet: „Der Flächeninhalt des Sechsecks ist dreimal so groß wie der Flächeninhalt des Dreiecks ABC."
+- Hat Tom Recht?                                                                                                                                  Begründe deine Antwort durch Rechnung oder Argumentation.
+(5 Pkt.)
+Lösung:
+Aufgabenteil a.)
+Berechne die Koordinaten des Schnittpunkts Q_{1} der beiden Parabeln p_{1} und p_{2}.
+Aufstellen der Funktionsgleichung der Parabel p_2:
+
+Die Scheitelform einer quadratischen Funktion lautet:
+
+f(x)=(x-x_s)^2+y_s
+
+Einsetzen des der Koordinaten des Scheitels S_2 in die Scheitelform.
+
+p_2:y=(x-1)^2-7ausmultipliziert:p_2:y=x^2-2x-6
+
+Da es sich um eine nach oben geöffnete Normalparabel handelt, 
+ist der Öffnungsfaktora=1.
+
+Gleichsetzen der Funktionsgleichungen p_1und p_2.
+
+x^2-8x+12=x^2-2x-6 
+  x^2-8x+12 = x^2-2x-6   | -x^2
+  -8x+12 = -2x-6   | +2x-12
+  -6x = -18   | :-6
+  x = 3
+Einsetzen von x=3 in die Funktionsgleichung p_1 und berechnen von y.
+
+y=3^2-8·3+12
+y=9-24+12
+
+y=-3
+
+Koordinaten des Schnittpunktes: 
+
+underline{underline{Q_1(3|-3)}}
+Berechnen der Koordinaten von N_1 und N_2.
+x^2-8x+12=0
+
+Lösen der quadratischen Gleichung. 
+
+Die Lösungen einer quadratischen Gleichung ax^2+bx+c=0 
+mit der Mitternachtsformel, lauten:
+
+mathrm{x_{1,2}=dfrac{-b±√{b^2-4ac}}{2a}}
+
+mathrm{x_{1,2}=dfrac{8±√{8^2-4·1·12}}{2·1}}
+
+mathrm{x_{1,2}=dfrac{8±√{64-48}}{2·1}}
+
+mathrm{x_{1,2}=dfrac{8±√{16}}{2·1}}
+
+mathrm{x_1=(8-4)/(2) ⇒ x_1=2}
+
+mathrm{x_2=(8+4)/(2) ⇒ x_2=6}
+
+Koordinaten der Nullstellen:
+
+ underline{underline{N_1(2|0)}} 
+ underline{underline{N_2(6|0)}}
+rule{185mm}{0.5mm}
+Berechnen des Flächeninhalts des Dreiecks mathrm{N_{1} Q_{1} N_{2}}.
+[Abbildung: Bild 1]
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Einsetzen der  bekannten Werte: (siehe Bild 1) 
+
+mathrm{A_{Dreieck}=(4·3)/(2)}
+
+underline{underline{A_{Dreieck}=6 FE}}
+
+Der Flächeninhalt des Dreiecks mathrm{N_{1} Q_{1} N_{2}} beträgt:boxed{6 FE}.
+rule{185mm}{0.5mm}
+Berechnen des Flächeninhalts des Dreiecksmathrm{N_{1} Q_{2} N_{2}}.
+[Abbildung: Bild 2]
+Das Dreieck mathrm{N_{1} Q_{2} N_{2}}hat den größten Flächeninhalt  bei: boxed{Q_2(1|-7)}
+
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Einsetzen der  bekannten Werte: (siehe Bild 2) 
+
+mathrm{A_{Dreieck}=(4·7)/(2)}
+
+underline{underline{A_{Dreieck}=14 FE}}
+
+Der Flächeninhalt des Dreiecks mathrm{N_{1} Q_{2} N_{2}} beträgt:boxed{14 FE}.
+rule{185mm}{1mm}
+Aufgabenteil b.)
+Berechnen des Umfangs des Dreiecks ABC
+[Abbildung]
+Folgende Größen sind bekannt:
+
+mathrm{‾{AB}=12,4cm ‾{AM}=6,2cm ‾{MC}=2· ‾{MS} ‾{AC}=‾{BC}}
+
+Berechnen von ‾{MS}:
+
+Das Dreieck AMS ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt:
+
+mathrm{(Gegenkathete)/(Ankathete)=tan(α)}
+
+Angewandt auf das Dreieck AMS:
+
+mathrm{dfrac{‾{MS}}{‾{AM}}=tan(60°) ⇒ ‾{MS}=‾{AM}· tan{60°}}
+
+‾{MS}=6,2·1,7321
+
+‾{MS}=10,74cm
+
+Berechnen von ‾{MC}:
+
+mathrm{‾{MC}=2· ‾{MS} ⇒ ‾{MC}=2·10,74}
+
+underline{‾{MC}=21,48cm}
+rule{185mm}{0.5mm}
+
+Berechnen von ‾{AC}:
+
+Das Dreieck AMC ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt der Satz des Pythagoras. Der Satz des Pythagoras lautet:
+
+c^2=a^2+b^2
+
+Angewandt auf das Dreieck AMC:
+
+mathrm{‾{(AC)}^2=‾{(AM)}^2+‾{(MC)}^2 ⇒ ‾{AC}=√{‾{(AM)}^2+‾{(MC)}^2}}
+
+mathrm{‾{AC}=√{6,2^2+21,48^2}}
+
+mathrm{‾{AC}=√{499,83}}
+
+underline{‾{AC}=22,36cm}
+rule{185mm}{0.5mm}
+
+Umfang des Dreiecks ABC:
+
+mathrm{U_{ABC}=‾{AB}+‾{AC}+‾{BC}}
+
+U_{ABC}=12,4+22,36+22,36
+
+underline{underline{U_{ABC}=57,12cm}}
+
+Der Umfang des Dreiecks ABC beträgt:boxed{57,12cm}.
+
+Hinweis:
+Wir haben die Zwischenergebnisse auf zwei Stellen nach dem Komma gerundet und damit weitergerechnet, wenn Du mit den Werten rechnest, die der Rechner liefert, erhältst Du ein geringfügig abweichendes Ergebnis.
+rule{185mm}{0.5mm}
+Überprüfung von Tom's Behauptung:
+Formel zur Berechnung des Flächeninhalt des Sechsecks:
+
+mathrm{A_{Sechseck}=6·dfrac{‾{AB}·‾{MS}}{2}}
+
+mathrm{A_{Sechseck}=3·‾{AB}·‾{MS}}
+
+Formel zur Berechnung des Flächeninhalt des Dreiecks:
+
+mathrm{A_{Dreieck}=dfrac{‾{AB}·2·‾{MS}}{2}}
+
+mathrm{A_{Dreieck}=‾{AB}·‾{MS}}
+ 
+boxed{mathrm{A_{Sechseck}=3· A_{Dreieck}}}, Tom's Behauptung ist richtig.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 332066 – https://de.serlo.org/mathe/332066/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Die Parabel p_{1} hat die Funktionsgleichung y=x^{2}-8x+12.
+Die verschobene, nach oben geöffnete Normalparabel p_{2} hat den Scheitelpunkt S_{2}(1 |-7).
+- Berechne die Koordinaten des Schnittpunkts Q_{1} der beiden Parabeln p_{1} und p_{2}.
+   Die Parabel p_{1} schneidet die x-Achse in den Punkten N_{1} und N_{2}.
+- Berechne die Koordinaten von N_{1} und N_{2}.
+   Die Punkte mathrm{N_{1}, N_{2}} und Q_{1} bilden ein Dreieck.
+- Berechne den Flächeninhalt des Dreiecks mathrm{N_{1} Q_{1} N_{2}}.
+Der Punkt Q_{1} bewegt sich auf der Parabel p_{2} unterhalb der x-Achse. Dadurch entsteht der Punkt Q_{2} und somit das Dreieck mathrm{N_{1} Q_{2} N_{2}}.
+- Für welche Lage von Q_{2} wird der Flächeninhalt des Dreiecks am größten?
+- Berechne diesen maximalen Flächeninhalt.
+(5 Pkt.)
+Lösung:
+Berechne die Koordinaten des Schnittpunkts Q_{1} der beiden Parabeln p_{1} und p_{2}.
+Aufstellen der Funktionsgleichung der Parabel p_2:
+
+Die Scheitelform einer quadratischen Funktion lautet:
+
+f(x)=(x-x_s)^2+y_s
+
+Einsetzen des der Koordinaten des Scheitels S_2 in die Scheitelform.
+
+p_2:y=(x-1)^2-7ausmultipliziert:p_2:y=x^2-2x-6
+
+Da es sich um eine nach oben geöffnete Normalparabel handelt, 
+ist der Öffnungsfaktora=1.
+
+Gleichsetzen der Funktionsgleichungen p_1und p_2.
+
+x^2-8x+12=x^2-2x-6 
+  x^2-8x+12 = x2−2x−6   | -x^2
+  -8x+12 = -2x-6   | +2x-12
+  -6x = -18   | :(-6)
+  x = 3
+Einsetzen von x=3 in die Funktionsgleichung p_1 und berechnen von y.
+y=3^2-8·3+12
+y=9-24+12
+
+y=-3
+
+Koordinaten des Schnittpunktes: 
+underline{underline{Q_1(3|-3)}}
+
+Berechnen der Koordinaten von N_1 und N_2.
+x^2-8x+12=0
+
+Lösen der quadratischen Gleichung. 
+
+Die Lösungen einer quadratischen Gleichung ax^2+bx+c=0 
+mit der Mitternachtsformel, lauten:
+
+mathrm{x_{1,2}=dfrac{-b±√{b^2-4ac}}{2a}}
+
+mathrm{x_{1,2}=dfrac{8±√{8^2-4·1·12}}{2·1}}
+
+mathrm{x_{1,2}=dfrac{8±√{64-48}}{2·1}}
+
+mathrm{x_{1,2}=dfrac{8±√{16}}{2·1}}
+
+mathrm{x_1=(8-4)/(2) ⇒ x_1=2}
+mathrm{x_2=(8+4)/(2) ⇒ x_2=6}
+
+Koordinaten der Nullstellen:
+underline{underline{N_1(2|0)}} 
+underline{underline{N_2(6|0)}}
+ 
+Berechnen des Flächeninhalts des Dreiecks mathrm{N_{1} Q_{1} N_{2}}.
+[Abbildung]
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Einsetzen der  bekannten Werte: (siehe Bild 1) 
+
+mathrm{A_{Dreieck}=(4·3)/(2)}
+
+underline{underline{A_{Dreieck}=6 FE}}
+
+Der Flächeninhalt des Dreiecks mathrm{N_{1} Q_{1} N_{2}} beträgt:boxed{6 FE}.
+
+Berechnen des Flächeninhalts des Dreiecksmathrm{N_{1} Q_{2} N_{2}}.
+[Abbildung]
+Das Dreieck mathrm{N_{1} Q_{2} N_{2}}hat den größten Flächeninhalt  bei: boxed{Q_2(1|-7)}
+
+Die Formel zur Berechnung des Flächeninhalts eines Dreiecks lautet:
+
+mathrm{A_{Dreieck}=(g· h)/(2)}
+
+Einsetzen der  bekannten Werte: (siehe Bild 2) 
+
+mathrm{A_{Dreieck}=(4·7)/(2)}
+
+underline{underline{A_{Dreieck}=14 FE}}
+
+Der Flächeninhalt des Dreiecks mathrm{N_{1} Q_{2} N_{2}} beträgt:boxed{14 FE}.
+
+--- Teilaufgabe b) ---
+Das regelmäßige Sechseck und das gleichschenklige Dreieck ABC haben die Seite ‾{AB} gemeinsam.
+[Abbildung]
+Es gilt: ‾{A B}=12,4cm
+
+- Berechne den Umfang des Dreiecks A B C.
+
+Tom behauptet: „Der Flächeninhalt des Sechsecks ist dreimal so groß wie der Flächeninhalt des Dreiecks ABC."
+- Hat Tom Recht?                                                                                                                                  Begründe deine Antwort durch Rechnung oder Argumentation.
+( 5 Pkt.)
+Lösung:
+Berechnen des Umfangs des Dreiecks ABC.
+[Abbildung]
+Folgende Größen sind bekannt:
+
+mathrm{‾{AB}=12,4cm ‾{AM}=6,2cm ‾{MC}=2· ‾{MS} ‾{AC}=‾{BC}}
+
+Berechnen von ‾{MS}:
+
+Das Dreieck AMS ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt:
+
+mathrm{(Gegenkathete)/(Ankathete)=tan(α)}
+
+Angewandt auf das Dreieck AMS:
+
+mathrm{dfrac{‾{MS}}{‾{AM}}=tan(60°) ⇒ ‾{MS}=‾{AM}· tan{60°}}
+
+‾{MS}=6,2·1,7321
+
+‾{MS}=10,74cm
+
+Berechnen von ‾{MC}:
+
+mathrm{‾{MC}=2· ‾{MS} ⇒ ‾{MC}=2·10,74}
+
+underline{‾{MC}=21,48cm}
+
+
+Berechnen von ‾{AC}:
+
+Das Dreieck AMC ist ein rechtwinkliges Dreieck, im rechtwinkligem Dreieck gilt der Satz des Pythagoras. Der Satz des Pythagoras lautet:
+c^2=a^2+b^2
+
+Angewandt auf das Dreieck AMC:
+
+mathrm{‾{(AC)}^2=‾{(AM)}^2+‾{(MC)}^2 ⇒ ‾{AC}=√{‾{(AM)}^2+‾{(MC)}^2}}
+
+mathrm{‾{AC}=√{6,2^2+21,48^2}}
+
+mathrm{‾{AC}=√{499,83}}
+
+underline{‾{AC}=22,36cm}
+
+Umfang des Dreiecks ABC:
+
+mathrm{U_{ABC}=‾{AB}+‾{AC}+‾{BC}}
+
+U_{ABC}=12,4+22,36+22,36
+
+underline{underline{U_{ABC}=57,12cm}}
+
+Der Umfang des Dreiecks ABC beträgt:boxed{57,12cm}.
+
+Hinweis:
+Wir haben die Zwischenergebnisse auf zwei Stellen nach dem Komma gerundet und damit weitergerechnet, wenn Du mit den Werten rechnest, die der Rechner liefert, erhältst Du ein geringfügig abweichendes Ergebnis.
+Überprüfung von Tom's Behauptung:
+Formel zur Berechnung des Flächeninhalt des Sechsecks:
+
+mathrm{A_{Sechseck}=6·dfrac{‾{AB}·‾{MS}}{2}}
+
+mathrm{A_{Sechseck}=3·‾{AB}·‾{MS}}
+
+Formel zur Berechnung des Flächeninhalt des Dreiecks:
+
+mathrm{A_{Dreieck}=dfrac{‾{AB}·2·‾{MS}}{2}}
+
+mathrm{A_{Dreieck}=‾{AB}·‾{MS}}
+ 
+boxed{mathrm{A_{Sechseck}=3· A_{Dreieck}}}, Tom's Behauptung ist richtig.

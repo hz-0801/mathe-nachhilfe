@@ -1,0 +1,1710 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Werkrealschule Mathematik mit Lösungen – Prüfungsjahr 2022, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320103/2022 (Jahrgangsseite, Serlo-ID 320103); Prüfungsteile: https://de.serlo.org/mathe/320153/pflichtteil-a1 (Pflichtteil A1, ID 320153); https://de.serlo.org/mathe/320154/pflichtteil-a2 (Pflichtteil A2, ID 320154); https://de.serlo.org/mathe/320155/wahlteil-b (Wahlteil B, ID 320155)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2022  (Serlo-ID 320153)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323468 – https://de.serlo.org/mathe/323468/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Löse das Gleichungssystem.
+(I)   2x+24=7y
+(II)  2y+x-32=0
+x = [Lücke: 16] 
+y = [Lücke: 8] 
+Lösung:
+Gleichsetzungsverfahren
+Löse beide Gleichungen nach x auf.
+(I)   x=3,5y-12
+(II)  x=32-2y
+
+Setze (I)=(II)
+  3,5y-12 = 32-2y   | +12
+  3,5y = 44-2y   | +2y
+  5,5y = 44   | :5,5
+  y = 8
+Setze  y=8  z.B. in (I) ein.
+x=3,5·8-12
+x=28-12
+x=16
+Die Lösung lautet x=16 und y=8.
+[]
+Einsetzungsverfahren
+Löse  (I)  nach x auf.
+x=3,5y-12
+Setze x=3,5y-12 in  (II) ein.
+
+  2y+(3,5y-12)-32 = 0
+  2y+3,5y-12-32 = 0
+  5,5y-44 = 0   | +44
+  5,5y = 44   | :5,5
+  y = 8
+Setze  y=8  z.B. in (I) ein.
+x=3,5·8-12=16
+Die Lösung lautet x=16 und y=8.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 322337 – https://de.serlo.org/mathe/322337/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vervollständige die Formeln.
+
+[Abbildung]
+(1 Pkt.)
+sin (\alpha) = [Lücke: a/c] 
+tan (\alpha) = [Lücke: b/a] 
+Lösung:
+sin(α)= (Gegenkathete)/(Hypotenuse)
+sin(α)=(a)/(c)
+
+tan(β)=(Gegenkathete)/(Ankathete)
+tan(β)=(b)/(a)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323205 – https://de.serlo.org/mathe/323205/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vervollständige die Formeln.
+sin(α)=rule{15mm}{0.2mm}
+
+tan(β)=rule{15mm}{0.1mm}
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 322339 – https://de.serlo.org/mathe/322339/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Eine Parabel p_{1} mit der Funktionsgleichung y=0,5 x^{2}-4 wird an der Geraden g gespiegelt.
+Kreuze die Funktionsgleichung der gespiegelten Parabel an.
+[Abbildung]
+
+(1 Pkt.)
+[Auswahl (eine Antwort)]
+  ( ) y=-0,5x^2+4
+  ( ) y=0,5x^2+2
+  (x) y=-0,5x^2
+  ( ) y=0,5x^2
+Lösung:
+Der Scheitelpunkt S(0|-4) der Parabel y_1=0,5x^2-4  wird an der Geraden g auf den Ursprung gespiegelt. 
+Es gilt außerdem: Die gespiegelte Parabel y_2=-0,5x^2 ist nach unten geöffnet.
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323207 – https://de.serlo.org/mathe/323207/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Eine Parabel p_{1} mit der Funktionsgleichung y=0,5 x^{2}-4 wird an der Geraden g gespiegelt.
+Kreuze die Funktionsgleichung der gespiegelten Parabel an.
+[Abbildung]
+(1 Pkt.)
+[Auswahl (eine Antwort)]
+  ( ) y=-0,5x^2+4
+  ( ) y=0,5x^2+2
+  (x) y=-0,5x^2
+  ( ) y=0,5x^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 322341 – https://de.serlo.org/mathe/322341/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Welches dieser Dreiecke hat einen rechten Winkel? Begründe.
+
+A) a=9cm, b=12cm und c=15cm
+B) a=8cm, b=10cm und c=20cm
+C) a=3cm, b=4cm und c=6cm
+D) a=4cm, b=5cm und c=6cm
+
+(1 Pkt.)
+Lösung:
+In einem rechtwinkligen Dreieck gilt der Satz des Pythagoras a^2+b^2=c^2.
+A)   9^2+12^2=81+144=225=15^2
+B)   8^2+10^2=64+100=164ne400
+C)   3^2+4^2=9+16=25ne36
+D)   4^2+5^2=16+25=41ne 36
+Das Dreieck A ist rechtwinklig.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323209 – https://de.serlo.org/mathe/323209/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Welches dieser Dreiecke hat einen rechten Winkel? Begründe.
+
+A) a=9cm, b=12cm und c=15cm
+B) a=8cm, b=10cm und c=20cm
+C) a=3cm, b=4cm und c=6cm
+D) a=4cm, b=5cm und c=6cm
+
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 322343 – https://de.serlo.org/mathe/322343/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einer Messstation zwischen Russland und Alaska wurden von Juli bis Dezember folgende monatliche Durchschnittstemperaturen gemessen.
+[Tabelle]
+Monat | Jul | Aug | Sep | Okt | Nov | Dez
+Durchschnittstemperaturen~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ | 10^° C | 9^° C | 5^° C | -1^° C ~~~~~~~~~ | -9^° C ~~~~~~~~~ | -14^° C ~~~~~~~~~~~
+- Gib den Mittelwert der Messwerte von Juli bis Dezember an.
+- Bestimme den Temperaturunterschied zwischen Juli und Dezember.
+(1 Pkt.)
+Der Mittelwert der Messwerte von Juli bis Dezember beträgt: [Lücke: 0] °C.
+
+Der Temperaturunterschied zwischen Juli und Dezember beträgt: [Lücke: 24] °C.
+Lösung:
+Mittelwert:
+Beim Mittelwert wird die Summe aller Werte durch deren Anzahl geteilt:
+(10°C+9°C+5°C+(-1°C)+(-9°C)+(-14°C))/(6)=(0°C)/(6)=0°C
+Der Mittelwert der Messwerte von Juli bis Dezember beträgt 0°C.
+
+Temperaturunterschied:
+Beim Temperaturunterschied wird die Differenz zwischen dem höchsten und dem niedrigsten Wert in dem angegebenen Zeitraum ermittelt.
+10°C-(-14°C)=24°C
+Beachte das Vorzeichen, wenn du die Klammer auflöst.
+
+Der Temperaturunterschied zwischen Juli und Dezember beträgt 24°C.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 323212 – https://de.serlo.org/mathe/323212/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+In einer Messstation zwischen Russland und Alaska wurden von Juli bis Dezember folgende monatliche Durchschnittstemperaturen gemessen.
+[Tabelle]
+Monat | Jul | Aug | Sep | Okt | Nov | Dez
+Durchschnittstemperaturen | 10^° C | 9^° C | 5^° C | -1^° C ~~ | -9^° C ~ | -14^° C~~~
+- Gib den Mittelwert der Messwerte von Juli bis Dezember an.
+- Bestimme den Temperaturunterschied zwischen Juli und Dezember.
+(1 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 323214 – https://de.serlo.org/mathe/323214/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Jano behauptet: „Die Gleichung 0,5x^2-3x+4,5=0 hat zwei Lösungen."
+Stimmt die Aussage? Begründe.
+(1 Pkt.)
+x_{1,2} = [Lücke: 3]
+Die Aussage ist richtig [Lücke: nein] ja/nein.
+Lösung:
+Gleichung:  0,5x^2-3x+4,5=0
+
+pq Formel:
+Allgemeine Gleichungsform: x^2+px+q=0
+ x_{1,2}=-(p)/(2)±√{((p)/(2))^2-q}
+   p=-6,q=9
+x_{1,2}=-(-6)/(2)±√{((-6)/(2))^2-9}
+  Da die Wurzel den Wert 0 hat, gilt: x_1=x_2=3
+
+Die Behauptung von Jano ist also falsch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 11 des Teils
+[Serlo Exercise 323216 – https://de.serlo.org/mathe/323216/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Bestimme den Winkel α, ohne zu messen.
+[Abbildung]
+(1 Pkt.)
+[Eingabefeld: 105]
+Lösung:
+Im unteren Dreieck liegen alle Eckpunkte auf einem Thaleskreis. Das Dreieck besitzt daher einen rechten Winkel.
+Zudem ist das Dreieck gleichschenklig, d.h. die anderen beiden Winkel sind gleich groß.
+Wegen der Winkelsumme im Dreieck gilt:  (180°-90°):2=45°
+Die beiden anderen Winkel sind also 45°groß.
+
+Das obere Dreieck ist gleichseitig. Daher sind dort alle Innenwinkel gleich groß und somit 180°:3=60° groß.
+
+Also gilt: α=45°+60°=105°
+
+
+------------------------------------------------------------------------------
+Aufgabe 12 des Teils
+[Serlo Exercise 323218 – https://de.serlo.org/mathe/323218/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vervollständige den Streckenzug im Würfelnetz.
+[Abbildung]
+(1 Pkt.)
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 13 des Teils
+[Serlo Exercise 323220 – https://de.serlo.org/mathe/323220/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Berechne die Höhe des Hauses.
+[Abbildung]
+(1 Pkt.)
+[Eingabefeld: 12]
+Lösung:
+Bezeichnung der Haushöhe:  h
+Da die Haushöhe h parallel zur Höhe von 2m ist, kann der Strahlensatz genutzt werden.
+  (h)/(4m+20m) = (2m)/(4m)
+  (h)/(24m) = (1)/(2)   | ·24m
+  h = 12m
+Das Haus ist 12m hoch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 14 des Teils
+[Serlo Exercise 323222 – https://de.serlo.org/mathe/323222/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Beim Memory-Spiel sind immer zwei Karten mit demselben Bild enthalten.
+[Abbildung]
+Der Spieler, der an der Reihe ist, darf zwei Karten umdrehen. Jan hat die oberen Paare bereits gefunden, es sind nur noch die Karten rechts unten im Spiel. Er ist wieder an der Reihe und hat schon eine Karte mit einer Sonne umgedreht.
+- Berechne die Wahrscheinlichkeit, dass auf der zweiten Karte eine Sonne ist.
+
+[Abbildung]
+(1 Pkt.)
+[Eingabefeld: 1/5 | 0,2 | 20%]
+Lösung:
+Jede Karte wird mit der gleichen Wahrscheinlichkeit aufgedeckt. 
+Es sind jetzt nur noch fünf Karten verdeckt. 
+Auf jeder dieser Karten kann die Sonne sein.
+P(2. Karte ist die Sonne)=(1)/(5)
+
+
+==============================================================================
+Pflichtteil A2 2022  (Serlo-ID 320154)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 323224 – https://de.serlo.org/mathe/323224/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+1. Lars macht einen Zufallsversuch mit drei roten, einer gelben und zwei schwarzen Kugeln.
+[Abbildung]
+- Überprüfe die Aussagen und begründe.
+A) Es handelt sich um einen Zufallsversuch mit Zurücklegen.
+
+B) Wahrscheinlichkeit: P_{(text {zwei rote Kugeln })}=20 %
+Das Glücksrad soll zweimal gedreht werden. Die Ergebnisse werden dann addiert.
+[Abbildung]
+- Berechne die Wahrscheinlichkeit, bei zweimaligem Drehen eine Summe von       höchstens 4  zu erhalten. (Summe ≤ 4 )
+(3 Pkt.)
+Lösung:
+Aussagen überprüfen
+Aussage A: Die Aussage ist falsch. 
+Bei den angegebenen Wahrscheinlichkeiten im Baumdiagramm steht im Nenner immer die Gesamtzahl der Kugeln, aus den gezogen wird. Beim ersten Zug  sind dies 6 Kugeln, beim zweiten Zug sind es nur noch 5 Kugeln. Die erste gezogene Kugel wurde nicht zurückgelegt.
+
+Aussage B: Die Aussage ist richtig.
+Die Wahrscheinlichkeit P(footnotesize 1. Zug rot) beträgt P(footnotesize 1. Zug rot)=(3)/(6)
+Beim zweiten Zug ist dann eine rote Kugel weniger vorhanden.
+Die Wahrscheinlich P(footnotesize 2. Zug rot) beträgt dann P(footnotesize 2. Zug rot)=(2)/(5)
+
+Nach der Produktregel beträgt die Wahrscheinlich für zwei rote Kugeln
+
+P(footnotesize zwei rote Kugeln)=P(footnotesize 1. Zug rot)· P(footnotesize 2. Zug rot)
+P(footnotesize zwei rote Kugeln)= (3)/(6)·(2)/(5)=(6)/(30)=(1)/(5) hat{=} 20%
+Glücksrad
+Insgesamt gibt es 8 Felder auf dem Glücksrad, einige Zahlen kommen mehrfach vor.
+Es gelten folgende Wahrscheinlichkeiten:
+P(1)=(1)/(8)
+P(2)=(2)/(8)
+P(3)=(4)/(8)
+
+Folgende Ereignisse führen zu einer Summe von höchsten 4.
+[Tabelle]
+1. Drehen | 2. Drehen | Summe | Wahrscheinlichkeit
+1 | 1 | 2 | (1)/(8)·(1)/(8)=(1)/(64)
+1 | 2 | 3 | (1)/(8)·(2)/(8)=(2)/(64)
+1 | 3 | 4 | (1)/(8)·(4)/(8)=(4)/(64)
+2 | 1 | 3 | (2)/(8)·(1)/(8)=(2)/(64)
+2 | 2 | 4 | (2)/(8)·(2)/(8)=(4)/(64)
+3 | 1 | 4 | (4)/(8)·(1)/(8)=(4)/(64)
+Nach der 2. Pfadregel müssen die Wahrscheinlichkeiten der einzelnen Versuchsausgänge addiert werden.
+
+P(Summe≤ 4)=(1)/(64)+(2)/(64)+(4)/(64)+(2)/(64)+(4)/(64)+(4)/(64)=(17)/(64) hat{=} 26,56%
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323226 – https://de.serlo.org/mathe/323226/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Der Flächeninhalt der zusammengesetzten Figur beträgt 75 m^{2}. Die Seite a ist 6m länger als die Seite b. Die Höhe h beträgt 7m.
+- Berechne a und b; stelle dazu zunächst eine Gleichung auf.
+[Abbildung]
+(2 Pkt.)
+Lösung:
+Die Figur besteht aus einem Rechteck und einem Dreieck. 
+
+A_{Rechteck}=a· b
+A_{Dreieck}=(1)/(2)· a· h
+A_{gesamt}=A_{Rechteck}+A_{Dreieck}
+
+Bekannt:
+a=b+6m
+h=7m
+A_{gesamt}=75m^2
+
+(b+6)· b+(1)/(2)· (b+6)· h=75
+b^2+6· b+3,5· b+21=75
+b^2+9,5· b-54=0
+
+Löse die Gleichung z.B. mithilfe der Mitternachtsformel.
+
+b_{1,2}=dfrac{-9,5±√{(9,5)^2-4·(-54)}}{2}
+b_{1,2}=dfrac{-9,5±√{90,25+216}}{2}
+b_{1,2}=dfrac{-9,5±√{306,25}}{2}
+b_{1,2}=(-9,5±17,5)/(2)
+b_1=(-9,5+17,5)/(2)=4
+b_2=(-9,5-17,5)/(2)=-13,5
+Da die Länge der Seite eines Rechtecks nicht negativ sein kann, ergibt sich:
+
+b=4m 
+ ⇒ a=b+6m=10m
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323231 – https://de.serlo.org/mathe/323231/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Beim Stern von Bethlehem handelt es sich um eine Sternenkonstellation, bei der sich die Planeten Saturn und Jupiter auf ihren Umlaufbahnen nahe kommen.
+Von der Erde aus kann man dann ihren Abstand kaum noch wahrnehmen.
+Am 21. 12. 2020 lagen die beiden Planeten von der Erde aus gesehen nur 0,1° auseinander.
+[Abbildung]
+- Berechne x in km.
+Jeder Planet unseres Sonnensystems bewegt sich auf einer Umlaufbahn um die Sonne.
+- Berechne die in der Tabelle fehlenden Werte.
+[Tabelle]
+ | Erde | Jupiter | Saturn
+Umlaufzeit | 365 Tage | 4329 Tage | 
+Geschwindigkeit | 107208 mathrm{(km)/(h)} | 47052 mathrm{(km)/(h)} | 34884 mathrm{(km)/(h)}
+Länge der Umlaufbahn | 939142080 km |  | 9000909216 km
+(3 Pkt.)
+Lösung:
+Planetenabstand
+Zur Berechnung des Abstands x der Planeten wird der Sinus verwendet. Der Abstand von der Erde zum Jupiter ist die Hypotenuse eines rechtwinkligen Dreiecks. Der Abstand x ist die Gegenkathete.
+  sin{α} = (Gegenkathete)/(Hypotenuse)
+  sin{0,1^{°}} = (x)/(628 000 000)   | · 628 000 000
+  628 000 000·sin{0,1^{°}} = x
+  1 096 066 ≈ x
+Der Abstand x beträgt 1 096 066km.
+Tabelle
+Beachte, dass zur Berechnung der fehlenden Werte in der Tabelle die Tage in Stunden umgerechnet werden müssen.
+
+Zur Berechnung wird der Dreisatz verwendet.
+[Tabelle]
+ | Erde | Jupiter | Saturn
+Umlaufzeit | 365 Tage | 4329 Tage | 10 751Tage
+Geschwindigkeit | 107 208 mathrm{(km)/(h)} | 47 052 mathrm{(km)/(h)} | 34 884 mathrm{(km)/(h)}
+Länge der Umlaufbahn | 939 142 080 km | 4 888 514 592 km | 9 000 909 216 km
+Umlaufzeit des Saturn:
+
+(9 000 909 216)/(34 884)=258 024 Stunden
+
+(258 024)/(24)=10 751 Tage
+
+Länge der Umlaufbahn des  Jupiter:
+
+47 052 · 4 329 · 24=4 888 514 592 km
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323233 – https://de.serlo.org/mathe/323233/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Für die Skizze gilt: r=7,5cm und α=110°
+- Berechne b
+[Abbildung]
+In einen weiteren Kreis mit r=4cm wird ein Quadrat eingezeichnet.
+Die vier Eckpunkte liegen auf der Kreislinie.
+
+- Erstelle eine Skizze und berechne den Flächeninhalt des Quadrates.
+(3 Pkt.)
+Lösung:
+Berechnung von b
+Die gestrichelte Linie in der Abbildung teilt das Dreieck in zwei rechtwinklige Dreiecke mit Hypotenuse r, einer Kathete (b)/(2) und dem Winkel (α)/(2).
+Mit dem Sinus kann b berechnet werden.
+
+ 
+  sin(α)/(2) = ((b)/(2))/(r)
+  sin{(110)/(2)} = ((b)/(2))/(7,5)   | · 7,5
+  7,5·sin{55} = (b)/(2)   | · 2
+  2· 7,5·sin{55} = b
+  12,29 ≈ b
+Die Strecke b ist 12,29cm lang.
+Fläche des Quadrats
+[Abbildung]
+Annahme: Das Quadrat mit seinen Eckpunkten auf dem Kreisbogen hat eine Seitenlänge von a.
+Die Diagonale des Quadrats geht durch den Mittelpunkt des Kreises und hat eine Länge von c=2r.
+Zwei Seiten a des Quadrats bilden mit der Diagonalen c ein rechtwinkliges Dreieck mit Hypotenuse c und den beiden Katheten a.
+Mit dem Satz des Pythagoras kann die Länge der Katheten berechnet werden.
+  a^2 + b^2 = c^2
+  a^2 + a^2 = (2r)^2
+  2a^2 = (2r)^2
+  2a^2 = (2· 4)^2
+  2a^2 = 8^2
+  2a^2 = 64   | :2
+  a^2 = 32   | √{}
+  a ≈ ± 5,66
+Für die Seitenlänge des Quadrats ist nur der positive Wert sinnvoll.
+
+Flächeninhalt A des Quadrats
+
+A=a^2 =5,66^2 ≈ 32,04cm^2
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323235 – https://de.serlo.org/mathe/323235/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Vor drei Jahren hat Familie Kramer bei einer Bank 15000,00 € angelegt:
+
+- Berechne, welcher Betrag Familie Kramer nach Ablauf der drei Jahre zur Verfügung steht.
+[Abbildung]
+Dieses Geld wurde ausbezahlt. Davon werden 14000,00 € zum Kauf eines neuen Autos (Gesamtpreis 25000,00 € ) als Anzahlung verwendet.
+Der Rest muss über eine Bank in Form eines Annuitätendarlehens finanziert werden:
+[Abbildung]
+- Berechne die Tilgung der ersten beiden Monate.
+[Tabelle]
+Kredithöhe Monatsanfang | Zinsen ~~~~~~~~~~~~~ | Rate | Tilgung ~~~~~~~~~~~~~~ | Kredithöhe Monatsende
+ |  |  |  | 
+(2 Pkt.)
+Lösung:
+Berechnen des Betrags, der Familie Kramer nach Ablauf der drei Jahre zur Verfügung steht.
+Wir berechnen den Betrag mithilfe der Formel zur Berechnung des Zinseszins.
+
+Die Formel zur Berechnung des Zinseszins lautet:
+
+K_n=K_0·(1+ p)^n
+
+Folgende Größen sind bekannt:
+
+K_0=15000 € p=1,5 % n=3 Jahre
+
+Einsetzen in die Formel und berechnen von K_n.
+
+mathrm{K_3=15000·(1+(1,5)/(100))^3 ⇒ K_N=15000·1,015^3}
+
+underline{underline{K_3=15685,18 €}}
+
+Nach 3 Jahren steht der Familie Kramer ein Betrag von boxed{15685,18 €} zur Verfügung.
+Berechnen der Tilgung der ersten beiden Monate.
+Wir berechnen zuerst den Betrag, den Familie Kramer für den Autokauf finanzieren muss (siehe Aufgabenstellung).
+ 
+Betrag_{finaz.}=25000-14000
+
+underline{Betrag_{finanz.}=11000 €}
+
+Berechnen des Betrages der Tilgung der ersten beiden Monate.
+Berechnen der Zinsen des 1. Monats mit der Formel:
+
+mathrm{Z=(K· p)/(12)}
+
+Folgende Größen sind bekannt:
+
+K_{1. Mt.}=11000 € p=1,44 %
+
+Einsetzen in die Formel und berechnen von Z.
+
+mathrm{Z_{1. Mt.}=(11000·0,0144)/(12)}
+
+underline{Z_{1. Mt.}=13,20 €}
+
+Die Tilgung im 1. Monat ist dann:
+
+Tilgung_{1. Mt.}=430 €-13,20 €
+
+underline{Tilgung_{1. Mt.}=416,80 €}
+
+Berechnen der Zinsen des 2. Monats.
+
+Im 2. Monat beträgt die Kredithöhe:
+
+K_{2. Mt.}=11000 €-416,80 €
+
+underline{K_{2. Mt.}=10583,20 €}
+
+mathrm{Z_{2. Mt.}=(10583,20·0,0144)/(12)}
+
+underline{Z_{2. Mt.}=12,70 €}
+
+Die Tilgung im 2. Monat ist dann:
+
+Tilgung_{2. Mt.}=430 €-12,70 €
+
+underline{Tilgung_{2. Mt.}=417,30 €}
+
+Die Kredithöhe Ende des 2. Monats beträgt dann:
+
+10583,20-417,30=underline{10165,90 €}
+
+Eintragen der Werte in die Tabelle.
+[Tabelle]
+Kredithöhe Monatsanfang [€] | Zinsen [€] | Rate [€] | Tilgung [€] | Kredithöhe Monatsende [€]
+11000 | 13,20 | 430,00 | 416,80 | 10583,20
+10583,20 | 12,70 | 430,00 | 417,30 | 10165,90
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 323237 – https://de.serlo.org/mathe/323237/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Ein Wasserspeicher hat die Form eines Zylinders mit aufgesetztem Kegel 
+(siehe Abbildung). In das zylinderförmige Wasserbecken passen, vollständig gefüllt, 8 m^{3} Wasser. Folgende weitere Maße sind bekannt:
+
+α=40°
+s=1,35 m
+[Abbildung]
+- Berechne die Höhe des Wasserbeckens.
+- Berechne die Gesamthöhe des Wasserspeichers.
+Das Blechdach des Wasserspeichers soll ersetzt werden. Der Dachüberstand beträgt a=15 cm (siehe Abbildung).
+[Abbildung]
+- Berechne, wie viel m^{2} Blech benötigt werden.
+(3 Pkt.)
+Die Höhe des Wasserbeckens beträgt: [Lücke: 2,40] m.
+
+Die Gesamthöhe des Wasserspeichers beträgt: [Lücke: 3,27] m.
+
+Es werden  [Lücke: 5,42]m^2 Blech benötigt.
+Lösung:
+Teilaufgabe a.)
+Berechnen der Höhe des Wasserbeckens.
+[Abbildung: Skizze Wasserspeicher]
+Das Wasserbecken hat die Form eines Zylinders. Damit die Höhe des Wasserbeckens berechnen werden kann, muss zuerst der Radius r_Z des Zylinders berechnet werden.
+
+Die Formel zur Berechnung des Volumeninhalts eines Zylinders lautet:
+
+V_{Zylinder}=r^2·π· h
+
+Auflösen der Formel nach h.
+
+mathrm{h=dfrac{V_{Zylinder}}{r^2·π}}
+
+Berechnen von r_Z mithilfe des Kosinus.
+
+Das farbig markierte Dreieck ist ein rechtwinkliges Dreieck, mit den Katheten r_Z und  h_k und der Hypotenuse S. 
+
+Im rechtwinkligen Dreieck gilt:
+
+mathrm{(Ankathete)/(Hypotenuse)=cos(α)}
+
+Angewandt auf das farbige Dreieck:
+
+mathrm{(r_Z)/(S)=cos(α)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(r_Z)/(1,35)=cos(40°) ⇒ r_Z=1,35·cos(40°)}
+
+r_Z=1,35·0,7660
+
+underline{r_Z=1,03 m}
+
+Berechnen von h_Z.
+
+mathrm{h_Z=dfrac{V_{Zylinder}}{r_Z^2·π}}
+
+mathrm{h_Z=(8)/(1,03^2·π) ⇒ h_Z=(8)/(1,0609·π)}
+
+underline{underline{h_z=2,40m}}
+
+Die Höhe des Wasserbeckens beträgt boxed{2,40m}.
+Berechnen der Gesamthöhe des Wasserspeichers.
+Die Gesamthöhe des Wasserspeichers setzt sich zusammen aus der Höhe des Wasserbeckens und der Höhe des kegelförmigen Daches (siehe Skizze Wasserspeicher).
+
+Berechnen der Höhe h_K mithilfe des Sinus.
+
+Im rechtwinkligen Dreieck gilt:
+
+mathrm{(Gegenkathete)/(Hypotenuse)=sin(α)}
+
+Angewandt auf das farbige Dreieck:
+
+mathrm{(h_K)/(S)=sin(α)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(h_K)/(1,35)=sin(40°) ⇒ h_K=1,35·sin(40°)}
+
+h_K=1,35·0,6428
+
+underline{h_K=0,87 m}
+
+Die Gesamthöhe beträgt dann:
+
+mathrm{h_{gesamt}=h_Z+h_K ⇒ h_{gesamt}=2,40+0,87}
+
+underline{underline{h_{gesamt}=3,27m}}
+
+Der Wasserspeicher ist boxed{3,27m} hoch.
+Teilaufgabe b.)
+Berechnen der Fläche des benötigten Blechs.
+[Abbildung: Skizze kegelförmiges Blechdach]
+Die Fläche des Blechs, die benötigt wird um das Blechdach zu ersetzen, entspricht der Mantelfläche des Kegels (siehe Skizze kegelförmiges Blechdach).
+
+Die Formel zur Berechnung der Mantelfläche eines Kegels lautet:
+
+M_{Kegel}=Radius·π· Mantellinie
+
+Die Mantellinie m des kegelförmigen Blechdachs ist:
+
+m_{Dach}=1,35+0,15
+
+underline{m_{Dach}=1,50m}
+Berechnen des Radius r_{Dach} des Blechdachs mithilfe des Kosinus.
+
+Das grüne Dreieck ist ein rechtwinkliges Dreieck, in diesem Dreieck gilt:
+
+mathrm{dfrac{r_{Dach}}{1,50}=cos{(α)}}
+
+Die Winkel α und α` sind Stufenwinkel, Stufenwinkel sind gleich groß.
+α=α`=40°
+
+r_{Dach}=1,50·cos(40°)
+
+underline{r_{Dach}=1,15m}
+
+Berechnen der Mantelfläche des Blechdachs:
+
+mathrm{M_{Dach}=r_{Dach}· m_{Dach}·π}
+
+M_{Dach}=1,15·1,50·π
+
+underline{underline{M_{Dach}=5,42m^2}}
+
+Es werden boxed{5,42m^2} Blech für das Blechdach benötigt.
+Hinweis:
+Der Radius r_{Dach} kann auch mithilfe des 2. Strahlensatzes berechnet werden, nämlich:
+
+mathrm{(1,50)/(1,35)=dfrac{r_{Dach}}{r_Z} ⇒ r_{Dach}=(1,50· r_Z)/(1,35)}
+
+mathrm{r_{Dach}=(1,50·1,0342)/(1,35)}
+
+underline{r_{Dach}=1,15m}
+
+Berechnung der Mantelfläche des Blechdachs siehe oben.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 323239 – https://de.serlo.org/mathe/323239/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Parabel mathrm{y=-(1)/(4)x^{2}+4} wird an der x-Achse gespiegelt.
+Der Scheitelpunkt wird um 2 LE nach oben verschoben
+
+- Nenne die Funktionsgleichung für die neue Parabel.
+- Zeichne die Parabel y=-(1)/(4)x^2+4 in ein geeignetes Koordinatensystem ein.
+(2 Pkt.)
+Lösung:
+Allgemenine Scheitelform einer Parabel:
+f(x)=a(x-d)^2+e
+
+Wandle   y=-(1)/(4)x^2+4  in die Scheitelform um.
+y=-(1)/(4)(x+0)^2+4
+Scheitelpunkt: S(0|4)
+
+Spiegelung an der x-Achse.
+Scheitelpunk:t  S'(0|-4)
+Die Parabel ist nach oben geöffnet.
+
+Einfluß der Parameter in der Scheitelform:
+a>0:  die Parabel ist nach oben geöffnet
+a=(1)/(4)
+y'=(1)/(4)x^2-4
+
+e>0: Verschiebung der Parabel nach oben.
+e=2
+y'= (1)/(4)x^2-4+2
+Die Funktionsgleichung der neuen Prabel lautet  y'= (1)/(4)x^2-2
+Zeichnung der Parabel  y=-(1)/(4)x^2+4
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 323241 – https://de.serlo.org/mathe/323241/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+Die Grafik zeigt die Kostenentwicklung beim Bau eines Großflughafens.
+
+- Berechne, um wie viel Prozent die Kosten von 2010 bis 2020 angestiegen sind.
+- Bestimme, in welchen beiden aufeinanderfolgenden Jahren der Kostenanstieg prozentual am größten war.
+[Abbildung]
+Die durchschnittliche jährliche Kostensteigerung von 2010 bis 2020 betrug 9,86 %.
+- Berechne, auf welchen Betrag eine Geldanlage von 25000,00 € mit diesem jährlichen Zinssatz von 2010 bis 2020 angestiegen wäre.
+(Die Zinsen werden mitverzinst.)
+(2 Pkt.)
+Lösung:
+Berechnung, des prozentualen Anstiegs der Kosten von 2010 bis 2020.
+Berechnen des prozentualen Anstiegs der Kosten mit der Formel zur Berechnung des vermehrten Grundwertes.
+
+Die Formel zur Berechnung des vermehrten Grundwerts lautet:
+
+mathrm{G^+=G·(1+(p)/(100))}
+
+Folgende Größen sind bekannt:
+
+G^+=6,4 ; G=2,5
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{6,4=2,5·(1+(p)/(100))} |:2,5
+
+mathrm{2,56=1+(p)/(100)} |·100 
+
+256=100+p |-100 und Seiten tauschen
+
+underline{underline{p=156 %}}
+
+Der Anstieg der Kosten von 2010 bis 2020, beträgt: boxed{156 %}.
+Bestimmen, in welchen beiden aufeinanderfolgenden Jahren der Kostenanstieg prozentual am größten war.
+Kostenanstieg vergleichen.
+[Tabelle]
+Jahr | Berechnung Kostenanstieg | Anstieg  Kosten [%]
+2010-2011 | (2,8-2,5)/(2,5)·100 | 12
+2011-2012 | (3-2,8)/(2,8)·100 | 7,1
+2012-2013 | (4-3)/(3)·100 | textbf{33,3}
+2013-2014 | (5,2-4)/(4)·100 | textbf{30}
+2014-2015 | (5,3-5,2)/(5,2)·100 | 1,9
+2015-2016 | (5,4-5,3)/(5,3)·100 | 1,9
+2016-2017 | (6-5,4)/(5,4)·100 | 11,1
+2017-2018 | (6,1-6)/(6)·100 | 1,7
+2018-2019 | (6,3-6,1)/(6,1)·100 | 3,3
+2019-2020 | (6,4-6,3)/(6,3)·100 | 1,6
+Aus der Tabelle lesen wir ab, dass der  Kostenanstieg in den Jahren 2012 und 2013  prozentual am größten war.
+Hinweis:
+Die Tabelle braucht nicht erstellt zu werden.
+Der prozentuale Anstieg lässt sich auch am Verlauf des Graphen ablesen.
+In den Jahren 2012 und 2013 ist der Anstieg des Graphen am steilsten, d. h. der prozentuale Kostenanstieg war in diesen beiden Jahren am größten.
+Berechnen, auf welchen Betrag eine Geldanlage von Large{25000,00 €} mit diesem jährlichen Zinssatz von 2010 bis 2020 angestiegen wäre.
+Der jährliche Zinssatz beträgt laut Aufgabenstellung 9,86 %.
+
+Die Formel zur Berechnung des Zinseszins lautet:
+
+K_n=K_0·(1+ p)^n
+
+Folgende Größen sind bekannt:
+
+n=10 ; K_0=25000,00 € ; p=9,86 %
+
+Einsetzen der bekannten Größen in die Formel:
+
+mathrm{K_{10}=25000·(1+(9,86)/(100))^{10}}
+
+mathrm{K_{10}=25000·1,0986^{10}}
+
+underline{underline{K_{10}=64022,99 €}}
+
+Die Geldanlage von 25000,00 € wäre im Jahre 2020 auf boxed{64022,99 €} angewachsen.
+
+
+==============================================================================
+Wahlteil B 2022  (Serlo-ID 320155)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 323693 – https://de.serlo.org/mathe/323693/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Der Würfel hat die Seitenlänge 5cm.
+Der Durchmesser der Grundfläche und die Höhe des Kegels entsprechen der Kantenlänge des Würfels.
+(d_{Grundfläche Kegel}=h_{Kegel}=a_{Würfel})
+[Abbildung]
+- Bestimme das Volumen des Kegels.
+- Berechne den prozentualen Anteil des Kegelvolumens am Würfelvolumen.
+- Bestimme den Winkel α oder β des Kegels.
+[Abbildung]
+Wird ein Kegel auf halber Höhe zur Grundfläche geteilt, gilt: d_2=(d_1)/(2)
+- Überprüfe mithilfe des Strahlensatzes, ob diese Aussage richtig ist.
+Das Volumen des Kegels beträgt: [Lücke: 32,7] cm^3.
+
+Der prozentuale Anteil des Kegelvolumens am Würfelvolumen beträgt: [Lücke: 26,16] %.
+
+Die Winkel α des Kegels beträgt: [Lücke: 53,14] °.
+
+Die Aussage, boxed{mathrm{d_2=(d_1)/(2)}} ist richtig [Lücke: ja] . (ja /nein)
+Lösung:
+Berechnen des Volumens des Kegels.
+Die Formel zur Berechnung des Volumens eines Kegels lautet:
+
+mathrm{V_{Kegel}=(1)/(3)· G· h G=r^2·π}
+
+Folgende  Größen sind bekannt:
+r=2,5cm; h=5cm
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{V_{Kegel}=(1)/(3)· 2,5^2·π·5}
+
+V_{Kegel}=32,7cm^3
+
+Das Volumen des Kegels beträgt: ⁣boxed{32,7cm^3}. 
+Berechnen des prozentualen Anteils des Kegelvolumens am Würfelvolumen.
+Berechnen des Würfelvolumens.
+
+Die Formel zur Berechnung des Volumens eines Würfels lautet:
+
+V_{Würfel}=a^3
+
+Einsetzen der bekannten Größe in die Formel.
+
+V_{Würfel}=5^3
+
+V_{Würfel}=125cm^3
+
+Das Volumen des Würfels beträgt: 125cm^3.
+
+Das Volumen des Kegels beträgt:      32,7cm^3.
+
+Der prozentuale Anteil ist dann:
+
+mathrm{p=dfrac{V_{Kegel}}{V_{Würfel}}·100}
+
+mathrm{p=(32,7)/(125)·100}
+
+p=0,2616·100
+
+p=26,16 %
+
+Der prozentuale Anteil des Kegelvolumens am Würfelvolumen
+ beträgt: ⁣boxed{26,16 %}.
+Bestimmen des Winkel α oder β des Kegels.
+[Abbildung: Bild 1]
+Bestimmen des Winkels α des Kegels.
+
+Das farbig markierte Dreieck ist ein rechtwinkliges Dreieck. Im rechtwinkligem
+Dreieck gilt:
+
+mathrm{(Gegenkathete)/(Ankathete)=tan(α)}
+
+In unserem Dreieck gilt dann:
+
+mathrm{(h)/(r)=tan(α)}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(5)/(2,5)=tan(α) ⇒ tan(α)=2}
+α=tan^{-1}(2)
+
+α=63,43°
+
+Der Winkel α beträgt: boxed{63,43°}.
+
+Bestimmen des Winkels β des Kegels.
+
+Um den Winkel β bestimmen zu können, muss erst der Winkel mathrm{(β)/(2)} berechnet werden.
+
+Hier gibt es zwei Lösungsmöglichkeiten:
+
+1. Lösung
+In unserem Dreieck gilt dann:
+
+mathrm{(r)/(h)=tan((β)/(2))}
+
+Einsetzen der bekannten Größen in die Formel.
+
+mathrm{(2,5)/(5)=tan((β)/(2)) ⇒ tan((β)/(2))=0,5}
+mathrm{(β)/(2)=tan^{-1}{(0,5)}}
+
+mathrm{(β)/(2)=26,57° ⇒ β=26,57·2}
+
+β=53,14°
+
+Der Winkel β beträgt: boxed{53,14°}.
+
+2. Lösung
+Im Dreieck ist die Winkelsumme 180°. Dann ist mathrm{(β)/(2)}=180°-90°-63,43°=26,57° und β=26,57°·2=53,14°. Der Winkel β beträgt: boxed{53,14°}.
+Überprüfen, mithilfe des Strahlensatzes, ob die Aussage richtig ist. 
+
+[Abbildung: Bild 2]
+Anwendung des Strahlensatzes auf die Figur in Bild 2.
+
+mathrm{(d_1)/(d_2)=(h)/(((h)/(2))) (h)/(((h)/(2)))=dfrac{2· cancel{h}}{cancel{h}}}
+
+mathrm{(d_1)/(d_2)=2 |· d_2}
+
+d_1=2· d_2 |:2 und Seiten tauschen
+
+boxed{mathrm{d_2=(d_1)/(2)}}
+
+Die Aussage ist richtig.
+
+--- Teilaufgabe b) ---
+In einem Beutel befinden sich insgesamt 15 Kugeln (rot, gelb und blau). Es werden Kugeln ohne Zurücklegen gezogen.
+Wahrscheinlichkeit
+
+P(rot/rot)= (20)/(210)
+P(gelb/gelb)= (30)/(210)
+P(blau/blau)= (12)/(210)
+- Erstelle ein Baumdiagramm.
+- Bestimme die Anzahl der roten, gelben und blauen Kugeln.
+In einem anderen Beutel befinden sich 26 gold-, 13 silber- und 19 bronzefarbene Kugeln. Es wird zweimal mit Zurücklegen gezogen.
+Bestimme die Wahrscheinlichkeit, dass eine goldene und eine silberne Kugel gezogen werden.
+Die Reihenfolge spielt keine Rolle.
+Lösung:
+Erstellen des Baumdiagramms.
+[Abbildung]
+Bestimmen der Anzahl der roten, gelben und blauen Kugeln.
+Hier handelt es sich um ein Zufallsexperiment ohne zurücklegen, die Zähler  der als Brüche angegebenen  Wahrscheinlichkeiten sind das Produkt von zwei aufeinanderfolgenden absteigenden natürlichen Zahlen.
+
+Berechnen der Anzahl der roten Kugeln:
+
+n_r· (n_r-1)=20
+n_r^2-n_r-20=0zerlegen in Linearfaktoren
+mathrm{(n_r-5)(n_r+4)=0 ⇒ n_{r1}=5 ; cancel{n_{r2}=-4}}
+
+Die Anzahl der roten Kugeln beträgt: boxed{5}
+rule{170mm}{0.5mm}
+
+Berechnen der Anzahl der gelben Kugeln:
+
+n_g· (n_g-1)=30
+n_g^2-n_g-30=0zerlegen in Linearfaktoren
+mathrm{(n_g-6)(n_g+5)=0 ⇒ n_{g1}=6 ; cancel{n_{g2}=-5}}
+
+Die Anzahl der gelben Kugeln beträgt: boxed{6}
+rule{170mm}{0.5mm}
+Berechnen der Anzahl der blauen Kugeln:
+
+n_b· (n_b-1)=12
+n_b^2-n_b-12=0zerlegen in Linearfaktoren
+mathrm{(n_b-4)(n_b+3)=0 ⇒ n_{b1}=4 ; cancel{n_{b2}=-3}}
+
+Die Anzahl der blauen Kugeln beträgt: boxed{4}
+
+Alternativ kannst Du auch die Anzahl der blauen Kugeln bestimmen, indem Du die folgende Gleichung löst:
+n_r+n_g+n_b=15 ⇒ 5+6+n_b=15 ⇒ n_b=15-11=4
+rule{170mm}{0.5mm}
+Bestimmen der Wahrscheinlichkeit, dass eine goldene und eine silberne Kugel gezogen werden.
+Die Reihenfolge spielt keine Rolle!
+mathrm{P_{gold/silber}=(26)/(58)·(13)/(58) ⇒ P_{gold/silber}=(338)/(3364)}
+
+mathrm{P_{silber/gold}=(13)/(58)·(26)/(58) ⇒ P_{silber/gold}=(338)/(3364)}
+
+Damit ist die Wahrscheinlichkeit, dass eine goldene und eine silberne Kugel gezogen werden (338)/(3364)≈0,1 oder 10 %.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 323276 – https://de.serlo.org/mathe/323276/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Der Würfel hat die Seitenlänge a=5cm.
+     Der Durchmesser der Grundfläche und die Höhe des Kegels entsprechen der 
+     Kantenlänge des Würfels.   
+(d_{text {Grundfläche Kegel }}=h_{text {Kegel }}=a_{text {Würfel }})
+
+- Bestimme das Volumen des Kegels.
+- Berechne den prozentualen Anteil des Kegelvolumens am Würfelvolumen.
+[Abbildung]
+- Bestimme den Winkel α oder β des Kegels.
+[Abbildung]
+Wird ein Kegel auf halber Höhe zur Grundfläche geteilt, gilt: mathrm{d_{2}=dfrac{d_{1}}{2}}
+- Überprüfe mithilfe des Strahlensatzes, ob diese Aussage richtig ist.
+(5 Pkt.)
+
+b) In einem Beutel befinden sich insgesamt 15 Kugeln (rot, gelb und blau). Es werden 2   
+      Kugeln ohne Zurücklegen gezogen.
+
+      Wahrscheinlichkeit mathrm{P(rot / rot)=(20)/(210)};  mathrm{P(gelb / gelb) =(30)/(210)};  und mathrm{P(blau / blau)=(12)/(210)} .
+- Erstelle ein Baumdiagramm.
+- Bestimme die Anzahl der roten, gelben und blauen Kugeln.
+In einem anderen Beutel befinden sich 26 gold-, 13 silber- und 19 bronzefarbene Kugeln. Es wird zweimal mit Zurücklegen gezogen.
+
+- Bestimme die Wahrscheinlichkeit, dass eine goldene und eine silberne Kugel gezogen werden. Die Reihenfolge spielt keine Rolle.
+(5 Pkt.)
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 323319 – https://de.serlo.org/mathe/323319/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Gegeben ist die Parabel y=-0,5x^{2}+2.
+- Erstelle eine Wertetabelle im Bereich -3 ≤ x ≤ 3
+- Zeichne die Parabel in ein geeignetes Koordinatensystem.
+Die Parabel wird an der Geraden y=-1 gespiegelt.
+- Bestimme die Funktionsgleichung der gespiegelten Parabel.
+- Löse die Gleichung: 2x-4=-2x^{2}+8
+(5 Pkt.)
+ 
+b) Das Bild zeigt eine Kugel aus Bienenwachs, die Kugel ist innen hohl.
+     Das Volumen der Luft im Inneren der Kugel beträgt 998 306 cm^{3}.
+[Abbildung]
+- Berechne den inneren Durchmesser.
+Die Kugel aus Bienenwachs hat eine Wandstärke von 3 cm.
+1 cm^{3} Bienenwachs wiegt 0,9 g.
+- Berechne das Gewicht des Bienenwachses in kg.
+[Abbildung]
+Der in Deutschland produzierte Honig deckt 20 % des Honigbedarfs in Deutschland.
+- Berechne die Menge an importiertem Honig in den Jahren 2012 und 2018.
+(5 Pkt.)
+Lösung:
+Aufgabenteil a.)
+Erstellen der Wertetabelle. 
+[Tabelle]
+large{x} | -3 | -2 | -1 | 0 | 1 | 2 | 3
+large{y} | -2,5 | 0 | 1,5 | 2 | 1,5 | 0 | -2,5
+Zeichnen der Parabel in ein Koordinatensystem.
+[Abbildung]
+Bestimmen der Funktionsgleichung der gespiegelten Parabel.
+Eine Parabel wird an einer Geraden, die parallel zur x-Achse verläuft, gespiegelt, indem man den Funktionsterm mit (-1) multipliziert und anschließend um textbf{2c} verschiebt.
+Die Konstante textbf{c} gibt den Abstand zur x-Achse an. Die Parabel wird an der Geraden y=-1 gespiegelt, also ist c=-1.
+
+y=-0,5x^2+2
+
+Aufstellen der Funktionsgleichung der gespiegelten Parabel.
+
+y_{gesp}=2c-(-0,5x^2+2)
+
+y_{gesp}=2·(-1)+0,5x^2-2
+
+y_{gesp}=-2+0,5x^2-2
+
+underline{underline{y_{gesp}=0,5x^2-4}}
+
+Lösen der quadratischen Gleichung.
+Lösen der quadratischen Gleichung mithilfe der Mitternachtsformel.
+
+Die Mitternachtsformel lautet: 
+
+mathrm{x_{1,2}=dfrac{-b±√{b^2-4ac}}{2a}}
+  2x-4 = -2x^2+8   | +2x^2-8
+  2x^2-8+2x-4 = 0
+  2x^2+2x-12 = 0   | :2
+  x^2+x-6 = 0
+  x_{1/2} = mathrm{dfrac{-1±√{1^2+24}}{2}}   | √{ }
+  x_1 = mathrm{(-1+5)/(2)}
+  x_1 = 2
+  x_2 = mathrm{(-1-5)/(2)}
+  x_2 = -3
+ Lösungsmenge der quadratischen Gleichung: mathbb{L}=\{2;-3\}
+Aufgabenteil b.)
+Berechnen des inneren Durchmessers der Wachskugel.
+Die Formel zur Berechnung des Volumens einer Kugel lautet:
+
+mathrm{V_{Kugel}=dfrac43 · π · r^3}
+
+Auflösen der Formel nach r :
+
+mathrm{r=√[3]{dfrac{3· V_{Kugel}}{4·π}}}
+
+Einsetzen des Volumens der Luft in die Formel.
+
+mathrm{r=√[3]{(3·998306)/(4·π)}}
+
+mathrm{r=√[3]{(2994918)/(4π)}}
+
+r=√[3]{238328,00}
+
+r=62cm
+
+Der innere Durchmesser der Wachskugel ist dann: 2·62cm=boxed{124cm} 
+Berechnen des Gewichtes des Bienenwachses in kg.
+Berechnen des Volumens des Bienenwachses der Kugel.
+
+mathrm{V_{Wachs}=V_{gesamt}-V_{Luft}}
+
+mathrm{V_{Wachs}=dfrac{4·π· r^3_{gesamt}}{3}-V_{Luft}}
+
+mathrm{r_{gesamt}=r_{innen}+Wandstärke ⇒ r_{gesamt}=62+3=65}
+
+mathrm{V_{Wachs}=(4·π· 65^3)/(3)-998306}
+
+V_{Wachs}=1150346,51-998306
+
+V_{Wachs}=152040,51cm^3
+
+Das Bienenwachs der Kugel hat ein Volumen von:152040,51cm^3
+Berechnen des Gewichtes des Bienenwachses.
+
+mathrm{G_{Wachs}=V_{Wachs}·0,9}
+
+G_{Wachs}=152040,51·0,9
+
+G_{Wachs}=136836,46 g
+
+Umrechnen des Gewichts des Wachses in kg.
+
+mathrm{(136836,46)/(1000)=136,8}
+
+Das Gewicht des Bienenwachses beträgt: boxed{136,8 kg}
+Berechnen der Menge an importiertem Honig in den Jahren 2012 und 2018.
+Berechnen des gesamten Honigbedarfs im Jahr 2012.
+
+mathrm{G_{ges}·(20)/(100)=15000 ⇒ G_{ges}=(15000·100)/(20)}
+
+G_{ges}=75000 t
+
+Der gesamte Honigbedarf im Jahr 2012 betrug 75000 t.
+
+Berechnen der Menge des importierten Honigs im Jahr 2012.
+
+mathrm{G_{import.}=G_{ges}-G_{eigen P.}}
+
+G_{import.}=75000-15000
+
+G_{import.}=60000 t
+
+Im Jahr 2012 wurden  boxed{60 000 t} Honig importiert.
+
+Berechnen des gesamten Honigbedarfs im Jahr 2018.
+
+mathrm{G_{ges}·(20)/(100)=27500 ⇒ G_{ges}=(27500·100)/(20)}
+
+G_{ges}=137500 t
+
+Der gesamte Honigbedarf im Jahr 2018 betrug 137500 t.
+
+Berechnen der Menge des importierten Honigs im Jahr 2018.
+
+mathrm{G_{import.}=G_{ges}-G_{eigen P.}}
+
+G_{import.}=137500-27500
+
+G_{import.}=110000 t
+
+Im Jahr 2018 wurden  boxed{110 000 t} Honig importiert.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 323322 – https://de.serlo.org/mathe/323322/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Ein Tangram ist ein Quadrat, das in 7 Teile geteilt wurde. Dabei entstehen 5 
+     gleichschenklige Dreiecke, ein Quadrat und ein Parallelogramm.  
+[Abbildung]
+In diesem Tangram haben die beiden großen Dreiecke jeweils einen 
+Flächeninhalt von 36 cm^{2}.
+- Berechne die Seitenlänge a des gesamten Quadrates.
+- Bestimme den jeweiligen prozentualen Anteil der Flächen A1 und A2 an der gesamten Fläche.
+Eine kanadische Firma nutzt das Tangram auf einer Postkarte.
+[Abbildung]
+Die Herstellungskosten einer solchen Postkarte betragen 54 ct.
+Die Firma verkauft die Postkarten für 85 ct. Darin enthalten sind 5 % Mehrwertsteuer.
+- Berechne den Gewinn.
+(5 Pkt.) 
+b) Ein Rechteck hat einen Flächeninhalt von 192 cm^{2}.
+      Die lange Seite ist um 4 cm länger als die kurze Seite.
+
+- Stelle eine Gleichung auf.
+- Berechne die Seitenlänge des Rechtecks.
+Merle behauptet:
+„Wenn ich die beiden Seitenlängen eines Rechtecks verdopple, dann verdoppelt sich auch immer der Flächeninhalt des Rechtecks.“
+- Hat Merle recht? Begründe rechnerisch.
+(5 Pkt.)
+Lösung:
+Aufgabenteil a)
+[Abbildung]
+Seitenlänge berechnen
+
+Der Flächeninhalt eines der beiden grauen Dreiecke beträgt:
+
+A=(1)/(2)· a · h
+
+Da h=(a)/(2) ist, gilt: A=(1)/(2)· a· (a)/(2)=(a^2)/(4)
+  36 = (a^2)/(4)   | · 4
+  144 = a^2   | √{}
+  ± 12 = a
+Für die Seitenlänge ist nur ein positiver Wert sinnvoll.
+Die Seitenlänge beträgt a=12cm.
+Prozentuale Anteile bestimmen
+
+Anteil von A1
+Die Diagonale der Fläche A1 hat die Länge (a)/(2)=6cm.
+Die Seitenlänge des Quadrats A1 wird mit b bezeichnet.
+Der Flächeninhalt von A1 ist 
+A_{A1}=b· b=b^2
+Flächeninhalt von  A1 berechnen
+  ((a)/(2))^2 = b^2+b^2
+  6^2 = b^2+b^2
+  36 = 2· b^2   | :2
+  18 = b^2
+Der Flächeninhalt von A1 beträgt 18cm^2.
+Der Anteil an der Gesamtfläche beträgt:
+(18)/(144)=0,125 hat{=} 12,5%.
+Anteil von A2 
+
+A2 ist ein Parallelogramm. 
+Der Flächeninhalt von A2 beträgt
+A_{A2}=(a)/(2)·(a)/(4)=(a^2)/(8)=(1)/(8)a^2
+Dies ist (1)/(8)=0,125 hat{=} 12,5% der Gesamtfläche.
+Gewinn berechnen
+
+Mithilfe eines Dreisatzes wird der Verkaufspreis ohne Mehrwertsteuer berechnet:
+(85)/(1,05)≈ 80,95 ct
+
+Zur Berechnung des Gewinns werden vom Preis ohne Mehrwertsteuer die Herstellungskosten abgezogen.
+80,95-54=26,95
+
+Der Gewinn beträgt 26,95 ct. 
+Aufgabenteil b)
+Gleichung aufstellen
+
+Der Flächeninhalt A eines Rechtecks beträgt: 
+A=a· b
+
+Die Seite a ist um 4cm länger als Seite b.
+a=b+4
+Fläche des Rechtecks
+  A = (b+4)· b
+  192 = b^2+4b   | -192
+  0 = b^2+4b-192
+  b_{1,2} = -(p)/(2)±√{((p)/(2))^2-q}
+  b_{1,2} = -(4)/(2)±√{((4)/(2))^2-(-192)}
+  b_{1,2} = -2±√{4+192}   | √{}
+  b_{1,2} = -2± 14
+  b_1 = 12
+  b_2 = -16
+Für die Seitenlänge ist nur der positive Wert sinnvoll.
+Die Seitenlängen des Rechtecks sind:
+b=12cm und a=b+4=16cm.
+Begründung
+
+A_1 =a· b Flächeninhalt des ersten Rechtecks
+Werden die beiden Seitenlängen verdoppelt, dann beträgt der Flächeninhalt des zweiten Rechtecks:
+A_2=2· a· 2· b=4· a · b
+
+Der Flächeninhalt vervierfacht sich, wenn die Seitenlängen verdoppelt werden. 
+Merle hat nicht recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 323324 – https://de.serlo.org/mathe/323324/aufgabe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+a) Herr Klausen legt 8000,00 € für drei Jahre an. Die Zinsen werden mitverzinst, der Zinssatz   
+     steigt mit jedem Jahr an. Im ersten Jahr wird seine Anlage mit 0,8 % verzinst. Im zweiten  
+     Jahr werden ihm 100,80 € Zinsen gutgeschrieben. Nach Ablauf der drei Jahre hat er ein
+      Guthaben von 8368,92 € angespart.
+- Berechne die Zinssätze für das zweite und dritte Jahr.
+- Stelle die Zinsen in einem aussagekräftigen Diagramm dar.
+Frau Bleich legt 8000,00 € bei der H -Bank an.
+[Tabelle]
+ | H-Bank
+Zinssatz | 1,4 % p.a.
+Laufzeit | 10 Jahre
+ | Zinsen werden mitverzinst.
+- Welchen Betrag bekommt Frau Bleich nach Ablauf von 10Jahren ausbezahlt?
+Frau Bleich möchte mit ihrer Geldanlage in diesen 10 Jahren mindestens eine Wertsteigerung von 14,5 % erzielen.
+- Gelingt ihr dies? Begründe.
+(5 Pkt.)
+b) Das Viereck hat einen Flächeninhalt von A=162,8 cm^{2}.
+[Abbildung]
+- Berechne x.
+- Berechne den Winkelα.
+Ein Parallelogramm hat einen Umfang von 25,16 cm.
+Die beiden kurzen Seiten sind um 30 % kürzer als die langen.
+- Berechne die Längen a und b.
+(5 Pkt.)
+Lösung:
+Teilaufgabe a)
+Zinssätze berechnen
+
+Kapital nach einem Jahr bei einem Zinssatz von 0,8%
+K_1=8 000· 1,008=8 064
+
+Kapital nach zwei Jahren bei Gutschrift von 100,80€ Zinsen.
+K_2=8 064+100,80=8 164,80
+Zinssatz im zweiten Jahr
+K_2=K_1 · q_2
+8 164,80=8 064· q_2 |:8 064
+1,0125=q_2
+Der Zinssatz im zweiten Jahr beträgt 1,25%.
+
+Kapital nach drei Jahren
+K_3=8 368,92
+Zinssatz im dritten Jahr
+K_3=K_2 · q_3
+8 368,92=8 164,80 · q_3 |: 8 164,80
+1,025=q_3
+Der Zinssatz im dritten Jahr beträgt 2,5%
+
+Grafik jährlich Zinsen
+[Abbildung]
+Geldanlage
+
+Zur Berechnung des Kapitals nach 10 Jahren wird die Zinseszinsformel angewendet.
+
+K_{10}=8 000· 1,014^{10}
+K_{10}≈ 9 193,26
+
+Frau Bleich bekommt nach 10 Jahren 9 193,26€ ausgezahlt.
+
+Wertsteigerung
+Zur Berechnung der Wertsteigerung werden die Zinserträge durch das Anfangskapital dividiert.
+
+(9 193,26-8000)/(8 000)=(1 193,26)/(8 000)≈ 0,149 hat{=} 14,9%
+
+Die Wertsteigerung beträgt 14,9%. Frau Bleich hat ihr Ziel erreicht.
+Teilaufgabe b)
+Länge von x berechnen
+
+Der Flächeninhalt des halben Vierecks beträgt:
+
+(162,8)/(2)=81,4cm^2
+
+Die Grundseite des halben Vierecks hat eine Länge von (x+4,5)cm und eine Höhe von 7,4cm.
+
+Berechnung von x
+  ((x+4,5)· 7,4)/(2) = 81,4   | · 2
+  (x+4,5)· 7,4 = 162,8   | : 7,4
+  x+4,5 = 22   | -4,5
+  x = 17,5
+Die Länge von x beträgt 17,5cm.
+
+Winkel α berechnen
+[Abbildung]
+Die Winkel α_1 und α_2 können mit dem Tangens berechnet werden.
+
+tan{α_1}=(17,5)/(7,4)≈ 67,1^°
+
+tan{α_2}=(4,5)/(7,4)≈ 31,3^°
+
+α=α_1 + α_2 = 67,1^° +31,3^° = 98,4^°
+Längen berechnen
+Der Umfang eines Parallelogramms beträgt
+  U = 2· a + 2· b
+  25,16 = 2· a + 2· b
+  25,16 = 2· a+ 2·(0,7 · a)
+  25,16 = 3,4· a   | : 3,4
+  7,4 = a
+b=0,7· a=0,7· 7,4=5,18
+
+Die Seitenlängen des Parallelogramms betragen a=7,4cm und b=5,18cm.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo ExerciseGroup 332762 – https://de.serlo.org/mathe/332762/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Gegeben ist die Parabel y=-0,5x^{2}+2.
+- Erstelle eine Wertetabelle im Bereich -3 ≤ x ≤ 3
+- Zeichne die Parabel in ein geeignetes Koordinatensystem.
+Die Parabel wird an der Geraden y=-1 gespiegelt.
+- Bestimme die Funktionsgleichung der gespiegelten Parabel.
+- Löse die Gleichung:
+(5 Pkt.)
+Lösung:
+Erstellen der Wertetabelle. 
+
+[Abbildung]
+Zeichnen der Parabel in ein Koordinatensystem.
+[Abbildung]
+Bestimmen der Funktionsgleichung der gespiegelten Parabel.
+Eine Parabel wird an einer Geraden, die parallel zur x-Achse verläuft, gespiegelt, indem man den Funktionsterm mit (-1) multipliziert und anschließend um textbf{2c} verschiebt.
+Die Konstante textbf{c} gibt den Abstand zur x-Achse an. Die Parabel wird an der Geraden y=-1 gespiegelt, also ist c=-1.
+
+y=-0,5x^2+2
+
+Aufstellen der Funktionsgleichung der gespiegelten Parabel.
+
+y_{gesp}=2c-(-0,5x^2+2)
+
+y_{gesp}=2·(-1)+0,5x^2-2
+
+y_{gesp}=-2+0,5x^2-2
+
+underline{underline{y_{gesp}=0,5x^2-4}}
+
+Lösen der quadratischen Gleichung.
+Lösen der quadratischen Gleichung mithilfe der Mitternachtsformel.
+
+Die Mitternachtsformel lautet: 
+x_{1,2}=frac{-b±√{b^2-4ac}}{2a}
+
+  2x-4 = -2x^2+8   | +2x^2-8
+  2x^2-8+2x-4 = 0
+  2x^2+2x-12 = 0   | :2
+  x^2+x-6 = 0
+  x_{1/2} = mathrm{frac{-1±√{1^2+24}}{2}}
+  x_1 = (-1+5)/(2)
+  x_1 = 2
+  x_2 = (-1-5)/(2)
+  x_{2=} = -3
+ Lösungsmenge der quadratischen Gleichung:  mathbb{L} = {2; -3}
+
+--- Teilaufgabe b) ---
+Das Bild zeigt eine Kugel aus Bienenwachs, die Kugel ist innen hohl.
+Das Volumen der Luft im Inneren der Kugel beträgt 998 306 cm^{3}.
+[Abbildung]
+- Berechne den inneren Durchmesser.
+Die Kugel aus Bienenwachs hat eine Wandstärke von 3 cm.
+1 cm^{3} Bienenwachs wiegt 0,9 g.
+- Berechne das Gewicht des Bienenwachses in kg.
+[Abbildung]
+Der in Deutschland produzierte Honig deckt 20 % des Honigbedarfs in Deutschland.
+- Berechne die Menge an importiertem Honig in den Jahren 2012 und 2018.
+(5 Pkt.)
+Innerer Durchmesser der Kugel: [Lücke: 124] cm.
+Gewicht des Bienenwachses: [Lücke: 136,8]  kg
+Menge an importiertem Honig in den Jahren 2012 und 2018 [Lücke: 60 000] t
+
+Lösung:
+Berechnen des inneren Durchmessers der Wachskugel.
+Die Formel zur Berechnung des Volumens einer Kugel lautet:
+
+mathrm{V_{Kugel}=dfrac43 · π · r^3}
+
+Auflösen der Formel nach r :
+
+mathrm{r=√[3]{dfrac{3· V_{Kugel}}{4·π}}}
+
+Einsetzen des Volumens der Luft in die Formel.
+
+mathrm{r=√[3]{(3·998306)/(4·π)}}
+
+mathrm{r=√[3]{(2994918)/(4π)}}
+
+r=√[3]{238328,00}
+
+r=62cm
+
+Der innere Durchmesser der Wachskugel ist dann: 2·62cm=boxed{124cm} 
+Berechnen des Gewichtes des Bienenwachses in kg.
+Berechnen des Volumens des Bienenwachses der Kugel.
+
+mathrm{V_{Wachs}=V_{gesamt}-V_{Luft}}
+
+mathrm{V_{Wachs}=dfrac{4·π· r^3_{gesamt}}{3}-V_{Luft}}
+
+mathrm{r_{gesamt}=r_{innen}+Wandstärke ⇒ r_{gesamt}=62+3=65}
+
+mathrm{V_{Wachs}=(4·π· 65^3)/(3)-998306}
+
+V_{Wachs}=1150346,51-998306
+
+V_{Wachs}=152040,51cm^3
+
+Das Bienenwachs der Kugel hat ein Volumen von 152040,51cm^3.
+Berechnen des Gewichtes des Bienenwachses.
+
+mathrm{G_{Wachs}=V_{Wachs}·0,9}
+
+G_{Wachs}=152040,51·0,9
+
+G_{Wachs}=136836,46 g
+
+Umrechnen des Gewichts des Wachses in kg.
+
+mathrm{(136836,46)/(1000)=136,8}
+
+Das Gewicht des Bienenwachses beträgt boxed{136,8 kg}.
+Berechnen der Menge an importiertem Honig in den Jahren 2012 und 2018.
+Berechnen des gesamten Honigbedarfs im Jahr 2012.
+
+mathrm{G_{ges}·(20)/(100)=15000 ⇒ G_{ges}=(15000·100)/(20)}
+
+G_{ges}=75000 t
+
+Der gesamte Honigbedarf im Jahr 2012 betrug 75000 t.
+
+Berechnen der Menge des importierten Honigs im Jahr 2012.
+
+mathrm{G_{import.}=G_{ges}-G_{eigen P.}}
+
+G_{import.}=75000-15000
+
+G_{import.}=60000 t
+
+Im Jahr 2012 wurden  boxed{60 000 t} Honig importiert.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo ExerciseGroup 332764 – https://de.serlo.org/mathe/332764/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Ein Tangram ist ein Quadrat, das in 7 Teile geteilt wurde. Dabei entstehen 5 
+gleichschenklige Dreiecke, ein Quadrat und ein Parallelogramm.  
+[Abbildung]
+In diesem Tangram haben die beiden großen Dreiecke jeweils einen 
+Flächeninhalt von 36 cm^{2}.
+- Berechne die Seitenlänge a des gesamten Quadrates.
+- Bestimme den jeweiligen prozentualen Anteil der Flächen A1 und A2 an der gesamten Fläche.
+Eine kanadische Firma nutzt das Tangram auf einer Postkarte.
+[Abbildung]
+Die Herstellungskosten einer solchen Postkarte betragen 54 ct.
+Die Firma verkauft die Postkarten für 85 ct. Darin enthalten sind 5 % Mehrwertsteuer.
+- Berechne den Gewinn.
+(5 Pkt.)
+Seitenlänge des gesamten Quadrates: [Lücke: 12]  cm
+Jeweiliger prozentualer Anteil der Flächen A1 und A2 an der gesamten Fläche: [Lücke: 12,5] %
+Gewinn: [Lücke: 26,95] ct
+
+Lösung:
+[Abbildung]
+Seitenlänge berechnen
+
+Der Flächeninhalt eines der beiden grauen Dreiecke beträgt:
+
+A=(1)/(2)· a · h
+
+Da h=(a)/(2) ist, gilt: A=(1)/(2)· a·(a)/(2)=(a^2)/(4)
+  36 = (a^2)/(4)   | ·4
+  144 = a^2
+  ±12 = a
+Für die Seitenlänge ist nur ein positiver Wert sinnvoll.
+Die Seitenlänge beträgt a=12cm.
+Prozentuale Anteile bestimmen
+
+Anteil von A1
+Die Diagonale der Fläche A1 hat die Länge (a)/(2)=6cm.
+Die Seitenlänge des Quadrats A1 wird mit b bezeichnet.
+Der Flächeninhalt von A1 ist 
+A_{A1}=b· b=b^2
+
+Flächeninhalt von  A1 berechnen 
+  ((a)/(2))^2 = b2+b2
+  6^2 = b2+b2
+  36 = 2b^2   | :2
+  18 = b^2
+Der Flächeninhalt von A1 beträgt 18cm^2.
+Der Anteil an der Gesamtfläche beträgt:
+(18)/(144)=0,125 hat{=} 12,5%.
+Anteil von A2 
+
+A2 ist ein Parallelogramm. 
+Der Flächeninhalt von A2 beträgt
+A_{A2}=(a)/(2)·(a)/(4)=(a^2)/(8)=(1)/(8)a^2
+Dies ist (1)/(8)=0,125 hat{=} 12,5% der Gesamtfläche.
+Gewinn berechnen
+
+Mithilfe eines Dreisatzes wird der Verkaufspreis ohne Mehrwertsteuer berechnet:
+(85)/(1,05)≈ 80,95 ct
+
+Zur Berechnung des Gewinns werden vom Preis ohne Mehrwertsteuer die Herstellungskosten abgezogen.
+80,95-54=26,95
+
+Der Gewinn beträgt 26,95 ct.
+
+--- Teilaufgabe b) ---
+Ein Rechteck hat einen Flächeninhalt von 192 cm^{2}.
+Die lange Seite ist um 4 cm länger als die kurze Seite.
+
+- Stelle eine Gleichung auf.
+- Berechne die Seitenlänge des Rechtecks.
+Merle behauptet:
+„Wenn ich die beiden Seitenlängen eines Rechtecks verdopple, dann verdoppelt sich auch immer der Flächeninhalt des Rechtecks.“
+- Hat Merle recht? Begründe rechnerisch.
+(5 Pkt.)
+Lösung:
+Gleichung aufstellen
+
+Der Flächeninhalt A eines Rechtecks beträgt: 
+A=a· b
+
+Die Seite a ist um 4cm länger als Seite b.
+a=b+4
+
+Fläche des Rechtecks
+  A = (b+4)· b
+  192 = b^2+4b   | -192
+  0 = b^2+4b-192
+  b_{1,2} = -(p)/(2)±√{((p)/(2))^2-q}
+  b_{1,2} = -(4)/(2)±√{((4)/(2))^2-(-192)}
+  b_{1,2} = -2±√{4+192}   | surd
+  b1,2 = -2±14
+  b_1 = 12
+  b_2 = -16
+Für die Seitenlänge ist nur der positive Wert sinnvoll.
+Die Seitenlängen des Rechtecks sind:
+b=12cm und a=b+4=16cm.
+Begründung
+
+A_1 =a· b Flächeninhalt des ersten Rechtecks
+Werden die beiden Seitenlängen verdoppelt, dann beträgt der Flächeninhalt des zweiten Rechtecks:
+A_2=2· a· 2· b=4· a · b
+
+Der Flächeninhalt vervierfacht sich, wenn die Seitenlängen verdoppelt werden. 
+Merle hat nicht recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo ExerciseGroup 332775 – https://de.serlo.org/mathe/332775/aufgabengruppe – Lizenz 1: Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“ (Lizenz Nr. 1)]
+
+
+--- Teilaufgabe a) ---
+Herr Klausen legt 8000,00 € für drei Jahre an. Die Zinsen werden mitverzinst, der Zinssatz   
+steigt mit jedem Jahr an. Im ersten Jahr wird seine Anlage mit 0,8 % verzinst. Im zweiten  
+Jahr werden ihm 100,80 € Zinsen gutgeschrieben. Nach Ablauf der drei Jahre hat er ein Guthaben von 8368,92 € angespart.
+- Berechne die Zinssätze für das zweite und dritte Jahr.
+- Stelle die Zinsen in einem aussagekräftigen Diagramm dar.
+Frau Bleich legt 8000,00 € bei der H -Bank an.
+[Abbildung]
+- Welchen Betrag bekommt Frau Bleich nach Ablauf von 10Jahren ausbezahlt?
+Frau Bleich möchte mit ihrer Geldanlage in diesen 10 Jahren mindestens eine Wertsteigerung von 14,5 % erzielen.
+- Gelingt ihr dies? Begründe.
+(5 Pkt.)
+Lösung:
+Zinssätze berechnen
+
+Kapital nach einem Jahr bei einem Zinssatz von 0,8%
+K_1=8 000· 1,008=8 064
+
+Kapital nach zwei Jahren bei Gutschrift von 100,80€ Zinsen.
+K_2=8 064+100,80=8 164,80
+Zinssatz im zweiten Jahr
+K_2=K_1 · q_2
+8 164,80=8 064· q_2 |:8 064
+1,0125=q_2
+Der Zinssatz im zweiten Jahr beträgt 1,25%.
+
+Kapital nach drei Jahren
+K_3=8 368,92
+Zinssatz im dritten Jahr
+K_3=K_2 · q_3
+8 368,92=8 164,80 · q_3 |: 8 164,80
+1,025=q_3
+Der Zinssatz im dritten Jahr beträgt 2,5%
+
+Grafik jährlich Zinsen
+[Abbildung]
+Geldanlage
+
+Zur Berechnung des Kapitals nach 10 Jahren wird die Zinseszinsformel angewendet.
+
+K_{10}=8 000· 1,014^{10}
+K_{10}≈ 9 193,26
+
+Frau Bleich bekommt nach 10 Jahren 9 193,26€ ausgezahlt.
+
+Wertsteigerung
+Zur Berechnung der Wertsteigerung werden die Zinserträge durch das Anfangskapital dividiert.
+
+(9 193,26-8000)/(8 000)=(1 193,26)/(8 000)≈ 0,149 hat{=} 14,9%
+
+Die Wertsteigerung beträgt 14,9%. Frau Bleich hat ihr Ziel erreicht.
+
+--- Teilaufgabe b) ---
+Das Viereck hat einen Flächeninhalt von A=162,8 cm^{2}.
+[Abbildung]
+- Berechne x.
+- Berechne den Winkelα.
+Ein Parallelogramm hat einen Umfang von 25,16 cm.
+Die beiden kurzen Seiten sind um 30 % kürzer als die langen.
+- Berechne die Längen a und b.
+(5 Pkt.)
+x= [Lücke: 17,5] cm
+α= [Lücke: 98,4] °
+
+a= [Lücke: 7,4] cm
+b= [Lücke: 5,18] cm
+Lösung:
+Der Flächeninhalt des halben Vierecks beträgt:
+
+(162,8)/(2)=81,4cm^2
+
+Die Grundseite des halben Vierecks hat eine Länge von (x+4,5)cm und eine Höhe von 7,4cm.
+
+Berechnung von x
+  ((x+4,5)·7,4)/(2) = 81,4   | ·2
+  (x+4,5)·7,4 = 162,8   | :7,4
+  x+4,5 = 22   | -4,5
+  x = 17,5
+Die Länge von x beträgt 17,5cm.
+
+Winkel α berechnen
+[Abbildung]
+Die Winkel α_1 und α_2 können mit dem Tangens berechnet werden.
+
+tan{α_1}=(17,5)/(7,4)≈ 67,1^°
+
+tan{α_2}=(4,5)/(7,4)≈ 31,3^°
+α=α_1+α_2=67,1^{°}+31,3^{°}=98,4^{°}
+
+Längen berechnen
+
+Der Umfang eines Parallelogramms beträgt 
+
+  U = 2· a+2· b
+  25,16 = 2· a+2· b
+  25,16 = 2· a+2·(0,7· a)
+  25,16 = 3,4· a   | :3,4
+  7,4 = a
+b=0,7· a=0,7·7,4=5,18
+
+Die Seitenlängen des Parallelogramms betragen a=7,4cm und b=5,18cm.

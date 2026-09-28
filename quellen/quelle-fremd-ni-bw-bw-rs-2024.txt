@@ -1,0 +1,966 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Realschule Mathematik mit Lösungen – Prüfungsjahr 2024, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320107/2024 (Jahrgangsseite, Serlo-ID 320107); Prüfungsteile: https://de.serlo.org/mathe/320118/pflichtteil-a1 (Pflichtteil A1, ID 320118); https://de.serlo.org/mathe/320119/pflichtteil-a2 (Pflichtteil A2, ID 320119); https://de.serlo.org/mathe/320120/wahlteil-b (Wahlteil B, ID 320120)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2024  (Serlo-ID 320118)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 320741 – https://de.serlo.org/mathe/320741/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Das Volumen eines Quaders und das Volumen einer quadratischen Pyramide sind gleich groß.
+[Abbildung]
+Für den Quader gilt:
+a=4 cm
+b=3 cm
+c=2 cm
+
+Für die quadratische Pyramide gilt:
+a_{Pyr}=3 cm
+Berechne die Höhe der quadratischen Pyramide.
+
+[1,5 Pkte]
+[Eingabefeld: 8]
+Lösung:
+Quader: 
+V_Quader=a· b· c
+V_{Quader}=4·3·2=24
+Der Quader hat ein Volumen von 24cm^3.
+
+Quadratische Pyramide:
+V_{quadratische Pyramide}=(1)/(3)· a^2· h
+V_{quadratische Pyramide}=(1)/(3)·3^2· h=3· h
+24=3· h
+h=8
+Die quadratische Pyramide ist 8cm hoch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 320743 – https://de.serlo.org/mathe/320743/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+In einem Behälter liegen rote (r), grüne (g) und blaue (b) Kugeln.
+Es sind insgesamt 20 Kugeln, die alle gleich groß sind.
+Marvin zieht zwei Kugeln ohne Zurücklegen.
+[Abbildung]
+Ergänze in den beiden leeren Feldern die Wahrscheinlichkeitsangaben.
+
+[1 Pkt]
+Lösung:
+Feld oben rechts:
+25%=(25)/(100)=(5)/(20)
+1-((5)/(20)+(7)/(20))=(8)/(20)
+
+Feld Mitte links:
+Beim zweiten Zug sind noch 19 Kugeln vorhanden.
+Rote Kugeln: 20·(1)/(4)=5
+Die Wahrscheinlichkeit eine rote Kugel zu ziehen beträgt (5)/(19).
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 320745 – https://de.serlo.org/mathe/320745/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gegeben sind vier Terme in Zehnerpotenzschreibweise.
+(A) 0,0025 · 10^{6}
+(B) 0,025 · 10^{4}
+(C) 2,5 · 10^{5}
+(D) 250 · 10^{2}
+Welcher Term hat den größten Wert?
+Gib diesen ohne Zehnerpotenzschreibweise an.
+
+[1 Pkt]
+[Eingabefeld: 250000 | 250 000]
+Lösung:
+Lösungsidee: Berechne die Werte ohne Potenzschreibweise und vergleiche.
+(A) 0,0025 · 10^{6}=2 500
+(B) 0,025 · 10^{4}=250
+(C) 2,5 · 10^{5} = 250 000
+(D) 250 · 10^{2}=25 000
+
+Der Term (C) hat den größten Wert.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo ExerciseGroup 320748 – https://de.serlo.org/mathe/320748/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Luana hat die ersten drei Muster aus Kärtchen gelegt.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Wie viele Kärtchen benötigt Luana für das 6 . Muster?
+Begründe deine Antwort.
+Lösung:
+Bei jedem Muster kommen jeweils 4 Kärtchen hinzu.
+Das erste Muster hat 8 Kärtchen. 
+Bis zum 6. Muster kommen also 5 mal 4 Kärtchen hinzu.
+Luana benötigt für das 6. Muster 8+5· 4=28 Kärtchen.
+
+--- Teilaufgabe b) ---
+Luana möchte die Anzahl der Kärtchen bei jedem Muster berechnen.
+Sie hat vier Formeln zur Auswahl.
+
+Welche beiden Formeln sollte sie auswählen?
+Kreuze jeweils richtig oder falsch an.
+
+arrow n gibt die Stelle des jeweiligen Musters an
+arrow s ist die Summe der Kärtchen eines Musters
+
+[2 Pkte]
+[Auswahl (mehrere Antworten)]
+  (x) s=4n+4
+  ( ) s=2n+4
+  ( ) s=4n+2
+  (x) s=(n+2)^2-n^2
+Lösung:
+Ohne Berücksichtigung der 4 Ecken der Muster ist die Anzahl der Kärtchen jeder Seite gleich der Stelle des jeweiligen Musters.
+
+Beispiel: Beim 1. Muster ist die Zahl der Kärtchen jeder Seite ohne die 2 Kärtchen der Ecken gleich 1.
+Beim 3. Muster ist die Zahl der Kärtchen jeder Seite ohne die 2 Kärtchen der Ecken gleich 3.
+
+Die erste Formel ist richtig.
+
+Durch Umwandlung der vierten Formel zeigt sich, dass sie identisch mit der ersten Formel ist.
+(n+2)^2-n^2=n^2+4n+4-n^2=4n+4
+
+Die vierte Formel ist ebenfalls richtig.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 320750 – https://de.serlo.org/mathe/320750/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welcher Sinuswert ist positiv, welcher negativ? Kreuze an. [1 Pkt]
+[Auswahl (mehrere Antworten)]
+  (x) sin 25^{°} ist positiv
+  ( ) sin 25^{°} ist negativ
+  (x) sin 125^{°} ist positiv
+  ( ) sin 125^{°} ist negativ
+  ( ) sin 225^{°} ist positiv
+  (x) sin 225^{°} ist negativ
+Lösung:
+Sinuswerte zwischen 0^° und 180^° sind positiv bzw. 0, die anderen Sinuswerte sind negativ.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo ExerciseGroup 320752 – https://de.serlo.org/mathe/320752/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Selina hat die Länge der verschiedenen Kabel im Physikraum ausgemessen und der Länge nach sortiert.
+[Abbildung]
+Mit dieser Rangliste hat Selina einen Boxplot erstellt.
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Selina hat bei der Erstellung des Boxplots einen Fehler gemacht.
+Beschreibe diesen Fehler.
+Lösung:
+Das obere Quartil müsste bei 80cm eingezeichnet sein. Es wurde fälschlicherweise bei 90cm eingezeichnet.
+
+--- Teilaufgabe b) ---
+Selina findet anschließend zwei weitere Kabel in einer Schublade.
+Ein Kabel ist 40cm und das andere 120cm lang.
+Die beiden Werte nimmt sie in die Rangliste oben mit auf.
+
+Selina behauptet: „Der Zentralwert ändert sich durch die beiden weiteren Kabel nicht."
+Überprüfe diese Behauptung und begründe.
+
+[2 Pkte]
+Lösung:
+Der Wert 40cm wird in der unteren Hälfte der Rangliste eingeordnet, der Wert 120cm in der oberen Hälfte.
+Der Zentralwert ändert sich dadurch nicht.
+Selina hat recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo ExerciseGroup 320754 – https://de.serlo.org/mathe/320754/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+400 Personen wurden befragt, mit welchem Verkehrsmittel sie zur Arbeit fahren (siehe Diagramm).
+[Abbildung]
+
+--- Teilaufgabe a) ---
+Gib den prozentualen Anteil der Personen an, die mit der Bahn zur Arbeit fahren.
+[Eingabefeld: 20]
+Lösung:
+Der prozentuale Anteil gibt den Teil eines Ganzen an. Dabei werden die Werte so umgerechnet, dass das Ganze 100 entspricht und der prozentuale Anteil die Hundertstel des Ganzen ist.
+
+  (80)/(400)=(20)/(100)=20%
+
+20% der Personen fahren mit der Bahn zur Arbeit.
+
+--- Teilaufgabe b) ---
+40 % der Personen, die mit dem Auto fahren, sind Frauen.
+Von diesen Frauen benutzen 15 % ein Elektroauto.
+
+Berechne die Anzahl der Frauen, die mit einem Elektroauto zur Arbeit fahren.
+
+[1,5 Pkte]
+[Eingabefeld: 9]
+Lösung:
+Lösungsidee: - Berechne, wie viele Frauen mit dem Auto fahren
+- Berechne, wie viele davon mit einem Elektroauto fahren
+Anzahl der Frauen, die mit dem Auto fahren
+Insgesamt fahren 150 Personen mit dem Auto. 40% davon sind Frauen.
+150· (40)/(100)=60
+60 Frauen fahren mit dem Auto.
+
+Anzahl der Frauen, die Elektroauto fahren
+Von den Frauen, die mit dem Auto fahren, fahren 15% Elektroauto.
+60· (15)/(100)=9
+9 Frauen fahren Elektroauto.
+
+
+==============================================================================
+Pflichtteil A2 2024  (Serlo-ID 320119)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 320917 – https://de.serlo.org/mathe/320917/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im Rechteck A B C D gilt:
+‾{B C} =4,6 cm ; ‾{C E} =7,2 cm ; varepsilon =49,0^{°}
+[Abbildung]
+Berechne den Umfang des Vierecks A B C D.
+
+[4 Pkte]
+[Eingabefeld: 23]
+Lösung:
+Lösungsidee: Ausgehend von den gegebenen Werten berechnen Sie schrittweise die fehlenden Werte.
+[Abbildung: Blau markierte Werte sind in der Ausgabe gegeben, rot markierte Werte werden berechnet.]
+1. Schritt
+Strecke ‾{CF} berechnen:
+Mithilfe der Sinus Funktion wird die Strecke ‾{CF} berechnet.
+sin{varepsilon}=dfrac{‾{CF}}{‾{CE}}
+sin{49^°}=dfrac{‾{CF}}{7,2} |footnotesize $· 7,2$
+sin{49^°}· 7,2=‾{CF}
+‾{CF}=5,43
+Die Länge der Strecke ‾{CF} beträgt rund 5,43 cm.
+
+2. Schritt
+φ_2 berechnen:
+Die Summe der Innenwinkel im Dreieck beträgt 180^°
+φ_2=180^° - 90^° - 49^°=41^°
+
+3. Schritt
+φ_3 berechnen:
+Mithilfe der Kosinus Funktion wird der Winkel φ_3 berechnet.
+cos{φ_3}=dfrac{‾{BC}}{‾{CF}}
+cos{φ_3}=(4,6)/(5,43) |text{footnotesize $cos{}^{-1}$}
+φ_3=32,1^°
+
+4. Schritt
+φ_1 berechnen
+Der Winkel angle DCB ist ein rechter Winkel und hat demnach 90^°.
+φ_1=90^° - 41^° -32,1^°=16,9^°
+
+5. Schritt
+Strecke ‾{CD} berechnen:
+Mithilfe der Kosinus Funktion wird die Länge der Strecke ‾{CD} berechnet.
+Strecke ‾{CD}  berechnen:
+cos{φ_1}=dfrac{‾{CD}}{‾{CE}}
+cos{16,9^°}=dfrac{‾{CD}}{7,2} | footnotesize $· 7,2$
+cos{16,9^°}· 7,2=‾{CD}
+‾{CD}=6,89
+Die Länge der Strecke ‾{CD} beträgt rund 6,89 cm.
+
+6. Schritt
+Umfang des Vierecks ABCD berechnen:
+U=2·‾{BC}+2·‾{CD}
+U=2· 4,6+2· 6,89=22,98≈23
+Der Umfang des Vierecks ABCD beträgt rund 23 cm.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 320921 – https://de.serlo.org/mathe/320921/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eines der Manteldreiecke der regelmäßigen fünfseitigen Pyramide ist grau gefärbt.
+[Abbildung]
+Es gilt:
+
+‾{B S} =12,0 cm ; φ =40,0^{°}
+
+Berechne das Volumen der Pyramide.
+
+[3,5 Pkte]
+Das Volumen der Pyramide beträgt rund [Lücke: 377] cm^3.
+Lösung:
+1. Schritt
+Teilt man die Mantelfläche in zwei gleich große Hälften, dann erhält man zwei gleich große rechtwinklige Dreiecke.
+Die Länge einer Kathete ist dfrac{‾{BC}}{2}.
+[Abbildung]
+Berechnung von ‾{BC}:
+
+sin{((φ)/(2))}=dfrac{(1)/(2)·‾{BC}}{‾{BS}}
+sin{(20^°)}=dfrac{(1)/(2)·‾{BC}}{12} | footnotesize $·12$
+sin{(20^°)}· 12=(1)/(2)·‾{BC} | footnotesize $· 2$
+2· sin{(20^°)}· 12=‾{BC}
+‾{BC}=8,21
+Die Länge der Strecke ‾{BC} beträgt rund 8,21 cm.
+
+2. Schritt
+Die zweite Kathete ist die Höhe der Seitenfläche.
+[Abbildung]
+Höhe h_S einer Seitenfläche berechnen:
+Hypotenuse und eine Kathete des rechtwinkligen Dreiecks sind bekannt. Die Länge der anderen Kathete wird mit dem Satz des Pythagoras berechnet.
+h_{S}^2+(dfrac{‾{BC}}{2})^2=‾{BS}^2
+h_{S}^2+((8,21)/(2))^2=12^2 |text{footnotesize $-((8,21)/(2))^2$}
+h_{S}^2=12^2-((8,21)/(2))^2 |text{footnotesize $√{}$}
+h_{S}=√{12^2-((8,21)/(2))^2}
+h_{S}=11,28
+Die Höhe h_S beträgt rund 11,28 cm.
+3. Schritt
+Zur Berechnung der Grundfläche der Pyramide benötigen wir die Länge von h_a (s. Zeichnung)
+[Abbildung]
+Der Innenwinkel eines Kreises hat 360^°. Da es sich bei der Grundfläche um ein regelmäßiges Fünfeck handelt, hat der eingezeichnete Winkel eine Größe von (360^°)/(10)=36^°.
+Es wird durch 10 dividiert, da pro Seite des Fünfecks je 2 Dreiecke existieren.
+h_a berechnen
+tan{36^°}=dfrac{(1)/(2)·‾{BC}}{h_a}
+tan{36^°}=((1)/(2)· 8,21)/(h_a) | footnotesize $· h_a$
+tan{36^°}· h_a=(1)/(2)· 8,21 | text{footnotesize $:tan{36^°}$}
+h_a=dfrac{(1)/(2)· 8,21}{tan{36^°}}
+h_a=5,65
+Die Höhe h_a beträgt rund 5,65 cm.
+
+4. Schritt
+Höhe der Pyramide berechnen:
+Die Höhe der Pyramide h_{Pyr} ist die Kathete eines rechtwinkligen Dreiecks, dessen Hypotenuse h_S gegeben ist und dessen zweite Kathete h_a berechnet wurde.
+[Abbildung]
+Die Höhe h_{Pyr} wird mit dem Satz des Pythagoras berechnet.
+h_{Pyr}^2+h_{a}^2=h_{S}^2
+h_{Pyr}^2+5,65^2=11,28^2 | footnotesize $-5,65^2$
+h_{Pyr}^2=11,28^2-5,65^2 | text{footnotesize $√{}$}
+h_{Pyr}=√{11,28^2-5,65^2}
+h_{Pyr}=9,76
+Die Höhe h_{Pyr} beträgt rund 9,76 cm.
+
+5. Schritt
+Volumen der Pyramide berechnen:
+Das Volumen einer Pyramide mit Grundfläche G und Höhe h wird berechnet mit der Formel
+V=(1)/(3)· G · h
+Die Grundfläche der Pyramide besteht aus 5 Dreiecken, die aus je zwei Ecken und dem Mittelpunkt der Grundfläche der Pyramide gebildet werden.
+
+Die Fläche deines Dreiecks mit Seite c und darauf stehender Höhe h_c berechnet sich nach 
+A=(1)/(2)· c · h_c
+Für die Pyramide ist dies
+A=(1)/(2)· ‾{BC} · h_a
+
+Volumen der Pyramide
+V=(1)/(3)· (5 · A)· h_{Pyr}
+V=(1)/(3)· (5 · (1)/(2) · ‾{BC}· h_a)· h_{Pyr}
+V=(1)/(3)· (5 · (1)/(2) · 8,21· 5,65)· 9,76
+V≈377
+
+Das Volumen der Pyramide beträgt rund 377cm^3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 320923 – https://de.serlo.org/mathe/320923/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gegeben sind drei Funktionsgleichungen und drei Graphen.
+
+(A) y=-(1)/(2) x^{2}+3
+(B) y=(x-3)^{2}+e
+(C)y=x^{2}+4 x+5
+
+[Abbildung]
+Welcher Graph gehört zu welcher Funktionsgleichung?
+Begründe deine Entscheidung.
+Bestimme den Wert für e mithilfe des Schaubildes.
+
+Die Gerade g verläuft durch den Scheitelpunkt S_{2} von p_{2}  und durch den Punkt P(0 | 2).
+Bestimme die Funktionsgleichung der Geraden g.
+
+[3,5 Pkte]
+Lösung:
+Lösungsidee: - Vergleiche die Funktionsgleichungen mit den Graphen.
+- Beachte den Öffnungsfaktor.
+- Beachte den den Scheitelpunkt und den y-Achsenabschnitt.
+Zuordnen der Graphen zu den Funktionsgleichungen.
+[Tabelle]
+Kennz. | Funktions- gleichung | Graph | Begründung
+A | mathrm{ y=-(1)/(2) x^{2}+3} | {textcolor{blue}{textbf{p}_textbf{3}}} | Der Öffnungsfaktor ist negativ, die Parabel ist nach unten geöffnet.
+B | y=(x-3)^{2}+e | {{textbf{p}_textbf{2}}} | Der Graph ist eine nach oben geöffnete Normalparabel. Der x- Wert des Scheitels ist 3.
+C | y=x^{2}+4 x+5 | textcolor{green}{textbf{p}_textbf{1}} | Der Graph ist eine nach oben geöffnete Normalparabel. Der y-Achsenabschnitt ist 5.
+Bestimmen des Wertes für textbf{e} mithilfe des Schaubildes.
+y=(x-3)^{2}+e
+
+Einsetzen der 1. Nullstelle in die Funktionsgleichung und berechnen von textbf{e}.
+
+0=(1-3)^2+e
+0=(-2)^2+e
+0=4+e ⇒ boxed{e=-4}
+Bestimmen der Funktionsgleichung der Geraden g.
+Die  allgemeine Geradengleichung lautet:
+
+mathrm{ y=textcolor{ff6600}{m}· x+textcolor{009999}{t}}
+
+Einsetzen der bekannten Punkte (siehe Aufgabenstellung) in die allgemeine Geradengleichung und berechnen von mathrm{textcolor{ff6600}{m}} und mathrm{textcolor{009999}{t}}.
+
+(I.) 2=m · 0+t ⇒ t=2
+mathrm {(II.)-4=m · 3+t}
+
+(I.) in (II.)-4=3m+2 ⇒ m=-2
+
+Die Funktionsgleichung der Geraden g lautet dann:
+boxed{y=-2x+2}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 320926 – https://de.serlo.org/mathe/320926/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Melina und Paul besitzen Fußball-Sammelbilder. In Pauls Schuhkarton liegen 20 Sammelbilder von Nationalspielern. 
+Die Tabelle zeigt deren Verteilung auf drei Nationalmannschaften.
+[Tabelle]
+Nationalmannschaft | Frankreich | Deutschland | Portugal
+Anzahl der Sammelbilder | 9 | 6 | 5
+Melina zieht zwei Sammelbilder gleichzeitig.
+
+Wie groß ist die Wahrscheinlichkeit, dass auf den beiden gezogenen Sammelbildern
+
+- portugiesische Spieler abgebildet sind?
+- höchstens ein deutscher Spieler abgebildet ist?
+- kein französischer Spieler abgebildet ist?
+
+[3 Pkte]
+(Eingabe der Werte mit 2 Kommastellen.)
+Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern portugiesische Spieler  abgebildet sind: [Lücke: 5,26] %
+
+Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern höchstens ein deutscher Spielerabgebildet ist: [Lücke: 92,10] %
+
+Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern kein französischer  Spieler abgebildet ist: [Lücke: 28,95] %
+Lösung:
+Lösungsidee: - Wende die 1. und 2. Pfadregel an.
+Berechnen der Wahrscheinlichkeit, dass auf den beiden gezogenen Sammelbildern portugiesische Spieler abgebildet sind.
+Im Schuhkarton befinden sich 20 Sammelbilder, auf 5 Sammelbildern sind portugiesische Spieler abgebildet.
+
+Die Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern portugiesische Spieler abgebildet sind ist dann:
+(siehe Baumdiagramm)
+
+P(pSp.)= (5)/(20)·(4)/(19)=(20)/(380)≈5,26 %
+[Abbildung: Auf beiden Bildern sind portugiesische Spieler abgebildet.]
+Berechnen der Wahrscheinlichkeit, dass auf den beiden gezogenen Sammelbildern höchstens ein deutscher Spieler abgebildet ist. 
+Im Schuhkarton befinden sich 20 Sammelbilder, auf 6 Sammelbildern sind deutsche Spieler abgebildet.
+
+Berechne die Gegenwahrscheinlichkeit, nämlich, dass auf den beiden gezogenen Bildern deutsche Spieler abgebildet sind. 
+
+P(‾{ dSp.})=(6)/(20)·(5)/(19)=(30)/(380)≈7,89 %
+
+Die Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern höchstens ein deutscher Spieler abgebildet ist, ist dann:
+(siehe Baumdiagramm)
+
+P(dSp.)=1-P(‾{dSp.})=1-(30)/(380)=dfrac {350}{380}≈92,1%
+[Abbildung: Auf beiden Bildern ist höchstens ein deutscher Spieler abgebildet.]
+Berechnen der Wahrscheinlichkeit, dass auf den beiden gezogenen Sammelbildern kein französischer Spieler abgebildet ist
+Im Schuhkarton befinden sich 20 Sammelbilder, auf 9 Sammelbildern sind französische Spieler abgebildet.
+
+Die Wahrscheinlichkeit, dass auf den beiden gezogenen Bildern kein französischer  Spieler abgebildet ist, ist dann:
+(siehe Baumdiagramm)
+
+P(fSp.)= (6)/(20)·(5)/(19)+(6)/(20)·(5)/(19)+(5)/(20)·(6)/(19)+(5)/(20)·(4)/(19)=(30+30+30+20)/(380)=(110)/(380)
+
+P(fSp.)≈28,95 %
+[Abbildung: Auf beiden Bildern ist kein französischer Spieler abgebildet.]
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 320928 – https://de.serlo.org/mathe/320928/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Löse die Gleichung.
+
+(x-3)(1+x)-(x-4)^{2}=x(x-3)-1
+
+[3 Pkte]
+x_1= [Lücke: 6] 
+x_2= [Lücke: 3]
+
+Lösung:
+Lösungsidee: - Multipliziere die Klammern aus.
+- Fasse zusammen
+- Löse die Gleichung mit der Mitternachtsformel.
+Lösen der Gleichung mit der Mitternachtsformel.
+Die Mitternachtsformel lautet:
+
+mathrm{x_{1/2}=dfrac{-b±√{b^2-4ac}}{2a}}
+
+  (x-3)(1+x)-(x-4)^{2} = x(x-3)-1
+  mathrm{x^{2}-2x-3-(x^{2}-8x+16)} = x^{2}-3x-1
+  mathrm{x^{2}-2x-3-x^{2}+8x-16} = x^{2}-3x-1
+  6x-19 = x^{2}-3x-1
+  x^{2}-3x-1 = 6x-19   | +19-6x
+  x^{2}-9x+18 = 0
+  x_{1/2} = dfrac{9±√{9^2-18·4}}{2}
+  x_1 = 6
+  x_2 = 3
+Lösungsmenge der quadratischen Gleichung:  L=\{3;6\}
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 320930 – https://de.serlo.org/mathe/320930/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Das Diagramm zeigt die Entwicklung der Nutzerzahlen der App „Perfect Fit".
+[Abbildung]
+Um wie viel Prozent ist die Anzahl der Nutzer von 2020 bis 2022 insgesamt gestiegen?
+
+Im Jahr 2023 stiegen die Nutzerzahlen um 19, 1 %  gegenüber dem Vorjahr an.
+Zeichne die Säule des Jahres 2023 in das Diagramm ein.
+[Abbildung]
+Von den 10- bis 19-jährigen Nutzern im Jahr 2022 sind 47 500 Mädchen.
+Berechne den prozentualen Anteil der Mädchen an den 10- bis 19-jährigen Nutzern.
+
+[3 Pkte]
+[Eingabefeld: 45,2]
+Lösung:
+Zuwachs der Nutzer von 2020 bis 2022 berechnen
+
+Der Zuwachs wird mithilfe eines Dreisatzes berechnet.
+[Abbildung]
+Der Zuwachs beträgt 123,5% - 100%=23,5%.
+Säule einzeichnen
+
+Nutzerzahl im Jahr 2023
+420 000· 1,191=500 220
+[Abbildung]
+Prozentualen Anteil der Mädchen berechnen
+
+Anzahl der 10- bis 19-jährigen Nutzer
+420 000· 0,25=105 000
+
+Anteil der Mädchen
+(47 500)/(105 000)≈ 0,452=45,2%
+
+
+==============================================================================
+Wahlteil B 2024  (Serlo-ID 320120)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 320970 – https://de.serlo.org/mathe/320970/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Im Rechteck A B C D liegt das Drachenviereck E G C F.
+[Abbildung]
+Es gilt:
+
+‾{A B} =9,4 cm ; ‾{B E} =5,6 cm ; varepsilon =20,0^{°}
+Berechne den Winkel φ.
+Berechne den Umfang des Vierecks A E F D.
+
+[5 Pkte]
+[Abbildung]
+Der Winkel φ ist, [Lücke: 70] °.
+
+Der Umfang des Vierecks AEFD ist, [Lücke: 21,2] cm.
+Lösung:
+Lösungsidee: - Berechne den Winkel α.
+- Berechne den Winkel β.
+- Berechne den Winkel γ.
+- Berechne den Winkel φ.
+- Berechne den Umfang des Vierecks AEFD.
+Berechnen des Winkels φ.
+Berechnen von α:
+α=90°-ε ; α=90°-20° ; α=70°
+
+Berechnen von β:
+β=180°-α ; β=180°-70° ; β=110°
+
+β=γ  wegen Achsensymmetrie des Drachenvierecks.
+
+Der Winkel φ ist dann:
+φ=180°-110° ; boxed{φ=70°}
+Berechnen des Umfangs des Vierecks AEFD.
+Umfang des Vierecks AEFD:
+
+mathrm{U_{AEFD}=‾{AE}+‾{EF}+‾{FH}+‾{DH}+‾{AD}}
+
+mathrm{‾{AE}=‾{AB}-‾{BE}} ; ‾{AE}=9,4-5,6 ; ‾{AE}=3,8cm
+
+mathrm{‾{EG}=‾{EF}}  und mathrm{‾{BE}=‾{EH}} wegen Achsensymmetrie des Drachenvierecks.  
+
+Wir berechnen ‾{EG} mithilfe des Kosinus.
+
+mathrm{cos{ε}=dfrac{‾{BE}}{‾{EG}} ⇒ ‾{EG}=dfrac{‾{BE}}{cos{ε}}}
+
+mathrm{‾{EG}=(5,6)/(cos20°)}
+
+mathrm{‾{EG}=(5,6)/(0,9397)}
+
+‾{EG}=5,96cm
+
+Jetzt müssen wir noch ‾{FH} berechnen, dann können wir den Umfang
+des Vierecks  AEFD berechnen.
+
+Wir berechnen ‾{FH} mithilfe des Tangens.
+
+mathrm{cos{φ}=dfrac{‾{FH}}{‾{EF}} ⇒ ‾{FH}=‾{EF}·{cos{φ}}}
+
+‾{FH}=5,96·cos70°
+
+‾{FH}=5,96·0,3420
+
+‾{FH}≈2,04cm
+
+U_{AEFD}=3,8+5,96+2,04+3,8+5,6
+
+boxed{U_{AEFD}=21,2cm}
+
+--- Teilaufgabe b) ---
+Die Parabeln p_{1} und p_{2} sind zwei nach oben geöffnete verschobene Normalparabeln. Die Parabel p_{1} hat den Scheitelpunkt S_{1}(1 | 1).
+Die Parabel p_{2} schneidet die x-Achse in den Punkten N_{1}(-6 | 0) und N_{2}(-2 | 0).
+Bestimme die Funktionsgleichungen von p_{1} und p_{2}.
+
+Die Gerade g verläuft durch den Scheitelpunkt S_{1} und den Punkt A(2 |-1).
+Berechne die Funktionsgleichung von g.
+
+Der Punkt S_{2} ist der Scheitelpunkt der Parabel p_{2}.
+Berechne die Entfernung zwischen S_{1} und S_{2}.
+
+Milo behauptet: „Die Parabeln p_{1} und p_{2} sowie die Gerade g schneiden sich in einem gemeinsamen Punkt."
+Überprüfe diese Behauptung. Begründe deine Antwort rechnerisch.
+
+[5 Pkte]
+Lösung:
+Lösungsidee: - Stelle die Scheitelform von p_1 auf.
+- Multipliziere die Scheitelform aus.
+- Bestimme die Funktionsgleichung von p_2, setze die Nullstellen N_1und N_2 in die Linearfaktordarstellung ein und multipliziere aus.
+- Ermittle die Geradengleichung, indem Du die Koordinaten der Punkte S_2 und A in die allgemeine Geradengleichung einsetzt.
+- Berechne die Entfernung zwischen S_{1} und S_{2}. Wende den Satz des Pythagoras an.
+Bestimmen der Funktionsgleichungen von p_{1} und p_{2}.
+Bestimmen der Funktionsgleichung von p_1.
+
+Die allgemeine Scheitelform lautet:
+
+f(x)=a(x-d)^2+e
+
+Folgende Werte sind aus der Aufgabenstellung bekannt:
+
+d=1 
+e=1
+a=1 (da es sich hier um eine nach oben geöffnete Normalparabel handelt)
+
+Einsetzen der bekannten Werte in die allgemeine Scheitelform:
+
+p_1(x)=(x-1)^2+1  ausmultiplizieren
+
+boxed{p_1(x)=x^2-2x+2}
+rule{115mm}{0.5mm}
+Bestimmen der Funktionsgleichng von p_2.
+
+Die allgemeine Linearfaktordarstellung lautet:
+
+f(x)=a(x-x_1)(x-x_2)
+
+Folgende Werte sind aus der Aufgabenstellung bekannt:
+
+x_1=-6
+x_2=-2
+a=1(da es sich hier um eine nach oben geöffnete Normalparabel handelt)
+
+Einsetzen der bekannten Werte in die allgemeine Linearfaktordarstellung:
+
+p_2(x)=(x+6)(x+2) ausmultiplizieren
+
+boxed{p_2(x)=x^2+8x+12}
+Berechnen der Funktionsgleichung von g.
+Die allgemeine Geradengleichung lautet:
+
+mathrm{y=textcolor{ff6600}{m}· x+textcolor{009999}{t}}
+
+Folgende Werte sind aus der Aufgabenstellung bekannt:
+
+A(2 |-1)
+ S_1(1|1)
+
+Wir berechnen die Steigung m. 
+
+Die Formel zur Berechnung der Steigung m lautet: 
+
+mathrm{m=dfrac{y_{Delta}}{x_{Delta}}=(y_2-y_1)/(x_2-x_1)}
+
+Einstezen der bekannten Werte in die Formel:
+
+mathrm{m=(1-(-1))/(1-2) ⇒ m=-2}
+
+Berechnen von t.
+
+1=-2+t ⇒ t=3
+
+Die Funktionsgleichung von g lautet dann:
+
+boxed{g:y=-2x+3}
+Berechnen der Entfernung zwischen S_{1} und S_{2}.
+Ermitteln des Scheitelpunktes der Parabel p_2.
+
+Berechnen des Scheitelpunktes mit der Formel:
+
+mathrm{S(-dfrac b{2~·~ a}|c-(b^2)/(4 ~· ~a).)}
+
+Folgende Werte sind bekannt (siehe Funktionsgleichung p_2(x)) :
+
+a=1
+b=8
+c=12
+
+Einsetzen der Werte in die Formel:
+
+mathrm{S_2(-dfrac 8{2~·~ 1}|12-(8^2)/(4 ~· ~1).)}
+
+mathrm{S_2(-dfrac 8{2}|12-(64)/(4 ~).)}
+
+S_2(-4|-4)
+
+Berechnen des Abstandes a mit dem Satz des Pythagoras:
+
+a^2=(x_2-x_1)^2+(y_2-y_1)^2
+
+a=√{(x_2-x_1)^2+(y_2-y_1)^2}
+
+a=√{(-4-1)^2+(-4-1)^2}
+
+a=√{50}
+
+boxed{a≈7,07 LE}
+
+Überprüfen von Milas Behauptung.
+[Tabelle]
+x | -2 | boxed{-1} | 0 | 1 | 2
+p_1 | 10 | large{color{blue}{5}} | 2 | 1 | 2
+p_2 | 0 | large{color{blue}{5}} | 12 | 21 | 32
+g | 7 | large{color{blue}{5}} | 3 | 1 | -1
+Milo hat Recht, die Parabeln p_1 und p_2 sowie die Gerade g haben einen gemeinsamen Schnittpunkt P_{gem.} mit den Koordinaten P_{gem.}(-1|5).
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 320972 – https://de.serlo.org/mathe/320972/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Die Gerade g hat die Funktionsgleichung y=-x-3.
+Sie schneidet die x-Achse im Punkt A und die y-Achse im Punkt B.
+Bestimme die Koordinaten der Punkte A und B.
+
+Durch die Punkte A und B verläuft die nach oben geöffnete verschobene Normalparabel p.
+Berechne die Funktionsgleichung der Parabel p und die Koordinaten ihres Scheitelpunktes S.
+
+Die beiden Punkte P(x_{P} | 12) und Q(x_{Q} | 12) liegen auf der Parabel p. 
+Sie bilden zusammen mit dem Scheitelpunkt S das Dreieck P S Q.
+Berechne den Flächeninhalt des Dreiecks P S Q.
+
+[5 Pkte]
+Lösung:
+Koordinaten bestimmen
+Schnittpunkt mit der x-Achse bestimmen durch Einsetzen von y=0
+  y = -x-3
+  0 = -x-3   | +x
+  x = -3
+Punkt A hat die Koordinate A(-3|0).
+
+Schnittpunkt mit der y-Achse bestimmen durch Einsetzen von x=0
+  y = -x-3
+  y = -0-3
+  y = -3
+Punkt B hat die Koordinate B(0|-3).
+Funktionsgleichung und Scheitelpunkt
+Die verschobene Normalparabel hat die Form y=x^2+ax+c
+
+Einsetzen der Koordinaten des Punkts B(0|-3)
+-3=0^2+a· 0+c \ -3=c
+
+Einsetzen der Koordinate des Punkts A(-3|0)
+  0 = (-3)^2+a·(-3)-3
+  0 = 9-3a-3
+  0 = 6-3a   | +3a
+  3a = 6   | :3
+  a = 2
+Die Funktionsgleichung lautet somit
+y=x^2+2x-3
+Umformen der Funktionsgleichung in die Scheitelpunktform
+
+y=x^2+2x-3 ; y=x^2+2x+1-1-3 ; y=(x+1)^2-4
+
+Daraus lässt sich der Scheitelpunkt S(-1|-4) ablesen.
+Flächeninhalt des Dreiecks
+
+[Abbildung]
+Anhand der Skizze kann man die Länge der Grundseite g=8 und die Höhe h=16 des Dreiecks ablesen.
+
+Der Flächeninhalt A des Dreiecks berechnet sich mit der Formel
+A=(1)/(2)· g· h
+A=(1)/(2)· 8· 16
+A=64
+
+--- Teilaufgabe b) ---
+Die Abbildung zeigt den Achsenschnitt eines zusammengesetzten Körpers und den Parallelschnitt einer quadratischen Pyramide.
+Der zusammengesetzte Körper besteht aus einer Halbkugel und einem Kegel.
+[Abbildung]
+Es gilt:
+s =14,4 cm ; δ =42,0^{°} ; h_{ges} =h_{Pyr}
+Der Durchmesser d des zusammengesetzten Körpers ist genauso lang wie die Grundkante a der quadratischen Pyramide.
+Berechne die Differenz der Oberflächeninhalte der beiden Körper.
+
+[5 Pkte]
+Die Differenz der Oberflächen beträgt [Lücke: 104] cm^2.
+Lösung:
+1. Schritt: Radius r berechnen
+  sin{(δ)/(2)} = (r)/(s)
+  sin{21^°} = (r)/(14,4)   | · 14,4
+  sin{21^°}· 14,4 = r
+  5,16 = r
+2. Schritt: h_{Kegel} berechnen
+  tan{(δ)/(2)} = dfrac{r}{h_{Kegel}}
+  tan{21^°} = dfrac{5,16}{h_{Kegel}}   | · h_{Kegel}
+  tan{21^°}· h_{Kegel} = 5,16   | : tan{21^°}
+  h_{Kegel} = dfrac{5,16}{tan{21^°}}
+  h_{Kegel} = 13,44
+3. Schritt: h_{Pyr} berechnen
+h_{Pyr}=h_{Kegel}+r ; h_{Pyr}=13,44+5,16 ; h_{Pyr}=18,6
+4. Schritt: Höhe h_S der Seitenfläche der Pyramide berechnen
+  (h_S)^2 = (h_{Pyr})^2+((a)/(2))^2
+  (h_S)^2 = 18,6^2+5,16^2   | √{}
+  h_S = √{18,6^2+5,16^2}
+  h_S = 19,3
+5. Schritt: Differenz der Oberflächeninhalte berechnen
+Die Oberfläche des zusammengesetzten Körpers O_{zgs} wird gebildet aus der halben Oberfläche der Kugel O_{Kugel} und der Mantelfläche des Kegels M_{Kegel}.
+
+Oberfläche einer Kugel
+O_{Kugel}=4·π· r^2
+
+Mantelfläche eines Kegels
+M_{Kegel}=π· r· s
+
+Oberfläche des zusammengesetzten Körpers O_{zgs}
+  O_{zgs} = dfrac{O_{Kugel}}{2}+M_{Kegel}
+  O_{zgs} = (4·π· r^2)/(2)+π· r· s
+  O_{zgs} = (4·π· 5,16^2)/(2)+π· 5,16· 14,4
+  O_{zgs} = 2·π· 5,16^2+π· 5,16· 14,4
+  O_{zgs} = 401
+Oberfläche der Pyramide O_{Pyr}
+  O_{Pyr} = Grundfläche+Mantelfläche
+  O_{Pyr} = a^2+2· a · h_S
+  O_{Pyr} = (2· 5,16)^2+2·(2· 5,16)·19,3
+  O_{Pyr} = 505
+Differenz der Oberflächen 
+O_{Pyr}-O_{zgs}=505-401=104
+
+Die Differenz der Oberflächen beträgt 104cm^2.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 320974 – https://de.serlo.org/mathe/320974/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Beim Schulfest bietet die Klasse 10a ein Angelspiel an. Dabei dürfen die Spieler zweimal nacheinander einen Gegenstand aus einem Gefäß angeln. Die Gegenstände werden nicht zurückgelegt. In dem Gefäß liegen fünf Fische, drei Seesterne und zwei Muscheln.
+[Abbildung]
+Berechne die Wahrscheinlichkeit für das Ereignis „zweimal Muschel".
+
+ Für ein Glücksspiel wird der gegebene Gewinnplan eingesetzt.
+[Tabelle]
+Ereignis | Gewinn
+zweimal Muschel | 9,00 €
+zweimal Seestern | 4,00 €
+Muschel und Seestern | 2,50 €
+Einsatz | 1,00 €
+Berechne den Erwartungswert.
+
+Der Gewinnplan soll so verändert werden, dass das Spiel fair wird. Dazu soll der Gewinn von „zweimal Muschel" verändert werden, während alles andere unverändert bleibt.
+
+Wie hoch muss der Gewinn für „zweimal Muschel" sein?
+
+[5 Pkte]
+Lösung:
+Wahrscheinlichkeit "zweimal Muschel"
+Insgesamt befinden sich 5 Fische+3 Seesterne+2 Muscheln=10 Gegenstände in dem Gefäß. 
+Die Wahrscheinlichkeit, im ersten Zug eine Muschel zu ziehen, beträgt:
+P(1. Zug Muschel)=(2)/(10)
+Die Muschel wird nicht zurückgelegt. Die Wahrscheinlichkeit, im zweiten Zug eine Muschel zu ziehen, beträgt:
+P(2. Zug Muschel)=(1)/(9)
+
+Die Wahrscheinlichkeit,  in beiden Zügen eine Muschel zu ziehen, ist dann:
+P(zweimal Muschel)=(2)/(10)·(1)/(9)=(2)/(90)=(1)/(35)≈ 2,22%
+
+Erwartungswert
+P(zweimal Muschel)=(1)/(45)
+P(zweimal Seestern)=(3)/(10)·(2)/(9)=(6)/(90)=(1)/(15)
+
+Das Ereignis "Muschel und Seestern" tritt ein, wenn im ersten Zug eine Muschel und im zweiten Zug ein Seestern oder im ersten Zug ein Seestern und im zweiten Zug eine Muschel gezogen wird.
+P(Muschel und Seestern)=(2)/(10)·(3)/(9)+(3)/(10)·(2)/(9)=(12)/(90)=(2)/(15)
+
+Der Erwartungswert E des Spiels berechnet sich aus der Summe der Wahrscheinlichkeiten der verschiedenen Ereignisse multipliziert mit dem Gewinn abzüglich des Einsatzes.
+E=(1)/(45)· 9+(1)/(15)· 4+(2)/(15)· 2,5-1=-0,2
+
+Gewinn für "zweimal Muschel" bei fairem Gewinnplan
+Das Spiel ist fair bei einem Erwartungswert von 0.
+Neuen Gewinn x für "zweimal Muschel" berechnen.
+  0 = (1)/(45)· x+(1)/(15)· 4+(2)/(15)· 2,5-1
+  0 = (1)/(45)· x-0,4   | +0,4
+  0,4 = (1)/(45)· x   | · 45
+  18 = x
+Für ein faires Spiel muss der Gewinn für "zweimal Muschel" 18 € betragen.
+
+--- Teilaufgabe b) ---
+Die Vorderseite einer Tennishalle hat annähernd die Form einer Parabel.
+Sie lässt sich mit der Funktionsgleichung y=a x^{2}+c beschreiben.
+[Abbildung]
+Die maximale Höhe der Halle beträgt 12m . Die Halle hat am Boden eine Breite von 40m .
+Gib eine mögliche Funktionsgleichung an.
+
+In die Vorderseite der Tennishalle soll eine rechteckige Fensterfläche mittig eingebaut werden. Dazu werden zwei Vorschläge geprüft.
+
+Vorschlag 1:
+Die Fensterfläche soll eine Höhe von 10m haben.
+Die beiden oberen Eckpunkte berühren den Parabelbogen (siehe Abbildung).
+Berechne den Flächeninhalt dieser Fensterfläche.
+
+Vorschlag 2:
+Die Fensterfläche soll eine Breite von 10m haben.
+Berechne die größtmögliche Höhe dieser Fensterfläche.
+Welche der beiden Fensterflächen ist größer? Berechne.
+
+[5 Pkte]
+Lösung:
+Funktionsgleichung angeben
+Die Parabel hat den Scheitelpunkt S(0|12).
+
+Einsetzen der Koordinaten des Scheitelpunkts in die Funktionsgleichung
+y=a· x^2 + c
+12=a· 0 + c
+12=c
+ 
+Da die Halle am Boden eine Breite von 40m hat, kommt sie im Punkt P(20|0) auf dem Boden auf. Dieser Punkt liegt auch auf der Parabel.
+
+Einsetzen der Koordinaten des Punktes P in die Funktionsgleichung
+y=a· x^2 + c
+0=a· 20^2 +12
+0=a· 400 +12
+-12=a· 400
+-0,03=a
+
+Eine mögliche Funktionsgleichung lautet:
+y=-0,03· x^2 +12
+Flächeninhalt der Fensterfläche 
+Vorschlag 1
+Die Fensterfläche ist 10m hoch. Damit können die Eckpunkte der Fensterfläche auf dem Parabelbogen berechnet werden.
+  -0,03· x^2+12 = 10   | -12
+  -0,03· x^2 = -2   | :(-0,03)
+  x^2 ≈ 66,67   | √{}
+  x ≈ ± 8,17
+Die Fensterfläche hat eine Höhe von 10m und eine Breite von 2· 8,17=16,34m.
+Der Flächeninhalt A_1beträgt 10· 16,34=163,40m^2.
+
+Vorschlag 2
+Größtmögliche Höhe berechnen
+Da das Fenster eine Breite von 10m haben soll, muss der Funktionswert an der Stelle x=5 berechnet werden.
+y=-0,03· 5^2+12=11,25
+Die Fensterfläche kann maximal 11,25m hoch sein.
+
+Der Flächeninhalt A_2 beträgt 10· 11,25=112,50m^2.
+
+Vergleich der Flächen
+A_2=112,5<A_1=163,4
+
+Die Fensterfläche von Vorschlag 1 ist größer.

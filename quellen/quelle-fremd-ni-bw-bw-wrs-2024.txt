@@ -1,0 +1,911 @@
+Quelle: Baden-Württemberg, Abschlussprüfungen Werkrealschule Mathematik mit Lösungen – Prüfungsjahr 2024, Aufgaben mit Lösungen in der Fassung der freien Lernplattform Serlo (de.serlo.org).
+Adresse: https://de.serlo.org/mathe/320108/2024 (Jahrgangsseite, Serlo-ID 320108); Prüfungsteile: https://de.serlo.org/mathe/320147/pflichtteil-a1 (Pflichtteil A1, ID 320147); https://de.serlo.org/mathe/320148/pflichtteil-a2 (Pflichtteil A2, ID 320148); https://de.serlo.org/mathe/320149/wahlteil-b (Wahlteil B, ID 320149)
+Abruf: 2026-09-28 über die Serlo-API (https://api.serlo.org/graphql, ein Abruf je Schulart für alle Jahrgänge; Inhalt der Aufgabenseiten wortgleich).
+Seitenzahl: keine PDF-Datei; Web-Seiten, eine je Prüfungsteil.
+Lizenzvermerk: je Aufgabe im Kopf der Aufgabe – Nr. 31 „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ oder Nr. 1 Serlo-Standardvermerk „Dieses Werk steht unter der freien Lizenz CC BY-SA 4.0“. Die Lösungen sind Serlo-Inhalte, nicht die amtlichen Lösungen.
+Textfassung: Formeln aus LaTeX vereinfacht wiedergegeben; Abbildungen nur als [Abbildung]; interaktive Elemente als [Auswahl]/[Eingabefeld]/[Lücke] mit der hinterlegten richtigen Antwort ((x) = richtig).
+
+==============================================================================
+Pflichtteil A1 2024  (Serlo-ID 320147)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321226 – https://de.serlo.org/mathe/321226/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welches dieser Dreiecke hat keinen rechten Winkel?
+(A)  a=5cm,   b=12cm  und c=13cm
+(B)  a=15cm,   b=12cm  und c=9cm
+(C)  a=5cm,   b=7cm   und  c=9cm
+- Begründe deine Entscheidung.
+[ 1 Pkt. ]
+Lösung:
+Dreieck A
+Um zu überprüfen, ob das Dreieck einen rechten Winkel hat, setzt man die angegebenen Seitenlängen in den Satz des Pythagoras ein:
+  a^2 + b^2 = c^2
+  5^2 + 12^2 = 13^2
+  25 + 144 = 169
+  169 = 169
+Die Gleichung geht auf, das heißt das Dreieck hat einen rechten Winkel.
+Dreieck B
+Man rechnet hier wie bei Dreieck A, außer dass hier die Seite a die Längste ist.
+  b^2 + c^2 = a^2
+  12^2 + 9^2 = 15^2
+  144 + 81 = 225
+  225 = 225
+Die Gleichung geht auf, auch dieses Dreieck hat einen rechten Winkel.
+Dreieck C
+Auch hier rechnet man wie bei Dreieck A:
+  a^2 + b^2 = c^2
+  5^2 + 7^2 not-equal-to 9^2
+  25 + 49 not-equal-to 81
+  74 not-equal-to 81
+Die Gleichung geht nicht auf, das heißt das Dreieck hat keinen rechten Winkel.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321228 – https://de.serlo.org/mathe/321228/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Berechne die Strecke x.
+[Abbildung]
+[ 1 Pkt. ]
+[Eingabefeld: 12,5]
+Lösung:
+Mithilfe des ersten Strahlensatzes kann man folgende Formel aufstellen und dann nach x auflösen:
+  (x)/(7,5) = (3 + 2 )/(3 )   | · 7,5
+  x = (5 )/(3 ) · 7,5
+  x = (37,5 )/(3 )
+  x = 12,5
+Die Strecke x hat eine Länge von 12,5 m.
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321230 – https://de.serlo.org/mathe/321230/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Seiten eines Quadrats und der Radius eines Halbkreises sind gleich lang.
+Elisa behauptet: „Der Umfang des Quadrats ist größer als die Länge des Kreisbogens.“
+- Zeige, dass Elisa Recht hat.
+[Abbildung]
+[ 1 Pkt. ]
+Lösung:
+Um die Länge des Kreisbogens mit dem Umfang des Quadrats zu vergleichen, stellt man für beide eine Gleichung in Abhängigkeit von r auf.
+Kreisbogen
+Den Umfang eines Kreises berechnet man mithilfe der Formel U_{Kreis} = 2 · r · π.
+Weil hier nur der Umfang eines Halbkreises ermittelt werden soll, lautet die Formel U_{Halbkreis} = r · π.
+Umfang des Quadrats
+Den Umfang eines Quadrats berechnet man, indem man die Längen der Seiten addiert. 
+Da alle Seiten gleichlang sind, lautet der Umfang des Quadrats U_{Quadrat} = 4 · r.
+Vergleich
+4 ist größer als π, da π ≈ 3,14.
+4 · r ist also größer als π · r, Elisa hat recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321232 – https://de.serlo.org/mathe/321232/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welche Maßeinteilung passt zum dargestellten Gefäß?
+[Abbildung]
+- Kreuze die passende Maßeinteilung an.
+[ 1 Pkt. ]
+Lösung:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321234 – https://de.serlo.org/mathe/321234/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gegeben sind folgende Zufallsgeräte:
+[Abbildung]
+Bei welchem Zufallsgerät ist die Wahrscheinlichkeit für einen Gewinn höher?
+- Begründe deine Entscheidung.
+[ 1 Pkt. ]
+Lösung:
+Glücksrad
+6 der 10 Zahlen auf dem Glücksrad sind ungerade, nämlich 125, 93, 81, 121, 85 und 7.
+Die Wahrscheinlichkeit zu gewinnen beträgt also (6)/(10) bzw. 60 %.
+Würfel
+6 der 12 Zahlen auf dem Würfel sind Teiler von 12, nämlich 1, 2, 3, 4, 6 und 12.
+Die Wahrscheinlichkeit bei einem Würfelwurf zu gewinnen beträgt also (6)/(12) bzw. 50 %.
+Vergleich
+Die Wahrscheinlichkeit beim Drehen des Glücksrads zu gewinnen ist höher als die Wahrscheinlichkeit, beim Würfelwurf zu gewinnen, da 60 % > 50 %.
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321242 – https://de.serlo.org/mathe/321242/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+„Das Sechsfache einer Zahl ist genauso groß wie die Summe aus dem Quadrat der Zahl und 9.“
+
+- Löse das Zahlenrätsel mithilfe einer Gleichung.
+[ 1 Pkt. ]
+Lösung:
+Um die Zahl zu finden, stellt man eine Gleichung auf, in der die gesuchte Zahl durch die Variable x dargestellt wird, und löst dann nach x auf.
+  6x = x^2 + 9   | -6x
+  0 = x^2 - 6x + 9
+  x_{1/2} = frac{6 ± √{(-6)^2 - 4 · 1 · 9}}{2 · 1}
+  x_{1/2} = frac{6 ± √{36 - 36}}{2}
+  x_{1/2} = frac{6 ± √{0}}{2}
+  x = (6)/(2)
+  x = 3
+Die gesuchte Zahl ist die 3.
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321244 – https://de.serlo.org/mathe/321244/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Justus stellt die folgende Textaufgabe mit dem Prozentstreifen dar:
+[Abbildung]
+- Stelle die gegebenen Größen und die gesuchte Größe der zweiten Textaufgabe am Prozentstreifen dar.
+[ 1 Pkt. ]
+Lösung:
+Gegebene und gesuchte Größen
+In der zweiten Textaufgabe ist der ursprüngliche Preis der Jacke die gesuchte Größe. Gegeben sind: 
+[Tabelle]
+Um wie viel Prozent der Preis  der Jacke reduziert wurde | 60 % Der neue Preis entspricht also  100 % - 60 % = 40 % des alten Preises
+Wie viel die Jacke jetzt kostet | 90 €
+Der ursprüngliche Preis der Jacke
+Um den ursprünglichen Preis der Jacke (Grundwert G) zu berechnen, teilt man den neuen Preis der Jacke (Prozentwert W) durch 40 % (Prozentsatz p):
+
+G = (W)/(p) = (90)/(0,4) = 225
+
+Die Jacke hat vor der Reduktion also 225 € gekostet.
+Die Position des Strichs
+Um zu ermitteln, wo der Strich gesetzt werden muss, muss man berechnen, wie viel Prozent einem Kästchen entsprechen:
+Der Prozentstreifen besteht aus 40 Kästchen lang. Ein Kästchen entspricht also 100 % : 40 = 2,5 %.
+Um 40 % in Kästchen darzustellen, müssen 40 % : 2,5 % = 16 Kästchen links vom Strich liegen.
+Der Prozentstreifen der zweiten Textaufgabe sieht also wie folgt aus:
+[Abbildung]
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321247 – https://de.serlo.org/mathe/321247/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Welche der folgenden Terme passen zum Volumen des Trapezprimas? Kreuze an.
+[Abbildung]
+[ 1 Pkt. ]
+[Auswahl (mehrere Antworten)]
+  ( ) Volumen=2· Volumen_{Würfel}+Volumen_{Dreiecksprisma}
+  (x) Volumen=Volumen_{Würfel}+Volumen_{Dreiecksprisma}
+  ( ) Volumen=2· Volumen_{Dreiecksprisma}-Volumen_{Würfel}
+  ( ) Volumen= 2· Volumen_{Würfel}+(1)/(2)· Volumen_{Würfel}
+Lösung:
+Lösungsidee: - Das Trapezprisma kann mittig in einen Würfel und ein Dreiecksprisma geteilt werden
+- Stelle Formeln für das Volumen des Würfels und des Dreiecksprismas in Abhängigkeit von a auf
+- Bestimme mithilfe dieser Formeln das Volumen des Trapezprismas
+- Vergleiche damit die Formeln aus den Antwortmöglichkeiten
+Teilt man das Trapezprisma in einen Würfel und ein Prisma auf, so kann man sein Volumen in Abhängigkeit von a ausdrücken.
+[Abbildung]
+Das Volumen des Würfels
+Die Seiten des Würfels haben eine Länge von a. Um sein Volumen zu berechnen, multipliziert man Länge mit Höhe und Breite: 
+V_{Würfel} = l_{Würfel} · h_{Würfel} · b_{Würfel} = a · a · a = a^3
+Das Volumen des Dreiecksprismas
+Um das Volumen des Dreiecksprismas zu berechnen, multipliziert man seine Grundfläche mit seiner Höhe.
+
+Die Grundfläche ist ein rechtwinkliges Dreieck, dessen Katheten die Länge a haben. Damit kann man die Fläche dieses Dreiecks ausrechnen:
+G = (1)/(2) · a · h_a = (1)/(2) · a · a = (1)/(2) · a^2
+
+Jetzt muss man die Grundfläche nur noch mit der Höhe multiplizieren, um das Volumen zu berechnen:
+V_Dreiecksprisma = G · h = (1)/(2) · a^2 · a = (1)/(2) · a^3
+
+Das Volumen des Dreiecksprismas ist genau halb so groß wie das des Würfels.
+Das Volumen des Trapezprismas kann man jetzt bestimmen, indem man das Volumen des Würfels und das Volumen des Dreiecksprismas addiert:
+V_{Trapezprisma} = V_{Würfel} + V_{Prisma} = a^3 + 0,5 · a^3 = color {blue} {1,5 · a^3}
+
+Jetzt kann man die Formeln in den Antwortmöglichkeiten ebenfalls in Abhängigkeit von a formulieren und mit diesem Ergebnis vergleichen.
+Antwortmöglichkeit 1
+Volumen_1 = 2 · Volumen_{Würfel} + Volumen_{Dreiecksprisma} = 2 · a^3 + 0,5 · a^3 = 2,5 · a^3
+
+2,5 · a^3 ne color {blue} 1,5 · a^3
+Antwortmöglichkeit 1 ist also falsch.
+Antwortmöglichkeit 2
+Volumen_2 = Volumen_{Würfel} + Volumen_{Dreiecksprisma} = a^3 + 0,5 · a^3 = 1,5 · a^3
+
+1,5 · a^3 = color {blue} 1,5 · a^3
+Antwortmöglichkeit 2 ist also richtig.
+Antwortmöglichkeit 3
+Volumen_3 = 2 · Volumen_Dreiecksprisma - Volumen_Würfel = 2 · 0,5 · a^3 - a^3 = a^3 - a^3 = 0
+
+0 ne color {blue} 1,5 · a^3
+Antwortmöglichkeit 3 ist also falsch.
+Antwortmöglichkeit 4
+Volumen_4 = 2· Volumen_Würfel + (1)/(2) · Volumen_Würfel= 2 · a^3 + (1)/(2) · a^3 = 2,5 · a^3
+
+2,5 · a^3 ne color {blue} 1,5 · a^3
+Antwortmöglichkeit 4 ist also falsch.
+
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 321249 – https://de.serlo.org/mathe/321249/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Levi, Svenja, Helena, Maxim und David gehen in den Urlaub. Jedes Kind verabschiedet sich von jedem anderen Kind mit einem Handschlag.
+- Erstelle eine Skizze, in der zu erkennen ist, wie oft die Hände geschüttelt werden.
+[ 1 Pkt. ]
+Lösung:
+[Abbildung]
+- Levi schüttelt mit Svenja, Helena, Maxim und David die Hände, also viermal.
+- Svenja schüttelt nur mit Helena, Maxim und David die Hände, also dreimal, da sie sich von Levi bereits verabschiedet hat.
+- David schüttelt nur mit Helena und Maxim die Hände, also zweimal, da er sich schon von Levi und Svenja verabschiedet hat.
+- Helena schüttelt nur doch mit Maxim die Hände, also einmal, da sie sich bereits von Levi, Svenja und David verabschiedet hat.
+4+3+2+1=10
+Es werden also insgesamt zehnmal die Hände geschüttelt.
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 321251 – https://de.serlo.org/mathe/321251/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eine Parabel p_1 wurde zuerst an der x-Achse gespiegelt und dann um eine Einheit nach unten verschoben. 
+Die dabei entstandene Parabel p_2 hat die Funktionsgleichung  y=-x^2-2.
+[Abbildung]
+- Gib die Funktionsgleichung der Parabel p_1 an.
+[ 1 Pkt. ]
+[Eingabefeld: y=x^2+1 | x^2+1]
+Lösung:
+p_2:y=-x^2-2
+Verschiebe die Parabel p_2 zunächst um 1 nach oben. Du erhälst dann die Parabel f. 
+f:y=-x^2-2+1
+f:y=-x^2-1
+Spiegle f nun an der x-Achse (Multiplikation mit (-1). Dann hast du die Parabel p_1.
+p_1:y=(-1)·(-x^2-1)
+p_1:y=x^2+1
+[Abbildung]
+
+
+==============================================================================
+Pflichtteil A2 2024  (Serlo-ID 320148)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo Exercise 321253 – https://de.serlo.org/mathe/321253/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Die Abbildung zeigt eine Bilderfolge aus Streichhölzern.
+[Abbildung]
+- Bestimme die Anzahl der Streichhölzer im 7. Bild.
+
+Thorben hat den Term  6+5· x  aufgestellt, um die Anzahl der Streichhölzer im x -ten Bild zu bestimmen.
+Stimmt Thorbens Term?
+
+- Begründe deine Entscheidung.
+[ 2 Pkt. ]
+[Abbildung]
+[Abbildung]
+Lösung:
+Im ersten Bild sind es 6 Streichhölzer. Mit jedem Bild kommen 5 weitere Streichhölzer dazu.
+7. Bild:  6+5+5+5+5+5+5=36
+Im 7. Bild sind es 36 Streichhölzer.
+
+Der Term 6+5· x stimmt nicht.
+Zum Beispiel sind es im ersten Bild sechs Streichhölzer. Laut der Formel wären es jedoch 6+5·1=11 Streichhölzer.
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo Exercise 321255 – https://de.serlo.org/mathe/321255/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Diese Perlenketten liegen in einem Behälter und werden blind gezogen.
+[Abbildung]
+Bestimme die prozentuale Wahrscheinlichkeit, sodass die gezogene Perlenkette beim einmaligen Ziehen ...
+(1) graue und weiße Perlen enthält.
+(2) mindestens eine und maximal drei weiße Perlen enthält.
+Es wird zweimal ohne Zurücklegen gezogen.
+Berechne die Wahrscheinlichkeit, dass Perlenketten mit insgesamt genau 3 grauen Kugeln gezogen werden.
+[ 3 Pkt. ]
+[Abbildung]
+Die prozentuale Wahrscheinlichkeit, dass die gezogene Perlenkette beim einmaligen Ziehen graue und weiße Perlen enthält, beträgt: [Lücke: 60] %. 
+
+Die prozentuale Wahrscheinlichkeit, dass die gezogene Perlenkette beim einmaligen Ziehen mindestens eine und maximal drei weiße Perlen enthält, beträgt: [Lücke: 40] %.
+
+Die Wahrscheinlichkeit, dass Perlenketten mit insgesamt genau 3 grauen Kugeln gezogen werden beträgt: [Lücke: 1/10] oder [Lücke: 10] %.
+Lösung:
+Anzahl Ketten gesamt:  5
+
+Anzahl Ketten mit grauen und weißen Perlen:  3
+(1)   (3)/(5)=(60)/(100)=60%
+
+Anzahl Ketten mit mindestens einer und maximal drei weißen Perlen:  2
+(2)   (2)/(5)=(40)/(100)=40%
+
+Es wird zweimal ohne Zurücklegen gezogen.
+Die einzigen Möglichkeiten für genau 3 graue Kugeln sind, zuerst die Kette mit zwei grauen Kugeln und dann die mit einer grauen Kugel zu ziehen oder andersrum.
+Anzahl Ketten mit einer grauen Kugel:  1
+Anzahl Ketten mit zwei grauen Kugeln:  1
+P(genau 3 graue Kugeln)=(1)/(5)·(1)/(4)+(1)/(5)·(1)/(4)=(1)/(10)=10 %
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo Exercise 321259 – https://de.serlo.org/mathe/321259/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Gegeben ist das lineare Gleichungssystem:
+(I) -x+3y=3
+(II)     y=-2 x+1
+Beim Berechnen des x-Wertes des linearen Gleichungssystems wurden Fehler gemacht.
+- Markiere die Fehler und beschreibe, was falsch gemacht wurde.
+[Abbildung]
+Gegeben ist folgendes Gleichungssystem:
+
+(I)    6x+2y=11
+(II)   y=2x-2
+- Löse das Gleichungssystem zeichnerisch und gib die Lösung an.
+Lösung:
+[Tabelle]
+Lösungsweg | Korrektur | Beschreibung
+-x+3·-2x+1=3 | -x+3(-2x+1)=3 | Klammer vergessen
+-x-6x+1=3 |  | 
+-7x+1=3 |  | 
+-7x=2 |  | 
+x=-5 | x=-(2)/(7) | falsche Äquivalenzumformung
+Löse das Gleichungssystem zeichnerisch und gib die Lösung an.
+(I)   6x+2y=11
+(II)  y=2x-2
+
+Forme die Gleichung (I) um.
+(I)   6x+2y=11
+       2y=11-6x
+       y=-3x+5,5
+Zeichne die beiden Gleichungen in ein Koordinatensystem.
+[Abbildung]
+Der Schnittpunkt der beiden Geraden ist S(1,5|1).
+L=\{(1,5|1)\}
+
+
+------------------------------------------------------------------------------
+Aufgabe 4 des Teils
+[Serlo Exercise 321398 – https://de.serlo.org/mathe/321398/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eine Normalparabel p_{1} hat den Scheitelpunkt S(0 |-4).
+- Überprüfe, ob der Punkt P(-2,5 | 1,5) auf der Parabel p_{1} liegt.
+Thilo behauptet: „Die Parabel p_{2} mit der Funktionsgleichung y=-(1)/(10) x^{2}-2 hat keine Schnittpunkte mit der x-Achse". Hat er Recht?
+- Begründe deine Entscheidung durch Argumentation.
+[2 Pkt]
+Lösung:
+Scheitelpunktform:
+ f(x)=(x-d)^2+e
+Scheitelpunkt: S(d|e)
+
+Setze die bekannten Werte ein:
+p_1: y=(x-0)^2-4
+      y=x^2-4
+
+Punkt auf Parabel überprüfen:
+
+Rechnerische Lösung:
+1,5=(-2,5)^2-4
+1,5=2,25
+Diese Aussage ist falsch. Der Punkt P liegt also nicht auf der Parabel p_1.
+
+Zeichnerische Lösung:
+[Abbildung]
+
+Die Parabel p_{2} mit der Funktionsgleichung y=-(1)/(10)x^2-2 hat keine Schnittpunkte mit der x-Achse.
+Behauptung überprüfen:
+Scheitelpunktform:   y=a(x-d)^2+e
+d=0
+e=-2
+⇒   p_1 hat den Scheitelpunkt S(0|-2).
+a=-(1)/(10)<0    ⇒  Die Parabel ist nach unten geöffnet.
+Thilo hat also recht.
+
+
+------------------------------------------------------------------------------
+Aufgabe 5 des Teils
+[Serlo Exercise 321262 – https://de.serlo.org/mathe/321262/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Führe folgende Anweisungen durch:
+
+- Zeichne die Punkte A(6|0), B(6|6) und C(-3|3) in ein Koordinatensystem (1 LE = 1 cm).
+- Verbinde die Punkte zu einem Dreieck und gib die besondere Art des Dreiecks an.
+- Zeichne alle Mittelsenkrechten ein.
+- Gib den Schnittpunkt S der Mittelsenkrechten an.
+[ 3 Pkt. ]
+Lösung:
+[Abbildung]
+Bei dem Dreieck ABC handelt es sich um ein gleichschenkeliges Dreieck.
+
+Zur Konstruktion der Mittelsenkrechten auf ‾{AC} zeichne je einen Kreis um A und C, dessen Radius größer ist als der halbe Abstand von A nach C.
+Die Mittelsenkrechte ist die Gerade, die durch die Schnittpunkte der beiden Kreise geht.
+Verfahre  mit den Mittelsenkrechten auf ‾{AB} und ‾{BC} entsprechend.
+[Abbildung]
+Der Schnittpunkt der Mittelsenkrechten ist S(2|3).
+
+
+------------------------------------------------------------------------------
+Aufgabe 6 des Teils
+[Serlo Exercise 321401 – https://de.serlo.org/mathe/321401/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Eine Normalparabel p_1 hat den Scheitelpunkt S(0|-4).
+
+- Überprüfe, ob der Punkt P(-2,5|1,5) auf der Parabel p_1 liegt.
+Thilo behauptet: „Die Parabel p_2 mit der Funktionsgleichung  y=- (1)/(10)x^2-2  hat keine Schnittpunkte mit der x-Achse“. Hat er Recht?
+- Begründe deine Entscheidung durch Argumentation.
+[ 2 Pkt. ]
+
+
+------------------------------------------------------------------------------
+Aufgabe 7 des Teils
+[Serlo Exercise 321408 – https://de.serlo.org/mathe/321408/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Das Säulendiagramm zeigt die Tageshöchsttemperaturen ({ }^{°} C) einer Woche.
+[Abbildung: (Skizze nicht maßstabsgetreu)]
+Welche ganzzahligen Temperaturwerte sind für Mittwoch möglich, wenn der fehlende Wert weder das Minimum noch das Maximum ist?
+- Begründe deine Entscheidung.
+In den USA werden Temperaturen in Fahrenheit ({ }^{°} F) angegeben.
+
+Es gilt: boxed{ { }^{°} F={ }^{°} C· 1,8+32 }
+
+- Berechne die Temperatur in { }^{°} C, wenn es in New York 59^{°} F hat.
+[2 Pkt]
+Lösung:
+Mögliche Temperaturwerte für Mittwoch
+
+Für Mittwoch sind Temperaturen von 11^° C bis 24^° C möglich. Diese Werte liegen zwischen dem Minimum von 10^° C am Montag und 25^° C am Samstag.
+
+Temperatur in ^° C umrechnen
+  ^° F = x· 1,8+32
+  59 = x· 1,8+32   | -32
+  27 = x· 1,8   | :1,8
+  15 = x
+Die Temperatur beträgt 15^° C.
+
+
+------------------------------------------------------------------------------
+Aufgabe 8 des Teils
+[Serlo Exercise 321403 – https://de.serlo.org/mathe/321403/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+(kein Inhalt)
+
+------------------------------------------------------------------------------
+Aufgabe 9 des Teils
+[Serlo Exercise 321410 – https://de.serlo.org/mathe/321410/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im Rechteck A B C D ist das Trapez A B E F eingezeichnet.
+[Abbildung]
+Es gilt:
+
+‾{A B} =50 cm ; ‾{B C} =30 cm ; ‾{B E} =33,5 cm ; ‾{C E} =15 cm ; α =75^{°}
+
+- Zeige, dass der Winkel γ=105^{°} beträgt.
+- Berechne den Umfang des Trapezes.
+[3 Pkt]
+
+
+------------------------------------------------------------------------------
+Aufgabe 10 des Teils
+[Serlo Exercise 321405 – https://de.serlo.org/mathe/321405/aufgabe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+Im Rechteck ABCD ist das Trapez ABEF eingezeichnet.
+Es gilt:
+‾{AB}=50cm
+‾{BC}=30cm
+‾{BE}=33,5cm
+‾{CE}=15cm
+α=75°
+[Abbildung]
+- Zeige, dass der Winkel γ=105° beträgt.
+- Berechne den Umfang des Trapezes.
+[ 3 Pkt. ]
+Lösung:
+Winkel γ berechnen:
+In einem Trapez ergeben zwei auf derselben Seite eines Schenkels liegende Winkel zusammen 180°.
+γ=180°-α
+γ=180°-75°=105°
+Umfang des Trapezes berechnen:
+
+Länge der Strecke ‾{AF}:
+Du kannst ‾{AF} mit dem Sinus berechnen.
+sin(75°)=dfrac{30cm}{‾{AF}}  
+sin (75°)· ‾ {AF}=30cm
+‾{AF}=(30cm)/(sin(75°))
+‾{AF}=31,06cm
+
+Länge der Strecke ‾{DF}:
+Du kannst ‾{DF} mit dem Satz des Pythagoras berechnen.
+‾{AD}^2+‾{DF}^2=‾{AF}^2
+‾{DF}^2=‾{AF}^2-‾{AD}^2
+‾{DF}=√{‾{AF}^2-‾{AD}^2}
+‾{DF}=√{(31,06cm)^2-(30cm)^2}
+‾{DF}=8,05cm
+
+Länge der Seite ‾{EF}:
+‾{EF}=‾{CD}-‾{DF}-‾{CE}
+‾{EF}=50cm-8,05cm-15cm
+‾{EF}=26,95cm
+
+Umfang des Trapezes ABEF.
+U=‾{AB}+‾{BE}+‾{EF}+‾{AF}
+U=50cm+33,5cm+26,95cm+31,06cm
+U=141,51cm
+
+
+------------------------------------------------------------------------------
+Aufgabe 11 des Teils
+[Serlo ExerciseGroup 321412 – https://de.serlo.org/mathe/321412/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Kim legt 800 € für 3 Jahre zu einem Zinssatz von 2,5% bei ihrer Bank an (Zinsen werden mitverzinst).
+Mit welchen Termen kann das Endkapital nach 3 Jahren berechnet werden?
+- Kreuze an.
+[Auswahl (mehrere Antworten)]
+  (x) 800·1,025·1,025·1,025
+  ( ) 800·0,75^3
+  ( ) 800·2,5%·2,5%·2,5%
+  (x) 800·1,025^3
+
+--- Teilaufgabe b) ---
+Elif legt bei ihrer Bank 600 € für 4 Jahre an (Zinsen werden mitverzinst).
+[Abbildung]
+Berechne, wieviel Geld Elif nach Ablauf der 4 Jahre erhält.
+[Eingabefeld: 647,54]
+Lösung:
+600 €·1,016·1,016·1,0225·1,0225=647,54 €
+Nach 4 Jahren erhält Elif 647,54 €.
+
+
+==============================================================================
+Wahlteil B 2024  (Serlo-ID 320149)
+==============================================================================
+
+------------------------------------------------------------------------------
+Aufgabe 1 des Teils
+[Serlo ExerciseGroup 321415 – https://de.serlo.org/mathe/321415/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Gegeben ist die zusammengesetzte Figur (Maße in cm).
+[Abbildung]
+- Zeige, dass der Umfang der Figur 36cm beträgt.
+
+Ludwig hat folgenden Term aufgestellt, um den Flächeninhalt der Figur zu bestimmen.
+Term:  5· 7+(1)/(2)· 6· 8+3· 2
+- Erkläre, wie Ludwig zu diesem Term gekommen ist.
+
+Finde einen weiteren möglichen Lösungsweg, um den Flächeninhalt der Figur zu bestimmen.
+- Veranschauliche deinen Lösungsweg in der Skizze.
+- Gib dazu den passenden Term an.
+[Abbildung]
+Term: __________________
+Ein Rechteck hat einen Flächeninhalt von 108cm^2.
+Die Seite a ist dreimal so lang wie die Seite b.
+- Bestimme die Seitenlängen a und b des Rechtecks.
+[ 5 Pkt. ]
+Lösung:
+Umfang der Figur
+[Abbildung]
+Wie in der Abbildung dargestellt, bildet die linke Ecke der Figur ein rechtwinkliges Dreieck mit zwei Katheten von 6 und 8cm Länge. 
+Mit dem Satz des Pythagoras kann die Hypotenuse c berechnet werden.
+
+c^2=a^2+b^2
+c^2=6^2+8^2
+c=√{6^2+8^2}
+c=√{100}=10
+
+Der Umfang der Figur beträgt:
+9+2+2+7+5+1+10=36cm
+Erklärung des Terms
+[Abbildung]
+Zur Berechnung des Flächeninhalts ist die Figur in drei Teile zerlegt worden, deren Flächen sich berechnen lassen.
+
+Fläche des blauen Rechtecks A_{blau}
+A_{blau}=5· 7
+
+Fläche des roten Dreiecks A_{Delta}
+A_{Delta}=(1)/(2)· 6· 8
+
+Fläche des grünen Rechtecks A_{grün}
+A_{grün}=3· 2
+
+Flächeninhalt der Figur 
+A=A_{blau}+A_{Delta}+A_{grün}=textcolor{006400}{5· 7}+textcolor{ff6600}{(1)/(2)· 6· 8}+textcolor{1794c1}{3· 2}=65
+Weiterer Lösungsweg
+[Abbildung]
+Die Figur kann in ein rechtwinkliges Dreieck und zwei Rechtecke zerlegt werden.
+
+Fläche des roten Dreiecks A_{Delta}=(1)/(2)· 6 · 8
+
+Fläche des blauen Dreiecks A_{blau}=3· 9
+
+Fläche des grünen Dreiecks A_{grün}=2· 7
+
+Flächeninhalt der Figur
+A=A_{Delta}+A_{blau}+A_{grün}=textcolor{ff6600}{(1)/(2)· 6· 8}+textcolor{1794c1}{3· 9}+textcolor{006400}{2· 7}=65
+Seitenlängen des Rechtecks
+
+Der Flächeninhalt eines Rechtecks ist 
+A=a· b
+
+Es gilt:
+A=108 ; a=3· b
+
+Einsetzen der Werte ergibt:
+  108 = 3· b· b
+  108 = 3· b^2   | :3
+  36 = b^2   | √{}
+  6 = b
+a=3· b=3· 6=18
+
+Die Seitenlänge a beträgt 18cm, die Seitenlänge b beträgt 6cm.
+
+--- Teilaufgabe b) ---
+Eine Gerade mit der Funktionsgleichung   y=-1,5· x+3  wurde gezeichnet.
+[Abbildung]
+- Zeichne ein vollständig beschriftetes Koordinatensystem so ein, dass der Graph der Funktionsgleichung korrekt eingetragen ist.
+
+Gegeben ist eine Wertetabelle einer linearen Funktion.
+[Abbildung]
+- Beschreibe anhand der Wertetabelle, wie die Funktionsgleichung dieser linearen Funktion bestimmt werden kann.
+Luca hat sich ein Fahrradschloss gekauft. Das Schloss besitzt 4 Einstellringe mit den Ziffern von 0
+bis 9. Bei der Zahlenkombination kann jede Ziffer mehrfach vorkommen.
+[Abbildung]
+- Berechne die Anzahl aller Kombinationsmöglichkeiten.
+Leider hat Luca seine Zahlenkombination vergessen.
+Er kann sich nur an Folgendes erinnern:
+
+- Die Ziffern werden von links nach rechts immer um eins größer.
+
+- Die letzte Ziffer ist eine ungerade Zahl.
+
+- Gib alle Kombinationsmöglichkeiten an.
+Am Fahrradschloss wird blind eine Zahlenkombination eingestellt.
+- Bestimme die prozentuale Wahrscheinlichkeit, dass alle vier Ziffern gleich sind.
+[ 5 Pkt. ]
+Lösung:
+Koordinatensystem zeichnen
+[Abbildung]
+Die Gerade y=-1,5· x +3 schneidet die y-Achse im Punkt (0|3) und hat die Steigung -1,5.
+Beschreibung der Funktion anhand der Wertetabelle
+[Abbildung]
+Anhand der Wertetabelle kann entnommen werden, dass die lineare Funktion  die y-Achse im Punkt (0|1) schneidet. 
+Ebenso liegt der Punkt (1|4) auf der Geraden.
+Die Steigung der Funktion m beträgt
+m=(Delta y)/(Delta x) = (3)/(1)=3
+
+Die Funktion der Geraden lautet
+y=3· x + 1
+Fahrradschloss Kombinationsmöglichkeiten
+
+Das Schloss besitzt 4 Einstellringe. Damit können alle Zahlen von 0000 bis 9999 dargestellt werden.
+Dies sind 10 000 verschiedene Möglichkeiten.
+Lucas Zahlenkombinationen
+
+Folgende Zahlenkombinationen sind möglich:, wenn die Ziffern von links nach rechts immer um 1 größer werden und die letzte Ziffer eine ungerade Zahl ist:
+0 1 2 3 ; 2 3 4 5 ; 4 5 6 7 ; 6 7 8 9
+Insgesamt gibt es 4 mögliche Zahlenkombinationen.
+Prozentuale Wahrscheinlichkeit für gleiche Ziffern
+
+Insgesamt gibt es 10 verschiedene Möglichkeiten für 4 gleiche Ziffern aus einer Gesamtmenge von 10 000 möglichen Ziffernkombinationen.
+Die Wahrscheinlichkeit beträgt damit:
+
+P(gleiche Ziffern)=(10)/(10 000)=(1)/(1 000) hat{=} 0,1%
+
+
+------------------------------------------------------------------------------
+Aufgabe 2 des Teils
+[Serlo ExerciseGroup 321418 – https://de.serlo.org/mathe/321418/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+Auf der Oberfläche des quadratischen Prismas mit a=3cm und h=2a liegt der Streckenzug RSTUV.
+[Abbildung]
+- Berechne die Länge des Streckenzuges RSTUV.
+- Zeichne das Netz des Prismas und trage den Streckenzug ein.
+Emil behauptet: „Wenn man die beiden Seitenlängen der Grundfläche des Prismas verdoppelt, verdoppelt sich auch das Volumen des Prismas."
+- Nimm Stellung und begründe deine Entscheidung.
+[5 Pkt]
+Lösung:
+[Abbildung]
+Streckenzug RSTUV bestimmen
+
+1. Schritt: ‾{RS} berechnen
+
+Die Strecke ‾{RS} ist die Hypotenuse eines rechtwinkligen Dreiecks, deren beide Katheten bekannt sind. Mit dem Satz des Pythagoras kann die Hypotenuse berechnet werden.
+
+  ‾{RS}^2 = ((a)/(2))^2+((2)/(3)a)^2
+  ‾{RS}^2 = ((3)/(2))^2+((2)/(3)· 3)^2
+  ‾{RS}^2 = (9)/(4)+4   | √{}
+  ‾{RS} = √{(9)/(4)+4}
+  ‾{RS} = √{(25)/(4)}
+  ‾{RS} = 2,5
+(Die negative Lösung ‾{RS}=-2,5 bleibt bei Längen unberücksichtigt.)
+
+Die Länge der Strecke ‾{RS} beträgt 2,5 cm.
+2. Schritt: ‾{ST} berechnen
+
+Die Strecke  ‾{ST} ist die Hypotenuse eines rechtwinkligen Dreiecks, deren beide Katheten bekannt sind. Mit dem Satz des Pythagoras kann die Hypotenuse berechnet werden.
+  ‾{ST}^2 = ((a)/(2))^2+a^2
+  ‾{ST}^2 = ((3)/(2))^2+3^2
+  ‾{ST}^2 = (9)/(4)+9   | √{}
+  ‾{ST} = √{(9)/(4)+9}
+  ‾{ST} = √{(45)/(4)}
+  ‾{ST} = 3,35
+(Die negative Lösung ‾{ST}=-3,35 bleibt bei Längen unberücksichtigt.)
+
+Die Länge der Strecke ‾{ST} beträgt 3,35 cm.
+3. Schritt: ‾{TU} berechnen
+
+Die Strecke ‾{TU} ist die Hypotenuse eines rechtwinkligen Dreiecks. Von diesem Dreieck sind die Ankathete h_a und der entsprechende Winkel α bekannt. Mit der Kosinus Funktion kann die Hypotenuse berechnet werden.
+  cos{α} = dfrac{h_a}{‾{TU}}
+  cos{20^°} = dfrac{2· 3}{‾{TU}}   | · ‾{TU}
+  ‾{TU}· cos{20^°} = 6   | : cos{20^°}
+  ‾{TU} = dfrac{6}{cos{20^°}}
+  ‾{TU} = 6,39
+Die Länge der Strecke ‾{TU} beträgt 6,39 cm.
+4. Schritt: ‾{UV} berechnen
+
+‾{UV}=a=3 cm
+5. Schritt: Länge von RSTUV bestimmen
+
+Länge_{RSTUV}=‾{RS}+‾{ST}+‾{TU}+‾{UV}
+Länge_{RSTUV}=2,5+3,35+6,39+3=15,24 cm
+
+Die Länge des Streckenzugs RSTUV beträgt 15,24 cm.
+Netz des Prismas
+[Abbildung]
+Behauptung prüfen
+
+Das Volumen des Prismas V beträgt
+V=Breite·Länge·Höhe=a· h_a· a
+Das Doppelte des Volumens beträgt
+2· V=2· a· h_a · a
+
+Verdoppelt man die Seiten der Grundfläche, beträgt das Volumen
+V_Breite und Länge verdoppelt=2· a· 2· h_a · a=4· a· h_a · a
+
+V_Breite und Länge verdoppelt ne 2· V
+4· a· h_a · a ne 2· a· h_a · a
+
+Emil hat nicht recht.
+
+--- Teilaufgabe b) ---
+Zu einer verschobenen, nach unten geöffneten Normalparabel gehört folgende Wertetabelle:
+[Abbildung]
+- Bestimme die Funktionsgleichung der Parabel.
+- Vervollständige die Wertetabelle.
+Till behauptet: „Jede nach unten geöffnete Normalparabel der Form  y=-x^2+c  (cne0)  besitzt nur negative y-Werte“. Hat Till Recht?
+- Begründe deine Entscheidung durch Argumentation.
+(3x+6)·(4-2x)=0
+- Löse die Gleichung.
+[5 Pkt]
+Lösung:
+Funktionsgleichung bestimmen
+
+Allgemeine Form einer nach unten geöffneten Normalparabel
+
+y=-x^2+c
+
+c bestimmen durch Einsetzen einer Koordinate aus der Wertetabelle.
+  -10 = -(3^2)+c
+  -10 = -9+c   | +9
+  -1 = c
+Die Funktionsgleichung der Parabel lautet
+
+y=-x^2-1
+Wertetabelle vervollständigen
+[Tabelle]
+x | -3 | -2 | -1 | 0 | 1 | 2 | 3
+y | -10 | -5 | -2 | -1 | -2 | -5 | -10
+Behauptung prüfen
+
+Der Koeffizient c der unten geöffneten Normalparabel der Form y=-x^2+c gibt die Verschiebung der Parabel entlang der y-Achse an. 
+Für c>0 gilt, der Scheitelpunkt der Parabel liegt oberhalb der x-Achse, d.h. es existieren auch positive y-Werte.
+
+Till hat nicht recht. 
+Gleichung lösen
+  (3x+6)· (4-2x) = 0
+  12x+24-6x^2-12x = 0
+  24-6x^2 = 0   | -24
+  -6x^2 = -24   | : (-6)
+  x^2 = 4   | √{}
+  x = ± 2
+
+
+------------------------------------------------------------------------------
+Aufgabe 3 des Teils
+[Serlo ExerciseGroup 321423 – https://de.serlo.org/mathe/321423/aufgabengruppe – Lizenz 31: „Dieses Werk wurde vom Land Baden-Württemberg zur Verfügung gestellt.“ (Serlo-Lizenzvermerk Nr. 31)]
+
+
+--- Teilaufgabe a) ---
+In einen Kreis mit dem Radius 8cm wurde der Mantel einer quadratischen Pyramide eingezeichnet.
+[Abbildung]
+- Berechne die Oberfläche der Pyramide.
+In der Abbildung gilt: ‾{AF}||‾{BE}||‾{CD}
+[Abbildung]
+- Kreuze die richtigen Verhältnisgleichungen an.
+[Auswahl (mehrere Antworten)]
+  (x) dfrac{‾{AE}}{‾{AB}}=dfrac{‾{AD}}{‾{AC}}
+  ( ) dfrac{‾{AE}}{‾{AD}}=dfrac{‾{AC}}{‾{AB}}
+  ( ) dfrac{‾{CF}}{‾{CA}}=dfrac{‾{CE}}{‾{CA}}
+  (x) dfrac{‾{FE}}{‾{CE}}=dfrac{‾{AE}}{‾{DE}}
+Lösung:
+Oberfläche der Pyramide
+[Abbildung]
+Der Kreis hat einen Innenwinkel von 360^°.
+Die spitzen Winkel der vier Seitenflächen der Pyramide sind gleich groß.
+Größe eines Winkels 
+(360^° - 160^°)/(4)=50^°
+
+Oberfläche A_O einer quadratischen Pyramide ist die Summe aus Grundfläche A_G und Mantelfläche A_M
+
+A_O=A_G+A_M=a^2+2a· h_s
+
+Berechnung von a
+cos{25^°}=(((a)/(2)))/(r) 
+  cos{25^°} = (((a)/(2)))/(r)
+  cos{25^°} = (((a)/(2)))/(8)   | · 8
+  8· cos{25^°} = (a)/(2)   | · 2
+  2· 8·cos{25^°} = a
+  14,5 = a
+Berechnung von h_s
+h_s ist eine Kathete des rechtwinkligen Dreiecks mit Hypotenuse r=8 und der zweiten Kathete (a)/(2)=(14,5)/(2)=7,25.
+Satz des Pythagoras
+  a^2+b^2 = c^2
+  h_s^2 + ((a)/(2))^2 = r^2
+  h_s^2+((14,5)/(2))^2 = 8^2
+  h_s^2+52,56 = 64   | -52,56
+  h_s^2 = 11,44   | √{}
+  h_s = 3,38
+Oberfläche berechnen
+  A_O = A_G+A_M
+  A_O = a^2+2a· h_s
+  A_O = 14,5^2+2· 14,5 · 3,38
+  A_O = 308,27
+Die Oberfläche der Pyramide beträgt 308,27cm^2.
+Verhältnisgleichungen
+Verwende die Strahlensätze, um die richtigen Verhältnisgleichungen zu bestimmen.
+
+--- Teilaufgabe b) ---
+Stelle eine Verhältnisgleichung zur Berechnung von ‾{AF} auf.
+Verwende hierzu den 2. Strahlensatz.
+[Abbildung]
+Lösung:
+Verhältnisgleichung zur Berechnung von ‾{AF}
+
+Nach dem zweiten Strahlensatz gilt:
+
+dfrac{‾{CB}}{‾{BE}}=dfrac{‾{CA}}{‾{AF}}
+
+--- Teilaufgabe c) ---
+Frau Steiner möchte sich ein neues E-Bike für 5200,00 € kaufen.
+Ein Fahrradhändler wirbt mit folgender Rabattaktion:
+[Abbildung]
+Frau Steiner rechnet aus, wie viel sie nun für das E-Bike bezahlen muss:
+[Abbildung]
+- Beschreibe und erkläre, was Frau Steiner falsch gemacht hat.
+- Berechne den Kaufpreis des E-Bikes nach dem Angebot des Fahrradhändlers.
+Eine Kugel hat einen Radius von 25cm.
+Die Höhe des Kegels ist genauso groß wie der Durchmesser der Kugel.
+Der Kegel und die Kugel haben das gleiche Volumen.
+[Abbildung]
+- Bestimme den Neigungswinkel α des Kegels.
+Der Neigungswinkel des Kegels wird verkleinert.
+Wie verändert sich das Volumen des Kegels, wenn die Höhe gleich bleibt?
+- Kreuze an.
+[Auswahl (eine Antwort)]
+  ( ) Das Volumen des Kegels bleibt gleich.
+  (x) Das Volumen des Kegels vergrößert sich.
+  ( ) Das Volumen des Kegels verkleinert sich.
+Lösung:
+E-Bike
+
+Frau Steiner berechnet fälschlicherweise 2% Skonto auf den Ursprungspreis des E-Bikes.
+Korrekt ist es, wenn sie 2% Skonto vom rabattierten Preis abzieht.
+
+Kaufpreis des E-Bikes nach dem Angebot des Fahrradhändlers
+
+Preis des E-Bikes bei 15% Rabatt
+5 200· 0,85=4 420
+
+Darauf 2% Skonto bei Barzahlung
+4 420· 0,98=4 331,6
+
+Nach dem Angebot des Fahrradhändlers kostet das E-Bike 4 331,60 Euro.
+Kegel und Kugel
+
+Volumen einer Kugel mit Radius r_Kugel
+V_Kugel=(4)/(3)·π· r_Kugel^3
+
+Volumen eines Kegels mit Radius r_Kegel
+V_Kegel=(1)/(3)π· r_{Kegel}^2· h
+
+Höhe des Kegels 
+h=2· r_Kugel=2· 25=50
+r_Kegel berechnen.
+Die Volumen von Kugel und Kegel sind gleich.
+  V_Kugel = V_Kegel
+  (4)/(3)·π· r_{Kugel}^3 = (1)/(3)π· r_{Kegel}^2· h
+  (4)/(3)·π· 25^3 = (1)/(3)π· r_{Kegel}^2· 50   | : (50)/(3)·π
+  1 250 = r_Kegel^2   | √{}
+  35,36 = r_Kegel
+Neigungswinkel α
+  tan{α} = (h)/(r_Kegel)
+  tan{α} = (50)/(35,36)
+  α = 54,73^°
+Der Neigungswinkel α beträgt 54,73^°.
