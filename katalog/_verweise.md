@@ -1,5 +1,5 @@
 # Verweise und Namen – Prüfung des Themenkatalogs
-Stand 2026-09-29, Katalog auf Commit c9f3e4a.
+Stand 2026-09-29, Katalog auf Commit d78032a.
 Erzeugt von `werkzeuge/verweis-pruef.py` (v0.2) aus den Einträgen, `themen.csv`, `abitur/abitur-vokabular.md`, den vier `abitur/abi-*-geltung.md` und den Typenkatalogen `msa/msa-typen.csv` und `fhr/fhr-typen.csv`; abgeleitet, nie von Hand ändern. Fünf Prüfungen der inneren Stimmigkeit vor dem Umbau der Blatt-Prompte: Dateiverweise, Einheitennummern, Namensgleichheit, Gegenrichtung, Formlücke. Befunde werden berichtet, nicht behoben; wo eine Zuordnung nicht eindeutig ist, steht der Fall in einer eigenen Liste statt in einer Entscheidung.
 
 Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie in `werkzeuge/tragfaehigkeit.py` (v0.2), importiert, nicht nachgebaut: Verweis = Zeichenkette der Form `<name>.md` (auch in Klammern oder Backticks; ein Pfad davor wird mitgenommen), Blatt-0-Abschnitt = „### Voraussetzungen (Blatt 0)“ bis zur nächsten Überschrift, Nennung in Wortform = „Thema “ vor einem Großbuchstaben (Heuristik; folgt dem Titel unmittelbar „ (<name>.md“, ist es ein Verweis und keine Nennung in Wortform), Fundort einer Datei außerhalb von `katalog/` = Suche im Repo nach dem Dateinamen. Abschnitt einer Fundstelle = die nächste Überschrift davor (#, ##, ###); in den Listen abgekürzt: Kopf (Titel und Statuszeilen), Verortung, Lerneinheiten, Typen (Typen je Lerneinheit), Blatt 0, Merkkasten, Fehler (Typische Fehler), Schwache (Für schwache Schüler), Prüfungsform, Offene Punkte, Prüfliste. Zeilennummern zählen ab 1 in der Datei. Zahl der Lerneinheiten eines Eintrags = Zeilen im Abschnitt „### Lerneinheiten“, die mit „<n>. “ beginnen.
@@ -7,7 +7,7 @@ Gemessen: 73 Einträge (`katalog/*.md` ohne `_*` und `index.md`). Lesarten wie i
 ## 1 Dateiverweise
 Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 0. Gruppe (a): das Ziel liegt in `katalog/` (Katalogeintrag, Selbstverweis, Katalogeintrag mit Pfadangabe oder eine andere Datei des Ordners); Gruppe (b): das Ziel liegt anderswo im Repo (ohne Pfadangabe über den Fundort, mit Pfadangabe über den Pfad relativ zur Wurzel); Gruppe (c): keine Datei dieses Namens im Repo. Gruppe (b) und (c) vollständig, je Ziel eine Zeile und darunter je Quelldatei die Abschnitte (×n = mehrfach im Abschnitt).
 
-3089 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2818 – davon 2665 auf andere Katalogeinträge, 58 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 94 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 270 Verweise auf 59 Dateien. Gruppe (c) Ziel gibt es nicht: 1 Verweise auf 1 Namen.
+3093 Verweise in 73 Einträgen. Gruppe (a) Ziel in `katalog/`: 2818 – davon 2665 auf andere Katalogeinträge, 58 Selbstverweise, 1 auf Katalogeinträge mit Pfadangabe, 94 auf andere Dateien in `katalog/` (`_*.md`, `index.md`). Gruppe (b) Ziel anderswo im Repo: 272 Verweise auf 60 Dateien. Gruppe (c) Ziel gibt es nicht: 3 Verweise auf 1 Namen.
 
 ### Gruppe (b) – Ziel anderswo im Repo
 - **abi-pruefungen.md** (liegt in abitur/) – 4 Verweise aus 2 Einträgen
@@ -134,6 +134,9 @@ Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 
 - **msa-vorgaben.md** (liegt in msa/) – 3 Verweise aus 2 Einträgen
   - quadratische-gleichungen.md (Verortung)
   - trigonometrie.md (Verortung ×2)
+- **quellen/altlehrwerke-formen-sek2.md** (liegt in quellen/) – 2 Verweise aus 2 Einträgen
+  - stammfunktion-und-hauptsatz.md (Offene Punkte)
+  - tangente-normale-schnittwinkel.md (Offene Punkte)
 - **quellen/altlehrwerke-formen.md** (liegt in quellen/) – 3 Verweise aus 3 Einträgen
   - bruchrechnung.md (Offene Punkte)
   - prozentrechnung.md (Offene Punkte)
@@ -262,7 +265,9 @@ Jeder Verweis `<name>.md` in jedem Abschnitt jedes Eintrags, nicht nur in Blatt 
   - zufallsexperimente-und-pfadregeln.md (Offene Punkte)
 
 ### Gruppe (c) – Ziel gibt es nicht
-- **bank.md** (keine Datei dieses Namens im Repo) – 1 Verweis aus 1 Eintrag
+- **bank.md** (keine Datei dieses Namens im Repo) – 3 Verweise aus 3 Einträgen
+  - stammfunktion-und-hauptsatz.md (Offene Punkte)
+  - tangente-normale-schnittwinkel.md (Offene Punkte)
   - terme.md (Offene Punkte)
 
 ### Gruppe (a), Sonderfälle
@@ -375,7 +380,7 @@ Verweise auf Katalogeinträge mit Pfadangabe (`katalog/<name>.md`; zählen in `t
 ## 2 Einheitennummern
 Eine Einheitenangabe ist „Einheit n“ oder „Einheiten n“ mit einer oder zwei Ziffern, fortgesetzt mit „und“, „bis“, „–“, Komma oder Schrägstrich („Einheit 6 und 8“, „Einheiten 2 bis 4“, „Einheit 2, 3 und 5“). Sie steht hinter einem Verweis, wenn zwischen `<name>.md` und „Einheit“ nur Leerraum, ein Komma oder eine öffnende Klammer steht („x.md Einheit 4“, „x.md, Einheit 4“, „x.md (Einheit 4)“) – oder, in der Klammerform der Blatt-0-Abschnitte seit Commit cfa4723, davor noch der Rest des Klammerinhalts und die schließende Klammer („Thema Terme (terme.md), Einheit 2“, „Kreis (kreis.md) Einheit 2“, „(x.md, Blatt 0), Einheit 2“; „Lineare Funktionen (lineare-funktionen.md, Blatt 0)“ ohne Angabe dahinter bekommt keine); dann wird die größte genannte Nummer gegen die Zahl der Lerneinheiten der Zieldatei gehalten. Nicht eindeutig zuordenbar und deshalb nur gelistet: (1) der Verweis davor steht in einer Reihung („a.md und b.md Einheit 2“, „a.md, b.md Einheit 2“) – welcher gemeint ist, steht nicht da; (2) zwischen Verweis und Angabe stehen bis zu 4 Wörter ohne Satz- oder Klammerende („x.md, dessen Einheit 5“, „x.md (Sek I, Einheit 3)“) – hier kann auch eine eigene Einheit gemeint sein; (3) die Angabe steht vor dem Verweis mit „in“, „im“, „von“, „aus“, „der“, „des“ oder „bei“ dazwischen („Einheit 4 in x.md“). Alle anderen Einheitenangaben – ohne Verweis in der Zeile, hinter einem Satzende oder weiter entfernt – gelten als eigene Einheiten des Eintrags und werden nicht geprüft; Angaben an Nennungen in Wortform („Thema Terme, Einheit 2“) haben keinen Verweis, dem sie zugeordnet werden könnten (die in Blatt 0 stehen unter Prüfung 5).
 
-4014 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 556 (556 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 25. Die übrigen 3433 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
+4017 Einheitenangaben in den Einträgen. Direkt hinter einem Verweis: 556 (556 geprüft, 0 nicht prüfbar, weil das Ziel kein Katalogeintrag ist); davon Nummer größer als vorhanden: 1. Nicht eindeutig einem Verweis zuordenbar: 25. Die übrigen 3436 stehen ohne Verweis davor oder weiter von ihm entfernt; sie gelten als eigene Einheiten des Eintrags und sind nicht geprüft.
 
 ### Nummer größer als vorhanden
 - lineare-gleichungssysteme.md (Schwache, Zeile 116): „rekonstruktion-von-funktionsgleichungen.md … Einheit 5“ – 3 vorhanden; Zitat: …hungssystem ist dort Werkzeug der Rekonstruktion (rekonstruktion-von-funktionsgleichungen.md), Einheit 5 ist für fhr Vorrat.
