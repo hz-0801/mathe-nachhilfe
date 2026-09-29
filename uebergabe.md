@@ -1,144 +1,123 @@
-# Übergabe verbessereBlaetter – 2026-09-28 abends (Chat vom 28.09., 20:39–22:40)
+# Übergabe verbessereBlaetter – 2026-09-29 früh (Chat vom 28.09. 22:44 bis 29.09. 05:10)
 
-Vorherige Übergabe: archiv/uebergabe-2026-09-28.md (Nachmittag).
+Vorherige Übergabe: archiv/uebergabe-2026-09-28b.md (Abend).
 
 ## 1 Ziel
 
 Der bestmögliche Themenkatalog, die Aufgabenbank und die Prompts,
-damit aus wenigen Wörtern druckfertige Blätter entstehen – für den
-Unterricht und für MSA/P10 und Abitur GK. Maßstab ist **ziel.md,
-Stand 28.09.** (heute neu geschrieben; Änderungsliste dort § 6).
-Leitbild: ein Blatt für alle Schüler, aus der Bank zusammengesetzt,
-Chat als Schalter; Blätter so lang wie der bestellte Teil.
+damit aus wenigen Wörtern druckfertige Blätter entstehen. Maßstab
+ist ziel.md, Stand 28.09.; Leitbild: ein Blatt für alle Schüler,
+aus der Bank zusammengesetzt, Chat als Schalter.
 
 ## 2 Arbeitsgrundlage
 
-- mathe-nachhilfe: ziel.md (28.09., maßgeblich);
-  **vorschlag-einbindung-2026-09-28.md** (Einbindungslauf: 39
-  Katalogfunde, 12 Bankformen, 8 Sprachregeln, 5 Seitenregeln, 20
-  Blattregeln, Pflichtelemente P1–P10; Überschneidungen vorn);
-  katalog/; faellig.md (Posten vom 28.09. abends in § 2).
-- aufgabenbank: 72 Einträge, 14 618 Aufgaben (alle Katalogeinträge
-  bis auf ableitungsgraph-und-funktionsgraph); bank.md Stand 27b;
-  bau/layout-befunde.md (1–54); bau/sprachlauf/regeln.md;
-  bank/_strittig.md (ungesichtet); auftrag-eintrag.md,
-  werkzeuge/mappe.py als Weg zum Auffüllen.
-- blattbau: unterrichtsblatt.md v4.4 (wird nicht ausgebaut),
-  pruefungsblatt.md v0.15, mathblatt.sty; Testlauf v4.4 ausgewertet
-  (bericht-testlauf-2026-09-26.md, Posten in faellig.md).
-- Muster „schwach“: TER-S1, TER-S2 liegen nur im alten Chat als
-  PDF, nicht im Repo (Prüfstein für den Musterbeispiel-Baustein).
+- mathe-nachhilfe: ziel.md (28.09., maßgeblich, unverändert);
+  urteil-einbindung-2026-09-28.md (alle 73 Funde beurteilt und
+  umgesetzt); bericht-katalog-nachzug.md (Lauf vom 28./29.09.,
+  mit der Liste der 24 Einträge, die einen Bank-Auftrag brauchen);
+  katalog/ auf f56cace; faellig.md (Bank-Posten in § 2).
+- aufgabenbank auf 64d2c06: bank.md mit Pflichtformen P1–P8,
+  Päckchen-Regel, Sek-II-Körper; bau/sprachlauf/regeln.md Nr. 1–13;
+  bau/layout-befunde.md Nr. 1–59; auftrag-eintrag.md (Vorlage
+  27b, noch ohne die neuen Regeln); bank/_strittig.md
+  (ungesichtet, K7).
+- anweisungen: projekt-verbessereBlaetter.md Stand 28c (Regelweg
+  Unteragent), kandidaten.md Stand 28c.
+- blattbau unverändert: unterrichtsblatt.md v4.4, pruefungsblatt.md
+  v0.15 (1.1 Klassenarbeit noch nicht bereinigt).
+- TER-S1, TER-S2 liegen weiter nur im alten Chat (Lehrer).
 
 ## 3 Arbeitsstand
 
-Erledigt 28.09. abends:
-- Einbindungslauf über DDR-Altlehrwerke (Sek I, Pflichtformen,
-  Sek II) und Literatur (Blattarten, Nachhilfe-Situationen) → die
-  Vorschlagsdatei; fünf Leser parallel im Chat, 1 011 734 Token.
-  Konkordanzen nicht dabei (zweiter Lauf, s. § 5).
-- Vier Beschlüsse zu den offenen Fragen (§ 4), ziel.md neu (§ 1),
-  Testlauf-Bericht v4.4 gelesen und auf drei Posten reduziert.
-- Alle drei Schritte der Übergabe vom Nachmittag abgearbeitet.
+Erledigt 28.09. abends bis 29.09. früh:
+- 73 Funde der Einbindung beurteilt (61 A, 4 Ä, 6 N; acht offene
+  Fälle vom Lehrer entschieden, alle wie vorgeschlagen).
+- Katalog-Nachzug als Unteragent aus dem Chat gelaufen (Opus,
+  372 368 Token, 43 Minuten, 96 Aufrufe): 13 Sprossen Sek I, 22
+  Sprossen Sek II plus 2 Kontrollzeilen und eine Kastenform,
+  2025-GYM-K5d Nebentyp, Regeldateien der Bank, README-Landkarte.
+  Prüfskripte ohne neue Treffer.
+- quer-Funde Sek I direkt umgesetzt (aufgabenbank f6420f0).
+- faellig.md bereinigt: Katalogbefund 3–8 und der Katalogauftrag
+  vom 26.09. waren seit dem 27.09. umgesetzt (72a01d3, ca7939b,
+  6c51f79); die Posten trugen noch „Urteil im Chat“.
 
-Nicht erledigt: das Urteil über die 39 Katalogfunde und die
-Bank-/Sprach-/Seitenregeln der Vorschlagsdatei (Umsetzung erst
-danach); Konsistenzposten K2 (bank.md-Verweis Abnahme), K3 (Sek II
-ohne Sprachlauf), K5 („Term durch Zahl teilen“), K6 (Rezept S
-veraltet), K7 (_strittig ungesichtet) aus der Übergabe vom
-Nachmittag gelten weiter.
+Nicht erledigt: Bank auffüllen (§ 6); Teil D/E der Urteile sind in
+ziel.md, aber noch nicht im Schalter-Prompt (der ist nicht gebaut)
+und nicht in pruefungsblatt.md 1.1; K2 (Abnahme Sprachregeln),
+K3 (Sprachlauf Sek II – Regel 13 liegt jetzt vor), K5 („Term durch
+Zahl teilen“ fehlt weiter in terme.md), K6 (Rezept S), K7.
 
-## 4 Verbindliche Entscheidungen (28.09. abends)
+## 4 Verbindliche Entscheidungen (28./29.09.)
 
 Frühere Übergaben gelten weiter (archiv/).
 
-- **Einteilung der Einbindung nach Zieldatei** (fünf Kategorien):
-  Stoff und Folge → Katalog; Aufgabenformen → bank.md/Bank;
-  Sprache → regeln.md; Seite → layout-befunde/zusammenbau; Blatt
-  und Bestellung → ziel.md/Prompt. Jeder Fund hat genau einen Ort.
-- **Prüfe dich**: Lernblatt endet mit einer Seite – je Fertigkeit
-  eine Aufgabe, gemischt, ohne Verfahrensüberschrift, ohne Punkte;
-  darunter die Abhakliste (keine Beispielaufgabe je Zeile).
-- **Zone**: je Voraussetzung eine leichte Aufgabe und je typischem
-  Fehler aus dem Katalog eine Fallen-Aufgabe; Verweis „hängst du
-  hier → Fokus ‹Fertigkeit›“; Fehlerdeutung in der Lösungsdatei
-  nur, wo der Katalog einen Fehler kennt. Nichts hängt an Zeit
-  oder Schüler.
-- **Wachhalten**: keine Blattart, kein offener Posten.
-- **Musterbeispiel bei „schwach“**: Baustein je Eintrag in der
-  Bank, Form nach DDR-Muster (Schrittname links, „=“
-  untereinander, Ergebnis abgesetzt), Inhalt vom Lehrer (Foto im
-  Chat) oder Musterlösung des Grundfalls; Regelfall ohne Beispiel.
-- **Länge**: kein „ein Teil = 1–3 Fertigkeiten“ als Regel; das
-  Blatt ist so lang wie der bestellte Teil. Ab vier Fertigkeiten
-  fragt der Schalter einmal nach dem Teil oder allem; ein Zuruf in
-  der Bestellung erspart die Frage. Keine Seitengrenze.
-- **Erfolgskriterium**: Tischblatt; „allein wäre schön, ist nicht
-  zu erwarten, der Lehrer steht zur Seite“. Kein Hausaufgabenteil.
-- **Klassenarbeit, Test, Prüfung sind nur Anlass**, kein Format
-  und keine Bestellung; Absatz in ziel.md § 3 gestrichen. Einzige
-  Prüfungsform: die Probeprüfung aus Abschlussprüfungs-Originalen.
-  Der Prüfungsprompt darf aus „klassenarbeit“/„test“ keine
-  Probeprüfung mehr machen (pruefungsblatt.md 1.1).
-- **Die Bank wird aufgefüllt** – das ist Teil jeder
-  Katalogänderung, keine eigene Entscheidung: Zu jeder neuen oder
-  geänderten Sprosse, jeder neuen Aufgabenform (P1–P8) und jedem
-  Musterbeispiel-Baustein läuft je Eintrag ein Bank-Auftrag nach
-  auftrag-eintrag.md, der nur die Mappe liest (werkzeuge/mappe.py)
-  und nur in seinen Ordner schreibt; erst ein Prüfstein-Eintrag,
-  dann parallel. Weg: geplante Aufgabe (Opus) oder Code-Tab, je
-  nach Abrechnung (§ 5).
-- **Konkordanzen** (katalog/_fremd-*, 1,4 MB) sind Material für
-  die Sprossen-Lückenprüfung, nicht für die Einbindung; sie kommen
-  als zweiter Lauf nach dem Katalog-Nachzug.
-- **Praxis des Lehrers vor Literatur**: Literaturbefunde, die
-  eine Situation regeln, die es in dieser Nachhilfe nicht gibt
-  (Klassenarbeit als Anlass, Hausaufgaben), bleiben liegen.
+- Regelweg: Aufträge, die nur Repo, Python und Paketquellen
+  brauchen, startet der Chat selbst als Unteragenten (Opus) und
+  der Agent committet und pusht; der Code-Tab nur für den Rechner
+  (hefte/, PowerShell, MiKTeX) oder wenn der Lehrer zusehen will.
+  Grund: beide zahlen vom Wochenkontingent; der Lehrer tippt nichts.
+  Projektanweisung 28c, kandidaten.md 28c.
+- Päckchen: fünf Grundfall-Zeilen mit festem Wert; die Fünf bleibt,
+  steigt erst nach Befund am Blatt. Sek II: derselbe Körper mit
+  festen Eckpunkten, je Variante ein Körper.
+- Schrittnamen je Rechenzeile (regeln.md 12) nur für Neues und bei
+  Berührung; kein Umschreiblauf über die Bank.
+- Aussondern „kein Binom“ ist Vorstufenfrage, nicht Sprosse;
+  Formelgestalt ist Lösungsform (layout 59), nicht Sprosse.
+- Überschlag prozentrechnung: Sprosse (selbst überschlagen);
+  fremde Überschläge beurteilen nur als fehler-Zeile (Form P1).
+- Antwortgerüst Vorzeichen/Betrag/Ergebnis nur in den ersten zwei
+  Varianten (rationale-zahlen e2/e3).
+- Randmaximum (extremalprobleme) Vorrat. Tangente mit Lineal messen
+  angenommen (Grafik in der Bank).
+- Denkaufgabe (fehler/begruenden) je Fertigkeit, nicht am Blattende
+  gesammelt (layout 58).
+- Klassenarbeit ohne Ausblick: kein Auslöser im Schalter, bleibt
+  Zuruf. Folgetermin-Zeile beim Fokus: nein (nichts hängt an Zeit).
+- Prüfstein der Bank-Aufträge: terme (neue Sprossen, P1–P8 und
+  Musterbeispiel in einem Lauf), Vorbehalt TER-S1/S2.
 
 ## 5 Offene Punkte
 
-Zu klären (Messwert, nicht Annahme):
-- **Abrechnung**: Cloud-Guthaben ist 0 € (Anzeige 28.09. 21:10).
-  Web-Sitzungen (claude.ai/code) fallen damit vermutlich weg.
-  Geplante Aufgaben liefen am 27./28.09. bis 16:28 durch; ob sie
-  vom Abo (Wochenkontingent) zahlen, ist unbelegt – Test: eine
-  kleine geplante Aufgabe starten, Nutzungsanzeige vorher/nachher
-  ablesen. Bis dahin: Läufe im Chat über Unteragenten (Abo) oder
-  im Code-Tab. Die Projektanweisung ist entsprechend geändert
-  (anweisungen/projekt-verbessereBlaetter.md).
-- Konsistenz: K2, K3, K5, K6, K7 (oben); K4 erledigt (ziel.md).
-- Katalog-Lücken aus dem Testlauf (faellig.md § 2): quadratische-
-  gleichungen Einheit 3 ohne P10-Original, OS-Originale ohne
-  Papierkürzel; kurvenuntersuchung 26 von 76 Typen ohne Sprosse.
-- Schalter-Prompt (noch nicht gebaut): Register-Prüfung per
-  Skript; Zählmarke „Fertigkeit“ (ziel.md) gegen „Zweig“ (v4.4).
-- Vorlage: Zonen-Kopfzeile doppelt; x₁, ≈, ≠, π im Textfont.
-- MAKOS-Reihenfolge „Grund- und Umkehraufgabe zuerst“ gegen
-  ziel.md § 1 „Umkehrung oben“ – am Katalog prüfen.
-- TER-S1/S2 ins Repo holen (Lehrer: PDFs aus dem alten Chat).
+- Nummerierung mehrerer Vorstufen je Kette (acht Sek-II-Ketten
+  haben jetzt zwei bis drei): bank.md kennt nur sprosse 0 =
+  Vorstufe. Am Prüfstein terme klären (E4 hat zwei Vorstufen:
+  „Faktor vorgegeben“ neu vor dem Grundfall), dann als Regel.
+- Bankzeilen ohne Katalog-Wortlaut: binomische-formeln e3 (3 Zeilen
+  „kein Binom erkennen und begründen“), brueche-dezimalzahlen e5
+  („Nullen anhängen“ jetzt Sprosse statt Vorstufe) – in die
+  Bank-Aufträge dieser Einträge.
+- auftrag-eintrag.md (Vorlage 27b) kennt die neuen Regeln nicht
+  (P1–P8, Päckchen, Schrittnamen, Antwortgerüst); vor dem Prüfstein
+  auf bank.md 29.09. nachziehen.
+- Abrechnung: Unteragent-Lauf 372 368 Token; Messwert der
+  Nutzungsanzeige vom Lehrer noch nicht abgelesen. Geplante Aufgaben
+  weiter unbelegt (Posten faellig.md).
+- Prüfungshöhe gegen die Sprache der Originale (Posten faellig.md,
+  Auslöser erste Blätter aus der Bank).
+- Schalter-Prompt nicht gebaut; pruefungsblatt.md 1.1 nicht
+  bereinigt; Vorlage: Zonen-Kopfzeile doppelt, Textfont-Zeichen.
+- winkel-dreiecke.md Z. 125 (Umkehrung) ist offener Punkt, keine
+  Kette; nichts eingefügt.
 
-Verworfen (mit Grund):
-- OCR-Volltext der neun DDR-Bände (privates Repo, Mappen je
-  Eintrag): Sammeln vor dem Einbinden; erst wenn die sieben
-  eingebundenen Einträge zeigen, dass die DDR-Folge den Katalog
-  ändert. Rechtefrage ungeklärt.
-- Beispielaufgabe je Zeile der Abhakliste: verdoppelt die
-  Ich-kann-Überschriften; Schluss war zu voll.
-- Hausaufgabenregel („zu Hause allein weiter“): Schüler machen
-  selten weiter; kein neues Fass.
-- Prompt v4.5 aus dem Testlauf: die Befunde betreffen Mechanik der
-  Chat-Erzeugung, die die Bank-Linie ersetzt.
+Verworfen: P9 (Aufgaben selbst bilden), P10 (Prüfen als
+Pflichtelement); Hausaufgabenregel; Wachhalten; Länge 1–3
+Fertigkeiten als Regel; DDR-OCR vor dem Einbinden (alle mit Grund
+in urteil-einbindung-2026-09-28.md und archiv/uebergabe-2026-09-28b).
 
 ## 6 Nächster Arbeitsschritt
 
-Modell: Opus 5.5 (Fable auf Wahl des Lehrers). Abrechnung zuerst
-messen (§ 5), bevor ein Lauf außerhalb des Chats startet.
+Modell: Opus 5.5 (Fable auf Wahl des Lehrers). Läufe als
+Unteragent aus dem Chat (§ 4).
 
-1. Urteil über vorschlag-einbindung-2026-09-28.md, Teil A und C
-   (39 Katalogfunde) und Teil B (Pflichtelemente, bank.md), im
-   Chat, eintragsweise; angenommene Funde als Auftrag „Katalog-
-   Nachzug“ für Claude Code (Katalog, bank.md, regeln.md,
-   layout-befunde), danach je Eintrag der Bank-Auftrag (§ 4).
-2. Prüfstein Musterbeispiel-Baustein an terme (TER-S1/S2).
-3. Erst dann der Schalter-Prompt für erzeugeUnterrichtsblatt()
-   nach ziel.md 28.09.; pruefungsblatt.md 1.1 (Klassenarbeit) und
-   „Vorbereitung“ im selben Auftrag bereinigen.
+1. auftrag-eintrag.md auf bank.md 29.09. nachziehen (P1–P8,
+   Päckchen, Schrittnamen, Antwortgerüst, Vorstufen-Nummerierung
+   als offene Vorgabe „vorstufe 0, 0a … oder 0, 1“ – der Chat
+   entscheidet vor dem Start); Mappe terme neu bauen
+   (werkzeuge/mappe.py); Bank-Auftrag terme als Unteragent; Bericht
+   auswerten, Vorstufen-Nummerierung als Regel in bank.md.
+2. Dann die übrigen 23 Einträge parallel (Unteragenten, je Eintrag
+   nur eigener Ordner), danach P1–P8 für alle 72 Einträge.
+3. Erst dann der Schalter-Prompt nach ziel.md 28.09.;
+   pruefungsblatt.md 1.1 im selben Zug.
