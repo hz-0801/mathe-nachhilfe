@@ -109,7 +109,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Einbindungslauf K1/K2: Quellen der letzten Tage (DDR-Bände, Literatur, Fremdoriginale) und Sprachregeln in fünf Dimensionen – Sprossen, Formulierungen, Layout, Dichte, Schwerpunkte – als Vorschlagsdatei gegen Katalog, bank.md, auftrag-eintrag.md, zusammenbau, Prompt | nächster Chat | Claude (Lauf), Lehrer (Urteil) | uebergabe.md § 5, quellen/altlehrwerke-*.md, aufgabenbank bau/sprachlauf/regeln.md |
 | Sprachlauf Sek II (K3) | nach Abnahme der Sprachregeln | Claude | uebergabe.md § 5 |
 | ziel.md: Revision „kein Kasten“, „voller statt kürzer“, „kein Beispiel“ vorlegen, Bank-Linie nachziehen (K4) | vor dem Prompt-Umbau | Claude (Vorschlag), Lehrer | uebergabe.md § 4, § 5 |
-| Katalog terme: Fertigkeit „Term durch Zahl teilen“ ergänzen, dann Bankzeilen (K5) | nächster Katalogauftrag | Claude | uebergabe.md § 5 |
+| Katalog terme: Fertigkeit „Term durch Zahl teilen“ ergänzen, dann Bankzeilen (K5); Beleg seit 29.09.: L8-86 „Division von Produkten“ als eigene Lehreinheit vor dem Ausklammern (quellen/altlehrwerke-formen.md) | nächster Katalogauftrag | Claude | uebergabe.md § 5 |
 | zusammenbau: Rezept S (schwach) erneuern nach TER-S1/S2 und layout-befunde 1–54 (K6) | nach Entscheidung Musterbeispiel | Claude | uebergabe.md § 5 |
 | aufgabenbank bank/_strittig.md sichten (K7) | nächster Chat | Lehrer/Claude | uebergabe.md § 5 |
 | aufgabenbank: Prüfungshöhe gegen die Sprache der Originale halten – trifft die verfremdete Aufgabe den Wortlaut, den der Schüler in der Prüfung liest (regeln.md Nr. 9)? Stichprobe an den ersten Blättern aus der Bank | erste Blätter aus der Bank liegen | Chat, Lehrer | Chat 28.09.2026 abends (Frage Formulierungen) |
