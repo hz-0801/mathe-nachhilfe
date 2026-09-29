@@ -278,6 +278,12 @@ führt Qualifikationsphasen-Bände von 2018/2019 und 2021 ohne Landesangabe,
 Inhaltsverzeichnis; unter dem ISBN-Kreis der Ausgabe B (9783060098…) stehen
 nur Einführungsphase (2023) und Klasse 9/10. Nichts davon abgelegt, weil
 keiner der Bände nachweislich Ausgabe B ist.
+Nachtrag 29.09.2026: Der Band „Ausgabe B, Grundkurs, Q3–Q4“ existiert –
+ein Schüler des Lehrers hat ihn; Umschlag, Inhaltsverzeichnis und Vorwort
+(Stoffverteilung Q3/Q4, Szenario A/B) sind als zweiter Abschnitt in der
+Datei abgeschrieben (Impressum nicht fotografiert: ISBN und Jahr
+unbekannt). Q1–Q2 GK und die LK-Bände fehlen weiter. Noch nicht in
+`werkzeuge/sek2-ordnung-belege-daten.py` zugeordnet.
 
 ## quelle-westermann-elemente-der-mathematik-sek2-nrw-inhalt.txt
 
@@ -488,6 +494,27 @@ Quelle: https://cosh-bw.de/wp-content/uploads/2026/05/makV3.1.pdf (Materialseite
 https://cosh-bw.de/cosh-mathe/materialien/; die ältere Adresse …/2025/07/makV3.1.pdf
 liefert 404). Version 3.0: https://cosh-mathe.de/wp-content/uploads/2021/12/makV3.0.pdf
 (40 Seiten, nicht abgelegt).
+
+## Lernhilfe vom Lehrer (29.09.2026)
+
+- Duden, „Wissen – Üben – Testen, Mathematik 9. Klasse“, Bibliographisches
+  Institut Berlin 2017, ISBN 978-3-411-72574-8 (E-Book 978-3-411-91231-5),
+  128 Seiten, bundesweit ohne Landesbezug. Textfassung liegt beim Lehrer
+  (OCR des ganzen Bandes, im Chat gelesen); nicht abgelegt, weil kein
+  Verzeichnis, sondern der ganze Band. Gliederung: 1 Reelle Zahlen
+  (irrationale Zahlen, Potenzgesetze, Wurzeln und Wurzelterme), 2 Lineare
+  Gleichungssysteme (auch drei Variablen, lineare Ungleichungssysteme),
+  3 Quadratische Funktionen (auch Wurzelfunktionen als Umkehrfunktionen),
+  4 Quadratische Gleichungen (rein, gemischt, Bruch- und Wurzelgleichungen,
+  quadratische Ungleichungen), 5 Strahlensätze und Ähnlichkeit,
+  6 Satzgruppe des Pythagoras (mit Trigonometrie am rechtwinkligen
+  Dreieck), 7 Berechnungen am Kreis, 8 Raumgeometrie (Prisma, Zylinder,
+  Pyramide, Kegel, Kugel), 9 Im Beruf: Prozente und Zinsen, 10 Beschreibende
+  Statistik (Kenngrößen, Streuungsmaße und Quartile, Diagramme). Form je
+  Einheit: Wissen (Regeltext mit Beispielen am Rand), Üben, Klassenarbeit
+  je Kapitel mit Lösungen. Rolle: Form-Quelle (Lernhilfe), keine
+  Klassenquelle für BE/BB; Kapitelfolge weicht vom Rahmenlehrplan ab
+  (Kugel, LGS mit drei Variablen, Wurzelgleichungen in Klasse 9).
 
 ## Noch nicht abgelegt
 

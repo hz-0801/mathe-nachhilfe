@@ -119,6 +119,7 @@ seiner die Ausgabe Nordrhein-Westfalen/Schleswig-Holstein (IDN 1365830985).
 | Klett | Lambacher Schweizer | keine Landesausgabe; auch kein gedrucktes Allgemeine-Ausgabe-Schulbuch für BE/BB (nur die bundeslandübergreifende Digitalplattform Studyly) | Einführungsphase/Qualifikationsphase | – | – | nicht gefunden | – |
 | Cornelsen | Fundamente der Mathematik | Ausgabe B (Berlin, Brandenburg, Mecklenburg-Vorpommern) | Einführungsphase | 9783060098514 | 1266335498 | DNB | ja |
 | Cornelsen | Fundamente der Mathematik | Ausgabe B (BE/BB/MV) | Qualifikationsphase GK/LK | – | – | nicht gefunden (in der DNB noch nicht katalogisiert/erschienen; alle 2019–2025 gefundenen Qualifikationsphase-Bände tragen andere Bundesländer, u. a. NRW) | – |
+| Cornelsen | Fundamente der Mathematik | Ausgabe B, Grundkurs | Qualifikationsphase Q3–Q4 | unbekannt (Impressum nicht fotografiert) | – | Schülerbuch beim Lehrer (Fotos 28.09.2026), abgeschrieben in `quelle-cornelsen-fundamente-sek2-ausgabeb-inhalt.txt`, zweiter Abschnitt | ja (Inhaltsverzeichnis und Vorwort); Q1–Q2 und LK fehlen |
 | Cornelsen | Bigalke/Köhler Mathematik | Brandenburg - Ausgabe 2019 (keine Berlin-Ausgabe gefunden) | Qualifikationsphase Grundkurs Jg. 11 | 9783060406661 | 1164092987 | DNB (Personenfeld: per="Bigalke") | ja |
 | Cornelsen | Bigalke/Köhler Mathematik | dito | Qualifikationsphase Leistungskurs Jg. 11 | 9783060406685 | 1164092006 | DNB | ja |
 | Cornelsen | Bigalke/Köhler Mathematik | dito | Qualifikationsphase Grundkurs Jg. 12 | 9783060406678 | 1186081260 | DNB | ja |
