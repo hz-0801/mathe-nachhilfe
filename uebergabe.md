@@ -24,7 +24,7 @@ Bank zusammengesetzt, Chat als Schalter.
   (Umbauskripte der Nachzüge); bank/<eintrag>/stand.md je Eintrag
   mit Entscheidungen und Befunden vom 29.09.
 - anweisungen: projekt-verbessereBlaetter.md 28c, kandidaten.md
-  28c (unverändert; neue Kandidaten unten in § 4).
+  2026-09-30 (vier neue Kandidaten, § 4).
 - blattbau unverändert: unterrichtsblatt.md v4.4, pruefungsblatt.md
   v0.15.
 - TER-S1, TER-S2 weiter nur im alten Chat (Lehrer).
@@ -100,8 +100,8 @@ Frühere Übergaben gelten weiter (archiv/).
 - Seitenlauf über die DDR-Bände (jede Musterlösung eines Kapitels
   lesen) nur bei Blatt-Befund für einen Eintrag, nie über alle
   Bände (faellig.md).
-- Kandidaten für kandidaten.md (beim nächsten Umzug eintragen, hier
-  noch nicht geschrieben): (a) Hinweise im Kopf eines Agenten-
+- Kandidaten in kandidaten.md (Stand 2026-09-30, 22b1f02), vier
+  Blöcke; Kurzform: (a) Hinweise im Kopf eines Agenten-
   Auftrags müssen aus der Quelle stammen, die der Agent selbst
   liest (Mappe), nicht aus einer Zählung des Chats – der Hinweis
   zu ebenen war falsch, der Agent hat richtig die Mappe genommen.
