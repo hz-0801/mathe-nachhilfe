@@ -1,4 +1,5 @@
 # Vorschläge 30.09.2026 – Katalogbefunde der Bank-Nachzüge vom 29.09.
+umgesetzt am 2026-09-30, Commit db8d2a3 (mathe-nachhilfe) und 696dd8d, eb3d65c (aufgabenbank: bank.md und mappe.py; Mappen); nicht übernommen: 2.3 (Lehrer: dritte Formel regulär mit Marke „kein P10-Stoff“); 1.1 in 1.2 enthalten; ableitungsregeln.md „Welche Regel?“ auf „Vor Einheit 1 und 3“ (Ermessen aus Prüfstein 11)
 
 Stand 30.09.2026: Katalog auf Commit 6ae89f9 (mathe-nachhilfe),
 Bank auf 11d6a36 (aufgabenbank). Zeilennummern „Z.“ der Einträge
