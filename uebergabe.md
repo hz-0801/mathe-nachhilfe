@@ -195,9 +195,13 @@ Frühere Übergaben gelten weiter (archiv/).
 - Messwerte 30.09.: 0,28 + 0,13 Mio Token Agenten bewegten die
   Wochenanzeige nicht (41 % → 41 %); Nachbesserungs-Agent 0,16 Mio
   (Opus) 41 → 42 %; Fable-Agenten zahlen Fable (24 % um 13 Uhr).
-- Fable-Agenten (30.09., Lehrer): Solange das Fable-Kontingent
-  reicht, laufen Agenten aus diesem Chat auf Fable; die Woche
-  bleibt für Blatt-Chats und Opus-Läufe.
+- Fable-Agenten zahlen doppelt (Messwert 30.09. abends): 3,3 Mio
+  Token Fable-Agenten plus Chat brachten die Woche von 42 auf 53 %
+  und Fable von 24 auf 46 %. Die Annahme „Fable-Agenten schonen die
+  Woche“ ist widerlegt; Fable-Agenten nur, wenn Fable-Urteil
+  gebraucht wird. Lehrer 30.09. abends: nicht alles auf einmal –
+  große Läufe in Runden mit Ablesen dazwischen, Nachzug der 48 in
+  der neuen Woche.
 - Alltagssprache und Revisionen (30.09., Lehrer): Befunde und
   Vorschläge im Chat in Alltagssprache, Nummern und Kennungen
   bleiben in der Datei; eine frühere Festlegung, die nicht mehr
@@ -309,12 +313,13 @@ Gegenlese der 24 Einträge (5–7 % der Woche je Schub, vier Schübe)
 wartet, bis der Schalter-Prompt steht und zeigt, was die Bank
 wirklich braucht; Woche stand am 30.09. 08:40 bei 41 %.
 
-1. Entscheidung Lehrer: Nachzug der 48 übrigen Einträge (Muster
-   29.09., auftrag-eintrag.md 29e, je Eintrag ein Agent, sechs bis
-   sieben je Runde) – auf Fable, solange das Kontingent reicht,
-   sonst Opus in der neuen Woche; vor jeder Runde Nutzungsanzeige.
-2. Schalter-Prompt nach ziel.md; pruefungsblatt.md 1.1 im selben
-   Zug, mit der Regel „kein P10-Stoff“.
+1. Schalter-Prompt nach ziel.md (Urteilsarbeit im Chat, keine
+   Agenten); pruefungsblatt.md 1.1 im selben Zug, mit der Regel
+   „kein P10-Stoff“.
+2. Nachzug der 48 übrigen Einträge ab Montag 18:00 (neue Woche):
+   Muster 29.09., auftrag-eintrag.md 29e, Opus, je Eintrag ein
+   Agent, sechs je Runde, vor jeder Runde Nutzungsanzeige (Messwert
+   29.09.: 1–1,5 % je Eintrag).
 3. Gegenlese je Eintrag, sobald der Schalter daraus ein Blatt baut
    (Muster 27./28.09., nur neue und umgeschriebene Zeilen, ohne
    Mappe – die Sperre prüft das Skript).
