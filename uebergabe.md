@@ -1,4 +1,4 @@
-# Übergabe verbessereBlaetter – 2026-09-30 nachts (Chat 29.09. 08:14 bis 30.09. 01:00)
+# Übergabe verbessereBlaetter – 2026-09-30 (Chat 29.09. 08:14 bis 30.09. 01:00; Nachtrag 30.09. vormittags)
 
 Vorherige Übergabe: archiv/uebergabe-2026-09-29.md (früh).
 
@@ -54,6 +54,26 @@ Erledigt 29.09.:
   Prüfskript (§ 4).
 - Kontingent gemessen (§ 4).
 
+Erledigt 30.09. vormittags (Chat auf Fable, zwei Opus-Agenten,
+0,41 Mio Token; Woche 41 % vorher und nachher):
+- aufgabenbank 4bb1bd6: bank-pruef.py v0.11 – Formprobe P1–P8 als
+  eigene Rubrik (nicht Abweichung, nicht Warnung), Punkte „(4; 1)“
+  gelesen, Winkel „rund 37°“ als Ergebnisstelle, Zeile „Urteile:
+  ja/nein/richtig/…“ je Eintrag; Bericht werkzeuge/bericht-pruef-
+  v0.11-2026-09-30.md (vollständige Formprobe-Liste je Eintrag).
+  Befund: die 24 nachgezogenen Einträge haben 0–4 Hinweise, die 48
+  übrigen 10–40 (882 gesamt) – Formprobe bestätigt den Nachzug.
+  Ausgangswert über alle 72 war nicht 0/0: 315 Abweichungen mit
+  --katalog, alle in nicht nachgezogenen Einträgen (quadratische-
+  gleichungen 195, symmetrie-abbildungen 39, gleichungen-loesen 21,
+  bedingte/grenzwerte/hypothesentests je 12, scharen 10), dazu 6
+  alte ohne Katalog (binomische-formeln 4× „grafik leer“,
+  weg.jsonl in lineare-gleichungen und quadratische-funktionen).
+- aufgabenbank 1393253: Körperregel der Sperre (§ 4), bank.md
+  Stand 2026-09-30, bank-pruef.py v0.12; 122 von 124 Punkt-
+  Treffern weg, 317 / 2 / 882 über 72 Einträge. Zwei bleiben als
+  Gegenlese-Posten (§ 5).
+
 Nicht erledigt: Gegenlese der Nachzüge (Posten faellig.md);
 Schalter-Prompt; pruefungsblatt.md 1.1; K2, K3, K5 (jetzt mit
 Beleg), K6, K7; Katalogbefunde aus den stand.md-Dateien (unten).
@@ -97,6 +117,16 @@ Frühere Übergaben gelten weiter (archiv/).
   mit). Rund 1–1,5 % je Bank-Eintrag, etwa 3,5–5 % je Million
   Token. Fable 21 % für diesen Chat. Die Hochrechnung der Anzeige
   („geht Freitag aus“) ist deren Schätzung aus dem Tagestempo.
+- Körperregel der Sperre (30.09., Lehrer): ein einzelnes
+  Zahlenpaar oder Tripel als Punkt ist frei, auch wenn es in
+  Original oder Kasten steht; gesperrt sind zwei oder mehr Punkte
+  derselben Quelle in einer Zeile. Grund: die Mappen enthalten
+  1 156 Originalpunkte, Einzelsperre macht kleine Zahlen unmöglich,
+  und ein Punkt ist keine Kopie. Die von einem Agenten eingeführte
+  Ausnahme „Punkte aus 0, 1, −1 frei“ ist gestrichen. Gleichungen,
+  Terme, Ergebnisse, Anteil/Produkt-Paare unverändert.
+- Messwerte 30.09.: 0,28 + 0,13 Mio Token Agenten bewegten die
+  Wochenanzeige nicht (41 % → 41 %).
 - Seitenlauf über die DDR-Bände (jede Musterlösung eines Kapitels
   lesen) nur bei Blatt-Befund für einen Eintrag, nie über alle
   Bände (faellig.md).
@@ -120,6 +150,16 @@ Frühere Übergaben gelten weiter (archiv/).
   „P = \leerfeld“ in antwort, binomische-formeln e1 Vorstufe ohne
   Baustein (Pfeile), Bestandszeilen mit Poolkennung (ebenen,
   lagebeziehungen, tangente).
+- Aus v0.11/v0.12 für die Gegenlese: „ohne genau zu rechnen“ fehlt
+  in kurvenuntersuchung e2–e5, prozentrechnung e2, e4, e5,
+  tangente e4; geraden-e3-k1-s4-v1 (drei Ecken fallen mit dem
+  Boden der Pyramide aus 2017MgrundlegendBAGLAA2CAS2-1f zusammen –
+  eine Ecke verschieben); zufallsexperimente-e2-k1-s0-v4 übernimmt
+  das Kastenbeispiel (2|5), (5|2) wörtlich.
+- Urteilsbalance mit Zahlen (bericht-pruef-v0.11): gesamt ja 337 /
+  nein 364; P2 102 von 102 „Richtig“ (Formfolge, Regel „etwa halb“
+  passt für P2 nicht); P6 ja 24 / nein 95; 105 P8-Lösungen setzen
+  das Urteil nicht an den Anfang. Entscheidung offen.
 - Katalogbefunde aus den stand.md-Dateien (für den nächsten
   Katalogauftrag): binomische-formeln Verweis auf quadratische-
   gleichungen Einheit 2/3; lineare-gleichungen Z. 32 „vor Einheit 1
@@ -163,9 +203,12 @@ Unteragenten aus dem Chat, je Eintrag eigener Klon.
    dem Muster vom 27./28.09. (gegenlese.md je Eintrag), aber nur
    für neue und umgeschriebene Zeilen (Umbauskripte in
    werkzeuge/einmalig/ und stand.md nennen sie), mit den
-   Nachbesserungen aus § 5; sechs bis sieben Agenten je Schub, vor
-   jedem Schub Nutzungsanzeige ablesen (Woche 39 % am 30.09. 01:00).
-2. Dann Prüfskript v0.11 (Formprobe P1–P8) und die Katalogbefunde
-   aus § 5 als ein Katalogauftrag.
+   Nachbesserungen aus § 5 (auch die Posten aus v0.11/v0.12);
+   sechs bis sieben Agenten je Schub, vor jedem Schub
+   Nutzungsanzeige ablesen (Woche 41 % am 30.09. 08:40). Der
+   Lehrer hat am 30.09. nach der Kostenschätzung (5–7 % je Schub)
+   noch kein Go gegeben; mit dem Go beginnen.
+2. Dann die Katalogbefunde aus § 5 als ein Katalogauftrag
+   (Prüfskript v0.11/v0.12 ist erledigt, 30.09.).
 3. Erst dann der Schalter-Prompt nach ziel.md; pruefungsblatt.md 1.1
    im selben Zug.
