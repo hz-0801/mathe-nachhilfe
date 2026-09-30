@@ -1,4 +1,4 @@
-# Übergabe verbessereBlaetter – 2026-09-30 (Chat 29.09. 08:14 bis 30.09. 01:00; Nachtrag 30.09. vormittags)
+# Übergabe verbessereBlaetter – 2026-09-30 (Chat 29.09. 08:14 bis 30.09. 01:00; Nachträge 30.09. vormittags und mittags)
 
 Vorherige Übergabe: archiv/uebergabe-2026-09-29.md (früh).
 
@@ -15,7 +15,7 @@ Bank zusammengesetzt, Chat als Schalter.
   f038ccb (sieben Änderungen vom 29.09., § 3); faellig.md (Posten
   aus dem Tag in § 2, Messwerte Kontingent); bericht-katalog-
   nachzug.md (Liste der 24 Einträge, alle erledigt).
-- aufgabenbank auf 0f1ee71: bank.md 29b (fünfte Fassung:
+- aufgabenbank auf 11d6a36 (Nachbesserungen 30.09. mittags, § 3): bank.md 29b (fünfte Fassung:
   Vorstufen 0, −1, −2; eine Prüfungssprosse je Kette mit allen
   Originalen; Musterbeispiel muster.md; Körperregel beim Nachzug;
   Dublette = ein Original); auftrag-eintrag.md 29e; werkzeuge/
@@ -73,6 +73,19 @@ Erledigt 30.09. vormittags (Chat auf Fable, zwei Opus-Agenten,
   Stand 2026-09-30, bank-pruef.py v0.12; 122 von 124 Punkt-
   Treffern weg, 317 / 2 / 882 über 72 Einträge. Zwei bleiben als
   Gegenlese-Posten (§ 5).
+
+Erledigt 30.09. mittags (Chat auf Fable, ein Opus-Agent, 0,16 Mio
+Token; Lehrer wählte „zweiten Weg“: erst Nachbesserungen, Katalog-
+auftrag, Schalter-Prompt, volle Gegenlese danach):
+- aufgabenbank 5c1bf5a: antwort-Gerüst „__“ statt \leerfeld in 455
+  Zeilen (sechs Einträge), Skript werkzeuge/einmalig/leerfeld-
+  antwort-2026-09-30.py. 959fd16: skalarprodukt e1 s1 v5 Gerüst mit
+  Urteilsfeld; geraden-e3-k1-s4-v1 Würfel Kante 3 (4 und 6 kollidieren
+  mit Mappe); zufallsexperimente-e2-k1-s0-v4 Paar (4; 6). 11d6a36:
+  „Begründe, ohne genau zu rechnen“ in den acht Einheiten (je die
+  P6-Zeile umgeschrieben, kein Urteil gekippt). Prüfskript: geraden
+  und zufallsexperimente 0/0, Formprobe kurvenuntersuchung 4 → 0,
+  prozentrechnung 4 → 1, tangente 1 → 0.
 
 Nicht erledigt: Gegenlese der Nachzüge (Posten faellig.md);
 Schalter-Prompt; pruefungsblatt.md 1.1; K2, K3, K5 (jetzt mit
@@ -150,12 +163,9 @@ Frühere Übergaben gelten weiter (archiv/).
   „P = \leerfeld“ in antwort, binomische-formeln e1 Vorstufe ohne
   Baustein (Pfeile), Bestandszeilen mit Poolkennung (ebenen,
   lagebeziehungen, tangente).
-- Aus v0.11/v0.12 für die Gegenlese: „ohne genau zu rechnen“ fehlt
-  in kurvenuntersuchung e2–e5, prozentrechnung e2, e4, e5,
-  tangente e4; geraden-e3-k1-s4-v1 (drei Ecken fallen mit dem
-  Boden der Pyramide aus 2017MgrundlegendBAGLAA2CAS2-1f zusammen –
-  eine Ecke verschieben); zufallsexperimente-e2-k1-s0-v4 übernimmt
-  das Kastenbeispiel (2|5), (5|2) wörtlich.
+- Die Posten aus v0.11/v0.12 (ohne genau zu rechnen, geraden-Würfel,
+  Würfelpaar) sind erledigt (30.09. mittags); die umgeschriebenen
+  Zeilen gehören in die Gegenlese.
 - Urteilsbalance mit Zahlen (bericht-pruef-v0.11): gesamt ja 337 /
   nein 364; P2 102 von 102 „Richtig“ (Formfolge, Regel „etwa halb“
   passt für P2 nicht); P6 ja 24 / nein 95; 105 P8-Lösungen setzen
@@ -199,16 +209,20 @@ und die übrigen aus archiv/uebergabe-2026-09-29.md.
 Modell: Opus 5.5 (Fable auf Wahl des Lehrers). Läufe als
 Unteragenten aus dem Chat, je Eintrag eigener Klon.
 
-1. Gegenlese-Lauf über die 24 nachgezogenen Einträge: Auftrag nach
-   dem Muster vom 27./28.09. (gegenlese.md je Eintrag), aber nur
-   für neue und umgeschriebene Zeilen (Umbauskripte in
-   werkzeuge/einmalig/ und stand.md nennen sie), mit den
-   Nachbesserungen aus § 5 (auch die Posten aus v0.11/v0.12);
-   sechs bis sieben Agenten je Schub, vor jedem Schub
-   Nutzungsanzeige ablesen (Woche 41 % am 30.09. 08:40). Der
-   Lehrer hat am 30.09. nach der Kostenschätzung (5–7 % je Schub)
-   noch kein Go gegeben; mit dem Go beginnen.
-2. Dann die Katalogbefunde aus § 5 als ein Katalogauftrag
-   (Prüfskript v0.11/v0.12 ist erledigt, 30.09.).
-3. Erst dann der Schalter-Prompt nach ziel.md; pruefungsblatt.md 1.1
-   im selben Zug.
+Reihenfolge seit 30.09. mittags („zweiter Weg“, Lehrer): Die volle
+Gegenlese der 24 Einträge (5–7 % der Woche je Schub, vier Schübe)
+wartet, bis der Schalter-Prompt steht und zeigt, was die Bank
+wirklich braucht; Woche stand am 30.09. 08:40 bei 41 %.
+
+1. Katalogauftrag aus den Befunden in § 5 (Erkennungsschritt-Regel
+   schärfen, flaecheninhalt neun Kennungen, funktionsklassen 30
+   CAS-Originale, stammfunktion e2-Vorstufe, terme Typenzeile,
+   binomische-formeln und lineare-gleichungen Verweise) als ein
+   Opus-Agent; Katalogänderungen legt der Chat dem Lehrer vor.
+2. Schalter-Prompt nach ziel.md; pruefungsblatt.md 1.1 im selben
+   Zug.
+3. Gegenlese-Lauf über die 24 nachgezogenen Einträge (Muster
+   27./28.09., nur neue und umgeschriebene Zeilen, mit den
+   Nachbesserungen aus § 5), sechs bis sieben Agenten je Schub,
+   vor jedem Schub Nutzungsanzeige ablesen; erst nach dem Schalter
+   oder in der neuen Woche.
