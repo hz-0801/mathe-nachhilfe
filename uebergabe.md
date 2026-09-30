@@ -1,6 +1,7 @@
-# Übergabe verbessereBlaetter – 2026-09-30 (Chat 29.09. 08:14 bis 30.09. 01:00; Nachträge 30.09. vormittags bis abends)
+# Übergabe verbessereBlaetter – 2026-09-30b (Chat 30.09. 08:40 bis abends)
 
-Vorherige Übergabe: archiv/uebergabe-2026-09-29.md (früh).
+Vorherige Übergabe: archiv/uebergabe-2026-09-30.md (Nacht 29./30.09.
+mit Nachträgen des Tages; dort § 3 die Einzelheiten des 30.09.).
 
 ## 1 Ziel
 
@@ -12,314 +13,140 @@ Bank zusammengesetzt, Chat als Schalter.
 ## 2 Arbeitsgrundlage
 
 - mathe-nachhilfe: ziel.md (28.09., unverändert); katalog/ auf
-  db8d2a3 (Katalogauftrag 30.09., § 3; Vorschlagsdatei katalog/
-  _vorschlaege-2026-09-30.md mit Umsetzungsvermerk); faellig.md (Posten
-  aus dem Tag in § 2, Messwerte Kontingent); bericht-katalog-
-  nachzug.md (Liste der 24 Einträge, alle erledigt).
-- aufgabenbank auf 546d722 (Bank-Nachtrag 30.09. in 16 Einträgen,
-  § 3; bank.md 2026-09-30b mit Regel R.1 zu
-  Erkennungsschritten und vier neuen Sätzen; mappe.py nimmt Kennungen
-  aus den Ketten auf, 72 Mappen neu; Nachbesserungen mittags, § 3): bank.md 29b (fünfte Fassung:
-  Vorstufen 0, −1, −2; eine Prüfungssprosse je Kette mit allen
-  Originalen; Musterbeispiel muster.md; Körperregel beim Nachzug;
-  Dublette = ein Original); auftrag-eintrag.md 29e; werkzeuge/
-  bank-pruef.py v0.10 (`--katalog` aus der Mappe); werkzeuge/
-  punkte-nachziehen.py (ids nach Nachzug); werkzeuge/einmalig/
-  (Umbauskripte der Nachzüge); bank/<eintrag>/stand.md je Eintrag
-  mit Entscheidungen und Befunden vom 29.09.
-- anweisungen: projekt-verbessereBlaetter.md 28c, kandidaten.md
-  2026-09-30 (vier neue Kandidaten, § 4).
+  db8d2a3 (Katalogauftrag 30.09.: 23 Vorschläge aus katalog/
+  _vorschlaege-2026-09-30.md, Marke „(kein P10-Stoff)“ in
+  _vorlage.md; 17 Einträge mit Kopfzeile „Änderungen 2026-09-30“);
+  faellig.md (Stand 30.09. abends).
+- aufgabenbank auf 546d722: bank.md 2026-09-30b (Regel R.1 zu
+  Erkennungsschritten und Vorstufen; „(4×)“ ist Blattzahl, Bank hält
+  fünf; Deutungstypen in Sek II tragen Darstellung/Anwendung;
+  Original über zwei Einheiten an der späteren Prüfungssprosse;
+  „(kein P10-Stoff)“ steuert nur den Zusammenbau); werkzeuge/
+  mappe.py nimmt Kennungen aus den Ketten auf, 72 Mappen auf
+  Katalog db8d2a3; bank-pruef.py v0.12; auftrag-eintrag.md 29e;
+  bank/<eintrag>/stand.md mit Abschnitt „Nachzug 30.09.“ in 16
+  Einträgen. Bank 15 351 Zeilen; _punkte.csv 2 851 Urteile,
+  Gegenprobe bestanden.
 - blattbau unverändert: unterrichtsblatt.md v4.4, pruefungsblatt.md
-  v0.15.
+  v0.15; werkzeuge/zusammenbau.py kennt „(kein P10-Stoff)“ nicht.
+- anweisungen: projekt-verbessereBlaetter.md 2026-09-30 (neu:
+  Alltagssprache, Revisionen, Kontingent-Messwert), kandidaten.md
+  2026-09-30b.
 - TER-S1, TER-S2 weiter nur im alten Chat (Lehrer).
 
 ## 3 Arbeitsstand
 
-Erledigt 29.09.:
-- Vorstufen-Lauf über die vorhandenen Schreibform-Notizen der
-  DDR-Bücher (61 Notizen, Vier-Fragen-Prüfstein): sieben
-  Katalogänderungen in fünf Einträgen – terme E4 Vorstufe
-  „Zerlegen mit vorgegebenem Faktor“ (vor „Faktor vorgegeben“),
-  prozentrechnung E4 Sprosse „nur ein Prozent bestimmen“,
-  bruchrechnung E3 Sprosse „Stammbruch von einem Bruch“ (Vorrat)
-  und Kastenzeile 3 · 2/5 = 3/1 · 2/5, tangente E1 Vorstufe „nur
-  den Anstieg“, stammfunktion E2 „nur einsetzen“ als Vorstufe vor
-  den Grundfall (d78032a, f038ccb).
-- Prüfstein terme als Unteragent (217 495 Token), danach alle 23
-  übrigen Einträge in vier Schüben (4, 6, 6, 7 Agenten parallel,
-  Opus; 1,08 / 1,66 / 1,68 / 2,11 Mio Token). Alle 24 Einträge auf
-  Katalog 29.09., bank.md 29b, Pflichtformen P1–P8, Päckchen,
-  muster.md; Prüfskript `--katalog` überall 0/0. Bank: 73 Ordner,
-  15 294 Zeilen.
-- bank/_punkte.csv nach jedem Schub nachgezogen (ids umbenannt,
-  neue Urteile durch kleine Opus-Agenten: 12, 62, 34); Gegenprobe
-  bestanden.
-- Regeln aus den Befunden der Schübe in bank.md, Vorlage und
-  Prüfskript (§ 4).
-- Kontingent gemessen (§ 4).
+Erledigt 30.09. (Einzelheiten in archiv/uebergabe-2026-09-30.md
+§ 3):
+- Nachbesserungen in der Bank (antwort-Gerüst „__“ in 455 Zeilen,
+  drei Einzelzeilen, „ohne genau zu rechnen“ in acht Einheiten).
+- Katalogauftrag aus den 66 Katalogbefunden der stand.md-Dateien:
+  Vorschlagsdatei, Urteil im Chat (Lehrer), Umsetzung in Katalog,
+  bank.md, mappe.py; Revision: dritte binomische Formel ist
+  regulärer Stoff mit Marke „(kein P10-Stoff)“ statt Vorrat.
+- Bank-Nachtrag in 16 Einträgen (terme, lineare-gleichungen,
+  binomische-formeln, bruchrechnung, brueche-dezimalzahlen,
+  prozentrechnung, tangente, binomialverteilung, flaecheninhalt-
+  durch-integration, skalarprodukt, kurvenuntersuchung, rationale-
+  zahlen, ableitung-und-aenderungsrate, abstaende, ebenen,
+  zufallsexperimente), alle 0/0 mit --katalog; Erkennungsschritte
+  nach R.1; Prüfungssprossen der Sek-II-Einträge mit den Originalen,
+  die die Mappe vorher nicht kannte; 63 neue Urteile.
+- Befund: Die 48 nicht nachgezogenen Einträge standen bisher gegen
+  Mappen vom 25.09.; gegen die neuen Mappen zeigt --katalog dort
+  rund 5 000 Abweichungen (fast alles „sprosse_text nicht
+  wortgleich“, Katalogstand 27./29.09.). Das ist der ausstehende
+  Nachzug, kein neuer Schaden.
 
-Erledigt 30.09. vormittags (Chat auf Fable, zwei Opus-Agenten,
-0,41 Mio Token; Woche 41 % vorher und nachher):
-- aufgabenbank 4bb1bd6: bank-pruef.py v0.11 – Formprobe P1–P8 als
-  eigene Rubrik (nicht Abweichung, nicht Warnung), Punkte „(4; 1)“
-  gelesen, Winkel „rund 37°“ als Ergebnisstelle, Zeile „Urteile:
-  ja/nein/richtig/…“ je Eintrag; Bericht werkzeuge/bericht-pruef-
-  v0.11-2026-09-30.md (vollständige Formprobe-Liste je Eintrag).
-  Befund: die 24 nachgezogenen Einträge haben 0–4 Hinweise, die 48
-  übrigen 10–40 (882 gesamt) – Formprobe bestätigt den Nachzug.
-  Ausgangswert über alle 72 war nicht 0/0: 315 Abweichungen mit
-  --katalog, alle in nicht nachgezogenen Einträgen (quadratische-
-  gleichungen 195, symmetrie-abbildungen 39, gleichungen-loesen 21,
-  bedingte/grenzwerte/hypothesentests je 12, scharen 10), dazu 6
-  alte ohne Katalog (binomische-formeln 4× „grafik leer“,
-  weg.jsonl in lineare-gleichungen und quadratische-funktionen).
-- aufgabenbank 1393253: Körperregel der Sperre (§ 4), bank.md
-  Stand 2026-09-30, bank-pruef.py v0.12; 122 von 124 Punkt-
-  Treffern weg, 317 / 2 / 882 über 72 Einträge. Zwei bleiben als
-  Gegenlese-Posten (§ 5).
+Nicht erledigt: Schalter-Prompt; Nachzug der 48; Gegenlese;
+pruefungsblatt.md 1.1; K2–K7; Bausteine (§ 5).
 
-Erledigt 30.09. mittags (Chat auf Fable, ein Opus-Agent, 0,16 Mio
-Token; Lehrer wählte „zweiten Weg“: erst Nachbesserungen, Katalog-
-auftrag, Schalter-Prompt, volle Gegenlese danach):
-- aufgabenbank 5c1bf5a: antwort-Gerüst „__“ statt \leerfeld in 455
-  Zeilen (sechs Einträge), Skript werkzeuge/einmalig/leerfeld-
-  antwort-2026-09-30.py. 959fd16: skalarprodukt e1 s1 v5 Gerüst mit
-  Urteilsfeld; geraden-e3-k1-s4-v1 Würfel Kante 3 (4 und 6 kollidieren
-  mit Mappe); zufallsexperimente-e2-k1-s0-v4 Paar (4; 6). 11d6a36:
-  „Begründe, ohne genau zu rechnen“ in den acht Einheiten (je die
-  P6-Zeile umgeschrieben, kein Urteil gekippt). Prüfskript: geraden
-  und zufallsexperimente 0/0, Formprobe kurvenuntersuchung 4 → 0,
-  prozentrechnung 4 → 1, tangente 1 → 0.
+## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Erledigt 30.09. nachmittags (zwei Fable-Agenten, 0,40 + 0,20 Mio
-Token, zahlen das Fable-Kontingent):
-- Katalogauftrag aus den 66 Katalogzeilen der 24 stand.md-Dateien:
-  Vorschlagsdatei cd4e10b, Urteil im Chat (Lehrer), Umsetzung
-  db8d2a3/886dd18 (17 Einträge, _vorlage.md) und 696dd8d/eb3d65c
-  (bank.md, mappe.py, Mappen). Alle 24 Vorschläge außer 2.3;
-  Regel R.1; ableitungsregeln „Welche Regel?“ Vor Einheit 1 und 3.
-- Neue Katalogmarke „(kein P10-Stoff)“ (Lehrer): regulärer
-  Schulstoff, nicht P10-Vorbereitung; Prüfungsheft lässt die
-  Sprosse aus, Unterrichtsblatt führt sie. Erste Stelle: dritte
-  binomische Formel (war Vorrat seit 27.09., Revision 30.09.).
-- Folge in der Bank (bank-pruef --katalog, nichts geändert):
-  terme 147 (nur quelle-Nummern, Zeile 5.3 verschiebt die Kette),
-  lineare-gleichungen 11, tangente 11 (7 davon Sperre, weil die
-  Mappe mehr Originale kennt), brueche-dezimalzahlen 10, binomische-
-  formeln 7, bruchrechnung 7, flaecheninhalt-durch-integration 4,
-  binomialverteilung 4, skalarprodukt 4, rationale-zahlen 3,
-  kurvenuntersuchung 3, ableitung-und-aenderungsrate 2; dazu neue
-  Zeilen ohne Abweichung: Typen 2.2, 4.1, 5.1, 5.2, 7.1b (je drei),
-  Vorstufen 5.3, 11.1, 14.2 (je vier), Erkennungsschritte nach R.1
-  (kurvenuntersuchung E3, abstaende E2, skalarprodukt E3, ebenen E4,
-  zufallsexperimente E8, flaecheninhalt-und-volumen E2/E4).
+Frühere Übergaben gelten weiter (archiv/); die vom 30.09. früh
+(Vorstufen 0/−1/−2, eine Prüfungssprosse je Kette, Musterbeispiel
+je Kette, Sperre mit Körperregel, Pooldublette = ein Original,
+Agenten je in eigenem Klon) bleiben.
 
-Erledigt 30.09. abends (17 Fable-Agenten in drei Runden plus
-Punkte-Agent, zusammen 3,3 Mio Token Fable):
-- Bank-Nachtrag zu den Katalogänderungen in 16 Einträgen: terme,
-  lineare-gleichungen, binomische-formeln, bruchrechnung, brueche-
-  dezimalzahlen, prozentrechnung, tangente, binomialverteilung,
-  flaecheninhalt-durch-integration, skalarprodukt, kurvenuntersuchung,
-  rationale-zahlen, ableitung-und-aenderungsrate, abstaende, ebenen,
-  zufallsexperimente – alle 0/0 mit --katalog; Erkennungsschritte
-  nach R.1 angelegt (terme E4, skalarprodukt E3, kurvenuntersuchung
-  E3, abstaende E2, ebenen E4, zufallsexperimente E8) oder entfallen
-  (binomische-formeln, ableitung-und-aenderungsrate); Prüfungs-
-  sprossen der Sek-II-Einträge tragen jetzt die Originale, die die
-  Mappe vorher nicht kannte (flaecheninhalt-durch-integration 16
-  Zeilen, binomialverteilung 28, kurvenuntersuchung 16, …).
-  Bank: 15 351 Zeilen. _punkte.csv nachgezogen (546d722): 15
-  umbenannt, 3 entfernt, 63 Urteile neu (58 ganz, 3 teil, 2 unklar);
-  Gegenprobe 2 851 = 2 851.
-- Befund aus dem Mappenbau: Die 48 nicht nachgezogenen Einträge
-  standen bisher gegen Mappen vom 25.09.; mit den neuen Mappen
-  (Katalog db8d2a3) zeigt --katalog dort rund 5 000 Abweichungen
-  (einheiten 204, trigonometrie 250, lineare-gleichungssysteme 207,
-  …, fast alles „sprosse_text nicht wortgleich“ – Katalogstand
-  27.09. Erkennungsschritte und 29.09.). Das ist der Nachzug der
-  übrigen 48, kein neuer Schaden; Entscheidung über Zeitpunkt und
-  Modell (Fable, solange es reicht) beim Lehrer.
+- Reihenfolge seit 30.09. mittags (Lehrer, „zweiter Weg“): erst
+  Katalog und Schalter, Gegenlese je Eintrag erst, wenn der
+  Schalter daraus ein Blatt baut.
+- Marke „(kein P10-Stoff)“ (Lehrer): regulärer Schulstoff, nicht
+  Teil der P10-Vorbereitung; das Prüfungsheft lässt die Sprosse
+  aus, das Unterrichtsblatt führt sie; Bankzeilen wie überall. Die
+  Marke „(Vorrat)“ bleibt für Nicht-Mindeststoff. „Kein P10-
+  Original“ ist eine Beobachtung, keine Marke.
+- Regel R.1 (bank.md): ein Erkennungsschritt wird einmal angelegt,
+  in der ersten Einheit seines Bereichs ohne Vorstufe desselben
+  Handgriffs; derselbe Handgriff = dieselbe Entscheidung an
+  derselben Vorlage; zwei Ketten mit gleicher Vorstufe: Zeilen einmal
+  bei der ersten.
+- Alltagssprache und Revisionen (Lehrer, kandidaten.md 30b): Befunde
+  und Vorschläge im Chat wie am Tisch einem Kollegen, Nummern und
+  Kennungen bleiben in der Datei; eine frühere Festlegung, die
+  nicht mehr optimal scheint, als eigene Entscheidung mit Optionen
+  und Folgen vorlegen.
+- Kontingent (Messwerte 30.09.): Woche 41 % (08:40) → 42 % (13:00,
+  ein Opus-Agent 0,16 Mio) → 53 % (abends); Fable 21 → 24 → 46 %.
+  Dazwischen 3,3 Mio Token Fable-Agenten und dieser Chat:
+  Fable-Agenten zahlen Woche und Fable zugleich (rund 3 % Woche und
+  6–7 % Fable je Mio). Lehrer: nicht alles auf einmal – Runden mit
+  Ablesen dazwischen; heute keine Agenten mehr. Die Hochrechnung
+  der Anzeige („morgen Nacht“) rechnet mit dem Nachmittagstempo.
+- Modellwahl für die nächste Phase: Schalter-Prompt im Chat, Opus
+  (Fable auf Wahl des Lehrers); Nachzug der 48 ab Montag 18:00 mit
+  Opus-Agenten, sechs je Runde, Nutzungsanzeige vor jeder Runde
+  (Messwert 29.09.: 1–1,5 % Woche je Eintrag).
+- Nach jedem Mappenbau läuft das Prüfskript über die ganze Bank
+  (mehr Originale kippen Bestandszeilen über die Sperre).
 
-Nicht erledigt: Nachzug der 48 übrigen Einträge (oben);
-Gegenlese der Nachzüge (Posten faellig.md);
-Schalter-Prompt; pruefungsblatt.md 1.1; K2, K3, K5 (jetzt mit
-Beleg), K6, K7; Katalogbefunde aus den stand.md-Dateien (unten).
+## 5 Offene Punkte und Verworfenes
 
-## 4 Verbindliche Entscheidungen (29.09.)
+- Zusammenbau (zusammenbau.py, pruefungsblatt.md): Sprossen mit
+  „(kein P10-Stoff)“ im Prüfungsheft auslassen; Vorrat-Originale an
+  einer Prüfungssprosse sind je Zeile nicht kennzeichenbar
+  (brueche-dezimalzahlen), Regel nötig.
+- blattbau-Bausteine, die neue Bankzeilen brauchen: Pfeile über
+  einem Term und zerlegtes Quadrat (binomische-formeln), Prozent-
+  streifen über 100 % (prozentrechnung), Pfeil an der Zahlengeraden
+  (rationale-zahlen), Figur aus zwei Rechtecken (terme). Bis dahin
+  form text ohne Grafik.
+- Prüfskript v0.13: Uhrzeiten „15:00“ nicht als Term sperren; Kette
+  gegen die Sprossenliste der Mappe abgleichen (fehlende Sprosse);
+  „2 je Original“ prüfen; Nein-Antwort ohne Zahl ohne pruef;
+  Formprobe: Wechsel Bruch/Dezimal/Prozent als eigene Richtung;
+  \int in STANDARD. punkte-nachziehen.py: bei Kettenverschiebung
+  wortgleiche Zeile unter neuer id finden statt entfernen; nur die
+  genannten Einträge anfassen.
+- Katalog klein: terme Z. 21 „das Doppelte von x plus zwei“
+  zweideutig; binomialverteilung E5-Vorstufe = Erkennungsschritt
+  Z. 43 (eine streichen?); skalarprodukt 2019-be-gk-B3.2c an
+  Sprosse und Prüfungshöhe derselben Kette; kurvenuntersuchung:
+  R.1 legt den Erkennungsschritt in E3 an, wo er wenig nützt
+  (Regel oder Bereich prüfen); marken-bau.py scheitert an
+  quadratische-gleichungen (Bestand); Einsetz-Skript des
+  Katalogauftrags liegt nicht im Repo (Regel verletzt).
+- Gegenlese je Eintrag (ohne Mappe, nur neue und umgeschriebene
+  Zeilen; gegenlese.md in den Ordnern zeigt auf alte ids);
+  Urteilsbalance (P2 immer „Richtig“, P6 fast immer Nein) offen.
+- funktionsklassen: 30 CAS-Originale 2017/2018 an keiner Sprosse –
+  eigener Katalogauftrag „Ketten um den CAS-Nachtrag“.
+- Ein Agent (kurvenuntersuchung) hat seine 16 Urteile selbst
+  gefällt statt ein zweiter; bei der Gegenlese prüfen.
+- Alte Posten: K2–K7 (faellig.md), winkel-dreiecke.md Z. 125.
 
-Frühere Übergaben gelten weiter (archiv/).
-
-- Vorstufen: die Vorstufe vor dem Grundfall ist Sprosse 0, weitere
-  davor −1, −2 (id s-1); der Grundfall ist immer 1 (bank.md).
-- Je Verfahrenskette genau eine Prüfungssprosse, die letzte, mit
-  allen Originalen der Katalogzeile (je Original zwei Zeilen, ohne
-  Original drei). Grund: das Blatt zieht „was die Prüfung fragt“.
-- Musterbeispiel: bank/<eintrag>/muster.md, je Verfahrenskette ein
-  Abschnitt (Annahme statt „einmal je Eintrag“ in ziel.md, weil
-  jedes Blatt am Grundfall seiner Einheit beginnt); Form Schritt |
-  Zeile, Bausteine setzt der Zusammenbau (layout 55).
-- Sperre: Terme, Zahlenpaare, Gleichungen aus Kasten, Typischen
-  Fehlern und Originalen; einzelne Kastenzahlen sind frei (sie sind
-  der Stoff). Merkkasten bleibt „nur auf Zuruf“ (ziel.md).
-- Nachzug eines bestehenden Ordners: Übernahme geht vor der
-  Körperregel; Zeilen bleiben wortgleich, auch wenn der
-  Sprossentext länger wurde, solange die Aufgabe dieselbe bleibt;
-  Pflichtformen werden durch Umschreiben hergestellt, nicht
-  ergänzt; Schrittnamen nur in neuen und umgeschriebenen Lösungen.
-- Pooldublette zählt als ein Original (Kennung, die in der Mappe
-  zuerst steht); gilt für Neues, der Bestand bleibt bis zur
-  Gegenlese.
-- Punkte: verlangt die Bankzeile mehr als das Original, ist sie
-  „ganz“; nach jedem Nachzug punkte-nachziehen.py, dann Urteile.
-- Prüfskript: pruef "" bei pflicht fehler erlaubt (P1-Serie);
-  \janein-Lösung beginnt mit ja/nein; „Zeichne nichts“ ist kein
-  Zeichenauftrag; \int, \sum, \lim und Co. erlaubt.
-- Agentenläufe: je Eintrag ein eigener Klon (/tmp/bank-<eintrag>),
-  Zwischendateien nie im geteilten Scratchpad; Umbauskripte nach
-  werkzeuge/einmalig/; bis sieben Agenten parallel ohne
-  Push-Konflikt (Messwert 29.09.).
-- Kontingent (Messwerte Nutzungsanzeige, Woche seit Montag 18:00):
-  8 % nach Katalog-Nachzug und terme, 12 % nach Schub 1, 18 % nach
-  Schub 2, 28 % nach Schub 3, 39 % nach Schub 4 (Nebenchat lief
-  mit). Rund 1–1,5 % je Bank-Eintrag, etwa 3,5–5 % je Million
-  Token. Fable 21 % für diesen Chat. Die Hochrechnung der Anzeige
-  („geht Freitag aus“) ist deren Schätzung aus dem Tagestempo.
-- Körperregel der Sperre (30.09., Lehrer): ein einzelnes
-  Zahlenpaar oder Tripel als Punkt ist frei, auch wenn es in
-  Original oder Kasten steht; gesperrt sind zwei oder mehr Punkte
-  derselben Quelle in einer Zeile. Grund: die Mappen enthalten
-  1 156 Originalpunkte, Einzelsperre macht kleine Zahlen unmöglich,
-  und ein Punkt ist keine Kopie. Die von einem Agenten eingeführte
-  Ausnahme „Punkte aus 0, 1, −1 frei“ ist gestrichen. Gleichungen,
-  Terme, Ergebnisse, Anteil/Produkt-Paare unverändert.
-- Messwerte 30.09.: 0,28 + 0,13 Mio Token Agenten bewegten die
-  Wochenanzeige nicht (41 % → 41 %); Nachbesserungs-Agent 0,16 Mio
-  (Opus) 41 → 42 %; Fable-Agenten zahlen Fable (24 % um 13 Uhr).
-- Fable-Agenten zahlen doppelt (Messwert 30.09. abends): 3,3 Mio
-  Token Fable-Agenten plus Chat brachten die Woche von 42 auf 53 %
-  und Fable von 24 auf 46 %. Die Annahme „Fable-Agenten schonen die
-  Woche“ ist widerlegt; Fable-Agenten nur, wenn Fable-Urteil
-  gebraucht wird. Lehrer 30.09. abends: nicht alles auf einmal –
-  große Läufe in Runden mit Ablesen dazwischen, Nachzug der 48 in
-  der neuen Woche.
-- Alltagssprache und Revisionen (30.09., Lehrer): Befunde und
-  Vorschläge im Chat in Alltagssprache, Nummern und Kennungen
-  bleiben in der Datei; eine frühere Festlegung, die nicht mehr
-  optimal scheint, wird als eigene Entscheidung mit Optionen
-  vorgelegt (kandidaten.md 2026-09-30b, 6b1134e). Beim Umzug in
-  die Projektanweisung.
-- Marke „(kein P10-Stoff)“ (30.09., Lehrer): siehe § 3; Regel für
-  den Zusammenbau (Prüfungsheft überspringt) ist offen (§ 5).
-- Seitenlauf über die DDR-Bände (jede Musterlösung eines Kapitels
-  lesen) nur bei Blatt-Befund für einen Eintrag, nie über alle
-  Bände (faellig.md).
-- Kandidaten in kandidaten.md (Stand 2026-09-30, 22b1f02), vier
-  Blöcke; Kurzform: (a) Hinweise im Kopf eines Agenten-
-  Auftrags müssen aus der Quelle stammen, die der Agent selbst
-  liest (Mappe), nicht aus einer Zählung des Chats – der Hinweis
-  zu ebenen war falsch, der Agent hat richtig die Mappe genommen.
-  (b) Parallele Agenten je in einem eigenen Klon, Zwischendateien
-  nie im Scratchpad. (c) Musterlösungen alter Lehrwerke sind eine
-  Quelle für Vorstufen: je Zeile der Lösung die vier Fragen (nicht
-  Sprosse; als Aufgabe stellbar; eigenes Fehlerbild; Sturzstelle).
-
-## 5 Offene Punkte
-
-- Gegenlese aller 24 nachgezogenen Einträge (40–70 neue oder
-  umgeschriebene Zeilen je Eintrag); die gegenlese.md/gegenlese2.md
-  in den Ordnern zeigen auf alte ids. Dabei die Nachbesserungen aus
-  den stand.md-Dateien: skalarprodukt e1 s1 v5 (Antwortfeld deckt
-  die Beurteilung nicht), zufallsexperimente übernommene Zeilen mit
-  „P = \leerfeld“ in antwort, binomische-formeln e1 Vorstufe ohne
-  Baustein (Pfeile), Bestandszeilen mit Poolkennung (ebenen,
-  lagebeziehungen, tangente).
-- Die Posten aus v0.11/v0.12 (ohne genau zu rechnen, geraden-Würfel,
-  Würfelpaar) sind erledigt (30.09. mittags); die umgeschriebenen
-  Zeilen gehören in die Gegenlese.
-- Urteilsbalance mit Zahlen (bericht-pruef-v0.11): gesamt ja 337 /
-  nein 364; P2 102 von 102 „Richtig“ (Formfolge, Regel „etwa halb“
-  passt für P2 nicht); P6 ja 24 / nein 95; 105 P8-Lösungen setzen
-  das Urteil nicht an den Anfang. Entscheidung offen.
-- Katalogbefunde aus den stand.md-Dateien (für den nächsten
-  Katalogauftrag): binomische-formeln Verweis auf quadratische-
-  gleichungen Einheit 2/3; lineare-gleichungen Z. 32 „vor Einheit 1
-  und 2“; Erkennungsschritt, der eine Vorstufe wiederholt – bank.md
-  „derselbe Handgriff“ ist zu weich, drei Agenten haben nach
-  Ermessen entschieden (vektoren, binomialverteilung, abstaende);
-  flaecheninhalt neun Kennungen an Prüfungssprossen ohne Mappen-
-  eintrag; funktionsklassen 30 CAS-Originale 2017/2018 an keiner
-  Sprosse; stammfunktion e2-Vorstufe nennt 2025-bebb-lk-B2.2b, das
-  an der Ableitungssprosse liegt; terme e1 ohne Begründen, e3 ohne
-  Anwendung (Typenzeile).
-- Befunde der Nachtrag-Agenten 30.09. (stand.md je Eintrag):
-  Bausteine fehlen für Pfeile über einem Term und das zerlegte
-  Quadrat (binomische-formeln), für den Prozentstreifen über 100 %
-  (prozentrechnung) und für einen Pfeil an der Zahlengeraden
-  (rationale-zahlen) – blattbau-Posten; brueche-dezimalzahlen:
-  Vorrat-Originale an einer Prüfungssprosse lassen sich je Zeile
-  nicht kennzeichnen (Marke gilt je Sprosse); Prüfskript: Uhrzeiten
-  „15:00“ als Term gesperrt, Kette wird nicht gegen die Sprossen-
-  liste der Mappe abgeglichen (terme: fehlende Sprosse seit 29.09.
-  unbemerkt), „2 je Original“ nicht geprüft, Nein-Antwort ohne Zahl
-  verlangt pruef; punkte-nachziehen.py entfernt bei Kettenver-
-  schiebung wortgleiche Zeilen statt umzubenennen und fasst bei
-  Einzel-Läufen fremde Einträge an; Katalog terme Z. 21 „das Doppelte
-  von x plus zwei“ zweideutig; binomialverteilung E5-Vorstufe und
-  Erkennungsschritt Z. 43 derselbe Handgriff (Entscheidung Chat);
-  kurvenuntersuchung: der Erkennungsschritt landet nach R.1 in E3,
-  wo er am wenigsten gebraucht wird (Regel prüfen); skalarprodukt:
-  2019-be-gk-B3.2c an Sprosse und Prüfungshöhe derselben Kette.
-  Nach jedem Mappenbau muss das Prüfskript über die Bank laufen
-  (Sperre kippt Bestandszeilen, tangente 7).
-- Zusammenbau: Sprossen mit „(kein P10-Stoff)“ im Prüfungsheft
-  auslassen (zusammenbau.py, pruefungsblatt.md); Marke ist im
-  Katalog und in _vorlage.md, im Skript noch nicht.
-- marken-bau.py --probe scheitert an quadratische-gleichungen (fünf
-  Typen nicht eindeutig in der Typzeile), Bestand; die neuen
-  Typzeilen tragen ihre Klammern aus der Vorschlagsdatei.
-- Einsetz-Skript des Katalogauftrags (_probe/einsetzen.py) liegt
-  nicht im Repo – Regel „Skripte samt Daten ins Repo“ verletzt;
-  beim nächsten Katalogauftrag Skript nach katalog/_einmalig/.
-- Prüfskript prüft die Pflichtformen P1–P8 nicht (alle Agenten):
-  Formprobe je Einheit (drei verschiedene fehler-, drei begruenden-
-  Formen) als v0.11, sobald die Gegenlese die Formen bestätigt hat.
-- Sperre trifft in der Raumgeometrie jede Körperecke einzeln gegen
-  alle Tripel der Mappe (abstaende, skalarprodukt, geraden, ebenen):
-  Körper mit kleinen Zahlen sind schwer zu finden; Regel prüfen, ob
-  Tripel nur als Körper (drei Ecken zusammen) gesperrt werden.
-- Prüfskript erkennt Punkte in der Originalschreibweise „(4; 1)“
-  nicht (tangente); Winkel „rund …°“ nicht als Ergebnisstelle.
-- Urteilsbalance Ja/Nein: P6 fällt fast immer Nein, P2 immer
-  „Richtig“ – die Regel „etwa halb“ ist je Einheit nicht haltbar;
-  entweder je Eintrag zählen oder streichen.
-- blattbau: Bausteine „Figur aus zwei Rechtecken“ (terme) und
-  „Pfeile jedes mit jedem“ (binomische-formeln).
-- Schalter-Prompt nach ziel.md; pruefungsblatt.md 1.1; Vorlage:
-  Zonen-Kopfzeile doppelt, Textfont-Zeichen.
-- winkel-dreiecke.md Z. 125 (Umkehrung) offen, keine Kette.
-
-Verworfen: Einzelzahl-Probe der Kastenzahlen (Stoff, nicht
-Beispiel); Verzicht auf den Merkkasten (bleibt „auf Zuruf“, eine
-Zeile im Schalter, Formelsammlungsform für Nachschlagen); P9, P10
-und die übrigen aus archiv/uebergabe-2026-09-29.md.
+Verworfen: Vorschlag 2.3 (Vorrat ans Kettenende) – ersetzt durch die
+Marke; Fable-Agenten als Weg, die Woche zu schonen (Messwert);
+Gegenlese aller 24 vor dem Schalter (zweiter Weg).
 
 ## 6 Nächster Arbeitsschritt
 
-Modell: Opus 5.5 (Fable auf Wahl des Lehrers). Läufe als
-Unteragenten aus dem Chat, je Eintrag eigener Klon.
-
-Reihenfolge seit 30.09. mittags („zweiter Weg“, Lehrer): Die volle
-Gegenlese der 24 Einträge (5–7 % der Woche je Schub, vier Schübe)
-wartet, bis der Schalter-Prompt steht und zeigt, was die Bank
-wirklich braucht; Woche stand am 30.09. 08:40 bei 41 %.
-
-1. Schalter-Prompt nach ziel.md (Urteilsarbeit im Chat, keine
-   Agenten); pruefungsblatt.md 1.1 im selben Zug, mit der Regel
-   „kein P10-Stoff“.
-2. Nachzug der 48 übrigen Einträge ab Montag 18:00 (neue Woche):
-   Muster 29.09., auftrag-eintrag.md 29e, Opus, je Eintrag ein
-   Agent, sechs je Runde, vor jeder Runde Nutzungsanzeige (Messwert
-   29.09.: 1–1,5 % je Eintrag).
-3. Gegenlese je Eintrag, sobald der Schalter daraus ein Blatt baut
-   (Muster 27./28.09., nur neue und umgeschriebene Zeilen, ohne
-   Mappe – die Sperre prüft das Skript).
+1. Schalter-Prompt nach ziel.md, im Chat: zuerst ziel.md,
+   bank.md, werkzeuge/zusammenbau.md und zusammenbau.py (Aufruf,
+   Eingaben) lesen, dann den Prompt bauen (Vorgehen „Vorgehen bei
+   jedem neuen Prompt“ der Projektanweisung); die Regel „kein
+   P10-Stoff“ gehört hinein; pruefungsblatt.md 1.1 im selben Zug.
+   Erst Exemplar, dann Regel: ein Blatt aus einem nachgezogenen
+   Eintrag (terme oder bruchrechnung) ist der erste Test.
+2. Ab Montag 18:00: Nachzug der 48 übrigen Einträge in Runden.
+3. Gegenlese je Eintrag, sobald der Schalter daraus ein Blatt baut.
