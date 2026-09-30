@@ -1,4 +1,4 @@
-# Übergabe verbessereBlaetter – 2026-09-30 nachts (Chat vom 29.09. 08:14 bis 30.09. 01:00)
+# Übergabe verbessereBlaetter – 2026-09-30 nachts (Chat 29.09. 08:14 bis 30.09. 01:00)
 
 Vorherige Übergabe: archiv/uebergabe-2026-09-29.md (früh).
 
