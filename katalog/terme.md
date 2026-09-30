@@ -18,9 +18,9 @@ Klasse 7 (Terme mit einer Variablen, Zusammenfassen, Klammern, Ausklammern), Gym
 Eingabe mit Einheit-Stichwort (zusammenfassen, klammern, ausklammern) → direkt.
 
 ### Typen je Lerneinheit
-Einheit 1: Termwert berechnen (auch negative Einsetzung) · Term zu Sachtext angeben (Doppeltes, vermindert um) · Term zu Figur angeben (Umfang, Fläche aus Rechtecken) [OS 6] · Situation zu Term angeben.
+Einheit 1: Termwert berechnen (auch negative Einsetzung) · Term zu Sachtext angeben (Doppeltes, vermindert um) · Term zu Figur angeben (Umfang, Fläche aus Rechtecken) [OS 6] · Situation zu Term angeben · Fehler finden (Reihenfolge bei „vermindert um“ vertauscht: vier minus x statt x minus vier; Klammer beim Doppelten einer Summe vergessen) · Begründen (warum das Doppelte von x plus zwei eine Klammer braucht – Zahlenprobe auf zwei Wegen).
 Einheit 2: gleichartige Glieder zusammenfassen [OS 7–8, GYM 7–8] · Zusammenfassen mit Potenzen (x, x²) · Zahl mal Term [OS 7, GYM 7] · Term mal Term (x · x = x²) [GYM 8] · Fehler finden · Begründen (zusammenfassbar oder nicht) · Term aus Situation aufstellen und zusammenfassen.
-Einheit 3: Plusklammer weglassen · Minusklammer (alle Vorzeichen drehen) [GYM 8] · Zahl mal Klammer [OS 7–8, GYM 8] · negative Zahl mal Klammer · Klammer auflösen und zusammenfassen · Fehler finden · Begründen (Gleichwertigkeit).
+Einheit 3: Plusklammer weglassen · Minusklammer (alle Vorzeichen drehen) [GYM 8] · Zahl mal Klammer [OS 7–8, GYM 8] · negative Zahl mal Klammer · Klammer auflösen und zusammenfassen · Sachterm mit Klammer auflösen (Preis mal (Anzahl plus x); Umfang eines Rechtecks als zwei mal (a plus b)) · Fehler finden · Begründen (Gleichwertigkeit).
 Einheit 4: gemeinsamen Zahlfaktor ausklammern · Variable ausklammern · Zahl und Variable ausklammern · Umkehrung prüfen (ausmultiplizieren als Probe) · Flächeninhalt einer Figur aus zwei Rechtecken mit gemeinsamer Seite als Summe der Teilflächen und als Produkt mit Klammer angeben · gleichwertige Sachterme mit gemeinsamem Faktor erkennen (Rabatt auf jeden Preis einzeln oder auf die Summe) · Fehler finden · Begründen (warum ausgeklammerter und ausmultiplizierter Term gleichwertig sind – am Rechteckbild und durch Einsetzen einer Zahl).
 
 ### Voraussetzungen (Blatt 0)
@@ -34,6 +34,7 @@ Erkennungsschritte des Themas (Vorstufe der Einheit, vor der sie stehen, nicht a
 - Vorzahl lesen: „Welche Vorzahl hat x? −t? 0,5y?" (x = 1x, −t = −1t). Vor Einheit 2.
 - Vorzeichen als Teil des Gliedes: „Schreibe die Glieder mit ihrem Vorzeichen auf" (4x − 3y + 2 → 4x, −3y, +2). Vor Einheit 2 und 3.
 - Zeichen vor der Klammer feststellen: „Steht vor der Klammer + oder − oder eine Zahl?" Vor Einheit 3.
+- „Was steckt in jedem Glied?“ – zu Termen den Faktor einkreisen, der in jedem Glied steckt (Zahl, Variable oder beides); nichts ausklammern. Vor Einheit 4.
 
 ### Merkkasten
 Einheit 2 (Zusammenfassen):
@@ -91,6 +92,7 @@ Zuordnung: Einheit 1 – Term zu Sachtext angeben (typen.csv-Thema „Terme umfo
 - P10: kein eigenes Kontextthema; die vier Typen liegen in Einheit 1. Die Zielmarke der Einheiten 2 bis 4 stützt sich nicht auf ein Original, sondern auf die Rolle des Zusammenfassens beim Gleichungslösen – **am 10f in der Gegenlese angesehen und gesetzt** (A7-Restrisiko geschlossen): die drei Marken bleiben unter der Lehrwerkshöhe, weil die P10 aus diesem Eintrag nur das Aufstellen prüft; die LISUM-PH-Blöcke der Jg. 7 stützen sie („Erkennen gleichwertiger Terme durch Umformen“, „Klammer … auflösen und ausklammern“).
 - Einheit 4 hatte bis 10f keine Sprossenkette – der Kastenprüfer warnte, und die Einheit war für die Prüfungshöhen-Regel unsichtbar. Am 10f geklärt: die Einheit hat einen Verfahrenstyp (Ausklammern), die Kette fehlte. Sie ist gebaut, die Warnung damit erledigt.
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
+- Änderungen 2026-09-30 (Chat, Lehrer): Einheit 1 – Typen „Fehler finden“ und „Begründen“ (5.1); Einheit 3 – Typ „Sachterm mit Klammer auflösen“ (5.2); neuer Erkennungsschritt „Was steckt in jedem Glied?“ vor Einheit 4 (5.3).
 - Änderungen 2026-09-29 (Chat, Lehrer): Einheit 4 – zweite Vorstufe „Zerlegen mit vorgegebenem Faktor, noch ohne Klammer“ vor „Faktor vorgegeben“; Beleg: L8-86 hat den Schritt in der Musterlösung (Schritt 2 „Wir dividieren die Summanden durch ihn“, quellen/altlehrwerke-formen.md), kein Buch als eigene Aufgabe – Lehrwerksbeleg als Aufgabe offen. Nummerierung in der Bank: die Vorstufe vor dem Grundfall bleibt 0, die davor −1 (bank.md). Malnehmen (Einheit 2): „Term durch Zahl teilen“ fehlt weiter (K5, faellig.md); L8-86 führt „Division von Produkten“ als eigene Lehreinheit vor dem Ausklammern.
 - Änderungen 2026-09-28 (Urteile vom 28.09.): Einheit 4 – Vorstufe „Faktor vorgegeben, nur die Klammer füllen“. Einheit 3 – Sprosse „Minusklammer mit Zahlen auf zwei Wegen“ vor „Minusklammer zwei Glieder“. Grundlage: urteil-einbindung-2026-09-28.md.
 

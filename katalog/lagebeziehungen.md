@@ -35,7 +35,7 @@ Fertigkeiten (je Zeile: was, wofür):
 - Terme mit einem Parameter umformen und Fallunterscheidungen führen – die Scharen in Einheit 3. Sek-I-Thema terme.md; Sek-II-Nachbarthema funktionsscharen-und-ortskurven.md (der Familiengedanke). [GOST Q3 LK „auch unter Verwendung von Parametern in den Koordinaten (Scharen)“]
 - Punkte im räumlichen Koordinatensystem lesen und Bereiche deuten (Koordinatenschranken, Wandmaße) – die Bereichsprüfungen in Einheit 4. Sek-II-Nachbarthema punkte-und-strecken-im-koordinatensystem.md. [GOST Q3 L3 „koordinatisieren“; GOST-OHiMi 2.3]
 Erkennungsschritte (Vorstufe der Einheit, vor der sie stehen, nicht auf Blatt 0; eine Hauptnummer je Schritt):
-- „Wer und wogegen?“ – zu Aufgabentexten ankreuzen, welche Objekte beteiligt sind (Punkt gegen Ebene, Gerade gegen Ebene) und welche Gleichung die Prüfregel ist; nichts rechnen. Vor Einheit 1 und 3. [GOST Q3 L3 „Lagebeziehungen zwischen: …“; Rohdatei: Klassen Punkt und Ebene, Gerade und Ebene]
+- „Wer und wogegen?“ – zu Aufgabentexten ankreuzen, welche Objekte beteiligt sind (Punkt gegen Ebene, Gerade gegen Ebene) und welche Gleichung die Prüfregel ist; nichts rechnen. Vor Einheit 1 bis 3. [GOST Q3 L3 „Lagebeziehungen zwischen: …“; Rohdatei: Klassen Punkt und Ebene, Gerade und Ebene]
 
 ### Merkkasten
 Einheit 1 (Punktprobe und Seitenlage):
@@ -115,6 +115,7 @@ Zielmarke: Einheit 1 – abi: die Punktprobe an der Parameterform (2021-be-gk-A1
 - Notation: Ebenen E, L, S, T, W (Hefte und Pool), Geraden g, h, Scharen g_a, E_t, Pyramiden A B_t C_t D_t S_t; Punktproben mit „einsetzen“ ausgeschrieben; Punkte P(2 | 0 | 23) mit senkrechtem Strich (Pool (2; 0; 23), Hefte (1 ¦ 1,5 ¦ 7)); Koordinaten x, y, z neben x₁, x₂, x₃ wie bei den Nachbarthemen; „echt parallel“ wie im abi-Katalog; „Durchstoßpunkt“ (Rohdatei) neben „Spurpunkt“ (bei Koordinatenebenen, → schnittmengen.md); Unicode-Minus, Dezimalkomma wie im Heft.
 - Kastenzahlen: Kasten 1 (E: 3x − 2y = 0, Punkt (1 | 1,5 | 7), 3 − 3 = 0) sperrt 0, 1, 2, 3, 7, 1,5; Kasten 2 (12x + 20y + tz = 60, C(0 | 0 | 4), 4t = 60, t = 15) sperrt 0, 4, 12, 15, 20, 60; Kasten 3 (g: x = (0 | 1 | 1) + λ · (1 | 0 | −1), E: x + y + z = 2) sperrt 0, 1, 2; Kasten 4 ist zahlenfrei. Sprossen, Blatt-0-Zeilen und Grundvorstellung sind ziffernfrei (Zahlwörter; Original-ids und Belegklammern zählen nicht als Zahlen). Skript-Lauf `_pruef_katalog.py lagebeziehungen.md` (2026-09-20): Treffer in Sprossen oder Blatt 0: keine, ERGEBNIS ok.
 - Prüfskripte: `_pruef_struktur.py` prüft die abi- und iqb-ids gegen die Kataloge und zählt sie in Kennzahl 5 und 6; alle 43 ids der Rohdatei stehen im Eintrag (seit dem Nachzug 2026-09-28; die fünf neuen im Muster). `_pruef_katalog.py` prüft im Sek-II-Modus Zählzeile und Profillisten gegen themen.csv. `index.md` Sek-II-Tabelle nachgezogen.
+- Änderungen 2026-09-30 (Chat, Lehrer): Erkennungsschritt „Wer und wogegen?“ vor Einheit 1 bis 3 (15.1).
 - Änderungen 2026-09-29 (Urteile vom 28.09.): Einheit 1 – Sprosse „Seite gegen den Ursprung“ vor dem Seitenargument. Einheit 3 – Kontrollzeile „den Schnittpunkt in die Ebenengleichung einsetzen“ als Schluss der einzigen Sprosse mit Schnittpunkt (Prüfungshöhe). Grundlage: urteil-einbindung-2026-09-28.md, Teil C (Altlehrwerke Sek II).
 
 ## Prüfliste (vor Status „gegengelesen“)

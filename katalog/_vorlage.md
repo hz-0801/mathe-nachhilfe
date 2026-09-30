@@ -34,6 +34,7 @@ Mindeststoff (D/E) [RLP]: [welche Einheiten/Typen]
 Grundvorstellung (Blatt 0) [MO, INKL]: [eine Aufgabe, die die Vorstellung prüft, nicht die Fertigkeit]
 Sprossen je Verfahrenstyp (Reihenfolge = Kette des Hauptblatts) [INKL, LS, FD]:
 - [Typ]: Grundfall (4×) → [Merkmal] → [Merkmal] → … → Prüfungshöhe: [...]
+Marken an einer Sprosse: „(Vorrat)“ heißt: nicht Mindeststoff (Prüfliste unten). „(kein P10-Stoff)“ heißt: regulärer Schulstoff, nicht Teil der P10-Vorbereitung; das Prüfungsheft lässt die Sprosse aus, das Unterrichtsblatt führt sie (Entscheidung 30.09.2026, binomische-formeln.md Einheit 2, dritte Formel).
 
 ### Prüfungsform
 [P10-Typen aus typen.csv mit Zuordnung zu Einheiten; bei GOST: IQB-Pool/Prüfungsschwerpunkte; bei FOS: FHR-Schwerpunkte]
