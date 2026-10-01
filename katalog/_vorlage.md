@@ -8,6 +8,7 @@ Status: leer · Stufe: [Sek I / GOST / FOS] · Bildungsgänge: [...] · gegengel
 ### Lerneinheiten
 1. [Name – Inhalt in einem Satz] (Kl.) ← Eingabe „[stichwort]"
 2. …
+Blattfolge: n, n, … (optional; Reihenfolge der Einheiten auf dem Lernblatt; fehlt sie, gilt die Katalogreihenfolge)
 Eingabe „[thema]" ohne Zusatz → [Dialog / direkt Einheit n].
 
 ### Typen je Lerneinheit
