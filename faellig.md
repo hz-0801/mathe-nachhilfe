@@ -134,7 +134,6 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Katalog klein: terme Z. 21 zweideutig; binomialverteilung E5-Vorstufe = Z. 43; skalarprodukt 2019-be-gk-B3.2c doppelt; kurvenuntersuchung Erkennungsschritt in E3; marken-bau.py quadratische-gleichungen; funktionsklassen CAS-Nachtrag in die Ketten | nächster Katalogauftrag | Claude | uebergabe.md § 5 |
 | katalog: sieben Einträge auf die neuen Terme-Nummern umstellen – „terme.md Einheit 1“ in index.md, lineare-funktionen, prozentrechnung, lineare-gleichungen, kreis; „Einheit 2“ in reelle-zahlen, binomische-formeln; Grundlage katalog/_terme-zuordnung-2026-10-01.md | vor dem nächsten Blatt aus einem dieser Einträge; kleiner Sonnet-Auftrag | Claude | uebergabe.md 2026-10-01b § 5 |
 | katalog: werkzeuge/marken-bau.py für terme erst wieder laufen lassen, wenn _klassen-belege.md und _pruefungswort-belege.md sechs Einheiten führen; bis dahin sind die Marken-Zeilen von Hand übertragen | vor dem nächsten marken-bau-Lauf | Claude | uebergabe.md 2026-10-01b § 5 |
-| aufgabenbank: Bank-Nachzug Terme auf die sechs Einheiten (Zuordnungsdatei), 51 Muster-4-Zeilen und 44 Zeilen neu.jsonl, Prüfskript 0/0, Mappe neu | nächster Chat, Schritt 2 | Claude | uebergabe.md 2026-10-01b § 6 |
 
 ## 3 Liegt beim Lehrer
 
@@ -155,6 +154,7 @@ Beim Anlegen leer. Je Zeile: Datum · was · wer.
 
 | Datum | Was | Wer |
 |---|---|---|
+| 2026-10-01 | Bank-Nachzug Terme auf die sechs Einheiten (aufgabenbank 5e8baab Mappe auf Katalog 9e85c1e; c9ebcb4…20811c4 zone, e1–e6; 0b1ce85 Eingang; affc574 muster; a7f5890 stand): 239 alte Zeilen übernommen (1 umgeschrieben, 0 entfallen), 31 von 32 Zeilen aus eingang/terme-2026-10-01/neu.jsonl übernommen (Nr. 32 Dublette), 84 neu; 354 Zeilen, alle 81 Sprossen belegt, bank-pruef.py --katalog 0 Abweichungen, 6 Mengenwarnungen; _punkte.csv 6 ids nachgezogen. Die 51 Muster-4-Zeilen (% NEU) sind nicht eingelesen – die Sprossen sind mit eigenen Zeilen gefüllt; der ältere Posten „Bank terme nachziehen“ in § 2 nennt sie noch. Befund in bank/terme/stand.md: Prüfungshöhe mitten in vier Ketten gegen bank.md „Prüfungssprosse die letzte“ | Claude (Opus-Agent) |
 | 2026-09-30 | Nachbesserungen Bank (455 Gerüste, drei Zeilen, „ohne genau zu rechnen“); Katalogauftrag aus 66 stand.md-Befunden (Vorschlagsdatei cd4e10b, Umsetzung db8d2a3, bank.md 30b, mappe.py, 72 Mappen); Bank-Nachtrag in 16 Einträgen, _punkte.csv 63 Urteile (546d722); Marke „(kein P10-Stoff)“; kandidaten.md 30b | Claude (Agenten), Lehrer (Urteile) |
 | 2026-09-30 | Kontingent-Messwerte: 08:40 Woche 41 %, Fable 21 %; 13:00 Woche 42 %, Fable 24 % (ein Opus-Agent 0,16 Mio); abends Woche 53 %, Fable 46 % nach 3,3 Mio Fable-Agenten – Fable-Agenten zahlen beides | Lehrer (Ablesen) |
 | 2026-09-29 | Bank-Nachzug aller 24 Einträge aus bericht-katalog-nachzug.md (Prüfstein terme, Schübe 1–4 als Unteragenten), bank.md 29b, Vorlage 29e, bank-pruef.py v0.10, _punkte.csv nachgezogen; Vorstufen-Lauf über die DDR-Schreibformen (sieben Katalogänderungen) | Claude (Chat und Agenten) |
