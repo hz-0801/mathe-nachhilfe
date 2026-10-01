@@ -1,167 +1,142 @@
-# Übergabe verbessereBlaetter – 2026-10-01 (Chat 30.09. abends bis 01.10. mittags)
+# Übergabe verbessereBlaetter – 2026-10-01b (Chat 01.10. nachmittags bis abends)
 
-Vorherige Übergabe: archiv/uebergabe-2026-09-30b.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-01.md.
 
 ## 1 Ziel
 
 Der bestmögliche Themenkatalog, die Aufgabenbank und die Prompts,
 damit aus wenigen Wörtern druckfertige Blätter entstehen. Maßstab
-ist ziel.md (28.09.) mit den Revisionen vom 01.10. (§ 4); Leitbild:
-ein Blatt für alle Schüler, aus der Bank zusammengesetzt, der Chat
-deutet, setzt und ergänzt.
+ist ziel.md (28.09.) mit den Revisionen vom 01.10. (Übergabe
+2026-10-01 § 4, dort noch nicht nachgetragen); Leitbild: ein Blatt
+für alle Schüler, aus der Bank zusammengesetzt, der Chat deutet,
+setzt und ergänzt. Neu seit heute: Blätter sollen schnell aus der
+Bank kommen, und was ein Blatt-Chat neu erfindet, landet nach
+Prüfung in der Bank (Lehrer 01.10.).
 
 ## 2 Arbeitsgrundlage
 
-- aufgabenbank: `bau/terme/muster-2026-10-01/muster4.tex` und
-  `.pdf` – das Zielblatt (Form und Aufbau des Lernblatts, Beschluss
-  des Lehrers 01.10.); `bericht.md` dort (Abschnitte Muster 1–4,
-  Vorschlagsliste 30 Katalogsprossen, Zählung Bank/geändert/neu).
-  `werkzeuge/zusammenbau.py` v1.2 (Lernblatt-Rezept nach vier
-  Läufen, TER-L4 bis TER-L7; baut noch nicht nach Muster 4);
-  `werkzeuge/zusammenbau.md` v1.2; `bau/regal/ich-kann.csv` mit
-  Spalte `titel`; `bau/layout-befunde.md` mit Abschnitt „Befunde
-  des Lehrers 01.10.“. Bank unverändert 15 351 Zeilen; Mappe terme
-  mit Blattfolge (Katalog bbcf2d4).
-- mathe-nachhilfe: `katalog/terme.md` mit Zeile „Blattfolge:
-  2, 3, 4, 1“ (cd23bd9, PR #1 gemergt), `katalog/_vorlage.md` mit
-  der optionalen Zeile; ziel.md 28.09. – noch ohne die Revisionen
-  aus § 4 (Posten).
-- Bank-Prompt v5.0 (Test 01.10.): im Chat als Block ausgegeben,
-  als Projektanweisung im neuen Projekt „erzeugeBlatt(Bank)“ des
-  Lehrers; noch nicht im Repo blattbau (Posten). Erster Test
-  „terme“: 7 Seiten, 113 Teilaufgaben (69 Bank, 44 neu), 118
-  Proben, 0 Fehler; Archiv `Terme_2026-10-01_protokoll.zip` beim
-  Lehrer (neu.jsonl mit den 44 erfundenen Zeilen).
-- blattbau unverändert: unterrichtsblatt.md v4.4, pruefungsblatt.md
-  v0.15 bleiben eingefroren als Reserve (Beschluss 30.09.).
-- anweisungen: projekt-verbessereBlaetter.md 2026-09-30,
-  kandidaten.md 2026-09-30b (zwei neue Kandidaten in § 4, noch
-  nicht eingetragen).
+- mathe-nachhilfe: `katalog/terme.md` mit sechs Einheiten
+  (Zusammenfassen, Malnehmen, Klammern auflösen, Ausklammern,
+  Termwerte, Aufstellen; Commits 84abe58 und 9e85c1e) – 81
+  Sprossen, 68 davon „(Stufe)“ (Regelfall), Merkkästen in der
+  Muster-4-Form; `katalog/_terme-zuordnung-2026-10-01.md` – die
+  Tabelle alt → neu, auf der der Bank-Nachzug aufsetzt (Bank-
+  Kennungen hängen noch an der alten Gliederung).
+- aufgabenbank unverändert: `bau/terme/muster-2026-10-01/muster4.tex`
+  (Zielblatt), `bericht.md` dort, `werkzeuge/zusammenbau.py` v1.2
+  (kennt Muster 4 nicht), Bank 15 351 Zeilen.
+- Bank-Prompt v5.0: nur als Projektanweisung in erzeugeBlatt(Bank),
+  nicht im Repo blattbau.
+- anweisungen: `projekt-verbessereBlaetter.md` 2026-10-01,
+  `kandidaten.md` 2026-10-01.
 
 ## 3 Arbeitsstand
 
-Erledigt 30.09. abends bis 01.10.:
-- Vier Skriptläufe am Lernblatt-Rezept (v0.9–v1.2: Mengen, Satz
-  wie Kompetenzblatt, Auftrag einmal, Ich-kann-Titel, dann wieder
-  weg; Zweigzeile weg; Test, Prüfe dich, Kästen, Dichteregeln).
-  Ergebnis: Layoutregeln lösen das Blatt nicht; die Ursache lag
-  in Katalog (feine Leiter, Decke P10 FOR) und fehlendem Ermessen
-  des Skripts.
-- Musterblatt Terme von Hand (vier Fassungen, Muster 4 ist Ziel):
-  Blatt 0 halbe Seite; sechs Einheiten (Zusammenfassen, Malnehmen,
-  Klammern, Ausklammern, Termwerte, Aufstellen); Merkkasten je
-  Einheit (Fall – Beispiel – Ergebnis fett, „Wichtig“ als Rechnung);
-  je Verfahren eine Nummer von leicht bis schwer, hinten Marken
-  „P10 ’25“/„GYM“; a) vorgerechnet nur, wo es den Weg zeigt;
-  Abschluss (drei Teilaufgaben) nur bei Einheiten mit mehreren
-  Verfahren; „Zum Schluss“ (je Einheit eine, zwei markierte);
-  Lösungen hinten, nur Ergebnis, „falsch → Nr. n“; Kopf nur Thema,
-  Fuß „Seite n von m“.
-- Bank-Prompt v5.0 geschrieben und vom Lehrer getestet (oben).
-- Katalog: Blattfolge-Zeile für terme und Vorlage.
-- Messwerte Kontingent: Woche 54 % (30.09. abends) → 58 % (01.10.
-  mittags) für drei Skriptläufe à 0,4 Mio und den Chat; Fable 48 →
-  51 % nur durch den Chat. Fortgesetzte Agenten (SendMessage an
-  denselben Agenten) kosteten deutlich weniger als neue (Muster 2–3
-  je unter 0,1 Mio geschätzt, Muster 4 als neuer Agent 0,14 Mio).
+Erledigt 01.10. nachmittags bis abends:
+- Katalog Terme umgebaut (Opus-Agent, 0,24 Mio Token; Schätzung
+  war 0,15). Alle 30 Sprossen der Vorschlagsliste eingeordnet, alle
+  110 Teilaufgaben von Muster 4 finden eine Stufe. Folgeänderung
+  als fortgesetzter Agent: P10 ’25 (2025-GYM-B2a) als Prüfungshöhe
+  der Kette Zusammenfassen statt Termwerte (Lehrer: Option B).
+- Schreibweg gemessen: Diese Cloud-Sitzung hatte kein Schreibrecht
+  auf die Repos (Proxy 403; nachträgliches Anhängen abgelehnt),
+  obwohl alle Repos von hz-0801 für Claude mit Schreibrecht
+  freigegeben sind. Ersatzweg eingerichtet: Ordner
+  `mathe-nachhilfe` auf dem Rechner freigegeben, Patch per
+  `git am` dort eingespielt, Push durch den Lehrer. Push aus der
+  abgeschotteten Rechner-Umgebung geht nicht (keine GitHub-
+  Anmeldung dort).
+- Messwerte: Woche 58 % (mittags) → 64 % (vor dem Agenten), Fable
+  51 → 61 % allein durch diesen Chat bis dahin; Stand nach den
+  Agenten nicht abgelesen.
 
-Nicht erledigt: Katalog Terme neu schneiden; Bank-Nachzug aus
-Muster und Test; Skript auf Muster 4; Prompt v5.1; Nachzug der 48;
-Gegenlese; kandidaten.md.
+Nicht erledigt: Bank-Nachzug Terme; Prompt v5.1; Skript auf
+Muster 4; Nachzug der 48; ziel.md-Revisionen; Verweise anderer
+Einträge auf die alten Terme-Nummern.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
 Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
 
-- Drei Prompts (30.09.): Bank-Prompt als Alltagsprompt (eigenes
-  Projekt), die alten beiden eingefroren als Reserve ohne Bank;
-  kein Umbau der alten Prompts mehr.
-- Bank-Prompt baut im Chat von Hand nach Muster 4 (01.10.): Bank-
-  zeilen holen, Blatt setzen, Fehlendes erfinden, nachrechnen,
-  PDF; Erfundenes als neu.jsonl im Protokoll-Archiv, der Nachzug
-  übernimmt es (kein Rückschreiben aus dem Blatt-Chat, bis das
-  Schreibrecht gemessen ist). Das Skript ist der spätere
-  Kostensparer, nicht die Voraussetzung.
-- Revisionen an ziel.md (Lehrer 01.10., in ziel.md noch
-  nachzutragen): keine Zeitmarken, keine Zweigzeile, kein
-  Inhaltsverzeichnis, kein „Ich kann“ in Titeln; Marken „P10 ’JJ“,
-  „GYM“ (Sek II „Abi ’JJ“, „LK“, „FHR ’JJ“) statt Stern und
-  Niveauwörtern; kein Test am Kopf, dafür „Zum Schluss“; Abschluss
-  je Einheit mit mehreren Verfahren; Fehler finden nur auf Zuruf;
-  Vorstufen nur in „schwach“; Regelfall ist die grobe Leiter,
-  „schwach“ die feine; a) vorgerechnet statt Beispielkasten, nur
-  wo es den Weg zeigt; Merkkasten im Regelfall auf dem Blatt,
-  Form Fall – Beispiel – Ergebnis, Inhalt aus dem Katalog (der
-  Lehrer pflegt den Text dort; Pflegeläufe fassen ihn nicht an);
-  Lösungen nur Ergebnis, hinten, eine Datei je Bestellung;
-  Textaufgaben sparsam (je Kette eine, dazu Anwendung).
-- Bestellwörter (01.10.): „schwach“ (Form), „stark“ (Leiter
-  angehoben), „gemischt“ (nur Zum-Schluss-Aufgaben als Zettel),
-  „ohne blatt 0“, „mit lösungsweg“, „mit fehler-finden“, „mit
-  sachaufgaben“; „mehr“ bleibt Wiederholung mit neuen Zahlen.
-- Katalog Terme (01.10.): sechs Einheiten – Zusammenfassen,
-  Malnehmen, Klammern auflösen, Ausklammern, Termwerte, Aufstellen;
-  je Kette Leiter bis Gymnasialniveau (30 Sprossen aus
-  bericht.md); Kennzeichnung, welche Sprossen Stufen des Regelfalls
-  sind; Merkkasten kurz. Bank-Kennungen wandern dabei (Nachzug).
-- Terme Prüfstein-Befund: Die Bank endet überall an der Lehrwerk-
-  Grundhöhe; die obere Hälfte fehlt in allen Sek-I-Einträgen.
-  Regel für den Nachzug: Leiter bis Gymnasialniveau; drei, vier
-  Muster als Prüfstein (Prozent, lineare Funktionen, ein Sek-II-
-  Thema), nicht je Eintrag ein Muster.
-- Regel für Zurufe (01.10.): Ein Zuruf, der in einer Web-Sitzung
-  landen kann, sagt „Commit auf main, kein Branch, kein PR“; ein
-  PR-Merge lässt sich aus dieser Sitzung nicht ausführen (Sperre).
-- Kandidaten für kandidaten.md (Lehrer 01.10.): „Knöpfe, die
-  Claude selbst drücken kann (Merge, Push, Fetch), drückt Claude;
-  der Lehrer bekommt nur Handgriffe, die eine Sitzung nicht
-  ausführen kann.“ – „Erst Exemplar, dann Regel gilt auch für
-  Layout: ein von Hand gesetztes Musterblatt vor jeder Regelrunde;
-  jedes Blatt ganz ansehen, bevor es der Lehrer bekommt.“ –
-  „Fortgesetzte Agenten statt neue: ein Agent, der die Dateien
-  schon kennt, kostet je Folgelauf einen Bruchteil.“
-- Modellwahl: Katalog- und Bankaufträge als Opus-Agenten aus dem
-  Chat, Muster-Läufe ebenso; Blatt-Chats Opus.
+- Schreibrecht hat eine Sitzung nur, wenn das Repo beim Start
+  gewählt wurde (Messwert 01.10.). Der Werkstatt-Chat wird deshalb
+  in der Desktop-App mit Repo `mathe-nachhilfe` gestartet; erster
+  Handgriff im neuen Chat ist ein Mess-Commit (eine Zeile in
+  faellig.md) mit Push durch Claude, und ein zweiter nach
+  `aufgabenbank`. Gelingt das nicht: Patch-Weg wie oben, Push durch
+  den Lehrer; Ordnerfreigabe über den Dialog, den Claude auslöst.
+- Blatt-Chats laufen nicht mehr als gewöhnlicher Projekt-Chat (der
+  kann nicht einmal lesen: Sperre „externer Code“ am 01.10.),
+  sondern als Sitzung mit Repo `aufgabenbank` im Projekt
+  erzeugeBlatt(Bank). Prompt v5.1 schreibt dann selbst ins Repo:
+  Blatt und Protokoll nach `blaetter/` (Annahme: Ablage wie
+  einsortieren.py sie baut), neu erfundene Aufgaben nach
+  `bank/<eintrag>/eingang.jsonl` – nie direkt in `e<n>.jsonl`.
+  Ein Agent der Werkstatt prüft den Eingang (Prüfskript, Dubletten,
+  Sprosse aus dem Katalog), der Chat sagt in zwei, drei Sätzen,
+  was dazukommt, der Lehrer sagt ja, der Agent übernimmt. Lehrer
+  01.10.: „in Bank schreiben, beurteilt“.
+- Unveränderliches (mathblatt.sty, Anleitung_mathblatt.md,
+  muster4.tex) kommt als Projektdatei nach erzeugeBlatt(Bank), damit
+  kein Code über das Netz geladen werden muss (Annahme, bis ein
+  Blatt-Chat sie bestätigt).
+- Katalog Terme: P10 ’25 steht oben in der Kette Zusammenfassen
+  (Option B); Termwerte endet ohne Prüfungsmarke. Vorstufen sind
+  Stufe, wo Muster 4 sie zeigt (Nr. 5 a/b); die Regel „Vorstufen
+  nur in schwach“ gilt für die übrigen.
+- Kontingent: kein Zukauf als Plan. Zukauf wird zu API-Preisen
+  abgerechnet (support.claude.com, Artikel 12429409) und bringt je
+  Token schätzungsweise ein Fünftel bis ein Zehntel der Abo-
+  Leistung; nur als Reserve, wenn eine Woche am Freitag leer ist.
+  Plan: Rest dieser Woche Bank-Nachzug Terme und Prompt v5.1; ab
+  Montag 18:00 der Nachzug der 48 in Schüben mit Ablesen.
+- Modellwahl: Katalog-, Bank- und Prompt-Aufträge als Opus-Agenten
+  aus dem Chat; Mechanik (Verweise umnummerieren) Sonnet; Blatt-
+  Chats Opus. Fortgesetzte Agenten vor neuen.
+- Kandidaten für kandidaten.md: eingetragen (2026-10-01).
 
 ## 5 Offene Punkte und Verworfenes
 
-- Skript v1.2 kennt Muster 4 nicht (Kopf/Fuß, Abschluss, Zum
-  Schluss, Marken, Kasten-Form, a) nur mit Weg, Rabatt-Anwendung
-  zurück in Nr. 14); Spaltenbreite der Felder nach dem zweit-
-  längsten Term; bei ≥ 2 Verfahren Rechenketten getrennt.
-- Prompt v5.0: Satz „Begründen und Anwendung gehören in den
-  Abschluss“ fehlt; Notbehelf „höchstens acht Teilaufgaben je
-  Nummer“ bis der Katalog Stufen markiert; Abwechslung im
-  Abschluss (Zuordnen, Welcher Term ist falsch, Figur) statt
-  dreimal Textaufgabe; Prompt als `bankblatt.md` v5.0 nach
-  blattbau (Schreibzugriff auf blattbau aus der Sitzung einmal
-  anlegen); Wiederholbarkeit: 44 erfundene Zeilen je Lauf anders,
-  bis die Bank sie hat.
-- Mappe terme nennt als Katalogstand bbcf2d4 (Merge-Commit).
-- Alte Posten aus 2026-09-30b bleiben: Zusammenbau „kein P10-
-  Stoff“, Bausteine, Prüfskript v0.13, Katalog klein, Gegenlese,
-  funktionsklassen CAS, K2–K7, Nachzug der 48 ab Montag 18:00.
+- Sieben Einträge verweisen noch auf die alten Terme-Nummern
+  („terme.md Einheit 1“ in index.md, lineare-funktionen,
+  prozentrechnung, lineare-gleichungen, kreis; „Einheit 2“ in
+  reelle-zahlen, binomische-formeln). Kleiner Sonnet-Auftrag mit
+  der Zuordnungsdatei.
+- `werkzeuge/marken-bau.py` darf für terme erst laufen, wenn
+  `_klassen-belege.md` und `_pruefungswort-belege.md` sechs
+  Einheiten führen; die Marken-Zeilen sind von Hand übertragen.
+- Terme: Malnehmen S8/S9 liegen über der alten Zielmarke ohne GYM
+  (Muster zeigt es so); 2022-GYM-B2b ohne Sprossen-Marke
+  (binomische Formel darin); Kastenprüfer meldet weiter die
+  Blatt-0-Beispiele „3 − 7“ und „3 · (−4)“.
+- Prompt v5.1 (zu den Posten aus 2026-10-01 § 5): Leseweg in
+  Stufen (Raw-URL als Text, Clone nur mit Shell, bei Sperre
+  Dateiliste statt Frage); Mappenname aus dem Katalog; Schreiben
+  ins Repo nach § 4; „Begründen und Anwendung in den Abschluss“;
+  Abwechslung im Abschluss; als `bankblatt.md` nach blattbau.
+- neu.jsonl des Terme-Tests (44 Zeilen): liegt beim Lehrer im
+  Archiv `Terme_2026-10-01_protokoll.zip`, noch nicht im Repo.
+- Alte Posten bleiben: Skript v1.2 auf Muster 4; Mappe terme nennt
+  Katalogstand bbcf2d4; Zusammenbau „kein P10-Stoff“; Bausteine;
+  Prüfskript v0.13; Katalog klein; Gegenlese; funktionsklassen CAS;
+  K2–K7; ziel.md-Revisionen; kandidaten-Durchsicht.
 
-Verworfen: Layoutregeln am Skript ohne Muster (vier Läufe, kein
-Fortschritt im Urteil des Lehrers); Kompetenzblatt als Grundeinheit
-des Lernblatts (Lehrer: Lernblatt/Fokus/Blatt 0 sind die Begriffe);
-Test am Kopf der Einheit und „Für Schnelle“ (ersetzt durch Leiter
-mit Marken und Zum Schluss); graue Kästen; Zeitmarke, Zweigzeile,
-Inhaltsverzeichnis, „Ich kann“; Fehler finden als Pflicht.
+Verworfen heute: Weg 2 des Blatt-Chats (ohne Bank und Stilpaket
+bauen) – widerspricht dem Ziel, erfundene Aufgaben trotz Bank;
+Zukauf als Weg zum Fertigwerden – zu teuer je Token; zweites
+Max-Konto – zwei getrennte Welten, Bedingungen ungeklärt.
 
 ## 6 Nächster Arbeitsschritt
 
-1. Katalogauftrag Terme (Opus-Agent, eigener Klon, Repo
-   mathe-nachhilfe): sechs Einheiten nach § 4, die 30 Sprossen aus
-   bericht.md eingeordnet, Merkkasten je Einheit auf Kurzform,
-   Stufen des Regelfalls markiert (Form der Markierung im Auftrag
-   festlegen, z. B. „(Stufe)“ an der Sprosse); Commit auf main.
-   Dann Bank-Nachzug terme (aufgabenbank): Kennungen auf die neuen
+1. Mess-Commit aus dem neuen Chat (eine Zeile in faellig.md,
+   Push durch Claude); dann `aufgabenbank` anhängen und ebenso
+   messen. Vorher Nutzungsanzeige ablesen.
+2. Bank-Nachzug Terme (Opus-Agent, eigener Klon aufgabenbank):
+   Kennungen nach `_terme-zuordnung-2026-10-01.md` auf die sechs
    Einheiten, die 51 Muster-4-Zeilen und die 44 Zeilen aus
-   neu.jsonl des Tests (Lehrer liefert das Archiv) als Bankzeilen,
-   Prüfskript 0/0, Mappe neu. Vorher Nutzungsanzeige.
-2. Prompt v5.1 (Abschnitt § 5), als Block für das Projekt und als
-   Datei nach blattbau.
-3. Danach: Skript auf Muster 4; Nachzug der 48 ab Montag mit der
-   Regel „Leiter bis Gymnasialniveau“; ziel.md-Revisionen
-   nachtragen; kandidaten.md.
+   neu.jsonl (Lehrer legt das Archiv in den Chat) als Bankzeilen,
+   Prüfskript 0/0, Mappe neu, Commit und Push durch den Agenten.
+3. Prompt v5.1 (§ 5) als Block für erzeugeBlatt(Bank) und als
+   `bankblatt.md` nach blattbau; dazu die Projektdateien (§ 4).
+4. Danach: Verweise-Auftrag (Sonnet), Skript auf Muster 4, Nachzug
+   der 48 ab Montag 18:00.
