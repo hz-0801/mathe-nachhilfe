@@ -45,7 +45,7 @@ Neue Ketten: E1-K1 Gleichartige Glieder erkennen (aus dem Erkennungsschritt) · 
 | terme-e2-k4-s1 … s8 | Zusammenfassen 1–8 | E1-K2-S1 … S8 | S1–S5 ja, S6–S8 nein | |
 | terme-e2-k4-s9 | Hochzahl 2 getrennt | E1-K2-S10 | ja | |
 | terme-e2-k4-s10 | Dezimalzahl als Vorzahl | E1-K2-S11 | nein | |
-| terme-e2-k4-s11 | Prüfungsform: trennen, zusammenfassen, einsetzen | E5-K1-S7 (Prüfungshöhe der Kette Termwert) | ja | P10 ’25 |
+| terme-e2-k4-s11 | Prüfungsform: trennen, zusammenfassen, einsetzen | E1-K2-S15 (Prüfungshöhe der Kette Zusammenfassen, oberste Sprosse; Lehrer 01.10.) | ja | P10 ’25 |
 | terme-e2-k5-s1 … s5 | Malnehmen 1–5 | E2-K1-S1 … S5 | ja | |
 | terme-e2-k5-s6 | drei Faktoren | E2-K1-S6 | nein | |
 | terme-e2-k5-s7 | Zielmarke: Vorzeichen und zwei Variablen | E2-K1-S7 | ja | |
@@ -135,7 +135,7 @@ Blatt 0 (Nr. 1–4, 15 Teilaufgaben): Voraussetzungen, Fertigkeiten 1–4 (zone 
 | 12 | a, b, c E3-K3-S1 · d, e S2 · f S3 · g S4 · h S6 · i S7 · j S8 |
 | 13 Abschluss | a E3-K3-S1 (Mischung) · b E3-K3-S3 (Mischung) · c E3-K3-S5 |
 | 14 | a, b E4-K1-S1 · c S2 · d S3 · e S4 · f S5 · g S8 · h S9 · i S10 · j S12 · k S13 · l S14 |
-| 15 | a E5-K1-S1 · b, c S2 · d S3 · e S4 · f S5 · g S6 · h S7 |
+| 15 | a E5-K1-S1 · b, c S2 · d S3 · e S4 · f S5 · g S6 · h E1-K2-S15 |
 | 16 | a E6-K1-S2 · b S4 · c S3 · d S6 · e S9 · f S10 · g S7 |
 | 17 Abschluss | a, b E6-K1-S6 (Mischung) · c E6-K1-S8 |
-| 18 Zum Schluss | a E5-K1-S3 · b E3-K3-S2 · c E1-K2-S5 · d E4-K1-S3 · e E2-K1-S7 · f E6-K1-S8 · g E3-K3-S6 · h E5-K1-S7 |
+| 18 Zum Schluss | a E5-K1-S3 · b E3-K3-S2 · c E1-K2-S5 · d E4-K1-S3 · e E2-K1-S7 · f E6-K1-S8 · g E3-K3-S6 · h E1-K2-S15 |
