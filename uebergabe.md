@@ -84,8 +84,19 @@ Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
 - Eingangsordner: `eingang/<eintrag>-<datum>/` ist Beleg (PDF,
   Quelltext, neu.jsonl, Protokoll), keine Quelle; Blätter werden
   dort nicht zur Bank.
-- Blatt-Chats laufen mit Opus; heute liefen alle vier auf Fable
-  (Protokoll), das zahlt doppelt.
+- Modellwahl ist eine Qualitätsfrage, keine Kostenfrage: Fable zieht
+  aus dem Wochentopf wie Opus (Messwerte 30.09.: 3,3 Mio Fable =
+  11 Wochenpunkte; 0,16 Mio Opus = 1 Punkt), der Fable-Topf ist nur
+  ein zweiter Deckel, keine zweite Abbuchung. „Zahlt doppelt“ als
+  Kostenargument ist aufgehoben (Lehrer 01.10. spät). Opus bleibt
+  Regelfall, weil es nach den Vergleichen gleichauf oder besser ist.
+- Zweites Max-Konto: nach Verbraucherbedingungen (08.10.2025) und
+  Nutzungsrichtlinie (15.09.2025) nicht verboten (verboten: Konto
+  teilen, Sperren umgehen, automatisierte Wechsel); Anthropic-
+  Aussage Juli 2025: mehrere Max-Konten sind zulässig. Wenn, dann
+  als Rollenteilung (Konto A Werkstatt, Konto B Blatt-Chats), ohne
+  Wechselwerkzeuge. Entscheidung des Lehrers; Auslöser: Woche am
+  Freitag leer trotz der Hebel (Setzskript, Lesediät).
 - Kontingent: Rest der Woche nur Kleines; Großes ab Montag 18:00.
   Kein Zukauf.
 - Modellwahl nächste Phase: Lehrwerks-Abgleich als Opus-Agenten in
