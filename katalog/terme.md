@@ -14,7 +14,7 @@ Klasse 7 (Terme mit einer Variablen, Zusammenfassen, Klammern, Ausklammern), Gym
   Marken: OS Kl. 7–8 (Sekundo 8, Mathematik 2023 8, Schnittpunkt 7, Mathematik heute 8) · GYM Kl. 7–8 (LS 7, Fundamente 8, Elemente 7, mathe.delta 7) · keine P10-Aufgabe
 4. Ausklammern – gemeinsamer Zahlfaktor, gemeinsame Variable, Probe durch Ausmultiplizieren. (Kl. 7/8; Terme mit mehreren Variablen und Klammer mal Klammer → binomische-formeln.md Einheit 1)
   Marken: OS Kl. 8 · GYM Kl. 7–8 (LS 7, Fundamente 8, Elemente 7) · keine P10-Aufgabe
-
+Blattfolge: 2, 3, 4, 1
 Eingabe mit Einheit-Stichwort (zusammenfassen, klammern, ausklammern) → direkt.
 
 ### Typen je Lerneinheit
