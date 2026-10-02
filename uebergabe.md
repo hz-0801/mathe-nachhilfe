@@ -54,6 +54,14 @@ Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
   mindestens drei Originale je Zettel (verfremdet, Jahr links);
   Vorstufen immer; „schwach“ = 7 Aufgaben Kerntypen. Abgelegt
   wird erst, was der Lehrer gutheißt.
+- Selbst machen (Lehrer 03.10., mehrfach gesagt): Was der Chat
+  mit Schreibzugriff erledigen kann, erledigt er und sagt es in
+  einem Satz – Übergabe, Dateien, Commits, Projektdateien im
+  eigenen Projekt. Kein Block und keine Datei zur Kenntnis; ein
+  „Holger:“ nur, wo kein Werkzeug hinkommt (Projektanweisung und
+  Projektdateien eines anderen Projekts). Beim Umzug mit
+  Schreibzugriff: Übergabe ins Repo, im Chat ein Satz und „Neuer
+  Chat: Start.“, nicht der Codeblock der globalen Regel.
 - Schülerdaten: im Repo nur Nummern; Namen nur in der privaten
   Projektdatei. Kein Ergebnisblatt zu alten Prüfungen.
 - Kernentscheidungen kommen nach einer Weile zur Wiedervorlage
