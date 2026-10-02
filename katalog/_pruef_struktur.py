@@ -27,8 +27,10 @@
    Ziel ist entweder eine Nennung in Wortform oder eine Fertigkeit, zu der es kein Katalogthema gibt – was
    ihre Quellenklammer hergibt, steht in _blatt0-belege.md (werkzeuge/blatt0-belege.py). Die Zählregel
    wird importiert.
-9. Kennzahl 10 (seit 02.10.2026, konzept.md Entscheidung 38): Lerneinheiten mit „Gewicht:“ in der
-   Einheitszeile, je Eintrag; -v listet die Einträge, denen noch Gewichte fehlen.
+9. Kennzahl 10 (seit 02.10.2026, konzept.md Entscheidung 38, Fassung 02.10. abends): Gewichtsmarken
+   „Gewicht: Kern – …“ und „Gewicht: Rand – …“ in den Einheitszeilen; eine Einheit ohne Marke ist kein
+   Fehlen, sondern die dritte Möglichkeit. Gezählt wird außerdem die alte Form (Zahlen P/K/S, Marke „–“,
+   fehlender Halbsatz), die auf null gehört; -v listet die Zeilen in alter Form.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
 Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
 Teilaufgaben hat) werden nicht geprüft.
@@ -256,19 +258,26 @@ try:
 except (ImportError, FileNotFoundError, AttributeError):
     print('Kennzahl 9 – werkzeuge/blatt0-belege.py fehlt')
 
-# --- Kennzahl 10 (seit Leiterregeln und Gewicht, 02.10.2026, konzept.md Entscheidung 38): Einheiten mit
-# Gewicht. Zählt je Eintrag die nummerierten Zeilen im Abschnitt „Lerneinheiten“ und davon die, die
-# „Gewicht:“ tragen. Kennzahl, kein Befund: sie steigt mit dem Nachzug der Einträge auf die Regel.
-ein10 = gew10 = voll10 = 0
-teil10 = []
+# --- Kennzahl 10 (seit Leiterregeln und Gewicht, 02.10.2026, konzept.md Entscheidung 38; Fassung 02.10.
+# abends): Gewichtsmarken. Zählt je Eintrag die nummerierten Zeilen im Abschnitt „Lerneinheiten“, davon die
+# mit „Gewicht: Kern – <Halbsatz>“ bzw. „Gewicht: Rand – <Halbsatz>“, und die Zeilen in alter oder falscher
+# Form (Zahlen, „–“ als Marke, kein Halbsatz). Kennzahl, kein Befund; die alte Form gehört auf null.
+ein10 = kern10 = rand10 = mit10 = 0
+alt10 = []
 for p in eintraege:
     m = re.search(r'^### Lerneinheiten\n(.*?)(?=^##)', open(p, encoding='utf-8').read(), re.M | re.S)
     zeilen = [z for z in (m.group(1).split('\n') if m else []) if re.match(r'\d+\. ', z)]
-    g = sum('Gewicht:' in z for z in zeilen)
-    ein10 += len(zeilen); gew10 += g
-    if zeilen and g < len(zeilen): teil10.append((p, g, len(zeilen)))
-    voll10 += bool(zeilen) and g == len(zeilen)
-print(f'Kennzahl 10 – Einheiten mit Gewicht: {gew10} von {ein10} '
-      f'({voll10} von {len(eintraege)} Einträgen vollständig)')
+    ein10 += len(zeilen)
+    marken = [z for z in zeilen if 'Gewicht:' in z]
+    mit10 += bool(marken)
+    for z in marken:
+        g = re.search(r'Gewicht: (Kern|Rand) – (\S.*)$', z)
+        if g and not re.search(r'\(P \d', g.group(2)):
+            kern10 += g.group(1) == 'Kern'; rand10 += g.group(1) == 'Rand'
+        else:
+            alt10.append((p, z.split('.')[0], z[z.index('Gewicht:'):][:60]))
+print(f'Kennzahl 10 – Gewichtsmarken: {kern10} Kern, {rand10} Rand, {ein10 - kern10 - rand10 - len(alt10)} '
+      f'ohne Marke von {ein10} Einheiten ({mit10} von {len(eintraege)} Einträgen mit Marke); '
+      f'alte Form: {len(alt10)}')
 if '-v' in sys.argv:
-    for p, g, n in teil10: print('   ', p, f'{g} von {n}')
+    for p, n, s in alt10: print('   ', p, 'Einheit', n, s)

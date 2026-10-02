@@ -6,9 +6,9 @@ Status: leer · Stufe: [Sek I / GOST / FOS] · Bildungsgänge: [...] · gegengel
 [Klassen, RLP-Niveaustufen mit Zitat der Inhaltszeile, Leitidee, Lehrwerkskapitel mit Lerneinheiten und Stunden] [RLP] [LS]
 
 ### Lerneinheiten
-1. [Name – Inhalt in einem Satz] (Kl.) ← Eingabe „[stichwort]" Gewicht: [Kern/–/Rand] (P n, K n, S n,n %)
+1. [Name – Inhalt in einem Satz] (Kl.) ← Eingabe „[stichwort]" · Gewicht: [Kern/Rand] – [Halbsatz mit Beleg oder Grund] (ohne Marke keine Gewicht-Angabe)
 2. …
-(Gewicht seit 02.10.2026: drei Maße, jedes für sich – P Prüfungsoriginale mit Haupttyp der Einheit (Abschnitt „Prüfungsform“), K Teilaufgaben in Klassenarbeiten (`_gewicht/ka-duden9.csv`, nur Klasse-9-Einträge), S mittlerer Seitenanteil im Lehrwerk (`_gewicht/sa-seiten.csv`). Hoch heißt: P mindestens ein Original, K bzw. S über dem Median der Einheiten desselben Eintrags; ein fehlendes Maß zählt nicht. Kern = mindestens zwei Maße hoch, Rand = keins, sonst „–“. Die Zahlen stehen immer dabei; die Marke ordnet, sie streicht nichts. Grund: ein Maß allein führt irre, konzept.md Entscheidung 38.)
+(Gewicht seit 02.10.2026 abends, konzept.md Entscheidung 38: eine Marke, keine Zahlen. Kern – die Prüfung verlangt die Einheit (P10 bei Sek I, Abitur/FHR bei Sek II), als eigener Typ oder als Schritt im Lösungsweg von Originalen anderer Einträge; der Halbsatz nennt den Beleg knapp („in der P10 als eigener Typ“, „im Lösungsweg der P10-Parabelaufgaben“). Rand – die Einheit ist ganz Vorrat oder nur Gymnasium und hat keinen Prüfungsbezug; der Halbsatz nennt den Grund. Alles andere bekommt keine Marke (Unterrichtsgrundlagen ohne eigenen Prüfungstyp sind nicht Rand). Belege: Abschnitt „Prüfungsform“, für den Lösungsweg die Felder verfahren und schritte der Prüfungskataloge (per Skript durchsuchen); die Zählungen in `_gewicht/` sind Beleg, kein Pflichtmaß. Blattregel: Wo Zweige nicht aufeinander aufbauen, stehen Kern-Zweige vorn, Rand-Zweige am Ende; innerhalb einer Kette bleibt die Leiter. Die Marke ordnet, sie streicht nichts; der Lehrer korrigiert eine falsche Marke auf Zuruf.)
 Blattfolge: n, n, … (optional; Reihenfolge der Einheiten auf dem Lernblatt; fehlt sie, gilt die Katalogreihenfolge)
 Eingabe „[thema]" ohne Zusatz → [Dialog / direkt Einheit n].
 
@@ -51,7 +51,7 @@ Zielmarke: Einheit 1 – [Prüfungshöhe in einem Satz, mit Original-id]; Einhei
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
-- [ ] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen sparsam am Ende der Kette (höchstens eine Sprosse); Gewicht je Einheit mit den drei Zahlen (Regel 02.10.2026).
+- [ ] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen sparsam am Ende der Kette (höchstens eine Sprosse); Gewicht je Einheit: Kern oder Rand mit Halbsatz, sonst keine Marke (Regel 02.10.2026 abends).
 - [ ] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
 - [ ] Mindeststoff (D/E) markiert; Rest ist Vorrat.
 - [ ] Grundvorstellungs-Aufgabe für Blatt 0 vorhanden.
