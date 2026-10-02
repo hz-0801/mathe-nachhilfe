@@ -36,7 +36,7 @@ Mindeststoff (D/E) [RLP]: [welche Einheiten/Typen]
 Grundvorstellung (Blatt 0) [MO, INKL]: [eine Aufgabe, die die Vorstellung prüft, nicht die Fertigkeit]
 Sprossen je Verfahrenstyp (Reihenfolge = Kette des Hauptblatts) [INKL, LS, FD]:
 - [Typ]: Grundfall (4×) → [Merkmal] → [Merkmal] → … → Rückwärts: [...] → Gemischt: [...] → Prüfungshöhe: [...]
-Leiterregeln (seit 02.10.2026, konzept.md Entscheidung 38): Jede Kette hat vor der Prüfungshöhe eine Rückwärtssprosse (vom Ergebnis zur Aufgabe: Gleichung aus Lösungen bilden, Größe aus dem Ergebnis zurückrechnen, Term zu einer gegebenen Eigenschaft wählen) und eine Mischsprosse (Aufgaben ohne Vorsortierung – der Schüler entscheidet, welches Verfahren oder welcher Fall vorliegt). Krumme Zahlen (Dezimal, Bruch, negativ, gemischte Einheiten) stehen auf den oberen Sprossen, für alle Schüler und ohne [GYM]; unten bleiben die Zahlen glatt. Hat der Typ keine sinnvolle Umkehrung, steht unter „Offene Punkte“ eine Zeile mit Grund statt einer erzwungenen Sprosse.
+Leiterregeln (seit 02.10.2026, konzept.md Entscheidung 38): Jede Kette hat vor der Prüfungshöhe eine Rückwärtssprosse (vom Ergebnis zur Aufgabe: Gleichung aus Lösungen bilden, Größe aus dem Ergebnis zurückrechnen, Term zu einer gegebenen Eigenschaft wählen) und eine Mischsprosse (Aufgaben ohne Vorsortierung – der Schüler entscheidet, welches Verfahren oder welcher Fall vorliegt). Krumme Zahlen (Dezimal, Bruch, negativ, gemischte Einheiten) stehen auf den oberen Sprossen, für alle Schüler und ohne [GYM]; unten bleiben die Zahlen glatt. Sparsam (Lehrer 02.10.): je Kette höchstens eine Sprosse mit krummen Zahlen am Ende der Kette, auf dem Blatt eine Aufgabe daraus; die Bank hält die Sollmenge als Auswahl; auf dem Blatt „schwach“ nur auf Zuruf. Hat der Typ keine sinnvolle Umkehrung, steht unter „Offene Punkte“ eine Zeile mit Grund statt einer erzwungenen Sprosse.
 Marken an einer Sprosse: „(Vorrat)“ heißt: nicht Mindeststoff (Prüfliste unten). „(kein P10-Stoff)“ heißt: regulärer Schulstoff, nicht Teil der P10-Vorbereitung; das Prüfungsheft lässt die Sprosse aus, das Unterrichtsblatt führt sie (Entscheidung 30.09.2026, binomische-formeln.md Einheit 2, dritte Formel).
 
 ### Prüfungsform
@@ -51,7 +51,7 @@ Zielmarke: Einheit 1 – [Prüfungshöhe in einem Satz, mit Original-id]; Einhei
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
-- [ ] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen oben; Gewicht je Einheit mit den drei Zahlen (Regel 02.10.2026).
+- [ ] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen sparsam am Ende der Kette (höchstens eine Sprosse); Gewicht je Einheit mit den drei Zahlen (Regel 02.10.2026).
 - [ ] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
 - [ ] Mindeststoff (D/E) markiert; Rest ist Vorrat.
 - [ ] Grundvorstellungs-Aufgabe für Blatt 0 vorhanden.
