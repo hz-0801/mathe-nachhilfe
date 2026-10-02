@@ -1,172 +1,94 @@
-# Übergabe verbessereBlaetter – 2026-10-01c (Chat 01.10. abends)
+# Übergabe verbessereBlaetter – 2026-10-03 (Chat 02./03.10.)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-01b.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-01c.md.
 
 ## 1 Ziel
 
-Der bestmögliche Themenkatalog, die Aufgabenbank und die Prompts,
-damit aus wenigen Wörtern druckfertige Blätter entstehen – schnell
-und günstig, Qualität vor beidem (Lehrer 01.10.). Maßstab ist
-ziel.md (28.09.) mit den Revisionen vom 01.10. (archiv/uebergabe-
-2026-10-01.md § 4, dort noch nicht nachgetragen). Neu seit heute
-abend: Vollständigkeit und richtige Reihenfolge der Aufgaben sind
-für jeden Eintrag zu ermitteln und vom Lehrer zu bestätigen, bevor
-weiter gebaut wird; nichts wird mehr nach hinten geschoben (Lehrer
-01.10.: „ich will, dass Lücken oder ungeeignete Reihenfolge vorher
-abgeräumt werden – überall, nicht nur Terme“).
+Schnell gute Blätter für die Stunde. Schwerpunkt jetzt:
+Prüfungsblätter P10 2027, zuerst Aufgabe 1 (Basis) – ein Zettel
+je Unterrichtstermin, aus dem Skript, nicht im Chat erzeugt.
+Abitur später (2027 schreibt nur ein Schüler sicher Mathe).
 
 ## 2 Arbeitsgrundlage
 
-- mathe-nachhilfe: `katalog/` 74 Einträge; `katalog/terme.md` sechs
-  Einheiten (9e85c1e); Lehrwerksquellen für den Abgleich:
-  `quellen/lehrwerke-inhalt-bericht-2026-09.md` (acht Reihen mit
-  Inhaltsverzeichnissen aus der DNB), `quellen/lehrwerke-fundliste.md`,
-  `quellen/altlehrwerke-formen.md` (DDR-Bände, nach Eintrag
-  gegliedert, bisher nur auf Form gelesen), `quellen/altlehrwerke-
-  fundliste.md`; `befund-schwach-blatt-2026-09-24.md`,
-  `befund-foerderhefte-2026-09-24.md`.
-- aufgabenbank: Bank terme auf sechs Einheiten, 369 Zeilen, Mappe
-  auf 9e85c1e (Commits 5e8baab…4493f71); `bank.md` sechste Fassung
-  (Feld `herkunft`); `werkzeuge/bank-pruef.py` v0.13b; Eingänge
-  `eingang/terme-2026-10-01` bis `-01d` (vier Blätter, Protokolle
-  mit Übernahmeblöcken); `zusammenbau.py` v1.2 (kennt Muster 4
-  nicht); `bau/terme/muster-2026-10-01/muster4.tex` Zielblatt.
-- blattbau: `bankblatt.md` v5.3 (dde10c7, f5c60a1) = Projekt-
-  anweisung in erzeugeBlatt(Bank); `pruefungsblatt.md` v0.15 (nie im
-  Register, nicht an die Bank angebunden); CHANGELOG mit v5.0–5.3.
-- anweisungen: `projekt-verbessereBlaetter.md` 2026-10-01 – darin
-  ist die Schreibrecht-Erklärung überholt (siehe § 4); Nachzug als
-  Datei in diesem Umzug.
+- aufgabenbank: Basisvorrat `bank/_basis/` (64 Typen, 640
+  Aufgaben; typen.py, vorrat.py, stand.md); Skript
+  `werkzeuge/zusammenbau.py` v1.4 (Rezept Zettel v0.7, Serie
+  BAS-S, hoehen.csv, Schalter ist_original); maßgebliche
+  Zettelform: `bau/zettel/vorlage-2026-10-03/vorlage.tex` (+pdf;
+  Basis 1, 2, 3-schwach); bank.md siebte Fassung;
+  `eingang/gebaut.csv` (Blätter je Schülernummer).
+- mathe-nachhilfe: 16 Einträge nach Duden-Abgleich und
+  Leiterregeln umgesetzt (`katalog/_abgleich-duden9-kap1..10.md`,
+  `katalog/_gewicht/`); konzept.md Entscheidungen 38–40;
+  `msa/handreichung-p10-2027.tex/.pdf`; faellig.md.
+- blattbau: `bankblatt.md` v5.4 = Projektanweisung in
+  erzeugeBlatt(Bank) (ersetzt 03.10.).
+- Privat, nie im Repo: `Schuelerliste-privat.md` (18 Schüler,
+  Nummern S01–S18) als Projektdatei in erzeugeBlatt(Bank); der
+  Duden-PDF; Wortlaut der Prüfungsoriginale.
 
 ## 3 Arbeitsstand
 
-Erledigt 01.10. abends:
-- Schreibweg geklärt: Nicht der Sitzungsstart entscheidet, sondern
-  der Berechtigungsmodus. Auf „Auto“ lehnt der Filter das Anhängen
-  eines Repos ab; auf „Manuell“ fragt eine Karte, ein Klick, danach
-  schreibt der Chat und jeder Agent aus ihm (gemessen an drei
-  Repos). Patch-Weg über den Rechner nur noch Rückfall.
-- Kette Blatt-Chat → Bank steht: v5.1 legt Blatt und Erfindungen in
-  `eingang/`, v5.2 hängt das Repo als ersten Schritt an und
-  übernimmt die Erfindungen selbst in die Bank (Option A, Lehrer),
-  v5.3 hat den Abschnitt „schwach“ (Formregeln aus ziel.md § 2).
-- Bank-Nachzug Terme (Opus-Agent, 0,35 Mio): 239 → 354 Zeilen,
-  31 aus Blatt 1, dann 15 aus Blatt 2 → 369; 0 Abweichungen.
-- Vier Blätter Terme gebaut (alle auf Fable, nicht Opus):
-  Regelfall v5.1 (101 Teilaufgaben, 32 neu), schwach v5.1 (138, 26
-  neu), Regelfall v5.1 (93, 36 neu), schwach v5.3 (23 Seiten, 169,
-  20 neu, 17 davon Dubletten). Befunde in § 5.
-- Messwerte: Woche 68 %, Fable 69 % (abends, vor dem letzten
-  Agenten); Anzeige rechnet „leer am Samstag“ hoch.
-
-Nicht erledigt: alles in § 6; Prüfungsheft; Skript auf Muster 4;
-Nachzug der 48; ziel.md-Revisionen; Verweise auf alte Terme-Nummern.
+Erledigt 02./03.10.: Duden WÜT 9 Kap. 1–10 gegen den Katalog,
+Umsetzung in 16 Einträgen samt Bank (Opus-Agenten); Leiterregeln
+(Rückwärts- und Mischsprosse je Kette, krumme Zahlen sparsam);
+Gewicht Kern/Rand mit Halbsatz; Basisvorrat 640; Zettelvorlage
+nach vielen Runden vom Lehrer gutgeheißen (ein Blatt, keine zwei
+Spalten, Kopf nur „Basis n“, Streifen rechts, Buchstabe vor dem
+Kästchen, U groß, Jahreszahl links vor der Nummer, leichter
+Einstieg, Hilfsmittel nicht auf dem Zettel); Handreichung eine
+Seite mit QR-Code zu den alten Prüfungen; Schülerliste mit
+Nummern; v5.4 (Name → Nummer, gebaut.csv automatisch).
+Messwerte: Woche 80 %, Fable 80 % (02.10.); Reset Montag 18:00.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
 Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
 
-- Vor dem Bauen: Für jeden Katalogeintrag werden Vollständigkeit
-  (nichts fehlt, was Lehrwerke, DDR-Bände, RLP und Prüfungen üben)
-  und Reihenfolge der Sprossen ermittelt und vom Lehrer bestätigt;
-  erst danach füllt die Bank den Eintrag. Das ist ein fester Schritt
-  der Katalog-Prüfliste, kein Posten in faellig.md. Die Nachzüge
-  der 48 Einträge warten darauf. (Lehrer 01.10. abends.)
-- Schreibrecht: Werkstatt- und Blatt-Chats laufen im
-  Berechtigungsmodus „Manuell“, bis die Repo-Karte bestätigt ist;
-  danach darf der Modus zurück auf „Auto“. Ersetzt die Regel
-  „Repo beim Start wählen“ (01.10. mittags).
-- Übernahme ohne Rückfrage: Der Blatt-Chat trägt seine Erfindungen
-  selbst in die Bank ein (Prüfskript, Dubletten, Sprosse, Feld
-  herkunft); der Lehrer streicht, was ihm auf dem Blatt nicht
-  gefällt. Die Regel „Lehrer sagt ja vor der Übernahme“ ist
-  aufgehoben (Option A, Lehrer 01.10.).
-- Eingangsordner: `eingang/<eintrag>-<datum>/` ist Beleg (PDF,
-  Quelltext, neu.jsonl, Protokoll), keine Quelle; Blätter werden
-  dort nicht zur Bank.
-- Modellwahl ist eine Qualitätsfrage, keine Kostenfrage: Fable zieht
-  aus dem Wochentopf wie Opus (Messwerte 30.09.: 3,3 Mio Fable =
-  11 Wochenpunkte; 0,16 Mio Opus = 1 Punkt), der Fable-Topf ist nur
-  ein zweiter Deckel, keine zweite Abbuchung. „Zahlt doppelt“ als
-  Kostenargument ist aufgehoben (Lehrer 01.10. spät). Opus bleibt
-  Regelfall, weil es nach den Vergleichen gleichauf oder besser ist.
-- Zweites Max-Konto: nach Verbraucherbedingungen (08.10.2025) und
-  Nutzungsrichtlinie (15.09.2025) nicht verboten (verboten: Konto
-  teilen, Sperren umgehen, automatisierte Wechsel); Anthropic-
-  Aussage Juli 2025: mehrere Max-Konten sind zulässig. Wenn, dann
-  als Rollenteilung (Konto A Werkstatt, Konto B Blatt-Chats), ohne
-  Wechselwerkzeuge. Entscheidung des Lehrers; Auslöser: Woche am
-  Freitag leer trotz der Hebel (Setzskript, Lesediät).
-- Kontingent: Rest der Woche nur Kleines; Großes ab Montag 18:00.
-  Kein Zukauf.
-- Modellwahl nächste Phase: Lehrwerks-Abgleich als Opus-Agenten in
-  Schüben (Lesen ist der Kostentreiber: Inhaltsverzeichnisse, nicht
-  Seiten); Urteil je Eintrag im Chat mit dem Lehrer.
+- P10 2027: EBR (Grundkurs) und FOR (Erweiterungskurs), beide
+  135 min; Aufgabe 1 Basis in beiden gleich, mit Taschenrechner
+  und Formelsammlung; ab 2028 hilfsmittelfreier Teil.
+- Zettel: jeder steht für sich, keine Rückmeldung des Lehrers,
+  keine Serie mit Fortschritt; Nummer nur gegen Wiederholung;
+  mindestens drei Originale je Zettel (verfremdet, Jahr links);
+  Vorstufen immer; „schwach“ = 7 Aufgaben Kerntypen. Abgelegt
+  wird erst, was der Lehrer gutheißt.
+- Schülerdaten: im Repo nur Nummern; Namen nur in der privaten
+  Projektdatei. Kein Ergebnisblatt zu alten Prüfungen.
+- Kernentscheidungen kommen nach einer Weile zur Wiedervorlage
+  (konzept.md § 4); Fünf-Minuten-Test am 16.10.
+- Modellwahl: Opus im Chat und für Agenten; Großes erst nach dem
+  Reset Montag 18:00.
 
 ## 5 Offene Punkte und Verworfenes
 
-Befunde aus den vier Blättern (01.10.):
-- Erfinden statt Suchen: Der Blatt-Chat erfindet Aufgaben, die die
-  Bank an derselben Stufe hat (Blatt 3: 36 von 93 neu bei 369
-  Bankzeilen; Blatt 4: 17 von 19 Erfindungen Dubletten). Regel für
-  v5.4: je Sprosse zuerst alle Bankzeilen, erfinden nur bei leerer
-  Sprosse oder wenn alle Zeilen schon auf dem Blatt stehen.
-- „schwach“ v5.3 ergibt 23 Seiten: „keine Sprosse fällt weg“ mal
-  „Dichte ein Drittel“. Darstellung neben Dezimalvorzahlen sinnlos,
-  Rechenplatz ohne Bezug zur Schrittzahl. Vorschlag: schwach baut
-  eine Einheit je Blatt (wie DZLM-Bausteine), Darstellung nur bei
-  ganzzahligen Vorzahlen, Rechenplatz nach Schrittzahl; Lehrer
-  entscheidet.
-- Lücken im Katalog Terme gegen die DDR-Bände (altlehrwerke-formen.md,
-  Abschnitt terme): Division von Produkten (10x : 5x), Division von
-  Summen durch Monome, Beweisführungen mit Variablen, Umkehrformen
-  („Ergänze den linken Term so, dass …“), Bruchterme (Gym 9). Grund:
-  RLP, P10 und LISUM nennen Division nicht; die DDR-Bände wurden nur
-  auf Form gelesen. Gilt vermutlich für weitere Einträge → § 6.
-- Lage der Prüfungssprosse: Katalog Terme stellt sie in vier Ketten
-  vor GYM- und Abschluss-Sprossen, bank.md verlangt sie als letzte;
-  der Agent folgte bank.md. Entscheidung offen (zwei Optionen:
-  Katalog ändern oder bank.md „Prüfungssprosse = letzte“ lockern).
-- Eingänge ohne Übernahme: `eingang/terme-2026-10-01c/neu.jsonl`
-  (36 Zeilen, v5.1) ist nicht übernommen; nach dem Abgleich (§ 6)
-  prüfen, nicht vorher (sonst Dubletten).
-- bank.md: Prüfungshöhe mitten in der Kette; e3 k3/k4 Grundfälle
-  ohne Päckchen; Einheit 5 ohne Pflichtelemente (stand.md terme).
-- Prüfungsheft: pruefungsblatt.md v0.15 baut aus dem Prüfungs-
-  katalog, nie gelaufen; nach ziel.md § 4 künftig Zusatz am
-  Bank-Prompt (Prüfungssprossen und Originale in Heftform).
-  Gespräch mit dem Lehrer steht aus (nach diesem Umzug gewünscht).
-- Alte Posten bleiben: Skript v1.2 auf Muster 4; Verweise auf alte
-  Terme-Nummern (Sonnet); marken-bau.py terme; ziel.md-Revisionen;
-  Projektdateien in erzeugeBlatt(Bank) (Annahme: liegen, nicht
-  bestätigt); K2–K7; Gegenlese; kandidaten-Durchsicht.
-- Zwei Hilfszweige `_messtest` in mathe-nachhilfe und aufgabenbank
-  (Löschen aus der Sitzung nicht erlaubt); der Lehrer kann sie auf
-  GitHub löschen.
-
-Verworfen heute: Patch-Weg als Regelweg (Dialoge je Commit);
-nächtliche Sammelübernahme (Option B – Zeitverzug, Cloud-Guthaben
-ungemessen); Vorab-Füllen der Bank nach Themenplan (25 Schüler,
-Bedarf unbekannt – die Bank wächst mit den Blättern).
+- Ablage der unveränderten Originale (Wortlaut): privates Repo?
+  Mit dem Lehrer klären (faellig.md).
+- Kern-Schärfung offen: Kern = in mind. 30 % der Jahre seit 2020;
+  sortiert, filtert nicht; bei „schwach“ nur Kern.
+- Themenhefte P10: zehn Hefte nach Punkteanteil (Lineare
+  Funktionen, Quadratische Funktionen, Mittelwert/Median/
+  Spannweite, Wahrscheinlichkeit, Flächen, Volumen, Pythagoras,
+  Trigonometrie, Wachstum, Prozent) – Liste nicht bestätigt.
+- Offen in der Schülerliste: Mathekurs S02, S03, S04; Klasse S03;
+  Bildungsgang S17; Abschluss S18.
+- bankblatt v5.5: Bank vor Erfinden, krumme Zahlen sparsam, Kern
+  zuerst, Basiszettel auf Zuruf, EBR/FOR-Filter.
+- Aus 01.10. weiter offen: schwach-Länge (23 Seiten), Lage der
+  Prüfungssprosse, Eingang terme-01c ohne Übernahme, Abgleich der
+  übrigen Einträge gegen weitere Bände.
+- Verworfen: Ergebnisblatt alter Prüfungen; Zeilen zum Abtippen
+  für den Lehrer; zweispaltige Zettel; Lösungswort; Serie mit
+  Rückmeldung.
 
 ## 6 Nächster Arbeitsschritt
 
-1. Abgleich Vollständigkeit und Reihenfolge, alle 74 Einträge, in
-   Schüben ab Montag 18:00 (Opus-Agenten, je Schub etwa zehn
-   Einträge): Quellen sind die Inhaltsverzeichnisse der acht
-   Lehrwerksreihen (lehrwerke-inhalt-bericht-2026-09.md, DNB-
-   Verzeichnisse d-nb.info/<IDN>/04), die DDR-Bände (altlehrwerke-
-   formen.md, -fundliste.md), RLP-Zeilen und Prüfungskatalog. Je
-   Eintrag eine Datei `katalog/_abgleich-<eintrag>.md`: Tabelle
-   „im Lehrwerk, nicht im Katalog“ mit Quelle und Vorschlag
-   (Sprosse, Einheit, Stelle), Tabelle „Reihenfolge weicht ab“ mit
-   Begründung, Tabelle „im Katalog, in keiner Quelle“. Der Chat
-   erzählt dem Lehrer je Eintrag in wenigen Sätzen, was dem Schüler
-   fehlen würde; der Lehrer bestätigt je Zeile; dann Katalog
-   nachziehen, dann Bank. Beginn mit terme (Division u. a., § 5),
-   dann die Einträge mit Blättern (prozentrechnung, daten,
-   quadratische-gleichungen), dann der Rest.
-2. Zugleich, klein: bankblatt.md v5.4 (Bank vor Erfinden; schwach
-   je Einheit, falls der Lehrer zustimmt) – Block für
-   erzeugeBlatt(Bank) und Commit nach blattbau.
-3. Danach Gespräch Prüfungsheft (§ 5), dann Skript auf Muster 4.
+Schritt 1: Basiszettel ins Skript nach der Vorlage vom 03.10.
+(zusammenbau.py → v1.5, Rezept Zettel v0.8) und Vorrat ergänzen:
+Vorstufen-Varianten für die Kerntypen, Tipps, Stufe der
+Verfremdung je Original, Prüfungsverb vorn, Ankreuzen A–D, U
+statt u; Regeln: leichter Einstieg, verschiedene Themen, mind.
+drei Originale, schwach = 7 Aufgaben Kerntypen. Opus-Agent nach
+Montag 18:00; vorher Größe nennen. Ergebnis: zwei Probezettel
+dem Lehrer zeigen, nicht ablegen.
