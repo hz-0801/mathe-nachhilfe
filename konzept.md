@@ -78,6 +78,13 @@ Entscheidung eine Setzung ist –, und **Kippt bei** – der Befund, bei dem sie
 zu überdenken wäre. Die Entscheidungen 27–31 sind dabei aus den Profilen
 nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 
+Seit dem 02.10.2026 (Lehrer) trägt jede Kernentscheidung eine dritte Zeile:
+**Wiedervorlage** – Datum oder Anlass, zu dem sie neu bewertet wird, und woran
+(was sie bringen sollte). Bleibt die Bestätigung dann aus, steht sie wieder zur
+Entscheidung, statt aus Gewohnheit weiterzugelten (Vorbild: Verfallsklauseln
+in Gesetzen). Ältere Entscheidungen bekommen die Zeile, wenn sie das nächste
+Mal angefasst werden.
+
 1. Die Einheit ist der Aufgabentyp, nicht die Aufgabe. Ein Typ ist eine Fertigkeit, die man als Einheit übt. Das Original ist Muster und Messlatte.
     Zahl: Vorkommen je Typ – fhr 3,61 (487 Vorkommen über typ und typ_neben auf 135 Typen, fhr.md § 9), Abitur 1,69 Zeilen je Typ (2237 Zeilen auf 1323 Typen, abitur-abgleich.py Lauf 23); im Abitur ist die Einheit für den Blattbau deshalb der Schnittwert (Entscheidung 24), der Typ bleibt Feinetikett.
     Kippt bei: einer Prüfungsart, in der auch der Schnittwert unter etwa 1,5 Zeilen bleibt – dann trägt keine Einheit eine Kette aus mehreren Originalen, und das Blatt müsste vom Thema ausgehen.
@@ -195,6 +202,11 @@ nachgetragen; sie waren seit dem 14.09.2026 dort festgehalten, hier nicht.
 39. Schulform ordnet, filtert nicht – auch im Katalog (2026-10-02, entschieden vom Lehrer; Grundsatz für das Blatt in ziel.md § 1): Stoff, den nur das Gymnasium oder nur ein Lehrwerk führt, wird in den Eintrag aufgenommen und trägt seine Marke ([GYM] bzw. (Vorrat)). Nicht aufgenommen wird nur, was ein anderer Eintrag trägt (dann Verweis) oder was klar außerhalb von Klasse 7–10 liegt (dann unter „Nicht aufgenommen“ mit Verweis auf den Sek-II-Eintrag). Ausdrücklich aufzunehmen: Ungleichungen und Ungleichungssysteme, Kathetensatz und Höhensatz, negativer Streckfaktor, Intervallschachtelung, Beweise; dazu Satz von Vieta (Vorrat), Kugelabschnitt und Cavalieri, Winkel am Kreis – alle mit Marke.
     Zahl: keine Zählung – Grundsatzentscheidung aus dem Duden-Abgleich Kap. 1–10.
     Kippt bei: Blättern, die durch markierten Fremdstoff so lang werden, dass der Lehrer regelmäßig streicht – dann eine Grenze für Marken je Einheit.
+
+40. Prüfungsheft, Kern (2026-10-02, entschieden vom Lehrer): Originale der Prüfung sind Herzstück und Maßstab und werden zum Üben unverändert gezeigt; je Typ steht vorn ein Original als Test (wer es löst, springt weiter), dahinter nur bei Bedarf eine kurze Leiter aus der Aufgabenbank – nur Sprossen auf dem Weg zum Original, rückwärts von der Prüfung gebaut, nicht vorwärts vom Lehrplan; danach alle Originale des Typs nach Niveau. Im Prüfungsheft filtert die Prüfung (anders als Entscheidung 39 für Katalog und Unterrichtsblatt). Zuschnitt P10 nach Punktanteil 2014–2026 (Vorschlag, nicht entschieden): sieben Themenhefte – Lineare Funktionen 16 %, Quadratische Funktionen 10 %, Prozent und Wachstum 12 %, Dreiecke 16 %, Flächen und Körper 15 %, Statistik 10 %, Wahrscheinlichkeit 10 % – dazu Basisheft (Aufgabe 1, 9 %) und Probeprüfung. Grund: Nur Originale haben keine Leiter und zu wenig Material (neun von 14 Typen der quadratischen Funktionen mit höchstens einem Original); nur Leiter lehrt wie ein Übungsbuch mehr als die Prüfung verlangt. Revidiert damit blatt-konzept.md § 6 („verfremdetes Original ist Standard-Decke“; verfremdet nur noch für Wiederholung und Probeprüfung) und die Deckenwahl über „Merkmale“ (§ 7), die entfällt, wenn alle Originale nach Niveau im Heft stehen.
+   Zahl: 418 Teilaufgaben, 820 Punkte, P10 2014–2026 (msa-katalog-basis.csv, msa-katalog-kontext.csv).
+   Kippt bei: Schüler, die den Test am Typanfang nicht bestehen, schaffen die Originale auch nach der Leiter nicht (dann ist die Leiter zu kurz).
+   Wiedervorlage: Ende Januar 2027 nach den ersten zwei Heften im Einsatz (löst der Schüler die Originale nach dem Heft?), endgültig nach den P10-Ergebnissen 2027.
 
 ## 5 Verworfen
 
