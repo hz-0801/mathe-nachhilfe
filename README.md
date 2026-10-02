@@ -54,6 +54,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 
 - `msa.md` – vor dem Erfassen: Kürzel, Leitideen, Themenliste, Besonderheiten; bei Widerspruch zum Kern gilt es.
 - `msa-pruefungen.md` – welches Heft als Nächstes dran ist, wo die Hefte liegen, was je Heft geschah.
+- `handreichung-p10-2027.tex` / `.pdf` – Handreichung für Schüler (eine Seite: Termin, EBR/FOR, Hilfsmittel, Themen nach Punkten, QR-Code zu den alten Prüfungen); jährlich im September erneuern (`faellig.md`).
 - `msa-quellen.md` – Jahresseite, Serverdateien je papier-Kürzel, Heftordner `hefte/msa/` (lokal), Dateien ohne Katalogeintrag.
 - `msa-typen.csv` – Typen suchen, vergleichen, anlegen; wächst nur über das Bau-Skript; gilt für OS/EBR/FOR und GYM gemeinsam.
 - `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog für OS/EBR/FOR (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.
