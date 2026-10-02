@@ -2,6 +2,8 @@
 Stand 2026-09-24, 4 Blätter.
 Abgeleitet von `werkzeuge/einsortieren.py`, nie von Hand ändern.
 
+> Nur Blätter der alten Prompts bis 24.09.2026. Alles, was seither aus der Aufgabenbank gebaut wurde (Prüfungshefte, Basiszettel, Fokusblätter, Blätter der Blatt-Chats), steht in hz-0801/aufgabenbank `bau/register.csv` und `eingang/`.
+
 | Thema | Datum | Prompt | Modell | Vorlage | Katalog | Dateien | Pfad |
 |---|---|---|---|---|---|---|---|
 | daten | 2026-09-22 | Unterrichtsblatt-Prompt v4.1 | Claude Opus 5 | 2026-09-07d | daten.md, Status: gegengelesen bis auf [FS] (2026-09-08f; LISUM am 10d/10e; fünfter Gegenlese-Block 2026-09-10j; Sek-II-Teil ergänzt 2026-09-20, Entscheidung 37, nicht gegengelesen) | Daten_Blatt0.pdf · Daten_E1.pdf · Daten_Gesamt.pdf · Daten_Loesungen.pdf | blaetter/daten/2026-09-22/ |
