@@ -6,8 +6,9 @@ Status: leer · Stufe: [Sek I / GOST / FOS] · Bildungsgänge: [...] · gegengel
 [Klassen, RLP-Niveaustufen mit Zitat der Inhaltszeile, Leitidee, Lehrwerkskapitel mit Lerneinheiten und Stunden] [RLP] [LS]
 
 ### Lerneinheiten
-1. [Name – Inhalt in einem Satz] (Kl.) ← Eingabe „[stichwort]"
+1. [Name – Inhalt in einem Satz] (Kl.) ← Eingabe „[stichwort]" Gewicht: [Kern/–/Rand] (P n, K n, S n,n %)
 2. …
+(Gewicht seit 02.10.2026: drei Maße, jedes für sich – P Prüfungsoriginale mit Haupttyp der Einheit (Abschnitt „Prüfungsform“), K Teilaufgaben in Klassenarbeiten (`_gewicht/ka-duden9.csv`, nur Klasse-9-Einträge), S mittlerer Seitenanteil im Lehrwerk (`_gewicht/sa-seiten.csv`). Hoch heißt: P mindestens ein Original, K bzw. S über dem Median der Einheiten desselben Eintrags; ein fehlendes Maß zählt nicht. Kern = mindestens zwei Maße hoch, Rand = keins, sonst „–“. Die Zahlen stehen immer dabei; die Marke ordnet, sie streicht nichts. Grund: ein Maß allein führt irre, konzept.md Entscheidung 38.)
 Blattfolge: n, n, … (optional; Reihenfolge der Einheiten auf dem Lernblatt; fehlt sie, gilt die Katalogreihenfolge)
 Eingabe „[thema]" ohne Zusatz → [Dialog / direkt Einheit n].
 
@@ -34,7 +35,8 @@ Quelle: [Serlo-URL], sinngemäß.
 Mindeststoff (D/E) [RLP]: [welche Einheiten/Typen]
 Grundvorstellung (Blatt 0) [MO, INKL]: [eine Aufgabe, die die Vorstellung prüft, nicht die Fertigkeit]
 Sprossen je Verfahrenstyp (Reihenfolge = Kette des Hauptblatts) [INKL, LS, FD]:
-- [Typ]: Grundfall (4×) → [Merkmal] → [Merkmal] → … → Prüfungshöhe: [...]
+- [Typ]: Grundfall (4×) → [Merkmal] → [Merkmal] → … → Rückwärts: [...] → Gemischt: [...] → Prüfungshöhe: [...]
+Leiterregeln (seit 02.10.2026, konzept.md Entscheidung 38): Jede Kette hat vor der Prüfungshöhe eine Rückwärtssprosse (vom Ergebnis zur Aufgabe: Gleichung aus Lösungen bilden, Größe aus dem Ergebnis zurückrechnen, Term zu einer gegebenen Eigenschaft wählen) und eine Mischsprosse (Aufgaben ohne Vorsortierung – der Schüler entscheidet, welches Verfahren oder welcher Fall vorliegt). Krumme Zahlen (Dezimal, Bruch, negativ, gemischte Einheiten) stehen auf den oberen Sprossen, für alle Schüler und ohne [GYM]; unten bleiben die Zahlen glatt. Hat der Typ keine sinnvolle Umkehrung, steht unter „Offene Punkte“ eine Zeile mit Grund statt einer erzwungenen Sprosse.
 Marken an einer Sprosse: „(Vorrat)“ heißt: nicht Mindeststoff (Prüfliste unten). „(kein P10-Stoff)“ heißt: regulärer Schulstoff, nicht Teil der P10-Vorbereitung; das Prüfungsheft lässt die Sprosse aus, das Unterrichtsblatt führt sie (Entscheidung 30.09.2026, binomische-formeln.md Einheit 2, dritte Formel).
 
 ### Prüfungsform
@@ -49,6 +51,7 @@ Zielmarke: Einheit 1 – [Prüfungshöhe in einem Satz, mit Original-id]; Einhei
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
+- [ ] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen oben; Gewicht je Einheit mit den drei Zahlen (Regel 02.10.2026).
 - [ ] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
 - [ ] Mindeststoff (D/E) markiert; Rest ist Vorrat.
 - [ ] Grundvorstellungs-Aufgabe für Blatt 0 vorhanden.

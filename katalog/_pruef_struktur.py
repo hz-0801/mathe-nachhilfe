@@ -27,6 +27,8 @@
    Ziel ist entweder eine Nennung in Wortform oder eine Fertigkeit, zu der es kein Katalogthema gibt – was
    ihre Quellenklammer hergibt, steht in _blatt0-belege.md (werkzeuge/blatt0-belege.py). Die Zählregel
    wird importiert.
+9. Kennzahl 10 (seit 02.10.2026, konzept.md Entscheidung 38): Lerneinheiten mit „Gewicht:“ in der
+   Einheitszeile, je Eintrag; -v listet die Einträge, denen noch Gewichte fehlen.
 Aufruf im Ordner katalog/: python3 _pruef_struktur.py – die CSVs werden eine Ebene darüber erwartet.
 Aufgabenstämme ohne Teilaufgabenbuchstaben (2017-OS-K7; bei iqb eine Kennung, deren Aufgabe
 Teilaufgaben hat) werden nicht geprüft.
@@ -253,3 +255,20 @@ try:
         for n, k in ohne9: print('   ', n + '.md', k)
 except (ImportError, FileNotFoundError, AttributeError):
     print('Kennzahl 9 – werkzeuge/blatt0-belege.py fehlt')
+
+# --- Kennzahl 10 (seit Leiterregeln und Gewicht, 02.10.2026, konzept.md Entscheidung 38): Einheiten mit
+# Gewicht. Zählt je Eintrag die nummerierten Zeilen im Abschnitt „Lerneinheiten“ und davon die, die
+# „Gewicht:“ tragen. Kennzahl, kein Befund: sie steigt mit dem Nachzug der Einträge auf die Regel.
+ein10 = gew10 = voll10 = 0
+teil10 = []
+for p in eintraege:
+    m = re.search(r'^### Lerneinheiten\n(.*?)(?=^##)', open(p, encoding='utf-8').read(), re.M | re.S)
+    zeilen = [z for z in (m.group(1).split('\n') if m else []) if re.match(r'\d+\. ', z)]
+    g = sum('Gewicht:' in z for z in zeilen)
+    ein10 += len(zeilen); gew10 += g
+    if zeilen and g < len(zeilen): teil10.append((p, g, len(zeilen)))
+    voll10 += bool(zeilen) and g == len(zeilen)
+print(f'Kennzahl 10 – Einheiten mit Gewicht: {gew10} von {ein10} '
+      f'({voll10} von {len(eintraege)} Einträgen vollständig)')
+if '-v' in sys.argv:
+    for p, g, n in teil10: print('   ', p, f'{g} von {n}')
