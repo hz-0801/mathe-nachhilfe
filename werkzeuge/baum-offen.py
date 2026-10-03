@@ -3,9 +3,9 @@ F,A,V,I='fix','arbeit','vor','inhalt'
 L=lambda *n:[(x,A,[]) for x in n]
 LF=lambda *n:[(x,F,[]) for x in n]
 ART=lambda st=A:[("Original",st,[]),("Original neu",st,[]),("Skript",st,[])]
-TH={"Geometrie":["Trigonometrie","Flächen + Körper"],"Funktionen":["Funktionen","Wachstum"],"Daten + Zufall":["Daten + Prozent","Wahrscheinlichk."]}
-AL={"Geometrie":"Alles Geometrie","Funktionen":"Alle Funktionen","Daten + Zufall":"Alles Daten+Zuf."}
-NEU={"Geometrie":([AL["Geometrie"]]+TH["Geometrie"],F),"Funktionen":(["Alle Funktionen","Lineare","Quadratische","Wachstum"],F),"Daten + Zufall":([AL["Daten + Zufall"]]+TH["Daten + Zufall"],A)}
+TH={"Geometrie":["Trigonometrie","Flächen + Körper"],"Funktionen":["Funktionen","Wachstum"],"Daten + Zufall":["Daten","Wahrscheinlichk."]}
+AL={"Geometrie":"Alles","Funktionen":"Alles","Daten + Zufall":"Alles"}
+NEU={"Geometrie":([AL["Geometrie"]]+TH["Geometrie"],F),"Funktionen":(["Alles","Lineare","Quadratische","Wachstum"],F),"Daten + Zufall":([AL["Daten + Zufall"]]+TH["Daten + Zufall"],A)}
 def ast(n): return (n,F,[("Original",F,[(t,F,[]) for t in [AL[n]]+TH[n]]),("Original neu",F,[(t,NEU[n][1],[]) for t in NEU[n][0]]),("Skript",F,[(t,A,[]) for t in TH[n]])])
 tree=("P10",F,[
  ("Basis",F,[("Original",F,[("Zeitraum",F,[])]),("Original neu",F,[("Zeitraum",F,[])]),("Skript",F,[])]),
@@ -41,16 +41,16 @@ ZR=lambda: [("Zeitraum",F,[])]
 GEO=("Geometrie",F,[("Original",F,[(t,F,ZR()) for t in [AL["Geometrie"]]+TH["Geometrie"]]),("Original neu",F,[(t,F,ZR()) for t in [AL["Geometrie"]]+TH["Geometrie"]]),("Skript",F,[("Trigonometrie",F,[("Pythagoras",F,[]),("Sin/Kos/Tan",F,[]),("Sinussatz",F,[])]),("Flächen + Körper",F,[("Flächen",F,[]),("Körper",F,[])])])])
 LE=lambda *n:[(x,I,[]) for x in n]
 FKT=("Funktionen",F,[
- ("Original",F,[(t,F,ZR()) for t in ["Alle Funktionen","Funktionen","Wachstum"]]),
- ("Original neu",F,[(t,F,ZR()) for t in ["Alle Funktionen","Lineare","Quadratische","Wachstum"]]),
+ ("Original",F,[(t,F,ZR()) for t in ["Alles","Funktionen","Wachstum"]]),
+ ("Original neu",F,[(t,F,ZR()) for t in ["Alles","Lineare","Quadratische","Wachstum"]]),
  ("Skript",F,[
    ("Lineare",F,LE("proportional, Zuordnungen","f(x) = mx + n zeichnen","Punkte, Werte, Punktprobe","Gleichung bestimmen","Anwendungen, Tarife")),
    ("Quadratische",F,LE("Normalparabel, Streckfaktor","Scheitelpunktform","Normalform","Nullstellen, Schnittpunkte")),
    ("Gleichungssysteme",F,LE("grafisch lösen","Einsetzungsverfahren","Additionsverfahren","Sachaufgaben aufstellen")),
    ("Wachstum",F,LE("linear oder exponentiell","Faktor, Wachstumstabelle","Funktion aufstellen","Verdopplung, Halbwertszeit"))])])
 DZ=("Daten + Zufall",F,[
- ("Original",F,[(t,F,ZR()) for t in ["Alles Daten+Zuf.","Daten + Prozent","Wahrscheinlichk."]]),
- ("Original neu",F,[(t,A,ZR()) for t in ["Alles Daten+Zuf.","Daten + Prozent","Wahrscheinlichk."]]),
+ ("Original",F,[(t,F,ZR()) for t in ["Alles","Daten","Wahrscheinlichk."]]),
+ ("Original neu",F,[(t,A,ZR()) for t in ["Alles","Daten","Wahrscheinlichk."]]),
  ("Skript",F,[
    ("Daten",A,LE("Häufigkeiten","Säulen-, Balken-, Liniendiagr.","Streifen- und Kreisdiagramm","Kenngrößen","Diagramme beurteilen, Boxplot")),
    ("Prozent",A,LE("Prozente als Anteile","Prozentsatz","Prozentwert","Grundwert","Veränderung, Zinsen")),
