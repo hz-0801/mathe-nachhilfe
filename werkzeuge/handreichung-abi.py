@@ -67,7 +67,7 @@ TEX = r'''\documentclass[12pt]{extarticle}
 \begin{document}
 {\LARGE\bfseries TITEL}\hfill{\small\color{gray}Stand Oktober 2026}
 \abschnitt{Termin}
-Mittwoch, 5.\,Mai 2027, ZEIT (Berlin)
+Mittwoch, 5.\,Mai 2027, 9 Uhr, ZEIT (Berlin und Brandenburg)
 \abschnitt{Zwei Teile}
 \begin{tabular}{@{\hspace{1.4em}}l@{\hspace{1em}}l@{}}
 \textbf{Teil A} & kurze Aufgaben \textbf{ohne} Taschenrechner und Formelsammlung,\\
