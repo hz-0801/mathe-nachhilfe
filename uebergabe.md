@@ -1,91 +1,110 @@
-# Übergabe verbessereBlaetter – 2026-10-03c (Chat 03.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-03d (Chat 03.10. abends, Fable/Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-03b.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-03c.md.
 
 Erster Handgriff im neuen Chat: `offen.html` (Wurzel dieses Repos)
-mit SendUserFile, display „render“, an den Lehrer schicken – die
-Liste steht dann rechts neben dem Chat. Der Lehrer arbeitet mit
-ihr; Scrollen im Chat lehnt er ab. Ändert sich ein Punkt: Datei
-anpassen, neu schicken, committen.
+mit SendUserFile, display „render“, an den Lehrer schicken. Oben
+steht der Entscheidungsbaum, darunter die offenen Punkte und die
+Liste „Zu prüfen ab Montag 18:00“. Ändert sich etwas: Baum in
+`werkzeuge/baum-offen.py` ändern, Skript ausführen (schreibt den
+Baumteil von offen.html), Liste in offen.html von Hand, neu
+schicken, committen.
 
 ## 1 Ziel
 
-Schnell gute Blätter für die Stunde, für P10 2027 zuerst, aber so
-gebaut, dass Abitur GK/LK und FHR nur neue Daten brauchen, keinen
-neuen Bau. Nächste Phase: die Bedienung – ein Prompt für Schulstoff
-und Prüfung, am PC und am Handy.
+Schnell gute Blätter für die Stunde, für P10 2027 zuerst, so gebaut,
+dass Abitur GK/LK und FHR nur neue Daten brauchen. Phase jetzt: die
+Bedienung festlegen (Entscheidungsbaum je Prüfung), gebaut wird
+frühestens nach Montag 05.10. 18:00.
 
 ## 2 Arbeitsgrundlage
 
-- `offen.html` – Liste der offenen Punkte (maßgeblich für die
-  Reihenfolge der Arbeit).
-- aufgabenbank-privat (main): `basis-originale.jsonl` 136 Zeilen,
-  Aufgabe 1 aller 14 Hefte 2014–2026 (Du-Form, gegen
-  msa-katalog-basis.csv geprüft, 0 Lösungsabweichungen);
-  `stand.md`; `werkzeuge/sammlung.py` (alle Original-Zettel als
-  ein PDF mit klickbarem Inhalt, Lesezeichen, „↑ Inhalt“);
-  `werkzeuge/onenote-testseite.py` (ruht).
-- aufgabenbank (main): `werkzeuge/zusammenbau.py` v1.8 –
-  `--zettel original --heft <JAHR>-<PAPIER>` (Papier groß) mit
-  `--vorlage <blattbau>/mathblatt.sty --pdf --ohne-register --aus
-  <ordner>` und `PRIVAT=<aufgabenbank-privat>`; ohne
-  `--ohne-register` schreibt es bau/register.csv im öffentlichen
-  Repo fort.
-- blattbau: `bankblatt.md` v5.4 (nur Klasse 8–10, keine
-  Prüfungssorten), `mathblatt.sty`.
-- Schülerliste: `Schuelerliste-privat.md` als Projektdatei in
-  erzeugeBlatt(Bank) (Nummer, Klasse, Schulform, Prüfung).
+- `offen.html` – Entscheidungsbaum P10 (fertig) mit allen Regeln im
+  Absatz unter dem Baum; offene Punkte; Prüfliste ab Montag.
+  Maßgeblich.
+- `werkzeuge/baum-offen.py` – Baumbeschreibung (Python-Tupel) und
+  Zeichnung; der Fokus-Ausschnitt oben wird dort umgestellt.
+- `msa/msa-ertrag.csv`, `msa/msa-katalog-kontext.csv`,
+  `msa/msa-katalog-basis.csv` – Grundlage aller Zählungen im Chat.
+- `msa/msa-vorgaben.md` – Fachbriefe; § 2 erklärt die Lücken
+  2021–2023 (Corona-Ausschlüsse) und den Formatwechsel 2028.
+- `faellig.md` § 2 – neu: Baum auf Format 2028 umstellen.
 
 ## 3 Arbeitsstand
 
-Erledigt 03.10. nachmittags: Erfassungslauf (Opus-Agent, 0,25 Mio
-Token, Anzeige vorher und nachher Woche 86 %, Fable 88 % –
-Messwert: unter einem Punkt); 14 Original-Zettel gebaut, 13 auf
-einer Seite, 2021 mit Rückseite; fünf Datenzeilen setzbar gemacht
-(2025 d Exponent als Kästchen, 2023 g und 2015 i zweite Lücke als
-Linie, 2022 d, 2019 e); Sammlung als ein PDF an den Lehrer.
-OneNote-Notizbuch getestet und vom Lehrer abgebrochen (faellig § 2,
-ruht). Damit gibt es alle drei Zettelsorten (Originalblatt,
-Original-Zettel, Basiszettel).
+Fertig 03.10. abends: P10-Baum vollständig und vom Lehrer bestätigt
+(Commits cbf4b66 … 9c6bb44). Muster für andere Prüfungen erkannt:
+
+1. Ast: Kurzteil der Prüfung (P10: Basis) · Prüfungsplätze nach
+   Leitideen gebündelt (P10: Geometrie, Funktionen, Daten + Zufall)
+   · Ganze Prüfung.
+2. Art: überall Original · Original neu · Skript.
+3. Auswahl: jahrgangsgebundene Teile (Basis, ganze Prüfung) → Jahr;
+   Themen → beim Original die Prüfungsplätze, bei Original neu
+   feiner, soweit Stoff da ist (Schwelle etwa 10 Teilaufgaben in
+   fünf Jahren), beim Skript die Katalogeinträge plus „Weitere (RLP)“.
+4. Zeitraum (nur Original, Original neu): [neuestes offenes]
+   [2022–2026] [ältere] [Jahr wählen], blättern in Fünfjahresblöcken.
+
+Nicht erledigt: Abitur und FHR; Vereinheitlichung (offen.html
+Punkt 6); alles Bauen.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
 Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
+Die Einzelregeln stehen unter dem Baum in offen.html; hier nur die
+tragenden:
 
-- Ein Prompt für Schulstoff und Prüfung (bestätigt 03.10.; heute
-  noch drei Prompts – unterrichtsblatt, pruefungsblatt, bankblatt).
-- Der Lehrer ist der einzige Anwender: keine Sammlung von
-  Beispielbestellungen als Vorarbeit.
-- Alles muss am Handy und am PC gehen.
-- Offene Punkte stehen rechts (offen.html), nicht im Chatverlauf.
-- Agenten holen mathblatt.sty nicht per Raw-URL (Sicherheitsprüfung
-  lehnt ab, Messwert 03.10.); der Chat klont blattbau und gibt den
-  Pfad mit.
-- Original-Zettel: Fehler im Satz werden in der Datenzeile behoben,
-  nicht im Skript, solange es um einzelne Zeilen geht.
-- Modellwahl nächste Phase: Opus im Chat und für Agenten.
+- Gleicher Ablauf und gleiche Knöpfe überall ist ein Wert an sich;
+  Abweichungen nur begründet. Freitext geht immer; ist er unklar,
+  nachfragen oder sagen, was nicht passt, und mit Knöpfen zum Ziel
+  führen; nur Knöpfe, die zu einem Blatt führen. Etwa vier Knöpfe
+  je Stufe, nicht starr (Stufe 1 hat fünf).
+- Original = unveränderte Heftseiten, geschnitten nur an
+  Aufgabengrenzen. Original neu = neu gesetzt, nach Teilaufgaben,
+  passende Teilaufgaben anderer Aufgaben erlaubt, Bau zuletzt
+  (Wortlaut Aufgaben 2–7 nicht erfasst). Skript = aus der Bank,
+  vollständiges Heft mit Inhaltsverzeichnis, Seitenbereichen,
+  Sprungmarken; „Lernblatt mit Prüfungsfilter“, einmal gebaut,
+  liegt bereit.
+- Lösung immer dabei (vorerst): Basis Streifen, sonst Lösungsblatt
+  mit Rechenweg; Skript dazu Kontrollwerte und Tipps für Schwache.
+- EBR/FOR: ein Blatt mit * für FOR-Teile (Original neu, Skript);
+  Original ab 2026 nach Schülerliste, sonst FOR. Basis ist für beide
+  gleich. „Schwach“ nie als Knopf.
+- Prüfungsrelevant ist der Rahmenlehrplan (Fachbrief 8), FOR bis
+  Niveaustufe G, EBR bis F plus Liste aus G.
+- Umfang in Seiten dort, wo die Wahl ihn ändert (Zeitraum-Knöpfe);
+  Zahlen nie strikt, nur „so ungefähr“.
+- Bis Sommer 2027 schreiben alle P10-Schüler 2027 (kein
+  Prüfungsjahr abfragen).
+- Lehrer: keine Option ohne Informationsgewinn anbieten; erst eine
+  Stufe festzurren, dann die nächste; Vorschläge immer mit Urteil.
+- Modellwahl nächste Phase: Opus im Chat.
 
 ## 5 Offene Punkte und Verworfenes
 
-Die Liste steht in offen.html; hier nur, was dort nicht steht:
+Offene Punkte und Prüfliste stehen in offen.html. Dazu:
 
-- Vorschlag des Chats zur Bedienung, noch nicht bestätigt:
-  Schülerliste sagt die Prüfung (P10, Abitur GK/LK, keine), das
-  Bestellwort die Sorte (Thema → Lernblatt; „Basis“, „Original
-  <Jahr>“, „Probe“ → Prüfungssorte); Rückfrage nur bei
-  doppeldeutigem Wort. Kein fester Schalter je Schüler, weil ein
-  P10-Schüler auch Schulstoff braucht. Knöpfe nur, wenn der Lehrer
-  sie für Blatt-Chats ausdrücklich zulässt (globale Regel: keine
-  Auswahlknöpfe).
-- Aufgabenliste (TaskCreate) erscheint beim Lehrer nicht –
-  deshalb offen.html.
-- Verworfen: OneNote als Ausgabe (03.10., ruht); Liste echter
-  Bestellungen (Lehrer einziger Anwender).
+- Konsistenzbefund: Die Beschlüsse dieses Chats liegen nur in
+  offen.html. ziel.md (z. B. „Blatt so lang wie der Teil, keine
+  Seitengrenze“, Bauprinzip), bankblatt.md und zusammenbau.py kennen
+  Baum, drei Arten, Lösungsformen und „Weitere (RLP)“ noch nicht.
+  Nachziehen, wenn die Bäume aller Prüfungen stehen (vor dem Bau).
+- Handreichung führt „Prozentrechnung“ als eigenes Thema; im Baum
+  steckt Prozent im Original unter „Daten“ – beim nächsten Erneuern
+  angleichen.
+- Verworfen: Knopf „gemischt“ in der Geometrie (übernimmt die ganze
+  Prüfung); Kosinussatz als „gibt es nicht“ (er ist nur nie geprüft,
+  steht für FOR im RLP – Prüfliste); Extra-Knopf für kleine Themen
+  (Sprossen und Freitext); Prüfungsjahr im Schülerdialog.
 
 ## 6 Nächster Arbeitsschritt
 
-offen.html zeigen. Dann Punkt 1 „Bedienung festlegen“: den
-Vorschlag aus § 5 dem Lehrer vorlegen (bestätigen oder ändern),
-danach ausarbeiten, wie der eine Prompt Schülerliste und Bestellwort
-in einen Aufruf von zusammenbau.py übersetzt – zuerst für die drei
-Zettelsorten, die es schon gibt.
+offen.html zeigen. Dann den Abitur-Baum nach dem Muster aus § 3
+entwerfen: zuerst nur Stufe 1 (Kurzteil = hilfsmittelfreier Teil 1?
+Äste Analysis · Geometrie · Stochastik? Ganze Prüfung), mit Zählung
+aus abitur/abi-katalog.csv und iqb-katalog.csv wie bei P10
+(Plätze je Prüfung über die Jahre). GK und LK sind getrennte Hefte –
+Sternchen-Blatt trägt vermutlich nicht; Abweichung begründen. Stufe
+für Stufe festzurren, Fokus-Ausschnitt in baum-offen.py umstellen.
