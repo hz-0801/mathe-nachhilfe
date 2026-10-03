@@ -1,5 +1,5 @@
 import re
-F,A,V='fix','arbeit','vor'
+F,A,V,I='fix','arbeit','vor','inhalt'
 L=lambda *n:[(x,A,[]) for x in n]
 LF=lambda *n:[(x,F,[]) for x in n]
 ART=lambda st=A:[("Original",st,[]),("Original neu",st,[]),("Skript",st,[])]
@@ -25,21 +25,30 @@ def draw(tree,W,G=22,k=1.6):
         nodes.append((d,y,name,st)); return y
     lay(tree,0)
     H=len(rows)*26+8; Wt=X[-1]+W[-1]+6
-    sty={F:('var(--fg)','',"var(--fg)"),A:('var(--mute)',' stroke-dasharray="4 3"','var(--mute)'),V:('#d9822b','','#d9822b')}
+    sty={I:('none','','var(--mute)'),F:('var(--fg)','',"var(--fg)"),A:('var(--mute)',' stroke-dasharray="4 3"','var(--mute)'),V:('#d9822b','','#d9822b')}
     o=[f'<svg viewBox="0 0 {Wt} {H}" width="100%" style="max-width:{int(Wt*k)}px" role="img" aria-label="Entscheidungsbaum">']
     for x1,y1,x2,y2 in edges:
         m=(x1+x2)/2; o.append(f'<path d="M{x1},{y1} C{m},{y1} {m},{y2} {x2},{y2}" fill="none" stroke="var(--mute)" stroke-width="1"/>')
     for d,y,name,st in nodes:
         s,dash,t=sty[st]
-        o.append(f'<rect x="{X[d]}" y="{y-11}" width="{W[d]}" height="22" rx="5" fill="var(--bg)" stroke="{s}"{dash}/>')
-        o.append(f'<text x="{X[d]+W[d]/2}" y="{y+3.5}" text-anchor="middle" font-size="10" fill="{t}">{name.replace("‹","&#8249;").replace("›","&#8250;")}</text>')
+        if st!=I: o.append(f'<rect x="{X[d]}" y="{y-11}" width="{W[d]}" height="22" rx="5" fill="var(--bg)" stroke="{s}"{dash}/>')
+        anc,xx=('start',X[d]+2) if st==I else ('middle',X[d]+W[d]/2)
+        o.append(f'<text x="{xx}" y="{y+3.5}" text-anchor="{anc}" font-size="{9 if st==I else 10}" font-style="{"italic" if st==I else "normal"}" fill="{t}">{name.replace("‹","&#8249;").replace("›","&#8250;")}</text>')
     o.append('</svg>')
     return '\n'.join(o)
 ZT=("Zeitraum",F,[("neuestes offenes",F,[]),("2022–2026",F,[]),("ältere",F,[("neuestes offenes",F,[]),("2017–2021",F,[]),("ältere → 2014–16",F,[]),("Jahr wählen",F,[])]),("Jahr wählen",F,[])])
 ZR=lambda: [("Zeitraum",F,[])]
 GEO=("Geometrie",F,[("Original",F,[(t,F,ZR()) for t in [AL["Geometrie"]]+TH["Geometrie"]]),("Original neu",F,[(t,F,ZR()) for t in [AL["Geometrie"]]+TH["Geometrie"]]),("Skript",F,[("Trigonometrie",F,[("Pythagoras",F,[]),("Sin/Kos/Tan",F,[]),("Sinussatz",F,[])]),("Flächen + Körper",F,[("Flächen",F,[]),("Körper",F,[])])])])
-FKT=("Funktionen",F,[("Original",F,[(t,F,ZR()) for t in ["Alle Funktionen","Funktionen","Wachstum"]]),("Original neu",F,[(t,F,ZR()) for t in ["Alle Funktionen","Lineare","Quadratische","Wachstum"]]),("Skript",F,[(t,A,[]) for t in ["Lineare","Quadratische","Gleichungssysteme","Wachstum"]])])
-svg='<div id="baum"><h1 style="font-size:15px">Im Gespräch: Funktionen</h1>\n'+draw(FKT,[66,74,100,72],k=1.3)+'\n<h1 style="margin-top:14px;font-size:15px">Gesamtbaum</h1>\n'+draw(tree,W)+'\n<h1 style="margin-top:14px;font-size:15px">Zeitraum bei Original und Original neu (nach dem Thema; Basis statt des Themas)</h1>\n'+draw(ZT,[62,92,100],k=1.15)+'\n<p style="margin-top:6px"><b style="display:inline">Lösung, keine Wahl, immer dabei:</b> Original → Lösungsblatt als eigene Datei, immer mitgeliefert, Druck nach Wahl · Original neu → Streifen · Basis-Skript → nur Streifen · Themen-Skript → Kontrollwerte auf dem Blatt, Lösungsweg als eigenes Blatt, Tipps nur für Schwache (vorn auf dem Lösungsblatt); Umfang so ungefähr 4 Seiten, Richtwert, keine Grenze. Schwach kommt aus der Schülerliste oder per Freitext, nie als Knopf. Kleine Themen (Zuordnungen, Einheiten, Winkel, Maßstab, Kombinatorik u. a.) ohne Knopf: als untere Sprossen im passenden Thema, gezielt per Freitext (Skript). Gleichungssysteme bei Original neu ohne Knopf (Freitext), im Skript mit Knopf. Der Baum zeigt nur Entscheidungen. Stufen: Ast → Art → Thema. Original = Heftseiten · Original neu = neu gesetzt (Layout), nach Teilaufgaben zugeschnitten, passende Teilaufgaben aus anderen Aufgaben erlaubt; Bau zuletzt (Wortlaut Aufgaben 2–7 noch nicht erfasst) · Skript = aus der Bank. Ein Blatt für EBR und FOR, FOR-Teile mit *. Original in den Themen-Ästen: ganze Aufgaben, jüngste zuerst. „neuestes offenes“ = neuestes Jahr, das der genannte Schüler noch nicht bekommen hat; ohne Namen das neueste. Vor dem Bau eine Zeile „Name · Sorte“ zum Prüfen.</p></div>'
+LE=lambda *n:[(x,I,[]) for x in n]
+FKT=("Funktionen",F,[
+ ("Original",F,[(t,F,ZR()) for t in ["Alle Funktionen","Funktionen","Wachstum"]]),
+ ("Original neu",F,[(t,F,ZR()) for t in ["Alle Funktionen","Lineare","Quadratische","Wachstum"]]),
+ ("Skript",F,[
+   ("Lineare",A,LE("proportional, Zuordnungen","f(x) = mx + n zeichnen","Punkte, Werte, Punktprobe","Gleichung bestimmen","Anwendungen, Tarife")),
+   ("Quadratische",A,LE("Normalparabel, Streckfaktor","Scheitelpunktform","Normalform","Nullstellen, Schnittpunkte")),
+   ("Gleichungssysteme",A,LE("grafisch lösen","Einsetzungsverfahren","Additionsverfahren","Sachaufgaben aufstellen")),
+   ("Wachstum",A,LE("linear oder exponentiell","Faktor, Wachstumstabelle","Funktion aufstellen","Verdopplung, Halbwertszeit"))])])
+svg='<div id="baum"><h1 style="font-size:15px">Im Gespräch: Funktionen</h1><p>kursiv = Inhalt des Skripts (Lerneinheiten aus dem Katalog, auf P10 gefiltert), keine Wahl</p>\n'+draw(FKT,[62,70,96,128],k=1.3)+'\n<h1 style="margin-top:14px;font-size:15px">Gesamtbaum</h1>\n'+draw(tree,W)+'\n<h1 style="margin-top:14px;font-size:15px">Zeitraum bei Original und Original neu (nach dem Thema; Basis statt des Themas)</h1>\n'+draw(ZT,[62,92,100],k=1.15)+'\n<p style="margin-top:6px"><b style="display:inline">Lösung, keine Wahl, immer dabei:</b> Original → Lösungsblatt als eigene Datei, immer mitgeliefert, Druck nach Wahl · Original neu → Streifen · Basis-Skript → nur Streifen · Themen-Skript → Kontrollwerte auf dem Blatt, Lösungsweg als eigenes Blatt, Tipps nur für Schwache (vorn auf dem Lösungsblatt); Umfang so ungefähr 4 Seiten, Richtwert, keine Grenze. Schwach kommt aus der Schülerliste oder per Freitext, nie als Knopf. Kleine Themen (Zuordnungen, Einheiten, Winkel, Maßstab, Kombinatorik u. a.) ohne Knopf: als untere Sprossen im passenden Thema, gezielt per Freitext (Skript). Gleichungssysteme bei Original neu ohne Knopf (Freitext), im Skript mit Knopf. Der Baum zeigt nur Entscheidungen. Stufen: Ast → Art → Thema. Original = Heftseiten · Original neu = neu gesetzt (Layout), nach Teilaufgaben zugeschnitten, passende Teilaufgaben aus anderen Aufgaben erlaubt; Bau zuletzt (Wortlaut Aufgaben 2–7 noch nicht erfasst) · Skript = aus der Bank. Ein Blatt für EBR und FOR, FOR-Teile mit *. Original in den Themen-Ästen: ganze Aufgaben, jüngste zuerst. „neuestes offenes“ = neuestes Jahr, das der genannte Schüler noch nicht bekommen hat; ohne Namen das neueste. Vor dem Bau eine Zeile „Name · Sorte“ zum Prüfen.</p></div>'
 s=open(__import__('os').path.join(__import__('os').path.dirname(__file__),'..','offen.html'),encoding='utf-8').read()
 s=re.sub(r'<p>Stand 03.10.2026 · Freitext.*?</p>','<p>Stand 03.10.2026 · Freitext geht immer · durchgezogen = fest, gestrichelt = in Arbeit, <span style="color:#d9822b;font-size:13px">orange = Schritt mit Vorschlag</span></p>',s,count=1,flags=re.S)
 if '<div id="baum">' in s: s=re.sub(r'<div id="baum">.*?</div>',lambda m:svg,s,count=1,flags=re.S)
