@@ -62,6 +62,14 @@ Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
   Projektdateien eines anderen Projekts). Beim Umzug mit
   Schreibzugriff: Übergabe ins Repo, im Chat ein Satz und „Neuer
   Chat: Start.“, nicht der Codeblock der globalen Regel.
+  Projektdateien anderer Projekte (03.10.): Der Weg über den
+  eingebauten Browser scheitert – claude.ai verlangt dort Login
+  und je Klick eine Freigabe (Messwert 03.10.). Deshalb liegt
+  nichts, was ein Blatt-Chat braucht und sich ändert, als
+  Projektdatei: mathblatt.sty und Anleitung_mathblatt.md kommen
+  aus dem Repo blattbau (Raw-URL, so steht es schon in
+  bankblatt.md v5.4); die Projektdateien dazu werden einmal
+  gelöscht, danach pflegt der Chat die Vorlage allein.
 - Schülerdaten: im Repo nur Nummern; Namen nur in der privaten
   Projektdatei. Kein Ergebnisblatt zu alten Prüfungen.
 - Kernentscheidungen kommen nach einer Weile zur Wiedervorlage
