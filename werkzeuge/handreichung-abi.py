@@ -77,7 +77,7 @@ Mittwoch, 5.\,Mai 2027, 9 Uhr, ZEIT (Berlin und Brandenburg)
 \abschnitt{Mitbringen}
 Taschenrechner (wie im Unterricht: WTR oder MMS/CAS), Formelsammlung des IQB, Geodreieck
 \abschnitt{In dieser Reihenfolge lernen}
-{\small Anteil an allen Punkten der Prüfungen 2022--2026 \quad $\bullet$ kam jedes Jahr dran}\par\vspace{6pt}
+{\small Anteil an allen Punkten der Prüfungen 2022--2026. Jedes Thema kam in fast jedem Jahr dran.}\par\vspace{6pt}
 \begin{minipage}{12cm}
 LISTE\end{minipage}
 \par\vspace{8pt}
@@ -92,11 +92,11 @@ def tex(kurs, p, j, ges):
     li = []
     for g, ks in KNOPF.items():
         pg = sum(p[(g, k)] for k in ks)
-        li.append(f'\\textbf{{{g}}} \\hfill \\textbf{{{100*pg/ges:.0f}\\,\\%}}\\phantom{{\\jj}}\\par')
+        li.append(f'\\textbf{{{g}}} \\hfill \\textbf{{{100*pg/ges:.0f}\\,\\%}}\\par')
         li.append('\\begin{enumerate}[label=\\arabic*.,leftmargin=1.8em,itemsep=2pt]')
         for k in ks:
             if p[(g, k)]:
-                m = '\\jj' if len(j[(g, k)]) == 5 else '\\phantom{\\jj}'
+                m = ''
                 li.append(f'\\item {k} \\hfill {100*p[(g,k)]/ges:.0f}\\,\\%{m}')
         li.append('\\end{enumerate}\\vspace{4pt}')
     k = KOPF[kurs]
