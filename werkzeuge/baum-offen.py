@@ -5,7 +5,7 @@ LF=lambda *n:[(x,F,[]) for x in n]
 ART=lambda st=A:[("Original",st,[]),("Original neu",st,[]),("Skript",st,[])]
 TH={"Geometrie":["Trigonometrie","Flächen + Körper"],"Funktionen":["Funktionen","Wachstum"],"Daten + Zufall":["Daten","Wahrscheinlichk."]}
 AL={"Geometrie":"Alles","Funktionen":"Alles","Daten + Zufall":"Alles"}
-NEU={"Geometrie":([AL["Geometrie"]]+TH["Geometrie"],F),"Funktionen":(["Alles","Lineare","Quadratische","Wachstum"],F),"Daten + Zufall":([AL["Daten + Zufall"]]+TH["Daten + Zufall"],A)}
+NEU={"Geometrie":([AL["Geometrie"]]+TH["Geometrie"],F),"Funktionen":(["Alles","Lineare","Quadratische","Wachstum"],F),"Daten + Zufall":([AL["Daten + Zufall"]]+TH["Daten + Zufall"],F)}
 def ast(n): return (n,F,[("Original",F,[(t,F,[]) for t in [AL[n]]+TH[n]]),("Original neu",F,[(t,NEU[n][1],[]) for t in NEU[n][0]]),("Skript",F,[(t,A,[]) for t in TH[n]])])
 tree=("P10",F,[
  ("Basis",F,[("Original",F,[("Zeitraum",F,[])]),("Original neu",F,[("Zeitraum",F,[])]),("Skript",F,[])]),
@@ -50,7 +50,7 @@ FKT=("Funktionen",F,[
    ("Wachstum",F,LE("linear oder exponentiell","Faktor, Wachstumstabelle","Funktion aufstellen","Verdopplung, Halbwertszeit"))])])
 DZ=("Daten + Zufall",F,[
  ("Original",F,[(t,F,ZR()) for t in ["Alles","Daten","Wahrscheinlichk."]]),
- ("Original neu",F,[(t,A,ZR()) for t in ["Alles","Daten","Wahrscheinlichk."]]),
+ ("Original neu",F,[(t,F,ZR()) for t in ["Alles","Daten","Wahrscheinlichk."]]),
  ("Skript",F,[
    ("Daten",A,LE("Häufigkeiten","Säulen-, Balken-, Liniendiagr.","Streifen- und Kreisdiagramm","Kenngrößen","Diagramme beurteilen, Boxplot")),
    ("Prozent",A,LE("Prozente als Anteile","Prozentsatz","Prozentwert","Grundwert","Veränderung, Zinsen")),
