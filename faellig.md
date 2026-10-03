@@ -151,6 +151,8 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
+| erzeugeBlatt(Bank): Projektdateien mathblatt.sty und Anleitung_mathblatt.md löschen – der Bank-Prompt holt sie sonst nicht aus blattbau, und die Projektdatei zeichnet den rechten Winkel noch als Quadrat | vor dem nächsten Blatt-Chat | Lehrer | uebergabe.md 2026-10-03b § 5 |
+| Handy messen: Blatt-Chat vom Handy starten und prüfen, ob die Repo-Karte erscheint | nächster Blatt-Chat vom Handy | Lehrer | uebergabe.md 2026-10-03b § 5 |
 | Projektanweisung des Aufgaben-Projekts auf pruefungsblatt.md v0.15 nachziehen – die alte Kopie holt typen.csv, katalog-basis.csv, katalog-kontext.csv, die es seit dem Push nicht mehr gibt; das Projekt ist bis dahin defekt | sofort (seit 17.09.2026 fällig) | Lehrer | CHANGELOG.md (2026-09-17 v0.15), pruefungsblatt.md 2.1, konzept.md § 2 („Projektanweisungen sind Kopien") |
 | Projektanweisung des Unterrichtsblatt-Prompt-Projekts auf unterrichtsblatt.md v3.35 nachziehen (inhaltlich gleich v3.34, nur Versionszeile) | bei der nächsten Änderung am Unterrichtsblatt-Prompt, spätestens dann | Lehrer | CHANGELOG.md (2026-09-17 v3.35) |
 | Backup von hefte/ und hefte-md/ anlegen: 929,8 MB unter hefte/ ohne dubletten/ (dazu 32,6 MB dubletten/), hefte-md/ 1,9 MB – einzige Sammlung, nicht im Repo, nicht vom Push erfasst | sofort; danach nach jeder Erweiterung (§ 1) | Lehrer | befund-quellenbestand-2026-09-18.md § 2, § 7; befund-heftkorpus-2026-09-17.md § 2 (Größe hefte-md/); .gitignore |

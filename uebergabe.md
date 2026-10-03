@@ -1,110 +1,131 @@
-# Übergabe verbessereBlaetter – 2026-10-03 (Chat 02./03.10.)
+# Übergabe verbessereBlaetter – 2026-10-03b (Chat 03.10., Fable)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-01c.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-03.md.
 
 ## 1 Ziel
 
-Schnell gute Blätter für die Stunde. Schwerpunkt jetzt:
-Prüfungsblätter P10 2027, zuerst Aufgabe 1 (Basis) – ein Zettel
-je Unterrichtstermin, aus dem Skript, nicht im Chat erzeugt.
-Abitur später (2027 schreibt nur ein Schüler sicher Mathe).
+Schnell gute Blätter für die Stunde; Schwerpunkt P10 2027, zuerst
+Aufgabe 1 (Basis). Drei Zettelsorten, alle aus dem Skript, nichts
+im Chat erzeugt: unverändertes Originalblatt (Heftseiten),
+Original-Zettel in unserer Form mit Lösungsstreifen, selbst gebauter
+Basiszettel (normal und schwach). Der Gesamtablauf einer
+P10-Vorbereitung (Basis, Themenhefte, Probeprüfung, Schluss mit
+Originalen) ist noch nicht entschieden; bis dahin wird am Skript
+gearbeitet und keine Sorte gestrichen.
 
 ## 2 Arbeitsgrundlage
 
-- aufgabenbank: Basisvorrat `bank/_basis/` (64 Typen, 640
-  Aufgaben; typen.py, vorrat.py, stand.md); Skript
-  `werkzeuge/zusammenbau.py` v1.4 (Rezept Zettel v0.7, Serie
-  BAS-S, hoehen.csv, Schalter ist_original); maßgebliche
-  Zettelform: `bau/zettel/vorlage-2026-10-03/vorlage.tex` (+pdf;
-  Basis 1, 2, 3-schwach); bank.md siebte Fassung;
-  `eingang/gebaut.csv` (Blätter je Schülernummer).
-- mathe-nachhilfe: 16 Einträge nach Duden-Abgleich und
-  Leiterregeln umgesetzt (`katalog/_abgleich-duden9-kap1..10.md`,
-  `katalog/_gewicht/`); konzept.md Entscheidungen 38–40;
-  `msa/handreichung-p10-2027.tex/.pdf`; faellig.md.
-- blattbau: `bankblatt.md` v5.4 = Projektanweisung in
-  erzeugeBlatt(Bank) (ersetzt 03.10.).
-- Privat, nie im Repo: `Schuelerliste-privat.md` (18 Schüler,
-  Nummern S01–S18) als Projektdatei in erzeugeBlatt(Bank); der
-  Duden-PDF; Wortlaut der Prüfungsoriginale.
+- aufgabenbank (main): `werkzeuge/zusammenbau.py` v1.8 (Rezept
+  Zettel v0.10: `--zettel basis [--schwach] --nummer n`; Original-
+  Zettel `--zettel original --heft <jahr>-<papier>`); Basisvorrat
+  `bank/_basis/` 784 Zeilen (vorrat.py → jsonl, nie von Hand),
+  `schwierigkeit.csv` (Stufe 1–3 je Typ, Urteil des Lehrers,
+  Entwurf vom Chat „grob passend"), `typen.csv`, `stand.md`;
+  `bau/layout-befunde.md` Befund 16 (rechter Winkel);
+  `bau/zettel/abgleich-2026-10-03.md`.
+- aufgabenbank-privat (main, privat, hängt als zweite Karte):
+  `basis-originale.jsonl` (Wortlaut Aufgabe 1 in Du-Form; bisher
+  2026 FOR, 10 Zeilen), `stand.md` (je Heft eine Zeile),
+  `hefte/` (14 Hefte), `heftseiten/<jahr>-<papier>-aufgabe1.pdf`
+  (14 zugeschnittene Originalblätter). Das Skript erwartet das Repo
+  neben aufgabenbank (oder `PRIVAT=<ordner>`) und schreibt
+  Original-Zettel nur dorthin.
+- blattbau (main): `mathblatt.sty` 2026-10-03c (rechter Winkel als
+  Bogen mit Punkt, `\rwbei{A|B|C}` vor `\dreieck`, `\kaestchen`,
+  Dreiecklabels vom Schwerpunkt weg); `Anleitung_mathblatt.md`;
+  `bankblatt.md` v5.4.
+- mathe-nachhilfe: `msa/msa-katalog-basis.csv` (136 Teilaufgaben,
+  Gegenprobe für Lösung und Typ), `msa/handreichung-p10-2027.*`,
+  faellig.md.
+- Privat, nie im Repo: `Schuelerliste-privat.md` (Projektdatei in
+  erzeugeBlatt(Bank)); Wortlaut der Originale nur in
+  aufgabenbank-privat.
 
 ## 3 Arbeitsstand
 
-Erledigt 02./03.10.: Duden WÜT 9 Kap. 1–10 gegen den Katalog,
-Umsetzung in 16 Einträgen samt Bank (Opus-Agenten); Leiterregeln
-(Rückwärts- und Mischsprosse je Kette, krumme Zahlen sparsam);
-Gewicht Kern/Rand mit Halbsatz; Basisvorrat 640; Zettelvorlage
-nach vielen Runden vom Lehrer gutgeheißen (ein Blatt, keine zwei
-Spalten, Kopf nur „Basis n“, Streifen rechts, Buchstabe vor dem
-Kästchen, U groß, Jahreszahl links vor der Nummer, leichter
-Einstieg, Hilfsmittel nicht auf dem Zettel); Handreichung eine
-Seite mit QR-Code zu den alten Prüfungen; Schülerliste mit
-Nummern; v5.4 (Name → Nummer, gebaut.csv automatisch).
-Messwerte: Woche 80 %, Fable 80 % (02.10.); Reset Montag 18:00.
+Erledigt 03.10.: Basiszettel ins Skript nach der Vorlage vom 03.10.
+(v1.5–v1.7: Form der Vorlage, Vorrat 777→784 mit 78 markierten
+Originalen, 66 Vorstufen, 36 Tipps; Sortierung nach
+schwierigkeit.csv, erste zwei Aufgaben Stufe 1; höchstens drei
+Ankreuzen, Optionen untereinander; Figur rechts auf Aufgabenhöhe,
+Felder voll lang; schwach mit Vorstufe statt Tipp; 6–10 bzw. 5–8
+Aufgaben, kein Ziel 10; keine Hilfsmittelzeile); Original-Zettel
+als Probe 2026 FOR (v1.8, eine Seite 12pt, Lösungen gegen Katalog
+geprüft); Block 0: Hefte und Heftseiten aller 14 Jahrgänge im
+privaten Repo. Lehrer hat acht Basiszettel (v1.7) und die Probe
+gesehen: Form trägt.
+Messwerte 03.10. mittags: Woche 85 %, Fable 87 %; Reset Montag
+18:00. Agentenläufe heute: v1.5-Abschluss im Chat, v1.6 0,30 Mio,
+v1.7 0,17 Mio, Probe 2026 FOR 0,20 Mio (Opus, Wochenkontingent).
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
 Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
 
-- P10 2027: EBR (Grundkurs) und FOR (Erweiterungskurs), beide
-  135 min; Aufgabe 1 Basis in beiden gleich, mit Taschenrechner
-  und Formelsammlung; ab 2028 hilfsmittelfreier Teil.
-- Zettel: jeder steht für sich, keine Rückmeldung des Lehrers,
-  keine Serie mit Fortschritt; Nummer nur gegen Wiederholung;
-  mindestens drei Originale je Zettel (verfremdet, Jahr links);
-  Vorstufen immer; „schwach“ = 7 Aufgaben Kerntypen. Abgelegt
-  wird erst, was der Lehrer gutheißt.
-- Selbst machen (Lehrer 03.10., mehrfach gesagt): Was der Chat
-  mit Schreibzugriff erledigen kann, erledigt er und sagt es in
-  einem Satz – Übergabe, Dateien, Commits, Projektdateien im
-  eigenen Projekt. Kein Block und keine Datei zur Kenntnis; ein
-  „Holger:“ nur, wo kein Werkzeug hinkommt (Projektanweisung und
-  Projektdateien eines anderen Projekts). Beim Umzug mit
-  Schreibzugriff: Übergabe ins Repo, im Chat ein Satz und „Neuer
-  Chat: Start.“, nicht der Codeblock der globalen Regel.
-  Projektdateien anderer Projekte (03.10.): Der Weg über den
-  eingebauten Browser scheitert – claude.ai verlangt dort Login
-  und je Klick eine Freigabe (Messwert 03.10.). Deshalb liegt
-  nichts, was ein Blatt-Chat braucht und sich ändert, als
-  Projektdatei: mathblatt.sty und Anleitung_mathblatt.md kommen
-  aus dem Repo blattbau (Raw-URL, so steht es schon in
-  bankblatt.md v5.4); die Projektdateien dazu werden einmal
-  gelöscht, danach pflegt der Chat die Vorlage allein.
-- Schülerdaten: im Repo nur Nummern; Namen nur in der privaten
-  Projektdatei. Kein Ergebnisblatt zu alten Prüfungen.
-- Kernentscheidungen kommen nach einer Weile zur Wiedervorlage
-  (konzept.md § 4); Fünf-Minuten-Test am 16.10.
-- Modellwahl: Opus im Chat und für Agenten; Großes erst nach dem
-  Reset Montag 18:00.
+- Du-Form überall, auch in Originalen (03.10.).
+- Rechter Winkel immer Viertelkreisbogen mit Punkt, nie Quadrat;
+  in jeder rechtwinkligen Figur markiert (Layoutbefund 16).
+- Ankreuzen: Optionen untereinander, höchstens vier, bei
+  Symmetrieachsen drei (03.10.; die zwölf Symmetrie-Varianten mit
+  sechs Optionen sind noch zu kürzen).
+- Keine feste Aufgabenzahl; eine Seite ist Ziel, 12pt Untergrenze;
+  Original-Zettel, der nicht passt, bekommt eine Rückseite, nie
+  weniger Teilaufgaben.
+- Was erlaubt ist (Hilfsmittel), steht nicht auf dem Zettel.
+- „Leicht" ist das Urteil des Lehrers je Typ (schwierigkeit.csv),
+  nicht aus Höhe, Form oder Häufigkeit ableitbar.
+- Schwach = Stufe statt Häufigkeit (drei Aufgaben Stufe 1, Stufe 3
+  nur mit Vorstufe, mindestens zwei Originale mit Marke) – vom
+  Lehrer „erstmal zugelassen", im Skript noch nicht umgesetzt.
+- Lösungsstreifen: Voreinstellung mit Streifen; „ohne" auf Zuruf
+  (Schalter noch zu bauen, Rückseite „Nr – Lösung" gibt es).
+- Original-Zettel: Heftreihenfolge, keine Sortierung, keine
+  Jahresmarke je Zeile, Jahr im Kopf; Figuren wie im Heft, auch
+  mit rohem TikZ (nur im privaten Repo erlaubt).
+- Fokusblätter für die sieben häufigen schweren Typen (Term zu
+  Figur, Prozentwert, Termwert, Winkelfunktion, Lineare Gleichung,
+  Pythagoras-Gleichung, Term zu Sachtext) auf Zuruf, nicht auf
+  Vorrat; Rezept `--fokus` vorhanden.
+- Projektdateien anderer Projekte ersetzt der Chat nicht (Browser
+  scheitert an Login und Freigabe je Klick, Messwert 03.10.);
+  deshalb liegt nichts Veränderliches als Projektdatei –
+  mathblatt.sty und Anleitung kommen aus blattbau. Lehrer löscht
+  die beiden Projektdateien in erzeugeBlatt(Bank) einmal (offen).
+- Kontingent: Der Lehrer entscheidet über den Verbrauch; der Chat
+  nennt Zahlen und Schätzungen, hält nichts zurück.
+- Modellwahl nächste Phase: Opus im Chat und für Agenten.
 
 ## 5 Offene Punkte und Verworfenes
 
-- Ablage der unveränderten Originale (Wortlaut): privates Repo?
-  Mit dem Lehrer klären (faellig.md).
-- Kern-Schärfung offen: Kern = in mind. 30 % der Jahre seit 2020;
-  sortiert, filtert nicht; bei „schwach“ nur Kern.
-- Themenhefte P10: zehn Hefte nach Punkteanteil (Lineare
-  Funktionen, Quadratische Funktionen, Mittelwert/Median/
-  Spannweite, Wahrscheinlichkeit, Flächen, Volumen, Pythagoras,
-  Trigonometrie, Wachstum, Prozent) – Liste nicht bestätigt.
-- Offen in der Schülerliste: Mathekurs S02, S03, S04; Klasse S03;
-  Bildungsgang S17; Abschluss S18.
-- bankblatt v5.5: Bank vor Erfinden, krumme Zahlen sparsam, Kern
-  zuerst, Basiszettel auf Zuruf, EBR/FOR-Filter.
-- Aus 01.10. weiter offen: schwach-Länge (23 Seiten), Lage der
-  Prüfungssprosse, Eingang terme-01c ohne Übernahme, Abgleich der
-  übrigen Einträge gegen weitere Bände.
-- Verworfen: Ergebnisblatt alter Prüfungen; Zeilen zum Abtippen
-  für den Lehrer; zweispaltige Zettel; Lösungswort; Serie mit
-  Rückmeldung.
+- Löschen der Projektdateien mathblatt.sty und
+  Anleitung_mathblatt.md in erzeugeBlatt(Bank) (Lehrer).
+- Handy: ob die Repo-Karte in der Handy-App erscheint, ist
+  ungemessen; erster Blatt-Chat vom Handy ist der Messwert.
+- Gesamtablauf P10 (Basis, Themenhefte nach Handreichung,
+  Probeprüfung, Schluss mit Originalen) – entscheiden, bevor eine
+  Zettelsorte gestrichen wird.
+- Skript: schwach nach Stufe (oben), Streifen-Schalter, Symmetrie
+  drei Optionen, Eintragsaufgabe statt Ankreuzen bei Zahlen.
+- Kerntypen-Regel 30 % bleibt nur als Log-Hinweis (Übergang).
+- Verworfen: Original-Zettel mit Vorstufen gemischt (verwischt
+  Prüfung und Übung); Stufe aus Höhe/Form/Häufigkeit ableiten
+  (zweimal gescheitert); Projektdateien über den Browser
+  ersetzen.
 
 ## 6 Nächster Arbeitsschritt
 
-Schritt 1: Basiszettel ins Skript nach der Vorlage vom 03.10.
-(zusammenbau.py → v1.5, Rezept Zettel v0.8) und Vorrat ergänzen:
-Vorstufen-Varianten für die Kerntypen, Tipps, Stufe der
-Verfremdung je Original, Prüfungsverb vorn, Ankreuzen A–D, U
-statt u; Regeln: leichter Einstieg, verschiedene Themen, mind.
-drei Originale, schwach = 7 Aufgaben Kerntypen. Opus-Agent nach
-Montag 18:00; vorher Größe nennen. Ergebnis: zwei Probezettel
-dem Lehrer zeigen, nicht ablegen.
+Ein Opus-Agent, tokensparend: alle 13 offenen Hefte in einem Lauf
+erfassen (einmal lesen, alles ableiten – kein Skriptumbau, keine
+Vorlage lesen, nur je Heft `heftseiten/<heft>.pdf` als Text und
+Bild, 10 Zeilen nach dem Feldschema von basis-originale.jsonl,
+Lösung und Typ gegen msa-katalog-basis.csv), Standdatei
+`aufgabenbank-privat/stand.md` nach jedem Heft fortschreiben,
+Commit je Heft, Push am Ende und nach jedem vierten Heft; nach
+zwei Fehlversuchen an einem Heft „offen mit Grund", nächstes Heft.
+Danach ohne Modell: `--zettel original` für alle 14 Hefte bauen,
+Seitenzahl je Zettel in den Bericht. Geschätzt 0,45–0,6 Mio Token
+(Messwert Probe: 0,08 Mio je Heft ohne Skriptarbeit). Vorher
+Anzeige ablesen, nachher wieder. Dann dem Lehrer zwei
+Original-Zettel verschiedener Jahrgänge zeigen und die Sorten
+„unverändertes Originalblatt / Original-Zettel / Basiszettel" am
+Tisch erproben.
