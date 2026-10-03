@@ -5,7 +5,8 @@ LF=lambda *n:[(x,F,[]) for x in n]
 ART=lambda st=A:[("Original",st,[]),("Original neu",st,[]),("Skript",st,[])]
 TH={"Geometrie":["Trigonometrie","Flächen + Körper"],"Funktionen":["Funktionen","Wachstum"],"Daten + Zufall":["Daten + Prozent","Wahrscheinlichk."]}
 AL={"Geometrie":"Alles Geometrie","Funktionen":"Alle Funktionen","Daten + Zufall":"Alles Daten+Zuf."}
-def ast(n): return (n,F,[("Original",F,[(t,F,[]) for t in [AL[n]]+TH[n]])]+[(art,F,[(t,A,[]) for t in TH[n]]) for art in ("Original neu","Skript")])
+NEU={"Geometrie":([AL["Geometrie"]]+TH["Geometrie"],F),"Funktionen":(["Alle Funktionen","Lineare","Quadratische","Wachstum"],F),"Daten + Zufall":([AL["Daten + Zufall"]]+TH["Daten + Zufall"],A)}
+def ast(n): return (n,F,[("Original",F,[(t,F,[]) for t in [AL[n]]+TH[n]]),("Original neu",F,[(t,NEU[n][1],[]) for t in NEU[n][0]]),("Skript",F,[(t,A,[]) for t in TH[n]])])
 tree=("P10",F,[
  ("Basis",F,[("Original",F,[("Zeitraum",F,[])]),("Original neu",F,[("Zeitraum",F,[])]),("Skript",F,[])]),
  ast("Geometrie"),ast("Funktionen"),ast("Daten + Zufall")])
@@ -35,7 +36,7 @@ def draw(tree,W,G=22,k=1.6):
     o.append('</svg>')
     return '\n'.join(o)
 ZT=("Zeitraum",F,[("neuestes offenes",F,[]),("2022–2026",F,[]),("ältere",F,[("neuestes offenes",F,[]),("2017–2021",F,[]),("ältere → 2014–16",F,[]),("Jahr wählen",F,[])]),("Jahr wählen",F,[])])
-svg='<div id="baum">'+draw(tree,W)+'\n<h1 style="margin-top:14px;font-size:15px">Zeitraum bei Original und Original neu (nach dem Thema; Basis statt des Themas)</h1>\n'+draw(ZT,[62,92,100],k=1.15)+'\n<p style="margin-top:6px"><b style="display:inline">Lösung, keine Wahl, immer dabei:</b> Original → Lösungsblatt als eigene Datei, immer mitgeliefert, Druck nach Wahl · Original neu → Streifen · Skript → nur Streifen. Der Baum zeigt nur Entscheidungen. Stufen: Ast → Art → Thema. Original = Heftseiten · Original neu = neu gesetzt, nach Teilaufgaben zugeschnitten · Skript = aus der Bank. Ein Blatt für EBR und FOR, FOR-Teile mit *. Original in den Themen-Ästen: ganze Aufgaben, jüngste zuerst. „neuestes offenes“ = neuestes Jahr, das der genannte Schüler noch nicht bekommen hat; ohne Namen das neueste. Vor dem Bau eine Zeile „Name · Sorte“ zum Prüfen.</p></div>'
+svg='<div id="baum">'+draw(tree,W)+'\n<h1 style="margin-top:14px;font-size:15px">Zeitraum bei Original und Original neu (nach dem Thema; Basis statt des Themas)</h1>\n'+draw(ZT,[62,92,100],k=1.15)+'\n<p style="margin-top:6px"><b style="display:inline">Lösung, keine Wahl, immer dabei:</b> Original → Lösungsblatt als eigene Datei, immer mitgeliefert, Druck nach Wahl · Original neu → Streifen · Skript → nur Streifen. Der Baum zeigt nur Entscheidungen. Stufen: Ast → Art → Thema. Original = Heftseiten · Original neu = neu gesetzt (Layout), nach Teilaufgaben zugeschnitten, passende Teilaufgaben aus anderen Aufgaben erlaubt; Bau zuletzt (Wortlaut Aufgaben 2–7 noch nicht erfasst) · Skript = aus der Bank. Ein Blatt für EBR und FOR, FOR-Teile mit *. Original in den Themen-Ästen: ganze Aufgaben, jüngste zuerst. „neuestes offenes“ = neuestes Jahr, das der genannte Schüler noch nicht bekommen hat; ohne Namen das neueste. Vor dem Bau eine Zeile „Name · Sorte“ zum Prüfen.</p></div>'
 s=open(__import__('os').path.join(__import__('os').path.dirname(__file__),'..','offen.html'),encoding='utf-8').read()
 s=re.sub(r'<p>Stand 03.10.2026 · Freitext.*?</p>','<p>Stand 03.10.2026 · Freitext geht immer · durchgezogen = fest, gestrichelt = in Arbeit, <span style="color:#d9822b;font-size:13px">orange = Schritt mit Vorschlag</span></p>',s,count=1,flags=re.S)
 if '<div id="baum">' in s: s=re.sub(r'<div id="baum">.*?</div>',lambda m:svg,s,count=1,flags=re.S)
