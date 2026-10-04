@@ -1,7 +1,7 @@
 """Skript-Zuschnitt P10: prüft die Zuordnung und baut die Übersicht.
 
-Liest msa/skript-zuschnitt-p10.csv (gebiet; abschnitt; stufe; ids;
-neben) und die P10-Katalogzeilen 2022-2026 (ohne EBR).
+Liest msa/skript-zuschnitt-p10.csv (gebiet; kapitel; abschnitt;
+stufe; ids; neben) und die P10-Katalogzeilen 2022-2026 (ohne EBR).
 Regeln (Lehrer 04.10.):
 - ids = Hauptplatz; jede Teilaufgabe hat genau einen.
 - neben = Nebenplatz; nur wo der Schritt dort eine eigene Stufe
@@ -65,13 +65,18 @@ out = ['# Skript-Zuschnitt P10 – Vorschlag',
        '(Original, Antwortbogen), ohne Skript (Lehrer 04.10.).',
        '']
 warn = []
-geb = ab = None
+geb = kap = ab = None
 for z in zu:
     k = (z['gebiet'], z['abschnitt'])
     if z['gebiet'] != geb:
         geb = z['gebiet']
         n = sum(len(v) for kk, v in H.items() if kk[0] == geb)
         out += ['', f'## {geb} ({n} Teilaufgaben)']
+        kap = None
+    if z['kapitel'] != kap:
+        kap = z['kapitel']
+        if kap != '–':
+            out += ['', f'### Kapitel {kap}']
     if z['abschnitt'] != ab:
         ab = z['abschnitt']
         ids, nb = H[k], N[k]
@@ -85,7 +90,7 @@ for z in zu:
             kopf += f' · dazu {len(nb)} aus anderen Abschnitten'
         if len(nb) > len(ids):
             warn.append(ab)
-        out += ['', f'### {ab} – {kopf}']
+        out += ['', f'#### {ab} – {kopf}']
     teile = [f'{i} ({rows[i]["typ"]})' for i in z['ids'].split()]
     teile += [f'{i} ({rows[i]["typ"]}; kennst du aus „{haupt[i]}“)'
               for i in z['neben'].split()]
