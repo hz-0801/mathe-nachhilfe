@@ -65,7 +65,10 @@ Fest (03./04.10.), Einzelheiten in offen.html:
   Schulen BB außer Nr. 18 (keine Mathe-Prüfung).
 
 Nicht erledigt: Skript-Zuschnitt (Handgriffe als Gliederung) und
-Bausteine; Lösungsform Skript; FHR-Feinheiten; Handreichungen.
+Bausteine, ausführlich als Vorgaben ans Skript (Lehrer 04.10.:
+„detaillierter“); dabei Verzeichnisse des Skripts (Inhalts- und
+Stichwortverzeichnis wie bei Original neu?); Lösungsform Skript;
+FHR-Feinheiten; Handreichungen.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
