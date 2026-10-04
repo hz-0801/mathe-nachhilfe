@@ -1,0 +1,38 @@
+id;kurz;zwischen;stich;neben;abh;sympy
+2025-OS-B1a;30 €;G = W : p;Grundwert|Prozentsatz|Rabatt;;;ok
+2025-OS-B1b;90 min;1 h = 60 min;Stunden|Minuten|Zeiteinheiten;;;ok
+2025-OS-B1c;ein Viertel schraffiert, z. B. Dreieck Ecke–Mitte–Ecke oder kleines Quadrat aus den Mittellinien;Diagonalen oder Mittellinien;Bruchteil|Viertel|Quadrat|Diagonale;Ebene Figuren und Winkel;;nicht rechenbar
+2025-OS-B1d;5;8,5 · 10^5 = 850 000;Zehnerpotenz|Exponent|wissenschaftliche Schreibweise;;;ok
+2025-OS-B1e;≈ 40,3 %;145 : 360 = 0,4028;Kreissektor|Mittelpunktswinkel|Prozentsatz|Anteil;Prozentrechnung;;ok
+2025-OS-B1f;erste Abbildung (fallende Gerade);Gerade ohne Knick;lineare Funktion|Gerade|Graph|Parabel|Hyperbel;;;nicht rechenbar
+2025-OS-B1g;sin γ = u/w;sin = Gegenkathete : Hypotenuse;Sinus|Gegenkathete|Hypotenuse;;;nicht rechenbar
+2025-OS-B1h;x = −2;(−2) · 3 = −6;Probe|Einsetzen|Lösung|negative Zahlen;Rationale Zahlen rechnen;;ok
+2025-OS-B1i;A = a · (b + c);Gesamthöhe b + c;Rechteck|Flächeninhalt|Term|Distributivgesetz;Terme umformen;;nicht rechenbar
+2026-FOR-B1a;21 €;W = G · p;Prozentwert|Prozentsatz|Grundwert;;;ok
+2026-FOR-B1b;vierte Abbildung (Kreis mit 120°-Sektor);120° : 360° = 1/3;Bruchteil|Drittel|Kreissektor;Flächeninhalt und Umfang;;ok
+2026-FOR-B1c;gibt es ein Paar paralleler Seiten;Definition Trapez;Trapez|parallele Seiten|Vierecke;;;nicht rechenbar
+2026-FOR-B1d;>;3,5 m = 350 cm;Meter|Zentimeter|Längeneinheiten|Vergleich;;;ok
+2026-FOR-B1e;erste Tabelle (y = 12, 3, 0, 3, 12);3 · 2² = 12;Wertetabelle|quadratische Funktion|Funktionsgleichung;;;ok
+2026-FOR-B1f;27 cm³;V = a³;Würfel|Volumen|Kantenlänge;;;ok
+2026-FOR-B1g;−25;5 · (−5);Termwert|Einsetzen|negative Zahlen;Terme umformen;;ok
+2026-FOR-B1h;10 cm;u = 2 · (a + b);Rechteck|Umfang;;;ok
+2026-FOR-B1i;β = 105°;180° − 75°;Parallelogramm|Nebenwinkel|Winkel;;;ok
+2026-FOR-B1j;w = √(u² + v²) (dritte Option);w² = u² + v²;Satz des Pythagoras|Hypotenuse|Kathete;;;nicht rechenbar
+2024-OS-B1a;195 min;1 h = 60 min;Stunden|Minuten|Zeiteinheiten;;;ok
+2024-OS-B1b;1/2 (50 %);8 von 16 Kästchen;Bruchteil|Hälfte|Quadrat|Kästchen zählen;Flächeninhalt und Umfang;;ok
+2024-OS-B1c;u = 3 · a;drei gleich lange Seiten;gleichseitiges Dreieck|Umfang|Term;;;nicht rechenbar
+2024-OS-B1d;x = 6,5;Produkt gleich null ⇒ Klammer gleich null;lineare Gleichung|Klammer|Satz vom Nullprodukt;;;ok
+2024-OS-B1e;4,20 €;20 % von 3,50 € = 0,70 €;Preiserhöhung|Prozentwert|Wachstumsfaktor;;;ok
+2024-OS-B1f;z = √(x² − y²) (vierte Option);z² = x² − y²;Satz des Pythagoras|Kathete|Hypotenuse;;;nicht rechenbar
+2024-OS-B1g;x = 4;4⁴ = 256;Potenz|Exponent|Basis;;;ok
+2024-OS-B1h;19 °C;sortiert 11, 17, 18, 20, 21, 21 | Mitte zwischen 18 und 20;Median|Zentralwert|sortieren;;;ok
+2024-OS-B1i;Punkt (0|−1) markiert;n = −1;y-Achsenabschnitt|lineare Funktion|Schnittpunkt mit der y-Achse;Koordinaten und Zeichnen;;ok
+2023-OS-B1a;37,5 min;6,25 min je km;proportionale Zuordnung|Dreisatz|Geschwindigkeit;;;ok
+2023-OS-B1b;800 €;G = W : p;Grundwert|Prozentsatz|Gewinn;;;ok
+2023-OS-B1c;105 mm;A = a · b;Rechteck|Flächeninhalt|Seitenlänge;;;ok
+2023-OS-B1d;6 Kästchen markiert (beliebige Lage);24 Kästchen;Prozent|Bruchteil|Viertel|markieren;Prozentrechnung;;ok
+2023-OS-B1e;x = 8;3 · (x − 8) = 0;lineare Gleichung|Klammer|Satz vom Nullprodukt;;;ok
+2023-OS-B1f;0,4²;0,4² = 0,16;Dezimalzahl|Prozent|Potenz|Zahlen ordnen;Potenzen und Wurzeln|Prozentrechnung;;ok
+2023-OS-B1g;BC = 6 cm (α = β ⇒ gleichschenklig) | γ = 40°;180° − 2 · 70°;gleichschenkliges Dreieck|Basiswinkel|Winkelsumme;;;ok
+2023-OS-B1h;3 · (2a − 13);Doppeltes 2a, Differenz 2a − 13;Term|Differenz|Doppeltes|verdreifachen;;;nicht rechenbar
+2023-OS-B1i;(3|−24), denn f(3) = −18 ≠ −24;f(3) = −18;Punktprobe|lineare Funktion|Einsetzen;Lineare Funktionen;;ok
