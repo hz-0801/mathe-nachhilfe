@@ -1,26 +1,59 @@
-"""Skript-Zuschnitt P10: prüft die Zuordnung und baut die Übersicht.
+"""Skript-Zuschnitt: prüft die Zuordnung und baut die Übersicht.
 
-Liest msa/skript-zuschnitt-p10.csv (gebiet; kapitel; abschnitt;
-stufe; ids; neben) und die P10-Katalogzeilen 2022-2026 (ohne EBR).
+Liest je Profil die Zuschnitt-CSV (gebiet; kapitel; abschnitt; stufe;
+ids; neben) und die Katalogzeilen der Grundlage.
 Regeln (Lehrer 04.10.):
 - ids = Hauptplatz; jede Teilaufgabe hat genau einen.
 - neben = Nebenplatz; nur wo der Schritt dort eine eigene Stufe
   bildet; nie im eigenen Abschnitt; nur im bestätigten Zuschnitt.
 - Gezählt („kommt das dran?“) werden nur Hauptplätze.
 - Gemeldet wird jeder Abschnitt mit mehr Neben- als Hauptplätzen.
-Schreibt msa/skript-zuschnitt-p10.md. Aufruf aus der Repo-Wurzel:
-python3 werkzeuge/skript-zuschnitt.py
+Profile (Argument, Standard p10):
+  p10    msa/skript-zuschnitt-p10.csv, P10-Katalog 2022-2026 ohne EBR,
+         schreibt msa/skript-zuschnitt-p10.md
+  abi-gk abitur/skript-zuschnitt-abi-gk.csv, abi-katalog.csv mit papier
+         2022-bebb-gk … 2025-bebb-gk, 2026-bb-gk,
+         schreibt abitur/skript-zuschnitt-abi-gk.md
+Aufruf aus der Repo-Wurzel: python3 werkzeuge/skript-zuschnitt.py [p10|abi-gk]
 """
 import csv, collections, sys
 
-KAT = ['msa/msa-katalog-basis.csv', 'msa/msa-katalog-kontext.csv']
-ZU = 'msa/skript-zuschnitt-p10.csv'
-OUT = 'msa/skript-zuschnitt-p10.md'
+PROFIL = {
+    'p10': dict(
+        kat=['msa/msa-katalog-basis.csv', 'msa/msa-katalog-kontext.csv'],
+        filt=lambda x: x['jahr'] >= '2022' and x['papier'] != 'EBR',
+        zu='msa/skript-zuschnitt-p10.csv',
+        out='msa/skript-zuschnitt-p10.md',
+        titel='Skript-Zuschnitt P10 – Vorschlag',
+        grund='{n} Teilaufgaben 2022–2026 (OS, ab 2026 FOR)',
+        basis='Basisaufgaben (B1…) in den Gebieten stehen zusätzlich '
+              'als unterste Stufe; der Basisteil bleibt ganz und gemischt '
+              '(Original, Antwortbogen), ohne Skript (Lehrer 04.10.).'),
+    'abi-gk': dict(
+        kat=['abitur/abi-katalog.csv'],
+        filt=lambda x: x['papier'] in {'2022-bebb-gk', '2023-bebb-gk',
+                                       '2024-bebb-gk', '2025-bebb-gk',
+                                       '2026-bb-gk'},
+        zu='abitur/skript-zuschnitt-abi-gk.csv',
+        out='abitur/skript-zuschnitt-abi-gk.md',
+        titel='Skript-Zuschnitt Abitur GK – Entwurf',
+        grund='{n} Teilaufgaben 2022–2026 (Brandenburg GK: 2022–2025 '
+              'gemeinsame Hefte Berlin/Brandenburg, 2026 bb-gk)',
+        basis='Hilfsmittelfreie Teilaufgaben (A1…) in den Gebieten stehen '
+              'zusätzlich als unterste Stufe; der hilfsmittelfreie Teil '
+              'bleibt ganz und gemischt, ohne Skript (Regel wie P10, '
+              '04.10.).'),
+}
+name = sys.argv[1] if len(sys.argv) > 1 else 'p10'
+if name not in PROFIL:
+    sys.exit(f'unbekanntes Profil {name}; bekannt: {", ".join(PROFIL)}')
+P = PROFIL[name]
+KAT, ZU, OUT = P['kat'], P['zu'], P['out']
 
 rows = {}
 for f in KAT:
     for x in csv.DictReader(open(f, encoding='utf-8'), delimiter=';'):
-        if x['jahr'] >= '2022' and x['papier'] != 'EBR':
+        if P['filt'](x):
             rows[x['id']] = x
 
 zu = list(csv.DictReader(open(ZU, encoding='utf-8'), delimiter=';'))
@@ -53,16 +86,14 @@ for z in zu:
     H[(z['gebiet'], z['abschnitt'])] += z['ids'].split()
     N[(z['gebiet'], z['abschnitt'])] += z['neben'].split()
 
-out = ['# Skript-Zuschnitt P10 – Vorschlag',
+out = [f'# {P["titel"]}',
        '',
        'Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus '
-       '`msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: '
-       f'{len(rows)} Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: '
+       f'`{ZU}`; nie von Hand ändern. Grundlage: '
+       f'{P["grund"].format(n=len(rows))}. Je Abschnitt: '
        'Teilaufgaben · Jahrgänge · zuletzt · BE, gezählt nur Hauptplätze; '
        'Nebenplätze getrennt („dazu n aus anderen Abschnitten“). Stufen in '
-       'Leiterfolge. Basisaufgaben (B1…) in den Gebieten stehen zusätzlich '
-       'als unterste Stufe; der Basisteil bleibt ganz und gemischt '
-       '(Original, Antwortbogen), ohne Skript (Lehrer 04.10.).',
+       'Leiterfolge. ' + P['basis'],
        '']
 warn = []
 geb = kap = ab = None
