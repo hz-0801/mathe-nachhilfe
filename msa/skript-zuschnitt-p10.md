@@ -1,25 +1,28 @@
 # Skript-Zuschnitt P10 – Vorschlag
 
-Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: 146 Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: Teilaufgaben · Jahrgänge · zuletzt · BE. Stufen in Leiterfolge. Basisaufgaben (B1…) in den Gebieten stehen zusätzlich als unterste Stufe; der Basisteil bleibt ganz und gemischt (Original, Antwortbogen), ohne Skript (Lehrer 04.10.).
+Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: 146 Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: Teilaufgaben · Jahrgänge · zuletzt · BE, gezählt nur Hauptplätze; Nebenplätze getrennt („dazu n aus anderen Abschnitten“). Stufen in Leiterfolge. Basisaufgaben (B1…) in den Gebieten stehen zusätzlich als unterste Stufe; der Basisteil bleibt ganz und gemischt (Original, Antwortbogen), ohne Skript (Lehrer 04.10.).
 
 
 ## Geometrie (51 Teilaufgaben)
 
-### Länge mit Pythagoras – 10 · 4 J · zuletzt 2026 · 23 BE
+### Länge mit Pythagoras – 9 · 4 J · zuletzt 2026 · 19 BE · dazu 1 aus anderen Abschnitten
 - neu: Gleichung aufstellen – 2022-OS-B1g (Satz des Pythagoras formulieren), 2024-OS-B1f (Pythagoras Gleichung zuordnen), 2026-FOR-B1j (Pythagoras Gleichung zuordnen)
 - neu: Kathete oder Hypotenuse direkt – 2022-OS-K5a (Pythagoras Kathete), 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse)
-- neu: Dreieck erst in Figur oder Körper finden – 2026-FOR-K2c (Pythagoras Kathete), 2025-OS-K4a (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen)
+- neu: Dreieck erst in Figur oder Körper finden – 2026-FOR-K2c (Pythagoras Kathete), 2025-OS-K4a (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
 
 ### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE
 - neu: Seitenverhältnis benennen – 2025-OS-B1g (Winkelfunktion Seitenverhältnis angeben)
 - neu: Winkel berechnen – 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen)
 - neu: Seite berechnen – 2022-OS-K5d (Seite im rechtwinkligen Dreieck berechnen), 2026-FOR-K4c (Seite im rechtwinkligen Dreieck berechnen), 2023-OS-K7b (Seite im rechtwinkligen Dreieck berechnen)
 
+### Pythagoras oder Winkelfunktion? – keine eigenen Teilaufgaben · dazu 6 aus anderen Abschnitten
+- neu: gemischt, ohne Überschrift je Aufgabe – 2022-OS-K5a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“), 2024-OS-K6a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“), 2026-FOR-K4a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“)
+
 ### Seite im allgemeinen Dreieck (Sinussatz) – 2 · 2 J · zuletzt 2025 · 7 BE
 - neu: Seite berechnen – 2024-OS-K6d (Sinussatz Seite berechnen), 2025-OS-K4c (Sinussatz Seite berechnen)
 
-### Winkel ohne Rechnung bestimmen oder begründen – 8 · 4 J · zuletzt 2026 · 11 BE
-- neu: Eigenschaft erkennen – 2026-FOR-B1c (Eigenschaft einer Figur zuordnen), 2022-OS-B1i (Symmetrieachsen bestimmen)
+### Winkel ohne Rechnung bestimmen oder begründen – 7 · 4 J · zuletzt 2026 · 10 BE
+- neu: Eigenschaft erkennen – 2026-FOR-B1c (Eigenschaft einer Figur zuordnen)
 - neu: Winkelsumme – 2022-OS-K5c (Winkelsumme im Dreieck anwenden), 2023-OS-K2a (Winkel im Viereck berechnen), 2026-FOR-B1i (Winkel im Viereck berechnen)
 - neu: gleichschenkliges Dreieck – 2023-OS-B1g (Gleichschenkliges Dreieck erkennen), 2023-OS-K7a (Gleichschenkliges Dreieck erkennen)
 - neu: rechten Winkel begründen – 2025-OS-K2c (Rechten Winkel begründen)
@@ -42,6 +45,9 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Netz erkennen – 2022-OS-K2a (Netz eines Zylinders erkennen)
 - neu: Netz mit Maßen skizzieren – 2023-OS-K5a (Mantelfläche Zylinder als Netz skizzieren)
 - neu: Körper im Schrägbild skizzieren – 2024-OS-K4b (Körper in Schrägbild skizzieren)
+
+### Symmetrie – 2 · 2 J · zuletzt 2025 · 5 BE
+- neu: Symmetrieachsen zählen – 2022-OS-B1i (Symmetrieachsen bestimmen), 2025-OS-K2a (Symmetrieachsen bestimmen)
 
 ## Funktionen (31 Teilaufgaben)
 
@@ -90,13 +96,14 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ## Daten + Zufall (38 Teilaufgaben)
 
-### Prozent – 10 · 5 J · zuletzt 2026 · 16 BE
+### Prozent – 10 · 5 J · zuletzt 2026 · 16 BE · dazu 1 aus anderen Abschnitten
 - neu: Prozent und Anteil umwandeln – 2022-OS-B1f (Prozent und Anteil umwandeln)
 - neu: Prozentwert – 2026-FOR-B1a (Prozentwert berechnen)
 - neu: Prozentsatz – 2023-OS-K6a (Prozentsatz berechnen)
 - neu: Grundwert – 2023-OS-B1b (Grundwert berechnen), 2025-OS-B1a (Grundwert berechnen)
 - neu: Erhöhung und Veränderung in Prozent – 2024-OS-B1e (Wert nach prozentualer Erhöhung berechnen), 2022-OS-K4b (Prozentuale Veränderung berechnen), 2026-FOR-K3c (Prozentuale Veränderung berechnen)
 - neu: Aussagen prüfen – 2023-OS-K6b (Anteilsaussage prüfen und korrigieren), 2025-OS-K4b (Steigung in Prozent deuten)
+- neu: Prozent aus einer berechneten Fläche – 2023-OS-K5c (Verschnitt in Prozent berechnen; kennst du aus „Flächeninhalt und Umfang“)
 
 ### Kenngrößen – 10 · 5 J · zuletzt 2026 · 22 BE
 - neu: Minimum, Maximum, Spannweite – 2026-FOR-K3a (Spannweite berechnen), 2024-OS-K2a (Spannweite berechnen), 2023-OS-K6c (Spannweite berechnen), 2022-OS-K4a (Minimum und Maximum ablesen)
@@ -144,3 +151,5 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Dreisatz – 4 · 3 J · zuletzt 2024 · 5 BE
 - neu: Dreisatz – 2022-OS-B1b (Proportionale Zuordnung Dreisatz), 2023-OS-B1a (Proportionale Zuordnung Dreisatz), 2024-OS-K2d (Kosten aus Menge und Preis berechnen), 2024-OS-K6c (Dauer aus Menge und Rate berechnen)
+
+Mehr Neben- als Hauptplätze: Pythagoras oder Winkelfunktion?.
