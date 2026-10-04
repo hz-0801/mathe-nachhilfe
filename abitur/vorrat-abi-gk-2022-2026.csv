@@ -1,0 +1,37 @@
+id;kurz;zwischen;stich;neben;abh;sympy
+2023-bebb-gk-A1.1a;"t2: y = −4/3 x + 4; Graph symmetrisch zur y-Achse ⇒ t2 ist Spiegelbild von t1, Steigung wechselt das Vorzeichen, Achsenabschnitt bleibt";;Tangente|Achsensymmetrie|Spiegelung an der y-Achse|Steigung;Funktionsklassen und Eigenschaften;;ok
+2023-bebb-gk-A1.1b;Umfang 16;Nullstellen von t1 und t2 bei x = −3 und x = 3|Schenkel 5;Tangente|Dreieck|Umfang|Satz des Pythagoras|Nullstelle;Gleichungen lösen;2023-bebb-gk-A1.1a;ok
+2023-bebb-gk-A1.2a;≈ 2,9 (2,8 bis 3,1 vertretbar);Schranken: Rechtecke mit Inhalt 2 und 4;Integral|Flächeninhalt|Näherungswert|Kästchen zählen;;;nicht rechenbar
+2023-bebb-gk-A1.2b;Graph durch (0 | 0), überall steigend, Wendepunkt bei x = 2, links nahe der Geraden y = x, rechts waagerechte Asymptote bei etwa 6,5;F(2) ≈ 2,9;Stammfunktion|Monotonie|Wendepunkt|Asymptote;Kurvenuntersuchung|Grenzwerte und Verhalten im Unendlichen;2023-bebb-gk-A1.2a;nicht rechenbar
+2023-bebb-gk-A1.3a;x = 0 und x = 2;f'(x) = 3x² − 6x;Extremstelle|Ableitung|Nullstelle;Ableitungsregeln|Gleichungen lösen;;ok
+2023-bebb-gk-A1.3b;f(−1) = g(−1) = −4 und f'(−1) = 9 = Steigung von g ⇒ g ist Tangente in P ⇒ Berührung;f'(−1) = 9;Berührpunkt|Tangente|Steigung|Punktprobe;Ableitungsregeln;;ok
+2023-bebb-gk-A1.4a;"Nein; alle Punkte von g haben die y-Koordinate 3, A hat 0";;Gerade|Punktprobe|Parameterform;;;ok
+2023-bebb-gk-A1.4b;b = 6;r = 3, s = 5|Schnittpunkt (7 | 3 | 18);Schnittpunkt|Gerade|Gleichsetzen|lineares Gleichungssystem;Geraden|Gleichungen lösen;2023-bebb-gk-A1.4a;ok
+2023-bebb-gk-A1.5a;|CA| = |CB| = √27 ⇒ gleichschenklig mit Spitze C;CA = (−3 | −3 | −3)|CB = (−1 | −1 | 5);Betrag eines Vektors|Abstand zweier Punkte|gleichschenkliges Dreieck;Vektoren und Rechenoperationen;;ok
+2023-bebb-gk-A1.5b;D(0 | −1 | 7) (eine mögliche Lösung);M(2 | 1 | 6)|D = A + B − C;Mittelpunkt|Punktspiegelung|Raute|Betrag eines Vektors;Spiegelung|Vektoren und Rechenoperationen;2023-bebb-gk-A1.5a;ok
+2023-bebb-gk-A1.6a;13/25 = 0,52;(3/5)² = 9/25|(2/5)² = 4/25;Pfadregel|Ziehen mit Zurücklegen|Urne;Zufallsexperimente und Urnenmodelle;;ok
+2023-bebb-gk-A1.6b;7/10 = 0,7;P(genau 2 rote) = 3/5|P(3 rote) = 1/10;Ziehen ohne Zurücklegen|Pfadregel|Binomialkoeffizient;Baumdiagramm und Pfadregeln|Hypergeometrische Verteilung;;ok
+2023-bebb-gk-A1.7a;≈ 0,29 (0,28 bis 0,30 vertretbar);P(X = 4) ≈ 0,19|P(X = 5) ≈ 0,10;Säulendiagramm|Wahrscheinlichkeitsverteilung|Binomialverteilung;Zufallsgrößen und Verteilungen;;ok
+2023-bebb-gk-A1.7b;"Abb. 2; Maximum bei k = E(Y) = 3 und Summe der Säulen 1 (Abb. 1: Maximum bei 5; Abb. 3: Summe > 1)";E(Y) = 12 · 0,25 = 3;Binomialverteilung|Erwartungswert|Säulendiagramm|Wahrscheinlichkeitsverteilung;Kenngrößen von Verteilungen;;ok
+2023-bebb-gk-B2.1a;"x → +∞: f(x) → +∞; x → −∞: f(x) → 0";;Grenzverhalten|e-Funktion|Asymptote;Funktionsklassen und Eigenschaften;;ok
+2023-bebb-gk-B2.1b;"(0 | −2), (−2 | 0), (2 | 0); R(0 | 2)";f(0) = −2|x² − 4 = 0;Nullstelle|Schnittpunkt mit der y-Achse|Raute|Punktspiegelung;Gleichungen lösen|Punkte und Strecken im Koordinatensystem;;ok
+2023-bebb-gk-B2.1c;"f'(−1 + √5) = 0 ⇒ waagerechte Tangente; f(−1 + √5) = (1 − √5) · e^(√5 − 1) ≈ −4,25";(−1 + √5)² = 6 − 2√5;waagerechte Tangente|Ableitung|Funktionswert;Kurvenuntersuchung;;ok
+2023-bebb-gk-B2.1d;"I falsch; Tiefpunkt hat den kleinsten Wert seiner Umgebung ⇒ f(−0,9 + √5) > f(−1 + √5). II wahr; rechts der Tiefstelle steigt G ⇒ f'(−0,9 + √5) > 0";f(−0,9 + √5) ≈ −4,21|f'(−0,9 + √5) ≈ 0,87;Tiefpunkt|Monotonie|Ableitung|Aussagen beurteilen;Ableitung und Änderungsrate;2023-bebb-gk-B2.1c;ok
+2023-bebb-gk-B2.1e;"streng monoton fallend auf [0; −1 + √5], streng monoton steigend auf [−1 + √5; ∞)";Tiefstelle −1 + √5 ≈ 1,24;Monotonie|Tiefpunkt|Intervall;;2023-bebb-gk-B2.1c;ok
+2023-bebb-gk-B2.1f;W1(−4,45 | 0,09), W2(0,45 | −2,98);f''(x) = (0,5x² + 2x − 1) · e^x|x = −2 ± √6;Wendepunkt|zweite Ableitung|Produktregel|quadratische Gleichung;Ableitungsregeln|Gleichungen lösen;;ok
+2023-bebb-gk-B2.1g;"beide Dreiecke rechtwinklig im Ursprung; Normale ⊥ Tangente ⇒ Winkel der Tangente zur x-Achse = Winkel der Normalen zur y-Achse ⇒ zwei gleiche Winkel ⇒ ähnlich (Streckfaktor ≈ 2,3)";f'(0,45) ≈ −2,27|Tangente schneidet die Achsen bei −0,86 und −1,96, Normale bei 7,21 und −3,17;Wendetangente|Normale|ähnliche Dreiecke|Steigungswinkel;Ableitung und Änderungsrate;2023-bebb-gk-B2.1f;ok
+2023-bebb-gk-B2.1h;f'(a) · f''(a) = −1 ⇒ Tangente an G in a ⊥ Tangente an den Graphen von f' in a;;Orthogonalität von Geraden|Tangente|Ableitungsgraph|Steigung;Tangente, Normale, Schnittwinkel;;nicht rechenbar
+2023-bebb-gk-B2.1i;"z. B. g(x) = f(−x) = 0,5 · (x² − 4) · e^(−x) (IV. Quadrant) und h(x) = −f(x) = −0,5 · (x² − 4) · e^x (II. Quadrant); k(x) = −f(−x) (I. Quadrant)";;Spiegelung an der y-Achse|Spiegelung an der x-Achse|Symmetrie|Transformation;;;ok
+2023-bebb-gk-B2.1j;≈ 30,3°;f'(−2) = −2e^(−2) ≈ −0,271|Steigungswinkel ≈ 15,15°;Schnittwinkel|Steigungswinkel|Tangente|Arkustangens;Ableitung und Änderungsrate;;ok
+2023-bebb-gk-B2.1k;180 l;Grundfläche 60 cm × 60 cm|Höhe 50 cm;Quader|Volumen|Maßstab|Einheiten umrechnen;;2023-bebb-gk-B2.1b;ok
+2023-bebb-gk-B2.1l;"F(x) = (0,5x² − x − 1) · e^x; A = 4 · (1 + 3e^(−2)) LE² ≈ 5,62 LE² ≈ 1265 cm²";∫ von −2 bis 0 f(x) dx = −1 − 3e^(−2) ≈ −1,406|1 LE² = 225 cm²;Stammfunktion|Integral|Flächeninhalt|Symmetrie|Maßstab;Flächeninhalt durch Integration|Integrationsregeln;2023-bebb-gk-B2.1b;ok
+2023-bebb-gk-B2.1m;"Skizze: vier nach außen gewölbte Bögen von Spitze zu Spitze; Lösungsweg: Zuwachs = 8 · (Dreiecksfläche 2 − |∫ von −2 bis 0 f(x) dx|) LE², mal 225 cm²/LE² (≈ 1069 cm²)";Fläche zwischen Sehne und Graph je Quadrant ≈ 0,594 LE²;Spiegelung an einer Geraden|Sehne|Fläche zwischen Graph und Gerade|Symmetrie;Stammfunktion und Hauptsatz;2023-bebb-gk-B2.1l;ok
+2023-bebb-gk-B2.2a;"(0 | −50); genau zwei Nullstellen x = 2 und x = 5 (doppelt)";f(x) = (x − 5)² · (x − 2);Nullstelle|Linearfaktor|doppelte Nullstelle|Schnittpunkt mit der y-Achse;Gleichungen lösen;;ok
+2023-bebb-gk-B2.2b;H(3 | 4), T(5 | 0);f'(x) = 3x² − 24x + 45|f''(x) = 6x − 24;Extrempunkt|Hochpunkt|Tiefpunkt|zweite Ableitung;Ableitungsregeln|Gleichungen lösen;;ok
+2023-bebb-gk-B2.2c;W(4 | 2);f''(x) = 6x − 24;Wendepunkt|zweite Ableitung;Ableitungsregeln;;ok
+2023-bebb-gk-B2.2d;"(12 | 490); t: y = 45x − 50";f'(0) = 45|f(x) − t(x) = x²(x − 12) = 0;Tangente|Schnittpunkt|Ableitung|kubische Gleichung;Gleichungen lösen|Ableitungsregeln;;ok
+2023-bebb-gk-B2.2e;"falsch; Wendetangente trifft den Graphen nur in W";Wendetangente y = −3x + 14|f(7) = 20;Skizze|Wendetangente|Tangente|Aussagen beurteilen;Tangente, Normale, Schnittwinkel;2023-bebb-gk-B2.2b|2023-bebb-gk-B2.2c;ok
+2023-bebb-gk-B2.2f;"genau eine Nullstelle von g' (x = 5) ⇒ genau eine waagerechte Tangente; g' ≥ 0 ohne Vorzeichenwechsel ⇒ kein Extrempunkt (Sattelpunkt)";g'(x) = 1,2(x − 5)²;Ableitungsgraph|Sattelpunkt|Berührnullstelle|Vorzeichenwechsel|waagerechte Tangente;Kurvenuntersuchung;;ok
+2023-bebb-gk-B2.2g;"L = (0; 5) ∪ (5; ∞)";f(x) − g(x) = 0,6x(x − 5)²;Ungleichung|Faktorisieren|Vorzeichen|Lösungsmenge;Funktionsklassen und Eigenschaften;;ok
+2023-bebb-gk-B2.2h;≈ 230 °C (228 bis 235 °C vertretbar);Schwankung zwischen ≈ 222 °C und 245 °C;Mittelwert|Ablesen am Graphen|Dauerphase;;;nicht rechenbar
+2023-bebb-gk-B2.2i;"195; mittlere Temperatur in der Startphase (0 bis 5 min) ist 195 °C";∫ von 0 bis 5 h(x) dx = 975;Mittelwert einer Funktion|Integral|Stammfunktion|Sachzusammenhang;Stammfunktion und Hauptsatz;;ok
