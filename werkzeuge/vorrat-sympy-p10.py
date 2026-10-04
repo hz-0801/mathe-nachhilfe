@@ -453,6 +453,188 @@ def p_2023_OS_K2c():
     return r if r != "ok" else naeh(15 + R(258, 10) + 2 * s1, R(601, 10), " m")
 
 
+# ---------- Teilstück 4/4 (Kontext: 2023-OS-K3…K7, 2022-OS-K2…K7)
+
+def p_2023_OS_K3b():
+    a1 = 5 * 27 + (470 - 350) * R(36, 100)
+    a2 = 120 + 470 * R(9, 100)
+    r = genau(a1, R(17820, 100), " €")
+    if r != "ok": return r
+    r = genau(a2, R(16230, 100), " €")
+    return r if r != "ok" else ("ok" if a2 < a1 else "abw: Angebot 1 günstiger")
+
+def p_2023_OS_K4a():
+    f = 4 * x - 2
+    p = -(x + 1)**2 + 6
+    l = sorted(solve(Eq(f, p), x))
+    if l != [-7, 1]: return "abw: " + str(l)
+    ys = [f.subs(x, v) for v in l]
+    return "ok" if ys == [-30, 2] and f.subs(x, 0) == -2 else "abw: y " + str(ys)
+
+def p_2023_OS_K4b():
+    p = -(x + 1)**2 + 6
+    return "ok" if p.subs(x, -1) == 6 and solve(p.diff(x), x) == [-1] else "abw"
+
+def p_2023_OS_K4c():
+    l = sorted(solve(Eq(-x**2 - 2 * x + 5, -10), x))
+    r = "ok" if l == [-5, 3] else "abw: " + str(l)
+    if r != "ok": return r
+    return "ok" if expand(-(-x**2 - 2 * x + 5 + 10)) == x**2 + 2 * x - 15 else "abw: Normalform"
+
+def p_2023_OS_K5a():
+    return naeh(2 * pi * 4, R(251, 10), " cm")
+
+def p_2023_OS_K5b():
+    r = naeh(pi * 16, R(503, 10), " cm²")
+    return r if r != "ok" else naeh(pi * 16 * 8, R(4021, 10), " cm³")
+
+def p_2023_OS_K5c():
+    n = floor(R(100, 8))
+    r = genau(n, 12)
+    if r != "ok": return r
+    d = n * pi * 16
+    r = naeh(d, R(6032, 10), " cm²")
+    if r != "ok": return r
+    ab = 800 - d
+    r = naeh(ab, R(1968, 10), " cm²")
+    if r != "ok": return r
+    r = naeh(ab / 800 * 100, R(246, 10), " %")
+    return r if r != "ok" else ("ok" if ab / 800 <= R(25, 100) else "abw: > 25 %")
+
+def p_2023_OS_K5d():
+    r = naeh(pi * 16, R(503, 10), " cm²")
+    return r if r != "ok" else naeh(1000 / (pi * 16), R(199, 10), " cm")
+
+def p_2023_OS_K6a():
+    return naeh(R(125, 780) * 100, R(160, 10), " %")
+
+def p_2023_OS_K6b():
+    r = genau(R(39, 78), R(1, 2))
+    return r if r != "ok" else genau(R(195, 780), R(1, 4))
+
+def p_2023_OS_K6c():
+    d = {"Arabisch": 290, "Chinesisch": 1300, "Englisch": 500, "Hindi": 525, "Spanisch": 389}
+    if min(d, key=d.get) != "Arabisch" or max(d, key=d.get) != "Chinesisch": return "abw: Min/Max"
+    return genau(max(d.values()) - min(d.values()), 1010, " Mio.")
+
+def p_2023_OS_K6d():
+    k = R(389, R(78, 10))
+    r = naeh(k, 50, " Mio./Kästchen", tol=R(1, 2))
+    if r != "ok": return r
+    r = naeh(R(105, 10) * 50, 525, "", tol=R(1, 2))
+    return r if r != "ok" else naeh(R(290, 50), R(58, 10), " Kästchen")
+
+def p_2023_OS_K7a():
+    return genau(180 - 90 - 45, 45, "°")
+
+def p_2023_OS_K7b():
+    bf = R(1315, 10) * sin(rad(45))
+    af = R(1315, 10) * cos(rad(45))
+    r = naeh(bf, R(930, 10), " cm")
+    if r != "ok": return r
+    r = naeh(af, R(930, 10), " cm")
+    if r != "ok": return r
+    r = naeh(cos(rad(65)), R(4226, 10000), "", tol=R(1, 10000))
+    return r if r != "ok" else naeh(bf / cos(rad(65)), R(2200, 10), " cm")
+
+def p_2022_OS_K2a():
+    return naeh(2 * pi * R(32, 10), R(201, 10), " cm")
+
+def p_2022_OS_K2b():
+    r = naeh(pi * R(32, 10)**2, R(322, 10), " cm²")
+    if r != "ok": return r
+    v = pi * R(32, 10)**2 * 7
+    r = naeh(v, R(2252, 10), " cm³")
+    return r if r != "ok" else ("ok" if v > 200 else "abw: < 200")
+
+def p_2022_OS_K2c():
+    d = sqrt(7**2 + R(64, 10)**2)
+    r = naeh(d, R(95, 10), " cm")
+    return r if r != "ok" else naeh(d + 2, R(115, 10), " cm")
+
+def p_2022_OS_K2d():
+    r2 = 425 / (pi * 7)
+    r = naeh(r2, R(1933, 100), "", tol=R(1, 100))
+    return r if r != "ok" else naeh(sqrt(r2), R(440, 100), " cm", tol=R(1, 100))
+
+def p_2022_OS_K3a():
+    f = -2 * x + 3
+    r = genau(solve(f, x)[0], R(3, 2))
+    return r if r != "ok" else ("ok" if f.subs(x, 0) == 3 and f.subs(x, 1) == 1 else "abw: Punkte")
+
+def p_2022_OS_K3b():
+    p = (x - 2)**2 - 4
+    return "ok" if p.subs(x, 2) == -4 and solve(p.diff(x), x) == [2] else "abw"
+
+def p_2022_OS_K3c():
+    f = -2 * x + 3
+    l = sorted(solve(Eq((x - 2)**2 - 4, f), x))
+    if l != [-1, 3]: return "abw: " + str(l)
+    ys = [f.subs(x, v) for v in l]
+    return "ok" if ys == [5, -3] else "abw: y " + str(ys)
+
+def p_2022_OS_K4a():
+    d = {2017: 468, 2018: 432, 2019: 485, 2020: 470, 2021: 400}
+    if min(d, key=d.get) != 2021 or max(d, key=d.get) != 2019: return "abw: Min/Max"
+    r = genau(sum(d.values()), 2255)
+    return r if r != "ok" else genau(R(sum(d.values()), 5), 451)
+
+def p_2022_OS_K4b():
+    return naeh(R(470 - 400, 470) * 100, R(149, 10), " %")
+
+def p_2022_OS_K4c():
+    r = "ok" if 485 > 432 else "abw: kein Anstieg"
+    if r != "ok": return r
+    r = genau(432 - 400, 32)
+    if r != "ok": return r
+    r = naeh(R(32, 432) * 100, R(74, 10), " %")
+    return r if r != "ok" else ("ok" if R(400, 432) > R(1, 2) else "abw: mehr als Hälfte")
+
+def p_2022_OS_K4d():
+    return genau(R(16, 100) * 360, R(576, 10), "°")
+
+def p_2022_OS_K5a():
+    q = R(141, 10)**2 - R(74, 10)**2
+    r = genau(q, R(14405, 100))
+    return r if r != "ok" else naeh(sqrt(q), R(120, 10), " m")
+
+def p_2022_OS_K5b():
+    r = naeh(R(74, 141), R(525, 1000), "", tol=R(1, 1000))
+    return r if r != "ok" else naeh(grad(asin(R(74, 141))), R(317, 10), "°")
+
+def p_2022_OS_K5c():
+    return naeh(90 - grad(asin(R(74, 141))), R(583, 10), "°")
+
+def p_2022_OS_K5d():
+    r = naeh(sin(rad(52)), R(788, 1000), "", tol=R(1, 1000))
+    return r if r != "ok" else naeh(R(74, 10) / sin(rad(52)), R(94, 10), " m")
+
+def p_2022_OS_K5e():
+    db = R(74, 10) / tan(rad(52))
+    ad = sqrt(R(141, 10)**2 - R(74, 10)**2)
+    r = naeh(db, R(58, 10), " m")
+    if r != "ok": return r
+    c = ad + db
+    r = naeh(c, R(178, 10), " m")
+    return r if r != "ok" else naeh(c * R(74, 10) / 2, R(658, 10), " m²")
+
+def p_2022_OS_K6a():
+    r = genau(12 * 22, 264)
+    if r != "ok": return r
+    r = genau(1472 + 264, 1736, " €")
+    return r if r != "ok" else genau(990 + 12 * 55, 1650, " €")
+
+def p_2022_OS_K6b():
+    g = solve(Eq(55 * x + 990, 2000), x)[0]
+    r = naeh(g, R(1836, 100), "", tol=R(1, 100))
+    return r if r != "ok" else genau(ceiling(g), 19, " Monate")
+
+def p_2022_OS_K7b():
+    l = solve([Eq(x + y, 63), Eq(9 * x + 3 * y, R(35220, 100))], [x, y])
+    r = "ok" if l == {x: R(2720, 100), y: R(3580, 100)} else "abw: " + str(l)
+    return r if r != "ok" else genau(R(35220, 100) - 189, R(16320, 100))
+
+
 # ---------- Ausführung
 
 def alle():

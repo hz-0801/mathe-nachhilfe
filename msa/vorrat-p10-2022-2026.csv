@@ -110,3 +110,38 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2023-OS-K2a;γ = 124°;180° − 56°;Trapez|Nebenwinkel|Winkel an Parallelen;;;ok
 2023-OS-K2b;A = 163,2 m²;Mittellinie (25,8 + 15) : 2 = 20,4 m;Trapez|Flächeninhalt|Mittellinie|Höhe;;;ok
 2023-OS-K2c;U ≈ 60,1 m;Schenkel s = 8 : sin 56° ≈ 9,65 m (oder √(5,4² + 8²)) | Überstand (25,8 − 15) : 2 = 5,4 m;Trapez|Umfang|Schenkel|Sinus|Satz des Pythagoras;Trigonometrie im rechtwinkligen Dreieck|Satz des Pythagoras;;ok
+2023-OS-K3a;Angebot 1: C | Angebot 2: B;Angebot 1: konstant bis 350 km, dann steigend | Angebot 2: Grundgebühr, dann gleichmäßig steigend;Graph zuordnen|Grundgebühr|Freikilometer|Tarif;Lineare Funktionen|Diagramme lesen und beurteilen;;nicht rechenbar
+2023-OS-K3b;Angebot 1: 178,20 € | Angebot 2: 162,30 € | Angebot 2 günstiger | K(x) = 0,09x + 120;120 Mehrkilometer · 0,36 € = 43,20 € | 5 · 27 = 135 €;Gesamtkosten|Tarifvergleich|Freikilometer|lineare Funktion|Funktionsgleichung aufstellen;Rationale Zahlen rechnen;;ok
+2023-OS-K4a;Gerade durch (0|−2) und (1|2) | S(1|2) | Aussage 1 falsch, Aussage 2 wahr, Aussage 3 falsch;Steigung 4, y-Achsenabschnitt −2 | zweiter Schnittpunkt (−7|−30) außerhalb;Gerade zeichnen|Schnittpunkt ablesen|Steigung|y-Achsenabschnitt|Aussagen prüfen;Quadratische Funktionen|Koordinaten und Zeichnen;;ok
+2023-OS-K4b;S(−1|6) | p(x) = −(x + 1)² + 6;Scheitelpunktform p(x) = −(x − d)² + e mit d = −1, e = 6;Scheitelpunkt|Scheitelpunktform|nach unten geöffnete Normalparabel;;;ok
+2023-OS-K4c;x₁ = −5, x₂ = 3;x² + 2x − 15 = 0 | x = −1 ± 4;quadratische Gleichung|p-q-Formel|Funktionswert gegeben|Parabel;Quadratische Gleichungen;;ok
+2023-OS-K5a;Rechteck, a ≈ 25,1 cm, b = 8 cm;a = 2 · π · r (Umfang) | b = h;Mantelfläche|Abwicklung|Kreisumfang|Zylinder|Netz;Flächeninhalt und Umfang;;ok
+2023-OS-K5b;wahr, V = π · 4² · 8 ≈ 402,1 cm³ ≈ 400 ml;Grundfläche ≈ 50,3 cm² | 1 cm³ = 1 ml;Volumen|Zylinder|Milliliter|Nachweis;Einheiten umrechnen;;ok
+2023-OS-K5c;Ja, 12 Deckel, Abfall ≈ 196,8 cm² ≈ 24,6 % ≤ 25 %;100 : 8 = 12,5 ⇒ 12 Deckel | Deckelfläche 12 · π · 16 ≈ 603,2 cm² | Blech 800 cm²;Verschnitt|Kreisfläche|Prozentsatz|Abrunden|Modellieren;Prozentrechnung|Zählen und Kombinatorik;;ok
+2023-OS-K5d;h ≈ 19,9 cm;1 l = 1000 cm³ | h = V : (π · r²) | Grundfläche ≈ 50,3 cm²;Zylinder|Höhe|Formel umstellen|Liter;Einheiten umrechnen|Terme umformen;;ok
+2023-OS-K6a;≈ 16,0 %;1,25 : 7,8 ≈ 0,160;Prozentsatz|Anteil|Grundwert|Milliarden;;;ok
+2023-OS-K6b;Aussage 2 falsch | Ein Viertel der Weltbevölkerung waren 2020 Kinder (1,95 : 7,8 = 0,25);mittleres Alter 3,9 : 7,8 = 50 % | Kinder 25 %;Anteil|Bruch und Prozent|Aussage prüfen|korrigieren;Brüche und Dezimalzahlen;;ok
+2023-OS-K6c;Minimum 290 Mio. (Arabisch) | Maximum 1300 Mio. (Chinesisch) | Spannweite 1010 Mio.;1300 − 290;Minimum|Maximum|Spannweite;;;ok
+2023-OS-K6d;1 Kästchen = 50 Mio. (z. B. 100, 200, … je zwei Kästchen) | Hindi | Säule Arabisch ≈ 5,8 Kästchen hoch;389 Mio. ≙ 7,8 Kästchen ⇒ 50 Mio. je Kästchen | 10,5 · 50 = 525;Säulendiagramm|Achsenskalierung|Säule zuordnen|Säule einzeichnen;Daten darstellen|Zuordnungen proportional und antiproportional;;ok
+2023-OS-K7a;Winkel bei A und B im Dreieck ABF je 45° ⇒ gleichschenklig mit Basis AB (BF = AF);Winkelsumme: 180° − 90° − 45° = 45°;gleichschenkliges Dreieck|Basiswinkel|rechter Winkel|Winkelsumme|Begründen;;;ok
+2023-OS-K7b;BF = 131,5 · sin 45° ≈ 93,0 cm = AF | BC = BF : cos 65° ≈ 220,0 cm;sin 45° ≈ 0,7071 | cos 65° ≈ 0,4226;Sinus|Kosinus|Höhe|Teildreieck|Nachweis;;2023-OS-K7a;ok
+2022-OS-K2a;drittes Netz | Länge ≈ 20,1 cm, Breite 7 cm;Länge = Umfang 2 · π · 3,2 | Breite = h;Netz|Zylinder|Mantelfläche|Kreisumfang;Flächeninhalt und Umfang;;ok
+2022-OS-K2b;wahr, V = π · 3,2² · 7 ≈ 225,2 cm³ > 200 ml;Grundfläche ≈ 32,2 cm² | 1 cm³ = 1 ml;Volumen|Zylinder|Milliliter|Nachweis;Einheiten umrechnen;;ok
+2022-OS-K2c;≈ 11,5 cm;Diagonale √(7² + 6,4²) ≈ 9,5 cm | Durchmesser 6,4 cm;Satz des Pythagoras|Hypotenuse|Durchmesser|Diagonale im Zylinder;Volumen und Oberfläche;;ok
+2022-OS-K2d;r ≈ 4,40 cm;r² = 425 : (π · 7) ≈ 19,33;Zylinder|Radius|Formel umstellen|Wurzel;Potenzen und Wurzeln|Terme umformen;;ok
+2022-OS-K3a;Gerade durch (0|3) und (1|1) | x = 1,5;0 = −2x + 3;Gerade zeichnen|Steigung|y-Achsenabschnitt|Nullstelle;Koordinaten und Zeichnen|Lineare Gleichungen;;ok
+2022-OS-K3b;S(2|−4);Scheitelpunktform p(x) = (x − d)² + e;Scheitelpunktform|Scheitelpunkt|verschobene Normalparabel;;;ok
+2022-OS-K3c;S₁(−1|5), S₂(3|−3);x² − 2x − 3 = 0 | x = 1 ± 2;Gleichsetzen|quadratische Gleichung|p-q-Formel|Schnittpunkte;Quadratische Gleichungen|Lineare Funktionen;;ok
+2022-OS-K4a;Minimum 400 (2021), Maximum 485 (2019) | Mittel 451;Summe 2255 : 5;Minimum|Maximum|arithmetisches Mittel|Säulendiagramm;Diagramme lesen und beurteilen;;ok
+2022-OS-K4b;≈ 14,9 %;Differenz 70 | 70 : 470 ≈ 0,149;prozentuale Abnahme|Grundwert|Prozentsatz;;;ok
+2022-OS-K4c;falsch, 2018 → 2019 Anstieg 432 auf 485 | 2018 → 2021 Rückgang nur um 32 (≈ 7,4 %), nicht um die Hälfte;432 − 400 = 32 | Hälfte von 432 = 216;Behauptung prüfen|Trend|Hälfte|Diagramm lesen;Prozentrechnung;;ok
+2022-OS-K4d;rechts „einmal pro Woche“, unten „einmal im Monat“, links „mehrmals pro Woche“ | 57,6°;0,16 · 360°;Kreisdiagramm|Sektor beschriften|Mittelpunktswinkel|Prozent;Prozentrechnung;;ok
+2022-OS-K5a;AD = √(14,1² − 7,4²) ≈ 12,0 m;198,81 − 54,76 = 144,05;Satz des Pythagoras|Kathete|Höhe|Teildreieck|Nachweis;;;ok
+2022-OS-K5b;α ≈ 31,7°;sin α = 7,4 : 14,1 ≈ 0,525;Sinus|Gegenkathete|Hypotenuse|Winkel berechnen;;;ok
+2022-OS-K5c;γ₁ ≈ 58,3°;180° − 90° − 31,7°;Winkelsumme im Dreieck|rechter Winkel|Teilwinkel;;2022-OS-K5b;ok
+2022-OS-K5d;a ≈ 9,4 m;sin 52° ≈ 0,788 | a = 7,4 : sin 52°;Sinus|Gegenkathete|Hypotenuse|Seite berechnen;;;ok
+2022-OS-K5e;A ≈ 65,8 m²;DB = 7,4 : tan 52° ≈ 5,8 m | c = 12,0 + 5,8 ≈ 17,8 m;Flächeninhalt Dreieck|Grundseite|Höhe|Tangens|Teilstrecken;Trigonometrie im rechtwinkligen Dreieck;2022-OS-K5a|2022-OS-K5d;ok
+2022-OS-K6a;1736 €;12 · 22 = 264 €;Anfangswert|monatlicher Zuwachs|lineare Zunahme;Rationale Zahlen rechnen;;ok
+2022-OS-K6b;y = 55x + 990 | 19 Monate;55x + 990 ≥ 2000 ⇒ x ≥ 18,36 | aufrunden;lineare Funktion aufstellen|Ungleichung|Aufrunden|Sparen;Lineare Gleichungen;;ok
+2022-OS-K7a;x: Preis eines Apfelbaums in €, y: Preis eines Pflaumenbaums in €;Koeffizienten 9 und 3 = Stückzahlen;Variable|Bedeutung der Variablen|Gleichungssystem deuten;;;nicht rechenbar
+2022-OS-K7b;Apfelbaum 27,20 €, Pflaumenbaum 35,80 €;y = 63 − x | 6x = 163,20;lineares Gleichungssystem|Einsetzungsverfahren|zwei Unbekannte;Lineare Gleichungen;2022-OS-K7a;ok
