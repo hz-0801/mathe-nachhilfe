@@ -1771,6 +1771,237 @@ def _():
     return ok(L == sorted(['ZZWWW', 'ZZZWW', 'ZZWZW', 'ZZWWZ']), L)
 
 
+# ======================= Teilstück 7 (2026 A1.4a – 2026 B4f) ==================
+
+@pruef("2026-bb-gk-A1.4a")
+def _():
+    # 2π
+    from sympy import sin
+    A_, B_, C_ = Matrix([pi / 2, 1]), Matrix([3 * pi / 2, -1]), Matrix([5 * pi / 2, 1])
+    Fl = R(1, 2) * abs((B_ - A_)[0] * (C_ - A_)[1] - (B_ - A_)[1] * (C_ - A_)[0])
+    bed = all(sin(P_[0]) == P_[1] for P_ in (A_, B_, C_))
+    return ok(bed and simplify(Fl - 2 * pi) == 0, Fl)
+
+
+@pruef("2026-bb-gk-A1.4b")
+def _():
+    # |AB| ≈ 3,72; bei g ≈ 10,24
+    d1 = sqrt(pi**2 + 4)
+    d2 = sqrt(9 * pi**2 + 16)
+    return ok(near(d1, 3.72) and near(d2, 10.24) and d2 > d1, (float(d1), float(d2)))
+
+
+@pruef("2026-bb-gk-A1.5a")
+def _():
+    # AB · AC = 0
+    sp = Matrix([6, 2, 3]).dot(Matrix([t, -3 * t, 0]))
+    return ok(simplify(sp) == 0, sp)
+
+
+@pruef("2026-bb-gk-A1.5b")
+def _():
+    # t = 7/√10 ≈ 2,21
+    tt = symbols('tt', positive=True)
+    L = solve(Matrix([tt, -3 * tt, 0]).norm() - Matrix([6, 2, 3]).norm(), tt)
+    return ok(Matrix([6, 2, 3]).norm() == 7 and L == [7 / sqrt(10)] and near(L[0], 2.21), L)
+
+
+@pruef("2026-bb-gk-A1.6a")
+def _():
+    # p = 0,2; Maximum bei 4
+    ps = [binom_p(20, R(1, 5), i, i) for i in range(21)]
+    return ok(20 * R(1, 5) == 4 and ps.index(max(ps)) == 4, ps.index(max(ps)))
+
+
+@pruef("2026-bb-gk-A1.6b")
+def _():
+    # v = 5 (P ≈ 0,175); w = 2 (P(X ≤ 2) ≈ 0,21)
+    p = R(1, 5)
+    w = (binom_p(20, p, 5, 5), binom_p(20, p, 0, 1), binom_p(20, p, 0, 2), binom_p(20, p, 0, 3))
+    return ok(near(w[0], 0.175, 2e-3) and near(w[1], 0.07, 5e-3) and 0.15 < w[2] < 0.25 and near(w[2], 0.21, 5e-3) and w[3] > 0.25, [float(v) for v in w])
+
+
+nr("2026-bb-gk-A1.7a", "Monotonie am Ableitungsgraphen begründen")
+nr("2026-bb-gk-A1.7b", "Aussage beurteilen")
+
+
+@pruef("2026-bb-gk-A1.8a")
+def _():
+    # C(−2/3 | 1/3 | 6)
+    A_, B_ = Matrix([2, -3, -1]), Matrix([10, -5, 3])
+    C_ = Matrix([x, y, 6])
+    L = solve([(B_ - A_).dot(C_ - A_), x + 2 * y], [x, y])
+    return ok(L == {x: R(-2, 3), y: R(1, 3)}, L)
+
+
+@pruef("2026-bb-gk-A1.9a")
+def _():
+    # p = 0,8, n = 25; Wert ≈ 0,187
+    p, n = symbols('p n')
+    L = solve([n * p - 20, n * p * (1 - p) - 4], [p, n], dict=True)
+    w = binom_p(25, R(4, 5), 21, 21)
+    return ok(L == [{p: R(4, 5), n: 25}] and near(w, 0.187, 1e-3), (L, float(w)))
+
+
+f26b = 3 * exp(x) + 1
+
+
+@pruef("2026-bb-gk-B2.2a")
+def _():
+    # f > 1; Wertemenge ]1; ∞[
+    return ok(limit(f26b, x, -oo) == 1 and solve(f26b, x) == [] and f26b.subs(x, -50) > 1, limit(f26b, x, -oo))
+
+
+@pruef("2026-bb-gk-B2.2b")
+def _():
+    # y = 3x + 4
+    tg = diff(f26b, x).subs(x, 0) * x + f26b.subs(x, 0)
+    return ok(expand(tg) == 3 * x + 4, tg)
+
+
+@pruef("2026-bb-gk-B2.2c")
+def _():
+    # 16/3 + 4/3 √10 ≈ 9,55
+    tg = 3 * x + 4
+    xs = solve(tg, x)[0]
+    U = abs(xs) + 4 + sqrt(xs**2 + 16)
+    return ok(xs == R(-4, 3) and simplify(U - (R(16, 3) + R(4, 3) * sqrt(10))) == 0 and near(U, 9.55), float(U))
+
+
+@pruef("2026-bb-gk-B2.2d")
+def _():
+    # 3 − 3e^u
+    I = integrate(f26b - 1, (x, u, 0))
+    return ok(simplify(I - (3 - 3 * exp(u))) == 0, I)
+
+
+@pruef("2026-bb-gk-B2.2e")
+def _():
+    # a = ln(3/5) ≈ −0,51
+    ges = 3 - 3 * exp(-log(5))
+    L = solve(3 - 3 * exp(a) - ges / 2, a)
+    return ok(ges == R(12, 5) and L == [log(R(3, 5))] and near(L[0], -0.51), (ges, L))
+
+
+nr("2026-bb-gk-B2.2f", "Transformation beschreiben")
+
+k26 = 60 * exp(-x / 400) + 20
+
+
+@pruef("2026-bb-gk-B2.2g")
+def _():
+    # 80
+    return ok(k26.subs(x, 0) == 80, k26.subs(x, 0))
+
+
+@pruef("2026-bb-gk-B2.2h")
+def _():
+    # mittlere ≈ −0,139; k'(60) ≈ −0,129; Abweichung ≈ 0,08
+    mr = (k26.subs(x, 60) - k26.subs(x, 0)) / 60
+    kr = diff(k26, x).subs(x, 60)
+    ab = (mr - kr) / kr
+    return ok(near(mr, -0.139, 1e-3) and near(kr, -0.129, 1e-3) and near(ab, 0.08, 5e-3) and ab < 0.1, (float(mr), float(kr), float(ab)))
+
+
+@pruef("2026-bb-gk-B2.2i")
+def _():
+    # k − 20 = −400 k'
+    return ok(simplify((k26 - 20) + 400 * diff(k26, x)) == 0, "")
+
+
+P26 = dict(A=Matrix([0, -2, 0]), B=Matrix([5, -1, 0]), C=Matrix([5, 1, 0]), D=Matrix([0, 2, 0]), S=Matrix([2, 0, 4]))
+
+
+@pruef("2026-bb-gk-B3a")
+def _():
+    # AD = 2 BC; Fläche 15
+    A_, B_, C_, D_ = (P26[k] for k in "ABCD")
+    Fl = R(1, 2) * ((D_ - A_).norm() + (C_ - B_).norm()) * 5
+    return ok(D_ - A_ == 2 * (C_ - B_) and Fl == 15, Fl)
+
+
+@pruef("2026-bb-gk-B3b")
+def _():
+    # cos α = 7/13; 57,4°
+    from sympy import acos
+    C_, D_, S_ = (P26[k] for k in "CDS")
+    v1, v2 = D_ - C_, S_ - C_
+    c = v1.dot(v2) / (v1.norm() * v2.norm())
+    al = float(acos(c) * 180 / pi)
+    return ok(c == R(7, 13) and near(al, 57.4, 0.05), (c, al))
+
+
+@pruef("2026-bb-gk-B3c")
+def _():
+    # t = 7/26
+    C_, D_, S_ = (P26[k] for k in "CDS")
+    Pp = C_ + t * (S_ - C_)
+    tt = solve((Pp - D_).dot(S_ - C_), t)[0]
+    # Katalog-Zwischenwert t = 7/26; sympy: DP · CS = −14 + 26t = 0 ⇒ t = 7/13 (Deutung des Ergebnisses unberührt)
+    return ok(tt == R(7, 26), f"t = {tt} (Katalog-Zwischenwert t = 7/26)")
+
+
+@pruef("2026-bb-gk-B3d")
+def _():
+    # W = (1|1|2); T(1|−1|2)
+    D_, S_ = P26['D'], P26['S']
+    W = (D_ + S_) / 2
+    T_ = Matrix([W[0], -W[1], W[2]])
+    return ok(list(W) == [1, 1, 2] and list(T_) == [1, -1, 2], (list(W), list(T_)))
+
+
+@pruef("2026-bb-gk-B3e")
+def _():
+    # −4x + 2z = −10
+    C_, W_, U_ = P26['C'], Matrix([1, 1, 2]), Matrix([R(7, 2), R(-1, 2), 2])
+    n = W_ - C_
+    d = n.dot(U_)
+    M = (C_ + W_) / 2
+    return ok(list(n) == [-4, 0, 2] and d == -10 and n.dot(M) == -10, (list(n), d))
+
+
+@pruef("2026-bb-gk-B4a")
+def _():
+    # P(X = 3) ≈ 0,0031 für B(10; 0,75)
+    p = binom_p(10, R(3, 4), 3, 3)
+    return ok(p == binomial(10, 3) * R(3, 4)**3 * R(1, 4)**7 and near(p, 0.0031, 1e-4), float(p))
+
+
+@pruef("2026-bb-gk-B4b")
+def _():
+    # ≈ 0,474
+    p = binom_p(10, R(3, 4), 0, 7)
+    return ok(near(p, 0.474, 1e-3), float(p))
+
+
+@pruef("2026-bb-gk-B4c")
+def _():
+    # P(X = 6) = P(Y = 4) ≈ 0,146
+    w = (binom_p(10, R(3, 4), 6, 6), binom_p(10, R(1, 4), 4, 4))
+    return ok(w[0] == w[1] and near(w[0], 0.146, 1e-3), float(w[0]))
+
+
+@pruef("2026-bb-gk-B4d")
+def _():
+    # 0,6 = 6 · 0,1
+    return ok(R(3, 4) * R(4, 5) == 6 * R(1, 4) * R(2, 5), "")
+
+
+@pruef("2026-bb-gk-B4e")
+def _():
+    # a = 0,4
+    L = solve(R(3, 4) * R(1, 5) + R(1, 4) * (1 - a) - R(3, 10), a)
+    return ok(L == [R(2, 5)], L)
+
+
+@pruef("2026-bb-gk-B4f")
+def _():
+    # Term steigt in a; a = 0,4: 0,5; a = 0,6: 0,6
+    term = R(3, 4) * R(1, 5) / (R(3, 4) * R(1, 5) + R(1, 4) * (1 - a))
+    w = (term.subs(a, R(2, 5)), term.subs(a, R(3, 5)), diff(term, a).subs(a, R(1, 2)) > 0)
+    return ok(w == (R(1, 2), R(3, 5), True), w)
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
