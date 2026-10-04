@@ -38,8 +38,8 @@ KNOPF = {
             'Baumdiagramm und Pfadregeln', 'Vierfeldertafel', 'Bedingte Wahrscheinlichkeit und Bayes',
             'Unabhängigkeit', 'Zufallsexperimente und Urnenmodelle',
             'Ereignisse und Mengenoperationen', 'Kombinatorik'],
-        'Binomialverteilung': ['Binomialverteilung', 'Kenngrößen von Verteilungen',
-                               'Hypergeometrische Verteilung', 'Zufallsgrößen und Verteilungen'],
+        'Binomialverteilung': ['Binomialverteilung', 'Hypergeometrische Verteilung'],
+        'Erwartungswert': ['Kenngrößen von Verteilungen', 'Zufallsgrößen und Verteilungen'],
         'Testen': ['Hypothesentests', 'Normalverteilung und Sigma-Regeln', 'Konfidenzintervalle'],
     },
     'Geometrie': {

@@ -12,7 +12,8 @@ Abgeleitet von `werkzeuge/handreichung-abi.py` (v0.1); nie von Hand ändern. Ang
 | | Integral | 13 % | • | 26 % |
 | **Stochastik** | | **23 %** | | |
 | | Baumdiagramm + bedingte Wahrscheinlichkeit | 13 % | • | 39 % |
-| | Binomialverteilung | 9 % | • | 34 % |
+| | Binomialverteilung | 6 % |  | 33 % |
+| | Erwartungswert | 3 % | • | 35 % |
 | **Geometrie** | | **23 %** | | |
 | | Punkte, Flächen, Körper | 9 % | • | 28 % |
 | | Geraden + Ebenen | 6 % | • | 48 % |
@@ -31,7 +32,8 @@ Gegenprobe: zugeordnet 775 BE + ohne Knopf 0 BE = 775 BE (Soll 775).
 | | Scharen | 20 % | • | 15 % |
 | **Stochastik** | | **23 %** | | |
 | | Baumdiagramm + bedingte Wahrscheinlichkeit | 10 % | • | 38 % |
-| | Binomialverteilung | 8 % | • | 39 % |
+| | Binomialverteilung | 5 % | • | 17 % |
+| | Erwartungswert | 3 % | • | 71 % |
 | | Testen | 5 % | • | 0 % |
 | **Geometrie** | | **23 %** | | |
 | | Punkte, Flächen, Körper | 5 % | • | 9 % |
