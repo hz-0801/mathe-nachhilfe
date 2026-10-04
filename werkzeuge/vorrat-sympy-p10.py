@@ -297,6 +297,162 @@ def p_2026_FOR_K3c():
     return naeh((R(184, 100) - R(179, 100)) / R(179, 100) * 100, R(28, 10), " %")
 
 
+# ---------- Teilstück 3/4 (Kontext: 2026-FOR-K4…K7, 2024-OS-K2…K7, 2023-OS-K2)
+
+def p_2026_FOR_K4a():
+    r = genau(32**2 - 13**2, 855)
+    return r if r != "ok" else naeh(sqrt(855), R(292, 10), " cm")
+
+def p_2026_FOR_K4b():
+    return naeh(grad(acos(R(13, 32))), R(660, 10), "°")
+
+def p_2026_FOR_K4c():
+    h = sqrt(855)
+    ac = h / sin(rad(22))
+    r = naeh(ac, R(781, 10), " cm")
+    return r if r != "ok" else naeh(h / tan(rad(22)), R(724, 10), " cm")
+
+def p_2026_FOR_K5b():
+    return genau((-2 * x + 2).subs(x, -4), 10)
+
+def p_2026_FOR_K5c():
+    p = (x - 2)**2 - 2
+    return "ok" if p.subs(x, 2) == -2 and solve(p.diff(x), x) == [2] else "abw"
+
+def p_2026_FOR_K5d():
+    l = solve(Eq((x - 2)**2 - 2, -(x - 2)**2 - 2), x)
+    return "ok" if l == [2] else "abw: " + str(l)
+
+def p_2026_FOR_K6a():
+    return genau(R((1, 1, 2, 2, 4, 5).count(2), 6), R(1, 3))
+
+def p_2026_FOR_K6b():
+    A, B = (1, 1, 2, 2, 4, 5), (1, 1, 2, 3, 3, 3)
+    pa = R(sum(1 for v in A if v % 2 == 0), 6)
+    pb = R(sum(1 for v in B if v % 2 == 0), 6)
+    r = genau(pa, R(1, 2))
+    if r != "ok": return r
+    r = genau(pb, R(1, 6))
+    return r if r != "ok" else genau((1 - pa) * (1 - pb), R(5, 12))
+
+def p_2026_FOR_K6c():
+    return genau(1 - R(3, 6) * R(1, 6), R(11, 12))
+
+def p_2026_FOR_K6d():
+    A, B = (1, 1, 2, 2, 4, 5), (1, 1, 1, 3, 3, 3)
+    p = sum(R(1, 36) for u in A for v in B if u + v == 2)
+    return genau(p, R(1, 6))
+
+def p_2026_FOR_K7a():
+    q = R(1019, 1000)
+    r = naeh(650 * q, R(66235, 100), " €", tol=R(1, 200))
+    if r != "ok": return r
+    r = naeh(650 * q**2, R(67493, 100), " €", tol=R(1, 200))
+    return r if r != "ok" else naeh(650 * q**3, R(68776, 100), " €", tol=R(1, 200))
+
+def p_2026_FOR_K7c():
+    q = R(1019, 1000)
+    r = naeh(q**14, R(13015, 10000), "", tol=R(1, 20000))
+    return r if r != "ok" else naeh(650 * q**14, R(84596, 100), " €", tol=R(1, 200))
+
+def p_2024_OS_K2a():
+    d = [R(v, 10) for v in (522, 396, 353, 192, 493, 851, 361, 824, 217, 546, 641, 421)]
+    return genau(max(d) - min(d), R(659, 10), " mm")
+
+def p_2024_OS_K2b():
+    d = [R(v, 10) for v in (522, 396, 353, 192, 493, 851, 361, 824, 217, 546, 641, 421)]
+    r = genau(sum(d), R(5817, 10))
+    if r != "ok": return r
+    m = sum(d) / 12
+    r = naeh(m, R(485, 10), " mm")
+    if r != "ok": return r
+    r = naeh(R(485, 10) - R(192, 10), R(293, 10), " mm")
+    return r if r != "ok" else naeh((R(485, 10) - R(192, 10)) / R(485, 10) * 100, R(604, 10), " %")
+
+def p_2024_OS_K2c():
+    r = naeh(R(60, 508) * 360, R(425, 10), "°", tol=R(1, 2))
+    if r != "ok": return r
+    r = naeh(R(12, 508), R(236, 10000), "", tol=R(1, 10000))
+    return r if r != "ok" else naeh(R(12, 508) * 360, R(85, 10), "°")
+
+def p_2024_OS_K2d():
+    return genau(16 * R(14, 100), R(224, 100), " ct")
+
+def p_2024_OS_K3b():
+    p = x**2 - 4
+    r = "ok" if sorted(solve(p, x)) == [-2, 2] and p.subs(x, 0) == -4 and p.subs(x, 3) == 5 else "abw"
+    return r
+
+def p_2024_OS_K3c():
+    return genau((x**2 - 4).subs(x, -5), 21)
+
+def p_2024_OS_K3d():
+    l = sorted(solve(Eq(4 * x + 1, x**2 - 4), x))
+    if l != [-1, 5]: return "abw: " + str(l)
+    ys = [(4 * x + 1).subs(x, v) for v in l]
+    return "ok" if ys == [-3, 21] else "abw: y " + str(ys)
+
+def p_2024_OS_K4a():
+    return naeh(pi * 30**2, R(28274, 10), " cm²")
+
+def p_2024_OS_K4c():
+    vz = pi * R(305, 10)**2 * 81
+    vk = R(1, 3) * pi * 30**2 * 80
+    r = naeh(vz, R(2367198, 10), " cm³", tol=R(1, 10))
+    if r != "ok": return r
+    r = naeh(vk, R(753982, 10), " cm³", tol=R(1, 10))
+    return r if r != "ok" else naeh(vz - vk, 161322, " cm³", tol=R(1, 2))
+
+def p_2024_OS_K5a():
+    return genau(R(1, 5) * 100, 20, " %")
+
+def p_2024_OS_K5b():
+    return genau(R(1, 5) * R(1, 5), R(1, 25))
+
+def p_2024_OS_K5c():
+    return genau(R(4, 5) * R(1, 4), R(1, 5))
+
+def p_2024_OS_K6a():
+    r = genau(384**2 - 255**2, 82431)
+    return r if r != "ok" else naeh(sqrt(82431), R(2871, 10), " m")
+
+def p_2024_OS_K6b():
+    return naeh(grad(acos(R(255, 384))), R(484, 10), "°")
+
+def p_2024_OS_K6c():
+    r = genau(384 / R(32, 10), 120, " s")
+    return r if r != "ok" else genau(R(120, 60), 2, " min")
+
+def p_2024_OS_K6d():
+    g = 180 - 38 - 108
+    r = genau(g, 34, "°")
+    return r if r != "ok" else naeh(384 * sin(rad(38)) / sin(rad(g)), R(4228, 10), " m")
+
+def p_2024_OS_K7a():
+    l = solve([Eq(x + y, R(380, 100)), Eq(6 * x + 5 * y, R(2120, 100))], [x, y])
+    return "ok" if l == {x: R(220, 100), y: R(160, 100)} else "abw: " + str(l)
+
+def p_2024_OS_K7b():
+    r_, t_ = symbols("r t")
+    l = solve([Eq(R(230, 100) * r_ + R(170, 100) * t_, R(2690, 100)), Eq(r_ + t_, 13)], [r_, t_])
+    return "ok" if l == {r_: 8, t_: 5} else "abw: " + str(l)
+
+def p_2023_OS_K2a():
+    return genau(180 - 56, 124, "°")
+
+def p_2023_OS_K2b():
+    r = genau((R(258, 10) + 15) / 2, R(204, 10), " m")
+    return r if r != "ok" else genau((R(258, 10) + 15) / 2 * 8, R(1632, 10), " m²")
+
+def p_2023_OS_K2c():
+    s1 = 8 / sin(rad(56))
+    s2 = sqrt(R(54, 10)**2 + 64)
+    r = naeh(s1, R(965, 100), " m", tol=R(1, 100))
+    if r != "ok": return r
+    r = naeh(s2, R(965, 100), " m", tol=R(1, 100))
+    return r if r != "ok" else naeh(15 + R(258, 10) + 2 * s1, R(601, 10), " m")
+
+
 # ---------- Ausführung
 
 def alle():

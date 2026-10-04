@@ -73,3 +73,40 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2026-FOR-K3c;≈ 2,8 %;Differenz 0,05 € | 0,05 : 1,79 ≈ 0,0279;prozentuale Veränderung|Grundwert|Preissteigerung;;;ok
 2026-FOR-K3d;Säule So bis 1,85 (höchste Säule);Skala 1,75 bis 1,90, Schritt 0,01;Säulendiagramm|Skala|Diagramm ergänzen;;;nicht rechenbar
 2026-FOR-K3e;Achse beginnt bei 1,75 € statt bei 0 ⇒ Säulen zeigen nur die Differenz zu 1,75 € (Do 0,04, Fr 0,09) ⇒ Verdopplung der Säulenhöhe, Preis nur +2,8 %;Do 1,79 − 1,75 = 0,04 | Fr 1,84 − 1,75 = 0,09;abgeschnittene Achse|Säulendiagramm|Verzerrung|Diagramm beurteilen;Prozentrechnung;;nicht rechenbar
+2026-FOR-K4a;h ≈ 29,2 cm;h² = 32² − 13² = 855;Satz des Pythagoras|Kathete|Höhe im Parallelogramm;Ebene Figuren und Winkel;;ok
+2026-FOR-K4b;ε ≈ 66,0°;cos ε = 13 : 32 ≈ 0,406;Kosinus|Ankathete|Hypotenuse|Winkel berechnen;;;ok
+2026-FOR-K4c;AC ≈ 78,1 cm;sin 22° = h : AC | AF ≈ 72,4 cm;Sinus|Gegenkathete|Hypotenuse|Diagonale;Satz des Pythagoras;2026-FOR-K4a;ok
+2026-FOR-K5a;Gerade durch (0|2) und (1|0), fallend;Steigungsdreieck 1 nach rechts, 2 nach unten;lineare Funktion|Steigung|y-Achsenabschnitt|Steigungsdreieck;Koordinaten und Zeichnen;;nicht rechenbar
+2026-FOR-K5b;Ja, f(−4) = −2 · (−4) + 2 = 10;f(−4) = 10;Punktprobe|Einsetzen|negative Zahlen;Rationale Zahlen rechnen;;ok
+2026-FOR-K5c;S(2|−2);Scheitelpunktform p(x) = (x − d)² + e;Scheitelpunkt|Scheitelpunktform|verschobene Normalparabel;;;ok
+2026-FOR-K5d;genau ein gemeinsamer Punkt S(2|−2), gleicher Scheitel, p nach oben, q nach unten geöffnet ⇒ Berührung nur im Scheitel;Scheitel beider Parabeln (2|−2);Scheitelpunkt|Öffnung einer Parabel|gemeinsame Punkte|Begründen;;;ok
+2026-FOR-K6a;2/6 = 1/3;2 günstige von 6 Flächen;Laplace-Wahrscheinlichkeit|Würfelnetz|günstige Fälle;;;ok
+2026-FOR-K6b;A ungerade 3/6 | B nach A gerade: ungerade 5/6 | B nach A ungerade: gerade 1/6, ungerade 5/6 | P(beide ungerade) = 3/6 · 5/6 = 15/36 = 5/12;P(B gerade) = 1/6 | P(B ungerade) = 5/6;Baumdiagramm|Pfadregel|Gegenwahrscheinlichkeit|gerade und ungerade Zahlen;Wahrscheinlichkeit einstufig;;ok
+2026-FOR-K6c;33/36 = 11/12;P(gerade, gerade) = 3/6 · 1/6 = 3/36;Gegenereignis|Pfadregel|Baumdiagramm;;2026-FOR-K6b;ok
+2026-FOR-K6d;z. B. B neu: 1, 1, 1, 3, 3, 3 (die 2 durch 1 ersetzt), P(1, 1) = 2/6 · 3/6 = 6/36 = 1/6;Summe 2 nur bei 1 + 1 | P(A = 1) = 2/6 ⇒ P(B = 1) = 3/6;Würfelnetz|Pfadregel|Rückwärtsaufgabe|Summe zweier Würfel;Brüche und Dezimalzahlen;;ok
+2026-FOR-K7a;2026: 650,00 € | 2029: 687,76 €;Wachstumsfaktor 1,019 | 674,93 · 1,019;prozentuales Wachstum|Wachstumsfaktor|Wertetabelle;Prozentrechnung;;ok
+2026-FOR-K7b;B | A: Miete beginnt bei 0 € statt bei 650 € | C: linear, jedes Jahr gleicher Betrag statt gleicher Prozentsatz;Startwert 650 € | konstanter Prozentsatz ⇒ wachsende Zuwächse;exponentielles Wachstum|lineares Wachstum|Startwert|Graph erkennen;Lineare Funktionen;;nicht rechenbar
+2026-FOR-K7c;M(t) = 650 · 1,019^t | M(14) ≈ 845,96 € (rund 846 €);t = 2040 − 2026 = 14 | 1,019^14 ≈ 1,3015;Exponentialfunktion|Wachstumsfaktor|Prognose|Potenz;Potenzen und Wurzeln;;ok
+2024-OS-K2a;65,9 mm;85,1 − 19,2;Spannweite|Maximum|Minimum;Diagramme lesen und beurteilen;;ok
+2024-OS-K2b;581,7 : 12 ≈ 48,5 mm | April liegt ≈ 60,4 % unter dem Durchschnitt;Differenz 48,5 − 19,2 = 29,3 mm | 29,3 : 48,5 ≈ 0,604;arithmetisches Mittel|Jahressumme|Abweichung in Prozent|Grundwert;Prozentrechnung;;ok
+2024-OS-K2c;Sektor links unten vor Gartenpflege (≈ 43°) beschriften | ≈ 8,5°;60 : 508 · 360° ≈ 42,5° | 12 : 508 ≈ 0,0236;Kreisdiagramm|Anteil|Mittelpunktswinkel|Sektor;Prozentrechnung;;ok
+2024-OS-K2d;2,24 ct pro Tag (≈ 0,02 €);16 · 0,14 ct;Kosten|Preis je Liter|Cent;Rationale Zahlen rechnen;;ok
+2024-OS-K3a;Gerade durch (0|1) und (1|5), steil steigend;Steigungsdreieck 1 nach rechts, 4 nach oben;lineare Funktion|Steigung|y-Achsenabschnitt|Steigungsdreieck;Koordinaten und Zeichnen;;nicht rechenbar
+2024-OS-K3b;Parabel mit Scheitel (0|−4) durch (±2|0) und (±3|5) | S(0|−4);Normalparabel um 4 nach unten verschoben | Nullstellen ±2;Normalparabel|Verschiebung|Scheitelpunkt|Skizze;Koordinaten und Zeichnen;;ok
+2024-OS-K3c;Nein, p(−5) = 25 − 4 = 21 ≠ 20;(−5)² = 25;Punktprobe|Einsetzen|Quadrieren negativer Zahlen;Rationale Zahlen rechnen;;ok
+2024-OS-K3d;S1(−1|−3), S2(5|21);x² − 4x − 5 = 0 | x = 2 ± 3;Schnittpunkte|Gleichsetzen|p-q-Formel|Gerade und Parabel;Quadratische Gleichungen|Lineare Funktionen;;ok
+2024-OS-K4a;≈ 2827,4 cm²;G = π · r² | r² = 900 cm²;Kreisfläche|Grundfläche|Kegel|Kreiszahl π;;;ok
+2024-OS-K4b;Skizze: Ellipse auf der Bodenfläche, Spitze mittig oben | 61 cm × 61 cm × 81 cm | 31 cm schmaler als Durchmesser 60 cm, 101 cm Höhe unnötig groß;Durchmesser 2 · 30 = 60 cm | Höhe 80 cm;Schrägbild|Quader|Kegel|Durchmesser|Verpackung;Flächeninhalt und Umfang;;nicht rechenbar
+2024-OS-K4c;≈ 161 322 cm³;V_Zylinder = π · 30,5² · 81 ≈ 236 719,8 cm³ | V_Kegel = 1/3 · π · 30² · 80 ≈ 75 398,2 cm³;Zylinder|Kegel|Restvolumen|Volumenformel;;;ok
+2024-OS-K5a;1/5 = 20 %;1 günstiger von 5 Zetteln;Laplace-Wahrscheinlichkeit|günstige Fälle|Prozent;Prozentrechnung;;ok
+2024-OS-K5b;1. Woche: kein Joker 4/5, Joker 1/5 | 2. Woche an beiden Ästen: kein Joker 4/5, Joker 1/5 | P(Joker, Joker) = 1/5 · 1/5 = 1/25;mit Zurücklegen: jede Woche 1/5;Baumdiagramm|mit Zurücklegen|Pfadregel|Nachweis;Wahrscheinlichkeit einstufig;;ok
+2024-OS-K5c;1/5;4/5 · 1/4 = 4/20;ohne Zurücklegen|Pfadregel|zweite Ziehung;Brüche und Dezimalzahlen;;ok
+2024-OS-K6a;FA ≈ 287,1 m;FA² = 384² − 255² = 82 431;Satz des Pythagoras|Kathete|Höhenunterschied;;;ok
+2024-OS-K6b;β1 ≈ 48,4°;cos β1 = 255 : 384 ≈ 0,664;Kosinus|Ankathete|Hypotenuse|Steigungswinkel;;;ok
+2024-OS-K6c;2 min;t = 384 : 3,2 = 120 s;Geschwindigkeit|Dauer|Meter je Sekunde|Zeiteinheiten;Einheiten umrechnen;;ok
+2024-OS-K6d;BC ≈ 422,8 m;γ = 180° − 38° − 108° = 34° | BC = 384 · sin 38° : sin 34°;Sinussatz|Winkelsumme im Dreieck|stumpfer Winkel;Ebene Figuren und Winkel;;ok
+2024-OS-K7a;I. x + y = 3,80 | II. 6x + 5y = 21,20;x Preis Rose, y Preis Tulpe;lineares Gleichungssystem|Gleichung aufstellen|zwei Unbekannte;;;ok
+2024-OS-K7b;Filip kauft insgesamt 13 Blumen (Rosen und Tulpen zusammen) | r = 8 Rosen, t = 5 Tulpen;r = 13 − t | 29,9 − 0,6t = 26,9 ⇒ 0,6t = 3;Gleichung deuten|Einsetzungsverfahren|lineares Gleichungssystem|Lösung;Lineare Gleichungen;;ok
+2023-OS-K2a;γ = 124°;180° − 56°;Trapez|Nebenwinkel|Winkel an Parallelen;;;ok
+2023-OS-K2b;A = 163,2 m²;Mittellinie (25,8 + 15) : 2 = 20,4 m;Trapez|Flächeninhalt|Mittellinie|Höhe;;;ok
+2023-OS-K2c;U ≈ 60,1 m;Schenkel s = 8 : sin 56° ≈ 9,65 m (oder √(5,4² + 8²)) | Überstand (25,8 − 15) : 2 = 5,4 m;Trapez|Umfang|Schenkel|Sinus|Satz des Pythagoras;Trigonometrie im rechtwinkligen Dreieck|Satz des Pythagoras;;ok
