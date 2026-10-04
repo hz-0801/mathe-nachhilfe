@@ -14,7 +14,7 @@ import sys
 import math
 from sympy import (symbols, Rational as R, sqrt, exp, E, diff, solve, limit,
                    oo, integrate, Matrix, binomial, atan, pi, factor, nsimplify,
-                   simplify, Abs, log, ln, S, Eq, Interval, Union, Poly,
+                   simplify, Abs, log, ln, S, Eq, expand, Interval, Union, Poly,
                    Piecewise, floor, ceiling, N, Symbol, re, im, Max, Min)
 from sympy.stats import Binomial, density, P, E as EW, Hypergeometric, Normal
 
@@ -619,6 +619,295 @@ def _():
     C = Matrix([3, 1, -3])
     w = ((A - M).norm(), (B - M).norm(), (C - M).norm(), (C - A).norm(), (C - B).norm())
     return ok(list(B) == [-1, 0, -2] and w == (3, 3, 3, sqrt(18), sqrt(18)), (list(B), w))
+
+
+# ======================= Teilstück 3 (2024 A1.9a – 2022 A1.2a) ================
+
+nr("2024-bebb-gk-A1.9a", "Baumdiagramm vervollständigen")
+
+
+@pruef("2024-bebb-gk-A1.9b")
+def _():
+    # p = 0,1
+    p = symbols('p')
+    L = solve(R(6, 10) * p + R(4, 10) * (1 - p) - R(42, 100), p)
+    return ok(L == [R(1, 10)], L)
+
+
+f24 = (x - 2) * exp(-x / 2 + 3)
+F24 = -2 * x * exp(-x / 2 + 3)
+
+
+@pruef("2024-bebb-gk-B2.1a")
+def _():
+    # Nullstelle 2; (0 | −2e³) ≈ −40,17
+    w = (solve(f24, x), f24.subs(x, 0))
+    return ok(w[0] == [2] and w[1] == -2 * E**3 and near(w[1], -40.17), (w[0], float(w[1])))
+
+
+@pruef("2024-bebb-gk-B2.1b")
+def _():
+    # Hochpunkt (4 | 2e) ≈ 5,44
+    fs = diff(f24, x)
+    xs = solve(fs, x)
+    w = (xs, simplify(f24.subs(x, 4)), diff(f24, x, 2).subs(x, 4) < 0)
+    return ok(xs == [4] and w[1] == 2 * E and near(w[1], 5.44) and w[2], w)
+
+
+@pruef("2024-bebb-gk-B2.1c")
+def _():
+    # f2 = (x/4 − 3/2)e^(−x/2+3); W(6 | 4); f3(6) = 1/4
+    f2 = diff(f24, x, 2)
+    bed = simplify(f2 - (x / 4 - R(3, 2)) * exp(-x / 2 + 3)) == 0
+    w = (solve(f2, x), f24.subs(x, 6), diff(f24, x, 3).subs(x, 6))
+    return ok(bed and w == ([6], 4, R(1, 4)), w)
+
+
+@pruef("2024-bebb-gk-B2.1d")
+def _():
+    # f'(6) = −1; Steigung AB = 1; Minimum von f' = −1 bei 6
+    fs = diff(f24, x)
+    m_ab = (f24.subs(x, 6) - 0) / (6 - 2)
+    xmin = solve(diff(fs, x), x)
+    w = (fs.subs(x, 6), m_ab, xmin, fs.subs(x, xmin[0]))
+    return ok(w == (-1, 1, [6], -1), w)
+
+
+@pruef("2024-bebb-gk-B2.1e")
+def _():
+    # F' = f
+    return ok(simplify(diff(F24, x) - f24) == 0, diff(F24, x))
+
+
+@pruef("2024-bebb-gk-B2.1f")
+def _():
+    # f' hat genau eine Nullstelle (4) mit Vorzeichenwechsel
+    fs = diff(f24, x)
+    return ok(solve(fs, x) == [4] and fs.subs(x, 3) > 0 and fs.subs(x, 5) < 0, solve(fs, x))
+
+
+@pruef("2024-bebb-gk-B2.1g")
+def _():
+    # f(11) = 9e^(−2,5) ≈ 0,739; Durchmesser ≈ 7,4 mm
+    f11 = f24.subs(x, 11)
+    dmm = 2 * f11 * 5
+    return ok(simplify(f11 - 9 * exp(R(-5, 2))) == 0 and near(f11, 0.739, 1e-3) and near(dmm, 7.4, 0.05), (float(f11), float(dmm)))
+
+
+@pruef("2024-bebb-gk-B2.1h")
+def _():
+    # 4,5 × 5,44 × 5,44 cm; ≈ 114 g
+    L = 9 * 0.5
+    bh = float(2 * 2 * E * 0.5)
+    m = L * bh**2 * 0.86
+    return ok(L == 4.5 and near(bh, 5.44) and near(m, 114, 0.5), (L, bh, m))
+
+
+@pruef("2024-bebb-gk-B2.1i")
+def _():
+    # f'(2) = e², α ≈ 164,6°
+    m = diff(f24, x).subs(x, 2)
+    al = float(2 * atan(m) * 180 / pi)
+    return ok(simplify(m - E**2) == 0 and near(al, 164.6, 0.05) and al >= 160, (m, al))
+
+
+@pruef("2024-bebb-gk-B2.1j")
+def _():
+    # Integral ≈ 27,75; A ≈ 13,9 cm²
+    I = integrate(f24, (x, 2, 11))
+    A = 2 * I * R(1, 4)
+    return ok(simplify(I - (F24.subs(x, 11) - F24.subs(x, 2))) == 0 and near(I, 27.75, 0.01) and near(A, 13.9, 0.05), (float(I), float(A)))
+
+
+f242 = R(1, 2) * x**4 - 4 * x**2 + R(7, 2)
+
+
+@pruef("2024-bebb-gk-B2.2a")
+def _():
+    # f(−x) = f(x)
+    return ok(simplify(f242.subs(x, -x) - f242) == 0, f242.subs(x, -x))
+
+
+@pruef("2024-bebb-gk-B2.2b")
+def _():
+    # Nullstellen ±1, ±√7
+    ns = sorted(solve(f242, x))
+    return ok(ns == [-sqrt(7), -1, 1, sqrt(7)], ns)
+
+
+@pruef("2024-bebb-gk-B2.2c")
+def _():
+    # H(0 | 3,5), T(±2 | −4,5)
+    f1, f2 = diff(f242, x), diff(f242, x, 2)
+    w = sorted((xi, f242.subs(x, xi), f2.subs(x, xi)) for xi in solve(f1, x))
+    return ok(w == [(-2, R(-9, 2), 16), (0, R(7, 2), -8), (2, R(-9, 2), 16)], w)
+
+
+@pruef("2024-bebb-gk-B2.2d")
+def _():
+    # 37/12; t: y = 6x + 6; g: y = −x/6 − 1/6
+    m = diff(f242, x).subs(x, -1)
+    tg = m * (x + 1) + f242.subs(x, -1)
+    g = -1 / m * (x + 1) + f242.subs(x, -1)
+    A = R(1, 2) * abs(tg.subs(x, 0) - g.subs(x, 0)) * 1
+    return ok(expand(tg) == 6 * x + 6 and expand(g) == -x / 6 - R(1, 6) and A == R(37, 12), (tg, g, A))
+
+
+@pruef("2024-bebb-gk-B2.2e")
+def _():
+    # 31/60, 7/4, 31:105
+    sek = R(7, 2) * x + R(7, 2)
+    L = sorted(v for v in solve(f242 - sek, x) if v.is_real and -1 <= v <= 0)
+    I = integrate(f242 - sek, (x, -1, 0))
+    D = R(1, 2) * 1 * f242.subs(x, 0)
+    return ok(L == [-1, 0] and I == R(31, 60) and D == R(7, 4) and I / D == R(31, 105), (L, I, D))
+
+
+@pruef("2024-bebb-gk-B2.2f")
+def _():
+    # a = 15/68
+    I = integrate(f242, (x, -1, 1))
+    return ok(I == R(68, 15) and 1 / I == R(15, 68) and near(1 / I, 0.22), I)
+
+
+@pruef("2024-bebb-gk-B2.2g")
+def _():
+    # max d = 1/8 bei ±1/√2
+    p = -R(7, 2) * x**2 + R(7, 2)
+    d = p - f242
+    xs = solve(diff(d, x), x)
+    w = sorted(d.subs(x, xi) for xi in xs)
+    return ok(simplify(d - (x**2 / 2 - x**4 / 2)) == 0 and set(xs) == {0, 1 / sqrt(2), -1 / sqrt(2)} and max(w) == R(1, 8) and d.subs(x, 1) == 0, (xs, w))
+
+
+@pruef("2024-bebb-gk-B2.2h")
+def _():
+    # Grenze x = √1,5 ≈ 1,22
+    p = -R(7, 2) * x**2 + R(7, 2)
+    L = [v for v in solve(f242 - p - R(3, 8), x) if v.is_real and v > 0]
+    return ok(L == [sqrt(R(3, 2))] and near(L[0], 1.22), L)
+
+
+P24 = dict(A=Matrix([0, 0, 0]), B=Matrix([2, 0, 0]), C=Matrix([2, 2, 0]), D=Matrix([0, 4, 0]), S=Matrix([0, 0, R(7, 2)]))
+
+
+@pruef("2024-bebb-gk-B3a")
+def _():
+    # AD = 2 BC; Fläche 6; V = 7
+    A_, B_, C_, D_, S_ = (P24[k] for k in "ABCDS")
+    G = R(1, 2) * (4 + 2) * 2
+    V = R(1, 3) * G * R(7, 2)
+    return ok((D_ - A_) == 2 * (C_ - B_) and G == 6 and V == 7, (G, V))
+
+
+@pruef("2024-bebb-gk-B3b")
+def _():
+    # CD · CS = 0
+    C_, D_, S_ = (P24[k] for k in "CDS")
+    return ok((D_ - C_).dot(S_ - C_) == 0, (D_ - C_).dot(S_ - C_))
+
+
+@pruef("2024-bebb-gk-B3c")
+def _():
+    # Kantenlängen AS = 3,5, BS = √16,25, CS = 4,5, DS = √28,25
+    A_, B_, C_, D_, S_ = (P24[k] for k in "ABCDS")
+    w = [(P_ - S_).norm() for P_ in (A_, B_, C_, D_)]
+    return ok(w == [R(7, 2), sqrt(R(65, 4)), R(9, 2), sqrt(R(113, 4))], w)
+
+
+@pruef("2024-bebb-gk-B3d")
+def _():
+    # 7x + 7y + 8z = 28
+    C_, D_, S_ = (P24[k] for k in "CDS")
+    n = (D_ - C_).cross(S_ - C_)
+    n2 = Matrix([7, 7, 8])
+    bed = n.cross(n2).norm() == 0 and n2.dot(C_) == 28 and n2.dot(D_) == 28 and n2.dot(S_) == 28
+    return ok(bed, list(n))
+
+
+@pruef("2024-bebb-gk-B3e")
+def _():
+    # cos φ = 7/√162; φ ≈ 56,6°
+    from sympy import acos
+    c = 7 / sqrt(162)
+    phi = float(acos(c) * 180 / pi)
+    return ok(near(phi, 56.6, 0.05) and near(c, 0.55, 0.01), phi)
+
+
+@pruef("2024-bebb-gk-B3f")
+def _():
+    # k = 14/11; alle Ecken in der Pyramide
+    C_, S_ = P24['C'], P24['S']
+    g = C_ + s * (S_ - C_)
+    ss = solve(g[0] - g[2], s)[0]
+    k_ = g.subs(s, ss)[0]
+    ecken = [Matrix([i * k_, j * k_, l * k_]) for i in (0, 1) for j in (0, 1) for l in (0, 1)]
+    innen = all(7 * e[0] + 7 * e[1] + 8 * e[2] <= 28 and R(7, 2) * e[0] + 2 * e[2] <= 7 for e in ecken)
+    return ok(ss == R(4, 11) and k_ == R(14, 11) and innen, (ss, k_, innen))
+
+
+nr("2024-bebb-gk-B4.1a", "Term deuten")
+
+
+@pruef("2024-bebb-gk-B4.1b")
+def _():
+    # 0,15 / 0,05 / 0,45 / 0,35
+    T, M, nTM = R(6, 10), R(2, 10), R(5, 100)
+    w = (M - nTM, nTM, T - (M - nTM), 1 - T - nTM)
+    return ok(w == (R(15, 100), R(5, 100), R(45, 100), R(35, 100)), w)
+
+
+@pruef("2024-bebb-gk-B4.1c")
+def _():
+    # 0,5
+    return ok(R(45, 100) + R(5, 100) == R(1, 2), "")
+
+
+@pruef("2024-bebb-gk-B4.1d")
+def _():
+    # 0,12 ≠ 0,15; P_T(M) = 0,25
+    return ok(R(6, 10) * R(2, 10) == R(12, 100) != R(15, 100) and R(15, 100) / R(6, 10) == R(1, 4), "")
+
+
+@pruef("2024-bebb-gk-B4.2a")
+def _():
+    # P(5) = 1/6, P(2) = 5/6; (5/6)² = 25/36
+    q = symbols('q', positive=True)
+    L = solve(q**2 - R(1, 36), q)
+    return ok(L == [R(1, 6)] and (1 - R(1, 6))**2 == R(25, 36), L)
+
+
+@pruef("2024-bebb-gk-B4.2b")
+def _():
+    # 4 · (25/36)⁴ · (11/36)³ ≈ 2,7 %
+    p = 4 * R(25, 36)**4 * R(11, 36)**3
+    return ok(near(p, 0.027, 5e-4), float(p))
+
+
+@pruef("2024-bebb-gk-B4.2c")
+def _():
+    # E = 9 ⇔ 9q² + 12q − 5 = 0
+    q = symbols('q')
+    Eq_ = 25 * q**2 + 2 * 10 * q * (1 - q) + 4 * (1 - q)**2 - 9
+    return ok(expand(Eq_) == 9 * q**2 + 12 * q - 5, expand(Eq_))
+
+
+@pruef("2022-bebb-gk-A1.1a")
+def _():
+    # 0, 2, 6
+    f = x**3 - 8 * x**2 + 12 * x
+    return ok(sorted(solve(f, x)) == [0, 2, 6], solve(f, x))
+
+
+@pruef("2022-bebb-gk-A1.1b")
+def _():
+    # t: y = −x + 6
+    f = x**3 - 8 * x**2 + 12 * x
+    tg = diff(f, x).subs(x, 1) * (x - 1) + f.subs(x, 1)
+    return ok(expand(tg) == -x + 6 and f.subs(x, 1) == 5, expand(tg))
+
+
+nr("2022-bebb-gk-A1.2a", "Ablesewerte aus der Abbildung")
 
 
 # ================================ Lauf =======================================
