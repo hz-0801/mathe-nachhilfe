@@ -1,6 +1,6 @@
 # Skript-Zuschnitt P10 – Vorschlag
 
-Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: 146 Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: Teilaufgaben · Jahrgänge · zuletzt · BE. Stufen in Leiterfolge.
+Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: 146 Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: Teilaufgaben · Jahrgänge · zuletzt · BE. Stufen in Leiterfolge. Basisaufgaben (B1…) in den Gebieten stehen zusätzlich als unterste Stufe; der Basisteil bleibt ganz und gemischt (Original, Antwortbogen), ohne Skript (Lehrer 04.10.).
 
 
 ## Geometrie (51 Teilaufgaben)
@@ -125,7 +125,7 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Gegenereignis – 2026-FOR-K6c (Wahrscheinlichkeit über Gegenereignis berechnen)
 - neu: Zufallsgerät entwerfen – 2025-OS-K3d (Zufallsgerät zu Wahrscheinlichkeit entwerfen), 2026-FOR-K6d (Zufallsgerät zu Wahrscheinlichkeit entwerfen)
 
-## Basis (22 Teilaufgaben)
+## nur Basisteil (kein Skript) (22 Teilaufgaben)
 
 ### Bruchteil einer Fläche – 5 · 5 J · zuletzt 2026 · 5 BE
 - neu: markieren oder ablesen – 2022-OS-B1a (Bruchteil einer Fläche bestimmen), 2023-OS-B1d (Bruchteil einer Fläche bestimmen), 2024-OS-B1b (Bruchteil einer Fläche bestimmen), 2025-OS-B1c (Bruchteil einer Fläche bestimmen), 2026-FOR-B1b (Bruchteil einer Fläche bestimmen)

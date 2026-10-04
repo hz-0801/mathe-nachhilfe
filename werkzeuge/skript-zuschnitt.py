@@ -34,7 +34,9 @@ out = ['# Skript-Zuschnitt P10 – Vorschlag',
        'Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus '
        '`msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: '
        f'{len(rows)} Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: '
-       'Teilaufgaben · Jahrgänge · zuletzt · BE. Stufen in Leiterfolge.',
+       'Teilaufgaben · Jahrgänge · zuletzt · BE. Stufen in Leiterfolge. '
+       'Basisaufgaben (B1…) in den Gebieten stehen zusätzlich als unterste Stufe; '
+       'der Basisteil bleibt ganz und gemischt (Original, Antwortbogen), ohne Skript (Lehrer 04.10.).',
        '']
 geb = None
 ab = None
