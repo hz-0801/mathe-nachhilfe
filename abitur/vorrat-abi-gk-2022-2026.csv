@@ -35,3 +35,39 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2023-bebb-gk-B2.2g;"L = (0; 5) ∪ (5; ∞)";f(x) − g(x) = 0,6x(x − 5)²;Ungleichung|Faktorisieren|Vorzeichen|Lösungsmenge;Funktionsklassen und Eigenschaften;;ok
 2023-bebb-gk-B2.2h;≈ 230 °C (228 bis 235 °C vertretbar);Schwankung zwischen ≈ 222 °C und 245 °C;Mittelwert|Ablesen am Graphen|Dauerphase;;;nicht rechenbar
 2023-bebb-gk-B2.2i;"195; mittlere Temperatur in der Startphase (0 bis 5 min) ist 195 °C";∫ von 0 bis 5 h(x) dx = 975;Mittelwert einer Funktion|Integral|Stammfunktion|Sachzusammenhang;Stammfunktion und Hauptsatz;;ok
+2023-bebb-gk-B2.2j;"c = 4, d = 55; Graph von f um 55 nach oben verschoben, dann in y-Richtung mit Faktor 4 gestreckt";f(x) + 55 = x³ − 12x² + 45x + 5;Koeffizientenvergleich|Streckung in y-Richtung|Verschiebung in y-Richtung|Transformation;;;ok
+2023-bebb-gk-B2.2k;k(x) = 2x³ − 28x² + 130x + 20;d = 20, c = 130|125a + 25b = −450, 75a + 10b = −130;Steckbriefaufgabe|ganzrationale Funktion|lineares Gleichungssystem|Hochpunkt;Gleichungen lösen|Kurvenuntersuchung;;ok
+2023-bebb-gk-B3a;"gleichseitig; |AB| = |BC| = |AC| = 4√2 ≈ 5,66. G(3 | 0 | 1)";AC = (−4 | 0 | 4)|G = A + 1/4 · AC;gleichseitiges Dreieck|Betrag eines Vektors|Teilverhältnis|Teilpunkt;Vektoren und Rechenoperationen;;ok
+2023-bebb-gk-B3b;"(2 | 2 | 2) = 2 · (1 | 1 | 1) ⇒ L1 ∥ L2; A ∈ L1, aber 2 · 4 = 8 ≠ 5 ⇒ L1 ≠ L2 ⇒ kein gemeinsamer Punkt";;parallele Ebenen|Normalenvektor|Punktprobe|Koordinatengleichung;Lagebeziehungen;;ok
+2023-bebb-gk-B3c;"größer; |BE| = 1,5, Abstand der Ebenen 1,5/√3 ≈ 0,87; BE steht nicht senkrecht auf den Ebenen ⇒ länger als das Lot";Abstand der Ebenen √3/2 ≈ 0,87;Abstand paralleler Ebenen|Lot|Abstand zweier Punkte|Hessesche Normalenform;Ebenen;;ok
+2023-bebb-gk-B3d;Q(0,5 | 0,5 | 1,5);g: x = (0 | 0 | 2) + t · (2 | 2 | −2)|t = 1/4;Schnittpunkt Gerade–Ebene|Parameterform|Einsetzen;Geraden|Ebenen;;ok
+2023-bebb-gk-B3e;α ≈ 54,7°;cos α = 1/√3 ≈ 0,577;Winkel zwischen Ebenen|Normalenvektor|Skalarprodukt|Kosinus;Ebenen;;ok
+2023-bebb-gk-B3f;"T innen; x, y, z > 0 (erster Oktant), 2 · 3 = 6 > 5 (jenseits von L2), 1 + 1 + 1 = 3 < 4 (diesseits von L1)";;Lage eines Punktes|Koordinatengleichung|Halbraum|Einsetzen;Ebenen;;ok
+2023-bebb-gk-B3g;"k = 2,5; Ansatz = Pyramide OABC (Grundfläche Dreieck OAB mit Katheten 4, Höhe OC = 4) minus Pyramide ODEF (Katheten und Höhe k); V = 129/16 ≈ 8,06";V(OABC) = 32/3|V(ODEF) = 125/48;Pyramide|Volumen|Differenz von Körpern|Ähnlichkeit;;;ok
+2023-bebb-gk-B3h;"I: Gerade durch D senkrecht zu AB in der xy-Ebene; II: Schnitt mit L1 (= Schnitt mit AB) ⇒ Lotfußpunkt R; III: |DR| ≈ 1,06 = Abstand von D zur Geraden AB = Höhe des Trapezes ABED";R(3,25 | 0,75 | 0)|exakt 3√2/4;Abstand Punkt–Gerade|Lotfußpunkt|Lotgerade|Trapezhöhe;Geraden|Schnittmengen|Orthogonalität;;ok
+2023-bebb-gk-B3i;C'(2 + 2√3 | 2 + 2√3 | 0) ≈ (5,46 | 5,46 | 0);Lotfußpunkt M(2 | 2 | 0)|CM = (2 | 2 | −4), |CM| = 2√6|andere Lage (2 − 2√3 | 2 − 2√3 | 0) entfällt;Drehung um eine Achse|Lotfußpunkt|Abstand Punkt–Gerade|Mittelpunkt;Abstände|Orthogonalität|Vektoren und Rechenoperationen;;ok
+2023-bebb-gk-B4.1a;"W∩G 15 %, W∩¬G 57 %, ¬W∩G 10 %, ¬W∩¬G 18 %; Ränder W 72 %, ¬W 28 %, G 25 %, ¬G 75 %";;Vierfeldertafel|Gegenereignis|Randwahrscheinlichkeit;;;ok
+2023-bebb-gk-B4.1b;0,82 = 82 %;¬W∩¬G = 18 %;Vereinigung|Gegenereignis|Vierfeldertafel;Ereignisse und Mengenoperationen;2023-bebb-gk-B4.1a;ok
+2023-bebb-gk-B4.1c;0,15/0,72 ≈ 0,208 ≈ 21 %;;bedingte Wahrscheinlichkeit|Vierfeldertafel;Vierfeldertafel;2023-bebb-gk-B4.1a;ok
+2023-bebb-gk-B4.1d;P(X ≥ 80) ≈ 0,149 ≈ 15 %;"X ~ B(100; 0,75)|X ≥ 4 · (100 − X) ⇔ X ≥ 80";Binomialverteilung|kumulierte Wahrscheinlichkeit|Ungleichung|Bernoulli-Kette;Gleichungen lösen;;ok
+2023-bebb-gk-B4.1e;P(X ≥ 75): Wahrscheinlichkeit, dass mindestens 75 der 100 Lehrkräfte nicht am Gymnasium arbeiten (höchstens 25 am Gymnasium);;Binomialverteilung|Summenformel|Term deuten|Sachzusammenhang;;;nicht rechenbar
+2023-bebb-gk-B4.1f;n = 11;0,75^n ≤ 0,05|n ≥ 10,41;Gegenereignis|Bernoulli-Kette|Logarithmus|Mindestanzahl;Gleichungen lösen|Baumdiagramm und Pfadregeln;;ok
+2023-bebb-gk-B4.1g;77/3230 ≈ 0,024 (2,4 %);"C(20; 6) = 38 760|C(12; 6) = 924";Ziehen ohne Zurücklegen|Binomialkoeffizient|Pfadregel;Kombinatorik|Baumdiagramm und Pfadregeln;;ok
+2023-bebb-gk-B4.1h;35/1938 ≈ 0,018 (1,8 %);P(0 weibliche) = 28/38 760 ≈ 0,0007|P(genau 1 weibliche) = 672/38 760 ≈ 0,0173;Ziehen ohne Zurücklegen|Binomialkoeffizient|weniger als|Summe von Fällen;Kombinatorik|Hypergeometrische Verteilung;;ok
+2023-bebb-gk-B4.2a;"Fall: eine weiße und eine schwarze Kugel (Wahrscheinlichkeiten 4/9 und 5/9), in zwei Reihenfolgen (Faktor 2); Auszahlung 2 Euro (einmal verdoppelt, einmal halbiert)";E = 49/18 ≈ 2,72 Euro;Erwartungswert|Term deuten|Pfadregel|Auszahlung;Baumdiagramm und Pfadregeln;;ok
+2023-bebb-gk-B4.2b;"falsch; E = 49/18 ≈ 2,72 Euro > Einsatz 2 Euro ⇒ Spieler gewinnt im Mittel ≈ 0,72 Euro je Spiel, Spielleiter verliert";128/81 + 80/81 + 25/162 = 49/18;Erwartungswert|faires Spiel|Gewinnerwartung|Aussagen beurteilen;;2023-bebb-gk-B4.2a;ok
+2023-bebb-gk-B4.2c;weiß : schwarz = 1 : 2 (p = 1/3);E = 9/2 p² + 3p + 1/2|E = 2 ⇔ p² + 2/3 p − 1/3 = 0;Erwartungswert|faires Spiel|quadratische Gleichung|Anzahlverhältnis;Gleichungen lösen|Baumdiagramm und Pfadregeln;2023-bebb-gk-B4.2a;ok
+2024-bebb-gk-A1.1a;nur ungerade Exponenten ⇒ punktsymmetrisch zum Ursprung;;Punktsymmetrie|ungerade Exponenten|ganzrationale Funktion;;;nicht rechenbar
+2024-bebb-gk-A1.1b;8;Nullstellen −2, 0, 2|∫ von −2 bis 0 f(x) dx = 4;Fläche zwischen Graph und x-Achse|Nullstelle|Symmetrie|Integral;Gleichungen lösen|Stammfunktion und Hauptsatz;2024-bebb-gk-A1.1a;ok
+2024-bebb-gk-A1.2a;"Nein; z-Koordinaten 23 und 20 sind für jedes t verschieden ⇒ PQ nie parallel zur xy-Ebene";Richtungsvektor (4 | t | −3);Parallelität Gerade–Ebene|Koordinatenebene|Richtungsvektor;Geraden;;ok
+2024-bebb-gk-A1.2b;t = −6 oder t = 6;QO · QP = t² − 36;rechter Winkel|Skalarprodukt|Orthogonalität|Parameter;Gleichungen lösen|Vektoren und Rechenoperationen;;ok
+2024-bebb-gk-A1.3a;"Stühle 1, 3, 5; 1, 3, 6; 1, 4, 6; 2, 4, 6";;Auswahl|systematisches Abzählen|Abstandsbedingung;;;ok
+2024-bebb-gk-A1.3b;4 · 3! = 24;;Permutation|Fakultät|Produktregel der Kombinatorik;;2024-bebb-gk-A1.3a;ok
+2024-bebb-gk-A1.4a;"g'(0) = 2; Tangente in (0 | 0) mit Steigungsdreieck einzeichnen";g'(x) = 2e^x;Ableitung|Tangentensteigung|Steigungsdreieck|e-Funktion;Ableitungsregeln|Tangente, Normale, Schnittwinkel;;ok
+2024-bebb-gk-A1.4b;"falsch; Verschiebung in y-Richtung erhält Steigungen, aber g'(0) = 2 ≠ h'(0) = 1";h'(0) = 1;Verschiebung in y-Richtung|Transformation|Steigung|Aussagen beurteilen;Ableitung und Änderungsrate;2024-bebb-gk-A1.4a;ok
+2024-bebb-gk-A1.5a;"1 : 3; CD = −2 · AB ⇒ Trapez mit parallelen Seiten AB und CD (doppelt so lang) und gleicher Höhe";Dreieck 1/2 · |AB| · h|Trapez 3/2 · |AB| · h;Trapez|Flächenverhältnis|Vektoraddition|parallele Seiten;Vektoren und Rechenoperationen;;ok
+2024-bebb-gk-A1.6a;0,4³ = 0,064 < 0,1;;Pfadregel|Potenz|Unabhängigkeit;;;ok
+2024-bebb-gk-A1.6b;"vier Kinder erhalten je einen Ball; Ereignis: mindestens drei Bälle ohne Glitzerfärbung";;Term deuten|Bernoulli-Kette|mindestens|Binomialkoeffizient;Binomialverteilung;;nicht rechenbar
+2024-bebb-gk-A1.7a;f'(x) = 0,5 · e^(0,5x) > 0 für alle x ⇒ streng monoton steigend;f'(x) = 0,5 · e^(0,5x);Monotonie|Ableitung|e-Funktion|Vorzeichen;Ableitungsregeln;;ok
+2024-bebb-gk-A1.7b;h(x) = f(x + 2) = e^(0,5x + 1) − e;Nullstelle von f: x = 2;Verschiebung in x-Richtung|Nullstelle|Transformation|e-Funktion;Gleichungen lösen;;ok
+2024-bebb-gk-A1.8a;"z. B. B(−1 | 0 | −2), C(3 | 1 | −3); |MA| = |MB| = |MC| = 3, |CA| = |CB| = √18 (viele Lösungen)";AM = (−2 | −2 | −1), |MA| = 3|B = 2M − A;Abstand zweier Punkte|gleichschenkliges Dreieck|Punktspiegelung|Orthogonalität;Spiegelung|Orthogonalität|Abstände;;ok

@@ -9,3 +9,4 @@ Ein Neustart beginnt beim ersten Teilstück, das unten nicht als „fertig“ st
 
 - Start: 2026-10-04T14:30Z
 - Teilstück 1/7 fertig: 36 Zeilen, 2026-10-04T14:34Z
+- Teilstück 2/7 fertig: 36 Zeilen, 2026-10-04T14:36Z

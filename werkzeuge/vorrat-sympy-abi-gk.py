@@ -342,6 +342,285 @@ def _():
     return ok(I == 975 and I / 5 == 195, I)
 
 
+# ======================= Teilstück 2 (2023 B2.2j – 2024 A1.8a) ================
+
+@pruef("2023-bebb-gk-B2.2j")
+def _():
+    # c = 4, d = 55
+    c, d = symbols('c d')
+    h = 4 * x**3 - 48 * x**2 + 180 * x + 20
+    L = solve(Poly(c * (f22 + d) - h, x).coeffs(), [c, d], dict=True)
+    return ok(L == [{c: 4, d: 55}], L)
+
+
+@pruef("2023-bebb-gk-B2.2k")
+def _():
+    # k(x) = 2x³ − 28x² + 130x + 20
+    A, B, C, D = symbols('A B C D')
+    kf = A * x**3 + B * x**2 + C * x + D
+    L = solve([kf.subs(x, 0) - 20, diff(kf, x).subs(x, 0) - 130, kf.subs(x, 5) - 220, diff(kf, x).subs(x, 5)], [A, B, C, D])
+    return ok(L == {A: 2, B: -28, C: 130, D: 20}, L)
+
+
+A3, B3, C3 = Matrix([4, 0, 0]), Matrix([0, 4, 0]), Matrix([0, 0, 4])
+
+
+@pruef("2023-bebb-gk-B3a")
+def _():
+    # gleichseitig 4√2; G(3 | 0 | 1)
+    L = ((A3 - B3).norm(), (B3 - C3).norm(), (A3 - C3).norm())
+    G = A3 + R(1, 4) * (C3 - A3)
+    return ok(L == (4 * sqrt(2),) * 3 and list(G) == [3, 0, 1], (L, list(G)))
+
+
+@pruef("2023-bebb-gk-B3b")
+def _():
+    # L1 ∥ L2, A ∉ L2
+    n1, n2 = Matrix([1, 1, 1]), Matrix([2, 2, 2])
+    return ok(n1.cross(n2).norm() == 0 and 2 * 4 != 5, "")
+
+
+@pruef("2023-bebb-gk-B3c")
+def _():
+    # |BE| = 1,5 > Abstand 1,5/√3 ≈ 0,87
+    d_eb = (Matrix([0, 4, 0]) - Matrix([0, R(5, 2), 0])).norm()
+    d_eben = abs(4 - R(5, 2)) / sqrt(3)
+    return ok(d_eb == R(3, 2) and near(d_eben, 0.87) and d_eb > d_eben, (d_eb, float(d_eben)))
+
+
+@pruef("2023-bebb-gk-B3d")
+def _():
+    # Q(0,5 | 0,5 | 1,5), t = 1/4
+    g = Matrix([0, 0, 2]) + t * Matrix([2, 2, -2])
+    tt = solve(2 * g[0] + 2 * g[1] + 2 * g[2] - 5, t)[0]
+    Q = g.subs(t, tt)
+    return ok(tt == R(1, 4) and list(Q) == [R(1, 2), R(1, 2), R(3, 2)], (tt, list(Q)))
+
+
+@pruef("2023-bebb-gk-B3e")
+def _():
+    # α ≈ 54,7°
+    from sympy import acos
+    al = float(acos(1 / sqrt(3)) * 180 / pi)
+    return ok(near(al, 54.7, 0.05), al)
+
+
+@pruef("2023-bebb-gk-B3f")
+def _():
+    # 3 < 4 und 6 > 5
+    return ok(1 + 1 + 1 < 4 and 2 * 3 > 5, "")
+
+
+@pruef("2023-bebb-gk-B3g")
+def _():
+    # k = 2,5; V = 129/16 ≈ 8,06
+    V = R(1, 3) * R(1, 2) * 16 * 4 - R(1, 3) * R(1, 2) * R(5, 2)**3
+    return ok(V == R(129, 16) and near(V, 8.06), V)
+
+
+@pruef("2023-bebb-gk-B3h")
+def _():
+    # R(3,25 | 0,75 | 0), |DR| ≈ 1,06 = 3√2/4
+    g = Matrix([R(5, 2), 0, 0]) + t * Matrix([1, 1, 0])
+    tt = solve(sum(g) - 4, t)[0]
+    Rp = g.subs(t, tt)
+    d = (Rp - Matrix([R(5, 2), 0, 0])).norm()
+    bed = list(Rp) == [R(13, 4), R(3, 4), 0] and simplify(d - 3 * sqrt(2) / 4) == 0 and near(d, 1.06) and Matrix([1, 1, 0]).dot(B3 - A3) == 0
+    return ok(bed, (list(Rp), float(d)))
+
+
+@pruef("2023-bebb-gk-B3i")
+def _():
+    # C'(2+2√3 | 2+2√3 | 0)
+    M = (A3 + B3) / 2
+    rad = (C3 - M).norm()
+    Cs = M + rad * Matrix([1, 1, 0]) / sqrt(2)
+    bed = rad == 2 * sqrt(6) and all(simplify(Cs[i] - (2 + 2 * sqrt(3))) == 0 for i in range(2)) and Cs[2] == 0 and (Cs - M).dot(B3 - A3) == 0
+    return ok(bed, [simplify(v) for v in Cs])
+
+
+@pruef("2023-bebb-gk-B4.1a")
+def _():
+    # 15/57/10/18
+    W, G, WG = R(72, 100), R(25, 100), R(15, 100)
+    w = (WG, W - WG, G - WG, 1 - W - G + WG)
+    return ok(w == (R(15, 100), R(57, 100), R(10, 100), R(18, 100)), w)
+
+
+@pruef("2023-bebb-gk-B4.1b")
+def _():
+    # 0,82
+    return ok(1 - R(18, 100) == R(82, 100) == R(72, 100) + R(25, 100) - R(15, 100), "")
+
+
+@pruef("2023-bebb-gk-B4.1c")
+def _():
+    # ≈ 0,208
+    return ok(near(R(15, 72), 0.208, 1e-3), float(R(15, 72)))
+
+
+@pruef("2023-bebb-gk-B4.1d")
+def _():
+    # P(X ≥ 80) ≈ 0,149
+    p = binom_p(100, R(3, 4), 80, 100)
+    return ok(near(p, 0.149, 1e-3), float(p))
+
+
+nr("2023-bebb-gk-B4.1e", "Term deuten")
+
+
+@pruef("2023-bebb-gk-B4.1f")
+def _():
+    # n = 11, Grenze 10,41
+    n0 = float(log(0.05) / log(0.75))
+    n = math.ceil(n0)
+    return ok(n == 11 and near(n0, 10.41, 0.01) and 1 - 0.75**11 >= 0.95 > 1 - 0.75**10, (n, n0))
+
+
+@pruef("2023-bebb-gk-B4.1g")
+def _():
+    # 77/3230 ≈ 0,024
+    p = binomial(12, 6) / binomial(20, 6)
+    return ok(p == R(77, 3230) and near(p, 0.024, 1e-3) and binomial(20, 6) == 38760 and binomial(12, 6) == 924, p)
+
+
+@pruef("2023-bebb-gk-B4.1h")
+def _():
+    # 35/1938 ≈ 0,018
+    p = (binomial(8, 6) + 12 * binomial(8, 5)) / binomial(20, 6)
+    return ok(p == R(35, 1938) and near(p, 0.018, 1e-3), p)
+
+
+E42 = 8 * R(4, 9)**2 + 2 * 2 * R(4, 9) * R(5, 9) + R(1, 2) * R(5, 9)**2
+
+
+@pruef("2023-bebb-gk-B4.2a")
+def _():
+    # E = 49/18 ≈ 2,72
+    return ok(E42 == R(49, 18) and near(E42, 2.72), E42)
+
+
+@pruef("2023-bebb-gk-B4.2b")
+def _():
+    # E ≈ 2,72 > 2, Gewinn ≈ 0,72
+    return ok(E42 > 2 and near(E42 - 2, 0.72), float(E42 - 2))
+
+
+@pruef("2023-bebb-gk-B4.2c")
+def _():
+    # p = 1/3
+    p = symbols('p')
+    Ep = 8 * p**2 + 4 * p * (1 - p) + R(1, 2) * (1 - p)**2
+    bed = simplify(Ep - (R(9, 2) * p**2 + 3 * p + R(1, 2))) == 0
+    L = solve(Ep - 2, p)
+    return ok(bed and set(L) == {R(1, 3), -1}, L)
+
+
+nr("2024-bebb-gk-A1.1a", "Symmetrie am Term begründen")
+
+
+@pruef("2024-bebb-gk-A1.1b")
+def _():
+    # 8; Nullstellen −2, 0, 2
+    f = x**3 - 4 * x
+    ns = sorted(solve(f, x))
+    A = 2 * integrate(f, (x, -2, 0))
+    return ok(ns == [-2, 0, 2] and A == 8, (ns, A))
+
+
+@pruef("2024-bebb-gk-A1.2a")
+def _():
+    # z-Komponente −3 ≠ 0 für alle t
+    d = Matrix([6, t, 20]) - Matrix([2, 0, 23])
+    return ok(d[2] == -3, d[2])
+
+
+@pruef("2024-bebb-gk-A1.2b")
+def _():
+    # t = ±6
+    Q = Matrix([6, t, 20])
+    sp = (Matrix([0, 0, 0]) - Q).dot(Matrix([2, 0, 23]) - Q)
+    L = sorted(solve(sp, t))
+    return ok(simplify(sp - (t**2 - 36)) == 0 and L == [-6, 6], (sp, L))
+
+
+@pruef("2024-bebb-gk-A1.3a")
+def _():
+    # 4 Auswahlen: 135, 136, 146, 246
+    from itertools import combinations
+    L = [c for c in combinations(range(1, 7), 3) if c[1] - c[0] >= 2 and c[2] - c[1] >= 2]
+    return ok(L == [(1, 3, 5), (1, 3, 6), (1, 4, 6), (2, 4, 6)], L)
+
+
+@pruef("2024-bebb-gk-A1.3b")
+def _():
+    # 24
+    return ok(4 * math.factorial(3) == 24, 4 * 6)
+
+
+@pruef("2024-bebb-gk-A1.4a")
+def _():
+    # g'(0) = 2
+    g = 2 * exp(x) - 2
+    return ok(diff(g, x).subs(x, 0) == 2, diff(g, x).subs(x, 0))
+
+
+@pruef("2024-bebb-gk-A1.4b")
+def _():
+    # g'(0) = 2 ≠ h'(0) = 1
+    g, h = 2 * exp(x) - 2, exp(x) + 1
+    w = (diff(g, x).subs(x, 0), diff(h, x).subs(x, 0))
+    return ok(w == (2, 1), w)
+
+
+@pruef("2024-bebb-gk-A1.5a")
+def _():
+    # Verhältnis 1 : 3 (Beispielkoordinaten)
+    A, B, C = Matrix([0, 0]), Matrix([2, 0]), Matrix([1, 3])
+    D = C - 2 * (B - A)
+    def fl(P, Q, Rr):
+        return abs((Q - P)[0] * (Rr - P)[1] - (Q - P)[1] * (Rr - P)[0]) / 2
+    dreieck = fl(A, B, C)
+    trapez = fl(A, B, C) + fl(A, C, D)
+    return ok(dreieck / trapez == R(1, 3), dreieck / trapez)
+
+
+@pruef("2024-bebb-gk-A1.6a")
+def _():
+    # 0,064 < 0,1
+    return ok(R(2, 5)**3 == R(8, 125) and R(8, 125) < R(1, 10), R(2, 5)**3)
+
+
+nr("2024-bebb-gk-A1.6b", "Ereignis beschreiben")
+
+
+@pruef("2024-bebb-gk-A1.7a")
+def _():
+    # f'(x) = 0,5e^(0,5x) > 0
+    f = exp(x / 2) - E
+    fs = diff(f, x)
+    return ok(simplify(fs - exp(x / 2) / 2) == 0 and fs.subs(x, -100) > 0, fs)
+
+
+@pruef("2024-bebb-gk-A1.7b")
+def _():
+    # Nullstelle 2; h(x) = e^(0,5x+1) − e
+    f = exp(x / 2) - E
+    ns = solve(f, x)
+    h = f.subs(x, x + 2)
+    return ok(ns == [2] and simplify(h - (exp(x / 2 + 1) - E)) == 0 and h.subs(x, 0) == 0, (ns, h))
+
+
+@pruef("2024-bebb-gk-A1.8a")
+def _():
+    # B(−1|0|−2), C(3|1|−3): alle Abstände zu M gleich 3, |CA| = |CB| = √18
+    A, M = Matrix([3, 4, 0]), Matrix([1, 2, -1])
+    B = 2 * M - A
+    C = Matrix([3, 1, -3])
+    w = ((A - M).norm(), (B - M).norm(), (C - M).norm(), (C - A).norm(), (C - B).norm())
+    return ok(list(B) == [-1, 0, -2] and w == (3, 3, 3, sqrt(18), sqrt(18)), (list(B), w))
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
