@@ -67,18 +67,18 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Gleichung aufstellen und rückwärts rechnen – 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen)
 - neu: Tarife vergleichen – 2023-OS-K3b (Tarife vergleichen)
 
-### Parabel: Scheitelpunkt und Skizze – 6 · 5 J · zuletzt 2026 · 9 BE
+### Parabel: Scheitelpunkt und Skizze – 7 · 5 J · zuletzt 2026 · 12 BE
 - neu: Wertetabelle zuordnen – 2026-FOR-B1e (Wertetabelle einer Funktion zuordnen)
 - neu: Scheitelpunkt ablesen – 2022-OS-K3b (Scheitelpunkt ablesen), 2026-FOR-K5c (Scheitelpunkt ablesen)
 - neu: Scheitelpunktform angeben – 2023-OS-K4b (Scheitelpunkt ablesen), 2025-OS-K5b (Scheitelpunkt ablesen)
 - neu: Parabel skizzieren – 2024-OS-K3b (Parabel aus Gleichung skizzieren)
+- neu: Lage zweier Parabeln ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
-### Quadratische Gleichung lösen – 6 · 5 J · zuletzt 2026 · 19 BE
+### Quadratische Gleichung lösen – 5 · 4 J · zuletzt 2025 · 16 BE
 - neu: Lösung prüfen – 2025-OS-B1h (Lösung durch Einsetzen prüfen)
 - neu: Nullstellen berechnen – 2025-OS-K5c (Nullstellen quadratische Funktion berechnen)
 - neu: x zu gegebenem y – 2023-OS-K4c (Argument zu Funktionswert berechnen)
 - neu: Gerade und Parabel gleichsetzen – 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen)
-- neu: ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
 ### Exponentielles Wachstum – 5 · 2 J · zuletzt 2026 · 14 BE
 - neu: Tabelle ergänzen – 2026-FOR-K7a (Wachstumstabelle ergänzen)
