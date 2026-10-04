@@ -910,6 +910,292 @@ def _():
 nr("2022-bebb-gk-A1.2a", "Ablesewerte aus der Abbildung")
 
 
+# ======================= Teilstück 4 (2022 A1.2b – 2022 B3a) ==================
+
+nr("2022-bebb-gk-A1.2b", "Punkt am Graphen markieren")
+
+
+@pruef("2022-bebb-gk-A1.3a")
+def _():
+    # m = −6
+    m = symbols('m', negative=True)
+    A = integrate(m * x - x**2, (x, m, 0))
+    L = solve(A - 36, m)
+    return ok(simplify(A + m**3 / 6) == 0 and L == [-6], (A, L))
+
+
+@pruef("2022-bebb-gk-A1.4a")
+def _():
+    # 3 − 3 = 0
+    return ok(3 * 1 - 2 * R(3, 2) == 0, 3 * 1 - 2 * R(3, 2))
+
+
+@pruef("2022-bebb-gk-A1.4b")
+def _():
+    # Ursprung und (0|0|1) erfüllen 3x − 2y = 0
+    return ok(all(3 * p[0] - 2 * p[1] == 0 for p in ([0, 0, 0], [0, 0, 1], [0, 0, -5])), "")
+
+
+@pruef("2022-bebb-gk-A1.4c")
+def _():
+    # s = 3
+    L = solve(Matrix([3, -2, 0]).dot(Matrix([2, s, 1])), s)
+    return ok(L == [3], L)
+
+
+@pruef("2022-bebb-gk-A1.5a")
+def _():
+    # |AC| = |BC| = √(25 + z²)
+    zz = symbols('zz', positive=True)
+    A, B, C = Matrix([0, 0, 0]), Matrix([8, 6, 0]), Matrix([4, 3, zz])
+    w = ((C - A).norm(), (C - B).norm())
+    return ok(simplify(w[0] - w[1]) == 0 and simplify(w[0] - sqrt(25 + zz**2)) == 0, w)
+
+
+@pruef("2022-bebb-gk-A1.5b")
+def _():
+    # z = 7
+    zz = symbols('zz', positive=True)
+    A, B = Matrix([0, 0, 0]), Matrix([8, 6, 0])
+    L = solve(R(1, 2) * (B - A).norm() * zz - 35, zz)
+    return ok((B - A).norm() == 10 and L == [7], L)
+
+
+@pruef("2022-bebb-gk-A1.6a")
+def _():
+    # 4/5
+    p = 1 - R(4, 6) * R(3, 5) * R(2, 4)
+    return ok(p == R(4, 5), p)
+
+
+@pruef("2022-bebb-gk-A1.6b")
+def _():
+    # rot entfernt: 0,6; grün entfernt: 0,4
+    w = (2 * R(3, 5) * R(2, 4), 2 * R(4, 5) * R(1, 4))
+    return ok(w == (R(3, 5), R(2, 5)), w)
+
+
+@pruef("2022-bebb-gk-A1.7a")
+def _():
+    # 1/3
+    return ok(R(2, 10) / R(6, 10) == R(1, 3), R(2, 10) / R(6, 10))
+
+
+@pruef("2022-bebb-gk-A1.7b")
+def _():
+    # 0,5
+    return ok(R(6, 10) + R(3, 10) - 2 * R(2, 10) == R(1, 2), "")
+
+
+f22b = (x + 2) * exp(-x)
+
+
+@pruef("2022-bebb-gk-B2.1a")
+def _():
+    # (−2|0), (0|2); Hochpunkt (−1 | e)
+    fs = diff(f22b, x)
+    bed = simplify(fs + (x + 1) * exp(-x)) == 0
+    w = (solve(f22b, x), f22b.subs(x, 0), solve(fs, x), f22b.subs(x, -1), fs.subs(x, -2) > 0, fs.subs(x, 0) < 0)
+    return ok(bed and w == ([-2], 2, [-1], E, True, True), w)
+
+
+@pruef("2022-bebb-gk-B2.1b")
+def _():
+    # lim = 0, von oben
+    return ok(limit(f22b, x, oo) == 0 and f22b.subs(x, 100) > 0, limit(f22b, x, oo))
+
+
+nr("2022-bebb-gk-B2.1c", "Graphen zuordnen")
+
+
+@pruef("2022-bebb-gk-B2.1d")
+def _():
+    # x = −1,5
+    L = solve(f22b - diff(f22b, x), x)
+    return ok(L == [R(-3, 2)], L)
+
+
+@pruef("2022-bebb-gk-B2.1e")
+def _():
+    # φ ≈ 32,5°; m1 ≈ 2,24; m2 ≈ −6,72
+    m1 = diff(f22b, x).subs(x, R(-3, 2))
+    m2 = diff(f22b, x, 2).subs(x, R(-3, 2))
+    phi = float(atan(abs((m1 - m2) / (1 + m1 * m2))) * 180 / pi)
+    return ok(near(m1, 2.24) and near(m2, -6.72) and near(phi, 32.5, 0.05), (float(m1), float(m2), phi))
+
+
+@pruef("2022-bebb-gk-B2.1f")
+def _():
+    # e³ > 2 − e
+    fs = diff(f22b, x)
+    I1, I2 = integrate(fs, (x, -3, -2)), integrate(fs, (x, -1, 0))
+    return ok(simplify(I1 - E**3) == 0 and simplify(I2 - (2 - E)) == 0 and I1 > 0 > I2, (I1, I2))
+
+
+@pruef("2022-bebb-gk-B2.1g")
+def _():
+    # Umfang 4 + 2√2; Mittelpunkt (1 | 1)
+    tg = diff(f22b, x).subs(x, 0) * x + f22b.subs(x, 0)
+    xs = solve(tg, x)[0]
+    U = xs + tg.subs(x, 0) + sqrt(xs**2 + tg.subs(x, 0)**2)
+    M = (Matrix([xs, 0]) + Matrix([0, tg.subs(x, 0)])) / 2
+    return ok(expand(tg) == -x + 2 and simplify(U - (4 + 2 * sqrt(2))) == 0 and list(M) == [1, 1], (tg, U, list(M)))
+
+
+@pruef("2022-bebb-gk-B2.1h")
+def _():
+    # u = √2; P ≈ (1,41 | 0,83)
+    A = u * f22b.subs(x, u)
+    As = diff(A, u)
+    bed = simplify(As - (2 - u**2) * exp(-u)) == 0
+    L = [v for v in solve(As, u) if v > 0]
+    yv = f22b.subs(x, sqrt(2))
+    return ok(bed and L == [sqrt(2)] and near(yv, 0.83), (L, float(yv)))
+
+
+@pruef("2022-bebb-gk-B2.1i")
+def _():
+    # A_b = 2 − (b+2)e^(−b); b ≈ 1,146 für A_b = 1
+    from sympy import nsolve
+    Ab = f22b.subs(x, 0) - f22b.subs(x, b)
+    bed = simplify(Ab - (2 - (b + 2) * exp(-b))) == 0 and limit(Ab, b, oo) == 2 and Ab.subs(b, 0) == 0
+    b0 = nsolve(Ab - 1, b, 1)
+    return ok(bed and near(b0, 1.146, 1e-3), (bed, float(b0)))
+
+
+h22 = R(9, 40) * t**3 - R(27, 2) * t**2 + R(405, 2) * t
+
+
+@pruef("2022-bebb-gk-B2.1j")
+def _():
+    # h'(10) = 0, h''(10) = −13,5, h(10) = 900
+    w = (diff(h22, t).subs(t, 10), diff(h22, t, 2).subs(t, 10), h22.subs(t, 10))
+    return ok(w == (0, R(-27, 2), 900), w)
+
+
+@pruef("2022-bebb-gk-B2.1k")
+def _():
+    # h(15) = 759,375; Weg ≈ 1041
+    h15 = h22.subs(t, 15)
+    W = 900 + 900 - h15
+    return ok(h15 == R(6075, 8) and near(W, 1041, 0.7), (float(h15), float(W)))
+
+
+@pruef("2022-bebb-gk-B2.1l")
+def _():
+    # Wendestelle 20
+    return ok(solve(diff(h22, t, 2), t) == [20], solve(diff(h22, t, 2), t))
+
+
+@pruef("2022-bebb-gk-B2.1m")
+def _():
+    # t = 8 oder 32
+    L = sorted(solve(diff(h22, t) - R(297, 10), t))
+    return ok(L == [8, 32] and diff(h22, t).subs(t, 4) > R(297, 10), L)
+
+
+f222 = -R(1, 6) * x**3 + R(1, 2) * x**2
+
+
+@pruef("2022-bebb-gk-B2.2a")
+def _():
+    # −∞ / +∞
+    w = (limit(f222, x, oo), limit(f222, x, -oo))
+    return ok(w == (-oo, oo), w)
+
+
+@pruef("2022-bebb-gk-B2.2b")
+def _():
+    # T(0|0), H(2|2/3)
+    f1, f2 = diff(f222, x), diff(f222, x, 2)
+    w = sorted((xi, f222.subs(x, xi), f2.subs(x, xi)) for xi in solve(f1, x))
+    return ok(w == [(0, 0, 1), (2, R(2, 3), -1)], w)
+
+
+@pruef("2022-bebb-gk-B2.2c")
+def _():
+    # x0 = 1 ± √3/3
+    ms = (f222.subs(x, 2) - f222.subs(x, 0)) / 2
+    L = sorted(solve(diff(f222, x) - ms, x))
+    return ok(ms == R(1, 3) and L == [1 - sqrt(3) / 3, 1 + sqrt(3) / 3] and near(L[0], 0.42) and near(L[1], 1.58), (ms, L))
+
+
+@pruef("2022-bebb-gk-B2.2d")
+def _():
+    # F' = f; Nullstellen 0, 3; F(4) = 0
+    F = -R(1, 24) * x**4 + R(1, 6) * x**3
+    w = (simplify(diff(F, x) - f222) == 0, sorted(set(solve(f222, x))), F.subs(x, 4), integrate(f222, (x, 0, 4)))
+    return ok(w == (True, [0, 3], 0, 0), w)
+
+
+@pruef("2022-bebb-gk-B2.2e")
+def _():
+    # 26,6°; −1/6
+    m = diff(f222, x).subs(x, 1)
+    tg = m * (x - 1) + f222.subs(x, 1)
+    al = float(atan(m) * 180 / pi)
+    return ok(m == R(1, 2) and near(al, 26.6, 0.05) and tg.subs(x, 0) == R(-1, 6), (m, al, tg.subs(x, 0)))
+
+
+@pruef("2022-bebb-gk-B2.2f")
+def _():
+    # a ≈ 0,55, b ≈ 1,45
+    from sympy import tan, rad
+    c = float(tan(rad(21.8)))
+    L = sorted(solve(diff(f222, x) - R(2, 5), x))
+    return ok(near(c, 0.4, 1e-3) and L == [1 - sqrt(R(1, 5)), 1 + sqrt(R(1, 5))] and near(L[0], 0.55) and near(L[1], 1.45), (c, L))
+
+
+@pruef("2022-bebb-gk-B2.2g")
+def _():
+    # g(x) = x − 0,8 durch C und D
+    g = x - R(4, 5)
+    m = (R(12, 10) + R(4, 10)) / (2 - R(4, 10))
+    return ok(m == 1 and g.subs(x, R(4, 10)) == R(-4, 10) and g.subs(x, 2) == R(12, 10), (m,))
+
+
+h22b = R(9, 4) * f222
+
+
+@pruef("2022-bebb-gk-B2.2h")
+def _():
+    # 1,5 − 0,64 + 0,08 = 0,94
+    I = integrate(h22b, (x, 0, 2))
+    trapez = integrate(x - R(4, 5), (x, R(4, 10), 2))
+    dreieck = R(1, 2) * R(4, 10) * R(4, 10)
+    A = I - trapez + dreieck
+    return ok(I == R(3, 2) and trapez == R(16, 25) and dreieck == R(2, 25) and A == R(47, 50), (I, trapez, dreieck, A))
+
+
+@pruef("2022-bebb-gk-B2.2i")
+def _():
+    # 1,5 = 1,5
+    return ok(integrate(R(3, 4) * x, (x, 0, 2)) == integrate(h22b, (x, 0, 2)) == R(3, 2), "")
+
+
+@pruef("2022-bebb-gk-B2.2j")
+def _():
+    # h'(x0) = 1 ⇔ x0 = 2/3, 4/3
+    L = sorted(solve(diff(h22b, x) - 1, x))
+    return ok(L == [R(2, 3), R(4, 3)], L)
+
+
+@pruef("2022-bebb-gk-B2.2k")
+def _():
+    # a = 1/32, b = 1/8
+    aa, bb = symbols('aa bb')
+    kf = aa * x**4 + bb * x**2
+    L = solve([kf.subs(x, 2) - 1, diff(kf, x).subs(x, 2) - R(3, 2)], [aa, bb])
+    return ok(L == {aa: R(1, 32), bb: R(1, 8)} and diff(kf, x).subs(x, 0) == 0, L)
+
+
+@pruef("2022-bebb-gk-B3a")
+def _():
+    # 64 = 2 · 32
+    E_, F_ = Matrix([4, 0, 6]), Matrix([8, 4, 6])
+    return ok((F_ - E_).norm()**2 == 32 and 8**2 == 2 * 32, (F_ - E_).norm()**2)
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
