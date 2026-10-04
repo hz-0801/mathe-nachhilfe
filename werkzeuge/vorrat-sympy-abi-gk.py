@@ -1490,6 +1490,287 @@ def _():
     return ok(fs == -2 * x + 4 and L == [-1, 1], (fs, L))
 
 
+# ======================= Teilstück 6 (2025 A1.7b – 2026 A1.3b) ================
+
+nr("2025-bebb-gk-A1.7b", "Gleichung deuten")
+
+
+@pruef("2025-bebb-gk-A1.8a")
+def _():
+    # beide Skalarprodukte 0
+    n = Matrix([4, 3, 0])
+    return ok(n.dot(Matrix([-3, 4, 1])) == 0 and n.dot(Matrix([3, -4, 0])) == 0, "")
+
+
+@pruef("2025-bebb-gk-A1.8b")
+def _():
+    # P(9 | 3 | 0), Abstand 10
+    n = Matrix([4, 3, 0])
+    P_ = Matrix([1, -3, 0]) + 2 * n
+    d = abs((P_ - Matrix([1, -3, 0])).dot(n)) / n.norm()
+    return ok(n.norm() == 5 and list(P_) == [9, 3, 0] and d == 10, (list(P_), d))
+
+
+@pruef("2025-bebb-gk-A1.9a")
+def _():
+    # n = 21: P(10) = P(11), maximal
+    ps = [binom_p(21, R(1, 2), i, i) for i in range(22)]
+    return ok(ps[10] == ps[11] == max(ps) and 21 * R(1, 2) == R(21, 2), (ps[10], ps[11]))
+
+
+@pruef("2025-bebb-gk-A1.9b")
+def _():
+    # ≈ 0,17 (exakt 0,168)
+    p = binom_p(21, R(1, 2), 10, 10)
+    p9 = binom_p(21, R(1, 2), 9, 100)
+    p12 = binom_p(21, R(1, 2), 12, 12)
+    naeh = 0.81 - 0.14 - 0.5
+    return ok(near(p, 0.168, 1e-3) and near(p9, 0.81, 5e-3) and near(p12, 0.14, 5e-3) and near(naeh, 0.17, 1e-6), (float(p), float(p9), float(p12)))
+
+
+f25b = (2 - x) * exp(x)
+F25b = (3 - x) * exp(x)
+
+
+@pruef("2025-bebb-gk-B2.2a")
+def _():
+    # Nullstelle 2; 0; −∞
+    w = (solve(f25b, x), limit(f25b, x, -oo), limit(f25b, x, oo))
+    return ok(w == ([2], 0, -oo), w)
+
+
+@pruef("2025-bebb-gk-B2.2b")
+def _():
+    # Hochpunkt (1 | e)
+    fs = diff(f25b, x)
+    w = (simplify(fs - (1 - x) * exp(x)) == 0, solve(fs, x), f25b.subs(x, 1), diff(f25b, x, 2).subs(x, 1) < 0)
+    return ok(w == (True, [1], E, True), w)
+
+
+@pruef("2025-bebb-gk-B2.2c")
+def _():
+    # Dreiecksfläche 2e ≈ 5,44
+    A = R(1, 2) * E * 4
+    return ok(A == 2 * E and near(A, 5.44), float(A))
+
+
+@pruef("2025-bebb-gk-B2.2d")
+def _():
+    # 2e − 6e^(−3) ≈ 5,138; Abweichung ≈ 6 %
+    I = integrate(f25b, (x, -3, 1))
+    bed = simplify(diff(F25b, x) - f25b) == 0 and simplify(I - (F25b.subs(x, 1) - F25b.subs(x, -3))) == 0
+    ab = (2 * E - I) / I
+    return ok(bed and simplify(I - (2 * E - 6 * exp(-3))) == 0 and near(I, 5.138, 1e-3) and near(ab, 0.06, 2e-3), (float(I), float(ab)))
+
+
+nr("2025-bebb-gk-B2.2e", "Verlauf beschreiben")
+nr("2025-bebb-gk-B2.2f", "Ablesewerte aus der Abbildung")
+nr("2025-bebb-gk-B2.2g", "grafische Lösung und Deutung")
+
+P25 = dict(A=Matrix([0, 0, 0]), B=Matrix([2, 2, 0]), C=Matrix([0, 6, 0]), D=Matrix([-2, 2, 0]), S=Matrix([0, 0, 6]))
+
+
+@pruef("2025-bebb-gk-B3a")
+def _():
+    # kürzeste 2√2, längste 6√2, V = 24
+    A_, B_, C_, D_, S_ = (P25[k] for k in "ABCDS")
+    kanten = [(B_ - A_).norm(), (C_ - B_).norm(), (D_ - C_).norm(), (A_ - D_).norm(), (S_ - A_).norm(), (S_ - B_).norm(), (S_ - C_).norm(), (S_ - D_).norm()]
+    G = R(1, 2) * (C_ - A_).norm() * (B_ - D_).norm()
+    V = R(1, 3) * G * 6
+    return ok(min(kanten) == 2 * sqrt(2) and max(kanten) == 6 * sqrt(2) and G == 12 and V == 24, (min(kanten), max(kanten), G, V))
+
+
+@pruef("2025-bebb-gk-B3b")
+def _():
+    # 2x + y + z = 6
+    B_, C_, S_ = (P25[k] for k in "BCS")
+    n = Matrix([2, 1, 1])
+    bed = n.dot(C_ - B_) == 0 and n.dot(S_ - B_) == 0 and n.dot(B_) == 6 and n.dot(C_) == 6 and n.dot(S_) == 6
+    return ok(bed, n.dot(B_))
+
+
+@pruef("2025-bebb-gk-B3c")
+def _():
+    # 1/√6; 65,9°
+    from sympy import acos
+    c = Matrix([2, 1, 1]).dot(Matrix([0, 0, 1])) / (Matrix([2, 1, 1]).norm() * 1)
+    al = float(acos(c) * 180 / pi)
+    return ok(c == 1 / sqrt(6) and near(al, 65.9, 0.05), (c, al))
+
+
+@pruef("2025-bebb-gk-B3d")
+def _():
+    # y = 3 + √5 (Lösung des Ansatzes, nicht verlangt)
+    L = solve(Matrix([2, y, 0]).dot(Matrix([2, y - 6, 0])), y)
+    return ok(set(L) == {3 - sqrt(5), 3 + sqrt(5)} and near(3 + sqrt(5), 5.24), L)
+
+
+nr("2025-bebb-gk-B4a", "Baumdiagramm erstellen")
+
+
+@pruef("2025-bebb-gk-B4b")
+def _():
+    # ≈ 0,0918
+    p = R(285, 1000) * R(159, 1000) + R(715, 1000) * R(65, 1000)
+    return ok(near(p, 0.0918, 5e-5), float(p))
+
+
+@pruef("2025-bebb-gk-B4c")
+def _():
+    # E = 91,8; P(92) > P(90)
+    p = R(918, 10000)
+    w = (1000 * p, binom_p(1000, p, 92, 92), binom_p(1000, p, 90, 90))
+    # Ergebnis (E = 91,8; P(92) > P(90)) stimmt; der Katalog-Zwischenwert P(X = 90) ≈ 0,0428 weicht ab (sympy: 0,0432)
+    return ok(w[0] == R(918, 10) and near(w[1], 0.0436, 1e-4) and near(w[2], 0.0428, 1e-4) and w[1] > w[2],
+              f"E(X) = {w[0]} und P(X = 92) = {float(w[1]):.4f} > P(X = 90) = {float(w[2]):.4f} (Katalog-Zwischenwert P(X = 90) ≈ 0,0428)")
+
+
+@pruef("2025-bebb-gk-B4d")
+def _():
+    # P(X ≤ 103) ≈ 0,8984; P(X ≤ 104) ≈ 0,9159
+    p = R(918, 10000)
+    w = (binom_p(1000, p, 0, 103), binom_p(1000, p, 0, 104))
+    return ok(near(w[0], 0.8984, 1e-4) and near(w[1], 0.9159, 1e-4) and w[0] < R(9, 10) < w[1], (float(w[0]), float(w[1])))
+
+
+@pruef("2025-bebb-gk-B4e")
+def _():
+    # x ≈ 0,0503
+    xx = symbols('xx')
+    f = R(285, 1000) * (R(159, 1000) - xx) / (R(285, 1000) * (R(159, 1000) - xx) + R(715, 1000) * R(65, 1000))
+    L = solve(f - R(4, 10), xx)
+    return ok(len(L) == 1 and near(L[0], 0.0503, 1e-4), float(L[0]))
+
+
+f26 = R(1, 12) * (x**4 + 4 * x**3 + 24)
+
+
+@pruef("2026-bb-gk-B2.1a")
+def _():
+    # f' → −∞ / +∞
+    fs = diff(f26, x)
+    w = (simplify(fs - x**2 * (x / 3 + 1)) == 0, limit(fs, x, -oo), limit(fs, x, oo))
+    return ok(w == (True, -oo, oo), w)
+
+
+@pruef("2026-bb-gk-B2.1b")
+def _():
+    # f' < 0 für x < −3, ≥ 0 für x > −3; Minimum von f bei −3
+    fs = diff(f26, x)
+    w = (fs.subs(x, -4) < 0, fs.subs(x, -1) > 0, fs.subs(x, 1) > 0, sorted(set(solve(fs, x))))
+    return ok(w == (True, True, True, [-3, 0]), w)
+
+
+@pruef("2026-bb-gk-B2.1c")
+def _():
+    # W(0 | 2), W(−2 | 2/3)
+    f2 = diff(f26, x, 2)
+    w = sorted((xi, f26.subs(x, xi), diff(f26, x, 3).subs(x, xi)) for xi in solve(f2, x))
+    return ok(simplify(f2 - (x**2 + 2 * x)) == 0 and w == [(-2, R(2, 3), -2), (0, 2, 2)], w)
+
+
+@pruef("2026-bb-gk-B2.1d")
+def _():
+    # f(−2) = 2/3 = t(−2); f'(−2) = 4/3
+    tg = R(4, 3) * x + R(10, 3)
+    w = (f26.subs(x, -2), tg.subs(x, -2), diff(f26, x).subs(x, -2))
+    return ok(w == (R(2, 3), R(2, 3), R(4, 3)), w)
+
+
+@pruef("2026-bb-gk-B2.1e")
+def _():
+    # z = 25/3
+    m = R(4, 3)
+    zz = 5 * sqrt(1 + m**2)
+    return ok(zz == R(25, 3) and near(zz, 8.33), zz)
+
+
+g26 = R(1, 3) * x**3 + x**2
+
+
+@pruef("2026-bb-gk-B2.1f")
+def _():
+    # Höhe 8/3 ≤ 2,7; Breite 20/3 ≤ 6,7
+    r = g26.subs(x, -2)
+    H = 2 * r
+    B = 2 * (2 + r)
+    return ok(r == R(4, 3) and H == R(8, 3) and B == R(20, 3) and H <= 2.7 and B <= 6.7 and diff(g26, x).subs(x, -2) == 0, (H, B))
+
+
+@pruef("2026-bb-gk-B2.1g")
+def _():
+    # 2 · (8/3 + 8π/9) ≈ 10,9
+    I = integrate(g26, (x, -2, 0))
+    r = R(4, 3)
+    A = 2 * (2 * I + R(1, 2) * pi * r**2)
+    return ok(I == R(4, 3) and simplify(A - 2 * (R(8, 3) + 8 * pi / 9)) == 0 and near(A, 10.92, 0.01), (I, float(A)))
+
+
+@pruef("2026-bb-gk-B2.1h")
+def _():
+    # Q(2 | −4/3)
+    L = [v for v in solve(diff(g26, x), x) if v != 0]
+    xq = -L[0]
+    yq = -g26.subs(x, -xq)
+    return ok(L == [-2] and xq == 2 and yq == R(-4, 3), (xq, yq))
+
+
+@pruef("2026-bb-gk-B2.1i")
+def _():
+    # ≈ 18,38 m; 5,25 min
+    Lg = 4 * 2.5 + float(2 * pi * R(4, 3))
+    T = Lg / 3.5
+    return ok(near(Lg, 18.38, 0.01) and near(T, 5.25, 0.01), (Lg, T))
+
+
+f26a = x**3 + x**2 - 2 * x
+
+
+@pruef("2026-bb-gk-A1.1a")
+def _():
+    # 13/12
+    I = integrate(f26a, (x, -1, 0))
+    return ok(I == R(13, 12), I)
+
+
+@pruef("2026-bb-gk-A1.1b")
+def _():
+    # 8/3 und −5/12
+    w = (integrate(f26a, (x, -2, 0)), integrate(f26a, (x, 0, 1)))
+    return ok(w == (R(8, 3), R(-5, 12)) and w[1] < 0, w)
+
+
+@pruef("2026-bb-gk-A1.2a")
+def _():
+    # P ∈ E; PQ = 4n
+    P_, Q_ = Matrix([5, 0, 3]), Matrix([9, -12, 11])
+    n = Matrix([1, -3, 2])
+    return ok(n.dot(P_) == 11 and Q_ - P_ == 4 * n, (n.dot(P_), list(Q_ - P_)))
+
+
+@pruef("2026-bb-gk-A1.2b")
+def _():
+    # R(1 | 12 | −5)
+    P_, Q_ = Matrix([5, 0, 3]), Matrix([9, -12, 11])
+    Rr = P_ - (Q_ - P_)
+    return ok(list(Rr) == [1, 12, -5], list(Rr))
+
+
+@pruef("2026-bb-gk-A1.3a")
+def _():
+    # (1/2)^5 + 5 · 1/2 · (1/2)^4 = 3/16
+    p = R(1, 2)**5 + 5 * R(1, 2) * R(1, 2)**4
+    return ok(p == R(3, 16) and p == binom_p(5, R(1, 2), 0, 1), p)
+
+
+@pruef("2026-bb-gk-A1.3b")
+def _():
+    # 4 Ergebnisse ZZ + mindestens 2 W
+    from itertools import product
+    L = sorted(''.join(w) for w in product('ZW', repeat=5) if w[0] == w[1] == 'Z' and w.count('W') >= 2)
+    return ok(L == sorted(['ZZWWW', 'ZZZWW', 'ZZWZW', 'ZZWWZ']), L)
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
