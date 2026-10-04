@@ -1196,6 +1196,300 @@ def _():
     return ok((F_ - E_).norm()**2 == 32 and 8**2 == 2 * 32, (F_ - E_).norm()**2)
 
 
+# ======================= Teilstück 5 (2022 B3b – 2025 A1.7a) ==================
+
+K22 = dict(A=Matrix([0, 0, 0]), B=Matrix([8, 0, 0]), C=Matrix([8, 8, 0]), D=Matrix([0, 8, 0]),
+           E=Matrix([4, 0, 6]), F=Matrix([8, 4, 6]), G=Matrix([4, 8, 6]), H=Matrix([0, 4, 6]), S=Matrix([4, 4, 12]))
+
+
+@pruef("2022-bebb-gk-B3b")
+def _():
+    # S = C + CG + CF
+    C_, F_, G_, S_ = (K22[k] for k in "CFGS")
+    L = solve(list(C_ + s * (G_ - C_) + t * (F_ - C_) - S_), [s, t])
+    return ok(L == {s: 1, t: 1} and list(G_ - C_) == [-4, 0, 6] and list(F_ - C_) == [0, -4, 6], L)
+
+
+@pruef("2022-bebb-gk-B3c")
+def _():
+    # n ⊥ CG, CF; N: 3x + 3y + 2z = 24
+    C_, F_, G_, B_ = (K22[k] for k in "CFGB")
+    n = Matrix([3, 3, 2])
+    return ok(n.dot(G_ - C_) == 0 and n.dot(F_ - C_) == 0 and n.dot(B_) == 24, n.dot(B_))
+
+
+@pruef("2022-bebb-gk-B3d")
+def _():
+    # alle Seiten √52
+    C_, F_, G_, S_ = (K22[k] for k in "CFGS")
+    w = [(G_ - C_).norm(), (F_ - C_).norm(), (S_ - G_).norm(), (S_ - F_).norm()]
+    return ok(w == [sqrt(52)] * 4, w)
+
+
+@pruef("2022-bebb-gk-B3e")
+def _():
+    # x − y = 0 enthält A, C, S; E ↔ H, F ↔ G spiegelbildlich
+    A_, C_, S_, E_, H_, F_, G_ = (K22[k] for k in "ACSEHFG")
+    sp = lambda P: Matrix([P[1], P[0], P[2]])
+    bed = all(P[0] - P[1] == 0 for P in (A_, C_, S_)) and sp(E_) == H_ and sp(F_) == G_
+    return ok(bed, "")
+
+
+@pruef("2022-bebb-gk-B3f")
+def _():
+    # φ ≈ 46,2°; 4 · √1408 ≈ 150,1
+    from sympy import acos
+    F_, G_, S_ = (K22[k] for k in "FGS")
+    v1, v2 = G_ - S_, F_ - S_
+    c = v1.dot(v2) / (v1.norm() * v2.norm())
+    phi = float(acos(c) * 180 / pi)
+    A4 = 4 * v1.cross(v2).norm()
+    return ok(c == R(36, 52) and near(phi, 46.2, 0.05) and v1.cross(v2).norm() == sqrt(1408) and near(A4, 150.1, 0.05), (phi, float(A4)))
+
+
+@pruef("2022-bebb-gk-B3g")
+def _():
+    # Q1Q2 = 2 FG
+    F_, G_, S_ = (K22[k] for k in "FGS")
+    q1 = S_ + t * (F_ - S_)
+    Q1 = q1.subs(t, solve(q1[2], t)[0])
+    q2 = S_ + t * (G_ - S_)
+    Q2 = q2.subs(t, solve(q2[2], t)[0])
+    return ok((Q2 - Q1).norm() / (G_ - F_).norm() == 2 and list(Q1) == [12, 4, 0], (list(Q1), list(Q2)))
+
+
+@pruef("2022-bebb-gk-B3h")
+def _():
+    # 512 − 128 = 384; Grundfläche 128
+    F_, S_ = K22['F'], K22['S']
+    q1 = S_ + t * (F_ - S_)
+    Q1 = q1.subs(t, solve(q1[2], t)[0])
+    d = 2 * (Q1 - Matrix([4, 4, 0])).norm()  # Diagonale 16
+    Vg = R(1, 3) * (d * d / 2) * 12
+    Ve = R(1, 3) * (R(1, 2) * 8 * 4) * 6
+    return ok(d == 16 and d * d / 2 == 128 and Vg - 4 * Ve == 384, (d, Vg, Ve))
+
+
+@pruef("2022-bebb-gk-B3i")
+def _():
+    # t = 9/13; R(88/13 | 4 | 102/13)
+    E_, G_, F_, S_ = (K22[k] for k in "EGFS")
+    M = (E_ + G_) / 2
+    Rp = S_ + t * (F_ - S_)
+    tt = solve((Rp - M).dot(F_ - S_), t)[0]
+    Rp = Rp.subs(t, tt)
+    return ok(list(M) == [4, 4, 6] and tt == R(9, 13) and list(Rp) == [R(88, 13), 4, R(102, 13)], (tt, list(Rp)))
+
+
+nr("2022-bebb-gk-B4a", "Bernoulli-Bedingungen begründen")
+
+
+@pruef("2022-bebb-gk-B4b")
+def _():
+    # 0,104; 0,734
+    p9 = binom_p(100, R(7, 100), 9, 9)
+    p8 = binom_p(100, R(7, 100), 0, 8)
+    return ok(near(p9, 0.104, 1e-3) and near(p8, 0.734, 1e-3), (float(p9), float(p8)))
+
+
+@pruef("2022-bebb-gk-B4c")
+def _():
+    # 2/7 ≈ 28,6 %
+    w = (9 - 7) / S(7)
+    return ok(w == R(2, 7) and near(w, 0.286, 1e-3), float(w))
+
+
+@pruef("2022-bebb-gk-B4d")
+def _():
+    # n ≥ 31,7 ⇒ 32
+    n0 = float(log(0.1) / log(0.93))
+    return ok(near(n0, 31.7, 0.05) and math.ceil(n0) == 32, n0)
+
+
+@pruef("2022-bebb-gk-B4e")
+def _():
+    # p ≈ 0,0303
+    p = 1 - 0.54 ** (1 / 20)
+    return ok(near(p, 0.0303, 1e-4), p)
+
+
+@pruef("2022-bebb-gk-B4f")
+def _():
+    # 0,576; 0,9^10 ≈ 0,349
+    q = R(9, 10)**10
+    w = 1 - (1 - q)**2
+    return ok(near(q, 0.349, 1e-3) and near(w, 0.576, 1e-3), (float(q), float(w)))
+
+
+nr("2022-bebb-gk-B4g", "Terme deuten")
+
+
+@pruef("2022-bebb-gk-B4h")
+def _():
+    # 0,008 / 0,042 / 0,092 / 0,858
+    S_, Z, SZ = R(5, 100), R(10, 100), R(8, 100) * R(10, 100)
+    w = (SZ, S_ - SZ, Z - SZ, 1 - S_ - Z + SZ)
+    return ok(w == (R(8, 1000), R(42, 1000), R(92, 1000), R(858, 1000)), w)
+
+
+@pruef("2022-bebb-gk-B4i")
+def _():
+    # 0,16 vs ≈ 0,097
+    w = (R(8, 1000) / R(5, 100), R(92, 1000) / R(95, 100))
+    return ok(w[0] == R(4, 25) and near(w[1], 0.097, 1e-3) and w[0] != w[1], (float(w[0]), float(w[1])))
+
+
+@pruef("2022-bebb-gk-B4j")
+def _():
+    # x ≈ 0,0489 < 0,05
+    xx = symbols('xx')
+    L = solve(R(10, 100) * R(8, 100) + R(7, 100) * R(2, 100) + R(83, 100) * xx - R(5, 100), xx)
+    return ok(near(L[0], 0.0489, 1e-4) and L[0] < R(5, 100), float(L[0]))
+
+
+f25 = R(2, 25) * x**3 - R(3, 2) * x
+
+
+@pruef("2025-bebb-gk-B2.1a")
+def _():
+    # punktsymmetrisch; Nullstellen 0, ±5√3/2
+    ns = sorted(solve(f25, x))
+    return ok(simplify(f25.subs(x, -x) + f25) == 0 and ns == [-5 * sqrt(3) / 2, 0, 5 * sqrt(3) / 2] and near(ns[2], 4.33), ns)
+
+
+@pruef("2025-bebb-gk-B2.1b")
+def _():
+    # H(−2,5 | 2,5), T(2,5 | −2,5); y = −x
+    f1, f2 = diff(f25, x), diff(f25, x, 2)
+    w = sorted((xi, f25.subs(x, xi), f2.subs(x, xi)) for xi in solve(f1, x))
+    m = (w[1][1] - w[0][1]) / (w[1][0] - w[0][0])
+    return ok(w == [(R(-5, 2), R(5, 2), R(-6, 5)), (R(5, 2), R(-5, 2), R(6, 5))] and m == -1, (w, m))
+
+
+@pruef("2025-bebb-gk-B2.1c")
+def _():
+    # g*: y = −2x; A*(−2,5 | 5)
+    Dr = Matrix([[0, -1], [1, 0]])
+    v = Dr * Matrix([2, 1])
+    As = Dr * Matrix([5, R(5, 2)])
+    return ok(v[1] / v[0] == -2 and list(As) == [R(-5, 2), 5], (list(v), list(As)))
+
+
+@pruef("2025-bebb-gk-B2.1d")
+def _():
+    # f'(5√3/2) = 3; 71,6°; α = 45°
+    m = simplify(diff(f25, x).subs(x, 5 * sqrt(3) / 2))
+    al = float(atan(m) * 180 / pi)
+    ta = abs((m - R(1, 2)) / (1 + m * R(1, 2)))
+    return ok(m == 3 and near(al, 71.6, 0.05) and ta == 1, (m, al, ta))
+
+
+@pruef("2025-bebb-gk-B2.1e")
+def _():
+    # ∫ = 12,5; A2 = 50; A1 − A2 = 125π/4 − 50 ≈ 48,2
+    g = x / 2
+    I = integrate(g - f25, (x, 0, 5))
+    A1 = (5 * sqrt(5) / 2)**2 * pi
+    D = A1 - 4 * I
+    return ok(I == R(25, 2) and simplify(A1 - 125 * pi / 4) == 0 and near(D, 48.2, 0.05), (I, float(D)))
+
+
+f25a = R(1, 8) * x**3 - R(3, 8) * x**2 - 1
+
+
+@pruef("2025-bebb-gk-A1.1a")
+def _():
+    # t: y = 3x − 11
+    tg = diff(f25a, x).subs(x, 4) * (x - 4) + f25a.subs(x, 4)
+    return ok(expand(tg) == 3 * x - 11 and f25a.subs(x, 4) == 1, expand(tg))
+
+
+@pruef("2025-bebb-gk-A1.1b")
+def _():
+    # zweite Stelle −2, f(−2) = −3,5
+    L = sorted(solve(diff(f25a, x) - 3, x))
+    return ok(L == [-2, 4] and f25a.subs(x, -2) == R(-7, 2), (L, f25a.subs(x, -2)))
+
+
+@pruef("2025-bebb-gk-A1.2a")
+def _():
+    # P ∉ g; Q(4|3|0)
+    g = Matrix([8, 3, -3]) + s * Matrix([-4, 0, 3])
+    L = solve(list(g - Matrix([4, 3, 3])), s)
+    Q = g.subs(s, 1)
+    return ok(L == [] and list(Q) == [4, 3, 0], (L, list(Q)))
+
+
+@pruef("2025-bebb-gk-A1.2b")
+def _():
+    # Skalarprodukt 0
+    return ok(Matrix([-4, 0, 3]).dot(Matrix([0, 1, 0])) == 0, "")
+
+
+nr("2025-bebb-gk-A1.3a", "Term deuten")
+
+
+@pruef("2025-bebb-gk-A1.3b")
+def _():
+    # 30/64
+    p = R(3, 8) * R(5, 8) + R(5, 8) * R(3, 8)
+    return ok(p == R(30, 64), p)
+
+
+@pruef("2025-bebb-gk-A1.4a")
+def _():
+    # f(1) = 0
+    f = 2 * exp(x) - 2 * E
+    return ok(f.subs(x, 1) == 0, f.subs(x, 1))
+
+
+@pruef("2025-bebb-gk-A1.4b")
+def _():
+    # Integral −2, Fläche 2
+    f = 2 * exp(x) - 2 * E
+    I = integrate(f, (x, 0, 1))
+    return ok(simplify(I + 2) == 0, I)
+
+
+@pruef("2025-bebb-gk-A1.5a")
+def _():
+    # P'(4 | 11 | 5)
+    P_, Q_ = Matrix([0, -1, 1]), Matrix([2, 5, 3])
+    Ps = 2 * Q_ - P_
+    return ok(list(Ps) == [4, 11, 5] and list(Q_ - P_) == [2, 6, 2], list(Ps))
+
+
+@pruef("2025-bebb-gk-A1.5b")
+def _():
+    # Q ∈ E; PQ ∥ n
+    P_, Q_ = Matrix([0, -1, 1]), Matrix([2, 5, 3])
+    n = Matrix([1, 3, 1])
+    return ok(n.dot(Q_) == 20 and (Q_ - P_).cross(n).norm() == 0, n.dot(Q_))
+
+
+@pruef("2025-bebb-gk-A1.6a")
+def _():
+    # 72/380 ≈ 0,19
+    p = R(9, 20) * R(8, 19)
+    return ok(p == R(72, 380) and near(p, 0.19, 5e-3), float(p))
+
+
+@pruef("2025-bebb-gk-A1.6b")
+def _():
+    # Wert ≈ 0,31
+    p = binomial(9, 2) * binomial(11, 4) / binomial(20, 6)
+    return ok(near(p, 0.31, 5e-3), float(p))
+
+
+@pruef("2025-bebb-gk-A1.7a")
+def _():
+    # f' = −2x + 4; x = ±1
+    f = -x**2 + 4 * x - 1
+    fs = diff(f, x)
+    L = sorted(solve(f / x - fs, x))
+    return ok(fs == -2 * x + 4 and L == [-1, 1], (fs, L))
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
