@@ -1,110 +1,110 @@
-# Übergabe verbessereBlaetter – 2026-10-03d (Chat 03.10. abends, Fable/Opus)
+# Übergabe verbessereBlaetter – 2026-10-04 (Chat 03./04.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-03c.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-03d.md.
 
 Erster Handgriff im neuen Chat: `offen.html` (Wurzel dieses Repos)
 mit SendUserFile, display „render“, an den Lehrer schicken. Oben
-steht der Entscheidungsbaum, darunter die offenen Punkte und die
-Liste „Zu prüfen ab Montag 18:00“. Ändert sich etwas: Baum in
-`werkzeuge/baum-offen.py` ändern, Skript ausführen (schreibt den
-Baumteil von offen.html), Liste in offen.html von Hand, neu
-schicken, committen.
+stehen das Ziel des Skripts und der Fokus (Original neu, darunter
+Original), dann Abitur/FHR/P10-Bäume, die Vergleichstabelle nach
+Stufe, offene Punkte und „Zu prüfen ab Montag 18:00“. Ändert sich
+etwas: `werkzeuge/baum-offen.py` (Bäume, Texte SKRIPT_ZIEL, FOKUS)
+ändern und ausführen; Listen in offen.html von Hand; neu schicken,
+committen.
 
 ## 1 Ziel
 
-Schnell gute Blätter für die Stunde, für P10 2027 zuerst, so gebaut,
-dass Abitur GK/LK und FHR nur neue Daten brauchen. Phase jetzt: die
-Bedienung festlegen (Entscheidungsbaum je Prüfung), gebaut wird
-frühestens nach Montag 05.10. 18:00.
+Schnell gute Blätter für die Stunde, P10 und Abitur 2027 zuerst. Phase
+jetzt: Bedienung (Entscheidungsbaum) für alle Prüfungen vereinheitlicht
+und festgelegt; Bauen frühestens ab Montag 05.10. 18:00.
 
 ## 2 Arbeitsgrundlage
 
-- `offen.html` – Entscheidungsbaum P10 (fertig) mit allen Regeln im
-  Absatz unter dem Baum; offene Punkte; Prüfliste ab Montag.
-  Maßgeblich.
-- `werkzeuge/baum-offen.py` – Baumbeschreibung (Python-Tupel) und
-  Zeichnung; der Fokus-Ausschnitt oben wird dort umgestellt.
-- `msa/msa-ertrag.csv`, `msa/msa-katalog-kontext.csv`,
-  `msa/msa-katalog-basis.csv` – Grundlage aller Zählungen im Chat.
-- `msa/msa-vorgaben.md` – Fachbriefe; § 2 erklärt die Lücken
-  2021–2023 (Corona-Ausschlüsse) und den Formatwechsel 2028.
-- `faellig.md` § 2 – neu: Baum auf Format 2028 umstellen.
+- `offen.html` – maßgeblich für alle Beschlüsse zur Bedienung (Texte
+  unter den Bäumen, Vergleichstabelle, Skript-Ziel).
+- `werkzeuge/baum-offen.py` – erzeugt den Baumteil von offen.html.
+- `aufgabenbank-privat/schueler.md` (privates Repo) – Schüler mit
+  Nummer, Schulen mit Land und Rechner, Liste gelieferter Blätter.
+  Maßgeblich; die Projektdatei Schuelerliste-privat.md ist veraltet.
+- `abitur/handreichung-abi-gk-2027.*`, `-lk-2027.*` mit
+  `werkzeuge/handreichung-abi.py` (KNOPF = Themen; Entwurf, Lehrer
+  will sie noch einmal sehen); `msa/handreichung-reihenfolge.md` mit
+  Skript (Daten für die Lernreihenfolge der P10-Handreichung, nicht
+  eingebaut).
+- `katalog/_skript-filter.md` mit `werkzeuge/skript-filter-mass.py`
+  (Anteil geprüfter Lerneinheiten je Eintrag).
+- `fhr/fhr-vorgaben.md` – Absatz vor § 2: Berliner FHR ist eine
+  eigene Prüfung.
 
 ## 3 Arbeitsstand
 
-Fertig 03.10. abends: P10-Baum vollständig und vom Lehrer bestätigt
-(Commits cbf4b66 … 9c6bb44). Muster für andere Prüfungen erkannt:
+Fest (03./04.10.), Einzelheiten in offen.html:
 
-1. Ast: Kurzteil der Prüfung (P10: Basis) · Prüfungsplätze nach
-   Leitideen gebündelt (P10: Geometrie, Funktionen, Daten + Zufall)
-   · Ganze Prüfung.
-2. Art: überall Original · Original neu · Skript.
-3. Auswahl: jahrgangsgebundene Teile (Basis, ganze Prüfung) → Jahr;
-   Themen → beim Original die Prüfungsplätze, bei Original neu
-   feiner, soweit Stoff da ist (Schwelle etwa 10 Teilaufgaben in
-   fünf Jahren), beim Skript die Katalogeinträge plus „Weitere (RLP)“.
-4. Zeitraum (nur Original, Original neu): [neuestes offenes]
-   [2022–2026] [ältere] [Jahr wählen], blättern in Fünfjahresblöcken.
+- Stufe 1 überall Kurzteil (Basis bzw. Hilfsmittelfrei) · Hauptteil ·
+  Ganze Prüfung; FHR ohne Kurzteil. Darunter die Gebiete; jede Ebene,
+  die sich aufteilt, endet mit „Alles“.
+- Vor dem Baum: Name nur erfragen, wenn keiner genannt; Kurs, Papier,
+  Land, Rechner aus schueler.md, fehlt etwas: einmal fragen, eintragen.
+- Original: Heftseiten (Abitur-Fotos/Scans durchsuchbar, „Nur für den
+  privaten Gebrauch“), Schnitt an Aufgabengrenzen, keine Themenknöpfe
+  (Gebiet → Zeitraum), Zeitraum neuestes offenes · 2022–2026 · ältere
+  · Jahr wählen. Lösungsblatt: je Heft eine Seite, je Teilaufgabe
+  links Lösung, rechts Zwischenwerte, keine Sätze.
+- Original neu: Schnitt wie Original, besser gesetzt (Setzregeln in
+  offen.html), durchsuchbar; ein Jahr → Stichwortverzeichnis auf dem
+  Lösungsblatt, mehrere Jahre → Inhalts- und Stichwortverzeichnis.
+  Vorspann gekürzt, Wortlaut der Teilaufgaben bleibt.
+- Skript: Ziel in acht Punkten und Richtung fest – echte
+  Prüfungsaufgaben nach Handgriff sortiert, leicht → schwer, „kommt das
+  dran?“ belegt, Hilfen gestuft, Unterbau aus dem allgemeinen Blatt nur
+  bei Bedarf, Wortlaut hart an der Grenze des Erlaubten, Fundstellen als
+  Jahr · Aufgabe · Teilaufgabe (Stark-Hefte der Schüler).
+- Wer bekommt was: Original und Original neu für den Lehrer; Schüler
+  bekommt Skript, Basis als Antwortbogen zum amtlichen Heft, QR-Code.
+- Schüler 2027 mit Mathe-Prüfung: P10 Nr. 1, 2, 4, 5 (Nr. 3 offen);
+  Abitur Nr. 15 (GK, BB), vielleicht Nr. 10; FHR niemand. Alle
+  Schulen BB außer Nr. 18 (keine Mathe-Prüfung).
 
-Nicht erledigt: Abitur und FHR; Vereinheitlichung (offen.html
-Punkt 6); alles Bauen.
+Nicht erledigt: Skript-Zuschnitt (Handgriffe als Gliederung) und
+Bausteine; Lösungsform Skript; FHR-Feinheiten; Handreichungen.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-Frühere Übergaben gelten weiter, soweit hier nichts anderes steht.
-Die Einzelregeln stehen unter dem Baum in offen.html; hier nur die
-tragenden:
+Frühere Übergaben gelten weiter, soweit hier und in offen.html nichts
+anderes steht. Tragend:
 
-- Gleicher Ablauf und gleiche Knöpfe überall ist ein Wert an sich;
-  Abweichungen nur begründet. Freitext geht immer; ist er unklar,
-  nachfragen oder sagen, was nicht passt, und mit Knöpfen zum Ziel
-  führen; nur Knöpfe, die zu einem Blatt führen. Etwa vier Knöpfe
-  je Stufe, nicht starr (Stufe 1 hat fünf).
-- Original = unveränderte Heftseiten, geschnitten nur an
-  Aufgabengrenzen. Original neu = neu gesetzt, nach Teilaufgaben,
-  passende Teilaufgaben anderer Aufgaben erlaubt, Bau zuletzt
-  (Wortlaut Aufgaben 2–7 nicht erfasst). Skript = aus der Bank,
-  vollständiges Heft mit Inhaltsverzeichnis, Seitenbereichen,
-  Sprungmarken; „Lernblatt mit Prüfungsfilter“, einmal gebaut,
-  liegt bereit.
-- Lösung immer dabei (vorerst): Basis Streifen, sonst Lösungsblatt
-  mit Rechenweg; Skript dazu Kontrollwerte und Tipps für Schwache.
-- EBR/FOR: ein Blatt mit * für FOR-Teile (Original neu, Skript);
-  Original ab 2026 nach Schülerliste, sonst FOR. Basis ist für beide
-  gleich. „Schwach“ nie als Knopf.
-- Prüfungsrelevant ist der Rahmenlehrplan (Fachbrief 8), FOR bis
-  Niveaustufe G, EBR bis F plus Liste aus G.
-- Umfang in Seiten dort, wo die Wahl ihn ändert (Zeitraum-Knöpfe);
-  Zahlen nie strikt, nur „so ungefähr“.
-- Bis Sommer 2027 schreiben alle P10-Schüler 2027 (kein
-  Prüfungsjahr abfragen).
-- Lehrer: keine Option ohne Informationsgewinn anbieten; erst eine
-  Stufe festzurren, dann die nächste; Vorschläge immer mit Urteil.
+- Eine Stufe bzw. eine Art (Original → Original neu → Skript) fertig
+  besprechen, bevor die nächste kommt; nichts Beschlossenes ungefragt
+  neu aufrollen, aber Schwächen als Revision vorlegen.
+- Gleicher Ablauf ist ein Wert; Abweichung nur mit Grund.
+- Lösung immer dabei.
+- Ab Montag 18:00 tokensparend: nichts doppelt lesen, Schritte
+  abgestimmt, in Blöcken, nach jedem Block Verfahren prüfen; Qualität
+  zuerst.
+- Woche stand am 04.10. bei 88 % (Fable 89 %), Reset Montag 18:00.
 - Modellwahl nächste Phase: Opus im Chat.
 
 ## 5 Offene Punkte und Verworfenes
 
-Offene Punkte und Prüfliste stehen in offen.html. Dazu:
-
-- Konsistenzbefund: Die Beschlüsse dieses Chats liegen nur in
-  offen.html. ziel.md (z. B. „Blatt so lang wie der Teil, keine
-  Seitengrenze“, Bauprinzip), bankblatt.md und zusammenbau.py kennen
-  Baum, drei Arten, Lösungsformen und „Weitere (RLP)“ noch nicht.
-  Nachziehen, wenn die Bäume aller Prüfungen stehen (vor dem Bau).
-- Handreichung führt „Prozentrechnung“ als eigenes Thema; im Baum
-  steckt Prozent im Original unter „Daten“ – beim nächsten Erneuern
-  angleichen.
-- Verworfen: Knopf „gemischt“ in der Geometrie (übernimmt die ganze
-  Prüfung); Kosinussatz als „gibt es nicht“ (er ist nur nie geprüft,
-  steht für FOR im RLP – Prüfliste); Extra-Knopf für kleine Themen
-  (Sprossen und Freitext); Prüfungsjahr im Schülerdialog.
+- Konsistenz: ziel.md, bankblatt.md, zusammenbau.py kennen den neuen
+  Baum, die neue Bedeutung von Original neu/Skript, Antwortbogen,
+  Lösungsblattform und schueler.md nicht (faellig.md § 2).
+- Handreichung P10: Themen nach Punkten, nicht nach Knöpfen; Daten
+  für eine Lernreihenfolge liegen, Entscheidung offen. Handreichung
+  Abitur: Themen aus KNOPF – nach dem Skript-Zuschnitt angleichen.
+- Fernziel: Zettel „Was ist zu tun?“ (Formulierung → Handgriff) und
+  Merkblatt je Thema; braucht eine Sammlung der Formulierungen.
+- Projektanweisung: Regeln „Offene Punkte rechts“ und „Eine Stufe
+  festzurren“ stehen nur in kandidaten.md, nicht in der
+  Projektanweisung.
+- Verworfen: Original neu nach Teilaufgaben geschnitten (Register statt
+  Schnitt); Themenknöpfe beim Original; verdichteter Wortlaut der
+  Teilaufgaben; Skript als „Lernblatt mit Prüfungsfilter“; Skript nach
+  amtlicher Gliederung (wechselt jährlich); FHR ruhen lassen.
 
 ## 6 Nächster Arbeitsschritt
 
-offen.html zeigen. Dann den Abitur-Baum nach dem Muster aus § 3
-entwerfen: zuerst nur Stufe 1 (Kurzteil = hilfsmittelfreier Teil 1?
-Äste Analysis · Geometrie · Stochastik? Ganze Prüfung), mit Zählung
-aus abitur/abi-katalog.csv und iqb-katalog.csv wie bei P10
-(Plätze je Prüfung über die Jahre). GK und LK sind getrennte Hefte –
-Sternchen-Blatt trägt vermutlich nicht; Abweichung begründen. Stufe
-für Stufe festzurren, Fokus-Ausschnitt in baum-offen.py umstellen.
+offen.html zeigen. Dann den Zuschnitt des Skripts besprechen: Welche
+Handgriffe (Typen aus dem Katalog, gebündelt) bilden die Gliederung je
+Gebiet, mit Zählung „wie oft in fünf Jahren, zuletzt, Punkte“ aus den
+Katalogen; zuerst Abitur GK (Nr. 15), dann P10. Ab Montag 18:00
+parallel der Vorratslauf (faellig.md § 2).
