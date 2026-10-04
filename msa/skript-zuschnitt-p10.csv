@@ -1,0 +1,81 @@
+gebiet;abschnitt;stufe;ids
+Geometrie;Länge mit Pythagoras;Gleichung aufstellen;2022-OS-B1g 2024-OS-B1f 2026-FOR-B1j
+Geometrie;Länge mit Pythagoras;Kathete oder Hypotenuse direkt;2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K2c
+Geometrie;Länge mit Pythagoras;Dreieck erst in Figur oder Körper finden;2026-FOR-K2c 2025-OS-K4a 2025-OS-K2a
+Geometrie;Seite oder Winkel mit sin, cos, tan;Seitenverhältnis benennen;2025-OS-B1g
+Geometrie;Seite oder Winkel mit sin, cos, tan;Winkel berechnen;2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b
+Geometrie;Seite oder Winkel mit sin, cos, tan;Seite berechnen;2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b
+Geometrie;Seite im allgemeinen Dreieck (Sinussatz);Seite berechnen;2024-OS-K6d 2025-OS-K4c
+Geometrie;Winkel ohne Rechnung bestimmen oder begründen;Eigenschaft erkennen;2026-FOR-B1c 2022-OS-B1i
+Geometrie;Winkel ohne Rechnung bestimmen oder begründen;Winkelsumme;2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i
+Geometrie;Winkel ohne Rechnung bestimmen oder begründen;gleichschenkliges Dreieck;2023-OS-B1g 2023-OS-K7a
+Geometrie;Winkel ohne Rechnung bestimmen oder begründen;rechten Winkel begründen;2025-OS-K2c
+Geometrie;Flächeninhalt und Umfang;Formel oder Term zur Figur;2022-OS-B1e 2024-OS-B1c 2025-OS-B1i
+Geometrie;Flächeninhalt und Umfang;Grundfigur berechnen;2026-FOR-B1h 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b
+Geometrie;Flächeninhalt und Umfang;rückwärts: Seite aus Fläche;2023-OS-B1c
+Geometrie;Flächeninhalt und Umfang;Figur erst zerlegen oder Strecke erst berechnen;2022-OS-K5e 2023-OS-K2c 2025-OS-B1e
+Geometrie;Flächeninhalt und Umfang;Anteil in Prozent (Verschnitt);2023-OS-K5c
+Geometrie;Volumen und Oberfläche;Volumen direkt;2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a
+Geometrie;Volumen und Oberfläche;rückwärts: Radius oder Höhe aus Volumen;2022-OS-K2d 2023-OS-K5d
+Geometrie;Volumen und Oberfläche;Restvolumen;2024-OS-K4c
+Geometrie;Volumen und Oberfläche;Mantelfläche mit Kosten;2026-FOR-K2b
+Geometrie;Volumen und Oberfläche;vergleichen und urteilen;2026-FOR-K2d
+Geometrie;Netz und Schrägbild;Netz erkennen;2022-OS-K2a
+Geometrie;Netz und Schrägbild;Netz mit Maßen skizzieren;2023-OS-K5a
+Geometrie;Netz und Schrägbild;Körper im Schrägbild skizzieren;2024-OS-K4b
+Funktionen;Gerade zeichnen und ablesen;erkennen und ablesen;2025-OS-B1f 2024-OS-B1i
+Funktionen;Gerade zeichnen und ablesen;aus Gleichung zeichnen;2024-OS-K3a 2026-FOR-K5a 2022-OS-K3a
+Funktionen;Gerade zeichnen und ablesen;durch zwei Punkte, Gleichung ablesen;2025-OS-K5a
+Funktionen;Gerade zeichnen und ablesen;zeichnen und Aussagen prüfen;2023-OS-K4a
+Funktionen;Liegt der Punkt auf dem Graphen?;ankreuzen;2023-OS-B1i
+Funktionen;Liegt der Punkt auf dem Graphen?;rechnerisch an Gerade und Parabel;2026-FOR-K5b 2024-OS-K3c
+Funktionen;Lineare Funktion im Sachzusammenhang;Endwert berechnen;2022-OS-K6a
+Funktionen;Lineare Funktion im Sachzusammenhang;Graph zum Tarif zuordnen;2023-OS-K3a
+Funktionen;Lineare Funktion im Sachzusammenhang;Gleichung aufstellen und rückwärts rechnen;2022-OS-K6b
+Funktionen;Lineare Funktion im Sachzusammenhang;Tarife vergleichen;2023-OS-K3b
+Funktionen;Parabel: Scheitelpunkt und Skizze;Wertetabelle zuordnen;2026-FOR-B1e
+Funktionen;Parabel: Scheitelpunkt und Skizze;Scheitelpunkt ablesen;2022-OS-K3b 2026-FOR-K5c
+Funktionen;Parabel: Scheitelpunkt und Skizze;Scheitelpunktform angeben;2023-OS-K4b 2025-OS-K5b
+Funktionen;Parabel: Scheitelpunkt und Skizze;Parabel skizzieren;2024-OS-K3b
+Funktionen;Quadratische Gleichung lösen;Lösung prüfen;2025-OS-B1h
+Funktionen;Quadratische Gleichung lösen;Nullstellen berechnen;2025-OS-K5c
+Funktionen;Quadratische Gleichung lösen;x zu gegebenem y;2023-OS-K4c
+Funktionen;Quadratische Gleichung lösen;Gerade und Parabel gleichsetzen;2022-OS-K3c 2024-OS-K3d
+Funktionen;Quadratische Gleichung lösen;ohne Rechnung begründen;2026-FOR-K5d
+Funktionen;Exponentielles Wachstum;Tabelle ergänzen;2026-FOR-K7a
+Funktionen;Exponentielles Wachstum;Punkte darstellen;2025-OS-K7a
+Funktionen;Exponentielles Wachstum;Faktor bestimmen, Gleichung aufstellen;2025-OS-K7b 2026-FOR-K7c
+Funktionen;Exponentielles Wachstum;Graph zuordnen und begründen;2026-FOR-K7b
+Gleichungssysteme;Gleichungssystem im Sachzusammenhang;Variablen deuten;2022-OS-K7a
+Gleichungssysteme;Gleichungssystem im Sachzusammenhang;aufstellen;2024-OS-K7a
+Gleichungssysteme;Gleichungssystem im Sachzusammenhang;lösen;2022-OS-K7b
+Gleichungssysteme;Gleichungssystem im Sachzusammenhang;Gleichung in Worte fassen und lösen;2024-OS-K7b
+Daten + Zufall;Prozent;Prozent und Anteil umwandeln;2022-OS-B1f
+Daten + Zufall;Prozent;Prozentwert;2026-FOR-B1a
+Daten + Zufall;Prozent;Prozentsatz;2023-OS-K6a
+Daten + Zufall;Prozent;Grundwert;2023-OS-B1b 2025-OS-B1a
+Daten + Zufall;Prozent;Erhöhung und Veränderung in Prozent;2024-OS-B1e 2022-OS-K4b 2026-FOR-K3c
+Daten + Zufall;Prozent;Aussagen prüfen;2023-OS-K6b 2025-OS-K4b
+Daten + Zufall;Kenngrößen;Minimum, Maximum, Spannweite;2026-FOR-K3a 2024-OS-K2a 2023-OS-K6c 2022-OS-K4a
+Daten + Zufall;Kenngrößen;Median;2024-OS-B1h
+Daten + Zufall;Kenngrößen;Mittelwert;2026-FOR-K3b 2024-OS-K2b
+Daten + Zufall;Kenngrößen;rückwärts: fehlender Wert;2022-OS-B1d
+Daten + Zufall;Kenngrößen;Aussagen prüfen, Auswirkung erklären;2025-OS-K6a 2025-OS-K6c
+Daten + Zufall;Kreisdiagramm;Winkel berechnen und beschriften;2022-OS-K4d 2024-OS-K2c
+Daten + Zufall;Kreisdiagramm;aus Prozent darstellen;2025-OS-K6b
+Daten + Zufall;Diagramm ergänzen und beurteilen;ergänzen;2026-FOR-K3d 2023-OS-K6d
+Daten + Zufall;Diagramm ergänzen und beurteilen;Aussage prüfen;2022-OS-K4c
+Daten + Zufall;Diagramm ergänzen und beurteilen;falschen Eindruck erklären;2026-FOR-K3e
+Daten + Zufall;Wahrscheinlichkeit einstufig;Ergebnisse aufzählen;2025-OS-K3a
+Daten + Zufall;Wahrscheinlichkeit einstufig;Wahrscheinlichkeit angeben;2024-OS-K5a 2026-FOR-K6a
+Daten + Zufall;Baumdiagramm und Pfadregeln;Baum ergänzen;2024-OS-K5b 2026-FOR-K6b
+Daten + Zufall;Baumdiagramm und Pfadregeln;Pfadregel;2025-OS-K3b 2025-OS-K3c
+Daten + Zufall;Baumdiagramm und Pfadregeln;ohne Zurücklegen;2024-OS-K5c
+Daten + Zufall;Baumdiagramm und Pfadregeln;Gegenereignis;2026-FOR-K6c
+Daten + Zufall;Baumdiagramm und Pfadregeln;Zufallsgerät entwerfen;2025-OS-K3d 2026-FOR-K6d
+Basis;Bruchteil einer Fläche;markieren oder ablesen;2022-OS-B1a 2023-OS-B1d 2024-OS-B1b 2025-OS-B1c 2026-FOR-B1b
+Basis;Größen umrechnen;umrechnen und vergleichen;2026-FOR-B1d 2024-OS-B1a 2025-OS-B1b 2022-OS-B1h
+Basis;Zahlen vergleichen, Potenzen;vergleichen und rechnen;2023-OS-B1f 2022-OS-B1j 2024-OS-B1g 2025-OS-B1d 2026-FOR-B1g
+Basis;Gleichung lösen;lösen oder Lösung prüfen;2022-OS-B1c 2023-OS-B1e 2024-OS-B1d
+Basis;Term zum Text;Term angeben;2023-OS-B1h
+Basis;Dreisatz;Dreisatz;2022-OS-B1b 2023-OS-B1a 2024-OS-K2d 2024-OS-K6c
