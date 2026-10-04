@@ -41,6 +41,16 @@ Vorgabencheck (§ 4) steht aus.
 - Kein IQB-Pool: die Aufgabenpools des IQB gelten nur für die Allgemeine
   Hochschulreife (fhr.md § 9). (Beleg: fhr.md § 9, IQB-Pool-Seite, 19.09.2026)
 
+Berlin hat eine eigene, getrennte FHR-Prüfung (Recherche 04.10.2026):
+zentral von der Senatsverwaltung gestellt, 4 Zeitstunden, drei
+Pflichtaufgaben mit 100 Punkten (2023: Analysis 40, Integralrechnung 30,
+Stochastik mit Vierfeldertafel und bedingter Wahrscheinlichkeit 30),
+zwei Fassungen A und B an verschiedenen Terminen, kein CAS; Aufgaben
+2019/20–2022/23 auf berlin.de/osz/rahmenlehrplaene/. Brandenburg prüft
+zentral seit 2010/11 (180 min, 70 BE). Ein gemeinsamer Jahrgang ist
+nicht belegt. Dieses Profil und der FHR-Baum gelten nur für Brandenburg;
+ein Berliner FHR-Schüler bräuchte einen eigenen Katalog (vier Hefte).
+
 ## 2 Vorgaben-Historie
 
 Aufbau aus den Heften (fhr.md § 3): drei voneinander unabhängige Aufgaben mit
@@ -122,3 +132,4 @@ Schulform und ein Niveau vorliegen (konzept.md § 8, Frage 4).
 - 2026-09-17: angelegt (Auftrag G, Punkt 3) als fhr-Pendant zu msa-vorgaben.md
   und abi-vorgaben.md, aus fhr.md v1.8 § 1–7 und fhr-pruefungen.md
   zusammengetragen; kein eigener Vorgabencheck, die Papiere nicht neu gelesen.
+- 2026-10-04: Absatz vor § 2 – Berliner FHR-Prüfung getrennt (Recherche im Chat; Quellen: bildungsserver.berlin-brandenburg.de/pruefungen-fos-bb, berlin.de/osz/rahmenlehrplaene/, mathe-sj-2022_23-ab.pdf).
