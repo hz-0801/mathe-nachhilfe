@@ -36,3 +36,40 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2023-OS-B1g;BC = 6 cm (α = β ⇒ gleichschenklig) | γ = 40°;180° − 2 · 70°;gleichschenkliges Dreieck|Basiswinkel|Winkelsumme;;;ok
 2023-OS-B1h;3 · (2a − 13);Doppeltes 2a, Differenz 2a − 13;Term|Differenz|Doppeltes|verdreifachen;;;nicht rechenbar
 2023-OS-B1i;(3|−24), denn f(3) = −18 ≠ −24;f(3) = −18;Punktprobe|lineare Funktion|Einsetzen;Lineare Funktionen;;ok
+2022-OS-B1a;3 Kästchen markiert (beliebige Lage);15 Kästchen | 20 % = 1/5;Prozent|Bruchteil|Fünftel|markieren;Prozentrechnung;;ok
+2022-OS-B1b;8,00 €;1,60 € je kg;proportionale Zuordnung|Dreisatz|Preis;;;ok
+2022-OS-B1c;x = 6;30 = 5x;lineare Gleichung|Einsetzen|Probe|Äquivalenzumformung;;;ok
+2022-OS-B1d;18 °C;Summe der sechs Werte 122 | 7 · 20 = 140;Mittelwert|Durchschnitt|fehlender Wert;;;ok
+2022-OS-B1e;A = d · e : 2;Katheten = Grundseite und Höhe;rechtwinkliges Dreieck|Flächeninhalt|Katheten|Formel;;;nicht rechenbar
+2022-OS-B1f;20 %;1/5 = 20/100;Prozentsatz|Bruch|Anteil;Brüche und Dezimalzahlen;;ok
+2022-OS-B1g;Die Summe der Flächeninhalte der Kathetenquadrate ist gleich dem Flächeninhalt des Hypotenusenquadrates;a² + b² = c²;Satz des Pythagoras|Kathetenquadrat|Hypotenusenquadrat;;;nicht rechenbar
+2022-OS-B1h;5 Gläser;1,5 l = 1500 ml;Liter|Milliliter|Volumeneinheiten|Division;;;ok
+2022-OS-B1i;1;Mittelsenkrechte der parallelen Seiten;Symmetrieachse|gleichschenkliges Trapez|Achsensymmetrie;Ebene Figuren und Winkel;;nicht rechenbar
+2022-OS-B1j;2⁻⁵ < 0,25;2⁻⁵ = 1/32 = 0,03125;negativer Exponent|Potenz|Dezimalzahl|Vergleich;Brüche und Dezimalzahlen;;ok
+2025-OS-K2a;1 Symmetrieachse (BD) | BF = 80 − 25 = 55 cm | AB ≈ 60,4 cm;AF = 25 cm | AB² = 25² + 55² = 3650 cm²;Drachenviereck|Symmetrieachse|Diagonalen|Satz des Pythagoras|Hypotenuse;Symmetrie und Abbildungen|Ebene Figuren und Winkel;;ok
+2025-OS-K2b;2000 cm²;A = e · f : 2;Drachenviereck|Diagonalen|Flächeninhalt;;;ok
+2025-OS-K2c;AF = DF = 25 cm ⇒ Dreieck AFD gleichschenklig-rechtwinklig ⇒ ∠ADF = 45°, ebenso ∠FDC = 45° ⇒ γ = 90° (oder Thales: D auf Kreis um F mit r = 25 cm);AF = FC = DF = 25 cm | Basiswinkel 45°;gleichschenklig-rechtwinkliges Dreieck|Basiswinkel|Satz des Thales|Umkehrung des Satzes des Pythagoras;Satz des Pythagoras;;ok
+2025-OS-K3a;11, 12, 13, 21, 22, 23, 31, 32, 33;3 · 3 = 9 Zahlen;Glücksrad|Ergebnismenge|zweistufiger Zufallsversuch|Kombinationen;Wahrscheinlichkeit mehrstufig;;ok
+2025-OS-K3b;P(33) = 1/4 · 1/4 = 1/16 | falsch, P(22) = 1/4 · 2/4 = 1/8 ≠ 1/16;P(3 links) = 1/4 | P(2 rechts) = 2/4;Glücksrad|Pfadregel|Laplace-Wahrscheinlichkeit|Behauptung prüfen;Wahrscheinlichkeit einstufig;;ok
+2025-OS-K3c;5/16 = 31,25 %;P(12) = 4/16 | P(21) = 1/16;Glücksrad|Pfadregel|Summenregel|Oder-Ereignis;Wahrscheinlichkeit einstufig;;ok
+2025-OS-K3d;z. B. links 1, 1, 2, 3 und rechts 3, 3, 1, 2: P(13) = 2/4 · 2/4 = 1/4 = 25 %;1/4 = 2/4 · 2/4 (oder 1 · 1/4);Glücksrad|Pfadregel|Rückwärtsaufgabe|Produkt von Brüchen;Brüche und Dezimalzahlen;;ok
+2025-OS-K4a;x ≈ 170,8 cm | α ≈ 5,4°;x² = 170² + 16² = 29 156 | tan α = 16 : 170 ≈ 0,0941;Rampe|Satz des Pythagoras|Hypotenuse|Tangens|Steigungswinkel;Trigonometrie im rechtwinkligen Dreieck;;ok
+2025-OS-K4b;100 m und 6 m | Ja, Steigung 16 : 170 ≈ 9,4 % > 6 %;16 : 170 ≈ 0,0941;Steigung in Prozent|Prozentsatz|Behauptung prüfen;Lineare Funktionen;;ok
+2025-OS-K4c;y ≈ 180,1 cm;dritter Winkel 34° gegenüber 160 cm | y = 160 · sin 141° : sin 34°;Sinussatz|stumpfer Winkel|Winkelsumme im Dreieck;Ebene Figuren und Winkel;;ok
+2025-OS-K5a;Gerade durch A(−2|6) und B(3|−1,5) | Aussage 1 falsch (fallend), Aussage 2 wahr | f(x) = −1,5x + 3;m = (−1,5 − 6) : (3 + 2) = −1,5 | n = 3;lineare Funktion|Steigung|y-Achsenabschnitt|Monotonie|Funktionsgleichung aufstellen;Koordinaten und Zeichnen;;ok
+2025-OS-K5b;S(3|−2) | p(x) = (x − 3)² − 2;x² − 6x + 9 − 2 (quadratische Ergänzung);Parabel|Scheitelpunkt|Scheitelpunktform|quadratische Ergänzung;;;ok
+2025-OS-K5c;N1(1,59|0), N2(4,41|0), x = 3 ± √2;Diskriminante 9 − 7 = 2 | √2 ≈ 1,41;Nullstellen|p-q-Formel|Schnittpunkte mit der x-Achse;Quadratische Gleichungen;;ok
+2025-OS-K6a;Aussage 2 falsch, Modalwert ist 2 Jahre (fünfmal), Spannweite 5 − 1 = 4 stimmt;Häufigkeiten: 1 ×1, 2 ×5, 4 ×3, 5 ×1;Spannweite|Modalwert|Kenngrößen|Aussage prüfen;;;ok
+2025-OS-K6b;≈ 45,5 % | Sektor ≈ 164° (Rest ≈ 196°);5 von 11 Personen | 5/11 · 360° ≈ 163,6°;Anteil|Prozentsatz|Kreisdiagramm|Mittelpunktswinkel;Prozentrechnung|Flächeninhalt und Umfang;;ok
+2025-OS-K6c;48 Jahre | bleibt 48 Jahre, denn 66 + 30 = 96 = 2 · 48 (Abweichungen +18 und −18 heben sich auf);Summe 528 : 11 | neue Summe 432 : 9;arithmetisches Mittel|Durchschnitt|Ausreißer|Begründen;;;ok
+2025-OS-K7a;Punkte (0|80), (1|112), (2|157), (3|220), (4|308) eingetragen, zunehmend steiler;Skala wählen;Wertetabelle|Koordinatensystem|exponentielles Wachstum|Punkte eintragen;Koordinaten und Zeichnen;;nicht rechenbar
+2025-OS-K7b;112 : 80 = 1,4 (alle Quotienten ≈ 1,4) | N(t) = 80 · 1,4^t | wahr, N(24) ≈ 257 136 > 250 000;1,4^24 ≈ 3214,2;Wachstumsfaktor|Quotient|Exponentialfunktion|Prognose|Behauptung prüfen;Potenzen und Wurzeln;;ok
+2026-FOR-K2a;≈ 1734,9 m³;V = π · r² · h | r² = 22,09 m²;Zylinder|Volumen|Kreisfläche;;;ok
+2026-FOR-K2b;≈ 2539,66 € (rund 2540 €);M = π · r · s ≈ 126,98 m²;Kegel|Mantelfläche|Mantellinie|Kosten;Zuordnungen proportional und antiproportional;;ok
+2026-FOR-K2c;≈ 32,2 m;Kegelhöhe = √(8,6² − 4,7²) = √51,87 ≈ 7,20 m;Kegel|Höhe|Satz des Pythagoras|Kathete|Mantellinie;Volumen und Oberfläche;;ok
+2026-FOR-K2d;falsch, V_Kegel = 1/3 · π · (3r)² · h = 3 · π · r² · h = 3 · V_Zylinder ⇒ dreifaches Volumen;(3r)² = 9r² | 9 : 3 = 3;Kegel|Zylinder|Volumenformel|Variable|Aussage prüfen;Terme umformen;;ok
+2026-FOR-K3a;0,08 € pro Liter;1,85 − 1,77;Spannweite|Maximum|Minimum;;;ok
+2026-FOR-K3b;wahr, Mittel Mo–Fr = 8,95 : 5 = 1,79 € < 1,80 €;Summe 8,95;arithmetisches Mittel|Durchschnitt|Behauptung prüfen;;;ok
+2026-FOR-K3c;≈ 2,8 %;Differenz 0,05 € | 0,05 : 1,79 ≈ 0,0279;prozentuale Veränderung|Grundwert|Preissteigerung;;;ok
+2026-FOR-K3d;Säule So bis 1,85 (höchste Säule);Skala 1,75 bis 1,90, Schritt 0,01;Säulendiagramm|Skala|Diagramm ergänzen;;;nicht rechenbar
+2026-FOR-K3e;Achse beginnt bei 1,75 € statt bei 0 ⇒ Säulen zeigen nur die Differenz zu 1,75 € (Do 0,04, Fr 0,09) ⇒ Verdopplung der Säulenhöhe, Preis nur +2,8 %;Do 1,79 − 1,75 = 0,04 | Fr 1,84 − 1,75 = 0,09;abgeschnittene Achse|Säulendiagramm|Verzerrung|Diagramm beurteilen;Prozentrechnung;;nicht rechenbar
