@@ -7,7 +7,8 @@ Prüfungen: Kopfzeile id;kurz;zwischen;stich;neben;abh;sympy; jede id der
 Beitabelle genau einmal und im Katalog vorhanden; Reihenfolge wie im Katalog;
 kurz nie leer; neben nur Themen, die im Katalog als thema vorkommen, und nicht
 das Hauptthema der Zeile; abh nur ids desselben Papiers, die im Katalog stehen,
-nicht die eigene id; sympy aus {ok, abw: …, nicht rechenbar, offen: …};
+nicht die eigene id – oder, beim CAS-Nachtrag, ids des WTR-Papiers desselben
+Hefts (papier „…-cas“ → „…“, wie im Katalog; seit 05.10.2026); sympy aus {ok, abw: …, nicht rechenbar, offen: …};
 ASCII-Minus vor Ziffern in kurz/zwischen; Datei UTF-8 ohne BOM mit LF.
 Rückgabe 0 bei fehlerfreiem Lauf, sonst 1 mit Fehlerliste.
 """
@@ -66,7 +67,7 @@ def main(vorrat, katalog):
         for a in filter(None, d['abh'].split('|')):
             if a not in kat_by:
                 fehler.append(f'{i}: abh verweist auf unbekannte id {a}')
-            elif kat_by[a]['papier'] != papier:
+            elif kat_by[a]['papier'] != papier and papier != kat_by[a]['papier'] + '-cas':
                 fehler.append(f'{i}: abh {a} liegt in anderem Papier')
             elif a == i:
                 fehler.append(f'{i}: abh verweist auf sich selbst')
