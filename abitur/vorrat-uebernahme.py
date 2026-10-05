@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """vorrat-uebernahme.py – Beitabelle eines Vorratslaufs in den Katalog übernehmen.
 
-Version 0.2 · 05.10.2026 · gilt mit abi-bau.py v0.16, iqb-bau.py v1.11
+Version 0.3 · 05.10.2026 (--trenner, zwischenergebnis mit „ ; “); 0.2 · 05.10.2026 · gilt mit abi-bau.py v0.16, iqb-bau.py v1.11
 (Zusatzfelder kurzloesung und neben).
 
 Der Katalog ist abgeleitet: abi-bau.py hängt je Heft Zeilen an, die
@@ -30,12 +30,21 @@ Aufruf (im Ordner abitur/):
       keine Rechenschritte).
   python3 vorrat-uebernahme.py --nur-spalten <katalog.csv>
       legt nur die Zusatzfelder (leer) an, etwa für iqb-katalog.csv.
+  python3 vorrat-uebernahme.py --trenner <katalog.csv>
+      stellt in zwischenergebnis den Trenner „|“ auf „ ; “ um (katalog-prompt.md
+      0.10, werkzeuge/zwtrenner.py; „|“ in Klammern und Beträgen bleibt), für
+      abi-katalog.csv und iqb-katalog.csv. Seit 05.10.2026 stellt auch die
+      Übernahme jedes neue zwischenergebnis so um.
 Der Bericht geht nach stdout; nichts wird gelesen außer den zwei Dateien.
 """
 import csv
 import io
+import os
 import re
 import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "werkzeuge"))
+import zwtrenner as zt  # noqa: E402
 
 ZUSATZFELDER = (("kurzloesung", "ergebnis"), ("neben", "typ_neben"))
 
@@ -155,6 +164,17 @@ def ist_rechenschritt(t):
 
 def main():
     args = sys.argv[1:]
+    if args and args[0] == "--trenner":
+        kopf, zeilen = lade(args[1])
+        jz = kopf.index("zwischenergebnis")
+        n = 0
+        for z in zeilen:
+            neu = zt.umstellen(z[jz], "ohne")[0]
+            n += neu != z[jz]
+            z[jz] = neu
+        schreibe(args[1], kopf, zeilen)
+        print(f"{args[1]}: Trenner umgestellt in {n} Zeilen, {len(zeilen)} Zeilen, {len(kopf)} Felder")
+        return
     if args and args[0] == "--nur-spalten":
         kopf, zeilen = lade(args[1])
         neu = erweitere(kopf, zeilen)
@@ -197,7 +217,7 @@ def main():
         # zwischen → zwischenergebnis
         alt = z[ix["zwischenergebnis"]]
         if r["zwischen"]:
-            neu_zw = markiere_vektoren(r["zwischen"], zweifel, f"{i} zwischenergebnis")
+            neu_zw = zt.umstellen_neu(markiere_vektoren(r["zwischen"], zweifel, f"{i} zwischenergebnis"))
             if alt and norm(alt) != norm(r["zwischen"]):
                 zw_abw.append((i, alt, r["zwischen"]))
             z[ix["zwischenergebnis"]] = neu_zw

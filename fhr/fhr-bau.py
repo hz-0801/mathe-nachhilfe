@@ -11,6 +11,11 @@ ihn wie die Selbstprüfung und schreibt fhr-katalog.csv mit der neuen
 Kopfzeile; ZEILEN wird dabei nicht angefasst. Neue Prüfung je Zeile: neben
 nennt nur Themen aus THEMEN.
 
+Nachtrag 05.10.2026 (Regeln nachziehen, katalog-prompt.md 0.10): python3
+fhr-bau.py --trenner – wie --umbau, stellt dabei in zwischenergebnis den
+Trenner „|“ auf „ ; “ um (werkzeuge/zwtrenner.py, Stil „ohne“; „|“ in
+Klammern und Beträgen bleibt).
+
 Änderungen gegenüber 0.3 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung auf
 Kern v0.9 und fhr.md v1.8 (stand auf v0.8 und v1.7; Schema und Themenliste
 unverändert); sonst unverändert.
@@ -435,14 +440,26 @@ def pruefe_zeile(z, a, typ_namen, alle_ids):
           f"{z['id']}: ASCII-Umschrift in {k}: {v[:40]}")
 
 
-def selbstpruefung(umbau=False):
-    """Bestand prüfen, nichts schreiben (ZEILEN leer); umbau=True schreibt die neue Kopfzeile."""
+def selbstpruefung(umbau=False, trenner=False):
+    """Bestand prüfen, nichts schreiben (ZEILEN leer); umbau=True schreibt die neue Kopfzeile;
+    trenner=True stellt vorher den Trenner in zwischenergebnis um (schreibt wie umbau)."""
     fehler = []
     def a(cond, msg):
         if not cond:
             fehler.append(msg)
     _, alt_kat = lade(KAT, HEAD)
     _, alt_typ = lade(TYP, TYP_HEAD)
+    if trenner:
+        sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "werkzeuge"))
+        import zwtrenner as zt
+        jz = HEAD.index("zwischenergebnis")
+        n_tr = 0
+        for r in alt_kat:
+            neu = zt.umstellen(r[jz], "ohne")[0]
+            n_tr += neu != r[jz]
+            r[jz] = neu
+        print(f"Trenner zwischenergebnis umgestellt: {n_tr} Zeilen")
+        umbau = True
     alle = [dict(zip(HEAD, r)) for r in alt_kat]
     ids = [z["id"] for z in alle]
     a(len(set(ids)) == len(ids), "doppelte id im Bestand")
@@ -477,6 +494,9 @@ def selbstpruefung(umbau=False):
 def main():
     if "--umbau" in sys.argv:
         selbstpruefung(umbau=True)
+        return
+    if "--trenner" in sys.argv:
+        selbstpruefung(trenner=True)
         return
     if not ZEILEN:
         selbstpruefung()

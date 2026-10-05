@@ -20,22 +20,11 @@ def rows(path):
 
 
 def teil_zw(s):
-    """Zwischenergebnisse trennen an '|', nicht in (...), [...], ⟨...⟩."""
-    s = (s or "").strip()
-    if not s:
-        return []
-    out, tief, cur = [], 0, ""
-    for ch in s:
-        if ch in "([⟨{":
-            tief += 1
-        elif ch in ")]⟩}":
-            tief = max(0, tief - 1)
-        if ch == "|" and tief == 0:
-            out.append(cur); cur = ""
-        else:
-            cur += ch
-    out.append(cur)
-    return [x for x in (o.strip() for o in out) if x]
+    """Zwischenergebnisse trennen an „ ; “ außerhalb von Klammern (seit 05.10.2026, werkzeuge/zwtrenner.py)."""
+    import os
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import zwtrenner
+    return zwtrenner.teile(s)
 
 
 def num(s):
@@ -116,7 +105,7 @@ w(f"\n{len(viele)} Einträge. Einträge ohne jede Sprosse unter 3: " + (", ".joi
 KAT = ["msa/msa-katalog-basis.csv", "msa/msa-katalog-kontext.csv", "msa/msa-katalog-gym.csv",
        "abitur/abi-katalog.csv", "abitur/iqb-katalog.csv", "fhr/fhr-katalog.csv"]
 w("## B. Prüfungskataloge (mathe-nachhilfe)\n")
-w("Zeilen = Katalogzeilen; KL/ZW/NB/SW = Zahl Zeilen mit gefüllter kurzloesung/zwischenergebnis/neben/stichwoerter; ZW0..ZW3+ = Verteilung der Zwischenergebnisse je Zeile (Trenner `|`, nicht innerhalb von (…), […], ⟨…⟩); ZW>P-1 = Zeilen mit mehr Zwischenergebnissen als punkte − 1, Anteil an Zeilen mit lesbaren Punkten (P-ok).\n")
+w("Zeilen = Katalogzeilen; KL/ZW/NB/SW = Zahl Zeilen mit gefüllter kurzloesung/zwischenergebnis/neben/stichwoerter; ZW0..ZW3+ = Verteilung der Zwischenergebnisse je Zeile (Trenner ` ; `, nicht innerhalb von (…), […], ⟨…⟩); ZW>P-1 = Zeilen mit mehr Zwischenergebnissen als punkte − 1, Anteil an Zeilen mit lesbaren Punkten (P-ok).\n")
 w("| Katalog | Papier | Zeilen | KL | ZW | NB | SW | ZW0 | ZW1 | ZW2 | ZW3+ | P-ok | ZW>P-1 | Anteil |")
 w("|---|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|")
 GT = collections.Counter()

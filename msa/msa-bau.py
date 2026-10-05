@@ -20,7 +20,11 @@ Selbstprüfung. Neue Prüfung je Zeile: neben nennt nur Themen aus msa.md § 6.
 Nachtrag 05.10.2026 (Regeln nachziehen): --korrektur nimmt auch die Spalte
 ergebnis (Rechenfehler der eigenen Rechnung; amtlich ist ergebnis bei den
 BB-Heften nicht). Die Felder neben und kurzloesung nennt seit 0.10 auch
-der Kern.
+der Kern. Neu: python3 msa-bau.py --trenner – stellt in allen drei
+Katalogen den Trenner in zwischenergebnis von „ | “ auf „ ; “ um
+(werkzeuge/zwtrenner.py; „|“ in Klammern und Beträgen bleibt), prüft und
+schreibt wie --korrektur. Werte aus Korrekturtabellen werden beim Einlesen
+ebenso umgestellt.
 
 Änderungen gegenüber 0.2 (Auftrag Gymnasialhefte, 23.09.2026): papier-Muster um
 GYM erweitert (msa.md § 4); KONFIG führt daneben „dateien" (Liste, weil ab 2019
@@ -633,8 +637,16 @@ KORR_SPALTEN = {"kurz": "kurzloesung", "zwischen": "zwischenergebnis", "stich": 
                 "abhaengig_von": "abhaengig_von", "ergebnis": "ergebnis"}
 
 
-def korrektur(dateien):
-    """Korrekturtabellen auf den Bestand anwenden, alles prüfen, alle Kataloge schreiben."""
+def zwtrenner():
+    sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "werkzeuge"))
+    import zwtrenner as zt
+    return zt
+
+
+def korrektur(dateien, trenner=False):
+    """Korrekturtabellen auf den Bestand anwenden, alles prüfen, alle Kataloge schreiben.
+    trenner=True stellt vorher in jedem zwischenergebnis „ | “ auf „ ; “ um."""
+    zt = zwtrenner()
     fehler = []
     def a(cond, msg):
         if not cond:
@@ -648,6 +660,14 @@ def korrektur(dateien):
         for r in bestand[p]:
             index[r[0]] = r
     geaendert, abw_zw, unbekannt = {}, [], []
+    if trenner:
+        jz = HEAD.index("zwischenergebnis")
+        for p in pfade:
+            for r in bestand[p]:
+                neu = zt.umstellen(r[jz], "msa")[0]
+                if neu != r[jz]:
+                    r[jz] = neu
+                    geaendert["Trenner zwischenergebnis"] = geaendert.get("Trenner zwischenergebnis", 0) + 1
     for d in dateien:
         with io.open(d, encoding="utf-8", newline="") as fh:
             tab = list(csv.DictReader(fh, delimiter=";"))
@@ -660,6 +680,8 @@ def korrektur(dateien):
                 if not feld or not (wert or "").strip():
                     continue
                 j = HEAD.index(feld)
+                if feld == "zwischenergebnis":
+                    wert = zt.umstellen_neu(wert)
                 if r[j] != wert:
                     if feld == "zwischenergebnis" and r[j].strip():
                         abw_zw.append((t["id"], r[j], wert))
@@ -689,6 +711,9 @@ def korrektur(dateien):
 
 
 def main():
+    if "--trenner" in sys.argv:
+        korrektur([], trenner=True)
+        return
     if "--korrektur" in sys.argv:
         korrektur(sys.argv[sys.argv.index("--korrektur") + 1:])
         return
