@@ -125,3 +125,35 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2017-OS-K7b;x-Achse Höhe in km, 2 Kästchen je km | y-Achse Luftdruck in hPa, 1 Kästchen je 50 hPa | sieben Punkte, fallende Kurve;x 0 bis 10 km, y 0 bis 1000 hPa;Koordinatensystem|Achsenbeschriftung|Skala|Graph zeichnen;Koordinaten und Zeichnen;2017-OS-K7a;nicht rechenbar
 2017-OS-K7c;y = 1000 · 0,87^x;;Exponentialfunktion|Anfangswert|Abnahmefaktor;;;ok
 2017-OS-K7d;ja, 1000 · 0,87⁴ ≈ 573 hPa;0,87⁴ ≈ 0,573;Funktionswert|Exponentialfunktion|Begründen;Potenzen und Wurzeln;2017-OS-K7c;ok
+2018-OS-B1a;0,9 kg = 900 g;;Bruchteil|Größe|Masse;Einheiten umrechnen;;ok
+2018-OS-B1b;350 cm = 3,5 m;;Länge|Rest|Meter|Zentimeter;;;ok
+2018-OS-B1c;5x + 12 = 2;;Gleichung|Einsetzen|Probe|negative Zahl;Rationale Zahlen rechnen;;ok
+2018-OS-B1d;5 % < 0,5;;Prozent|Dezimalzahl|Zahlen vergleichen;Prozentrechnung;;ok
+2018-OS-B1e;210 min;;Stunden|Minuten|Zeiteinheit;;;ok
+2018-OS-B1f;b = 5 cm;;Rechteck|Umfang|Seitenlänge|Formel umstellen;;;ok
+2018-OS-B1g;sin β = b/a;;Sinus|Gegenkathete|Hypotenuse;;;nicht rechenbar
+2018-OS-B1h;Drachenviereck;;Achsenspiegelung|Drachenviereck|Symmetrieachse|Viereck;Ebene Figuren und Winkel;;nicht rechenbar
+2018-OS-B1i;Pyramide;;Netz|Pyramide|Dreieck;;;nicht rechenbar
+2018-OS-B1j;2 rote Felder;;Glücksrad|Laplace-Wahrscheinlichkeit|Anzahl;Prozentrechnung;;ok
+2018-OS-K2a;600 000 € · 1,08 = 648 000 €;48 000 € : 600 000 € = 8 %;Umsatz|Wachstumsrate|Wachstumsfaktor|Nachweis;Prozentrechnung;;ok
+2018-OS-K2b;exponentiell: je Jahr · 1,08, Zuwächse nicht konstant;Zuwächse 48 000 €, 51 840 €;linear|exponentiell|Wachstumsfaktor|Begründen;;;ok
+2018-OS-K2c;2020 | ≈ 1 028 294 €;2019: ≈ 952 124 €;Wachstumsfaktor|Schwellenwert|schrittweise Rechnung;Prozentrechnung;;ok
+2018-OS-K3a;20 je Gitterlinie (0 bis 200) | E und D Kartoffel- und Gemüsegerichte, C Pizza, B Schnitzel, A Fischgerichte;längste Balken 160 ⇒ 20 je Gitterlinie;Balkendiagramm|Achseneinteilung|Skala|zuordnen;;;ok
+2018-OS-K3b;Salat 100 | Pasta 300;1000 − 600 = 400 | x + 3x = 400 ⇒ x = 100;Gleichung aufstellen|dreimal so viel|Rest;;;ok
+2018-OS-K3c;Streifen mit 1 cm, 1,5 cm, 5,5 cm, 2 cm, beschriftet;10 cm ≙ 100 % ⇒ 1 mm je 1 %;Streifendiagramm|Prozent|Anteil|Länge;Prozentrechnung|Diagramme lesen und beurteilen;;ok
+2018-OS-K3d;Aussage 1 falsch (55 % > 50 %) | Aussage 2 falsch (jede 15. ≈ 6,7 %, tatsächlich 15 %);1/15 ≈ 6,7 %;Aussage prüfen|Hälfte|Anteil|Begründen;Prozentrechnung|Brüche und Dezimalzahlen;;ok
+2018-OS-K4a;γ = 5°;;Teilwinkel|Winkeldifferenz;;;ok
+2018-OS-K4b;∢ACB = 60° ⇒ ∢ACD = 120° ⇒ δ = 180° − 120° − 5° = 55°;;Winkelsumme|Nebenwinkel|Begründen;;2018-OS-K4a;ok
+2018-OS-K4c;AC = 12 · sin 55° : sin 5° ≈ 112,8 m;AC : sin 55° = 12 : sin 5°;Sinussatz|allgemeines Dreieck|Nachweis;;2018-OS-K4a|2018-OS-K4b;ok
+2018-OS-K4d;57,9 m | 69,9 m;CB = 112,8 · sin 30° = 56,4 m | 56,4 m + 1,5 m = 57,9 m;Sinus|Höhe|Teilstrecke|Gegenkathete;;2018-OS-K4c;ok
+2018-OS-K5a;wahr | wahr | falsch;p(−1) = 7 | p(0) = 2 ⇒ Schnittpunkt (0 | 2);Parabel|Punktprobe|Verschiebung|y-Achsenabschnitt;Rationale Zahlen rechnen;;ok
+2018-OS-K5b;S(2 | −2);;Scheitelpunkt|Parabel|ablesen;;;ok
+2018-OS-K5c;p(x) = (x − 2)² − 2;x² − 4x + 4 − 4 + 2;Scheitelpunktform|quadratische Ergänzung;Terme umformen;2018-OS-K5b;ok
+2018-OS-K5d;Skizze: Normalparabel mit Scheitel (0 | e), e > 0 | z. B. q(x) = x² + 1 | z. B. q′(x) = −x² − 1;e > 0, nach oben geöffnet;Normalparabel|Scheitelpunkt|keine Nullstelle|Spiegelung an der x-Achse;Symmetrie und Abbildungen;;ok
+2018-OS-K6a;≈ 207,83 m²;Rechteck 240 m² | Kreis π · 3,2² ≈ 32,17 m²;Rechteck|Kreisfläche|Restfläche|Durchmesser;;;ok
+2018-OS-K6b;≈ 436,3 m²;M = π · d · h;Zylinder|Mantelfläche|Umfang;;;ok
+2018-OS-K6c;h = 60 cm | d = 12,8 cm;30 m : 50 = 0,6 m;Maßstab|Modell|Original;Einheiten umrechnen;;ok
+2018-OS-K6d;Radius 3,2 m und Dachhöhe als Katheten, Mantellinie als Hypotenuse ⇒ s = √(3,2² + h²);;Kegel|Mantellinie|Lösungsweg beschreiben|Hypotenuse;Volumen und Oberfläche;;nicht rechenbar
+2018-OS-K7a;12,5 %;;Prozentsatz|Anteil|Grundwert;;;ok
+2018-OS-K7b;nein, P = 2/14 = 1/7 ≈ 14,3 %, nicht 2/16;noch 14 Pfannkuchen, 2 mit Senf;ohne Zurücklegen|Laplace-Wahrscheinlichkeit|Grundmenge|Begründen;;;ok
+2018-OS-K7c;(S | M), (M | S), (S | S) | 91/120 ≈ 0,758 | beide Pfannkuchen mit derselben Füllung;14/16 · 13/15 = 182/240;zweistufig|ohne Zurücklegen|Ergebnismenge|Pfadregel|Ereignis;Zählen und Kombinatorik|Brüche und Dezimalzahlen;;ok
