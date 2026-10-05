@@ -547,6 +547,93 @@ def p_2018_OS_K7c():
                  genau(R(gleich, len(paare)), R(2, 16) * R(1, 15) + R(14, 16) * R(13, 15)))
 
 
+# ---------- 2019 (OS)
+
+def p_2019_OS_B1b():
+    return wahr(R(6, 100) * 100 < 60)
+
+def p_2019_OS_B1c():
+    return genau(R(60 + 30, 360), R(3, 12))
+
+def p_2019_OS_B1d():
+    w = {"4³": 4**3, "8⁴": 8**4, "2⁸": 2**8}
+    return wahr(max(w, key=w.get) == "8⁴" and list(w.values()) == [64, 4096, 256], w)
+
+def p_2019_OS_B1e():
+    return genau(expand((a + b) * c) - (a * c + b * c), 0)
+
+def p_2019_OS_B1f():
+    return genau(4 + 4, 8)
+
+def p_2019_OS_B1g():
+    n = solve(Eq(R(4, 1) / x, R(2, 3)), x)[0]
+    return kette(genau(n, 6), genau(n - 4, 2))
+
+def p_2019_OS_B1i():
+    w = [R(97, 10), R(99, 10), R(96, 10), R(95, 10), R(98, 10), R(97, 10)]
+    return genau(max(w) - min(w), R(4, 10), " m")
+
+def p_2019_OS_B1j():
+    return genau(R(21, 10) * R(1, 10**4), R(21, 100000))
+
+def p_2019_OS_K2b():
+    return kette(genau(R(0 - 2, 1 - 0), -2), genau(R(-2 - (-2), 1), 0))
+
+def p_2019_OS_K2c():
+    f, g = -2 * x + 2, x + 2
+    return kette(genau(f.subs(x, 0), 2), genau(f.subs(x, 1), 0), genau(g.subs(x, 0), 2), genau(g.subs(x, -2), 0))
+
+def p_2019_OS_K2d():
+    return kette(genau(2**2 + 4**2, 20), naeh(sqrt(20), R(447, 100), tol=R(1, 100)), naeh(grad(atan(2)), R(634, 10), "°"))
+
+def p_2019_OS_K3a():
+    return kette(genau(9**2 - 4**2, 65), naeh(sqrt(65), R(806, 100), " m", tol=R(1, 100)))
+
+def p_2019_OS_K3b():
+    return naeh(grad(acos(R(4, 9))), R(636, 10), "°")
+
+def p_2019_OS_K3c():
+    return naeh(9 * sin(gr(86 - (90 - 64))) / sin(gr(80)), R(79, 10), " m")
+
+def p_2019_OS_K4b():
+    return genau(3 * R(15, 10) * R(12, 10), R(54, 10), " m²")
+
+def p_2019_OS_K4c():
+    g = R(1, 2) * R(15, 10) * R(13, 10)
+    v = g * R(12, 10)
+    return kette(genau(g, R(975, 1000), " m²"), naeh(v, R(117, 100), " m³", tol=R(1, 200)),
+                 genau(200 + R(10, 100) * R(12, 10) * 1000, 320, " kg"), naeh(200 + R(10, 100) * v * 1000, 317, " kg", tol=1))
+
+def p_2019_OS_K5a():
+    return kette(genau(R(95, 100) * 1200 - R(72, 100) * 1200, 276), genau(R(23, 100) * 1200, 276))
+
+def p_2019_OS_K5b():
+    return wahr(R(3, 4) * 100 != 81 and R(3, 4) * 100 == 75)
+
+def p_2019_OS_K5c():
+    return naeh(R(36, 2), 18, " Jahre", tol=1)
+
+def p_2019_OS_K6a():
+    return kette(genau(R(3, 20), R(3, 20)), genau(R(3, 20) * 100, 15, " %"))
+
+def p_2019_OS_K6b():
+    p = R(4, 20) * R(3, 19) * R(2, 18)
+    return kette(genau(1 - R(4, 20), R(16, 20)), genau(R(3, 18), R(3, 18)), genau(p, R(24, 6840)),
+                 wahr(p < R(1, 100), N(p)))
+
+def p_2019_OS_K6c():
+    bl, ge = R(6, 20) * R(5, 19) * R(4, 18), R(3, 20) * R(2, 19) * R(1, 18)
+    return kette(genau(bl, R(1, 57)), genau(ge, R(1, 1140)), genau(bl / ge, 20))
+
+def p_2019_OS_K7a():
+    return kette(genau(10 * R(104, 100)**2, R(10816, 1000), " kg"), naeh(10 * R(104, 100)**5, R(12167, 1000), " kg", tol=R(1, 1000)))
+
+def p_2019_OS_K7c():
+    f = 10 * R(104, 100)**x
+    d = [f.subs(x, k + 1) - f.subs(x, k) for k in range(3)]
+    return wahr(f.subs(x, 0) == 10 and d[0] < d[1] < d[2], d)
+
+
 # ---------- Ausführung
 
 def alle():

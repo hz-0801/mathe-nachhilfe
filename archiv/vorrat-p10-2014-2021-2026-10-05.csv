@@ -157,3 +157,32 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2018-OS-K7a;12,5 %;;Prozentsatz|Anteil|Grundwert;;;ok
 2018-OS-K7b;nein, P = 2/14 = 1/7 ≈ 14,3 %, nicht 2/16;noch 14 Pfannkuchen, 2 mit Senf;ohne Zurücklegen|Laplace-Wahrscheinlichkeit|Grundmenge|Begründen;;;ok
 2018-OS-K7c;(S | M), (M | S), (S | S) | 91/120 ≈ 0,758 | beide Pfannkuchen mit derselben Füllung;14/16 · 13/15 = 182/240;zweistufig|ohne Zurücklegen|Ergebnismenge|Pfadregel|Ereignis;Zählen und Kombinatorik|Brüche und Dezimalzahlen;;ok
+2019-OS-B1a;β = 35°;;Scheitelwinkel|Dreieck|Innenwinkel;;;nicht rechenbar
+2019-OS-B1b;0,06 m < 60 cm;;Meter|Zentimeter|Größen vergleichen;;;ok
+2019-OS-B1c;3/12;;Kreis|Kreisausschnitt|Anteil|Bruch;;;ok
+2019-OS-B1d;8⁴;;Potenz|Zahlen vergleichen;;;ok
+2019-OS-B1e;A = (a + b) · c;;Rechteck|zusammengesetzte Figur|Flächeninhalt|Term;Terme umformen;;ok
+2019-OS-B1f;8;;quadratische Pyramide|Kante;;;ok
+2019-OS-B1g;2 weiße Kugeln;;Urne|Baumdiagramm|Anteil|Laplace-Wahrscheinlichkeit;Brüche und Dezimalzahlen;;ok
+2019-OS-B1h;sin α = r/t;;Sinus|Gegenkathete|Hypotenuse;;;nicht rechenbar
+2019-OS-B1i;0,4 m;;Spannweite|Maximum|Minimum;;;ok
+2019-OS-B1j;0,00021;;Zehnerpotenz|negativer Exponent|Dezimalzahl;;;ok
+2019-OS-K2a;x = −2;;Nullstelle|Graph ablesen|lineare Funktion;;;nicht rechenbar
+2019-OS-K2b;Anstieg −2: f | parallel zur x-Achse: h;Steigungsdreieck an f: 1 nach rechts, 2 nach unten;Steigung|parallel zur x-Achse|Graph zuordnen;;;ok
+2019-OS-K2c;f: y = −2x + 2 | g: y = x + 2 | h: y = −2;y-Achsenabschnitt 2 bei f und g;Funktionsgleichung|Steigung|y-Achsenabschnitt|zuordnen;;;ok
+2019-OS-K2d;BC = √20 ≈ 4,47 | β ≈ 63,4°;AB = 2, AC = 4 | BC² = 2² + 4² = 20 | tan β = 4 : 2 = 2;Koordinatensystem|Satz des Pythagoras|Tangens|Streckenlänge;Koordinaten und Zeichnen|Trigonometrie im rechtwinkligen Dreieck;;ok
+2019-OS-K3a;BC ≈ 8,06 m;BC² = 9² − 4² = 65;Satz des Pythagoras|Kathete|Hypotenuse;;;ok
+2019-OS-K3b;cos α = 4/9 ⇒ α ≈ 63,6° ≈ 64°;cos α ≈ 0,444;Kosinus|Ankathete|Hypotenuse|Nachweis;;;ok
+2019-OS-K3c;AD ≈ 7,9 m;∢ACB = 90° − 64° = 26° | ∢ACD = 86° − 26° = 60° | AD : sin 60° = 9 : sin 80°;Sinussatz|Teilwinkel|Winkelsumme|Viereck;Ebene Figuren und Winkel;2019-OS-K3b;ok
+2019-OS-K4a;Netz mit drei Rechtecken und zwei gleichseitigen Dreiecken | a = 1,50 m;;Netz|Prisma|gleichseitiges Dreieck;;;nicht rechenbar
+2019-OS-K4b;5,4 m²;eine Seitenfläche 1,5 m · 1,2 m = 1,8 m²;Mantelfläche|Rechteck|Seitenfläche;;;ok
+2019-OS-K4c;0,975 m² | V = 0,975 · 1,2 ≈ 1,17 m³ ≈ 1,2 m³ | ≈ 320 kg;A = ½ · 1,5 · 1,3 | 10 % von 1,2 m³ = 0,12 m³ ≙ 120 kg;Dreiecksfläche|Prisma|Volumen|Masse|Prozent;Prozentrechnung|Flächeninhalt und Umfang;;ok
+2019-OS-K5a;276 Jugendliche;0,95 · 1200 = 1140 | 0,72 · 1200 = 864;Prozentwert|Differenz|Anzahl;;;ok
+2019-OS-K5b;Aussage 1 falsch | etwa vier Fünftel (81 %) der Mädchen nutzen einen Fernseher;drei Viertel = 75 %;Anteil|Prozent|Tabelle|Aussage korrigieren;Brüche und Dezimalzahlen;;ok
+2019-OS-K5c;z. B. „extrem abnehmen“ falsch: von 44 % auf 36 %, abgeschnittene Achse übertreibt;8 Prozentpunkte in 4 Jahren;Liniendiagramm|abgeschnittene Achse|Trend|Aussage korrigieren;Prozentrechnung;;ok
+2019-OS-K6a;3/20 = 15 %;;Laplace-Wahrscheinlichkeit|Anteil;Prozentrechnung;;ok
+2019-OS-K6b;16/20 | 3/18 | Aussage 1 falsch, 2 falsch, 3 wahr;fetter Pfad = dreimal rot | 4/20 · 3/19 · 2/18 ≈ 0,35 %;Baumdiagramm|ohne Zurücklegen|Gegenwahrscheinlichkeit|Pfadregel;;;ok
+2019-OS-K6c;1/57 ≈ 1,75 % gegen 1/1140 ≈ 0,09 % ⇒ 20-mal so hoch, Behauptung falsch;6/20 · 5/19 · 4/18 = 1/57 | 3/20 · 2/19 · 1/18 = 1/1140;ohne Zurücklegen|Pfadregel|Vergleich;Brüche und Dezimalzahlen;;ok
+2019-OS-K7a;10 kg | 10,816 kg | ≈ 12,167 kg;Wachstumsfaktor 1,04 | 10,4 · 1,04 = 10,816;Wachstumsfaktor|Wertetabelle|Potenz;Prozentrechnung|Potenzen und Wurzeln;;ok
+2019-OS-K7b;10: Anfangsmasse in kg | 1,04: Wachstumsfaktor, +4 % je Woche | x: Zeit in Wochen;;Exponentialfunktion|Anfangswert|Wachstumsfaktor|Variable deuten;;;nicht rechenbar
+2019-OS-K7c;Graph 1 nein (linear) | Graph 2 ja (Start 10 kg, Zuwächse wachsen) | Graph 3 nein (Start bei 0 kg);Startwert 10 kg | gleicher Prozentsatz ⇒ wachsende Zuwächse;exponentiell|linear|Startwert|Graph zuordnen|Begründen;;;ok
