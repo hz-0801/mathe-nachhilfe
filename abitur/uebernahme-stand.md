@@ -17,3 +17,4 @@ weiter, der unten nicht als „fertig“ steht.
 - Teil 5, Teilstück 2017-be-gk fertig: 33 Zeilen über abitur/vorrat-abi-gk-2017-2021.py → .csv, sympy (abitur/vorrat-sympy-abi-gk-2017-2021.py) ok 32, nicht rechenbar 1; Übernahme mit --nur 2017-be-gk --streng; Selbstprüfung abi-bau.py bestanden. 2026-10-05T15:42Z
 - Teil 5, Teilstück 2018-be-gk fertig: 36 Zeilen, sympy ok 33, nicht rechenbar 3; Beitabelle jetzt in Katalogreihenfolge sortiert; Selbstprüfung bestanden. 2026-10-05T15:46Z
 - Teil 5, Teilstück 2019-be-gk fertig: 45 Zeilen, sympy ok 41, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:50Z
+- Teil 5, Teilstück 2020-be-gk fertig: 51 Zeilen, sympy ok 47, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:53Z

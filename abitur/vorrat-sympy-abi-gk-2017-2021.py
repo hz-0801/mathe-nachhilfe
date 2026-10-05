@@ -995,6 +995,358 @@ def _():
     return ok(w == (120, 10, 50) and p == R(1, 2), (w, p))
 
 
+# ================================ 2020-be-gk =================================
+@pruef("2020-be-gk-A1.1a")
+def _():
+    return ok(diff(2 * x**4 - x + 1, x) == 8 * x**3 - 1, diff(2 * x**4 - x + 1, x))
+
+
+nr("2020-be-gk-A1.1b", "Konstante aus der Verschiebung abgelesen (C = 4, −2)")
+
+
+@pruef("2020-be-gk-A1.2a")
+def _():
+    f = a * x**2 + b * x + c
+    loes = solve([f.subs(x, 0), f.subs(x, 2) - 6, diff(f, x).subs(x, 2) - 4], [a, b, c])
+    return ok(loes == {a: R(1, 2), b: 2, c: 0}, loes)
+
+
+@pruef("2020-be-gk-A1.3a")
+def _():
+    A, B, C = vec(3, 4, -1), vec(4, 6, 0), vec(1, 0, -3)
+    w = (list(B - A), list(C - A))
+    return ok(C - A == -2 * (B - A) and w[0] == [1, 2, 1], w)
+
+
+@pruef("2020-be-gk-A1.3b")
+def _():
+    A, B = vec(3, 4, -1), vec(4, 6, 0)
+    D = A - (B - A)
+    return ok(list(D) == [2, 2, -2] and (D - A).norm() == (B - A).norm(), list(D))
+
+
+@pruef("2020-be-gk-A1.4a")
+def _():
+    d = vec(4, 1, 5) - vec(7, -3, 5)
+    return ok(list(d) == [-3, 4, 0] and d.norm() == 5, list(d))
+
+
+@pruef("2020-be-gk-A1.4b")
+def _():
+    A, B = vec(7, -3, 5), vec(4, 1, 5)
+    h = 2 * 10 / (B - A).norm()
+    M = (A + B) / 2
+    C = M + vec(0, 0, h)
+    w = (h, list(M), list(C), (C - A).norm() == (C - B).norm(), R(1, 2) * 5 * h)
+    return ok(h == 4 and list(M) == [R(11, 2), -1, 5] and list(C) == [R(11, 2), -1, 9] and w[3] and w[4] == 10, w)
+
+
+@pruef("2020-be-gk-A1.5a")
+def _():
+    w = R(3, 5) * R(2, 4) + R(2, 5) * R(3, 4)
+    return ok(w == R(3, 5), w)
+
+
+@pruef("2020-be-gk-A1.5b")
+def _():
+    w = R(2, 5) + R(3, 5) * R(2, 4) * R(2, 3)
+    return ok(w == R(3, 5) and w > R(1, 2), w)
+
+
+f20 = (6 * x - 3) * exp(-x)
+
+
+@pruef("2020-be-gk-B2.1a")
+def _():
+    w = (solve(f20, x), f20.subs(x, 0))
+    return ok(w == ([R(1, 2)], -3), w)
+
+
+@pruef("2020-be-gk-B2.1b")
+def _():
+    from sympy import limit, oo
+    w = (limit(f20, x, oo), limit(f20, x, -oo))
+    return ok(w == (0, -oo), w)
+
+
+@pruef("2020-be-gk-B2.1c")
+def _():
+    f1 = diff(f20, x)
+    st = solve(f1, x)
+    w = (simplify(f1 - (-6 * x + 9) * exp(-x)), st, f20.subs(x, R(3, 2)), float(f20.subs(x, R(3, 2))))
+    return ok(w[0] == 0 and st == [R(3, 2)] and w[2] == 6 * exp(-R(3, 2)) and near(w[3], 1.34, 0.005), w)
+
+
+nr("2020-be-gk-B2.1d", "Begründung aus der Skizze")
+nr("2020-be-gk-B2.1e", "Skizze")
+
+
+@pruef("2020-be-gk-B2.1f")
+def _():
+    m = diff(f20, x).subs(x, 1)
+    f1v = f20.subs(x, 1)
+    n0 = f1v - m * 1
+    w = (m, f1v, n0, float(m), grad(atan(m)))
+    return ok(m == 3 / E and f1v == 3 / E and n0 == 0 and near(w[3], 1.104, 5e-4) and near(w[4], 47.8, 0.05), w)
+
+
+@pruef("2020-be-gk-B2.1g")
+def _():
+    d = f20 - diff(f20, x)
+    st = solve(diff(d, x), x)
+    w = (simplify(d - (12 * x - 12) * exp(-x)), simplify(diff(d, x) - (24 - 12 * x) * exp(-x)), st, d.subs(x, 2), float(d.subs(x, 2)))
+    return ok(w[0] == 0 and w[1] == 0 and st == [2] and w[3] == 12 * exp(-2) and near(w[4], 1.62, 0.005), w)
+
+
+@pruef("2020-be-gk-B2.1h")
+def _():
+    F = (-6 * x - 3) * exp(-x)
+    w = (simplify(diff(F, x) - f20), F.subs(x, 0), 17 - F.subs(x, 0))
+    return ok(w == (0, -3, 20), w)
+
+
+@pruef("2020-be-gk-B2.1i")
+def _():
+    F = (-6 * x - 3) * exp(-x)
+    A = F.subs(x, 5) - F.subs(x, 1)
+    w = (simplify(A - (-33 * exp(-5) + 9 * exp(-1))), float(A), float(F.subs(x, 5)), float(F.subs(x, 1)))
+    return ok(w[0] == 0 and near(w[1], 3.09, 0.005) and near(w[2], -0.222, 5e-4) and near(w[3], -3.311, 5e-4), w)
+
+
+@pruef("2020-be-gk-B2.1j")
+def _():
+    f1, f2 = diff(f20, x), diff(f20, x, 2)
+    st = solve(f1 - f2, x)
+    return ok(simplify(f2 - (6 * x - 15) * exp(-x)) == 0 and st == [2], st)
+
+
+f20b = -R(1, 100) * (x - 8) * (x + 1)**2
+
+
+@pruef("2020-be-gk-B2.2a")
+def _():
+    from sympy import roots
+    return ok(roots(f20b, x) == {8: 1, -1: 2}, roots(f20b, x))
+
+
+@pruef("2020-be-gk-B2.2b")
+def _():
+    from sympy import limit, oo
+    w = (expand(f20b), limit(f20b, x, oo), limit(f20b, x, -oo))
+    return ok(w[0] == -R(1, 100) * x**3 + R(3, 50) * x**2 + R(3, 20) * x + R(2, 25) and w[1] == -oo and w[2] == oo, w)
+
+
+@pruef("2020-be-gk-B2.2c")
+def _():
+    f1, f2 = diff(f20b, x), diff(f20b, x, 2)
+    st = sorted(solve(f1, x))
+    w = (expand(f1), st, f2.subs(x, -1), f2.subs(x, 5), f20b.subs(x, -1), f20b.subs(x, 5))
+    return ok(w[0] == -R(3, 100) * x**2 + R(3, 25) * x + R(3, 20) and st == [-1, 5] and w[2] == R(9, 50) and w[3] == -R(9, 50)
+              and w[4] == 0 and w[5] == R(27, 25), w)
+
+
+@pruef("2020-be-gk-B2.2d")
+def _():
+    w = (f20b.subs(x, -2), diff(f20b, x).subs(x, 2), solve(diff(f20b, x, 2), x))
+    return ok(w == (R(1, 10), R(27, 100), [2]), w)
+
+
+nr("2020-be-gk-B2.2e", "Begründung über f″, keine Zahl")
+
+
+@pruef("2020-be-gk-B2.2f")
+def _():
+    m = diff(f20b, x).subs(x, 6)
+    y6 = f20b.subs(x, 6)
+    n0 = y6 - 6 * m
+    x0 = solve(m * x + n0, x)[0]
+    w = (m, y6, n0, x0, float(x0))
+    return ok(m == -R(21, 100) and y6 == R(49, 50) and n0 == R(224, 100) and x0 == R(32, 3) and near(w[4], 10.67, 0.005), w)
+
+
+@pruef("2020-be-gk-B2.2g")
+def _():
+    tri = R(1, 2) * (R(32, 3) - 6) * R(49, 50)
+    integ = integrate(f20b, (x, 6, 8))
+    q = tri - integ
+    w = (float(tri), float(integ), float(q), float(5 * q))
+    return ok(near(w[0], 2.29, 0.005) and near(w[1], 1.18, 0.005) and near(w[2], 1.107, 0.001) and near(w[3], 5.53, 0.005), w)
+
+
+@pruef("2020-be-gk-B2.2h")
+def _():
+    st = sorted(solve(diff(f20b, x) + R(27, 100), x))
+    w = (st, [float(v) for v in st], diff(f20b, x).subs(x, 2))
+    return ok(simplify(st[1] - (2 + sqrt(18))) == 0 and near(w[1][1], 6.24, 0.005) and near(w[1][0], -2.24, 0.005) and w[2] == R(27, 100), w)
+
+
+@pruef("2020-be-gk-B3.1a")
+def _():
+    nv = vec(-3, 9, 0).cross(vec(-3, 0, 4))
+    w = (list(nv), vec(12, 4, 9).dot(vec(3, 0, 0)))
+    return ok(list(nv) == [36, 12, 27] and w[1] == 36, w)
+
+
+@pruef("2020-be-gk-B3.1b")
+def _():
+    w = (R(36, 12), R(36, 4), R(36, 9))
+    return ok(w == (3, 9, 4), w)
+
+
+@pruef("2020-be-gk-B3.1c")
+def _():
+    d = 36 / sqrt(144 + 16 + 81)
+    return ok(d == 36 / sqrt(241) and near(d, 2.32, 0.005), float(d))
+
+
+@pruef("2020-be-gk-B3.1d")
+def _():
+    r_, s_ = symbols('r_ s_')
+    P = vec(3, 0, 0) + r_ * vec(-3, 9, 0) + s_ * vec(-3, 0, 4)
+    gl = 6 * P[0] + 2 * P[1] + 9 * P[2] - 18
+    kol = solve(list(vec(12, 4, 9) - k * vec(6, 2, 9)), k)
+    w = (expand(gl), solve(gl, s_), kol)
+    return ok(expand(gl) == 18 * s_ and w[1] == [0] and kol == [], w)
+
+
+@pruef("2020-be-gk-B3.1e")
+def _():
+    w = (R(1, 2) * 3 * 9, R(1, 3) * R(27, 2) * 4)
+    return ok(w == (R(27, 2), 18), w)
+
+
+@pruef("2020-be-gk-B3.1f")
+def _():
+    r_ = symbols('r_')
+    P = vec(3, 0, 0) + r_ * vec(-3, 9, 0)
+    PC = vec(0, 0, 4) - P
+    r0 = solve(PC.dot(vec(-3, 9, 0)), r_)[0]
+    w = (list(PC), expand(PC.dot(vec(-3, 9, 0))), r0, list(P.subs(r_, r0)))
+    return ok(r0 == R(1, 10) and list(P.subs(r_, r0)) == [R(27, 10), R(9, 10), 0], w)
+
+
+E20, K20, L20 = vec(0, 0, 6), vec(2, 10, 6), vec(10, 0, 4)
+
+
+@pruef("2020-be-gk-B3.2a")
+def _():
+    EK, EL, KL = K20 - E20, L20 - E20, L20 - K20
+    w = (EK.dot(EK), EL.dot(EL), KL.dot(KL), float(sqrt(104)), float(sqrt(168)))
+    return ok(w[0] == w[1] == 104 and w[2] == 168 and near(w[3], 10.2, 0.05) and near(w[4], 13.0, 0.05), w)
+
+
+@pruef("2020-be-gk-B3.2b")
+def _():
+    LE, LK = E20 - L20, K20 - L20
+    nv = LE.cross(LK)
+    w = (list(LE), list(LK), list(nv), [vec(5, -1, 25).dot(P) for P in (E20, K20, L20)])
+    return ok(list(LE) == [-10, 0, 2] and list(LK) == [-8, 10, 2] and list(nv) == [-20, 4, -100] and w[3] == [150, 150, 150], w)
+
+
+@pruef("2020-be-gk-B3.2c")
+def _():
+    nv = vec(5, -1, 25)
+    z0 = solve(nv.dot(vec(0, 10, z)) - 50, z)[0]
+    w = (nv.dot(vec(10, 0, 0)), z0)
+    return ok(w == (50, R(12, 5)), w)
+
+
+@pruef("2020-be-gk-B3.2d")
+def _():
+    nv = vec(5, -1, 25)
+    d = Abs(150 - 50) / sqrt(nv.dot(nv))
+    w = (nv.dot(nv), float(d), (vec(10, 0, 0) - L20).norm())
+    return ok(nv.dot(nv) == 651 and near(w[1], 3.92, 0.005) and w[2] == 4 and w[1] < 4, w)
+
+
+@pruef("2020-be-gk-B3.2e")
+def _():
+    x1 = solve(5 * x - 0 + 25 * R(8, 10) - 50, x)[0]
+    x2 = solve(5 * x - 10 + 25 * R(8, 10) - 50, x)[0]
+    A = (10 - x1 + 10 - x2) / 2 * 10
+    return ok(x1 == 6 and x2 == 8 and A == 30, (x1, x2, A))
+
+
+@pruef("2020-be-gk-B4.1a")
+def _():
+    w = (float(binom_p(10, R(1, 3), 4, 4)), float(R(2, 3)**10))
+    return ok(near(w[0], 0.228, 5e-4) and near(w[1], 0.017, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.1b")
+def _():
+    w = (R(1, 3) + R(2, 3) * R(1, 3) + R(2, 3)**2 * R(1, 3), 1 - R(2, 3)**3)
+    return ok(w[0] == w[1] == R(19, 27) and near(w[0], 0.704, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.1c")
+def _():
+    g_ = math.log(0.05) / math.log(2 / 3)
+    return ok(near(g_, 7.39, 0.005) and (2 / 3)**7 > 0.05 >= (2 / 3)**8, g_)
+
+
+@pruef("2020-be-gk-B4.1d")
+def _():
+    w = R(1, 3) * R(1, 3) + R(1, 6) * R(1, 6)
+    return ok(w == R(5, 36) and near(w, 0.139, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.1e")
+def _():
+    w = (6 * R(1, 6) * R(1, 3) * R(1, 6), R(1, 3)**3)
+    return ok(w == (R(1, 18), R(1, 27)) and w[0] + w[1] == R(5, 54), w)
+
+
+@pruef("2020-be-gk-B4.1f")
+def _():
+    w = (6 * R(1, 6) * R(1, 6) * R(1, 3), R(1, 6)**3)
+    return ok(w == (R(1, 18), R(1, 216)) and w[0] + w[1] == R(13, 216) and R(5, 54) == R(20, 216), w)
+
+
+@pruef("2020-be-gk-B4.2a")
+def _():
+    k16 = float(binom_p(50, R(1, 3), 0, 16))
+    return ok(near(k16, 0.4868, 5e-5) and near(1 - k16, 0.513, 5e-4), (k16, 1 - k16))
+
+
+@pruef("2020-be-gk-B4.2b")
+def _():
+    w = float(binom_p(50, R(1, 3), 13, 14))
+    return ok(near(w, 0.158, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.2c")
+def _():
+    w = (solve(a + 4 * a - 50, a), float(binom_p(50, R(1, 3), 10, 10)))
+    return ok(w[0] == [10] and near(w[1], 0.016, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.2d")
+def _():
+    w = (50 * R(1, 3), float(binom_p(50, R(1, 3), 16, 16)), float(binom_p(50, R(1, 3), 17, 17)), float(binom_p(50, R(1, 3), 15, 15)))
+    return ok(w[0] == R(50, 3) and max(w[1], w[2]) > w[3], w)
+
+
+@pruef("2020-be-gk-B4.2e")
+def _():
+    w = (1 - R(105, 1000), float(R(1, 3) * R(35, 1000)))
+    return ok(w[0] == R(895, 1000) and near(w[1], 0.0117, 5e-5), w)
+
+
+@pruef("2020-be-gk-B4.2f")
+def _():
+    pu = R(1, 3) * R(35, 1000) + R(2, 3) * R(105, 1000)
+    pnu = R(2, 3) * R(105, 1000)
+    w = (float(pu), pnu, float(pnu / pu))
+    return ok(near(w[0], 0.0817, 5e-5) and pnu == R(7, 100) and near(w[2], 0.857, 5e-4), w)
+
+
+@pruef("2020-be-gk-B4.2g")
+def _():
+    w = solve(5 * a * R(4, 100) - (1 - a) * R(1, 10), a)
+    return ok(w == [R(1, 3)], w)
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
