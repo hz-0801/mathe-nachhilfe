@@ -216,6 +216,20 @@ KAPITEL['koerper']=dict(eintraege=[KO,PK],stufen=[
  'Netz mit Maßen skizzieren':('nein','4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall'),
  'Körper im Schrägbild skizzieren':('nein','2 echte (2015, 2024)'),
 })
+FL='flaechen';KR='kreis'
+KAPITEL['flaechen']=dict(eintraege=[FL,KR],stufen=[
+ ('Formel oder Term zur Figur',['2022-OS-B1e','2024-OS-B1c','2025-OS-B1i','2019-OS-B1e','2014-OS-B1g'],_i(FL,'e1-k2-s8','e3-k1-s6','e1-k5-s4','e3-k4-s4')+_i(KR,'e2-k2-s1')),
+ ('Grundfigur berechnen',['2026-FOR-B1h','2024-OS-K4a','2023-OS-K2b','2025-OS-K2b','2016-OS-K3b','2015-OS-K5d','2015-OS-K6c','2019-OS-K4c'],_i(FL,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e4-k1-s1','e4-k1-s2','e4-k1-s4','e4-k1-s5')+_i(KR,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(KR,'e2-k1-s8')),
+ ('rückwärts: Seite aus Fläche',['2023-OS-B1c','2020-OS-B1d','2018-OS-B1f','2020-OS-K7b','2014-OS-K5c','2014-OS-K5d'],_i(FL,'e1-k2-s5','e1-k2-s6','e1-k2-s7','e2-k1-s5','e3-k1-s5','e4-k1-s3','e4-k3-s1')+_i(KR,'e1-k2-s4','e1-k2-s5','e2-k1-s6')+_a(FL,'e1-k2-s9','e3-k1-s7','e4-k1-s6')),
+ ('Figur erst zerlegen oder Strecke erst berechnen',['2022-OS-K5e','2023-OS-K2c','2025-OS-B1e','2018-OS-K6a','2017-OS-K3a','2017-OS-K3b'],_i(FL,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6','e1-k3-s1','e4-k2-s1')+_i(KR,'e3-k1-s5','e3-k1-s6','e3-k1-s8')+_a(FL,'e5-k1-s7')+[(KR,'e3-k1-s11',['2025-OS-B1e'])]),
+ ('Anteil in Prozent (Verschnitt)',['2023-OS-K5c'],_a(FL,'e5-k3-s1')),
+],kern={
+ 'Formel oder Term zur Figur':('ja','5 echte, Basisteil 2014, 2019, 2022, 2024, 2025 (Niveau I), Sprossen in jeder Figurenkette'),
+ 'Grundfigur berechnen':('ja','8 echte 2015–2026 (Niveau I), Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis mit Grundfall'),
+ 'rückwärts: Seite aus Fläche':('ja','6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette'),
+ 'Figur erst zerlegen oder Strecke erst berechnen':('ja','6 echte (2017 zweimal, 2018, 2022, 2023, 2025), Bank-Kette Zusammengesetzte Figuren mit Grundfall'),
+ 'Anteil in Prozent (Verschnitt)':('nein','1 echte (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):

@@ -15,11 +15,11 @@ Kapitel ohne „fertig“ weiter.
 | Daten | fertig | 10 (5) | 0 | 0 | 0 | – | siehe git log |
 | Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | siehe git log |
 | Körper | fertig | 8 (2) | 0 | 0 | 0 | – | siehe git log |
-| Flächen | offen | | | | | | |
+| Flächen | fertig | 5 (4) | 2 | 0 | 2 | e2035eb | siehe git log |
 | Wachstum | offen | | | | | | |
 | Gleichungssysteme | offen | | | | | | |
 
-Summe neu bisher: 2.
+Summe neu bisher: 4.
 
 ## Notizen je Kapitel
 
@@ -52,3 +52,8 @@ Summe neu bisher: 2.
   zugeordnet: Kantenzahl (2019-OS-B1f), Packungsanzahl (2020-OS-K5c),
   Term zu Körper (2017-OS-K3c); 2019-OS-K4c (Dreiecksfläche als
   Grundfläche) unter Flächen.
+- Flächen: neu 2 für Anteil in Prozent (Verschnitt) in flaechen
+  e5-k3-s1 (v4 Kontext Glas, Struktur Trapez; v5 Kontext Fotopapier,
+  Struktur Rand). Die 5 Zusatzaufgaben aus msa/prozent-zusatz.jsonl
+  (dieselbe Stufe unter Prozent) zählen hier nicht mit. 19-OS-K4b
+  (Mantelfläche Prisma) keiner Stufe zugeordnet.
