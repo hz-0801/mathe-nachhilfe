@@ -14,7 +14,7 @@ Kapitel ohne „fertig“ weiter.
 | Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | siehe git log |
 | Daten | fertig | 10 (5) | 0 | 0 | 0 | – | siehe git log |
 | Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | siehe git log |
-| Körper | offen | | | | | | |
+| Körper | fertig | 8 (2) | 0 | 0 | 0 | – | siehe git log |
 | Flächen | offen | | | | | | |
 | Wachstum | offen | | | | | | |
 | Gleichungssysteme | offen | | | | | | |
@@ -48,3 +48,7 @@ Summe neu bisher: 2.
   zufallsexperimente-und-pfadregeln ist Sek II. Keiner Stufe zugeordnet:
   Anzahl der Anordnungen und Ziffern (2015-OS-K5a, 2016-OS-K5a/b,
   2017-OS-K6b).
+- Körper: alle Stufen schon voll, keine neue Aufgabe. Keiner Stufe
+  zugeordnet: Kantenzahl (2019-OS-B1f), Packungsanzahl (2020-OS-K5c),
+  Term zu Körper (2017-OS-K3c); 2019-OS-K4c (Dreiecksfläche als
+  Grundfläche) unter Flächen.

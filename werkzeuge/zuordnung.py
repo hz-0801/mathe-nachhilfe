@@ -196,6 +196,26 @@ KAPITEL['wahrscheinlichkeit']=dict(eintraege=[WK],stufen=[
  'Gegenereignis':('nein','1 echte (2026)'),
  'Zufallsgerät entwerfen':('nein','4 echte (2018, 2019, 2025, 2026), aber Niveau II/III und nur Sprossen ohne eigene Kette mit Grundfall'),
 })
+KO='koerper';PK='pyramide-kegel-kugel'
+KAPITEL['koerper']=dict(eintraege=[KO,PK],stufen=[
+ ('Volumen direkt',['2026-FOR-B1f','2022-OS-K2b','2023-OS-K5b','2026-FOR-K2a','2021-OS-K4a','2016-OS-K3c','2014-OS-K5a'],_i(KO,'e2-k1-s1','e2-k1-s2','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6','e4-k2-s1','e4-k2-s2','e4-k2-s3','e4-k2-s4')+_i(PK,'e1-k5-s1','e1-k5-s2','e1-k5-s3','e1-k5-s4','e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')+_a(KO,'e2-k1-s10','e4-k2-s13')+[(PK,'e3-k1-s18',['2016-OS-K3c'])]),
+ ('rückwärts: Radius oder Höhe aus Volumen',['2022-OS-K2d','2023-OS-K5d'],_i(KO,'e2-k1-s6','e3-k1-s10','e4-k2-s10','e4-k2-s11','e2-k3-s1')+_i(PK,'e1-k5-s13','e2-k2-s11','e2-k2-s12','e3-k1-s12')+_a(KO,'e4-k2-s15')),
+ ('Restvolumen',['2024-OS-K4c'],_a(KO,'e5-k1-s5','e5-k1-s11','e4-k2-s5')+_a(PK,'e3-k1-s13')),
+ ('Mantelfläche mit Kosten',['2026-FOR-K2b','2018-OS-K6b'],_i(KO,'e4-k2-s6','e4-k2-s7')+_i(PK,'e2-k2-s7','e2-k2-s8','e1-k5-s7')+_a(PK,'e2-k2-s13','e1-k5-s15')),
+ ('vergleichen und urteilen',['2026-FOR-K2d','2021-OS-K4b'],_a(KO,'e4-k2-s14','e4-k3-s2')+_a(PK,'e2-k2-s14','e2-k2-s16','e3-k1-s15','e1-k5-s14','e2-k3-s2')),
+ ('Netz erkennen',['2022-OS-K2a','2016-OS-B1j','2018-OS-B1i','2017-OS-B1c'],_a(KO,'e1-k1-s1','e1-k1-s3','e1-k1-s4','e1-k5-s3','e1-k5-s4','e4-k2-s8')+_a(PK,'e2-k2-s10')+[(KO,'e1-k1-s10',['2016-OS-B1j'])]),
+ ('Netz mit Maßen skizzieren',['2023-OS-K5a','2020-OS-K5a','2019-OS-K4a','2014-OS-K5b'],_a(KO,'e1-k1-s5','e3-k1-s9','e3-k2-s4','e4-k3-s4')+_a(PK,'e1-k5-s11')),
+ ('Körper im Schrägbild skizzieren',['2024-OS-K4b','2015-OS-K6b'],_a(KO,'e1-k1-s6','e1-k1-s7','e1-k4-s1')+_a(PK,'e1-k5-s12','e2-k2-s9','e1-k6-s3','e2-k3-s3','e3-k1-s6')),
+],kern={
+ 'Volumen direkt':('ja','7 echte 2014–2026, fast jedes Jahr (Niveau I), Bank-Ketten Quader, Prisma, Zylinder, Pyramide, Kegel, Kugel mit Grundfall'),
+ 'rückwärts: Radius oder Höhe aus Volumen':('nein','2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall'),
+ 'Restvolumen':('nein','1 echte (2024)'),
+ 'Mantelfläche mit Kosten':('nein','2 echte (2018, 2026)'),
+ 'vergleichen und urteilen':('nein','2 echte (2021, 2026), Niveau III'),
+ 'Netz erkennen':('ja','4 echte, Basisteil 2016–2018, Kontext 2022 (Niveau I), Bank-Kette Körper und Netze mit Grundfall'),
+ 'Netz mit Maßen skizzieren':('nein','4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall'),
+ 'Körper im Schrägbild skizzieren':('nein','2 echte (2015, 2024)'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):
