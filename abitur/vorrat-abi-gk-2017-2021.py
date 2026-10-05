@@ -831,6 +831,276 @@ z("2020-be-gk-B4.2g",
   "Gleichungen lösen")
 
 
+# ------------------------------------------------------------- 2021-be-gk
+z("2021-be-gk-A1.1a",
+  "II nicht: f(0,5) = −0,375 < 0, Graph II dort positiv; III nicht: Steigung von f auf [−0,5; 0,5] nicht konstant",
+  "f(0,5) = −0,375|Nullstellen −1, 0, 1",
+  "Graph zuordnen|Funktionswert prüfen|Steigung|Begründen",
+  "Ableitung und Änderungsrate")
+z("2021-be-gk-A1.1b",
+  "A = 1/2",
+  "Nullstellen −1, 0, 1|Punktsymmetrie ⇒ 2 · ∫ von −1 bis 0 (x³ − x) dx|[1/4 x⁴ − 1/2 x²] von −1 bis 0 = 1/4",
+  "Fläche zwischen Graph und x-Achse|Punktsymmetrie|bestimmtes Integral|Nullstellen",
+  "Stammfunktion und Hauptsatz|Funktionsklassen und Eigenschaften")
+z("2021-be-gk-A1.2a",
+  "f′(x_A) > 0, f′(x_B) = 0 (Hochpunkt), f′(x_C) < 0",
+  "",
+  "Vorzeichen der Ableitung|Monotonie|Graph lesen")
+z("2021-be-gk-A1.2b",
+  "falsch: I₁ > 0 (Graph über der x-Achse), I₂ < 0 (überwiegend unter der x-Achse) ⇒ I₁ > I₂",
+  "",
+  "Vorzeichen des Integrals|Flächenbilanz|Graph lesen")
+z("2021-be-gk-A1.3a",
+  "f′(2) = 12 − 12 = 0, f″(2) = 6 ≠ 0 ⇒ Extremstelle (Tiefpunkt)",
+  "f′(x) = 3x² − 6x|f″(x) = 6x − 6",
+  "Extremstelle nachweisen|notwendige und hinreichende Bedingung",
+  "Ableitungsregeln")
+z("2021-be-gk-A1.3b",
+  "A′(1) = 4 − 9 + 4 = −1 ≠ 0 ⇒ x_max ≠ 1",
+  "A(x) = x · f(x) = x⁴ − 3x³ + 4x|A′(x) = 4x³ − 9x² + 4",
+  "Zielfunktion|notwendige Bedingung|Rechteck unter einem Graphen",
+  "Ableitungsregeln")
+z("2021-be-gk-A1.4a",
+  "F: −5x + 2y + 8z = 35",
+  "n · p = −5 + 16 + 24 = 35",
+  "Normalenform|Koordinatenform|Skalarprodukt",
+  "Vektoren und Rechenoperationen")
+z("2021-be-gk-A1.4b",
+  "2 · 1 + (−4 + 8r) + 4 · (2 − 2r) = 6 für alle r ⇒ s ⊂ E",
+  "",
+  "Gerade in Ebene|Punktprobe mit Parameter|Schnittgerade",
+  "Geraden")
+z("2021-be-gk-A1.4c",
+  "z. B. H: 4y − z = 0 (Normalenvektor (0 | 4 | −1)); oder H: x = r · (2 | 1 | 4) + s · (−5 | 2 | 8)",
+  "Richtungsvektor von s (0 | 8 | −2) ⇒ n_H = (0 | 4 | −1)",
+  "Ebene senkrecht zu zwei Ebenen|Normalenvektor|Spannvektoren aus Normalenvektoren",
+  "Ebenen", "2021-be-gk-A1.4b")
+z("2021-be-gk-A1.5a",
+  "t = 2, s = 1 erfüllen alle drei Gleichungen ⇒ P ∈ E",
+  "1 + 3s = 4 ⇒ s = 1|2 + 2t = 6 ⇒ t = 2|3 + t − s = 4 stimmt",
+  "Punktprobe Parameterform|lineares Gleichungssystem",
+  "Gleichungen lösen|Ebenen")
+z("2021-be-gk-A1.5b",
+  "g: x = (4 | 6 | 4) + v · (3 | 2 | 0)",
+  "Richtungsvektor t · (0 | 2 | 1) + s · (3 | 0 | −1) mit z-Komponente 0 ⇒ t = s ⇒ (3 | 2 | 0)",
+  "Gerade in einer Ebene|parallel zur xy-Ebene|Linearkombination der Spannvektoren",
+  "Linearkombination und lineare Abhängigkeit|Lagebeziehungen", "2021-be-gk-A1.5a")
+z("2021-be-gk-A1.6a",
+  "36 gleich wahrscheinliche Paare, blau > rot in 5 + 4 + 3 + 2 + 1 = 15 Fällen ⇒ 15/36",
+  "",
+  "Laplace-Experiment|günstige Ergebnisse abzählen|zwei Würfel")
+z("2021-be-gk-A1.6b",
+  "E(X) = 0 · 15/36 + 1 · 6/36 + 2 · 15/36 = 1",
+  "P(X = 0) = 15/36, P(X = 1) = 6/36, P(X = 2) = 15/36",
+  "Erwartungswert|Wahrscheinlichkeitsverteilung|Zufallsgröße",
+  "Zufallsgrößen und Verteilungen", "2021-be-gk-A1.6a")
+z("2021-be-gk-A1.7a",
+  "P(W₂) = 6/10 · 5/9 + 4/10 · 6/9 = 54/90 = 3/5 = 60 %",
+  "",
+  "Ziehen ohne Zurücklegen|Pfadregeln|zwei Pfade")
+z("2021-be-gk-A1.7b",
+  "gleiche Chance: P(W₁) = 6/10 = P(W₃) = 6/10 · 5/9 · 4/8 + 2 · 6/10 · 4/9 · 5/8 + 4/10 · 3/9 · 6/8 = 3/5",
+  "P(W₃): vier Pfade (W W W, W S W zweimal, S S W)",
+  "Ziehen ohne Zurücklegen|Pfadregeln|Symmetrie der Ziehungsposition|Begründen",
+  "Baumdiagramm und Pfadregeln", "2021-be-gk-A1.7a")
+z("2021-be-gk-B2.1a",
+  "p(0,4) = −0,16 + 1,52 − 1,36 = 0; p(3,4) = −11,56 + 12,92 − 1,36 = 0",
+  "",
+  "Nullstellen prüfen|Einsetzen|Parabel")
+z("2021-be-gk-B2.1b",
+  "x = 0 (einfach), x = 6 (doppelt)",
+  "f(x) = 1/12 x · (x² − 12x + 36) = 1/12 x · (x − 6)²",
+  "Nullstellen|Ausklammern|binomische Formel|doppelte Nullstelle",
+  "Gleichungen lösen")
+z("2021-be-gk-B2.1c",
+  "f′(2) = 1 − 4 + 3 = 0, f″(2) = −1 < 0, f(2) = 8/3 ⇒ H(2 | 8/3) Hochpunkt",
+  "f′(x) = 1/4 x² − 2x + 3|f″(x) = 1/2 x − 2",
+  "Hochpunkt nachweisen|notwendige und hinreichende Bedingung|zweite Ableitung",
+  "Ableitungsregeln")
+z("2021-be-gk-B2.1d",
+  "ja, genau ein Wendepunkt W(4 | 4/3)",
+  "f″(x) = 1/2 x − 2 = 0 ⇒ x = 4|f‴(x) = 1/2 ≠ 0|f(4) = 4/3",
+  "Wendepunkt|zweite und dritte Ableitung|hinreichende Bedingung",
+  "Ableitungsregeln|Gleichungen lösen")
+z("2021-be-gk-B2.1e",
+  "f(2) = f(8) = 8/3 = g(x); A = 9 FE",
+  "∫ von 2 bis 8 (8/3 − f(x)) dx = [8/3 x − 1/48 x⁴ + 1/3 x³ − 3/2 x²] von 2 bis 8 = 9",
+  "gemeinsame Punkte nachweisen|Fläche zwischen Gerade und Graph|bestimmtes Integral",
+  "Stammfunktion und Hauptsatz")
+z("2021-be-gk-B2.1f",
+  "Scheitel S(1,9 | 2,25); d = √(0,1² + (8/3 − 2,25)²) = √661/60 ≈ 0,4285 > 5/12 ≈ 0,4167",
+  "p′(x) = −2x + 3,8 = 0 ⇒ x = 1,9|p(1,9) = 2,25",
+  "Scheitelpunkt|Abstand zweier Punkte|Vergleich mit Schranke",
+  "Punkte und Strecken im Koordinatensystem|Gleichungen lösen", "2021-be-gk-B2.1c")
+z("2021-be-gk-B2.1g",
+  "d fällt auf [0,4; √3,2], steigt auf [√3,2; 3,4] (√3,2 ≈ 1,79); Wertebereich [d(√3,2); d(3,4)] ≈ [0,406; 1,915]",
+  "d(x) = f(x) − p(x) = 1/12 x³ − 0,8x + 1,36|d′(x) = 1/4 x² − 0,8 = 0 ⇒ x = √3,2|d(√3,2) ≈ 0,406, d(0,4) ≈ 1,045, d(3,4) ≈ 1,915",
+  "Differenzfunktion|Monotonieintervalle|Wertebereich|Randwerte",
+  "Ableitungsregeln|Gleichungen lösen")
+z("2021-be-gk-B2.1h",
+  "A ≈ 8,54 − 4,50 = 4,04 FE ≈ 404 cm²",
+  "∫ von 0 bis 4,5 f(x) dx = [1/48 x⁴ − 1/3 x³ + 3/2 x²] ≈ 8,54|∫ von 0,4 bis 3,4 p(x) dx = [−1/3 x³ + 1,9x² − 1,36x] = 4,5|1 FE = 100 cm²",
+  "zusammengesetzte Fläche|bestimmtes Integral|Flächenmaßstab",
+  "Stammfunktion und Hauptsatz", "2021-be-gk-B2.1a|2021-be-gk-B2.1b")
+z("2021-be-gk-B2.1i",
+  "p′(0,4) = −0,8 + 3,8 = 3 = f′(0); Tangenten an G_p in (0,4 | 0) und an G_f im Ursprung sind parallel (gleiche Steigung der Schaufelränder)",
+  "",
+  "gleiche Steigung|parallele Tangenten|Sachzusammenhang",
+  "Tangente, Normale, Schnittwinkel")
+z("2021-be-gk-B2.1j",
+  "f(3) = h(3) = 9/4 ⇒ P ∈ h; f′(3) = −3/4, m_h = 4/3 ⇒ Produkt −1 ⇒ Schnittwinkel 90°",
+  "f(3) = 27/12 − 9 + 9 = 9/4, h(3) = 4 − 7/4 = 9/4|f′(3) = 9/4 − 6 + 3 = −3/4",
+  "Punktprobe|Orthogonalitätsbedingung m₁ · m₂ = −1|Gerade einzeichnen",
+  "Tangente, Normale, Schnittwinkel")
+z("2021-be-gk-B2.1k",
+  "q(x) = −0,55x² + 2,2x = −0,55 · (x − 2)² + 2,2",
+  "q(x) = ax² + bx (q(0) = 0)|q(2) = 2,2 ⇒ 4a + 2b = 2,2|q′(2) = 0 ⇒ 4a + b = 0 ⇒ b = 2,2, a = −0,55",
+  "Steckbriefaufgabe|Scheitelbedingung|lineares Gleichungssystem|Scheitelpunktform",
+  "Gleichungen lösen|Funktionsklassen und Eigenschaften")
+z("2021-be-gk-B2.2a",
+  "N₁(0 | 0) (zugleich S_y), N₂(20 | 0)",
+  "−1/10 x² + 2x = 0 ⇒ x · (−1/10 x + 2) = 0 ⇒ x = 0, x = 20|f(0) = 0",
+  "Achsenschnittpunkte|Nullstelle eines Produkts|Ausklammern",
+  "Gleichungen lösen")
+z("2021-be-gk-B2.2b",
+  "f(x) → 0 für x → +∞; f(x) → −∞ für x → −∞",
+  "",
+  "Verhalten im Unendlichen|Exponentialfunktion dominiert|Grenzwert")
+z("2021-be-gk-B2.2c",
+  "f(0) = 0 = h(0) ⇒ S₁(0 | 0)",
+  "",
+  "gemeinsamer Punkt|Einsetzen")
+z("2021-be-gk-B2.2d",
+  "H(20 − 10√2 | 20(√2 − 1) · e^(−2+√2)) ≈ H(5,86 | 4,61); T(20 + 10√2 | −20(√2 + 1) · e^(−2−√2)) ≈ T(34,14 | −1,59)",
+  "f′(x) = (1/100 x² − 2/5 x + 2) · e^(−0,1x) = 0 ⇒ x² − 40x + 200 = 0 ⇒ x = 20 ± 10√2|f″(5,86) < 0, f″(34,14) > 0|f(5,86) ≈ 4,61, f(34,14) ≈ −1,59",
+  "Extrempunkte|Produktregel|Kettenregel|quadratische Gleichung|hinreichende Bedingung",
+  "Ableitungsregeln|Gleichungen lösen")
+z("2021-be-gk-B2.2e",
+  "h′ hat genau die Nullstelle x = 10 mit Vorzeichenwechsel − nach + ⇒ Tiefpunkt T(10 | h(10)) mit h(10) < 0; danach steigt H gegen 0 ⇒ ohne Krümmungswechsel ginge H gegen +∞ ⇒ Wendepunkt (bei x = 20)",
+  "h(10) = −7,5e⁻¹ ≈ −2,76",
+  "Wendepunkt begründen|Krümmungsverhalten|Grenzwert|Skizze",
+  "Grenzwerte und Verhalten im Unendlichen")
+z("2021-be-gk-B2.2f",
+  "t(x) = −3/4 x; b = 10",
+  "h′(0) = −3/4|Dreieck: 1/2 · b · 3/4 b = 3/8 b² = 75/2 ⇒ b² = 100",
+  "Tangente im Ursprung|Dreiecksfläche|Gleichung lösen",
+  "Gleichungen lösen|Flächeninhalt durch Integration", "2021-be-gk-B2.2c")
+z("2021-be-gk-B2.2g",
+  "f(x) = h(x) ⇒ x · (−1/10 x + 11/4) = 0 ⇒ x = 0 oder x = 27,5 ⇒ Länge 27,5 dm; S₂(27,5 | −1,32)",
+  "(−1/10 x² + 2x + 3/4 x) · e^(−0,1x) = 0|f(27,5) = −20,625 · e^(−2,75) ≈ −1,32",
+  "Schnittstellen zweier Graphen|Produkt null|Ausklammern|Sachzusammenhang",
+  "Schnittmengen")
+z("2021-be-gk-B2.2h",
+  "Verbindungslinie S₁S₂ ist Hypotenuse, der horizontale Abstand eine Kathete; Δy ≠ 0 ⇒ Kathete echt kürzer",
+  "",
+  "Satz des Pythagoras|Begründen ohne Rechnung|Hypotenuse und Kathete")
+z("2021-be-gk-B2.2i",
+  "maximale Höhe d(6,75) ≈ 7,13 dm < 7,15 dm ⇒ Vorgabe eingehalten",
+  "d(x) = f(x) − h(x) = (−1/10 x² + 11/4 x) · e^(−0,1x)|d′(x) = (1/100 x² − 19/40 x + 11/4) · e^(−0,1x) = 0 ⇒ x² − 47,5x + 275 = 0 ⇒ x ≈ 6,75 (40,75 ∉ [0; 27,5])|d(6,75) ≈ 7,13",
+  "Differenzfunktion|Extremwertaufgabe|Produktregel|quadratische Gleichung|Vergleich mit Vorgabe",
+  "Ableitungsregeln|Gleichungen lösen|Kurvenuntersuchung", "2021-be-gk-B2.2g")
+z("2021-be-gk-B2.2j",
+  "A = D(27,5) − D(0) = 475e^(−2,75) + 75 ≈ 105,4 dm²",
+  "D(27,5) = 475e^(−2,75) ≈ 30,4|D(0) = −75",
+  "bestimmtes Integral|vorgegebene Stammfunktion|Querschnittsfläche",
+  "Stammfunktion und Hauptsatz", "2021-be-gk-B2.2g")
+z("2021-be-gk-B2.2k",
+  "(1) f(27,5) ≈ −1,32: Betrag nehmen; (2) Nenner √(27,5² + 1,32²) (Pluszeichen) ⇒ α ≈ 2,75° bleibt; einfacher tan α = 1,32/27,5",
+  "",
+  "Rechenweg beurteilen|Satz des Pythagoras|Steigungswinkel|Betrag",
+  "Abstände", "2021-be-gk-B2.2g")
+z("2021-be-gk-B2.2l",
+  "R(30 − 10√3 | f(x_R)) ≈ R(12,68 | 2,61); β ≈ 11,6°; δ = α + β ≈ 14,4° < 18°",
+  "f″(x) = 0 ⇒ x² − 60x + 600 = 0 ⇒ x = 30 ± 10√3, x_R = 30 − 10√3 < 20|f(12,68) ≈ 2,61|tan β = 2,61/12,68 ⇒ β ≈ 11,6°",
+  "Wendepunkt|quadratische Gleichung|Steigungswinkel einer Sehne|Winkelsumme",
+  "Gleichungen lösen|Tangente, Normale, Schnittwinkel", "2021-be-gk-B2.2k")
+z("2021-be-gk-B3a",
+  "BC · CE = 0 ⇒ rechter Winkel bei C; O = 100 + 2 · 10√34 + 2 · 30 = 160 + 20√34 ≈ 276,6 cm²",
+  "BC = (0 | 10 | 0), CE = (−10 | 0 | 6)|A_BCE = 1/2 · 10 · √136 = 10√34|A_CDE = 1/2 · 10 · 6 = 30|Symmetrie: ABE ≅ BCE, ADE ≅ CDE",
+  "Skalarprodukt null|rechtwinkliges Dreieck|Oberfläche einer Pyramide|Symmetrie",
+  "Flächeninhalt und Volumen im Raum|Vektoren und Rechenoperationen")
+z("2021-be-gk-B3b",
+  "h: x = (10 | 10 | 0) + r · (−10 | 0 | 6); windschief: h trifft die xy-Ebene (mit BD) nur in C, C ∉ BD, Richtungsvektoren nicht kollinear",
+  "",
+  "Geradengleichung|windschiefe Geraden|Lagebegründung ohne Rechnung",
+  "Lagebeziehungen")
+z("2021-be-gk-B3c",
+  "L: 3x + 5z = 30",
+  "n = BC × CE = (60 | 0 | 100) ⇒ (3 | 0 | 5)|B einsetzen ⇒ 3 · 10 = 30",
+  "Ebene durch drei Punkte|Kreuzprodukt|Normalenvektor|Koordinatenform",
+  "Vektoren und Rechenoperationen|Orthogonalität")
+z("2021-be-gk-B3d",
+  "α = arccos(5/√34) ≈ 31,0°",
+  "cos α = |(3 | 0 | 5) · (0 | 0 | 1)|/(√34 · 1) = 5/√34",
+  "Winkel zwischen Ebenen|Normalenvektoren|Arkuskosinus",
+  "Ebenen", "2021-be-gk-B3c")
+z("2021-be-gk-B3e",
+  "E₁: ja (Mittelparallele y = 5); E₂: ja (enthält die Diagonale AC); E₃: nein (z = 5 schneidet die xy-Ebene nicht)",
+  "",
+  "Schnitt Ebene–Figur|Koordinatenebenen|Symmetrieachsen des Quadrats|Begründen",
+  "Lagebeziehungen")
+z("2021-be-gk-B3f",
+  "A′(0 | 2 | 0), D′(0 | 8 | 0)",
+  "A′(0 | λ | 0), D′(0 | 10 − λ | 0)|Trapez: 1/2 · (10 + 10 − 2λ) · 10 = 100 − 10λ = 80 ⇒ λ = 2",
+  "Trapezfläche|Parameteransatz|lineare Gleichung|gleichschenkliges Trapez",
+  "Gleichungen lösen|Punkte und Strecken im Koordinatensystem")
+z("2021-be-gk-B3g",
+  "P(10 − 10t | 10t | 6t) allgemeiner Punkt der Kante BE; PC · PB = 0 ⇒ PC ⊥ BE (kürzeste Verbindung), t = 25/59; Symmetrieebene BDE ⇒ |AP| = |PC| ⇒ Gesamtlänge 2 · |PC| ≈ 15,2 cm",
+  "",
+  "Lösungsweg erläutern|laufender Punkt auf einer Kante|Lotfußpunkt|Symmetrie",
+  "Orthogonalität|Geraden")
+z("2021-be-gk-B3h",
+  "F(0 | 0 | 6); Spurgerade xz-Ebene durch B und F, yz-Ebene z = 6 durch F und E",
+  "x = y = 0 in L ⇒ 5z = 30 ⇒ z = 6",
+  "Spurpunkt|Spurgeraden|Koordinatenebenen|Zeichnen",
+  "Ebenen", "2021-be-gk-B3c")
+z("2021-be-gk-B3i",
+  "V_Prisma/V_Pyramide = (1/2 · |AB|² · |DE|)/(1/3 · |AB|² · |DE|) = 3/2 ⇒ um 50 % größer",
+  "",
+  "Pyramidenvolumen|Prismenvolumen|Verhältnis|prozentualer Vergleich")
+z("2021-be-gk-B4a",
+  "P(A) = P(X > 6) ≈ 0,055; P(B) = P(5 ≤ X ≤ 8) ≈ 0,365",
+  "P(X > 6) = 1 − P(X ≤ 6) = 1 − 0,9452|P(5 ≤ X ≤ 8) = P(X ≤ 8) − P(X ≤ 4) = 0,9983 − 0,6331",
+  "kumulierte Binomialverteilung|Tabelle|Gegenereignis|Intervallwahrscheinlichkeit")
+z("2021-be-gk-B4b",
+  "0,3669² ≈ 0,135",
+  "P(X > 4) = 1 − P(X ≤ 4) = 1 − 0,6331 = 0,3669|zwei Spieler unabhängig ⇒ Produkt",
+  "Gegenereignis|Unabhängigkeit|Multiplikationsregel",
+  "Unabhängigkeit")
+z("2021-be-gk-B4c",
+  "falsch: die Sonntage sind unabhängig, P(acht Sterne) bleibt gleich",
+  "",
+  "stochastische Unabhängigkeit|Gedächtnislosigkeit|Fehlvorstellung")
+z("2021-be-gk-B4d",
+  "P(Y = 2) = 6 · 0,2007² · 0,7993² ≈ 0,154",
+  "P(X = 5) = P(X ≤ 5) − P(X ≤ 4) = 0,8338 − 0,6331 = 0,2007|Y ~ B(4; 0,2007)",
+  "zweistufige Binomialverteilung|Bernoulli-Formel|Trefferwahrscheinlichkeit aus der Tabelle")
+z("2021-be-gk-B4e",
+  "n ≥ 5,86 ⇒ mindestens 6 Versuche",
+  "1 − 0,6ⁿ ≥ 0,95 ⇒ 0,6ⁿ ≤ 0,05 ⇒ n ≥ ln 0,05/ln 0,6 ≈ 5,86",
+  "Mindestanzahl|Gegenereignis|Exponentialgleichung|Logarithmus|Dreimal-mindestens-Aufgabe",
+  "Gleichungen lösen")
+z("2021-be-gk-B4f",
+  "a = 0,6, b = 9; Ereignis: mehr als ein Stern (mindestens zwei) bei zehn Versuchen, P(X > 1) ≈ 0,954",
+  "a¹⁰ = P(X = 0), 10 · 0,4 · a⁹ = P(X = 1)",
+  "Term deuten|Bernoulli-Formel|Gegenereignis|Nietenwahrscheinlichkeit",
+  "Binomialverteilung")
+z("2021-be-gk-B4g",
+  "0,1 · 0,4 · 0,5 = 0,02",
+  "einzige Folge 50, 20, 10",
+  "Pfadmultiplikationsregel|dreistufiges Experiment|Reihenfolge")
+z("2021-be-gk-B4h",
+  "P = 4 · 0,1 · 0,5³ + 0,4⁴ = 0,05 + 0,0256 = 0,0756",
+  "80 Punkte: 50 + 10 + 10 + 10 (vier Reihenfolgen) oder 20 + 20 + 20 + 20",
+  "Pfadregeln|Anordnungen|Fallunterscheidung|vierstufiges Experiment",
+  "Kombinatorik")
+z("2021-be-gk-B4i",
+  "P(10 Punkte) = 0,8, P(20 Punkte) = 0,1",
+  "E = 3000/200 = 15 Punkte pro Tag|x für 10, 0,9 − x für 20, 0,1 für 50|10x + 20 · (0,9 − x) + 5 = 15 ⇒ x = 0,8",
+  "Erwartungswert|Verteilung mit Unbekannter|lineare Gleichung",
+  "Gleichungen lösen")
+
+
 def main():
     # Reihenfolge wie im Katalog (werkzeuge/vorrat-pruef.py verlangt sie)
     with open("abi-katalog.csv", encoding="utf-8", newline="") as fh:

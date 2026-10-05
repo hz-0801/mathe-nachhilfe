@@ -1347,6 +1347,387 @@ def _():
     return ok(w == [R(1, 3)], w)
 
 
+# ================================ 2021-be-gk =================================
+f21a = x**3 - x
+
+
+@pruef("2021-be-gk-A1.1a")
+def _():
+    w = (f21a.subs(x, R(1, 2)), sorted(solve(f21a, x)))
+    return ok(w == (-R(3, 8), [-1, 0, 1]), w)
+
+
+@pruef("2021-be-gk-A1.1b")
+def _():
+    A = 2 * integrate(f21a, (x, -1, 0))
+    return ok(A == R(1, 2), A)
+
+
+nr("2021-be-gk-A1.2a", "Ablesen aus dem Graphen")
+nr("2021-be-gk-A1.2b", "Vorzeichen aus dem Graphen")
+f21b = x**3 - 3 * x**2 + 4
+
+
+@pruef("2021-be-gk-A1.3a")
+def _():
+    w = (diff(f21b, x).subs(x, 2), diff(f21b, x, 2).subs(x, 2))
+    return ok(w == (0, 6), w)
+
+
+@pruef("2021-be-gk-A1.3b")
+def _():
+    from sympy import nsolve
+    A = x * f21b
+    A1 = diff(A, x)
+    xm = nsolve(A1, x, 0.8)
+    w = (expand(A), expand(A1), A1.subs(x, 1), float(xm))
+    return ok(w[0] == x**4 - 3 * x**3 + 4 * x and w[1] == 4 * x**3 - 9 * x**2 + 4 and w[2] == -1 and near(w[3], 0.84, 0.005), w)
+
+
+@pruef("2021-be-gk-A1.4a")
+def _():
+    return ok(vec(-5, 2, 8).dot(vec(1, 8, 3)) == 35, vec(-5, 2, 8).dot(vec(1, 8, 3)))
+
+
+@pruef("2021-be-gk-A1.4b")
+def _():
+    r_ = symbols('r_')
+    P = vec(1, -4, 2) + r_ * vec(0, 8, -2)
+    w = simplify(2 * P[0] + P[1] + 4 * P[2] - 6)
+    return ok(w == 0, w)
+
+
+@pruef("2021-be-gk-A1.4c")
+def _():
+    nH = vec(0, 4, -1)
+    w = (nH.dot(vec(2, 1, 4)), nH.dot(vec(-5, 2, 8)), vec(2, 1, 4).cross(vec(-5, 2, 8)))
+    return ok(w[0] == 0 and w[1] == 0 and list(w[2]) == [0, -36, 9], w)
+
+
+@pruef("2021-be-gk-A1.5a")
+def _():
+    loes = solve(list(vec(1, 2, 3) + t * vec(0, 2, 1) + s * vec(3, 0, -1) - vec(4, 6, 4)), [t, s])
+    return ok(loes == {t: 2, s: 1}, loes)
+
+
+@pruef("2021-be-gk-A1.5b")
+def _():
+    rv = 1 * vec(0, 2, 1) + 1 * vec(3, 0, -1)
+    return ok(list(rv) == [3, 2, 0], list(rv))
+
+
+@pruef("2021-be-gk-A1.6a")
+def _():
+    n_ = sum(1 for r_ in range(1, 7) for b_ in range(1, 7) if b_ > r_)
+    return ok(n_ == 15, n_)
+
+
+@pruef("2021-be-gk-A1.6b")
+def _():
+    w = 0 * R(15, 36) + 1 * R(6, 36) + 2 * R(15, 36)
+    return ok(w == 1, w)
+
+
+@pruef("2021-be-gk-A1.7a")
+def _():
+    w = R(6, 10) * R(5, 9) + R(4, 10) * R(6, 9)
+    return ok(w == R(3, 5), w)
+
+
+@pruef("2021-be-gk-A1.7b")
+def _():
+    w = R(6, 10) * R(5, 9) * R(4, 8) + 2 * R(6, 10) * R(4, 9) * R(5, 8) + R(4, 10) * R(3, 9) * R(6, 8)
+    return ok(w == R(3, 5), w)
+
+
+f21 = R(1, 12) * x**3 - x**2 + 3 * x
+p21 = -x**2 + R(38, 10) * x - R(136, 100)
+
+
+@pruef("2021-be-gk-B2.1a")
+def _():
+    w = (p21.subs(x, R(4, 10)), p21.subs(x, R(34, 10)))
+    return ok(w == (0, 0), w)
+
+
+@pruef("2021-be-gk-B2.1b")
+def _():
+    from sympy import roots
+    return ok(roots(f21, x) == {0: 1, 6: 2} and factor(f21) == x * (x - 6)**2 / 12, roots(f21, x))
+
+
+@pruef("2021-be-gk-B2.1c")
+def _():
+    w = (diff(f21, x).subs(x, 2), diff(f21, x, 2).subs(x, 2), f21.subs(x, 2))
+    return ok(w == (0, -1, R(8, 3)), w)
+
+
+@pruef("2021-be-gk-B2.1d")
+def _():
+    w = (solve(diff(f21, x, 2), x), diff(f21, x, 3), f21.subs(x, 4))
+    return ok(w == ([4], R(1, 2), R(4, 3)), w)
+
+
+@pruef("2021-be-gk-B2.1e")
+def _():
+    w = (f21.subs(x, 2), f21.subs(x, 8), integrate(R(8, 3) - f21, (x, 2, 8)))
+    return ok(w == (R(8, 3), R(8, 3), 9), w)
+
+
+@pruef("2021-be-gk-B2.1f")
+def _():
+    xs = solve(diff(p21, x), x)[0]
+    S = (xs, p21.subs(x, xs))
+    d = sqrt((2 - xs)**2 + (R(8, 3) - S[1])**2)
+    w = (S, d, float(d), float(R(5, 12)))
+    return ok(S == (R(19, 10), R(9, 4)) and simplify(d - sqrt(661) / 60) == 0 and near(w[2], 0.4285, 5e-5) and w[2] > w[3], w)
+
+
+@pruef("2021-be-gk-B2.1g")
+def _():
+    d = f21 - p21
+    xs = [v for v in solve(diff(d, x), x) if v > 0][0]
+    w = (expand(d), xs, float(xs), float(d.subs(x, xs)), float(d.subs(x, R(4, 10))), float(d.subs(x, R(34, 10))))
+    return ok(w[0] == R(1, 12) * x**3 - R(4, 5) * x + R(34, 25) and simplify(xs - sqrt(R(32, 10))) == 0 and near(w[2], 1.79, 0.005)
+              and near(w[3], 0.406, 5e-4) and near(w[4], 1.045, 5e-4) and near(w[5], 1.915, 5e-4), w)
+
+
+@pruef("2021-be-gk-B2.1h")
+def _():
+    i1 = integrate(f21, (x, 0, R(9, 2)))
+    i2 = integrate(p21, (x, R(4, 10), R(34, 10)))
+    w = (float(i1), i2, float(i1 - i2), float(100 * (i1 - i2)))
+    return ok(near(w[0], 8.54, 0.005) and i2 == R(9, 2) and near(w[2], 4.04, 0.005) and near(w[3], 404, 0.5), w)
+
+
+@pruef("2021-be-gk-B2.1i")
+def _():
+    w = (diff(p21, x).subs(x, R(4, 10)), diff(f21, x).subs(x, 0))
+    return ok(w == (3, 3), w)
+
+
+@pruef("2021-be-gk-B2.1j")
+def _():
+    h = R(4, 3) * x - R(7, 4)
+    w = (f21.subs(x, 3), h.subs(x, 3), diff(f21, x).subs(x, 3), diff(f21, x).subs(x, 3) * R(4, 3))
+    return ok(w == (R(9, 4), R(9, 4), -R(3, 4), -1), w)
+
+
+@pruef("2021-be-gk-B2.1k")
+def _():
+    q = a * x**2 + b * x
+    loes = solve([q.subs(x, 2) - R(22, 10), diff(q, x).subs(x, 2)], [a, b])
+    return ok(loes == {a: -R(11, 20), b: R(11, 5)}, loes)
+
+
+f21c = (-R(1, 10) * x**2 + 2 * x) * exp(-R(1, 10) * x)
+h21 = -R(3, 4) * x * exp(-R(1, 10) * x)
+
+
+@pruef("2021-be-gk-B2.2a")
+def _():
+    w = (sorted(solve(f21c, x)), f21c.subs(x, 0))
+    return ok(w == ([0, 20], 0), w)
+
+
+@pruef("2021-be-gk-B2.2b")
+def _():
+    from sympy import limit, oo
+    w = (limit(f21c, x, oo), limit(f21c, x, -oo))
+    return ok(w == (0, -oo), w)
+
+
+@pruef("2021-be-gk-B2.2c")
+def _():
+    w = (f21c.subs(x, 0), h21.subs(x, 0))
+    return ok(w == (0, 0), w)
+
+
+@pruef("2021-be-gk-B2.2d")
+def _():
+    f1, f2 = diff(f21c, x), diff(f21c, x, 2)
+    st = sorted(solve(f1, x))
+    w = (simplify(f1 / exp(-R(1, 10) * x)), st, [float(v) for v in st], [float(f21c.subs(x, v)) for v in st],
+         [float(f2.subs(x, v)) for v in st], simplify(f2 / exp(-R(1, 10) * x)))
+    return ok(expand(w[0]) == R(1, 100) * x**2 - R(2, 5) * x + 2 and simplify(st[0] - (20 - 10 * sqrt(2))) == 0
+              and near(w[2][0], 5.86, 0.005) and near(w[2][1], 34.14, 0.005) and near(w[3][0], 4.61, 0.005) and near(w[3][1], -1.59, 0.005)
+              and w[4][0] < 0 < w[4][1] and expand(w[5]) == -R(1, 1000) * x**2 + R(3, 50) * x - R(3, 5), w)
+
+
+@pruef("2021-be-gk-B2.2e")
+def _():
+    h1 = diff(h21, x)
+    w = (solve(h1, x), float(h21.subs(x, 10)), solve(diff(h21, x, 2), x))
+    return ok(w[0] == [10] and near(w[1], -2.76, 0.005) and w[2] == [20], w)
+
+
+@pruef("2021-be-gk-B2.2f")
+def _():
+    m = diff(h21, x).subs(x, 0)
+    bb = [v for v in solve(R(1, 2) * b * Abs(m * b) - R(75, 2), b) if v > 0]
+    return ok(m == -R(3, 4) and bb == [10], (m, bb))
+
+
+@pruef("2021-be-gk-B2.2g")
+def _():
+    st = sorted(solve(f21c - h21, x))
+    w = (st, float(f21c.subs(x, R(55, 2))))
+    return ok(st == [0, R(55, 2)] and near(w[1], -1.32, 0.005), w)
+
+
+nr("2021-be-gk-B2.2h", "Begründung über Pythagoras, keine Zahl")
+
+
+@pruef("2021-be-gk-B2.2i")
+def _():
+    d = f21c - h21
+    d1 = diff(d, x)
+    st = sorted(solve(d1, x))
+    w = (simplify(d / exp(-R(1, 10) * x)), expand(simplify(d1 / exp(-R(1, 10) * x))), [float(v) for v in st], float(d.subs(x, st[0])))
+    return ok(expand(w[0]) == -R(1, 10) * x**2 + R(11, 4) * x and w[1] == R(1, 100) * x**2 - R(19, 40) * x + R(11, 4)
+              and near(w[2][0], 6.75, 0.005) and near(w[2][1], 40.75, 0.005) and near(w[3], 7.13, 0.005) and w[3] < 7.15, w)
+
+
+@pruef("2021-be-gk-B2.2j")
+def _():
+    D = (x**2 - R(15, 2) * x - 75) * exp(-R(1, 10) * x)
+    d = f21c - h21
+    A = D.subs(x, R(55, 2)) - D.subs(x, 0)
+    w = (simplify(diff(D, x) - d), float(D.subs(x, R(55, 2))), D.subs(x, 0), float(A))
+    return ok(w[0] == 0 and near(w[1], 30.4, 0.05) and w[2] == -75 and near(w[3], 105.4, 0.05), w)
+
+
+@pruef("2021-be-gk-B2.2k")
+def _():
+    y_ = 1.32
+    w = (grad(asin(y_ / math.sqrt(27.5**2 + y_**2))), grad(atan(y_ / 27.5)))
+    return ok(near(w[0], 2.75, 0.005) and near(w[1], 2.75, 0.005), w)
+
+
+@pruef("2021-be-gk-B2.2l")
+def _():
+    f2 = diff(f21c, x, 2)
+    st = sorted(solve(f2, x))
+    xr = st[0]
+    yr = f21c.subs(x, xr)
+    beta = grad(atan(yr / xr))
+    w = (st, float(xr), float(yr), beta, 2.75 + beta)
+    return ok(simplify(xr - (30 - 10 * sqrt(3))) == 0 and near(w[1], 12.68, 0.005) and near(w[2], 2.61, 0.005)
+              and near(beta, 11.6, 0.05) and near(w[4], 14.4, 0.05) and w[4] < 18, w)
+
+
+A21, B21, C21, D21, E21 = vec(0, 0, 0), vec(10, 0, 0), vec(10, 10, 0), vec(0, 10, 0), vec(0, 10, 6)
+
+
+@pruef("2021-be-gk-B3a")
+def _():
+    BC, CE = C21 - B21, E21 - C21
+    O = 100 + 2 * R(1, 2) * 10 * sqrt(CE.dot(CE)) + 2 * R(1, 2) * 10 * 6
+    w = (BC.dot(CE), CE.dot(CE), simplify(O), float(O))
+    return ok(w[0] == 0 and w[1] == 136 and simplify(O - (160 + 20 * sqrt(34))) == 0 and near(w[3], 276.6, 0.05), w)
+
+
+nr("2021-be-gk-B3b", "Lagebegründung, Geradengleichung abgelesen")
+
+
+@pruef("2021-be-gk-B3c")
+def _():
+    nv = (C21 - B21).cross(E21 - C21)
+    w = (list(nv), [3 * P[0] + 5 * P[2] for P in (B21, C21, E21)])
+    return ok(list(nv) == [60, 0, 100] and w[1] == [30, 30, 30], w)
+
+
+@pruef("2021-be-gk-B3d")
+def _():
+    c_ = 5 / sqrt(34)
+    return ok(near(grad(acos(c_)), 31.0, 0.05), grad(acos(c_)))
+
+
+nr("2021-be-gk-B3e", "Lagebegründung")
+
+
+@pruef("2021-be-gk-B3f")
+def _():
+    lam = symbols('lam')
+    w = solve(R(1, 2) * (10 + 10 - 2 * lam) * 10 - 80, lam)
+    return ok(w == [2], w)
+
+
+@pruef("2021-be-gk-B3g")
+def _():
+    P = vec(10 - 10 * t, 10 * t, 6 * t)
+    PC, PB = C21 - P, B21 - P
+    t0 = solve(PC.dot(PB), t)
+    t0 = [v for v in t0 if v != 0][0]
+    l_ = float(2 * (C21 - P.subs(t, t0)).norm())
+    return ok(t0 == R(25, 59) and near(l_, 15.2, 0.05), (t0, l_))
+
+
+@pruef("2021-be-gk-B3h")
+def _():
+    return ok(solve(5 * z - 30, z) == [6], solve(5 * z - 30, z))
+
+
+@pruef("2021-be-gk-B3i")
+def _():
+    return ok(R(1, 2) / R(1, 3) == R(3, 2), R(1, 2) / R(1, 3))
+
+
+@pruef("2021-be-gk-B4a")
+def _():
+    k6 = float(binom_p(10, R(2, 5), 0, 6))
+    k8 = float(binom_p(10, R(2, 5), 0, 8))
+    k4 = float(binom_p(10, R(2, 5), 0, 4))
+    w = (k6, k8, k4, 1 - k6, k8 - k4)
+    return ok(near(k6, 0.9452, 5e-5) and near(k8, 0.9983, 5e-5) and near(k4, 0.6331, 5e-5) and near(1 - k6, 0.055, 5e-4) and near(k8 - k4, 0.365, 5e-4), w)
+
+
+@pruef("2021-be-gk-B4b")
+def _():
+    p = 1 - float(binom_p(10, R(2, 5), 0, 4))
+    return ok(near(p, 0.3669, 5e-5) and near(p**2, 0.135, 5e-4), (p, p**2))
+
+
+nr("2021-be-gk-B4c", "Beurteilung der Unabhängigkeit")
+
+
+@pruef("2021-be-gk-B4d")
+def _():
+    p5 = float(binom_p(10, R(2, 5), 5, 5))
+    w = (p5, 6 * p5**2 * (1 - p5)**2)
+    return ok(near(p5, 0.2007, 5e-5) and near(w[1], 0.154, 5e-4), w)
+
+
+@pruef("2021-be-gk-B4e")
+def _():
+    g_ = math.log(0.05) / math.log(0.6)
+    return ok(near(g_, 5.86, 0.005) and 0.6**5 > 0.05 >= 0.6**6, g_)
+
+
+@pruef("2021-be-gk-B4f")
+def _():
+    w = (1 - (0.6**10 + 10 * 0.4 * 0.6**9), float(binom_p(10, R(2, 5), 2, 10)))
+    return ok(near(w[0], 0.954, 5e-4) and near(w[0], w[1], 1e-9), w)
+
+
+@pruef("2021-be-gk-B4g")
+def _():
+    w = R(1, 10) * R(4, 10) * R(5, 10)
+    return ok(w == R(2, 100), w)
+
+
+@pruef("2021-be-gk-B4h")
+def _():
+    w = 4 * R(1, 10) * R(5, 10)**3 + R(4, 10)**4
+    return ok(w == R(756, 10000), w)
+
+
+@pruef("2021-be-gk-B4i")
+def _():
+    w = solve(10 * x + 20 * (R(9, 10) - x) + 5 - 15, x)
+    return ok(w == [R(4, 5)] and R(9, 10) - w[0] == R(1, 10), w)
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):

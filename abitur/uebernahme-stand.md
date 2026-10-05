@@ -18,3 +18,4 @@ weiter, der unten nicht als „fertig“ steht.
 - Teil 5, Teilstück 2018-be-gk fertig: 36 Zeilen, sympy ok 33, nicht rechenbar 3; Beitabelle jetzt in Katalogreihenfolge sortiert; Selbstprüfung bestanden. 2026-10-05T15:46Z
 - Teil 5, Teilstück 2019-be-gk fertig: 45 Zeilen, sympy ok 41, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:50Z
 - Teil 5, Teilstück 2020-be-gk fertig: 51 Zeilen, sympy ok 47, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:53Z
+- Teil 5, Teilstück 2021-be-gk fertig: 56 Zeilen, sympy ok 50, nicht rechenbar 6; Selbstprüfung bestanden. 2026-10-05T15:56Z
