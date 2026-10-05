@@ -358,6 +358,93 @@ def p_2016_OS_K7c():
     return naeh(744 * tan(gr(70 - 36)), 502, " m", tol=1)
 
 
+# ---------- 2017 (OS)
+
+def p_2017_OS_B1a():
+    return genau(R(28, 7) * 6, 24)
+
+def p_2017_OS_B1b():
+    return genau(120 * R(20, 100), 24, " €")
+
+def p_2017_OS_B1e():
+    w = [-R(1, 100), -10**3, -10**2, -R(1, 10)]
+    return genau(min(w), -1000)
+
+def p_2017_OS_B1f():
+    return genau(2 * 2, 4)
+
+def p_2017_OS_B1g():
+    return genau(log(100000, 10), 5)
+
+def p_2017_OS_B1h():
+    return genau((R(18, 10) + R(17, 10) + R(16, 10) + R(17, 10)) / 4, R(17, 10), " m")
+
+def p_2017_OS_K2a():
+    return genau(682069 - 8512, 673557)
+
+def p_2017_OS_K2b():
+    return kette(genau(R(344, 10) + R(112, 10) + 5, R(506, 10), " %"), genau(100 - R(494, 10), R(506, 10), " %"))
+
+def p_2017_OS_K2c():
+    return kette(genau(R(5, 100) * 360, 18, "°"), naeh(R(112, 1000) * 360, R(403, 10), "°"))
+
+def p_2017_OS_K3b():
+    return kette(genau(10 * 5, 50), naeh(pi * R(25, 10)**2, R(1963, 100), tol=R(1, 100)),
+                 naeh(50 + pi * R(25, 10)**2, R(6963, 100), " m²", tol=R(1, 100)))
+
+def p_2017_OS_K3d():
+    return genau(R(140000, 17500), 8, " h")
+
+def p_2017_OS_K4a():
+    return genau(180 - R(628, 10) - R(349, 10), R(823, 10), "°")
+
+def p_2017_OS_K4b():
+    return naeh(R(12, 10) / tan(gr(R(349, 10))), R(172, 100), " m", tol=R(1, 100))
+
+def p_2017_OS_K4c():
+    bc = R(45, 10) * sin(gr(R(628, 10))) / sin(gr(R(349, 10)))
+    return kette(naeh(bc, 7, " m", tol=R(1, 100)), naeh((R(45, 10) + bc) * 8, 92, " m²", tol=R(1, 10)))
+
+def p_2017_OS_K5a():
+    m = R(2 - (-1), 2 - (-4))
+    n = solve(Eq(2, m * 2 + x), x)[0]
+    return kette(genau(m, R(1, 2)), genau(n, 1), genau(m * (-4) + n, -1))
+
+def p_2017_OS_K5b():
+    return genau(R(1, 2) * (-10) + 1, -4)
+
+def p_2017_OS_K5c():
+    f = (x + 3)**2 - 2
+    xs = solve(f.diff(x), x)[0]
+    return kette(genau(xs, -3), genau(f.subs(x, xs), -2))
+
+def p_2017_OS_K5d():
+    f = (x + 3)**2 - 2
+    l = sorted(solve(f, x), key=lambda v: N(v))
+    return kette(genau(expand(f) - (x**2 + 6 * x + 7), 0), naeh(l[1], R(-159, 100), tol=R(1, 100)),
+                 naeh(l[0], R(-441, 100), tol=R(1, 100)))
+
+def p_2017_OS_K5e():
+    q = -(((x + 3)**2 - 2) + 2)
+    return genau(q - (-(x + 3)**2), 0)
+
+def p_2017_OS_K6a():
+    return kette(genau(R(1, 10), R(1, 10)), genau(R(1, 10) * 100, 10, " %"))
+
+def p_2017_OS_K6b():
+    return kette(genau(factorial(3), 6), genau(R(1, 6) + R(5, 6) * R(1, 5), R(1, 3)))
+
+def p_2017_OS_K7a():
+    return kette(naeh(870 * R(87, 100), 757, " hPa", tol=R(6, 10)), naeh(1000 * R(87, 100)**8, 328, " hPa", tol=R(6, 10)),
+                 naeh(498 * R(87, 100)**3, 328, " hPa", tol=R(6, 10)))
+
+def p_2017_OS_K7c():
+    return kette(naeh(1000 * R(87, 100)**3, 659, tol=R(6, 10)), naeh(1000 * R(87, 100)**10, 248, tol=R(6, 10)))
+
+def p_2017_OS_K7d():
+    return naeh(1000 * R(87, 100)**4, 573, " hPa", tol=R(6, 10))
+
+
 # ---------- Ausführung
 
 def alle():
