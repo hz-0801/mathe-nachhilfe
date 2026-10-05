@@ -120,6 +120,38 @@ KAPITEL['quadratische']=dict(eintraege=[QF,QG],stufen=[
  'x zu gegebenem y':('nein','1 echte (2023)'),
  'Gerade und Parabel gleichsetzen':('ja','3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall'),
 })
+PY='pythagoras';TR='trigonometrie';WD='winkel-dreiecke';SY='symmetrie-abbildungen'
+def _i(e,*ss): return [(e,s,None,'inner') for s in ss]
+def _a(e,*ss): return [(e,s,None) for s in ss]
+KAPITEL['dreiecke']=dict(eintraege=[PY,TR,WD,SY],stufen=[
+ ('Gleichung aufstellen',['2022-OS-B1g','2024-OS-B1f','2026-FOR-B1j','2021-OS-B1h','2017-OS-B1d'],_i(PY,'e1-k2-s6','e1-k2-s7','e1-k2-s8','e1-k5-s4','e2-k3-s5','e2-k6-s4')),
+ ('Kathete oder Hypotenuse direkt',['2022-OS-K5a','2024-OS-K6a','2026-FOR-K4a','2022-OS-K2c','2020-OS-K7a','2019-OS-K3a','2016-OS-K7b'],_i(PY,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s5','e2-k3-s1','e2-k3-s2','e2-k3-s3','e2-k3-s6')+_a(PY,'e1-k2-s10','e2-k3-s7','e1-k5-s3','e2-k6-s3')+[(PY,'e1-k2-s15',['2020-OS-K7a']),(PY,'e2-k3-s12',['2022-OS-K5a','2024-OS-K6a']),(PY,'e3-k2-s19',['2022-OS-K2c'])]),
+ ('Dreieck erst in Figur oder Körper finden',['2026-FOR-K2c','2025-OS-K4a','2025-OS-K2a','2018-OS-K6d','2019-OS-K2d'],_i(PY,'e3-k2-s1','e3-k2-s2','e3-k2-s3','e3-k2-s4','e3-k2-s5','e3-k2-s6','e3-k2-s7','e3-k2-s8','e3-k2-s9','e3-k2-s10','e3-k2-s11','e3-k2-s12','e3-k2-s16','e3-k2-s17')+_a(PY,'e3-k2-s13','e3-k2-s14','e3-k2-s15','e3-k4-s3')+[(PY,'e3-k2-s19',['2026-FOR-K2c','2018-OS-K6d','2019-OS-K2d']),(PY,'e1-k2-s15',['2025-OS-K4a'])]),
+ ('Seitenverhältnis benennen',['2025-OS-B1g','2020-OS-B1c','2020-OS-B1j','2019-OS-B1h','2018-OS-B1g','2017-OS-B1j'],_i(TR,'e1-k3-s1','e1-k3-s2','e1-k4-s1','e1-k3-s12')+[(TR,'e1-k3-s17',['2020-OS-B1c','2020-OS-B1j','2025-OS-B1g'])]),
+ ('Winkel berechnen',['2022-OS-K5b','2024-OS-K6b','2026-FOR-K4b','2020-OS-K5b','2019-OS-K3b'],_i(TR,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s8','e2-k1-s9','e2-k1-s10')+_a(TR,'e2-k1-s7','e2-k4-s3')+[(TR,'e2-k1-s12',['2022-OS-K5b','2024-OS-K6b','2026-FOR-K4b','2019-OS-K3b'])]),
+ ('Seite berechnen',['2022-OS-K5d','2026-FOR-K4c','2023-OS-K7b','2021-OS-K3a','2021-OS-K3b','2018-OS-K4d','2017-OS-K4b','2016-OS-K7c'],_i(TR,'e1-k3-s4','e1-k3-s5','e1-k3-s6','e1-k3-s7','e1-k3-s8','e1-k3-s9','e1-k3-s10','e1-k3-s11','e1-k3-s13','e1-k3-s14','e3-k1-s1','e3-k1-s2','e3-k1-s3')+_a(TR,'e1-k3-s15','e1-k7-s3','e3-k1-s8')+[(TR,'e1-k3-s17',['2022-OS-K5d','2021-OS-K3a','2021-OS-K3b','2017-OS-K4b']),(TR,'e3-k1-s19',['2026-FOR-K4c','2023-OS-K7b','2018-OS-K4d','2016-OS-K7c'])]),
+ ('gemischt, ohne Überschrift je Aufgabe',['2022-OS-K5a','2022-OS-K5b','2024-OS-K6a','2024-OS-K6b','2026-FOR-K4a','2026-FOR-K4b'],_i(PY,'e2-k3-s11')+_i(TR,'e2-k1-s11','e4-k1-s16','e3-k1-s14')+_a(PY,'e3-k2-s18')),
+ ('Seite berechnen (Sinussatz)',['2024-OS-K6d','2025-OS-K4c','2021-OS-K3c','2020-OS-K7c','2019-OS-K3c','2018-OS-K4c','2017-OS-K4c','2015-OS-K5c','2014-OS-K2b'],_i(TR,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e4-k1-s5','e4-k1-s6','e4-k1-s7','e4-k1-s9','e4-k2-s3')+_a(TR,'e4-k1-s10','e4-k1-s17')),
+ ('Eigenschaft erkennen',['2026-FOR-B1c','2016-OS-B1e'],_i(WD,'e3-k2-s10')+_i(SY,'e2-k5-s1')),
+ ('Winkelsumme',['2022-OS-K5c','2023-OS-K2a','2026-FOR-B1i','2021-OS-B1i','2018-OS-K4b','2017-OS-K4a','2015-OS-K5b'],_i(WD,'e3-k2-s1','e3-k2-s2','e3-k2-s4','e3-k2-s5','e3-k2-s6','e3-k2-s7','e3-k2-s11','e3-k4-s3')+_a(WD,'e2-k2-s9')),
+ ('gleichschenkliges Dreieck',['2023-OS-B1g','2023-OS-K7a'],_i(WD,'e3-k2-s3','e3-k2-s8')+[(WD,'e3-k2-s13',['2023-OS-B1g'])]),
+ ('rechten Winkel begründen',['2025-OS-K2c'],_i(WD,'e3-k2-s9','e5-k1-s8')+_i(PY,'e2-k3-s9')+_a(WD,'e5-k1-s11')+[(WD,'e3-k2-s13',['2025-OS-K2c']),(PY,'e2-k3-s12',['2025-OS-K2c'])]),
+ ('Symmetrieachsen zählen',['2022-OS-B1i','2025-OS-K2a','2021-OS-B1j'],_i(SY,'e2-k2-s2','e2-k2-s3','e2-k2-s4','e2-k2-s5','e2-k2-s6','e2-k2-s7','e2-k2-s8')+_a(SY,'e2-k2-s11','e2-k2-s12')),
+],kern={
+ 'Gleichung aufstellen':('ja','5 echte, Basisteil 2017, 2021, 2022, 2024, 2026 (Niveau I), Bank-Kette Hypotenuse mit Grundfall'),
+ 'Kathete oder Hypotenuse direkt':('ja','7 echte 2016–2026 (Niveau I/II), Bank-Ketten Hypotenuse und Kathete mit Grundfall'),
+ 'Dreieck erst in Figur oder Körper finden':('ja','5 echte (2018, 2019, 2025 zweimal, 2026), Bank-Kette Figuren und Körper mit Grundfall'),
+ 'Seitenverhältnis benennen':('ja','6 echte, Basisteil 2017–2020 und 2025 (Niveau I), Grundfall der Bank-Kette Seite berechnen'),
+ 'Winkel berechnen':('ja','5 echte (2019, 2020, 2022, 2024, 2026), Bank-Kette Winkel berechnen mit Grundfall'),
+ 'Seite berechnen':('ja','8 echte 2016–2026, Bank-Ketten Seite berechnen und Teildreiecke mit Grundfall'),
+ 'gemischt, ohne Überschrift je Aufgabe':('nein','Form der Stufe (Mischung), die echten sind dieselben wie bei Pythagoras und Winkel; Mischsprossen der Bank'),
+ 'Seite berechnen (Sinussatz)':('ja','9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall'),
+ 'Eigenschaft erkennen':('nein','2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme'),
+ 'Winkelsumme':('ja','7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall'),
+ 'gleichschenkliges Dreieck':('nein','2 echte, nur 2023'),
+ 'rechten Winkel begründen':('nein','1 echte (2025), Begründen auf mehreren Wegen (Winkelsumme, Umkehrung, Thales)'),
+ 'Symmetrieachsen zählen':('ja','3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):

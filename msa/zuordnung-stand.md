@@ -11,7 +11,7 @@ Kapitel ohne „fertig“ weiter.
 |---|---|---|--:|--:|--:|---|---|
 | Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | siehe git log |
 | Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | siehe git log |
-| Dreiecke | offen | | | | | | |
+| Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | siehe git log |
 | Daten | offen | | | | | | |
 | Wahrscheinlichk. | offen | | | | | | |
 | Körper | offen | | | | | | |
@@ -33,3 +33,9 @@ Summe neu bisher: 1.
   Scheitelpunktform angeben; 2015-OS-K4b (Gleichung zu Graph) zu
   Wertetabelle zuordnen; 2014-OS-K7b (Gerade ohne gemeinsamen Punkt) zu
   Lage zweier Parabeln; 2021-OS-K7c (Lösbarkeit) keiner Stufe.
+- Dreiecke: alle Stufen schon voll, keine neue Aufgabe. Zweite Stufe
+  „Seite berechnen“ (Sinussatz) heißt hier „Seite berechnen (Sinussatz)“.
+  Keiner Stufe zugeordnet (kein Zuschnitt-Handgriff): Winkel an
+  Parallelen, Scheitel- und Nebenwinkel (2014-OS-B1f, 2015-OS-B1d,
+  2019-OS-B1a, 2020-OS-B1g), Teilwinkel (2016-OS-K7a, 2018-OS-K4a),
+  Dreiecksungleichung (2020-OS-B1i), Figur nach Spiegelung (2018-OS-B1h).
