@@ -730,6 +730,97 @@ def p_2020_OS_K7c():
     return kette(naeh(de, R(132, 10), " m"), naeh(de - 10, R(32, 10), " m"))
 
 
+# ---------- 2021 (OS)
+
+def p_2021_OS_B1a():
+    return genau(11 * 60 + 38 + 2 * 60 + 35, 14 * 60 + 13, " min")
+
+def p_2021_OS_B1b():
+    return genau(R(3, 8) * 8, 3)
+
+def p_2021_OS_B1c():
+    return genau(550 * R(20, 100), 110, " €")
+
+def p_2021_OS_B1e():
+    return genau(solve(Eq(5 * x - 4, 36), x)[0], 8)
+
+def p_2021_OS_B1f():
+    return genau((R(408, 100) + R(388, 100) + R(392, 100) + R(412, 100)) / 4, 4, " m")
+
+def p_2021_OS_B1g():
+    return genau((8 + (-1)) / S(-2), -R(7, 2))
+
+def p_2021_OS_B1i():
+    return kette(genau(360 - 50 - 140 - 130, 40, "°"), genau(180 - 140, 40, "°"))
+
+def p_2021_OS_K2a():
+    f = 3 * x + 1
+    return kette(genau(f.subs(x, 0), 1), genau(f.subs(x, 1), 4))
+
+def p_2021_OS_K2b():
+    f = 3 * x + 1
+    return wahr([f.subs(x, 5) == 0, 3 > 0, f.subs(x, 0) == 1, f.subs(x, 0) == 0] == [False, True, True, False])
+
+def p_2021_OS_K2c():
+    l = solve([Eq(y, x**2 + 2 * x - 1), Eq(y, 3 * x + 1)], [x, y])
+    return wahr(sorted(l) == [(-1, -2), (2, 7)], l)
+
+def p_2021_OS_K3a():
+    return naeh(1500 * sin(gr(55)), R(12287, 10), " m")
+
+def p_2021_OS_K3b():
+    return kette(naeh(1500 * cos(gr(55)), R(8604, 10), " m"), naeh(sqrt(1500**2 - 1229**2), R(8598, 10), " m"))
+
+def p_2021_OS_K3c():
+    abd = 180 - 90 - 55
+    dbc = 109 - abd
+    bc = 2004 * sin(gr(60)) / sin(gr(dbc))
+    return kette(genau(dbc, 74, "°"), genau(180 - 60 - dbc, 46, "°"), naeh(bc, R(18055, 10), " m"), wahr(abs(N(bc) - 2004) > 1))
+
+def p_2021_OS_K4a():
+    v = pi * 29**2 * 95
+    return kette(naeh(v, 250998, " cm³", tol=1), naeh(v / 1000, 251, " l", tol=R(1, 2)))
+
+def p_2021_OS_K4b():
+    return kette(genau(pi * 58**2 * 95 / (pi * 29**2 * 95), 4), naeh(pi * 58**2 * 95 / 1000, 1004, " l", tol=R(1, 2)))
+
+def p_2021_OS_K4c():
+    return kette(genau(R(55, 10), R(55, 10), " cm"), genau(R(2 * 29, 10), R(58, 10), " cm"), wahr(2 * 29 > 55))
+
+def p_2021_OS_K5a():
+    w = [7, R(79, 10), 9, R(89, 10), R(93, 10), R(97, 10), R(88, 10), R(89, 10), R(88, 10)]
+    return kette(genau(max(w) - min(w), R(27, 10)), genau(sum(w), R(783, 10)), genau(sum(w) / 9, R(87, 10)),
+                 naeh((9 - R(79, 10)) / R(79, 10) * 100, R(139, 10), " %"))
+
+def p_2021_OS_K5b():
+    return genau(100 - 17 - 66 - 6 - 1, 10, " %")
+
+def p_2021_OS_K6a():
+    m = R(38 - 40, 10)
+    return kette(genau(40 + m * 10, 38), genau(40 + m * 80, 24, " cm"))
+
+def p_2021_OS_K6b():
+    return kette(genau(R(80, 5), 16), genau(R(40, 2), 20))
+
+def p_2021_OS_K6c():
+    f = -R(2, 10) * x + 40
+    return kette(genau(f.subs(x, 0), 40), genau(f.subs(x, 10), 38))
+
+def p_2021_OS_K6d():
+    return genau(solve(Eq(-R(2, 10) * x + 40, 0), x)[0], 200, " min")
+
+def p_2021_OS_K7a():
+    return kette(genau((R(20, 100) * x + 5).subs(x, 10), 7), genau((5 * x + 20).subs(x, 2), 30))
+
+def p_2021_OS_K7b():
+    l = solve([Eq(2 * x + 2 * y, R(7780, 100)), Eq(x + 3 * y, R(6490, 100))], [x, y])
+    return wahr(l == {x: R(2590, 100), y: 13}, l)
+
+def p_2021_OS_K7c():
+    return kette(wahr(solve((x + 7)**2, x) == [-7]), wahr(set(solve(Eq((x + 8)**2, 16), x)) == {-4, -12}),
+                 wahr(real_roots(Poly(x**2 + 1, x)) == []))
+
+
 # ---------- Ausführung
 
 def alle():

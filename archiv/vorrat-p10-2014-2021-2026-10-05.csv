@@ -218,3 +218,31 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2020-OS-K7a;AB ≈ 36,1 m;AB² = 12² + 34² = 1300;Satz des Pythagoras|Hypotenuse;;;ok
 2020-OS-K7b;QC = 15 m;½ · QC · 12 = 90;Dreiecksfläche|Formel umstellen|Höhe;Lineare Gleichungen;;ok
 2020-OS-K7c;DP ≈ 3,2 m;∢D = 180° − 115° − 16° = 49° | DE : sin 115° = 11 : sin 49° ⇒ DE ≈ 13,2 m;Sinussatz|Winkelsumme|Teilstrecke;Ebene Figuren und Winkel;;ok
+2021-OS-B1a;14:13 Uhr;;Uhrzeit|Zeitspanne|Fahrplan;;;ok
+2021-OS-B1b;3 der 8 Kästchen markiert;;Bruchteil|Rechteck|Kästchen;;;ok
+2021-OS-B1c;110 €;;Rabatt|Prozentwert|Grundwert;;;ok
+2021-OS-B1d;S(−2 | −1);;Scheitelpunkt|Normalparabel|Koordinaten ablesen;;;nicht rechenbar
+2021-OS-B1e;5x − 4 = 36;;Gleichung aufstellen|Fünffaches|vermindert um|Variable;;;ok
+2021-OS-B1f;4,00 m;;arithmetisches Mittel|Durchschnitt|Summe;;;ok
+2021-OS-B1g;−3,5;;Termwert|einsetzen|negative Zahl|Division;Terme umformen;;ok
+2021-OS-B1h;z = √(x² + y²);;Satz des Pythagoras|Hypotenuse|Formel umstellen;Potenzen und Wurzeln;;nicht rechenbar
+2021-OS-B1i;α = 40°;;Winkelsumme im Viereck|Trapez|Nebenwinkel;;;ok
+2021-OS-B1j;4;;Symmetrieachse|Quadrat|Diagonale|Mittelsenkrechte;Ebene Figuren und Winkel;;nicht rechenbar
+2021-OS-K2a;Gerade durch (0 | 1) und (1 | 4);y-Achsenabschnitt 1, Steigungsdreieck 1 nach rechts, 3 nach oben;Gerade zeichnen|Steigungsdreieck|y-Achsenabschnitt;Koordinaten und Zeichnen;;ok
+2021-OS-K2b;Aussage 2 und 3 richtig;f(5) = 16 ≠ 0;Punktprobe|monoton steigend|y-Achsenabschnitt|Ursprung;;;ok
+2021-OS-K2c;S₁(−1 | −2) | S₂(2 | 7);x² + 2x − 1 = 3x + 1 ⇒ x² − x − 2 = 0 | x₁ = −1, x₂ = 2 | y = 3x + 1 ⇒ y₁ = −2, y₂ = 7;Schnittpunkt|Gleichsetzen|quadratische Gleichung|p-q-Formel;Quadratische Gleichungen|Lineare Funktionen;;ok
+2021-OS-K3a;AB = 1500 · sin 55° ≈ 1228,7 m ≈ 1229 m;sin 55° = AB : 1500;Sinus|Gegenkathete|Hypotenuse|Nachweis;;;ok
+2021-OS-K3b;AD ≈ 860,4 m;cos 55° = AD : 1500;Kosinus|Ankathete|Hypotenuse;Satz des Pythagoras;;abw: 859.9762 m
+2021-OS-K3c;BC ≈ 1805,5 m | Aussage falsch (DC = 2004 m);∢DBC = 109° − 35° = 74° | BC : sin 60° = 2004 : sin 74°;Sinussatz|Winkelsumme|Teilwinkel|Aussage prüfen;Ebene Figuren und Winkel;;ok
+2021-OS-K4a;V = π · 29² · 95 ≈ 250 998 cm³ ≈ 251 l;1 l = 1 dm³ = 1000 cm³;Zylinder|Volumen|Liter|Nachweis;Einheiten umrechnen;;ok
+2021-OS-K4b;nein, Volumen vervierfacht sich (≈ 1004 l);(2r)² = 4r²;Zylinder|Radius verdoppeln|quadratische Abhängigkeit|Begründen;;;ok
+2021-OS-K4c;Rechteck 5,5 cm × 8 cm und Kreis d = 5,8 cm, beschriftet | Maßstab 1 : 10 | nein, 58 cm > 55 cm;d = 58 cm | 55 cm ≙ 5,5 cm, 58 cm ≙ 5,8 cm;Maßstab|Draufsicht|Kreis|Rechteck|Durchmesser;Koordinaten und Zeichnen|Flächeninhalt und Umfang;;ok
+2021-OS-K5a;2,7 Mio. | 8,7 Mio. | ≈ 13,9 %;9,7 − 7,0 = 2,7 | Summe 78,3 Mio. | 78,3 : 9 = 8,7 | 9,0 − 7,9 = 1,1 Mio.;Spannweite|arithmetisches Mittel|prozentuale Zunahme|Säulendiagramm;Prozentrechnung|Diagramme lesen und beurteilen;;ok
+2021-OS-K5b;10 % | ab 12 Uhr im Uhrzeigersinn: Getreide, Flüssigkeiten, Schrott, Sonstiges, Container;100 − 17 − 66 − 6 − 1 = 10;Kreisdiagramm|Anteil|Sektor|Prozent;;;ok
+2021-OS-K6a;40 cm | 24 cm;Abnahme 2 cm je 10 min;Wertetabelle|konstante Abnahme|lineare Funktion;;;ok
+2021-OS-K6b;x-Achse 1 Kästchen = 5 min, y-Achse 1 Kästchen = 2 cm | fallende Strecke von (0 | 40) bis (80 | 24);80 min ≙ 16 Kästchen | 40 cm ≙ 20 Kästchen;Koordinatensystem|Achseneinteilung|Skala|Graph zeichnen;Koordinaten und Zeichnen;2021-OS-K6a;ok
+2021-OS-K6c;y: Höhe in cm | x: Zeit in min | 40: Anfangshöhe in cm;;Funktionsgleichung deuten|Variable|Anfangswert|Steigung;;;ok
+2021-OS-K6d;200 min (3 h 20 min);−0,2x + 40 = 0 ⇒ x = 200;Nullstelle|lineare Gleichung|Brenndauer;Lineare Gleichungen;;ok
+2021-OS-K7a;Fahrpreis: y = 0,20x + 5 | Fitnesscenter: y = 5x + 20;20 ct = 0,20 €;Grundgebühr|Preis je Einheit|Funktionsgleichung zuordnen;Einheiten umrechnen;;ok
+2021-OS-K7b;I: 2x + 2y = 77,80, II: x + 3y = 64,90 | Erwachsener 25,90 €, Kind 13,00 €;x = 64,90 − 3y | 129,80 − 4y = 77,80 ⇒ y = 13;Gleichungssystem|zwei Unbekannte|Einsetzungsverfahren|Eintrittspreis;;;ok
+2021-OS-K7c;Aussage 1 wahr | Aussage 2 falsch (Lösungen −4 und −12) | z. B. x² + 1 = 0;x + 8 = ±4 ⇒ x = −4 oder x = −12 | x² = −1 hat keine Lösung;Anzahl der Lösungen|Wurzelziehen|keine Lösung|quadratische Gleichung;;;ok

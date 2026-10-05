@@ -33,6 +33,7 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
   - 2018: erledigt 2026-10-05 15:39 UTC. 32 Zeilen; sympy ok 28, abw 0, nicht rechenbar 4 (ein Fehler im eigenen Prüfskript, kein Katalogfehler); zwischenergebnis 4 Katalogwerte ersetzt.
   - 2019: erledigt 2026-10-05 15:40 UTC. 29 Zeilen; sympy ok 24, abw 0, nicht rechenbar 5; zwischenergebnis 9 Katalogwerte ersetzt.
   - 2020: erledigt 2026-10-05 15:40 UTC. 32 Zeilen; sympy ok 26, abw 0, nicht rechenbar 6; zwischenergebnis 9 Katalogwerte ersetzt.
+  - 2021: erledigt 2026-10-05 15:41 UTC. 28 Zeilen; sympy ok 24, abw 1, nicht rechenbar 3. Abweichung 2021-OS-K3b: ergebnis nennt für den Pythagoras-Weg mit AB = 1229 m den Wert 859,8 m, sympy 860,0 m; ergebnis nicht geändert (amtliche Fassung), kurzloesung 860,4 m über cos stimmt.
 ## zwischenergebnis: Katalogwert → Beitabelle (57)
 
   2025-OS-B1e: '145/360' → '145 : 360 = 0,4028'
