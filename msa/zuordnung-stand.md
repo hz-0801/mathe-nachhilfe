@@ -5,19 +5,20 @@ KAPITEL` (Prozent-Ausgabe byteidentisch mit
 `werkzeuge/prozent-zuordnung.py`). Je Kapitel: `msa/zuordnung-<kapitel>.csv`,
 Zusatz ohne Bank-Sprosse in `msa/<kapitel>-zusatz.jsonl`.
 Grenze des Laufs: 400 neue Aufgaben. Ein Neustart macht beim ersten
-Kapitel ohne „fertig“ weiter.
+Kapitel ohne „fertig“ weiter. Lauf abgeschlossen 2026-10-05: alle neun
+Kapitel fertig, 4 neue Aufgaben (Grenze 400 nicht berührt).
 
 | Kapitel | Stand | Stufen (Kern) | fehlen vorher | fehlen nachher | neu | Commit Bank | Commit hier |
 |---|---|---|--:|--:|--:|---|---|
-| Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | siehe git log |
-| Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | siehe git log |
-| Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | siehe git log |
-| Daten | fertig | 10 (5) | 0 | 0 | 0 | – | siehe git log |
-| Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | siehe git log |
-| Körper | fertig | 8 (2) | 0 | 0 | 0 | – | siehe git log |
-| Flächen | fertig | 5 (4) | 2 | 0 | 2 | e2035eb | siehe git log |
-| Wachstum | fertig | 4 (3) | 0 | 0 | 0 | – | siehe git log |
-| Gleichungssysteme | fertig | 4 (2) | 0 | 0 | 0 | – | siehe git log |
+| Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | 89203e4 |
+| Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | 77cb4cc |
+| Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | 548de90 |
+| Daten | fertig | 10 (5) | 0 | 0 | 0 | – | cb0a4ac |
+| Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | 38ceb45 |
+| Körper | fertig | 8 (2) | 0 | 0 | 0 | – | 67fa104 |
+| Flächen | fertig | 5 (4) | 2 | 0 | 2 | e2035eb | eae258a |
+| Wachstum | fertig | 4 (3) | 0 | 0 | 0 | – | 73bfbf8 |
+| Gleichungssysteme | fertig | 4 (2) | 0 | 0 | 0 | – | 392cc47 |
 
 Summe neu bisher: 4.
 
@@ -66,3 +67,29 @@ Summe neu bisher: 4.
   2020-OS-K4b).
 - Gleichungssysteme: alle Stufen schon voll, keine neue Aufgabe. Stufe
   lösen trotz einer echten als Kern (Nebenleistung 2016, 2021, 2024).
+
+## Entscheidungen und Befunde des Laufs
+
+- Spaltenfolge wie `msa/zuordnung-prozent.csv` (kern_grund am Ende),
+  damit die Prozent-Ausgabe byteidentisch bleibt.
+- Echte Teilaufgaben: Zuschnitt 2022–2026 (ids und neben) plus
+  Katalogzeilen 2014–2021 (basis, kontext), deren typ denselben
+  Handgriff nennt; typ_neben nur, wenn keine Stufe den typ trägt.
+- Kern: mindestens zwei echte und eine Bank-Kette mit Grundfall für den
+  Handgriff, oder Basisteil fast jedes Jahr (Begründung je Zeile).
+- Innermathematisch: Die Prozent-Regel (Text ohne Zahlen unter 40
+  Zeichen) hält Aufgaben mit Zahlen in Grafik oder Term („Lies n ab“,
+  „Zeichne f(x) = …“, „Ein Zylinder hat r = … und h = …“) für eine
+  Sachaufgabe und zählt alle Varianten einmal. Solche Sprossen sind in
+  den Daten als innermathematisch markiert („(i)“), jede Zeile zählt.
+- Die Bank trägt fast alle Stufen schon über das Ziel; der Engpass sind
+  Stufen mit genau einer Sprosse (Punkt ankreuzen, Gegenereignis,
+  Verschnitt). Die Zuordnung ist großzügig (Sprossen desselben
+  Handgriffs aus mehreren Ketten); wer strenger zählt, findet eher
+  Lücken bei Stufen mit einer Sprosse.
+- bank-pruef.py: keine neue Abweichung; je neu gefüllter Sprosse die
+  Mengenwarnung (4 oder 5 statt 3 Zeilen), wie bei Prozent. Vorher schon
+  2 Abweichungen in lineare-funktionen (Sperre f(x) = 3x − 7 gegen
+  2014-GYM-B1i, e2-k7-s2-v1 und e4-k4-s2-v1), nicht angefasst.
+- stand.md der Bank-Einträge nicht fortgeschrieben (außerhalb des
+  Schreibbereichs); die Zeilen tragen herkunft.

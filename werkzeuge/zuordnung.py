@@ -49,7 +49,6 @@ MN=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BANK=os.path.join(os.path.dirname(MN),'aufgabenbank')
 KAPITEL={}
 # ---- Daten je Kapitel (Stand 2026-10-05) ----
-#@DATEN@
 def _i(e,*ss): return [(e,s,None,'inner') for s in ss]
 def _a(e,*ss): return [(e,s,None) for s in ss]
 P='prozentrechnung';Z='zinsrechnung'
