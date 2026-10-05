@@ -1,6 +1,22 @@
 # -*- coding: utf-8 -*-
 """msa-bau.py – Gerüst für die Erfassung eines Hefts im Profil msa und Selbstprüfung des Bestands.
-Version 0.3 · 23.09.2026 · gilt mit katalog-prompt.md v0.9 und msa.md v0.7
+Version 0.4 · 05.10.2026 · gilt mit katalog-prompt.md v0.9 und msa.md v0.7
+
+Änderungen gegenüber 0.3 (Auftrag Übernahme Vorrat P10, 05.10.2026): zwei neue
+Katalogfelder (Beschluss des Lehrers 05.10.): neben (jede mitbenutzte
+Fertigkeit als Thema der Themenliste, getrennt von typ_neben) steht nach
+typ_neben, kurzloesung (Lösung fürs Lösungsblatt, ohne Sätze, mit Einheit;
+ergebnis bleibt die amtliche Fassung) steht nach ergebnis. Der Kern
+(katalog-prompt.md) nennt die beiden Felder noch nicht; das Skript nimmt
+seine Kopfzeile mit oder ohne sie an (ZUSATZ). Eine Katalogdatei mit der
+alten Kopfzeile (37 Felder) wird beim Lesen um zwei leere Felder ergänzt.
+Neuer Aufruf: python3 msa-bau.py --korrektur DATEI [DATEI ...] – liest
+Korrekturtabellen (Kopf id;kurz;zwischen;stich;neben;abh;sympy wie die
+Vorratstabellen oder die Feldnamen selbst), setzt je id die gefüllten
+Felder (leerer Wert = Katalogwert bleibt), prüft den ganzen Bestand wie die
+Selbstprüfung und schreibt alle drei Katalogdateien. ZEILEN wird dabei
+nicht angefasst. Ohne DATEI: nur Umbau auf die neue Kopfzeile plus
+Selbstprüfung. Neue Prüfung je Zeile: neben nennt nur Themen aus msa.md § 6.
 
 Änderungen gegenüber 0.2 (Auftrag Gymnasialhefte, 23.09.2026): papier-Muster um
 GYM erweitert (msa.md § 4); KONFIG führt daneben „dateien" (Liste, weil ab 2019
@@ -68,9 +84,11 @@ KONFIG = {
 
 # ---- technischer Block, nicht ändern ----
 HEAD = ("id;jahr;papier;block;aufgabe;titel;teilaufgabe;seite;punkte;stern;hilfsmittel;afb_amtlich;"
-        "leitidee;thema;typ;typ_neben;stichwoerter;voraussetzungen;format;operator;antwort;material;"
+        "leitidee;thema;typ;typ_neben;neben;stichwoerter;voraussetzungen;format;operator;antwort;material;"
         "skizze;kontext;textumfang;gegeben;gesucht;verfahren;schritte;zahlenraum;einheiten;"
-        "abhaengig_von;ergebnis;zwischenergebnis;niveau_geschaetzt;fehlerquelle;bemerkung").split(";")
+        "abhaengig_von;ergebnis;kurzloesung;zwischenergebnis;niveau_geschaetzt;fehlerquelle;bemerkung").split(";")
+ZUSATZ = ("neben", "kurzloesung")  # Profilfelder seit 0.4, im Kern noch nicht genannt
+ALT_HEAD = [k for k in HEAD if k not in ZUSATZ]
 
 ZEILEN = []
 
@@ -515,7 +533,7 @@ def vokabular():
     """Kopfzeile und Formvokabular aus dem Kern, Leitideen und Themen aus msa.md § 5–6."""
     kern, profil = lies(KERN), lies(PROFIL)
     m = re.search(r"^Kopfzeile:\s*\n(id;.+)$", kern, re.M)
-    if not m or m.group(1).strip().split(";") != HEAD:
+    if not m or m.group(1).strip().split(";") not in (HEAD, ALT_HEAD):
         sys.exit(f"{KERN}: Kopfzeile fehlt oder weicht von HEAD ab.")
     v = {feld: liste_aus_klammer(kern, feld)
          for feld in ("format", "antwort", "material", "zahlenraum", "textumfang", "niveau_geschaetzt")}
@@ -545,6 +563,13 @@ def lade(pfad, kopf):
         rows = list(csv.reader(fh, delimiter=";"))
     if not rows:
         return kopf, []
+    if kopf is HEAD and rows[0] == ALT_HEAD:
+        # Umbau 0.4: fehlende Zusatzfelder leer einfügen
+        neu = []
+        for r in rows[1:]:
+            d = dict(zip(ALT_HEAD, r))
+            neu.append([d.get(k, "") for k in HEAD])
+        return HEAD, neu
     if rows[0] != kopf:
         sys.exit(f"{pfad}: Kopfzeile weicht ab")
     return rows[0], rows[1:]
@@ -582,6 +607,9 @@ def pruefe_zeile(z, a, typ_namen, alle_ids, konfig=None):
             a(t in typ_namen, f"{i}: Typ nicht in {TYP}: {t}")
     for dep in [s for s in z["abhaengig_von"].split("|") if s]:
         a(dep in alle_ids, f"{i}: abhaengig_von zeigt ins Leere: {dep}")
+    alle_themen = {t for l in THEMEN.values() for t in l}
+    for t in [s for s in z["neben"].split("|") if s]:
+        a(t in alle_themen, f"{i}: neben nennt kein Thema aus {PROFIL} § 6: {t}")
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
           f"{i}: Fragezeichen in {k} ohne Grund in bemerkung")
@@ -594,7 +622,72 @@ def pruefe_zeile(z, a, typ_namen, alle_ids, konfig=None):
         a(int(z["seite"]) <= grenze, f"{i}: Seite größer als der Heftumfang")
 
 
+# Spalten einer Korrekturtabelle -> Katalogfeld (Vorratstabellen-Kopf oder Feldname)
+KORR_SPALTEN = {"kurz": "kurzloesung", "zwischen": "zwischenergebnis", "stich": "stichwoerter",
+                "neben": "neben", "abh": "abhaengig_von", "kurzloesung": "kurzloesung",
+                "zwischenergebnis": "zwischenergebnis", "stichwoerter": "stichwoerter",
+                "abhaengig_von": "abhaengig_von"}
+
+
+def korrektur(dateien):
+    """Korrekturtabellen auf den Bestand anwenden, alles prüfen, alle Kataloge schreiben."""
+    fehler = []
+    def a(cond, msg):
+        if not cond:
+            fehler.append(msg)
+    pfade = list(KAT.values()) + [GYM_DATEI]
+    bestand = {p: lade(p, HEAD)[1] for p in pfade}
+    _, alt_typ = lade(TYP, TYP_HEAD)
+    typ_namen = {r[0] for r in alt_typ}
+    index = {}
+    for p in pfade:
+        for r in bestand[p]:
+            index[r[0]] = r
+    geaendert, abw_zw, unbekannt = {}, [], []
+    for d in dateien:
+        with io.open(d, encoding="utf-8", newline="") as fh:
+            tab = list(csv.DictReader(fh, delimiter=";"))
+        for t in tab:
+            r = index.get(t["id"])
+            if r is None:
+                unbekannt.append(t["id"]); continue
+            for spalte, wert in t.items():
+                feld = KORR_SPALTEN.get(spalte)
+                if not feld or not (wert or "").strip():
+                    continue
+                j = HEAD.index(feld)
+                if r[j] != wert:
+                    if feld == "zwischenergebnis" and r[j].strip():
+                        abw_zw.append((t["id"], r[j], wert))
+                    r[j] = wert
+                    geaendert[feld] = geaendert.get(feld, 0) + 1
+    a(not unbekannt, f"Korrektur nennt ids, die nicht im Katalog stehen: {unbekannt}")
+    alle = [dict(zip(HEAD, r)) for p in pfade for r in bestand[p]]
+    alle_ids = {z["id"] for z in alle}
+    a(len(alle_ids) == len(alle), "doppelte id im Bestand")
+    for z in alle:
+        pruefe_zeile(z, a, typ_namen, alle_ids)
+    if fehler:
+        print(f"ABBRUCH – {len(fehler)} Fehler, nichts geschrieben:")
+        for f_ in fehler:
+            print(" -", f_)
+        sys.exit(1)
+    for p in pfade:
+        schreibe(p, HEAD, bestand[p])
+        _, zurueck = lade(p, HEAD)
+        if zurueck != bestand[p] or any(len(r) != len(HEAD) for r in zurueck):
+            sys.exit(f"{p}: Rückweg verändert Zeilen")
+    print("Korrektur geschrieben: " + ", ".join(f"{p} {len(bestand[p])} Zeilen" for p in pfade))
+    print("Geänderte Felder: " + (", ".join(f"{k} {v}" for k, v in sorted(geaendert.items())) or "keine"))
+    print(f"zwischenergebnis ersetzt, wo der Katalog einen anderen Wert hatte: {len(abw_zw)}")
+    for i, alt_w, neu_w in abw_zw:
+        print(f"  {i}: {alt_w!r} → {neu_w!r}")
+
+
 def main():
+    if "--korrektur" in sys.argv:
+        korrektur(sys.argv[sys.argv.index("--korrektur") + 1:])
+        return
     fehler = []
     def a(cond, msg):
         if not cond:
@@ -704,7 +797,7 @@ def main():
             continue
         _, zurueck = lade(p, HEAD)
         for gel, z in zip(zurueck[len(alt_p):], zeilen_p):
-            if len(gel) != 37 or any(v != z[k] for k, v in zip(HEAD, gel)):
+            if len(gel) != len(HEAD) or any(v != z[k] for k, v in zip(HEAD, gel)):
                 sys.exit(f"{z['id']}: Rückweg verändert die Zeile")
         roh = io.open(p, encoding="utf-8", newline="").read()
         if "\r" in roh or not all(l.startswith('"') and l.endswith('"') for l in roh.splitlines()):
