@@ -17,7 +17,7 @@ Kapitel ohne „fertig“ weiter.
 | Körper | fertig | 8 (2) | 0 | 0 | 0 | – | siehe git log |
 | Flächen | fertig | 5 (4) | 2 | 0 | 2 | e2035eb | siehe git log |
 | Wachstum | fertig | 4 (3) | 0 | 0 | 0 | – | siehe git log |
-| Gleichungssysteme | offen | | | | | | |
+| Gleichungssysteme | fertig | 4 (2) | 0 | 0 | 0 | – | siehe git log |
 
 Summe neu bisher: 4.
 
@@ -64,3 +64,5 @@ Summe neu bisher: 4.
   zugeordnet: Wachstumsart begründen (2016-OS-K4d, 2018-OS-K2b),
   Schwellenwert (2018-OS-K2c), Verdopplungszeit (2016-OS-K4c,
   2020-OS-K4b).
+- Gleichungssysteme: alle Stufen schon voll, keine neue Aufgabe. Stufe
+  lösen trotz einer echten als Kern (Nebenleistung 2016, 2021, 2024).
