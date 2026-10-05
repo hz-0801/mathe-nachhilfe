@@ -13,8 +13,15 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
 - Teil 2 – erledigt 2026-10-05 15:33 UTC. fhr-bau.py 0.5: dieselbe Kopfzeile
   (neben, kurzloesung leer); `python3 fhr-bau.py --umbau` (im Ordner fhr/),
   253 Zeilen, Selbstprüfung bestanden.
-- Teil 3 – offen
-- Teil 4 – offen
+- Teil 3 – erledigt 2026-10-05 15:34 UTC. Gegenprobe: basis 136, gym 248, kontext 282,
+  fhr 253 Datenzeilen (unverändert); 146/146 Beitabellen-ids im Katalog;
+  skript-zuschnitt.py p10 fehlerfrei; 2025-OS-B1a kurzloesung „30 €“;
+  zweiter Lauf --korrektur ändert nichts (byteidentisch).
+- Teil 4 – erledigt 2026-10-05 15:34 UTC. Beitabelle nach
+  `archiv/vorrat-p10-2022-2026-2026-10-05.csv`; neu anwenden mit
+  `python3 msa-bau.py --korrektur ../archiv/vorrat-p10-2022-2026-2026-10-05.csv`.
+  Verweise außerhalb des Schreibbereichs nicht angepasst: README.md,
+  uebergabe.md, faellig.md.
 - Teil 5 – offen
 
 ## zwischenergebnis: Katalogwert → Beitabelle (57)

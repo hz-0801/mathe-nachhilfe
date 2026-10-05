@@ -1,5 +1,10 @@
 # Vorrat P10 2022–2026 – Stand
 
+Beitabelle: `archiv/vorrat-p10-2022-2026-2026-10-05.csv` (bis 05.10.2026
+`msa/vorrat-p10-2022-2026.csv`); am 05.10.2026 über `msa-bau.py --korrektur`
+in die Katalogfelder kurzloesung, zwischenergebnis, stichwoerter, neben,
+abhaengig_von übernommen (`msa/uebernahme-stand.md`).
+
 Beginn: 2026-10-04 14:30 UTC. Teilstücke: 4 à 37 Zeilen (146 Zeilen, basis dann kontext).
 
 - Teilstück 1/4: 37 Zeilen (2025-OS-B1a … 2023-OS-B1i), gebaut 14:32 UTC; sympy ok 28, nicht rechenbar 9.
