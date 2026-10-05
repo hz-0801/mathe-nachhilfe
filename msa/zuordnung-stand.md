@@ -13,13 +13,13 @@ Kapitel ohne „fertig“ weiter.
 | Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | siehe git log |
 | Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | siehe git log |
 | Daten | fertig | 10 (5) | 0 | 0 | 0 | – | siehe git log |
-| Wahrscheinlichk. | offen | | | | | | |
+| Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | siehe git log |
 | Körper | offen | | | | | | |
 | Flächen | offen | | | | | | |
 | Wachstum | offen | | | | | | |
 | Gleichungssysteme | offen | | | | | | |
 
-Summe neu bisher: 1.
+Summe neu bisher: 2.
 
 ## Notizen je Kapitel
 
@@ -42,3 +42,9 @@ Summe neu bisher: 1.
 - Daten: alle Stufen schon voll, keine neue Aufgabe. Keiner Stufe
   zugeordnet: Wert ablesen und Werte nach Bedingung (2016-OS-K2a/b,
   2020-OS-K2b), relative Häufigkeit (2015-OS-K7b).
+- Wahrscheinlichk.: neu 1 (Kontext und Struktur: Freiwurf mit
+  Trefferwahrscheinlichkeit 0,7, wahrscheinlichkeit e3-k3-s6-v4) für
+  Gegenereignis. Nur Eintrag wahrscheinlichkeit (Sek I);
+  zufallsexperimente-und-pfadregeln ist Sek II. Keiner Stufe zugeordnet:
+  Anzahl der Anordnungen und Ziffern (2015-OS-K5a, 2016-OS-K5a/b,
+  2017-OS-K6b).

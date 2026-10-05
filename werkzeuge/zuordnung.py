@@ -50,6 +50,8 @@ BANK=os.path.join(os.path.dirname(MN),'aufgabenbank')
 KAPITEL={}
 # ---- Daten je Kapitel (Stand 2026-10-05) ----
 #@DATEN@
+def _i(e,*ss): return [(e,s,None,'inner') for s in ss]
+def _a(e,*ss): return [(e,s,None) for s in ss]
 P='prozentrechnung';Z='zinsrechnung'
 KAPITEL['prozent']=dict(eintraege=[P,Z],stufen=[
  ('Prozent und Anteil umwandeln',['2022-OS-B1f','2020-OS-B1a'],[(P,'e1-k1-s3',None),(P,'e1-k1-s6',None),(P,'e1-k1-s8',['2020-OS-B1a','2022-OS-B1f'])]),
@@ -121,8 +123,7 @@ KAPITEL['quadratische']=dict(eintraege=[QF,QG],stufen=[
  'Gerade und Parabel gleichsetzen':('ja','3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall'),
 })
 PY='pythagoras';TR='trigonometrie';WD='winkel-dreiecke';SY='symmetrie-abbildungen'
-def _i(e,*ss): return [(e,s,None,'inner') for s in ss]
-def _a(e,*ss): return [(e,s,None) for s in ss]
+
 KAPITEL['dreiecke']=dict(eintraege=[PY,TR,WD,SY],stufen=[
  ('Gleichung aufstellen',['2022-OS-B1g','2024-OS-B1f','2026-FOR-B1j','2021-OS-B1h','2017-OS-B1d'],_i(PY,'e1-k2-s6','e1-k2-s7','e1-k2-s8','e1-k5-s4','e2-k3-s5','e2-k6-s4')),
  ('Kathete oder Hypotenuse direkt',['2022-OS-K5a','2024-OS-K6a','2026-FOR-K4a','2022-OS-K2c','2020-OS-K7a','2019-OS-K3a','2016-OS-K7b'],_i(PY,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s5','e2-k3-s1','e2-k3-s2','e2-k3-s3','e2-k3-s6')+_a(PY,'e1-k2-s10','e2-k3-s7','e1-k5-s3','e2-k6-s3')+[(PY,'e1-k2-s15',['2020-OS-K7a']),(PY,'e2-k3-s12',['2022-OS-K5a','2024-OS-K6a']),(PY,'e3-k2-s19',['2022-OS-K2c'])]),
@@ -153,7 +154,7 @@ KAPITEL['dreiecke']=dict(eintraege=[PY,TR,WD,SY],stufen=[
  'Symmetrieachsen zählen':('ja','3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall'),
 })
 DA='daten'
-def _a(e,*ss): return [(e,s,None) for s in ss]
+
 KAPITEL['daten']=dict(eintraege=[DA],stufen=[
  ('Minimum, Maximum, Spannweite',['2026-FOR-K3a','2024-OS-K2a','2023-OS-K6c','2022-OS-K4a','2021-OS-K5a','2020-OS-K2d','2019-OS-B1i','2014-OS-K4a','2014-OS-K4b'],_a(DA,'e4-k1-s1','e4-k1-s2','e4-k1-s9','e4-k1-s8')),
  ('Median',['2024-OS-B1h','2015-OS-B1f'],_a(DA,'e4-k1-s4','e4-k1-s5')),
@@ -176,6 +177,24 @@ KAPITEL['daten']=dict(eintraege=[DA],stufen=[
  'ergänzen':('ja','4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall'),
  'Aussage prüfen':('ja','3 echte (2018, 2019, 2022), Bank-Kette Beurteilen mit Grundfall (Aussage mit einem Wert prüfen)'),
  'falschen Eindruck erklären':('nein','2 echte (2014, 2026), Niveau III, eine Sprosse der Kette Beurteilen'),
+})
+WK='wahrscheinlichkeit'
+KAPITEL['wahrscheinlichkeit']=dict(eintraege=[WK],stufen=[
+ ('Ergebnisse aufzählen',['2025-OS-K3a','2020-OS-K6a','2017-OS-B1f'],_a(WK,'e1-k1-s1','e1-k1-s3','e1-k1-s6','e1-k1-s7','e1-k2-s1','e1-k3-s3')),
+ ('Wahrscheinlichkeit angeben',['2024-OS-K5a','2026-FOR-K6a','2019-OS-K6a','2018-OS-K7b','2017-OS-K6a','2016-OS-K5c','2016-OS-K5d','2014-OS-K6a','2016-OS-B1f','2015-OS-B1a','2014-OS-B1b','2014-OS-B1d'],_a(WK,'e2-k3-s1','e2-k3-s2','e2-k3-s3','e2-k3-s4','e2-k3-s5','e2-k3-s6','e2-k3-s10','e2-k3-s12','e2-k3-s13','e2-k4-s1','e2-k6-s3')),
+ ('Baum ergänzen',['2024-OS-K5b','2026-FOR-K6b','2020-OS-K6c','2019-OS-K6b','2015-OS-K7d','2014-OS-K6b'],_a(WK,'e3-k3-s1','e3-k3-s2','e3-k3-s11','e3-k4-s3','e4-k1-s2','e4-k1-s6')),
+ ('Pfadregel',['2025-OS-K3b','2025-OS-K3c','2020-OS-K6b','2014-OS-K6c'],_a(WK,'e3-k3-s3','e3-k3-s4','e3-k3-s5','e3-k3-s8','e3-k3-s9','e3-k4-s4')),
+ ('ohne Zurücklegen',['2024-OS-K5c','2019-OS-K6c','2018-OS-K7c'],_a(WK,'e4-k1-s1','e4-k1-s3','e4-k1-s4','e4-k1-s5','e4-k1-s7','e4-k1-s9','e4-k1-s10','e4-k2-s4')),
+ ('Gegenereignis',['2026-FOR-K6c'],_a(WK,'e3-k3-s6','e3-k3-s7','e2-k3-s7')),
+ ('Zufallsgerät entwerfen',['2025-OS-K3d','2026-FOR-K6d','2019-OS-B1g','2018-OS-B1j'],_a(WK,'e2-k3-s9','e3-k3-s10','e2-k3-s8')),
+],kern={
+ 'Ergebnisse aufzählen':('ja','3 echte (2017, 2020, 2025), Einstieg der Zufallsaufgabe (Niveau I), Bank-Kette Zählen mit Grundfall'),
+ 'Wahrscheinlichkeit angeben':('ja','12 echte 2014–2026, fast jedes Jahr Basis und Kontext (Niveau I), Bank-Kette Einstufig mit Grundfall'),
+ 'Baum ergänzen':('ja','6 echte 2014–2026 (Niveau I/II), Bank-Kette Mit Zurücklegen mit Grundfall (Baum zeichnen)'),
+ 'Pfadregel':('ja','4 echte (2014, 2020, 2025 zweimal), Bank-Kette Mit Zurücklegen'),
+ 'ohne Zurücklegen':('ja','3 echte (2018, 2019, 2024, Niveau II), Bank-Kette Ohne Zurücklegen mit Grundfall'),
+ 'Gegenereignis':('nein','1 echte (2026)'),
+ 'Zufallsgerät entwerfen':('nein','4 echte (2018, 2019, 2025, 2026), aber Niveau II/III und nur Sprossen ohne eigene Kette mit Grundfall'),
 })
 # ---- Ende Daten ----
 
