@@ -152,6 +152,31 @@ KAPITEL['dreiecke']=dict(eintraege=[PY,TR,WD,SY],stufen=[
  'rechten Winkel begründen':('nein','1 echte (2025), Begründen auf mehreren Wegen (Winkelsumme, Umkehrung, Thales)'),
  'Symmetrieachsen zählen':('ja','3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall'),
 })
+DA='daten'
+def _a(e,*ss): return [(e,s,None) for s in ss]
+KAPITEL['daten']=dict(eintraege=[DA],stufen=[
+ ('Minimum, Maximum, Spannweite',['2026-FOR-K3a','2024-OS-K2a','2023-OS-K6c','2022-OS-K4a','2021-OS-K5a','2020-OS-K2d','2019-OS-B1i','2014-OS-K4a','2014-OS-K4b'],_a(DA,'e4-k1-s1','e4-k1-s2','e4-k1-s9','e4-k1-s8')),
+ ('Median',['2024-OS-B1h','2015-OS-B1f'],_a(DA,'e4-k1-s4','e4-k1-s5')),
+ ('Mittelwert',['2026-FOR-K3b','2024-OS-K2b','2021-OS-B1f','2017-OS-B1h','2016-OS-B1a','2020-OS-K2c','2015-OS-K7a'],_a(DA,'e4-k1-s6','e4-k1-s7','e4-k1-s10','e4-k1-s11','e4-k1-s12','e4-k4-s4','e6-k2-s3')),
+ ('rückwärts: fehlender Wert',['2022-OS-B1d'],_a(DA,'e4-k1-s13','e6-k2-s4')),
+ ('Aussagen prüfen, Auswirkung erklären',['2025-OS-K6a','2025-OS-K6c'],_a(DA,'e4-k1-s14','e4-k1-s15','e4-k1-s16','e4-k3-s1','e4-k4-s2')),
+ ('Winkel berechnen und beschriften',['2022-OS-K4d','2024-OS-K2c','2017-OS-K2c','2021-OS-K5b'],_a(DA,'e3-k1-s5','e3-k1-s6','e3-k1-s8','e3-k1-s9','e3-k1-s10','e3-k1-s4','e3-k3-s4')+[(DA,'e3-k1-s12',['2017-OS-K2c','2024-OS-K2c'])]),
+ ('aus Prozent darstellen',['2025-OS-K6b','2018-OS-K3c'],_a(DA,'e3-k1-s2','e3-k1-s3','e3-k3-s3')+[(DA,'e3-k1-s12',['2025-OS-K6b'])]),
+ ('ergänzen',['2026-FOR-K3d','2023-OS-K6d','2020-OS-K2a','2018-OS-K3a'],_a(DA,'e2-k2-s7','e2-k2-s8','e2-k2-s9','e2-k2-s12','e2-k3-s1','e2-k4-s3')),
+ ('Aussage prüfen',['2022-OS-K4c','2018-OS-K3d','2019-OS-K5c'],_a(DA,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s7','e5-k1-s8','e5-k4-s4')+[(DA,'e5-k1-s11',['2018-OS-K3d','2019-OS-K5c'])]),
+ ('falschen Eindruck erklären',['2026-FOR-K3e','2014-OS-K3d'],_a(DA,'e5-k1-s6','e5-k1-s9','e5-k3-s1','e5-k4-s1','e5-k4-s2')+[(DA,'e5-k1-s11',['2026-FOR-K3e'])]),
+],kern={
+ 'Minimum, Maximum, Spannweite':('ja','9 echte 2014–2026, fast jedes Jahr Einstieg der Datenaufgabe (Niveau I), Bank-Kette Kenngrößen mit Grundfall'),
+ 'Median':('nein','2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen'),
+ 'Mittelwert':('ja','7 echte 2015–2026 (Niveau I/II), Bank-Kette Kenngrößen'),
+ 'rückwärts: fehlender Wert':('nein','1 echte (Basisteil 2022)'),
+ 'Aussagen prüfen, Auswirkung erklären':('nein','2 echte, nur 2025 (Niveau II/III)'),
+ 'Winkel berechnen und beschriften':('ja','4 echte (2017, 2021, 2022, 2024), Bank-Kette Anteile darstellen mit Grundfall'),
+ 'aus Prozent darstellen':('nein','2 echte (2018, 2025)'),
+ 'ergänzen':('ja','4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall'),
+ 'Aussage prüfen':('ja','3 echte (2018, 2019, 2022), Bank-Kette Beurteilen mit Grundfall (Aussage mit einem Wert prüfen)'),
+ 'falschen Eindruck erklären':('nein','2 echte (2014, 2026), Niveau III, eine Sprosse der Kette Beurteilen'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):

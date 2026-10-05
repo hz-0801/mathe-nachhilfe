@@ -12,7 +12,7 @@ Kapitel ohne „fertig“ weiter.
 | Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | siehe git log |
 | Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | siehe git log |
 | Dreiecke | fertig | 13 (9) | 0 | 0 | 0 | – | siehe git log |
-| Daten | offen | | | | | | |
+| Daten | fertig | 10 (5) | 0 | 0 | 0 | – | siehe git log |
 | Wahrscheinlichk. | offen | | | | | | |
 | Körper | offen | | | | | | |
 | Flächen | offen | | | | | | |
@@ -39,3 +39,6 @@ Summe neu bisher: 1.
   Parallelen, Scheitel- und Nebenwinkel (2014-OS-B1f, 2015-OS-B1d,
   2019-OS-B1a, 2020-OS-B1g), Teilwinkel (2016-OS-K7a, 2018-OS-K4a),
   Dreiecksungleichung (2020-OS-B1i), Figur nach Spiegelung (2018-OS-B1h).
+- Daten: alle Stufen schon voll, keine neue Aufgabe. Keiner Stufe
+  zugeordnet: Wert ablesen und Werte nach Bedingung (2016-OS-K2a/b,
+  2020-OS-K2b), relative Häufigkeit (2015-OS-K7b).
