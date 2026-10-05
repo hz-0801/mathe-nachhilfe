@@ -19,3 +19,4 @@ weiter, der unten nicht als „fertig“ steht.
 - Teil 5, Teilstück 2019-be-gk fertig: 45 Zeilen, sympy ok 41, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:50Z
 - Teil 5, Teilstück 2020-be-gk fertig: 51 Zeilen, sympy ok 47, nicht rechenbar 4; Selbstprüfung bestanden. 2026-10-05T15:53Z
 - Teil 5, Teilstück 2021-be-gk fertig: 56 Zeilen, sympy ok 50, nicht rechenbar 6; Selbstprüfung bestanden. 2026-10-05T15:56Z
+- Teil 5, Teilstücke 2017-be-gk-cas und 2018-be-gk-cas fertig: je 16 Zeilen, sympy ok 32 (Prüffunktionen rufen für wortgleiche Teilaufgaben die WTR-Funktion auf); Selbstprüfung bestanden; skript-zuschnitt.py abi-gk unverändert fehlerfrei. 2026-10-05T15:59Z

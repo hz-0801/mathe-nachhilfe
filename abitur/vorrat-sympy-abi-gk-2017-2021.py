@@ -1728,6 +1728,252 @@ def _():
     return ok(w == [R(4, 5)] and R(9, 10) - w[0] == R(1, 10), w)
 
 
+# ============================ 2017-be-gk-cas =================================
+@pruef("2017-be-gk-cas-B1.1a")
+def _():
+    return PRUEF["2017-be-gk-B1.1a"]()
+
+
+@pruef("2017-be-gk-cas-B1.1b")
+def _():
+    return PRUEF["2017-be-gk-B1.1b"]()
+
+
+@pruef("2017-be-gk-cas-B1.1c")
+def _():
+    return PRUEF["2017-be-gk-B1.1c"]()
+
+
+@pruef("2017-be-gk-cas-B1.1e")
+def _():
+    gu, go = R(45, 100) * x - 2, R(45, 100) * x + 1
+    d = f17 - gu
+    d1 = diff(d, x)
+    w = (factor(go - f17), expand(d), factor(d1), sorted(solve(d1, x)), d.subs(x, 5), d.subs(x, 15), d.subs(x, 0), d.subs(x, 20))
+    return ok(w[0] == x * (x - 15)**2 / 500 and w[1] == -x**3 / 500 + R(3, 50) * x**2 - R(9, 20) * x + 3
+              and w[3] == [5, 15] and w[4:] == (2, 3, 3, 2), w)
+
+
+@pruef("2017-be-gk-cas-B1.1f")
+def _():
+    gu = R(45, 100) * x - 2
+    n0 = solve(gu, x)[0]
+    i2 = integrate(gu, (x, n0, 17))
+    A = integrate(f17, (x, 0, 20)) - i2
+    w = (n0, i2, float(i2), A, float(A), 4 * A, float(4 * A), gu.subs(x, 17))
+    return ok(n0 == R(40, 9) and i2 == R(12769, 360) and near(w[2], 35.47, 0.005) and A == R(23231, 360) and near(w[4], 64.53, 0.005)
+              and 4 * A == R(23231, 90) and near(w[6], 258.1, 0.05) and w[7] == R(565, 100), w)
+
+
+@pruef("2017-be-gk-cas-B1.2a")
+def _():
+    w = (f17b.subs(x, 0), solve(f17b, x), float(f17b.subs(x, R(1, 2))), float(f17b.subs(x, R(3, 2))), float(f17b.subs(x, 2)))
+    return ok(w[0] == 1 and w[1] == [1] and near(w[2], 0.152, 5e-4) and near(w[3], 0.056, 5e-4) and near(w[4], 0.135, 5e-4), w)
+
+
+@pruef("2017-be-gk-cas-B1.2b")
+def _():
+    f1, f2, f3 = diff(f17b, x), diff(f17b, x, 2), diff(f17b, x, 3)
+    ws = sorted(solve(f2, x))
+    w = (simplify(f1 - (-x**2 + 4 * x - 3) * exp(-x)), sorted(solve(f1, x)), ws, [float(f17b.subs(x, v)) for v in ws],
+         simplify(f3 + (x**2 - 8 * x + 13) * exp(-x)), [f3.subs(x, v) != 0 for v in ws])
+    return ok(w[0] == 0 and w[1] == [1, 3] and simplify(ws[0] - (3 - sqrt(2))) == 0 and near(w[3][0], 0.070, 5e-4)
+              and near(w[3][1], 0.141, 5e-4) and w[4] == 0 and all(w[5]), w)
+
+
+@pruef("2017-be-gk-cas-B1.2d")
+def _():
+    A = integrate(f17b, (x, 0, 1))
+    return ok(simplify(A - (1 - 2 / E)) == 0 and near(A, 0.2642, 1e-3), float(A))
+
+
+@pruef("2017-be-gk-cas-B1.2e")
+def _():
+    return PRUEF["2017-be-gk-B1.2e"]()
+
+
+@pruef("2017-be-gk-cas-B1.2f")
+def _():
+    from sympy import nsolve
+    xq = nsolve(diff(f17b, x) + 1, x, 0.4)
+    w = (float(xq), float(f17b.subs(x, xq)))
+    return ok(near(w[0], 0.4145, 5e-5) and near(w[1], 0.2264, 5e-5), w)
+
+
+@pruef("2017-be-gk-cas-B2.2c")
+def _():
+    E_, F_, S = vec(9, 1, 6), vec(9, 9, 6), vec(5, 5, 9)
+    nv = (F_ - E_).cross(S - E_)
+    n1 = vec(3, 0, 4)
+    cphi = Abs(n1.dot(vec(6, 0, 1))) / (sqrt(n1.dot(n1)) * sqrt(37))
+    phi = grad(acos(cphi))
+    w = (list(nv), n1.dot(E_), cphi, float(cphi), phi, 180 - phi)
+    return ok(list(nv) == [24, 0, 32] and w[1] == 51 and cphi == 22 / (5 * sqrt(37)) and near(w[3], 0.7234, 5e-5)
+              and near(phi, 43.67, 0.01) and near(w[5], 136.33, 0.01), w)
+
+
+@pruef("2017-be-gk-cas-B2.2d")
+def _():
+    return PRUEF["2017-be-gk-B2.2d"]()
+
+
+@pruef("2017-be-gk-cas-B3.1e")
+def _():
+    p12 = float(binom_p(250, R(5, 100), 12, 12))
+    p13 = float(binom_p(250, R(5, 100), 13, 13))
+    return ok(near(p12, 0.1160, 5e-5) and near(p13, 0.1117, 5e-5) and p12 > p13, (p12, p13))
+
+
+@pruef("2017-be-gk-cas-B3.1g")
+def _():
+    w = [float(binom_p(n_, R(96, 100), 500, n_)) for n_ in (525, 526, 527)]
+    return ok(near(w[0], 0.842, 5e-4) and near(w[1], 0.885, 5e-4) and near(w[2], 0.919, 5e-4) and w[1] < 0.9 <= w[2], w)
+
+
+@pruef("2017-be-gk-cas-B3.2c")
+def _():
+    return PRUEF["2017-be-gk-B3.2c"]()
+
+
+@pruef("2017-be-gk-cas-B3.2d")
+def _():
+    p = 0.3669
+    pi_ = {i: float(binomial(30, i)) * p**i * (1 - p)**(30 - i) for i in range(31)}
+    gross = [i for i in range(31) if pi_[i] > 0.1]
+    w = (30 * p, gross, [round(pi_[i], 3) for i in (8, 9, 10, 11, 12, 13, 14)])
+    return ok(gross == [9, 10, 11, 12, 13] and near(pi_[8], 0.0824, 5e-4) and near(pi_[14], 0.0776, 5e-4)
+              and near(pi_[11], 0.150, 5e-4), w)
+
+
+# ============================ 2018-be-gk-cas =================================
+@pruef("2018-be-gk-cas-B1.1b")
+def _():
+    return PRUEF["2018-be-gk-B1.1b"]()
+
+
+@pruef("2018-be-gk-cas-B1.1c")
+def _():
+    base = PRUEF["2018-be-gk-B1.1c"]()
+    m = (g18.subs(x, 100) - g18.subs(x, 0)) / 100
+    return ok(base == "ok" and m == -R(1, 2), (base, m))
+
+
+@pruef("2018-be-gk-cas-B1.1d")
+def _():
+    return PRUEF["2018-be-gk-B1.1d"]()
+
+
+@pruef("2018-be-gk-cas-B1.1e")
+def _():
+    y0, m = g18.subs(x, 110), diff(g18, x).subs(x, 110)
+    tg = expand(m * (x - 110) + y0)
+    return ok(y0 == R(441, 200) and m == R(231, 500) and tg == R(462, 1000) * x - R(48615, 1000), (y0, m, tg))
+
+
+@pruef("2018-be-gk-cas-B1.1f")
+def _():
+    base = PRUEF["2018-be-gk-B1.1f"]()
+    xl = 20 * sqrt(5 + 5 * sqrt(3))
+    mf, mg = diff(f18, x).subs(x, xl), diff(g18, x).subs(x, xl)
+    a1, a2 = grad(atan(mf)), grad(atan(mg))
+    w = (base, float(xl), float(g18.subs(x, xl)), float(mf), float(mg), a1, a2, a1 - a2)
+    return ok(base == "ok" and near(w[1], 73.920, 5e-4) and near(w[2], 10.287, 5e-4) and near(w[3], -1.183, 5e-4)
+              and near(w[4], -0.671, 5e-4) and near(a1, -49.79, 0.01) and near(a2, -33.85, 0.01) and near(a2 - a1, 15.9, 0.05), w)
+
+
+@pruef("2018-be-gk-cas-B1.1g")
+def _():
+    d = f18 - g18
+    st = sorted(v for v in solve(d - 5, x) if v > 0)
+    w = (expand(d), [float(v) for v in st], simplify(st[0] - 10 * sqrt(20 - 10 * sqrt(2))), d.subs(x, 20 * sqrt(5)), diff(d, x, 2).subs(x, 20 * sqrt(5)) < 0)
+    return ok(w[0] == -x**4 / 2000000 + x**2 / 500 + 4 and near(w[1][0], 24.20, 0.005) and near(w[1][1], 58.43, 0.005)
+              and w[2] == 0 and w[3] == 6 and w[4], w)
+
+
+@pruef("2018-be-gk-cas-B1.2a")
+def _():
+    from sympy import limit, oo
+    w = (limit(f18b, x, oo), limit(f18b, x, -oo))
+    return ok(w == (0, -oo), w)
+
+
+@pruef("2018-be-gk-cas-B1.2b")
+def _():
+    st = sorted(solve(f18b - (x + 1), x))
+    base = PRUEF["2018-be-gk-B1.2b"]()
+    return ok(st == [-1, 0] and base == "ok", (st, base))
+
+
+@pruef("2018-be-gk-cas-B1.2c")
+def _():
+    i1 = integrate(f18b, (x, -1, 0))
+    i2 = integrate(x + 1, (x, -1, 0))
+    A = i1 - i2
+    w = (simplify(i1 - (4 * sqrt(E) - 6)), float(i1), i2, float(A))
+    return ok(w[0] == 0 and near(w[1], 0.5949, 5e-5) and i2 == R(1, 2) and near(w[3], 0.0949, 5e-5) and w[3] < 0.1, w)
+
+
+@pruef("2018-be-gk-cas-B1.2d")
+def _():
+    base = PRUEF["2018-be-gk-B1.2d"]()
+    f2 = diff(f18b, x, 2).subs(x, 1)
+    return ok(base == "ok" and f2 == -R(1, 2) * exp(-R(1, 2)), (base, f2))
+
+
+@pruef("2018-be-gk-cas-B1.2e")
+def _():
+    from sympy import nsolve
+    f1 = diff(f18b, x)
+    x1, x2 = nsolve(f1 + R(2, 10), x, 2.2), nsolve(f1 + R(2, 10), x, 4.1)
+    w = (float(f1.subs(x, 3)), float(f1.subs(x, 6)), float(x1), float(x2))
+    return ok(near(w[0], -0.2231, 5e-5) and near(w[1], -0.1245, 5e-5) and near(w[2], 2.20418, 5e-6) and near(w[3], 4.08695, 5e-6), w)
+
+
+@pruef("2018-be-gk-cas-B1.2f")
+def _():
+    return PRUEF["2018-be-gk-B1.2e"]()
+
+
+@pruef("2018-be-gk-cas-B1.2g")
+def _():
+    from sympy import nsolve
+    f2v, f6v = f18b.subs(x, 2), f18b.subs(x, 6)
+    m = (f6v - f2v) / 4
+    sek = m * (x - 2) + f2v
+    d = sek - f18b
+    xm = nsolve(diff(d, x), x, 4.4)
+    sr = -R(19, 100) * x + R(148, 100)
+    xr = nsolve(diff(sr - f18b, x), x, 4.4)
+    w = (float(xm), float(d.subs(x, xm)), float(xr), float((sr - f18b).subs(x, xr)))
+    return ok(near(w[0], 4.389, 5e-4) and near(w[1], 0.0522, 5e-5) and near(w[2], 4.358, 5e-4) and near(w[3], 0.0457, 5e-4), w)
+
+
+@pruef("2018-be-gk-cas-B1.2h")
+def _():
+    from sympy import nsolve
+    base = PRUEF["2018-be-gk-B1.2g"]()
+    bb = -log(24) / 6
+    hW = (x + R(6, 5)) * exp(bb * x)
+    xs = nsolve(diff(f18b, x) - diff(hW, x), x, 4.7)
+    w = (base, float(xs), float(diff(f18b, x).subs(x, xs)))
+    return ok(base == "ok" and near(w[1], 4.6833, 5e-5) and near(w[2], -0.1771, 5e-5), w)
+
+
+@pruef("2018-be-gk-cas-B3.1b")
+def _():
+    pa = float(binom_p(10, R(2, 5), 4, 4))
+    p9 = 1 - float(binom_p(9, R(2, 5), 0, 3))
+    w = (pa, p9, 0.4 * p9)
+    return ok(near(pa, 0.2508, 5e-5) and near(p9, 0.5174, 5e-5) and near(w[2], 0.2070, 5e-5), w)
+
+
+@pruef("2018-be-gk-cas-B3.2a")
+def _():
+    k8 = float(binom_p(50, R(1, 5), 0, 8))
+    kb = float(binom_p(200, R(1, 5), 31, 49))
+    return ok(near(k8, 0.3073, 5e-5) and near(kb, 0.9076, 5e-5), (k8, kb))
+
+
 # ================================ Lauf =======================================
 
 def lauf(ids=None):
