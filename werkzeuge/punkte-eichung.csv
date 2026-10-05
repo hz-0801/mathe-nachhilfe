@@ -1,0 +1,47 @@
+id;quelle;stufe;antwortart;be;stellen;mit_ergebnis;ohne_ergebnis;ohne_art;erg_ewh;handgriffe;stellen_kurz;handgriffe_kurz
+SH24-B1-1a;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;1;1;Ansatz;1;1;Ansatz trig. Verhältnis | Winkel;Winkel mit trig. Verhältnis (Formeltext im Auszug verloren, Marken lesbar)
+SH24-B1-1c;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Nachweis;2;2;2;0;;2;2;CD = 2,27 | 2,27 ≠ 2,5;Strecke berechnen | vergleichen
+SH24-B2-a;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;1;1;1;0;;1;1;V = 144 cm³;Quadervolumen
+SH24-B2-b;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Beurteilen;3;3;3;0;;3;3;V_Kegel ≈ 37,7 | Verhältnis 0,262 | Mark hat nicht recht;Kegelvolumen | Anteil | Aussage prüfen
+SH24-B2-Netz;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Grafik;2;2;1;1;Teilkriterium Darstellung;1;2;Maßstab beachtet | Anordnung 6 Flächen;Maße im Maßstab | Netz anordnen
+SH24-B2-Lisa;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Beurteilen;2;2;2;0;;2;2;Lisa hat nicht recht | Volumen verachtfacht;Volumen bei Streckung | Aussage prüfen
+SH24-B2W-a;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;1;1;Ansatz (Formel);1;1;Formel O_Zyl | 6,68 cm²;Zylinderoberfläche (Antwortsatz ≈ 7 cm² unbepunktet)
+SH24-B2W-b;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;1;1;Ansatz (Pythagoras);1;1;Ansatz s² = r² + k² | s = 5 cm;Pythagoras
+SH24-B3-1b;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;2;0;;2;2;Punkt (91|11) ablesen | 91 − 70 = 21;Ablesen | Zeitspanne bilden
+SH24-B3-1c;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;2;0;;2;2;2050 ↔ x = 100 | f(100) = 11,5;Sachwert in x übersetzen | Funktionswert
+SH24-B3-2b;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;1;1;Ansatz (Gleichung);1;2;Ansatz g(x) − g(0) = 1 | x = 25;Gleichung aus Sachlage aufstellen | lösen
+SH24-B3-4;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Beurteilen;3;3;3;0;;3;3;Ablesen 18,5 | Mittel 18,5 | Aussage richtig;Ablesen | Mittelwert | Aussage prüfen
+SH24-B4-4b;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Term;2;2;1;1;Teilkriterium (Bestandteil der Formel);1;1;=MITTELWERT | (E146:E155);Tabellenformel schreiben
+SH24-B4-4c;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;2;2;1;1;Verfahrensschritt ohne Wert (Sortiertheit erkennen);1;2;sortiert erkennen | 151,620;Ordnen | Median aus zwei Werten
+SH24-B4-5c;quelle-fremd-hh-sh-sh-msa-2024-loesungen.txt;I;Zahl;3;3;2;1;Ansatz (Quotient);2;2;Werte ablesen | Ansatz 152,1/147,1 | 3,4 %;Ablesen | prozentualer Zuwachs
+SH25-B2-3;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Nachweis;3;3;2;1;Ansatz (Formel);2;2;Formel V_Kugel | 57 905,84 | Vergleich < 58 000;Kugelvolumen | vergleichen
+SH25-B3-c;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Nachweis;3;3;2;1;Verfahrensnennung (Punktprobe);2;1;Ansatz Punktprobe | i(0) = 0 | i(2) = 0;Funktionswert berechnen (zweimal)
+SH25-B3-d;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Begründen;2;2;2;0;;2;2;Öffnung müsste sich ändern | u, v ändern Öffnung nicht;Parameter a deuten | Parameter u, v deuten
+SH25-B3W-3b;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Term;3;3;2;1;Ansatz (Formel);2;2;Formel m | m = 2,1 | k(x) = 2,1x;Steigung aus zwei Punkten | Gleichung aufstellen
+SH25-B3W-3c;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Nachweis;2;2;2;0;;2;1;e(−0,5) → B nicht | e(0,5) → C liegt;Punktprobe (zweimal)
+SH25-B4-2b;quelle-fremd-hh-sh-sh-msa-2025-loesungen.txt;I;Begründen;2;2;1;1;Teilkriterium (Bestandteil der Beschreibung);1;1;viermal drehen | 12 Sektoren;Zufallsexperiment zu 12^4 angeben
+SH23-B1-1b;quelle-fremd-hh-sh-sh-msa-2023-loesungen.txt;I;Nachweis;2;2;1;1;Begründungsform (rechtwinklig, Pythagoras);1;1;Dreieck rechtwinklig | a = √2·5 cm;Pythagoras
+SH23-B3-2b;quelle-fremd-hh-sh-sh-msa-2023-loesungen.txt;I;Term;2;2;2;0;;2;2;Anfangswert 100 | Faktor 0,89;Anfangswert ablesen | Wachstumsfaktor bestimmen
+SH26-B2-b;quelle-fremd-hh-sh-sh-msa-2026-loesungen.txt;I;Nachweis;2;2;2;0;;2;2;Masse 3,686 t | 3,686 > 3;Masse berechnen | vergleichen
+FHR24B-1a;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Begründen;3;3;2;1;Begründungsform;2;2;Grad 4 | weil 3 Extrema | WP-Lage skizziert;Grad aus Extremzahl | Wendepunkte am Graph
+FHR24B-1b;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Begründen;4;4;4;0;;4;3;g(1) = 0 | g'(1) < 0 | keine Sattelstelle | g''(3) > 0;Funktionswert ablesen | Monotonie → f' | Krümmung → f'' (zweimal)
+FHR24B-1c;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;5;5;5;0;;6;3;Sy | x1 = 0 | quadr. Gleichung | x2, x3 | Punkte;y-Achsenabschnitt | Ausklammern/Nullprodukt | quadr. Gleichung lösen
+FHR24B-1d;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Term;5;5;5;0;;5;3;f' | f'' | f''' | f(3) = −21,6 → P auf Gf | f'(3) ≠ 0 → kein EP;Ableiten (dreimal) | Punktprobe | notwendige Bedingung prüfen
+FHR24B-1e;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Nachweis;7;7;7;0;;10;5;3 Wendestellen | 3 WP mit f''' ≠ 0 und Koordinaten | f'(0) = 0 → Sattel;Ausklammern | quadr. Gleichung | hinreichende Bedingung | Funktionswerte | Sattelkriterium
+FHR24B-1f;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;2;2;2;0;;2;1;Intervall 1 | Intervall 2;Krümmungsintervalle aus Wendestellen
+FHR24B-1g;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Grafik;4;4;2;2;Teilkriterium Darstellung;2;2;Wertetabelle | Graph (3 BE);Wertetabelle | Graph zeichnen
+FHR24B-2a;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Begründen;3;3;2;1;Teilkriterium Darstellung;2;2;gerade Exponenten | Achsen skizziert (2 BE);Symmetrie begründen | Koordinatensystem legen
+FHR24B-2b;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;8;8;7;1;Ansatz (f' = 0);9;5;f' | f'' | x1 = 0 | x = ±2 | T | H1 | H2;Ableiten | Ausklammern | Wurzelgleichung | hinreichende Bedingung | Funktionswerte
+FHR24B-2c;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;3;3;3;0;;3;2;0,5 m | 2 m | 0,6 m;Koordinatenabstand | Maßstab umrechnen
+FHR24B-2d;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Nachweis;6;6;5;1;Ansatz (Integral mit Grenzen);5;5;h(x) | Stammfunktion | 8/3 FE | 0,67 m² | 22 Seitenteile;Differenzfunktion | Stammfunktion | Grenzen einsetzen | FE → m² | Anzahl abrunden
+FHR24B-3a;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Begründen;2;2;2;0;;2;2;40 ≤ x < 60 | 520./521. Wert;Medianposition n/2 | kumulieren bis Klasse
+FHR24B-3b;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;5;5;5;0;;5;4;Klassenmitten | x̄ ≈ 46 | 11 min | Varianz 425,22 | s ≈ 20,62;Klassenmitten | gewichtetes Mittel | Abweichung | Standardabweichung
+FHR24B-3c;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Zahl;2;2;1;1;Ansatz (Modellwahl Binomialkoeffizient);1;1;C(24,3) | 2024;Auswahl ohne Reihenfolge
+FHR24B-3d;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Grafik;6;6;3;3;Teilkriterium Darstellung (Baum 4 BE);3;3;Baum (4 BE) | 1 − P(Gegen) | 59,68 %;Baum ohne Zurücklegen | Gegenereignis | Pfadregel
+FHR24B-3e;24_FOS_Ma_B_LH.pdf (Bildungsserver BB);II;Nachweis;5;5;5;0;;5;3;Vierfeldertafel | 4 SuS | P(A∩B) = 1/6 | P(A)·P(B) = 1/6 | unabhängig;Vierfeldertafel füllen | Wahrscheinlichkeit aus Tafel | Unabhängigkeit prüfen
+FHR26C-1d;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Term;3;3;3;0;;3;3;f(−2) = −28 → B auf Gf | f'(−2) = −480 | t(x);Punktprobe | Steigung an Stelle | Tangentengleichung
+FHR26C-2c;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Term;6;6;5;1;Ansatz (allg. Form);6;3;3 Gleichungen | a = −4 | b = 20;Ansatz allg. Form | Punkte einsetzen (dreimal) | LGS lösen
+FHR26C-2d;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Nachweis;7;7;4;3;Teilkriterium Darstellung (2) + Ansatz (1);4;4;Skizze (3 BE) | h(x) | Stammfunktion | ≈ 54,33 FE;Skizzieren | Differenzfunktion | Stammfunktion | Grenzen einsetzen
+FHR26C-2e;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Zahl;2;2;2;0;;2;2;V = 108,66 cm³ | m ≈ 293,38 g;Prismenvolumen mit Einheiten | Masse aus Dichte
+FHR26C-3a;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Zahl;4;4;4;0;;4;3;x̄ = 20,39 | Median PG1 | Varianz | s ≈ 5,92;gewichtetes Mittel | Median aus Häufigkeiten | Standardabweichung
+FHR26C-3e;26_FOS_Ma_LH_C.pdf (Bildungsserver BB);II;Nachweis;4;4;4;0;;4;3;Vierfeldertafel | 26/14 | P(G∩F) vs P(G)P(F) | abhängig;Vierfeldertafel | Wahrscheinlichkeiten | Unabhängigkeit prüfen
