@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.4, 28.09.2026; v0.3 27.09.2026; v0.2 25.09.2026; v0.1 26.09.2026)
+r"""blatt-pruef.py – Kennzahlen je Blatt unter blaetter/ (v0.5, 05.10.2026; v0.4 28.09.2026; v0.3 27.09.2026; v0.2 25.09.2026; v0.1 26.09.2026)
+
+v0.5 (Regeln nachziehen 05.10.2026, Lösungsblatt-Beschluss): Warnung, wenn „⟨“ (spitze Klammer der
+Katalog-Schreibweise für Vektoren) im fertigen Blatt steht – im Quelltext (ohne Kommentare) oder im
+pdftotext-Text. Auf dem Blatt stehen Vektoren als Spalte (\sv) und Punkte als P(1 | 2 | 3). Die Warnung geht
+auf stderr und als Zeile „Warnung: ⟨ …“ in den Abschnitt des Blatts, nur wenn sie zutrifft; sonst ist die
+Ausgabe wie in v0.4.
 
 v0.4 (Auftrag Nacht 2026-09-28, Teil 5; Vorlage Stufe 6, ../blattbau/mathblatt.sty 2026-09-28a): \swz und \swa zählen
 als Teilaufgaben (TEILZAEHLER; in der Vorlage laufen sie seit Stufe 5 mit dem teil-Zähler – offener Punkt aus
@@ -635,6 +641,16 @@ def version(prompt):
 
 # ---------------------------------------------------------------- Messen
 
+def spitz_pruef(k, tex, seiten_text):
+    """v0.5: „⟨“ gehört nur in den Katalog, nie aufs Blatt (Lösungsblatt-Beschluss 05.10.2026)."""
+    n_tex = ohne_kommentar(tex).count('⟨') if tex else 0
+    n_pdf = sum(s.count('⟨') for s in seiten_text)
+    if n_tex or n_pdf:
+        k['spitz'] = (n_tex, n_pdf)
+        print(f"Warnung: ⟨ in {k['thema']}/{k['datum']}/{k['datei']} (Quelltext {n_tex}, PDF {n_pdf})",
+              file=sys.stderr)
+
+
 def messe(pdf, ordner, reg, testlauf=None):
     """testlauf: None oder {'src', 'thema', 'datum', 'eintrag', 'tex'} aus testlauf_blaetter()."""
     if testlauf:
@@ -653,11 +669,13 @@ def messe(pdf, ordner, reg, testlauf=None):
         k['texort'] = ''
     if not tex_pfad:
         k['fehlt_tex'] = True
+        spitz_pruef(k, '', pdf_text(pdf))
         return k
     tex = lies_tex(tex_pfad)
     eigene = eigene_makros(tex, src)
     hns, kaesten, koepfe, begleit = zerlege(tex)
     seiten_text = pdf_text(pdf)
+    spitz_pruef(k, tex, seiten_text)
     k['hauptnummern'] = hns
     k['koepfe'] = koepfe
 
@@ -842,6 +860,13 @@ def zusammen(k):
 
 def abschnitt_md(k):
     z = abschnitt_md_basis(k)
+    if k.get('spitz'):
+        # v0.5: nur, wenn „⟨“ im Blatt steht
+        warn = f"Warnung: ⟨ im Blatt (Quelltext {k['spitz'][0]}, PDF {k['spitz'][1]}); Vektoren als \\sv, Punkte als P(1 | 2 | 3)."
+        if z and z[-1] == '':
+            z = z[:-1] + [warn, '']
+        else:
+            z = z + [warn]
     s5, s6 = k.get('stufe5'), k.get('stufe6')
     if not s5 and not s6:
         return z
