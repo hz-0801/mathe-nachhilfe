@@ -59,6 +59,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `handreichung-reihenfolge.md` – Daten für die Lernreihenfolge der Handreichung (Anteil, Jahre nur aus erlaubten Jahren, 2026 nur FOR, leichte Punkte, Basisanteil, Voraussetzungen); abgeleitet von `werkzeuge/handreichung-reihenfolge.py`.
 - `skript-zuschnitt-p10.csv` – Zuschnitt des P10-Skripts: je Gebiet, Abschnitt (Handgriff) und Stufe die Teilaufgaben 2022–2026; von Hand gepflegt, Urteil im Chat. `skript-zuschnitt-p10.md` ist die daraus gebaute Übersicht mit Zählung (nie von Hand).
 - `../archiv/vorrat-p10-2022-2026-2026-10-05.csv` (und `…-2014-2021-2026-10-05.csv`) – Vorratslauf (Agent 04./05.10.): je P10-Teilaufgabe Kurzlösung, Zwischenwerte, Stichwörter, Nebenthemen, Abhängigkeiten, sympy-Prüfung; Beitabelle, am 05.10. über `msa-bau.py --korrektur` in den Katalog übernommen und archiviert. `vorrat-p10-stand.md` Standdatei und Bericht.
+- `korrektur-<datum>-<feld>.csv` – Korrekturtabellen (id;<feld>) für `python3 msa-bau.py --korrektur <datei>`; je Korrektur eine Datei, bleibt liegen (Beleg, neu anwendbar).
 - `msa-quellen.md` – Jahresseite, Serverdateien je papier-Kürzel, Heftordner `hefte/msa/` (lokal), Dateien ohne Katalogeintrag.
 - `msa-typen.csv` – Typen suchen, vergleichen, anlegen; wächst nur über das Bau-Skript; gilt für OS/EBR/FOR und GYM gemeinsam.
 - `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog für OS/EBR/FOR (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.

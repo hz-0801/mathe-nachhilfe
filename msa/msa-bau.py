@@ -17,6 +17,10 @@ Felder (leerer Wert = Katalogwert bleibt), prüft den ganzen Bestand wie die
 Selbstprüfung und schreibt alle drei Katalogdateien. ZEILEN wird dabei
 nicht angefasst. Ohne DATEI: nur Umbau auf die neue Kopfzeile plus
 Selbstprüfung. Neue Prüfung je Zeile: neben nennt nur Themen aus msa.md § 6.
+Nachtrag 05.10.2026 (Regeln nachziehen): --korrektur nimmt auch die Spalte
+ergebnis (Rechenfehler der eigenen Rechnung; amtlich ist ergebnis bei den
+BB-Heften nicht). Die Felder neben und kurzloesung nennt seit 0.10 auch
+der Kern.
 
 Änderungen gegenüber 0.2 (Auftrag Gymnasialhefte, 23.09.2026): papier-Muster um
 GYM erweitert (msa.md § 4); KONFIG führt daneben „dateien" (Liste, weil ab 2019
@@ -626,7 +630,7 @@ def pruefe_zeile(z, a, typ_namen, alle_ids, konfig=None):
 KORR_SPALTEN = {"kurz": "kurzloesung", "zwischen": "zwischenergebnis", "stich": "stichwoerter",
                 "neben": "neben", "abh": "abhaengig_von", "kurzloesung": "kurzloesung",
                 "zwischenergebnis": "zwischenergebnis", "stichwoerter": "stichwoerter",
-                "abhaengig_von": "abhaengig_von"}
+                "abhaengig_von": "abhaengig_von", "ergebnis": "ergebnis"}
 
 
 def korrektur(dateien):
