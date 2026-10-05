@@ -139,7 +139,7 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2018-OS-K2b;exponentiell: je Jahr · 1,08, Zuwächse nicht konstant;Zuwächse 48 000 €, 51 840 €;linear|exponentiell|Wachstumsfaktor|Begründen;;;ok
 2018-OS-K2c;2020 | ≈ 1 028 294 €;2019: ≈ 952 124 €;Wachstumsfaktor|Schwellenwert|schrittweise Rechnung;Prozentrechnung;;ok
 2018-OS-K3a;20 je Gitterlinie (0 bis 200) | E und D Kartoffel- und Gemüsegerichte, C Pizza, B Schnitzel, A Fischgerichte;längste Balken 160 ⇒ 20 je Gitterlinie;Balkendiagramm|Achseneinteilung|Skala|zuordnen;;;ok
-2018-OS-K3b;Salat 100 | Pasta 300;1000 − 600 = 400 | x + 3x = 400 ⇒ x = 100;Gleichung aufstellen|dreimal so viel|Rest;;;ok
+2018-OS-K3b;Salat 100 | Pasta 300;x + 3x = 1000 − 600 ⇒ x = 100;Gleichung aufstellen|dreimal so viel|Rest;;;ok
 2018-OS-K3c;Streifen mit 1 cm, 1,5 cm, 5,5 cm, 2 cm, beschriftet;10 cm ≙ 100 % ⇒ 1 mm je 1 %;Streifendiagramm|Prozent|Anteil|Länge;Prozentrechnung|Diagramme lesen und beurteilen;;ok
 2018-OS-K3d;Aussage 1 falsch (55 % > 50 %) | Aussage 2 falsch (jede 15. ≈ 6,7 %, tatsächlich 15 %);1/15 ≈ 6,7 %;Aussage prüfen|Hälfte|Anteil|Begründen;Prozentrechnung|Brüche und Dezimalzahlen;;ok
 2018-OS-K4a;γ = 5°;;Teilwinkel|Winkeldifferenz;;;ok
@@ -177,7 +177,7 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2019-OS-K4a;Netz mit drei Rechtecken und zwei gleichseitigen Dreiecken | a = 1,50 m;;Netz|Prisma|gleichseitiges Dreieck;;;nicht rechenbar
 2019-OS-K4b;5,4 m²;eine Seitenfläche 1,5 m · 1,2 m = 1,8 m²;Mantelfläche|Rechteck|Seitenfläche;;;ok
 2019-OS-K4c;0,975 m² | V = 0,975 · 1,2 ≈ 1,17 m³ ≈ 1,2 m³ | ≈ 320 kg;A = ½ · 1,5 · 1,3 | 10 % von 1,2 m³ = 0,12 m³ ≙ 120 kg;Dreiecksfläche|Prisma|Volumen|Masse|Prozent;Prozentrechnung|Flächeninhalt und Umfang;;ok
-2019-OS-K5a;276 Jugendliche;0,95 · 1200 = 1140 | 0,72 · 1200 = 864;Prozentwert|Differenz|Anzahl;;;ok
+2019-OS-K5a;276 Jugendliche;23 % von 1200;Prozentwert|Differenz|Anzahl;;;ok
 2019-OS-K5b;Aussage 1 falsch | etwa vier Fünftel (81 %) der Mädchen nutzen einen Fernseher;drei Viertel = 75 %;Anteil|Prozent|Tabelle|Aussage korrigieren;Brüche und Dezimalzahlen;;ok
 2019-OS-K5c;z. B. „extrem abnehmen“ falsch: von 44 % auf 36 %, abgeschnittene Achse übertreibt;8 Prozentpunkte in 4 Jahren;Liniendiagramm|abgeschnittene Achse|Trend|Aussage korrigieren;Prozentrechnung;;ok
 2019-OS-K6a;3/20 = 15 %;;Laplace-Wahrscheinlichkeit|Anteil;Prozentrechnung;;ok
@@ -208,7 +208,7 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2020-OS-K3e;x₁ = −1 | x₂ = −3;2x² + 8x + 6 = 0 ⇒ x² + 4x + 3 = 0 | p-q-Formel ⇒ x = −2 ± 1;Nullstelle|quadratische Gleichung|Normalform|p-q-Formel;Quadratische Gleichungen;;ok
 2020-OS-K4a;2019: 54 | 2022: ≈ 59,0;57,3 · 1,03 ≈ 59,0;exponentielles Wachstum|Wachstumsfaktor|Tabelle ergänzen;Prozentrechnung;;ok
 2020-OS-K4b;nach etwa 23 Jahren | bei y = 108 waagerecht zum Graphen, dann x ablesen;doppelter Startwert 2 · 54 = 108;Verdopplungszeit|Graph ablesen|Vorgehen beschreiben;;;ok
-2020-OS-K4c;nein, Studie 1 ≈ 81,7 gegen Studie 2 = 75,6 (Tausend Liter);x = 14 | 54 · 1,03¹⁴ ≈ 81,7 | 54 · 1,4 = 75,6;Exponentialfunktion|Prognose|Vergleich|Prozent;Prozentrechnung|Potenzen und Wurzeln;;ok
+2020-OS-K4c;nein, Studie 1 ≈ 81,7 gegen Studie 2 = 75,6 (Tausend Liter);54 · 1,03¹⁴ ≈ 81,7 | 54 · 1,4 = 75,6;Exponentialfunktion|Prognose|Vergleich|Prozent;Prozentrechnung|Potenzen und Wurzeln;;ok
 2020-OS-K5a;Rückfläche 15 cm × 12 cm rechts an die Grundfläche | zweites Trapez unten an die Grundfläche;;Netz|Prisma|Trapez|Seitenfläche;;;nicht rechenbar
 2020-OS-K5b;α ≈ 57,3°;15 cm − 6 cm = 9 cm | tan α = 14 : 9;Tangens|Hilfsdreieck|Trapez|Teilstrecke;;;ok
 2020-OS-K5c;8 Schachteln, je zwei bilden einen Quader 14 cm × 12 cm × 21 cm;Quader 14 × 12 × 21 ⇒ 2 · 2 · 1 Quader;Prisma|Quader|stapeln|Packung;Volumen und Oberfläche;;ok

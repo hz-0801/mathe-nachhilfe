@@ -22,7 +22,11 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
   `python3 msa-bau.py --korrektur ../archiv/vorrat-p10-2022-2026-2026-10-05.csv`.
   Verweise außerhalb des Schreibbereichs nicht angepasst: README.md,
   uebergabe.md, faellig.md.
-- Teil 5 – läuft. Tabelle `archiv/vorrat-p10-2014-2021-2026-10-05.csv`,
+- Teil 5 – erledigt 2026-10-05 15:42 UTC. 8 Jahrgänge, 247 Zeilen (alle OS; EBR/FOR gibt es
+  2014–2021 nicht), sympy ok 208, abw 1, nicht rechenbar 38. Höchstens BE − 1
+  Zwischenergebnisse; P1-Zeilen ohne neues zwischenergebnis (11 alte
+  Katalogwerte bleiben stehen). Nachbesserung: drei Zeilen auf BE − 1 gekürzt
+  (2018-OS-K3b, 2019-OS-K5a, 2020-OS-K4c). Tabelle `archiv/vorrat-p10-2014-2021-2026-10-05.csv`,
   sympy `werkzeuge/vorrat-sympy-p10-2014-2021.py --spalte <Tabelle>`,
   Übernahme `python3 msa-bau.py --korrektur ../archiv/vorrat-p10-2014-2021-2026-10-05.csv`.
   - 2014: erledigt 2026-10-05 15:36 UTC. 30 Zeilen; sympy ok 27, abw 0, nicht rechenbar 3; zwischenergebnis 5 Katalogwerte ersetzt.
