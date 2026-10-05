@@ -186,3 +186,35 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2019-OS-K7a;10 kg | 10,816 kg | ≈ 12,167 kg;Wachstumsfaktor 1,04 | 10,4 · 1,04 = 10,816;Wachstumsfaktor|Wertetabelle|Potenz;Prozentrechnung|Potenzen und Wurzeln;;ok
 2019-OS-K7b;10: Anfangsmasse in kg | 1,04: Wachstumsfaktor, +4 % je Woche | x: Zeit in Wochen;;Exponentialfunktion|Anfangswert|Wachstumsfaktor|Variable deuten;;;nicht rechenbar
 2019-OS-K7c;Graph 1 nein (linear) | Graph 2 ja (Start 10 kg, Zuwächse wachsen) | Graph 3 nein (Start bei 0 kg);Startwert 10 kg | gleicher Prozentsatz ⇒ wachsende Zuwächse;exponentiell|linear|Startwert|Graph zuordnen|Begründen;;;ok
+2020-OS-B1a;4 von 100 Bäumen wachsen nicht an;;Prozent|Anteil|Hundertstel;;;ok
+2020-OS-B1b;D(3 | 0);;Koordinaten|x-Achse|Punkt;;;nicht rechenbar
+2020-OS-B1c;tan α = r/s;;Tangens|Gegenkathete|Ankathete;;;nicht rechenbar
+2020-OS-B1d;6 cm;;Quadrat|Flächeninhalt|Seitenlänge|Quadratwurzel;Potenzen und Wurzeln;;ok
+2020-OS-B1e;x = 7;;lineare Gleichung|Klammer|Äquivalenzumformung;;;ok
+2020-OS-B1f;−0,55;;Dezimalzahl|negative Zahl|Zahlengerade|Mitte;Rationale Zahlen rechnen;;ok
+2020-OS-B1g;α = 74°;;Parallelen|Stufenwinkel|Scheitelwinkel|Wechselwinkel;;;nicht rechenbar
+2020-OS-B1h;x = 4;;Potenz|Exponent|Zweierpotenz;;;ok
+2020-OS-B1i;b + c > 10 cm;;Dreiecksungleichung|Seitenlänge;;;nicht rechenbar
+2020-OS-B1j;x = 14;;Sinus|Gleichung umstellen|Hypotenuse;Lineare Gleichungen;;ok
+2020-OS-K2a;Balken bei Do bis 180;;Balkendiagramm|Skala|Balken eintragen;;;nicht rechenbar
+2020-OS-K2b;Mittwoch, Samstag, Sonntag;;Balkendiagramm|ablesen|mehr als;;;ok
+2020-OS-K2c;200 Besucher;Summe 1400;arithmetisches Mittel|Durchschnitt|Summe;Diagramme lesen und beurteilen;;ok
+2020-OS-K2d;280 − 130 = 150 | 210 + 210 : 3 = 280;ein Drittel von 210 = 70;Spannweite|ein Drittel mehr|Nachweis;Brüche und Dezimalzahlen;;ok
+2020-OS-K2e;12 · (520 + x) = 7920 | x = 140;7920 : 12 = 660 ⇒ 520 + x = 660;Gleichung aufstellen|Einnahmen|Klammer;Terme umformen;;ok
+2020-OS-K3a;S(−2 | −4);;Scheitelpunkt|Scheitelpunktform|Parabel;;;ok
+2020-OS-K3b;D(−1,5 | −2,5);;Punktprobe|Parabel|Funktionswert;Rationale Zahlen rechnen;;ok
+2020-OS-K3c;y = 12;(2 + 2)² − 4;Funktionswert|einsetzen|Scheitelpunktform;;;ok
+2020-OS-K3d;Skizze: Normalparabel mit Scheitel (2 | −4) | y = (x − 2)² − 4;Scheitel (−2 | −4) ⇒ (2 | −4);Spiegelung an der y-Achse|Scheitelpunktform|Parabel skizzieren;Symmetrie und Abbildungen;2020-OS-K3a;ok
+2020-OS-K3e;x₁ = −1 | x₂ = −3;2x² + 8x + 6 = 0 ⇒ x² + 4x + 3 = 0 | p-q-Formel ⇒ x = −2 ± 1;Nullstelle|quadratische Gleichung|Normalform|p-q-Formel;Quadratische Gleichungen;;ok
+2020-OS-K4a;2019: 54 | 2022: ≈ 59,0;57,3 · 1,03 ≈ 59,0;exponentielles Wachstum|Wachstumsfaktor|Tabelle ergänzen;Prozentrechnung;;ok
+2020-OS-K4b;nach etwa 23 Jahren | bei y = 108 waagerecht zum Graphen, dann x ablesen;doppelter Startwert 2 · 54 = 108;Verdopplungszeit|Graph ablesen|Vorgehen beschreiben;;;ok
+2020-OS-K4c;nein, Studie 1 ≈ 81,7 gegen Studie 2 = 75,6 (Tausend Liter);x = 14 | 54 · 1,03¹⁴ ≈ 81,7 | 54 · 1,4 = 75,6;Exponentialfunktion|Prognose|Vergleich|Prozent;Prozentrechnung|Potenzen und Wurzeln;;ok
+2020-OS-K5a;Rückfläche 15 cm × 12 cm rechts an die Grundfläche | zweites Trapez unten an die Grundfläche;;Netz|Prisma|Trapez|Seitenfläche;;;nicht rechenbar
+2020-OS-K5b;α ≈ 57,3°;15 cm − 6 cm = 9 cm | tan α = 14 : 9;Tangens|Hilfsdreieck|Trapez|Teilstrecke;;;ok
+2020-OS-K5c;8 Schachteln, je zwei bilden einen Quader 14 cm × 12 cm × 21 cm;Quader 14 × 12 × 21 ⇒ 2 · 2 · 1 Quader;Prisma|Quader|stapeln|Packung;Volumen und Oberfläche;;ok
+2020-OS-K6a;(1 | 2), (2 | 2), (3 | 2), (4 | 2), (5 | 2), (6 | 2) | 1/6 ≈ 16,7 %;6 von 36 Augenpaaren;Augenpaar|Ergebnismenge|Laplace-Wahrscheinlichkeit;Prozentrechnung|Wahrscheinlichkeit einstufig;;ok
+2020-OS-K6b;Max hat nicht Recht | beide Wahrscheinlichkeiten 1/6;P(gleich) = 6/36 = 1/6 | P(zuerst 6) = 1/6;Pasch|Vergleich|Laplace-Wahrscheinlichkeit|Begründen;Wahrscheinlichkeit einstufig;;ok
+2020-OS-K6c;Äste 6: 1/6, keine 6: 5/6 | 2/27 ≈ 7,4 %;3 · (1/6)² · 5/6 = 15/216 | (1/6)³ = 1/216;Baumdiagramm|dreistufig|mindestens|Pfadregel|Summenregel;Brüche und Dezimalzahlen;;ok
+2020-OS-K7a;AB ≈ 36,1 m;AB² = 12² + 34² = 1300;Satz des Pythagoras|Hypotenuse;;;ok
+2020-OS-K7b;QC = 15 m;½ · QC · 12 = 90;Dreiecksfläche|Formel umstellen|Höhe;Lineare Gleichungen;;ok
+2020-OS-K7c;DP ≈ 3,2 m;∢D = 180° − 115° − 16° = 49° | DE : sin 115° = 11 : sin 49° ⇒ DE ≈ 13,2 m;Sinussatz|Winkelsumme|Teilstrecke;Ebene Figuren und Winkel;;ok
