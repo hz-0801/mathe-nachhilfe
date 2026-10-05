@@ -1,0 +1,31 @@
+id;kurz;zwischen;stich;neben;abh;sympy
+2014-OS-B1a;6,50 €;;Prozentwert|Grundwert|Prozentsatz;;;ok
+2014-OS-B1b;1/5 = 20 %;;Laplace-Wahrscheinlichkeit|günstige Ergebnisse|mögliche Ergebnisse|Los;;;ok
+2014-OS-B1c;z. B. 0,6;;Bruch|Dezimalzahl|Zahlen vergleichen|Zahl dazwischen;;;ok
+2014-OS-B1d;2/3;;Laplace-Wahrscheinlichkeit|Würfel|Gegenereignis;;;ok
+2014-OS-B1e;2,3 %;;Zinssatz|Kapital|Zinsen|Prozentsatz;;;ok
+2014-OS-B1f;β = 20°;;Scheitelwinkel|Teilwinkel;;;ok
+2014-OS-B1g;u = 16a;;Umfang|Term|zusammengesetzte Figur;Terme umformen;;ok
+2014-OS-B1h;−0,512 < −1/2 < 1,4 < √2;;Zahlen ordnen|negative Zahl|Bruch|Wurzel|Dezimalzahl;Rationale Zahlen rechnen|Potenzen und Wurzeln;;ok
+2014-OS-B1i;3/5 | 60 %;9 von 15 Feldern grau;Anteil|Bruch|Prozent|Kürzen;Prozentrechnung;;ok
+2014-OS-K2a;4,3 km;2800 m = 2,8 km;Teilstrecke|Meter|Kilometer|Weglänge;;;ok
+2014-OS-K2b;≈ 5665 m (≈ 5,67 km);JR ≈ 3165 m;Sinussatz|Gegenwinkel|Weglänge;Einheiten umrechnen;;ok
+2014-OS-K2c;12:45 Uhr;2,5 km : 5 km/h = 0,5 h = 30 min | Abmarsch 12:15 Uhr;Geschwindigkeit|Weg|Zeit|Pause|Uhrzeit;Einheiten umrechnen;;ok
+2014-OS-K3a;200 € · 0,02 = 4,00 €;;Zinsen|Zinssatz|Kapital|Nachweis;;;ok
+2014-OS-K3b;824,32 € | 16,49 €;;Zinsen|Guthaben|Einzahlung|Tabelle ergänzen;Prozentrechnung;;ok
+2014-OS-K3c;≈ 1159,27 €;Wachstumsfaktor 1,03;Zinseszins|Wachstumsfaktor|Laufzeit;Potenzen und Wurzeln;;ok
+2014-OS-K3d;y-Achse beginnt bei 1060 € statt bei 0 ⇒ kleine Zuwächse wirken groß;Zuwachs je Jahr nur wenige Euro;abgeschnittene Achse|Säulendiagramm|Verzerrung|Achsenskalierung;;;nicht rechenbar
+2014-OS-K4a;Minimum 154,2 ct | Maximum 169,2 ct;;Minimum|Maximum|Tabelle ablesen;;;nicht rechenbar
+2014-OS-K4b;14,4 ct;154,0 ct − 139,6 ct;Spannweite|Maximum|Minimum;;;ok
+2014-OS-K4c;13 095 €;;Verbrauch|Dreisatz|Kosten|Cent und Euro;Einheiten umrechnen;;ok
+2014-OS-K4d;13 680 € − 13 095 € = 585 €;9 000 l · 1,52 € = 13 680 €;Preisanstieg|Differenz|Nachweis|Kosten;Einheiten umrechnen;2014-OS-K4c;ok
+2014-OS-K4e;Fehler: 585 € = 58 500 ct (nicht 585 000 ct) | 58 500 ct : 100 000 ≈ 0,6 ct je km, nicht 6 ct;1 € = 100 ct;Euro|Cent|Einheitenfehler|Rechnung korrigieren|Preis je Kilometer;Einheiten umrechnen;;ok
+2014-OS-K5a;862 125 cm³ (≈ 0,86 m³);V = G · h;Prisma|Volumen|Grundfläche|Körperhöhe;;;ok
+2014-OS-K5b;Netz um Rechtecke 57 cm × 165 cm und 110 cm × 165 cm ergänzt | a = 110 cm, b = 57 cm, d = 165 cm;;Netz|Prisma|Trapez|Rechteck;;;nicht rechenbar
+2014-OS-K5c;h = 2 · 5225 : 190 = 55 cm > 50 cm ⇒ Tiefe reicht;(110 + 80) : 2 · h = 5225 ⇒ h = 55 cm;Trapez|Höhe|Formel umstellen|Nachweis;Lineare Gleichungen;;ok
+2014-OS-K5d;nein, Plattenlänge 1,5 m < 1,65 m;1,8 m² : 1,2 m = 1,5 m;Rechteck|Flächeninhalt|Seitenlänge|Vergleich;Einheiten umrechnen;;ok
+2014-OS-K6a;3/8 | 37,5 %;3 von 8 Feldern;Glücksrad|Laplace-Wahrscheinlichkeit|Bruch|Prozent;Prozentrechnung;;ok
+2014-OS-K6b;1. Stufe A 1/2, B 3/8 | 2. Stufe je Ast A 1/2, B 3/8, C 1/8;;Baumdiagramm|zweistufig|unabhängig|Glücksrad;Wahrscheinlichkeit einstufig;2014-OS-K6a;ok
+2014-OS-K6c;13/32 ≈ 0,41;1/4 + 9/64 + 1/64 = 26/64;Pfadregel|Summenregel|zweistufig;Brüche und Dezimalzahlen;2014-OS-K6b;ok
+2014-OS-K7a;ja, S(−3 | −9) ist Schnittpunkt;p(−3) = −(−3)² = −9 | g(−3) = 2 · (−3) − 3 = −9;Punktprobe|Schnittpunkt|Parabel|Gerade;Rationale Zahlen rechnen|Lineare Funktionen;;ok
+2014-OS-K7b;z. B. f(x) = 1;Scheitel S(0 | 0), Parabel nach unten geöffnet;Parabel|Gerade|kein Schnittpunkt|Scheitelpunkt;Lineare Funktionen;;ok
