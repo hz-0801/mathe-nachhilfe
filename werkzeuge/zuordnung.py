@@ -96,6 +96,30 @@ KAPITEL['lineare']=dict(eintraege=[L,Q],stufen=[
  'Gleichung aufstellen und rückwärts rechnen':('ja','5 echte (2016, 2021 dreimal, 2022), Bank-Kette Anwendung mit Grundfall (Gleichung ankreuzen)'),
  'Tarife vergleichen':('nein','2 echte (2016, 2023), Niveau II, als Prüfungshöhe auf die Anwendungskette gesetzt'),
 })
+QF='quadratische-funktionen';QG='quadratische-gleichungen'
+KAPITEL['quadratische']=dict(eintraege=[QF,QG],stufen=[
+ ('Wertetabelle zuordnen',['2026-FOR-B1e','2015-OS-K4b'],[(QF,'e1-k1-s8',None,'inner'),(QF,'e1-k1-s12',None,'inner'),(QF,'e1-k2-s3',None,'inner'),(QF,'e1-k1-s13',None),(QF,'e1-k1-s14',None)]),
+ ('Scheitelpunkt ablesen',['2022-OS-K3b','2026-FOR-K5c','2021-OS-B1d','2020-OS-K3a','2018-OS-K5b','2017-OS-K5c'],[(QF,'e2-k1-s1',None,'inner'),(QF,'e2-k1-s2',None,'inner'),(QF,'e2-k1-s3',None,'inner'),(QF,'e3-k1-s6',None,'inner')]),
+ ('Punkt auf der Parabel prüfen',['2024-OS-K3c','2020-OS-K3b','2020-OS-K3c','2014-OS-K7a','2018-OS-K5a'],[(QF,'e1-k1-s4',None,'inner'),(QF,'e3-k1-s2',None,'inner'),(QF,'e4-k1-s14',None,'inner')]),
+ ('Scheitelpunktform angeben',['2023-OS-K4b','2025-OS-K5b','2016-OS-B1g','2018-OS-K5c','2020-OS-K3d','2017-OS-K5e','2015-OS-B1i','2018-OS-K5d'],[(QF,'e2-k1-s6',None,'inner'),(QF,'e2-k1-s7',None,'inner'),(QF,'e2-k1-s8',None,'inner'),(QF,'e2-k1-s9',None,'inner'),(QF,'e2-k1-s10',None,'inner'),(QF,'e2-k1-s11',None,'inner'),(QF,'e3-k1-s7',None,'inner'),(QF,'e3-k1-s11',None,'inner'),(QF,'e2-k1-s16',None),(QF,'e2-k1-s17',None),(QF,'e2-k1-s18',None),(QF,'e3-k1-s12',None)]),
+ ('Parabel skizzieren',['2024-OS-K3b'],[(QF,'e2-k1-s4',None,'inner'),(QF,'e1-k1-s9',None,'inner')]),
+ ('Lage zweier Parabeln ohne Rechnung begründen',['2026-FOR-K5d','2014-OS-K7b'],[(QF,'e2-k1-s12',None,'inner'),(QF,'e4-k1-s15',None,'inner'),(QF,'e4-k1-s2',None,'inner')]),
+ ('Lösung prüfen',['2025-OS-B1h'],[(QG,'e1-k2-s12',None,'inner'),(QG,'e2-k1-s5',None,'inner'),(QG,'e3-k3-s13',None,'inner'),(QG,'e2-k1-s12',['2025-OS-B1h'])]),
+ ('Nullstellen berechnen',['2025-OS-K5c','2020-OS-K3e','2017-OS-K5d'],[(QF,'e4-k1-s1',None,'inner'),(QF,'e4-k1-s3',None,'inner'),(QF,'e4-k1-s4',None,'inner'),(QF,'e4-k1-s5',None,'inner'),(QF,'e4-k1-s6',None,'inner'),(QF,'e4-k1-s7',None,'inner'),(QF,'e4-k1-s21',None),(QG,'e3-k3-s19',['2025-OS-K5c','2020-OS-K3e','2017-OS-K5d'])]),
+ ('x zu gegebenem y',['2023-OS-K4c'],[(QF,'e4-k1-s8',None,'inner'),(QF,'e4-k1-s22',None),(QG,'e3-k3-s19',['2023-OS-K4c'])]),
+ ('Gerade und Parabel gleichsetzen',['2022-OS-K3c','2024-OS-K3d','2021-OS-K2c'],[(QF,'e4-k1-s9',None,'inner'),(QF,'e4-k1-s10',None,'inner'),(QF,'e4-k1-s11',None,'inner'),(QF,'e4-k1-s12',None,'inner'),(QF,'e4-k1-s13',None,'inner'),(QF,'e4-k1-s20',None),(QG,'e3-k4-s1',None,'inner'),(QG,'e3-k3-s19',['2022-OS-K3c','2024-OS-K3d','2021-OS-K2c'])]),
+],kern={
+ 'Wertetabelle zuordnen':('nein','2 echte (2015, Basisteil 2026), Zuordnen als Prüfungsform auf der Kette Normalparabel, Grundfall ist das Ausfüllen'),
+ 'Scheitelpunkt ablesen':('ja','6 echte 2017–2026, fast jedes Jahr (Niveau I), Bank-Kette Scheitelpunktform mit Grundfall'),
+ 'Punkt auf der Parabel prüfen':('nein','5 echte (2014, 2018, 2020 zweimal, 2024), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare'),
+ 'Scheitelpunktform angeben':('ja','8 echte 2015–2025 (mit Verschieben und Spiegeln), Bank-Kette Scheitelpunktform mit Grundfall'),
+ 'Parabel skizzieren':('nein','1 echte (2024)'),
+ 'Lage zweier Parabeln ohne Rechnung begründen':('nein','2 echte (2014, 2026), Niveau III, keine eigene Kette'),
+ 'Lösung prüfen':('nein','1 echte (Basisteil 2025)'),
+ 'Nullstellen berechnen':('ja','3 echte (2017, 2020, 2025), Bank-Kette Nullstellen und Schnittpunkte mit Grundfall, p-q-Formel trägt auch Gleichsetzen'),
+ 'x zu gegebenem y':('nein','1 echte (2023)'),
+ 'Gerade und Parabel gleichsetzen':('ja','3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):

@@ -9,8 +9,8 @@ Kapitel ohne „fertig“ weiter.
 
 | Kapitel | Stand | Stufen (Kern) | fehlen vorher | fehlen nachher | neu | Commit Bank | Commit hier |
 |---|---|---|--:|--:|--:|---|---|
-| Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | (dieser) |
-| Quadratische | offen | | | | | | |
+| Lineare | fertig | 10 (5) | 1 | 0 | 1 | 05d8c03 | siehe git log |
+| Quadratische | fertig | 10 (4) | 0 | 0 | 0 | – | siehe git log |
 | Dreiecke | offen | | | | | | |
 | Daten | offen | | | | | | |
 | Wahrscheinlichk. | offen | | | | | | |
@@ -28,3 +28,8 @@ Summe neu bisher: 1.
   Zahlen in Term oder Grafik als „(i)“ markiert (jede Zeile zählt);
   e2-k4-s4 nicht gezählt (Teilschritte vorgegeben). 2021-OS-K6b
   (Wertetabelle als Punkte) keiner Stufe zugeordnet.
+- Quadratische: alle Stufen schon voll, keine neue Aufgabe. Verschieben,
+  Spiegeln, Parabel zu Eigenschaften (2015–2020) zur Stufe
+  Scheitelpunktform angeben; 2015-OS-K4b (Gleichung zu Graph) zu
+  Wertetabelle zuordnen; 2014-OS-K7b (Gerade ohne gemeinsamen Punkt) zu
+  Lage zweier Parabeln; 2021-OS-K7c (Lösbarkeit) keiner Stufe.
