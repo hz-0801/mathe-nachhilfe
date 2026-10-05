@@ -1,7 +1,10 @@
 # Vorrat Abitur GK 2022–2026 – Standdatei
 
 Auftrag: Vorratslauf Block 1 (Agent 04.10.2026). Beitabelle
-`abitur/vorrat-abi-gk-2022-2026.csv` (id;kurz;zwischen;stich;neben;abh;sympy),
+`abitur/vorrat-abi-gk-2022-2026.csv` (id;kurz;zwischen;stich;neben;abh;sympy;
+seit 05.10.2026 in `archiv/vorrat-abi-gk-2022-2026-2026-10-05.csv`, nach der
+Übernahme in `abitur/abi-katalog.csv` über `abitur/vorrat-uebernahme.py`,
+Stand in `abitur/uebernahme-stand.md`),
 246 Teilaufgaben in 7 Teilstücken (6 × 36, 1 × 30), Katalogreihenfolge.
 Ein Neustart beginnt beim ersten Teilstück, das unten nicht als „fertig“ steht.
 
@@ -16,7 +19,7 @@ Ein Neustart beginnt beim ersten Teilstück, das unten nicht als „fertig“ st
 - Teilstück 6/7 fertig: 36 Zeilen, 2026-10-04T14:45Z
 - Teilstück 7/7 fertig: 30 Zeilen, 2026-10-04T14:48Z
 
-Alle sieben Teilstücke fertig; `python3 werkzeuge/vorrat-pruef.py abitur/vorrat-abi-gk-2022-2026.csv abitur/abi-katalog.csv` meldet „Prüfung bestanden: 246 Zeilen.“
+Alle sieben Teilstücke fertig; `python3 werkzeuge/vorrat-pruef.py archiv/vorrat-abi-gk-2022-2026-2026-10-05.csv abitur/abi-katalog.csv` meldet „Prüfung bestanden: 246 Zeilen.“
 
 ## Bericht (Agent 04.10.2026, Fable 5.1)
 
