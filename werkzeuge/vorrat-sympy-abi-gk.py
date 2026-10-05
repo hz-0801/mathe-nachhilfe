@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Rechenkontrolle für die Beitabelle abitur/vorrat-abi-gk-2022-2026.csv.
+"""Rechenkontrolle für die Beitabelle archiv/vorrat-abi-gk-2022-2026-2026-10-05.csv
+(bis 05.10.2026 abitur/vorrat-abi-gk-2022-2026.csv).
 
 Je rechenbarer Teilaufgabe eine Funktion, eingetragen unter ihrer id in
 PRUEF; sie gibt "ok" oder "abw: <eigener Wert>" zurück. Teilaufgaben ohne

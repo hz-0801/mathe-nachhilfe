@@ -30,7 +30,7 @@ erste Skript bauen.
   Zuordnungen stehen im Agentenbericht nicht im Repo, nur die Datei.
 - `werkzeuge/skript-zuschnitt.py [p10|abi-gk]` – prüft (jede
   Teilaufgabe genau ein Hauptplatz) und baut die Übersicht.
-- `msa/vorrat-p10-2022-2026.csv`, `abitur/vorrat-abi-gk-2022-2026.csv`
+- `archiv/vorrat-p10-2022-2026-2026-10-05.csv`, `archiv/vorrat-abi-gk-2022-2026-2026-10-05.csv`
   – Beitabellen des Vorratslaufs Block 1 (id; kurz; zwischen; stich;
   neben; abh; sympy), Standdateien `*-stand.md` mit Bericht;
   `werkzeuge/vorrat-pruef.py`, `vorrat-sympy-*.py`.

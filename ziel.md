@@ -150,7 +150,8 @@ Vektoren als Spalte, Punkte in der Zeile P(1 | 2 | 3), nur ⇒, kein
 ⇔; Mengenzeichen (∈, ∩, ∨) nur im Abitur. CAS: ein Lösungsblatt;
 ein Schalter aus der Schülerliste setzt an Teilaufgaben mit anderem
 Weg eine Kleinzeile mit dem Gerätebefehl. Die Kurzlösung kommt aus
-dem Katalogfeld kurzloesung; ergebnis bleibt die amtliche Fassung.
+dem Katalogfeld kurzloesung; ergebnis ist das Endergebnis des
+Katalogs (eigene Rechnung, amtlich nur bei Muster 2028 und IQB).
 
 Anpassung: Anpassungen an den einzelnen Schüler sind auf Zuruf
 möglich, nicht Pflicht. Feste Option „schwach“, für alle

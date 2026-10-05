@@ -58,7 +58,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `handreichung-p10-2027.tex` / `.pdf` – Handreichung für Schüler (eine Seite: Termin, EBR/FOR, Hilfsmittel, Themen nach Punkten, QR-Code zu den alten Prüfungen); jährlich im September erneuern (`faellig.md`).
 - `handreichung-reihenfolge.md` – Daten für die Lernreihenfolge der Handreichung (Anteil, Jahre nur aus erlaubten Jahren, 2026 nur FOR, leichte Punkte, Basisanteil, Voraussetzungen); abgeleitet von `werkzeuge/handreichung-reihenfolge.py`.
 - `skript-zuschnitt-p10.csv` – Zuschnitt des P10-Skripts: je Gebiet, Abschnitt (Handgriff) und Stufe die Teilaufgaben 2022–2026; von Hand gepflegt, Urteil im Chat. `skript-zuschnitt-p10.md` ist die daraus gebaute Übersicht mit Zählung (nie von Hand).
-- `vorrat-p10-2022-2026.csv` – Vorratslauf Block 1 (Agent 04.10.): je P10-Teilaufgabe 2022–2026 Kurzlösung, Zwischenwerte, Stichwörter, Nebenthemen, Abhängigkeiten, sympy-Prüfung; Beitabelle, nicht in den Katalog übernommen. `vorrat-p10-stand.md` Standdatei und Bericht.
+- `../archiv/vorrat-p10-2022-2026-2026-10-05.csv` (und `…-2014-2021-2026-10-05.csv`) – Vorratslauf (Agent 04./05.10.): je P10-Teilaufgabe Kurzlösung, Zwischenwerte, Stichwörter, Nebenthemen, Abhängigkeiten, sympy-Prüfung; Beitabelle, am 05.10. über `msa-bau.py --korrektur` in den Katalog übernommen und archiviert. `vorrat-p10-stand.md` Standdatei und Bericht.
 - `msa-quellen.md` – Jahresseite, Serverdateien je papier-Kürzel, Heftordner `hefte/msa/` (lokal), Dateien ohne Katalogeintrag.
 - `msa-typen.csv` – Typen suchen, vergleichen, anlegen; wächst nur über das Bau-Skript; gilt für OS/EBR/FOR und GYM gemeinsam.
 - `msa-katalog-basis.csv`, `msa-katalog-kontext.csv` – der Katalog für OS/EBR/FOR (Basisaufgaben, Kontextaufgaben); nie von Hand ändern.
@@ -91,7 +91,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 
 - `handreichung-abi-gk-2027.tex` / `.pdf`, `handreichung-abi-lk-2027.tex` / `.pdf` – Handreichungen Abitur 2027 für Schüler und Lehrer (eine Seite nach dem P10-Muster; Themenliste = Themenknöpfe des Baums); `handreichung-abi-daten.md` – die Zahlen dazu; alles abgeleitet von `werkzeuge/handreichung-abi.py`.
 - `skript-zuschnitt-abi-gk.csv` – Zuschnitt des Abitur-GK-Skripts (Entwurf 04.10.): je Gebiet, Kapitel (Themenknopf), Abschnitt (Handgriff) und Stufe die Teilaufgaben 2022–2026 der Brandenburger GK-Hefte; von Hand gepflegt, Urteil im Chat. `skript-zuschnitt-abi-gk.md` ist die daraus gebaute Übersicht mit Zählung (nie von Hand).
-- `vorrat-abi-gk-2022-2026.csv` – Vorratslauf Block 1 (Agent 04.10.) für Abitur GK 2022–2026, gleiche Spalten wie msa/vorrat-p10-…; Beitabelle. `vorrat-abi-gk-stand.md` Standdatei und Bericht (zwei Befunde im Katalogfeld zwischenergebnis).
+- `../archiv/vorrat-abi-gk-2022-2026-2026-10-05.csv` (und `…-2017-2021-2026-10-05.csv`) – Vorratslauf (Agent 04./05.10.) für Abitur GK, gleiche Spalten wie die P10-Beitabelle; am 05.10. in den Katalog übernommen und archiviert. `vorrat-abi-gk-stand.md` Standdatei und Bericht (zwei Befunde im Katalogfeld zwischenergebnis).
 
 Beide Profile in einem Ordner, weil sie sich gegenseitig lesen (Dubletten, gemeinsame
 Typenliste, Abgleich).
