@@ -57,7 +57,6 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
 | Beschlüsse 06.10. nachziehen: Regeldateien (ziel.md, bank.md, bankblatt.md v5.6, layout-befunde.md) und Bauprogramm pruefheft.py (Leiter mit Vorstufen, Gruppen, untereinander, Rückblick, Fuß, Lösungsdatei ohne Punkte, Zahlenregel, Bezeichnung in der Überschrift); Prozent-Heft und Fokus Grundwert neu bauen | nächster Chat, nach Ablesen | Chat (Agent, Opus) | uebergabe.md § 6, offen.html |
-| Prüfungsheft: *-Marke für Stufen nur FOR (msa-vorgaben.md § 3), EBR aus der Schülerliste → „schwach“ als Voreinstellung | mit dem Nachzug 06.10. | Chat (Agent) | offen.html |
 | Prüfungsheft: *-Marke für Aufgaben nur FOR (Niveaustufe G außerhalb der EBR-Liste, msa-vorgaben.md § 3; ab 2026 nur im FOR-Heft); Kurs-Feld in der Schülerliste | mit dem Nachzug 06.10. | Chat (Agent) | offen.html |
 | kurzloesung und zwischenergebnis: exakte Werte vor gerundeten (sympy), Formeln ohne Wert ergänzen („W = G · p“ → mit Zahl) | mit dem Lauf oben | Chat (Agent) | offen.html |
 | Probeheft Abitur GK Kurvenuntersuchung (Lösungsdatei, Kopf der Aufgabe, Vektoren) | nach dem Prozent-Neubau oder parallel | Chat (Agent, Opus) | uebergabe.md § 6 |
