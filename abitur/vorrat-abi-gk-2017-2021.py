@@ -183,10 +183,192 @@ z("2017-be-gk-B3.2e",
   "Unabhängigkeit", "2017-be-gk-B3.2c")
 
 
+# ------------------------------------------------------------- 2018-be-gk
+z("2018-be-gk-B1.1a",
+  "S liegt 4 m höher als C; |AB| = 24 m",
+  "h(0) = 54, g(0) = 50 ⇒ Differenz 4|B(−20 | 50), h(−20) = 74 ⇒ A(−20 | 74)",
+  "Funktionswert|Schnittpunkt mit der y-Achse|Höhenunterschied|Punkte ablesen")
+z("2018-be-gk-B1.1b",
+  "A = 640/3 m² ≈ 213,3 m²",
+  "Integrand h(x) − 50 = 0,05x² + 4|∫ von −20 bis 0 (0,05x² + 4) dx = [x³/60 + 4x] = 640/3",
+  "Querschnittsfläche|bestimmtes Integral|Differenzfunktion|Stammfunktion",
+  "Stammfunktion und Hauptsatz|Gleichungen lösen", "2018-be-gk-B1.1a")
+z("2018-be-gk-B1.1c",
+  "H(0 | 50), T₁(−100 | 0), T₂(100 | 0); U = T₂(100 | 0)",
+  "g′(x) = 0 ⇒ x · (x² − 10 000) = 0 ⇒ x = −100, 0, 100|g″(x) = 1/1000 · (3/500 x² − 20)|g″(0) = −0,02 < 0, g″(±100) = 0,04 > 0|g(±100) = 0, g(0) = 50",
+  "Extrempunkte|notwendige und hinreichende Bedingung|zweite Ableitung|Sachzusammenhang",
+  "Ableitungsregeln|Gleichungen lösen")
+z("2018-be-gk-B1.1d",
+  "K(100/√3 | 200/9) ≈ K(57,7 | 22,2); g′(x_K) ≈ −0,77",
+  "g″(x) = 0 ⇒ 3/500 x² = 20 ⇒ x² = 10 000/3 ⇒ x = 100/√3 ≈ 57,74|g(57,74) ≈ 22,22",
+  "stärkstes Gefälle|Wendestelle|notwendige Bedingung|zweite Ableitung",
+  "Ableitungsregeln|Gleichungen lösen", "2018-be-gk-B1.1c")
+z("2018-be-gk-B1.1e",
+  "f(x) = −0,008x² + 54",
+  "f(x) = ax² + bx + c|f(0) = h(0) = 54 ⇒ c = 54|f′(0) = h′(0) = 0 ⇒ b = 0|g(60) = 20,48 ⇒ f(60) = 25,2 ⇒ 3600a + 54 = 25,2 ⇒ a = −0,008",
+  "Steckbriefaufgabe|knickfreier Übergang|Berührbedingung|quadratische Funktion",
+  "Gleichungen lösen|Ableitung und Änderungsrate")
+z("2018-be-gk-B1.1f",
+  "L(73,9 | 10,3); Flugbahn: nach unten geöffnete Parabel mit Scheitel S(0 | 54) durch (40 | 41,2), (60 | 25,2) bis L",
+  "f(x) = g(x) ⇒ x⁴ − 4000x² − 8 000 000 = 0|u = x² ⇒ u² − 4000u − 8 000 000 = 0 ⇒ u = 2000 + 2000√3 ≈ 5464,1|x = √u ≈ 73,92|g(73,92) ≈ 10,29",
+  "Schnittpunkt zweier Graphen|biquadratische Gleichung|Substitution|Parabel skizzieren",
+  "Funktionsklassen und Eigenschaften|Kurvenuntersuchung", "2018-be-gk-B1.1e")
+z("2018-be-gk-B1.1g",
+  "d(x) = f(x) − g(x) maximal bei x = 20√5 ≈ 44,7 m mit d = 38 − 32 = 6 m ⇒ Abstand höchstens 6 m",
+  "d(x) = 0,002x² + 4 − x⁴/2 000 000|d′(x) = 0,004x − x³/500 000 = 0 ⇒ x² = 2000 ⇒ x = 20√5 ≈ 44,72|f(44,72) = 38, g(44,72) = 32",
+  "Differenzfunktion|Extremwertaufgabe|notwendige Bedingung|vertikaler Abstand",
+  "Ableitungsregeln|Gleichungen lösen|Kurvenuntersuchung", "2018-be-gk-B1.1e")
+z("2018-be-gk-B1.2a",
+  "f(x) → 0 für x → +∞ (e-Funktion dominiert); x-Achse waagerechte Asymptote, Annäherung von oben",
+  "",
+  "Grenzwert|Verhalten im Unendlichen|Asymptote|Exponentialfunktion dominiert")
+z("2018-be-gk-B1.2b",
+  "φ ≈ 18,4°",
+  "f′(x) = (0,5 − 0,5x) · e^(−0,5x) ⇒ f′(0) = 0,5|m_g = 1|tan φ = |(1 − 0,5)/(1 + 0,5 · 1)| = 1/3 ⇒ φ ≈ 18,43°|oder arctan 1 − arctan 0,5 = 45° − 26,57°",
+  "Schnittwinkel|Tangentensteigung|Produktregel|Kettenregel|Steigungswinkel",
+  "Ableitungsregeln|Ableitung und Änderungsrate")
+z("2018-be-gk-B1.2c",
+  "F′ = f; einzige Nullstelle x = −1 (e^(−0,5x) > 0); A = 4√e − 6,5 ≈ 0,09 FE",
+  "F′(x) = −2e^(−0,5x) + (−2x − 6) · (−0,5) · e^(−0,5x) = (x + 1) · e^(−0,5x)|f(x) = 0 ⇒ x + 1 = 0 ⇒ x = −1; g(x) = 0 ⇒ x = −1|A = ∫ von −1 bis 0 (f(x) − g(x)) dx = F(0) − F(−1) − 1/2|F(0) = −6, F(−1) = −4√e ≈ −6,595",
+  "Stammfunktion nachweisen|Produktregel|Kettenregel|Nullstelle|Fläche zwischen zwei Graphen",
+  "Ableitungsregeln|Flächeninhalt durch Integration|Gleichungen lösen")
+z("2018-be-gk-B1.2d",
+  "H(1 | 2e^(−0,5)) ≈ H(1 | 1,21): 1 km nach dem Start, Höhe ≈ 1,21 km",
+  "f′(x) = 0 ⇒ 0,5 − 0,5x = 0 ⇒ x = 1|f(1) = 2e^(−0,5) ≈ 1,213",
+  "Hochpunkt|notwendige Bedingung|Ableitung null setzen|Sachzusammenhang",
+  "Gleichungen lösen", "2018-be-gk-B1.2b")
+z("2018-be-gk-B1.2e",
+  "y ≈ −0,189x + 1,481",
+  "f(2) = 3e^(−1) ≈ 1,1036, f(6) = 7e^(−3) ≈ 0,3485|m = (f(6) − f(2))/4 ≈ −0,1888|y = m · (x − 2) + f(2)",
+  "Sekante|Gerade durch zwei Punkte|Punkt-Steigungs-Form|Näherung",
+  "Funktionsklassen und Eigenschaften")
+z("2018-be-gk-B1.2f",
+  "f′(3) = −e^(−1,5) ≈ −0,223 < −0,222 ⇒ Stelle existiert (x = 3)",
+  "f″(x) = 0,25 · (x − 3) · e^(−0,5x) = 0 ⇒ x = 3|f′(3) = −e^(−1,5)",
+  "Steigung|Minimum der Ableitung|Wendestelle|Schranke|Existenznachweis",
+  "Ableitungsregeln|Kurvenuntersuchung")
+z("2018-be-gk-B1.2g",
+  "mittlere Steigung f: (7e^(−3) − 1)/6 ≈ −0,109, h_W: −0,15 ⇒ Betrag bei h_W größer; a = 1,2, b = −ln 24/6 ≈ −0,53",
+  "f(0) = 1, f(6) = 7e^(−3) ≈ 0,3485 ⇒ m_f ≈ −0,109|m_h = (0,3 − 1,2)/6 = −0,15|h_W(0) = 1,2 ⇒ a = 1,2|h_W(6) = 0,3 ⇒ 7,2 · e^(6b) = 0,3 ⇒ e^(6b) = 1/24 ⇒ b = ln(1/24)/6",
+  "mittlere Änderungsrate|Differenzenquotient|Parameter bestimmen|Exponentialgleichung|Logarithmus",
+  "Gleichungen lösen|Funktionsklassen und Eigenschaften")
+z("2018-be-gk-B2.1a",
+  "n = (10 | −1 | 0); E: −10x + y = 0",
+  "AB = (4,4 | 44 | 0), AC = (0,2 | 2 | 2)|AB × AC = (88 | −8,8 | 0) ⇒ n = (10 | −1 | 0)|A einsetzen ⇒ d = 0",
+  "Ebene durch drei Punkte|Normalenvektor|Kreuzprodukt|Koordinatenform",
+  "Vektoren und Rechenoperationen|Orthogonalität")
+z("2018-be-gk-B2.1b",
+  "−10 · 4,8 + 48 = 0 ⇒ D ∈ E; n_E · n_xy = (−10 | 1 | 0) · (0 | 0 | 1) = 0 ⇒ E ⊥ x-y-Ebene",
+  "",
+  "Punktprobe|Orthogonalität zweier Ebenen|Normalenvektor|Koordinatenebene",
+  "Orthogonalität|Ebenen", "2018-be-gk-B2.1a")
+z("2018-be-gk-B2.1c",
+  "g, h ⊂ E und nicht parallel ⇒ Schnittpunkt; φ ≈ 2,5°",
+  "u = (4,4 | 44 | 0), v = (4,6 | 46 | 2) nicht kollinear|cos φ = |u · v|/(|u| · |v|) = 2044,24/(44,22 · 46,27) ≈ 0,9991 ⇒ φ ≈ 2,5°|Schnittpunkt (−4,4 | −44 | 5)",
+  "Lage zweier Geraden|gemeinsame Ebene|lineare Abhängigkeit|Schnittwinkel|Skalarprodukt",
+  "Lagebeziehungen|Skalarprodukt und Winkel|Linearkombination und lineare Abhängigkeit", "2018-be-gk-B2.1b")
+z("2018-be-gk-B2.1d",
+  "|PQ| = √1616 = 4√101 ≈ 40,2 m; v ≈ 26,8 m/s ≈ 96,5 km/h",
+  "PQ = (−40 | −4 | 0) ⇒ |PQ| = √1616|40,2/1,5 ≈ 26,8 m/s|· 3,6",
+  "Betrag eines Vektors|Streckenlänge|Geschwindigkeit|Einheiten umrechnen",
+  "Vektoren und Rechenoperationen|Punkte und Strecken im Koordinatensystem")
+z("2018-be-gk-B2.1e",
+  "r = 32/33 ⇒ t = 1,5 s · 32/33 = 16/11 s ≈ 1,45 s",
+  "Bahn x = (42 | 36 | 0) + r · (−40 | −4 | 0)|in E: −10 · (42 − 40r) + (36 − 4r) = 0 ⇒ 396r = 384 ⇒ r = 32/33|Punkt (3,2 | 32,1 | 0)",
+  "Schnittpunkt Gerade–Ebene|Geradengleichung|Parameter deuten|Sachzusammenhang",
+  "Geraden|Gleichungen lösen", "2018-be-gk-B2.1d")
+z("2018-be-gk-B2.2a",
+  "M₁(1,5 | 1,5 | 2), M₂(3 | 3 | 0); |M₁M₂| = √8,5 ≈ 2,92 m; Seil ≈ 3,50 m",
+  "M₁M₂ = (1,5 | 1,5 | −2) ⇒ |M₁M₂| = √8,5|1,2 · 2,915",
+  "Mittelpunkt einer Strecke|Betrag eines Vektors|Abstand zweier Punkte|prozentualer Zuschlag",
+  "Punkte und Strecken im Koordinatensystem|Vektoren und Rechenoperationen")
+z("2018-be-gk-B2.2b",
+  "EF = (−6 | 6 | 0) = 2 · AB ⇒ AB ∥ EF ⇒ Trapez; |AE| = |BF| = √13 ≈ 3,61 m",
+  "AB = (−3 | 3 | 0), EF = (−6 | 6 | 0)|AE = (3 | 0 | −2), BF = (0 | 3 | −2)",
+  "Trapez|Parallelität|kollineare Vektoren|Betrag eines Vektors",
+  "Vektoren und Rechenoperationen|Linearkombination und lineare Abhängigkeit")
+z("2018-be-gk-B2.2c",
+  "φ ≈ 43,3°",
+  "n_L = (2 | 2 | 3), n_xy = (0 | 0 | 1)|cos φ = 3/√17 ≈ 0,7276",
+  "Winkel zwischen Ebenen|Normalenvektor|Skalarprodukt|Koordinatenebene",
+  "Ebenen")
+z("2018-be-gk-B2.2d",
+  "T′ = E + 5/6 · EF, 0 < 5/6 < 1 ⇒ T′ auf EF; S′(7 | 8 | 0); Schatten = Dreieck R′S′T′",
+  "E + t · (F − E) = T′ ⇒ 6 − 6t = 1 ⇒ t = 5/6|Lichtrichtung RR′ = (−1 | −5 | −3)|S + k · (−1 | −5 | −3), z = 0 ⇒ k = 1 ⇒ S′(7 | 8 | 0)",
+  "Parallelprojektion|Schattenpunkt|Punkt auf einer Strecke|Teilverhältnis|Lichtrichtung",
+  "Punkte und Strecken im Koordinatensystem|Vektoren und Rechenoperationen|Gleichungen lösen")
+z("2018-be-gk-B2.2e",
+  "Weg: Berührpunkt X auf RT aus dem Teilverhältnis; Gerade durch (0 | 0 | 2) und X; Schnitt mit der Senkrechten x = 5, y = 10 durch P₂; z-Koordinate minus 3",
+  "",
+  "Lösungsweg beschreiben|Teilverhältnis|Gerade durch zwei Punkte|Schnittpunkt zweier Geraden",
+  "Punkte und Strecken im Koordinatensystem|Schnittmengen")
+z("2018-be-gk-B3.1a",
+  "p = 4/6 · 3/5 = 2/5 = 0,4",
+  "",
+  "Ziehen ohne Zurücklegen|Pfadmultiplikationsregel|Urnenmodell|Binomialkoeffizient",
+  "Baumdiagramm und Pfadregeln|Kombinatorik")
+z("2018-be-gk-B3.1b",
+  "P(A) ≈ 0,2508; P(B) ≈ 0,0282",
+  "X ~ B(10; 0,4) ⇒ P(A) = (10 über 4) · 0,4⁴ · 0,6⁶|P(B) = 0,4 · P(höchstens 1 von 9)|0,6⁹ + 9 · 0,4 · 0,6⁸ ≈ 0,0705",
+  "Bernoulli-Formel|Binomialverteilung|unabhängige Teilketten|höchstens ein Treffer",
+  "Unabhängigkeit", "2018-be-gk-B3.1a")
+z("2018-be-gk-B3.1c",
+  "P(C) = 1 − 0,6ⁿ wächst mit n (n = 1: 0,4; n = 10: ≈ 0,994) ⇒ Behauptung falsch",
+  "Gegenereignis: kein Gewinn ⇒ 0,6ⁿ|0,6¹⁰ ≈ 0,0060",
+  "Gegenereignis|wenigstens ein Treffer|Monotonie|Behauptung prüfen",
+  "Ereignisse und Mengenoperationen", "2018-be-gk-B3.1a")
+z("2018-be-gk-B3.1d",
+  "E(Auszahlung) = 0,4 · 2 € = 0,80 € < 1 € Einsatz ⇒ Anbieter gewinnt im Mittel 0,20 € je Spiel",
+  "",
+  "Erwartungswert|faires Spiel|Einsatz und Auszahlung",
+  "", "2018-be-gk-B3.1a")
+z("2018-be-gk-B3.1e",
+  "q(2) = 35/57 ≈ 0,614 ≠ 0,5; x = 4 (15 weiße, 6 schwarze ⇒ q = 0,5)",
+  "q(x) = 15/(17 + x) · 14/(16 + x)|q(x) = 0,5 ⇒ (17 + x) · (16 + x) = 420 ⇒ x² + 33x − 148 = 0 ⇒ x = 4 (x = −37 entfällt)|Probe: 15/21 · 14/20 = 1/2",
+  "Ziehen ohne Zurücklegen|faires Spiel|quadratische Gleichung|Probe",
+  "Zufallsexperimente und Urnenmodelle|Gleichungen lösen", "2018-be-gk-B3.1a")
+z("2018-be-gk-B3.2a",
+  "P(A) = P(X ≤ 8) ≈ 0,3073; P(B) = P(11 ≤ X ≤ 14) ≈ 0,3557",
+  "X ~ B(50; 0,2)|P(B) = P(X ≤ 14) − P(X ≤ 10) ≈ 0,9393 − 0,5836",
+  "Binomialverteilung|kumulierte Wahrscheinlichkeit|Tabelle|Intervallwahrscheinlichkeit")
+z("2018-be-gk-B3.2b",
+  "50 fehlerhafte Bildschirme (P(X = 50) ≈ 0,0630)",
+  "μ = 250 · 0,2 = 50",
+  "wahrscheinlichste Trefferzahl|Erwartungswert|Binomialverteilung",
+  "Kenngrößen von Verteilungen")
+z("2018-be-gk-B3.2c",
+  "richtig: 0,8^(n+1) = 0,8 · 0,8ⁿ < 0,8ⁿ",
+  "",
+  "kein Treffer|Potenz|Aussage beurteilen|Stichprobenumfang")
+z("2018-be-gk-B3.2d",
+  "p ≤ 1 − 0,1^(1/25) ≈ 0,088 ⇒ höchstens etwa 8,8 %",
+  "(1 − p)²⁵ ≥ 0,1 ⇒ 1 − p ≥ 0,1^(1/25) ≈ 0,9120",
+  "kein Treffer|Ungleichung|Wurzel ziehen|Mindestwahrscheinlichkeit",
+  "Gleichungen lösen")
+z("2018-be-gk-B3.2e",
+  "beide defekt 1,0 %; nur Display 9,7 %; nur Netzteil 2,0 %; keines 87,3 %; Ränder Display 10,7/89,3 %, Netzteil 3,0/97,0 %",
+  "Display heil: 100 − 10,7 = 89,3 %|nur Netzteil defekt: 89,3 − 87,3 = 2,0 %",
+  "Vierfeldertafel|Randwahrscheinlichkeit|Gegenereignis|Schnittmenge",
+  "Ereignisse und Mengenoperationen")
+z("2018-be-gk-B3.2f",
+  "P(N | D) = 0,010/0,107 ≈ 0,0935 ≈ 9,3 %",
+  "",
+  "bedingte Wahrscheinlichkeit|Vierfeldertafel",
+  "Vierfeldertafel", "2018-be-gk-B3.2e")
+z("2018-be-gk-B3.2g",
+  "nein: ohne Zurücklegen, p ändert sich (6/40 nur beim ersten Zug) ⇒ hypergeometrisch; 10 von 40 zu groß für die Näherung",
+  "",
+  "Bernoulli-Kette|Voraussetzungen der Binomialverteilung|ohne Zurücklegen|hypergeometrische Verteilung",
+  "Hypergeometrische Verteilung|Zufallsexperimente und Urnenmodelle")
+
+
 def main():
+    # Reihenfolge wie im Katalog (werkzeuge/vorrat-pruef.py verlangt sie)
+    with open("abi-katalog.csv", encoding="utf-8", newline="") as fh:
+        rang = {r[0]: i for i, r in enumerate(csv.reader(fh, delimiter=";"))}
     w = csv.writer(sys.stdout, delimiter=";", lineterminator="\n")
     w.writerow(["id", "kurz", "zwischen", "stich", "neben", "abh", "sympy"])
-    for r in Z:
+    for r in sorted(Z, key=lambda r: rang[r[0]]):
         w.writerow(r)
 
 
