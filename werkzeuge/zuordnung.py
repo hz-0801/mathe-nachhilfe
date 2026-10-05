@@ -230,6 +230,30 @@ KAPITEL['flaechen']=dict(eintraege=[FL,KR],stufen=[
  'Figur erst zerlegen oder Strecke erst berechnen':('ja','6 echte (2017 zweimal, 2018, 2022, 2023, 2025), Bank-Kette Zusammengesetzte Figuren mit Grundfall'),
  'Anteil in Prozent (Verschnitt)':('nein','1 echte (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“'),
 })
+PE='potenz-exponentialfunktionen'
+KAPITEL['wachstum']=dict(eintraege=[PE],stufen=[
+ ('Tabelle ergänzen',['2026-FOR-K7a','2020-OS-K4a','2019-OS-K7a','2017-OS-K7a','2016-OS-K4a'],_a(PE,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e2-k2-s5','e2-k2-s6','e2-k2-s7','e2-k2-s8','e2-k3-s3')),
+ ('Punkte darstellen',['2025-OS-K7a','2017-OS-K7b','2016-OS-K4b','2021-OS-K6b'],_a(PE,'e1-k3-s1','e1-k3-s2','e1-k3-s3','e1-k3-s4','e1-k3-s5','e1-k4-s3')),
+ ('Faktor bestimmen, Gleichung aufstellen',['2025-OS-K7b','2026-FOR-K7c','2018-OS-K2a','2017-OS-K7c','2019-OS-K7b','2020-OS-K4c','2017-OS-K7d','2016-OS-K4e'],_a(PE,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s7','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s7','e3-k2-s2','e3-k2-s3','e3-k2-s5','e3-k2-s8','e3-k3-s3')),
+ ('Graph zuordnen und begründen',['2026-FOR-K7b','2019-OS-K7c'],_a(PE,'e1-k2-s3','e1-k2-s4','e1-k2-s5','e1-k2-s6','e1-k2-s7')),
+],kern={
+ 'Tabelle ergänzen':('ja','5 echte 2016–2026, Einstieg fast jeder Wachstumsaufgabe (Niveau I), Bank-Kette Wachstumstabelle fortschreiben mit Grundfall'),
+ 'Punkte darstellen':('ja','4 echte (2016, 2017, 2021, 2025), Bank-Kette Wertepaare darstellen mit Grundfall'),
+ 'Faktor bestimmen, Gleichung aufstellen':('ja','8 echte 2016–2026 (mit Funktionswert aus der Gleichung), Bank-Ketten Wachstumsfaktor und Exponentialfunktion aufstellen mit Grundfall'),
+ 'Graph zuordnen und begründen':('nein','2 echte (2019, 2026), Niveau II/III'),
+})
+LG='lineare-gleichungssysteme'
+KAPITEL['gleichungssysteme']=dict(eintraege=[LG],stufen=[
+ ('Variablen deuten',['2022-OS-K7a'],_a(LG,'e4-k1-s5','e4-k5-s1')+[(LG,'e4-k1-s9',['2022-OS-K7a'])]),
+ ('aufstellen',['2024-OS-K7a','2021-OS-K7b','2016-OS-K6d'],_a(LG,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e4-k1-s7')+[(LG,'e4-k1-s9',['2024-OS-K7a','2021-OS-K7b']),(LG,'e1-k1-s13',['2016-OS-K6d'])]),
+ ('lösen',['2022-OS-K7b'],_i(LG,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s7','e2-k1-s8','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5')+_a(LG,'e2-k1-s6','e2-k1-s12')),
+ ('Gleichung in Worte fassen und lösen',['2024-OS-K7b'],_a(LG,'e4-k1-s6')+[(LG,'e4-k1-s9',['2024-OS-K7b'])]),
+],kern={
+ 'Variablen deuten':('nein','1 echte (2022)'),
+ 'aufstellen':('ja','3 echte (2016, 2021, 2024), Hauptleistung jeder Gleichungssystem-Aufgabe, Bank-Kette Sachaufgaben mit Grundfall'),
+ 'lösen':('ja','1 echte (2022), aber in 2016, 2021, 2024 als Nebenleistung (typ_neben lösen), Bank-Ketten Einsetzen und Addition mit Grundfall'),
+ 'Gleichung in Worte fassen und lösen':('nein','1 echte (2024)'),
+})
 # ---- Ende Daten ----
 
 def gerippe(t):

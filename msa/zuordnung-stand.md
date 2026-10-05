@@ -16,7 +16,7 @@ Kapitel ohne „fertig“ weiter.
 | Wahrscheinlichk. | fertig | 7 (5) | 1 | 0 | 1 | d2f673d | siehe git log |
 | Körper | fertig | 8 (2) | 0 | 0 | 0 | – | siehe git log |
 | Flächen | fertig | 5 (4) | 2 | 0 | 2 | e2035eb | siehe git log |
-| Wachstum | offen | | | | | | |
+| Wachstum | fertig | 4 (3) | 0 | 0 | 0 | – | siehe git log |
 | Gleichungssysteme | offen | | | | | | |
 
 Summe neu bisher: 4.
@@ -57,3 +57,10 @@ Summe neu bisher: 4.
   Struktur Rand). Die 5 Zusatzaufgaben aus msa/prozent-zusatz.jsonl
   (dieselbe Stufe unter Prozent) zählen hier nicht mit. 19-OS-K4b
   (Mantelfläche Prisma) keiner Stufe zugeordnet.
+- Wachstum: alle Stufen schon voll, keine neue Aufgabe. Funktionswert
+  aus der Gleichung (2016-OS-K4e, 2017-OS-K7d, 2020-OS-K4c) zur Stufe
+  Faktor bestimmen, Gleichung aufstellen; 2021-OS-K6b (linear,
+  Wertetabelle als Punkte) zu Punkte darstellen. Keiner Stufe
+  zugeordnet: Wachstumsart begründen (2016-OS-K4d, 2018-OS-K2b),
+  Schwellenwert (2018-OS-K2c), Verdopplungszeit (2016-OS-K4c,
+  2020-OS-K4b).
