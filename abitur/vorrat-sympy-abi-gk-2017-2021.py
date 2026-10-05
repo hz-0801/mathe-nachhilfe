@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Rechenkontrolle für die Beitabelle abitur/vorrat-abi-gk-2017-2021.csv
+(seit der Übernahme am 05.10.2026 in archiv/vorrat-abi-gk-2017-2021-2026-10-05.csv)
 (Muster: werkzeuge/vorrat-sympy-abi-gk.py).
 
 Je rechenbarer Teilaufgabe eine Funktion unter ihrer id in PRUEF; sie gibt

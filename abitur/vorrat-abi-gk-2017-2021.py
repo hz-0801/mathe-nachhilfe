@@ -10,8 +10,12 @@ denen weitergerechnet wird, als „Ansatz ⇒ Wert“, höchstens BE − 1), sti
 Hauptthema), abh (id derselben Prüfung). Vektoren als (a | b | c); die
 Übernahme (vorrat-uebernahme.py) setzt ⟨a | b | c⟩, Punkte bleiben P(a | b | c).
 
-Aufruf: python3 vorrat-abi-gk-2017-2021.py > vorrat-abi-gk-2017-2021.csv
-Die Spalte sympy füllt vorrat-sympy-abi-gk-2017-2021.py --eintragen.
+Aufruf (im Ordner abitur/): python3 vorrat-abi-gk-2017-2021.py > vorrat-abi-gk-2017-2021.csv
+Die Spalte sympy füllt vorrat-sympy-abi-gk-2017-2021.py --eintragen; die
+Übernahme in den Katalog macht vorrat-uebernahme.py --nur <papier> --streng.
+Die Beitabelle liegt nach der Übernahme (05.10.2026, 253 Zeilen: 2017-be-gk,
+2018-be-gk, 2019-be-gk, 2020-be-gk, 2021-be-gk, 2017-be-gk-cas, 2018-be-gk-cas)
+in archiv/vorrat-abi-gk-2017-2021-2026-10-05.csv; Stand in uebernahme-stand.md.
 """
 import csv
 import sys
