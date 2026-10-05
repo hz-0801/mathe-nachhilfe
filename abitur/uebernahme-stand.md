@@ -11,3 +11,4 @@ weiter, der unten nicht als „fertig“ steht.
 
 - Start: 2026-10-05T15:33Z
 - Teil 1 fertig: Beitabelle über `abitur/vorrat-uebernahme.py` (v0.1) in abi-katalog.csv übernommen (246 Zeilen, Felder kurzloesung nach ergebnis und neben nach typ_neben; abi-bau.py v0.16 führt sie als ZUSATZFELDER, solange die Kopfzeile in katalog-prompt.md sie nicht hat); 69 Abweichungen zwischenergebnis, 11 abhaengig_von ergänzt, verfahren bei 230 Zeilen um Rechenschritte verlängert, 45 reine Begriffe weggefallen, 11 Vektor-Zweifelsfälle (als Punkt belassen); Korrekturen 2025-bebb-gk-B4c 0,0432 und 2026-bb-gk-B3c 7/13 in zwischenergebnis (ergebnis war richtig). Selbstprüfung abi-bau.py bestanden. 2026-10-05T15:37Z
+- Teil 2 fertig: iqb-katalog.csv mit leeren Spalten kurzloesung und neben (vorrat-uebernahme.py --nur-spalten), iqb-bau.py v1.11; Selbstprüfung iqb-bau.py bestanden. 2026-10-05T15:37Z

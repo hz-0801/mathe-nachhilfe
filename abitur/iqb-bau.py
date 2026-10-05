@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """iqb-bau.py – Gerüst für die Erfassung eines Stapels im Profil iqb.
-Version 1.10 · 29.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, iqb.md v1.18, abitur-abgleich.py v0.28, iqb-quellen.csv mit Spalte dateidublette_von und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 1.11 · 05.10.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, iqb.md v1.18, abitur-abgleich.py v0.28, iqb-quellen.csv mit Spalte dateidublette_von und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 1.10 (Übernahme Vorrat Abitur GK, 05.10.2026): Zusatzfelder
+kurzloesung (nach ergebnis) und neben (nach typ_neben) im Kopf des Katalogs, solange
+katalog-prompt.md sie nicht führt (ZUSATZFELDER, hinter vokabular()). Keine Prüfung
+geändert; row() lässt die Felder leer, lade() verlangt sie in der Kopfzeile der CSV.
 
 Änderungen gegenüber 1.9 (Auftrag Nacht 2026-09-29, Teil 3; Beschluss vom 26.09.2026, beschluss-2026-09-26.md
 Punkt 2): Liste EICHUNG_UNTERSCHRITTEN (neben SCHWELLEN) für Stapel, die mit dokumentierter Unterschreitung der
@@ -416,6 +421,18 @@ def pruefe_thema(z, a):
 
 
 HEAD, VOK, LEITIDEEN, THEMEN = vokabular()
+
+# Zusatzfelder des Lösungsblatts (Beschluss des Lehrers 05.10.2026, v1.11): kurzloesung
+# (Kurzlösung ohne Sätze, mit Einheit) nach ergebnis und neben (jede mitbenutzte
+# Fertigkeit, getrennt von typ_neben) nach typ_neben. Sie stehen im Katalog, aber noch
+# nicht in der Kopfzeile von katalog-prompt.md (Repo-Wurzel, msa/fhr lesen dieselbe
+# Zeile); bis dahin ergänzt sie das Profil hier. Führt der Kern sie, greift die
+# Ergänzung nicht mehr (Feld schon im Kopf). Gefüllt werden sie durch
+# vorrat-uebernahme.py; neue Heftzeilen lassen sie leer.
+ZUSATZFELDER = (("kurzloesung", "ergebnis"), ("neben", "typ_neben"))
+for _feld, _nach in ZUSATZFELDER:
+    if _feld not in HEAD:
+        HEAD.insert(HEAD.index(_nach) + 1, _feld)
 ZIELE, GELTUNG = geltung()
 KLASSEN = klassen()
 HANDLUNG = handlungen()
