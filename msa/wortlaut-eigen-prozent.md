@@ -65,3 +65,48 @@ Turmzeichnung 2015 und Dose 2023 sind für die Prozentteile nicht nötig.
 - Vorspann nur, wenn mehrere gewählte Teilaufgaben ihn brauchen;
   sonst steht der nötige Kontext in der Teilaufgabe.
 - punkte der Vorspann-Zeilen leer; Formeln als LaTeX wie im Korpus.
+
+## Auffüllen Prozent (Auftrag 2026-10-05, Beschluss „schwach“ fest)
+
+Ziel 12 Aufgaben je Kern-Stufe, 6 je übriger Stufe; gezählt: echte
+Teilaufgaben + zugeordnete Bank-Aufgaben + Zusatz. Zuordnung in
+`msa/zuordnung-prozent.csv` (Spalte anzahl_bank zählt Bank und Zusatz).
+
+Zählweise: Eine Bank-Sprosse zählt zur Stufe, wenn sie denselben
+Handgriff ohne Gerüst verlangt (kein Streifen, keine Vorform, kein
+vorgegebener Teilschritt, keine „gemischt“-Sprosse). Innermathematische
+Aufgaben zählen je Zeile; eine Sachaufgabe zählt nicht, wenn ihr Text
+ohne Zahlen zu mindestens 70 % mit einer schon gezählten Aufgabe der
+Stufe übereinstimmt (difflib; „nur andere Zahlen im selben Text“).
+
+| Stufe | Kern | echt | Bank+Zusatz vorher | nachher | Ziel |
+|---|---|---|---|---|---|
+| Prozent und Anteil umwandeln | ja | 2 | 9 | 11 | 12 |
+| Prozentwert | ja | 6 | 16 | 16 | 12 |
+| Prozentsatz | ja | 3 | 18 | 18 | 12 |
+| Grundwert | ja | 2 | 11 | 11 | 12 |
+| Erhöhung und Veränderung in Prozent | ja | 8 | 20 | 20 | 12 |
+| Aussagen prüfen | nein | 4 | 12 | 12 | 6 |
+| Prozent aus einer berechneten Fläche | nein | 1 | 0 | 5 | 6 |
+| Zinsen und Zinssatz | nein | 3 | 9 | 9 | 6 |
+| Zinseszins und Guthabentabelle | nein | 2 | 9 | 9 | 6 |
+
+Neu: 7 Aufgaben. Bank `prozentrechnung` e1-k1-s6 v4 (Struktur: Nenner
+geht nicht in hundert auf) und v5 (Struktur: Richtung umgekehrt,
+„jeder …“ aus Prozent); Zusatz `msa/prozent-zusatz.jsonl` 5 zur Stufe
+Fläche ohne Bank-Sprosse (Kontext Kork/Quadratraster, Struktur
+Begründen π/4, Darstellung Kreisring, Struktur rückwärts Prozentwert,
+Kontext Holz mit Durchmesser und nicht eingehaltener Vorgabe). Feld
+herkunft „eigene Aufgabe 2026-10-05 (Auffüllen Prozent); anders: …“ –
+was anders ist, steht dort, weil merkmal nach bank.md je Sprosse
+einheitlich sein muss (sonst Abweichung im Prüfskript).
+
+Zwischenfragen: Spalte `zwischenfragen` in `msa/wortlaut-eigen-prozent.csv`
+für alle 21 Teilaufgaben mit Katalogfeld zwischenergebnis, je Eintrag
+eine Frage, Trenner „ ; “.
+
+Gegenprobe: bank-pruef.py prozentrechnung 0 Abweichungen (Warnung neu:
+e1-k1-s6 hat 5 statt 3 Zeilen), zinsrechnung unverändert 0; Zusatz im
+Probeordner als eigener Eintrag 0 Abweichungen (ohne Mappe keine
+Sperrprobe); sympy alle 7 Werte nachgerechnet; duplikate.py: keine
+neue Aufgabe in Liste A oder B.
