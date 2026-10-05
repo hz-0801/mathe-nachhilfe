@@ -29,3 +29,34 @@ id;kurz;zwischen;stich;neben;abh;sympy
 2014-OS-K6c;13/32 ≈ 0,41;1/4 + 9/64 + 1/64 = 26/64;Pfadregel|Summenregel|zweistufig;Brüche und Dezimalzahlen;2014-OS-K6b;ok
 2014-OS-K7a;ja, S(−3 | −9) ist Schnittpunkt;p(−3) = −(−3)² = −9 | g(−3) = 2 · (−3) − 3 = −9;Punktprobe|Schnittpunkt|Parabel|Gerade;Rationale Zahlen rechnen|Lineare Funktionen;;ok
 2014-OS-K7b;z. B. f(x) = 1;Scheitel S(0 | 0), Parabel nach unten geöffnet;Parabel|Gerade|kein Schnittpunkt|Scheitelpunkt;Lineare Funktionen;;ok
+2015-OS-B1a;rechter Topf (3 weiße, 3 graue Kugeln);;Laplace-Wahrscheinlichkeit|Urne|Anteil|Hälfte;Prozentrechnung;;ok
+2015-OS-B1b;z. B. 0;;negative Zahl|Zahlen vergleichen|Zahlengerade;;;ok
+2015-OS-B1c;8/5 > 3/2;;Bruch|Dezimalzahl|Wurzel|Zahlen vergleichen;Potenzen und Wurzeln;;ok
+2015-OS-B1d;α = 127°;;Parallelen|Stufenwinkel|Nebenwinkel;;;ok
+2015-OS-B1e;8 €;;Zinsen|Zinssatz|Kapital;;;ok
+2015-OS-B1f;5 °C;;Median|Zentralwert|Rangliste;;;ok
+2015-OS-B1g;immer negativ;;Vorzeichenregel|Multiplikation|negative Zahl;;;ok
+2015-OS-B1h;200 l;;Bruchteil|Rest|Ganzes;Einheiten umrechnen;;ok
+2015-OS-B1i;S(2 | 0);;Normalparabel|Verschiebung|Scheitelpunkt;;;ok
+2015-OS-B1j;√((−4)²) = +4;;Quadratwurzel|Quadrat|negative Basis;Rationale Zahlen rechnen;;ok
+2015-OS-K2a;Term 1 falsch | Term 2 richtig | Term 3 richtig;voller Preis 3 · 12 € + 7,50 € = 43,50 € | Rabatt 8,70 €;Rabatt|Prozentsatz|Term|Grundwert;Terme umformen;;ok
+2015-OS-K2b;34,80 €;43,50 € · 0,8;Rabatt|verminderter Grundwert|Endpreis;;;ok
+2015-OS-K3a;946 000 000 000 000 km (9,46 · 10¹⁴ km);;Lichtjahr|große Zahl|Stellenwert|Zehnerpotenz;;;ok
+2015-OS-K3b;9 460 000 000 000;;Zehnerpotenz|Komma verschieben|Stellenwert;;;ok
+2015-OS-K3c;≈ 1,34 · 10¹⁰ s | ≈ 426 Jahre;t = s : v ⇒ t ≈ 1,34 · 10¹⁰ s | 1 Jahr = 31 536 000 s;Lichtgeschwindigkeit|Weg|Zeit|Zehnerpotenz|Zeiteinheit;Zehnerpotenzen und Näherungswerte|Einheiten umrechnen;;ok
+2015-OS-K4a;2400 m | 260 s;;Graph ablesen|Startwert|Nullstelle|Zeit-Höhe-Diagramm;;;nicht rechenbar
+2015-OS-K4b;h(t) = −3t² + 2400 | h(0) = 2400 und Parabel nach unten geöffnet ⇒ −3t² + 2400;h(0) = 2400 | h(20) = −3 · 20² + 2400 = 1200;Parabel|Öffnung|y-Achsenabschnitt|Funktionsgleichung zuordnen;;;ok
+2015-OS-K4c;18 km/h;500 m : 100 s = 5 m/s;Geschwindigkeit|Höhendifferenz|m/s in km/h;Einheiten umrechnen;;ok
+2015-OS-K4d;h(t) = −5t + 1300;m = (700 − 1200) : (120 − 20) = −5 | 1200 = −5 · 20 + n ⇒ n = 1300;Geradengleichung|Steigung|y-Achsenabschnitt|zwei Punkte;Lineare Gleichungen;2015-OS-K4c;ok
+2015-OS-K5a;8;;Kombinatorik|Dreiecke zählen|auf einer Geraden;;;ok
+2015-OS-K5b;δ = 21°;;Winkelsumme|Dreieck|Drachenviereck;;;ok
+2015-OS-K5c;BD ≈ 5,85 cm;BD : sin 123° = 4,1 : sin 21° ⇒ BD ≈ 5,85 cm;Sinussatz|Diagonale|Drachenviereck;Trigonometrie im rechtwinkligen Dreieck;2015-OS-K5b;ok
+2015-OS-K5d;gegeben AD = 4,1 cm, δ = 21°, rechter Winkel bei E | AE mit Sinus, DE mit Kosinus, A = ½ · AE · DE;AE ≈ 1,47 cm | DE ≈ 3,83 cm;Lösungsplan|rechtwinkliges Dreieck|Kathete|Flächeninhalt Dreieck;Trigonometrie im rechtwinkligen Dreieck;2015-OS-K5b;ok
+2015-OS-K6a;Höhe 6,8 m | Grundkante 8 m;Maßstab 1 : 10 ⇒ mal 10;Maßstab|Modell|Original|Pyramide;Maßstab;;ok
+2015-OS-K6b;Höhe von der Spitze zum Diagonalenschnittpunkt, h = 0,68 m | Grundkante 0,80 m;;Schrägbild|Pyramide|Körperhöhe|beschriften;;;nicht rechenbar
+2015-OS-K6c;h_s = √(0,68² + 0,40²) ≈ 0,789 m ⇒ A = ½ · 0,80 · 0,789 ≈ 0,32 m²;h_s ≈ 0,789 m | A ≈ 0,316 m²;Pyramide|Seitenfläche|Höhe der Seitenfläche|Nachweis;Satz des Pythagoras;;ok
+2015-OS-K6d;Paul hat recht | 256 ml < 375 ml, Dose S reicht;4 · 0,32 m² · 2 = 2,56 m² | 2,56 m² : 10 m² je l = 0,256 l;Lack|Ergiebigkeit|Liter|Milliliter|Dosengröße;Flächeninhalt und Umfang;2015-OS-K6c;ok
+2015-OS-K7a;≈ 40 000 Zuschauer (40 021);680 353 : 17 ≈ 40 020,8;Durchschnitt|arithmetisches Mittel|sinnvoll runden;Runden und Überschlag;;ok
+2015-OS-K7b;11/17 ≈ 0,65 (≈ 64,7 %);;relative Häufigkeit|Anteil|Bruch;Brüche und Dezimalzahlen;;ok
+2015-OS-K7c;≈ 14,5 % | Sektor ≈ 52° | ≈ 52°;83 − 71 = 12 | 12 : 83 ≈ 0,145 | 0,145 · 360° ≈ 52°;Prozentsatz|Kreisdiagramm|Mittelpunktswinkel|Anteil;Daten darstellen;;ok
+2015-OS-K7d;10/11, 1/10, 1/9, 8/9 | 3/11 ≈ 0,27;1 − 10/11 · 9/10 · 8/9 | jeder Pfad mit R hat 1/11;Baumdiagramm|ohne Zurücklegen|Pfadregel|Gegenereignis;Brüche und Dezimalzahlen;;ok

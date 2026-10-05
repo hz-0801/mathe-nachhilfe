@@ -27,6 +27,7 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
   Übernahme `python3 msa-bau.py --korrektur ../archiv/vorrat-p10-2014-2021-2026-10-05.csv`.
   - 2014: erledigt 2026-10-05 15:36 UTC. 30 Zeilen; sympy ok 27, abw 0, nicht rechenbar 3; zwischenergebnis 5 Katalogwerte ersetzt.
 
+  - 2015: erledigt 2026-10-05 15:37 UTC. 31 Zeilen; sympy ok 29, abw 0, nicht rechenbar 2; zwischenergebnis 11 Katalogwerte ersetzt.
 ## zwischenergebnis: Katalogwert → Beitabelle (57)
 
   2025-OS-B1e: '145/360' → '145 : 360 = 0,4028'

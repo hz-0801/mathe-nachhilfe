@@ -153,6 +153,115 @@ def p_2014_OS_K7b():
     return wahr(real_roots(Poly(-x**2 - 1, x)) == [])
 
 
+# ---------- 2015 (OS)
+
+def p_2015_OS_B1a():
+    w = {"links": R(4, 6), "Mitte": R(2, 6), "rechts": R(3, 6)}
+    return wahr([k for k in w if w[k] == R(1, 2)] == ["rechts"], w)
+
+def p_2015_OS_B1b():
+    return wahr(0 > -150)
+
+def p_2015_OS_B1c():
+    return wahr(not (R(15, 10) < R(3, 2)) and R(8, 5) > R(3, 2) and not (sqrt(2) > R(3, 2)))
+
+def p_2015_OS_B1d():
+    return genau(180 - 53, 127, "°")
+
+def p_2015_OS_B1e():
+    return genau(400 * R(2, 100), 8, " €")
+
+def p_2015_OS_B1f():
+    return genau(sorted([5, 7, 3, 8, 1, 8, 5])[3], 5, " °C")
+
+def p_2015_OS_B1g():
+    return wahr(3 * (-2) < 0)
+
+def p_2015_OS_B1h():
+    return genau(600 - R(2, 3) * 600, 200, " l")
+
+def p_2015_OS_B1i():
+    return genau(solve(Eq((x - 2)**2, 0), x)[0], 2)
+
+def p_2015_OS_B1j():
+    return genau(sqrt((-4)**2), 4)
+
+def p_2015_OS_K2a():
+    voll = 3 * 12 + R(75, 10)
+    t1 = (2 * 12 + 2 * R(75, 10)) * R(20, 100)
+    t2 = R(1, 5) * (36 + R(75, 10))
+    t3 = 20 * (12 + 12 + 12 + R(75, 10)) / 100
+    return kette(genau(voll * R(20, 100), R(87, 10), " €"), wahr(t1 != t2 and t2 == t3 == R(87, 10), (t1, t2, t3)))
+
+def p_2015_OS_K2b():
+    return genau((3 * 12 + R(75, 10)) * R(8, 10), R(348, 10), " €")
+
+def p_2015_OS_K3a():
+    return genau(9460000000000 * 100, R(946, 100) * 10**14, " km")
+
+def p_2015_OS_K3b():
+    return genau(R(946, 100) * 10**12, 9460000000000)
+
+def p_2015_OS_K3c():
+    ts = R(403, 100) * 10**15 / (3 * 10**5)
+    return kette(naeh(ts / 10**10, R(134, 100), tol=R(1, 200)), genau(365 * 24 * 3600, 31536000, " s"),
+                 naeh(ts / 31536000, 426, " Jahre", tol=1))
+
+def p_2015_OS_K4b():
+    h = -3 * t**2 + 2400
+    return kette(genau(h.subs(t, 0), 2400), genau(h.subs(t, 20), 1200))
+
+def p_2015_OS_K4c():
+    return kette(genau(R(1200 - 700, 100), 5, " m/s"), genau(5 * R(36, 10), 18, " km/h"))
+
+def p_2015_OS_K4d():
+    m = R(700 - 1200, 120 - 20)
+    n = solve(Eq(1200, m * 20 + x), x)[0]
+    return kette(genau(m, -5), genau(n, 1300), genau((m * t + n).subs(t, 260), 0))
+
+def p_2015_OS_K5a():
+    return genau(binomial(5, 3) - 2, 8)
+
+def p_2015_OS_K5b():
+    return genau(180 - 123 - 36, 21, "°")
+
+def p_2015_OS_K5c():
+    bd = R(41, 10) * sin(gr(123)) / sin(gr(36))
+    de, ae = R(41, 10) * cos(gr(21)), R(41, 10) * sin(gr(21))
+    return kette(naeh(bd, R(585, 100), " cm", tol=R(1, 100)), naeh(de + ae / tan(gr(36)), R(585, 100), " cm", tol=R(1, 100)))
+
+def p_2015_OS_K5d():
+    ae, de = R(41, 10) * sin(gr(21)), R(41, 10) * cos(gr(21))
+    return kette(naeh(ae, R(147, 100), " cm", tol=R(1, 100)), naeh(de, R(383, 100), " cm", tol=R(1, 100)),
+                 naeh(ae * de / 2, R(281, 100), " cm²", tol=R(1, 100)))
+
+def p_2015_OS_K6a():
+    return kette(genau(R(68, 100) * 10, R(68, 10), " m"), genau(R(80, 100) * 10, 8, " m"))
+
+def p_2015_OS_K6c():
+    hs = sqrt(R(68, 100)**2 + R(40, 100)**2)
+    return kette(naeh(hs, R(789, 1000), " m", tol=R(1, 1000)), naeh(R(80, 100) * hs / 2, R(32, 100), " m²", tol=R(5, 1000)))
+
+def p_2015_OS_K6d():
+    f = 4 * R(32, 100) * 2
+    return kette(genau(f, R(256, 100), " m²"), genau(f / 10 * 1000, 256, " ml"), wahr(256 < 375))
+
+def p_2015_OS_K7a():
+    return kette(naeh(R(680353, 17), R(400208, 10), tol=R(1, 10)), genau(round(R(680353, 17)), 40021))
+
+def p_2015_OS_K7b():
+    return kette(genau(R(22, 34), R(11, 17)), naeh(R(11, 17) * 100, R(647, 10), " %"))
+
+def p_2015_OS_K7c():
+    q = R(83 - 71, 83)
+    return kette(naeh(q * 100, R(145, 10), " %"), naeh(q * 360, 52, "°", tol=R(6, 10)))
+
+def p_2015_OS_K7d():
+    p = R(1, 11) + R(10, 11) * R(1, 10) + R(10, 11) * R(9, 10) * R(1, 9)
+    return kette(genau(p, R(3, 11)), genau(1 - R(10, 11) * R(9, 10) * R(8, 9), R(3, 11)),
+                 genau(R(1, 10) + R(9, 10), 1), genau(R(1, 9) + R(8, 9), 1))
+
+
 # ---------- Ausführung
 
 def alle():
