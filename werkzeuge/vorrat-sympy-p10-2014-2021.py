@@ -262,6 +262,102 @@ def p_2015_OS_K7d():
                  genau(R(1, 10) + R(9, 10), 1), genau(R(1, 9) + R(8, 9), 1))
 
 
+# ---------- 2016 (OS)
+
+def p_2016_OS_B1a():
+    return genau(R(8 + 40 + 60, 3), 36)
+
+def p_2016_OS_B1b():
+    return genau(solve(Eq(8 * x - 12, 36), x)[0], 6)
+
+def p_2016_OS_B1d():
+    return genau(R(30, 100) * 20, 6, " g")
+
+def p_2016_OS_B1f():
+    return kette(genau(R(5, 100), R(1, 20)), genau(R(5, 100) * 100, 5, " %"))
+
+def p_2016_OS_B1g():
+    f = (x - 1)**2 + 3
+    return kette(genau(solve(f.diff(x), x)[0], 1), genau(f.subs(x, 1), 3))
+
+def p_2016_OS_B1h():
+    return genau(R(85, 10) * 10**5, 850000)
+
+def p_2016_OS_B1i():
+    return genau((2 + (-4)) / S(-2), 1)
+
+def p_2016_OS_K2c():
+    return genau(R(400 - 320, 320) * 100, 25, " %")
+
+def p_2016_OS_K2d():
+    w = {"Oma-Opa + Eltern einzeln": 34 + 2 * 21, "Familie + Oma-Opa": 60 + 34,
+         "Familie + 2 einzeln": 60 + 2 * 21, "einzeln": 112}
+    return kette(genau(min(w.values()), 76, " €"), wahr(min(w, key=w.get) == "Oma-Opa + Eltern einzeln"))
+
+def p_2016_OS_K3a():
+    return kette(genau(7 * R(305, 1000), R(2135, 1000), " m"), naeh(R(2135, 1000), R(214, 100), tol=R(1, 200)))
+
+def p_2016_OS_K3b():
+    return naeh(pi * R(107, 100)**2, R(360, 100), " m²", tol=R(1, 100))
+
+def p_2016_OS_K3c():
+    return naeh(R(4, 3) * pi * 6**3, R(9048, 10), " cm³")
+
+def p_2016_OS_K3d():
+    return naeh(4000 / R(78, 10), R(5128, 10), " cm³")
+
+def p_2016_OS_K4a():
+    w = [5 * R(89, 100)**k for k in range(9)]
+    return kette(naeh(w[1], R(445, 100), tol=R(1, 200)), naeh(w[2], R(396, 100), tol=R(1, 200)),
+                 naeh(w[4], R(314, 100), tol=R(1, 200)), naeh(w[5], R(279, 100), tol=R(1, 200)))
+
+def p_2016_OS_K4c():
+    th = log(R(1, 2)) / log(R(89, 100))
+    return naeh(th, 6, " h", tol=R(1, 10))
+
+def p_2016_OS_K4d():
+    d = [5 * R(89, 100)**k - 5 * R(89, 100)**(k + 1) for k in range(2)]
+    return kette(naeh(d[0], R(55, 100), tol=R(1, 200)), naeh(d[1], R(49, 100), tol=R(1, 100)), wahr(d[0] != d[1]))
+
+def p_2016_OS_K4e():
+    return naeh(5 * R(89, 100)**24, R(31, 100), " mg", tol=R(1, 200))
+
+def p_2016_OS_K5a():
+    return genau(int("".join(sorted("236", reverse=True))), 632)
+
+def p_2016_OS_K5b():
+    from itertools import permutations
+    zahlen = sorted(int("".join(p)) for p in permutations("236"))
+    return kette(wahr(zahlen == [236, 263, 326, 362, 623, 632], zahlen),
+                 genau(R(sum(1 for n in zahlen if n % 2 == 0), len(zahlen)), R(2, 3)))
+
+def p_2016_OS_K5c():
+    return genau(R(1, len(range(101, 901))), R(1, 800))
+
+def p_2016_OS_K5d():
+    sechs = [n for n in range(101, 901) if n % 10 == 6]
+    trost = [n for n in sechs if n % 100 == 26 and n != 326]
+    return kette(genau(len(sechs), 80), genau(R(len(trost), len(sechs)), R(7, 80)))
+
+def p_2016_OS_K6b():
+    s, r = lambda k: 200 + R(3, 2) * k, lambda k: 2 * k
+    return kette(genau(s(350), 725, " €"), genau(r(350), 700, " €"), genau(s(450), 875, " €"),
+                 genau(r(450), 900, " €"), genau(solve(Eq(s(x), r(x)), x)[0], 400, " km"))
+
+def p_2016_OS_K6d():
+    l = solve([Eq(x + y, 16), Eq(3 * x + 5 * y, 66)], [x, y])
+    return wahr(l == {x: 7, y: 9}, l)
+
+def p_2016_OS_K7a():
+    return genau(920 + 541, 1461, " m")
+
+def p_2016_OS_K7b():
+    return kette(naeh(sqrt(920**2 - 541**2), 744, " m", tol=1), naeh(920 * sin(gr(54)), 744, " m", tol=1))
+
+def p_2016_OS_K7c():
+    return naeh(744 * tan(gr(70 - 36)), 502, " m", tol=1)
+
+
 # ---------- Ausführung
 
 def alle():

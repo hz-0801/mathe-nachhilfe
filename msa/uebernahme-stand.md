@@ -28,6 +28,7 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
   - 2014: erledigt 2026-10-05 15:36 UTC. 30 Zeilen; sympy ok 27, abw 0, nicht rechenbar 3; zwischenergebnis 5 Katalogwerte ersetzt.
 
   - 2015: erledigt 2026-10-05 15:37 UTC. 31 Zeilen; sympy ok 29, abw 0, nicht rechenbar 2; zwischenergebnis 11 Katalogwerte ersetzt.
+  - 2016: erledigt 2026-10-05 15:38 UTC. 34 Zeilen; sympy ok 26, abw 0, nicht rechenbar 8; zwischenergebnis 6 Katalogwerte ersetzt.
 ## zwischenergebnis: Katalogwert → Beitabelle (57)
 
   2025-OS-B1e: '145/360' → '145 : 360 = 0,4028'
