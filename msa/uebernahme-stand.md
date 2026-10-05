@@ -10,7 +10,9 @@ Neustart: am ersten Teil weitermachen, der nicht „erledigt“ trägt.
   Katalogwert, Liste unten), stichwoerter 131, neben 81, abhaengig_von 0
   (alle 6 Werte gleich). GYM nur Kopfzeile. Selbstprüfung aller 666 Zeilen
   bestanden.
-- Teil 2 – offen
+- Teil 2 – erledigt 2026-10-05 15:33 UTC. fhr-bau.py 0.5: dieselbe Kopfzeile
+  (neben, kurzloesung leer); `python3 fhr-bau.py --umbau` (im Ordner fhr/),
+  253 Zeilen, Selbstprüfung bestanden.
 - Teil 3 – offen
 - Teil 4 – offen
 - Teil 5 – offen

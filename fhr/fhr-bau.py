@@ -1,6 +1,15 @@
 # -*- coding: utf-8 -*-
 """fhr-bau.py – Gerüst für die Erfassung eines Hefts im Profil fhr.
-Version 0.4 · 17.09.2026 · gilt mit katalog-prompt.md v0.9 und fhr.md v1.8
+Version 0.5 · 05.10.2026 · gilt mit katalog-prompt.md v0.9 und fhr.md v1.8
+
+Änderungen gegenüber 0.4 (Auftrag Übernahme Vorrat P10, Teil 2, 05.10.2026):
+dieselbe Kopfzeile wie msa-bau.py 0.4 – neue Felder neben (nach typ_neben)
+und kurzloesung (nach ergebnis), vorerst leer. Eine Katalogdatei mit der
+alten Kopfzeile (37 Felder) wird beim Lesen um die zwei leeren Felder
+ergänzt. Neuer Aufruf python3 fhr-bau.py --umbau: liest den Bestand, prüft
+ihn wie die Selbstprüfung und schreibt fhr-katalog.csv mit der neuen
+Kopfzeile; ZEILEN wird dabei nicht angefasst. Neue Prüfung je Zeile: neben
+nennt nur Themen aus THEMEN.
 
 Änderungen gegenüber 0.3 (Auftrag G, Punkt 2, 17.09.2026): Versionsbindung auf
 Kern v0.9 und fhr.md v1.8 (stand auf v0.8 und v1.7; Schema und Themenliste
@@ -37,9 +46,11 @@ KONFIG = {
 
 # ---- technischer Block, nicht ändern ----
 HEAD = ("id;jahr;papier;block;aufgabe;titel;teilaufgabe;seite;punkte;stern;hilfsmittel;afb_amtlich;"
-        "leitidee;thema;typ;typ_neben;stichwoerter;voraussetzungen;format;operator;antwort;material;"
+        "leitidee;thema;typ;typ_neben;neben;stichwoerter;voraussetzungen;format;operator;antwort;material;"
         "skizze;kontext;textumfang;gegeben;gesucht;verfahren;schritte;zahlenraum;einheiten;"
-        "abhaengig_von;ergebnis;zwischenergebnis;niveau_geschaetzt;fehlerquelle;bemerkung").split(";")
+        "abhaengig_von;ergebnis;kurzloesung;zwischenergebnis;niveau_geschaetzt;fehlerquelle;bemerkung").split(";")
+ZUSATZ = ("neben", "kurzloesung")  # Profilfelder seit 0.5 (wie msa-bau.py 0.4), im Kern noch nicht genannt
+ALT_HEAD = [k for k in HEAD if k not in ZUSATZ]
 
 ZEILEN = []
 
@@ -381,6 +392,9 @@ def lade(pfad, kopf):
         rows = list(csv.reader(fh, delimiter=";"))
     if not rows:
         return kopf, []
+    if kopf is HEAD and rows[0] == ALT_HEAD:
+        # Umbau 0.5: fehlende Zusatzfelder leer einfügen
+        return HEAD, [[dict(zip(ALT_HEAD, r)).get(k, "") for k in HEAD] for r in rows[1:]]
     if rows[0] != kopf:
         sys.exit(f"{pfad}: Kopfzeile weicht ab")
     return rows[0], rows[1:]
@@ -410,6 +424,8 @@ def pruefe_zeile(z, a, typ_namen, alle_ids):
             a(t in typ_namen, f"{z['id']}: Typ nicht in {TYP}: {t}")
     for dep in [s for s in z["abhaengig_von"].split("|") if s]:
         a(dep in alle_ids, f"{z['id']}: abhaengig_von zeigt ins Leere: {dep}")
+    for t in [s for s in z["neben"].split("|") if s]:
+        a(t in {x for l in THEMEN.values() for x in l}, f"{z['id']}: neben nennt kein Thema: {t}")
     for k, v in z.items():
         a("?" not in v or k == "bemerkung" or z["bemerkung"].strip() != "",
           f"{z['id']}: Fragezeichen in {k} ohne Grund in bemerkung")
@@ -419,8 +435,8 @@ def pruefe_zeile(z, a, typ_namen, alle_ids):
           f"{z['id']}: ASCII-Umschrift in {k}: {v[:40]}")
 
 
-def selbstpruefung():
-    """Bestand prüfen, nichts schreiben (ZEILEN leer)."""
+def selbstpruefung(umbau=False):
+    """Bestand prüfen, nichts schreiben (ZEILEN leer); umbau=True schreibt die neue Kopfzeile."""
     fehler = []
     def a(cond, msg):
         if not cond:
@@ -446,12 +462,22 @@ def selbstpruefung():
         for f_ in fehler:
             print(" -", f_)
         sys.exit(1)
+    if umbau:
+        schreibe(KAT, HEAD, alt_kat)
+        _, zurueck = lade(KAT, HEAD)
+        if zurueck != alt_kat or any(len(r) != len(HEAD) for r in zurueck):
+            sys.exit("Umbau: Rückweg verändert Zeilen")
+        print(f"Umbau geschrieben: {KAT} {len(alt_kat)} Zeilen, {len(HEAD)} Felder.")
     hefte = sorted({(z["jahr"], z["papier"]) for z in alle})
     print(f"Selbstprüfung bestanden: {len(alle)} Katalogzeilen aus {len(hefte)} Heften, {len(alt_typ)} Typen, "
-          f"alle verwendet, jede beispiel_id im Katalog. ZEILEN ist leer, nichts geschrieben.")
+          f"alle verwendet, jede beispiel_id im Katalog. "
+          f"{'Nur die Kopfzeile umgebaut.' if umbau else 'ZEILEN ist leer, nichts geschrieben.'}")
 
 
 def main():
+    if "--umbau" in sys.argv:
+        selbstpruefung(umbau=True)
+        return
     if not ZEILEN:
         selbstpruefung()
         return
@@ -527,7 +553,7 @@ def main():
     # Rückweg: geschriebene Datei mit echtem Leser einlesen und vergleichen
     _, zurueck = lade(KAT, HEAD)
     for gel, z in zip(zurueck[len(alt_kat):], ZEILEN):
-        if len(gel) != 37 or any(v != z[k] for k, v in zip(HEAD, gel)):
+        if len(gel) != len(HEAD) or any(v != z[k] for k, v in zip(HEAD, gel)):
             sys.exit(f"{z['id']}: Rückweg verändert die Zeile")
     roh = io.open(KAT, encoding="utf-8", newline="").read()
     if "\r" in roh or not all(l.startswith('"') and l.endswith('"') for l in roh.splitlines()):
