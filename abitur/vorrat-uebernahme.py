@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """vorrat-uebernahme.py – Beitabelle eines Vorratslaufs in den Katalog übernehmen.
 
-Version 0.1 · 05.10.2026 · gilt mit abi-bau.py v0.16, iqb-bau.py v1.11
+Version 0.2 · 05.10.2026 · gilt mit abi-bau.py v0.16, iqb-bau.py v1.11
 (Zusatzfelder kurzloesung und neben).
 
 Der Katalog ist abgeleitet: abi-bau.py hängt je Heft Zeilen an, die
@@ -23,7 +23,11 @@ alles gequotet, LF). Feldzuordnung (Beschlüsse des Lehrers 05.10.2026):
   bleiben P(1 | 2 | 3).
 
 Aufruf (im Ordner abitur/):
-  python3 vorrat-uebernahme.py <beitabelle.csv> <katalog.csv> [--korrektur id=feld=alt=neu ...]
+  python3 vorrat-uebernahme.py <beitabelle.csv> <katalog.csv> [--nur <papier>] [--korrektur id=feld=alt=neu ...]
+      --nur übernimmt nur die Zeilen der Beitabelle, deren id mit <papier>- beginnt.
+      --streng hängt nur alte Stichwörter mit Rechenzeichen an verfahren an
+      (Hefte 2017–2021: die alten Stichwörter sind Begriffe und Sachphrasen,
+      keine Rechenschritte).
   python3 vorrat-uebernahme.py --nur-spalten <katalog.csv>
       legt nur die Zusatzfelder (leer) an, etwa für iqb-katalog.csv.
 Der Bericht geht nach stdout; nichts wird gelesen außer den zwei Dateien.
@@ -39,7 +43,7 @@ ZUSATZFELDER = (("kurzloesung", "ergebnis"), ("neben", "typ_neben"))
 PUNKTNAME = re.compile(r"(?<![A-Za-z])[A-Z][0-9₀-₉]*['′]*$")
 TUPEL = re.compile(r"\(\s*([^()|]*)\|([^()|]*)\|([^()|]*)\)")
 # Wörter, nach denen ein namenloses Tripel ein Punkt ist (Zweifelsfall, Bericht).
-PUNKTWORT = re.compile(r"(punkt|punkte|Ecke|Ecken|Lage|Quadrats|Dreiecks)\s*$")
+PUNKTWORT = re.compile(r"(?i:punkt|punkte|ecke|ecken|lage|quadrats|dreiecks|mitte)\s*$")
 VEKTORWORT = re.compile(r"vektor\s*$")
 FORTSETZUNG = re.compile(r"(,|≈|\(oder|und|bzw\.)\s*$")
 
@@ -158,9 +162,17 @@ def main():
         print(f"{args[1]}: Felder ergänzt {neu or 'keine'}, {len(zeilen)} Zeilen, {len(kopf)} Felder")
         return
     beitabelle, katalog = args[0], args[1]
-    korrekturen = []
-    for a in args[2:]:
-        if a.startswith("--korrektur"):
+    korrekturen, nur, streng = [], None, False
+    rest = args[2:]
+    while rest:
+        a = rest.pop(0)
+        if a == "--korrektur":
+            continue
+        if a == "--nur":
+            nur = rest.pop(0)
+            continue
+        if a == "--streng":
+            streng = True
             continue
         korrekturen.append(a.split("=", 3))
 
@@ -170,6 +182,8 @@ def main():
     nach_id = {z[ix["id"]]: z for z in zeilen}
     with io.open(beitabelle, encoding="utf-8", newline="") as fh:
         bt = list(csv.DictReader(fh, delimiter=";"))
+    if nur:
+        bt = [r for r in bt if r["id"].startswith(nur + "-")]
 
     zw_abw, zweifel, abh_neu, verf_an, begriffe_weg, sympy = [], [], [], 0, [], {}
     fehlt = [r["id"] for r in bt if r["id"] not in nach_id]
@@ -195,7 +209,7 @@ def main():
         for t in schritte(z[ix["stichwoerter"]]):
             if any(norm(t) in norm(v) for v in (verf, r["stich"], r["kurz"], r["zwischen"], z[ix["ergebnis"]])):
                 continue
-            if ist_rechenschritt(t):
+            if bool(MATHE.search(t)) if streng else ist_rechenschritt(t):
                 anhang.append(t)
             else:
                 begriffe_weg.append((i, t))
