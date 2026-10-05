@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 """abi-bau.py – Gerüst für die Erfassung eines Hefts im Profil abi.
-Version 0.15 · 29.09.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.31, abitur-abgleich.py v0.29 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+Version 0.16 · 05.10.2026 · gilt mit katalog-prompt.md v0.9, abitur-vokabular.md v1.6, abi.md v0.31, abitur-abgleich.py v0.29 und den Geltungsdateien abi-<zielprüfung>-geltung.md v1.0
+
+Änderungen gegenüber 0.15 (Übernahme Vorrat Abitur GK, 05.10.2026): Zusatzfelder
+kurzloesung (nach ergebnis) und neben (nach typ_neben) im Kopf des Katalogs, solange
+katalog-prompt.md sie nicht führt (ZUSATZFELDER, hinter vokabular()). Keine Prüfung
+geändert; row() lässt die Felder leer, lade() verlangt sie in der Kopfzeile der CSV.
 
 Änderungen gegenüber 0.14 (Auftrag Nacht 2026-09-29, Teil 4: Nachtrag der
 Berliner CAS-Hefte 2017/2018, beschluss-2026-09-26.md Punkt 3): Landes-Dublette.
@@ -453,6 +458,18 @@ def in_geltung(z, ziele=None):
 
 
 HEAD, VOK, LEITIDEEN, THEMEN = vokabular()
+
+# Zusatzfelder des Lösungsblatts (Beschluss des Lehrers 05.10.2026, v0.16): kurzloesung
+# (Kurzlösung ohne Sätze, mit Einheit) nach ergebnis und neben (jede mitbenutzte
+# Fertigkeit, getrennt von typ_neben) nach typ_neben. Sie stehen im Katalog, aber noch
+# nicht in der Kopfzeile von katalog-prompt.md (Repo-Wurzel, msa/fhr lesen dieselbe
+# Zeile); bis dahin ergänzt sie das Profil hier. Führt der Kern sie, greift die
+# Ergänzung nicht mehr (Feld schon im Kopf). Gefüllt werden sie durch
+# vorrat-uebernahme.py; neue Heftzeilen lassen sie leer.
+ZUSATZFELDER = (("kurzloesung", "ergebnis"), ("neben", "typ_neben"))
+for _feld, _nach in ZUSATZFELDER:
+    if _feld not in HEAD:
+        HEAD.insert(HEAD.index(_nach) + 1, _feld)
 ZIELE, GELTUNG = geltung()
 KLASSEN = klassen()
 HANDLUNG = handlungen()
