@@ -39,6 +39,13 @@ Aufgabe stehen dort: 2015-OS-K5d, 2020-OS-K7b, 2022-OS-K5e, 2023-OS-K2b/c,
   2021-OS-B1h, 2024-OS-B1f, 2026-FOR-B1j) – innermathematisch.
 - CSV parst mit `csv` (Trenner ;), 8 Felder je Zeile.
 
+## Befund
+
+- 2015-OS-K5c: Katalogfeld zwischenergebnis schreibt
+  „BD : sin 123° = 4,1 : sin 21°“; richtig ist sin 36° (AD liegt dem
+  Winkel bei B gegenüber). Mit sin 21° käme 9,6 cm heraus; das
+  Katalogergebnis 5,85 cm stimmt.
+
 ## Abbildungen
 
 Neue Typen (das Bauprogramm muss sie frei zeichnen oder als Text
