@@ -52,6 +52,15 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Neuen Pooljahrgang 2027 aufnehmen: `python iqb-quellen.py hefte/iqb` (Kennungen dürfen nur hinzukommen), Stapel in iqb-pruefungen.md § 2, Teil A grundlegend vor erhöht, Teil B WTR, MMS als Delta | Veröffentlichung des Pools „nach der Prüfung" (abi-quellen.md § 4) – Zeitpunkt unbelegt (Pool 2026 lag am 13.09.2026 vor) | Claude | iqb-quellen.md, konzept.md § 7 „Neuer Pooljahrgang" |
 | Abbruchreihe je Niveau gegen die Zielprüfung nachrechnen | Vorgabencheck abi hat die Geltung geändert | Claude | konzept.md § 7 „Nur abi und iqb", iqb.md § 6 |
 
+## 0 Plan „P10 fertig“ (Lehrer 06.10.)
+
+1. Steckbrief-Probe Grundwert und Pythagoras (verstehen, typischer Fehler, einfachste Frage, Darstellung, wann die Formel kommt); Lehrer bestätigt je Zeile. Ersetzt das Gespräch „Formel/ab hier“.
+2. Kleine Satzänderungen in einem Lauf: Streifen nur, wo er trägt; Einrücken statt Rahmen; Rückblick mit „Was ist das Ganze?“; Anhang-Untergrenze (Lehrer: 2 oder 4).
+3. Steckbriefe für alle rund 50 P10-Handgriffe, Runden zu 10, Lehrer bestätigt je Runde.
+4. Neubau aller P10-Hefte; Lehrer sieht je Kapitel eine ausgewählte Seite.
+5. bankblatt.md v5.7 als Projektanweisung in erzeugeBlatt(Bank).
+6. Danach Abitur.
+
 ## 2 Einmalig, mit Auslöser
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
