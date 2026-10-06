@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zwischenschritt im Fokus</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--mute:#6e6e73;--line:#c7c7cc;--box:#fafafa;--mark:#fff3c4}
+@media (prefers-color-scheme: dark){:root:not([data-theme=light]){--bg:#1c1c1e;--fg:#f2f2f7;--mute:#a1a1a6;--line:#48484a;--box:#2c2c2e;--mark:#5a4a12}}
+:root[data-theme=dark]{--bg:#1c1c1e;--fg:#f2f2f7;--mute:#a1a1a6;--line:#48484a;--box:#2c2c2e;--mark:#5a4a12}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 Georgia,serif;max-width:960px;margin:0 auto;padding:16px}
+h1{font:600 20px system-ui,sans-serif}h2{font:600 16px system-ui,sans-serif;margin-top:28px}
+.paar{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:640px){.paar{grid-template-columns:1fr}}
+.blatt{border:1px solid var(--line);background:var(--box);padding:12px 14px}
+.kopf{font:600 13px system-ui,sans-serif;color:var(--mute);margin-bottom:8px}
+.zeile{display:flex;gap:10px;align-items:baseline}
+.her{font:12px system-ui,sans-serif;color:var(--mute);min-width:62px}
+.nr{font-weight:700}
+.platz{border-bottom:1px solid var(--line);height:22px;margin:4px 0 0 72px}
+.neben{background:var(--mark)}
+.note{font:14px system-ui,sans-serif;color:var(--mute);margin-top:6px}
+</style></head><body>
+<h1>Zwischenschritt im Fokusblatt – ganz oder herausgelöst?</h1>
+<p class="note">Beim Grundwert gibt es in P10 keinen Zwischenschritt-Fall, deshalb zwei echte Beispiele aus Prozentwert und Prozentsatz. Gelb = was für den Fokus Nebensache ist.</p>
+
+<h2>Beispiel 1 · Fokus Prozentwert · P10 2015, Aufgabe 2b</h2>
+<div class="paar">
+<div class="blatt"><div class="kopf">A · ganz</div>
+<div class="zeile"><span class="her">P10 ’15</span><span><span class="nr">7.</span> Für den Berliner Fernsehturm gelten diese Eintrittspreise: <span class="neben">Erwachsene zahlen 12,00 €, Kinder von 3 bis 16 Jahren 7,50 €.</span> Im Winter gibt es 20 % Rabatt. <span class="neben">Im Winter kommen Vater und Mutter mit ihrem 13-jährigen Sohn und dem Großvater.</span> Berechne den Betrag in Euro, den die Familie insgesamt bezahlt.</span></div>
+<div class="platz"></div><div class="platz"></div><div class="platz"></div>
+<p class="note">Drei Schritte: Preise addieren (43,50 €) – 20 % davon (8,70 €) – abziehen (34,80 €). Nur der mittlere ist Prozentwert.</p></div>
+<div class="blatt"><div class="kopf">B · herausgelöst</div>
+<div class="zeile"><span class="her">nach P10 ’15</span><span><span class="nr">7.</span> Eine Familie müsste am Fernsehturm 43,50 € Eintritt zahlen. Im Winter gibt es 20 % Rabatt. Wie viel Euro spart sie?</span></div>
+<div class="platz"></div>
+<p class="note">Ein Schritt, genau der Handgriff. Sache und Zahlen bleiben echt.</p></div>
+</div>
+
+<h2>Beispiel 2 · Fokus Prozentsatz · P10 2022, Aufgabe 4b</h2>
+<div class="paar">
+<div class="blatt"><div class="kopf">A · ganz</div>
+<div class="zeile"><span class="her">P10 ’22</span><span><span class="nr">12.</span> <span class="neben">Das Säulendiagramm zeigt, wie viele von je 1 200 befragten Jugendlichen 2017 bis 2021 mehrmals pro Woche ein Buch lesen.</span> Ermittle, um wie viel Prozent diese Zahl von 2020 auf 2021 zurückgegangen ist.</span></div>
+<p class="note neben" style="margin-left:72px">[Säulendiagramm: 468 · 432 · 485 · 470 · 400]</p>
+<div class="platz"></div><div class="platz"></div>
+<p class="note">Ablesen (470, 400) – Differenz (70) – Anteil an 470 (≈ 14,9 %).</p></div>
+<div class="blatt"><div class="kopf">B · herausgelöst</div>
+<div class="zeile"><span class="her">nach P10 ’22</span><span><span class="nr">12.</span> 2020 lasen 470 Jugendliche regelmäßig, 2021 nur noch 400. Um wie viel Prozent ist die Zahl gesunken?</span></div>
+<div class="platz"></div><div class="platz"></div>
+<p class="note">Ablesen fällt weg; Differenz und Anteil bleiben, weil beides zum Prozentsatz einer Veränderung gehört.</p></div>
+</div>
+</body></html>
