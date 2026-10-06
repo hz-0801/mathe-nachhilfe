@@ -12,7 +12,7 @@ Eingaben:
     Stufen, echte Teilaufgaben, Sprossen-Zuordnung und Kern-Urteil stehen
     als Daten in diesem Skript (STUFEN, KERN; Stand 2026-10-05).
 Ausgabe: msa/zuordnung-prozent.csv (oder --aus), Spalten
-    stufe;kern;katalog_ids;bank_sprossen;anzahl_echt;anzahl_bank;ziel;fehlen;kern_grund
+    stufe;kern;katalog_ids;bank_sprossen;anzahl_echt;anzahl_bank;ziel;fehlen;kern_grund;ebr_zwilling
     anzahl_bank zählt Bank- und Zusatzaufgaben; ziel 12 bei Kern, sonst 6
     (Beschluss 05.10.); fehlen = max(0, ziel - echt - anzahl_bank).
 
@@ -93,6 +93,9 @@ KERN={
  'Zinsen und Zinssatz':('nein','3 echte, zuletzt 2015, seit 2016 nicht geprüft, Zuschnitt 2022–2026 führt keine Zins-Stufe'),
  'Zinseszins und Guthabentabelle':('nein','2 echte, nur 2014 (Niveau II)'),
 }
+# EBR-Zwilling eines FOR-Teils 2026 (wortgleich, Katalog bemerkung; Lauf A Reparatur 06.10.):
+# Heft nach Kurs (Beschluss 27) nimmt die EBR-Fundstelle, der FOR-Teil trägt dann keinen *.
+EBR_ZWILLING={'2026-FOR-B1a':'2026-EBR-B1a','2026-FOR-K3c':'2026-EBR-K4c'}
 def muster(maps):
   t=[]
   for e,pre,orig in maps:
@@ -102,12 +105,13 @@ def muster(maps):
   return ' '.join(t)
 def main(pfad):
   A=lade();res=zaehle2(A)
-  zl=['stufe;kern;katalog_ids;bank_sprossen;anzahl_echt;anzahl_bank;ziel;fehlen;kern_grund']
+  zl=['stufe;kern;katalog_ids;bank_sprossen;anzahl_echt;anzahl_bank;ziel;fehlen;kern_grund;ebr_zwilling']
   for (name,echt,maps),(n2,e2,roh,n,art) in zip(STUFEN,res):
     k,g=KERN[name];ziel=12 if k=='ja' else 6
     zus=sum(1 for d in A if d['eintrag']=='prozent-zusatz' and d['kette']==name)
     bs=(muster(maps)+(f' msa/prozent-zusatz.jsonl({zus})' if zus else '')).strip()
-    zl.append(f'{name};{k};{" ".join(echt)};{bs or "–"};{len(echt)};{n};{ziel};{max(0,ziel-len(echt)-n)};{g}')
+    zw=' '.join(f'{i}={EBR_ZWILLING[i]}' for i in echt if i in EBR_ZWILLING)
+    zl.append(f'{name};{k};{" ".join(echt)};{bs or "–"};{len(echt)};{n};{ziel};{max(0,ziel-len(echt)-n)};{g};{zw}')
   open(pfad,'w',encoding='utf-8').write('\n'.join(zl)+'\n')
 
 if __name__=='__main__':
