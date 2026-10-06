@@ -6,7 +6,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
-    KAPITEL: prozent, lineare, quadratische, dreiecke, daten,
+    KAPITEL: kurvenuntersuchung (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
 Eingaben:
@@ -253,6 +253,40 @@ KAPITEL['gleichungssysteme']=dict(eintraege=[LG],stufen=[
  'lösen':('ja','1 echte (2022), aber in 2016, 2021, 2024 als Nebenleistung (typ_neben lösen), Bank-Ketten Einsetzen und Addition mit Grundfall'),
  'Gleichung in Worte fassen und lösen':('nein','1 echte (2024)'),
 })
+# ---- Abitur GK (Stand 2026-10-06, Lauf B2) ----
+# Stufen = Abschnitte des Kapitels in abitur/skript-zuschnitt-abi-gk.csv, echte = ids des Abschnitts
+# (2022–2026, nur Hauptplätze). Sprossen ohne Prüfungshöhe; die Prüfungshöhe tragen die echten
+# Aufgaben. Kern (Urteil Lauf B2): die klassische Kurvenuntersuchung (Nullstellen, Extrem- und
+# Wendepunkte, Monotonie, Grenzverhalten, Symmetrie); die übrigen Abschnitte nutzen sie.
+KU='kurvenuntersuchung';FK='funktionsklassen-und-eigenschaften';GV='grenzwerte-und-verhalten-im-unendlichen'
+RF='rekonstruktion-von-funktionsgleichungen';EX='extremalprobleme';GLL='gleichungen-loesen'
+def _zuschnitt_ids(abschnitt,datei='skript-zuschnitt-abi-gk.csv'):
+  ids=[]
+  for z in open(os.path.join(MN,'abitur',datei),encoding='utf-8').read().splitlines()[1:]:
+    t=z.split(';')
+    if len(t)>4 and t[1]=='Kurvenuntersuchung' and t[2]==abschnitt:
+      ids+=[i for i in t[4].split() if i not in ids]
+  return ids
+_KU_STUFEN=[
+ ('Nullstellen und Achsenschnittpunkte berechnen',_a(FK,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s7','e2-k1-s8','e1-k1-s1')),
+ ('Extrempunkte berechnen',_a(KU,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s6','e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k5-s1')),
+ ('Wendepunkte berechnen',_a(KU,'e3-k2-s1','e3-k2-s2','e3-k2-s3','e3-k2-s6','e3-k2-s8','e5-k1-s2')),
+ ('Monotonie und Krümmung aus der Ableitung begründen',_a(KU,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e2-k11-s1','e4-k1-s3')),
+ ('Grenzverhalten angeben',_a(GV,'e1-k2-s1','e1-k2-s2','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4')),
+ ('Symmetrie am Term begründen',_a(FK,'e4-k1-s1','e4-k1-s2','e4-k1-s4','e4-k1-s5')),
+ ('Graph verschieben, spiegeln, strecken',_a(FK,'e5-k1-s1','e5-k1-s2','e5-k1-s4','e5-k1-s5','e5-k1-s6','e5-k1-s8')),
+ ('Maße im Sachzusammenhang aus dem Graphen berechnen',_a(FK,'e1-k1-s6','e2-k1-s9')+_a(KU,'e5-k1-s8')),
+ ('Gleichungen und Ungleichungen zwischen Funktionen lösen',_a(GLL,'e1-k1-s8','e4-k1-s1','e4-k1-s2','e3-k1-s4','e3-k1-s8','e4-k1-s4')),
+ ('Graph skizzieren und Verlauf beschreiben',_a(FK,'e6-k1-s1','e6-k1-s2')+_a(KU,'e5-k1-s1')),
+ ('Funktionsgleichung aus Bedingungen aufstellen',_a(RF,'e1-k1-s1','e1-k1-s2','e2-k1-s1','e2-k1-s4')),
+ ('Extremalproblem: Zielfunktion aufstellen und maximieren',_a(EX,'e2-k1-s1','e2-k1-s6','e3-k1-s1','e3-k1-s5','e3-k1-s6')),
+]
+_KU_KERN=['Nullstellen und Achsenschnittpunkte berechnen','Extrempunkte berechnen','Wendepunkte berechnen',
+ 'Monotonie und Krümmung aus der Ableitung begründen','Grenzverhalten angeben','Symmetrie am Term begründen']
+KAPITEL['kurvenuntersuchung']=dict(pruefung='abitur',eintraege=[KU,FK,GV,RF,EX,GLL],
+ stufen=[(n,_zuschnitt_ids(n),m) for n,m in _KU_STUFEN],
+ kern={n:(('ja','klassische Kurvenuntersuchung, Grundlage der übrigen Abschnitte') if n in _KU_KERN else
+          ('nein','nutzt die Kurvenuntersuchung im Sachzusammenhang oder als Nebenhandgriff')) for n,_ in _KU_STUFEN})
 # ---- Ende Daten ----
 
 def gerippe(t):
@@ -269,7 +303,7 @@ def lade(kap,K):
   for e in K['eintraege']:
     for f in sorted(glob.glob(os.path.join(BANK,'bank',e,'e*.jsonl'))):
       for l in open(f): A.append(json.loads(l))
-  zus=os.path.join(MN,'msa',kap+'-zusatz.jsonl')
+  zus=os.path.join(MN,K.get('pruefung','msa'),kap+'-zusatz.jsonl')
   try:
     for l in open(zus): A.append(json.loads(l))
   except FileNotFoundError: pass
@@ -325,7 +359,7 @@ def main(kap,pfad,zeige=False):
   for (name,echt,maps),(n2,e2,roh,n,art) in zip(K['stufen'],res):
     k,g=K['kern'][name];ziel=12 if k=='ja' else 6
     zus=sum(1 for d in A if d['eintrag']==kap+'-zusatz' and d['kette']==name)
-    bs=(muster(maps)+(f' msa/{kap}-zusatz.jsonl({zus})' if zus else '')).strip()
+    bs=(muster(maps)+(f' {K.get("pruefung","msa")}/{kap}-zusatz.jsonl({zus})' if zus else '')).strip()
     zl.append(f'{name};{k};{" ".join(echt)};{bs or "–"};{len(echt)};{n};{ziel};{max(0,ziel-len(echt)-n)};{g}')
   open(pfad,'w',encoding='utf-8').write('\n'.join(zl)+'\n')
   if zeige: print('\n'.join(zl))
@@ -337,4 +371,4 @@ if __name__=='__main__':
   ap.add_argument('--aus')
   ap.add_argument('--zeige',action='store_true')
   a=ap.parse_args();BANK=a.bank
-  main(a.kapitel,a.aus or os.path.join(MN,'msa',f'zuordnung-{a.kapitel}.csv'),a.zeige)
+  main(a.kapitel,a.aus or os.path.join(MN,KAPITEL[a.kapitel].get('pruefung','msa'),f'zuordnung-{a.kapitel}.csv'),a.zeige)
