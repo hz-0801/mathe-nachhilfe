@@ -58,7 +58,8 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 |---|---|---|---|
 | Darstellung je Handgriff nach Fachdidaktik festlegen (DZLM „Mathe sicher können“), Datenfeld | vor dem Neubau der übrigen P10-Kapitel | Chat | offen.html |
 | bankblatt.md v5.6 als Projektanweisung in erzeugeBlatt(Bank) (Chat-Block an den Lehrer) | nach dem Nachzug oben | Chat, Lehrer | uebergabe.md § 6 |
-| Erkennen-Aufgabe (W/G/p u. ä., vorläufig 06.10.) dem Lehrer zur erneuten Beurteilung des Sinns vorlegen | erstes Fokusblatt mit Erkennen-Aufgabe | Chat, Lehrer | aufgabenbank/bau/pruefheft/beschluesse-2026-10-06b.md N4.19 |
+| Rahmen bei vielen gleichartigen Originalen (höchstens vier, Kopf mit voller Zahl) – Vorschlag bestätigen | nächstes Heft mit mehr als vier gleichartigen | Chat, Lehrer | aufgabenbank/bau/pruefheft/beschluesse-2026-10-06b.md N5.24 |
+| Bank: aktive Kopien (182 Zeilen gleicher Schablone, vor allem innermathematisch) und 3 Fokus-Kopien aufräumen | vor dem nächsten Bank-Lauf | Chat (Agent) | aufgabenbank/bau/vielfalt-p10-2026-10-06.md |
 | Formel und „ab hier“: wann und wo, verallgemeinert (Gespräch) | nach dem Lauf „P10 in einem Rutsch“ | Chat, Lehrer | beschluesse-2026-10-06b.md |
 | Layout-Gespräch Prüfungsheft | nach dem Neubau | Chat, Lehrer | offen.html |
 | Trenner „ ; “ in zwischenergebnis eindeutig machen (kollidiert mit „; “ im Eintrag) | beim nächsten Katalog-Lauf | Chat (Agent) | regeln-nachziehen-stand.md |
