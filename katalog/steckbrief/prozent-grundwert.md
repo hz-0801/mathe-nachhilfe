@@ -35,8 +35,9 @@ Aufgaben (`msa/wortlaut-eigen-*.csv`, `msa/fremd/*.csv`,
 - **Leiter (Katalog Einheit 4):** Streifen-Vorstufe ohne Zahl → glatte
   Sätze (mal 2, 4, 5, 10) → nur 1 % bestimmen → 1 %-Weg → derselbe Teil,
   verschiedene Sätze → beliebiger Satz mit Taschenrechner → Sachtext →
-  Prüfungshöhe (alter Preis aus Rabatt). **Widerspruch, offen:** Lehrer
-  06.10. „eher bei 1 % anfangen“; der Katalog stellt glatte Sätze vor 1 %.
+  Prüfungshöhe (alter Preis aus Rabatt). Entschieden (Lehrer 06.10.):
+  Katalog-Folge, glatte Sätze vor dem 1 %-Schritt (ersetzt N2.11 „beginnt
+  mit dem 1 %-Schritt“).
 
 ## 2 Raster (38 echte und herausgelöste Aufgaben)
 
