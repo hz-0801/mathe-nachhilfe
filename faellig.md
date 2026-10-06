@@ -54,11 +54,11 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 
 ## 0 Plan „P10 fertig“ (Lehrer 06.10.)
 
-1. Steckbrief-Probe Grundwert und Pythagoras (verstehen, typischer Fehler, einfachste Frage, Darstellung, wann die Formel kommt); Lehrer bestätigt je Zeile. Ersetzt das Gespräch „Formel/ab hier“.
-2. Kleine Satzänderungen in einem Lauf: Streifen nur, wo er trägt; Einrücken statt Rahmen; Rückblick mit „Was ist das Ganze?“; Anhang-Untergrenze (Lehrer: 2 oder 4).
-3. Steckbriefe für alle rund 50 P10-Handgriffe, Runden zu 10, Lehrer bestätigt je Runde.
+1. Steckbrief-Probe Grundwert und Pythagoras – Entwürfe liegen (katalog/steckbrief/), Grundwert-Leiter entschieden (Katalog-Folge). Lehrer beurteilt am Blatt, nicht an der Liste: das Bauprogramm liest die zwei Steckbriefe und baut Fokus Grundwert und Fokus Pythagoras; zusammen mit Schritt 2 und dem Nachzug N5/N6/Punkt 30 in ziel.md und bankblatt.md.
+2. Kleine Satzänderungen in demselben Lauf: Streifen nur, wo er trägt; Einrücken statt Rahmen (gleichartige BB/BE-Originale eingerückt, eine Antwortlinie, grauer Hinweis einmal); Rückblick-Regel N6 Punkt 29; Verständnisfrage als erste Sprosse; Anhang-Untergrenze (Lehrer: 2 oder 4, offen).
+3. Steckbriefe für alle rund 50 P10-Handgriffe, Runden zu 10, Lehrer bestätigt je Runde (Verständnis aus dem Katalog, Raster und Formulierungen aus den echten Aufgaben).
 4. Neubau aller P10-Hefte; Lehrer sieht je Kapitel eine ausgewählte Seite.
-5. bankblatt.md v5.7 als Projektanweisung in erzeugeBlatt(Bank).
+5. bankblatt.md v5.7 (dann mit N5/N6) als Projektanweisung in erzeugeBlatt(Bank).
 6. Danach Abitur.
 
 ## 2 Einmalig, mit Auslöser

@@ -1,128 +1,87 @@
-# Übergabe verbessereBlaetter – 2026-10-06 (Chat 05./06.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-06b (Chat 06.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-05.md.
-
-Erster Handgriff im neuen Chat: `offen.html` mit SendUserFile (display
-„render“) schicken. Die Beschlüsse vom 05./06.10. stehen dort in den
-oberen Listenpunkten „Befunde am Prozent-Probeheft“, „„schwach“ fest“,
-„„schwach“, Serie, Lieferung“, „Ziel und Plan „schnell ein gutes
-Blatt““, „Lösungsblatt: Inhalt und Darstellung“. Wenn der Lehrer etwas
-beurteilen soll: Ausschnitt rendern und rechts zeigen (SendUserFile,
-render), nicht nur beschreiben.
+Vorherige Übergabe: archiv/uebergabe-2026-10-06.md.
 
 ## 1 Ziel
 
 Am Stundenanfang in wenigen Minuten ein gutes Blatt – Prüfungsmaterial
-(P10, Abitur GK) oder allgemeines Blatt. Weg: Daten je Teilaufgabe
-vollständig, ein Bauprogramm setzt auf Bestellung, der Blatt-Chat ruft
-nur auf. Nichts wird endgültig gebaut; Regeländerung = neu bauen.
+(P10, Abitur GK) oder allgemeines Blatt. Weg: Daten je Teilaufgabe und je
+Handgriff vollständig, ein Bauprogramm setzt auf Bestellung. Jetzt: Plan
+„P10 fertig“ (faellig.md § 0).
 
 ## 2 Arbeitsgrundlage
 
-- `offen.html` – maßgeblich für alle Beschlüsse 04.–06.10.
-- Bauprogramm Prüfungsheft: aufgabenbank `werkzeuge/pruefheft.py`
-  (+ `pruefheft.md`), Ausgaben `bau/pruefheft/` (vier Prozent-Fassungen
-  vom 05.10., Stand vor den Beschlüssen vom 06.10.); Vorlage blattbau
-  `mathblatt.sty` 2026-10-05b (Abschnitt P, `\sv`).
-- Daten Prozent: `msa/wortlaut-eigen-prozent.csv` (eigener Wortlaut,
-  31 Teilaufgaben, abbildung, zwischenfragen), `msa/zuordnung-*.csv`
-  (alle P10-Kapitel ↔ Bank-Sprossen, Skript `werkzeuge/zuordnung.py`),
-  `msa/prozent-zusatz.jsonl`.
-- Kataloge: P10 2014–2026 und Abitur GK 2017–2026 mit kurzloesung,
-  zwischenergebnis (Trenner „ ; “), neben, stichwoerter, abhaengig_von;
-  Beitabellen in archiv/; `katalog-prompt.md` 0.10.
-- Regeldateien nachgezogen bis Stand 05.10. abends: `ziel.md` (§ 2
-  Lösungen, schwach), `bank.md` (achte Fassung, 12/6), `bankblatt.md`
-  v5.5, `bau/layout-befunde.md` (Befund Lösungsblatt 05.10.).
-- Befunde: `befund-punkte-eichung-2026-10-05.md`,
-  `befund-bestand-2026-10-05.md`.
-- Original-Wortlaut liegt nur auf dem Rechner des Lehrers
-  (`~/mathe/mathe-nachhilfe/hefte-md/`, P10 2014–2026, Abitur 2022–2026);
-  Ordner hefte und hefte-md waren für diese Sitzung freigegeben.
+- Beschlüsse: aufgabenbank `bau/pruefheft/beschluesse-2026-10-06.md`
+  (Punkte 1–29) und `beschluesse-2026-10-06b.md` (N1–N6, Punkt 30) –
+  maßgeblich, bei Widerspruch gilt 06b.
+- Steckbriefe (neu): mathe-nachhilfe `katalog/steckbrief/prozent-grundwert.md`,
+  `pythagoras-seite.md` – Teil 1 Verständnis (aus `katalog/<eintrag>.md`:
+  Erkennungsschritte, Merkkasten, Typische Fehler, Leiter), Teil 2 Raster,
+  Teil 3 Formulierungen (kurz/lang), aus den echten Aufgaben.
+- Bauprogramm: aufgabenbank `werkzeuge/pruefheft.py` v0.3+ (N1–N5),
+  `werkzeuge/abbildung.py`, Anleitung `pruefheft.md`, Standdatei
+  `bau/pruefheft/stand-2026-10-06.md`; Vorlage blattbau `mathblatt.sty`
+  2026-10-06c; Hefte unter `bau/pruefheft/*-2026-10-06/`.
+- Daten P10 (mathe-nachhilfe `msa/`): `wortlaut-eigen-<kapitel>.csv` (alle
+  zehn Kapitel), `handgriffe-p10.csv`, `herausgeloest-p10.csv` (140),
+  `rueckblick-p10.csv`, `erkennen-p10.csv`, `zuordnung-*.csv` (Spalten
+  jahre_letzte5, nebenplaetze, verwechselbar), `fremd/<gruppe>.csv`
+  (1 502 ganz, 206 herausgelöst) und `fremd/*-erkennen.csv` (374).
+- Bank: Feld `"ruht": "kopie von <id>"` (15 Zeilen), Vielfalt-Messung
+  `werkzeuge/vielfalt.py`, `bau/vielfalt-p10-2026-10-06.md`.
+- Regeln: `ziel.md`, `bank.md`, `bau/layout-befunde.md` Stand N1–N4;
+  `bankblatt.md` v5.7 im Repo (nicht im Betrieb).
 
 ## 3 Arbeitsstand
 
-Erledigt 05./06.10.: Beitabellen in den Katalog (Option B); Vorrat P10
-2014–2021 und Abitur GK 2017–2021; Punkte-Eichung; Bestandsaufnahme;
-Zuordnung aller P10-Kapitel mit Auffüllen auf 12/6 (fehlten nur 11);
-Regeln Stand 05.10. nachgezogen; Bauprogramm gebaut, Prozent in vier
-Fassungen; Urteil des Lehrers am Probeheft.
+Erledigt 06.10.: Nachzug 05./06.10.; eigener Wortlaut aller P10-Kapitel;
+exakt vor ≈ im Katalog; Abbildungen aus Daten; alle P10-Hefte und Probeheft
+Abitur Kurvenuntersuchung gebaut; Lauf „P10 in einem Rutsch“ (Handgriffe,
+Herauslösen, Rückblick-/Erkennen-Daten, sieben Fremdgruppen, Bank-Vielfalt);
+Endbau mit N5 (Prozent 15 S., Dreiecke 42, Flächen 13, Körper 14, Lineare
+16, Quadratische 16, GLS 4, Wachstum 9, Daten 18, Wahrscheinlichkeit 16;
+Fokus Grundwert 2 S.); Steckbrief-Entwürfe Grundwert und Pythagoras.
 
-Beschlossen 06.10. (Wortlaut offen.html), noch NICHT in Regeldateien,
-Bauprogramm und Prompt:
-- Eine Leiter für alle Blätter: Vorstufen zuerst (normal zwei, schwach
-  alle von unten), Reihenfolge glatt vor krumm, wenig Text vor viel,
-  eine Frage vor zwei, Prüfungshöhe zuletzt; Zahlen unten im Kopf
-  rechenbar, Mitte glatt mit Taschenrechner, oben wie in der Prüfung;
-  „eine leichte Aufgabe zu viel schadet keinem“. Heranführen = Leiter
-  unten verlängern; Zwischenfragen nur bei Mehrschritt-Aufgaben.
-- Je Stufe kleine Gruppen nach Form (rechnen, Sachaufgabe, Ankreuzen,
-  Vergleich); „weitere dieser Art“ nur innerhalb einer Gruppe.
-- Satz: Aufgaben untereinander mit Rechenplatz nach Schrittzahl;
-  Übersicht vorn entfällt; Überschrift = Stufenname mit Bezeichnung
-  („Grundwert G“), kein „neu:“, dahinter grau „in 3 der letzten 5
-  Prüfungen“ / „selten geprüft“; Aufgabenzeile: grau „P10 ’26“ links,
-  Nummer, Aufgabe, Punkte rechts; Aufgabenbild als ein Wort („Tarif“)
-  am Gruppenanfang; Formel einmal an der Aufgabe, ab der sie gebraucht
-  wird; Darstellungen (DZLM) bei den Vorstufen, nach oben verschwindend.
-- Rückblick vorn auf jedem Blatt/jeder Portion; erste Portion =
-  Grundlagen, eine Aufgabe je Voraussetzung, mind. drei (schwach zwei
-  je Voraussetzung). Portion darf nach einer Gruppe enden.
-- Seitenfuß für alle Blätter, ohne Ausnahme: Kontrollwert, Tipp nur als
-  Ansatz. Lösungsdatei ohne Punkte. Ergebnisse exakt zuerst, dann ≈.
-- Eigene Aufgaben im Prüfungsheft: unten, Lücken, Ersatz, selten
-  geprüft; nie oben, nie Prüfstein, nie als Prüfung getarnt.
-- Fokusblatt (Nachlieferung) beginnt ganz unten. Prüfstein: ganze
-  echte Aufgabe aus den letzten fünf Jahren, ohne Nummer.
+Nicht nachgezogen: N5, N6 und Punkt 30 stehen nur in beschluesse-06b,
+noch nicht in ziel.md, bankblatt.md und im Bauprogramm (N6, Punkt 30).
+Das Bauprogramm liest weder Katalog-Einträge noch Steckbriefe.
 
-Messwerte: Opus-Agenten ≈ 0,5 Mio Token je Wochenpunkt (zwei Läufe:
-423 000 → Woche 0 → 1 %, 496 000 → 1 → 2 %); Fable ≈ 185 000.
-Letzter abgelesener Stand 05.10. abends: Woche 2 %, Fable 0 %; danach
-liefen Bauprogramm und Zuordnung (≈ 635 000 Token) – nicht abgelesen.
+Messwerte: Lauf 06.10. (zehn Agenten ≈ 3,5 Mio Token) → Woche 9 → 16 %;
+Neubau N5 0,17 Mio. Bestätigt ≈ 0,5 Mio Token je Wochenpunkt (Opus).
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
-- Inhalt fest („ein Blatt für alle“, eine Leiter je Thema mit Kern),
-  Lieferung ist Stellschraube (Portion, Vorstufen, Gerüst).
-- „schwach“ = Leiter beginnt weiter unten, Blatt 0 dicht, Raster,
-  Gerüst gegeben/gesucht/Formel nur bei Formel-Aufgaben, Lösung
-  „Wort + Ansatz ⇒ Wert“. Stoff und Höhe gleich; nichts wird
-  ausgeschlossen (Schwache fragen auch nach Prozent).
-- Katalog und Bank werden verbunden (Zuordnungstabellen), nicht
-  zusammengeführt. Ziel 12 Aufgaben je Kern-Stufe, 6 sonst; neu zählt
-  nur, was man nicht durch Erinnern löst.
-- Begriffe: „Bauprogramm“ = Werkzeug; „Prüfungsheft“ = Heftart (früher
-  „Skript“).
-- Revisionsschranke: Beschlüsse nur neu aufmachen, wenn ein Blatt oder
-  Messwert dagegen spricht; Einfälle auf die Liste in offen.html.
-- Ton: Vorschläge als Frage, nicht als Schlussstrich (Lehrer 05.10.).
+- Alles in beschluesse-06/06b; Kern von heute: echte Aufgaben zuerst
+  (BB/BE → andere Länder, nie schwerer als BB/BE → eigene nur für Lücken,
+  Raster ≥ 2 Merkmale); Herauslösen („nach P10 ’15“); Fokusblatt mit allen
+  Originalen; Zählung B; Auffüllen B (Zielzahl nur Vorrat); Punkte nur
+  Prüfstein; Anhang „Mehr zum Üben“ bei kurzem Kernteil; Erkennen nicht im
+  Fokus; Rückblick vereinheitlicht (Name „Rückblick“, Regel Punkt 29,
+  Behalten in „Zum Schluss“, Verständnis als erste Sprosse); Grundwert-
+  Leiter nach Katalog (glatte Sätze vor 1 %); Fundstelle nur Jahr;
+  Bezeichnungen N4.18; Prüfstein mit Fuß.
+- Einrücken statt Rahmen für gleichartige BB/BE-Originale (Plan 2).
+- Steckbrief je Handgriff, gemeinsam für alle Blattarten, drei Teile.
+- global.md Stand 2026-10-06: sparsamster gleich guter Weg ungefragt.
 
 ## 5 Offene Punkte und Verworfenes
 
-- Offen: schlankes Modell (Standardblatt, „schwach“ einziger Zusatz,
-  Nachliefern per Fokus) – Lehrer tendiert dazu, keine Sonderfälle;
-  Anrede Sie/Du (unwichtig, Wahl offen); Layout-Gespräch Prüfungsheft;
-  Form der Lösungsdatei an Analysis prüfen; Kopf der Aufgabe braucht
-  ein Datenfeld; Vorspann/Abbildung/Optionen als getypte Felder
-  (Datenformat-Erkenntnisse im Bericht des Bauprogramms, stand.md);
-  Trenner „ ; “ kollidiert mit „; “ im Eintrag; Kern-Urteile dünn bei
-  Gleichungssystemen.
-- Verworfen: Zusammenführen Katalog/Bank (Verwaltung); „leichte Punkte“
-  als Bestellung/Ordnung und Ziel „bestehen“ je Schüler (zu viele
-  Sonderfälle); Übersicht/Stichwortverzeichnis vorn (liest keiner);
-  „mit lösungsweg“ (Rechenweg nie gebraucht); Fehlerhinweise auf dem
-  Lösungsblatt; Zerlegung einer Ein-Schritt-Aufgabe in Zwischenfragen
-  (Nr. 6: das Problem ist das Zuordnen, nicht das Rechnen); Leitaufgabe
-  = echte Prüfungsaufgabe vorn.
+- Offen: Anhang-Untergrenze 2 oder 4; Steckbrief maschinenlesbar machen
+  (feste Schlüssel je Teil) – im nächsten Lauf entscheiden und begründen;
+  Erkennen-Sätze teils falsch etikettiert (Steckbrief Grundwert § 4);
+  182 aktive Bank-Kopien; 107 fremde Prozent-Aufgaben ohne zeichenbare
+  Abbildung; Abitur ohne neue Daten; Bauskripte der K- und F-Agenten nur im
+  Scratchpad (CSV ist Quelle); bankblatt v5.7 an den Lehrer erst nach N5/N6.
+- Verworfen: Zielzahl 12/6 als Blattlänge; Erkennen-Aufgabe im Fokusblatt;
+  Punkte an allen Aufgaben; Rahmen um Dubletten (→ Einrücken); Streifen als
+  Schmuck neben einer Tabelle; „0,1 · 70“-artige Lückenfüller im Rückblick.
 
 ## 6 Nächster Arbeitsschritt
 
-Nach Ablesen der Nutzungsanzeige: ein Lauf (Opus) zieht die Beschlüsse
-vom 06.10. nach – Regeldateien (ziel.md, bank.md, bankblatt.md → v5.6,
-layout-befunde.md), Bauprogramm (Leiter, Gruppen, Satz, Rückblick, Fuß,
-Lösungsdatei, Zahlenregel, exakte Werte per sympy in kurzloesung) – und
-baut das Prozent-Heft und das Fokusblatt Grundwert neu; parallel
-Probeheft Abitur GK Kurvenuntersuchung (Lösungsdatei an Analysis
-prüfen). Danach zeigt der Chat dem Lehrer die Seiten rechts. bankblatt
-erst als v5.6 an den Lehrer (Chat-Block für erzeugeBlatt(Bank)).
-Modell: Opus im Chat und für Agenten.
+Plan § 0 Schritt 1+2 als ein Lauf (frischer Opus-Agent, liest nur die
+betroffenen Stellen): Bauprogramm liest die zwei Steckbriefe (Format dafür
+festlegen), setzt N6/Punkt 29–30 und die Satzänderungen aus Schritt 2 um,
+zieht N5/N6/30 in ziel.md und bankblatt.md nach, baut Fokus Grundwert und
+Fokus Pythagoras. Danach zeigt der Chat dem Lehrer beide Blätter (rendern,
+rechts). Vorher die Anhang-Untergrenze fragen. Modell: Opus im Chat und für
+Agenten.
