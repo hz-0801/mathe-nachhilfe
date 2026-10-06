@@ -61,3 +61,28 @@ Die Datei ist Urteilsarbeit und wird von Hand gepflegt (Werkzeug dieses
 Laufs nur im Scratchpad, weil der Schreibbereich kein eigenes Skript
 vorsah). `werkzeuge/zuordnung.py` liest sie und baut daraus
 `jahre_letzte5` und `nebenplaetze` der Zuordnungsdateien.
+
+## Zusatzspalten der Zuordnungsdateien (Auftrag K Schritt 2)
+
+`python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten` hängt an
+`msa/zuordnung-KAPITEL.csv` drei Spalten an (oder ersetzt sie):
+`jahre_letzte5` (Zählung B, Zahl und Jahre 2022–2026, nur OS/EBR/FOR),
+`nebenplaetze` (ganz_auch-Aufgaben) und `verwechselbar` (Daten
+`VERWECHSELBAR_GRUPPEN` im Skript; Stufe eines anderen Kapitels mit
+Kapitelpräfix). Der volle Lauf hängt sie ebenfalls an.
+
+Befund am vollen Lauf (nicht angefasst, weil außerhalb des Auftrags):
+Für prozent, dreiecke, quadratische und flaechen weicht der volle Lauf
+von den liegenden Dateien ab – prozent verliert die Spalte
+`ebr_zwilling` (die nur `werkzeuge/prozent-zuordnung.py` schreibt), bei
+den drei anderen steht in `kern_grund` der Datei ein Zusatz, den das
+Skript nicht kennt. Deshalb wurden die Spalten mit `--nur-spalten`
+angehängt; alle übrigen Spalten sind unverändert.
+
+Verwechselbar (Urteil Auftrag K, nach N4.19): Prozentwert/Prozentsatz/
+Grundwert/Veränderung; Zinsen/Zinseszins; Pythagoras/Winkel/Seite
+(Winkelfunktion)/Sinussatz; Pfadregel/ohne Zurücklegen/Gegenereignis;
+linear/exponentiell zweimal (Endwert ↔ Wachstumstabelle, Gleichung
+aufstellen linear ↔ exponentiell); Minimum-Maximum-Spannweite/Median/
+Mittelwert; Volumen/Mantelfläche; Nullstellen/x zu gegebenem y/
+Gleichsetzen. Gegenprobe Prozentwert `jahre_letzte5` = 4: stimmt.

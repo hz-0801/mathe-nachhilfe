@@ -6,6 +6,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
+    python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
     KAPITEL: kurvenuntersuchung (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -24,6 +25,20 @@ Ausgabe: msa/zuordnung-<kapitel>.csv (oder --aus), Spalten
     anzahl_bank zählt Bank- und Zusatzaufgaben; ziel 12 bei Kern, sonst 6
     (Beschluss 05.10.); fehlen = max(0, ziel - echt - anzahl_bank).
     --zeige druckt je Stufe die gewählten und die nicht gezählten Zeilen.
+
+Zusatzspalten (Auftrag K, 06.10.; Beschlüsse N2.6, N2.7, N4.19 in
+aufgabenbank/bau/pruefheft/beschluesse-2026-10-06b.md), nur P10:
+    jahre_letzte5  Zählung B: Zahl der Jahre 2022–2026, in denen der
+                   Handgriff gebraucht wurde (Hauptplatz, ganz_auch oder
+                   Zwischenschritt in msa/handgriffe-p10.csv; nur OS, EBR,
+                   FOR, nicht GYM); dahinter in Klammern die Jahre
+    nebenplaetze   Teilaufgaben, deren ganze Aufgabe der Handgriff ist,
+                   obwohl anders etikettiert (Spalte ganz_auch)
+    verwechselbar  Stufen, mit denen der Handgriff verwechselt wird
+                   (Daten VERWECHSELBAR unten; leer, wenn keine)
+    Die drei Spalten werden an die bestehende Datei angehängt bzw. dort
+    ersetzt (--nur-spalten), ohne die übrigen Spalten neu zu bauen; der
+    volle Lauf hängt sie ebenfalls an.
 
 Echte Teilaufgaben: die Kennungen der Stufe im Zuschnitt 2022–2026 (ids
 und neben) und die Katalogzeilen 2014–2021 (msa-katalog-basis/-kontext),
@@ -287,6 +302,23 @@ KAPITEL['kurvenuntersuchung']=dict(pruefung='abitur',eintraege=[KU,FK,GV,RF,EX,G
  stufen=[(n,_zuschnitt_ids(n),m) for n,m in _KU_STUFEN],
  kern={n:(('ja','klassische Kurvenuntersuchung, Grundlage der übrigen Abschnitte') if n in _KU_KERN else
           ('nein','nutzt die Kurvenuntersuchung im Sachzusammenhang oder als Nebenhandgriff')) for n,_ in _KU_STUFEN})
+# ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
+# Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
+VERWECHSELBAR_GRUPPEN=[
+ [('prozent','Prozentwert'),('prozent','Prozentsatz'),('prozent','Grundwert'),('prozent','Erhöhung und Veränderung in Prozent')],
+ [('prozent','Zinsen und Zinssatz'),('prozent','Zinseszins und Guthabentabelle')],
+ [('dreiecke','Kathete oder Hypotenuse direkt'),('dreiecke','Winkel berechnen'),('dreiecke','Seite berechnen'),('dreiecke','Seite berechnen (Sinussatz)')],
+ [('wahrscheinlichkeit','Pfadregel'),('wahrscheinlichkeit','ohne Zurücklegen'),('wahrscheinlichkeit','Gegenereignis')],
+ [('lineare','Endwert berechnen'),('wachstum','Tabelle ergänzen')],
+ [('lineare','Gleichung aufstellen und rückwärts rechnen'),('wachstum','Faktor bestimmen, Gleichung aufstellen')],
+ [('daten','Minimum, Maximum, Spannweite'),('daten','Median'),('daten','Mittelwert')],
+ [('koerper','Volumen direkt'),('koerper','Mantelfläche mit Kosten')],
+ [('quadratische','Nullstellen berechnen'),('quadratische','x zu gegebenem y'),('quadratische','Gerade und Parabel gleichsetzen')],
+]
+VERWECHSELBAR={}
+for _g in VERWECHSELBAR_GRUPPEN:
+  for _k,_s in _g:
+    VERWECHSELBAR[(_k,_s)]=[(k,s) for k,s in _g if (k,s)!=(_k,_s)]
 # ---- Ende Daten ----
 
 def gerippe(t):
@@ -352,6 +384,39 @@ def muster(maps):
     if len(m)>3 and m[3]=='inner': s+='(i)'
     t.append(s)
   return ' '.join(t)
+HANDGRIFFE=os.path.join(MN,'msa','handgriffe-p10.csv')
+ZUSATZ=['jahre_letzte5','nebenplaetze','verwechselbar']
+def lade_handgriffe(pfad=HANDGRIFFE):
+  rows=[]
+  with open(pfad,encoding='utf-8') as f:
+    kopf=f.readline().rstrip('\n').split(';')
+    for z in f:
+      t=z.rstrip('\n').split(';')
+      d=dict(zip(kopf,t))
+      for c in ('hauptplatz','ganz_auch','zwischenschritt'):
+        d[c]=[x.strip() for x in d[c].split('|') if x.strip()]
+      rows.append(d)
+  return rows
+def zusatz(kap,name,H):
+  key=f'{kap}:{name}'
+  jahre=sorted({d['id'][:4] for d in H if '-GYM-' not in d['id'] and 2022<=int(d['id'][:4])<=2026
+               and key in d['hauptplatz']+d['ganz_auch']+d['zwischenschritt']})
+  neben=[d['id'] for d in H if key in d['ganz_auch']]
+  verw=' | '.join(f'{k}:{s}' if k!=kap else s for k,s in VERWECHSELBAR.get((kap,name),[]))
+  return [f'{len(jahre)} ({" ".join(jahre)})' if jahre else '0',' '.join(neben),verw]
+def ergaenze(kap,pfad):
+  """Hängt jahre_letzte5, nebenplaetze, verwechselbar an pfad an (oder ersetzt sie)."""
+  if KAPITEL[kap].get('pruefung','msa')!='msa': return
+  H=lade_handgriffe()
+  zl=open(pfad,encoding='utf-8').read().rstrip('\n').split('\n')
+  kopf=zl[0].split(';')
+  idx=[kopf.index(c) for c in ZUSATZ if c in kopf]
+  if idx: kopf=kopf[:min(idx)]
+  out=[';'.join(kopf+ZUSATZ)]
+  for z in zl[1:]:
+    t=z.split(';')[:len(kopf)]
+    out.append(';'.join(t+zusatz(kap,t[0],H)))
+  open(pfad,'w',encoding='utf-8').write('\n'.join(out)+'\n')
 def main(kap,pfad,zeige=False):
   K=KAPITEL[kap]
   A=lade(kap,K);res=zaehle2(kap,K,A,zeige)
@@ -362,7 +427,8 @@ def main(kap,pfad,zeige=False):
     bs=(muster(maps)+(f' {K.get("pruefung","msa")}/{kap}-zusatz.jsonl({zus})' if zus else '')).strip()
     zl.append(f'{name};{k};{" ".join(echt)};{bs or "–"};{len(echt)};{n};{ziel};{max(0,ziel-len(echt)-n)};{g}')
   open(pfad,'w',encoding='utf-8').write('\n'.join(zl)+'\n')
-  if zeige: print('\n'.join(zl))
+  ergaenze(kap,pfad)
+  if zeige: print(open(pfad,encoding='utf-8').read())
 
 if __name__=='__main__':
   ap=argparse.ArgumentParser()
@@ -370,5 +436,8 @@ if __name__=='__main__':
   ap.add_argument('--bank',default=BANK)
   ap.add_argument('--aus')
   ap.add_argument('--zeige',action='store_true')
+  ap.add_argument('--nur-spalten',action='store_true',help='nur jahre_letzte5, nebenplaetze, verwechselbar an die bestehende Datei anhängen')
   a=ap.parse_args();BANK=a.bank
+  if a.nur_spalten:
+    ergaenze(a.kapitel,a.aus or os.path.join(MN,'msa',f'zuordnung-{a.kapitel}.csv')); sys.exit(0)
   main(a.kapitel,a.aus or os.path.join(MN,KAPITEL[a.kapitel].get('pruefung','msa'),f'zuordnung-{a.kapitel}.csv'),a.zeige)
