@@ -56,9 +56,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
-| bankblatt v5.6 als Projektanweisung in erzeugeBlatt(Bank) einsetzen (Chat-Block) | nach dem Urteil über die Hefte vom 06.10. | Lehrer (Chat gibt Block) | blattbau/bankblatt.md |
 | Darstellung je Handgriff nach Fachdidaktik festlegen (DZLM „Mathe sicher können“), Datenfeld | vor dem Neubau der übrigen P10-Kapitel | Chat | offen.html |
-| Eigener Wortlaut, Abbildungen (getypt), Vorspann-Feld für alle P10-Teilaufgaben 2014–2026 | nach Urteil über das neue Prozent-Heft | Chat (Agent) | offen.html, Bericht bau/pruefheft/stand.md |
 | bankblatt.md v5.6 als Projektanweisung in erzeugeBlatt(Bank) (Chat-Block an den Lehrer) | nach dem Nachzug oben | Chat, Lehrer | uebergabe.md § 6 |
 | Layout-Gespräch Prüfungsheft | nach dem Neubau | Chat, Lehrer | offen.html |
 | Trenner „ ; “ in zwischenergebnis eindeutig machen (kollidiert mit „; “ im Eintrag) | beim nächsten Katalog-Lauf | Chat (Agent) | regeln-nachziehen-stand.md |
