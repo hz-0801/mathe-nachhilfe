@@ -1,5 +1,10 @@
 # Steckbrief Pythagoras: Seite berechnen (P10-Stufen „Gleichung aufstellen“, „Kathete oder Hypotenuse direkt“, „Dreieck erst in Figur oder Körper finden“)
 
+Kapitel: dreiecke
+Stufen: Gleichung aufstellen | Kathete oder Hypotenuse direkt | Dreieck erst in Figur oder Körper finden
+Bank: pythagoras
+
+
 Stand 06.10.2026, Entwurf zur Bestätigung durch den Lehrer (je Zeile).
 Teil 1 aus `katalog/pythagoras.md` (Grundvorstellung, Erkennungsschritte,
 Merkkasten, Typische Fehler, Sprossen; Quellen Serlo, LS-AA, RLP, P10),
@@ -46,6 +51,12 @@ Schätzfrage als Kontrolle, Kopfzahlen unten, Darstellung nur wo sie trägt.
   (P10-Form) → Nachweis „Weise nach, dass … ≈ …“ → Sachaufgabe mit Skizze →
   Teildreieck in Figur/Körper (Vorstufe „nachfahren“) → zusammengesetzt
   (Gesamthöhe, Überstand).
+- **Verständnis-Bank:** pythagoras-e1-k2-s0 → pythagoras-e1-k1-s0 (Vorschlag
+  Lauf 06.10. abends, zur Bestätigung)
+- **Leiter-Bank:** pythagoras-e1-k2-s1 → pythagoras-e1-k2-s2 →
+  pythagoras-e1-k2-s3 → pythagoras-e1-k2-s5 → pythagoras-e2-k3-s0 →
+  pythagoras-e2-k3-s1 → pythagoras-e3-k2-s0 (unterer Teil der Leiter bis
+  vor die echten Aufgaben; Vorschlag Lauf 06.10. abends, zur Bestätigung)
 
 ## 2 Raster (91 echte und herausgelöste Aufgaben)
 

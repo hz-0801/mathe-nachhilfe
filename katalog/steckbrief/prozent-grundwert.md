@@ -1,5 +1,10 @@
 # Steckbrief Grundwert G (Prozent · P10-Stufe „Grundwert“)
 
+Kapitel: prozent
+Stufen: Grundwert
+Bank: prozentrechnung
+
+
 Stand 06.10.2026, Entwurf zur Bestätigung durch den Lehrer (je Zeile).
 Ein Steckbrief gilt für Prüfungsheft, Fokusblatt, allgemeine Blätter und
 Bank. Teil 1 stammt aus `katalog/prozentrechnung.md` (Erkennungsschritte,
@@ -16,6 +21,8 @@ Aufgaben (`msa/wortlaut-eigen-*.csv`, `msa/fremd/*.csv`,
   rechnen. [MSK P A 3.6, P C 6.1]
 - **Schätzfrage:** „30 % sind 21 €. Ist das Ganze größer oder kleiner als
   21 €? Was kann passen: 6,30 € · 21 € · 70 € · 210 €?“
+- **Schätzfrage-Lösung:** größer; 70 € (21 € : 0,3; Vorschlag Lauf 06.10.
+  abends, zur Bestätigung)
 - **Typische Fehler:**
   - p % vom Teil gerechnet: 25 % von 200 € statt 200 € · 4; 20 % von 6 €.
     [P10 2023-OS-B1b, 2025-OS-B1a]
@@ -38,6 +45,12 @@ Aufgaben (`msa/wortlaut-eigen-*.csv`, `msa/fremd/*.csv`,
   Prüfungshöhe (alter Preis aus Rabatt). Entschieden (Lehrer 06.10.):
   Katalog-Folge, glatte Sätze vor dem 1 %-Schritt (ersetzt N2.11 „beginnt
   mit dem 1 %-Schritt“).
+- **Verständnis-Bank:** prozentrechnung-e2-k1-s0-v4 (Vorschlag Lauf 06.10.
+  abends, zur Bestätigung)
+- **Leiter-Bank:** prozentrechnung-e4-k2-s0 → prozentrechnung-e4-k2-s1 →
+  prozentrechnung-e4-k2-s3 → prozentrechnung-e4-k2-s5 (unterer Teil der
+  Leiter bis vor die echten Aufgaben, nach Beschluss 30; Vorschlag Lauf
+  06.10. abends, zur Bestätigung)
 
 ## 2 Raster (38 echte und herausgelöste Aufgaben)
 

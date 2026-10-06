@@ -1,0 +1,45 @@
+# Steckbriefe – Format
+
+Ein Steckbrief beschreibt einen Handgriff (eine oder mehrere P10-Stufen) für
+Prüfungsheft, Fokusblatt, allgemeine Blätter und Bank. Das Bauprogramm
+(`aufgabenbank/werkzeuge/pruefheft.py`, Leser `werkzeuge/steckbrief.py`) liest
+ihn beim Fokusblatt; fehlt er, baut es wie bisher. Dateiname
+`<kapitel>-<handgriff>.md`; `--fokus <handgriff>` (oder der ganze Name) findet ihn.
+
+## Aufbau
+
+    # Steckbrief …                      Titel, frei
+    Kapitel: prozent                   Kapitel wie zuordnung-<kapitel>.csv
+    Stufen: Grundwert | …              Stufen der Zuordnung, mit „|“ getrennt
+    Bank: prozentrechnung              Bankeinträge, mit „|“ getrennt
+
+    ## 1 Verständnis                    feste Überschriften: „## <Nummer> <Wort>“
+    - **Schlüssel:** Wert               ein Feld je Punkt; Fortsetzung eingerückt
+      - Unterpunkt                      Liste (nur Typische Fehler)
+    ## 2 Raster
+    - **Schlüssel:** Wert               „**Lücke:** …“ im Wert = Lücke im Raster
+    ## 3 Formulierungen
+    kurz:                               dann „- Satz (Herkunft)“ je Zeile
+    lang:
+    ## 4 Befunde                        „- …“, nur für Menschen
+
+Der Leser erkennt nur diese Formen; Text dazwischen (Stand, Quellen) ignoriert
+er. Klammerzusätze am Schlüssel zählen nicht („Leiter (Katalog Einheit 4)“ =
+„Leiter“). Belege in eckigen Klammern und Vermerke „(Vorschlag …)“ kommen nie
+aufs Blatt.
+
+## Schlüssel, die das Programm liest (Teil 1)
+
+| Schlüssel | wird zu |
+|---|---|
+| Verständnis-Bank | erste Sprosse der Leiter: Bank-ids (Sprosse oder Variante), mit „→“ |
+| Erste Frage | (nur Inhalt der Verständnis-Bank; selbst nicht gesetzt) |
+| Schätzfrage + Schätzfrage-Lösung | Ankreuzaufgabe nach der Verständnis-Sprosse, nur mit Zahlen und „Was kann passen: A · B · C“ |
+| Begriff, Formel (Sätze in „…“) | Merkkasten nach der Verständnis-Sprosse |
+| Typische Fehler | oben in der Lösungsdatei |
+| Leiter-Bank | unterer Teil der Leiter in dieser Folge, jede Sprosse in der Stufe, die sie trägt |
+| Vorher können | Rückblick: nur Zeilen von `msa/rueckblick-p10.csv`, deren Voraussetzung hier steht (Abschnitte mit „;“) |
+
+Teil 2 (Sachen, Lücke) und Teil 3 (Fragen) geben eigenen Aufgaben in
+Sprüngen der Leiter den Vorzug. Leiter, Darstellung, Begriff und Raster
+bleiben zugleich Text für Menschen.
