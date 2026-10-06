@@ -56,10 +56,7 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
-| Beschlüsse 06.10. nachziehen: Regeldateien (ziel.md, bank.md, bankblatt.md v5.6, layout-befunde.md) und Bauprogramm pruefheft.py (Leiter mit Vorstufen, Gruppen, untereinander, Rückblick, Fuß, Lösungsdatei ohne Punkte, Zahlenregel, Bezeichnung in der Überschrift); Prozent-Heft und Fokus Grundwert neu bauen | nächster Chat, nach Ablesen | Chat (Agent, Opus) | uebergabe.md § 6, offen.html |
-| Prüfungsheft: *-Marke für Aufgaben nur FOR (Niveaustufe G außerhalb der EBR-Liste, msa-vorgaben.md § 3; ab 2026 nur im FOR-Heft); Kurs-Feld in der Schülerliste | mit dem Nachzug 06.10. | Chat (Agent) | offen.html |
-| kurzloesung und zwischenergebnis: exakte Werte vor gerundeten (sympy), Formeln ohne Wert ergänzen („W = G · p“ → mit Zahl) | mit dem Lauf oben | Chat (Agent) | offen.html |
-| Probeheft Abitur GK Kurvenuntersuchung (Lösungsdatei, Kopf der Aufgabe, Vektoren) | nach dem Prozent-Neubau oder parallel | Chat (Agent, Opus) | uebergabe.md § 6 |
+| bankblatt v5.6 als Projektanweisung in erzeugeBlatt(Bank) einsetzen (Chat-Block) | nach dem Urteil über die Hefte vom 06.10. | Lehrer (Chat gibt Block) | blattbau/bankblatt.md |
 | Darstellung je Handgriff nach Fachdidaktik festlegen (DZLM „Mathe sicher können“), Datenfeld | vor dem Neubau der übrigen P10-Kapitel | Chat | offen.html |
 | Eigener Wortlaut, Abbildungen (getypt), Vorspann-Feld für alle P10-Teilaufgaben 2014–2026 | nach Urteil über das neue Prozent-Heft | Chat (Agent) | offen.html, Bericht bau/pruefheft/stand.md |
 | bankblatt.md v5.6 als Projektanweisung in erzeugeBlatt(Bank) (Chat-Block an den Lehrer) | nach dem Nachzug oben | Chat, Lehrer | uebergabe.md § 6 |
