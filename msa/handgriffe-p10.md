@@ -86,3 +86,15 @@ linear/exponentiell zweimal (Endwert ↔ Wachstumstabelle, Gleichung
 aufstellen linear ↔ exponentiell); Minimum-Maximum-Spannweite/Median/
 Mittelwert; Volumen/Mantelfläche; Nullstellen/x zu gegebenem y/
 Gleichsetzen. Gegenprobe Prozentwert `jahre_letzte5` = 4: stimmt.
+
+## Katalogprüfung nebenbei (Auftrag K Schritt 6)
+
+`kurzloesung`/`zwischenergebnis`/`ergebnis` von 116 Zeilen (alle
+rechnerischen OS/FOR-Zeilen mit Wert, 35 GYM-Zeilen) gegen sympy
+nachgerechnet: kein nachgewiesener Fehler, nichts berichtigt.
+Zweifel (nur gemeldet):
+- 2026-FOR-K7a: 2029 = 674,93 · 1,019 = 687,75 € (Weg aus `verfahren`),
+  650 · 1,019³ = 687,76 € (Katalog). Welcher Wert gilt, hängt vom
+  amtlichen Weg ab.
+- 2020-OS-K4b: „nach etwa 23 Jahren“ ist am Graphen abgelesen; genau
+  log 2 : log 1,03 ≈ 23,4 Jahre. Kein Fehler, aber im Fuß „≈ 23“.
