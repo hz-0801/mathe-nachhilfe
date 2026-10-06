@@ -7,7 +7,8 @@ Bauregeln, die hier stehen, wandern nach bank.md und
 bau/layout-befunde.md, sobald sie dort nachgezogen sind. Vorherige
 Fassung vom 28.09.2026 in archiv/ziel-2026-09-28.md; was sich
 geändert hat, steht in § 6. Die Beschlüsse vom 05./06.10. stehen
-als Arbeitsliste in aufgabenbank bau/pruefheft/beschluesse-2026-10-06.md.
+als Arbeitsliste in aufgabenbank bau/pruefheft/beschluesse-2026-10-06.md,
+der Nachtrag vom 06.10. (Tag) in beschluesse-2026-10-06b.md (N1–N4).
 
 ## 1 Ziel
 
@@ -68,7 +69,20 @@ Die Zahlen wachsen mit der Leiter: unten im Kopf rechenbar (10, 50,
 Nachkommastelle), in der Mitte glatt mit Taschenrechner, oben wie in
 der Prüfung. Heranführen heißt die Leiter unten verlängern, nicht
 die Prüfungsaufgabe zerlegen; im Zweifel eine leichte Aufgabe mehr
-(06.10.). Deshalb passt ein Blatt zu allen Schülern, nicht zu
+(06.10.). Herkunft der Aufgaben (Nachtrag 06.10., N1): echte
+Prüfungsaufgaben zuerst – BB/BE (P10 2014–2026, OS/EBR/FOR, auch GYM),
+dann Abschlussprüfungen anderer Länder, dann eigene. Fremde nur, wo
+BB/BE in der Stufe weniger als 12 (Kern) bzw. 6 echte hat, und nie
+schwerer als die schwerste BB/BE-Aufgabe der Stufe (Schritte, Zahlart,
+Textlänge); leichtere fremde ersetzen unten eigene. Eigene sparsam:
+nur übliche Formulierungen, die in P10 fehlen, nur für Lücken der
+Leiter; zwei eigene einer Stufe unterscheiden sich in mindestens zwei
+Merkmalen (Sache, Darstellung, Fragerichtung, Sprachform), keine
+Kopien, die sich nur in der Zahl unterscheiden. Steckt ein Handgriff
+als Zwischenschritt in einer echten Aufgabe, wird er herausgelöst:
+echte Sache, echte Zahlen, ohne Nebensächliches, Marke „nach P10 ’15“;
+er ersetzt eine ausgedachte, wo er genau auf eine Sprosse passt.
+Deshalb passt ein Blatt zu allen Schülern, nicht zu
 einem; es gibt keinen Dialog über die Lage des Schülers, nur die
 Frage nach dem Teil des Themas.
 
@@ -107,12 +121,15 @@ Zone „kennst du schon" (früher Blatt 0): Jedes Blatt beginnt mit
 den Voraussetzungen aus dem Themenkatalog, eine Stufe zurück – um
 ins Thema hineinzuführen, zu sehen, ob der Schüler so weit ist,
 und an Vergessenes zu erinnern. Sie ist auf der Zeitachse die
-Zone hinter dem Schüler, kein eigenes Blatt. Sie ist kurz und
-immer gleich gebaut: je Voraussetzung eine leichte Aufgabe und je
-typischem Fehler, den der Katalog dort kennt, eine Fallen-Aufgabe;
-kennt er keinen, bleibt es bei der leichten; mindestens drei
-Aufgaben, bei „schwach“ zwei je Voraussetzung. Die Zeit seit dem
-Stoff ändert die Zahl nicht. Jedes Blatt und jede Portion beginnt
+Zone hinter dem Schüler, kein eigenes Blatt. Sie ist kurz: nur was die Leiter gleich braucht, und jede
+Rückblick-Aufgabe kommt in der Leiter wieder vor (Prüfstein: zu jeder
+die Nummer, ab der sie gebraucht wird); lieber eine zusammenhängende
+Aufgabe als verstreute (Muster Grundwert: Tabelle Prozent | Bruch |
+Dezimalzahl für 1, 10, 20, 25, 50, 100 % und „10 % von 70 €“). Keine
+Mindestzahl mehr (Nachtrag 06.10., N2.10, ersetzt „mindestens drei,
+eine je Voraussetzung“); Taschenrechner-Übung nicht im Rückblick. Je
+typischem Fehler, den der Katalog dort kennt, darf eine Fallen-Aufgabe
+stehen. Die Zeit seit dem Stoff ändert die Zahl nicht. Jedes Blatt und jede Portion beginnt
 mit diesem Rückblick; spätere Portionen einer Serie blicken auf die
 vorige zurück (06.10.). Auf Zuruf entfällt
 sie, etwa für die zweite
@@ -149,6 +166,17 @@ sonst der Wert allein. Läuft ein Handgriff mehrfach, steht jedes
 Ergebnis; ein Ansatz aus der Sachlage (Gleichung, Bedingung) ist
 ein eigenes Zwischenergebnis; bei Grafiken stehen Merkmale
 (Kontrollpunkte, Achsenschnitt, Lage) statt Zwischenwerte. Der
+Rechte Spalte nur, was nicht schon links steht und zum Ergebnis
+führt, kurz („f(2) = −2“ links reicht); Begründen: links nur das
+Urteil, rechts der Kern. Keine Fundstellenzeile über den Lösungen
+(Fundstelle bleibt in den Daten). Zweispaltig nur, wenn dadurch eine
+Seite wegfällt; passt alles auf eine Seite, nie zweispaltig. Antwort
+in der Form der Frage: Punkte mit Buchstaben N₁(−2 | 0), H, T, W, S_y;
+Stellen als x-Werte; Bedeutungsindex (x_N1, x_E) nur, wenn eine
+Aufgabe zwei Arten von Stellen hat, sonst x₁, x₂; Buchstaben wie in
+Prüfung und Formelsammlung; in Sachaufgaben Variablen nach der Sache
+(r, t), wenn die Aufgabe keine vorgibt (Nachtrag 06.10., N3.16,
+N4.18). Der
 Kopf der Aufgabe trägt einmal, untereinander, was mehrere
 Teilaufgaben brauchen (f′, f″, F; Vektoren; p, n, Vierfeldertafel);
 baut b auf a auf, verweist b „mit a)“. Nach Antwortart: Zahl →
@@ -175,7 +203,11 @@ Seitenfuß (06.10.): Jede Seite jedes Blatts, ohne Ausnahme (auch
 Rückblick, Check, „Zum Schluss“), trägt unten kopfüber und klein
 die Hilfen dieser Seite: den Kontrollwert, wo es einen kurzen gibt,
 und einen Tipp nur als Ansatz (f′(x) = 0) und nur, wo es einen
-gibt; Themenwörter als Tipp („Tipp: Rabatt“) entfallen.
+gibt; Themenwörter als Tipp („Tipp: Rabatt“) entfallen. Kopf: nur der
+Name („Grundwert G“, „Prozent“), die Prüfungsart klein („P10“); unten
+nur Seitenzahl und Fuß, keine laufende Titelzeile (Nachtrag 06.10.,
+N3.14). Tabellen mit Linien; Aufgaben mit Tabelle oder Antwortfeld
+bekommen keine Zusatzlinien darunter (N2.12).
 
 Gruppen und Satz (06.10.): In jeder Stufe stehen kleine Gruppen nach
 dem, was der Schüler sieht (rechnen, Sachaufgabe, Ankreuzen,
@@ -224,7 +256,11 @@ Jede Hauptnummer trägt als Titel die Fertigkeit in Schülersprache
 der Aufgabe; bei gemischten Aufgaben ist die Fertigkeit das
 Unterscheiden.
 
-Kennzeichnung: Jede verfremdete Prüfungsaufgabe trägt ihr Jahr.
+Kennzeichnung: Jede verfremdete Prüfungsaufgabe trägt ihr Jahr, nur
+das Jahr („P10 ’26“; die genaue Fundstelle bleibt in den Daten);
+fremde grau wie P10 („BY ’23“, „NRW ’24“, „VERA ’24“), herausgelöste
+„nach P10 ’15“; eigene tragen keine Marke (Nachtrag 06.10., N1.2,
+N3.15, N4.17).
 Im Prüfungsheft steht „selten" an Typen, die kaum vorkommen. Dazu
 die Zweigzeile (oben). Sonst kennzeichnet nichts – die Reihenfolge
 trägt Schwierigkeit und Ertrag: innerhalb eines Typs steht die
@@ -322,36 +358,60 @@ schon". Lösungen nach der gemeinsamen Regel (§ 2). Hilfsmittel
 wie in der Prüfung; eine Formel steht einmal an der Aufgabe, ab der
 sie gebraucht wird (§ 2), sonst Verweis auf die Formelsammlung.
 
-Satz des Prüfungshefts (06.10.): keine Übersicht vorn. Stufenkopf:
-Name mit Bezeichnung, kein „neu:“, keine Definitionszeile, dahinter
-grau „in 3 der letzten 5 Prüfungen“, sonst „selten geprüft“
-(Abitur: letzte fünf BB-Jahrgänge). Aufgabenzeile: grau „P10 ’26“
-ganz links, dann Nummer, Aufgabe, Punkte rechts; die genaue
-Fundstelle (Heft · Aufgabe) nur in der Lösungsdatei. Eigene
-Aufgaben tragen keine Prüfungsmarke und sind als „eigene Aufgabe“
-erkennbar, nie als Prüfung getarnt. Anrede: kein Siezen;
-Operatoren in Du-Form („Berechne“, „Gib an“), auch im eigenen
-Wortlaut der Prüfungsaufgaben und im Prüfstein. „weitere dieser
-Art“ nur innerhalb einer Gruppe und nur, was wie ein Duplikat
-aussieht.
+Satz des Prüfungshefts (06.10., Nachtrag N2/N3): keine Übersicht
+vorn. Kopf nur der Name, „P10“ klein; unten Seitenzahl und Fuß, keine
+laufende Titelzeile. Stufenkopf: Name mit Bezeichnung, kein „neu:“,
+keine Definitionszeile, dahinter grau „in 3 der letzten 5
+Prüfungen“ – gezählt die Jahre der letzten fünf, in denen der
+Handgriff gebraucht wurde, auch indirekt oder als Zwischenschritt
+(N2.7) –, sonst „selten geprüft“ (Abitur: letzte fünf
+BB-Jahrgänge). Aufgabenzeile: grau die Herkunftsmarke („P10 ’26“,
+„BY ’23“, „nach P10 ’15“) im linken Rand auf der Grundlinie der
+Nummer, dann Nummer, Aufgabe, Punkte rechts; die genaue Fundstelle
+bleibt in den Daten. Eigene Aufgaben tragen keine Marke (ohne Marke =
+eigen), nie eine Prüfungsmarke. Anrede: kein Siezen; Operatoren in
+Du-Form („Berechne“, „Gib an“), auch im eigenen Wortlaut der
+Prüfungsaufgaben und im Prüfstein.
 
-Eigene Aufgaben im Prüfungsheft (06.10.): ja als Vorstufen unten
-(aus der Bank), bei zu großen Lücken zwischen echten, als Ersatz für
-Rückblick, Check und Wiederholung und bei selten geprüften Stufen
-nach der Füllfolge BB fünf Jahre → ältere BB → Berlin/IQB/andere
-Länder → eigene; nein oben auf der Leiter (Prüfungshöhe echt), beim
-Prüfstein, wenn genug echte auf derselben Höhe stehen, und nicht
-für Typen, die nie geprüft wurden.
+Jede echte Aufgabe steht im Heft einmal, an ihrem Hauptplatz, ganz;
+in anderen Stufen, deren Handgriff sie als Zwischenschritt enthält,
+steht grau „steckt auch in Nr. 47 (P10 ’24)“; ist der Handgriff die
+ganze Aufgabe, aber anders etikettiert, steht sie ganz in der Stufe
+(N2.6). Bündel (N2.8): gleichartige BB/BE-Originale (gleiche Stufe,
+Schrittzahl, Zahlart, Fragerichtung, Darstellung; verschieden nur
+Sache und Zahlen) folgen der ersten ihrer Art in einem dünnen Rahmen,
+zweispaltig, je eine kurze Rechenzeile, Kopf grau „gleiche Art · 5×
+geprüft – kannst du überspringen“; fremde und eigene nie im Bündel,
+gleichartige eigene fallen weg. Länge folgt aus den Regeln; ab 30
+Seiten nennt der Bau den Grund (N2.9).
+
+Herkunft im Prüfungsheft: Folge nach § 1 (BB/BE → andere Länder →
+eigene). Eigene ja als Vorstufen unten (aus der Bank) und für Lücken
+der Leiter; nein oben auf der Leiter (Prüfungshöhe echt), beim
+Prüfstein und nicht für Typen, die nie geprüft wurden.
+
+Erkennen (N4.19, vorläufig – der Lehrer beurteilt den Sinn am ersten
+Blatt): Hat ein Handgriff verwechselbare Geschwister (W/G/p;
+Pythagoras/Winkelfunktion/Sinussatz; Zinsen/Zinseszins; mit/ohne
+Zurücklegen; linear/exponentiell), bekommt das Fokusblatt eine Aufgabe
+mit 4–6 kurzen Sätzen aus echten Aufgaben – ankreuzen, was gesucht
+ist, nicht rechnen –, mitten in der Leiter vor den echten
+Prüfungsaufgaben; im ganzen Heft als kurze Stufe nach den
+Geschwistern. Ohne Geschwister keine.
 
 Rückblick, Portion, Prüfstein (06.10.): Erste Portion = Grundlagen
 (kurzes Blatt 0, Zone § 2). Eine Portion der Serie darf nach einer
 abgeschlossenen Gruppe enden, auch mitten in der Stufe. Der
 Prüfstein ist eine ganze echte Aufgabe aus den letzten fünf Jahren
-am Ende, ohne Hilfen und ohne laufende Nummer. Ein Fokusblatt
-(Nachlieferung) beginnt immer ganz unten; Muster Fokus Grundwert:
-10 % → 50 % → 25 % → 1 % → „20 % sind …, wie viel 100 %?“ →
-30 % = 21 €, G = W : p → kurze Sachaufgabe → Rabatt → nach Rabatt
-(80 %) → längere Prüfungsaufgabe.
+am Ende, ohne laufende Nummer, mit Seitenfuß (N2.13). Ein Fokusblatt
+(Nachlieferung) beginnt immer ganz unten und trägt jede
+Original-Aufgabe, in der der Handgriff berechnet, bestimmt oder
+abgelesen werden musste – ganz, wenn der Handgriff die Aufgabe ist,
+herausgelöst, wenn er Zwischenschritt ist (N2.5). Grundwert-Leiter
+(N2.11): 1 %-Schritt in einer Prozent-Tabelle (% | €: 30 → 1 → 100),
+Streifen als Bild daneben; dann 10/25/50 % als Abkürzung; dann
+Formel; dann echte Aufgaben. Jedes Prozent-Heft hat mindestens eine
+Prozent-Tabelle (Dreisatz, N2.12).
 
 EBR/FOR (P10, 06.10.): ein Blatt für beide Kurse; Aufgaben, die nur
 FOR sind (Niveaustufe G außerhalb der EBR-Liste, msa/msa-vorgaben.md
@@ -396,6 +456,15 @@ streicht nichts.
   Katalog, nicht am Blatt.
 
 ## 6 Änderungen gegenüber 28.09.2026
+
+- 06.10. Nachtrag (beschluesse-2026-10-06b.md, N1–N4): § 1 Herkunft
+  der Aufgaben und Herauslösen; § 2 Rückblick ohne Mindestzahl, nur
+  was die Leiter braucht; Lösungen: rechte Spalte knapp, keine
+  Fundstellenzeile, zweispaltig nur bei Seitengewinn, Bezeichnungen;
+  Kopf/Fuß ohne Titelzeile, Tabellen mit Linien; Kennzeichnung nur
+  Jahr, fremde Marken, keine Marke an eigenen; § 4 Hauptplatz und
+  „steckt auch in“, Bündel, Zählung B, Erkennen (vorläufig), Fokus
+  ganz/herausgelöst, Grundwert-Leiter, Prüfstein mit Fuß.
 
 - 06.10. (Arbeitsliste aufgabenbank bau/pruefheft/beschluesse-
   2026-10-06.md): § 1 Leiter mit Vorstufen, Reihenfolge, Zahlen
