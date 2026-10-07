@@ -52,25 +52,21 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Neuen Pooljahrgang 2027 aufnehmen: `python iqb-quellen.py hefte/iqb` (Kennungen dürfen nur hinzukommen), Stapel in iqb-pruefungen.md § 2, Teil A grundlegend vor erhöht, Teil B WTR, MMS als Delta | Veröffentlichung des Pools „nach der Prüfung" (abi-quellen.md § 4) – Zeitpunkt unbelegt (Pool 2026 lag am 13.09.2026 vor) | Claude | iqb-quellen.md, konzept.md § 7 „Neuer Pooljahrgang" |
 | Abbruchreihe je Niveau gegen die Zielprüfung nachrechnen | Vorgabencheck abi hat die Geltung geändert | Claude | konzept.md § 7 „Nur abi und iqb", iqb.md § 6 |
 
-## 0 Plan „P10 fertig“ (Lehrer 06.10., Stand 07.10.)
+## 0 Plan (Stand 07.10. abends, ersetzt Plan „P10 fertig“ vom 06.10.)
 
-Maßgeblich: aufgabenbank bau/pruefheft/beschluesse-2026-10-07.md (B1–B13, A1–A4, F1–F8, G1–G5, T1–T6, P1).
+Maßgeblich: ueberblick-2026-10-07.md § 6 und uebergabe.md § 6.
 
-1. Erledigt 07.10.: Steckbriefe Grundwert/Pythagoras mit Teil „Arten“, Zuschnitt aus Steckbrief, Programm nach den Beschlüssen bis G1, Neubau Z8W (Grundwert) und UTU (Pythagoras) in fokus-2026-10-07/.
-2. Sichtung Pythagoras UTU mit dem Lehrer, Ausschnitte rechts.
-3. Ein Lauf: nachziehen G4, G5, B11–B13 im Programm (Pflichtweg, „Mit einem Bruch“, Abrufaufgabe statt Kasten, Fuß nur Ergebnisse, Belegungszeile); beide Blätter neu.
-4. Ein Nachzug-Lauf für alle Beschlüsse 05.–07.10.: ziel.md, bankblatt.md (Kurzbefehle B4), layout-befunde.md (Kopf/Fuß 1–2 streichen), Katalog-Notation (Überstrich).
-5. Formelsammlung/Tafelwerk sichten, Schreibweisen als Liste – Lehrer an ein oder zwei Tafelwerke erinnern.
-6. Steckbriefe mit Teil „Arten“ für alle rund 50 P10-Handgriffe, Runden zu 10.
-7. Neubau aller P10-Hefte nach Grundform G2.
-8. bankblatt.md als Projektanweisung in erzeugeBlatt(Bank). 9. Danach Abitur.
+1. Schalter bauen: ein Eingang für die Bauprogramme, der Blatt-Chat deutet die Bestellung (Bestellbaum offen.html, Folgebaum der Kennung, Bauregeln 9.1) und ruft auf. Vorher Probelauf: kann ein Blatt-Chat drei Repos klonen, LaTeX nutzen und pruefheft.py laufen lassen, wie lange? Prüfstein: „Pythagoras P10“ liefert im Blatt-Projekt in zwei Minuten das Blatt vom 07.10.
+2. Bank-Prompt für Sek II öffnen (Rolle sagt Kl. 8–10, Bank hat 44 Sek-II-Einträge).
+3. Serie: Steckbriefe für die 26 fehlenden P10-Abschnitte (Zuschnitt msa/skript-zuschnitt-p10.md) in Runden zu etwa zehn, mit gekürzten Fassungen; Blätter selbst geprüft, Lehrer schickt je Runde eine Sammelliste. Danach Abitur GK (52 Abschnitte), FHR, Lernblätter.
+4. Formelsammlung/Tafelwerk sichten (111 Kastenzeilen in 29 Einträgen; Grundwert-Formel offen).
 
 ## 2 Einmalig, mit Auslöser
 
 | Was | Auslöser oder Termin | Bei wem | Fundstelle |
 |---|---|---|---|
 | Darstellung je Handgriff nach Fachdidaktik festlegen (DZLM „Mathe sicher können“), Datenfeld | vor dem Neubau der übrigen P10-Kapitel | Chat | offen.html |
-| bankblatt.md v5.6 als Projektanweisung in erzeugeBlatt(Bank) (Chat-Block an den Lehrer) | nach dem Nachzug oben | Chat, Lehrer | uebergabe.md § 6 |
+| bankblatt.md v5.8 als Projektanweisung in erzeugeBlatt(Bank): Chat-Block am 07.10. an den Lehrer gegeben; Einsetzen und Entfernen der Projektdateien mathblatt.sty/Anleitung bestätigen | nächster Chatstart | Lehrer | uebergabe.md § 6 |
 | Rahmen bei vielen gleichartigen Originalen (höchstens vier, Kopf mit voller Zahl) – Vorschlag bestätigen | nächstes Heft mit mehr als vier gleichartigen | Chat, Lehrer | aufgabenbank/bau/pruefheft/beschluesse-2026-10-06b.md N5.24 |
 | Bank: aktive Kopien (182 Zeilen gleicher Schablone, vor allem innermathematisch) und 3 Fokus-Kopien aufräumen | vor dem nächsten Bank-Lauf | Chat (Agent) | aufgabenbank/bau/vielfalt-p10-2026-10-06.md |
 | Formel und „ab hier“: wann und wo, verallgemeinert (Gespräch) | nach dem Lauf „P10 in einem Rutsch“ | Chat, Lehrer | beschluesse-2026-10-06b.md |
