@@ -9,8 +9,9 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 #### Länge mit Pythagoras – 9 · 4 J · zuletzt 2026 · 19 BE · dazu 1 aus anderen Abschnitten
 - neu: Gleichung aufstellen – 2022-OS-B1g (Satz des Pythagoras formulieren), 2024-OS-B1f (Pythagoras Gleichung zuordnen), 2026-FOR-B1j (Pythagoras Gleichung zuordnen)
-- neu: Kathete oder Hypotenuse direkt – 2022-OS-K5a (Pythagoras Kathete), 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse)
-- neu: Dreieck erst in Figur oder Körper finden – 2026-FOR-K2c (Pythagoras Kathete), 2025-OS-K4a (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
+- neu: Hypotenuse gesucht – 2025-OS-K4a (Pythagoras Hypotenuse)
+- neu: Kathete gesucht – 2022-OS-K5a (Pythagoras Kathete), 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete)
+- neu: Dreieck versteckt – 2022-OS-K2c (Pythagoras Hypotenuse), 2026-FOR-K2c (Pythagoras Kathete), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
 
 #### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE
 - neu: Seitenverhältnis benennen – 2025-OS-B1g (Winkelfunktion Seitenverhältnis angeben)
