@@ -96,7 +96,13 @@ Katalog oder Bank nicht erreichbar: Der Prompt baut ohne sie und sagt es
 in der Deutungszeile; der Katalog macht das Blatt besser, er darf es
 nicht verhindern.
 
-## 3 Unterrichtsblatt
+## 3 Lernblatt (Schulstoff)
+
+Blattsorten (Lehrer 07.10.): Original, Original neu, Prüfungsheft – wie
+im Bestellbaum (offen.html) –, dazu Fokus (ein Handgriff, aus dem
+Prüfungsheft oder aus einem Lernblatt) und Lernblatt (laufender
+Schulstoff). Alles andere sind Äste im Baum (Basis, ganze Prüfung),
+Knöpfe im Folgebaum der Kennung („mehr“) oder Freitext.
 
 Für den laufenden Schulstoff, Klasse 8 bis Abitur, alle
 Schulformen. Eingabe ist ein Thema; Klasse, Schulform und Freitext
@@ -112,8 +118,8 @@ Wiederholung (Rückblick davor); mit Ausblick (die
 Zweige, die erst später oder am Gymnasium kommen, dahinter). Ohne
 Angabe: mit Wiederholung, und mit Ausblick, wenn das Thema in
 blaetter/ noch nicht liegt. Lernblatt: alle Zweige des gewählten
-Teils, je Typ die volle Leiter. Fokus: ein Typ, jede Sprosse
-zwei- bis dreimal. Ein Fokus wird über den Einheits- oder
+Teils, je Art eine kurze Leiter (Bauregeln). Fokus: ein Handgriff,
+schmal, aber vollständig (Bauregeln 2.1). Ein Fokus wird über den Einheits- oder
 Typnamen bestellt, über die Nummern eines früheren Blatts oder
 über das Foto der einen Aufgabe, an der der Schüler hing. Bringt
 der Lehrer Aufgaben oder Heftseiten der Schule mit, übernimmt das
@@ -122,13 +128,14 @@ Blatt deren Schreibform und Bezeichnungen; die Leiter bleibt.
 Eine anstehende Klassenarbeit, ein Test oder eine Prüfung sind
 kein eigenes Format und keine eigene Bestellung: Sie sind der
 Anlass, ein Thema zu bestellen, und das Blatt ist das Lernblatt
-zu diesem Thema. Die einzige Prüfungsform ist die Probeprüfung
-aus Originalen der Abschlussprüfung (§ 4).
+zu diesem Thema. Prüfungsformen gibt es nur für Abschlussprüfungen
+(§ 4).
 
 Stoff und Höhe: Maßstab für den Stoff ist der Rahmenlehrplan, auch
 Stoff, den keine Prüfung abfragt. Die Höhe ist das Prüfungsniveau
 der Stufe, auf Zuruf darüber hinaus. Hat das Thema
-Prüfungsaufgaben, ist die oberste Sprosse eine davon, verfremdet.
+Prüfungsaufgaben, ist die oberste Sprosse eine davon (echt, ganz
+oder gekürzt).
 Hat es keine eigenen, ist die Decke die Prüfungsaufgabe, in der
 es gebraucht wird. Kommt es in keiner vor, setzt der Katalog die
 Höhe nach Lehrwerk-Konvention. Eine Grenze bleibt fest: unter
@@ -150,14 +157,15 @@ Prüfungen einer Prüfungsart werden einmal übereinandergelegt; was
 thematisch zusammenhängt, bildet eine Kategorie, und die
 Kategorien stehen danach fest. Ein Heft bereitet auf ein Thema
 vor, die Reihe folgt dem Ertrag – kein Themenhopping. Typen, die
-kaum vorkommen, bleiben im Heft und stehen hinten. Prüfungsweise: die Probeprüfung, jede Aufgabe eine
-verfremdete Prüfungsaufgabe, auf Zuruf auch unverändert.
+kaum vorkommen, bleiben im Heft und stehen hinten. Prüfungsweise:
+eine ganze Prüfung als Original oder Original neu (Ast „Ganze
+Prüfung“ im Bestellbaum).
 
-Heftsorten: das Themenheft (ein Thema, alle Typen, je Typ die
-volle Leiter, Decke das Original), das Basisheft (Aufgaben im
-Format des ersten Prüfungsteils, quer durch die Themen), der
-Fokus (ein Typ) und die Probeprüfung. Die Heftsorte „Vorbereitung"
-gibt es nicht mehr; ihre Aufgabe erfüllt der Rückblick. Hilfsmittel wie in der Prüfung.
+Sorten (§ 3): Original (Heftseiten, nur für den Lehrer), Original
+neu (neu gesetzt, ganze Aufgaben, Register), Prüfungsheft (ein
+Thema, alle Handgriffe, Prüfstein am Ende), Fokus (ein Handgriff).
+Der Basisteil bleibt ganz und gemischt (Antwortbogen). Hilfsmittel
+wie in der Prüfung.
 
 Satz, Herkunft, Aufbau und Zählung: Bauregeln (§ 2).
 
