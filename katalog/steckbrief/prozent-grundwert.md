@@ -139,10 +139,9 @@ Art ohne Stern im EBR-Kurs stand, sonst „nur FOR“.
 - **Typischer Fehler:** p % vom Teil gerechnet: 25 % von 200 € statt
   200 € · 4 [Katalog prozentrechnung.md, Typische Fehler; P10 2023-OS-B1b,
   2025-OS-B1a]
-- **Geprüft:** 3× (EBR und FOR)
-- **Aufgaben:** 2023-OS-B1b 2025-OS-B1a 2019-OS-B1g
-- **Nur gekürzt:** 2019-OS-B1g (Grundwert ist dort ein Zwischenschritt)
-- **Gruppen:** Teil und Prozentsatz gegeben: 2023-OS-B1b 2025-OS-B1a | Anteil als Bruch: 2019-OS-B1g
+- **Geprüft:** 2× (EBR und FOR)
+- **Aufgaben:** 2023-OS-B1b 2025-OS-B1a
+- **Gruppen:** Teil und Prozentsatz gegeben: 2023-OS-B1b 2025-OS-B1a
 - **Leiter-Bank:** prozentrechnung-e4-k2-s0-v1 → prozentrechnung-e4-k2-s1 → prozentrechnung-e4-k2-s3 → prozentrechnung-e4-k2-s5
 - **Schritte:**
   - Was ist das Ganze – ist es gegeben oder gesucht? → naheliegend falsch:
@@ -154,3 +153,17 @@ Art ohne Stern im EBR-Kurs stand, sonst „nur FOR“.
   - bei einem Bruch (Art „Mit einem Bruch“, G5): Sind es insgesamt mehr oder
     weniger als 4 Kugeln? Wie viele sind ein Drittel? → naheliegend falsch:
     4 · 2/3 [durch einen Bruch teilen; P10 2019-OS-B1g, Lehrer 07.10.]
+
+### Mit einem Bruch
+- **Kurzname:** Mit einem Bruch
+- **Stufe:** Grundwert
+- **Zuschnitt:** Grundwert
+- **Beleg:** Beschluss G5 (Lehrer 07.10.): eigene Stolperstelle, durch einen
+  Bruch teilen
+- **Typischer Fehler:** 4 · 2/3 statt 4 : 2/3 (durch einen Bruch teilen)
+  [P10 2019-OS-B1g, Lehrer 07.10.]
+- **Geprüft:** 1× (EBR und FOR)
+- **Aufgaben:** 2019-OS-B1g
+- **Nur gekürzt:** 2019-OS-B1g (Grundwert ist dort ein Zwischenschritt)
+- **Gruppen:** Anteil als Bruch: 2019-OS-B1g
+- **Fremd-Merkmal:** \d\s*/\s*\d|frac|Bruch
