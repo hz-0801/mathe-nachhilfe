@@ -35,9 +35,10 @@ in ziel.md, bankblatt.md, layout-befunde.md, Katalog (Nachzug in einem
 Durchgang nach der Sichtung, faellig § 0 Schritt 4). UTU ungesichtet.
 
 Messwerte: Lauf 06.10. abends 0,31 Mio → Woche 16 → 19 %; Lauf 07.10.
-0,40 Mio plus dieser lange Chat → 19 → 25 %. Der Chatverlauf selbst ist der
-größere Kostentreiber (Hilfeseiten Anthropic: Gesprächslänge, Kontext,
-Anhänge); Umzug deshalb jetzt.
+0,40 Mio (150 Werkzeugaufrufe, lange Laufzeit) → 19 → 25 %; danach rund 20
+Chatnachrichten mit Bildern: Woche blieb bei 25 %, Sitzung 8 → 9 %. Der
+Kostentreiber sind die Agentenläufe, nicht der Chat (frühere Vermutung
+widerlegt). Läufe deshalb klein schneiden, Lesen im Agenten begrenzen.
 
 ## 4 Verbindliche Entscheidungen und Rahmenbedingungen
 
