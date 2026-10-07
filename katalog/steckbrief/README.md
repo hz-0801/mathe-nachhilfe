@@ -73,10 +73,11 @@ bleiben zugleich Text für Menschen.
     - **Fremd-Merkmal:** …             regulärer Ausdruck auf die Lösung (fremde Aufgaben dieser Art)
 
 Schritte (A7, aufgabenbank bau/pruefheft/beschluesse-2026-10-07.md):
-Fragen nach Anschauung, Vergleich oder Vorhersage („Kann die Leiter höher
-als 5 m reichen?“), nicht nach einem Begriff; keine vorgelegte falsche
-Rechnung auf dem Blatt. Teilfragen a), b), c) unter einer Aufgabe der
-Leiter, nach oben abgebaut.
+Fragen nach Anschauung, Vergleich oder Vorhersage oder Grenzfall („Kann die Leiter höher
+als 5 m reichen?“), eher nicht nach einem Begriff; eine vorgelegte falsche
+Rechnung nur ausnahmsweise. Teilfragen a), b), c) unter einer Aufgabe der
+Leiter, nach oben abgebaut. Richtung, nicht Regel: nur wo es erkennbar
+passt, höchstens eine solche Aufgabe je Art, keine zusätzliche Seite.
 
 Fälle (Erkennen, Formel) als Unterpunkte: Dreiecke „(x|y) (x|y) (x|y);
 Seiten a b c; rechter Winkel 1–3 oder 0“ (Seite i liegt Ecke i gegenüber)

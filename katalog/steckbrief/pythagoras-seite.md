@@ -39,7 +39,7 @@ Schätzfrage als Kontrolle, Kopfzahlen unten, Darstellung nur wo sie trägt.
   über den Seiten (Kästchen zählen) nur als Grundvorstellung am Anfang.
 - **Formel:** Gleichung in Rollen aufstellen (H² = K² + K²), dann mit den
   Buchstaben der Aufgabe (der Buchstabe der Hypotenuse steht allein); bei
-  gesuchter Kathete ergibt das Umstellen das Minus. Keine Merkregel „plus/
+  gesuchter Kathete ergibt das Umstellen das Minus. Eher nicht die Merkregel „plus/
   minus“ als Ersatz (Lehrer 07.10., Beschluss A6). Rechnung in drei Zeilen:
   Gleichung, Zwischenergebnis, Wurzel.
 - **Vorher können (Rückblick):** Quadratzahlen bis 20² im Kopf; Wurzel mit
