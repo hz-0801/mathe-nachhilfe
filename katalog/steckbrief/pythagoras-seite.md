@@ -131,6 +131,8 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
   Satz des Pythagoras“; Formelsammlung noch nicht gesichtet)
 - **Rückblick:** keiner (A1: Quadrieren, Wurzel und Einheiten übt die
   Leiter selbst; „Quadratzahlen bis 20²“ ist keine belegte Stolperstelle)
+- **Abruf-Frage:** „Notiere den Satz des Pythagoras mit H für die Hypotenuse.“
+- **Abruf-Lösung:** H² = K² + K² (H liegt dem rechten Winkel gegenüber)
 - **Erkennen-Frage:** „Kreise den rechten Winkel ein und schreibe H an die Hypotenuse. Hat ein Dreieck keinen rechten Winkel, schreibe „keiner“ darunter.“
 - **Erkennen-Fälle:** (Katalog-Sprosse „Wo ist der rechte Winkel?“ und
   Erkennungsschritt „Gilt der Satz hier?“; Ecken (x|y) in cm, Seite i
@@ -156,9 +158,12 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Typischer Fehler:** Wurzel vergessen: z = y² + x² angekreuzt; „c ist
   immer die Hypotenuse“ [Katalog pythagoras.md, Typische Fehler; P10
   2021-OS-B1h, 2024-OS-B1f]
-- **Geprüft:** 5× (EBR und FOR)
-- **Aufgaben:** 2017-OS-B1d 2021-OS-B1h 2026-FOR-B1j 2024-OS-B1f 2022-OS-B1g
-- **Gruppen:** Gleichung ankreuzen: 2017-OS-B1d 2021-OS-B1h 2026-FOR-B1j 2024-OS-B1f | Satz in Worten: 2022-OS-B1g
+- **Geprüft:** 2× (EBR und FOR)
+- **Aufgaben:** 2017-OS-B1d 2022-OS-B1g
+- **Gruppen:** Gleichung ankreuzen: 2017-OS-B1d | Satz in Worten: 2022-OS-B1g
+- **Umgezogen:** 2021-OS-B1h, 2026-FOR-B1j → Hypotenuse gesucht; 2024-OS-B1f →
+  Kathete gesucht (Formel mit Wurzel ankreuzen gehört zur Art ihres
+  Rechenwegs, Bauregeln 3.5, Lehrer 07.10.)
 
 ### Hypotenuse gesucht
 - **Kurzname:** Die lange Seite gesucht
@@ -172,8 +177,10 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **P10-Typ:** Pythagoras Hypotenuse
 - **Typischer Fehler:** falsche Seite als Hypotenuse: die längere Kathete
   für die Hypotenuse gehalten, die Stufenhöhe der Rampe als Hypotenuse
-  [Katalog pythagoras.md, Typische Fehler; P10 2020-OS-K7a, 2025-OS-K4a]
-- **Geprüft:** 2× (EBR und FOR)
+  [Katalog pythagoras.md, Typische Fehler; P10 2020-OS-K7a, 2025-OS-K4a];
+  Wurzel vergessen: z = y² + x² angekreuzt [P10 2021-OS-B1h]
+- **Geprüft:** 4× (EBR und FOR)
+- **Einstieg:** 2021-OS-B1h 2026-FOR-B1j
 - **Aufgaben:** 2020-OS-K7a 2025-OS-K4a
 - **Nur gekürzt:** 2025-OS-K4a (die Teilaufgabe fragt auch den Winkel α)
 - **Gruppen:** Hypotenuse aus zwei Katheten: 2020-OS-K7a 2025-OS-K4a
@@ -202,12 +209,20 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **P10-Typ:** Pythagoras Kathete
 - **Typischer Fehler:** Quadrate addiert, obwohl eine Kathete gesucht ist
   (Fehlerquelle aller Kathete-Originale) [Katalog pythagoras.md, Typische
-  Fehler; P10 2019-OS-K3a, 2024-OS-K6a]
-- **Geprüft:** 5× (EBR und FOR)
+  Fehler; P10 2019-OS-K3a, 2024-OS-K6a]; „c ist immer die Hypotenuse“ [P10
+  2024-OS-B1f]
+- **Geprüft:** 6× (EBR und FOR)
+- **Einstieg:** 2024-OS-B1f
+- **Erkennen-Frage:** „Ist die gesuchte Seite die Hypotenuse oder eine Kathete? Schreibe dann die Gleichung auf.“
+- **Erkennen-Fälle:** (Bauregeln 3.3: eine Entscheidung je Teil, beide Arten gemischt)
+  - Eine 5 m lange Leiter lehnt an einer Wand. Ihr Fuß steht 1,4 m von der Wand entfernt. Wie hoch reicht die Leiter? → Kathete; 5² = h² + 1,4²
+  - Eine Rampe ist 3 m lang und 0,4 m hoch. Wie lang ist ihre schräge Fläche? → Hypotenuse; s² = 3² + 0,4²
+  - Ein Bildschirm ist 48 cm breit und 27 cm hoch. Wie lang ist seine Diagonale? → Hypotenuse; d² = 48² + 27²
+  - Ein Drachen hängt an einer 25 m langen Schnur. Lena steht 7 m neben dem Punkt unter dem Drachen. Wie hoch fliegt er? → Kathete; 25² = h² + 7²
 - **Aufgaben:** 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Gruppen:** Kathete aus Hypotenuse und Kathete: 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Fremd-Merkmal:** −|-
-- **Leiter-Bank:** pythagoras-e2-k3-s0 → pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2
+- **Leiter-Bank:** pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2   (s0 „Plus oder minus?“ ersetzt durch Erkennen-Fälle, A6)
 - **Schritte:**
   - Kann die gesuchte Seite länger sein als die Seite gegenüber dem rechten
     Winkel (die Leiter, der Weg, die Seilbahn)? → naheliegend falsch: ja oder
