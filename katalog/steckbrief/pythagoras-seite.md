@@ -37,10 +37,11 @@ Schätzfrage als Kontrolle, Kopfzahlen unten, Darstellung nur wo sie trägt.
 - **Darstellung:** Skizze mit Rechtwinkelmarke; in Figuren und Körpern das
   rechtwinklige Teildreieck farbig nachfahren und neu beschriften. Quadrate
   über den Seiten (Kästchen zählen) nur als Grundvorstellung am Anfang.
-- **Formel:** Merkregel „Hypotenuse gesucht → plus, Kathete gesucht →
-  minus“; Formel an die Beschriftung anpassen (der Buchstabe der Hypotenuse
-  steht allein). Rechnung in drei Zeilen: Gleichung, Zwischenergebnis,
-  Wurzel.
+- **Formel:** Gleichung in Rollen aufstellen (H² = K² + K²), dann mit den
+  Buchstaben der Aufgabe (der Buchstabe der Hypotenuse steht allein); bei
+  gesuchter Kathete ergibt das Umstellen das Minus. Keine Merkregel „plus/
+  minus“ als Ersatz (Lehrer 07.10., Beschluss A6). Rechnung in drei Zeilen:
+  Gleichung, Zwischenergebnis, Wurzel.
 - **Vorher können (Rückblick):** Quadratzahlen bis 20² im Kopf; Wurzel mit
   dem Taschenrechner (erst Summe/Differenz, dann Wurzel, dann runden);
   Rechtwinkelmarke erkennen; cm und m angleichen.
