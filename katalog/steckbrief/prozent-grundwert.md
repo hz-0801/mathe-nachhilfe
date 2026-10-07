@@ -144,3 +144,13 @@ Art ohne Stern im EBR-Kurs stand, sonst „nur FOR“.
 - **Nur gekürzt:** 2019-OS-B1g (Grundwert ist dort ein Zwischenschritt)
 - **Gruppen:** Teil und Prozentsatz gegeben: 2023-OS-B1b 2025-OS-B1a | Anteil als Bruch: 2019-OS-B1g
 - **Leiter-Bank:** prozentrechnung-e4-k2-s0-v1 → prozentrechnung-e4-k2-s1 → prozentrechnung-e4-k2-s3 → prozentrechnung-e4-k2-s5
+- **Schritte:**
+  - Was ist das Ganze – ist es gegeben oder gesucht? → naheliegend falsch:
+    die gegebene Zahl [Teil und Ganzes vertauscht; P10 2026-FOR-B1a]
+  - Wird das Ganze mehr oder weniger als die gegebene Zahl? → naheliegend
+    falsch: weniger [p % vom Teil gerechnet; P10 2023-OS-B1b, 2025-OS-B1a]
+  - Passt dein Ergebnis zu deiner zweiten Antwort? → naheliegend falsch: nicht
+    vergleichen [dieselbe Fehlerquelle]
+  - bei einem Bruch (Art „Mit einem Bruch“, G5): Sind es insgesamt mehr oder
+    weniger als 4 Kugeln? Wie viele sind ein Drittel? → naheliegend falsch:
+    4 · 2/3 [durch einen Bruch teilen; P10 2019-OS-B1g, Lehrer 07.10.]

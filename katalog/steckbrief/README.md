@@ -67,7 +67,16 @@ bleiben zugleich Text für Menschen.
                                        (ids: P10-ids oder Kennungen fremder Aufgaben; fremde nur,
                                        wenn handgriffe genau die Stufe der Art nennt, F1)
     - **Leiter-Bank:** Bank-ids mit →  kurze Leiter der Art
+    - **Schritte:**                    Entscheidungen des Schülers in seiner Folge (A7), je Unterpunkt
+                                       „Frage → naheliegend falsch: … [Fehler, Beleg]“; ohne belegten
+                                       Fehler kein Schritt; Rechnen selbst ist kein Schritt
     - **Fremd-Merkmal:** …             regulärer Ausdruck auf die Lösung (fremde Aufgaben dieser Art)
+
+Schritte (A7, aufgabenbank bau/pruefheft/beschluesse-2026-10-07.md):
+Fragen nach Anschauung, Vergleich oder Vorhersage („Kann die Leiter höher
+als 5 m reichen?“), nicht nach einem Begriff; keine vorgelegte falsche
+Rechnung auf dem Blatt. Teilfragen a), b), c) unter einer Aufgabe der
+Leiter, nach oben abgebaut.
 
 Fälle (Erkennen, Formel) als Unterpunkte: Dreiecke „(x|y) (x|y) (x|y);
 Seiten a b c; rechter Winkel 1–3 oder 0“ (Seite i liegt Ecke i gegenüber)

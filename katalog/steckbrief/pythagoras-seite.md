@@ -179,6 +179,16 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Gruppen:** Hypotenuse aus zwei Katheten: 2020-OS-K7a 2025-OS-K4a
 - **Fremd-Merkmal:** \+
 - **Leiter-Bank:** pythagoras-e1-k2-s1 → pythagoras-e1-k2-s3
+- **Schritte:**
+  - Welche Seite liegt dem rechten Winkel gegenüber – ist sie gegeben oder
+    gesucht? → naheliegend falsch: die längste gegebene Zahl [falsche Seite
+    als Hypotenuse; P10 2020-OS-K7a]
+  - Wird die gesuchte Seite länger oder kürzer als die längste gegebene? →
+    naheliegend falsch: kürzer oder „dazwischen“ [Stufenhöhe als Hypotenuse;
+    P10 2025-OS-K4a]
+  - Gleichung so hinschreiben, dass die gesuchte Seite allein steht; dann:
+    Ist c² schon die Länge? → naheliegend falsch: ja [Wurzel vergessen; P10
+    2021-OS-B1h]
 
 ### Kathete gesucht
 - **Kurzname:** Eine kurze Seite gesucht
@@ -198,6 +208,15 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Gruppen:** Kathete aus Hypotenuse und Kathete: 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Fremd-Merkmal:** −|-
 - **Leiter-Bank:** pythagoras-e2-k3-s0 → pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2
+- **Schritte:**
+  - Kann die gesuchte Seite länger sein als die Seite gegenüber dem rechten
+    Winkel (die Leiter, der Weg, die Seilbahn)? → naheliegend falsch: ja oder
+    „weiß nicht“ [Quadrate addiert; P10 2019-OS-K3a, 2024-OS-K6a]
+  - Gleichung so hinschreiben, dass die längste Seite allein steht → naheliegend
+    falsch: die gesuchte Seite allein (a² = b² + c²) [dieselbe Fehlerquelle]
+  - Passt dein Ergebnis zu deiner ersten Antwort? → naheliegend falsch: nicht
+    vergleichen, 5,8 m stehen lassen [Quadrate addiert; Kontrolle laut
+    Begriff „Schätzfrage“]
 
 ### Dreieck versteckt
 - **Kurzname:** Das Dreieck erst finden
@@ -218,3 +237,12 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Nur gekürzt:** 2025-OS-K2a (Symmetrieachsen) · 2015-OS-K6c (Flächeninhalt der Seitenfläche) · 2019-OS-K2d (Winkel β)
 - **Gruppen:** Nur hinsehen: 2026-FOR-K2c | Längen aus Koordinaten: 2019-OS-K2d | Länge halbieren oder verdoppeln: 2015-OS-K6c 2025-OS-K2a 2018-OS-K6d 2022-OS-K2c
 - **Leiter-Bank:** pythagoras-e3-k2-s0 → pythagoras-e3-k2-s1
+- **Schritte:**
+  - Wo steckt ein rechter Winkel? Fahre das Dreieck nach. → naheliegend
+    falsch: ein Dreieck ohne rechten Winkel, die Schräge als Höhe [P10
+    2022-OS-K2c, 2026-FOR-K2c]
+  - Reicht die Seite deines Dreiecks über die ganze Kante (den ganzen
+    Durchmesser)? → naheliegend falsch: ja [ganze statt halbe Seite,
+    Durchmesser statt Radius; P10 2015-OS-K6c, 2025-OS-K2a]
+  - danach die Schritte der Art „Hypotenuse gesucht“ oder „Kathete gesucht“
+  - (Längen aus Koordinaten: kein Schritt, kein belegter Fehler)
