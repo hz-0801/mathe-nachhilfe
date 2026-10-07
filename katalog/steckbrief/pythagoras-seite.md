@@ -206,16 +206,18 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
   2024-OS-B1f]
 - **Geprüft:** 6× (EBR und FOR)
 - **Einstieg:** –   (2024-OS-B1f gleiche Sorte wie der Einstieg der Hypotenuse, Bauregeln 2.1; kommt mit „mehr“)
-- **Erkennen-Frage:** „Ist die gesuchte Seite die Hypotenuse oder eine Kathete? Schreibe dann die Gleichung auf.“
-- **Erkennen-Fälle:** (Bauregeln 3.3: eine Entscheidung je Teil, beide Arten gemischt)
-  - Eine 5 m lange Leiter lehnt an einer Wand. Ihr Fuß steht 1,4 m von der Wand entfernt. Wie hoch reicht die Leiter? → Kathete; 5² = h² + 1,4²
-  - Eine Rampe ist 3 m lang und 0,4 m hoch. Wie lang ist ihre schräge Fläche? → Hypotenuse; s² = 3² + 0,4²
-  - Ein Bildschirm ist 48 cm breit und 27 cm hoch. Wie lang ist seine Diagonale? → Hypotenuse; d² = 48² + 27²
-  - Ein Drachen hängt an einer 25 m langen Schnur. Lena steht 7 m neben dem Punkt unter dem Drachen. Wie hoch fliegt er? → Kathete; 25² = h² + 7²
+- **Erkennen-Frage:** „Hypotenuse oder Kathete gesucht? Schreibe die Gleichung auf.“
+- **Erkennen-Vorgabe:** a   (der erste Fall steht vorgedruckt, grau, ohne „Beispiel“; Lehrer 07.10.)
+- **Erkennen-Fälle:** (Bauregeln 3.3: beide Arten gemischt; kurze Lagen statt Fragen, damit nichts zum Rechnen einlädt)
+  - Leiter 5 m lang, Fuß 1,4 m von der Wand – Höhe an der Wand? → Kathete; 5² = h² + 1,4²
+  - Rampe 3 m lang, 0,4 m hoch – schräge Fläche? → Hypotenuse; s² = 3² + 0,4²
+  - Bildschirm 48 cm breit, 27 cm hoch – Diagonale? → Hypotenuse; d² = 48² + 27²
+  - Drachenschnur 25 m lang, Lena 7 m neben dem Punkt unter dem Drachen – Höhe? → Kathete; 25² = h² + 7²
+- **Rechnen-Fall:** „Rechne die Höhe der Leiter aus {nr} a) aus.“ → h² = 5² − 1,4² = 23,04; h = 4,8 m   (ersetzt die Leiter-Bank, Lehrer 07.10.)
 - **Aufgaben:** 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Gruppen:** Kathete aus Hypotenuse und Kathete: 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Fremd-Merkmal:** −|-
-- **Leiter-Bank:** pythagoras-e2-k3-s1   (s2 nur mit Rundung: gleiche Sorte, Lehrer 07.10.; s0 „Plus oder minus?“ ersetzt durch Erkennen-Fälle, A6)
+- **Leiter-Bank:** –   (s1 ersetzt durch den Rechnen-Fall, s2 nur mit Rundung: gleiche Sorte, Lehrer 07.10.; s0 „Plus oder minus?“ ersetzt durch Erkennen-Fälle, A6)
 - **Schritte:**
   - Kann die gesuchte Seite länger sein als die Seite gegenüber dem rechten
     Winkel (die Leiter, der Weg, die Seilbahn)? → naheliegend falsch: ja oder
