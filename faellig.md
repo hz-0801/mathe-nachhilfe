@@ -52,14 +52,18 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Neuen Pooljahrgang 2027 aufnehmen: `python iqb-quellen.py hefte/iqb` (Kennungen dürfen nur hinzukommen), Stapel in iqb-pruefungen.md § 2, Teil A grundlegend vor erhöht, Teil B WTR, MMS als Delta | Veröffentlichung des Pools „nach der Prüfung" (abi-quellen.md § 4) – Zeitpunkt unbelegt (Pool 2026 lag am 13.09.2026 vor) | Claude | iqb-quellen.md, konzept.md § 7 „Neuer Pooljahrgang" |
 | Abbruchreihe je Niveau gegen die Zielprüfung nachrechnen | Vorgabencheck abi hat die Geltung geändert | Claude | konzept.md § 7 „Nur abi und iqb", iqb.md § 6 |
 
-## 0 Plan „P10 fertig“ (Lehrer 06.10.)
+## 0 Plan „P10 fertig“ (Lehrer 06.10., Stand 07.10.)
 
-1. Steckbrief-Probe Grundwert und Pythagoras – Entwürfe liegen (katalog/steckbrief/), Grundwert-Leiter entschieden (Katalog-Folge). Lehrer beurteilt am Blatt, nicht an der Liste: das Bauprogramm liest die zwei Steckbriefe und baut Fokus Grundwert und Fokus Pythagoras; zusammen mit Schritt 2 und dem Nachzug N5/N6/Punkt 30 in ziel.md und bankblatt.md.
-2. Kleine Satzänderungen in demselben Lauf: Streifen nur, wo er trägt; Einrücken statt Rahmen (gleichartige BB/BE-Originale eingerückt, eine Antwortlinie, grauer Hinweis einmal); Rückblick-Regel N6 Punkt 29; Verständnisfrage als erste Sprosse; Anhang-Untergrenze (Lehrer: 2 oder 4, offen).
-3. Steckbriefe für alle rund 50 P10-Handgriffe, Runden zu 10, Lehrer bestätigt je Runde (Verständnis aus dem Katalog, Raster und Formulierungen aus den echten Aufgaben).
-4. Neubau aller P10-Hefte; Lehrer sieht je Kapitel eine ausgewählte Seite.
-5. bankblatt.md v5.7 (dann mit N5/N6) als Projektanweisung in erzeugeBlatt(Bank).
-6. Danach Abitur.
+Maßgeblich: aufgabenbank bau/pruefheft/beschluesse-2026-10-07.md (B1–B13, A1–A4, F1–F8, G1–G5, T1–T6, P1).
+
+1. Erledigt 07.10.: Steckbriefe Grundwert/Pythagoras mit Teil „Arten“, Zuschnitt aus Steckbrief, Programm nach den Beschlüssen bis G1, Neubau Z8W (Grundwert) und UTU (Pythagoras) in fokus-2026-10-07/.
+2. Sichtung Pythagoras UTU mit dem Lehrer, Ausschnitte rechts.
+3. Ein Lauf: nachziehen G4, G5, B11–B13 im Programm (Pflichtweg, „Mit einem Bruch“, Abrufaufgabe statt Kasten, Fuß nur Ergebnisse, Belegungszeile); beide Blätter neu.
+4. Ein Nachzug-Lauf für alle Beschlüsse 05.–07.10.: ziel.md, bankblatt.md (Kurzbefehle B4), layout-befunde.md (Kopf/Fuß 1–2 streichen), Katalog-Notation (Überstrich).
+5. Formelsammlung/Tafelwerk sichten, Schreibweisen als Liste – Lehrer an ein oder zwei Tafelwerke erinnern.
+6. Steckbriefe mit Teil „Arten“ für alle rund 50 P10-Handgriffe, Runden zu 10.
+7. Neubau aller P10-Hefte nach Grundform G2.
+8. bankblatt.md als Projektanweisung in erzeugeBlatt(Bank). 9. Danach Abitur.
 
 ## 2 Einmalig, mit Auslöser
 
