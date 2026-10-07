@@ -131,21 +131,14 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
   Satz des Pythagoras“; Formelsammlung noch nicht gesichtet)
 - **Rückblick:** keiner (A1: Quadrieren, Wurzel und Einheiten übt die
   Leiter selbst; „Quadratzahlen bis 20²“ ist keine belegte Stolperstelle)
-- **Abruf-Frage:** „Notiere den Satz des Pythagoras mit H für die Hypotenuse.“
-- **Abruf-Lösung:** H² = K² + K² (H liegt dem rechten Winkel gegenüber)
-- **Erkennen-Frage:** „Kreise den rechten Winkel ein und schreibe H an die Hypotenuse. Hat ein Dreieck keinen rechten Winkel, schreibe „keiner“ darunter.“
-- **Erkennen-Fälle:** (Katalog-Sprosse „Wo ist der rechte Winkel?“ und
-  Erkennungsschritt „Gilt der Satz hier?“; Ecken (x|y) in cm, Seite i
-  liegt der Ecke i gegenüber, rechter Winkel bei Ecke 1–3 oder 0 = keiner)
-  - (0|0) (4,5|0) (0|2,8); Seiten r s t; rechter Winkel 1
-  - (0|0) (5|0) (3,2|2,4); Seiten e f g; rechter Winkel 3
-  - (0|0) (5,2|0) (−0,8|2,2); Seiten k m n; rechter Winkel 0
-  - (0|2,5) (3,6|0) (5,6|2,88); Seiten u v w; rechter Winkel 2
-- **Formel-Frage:** „Schreibe die Gleichung erst mit H und K: H² = K² + K². Schreibe sie dann mit den Buchstaben des Dreiecks.“
-- **Formel-Fälle:**
+- **Abruf-Frage:** „Notiere den Satz des Pythagoras.“
+- **Abruf-Lösung:** c² = a² + b² (c: Hypotenuse)
+- **Formel-Frage:** „Suche zuerst die Hypotenuse – sie steht in der Gleichung allein auf einer Seite. Schreibe die Gleichung mit den Buchstaben des Dreiecks.“
+- **Formel-Fälle:** (Erkennen und Aufstellen in einer Aufgabe, Bauregeln 3.3/3.4; verschiedene Lagen, wechselnde Buchstaben; kein Einkreisen, Lehrer 07.10.)
   - (0|0) (4|0) (4|3); Seiten a b c; rechter Winkel 2
   - (0|0) (5|0) (1,8|2,4); Seiten y z x; rechter Winkel 3
   - (0|0) (0|3) (2,4|3); Seiten p q s; rechter Winkel 2
+  - (0|2,5) (3,6|0) (5,6|2,88); Seiten u v w; rechter Winkel 2
 
 ### Gleichung aufstellen
 - **Kurzname:** Welche Gleichung passt?
@@ -185,7 +178,7 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Nur gekürzt:** 2025-OS-K4a (die Teilaufgabe fragt auch den Winkel α)
 - **Gruppen:** Hypotenuse aus zwei Katheten: 2020-OS-K7a 2025-OS-K4a
 - **Fremd-Merkmal:** \+
-- **Leiter-Bank:** pythagoras-e1-k2-s1 → pythagoras-e1-k2-s3
+- **Leiter-Bank:** pythagoras-e1-k2-s1   (s3 nur mit Rundung: gleiche Sorte, Lehrer 07.10.)
 - **Schritte:**
   - Welche Seite liegt dem rechten Winkel gegenüber – ist sie gegeben oder
     gesucht? → naheliegend falsch: die längste gegebene Zahl [falsche Seite
@@ -212,7 +205,7 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
   Fehler; P10 2019-OS-K3a, 2024-OS-K6a]; „c ist immer die Hypotenuse“ [P10
   2024-OS-B1f]
 - **Geprüft:** 6× (EBR und FOR)
-- **Einstieg:** 2024-OS-B1f
+- **Einstieg:** –   (2024-OS-B1f gleiche Sorte wie der Einstieg der Hypotenuse, Bauregeln 2.1; kommt mit „mehr“)
 - **Erkennen-Frage:** „Ist die gesuchte Seite die Hypotenuse oder eine Kathete? Schreibe dann die Gleichung auf.“
 - **Erkennen-Fälle:** (Bauregeln 3.3: eine Entscheidung je Teil, beide Arten gemischt)
   - Eine 5 m lange Leiter lehnt an einer Wand. Ihr Fuß steht 1,4 m von der Wand entfernt. Wie hoch reicht die Leiter? → Kathete; 5² = h² + 1,4²
@@ -222,7 +215,7 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 - **Aufgaben:** 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Gruppen:** Kathete aus Hypotenuse und Kathete: 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Fremd-Merkmal:** −|-
-- **Leiter-Bank:** pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2   (s0 „Plus oder minus?“ ersetzt durch Erkennen-Fälle, A6)
+- **Leiter-Bank:** pythagoras-e2-k3-s1   (s2 nur mit Rundung: gleiche Sorte, Lehrer 07.10.; s0 „Plus oder minus?“ ersetzt durch Erkennen-Fälle, A6)
 - **Schritte:**
   - Kann die gesuchte Seite länger sein als die Seite gegenüber dem rechten
     Winkel (die Leiter, der Weg, die Seilbahn)? → naheliegend falsch: ja oder
