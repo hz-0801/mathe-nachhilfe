@@ -120,12 +120,14 @@ Art ohne Stern im EBR-Kurs stand, sonst „nur FOR“.
   Formelsammlung noch nicht gesichtet)
 - **Rückblick:** keiner (A1: Anfang ist die Verständnisfrage „Was ist das
   Ganze?“)
+- **Abruf-Frage:** „Notiere die Formel für den Grundwert G.“
+- **Abruf-Lösung:** G = W · 100 : p (Schreibweise vorläufig, Formelsammlung ungesichtet)
 - **Erkennen-Frage:** „Was ist hier das Ganze? Unterstreiche es. Rechne nicht.“
 - **Erkennen-Bank:** prozentrechnung-e2-k1-s0-v1 → prozentrechnung-e2-k1-s0-v3 → prozentrechnung-e2-k1-s0-v4
-- **Formel-Frage:** „Schreibe zu jedem Satz auf, was W und was p ist. Schreibe dann die Rechnung für G mit den Zahlen hin. Rechne nicht aus.“
+- **Formel-Frage:** „Nenne W und p.“
 - **Formel-Fälle:**
-  - 30 % der Klasse sind 9 Kinder. → W = 9 Kinder, p = 30; G = 9 · 100 : 30
-  - 18 € Rabatt sind 15 % des alten Preises. → W = 18 €, p = 15; G = 18 · 100 : 15
+  - 30 % der Klasse sind 9 Kinder. → W = 9 Kinder, p = 30
+  - 18 € Rabatt sind 15 % des alten Preises. → W = 18 €, p = 15
 
 ### Vom Teil zum Ganzen
 - **Kurzname:** Vom Teil zum Ganzen
