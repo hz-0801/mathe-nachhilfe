@@ -110,7 +110,10 @@ Lehrwerken („Berechnung der Hypotenuse … 39 · Berechnung einer Kathete …
 40“), den P10-Typen und Katalog Einheit 1/2. Grenze direkt/versteckt nach
 F8: Dreieck mit Marke und nötigen Längen eingezeichnet = direkt (auch als
 Teil einer Figur); selbst finden, Linie denken oder Länge erst ableiten =
-versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
+versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal. Gruppen
+leicht → schwer, in der Gruppe die Aufgaben leicht → schwer (Katalog:
+Niveau I vor II); versteckte Dreiecke nach der Vorarbeit (nur hinsehen /
+Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 
 - **Kurzname:** Satz des Pythagoras
 - **Vorher:** Quadrat und Wurzel
@@ -127,13 +130,13 @@ versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
   Satz des Pythagoras“; Formelsammlung noch nicht gesichtet)
 - **Rückblick:** keiner (A1: Quadrieren, Wurzel und Einheiten übt die
   Leiter selbst; „Quadratzahlen bis 20²“ ist keine belegte Stolperstelle)
-- **Erkennen-Frage:** „Kreise den rechten Winkel ein. Schreibe H an die Hypotenuse. Rechne nicht.“
+- **Erkennen-Frage:** „Kreise den rechten Winkel ein und schreibe H an die Hypotenuse. Hat ein Dreieck keinen rechten Winkel, schreibe „keiner“ darunter.“
 - **Erkennen-Fälle:** (Katalog-Sprosse „Wo ist der rechte Winkel?“ und
   Erkennungsschritt „Gilt der Satz hier?“; Ecken (x|y) in cm, Seite i
   liegt der Ecke i gegenüber, rechter Winkel bei Ecke 1–3 oder 0 = keiner)
   - (0|0) (4,5|0) (0|2,8); Seiten r s t; rechter Winkel 1
   - (0|0) (5|0) (3,2|2,4); Seiten e f g; rechter Winkel 3
-  - (0|0) (5|0) (1,2|2,6); Seiten k m n; rechter Winkel 0
+  - (0|0) (5,2|0) (−0,8|2,2); Seiten k m n; rechter Winkel 0
   - (0|2,5) (3,6|0) (5,6|2,88); Seiten u v w; rechter Winkel 2
 - **Formel-Frage:** „Schreibe die Gleichung erst mit H und K: H² = K² + K². Schreibe sie dann mit den Buchstaben des Dreiecks.“
 - **Formel-Fälle:**
@@ -153,8 +156,8 @@ versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
   immer die Hypotenuse“ [Katalog pythagoras.md, Typische Fehler; P10
   2021-OS-B1h, 2024-OS-B1f]
 - **Geprüft:** 5× (EBR und FOR)
-- **Aufgaben:** 2022-OS-B1g 2017-OS-B1d 2021-OS-B1h 2024-OS-B1f 2026-FOR-B1j
-- **Gruppen:** Gleichung ankreuzen: 2017-OS-B1d 2021-OS-B1h 2024-OS-B1f 2026-FOR-B1j | Satz in Worten: 2022-OS-B1g
+- **Aufgaben:** 2017-OS-B1d 2021-OS-B1h 2026-FOR-B1j 2024-OS-B1f 2022-OS-B1g
+- **Gruppen:** Gleichung ankreuzen: 2017-OS-B1d 2021-OS-B1h 2026-FOR-B1j 2024-OS-B1f | Satz in Worten: 2022-OS-B1g
 
 ### Hypotenuse gesucht
 - **Kurzname:** Die lange Seite gesucht
@@ -190,8 +193,8 @@ versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
   (Fehlerquelle aller Kathete-Originale) [Katalog pythagoras.md, Typische
   Fehler; P10 2019-OS-K3a, 2024-OS-K6a]
 - **Geprüft:** 5× (EBR und FOR)
-- **Aufgaben:** 2016-OS-K7b 2019-OS-K3a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a
-- **Gruppen:** Kathete aus Hypotenuse und Kathete: 2016-OS-K7b 2019-OS-K3a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a
+- **Aufgaben:** 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
+- **Gruppen:** Kathete aus Hypotenuse und Kathete: 2019-OS-K3a 2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a 2016-OS-K7b
 - **Fremd-Merkmal:** −|-
 - **Leiter-Bank:** pythagoras-e2-k3-s0 → pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2
 
@@ -210,7 +213,7 @@ versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
   Schräge als Höhe [Katalog pythagoras.md, Typische Fehler; P10
   2015-OS-K6c, 2025-OS-K2a, 2022-OS-K2c, 2026-FOR-K2c]
 - **Geprüft:** 6× (EBR und FOR)
-- **Aufgaben:** 2025-OS-K2a 2015-OS-K6c 2018-OS-K6d 2022-OS-K2c 2019-OS-K2d 2026-FOR-K2c
+- **Aufgaben:** 2026-FOR-K2c 2019-OS-K2d 2015-OS-K6c 2025-OS-K2a 2018-OS-K6d 2022-OS-K2c
 - **Nur gekürzt:** 2025-OS-K2a (Symmetrieachsen) · 2015-OS-K6c (Flächeninhalt der Seitenfläche) · 2019-OS-K2d (Winkel β)
-- **Gruppen:** Erst halbieren oder verdoppeln: 2025-OS-K2a 2015-OS-K6c 2018-OS-K6d 2022-OS-K2c | Erst ablesen oder weiterrechnen: 2019-OS-K2d 2026-FOR-K2c
+- **Gruppen:** Nur hinsehen: 2026-FOR-K2c | Längen aus Koordinaten: 2019-OS-K2d | Länge halbieren oder verdoppeln: 2015-OS-K6c 2025-OS-K2a 2018-OS-K6d 2022-OS-K2c
 - **Leiter-Bank:** pythagoras-e3-k2-s0 → pythagoras-e3-k2-s1

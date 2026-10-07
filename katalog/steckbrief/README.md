@@ -64,6 +64,8 @@ bleiben zugleich Text für Menschen.
     - **Aufgaben:** P10-ids            BB/BE-Aufgaben der Art (Hauptplatz oder Zwischenschritt)
     - **Nur gekürzt:** ids (Grund)     nie in voller Fassung (Teilaufgabe verlangt mehr)
     - **Gruppen:** Name: ids | Name: ids   G1; eine Gruppe mit einer Aufgabe läuft ohne Überschrift
+                                       (ids: P10-ids oder Kennungen fremder Aufgaben; fremde nur,
+                                       wenn handgriffe genau die Stufe der Art nennt, F1)
     - **Leiter-Bank:** Bank-ids mit →  kurze Leiter der Art
     - **Fremd-Merkmal:** …             regulärer Ausdruck auf die Lösung (fremde Aufgaben dieser Art)
 
@@ -72,3 +74,9 @@ Seiten a b c; rechter Winkel 1–3 oder 0“ (Seite i liegt Ecke i gegenüber)
 oder Sätze „Text → Lösung“. Mit Teil 5 baut `pruefheft.py --fokus` die
 Grundform G1; `werkzeuge/zuschnitt-aus-steckbrief.py` (mathe-nachhilfe)
 erzeugt daraus die Zeilen von `msa/skript-zuschnitt-p10.csv`.
+Gekürzte und bereinigte Fassungen der Originale (T1–T6: ohne das, was nur
+andere Teilaufgaben brauchen; Text nur Sache und Frage, wenn eine Skizze
+dabei ist) stehen in `msa/gekuerzt-p10.csv` (id; wortlaut_kurz;
+skizze_kurz; ergebnis_kurz; zwischen_kurz; wortlaut_voll; skizze_voll).
+Skizze: Dreieck im Fälle-Format, eine Beschreibung wie in den
+Wortlautdateien oder TikZ (beginnt mit „\“).
