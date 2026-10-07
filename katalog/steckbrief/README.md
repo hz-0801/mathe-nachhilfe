@@ -43,3 +43,32 @@ aufs Blatt.
 Teil 2 (Sachen, Lücke) und Teil 3 (Fragen) geben eigenen Aufgaben in
 Sprüngen der Leiter den Vorzug. Leiter, Darstellung, Begriff und Raster
 bleiben zugleich Text für Menschen.
+
+## Teil 5 Arten (seit 07.10.2026, Beschlüsse A3, A4, F3, G1)
+
+    ## 5 Arten
+    - **Kurzname:** …                  Name des Handgriffs (Blattname)
+    - **Vorher:** … / **Weiter:** …     Kurznamen der Nachbarn (Schlusszeile F3)
+    - **Nicht geprüft:** …             Arten aus Lehrwerken ohne BB/BE-Aufgabe
+    - **Nicht-geprüft-Merkmal:** …     regulärer Ausdruck: fremde Aufgaben dieser Art fallen weg
+    - **Formel:** …                    Merkkasten, nur die Formel (B7)
+    - **Rückblick:** keiner | Bank-ids
+    - **Erkennen-Frage / Erkennen-Bank / Erkennen-Fälle**   erster Schritt (A1)
+    - **Formel-Frage / Formel-Fälle**  „Formel aufstellen“ (A2)
+    ### <Art>                          je Art ein Block, Reihenfolge leicht → schwer
+    - **Kurzname:** …                  Gruppenüberschrift in Schülersprache
+    - **Stufe:** …                     Stufe der Zuordnung (Herkunft fremder Aufgaben)
+    - **Zuschnitt:** …                 Stufenname in msa/skript-zuschnitt-p10.csv
+    - **Beleg:** …  **P10-Typ:** …  **Typischer Fehler:** …
+    - **Geprüft:** 5× (EBR und FOR)    BB/BE ohne GYM; „nur FOR“, wenn alle mit Stern
+    - **Aufgaben:** P10-ids            BB/BE-Aufgaben der Art (Hauptplatz oder Zwischenschritt)
+    - **Nur gekürzt:** ids (Grund)     nie in voller Fassung (Teilaufgabe verlangt mehr)
+    - **Gruppen:** Name: ids | Name: ids   G1; eine Gruppe mit einer Aufgabe läuft ohne Überschrift
+    - **Leiter-Bank:** Bank-ids mit →  kurze Leiter der Art
+    - **Fremd-Merkmal:** …             regulärer Ausdruck auf die Lösung (fremde Aufgaben dieser Art)
+
+Fälle (Erkennen, Formel) als Unterpunkte: Dreiecke „(x|y) (x|y) (x|y);
+Seiten a b c; rechter Winkel 1–3 oder 0“ (Seite i liegt Ecke i gegenüber)
+oder Sätze „Text → Lösung“. Mit Teil 5 baut `pruefheft.py --fokus` die
+Grundform G1; `werkzeuge/zuschnitt-aus-steckbrief.py` (mathe-nachhilfe)
+erzeugt daraus die Zeilen von `msa/skript-zuschnitt-p10.csv`.

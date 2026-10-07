@@ -100,3 +100,117 @@ lang:
   Körperaufgaben anderer Länder, die schwerer sind als BB/BE (Pyramide mit
   Raute, Streckenzug im Prisma) – der Filter „nicht schwerer“ muss sie
   aussortieren.
+
+## 5 Arten
+
+Stand 07.10.2026 (Beschlüsse 06./07.10., aufgabenbank
+bau/pruefheft/beschluesse-2026-10-07.md A1–A4, F3, F7, F8, G1). Arten nach
+der gesuchten Größe (A3): Hypotenuse und Kathete getrennt wie in den
+Lehrwerken („Berechnung der Hypotenuse … 39 · Berechnung einer Kathete …
+40“), den P10-Typen und Katalog Einheit 1/2. Grenze direkt/versteckt nach
+F8: Dreieck mit Marke und nötigen Längen eingezeichnet = direkt (auch als
+Teil einer Figur); selbst finden, Linie denken oder Länge erst ableiten =
+versteckt. Gezählt sind BB/BE-Aufgaben ohne GYM, EBR-Zwillinge einmal.
+
+- **Kurzname:** Satz des Pythagoras
+- **Vorher:** Quadrat und Wurzel
+- **Weiter:** Seiten und Winkel mit sin, cos, tan · Körper: Mantellinie und Höhe
+- **Nicht geprüft:** Umkehrung, Höhensatz und Kathetensatz [Fundamente
+  2024 „8.3 Umkehrung des Satzes des Pythagoras 229“,
+  quellen/quelle-cornelsen-fundamente-bb-ausgabeb2024-inhalt.txt;
+  Schnittpunkt 2017 „4 Höhensatz 92 · 5 Kathetensatz 94“,
+  quellen/quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt; die
+  Umkehrung nur als ein möglicher Weg in 2025-OS-K2c (Typ „Rechten Winkel
+  begründen“)]
+- **Formel:** a² + b² = c² (vorläufig: Schreibweise aus dem Katalog,
+  Merkkasten Einheit 1 „Formelsammlung: Geometrie – rechtwinkliges Dreieck,
+  Satz des Pythagoras“; Formelsammlung noch nicht gesichtet)
+- **Rückblick:** keiner (A1: Quadrieren, Wurzel und Einheiten übt die
+  Leiter selbst; „Quadratzahlen bis 20²“ ist keine belegte Stolperstelle)
+- **Erkennen-Frage:** „Kreise den rechten Winkel ein. Schreibe H an die Hypotenuse. Rechne nicht.“
+- **Erkennen-Fälle:** (Katalog-Sprosse „Wo ist der rechte Winkel?“ und
+  Erkennungsschritt „Gilt der Satz hier?“; Ecken (x|y) in cm, Seite i
+  liegt der Ecke i gegenüber, rechter Winkel bei Ecke 1–3 oder 0 = keiner)
+  - (0|0) (4,5|0) (0|2,8); Seiten r s t; rechter Winkel 1
+  - (0|0) (5|0) (3,2|2,4); Seiten e f g; rechter Winkel 3
+  - (0|0) (5|0) (1,2|2,6); Seiten k m n; rechter Winkel 0
+  - (0|2,5) (3,6|0) (5,6|2,88); Seiten u v w; rechter Winkel 2
+- **Formel-Frage:** „Schreibe die Gleichung erst mit H und K: H² = K² + K². Schreibe sie dann mit den Buchstaben des Dreiecks.“
+- **Formel-Fälle:**
+  - (0|0) (4|0) (4|3); Seiten a b c; rechter Winkel 2
+  - (0|0) (5|0) (1,8|2,4); Seiten y z x; rechter Winkel 3
+  - (0|0) (0|3) (2,4|3); Seiten p q s; rechter Winkel 2
+
+### Gleichung aufstellen
+- **Kurzname:** Welche Gleichung passt?
+- **Stufe:** Gleichung aufstellen
+- **Zuschnitt:** Gleichung aufstellen
+- **Beleg:** „Bezeichnungen im rechtwinkligen Dreieck 37 · Der Satz des
+  Pythagoras 38“ (Mathematik 2023 Förder,
+  quellen/quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt)
+- **P10-Typ:** Pythagoras Gleichung zuordnen; Satz des Pythagoras formulieren
+- **Typischer Fehler:** Wurzel vergessen: z = y² + x² angekreuzt; „c ist
+  immer die Hypotenuse“ [Katalog pythagoras.md, Typische Fehler; P10
+  2021-OS-B1h, 2024-OS-B1f]
+- **Geprüft:** 5× (EBR und FOR)
+- **Aufgaben:** 2022-OS-B1g 2017-OS-B1d 2021-OS-B1h 2024-OS-B1f 2026-FOR-B1j
+- **Gruppen:** Gleichung ankreuzen: 2017-OS-B1d 2021-OS-B1h 2024-OS-B1f 2026-FOR-B1j | Satz in Worten: 2022-OS-B1g
+
+### Hypotenuse gesucht
+- **Kurzname:** Die lange Seite gesucht
+- **Stufe:** Kathete oder Hypotenuse direkt
+- **Zuschnitt:** Hypotenuse gesucht
+- **Beleg:** „Berechnung der Hypotenuse in einem rechtwinkligen Dreieck 39“
+  (Mathematik 2023 Förder,
+  quellen/quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt);
+  „Berechnen der Hypotenuse 29“ (Sekundo Förder 2017,
+  quellen/quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt)
+- **P10-Typ:** Pythagoras Hypotenuse
+- **Typischer Fehler:** falsche Seite als Hypotenuse: die längere Kathete
+  für die Hypotenuse gehalten, die Stufenhöhe der Rampe als Hypotenuse
+  [Katalog pythagoras.md, Typische Fehler; P10 2020-OS-K7a, 2025-OS-K4a]
+- **Geprüft:** 2× (EBR und FOR)
+- **Aufgaben:** 2020-OS-K7a 2025-OS-K4a
+- **Nur gekürzt:** 2025-OS-K4a (die Teilaufgabe fragt auch den Winkel α)
+- **Gruppen:** Hypotenuse aus zwei Katheten: 2020-OS-K7a 2025-OS-K4a
+- **Fremd-Merkmal:** \+
+- **Leiter-Bank:** pythagoras-e1-k2-s1 → pythagoras-e1-k2-s3
+
+### Kathete gesucht
+- **Kurzname:** Eine kurze Seite gesucht
+- **Stufe:** Kathete oder Hypotenuse direkt
+- **Zuschnitt:** Kathete gesucht
+- **Beleg:** „Berechnung einer Kathete in einem rechtwinkligen Dreieck 40“
+  (Mathematik 2023 Förder,
+  quellen/quelle-westermann-mathematik2023-foerder-bebbstth-inhalt.txt);
+  „Berechnen einer Kathete 30“ (Sekundo Förder 2017,
+  quellen/quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt)
+- **P10-Typ:** Pythagoras Kathete
+- **Typischer Fehler:** Quadrate addiert, obwohl eine Kathete gesucht ist
+  (Fehlerquelle aller Kathete-Originale) [Katalog pythagoras.md, Typische
+  Fehler; P10 2019-OS-K3a, 2024-OS-K6a]
+- **Geprüft:** 5× (EBR und FOR)
+- **Aufgaben:** 2016-OS-K7b 2019-OS-K3a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a
+- **Gruppen:** Kathete aus Hypotenuse und Kathete: 2016-OS-K7b 2019-OS-K3a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a
+- **Fremd-Merkmal:** −|-
+- **Leiter-Bank:** pythagoras-e2-k3-s0 → pythagoras-e2-k3-s1 → pythagoras-e2-k3-s2
+
+### Dreieck versteckt
+- **Kurzname:** Das Dreieck erst finden
+- **Stufe:** Dreieck erst in Figur oder Körper finden
+- **Zuschnitt:** Dreieck versteckt
+- **Beleg:** „3 Der Satz des Pythagoras in Figuren und Körpern 88“
+  (Schnittpunkt 2017,
+  quellen/quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt);
+  „3.2 Längen berechnen in Figuren und Körpern“ (Fundamente 2017,
+  quellen/quelle-cornelsen-fundamente-bb-ausgabeb2017-inhalt.txt)
+- **P10-Typ:** Mantellinie Kegel bestimmen; Streckenlänge aus Koordinaten
+  berechnen; Pythagoras Hypotenuse/Kathete als Teil einer Figur
+- **Typischer Fehler:** ganze statt halbe Seite, Durchmesser statt Radius,
+  Schräge als Höhe [Katalog pythagoras.md, Typische Fehler; P10
+  2015-OS-K6c, 2025-OS-K2a, 2022-OS-K2c, 2026-FOR-K2c]
+- **Geprüft:** 6× (EBR und FOR)
+- **Aufgaben:** 2025-OS-K2a 2015-OS-K6c 2018-OS-K6d 2022-OS-K2c 2019-OS-K2d 2026-FOR-K2c
+- **Nur gekürzt:** 2025-OS-K2a (Symmetrieachsen) · 2015-OS-K6c (Flächeninhalt der Seitenfläche) · 2019-OS-K2d (Winkel β)
+- **Gruppen:** Erst halbieren oder verdoppeln: 2025-OS-K2a 2015-OS-K6c 2018-OS-K6d 2022-OS-K2c | Erst ablesen oder weiterrechnen: 2019-OS-K2d 2026-FOR-K2c
+- **Leiter-Bank:** pythagoras-e3-k2-s0 → pythagoras-e3-k2-s1

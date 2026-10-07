@@ -96,3 +96,51 @@ lang:
 - Der Inhalt von Teil 1 stand seit September im Katalog; das Bauprogramm
   liest ihn nicht (es liest Zuordnung und Bank). Der Steckbrief ist die
   Brücke.
+
+## 5 Arten
+
+Stand 07.10.2026 (Beschlüsse 06./07.10., aufgabenbank
+bau/pruefheft/beschluesse-2026-10-07.md A3, A4, F3, G1). Wissen einmal
+ermittelt, beim Bau nur nachgeschlagen. Gezählt sind BB/BE-Aufgaben ohne
+GYM, EBR-Zwillinge einmal; „EBR und FOR“, wenn mindestens eine Aufgabe der
+Art ohne Stern im EBR-Kurs stand, sonst „nur FOR“.
+
+- **Kurzname:** Grundwert
+- **Vorher:** Prozent von einem Betrag
+- **Weiter:** Erhöhung und Senkung in Prozent
+- **Nicht geprüft:** vermehrter und verminderter Grundwert [Sekundo
+  Förder 2017 „Vermehrter Grundwert 48 · Verminderter Grundwert 49“,
+  quellen/quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt;
+  Schnittpunkt 2017 „2 Vermehrter und verminderter Grundwert 129“,
+  quellen/quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt;
+  keine BB/BE-Aufgabe 2014–2026]
+- **Nicht-geprüft-Merkmal:** gesenkt|reduziert|erhöht|billiger und kostet|kostet (jetzt|nach)|mit [0-9,]+ ?% (Rabatt|Mehrwertsteuer)|mehr Inhalt|% weniger|Preisschild|Sonderangebot
+- **Formel:** G = W · 100 : p (vorläufig: Schreibweise aus dem Katalog,
+  Merkkasten Einheit 4 „Formelsammlung: Prozentrechnung, G = W · 100 : p“;
+  Formelsammlung noch nicht gesichtet)
+- **Rückblick:** keiner (A1: Anfang ist die Verständnisfrage „Was ist das
+  Ganze?“)
+- **Erkennen-Frage:** „Was ist hier das Ganze? Unterstreiche es. Rechne nicht.“
+- **Erkennen-Bank:** prozentrechnung-e2-k1-s0-v1 → prozentrechnung-e2-k1-s0-v3 → prozentrechnung-e2-k1-s0-v4
+- **Formel-Frage:** „Schreibe zu jedem Satz auf, was W und was p ist. Schreibe dann die Rechnung für G mit den Zahlen hin. Rechne nicht aus.“
+- **Formel-Fälle:**
+  - 30 % der Klasse sind 9 Kinder. → W = 9 Kinder, p = 30; G = 9 · 100 : 30
+  - 18 € Rabatt sind 15 % des alten Preises. → W = 18 €, p = 15; G = 18 · 100 : 15
+
+### Vom Teil zum Ganzen
+- **Kurzname:** Vom Teil zum Ganzen
+- **Stufe:** Grundwert
+- **Zuschnitt:** Grundwert
+- **Beleg:** „Grundwert berechnen 45“ (Sekundo Förder 2017,
+  quellen/quelle-westermann-sekundo-foerder-be_bb2017-inhalt.txt);
+  „5 Grundwert 189“ (Schnittpunkt 2017,
+  quellen/quelle-klett-schnittpunkt-mathematik-diff2017-inhalt.txt)
+- **P10-Typ:** Grundwert berechnen
+- **Typischer Fehler:** p % vom Teil gerechnet: 25 % von 200 € statt
+  200 € · 4 [Katalog prozentrechnung.md, Typische Fehler; P10 2023-OS-B1b,
+  2025-OS-B1a]
+- **Geprüft:** 3× (EBR und FOR)
+- **Aufgaben:** 2023-OS-B1b 2025-OS-B1a 2019-OS-B1g
+- **Nur gekürzt:** 2019-OS-B1g (Grundwert ist dort ein Zwischenschritt)
+- **Gruppen:** Teil und Prozentsatz gegeben: 2023-OS-B1b 2025-OS-B1a | Anteil als Bruch: 2019-OS-B1g
+- **Leiter-Bank:** prozentrechnung-e4-k2-s0-v1 → prozentrechnung-e4-k2-s1 → prozentrechnung-e4-k2-s3 → prozentrechnung-e4-k2-s5
