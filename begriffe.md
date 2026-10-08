@@ -5,20 +5,25 @@ Objekte (Katalog, Bank, Prüfungsgliederung) und des Blatts, in einfachen
 Worten, an einem Beispiel. Noch nicht vereinheitlicht – § 3 sagt, was doppelt
 ist und was offen bleibt.
 
-## 1 Die Wörter
+## 1 Die Wörter, je mit Beispiel Pythagoras
 
-| Wort | wo | in einfachen Worten |
+| Begriff | was es ist | Beispiel Pythagoras |
 |---|---|---|
-| Thema (Eintrag) | Katalog | eine Datei, z. B. `katalog/pythagoras.md` |
-| Lerneinheit | Katalog | ein Abschnitt des Themas wie ein Unterkapitel im Lehrwerk; seit 08.10. = ein Blatt |
-| Typ | Katalog, Prüfungslisten | Etikett einer echten Prüfungsaufgabe: gleiche Fertigkeit = gleicher Typ |
-| Kette | Bank | eine lange Leiter für einen Rechenweg in einer Lerneinheit, von ganz leicht bis Prüfung |
-| Sprosse | Bank | eine Stufe dieser Leiter; das Feld „merkmal“ sagt, was hier neu ist |
-| Variante | Bank | dieselbe Sprosse mit anderen Zahlen – Stoff für ein Päckchen |
-| Kapitel | Prüfungsgliederung | ein Teil der Prüfung, z. B. Dreiecke (P10) |
-| Stufe = Handgriff | Prüfungsgliederung | was die Prüfung verlangt; nimmt sich ein Stück aus einer oder mehreren Ketten |
-| Blattsorte | Bauregeln | Lernblatt, Prüfungsblatt, Fokus, Prüfungsheft, „mehr“, Original |
-| Art, Sorte, Gruppe | alte Bauregeln (bis 07.10.) | Art ≈ Rechenweg, Sorte ≈ Sprosse, Gruppe ≈ Aufgaben gleicher Sorte |
+| Thema | eine Datei im Katalog | `katalog/pythagoras.md` |
+| Lerneinheit | ein Abschnitt des Themas, wie ein Unterkapitel im Buch | „Satz und Hypotenuse“ |
+| Blatt | wird aus einer Lerneinheit gebaut | „Die lange Seite“ |
+| Kette | ein Rechenweg in der Bank, von leicht bis Prüfung | „Hypotenuse“ (16 Sprossen) |
+| Sprosse | eine Stufe auf der Kette | Sprosse 11: Leiter mit Überstand |
+| Variante | dieselbe Sprosse, andere Zahlen | Katheten 36 und 15 cm · 36 und 48 cm |
+| Päckchen | mehrere Varianten in einer Aufgabe a), b), c) | a) 36 und 15 cm, b) 36 und 48 cm, c) 2,5 und 6 m |
+| Sorte | eine Sprosse, an der man anders denken muss | Überstand ja; nur Kommazahlen nein |
+| Kapitel | ein Teil der Prüfung | P10 Dreiecke |
+| Handgriff (= Stufe) | was die Prüfung verlangt | „Hypotenuse direkt berechnen“ |
+| Typ | Etikett einer echten Prüfungsaufgabe | P10 2020 OS K7a: Hypotenuse aus zwei Katheten |
+| Original | eine echte Prüfungsaufgabe | P10 2020 OS K7a, Grundstück ABC |
+| Blattsorte | wofür ein Blatt da ist | „Die lange Seite“ als Lernblatt oder als Prüfungsblatt |
+| Rand | ein Blatt, das selten gebraucht wird | „Warum der Satz stimmt · Beweis“ |
+| Art, Gruppe | alte Wörter (bis 07.10.): Art ≈ Kette, Gruppe ≈ Päckchen | – |
 
 ## 2 Beispiel Pythagoras
 
