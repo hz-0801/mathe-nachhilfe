@@ -75,6 +75,10 @@ zusammen rund 1,1 Mio Token, Anzeige nicht abgelesen.
 - A oder B: Bank als Bauplan (A, bisher) oder Lernweg von oben, Bank als
   Steinbruch für Originale, Häufigkeit, geprüfte Zahlen, typische Fehler (B).
   Der Prüfstein in § 6 entscheidet.
+  Beleg für B (08.10. abends): Selbstlernheft „Geraden und Dreiecke im
+  Koordinatensystem“ (Kl. 11, aufgabenbank bau/hefte-einzel/2026-10-08-
+  geraden-ebene/) – ohne Bank, Lernweg zuerst geplant, Kritiker-Agent,
+  Nachbesserung; Lehrer beim ersten Überfliegen: „gelungen“. ~0,6 Mio Token.
 - Durchgänge 2 und 3: später, erst muss ein Blatt stimmen.
 - Merkmal „neue Sorte ja/nein“ je Sprosse in der Bank; Reihenfolge der Ketten.
 - Nachbestellung („mehr“, „hängt bei Nr.“), Folgebaum: mit dem Programm.
