@@ -97,7 +97,10 @@ M5 Abitur Grundkurs
 
 ## 5 Jetzt
 
-Meilenstein M1, Schritt: Fortschrittstafel bauen.
+Meilenstein M1. Erledigt: Plan, Fortschrittstafel (`tafel.md`, neu bauen
+mit `python3 werkzeuge/tafel.py`). Nächster Schritt: Prüfung W3 (sind beim
+Zusammenfassen der Bauregeln bewährte Regeln verloren gegangen?), danach
+der Probelauf im Projekt erzeugeBlatt(Bank).
 
 ## 6 Später (nicht jetzt)
 
