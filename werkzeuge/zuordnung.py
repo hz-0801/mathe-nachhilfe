@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
 Eingaben:
@@ -275,11 +275,11 @@ KAPITEL['gleichungssysteme']=dict(eintraege=[LG],stufen=[
 # Wendepunkte, Monotonie, Grenzverhalten, Symmetrie); die übrigen Abschnitte nutzen sie.
 KU='kurvenuntersuchung';FK='funktionsklassen-und-eigenschaften';GV='grenzwerte-und-verhalten-im-unendlichen'
 RF='rekonstruktion-von-funktionsgleichungen';EX='extremalprobleme';GLL='gleichungen-loesen'
-def _zuschnitt_ids(abschnitt,datei='skript-zuschnitt-abi-gk.csv'):
+def _zuschnitt_ids(abschnitt,datei='skript-zuschnitt-abi-gk.csv',kapitel='Kurvenuntersuchung'):
   ids=[]
   for z in open(os.path.join(MN,'abitur',datei),encoding='utf-8').read().splitlines()[1:]:
     t=z.split(';')
-    if len(t)>4 and t[1]=='Kurvenuntersuchung' and t[2]==abschnitt:
+    if len(t)>4 and t[1]==kapitel and t[2]==abschnitt:
       ids+=[i for i in t[4].split() if i not in ids]
   return ids
 _KU_STUFEN=[
@@ -302,6 +302,25 @@ KAPITEL['kurvenuntersuchung']=dict(pruefung='abitur',eintraege=[KU,FK,GV,RF,EX,G
  stufen=[(n,_zuschnitt_ids(n),m) for n,m in _KU_STUFEN],
  kern={n:(('ja','klassische Kurvenuntersuchung, Grundlage der übrigen Abschnitte') if n in _KU_KERN else
           ('nein','nutzt die Kurvenuntersuchung im Sachzusammenhang oder als Nebenhandgriff')) for n,_ in _KU_STUFEN})
+# ---- Abitur GK, Kapitel „Ableitung + Tangente“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze). Sprossen wie oben:
+# Grundfall und Sprossen ohne Gerüst, keine Vorstufe, keine Pflicht-Kette, keine Prüfungshöhe.
+# Kern (Urteil 08.10.): Tangente aufstellen, Winkel aus der Steigung, Änderungsrate berechnen und
+# deuten – die drei Grundhandgriffe, die in jedem Jahrgang 2022–2026 stehen; Dreieck und Normale
+# setzen Tangente und Steigung voraus und kommen im GK nur als Figur oder als Deutung vor.
+TN='tangente-normale-schnittwinkel';AA='ableitung-und-aenderungsrate';AG='ableitungsgraph-und-funktionsgraph'
+_AT_STUFEN=[
+ ('Tangentengleichung aufstellen',_a(TN,'e1-k1-s1','e1-k1-s2','e1-k1-s4','e1-k1-s5','e1-k1-s6','e1-k1-s7','e1-k1-s8','e1-k1-s9','e2-k1-s1','e2-k1-s2','e2-k1-s4')),
+ ('Steigungswinkel und Schnittwinkel berechnen',_a(TN,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s6','e4-k1-s7','e4-k1-s8','e4-k1-s9')),
+ ('Dreieck aus Tangente, Normale und Achsen berechnen',_a(TN,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6')),
+ ('Änderungsrate berechnen und deuten',_a(AA,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e1-k1-s5','e1-k1-s6','e1-k1-s8','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s7','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6','e4-k1-s7')),
+ ('Normale: senkrechte Gerade über die Steigung',_a(TN,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6')+_a(AG,'e1-k15-s1')),
+]
+_AT_KERN=['Tangentengleichung aufstellen','Steigungswinkel und Schnittwinkel berechnen','Änderungsrate berechnen und deuten']
+KAPITEL['ableitung-tangente']=dict(pruefung='abitur',eintraege=[TN,AA,AG],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Ableitung + Tangente'),m) for n,m in _AT_STUFEN],
+ kern={n:(('ja','Grundhandgriff der Ableitung, in jedem Jahrgang 2022–2026') if n in _AT_KERN else
+          ('nein','setzt Tangente und Steigung voraus; im GK nur als Figur oder Deutung')) for n,_ in _AT_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
