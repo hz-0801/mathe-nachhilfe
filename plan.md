@@ -84,8 +84,8 @@ Abo laufen.
   „neue Zahlen“).
 - Bank, je Zeile neue Felder (in M1 nur in bank.md definiert; gefüllt wird
   je gebauter Einheit, nicht global): **schritt** (Lernweg-Schritt, neben sprosse),
-  **sache**, **darstellung** (Skizze mit Dreieck / Bild ohne / Karte / nur
-  Text / Tabelle / Graph), **frage** (Länge, Unterschied, Entscheidung,
+  **sache**, **darstellung** (skizze-fertig / bild / karte / text / tabelle /
+  graph / term; Werte in bank.md), **frage** (Länge, Unterschied, Entscheidung,
   Begründung …), **antwortform** (rechnen, ankreuzen, zuordnen, begründen),
   **status** (gut / schwach mit Grund und besserer id / ruht). Gelöscht wird
   nichts; schwach und ruht werden nicht gesetzt.
@@ -160,7 +160,9 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M1.
+Jetzt: M2 (M1 erledigt 09.10.: Plan, Einstieg, Bauauftrag, Felder;
+Abnahme mit einem Haiku-Agenten ab CLAUDE.md bestanden, Stockstellen
+behoben).
 
 ## 8 Modelle und Kosten
 
