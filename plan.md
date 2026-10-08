@@ -175,7 +175,8 @@ Entschieden (Lehrer 08.10., an Probe Portion 1 Kurvenuntersuchung):
   Übersichtsblatt, keine Reihenfolge: Prüfungsblatt nach Häufigkeit in der
   Prüfung, Lernblatt nach Verlagsmarken („Vertiefen“). Aufgaben zählen nur als
   Gegenprobe, wo Seiten vorliegen.
-- Teilnummer bleibt fest; die Kennung gehört zum gedruckten Blatt.
+- Keine Teilnummern: am Ende jedes Blatts Vorgänger und empfohlener
+  Nachfolger (Rand darf übersprungen werden); die Kennung gehört zum Blatt.
 Vorschläge aus der Probe (am nächsten Blatt prüfen): Erkennfrage an der
 Aufgabe selbst („Was ist hier zu tun?“), nicht als Fragen nach Nummern; in der
 Mitte eines Abschnitts nur der Teil eines Originals, der den Handgriff übt
@@ -198,10 +199,13 @@ seine Protokolle (eingang/) sind Befunde, gesammelt ausgewertet.
 ## 6 Später (nicht jetzt)
 
 Folgebaum der Kennung · Serie mit Wiederkehr · Musterbeispiel ·
-Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
+Serie als drei Durchgänge leicht/mittel/schwer durch das ganze Thema (Lehrer 08.10.) · Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
 Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
+
+- 08.10.2026 (e): keine Teilnummern, Vorgänger und empfohlener Nachfolger
+  (Lehrer 08.10.).
 
 - 08.10.2026 (d): Reihenfolge nur aus dem Katalog, Teile = Unterkapitel der
   Inhaltsverzeichnisse, Kern/Rand getrennt, Rand-Teil immer (Lehrer 08.10.).
