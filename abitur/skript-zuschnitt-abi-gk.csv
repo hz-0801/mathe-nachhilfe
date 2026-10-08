@@ -1,4 +1,10 @@
 gebiet;kapitel;abschnitt;stufe;ids;neben
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Funktionswert oder Nullstelle durch Einsetzen;2026-bb-gk-B2.2g 2025-bebb-gk-A1.4a;
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstellen durch Ausklammern;2022-bebb-gk-A1.1a;
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstelle und y-Achsenschnittpunkt bei e-Funktion;2024-bebb-gk-B2.1a 2026-bb-gk-B2.2a;
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Achsenschnittpunkte, dann weiter (Hochpunkt, Raute);2022-bebb-gk-B2.1a 2023-bebb-gk-B2.1b;
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Anzahl der Nullstellen aus der faktorisierten Form;2023-bebb-gk-B2.2a;
+Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstellen über Symmetrie und Substitution;2024-bebb-gk-B2.2b;
 Analysis;Kurvenuntersuchung;Extrempunkte berechnen;f'(x0) = 0 an vorgegebener Stelle nachweisen;2022-bebb-gk-B2.1j 2023-bebb-gk-B2.1c;
 Analysis;Kurvenuntersuchung;Extrempunkte berechnen;Extremstellen aus f'(x) = 0;2023-bebb-gk-A1.3a;
 Analysis;Kurvenuntersuchung;Extrempunkte berechnen;Hochpunkt aus gegebener Ableitung begründen;;2022-bebb-gk-B2.1a
@@ -9,12 +15,6 @@ Analysis;Kurvenuntersuchung;Wendepunkte berechnen;Wendepunkt am Graphen ablesen 
 Analysis;Kurvenuntersuchung;Wendepunkte berechnen;Wendepunkt über f''(x) = 0 (ganzrational);2023-bebb-gk-B2.2c 2026-bb-gk-B2.1c;
 Analysis;Kurvenuntersuchung;Wendepunkte berechnen;Wendepunkt im Sachzusammenhang deuten;2022-bebb-gk-B2.1l;
 Analysis;Kurvenuntersuchung;Wendepunkte berechnen;f'' mit Produktregel, Wendepunkt bei e-Funktion;2024-bebb-gk-B2.1c 2023-bebb-gk-B2.1f;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Funktionswert oder Nullstelle durch Einsetzen;2026-bb-gk-B2.2g 2025-bebb-gk-A1.4a;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstellen durch Ausklammern;2022-bebb-gk-A1.1a;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstelle und y-Achsenschnittpunkt bei e-Funktion;2024-bebb-gk-B2.1a 2026-bb-gk-B2.2a;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Achsenschnittpunkte, dann weiter (Hochpunkt, Raute);2022-bebb-gk-B2.1a 2023-bebb-gk-B2.1b;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Anzahl der Nullstellen aus der faktorisierten Form;2023-bebb-gk-B2.2a;
-Analysis;Kurvenuntersuchung;Nullstellen und Achsenschnittpunkte berechnen;Nullstellen über Symmetrie und Substitution;2024-bebb-gk-B2.2b;
 Analysis;Kurvenuntersuchung;Monotonie und Krümmung aus der Ableitung begründen;Monotonie aus bekanntem Extrempunkt;2023-bebb-gk-B2.1e;
 Analysis;Kurvenuntersuchung;Monotonie und Krümmung aus der Ableitung begründen;Vorzeichen von f' am Term;2024-bebb-gk-A1.7a;
 Analysis;Kurvenuntersuchung;Monotonie und Krümmung aus der Ableitung begründen;Vorzeichen von f' am Graphen von f';2026-bb-gk-A1.7a 2022-bebb-gk-B2.1c 2023-bebb-gk-B2.2f;

@@ -7,6 +7,14 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `abitur/skript-zuschnitt-abi-
 
 ### Kapitel Kurvenuntersuchung
 
+#### Nullstellen und Achsenschnittpunkte berechnen – 9 · 5 J · zuletzt 2026 · 27 BE
+- neu: Funktionswert oder Nullstelle durch Einsetzen – 2026-bb-gk-B2.2g (Nullstellen und Werte: Funktionswert im Sachzusammenhang berechnen), 2025-bebb-gk-A1.4a (Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen)
+- neu: Nullstellen durch Ausklammern – 2022-bebb-gk-A1.1a (Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen)
+- neu: Nullstelle und y-Achsenschnittpunkt bei e-Funktion – 2024-bebb-gk-B2.1a (Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben), 2026-bb-gk-B2.2a (Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen)
+- neu: Achsenschnittpunkte, dann weiter (Hochpunkt, Raute) – 2022-bebb-gk-B2.1a (Achsenschnittpunkte angeben und Hochpunkt aus der gegebenen Ableitung begründen), 2023-bebb-gk-B2.1b (Nullstellen und Werte: Schnittpunkte des Graphen mit beiden Koordinatenachsen berechnen)
+- neu: Anzahl der Nullstellen aus der faktorisierten Form – 2023-bebb-gk-B2.2a (Nullstellen und Werte: y-Achsenschnittpunkt angeben und Anzahl der Nullstellen aus der faktorisierten Form ermitteln)
+- neu: Nullstellen über Symmetrie und Substitution – 2024-bebb-gk-B2.2b (Nullstellen und Werte: Nullstelle über die Symmetrie begründen und übrige Nullstellen einer biquadratischen Funktion bestimmen)
+
 #### Extrempunkte berechnen – 9 · 4 J · zuletzt 2025 · 39 BE · dazu 1 aus anderen Abschnitten
 - neu: f'(x0) = 0 an vorgegebener Stelle nachweisen – 2022-bebb-gk-B2.1j (Maximum eines Bestands an vorgegebener Stelle im Sachzusammenhang nachweisen), 2023-bebb-gk-B2.1c (Waagerechte Tangente an einer vorgegebenen Stelle nachweisen und Funktionswert berechnen)
 - neu: Extremstellen aus f'(x) = 0 – 2023-bebb-gk-A1.3a (Extremstellen aus den Nullstellen der Ableitung berechnen)
@@ -20,14 +28,6 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `abitur/skript-zuschnitt-abi-
 - neu: Wendepunkt über f''(x) = 0 (ganzrational) – 2023-bebb-gk-B2.2c (Wendepunkte über die zweite Ableitung berechnen), 2026-bb-gk-B2.1c (Wendepunkte über die zweite Ableitung berechnen)
 - neu: Wendepunkt im Sachzusammenhang deuten – 2022-bebb-gk-B2.1l (Wendepunkt als Zeitpunkt stärkster Zu- oder Abnahme im Sachzusammenhang deuten)
 - neu: f'' mit Produktregel, Wendepunkt bei e-Funktion – 2024-bebb-gk-B2.1c (Zweite Ableitung nachweisen und Wendepunkt an vorgegebener Stelle zeigen), 2023-bebb-gk-B2.1f (Wendepunkte über die zweite Ableitung berechnen)
-
-#### Nullstellen und Achsenschnittpunkte berechnen – 9 · 5 J · zuletzt 2026 · 27 BE
-- neu: Funktionswert oder Nullstelle durch Einsetzen – 2026-bb-gk-B2.2g (Nullstellen und Werte: Funktionswert im Sachzusammenhang berechnen), 2025-bebb-gk-A1.4a (Nullstellen und Werte: Punkt, Nullstelle oder Schnittstelle durch Einsetzen nachweisen)
-- neu: Nullstellen durch Ausklammern – 2022-bebb-gk-A1.1a (Nullstellen und Werte: Nullstellen einer ganzrationalen Funktion durch Ausklammern und Faktorisieren berechnen)
-- neu: Nullstelle und y-Achsenschnittpunkt bei e-Funktion – 2024-bebb-gk-B2.1a (Nullstellen und Werte: Nullstelle und y-Achsenschnittpunkt eines Produkts mit e-Funktion angeben), 2026-bb-gk-B2.2a (Nullstellen und Werte: Nullstellenfreiheit und Wertemenge einer e-Funktion aus dem Term begründen)
-- neu: Achsenschnittpunkte, dann weiter (Hochpunkt, Raute) – 2022-bebb-gk-B2.1a (Achsenschnittpunkte angeben und Hochpunkt aus der gegebenen Ableitung begründen), 2023-bebb-gk-B2.1b (Nullstellen und Werte: Schnittpunkte des Graphen mit beiden Koordinatenachsen berechnen)
-- neu: Anzahl der Nullstellen aus der faktorisierten Form – 2023-bebb-gk-B2.2a (Nullstellen und Werte: y-Achsenschnittpunkt angeben und Anzahl der Nullstellen aus der faktorisierten Form ermitteln)
-- neu: Nullstellen über Symmetrie und Substitution – 2024-bebb-gk-B2.2b (Nullstellen und Werte: Nullstelle über die Symmetrie begründen und übrige Nullstellen einer biquadratischen Funktion bestimmen)
 
 #### Monotonie und Krümmung aus der Ableitung begründen – 7 · 4 J · zuletzt 2026 · 17 BE
 - neu: Monotonie aus bekanntem Extrempunkt – 2023-bebb-gk-B2.1e (Monotonieverhalten aus einem bekannten Extrempunkt angeben)

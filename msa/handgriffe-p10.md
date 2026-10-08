@@ -57,10 +57,13 @@ Fokusblatt, graue Zeile „steckt auch in …“ und Zählung B im Stufenkopf.
 
 ## Pflege
 
-Die Datei ist Urteilsarbeit und wird von Hand gepflegt (Werkzeug dieses
-Laufs nur im Scratchpad, weil der Schreibbereich kein eigenes Skript
-vorsah). `werkzeuge/zuordnung.py` liest sie und baut daraus
-`jahre_letzte5` und `nebenplaetze` der Zuordnungsdateien.
+Seit 08.10.2026 (Entscheidung A) ist die Datei eine erzeugte Sicht: das
+Urteil steht in den Tabellen „Plätze der Originale“ der Prüfungsgliederung
+(`msa/gliederung/<kapitel>.md`, Kapitel des Hauptplatzes),
+`werkzeuge/gliederung-sichten.py` schreibt die CSV daraus; nicht von Hand
+ändern. `werkzeuge/zuordnung.py` liest die Plätze aus der Gliederung und
+baut daraus `jahre_letzte5` und `nebenplaetze` der Zuordnungsdateien.
+(Bis 08.10. von Hand gepflegt, Werkzeug des Laufs K nur im Scratchpad.)
 
 ## Zusatzspalten der Zuordnungsdateien (Auftrag K Schritt 2)
 
