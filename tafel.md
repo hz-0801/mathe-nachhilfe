@@ -1,6 +1,6 @@
 # Fortschrittstafel
 
-Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank 847ef99 2026-10-08). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
+Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank 58caecc 2026-10-08). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
 Plan: `plan.md`. Regelstand der Bauregeln: 2026-10-07.
 
 ## Auf einen Blick (P10, Meilenstein M2)
@@ -145,7 +145,7 @@ Status = Spalte im Katalog-Index; Prüfung = bank-pruef.py Abweichungen / Warnun
 |---|---|--:|--:|---|---|
 | ableitung-tangente | 5 (3) | 29 | 106 | – | – |
 | baum-bedingte-wahrscheinlichkeit | 8 (5) | 36 | 154 | – | – |
-| binomialverteilung | 5 (3) | 16 | 61 | Verteilung im Säulendiagramm lesen (2) | – |
+| binomialverteilung | 5 (3) | 16 | 63 | – | – |
 | erwartungswert | 2 (2) | 9 | 48 | – | – |
 | geraden-ebenen | 4 (3) | 16 | 106 | – | – |
 | integral | 6 (4) | 28 | 100 | – | – |
