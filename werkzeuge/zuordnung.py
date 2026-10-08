@@ -7,7 +7,8 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper (Abitur GK,
+             Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
 Eingaben:
@@ -341,6 +342,27 @@ KAPITEL['integral']=dict(pruefung='abitur',eintraege=[SH,IR,FI],
  stufen=[(n,_zuschnitt_ids(n,kapitel='Integral'),m) for n,m in _IN_STUFEN],
  kern={n:(('ja','Hauptsatz vorwärts und sein Bild am Graphen, Grundlage der übrigen Abschnitte') if n in _IN_KERN else
           ('nein','liest den Hauptsatz rückwärts oder dreht die Flächenrechnung um')) for n,_ in _IN_STUFEN})
+# ---- Abitur GK, Kapitel „Punkte, Flächen, Körper“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze; Nebenplätze
+# 2024-bebb-gk-B3a, 2022-bebb-gk-B3f zählen nicht). Sprossen wie oben: Grundfall und Sprossen,
+# keine Vorstufe, keine Pflicht-Kette, keine Prüfungshöhe. Kern (Urteil 08.10.): Seitenlängen
+# und Figur, Punkte berechnen, Fläche und Volumen – Betrag, Punktrechnung und Formel sind die
+# drei Grundhandgriffe, je in vier Jahrgängen; das Trapez ist ein Sonderfall des Figurnachweises
+# (2024, 2026), das Netz steht einmal (2024).
+PS='punkte-und-strecken-im-koordinatensystem';VR='vektoren-und-rechenoperationen';SP='spiegelung'
+FV='flaecheninhalt-und-volumen-im-raum'
+_PFK_STUFEN=[
+ ('Seitenlängen berechnen und Figur nachweisen',_a(PS,'e2-k1-s1','e2-k1-s5','e3-k1-s1','e3-k1-s2','e3-k1-s3','e4-k1-s1','e4-k1-s3')+_a(VR,'e1-k2-s2')+_a(FV,'e1-k2-s5')),
+ ('Parallele Seiten über kollineare Vektoren nachweisen (Trapez)',_a(PS,'e4-k1-s5','e4-k1-s6')+_a(VR,'e1-k2-s4')+_a(FV,'e2-k1-s3')),
+ ('Punkte berechnen: Mittelpunkt, Spiegelpunkt, Eckpunkt',_a(PS,'e2-k1-s4','e2-k1-s7','e4-k1-s9','e5-k1-s1','e5-k1-s7')+_a(SP,'e1-k3-s1','e1-k3-s2','e1-k3-s3','e1-k3-s4')+_a(VR,'e2-k1-s5','e2-k1-s6')),
+ ('Flächeninhalt und Volumen berechnen',_a(FV,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s6','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1','e3-k1-s3','e3-k1-s4','e3-k1-s5','e4-k1-s1','e4-k1-s2','e4-k1-s4')),
+ ('Netz eines Körpers vervollständigen',_a(PS,'e1-k1-s7')),
+]
+_PFK_KERN=['Seitenlängen berechnen und Figur nachweisen','Punkte berechnen: Mittelpunkt, Spiegelpunkt, Eckpunkt','Flächeninhalt und Volumen berechnen']
+KAPITEL['punkte-flaechen-koerper']=dict(pruefung='abitur',eintraege=[PS,VR,SP,FV],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Punkte, Flächen, Körper'),m) for n,m in _PFK_STUFEN],
+ kern={n:(('ja','Grundhandgriff der Koordinatengeometrie (Betrag, Punktrechnung, Formel), in vier Jahrgängen 2022–2026') if n in _PFK_KERN else
+          ('nein','Sonderfall des Figurnachweises oder einmalige Form (Netz)')) for n,_ in _PFK_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
