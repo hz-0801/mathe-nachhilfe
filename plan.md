@@ -48,6 +48,14 @@ Grundkurs. Die Aufgaben kommen aus einer vollständigen, geprüften Bank.
    Ablesen nachher; sparsam, aber Doppelarbeit wird in Kauf genommen,
    wenn sie Wartezeit spart (Lehrer 08.10.).
 
+8. Jede Blattsorte ist ein Filter auf einen vollständigen Bestand (Lehrer
+   08.10.): Fokus, Prüfungsblatt, Lernblatt, „mehr“, Original wählen nur aus
+   Bank, Katalog und Prüfungsgliederung aus; dazu ein Schalter Reihenfolge
+   (Prüfung beim Original, sonst Inhaltsverzeichnisse). Keine Regel gilt für
+   ein einzelnes Blatt. Fehlt einem Blatt etwas, wird der Bestand ergänzt,
+   keine Sonderregel geschrieben (Vorbehalt: die ersten Blätter wirken dünn,
+   solange zerlegte Fassungen und herausgelöste Teile in der Bank fehlen).
+
 Zweck der Blätter (Lehrer 09.10.):
 - Ein Prüfungsblatt bereitet so effizient wie möglich auf die echten
   Prüfungsaufgaben vor.
@@ -203,6 +211,10 @@ Serie als drei Durchgänge leicht/mittel/schwer durch das ganze Thema (Lehrer 08
 Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
+
+- 08.10.2026 (f): große Linie 8 „Blattsorte = Filter auf den Bestand“; Grund:
+  Sonderregeln je Blatt erzeugten Leerlauf am Paket Pythagoras. Nachzug:
+  Bauregel 0.3 (Regel aus einem Befund am Blatt) streichen.
 
 - 08.10.2026 (e): keine Teilnummern, Vorgänger und empfohlener Nachfolger
   (Lehrer 08.10.).
