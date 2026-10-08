@@ -1,7 +1,7 @@
 # Plan – Entwurf aus dem Prüfstand 09.10.2026
 
 Grundlage: r1-september.md, r2-oktober.md, r3-regeln.md, r4-werkzeuge.md
-(dieser Ordner). Gilt erst nach Zustimmung des Lehrers; dann ersetzt er
+(dieser Ordner); nachgebessert nach der Gegenlese (Kritiker, 09.10.). Gilt erst nach Zustimmung des Lehrers; dann ersetzt er
 plan.md, ziel.md § 1–4 und faellig.md.
 
 ## 1 Ziel
@@ -28,7 +28,7 @@ Abo laufen.
 5. Die Werkstatt selbst ist zu schwer: 83 Skripte (68 000 Zeilen, 27 einmalig),
    eine Projektanweisung von 3 100 Wörtern, davon 1 100 über tote Wege.
 
-## 3 Linien (gelten bis zum Ende von M3, ändern nur aus einem Messwert)
+## 3 Linien (gelten bis zum Ende von M3)
 
 1. Drei gepflegte Objekte, sonst nichts: **Katalog** (je Lerneinheit der
    Lernweg), **Bank** (Aufgaben), **Prüfungsgliederung** (Originale,
@@ -41,23 +41,38 @@ Abo laufen.
 3. **Die Bestellung setzt** aus Lernweg und Bankzeilen; ein Setzer ohne
    Modell macht daraus die drei PDFs. Fehlt der Lernweg, wird die Einheit
    erst gebaut (Ausnahme, ~20 min) und dann gesetzt.
-4. Prüfungsblatt: der Lernweg endet mit einem echten Original, ganz.
-   Lernblatt: Originale nur, wo sie die beste Aufgabe sind.
+4. Sorten aus demselben Bestand: Lernblatt = Lernweg einer Lerneinheit,
+   Originale nur, wo sie die beste Aufgabe sind. Prüfungsblatt = die Stufen
+   der Prüfungsgliederung in Katalogfolge, je Stufe die passenden Schritte
+   (Feld schritt), am Ende ein echtes Original ganz. Fokus = ein Schritt.
+   Prüfungsheft = die Prüfungsblätter eines Kapitels. Original und Original
+   neu bleiben bei pruefheft.py. Den Wortlaut der Originale liest der Setzer
+   aus aufgabenbank-privat.
 5. Eine Datei je Frage: Ziel und Plan in plan.md; Handwerk in
    bauregeln.md; Didaktik im Bauauftrag (bau/bauauftrag.md); Wörter in
    begriffe.md; Zeilenform in bank.md. Regeln werden mit Namen zitiert,
    nicht mit Nummern.
 6. Der Lehrer urteilt an Stichproben (etwa jede zehnte Einheit) und am
-   Prüfstein; Kritiker und Prüfskripte prüfen jede.
+   Prüfstein; Kritiker und Prüfskripte prüfen jede. Das ersetzt die Pflicht
+   vom 01.10., dass der Lehrer Vollständigkeit und Reihenfolge je Eintrag
+   vorher bestätigt.
 7. Jeder Lauf: Schätzung vorher, Ablesen nachher; Zeit je Einheit wird
    gemessen.
+8. Gegen das Kreisdrehen: Der nächste Schritt steht nur in plan.md (§ 7,
+   Meilenstein und Abnahmestand); die Übergabe nennt keinen eigenen.
+   Befunde aus Blättern gehen in eine Befundliste je Meilenstein
+   (befunde-M<n>.md); bauauftrag.md und bauregeln.md ändern sich nur am Ende
+   eines Meilensteins, gesammelt. Ausnahme: Handwerksfehler (falsche Zahl,
+   Satzfehler) sofort. Nebenfragen kommen in § 9 „Später“, nicht in eine
+   Regel.
 
 ## 4 Was sich an Bank und Katalog ändert
 
 - Katalog, je Lerneinheit neues Feld **Lernweg**: Schritt · was der Schüler
   begreift · Stolperstelle · Bank-ids (2–3 gleichwertige je Schritt für
   „neue Zahlen“).
-- Bank, je Zeile neue Felder: **schritt** (Lernweg-Schritt, neben sprosse),
+- Bank, je Zeile neue Felder (in M1 nur in bank.md definiert; gefüllt wird
+  je gebauter Einheit, nicht global): **schritt** (Lernweg-Schritt, neben sprosse),
   **sache**, **darstellung** (Skizze mit Dreieck / Bild ohne / Karte / nur
   Text / Tabelle / Graph), **frage** (Länge, Unterschied, Entscheidung,
   Begründung …), **antwortform** (rechnen, ankreuzen, zuordnen, begründen),
@@ -71,7 +86,11 @@ Abo laufen.
 ## 5 Werkzeuge
 
 - **Setzer** (neu, klein): liest Lernweg + Bankzeilen, schreibt LaTeX mit
-  mathblatt.sty, drei PDFs. Ziel: unter 30 s.
+  mathblatt.sty, drei PDFs (Übersicht nach bauregeln „Übersicht und
+  Serie“). Ziel: unter 30 s. Die Kennung eines Blatts steht im Register mit
+  der Liste der gesetzten Bank-ids; damit setzt er ein Blatt wieder und
+  bedient „hängt bei Nr.“, ohne dass ein Blatt abgelegt wird. Graphen und
+  Aufgabenbilder (Feld bild, heute leer) braucht er erst vor M5.
 - **mathblatt.sty**: die Formen aufnehmen, die die Blatt-Chats selbst
   nachbauten (Rechenkaro, Kreuzzeile, zweispaltig Skizze/Rechnung, graues
   a), Antwortfeld).
@@ -85,10 +104,11 @@ Abo laufen.
   regal.py, Testlauf-Kette, einmalig/ und gelaufene Katalogskripte ins
   Archiv (Liste r4 § 3.6).
 - **bankblatt.md** wird kurz: Bestellung deuten → Setzer → bei fehlendem
-  Lernweg Bauauftrag. Die alten Prompts unterrichtsblatt.md und
-  pruefungsblatt.md werden archiviert (Steinbruch bleibt im Archiv).
+  Lernweg Bauauftrag; Schülerliste bleibt privat. Die alten Prompts
+  unterrichtsblatt.md und pruefungsblatt.md bleiben als Steinbruch liegen
+  und werden nach M3 archiviert.
 
-## 6 Aufräumen (vor M2, ein Gang)
+## 6 Aufräumen (M1: die ersten drei Punkte; der Rest nach M2)
 
 - plan.md neu (dieser Entwurf); ziel.md § 1–4 geht darin auf, Rest
   archiviert; faellig.md archiviert, Gültiges als Zeile in § 7.
@@ -107,24 +127,40 @@ Abo laufen.
 
 ## 7 Meilensteine
 
-M1 Aufräumen und Grundlagen – § 6, Bankfelder (§ 4), Setzer v1, Vorlage,
-   Bauauftrag. Abnahme: Setzer setzt K4W aus Lernweg + Bankzeilen in unter
-   30 s; ein neuer Agent findet über CLAUDE.md alle Grundlagen.
-M2 Prüfstein – Lerneinheit „Kathete berechnen“ nach Bauauftrag gebaut und
-   gesetzt. Gemessen: Bauzeit, Token, Setzzeit. Abnahme: Kritiker ohne
-   schweren Befund, Lehrer „gut“, Setzen ≤ 3 min. Gelingt es nicht: Umbau
-   beenden, Blätter auf Bestellung frei bauen wie das Geradenheft.
-M3 P10 – alle P10-Lerneinheiten (119 mit P10-Bezug) in Runden zu etwa zehn,
-   mehrere Agenten parallel, Ablesen zwischen den Runden; erste Runde ein
-   Kapitel, Lehrer sieht eine Einheit. Abnahme: jede Einheit hat Lernweg,
-   Prüfskripte ohne Meldung, Stichproben gut.
+M0 Prüfstein K4W „Hypotenuse berechnen“: Lehrer 09.10. „besser“ als
+   Durchgang 1 – erfüllt; die Linie trägt so weit.
+M1 Grundlagen, klein – plan.md, CLAUDE.md/README-Einstieg, bauauftrag.md,
+   Felder in bank.md definiert, Lernweg-Feld im Katalog definiert.
+   Abnahme: ein frischer Agent findet über CLAUDE.md alles Nötige.
+M2 Prüfstein Bau – „Kathete berechnen“ nach Bauauftrag gebaut, zerlegt
+   zurückgelegt, mit einem Setzer-Rohling gesetzt; K4W nachträglich in
+   dieselbe Form gebracht. Gemessen: Bauzeit, Token, Setzzeit. Abnahme:
+   Kritiker ohne schweren Befund, Lehrer „gut“, Setzen ≤ 3 min. Gelingt es
+   nicht: Umbau beenden, Blätter auf Bestellung frei bauen wie das
+   Geradenheft. Danach: Rest von § 6, Prüfkennung ins Feld, bank-pruef
+   bereinigen.
+M3 P10 – Reihenfolge: Einheiten mit „P10 oft“ (45), dann Kern mit P10 (54
+   zusammen), dann der Rest; Runden zu etwa zehn, Agenten parallel,
+   Ablesen zwischen den Runden; erste Runde ein Kapitel, Lehrer sieht eine
+   Einheit. Abnahme: jede Einheit hat Lernweg, Prüfskripte ohne Meldung,
+   Stichproben gut.
 M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
-   Bestellungen im Unterricht ≤ 3 min.
-M5 Abitur GK – wie M3, so weit das Kontingent reicht.
+   Bestellungen ≤ 3 min (für Einheiten mit Lernweg).
+M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
+   reicht.
+
+Jetzt: M1.
 
 ## 8 Modelle und Kosten
 
-Bau-Agenten Opus; Kritiker Fable (Fable-Kontingent nutzen). Messwert
-09.10.: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt; Bau einer Einheit
-nach Geradenheft ≈ 0,6 Mio Token → P10 ≈ 1–1,5 Wochen Kontingent
-(Schätzung, M2 misst sie).
+Bau-Agenten Opus; Kritiker und Leser Fable (Fable-Kontingent nutzen).
+Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
+Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
+→ die 54 P10-Kerneinheiten ≈ 0,3–1,6 Wochen Kontingent. M2 misst den Wert;
+M3 wird danach budgetiert.
+
+## 9 Später
+
+Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
+Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
+Prüfung.
