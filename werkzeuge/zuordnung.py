@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen, baum-bedingte-wahrscheinlichkeit, binomialverteilung (Abitur GK,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen, baum-bedingte-wahrscheinlichkeit, binomialverteilung, erwartungswert (Abitur GK,
              Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -439,6 +439,19 @@ KAPITEL['binomialverteilung']=dict(pruefung='abitur',eintraege=[BV,ZG],
  stufen=[(n,_zuschnitt_ids(n,kapitel='Binomialverteilung'),m) for n,m in _BI_STUFEN],
  kern={n:(('ja','Formel, Rechner und Bild der Verteilung, je in zwei bis drei Jahrgängen 2022–2026') if n in _BI_KERN else
           ('nein','dreht die Formel um (Potenzgleichung) oder begründet das Modell (einmal, 2022)')) for n,_ in _BI_STUFEN})
+# ---- Abitur GK, Kapitel „Erwartungswert“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (2), echte = ids (nur Hauptplätze). Kern (Urteil
+# 08.10.): beide Abschnitte – das Spiel ist die Definition (Summe Wert mal Wahrscheinlichkeit, 2023,
+# 2024), die Binomialverteilung die Formel n·p samt Streuung (2022, 2025, 2026); ohne die Definition
+# trägt die Formel nicht, ohne die Formel fehlt der häufigere Prüfungsplatz.
+KV='kenngroessen-von-verteilungen'
+_EW_STUFEN=[
+ ('Erwartungswert der Binomialverteilung nutzen',_a(KV,'e3-k1-s1','e3-k1-s2','e4-k1-s1','e4-k1-s2','e4-k1-s3','e1-k2-s1')+_a(BV,'e5-k1-s2','e5-k1-s3','e3-k2-s7')),
+ ('Erwartungswert eines Spiels berechnen und deuten',_a(KV,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k2-s1')+_a(ZG,'e1-k2-s1','e1-k2-s2')),
+]
+KAPITEL['erwartungswert']=dict(pruefung='abitur',eintraege=[KV,BV,ZG],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Erwartungswert'),m) for n,m in _EW_STUFEN],
+ kern={n:('ja','Definition (Spiel) und Formel n·p (Binomialverteilung) sind die beiden Grundhandgriffe des Kapitels') for n,_ in _EW_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
