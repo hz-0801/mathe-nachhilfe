@@ -130,6 +130,17 @@ großer Umbau; nicht empfohlen.
 Bis zur Entscheidung läuft nur, was unter A und B gleich bleibt
 (Bankaufgaben, Abitur-Zuordnung).
 
+Erledigt nachts 08./09.10. (parallel, Sek II):
+- Bank ableitungsgraph-und-funktionsgraph: 102 Aufgaben, 85 mit Graph,
+  Prüfung 0/0 (Opus-Agent, 0,28 Mio Token). Offen: bank/_punkte.csv
+  (punkte.py braucht Urteile), Sichtprobe der Graphen im Render.
+- Abitur-GK-Zuordnung für alle neun Kapitel (abitur/zuordnung-*.csv,
+  Fable-Agenten, 0,38 Mio Token). Lücken: „Netz eines Körpers
+  vervollständigen“ (4), „Säulendiagramm lesen“ (2, Zählfrage).
+  23 von 28 Geometrie-/Stochastik-Stufen und 8 von 11 Analysis-Stufen
+  liegen über mehrere Einheiten – stützt Vorschlag A.
+- tafel.md zeigt jetzt auch die Abitur-Kapitel.
+
 ## 6 Später (nicht jetzt)
 
 Folgebaum der Kennung · Serie mit Wiederkehr · Musterbeispiel ·

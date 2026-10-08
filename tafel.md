@@ -1,6 +1,6 @@
 # Fortschrittstafel
 
-Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank 0895228 2026-10-07). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
+Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank ac71b2e 2026-10-08). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
 Plan: `plan.md`. Regelstand der Bauregeln: 2026-10-07.
 
 ## Auf einen Blick (P10, Meilenstein M2)
@@ -139,6 +139,16 @@ Status = Spalte im Katalog-Index; Prüfung = bank-pruef.py Abweichungen / Warnun
 | winkel-dreiecke | Dreiecke | gegengelesen bis auf [FS] | 327 | 0 / 0 | – |
 | zinsrechnung | Prozent | gegengelesen bis auf [FS] | 181 | 0 / 4 | – |
 
-## Abitur Grundkurs (Meilenstein M5)
+## Abitur Grundkurs (Meilenstein M6)
 
-Zuschnitt (Entwurf): 52 Abschnitte in `abitur/skript-zuschnitt-abi-gk.csv`; Zuordnungen und Steckbriefe noch keine.
+| Kapitel | Stufen (Kern) | echt | Bank | Stufen mit fehlen > 0 | Heft gebaut |
+|---|---|--:|--:|---|---|
+| ableitung-tangente | 5 (3) | 29 | 106 | – | – |
+| baum-bedingte-wahrscheinlichkeit | 8 (5) | 36 | 154 | – | – |
+| binomialverteilung | 5 (3) | 16 | 61 | Verteilung im Säulendiagramm lesen (2) | – |
+| erwartungswert | 2 (2) | 9 | 48 | – | – |
+| geraden-ebenen | 4 (3) | 16 | 106 | – | – |
+| integral | 6 (4) | 28 | 100 | – | – |
+| kurvenuntersuchung | 12 (6) | 68 | 140 | – | 2026-10-06 |
+| punkte-flaechen-koerper | 5 (3) | 21 | 88 | Netz eines Körpers vervollständigen (4) | – |
+| winkel-abstaende | 4 (3) | 20 | 49 | – | – |

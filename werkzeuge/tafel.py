@@ -19,7 +19,7 @@ Quellen:
   abnahme.csv                   Abnahmen des Lehrers (ebene;name;datum;urteil;anmerkung)
                                 ebene = stufe (kapitel:stufe) | heft (kapitel)
                                 | katalog (eintrag)
-v1.0 2026-10-08
+v1.1 2026-10-08 (Abitur-Kapitel aus abitur/zuordnung-*.csv)
 """
 import argparse, csv, datetime, glob, os, re, subprocess, sys
 from collections import OrderedDict
@@ -200,16 +200,20 @@ def main():
           f"{ab.get(('katalog', e), '–')} |")
     w('')
 
-    p = os.path.join(WURZEL, 'abitur/skript-zuschnitt-abi-gk.csv')
-    if os.path.exists(p):
+    w('## Abitur Grundkurs (Meilenstein M6)')
+    w('')
+    w('| Kapitel | Stufen (Kern) | echt | Bank | Stufen mit fehlen > 0 | Heft gebaut |')
+    w('|---|---|--:|--:|---|---|')
+    for p in sorted(glob.glob(os.path.join(WURZEL, 'abitur/zuordnung-*.csv'))):
+        k = os.path.basename(p)[10:-4]
         rs = lies_csv(p)
-        ka = [c for c in rs[0] if 'abschnitt' in c.lower()]
-        n = len(set(r[ka[0]] for r in rs)) if ka else len(rs)
-        w('## Abitur Grundkurs (Meilenstein M5)')
-        w('')
-        w(f'Zuschnitt (Entwurf): {n} Abschnitte in `abitur/skript-zuschnitt-abi-gk.csv`; '
-          'Zuordnungen und Steckbriefe noch keine.')
-        w('')
+        kern = sum(1 for r in rs if r.get('kern') == 'ja')
+        echt = sum(int(r.get('anzahl_echt') or 0) for r in rs)
+        bk = sum(int(r.get('anzahl_bank') or 0) for r in rs)
+        fe = ', '.join(f"{r['stufe']} ({r['fehlen']})" for r in rs if (r.get('fehlen') or '0') not in ('', '0')) or '–'
+        hb = sorted(glob.glob(os.path.join(a.bank, f'bau/pruefheft/{k}-normal-20*')))
+        w(f'| {k} | {len(rs)} ({kern}) | {echt} | {bk} | {fe} | {os.path.basename(hb[-1])[-10:] if hb else "–"} |')
+    w('')
 
     open(a.aus, 'w', encoding='utf-8').write('\n'.join(L))
     print(f'geschrieben: {a.aus} ({len(alle)} Stufen, {len(eintraege)} Bankeinträge)')
