@@ -23,7 +23,8 @@ ist und was offen bleibt.
 | Original | eine echte Prüfungsaufgabe | P10 2020 OS K7a, Grundstück ABC |
 | Blattsorte | wofür ein Blatt da ist | „Die lange Seite“ als Lernblatt oder als Prüfungsblatt |
 | Rand | ein Blatt, das selten gebraucht wird | „Warum der Satz stimmt · Beweis“ |
-| Art, Gruppe | alte Wörter (bis 07.10.): Art ≈ Kette, Gruppe ≈ Päckchen | – |
+| Einstieg | wo auf der Kette das Blatt beginnt: unten (mit Vorstufen, mehr Hilfe, längere Päckchen) · normal · oben (ab der Mitte, kaum Hilfe); ersetzt „schwach/stark“ (Versuch, Lehrer 08.10.) | unten: erst Quadrieren und Wurzel; oben: gleich Leiter mit Überstand und Prüfungsaufgabe |
+| Art, Gruppe, schwach, stark | alte Wörter: Art ≈ Kette, Gruppe ≈ Päckchen, schwach ≈ Einstieg unten, stark ≈ Einstieg oben | – |
 
 ## 2 Beispiel Pythagoras
 
