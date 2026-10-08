@@ -17,6 +17,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 ## Wo fange ich an
 
 - **Was schon gebaut ist – zuerst hier nachsehen:** `hz-0801/aufgabenbank`, `bau/register.csv` (alle Blätter, Prüfungshefte, Basiszettel und Fokusblätter, die das Skript seit dem 26.09.2026 aus der Bank gebaut hat; Stand 02.10.: 11 Prüfungshefte P10/Abitur GK, 10 Basiszettel, 7 Prüfungs-Fokusblätter, Bericht `bau/hefte/bericht.md`) und `eingang/` dort (Blätter der Blatt-Chats seit 01.10.). `blaetter/index.md` hier führt nur die Blätter der alten Prompts bis 24.09. Bevor ein Chat sagt, etwas gebe es nicht, sucht er in beiden Repos (Anlass 02.10.: zwei falsche Auskünfte „keine Prüfungshefte“).
+- `plan.md` – der Plan der Werkstatt (seit 08.10.2026): Ziel, große Linien, Weichen, Meilensteine mit Abnahme, „Später“; jeder Chat gleicht sich zuerst daran ab. Ändern nur durch den Lehrer.
 - `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-10-03d. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
 - `ueberblick-2026-10-07.md` – Bestandsaufnahme aller Ziel-, Beschluss- und Plandateien (07.10.): Ziel, Bestand, Diagnose, offene Widersprüche, Weg. Vor jeder größeren Entscheidung lesen.
 - `offen.html` – Entscheidungsbaum der Bedienung (Ast → Art → Thema, Zeitraum, Lösung) und Liste der offenen Punkte; wird im Chat rechts angezeigt. Der Baum wird von `werkzeuge/baum-offen.py` geschrieben (Baum im Skript ändern, dann ausführen); die Liste darunter von Hand.

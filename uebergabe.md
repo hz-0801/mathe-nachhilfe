@@ -12,6 +12,9 @@ Steckbriefe in Serie.
 
 ## 2 Arbeitsgrundlage – beim Chatstart in dieser Folge lesen
 
+0. `plan.md` (Wurzel, seit 08.10.) – der Plan. Zuerst lesen, Abgleich
+   nach § 0 dort; er geht allem Folgenden vor, auch § 6 unten.
+
 1. `ueberblick-2026-10-07.md` (mathe-nachhilfe) – Bestandsaufnahme aller
    Ziel-, Beschluss- und Plandateien: Ziel, Bestand (gezählt), Diagnose,
    Widersprüche, Weg. Vor jeder größeren Entscheidung.

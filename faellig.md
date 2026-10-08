@@ -52,14 +52,10 @@ Reihenfolge je Profil: erst Vorgabencheck, dann Quelle, dann Lauf (konzept.md
 | Neuen Pooljahrgang 2027 aufnehmen: `python iqb-quellen.py hefte/iqb` (Kennungen dürfen nur hinzukommen), Stapel in iqb-pruefungen.md § 2, Teil A grundlegend vor erhöht, Teil B WTR, MMS als Delta | Veröffentlichung des Pools „nach der Prüfung" (abi-quellen.md § 4) – Zeitpunkt unbelegt (Pool 2026 lag am 13.09.2026 vor) | Claude | iqb-quellen.md, konzept.md § 7 „Neuer Pooljahrgang" |
 | Abbruchreihe je Niveau gegen die Zielprüfung nachrechnen | Vorgabencheck abi hat die Geltung geändert | Claude | konzept.md § 7 „Nur abi und iqb", iqb.md § 6 |
 
-## 0 Plan (Stand 07.10. abends, ersetzt Plan „P10 fertig“ vom 06.10.)
+## 0 Plan
 
-Maßgeblich: ueberblick-2026-10-07.md § 6 und uebergabe.md § 6.
-
-1. Schalter bauen: ein Eingang für die Bauprogramme, der Blatt-Chat deutet die Bestellung (Bestellbaum offen.html, Folgebaum der Kennung, Bauregeln 9.1) und ruft auf. Vorher Probelauf: kann ein Blatt-Chat drei Repos klonen, LaTeX nutzen und pruefheft.py laufen lassen, wie lange? Prüfstein: „Pythagoras P10“ liefert im Blatt-Projekt in zwei Minuten das Blatt vom 07.10.
-2. Bank-Prompt für Sek II öffnen (Rolle sagt Kl. 8–10, Bank hat 44 Sek-II-Einträge).
-3. Serie: Steckbriefe für die 26 fehlenden P10-Abschnitte (Zuschnitt msa/skript-zuschnitt-p10.md) in Runden zu etwa zehn, mit gekürzten Fassungen; Blätter selbst geprüft, Lehrer schickt je Runde eine Sammelliste. Danach Abitur GK (52 Abschnitte), FHR, Lernblätter.
-4. Formelsammlung/Tafelwerk sichten (111 Kastenzeilen in 29 Einträgen; Grundwert-Formel offen).
+Seit 08.10.2026 steht der Plan in `plan.md` (Wurzel); dieser Abschnitt
+führt keinen eigenen Plan mehr.
 
 ## 2 Einmalig, mit Auslöser
 
