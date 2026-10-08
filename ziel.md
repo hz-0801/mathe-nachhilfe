@@ -1,6 +1,6 @@
 # Ziel – Blätter aus Prüfungen und Lehrplan
 
-Stand 07.10.2026 · gilt für beide Prompte in hz-0801/blattbau und für
+Stand 09.10.2026 · gilt für beide Prompte in hz-0801/blattbau und für
 die Aufgabenbank in hz-0801/aufgabenbank (bank.md); konzept.md
 (Katalog) und blatt-konzept.md (Heft-Phase) ordnen sich ihr unter.
 Wie ein Blatt aussieht, regelt allein aufgabenbank bau/bauregeln.md
@@ -133,10 +133,13 @@ zu diesem Thema. Prüfungsformen gibt es nur für Abschlussprüfungen
 
 Stoff und Höhe: Maßstab für den Stoff ist der Rahmenlehrplan, auch
 Stoff, den keine Prüfung abfragt. Die Höhe ist das Prüfungsniveau
-der Stufe, auf Zuruf darüber hinaus. Hat das Thema
-Prüfungsaufgaben, ist die oberste Sprosse eine davon (echt, ganz
-oder gekürzt).
-Hat es keine eigenen, ist die Decke die Prüfungsaufgabe, in der
+der Stufe, auf Zuruf darüber hinaus. Prüfungsaufgaben sind der
+Maßstab dieser Höhe, keine Pflicht auf dem Lernblatt: Ein Original
+steht dort nur, wo es die beste Aufgabe für einen Schritt des
+Lernwegs ist, und dann ohne Sätze, die nur der Prüfung dienen
+(„Gib das Zwischenergebnis an“); das Prüfungsblatt endet weiter mit
+dem Original (Lehrer 09.10.).
+Hat das Thema keine eigenen, ist die Decke die Prüfungsaufgabe, in der
 es gebraucht wird. Kommt es in keiner vor, setzt der Katalog die
 Höhe nach Lehrwerk-Konvention. Eine Grenze bleibt fest: unter
 Klasse 11 keine Sek-II-Einheit.
@@ -205,6 +208,10 @@ Satz, Herkunft, Aufbau und Zählung: Bauregeln (§ 2).
   Katalog, nicht am Blatt.
 
 ## 6 Änderungen gegenüber 28.09.2026
+
+- 09.10.: § 3 Original im Lernblatt nur, wo es die beste Aufgabe
+  für einen Schritt ist, ohne Prüfungsformeln; Pflicht nur im
+  Prüfungsblatt (Prüfstein „Hypotenuse berechnen“, Lehrer 09.10.).
 
 - 07.10.: § 2–4 Bauregeln ausgelagert nach aufgabenbank
   bau/bauregeln.md (eine Datei, gestrafft); § 1 Länge als Richtung
