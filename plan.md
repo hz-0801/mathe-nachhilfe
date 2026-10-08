@@ -63,8 +63,9 @@ W4 Reihenfolge: Vereinheitlichen (an P10 und Sek II zugleich), dann
 
 M1 Fundament
 - Plan, Fortschrittstafel (erledigt 08.10.).
-- Regelvergleich Montag 05.10. 18:00 ↔ heute (W3): Liste der
-  Umkehrungen, Lehrer entscheidet je Stelle. Danach ist der Rahmen fest.
+- Regelvergleich Montag 05.10. 18:00 ↔ heute (W3) – erledigt 08.10.:
+  acht Umkehrungen (aus bauregeln-streichliste.md), alle wie 07.10.
+  bestätigt, Fuß ohne Tipp. Der Rahmen ist bauregeln.md, Stand 07.10.
 - Probelauf im Projekt erzeugeBlatt(Bank): Repos holen, LaTeX,
   `pruefheft.py` laufen lassen, Zeit messen.
 - Abnahme: Rahmen fest, Probelauf ja/nein mit Zeit.
@@ -108,7 +109,7 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 ## 5 Jetzt
 
-Meilenstein M1. Nächster Schritt: Regelvergleich Montag ↔ heute (W3).
+Meilenstein M1. Nächster Schritt: Probelauf im Projekt erzeugeBlatt(Bank).
 
 ## 6 Später (nicht jetzt)
 
@@ -117,6 +118,11 @@ Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
 Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
+
+- 08.10.2026 (c): W3 entschieden – Übersicht vorn entfällt, Zählung nur
+  Schlusszeile, Gruppen eingerückt, Auswahl im Fokusblatt, Bündel/Rahmen/
+  Anhang fallen, Richtung kurz, Zwischenfragen als Richtung, Fuß nur
+  Ergebnisse ohne Tipp (Lehrer 08.10.).
 
 - 08.10.2026 (b): Vereinheitlichen als große Linie (ein Objekt je Thema);
   W2 neu: Steckbrief geht im Katalog auf; Sek II als Prüfstein (Kurven-
