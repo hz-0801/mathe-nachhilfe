@@ -57,6 +57,9 @@ Messwerte: Woche 30 → 33 %, Fable 7 → 12 % für fünf Agenten (zusammen
   Beispiel Pythagoras. Auf „Begriffe“ zeigen; ungefragt vorlegen, wenn der
   Lehrer ein Wort anders gebraucht. Beim Umzug in die Projektanweisung.
 
+- Jede Frage an den Lehrer trägt eine Empfehlung (Lehrer 08.10.); beim Umzug
+  in die Projektanweisung.
+
 ## 5 Offen und Verworfenes
 
 - Layout-Befunde gesammelt (keine Regel): Koordinatensystem nur so groß wie
