@@ -1,104 +1,74 @@
-# Übergabe verbessereBlaetter – 2026-10-07b (Chat 07.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-09 (Chat 08./09.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-07.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-07b.md.
 
 ## 1 Ziel
 
-Der Lehrer sagt in wenigen Worten, was er braucht, und hat in wenigen
-Minuten ein gutes Blatt – jedes Thema Kl. 8 bis Abitur, Schulstoff und
-Prüfung. Ein Programm setzt aus Bank und Steckbrief, der Chat ist der
-Schalter (Linie 26.09., ziel.md § 1). Jetzt: den Schalter bauen, dann die
-Steckbriefe in Serie.
+Der Lehrer bestellt im Projekt erzeugeBlatt(Bank) mit wenigen Wörtern und
+bekommt in Minuten ein gutes Blatt, Unterricht und Prüfung, zuerst P10 und
+Abitur GK. Maßgeblich ist `plan.md`.
 
-## 2 Arbeitsgrundlage – beim Chatstart in dieser Folge lesen
+## 2 Arbeitsgrundlage – beim Chatstart in dieser Folge
 
-0. `plan.md` (Wurzel, seit 08.10.) – der Plan. Zuerst lesen, Abgleich
-   nach § 0 dort; er geht allem Folgenden vor, auch § 6 unten.
-
-1. `ueberblick-2026-10-07.md` (mathe-nachhilfe) – Bestandsaufnahme aller
-   Ziel-, Beschluss- und Plandateien: Ziel, Bestand (gezählt), Diagnose,
-   Widersprüche, Weg. Vor jeder größeren Entscheidung.
-2. `offen.html` (mathe-nachhilfe) – Bestellbäume P10/Abitur/FHR,
-   „Skript – was es leisten soll“ (fest 04.10.), Durchgang nach Stufe.
-   Was dort „fest“ steht, gilt, bis der Lehrer es ändert.
-3. aufgabenbank `bau/bauregeln.md` – die einzige Datei mit Bauregeln
-   (Abschnitt 0 Pflege, 11 Offen und Erprobtes); Zuordnung alt → neu in
-   `bau/bauregeln-streichliste.md`.
-4. aufgabenbank `eingang/` – Protokolle der Blatt-Chats seit dem letzten
-   Werkstatt-Chat (ab v5.8 mit Abschnitt „Befunde“ des Lehrers): zuerst
-   lesen und auswerten, sie sind das Testmaterial.
-5. `ziel.md` (nur Ziel und Sorten), `faellig.md` § 0 (Plan).
-6. Steckbriefe `katalog/steckbrief/` (Grundwert, Pythagoras; Format in
-   README.md mit Teil 5 „Arten“ und Feld „Schritte“).
-7. Bauprogramm aufgabenbank `werkzeuge/pruefheft.py` v0.5 (Fokus aus
-   Steckbrief: Auswahl je Sorte ab vier Seiten, zwei Spalten, Abruf,
-   Erkennen je Art, Rechnen-Fall, Schlusszeile letzte fünf Jahre);
-   Aufruf mit `--bb` auf den blattbau-Klon.
+0. `plan.md` – der Plan (große Linien, Zweck der Blätter, Meilensteine,
+   § 5 „Jetzt“ mit Richtung Serie und offener Liste). Abgleich nach § 0 dort.
+1. `tafel.md` – Fortschrittstafel (neu bauen: `python3 werkzeuge/tafel.py
+   --bank ../aufgabenbank`); Abnahmen in `abnahme.csv`.
+2. Prüfungsgliederung `msa/gliederung/`, `abitur/gliederung/` (Format
+   `msa/gliederung/README.md`, Stand `msa/gliederung-stand.md`); Leser
+   `werkzeuge/gliederung.py`, Sichten `werkzeuge/gliederung-sichten.py`.
+3. aufgabenbank `bau/bauregeln.md` (Regelrahmen Stand 07.10., bestätigt 08.10.).
+4. aufgabenbank `werkzeuge/pruefheft.py` (liest die Gliederung) und das
+   Prüfstein-Heft `bau/pruefheft/pruefstein-2026-10-09/kurvenuntersuchung-normal/`.
+5. aufgabenbank `eingang/` – Protokolle der Blatt-Chats (erzeugeBlatt(Bank)
+   v5.8 läuft parallel im Unterricht); gesammelt auswerten, keine Sofortregel.
 
 ## 3 Arbeitsstand
 
-Erledigt 07.10.:
-- Bauregeln aus sechs Dateien (rund 250 Regeln) in eine Datei (55 Regeln,
-  seitdem ergänzt); ziel.md auf Ziel und Sorten gekürzt; bank.md verweist.
-- Fokus Pythagoras nach Sichtung neu: 5 S., 17 Aufgaben (vorher 9 S.,
-  27); Fokus Grundwert neu: 2 S., 10 Aufgaben mit Abruf der Formel und
-  Art „Mit einem Bruch“ (aufgabenbank bau/pruefheft/fokus-2026-10-07/).
-- Überblick über alle Dateien (sechs Fable-Leser), Widersprüche
-  entschieden: Fundstellen-Liste am Blattende (1.4), Prüfstein nur im
-  Prüfungsheft (2.2), Bestellbaum als Eingang + Folgebaum der Kennung
-  vorläufig (9.1), GYM-Marke (2.5, 53 Datenzeilen umgestellt),
-  Zählfenster letzte fünf Jahre + zuletzt (3.12), fünf Blattsorten.
-- Bank-Prompt v5.8 im Repo blattbau (Bauregeln haben Vorrang, Fokus-
-  Zusatz, Befunde ins Protokoll); als Chat-Block an den Lehrer gegeben.
+Erledigt 08./09.10.: Plan angelegt und entschieden (W1–W4, Entscheidung A:
+Bank + Katalog + Prüfungsgliederung); Regelrahmen geprüft (W3); Probelauf im
+Blatt-Projekt (58 s, Pythagoras); Fortschrittstafel; Prüfungsgliederung als
+Datei je Kapitel, Steckbriefe aufgegangen, Programm liest sie (Fokusblätter
+wortgleich); Abitur-GK-Zuordnung aller neun Kapitel; Bank:
+ableitungsgraph-und-funktionsgraph gefüllt (102), Prüffehler 0, Lücke Netz
+gefüllt; Kurvenuntersuchung als Sek-II-Prüfstein gebaut (31 S.).
+Lehrer zur Kurvenuntersuchung: liest ab Nr. 7 nicht weiter – Erkennfragen
+ohne Bezug (Nr. 4 Ball ≙ Nr. 6 Ofen nicht erkannt), 52-mal „Gegeben ist …“,
+nur Teilaufgaben, zu lang. Daraus Zweck der Blätter und Richtung Serie.
 
-Nicht umgesetzt: Programm kennt die Fundstellen-Liste am Blattende noch
-nicht (1.4); Prüfungsheft-Grundform G2; Lernblatt-Programm
-(zusammenbau.py) auf Regelstand 01.10.
+Nicht umgesetzt (Konsistenz): ziel.md (Sorten, Länge § 1, Steckbrief-
+Verweise) und bauregeln.md (2.2, 1.2, 3.10, 9.1) folgen erst nach den
+Proben (offene Liste in plan.md § 5). Säulendiagramm lesen: 2 fehlen.
 
-Messwerte: Chat mit Bauprogramm-Umbau und allen Neubauten im Chat: Woche
-25 → 26 %, Sitzung 2 % – Arbeit im Chat ist billig. Sechs Fable-Leser
-(zusammen rund 1,7 Mio Token laut Zählern): Woche 26 → 29 %, Fable 0 →
-7 %. Teuer sind Agentenläufe mit vielen Werkzeugaufrufen.
+Messwerte: Woche 30 → 33 %, Fable 7 → 12 % für fünf Agenten (zusammen
+1,1 Mio Token); Chat selbst kaum messbar.
 
-## 4 Verbindliche Entscheidungen und Rahmenbedingungen
+## 4 Verbindliche Entscheidungen
 
-- Beschlüsse in offen.html (fest) und bauregeln.md sind bindend, bis der
-  Lehrer sie ändert; vor einer neuen Regel nachsehen, ob es sie gibt.
-- Ideen des Lehrers sind zuerst Richtungen („eher“), Regeln nur auf sein
-  „immer/nie“ oder nach einem Befund am Blatt; jede Richtung am nächsten
-  Blatt prüfen. Didaktik eher aus Vorbildern und Urteil, Regeln vor allem
-  fürs Handwerk.
-- Arbeitsweise am Blatt: Claude prüft jedes Blatt selbst (Handwerk und
-  „Was tut der Schüler, kann er dabei etwas falsch machen?“), bevor der
-  Lehrer es sieht; der Lehrer schickt seine Befunde gesammelt in einer
-  Nachricht; Claude setzt in einem Gang um und fragt nur bei echten
-  didaktischen Entscheidungen.
-- Fünf Blattsorten: Original, Original neu, Prüfungsheft, Fokus,
-  Lernblatt.
-- Betrieb bis zum Schalter: Lernblatt Kl. 8–10 → erzeugeBlatt(Bank) v5.8;
-  Oberstufe-Schulstoff → alter Unterrichtsblatt-Prompt als Notbehelf;
-  P10 → fertige Fokusblätter und Prüfungshefte aus der Aufgabenbank,
-  weitere über die Werkstatt; Prüfungsblatt-Prompt nicht mehr benutzen.
-- Lehrer will keine Kleinteiligkeit: große Linien, Ergebnis am Blatt.
+- plan.md gilt; ändern nur der Lehrer, vorher große Linien vorlesen.
+- Bemerkungen des Lehrers sind Richtungen; eine Richtung ist ein Satz
+  (Zweck); Mittel am Blatt. Keine Regel aus einem einzelnen Blatt.
+- Zweck: Prüfungsblatt bereitet so effizient wie möglich auf die echten
+  Prüfungsaufgaben vor; ein Blatt ist so lang, wie sein Zweck es braucht.
+- Stark-Heft (P10, Abitur) und Bildungsserver (FHR) halten die Originale;
+  unser Blatt ist die Brücke dorthin.
 
-## 5 Offene Punkte und Verworfenes
+## 5 Offen und Verworfenes
 
-- Folgebaum der Kennung: tiefe Diskussion steht aus (Idee: „mehr“ beginnt
-  mit kleinem Test, weil die Aufgaben schon bearbeitet wurden).
-- Projektanweisung verbessereBlätter: Chatstart um ueberblick, offen.html
-  und eingang/ ergänzen (bis dahin trägt es diese Übergabe).
-- Bestätigen, dass v5.8 im Blatt-Projekt eingesetzt und die Projektdateien
-  mathblatt.sty/Anleitung entfernt sind.
-- Weiteres offen: bauregeln.md § 11; ueberblick § 5.
-- Verworfen: QR-Code; Merkkasten im Fokus; vorgelegte falsche Rechnung als
-  Regel (nur eigene Form, wo die P10 den Typ hat); sofortiger Schalter-Umbau
-  am 07.10. (Programm deckt nur zwei Handgriffe, Technik ungemessen).
+- Layout-Befunde gesammelt (keine Regel): Koordinatensystem nur so groß wie
+  die Werte; Tabelle und Gitter nebeneinander (Platz); Erkennfragen aus der
+  Lage der folgenden Aufgaben statt fremder Beispiele.
+- Verworfen: Vorschlag B (Katalog nach Prüfungsstufen umbauen); Steckbrief als
+  eigenes Objekt; Wiederkehr in der Serie (vorerst, beißt sich mit schmal).
 
 ## 6 Nächster Arbeitsschritt
 
-Erst eingang/ auf neue Protokolle prüfen. Dann den Schalter beginnen:
-Probelauf, ob ein Blatt-Chat im Projekt die Repos klonen, LaTeX nutzen und
-`pruefheft.py` für „Pythagoras P10“ laufen lassen kann (Zeit messen);
-danach Entwurf des Schalters (Bestellbaum → Programm, sonst Ausnahmeweg
-v5.8). Modell: Opus im Chat; Agenten nur klein geschnitten, Fable darf
-verbraucht werden.
+1. Programmfehler beheben, die gegen geltende Regeln verstoßen: Zählung im
+   Stufenkopf weg (1.3), Fuß nur Ergebnisse (6.2), kurzer Kopf mit
+   Prüfungsverb statt „Gegeben ist die in ℝ definierte …“; dazu Lücke
+   Säulendiagramm. Ein Agent, Schätzung 0,3 Mio, Go des Lehrers einholen.
+2. Proben der Serie: Einstiegsseite Kurvenuntersuchung, Portion 1
+   Kurvenuntersuchung (Prüfung, Grundvorstellung je Abschnitt), Portion 1
+   eines P10-Lernblatts. Dem Lehrer zeigen; offene Liste am Blatt entscheiden.
+Modell: Opus im Chat; Agenten Opus, Urteilsarbeit Fable (Fable-Kontingent
+verfällt Montag 18:00).
