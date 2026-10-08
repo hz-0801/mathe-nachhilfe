@@ -125,6 +125,10 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 Stand 09.10. (Pause des Lehrers): M2 technisch umgesetzt, Abnahme offen.
 
+Nächster Schritt (08.10.): Proben der Serie bauen (siehe unten) und dem Lehrer
+zeigen. Programmfehler am Heft Kurvenuntersuchung sind behoben (08.10.:
+Zählung im Kopf weg, Fuß nur Ergebnisse, kurzer Stamm, Säulendiagramm gefüllt).
+
 Erledigt 09.10.:
 - Prüfungsgliederung: eine Datei je Kapitel (msa/gliederung/, abitur/
   gliederung/, Format in msa/gliederung/README.md). zuordnung.py liest
