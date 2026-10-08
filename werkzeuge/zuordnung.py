@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen (Abitur GK,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen, baum-bedingte-wahrscheinlichkeit (Abitur GK,
              Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -397,6 +397,30 @@ KAPITEL['geraden-ebenen']=dict(pruefung='abitur',eintraege=[GE,EB,LB,SM,SP],
  stufen=[(n,_zuschnitt_ids(n,kapitel='Geraden + Ebenen'),m) for n,m in _GEB_STUFEN],
  kern={n:(('ja','Einstiegshandgriff jeder Geometrieaufgabe, in drei bis vier Jahrgängen 2022–2026') if n in _GEB_KERN else
           ('nein','nur 2023, zwei Teilaufgaben')) for n,_ in _GEB_STUFEN})
+# ---- Abitur GK, Kapitel „Baumdiagramm + bedingte Wahrscheinlichkeit“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (8), echte = ids (nur Hauptplätze; der Nebenplatz
+# 2022-bebb-gk-B4i bei Unabhängigkeit zählt nicht). Kern (Urteil 08.10.): Baum zeichnen, Pfadregeln,
+# Ziehen ohne Zurücklegen, Vierfeldertafel, bedingte Wahrscheinlichkeit – die fünf Rechen- und
+# Zeichenhandgriffe (je drei bis vier Jahrgänge); Rückwärtsrechnen, Unabhängigkeit und Termdeutung
+# setzen sie voraus.
+ZP='zufallsexperimente-und-pfadregeln';VF='vierfeldertafel';BW='bedingte-wahrscheinlichkeit-und-bayes'
+UA='unabhaengigkeit'
+_BB_STUFEN=[
+ ('Baumdiagramm zeichnen',_a(ZP,'e3-k1-s1','e3-k1-s5','e6-k1-s1','e6-k1-s2','e6-k1-s3','e6-k1-s6')),
+ ('Wahrscheinlichkeit über die Pfadregeln berechnen',_a(ZP,'e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s7','e3-k1-s8','e5-k1-s1','e5-k1-s4','e6-k1-s4','e6-k1-s5')),
+ ('Ziehen ohne Zurücklegen',_a(ZP,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e5-k1-s5','e5-k1-s6','e8-k2-s5')),
+ ('Unbekannten Anteil aus einer Randwahrscheinlichkeit berechnen',_a(ZP,'e8-k2-s1','e8-k2-s2','e8-k2-s3')),
+ ('Vierfeldertafel ausfüllen und ablesen',_a(VF,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(ZP,'e1-k1-s6')),
+ ('Bedingte Wahrscheinlichkeit berechnen',_a(BW,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s3','e2-k1-s4','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')),
+ ('Unabhängigkeit prüfen',_a(UA,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s5')),
+ ('Ereignis und Wahrscheinlichkeitsterm deuten',_a(ZP,'e1-k1-s4','e7-k1-s1','e7-k1-s2','e7-k1-s3','e7-k1-s4','e7-k1-s5','e7-k1-s7')+_a(BW,'e2-k1-s2')),
+]
+_BB_KERN=['Baumdiagramm zeichnen','Wahrscheinlichkeit über die Pfadregeln berechnen','Ziehen ohne Zurücklegen',
+ 'Vierfeldertafel ausfüllen und ablesen','Bedingte Wahrscheinlichkeit berechnen']
+KAPITEL['baum-bedingte-wahrscheinlichkeit']=dict(pruefung='abitur',eintraege=[ZP,VF,BW,UA],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Baumdiagramm + bedingte Wahrscheinlichkeit'),m) for n,m in _BB_STUFEN],
+ kern={n:(('ja','Rechen- oder Zeichenhandgriff der Pfadregeln, in drei bis vier Jahrgängen 2022–2026') if n in _BB_KERN else
+          ('nein','rechnet rückwärts, prüft oder deutet; setzt Baum und Pfadregeln voraus')) for n,_ in _BB_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
