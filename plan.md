@@ -139,6 +139,24 @@ Für den Lehrer (Abnahme M2):
    oder im Katalog kürzen.
 Offen klein: „Säulendiagramm lesen“ (2 fehlen, Zählfrage).
 
+Richtung Serie (Lehrer 09.10., noch keine Regel): Jedes Blatt ist eine
+Portion (2–3 Seiten) einer Serie mit Kennung, für Unterricht und Prüfung
+gleich. Baustein ist der Abschnitt (ein Handgriff: Grundvorstellung →
+Erkennen → Auswahl aufsteigend → Prüfungsniveau); zwei Schalter: Ordnung
+(Katalog oder Prüfungsgliederung) und Einstieg (vorn oder auf Wort des
+Lehrers). Einstiegsseite je Thema: alle Schritte, je eine kurze Aufgabe;
+wo der Schüler hängt, beginnt die Serie. Folgebaum für alle: weiter ·
+mehr · leichter · Lösung · hängt bei Nr. Prüfstein am Ende. Wiederkehr
+vorerst nicht (beißt sich mit schmal). Rückblick vorn wird Grundvorstellung
+je Abschnitt. Altes Heft bleibt baubar.
+Proben: Portion 1 Kurvenuntersuchung (Prüfung, Einstieg höher), Portion 1
+eines P10-Lernblatts (Katalog, Einstieg vorn), Einstiegsseite
+Kurvenuntersuchung. Erst danach Regeln nachziehen (Sorten 2, Rückblick
+3.10, Prüfungsheft 2.2, Länge ziel § 1, Lernblatt 2.3, Folgebaum 9.1).
+Parallel: erzeugeBlatt(Bank) v5.8 wird im Unterricht weiter benutzt;
+seine Protokolle (eingang/) sind Befunde, gesammelt ausgewertet.
+
+
 ## 6 Später (nicht jetzt)
 
 Folgebaum der Kennung · Serie mit Wiederkehr · Musterbeispiel ·
