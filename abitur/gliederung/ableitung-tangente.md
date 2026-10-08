@@ -15,6 +15,13 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (5), echte = ids (nur Hauptplätze). Sprossen wie oben: Grundfall und Sprossen ohne Gerüst,
+keine Vorstufe, keine Pflicht-Kette, keine Prüfungshöhe. Kern (Urteil 08.10.): Tangente aufstellen,
+Winkel aus der Steigung, Änderungsrate berechnen und deuten – die drei Grundhandgriffe, die in jedem
+Jahrgang 2022–2026 stehen; Dreieck und Normale setzen Tangente und Steigung voraus und kommen im GK
+nur als Figur oder als Deutung vor.
+
 ### Tangentengleichung aufstellen
 - **Kern:** ja – Grundhandgriff der Ableitung, in jedem Jahrgang 2022–2026
 - **Bank:** tangente-normale-schnittwinkel-e1-k1-s1 tangente-normale-schnittwinkel-e1-k1-s2 tangente-normale-schnittwinkel-e1-k1-s4 tangente-normale-schnittwinkel-e1-k1-s5 tangente-normale-schnittwinkel-e1-k1-s6 tangente-normale-schnittwinkel-e1-k1-s7 tangente-normale-schnittwinkel-e1-k1-s8 tangente-normale-schnittwinkel-e1-k1-s9 tangente-normale-schnittwinkel-e2-k1-s1 tangente-normale-schnittwinkel-e2-k1-s2 tangente-normale-schnittwinkel-e2-k1-s4

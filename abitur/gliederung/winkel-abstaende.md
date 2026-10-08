@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (4), echte = ids (nur Hauptplätze). Kern (Urteil 08.10.): rechter Winkel über das
+Skalarprodukt (fünf Jahrgänge), Winkel berechnen (vier), Abstand zu einer Ebene (drei) – die drei
+Rechenhandgriffe; der Lotfußpunkt wird im GK nur beschrieben oder gedeutet (Lösungsweg,
+Gleichungspaar), nie selbst gerechnet.
+
 ### Rechten Winkel über das Skalarprodukt nachweisen
 - **Kern:** ja – Rechenhandgriff des Skalarprodukts, in drei bis fünf Jahrgängen 2022–2026
 - **Bank:** orthogonalitaet-e1-k4-s1 orthogonalitaet-e1-k4-s2 orthogonalitaet-e1-k4-s3 orthogonalitaet-e1-k4-s4 orthogonalitaet-e2-k1-s1 orthogonalitaet-e2-k1-s2 orthogonalitaet-e2-k1-s3 orthogonalitaet-e2-k1-s5 orthogonalitaet-e3-k1-s3 orthogonalitaet-e3-k1-s4 skalarprodukt-und-winkel-e1-k1-s1 skalarprodukt-und-winkel-e2-k2-s4

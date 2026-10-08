@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (2), echte = ids (nur Hauptplätze). Kern (Urteil 08.10.): beide Abschnitte – das Spiel ist
+die Definition (Summe Wert mal Wahrscheinlichkeit, 2023, 2024), die Binomialverteilung die Formel
+n·p samt Streuung (2022, 2025, 2026); ohne die Definition trägt die Formel nicht, ohne die Formel
+fehlt der häufigere Prüfungsplatz.
+
 ### Erwartungswert der Binomialverteilung nutzen
 - **Kern:** ja – Definition (Spiel) und Formel n·p (Binomialverteilung) sind die beiden Grundhandgriffe des Kapitels
 - **Bank:** kenngroessen-von-verteilungen-e3-k1-s1 kenngroessen-von-verteilungen-e3-k1-s2 kenngroessen-von-verteilungen-e4-k1-s1 kenngroessen-von-verteilungen-e4-k1-s2 kenngroessen-von-verteilungen-e4-k1-s3 kenngroessen-von-verteilungen-e1-k2-s1 binomialverteilung-e5-k1-s2 binomialverteilung-e5-k1-s3 binomialverteilung-e3-k2-s7

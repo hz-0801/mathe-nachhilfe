@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (4), echte = ids (nur Hauptplätze; der Nebenplatz 2022-bebb-gk-B3c zählt nicht). Kern
+(Urteil 08.10.): Punktprobe (vier Jahrgänge), Ebenengleichung aufstellen (vier), Lage erkennen und
+begründen (drei) – die Handgriffe, mit denen jede Geometrieaufgabe beginnt; der Schnittpunkt steht
+nur 2023 (zwei Teilaufgaben).
+
 ### Punktprobe an Gerade und Ebene
 - **Kern:** ja – Einstiegshandgriff jeder Geometrieaufgabe, in drei bis vier Jahrgängen 2022–2026
 - **Bank:** geraden-e2-k1-s1 geraden-e2-k1-s2 geraden-e2-k1-s3 geraden-e2-k1-s5 lagebeziehungen-e1-k2-s1 lagebeziehungen-e1-k2-s2 lagebeziehungen-e1-k2-s3 lagebeziehungen-e1-k2-s4 lagebeziehungen-e1-k2-s7 lagebeziehungen-e3-k1-s1 ebenen-e1-k1-s4 ebenen-e4-k2-s2

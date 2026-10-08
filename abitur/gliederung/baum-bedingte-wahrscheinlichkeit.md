@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (8), echte = ids (nur Hauptplätze; der Nebenplatz 2022-bebb-gk-B4i bei Unabhängigkeit
+zählt nicht). Kern (Urteil 08.10.): Baum zeichnen, Pfadregeln, Ziehen ohne Zurücklegen,
+Vierfeldertafel, bedingte Wahrscheinlichkeit – die fünf Rechen- und Zeichenhandgriffe (je drei bis
+vier Jahrgänge); Rückwärtsrechnen, Unabhängigkeit und Termdeutung setzen sie voraus.
+
 ### Baumdiagramm zeichnen
 - **Kern:** ja – Rechen- oder Zeichenhandgriff der Pfadregeln, in drei bis vier Jahrgängen 2022–2026
 - **Bank:** zufallsexperimente-und-pfadregeln-e3-k1-s1 zufallsexperimente-und-pfadregeln-e3-k1-s5 zufallsexperimente-und-pfadregeln-e6-k1-s1 zufallsexperimente-und-pfadregeln-e6-k1-s2 zufallsexperimente-und-pfadregeln-e6-k1-s3 zufallsexperimente-und-pfadregeln-e6-k1-s6

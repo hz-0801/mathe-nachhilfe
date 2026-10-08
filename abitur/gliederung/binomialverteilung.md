@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (5), echte = ids (nur Hauptplätze). Kern (Urteil 08.10.): Bernoulli-Term angeben und
+deuten (2023, 2026), Wert mit dem Rechner (2022, 2025, 2026), Verteilung im Säulendiagramm lesen
+(2023, 2025, 2026) – Formel, Rechner und Bild der Verteilung; die Umkehraufgabe (Potenzgleichung)
+dreht die Formel um, die Begründung steht einmal (2022).
+
 ### Bernoulli-Formel: Term angeben und deuten
 - **Kern:** ja – Formel, Rechner und Bild der Verteilung, je in zwei bis drei Jahrgängen 2022–2026
 - **Bank:** binomialverteilung-e2-k1-s1 binomialverteilung-e2-k1-s4 binomialverteilung-e2-k1-s6 binomialverteilung-e2-k1-s7 binomialverteilung-e3-k2-s1 binomialverteilung-e3-k2-s6 binomialverteilung-e3-k2-s8

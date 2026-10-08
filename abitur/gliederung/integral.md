@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (6), echte = ids (nur Hauptplätze; die Nebenstelle 2023-bebb-gk-B2.1l zählt nicht). Kern
+(Urteil 08.10.): Fläche berechnen, Integral berechnen, Stammfunktion bilden, Integral am Graphen
+deuten – Hauptsatz vorwärts und sein Bild; die Stammfunktion am Graphen liest ihn rückwärts, die
+Flächenbedingung dreht die Flächenrechnung um.
+
 ### Fläche zwischen Graph und Achse oder Gerade berechnen
 - **Kern:** ja – Hauptsatz vorwärts und sein Bild am Graphen, Grundlage der übrigen Abschnitte
 - **Bank:** flaecheninhalt-durch-integration-e1-k1-s1 flaecheninhalt-durch-integration-e1-k1-s2 flaecheninhalt-durch-integration-e1-k1-s3 flaecheninhalt-durch-integration-e1-k1-s4 flaecheninhalt-durch-integration-e1-k1-s5 flaecheninhalt-durch-integration-e2-k1-s1 flaecheninhalt-durch-integration-e2-k1-s2 flaecheninhalt-durch-integration-e2-k1-s3 flaecheninhalt-durch-integration-e2-k1-s4 flaecheninhalt-durch-integration-e2-k1-s5 flaecheninhalt-durch-integration-e2-k1-s6 flaecheninhalt-durch-integration-e3-k1-s1 flaecheninhalt-durch-integration-e3-k1-s2 flaecheninhalt-durch-integration-e3-k1-s3 flaecheninhalt-durch-integration-e3-k1-s5

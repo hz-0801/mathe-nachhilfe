@@ -15,6 +15,13 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-08): Stufen = Abschnitte des Kapitels im
+Zuschnitt (5), echte = ids (nur Hauptplätze; Nebenplätze 2024-bebb-gk-B3a, 2022-bebb-gk-B3f zählen
+nicht). Sprossen wie oben: Grundfall und Sprossen, keine Vorstufe, keine Pflicht-Kette, keine
+Prüfungshöhe. Kern (Urteil 08.10.): Seitenlängen und Figur, Punkte berechnen, Fläche und Volumen –
+Betrag, Punktrechnung und Formel sind die drei Grundhandgriffe, je in vier Jahrgängen; das Trapez
+ist ein Sonderfall des Figurnachweises (2024, 2026), das Netz steht einmal (2024).
+
 ### Seitenlängen berechnen und Figur nachweisen
 - **Kern:** ja – Grundhandgriff der Koordinatengeometrie (Betrag, Punktrechnung, Formel), in vier Jahrgängen 2022–2026
 - **Bank:** punkte-und-strecken-im-koordinatensystem-e2-k1-s1 punkte-und-strecken-im-koordinatensystem-e2-k1-s5 punkte-und-strecken-im-koordinatensystem-e3-k1-s1 punkte-und-strecken-im-koordinatensystem-e3-k1-s2 punkte-und-strecken-im-koordinatensystem-e3-k1-s3 punkte-und-strecken-im-koordinatensystem-e4-k1-s1 punkte-und-strecken-im-koordinatensystem-e4-k1-s3 vektoren-und-rechenoperationen-e1-k2-s2 flaecheninhalt-und-volumen-im-raum-e1-k2-s5

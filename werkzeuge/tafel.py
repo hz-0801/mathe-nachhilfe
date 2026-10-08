@@ -11,7 +11,7 @@ Aufruf (aus der Wurzel von mathe-nachhilfe):
 Quellen:
   msa/zuordnung-<kapitel>.csv   Stufen, Kern, echte Aufgaben, Bankaufgaben,
                                 Ziel, fehlen (Stand des Zuordnungslaufs)
-  katalog/steckbrief/*.md       Kopfzeilen „Kapitel:“ und „Stufen:“
+  msa/gliederung/*.md           Blöcke „## Fokus <name>“ (Steckbriefe), Kopfzeilen „Kapitel:“ und „Stufen:“
   aufgabenbank bau/pruefheft/   gebaute Hefte <kapitel>-normal-<datum>,
                                 Fokusblätter fokus-*/<kapitel>-normal-fokus-*
   katalog/index.md              Status je Katalogeintrag
@@ -42,19 +42,23 @@ def lies_csv(pfad):
 
 
 def steckbriefe():
-    """kapitel -> {stufe: dateiname}"""
+    """kapitel -> {stufe: 'gliederung/<kapitel>.md#<fokus>'} – Fokus-Blöcke der Prüfungsgliederung (seit 08.10.2026)."""
     erg = {}
-    for p in sorted(glob.glob(os.path.join(WURZEL, 'katalog/steckbrief/*.md'))):
+    for p in sorted(glob.glob(os.path.join(WURZEL, 'msa/gliederung/*.md'))):
         if p.endswith('README.md'):
             continue
-        kap, stufen = None, []
-        for z in open(p, encoding='utf-8'):
-            if z.startswith('Kapitel:'):
-                kap = z.split(':', 1)[1].strip()
-            elif z.startswith('Stufen:'):
-                stufen = [s.strip() for s in z.split(':', 1)[1].split('|')]
-        for s in stufen:
-            erg.setdefault(kap, {})[s] = os.path.basename(p)
+        txt = open(p, encoding='utf-8').read()
+        for block in re.split(r'^(?=## Fokus )', txt, flags=re.M)[1:]:
+            block = re.split(r'^## (?!Fokus )', block, flags=re.M)[0]
+            name = block.splitlines()[0][9:].strip()
+            kap, stufen = None, []
+            for z in block.splitlines():
+                if z.startswith('Kapitel:'):
+                    kap = z.split(':', 1)[1].strip()
+                elif z.startswith('Stufen:'):
+                    stufen = [s.strip() for s in z.split(':', 1)[1].split('|')]
+            for s in stufen:
+                erg.setdefault(kap, {})[s] = f'{os.path.basename(p)}#{name}'
     return erg
 
 

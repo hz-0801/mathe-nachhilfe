@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
-"""Zuordnung Prüfungsheft (P10) <-> Aufgabenbank, Zählung je Stufe, je Kapitel.
+"""Zuordnung Prüfungsheft (P10, Abitur GK) <-> Aufgabenbank, Zählung je Stufe, je Kapitel.
 
 Verallgemeinerung von werkzeuge/prozent-zuordnung.py (Stand 2026-10-05);
 die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
+v2 (08.10.2026, Entscheidung A): die Stufendaten (Stufen, Originale, Bank-Muster,
+Kern-Urteil, Verwechselbar) und die Plätze der Originale stehen nicht mehr im
+Skript, sondern in der Prüfungsgliederung msa/gliederung/<kapitel>.md bzw.
+abitur/gliederung/<kapitel>.md (Format msa/gliederung/README.md, Leser
+werkzeuge/gliederung.py); die Ausgabe ist mit v1 (a1c9fd3) byteidentisch.
 
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
@@ -17,7 +22,7 @@ Eingaben:
     msa/<kapitel>-zusatz.jsonl  Zusatzaufgaben für Stufen ohne Bank-Sprosse
             (Eintrag „<kapitel>-zusatz“, kette = Name der Stufe)
     Stufen, echte Teilaufgaben, Sprossen-Zuordnung und Kern-Urteil stehen
-    als Daten in diesem Skript (KAPITEL; Muster (eintrag, sprosse,
+    in der Gliederungsdatei des Kapitels (Feld Bank: Muster (eintrag, sprosse,
     filter): filter None = alle Zeilen, Liste von Original-Kennungen,
     oder Liste von Varianten „v1“ …; viertes Glied 'inner' = die Sprosse
     ist innermathematisch, jede Zeile zählt; im Muster „(i)“).
@@ -31,12 +36,13 @@ Zusatzspalten (Auftrag K, 06.10.; Beschlüsse N2.6, N2.7, N4.19 in
 aufgabenbank/bau/pruefheft/beschluesse-2026-10-06b.md), nur P10:
     jahre_letzte5  Zählung B: Zahl der Jahre 2022–2026, in denen der
                    Handgriff gebraucht wurde (Hauptplatz, ganz_auch oder
-                   Zwischenschritt in msa/handgriffe-p10.csv; nur OS, EBR,
+                   Zwischenschritt in den Tabellen „Plätze der Originale“
+                   der Gliederung = msa/handgriffe-p10.csv; nur OS, EBR,
                    FOR, nicht GYM); dahinter in Klammern die Jahre
     nebenplaetze   Teilaufgaben, deren ganze Aufgabe der Handgriff ist,
                    obwohl anders etikettiert (Spalte ganz_auch)
     verwechselbar  Stufen, mit denen der Handgriff verwechselt wird
-                   (Daten VERWECHSELBAR unten; leer, wenn keine)
+                   (Feld Verwechselbar der Gliederung; leer, wenn keine)
     Die drei Spalten werden an die bestehende Datei angehängt bzw. dort
     ersetzt (--nur-spalten), ohne die übrigen Spalten neu zu bauen; der
     volle Lauf hängt sie ebenfalls an.
@@ -61,414 +67,25 @@ Zahlen im selben Text“.
 Nur Standardbibliothek.
 """
 import argparse,collections,difflib,glob,json,os,re,sys
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+import gliederung as GL
 MN=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BANK=os.path.join(os.path.dirname(MN),'aufgabenbank')
-KAPITEL={}
-# ---- Daten je Kapitel (Stand 2026-10-05) ----
-def _i(e,*ss): return [(e,s,None,'inner') for s in ss]
-def _a(e,*ss): return [(e,s,None) for s in ss]
-P='prozentrechnung';Z='zinsrechnung'
-KAPITEL['prozent']=dict(eintraege=[P,Z],stufen=[
- ('Prozent und Anteil umwandeln',['2022-OS-B1f','2020-OS-B1a'],[(P,'e1-k1-s3',None),(P,'e1-k1-s6',None),(P,'e1-k1-s8',['2020-OS-B1a','2022-OS-B1f'])]),
- ('Prozentwert',['2026-FOR-B1a','2014-OS-B1a','2017-OS-B1b','2021-OS-B1c','2019-OS-K5a','2015-OS-K2a'],[(P,'e3-k1-s6',None),(P,'e3-k1-s7',None),(P,'e3-k1-s11',None),(P,'e3-k2-s1',None),(P,'e3-k3-s4',None)]),
- ('Prozentsatz',['2023-OS-K6a','2018-OS-K7a','2015-OS-K7c'],[(P,'e2-k3-s5',None),(P,'e2-k3-s6',None),(P,'e2-k3-s7',None),(P,'e2-k3-s9',None),(P,'e2-k5-s4',None)]),
- ('Grundwert',['2023-OS-B1b','2025-OS-B1a'],[(P,'e4-k2-s5',None),(P,'e4-k2-s6',None),(P,'e4-k2-s8',None),(P,'e4-k3-s4',None)]),
- ('Erhöhung und Veränderung in Prozent',['2024-OS-B1e','2022-OS-K4b','2026-FOR-K3c','2016-OS-K2c','2021-OS-K5a','2020-OS-K2d','2015-OS-K2b','2020-OS-K4c'],[(P,'e5-k2-s3',None),(P,'e5-k2-s4',None),(P,'e5-k2-s5',None),(P,'e5-k2-s6',None),(P,'e5-k2-s8',None),(P,'e5-k2-s9',['2026-FOR-K3c','2022-OS-K4b','2016-OS-K2c','2024-OS-B1e','2015-OS-K2b']),(P,'e5-k3-s4',None)]),
- ('Aussagen prüfen',['2023-OS-K6b','2025-OS-K4b','2017-OS-K2b','2019-OS-K5b'],[(P,'e1-k1-s8',['2023-OS-K6b','2019-OS-K5b','2017-OS-K2b','2021-OS-K5b']),(P,'e1-k3-s4',None),(P,'e5-k2-s7',None),(P,'e5-k2-s9',['2025-OS-K4b'])]),
- ('Prozent aus einer berechneten Fläche',['2023-OS-K5c'],[]),
- ('Zinsen und Zinssatz',['2014-OS-B1e','2014-OS-K3a','2015-OS-B1e'],[(Z,'e1-k1-s1',None),(Z,'e1-k1-s4',None),(Z,'e1-k1-s5',None),(Z,'e1-k1-s6',None),(Z,'e1-k1-s7',None),(Z,'e1-k1-s12',None)]),
- ('Zinseszins und Guthabentabelle',['2014-OS-K3b','2014-OS-K3c'],[(Z,'e2-k1-s4',None),(Z,'e2-k1-s6',None),(Z,'e2-k1-s11',None),(Z,'e2-k2-s1',None),(Z,'e2-k4-s3',None)]),
-],kern={
- 'Prozent und Anteil umwandeln':('ja','Basisteil 2020 und 2022 (Niveau I), Bank-Einheit 1 mit Grundfall, Grundlage aller Prozentaufgaben'),
- 'Prozentwert':('ja','6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall'),
- 'Prozentsatz':('ja','3 echte (2015, 2018, 2023, Niveau I/II), Bank-Einheit 2 mit Grundfall, trägt Aussagen prüfen und Diagramme'),
- 'Grundwert':('ja','Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall'),
- 'Erhöhung und Veränderung in Prozent':('ja','8 echte, die meisten der Prüfung (Niveau I/II), Bank-Einheit 5 mit Grundfall'),
- 'Aussagen prüfen':('nein','4 echte, aber Niveau II und nur als Prüfungshöhe auf Prozentsatz gesetzt (keine eigene Kette mit Grundfall)'),
- 'Prozent aus einer berechneten Fläche':('nein','1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie'),
- 'Zinsen und Zinssatz':('nein','3 echte, zuletzt 2015, seit 2016 nicht geprüft, Zuschnitt 2022–2026 führt keine Zins-Stufe'),
- 'Zinseszins und Guthabentabelle':('nein','2 echte, nur 2014 (Niveau II)'),
-})
-L='lineare-funktionen';Q='quadratische-funktionen'
-KAPITEL['lineare']=dict(eintraege=[L,Q],stufen=[
- ('erkennen und ablesen',['2025-OS-B1f','2024-OS-B1i','2016-OS-B1c','2019-OS-K2a','2019-OS-K2b','2019-OS-K2c'],[(L,'e2-k5-s1',None,'inner'),(L,'e2-k5-s2',None,'inner'),(L,'e2-k5-s3',None,'inner'),(L,'e2-k5-s4',None,'inner'),(L,'e2-k5-s5',None,'inner'),(L,'e2-k5-s6',None,'inner')]),
- ('aus Gleichung zeichnen',['2024-OS-K3a','2026-FOR-K5a','2022-OS-K3a','2021-OS-K2a'],[(L,'e2-k4-s5',None,'inner'),(L,'e2-k4-s6',None,'inner'),(L,'e2-k4-s7',None,'inner'),(L,'e2-k4-s8',None,'inner')]),
- ('durch zwei Punkte, Gleichung ablesen',['2025-OS-K5a','2017-OS-K5a','2015-OS-K4d'],[(L,'e4-k2-s1',None,'inner'),(L,'e4-k1-s3',None,'inner'),(L,'e4-k1-s4',None,'inner'),(L,'e4-k1-s5',None,'inner'),(L,'e4-k1-s6',['v1','v2','v5','v6'],'inner'),(L,'e4-k1-s6',['v3','v4']),(L,'e4-k4-s4',None)]),
- ('zeichnen und Aussagen prüfen',['2023-OS-K4a','2021-OS-K2b'],[(L,'e2-k6-s1',None,'inner'),(L,'e2-k7-s2',None,'inner'),(L,'e4-k4-s2',None,'inner'),(L,'e3-k2-s7',['2023-OS-K4a','2021-OS-K2b'])]),
- ('ankreuzen',['2023-OS-B1i'],[(L,'e3-k2-s5',None,'inner'),(L,'e3-k2-s7',['2023-OS-B1i'])]),
- ('rechnerisch an Gerade und Parabel',['2026-FOR-K5b','2024-OS-K3c','2017-OS-K5b'],[(L,'e3-k2-s7',['2026-FOR-K5b','2017-OS-K5b','2019-OS-K2a','2021-OS-K6d','2022-OS-K3a']),(Q,'e1-k1-s4',None),(Q,'e3-k1-s2',None),(Q,'e4-k1-s14',None)]),
- ('Endwert berechnen',['2022-OS-K6a','2021-OS-K6a'],[(L,'e5-k1-s3',None),(L,'e5-k4-s4',None),(L,'e5-k1-s5',['2022-OS-K6a','2021-OS-K6a'])]),
- ('Graph zum Tarif zuordnen',['2023-OS-K3a','2016-OS-K6a'],[(L,'e5-k2-s1',None),(L,'e5-k1-s5',['2023-OS-K3a','2016-OS-K6a'])]),
- ('Gleichung aufstellen und rückwärts rechnen',['2022-OS-K6b','2016-OS-K6c','2021-OS-K6c','2021-OS-K6d','2021-OS-K7a'],[(L,'e5-k1-s1',None),(L,'e5-k1-s2',None),(L,'e5-k3-s1',None),(L,'e5-k4-s1',None),(L,'e1-k1-s8',None),(L,'e5-k1-s5',['2022-OS-K6b','2016-OS-K6c','2021-OS-K7a'])]),
- ('Tarife vergleichen',['2023-OS-K3b','2016-OS-K6b'],[(L,'e5-k1-s4',None),(L,'e5-k4-s2',None),(L,'e5-k1-s5',['2023-OS-K3b','2016-OS-K6b'])]),
-],kern={
- 'erkennen und ablesen':('ja','6 echte 2016–2025, Basisteil 2016, 2024, 2025 (Niveau I), Bank-Kette Ablesen mit Grundfall'),
- 'aus Gleichung zeichnen':('ja','4 echte (2021, 2022, 2024, 2026), fast jedes Jahr Einstieg der Funktionsaufgabe, Bank-Kette Graph zeichnen mit Grundfall'),
- 'durch zwei Punkte, Gleichung ablesen':('ja','3 echte (2015, 2017, 2025), Bank-Kette Gleichung bestimmen mit Grundfall'),
- 'zeichnen und Aussagen prüfen':('nein','2 echte (2021, 2023), Aussagen zu Eigenschaften nur als Zusatz zum Zeichnen, keine eigene Kette mit Grundfall'),
- 'ankreuzen':('nein','1 echte (Basisteil 2023), Punktprobe ist Kern der rechnerischen Stufe'),
- 'rechnerisch an Gerade und Parabel':('ja','3 echte (2017, 2024, 2026), Bank-Kette Funktionswert mit Grundfall, Punktprobe trägt auch Quadratische'),
- 'Endwert berechnen':('nein','2 echte (2021, 2022), Teilschritt der Sachkette, Grundfall der Kette ist das Aufstellen'),
- 'Graph zum Tarif zuordnen':('nein','2 echte (2016, 2023), nur Zuordnen, keine eigene Kette mit Grundfall'),
- 'Gleichung aufstellen und rückwärts rechnen':('ja','5 echte (2016, 2021 dreimal, 2022), Bank-Kette Anwendung mit Grundfall (Gleichung ankreuzen)'),
- 'Tarife vergleichen':('nein','2 echte (2016, 2023), Niveau II, als Prüfungshöhe auf die Anwendungskette gesetzt'),
-})
-QF='quadratische-funktionen';QG='quadratische-gleichungen'
-KAPITEL['quadratische']=dict(eintraege=[QF,QG],stufen=[
- ('Wertetabelle zuordnen',['2026-FOR-B1e','2015-OS-K4b'],[(QF,'e1-k1-s8',None,'inner'),(QF,'e1-k1-s12',None,'inner'),(QF,'e1-k2-s3',None,'inner'),(QF,'e1-k1-s13',None),(QF,'e1-k1-s14',None)]),
- ('Scheitelpunkt ablesen',['2022-OS-K3b','2026-FOR-K5c','2021-OS-B1d','2020-OS-K3a','2018-OS-K5b','2017-OS-K5c'],[(QF,'e2-k1-s1',None,'inner'),(QF,'e2-k1-s2',None,'inner'),(QF,'e2-k1-s3',None,'inner'),(QF,'e3-k1-s6',None,'inner')]),
- ('Punkt auf der Parabel prüfen',['2024-OS-K3c','2020-OS-K3b','2020-OS-K3c','2014-OS-K7a','2018-OS-K5a'],[(QF,'e1-k1-s4',None,'inner'),(QF,'e3-k1-s2',None,'inner'),(QF,'e4-k1-s14',None,'inner')]),
- ('Scheitelpunktform angeben',['2023-OS-K4b','2025-OS-K5b','2016-OS-B1g','2018-OS-K5c','2020-OS-K3d','2017-OS-K5e','2015-OS-B1i','2018-OS-K5d'],[(QF,'e2-k1-s6',None,'inner'),(QF,'e2-k1-s7',None,'inner'),(QF,'e2-k1-s8',None,'inner'),(QF,'e2-k1-s9',None,'inner'),(QF,'e2-k1-s10',None,'inner'),(QF,'e2-k1-s11',None,'inner'),(QF,'e3-k1-s7',None,'inner'),(QF,'e3-k1-s11',None,'inner'),(QF,'e2-k1-s16',None),(QF,'e2-k1-s17',None),(QF,'e2-k1-s18',None),(QF,'e3-k1-s12',None)]),
- ('Parabel skizzieren',['2024-OS-K3b'],[(QF,'e2-k1-s4',None,'inner'),(QF,'e1-k1-s9',None,'inner')]),
- ('Lage zweier Parabeln ohne Rechnung begründen',['2026-FOR-K5d','2014-OS-K7b'],[(QF,'e2-k1-s12',None,'inner'),(QF,'e4-k1-s15',None,'inner'),(QF,'e4-k1-s2',None,'inner')]),
- ('Lösung prüfen',['2025-OS-B1h'],[(QG,'e1-k2-s12',None,'inner'),(QG,'e2-k1-s5',None,'inner'),(QG,'e3-k3-s13',None,'inner'),(QG,'e2-k1-s12',['2025-OS-B1h'])]),
- ('Nullstellen berechnen',['2025-OS-K5c','2020-OS-K3e','2017-OS-K5d'],[(QF,'e4-k1-s1',None,'inner'),(QF,'e4-k1-s3',None,'inner'),(QF,'e4-k1-s4',None,'inner'),(QF,'e4-k1-s5',None,'inner'),(QF,'e4-k1-s6',None,'inner'),(QF,'e4-k1-s7',None,'inner'),(QF,'e4-k1-s21',None),(QG,'e3-k3-s19',['2025-OS-K5c','2020-OS-K3e','2017-OS-K5d'])]),
- ('x zu gegebenem y',['2023-OS-K4c'],[(QF,'e4-k1-s8',None,'inner'),(QF,'e4-k1-s22',None),(QG,'e3-k3-s19',['2023-OS-K4c'])]),
- ('Gerade und Parabel gleichsetzen',['2022-OS-K3c','2024-OS-K3d','2021-OS-K2c'],[(QF,'e4-k1-s9',None,'inner'),(QF,'e4-k1-s10',None,'inner'),(QF,'e4-k1-s11',None,'inner'),(QF,'e4-k1-s12',None,'inner'),(QF,'e4-k1-s13',None,'inner'),(QF,'e4-k1-s20',None),(QG,'e3-k4-s1',None,'inner'),(QG,'e3-k3-s19',['2022-OS-K3c','2024-OS-K3d','2021-OS-K2c'])]),
-],kern={
- 'Wertetabelle zuordnen':('nein','2 echte (2015, Basisteil 2026), Zuordnen als Prüfungsform auf der Kette Normalparabel, Grundfall ist das Ausfüllen'),
- 'Scheitelpunkt ablesen':('ja','6 echte 2017–2026, fast jedes Jahr (Niveau I), Bank-Kette Scheitelpunktform mit Grundfall'),
- 'Punkt auf der Parabel prüfen':('nein','5 echte (2014, 2018, 2020 zweimal, 2024), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare'),
- 'Scheitelpunktform angeben':('ja','8 echte 2015–2025 (mit Verschieben und Spiegeln), Bank-Kette Scheitelpunktform mit Grundfall'),
- 'Parabel skizzieren':('nein','1 echte (2024)'),
- 'Lage zweier Parabeln ohne Rechnung begründen':('nein','2 echte (2014, 2026), Niveau III, keine eigene Kette'),
- 'Lösung prüfen':('nein','1 echte (Basisteil 2025)'),
- 'Nullstellen berechnen':('ja','3 echte (2017, 2020, 2025), Bank-Kette Nullstellen und Schnittpunkte mit Grundfall, p-q-Formel trägt auch Gleichsetzen'),
- 'x zu gegebenem y':('nein','1 echte (2023)'),
- 'Gerade und Parabel gleichsetzen':('ja','3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall'),
-})
-PY='pythagoras';TR='trigonometrie';WD='winkel-dreiecke';SY='symmetrie-abbildungen'
-
-KAPITEL['dreiecke']=dict(eintraege=[PY,TR,WD,SY],stufen=[
- ('Gleichung aufstellen',['2022-OS-B1g','2024-OS-B1f','2026-FOR-B1j','2021-OS-B1h','2017-OS-B1d'],_i(PY,'e1-k2-s6','e1-k2-s7','e1-k2-s8','e1-k5-s4','e2-k3-s5','e2-k6-s4')),
- ('Kathete oder Hypotenuse direkt',['2022-OS-K5a','2024-OS-K6a','2026-FOR-K4a','2022-OS-K2c','2020-OS-K7a','2019-OS-K3a','2016-OS-K7b'],_i(PY,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s5','e2-k3-s1','e2-k3-s2','e2-k3-s3','e2-k3-s6')+_a(PY,'e1-k2-s10','e2-k3-s7','e1-k5-s3','e2-k6-s3')+[(PY,'e1-k2-s15',['2020-OS-K7a']),(PY,'e2-k3-s12',['2022-OS-K5a','2024-OS-K6a']),(PY,'e3-k2-s19',['2022-OS-K2c'])]),
- ('Dreieck erst in Figur oder Körper finden',['2026-FOR-K2c','2025-OS-K4a','2025-OS-K2a','2018-OS-K6d','2019-OS-K2d'],_i(PY,'e3-k2-s1','e3-k2-s2','e3-k2-s3','e3-k2-s4','e3-k2-s5','e3-k2-s6','e3-k2-s7','e3-k2-s8','e3-k2-s9','e3-k2-s10','e3-k2-s11','e3-k2-s12','e3-k2-s16','e3-k2-s17')+_a(PY,'e3-k2-s13','e3-k2-s14','e3-k2-s15','e3-k4-s3')+[(PY,'e3-k2-s19',['2026-FOR-K2c','2018-OS-K6d','2019-OS-K2d']),(PY,'e1-k2-s15',['2025-OS-K4a'])]),
- ('Seitenverhältnis benennen',['2025-OS-B1g','2020-OS-B1c','2020-OS-B1j','2019-OS-B1h','2018-OS-B1g','2017-OS-B1j'],_i(TR,'e1-k3-s1','e1-k3-s2','e1-k4-s1','e1-k3-s12')+[(TR,'e1-k3-s17',['2020-OS-B1c','2020-OS-B1j','2025-OS-B1g'])]),
- ('Winkel berechnen',['2022-OS-K5b','2024-OS-K6b','2026-FOR-K4b','2020-OS-K5b','2019-OS-K3b'],_i(TR,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s8','e2-k1-s9','e2-k1-s10')+_a(TR,'e2-k1-s7','e2-k4-s3')+[(TR,'e2-k1-s12',['2022-OS-K5b','2024-OS-K6b','2026-FOR-K4b','2019-OS-K3b'])]),
- ('Seite berechnen',['2022-OS-K5d','2026-FOR-K4c','2023-OS-K7b','2021-OS-K3a','2021-OS-K3b','2018-OS-K4d','2017-OS-K4b','2016-OS-K7c'],_i(TR,'e1-k3-s4','e1-k3-s5','e1-k3-s6','e1-k3-s7','e1-k3-s8','e1-k3-s9','e1-k3-s10','e1-k3-s11','e1-k3-s13','e1-k3-s14','e3-k1-s1','e3-k1-s2','e3-k1-s3')+_a(TR,'e1-k3-s15','e1-k7-s3','e3-k1-s8')+[(TR,'e1-k3-s17',['2022-OS-K5d','2021-OS-K3a','2021-OS-K3b','2017-OS-K4b']),(TR,'e3-k1-s19',['2026-FOR-K4c','2023-OS-K7b','2018-OS-K4d','2016-OS-K7c'])]),
- ('gemischt, ohne Überschrift je Aufgabe',['2022-OS-K5a','2022-OS-K5b','2024-OS-K6a','2024-OS-K6b','2026-FOR-K4a','2026-FOR-K4b'],_i(PY,'e2-k3-s11')+_i(TR,'e2-k1-s11','e4-k1-s16','e3-k1-s14')+_a(PY,'e3-k2-s18')),
- ('Seite berechnen (Sinussatz)',['2024-OS-K6d','2025-OS-K4c','2021-OS-K3c','2020-OS-K7c','2019-OS-K3c','2018-OS-K4c','2017-OS-K4c','2015-OS-K5c','2014-OS-K2b'],_i(TR,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e4-k1-s5','e4-k1-s6','e4-k1-s7','e4-k1-s9','e4-k2-s3')+_a(TR,'e4-k1-s10','e4-k1-s17')),
- ('Eigenschaft erkennen',['2026-FOR-B1c','2016-OS-B1e'],_i(WD,'e3-k2-s10')+_i(SY,'e2-k5-s1')),
- ('Winkelsumme',['2022-OS-K5c','2023-OS-K2a','2026-FOR-B1i','2021-OS-B1i','2018-OS-K4b','2017-OS-K4a','2015-OS-K5b'],_i(WD,'e3-k2-s1','e3-k2-s2','e3-k2-s4','e3-k2-s5','e3-k2-s6','e3-k2-s7','e3-k2-s11','e3-k4-s3')+_a(WD,'e2-k2-s9')),
- ('gleichschenkliges Dreieck',['2023-OS-B1g','2023-OS-K7a'],_i(WD,'e3-k2-s3','e3-k2-s8')+[(WD,'e3-k2-s13',['2023-OS-B1g'])]),
- ('rechten Winkel begründen',['2025-OS-K2c'],_i(WD,'e3-k2-s9','e5-k1-s8')+_i(PY,'e2-k3-s9')+_a(WD,'e5-k1-s11')+[(WD,'e3-k2-s13',['2025-OS-K2c']),(PY,'e2-k3-s12',['2025-OS-K2c'])]),
- ('Symmetrieachsen zählen',['2022-OS-B1i','2025-OS-K2a','2021-OS-B1j'],_i(SY,'e2-k2-s2','e2-k2-s3','e2-k2-s4','e2-k2-s5','e2-k2-s6','e2-k2-s7','e2-k2-s8')+_a(SY,'e2-k2-s11','e2-k2-s12')),
-],kern={
- 'Gleichung aufstellen':('ja','5 echte, Basisteil 2017, 2021, 2022, 2024, 2026 (Niveau I), Bank-Kette Hypotenuse mit Grundfall'),
- 'Kathete oder Hypotenuse direkt':('ja','7 echte 2016–2026 (Niveau I/II), Bank-Ketten Hypotenuse und Kathete mit Grundfall'),
- 'Dreieck erst in Figur oder Körper finden':('ja','5 echte (2018, 2019, 2025 zweimal, 2026), Bank-Kette Figuren und Körper mit Grundfall'),
- 'Seitenverhältnis benennen':('ja','6 echte, Basisteil 2017–2020 und 2025 (Niveau I), Grundfall der Bank-Kette Seite berechnen'),
- 'Winkel berechnen':('ja','5 echte (2019, 2020, 2022, 2024, 2026), Bank-Kette Winkel berechnen mit Grundfall'),
- 'Seite berechnen':('ja','8 echte 2016–2026, Bank-Ketten Seite berechnen und Teildreiecke mit Grundfall'),
- 'gemischt, ohne Überschrift je Aufgabe':('nein','Form der Stufe (Mischung), die echten sind dieselben wie bei Pythagoras und Winkel; Mischsprossen der Bank'),
- 'Seite berechnen (Sinussatz)':('ja','9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall'),
- 'Eigenschaft erkennen':('nein','2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme'),
- 'Winkelsumme':('ja','7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall'),
- 'gleichschenkliges Dreieck':('nein','2 echte, nur 2023'),
- 'rechten Winkel begründen':('nein','1 echte (2025), Begründen auf mehreren Wegen (Winkelsumme, Umkehrung, Thales)'),
- 'Symmetrieachsen zählen':('ja','3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall'),
-})
-DA='daten'
-
-KAPITEL['daten']=dict(eintraege=[DA],stufen=[
- ('Minimum, Maximum, Spannweite',['2026-FOR-K3a','2024-OS-K2a','2023-OS-K6c','2022-OS-K4a','2021-OS-K5a','2020-OS-K2d','2019-OS-B1i','2014-OS-K4a','2014-OS-K4b'],_a(DA,'e4-k1-s1','e4-k1-s2','e4-k1-s9','e4-k1-s8')),
- ('Median',['2024-OS-B1h','2015-OS-B1f'],_a(DA,'e4-k1-s4','e4-k1-s5')),
- ('Mittelwert',['2026-FOR-K3b','2024-OS-K2b','2021-OS-B1f','2017-OS-B1h','2016-OS-B1a','2020-OS-K2c','2015-OS-K7a'],_a(DA,'e4-k1-s6','e4-k1-s7','e4-k1-s10','e4-k1-s11','e4-k1-s12','e4-k4-s4','e6-k2-s3')),
- ('rückwärts: fehlender Wert',['2022-OS-B1d'],_a(DA,'e4-k1-s13','e6-k2-s4')),
- ('Aussagen prüfen, Auswirkung erklären',['2025-OS-K6a','2025-OS-K6c'],_a(DA,'e4-k1-s14','e4-k1-s15','e4-k1-s16','e4-k3-s1','e4-k4-s2')),
- ('Winkel berechnen und beschriften',['2022-OS-K4d','2024-OS-K2c','2017-OS-K2c','2021-OS-K5b'],_a(DA,'e3-k1-s5','e3-k1-s6','e3-k1-s8','e3-k1-s9','e3-k1-s10','e3-k1-s4','e3-k3-s4')+[(DA,'e3-k1-s12',['2017-OS-K2c','2024-OS-K2c'])]),
- ('aus Prozent darstellen',['2025-OS-K6b','2018-OS-K3c'],_a(DA,'e3-k1-s2','e3-k1-s3','e3-k3-s3')+[(DA,'e3-k1-s12',['2025-OS-K6b'])]),
- ('ergänzen',['2026-FOR-K3d','2023-OS-K6d','2020-OS-K2a','2018-OS-K3a'],_a(DA,'e2-k2-s7','e2-k2-s8','e2-k2-s9','e2-k2-s12','e2-k3-s1','e2-k4-s3')),
- ('Aussage prüfen',['2022-OS-K4c','2018-OS-K3d','2019-OS-K5c'],_a(DA,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s7','e5-k1-s8','e5-k4-s4')+[(DA,'e5-k1-s11',['2018-OS-K3d','2019-OS-K5c'])]),
- ('falschen Eindruck erklären',['2026-FOR-K3e','2014-OS-K3d'],_a(DA,'e5-k1-s6','e5-k1-s9','e5-k3-s1','e5-k4-s1','e5-k4-s2')+[(DA,'e5-k1-s11',['2026-FOR-K3e'])]),
-],kern={
- 'Minimum, Maximum, Spannweite':('ja','9 echte 2014–2026, fast jedes Jahr Einstieg der Datenaufgabe (Niveau I), Bank-Kette Kenngrößen mit Grundfall'),
- 'Median':('nein','2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen'),
- 'Mittelwert':('ja','7 echte 2015–2026 (Niveau I/II), Bank-Kette Kenngrößen'),
- 'rückwärts: fehlender Wert':('nein','1 echte (Basisteil 2022)'),
- 'Aussagen prüfen, Auswirkung erklären':('nein','2 echte, nur 2025 (Niveau II/III)'),
- 'Winkel berechnen und beschriften':('ja','4 echte (2017, 2021, 2022, 2024), Bank-Kette Anteile darstellen mit Grundfall'),
- 'aus Prozent darstellen':('nein','2 echte (2018, 2025)'),
- 'ergänzen':('ja','4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall'),
- 'Aussage prüfen':('ja','3 echte (2018, 2019, 2022), Bank-Kette Beurteilen mit Grundfall (Aussage mit einem Wert prüfen)'),
- 'falschen Eindruck erklären':('nein','2 echte (2014, 2026), Niveau III, eine Sprosse der Kette Beurteilen'),
-})
-WK='wahrscheinlichkeit'
-KAPITEL['wahrscheinlichkeit']=dict(eintraege=[WK],stufen=[
- ('Ergebnisse aufzählen',['2025-OS-K3a','2020-OS-K6a','2017-OS-B1f'],_a(WK,'e1-k1-s1','e1-k1-s3','e1-k1-s6','e1-k1-s7','e1-k2-s1','e1-k3-s3')),
- ('Wahrscheinlichkeit angeben',['2024-OS-K5a','2026-FOR-K6a','2019-OS-K6a','2018-OS-K7b','2017-OS-K6a','2016-OS-K5c','2016-OS-K5d','2014-OS-K6a','2016-OS-B1f','2015-OS-B1a','2014-OS-B1b','2014-OS-B1d'],_a(WK,'e2-k3-s1','e2-k3-s2','e2-k3-s3','e2-k3-s4','e2-k3-s5','e2-k3-s6','e2-k3-s10','e2-k3-s12','e2-k3-s13','e2-k4-s1','e2-k6-s3')),
- ('Baum ergänzen',['2024-OS-K5b','2026-FOR-K6b','2020-OS-K6c','2019-OS-K6b','2015-OS-K7d','2014-OS-K6b'],_a(WK,'e3-k3-s1','e3-k3-s2','e3-k3-s11','e3-k4-s3','e4-k1-s2','e4-k1-s6')),
- ('Pfadregel',['2025-OS-K3b','2025-OS-K3c','2020-OS-K6b','2014-OS-K6c'],_a(WK,'e3-k3-s3','e3-k3-s4','e3-k3-s5','e3-k3-s8','e3-k3-s9','e3-k4-s4')),
- ('ohne Zurücklegen',['2024-OS-K5c','2019-OS-K6c','2018-OS-K7c'],_a(WK,'e4-k1-s1','e4-k1-s3','e4-k1-s4','e4-k1-s5','e4-k1-s7','e4-k1-s9','e4-k1-s10','e4-k2-s4')),
- ('Gegenereignis',['2026-FOR-K6c'],_a(WK,'e3-k3-s6','e3-k3-s7','e2-k3-s7')),
- ('Zufallsgerät entwerfen',['2025-OS-K3d','2026-FOR-K6d','2019-OS-B1g','2018-OS-B1j'],_a(WK,'e2-k3-s9','e3-k3-s10','e2-k3-s8')),
-],kern={
- 'Ergebnisse aufzählen':('ja','3 echte (2017, 2020, 2025), Einstieg der Zufallsaufgabe (Niveau I), Bank-Kette Zählen mit Grundfall'),
- 'Wahrscheinlichkeit angeben':('ja','12 echte 2014–2026, fast jedes Jahr Basis und Kontext (Niveau I), Bank-Kette Einstufig mit Grundfall'),
- 'Baum ergänzen':('ja','6 echte 2014–2026 (Niveau I/II), Bank-Kette Mit Zurücklegen mit Grundfall (Baum zeichnen)'),
- 'Pfadregel':('ja','4 echte (2014, 2020, 2025 zweimal), Bank-Kette Mit Zurücklegen'),
- 'ohne Zurücklegen':('ja','3 echte (2018, 2019, 2024, Niveau II), Bank-Kette Ohne Zurücklegen mit Grundfall'),
- 'Gegenereignis':('nein','1 echte (2026)'),
- 'Zufallsgerät entwerfen':('nein','4 echte (2018, 2019, 2025, 2026), aber Niveau II/III und nur Sprossen ohne eigene Kette mit Grundfall'),
-})
-KO='koerper';PK='pyramide-kegel-kugel'
-KAPITEL['koerper']=dict(eintraege=[KO,PK],stufen=[
- ('Volumen direkt',['2026-FOR-B1f','2022-OS-K2b','2023-OS-K5b','2026-FOR-K2a','2021-OS-K4a','2016-OS-K3c','2014-OS-K5a'],_i(KO,'e2-k1-s1','e2-k1-s2','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6','e4-k2-s1','e4-k2-s2','e4-k2-s3','e4-k2-s4')+_i(PK,'e1-k5-s1','e1-k5-s2','e1-k5-s3','e1-k5-s4','e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')+_a(KO,'e2-k1-s10','e4-k2-s13')+[(PK,'e3-k1-s18',['2016-OS-K3c'])]),
- ('rückwärts: Radius oder Höhe aus Volumen',['2022-OS-K2d','2023-OS-K5d'],_i(KO,'e2-k1-s6','e3-k1-s10','e4-k2-s10','e4-k2-s11','e2-k3-s1')+_i(PK,'e1-k5-s13','e2-k2-s11','e2-k2-s12','e3-k1-s12')+_a(KO,'e4-k2-s15')),
- ('Restvolumen',['2024-OS-K4c'],_a(KO,'e5-k1-s5','e5-k1-s11','e4-k2-s5')+_a(PK,'e3-k1-s13')),
- ('Mantelfläche mit Kosten',['2026-FOR-K2b','2018-OS-K6b'],_i(KO,'e4-k2-s6','e4-k2-s7')+_i(PK,'e2-k2-s7','e2-k2-s8','e1-k5-s7')+_a(PK,'e2-k2-s13','e1-k5-s15')),
- ('vergleichen und urteilen',['2026-FOR-K2d','2021-OS-K4b'],_a(KO,'e4-k2-s14','e4-k3-s2')+_a(PK,'e2-k2-s14','e2-k2-s16','e3-k1-s15','e1-k5-s14','e2-k3-s2')),
- ('Netz erkennen',['2022-OS-K2a','2016-OS-B1j','2018-OS-B1i','2017-OS-B1c'],_a(KO,'e1-k1-s1','e1-k1-s3','e1-k1-s4','e1-k5-s3','e1-k5-s4','e4-k2-s8')+_a(PK,'e2-k2-s10')+[(KO,'e1-k1-s10',['2016-OS-B1j'])]),
- ('Netz mit Maßen skizzieren',['2023-OS-K5a','2020-OS-K5a','2019-OS-K4a','2014-OS-K5b'],_a(KO,'e1-k1-s5','e3-k1-s9','e3-k2-s4','e4-k3-s4')+_a(PK,'e1-k5-s11')),
- ('Körper im Schrägbild skizzieren',['2024-OS-K4b','2015-OS-K6b'],_a(KO,'e1-k1-s6','e1-k1-s7','e1-k4-s1')+_a(PK,'e1-k5-s12','e2-k2-s9','e1-k6-s3','e2-k3-s3','e3-k1-s6')),
-],kern={
- 'Volumen direkt':('ja','7 echte 2014–2026, fast jedes Jahr (Niveau I), Bank-Ketten Quader, Prisma, Zylinder, Pyramide, Kegel, Kugel mit Grundfall'),
- 'rückwärts: Radius oder Höhe aus Volumen':('nein','2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall'),
- 'Restvolumen':('nein','1 echte (2024)'),
- 'Mantelfläche mit Kosten':('nein','2 echte (2018, 2026)'),
- 'vergleichen und urteilen':('nein','2 echte (2021, 2026), Niveau III'),
- 'Netz erkennen':('ja','4 echte, Basisteil 2016–2018, Kontext 2022 (Niveau I), Bank-Kette Körper und Netze mit Grundfall'),
- 'Netz mit Maßen skizzieren':('nein','4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall'),
- 'Körper im Schrägbild skizzieren':('nein','2 echte (2015, 2024)'),
-})
-FL='flaechen';KR='kreis'
-KAPITEL['flaechen']=dict(eintraege=[FL,KR],stufen=[
- ('Formel oder Term zur Figur',['2022-OS-B1e','2024-OS-B1c','2025-OS-B1i','2019-OS-B1e','2014-OS-B1g'],_i(FL,'e1-k2-s8','e3-k1-s6','e1-k5-s4','e3-k4-s4')+_i(KR,'e2-k2-s1')),
- ('Grundfigur berechnen',['2026-FOR-B1h','2024-OS-K4a','2023-OS-K2b','2025-OS-K2b','2016-OS-K3b','2015-OS-K5d','2015-OS-K6c','2019-OS-K4c'],_i(FL,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e4-k1-s1','e4-k1-s2','e4-k1-s4','e4-k1-s5')+_i(KR,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(KR,'e2-k1-s8')),
- ('rückwärts: Seite aus Fläche',['2023-OS-B1c','2020-OS-B1d','2018-OS-B1f','2020-OS-K7b','2014-OS-K5c','2014-OS-K5d'],_i(FL,'e1-k2-s5','e1-k2-s6','e1-k2-s7','e2-k1-s5','e3-k1-s5','e4-k1-s3','e4-k3-s1')+_i(KR,'e1-k2-s4','e1-k2-s5','e2-k1-s6')+_a(FL,'e1-k2-s9','e3-k1-s7','e4-k1-s6')),
- ('Figur erst zerlegen oder Strecke erst berechnen',['2022-OS-K5e','2023-OS-K2c','2025-OS-B1e','2018-OS-K6a','2017-OS-K3a','2017-OS-K3b'],_i(FL,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6','e1-k3-s1','e4-k2-s1')+_i(KR,'e3-k1-s5','e3-k1-s6','e3-k1-s8')+_a(FL,'e5-k1-s7')+[(KR,'e3-k1-s11',['2025-OS-B1e'])]),
- ('Anteil in Prozent (Verschnitt)',['2023-OS-K5c'],_a(FL,'e5-k3-s1')),
-],kern={
- 'Formel oder Term zur Figur':('ja','5 echte, Basisteil 2014, 2019, 2022, 2024, 2025 (Niveau I), Sprossen in jeder Figurenkette'),
- 'Grundfigur berechnen':('ja','8 echte 2015–2026 (Niveau I), Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis mit Grundfall'),
- 'rückwärts: Seite aus Fläche':('ja','6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette'),
- 'Figur erst zerlegen oder Strecke erst berechnen':('ja','6 echte (2017 zweimal, 2018, 2022, 2023, 2025), Bank-Kette Zusammengesetzte Figuren mit Grundfall'),
- 'Anteil in Prozent (Verschnitt)':('nein','1 echte (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“'),
-})
-PE='potenz-exponentialfunktionen'
-KAPITEL['wachstum']=dict(eintraege=[PE],stufen=[
- ('Tabelle ergänzen',['2026-FOR-K7a','2020-OS-K4a','2019-OS-K7a','2017-OS-K7a','2016-OS-K4a'],_a(PE,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e2-k2-s5','e2-k2-s6','e2-k2-s7','e2-k2-s8','e2-k3-s3')),
- ('Punkte darstellen',['2025-OS-K7a','2017-OS-K7b','2016-OS-K4b','2021-OS-K6b'],_a(PE,'e1-k3-s1','e1-k3-s2','e1-k3-s3','e1-k3-s4','e1-k3-s5','e1-k4-s3')),
- ('Faktor bestimmen, Gleichung aufstellen',['2025-OS-K7b','2026-FOR-K7c','2018-OS-K2a','2017-OS-K7c','2019-OS-K7b','2020-OS-K4c','2017-OS-K7d','2016-OS-K4e'],_a(PE,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s7','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s7','e3-k2-s2','e3-k2-s3','e3-k2-s5','e3-k2-s8','e3-k3-s3')),
- ('Graph zuordnen und begründen',['2026-FOR-K7b','2019-OS-K7c'],_a(PE,'e1-k2-s3','e1-k2-s4','e1-k2-s5','e1-k2-s6','e1-k2-s7')),
-],kern={
- 'Tabelle ergänzen':('ja','5 echte 2016–2026, Einstieg fast jeder Wachstumsaufgabe (Niveau I), Bank-Kette Wachstumstabelle fortschreiben mit Grundfall'),
- 'Punkte darstellen':('ja','4 echte (2016, 2017, 2021, 2025), Bank-Kette Wertepaare darstellen mit Grundfall'),
- 'Faktor bestimmen, Gleichung aufstellen':('ja','8 echte 2016–2026 (mit Funktionswert aus der Gleichung), Bank-Ketten Wachstumsfaktor und Exponentialfunktion aufstellen mit Grundfall'),
- 'Graph zuordnen und begründen':('nein','2 echte (2019, 2026), Niveau II/III'),
-})
-LG='lineare-gleichungssysteme'
-KAPITEL['gleichungssysteme']=dict(eintraege=[LG],stufen=[
- ('Variablen deuten',['2022-OS-K7a'],_a(LG,'e4-k1-s5','e4-k5-s1')+[(LG,'e4-k1-s9',['2022-OS-K7a'])]),
- ('aufstellen',['2024-OS-K7a','2021-OS-K7b','2016-OS-K6d'],_a(LG,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e4-k1-s7')+[(LG,'e4-k1-s9',['2024-OS-K7a','2021-OS-K7b']),(LG,'e1-k1-s13',['2016-OS-K6d'])]),
- ('lösen',['2022-OS-K7b'],_i(LG,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s7','e2-k1-s8','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5')+_a(LG,'e2-k1-s6','e2-k1-s12')),
- ('Gleichung in Worte fassen und lösen',['2024-OS-K7b'],_a(LG,'e4-k1-s6')+[(LG,'e4-k1-s9',['2024-OS-K7b'])]),
-],kern={
- 'Variablen deuten':('nein','1 echte (2022)'),
- 'aufstellen':('ja','3 echte (2016, 2021, 2024), Hauptleistung jeder Gleichungssystem-Aufgabe, Bank-Kette Sachaufgaben mit Grundfall'),
- 'lösen':('ja','1 echte (2022), aber in 2016, 2021, 2024 als Nebenleistung (typ_neben lösen), Bank-Ketten Einsetzen und Addition mit Grundfall'),
- 'Gleichung in Worte fassen und lösen':('nein','1 echte (2024)'),
-})
-# ---- Abitur GK (Stand 2026-10-06, Lauf B2) ----
-# Stufen = Abschnitte des Kapitels in abitur/skript-zuschnitt-abi-gk.csv, echte = ids des Abschnitts
-# (2022–2026, nur Hauptplätze). Sprossen ohne Prüfungshöhe; die Prüfungshöhe tragen die echten
-# Aufgaben. Kern (Urteil Lauf B2): die klassische Kurvenuntersuchung (Nullstellen, Extrem- und
-# Wendepunkte, Monotonie, Grenzverhalten, Symmetrie); die übrigen Abschnitte nutzen sie.
-KU='kurvenuntersuchung';FK='funktionsklassen-und-eigenschaften';GV='grenzwerte-und-verhalten-im-unendlichen'
-RF='rekonstruktion-von-funktionsgleichungen';EX='extremalprobleme';GLL='gleichungen-loesen'
-def _zuschnitt_ids(abschnitt,datei='skript-zuschnitt-abi-gk.csv',kapitel='Kurvenuntersuchung'):
-  ids=[]
-  for z in open(os.path.join(MN,'abitur',datei),encoding='utf-8').read().splitlines()[1:]:
-    t=z.split(';')
-    if len(t)>4 and t[1]==kapitel and t[2]==abschnitt:
-      ids+=[i for i in t[4].split() if i not in ids]
-  return ids
-_KU_STUFEN=[
- ('Nullstellen und Achsenschnittpunkte berechnen',_a(FK,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s7','e2-k1-s8','e1-k1-s1')),
- ('Extrempunkte berechnen',_a(KU,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s6','e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k5-s1')),
- ('Wendepunkte berechnen',_a(KU,'e3-k2-s1','e3-k2-s2','e3-k2-s3','e3-k2-s6','e3-k2-s8','e5-k1-s2')),
- ('Monotonie und Krümmung aus der Ableitung begründen',_a(KU,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e2-k11-s1','e4-k1-s3')),
- ('Grenzverhalten angeben',_a(GV,'e1-k2-s1','e1-k2-s2','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4')),
- ('Symmetrie am Term begründen',_a(FK,'e4-k1-s1','e4-k1-s2','e4-k1-s4','e4-k1-s5')),
- ('Graph verschieben, spiegeln, strecken',_a(FK,'e5-k1-s1','e5-k1-s2','e5-k1-s4','e5-k1-s5','e5-k1-s6','e5-k1-s8')),
- ('Maße im Sachzusammenhang aus dem Graphen berechnen',_a(FK,'e1-k1-s6','e2-k1-s9')+_a(KU,'e5-k1-s8')),
- ('Gleichungen und Ungleichungen zwischen Funktionen lösen',_a(GLL,'e1-k1-s8','e4-k1-s1','e4-k1-s2','e3-k1-s4','e3-k1-s8','e4-k1-s4')),
- ('Graph skizzieren und Verlauf beschreiben',_a(FK,'e6-k1-s1','e6-k1-s2')+_a(KU,'e5-k1-s1')),
- ('Funktionsgleichung aus Bedingungen aufstellen',_a(RF,'e1-k1-s1','e1-k1-s2','e2-k1-s1','e2-k1-s4')),
- ('Extremalproblem: Zielfunktion aufstellen und maximieren',_a(EX,'e2-k1-s1','e2-k1-s6','e3-k1-s1','e3-k1-s5','e3-k1-s6')),
-]
-_KU_KERN=['Nullstellen und Achsenschnittpunkte berechnen','Extrempunkte berechnen','Wendepunkte berechnen',
- 'Monotonie und Krümmung aus der Ableitung begründen','Grenzverhalten angeben','Symmetrie am Term begründen']
-KAPITEL['kurvenuntersuchung']=dict(pruefung='abitur',eintraege=[KU,FK,GV,RF,EX,GLL],
- stufen=[(n,_zuschnitt_ids(n),m) for n,m in _KU_STUFEN],
- kern={n:(('ja','klassische Kurvenuntersuchung, Grundlage der übrigen Abschnitte') if n in _KU_KERN else
-          ('nein','nutzt die Kurvenuntersuchung im Sachzusammenhang oder als Nebenhandgriff')) for n,_ in _KU_STUFEN})
-# ---- Abitur GK, Kapitel „Ableitung + Tangente“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze). Sprossen wie oben:
-# Grundfall und Sprossen ohne Gerüst, keine Vorstufe, keine Pflicht-Kette, keine Prüfungshöhe.
-# Kern (Urteil 08.10.): Tangente aufstellen, Winkel aus der Steigung, Änderungsrate berechnen und
-# deuten – die drei Grundhandgriffe, die in jedem Jahrgang 2022–2026 stehen; Dreieck und Normale
-# setzen Tangente und Steigung voraus und kommen im GK nur als Figur oder als Deutung vor.
-TN='tangente-normale-schnittwinkel';AA='ableitung-und-aenderungsrate';AG='ableitungsgraph-und-funktionsgraph'
-_AT_STUFEN=[
- ('Tangentengleichung aufstellen',_a(TN,'e1-k1-s1','e1-k1-s2','e1-k1-s4','e1-k1-s5','e1-k1-s6','e1-k1-s7','e1-k1-s8','e1-k1-s9','e2-k1-s1','e2-k1-s2','e2-k1-s4')),
- ('Steigungswinkel und Schnittwinkel berechnen',_a(TN,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s6','e4-k1-s7','e4-k1-s8','e4-k1-s9')),
- ('Dreieck aus Tangente, Normale und Achsen berechnen',_a(TN,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6')),
- ('Änderungsrate berechnen und deuten',_a(AA,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e1-k1-s5','e1-k1-s6','e1-k1-s8','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e2-k1-s7','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6','e4-k1-s7')),
- ('Normale: senkrechte Gerade über die Steigung',_a(TN,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5','e3-k1-s6')+_a(AG,'e1-k15-s1')),
-]
-_AT_KERN=['Tangentengleichung aufstellen','Steigungswinkel und Schnittwinkel berechnen','Änderungsrate berechnen und deuten']
-KAPITEL['ableitung-tangente']=dict(pruefung='abitur',eintraege=[TN,AA,AG],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Ableitung + Tangente'),m) for n,m in _AT_STUFEN],
- kern={n:(('ja','Grundhandgriff der Ableitung, in jedem Jahrgang 2022–2026') if n in _AT_KERN else
-          ('nein','setzt Tangente und Steigung voraus; im GK nur als Figur oder Deutung')) for n,_ in _AT_STUFEN})
-# ---- Abitur GK, Kapitel „Integral“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (6), echte = ids (nur Hauptplätze; die Nebenstelle
-# 2023-bebb-gk-B2.1l zählt nicht). Kern (Urteil 08.10.): Fläche berechnen, Integral berechnen,
-# Stammfunktion bilden, Integral am Graphen deuten – Hauptsatz vorwärts und sein Bild; die
-# Stammfunktion am Graphen liest ihn rückwärts, die Flächenbedingung dreht die Flächenrechnung um.
-SH='stammfunktion-und-hauptsatz';IR='integrationsregeln';FI='flaecheninhalt-durch-integration'
-_IN_STUFEN=[
- ('Fläche zwischen Graph und Achse oder Gerade berechnen',_a(FI,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e1-k1-s5','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s5')),
- ('Bestimmtes Integral berechnen',_a(SH,'e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(IR,'e1-k1-s1','e1-k1-s2','e1-k1-s3')+_a(FI,'e5-k1-s7')),
- ('Stammfunktion bilden und nachweisen',_a(SH,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s5','e1-k1-s6')+_a(IR,'e2-k1-s1','e2-k1-s2','e2-k1-s3')),
- ('Integral und Fläche am Graphen deuten',_a(FI,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6','e4-k1-s5')),
- ('Stammfunktion am Graphen: skizzieren und deuten',_a(SH,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5')),
- ('Parameter aus einer Flächenbedingung bestimmen',_a(FI,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4')),
-]
-_IN_KERN=['Fläche zwischen Graph und Achse oder Gerade berechnen','Bestimmtes Integral berechnen',
- 'Stammfunktion bilden und nachweisen','Integral und Fläche am Graphen deuten']
-KAPITEL['integral']=dict(pruefung='abitur',eintraege=[SH,IR,FI],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Integral'),m) for n,m in _IN_STUFEN],
- kern={n:(('ja','Hauptsatz vorwärts und sein Bild am Graphen, Grundlage der übrigen Abschnitte') if n in _IN_KERN else
-          ('nein','liest den Hauptsatz rückwärts oder dreht die Flächenrechnung um')) for n,_ in _IN_STUFEN})
-# ---- Abitur GK, Kapitel „Punkte, Flächen, Körper“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze; Nebenplätze
-# 2024-bebb-gk-B3a, 2022-bebb-gk-B3f zählen nicht). Sprossen wie oben: Grundfall und Sprossen,
-# keine Vorstufe, keine Pflicht-Kette, keine Prüfungshöhe. Kern (Urteil 08.10.): Seitenlängen
-# und Figur, Punkte berechnen, Fläche und Volumen – Betrag, Punktrechnung und Formel sind die
-# drei Grundhandgriffe, je in vier Jahrgängen; das Trapez ist ein Sonderfall des Figurnachweises
-# (2024, 2026), das Netz steht einmal (2024).
-PS='punkte-und-strecken-im-koordinatensystem';VR='vektoren-und-rechenoperationen';SP='spiegelung'
-FV='flaecheninhalt-und-volumen-im-raum'
-_PFK_STUFEN=[
- ('Seitenlängen berechnen und Figur nachweisen',_a(PS,'e2-k1-s1','e2-k1-s5','e3-k1-s1','e3-k1-s2','e3-k1-s3','e4-k1-s1','e4-k1-s3')+_a(VR,'e1-k2-s2')+_a(FV,'e1-k2-s5')),
- ('Parallele Seiten über kollineare Vektoren nachweisen (Trapez)',_a(PS,'e4-k1-s5','e4-k1-s6')+_a(VR,'e1-k2-s4')+_a(FV,'e2-k1-s3')),
- ('Punkte berechnen: Mittelpunkt, Spiegelpunkt, Eckpunkt',_a(PS,'e2-k1-s4','e2-k1-s7','e4-k1-s9','e5-k1-s1','e5-k1-s7')+_a(SP,'e1-k3-s1','e1-k3-s2','e1-k3-s3','e1-k3-s4')+_a(VR,'e2-k1-s5','e2-k1-s6')),
- ('Flächeninhalt und Volumen berechnen',_a(FV,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s6','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1','e3-k1-s3','e3-k1-s4','e3-k1-s5','e4-k1-s1','e4-k1-s2','e4-k1-s4')),
- ('Netz eines Körpers vervollständigen',_a(PS,'e1-k1-s7')),
-]
-_PFK_KERN=['Seitenlängen berechnen und Figur nachweisen','Punkte berechnen: Mittelpunkt, Spiegelpunkt, Eckpunkt','Flächeninhalt und Volumen berechnen']
-KAPITEL['punkte-flaechen-koerper']=dict(pruefung='abitur',eintraege=[PS,VR,SP,FV],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Punkte, Flächen, Körper'),m) for n,m in _PFK_STUFEN],
- kern={n:(('ja','Grundhandgriff der Koordinatengeometrie (Betrag, Punktrechnung, Formel), in vier Jahrgängen 2022–2026') if n in _PFK_KERN else
-          ('nein','Sonderfall des Figurnachweises oder einmalige Form (Netz)')) for n,_ in _PFK_STUFEN})
-# ---- Abitur GK, Kapitel „Winkel + Abstände“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (4), echte = ids (nur Hauptplätze). Kern (Urteil
-# 08.10.): rechter Winkel über das Skalarprodukt (fünf Jahrgänge), Winkel berechnen (vier), Abstand
-# zu einer Ebene (drei) – die drei Rechenhandgriffe; der Lotfußpunkt wird im GK nur beschrieben
-# oder gedeutet (Lösungsweg, Gleichungspaar), nie selbst gerechnet.
-OR='orthogonalitaet';SW='skalarprodukt-und-winkel';AB='abstaende'
-_WA_STUFEN=[
- ('Rechten Winkel über das Skalarprodukt nachweisen',_a(OR,'e1-k4-s1','e1-k4-s2','e1-k4-s3','e1-k4-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s5','e3-k1-s3','e3-k1-s4')+_a(SW,'e1-k1-s1','e2-k2-s4')),
- ('Winkel berechnen',_a(SW,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s5','e3-k2-s1','e3-k2-s2','e3-k2-s3','e4-k1-s1','e4-k1-s2')),
- ('Abstand zu einer Ebene bestimmen',_a(AB,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e4-k1-s1')),
- ('Lotfußpunkt auf einer Geraden',_a(AB,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')+_a(OR,'e4-k1-s1')),
-]
-_WA_KERN=['Rechten Winkel über das Skalarprodukt nachweisen','Winkel berechnen','Abstand zu einer Ebene bestimmen']
-KAPITEL['winkel-abstaende']=dict(pruefung='abitur',eintraege=[OR,SW,AB],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Winkel + Abstände'),m) for n,m in _WA_STUFEN],
- kern={n:(('ja','Rechenhandgriff des Skalarprodukts, in drei bis fünf Jahrgängen 2022–2026') if n in _WA_KERN else
-          ('nein','im GK nur als Lösungsweg beschrieben oder gedeutet, nie selbst gerechnet')) for n,_ in _WA_STUFEN})
-# ---- Abitur GK, Kapitel „Geraden + Ebenen“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (4), echte = ids (nur Hauptplätze; der Nebenplatz
-# 2022-bebb-gk-B3c zählt nicht). Kern (Urteil 08.10.): Punktprobe (vier Jahrgänge), Ebenengleichung
-# aufstellen (vier), Lage erkennen und begründen (drei) – die Handgriffe, mit denen jede
-# Geometrieaufgabe beginnt; der Schnittpunkt steht nur 2023 (zwei Teilaufgaben).
-GE='geraden';EB='ebenen';LB='lagebeziehungen';SM='schnittmengen'
-_GEB_STUFEN=[
- ('Punktprobe an Gerade und Ebene',_a(GE,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s5')+_a(LB,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s7','e3-k1-s1')+_a(EB,'e1-k1-s4','e4-k2-s2')),
- ('Ebenengleichung aufstellen',_a(EB,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k2-s4','e4-k2-s1')+_a(SP,'e2-k1-s1','e2-k1-s4')),
- ('Lage von Geraden und Ebenen erkennen und begründen',_a(EB,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s6','e3-k1-s8','e4-k2-s3','e4-k3-s1')+_a(GE,'e1-k2-s3','e3-k1-s1','e3-k1-s2','e3-k1-s3')+_a(LB,'e3-k1-s2','e3-k1-s3')+_a(SP,'e3-k1-s1','e3-k1-s2','e3-k1-s4')),
- ('Schnittpunkt berechnen',_a(SM,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1')),
-]
-_GEB_KERN=['Punktprobe an Gerade und Ebene','Ebenengleichung aufstellen','Lage von Geraden und Ebenen erkennen und begründen']
-KAPITEL['geraden-ebenen']=dict(pruefung='abitur',eintraege=[GE,EB,LB,SM,SP],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Geraden + Ebenen'),m) for n,m in _GEB_STUFEN],
- kern={n:(('ja','Einstiegshandgriff jeder Geometrieaufgabe, in drei bis vier Jahrgängen 2022–2026') if n in _GEB_KERN else
-          ('nein','nur 2023, zwei Teilaufgaben')) for n,_ in _GEB_STUFEN})
-# ---- Abitur GK, Kapitel „Baumdiagramm + bedingte Wahrscheinlichkeit“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (8), echte = ids (nur Hauptplätze; der Nebenplatz
-# 2022-bebb-gk-B4i bei Unabhängigkeit zählt nicht). Kern (Urteil 08.10.): Baum zeichnen, Pfadregeln,
-# Ziehen ohne Zurücklegen, Vierfeldertafel, bedingte Wahrscheinlichkeit – die fünf Rechen- und
-# Zeichenhandgriffe (je drei bis vier Jahrgänge); Rückwärtsrechnen, Unabhängigkeit und Termdeutung
-# setzen sie voraus.
-ZP='zufallsexperimente-und-pfadregeln';VF='vierfeldertafel';BW='bedingte-wahrscheinlichkeit-und-bayes'
-UA='unabhaengigkeit'
-_BB_STUFEN=[
- ('Baumdiagramm zeichnen',_a(ZP,'e3-k1-s1','e3-k1-s5','e6-k1-s1','e6-k1-s2','e6-k1-s3','e6-k1-s6')),
- ('Wahrscheinlichkeit über die Pfadregeln berechnen',_a(ZP,'e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s7','e3-k1-s8','e5-k1-s1','e5-k1-s4','e6-k1-s4','e6-k1-s5')),
- ('Ziehen ohne Zurücklegen',_a(ZP,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4','e5-k1-s5','e5-k1-s6','e8-k2-s5')),
- ('Unbekannten Anteil aus einer Randwahrscheinlichkeit berechnen',_a(ZP,'e8-k2-s1','e8-k2-s2','e8-k2-s3')),
- ('Vierfeldertafel ausfüllen und ablesen',_a(VF,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(ZP,'e1-k1-s6')),
- ('Bedingte Wahrscheinlichkeit berechnen',_a(BW,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s3','e2-k1-s4','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')),
- ('Unabhängigkeit prüfen',_a(UA,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s5')),
- ('Ereignis und Wahrscheinlichkeitsterm deuten',_a(ZP,'e1-k1-s4','e7-k1-s1','e7-k1-s2','e7-k1-s3','e7-k1-s4','e7-k1-s5','e7-k1-s7')+_a(BW,'e2-k1-s2')),
-]
-_BB_KERN=['Baumdiagramm zeichnen','Wahrscheinlichkeit über die Pfadregeln berechnen','Ziehen ohne Zurücklegen',
- 'Vierfeldertafel ausfüllen und ablesen','Bedingte Wahrscheinlichkeit berechnen']
-KAPITEL['baum-bedingte-wahrscheinlichkeit']=dict(pruefung='abitur',eintraege=[ZP,VF,BW,UA],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Baumdiagramm + bedingte Wahrscheinlichkeit'),m) for n,m in _BB_STUFEN],
- kern={n:(('ja','Rechen- oder Zeichenhandgriff der Pfadregeln, in drei bis vier Jahrgängen 2022–2026') if n in _BB_KERN else
-          ('nein','rechnet rückwärts, prüft oder deutet; setzt Baum und Pfadregeln voraus')) for n,_ in _BB_STUFEN})
-# ---- Abitur GK, Kapitel „Binomialverteilung“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze). Kern (Urteil
-# 08.10.): Bernoulli-Term angeben und deuten (2023, 2026), Wert mit dem Rechner (2022, 2025, 2026),
-# Verteilung im Säulendiagramm lesen (2023, 2025, 2026) – Formel, Rechner und Bild der Verteilung;
-# die Umkehraufgabe (Potenzgleichung) dreht die Formel um, die Begründung steht einmal (2022).
-BV='binomialverteilung';ZG='zufallsgroessen-und-verteilungen'
-_BI_STUFEN=[
- ('Bernoulli-Formel: Term angeben und deuten',_a(BV,'e2-k1-s1','e2-k1-s4','e2-k1-s6','e2-k1-s7','e3-k2-s1','e3-k2-s6','e3-k2-s8')),
- ('Binomialwahrscheinlichkeit mit dem Rechner ermitteln',_a(BV,'e2-k1-s8','e3-k2-s2','e3-k2-s3','e3-k2-s4','e3-k2-s5','e4-k1-s4','e4-k2-s1')),
- ('Mindestanzahl oder p aus einer Potenzgleichung bestimmen',_a(BV,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s6','e4-k1-s7')),
- ('Verteilung im Säulendiagramm lesen',_a(BV,'e5-k1-s1','e5-k1-s4','e5-k1-s5','e5-k1-s6','e5-k1-s7')+_a(ZG,'e2-k1-s1')),
- ('Binomialverteilung begründen',_a(BV,'e1-k1-s1','e1-k1-s2','e1-k1-s5','e1-k1-s6')),
-]
-_BI_KERN=['Bernoulli-Formel: Term angeben und deuten','Binomialwahrscheinlichkeit mit dem Rechner ermitteln','Verteilung im Säulendiagramm lesen']
-KAPITEL['binomialverteilung']=dict(pruefung='abitur',eintraege=[BV,ZG],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Binomialverteilung'),m) for n,m in _BI_STUFEN],
- kern={n:(('ja','Formel, Rechner und Bild der Verteilung, je in zwei bis drei Jahrgängen 2022–2026') if n in _BI_KERN else
-          ('nein','dreht die Formel um (Potenzgleichung) oder begründet das Modell (einmal, 2022)')) for n,_ in _BI_STUFEN})
-# ---- Abitur GK, Kapitel „Erwartungswert“ (Stand 2026-10-08) ----
-# Stufen = Abschnitte des Kapitels im Zuschnitt (2), echte = ids (nur Hauptplätze). Kern (Urteil
-# 08.10.): beide Abschnitte – das Spiel ist die Definition (Summe Wert mal Wahrscheinlichkeit, 2023,
-# 2024), die Binomialverteilung die Formel n·p samt Streuung (2022, 2025, 2026); ohne die Definition
-# trägt die Formel nicht, ohne die Formel fehlt der häufigere Prüfungsplatz.
-KV='kenngroessen-von-verteilungen'
-_EW_STUFEN=[
- ('Erwartungswert der Binomialverteilung nutzen',_a(KV,'e3-k1-s1','e3-k1-s2','e4-k1-s1','e4-k1-s2','e4-k1-s3','e1-k2-s1')+_a(BV,'e5-k1-s2','e5-k1-s3','e3-k2-s7')),
- ('Erwartungswert eines Spiels berechnen und deuten',_a(KV,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k2-s1')+_a(ZG,'e1-k2-s1','e1-k2-s2')),
-]
-KAPITEL['erwartungswert']=dict(pruefung='abitur',eintraege=[KV,BV,ZG],
- stufen=[(n,_zuschnitt_ids(n,kapitel='Erwartungswert'),m) for n,m in _EW_STUFEN],
- kern={n:('ja','Definition (Spiel) und Formel n·p (Binomialverteilung) sind die beiden Grundhandgriffe des Kapitels') for n,_ in _EW_STUFEN})
-# ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
-# Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
-VERWECHSELBAR_GRUPPEN=[
- [('prozent','Prozentwert'),('prozent','Prozentsatz'),('prozent','Grundwert'),('prozent','Erhöhung und Veränderung in Prozent')],
- [('prozent','Zinsen und Zinssatz'),('prozent','Zinseszins und Guthabentabelle')],
- [('dreiecke','Kathete oder Hypotenuse direkt'),('dreiecke','Winkel berechnen'),('dreiecke','Seite berechnen'),('dreiecke','Seite berechnen (Sinussatz)')],
- [('wahrscheinlichkeit','Pfadregel'),('wahrscheinlichkeit','ohne Zurücklegen'),('wahrscheinlichkeit','Gegenereignis')],
- [('lineare','Endwert berechnen'),('wachstum','Tabelle ergänzen')],
- [('lineare','Gleichung aufstellen und rückwärts rechnen'),('wachstum','Faktor bestimmen, Gleichung aufstellen')],
- [('daten','Minimum, Maximum, Spannweite'),('daten','Median'),('daten','Mittelwert')],
- [('koerper','Volumen direkt'),('koerper','Mantelfläche mit Kosten')],
- [('quadratische','Nullstellen berechnen'),('quadratische','x zu gegebenem y'),('quadratische','Gerade und Parabel gleichsetzen')],
-]
-VERWECHSELBAR={}
-for _g in VERWECHSELBAR_GRUPPEN:
-  for _k,_s in _g:
-    VERWECHSELBAR[(_k,_s)]=[(k,s) for k,s in _g if (k,s)!=(_k,_s)]
+# ---- Daten: aus der Prüfungsgliederung (v2) ----
+def _lade_gliederung():
+  """KAPITEL wie in v1: {kap: dict(pruefung, eintraege, stufen=[(name, echte, muster)], kern={name:(ja|nein, grund)})}
+  und VERWECHSELBAR {(kap, stufe): [(kap, stufe)]} – aus msa/gliederung und abitur/gliederung."""
+  K,V={},{}
+  for pr in ('msa','abitur'):
+    for kap,G in GL.alle(MN,pr).items():
+      if not G['skript']: continue
+      K[kap]=dict(pruefung=pr,eintraege=G['bank'],
+        stufen=[(s['name'],s['originale'],[(e,p,f,'inner') if i else (e,p,f) for e,p,f,i in s['bank']]) for s in G['stufen']],
+        kern={s['name']:(s['kern'],s['kern_grund']) for s in G['stufen']},gliederung=G)
+      for s in G['stufen']:
+        if s['verwechselbar']: V[(kap,s['name'])]=list(s['verwechselbar'])
+  return K,V
+KAPITEL,VERWECHSELBAR=_lade_gliederung()
 # ---- Ende Daten ----
 
 def gerippe(t):
@@ -534,19 +151,23 @@ def muster(maps):
     if len(m)>3 and m[3]=='inner': s+='(i)'
     t.append(s)
   return ' '.join(t)
-HANDGRIFFE=os.path.join(MN,'msa','handgriffe-p10.csv')
 ZUSATZ=['jahre_letzte5','nebenplaetze','verwechselbar']
-def lade_handgriffe(pfad=HANDGRIFFE):
-  rows=[]
-  with open(pfad,encoding='utf-8') as f:
-    kopf=f.readline().rstrip('\n').split(';')
-    for z in f:
-      t=z.rstrip('\n').split(';')
-      d=dict(zip(kopf,t))
-      for c in ('hauptplatz','ganz_auch','zwischenschritt'):
-        d[c]=[x.strip() for x in d[c].split('|') if x.strip()]
-      rows.append(d)
-  return rows
+def lade_handgriffe(pfad=None):
+  """Plätze der Originale: aus den Gliederungsdateien (Tabellen „Plätze der Originale“, alle P10-Kapitel),
+  oder aus einer handgriffe-CSV, wenn pfad angegeben ist; Zeilen wie msa/handgriffe-p10.csv."""
+  if pfad:
+    rows=[]
+    with open(pfad,encoding='utf-8') as f:
+      kopf=f.readline().rstrip('\n').split(';')
+      for z in f:
+        t=z.rstrip('\n').split(';')
+        d=dict(zip(kopf,t))
+        for c in ('hauptplatz','ganz_auch','zwischenschritt'):
+          d[c]=[x.strip() for x in d[c].split('|') if x.strip()]
+        rows.append(d)
+    return rows
+  rows=[dict(p) for G in GL.alle(MN,'msa').values() for p in G['plaetze']]
+  return sorted(rows,key=lambda d:d['id'])
 def zusatz(kap,name,H):
   key=f'{kap}:{name}'
   jahre=sorted({d['id'][:4] for d in H if '-GYM-' not in d['id'] and 2022<=int(d['id'][:4])<=2026

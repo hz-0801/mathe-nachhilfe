@@ -15,6 +15,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Urteil zu Stufen und Kern (zuordnung.py, Stand 2026-10-06, Lauf B2): Stufen = Abschnitte des
+Kapitels in abitur/skript-zuschnitt-abi-gk.csv, echte = ids des Abschnitts (2022–2026, nur
+Hauptplätze). Sprossen ohne Prüfungshöhe; die Prüfungshöhe tragen die echten Aufgaben. Kern (Urteil
+Lauf B2): die klassische Kurvenuntersuchung (Nullstellen, Extrem- und Wendepunkte, Monotonie,
+Grenzverhalten, Symmetrie); die übrigen Abschnitte nutzen sie.
+
 ### Nullstellen und Achsenschnittpunkte berechnen
 - **Kern:** ja – klassische Kurvenuntersuchung, Grundlage der übrigen Abschnitte
 - **Bank:** funktionsklassen-und-eigenschaften-e2-k1-s1 funktionsklassen-und-eigenschaften-e2-k1-s2 funktionsklassen-und-eigenschaften-e2-k1-s3 funktionsklassen-und-eigenschaften-e2-k1-s4 funktionsklassen-und-eigenschaften-e2-k1-s7 funktionsklassen-und-eigenschaften-e2-k1-s8 funktionsklassen-und-eigenschaften-e1-k1-s1
