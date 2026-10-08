@@ -1,5 +1,14 @@
 # CLAUDE.md – Erfassung im Repo (ausgeführt am Beispiel abi/iqb)
 
+> **Einstieg (09.10.2026).** Für Blätter, Bank und Katalog gelten nur diese
+> fünf Dateien, in dieser Rangfolge: `mathe-nachhilfe/plan.md` (Ziel, Linien,
+> nächster Schritt) → aufgabenbank `bau/bauregeln.md` (Handwerk) → aufgabenbank
+> `bau/bauauftrag.md` (eine Lerneinheit bauen) → aufgabenbank `bank.md`
+> (Zeilenform) → `mathe-nachhilfe/begriffe.md` (Wörter). Alles andere ist
+> Beleg oder Archiv.
+
+Der Rest dieser Datei gilt nur der Erfassung der Prüfungshefte.
+
 Repo hz-0801/mathe-nachhilfe, alle Dateien flach in der Wurzel. Dieses Dokument
 gilt für die Erfassung der Abiturhefte (Profil abi) und des IQB-Aufgabenpools
 (Profil iqb) in den Katalog. Für MSA (Profil msa) und FHR (Profil fhr) liegen

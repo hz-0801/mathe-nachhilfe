@@ -1,5 +1,13 @@
 # mathe-nachhilfe
 
+> **Einstieg (09.10.2026).** Für Blätter, Bank und Katalog gelten nur diese
+> fünf Dateien, in dieser Rangfolge: `mathe-nachhilfe/plan.md` (Ziel, Linien,
+> nächster Schritt) → aufgabenbank `bau/bauregeln.md` (Handwerk) → aufgabenbank
+> `bau/bauauftrag.md` (eine Lerneinheit bauen) → aufgabenbank `bank.md`
+> (Zeilenform) → `mathe-nachhilfe/begriffe.md` (Wörter). Alles andere ist
+> Beleg oder Archiv.
+
+
 Prüfungskataloge und Themenkatalog für Mathematik-Nachhilfe, Berlin/Brandenburg.
 Vergangene Prüfungen werden Zeile für Zeile in Prüfungskataloge geschrieben, je
 Prüfungsart ein Profil. Der Themenkatalog beschreibt den Stoff, aus dem Blätter

@@ -1,257 +1,188 @@
-# Plan – Blätter aus der Bank
+# Plan – Blätter aus Katalog und Bank
 
-Stand 08.10.2026 · gilt (Ja des Lehrers 08.10.).
-Ersetzt faellig.md § 0 als Plan. Übergaben nennen nur noch
-Meilenstein und Schritt aus dieser Datei.
+Stand 09.10.2026, vom Lehrer beschlossen („plan gilt“). Entstanden aus dem
+Prüfstand 09.10. (pruefstand-2026-10-09/: vier Leserberichte, Gegenlese).
+Ersetzt archiv/plan-2026-10-08.md, ziel.md § 1–4 und faellig.md.
 
 ## 0 Wie dieser Plan gilt
 
-- Jeder Chat beginnt mit dem Abgleich: Meilenstein, Schritt, was seit
-  dem letzten Abgleich passiert ist, ob wir im Budget liegen.
-  Mindestens einmal am Tag.
-- Gearbeitet wird nur, was im Plan steht. Was nicht drinsteht, kommt
-  in § 6 „Später“ – nicht in eine neue Regel, nicht in einen Lauf.
-- Ändern darf den Plan nur der Lehrer. Vorher: große Linien (§ 2)
-  vorlesen, Änderung mit Grund in § 7 eintragen.
-- Eine Bemerkung des Lehrers zu einem Blatt ist eine Richtung, keine
-  Regel. Regeln entstehen gesammelt am Ende eines Meilensteins, aus
-  Befunden an mehreren Blättern. Ausnahme: Handwerksfehler (falsche
-  Zahl, Satzfehler) werden sofort behoben.
+- Er ist die einzige Stelle für Ziel, Linien und den nächsten Schritt
+  (§ 7 „Jetzt“). Übergaben verweisen hierher und nennen keinen eigenen
+  Schritt.
+- Ändern darf ihn nur der Lehrer, mit Eintrag in § 10.
+- Vorrang bei Widerspruch: plan.md → aufgabenbank bau/bauregeln.md
+  (Handwerk) → aufgabenbank bau/bauauftrag.md (Didaktik des Baus) →
+  aufgabenbank bank.md (Zeilenform) → begriffe.md (Wörter). Alles andere
+  ist Beleg oder Archiv.
 
 ## 1 Ziel
 
-Der Lehrer tippt im Projekt erzeugeBlatt(Bank) wenige Wörter und
-bekommt in wenigen Minuten ein gutes, druckfertiges Blatt – für den
-Unterricht und für die Prüfung. Zuerst P10 (FOR/EBR), dann Abitur
-Grundkurs. Die Aufgaben kommen aus einer vollständigen, geprüften Bank.
+Der Lehrer bestellt mit wenigen Wörtern ein Lernblatt oder ein
+Prüfungsblatt (mit echten Prüfungsaufgaben) und bekommt in höchstens
+3 Minuten drei PDFs (Übersicht, Blatt, Lösungen), die ein guter Didaktiker
+so bauen würde – zuerst alle P10-Themen, dann Abitur Grundkurs. Aufgebaut
+wird mit dem großen Abo; danach soll es mit einem Skript oder einem kleinen
+Abo laufen.
 
-## 2 Große Linien (fest)
+## 2 Befund in fünf Sätzen
 
-1. Die Bank ist die Quelle. Kein Blatt erfindet Aufgaben, außer als
-   Notweg; neue Aufgaben gehen geprüft in die Bank.
-2. Drei gepflegte Objekte (Entscheidung A, 08.10.): die Bank (Aufgabe =
-   Grundbaustein), der Katalog (Lernweg, Unterricht) und je Prüfungsart
-   eine Prüfungsgliederung (Kapitel → Stufe → Bankaufgaben, Originale,
-   didaktische Felder). Neues wird ein Feld in einem dieser drei, nie eine
-   neue Dateiart; alles andere (Zuschnitt, Handgriffe, Übersichten) erzeugt
-   ein Skript. Merkkasten und Fehler stehen nur im Katalog.
-3. Ein Bauprogramm setzt jedes Blatt (Unterricht, P10, Abitur). Der
-   Chat bestellt nur.
-4. Eine Regeldatei: aufgabenbank `bau/bauregeln.md`. Aufbau, Reihenfolge,
-   Auswahl und Didaktik, wie sie bis Montag 05.10. verallgemeinert
-   waren, sind der Rahmen. Ein einzelnes Blatt ändert keine Regel; weicht
-   ein Blatt vom Rahmen ab, wird mit dem Lehrer gesprochen.
-5. Der Lehrer urteilt über das Ganze und an Stichproben, nicht an
-   jedem Blatt.
-6. Fertig heißt messbar fertig (Abnahme je Meilenstein, `tafel.md`).
-7. Das Kontingent ist die Grenze: jeder Lauf mit Schätzung vorher und
-   Ablesen nachher; sparsam, aber Doppelarbeit wird in Kauf genommen,
-   wenn sie Wartezeit spart (Lehrer 08.10.).
+1. Wir drehen uns, weil Entscheidungen in Schichten liegen (15 Übergaben in
+   8 Tagen, der nächste Schritt wechselte 13-mal, fünf Dateien beanspruchen
+   Vorrang, Regelnummern zweimal neu) und nie aufgeräumt wurde.
+2. Schnell (Programm aus der Bank, 58 s) war nicht gut; gut (freier Bau mit
+   Lernweg, Geradenheft) war nicht schnell (21 min, 0,6 Mio Token).
+3. Die Bank ist reich (16 743 Zeilen, Originale, Fehlerquellen, geprüfte
+   Lösungen), aber ihre Ketten tragen keinen Lernweg und ihre Aufgaben keine
+   Formmerkmale; darum ergibt Auswahl von unten gleichförmige Blätter.
+4. Im Unterricht lief nur der Bank-Prompt (sechs Blätter, 01.–06.10.); jedes
+   Blatt baute eigene Satzmakros nach, 40 % der Erfindungen waren Dubletten.
+5. Die Werkstatt selbst ist zu schwer: 83 Skripte (68 000 Zeilen, 27 einmalig),
+   eine Projektanweisung von 3 100 Wörtern, davon 1 100 über tote Wege.
 
-8. Jede Blattsorte ist ein Filter auf einen vollständigen Bestand (Lehrer
-   08.10.): Fokus, Prüfungsblatt, Lernblatt, „mehr“, Original wählen nur aus
-   Bank, Katalog und Prüfungsgliederung aus; dazu ein Schalter Reihenfolge
-   (Prüfung beim Original, sonst Inhaltsverzeichnisse). Keine Regel gilt für
-   ein einzelnes Blatt. Fehlt einem Blatt etwas, wird der Bestand ergänzt,
-   keine Sonderregel geschrieben (Vorbehalt: die ersten Blätter wirken dünn,
-   solange zerlegte Fassungen und herausgelöste Teile in der Bank fehlen).
+## 3 Linien (gelten bis zum Ende von M3)
 
-Zweck der Blätter (Lehrer 09.10.):
-- Ein Prüfungsblatt bereitet so effizient wie möglich auf die echten
-  Prüfungsaufgaben vor.
-- Ein Blatt ist so lang, wie sein Zweck es braucht.
-Alles Weitere (Einstiegsseite, Kennung, Druck oder Verweis, Prüfstein) sind
-Mittel und werden am Blatt entschieden. Vollständigkeit liegt bei den Sorten
-Original und Original neu und im Stark-Heft bzw. Bildungsserver; das
-Prüfungsblatt wählt aus. Unterschiede je Prüfung stehen im Profil
-(Gliederung, Kettenlänge, Hilfsmittel, Ort der Originale), nicht in eigenen
-Regeln.
+1. Drei gepflegte Objekte, sonst nichts: **Katalog** (je Lerneinheit der
+   Lernweg), **Bank** (Aufgaben), **Prüfungsgliederung** (Originale,
+   Häufigkeit). Alles andere ist Werkzeug, Beleg oder Archiv.
+2. **Der Lernweg führt, die Bank liefert.** Je Lerneinheit wird einmal
+   gebaut: Lernweg in 5–7 Schritten, je Schritt die beste Aufgabe aus der
+   Bank oder neu geschrieben, Kritiker ohne Regeln, Prüfskripte. Das
+   Ergebnis wird zerlegt zurückgelegt (Lernweg ins Katalogfeld, Aufgaben als
+   Bankzeilen); kein ganzes Blatt wird abgelegt.
+3. **Die Bestellung setzt** aus Lernweg und Bankzeilen; ein Setzer ohne
+   Modell macht daraus die drei PDFs. Fehlt der Lernweg, wird die Einheit
+   erst gebaut (Ausnahme, ~20 min) und dann gesetzt.
+4. Sorten aus demselben Bestand: Lernblatt = Lernweg einer Lerneinheit,
+   Originale nur, wo sie die beste Aufgabe sind. Prüfungsblatt = die Stufen
+   der Prüfungsgliederung in Katalogfolge, je Stufe die passenden Schritte
+   (Feld schritt), am Ende ein echtes Original ganz. Fokus = ein Schritt.
+   Prüfungsheft = die Prüfungsblätter eines Kapitels. Original und Original
+   neu bleiben bei pruefheft.py. Den Wortlaut der Originale liest der Setzer
+   aus aufgabenbank-privat.
+5. Eine Datei je Frage: Ziel und Plan in plan.md; Handwerk in
+   bauregeln.md; Didaktik im Bauauftrag (bau/bauauftrag.md); Wörter in
+   begriffe.md; Zeilenform in bank.md. Regeln werden mit Namen zitiert,
+   nicht mit Nummern.
+6. Der Lehrer urteilt an Stichproben (etwa jede zehnte Einheit) und am
+   Prüfstein; Kritiker und Prüfskripte prüfen jede. Das ersetzt die Pflicht
+   vom 01.10., dass der Lehrer Vollständigkeit und Reihenfolge je Eintrag
+   vorher bestätigt.
+7. Jeder Lauf: Schätzung vorher, Ablesen nachher; Zeit je Einheit wird
+   gemessen.
+8. Gegen das Kreisdrehen: Der nächste Schritt steht nur in plan.md (§ 7,
+   Meilenstein und Abnahmestand); die Übergabe nennt keinen eigenen.
+   Befunde aus Blättern gehen in eine Befundliste je Meilenstein
+   (befunde-M<n>.md); bauauftrag.md und bauregeln.md ändern sich nur am Ende
+   eines Meilensteins, gesammelt. Ausnahme: Handwerksfehler (falsche Zahl,
+   Satzfehler) sofort. Nebenfragen kommen in § 9 „Später“, nicht in eine
+   Regel.
 
-## 3 Weichen (entschieden 08.10.)
+## 4 Was sich an Bank und Katalog ändert
 
-W1 Ein Bauprogramm: `pruefheft.py` ist die Basis; `zusammenbau.py`
-   wird nicht weiterentwickelt; Bank-Prompt v5.8 bleibt Notweg.
-W2 Steckbrief geht in der Prüfungsgliederung auf (Felder an der Stufe:
-   Arten, Gruppen, Reihenfolge, Zwischenfragen); Merkkasten, Formel,
-   Fehler werden aus dem Katalog verwiesen (geändert 08.10., Befund oben).
-W3 Regeln vom 07.10.: werden gegen den Stand Montag 05.10. 18:00
-   verglichen; jede Umkehrung entscheidet der Lehrer einzeln.
-W4 Reihenfolge: Vereinheitlichen (an P10 und Sek II zugleich), dann
-   P10 vollständig, dann Anschluss erzeugeBlatt(Bank), dann Unterricht,
-   dann Abitur-Blätter. Sek-II-Daten werden parallel gefüllt.
+- Katalog, je Lerneinheit neues Feld **Lernweg**: Schritt · was der Schüler
+  begreift · Stolperstelle · Bank-ids (2–3 gleichwertige je Schritt für
+  „neue Zahlen“).
+- Bank, je Zeile neue Felder (in M1 nur in bank.md definiert; gefüllt wird
+  je gebauter Einheit, nicht global): **schritt** (Lernweg-Schritt, neben sprosse),
+  **sache**, **darstellung** (Skizze mit Dreieck / Bild ohne / Karte / nur
+  Text / Tabelle / Graph), **frage** (Länge, Unterschied, Entscheidung,
+  Begründung …), **antwortform** (rechnen, ankreuzen, zuordnen, begründen),
+  **status** (gut / schwach mit Grund und besserer id / ruht). Gelöscht wird
+  nichts; schwach und ruht werden nicht gesetzt.
+- Prüfkennung „(P10 2023 OS)“ wandert aus dem Aufgabentext ins Feld (2 523
+  Zeilen, Skript).
+- bank-pruef.py: Altlasten (≈ 160 Meldungen je Eintrag) einmal bereinigen,
+  damit „0 Abweichungen“ wieder prüfbar ist; duplikate.py hineinnehmen.
 
-## 4 Meilensteine
+## 5 Werkzeuge
 
-M1 Fundament
-- Plan, Fortschrittstafel (erledigt 08.10.).
-- Regelvergleich Montag 05.10. 18:00 ↔ heute (W3) – erledigt 08.10.:
-  acht Umkehrungen (aus bauregeln-streichliste.md), alle wie 07.10.
-  bestätigt, Fuß ohne Tipp. Der Rahmen ist bauregeln.md, Stand 07.10.
-- Probelauf im Projekt erzeugeBlatt(Bank) – erledigt 08.10.: Opus, drei
-  Klone, xelatex da, sympy fehlte (pip, 12 s), Fokus Pythagoras gebaut
-  (5 S. + 2 S. Lösungen, 0 Fehler), 58 s gesamt. Der Weg geht.
-- Abnahme: erfüllt 08.10. – M1 abgeschlossen.
+- **Setzer** (neu, klein): liest Lernweg + Bankzeilen, schreibt LaTeX mit
+  mathblatt.sty, drei PDFs (Übersicht nach bauregeln „Übersicht und
+  Serie“). Ziel: unter 30 s. Die Kennung eines Blatts steht im Register mit
+  der Liste der gesetzten Bank-ids; damit setzt er ein Blatt wieder und
+  bedient „hängt bei Nr.“, ohne dass ein Blatt abgelegt wird. Graphen und
+  Aufgabenbilder (Feld bild, heute leer) braucht er erst vor M5.
+- **mathblatt.sty**: die Formen aufnehmen, die die Blatt-Chats selbst
+  nachbauten (Rechenkaro, Kreuzzeile, zweispaltig Skizze/Rechnung, graues
+  a), Antwortfeld).
+- **Bauauftrag** (bau/bauauftrag.md): Zweck, Lernweg zuerst, die Prinzipien
+  aus den alten Prompts (ein Merkmal je Stufe, rückwärts von der Decke,
+  jede Nummer beim einfachsten Fall, verfremdetes Original behält die Falle,
+  Runden zuletzt, Sache trägt die Mathematik, nie zwei Sachaufgaben mit
+  demselben Modell, Antwortform wechseln), Kritiker zählt Sachen und
+  Darstellungen über die Einheit, Ausgaben (Katalogfeld, Bankzeilen, Beleg).
+- **pruefheft.py** bleibt für Original und Original neu; zusammenbau.py,
+  regal.py, Testlauf-Kette, einmalig/ und gelaufene Katalogskripte ins
+  Archiv (Liste r4 § 3.6).
+- **bankblatt.md** wird kurz: Bestellung deuten → Setzer → bei fehlendem
+  Lernweg Bauauftrag; Schülerliste bleibt privat. Die alten Prompts
+  unterrichtsblatt.md und pruefungsblatt.md bleiben als Steinbruch liegen
+  und werden nach M3 archiviert.
 
-M2 Vereinheitlichen
-- Katalog-Einheit bekommt die Felder aus W2; die zwei Steckbriefe
-  ziehen in pythagoras.md und prozentrechnung.md um.
-- Zuordnung, Zuschnitt, Handgriffe werden Sichten (Skript), keine
-  gepflegten Dateien.
-- Bauprogramm liest Katalog und Bank.
-- Abnahme: drei Blätter – Fokus Pythagoras und Fokus Grundwert (wie
-  07.10. oder nur dort anders, wo der Lehrer es will) und ein Blatt
-  Kurvenuntersuchung (Abitur: lange Kette, Graphen).
+## 6 Aufräumen (M1: die ersten drei Punkte; der Rest nach M2)
 
-M3 P10 vollständig
-- Felder aus W2 für alle P10-Einheiten, in Runden; selbst geprüft,
-  Lehrer sieht eine Sammelliste.
-- Neubau aller zehn Kapitel-Hefte und der Fokusblätter.
-- Abnahme: Prüfskript ohne Fehler; je Kapitel eine Seite beim Lehrer;
-  je Kapitel ein Einsatz in der Stunde, Befunde gesammelt.
+- plan.md neu (dieser Entwurf); ziel.md § 1–4 geht darin auf, Rest
+  archiviert; faellig.md archiviert, Gültiges als Zeile in § 7.
+- blatt-konzept.md, layout-befunde.md, bauregeln-streichliste.md,
+  Beschluss-Stubs, weg-vorschlag.md, uebersicht-vorschlag.md,
+  merkzettel-abend.md, Testlauf-Ordner → archiv; konzept.md auf die
+  Erfassung zurückgeschnitten.
+- Verweise auf Regelnummern in bank.md, bankblatt.md, pruefheft.py auf
+  Namen umstellen; Blattregeln aus bank.md nach bauregeln.md oder gestrichen.
+- begriffe.md als einzige Wortliste (Kette, Sprosse, Lernweg, Schritt,
+  Lerneinheit; „Einstieg unten“ = „schwach“).
+- CLAUDE.md und README-Einstieg zeigen auf fünf Dateien: plan.md,
+  bauregeln.md, bau/bauauftrag.md, begriffe.md, bank.md.
+- Projektanweisung auf Rolle, Chatstart (plan.md, uebergabe.md), Umgang,
+  Modell, Umzug kürzen; Rechner- und Code-Tab-Wege nach anweisungen/wege.md.
 
-M4 Anschluss erzeugeBlatt(Bank)
-- Neue Projektanweisung: Bestellung deuten (Bestellbaum offen.html),
-  Programm aufrufen, sonst Notweg v5.8.
-- Abnahme: „Pythagoras P10“ liefert im Blatt-Projekt das Blatt in
-  wenigen Minuten; drei weitere Bestellungen.
+## 7 Meilensteine
 
-M5 Unterricht für die P10-Themen
-- „Vollständig“ je Thema: Katalog auf Vollständigkeit und Reihenfolge
-  geprüft und vom Lehrer bestätigt; Prüfskript ohne Meldung.
-- Abnahme: je Thema ein Lernblatt über erzeugeBlatt(Bank).
+M0 Prüfstein K4W „Hypotenuse berechnen“: Lehrer 09.10. „besser“ als
+   Durchgang 1 – erfüllt; die Linie trägt so weit.
+M1 Grundlagen, klein – plan.md, CLAUDE.md/README-Einstieg, bauauftrag.md,
+   Felder in bank.md definiert, Lernweg-Feld im Katalog definiert.
+   Abnahme: ein frischer Agent findet über CLAUDE.md alles Nötige.
+M2 Prüfstein Bau – „Kathete berechnen“ nach Bauauftrag gebaut, zerlegt
+   zurückgelegt, mit einem Setzer-Rohling gesetzt; K4W nachträglich in
+   dieselbe Form gebracht. Gemessen: Bauzeit, Token, Setzzeit. Abnahme:
+   Kritiker ohne schweren Befund, Lehrer „gut“, Setzen ≤ 3 min. Gelingt es
+   nicht: Umbau beenden, Blätter auf Bestellung frei bauen wie das
+   Geradenheft. Danach: Rest von § 6, Prüfkennung ins Feld, bank-pruef
+   bereinigen.
+M3 P10 – Reihenfolge: Einheiten mit „P10 oft“ (45), dann Kern mit P10 (54
+   zusammen), dann der Rest; Runden zu etwa zehn, Agenten parallel,
+   Ablesen zwischen den Runden; erste Runde ein Kapitel, Lehrer sieht eine
+   Einheit. Abnahme: jede Einheit hat Lernweg, Prüfskripte ohne Meldung,
+   Stichproben gut.
+M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
+   Bestellungen ≤ 3 min (für Einheiten mit Lernweg).
+M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
+   reicht.
 
-M6 Abitur Grundkurs
-- Felder aus W2 für die Abitur-Einheiten, Hefte, Lernblätter – wie
-  M3 bis M5.
+Jetzt: M1.
 
-Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
-- Leeren Eintrag ableitungsgraph-und-funktionsgraph füllen.
-- Abitur-GK-Zuschnitt prüfen und zuordnen wie bei P10.
-- Mehr Aufgaben mit Graphen in den Analysis-Einträgen.
+## 8 Modelle und Kosten
 
-## 5 Jetzt
+Bau-Agenten Opus; Kritiker und Leser Fable (Fable-Kontingent nutzen).
+Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
+Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
+→ die 54 P10-Kerneinheiten ≈ 0,3–1,6 Wochen Kontingent. M2 misst den Wert;
+M3 wird danach budgetiert.
 
-Stand 09.10. (Pause des Lehrers): M2 technisch umgesetzt, Abnahme offen.
+## 9 Später
 
-Nächster Schritt (08.10.): Proben der Serie bauen (siehe unten) und dem Lehrer
-zeigen. Programmfehler am Heft Kurvenuntersuchung sind behoben (08.10.:
-Zählung im Kopf weg, Fuß nur Ergebnisse, kurzer Stamm, Säulendiagramm gefüllt).
+Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
+Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
+Prüfung.
+Zu M4: Bestelloptionen (Wiederholung, Ausblick) und Prüfungsprofile aus
+archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
-Erledigt 09.10.:
-- Prüfungsgliederung: eine Datei je Kapitel (msa/gliederung/, abitur/
-  gliederung/, Format in msa/gliederung/README.md). zuordnung.py liest
-  sie; alle 19 Zuordnungen byteidentisch. Zuschnitt und Handgriffe werden
-  erzeugt (werkzeuge/gliederung-sichten.py), P10 byteidentisch.
-  Steckbriefe aufgegangen (archiv/steckbrief-*-2026-10-08.md).
-- Bauprogramm liest die Gliederung: Fokus Pythagoras und Grundwert
-  wortgleich wie 07.10.; Lösungen tragen bei „Typische Fehler“ jetzt den
-  Katalogwortlaut (länger).
-- Prüfstein Sek II: Heft Kurvenuntersuchung neu gebaut, 31 S. + 7 S.
-  Lösung (aufgabenbank bau/pruefheft/pruefstein-2026-10-09/).
-- Bank: Prüffehler in sechs Einträgen behoben (alle 0), Lücke „Netz
-  vervollständigen“ gefüllt (4), Graphen Ableitungsgraph gerendert und
-  einer verbessert; Prüfskript übergeht weg.jsonl.
+## 10 Änderungen
 
-Für den Lehrer (Abnahme M2):
-1. Heft Kurvenuntersuchung ansehen. Befunde des Laufs: der Stamm einer
-   langen Aufgabe wird bei jeder Teilaufgabe wiederholt (10 Stämme mit 3
-   und mehr Teilaufgaben, längster 9); 9 Aufgaben haben statt Graph nur
-   „Skizze: …“; keine der 1 129 Analysis-Bankzeilen hat ein Aufgabenbild.
-   Das ist die Sek-II-Frage aus W4 (Ketten, Graphen).
-2. Typische Fehler auf dem Lösungsblatt: Katalogwortlaut (länger) lassen
-   oder im Katalog kürzen.
-Offen klein: „Säulendiagramm lesen“ (2 fehlen, Zählfrage).
-
-Richtung Serie (Lehrer 09.10., noch keine Regel): Jedes Blatt ist eine
-Portion (2–3 Seiten) einer Serie mit Kennung, für Unterricht und Prüfung
-gleich. Baustein ist der Abschnitt (ein Handgriff: Grundvorstellung →
-Erkennen → Auswahl aufsteigend → Prüfungsniveau); zwei Schalter: Ordnung
-(Katalog oder Prüfungsgliederung) und Einstieg (vorn oder auf Wort des
-Lehrers). Einstiegsseite je Thema: alle Schritte, je eine kurze Aufgabe;
-wo der Schüler hängt, beginnt die Serie. Folgebaum für alle: weiter ·
-mehr · leichter · Lösung · hängt bei Nr. Prüfstein am Ende. Wiederkehr
-vorerst nicht (beißt sich mit schmal). Rückblick vorn wird Grundvorstellung
-je Abschnitt. Altes Heft bleibt baubar.
-Entschieden (Lehrer 08.10., an Probe Portion 1 Kurvenuntersuchung):
-- Eine Reihenfolge: die des Katalogs, also der Inhaltsverzeichnisse der
-  Lehrwerke. Die Prüfungsgliederung wählt aus und gewichtet, sie ordnet nicht.
-- Teile einer Serie: Hat ein Thema in den Inhaltsverzeichnissen ein eigenes
-  Unterkapitel, wird es ein eigener Teil, an seiner Stelle. Ein Sonderfall
-  ohne eigenes Unterkapitel (Sattelpunkt) bleibt in seinem Teil.
-- Kern und Rand werden getrennt; auch ein Rand-Teil steht immer in der Serie
-  und wird bei Bedarf übersprungen. Kern/Rand ist ein Merkmal im
-  Übersichtsblatt, keine Reihenfolge: Prüfungsblatt nach Häufigkeit in der
-  Prüfung, Lernblatt nach Verlagsmarken („Vertiefen“). Aufgaben zählen nur als
-  Gegenprobe, wo Seiten vorliegen.
-- Keine Teilnummern: am Ende jedes Blatts Vorgänger und empfohlener
-  Nachfolger (Rand darf übersprungen werden); die Kennung gehört zum Blatt.
-Vorschläge aus der Probe (am nächsten Blatt prüfen): Erkennfrage an der
-Aufgabe selbst („Was ist hier zu tun?“), nicht als Fragen nach Nummern; in der
-Mitte eines Abschnitts nur der Teil eines Originals, der den Handgriff übt
-(„nach Abi ’24“), das ganze Original am Ende; keine Überschrift
-„Prüfungsniveau“, keine Fundstelle an der Marke.
-
-Problem (Lehrer 08.10., für den Nachzug der Regeln): Regeln zwingen das
-Modell zu Formen, die es ohne Zwang besser wählen würde (Paket Pythagoras:
-Merkkasten, „Was ist gesucht?“, angekreuzte Rechenschritte). Richtung:
-Handwerk (Satz, Schreibweise, Zahlen, Lösungen) bleibt Regel; Didaktik wird
-Zweck in einem Satz plus ein gutes und ein schlechtes Beispiel, und jedes
-Blatt wird vor der Abgabe am Zweck geprüft, nicht an einer Liste.
-
-Richtung Durchgänge (Lehrer 08.10., Versuch, noch keine Regel): Ein Blatt
-(Lerneinheit) gibt es in drei Durchgängen, auf einmal ausgegeben, gleiche
-Sorten, andere Varianten, jeder kürzer als der vorige:
-- 1 Einstieg: mit Vorstufen, Hilfen aufgedeckt, lange Päckchen, glatte Zahlen;
-  die erste Aufgabe je Sorte dient als Test (sitzt sie, weiter zu 3).
-- 2 Wiederholung (am besten mit Abstand): ohne Vorstufen, Hilfe nur am Anfang,
-  kurze Päckchen, krumme Zahlen.
-- 3 Prüfung: ohne Hilfe, ohne Päckchen, am Ende das Original ganz.
-Hakt es, liefert „hängt bei Nr.“ diese eine Sorte noch einmal mit Einstieg
-unten. Der Lehrer wählt alle drei oder einen. Nicht für Rand-Blätter,
-Prüfungsheft, Original. Probe: „Die lange Seite“ in drei Durchgängen.
-
-Offene Liste für die Proben (am Blatt entscheiden): Bauregel 2.2 „jede echte
-Aufgabe ganz“ gehört zu Original/Original neu, nicht zum Prüfungsheft;
-Bauregel 1.2 „kurz“ wird durch „so lang wie der Zweck“ ersetzt; ziel.md § 1
-Länge ebenso; Prüfstein je Fall (offen.html fest 04.10. beim Abitur
-fraglich); Fokusblatt mit oder ohne Original am Ende.
-Proben: Portion 1 Kurvenuntersuchung (Prüfung, Einstieg höher), Portion 1
-eines P10-Lernblatts (Katalog, Einstieg vorn), Einstiegsseite
-Kurvenuntersuchung. Erst danach Regeln nachziehen (Sorten 2, Rückblick
-3.10, Prüfungsheft 2.2, Länge ziel § 1, Lernblatt 2.3, Folgebaum 9.1).
-Parallel: erzeugeBlatt(Bank) v5.8 wird im Unterricht weiter benutzt;
-seine Protokolle (eingang/) sind Befunde, gesammelt ausgewertet.
-
-
-## 6 Später (nicht jetzt)
-
-Folgebaum der Kennung · Serie mit Wiederkehr · Musterbeispiel ·
-Serie als drei Durchgänge leicht/mittel/schwer durch das ganze Thema (Lehrer 08.10.) · Zerlegung als Grundbaustein: jede Aufgabe als Kette von Größen, leichter = mehr aufgedeckt (Lehrer 08.10.) · Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
-Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
-
-## 7 Änderungen
-
-- 08.10.2026 (f): große Linie 8 „Blattsorte = Filter auf den Bestand“; Grund:
-  Sonderregeln je Blatt erzeugten Leerlauf am Paket Pythagoras. Nachzug:
-  Bauregel 0.3 (Regel aus einem Befund am Blatt) streichen.
-
-- 08.10.2026 (e): keine Teilnummern, Vorgänger und empfohlener Nachfolger
-  (Lehrer 08.10.).
-
-- 08.10.2026 (d): Reihenfolge nur aus dem Katalog, Teile = Unterkapitel der
-  Inhaltsverzeichnisse, Kern/Rand getrennt, Rand-Teil immer (Lehrer 08.10.).
-
-- 09.10.2026: Entscheidung A (Bank + Katalog + Prüfungsgliederung), W2
-  angepasst; Messwert Nacht: Woche 30 → 31 %, Fable 7 → 9 % (0,66 Mio Token).
-- 08.10.2026 (c): W3 entschieden – Übersicht vorn entfällt, Zählung nur
-  Schlusszeile, Gruppen eingerückt, Auswahl im Fokusblatt, Bündel/Rahmen/
-  Anhang fallen, Richtung kurz, Zwischenfragen als Richtung, Fuß nur
-  Ergebnisse ohne Tipp (Lehrer 08.10.).
-
-- 08.10.2026 (b): Vereinheitlichen als große Linie (ein Objekt je Thema);
-  W2 neu: Steckbrief geht im Katalog auf; Sek II als Prüfstein (Kurven-
-  untersuchung) und Sek-II-Daten parallel; Meilensteine neu M1–M6
-  (Lehrer: „wir legen jetzt fest“).
-- 08.10.2026: Plan angelegt, W1–W4 nach Empfehlung entschieden (Lehrer:
-  „annehmbar“); ersetzt faellig.md § 0 vom 07.10. (Plan „Schalter“) und
-  nimmt den Plan „P10 fertig“ vom 06.10. wieder auf.
+- 09.10.2026: Plan neu aus dem Prüfstand; Linie „Lernweg führt, Bank
+  liefert“, Setzer ohne Modell, Mechanik gegen Kreisdrehen (Linie 8),
+  Meilensteine M0–M5. Ersetzt Plan vom 08.10. (große Linien 1, 3, 8, W1–W4,
+  M1–M6) und die Pflicht vom 01.10. „Lehrer bestätigt Vollständigkeit je
+  Eintrag vorher“. Messwert Prüfstand: fünf Fable-Leser + Kritiker ≈ 1,4 Mio
+  Token → Woche 37 → 41 %, Fable 12 → 18 %.

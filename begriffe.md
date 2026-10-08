@@ -1,6 +1,6 @@
 # Begriffe – was die Wörter bedeuten
 
-Stand 08.10.2026. Zum Nachschlagen für den Lehrer: die Wörter der drei
+Stand 09.10.2026. Zum Nachschlagen für den Lehrer: die Wörter der drei
 Objekte (Katalog, Bank, Prüfungsgliederung) und des Blatts, in einfachen
 Worten, an einem Beispiel. Noch nicht vereinheitlicht – § 3 sagt, was doppelt
 ist und was offen bleibt.
@@ -11,6 +11,8 @@ ist und was offen bleibt.
 |---|---|---|
 | Thema | eine Datei im Katalog | `katalog/pythagoras.md` |
 | Lerneinheit | ein Abschnitt des Themas, wie ein Unterkapitel im Buch | „Satz und Hypotenuse“ |
+| Lernweg | die 5–7 Schritte, in denen der Schüler eine Lerneinheit begreift; steht im Katalog und führt das Blatt (plan.md, 09.10.) | Seiten benennen → Kästchenbild → Gleichung aufstellen → rechnen → Sache → P10 |
+| Schritt | ein Teil des Lernwegs; Bankfeld schritt „L1-3“ | L1-3 „Gleichung aufstellen ohne Rechnen“ |
 | Blatt | wird aus einer Lerneinheit gebaut | „Die lange Seite“ |
 | Kette | ein Rechenweg in der Bank, von leicht bis Prüfung | „Hypotenuse“ (16 Sprossen) |
 | Sprosse | eine Stufe auf der Kette | Sprosse 11: Leiter mit Überstand |
