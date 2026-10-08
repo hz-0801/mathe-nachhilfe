@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral (Abitur GK, Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
 Eingaben:
@@ -321,6 +321,26 @@ KAPITEL['ableitung-tangente']=dict(pruefung='abitur',eintraege=[TN,AA,AG],
  stufen=[(n,_zuschnitt_ids(n,kapitel='Ableitung + Tangente'),m) for n,m in _AT_STUFEN],
  kern={n:(('ja','Grundhandgriff der Ableitung, in jedem Jahrgang 2022–2026') if n in _AT_KERN else
           ('nein','setzt Tangente und Steigung voraus; im GK nur als Figur oder Deutung')) for n,_ in _AT_STUFEN})
+# ---- Abitur GK, Kapitel „Integral“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (6), echte = ids (nur Hauptplätze; die Nebenstelle
+# 2023-bebb-gk-B2.1l zählt nicht). Kern (Urteil 08.10.): Fläche berechnen, Integral berechnen,
+# Stammfunktion bilden, Integral am Graphen deuten – Hauptsatz vorwärts und sein Bild; die
+# Stammfunktion am Graphen liest ihn rückwärts, die Flächenbedingung dreht die Flächenrechnung um.
+SH='stammfunktion-und-hauptsatz';IR='integrationsregeln';FI='flaecheninhalt-durch-integration'
+_IN_STUFEN=[
+ ('Fläche zwischen Graph und Achse oder Gerade berechnen',_a(FI,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s4','e1-k1-s5','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k1-s6','e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s5')),
+ ('Bestimmtes Integral berechnen',_a(SH,'e2-k1-s1','e2-k1-s2','e2-k1-s3')+_a(IR,'e1-k1-s1','e1-k1-s2','e1-k1-s3')+_a(FI,'e5-k1-s7')),
+ ('Stammfunktion bilden und nachweisen',_a(SH,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e1-k1-s5','e1-k1-s6')+_a(IR,'e2-k1-s1','e2-k1-s2','e2-k1-s3')),
+ ('Integral und Fläche am Graphen deuten',_a(FI,'e5-k1-s1','e5-k1-s2','e5-k1-s3','e5-k1-s4','e5-k1-s5','e5-k1-s6','e4-k1-s5')),
+ ('Stammfunktion am Graphen: skizzieren und deuten',_a(SH,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4','e3-k1-s5')),
+ ('Parameter aus einer Flächenbedingung bestimmen',_a(FI,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s4')),
+]
+_IN_KERN=['Fläche zwischen Graph und Achse oder Gerade berechnen','Bestimmtes Integral berechnen',
+ 'Stammfunktion bilden und nachweisen','Integral und Fläche am Graphen deuten']
+KAPITEL['integral']=dict(pruefung='abitur',eintraege=[SH,IR,FI],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Integral'),m) for n,m in _IN_STUFEN],
+ kern={n:(('ja','Hauptsatz vorwärts und sein Bild am Graphen, Grundlage der übrigen Abschnitte') if n in _IN_KERN else
+          ('nein','liest den Hauptsatz rückwärts oder dreht die Flächenrechnung um')) for n,_ in _IN_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
