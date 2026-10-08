@@ -66,9 +66,10 @@ M1 Fundament
 - Regelvergleich Montag 05.10. 18:00 ↔ heute (W3) – erledigt 08.10.:
   acht Umkehrungen (aus bauregeln-streichliste.md), alle wie 07.10.
   bestätigt, Fuß ohne Tipp. Der Rahmen ist bauregeln.md, Stand 07.10.
-- Probelauf im Projekt erzeugeBlatt(Bank): Repos holen, LaTeX,
-  `pruefheft.py` laufen lassen, Zeit messen.
-- Abnahme: Rahmen fest, Probelauf ja/nein mit Zeit.
+- Probelauf im Projekt erzeugeBlatt(Bank) – erledigt 08.10.: Opus, drei
+  Klone, xelatex da, sympy fehlte (pip, 12 s), Fokus Pythagoras gebaut
+  (5 S. + 2 S. Lösungen, 0 Fehler), 58 s gesamt. Der Weg geht.
+- Abnahme: erfüllt 08.10. – M1 abgeschlossen.
 
 M2 Vereinheitlichen
 - Katalog-Einheit bekommt die Felder aus W2; die zwei Steckbriefe
@@ -109,7 +110,8 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 ## 5 Jetzt
 
-Meilenstein M1. Nächster Schritt: Probelauf im Projekt erzeugeBlatt(Bank).
+Meilenstein M2. Nächster Schritt: Abgleich Zuordnung ↔ Katalog-Einheiten
+(Skript) und Entwurf der neuen Felder der Katalog-Einheit.
 
 ## 6 Später (nicht jetzt)
 
