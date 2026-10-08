@@ -191,6 +191,13 @@ Mitte eines Abschnitts nur der Teil eines Originals, der den Handgriff übt
 („nach Abi ’24“), das ganze Original am Ende; keine Überschrift
 „Prüfungsniveau“, keine Fundstelle an der Marke.
 
+Problem (Lehrer 08.10., für den Nachzug der Regeln): Regeln zwingen das
+Modell zu Formen, die es ohne Zwang besser wählen würde (Paket Pythagoras:
+Merkkasten, „Was ist gesucht?“, angekreuzte Rechenschritte). Richtung:
+Handwerk (Satz, Schreibweise, Zahlen, Lösungen) bleibt Regel; Didaktik wird
+Zweck in einem Satz plus ein gutes und ein schlechtes Beispiel, und jedes
+Blatt wird vor der Abgabe am Zweck geprüft, nicht an einer Liste.
+
 Offene Liste für die Proben (am Blatt entscheiden): Bauregel 2.2 „jede echte
 Aufgabe ganz“ gehört zu Original/Original neu, nicht zum Prüfungsheft;
 Bauregel 1.2 „kurz“ wird durch „so lang wie der Zweck“ ersetzt; ziel.md § 1
@@ -207,7 +214,7 @@ seine Protokolle (eingang/) sind Befunde, gesammelt ausgewertet.
 ## 6 Später (nicht jetzt)
 
 Folgebaum der Kennung · Serie mit Wiederkehr · Musterbeispiel ·
-Serie als drei Durchgänge leicht/mittel/schwer durch das ganze Thema (Lehrer 08.10.) · Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
+Serie als drei Durchgänge leicht/mittel/schwer durch das ganze Thema (Lehrer 08.10.) · Zerlegung als Grundbaustein: jede Aufgabe als Kette von Größen, leichter = mehr aufgedeckt (Lehrer 08.10.) · Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
 Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
