@@ -110,8 +110,25 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 ## 5 Jetzt
 
-Meilenstein M2. Nächster Schritt: Abgleich Zuordnung ↔ Katalog-Einheiten
-(Skript) und Entwurf der neuen Felder der Katalog-Einheit.
+Meilenstein M2. Halt vor dem Umbau – Planfrage an den Lehrer (08.10. nachts):
+
+Befund Abgleich Zuordnung ↔ Katalog: Von 80 P10-Stufen liegen 38 in einer
+Katalog-Einheit, 22 über mehrere Einheiten eines Eintrags, 19 über mehrere
+Einträge (z. B. „Grundfigur berechnen“: flaechen e1–e4 und kreis; „Volumen
+direkt“: koerper und pyramide-kegel-kugel), 1 ohne Bankaufgabe. Der
+Katalog gliedert nach Lernweg, die Prüfung nach Aufgabentyp; beides ist
+berechtigt. Damit trägt Linie 2 („Kapitel = Liste von Katalog-Einheiten“)
+und W2 („Steckbrief geht in die Katalog-Einheit“) nicht.
+Vorschlag A (empfohlen): Bankaufgabe ist das Atom; zwei Gliederungen
+darüber – Katalog (Lernweg, Unterricht) und je Prüfungsart eine
+Prüfungsgliederung (Kapitel → Stufe → Bankaufgaben und Originale). Zuschnitt,
+Handgriffe und Steckbrief gehen in der Prüfungsgliederung auf (Felder an
+der Stufe); Merkkasten und Fehler werden aus dem Katalog verwiesen, nicht
+kopiert. Fünf gepflegte Objekte werden drei. Vorschlag B: Katalog so
+umbauen, dass Einheiten den Prüfungsstufen folgen – bricht den Lernweg,
+großer Umbau; nicht empfohlen.
+Bis zur Entscheidung läuft nur, was unter A und B gleich bleibt
+(Bankaufgaben, Abitur-Zuordnung).
 
 ## 6 Später (nicht jetzt)
 
