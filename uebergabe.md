@@ -79,6 +79,10 @@ zusammen rund 1,1 Mio Token, Anzeige nicht abgelesen.
   Koordinatensystem“ (Kl. 11, aufgabenbank bau/hefte-einzel/2026-10-08-
   geraden-ebene/) – ohne Bank, Lernweg zuerst geplant, Kritiker-Agent,
   Nachbesserung; Lehrer beim ersten Überfliegen: „gelungen“. ~0,6 Mio Token.
+  Zeit (Messwert): Bau 21 min (52 Werkzeugschritte), Kritik 2 min, Nachbesserung
+  einige Minuten – über 20 min für 21 Seiten. Ziel „Minuten“ verlangt: Teile
+  parallel bauen, feste Vorlage für Koordinatensysteme, Bildprüfung nur
+  stichprobenweise.
 - Durchgänge 2 und 3: später, erst muss ein Blatt stimmen.
 - Merkmal „neue Sorte ja/nein“ je Sprosse in der Bank; Reihenfolge der Ketten.
 - Nachbestellung („mehr“, „hängt bei Nr.“), Folgebaum: mit dem Programm.
