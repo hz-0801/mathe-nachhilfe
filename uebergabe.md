@@ -93,5 +93,18 @@ Vorgaben des Lehrers, auf neuem Weg:
    paket-pythagoras-2 und der Befund in § 3.
 3. Ein zweiter Agent ohne Regeln, nur mit dem Zweck (erfahrener Mathelehrer),
    kritisiert; nachbessern; erst dann zum Lehrer.
+Aus den alten Prompts übernehmen (Auswertung 08.10., blattbau
+unterrichtsblatt.md v4.4 / pruefungsblatt.md): rückwärts von der Zielaufgabe
+planen, jede Schwierigkeit eine Stufe (pb Z. 96, 122; ub Z. 421–423);
+Erkennen/Aufstellen als Stufe vor dem Rechnen, ohne Zahl (ub Z. 470–485,
+548–551); Rechenaufwand (Komma, Runden) erst nach allen Denkschritten (ub
+Z. 691–703); Anfänger-Test „schafft die ersten Teilaufgaben ohne die Mitte“
+(ub Z. 684–689, 1258–1260); halbfertige Musterlösung vor jedem neuen Schritt
+(pb Z. 100, 142; ub Z. 763–766); Prüfung vor Übergabe mit Folgen (ub
+Z. 1233–1286); Sache trägt die Mathematik, höchstens zwei (ub Z. 532–533,
+639–641); bei Entscheidungen erst klarer, dann kniffliger Fall, Ja/Nein
+gemischt (ub Z. 713–716). Nicht übernehmen: Fehleraufgabe als Pflicht,
+Vollständigkeit vor Lernweg, Original am Ende jeder Nummer, vorgegebene
+Antwortform, Grundfall vier- bis fünfmal.
 Maß: deutlich weniger Fehler als Durchgang 1. Modell: Opus im Chat und für
 Agenten.
