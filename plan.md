@@ -112,36 +112,32 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 ## 5 Jetzt
 
-Meilenstein M2. Entschieden 08.10.: Vorschlag A (Lehrer). Befund dazu:
+Stand 09.10. (Pause des Lehrers): M2 technisch umgesetzt, Abnahme offen.
 
-Befund Abgleich Zuordnung ↔ Katalog: Von 80 P10-Stufen liegen 38 in einer
-Katalog-Einheit, 22 über mehrere Einheiten eines Eintrags, 19 über mehrere
-Einträge (z. B. „Grundfigur berechnen“: flaechen e1–e4 und kreis; „Volumen
-direkt“: koerper und pyramide-kegel-kugel), 1 ohne Bankaufgabe. Der
-Katalog gliedert nach Lernweg, die Prüfung nach Aufgabentyp; beides ist
-berechtigt. Damit trägt Linie 2 („Kapitel = Liste von Katalog-Einheiten“)
-und W2 („Steckbrief geht in die Katalog-Einheit“) nicht.
-Vorschlag A (empfohlen): Bankaufgabe ist das Atom; zwei Gliederungen
-darüber – Katalog (Lernweg, Unterricht) und je Prüfungsart eine
-Prüfungsgliederung (Kapitel → Stufe → Bankaufgaben und Originale). Zuschnitt,
-Handgriffe und Steckbrief gehen in der Prüfungsgliederung auf (Felder an
-der Stufe); Merkkasten und Fehler werden aus dem Katalog verwiesen, nicht
-kopiert. Fünf gepflegte Objekte werden drei. Vorschlag B: Katalog so
-umbauen, dass Einheiten den Prüfungsstufen folgen – bricht den Lernweg,
-großer Umbau; nicht empfohlen.
-Bis zur Entscheidung läuft nur, was unter A und B gleich bleibt
-(Bankaufgaben, Abitur-Zuordnung).
+Erledigt 09.10.:
+- Prüfungsgliederung: eine Datei je Kapitel (msa/gliederung/, abitur/
+  gliederung/, Format in msa/gliederung/README.md). zuordnung.py liest
+  sie; alle 19 Zuordnungen byteidentisch. Zuschnitt und Handgriffe werden
+  erzeugt (werkzeuge/gliederung-sichten.py), P10 byteidentisch.
+  Steckbriefe aufgegangen (archiv/steckbrief-*-2026-10-08.md).
+- Bauprogramm liest die Gliederung: Fokus Pythagoras und Grundwert
+  wortgleich wie 07.10.; Lösungen tragen bei „Typische Fehler“ jetzt den
+  Katalogwortlaut (länger).
+- Prüfstein Sek II: Heft Kurvenuntersuchung neu gebaut, 31 S. + 7 S.
+  Lösung (aufgabenbank bau/pruefheft/pruefstein-2026-10-09/).
+- Bank: Prüffehler in sechs Einträgen behoben (alle 0), Lücke „Netz
+  vervollständigen“ gefüllt (4), Graphen Ableitungsgraph gerendert und
+  einer verbessert; Prüfskript übergeht weg.jsonl.
 
-Erledigt nachts 08./09.10. (parallel, Sek II):
-- Bank ableitungsgraph-und-funktionsgraph: 102 Aufgaben, 85 mit Graph,
-  Prüfung 0/0 (Opus-Agent, 0,28 Mio Token). Offen: bank/_punkte.csv
-  (punkte.py braucht Urteile), Sichtprobe der Graphen im Render.
-- Abitur-GK-Zuordnung für alle neun Kapitel (abitur/zuordnung-*.csv,
-  Fable-Agenten, 0,38 Mio Token). Lücken: „Netz eines Körpers
-  vervollständigen“ (4), „Säulendiagramm lesen“ (2, Zählfrage).
-  23 von 28 Geometrie-/Stochastik-Stufen und 8 von 11 Analysis-Stufen
-  liegen über mehrere Einheiten – stützt Vorschlag A.
-- tafel.md zeigt jetzt auch die Abitur-Kapitel.
+Für den Lehrer (Abnahme M2):
+1. Heft Kurvenuntersuchung ansehen. Befunde des Laufs: der Stamm einer
+   langen Aufgabe wird bei jeder Teilaufgabe wiederholt (10 Stämme mit 3
+   und mehr Teilaufgaben, längster 9); 9 Aufgaben haben statt Graph nur
+   „Skizze: …“; keine der 1 129 Analysis-Bankzeilen hat ein Aufgabenbild.
+   Das ist die Sek-II-Frage aus W4 (Ketten, Graphen).
+2. Typische Fehler auf dem Lösungsblatt: Katalogwortlaut (länger) lassen
+   oder im Katalog kürzen.
+Offen klein: „Säulendiagramm lesen“ (2 fehlen, Zählfrage).
 
 ## 6 Später (nicht jetzt)
 

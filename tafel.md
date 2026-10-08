@@ -1,6 +1,6 @@
 # Fortschrittstafel
 
-Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank ac71b2e 2026-10-08). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
+Gebaut 2026-10-08 von `werkzeuge/tafel.py` (Aufgabenbank 847ef99 2026-10-08). Nie von Hand ändern; Abnahmen in `abnahme.csv`.
 Plan: `plan.md`. Regelstand der Bauregeln: 2026-10-07.
 
 ## Auf einen Blick (P10, Meilenstein M2)
@@ -37,15 +37,15 @@ Echt = Prüfungsaufgaben der Stufe; Bank = zugeordnete Bankaufgaben; fehlen = bi
 | Prozent | Prozent und Anteil umwandeln | ja | 2 | 11 | 12 | 0 | 2 | – | – |
 | Prozent | Prozentwert | ja | 6 | 16 | 12 | 0 | 4 | – | – |
 | Prozent | Prozentsatz | ja | 3 | 18 | 12 | 0 | 4 | – | – |
-| Prozent | Grundwert | ja | 2 | 11 | 12 | 0 | 2 | prozent-grundwert.md | – |
+| Prozent | Grundwert | ja | 2 | 11 | 12 | 0 | 2 | prozent.md#grundwert | – |
 | Prozent | Erhöhung und Veränderung in Prozent | ja | 8 | 20 | 12 | 0 | 3 | – | – |
 | Prozent | Aussagen prüfen | nein | 4 | 12 | 6 | 0 | 2 | – | – |
 | Prozent | Prozent aus einer berechneten Fläche | nein | 1 | 5 | 6 | 0 | 1 | – | – |
 | Prozent | Zinsen und Zinssatz | nein | 3 | 9 | 6 | 0 | 0 | – | – |
 | Prozent | Zinseszins und Guthabentabelle | nein | 2 | 9 | 6 | 0 | 0 | – | – |
-| Dreiecke | Gleichung aufstellen | ja | 5 | 20 | 12 | 0 | 3 | pythagoras-seite.md | – |
-| Dreiecke | Kathete oder Hypotenuse direkt | ja | 7 | 51 | 12 | 0 | 3 | pythagoras-seite.md | – |
-| Dreiecke | Dreieck erst in Figur oder Körper finden | ja | 5 | 65 | 12 | 0 | 2 | pythagoras-seite.md | – |
+| Dreiecke | Gleichung aufstellen | ja | 5 | 20 | 12 | 0 | 3 | dreiecke.md#pythagoras-seite | – |
+| Dreiecke | Kathete oder Hypotenuse direkt | ja | 7 | 51 | 12 | 0 | 3 | dreiecke.md#pythagoras-seite | – |
+| Dreiecke | Dreieck erst in Figur oder Körper finden | ja | 5 | 65 | 12 | 0 | 2 | dreiecke.md#pythagoras-seite | – |
 | Dreiecke | Seitenverhältnis benennen | ja | 6 | 19 | 12 | 0 | 1 | – | – |
 | Dreiecke | Winkel berechnen | ja | 5 | 43 | 12 | 0 | 4 | – | – |
 | Dreiecke | Seite berechnen | ja | 8 | 56 | 12 | 0 | 3 | – | – |
@@ -70,9 +70,9 @@ Echt = Prüfungsaufgaben der Stufe; Bank = zugeordnete Bankaufgaben; fehlen = bi
 | Körper | Netz mit Maßen skizzieren | nein | 4 | 12 | 6 | 0 | 2 | – | – |
 | Körper | Körper im Schrägbild skizzieren | nein | 2 | 11 | 6 | 0 | 1 | – | – |
 | Lineare | erkennen und ablesen | ja | 6 | 27 | 12 | 0 | 2 | – | – |
-| Lineare | aus Gleichung zeichnen | ja | 4 | 17 | 12 | 0 | 4 | – | – |
-| Lineare | durch zwei Punkte, Gleichung ablesen | ja | 3 | 20 | 12 | 0 | 1 | – | – |
-| Lineare | zeichnen und Aussagen prüfen | nein | 2 | 11 | 6 | 0 | 2 | – | – |
+| Lineare | aus Gleichung zeichnen | ja | 4 | 18 | 12 | 0 | 4 | – | – |
+| Lineare | durch zwei Punkte, Gleichung ablesen | ja | 3 | 22 | 12 | 0 | 1 | – | – |
+| Lineare | zeichnen und Aussagen prüfen | nein | 2 | 13 | 6 | 0 | 2 | – | – |
 | Lineare | ankreuzen | nein | 1 | 5 | 6 | 0 | 1 | – | – |
 | Lineare | rechnerisch an Gerade und Parabel | ja | 3 | 13 | 12 | 0 | 3 | – | – |
 | Lineare | Endwert berechnen | nein | 2 | 10 | 6 | 0 | 1 | – | – |
@@ -125,13 +125,13 @@ Status = Spalte im Katalog-Index; Prüfung = bank-pruef.py Abweichungen / Warnun
 | flaechen | Flächen | gegengelesen bis auf [FS] | 246 | 0 / 1 | – |
 | koerper | Körper | gegengelesen bis auf [FS] | 328 | 0 / 2 | – |
 | kreis | Flächen | gegengelesen bis auf [FS] | 210 | 0 / 9 | – |
-| lineare-funktionen | Lineare | gegengelesen bis auf [FS] | 319 | 2 / 12 | – |
+| lineare-funktionen | Lineare | gegengelesen bis auf [FS] | 319 | 0 / 12 | – |
 | lineare-gleichungssysteme | Gleichungssysteme | gegengelesen bis auf [FS] (Sek-II-Teil nicht gegengelesen) | 348 | 0 / 19 | – |
 | potenz-exponentialfunktionen | Wachstum | gegengelesen bis auf [FS] | 464 | 0 / 0 | – |
 | prozentrechnung | Prozent | gegengelesen bis auf [FS] | 311 | 0 / 2 | – |
 | pyramide-kegel-kugel | Körper | gegengelesen bis auf [FS] | 289 | 0 / 11 | – |
 | pythagoras | Dreiecke | gegengelesen bis auf [FS] | 305 | 0 / 8 | – |
-| quadratische-funktionen | Lineare, Quadratische | gegengelesen bis auf [FS] | 371 | 1 / 4 | – |
+| quadratische-funktionen | Lineare, Quadratische | gegengelesen bis auf [FS] | 371 | 0 / 4 | – |
 | quadratische-gleichungen | Quadratische | gegengelesen bis auf [FS] | 382 | 0 / 1 | – |
 | symmetrie-abbildungen | Dreiecke | gegengelesen bis auf [FS] | 249 | 0 / 0 | – |
 | trigonometrie | Dreiecke | gegengelesen bis auf [FS] | 365 | 0 / 5 | – |
