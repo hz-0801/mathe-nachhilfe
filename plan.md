@@ -198,6 +198,18 @@ Handwerk (Satz, Schreibweise, Zahlen, Lösungen) bleibt Regel; Didaktik wird
 Zweck in einem Satz plus ein gutes und ein schlechtes Beispiel, und jedes
 Blatt wird vor der Abgabe am Zweck geprüft, nicht an einer Liste.
 
+Richtung Durchgänge (Lehrer 08.10., Versuch, noch keine Regel): Ein Blatt
+(Lerneinheit) gibt es in drei Durchgängen, auf einmal ausgegeben, gleiche
+Sorten, andere Varianten, jeder kürzer als der vorige:
+- 1 Einstieg: mit Vorstufen, Hilfen aufgedeckt, lange Päckchen, glatte Zahlen;
+  die erste Aufgabe je Sorte dient als Test (sitzt sie, weiter zu 3).
+- 2 Wiederholung (am besten mit Abstand): ohne Vorstufen, Hilfe nur am Anfang,
+  kurze Päckchen, krumme Zahlen.
+- 3 Prüfung: ohne Hilfe, ohne Päckchen, am Ende das Original ganz.
+Hakt es, liefert „hängt bei Nr.“ diese eine Sorte noch einmal mit Einstieg
+unten. Der Lehrer wählt alle drei oder einen. Nicht für Rand-Blätter,
+Prüfungsheft, Original. Probe: „Die lange Seite“ in drei Durchgängen.
+
 Offene Liste für die Proben (am Blatt entscheiden): Bauregel 2.2 „jede echte
 Aufgabe ganz“ gehört zu Original/Original neu, nicht zum Prüfungsheft;
 Bauregel 1.2 „kurz“ wird durch „so lang wie der Zweck“ ersetzt; ziel.md § 1
