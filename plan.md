@@ -164,6 +164,24 @@ wo der Schüler hängt, beginnt die Serie. Folgebaum für alle: weiter ·
 mehr · leichter · Lösung · hängt bei Nr. Prüfstein am Ende. Wiederkehr
 vorerst nicht (beißt sich mit schmal). Rückblick vorn wird Grundvorstellung
 je Abschnitt. Altes Heft bleibt baubar.
+Entschieden (Lehrer 08.10., an Probe Portion 1 Kurvenuntersuchung):
+- Eine Reihenfolge: die des Katalogs, also der Inhaltsverzeichnisse der
+  Lehrwerke. Die Prüfungsgliederung wählt aus und gewichtet, sie ordnet nicht.
+- Teile einer Serie: Hat ein Thema in den Inhaltsverzeichnissen ein eigenes
+  Unterkapitel, wird es ein eigener Teil, an seiner Stelle. Ein Sonderfall
+  ohne eigenes Unterkapitel (Sattelpunkt) bleibt in seinem Teil.
+- Kern und Rand werden getrennt; auch ein Rand-Teil steht immer in der Serie
+  und wird bei Bedarf übersprungen. Kern/Rand ist ein Merkmal im
+  Übersichtsblatt, keine Reihenfolge: Prüfungsblatt nach Häufigkeit in der
+  Prüfung, Lernblatt nach Verlagsmarken („Vertiefen“). Aufgaben zählen nur als
+  Gegenprobe, wo Seiten vorliegen.
+- Teilnummer bleibt fest; die Kennung gehört zum gedruckten Blatt.
+Vorschläge aus der Probe (am nächsten Blatt prüfen): Erkennfrage an der
+Aufgabe selbst („Was ist hier zu tun?“), nicht als Fragen nach Nummern; in der
+Mitte eines Abschnitts nur der Teil eines Originals, der den Handgriff übt
+(„nach Abi ’24“), das ganze Original am Ende; keine Überschrift
+„Prüfungsniveau“, keine Fundstelle an der Marke.
+
 Offene Liste für die Proben (am Blatt entscheiden): Bauregel 2.2 „jede echte
 Aufgabe ganz“ gehört zu Original/Original neu, nicht zum Prüfungsheft;
 Bauregel 1.2 „kurz“ wird durch „so lang wie der Zweck“ ersetzt; ziel.md § 1
@@ -184,6 +202,9 @@ Formelsammlung sichten · Darstellungen nach DZLM · FHR und LK ·
 Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
+
+- 08.10.2026 (d): Reihenfolge nur aus dem Katalog, Teile = Unterkapitel der
+  Inhaltsverzeichnisse, Kern/Rand getrennt, Rand-Teil immer (Lehrer 08.10.).
 
 - 09.10.2026: Entscheidung A (Bank + Katalog + Prüfungsgliederung), W2
   angepasst; Messwert Nacht: Woche 30 → 31 %, Fable 7 → 9 % (0,66 Mio Token).
