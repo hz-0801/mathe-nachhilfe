@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper (Abitur GK,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende (Abitur GK,
              Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -363,6 +363,23 @@ KAPITEL['punkte-flaechen-koerper']=dict(pruefung='abitur',eintraege=[PS,VR,SP,FV
  stufen=[(n,_zuschnitt_ids(n,kapitel='Punkte, Flächen, Körper'),m) for n,m in _PFK_STUFEN],
  kern={n:(('ja','Grundhandgriff der Koordinatengeometrie (Betrag, Punktrechnung, Formel), in vier Jahrgängen 2022–2026') if n in _PFK_KERN else
           ('nein','Sonderfall des Figurnachweises oder einmalige Form (Netz)')) for n,_ in _PFK_STUFEN})
+# ---- Abitur GK, Kapitel „Winkel + Abstände“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (4), echte = ids (nur Hauptplätze). Kern (Urteil
+# 08.10.): rechter Winkel über das Skalarprodukt (fünf Jahrgänge), Winkel berechnen (vier), Abstand
+# zu einer Ebene (drei) – die drei Rechenhandgriffe; der Lotfußpunkt wird im GK nur beschrieben
+# oder gedeutet (Lösungsweg, Gleichungspaar), nie selbst gerechnet.
+OR='orthogonalitaet';SW='skalarprodukt-und-winkel';AB='abstaende'
+_WA_STUFEN=[
+ ('Rechten Winkel über das Skalarprodukt nachweisen',_a(OR,'e1-k4-s1','e1-k4-s2','e1-k4-s3','e1-k4-s4','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s5','e3-k1-s3','e3-k1-s4')+_a(SW,'e1-k1-s1','e2-k2-s4')),
+ ('Winkel berechnen',_a(SW,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s5','e3-k2-s1','e3-k2-s2','e3-k2-s3','e4-k1-s1','e4-k1-s2')),
+ ('Abstand zu einer Ebene bestimmen',_a(AB,'e2-k2-s1','e2-k2-s2','e2-k2-s3','e2-k2-s4','e4-k1-s1')),
+ ('Lotfußpunkt auf einer Geraden',_a(AB,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s4')+_a(OR,'e4-k1-s1')),
+]
+_WA_KERN=['Rechten Winkel über das Skalarprodukt nachweisen','Winkel berechnen','Abstand zu einer Ebene bestimmen']
+KAPITEL['winkel-abstaende']=dict(pruefung='abitur',eintraege=[OR,SW,AB],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Winkel + Abstände'),m) for n,m in _WA_STUFEN],
+ kern={n:(('ja','Rechenhandgriff des Skalarprodukts, in drei bis fünf Jahrgängen 2022–2026') if n in _WA_KERN else
+          ('nein','im GK nur als Lösungsweg beschrieben oder gedeutet, nie selbst gerechnet')) for n,_ in _WA_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
