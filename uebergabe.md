@@ -63,6 +63,17 @@ Messwerte: Woche 30 → 33 %, Fable 7 → 12 % für fünf Agenten (zusammen
 
 ## 6 Nächster Arbeitsschritt
 
+0. Diagnose der Formulierungen (Lehrer 09.10., vor allem anderen; nur lesen,
+   nichts ändern, kein Agent): bau/bauregeln.md, ziel.md, plan.md und die
+   Anweisungen in hz-0801/anweisungen (global.md, projekt-verbessereBlaetter.md)
+   gegen die Kandidaten vom 09.10. (kandidaten.md: „Einfach vor vollständig“,
+   „Stehender Plan als Anker“). Je Regel markieren: Handwerk (bleibt genau)
+   oder Richtung; Zweck in einem Satz vorhanden; Mittel hineingemischt;
+   schärfer als vom Lehrer gesagt. Ergebnis als kurze Liste an den Lehrer.
+   plan.md zuerst vereinfachen (Anker), mit seinem Ja. Umschreiben der
+   übrigen Regeln erst im Nachzug nach den Proben, in einem Gang.
+   Für die Anweisungen: welche Kandidaten in global.md bzw. die
+   Projektanweisung gehören; Vorschlag mit vollständigem Text, Lehrer setzt ein.
 1. Programmfehler beheben, die gegen geltende Regeln verstoßen: Zählung im
    Stufenkopf weg (1.3), Fuß nur Ergebnisse (6.2), kurzer Kopf mit
    Prüfungsverb statt „Gegeben ist die in ℝ definierte …“; dazu Lücke
