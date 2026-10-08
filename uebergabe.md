@@ -53,6 +53,10 @@ Messwerte: Woche 30 → 33 %, Fable 7 → 12 % für fünf Agenten (zusammen
 - Stark-Heft (P10, Abitur) und Bildungsserver (FHR) halten die Originale;
   unser Blatt ist die Brücke dorthin.
 
+- Begriffe (Lehrer 08.10.): `begriffe.md` – Tabelle Begriff · Bedeutung ·
+  Beispiel Pythagoras. Auf „Begriffe“ zeigen; ungefragt vorlegen, wenn der
+  Lehrer ein Wort anders gebraucht. Beim Umzug in die Projektanweisung.
+
 ## 5 Offen und Verworfenes
 
 - Layout-Befunde gesammelt (keine Regel): Koordinatensystem nur so groß wie
