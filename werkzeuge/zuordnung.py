@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen, baum-bedingte-wahrscheinlichkeit (Abitur GK,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen, baum-bedingte-wahrscheinlichkeit, binomialverteilung (Abitur GK,
              Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -421,6 +421,24 @@ KAPITEL['baum-bedingte-wahrscheinlichkeit']=dict(pruefung='abitur',eintraege=[ZP
  stufen=[(n,_zuschnitt_ids(n,kapitel='Baumdiagramm + bedingte Wahrscheinlichkeit'),m) for n,m in _BB_STUFEN],
  kern={n:(('ja','Rechen- oder Zeichenhandgriff der Pfadregeln, in drei bis vier Jahrgängen 2022–2026') if n in _BB_KERN else
           ('nein','rechnet rückwärts, prüft oder deutet; setzt Baum und Pfadregeln voraus')) for n,_ in _BB_STUFEN})
+# ---- Abitur GK, Kapitel „Binomialverteilung“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (5), echte = ids (nur Hauptplätze). Kern (Urteil
+# 08.10.): Bernoulli-Term angeben und deuten (2023, 2026), Wert mit dem Rechner (2022, 2025, 2026),
+# Verteilung im Säulendiagramm lesen (2023, 2025, 2026) – Formel, Rechner und Bild der Verteilung;
+# die Umkehraufgabe (Potenzgleichung) dreht die Formel um, die Begründung steht einmal (2022).
+BV='binomialverteilung';ZG='zufallsgroessen-und-verteilungen'
+_BI_STUFEN=[
+ ('Bernoulli-Formel: Term angeben und deuten',_a(BV,'e2-k1-s1','e2-k1-s4','e2-k1-s6','e2-k1-s7','e3-k2-s1','e3-k2-s6','e3-k2-s8')),
+ ('Binomialwahrscheinlichkeit mit dem Rechner ermitteln',_a(BV,'e2-k1-s8','e3-k2-s2','e3-k2-s3','e3-k2-s4','e3-k2-s5','e4-k1-s4','e4-k2-s1')),
+ ('Mindestanzahl oder p aus einer Potenzgleichung bestimmen',_a(BV,'e4-k1-s1','e4-k1-s2','e4-k1-s3','e4-k1-s6','e4-k1-s7')),
+ ('Verteilung im Säulendiagramm lesen',_a(BV,'e5-k1-s1','e5-k1-s4','e5-k1-s5','e5-k1-s6','e5-k1-s7')+_a(ZG,'e2-k1-s1')),
+ ('Binomialverteilung begründen',_a(BV,'e1-k1-s1','e1-k1-s2','e1-k1-s5','e1-k1-s6')),
+]
+_BI_KERN=['Bernoulli-Formel: Term angeben und deuten','Binomialwahrscheinlichkeit mit dem Rechner ermitteln','Verteilung im Säulendiagramm lesen']
+KAPITEL['binomialverteilung']=dict(pruefung='abitur',eintraege=[BV,ZG],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Binomialverteilung'),m) for n,m in _BI_STUFEN],
+ kern={n:(('ja','Formel, Rechner und Bild der Verteilung, je in zwei bis drei Jahrgängen 2022–2026') if n in _BI_KERN else
+          ('nein','dreht die Formel um (Potenzgleichung) oder begründet das Modell (einmal, 2022)')) for n,_ in _BI_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
