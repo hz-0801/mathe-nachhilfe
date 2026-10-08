@@ -7,7 +7,7 @@ die Ausgabe für Prozent ist byteidentisch mit der des alten Skripts.
 Aufruf (aus der Wurzel von mathe-nachhilfe):
     python3 werkzeuge/zuordnung.py KAPITEL [--bank PFAD] [--aus DATEI] [--zeige]
     python3 werkzeuge/zuordnung.py KAPITEL --nur-spalten   (nur Zusatzspalten, s. u.)
-    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende (Abitur GK,
+    KAPITEL: kurvenuntersuchung, ableitung-tangente, integral, punkte-flaechen-koerper, winkel-abstaende, geraden-ebenen (Abitur GK,
              Ausgabe abitur/), prozent, lineare, quadratische, dreiecke, daten,
              wahrscheinlichkeit, koerper, flaechen, wachstum,
              gleichungssysteme (Kapitel aus msa/skript-zuschnitt-p10.csv)
@@ -380,6 +380,23 @@ KAPITEL['winkel-abstaende']=dict(pruefung='abitur',eintraege=[OR,SW,AB],
  stufen=[(n,_zuschnitt_ids(n,kapitel='Winkel + Abstände'),m) for n,m in _WA_STUFEN],
  kern={n:(('ja','Rechenhandgriff des Skalarprodukts, in drei bis fünf Jahrgängen 2022–2026') if n in _WA_KERN else
           ('nein','im GK nur als Lösungsweg beschrieben oder gedeutet, nie selbst gerechnet')) for n,_ in _WA_STUFEN})
+# ---- Abitur GK, Kapitel „Geraden + Ebenen“ (Stand 2026-10-08) ----
+# Stufen = Abschnitte des Kapitels im Zuschnitt (4), echte = ids (nur Hauptplätze; der Nebenplatz
+# 2022-bebb-gk-B3c zählt nicht). Kern (Urteil 08.10.): Punktprobe (vier Jahrgänge), Ebenengleichung
+# aufstellen (vier), Lage erkennen und begründen (drei) – die Handgriffe, mit denen jede
+# Geometrieaufgabe beginnt; der Schnittpunkt steht nur 2023 (zwei Teilaufgaben).
+GE='geraden';EB='ebenen';LB='lagebeziehungen';SM='schnittmengen'
+_GEB_STUFEN=[
+ ('Punktprobe an Gerade und Ebene',_a(GE,'e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s5')+_a(LB,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e1-k2-s4','e1-k2-s7','e3-k1-s1')+_a(EB,'e1-k1-s4','e4-k2-s2')),
+ ('Ebenengleichung aufstellen',_a(EB,'e1-k1-s1','e1-k1-s2','e1-k1-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e2-k1-s4','e2-k1-s5','e2-k2-s4','e4-k2-s1')+_a(SP,'e2-k1-s1','e2-k1-s4')),
+ ('Lage von Geraden und Ebenen erkennen und begründen',_a(EB,'e3-k1-s1','e3-k1-s2','e3-k1-s3','e3-k1-s6','e3-k1-s8','e4-k2-s3','e4-k3-s1')+_a(GE,'e1-k2-s3','e3-k1-s1','e3-k1-s2','e3-k1-s3')+_a(LB,'e3-k1-s2','e3-k1-s3')+_a(SP,'e3-k1-s1','e3-k1-s2','e3-k1-s4')),
+ ('Schnittpunkt berechnen',_a(SM,'e1-k2-s1','e1-k2-s2','e1-k2-s3','e2-k1-s1','e2-k1-s2','e2-k1-s3','e3-k1-s1')),
+]
+_GEB_KERN=['Punktprobe an Gerade und Ebene','Ebenengleichung aufstellen','Lage von Geraden und Ebenen erkennen und begründen']
+KAPITEL['geraden-ebenen']=dict(pruefung='abitur',eintraege=[GE,EB,LB,SM,SP],
+ stufen=[(n,_zuschnitt_ids(n,kapitel='Geraden + Ebenen'),m) for n,m in _GEB_STUFEN],
+ kern={n:(('ja','Einstiegshandgriff jeder Geometrieaufgabe, in drei bis vier Jahrgängen 2022–2026') if n in _GEB_KERN else
+          ('nein','nur 2023, zwei Teilaufgaben')) for n,_ in _GEB_STUFEN})
 # ---- Verwechselbare Stufen (Beschluss N4.19, Urteil Auftrag K 06.10.) ----
 # Gruppen: je Gruppe verwechselt der Schüler, welcher Handgriff gefragt ist.
 VERWECHSELBAR_GRUPPEN=[
