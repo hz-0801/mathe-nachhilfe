@@ -1,92 +1,97 @@
-# Übergabe verbessereBlaetter – 2026-10-09 (Chat 08./09.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-08b (Chat 08.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-07b.md.
+Vorherige Übergabe: archiv/uebergabe-2026-10-08.md (trug irrtümlich das
+Datum 09.10.; ebenso Ordner wie pruefstein-2026-10-09 – gebaut am 08.10.).
 
 ## 1 Ziel
 
-Der Lehrer bestellt im Projekt erzeugeBlatt(Bank) mit wenigen Wörtern und
-bekommt in Minuten ein gutes Blatt, Unterricht und Prüfung, zuerst P10 und
-Abitur GK. Maßgeblich ist `plan.md`.
+Der Lehrer bestellt mit wenigen Wörtern und bekommt in Minuten ein gutes
+Blatt – drei PDFs: Übersicht, Blatt, Lösungen –, zuerst P10 und Abitur GK.
+Maßgeblich ist `plan.md`.
 
-## 2 Arbeitsgrundlage – beim Chatstart in dieser Folge
+## 2 Arbeitsgrundlage
 
-0. `plan.md` – der Plan (große Linien, Zweck der Blätter, Meilensteine,
-   § 5 „Jetzt“ mit Richtung Serie und offener Liste). Abgleich nach § 0 dort.
-1. `tafel.md` – Fortschrittstafel (neu bauen: `python3 werkzeuge/tafel.py
-   --bank ../aufgabenbank`); Abnahmen in `abnahme.csv`.
-2. Prüfungsgliederung `msa/gliederung/`, `abitur/gliederung/` (Format
-   `msa/gliederung/README.md`, Stand `msa/gliederung-stand.md`); Leser
-   `werkzeuge/gliederung.py`, Sichten `werkzeuge/gliederung-sichten.py`.
-3. aufgabenbank `bau/bauregeln.md` (Regelrahmen Stand 07.10., bestätigt 08.10.).
-4. aufgabenbank `werkzeuge/pruefheft.py` (liest die Gliederung) und das
-   Prüfstein-Heft `bau/pruefheft/pruefstein-2026-10-09/kurvenuntersuchung-normal/`.
-5. aufgabenbank `eingang/` – Protokolle der Blatt-Chats (erzeugeBlatt(Bank)
-   v5.8 läuft parallel im Unterricht); gesammelt auswerten, keine Sofortregel.
+- `plan.md` – § 2 große Linien (neu: Linie 8 „Blattsorte = Filter“), § 5
+  „Jetzt“ mit den Entscheidungen vom 08.10., Richtung Durchgänge und dem
+  Problem Regelzwang, § 6 „Später“.
+- aufgabenbank `bau/bauregeln.md` – neu am 08.10.: Zweck (§ 1), Sorten als
+  Filter (§ 2), Übersicht/Serie (§ 3), Didaktik als Zweck + Beispiel (§ 4),
+  Handwerk (§ 5–8), Offen (§ 9). Alte Fassung archiv/bauregeln-bis-2026-10-07.md.
+- `begriffe.md` – Begriff · Bedeutung · Beispiel Pythagoras, mit Zählung.
+- Proben aufgabenbank `bau/proben/2026-10-08/`: `paket-pythagoras-2/` (beste
+  Fassung des Tages), `durchgaenge-pythagoras/` (Befundblatt, siehe § 3),
+  `uebersicht-kurvenuntersuchung-3/` (Form der Übersicht).
+- `katalog/pythagoras.md`, aufgabenbank `bank/pythagoras/`.
 
 ## 3 Arbeitsstand
 
-Erledigt 08./09.10.: Plan angelegt und entschieden (W1–W4, Entscheidung A:
-Bank + Katalog + Prüfungsgliederung); Regelrahmen geprüft (W3); Probelauf im
-Blatt-Projekt (58 s, Pythagoras); Fortschrittstafel; Prüfungsgliederung als
-Datei je Kapitel, Steckbriefe aufgegangen, Programm liest sie (Fokusblätter
-wortgleich); Abitur-GK-Zuordnung aller neun Kapitel; Bank:
-ableitungsgraph-und-funktionsgraph gefüllt (102), Prüffehler 0, Lücke Netz
-gefüllt; Kurvenuntersuchung als Sek-II-Prüfstein gebaut (31 S.).
-Lehrer zur Kurvenuntersuchung: liest ab Nr. 7 nicht weiter – Erkennfragen
-ohne Bezug (Nr. 4 Ball ≙ Nr. 6 Ofen nicht erkannt), 52-mal „Gegeben ist …“,
-nur Teilaufgaben, zu lang. Daraus Zweck der Blätter und Richtung Serie.
+Erledigt 08.10.: Programmfehler am Heft Kurvenuntersuchung behoben (Zählung
+im Kopf, Fuß, kurzer Stamm, Säulendiagramm); Proben von Hand: Portion
+Kurvenuntersuchung, Übersicht in drei Fassungen, Paket Pythagoras zweimal,
+drei Durchgänge; Bauregeln neu geschrieben; Begriffe geklärt.
 
-Nicht umgesetzt (Konsistenz): ziel.md (Sorten, Länge § 1, Steckbrief-
-Verweise) und bauregeln.md (2.2, 1.2, 3.10, 9.1) folgen erst nach den
-Proben (offene Liste in plan.md § 5). Säulendiagramm lesen: 2 fehlen.
+Befund am Abend (Durchgang 1 „Die lange Seite“, Urteil des Lehrers):
+- Das Blatt ist von unten gebaut – Teile aus der Bank „je Sorte eine“ –
+  statt von oben aus einem Lernweg. Ein Didaktiker hätte: Seiten benennen
+  (eindeutige zuerst: rechter Winkel gegenüber, längste), Satz in Worten
+  Hypotenuse² = Kathete² + Kathete², Gleichung an mehreren beschrifteten
+  Skizzen aufstellen ohne Rechnen (auch ein nicht rechtwinkliges Dreieck als
+  Stolperstelle), ein vorgerechnetes Umstellen grau in a), dann rechnen,
+  dann Sache (gut: wechselnde Aufgabenstellung wie Nr. 8), am Ende P10.
+- Die Bank-Kette „Hypotenuse“ hat selbst die falsche Folge: „Gleichung
+  aufstellen“ ist Sprosse 6, nach dem Rechnen.
+- Weg: Kästchenbild (Beweisgeschichte), Fehleraufgaben, vorgegebene
+  Ergebnisform, „nicht maßstabsgerecht“, ständiges „Kathete“; Päckchen zu
+  lang (Komma ans Ende), zu viele P10-Aufgaben, Fuß nicht knapp.
+- Name: „Hypotenuse berechnen“, nicht „Die lange Seite“.
+- Drei Regeln, die das erzeugten, sind entschärft (Bauregeln 1.5, 4.9, 6.9).
 
-Messwerte: Woche 30 → 33 %, Fable 7 → 12 % für fünf Agenten (zusammen
-1,1 Mio Token); Chat selbst kaum messbar.
+Nicht nachgezogen (Konsistenz): ziel.md (Sorten, Länge, „ein Blatt für
+alle“); bankblatt.md und pruefheft.py nennen alte Regelnummern; Widersprüche
+in bauregeln.md: Rand „grau“ gegen „kein grauer Zusatz“ (3.2), „Original ganz“
+gegen „kürzen“ (4.1/4.10), Kopf der Lösungen (6.1); Rechenräume zu groß (6.9
+im Programm).
+
+Messwert: Woche 34 % nach dem ersten Agenten; danach sechs Agenten mit
+zusammen rund 1,1 Mio Token, Anzeige nicht abgelesen.
 
 ## 4 Verbindliche Entscheidungen
 
-- plan.md gilt; ändern nur der Lehrer, vorher große Linien vorlesen.
-- Bemerkungen des Lehrers sind Richtungen; eine Richtung ist ein Satz
-  (Zweck); Mittel am Blatt. Keine Regel aus einem einzelnen Blatt.
-- Zweck: Prüfungsblatt bereitet so effizient wie möglich auf die echten
-  Prüfungsaufgaben vor; ein Blatt ist so lang, wie sein Zweck es braucht.
-- Stark-Heft (P10, Abitur) und Bildungsserver (FHR) halten die Originale;
-  unser Blatt ist die Brücke dorthin.
-
-- Begriffe (Lehrer 08.10.): `begriffe.md` – Tabelle Begriff · Bedeutung ·
-  Beispiel Pythagoras. Auf „Begriffe“ zeigen; ungefragt vorlegen, wenn der
-  Lehrer ein Wort anders gebraucht. Beim Umzug in die Projektanweisung.
-
-- Jede Frage an den Lehrer trägt eine Empfehlung (Lehrer 08.10.); beim Umzug
-  in die Projektanweisung.
+- plan.md gilt; ändern nur der Lehrer. Keine Regel für ein einzelnes Blatt.
+- Entschieden 08.10. (plan.md § 5): Reihenfolge aus den Inhaltsverzeichnissen;
+  Blatt = Lerneinheit (Unterkapitel); Kern/Rand getrennt, Rand-Blatt immer da;
+  keine Teilnummern, Vorgänger/Nachfolger; Lieferung drei PDFs; Linie 8.
+- Sorte = Sprosse, an der man anders denken muss; reine Zahlsprossen ins
+  Päckchen (Bauregel 4.7).
+- „Einstieg unten/normal/oben“ statt „schwach/stark“ (Versuch).
+- So wie heute kann es nicht bleiben: Der Bau von unten aus Bank und Regeln
+  ist gescheitert; offen ist das Wie (§ 6).
+- Jede Frage trägt eine Empfehlung; Begriffe auf Abruf und ungefragt
+  (Projektanweisung Stand 2026-10-08 im Repo anweisungen – Lehrer ersetzt sie
+  im Claude-Projekt).
 
 ## 5 Offen und Verworfenes
 
-- Layout-Befunde gesammelt (keine Regel): Koordinatensystem nur so groß wie
-  die Werte; Tabelle und Gitter nebeneinander (Platz); Erkennfragen aus der
-  Lage der folgenden Aufgaben statt fremder Beispiele.
-- Verworfen: Vorschlag B (Katalog nach Prüfungsstufen umbauen); Steckbrief als
-  eigenes Objekt; Wiederkehr in der Serie (vorerst, beißt sich mit schmal).
+- A oder B: Bank als Bauplan (A, bisher) oder Lernweg von oben, Bank als
+  Steinbruch für Originale, Häufigkeit, geprüfte Zahlen, typische Fehler (B).
+  Der Prüfstein in § 6 entscheidet.
+- Durchgänge 2 und 3: später, erst muss ein Blatt stimmen.
+- Merkmal „neue Sorte ja/nein“ je Sprosse in der Bank; Reihenfolge der Ketten.
+- Nachbestellung („mehr“, „hängt bei Nr.“), Folgebaum: mit dem Programm.
+- Umbau des Programms wartet auf den Prüfstein.
+- Verworfen: „Sorte“ neu erfinden (es gab drei Fassungen); Sorten für
+  schwache Schüler zusammenfassen.
 
 ## 6 Nächster Arbeitsschritt
 
-0. Diagnose der Formulierungen (Lehrer 09.10., vor allem anderen; nur lesen,
-   nichts ändern, kein Agent): bau/bauregeln.md, ziel.md, plan.md und die
-   Anweisungen in hz-0801/anweisungen (global.md, projekt-verbessereBlaetter.md)
-   gegen die Kandidaten vom 09.10. (kandidaten.md: „Einfach vor vollständig“,
-   „Stehender Plan als Anker“). Je Regel markieren: Handwerk (bleibt genau)
-   oder Richtung; Zweck in einem Satz vorhanden; Mittel hineingemischt;
-   schärfer als vom Lehrer gesagt. Ergebnis als kurze Liste an den Lehrer.
-   plan.md zuerst vereinfachen (Anker), mit seinem Ja. Umschreiben der
-   übrigen Regeln erst im Nachzug nach den Proben, in einem Gang.
-   Für die Anweisungen: welche Kandidaten in global.md bzw. die
-   Projektanweisung gehören; Vorschlag mit vollständigem Text, Lehrer setzt ein.
-1. Programmfehler beheben, die gegen geltende Regeln verstoßen: Zählung im
-   Stufenkopf weg (1.3), Fuß nur Ergebnisse (6.2), kurzer Kopf mit
-   Prüfungsverb statt „Gegeben ist die in ℝ definierte …“; dazu Lücke
-   Säulendiagramm. Ein Agent, Schätzung 0,3 Mio, Go des Lehrers einholen.
-2. Proben der Serie: Einstiegsseite Kurvenuntersuchung, Portion 1
-   Kurvenuntersuchung (Prüfung, Grundvorstellung je Abschnitt), Portion 1
-   eines P10-Lernblatts. Dem Lehrer zeigen; offene Liste am Blatt entscheiden.
-Modell: Opus im Chat; Agenten Opus, Urteilsarbeit Fable (Fable-Kontingent
-verfällt Montag 18:00).
+Prüfstein „Hypotenuse berechnen“ (Pythagoras, Lerneinheit 1), gebaut ohne
+Vorgaben des Lehrers, auf neuem Weg:
+1. Erst der Lernweg in 5–7 Schritten (was begreift der Schüler in welcher
+   Folge, wo stolpert er) aus Reihenfolge der Lehrwerke und „Typische Fehler“
+   des Katalogs – dem Lehrer kurz zeigen.
+2. Dann je Schritt eine Aufgabe aus der Bank oder eigene; Muster:
+   paket-pythagoras-2 und der Befund in § 3.
+3. Ein zweiter Agent ohne Regeln, nur mit dem Zweck (erfahrener Mathelehrer),
+   kritisiert; nachbessern; erst dann zum Lehrer.
+Maß: deutlich weniger Fehler als Durchgang 1. Modell: Opus im Chat und für
+Agenten.
