@@ -48,6 +48,17 @@ Grundkurs. Die Aufgaben kommen aus einer vollständigen, geprüften Bank.
    Ablesen nachher; sparsam, aber Doppelarbeit wird in Kauf genommen,
    wenn sie Wartezeit spart (Lehrer 08.10.).
 
+Zweck der Blätter (Lehrer 09.10.):
+- Ein Prüfungsblatt bereitet so effizient wie möglich auf die echten
+  Prüfungsaufgaben vor.
+- Ein Blatt ist so lang, wie sein Zweck es braucht.
+Alles Weitere (Einstiegsseite, Kennung, Druck oder Verweis, Prüfstein) sind
+Mittel und werden am Blatt entschieden. Vollständigkeit liegt bei den Sorten
+Original und Original neu und im Stark-Heft bzw. Bildungsserver; das
+Prüfungsblatt wählt aus. Unterschiede je Prüfung stehen im Profil
+(Gliederung, Kettenlänge, Hilfsmittel, Ort der Originale), nicht in eigenen
+Regeln.
+
 ## 3 Weichen (entschieden 08.10.)
 
 W1 Ein Bauprogramm: `pruefheft.py` ist die Basis; `zusammenbau.py`
@@ -149,6 +160,11 @@ wo der Schüler hängt, beginnt die Serie. Folgebaum für alle: weiter ·
 mehr · leichter · Lösung · hängt bei Nr. Prüfstein am Ende. Wiederkehr
 vorerst nicht (beißt sich mit schmal). Rückblick vorn wird Grundvorstellung
 je Abschnitt. Altes Heft bleibt baubar.
+Offene Liste für die Proben (am Blatt entscheiden): Bauregel 2.2 „jede echte
+Aufgabe ganz“ gehört zu Original/Original neu, nicht zum Prüfungsheft;
+Bauregel 1.2 „kurz“ wird durch „so lang wie der Zweck“ ersetzt; ziel.md § 1
+Länge ebenso; Prüfstein je Fall (offen.html fest 04.10. beim Abitur
+fraglich); Fokusblatt mit oder ohne Original am Ende.
 Proben: Portion 1 Kurvenuntersuchung (Prüfung, Einstieg höher), Portion 1
 eines P10-Lernblatts (Katalog, Einstieg vorn), Einstiegsseite
 Kurvenuntersuchung. Erst danach Regeln nachziehen (Sorten 2, Rückblick
