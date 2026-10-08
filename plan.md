@@ -29,10 +29,12 @@ Grundkurs. Die Aufgaben kommen aus einer vollständigen, geprüften Bank.
 
 1. Die Bank ist die Quelle. Kein Blatt erfindet Aufgaben, außer als
    Notweg; neue Aufgaben gehen geprüft in die Bank.
-2. Ein Objekt je Thema: der Katalogeintrag mit seinen Einheiten. Was neu
-   gebraucht wird, wird ein Feld darin, nie eine neue Datei. Zuordnung,
-   Zuschnitt, Handgriffe und Kapitel sind Sichten, die ein Skript aus
-   Katalog und Bank erzeugt.
+2. Drei gepflegte Objekte (Entscheidung A, 08.10.): die Bank (Aufgabe =
+   Grundbaustein), der Katalog (Lernweg, Unterricht) und je Prüfungsart
+   eine Prüfungsgliederung (Kapitel → Stufe → Bankaufgaben, Originale,
+   didaktische Felder). Neues wird ein Feld in einem dieser drei, nie eine
+   neue Dateiart; alles andere (Zuschnitt, Handgriffe, Übersichten) erzeugt
+   ein Skript. Merkkasten und Fehler stehen nur im Katalog.
 3. Ein Bauprogramm setzt jedes Blatt (Unterricht, P10, Abitur). Der
    Chat bestellt nur.
 4. Eine Regeldatei: aufgabenbank `bau/bauregeln.md`. Aufbau, Reihenfolge,
@@ -50,9 +52,9 @@ Grundkurs. Die Aufgaben kommen aus einer vollständigen, geprüften Bank.
 
 W1 Ein Bauprogramm: `pruefheft.py` ist die Basis; `zusammenbau.py`
    wird nicht weiterentwickelt; Bank-Prompt v5.8 bleibt Notweg.
-W2 Steckbrief geht im Katalog auf: seine eigenen Inhalte (Arten,
-   Gruppen, Reihenfolge, Zwischenfragen) werden Felder der
-   Katalog-Einheit; Merkkasten, Formel, Fehler stehen dort schon.
+W2 Steckbrief geht in der Prüfungsgliederung auf (Felder an der Stufe:
+   Arten, Gruppen, Reihenfolge, Zwischenfragen); Merkkasten, Formel,
+   Fehler werden aus dem Katalog verwiesen (geändert 08.10., Befund oben).
 W3 Regeln vom 07.10.: werden gegen den Stand Montag 05.10. 18:00
    verglichen; jede Umkehrung entscheidet der Lehrer einzeln.
 W4 Reihenfolge: Vereinheitlichen (an P10 und Sek II zugleich), dann
@@ -110,7 +112,7 @@ Parallel ab jetzt: Sek-II-Daten (sparsam, in kleinen Läufen)
 
 ## 5 Jetzt
 
-Meilenstein M2. Halt vor dem Umbau – Planfrage an den Lehrer (08.10. nachts):
+Meilenstein M2. Entschieden 08.10.: Vorschlag A (Lehrer). Befund dazu:
 
 Befund Abgleich Zuordnung ↔ Katalog: Von 80 P10-Stufen liegen 38 in einer
 Katalog-Einheit, 22 über mehrere Einheiten eines Eintrags, 19 über mehrere
@@ -149,6 +151,8 @@ Boden unter Klasse 8 · Verschmelzung der Prompts · mündliche Prüfung.
 
 ## 7 Änderungen
 
+- 09.10.2026: Entscheidung A (Bank + Katalog + Prüfungsgliederung), W2
+  angepasst; Messwert Nacht: Woche 30 → 31 %, Fable 7 → 9 % (0,66 Mio Token).
 - 08.10.2026 (c): W3 entschieden – Übersicht vorn entfällt, Zählung nur
   Schlusszeile, Gruppen eingerückt, Auswahl im Fokusblatt, Bündel/Rahmen/
   Anhang fallen, Richtung kurz, Zwischenfragen als Richtung, Fuß nur
