@@ -117,6 +117,71 @@ Zielmarke: Einheit 1 – Anzahl der möglichen dreistelligen Nummern aus drei ve
 - Serlo über die Suche nicht erreichbar (ein Abruf: Lernhelfer, Klett-Grundwissen, tutory); Kästen eigene Formulierung.
 - Vorlage: Baumdiagramme mit leeren Eintragfeldern an den Ästen (sechs Originale verlangen Eintragen), Glücksräder mit gleich großen Sektoren, Urnen mit Kugeln, dazu eine Darstellung der Würfelbeschriftung für 2026-FOR-K6b und 2026-FOR-K6d – ob als Netz oder als Aufzählung der sechs Zahlen, sagt der Katalog nicht (Feld material nur „Figur“); prüfen, ob mathblatt.sty Bausteine hat (Stufe-4-Liste der Anleitung).
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau VUC/E2; Einheit 1, 3 und 4 noch
+nicht nach bau/bauauftrag.md gebaut).
+
+Folge | Grund für die Stelle:
+1. Zählen und Ergebnismengen (Lerneinheit 1) | Wer nicht vollständig
+   und geordnet aufzählt, kann „möglich“ und „günstig“ nicht zählen; ZW
+   und WZ als zwei Ergebnisse trägt bis in den Baum.
+2. Wahrscheinlichkeit einstufig (Lerneinheit 2) | Laplace als Anteil:
+   günstig durch möglich; dann Gesamtzahl aus dem Text und Prozent,
+   Gegenereignis, veränderte und eingeschränkte Grundmenge, Zufallsgerät
+   und Vorhersage. Das Gegenereignis steht vor der veränderten
+   Grundmenge, weil Einheit 3 es für „mindestens einmal“ braucht; die
+   veränderte Grundmenge (ein Stück ist weg) bereitet „ohne
+   Zurücklegen“ vor.
+3. Baumdiagramm und Pfadregeln (Lerneinheit 3) | setzt die einstufige
+   Wahrscheinlichkeit je Ast und das Gegenereignis voraus.
+4. Ohne Zurücklegen (Lerneinheit 4) | zuletzt: Nenner und Zähler
+   ändern sich je Stufe – die veränderte Grundmenge aus 2, jetzt im Baum.
+
+Vorher-Check (Zone): wahrscheinlichkeit-zone-f1-v1, wahrscheinlichkeit-zone-f1-v3,
+wahrscheinlichkeit-zone-f2-v2, wahrscheinlichkeit-zone-f2-v3,
+wahrscheinlichkeit-zone-f3-v2, wahrscheinlichkeit-zone-f4-v1,
+wahrscheinlichkeit-zone-f4-v6
+Probetest Einheit 2 (Originale, gemischt, schwerste zuletzt): 2014-OS-B1d,
+2019-OS-K6a, 2016-OS-B1f, 2014-OS-B1b, 2014-OS-K6a, 2026-FOR-K6a,
+2015-OS-B1a, 2018-OS-B1j, 2019-OS-B1g, 2024-OS-K5a, 2017-OS-K6a,
+2016-OS-K5c, 2018-OS-K7b, 2016-OS-K5d
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (Form „abschnitte“, 10.10.2026); fehlt er, ist die
+Einheit noch nicht gebaut. Steht hier am Ende, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben.
+
+Serie: Vorher: Brüche kürzen; Bruch – Dezimalzahl – Prozent | Zählen: Zählen und Ergebnismengen | Wahrscheinlichkeit: Wahrscheinlichkeit einstufig; Baumdiagramm und Pfadregeln; Ohne Zurücklegen | Weiter: Vierfeldertafel und bedingte Wahrscheinlichkeit
+
+#### Lerneinheit 2 – Wahrscheinlichkeit einstufig (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung VUC · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Endziffer-Lose, Behauptung prüfen, P = 7/80 (2016-OS-K5d); Pfannkuchen 2/14 statt 2/16 (2018-OS-K7b); P(gelb) = 3/20 = 15 % (2019-OS-K6a); „weder 1 noch 6“ (2014-OS-B1d); Topf mit P = 50 % (2015-OS-B1a); Kugeln zu P(schwarz) = 2/3 (2019-OS-B1g)
+Blatt: Klasse 7 · Vorher: Zählen und Ergebnismengen · Weiter: Baumdiagramm und Pfadregeln
+Titel: Wahrscheinlichkeit: günstig durch möglich
+Formel: $P(E) = \dfrac{\text{günstige Ergebnisse}}{\text{mögliche Ergebnisse}}$
+In Worten: Die Wahrscheinlichkeit ist der Anteil der günstigen an allen möglichen Ergebnissen – wenn alle Ergebnisse gleich wahrscheinlich sind.
+Vorgehen: alle möglichen Ergebnisse zählen (auch Nieten, auch Kaputte); die günstigen zählen; günstig durch möglich, kürzen; wenn verlangt: ausdividieren und mal 100 für Prozent
+Achtung: Das gilt nur bei gleich großen Feldern. Eine Wahrscheinlichkeit sagt, wie oft \emph{ungefähr} – nicht, was sicher kommt.
+Bild: wahrscheinlichkeit-e2-k3-s4-v4
+Fehler: Nieten nicht mitgezählt: $\frac{12}{36}$ statt $\frac{12}{48}$. Alle Lose sind möglich.
+Fehler: Farben gezählt statt Felder: $\frac{1}{3}$ bei drei Farben. Zähl die Felder.
+Fehler: Mehr rote Kugeln heißt nicht bessere Chance. Es zählt der Anteil.
+Fehler: Etwas ist schon weg, aber die alte Gesamtzahl genommen.
+Fehler: „Etwa 60-mal“ als „genau 60-mal“ gelesen.
+Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlangt ist (eine Stelle nach dem Komma).
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Günstig durch möglich | Sind alle Ergebnisse gleich wahrscheinlich (gleich große Felder, gleiche Kugeln, fairer Würfel), zählst du: Wie viele Ergebnisse sind \textbf{möglich}? Wie viele davon sind \textbf{günstig}, passen also zum Ereignis? Die Wahrscheinlichkeit ist günstig durch möglich. | $P(E) = \dfrac{\text{Anzahl der günstigen Ergebnisse}}{\text{Anzahl der möglichen Ergebnisse}}$ \qquad {\small Bruch kürzen.} | wahrscheinlichkeit-e2-k3-s4-v4 | wahrscheinlichkeit-e2-k3-s1-v6, wahrscheinlichkeit-e2-k3-s3-v4, wahrscheinlichkeit-e2-k3-s2-v4, wahrscheinlichkeit-e2-k3-s4-v5, wahrscheinlichkeit-e2-k4-s1-v4 | wahrscheinlichkeit-e2-k3-s2-v5, wahrscheinlichkeit-e2-k3-s3-v5, wahrscheinlichkeit-e2-k3-s4-v6, wahrscheinlichkeit-e2-k4-s1-v5 |
+| L2-B | Alle mitzählen, in Prozent | Lies genau, was alles in der Trommel, der Kiste oder dem Beutel liegt: Möglich sind \emph{alle} Stücke, auch Nieten und kaputte. Für die Prozentangabe teilst du Zähler durch Nenner und nimmst mal 100. | alle $=$ günstige $+$ übrige \qquad $\frac{1}{4} = 1 : 4 = 0{,}25 = 25\,\%$\par {\small Nummern von 201 bis 600: $600 - 201 + 1 = 400$ Stück.} | wahrscheinlichkeit-e2-k3-s6-v4 | wahrscheinlichkeit-e2-k3-s5-v4, wahrscheinlichkeit-e2-k3-s6-v5, wahrscheinlichkeit-e2-k3-s5-v5, wahrscheinlichkeit-e2-k3-s6-v6, wahrscheinlichkeit-e2-k3-s12-v4 | wahrscheinlichkeit-e2-k3-s5-v6, wahrscheinlichkeit-e2-k3-s6-v7, wahrscheinlichkeit-e2-k3-s6-v8, wahrscheinlichkeit-e2-k3-s5-v7, wahrscheinlichkeit-e2-k3-s12-v5 |
+| L2-C | Gegenereignis: „nicht“ und „weder … noch“ | Das \textbf{Gegenereignis} ist alles, was nicht zum Ereignis gehört. Beide zusammen haben die Wahrscheinlichkeit 1 (100\,\%). Oft ist das Gegenteil leichter zu zählen. | $P(\text{nicht } E) = 1 - P(E)$ \qquad in Prozent: $100\,\% - P(E)$ | wahrscheinlichkeit-e2-k3-s7-v4 | wahrscheinlichkeit-e2-k3-s7-v5, wahrscheinlichkeit-e2-k3-s7-v6, wahrscheinlichkeit-e2-k3-s7-v7, wahrscheinlichkeit-e2-k3-s7-v8, wahrscheinlichkeit-e2-k3-s12-v6 | wahrscheinlichkeit-e2-k3-s7-v9, wahrscheinlichkeit-e2-k3-s7-v10, wahrscheinlichkeit-e2-k3-s7-v11, wahrscheinlichkeit-e2-k3-s12-v7 |
+| L2-D | Wenn sich die Grundmenge ändert | Ist schon etwas weg (gegessen, gezogen und nicht zurückgelegt), gibt es weniger mögliche Ergebnisse. Weißt du schon etwas (z.\,B. die letzte Ziffer), zählst du nur noch die Ergebnisse, die dazu passen. | $P = \dfrac{\text{günstige, die noch in Frage kommen}}{\text{alle, die noch in Frage kommen}}$ | wahrscheinlichkeit-e2-k3-s10-v4 | wahrscheinlichkeit-e2-k3-s10-v5, wahrscheinlichkeit-e2-k3-s10-v6, wahrscheinlichkeit-e2-k3-s10-v7, wahrscheinlichkeit-e2-k3-s13-v3 | wahrscheinlichkeit-e2-k3-s10-v8, wahrscheinlichkeit-e2-k3-s10-v9, wahrscheinlichkeit-e2-k3-s10-v10, wahrscheinlichkeit-e2-k3-s13-v4 |
+| L2-E | Zufallsgerät bauen und vorhersagen | Ist die Wahrscheinlichkeit gegeben, rechnest du rückwärts: So viele Felder oder Kugeln brauchst du. Genauso sagst du voraus, wie oft etwas bei vielen Versuchen \emph{ungefähr} eintritt – sicher ist das nicht. | günstige Felder $= P \cdot$ alle Felder \qquad erwartete Anzahl $= P \cdot$ Anzahl der Versuche | wahrscheinlichkeit-e2-k3-s8-v4 | wahrscheinlichkeit-e2-k3-s8-v5, wahrscheinlichkeit-e2-k3-s9-v4, wahrscheinlichkeit-e2-k3-s11-v4, wahrscheinlichkeit-e2-k5-s1-v4 | wahrscheinlichkeit-e2-k3-s8-v6, wahrscheinlichkeit-e2-k3-s8-v7, wahrscheinlichkeit-e2-k3-s9-v5, wahrscheinlichkeit-e2-k5-s1-v5, wahrscheinlichkeit-e2-k5-s1-v6 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | wahrscheinlichkeit-e2-k3-s2-v6, wahrscheinlichkeit-e2-k3-s6-v9, wahrscheinlichkeit-e2-k3-s7-v12, wahrscheinlichkeit-e2-k3-s10-v11, wahrscheinlichkeit-e2-k5-s1-v7 | wahrscheinlichkeit-e2-k3-s4-v7, wahrscheinlichkeit-e2-k3-s2-v7, wahrscheinlichkeit-e2-k3-s6-v10, wahrscheinlichkeit-e2-k3-s10-v12 |
+
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
