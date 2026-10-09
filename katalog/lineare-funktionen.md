@@ -107,6 +107,65 @@ Zuordnung: Einheit 1 – kein Typ (proportionale Funktion als Vorstufe, Typen be
 - Einheit 1 hat keinen Merkkasten. Das ist gewollt und folgt dem Muster der Einstiegseinheiten aus dem ersten Gegenlese-Block: terme.md Einheit 1 und lineare-gleichungen.md Einheit 1 haben ebenfalls keinen – die Regel steht dort im Kasten der nächsten Einheit, die Einstiegseinheit trägt Kette und Zielmarke, aber keine eigene Merkregel. Die drei sind die einzigen Einheiten des Katalogs ohne Kasten.
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau VUC/E1; die übrigen Einheiten
+sind in Abschnittsform noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Proportionale Funktion (Lerneinheit 1) | y = m · x ohne n: Quotient,
+   Ursprungsgerade und m als Wert je Einheit; baut direkt auf dem
+   Dreisatz auf (zuordnungen.md Einheit 2). LISUM-PH baut die Reihe
+   ausdrücklich so in zwei Stufen.
+2. Lineare Funktion f(x) = m · x + n (Lerneinheit 2) | n verschiebt die
+   Ursprungsgerade; das Steigungsdreieck („1 nach rechts, m nach oben“)
+   aus E1 Abschnitt C wird hier geübt. Erst hier: m und n unterscheiden.
+3. Punkte und Werte (Lerneinheit 3) | Rechnen an einer gegebenen Geraden,
+   auch rückwärts; E1 Abschnitt D übt x = y : m schon vor.
+4. Gleichung bestimmen (Lerneinheit 4) | setzt m und n sicher voraus;
+   Steigung aus zwei Punkten verallgemeinert m = y : x aus E1.
+5. Anwendungen (Lerneinheit 5) | Tarife mit Grundgebühr vereinen 1–4;
+   der Vergleich „proportional oder mit Grundgebühr“ (E1 A, Ziel)
+   kehrt dort als Tarifvergleich wieder.
+
+Vorher-Check (Zone): lineare-funktionen-zone-f1-v1,
+lineare-funktionen-zone-f1-v2, lineare-funktionen-zone-f2-v1,
+lineare-funktionen-zone-f2-v2, lineare-funktionen-zone-f3-v1,
+lineare-funktionen-zone-f4-v1
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` in der Form „abschnitte“ (Abschnitte A, B, … mit
+Satz, Formel, Beispiel, Aufgaben und Vorrat); fehlt er, ist die Einheit
+noch nicht gebaut. Steht am Ende, damit die Zeilennummern im Bankfeld
+quelle gültig bleiben.
+
+Serie: Vorher: Dreisatz; Koordinaten | Lineare Funktionen: Proportionale Funktion; Lineare Funktion f(x) = mx + n; Punkte und Werte; Gleichung bestimmen; Anwendungen | Weiter: Lineare Gleichungssysteme
+
+#### Lerneinheit 1 – Proportionale Funktion (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung VUC · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: kein P10-Original; Marke nach RLP F und LISUM-PH Jg. 8: zu einem Sachverhalt die Gleichung aufstellen, die Ursprungsgerade zeichnen, m als Wert je Einheit deuten; vorbereitet: Gleichung zu einem Tarif ankreuzen (2021-OS-K7a), Wertetabelle einer Funktion zuordnen
+Blatt: Klasse 8 · Vorher: Dreisatz; Koordinaten · Weiter: Lineare Funktion f(x) = mx + n
+Titel: Proportionale Funktion: $y = m \cdot x$
+Formel: $y = m \cdot x$ \qquad $m = y : x$
+In Worten: $y$ ist immer das $m$-Fache von $x$. Der Graph ist eine Gerade durch den Ursprung.
+Vorgehen: prüfen, ob $y : x$ immer gleich ist – das ist $m$; die Gleichung $y = m \cdot x$ aufschreiben; zeichnen: Ursprung und zwei Punkte aus der Wertetabelle, Gerade ziehen; in der Sache: $m$ ist der Wert für eine Einheit, rückwärts $x = y : m$
+Achtung: Gleicher Zuwachs reicht nicht: $y = x + 3$ ist \emph{nicht} proportional. Punkte als $(x \mid y)$ eintragen: erst nach rechts, dann nach oben.
+Bild: lineare-funktionen-e1-k1-s1-v6
+Fehler: Differenz statt Quotient: $10 - 2 = 8$ ist nicht $m$. Richtig: $m = y : x$.
+Fehler: Punkt vertauscht: $(6 \mid 2)$ statt $(2 \mid 6)$. Erst $x$ nach rechts, dann $y$ nach oben.
+Fehler: Gerade nicht durch den Ursprung gezeichnet. Bei $y = m \cdot x$ gehört $(0 \mid 0)$ immer dazu.
+Fehler: In der Sache $x$ gesucht und mit $m$ malgenommen. Richtig: $x = y : m$.
+Tisch: Zeichne mit Lineal und Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Proportional? Gleichung aus der Tabelle | Eine Zuordnung ist \textbf{proportional}, wenn $y : x$ in jedem Wertepaar dieselbe Zahl ergibt. Diese Zahl heißt $m$. Dann gilt $y = m \cdot x$. | $m = y : x$ \ (in jeder Spalte gleich) \qquad $\to$ \qquad $y = m \cdot x$\par {\small Gleicher Zuwachs (+3, +3, …) reicht nicht: Teile immer $y$ durch $x$.} | lineare-funktionen-e1-k1-s6-v4 | lineare-funktionen-e1-k1-s6-v5, lineare-funktionen-e1-k1-s6-v6, lineare-funktionen-e1-k1-s6-v7, lineare-funktionen-e1-k3-s2-v4 | lineare-funktionen-e1-k1-s0-v5, lineare-funktionen-e1-k1-s6-v8, lineare-funktionen-e1-k1-s6-v9, lineare-funktionen-e1-k3-s2-v5 |
+| L1-B | Den Graphen zeichnen | Der Graph von $y = m \cdot x$ ist eine Gerade durch den Ursprung. Du brauchst den Ursprung und zwei Punkte aus einer Wertetabelle; einer davon dient zur Kontrolle. | $x$ wählen \ $\to$ \ $y = m \cdot x$ rechnen \ $\to$ \ Punkte eintragen \ $\to$ \ Gerade durch den Ursprung\par {\small Ist $m$ ein Bruch, nimm für $x$ Vielfache des Nenners. Ist $m$ negativ, fällt die Gerade.} | lineare-funktionen-e1-k1-s1-v6 | lineare-funktionen-e1-k1-s1-v7, lineare-funktionen-e1-k1-s3-v4, lineare-funktionen-e1-k1-s4-v4, lineare-funktionen-e1-k1-s5-v4, lineare-funktionen-e1-k1-s8-v4 | lineare-funktionen-e1-k1-s1-v8, lineare-funktionen-e1-k1-s3-v5, lineare-funktionen-e1-k1-s4-v5, lineare-funktionen-e1-k1-s5-v5, lineare-funktionen-e1-k1-s8-v5 |
+| L1-C | Gleichung am Graphen ablesen | Am Graphen findest du $m$ über einen Punkt, der genau auf einem Gitterkreuz liegt. Je steiler die Gerade, desto größer $m$: Gehst du 1 nach rechts, geht sie $m$ nach oben. | Punkt $P(x \mid y)$ ablesen \ $\to$ \ $m = y : x$ \ $\to$ \ $y = m \cdot x$ | lineare-funktionen-e1-k3-s3-v4 | lineare-funktionen-e1-k3-s3-v5, lineare-funktionen-e1-k3-s3-v6, lineare-funktionen-e1-k3-s3-v7, lineare-funktionen-e1-k3-s3-v8, lineare-funktionen-e1-k3-s3-v9 | lineare-funktionen-e1-k1-s2-v4, lineare-funktionen-e1-k3-s3-v10, lineare-funktionen-e1-k3-s3-v11, lineare-funktionen-e1-k3-s3-v12, lineare-funktionen-e1-k3-s3-v13 |
+| L1-D | Sachaufgaben: m deuten, vorwärts und rückwärts | In Sachaufgaben ist $m$ der Wert für eine Einheit: Preis je kg, km je Stunde, Liter je Minute. Ist $y$ gegeben und $x$ gesucht, teilst du durch $m$. | $y = m \cdot x$ \ ($y$ gesucht) \qquad $x = y : m$ \ ($x$ gesucht)\par {\small Kontrolle mit dem Dreisatz: 1 Einheit $\to$ $m$.} | lineare-funktionen-e1-k1-s8-v6 | lineare-funktionen-e1-k3-s4-v4, lineare-funktionen-e1-k3-s4-v5, lineare-funktionen-e1-k2-s1-v4, lineare-funktionen-e1-k3-s4-v6 | lineare-funktionen-e1-k3-s4-v7, lineare-funktionen-e1-k3-s4-v8, lineare-funktionen-e1-k3-s4-v9, lineare-funktionen-e1-k2-s1-v5, lineare-funktionen-e1-k1-s8-v7 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | lineare-funktionen-e1-k3-s3-v14, lineare-funktionen-e1-k3-s3-v15, lineare-funktionen-e1-k1-s5-v6, lineare-funktionen-e1-k3-s3-v16, lineare-funktionen-e1-k3-s4-v10 | lineare-funktionen-e1-k3-s3-v17, lineare-funktionen-e1-k1-s4-v6, lineare-funktionen-e1-k3-s4-v11 |
+
 ## Prüfliste (vor Status „gegengelesen")
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
