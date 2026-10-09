@@ -156,11 +156,39 @@ Probetest (Originale, gemischt, schwerste zuletzt): 2022-OS-B1g,
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 `bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
 nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
-Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
+Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md). Seit 10.10.2026 in
+der Form „abschnitte“ (Abschnitte A, B, … mit Satz, Formel, Beispiel,
+Aufgaben und Vorrat; aufgabenbank `bau/bauauftrag.md`); eine frühere
+Fassung bleibt darunter stehen.
 
 Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; Ist der Winkel recht? | In Figuren und Körpern: Das Dreieck erst finden | Weiter: Seiten und Winkel mit sin, cos, tan
 
-#### Lerneinheit 1 – Hypotenuse berechnen (Satz und Hypotenuse)
+#### Lerneinheit 1 – Hypotenuse berechnen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung H7U · Kritiker: offen · Lehrer: – (Prüfstein 09.10. nach bau/muster-auftrag.md, „die Aufgaben sind gut“)
+Form: abschnitte
+Ziel: Rampe x = √(170² + 16²) ≈ 170,8 cm (2025-OS-K4a); AB = √(12² + 34²) ≈ 36,1 m (2020-OS-K7a); Gleichung mit fremden Buchstaben ankreuzen (2021-OS-B1h, 2026-FOR-B1j); Satz in Worten (2022-OS-B1g)
+Blatt: Klasse 9 · Vorher: Quadrat und Wurzel · Weiter: Kathete berechnen
+Titel: Satz des Pythagoras: die Hypotenuse berechnen
+Formel: $c^2 = a^2 + b^2$ \qquad $c = \sqrt{a^2+b^2}$
+In Worten: Die Quadrate der beiden Katheten ergeben zusammen das Quadrat der Hypotenuse.
+Vorgehen: rechten Winkel suchen; gegenüber liegt die Hypotenuse (längste Seite); $c^2 = a^2 + b^2$ ausrechnen (nicht runden); Wurzel ziehen, am Ende runden, Einheit dazu
+Achtung: Heißen die Seiten anders ($x,y,z$ oder $r,s,t$): Allein steht immer die Hypotenuse. Achtung: $c$ ist \emph{nicht} $a + b$.
+Bild: pythagoras-e1-k2-s1-v10
+Fehler: $c = a + b$ gerechnet. Richtig: erst quadrieren, addieren, dann die Wurzel.
+Fehler: Eine Kathete als Hypotenuse genommen. Die Hypotenuse liegt dem rechten Winkel gegenüber.
+Fehler: Wurzel vergessen: $c^2$ ist noch nicht $c$.
+Fehler: Zwischendurch gerundet. Erst ganz am Ende runden.
+Fehler: cm und m gemischt. Vorher beide Längen in dieselbe Einheit bringen.
+Tisch: Runde, wenn nichts anderes steht, auf eine Stelle nach dem Komma.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Hypotenuse finden und berechnen | Im rechtwinkligen Dreieck liegt dem rechten Winkel die längste Seite gegenüber: die \textbf{Hypotenuse}. Die beiden anderen Seiten heißen \textbf{Katheten}. Such immer zuerst den rechten Winkel – egal, wie das Dreieck liegt und wie die Seiten heißen. | $c^2 = a^2 + b^2$ \qquad also \qquad $c = \sqrt{a^2 + b^2}$ \qquad {\small ($c$ Hypotenuse, $a$ und $b$ Katheten)} | pythagoras-e1-k2-s1-v10 | pythagoras-e1-k2-s2-v4, pythagoras-e1-k2-s6-v8, pythagoras-e1-k2-s8-v8, pythagoras-e1-k2-s9-v5 | pythagoras-e1-k2-s1-v11, pythagoras-e1-k2-s2-v5, pythagoras-e1-k2-s6-v9, pythagoras-e1-k2-s8-v10, pythagoras-e1-k2-s9-v10 |
+| L1-B | Wenn die Wurzel nicht aufgeht | Meist kommt keine glatte Zahl heraus. Dann schreibst du $c^2$ als Zwischenergebnis auf, ziehst die Wurzel mit dem Taschenrechner und rundest erst ganz am Ende. | $c^2 = a^2 + b^2$ \ \ $\to$ \ \ Wurzel ziehen: $c = \sqrt{c^2}$ \ \ $\to$ \ \ runden \ \ $\to$ \ \ Einheit\par {\small Vorher beide Längen in dieselbe Einheit bringen (1\,m = 100\,cm).} | pythagoras-e1-k2-s3-v7 | pythagoras-e1-k2-s3-v8, pythagoras-e1-k2-s4-v5, pythagoras-e1-k2-s5-v6, pythagoras-e1-k2-s9-v6, pythagoras-e1-k2-s9-v7 | pythagoras-e1-k2-s3-v9, pythagoras-e1-k2-s3-v10, pythagoras-e1-k2-s4-v6, pythagoras-e1-k2-s5-v7, pythagoras-e1-k2-s9-v11, pythagoras-e1-k2-s9-v12 |
+| L1-C | Sachaufgaben: Leiter, Rampe, Gelände | In Sachaufgaben steckt das Dreieck in der Wirklichkeit. Frag dich: Wo ist der rechte Winkel? Was liegt ihm gegenüber? Das ist die Hypotenuse. | rechter Winkel finden \ $\to$ \ Hypotenuse = gesuchte Strecke \ $\to$ \ $c^2 = a^2 + b^2$ \ $\to$ \ $c$ \ $\to$ \ Antwortsatz\par {\small Kommt noch etwas dazu (Knoten, Überstand): erst dazuzählen, dann runden – nicht zwischendurch.} | pythagoras-e1-k2-s10-v7 | pythagoras-e1-k2-s15-v8, pythagoras-e1-k2-s15-v9, pythagoras-e1-k2-s11-v4, pythagoras-e1-k2-s10-v8 | pythagoras-e1-k2-s10-v9, pythagoras-e1-k2-s15-v10, pythagoras-e1-k2-s15-v11, pythagoras-e1-k2-s11-v5, pythagoras-e1-k2-s10-v10 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | pythagoras-e1-k2-s7-v4, pythagoras-e1-k2-s8-v9, pythagoras-e1-k2-s9-v8, pythagoras-e1-k2-s9-v9 | pythagoras-e1-k2-s8-v11, pythagoras-e1-k2-s7-v5, pythagoras-e1-k2-s8-v12, pythagoras-e1-k2-s9-v13, pythagoras-e1-k2-s9-v14 |
+
+#### Lerneinheit 1 – Hypotenuse berechnen, frühere Fassung (M74)
 Stand: 2026-10-09 · Kennung M74 · Kritiker: durch (Fable; übernommen: Rechtwinkelmarke in Leiter und Park, Runden grau vorgerechnet, Brücke 3² + 4² = 5² vor dem Satz; nicht: Sachaufgaben hinter die Zielaufgaben) · Lehrer: – (Vorbau K4W „besser“)
 Ziel: Rampe x = √(170² + 16²) ≈ 170,8 cm (2025-OS-K4a); daneben AB = √(12² + 34²) ≈ 36,1 m (2020-OS-K7a)
 Formel und Beispiel je Schritt: L1-1: Gegenüber dem rechten Winkel liegt die Hypotenuse, die längste Seite · Beispiel pythagoras-e1-k2-s0-v6 · L1-2: Die zwei Kathetenquadrate zusammen sind so groß wie das Hypotenusenquadrat (Flächen, nicht Längen) · Beispiel pythagoras-e1-k3-s1-v5 · L1-3: Hypotenuse² = Kathete² + Kathete² · Beispiel pythagoras-e1-k2-s6-v5 · L1-4: c² = a² + b², dann c = √(a² + b²) · Beispiel pythagoras-e1-k2-s1-v9 · L1-5: erst Einheiten angleichen, zuletzt runden · Beispiel pythagoras-e1-k2-s3-v5 · L1-6: rechten Winkel in der Sache suchen, Dreieck skizzieren, Hypotenuse gegenüber · Beispiel pythagoras-e1-k2-s10-v5 · L1-7: auch wenn eine Kathete fast so lang ist wie die Hypotenuse, wird addiert · Beispiel pythagoras-e1-k2-s15-v7
