@@ -118,7 +118,7 @@ Zielmarke: Einheit 1 – Anzahl der möglichen dreistelligen Nummern aus drei ve
 - Vorlage: Baumdiagramme mit leeren Eintragfeldern an den Ästen (sechs Originale verlangen Eintragen), Glücksräder mit gleich großen Sektoren, Urnen mit Kugeln, dazu eine Darstellung der Würfelbeschriftung für 2026-FOR-K6b und 2026-FOR-K6d – ob als Netz oder als Aufzählung der sechs Zahlen, sagt der Katalog nicht (Feld material nur „Figur“); prüfen, ob mathblatt.sty Bausteine hat (Stufe-4-Liste der Anleitung).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau VUC/E2; Einheit 1, 3 und 4 noch
+Stand: 2026-10-10, vorläufig (aus dem Bau KUV/E2; Einheit 1, 3 und 4 noch
 nicht nach bau/bauauftrag.md gebaut).
 
 Folge | Grund für die Stelle:
@@ -155,7 +155,7 @@ Bankfeld quelle gültig bleiben.
 Serie: Vorher: Brüche kürzen; Bruch – Dezimalzahl – Prozent | Zählen: Zählen und Ergebnismengen | Wahrscheinlichkeit: Wahrscheinlichkeit einstufig; Baumdiagramm und Pfadregeln; Ohne Zurücklegen | Weiter: Vierfeldertafel und bedingte Wahrscheinlichkeit
 
 #### Lerneinheit 2 – Wahrscheinlichkeit einstufig (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung VUC · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung KUV · Kritiker: offen · Lehrer: –
 Form: abschnitte
 Ziel: Endziffer-Lose, Behauptung prüfen, P = 7/80 (2016-OS-K5d); Pfannkuchen 2/14 statt 2/16 (2018-OS-K7b); P(gelb) = 3/20 = 15 % (2019-OS-K6a); „weder 1 noch 6“ (2014-OS-B1d); Topf mit P = 50 % (2015-OS-B1a); Kugeln zu P(schwarz) = 2/3 (2019-OS-B1g)
 Blatt: Klasse 7 · Vorher: Zählen und Ergebnismengen · Weiter: Baumdiagramm und Pfadregeln
