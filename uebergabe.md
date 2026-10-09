@@ -1,118 +1,68 @@
-# Übergabe verbessereBlaetter – 2026-10-08b (Chat 08.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-09 (Chat 08./09.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-08.md (trug irrtümlich das
-Datum 09.10.; ebenso Ordner wie pruefstein-2026-10-09 – gebaut am 08.10.).
+Vorherige Übergabe: archiv/uebergabe-2026-10-08b.md. Nach plan.md Linie 8
+nennt diese Übergabe keinen eigenen nächsten Schritt: maßgeblich ist
+plan.md § 7 („Jetzt“).
 
 ## 1 Ziel
 
-Der Lehrer bestellt mit wenigen Wörtern und bekommt in Minuten ein gutes
-Blatt – drei PDFs: Übersicht, Blatt, Lösungen –, zuerst P10 und Abitur GK.
-Maßgeblich ist `plan.md`.
+plan.md § 1: Der Lehrer bestellt mit wenigen Wörtern und bekommt in höchstens
+3 Minuten drei PDFs, die ein guter Didaktiker so bauen würde – zuerst P10,
+dann Abitur GK.
 
 ## 2 Arbeitsgrundlage
 
-- `plan.md` – § 2 große Linien (neu: Linie 8 „Blattsorte = Filter“), § 5
-  „Jetzt“ mit den Entscheidungen vom 08.10., Richtung Durchgänge und dem
-  Problem Regelzwang, § 6 „Später“.
-- aufgabenbank `bau/bauregeln.md` – neu am 08.10.: Zweck (§ 1), Sorten als
-  Filter (§ 2), Übersicht/Serie (§ 3), Didaktik als Zweck + Beispiel (§ 4),
-  Handwerk (§ 5–8), Offen (§ 9). Alte Fassung archiv/bauregeln-bis-2026-10-07.md.
-- `begriffe.md` – Begriff · Bedeutung · Beispiel Pythagoras, mit Zählung.
-- Proben aufgabenbank `bau/proben/2026-10-08/`: `paket-pythagoras-2/` (beste
-  Fassung des Tages), `durchgaenge-pythagoras/` (Befundblatt, siehe § 3),
-  `uebersicht-kurvenuntersuchung-3/` (Form der Übersicht).
-- `katalog/pythagoras.md`, aufgabenbank `bank/pythagoras/`.
+Einstieg über CLAUDE.md (beide Repos). Rangfolge: mathe-nachhilfe plan.md →
+aufgabenbank bau/bauregeln.md → bau/bauauftrag.md → bank.md → begriffe.md.
+Belege: pruefstand-2026-10-09/ (vier Leserberichte, Planentwurf), aufgabenbank
+bau/befunde-M2.md, befund-selbstlernheft-2026-10-09.md.
 
 ## 3 Arbeitsstand
 
-Erledigt 08.10.: Programmfehler am Heft Kurvenuntersuchung behoben (Zählung
-im Kopf, Fuß, kurzer Stamm, Säulendiagramm); Proben von Hand: Portion
-Kurvenuntersuchung, Übersicht in drei Fassungen, Paket Pythagoras zweimal,
-drei Durchgänge; Bauregeln neu geschrieben; Begriffe geklärt.
+- M0 (K4W „Hypotenuse“, Lehrer „besser“), M1 (Plan, Einstieg, Bauauftrag,
+  Felder; Haiku-Abnahme) und M2 (T6B „Kathete berechnen“ von einem Agenten
+  nach Bauauftrag gebaut, 41 min, ≈ 0,23 Mio Token + Kritiker; Lehrer
+  „insgesamt gut“; werkzeuge/setzer.py setzt T6B in 3,7 s) sind erledigt.
+- Ende M2 eingearbeitet: „Für wen du baust“, je Schritt Formel, Beispiel,
+  leichtere und gleichwertige Aufgaben (nur Bank), Thema-Weg je Thema,
+  Mischen in der folgenden Einheit, Originalliste nur auf Prüfungsblättern,
+  Selbstlernheft als Sorte beschrieben (Wahl offen).
+- Archiviert: ziel.md, faellig.md, blatt-konzept.md, layout-befunde,
+  Streichliste, drei Vorschläge vom 27./28.09. (Stubs verweisen).
 
-Befund am Abend (Durchgang 1 „Die lange Seite“, Urteil des Lehrers):
-- Das Blatt ist von unten gebaut – Teile aus der Bank „je Sorte eine“ –
-  statt von oben aus einem Lernweg. Ein Didaktiker hätte: Seiten benennen
-  (eindeutige zuerst: rechter Winkel gegenüber, längste), Satz in Worten
-  Hypotenuse² = Kathete² + Kathete², Gleichung an mehreren beschrifteten
-  Skizzen aufstellen ohne Rechnen (auch ein nicht rechtwinkliges Dreieck als
-  Stolperstelle), ein vorgerechnetes Umstellen grau in a), dann rechnen,
-  dann Sache (gut: wechselnde Aufgabenstellung wie Nr. 8), am Ende P10.
-- Die Bank-Kette „Hypotenuse“ hat selbst die falsche Folge: „Gleichung
-  aufstellen“ ist Sprosse 6, nach dem Rechnen.
-- Weg: Kästchenbild (Beweisgeschichte), Fehleraufgaben, vorgegebene
-  Ergebnisform, „nicht maßstabsgerecht“, ständiges „Kathete“; Päckchen zu
-  lang (Komma ans Ende), zu viele P10-Aufgaben, Fuß nicht knapp.
-- Name: „Hypotenuse berechnen“, nicht „Die lange Seite“.
-- Drei Regeln, die das erzeugten, sind entschärft (Bauregeln 1.5, 4.9, 6.9).
+## 4 Verbindliche Entscheidungen und Rahmen
 
-Nicht nachgezogen (Konsistenz): ziel.md (Sorten, Länge, „ein Blatt für
-alle“); bankblatt.md und pruefheft.py nennen alte Regelnummern; Widersprüche
-in bauregeln.md: Rand „grau“ gegen „kein grauer Zusatz“ (3.2), „Original ganz“
-gegen „kürzen“ (4.1/4.10), Kopf der Lösungen (6.1); Rechenräume zu groß (6.9
-im Programm).
-
-Messwert: Woche 34 % nach dem ersten Agenten; danach sechs Agenten mit
-zusammen rund 1,1 Mio Token, Anzeige nicht abgelesen.
-
-## 4 Verbindliche Entscheidungen
-
-- plan.md gilt; ändern nur der Lehrer. Keine Regel für ein einzelnes Blatt.
-- Entschieden 08.10. (plan.md § 5): Reihenfolge aus den Inhaltsverzeichnissen;
-  Blatt = Lerneinheit (Unterkapitel); Kern/Rand getrennt, Rand-Blatt immer da;
-  keine Teilnummern, Vorgänger/Nachfolger; Lieferung drei PDFs; Linie 8.
-- Sorte = Sprosse, an der man anders denken muss; reine Zahlsprossen ins
-  Päckchen (Bauregel 4.7).
-- „Einstieg unten/normal/oben“ statt „schwach/stark“ (Versuch).
-- So wie heute kann es nicht bleiben: Der Bau von unten aus Bank und Regeln
-  ist gescheitert; offen ist das Wie (§ 6).
-- Jede Frage trägt eine Empfehlung; Begriffe auf Abruf und ungefragt
-  (Projektanweisung Stand 2026-10-08 im Repo anweisungen – Lehrer ersetzt sie
-  im Claude-Projekt).
+- plan.md gilt (Lehrer 09.10.: „plan gilt“); ändern nur der Lehrer.
+- Der Lehrer will nur die Linien entscheiden; Kleinigkeiten entscheidet der
+  Chat und sagt sie in einem Satz.
+- **Token sparen, vom Ende her gedacht (Lehrer 09.10.):** Das
+  Wochenkontingent ist knapp. Rückwärts rechnen: Ende = jede Bestellung ohne
+  Modell aus Lernweg + Bank. Jeder Token muss Daten erzeugen, die der Setzer
+  nutzt; Lesen nur, was im Bau landet. Messwert: eine gebaute Einheit ≈
+  0,3–0,4 Mio Token ≈ 1 Wochenpunkt; 54 P10-Kerneinheiten ≈ 55 Punkte;
+  dazu Abitur GK. Darum: Runden je Woche planen und nach jeder Runde
+  ablesen; Bau-Agent Opus, Kritiker kurz (Fable, ≤ 400 Wörter), Prüfungen
+  mit Skripten, Abnahme-Checks mit Haiku; keine Leser-Runden über den
+  Bestand mehr; Chat kurz halten und früh umziehen; Setzer statt Modell.
+- Abo kann verlängert werden, wenn geliefert wird.
+- Messwerte 09.10.: fünf Fable-Leser + Kritiker ≈ 1,4 Mio → Woche +4,
+  Fable +6 Punkte; M2 (Bau + Setzer) ≈ 0,4 Mio → Woche +1. Stand 09.10.
+  mittags: Woche 42 %, Fable 18 %; Reset Montag 18:00.
 
 ## 5 Offen und Verworfenes
 
-- A oder B: Bank als Bauplan (A, bisher) oder Lernweg von oben, Bank als
-  Steinbruch für Originale, Häufigkeit, geprüfte Zahlen, typische Fehler (B).
-  Der Prüfstein in § 6 entscheidet.
-  Beleg für B (08.10. abends): Selbstlernheft „Geraden und Dreiecke im
-  Koordinatensystem“ (Kl. 11, aufgabenbank bau/hefte-einzel/2026-10-08-
-  geraden-ebene/) – ohne Bank, Lernweg zuerst geplant, Kritiker-Agent,
-  Nachbesserung; Lehrer beim ersten Überfliegen: „gelungen“. ~0,6 Mio Token.
-  Zeit (Messwert): Bau 21 min (52 Werkzeugschritte), Kritik 2 min, Nachbesserung
-  einige Minuten – über 20 min für 21 Seiten. Ziel „Minuten“ verlangt: Teile
-  parallel bauen, feste Vorlage für Koordinatensysteme, Bildprüfung nur
-  stichprobenweise.
-- Durchgänge 2 und 3: später, erst muss ein Blatt stimmen.
-- Merkmal „neue Sorte ja/nein“ je Sprosse in der Bank; Reihenfolge der Ketten.
-- Nachbestellung („mehr“, „hängt bei Nr.“), Folgebaum: mit dem Programm.
-- Umbau des Programms wartet auf den Prüfstein.
-- Verworfen: „Sorte“ neu erfinden (es gab drei Fassungen); Sorten für
-  schwache Schüler zusammenfassen.
+- Feld `satz` doppelt aufgabe/loesung; setzer.py setzt die Originalliste noch
+  auf Lernblättern – beides in der ersten Setzerrunde von M3 beheben.
+- Projektanweisung (3 100 Wörter, davon ~1 100 über tote Wege) ist gekürzt:
+  anweisungen/projekt-verbessereBlaetter.md, Stand 2026-10-09 – der Lehrer
+  ersetzt sie im Claude-Projekt.
+- Verworfen: K4W nachträglich zerlegen (wird in M3 neu gebaut); Leser-Runde
+  „alles neu lesen“ wiederholen; Bau auf jede Bestellung als Regelweg (bleibt
+  Notweg für persönliche Hefte).
 
 ## 6 Nächster Arbeitsschritt
 
-Prüfstein „Hypotenuse berechnen“ (Pythagoras, Lerneinheit 1), gebaut ohne
-Vorgaben des Lehrers, auf neuem Weg:
-1. Erst der Lernweg in 5–7 Schritten (was begreift der Schüler in welcher
-   Folge, wo stolpert er) aus Reihenfolge der Lehrwerke und „Typische Fehler“
-   des Katalogs – dem Lehrer kurz zeigen.
-2. Dann je Schritt eine Aufgabe aus der Bank oder eigene; Muster:
-   paket-pythagoras-2 und der Befund in § 3.
-3. Ein zweiter Agent ohne Regeln, nur mit dem Zweck (erfahrener Mathelehrer),
-   kritisiert; nachbessern; erst dann zum Lehrer.
-Aus den alten Prompts übernehmen (Auswertung 08.10., blattbau
-unterrichtsblatt.md v4.4 / pruefungsblatt.md): rückwärts von der Zielaufgabe
-planen, jede Schwierigkeit eine Stufe (pb Z. 96, 122; ub Z. 421–423);
-Erkennen/Aufstellen als Stufe vor dem Rechnen, ohne Zahl (ub Z. 470–485,
-548–551); Rechenaufwand (Komma, Runden) erst nach allen Denkschritten (ub
-Z. 691–703); Anfänger-Test „schafft die ersten Teilaufgaben ohne die Mitte“
-(ub Z. 684–689, 1258–1260); halbfertige Musterlösung vor jedem neuen Schritt
-(pb Z. 100, 142; ub Z. 763–766); Prüfung vor Übergabe mit Folgen (ub
-Z. 1233–1286); Sache trägt die Mathematik, höchstens zwei (ub Z. 532–533,
-639–641); bei Entscheidungen erst klarer, dann kniffliger Fall, Ja/Nein
-gemischt (ub Z. 713–716). Nicht übernehmen: Fehleraufgabe als Pflicht,
-Vollständigkeit vor Lernweg, Original am Ende jeder Nummer, vorgegebene
-Antwortform, Grundfall vier- bis fünfmal.
-Maß: deutlich weniger Fehler als Durchgang 1. Modell: Opus im Chat und für
-Agenten.
+plan.md § 7 „Jetzt“: M3 Runde 1 – zwei Agenten nebeneinander: Pythagoras
+ganz (Hypotenuse neu, Umkehrung, Das Dreieck erst finden, Thema-Weg) und
+Prozentrechnung; Schätzung 2–3 Mio Token; vorher Ablesen, danach Ablesen;
+Lehrer sieht eine Stichprobe. Modell: Opus im Chat und für Bau-Agenten.

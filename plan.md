@@ -160,13 +160,14 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M2 abschließen, dann M3 Runde 1. M2 erfüllt 09.10.: Bau T6B (41 min,
-0,23 Mio Token + Kritiker), Lehrer „insgesamt gut“; setzer.py setzt T6B in
-3,7 s, gleich dem Handsatz. K4W wird nicht umgebaut, sondern in M3 mit dem
-erweiterten Bauauftrag neu gebaut (billiger, mit Zusatzaufgaben, Formel und
-Beispiel). Befunde M2 (aufgabenbank bau/befunde-M2.md) eingearbeitet in
-Bauauftrag und Bauregeln; offen: Feld satz doppelt aufgabe/loesung (beim
-ersten Setzerlauf in M3 entscheiden).
+Jetzt: M3 Runde 1 (M2 erfüllt 09.10.: Bau T6B 41 min, 0,23 Mio Token +
+Kritiker, Lehrer „insgesamt gut“; setzer.py setzt T6B in 3,7 s). Runde 1:
+zwei Agenten nach bau/bauauftrag.md – Pythagoras ganz (Hypotenuse neu,
+Umkehrung, Das Dreieck erst finden, Thema-Weg) und Prozentrechnung;
+Schätzung 2–3 Mio Token; Ablesen vorher und nachher; Lehrer sieht eine
+Stichprobe. In der ersten Setzerrunde: Originalliste auf Lernblättern weg,
+Feld satz gegen aufgabe/loesung bereinigen. Token sparen vom Ende her
+(uebergabe.md § 4).
 
 ## 8 Modelle und Kosten
 
