@@ -160,9 +160,13 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M2 (M1 erledigt 09.10.: Plan, Einstieg, Bauauftrag, Felder;
-Abnahme mit einem Haiku-Agenten ab CLAUDE.md bestanden, Stockstellen
-behoben).
+Jetzt: M2 abschließen, dann M3 Runde 1. M2 erfüllt 09.10.: Bau T6B (41 min,
+0,23 Mio Token + Kritiker), Lehrer „insgesamt gut“; setzer.py setzt T6B in
+3,7 s, gleich dem Handsatz. K4W wird nicht umgebaut, sondern in M3 mit dem
+erweiterten Bauauftrag neu gebaut (billiger, mit Zusatzaufgaben, Formel und
+Beispiel). Befunde M2 (aufgabenbank bau/befunde-M2.md) eingearbeitet in
+Bauauftrag und Bauregeln; offen: Feld satz doppelt aufgabe/loesung (beim
+ersten Setzerlauf in M3 entscheiden).
 
 ## 8 Modelle und Kosten
 
@@ -188,3 +192,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   M1–M6) und die Pflicht vom 01.10. „Lehrer bestätigt Vollständigkeit je
   Eintrag vorher“. Messwert Prüfstand: fünf Fable-Leser + Kritiker ≈ 1,4 Mio
   Token → Woche 37 → 41 %, Fable 12 → 18 %.
+- 09.10.2026 (b): Selbstlernheft als mögliche Sorte (Bauregeln 2.6, Wahl
+  offen); Bau legt je Schritt Formel, Beispiel, leichtere und gleichwertige
+  Aufgaben an; Thema-Weg je Thema; „Für wen du baust“ im Bauauftrag (Lehrer
+  09.10.). Messwert M2: Kathete-Bau + Setzer ≈ 0,4 Mio Token → Woche 41 →
+  42 %, Fable 18 → 18 %.

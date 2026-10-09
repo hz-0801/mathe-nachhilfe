@@ -49,6 +49,11 @@ Zielmarke: Einheit 1 – [Prüfungshöhe in einem Satz, mit Original-id]; Einhei
 ### Offene Punkte des Eintrags
 - [alles, was [FD]/[FS]/[MO] trägt oder unverifiziert ist]
 
+### Thema-Weg
+Folge der Lerneinheiten | Grund für die Stelle; Vorher-Check: Zone-ids;
+Probetest: Original-ids (gemischt, schwerste zuletzt). Entsteht beim ersten
+Bau des Themas (aufgabenbank bau/bauauftrag.md).
+
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 `bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
@@ -63,6 +68,7 @@ Name eines Blatts wortgleich wie in der Überschrift seines Blocks)
 #### Lerneinheit <n> – <Name in Schülersprache> (<Zusatz, optional>)
 Stand: <Datum> · Kennung <K> · Kritiker: <durch/Befunde> · Lehrer: <–/Stichprobe gut>
 Ziel: <Prüfungsaufgabe oder Höhe, auf die der Weg führt>
+Formel und Beispiel je Schritt: L<n>-<k>: <Formel/Merksatz> · Beispiel <id>
 Blatt: <Niveau im Kopf, z. B. Klasse 9> · Vorher: <Blatt> · Weiter: <Blatt>
 
 | Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
