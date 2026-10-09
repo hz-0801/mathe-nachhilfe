@@ -117,6 +117,26 @@ Zielmarke: Einheit 1 – die Länge einer Rampe aus waagerechter Länge und Stuf
 - Leiterregeln 02.10.2026: Alle vier Ketten haben vor der Prüfungshöhe eine Rückwärts- und eine Mischsprosse. Krumme Zahlen (Dezimal, gemischte Einheiten, nicht aufgehende Wurzel) stehen auf den oberen Sprossen; die Grundfälle bleiben bei aufgehender Wurzel.
 - Gewicht (Regel 02.10.2026): P zählt die Originale, die die Zuordnungszeile der Einheit mit eigenem Typ nennt (Einheit 1: drei Gleichungs-, ein Formulierungs- und zwei Hypotenusen-Originale, 2022-OS-B1g mitgezählt; Einheit 2: fünf Kathete und eine Gleichung; Einheit 3: Strecke, Mantellinie, Turm, Becher); Nebentyp-Klauseln (2025-OS-K2a, 2025-OS-K2c) zählen nicht. S in Prozent mit zwei Stellen.
 
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
+nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
+Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
+
+#### Lerneinheit 2 – Kathete berechnen (erster Teil; die Umkehrung ist ein eigenes Blatt)
+Stand: 2026-10-09 · Kennung T6B · Kritiker: durch (Fable; übernommen: eine Aufgabe mit gesuchter Hypotenuse in der Sache) · Lehrer: –
+Ziel: Höhenunterschied der Seilbahn, FA = √(384² − 255²) ≈ 287,1 m (2024-OS-K6a)
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids, erste = Regel, weitere = neue Zahlen) |
+|---|---|---|---|
+| L2k-1 | Das fehlende Kathetenquadrat ist das große Quadrat minus das andere kleine (Flächen, nicht Längen) | Quadrate addiert | pythagoras-e2-k6-s2-v4, pythagoras-e2-k6-s2-v5 |
+| L2k-2 | Ob die gesuchte Seite Hypotenuse oder Kathete ist, entscheidet die Lage des rechten Winkels, nicht der Buchstabe | längere Kathete für die Hypotenuse gehalten | pythagoras-e2-k3-s0-v5 |
+| L2k-3 | Gleichung mit der Hypotenuse allein aufschreiben, dann nach der gesuchten Kathete umstellen; mit Wurzel unter Fallen wählen | gesuchte Seite allein (a² = b² + c²); Wurzel vergessen; „c ist immer die Hypotenuse“ | pythagoras-e2-k6-s4-v4, pythagoras-e2-k3-s5-v4 |
+| L2k-4 | Rechnen in drei Zeilen (Gleichung, Zwischenergebnis, Wurzel), Probe: kürzer als die Hypotenuse | Wurzel vergessen | pythagoras-e2-k3-s1-v6, pythagoras-e2-k3-s1-v7 |
+| L2k-5 | Wurzel geht nicht auf, runden; Einheiten vorher angleichen | zu früh gerundet; cm und m gemischt | pythagoras-e2-k3-s2-v3, pythagoras-e2-k3-s3-v4 |
+| L2k-6 | Das Dreieck in der Sache selbst finden: Bild ohne Dreieck (reicht es? nein) → Karte (Hypotenuse gesucht) → nur Text mit Zusatzstrecke | plus/minus nach Blattgewohnheit; Handhöhe vergessen | pythagoras-e2-k3-s7-v4, pythagoras-e2-k3-s11-v4, pythagoras-e2-k6-s3-v3 |
+| L2k-7 | Zielaufgabe mit Streckennamen und dreistelligen Zahlen | Quadrate addiert (461 m) | pythagoras-e2-k3-s12-v7, pythagoras-e2-k3-s12-v1 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor. (`_pruef_katalog.py`, 11e: drei Kastenlisten, keine Kastenzahl in Sprossen oder Blatt 0.)
