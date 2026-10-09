@@ -141,3 +141,60 @@ Zielmarke: Einheit 1 – den markierten Anteil eines in ungleich große Sektoren
 - [x] Kein Verlagstext übernommen; Serlo/ZUM mit Quellenzeile.
 - [x] Notation Berlin-Brandenburg (f(x) = m·x + n, Strich, wA/fA).
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
+
+### Thema-Weg
+Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung QG4); wird mit
+jedem weiteren Bau geprüft.
+
+Folge | Grund für die Stelle:
+1. Bruch als Anteil (Lerneinheit 1) | Ablesen, Einzeichnen, ungleiche
+   Teile, Bruchteil einer Größe: alles, was die P10 unter „Bruchteil
+   einer Fläche“ und „Bruchteil einer Größe“ fragt, ohne Kürzen. Prozent
+   als Anteil der Figur gehört hierher, weil fünf der neun P10-Originale
+   dieses Typs in Prozent fragen (Merkbrüche 50, 25, 20, 10, 75 %; das
+   Umrechnen selbst ist prozentrechnung.md).
+2. Kürzen und Erweitern (Lerneinheit 2) | Setzt das Zählen gleich großer
+   Teile voraus (Verfeinern = Erweitern); braucht die P10 nur als
+   Nebenleistung (9/15 = 3/5).
+3. Brüche vergleichen (Lerneinheit 3) | Braucht Gleichnamigmachen aus 2;
+   Zielmarke 2014-OS-B1c (Zahl zwischen zwei Brüchen).
+4. Dezimalzahlen (Lerneinheit 4) | Zehnerbrüche setzen Erweitern (2) und
+   Ordnen am Zahlenstrahl (3) voraus; danach erst Bruch ↔ Dezimalzahl.
+5. Vergleichen, Ordnen, Runden (Lerneinheit 5) | Zuletzt, weil die
+   Prüfungsformen alle Darstellungen mischen (Bruch, Dezimalzahl,
+   Prozent, Potenz, Wurzel).
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+am Ende, damit die Zeilennummern im Bankfeld quelle gültig bleiben. Form
+„abschnitte“ (aufgabenbank `bau/bauauftrag.md`, 10.10.2026).
+
+Serie: Vorher: Teilen und Vervielfachen im Kopf; Größen mit Komma | Brüche: Bruch als Anteil; Kürzen und Erweitern; Brüche vergleichen | Dezimalzahlen: Dezimalzahlen; Vergleichen, Ordnen, Runden | Weiter: Rechnen mit Brüchen (Bruchrechnung)
+
+#### Lerneinheit 1 – Bruch als Anteil (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung QG4 · Kritiker: offen · Lehrer: – (Fable-Bau nach bau/bauauftrag.md; Klasse 7 statt Kl. 5, weil die P10-Form Prozent braucht, siehe bau/befunde-M3.md)
+Form: abschnitte
+Ziel: markierten Anteil eines Kreises mit ungleichen Sektoren ankreuzen, 3/12 statt 3/7 (2019-OS-B1c); Anteil einer Kästchenfigur als Bruch und in Prozent (2014-OS-B1i); 20 % von 15 und 25 % von 24 Kästchen markieren (2022-OS-B1a, 2023-OS-B1d); 6/7 von 28 Kästchen schraffieren (2017-OS-B1a); Rest einer zu 2/3 gefüllten Tonne (2015-OS-B1h); 3/4 von 1,2 kg (2018-OS-B1a)
+Blatt: Klasse 7 · Vorher: Teilen und Vervielfachen im Kopf · Weiter: Kürzen und Erweitern
+Titel: Brüche: der Bruch als Anteil
+Formel: $\text{Anteil} = \dfrac{\text{Zähler}}{\text{Nenner}}$ \qquad $\dfrac{Z}{N}$ von $G$ \ $= G : N \cdot Z$
+In Worten: Der Nenner (unten) sagt, in wie viele gleich große Teile das Ganze geteilt ist. Der Zähler (oben) sagt, wie viele davon gemeint sind.
+Vorgehen: Sind alle Teile gleich groß? Sonst erst in gleich große Stücke teilen; alle Teile zählen (Nenner), gemeinte zählen (Zähler); Bruchteil einer Größe: durch den Nenner, dann mal Zähler; Rest gefragt: vom Ganzen abziehen
+Achtung: Das Ganze sind alle Teile, nicht nur die weißen. Prozent heißt Hundertstel: 50\,\% = $\frac{1}{2}$, 25\,\% = $\frac{1}{4}$, 20\,\% = $\frac{1}{5}$, 10\,\% = $\frac{1}{10}$, 75\,\% = $\frac{3}{4}$.
+Bild: brueche-dezimalzahlen-e1-k1-s1-v6
+Fehler: Teile gezählt, obwohl sie verschieden groß sind (3 von 7 Sektoren). Erst alles in gleich große Stücke teilen, dann zählen.
+Fehler: Zähler als Anzahl gelesen: für $\frac{5}{6}$ von 24 Kästchen nur 5 gefärbt. Erst $24 : 6 = 4$, dann $4 \cdot 5 = 20$.
+Fehler: Teil zum Rest statt zum Ganzen: 7 graue und 5 weiße Kästchen als $\frac{7}{5}$. Das Ganze sind alle 12 Kästchen: $\frac{7}{12}$.
+Fehler: Bruch umgedreht: $2{,}8 : 3 \cdot 4$ statt $2{,}8 : 4 \cdot 3$. Immer durch den Nenner, mal Zähler.
+Fehler: Füllmenge statt Rest angegeben. „Wie viel fehlt?“ heißt Ganzes minus Bruchteil.
+Tisch: Taschenrechner nur bei Kommazahlen; die Brüche bleiben, wie sie abgelesen sind (nicht kürzen, außer die Aufgabe fragt nach dem Merkbruch).
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Anteil ablesen: Zähler und Nenner | Ein Bruch sagt, wie viel von einem Ganzen gemeint ist. Der \textbf{Nenner} (unten) zählt, in wie viele gleich große Teile das Ganze geteilt ist; der \textbf{Zähler} (oben) zählt, wie viele davon gemeint sind. Das Ganze sind \emph{alle} Teile – auch die weißen. | $\text{Anteil} = \dfrac{\text{gemeinte Teile}}{\text{alle Teile}}$ \qquad {\small (erst alle zählen, dann die gemeinten)} | brueche-dezimalzahlen-e1-k1-s1-v6 | brueche-dezimalzahlen-e1-k1-s1-v7, brueche-dezimalzahlen-e1-k1-s1-v8, brueche-dezimalzahlen-e1-k1-s1-v9, brueche-dezimalzahlen-e1-k1-s5-v4, brueche-dezimalzahlen-e1-k1-s5-v5 | brueche-dezimalzahlen-e1-k1-s1-v10, brueche-dezimalzahlen-e1-k1-s1-v11, brueche-dezimalzahlen-e1-k1-s1-v12, brueche-dezimalzahlen-e1-k1-s5-v6, brueche-dezimalzahlen-e1-k1-s5-v7 |
+| L1-B | Anteil einzeichnen | Beim Einzeichnen zählt der Nenner, in wie viele gleiche Teile du das Ganze teilst – auch wenn die Figur mehr Kästchen hat. Rechne erst aus, wie viele Kästchen \emph{ein} Teil sind, dann nimm so viele Teile, wie der Zähler sagt. | Kästchen für $\frac{Z}{N}$: \ alle Kästchen $: N \cdot Z$ \qquad {\small Hat die Figur genau $N$ Teile: einfach $Z$ davon färben.} | brueche-dezimalzahlen-e1-k1-s2-v4 | brueche-dezimalzahlen-e1-k1-s2-v5, brueche-dezimalzahlen-e1-k1-s2-v6, brueche-dezimalzahlen-e1-k1-s6-v19, brueche-dezimalzahlen-e1-k1-s6-v20, brueche-dezimalzahlen-e1-k2-s2-v4 | brueche-dezimalzahlen-e1-k1-s2-v7, brueche-dezimalzahlen-e1-k1-s2-v8, brueche-dezimalzahlen-e1-k1-s2-v9, brueche-dezimalzahlen-e1-k1-s6-v21, brueche-dezimalzahlen-e1-k2-s2-v5 |
+| L1-C | Ungleiche Teile: erst gleich groß machen | Zählen darfst du nur gleich große Teile. Sind die Teile verschieden groß, teile alles in Stücke von der Größe des kleinsten Teils – dann zählst du. Halbe Kästchen: in halben Kästchen zählen. | Nenner = Zahl der kleinsten Stücke im Ganzen \qquad Zähler = Zahl der kleinsten Stücke im grauen Teil | brueche-dezimalzahlen-e1-k1-s3-v4 | brueche-dezimalzahlen-e1-k1-s3-v5, brueche-dezimalzahlen-e1-k1-s3-v6, brueche-dezimalzahlen-e1-k1-s6-v22, brueche-dezimalzahlen-e1-k1-s6-v23, brueche-dezimalzahlen-e1-k1-s3-v7 | brueche-dezimalzahlen-e1-k1-s3-v8, brueche-dezimalzahlen-e1-k1-s3-v9, brueche-dezimalzahlen-e1-k1-s3-v10, brueche-dezimalzahlen-e1-k1-s6-v24, brueche-dezimalzahlen-e1-k1-s3-v11 |
+| L1-D | Bruchteil einer Zahl oder Größe berechnen | Den Bruchteil einer Zahl oder Größe rechnest du in zwei Schritten: erst durch den Nenner (das ist ein Teil), dann mal Zähler (so viele Teile). Fragt die Aufgabe, wie viel \emph{fehlt} oder \emph{übrig} ist, zieh am Ende vom Ganzen ab. | $\dfrac{Z}{N}$ von $G$: \ $G : N \cdot Z$ \qquad Rest $= G - \text{Bruchteil}$ \qquad {\small Bei Komma und Einheit: erst in die kleinere Einheit (1\,kg = 1000\,g, 1\,km = 1000\,m), wenn es dann glatter wird.} | brueche-dezimalzahlen-e1-k2-s5-v4 | brueche-dezimalzahlen-e1-k2-s3-v4, brueche-dezimalzahlen-e1-k2-s5-v5, brueche-dezimalzahlen-e1-k2-s4-v4, brueche-dezimalzahlen-e1-k2-s5-v6, brueche-dezimalzahlen-e1-k2-s6-v5 | brueche-dezimalzahlen-e1-k2-s1-v6, brueche-dezimalzahlen-e1-k2-s3-v5, brueche-dezimalzahlen-e1-k2-s5-v7, brueche-dezimalzahlen-e1-k2-s4-v5, brueche-dezimalzahlen-e1-k2-s5-v8, brueche-dezimalzahlen-e1-k2-s6-v6 |
+| L1-E | Anteil in Prozent | Prozent heißt Hundertstel: $25\,\% = \frac{25}{100}$. Bei Figuren übersetzt du Prozent in einen Merkbruch und rechnest wie in B. Umgekehrt: Teile die Figur in Hälften, Viertel oder Fünftel und sieh nach, wie viele davon grau sind. | $50\,\% = \frac{1}{2}$ \quad $25\,\% = \frac{1}{4}$ \quad $20\,\% = \frac{1}{5}$ \quad $10\,\% = \frac{1}{10}$ \quad $75\,\% = \frac{3}{4}$ \qquad {\small Ein Viertel der Figur: alle Kästchen $: 4$.} | brueche-dezimalzahlen-e1-k1-s6-v25 | brueche-dezimalzahlen-e1-k1-s6-v26, brueche-dezimalzahlen-e1-k1-s6-v27, brueche-dezimalzahlen-e1-k1-s6-v28, brueche-dezimalzahlen-e1-k1-s6-v29, brueche-dezimalzahlen-e1-k1-s6-v30 | brueche-dezimalzahlen-e1-k1-s6-v31, brueche-dezimalzahlen-e1-k1-s6-v32, brueche-dezimalzahlen-e1-k1-s6-v33, brueche-dezimalzahlen-e1-k1-s6-v34, brueche-dezimalzahlen-e1-k1-s6-v35 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e1-k1-s6-v36, brueche-dezimalzahlen-e1-k1-s6-v37, brueche-dezimalzahlen-e1-k1-s6-v38, brueche-dezimalzahlen-e1-k2-s6-v7, brueche-dezimalzahlen-e1-k2-s6-v8, brueche-dezimalzahlen-e1-k2-s6-v9 | brueche-dezimalzahlen-e1-k1-s6-v39, brueche-dezimalzahlen-e1-k1-s6-v40, brueche-dezimalzahlen-e1-k2-s6-v10, brueche-dezimalzahlen-e1-k2-s6-v11, brueche-dezimalzahlen-e1-k2-s6-v12 |
