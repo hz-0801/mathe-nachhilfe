@@ -12,19 +12,6 @@ Status: leer · Stufe: [Sek I / GOST / FOS] · Bildungsgänge: [...] · gegengel
 Blattfolge: n, n, … (optional; Reihenfolge der Einheiten auf dem Lernblatt; fehlt sie, gilt die Katalogreihenfolge)
 Eingabe „[thema]" ohne Zusatz → [Dialog / direkt Einheit n].
 
-### Lernweg
-Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
-`bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
-nicht gebaut.
-
-#### Lerneinheit <n> – <Name in Schülersprache>
-Stand: <Datum> · Kennung <K> · Kritiker: <durch/Befunde> · Lehrer: <–/Stichprobe gut>
-Ziel: <Prüfungsaufgabe oder Höhe, auf die der Weg führt>
-
-| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids, erste = Regel, weitere = neue Zahlen) |
-|---|---|---|---|
-| L<n>-1 | … | … | id, id |
-
 ### Typen je Lerneinheit
 Einheit 1: [Typ · Typ · … in Lehrbuchreihenfolge; Fehler finden · Begründen am Ende]
 Einheit 2: …
@@ -61,6 +48,20 @@ Zielmarke: Einheit 1 – [Prüfungshöhe in einem Satz, mit Original-id]; Einhei
 
 ### Offene Punkte des Eintrags
 - [alles, was [FD]/[FS]/[MO] trägt oder unverifiziert ist]
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
+nicht gebaut. Steht am Ende des Eintrags (vor der Prüfliste), damit die
+Zeilennummern im Bankfeld quelle nicht wandern.
+
+#### Lerneinheit <n> – <Name in Schülersprache>
+Stand: <Datum> · Kennung <K> · Kritiker: <durch/Befunde> · Lehrer: <–/Stichprobe gut>
+Ziel: <Prüfungsaufgabe oder Höhe, auf die der Weg führt>
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids, erste = Regel, weitere = neue Zahlen) |
+|---|---|---|---|
+| L<n>-1 | … | … | id, id |
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
