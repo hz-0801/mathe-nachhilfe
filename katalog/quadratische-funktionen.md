@@ -170,13 +170,13 @@ mit Satz, Formel, Beispiel, Aufgaben und Vorrat).
 Serie: Vorher: Quadrieren, auch negative Zahlen; Koordinaten; Lineare Funktionen | Parabeln: Normalparabel und Streckfaktor; Scheitelpunktform; Normalform | Rechnen an Parabeln: Nullstellen und Schnittpunkte | Weiter: Funktionsklassen und Eigenschaften
 
 #### Lerneinheit 1 – Normalparabel und Streckfaktor (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung GHQ · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung GHQ · Kritiker: erledigt (übernommen: A auf einer Seite, S. 3 entfällt; Scheitelzahl frei in C2, C3, T3; Label −x² vom Bogen; mehr Rechenplatz in D; Satz „Das lernst du in B und C.“ im Formelkasten) · Lehrer: –
 Form: abschnitte
 Ziel: $h(t) = -3t^2 + 2400$ über Startwert und Öffnung ankreuzen, mit einem Wert kontrollieren (2015-OS-K4b); Wertetabelle zu $y = 3x^2$ ankreuzen (2026-FOR-B1e); Punktprobe rechnerisch statt geschätzt (2020-OS-K3b); Parabel zu $a\cdot x^2$ zeichnen (RLP/LISUM G, ohne Original)
 Blatt: Klasse 9 · Vorher: Quadrieren · Weiter: Scheitelpunktform
 Titel: Quadratische Funktionen: Normalparabel und Streckfaktor
 Formel: $f(x) = a \cdot x^2 + e$ \qquad Scheitel $S(0|e)$
-In Worten: Erst $x$ quadrieren, dann mal $a$, dann $e$ dazu. $a$ sagt, wie die Parabel geöffnet ist und wie breit; $e$ sagt, wie hoch der Scheitel liegt.
+In Worten: Erst $x$ quadrieren, dann mal $a$, dann $e$ dazu. $a$ sagt, wie die Parabel geöffnet ist und wie breit; $e$ sagt, wie hoch der Scheitel liegt. Das lernst du in B und C.
 Vorgehen: Wertetabelle: erst $x^2$, dann mal $a$, dann $e$ dazu; Punkte eintragen und freihand zum Bogen verbinden; Gleichung zum Graphen: $e$ am Scheitel ablesen, Vorzeichen von $a$ an der Öffnung; einen zweiten Punkt einsetzen und $a$ ausrechnen; Punktprobe: $x$ einsetzen und mit dem $y$-Wert vergleichen
 Achtung: $(-3)^2 = 9$, nicht $-9$. $3x^2$ heißt $3 \cdot x^2$, nicht $(3x)^2$. Aber $-x^2$ heißt $-(x^2)$: für $x = -3$ ist $-x^2 = -9$.
 Bild: quadratische-funktionen-e1-k1-s9-v4
