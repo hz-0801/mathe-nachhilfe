@@ -178,6 +178,13 @@ Stichprobe. In der ersten Setzerrunde: Originalliste auf Lernblättern weg,
 Feld satz gegen aufgabe/loesung bereinigen. Token sparen vom Ende her
 (uebergabe.md § 4).
 
+Nachtrag aus dem Vorchat (09.10. mittags), am Ende von Runde 1 aufnehmen:
+- Entscheidung Selbstlernen per Vergleich (§ 3 „Richtung“).
+- In den Bauauftrag: Anfänger-Test vor der Abgabe (schafft er die erste
+  Aufgabe jedes Abschnitts allein mit dem Beispiel?) und „Nachbesserung nur
+  der benannten Kritikerpunkte“ – beides aus aufgabenbank
+  bau/muster-auftrag.md.
+
 ## 8 Modelle und Kosten
 
 Bau-Agenten Opus; Kritiker und Leser Fable (Fable-Kontingent nutzen).
@@ -191,6 +198,13 @@ M3 wird danach budgetiert.
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
 Prüfung.
+Zu M4: Die Bestellung fragt nur die Lage, höchstens drei Fragen mit
+Vorschlag (allein oder am Tisch; Ziel und wie knapp die Zeit ist – knapp
+heißt Wesentliches zuerst; was sitzt; wie sicher), merkt sie sich je
+Schüler in der privaten Schülerliste; Form, Fachplanung und Vorgehen kommen
+aus Sorte, Katalog und aufgabenbank bau/muster-auftrag.md (Lehrer 09.10.).
+Neues Projektformat von Claude Code („Claude koordiniert Threads“): später
+einmal klein mit einem Thread testen, um zu messen, wovon es zahlt.
 Zu M4: Bestelloptionen (Wiederholung, Ausblick) und Prüfungsprofile aus
 archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
