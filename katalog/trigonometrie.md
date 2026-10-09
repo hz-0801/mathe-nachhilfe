@@ -126,6 +126,71 @@ Zielmarke: **Einheit 1** – Hauptmarke 2017-OS-K4b (Niveau II, 2 Punkte): tan 3
 - Leiterregeln 02.10.2026: Einheit 1 hatte die Mischsprosse schon („Funktion selbst wählen“), ergänzt ist die Rückwärtssprosse. Einheit 2 bekommt nur die Mischsprosse: die ganze Einheit ist die Umkehrung von Einheit 1 (vom Seitenverhältnis zum Winkel), eine Rückwärtssprosse wäre wieder eine Seitenberechnung aus Einheit 1. Einheit 3 hat beide neu. Einheit 4 hatte die Rückwärtssprosse schon („Winkel mit dem Sinussatz aus vollständigem Paar und zweiter Seite“), ergänzt ist die Mischsprosse. Krumme Zahlen (Dezimalgrad, Dezimalzahlen, gemischte Einheiten) stehen auf den oberen Sprossen.
 - Gewicht (Regel 02.10.2026): P zählt die Originale der Zuordnungszeile mit eigenem Typ der Einheit (Nebentyp-Klauseln nicht); K der Einheit 4 ist 0 (keine Klassenarbeit des Duden 9 fragt den Sinussatz, das Maß zählt trotzdem, weil der Eintrag Klasse-9-Werte hat); S in Prozent mit zwei Stellen.
 
+### Thema-Weg
+Stand: 2026-10-10, angelegt beim ersten Bau (N9M, Lerneinheit 1); die
+Folge 2–4 ist noch nicht durch einen Bau bestätigt.
+
+Folge | Grund für die Stelle:
+1. Seite berechnen mit sin, cos und tan (Lerneinheit 1) | Zuerst die
+   Namen der Seiten vom Winkel aus und die drei Brüche; dann die Seite
+   aus Seite und Winkel. Kathete gesucht (mal) vor Seite im Nenner
+   (geteilt), weil das Umstellen mit dem Nenner der P10-Fehler der
+   Einheit ist (2017-OS-K4b, 2020-OS-B1j). Am Ende Funktion selbst
+   wählen in Figuren mit Diagonale oder Höhe (2021-OS-K3a/b,
+   2022-OS-K5d), weil die P10 nie sagt, welche Funktion passt.
+2. Winkel berechnen (Lerneinheit 2) | Umkehrung von 1: dieselben Brüche,
+   jetzt mit der Umkehrtaste; setzt sicheres Benennen und Aufstellen
+   aus 1 voraus.
+3. Teildreiecke und Vermessung (Lerneinheit 3) | Das Dreieck muss erst
+   gefunden werden, dazu Hilfskathete, Gerätehöhe, Teilwinkel; braucht
+   Seite und Winkel aus 1 und 2.
+4. Sinussatz (Lerneinheit 4) | Für Dreiecke ohne rechten Winkel; zuerst
+   „rechtwinklig oder nicht?“, darum nach 1–3.
+
+Vorher-Check (Zone): trigonometrie-zone-f1-v1, trigonometrie-zone-f2-v1,
+trigonometrie-zone-f3-v1, trigonometrie-zone-f4-v1,
+trigonometrie-zone-f5-v1, trigonometrie-zone-f6-v1,
+trigonometrie-zone-f7-v1
+Probetest (Originale, gemischt, schwerste zuletzt): 2025-OS-B1g,
+2020-OS-B1c, 2020-OS-B1j, 2021-OS-K3a, 2021-OS-K3b, 2022-OS-K5d,
+2024-OS-K6b, 2019-OS-K3b, 2017-OS-K4b, 2023-OS-K7b, 2016-OS-K7c,
+2018-OS-K4c, 2019-OS-K3c
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+am Ende vor der Prüfliste, damit die Zeilennummern im Bankfeld quelle
+gültig bleiben. Form „abschnitte“ (Abschnitte A, B, … mit Satz, Formel,
+Beispiel, Aufgaben und Vorrat).
+
+Serie: Vorher: Satz des Pythagoras; Winkel im Dreieck | Im rechtwinkligen Dreieck: Seite berechnen mit sin, cos und tan; Winkel berechnen | In Figuren: Teildreiecke und Vermessung | Beliebige Dreiecke: Sinussatz
+
+#### Lerneinheit 1 – Seite berechnen mit Sinus, Kosinus und Tangens (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung N9M · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: PB = 1,20 : tan 34,9° ≈ 1,72 m an der Dachwand (2017-OS-K4b); AB = 840 · sin 47° ≈ 614 m im Viereck nachweisen (2021-OS-K3a, AD mit cos 2021-OS-K3b); Seite im Teildreieck mit gezeichneter Höhe (2022-OS-K5d); sin 30° = 7/x umstellen (2020-OS-B1j); sin γ = u/w eintragen (2025-OS-B1g)
+Blatt: Klasse 10 · Vorher: Satz des Pythagoras · Weiter: Winkel berechnen
+Titel: Trigonometrie: Seiten berechnen mit sin, cos und tan
+Formel: $\sin\alpha = \dfrac{G}{H}$ \quad $\cos\alpha = \dfrac{A}{H}$ \quad $\tan\alpha = \dfrac{G}{A}$
+In Worten: Vom Winkel $\alpha$ aus: H ist die Hypotenuse (gegenüber dem rechten Winkel), G die Gegenkathete (gegenüber von $\alpha$), A die Ankathete (am Winkel $\alpha$).
+Vorgehen: rechten Winkel suchen, gegenüber liegt die Hypotenuse; vom markierten Winkel aus Gegenkathete und Ankathete benennen; gegebene und gesuchte Seite wählen die Funktion; Gleichung aufstellen; $x$ oben im Bruch: mal – $x$ unten: geteilt; am Ende runden, Einheit dazu
+Achtung: Taschenrechner auf DEG (Grad): $\sin 30^\circ$ muss $0{,}5$ ergeben. Anderer Winkel – andere Namen: Gegen- und Ankathete tauschen.
+Bild: trigonometrie-e1-k3-s1-v8
+Fehler: Gegen- und Ankathete verwechselt. Immer vom markierten Winkel aus schauen.
+Fehler: Bruch umgedreht. Bei sin und cos steht die Hypotenuse immer unten.
+Fehler: Mal statt geteilt. Steht $x$ unten im Bruch, wird geteilt.
+Fehler: Taschenrechner im Bogenmaß (RAD). Dann gibt $\sin 30^\circ$ etwa $-0{,}99$.
+Fehler: Zwischendurch gerundet. Erst das Endergebnis runden.
+Tisch: Runde, wenn nichts anderes steht, auf eine Stelle nach dem Komma. Taschenrechner auf DEG.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Seiten vom Winkel aus benennen | Vom markierten Winkel aus: Die \textbf{Hypotenuse} liegt dem rechten Winkel gegenüber, die \textbf{Gegenkathete} dem Winkel, die \textbf{Ankathete} liegt am Winkel. Sinus, Kosinus und Tangens sind Brüche aus zwei dieser Seiten. | $\sin\alpha = \dfrac{\text{Gegenkathete}}{\text{Hypotenuse}}$ \quad $\cos\alpha = \dfrac{\text{Ankathete}}{\text{Hypotenuse}}$ \quad $\tan\alpha = \dfrac{\text{Gegenkathete}}{\text{Ankathete}}$ | trigonometrie-e1-k3-s1-v8 | trigonometrie-e1-k3-s6-v4, trigonometrie-e1-k3-s6-v5, trigonometrie-e1-k3-s2-v4, trigonometrie-e1-k4-s1-v4 | trigonometrie-e1-k3-s0-v7, trigonometrie-e1-k3-s1-v9, trigonometrie-e1-k3-s2-v5, trigonometrie-e1-k4-s1-v5 |
+| L1-B | Kathete berechnen: mal | Gesucht ist eine Kathete. Stell die Gleichung auf: Die gesuchte Seite steht oben im Bruch. Dann rechnest du mal. | $\sin\alpha = \dfrac{x}{H}$ \ $\Rightarrow$ \ $x = H \cdot \sin\alpha$ \qquad ebenso $x = H \cdot \cos\alpha$ \ und \ $x = A \cdot \tan\alpha$\par {\small Taschenrechner auf DEG. Erst am Ende runden.} | trigonometrie-e1-k3-s4-v4 | trigonometrie-e1-k3-s4-v5, trigonometrie-e1-k3-s5-v4, trigonometrie-e1-k3-s9-v4, trigonometrie-e1-k3-s6-v6, trigonometrie-e1-k3-s15-v4 | trigonometrie-e1-k3-s4-v6, trigonometrie-e1-k3-s4-v7, trigonometrie-e1-k3-s5-v5, trigonometrie-e1-k3-s9-v5, trigonometrie-e1-k3-s15-v5 |
+| L1-C | Seite im Nenner: geteilt | Ist die Hypotenuse gesucht (oder beim Tangens die Ankathete), steht $x$ unten im Bruch. Dann rechnest du: gegebene Seite geteilt durch den Wert. | $\sin\alpha = \dfrac{G}{x}$ \ $\Rightarrow$ \ $x \cdot \sin\alpha = G$ \ $\Rightarrow$ \ $x = G : \sin\alpha$\par {\small Probe: Die Hypotenuse ist die längste Seite.} | trigonometrie-e1-k3-s7-v4 | trigonometrie-e1-k3-s7-v5, trigonometrie-e1-k3-s8-v4, trigonometrie-e1-k3-s10-v4, trigonometrie-e1-k3-s12-v4, trigonometrie-e1-k3-s15-v6 | trigonometrie-e1-k3-s7-v6, trigonometrie-e1-k3-s7-v7, trigonometrie-e1-k3-s8-v5, trigonometrie-e1-k3-s10-v5, trigonometrie-e1-k3-s12-v5, trigonometrie-e1-k3-s15-v7 |
+| L1-D | Welche Funktion? Figuren und Sachen | Jetzt sagt dir niemand, welche Funktion passt. Such das rechtwinklige Dreieck, benenne gegebene und gesuchte Seite vom Winkel aus. Die zwei Seiten wählen die Funktion. | G und H: $\sin$ \qquad A und H: $\cos$ \qquad G und A: $\tan$\par {\small $x$ oben im Bruch: mal. \ $x$ unten: geteilt.} | trigonometrie-e1-k3-s11-v4 | trigonometrie-e1-k3-s11-v5, trigonometrie-e1-k3-s13-v4, trigonometrie-e1-k3-s11-v6, trigonometrie-e1-k3-s15-v8 | trigonometrie-e1-k3-s11-v7, trigonometrie-e1-k3-s11-v8, trigonometrie-e1-k3-s11-v9, trigonometrie-e1-k3-s15-v9 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | trigonometrie-e1-k3-s2-v6, trigonometrie-e1-k3-s12-v6, trigonometrie-e1-k3-s14-v4, trigonometrie-e1-k3-s15-v10 | trigonometrie-e1-k3-s2-v7, trigonometrie-e1-k3-s12-v7, trigonometrie-e1-k3-s14-v5, trigonometrie-e1-k3-s15-v11 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
