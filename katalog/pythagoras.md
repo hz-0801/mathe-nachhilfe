@@ -118,8 +118,8 @@ Zielmarke: Einheit 1 – die Länge einer Rampe aus waagerechter Länge und Stuf
 - Gewicht (Regel 02.10.2026): P zählt die Originale, die die Zuordnungszeile der Einheit mit eigenem Typ nennt (Einheit 1: drei Gleichungs-, ein Formulierungs- und zwei Hypotenusen-Originale, 2022-OS-B1g mitgezählt; Einheit 2: fünf Kathete und eine Gleichung; Einheit 3: Strecke, Mantellinie, Turm, Becher); Nebentyp-Klauseln (2025-OS-K2a, 2025-OS-K2c) zählen nicht. S in Prozent mit zwei Stellen.
 
 ### Thema-Weg
-Stand: 2026-10-09 (aus den Bauen K4W/E1, T6B/E2 und P9H/E2 Umkehrung;
-spätere Baue ergänzen Das Dreieck erst finden, Schräge Strecken im Körper).
+Stand: 2026-10-09, endgültig (aus den Bauen K4W/E1, T6B/E2, P9H/E2
+Umkehrung und E3 Das Dreieck erst finden).
 
 Folge | Grund für die Stelle:
 1. Hypotenuse berechnen (Lerneinheit 1) | Der Satz wird an der Summe
@@ -136,15 +136,21 @@ Folge | Grund für die Stelle:
    Summe der Quadrate sitzen; erst nach der Kathete, weil das Blatt am
    Ende Hypotenuse und Kathete mischt (welche Seite ist gesucht?) und
    so die Wahl plus/minus vor der Einheit 3 noch einmal festigt.
-5. Das Dreieck erst finden; Schräge Strecken im Körper (Lerneinheit 3) |
-   noch nicht gebaut; mischt Hypotenuse und Kathete (Lehrer 09.10.).
+5. Das Dreieck erst finden (Lerneinheit 3) | Zuletzt, weil es beide
+   Richtungen voraussetzt: in Figur und Körper ist die gesuchte Seite mal
+   Hypotenuse, mal Kathete, und das Dreieck muss erst gefunden werden
+   (Fehler „ganze statt halbe Seite“, „Schräge als Höhe“). Die
+   Raumdiagonale im Quader steht als Zusatz in der Bank, nicht als
+   eigenes Blatt (Bau 09.10.).
 
 Vorher-Check (Zone): pythagoras-zone-f1-v2, pythagoras-zone-f2-v2,
 pythagoras-zone-f2-v3, pythagoras-zone-f3-v1, pythagoras-zone-f4-v4,
-pythagoras-zone-f5-v1
+pythagoras-zone-f5-v1, pythagoras-zone-f6-v3, pythagoras-zone-f7-v1,
+pythagoras-zone-f8-v2, pythagoras-zone-f9-v3
 Probetest (Originale, gemischt, schwerste zuletzt): 2022-OS-B1g,
 2021-OS-B1h, 2020-OS-K7a, 2024-OS-B1f, 2019-OS-K3a, 2024-OS-K6a,
-2025-OS-K4a, 2025-OS-K2c, 2016-OS-K7b
+2025-OS-K4a, 2019-OS-K2d, 2025-OS-K2c, 2016-OS-K7b, 2018-OS-K6d,
+2026-FOR-K2c, 2022-OS-K2c
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -152,7 +158,7 @@ Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
 Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
 
-Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; Ist der Winkel recht? | In Figuren und Körpern: Das Dreieck erst finden; Schräge Strecken im Körper | Weiter: Seiten und Winkel mit sin, cos, tan
+Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; Ist der Winkel recht? | In Figuren und Körpern: Das Dreieck erst finden | Weiter: Seiten und Winkel mit sin, cos, tan
 
 #### Lerneinheit 1 – Hypotenuse berechnen (Satz und Hypotenuse)
 Stand: 2026-10-09 · Kennung M74 · Kritiker: durch (Fable; übernommen: Rechtwinkelmarke in Leiter und Park, Runden grau vorgerechnet, Brücke 3² + 4² = 5² vor dem Satz; nicht: Sachaufgaben hinter die Zielaufgaben) · Lehrer: – (Vorbau K4W „besser“)
@@ -200,6 +206,22 @@ Blatt: Klasse 9 · Vorher: Kathete berechnen · Weiter: Das Dreieck erst finden
 | L2u-5 | Pythagoreische Tripel: vervielfacht bleiben sie Tripel; mit kleinen Zahlen prüfen spart Rechnen | 30, 40, 60 für ein Tripel gehalten, weil 3, 4 drinsteckt | pythagoras-e2-k5-s1-v4 (pythagoras-e2-k5-s1-v5, pythagoras-e2-k5-s1-v1, pythagoras-e2-k5-s1-v2, pythagoras-e2-k5-s1-v3) |
 | L2u-6 | Gemischt: welche Seite ist gesucht? Ist sie die längste, wird addiert, sonst subtrahiert | plus/minus nach Gewohnheit; beim Rückwärtsfall nur eine Lösung | pythagoras-e2-k3-s10-v1, pythagoras-e2-k3-s11-v3 (pythagoras-e2-k3-s10-v4, pythagoras-e2-k3-s10-v2, pythagoras-e2-k3-s10-v3, pythagoras-e2-k3-s11-v1, pythagoras-e2-k3-s11-v2) |
 | L2u-7 | Den rechten Winkel in der Sache mit Rechnung begründen; das Aussehen entscheidet nicht | rechter Winkel aus der Skizze abgelesen; AD nicht zuerst berechnet | pythagoras-e2-k3-s8-v10, pythagoras-e2-k3-s12-v5 (pythagoras-e2-k3-s8-v11, pythagoras-e2-k3-s9-v1, pythagoras-e2-k3-s9-v2, pythagoras-e2-k3-s9-v3, pythagoras-e2-k3-s12-v6) |
+
+#### Lerneinheit 3 – Das Dreieck erst finden (Pythagoras in Figuren und Körpern)
+Stand: 2026-10-09 · Kennung UV3 · Kritiker: offen (im Bau-Agenten kein Werkzeug für einen Unteragenten; nachholen) · Lehrer: –
+Ziel: Strohhalm im Glas, √(11² + 5,6²) + 4 ≈ 16,3 cm (nach 2022-OS-K2c, Stern); daneben Turmhöhe √(8,6² − 4,7²) + 25,0 ≈ 32,2 m (2026-FOR-K2c), Strecke aus Koordinaten (2019-OS-K2d)
+Formel und Beispiel je Schritt: L3-1: rechten Winkel suchen; die Seite gegenüber ist die Hypotenuse · Beispiel pythagoras-e3-k2-s0-v4 · L3-2: trifft die Höhe die Mitte, gilt die halbe Länge; geht die Strecke von Rand zu Rand, die ganze · Beispiel pythagoras-e3-k1-s0-v1 · L3-3: halbe Grundseite und Höhe sind Katheten, der Schenkel ist die Hypotenuse · Beispiel pythagoras-e3-k2-s1-v8 · L3-4: Radius und Höhe sind Katheten, die Mantellinie ist die Hypotenuse · Beispiel pythagoras-e3-k2-s11-v5 · L3-5: Katheten = Unterschied der x-Werte und der y-Werte · Beispiel pythagoras-e3-k2-s8-v1 · L3-6: erst das Teilstück mit Pythagoras, dann das andere Stück dazu · Beispiel pythagoras-e3-k2-s14-v2 · L3-7: im Becher geht der Stab über den ganzen Durchmesser; Überstand zuletzt addieren · Beispiel pythagoras-e3-k2-s19-v6
+Blatt: Klasse 9 · Vorher: Ist der Winkel recht? · Weiter: Seiten und Winkel mit sin, cos, tan
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
+|---|---|---|---|
+| L3-1 | In jeder Figur und jedem Körper steckt ein rechtwinkliges Dreieck; man findet es am rechten Winkel und nennt die Hypotenuse gegenüber | Dreieck ohne rechten Winkel gewählt; Schräge als Höhe | pythagoras-e3-k2-s0-v5 (pythagoras-e3-k2-s0-v4, pythagoras-e3-k2-s0-v1, pythagoras-e3-k2-s0-v2, pythagoras-e3-k2-s0-v3) |
+| L3-2 | Ganz oder halb? Die Höhe trifft die Mitte (halbe Länge); ein Stab von Rand zu Rand nimmt die ganze | ganze statt halbe Seite; Durchmesser statt Radius – und umgekehrt im Becher | pythagoras-e3-k1-s0-v5 (pythagoras-e3-k1-s0-v1, pythagoras-e3-k1-s0-v2, pythagoras-e3-k1-s0-v3, pythagoras-e3-k1-s0-v4) |
+| L3-3 | Im gleichschenkligen Dreieck erst halbieren, dann entscheiden: Höhe gesucht (minus) oder Schenkel gesucht (plus) | ganze Grundseite eingesetzt; Quadrate addiert, obwohl die Höhe gesucht ist | pythagoras-e3-k2-s1-v7 (pythagoras-e3-k2-s1-v8, pythagoras-e3-k2-s1-v2, pythagoras-e3-k2-s2-v1, pythagoras-e3-k2-s3-v1, pythagoras-e3-k2-s6-v3) |
+| L3-4 | Dasselbe im Körper: Kegel mit Radius aus dem Durchmesser, Mantellinie oder Höhe gesucht | Durchmesser als Kathete; s² + r² für die Höhe | pythagoras-e3-k2-s11-v4 (pythagoras-e3-k2-s11-v5, pythagoras-e3-k2-s11-v1, pythagoras-e3-k2-s11-v3, pythagoras-e3-k2-s12-v1, pythagoras-e3-k2-s10-v1, pythagoras-e3-k2-s10-v2) |
+| L3-5 | Strecke im Koordinatensystem: das Dreieck selbst einzeichnen, Katheten als Unterschiede abzählen, auch über die Achse | Koordinaten falsch abgelesen; 2 − (−3) = −1 | pythagoras-e3-k2-s9-v6 (pythagoras-e3-k2-s8-v1, pythagoras-e3-k2-s9-v1, pythagoras-e3-k2-s9-v2, pythagoras-e3-k2-s19-v7, pythagoras-e3-k2-s19-v8) |
+| L3-6 | Zusammengesetzt: Pythagoras liefert nur ein Teilstück; das andere Stück kommt dazu (Bild ohne Dreieck) | Mantellinie als Kegelhöhe; Zylinderhöhe nicht addiert | pythagoras-e3-k2-s14-v1 (pythagoras-e3-k2-s12-v2, pythagoras-e3-k2-s14-v2, pythagoras-e3-k2-s19-v3, pythagoras-e3-k2-s19-v4) |
+| L3-7 | Nur Text: selbst skizzieren, Durchmesser aus dem Radius, Diagonale, Überstand | Radius statt Durchmesser (≈ 15,7 cm); Überstand vergessen | pythagoras-e3-k2-s19-v5 (pythagoras-e3-k2-s14-v3, pythagoras-e3-k2-s19-v6, pythagoras-e3-k4-s3-v2, pythagoras-e3-k2-s19-v1, pythagoras-e3-k2-s19-v2) |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
