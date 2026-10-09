@@ -130,6 +130,71 @@ Zielmarke: **Einheit 1** – Hauptmarke 2015-OS-K4b (Niveau II, 3 Punkte, Stern)
 - Kastenzahlen: 0 steht in Kasten 1, 3 und 4 (Scheitel (0 | 0), x = 0 einsetzen, p(x) = 0); Sprossen und Blatt 0 vermeiden 0. **Die Frage, ob 0 als Konstante gilt, ist am 10b mit A4 entschieden: Option (b), keine Ausnahme, keine Konstantenliste im Skript.** Dritte Umwidmung dieser Sorte nach 11e und 11f. Was bleibt, ist eine Umbaufrage (Prüfraster T4) und sie wiegt hier schwer: die vier Kästen sperren nach dem Skriptlauf 11g die Zahlen null bis sechs sowie acht, neun, zehn und sechzehn – Einheit 1 allein sieben davon, Einheit 4 acht. Das ist fast der gesamte kleine Zahlenraum, mit dem ein Einstiegsblatt zu Parabeln arbeiten würde, und der Fall (c) aus 11e in der bisher schärfsten Form. Der Prompt braucht für dieses Thema eine Regel, wie er Aufgabenzahlen wählt, wenn der Kasten den kleinen Zahlenraum weitgehend belegt; Kasten 2 und 3 verwenden dieselbe Parabel (x − 3)² + 1 = x² − 6x + 10 und Kasten 4 setzt sie fort – beabsichtigt (ein Beispiel durch das Thema), Skript-Treffer keine.
 - [LISUM-PH, 10e] **Geschlossen 11g: ja, angehoben.** Die Normalform x² + px + q steht in beiden Reihen im ersten Block unter Niveaustufe G; der RLP nennt sie nirgends, also trägt die Planungshilfe die Stufe allein. Einheit 3 ist G-Stoff für alle Bildungsgänge. Mit derselben Prüfung sind der Streckfaktor, das Modellieren und die Schnittpunkte zweier Parabeln aus dem Vorrat geholt worden. Zweitens: Beide Reihen schreiben die Scheitelpunktform mit Plus, y = a · (x + d)² + e, der Katalog nach P10 mit Minus – die Vorzeichenfalle beim Ablesen des Scheitelpunkts ist ein Wechsel zwischen zwei amtlichen Schreibweisen und gehört als Lesart auf dasselbe Blatt (A9) sowie in die Fehlerliste.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem ersten Bau GHQ/E1; E2–E4 noch
+nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Normalparabel und Streckfaktor (Lerneinheit 1) | Zuerst, weil jede
+   spätere Einheit Funktionswerte mit negativem $x$ und das Bild „Bogen,
+   nicht Gerade“ braucht; der Startwert $e$ in $a\cdot x^2 + e$ steht
+   schon hier (Sachaufgabe 2015-OS-K4b), weil er die Brücke zum Scheitel
+   auf der $y$-Achse und damit zur Scheitelpunktform ist (Bau 10.10.).
+2. Scheitelpunktform (Lerneinheit 2) | Verschiebt den Scheitel von der
+   $y$-Achse weg; setzt Normalparabel-Schablone und $e$ aus 1 voraus. Der
+   häufigste P10-Typ (Scheitel ablesen, Gleichung aufstellen).
+3. Normalform (Lerneinheit 3) | Braucht die Scheitelpunktform als
+   Ausgangspunkt (ausmultiplizieren) und die binomische Formel.
+4. Nullstellen und Schnittpunkte (Lerneinheit 4) | Zuletzt, weil es
+   Scheitelpunkt- und Normalform und das Lösen quadratischer Gleichungen
+   (quadratische-gleichungen.md) voraussetzt; die Stern-Aufgaben der P10.
+
+Vorher-Check (Zone): quadratische-funktionen-zone-f1-v4,
+quadratische-funktionen-zone-f1-v5, quadratische-funktionen-zone-f1-v7,
+quadratische-funktionen-zone-f2-v2, quadratische-funktionen-zone-f2-v4,
+quadratische-funktionen-zone-f3-v1, quadratische-funktionen-zone-f3-v4,
+quadratische-funktionen-zone-f4-v3, quadratische-funktionen-zone-f5-v4,
+quadratische-funktionen-zone-f7-v3, quadratische-funktionen-zone-f8-v1
+Probetest (Originale, gemischt, schwerste zuletzt): 2026-FOR-B1e,
+2020-OS-K3b, 2021-OS-B1d, 2015-OS-K4b, 2016-OS-B1g, 2024-OS-K3b,
+2022-OS-K3b, 2020-OS-K3d, 2025-OS-K5b, 2017-OS-K5d, 2020-OS-K3e,
+2022-OS-K3c, 2018-OS-K5d, 2026-FOR-K5d
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+hier am Ende statt nach „Lerneinheiten“, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben. Form „abschnitte“ (Abschnitte A, B, …
+mit Satz, Formel, Beispiel, Aufgaben und Vorrat).
+
+Serie: Vorher: Quadrieren, auch negative Zahlen; Koordinaten; Lineare Funktionen | Parabeln: Normalparabel und Streckfaktor; Scheitelpunktform; Normalform | Rechnen an Parabeln: Nullstellen und Schnittpunkte | Weiter: Funktionsklassen und Eigenschaften
+
+#### Lerneinheit 1 – Normalparabel und Streckfaktor (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung GHQ · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: $h(t) = -3t^2 + 2400$ über Startwert und Öffnung ankreuzen, mit einem Wert kontrollieren (2015-OS-K4b); Wertetabelle zu $y = 3x^2$ ankreuzen (2026-FOR-B1e); Punktprobe rechnerisch statt geschätzt (2020-OS-K3b); Parabel zu $a\cdot x^2$ zeichnen (RLP/LISUM G, ohne Original)
+Blatt: Klasse 9 · Vorher: Quadrieren · Weiter: Scheitelpunktform
+Titel: Quadratische Funktionen: Normalparabel und Streckfaktor
+Formel: $f(x) = a \cdot x^2 + e$ \qquad Scheitel $S(0|e)$
+In Worten: Erst $x$ quadrieren, dann mal $a$, dann $e$ dazu. $a$ sagt, wie die Parabel geöffnet ist und wie breit; $e$ sagt, wie hoch der Scheitel liegt.
+Vorgehen: Wertetabelle: erst $x^2$, dann mal $a$, dann $e$ dazu; Punkte eintragen und freihand zum Bogen verbinden; Gleichung zum Graphen: $e$ am Scheitel ablesen, Vorzeichen von $a$ an der Öffnung; einen zweiten Punkt einsetzen und $a$ ausrechnen; Punktprobe: $x$ einsetzen und mit dem $y$-Wert vergleichen
+Achtung: $(-3)^2 = 9$, nicht $-9$. $3x^2$ heißt $3 \cdot x^2$, nicht $(3x)^2$. Aber $-x^2$ heißt $-(x^2)$: für $x = -3$ ist $-x^2 = -9$.
+Bild: quadratische-funktionen-e1-k1-s9-v4
+Fehler: $(-3)^2 = -9$ gerechnet. Richtig: minus mal minus gibt plus, $(-3)^2 = 9$.
+Fehler: $3x^2$ als $(3x)^2$ gerechnet. Richtig: erst $x^2$, dann mal 3.
+Fehler: Punkte mit dem Lineal verbunden. Die Parabel ist ein runder Bogen, unten ohne Spitze.
+Fehler: Nur am Graphen geschätzt. Punktprobe heißt: $x$ einsetzen und rechnen.
+Fehler: Minus vergessen. Was fällt oder nach unten geöffnet ist, hat ein negatives $a$.
+Tisch: Zeichne Parabeln freihand als Bogen, nicht mit dem Lineal.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Die Normalparabel | Bei $f(x) = x^2$ nimmst du jede Zahl mal sich selbst. Auch eine negative Zahl wird dabei positiv: $(-3)^2 = 9$. Darum ist der Graph ein Bogen, die \textbf{Normalparabel}: Ihr tiefster Punkt ist der \textbf{Scheitel} $S(0{\vert}0)$, sie ist zur $y$-Achse symmetrisch und nach oben geöffnet. | $f(x) = x^2$ \qquad $(-3)^2 = (-3)\cdot(-3) = 9$\par {\small Vom Scheitel aus: 1 nach rechts, 1 nach oben – 2 nach rechts, 4 nach oben – 3 nach rechts, 9 nach oben; nach links genauso.}\par {\small Punktprobe: $x$ einsetzen. Kommt der $y$-Wert heraus, liegt der Punkt auf der Parabel.} | quadratische-funktionen-e1-k1-s2-v4 | quadratische-funktionen-e1-k1-s1-v6, quadratische-funktionen-e1-k1-s11-v4, quadratische-funktionen-e1-k1-s3-v4, quadratische-funktionen-e1-k1-s4-v4, quadratische-funktionen-e1-k2-s4-v4 | quadratische-funktionen-e1-k1-s1-v7, quadratische-funktionen-e1-k1-s1-v8, quadratische-funktionen-e1-k1-s4-v5, quadratische-funktionen-e1-k2-s4-v5 |
+| L1-B | Der Streckfaktor $a$ | Bei $f(x) = a \cdot x^2$ rechnest du zuerst $x^2$ und nimmst dann mit $a$ mal. Die Zahl $a$ heißt \textbf{Streckfaktor}. An ihr siehst du die Form ohne Rechnung: Minus heißt nach unten geöffnet; eine große Zahl heißt schmal, eine kleine breit. | $f(x) = a \cdot x^2$: erst $x^2$, dann $\cdot\, a$ \qquad $3 \cdot (-2)^2 = 3 \cdot 4 = 12$, nicht $(3 \cdot (-2))^2 = 36$\par {\small $a < 0$: nach unten geöffnet \quad $a > 1$ oder $a < -1$: schmaler \quad $a$ zwischen $-1$ und $1$: breiter als die Normalparabel} | quadratische-funktionen-e1-k1-s9-v4 | quadratische-funktionen-e1-k1-s6-v4, quadratische-funktionen-e1-k1-s9-v5, quadratische-funktionen-e1-k1-s7-v4, quadratische-funktionen-e1-k1-s10-v4, quadratische-funktionen-e1-k2-s4-v6 | quadratische-funktionen-e1-k1-s6-v5, quadratische-funktionen-e1-k1-s6-v6, quadratische-funktionen-e1-k1-s7-v5, quadratische-funktionen-e1-k1-s10-v5, quadratische-funktionen-e1-k2-s4-v7 |
+| L1-C | Die Gleichung zum Graphen | Bei $f(x) = a \cdot x^2 + e$ ist die Parabel um $e$ nach oben oder unten verschoben. Ihr Scheitel liegt auf der $y$-Achse bei $S(0{\vert}e)$. Zu einem Graphen findest du die Gleichung so: $e$ am Scheitel ablesen, dann mit einem zweiten Punkt $a$ ausrechnen. | $f(x) = a \cdot x^2 + e$ \qquad Scheitel $S(0{\vert}e)$\par {\small Zweiten Punkt einsetzen: $y = a \cdot x^2 + e$, dann nach $a$ auflösen.} | quadratische-funktionen-e1-k1-s12-v4 | quadratische-funktionen-e1-k1-s5-v4, quadratische-funktionen-e1-k1-s12-v5, quadratische-funktionen-e1-k2-s3-v4, quadratische-funktionen-e1-k1-s4-v6, quadratische-funktionen-e1-k2-s4-v8 | quadratische-funktionen-e1-k1-s5-v5, quadratische-funktionen-e1-k1-s12-v6, quadratische-funktionen-e1-k2-s3-v5, quadratische-funktionen-e1-k1-s4-v7, quadratische-funktionen-e1-k2-s4-v9 |
+| L1-D | Sachaufgaben: Höhe beim Fallen | Fällt etwas, heißt $x$ meist $t$ (Zeit in s) und $f(x)$ heißt $h(t)$ (Höhe in m). Der Startwert $e = h(0)$ ist die Höhe am Anfang. Weil die Höhe abnimmt, steht vor $t^2$ ein Minus. | $h(t) = a \cdot t^2 + e$ \qquad $e$: Höhe bei $t = 0$ \qquad $a < 0$: es fällt\par {\small Kontrolle: einen Wert aus Text oder Graph einsetzen.} | quadratische-funktionen-e1-k1-s14-v3 | quadratische-funktionen-e1-k1-s14-v4, quadratische-funktionen-e1-k2-s4-v10, quadratische-funktionen-e1-k1-s10-v6, quadratische-funktionen-e1-k2-s4-v11 | quadratische-funktionen-e1-k2-s4-v12, quadratische-funktionen-e1-k1-s14-v5, quadratische-funktionen-e1-k1-s10-v7, quadratische-funktionen-e1-k2-s4-v13 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | quadratische-funktionen-e1-k1-s13-v3, quadratische-funktionen-e1-k1-s4-v8, quadratische-funktionen-e1-k1-s12-v7, quadratische-funktionen-e1-k1-s14-v6, quadratische-funktionen-e1-k2-s4-v14 | quadratische-funktionen-e1-k1-s13-v4, quadratische-funktionen-e1-k1-s4-v9, quadratische-funktionen-e1-k2-s4-v15 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen oben; Gewicht je Einheit: Kern oder Rand mit Halbsatz, sonst keine Marke (Regel 02.10.2026 abends).
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
