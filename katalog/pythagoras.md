@@ -117,6 +117,31 @@ Zielmarke: Einheit 1 – die Länge einer Rampe aus waagerechter Länge und Stuf
 - Leiterregeln 02.10.2026: Alle vier Ketten haben vor der Prüfungshöhe eine Rückwärts- und eine Mischsprosse. Krumme Zahlen (Dezimal, gemischte Einheiten, nicht aufgehende Wurzel) stehen auf den oberen Sprossen; die Grundfälle bleiben bei aufgehender Wurzel.
 - Gewicht (Regel 02.10.2026): P zählt die Originale, die die Zuordnungszeile der Einheit mit eigenem Typ nennt (Einheit 1: drei Gleichungs-, ein Formulierungs- und zwei Hypotenusen-Originale, 2022-OS-B1g mitgezählt; Einheit 2: fünf Kathete und eine Gleichung; Einheit 3: Strecke, Mantellinie, Turm, Becher); Nebentyp-Klauseln (2025-OS-K2a, 2025-OS-K2c) zählen nicht. S in Prozent mit zwei Stellen.
 
+### Thema-Weg
+Stand: 2026-10-09 (aus den Bauen K4W/E1 und T6B/E2; spätere Baue ergänzen
+Umkehrung, Das Dreieck erst finden, Schräge Strecken im Körper).
+
+Folge | Grund für die Stelle:
+1. Hypotenuse berechnen (Lerneinheit 1) | Der Satz wird an der Summe
+   gefunden (Quadrate über den Seiten); die Hypotenuse ist die Richtung
+   ohne Umstellen, darum zuerst. Ohne sicheres Finden der Hypotenuse bricht
+   jede spätere Einheit.
+2. (Warum der Satz stimmt) | Rand [GYM]; Zerlegungsbeweis, wenn Zeit ist.
+3. Kathete berechnen (Lerneinheit 2, erster Teil) | Umstellen setzt die
+   sicher aufgeschriebene Gleichung aus 1 voraus; Fehlerquelle aller sechs
+   Kathete-Originale ist „Quadrate addiert“ – erst wenn die Summe sitzt,
+   lässt sich die Differenz dagegen stellen.
+4. (Ist der Winkel recht? · Umkehrung) | noch nicht gebaut.
+5. Das Dreieck erst finden; Schräge Strecken im Körper (Lerneinheit 3) |
+   noch nicht gebaut; mischt Hypotenuse und Kathete (Lehrer 09.10.).
+
+Vorher-Check (Zone): pythagoras-zone-f1-v2, pythagoras-zone-f2-v2,
+pythagoras-zone-f2-v3, pythagoras-zone-f3-v1, pythagoras-zone-f4-v4,
+pythagoras-zone-f5-v1
+Probetest (Originale, gemischt, schwerste zuletzt): 2022-OS-B1g,
+2021-OS-B1h, 2020-OS-K7a, 2024-OS-B1f, 2019-OS-K3a, 2024-OS-K6a,
+2025-OS-K4a, 2016-OS-K7b
+
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 `bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
@@ -124,6 +149,22 @@ nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
 Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
 
 Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; (Ist der Winkel recht? · Umkehrung) | In Figuren und Körpern: Das Dreieck erst finden; Schräge Strecken im Körper | Weiter: Seiten und Winkel mit sin, cos, tan
+
+#### Lerneinheit 1 – Hypotenuse berechnen (Satz und Hypotenuse)
+Stand: 2026-10-09 · Kennung M74 · Kritiker: durch (Fable; übernommen: Rechtwinkelmarke in Leiter und Park, Runden grau vorgerechnet, Brücke 3² + 4² = 5² vor dem Satz; nicht: Sachaufgaben hinter die Zielaufgaben) · Lehrer: – (Vorbau K4W „besser“)
+Ziel: Rampe x = √(170² + 16²) ≈ 170,8 cm (2025-OS-K4a); daneben AB = √(12² + 34²) ≈ 36,1 m (2020-OS-K7a)
+Formel und Beispiel je Schritt: L1-1: Gegenüber dem rechten Winkel liegt die Hypotenuse, die längste Seite · Beispiel pythagoras-e1-k2-s0-v6 · L1-2: Die zwei Kathetenquadrate zusammen sind so groß wie das Hypotenusenquadrat (Flächen, nicht Längen) · Beispiel pythagoras-e1-k3-s1-v5 · L1-3: Hypotenuse² = Kathete² + Kathete² · Beispiel pythagoras-e1-k2-s6-v5 · L1-4: c² = a² + b², dann c = √(a² + b²) · Beispiel pythagoras-e1-k2-s1-v9 · L1-5: erst Einheiten angleichen, zuletzt runden · Beispiel pythagoras-e1-k2-s3-v5 · L1-6: rechten Winkel in der Sache suchen, Dreieck skizzieren, Hypotenuse gegenüber · Beispiel pythagoras-e1-k2-s10-v5 · L1-7: auch wenn eine Kathete fast so lang ist wie die Hypotenuse, wird addiert · Beispiel pythagoras-e1-k2-s15-v7
+Blatt: Klasse 9 · Vorher: Quadrat und Wurzel · Weiter: Kathete berechnen
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
+|---|---|---|---|
+| L1-1 | Die Hypotenuse liegt dem rechten Winkel gegenüber, in jeder Lage des Dreiecks | längere Kathete oder waagerechte Seite für die Hypotenuse gehalten | pythagoras-e1-k2-s0-v5 (pythagoras-e1-k2-s0-v6, pythagoras-e1-k2-s0-v7, pythagoras-e1-k2-s0-v8) |
+| L1-2 | Die zwei kleinen Quadrate füllen zusammen das große – Flächen addieren, nicht Längen | c = a + b | pythagoras-e1-k3-s1-v4 (pythagoras-e1-k3-s1-v5, pythagoras-e1-k3-s1-v6, pythagoras-e1-k3-s1-v7) |
+| L1-3 | Die Gleichung mit den Buchstaben der Figur aufschreiben, die Hypotenuse allein; ohne rechten Winkel gilt sie nicht | „c ist immer die Hypotenuse“; Satz ohne rechten Winkel | pythagoras-e1-k2-s6-v4 (pythagoras-e1-k2-s6-v5, pythagoras-e1-k2-s6-v6, pythagoras-e1-k2-s6-v7) |
+| L1-4 | Rechnen in drei Zeilen (Gleichung, Zwischenergebnis, Wurzel) mit Probe; dieselbe Rechnung als Formel unter Fallen wählen | Wurzel vergessen; Wurzel aus jedem Summanden | pythagoras-e1-k2-s1-v6, pythagoras-e1-k2-s8-v6 (pythagoras-e1-k2-s1-v9, pythagoras-e1-k2-s1-v7, pythagoras-e1-k2-s1-v8, pythagoras-e1-k2-s8-v7) |
+| L1-5 | Wurzel geht nicht auf: runden erst am Ende; Einheiten vorher angleichen | zu früh gerundet; cm und m gemischt | pythagoras-e1-k2-s3-v4 + pythagoras-e1-k2-s5-v4 (pythagoras-e1-k2-s3-v5, pythagoras-e1-k2-s3-v6, pythagoras-e1-k2-s4-v4, pythagoras-e1-k2-s5-v5) |
+| L1-6 | Das Dreieck in der Sache selbst finden: Bild ohne Dreieck (reicht es?) → Karte (wie viel kürzer?) → nur Text (Skizze selbst) | rechter Winkel nicht gesucht; Umweg statt Ersparnis angegeben | pythagoras-e1-k2-s10-v4, pythagoras-e1-k2-s10-v6, pythagoras-e1-k2-s9-v4 (pythagoras-e1-k2-s10-v5, pythagoras-e1-k2-s10-v2, pythagoras-e1-k5-s3-v2, pythagoras-e1-k5-s3-v3) |
+| L1-7 | Zielaufgaben mit Streckennamen, großen Zahlen und fast gleich langer Kathete | 34 m als Hypotenuse; 16 cm als Hypotenuse; 170,8 für falsch gehalten | pythagoras-e1-k2-s15-v5, pythagoras-e1-k2-s15-v6 (pythagoras-e1-k2-s15-v7, pythagoras-e1-k2-s15-v3, pythagoras-e1-k2-s15-v4) |
 
 #### Lerneinheit 2 – Kathete berechnen (erster Teil; die Umkehrung ist ein eigenes Blatt)
 Stand: 2026-10-09 · Kennung T6B · Kritiker: durch (Fable; übernommen: eine Aufgabe mit gesuchter Hypotenuse in der Sache) · Lehrer: –
