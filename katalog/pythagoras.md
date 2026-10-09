@@ -118,8 +118,8 @@ Zielmarke: Einheit 1 – die Länge einer Rampe aus waagerechter Länge und Stuf
 - Gewicht (Regel 02.10.2026): P zählt die Originale, die die Zuordnungszeile der Einheit mit eigenem Typ nennt (Einheit 1: drei Gleichungs-, ein Formulierungs- und zwei Hypotenusen-Originale, 2022-OS-B1g mitgezählt; Einheit 2: fünf Kathete und eine Gleichung; Einheit 3: Strecke, Mantellinie, Turm, Becher); Nebentyp-Klauseln (2025-OS-K2a, 2025-OS-K2c) zählen nicht. S in Prozent mit zwei Stellen.
 
 ### Thema-Weg
-Stand: 2026-10-09 (aus den Bauen K4W/E1 und T6B/E2; spätere Baue ergänzen
-Umkehrung, Das Dreieck erst finden, Schräge Strecken im Körper).
+Stand: 2026-10-09 (aus den Bauen K4W/E1, T6B/E2 und P9H/E2 Umkehrung;
+spätere Baue ergänzen Das Dreieck erst finden, Schräge Strecken im Körper).
 
 Folge | Grund für die Stelle:
 1. Hypotenuse berechnen (Lerneinheit 1) | Der Satz wird an der Summe
@@ -131,7 +131,11 @@ Folge | Grund für die Stelle:
    sicher aufgeschriebene Gleichung aus 1 voraus; Fehlerquelle aller sechs
    Kathete-Originale ist „Quadrate addiert“ – erst wenn die Summe sitzt,
    lässt sich die Differenz dagegen stellen.
-4. (Ist der Winkel recht? · Umkehrung) | noch nicht gebaut.
+4. Ist der Winkel recht? (Lerneinheit 2, zweiter Teil: Umkehrung) |
+   Die Umkehrung setzt voraus, dass „längste Seite = Hypotenuse“ und die
+   Summe der Quadrate sitzen; erst nach der Kathete, weil das Blatt am
+   Ende Hypotenuse und Kathete mischt (welche Seite ist gesucht?) und
+   so die Wahl plus/minus vor der Einheit 3 noch einmal festigt.
 5. Das Dreieck erst finden; Schräge Strecken im Körper (Lerneinheit 3) |
    noch nicht gebaut; mischt Hypotenuse und Kathete (Lehrer 09.10.).
 
@@ -140,7 +144,7 @@ pythagoras-zone-f2-v3, pythagoras-zone-f3-v1, pythagoras-zone-f4-v4,
 pythagoras-zone-f5-v1
 Probetest (Originale, gemischt, schwerste zuletzt): 2022-OS-B1g,
 2021-OS-B1h, 2020-OS-K7a, 2024-OS-B1f, 2019-OS-K3a, 2024-OS-K6a,
-2025-OS-K4a, 2016-OS-K7b
+2025-OS-K4a, 2025-OS-K2c, 2016-OS-K7b
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -148,7 +152,7 @@ Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
 Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
 
-Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; (Ist der Winkel recht? · Umkehrung) | In Figuren und Körpern: Das Dreieck erst finden; Schräge Strecken im Körper | Weiter: Seiten und Winkel mit sin, cos, tan
+Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; Ist der Winkel recht? | In Figuren und Körpern: Das Dreieck erst finden; Schräge Strecken im Körper | Weiter: Seiten und Winkel mit sin, cos, tan
 
 #### Lerneinheit 1 – Hypotenuse berechnen (Satz und Hypotenuse)
 Stand: 2026-10-09 · Kennung M74 · Kritiker: durch (Fable; übernommen: Rechtwinkelmarke in Leiter und Park, Runden grau vorgerechnet, Brücke 3² + 4² = 5² vor dem Satz; nicht: Sachaufgaben hinter die Zielaufgaben) · Lehrer: – (Vorbau K4W „besser“)
@@ -180,6 +184,22 @@ Blatt: Klasse 9 · Vorher: Hypotenuse berechnen · Weiter: Das Dreieck erst find
 | L2k-5 | Wurzel geht nicht auf, runden; Einheiten vorher angleichen | zu früh gerundet; cm und m gemischt | pythagoras-e2-k3-s2-v3 + pythagoras-e2-k3-s3-v4 |
 | L2k-6 | Das Dreieck in der Sache selbst finden: Bild ohne Dreieck (reicht es? nein) → Karte (Hypotenuse gesucht) → nur Text mit Zusatzstrecke | plus/minus nach Blattgewohnheit; Handhöhe vergessen | pythagoras-e2-k3-s7-v4, pythagoras-e2-k3-s11-v4, pythagoras-e2-k6-s3-v3 |
 | L2k-7 | Zielaufgabe mit Streckennamen und dreistelligen Zahlen | Quadrate addiert (461 m) | pythagoras-e2-k3-s12-v7 (pythagoras-e2-k3-s12-v1) |
+
+#### Lerneinheit 2 – Ist der Winkel recht? (Umkehrung; zweiter Teil)
+Stand: 2026-10-09 · Kennung P9H · Kritiker: offen (im Bau-Agenten kein Werkzeug für einen Unteragenten; nachholen) · Lehrer: –
+Ziel: rechter Winkel im Drachenfenster, AD² + DC² = 2 048 + 2 048 = 4 096 = AC² (nach 2025-OS-K2c, Stern)
+Formel und Beispiel je Schritt: L2u-1: Sind die zwei kleinen Quadrate zusammen so groß wie das große, hat das Dreieck einen rechten Winkel · Beispiel pythagoras-e2-k6-s2-v7 · L2u-2: als c nur die längste Seite; erst in dieselbe Einheit umrechnen · Beispiel pythagoras-e2-k1-s0-v6 · L2u-3: a² + b² mit c² vergleichen: gleich → rechtwinklig, ungleich → nicht · Beispiel pythagoras-e2-k3-s8-v8 · L2u-4: der rechte Winkel liegt gegenüber der längsten Seite · Beispiel pythagoras-e2-k3-s8-v9 · L2u-5: ein Tripel mal eine Zahl gibt wieder ein Tripel · Beispiel pythagoras-e2-k5-s1-v5 · L2u-6: erst fragen, ob die gesuchte Seite die längste ist: dann plus, sonst minus · Beispiel pythagoras-e2-k3-s10-v4 · L2u-7: „sieht rechtwinklig aus“ reicht nicht, die Rechnung entscheidet · Beispiel pythagoras-e2-k3-s9-v1
+Blatt: Klasse 9 · Vorher: Kathete berechnen · Weiter: Das Dreieck erst finden
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
+|---|---|---|---|
+| L2u-1 | Der Satz geht auch rückwärts: passen die Quadrate, entsteht ein rechter Winkel (Knotenschnur); passen sie nicht, nicht | glauben, jedes Dreieck mit ganzen Zahlen sei rechtwinklig | pythagoras-e2-k6-s2-v6 (pythagoras-e2-k6-s2-v7, pythagoras-e2-k6-s2-v8, pythagoras-e2-k6-s2-v2) |
+| L2u-2 | Nur die längste Seite kann c sein; dazu erst alles in eine Einheit | kürzere Seite oder zuletzt genannte Seite als c; 0,4 m gegen 41 cm | pythagoras-e2-k1-s0-v5 (pythagoras-e2-k1-s0-v6, pythagoras-e2-k1-s0-v2, pythagoras-e2-k1-s0-v3, pythagoras-e2-k1-s0-v4) |
+| L2u-3 | Vergleichen statt ausrechnen: gleich → rechtwinklig, ungleich → nicht, auch wenn es fast passt | Seiten in genannter Folge eingesetzt; 221 und 225 für gleich gehalten | pythagoras-e2-k3-s8-v7 (pythagoras-e2-k3-s8-v8, pythagoras-e2-k3-s8-v1, pythagoras-e2-k3-s8-v2) |
+| L2u-4 | Mit Streckennamen und gemischten Einheiten entscheiden und die Ecke des rechten Winkels nennen | Einheiten nicht angeglichen; Ecke an der längsten Seite statt gegenüber | pythagoras-e2-k3-s8-v4 + pythagoras-e2-k3-s8-v5 (pythagoras-e2-k3-s8-v9, pythagoras-e2-k3-s8-v6, pythagoras-e2-k3-s8-v3) |
+| L2u-5 | Pythagoreische Tripel: vervielfacht bleiben sie Tripel; mit kleinen Zahlen prüfen spart Rechnen | 30, 40, 60 für ein Tripel gehalten, weil 3, 4 drinsteckt | pythagoras-e2-k5-s1-v4 (pythagoras-e2-k5-s1-v5, pythagoras-e2-k5-s1-v1, pythagoras-e2-k5-s1-v2, pythagoras-e2-k5-s1-v3) |
+| L2u-6 | Gemischt: welche Seite ist gesucht? Ist sie die längste, wird addiert, sonst subtrahiert | plus/minus nach Gewohnheit; beim Rückwärtsfall nur eine Lösung | pythagoras-e2-k3-s10-v1, pythagoras-e2-k3-s11-v3 (pythagoras-e2-k3-s10-v4, pythagoras-e2-k3-s10-v2, pythagoras-e2-k3-s10-v3, pythagoras-e2-k3-s11-v1, pythagoras-e2-k3-s11-v2) |
+| L2u-7 | Den rechten Winkel in der Sache mit Rechnung begründen; das Aussehen entscheidet nicht | rechter Winkel aus der Skizze abgelesen; AD nicht zuerst berechnet | pythagoras-e2-k3-s8-v10, pythagoras-e2-k3-s12-v5 (pythagoras-e2-k3-s8-v11, pythagoras-e2-k3-s9-v1, pythagoras-e2-k3-s9-v2, pythagoras-e2-k3-s9-v3, pythagoras-e2-k3-s12-v6) |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
