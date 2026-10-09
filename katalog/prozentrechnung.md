@@ -139,6 +139,40 @@ Zielmarke: Einheit 1 – zur Prozentangabe „4 %“ die passende Aussage „4 v
 - Änderungen 2026-09-29 (Chat, Lehrer): Einheit 4 – Sprosse „nur ein Prozent bestimmen“ zwischen Grundfall und Ein-Prozent-Weg; Beleg: Musterlösung L7-85 („1 % von G ist der 12. Teil von 84 kg“, quellen/altlehrwerke-formen.md); Fehlerbild ist die P10-Falle „Prozentsatz vom Prozentwert“.
 - Änderungen 2026-09-28 (Urteile vom 28.09.): Einheit 2 – Sprosse „Überschlag über einen einfachen Bruch“ vor dem Taschenrechner, die Taschenrechner-Sprosse vergleicht mit dem Überschlag. Einheit 3 – Vorform „ein Prozent einer Einheit“ vor dem Ein-Prozent-Weg. Einheit 4 – Sprosse „derselbe Teil, verschiedene Sätze“ nach dem Ein-Prozent-Weg. „Überschläge beurteilen“ ist nach dem Urteil keine Sprosse (eine fehler-Zeile der Bank in der Form P1). Grundlage: urteil-einbindung-2026-09-28.md.
 
+### Thema-Weg
+Angelegt beim ersten Bau (Lerneinheit 1, 09.10.2026); spätere Baue ergänzen. Folge der Lerneinheiten | Grund für die Stelle; Vorher-Check: Zone-ids; Probetest: Original-ids (gemischt, schwerste zuletzt).
+
+| Folge | Lerneinheit | Grund für die Stelle | Vorher-Check (Zone-ids) |
+|---|---|---|---|
+| 1 | Prozente als Anteile | Prozent ist zuerst eine Schreibweise für Hundertstel; erst wer 1/5 = 20 % und „jeder fünfte“ sicher liest, kann mit Grundwert und Prozentwert rechnen. Hält die Nenner-Lesart (jeder 4. = 4 %) auf, bevor gerechnet wird. | prozentrechnung-zone-f1-v1, prozentrechnung-zone-f1-v2, prozentrechnung-zone-f2-v1, prozentrechnung-zone-f2-v3 |
+| 2 | Prozentsatz berechnen | Setzt Einheit 1 rückwärts fort: aus „Teil von Ganzem“ wird der Anteil, jetzt mit Ganzem ungleich 100; die Frage „Was ist das Ganze?“ steht vor allen späteren Einheiten. Vor Prozentwert, weil der Schüler den Anteil schon als Bruch kennt. | prozentrechnung-zone-f3-v4, prozentrechnung-zone-f4-v1, prozentrechnung-zone-f5-v1 |
+| 3 | Prozentwert berechnen | Prozent als Operator (p % von G) baut auf „Bruchteil einer Größe“ und auf die Zehntel aus Einheit 1; häufigster Prüfungstyp. | prozentrechnung-zone-f6-v1, prozentrechnung-zone-f3-v2, prozentrechnung-zone-f3-v3 |
+| 4 | Grundwert berechnen | Umkehrung des Operators; erst nach Einheit 3, sonst rechnet der Schüler „p % von W“. Mischt am Ende alle drei Größen (erst zuordnen, dann rechnen). | prozentrechnung-zone-f4-v4, prozentrechnung-zone-f4-v5 |
+| 5 | Prozentuale Veränderung | Braucht alle drei Grundaufgaben und die Frage, welcher Wert 100 % ist; danach Zinsrechnung. | prozentrechnung-zone-f5-v2, prozentrechnung-zone-f3-v5 |
+
+Probetest (gemischt, schwerste zuletzt): 2014-OS-B1a, 2022-OS-B1f, 2025-OS-B1a, 2018-OS-K7a, 2024-OS-B1e, 2020-OS-B1a, 2023-OS-B1b, 2023-OS-K6b, 2015-OS-K7c, 2026-FOR-K3c
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank `bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch nicht gebaut. Steht hier am Ende, damit die Zeilennummern im Bankfeld quelle gültig bleiben.
+
+Serie: Vorher: Brüche und Dezimalzahlen | Prozentrechnung: Prozente als Anteile; Prozentsatz berechnen; Prozentwert berechnen; Grundwert berechnen; Prozentuale Veränderung | Weiter: Zinsrechnung
+
+#### Lerneinheit 1 – Prozente als Anteile
+Stand: 2026-10-09 · Kennung 3Y5 · Kritiker: durch (Fable; übernommen: Richtung Prozent → „jeder wievielte“ in 6, Kiosk-Frage exakt statt geschätzt, alle richtigen Berichtigungen in der Lösung, Kästchenmuster in 5) · Lehrer: –
+Ziel: In einer Anteilstabelle die falsche von zwei Aussagen finden und richtig schreiben, „jeder zehnte“ gegen 5 % (nach 2019-OS-K5b; Basis 2020-OS-B1a, 2022-OS-B1f)
+Formel und Beispiel je Schritt: L1-1: Prozent heißt Hundertstel, 37 von 100 = 37 % · Beispiel prozentrechnung-e1-k1-s2-v4 a) · L1-2: der ganze Streifen ist 100 %, 1 von 4 Teilen = 25 % · Beispiel prozentrechnung-e1-k3-s3-v4 a) · L1-3: Bruch auf den Nenner 100 erweitern, 3/20 = 15/100 = 15 % · Beispiel prozentrechnung-e1-k1-s3-v4 a) · L1-4: dieselbe Zahl in vier Schreibweisen, 1/4 = 25/100 = 25 % = 0,25 · Beispiel prozentrechnung-e1-k1-s5-v4 a) · L1-5: „jeder fünfte“ heißt 1/5 = 20 %, nicht 5 % · Beispiel prozentrechnung-e1-k1-s6-v7 a) · L1-6: alle Anteile zusammen sind 100 % · Beispiel prozentrechnung-e1-k1-s7-v2 · L1-7: Aussage in Prozent übersetzen und mit der Tabelle vergleichen · Beispiel prozentrechnung-e1-k1-s8-v7
+Blatt: Klasse 7 · Vorher: Brüche und Dezimalzahlen · Weiter: Prozentsatz berechnen
+
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
+|---|---|---|---|
+| L1-1 | Prozent heißt Hundertstel: am Hunderterfeld gezählt ist der Anteil direkt die Prozentzahl | 100 % als „alles“ nicht gesehen (100 Kästchen = ?) | prozentrechnung-e1-k1-s2-v4 (prozentrechnung-e1-k1-s2-v5, prozentrechnung-e1-k1-s2-v6, prozentrechnung-e1-k1-s2-v7, prozentrechnung-e1-k1-s2-v1, prozentrechnung-e1-k1-s2-v2) |
+| L1-2 | Der ganze Streifen ist 100 %, auch wenn er 4, 5 oder 20 Teile hat: Teile auf Hundertstel umrechnen | Teile gezählt statt Anteil (1 von 4 = „1 %“ oder „4 %“) | prozentrechnung-e1-k3-s3-v4 (prozentrechnung-e1-k3-s3-v5, prozentrechnung-e1-k3-s3-v6, prozentrechnung-e1-k3-s3-v2, prozentrechnung-e1-k1-s1-v2, prozentrechnung-e1-k1-s1-v4) |
+| L1-3 | Ohne Bild: Bruch auf den Nenner 100 erweitern, dann ablesen | Zähler als Prozent (3/20 = 3 %); 3/4 = 34 % | prozentrechnung-e1-k1-s3-v4 (prozentrechnung-e1-k1-s3-v5, prozentrechnung-e1-k1-s3-v6, prozentrechnung-e1-k1-s3-v1, prozentrechnung-e1-k1-s3-v2) |
+| L1-4 | Bruch, Hundertstelbruch, Prozent und Dezimalzahl sind dieselbe Zahl; von jeder Zeile aus umwandeln; Drittel nur gerundet | 0,65 als 0,65 %; 4 % als 0,4; Bruch nicht gekürzt | prozentrechnung-e1-k1-s5-v4 (prozentrechnung-e1-k1-s5-v1, prozentrechnung-e1-k1-s5-v2, prozentrechnung-e1-k1-s4-v1, prozentrechnung-e1-k1-s4-v3) |
+| L1-5 | „Jeder fünfte“ ist der Bruch 1/5, nicht die Zahl 5; „4 %“ ist 4 von 100, nicht jeder vierte | Nenner als Prozent gelesen (jeder 4. = 4 %) | prozentrechnung-e1-k1-s6-v6, prozentrechnung-e1-k1-s6-v7, prozentrechnung-e1-k1-s8-v1 (prozentrechnung-e1-k1-s6-v8, prozentrechnung-e1-k1-s8-v2, prozentrechnung-e1-k1-s8-v3, prozentrechnung-e1-k1-s8-v4, prozentrechnung-e1-k1-s6-v1, prozentrechnung-e1-k1-s6-v3, prozentrechnung-e1-k1-s6-v5, prozentrechnung-e1-k3-s1-v1) |
+| L1-6 | Alle Anteile eines Ganzen ergeben 100 %; der fehlende Teil ist der Rest; am Streifen eine Prozentzahl als Bruch schätzen | Rest nur von einem Anteil abgezogen | prozentrechnung-e1-k1-s7-v4 (prozentrechnung-e1-k1-s7-v1, prozentrechnung-e1-k1-s7-v2, prozentrechnung-e1-k1-s8-v11, prozentrechnung-e1-k1-s8-v12) |
+| L1-7 | Zielaufgabe: Anteilsaussage in Prozent übersetzen, in der richtigen Spalte nachsehen, die falsche Aussage berichtigen | Zeile oder Spalte verwechselt; „jeder zehnte“ = 10 % geprüft, aber in der falschen Spalte | prozentrechnung-e1-k1-s8-v8 (prozentrechnung-e1-k1-s8-v13, prozentrechnung-e1-k1-s8-v7, prozentrechnung-e1-k1-s8-v9) |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
