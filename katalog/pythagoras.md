@@ -123,19 +123,22 @@ Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
 Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
 
+Serie: Vorher: Quadrat und Wurzel; Rechter Winkel im Dreieck | Satz des Pythagoras: Hypotenuse berechnen; (Warum der Satz stimmt); Kathete berechnen; (Ist der Winkel recht? · Umkehrung) | In Figuren und Körpern: Das Dreieck erst finden; Schräge Strecken im Körper | Weiter: Seiten und Winkel mit sin, cos, tan
+
 #### Lerneinheit 2 – Kathete berechnen (erster Teil; die Umkehrung ist ein eigenes Blatt)
 Stand: 2026-10-09 · Kennung T6B · Kritiker: durch (Fable; übernommen: eine Aufgabe mit gesuchter Hypotenuse in der Sache) · Lehrer: –
 Ziel: Höhenunterschied der Seilbahn, FA = √(384² − 255²) ≈ 287,1 m (2024-OS-K6a)
+Blatt: Klasse 9 · Vorher: Hypotenuse berechnen · Weiter: Das Dreieck erst finden
 
-| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids, erste = Regel, weitere = neue Zahlen) |
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
 |---|---|---|---|
-| L2k-1 | Das fehlende Kathetenquadrat ist das große Quadrat minus das andere kleine (Flächen, nicht Längen) | Quadrate addiert | pythagoras-e2-k6-s2-v4, pythagoras-e2-k6-s2-v5 |
+| L2k-1 | Das fehlende Kathetenquadrat ist das große Quadrat minus das andere kleine (Flächen, nicht Längen) | Quadrate addiert | pythagoras-e2-k6-s2-v4 (pythagoras-e2-k6-s2-v5) |
 | L2k-2 | Ob die gesuchte Seite Hypotenuse oder Kathete ist, entscheidet die Lage des rechten Winkels, nicht der Buchstabe | längere Kathete für die Hypotenuse gehalten | pythagoras-e2-k3-s0-v5 |
 | L2k-3 | Gleichung mit der Hypotenuse allein aufschreiben, dann nach der gesuchten Kathete umstellen; mit Wurzel unter Fallen wählen | gesuchte Seite allein (a² = b² + c²); Wurzel vergessen; „c ist immer die Hypotenuse“ | pythagoras-e2-k6-s4-v4, pythagoras-e2-k3-s5-v4 |
-| L2k-4 | Rechnen in drei Zeilen (Gleichung, Zwischenergebnis, Wurzel), Probe: kürzer als die Hypotenuse | Wurzel vergessen | pythagoras-e2-k3-s1-v6, pythagoras-e2-k3-s1-v7 |
-| L2k-5 | Wurzel geht nicht auf, runden; Einheiten vorher angleichen | zu früh gerundet; cm und m gemischt | pythagoras-e2-k3-s2-v3, pythagoras-e2-k3-s3-v4 |
+| L2k-4 | Rechnen in drei Zeilen (Gleichung, Zwischenergebnis, Wurzel), Probe: kürzer als die Hypotenuse | Wurzel vergessen | pythagoras-e2-k3-s1-v6 (pythagoras-e2-k3-s1-v7) |
+| L2k-5 | Wurzel geht nicht auf, runden; Einheiten vorher angleichen | zu früh gerundet; cm und m gemischt | pythagoras-e2-k3-s2-v3 + pythagoras-e2-k3-s3-v4 |
 | L2k-6 | Das Dreieck in der Sache selbst finden: Bild ohne Dreieck (reicht es? nein) → Karte (Hypotenuse gesucht) → nur Text mit Zusatzstrecke | plus/minus nach Blattgewohnheit; Handhöhe vergessen | pythagoras-e2-k3-s7-v4, pythagoras-e2-k3-s11-v4, pythagoras-e2-k6-s3-v3 |
-| L2k-7 | Zielaufgabe mit Streckennamen und dreistelligen Zahlen | Quadrate addiert (461 m) | pythagoras-e2-k3-s12-v7, pythagoras-e2-k3-s12-v1 |
+| L2k-7 | Zielaufgabe mit Streckennamen und dreistelligen Zahlen | Quadrate addiert (461 m) | pythagoras-e2-k3-s12-v7 (pythagoras-e2-k3-s12-v1) |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.

@@ -55,13 +55,25 @@ Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
 nicht gebaut. Steht am Ende des Eintrags (vor der Prüfliste), damit die
 Zeilennummern im Bankfeld quelle nicht wandern.
 
-#### Lerneinheit <n> – <Name in Schülersprache>
+Serie: Vorher: <Blatt>; <Blatt> | <Bereich>: <Blatt>; (<Rand-Blatt>); … | Weiter: <Blatt>
+(eine Zeile je Eintrag, für die Übersicht nach bauregeln „Übersicht und
+Serie“: Bereiche mit „|“, Blätter mit „;“, Rand-Blätter in Klammern; der
+Name eines Blatts wortgleich wie in der Überschrift seines Blocks)
+
+#### Lerneinheit <n> – <Name in Schülersprache> (<Zusatz, optional>)
 Stand: <Datum> · Kennung <K> · Kritiker: <durch/Befunde> · Lehrer: <–/Stichprobe gut>
 Ziel: <Prüfungsaufgabe oder Höhe, auf die der Weg führt>
+Blatt: <Niveau im Kopf, z. B. Klasse 9> · Vorher: <Blatt> · Weiter: <Blatt>
 
-| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids, erste = Regel, weitere = neue Zahlen) |
+| Schritt | Was der Schüler begreift | Stolperstelle | Aufgaben (Bank-ids; Blatt in Folge, + = eine Nummer; Zusatz in Klammern) |
 |---|---|---|---|
-| L<n>-1 | … | … | id, id |
+| L<n>-1 | … | … | id, id + id (id, id) |
+
+Aufgaben-Spalte, so liest sie `werkzeuge/setzer.py`: die ids vor der
+Klammer stehen auf dem Blatt, in dieser Folge, jede mit eigener Nummer;
+mit „+“ verbundene ids teilen sich eine Nummer (Teile laufen weiter);
+ids in Klammern sind Zusatz (leichter, neue Zahlen) nur für die Bank und
+werden nicht gesetzt.
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
