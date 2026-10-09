@@ -169,21 +169,19 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M3 Runde 1 (M2 erfüllt 09.10.: Bau T6B 41 min, 0,23 Mio Token +
-Kritiker, Lehrer „insgesamt gut“; setzer.py setzt T6B in 3,7 s). Runde 1:
-zwei Agenten nach bau/bauauftrag.md – Pythagoras ganz (Hypotenuse neu,
-Umkehrung, Das Dreieck erst finden, Thema-Weg) und Prozentrechnung;
-Schätzung 2–3 Mio Token; Ablesen vorher und nachher; Lehrer sieht eine
-Stichprobe. In der ersten Setzerrunde: Originalliste auf Lernblättern weg,
-Feld satz gegen aufgabe/loesung bereinigen. Token sparen vom Ende her
-(uebergabe.md § 4).
-
-Nachtrag aus dem Vorchat (09.10. mittags), am Ende von Runde 1 aufnehmen:
-- Entscheidung Selbstlernen per Vergleich (§ 3 „Richtung“).
-- In den Bauauftrag: Anfänger-Test vor der Abgabe (schafft er die erste
-  Aufgabe jedes Abschnitts allein mit dem Beispiel?) und „Nachbesserung nur
-  der benannten Kritikerpunkte“ – beides aus aufgabenbank
-  bau/muster-auftrag.md.
+Jetzt: M3 Runde 2 (Lehrer 09.10. abends: Go; Kontingent bis Montag 18:00
+sinnvoll verbrauchen). Runde 1 erfüllt: Pythagoras (M74, T6B, P9H, UV3) und
+Prozentrechnung (3Y5, 4NT, E5F, WFW, S2L) gebaut, Thema-Wege fertig, Kritik
+eingearbeitet; Lehrer zur Stichprobe M74: „der Rest passt“, schwach nur
+Quadratbild und Erklärtext (Regel gestrichen). Neu ab Runde 2: Aufgaben
+neu schreiben, Bank nur Vorbild (Linie 2 „Bank liefert“ so geändert);
+Kritiker gebündelt aus dem Chat mit Bildprüfung; Anfänger-Test.
+Runde 2: Einheiten mit „P10 oft“ (38 offen), dann Kern; vier Agenten
+nebeneinander, je Thema einer, einer davon mit Fable (misst, ob Fable die
+Woche mitverbraucht, und vergleicht die Qualität); nach jeder Welle
+Zwischenbericht und Sparprüfung (Log: aufgabenbank bau/runde2-log.md);
+Schluss bei geschätzt 95 % Woche. Offen für den Lehrer: Selbstlern-Vergleich
+(§ 3), gesetzt an E5F.
 
 ## 8 Modelle und Kosten
 
@@ -192,6 +190,11 @@ Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
 Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
 → die 54 P10-Kerneinheiten ≈ 0,3–1,6 Wochen Kontingent. M2 misst den Wert;
 M3 wird danach budgetiert.
+
+Messwert Runde 1 (09.10.): 7 Einheiten + Kritik + Nacharbeit + Setzerfix
+≈ 2,9 Mio Token → Woche 42 → 48 %, Fable 18 → 20 %; je fertige Einheit
+≈ 0,85 Wochenpunkte; Fable-Kritiker 0,08 Mio je Blatt; Nacharbeit gebündelt
+0,08 Mio je Blatt statt 0,11–0,14 einzeln.
 
 ## 9 Später
 
@@ -221,3 +224,6 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Aufgaben an; Thema-Weg je Thema; „Für wen du baust“ im Bauauftrag (Lehrer
   09.10.). Messwert M2: Kathete-Bau + Setzer ≈ 0,4 Mio Token → Woche 41 →
   42 %, Fable 18 → 18 %.
+- 09.10.2026 (c): Runde 1 erfüllt; Aufgaben neu schreiben statt aus der Bank
+  nehmen; Herleitungsbilder gestrichen; Runde 2 mit vier Agenten bis
+  Montag (Lehrer: „ja“). Messwert Runde 1 in § 8.
