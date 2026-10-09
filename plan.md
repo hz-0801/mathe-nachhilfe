@@ -77,6 +77,15 @@ Abo laufen.
    Satzfehler) sofort. Nebenfragen kommen in § 9 „Später“, nicht in eine
    Regel.
 
+Richtung (Lehrer 09.10., noch keine Regel): Blätter sollen zum Selbstlernen
+taugen – der Schüler kommt allein durch jeden Abschnitt bis zur Zielaufgabe,
+der Lehrer am Tisch ist ein Plus. Bis zur Entscheidung bauen die Runden nach
+dem geltenden Bauauftrag, legen aber Formel und Beispiel je Schritt an.
+Entschieden wird am Ende von M3 Runde 1 an einem Vergleich: dieselbe
+Lerneinheit aus denselben Daten einmal als Tischblatt, einmal als
+Selbstlernfassung gesetzt; dazu, falls vorhanden, die Rückmeldung zum
+Selbstlernheft Geraden. Muster: aufgabenbank bau/muster-auftrag.md.
+
 ## 4 Was sich an Bank und Katalog ändert
 
 - Katalog, je Lerneinheit neues Feld **Lernweg**: Schritt · was der Schüler
