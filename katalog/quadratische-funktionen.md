@@ -131,8 +131,8 @@ Zielmarke: **Einheit 1** – Hauptmarke 2015-OS-K4b (Niveau II, 3 Punkte, Stern)
 - [LISUM-PH, 10e] **Geschlossen 11g: ja, angehoben.** Die Normalform x² + px + q steht in beiden Reihen im ersten Block unter Niveaustufe G; der RLP nennt sie nirgends, also trägt die Planungshilfe die Stufe allein. Einheit 3 ist G-Stoff für alle Bildungsgänge. Mit derselben Prüfung sind der Streckfaktor, das Modellieren und die Schnittpunkte zweier Parabeln aus dem Vorrat geholt worden. Zweitens: Beide Reihen schreiben die Scheitelpunktform mit Plus, y = a · (x + d)² + e, der Katalog nach P10 mit Minus – die Vorzeichenfalle beim Ablesen des Scheitelpunkts ist ein Wechsel zwischen zwei amtlichen Schreibweisen und gehört als Lesart auf dasselbe Blatt (A9) sowie in die Fehlerliste.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten GHQ/E1 und BP8/E2; E3–E4
-noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten GHQ/E1, BP8/E2 und 7P7/E3;
+E4 noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Normalparabel und Streckfaktor (Lerneinheit 1) | Zuerst, weil jede
@@ -152,6 +152,14 @@ Folge | Grund für die Stelle:
    (erkennen) und B (aus einem zweiten Punkt) mit.
 3. Normalform (Lerneinheit 3) | Braucht die Scheitelpunktform als
    Ausgangspunkt (ausmultiplizieren) und die binomische Formel.
+   Innen (Bau 7P7): Normalform lesen (q als y-Achsenabschnitt, einsetzen
+   mit negativem x) → Scheitelpunktform ausmultiplizieren und als
+   Behauptung prüfen → Scheitel am Graphen ablesen, Scheitelpunktform,
+   Probe mit q → die passende Form wählen (Aussagen, Paare, Parabel zu
+   Eigenschaften). Lesen steht zuerst, weil jeder spätere Schritt mit
+   x = 0 kontrolliert wird. Quadratische Ergänzung bleibt im Bestand
+   (k1-s11), nicht auf dem Blatt: Die P10 zeigt den Scheitel stets am
+   Graphen.
 4. Nullstellen und Schnittpunkte (Lerneinheit 4) | Zuletzt, weil es
    Scheitelpunkt- und Normalform und das Lösen quadratischer Gleichungen
    (quadratische-gleichungen.md) voraussetzt; die Stern-Aufgaben der P10.
@@ -221,6 +229,26 @@ Tisch: Trage bei jeder Parabel zuerst den Scheitel ein.
 | L2-C | Was der Scheitel verrät | Scheitel und Öffnung sagen dir ohne Rechnung, wie die Parabel liegt: ob sie die $x$-Achse schneidet (\textbf{Nullstellen}) und wo sie steigt oder fällt. Am Scheitel kehrt sie um. | Nullstellen, nach oben geöffnet: $e < 0$ zwei, $e = 0$ eine, $e > 0$ keine\par Nullstellen, nach unten geöffnet: $e > 0$ zwei, $e = 0$ eine, $e < 0$ keine\par {\small Steigen und fallen: Die Grenze ist $x = d$, der $x$-Wert des Scheitels.} | quadratische-funktionen-e2-k1-s5-v4 | quadratische-funktionen-e2-k1-s11-v4, quadratische-funktionen-e2-k1-s5-v5, quadratische-funktionen-e2-k2-s3-v4, quadratische-funktionen-e2-k1-s12-v4, quadratische-funktionen-e2-k1-s12-v5 | quadratische-funktionen-e2-k1-s11-v5, quadratische-funktionen-e2-k1-s11-v6, quadratische-funktionen-e2-k1-s5-v6, quadratische-funktionen-e2-k1-s12-v6, quadratische-funktionen-e2-k1-s12-v7 |
 | L2-D | Verschieben und spiegeln | Wird eine Parabel verschoben oder gespiegelt, verfolgst du den Scheitel: Wohin wandert er? Dreht sich die Öffnung? Dann stellst du die neue Gleichung auf wie in B. | {\small nach rechts um 3: $d + 3$ \quad nach links um 3: $d - 3$ \quad nach oben um 2: $e + 2$ \quad nach unten um 2: $e - 2$}\par an der $x$-Achse: $S(d{\vert}e) \to S(d{\vert}{-e})$, die Öffnung dreht sich\par an der $y$-Achse: $S(d{\vert}e) \to S(-d{\vert}e)$, die Öffnung bleibt | quadratische-funktionen-e2-k1-s9-v4 | quadratische-funktionen-e2-k1-s8-v4, quadratische-funktionen-e2-k1-s9-v5, quadratische-funktionen-e2-k1-s17-v3, quadratische-funktionen-e2-k1-s16-v3, quadratische-funktionen-e2-k1-s18-v3 | quadratische-funktionen-e2-k1-s8-v5, quadratische-funktionen-e2-k1-s8-v6, quadratische-funktionen-e2-k1-s10-v4, quadratische-funktionen-e2-k1-s16-v4, quadratische-funktionen-e2-k1-s18-v4 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | quadratische-funktionen-e2-k1-s2-v7, quadratische-funktionen-e2-k1-s7-v9, quadratische-funktionen-e2-k1-s4-v6, quadratische-funktionen-e2-k1-s15-v4, quadratische-funktionen-e2-k1-s12-v8, quadratische-funktionen-e2-k2-s4-v8 | quadratische-funktionen-e2-k1-s2-v8, quadratische-funktionen-e2-k1-s15-v5, quadratische-funktionen-e2-k2-s4-v9 |
+
+#### Lerneinheit 3 – Normalform (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 7P7 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Normalform als Behauptung nachweisen (2017-OS-K5d); Scheitel einer Normalform-Parabel am Graphen ablesen und die Scheitelpunktform notieren (2018-OS-K5b/c, 2025-OS-K5b); Aussagen zur Parabel beurteilen (2018-OS-K5a); Paare aus Scheitelpunkt- und Normalform vergleichen; Parabel zu Eigenschaften in der Normalform (nach 2018-OS-K5d)
+Blatt: Klasse 9 · Vorher: Scheitelpunktform · Weiter: Nullstellen und Schnittpunkte
+Titel: Quadratische Funktionen: Normalform
+Formel: Scheitelpunktform $f(x) = (x - d)^2 + e$ \qquad Normalform $f(x) = x^2 + px + q$
+In Worten: Beide Formen beschreiben dieselbe Parabel. In diesem Heft lernst du, was die Normalform zeigt und wie du von einer Form zur anderen kommst.
+Fehler: $(x - 4)^2 = x^2 - 16$ gerechnet. Richtig: $(x - 4)^2 = x^2 - 8x + 16$, das Mittelglied nicht vergessen.
+Fehler: Den Schnittpunkt mit der $y$-Achse als $(q|0)$ geschrieben. Erst kommt der $x$-Wert: $(0|q)$.
+Tisch: Löse jede Klammer mit der binomischen Formel auf, mit Mittelglied.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Normalform lesen und einsetzen | In der \textbf{Normalform} $f(x) = x^2 + px + q$ steht keine Klammer. Setzt du $x = 0$ ein, bleibt nur $q$: Die Parabel schneidet die $y$-Achse im Punkt $(0{\vert}q)$. | $f(x) = x^2 + px + q$ \qquad $f(0) = q$ \qquad Schnittpunkt mit der $y$-Achse: $(0{\vert}q)$\par {\small Negatives $x$ in Klammern einsetzen: $f(-2) = (-2)^2 + p \cdot (-2) + q$. Punktprobe: Kommt der $y$-Wert heraus, liegt der Punkt auf der Parabel. Fehlt $p$: einen Punkt einsetzen und nach $p$ auflösen.} | quadratische-funktionen-e3-k1-s2-v4 | quadratische-funktionen-e3-k1-s1-v6, quadratische-funktionen-e3-k1-s2-v5, quadratische-funktionen-e3-k1-s2-v6, quadratische-funktionen-e3-k1-s2-v7 | quadratische-funktionen-e3-k1-s1-v7, quadratische-funktionen-e3-k1-s2-v8, quadratische-funktionen-e3-k1-s2-v9, quadratische-funktionen-e3-k1-s2-v10 |
+| L3-B | Von der Scheitelpunktform zur Normalform | Jede Scheitelpunktform kannst du in die Normalform bringen: Klammer mit der \textbf{binomischen Formel} auflösen, dann die Zahlen zusammenfassen. | $(x - b)^2 = x^2 - 2 \cdot b \cdot x + b^2$ \qquad $(x + b)^2 = x^2 + 2 \cdot b \cdot x + b^2$\par {\small „Stimmt die Gleichung?“: die Seite mit der Klammer ausmultiplizieren und mit der anderen Seite vergleichen.} | quadratische-funktionen-e3-k1-s3-v4 | quadratische-funktionen-e3-k1-s3-v5, quadratische-funktionen-e3-k1-s4-v4, quadratische-funktionen-e3-k1-s5-v4, quadratische-funktionen-e3-k1-s5-v5 | quadratische-funktionen-e3-k1-s3-v6, quadratische-funktionen-e3-k1-s3-v7, quadratische-funktionen-e3-k1-s4-v5, quadratische-funktionen-e3-k1-s5-v6, quadratische-funktionen-e3-k1-s5-v7 |
+| L3-C | Scheitelpunktform aus dem Graphen | In der Normalform siehst du den Scheitel nicht. Du liest ihn am Graphen ab und setzt ihn in die Scheitelpunktform ein. | Scheitel $S(d{\vert}e)$ ablesen \quad$\Rightarrow$\quad $f(x) = (x - d)^2 + e$\par {\small Probe: $x = 0$ in die Scheitelpunktform einsetzen; es muss $q$ herauskommen.} | quadratische-funktionen-e3-k1-s7-v4 | quadratische-funktionen-e3-k1-s7-v5, quadratische-funktionen-e3-k1-s7-v6, quadratische-funktionen-e3-k1-s7-v7 | quadratische-funktionen-e3-k1-s6-v4, quadratische-funktionen-e3-k1-s7-v8, quadratische-funktionen-e3-k1-s7-v9 |
+| L3-D | Die passende Form wählen | Jede Form zeigt etwas anderes: die Scheitelpunktform den Scheitel und die Verschiebung, die Normalform den Schnittpunkt mit der $y$-Achse. Für eine Aussage nimmst du die Form, in der du es sofort siehst. | $f(x) = (x - d)^2 + e$: Scheitel $S(d{\vert}e)$, $d$ nach rechts, $e$ nach oben\par $f(x) = x^2 + px + q$: $(0{\vert}q)$ auf der $y$-Achse\par {\small Dieselbe Parabel? Erst $q$ vergleichen; sind beide gleich, ausmultiplizieren.} | quadratische-funktionen-e3-k1-s8-v4 | quadratische-funktionen-e3-k1-s8-v5, quadratische-funktionen-e3-k1-s10-v4, quadratische-funktionen-e3-k1-s10-v5, quadratische-funktionen-e3-k1-s10-v6 | quadratische-funktionen-e3-k1-s10-v7, quadratische-funktionen-e3-k1-s10-v8, quadratische-funktionen-e3-k1-s8-v6, quadratische-funktionen-e3-k1-s10-v9, quadratische-funktionen-e3-k1-s10-v10 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | quadratische-funktionen-e3-k1-s2-v11, quadratische-funktionen-e3-k1-s3-v8, quadratische-funktionen-e3-k1-s7-v10, quadratische-funktionen-e3-k1-s5-v8, quadratische-funktionen-e3-k1-s10-v11, quadratische-funktionen-e3-k1-s9-v4 | quadratische-funktionen-e3-k1-s7-v11, quadratische-funktionen-e3-k1-s5-v9, quadratische-funktionen-e3-k1-s9-v5 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen oben; Gewicht je Einheit: Kern oder Rand mit Halbsatz, sonst keine Marke (Regel 02.10.2026 abends).
