@@ -184,12 +184,12 @@ Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlan
 
 
 #### Lerneinheit 3 – Baumdiagramm und Pfadregeln (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung 6KD · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung 6KD · Kritiker: erledigt (Nachbesserung 10.10.: Weg in Lösung T5; B3 Baum mit drei Ästen; Formelkasten mit „mindestens einmal“; Beispiel D mit mindestens zweimal Rot; Lösungen auf zwei Seiten) · Lehrer: –
 Form: abschnitte
 Ziel: dreistufiger Baum, P(mindestens zwei Sechsen) (2020-OS-K6c); Baum zweier Würfel ergänzen, P(beide ungerade) (2026-FOR-K6b); „nicht zweimal gerade“ (2026-FOR-K6c); zwei Scheiben zu P(13) = 25 % belegen (2025-OS-K3d); P(12 oder 21) (2025-OS-K3c)
 Blatt: Klasse 9 · Vorher: Wahrscheinlichkeit einstufig · Weiter: Ohne Zurücklegen
 Titel: Baumdiagramm und Pfadregeln
-Formel: Pfad: mal \qquad mehrere Pfade: plus
+Formel: Pfad: mal \qquad mehrere Pfade: plus \\ mindestens einmal: Gegenteil rechnen, von 1 abziehen
 Vorgehen: Baum zeichnen, an jeden Ast seine Wahrscheinlichkeit; die Pfade suchen, die zum Ereignis gehören; je Pfad multiplizieren; die Pfade addieren
 Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlangt ist (eine Stelle nach dem Komma).
 
