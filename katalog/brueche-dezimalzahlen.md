@@ -143,8 +143,8 @@ Zielmarke: Einheit 1 – den markierten Anteil eines in ungleich große Sektoren
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
 
 ### Thema-Weg
-Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung QG4); wird mit
-jedem weiteren Bau geprüft.
+Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung QG4); geprüft
+beim Bau von Lerneinheit 2 (A5D); wird mit jedem weiteren Bau geprüft.
 
 Folge | Grund für die Stelle:
 1. Bruch als Anteil (Lerneinheit 1) | Ablesen, Einzeichnen, ungleiche
@@ -155,7 +155,10 @@ Folge | Grund für die Stelle:
    Umrechnen selbst ist prozentrechnung.md).
 2. Kürzen und Erweitern (Lerneinheit 2) | Setzt das Zählen gleich großer
    Teile voraus (Verfeinern = Erweitern); braucht die P10 nur als
-   Nebenleistung (9/15 = 3/5).
+   Nebenleistung (9/15 = 3/5). Bau A5D: Streifen → vollständig kürzen
+   → auf einen Nenner (auch 100, dann Prozent – die P10 fragt „kürzen,
+   dann Prozent“) → gemischte Zahl und Bruch als Geteilt-Aufgabe. Das
+   Gleichnamigmachen steht hier, nicht erst in 3, weil 3 es nur anwendet.
 3. Brüche vergleichen (Lerneinheit 3) | Braucht Gleichnamigmachen aus 2;
    Zielmarke 2014-OS-B1c (Zahl zwischen zwei Brüchen).
 4. Dezimalzahlen (Lerneinheit 4) | Zehnerbrüche setzen Erweitern (2) und
@@ -198,3 +201,24 @@ Tisch: Taschenrechner nur bei Kommazahlen; die Brüche bleiben, wie sie abgelese
 | L1-D | Bruchteil einer Zahl oder Größe berechnen | Den Bruchteil einer Zahl oder Größe rechnest du in zwei Schritten: erst durch den Nenner (das ist ein Teil), dann mal Zähler (so viele Teile). Fragt die Aufgabe, wie viel \emph{fehlt} oder \emph{übrig} ist, zieh am Ende vom Ganzen ab. | $\dfrac{Z}{N}$ von $G$: \ $G : N \cdot Z$ \qquad Rest $= G - \text{Bruchteil}$ \par {\small Bei Komma und Einheit: erst in die kleinere Einheit (1\,kg = 1000\,g, 1\,km = 1000\,m), wenn es dann glatter wird.} | brueche-dezimalzahlen-e1-k2-s5-v4 | brueche-dezimalzahlen-e1-k2-s3-v4, brueche-dezimalzahlen-e1-k2-s5-v5, brueche-dezimalzahlen-e1-k2-s4-v4, brueche-dezimalzahlen-e1-k2-s5-v6, brueche-dezimalzahlen-e1-k2-s6-v5 | brueche-dezimalzahlen-e1-k2-s1-v6, brueche-dezimalzahlen-e1-k2-s3-v5, brueche-dezimalzahlen-e1-k2-s5-v7, brueche-dezimalzahlen-e1-k2-s4-v5, brueche-dezimalzahlen-e1-k2-s5-v8, brueche-dezimalzahlen-e1-k2-s6-v6 |
 | L1-E | Anteil in Prozent | Prozent heißt Hundertstel: $25\,\% = \frac{25}{100}$. Bei Figuren übersetzt du Prozent in einen Merkbruch und rechnest wie in B. Umgekehrt: Teile die Figur in Hälften, Viertel oder Fünftel und sieh nach, wie viele davon grau sind. | $50\,\% = \frac{1}{2}$ \quad $25\,\% = \frac{1}{4}$ \quad $20\,\% = \frac{1}{5}$ \quad $10\,\% = \frac{1}{10}$ \quad $75\,\% = \frac{3}{4}$ \qquad {\small Ein Viertel der Figur: alle Kästchen $: 4$.} | brueche-dezimalzahlen-e1-k1-s6-v25 | brueche-dezimalzahlen-e1-k1-s6-v26, brueche-dezimalzahlen-e1-k1-s6-v27, brueche-dezimalzahlen-e1-k1-s6-v28, brueche-dezimalzahlen-e1-k1-s6-v29, brueche-dezimalzahlen-e1-k1-s6-v30 | brueche-dezimalzahlen-e1-k1-s6-v31, brueche-dezimalzahlen-e1-k1-s6-v32, brueche-dezimalzahlen-e1-k1-s6-v33, brueche-dezimalzahlen-e1-k1-s6-v34, brueche-dezimalzahlen-e1-k1-s6-v35 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e1-k1-s6-v36, brueche-dezimalzahlen-e1-k1-s6-v37, brueche-dezimalzahlen-e1-k1-s6-v38, brueche-dezimalzahlen-e1-k2-s6-v7, brueche-dezimalzahlen-e1-k2-s6-v8, brueche-dezimalzahlen-e1-k2-s6-v9 | brueche-dezimalzahlen-e1-k1-s6-v39, brueche-dezimalzahlen-e1-k1-s6-v40, brueche-dezimalzahlen-e1-k2-s6-v10, brueche-dezimalzahlen-e1-k2-s6-v11, brueche-dezimalzahlen-e1-k2-s6-v12 |
+
+#### Lerneinheit 2 – Kürzen und Erweitern (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung A5D · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog)
+Form: abschnitte
+Ziel: Anteil einer Kästchenfigur vollständig gekürzt und in Prozent (P10-Form 2014-OS-B1i, Niveau I, Kürzen als Nebenleistung); Anteile aus Sachen durch Kürzen und Gleichnamigmachen beurteilen (gleich viel? hat er recht? wer trifft besser? wer bekommt die Urkunde?); Geteilt-Aufgabe als gemischte Zahl
+Blatt: Klasse 6 · Vorher: Bruch als Anteil · Weiter: Brüche vergleichen
+Titel: Brüche: kürzen und erweitern
+Formel: $\dfrac{Z}{N} = \dfrac{Z \cdot k}{N \cdot k}$ \qquad $\dfrac{Z}{N} = \dfrac{Z : k}{N : k}$ \qquad $\dfrac{Z}{N} = Z : N$
+In Worten: Zähler und Nenner mit derselben Zahl malnehmen (erweitern) oder durch dieselbe Zahl teilen (kürzen): Der Bruch bleibt gleich groß.
+Fehler: Nur den Zähler erweitert: $\dfrac{3}{8}$ mit 2 ist $\dfrac{6}{16}$, nicht $\dfrac{6}{8}$.
+Fehler: Mit einer Zahl gekürzt, die nur oben oder nur unten teilt: $\dfrac{9}{20}$ lässt sich nicht durch 3 kürzen, denn 20 steht nicht in der Dreierreihe.
+Fehler: Gemischte Zahl falsch zurückgerechnet: $2\dfrac{3}{4}$ ist weder $\dfrac{23}{4}$ noch $\dfrac{6}{4}$, sondern $\dfrac{2 \cdot 4 + 3}{4} = \dfrac{11}{4}$.
+Tisch: Ohne Taschenrechner; Teiler und Einmaleins im Kopf.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Erweitern und kürzen | Teilst du jedes Teil eines Streifens in gleich viele Stücke, werden Zähler und Nenner mit derselben Zahl malgenommen – die graue Fläche bleibt gleich groß. Das heißt \textbf{erweitern}; rückwärts gelesen heißt es \textbf{kürzen}. | erweitern: $\dfrac{Z}{N} = \dfrac{Z \cdot k}{N \cdot k}$ \qquad kürzen: $\dfrac{Z}{N} = \dfrac{Z : k}{N : k}$ \qquad $k$ = neuer Nenner $:$ alter Nenner | brueche-dezimalzahlen-e2-k2-s1-v4 | brueche-dezimalzahlen-e2-k2-s1-v5, brueche-dezimalzahlen-e2-k1-s0-v5, brueche-dezimalzahlen-e2-k1-s1-v6, brueche-dezimalzahlen-e2-k1-s2-v4, brueche-dezimalzahlen-e2-k4-s3-v4 | brueche-dezimalzahlen-e2-k2-s1-v6, brueche-dezimalzahlen-e2-k1-s1-v7, brueche-dezimalzahlen-e2-k1-s2-v5, brueche-dezimalzahlen-e2-k1-s0-v6, brueche-dezimalzahlen-e2-k4-s3-v5 |
+| L2-B | Vollständig kürzen | Vollständig gekürzt ist ein Bruch, wenn keine Zahl außer 1 Zähler und Nenner zugleich teilt. Kürze in kleinen Schritten oder gleich mit der größten Zahl, die beide teilt. | Teilt 2, 3, 5 oder 7 Zähler und Nenner? Dann kürzen. \par {\small Bruchteil einer Größe: erst beides in dieselbe Einheit, z.\,B. 1\,h $= 60$\,min.} | brueche-dezimalzahlen-e2-k1-s3-v4 | brueche-dezimalzahlen-e2-k1-s3-v5, brueche-dezimalzahlen-e2-k1-s3-v6, brueche-dezimalzahlen-e2-k1-s3-v7, brueche-dezimalzahlen-e2-k4-s4-v4, brueche-dezimalzahlen-e2-k1-s3-v8 | brueche-dezimalzahlen-e2-k1-s3-v9, brueche-dezimalzahlen-e2-k1-s3-v10, brueche-dezimalzahlen-e2-k1-s3-v11, brueche-dezimalzahlen-e2-k4-s4-v5, brueche-dezimalzahlen-e2-k1-s3-v12 |
+| L2-C | Auf einen gemeinsamen Nenner bringen | Für einen bestimmten Nenner rechnest du zuerst aus, mit welcher Zahl du erweitern musst. Zwei Brüche macht man \textbf{gleichnamig}, indem man beide auf denselben Nenner erweitert. | gemeinsamer Nenner: eine Zahl, die in beiden Einmaleins-Reihen steht \par {\small Es geht immer: Nenner mal Nenner.} | brueche-dezimalzahlen-e2-k1-s6-v4 | brueche-dezimalzahlen-e2-k1-s4-v4, brueche-dezimalzahlen-e2-k1-s4-v5, brueche-dezimalzahlen-e2-k1-s5-v4, brueche-dezimalzahlen-e2-k1-s6-v5, brueche-dezimalzahlen-e2-k1-s4-v6 | brueche-dezimalzahlen-e2-k1-s4-v7, brueche-dezimalzahlen-e2-k1-s4-v8, brueche-dezimalzahlen-e2-k1-s5-v5, brueche-dezimalzahlen-e2-k1-s6-v6, brueche-dezimalzahlen-e2-k1-s4-v9 |
+| L2-D | Brüche größer als 1: gemischte Zahlen | Ist der Zähler größer als der Nenner, ist der Bruch mehr als ein Ganzes. Der Bruchstrich ist ein Geteilt-Zeichen: Zähler $:$ Nenner ergibt die Ganzen, der Rest bleibt als Bruch stehen. | $\dfrac{Z}{N} = Z : N$ \qquad zurück: $G\dfrac{z}{N} = \dfrac{G \cdot N + z}{N}$ | brueche-dezimalzahlen-e2-k1-s7-v4 | brueche-dezimalzahlen-e2-k1-s7-v5, brueche-dezimalzahlen-e2-k1-s7-v6, brueche-dezimalzahlen-e2-k3-s1-v4, brueche-dezimalzahlen-e2-k4-s4-v6, brueche-dezimalzahlen-e2-k3-s1-v5 | brueche-dezimalzahlen-e2-k1-s7-v7, brueche-dezimalzahlen-e2-k1-s7-v8, brueche-dezimalzahlen-e2-k3-s1-v6, brueche-dezimalzahlen-e2-k4-s4-v7, brueche-dezimalzahlen-e2-k3-s1-v7 |
+| L2-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e2-k1-s4-v10, brueche-dezimalzahlen-e2-k1-s3-v13, brueche-dezimalzahlen-e2-k1-s6-v7, brueche-dezimalzahlen-e2-k1-s7-v9, brueche-dezimalzahlen-e2-k1-s8-v3, brueche-dezimalzahlen-e2-k1-s5-v6 | brueche-dezimalzahlen-e2-k1-s8-v4, brueche-dezimalzahlen-e2-k1-s5-v7 |
