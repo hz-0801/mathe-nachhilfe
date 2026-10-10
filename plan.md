@@ -348,6 +348,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   zwei abgelösten Dateien (Lehrer: „j“); volles Ordnen nach § 9;
   Schritt 4 = erster Bau nach pruefung.md.
 
+- 11.10.2026: Stichprobe P4Z (erster Bau nach pruefung.md, Lehrer:
+  „gut zusammengestellt, die Bereiche passen“). Acht Festlegungen
+  zur Blattform (Lehrer 11.10.): Stufenkopf mit Jahren statt Zählung;
+  Kennung oben rechts; Teilaufgabe mit Skizze als eigene Zeile;
+  Bank-Einstieg knapp, echte Aufgabe steht für sich; Buchstaben vor
+  Ankreuzoptionen; Marke mit Fundstelle; Fundstellentabelle (Jahre
+  ab 2026) statt Liste; Vorher nur, wenn bestellbar. Dazu Lernfolge
+  je Kapitel (pruefung.md § 2), Dreiecke: Winkel vor Sinussatz.
+  Messwert Bau P4Z: Agent 0,23 Mio Token, 8 min; Woche 78 → 79 %,
+  Fable 42 → 44 % (mit Chat und Nacharbeit).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
@@ -388,7 +399,12 @@ Prüfung
   nur für Lücken → P
 - 07.10. GYM-Hefte sind keine P10; GYM nur bei Lücke, Marke
   „GYM ’xx“ → P
-- 04.10. Fundstellen-Liste am Blattende → P
+- 04.10./11.10. Fundstellentabelle am Blattende, Marke mit
+  Fundstelle → P
+- 11.10. Stufenkopf mit Jahren; Lernfolge je Kapitel; Vorher nur,
+  wenn bestellbar → P, G
+- 11.10. Kennung oben rechts; Buchstaben vor Ankreuzoptionen;
+  Teilaufgabe mit Skizze eigene Zeile; Einstieg knapp → G
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders

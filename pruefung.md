@@ -38,15 +38,25 @@ Gliederungsdateien).
   letzter Knopf, jeder Abschnitt auf neuer Seite“ (04.10.) und „Blatt =
   Lerneinheit“ (07./08.10.).
 - Die Übersicht vorn folgt diesen Einheiten (plan.md Linie 4).
+- **Lernfolge** (Lehrer 11.10.): Die Reihenfolge der Einheiten je
+  Kapitel unten ist die Lernfolge – wer eine Einheit braucht, steht
+  dahinter. Vor dem ersten Bau eines Kapitels wird sie an den
+  Stolpersteinen geprüft und umgestellt, wo eine Abhängigkeit dagegen
+  spricht. Das Prüfungsheft des Kapitels folgt ihr; auf dem Blatt
+  ist „Weiter“ die nächste Einheit der Folge, „Vorher“ nur die
+  Einheit, von der eine Abhängigkeit besteht, sonst leer; über die
+  Sorte hinaus („lernst du in …“) nur mit Kennung eines gebauten
+  Lernblatts. Dreiecke geprüft 11.10.: Winkel ohne Rechnung vor den
+  Sinussatz gezogen.
 
 Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
 
 - Geometrie
   - Dreiecke: Länge mit Pythagoras (9 · 4) · Seite oder Winkel mit
     sin, cos, tan (7 · 5; Schlussstufe „erst entscheiden, dann
-    rechnen“ aus Nebenplätzen) · Seite im allgemeinen Dreieck,
-    Sinussatz (2 · 2) · Winkel ohne Rechnung bestimmen oder begründen
-    (7 · 4) · Symmetrie (2 · 2)
+    rechnen“ aus Nebenplätzen) · Winkel ohne Rechnung bestimmen oder
+    begründen (7 · 4) · Seite im allgemeinen Dreieck, Sinussatz
+    (2 · 2) · Symmetrie (2 · 2)
   - Flächen: Flächeninhalt und Umfang (12 · 5)
   - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild
     (3 · 3)
@@ -236,24 +246,34 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   letzten fünf Prüfungen). Die Länge bleibt Richtwert: würde das Blatt
   deutlich länger als die übrigen des Kapitels, fällt die zusätzliche
   zuerst weg; keine feste Seitenzahl. Der Rest steht in der
-  Fundstellenliste und kommt mit „mehr“ zuerst.
+  Fundstellentabelle und kommt mit „mehr“ zuerst. Sorte heißt
+  Erscheinungsform: Gleichung ankreuzen und Satz in Worten ankreuzen
+  sind zwei Sorten (Befund P4Z, 11.10.).
 - **Prüfstein** (fest 04.10., 06.10.; Lehrer 10.10.: einmal je
   Kapitel, nicht auf jedem Blatt): am Ende des Prüfungshefts eines
   Kapitels eine ganze echte Aufgabe aus den letzten fünf Jahren, alle
   Teilaufgaben in Folge wie im Heft, eigener Wortlaut, Punkte, ohne
   Überschriften, ohne Hilfen, ohne laufende Nummer. Nicht auf dem
   einzelnen Blatt. Abitur: Prüfstein je Gebiet (offen).
-- **Stufenkopf** (06.10.): Überschrift = Stufenname, dahinter grau
-  „in 3 der letzten 5 Prüfungen“, sonst „selten geprüft“ (Abitur:
-  letzte fünf BB-Jahrgänge).
-- **Marke** grau links: „P10 ’24“ nur bei voller echter Aufgabe,
-  „nach P10 ’24“ bei gekürzten und herausgelösten, fremde „BY ’23“,
-  „VERA ’24“, „GYM ’23“; eigene ohne Marke.
+- **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.):
+  Überschrift = Stufenname, dahinter grau die Prüfungsjahre der Stufe
+  aus den letzten fünf, jüngstes zuerst: „geprüft 2026 · 2024 · 2022“;
+  ohne Jahr „nicht geprüft“ (Abitur: letzte fünf BB-Jahrgänge).
+  Gezählt werden Hauptplätze. Die Zahl der Jahre und die Zahl der
+  echten Aufgaben auf dem Blatt sind unabhängig.
+- **Marke** grau links, mit Fundstelle (Lehrer 11.10.): „P10 ’24 · 6a“
+  nur bei voller echter Aufgabe, „nach P10 ’24 · 6a“ bei gekürzten und
+  herausgelösten, fremde „BY ’23 · 2b“, „VERA ’24“, „GYM ’23 · 3b“;
+  eigene ohne Marke.
 - **Punkte** nur beim Prüfstein (06.10.).
-- **Fundstellenliste** (04./09.10.): am Ende des Blatts klein über der
-  Zeile Vorgänger/Nachfolger die Originale (Jahr · Aufgabe ·
-  Teilaufgabe), auch die, die nicht aufs Blatt kamen, damit der Schüler
-  im Stark-Heft Original und Lösung findet.
+- **Fundstellentabelle** (04./09.10.; Tabelle statt Liste Lehrer
+  11.10.): am Ende des Blatts klein über der Zeile Vorher/Weiter zwei
+  Zeilen: oben die Jahre 2026 … 2016 (jüngstes links; 2026 als
+  „26 FOR“ und „26 EBR“, wenn verschieden), darunter je Jahr die
+  Stellen (Aufgabe + Teilaufgabe, „4a 2c“), leer, wo nichts dran kam –
+  alle Originale der Einheit, auch die nicht aufs Blatt kamen, damit
+  der Schüler im Stark-Heft Original und Lösung findet und sieht, wie
+  oft die Einheit dran kommt.
 - **Wortlaut** (04.10.): so nah wie erlaubt – innermathematisch fast
   wörtlich (Term, Zahlen, Operator), Sachaufgaben mit Idee und Zahlen,
   eigener Text; nie Heftseiten, kopierte Abbildungen, längere

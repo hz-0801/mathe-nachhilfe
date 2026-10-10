@@ -64,7 +64,10 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 - Keine Teilnummern. Am Ende jedes Blatts eine Zeile mit Vorgänger und
   empfohlenem Nachfolger; beim ersten Blatt eines Themas ist der
   Vorgänger die Voraussetzung aus dem Katalog, beim letzten der
-  Nachfolger das nächste Thema (08.10.).
+  Nachfolger das nächste Thema (08.10.). Genannt wird nur, was
+  bestellbar ist – ein Blatt der Sorte oder ein gebautes Lernblatt
+  mit Kennung; sonst entfällt „Vorher“ (Lehrer 11.10.; Prüfung:
+  pruefung.md „Lernfolge“).
 - Die Kennung gehört zum gedruckten Blatt; ein Neubau bekommt eine neue.
 
 ## Zweck
@@ -137,11 +140,12 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 ## Satz
 
 - Kopf: Name des Blatts, daneben klein das Niveau („P10“, „Abitur GK“,
-  „Klasse 8“); keine Blattart, kein Datum, keine Namenszeile, keine
+  „Klasse 8“); rechts außen die Kennung klein und grau (Lehrer 11.10.,
+  vorher im Fuß); keine Blattart, kein Datum, keine Namenszeile, keine
   laufende Titelzeile, kein Inhaltsverzeichnis.
 - Fuß jeder Seite: Seitenzahl; kopfüber und klein nur die Ergebnisse
   der Seite (kein Rechenweg, kein Tipp; Ausnahme Lösung der
-  Abrufaufgabe); Kennung klein und grau; Herkunft links.
+  Abrufaufgabe); Herkunft links.
 - Kennung: drei Zeichen aus 2–9 und A–Z ohne I und O, gegen das
   Register eindeutig.
 - Marke grau im linken Rand auf der Grundlinie der Nummer (Formen in
@@ -153,9 +157,10 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   die Skizze breiter als die linke Spalte ist. Skizze vor den
   Antwortmöglichkeiten.
 - Ankreuzen nur bei einer echten Entscheidung, höchstens vier
-  Optionen: Frage, dann Kästchen; kurze Optionen (zusammen höchstens
-  120 Zeichen) in einer Zeile, sonst untereinander. Wo gerechnet wird,
-  steht eine Lücke.
+  Optionen: Frage, dann Kästchen; vor jeder Option ein Großbuchstabe
+  A, B, C, D, die Lösung nennt den Buchstaben (Lehrer 11.10.; wie das
+  P10-Heft); kurze Optionen (zusammen höchstens 120 Zeichen) in einer
+  Zeile, sonst untereinander. Wo gerechnet wird, steht eine Lücke.
 - Antwortfeld: kurze Antwort rechts in derselben Zeile. Keine
   vorgegebene Ergebnisform, die einen Schritt erspart (kein
   „c² = ___ , c = ___“). Rechenraum nur bei Rechen- und
@@ -172,6 +177,14 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   die nächste Seite.
 - Ein Satz zum Auftrag je Aufgabe; gilt er für alle Teilaufgaben,
   einmal unter der Nummer; Teilaufgaben beginnen mit dem Prüfungsverb.
+  Im Bank-Einstieg unter einem gemeinsamen Auftrag genügen die
+  Angaben („a) Katheten 36 cm und 15 cm“); eine echte Aufgabe steht
+  immer für sich, denn der Stufenkopf ist Wegweiser, kein Aufgabentext
+  (Lehrer 11.10.).
+- Teilaufgaben mit Skizze: jede Teilaufgabe eine Zeile – links
+  Buchstabe, Text und darunter ihre Skizze, rechts ihr Karo; nie die
+  Skizze der einen unter dem Text der anderen (Lehrer 11.10., Befund
+  P4Z Nr. 4).
 - Nebeneinander stehende Teile richten sich an gemeinsamen Linien aus.
 - Keine Hilfsmittel auf dem Zettel (03.–08.10.).
 
