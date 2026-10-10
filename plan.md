@@ -208,7 +208,8 @@ vollständig, dann ordnen, dann bauen.
    hier, Widerspruchsliste a). Restliche Widersprüche einzeln mit dem
    Lehrer klären, Geltendes mit Datum in plan.md tragen. Erledigt 10.10.:
    Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9.
-2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus),
+2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus);
+   am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9);
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
 3. Dann Bestand ordnen (welche Dateien gelten, Rest ins Archiv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
@@ -240,7 +241,7 @@ Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
 ## 9 Später
 
-Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Offen: etwa 10 Zeilen, und nicht jeder Eintrag ist eine Lerneinheit – Form noch nicht ausdiskutiert.
+Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
@@ -293,3 +294,4 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 10.10.2026 (f): Linie 5 neu: eine Datei je Sorte plus eine gemeinsame;
   zuerst Prüfung, Allgemein nach P10 (Lehrer).
 - 10.10.2026 (g): § 8 Fable-Kontingent aufbrauchen (Lehrer).
+- 10.10.2026 (h): Einheiten zuerst durchgeplant, Übersicht folgt (Lehrer).
