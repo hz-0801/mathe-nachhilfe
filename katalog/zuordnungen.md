@@ -111,6 +111,55 @@ Zielmarke: Einheit 1 – ein Koordinatensystem ohne Skala für eine gegebene Wer
 - „Funktionen allgemein“ (typen.csv, sieben Typen) hat keine eigene Datei; Aufteilung auf zuordnungen.md und lineare-funktionen.md wie oben – in index.md nachtragen.
 - Maßstab (zwei P10-Typen) liegt laut Index bei strahlensaetze.md, im RLP aber bei Zuordnungen E und Größen E – entschieden 2026-09-09b: Maßstab ist strahlensaetze.md Einheit 1 (Alternative „Einheit 5 hier“ dort unter den offenen Punkten); Dreisatz, fester Faktor und Verhältnisgleichung bleiben hier in Einheit 2, strahlensaetze.md führt sie auf Blatt 0.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau FA5/E4; E1–E3 sind in
+Abschnittsform noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Zuordnungen darstellen (Lerneinheit 1) | Tabelle, Graph, Worte –
+   die Sprache aller weiteren Einheiten.
+2. Proportionale Zuordnungen und Dreisatz (Lerneinheit 2) | Grundfall
+   „erst durch, dann mal“.
+3. Antiproportionale Zuordnungen (Lerneinheit 3) | Gegenstück „erst
+   mal, dann durch“; braucht den Dreisatz aus 2.
+4. Zuordnungstypen erkennen und anwenden (Lerneinheit 4) | mischt 2 und
+   3 mit „keins von beiden“ (Grundgebühr) und den Rate-Aufgaben der
+   P10. Folge im Bau FA5: Typ an Tabelle und Graph prüfen → Typ am Text
+   erkennen, dann den passenden Dreisatz → Rate mit Einheitenwechsel.
+   Erkennen steht vor dem Rechnen, weil der P10-Fehler der falsche Typ
+   ist, nicht die Rechnung. Der Nullwert-Test ist keine eigene Stufe;
+   die Grundgebühr steckt in A (Ziel) und im Probetest.
+Weiter: lineare-funktionen.md Lerneinheit 1 (Proportionale Funktion).
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` in der Form „abschnitte“; fehlt er, ist die Einheit
+noch nicht gebaut. Steht vor der Prüfliste, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben.
+
+Serie: Vorher: Dreisatz; Koordinaten | Zuordnungen: Zuordnungen darstellen; Proportionale Zuordnungen und Dreisatz; Antiproportionale Zuordnungen; Zuordnungstypen erkennen und anwenden | Weiter: Proportionale Funktion
+
+#### Lerneinheit 4 – Zuordnungstypen erkennen und anwenden (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung FA5 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Kosten aus Menge und Preis (2014-OS-K4c, 2014-OS-K4d, 2024-OS-K2d), Geschwindigkeit aus Weg und Zeit (2015-OS-K4c), Dauer aus Menge und Rate (2014-OS-K2c, 2015-OS-K3c, 2024-OS-K6c), jeweils mit Einheitenwechsel; Dreisatz mit der Falle „antiproportional gerechnet“ (2023-OS-B1a); schwerste Form: Nachweis eines Betrags aus zwei Angaben (2014-OS-K4d)
+Blatt: Klasse 7 · Vorher: Proportionale und antiproportionale Zuordnungen · Weiter: Proportionale Funktion
+Titel: Zuordnungstypen erkennen und anwenden
+Formel: {\normalsize\renewcommand{\arraystretch}{1.25}\begin{tabular}{@{}>{\bfseries}l@{\quad}l@{}}proportional & $y : x$ immer gleich; doppelt $\to$ doppelt; Graph: Gerade durch $(0|0)$\\ antiproportional & $x \cdot y$ immer gleich; doppelt $\to$ halb; Graph: fallende Kurve\\ keins von beiden & weder noch (z.\,B. mit Grundgebühr): kein Dreisatz\\ Rate & Kosten $=$ Menge $\cdot$ Preis je Einheit\\  & Zeit $=$ Weg $:$ Geschwindigkeit \quad (Dauer $=$ Menge $:$ Rate)\\ Einheiten & 1\,h $=$ 60\,min \quad 1\,min $=$ 60\,s \quad 1\,€ $=$ 100\,ct \quad 1\,km $=$ 1000\,m\end{tabular}}
+Vorgehen: Frag dich: Was passiert, wenn sich der eine Wert verdoppelt?; Mit Zahlen prüfen: Quotienten $y : x$ oder Produkte $x \cdot y$; Rechnen: proportional erst durch, dann mal – antiproportional erst mal, dann durch; Einheiten angleichen, Antwort mit Einheit
+Fehler: Mehr Kilometer, also weniger Minuten? Nein: Bei gleichem Tempo dauert der doppelte Weg doppelt so lange (proportional).
+Fehler: Dreisatz trotz Grundgebühr: Kosten 4\,km 12\,€, dann kosten 8\,km nicht 24\,€.
+Fehler: Mal statt geteilt: 900\,m mit 2{,}5\,m/s dauern $900 : 2{,}5$\,s, nicht $900 \cdot 2{,}5$.
+Fehler: Einheit vergessen: 2700\,ct sind 27\,€, nicht 2700\,€.
+Tisch: Schreib bei jeder Rechnung die Einheit dazu.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L4-A | Tabelle und Graph prüfen | Rechne in jeder Spalte $y : x$ und $x \cdot y$. Ist der Quotient immer gleich, ist die Zuordnung \textbf{proportional}; ist das Produkt immer gleich, \textbf{antiproportional}; sonst \textbf{keins von beiden}. | Graph: Gerade durch $(0|0)$ $\to$ proportional; fallende Kurve $\to$ antiproportional; jeder andere Graph $\to$ keins von beiden | zuordnungen-e4-k2-s5-v4 | zuordnungen-e4-k2-s1-v6, zuordnungen-e4-k2-s2-v4, zuordnungen-e4-k2-s5-v5, zuordnungen-e4-k2-s4-v4, zuordnungen-e4-k2-s6-v4 | zuordnungen-e4-k2-s1-v7, zuordnungen-e4-k2-s2-v5, zuordnungen-e4-k2-s5-v6, zuordnungen-e4-k2-s4-v5, zuordnungen-e4-k2-s6-v5 |
+| L4-B | Am Text erkennen, dann rechnen | Ohne Tabelle fragst du: Was passiert, wenn sich der eine Wert verdoppelt? Doppelt $\to$ doppelt heißt proportional, doppelt $\to$ halb heißt antiproportional. Erst dann rechnest du. | proportional: erst durch, dann mal \qquad antiproportional: erst mal (Produkt), dann durch | zuordnungen-e4-k5-s3-v4 | zuordnungen-e4-k5-s3-v5, zuordnungen-e4-k5-s3-v6, zuordnungen-e4-k5-s3-v7, zuordnungen-e4-k5-s3-v8, zuordnungen-e4-k5-s4-v4 | zuordnungen-e4-k5-s3-v9, zuordnungen-e4-k5-s3-v10, zuordnungen-e4-k5-s3-v11, zuordnungen-e4-k5-s3-v12, zuordnungen-e4-k5-s4-v5 |
+| L4-C | Mit der Rate rechnen: Kosten, Tempo, Dauer | Eine Rate ist ein Wert je Einheit: Preis je kWh, Meter je Sekunde, Liter je Minute. Damit rechnest du in einem Schritt. Fragt die Aufgabe nach einer anderen Einheit, rechnest du am Ende um. | Kosten $=$ Menge $\cdot$ Preis je Einheit \qquad Zeit $=$ Weg $:$ Geschwindigkeit\par km/h heißt: km in 1 Stunde (60\,min). | zuordnungen-e4-k3-s5-v9 | zuordnungen-e4-k3-s5-v10, zuordnungen-e4-k3-s6-v7, zuordnungen-e4-k3-s3-v4, zuordnungen-e4-k3-s6-v8, zuordnungen-e4-k5-s4-v6 | zuordnungen-e4-k3-s1-v6, zuordnungen-e4-k3-s5-v11, zuordnungen-e4-k3-s6-v9, zuordnungen-e4-k3-s3-v5, zuordnungen-e4-k3-s6-v10, zuordnungen-e4-k5-s4-v7 |
+| L4-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | zuordnungen-e4-k2-s5-v7, zuordnungen-e4-k5-s3-v13, zuordnungen-e4-k5-s3-v14, zuordnungen-e4-k3-s6-v11, zuordnungen-e4-k5-s4-v8 | zuordnungen-e4-k2-s5-v8, zuordnungen-e4-k5-s3-v15, zuordnungen-e4-k3-s6-v12 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
