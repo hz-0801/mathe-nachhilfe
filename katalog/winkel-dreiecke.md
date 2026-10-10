@@ -135,8 +135,8 @@ Zielmarke: Einheit 1 – den Winkel zwischen zwei Sichtlinien als Differenz zwei
 - Gewicht (Regel 02.10.2026): K fehlt (kein Klasse-9-Eintrag; der Duden 9 hat das Thema nicht); P zählt die Originale der P10 mit Haupttyp der Einheit (Typ hier, Original auch in einer anderen Datei); Einheit 5 hat keinen eigenen Typ; S in Prozent mit zwei Stellen, Einheit 3 liegt genau auf dem Median.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau FP6, Lerneinheit 2; die anderen
-Einheiten sind noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten FP6, Lerneinheit 2, und HDK,
+Lerneinheit 3; die anderen Einheiten sind noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Winkel messen und zeichnen (Lerneinheit 1) | Winkel benennen (α, ∠ASB)
@@ -152,6 +152,11 @@ Folge | Grund für die Stelle:
 3. Winkelsummen, Dreiecke und Vierecke (Lerneinheit 3) | Der Beweis der
    Winkelsumme braucht Wechselwinkel aus 2; Nebenwinkel kommen im
    Teildreieck wieder (Fehler „Nebenwinkel vergessen“).
+   Im Bau HDK: Dreieck → gleichschenklig → Viereck (mit Drachen und
+   Vierecksarten) → Teildreiecke; dort kommen Nebenwinkel aus 2 und
+   gleichschenklig aus 3-B zusammen (rechten Winkel über zweimal $45^\circ$
+   begründen). Der Probetest mischt Nachbarwinkel aus 2 (Trapez, zwei
+   Wege) und den Nebenwinkel außen mit der Winkelsumme.
 4. Dreiecke konstruieren (Lerneinheit 4) | braucht Beschriftung und
    Winkelsumme; aus der P10 nur die Dreiecksungleichung.
 5. Besondere Linien im Dreieck und Satz des Thales (Lerneinheit 5) | setzt
@@ -197,6 +202,29 @@ Tisch: Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen.
 | L2-C | Winkel an Parallelen | Schneidet eine Gerade zwei Parallelen, haben beide Kreuzungen dieselben Winkel. \textbf{Stufenwinkel} liegen an der gleichen Stelle, \textbf{Wechselwinkel} über Kreuz zwischen den Parallelen; beide sind gleich groß. | Stufenwinkel: gleich groß \qquad Wechselwinkel: gleich groß \qquad daneben: $180^\circ$ minus\par {\small Das gilt nur, wenn die Geraden parallel sind (Pfeile in der Skizze).} | winkel-dreiecke-e2-k2-s10-v4 | winkel-dreiecke-e2-k2-s10-v5, winkel-dreiecke-e2-k2-s7-v4, winkel-dreiecke-e2-k2-s7-v5 | winkel-dreiecke-e2-k2-s5-v4, winkel-dreiecke-e2-k2-s6-v4, winkel-dreiecke-e2-k2-s5-v5, winkel-dreiecke-e2-k2-s6-v5, winkel-dreiecke-e2-k2-s7-v6, winkel-dreiecke-e2-k2-s10-v6, winkel-dreiecke-e2-k2-s7-v7 |
 | L2-D | Parallelogramm und Trapez | Zwei Winkel an derselben Seite zwischen zwei parallelen Seiten ergänzen sich zu $180^\circ$. Im Parallelogramm sind gegenüberliegende Winkel gleich groß. | $\alpha + \delta = 180^\circ$, wenn $AB \parallel CD$ \qquad Parallelogramm: \ $\gamma = \alpha$\par {\small Im Trapez ist nur ein Seitenpaar parallel: Rechne nur an den beiden anderen Seiten mit $180^\circ$.} | winkel-dreiecke-e2-k2-s9-v4 | winkel-dreiecke-e2-k2-s9-v5, winkel-dreiecke-e2-k2-s9-v6, winkel-dreiecke-e2-k2-s9-v7, winkel-dreiecke-e2-k2-s9-v8 | winkel-dreiecke-e2-k2-s9-v9, winkel-dreiecke-e2-k2-s9-v10, winkel-dreiecke-e2-k2-s9-v11, winkel-dreiecke-e2-k2-s9-v12, winkel-dreiecke-e2-k2-s9-v13 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen. Etwa 15 Minuten. | – | – | winkel-dreiecke-e2-k2-s9-v14, winkel-dreiecke-e2-k2-s4-v10, winkel-dreiecke-e2-k2-s8-v8, winkel-dreiecke-e2-k2-s11-v5, winkel-dreiecke-e2-k2-s10-v7 | winkel-dreiecke-e2-k2-s9-v15, winkel-dreiecke-e2-k2-s4-v11, winkel-dreiecke-e2-k2-s8-v9, winkel-dreiecke-e2-k2-s11-v6, winkel-dreiecke-e2-k2-s10-v8 |
+
+#### Lerneinheit 3 – Winkelsummen, Dreiecke und Vierecke (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung HDK · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: dritter Winkel mit Dezimalgraden (2017-OS-K4a); gleiche Basiswinkel: Seite und dritter Winkel (2023-OS-B1g); Winkel im Teildreieck an der Höhe (2022-OS-K5c) und über den Nebenwinkel (2018-OS-K4b); Vierecks-Eigenschaft (2026-FOR-B1c); rechten Winkel über zwei Teildreiecke mit $45^\circ$ begründen (2025-OS-K2c, 2023-OS-K7a)
+Blatt: Klasse 7 · Vorher: Winkel an Geradenkreuzungen und Parallelen · Weiter: Dreiecke konstruieren
+Titel: Winkelsummen, Dreiecke und Vierecke
+Formel: Dreieck: zusammen $180^\circ$\par Viereck: zusammen $360^\circ$
+In Worten: Fehlt ein Winkel, ziehst du die bekannten von $180^\circ$ (Dreieck) oder $360^\circ$ (Viereck) ab. Gleich lange Seiten oder eine Symmetrieachse sagen dir, welche Winkel gleich sind.
+Vorgehen: das Dreieck oder Viereck suchen, in dem der gesuchte Winkel liegt; bekannte Winkel sammeln, auch gleiche Winkel und Nebenwinkel; von $180^\circ$ oder $360^\circ$ abziehen; Probe: alle Winkel zusammen
+Bild: winkel-dreiecke-e3-k2-s7-v4
+Fehler: Im Viereck mit $180^\circ$ gerechnet. Ein Viereck hat zusammen $360^\circ$.
+Fehler: Im gleichschenkligen Dreieck den Winkel an der Spitze so groß wie einen Basiswinkel gesetzt ($68^\circ$ statt $44^\circ$).
+Fehler: Im Teildreieck mit einem Winkel des großen Dreiecks gerechnet. Erst das Teildreieck nachfahren, dann rechnen.
+Tisch: Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Winkelsumme im Dreieck | Die drei Winkel eines Dreiecks ergeben zusammen $180^\circ$, egal wie das Dreieck aussieht. | $\alpha + \beta + \gamma = 180^\circ$ \qquad $\gamma = 180^\circ - \alpha - \beta$\par {\small Ein Bogen mit Punkt ist ein rechter Winkel: $90^\circ$.} | winkel-dreiecke-e3-k2-s2-v4 | winkel-dreiecke-e3-k2-s1-v6, winkel-dreiecke-e3-k2-s2-v5, winkel-dreiecke-e3-k2-s5-v4, winkel-dreiecke-e3-k2-s2-v6 | winkel-dreiecke-e3-k2-s1-v7, winkel-dreiecke-e3-k2-s2-v7, winkel-dreiecke-e3-k2-s5-v5, winkel-dreiecke-e3-k2-s2-v8 |
+| L3-B | Gleichschenklige Dreiecke | Im \textbf{gleichschenkligen} Dreieck sind zwei Seiten gleich lang (Striche). Die beiden Winkel an der dritten Seite, die \textbf{Basiswinkel}, sind gleich groß. Umgekehrt: Sind zwei Winkel gleich, sind die Seiten gegenüber gleich lang. | Spitze $= 180^\circ - 2 \cdot$ Basiswinkel \qquad Basiswinkel $= (180^\circ - \text{Spitze}) : 2$\par {\small Gleichseitig (drei gleiche Seiten): jeder Winkel $60^\circ$.} | winkel-dreiecke-e3-k2-s3-v4 | winkel-dreiecke-e3-k2-s3-v5, winkel-dreiecke-e3-k2-s11-v4, winkel-dreiecke-e3-k2-s13-v5, winkel-dreiecke-e3-k2-s11-v5 | winkel-dreiecke-e3-k2-s3-v6, winkel-dreiecke-e3-k2-s11-v6, winkel-dreiecke-e3-k2-s8-v4, winkel-dreiecke-e3-k2-s4-v4, winkel-dreiecke-e3-k2-s11-v7 |
+| L3-C | Winkelsumme im Viereck | Die vier Winkel eines Vierecks ergeben zusammen $360^\circ$: Eine Diagonale teilt es in zwei Dreiecke. Im \textbf{Drachen} sind die beiden Winkel neben der Symmetrieachse gleich groß. | $\alpha + \beta + \gamma + \delta = 360^\circ$\par {\small Trapez: ein Paar paralleler Seiten. Parallelogramm: zwei Paare. Raute: Parallelogramm mit vier gleich langen Seiten. Rechteck: vier rechte Winkel. Drachen: zwei Paare gleich langer Nachbarseiten, Diagonalen senkrecht.} | winkel-dreiecke-e3-k2-s6-v4 | winkel-dreiecke-e3-k2-s6-v5, winkel-dreiecke-e3-k2-s6-v6, winkel-dreiecke-e3-k2-s10-v4, winkel-dreiecke-e3-k2-s6-v7 | winkel-dreiecke-e3-k2-s6-v8, winkel-dreiecke-e3-k2-s6-v9, winkel-dreiecke-e3-k2-s6-v10, winkel-dreiecke-e3-k2-s10-v5, winkel-dreiecke-e3-k2-s6-v11 |
+| L3-D | Winkel in Teildreiecken | Teilt eine Linie (Höhe, Diagonale) die Figur, rechnest du im Teildreieck, in dem der gesuchte Winkel liegt. Wo zwei Teildreiecke auf einer Geraden aneinanderstoßen, ergänzen sich ihre Winkel zu $180^\circ$. | Teildreieck: zusammen $180^\circ$ \qquad auf der Geraden: Nebenwinkel $= 180^\circ -$ Winkel\par {\small Höhe: Bei ihrem Fußpunkt sind beide Winkel $90^\circ$.} | winkel-dreiecke-e3-k2-s7-v4 | winkel-dreiecke-e3-k2-s7-v5, winkel-dreiecke-e3-k2-s7-v6, winkel-dreiecke-e3-k2-s9-v4, winkel-dreiecke-e3-k2-s9-v5 | winkel-dreiecke-e3-k2-s7-v7, winkel-dreiecke-e3-k2-s7-v8, winkel-dreiecke-e3-k2-s7-v9, winkel-dreiecke-e3-k2-s9-v6, winkel-dreiecke-e3-k2-s9-v7 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen. Etwa 15 Minuten. | – | – | winkel-dreiecke-e3-k2-s2-v9, winkel-dreiecke-e3-k2-s12-v4, winkel-dreiecke-e3-k2-s12-v5, winkel-dreiecke-e3-k2-s10-v6, winkel-dreiecke-e3-k2-s12-v6 | winkel-dreiecke-e3-k2-s2-v10, winkel-dreiecke-e3-k2-s12-v7, winkel-dreiecke-e3-k2-s12-v8, winkel-dreiecke-e3-k2-s10-v7, winkel-dreiecke-e3-k2-s12-v9 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
