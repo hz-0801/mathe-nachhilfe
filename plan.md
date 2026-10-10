@@ -244,6 +244,11 @@ Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 
+Bestellen in Alltagswörtern (Name, Thema, „nur …“, „Prüfung“,
+„leichter/mehr/weiter“) statt Knöpfen und Kennungen – prüfen an den
+nächsten echten Bestellungen (Lehrer 10.10.: „sehen wir, wenn ich
+bestelle“).
+
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
 Prüfung.
