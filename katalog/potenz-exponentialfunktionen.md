@@ -216,7 +216,7 @@ Aufgaben und Vorrat).
 Serie: Vorher: Prozentrechnung: Wachstumsfaktor; Lineare Funktionen | Wachstum und Zerfall: Lineares und exponentielles Wachstum unterscheiden; Wachstumsfaktor und Wachstumstabelle; Exponentialfunktion aufstellen und auswerten; Verdopplungs- und Halbwertszeit | Weiter: Potenzfunktionen
 
 #### Lerneinheit 1 – Lineares und exponentielles Wachstum unterscheiden (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung TCQ · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung TCQ · Kritiker: erledigt (Nachbesserung 10.10.: D3 Raster bis 50, T2 Marke g am Kurvenende, T4 Frage gestrichen, C1 und C3 Marken neben den Linien, Lösung D1 bis 90) · Lehrer: –
 Form: abschnitte
 Ziel: Wachstumsart mit Begründung aus einer Umsatztabelle (2018-OS-K2b); zwei richtige Aussagen zu einer Zerfallstabelle (2016-OS-K4d); passenden Graphen wählen und die beiden anderen ausschließen (2026-FOR-K7b, 2019-OS-K7c); Wertetabelle als Punkte, Achseneinteilung wählen (2025-OS-K7a, 2016-OS-K4b, 2017-OS-K7b)
 Blatt: Klasse 10 · Vorher: Wachstumsfaktor (Prozentrechnung) · Weiter: Wachstumsfaktor und Wachstumstabelle
