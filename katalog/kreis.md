@@ -95,6 +95,63 @@ Zielmarke: Einheit 1 – kein eigenes P10-Original; Marke nach der Nebenleistung
 - Leiterregeln 02.10.2026: Rückwärtssprossen hatten alle drei Ketten schon („d aus u“, „r aus u“; „r aus A“; „Winkel aus Anteil“, dazu neu der Kreisring rückwärts); ergänzt ist je Kette die Mischsprosse vor der Prüfungshöhe. Krumme Zahlen (Dezimal, gemischte Einheiten, überstumpfe Winkel) stehen auf den oberen Sprossen.
 - Gewicht (Regel 02.10.2026): P nach den Typen der Einheit („Kreisfläche berechnen“ zwei, „Kreissektor Anteil berechnen“ ein Original); Einheit 1 hat nur Nebenleistungen und zählt P 0; K der Einheiten 2 und 3 liegt mit 12 genau auf dem Median, also nicht darüber; S in Prozent mit zwei Stellen.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau E69, Lerneinheit 2; die
+Einheiten 1 und 3 sind noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Kreisumfang (Lerneinheit 1) | Radius, Durchmesser und $\pi$ werden
+   hier eingeführt; der Umfang braucht kein Quadrat und keine Wurzel.
+   Solange die Einheit fehlt, zeigt die Kreisfläche (E69) Radius,
+   Durchmesser und $\pi$ im ersten Beispiel und $u = \pi \cdot d$ im
+   Abschnitt „Fläche oder Umfang?“ kurz selbst.
+2. Kreisfläche (Lerneinheit 2) | Kern der P10 (Kreisfläche aus dem
+   Durchmesser, Grundfläche eines Körpers). Folge im Bau: Fläche aus
+   Radius oder Durchmesser → Halbkreis und Viertelkreis (Teilflächen,
+   zwei Halbkreise sind ein Kreis) → Radius aus der Fläche (Wurzel) →
+   Fläche oder Umfang (häufigster P10-Fehler, darum zuletzt gemischt).
+3. Kreisteile (Lerneinheit 3) | Anteil aus dem Mittelpunktswinkel setzt
+   Umfang und Fläche voraus; der Halbkreis und Viertelkreis aus 2 sind
+   die ersten Ausschnitte.
+
+Nicht in Lerneinheit 2 gebaut: Fehler finden, Begründen (Tortenstücke
+zum Rechteck) nach bau/bauauftrag.md; zusammengesetzte Figuren über
+Rechteck plus Halbkreis hinaus bleiben in flaechen.md Lerneinheit 5;
+der Umfang rückwärts ($d = u : \pi$) bleibt Lerneinheit 1.
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (Form „abschnitte“, 10.10.2026); fehlt er, ist die
+Einheit noch nicht gebaut. Steht hier am Ende, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben.
+
+Serie: Vorher: Quadrat und Wurzel; Kreisumfang | Kreis: Kreisumfang; Kreisfläche; Kreisteile | Weiter: Zusammengesetzte Figuren; Zylinder
+
+#### Lerneinheit 2 – Kreisfläche (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung E69 · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 8 laut Katalog, Verortung „im Lehrwerk Kl. 8, im Fahrplan Kl. 8“)
+Form: abschnitte
+Ziel: Kreisfläche aus dem Durchmesser mit Dezimalzahl, erst halbieren, auf zwei Stellen (nach 2016-OS-K3b); Grundfläche eines Körpers aus dem Radius (nach 2024-OS-K4a); Fläche oder Umfang wählen (Fehlerquelle 2024-OS-K4a, 2023-OS-K5a)
+Blatt: Klasse 8 · Vorher: Kreisumfang · Weiter: Kreisteile
+Titel: Kreisfläche
+Formel: $A = \pi \cdot r^2$ \qquad $r = d : 2$
+In Worten: Die Fläche ist $\pi$ mal Radius mal Radius. Ist der Durchmesser gegeben, erst halbieren.
+Vorgehen: Radius oder Durchmesser? Ist es $d$, halbieren; $A = \pi \cdot r^2$ mit der Taste $\pi$; erst am Ende runden, Einheit cm² oder m²; rückwärts: $r^2 = A : \pi$, dann die Wurzel
+Achtung: Rechne mit der Taste $\pi$ und runde erst am Ende – auf eine Stelle nach dem Komma, wenn nichts anderes steht.
+Bild: kreis-e2-k1-s2-v4
+Fehler: Durchmesser eingesetzt: bei $d = 8$\,cm ist $r = 4$\,cm, nicht 8\,cm.
+Fehler: $r^2$ als $2 \cdot r$ gerechnet: $5^2 = 25$, nicht 10.
+Fehler: Umfang und Fläche vertauscht: Rand ist $u$ (cm), innen ist $A$ (cm²).
+Fehler: Beim Rückwärtsrechnen die Wurzel vergessen: $A : \pi$ ist erst $r^2$.
+Tisch: Taschenrechner mit der Taste $\pi$. Runde erst am Ende, auf eine Stelle nach dem Komma, wenn nichts anderes steht.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Fläche aus Radius oder Durchmesser | Die Fläche ist $\pi$ mal Radius mal Radius. Der Radius $r$ geht vom Mittelpunkt bis zum Rand, der Durchmesser $d$ ganz hindurch und ist doppelt so lang. Ist $d$ gegeben, halbierst du zuerst. | $A = \pi \cdot r^2 = \pi \cdot r \cdot r$ \qquad $r = d : 2$ \qquad {\small ($\pi \approx 3{,}14$, nimm die Taste $\pi$)} | kreis-e2-k1-s2-v4 | kreis-e2-k1-s1-v6, kreis-e2-k1-s2-v5, kreis-e2-k1-s3-v6, kreis-e2-k3-s1-v4 | kreis-e2-k1-s1-v7, kreis-e2-k1-s2-v6, kreis-e2-k1-s3-v7, kreis-e2-k3-s1-v5 |
+| L2-B | Halbkreis und Viertelkreis | Ein Halbkreis ist die Hälfte der Kreisfläche, ein Viertelkreis ein Viertel. Rechne den ganzen Kreis mit demselben Radius und teile durch 2 oder durch 4. | Halbkreis: $A = \pi \cdot r^2 : 2$ \qquad Viertelkreis: $A = \pi \cdot r^2 : 4$ | kreis-e2-k1-s4-v4 | kreis-e2-k1-s4-v5, kreis-e2-k2-s1-v4, kreis-e2-k1-s4-v6, kreis-e2-k5-s3-v4 | kreis-e2-k1-s4-v7, kreis-e2-k1-s4-v8, kreis-e2-k2-s1-v5, kreis-e2-k1-s4-v9, kreis-e2-k5-s3-v5 |
+| L2-C | Radius aus der Fläche | Kennst du die Fläche, rechnest du rückwärts: erst durch $\pi$ teilen, dann die Wurzel ziehen. Das ist der Radius; der Durchmesser ist doppelt so lang. | $r^2 = A : \pi$ \qquad $r = \sqrt{A : \pi}$ \qquad $d = 2 \cdot r$ | kreis-e2-k1-s6-v4 | kreis-e2-k1-s6-v5, kreis-e2-k1-s6-v6, kreis-e2-k1-s6-v7, kreis-e2-k1-s6-v8 | kreis-e2-k1-s6-v9, kreis-e2-k1-s6-v10, kreis-e2-k1-s6-v11, kreis-e2-k1-s6-v12 |
+| L2-D | Fläche oder Umfang? | Die Fläche liegt innen (Rasen, Folie, Stoff), in cm² oder m². Der Umfang ist der Rand einmal herum (Zaun, Borte, ein Rad rollt einmal ab), in cm oder m. Lies zuerst, was gefragt ist. | Fläche: $A = \pi \cdot r^2$ \qquad Umfang: $u = \pi \cdot d = 2 \cdot \pi \cdot r$ | kreis-e2-k4-s1-v4 | kreis-e2-k4-s1-v5, kreis-e2-k1-s5-v6, kreis-e2-k1-s7-v4, kreis-e2-k5-s3-v6 | kreis-e2-k4-s1-v6, kreis-e2-k1-s5-v7, kreis-e2-k1-s7-v5, kreis-e2-k5-s3-v7 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | kreis-e2-k1-s0-v5, kreis-e2-k1-s8-v5, kreis-e2-k1-s6-v13, kreis-e2-k5-s3-v8 | kreis-e2-k1-s8-v6, kreis-e2-k1-s0-v6, kreis-e2-k5-s3-v9 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
