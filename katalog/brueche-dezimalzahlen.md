@@ -144,7 +144,7 @@ Zielmarke: Einheit 1 – den markierten Anteil eines in ungleich große Sektoren
 
 ### Thema-Weg
 Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung QG4); geprüft
-beim Bau von Lerneinheit 2 (A5D); wird mit jedem weiteren Bau geprüft.
+beim Bau von Lerneinheit 2 (A5D) und 3 (FS9); wird mit jedem weiteren Bau geprüft.
 
 Folge | Grund für die Stelle:
 1. Bruch als Anteil (Lerneinheit 1) | Ablesen, Einzeichnen, ungleiche
@@ -160,7 +160,11 @@ Folge | Grund für die Stelle:
    dann Prozent“) → gemischte Zahl und Bruch als Geteilt-Aufgabe. Das
    Gleichnamigmachen steht hier, nicht erst in 3, weil 3 es nur anwendet.
 3. Brüche vergleichen (Lerneinheit 3) | Braucht Gleichnamigmachen aus 2;
-   Zielmarke 2014-OS-B1c (Zahl zwischen zwei Brüchen).
+   Zielmarke 2014-OS-B1c (Zahl zwischen zwei Brüchen). Bau FS9: gleicher
+   Nenner oder Zähler → gleichnamig machen → Zahlenstrahl mit grobem
+   Sortieren (unter ½, bis 1, über 1) und Ordnen → Bruch dazwischen.
+   Vergleich mit ½ und 1 steht beim Zahlenstrahl, weil er dort sichtbar
+   ist; Kürzen aus 2 kommt in den Sachaufgaben vor (30 von 50 cm).
 4. Dezimalzahlen (Lerneinheit 4) | Zehnerbrüche setzen Erweitern (2) und
    Ordnen am Zahlenstrahl (3) voraus; danach erst Bruch ↔ Dezimalzahl.
 5. Vergleichen, Ordnen, Runden (Lerneinheit 5) | Zuletzt, weil die
@@ -221,3 +225,23 @@ Tisch: Ohne Taschenrechner; Teiler und Einmaleins im Kopf.
 | L2-C | Auf einen gemeinsamen Nenner bringen | Für einen bestimmten Nenner rechnest du zuerst aus, mit welcher Zahl du erweitern musst. Zwei Brüche macht man \textbf{gleichnamig}, indem man beide auf denselben Nenner erweitert. | gemeinsamer Nenner: eine Zahl, die in beiden Einmaleins-Reihen steht \par {\small Es geht immer: Nenner mal Nenner.} \par\smallskip Nenner 100 heißt Prozent: $\dfrac{3}{10} = \dfrac{30}{100} = 30\,\%$. | brueche-dezimalzahlen-e2-k1-s6-v4 | brueche-dezimalzahlen-e2-k1-s4-v4, brueche-dezimalzahlen-e2-k1-s4-v5, brueche-dezimalzahlen-e2-k1-s5-v4, brueche-dezimalzahlen-e2-k1-s6-v5, brueche-dezimalzahlen-e2-k1-s4-v6 | brueche-dezimalzahlen-e2-k1-s4-v7, brueche-dezimalzahlen-e2-k1-s4-v8, brueche-dezimalzahlen-e2-k1-s5-v5, brueche-dezimalzahlen-e2-k1-s6-v6, brueche-dezimalzahlen-e2-k1-s4-v9 |
 | L2-D | Brüche größer als 1: gemischte Zahlen | Ist der Zähler größer als der Nenner, ist der Bruch mehr als ein Ganzes. Der Bruchstrich ist ein Geteilt-Zeichen: Zähler $:$ Nenner ergibt die Ganzen, der Rest bleibt als Bruch stehen. | $\dfrac{Z}{N} = Z : N$ \qquad zurück: $G\dfrac{z}{N} = \dfrac{G \cdot N + z}{N}$ \par\smallskip In Worten: Ganze mal Nenner plus Zähler, Nenner bleibt. \par\smallskip {\small Typischer Fehler: $2\dfrac{3}{4}$ ist weder $\dfrac{23}{4}$ noch $\dfrac{6}{4}$, sondern $\dfrac{2 \cdot 4 + 3}{4} = \dfrac{11}{4}$.} | brueche-dezimalzahlen-e2-k1-s7-v4 | brueche-dezimalzahlen-e2-k1-s7-v5, brueche-dezimalzahlen-e2-k1-s7-v6, brueche-dezimalzahlen-e2-k3-s1-v4, brueche-dezimalzahlen-e2-k4-s4-v6, brueche-dezimalzahlen-e2-k3-s1-v5 | brueche-dezimalzahlen-e2-k1-s7-v7, brueche-dezimalzahlen-e2-k1-s7-v8, brueche-dezimalzahlen-e2-k3-s1-v6, brueche-dezimalzahlen-e2-k4-s4-v7, brueche-dezimalzahlen-e2-k3-s1-v7 |
 | L2-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e2-k1-s4-v10, brueche-dezimalzahlen-e2-k1-s3-v13, brueche-dezimalzahlen-e2-k1-s6-v7, brueche-dezimalzahlen-e2-k1-s7-v9, brueche-dezimalzahlen-e2-k1-s8-v3, brueche-dezimalzahlen-e2-k1-s5-v6 | brueche-dezimalzahlen-e2-k1-s8-v4, brueche-dezimalzahlen-e2-k1-s5-v7 |
+
+#### Lerneinheit 3 – Brüche vergleichen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung FS9 · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog)
+Form: abschnitte
+Ziel: eine Zahl zwischen zwei Brüchen angeben (P10-Form 2014-OS-B1c, Niveau I; Typ in rationale-zahlen.md Einheit 1); Anteile aus Sachen vergleichen und ordnen (wer ist am weitesten? findet der Ausflug statt? welche Tonne ist am vollsten? welche Länge passt? welche Klasse wird belohnt?)
+Blatt: Klasse 6 · Vorher: Kürzen und Erweitern · Weiter: Dezimalzahlen
+Titel: Brüche vergleichen und ordnen
+Formel: $<$ \ heißt „kleiner als“ \qquad $>$ \ heißt „größer als“ \qquad erweitern: $\dfrac{Z}{N} = \dfrac{Z \cdot k}{N \cdot k}$
+In Worten: Die Spitze von $<$ und $>$ zeigt immer auf die kleinere Zahl. Erweitern ändert die Größe eines Bruchs nicht.
+Fehler: Zähler und Nenner einzeln verglichen: $3 < 4$ und $5 < 7$ – trotzdem ist $\dfrac{3}{5} > \dfrac{4}{7}$, denn $\dfrac{21}{35} > \dfrac{20}{35}$.
+Fehler: „Bei beiden fehlt nur ein Stück, also sind sie gleich groß“: $\dfrac{2}{3} < \dfrac{4}{5}$, denn $\dfrac{10}{15} < \dfrac{12}{15}$.
+Tisch: Ohne Taschenrechner; gemeinsamen Nenner im Kopf suchen.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Gleicher Nenner oder gleicher Zähler | Bei \textbf{gleichem Nenner} sind alle Teile gleich groß: Der Bruch mit dem größeren Zähler ist größer. Bei \textbf{gleichem Zähler} hast du gleich viele Teile: Je größer der Nenner, desto kleiner jedes Teil – und desto kleiner der Bruch. | $\dfrac{3}{7} < \dfrac{5}{7}$ \ (gleicher Nenner) \qquad $\dfrac{2}{5} > \dfrac{2}{9}$ \ (gleicher Zähler) | brueche-dezimalzahlen-e3-k1-s2-v4 | brueche-dezimalzahlen-e3-k1-s1-v6, brueche-dezimalzahlen-e3-k1-s2-v5, brueche-dezimalzahlen-e3-k1-s6-v4, brueche-dezimalzahlen-e3-k3-s4-v4 | brueche-dezimalzahlen-e3-k1-s1-v7, brueche-dezimalzahlen-e3-k1-s2-v6, brueche-dezimalzahlen-e3-k1-s6-v5, brueche-dezimalzahlen-e3-k3-s4-v5 |
+| L3-B | Gleichnamig machen, dann vergleichen | Sind Zähler und Nenner verschieden, kannst du nicht direkt vergleichen. Bring beide Brüche auf denselben Nenner – dann entscheidet der Zähler. | $\dfrac{2}{3}$ und $\dfrac{3}{5}$: \ $\dfrac{10}{15} > \dfrac{9}{15}$, \ also $\dfrac{2}{3} > \dfrac{3}{5}$ \par\vspace{4pt} {\small Gemeinsamer Nenner: eine Zahl, die in beiden Einmaleins-Reihen steht.} | brueche-dezimalzahlen-e3-k1-s4-v4 | brueche-dezimalzahlen-e3-k1-s4-v5, brueche-dezimalzahlen-e3-k1-s4-v6, brueche-dezimalzahlen-e3-k1-s4-v7, brueche-dezimalzahlen-e3-k3-s4-v6 | brueche-dezimalzahlen-e3-k1-s4-v8, brueche-dezimalzahlen-e3-k1-s4-v9, brueche-dezimalzahlen-e3-k1-s4-v10, brueche-dezimalzahlen-e3-k3-s4-v7 |
+| L3-C | Am Zahlenstrahl: ablesen, eintragen, ordnen | Am Zahlenstrahl liegt der kleinere Bruch weiter links. Ist die Strecke von 0 bis 1 in $N$ gleiche Schritte geteilt, ist ein Schritt $\dfrac{1}{N}$. Zum Ordnen sortiere zuerst grob: kleiner als $\dfrac{1}{2}$, zwischen $\dfrac{1}{2}$ und 1, größer als 1. | kleiner als $\dfrac{1}{2}$: Zähler kleiner als die Hälfte des Nenners, z.\,B. $\dfrac{3}{8}$ (denn $\dfrac{4}{8} = \dfrac{1}{2}$) \par\vspace{4pt} größer als 1: Zähler größer als Nenner, z.\,B. $\dfrac{7}{6}$ | brueche-dezimalzahlen-e3-k3-s3-v4 | brueche-dezimalzahlen-e3-k3-s3-v5, brueche-dezimalzahlen-e3-k1-s5-v4, brueche-dezimalzahlen-e3-k1-s3-v4, brueche-dezimalzahlen-e3-k1-s6-v6, brueche-dezimalzahlen-e3-k3-s4-v8 | brueche-dezimalzahlen-e3-k3-s3-v6, brueche-dezimalzahlen-e3-k1-s5-v5, brueche-dezimalzahlen-e3-k1-s3-v5, brueche-dezimalzahlen-e3-k1-s6-v7, brueche-dezimalzahlen-e3-k3-s4-v9 |
+| L3-D | Einen Bruch dazwischen finden | Zwischen zwei Brüchen liegen immer weitere Brüche. Mach beide gleichnamig und wähle einen Zähler dazwischen. Liegt kein Zähler dazwischen, erweitere beide noch einmal, zum Beispiel mit 2. | $\dfrac{3}{10}$ und $\dfrac{4}{10}$ \ mit 2 erweitert: \ $\dfrac{6}{20} < \dfrac{7}{20} < \dfrac{8}{20}$ | brueche-dezimalzahlen-e3-k2-s1-v4 | brueche-dezimalzahlen-e3-k2-s1-v5, brueche-dezimalzahlen-e3-k2-s1-v6, brueche-dezimalzahlen-e3-k2-s1-v7, brueche-dezimalzahlen-e3-k1-s7-v3, brueche-dezimalzahlen-e3-k3-s4-v10 | brueche-dezimalzahlen-e3-k2-s1-v8, brueche-dezimalzahlen-e3-k2-s1-v9, brueche-dezimalzahlen-e3-k1-s7-v4, brueche-dezimalzahlen-e3-k1-s7-v5, brueche-dezimalzahlen-e3-k3-s4-v11 |
+| L3-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e3-k1-s2-v7, brueche-dezimalzahlen-e3-k3-s3-v7, brueche-dezimalzahlen-e3-k1-s6-v8, brueche-dezimalzahlen-e3-k1-s7-v6, brueche-dezimalzahlen-e3-k1-s3-v6, brueche-dezimalzahlen-e3-k3-s4-v12 | brueche-dezimalzahlen-e3-k1-s7-v7, brueche-dezimalzahlen-e3-k3-s4-v13 |
