@@ -118,8 +118,8 @@ Zielmarke: Einheit 1 – Anzahl der möglichen dreistelligen Nummern aus drei ve
 - Vorlage: Baumdiagramme mit leeren Eintragfeldern an den Ästen (sechs Originale verlangen Eintragen), Glücksräder mit gleich großen Sektoren, Urnen mit Kugeln, dazu eine Darstellung der Würfelbeschriftung für 2026-FOR-K6b und 2026-FOR-K6d – ob als Netz oder als Aufzählung der sechs Zahlen, sagt der Katalog nicht (Feld material nur „Figur“); prüfen, ob mathblatt.sty Bausteine hat (Stufe-4-Liste der Anleitung).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau KUV/E2; Einheit 1, 3 und 4 noch
-nicht nach bau/bauauftrag.md gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten KUV/E2 und 6KD/E3; Einheit 1
+und 4 noch nicht nach bau/bauauftrag.md gebaut).
 
 Folge | Grund für die Stelle:
 1. Zählen und Ergebnismengen (Lerneinheit 1) | Wer nicht vollständig
@@ -133,7 +133,12 @@ Folge | Grund für die Stelle:
    veränderte Grundmenge (ein Stück ist weg) bereitet „ohne
    Zurücklegen“ vor.
 3. Baumdiagramm und Pfadregeln (Lerneinheit 3) | setzt die einstufige
-   Wahrscheinlichkeit je Ast und das Gegenereignis voraus.
+   Wahrscheinlichkeit je Ast und das Gegenereignis voraus. Innen: Baum
+   und Pfadregel (mit dem Belegen eines Zufallsgeräts als Pfadregel
+   rückwärts) → mehrere Pfade addieren → „mindestens einmal“ und „nicht
+   zweimal“ über das Gegenteil → drei Stufen bis „mindestens zweimal“.
+   Belegen steht in A, weil es nur die Pfadregel braucht; drei Stufen
+   zuletzt, weil sie Pfad-, Summen- und Zählarbeit verbinden.
 4. Ohne Zurücklegen (Lerneinheit 4) | zuletzt: Nenner und Zähler
    ändern sich je Stufe – die veränderte Grundmenge aus 2, jetzt im Baum.
 
@@ -145,6 +150,9 @@ Probetest Einheit 2 (Originale, gemischt, schwerste zuletzt): 2014-OS-B1d,
 2019-OS-K6a, 2016-OS-B1f, 2014-OS-B1b, 2014-OS-K6a, 2026-FOR-K6a,
 2015-OS-B1a, 2018-OS-B1j, 2019-OS-B1g, 2024-OS-K5a, 2017-OS-K6a,
 2016-OS-K5c, 2018-OS-K7b, 2016-OS-K5d
+Probetest Einheit 3 (Originale, gemischt, schwerste zuletzt): 2024-OS-K5b,
+2014-OS-K6b, 2026-FOR-K6b, 2025-OS-K3b, 2025-OS-K3c, 2014-OS-K6c,
+2020-OS-K6b, 2026-FOR-K6c, 2025-OS-K3d, 2026-FOR-K6d, 2020-OS-K6c
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -174,6 +182,24 @@ Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlan
 | L2-E | Zufallsgerät bauen und vorhersagen | Ist die Wahrscheinlichkeit gegeben, rechnest du rückwärts: So viele Felder oder Kugeln brauchst du. Genauso sagst du voraus, wie oft etwas bei vielen Versuchen \emph{ungefähr} eintritt – sicher ist das nicht. | günstige Felder $= P \cdot$ alle Felder \qquad erwartete Anzahl $= P \cdot$ Anzahl der Versuche | wahrscheinlichkeit-e2-k3-s8-v4 | wahrscheinlichkeit-e2-k3-s8-v5, wahrscheinlichkeit-e2-k3-s9-v4, wahrscheinlichkeit-e2-k3-s11-v4, wahrscheinlichkeit-e2-k5-s1-v4 | wahrscheinlichkeit-e2-k3-s8-v6, wahrscheinlichkeit-e2-k3-s8-v7, wahrscheinlichkeit-e2-k3-s9-v5, wahrscheinlichkeit-e2-k5-s1-v5, wahrscheinlichkeit-e2-k5-s1-v6 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten.\par\medskip\noindent\textbf{Typische Fehler – so nicht}\par\smallskip\noindent\nr{$\times$}Nieten nicht mitgezählt: $\frac{12}{36}$ statt $\frac{12}{48}$. Alle Lose sind möglich.\par\noindent\nr{$\times$}Farben gezählt statt Felder: $\frac{1}{3}$ bei drei Farben. Zähl die Felder.\par\noindent\nr{$\times$}Mehr rote Kugeln heißt nicht bessere Chance. Es zählt der Anteil.\par\noindent\nr{$\times$}Etwas ist schon weg, aber die alte Gesamtzahl genommen.\par\noindent\nr{$\times$}„Etwa 60-mal“ als „genau 60-mal“ gelesen.\par | – | – | wahrscheinlichkeit-e2-k3-s2-v6, wahrscheinlichkeit-e2-k3-s6-v9, wahrscheinlichkeit-e2-k3-s7-v12, wahrscheinlichkeit-e2-k3-s10-v11, wahrscheinlichkeit-e2-k5-s1-v7 | wahrscheinlichkeit-e2-k3-s4-v7, wahrscheinlichkeit-e2-k3-s2-v7, wahrscheinlichkeit-e2-k3-s6-v10, wahrscheinlichkeit-e2-k3-s10-v12 |
 
+
+#### Lerneinheit 3 – Baumdiagramm und Pfadregeln (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 6KD · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: dreistufiger Baum, P(mindestens zwei Sechsen) (2020-OS-K6c); Baum zweier Würfel ergänzen, P(beide ungerade) (2026-FOR-K6b); „nicht zweimal gerade“ (2026-FOR-K6c); zwei Scheiben zu P(13) = 25 % belegen (2025-OS-K3d); P(12 oder 21) (2025-OS-K3c)
+Blatt: Klasse 9 · Vorher: Wahrscheinlichkeit einstufig · Weiter: Ohne Zurücklegen
+Titel: Baumdiagramm und Pfadregeln
+Formel: Pfad: mal \qquad mehrere Pfade: plus
+Vorgehen: Baum zeichnen, an jeden Ast seine Wahrscheinlichkeit; die Pfade suchen, die zum Ereignis gehören; je Pfad multiplizieren; die Pfade addieren
+Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlangt ist (eine Stelle nach dem Komma).
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Baum und Pfadregel | Im Baum steht an jedem Ast die Wahrscheinlichkeit für diese Stufe; die Äste an einem Punkt ergeben zusammen 1. Für ein Ergebnis fährst du seinen Pfad nach und multiplizierst die Äste. | $P(\text{Pfad}) = P(\text{1. Ast}) \cdot P(\text{2. Ast})$ | wahrscheinlichkeit-e3-k3-s3-v4 | wahrscheinlichkeit-e3-k3-s1-v6, wahrscheinlichkeit-e3-k3-s2-v4, wahrscheinlichkeit-e3-k3-s3-v5, wahrscheinlichkeit-e3-k3-s10-v4 | wahrscheinlichkeit-e3-k3-s1-v7, wahrscheinlichkeit-e3-k3-s2-v5, wahrscheinlichkeit-e3-k3-s3-v6, wahrscheinlichkeit-e3-k3-s10-v5 |
+| L3-B | Mehrere Pfade: plus | Gehören mehrere Pfade zum Ereignis, rechnest du jeden Pfad für sich und addierst dann. | $P(\text{Ereignis}) = P(\text{Pfad 1}) + P(\text{Pfad 2}) + \ldots$ | wahrscheinlichkeit-e3-k3-s4-v4 | wahrscheinlichkeit-e3-k3-s4-v5, wahrscheinlichkeit-e3-k3-s4-v6, wahrscheinlichkeit-e3-k3-s5-v4, wahrscheinlichkeit-e3-k3-s9-v4 | wahrscheinlichkeit-e3-k3-s4-v7, wahrscheinlichkeit-e3-k3-s4-v8, wahrscheinlichkeit-e3-k3-s5-v5, wahrscheinlichkeit-e3-k3-s9-v5 |
+| L3-C | Mindestens einmal: über das Gegenteil | „Mindestens einmal“ hat viele Pfade, das Gegenteil „keinmal“ nur einen. Rechne das Gegenteil und zieh es von 1 ab. | $P(\text{mindestens einmal}) = 1 - P(\text{keinmal})$ \qquad $P(\text{nicht zweimal}) = 1 - P(\text{zweimal})$ | wahrscheinlichkeit-e3-k3-s6-v5 | wahrscheinlichkeit-e3-k3-s6-v6, wahrscheinlichkeit-e3-k3-s7-v4, wahrscheinlichkeit-e3-k3-s7-v5, wahrscheinlichkeit-e3-k3-s6-v7 | wahrscheinlichkeit-e3-k3-s6-v8, wahrscheinlichkeit-e3-k3-s6-v9, wahrscheinlichkeit-e3-k3-s7-v6 |
+| L3-D | Drei Stufen | Bei drei Stufen hat jeder Pfad drei Äste, du multiplizierst drei Zahlen. Pfade mit gleich vielen Treffern haben dieselbe Wahrscheinlichkeit. | $P(\text{Pfad}) = P_1 \cdot P_2 \cdot P_3$ \qquad mindestens zweimal $=$ genau zweimal $+$ dreimal | wahrscheinlichkeit-e3-k3-s8-v4 | wahrscheinlichkeit-e3-k3-s8-v5, wahrscheinlichkeit-e3-k3-s8-v6, wahrscheinlichkeit-e3-k3-s8-v7, wahrscheinlichkeit-e3-k3-s11-v3 | wahrscheinlichkeit-e3-k3-s8-v8, wahrscheinlichkeit-e3-k3-s8-v9, wahrscheinlichkeit-e3-k3-s11-v4, wahrscheinlichkeit-e3-k3-s8-v10 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | wahrscheinlichkeit-e3-k3-s2-v6, wahrscheinlichkeit-e3-k3-s4-v9, wahrscheinlichkeit-e3-k3-s6-v10, wahrscheinlichkeit-e3-k3-s11-v5, wahrscheinlichkeit-e3-k3-s10-v6 | wahrscheinlichkeit-e3-k3-s5-v6, wahrscheinlichkeit-e3-k3-s10-v7 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
