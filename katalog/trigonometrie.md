@@ -128,7 +128,7 @@ Zielmarke: **Einheit 1** – Hauptmarke 2017-OS-K4b (Niveau II, 2 Punkte): tan 3
 
 ### Thema-Weg
 Stand: 2026-10-10, angelegt beim ersten Bau (N9M, Lerneinheit 1);
-Folge 1–2 durch den Bau LT3 bestätigt, 3–4 noch nicht.
+Folge 1–2 durch den Bau LT3 bestätigt, 3 durch 56N, 4 noch nicht.
 
 Folge | Grund für die Stelle:
 1. Seite berechnen mit sin, cos und tan (Lerneinheit 1) | Zuerst die
@@ -148,7 +148,13 @@ Folge | Grund für die Stelle:
    (2025-OS-K4a: erst Seite, dann Winkel).
 3. Teildreiecke und Vermessung (Lerneinheit 3) | Das Dreieck muss erst
    gefunden werden, dazu Hilfskathete, Gerätehöhe, Teilwinkel; braucht
-   Seite und Winkel aus 1 und 2.
+   Seite und Winkel aus 1 und 2 und das Finden des Dreiecks aus
+   Pythagoras 3. Folge im Bau 56N: Teildreieck mit Höhe oder Diagonale
+   (Fläche, Umfang) → Hilfslinie mit der Kathete als Unterschied
+   (2023-OS-K7b, 2020-OS-K5b) → Vermessung mit Gerätehöhe und
+   rückwärts (2018-OS-K4d) → zwei Schritte: Teilwinkel und zwei
+   Dreiecke an derselben Höhe (2016-OS-K7c, 2026-FOR-K4c), weil erst
+   dort ein Ergebnis zur Angabe des nächsten Dreiecks wird.
 4. Sinussatz (Lerneinheit 4) | Für Dreiecke ohne rechten Winkel; zuerst
    „rechtwinklig oder nicht?“, darum nach 1–3.
 
@@ -221,6 +227,31 @@ Tisch: Runde Winkel auf eine Stelle nach dem Komma.
 | L2-C | Winkel in Figuren und Nachweis | Such in der Figur das rechtwinklige Dreieck, in dem der Winkel liegt; eine eingezeichnete Höhe ist dort Kathete. Bei „Zeige, dass … rund …“ rechnest du den Winkel aus und schreibst, worauf er gerundet wird. | Antwortsatz beim Nachweis: \ $\alpha \approx 66{,}4^\circ$, also rund $66^\circ$. | trigonometrie-e2-k1-s9-v5 | trigonometrie-e2-k1-s9-v6, trigonometrie-e2-k1-s8-v4, trigonometrie-e2-k1-s10-v4, trigonometrie-e2-k1-s5-v8 | trigonometrie-e2-k1-s9-v7, trigonometrie-e2-k1-s8-v5, trigonometrie-e2-k1-s10-v5, trigonometrie-e2-k1-s9-v8, trigonometrie-e2-k1-s5-v9 |
 | L2-D | Seite oder Winkel? | Frag zuerst: Ist ein Winkel gegeben oder gesucht? | Winkel gegeben, Seite gesucht: Gleichung umstellen ($x$ oben: mal, $x$ unten: geteilt)\par Zwei Seiten gegeben, Winkel gesucht: $\sin^{-1}$, $\cos^{-1}$ oder $\tan^{-1}$ | trigonometrie-e2-k1-s11-v8 | trigonometrie-e2-k1-s11-v9, trigonometrie-e2-k1-s11-v10, trigonometrie-e2-k1-s11-v11 | trigonometrie-e2-k1-s11-v12, trigonometrie-e2-k1-s11-v13, trigonometrie-e2-k1-s11-v14, trigonometrie-e2-k1-s11-v15 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | trigonometrie-e2-k1-s4-v6, trigonometrie-e2-k1-s12-v15, trigonometrie-e2-k1-s12-v16, trigonometrie-e2-k1-s11-v16 | trigonometrie-e2-k1-s4-v7, trigonometrie-e2-k1-s12-v17, trigonometrie-e2-k1-s12-v18, trigonometrie-e2-k1-s11-v17 |
+
+#### Lerneinheit 3 – Rechtwinklige Teildreiecke in Figuren und Vermessung (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 56N · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Teilwinkel, dann Seite (2016-OS-K7c); Berghöhe mit Gerätehöhe und Plattform (2018-OS-K4d); Kathete als Unterschied, nicht die ganze Seite (2023-OS-K7b); Winkel im Hilfsdreieck des rechtwinkligen Trapezes (2020-OS-K5b); Strecke aus der Höhe berechnen, nicht annehmen (2026-FOR-K4c); Höhe für die Fläche, Schenkel für den Umfang (2015-OS-K5d, 2022-OS-K5e in flaechen.md)
+Blatt: Klasse 10 · Vorher: Winkel berechnen; Satz des Pythagoras (Dreieck in der Figur finden) · Weiter: Sinussatz
+Titel: Trigonometrie: Teildreiecke in Figuren und Vermessung
+Formel: $\sin\alpha = \dfrac{G}{H}$ \quad $\cos\alpha = \dfrac{A}{H}$ \quad $\tan\alpha = \dfrac{G}{A}$
+In Worten: Die Figur ist kein rechtwinkliges Dreieck. Eine Höhe, Diagonale oder Hilfslinie schneidet eines heraus; darin rechnest du wie in Lerneinheit 1 und 2.
+Vorgehen: rechten Winkel in der Figur suchen, sonst Höhe oder Hilfslinie einzeichnen; das Teildreieck nachfahren; vom Winkel aus H, G und A benennen; fehlt eine Seite des Teildreiecks, sie zuerst ausrechnen; rechnen und das Ergebnis weitergeben (Fläche, Gesamthöhe)
+Achtung: Skizzen sind nicht maßstabsgerecht. Nicht nachmessen, rechnen.
+Bild: trigonometrie-e1-k3-s0-v8
+Fehler: Sinus in einem Dreieck ohne rechten Winkel. Erst die Höhe einzeichnen.
+Fehler: Halbe Strecke berechnet und nicht verdoppelt (Diagonale im Drachen).
+Fehler: Die ganze Seite der Figur als Kathete genommen statt des Stücks im Teildreieck.
+Fehler: Zwischenergebnis gerundet weitergerechnet. Lass es im Taschenrechner.
+Tisch: Runde Längen und Winkel auf eine Stelle nach dem Komma.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Teildreieck in der Figur | Eine Höhe oder Diagonale schneidet aus der Figur ein rechtwinkliges \textbf{Teildreieck} heraus. Fahr es nach und benenne seine Seiten vom gegebenen Winkel aus; dann rechnest du wie in Lerneinheit 1. | Gleichschenkliges Dreieck: Die Höhe halbiert die Grundseite. \quad Drachen: $\overline{BD} = 2 \cdot \overline{BM}$\par Fläche: Dreieck $A = \frac{1}{2} \cdot g \cdot h$ \qquad Trapez $A = \frac{a + c}{2} \cdot h$ | trigonometrie-e3-k1-s1-v6 | trigonometrie-e3-k1-s1-v7, trigonometrie-e3-k1-s3-v4, trigonometrie-e3-k1-s7-v4, trigonometrie-e3-k1-s15-v4 | trigonometrie-e3-k1-s1-v8, trigonometrie-e3-k1-s1-v9, trigonometrie-e3-k1-s3-v5, trigonometrie-e3-k1-s7-v5, trigonometrie-e3-k1-s15-v5 |
+| L3-B | Hilfslinie: die Kathete als Unterschied | Manchmal ist eine Kathete keine Seite der Figur. Zeichne eine \textbf{Hilfslinie} waagerecht oder senkrecht ein. Die fehlende Kathete ist dann der Unterschied zweier Längen. | Rechtwinkliges Trapez: Kathete $=$ lange Seite $-$ kurze Seite\par Gleichschenkliges Trapez: Überstand $= (a - c) : 2$ | trigonometrie-e3-k1-s4-v4 | trigonometrie-e3-k1-s4-v5, trigonometrie-e3-k1-s4-v6, trigonometrie-e3-k1-s3-v6, trigonometrie-e3-k1-s4-v7 | trigonometrie-e3-k1-s4-v8, trigonometrie-e3-k1-s4-v9, trigonometrie-e3-k1-s3-v7, trigonometrie-e3-k1-s4-v10 |
+| L3-C | Vermessung: Höhenwinkel und Gerätehöhe | Der \textbf{Höhenwinkel} liegt zwischen der Waagerechten und dem Blick nach oben. Das Dreieck beginnt am Messgerät, nicht am Boden; die Gerätehöhe kommt am Schluss dazu. | Höhe $=$ Abstand $\cdot \tan\alpha$ $+$ Gerätehöhe\par {\small Ist die schräge Länge gegeben (Leine, Blicklinie), nimm $\sin$.} | trigonometrie-e3-k1-s9-v4 | trigonometrie-e3-k1-s9-v5, trigonometrie-e3-k1-s10-v4, trigonometrie-e3-k1-s17-v4, trigonometrie-e3-k1-s9-v6 | trigonometrie-e3-k1-s9-v7, trigonometrie-e3-k1-s9-v8, trigonometrie-e3-k1-s10-v5, trigonometrie-e3-k1-s17-v5, trigonometrie-e3-k1-s9-v9 |
+| L3-D | Zwei Schritte: Teilwinkel und zwei Teildreiecke | Reicht ein Dreieck nicht, rechne im ersten die Strecke aus, die beide gemeinsam haben (oft die Höhe), und gib sie an das zweite weiter. Liegen zwei Winkel am selben Punkt, ist der Winkel im Teildreieck ihr \textbf{Unterschied}. | Dreieck 1 $\rightarrow$ gemeinsame Strecke $h$ $\rightarrow$ Dreieck 2\par Teilwinkel $=$ großer Winkel $-$ kleiner Winkel | trigonometrie-e3-k1-s12-v4 | trigonometrie-e3-k1-s12-v5, trigonometrie-e3-k1-s11-v4, trigonometrie-e3-k1-s13-v4, trigonometrie-e3-k1-s12-v6 | trigonometrie-e3-k1-s12-v7, trigonometrie-e3-k1-s12-v8, trigonometrie-e3-k1-s11-v5, trigonometrie-e3-k1-s13-v5, trigonometrie-e3-k1-s12-v9 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | trigonometrie-e3-k1-s18-v4, trigonometrie-e3-k1-s9-v10, trigonometrie-e3-k1-s15-v6, trigonometrie-e3-k1-s18-v5 | trigonometrie-e3-k1-s18-v6, trigonometrie-e3-k1-s9-v11, trigonometrie-e3-k1-s15-v7, trigonometrie-e3-k1-s18-v7 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
