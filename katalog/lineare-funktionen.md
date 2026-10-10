@@ -108,8 +108,8 @@ Zuordnung: Einheit 1 – kein Typ (proportionale Funktion als Vorstufe, Typen be
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten VUC/E1 und NKP/E2; E3–E5
-sind in Abschnittsform noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten VUC/E1, NKP/E2 und ZLZ/E3;
+E4–E5 sind in Abschnittsform noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Proportionale Funktion (Lerneinheit 1) | y = m · x ohne n: Quotient,
@@ -125,6 +125,12 @@ Folge | Grund für die Stelle:
    x-Achse am Graphen.
 3. Punkte und Werte (Lerneinheit 3) | Rechnen an einer gegebenen Geraden,
    auch rückwärts; E1 Abschnitt D übt x = y : m schon vor.
+   Folge im Bau ZLZ: Funktionswert (auch Wertetabelle) → Punktprobe
+   (auch an einer gezeichneten Geraden, deren Punkt außerhalb liegt) →
+   x zum Funktionswert → Nullstelle als x zum Wert 0, mit beiden
+   Achsenschnittpunkten und dem Schnittpunkt zweier Geraden am Graphen.
+   Rückwärtsrechnen vor der Nullstelle, weil sie ein Sonderfall davon
+   ist. Bereitet E4 vor: Schnittpunkt ablesen und mit Punktprobe prüfen.
 4. Gleichung bestimmen (Lerneinheit 4) | setzt m und n sicher voraus;
    Steigung aus zwei Punkten verallgemeinert m = y : x aus E1.
 5. Anwendungen (Lerneinheit 5) | Tarife mit Grundgebühr vereinen 1–4;
@@ -192,6 +198,29 @@ Tisch: Zeichne mit Lineal und Bleistift auf Karopapier.
 | L2-C | Gleichung am Graphen ablesen | $n$ liest du dort ab, wo die Gerade die $y$-Achse schneidet. Für $m$ gehst du von einem Gitterpunkt der Geraden nach rechts bis zum nächsten Gitterpunkt und zählst, wie weit es nach oben oder nach unten geht. | $m = \dfrac{\text{nach oben (+) oder nach unten (}-\text{)}}{\text{nach rechts}}$ \ $\to$ \ $f(x) = m \cdot x + n$\par {\small Mehrere Schritte: $m$ = nach oben/unten : nach rechts. Beispiel: 2 nach rechts, 4 nach unten: $m = -4 : 2 = -2$.} | lineare-funktionen-e2-k5-s3-v4 | lineare-funktionen-e2-k5-s2-v4, lineare-funktionen-e2-k5-s4-v4, lineare-funktionen-e2-k5-s5-v4, lineare-funktionen-e2-k5-s6-v11 | lineare-funktionen-e2-k5-s2-v5, lineare-funktionen-e2-k5-s3-v5, lineare-funktionen-e2-k5-s4-v5, lineare-funktionen-e2-k5-s5-v5, lineare-funktionen-e2-k5-s6-v12 |
 | L2-D | Was m und n verraten – ohne Zeichnung | An $m$ siehst du, ob die Gerade steigt, fällt oder waagerecht ist und wie steil sie ist. Gleiches $m$ heißt: Die Geraden sind parallel. | $m > 0$: steigt \quad $m < 0$: fällt \quad $m = 0$: waagerecht, $f(x) = n$\par Je größer der Betrag von $m$ (die Zahl ohne Vorzeichen), desto steiler.\par Gleiches $n$: Die Geraden schneiden sich im Punkt $(0 \mid n)$. | lineare-funktionen-e2-k6-s1-v6 | lineare-funktionen-e2-k6-s1-v7, lineare-funktionen-e2-k7-s2-v4, lineare-funktionen-e2-k5-s6-v13, lineare-funktionen-e2-k6-s1-v8 | lineare-funktionen-e2-k6-s1-v9, lineare-funktionen-e2-k6-s1-v10, lineare-funktionen-e2-k7-s2-v5, lineare-funktionen-e2-k5-s6-v14, lineare-funktionen-e2-k6-s1-v11 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | lineare-funktionen-e2-k4-s8-v11, lineare-funktionen-e2-k5-s5-v6, lineare-funktionen-e2-k6-s1-v12, lineare-funktionen-e2-k7-s3-v8 | lineare-funktionen-e2-k4-s8-v12, lineare-funktionen-e2-k5-s5-v7, lineare-funktionen-e2-k7-s3-v9 |
+
+#### Lerneinheit 3 – Punkte und Werte (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung ZLZ · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Funktionswert zu einem negativen Argument mit Bruchsteigung (2017-OS-K5b); Punktprobe (P10 „Funktionen allgemein“); Nullstelle berechnen, auch in der Sache mit Dezimalsteigung (2022-OS-K3a, 2021-OS-K6d); Nullstelle und Schnittpunkt am Graphen ablesen (2019-OS-K2a, 2023-OS-K4a)
+Blatt: Klasse 8 · Vorher: Lineare Funktion f(x) = mx + n · Weiter: Gleichung bestimmen
+Titel: Punkte und Werte: rechnen mit $f(x) = m \cdot x + n$
+Formel: $f(x) = m \cdot x + n$ \qquad Punkt $P(x \mid y)$
+In Worten: Zu jedem $x$ gehört genau ein Funktionswert $f(x)$. Der Punkt $(x \mid f(x))$ liegt auf der Geraden.
+Vorgehen: lesen, was gegeben ist: $x$ oder $y$; $x$ gegeben: einsetzen und ausrechnen; $y$ gegeben: Term gleich $y$ setzen und nach $x$ auflösen; zum Schluss die Frage der Aufgabe beantworten
+Bild: lineare-funktionen-e3-k2-s2-v5
+Fehler: Punkt vertauscht: In $P(4 \mid 5)$ ist 4 der $x$-Wert. Setze 4 ein, nicht 5.
+Fehler: Beim Rückwärtsrechnen $n$ vergessen. Erst $n$ auf beiden Seiten wegrechnen, dann durch $m$ teilen.
+Fehler: Nullstelle und $n$ verwechselt: Bei $f(x) = 2x - 6$ ist $-6$ nicht die Nullstelle, sondern $3$.
+Tisch: Rechne mit Bleistift; Taschenrechner nur, wo die Zahlen krumm werden.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Funktionswert berechnen | Den Funktionswert $f(a)$ berechnest du, indem du für $x$ die Zahl $a$ einsetzt. Eine negative Zahl setzt du dabei in Klammern. | $x = a$ einsetzen \ $\to$ \ erst mal $m$, dann $+\,n$ \ $\to$ \ $f(a)$ \ $\to$ \ Punkt $(a \mid f(a))$\par {\small Ist $m$ ein Bruch, teile $a$ zuerst durch den Nenner.} | lineare-funktionen-e3-k2-s2-v5 | lineare-funktionen-e3-k2-s1-v6, lineare-funktionen-e3-k2-s2-v6, lineare-funktionen-e3-k2-s2-v7, lineare-funktionen-e3-k3-s1-v4, lineare-funktionen-e3-k2-s7-v17 | lineare-funktionen-e3-k2-s1-v7, lineare-funktionen-e3-k2-s2-v8, lineare-funktionen-e3-k2-s2-v9, lineare-funktionen-e3-k3-s1-v5, lineare-funktionen-e3-k2-s7-v18 |
+| L3-B | Liegt der Punkt auf der Geraden? | Ein Punkt $P(a \mid b)$ liegt auf der Geraden, wenn $f(a) = b$ ist. Setze die $x$-Koordinate ein und vergleiche das Ergebnis mit der $y$-Koordinate. | $f(a)$ berechnen \ $\to$ \ $f(a) = b$: $P$ liegt auf der Geraden \qquad $f(a) \neq b$: $P$ liegt nicht darauf\par {\small Am Graphen allein siehst du das oft nicht genau: Rechne.} | lineare-funktionen-e3-k2-s5-v5 | lineare-funktionen-e3-k2-s5-v6, lineare-funktionen-e3-k2-s5-v7, lineare-funktionen-e3-k2-s7-v19, lineare-funktionen-e3-k2-s7-v20, lineare-funktionen-e3-k2-s7-v21 | lineare-funktionen-e3-k2-s5-v8, lineare-funktionen-e3-k2-s5-v9, lineare-funktionen-e3-k2-s7-v22, lineare-funktionen-e3-k2-s7-v23, lineare-funktionen-e3-k2-s7-v24 |
+| L3-C | x zum Funktionswert finden | Ist der Funktionswert gegeben und $x$ gesucht, setzt du den Term gleich dem Wert und löst die Gleichung nach $x$. | $m \cdot x + n = y$ \ $\xrightarrow{\ -n\ }$ \ $m \cdot x = y - n$ \ $\xrightarrow{\ :m\ }$ \ $x = \ldots$\par {\small Probe: $x$ einsetzen, es muss $y$ herauskommen. Durch $\frac{1}{2}$ teilen heißt mal 2.} | lineare-funktionen-e3-k2-s4-v4 | lineare-funktionen-e3-k2-s4-v5, lineare-funktionen-e3-k2-s4-v6, lineare-funktionen-e3-k2-s4-v7, lineare-funktionen-e3-k2-s4-v8, lineare-funktionen-e3-k2-s7-v25 | lineare-funktionen-e3-k2-s4-v9, lineare-funktionen-e3-k2-s4-v10, lineare-funktionen-e3-k2-s4-v11, lineare-funktionen-e3-k2-s4-v12, lineare-funktionen-e3-k2-s7-v26 |
+| L3-D | Nullstelle und Schnittpunkte mit den Achsen | Die Nullstelle ist das $x$, für das $f(x) = 0$ ist. Dort schneidet die Gerade die $x$-Achse. Die $y$-Achse schneidet sie bei $n$. | $m \cdot x + n = 0$ \ $\to$ \ Nullstelle $x_0$ \qquad $x$-Achse: $(x_0 \mid 0)$ \qquad $y$-Achse: $(0 \mid n)$ | lineare-funktionen-e3-k2-s6-v4 | lineare-funktionen-e3-k2-s6-v5, lineare-funktionen-e3-k2-s6-v6, lineare-funktionen-e3-k2-s7-v27, lineare-funktionen-e3-k5-s4-v4 | lineare-funktionen-e3-k2-s6-v7, lineare-funktionen-e3-k2-s6-v8, lineare-funktionen-e3-k2-s6-v9, lineare-funktionen-e3-k2-s7-v28, lineare-funktionen-e3-k5-s4-v5 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | lineare-funktionen-e3-k2-s2-v10, lineare-funktionen-e3-k2-s7-v29, lineare-funktionen-e3-k2-s4-v13, lineare-funktionen-e3-k2-s6-v10, lineare-funktionen-e3-k5-s4-v6 | lineare-funktionen-e3-k2-s2-v11, lineare-funktionen-e3-k2-s7-v30, lineare-funktionen-e3-k5-s4-v7 |
 
 ## Prüfliste (vor Status „gegengelesen")
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
