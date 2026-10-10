@@ -52,13 +52,30 @@ Abo laufen.
 3. **Die Bestellung setzt** aus Lernweg und Bankzeilen; ein Setzer ohne
    Modell macht daraus die drei PDFs. Fehlt der Lernweg, wird die Einheit
    erst gebaut (Ausnahme, ~20 min) und dann gesetzt.
-4. Sorten aus demselben Bestand: Lernblatt = Lernweg einer Lerneinheit,
-   Originale nur, wo sie die beste Aufgabe sind. Prüfungsblatt = die Stufen
-   der Prüfungsgliederung in Katalogfolge, je Stufe die passenden Schritte
-   (Feld schritt), am Ende ein echtes Original ganz. Fokus = ein Schritt.
-   Prüfungsheft = die Prüfungsblätter eines Kapitels. Original und Original
-   neu bleiben bei pruefheft.py. Den Wortlaut der Originale liest der Setzer
-   aus aufgabenbank-privat.
+4. Zwei Sorten, getrennt (Lehrer 10.10.; ersetzt „Sorten aus demselben
+   Bestand“ vom 09.10.):
+   - **Allgemein** (Schulstoff): aus dem Katalog; Lernblatt = Lernweg
+     einer Lerneinheit, Originale nur, wo sie die beste Aufgabe sind.
+   - **Prüfung**: der Bestellbaum aus offen.html (fest 03./04.10.) für
+     P10, Abitur, FHR – Teil (Kurzteil · Gebiete des Hauptteils · Ganze
+     Prüfung, „Alles“ zuletzt) → Original / Original neu / Skript →
+     Thema bzw. Zeitraum. Skript nach der Linie vom 04.10. (echte
+     Teilaufgaben nach Handgriff, leicht → schwer, „kommt das dran?“,
+     gestufte Hilfen, Fundstellen, Prüfstein); Grundlage, Änderung
+     möglich. Original und Original neu bleiben bei pruefheft.py.
+   - Gemeinsam sind nur die Technik (Kennung, kurze Einheiten, Übersicht)
+     und die Bank. Brücke: im Skript je Handgriff „lernst du in …“.
+   - Originale zuerst; die Bank ergänzt nur, wo die Originale auf einer
+     Höhe nichts liefern – fast immer der Einstieg unten, nie die
+     Prüfungshöhe oben (Lehrer 10.10.).
+   - Übersicht vorn = knappe Wahlhilfe: ein Eintrag = eine kleine
+     Lerneinheit (ein Blatt); auf einen Blick, was das Thema bietet;
+     beide Sorten (Lehrer 10.10.; löst „Übersicht vorn entfällt“ 06.10.).
+   - offen.html wird, geordnet und um Überholtes bereinigt, die eine
+     Datei der Sorte Prüfung (Lehrer 10.10.).
+   - Zurückgestellt bis zum Abitur: Abitur-Skript „Lernblatt mit
+     Sie-Form“ (03.10.) gegen P10-Linie 04.10. und „kein Siezen“ (06.10.).
+   Den Wortlaut der Originale liest der Setzer aus aufgabenbank-privat.
 5. Eine Datei je Frage: Ziel und Plan in plan.md; Handwerk in
    bauregeln.md; Didaktik im Bauauftrag (bau/bauauftrag.md); Wörter in
    begriffe.md; Zeilenform in bank.md. Regeln werden mit Namen zitiert,
@@ -76,6 +93,15 @@ Abo laufen.
    eines Meilensteins, gesammelt. Ausnahme: Handwerksfehler (falsche Zahl,
    Satzfehler) sofort. Nebenfragen kommen in § 9 „Später“, nicht in eine
    Regel.
+9. Entschiedenes geht nicht verloren (Lehrer 10.10.; Befund: der Chat
+   verliert Entschiedenes, auch kurzfristig, und lässt es neu
+   entscheiden). plan.md ist die eine verbindende Stelle: Was gilt, steht
+   hier mit Datum; anderswo Entschiedenes zählt erst, wenn es hier steht.
+   Beschlüsse werden nur neu aufgemacht, wenn ein Blatt oder Messwert
+   dagegen spricht (Lehrer 06.10.); Einfälle nach § 9. Vor jedem Umzug
+   prüft ein Skript, ob Entscheidungsmarken („Lehrer TT.MM.“, „fest“,
+   „beschlossen“) außerhalb von plan.md neu sind; am Ende jedes Chats
+   sieht der Lehrer die neuen Entscheidungen als Liste.
 
 Richtung (Lehrer 09.10., noch keine Regel): Blätter sollen zum Selbstlernen
 taugen – der Schüler kommt allein durch jeden Abschnitt bis zur Zielaufgabe,
@@ -169,16 +195,19 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: Bestand ordnen, bevor etwas gebaut wird (Lehrer 10.10.: „das
-Repository ist verwirrend, du überblickst es nicht“; „der alte Prompt hat
-einen Stand festgehalten“). Zwei Sorten getrennt halten – Allgemein
-(Schulstoff, Katalog) und Prüfung (P10 nach dem Baum, später Abitur) –,
-jede mit einem festen Stand in einer Datei, wie früher die Prompts. Erst
-eine Liste, welche Dateien gelten (je Sorte und für die gemeinsame
-Technik), alles andere ins Archiv; der Lehrer nickt die Liste ab. Ziel
-danach: P10 am Katalog fertig, ohne die Verallgemeinerung zu verlieren.
+Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
+vollständig, dann ordnen, dann bauen.
+1. Entscheidungen vervollständigen: entscheidungen-2026-10-10.md
+   (eingesammelt aus Repos, Commits, 38 Übergaben; 121 gelten, 72 fehlen
+   hier, Widerspruchsliste a). Restliche Widersprüche einzeln mit dem
+   Lehrer klären, Geltendes mit Datum in plan.md tragen. Erledigt 10.10.:
+   Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9.
+2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus).
+3. Dann Bestand ordnen (welche Dateien gelten, Rest ins Archiv).
+Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
-Gefundenes, das bleiben soll: uebergabe.md Abschnitt 3.
+Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
+Abschnitt 3 gilt nur, soweit er hier steht.
 
 ## 8 Modelle und Kosten
 
@@ -205,7 +234,7 @@ Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
 Prüfung.
-Zu M4: Die Bestellung fragt nur die Lage, höchstens drei Fragen mit
+Zu M4 (Lehrer 10.10.: so nicht zutreffend, Form offen): Die Bestellung fragt nur die Lage, höchstens drei Fragen mit
 Vorschlag (allein oder am Tisch; Ziel und wie knapp die Zeit ist – knapp
 heißt Wesentliches zuerst; was sitzt; wie sicher), merkt sie sich je
 Schüler in der privaten Schülerliste; Form, Fachplanung und Vorgehen kommen
@@ -243,3 +272,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 10.10.2026 (d): Treppenweg angehalten (Spiegelung der Lehrer-Vorlage
   misslang); drei Hefte nach altem Unterrichtsprompt gemessen; Jetzt =
   Bestand ordnen, zwei Sorten mit je festem Stand (Lehrer).
+- 10.10.2026 (e): Entscheidungen eingesammelt (entscheidungen-2026-10-10.md);
+  Linie 4 neu: zwei Sorten getrennt, Prüfung = Bestellbaum aus
+  offen.html, Skript nach Linie 04.10., Bank nur als Ergänzung, Übersicht
+  als knappe Wahlhilfe; Linie 9 neu: Entschiedenes nur in plan.md,
+  Abgleich vor Umzug. Jetzt = Entscheidungen vervollständigen, dann
+  Datei Prüfung, dann ordnen (Lehrer). Messwert: Einsammeln ≈ 0,2 Mio
+  Token → Woche 75 → 75 %, Fable 39 → 39 %.
