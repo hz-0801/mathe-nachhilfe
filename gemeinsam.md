@@ -1,11 +1,12 @@
 # Gemeinsam – was beide Sorten gleich machen
 
-Stand 10.10.2026, gilt (Lehrer 10.10.). Ersetzt aufgabenbank bau/bauregeln.md (dessen Prüfungsteile stehen
-in pruefung.md). bauauftrag.md und begriffe.md gehen später hierin auf
-(plan.md Linie 5); bis dahin gelten sie daneben. Über ihr steht plan.md;
-die Sorten stehen in pruefung.md und (nach P10) allgemein.md; die
-Zeilenform der Bank in aufgabenbank bank.md. Regeln werden mit Namen
-zitiert. Typische Fehler stehen im Katalog, nie hier.
+Stand 10.10.2026, gilt (Lehrer 10.10.). Ersetzt aufgabenbank
+bau/bauregeln.md (dessen Prüfungsteile stehen in pruefung.md).
+bauauftrag.md und begriffe.md gehen später hierin auf (plan.md Linie 5);
+bis dahin gelten sie daneben. Über ihr steht plan.md; die Sorten stehen
+in pruefung.md und (nach P10) allgemein.md; die Zeilenform der Bank in
+aufgabenbank bank.md. Regeln werden mit Namen zitiert. Typische Fehler
+stehen im Katalog, nie hier.
 
 Drei Arten von Inhalt, verschieden streng: Zweck und Didaktik (ein Zweck
 in einem Satz, dazu ein gutes und ein schlechtes Beispiel; kein Mittel

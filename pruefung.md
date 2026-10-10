@@ -1,10 +1,11 @@
 # Prüfung – Datei der Sorte
 
-Stand 10.10.2026, gilt (Lehrer 10.10.). Ersetzt offen.html und die Prüfungsteile von aufgabenbank
-bau/bauregeln.md (2.2 Prüfungsblatt/Prüfungsheft, 2.5, 4.9, 6.4 Punkte,
-6.5). Über ihr steht plan.md (Ziel, Linien, Register § 11). Was beide
-Sorten gleich machen, steht in gemeinsam.md; die Zeilenform der Bank in
-aufgabenbank bank.md. Regeln werden mit Namen zitiert.
+Stand 10.10.2026, gilt (Lehrer 10.10.). Ersetzt offen.html und die
+Prüfungsteile von aufgabenbank bau/bauregeln.md (2.2
+Prüfungsblatt/Prüfungsheft, 2.5, 4.9, 6.4 Punkte, 6.5). Über ihr steht
+plan.md (Ziel, Linien, Register § 11). Was beide Sorten gleich machen,
+steht in gemeinsam.md; die Zeilenform der Bank in aufgabenbank bank.md.
+Regeln werden mit Namen zitiert.
 
 ## 1 Zweck
 
