@@ -274,7 +274,7 @@ Tisch: Ohne Taschenrechner; gemeinsamen Nenner im Kopf suchen.
 | L3-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e3-k1-s2-v7, brueche-dezimalzahlen-e3-k3-s3-v7, brueche-dezimalzahlen-e3-k1-s6-v8, brueche-dezimalzahlen-e3-k1-s7-v6, brueche-dezimalzahlen-e3-k1-s3-v6, brueche-dezimalzahlen-e3-k3-s4-v12 | brueche-dezimalzahlen-e3-k1-s7-v7, brueche-dezimalzahlen-e3-k3-s4-v13 |
 
 #### Lerneinheit 4 – Dezimalzahlen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung DXZ · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog)
+Stand: 2026-10-10 · Kennung DXZ · Kritiker: erledigt (Nachbesserung 10.10.: D zweites Beispiel 1 : 6 mit wiederkehrendem Rest; Lösung D2 Weg für 9 : 4; A4 e) 0,8 oder 0,08 in der Stellenwerttafel; T6 Hinweis 1 kg = 1000 g) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog)
 Form: abschnitte
 Ziel: kein eigener P10-Typ; Umwandeln ist Nebenleistung in 2015-OS-B1c, 2018-OS-B1d, 2023-OS-B1f und 2014-OS-B1c (Niveau I), Dezimalgröße in 2018-OS-B1a (3/4 von 1,2 kg). Ziele aus Sachen: wer läuft schneller (12,07 s gegen 12,7 s)? zwischen welchen Strichen landet der Sprung? wie viel Gramm fehlen zu 3/4 kg? reicht ein Achtel von 5 m Band? zu viel oder zu wenig Mehl bei 3/8 kg?
 Blatt: Klasse 6 · Vorher: Brüche vergleichen · Weiter: Vergleichen, Ordnen, Runden
