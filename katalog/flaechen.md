@@ -120,8 +120,9 @@ Zielmarke: Einheit 1 – Rechteckseite aus dem Umfang ohne Taschenrechner, erst 
 - Serlo 36520 und 1709 nur über Suchergebnisse gesichtet, nicht vollständig gelesen.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten 9WQ, Lerneinheit 1, und
-SC4, Lerneinheit 3; die Einheiten 2, 4 und 5 sind noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten 9WQ, Lerneinheit 1, SC4,
+Lerneinheit 3, und V28, Lerneinheit 5; die Einheiten 2 und 4 sind noch
+nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Rechteck, Quadrat, Umfang (Lerneinheit 1) | Fläche gegen Umfang
@@ -139,9 +140,17 @@ Folge | Grund für die Stelle:
    Variablen).
 4. Trapez, Drachenviereck, Raute (Lerneinheit 4) | Formeln aus 2 und 3
    zusammengesetzt.
-5. Zusammengesetzte Figuren (Lerneinheit 5) | braucht alle Formeln aus
-   1 bis 4 und den Kreis; das Zerlegen in Rechtecke ist in 1 schon
-   vorbereitet.
+5. Zusammengesetzte Figuren (Lerneinheit 5) | braucht Rechteck (1),
+   Dreieck (3) und den Kreis; das Zerlegen in Rechtecke ist in 1 schon
+   vorbereitet. Der Bau V28 zeigt: Das Trapez (4) ist nicht nötig, es
+   wird als Rechteck und zwei Dreiecke zerlegt. Der Kreis steht in der
+   Serie danach; das Heft führt nur $\pi \cdot r^2$, $\pi \cdot d$ und
+   $r = d : 2$ als Formel ein (Formelsammlung, Taschenrechner) und
+   übt das Runden am Ende. Folge: zerlegen (A), ergänzen (B), Kreisteile
+   (C), Umfang (D).
+
+Nicht in Lerneinheit 5 gebaut: Fehler finden, Begründen, Viertelkreis,
+Verschnitt in Prozent (Vorrat k3 bleibt), Einheiten umrechnen.
 
 Nicht in Lerneinheit 3 gebaut: Fehler finden, Begründen (halbes
 Parallelogramm), Rechenweg beschreiben (2015-OS-K5d); Seiten über
@@ -200,6 +209,27 @@ Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
 | L3-C | Grundseite oder Höhe rückwärts | Kennst du die Fläche, rechnest du rückwärts: erst mal 2, dann durch die bekannte Länge. | $g = 2 \cdot A : h$ \qquad $h = 2 \cdot A : g$ | flaechen-e3-k1-s5-v4 | flaechen-e3-k1-s5-v5, flaechen-e3-k1-s5-v6, flaechen-e3-k1-s7-v3, flaechen-e3-k1-s5-v7 | flaechen-e3-k1-s5-v8, flaechen-e3-k1-s5-v9, flaechen-e3-k1-s7-v4, flaechen-e3-k1-s5-v10 |
 | L3-D | Umfang und Terme | Der Umfang ist der Weg einmal außen herum: alle drei Seiten zusammen. Mit Buchstaben schreibst du dieselbe Rechnung als Term. | $u = a + b + c$ \qquad drei gleiche Seiten: $u = 3 \cdot a$ | flaechen-e3-k3-s1-v4 | flaechen-e3-k3-s1-v5, flaechen-e3-k1-s6-v4, flaechen-e3-k1-s6-v5, flaechen-e3-k3-s1-v6 | flaechen-e3-k3-s1-v7, flaechen-e3-k3-s1-v8, flaechen-e3-k1-s6-v6, flaechen-e3-k3-s1-v9 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e3-k1-s1-v9, flaechen-e3-k1-s7-v5, flaechen-e3-k1-s6-v7, flaechen-e3-k4-s3-v6 | flaechen-e3-k1-s1-v10, flaechen-e3-k1-s7-v6, flaechen-e3-k4-s3-v7 |
+
+#### Lerneinheit 5 – Zusammengesetzte Figuren (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung V28 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Fläche Rechteck mit zwei Halbkreisen als Summe (2017-OS-K3b); Restfläche Rechteck minus Kreis (2018-OS-K6a); Figur in Teilflächen zerlegen (2017-OS-K3a); Umfang einer zusammengesetzten Figur; Sachaufgabe mit Entscheidung
+Blatt: Klasse 7 · Vorher: Trapez, Drachen, Raute · Weiter: Kreis
+Titel: Zusammengesetzte Figuren: Fläche und Umfang
+Formel: $A = A_1 + A_2$ \qquad $A = A_{\text{ganz}} - A_{\text{weg}}$\par Kreis: $A = \pi \cdot r^2$ \qquad $u = \pi \cdot d$ \qquad $r = d : 2$
+In Worten: Zerlegen und addieren oder ergänzen und abziehen. Beim Umfang zählt nur der Rand außen.
+Vorgehen: Figur zerlegen und die Teilflächen benennen; fehlende Längen als Differenz; jede Teilfläche rechnen, dann addieren oder abziehen; erst am Ende runden
+Bild: flaechen-e5-k1-s5-v4
+Fehler: Durchmesser statt Radius eingesetzt: Bei $d = 4$\,m ist $r = 2$\,m, die Kreisfläche $\pi \cdot 2^2$, nicht $\pi \cdot 4^2$.
+Tisch: Taschenrechner erlaubt (Taste $\pi$). Rechne mit Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L5-A | Zerlegen und addieren | Zerlege die Figur in Teilflächen, deren Formel du kennst: Rechtecke und Dreiecke. Berechne jede Teilfläche und addiere; eine fehlende Länge findest du als Differenz zweier bekannter Längen. | $A = A_1 + A_2$ \qquad Rechteck: $a \cdot b$ \qquad Dreieck: $g \cdot h : 2$ | flaechen-e5-k1-s2-v4 | flaechen-e5-k1-s2-v5, flaechen-e5-k1-s2-v6, flaechen-e5-k1-s2-v7, flaechen-e5-k2-s1-v4 | flaechen-e5-k1-s2-v8, flaechen-e5-k1-s2-v9, flaechen-e5-k1-s2-v10, flaechen-e5-k2-s1-v5 |
+| L5-B | Ergänzen und abziehen | Fehlt an einer Figur ein Stück oder ist ein Loch darin, rechnest du die ganze Fläche und ziehst ab, was fehlt. Die ganze Fläche ist oft ein Rechteck um die Figur herum. | $A = A_{\text{ganz}} - A_{\text{weg}}$ | flaechen-e5-k1-s3-v4 | flaechen-e5-k1-s4-v4, flaechen-e5-k1-s3-v5, flaechen-e5-k1-s3-v6, flaechen-e5-k4-s3-v4 | flaechen-e5-k1-s4-v5, flaechen-e5-k1-s3-v7, flaechen-e5-k1-s3-v8, flaechen-e5-k4-s3-v5 |
+| L5-C | Kreise und Halbkreise | Kreisteile rechnest du mit der Kreisformel und dem Taschenrechner. Zwei gleiche Halbkreise sind zusammen ein ganzer Kreis. | $A = \pi \cdot r^2$ \qquad $r = d : 2$\par Halbkreis: $A = \pi \cdot r^2 : 2$ | flaechen-e5-k1-s5-v4 | flaechen-e5-k1-s7-v3, flaechen-e5-k1-s5-v5, flaechen-e5-k1-s5-v6, flaechen-e5-k1-s7-v4 | flaechen-e5-k1-s5-v7, flaechen-e5-k1-s5-v8, flaechen-e5-k1-s7-v5, flaechen-e5-k1-s7-v6 |
+| L5-D | Umfang | Der Umfang ist die Länge des Randes einmal außen herum. Linien innen, an denen du zerlegt hast, zählen nicht; bei einem Halbkreis zählt nur der Bogen. | $u$ = alle Randstücke zusammen\par Kreis: $u = \pi \cdot d$ \qquad Halbkreisbogen: $\pi \cdot d : 2$ | flaechen-e5-k1-s6-v4 | flaechen-e5-k1-s6-v5, flaechen-e5-k1-s6-v6, flaechen-e5-k1-s6-v7, flaechen-e5-k1-s6-v8 | flaechen-e5-k1-s6-v9, flaechen-e5-k1-s6-v10, flaechen-e5-k1-s6-v11, flaechen-e5-k2-s1-v6 |
+| L5-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | flaechen-e5-k1-s0-v5, flaechen-e5-k1-s5-v9, flaechen-e5-k1-s7-v7, flaechen-e5-k2-s1-v7 | flaechen-e5-k1-s5-v10, flaechen-e5-k1-s7-v8, flaechen-e5-k4-s3-v6 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
