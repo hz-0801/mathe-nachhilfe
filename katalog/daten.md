@@ -213,7 +213,7 @@ Zielmarke (Sek II): Einheit 1 – fhr: relative Häufigkeiten zweier Städte mit
 - Sek-II-Teil – Prüfskripte: `_pruef_katalog.py` prüft seit dem Abschnitt „Prüfungsform (fhr / abi / iqb)“ auch die Zählzeile unter „Typen je Lerneinheit“ (Sek-II-Typen mit Zeilenzahl in Klammern in den Einheiten 1, 4 und 6; die Sek-I-Einheiten 2, 3 und 5 zählen null) und die Profillisten gegen themen.csv; `_pruef_struktur.py` verlangt, dass die Zuordnungszeile jede Einheit nennt – deshalb trägt die P10-Zuordnung den Zusatz „Einheit 6 – kein P10-Typ“, die einzige Änderung in der P10-Prüfungsform. Alle 30 Sek-II-ids stehen im Eintrag (Fehler, Sprossen, Muster, Zielmarke).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau T74/E2; die übrigen Einheiten
+Stand: 2026-10-10, vorläufig (aus den Bauten T74/E2 und FWE/E3; die übrigen Einheiten
 noch nicht gebaut, ihre Stelle nach „Lerneinheiten“ und Lehrwerk).
 
 Folge | Grund für die Stelle:
@@ -228,6 +228,12 @@ Folge | Grund für die Stelle:
    umkehrt; die Achse ohne Zahlen (Prüfungshöhe) setzt beides voraus.
 3. Streifen- und Kreisdiagramm (Lerneinheit 3) | Anteile statt Anzahlen;
    braucht Prozent (prozentrechnung.md) und die relative Häufigkeit aus 1.
+   Im Blatt (Bau FWE): Streifen (Prozent → Länge, Rest zu 100 %) →
+   Mittelpunktswinkel (aus Prozent, dann aus „Teil von Ganzem“) →
+   Kreisdiagramm zeichnen (Ganzes addieren, runden, Summe 360° prüfen) →
+   Kreisdiagramm lesen (nach Größe zuordnen, Hälfte und Viertel). Der
+   Streifen zuerst, weil 1 % = 1 mm ohne Winkel auskommt; Lesen zuletzt,
+   weil die Prüfungshöhe Zuordnen und Winkelrechnung verbindet.
 4. Kenngrößen (Lerneinheit 4) | Werte aus Liste, Tabelle und Diagramm
    (aus 2) zusammenfassen.
 5. Diagramme beurteilen und Boxplot (Lerneinheit 5) | Setzt Ablesen (2)
@@ -268,6 +274,28 @@ Tisch: Lies so genau ab, wie die Hilfslinien es zulassen.
 | L2-C | Liniendiagramme lesen | Ein Liniendiagramm zeigt, wie sich ein Wert von Zeitpunkt zu Zeitpunkt ändert. Je steiler die Linie zwischen zwei Punkten, desto größer die Änderung. | Änderung $=$ späterer Wert $-$ früherer Wert \qquad {\small (Linie steigt: Zunahme; Linie fällt: Abnahme)} | daten-e2-k2-s10-v4 | daten-e2-k2-s10-v5, daten-e2-k2-s10-v6, daten-e2-k2-s10-v7 | daten-e2-k2-s10-v8, daten-e2-k2-s10-v9, daten-e2-k2-s10-v10, daten-e2-k2-s10-v11 |
 | L2-D | Säulen zeichnen und Achse einteilen | Zum Zeichnen rechnest du erst aus, wie viele Kästchen hoch die Säule wird. Fehlen die Zahlen an der Achse, findest du den Kästchenwert mit einer Säule, deren Wert du kennst. | Kästchen $=$ Wert $:$ Kästchenwert \qquad Kästchenwert $=$ bekannter Wert $:$ Kästchen dieser Säule | daten-e2-k2-s7-v4 | daten-e2-k2-s7-v5, daten-e2-k2-s8-v4, daten-e2-k2-s12-v5 | daten-e2-k2-s7-v6, daten-e2-k2-s7-v7, daten-e2-k2-s8-v5, daten-e2-k3-s1-v4, daten-e2-k2-s12-v6 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e2-k2-s11-v4, daten-e2-k2-s11-v5, daten-e2-k2-s11-v6, daten-e2-k2-s12-v7 | daten-e2-k2-s11-v7, daten-e2-k2-s12-v8 |
+
+#### Lerneinheit 3 – Streifen- und Kreisdiagramm (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung FWE · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, OS Kl. 6–7, GYM 6; Prozentrechnung E1–E5 Vorwissen)
+Form: abschnitte
+Ziel: unbeschriftete Sektoren nach Größe zuordnen und den Winkel eines kleinen Anteils berechnen (2024-OS-K2c; 2022-OS-K4d); Kreisdiagramm aus Prozentangaben mit gerundeten Winkeln zeichnen (2017-OS-K2c); Streifendiagramm mit Rest zeichnen (2018-OS-K3c; 2021-OS-K5b); Anteil „von“ als Sektor (2025-OS-K6b)
+Blatt: Klasse 7 · Vorher: Säulen-, Balken- und Liniendiagramme · Weiter: Kenngrößen
+Titel: Streifen- und Kreisdiagramme
+Formel: $100\,\%$ $=$ ganzer Streifen $=$ ganzer Kreis $= 360^\circ$
+In Worten: Streifen und Kreis zeigen Anteile. Das Ganze ist immer $100\,\%$; jeder Abschnitt oder Sektor ist so groß wie sein Anteil.
+Vorgehen: Anteil bestimmen (Prozent, Bruch oder Teil von Ganzem); in Länge oder Winkel umrechnen; Summe prüfen; zeichnen und beschriften
+Bild: –
+Fehler: Prozent als Grad eingetragen: $16\,\%$ als $16^\circ$. Richtig: $0{,}16 \cdot 360^\circ$.
+Fehler: Den Winkel mit der Zahl der Befragten gerechnet: $16\,\%$ von $750$. Richtig: Der Winkel ist ein Anteil von $360^\circ$.
+Tisch: Miss mit dem Lineal auf den Millimeter und mit dem Geodreieck auf das Grad genau.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Streifendiagramm zeichnen | Ein Streifendiagramm zeigt Anteile als Abschnitte eines Streifens. Der ganze Streifen ist $100\,\%$; bei $10$ cm Länge ist $1\,\%$ genau $1$ mm. | Länge in cm $=$ Prozentsatz $: 10$ \qquad Rest $= 100\,\% -$ alle anderen Anteile | daten-e3-k1-s2-v4 | daten-e3-k1-s1-v6, daten-e3-k1-s2-v5, daten-e3-k1-s3-v4 | daten-e3-k1-s4-v5, daten-e3-k1-s1-v7, daten-e3-k1-s4-v6, daten-e3-k1-s2-v6, daten-e3-k1-s2-v7, daten-e3-k1-s3-v5 |
+| L3-B | Mittelpunktswinkel berechnen | Im Kreisdiagramm ist der ganze Kreis $100\,\%$, also $360^\circ$. Jeder Sektor bekommt seinen Anteil von $360^\circ$. | Winkel $=$ Anteil $\cdot\, 360^\circ$ \qquad Anteil $= \frac{p}{100}$ oder Anteil $=$ Teil $:$ Ganzes | daten-e3-k1-s7-v4 | daten-e3-k1-s5-v4, daten-e3-k1-s6-v4, daten-e3-k1-s7-v5, daten-e3-k1-s7-v6 | daten-e3-k1-s5-v5, daten-e3-k1-s6-v5, daten-e3-k1-s7-v7, daten-e3-k1-s7-v8 |
+| L3-C | Kreisdiagramm zeichnen | Erst rechnest du alle Winkel aus und prüfst, ob sie zusammen $360^\circ$ ergeben. Dann trägst du die Sektoren mit dem Geodreieck nacheinander ab, jeden an der Linie des vorigen. | Ganzes $=$ Summe aller Teile \qquad Kontrolle: alle Winkel zusammen $360^\circ$ | daten-e3-k1-s9-v4 | daten-e3-k1-s8-v4, daten-e3-k1-s9-v5, daten-e3-k1-s9-v7 | daten-e3-k1-s9-v6, daten-e3-k1-s8-v5, daten-e3-k1-s9-v8, daten-e3-k1-s9-v9, daten-e3-k1-s9-v10 |
+| L3-D | Kreisdiagramme lesen und zuordnen | Der größte Anteil hat den größten Sektor. Ein Halbkreis ist die Hälfte, ein rechter Winkel ein Viertel. | Hälfte $= 50\,\% = 180^\circ$ \qquad Viertel $= 25\,\% = 90^\circ$ | daten-e3-k1-s10-v4 | daten-e3-k1-s10-v5, daten-e3-k2-s1-v4, daten-e3-k1-s12-v7 | daten-e3-k1-s10-v6, daten-e3-k1-s10-v7, daten-e3-k1-s12-v8, daten-e3-k1-s12-v9, daten-e3-k2-s1-v5 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e3-k1-s2-v8, daten-e3-k1-s6-v6, daten-e3-k1-s9-v11, daten-e3-k1-s12-v10 | daten-e3-k1-s11-v4, daten-e3-k1-s11-v5 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
