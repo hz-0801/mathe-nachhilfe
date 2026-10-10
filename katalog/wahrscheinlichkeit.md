@@ -118,8 +118,8 @@ Zielmarke: Einheit 1 – Anzahl der möglichen dreistelligen Nummern aus drei ve
 - Vorlage: Baumdiagramme mit leeren Eintragfeldern an den Ästen (sechs Originale verlangen Eintragen), Glücksräder mit gleich großen Sektoren, Urnen mit Kugeln, dazu eine Darstellung der Würfelbeschriftung für 2026-FOR-K6b und 2026-FOR-K6d – ob als Netz oder als Aufzählung der sechs Zahlen, sagt der Katalog nicht (Feld material nur „Figur“); prüfen, ob mathblatt.sty Bausteine hat (Stufe-4-Liste der Anleitung).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten KUV/E2 und 6KD/E3; Einheit 1
-und 4 noch nicht nach bau/bauauftrag.md gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten KUV/E2, 6KD/E3 und XKT/E4;
+Einheit 1 noch nicht nach bau/bauauftrag.md gebaut).
 
 Folge | Grund für die Stelle:
 1. Zählen und Ergebnismengen (Lerneinheit 1) | Wer nicht vollständig
@@ -141,6 +141,12 @@ Folge | Grund für die Stelle:
    zuletzt, weil sie Pfad-, Summen- und Zählarbeit verbinden.
 4. Ohne Zurücklegen (Lerneinheit 4) | zuletzt: Nenner und Zähler
    ändern sich je Stufe – die veränderte Grundmenge aus 2, jetzt im Baum.
+   Innen (Bau XKT): zweimal ziehen, ein Pfad → mehrere Pfade und die
+   zweite Person (erster Zug gehört in den Pfad; Rechnung als Ereignis
+   lesen) → drei Züge (aufgebrauchte Sorte, „unter den ersten drei“,
+   Behauptung „doppelt so viele“) → mit oder ohne Zurücklegen erkennen
+   und vergleichen. Das Mischen steht zuletzt, weil man erst
+   unterscheiden kann, was man beides kennt.
 
 Vorher-Check (Zone): wahrscheinlichkeit-zone-f1-v1, wahrscheinlichkeit-zone-f1-v3,
 wahrscheinlichkeit-zone-f2-v2, wahrscheinlichkeit-zone-f2-v3,
@@ -200,6 +206,24 @@ Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlan
 | L3-C | Mindestens einmal: über das Gegenteil | „Mindestens einmal“ hat viele Pfade, das Gegenteil „keinmal“ nur einen. Rechne das Gegenteil und zieh es von 1 ab. | $P(\text{mindestens einmal}) = 1 - P(\text{keinmal})$ \qquad $P(\text{nicht zweimal}) = 1 - P(\text{zweimal})$ | wahrscheinlichkeit-e3-k3-s6-v5 | wahrscheinlichkeit-e3-k3-s6-v6, wahrscheinlichkeit-e3-k3-s7-v4, wahrscheinlichkeit-e3-k3-s7-v5, wahrscheinlichkeit-e3-k3-s6-v7 | wahrscheinlichkeit-e3-k3-s6-v8, wahrscheinlichkeit-e3-k3-s6-v9, wahrscheinlichkeit-e3-k3-s7-v6 |
 | L3-D | Drei Stufen | Bei drei Stufen hat jeder Pfad drei Äste, du multiplizierst drei Zahlen. Pfade mit gleich vielen Treffern haben dieselbe Wahrscheinlichkeit. | $P(\text{Pfad}) = P_1 \cdot P_2 \cdot P_3$ \qquad mindestens zweimal $=$ genau zweimal $+$ dreimal | wahrscheinlichkeit-e3-k3-s8-v4 | wahrscheinlichkeit-e3-k3-s8-v5, wahrscheinlichkeit-e3-k3-s8-v6, wahrscheinlichkeit-e3-k3-s8-v7, wahrscheinlichkeit-e3-k3-s11-v3 | wahrscheinlichkeit-e3-k3-s8-v8, wahrscheinlichkeit-e3-k3-s8-v9, wahrscheinlichkeit-e3-k3-s11-v4, wahrscheinlichkeit-e3-k3-s8-v10 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | wahrscheinlichkeit-e3-k3-s2-v6, wahrscheinlichkeit-e3-k3-s4-v9, wahrscheinlichkeit-e3-k3-s6-v10, wahrscheinlichkeit-e3-k3-s11-v5, wahrscheinlichkeit-e3-k3-s10-v6 | wahrscheinlichkeit-e3-k3-s5-v6, wahrscheinlichkeit-e3-k3-s10-v7 |
+
+#### Lerneinheit 4 – Ohne Zurücklegen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung XKT · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: P(beide gleich) und Ereignis zur Rechnung (2018-OS-K7c); drei Züge, Behauptung 20 : 1 statt 2 : 1 (2019-OS-K6c); Klara als Zweite, 4/5 · 1/4 (2024-OS-K5c); unter den ersten drei (2015-OS-K7d); Zettel kommen zurück (2024-OS-K5b)
+Blatt: Klasse 9 · Vorher: Baumdiagramm und Pfadregeln · Weiter: Vierfeldertafel und bedingte Wahrscheinlichkeit
+Titel: Ohne Zurücklegen
+Formel: Pfad: mal \qquad mehrere Pfade: plus
+Vorgehen: lesen, ob das Gezogene zurückkommt; Baum zeichnen, nach jedem Zug Nenner und Zähler anpassen; die Pfade zum Ereignis suchen; je Pfad multiplizieren, die Pfade addieren
+Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlangt ist (eine Stelle nach dem Komma).
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L4-A | Zweimal ziehen: eins weniger | Ohne Zurücklegen fehlt beim 2. Zug das erste Stück: Der Nenner ist um 1 kleiner, bei der gezogenen Sorte auch der Zähler. Darum hat die 2. Stufe nach jedem Ast der 1. Stufe andere Zahlen. | $P(\text{zweimal Rot}) = \dfrac{\text{rote}}{\text{alle}} \cdot \dfrac{\text{rote} - 1}{\text{alle} - 1}$ | wahrscheinlichkeit-e4-k1-s1-v6 | wahrscheinlichkeit-e4-k1-s0-v5, wahrscheinlichkeit-e4-k1-s2-v4, wahrscheinlichkeit-e4-k1-s1-v7, wahrscheinlichkeit-e4-k1-s1-v8 | wahrscheinlichkeit-e4-k1-s0-v6, wahrscheinlichkeit-e4-k1-s1-v9, wahrscheinlichkeit-e4-k1-s2-v5, wahrscheinlichkeit-e4-k1-s1-v10 |
+| L4-B | Mehrere Pfade, zweite Person | Gehören mehrere Pfade zum Ereignis, rechnest du jeden Pfad mit seinen eigenen Ästen und addierst. Fragt man, was die zweite Person zieht, gehört der Zug der ersten mit in den Pfad. | $P(\text{Ereignis}) = P(\text{Pfad 1}) + P(\text{Pfad 2}) + \ldots$ | wahrscheinlichkeit-e4-k1-s3-v4 | wahrscheinlichkeit-e4-k1-s3-v5, wahrscheinlichkeit-e4-k1-s3-v6, wahrscheinlichkeit-e4-k1-s4-v4, wahrscheinlichkeit-e4-k1-s4-v5 | wahrscheinlichkeit-e4-k1-s3-v7, wahrscheinlichkeit-e4-k1-s3-v8, wahrscheinlichkeit-e4-k1-s4-v6, wahrscheinlichkeit-e4-k1-s4-v7 |
+| L4-C | Drei Züge | Bei drei Zügen wird der Nenner zweimal kleiner. Pfade mit denselben Sorten in anderer Reihenfolge haben dieselbe Wahrscheinlichkeit. Ist eine Sorte aufgebraucht, hat der Punkt nur noch einen Ast. | $P(\text{dreimal Rot}) = \dfrac{\text{rote}}{\text{alle}} \cdot \dfrac{\text{rote} - 1}{\text{alle} - 1} \cdot \dfrac{\text{rote} - 2}{\text{alle} - 2}$ \qquad $P(\text{mindestens einmal}) = 1 - P(\text{keinmal})$ | wahrscheinlichkeit-e4-k1-s6-v4 | wahrscheinlichkeit-e4-k1-s5-v4, wahrscheinlichkeit-e4-k1-s6-v5, wahrscheinlichkeit-e4-k1-s7-v4, wahrscheinlichkeit-e4-k1-s9-v4 | wahrscheinlichkeit-e4-k1-s5-v5, wahrscheinlichkeit-e4-k1-s6-v6, wahrscheinlichkeit-e4-k1-s7-v5, wahrscheinlichkeit-e4-k1-s9-v5 |
+| L4-D | Mit oder ohne Zurücklegen? | Kommt das Gezogene zurück (Zettel in den Topf, Glücksrad, Würfel), bleiben die Äste auf jeder Stufe gleich. Wird es behalten oder gegessen, ändern sie sich. Lies im Text, was mit dem ersten Stück passiert. | mit: $\dfrac{\text{rote}}{\text{alle}} \cdot \dfrac{\text{rote}}{\text{alle}}$ \qquad ohne: $\dfrac{\text{rote}}{\text{alle}} \cdot \dfrac{\text{rote} - 1}{\text{alle} - 1}$ | wahrscheinlichkeit-e4-k1-s8-v4 | wahrscheinlichkeit-e4-k1-s8-v5, wahrscheinlichkeit-e4-k1-s8-v6, wahrscheinlichkeit-e4-k1-s8-v7, wahrscheinlichkeit-e4-k1-s8-v8 | wahrscheinlichkeit-e4-k1-s8-v9, wahrscheinlichkeit-e4-k1-s8-v10, wahrscheinlichkeit-e4-k1-s9-v6 |
+| L4-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | wahrscheinlichkeit-e4-k1-s2-v6, wahrscheinlichkeit-e4-k1-s3-v9, wahrscheinlichkeit-e4-k1-s8-v11, wahrscheinlichkeit-e4-k1-s7-v6, wahrscheinlichkeit-e4-k1-s10-v3 | wahrscheinlichkeit-e4-k1-s1-v11, wahrscheinlichkeit-e4-k1-s10-v4 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
