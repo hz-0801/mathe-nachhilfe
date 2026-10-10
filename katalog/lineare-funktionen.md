@@ -108,8 +108,8 @@ Zuordnung: Einheit 1 – kein Typ (proportionale Funktion als Vorstufe, Typen be
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten VUC/E1, NKP/E2 und ZLZ/E3;
-E4–E5 sind in Abschnittsform noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten VUC/E1, NKP/E2, ZLZ/E3
+und PRC/E5; E4 ist in Abschnittsform noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Proportionale Funktion (Lerneinheit 1) | y = m · x ohne n: Quotient,
@@ -136,6 +136,13 @@ Folge | Grund für die Stelle:
 5. Anwendungen (Lerneinheit 5) | Tarife mit Grundgebühr vereinen 1–4;
    der Vergleich „proportional oder mit Grundgebühr“ (E1 A, Ziel)
    kehrt dort als Tarifvergleich wieder.
+   Folge im Bau PRC: Gleichung aus dem Text (auch abnehmend, aus der
+   Tabelle) → Graph und Gleichung in der Sache (n, m mit
+   Achseneinteilung; Schnittpunkt ablesen) → Endwert und rückwärts
+   (Runden nach der Sache) → Tarife vergleichen (für eine Menge, mit
+   Freimenge, ab wann: gleichsetzen). Der Sachgraph steht vor dem
+   Rechnen, weil der abgelesene Schnittpunkt das Gleichsetzen
+   vorbereitet. Gleichsetzen ist in D vorgerechnet, solange E4 fehlt.
 
 Vorher-Check (Zone): lineare-funktionen-zone-f1-v1,
 lineare-funktionen-zone-f1-v2, lineare-funktionen-zone-f2-v1,
@@ -221,6 +228,28 @@ Tisch: Rechne mit Bleistift; Taschenrechner nur, wo die Zahlen krumm werden.
 | L3-C | x zum Funktionswert finden | Ist der Funktionswert gegeben und $x$ gesucht, setzt du den Term gleich dem Wert und löst die Gleichung nach $x$. | $m \cdot x + n = y$ \ $\xrightarrow{\ -n\ }$ \ $m \cdot x = y - n$ \ $\xrightarrow{\ :m\ }$ \ $x = \ldots$\par {\small Probe: $x$ einsetzen, es muss $y$ herauskommen. Durch $\frac{1}{2}$ teilen heißt mal 2.} | lineare-funktionen-e3-k2-s4-v4 | lineare-funktionen-e3-k2-s4-v5, lineare-funktionen-e3-k2-s4-v6, lineare-funktionen-e3-k2-s4-v7, lineare-funktionen-e3-k2-s4-v8, lineare-funktionen-e3-k2-s7-v25 | lineare-funktionen-e3-k2-s4-v9, lineare-funktionen-e3-k2-s4-v10, lineare-funktionen-e3-k2-s4-v11, lineare-funktionen-e3-k2-s4-v12, lineare-funktionen-e3-k2-s7-v26 |
 | L3-D | Nullstelle und Schnittpunkte mit den Achsen | Die Nullstelle ist das $x$, für das $f(x) = 0$ ist. Dort schneidet die Gerade die $x$-Achse. Die $y$-Achse schneidet sie bei $n$. | $m \cdot x + n = 0$ \ $\to$ \ Nullstelle $x_0$ \qquad $x$-Achse: $(x_0 \mid 0)$ \qquad $y$-Achse: $(0 \mid n)$ | lineare-funktionen-e3-k2-s6-v4 | lineare-funktionen-e3-k2-s6-v5, lineare-funktionen-e3-k2-s6-v6, lineare-funktionen-e3-k2-s7-v27, lineare-funktionen-e3-k5-s4-v4 | lineare-funktionen-e3-k2-s6-v7, lineare-funktionen-e3-k2-s6-v8, lineare-funktionen-e3-k2-s6-v9, lineare-funktionen-e3-k2-s7-v28, lineare-funktionen-e3-k5-s4-v5 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | lineare-funktionen-e3-k2-s2-v10, lineare-funktionen-e3-k2-s7-v29, lineare-funktionen-e3-k2-s4-v13, lineare-funktionen-e3-k2-s6-v10, lineare-funktionen-e3-k5-s4-v6 | lineare-funktionen-e3-k2-s2-v11, lineare-funktionen-e3-k2-s7-v30, lineare-funktionen-e3-k5-s4-v7 |
+
+#### Lerneinheit 5 – Anwendungen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung PRC · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Gleichung zu einem Tarif ankreuzen, Cent und Euro gemischt (2021-OS-K7a); Gleichung aus dem Sachverhalt aufstellen und daraus eine Mindestzahl bestimmen (2022-OS-K6b, 2016-OS-K6c); Endwert linearer Veränderung (2022-OS-K6a, 2021-OS-K6a); Graph zu Tarif zuordnen (2016-OS-K6a, 2023-OS-K3a); zwei Tarife mit Grundgebühr und Freimenge vergleichen und den günstigeren wählen (2023-OS-K3b, 2016-OS-K6b)
+Blatt: Klasse 8 · Vorher: Punkte und Werte · Weiter: Lineare Gleichungssysteme
+Titel: Anwendungen: Tarife und lineare Vorgänge
+Formel: $y = m \cdot x + n$
+In Worten: In der Sache ist $x$ eine Menge (Stunden, km, Monate) und $y$ ein Preis oder Bestand. Jede Einheit von $x$ ändert $y$ um gleich viel.
+Vorgehen: lesen: Was ist $x$, was ist $y$? Mit Einheit notieren; die Gleichung aufschreiben; rechnen, was die Frage verlangt; Antwortsatz mit Einheit
+Bild: lineare-funktionen-e5-k4-s3-v6
+Fehler: Startwert und Änderung vertauscht: 3,50 € Grundgebühr und 2 € je km ergibt $y = 2x + 3{,}5$, nicht $y = 3{,}5x + 2$.
+Fehler: Cent und Euro gemischt: 30 Cent je kWh ist $m = 0{,}30$, nicht $m = 30$.
+Tisch: Taschenrechner erlaubt. Rechne mit Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L5-A | Gleichung aus dem Text | $n$ ist der Startwert: was bei $x = 0$ schon da ist (Grundgebühr, Anfangsbestand). $m$ ist die Änderung je Einheit; nimmt etwas ab, ist $m$ negativ. | $y = m \cdot x + n$ \qquad $m$ = Änderung je Einheit \qquad $n$ = Startwert\par {\small In einer Tabelle steht $n$ unter $x = 0$; $m$ ist der Zuwachs von Spalte zu Spalte.} | lineare-funktionen-e5-k1-s2-v4 | lineare-funktionen-e5-k1-s1-v6, lineare-funktionen-e5-k1-s2-v5, lineare-funktionen-e5-k1-s2-v6, lineare-funktionen-e5-k4-s3-v4, lineare-funktionen-e5-k4-s2-v4 | lineare-funktionen-e5-k1-s0-v5, lineare-funktionen-e5-k1-s1-v7, lineare-funktionen-e5-k1-s2-v7, lineare-funktionen-e5-k4-s3-v5, lineare-funktionen-e5-k4-s2-v5 |
+| L5-B | Graph und Gleichung in der Sache | Im Sachgraphen liest du $n$ an der $y$-Achse ab und $m$ an zwei Gitterpunkten der Geraden. Achte auf die Einteilung der Achsen. | $m = \dfrac{\text{Änderung von } y}{\text{Änderung von } x}$ \qquad Startwert: Punkt $(0 \mid n)$\par {\small Durch den Ursprung: keine Grundgebühr. Waagerecht: fester Preis. Schnittpunkt: beide gleich teuer.} | lineare-funktionen-e5-k4-s3-v6 | lineare-funktionen-e5-k4-s3-v7, lineare-funktionen-e5-k3-s1-v4, lineare-funktionen-e5-k1-s5-v19 | lineare-funktionen-e5-k2-s1-v4, lineare-funktionen-e5-k4-s3-v8, lineare-funktionen-e5-k3-s1-v5, lineare-funktionen-e5-k4-s3-v9, lineare-funktionen-e5-k2-s1-v5, lineare-funktionen-e5-k1-s5-v20 |
+| L5-C | Endwert und rückwärts | Ist $x$ gegeben, setzt du ein und erhältst den Endwert. Ist der Wert gegeben, setzt du den Term gleich diesem Wert und löst nach $x$. | $x$ gegeben: \ $m \cdot x + n$ ausrechnen \qquad $y$ gegeben: \ $m \cdot x + n = y$ \ $\xrightarrow{\ -n\ }$ \ $\xrightarrow{\ :m\ }$ \ $x$\par {\small Runden nach der Sache: „mindestens“ heißt aufrunden, „höchstens“ heißt abrunden.} | lineare-funktionen-e5-k1-s3-v4 | lineare-funktionen-e5-k1-s3-v5, lineare-funktionen-e5-k4-s4-v4, lineare-funktionen-e5-k1-s2-v8, lineare-funktionen-e5-k1-s2-v9, lineare-funktionen-e5-k1-s2-v10 | lineare-funktionen-e5-k1-s3-v6, lineare-funktionen-e5-k4-s4-v5, lineare-funktionen-e5-k1-s2-v11, lineare-funktionen-e5-k1-s2-v12, lineare-funktionen-e5-k1-s2-v13 |
+| L5-D | Tarife vergleichen | Für eine bestimmte Menge rechnest du beide Tarife aus und vergleichst. Ab welcher Menge ein Tarif günstiger wird, findest du, indem du beide Terme gleichsetzt. | $m_1 \cdot x + n_1 = m_2 \cdot x + n_2$ \ $\to$ \ $x$-Glieder auf eine Seite \ $\to$ \ $x$ ausrechnen\par {\small Probe mit einem größeren $x$: Welcher Tarif ist dort günstiger? Freie km oder Minuten: Nur der Rest kostet extra.} | lineare-funktionen-e5-k1-s5-v21 | lineare-funktionen-e5-k1-s4-v4, lineare-funktionen-e5-k1-s5-v22, lineare-funktionen-e5-k1-s4-v5, lineare-funktionen-e5-k1-s5-v23 | lineare-funktionen-e5-k1-s4-v6, lineare-funktionen-e5-k1-s5-v24, lineare-funktionen-e5-k1-s4-v7, lineare-funktionen-e5-k1-s5-v25 |
+| L5-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | lineare-funktionen-e5-k1-s1-v8, lineare-funktionen-e5-k4-s3-v10, lineare-funktionen-e5-k1-s3-v7, lineare-funktionen-e5-k1-s5-v26 | lineare-funktionen-e5-k1-s1-v9, lineare-funktionen-e5-k1-s3-v8, lineare-funktionen-e5-k1-s5-v27 |
 
 ## Prüfliste (vor Status „gegengelesen")
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
