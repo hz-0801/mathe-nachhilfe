@@ -207,13 +207,13 @@ Tisch: Zeichne mit Lineal und Bleistift auf Karopapier.
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | lineare-funktionen-e2-k4-s8-v11, lineare-funktionen-e2-k5-s5-v6, lineare-funktionen-e2-k6-s1-v12, lineare-funktionen-e2-k7-s3-v8 | lineare-funktionen-e2-k4-s8-v12, lineare-funktionen-e2-k5-s5-v7, lineare-funktionen-e2-k7-s3-v9 |
 
 #### Lerneinheit 3 – Punkte und Werte (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung ZLZ · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung ZLZ · Kritiker: durch, erledigt (übernommen: m und n in Worten S. 1 und Beispiel B, Graph B4 kleiner für Rechenplatz, C4 −0,5x + 1, C5 „Wochen zählen nur ganz“) · Lehrer: –
 Form: abschnitte
 Ziel: Funktionswert zu einem negativen Argument mit Bruchsteigung (2017-OS-K5b); Punktprobe (P10 „Funktionen allgemein“); Nullstelle berechnen, auch in der Sache mit Dezimalsteigung (2022-OS-K3a, 2021-OS-K6d); Nullstelle und Schnittpunkt am Graphen ablesen (2019-OS-K2a, 2023-OS-K4a)
 Blatt: Klasse 8 · Vorher: Lineare Funktion f(x) = mx + n · Weiter: Gleichung bestimmen
 Titel: Punkte und Werte: rechnen mit $f(x) = m \cdot x + n$
 Formel: $f(x) = m \cdot x + n$ \qquad Punkt $P(x \mid y)$
-In Worten: Zu jedem $x$ gehört genau ein Funktionswert $f(x)$. Der Punkt $(x \mid f(x))$ liegt auf der Geraden.
+In Worten: Zu jedem $x$ gehört genau ein Funktionswert $f(x)$. Der Punkt $(x \mid f(x))$ liegt auf der Geraden. $n$: wo die Gerade die $y$-Achse schneidet. $m$: so viel geht sie je Schritt nach rechts hoch (minus: runter).
 Vorgehen: lesen, was gegeben ist: $x$ oder $y$; $x$ gegeben: einsetzen und ausrechnen; $y$ gegeben: Term gleich $y$ setzen und nach $x$ auflösen; zum Schluss die Frage der Aufgabe beantworten
 Bild: lineare-funktionen-e3-k2-s2-v5
 Fehler: Punkt vertauscht: In $P(4 \mid 5)$ ist 4 der $x$-Wert. Setze 4 ein, nicht 5.
