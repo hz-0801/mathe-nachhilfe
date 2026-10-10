@@ -1,6 +1,6 @@
 """Daten für die Abitur-Handreichungen GK und LK (v0.1, 03.10.2026).
 
-Die Themen sind die Themenknöpfe des Abitur-Baums (offen.html,
+Die Themen sind die Themenknöpfe des Abitur-Baums (früher offen.html, seit 10.10. pruefung.md § 3,
 werkzeuge/baum-offen.py); jede Themenbezeichnung des Katalogs gehört zu
 genau einem Knopf (KNOPF unten). Gezählt werden alle angebotenen BE der
 Hefte 2022–2026 (Teil A und Teil B, beide Wahlwege) aus

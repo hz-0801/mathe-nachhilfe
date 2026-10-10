@@ -31,7 +31,7 @@ KAPITEL = OrderedDict([
     ('quadratische', 'Quadratische'), ('gleichungssysteme', 'Gleichungssysteme'),
     ('wachstum', 'Wachstum'), ('daten', 'Daten'),
     ('wahrscheinlichkeit', 'Wahrscheinlichkeit')])
-REGELSTAND = '2026-10-07'  # jüngster Stand von bau/bauregeln.md (plan.md W3)
+REGELSTAND = '2026-10-07'  # jüngster Stand der Bauregeln (seit 10.10. gemeinsam.md); nur Anzeige
 
 
 def lies_csv(pfad):

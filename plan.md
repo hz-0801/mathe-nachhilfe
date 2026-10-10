@@ -215,7 +215,15 @@ vollständig, dann ordnen, dann bauen.
    am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9) –
    erledigt 10.10.;
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
-3. Dann Bestand ordnen (welche Dateien gelten, Rest ins Archiv).
+3. Bestand ordnen, gekürzt auf das, was Bau-Agenten in die Irre
+   führt (Lehrer 10.10., ersetzt „welche Dateien gelten, Rest ins
+   Archiv“): offen.html und bauregeln.md ins Archiv, alle Verweise
+   darauf in geltenden Dateien, Skripten und Einstiegen auf
+   gemeinsam.md/pruefung.md – erledigt 10.10. Das volle Ordnen der
+   Repos nach § 9.
+4. Erster Bau nach pruefung.md: eine P10-Einheit aus dem Zuschnitt
+   (§ 2) als Prüfungsblatt bauen, Kritiker, Lehrer sieht sie. Prüft,
+   ob die Sortendatei trägt, bevor die 27 Einheiten gebaut werden.
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
@@ -259,6 +267,10 @@ Bestellen in Alltagswörtern (Name, Thema, „nur …“, „Prüfung“,
 „leichter/mehr/weiter“) statt Knöpfen und Kennungen – prüfen an den
 nächsten echten Bestellungen (Lehrer 10.10.: „sehen wir, wenn ich
 bestelle“).
+
+Volles Ordnen der Repos (alte Befunde, Berichte, Entwürfe, Blätter
+außerhalb von archiv/) – stört keinen Agenten, der über CLAUDE.md
+einsteigt; verschoben 10.10., bis es im Weg liegt.
 
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
@@ -331,6 +343,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Grundwert (Lehrer). Messwert in § 8.
 - 10.10.2026 (k): Echte Aufgaben je Sorte im Prüfungsblatt (Register
   § 11); Entwürfe pruefung.md und gemeinsam.md für Schritt 2 (Lehrer).
+
+- 10.10.2026 (o): § 7 Schritt 3 gekürzt auf Verweise und Archiv der
+  zwei abgelösten Dateien (Lehrer: „j“); volles Ordnen nach § 9;
+  Schritt 4 = erster Bau nach pruefung.md.
 
 ## 11 Register der Entscheidungen
 

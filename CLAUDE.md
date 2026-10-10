@@ -3,8 +3,7 @@
 > **Einstieg (10.10.2026).** Für Blätter, Bank und Katalog gelten nur diese
 > sechs Dateien, in dieser Rangfolge: `mathe-nachhilfe/plan.md` (Ziel, Linien,
 > nächster Schritt) → `mathe-nachhilfe/pruefung.md` (Sorte Prüfung) →
-> `mathe-nachhilfe/gemeinsam.md` (Handwerk; ersetzt seit 10.10. aufgabenbank
-> `bau/bauregeln.md` und `offen.html`) → aufgabenbank
+> `mathe-nachhilfe/gemeinsam.md` (Handwerk) → aufgabenbank
 > `bau/bauauftrag.md` (eine Lerneinheit bauen) → aufgabenbank `bank.md`
 > (Zeilenform) → `mathe-nachhilfe/begriffe.md` (Wörter). Alles andere ist
 > Beleg oder Archiv.

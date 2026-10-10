@@ -3,8 +3,7 @@
 > **Einstieg (10.10.2026).** Für Blätter, Bank und Katalog gelten nur diese
 > sechs Dateien, in dieser Rangfolge: `mathe-nachhilfe/plan.md` (Ziel, Linien,
 > nächster Schritt) → `mathe-nachhilfe/pruefung.md` (Sorte Prüfung) →
-> `mathe-nachhilfe/gemeinsam.md` (Handwerk; ersetzt seit 10.10. aufgabenbank
-> `bau/bauregeln.md` und `offen.html`) → aufgabenbank
+> `mathe-nachhilfe/gemeinsam.md` (Handwerk) → aufgabenbank
 > `bau/bauauftrag.md` (eine Lerneinheit bauen) → aufgabenbank `bank.md`
 > (Zeilenform) → `mathe-nachhilfe/begriffe.md` (Wörter). Alles andere ist
 > Beleg oder Archiv.
@@ -33,7 +32,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `tafel.md` – Fortschrittstafel: je P10-Kapitel, Stufe und Bankeintrag der Stand (Steckbrief, Heft, Prüfung, Abnahme); gebaut von `werkzeuge/tafel.py`, nie von Hand. `abnahme.csv` – Abnahmen des Lehrers (ebene;name;datum;urteil;anmerkung), die einzige Handeingabe der Tafel.
 - `uebergabe.md` – Stand und nächster Arbeitsschritt der Prompt-Werkstatt; ein neuer Chat liest sie zuerst. Stand 2026-10-09. Wird bei jedem Umzug ersetzt; die vorige liegt dann in `archiv/`.
 - `ueberblick-2026-10-07.md` – Bestandsaufnahme aller Ziel-, Beschluss- und Plandateien (07.10.): Ziel, Bestand, Diagnose, offene Widersprüche, Weg. Vor jeder größeren Entscheidung lesen.
-- `offen.html` – Entscheidungsbaum der Bedienung (Ast → Art → Thema, Zeitraum, Lösung) und Liste der offenen Punkte; wird im Chat rechts angezeigt. Der Baum wird von `werkzeuge/baum-offen.py` geschrieben (Baum im Skript ändern, dann ausführen); die Liste darunter von Hand.
+- `archiv/offen-2026-10-10.html` – früherer Entscheidungsbaum und offene Punkte; abgelöst 10.10.2026 durch `pruefung.md` (Baum § 3) und `gemeinsam.md`. Nur Beleg.
 - `vorschlag-einbindung-2026-09-28.md` – Einbindungslauf K1/K2 (28.09.2026): Befunde aus DDR-Altlehrwerken (Sek I, Pflichtformen, Sek II) und Literatur (Blattarten, Nachhilfe-Situationen) gegen Katalog, bank.md, Sprachregeln, Layoutbefunde, ziel.md und Prompts; je Fund Ort, Quelle, Vorschlag in fünf Zielkategorien; Überschneidungen vorn. Urteil im Chat, Umsetzung danach.
 - `urteil-einbindung-2026-09-28.md` – Urteile des Chats und des Lehrers über alle 73 Funde der Vorschlagsdatei (A, Ä, N; acht offene Fälle entschieden); Grundlage des Auftrags Katalog-Nachzug, Kopfzeile nennt die Umsetzungs-Commits. Teil D/E (ziel.md, Prompts) bleiben beim Chat.
 - `bericht-katalog-nachzug.md` – Bericht des Auftrags Katalog-Nachzug (29.09.2026): eingefügte Sprossen je Eintrag, Abweichungen vom Wortlaut, Liste der Einträge für die Bank-Aufträge. Auftrag und Standdatei (`stand-katalog-nachzug.md`) liegen nach Abschluss in `archiv/`.
@@ -394,7 +393,7 @@ und ihre Adressen sind nicht gesichert. Deshalb liegen sie hier.
 
 Lesen die Kataloge, ändern nichts. Ausgabeordner `baende/` und `korpus/` sind lokal (`.gitignore`).
 
-- `baum-offen.py` – zeichnet den Entscheidungsbaum oben in `offen.html` (SVG) aus der Baumbeschreibung im Skript; seit 03.10.2026.
+- `archiv/baum-offen.py` – zeichnete den Baum in offen.html; mit ihr archiviert 10.10.2026.
 - `band-anleitung.md`, `band-bau.py`, `fhr-band-struktur.py`, `fhr-band.csv` – Sammelbände aus den Originalseiten.
 - `korpus-bau.py`, `korpus-protokoll.md` – Markdown-Korpus und OCR der Prüfungshefte.
 - `themen-inventar.py`, `themen-inventar.md` – Themennamen aller vier Prüfungskataloge gezählt; Vorstufe der Themenkonkordanz.
