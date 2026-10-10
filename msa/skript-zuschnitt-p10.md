@@ -112,27 +112,26 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Kapitel Prozent
 
-#### Prozent – 10 · 5 J · zuletzt 2026 · 16 BE · dazu 1 aus anderen Abschnitten
+#### Prozent – 11 · 5 J · zuletzt 2026 · 19 BE · dazu 1 aus anderen Abschnitten
 - neu: Prozent und Anteil umwandeln – 2022-OS-B1f (Prozent und Anteil umwandeln)
 - neu: Prozentwert – 2026-FOR-B1a (Prozentwert berechnen)
-- neu: Prozentsatz – 2023-OS-K6a (Prozentsatz berechnen)
-- neu: Grundwert – 2023-OS-B1b (Grundwert berechnen), 2025-OS-B1a (Grundwert berechnen)
-- neu: Erhöhung und Veränderung in Prozent – 2024-OS-B1e (Wert nach prozentualer Erhöhung berechnen), 2022-OS-K4b (Prozentuale Veränderung berechnen), 2026-FOR-K3c (Prozentuale Veränderung berechnen)
-- neu: Aussagen prüfen – 2023-OS-K6b (Anteilsaussage prüfen und korrigieren), 2025-OS-K4b (Steigung in Prozent deuten)
-- neu: Prozent aus einer berechneten Fläche – 2023-OS-K5c (Verschnitt in Prozent berechnen; kennst du aus „Flächeninhalt und Umfang“)
+- neu: Prozentsatz – 2023-OS-K6a (Prozentsatz berechnen), 2023-OS-K6b (Anteilsaussage prüfen und korrigieren), 2025-OS-K4b (Steigung in Prozent deuten), 2025-OS-K6b (Prozentsatz berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen; kennst du aus „Flächeninhalt und Umfang“)
+- neu: Grundwert (erst erkennen: Ganzes oder Teil?) – 2023-OS-B1b (Grundwert berechnen), 2025-OS-B1a (Grundwert berechnen)
+- neu: Wert nach Erhöhung – 2024-OS-B1e (Wert nach prozentualer Erhöhung berechnen)
+- neu: Veränderung in Prozent – 2022-OS-K4b (Prozentuale Veränderung berechnen), 2026-FOR-K3c (Prozentuale Veränderung berechnen)
 
 ### Kapitel Daten
 
 #### Kenngrößen – 10 · 5 J · zuletzt 2026 · 22 BE
-- neu: Minimum, Maximum, Spannweite – 2026-FOR-K3a (Spannweite berechnen), 2024-OS-K2a (Spannweite berechnen), 2023-OS-K6c (Spannweite berechnen), 2022-OS-K4a (Minimum und Maximum ablesen)
+- neu: Minimum, Maximum, Spannweite – 2022-OS-K4a (Minimum und Maximum ablesen), 2023-OS-K6c (Spannweite berechnen), 2026-FOR-K3a (Spannweite berechnen), 2024-OS-K2a (Spannweite berechnen), 2025-OS-K6a (Kenngrößen einer Liste prüfen)
 - neu: Median – 2024-OS-B1h (Median bestimmen)
-- neu: Mittelwert – 2026-FOR-K3b (Arithmetisches Mittel berechnen), 2024-OS-K2b (Arithmetisches Mittel berechnen)
+- neu: Modalwert – 
+- neu: Mittelwert – 2026-FOR-K3b (Arithmetisches Mittel berechnen), 2024-OS-K2b (Arithmetisches Mittel berechnen), 2025-OS-K6c (Arithmetisches Mittel berechnen)
 - neu: rückwärts: fehlender Wert – 2022-OS-B1d (Fehlenden Wert aus Mittelwert bestimmen)
-- neu: Aussagen prüfen, Auswirkung erklären – 2025-OS-K6a (Kenngrößen einer Liste prüfen), 2025-OS-K6c (Arithmetisches Mittel berechnen)
 
-#### Kreisdiagramm – 3 · 3 J · zuletzt 2025 · 9 BE
+#### Kreisdiagramm – 2 · 2 J · zuletzt 2024 · 6 BE · dazu 1 aus anderen Abschnitten
 - neu: Winkel berechnen und beschriften – 2022-OS-K4d (Sektor im Kreisdiagramm zuordnen), 2024-OS-K2c (Sektor im Kreisdiagramm zuordnen)
-- neu: aus Prozent darstellen – 2025-OS-K6b (Prozentsatz berechnen)
+- neu: aus Prozent darstellen (selten geprüft, auffüllen) – 2025-OS-K6b (Prozentsatz berechnen; kennst du aus „Prozent“)
 
 #### Diagramm ergänzen und beurteilen – 4 · 3 J · zuletzt 2026 · 7 BE
 - neu: ergänzen – 2026-FOR-K3d (Säulen- oder Balkendiagramm ergänzen), 2023-OS-K6d (Achsenskalierung aus Säule bestimmen)
@@ -146,7 +145,7 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Wahrscheinlichkeit angeben – 2024-OS-K5a (Wahrscheinlichkeit einstufig), 2026-FOR-K6a (Wahrscheinlichkeit einstufig)
 
 #### Baumdiagramm und Pfadregeln – 8 · 3 J · zuletzt 2026 · 20 BE
-- neu: Baum ergänzen – 2024-OS-K5b (Baumdiagramm ergänzen), 2026-FOR-K6b (Baumdiagramm ergänzen)
+- neu: Baum ergänzen (Bank: reine Baum-Sprossen davor) – 2024-OS-K5b (Baumdiagramm ergänzen), 2026-FOR-K6b (Baumdiagramm ergänzen)
 - neu: Pfadregel – 2025-OS-K3b (Wahrscheinlichkeit mehrstufig unabhängig), 2025-OS-K3c (Wahrscheinlichkeit mehrstufig unabhängig)
 - neu: ohne Zurücklegen – 2024-OS-K5c (Wahrscheinlichkeit mehrstufig ohne Zurücklegen)
 - neu: Gegenereignis – 2026-FOR-K6c (Wahrscheinlichkeit über Gegenereignis berechnen)

@@ -240,6 +240,10 @@ allein, 15–25 min bei fünf parallel. Abgelesen nach Runde 2: Woche
 85–90 % war falsch). Schritt-Zuordnung senkte Kritikerbefunde „Schritt ohne
 Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
+Messwert 10.10. abends (Chat start 23, Fable): Entwürfe pruefung.md und
+gemeinsam.md im Chat + ein Fable-Kritiker Zuschnitt Daten + Zufall
+(134 000 Token, 2½ min) → Woche 75 → 76 %, Fable 39 → 40 %.
+
 ## 9 Später
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
@@ -305,6 +309,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
 - 10.10.2026 (j): Lieferliste je Schüler per Skript; bankblatt v5.9
   (Lehrer).
+- 10.10.2026 (l): Zuschnitt Daten + Zufall nach Fable-Befund korrigiert
+  (msa/befund-zuschnitt-daten-2026-10-10.md); Prozent = ein Blatt mit
+  drei Stufen Prozentwert, Prozentsatz, Grundwert, Erkennen am Anfang von
+  Grundwert (Lehrer). Messwert in § 8.
 - 10.10.2026 (k): Echte Aufgaben je Sorte im Prüfungsblatt (Register
   § 11); Entwürfe pruefung.md und gemeinsam.md für Schritt 2 (Lehrer).
 

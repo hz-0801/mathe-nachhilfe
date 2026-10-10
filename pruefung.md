@@ -67,11 +67,15 @@ Antwortbogen); 27 von 47 Basisaufgaben stehen zusätzlich als unterste
 Stufe in der passenden Einheit (04.10.).
 
 Vor dem Festlegen zu entscheiden:
-- Daten + Zufall hat der Lehrer noch nicht angesehen; Geometrie und
-  Funktionen sind vorläufig (04.10.).
+- Daten + Zufall geprüft (Fable-Kritiker 10.10., Befund
+  msa/befund-zuschnitt-daten-2026-10-10.md, übernommen); Geometrie und
+  Funktionen noch vorläufig (04.10.).
 - „Pythagoras oder Winkelfunktion?“ hat nur Nebenplätze (Prüfskript
   meldet es): eigene Einheit oder Schluss von „Seite oder Winkel“?
-- Prozentwert, Prozentsatz, Grundwert: drei Stufen oder eine gemischte?
+- Prozent: ein Blatt, Stufen Prozentwert, Prozentsatz, Grundwert
+  getrennt; Erkennen (Ganzes oder Teil?) nur am Anfang von Grundwert
+  (Lehrer 10.10.). Ob das Blatt mit sechs Stufen zu lang wird, zeigt
+  der erste Bau.
 - Kleine Einheiten (2–3 Teilaufgaben: Sinussatz, Symmetrie,
   Kreisdiagramm, einstufig) werden nach der Füllfolge (§ 5) aufgefüllt,
   nicht zusammengelegt (04.10.).
