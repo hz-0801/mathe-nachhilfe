@@ -238,6 +238,8 @@ Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
 ## 9 Später
 
+Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Offen: etwa 10 Zeilen, und nicht jeder Eintrag ist eine Lerneinheit – Form noch nicht ausdiskutiert.
+
 Folgebaum der Kennung · Durchgänge · Einstieg unten/oben · Serie mit
 Wiederkehr · Musterbeispiel · Boden unter Klasse 8 · FHR, LK · mündliche
 Prüfung.
