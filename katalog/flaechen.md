@@ -160,7 +160,7 @@ Bankfeld quelle gültig bleiben.
 Serie: Vorher: Flächeneinheiten; Einmaleins und Teilen | Flächen: Rechteck, Quadrat, Umfang; Parallelogramm; Dreieck; Trapez, Drachen, Raute | Zusammengesetzte Figuren | Weiter: Kreis
 
 #### Lerneinheit 1 – Rechteck, Quadrat, Umfang (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung 9WQ · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung 9WQ · Kritiker: erledigt (Nachbesserung 10.10.: D1 L-Figur mit zwei fehlenden Seiten, nur Umfang; Lösung C3 und T1 ohne führendes „; “ (Setzer); D3 „drei gleiche rechteckige Tafeln“) · Lehrer: –
 Form: abschnitte
 Ziel: Rechteckseite aus dem Umfang, erst halbieren (2018-OS-B1f); Rechteckseite aus der Fläche (2023-OS-B1c); Quadratseite aus der Fläche, nicht durch 4 (2020-OS-B1d); Umfang Rechteck (2026-FOR-B1h); aus Rechtecken zusammengesetzte Fläche (2019-OS-K4b)
 Blatt: Klasse 5 · Vorher: Flächeneinheiten · Weiter: Parallelogramm
