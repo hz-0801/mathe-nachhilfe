@@ -107,7 +107,7 @@ Weitere Marken (wie auf dem Blatt): „P10 ’JJ“ – die Sprosse hat ein P10-
 - Zahl mal Klammer (Einheit 3; Prüfungshöhe in der Kette Auflösen und zusammenfassen): Zahl · Klammer (4×, Tabelle als Bild [INKL]) (Stufe) → negative Zahl · Klammer (Stufe) → Variable mal Klammer (Potenz entsteht) (Stufe) → negative Zahl hinter der Klammer, drei Glieder (Stufe) → Dezimal- bzw. Bruchfaktor mit Variable, drei Glieder (Stufe)
 - Auflösen und zusammenfassen (Einheit 3): auflösen und zusammenfassen (Stufe) → Prüfungshöhe: zwei Klammern (Stufe) → zwei Klammern mit Variable davor (Stufe) → Klammer in der Klammer (Stufe) → Abschluss (Anwendung): Sachterm mit Klammer aufstellen, auflösen und für eine Frage nutzen (Stufe) → dreifach verschachtelte Klammern · GYM (Stufe) → drei Klammern mit Variablenfaktoren und zwei Variablen · GYM (Stufe) → Bruchfaktoren vor zwei Klammern · GYM (Stufe)
 - Ausklammern (Einheit 4): Zerlegen mit vorgegebenem Faktor, noch ohne Klammer: jedes Glied als Produkt mit dem Faktor schreiben, sechs x plus fünfzehn gleich drei mal (Lücke) plus drei mal (Lücke) (Vorstufe) → Faktor vorgegeben, nur die Klammer füllen: zu sechs x plus fünfzehn ist der Faktor drei vor der Klammer vorgegeben, die beiden Glieder in der Klammer ergänzen (Vorstufe) → gemeinsamen Zahlfaktor bei zwei Gliedern (4×) (Stufe) → gemeinsame Variable (Stufe) → Zahl und Variable zusammen (Stufe) → ein Glied ist selbst der Faktor, in der Klammer bleibt die Eins (Stufe) → drei Glieder (Stufe) → Probe durch Ausmultiplizieren → Figur aus zwei Rechtecken mit gemeinsamer Seite: Flächeninhalt als Summe der Teilflächen und als gemeinsame Seite mal Summe der anderen Seiten → Prüfungshöhe: kein P10-Original; Zielmarke nach RLP F (Distributivgesetz) und LISUM-PH Jahrgangsstufe sieben, Block „Terme äquivalent umformen“ („Klammer mit Faktor vor oder nach der Klammer auflösen und ausklammern“): einen dreigliedrigen Term mit gemeinsamem Zahl- und Variablenfaktor ausklammern und die Probe durch Ausmultiplizieren führen (Stufe) → negativer Faktor mit zwei Variablen, drei Glieder (Stufe) → Dezimalfaktor mit Variable, Eins bleibt in der Klammer (Stufe) → Abschluss (Anwendung): gleichwertige Sachterme erkennen: Rabatt auf jeden Preis einzeln gegen Rabatt auf die Summe → eine Klammer als gemeinsamer Faktor · GYM (Stufe) → Bruchfaktor mit zwei Variablen ausklammern · GYM (Stufe) → Figur aus zwei Rechtecken: gemeinsame Seite ist ein Term mit Variable, Potenz entsteht · GYM (Stufe)
-- Termwert (Einheit 5; kein P10-Original, Prüfungshöhe mit Zusammenfassen in der Kette Zusammenfassen, Einheit 1): Grundfall: Zahl für die Variable einsetzen, Punkt vor Strich (Stufe) → negative Zahl einsetzen, in Klammern (Stufe) → Quadrat bei negativer Einsetzung (Stufe) → negativer Bruch als Einsetzung beim Quadrat (Stufe) → zwei Variablen, Bruch als Vorzahl und als Einsetzung (Stufe) → Quadrat einer Klammer, zwei Variablen (Stufe)
+- Termwert (Einheit 5; kein P10-Original, Prüfungshöhe mit Zusammenfassen in der Kette Zusammenfassen, Einheit 1): Grundfall: Zahl für die Variable einsetzen, Punkt vor Strich (Stufe) → negative Zahl einsetzen, in Klammern (Stufe) → Quadrat bei negativer Einsetzung (Stufe) → negativer Bruch als Einsetzung beim Quadrat (Stufe) → zwei Variablen, Bruch als Vorzahl und als Einsetzung (Stufe) → Quadrat einer Klammer, zwei Variablen (Stufe) → Klammer im Term, Variable mehrmals (Stufe) → Wertetabelle ausfüllen (Stufe) → negative Zahl einsetzen, Klammer im Term (Stufe) → Termwerte vergleichen (Stufe) → zwei Variablen, negative Zahlen (Stufe) → Bruchstrich: Zähler und Nenner zuerst, negative Zahlen · P10 ’16, ’21 (Stufe) → Abschluss (Anwendung): Formel aus einer Sache: einsetzen und entscheiden (Stufe) (Sprossen 7–13 seit dem Bau MZE 10.10.2026; Lernweg unten)
 - Term aufstellen (Einheit 6): passenden Term ankreuzen (3×) [INKL] → Term aus Wörtern (Doppeltes, um vier mehr) (Stufe) → aus Figur (Stufe) → aus Situation mit zwei Variablen (Stufe) → zusammenfassen → Kette aus drei Anweisungen, bei der die Klammer nötig wird (Doppeltes, Differenz, Verdreifachen) (Stufe) → Prüfungshöhe: unter vier angebotenen Termen den passenden zu einem Sachtext aus drei Anweisungen ankreuzen; die Klammer entscheidet (P10-Form 2023-OS-B1h, Niveau I, ein Punkt, Ankreuzen) · P10 ’23, ’17 (Stufe) → Abschluss (Anwendung): Term zu einem Tarif aufstellen und für eine Frage nutzen (Stufe) → Sachtext mit drei Personen, Klammer und Zusammenfassen · GYM (Stufe) → Figur aus zwei Rechtecken: Fläche und Umfang (Stufenform) · GYM (Stufe)
 
 ### Prüfungsform (P10)
@@ -131,6 +131,52 @@ Zuordnung: Einheit 6 – Term zu Sachtext angeben (typen.csv-Thema „Terme umfo
 - Änderungen 2026-09-30 (Chat, Lehrer): Einheit 1 – Typen „Fehler finden“ und „Begründen“ (5.1); Einheit 3 – Typ „Sachterm mit Klammer auflösen“ (5.2); neuer Erkennungsschritt „Was steckt in jedem Glied?“ vor Einheit 4 (5.3).
 - Änderungen 2026-09-29 (Chat, Lehrer): Einheit 4 – zweite Vorstufe „Zerlegen mit vorgegebenem Faktor, noch ohne Klammer“ vor „Faktor vorgegeben“; Beleg: L8-86 hat den Schritt in der Musterlösung (Schritt 2 „Wir dividieren die Summanden durch ihn“, quellen/altlehrwerke-formen.md), kein Buch als eigene Aufgabe – Lehrwerksbeleg als Aufgabe offen. Nummerierung in der Bank: die Vorstufe vor dem Grundfall bleibt 0, die davor −1 (bank.md). Malnehmen (Einheit 2): „Term durch Zahl teilen“ fehlt weiter (K5, faellig.md); L8-86 führt „Division von Produkten“ als eigene Lehreinheit vor dem Ausklammern.
 - Änderungen 2026-09-28 (Urteile vom 28.09.): Einheit 4 – Vorstufe „Faktor vorgegeben, nur die Klammer füllen“. Einheit 3 – Sprosse „Minusklammer mit Zahlen auf zwei Wegen“ vor „Minusklammer zwei Glieder“. Grundlage: urteil-einbindung-2026-09-28.md.
+
+### Thema-Weg
+Stand: 2026-10-10, erster Bau (Lerneinheit 5, Kennung MZE); vorläufig,
+wird mit jedem weiteren Bau geprüft. Die Folge weicht von der
+Blattfolge „terme“ (Muster 4, Lehrer 01.10.) ab; die Blattfolge gilt
+weiter, bis der Lehrer entscheidet (bau/befunde-M3.md).
+
+Folge | Grund für die Stelle:
+1. Termwerte berechnen (Lerneinheit 5) | Die Variable als Platzhalter
+   für eine Zahl ist die Grundvorstellung aller anderen Einheiten; die
+   Lehrwerke stellen sie in Kl. 6–7 vor das Umformen. P10 fragt den
+   Termwert oft (Aufgabe 1, mit negativen Zahlen und Bruchstrich).
+2. Terme aufstellen (Lerneinheit 6) | Setzt den Platzhalter voraus;
+   der Termwert dient als Probe für den aufgestellten Term.
+3. Terme zusammenfassen (Lerneinheit 1) | Gleichartige Glieder; die
+   Probe durch Einsetzen zeigt, dass 3x + 4 nicht 7x ist.
+4. Terme malnehmen (Lerneinheit 2)
+5. Klammern auflösen (Lerneinheit 3)
+6. Ausklammern (Lerneinheit 4) | Umkehrung von 5, darum danach.
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` in der Form „abschnitte“; fehlt er, ist die Einheit
+noch nicht gebaut. Steht am Ende, damit die Zeilennummern im Bankfeld
+quelle gültig bleiben.
+
+Serie: Vorher: Rechnen mit negativen Zahlen | Terme: Termwerte berechnen; Terme aufstellen; Terme zusammenfassen; Terme malnehmen; Klammern auflösen; Ausklammern | Weiter: Gleichungen lösen
+
+#### Lerneinheit 5 – Termwerte berechnen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung MZE · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog)
+Form: abschnitte
+Ziel: Termwert mit negativer Zahl und Klammer, 5 · (x − 3) für x = −2 (2026-FOR-B1g, 2026-EBR-B1g); Bruchterm (a + b) : c mit negativen Zahlen (2016-OS-B1i, 2021-OS-B1g; GYM 2019-GYM-B1d); Quadrat bei negativer Einsetzung (2022-GYM-B2a). Ziele aus Sachen: reicht das Geld für den Fahrradverleih? kommt das Auto vor dem Kind zum Stehen?
+Blatt: Klasse 7 · Vorher: Rechnen mit negativen Zahlen · Weiter: Terme aufstellen
+Titel: Termwerte berechnen
+Formel: Klammer $\to$ Hochzahl $\to$ Punkt ($\cdot$\,,\,$:$) $\to$ Strich ($+$\,,\,$-$)
+In Worten: Malnehmen und Teilen: gleiche Vorzeichen ergeben Plus, verschiedene Minus: $(-2) \cdot (-3) = 6$, \ $(-6) : 2 = -3$.
+Fehler: $3 \cdot 4 = 12 + 6 = 18$ ist falsch geschrieben, denn $3 \cdot 4$ ist nicht $18$. Richtig: $3 \cdot 4 + 6 = 12 + 6 = 18$.
+Tisch: Ohne Taschenrechner.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L5-A | Zahl einsetzen und ausrechnen | Ein \textbf{Term} wie $4x - 3$ enthält eine \textbf{Variable} $x$: einen Platzhalter für eine Zahl. Setzt du für $x$ eine Zahl ein und rechnest aus, erhältst du den \textbf{Termwert}. | $4x - 3$ \ für \ $x = 5$: \quad $4 \cdot 5 - 3 = 20 - 3 = 17$ | terme-e5-k1-s7-v1 | terme-e5-k1-s1-v6, terme-e5-k1-s7-v2, terme-e5-k1-s8-v1, terme-e5-k1-s13-v1 | terme-e5-k1-s1-v7, terme-e5-k1-s7-v3, terme-e5-k1-s7-v4, terme-e5-k1-s8-v2, terme-e5-k1-s13-v2 |
+| L5-B | Negative Zahlen einsetzen | Eine negative Zahl setzt du in Klammern ein: Aus $3x$ wird $3 \cdot (-2)$. Dann rechnest du in der Reihenfolge von Seite 1. | $2x + 9$ \ für \ $x = -3$: \quad $2 \cdot (-3) + 9 = -6 + 9 = 3$ \par\vspace{3pt} $10 - x$ \ für \ $x = -4$: \quad $10 - (-4) = 10 + 4 = 14$ \par\vspace{3pt} $-2x$ \ für \ $x = -3$: \quad $-2 \cdot (-3) = 6$ | terme-e5-k1-s9-v1 | terme-e5-k1-s2-v4, terme-e5-k1-s2-v5, terme-e5-k1-s9-v2, terme-e5-k1-s10-v1 | terme-e5-k1-s2-v6, terme-e5-k1-s2-v7, terme-e5-k1-s9-v3, terme-e5-k1-s10-v2 |
+| L5-C | Quadrate | Setz eine negative Zahl auch beim Quadrat in Klammern ein. Dann gilt das Quadrat für die ganze Zahl mit Minus, und es kommt immer eine positive Zahl heraus. | $(-3)^2 = (-3) \cdot (-3) = 9$ \qquad $x^2 + 1$ \ für \ $x = -3$: \quad $(-3)^2 + 1 = 9 + 1 = 10$ | terme-e5-k1-s3-v4 | terme-e5-k1-s3-v5, terme-e5-k1-s3-v6, terme-e5-k1-s3-v7, terme-e5-k1-s8-v3 | terme-e5-k1-s3-v8, terme-e5-k1-s3-v9, terme-e5-k1-s3-v10, terme-e5-k1-s8-v4 |
+| L5-D | Zwei Variablen und Bruchstrich | Jede Variable bekommt ihre eigene Zahl. Ein Bruchstrich wirkt wie eine Klammer um Zähler und Nenner: erst oben und unten ausrechnen, dann teilen. | $\dfrac{a + b}{c} = (a + b) : c$ | terme-e5-k1-s12-v1 | terme-e5-k1-s11-v1, terme-e5-k1-s12-v2, terme-e5-k1-s12-v3, terme-e5-k1-s10-v3 | terme-e5-k1-s11-v2, terme-e5-k1-s11-v3, terme-e5-k1-s12-v4, terme-e5-k1-s12-v5, terme-e5-k1-s10-v4 |
+| L5-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | terme-e5-k1-s2-v8, terme-e5-k1-s9-v4, terme-e5-k1-s3-v11, terme-e5-k1-s12-v6, terme-e5-k1-s11-v4, terme-e5-k1-s13-v3 | terme-e5-k1-s13-v4, terme-e5-k1-s2-v9 |
 
 ## Prüfliste (vor Status „gegengelesen")
 - [ ] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
