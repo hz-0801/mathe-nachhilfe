@@ -130,21 +130,25 @@ Zielmarke: Einheit 1 – im Würfelnetz die Gegenfläche einer markierten Fläch
 - Abgleich Duden 9 Kap. 8 (02.10.2026) umgesetzt: neue Sprossen Maßzahlvergleich am Würfel (Einheit 2), Vieleckgrundfläche (Einheit 3), Hohlzylinder, gerolltes Rechteck, Größentabelle (Einheit 4); Rückwärts- und Mischsprossen nach der Leiterregel 02.10. in allen fünf Ketten (Einheit 4: Rückwärts mit h und r aus V schon da, Mischsprosse ist die Größentabelle).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau L75/E1; E2–E5 noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten L75/E1 und FEU/E2; E3–E5
+noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Körper erkennen, Netze, Schrägbilder (Lerneinheit 1) | Namen, Bauweise
    (Prisma, Pyramide), Netz und Schrägbild sind die Sprache aller
    späteren Einheiten; das Quadernetz bereitet die Oberfläche vor.
 2. Quader und Würfel (Lerneinheit 2) | Volumen und Oberfläche am
-   einfachsten Körper; Oberfläche als Netz aus Einheit 1.
+   einfachsten Körper; Oberfläche als Netz aus Einheit 1. Im Heft:
+   Volumen → Oberfläche → Liter → Höhe aus dem Volumen (Füllhöhe);
+   „aus zwei Quadern zusammengesetzt“ geht an Einheit 5, Würfelkante
+   aus V und Maßzahlvergleich bleiben Bestand der Bank.
 3. Prisma (Lerneinheit 3) | Quader als Prisma; V = G · h verallgemeinert
    Einheit 2; Netz vervollständigen setzt Einheit 1 voraus.
 4. Zylinder (Lerneinheit 4) | Prisma mit Kreis; braucht Kreis (kreis.md).
 5. Zusammengesetzte Körper und Anwendungen (Lerneinheit 5) | setzt alle
    Teilkörper voraus.
 
-Probetest (Originale, gemischt, schwerste zuletzt): 2019-OS-B1f,
+Probetest (Originale, gemischt, schwerste zuletzt): 2026-FOR-B1f, 2019-OS-B1f,
 2016-OS-B1j, 2017-OS-B1c, 2018-OS-B1i, 2015-OS-K6b, 2024-OS-K4b
 
 ### Lernweg
@@ -176,6 +180,27 @@ Tisch: Zeichne auf Kästchenpapier (2 Kästchen = 1 cm).
 | L1-C | Netze von Quader und anderen Körpern | Ein Quader hat drei Paare gleicher Rechtecke: Boden und Deckel, vorn und hinten, die zwei Seiten. Am Netz erkennst du den Körper an den Formen seiner Flächen. | – | koerper-e1-k1-s5-v4 | koerper-e1-k1-s9-v4, koerper-e1-k1-s5-v5, koerper-e1-k1-s5-v6, koerper-e1-k1-s9-v5 | koerper-e1-k1-s9-v6, koerper-e1-k1-s5-v7, koerper-e1-k1-s5-v8, koerper-e1-k1-s9-v7 |
 | L1-D | Schrägbilder | Im Schrägbild zeichnest du die Vorderfläche in wahrer Größe. Kanten nach hinten gehen schräg und werden kürzer; verdeckte Kanten zeichnest du gestrichelt. | 1\,cm $=$ 2 Kästchen \qquad je 1\,cm nach hinten: 1 Kästchendiagonale ($\tfrac12$\,cm nach rechts, $\tfrac12$\,cm nach oben) | koerper-e1-k1-s6-v4 | koerper-e1-k1-s6-v5, koerper-e1-k3-s1-v4, koerper-e1-k1-s7-v4, koerper-e1-k1-s6-v6 | koerper-e1-k1-s6-v7, koerper-e1-k3-s1-v5, koerper-e1-k1-s7-v5, koerper-e1-k1-s6-v8 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | koerper-e1-k1-s10-v9, koerper-e1-k1-s10-v10, koerper-e1-k5-s4-v4, koerper-e1-k1-s6-v9, koerper-e1-k1-s9-v8 | koerper-e1-k1-s10-v11, koerper-e1-k1-s9-v9 |
+
+#### Lerneinheit 2 – Quader und Würfel (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung FEU · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Würfelvolumen aus der Kante, Oberfläche als Falle (2026-FOR-B1f); Aquarium in Litern und Füllhöhe (OS 6, GYM 5); Oberfläche ohne Deckel (Kette 2)
+Blatt: Klasse 6 · Vorher: Körper erkennen, Netze, Schrägbilder · Weiter: Prisma
+Titel: Quader und Würfel
+Formel: Quader: $V = a \cdot b \cdot c$ \qquad $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$\par Würfel: $V = a \cdot a \cdot a$ \qquad $O = 6 \cdot a \cdot a$\par $1$ Liter $= 1$\,dm³ $= 1\,000$\,cm³
+In Worten: Volumen ist, was hineinpasst (cm³, Liter); Oberfläche ist die Hülle (cm²).
+Fehler: Volumen und Oberfläche vertauscht. Erst fragen: Inhalt oder Hülle?
+Fehler: Beim Würfel nur $a \cdot a$ gerechnet. Das ist eine Fläche, nicht das Volumen.
+Fehler: cm³ durch $100$ statt durch $1\,000$ geteilt, um Liter zu bekommen.
+Tisch: Erst entscheiden: Inhalt (Volumen) oder Hülle (Oberfläche)?
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Volumen von Quader und Würfel | Das \textbf{Volumen} sagt, wie viel in einen Körper hineinpasst: wie viele Würfel mit $1$\,cm Kantenlänge (je $1$\,cm³). Beim Quader rechnest du Länge mal Breite mal Höhe. | $V = a \cdot b \cdot c$ \qquad Würfel: $V = a \cdot a \cdot a$ | koerper-e2-k1-s1-v6 | koerper-e2-k1-s1-v7, koerper-e2-k1-s1-v8, koerper-e2-k1-s2-v4, koerper-e2-k6-s3-v4 | koerper-e2-k1-s1-v9, koerper-e2-k1-s1-v10, koerper-e2-k1-s2-v5, koerper-e2-k6-s3-v5 |
+| L2-B | Oberfläche | Die \textbf{Oberfläche} ist die ganze Hülle: alle sechs Rechtecke zusammen. Je zwei liegen sich gegenüber und sind gleich groß. | $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$ \qquad Würfel: $O = 6 \cdot a \cdot a$ | koerper-e2-k1-s4-v4 | koerper-e2-k1-s4-v5, koerper-e2-k1-s5-v4, koerper-e2-k2-s1-v4, koerper-e2-k2-s1-v5 | koerper-e2-k1-s4-v6, koerper-e2-k1-s4-v7, koerper-e2-k1-s5-v5, koerper-e2-k2-s1-v6 |
+| L2-C | Liter und Kubikzentimeter | Ein Würfel mit $1$\,dm Kantenlänge fasst genau $1$ Liter. Weil $1$\,dm $= 10$\,cm ist, passen $10 \cdot 10 \cdot 10 = 1\,000$ Zentimeterwürfel hinein. | $1$ Liter $= 1$\,dm³ $= 1\,000$\,cm³ \qquad $1$\,m³ $= 1\,000$ Liter | koerper-e2-k1-s3-v4 | koerper-e2-k1-s3-v5, koerper-e2-k1-s10-v6, koerper-e2-k4-s1-v4, koerper-e2-k6-s3-v6 | koerper-e2-k1-s3-v6, koerper-e2-k1-s10-v7, koerper-e2-k4-s1-v5, koerper-e2-k6-s3-v7 |
+| L2-D | Höhe aus dem Volumen | Kennst du das Volumen, die Länge und die Breite, rechnest du rückwärts: Volumen geteilt durch die Grundfläche (Länge mal Breite) gibt die Höhe. | $c = V : (a \cdot b)$ | koerper-e2-k5-s1-v4 | koerper-e2-k1-s6-v4, koerper-e2-k1-s6-v5, koerper-e2-k5-s1-v5, koerper-e2-k5-s1-v6 | koerper-e2-k1-s6-v6, koerper-e2-k1-s6-v7, koerper-e2-k5-s1-v7, koerper-e2-k5-s1-v8 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | koerper-e2-k1-s10-v8, koerper-e2-k1-s3-v7, koerper-e2-k1-s9-v4, koerper-e2-k1-s6-v8, koerper-e2-k1-s10-v9 | koerper-e2-k1-s10-v10, koerper-e2-k1-s10-v11 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
