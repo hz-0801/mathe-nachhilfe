@@ -211,7 +211,7 @@ Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e3-k1-s1-v9, flaechen-e3-k1-s7-v5, flaechen-e3-k1-s6-v7, flaechen-e3-k4-s3-v6 | flaechen-e3-k1-s1-v10, flaechen-e3-k1-s7-v6, flaechen-e3-k4-s3-v7 |
 
 #### Lerneinheit 5 – Zusammengesetzte Figuren (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung V28 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung V28 · Kritiker: erledigt (Nachbesserung 10.10.: A4 zwei Wände, C4 Teich und Halbkreise, D4 ein Halbkreis, T3 b) fehlende Seiten) · Lehrer: –
 Form: abschnitte
 Ziel: Fläche Rechteck mit zwei Halbkreisen als Summe (2017-OS-K3b); Restfläche Rechteck minus Kreis (2018-OS-K6a); Figur in Teilflächen zerlegen (2017-OS-K3a); Umfang einer zusammengesetzten Figur; Sachaufgabe mit Entscheidung
 Blatt: Klasse 7 · Vorher: Trapez, Drachen, Raute · Weiter: Kreis
