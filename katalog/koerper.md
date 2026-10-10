@@ -182,12 +182,12 @@ Tisch: Zeichne auf Kästchenpapier (2 Kästchen = 1 cm).
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | koerper-e1-k1-s10-v9, koerper-e1-k1-s10-v10, koerper-e1-k5-s4-v4, koerper-e1-k1-s6-v9, koerper-e1-k1-s9-v8 | koerper-e1-k1-s10-v11, koerper-e1-k1-s9-v9 |
 
 #### Lerneinheit 2 – Quader und Würfel (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung FEU · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung FEU · Kritiker: erledigt (Nachbesserung 10.10.: a, b, c benannt unter der Formel S. 1 und B; D3 Wasser bei 5 cm freiem Rand; C4 mit Rechnung begründen) · Lehrer: –
 Form: abschnitte
 Ziel: Würfelvolumen aus der Kante, Oberfläche als Falle (2026-FOR-B1f); Aquarium in Litern und Füllhöhe (OS 6, GYM 5); Oberfläche ohne Deckel (Kette 2)
 Blatt: Klasse 6 · Vorher: Körper erkennen, Netze, Schrägbilder · Weiter: Prisma
 Titel: Quader und Würfel
-Formel: Quader: $V = a \cdot b \cdot c$ \qquad $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$\par Würfel: $V = a \cdot a \cdot a$ \qquad $O = 6 \cdot a \cdot a$\par $1$ Liter $= 1$\,dm³ $= 1\,000$\,cm³
+Formel: Quader: $V = a \cdot b \cdot c$ \qquad $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$\par {\small $a$ = Länge, $b$ = Breite, $c$ = Höhe}\par Würfel: $V = a \cdot a \cdot a$ \qquad $O = 6 \cdot a \cdot a$\par $1$ Liter $= 1$\,dm³ $= 1\,000$\,cm³
 In Worten: Volumen ist, was hineinpasst (cm³, Liter); Oberfläche ist die Hülle (cm²).
 Fehler: Volumen und Oberfläche vertauscht. Erst fragen: Inhalt oder Hülle?
 Fehler: Beim Würfel nur $a \cdot a$ gerechnet. Das ist eine Fläche, nicht das Volumen.
@@ -197,7 +197,7 @@ Tisch: Erst entscheiden: Inhalt (Volumen) oder Hülle (Oberfläche)?
 | Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
 |---|---|---|---|---|---|---|
 | L2-A | Volumen von Quader und Würfel | Das \textbf{Volumen} sagt, wie viel in einen Körper hineinpasst: wie viele Würfel mit $1$\,cm Kantenlänge (je $1$\,cm³). Beim Quader rechnest du Länge mal Breite mal Höhe. | $V = a \cdot b \cdot c$ \qquad Würfel: $V = a \cdot a \cdot a$ | koerper-e2-k1-s1-v6 | koerper-e2-k1-s1-v7, koerper-e2-k1-s1-v8, koerper-e2-k1-s2-v4, koerper-e2-k6-s3-v4 | koerper-e2-k1-s1-v9, koerper-e2-k1-s1-v10, koerper-e2-k1-s2-v5, koerper-e2-k6-s3-v5 |
-| L2-B | Oberfläche | Die \textbf{Oberfläche} ist die ganze Hülle: alle sechs Rechtecke zusammen. Je zwei liegen sich gegenüber und sind gleich groß. | $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$ \qquad Würfel: $O = 6 \cdot a \cdot a$ | koerper-e2-k1-s4-v4 | koerper-e2-k1-s4-v5, koerper-e2-k1-s5-v4, koerper-e2-k2-s1-v4, koerper-e2-k2-s1-v5 | koerper-e2-k1-s4-v6, koerper-e2-k1-s4-v7, koerper-e2-k1-s5-v5, koerper-e2-k2-s1-v6 |
+| L2-B | Oberfläche | Die \textbf{Oberfläche} ist die ganze Hülle: alle sechs Rechtecke zusammen. Je zwei liegen sich gegenüber und sind gleich groß. | $O = 2 \cdot a \cdot b + 2 \cdot a \cdot c + 2 \cdot b \cdot c$ \qquad Würfel: $O = 6 \cdot a \cdot a$\par $a$ = Länge, $b$ = Breite, $c$ = Höhe | koerper-e2-k1-s4-v4 | koerper-e2-k1-s4-v5, koerper-e2-k1-s5-v4, koerper-e2-k2-s1-v4, koerper-e2-k2-s1-v5 | koerper-e2-k1-s4-v6, koerper-e2-k1-s4-v7, koerper-e2-k1-s5-v5, koerper-e2-k2-s1-v6 |
 | L2-C | Liter und Kubikzentimeter | Ein Würfel mit $1$\,dm Kantenlänge fasst genau $1$ Liter. Weil $1$\,dm $= 10$\,cm ist, passen $10 \cdot 10 \cdot 10 = 1\,000$ Zentimeterwürfel hinein. | $1$ Liter $= 1$\,dm³ $= 1\,000$\,cm³ \qquad $1$\,m³ $= 1\,000$ Liter | koerper-e2-k1-s3-v4 | koerper-e2-k1-s3-v5, koerper-e2-k1-s10-v6, koerper-e2-k4-s1-v4, koerper-e2-k6-s3-v6 | koerper-e2-k1-s3-v6, koerper-e2-k1-s10-v7, koerper-e2-k4-s1-v5, koerper-e2-k6-s3-v7 |
 | L2-D | Höhe aus dem Volumen | Kennst du das Volumen, die Länge und die Breite, rechnest du rückwärts: Volumen geteilt durch die Grundfläche (Länge mal Breite) gibt die Höhe. | $c = V : (a \cdot b)$ | koerper-e2-k5-s1-v4 | koerper-e2-k1-s6-v4, koerper-e2-k1-s6-v5, koerper-e2-k5-s1-v5, koerper-e2-k5-s1-v6 | koerper-e2-k1-s6-v6, koerper-e2-k1-s6-v7, koerper-e2-k5-s1-v7, koerper-e2-k5-s1-v8 |
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | koerper-e2-k1-s10-v8, koerper-e2-k1-s3-v7, koerper-e2-k1-s9-v4, koerper-e2-k1-s6-v8, koerper-e2-k1-s10-v9 | koerper-e2-k1-s10-v10, koerper-e2-k1-s10-v11 |
