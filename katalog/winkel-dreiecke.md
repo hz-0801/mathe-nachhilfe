@@ -134,6 +134,70 @@ Zielmarke: Einheit 1 – den Winkel zwischen zwei Sichtlinien als Differenz zwei
 - Leiterregeln 02.10.2026: Einheit 1 hatte die Rückwärtssprosse schon („Winkel mit gegebener Größe zeichnen“), ergänzt ist die Mischsprosse; Einheit 2 hat die Umkehrung als eigenen Typ („Parallelität aus gleichen Stufenwinkeln“), ergänzt ist nur die Mischsprosse; Einheiten 3, 4 und 5 und die neue Kette „Winkel am Kreis“ haben beide Sprossen. Krumme Zahlen (Dezimalgrad, Dezimalmaße, gemischte Einheiten) stehen auf den oberen Sprossen.
 - Gewicht (Regel 02.10.2026): K fehlt (kein Klasse-9-Eintrag; der Duden 9 hat das Thema nicht); P zählt die Originale der P10 mit Haupttyp der Einheit (Typ hier, Original auch in einer anderen Datei); Einheit 5 hat keinen eigenen Typ; S in Prozent mit zwei Stellen, Einheit 3 liegt genau auf dem Median.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau FP6, Lerneinheit 2; die anderen
+Einheiten sind noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Winkel messen und zeichnen (Lerneinheit 1) | Winkel benennen (α, ∠ASB)
+   und Teilwinkel addieren und abziehen trägt jede spätere Einheit; die
+   Teilwinkel-Subtraktion kommt in 2 an der Kreuzung wieder.
+2. Winkel an Geradenkreuzungen und Parallelen (Lerneinheit 2) | Scheitel-
+   und Nebenwinkel sind der Kern; Parallelen machen aus zwei Kreuzungen
+   eine. Parallelogramm und Trapez stehen hier, weil alle drei Originale
+   des Typs „Winkel im Viereck“ über den Nachbarwinkel lösen (Offene
+   Punkte, 11d). Im Bau FP6 vor den Parallelen eingeschoben: Kreuzungen in
+   Figuren (verlängerte Seiten, Teilwinkel), weil beides nur Scheitel- und
+   Nebenwinkel braucht.
+3. Winkelsummen, Dreiecke und Vierecke (Lerneinheit 3) | Der Beweis der
+   Winkelsumme braucht Wechselwinkel aus 2; Nebenwinkel kommen im
+   Teildreieck wieder (Fehler „Nebenwinkel vergessen“).
+4. Dreiecke konstruieren (Lerneinheit 4) | braucht Beschriftung und
+   Winkelsumme; aus der P10 nur die Dreiecksungleichung.
+5. Besondere Linien im Dreieck und Satz des Thales (Lerneinheit 5) | setzt
+   Konstruieren voraus; Thales nur als Begründungsweg in der P10.
+
+Vorher-Check (Zone): winkel-dreiecke-zone-f1-v1, winkel-dreiecke-zone-f2-v1,
+winkel-dreiecke-zone-f2-v2, winkel-dreiecke-zone-f3-v1,
+winkel-dreiecke-zone-f4-v1, winkel-dreiecke-zone-f5-v1
+Probetest (Originale, gemischt, schwerste zuletzt; vorläufig): 2016-OS-K7a,
+2020-OS-B1g, 2014-OS-B1f, 2019-OS-B1a, 2026-FOR-B1i, 2015-OS-B1d,
+2021-OS-B1i, 2020-OS-B1i, 2026-FOR-B1c, 2023-OS-B1g, 2017-OS-K4a,
+2018-OS-K4a, 2023-OS-K2a, 2022-OS-K5c, 2015-OS-K5b
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
+nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
+Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md). Form
+„abschnitte“ (Abschnitte A, B, … mit Satz, Formel, Beispiel, Aufgaben und
+Vorrat; aufgabenbank `bau/bauauftrag.md`).
+
+Serie: Vorher: Addieren und Subtrahieren bis 360°; Vierecksarten | Winkel: Winkel messen und zeichnen; Winkel an Geradenkreuzungen und Parallelen | Dreiecke und Vierecke: Winkelsummen, Dreiecke und Vierecke; Dreiecke konstruieren; Besondere Linien im Dreieck und Satz des Thales
+
+#### Lerneinheit 2 – Winkel an Geradenkreuzungen und Parallelen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung FP6 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Nebenwinkel des Stufenwinkels $180^\circ - 53^\circ$ (2015-OS-B1d); Wechselwinkel (2020-OS-B1g); Scheitelwinkel an verlängerten Seiten mit überflüssiger Angabe (2019-OS-B1a); Teilwinkel $50^\circ - 30^\circ$ an der Kreuzung (2014-OS-B1f); Nachbarwinkel im Parallelogramm (2026-FOR-B1i) und Trapez (2021-OS-B1i, 2023-OS-K2a)
+Blatt: Klasse 7 · Vorher: Winkel messen und zeichnen · Weiter: Winkelsummen, Dreiecke und Vierecke
+Titel: Winkel an Geradenkreuzungen und Parallelen
+Formel: gegenüber: gleich groß\par daneben: zusammen $180^\circ$
+In Worten: Fast jede Aufgabe läuft auf eine Frage hinaus: Ist der gesuchte Winkel so groß wie ein bekannter – oder ergänzt er ihn zu $180^\circ$?
+Vorgehen: die zwei Geraden suchen, an denen der gesuchte Winkel liegt; einen bekannten Winkel an derselben Kreuzung suchen; Lage benennen: gegenüber oder daneben; rechnen, Gradzeichen dazu
+Bild: winkel-dreiecke-e2-k2-s3-v4
+Fehler: Nebenwinkel statt Scheitelwinkel: $180^\circ - 74^\circ$ gerechnet, obwohl der Winkel gegenüberliegt. Gegenüber heißt gleich groß.
+Fehler: Stufenwinkel abgeschrieben, obwohl der Winkel daneben gefragt ist: $53^\circ$ statt $127^\circ$. Schau nach, wo der gesuchte Winkel liegt.
+Fehler: Teilwinkel: $180^\circ - 50^\circ - 30^\circ$ statt $50^\circ - 30^\circ$. Erst den ganzen Winkel, dann den Teil abziehen.
+Tisch: Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Scheitel- und Nebenwinkel | Kreuzen sich zwei Geraden, entstehen vier Winkel. Gegenüberliegende Winkel heißen \textbf{Scheitelwinkel}, nebeneinanderliegende \textbf{Nebenwinkel}. | Scheitelwinkel sind gleich groß: \ $\gamma = \alpha$ \qquad Nebenwinkel ergeben zusammen $180^\circ$: \ $\beta = 180^\circ - \alpha$ | winkel-dreiecke-e2-k2-s3-v4 | winkel-dreiecke-e2-k2-s3-v5, winkel-dreiecke-e2-k2-s3-v6, winkel-dreiecke-e2-k2-s3-v7, winkel-dreiecke-e2-k2-s1-v6 | winkel-dreiecke-e2-k2-s1-v7, winkel-dreiecke-e2-k2-s2-v4, winkel-dreiecke-e2-k2-s3-v8, winkel-dreiecke-e2-k2-s3-v9, winkel-dreiecke-e2-k2-s1-v8 |
+| L2-B | Kreuzungen in Figuren | Werden zwei Seiten einer Figur über eine Ecke hinaus verlängert, kreuzen sie sich dort wie zwei Geraden. Teilt eine weitere Linie einen Winkel, ziehst du den bekannten Teil vom ganzen Winkel ab. | Teil $=$ ganzer Winkel $-$ bekannter Teil | winkel-dreiecke-e2-k2-s8-v4 | winkel-dreiecke-e2-k2-s4-v4, winkel-dreiecke-e2-k2-s4-v5, winkel-dreiecke-e2-k2-s4-v6 | winkel-dreiecke-e2-k2-s8-v5, winkel-dreiecke-e2-k2-s8-v6, winkel-dreiecke-e2-k2-s8-v7, winkel-dreiecke-e2-k2-s4-v7, winkel-dreiecke-e2-k2-s4-v8, winkel-dreiecke-e2-k2-s4-v9 |
+| L2-C | Winkel an Parallelen | Schneidet eine Gerade zwei Parallelen, haben beide Kreuzungen dieselben Winkel. \textbf{Stufenwinkel} liegen an der gleichen Stelle, \textbf{Wechselwinkel} über Kreuz zwischen den Parallelen; beide sind gleich groß. | Stufenwinkel: gleich groß \qquad Wechselwinkel: gleich groß \qquad daneben: $180^\circ$ minus\par {\small Das gilt nur, wenn die Geraden parallel sind (Pfeile in der Skizze).} | winkel-dreiecke-e2-k2-s10-v4 | winkel-dreiecke-e2-k2-s10-v5, winkel-dreiecke-e2-k2-s7-v4, winkel-dreiecke-e2-k2-s7-v5 | winkel-dreiecke-e2-k2-s5-v4, winkel-dreiecke-e2-k2-s6-v4, winkel-dreiecke-e2-k2-s5-v5, winkel-dreiecke-e2-k2-s6-v5, winkel-dreiecke-e2-k2-s7-v6, winkel-dreiecke-e2-k2-s10-v6, winkel-dreiecke-e2-k2-s7-v7 |
+| L2-D | Parallelogramm und Trapez | Zwei Winkel an derselben Seite zwischen zwei parallelen Seiten ergänzen sich zu $180^\circ$. Im Parallelogramm sind gegenüberliegende Winkel gleich groß. | $\alpha + \delta = 180^\circ$, wenn $AB \parallel CD$ \qquad Parallelogramm: \ $\gamma = \alpha$\par {\small Im Trapez ist nur ein Seitenpaar parallel: Rechne nur an den beiden anderen Seiten mit $180^\circ$.} | winkel-dreiecke-e2-k2-s9-v4 | winkel-dreiecke-e2-k2-s9-v5, winkel-dreiecke-e2-k2-s9-v6, winkel-dreiecke-e2-k2-s9-v7, winkel-dreiecke-e2-k2-s9-v8 | winkel-dreiecke-e2-k2-s9-v9, winkel-dreiecke-e2-k2-s9-v10, winkel-dreiecke-e2-k2-s9-v11, winkel-dreiecke-e2-k2-s9-v12, winkel-dreiecke-e2-k2-s9-v13 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Die Skizzen sind nicht maßstabsgerecht: rechnen, nicht messen. Etwa 15 Minuten. | – | – | winkel-dreiecke-e2-k2-s9-v14, winkel-dreiecke-e2-k2-s4-v10, winkel-dreiecke-e2-k2-s8-v8, winkel-dreiecke-e2-k2-s11-v5, winkel-dreiecke-e2-k2-s10-v7 | winkel-dreiecke-e2-k2-s9-v15, winkel-dreiecke-e2-k2-s4-v11, winkel-dreiecke-e2-k2-s8-v9, winkel-dreiecke-e2-k2-s11-v6, winkel-dreiecke-e2-k2-s10-v8 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
