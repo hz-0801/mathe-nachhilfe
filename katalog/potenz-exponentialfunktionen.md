@@ -178,3 +178,59 @@ Einheit 5 – keine aus der P10: kein Typ, kein Original, keine Haupt- oder Basi
 - [x] Kein Verlagstext übernommen; Serlo/ZUM mit Quellenzeile.
 - [x] Notation Berlin-Brandenburg (f(x) = m·x + n, Strich, wA/fA).
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
+
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau TCQ/E1; die Folge der übrigen
+Einheiten ist geplant, nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Lineares und exponentielles Wachstum unterscheiden (Lerneinheit 1) |
+   Erst die Grundvorstellung „gleicher Prozentsatz heißt gleicher Faktor,
+   nicht gleicher Betrag“; wer sie nicht hat, liest jede Tabelle linear,
+   kreuzt die Gerade an und rechnet später Faktor mal Schrittzahl. Die
+   Einheit braucht nur den Faktor aus dem Prozentsatz (Prozentrechnung)
+   und die Gerade (lineare Funktionen).
+2. Wachstumsfaktor und Wachstumstabelle (Lerneinheit 2) | Der Quotient
+   aus 1 wird zum Werkzeug: Tabellen fortschreiben, Lücken und
+   Anfangswert füllen.
+3. Exponentialfunktion aufstellen und auswerten (Lerneinheit 3) | Die
+   Gleichung fasst die Tabelle aus 2 zusammen; die Potenz ersetzt das
+   schrittweise Multiplizieren.
+4. Verdopplungs- und Halbwertszeit (Lerneinheit 4) | Setzt Tabelle (2)
+   und Graph (1) voraus; Probieren mit dem Faktor aus 3.
+5. Potenzfunktionen (Lerneinheit 5) | Eigener Strang ohne P10-Aufgabe;
+   nach 3, weil die Abgrenzung „Variable in der Basis oder im Exponenten“
+   die Exponentialfunktion braucht.
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+hier am Ende, damit die Zeilennummern im Bankfeld quelle gültig bleiben.
+Form „abschnitte“ (Abschnitte A, B, … mit Satz, Formel, Beispiel,
+Aufgaben und Vorrat).
+
+Serie: Vorher: Prozentrechnung: Wachstumsfaktor; Lineare Funktionen | Wachstum und Zerfall: Lineares und exponentielles Wachstum unterscheiden; Wachstumsfaktor und Wachstumstabelle; Exponentialfunktion aufstellen und auswerten; Verdopplungs- und Halbwertszeit | Weiter: Potenzfunktionen
+
+#### Lerneinheit 1 – Lineares und exponentielles Wachstum unterscheiden (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung TCQ · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Wachstumsart mit Begründung aus einer Umsatztabelle (2018-OS-K2b); zwei richtige Aussagen zu einer Zerfallstabelle (2016-OS-K4d); passenden Graphen wählen und die beiden anderen ausschließen (2026-FOR-K7b, 2019-OS-K7c); Wertetabelle als Punkte, Achseneinteilung wählen (2025-OS-K7a, 2016-OS-K4b, 2017-OS-K7b)
+Blatt: Klasse 10 · Vorher: Wachstumsfaktor (Prozentrechnung) · Weiter: Wachstumsfaktor und Wachstumstabelle
+Titel: Wachstum: linear oder exponentiell?
+Formel: linear: \quad $y_{\text{neu}} = y_{\text{alt}} + d$ \par exponentiell: \quad $y_{\text{neu}} = y_{\text{alt}} \cdot q$
+In Worten: Linear kommt bei jedem Schritt derselbe Betrag dazu. Exponentiell wird bei jedem Schritt mit demselben Faktor malgenommen.
+Vorgehen: Tabelle: Differenzen und Quotienten bilden; Text: fester Betrag oder fester Prozentsatz?; Graph: Startwert auf der senkrechten Achse, Gerade oder Kurve; Punkte: Achsen gleichmäßig einteilen, eintragen, verbinden
+Achtung: Faktor über 1 heißt Zunahme, unter 1 Abnahme: $q = 1{,}1$ ist plus $10\,\%$, $q = 0{,}9$ ist minus $10\,\%$.
+Bild: potenz-exponentialfunktionen-e1-k2-s3-v4
+Fehler: „Linear, weil jedes Jahr $5\,\%$.“ Gleicher Prozentsatz heißt gleicher Faktor: exponentiell.
+Fehler: Den Graphen aus dem Ursprung genommen, obwohl der Startwert nicht $0$ ist.
+Fehler: Zweimal $10\,\%$ zu $20\,\%$ addiert. Richtig: $1{,}1 \cdot 1{,}1 = 1{,}21$, also $21\,\%$.
+Tisch: Taschenrechner erlaubt. Runde Geldbeträge auf Cent.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | An der Tabelle erkennen | Gleiche Differenzen von Wert zu Wert: linear. Gleiche Quotienten von Wert zu Wert: exponentiell; der Quotient ist der Wachstumsfaktor $q$. | Differenz $=$ neuer Wert $-$ alter Wert \qquad Quotient $=$ neuer Wert $:$ alter Wert | potenz-exponentialfunktionen-e1-k1-s2-v4 | potenz-exponentialfunktionen-e1-k1-s1-v6, potenz-exponentialfunktionen-e1-k1-s2-v5, potenz-exponentialfunktionen-e1-k1-s5-v4, potenz-exponentialfunktionen-e1-k1-s8-v5 | potenz-exponentialfunktionen-e1-k1-s1-v7, potenz-exponentialfunktionen-e1-k1-s2-v6, potenz-exponentialfunktionen-e1-k1-s8-v6, potenz-exponentialfunktionen-e1-k1-s5-v5 |
+| L1-B | Am Text erkennen | Ein fester Betrag je Schritt (Euro, Liter, Zentimeter) bedeutet linear. Ein fester Prozentsatz, „das Doppelte“ oder „die Hälfte“ bedeutet exponentiell: Dann wird der Zuwachs von Schritt zu Schritt größer, die Abnahme kleiner. | Zunahme um $p\,\%$: \ $q = 1 + \frac{p}{100}$ \qquad Abnahme um $p\,\%$: \ $q = 1 - \frac{p}{100}$ | potenz-exponentialfunktionen-e1-k1-s6-v4 | potenz-exponentialfunktionen-e1-k1-s4-v4, potenz-exponentialfunktionen-e1-k1-s6-v5, potenz-exponentialfunktionen-e1-k1-s6-v6, potenz-exponentialfunktionen-e1-k1-s6-v7 | potenz-exponentialfunktionen-e1-k1-s4-v5, potenz-exponentialfunktionen-e1-k1-s6-v8, potenz-exponentialfunktionen-e1-k1-s6-v9, potenz-exponentialfunktionen-e1-k1-s6-v10 |
+| L1-C | Den passenden Graphen finden | Linear ergibt eine Gerade. Exponentiell ergibt eine Kurve: bei Zunahme immer steiler, bei Abnahme immer flacher. Der Graph beginnt beim Startwert auf der senkrechten Achse. | Startwert $a$ \ $\to$ \ Punkt $(0\,|\,a)$ \qquad gleicher Betrag \ $\to$ \ Gerade \qquad gleicher Faktor \ $\to$ \ Kurve | potenz-exponentialfunktionen-e1-k2-s3-v4 | potenz-exponentialfunktionen-e1-k2-s1-v6, potenz-exponentialfunktionen-e1-k2-s3-v5, potenz-exponentialfunktionen-e1-k2-s7-v5 | potenz-exponentialfunktionen-e1-k2-s1-v7, potenz-exponentialfunktionen-e1-k2-s6-v5, potenz-exponentialfunktionen-e1-k2-s7-v6, potenz-exponentialfunktionen-e1-k2-s6-v4 |
+| L1-D | Wertepaare als Punkte eintragen | Teile jede Achse gleichmäßig ein, sodass der größte Wert passt. Trage die Punkte ein und verbinde sie mit einer glatten Kurve. | größter Wert \ $\to$ \ Schritt je Kästchen (1, 2, 5, 10, 20, \dots) \ $\to$ \ beschriften \ $\to$ \ Punkte \ $\to$ \ Kurve | potenz-exponentialfunktionen-e1-k3-s4-v4 | potenz-exponentialfunktionen-e1-k3-s1-v6, potenz-exponentialfunktionen-e1-k3-s2-v4, potenz-exponentialfunktionen-e1-k3-s5-v7 | potenz-exponentialfunktionen-e1-k3-s1-v7, potenz-exponentialfunktionen-e1-k3-s2-v5, potenz-exponentialfunktionen-e1-k3-s5-v8, potenz-exponentialfunktionen-e1-k3-s3-v4 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | potenz-exponentialfunktionen-e1-k1-s8-v7, potenz-exponentialfunktionen-e1-k2-s6-v6, potenz-exponentialfunktionen-e1-k3-s5-v9, potenz-exponentialfunktionen-e1-k1-s7-v4 | potenz-exponentialfunktionen-e1-k1-s8-v8, potenz-exponentialfunktionen-e1-k1-s7-v5 |
