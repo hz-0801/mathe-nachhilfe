@@ -190,7 +190,7 @@ Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e1-k2-s1-v10, flaechen-e1-k2-s9-v5, flaechen-e1-k3-s1-v11, flaechen-e1-k2-s9-v6 | flaechen-e1-k2-s9-v7, flaechen-e1-k2-s7-v11, flaechen-e1-k2-s9-v8 |
 
 #### Lerneinheit 3 – Dreieck (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung SC4 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung SC4 · Kritiker: durch, Nachbesserung erledigt (übernommen: C3 mit Teilaufgabe ohne Bild, Beispiel B Grundseite BC, D4 Quadrat vier gleiche Seiten) · Lehrer: –
 Form: abschnitte
 Ziel: Grundseite aus Fläche und Höhe mit dem Faktor 2 (2020-OS-K7b); Flächeninhalt Dreieck mit der passenden Höhe, auch rechtwinklig und stumpfwinklig (2015-OS-K6c, 2022-OS-K5e ohne Pythagoras); Term zu Figur, Umfang $3 \cdot a$ und Fläche rechtwinklig (2024-OS-B1c, 2022-OS-B1e)
 Blatt: Klasse 7 · Vorher: Parallelogramm · Weiter: Trapez, Drachen, Raute
