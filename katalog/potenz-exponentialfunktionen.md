@@ -180,8 +180,8 @@ Einheit 5 – keine aus der P10: kein Typ, kein Original, keine Haupt- oder Basi
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau TCQ/E1; die Folge der übrigen
-Einheiten ist geplant, nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten TCQ/E1 und SLM/E2; die
+Folge der übrigen Einheiten ist geplant, nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Lineares und exponentielles Wachstum unterscheiden (Lerneinheit 1) |
@@ -192,7 +192,11 @@ Folge | Grund für die Stelle:
    und die Gerade (lineare Funktionen).
 2. Wachstumsfaktor und Wachstumstabelle (Lerneinheit 2) | Der Quotient
    aus 1 wird zum Werkzeug: Tabellen fortschreiben, Lücken und
-   Anfangswert füllen.
+   Anfangswert füllen. Gebaut (SLM) in der Folge Faktor ↔ Prozentsatz →
+   Faktor aus der Tabelle → vorwärts (Startwert, Lücke, Potenz) →
+   zurück und fehlende Zeit; die Potenz qⁿ steht hier schon als
+   Abkürzung für n Schritte, die Gleichung y = a · qˣ erst in 3. Die
+   Wachstumsrate aus nicht benachbarten Werten (Wurzel) gehört zu 3.
 3. Exponentialfunktion aufstellen und auswerten (Lerneinheit 3) | Die
    Gleichung fasst die Tabelle aus 2 zusammen; die Potenz ersetzt das
    schrittweise Multiplizieren.
@@ -234,3 +238,27 @@ Tisch: Taschenrechner erlaubt. Runde Geldbeträge auf Cent.
 | L1-C | Den passenden Graphen finden | Linear ergibt eine Gerade. Exponentiell ergibt eine Kurve: bei Zunahme immer steiler, bei Abnahme immer flacher. Der Graph beginnt beim Startwert auf der senkrechten Achse. | Startwert $a$ \ $\to$ \ Punkt $(0\,|\,a)$ \qquad gleicher Betrag \ $\to$ \ Gerade \qquad gleicher Faktor \ $\to$ \ Kurve | potenz-exponentialfunktionen-e1-k2-s3-v4 | potenz-exponentialfunktionen-e1-k2-s1-v6, potenz-exponentialfunktionen-e1-k2-s3-v5, potenz-exponentialfunktionen-e1-k2-s7-v5 | potenz-exponentialfunktionen-e1-k2-s1-v7, potenz-exponentialfunktionen-e1-k2-s6-v5, potenz-exponentialfunktionen-e1-k2-s7-v6, potenz-exponentialfunktionen-e1-k2-s6-v4 |
 | L1-D | Wertepaare als Punkte eintragen | Teile jede Achse gleichmäßig ein, sodass der größte Wert passt. Trage die Punkte ein und verbinde sie mit einer glatten Kurve. | größter Wert \ $\to$ \ Schritt je Kästchen (1, 2, 5, 10, 20, \dots) \ $\to$ \ beschriften \ $\to$ \ Punkte \ $\to$ \ Kurve | potenz-exponentialfunktionen-e1-k3-s4-v4 | potenz-exponentialfunktionen-e1-k3-s1-v6, potenz-exponentialfunktionen-e1-k3-s2-v4, potenz-exponentialfunktionen-e1-k3-s5-v7 | potenz-exponentialfunktionen-e1-k3-s1-v7, potenz-exponentialfunktionen-e1-k3-s2-v5, potenz-exponentialfunktionen-e1-k3-s5-v8, potenz-exponentialfunktionen-e1-k3-s3-v4 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | potenz-exponentialfunktionen-e1-k1-s8-v7, potenz-exponentialfunktionen-e1-k2-s6-v6, potenz-exponentialfunktionen-e1-k3-s5-v9, potenz-exponentialfunktionen-e1-k1-s7-v4 | potenz-exponentialfunktionen-e1-k1-s8-v8, potenz-exponentialfunktionen-e1-k1-s7-v5 |
+
+#### Lerneinheit 2 – Wachstumsfaktor und Wachstumstabelle (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung SLM · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Faktor als Quotient nachweisen (2025-OS-K7b) und Prozentsatz an einer Umsatztabelle nachweisen (2018-OS-K2a); zwei Tabellenfelder ergänzen, davon der Anfangswert (2026-FOR-K7a, 2020-OS-K4a); Werte über mehrere Schritte mit Potenz (2019-OS-K7a, 2017-OS-K7a); Wert und fehlende Zeitangabe in einer Zerfallstabelle (2016-OS-K4a)
+Blatt: Klasse 10 · Vorher: Lineares und exponentielles Wachstum unterscheiden · Weiter: Exponentialfunktion aufstellen und auswerten
+Titel: Wachstum: Faktor und Tabelle
+Formel: \large Zunahme um $p\,\%$: \ $q = 1 + \frac{p}{100}$ \par Abnahme um $p\,\%$: \ $q = 1 - \frac{p}{100}$ \par aus der Tabelle: \ $q =$ neuer Wert $:$ alter Wert \par vorwärts: \ Wert $\cdot\, q$, \ $n$ Schritte: Wert $\cdot\, q^n$ \par zurück: \ Wert $:\, q$, \ $n$ Schritte: Wert $:\, q^n$
+In Worten: Der Faktor $q$ sagt, womit du bei jedem Schritt malnimmst. Über $1$ heißt Zunahme, unter $1$ Abnahme.
+Vorgehen: Prozentsatz in den Faktor umrechnen oder den Faktor als Quotient aus der Tabelle holen; Startwert in den Schritt $0$ schreiben; vorwärts mal $q$, über mehrere Schritte mal $q^n$; zurück durch $q$; fehlende Zeit: mal $q$, bis der Wert passt, Schritte zählen
+Achtung: Runde erst beim Eintragen: Geld auf Cent, Anzahlen auf ganze Zahlen, sonst auf eine Stelle nach dem Komma. Rechne im Taschenrechner mit dem genauen Wert weiter.
+Bild: potenz-exponentialfunktionen-e2-k2-s5-v4
+Fehler: Den Faktor ohne die Eins gebildet: mal $0{,}05$ statt mal $1{,}05$. Dann schrumpft der Wert, statt zu wachsen.
+Fehler: Differenzen statt Quotienten gebildet, um den Faktor zu finden.
+Fehler: Zurück $4\,\%$ abgezogen: $208 - 4\,\% = 199{,}68$. Richtig: $208 : 1{,}04 = 200$.
+Tisch: Taschenrechner erlaubt. Runde erst beim Eintragen: Geld auf Cent, Anzahlen ganz, sonst eine Stelle nach dem Komma.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Faktor und Prozentsatz | Wächst ein Wert um $p\,\%$, rechnest du mal $q = 1 + \frac{p}{100}$; nimmt er um $p\,\%$ ab, mal $q = 1 - \frac{p}{100}$. Den Prozentsatz liest du am Abstand von $q$ zu $1$ ab. | Zunahme: \ $q = 1 + \frac{p}{100}$ \qquad Abnahme: \ $q = 1 - \frac{p}{100}$ \qquad Prozentsatz: Abstand von $q$ zu $1$ | potenz-exponentialfunktionen-e2-k1-s1-v6 | potenz-exponentialfunktionen-e2-k1-s1-v7, potenz-exponentialfunktionen-e2-k1-s2-v4, potenz-exponentialfunktionen-e2-k1-s3-v4, potenz-exponentialfunktionen-e2-k1-s3-v5 | potenz-exponentialfunktionen-e2-k1-s1-v9, potenz-exponentialfunktionen-e2-k1-s2-v5, potenz-exponentialfunktionen-e2-k1-s3-v6, potenz-exponentialfunktionen-e2-k1-s3-v7 |
+| L2-B | Faktor aus der Tabelle | Teile jeden Wert durch den Wert davor. Sind alle Quotienten gleich, ist das der Faktor $q$. | $q = \text{neuer Wert} : \text{alter Wert}$ | potenz-exponentialfunktionen-e2-k1-s5-v4 | potenz-exponentialfunktionen-e2-k1-s5-v5, potenz-exponentialfunktionen-e2-k1-s5-v6, potenz-exponentialfunktionen-e2-k1-s7-v5, potenz-exponentialfunktionen-e2-k1-s7-v6 | potenz-exponentialfunktionen-e2-k1-s4-v4, potenz-exponentialfunktionen-e2-k1-s5-v7, potenz-exponentialfunktionen-e2-k1-s7-v8, potenz-exponentialfunktionen-e2-k1-s7-v9 |
+| L2-C | Tabelle fortschreiben | Der Startwert steht im Schritt $0$. Jeder nächste Wert ist der Wert davor mal $q$; über $n$ Schritte rechnest du mal $q^n$. | nächster Wert $=$ Wert $\cdot\, q$ \qquad nach $n$ Schritten: \ Wert $\cdot\, q^n$ | potenz-exponentialfunktionen-e2-k2-s3-v4 | potenz-exponentialfunktionen-e2-k2-s1-v6, potenz-exponentialfunktionen-e2-k2-s2-v4, potenz-exponentialfunktionen-e2-k2-s4-v4, potenz-exponentialfunktionen-e2-k2-s8-v11 | potenz-exponentialfunktionen-e2-k2-s1-v7, potenz-exponentialfunktionen-e2-k2-s2-v5, potenz-exponentialfunktionen-e2-k2-s3-v5, potenz-exponentialfunktionen-e2-k2-s4-v5, potenz-exponentialfunktionen-e2-k2-s8-v15 |
+| L2-D | Zurückrechnen und fehlende Zeit | Einen Schritt zurück teilst du durch $q$. Fehlt eine Zeit, rechnest du so oft mal $q$, bis der Wert herauskommt, und zählst die Schritte. | Wert davor $=$ Wert $:\, q$ \qquad $n$ Schritte zurück: \ Wert $:\, q^n$ | potenz-exponentialfunktionen-e2-k2-s5-v4 | potenz-exponentialfunktionen-e2-k2-s5-v5, potenz-exponentialfunktionen-e2-k2-s5-v6, potenz-exponentialfunktionen-e2-k2-s6-v4, potenz-exponentialfunktionen-e2-k2-s8-v12 | potenz-exponentialfunktionen-e2-k2-s5-v7, potenz-exponentialfunktionen-e2-k2-s5-v8, potenz-exponentialfunktionen-e2-k2-s6-v5, potenz-exponentialfunktionen-e2-k2-s8-v16 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | potenz-exponentialfunktionen-e2-k1-s7-v7, potenz-exponentialfunktionen-e2-k1-s1-v8, potenz-exponentialfunktionen-e2-k2-s8-v13, potenz-exponentialfunktionen-e2-k2-s8-v14 | potenz-exponentialfunktionen-e2-k1-s7-v10, potenz-exponentialfunktionen-e2-k2-s8-v17 |
