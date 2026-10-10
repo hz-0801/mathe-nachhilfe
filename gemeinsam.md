@@ -77,7 +77,9 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   naheliegende falsche Antwort; jede Hilfe deckt etwas auf, das die
   Aufgabe sonst verbirgt. Was über das Blatt spricht („kannst du
   überspringen“), fällt weg.
-- Kein Merkkasten. Ein vorgerechnetes Beispiel darf als graue
+- Kein Merkkasten, außer der Lehrer bestellt ihn ausdrücklich („mit
+  kasten“; dann knapp wie eine Formelsammlung, Lehrer 10.10.). Ein
+  vorgerechnetes Beispiel darf als graue
   Teilaufgabe a) stehen, ohne das Wort „Beispiel“, wo es einen neuen
   Schritt zeigt; b) rechnet der Schüler selbst (08.10.).
 - Keine Rätsel- und Fehleraufgaben (09.10.).

@@ -349,6 +349,7 @@ Ziel und Rahmen
   Probeprüfung aus Originalen → P
 - 28.09. Wachhalten und Altlehrwerke sind keine Blattart → G
 - 03.10. Fokusblätter auf Zuruf, nicht auf Vorrat → P
+- 10.10. Merkkasten nur auf ausdrückliche Bestellung → G
 - 10.10. pruefung.md und gemeinsam.md gelten; offen.html und
   bauregeln.md abgelöst → P, G
 
