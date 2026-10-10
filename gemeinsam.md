@@ -1,7 +1,6 @@
 # Gemeinsam – was beide Sorten gleich machen
 
-Stand 10.10.2026, Entwurf. Gilt, sobald der Lehrer „gilt“ sagt; dann
-ersetzt sie aufgabenbank bau/bauregeln.md (dessen Prüfungsteile stehen
+Stand 10.10.2026, gilt (Lehrer 10.10.). Ersetzt aufgabenbank bau/bauregeln.md (dessen Prüfungsteile stehen
 in pruefung.md). bauauftrag.md und begriffe.md gehen später hierin auf
 (plan.md Linie 5); bis dahin gelten sie daneben. Über ihr steht plan.md;
 die Sorten stehen in pruefung.md und (nach P10) allgemein.md; die

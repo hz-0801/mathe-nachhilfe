@@ -210,8 +210,8 @@ vollständig, dann ordnen, dann bauen.
    Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9;
    Rest als Register § 11. Schritt 1 erledigt.
 2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus)
-   – Entwurf pruefung.md liegt, dazu gemeinsam.md; Lehrer liest und
-   sagt „gilt“, dann offen.html und bauregeln.md ablösen;
+   – pruefung.md und gemeinsam.md gelten (Lehrer 10.10.), offen.html
+   und bauregeln.md abgelöst (Hinweiszeile, Archiv in Schritt 3);
    am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9) –
    erledigt 10.10.;
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
@@ -337,8 +337,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
 steht. Hier nur der Verweis, nichts doppelt. Quelle je Zeile:
 entscheidungen-2026-10-10.md.
-P = Datei Prüfung (bis sie steht: offen.html) · G = gemeinsame Datei
-(bis sie steht: bauregeln.md) · A = Datei Allgemein · K = Katalog ·
+P = pruefung.md (gilt seit 10.10.; vorher offen.html) · G = gemeinsam.md
+(gilt seit 10.10.; vorher bauregeln.md) · A = Datei Allgemein · K = Katalog ·
 B = bank.md · W = Projektanweisung
 
 Ziel und Rahmen
@@ -349,6 +349,8 @@ Ziel und Rahmen
   Probeprüfung aus Originalen → P
 - 28.09. Wachhalten und Altlehrwerke sind keine Blattart → G
 - 03.10. Fokusblätter auf Zuruf, nicht auf Vorrat → P
+- 10.10. pruefung.md und gemeinsam.md gelten; offen.html und
+  bauregeln.md abgelöst → P, G
 
 Prüfung
 - 10.10. Prüfstein einmal je Kapitel (Ende Prüfungsheft), nicht auf
