@@ -22,9 +22,12 @@ aufgabenbank bank.md. Regeln werden mit Namen zitiert.
 
 ## 2 P10: Zuschnitt der Einheiten
 
-Entwurf, wird vor dem ersten Bau festgelegt (plan.md § 9, 10.10.).
-Quelle: msa/skript-zuschnitt-p10.md (aus skript-zuschnitt.py, nie von
-Hand ändern; dort je Einheit Stufen und Fundstellen).
+Geprüft 10.10. (drei Fable-Kritiker, Befunde msa/befund-zuschnitt-*.md,
+eingetragen in msa/gliederung/*.md); wird vom Lehrer festgelegt, dann
+gilt er für jeden Bau (plan.md § 9). Quelle: msa/skript-zuschnitt-p10.md
+(erzeugt aus msa/gliederung/*.md über gliederung-sichten.py und
+skript-zuschnitt.py; nie von Hand ändern – Änderungen in die
+Gliederungsdateien).
 
 - **Einheit = Abschnitt** = ein Handgriff = ein Blatt. Kapitel ist die
   letzte Knopfebene und bündelt seine Einheiten zum Prüfungsheft;
@@ -33,28 +36,31 @@ Hand ändern; dort je Einheit Stufen und Fundstellen).
   Lerneinheit“ (07./08.10.).
 - Die Übersicht vorn folgt diesen Einheiten (plan.md Linie 4).
 
-Hauptteil (Teilaufgaben 2022–2026 · Jahrgänge):
+Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
 
 - Geometrie
   - Dreiecke: Länge mit Pythagoras (9 · 4) · Seite oder Winkel mit
-    sin, cos, tan (7 · 5) · Pythagoras oder Winkelfunktion? (nur
-    Nebenplätze) · Seite im allgemeinen Dreieck, Sinussatz (2 · 2) ·
-    Winkel ohne Rechnung bestimmen oder begründen (7 · 4) ·
-    Symmetrie (2 · 2)
+    sin, cos, tan (7 · 5; Schlussstufe „erst entscheiden, dann
+    rechnen“ aus Nebenplätzen) · Seite im allgemeinen Dreieck,
+    Sinussatz (2 · 2) · Winkel ohne Rechnung bestimmen oder begründen
+    (7 · 4) · Symmetrie (2 · 2)
   - Flächen: Flächeninhalt und Umfang (12 · 5)
   - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild
     (3 · 3)
 - Funktionen
-  - Lineare: Gerade zeichnen und ablesen (7 · 5) · Liegt der Punkt auf
-    dem Graphen? (3 · 3) · Lineare Funktion im Sachzusammenhang (4 · 2)
+  - Lineare: Gerade zeichnen und ablesen (7 · 5) · Einsetzen:
+    Punktprobe und Lösung prüfen (4 · 4) · Lineare Funktion im
+    Sachzusammenhang (4 · 2)
   - Quadratische: Parabel: Scheitelpunkt und Skizze (7 · 5) ·
-    Quadratische Gleichung lösen (5 · 4)
+    Quadratische Gleichung lösen (4 · 4)
   - Gleichungssysteme: Gleichungssystem im Sachzusammenhang (4 · 2)
   - Wachstum: Exponentielles Wachstum (5 · 2)
 - Daten + Zufall
-  - Prozent: Prozent (10 · 5)
-  - Daten: Kenngrößen (10 · 5) · Kreisdiagramm (3 · 3) · Diagramm
-    ergänzen und beurteilen (4 · 3)
+  - Prozent: Prozent (11 · 5; Stufen Umwandeln, Prozentwert,
+    Prozentsatz, Grundwert mit Erkennen am Anfang, Wert nach
+    Erhöhung, Veränderung in Prozent – Lehrer 10.10.)
+  - Daten: Kenngrößen (10 · 5, Stufe Modalwert ohne Original) ·
+    Kreisdiagramm (2 · 2) · Diagramm ergänzen und beurteilen (4 · 3)
   - Wahrscheinlichkeit: Wahrscheinlichkeit einstufig (3 · 3) ·
     Baumdiagramm und Pfadregeln (8 · 3)
 - Jeder Ast zuletzt „Weitere (RLP)“: Themen aus dem RLP bis
@@ -63,22 +69,30 @@ Hauptteil (Teilaufgaben 2022–2026 · Jahrgänge):
 Basisteil (22 Teilaufgaben, ohne Skript): Bruchteil einer Fläche ·
 Größen umrechnen · Zahlen vergleichen, Potenzen · Gleichung lösen ·
 Term zum Text · Dreisatz. Bleibt ganz und gemischt (Original,
-Antwortbogen); 27 von 47 Basisaufgaben stehen zusätzlich als unterste
-Stufe in der passenden Einheit (04.10.).
+Antwortbogen); Basisaufgaben, deren Kopf-Schritt zu einer Einheit
+passt, stehen zusätzlich als unterste Stufe dort (04.10.).
 
-Vor dem Festlegen zu entscheiden:
-- Daten + Zufall geprüft (Fable-Kritiker 10.10., Befund
-  msa/befund-zuschnitt-daten-2026-10-10.md, übernommen); Geometrie und
-  Funktionen noch vorläufig (04.10.).
-- „Pythagoras oder Winkelfunktion?“ hat nur Nebenplätze (Prüfskript
-  meldet es): eigene Einheit oder Schluss von „Seite oder Winkel“?
-- Prozent: ein Blatt, Stufen Prozentwert, Prozentsatz, Grundwert
-  getrennt; Erkennen (Ganzes oder Teil?) nur am Anfang von Grundwert
-  (Lehrer 10.10.). Ob das Blatt mit sechs Stufen zu lang wird, zeigt
-  der erste Bau.
-- Kleine Einheiten (2–3 Teilaufgaben: Sinussatz, Symmetrie,
-  Kreisdiagramm, einstufig) werden nach der Füllfolge (§ 5) aufgefüllt,
-  nicht zusammengelegt (04.10.).
+Entschieden 10.10. (Lehrer, aus den Befunden): Pythagoras oder
+Winkelfunktion ist kein eigenes Blatt (in allen vier Aufgaben mit
+beiden Rechnungen führt die Prüfung selbst: a) Pythagoras, b)
+Winkel); Einsetzen ist ein eigenes Blatt (Kopf-Schritt ist immer
+Einsetzen, nie das Bild); Prozent ein Blatt mit getrennten Stufen.
+Stufen ohne Original 2022–2026 (Modalwert, Scheitelpunktform angeben,
+Kreisdiagramm aus Prozent) werden nach der Füllfolge (§ 5) aufgefüllt.
+
+Stolpersteine für den Bau (aus den Befunden, beim Bau der Einheit
+beachten):
+- Gleichsetzen Gerade/Parabel: vor 2022-OS-K3c eine Stufe
+  „Scheitelpunktform → Normalform“; „aus Gleichung zeichnen“
+  (2022-OS-K3a) verlangt nebenbei die Nullstelle; Wachstumsfaktor
+  beide Wege (Quotient aus Tabelle, 1,9 % → 1,019).
+- Sinussatz braucht vorher den dritten Winkel: das Blatt „Winkel ohne
+  Rechnung“ liegt vor dem Sinussatz; „Seite berechnen“ braucht in der
+  Bank die Sprosse x = a · sin α vor x = a : sin α.
+- „Baum ergänzen“-Originale brauchen schon die Pfadregel: Bank liefert
+  davor reine Baum-Sprossen.
+- Ob das Blatt Prozent mit sechs Stufen zu lang wird, zeigt der erste
+  Bau.
 
 ## 3 Bestellbaum
 

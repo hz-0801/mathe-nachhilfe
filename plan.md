@@ -243,6 +243,10 @@ Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 Messwert 10.10. abends (Chat start 23, Fable): Entwürfe pruefung.md und
 gemeinsam.md im Chat + ein Fable-Kritiker Zuschnitt Daten + Zufall
 (134 000 Token, 2½ min) → Woche 75 → 76 %, Fable 39 → 40 %.
+Danach zwei Fable-Kritiker parallel (Geometrie, Funktionen; je 125 000
+Token, 2½ min) → Woche 76 → 77 %, Fable 40 → 41 %; dann ein
+Fable-Agent Eintragen in die Gliederung (166 000 Token, 5 min).
+≈ 0,25 Mio Fable je Fable-Punkt und je Wochenpunkt.
 
 ## 9 Später
 
@@ -309,6 +313,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
 - 10.10.2026 (j): Lieferliste je Schüler per Skript; bankblatt v5.9
   (Lehrer).
+- 10.10.2026 (m): P10-Zuschnitt vollständig geprüft (Geometrie,
+  Funktionen, Daten + Zufall) und in die Gliederung eingetragen; kein
+  Blatt „Pythagoras oder Winkelfunktion“, Einsetzen eigenes Blatt
+  (Lehrer); pruefung.md § 2 neu; Festlegung durch den Lehrer offen.
 - 10.10.2026 (l): Zuschnitt Daten + Zufall nach Fable-Befund korrigiert
   (msa/befund-zuschnitt-daten-2026-10-10.md); Prozent = ein Blatt mit
   drei Stufen Prozentwert, Prozentsatz, Grundwert, Erkennen am Anfang von
