@@ -254,7 +254,7 @@ Aufgaben und Vorrat; aufgabenbank `bau/bauauftrag.md`).
 Serie: Vorher: Zahlen ordnen und Skalen ablesen | Daten darstellen: Häufigkeiten; Säulen-, Balken- und Liniendiagramme; Streifen- und Kreisdiagramm | Daten auswerten: Kenngrößen; Diagramme beurteilen und Boxplot | Weiter: Vierfeldertafel
 
 #### Lerneinheit 2 – Säulen-, Balken- und Liniendiagramme (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung T74 · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog, OS Kl. 5–6)
+Stand: 2026-10-10 · Kennung T74 · Kritiker: erledigt (Nachbesserung 10.10.: A4 Achse mit Kästchenwert 0,5 als Vorbereitung auf T1; Beispiel D Schritt 3 „So sieht die fertige Säule aus“; Beispiel D „Beim Balken zählst du nach rechts“; B2 Diagramm höher) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog, OS Kl. 5–6)
 Form: abschnitte
 Ziel: Achseneinteilung aus einer Säule mit bekanntem Wert, unbeschriftete Säule zuordnen, Säule ergänzen (2023-OS-K6d; 2018-OS-K3a); Wert mit „in Tausend“ vollständig angeben (2016-OS-K2b); Werte über einer Schwelle, Grenzwert zählt nicht (Typische Fehler)
 Blatt: Klasse 6 · Vorher: Häufigkeiten · Weiter: Streifen- und Kreisdiagramm
