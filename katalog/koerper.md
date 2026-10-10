@@ -161,7 +161,7 @@ Aufgaben und Vorrat; aufgabenbank `bau/bauauftrag.md`).
 Serie: Vorher: Flächen (Rechteck, Quadrat, Dreieck) | Körper: Körper erkennen, Netze, Schrägbilder; Quader und Würfel; Prisma; Zylinder | Zusammengesetzte Körper | Weiter: Pyramide, Kegel, Kugel
 
 #### Lerneinheit 1 – Körper erkennen, Netze, Schrägbilder (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung L75 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung L75 · Kritiker: durch, Nachbesserung erledigt (übernommen: Zelt mit kürzerer Tiefe, Netz-Streifen von unten nach oben, B4 eine Möglichkeit finden) · Lehrer: –
 Form: abschnitte
 Ziel: Kantenzahl der quadratischen Pyramide ohne Bild (2019-OS-B1f); Gegenfläche im Würfelnetz (2016-OS-B1j); Körper aus Netz oder Schrägbild benennen (2017-OS-B1c, 2018-OS-B1i); Körperhöhe im Schrägbild (2015-OS-K6b); Quadernetz und Schrägbild auf Kästchen (OS 5–6)
 Blatt: Klasse 6 · Vorher: Flächen (Rechteck, Quadrat, Dreieck) · Weiter: Quader und Würfel
