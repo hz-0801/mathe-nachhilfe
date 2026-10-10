@@ -128,7 +128,7 @@ Bankfeld quelle gültig bleiben.
 Serie: Vorher: Quadrat und Wurzel; Kreisumfang | Kreis: Kreisumfang; Kreisfläche; Kreisteile | Weiter: Zusammengesetzte Figuren; Zylinder
 
 #### Lerneinheit 2 – Kreisfläche (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung E69 · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 8 laut Katalog, Verortung „im Lehrwerk Kl. 8, im Fahrplan Kl. 8“)
+Stand: 2026-10-10 · Kennung E69 · Kritiker: erledigt (Nachbesserung 10.10.: B3 Maße am Rechteck, Beispiel A Radius an der Linie, T1 zwei Umfangsformeln richtig) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 8 laut Katalog, Verortung „im Lehrwerk Kl. 8, im Fahrplan Kl. 8“)
 Form: abschnitte
 Ziel: Kreisfläche aus dem Durchmesser mit Dezimalzahl, erst halbieren, auf zwei Stellen (nach 2016-OS-K3b); Grundfläche eines Körpers aus dem Radius (nach 2024-OS-K4a); Fläche oder Umfang wählen (Fehlerquelle 2024-OS-K4a, 2023-OS-K5a)
 Blatt: Klasse 8 · Vorher: Kreisumfang · Weiter: Kreisteile
