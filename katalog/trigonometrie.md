@@ -197,7 +197,7 @@ Tisch: Runde, wenn nichts anderes steht, auf eine Stelle nach dem Komma. Taschen
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | trigonometrie-e1-k3-s2-v6, trigonometrie-e1-k3-s12-v6, trigonometrie-e1-k3-s14-v4, trigonometrie-e1-k3-s15-v10 | trigonometrie-e1-k3-s2-v7, trigonometrie-e1-k3-s12-v7, trigonometrie-e1-k3-s14-v5, trigonometrie-e1-k3-s15-v11 |
 
 #### Lerneinheit 2 – Winkel berechnen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung LT3 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung LT3 · Kritiker: erledigt (übernommen: Dreiecke in A–C kleiner, darunter Karo, A mit 9 Zeilen; Maße AD und AF im Text von C3; D1 drei Dreiecke in einer Reihe, Buchstabe am Dreieck; Lösungsheft auf einer Seite mit T4) · Lehrer: –
 Form: abschnitte
 Ziel: $\beta_1 \approx 48{,}4^\circ$ an der Seilbahn mit $\cos^{-1}$ (2024-OS-K6b); $\alpha \approx 63{,}6^\circ$ nachweisen, „also rund $64^\circ$“ (2019-OS-K3b); Winkel im Teildreieck mit der Höhe (2022-OS-K5b) und im Parallelogramm (2026-FOR-K4b); Winkel nach einer Seitenrechnung (2025-OS-K4a); „Seite oder Winkel?“ gemischt mit Lerneinheit 1
 Blatt: Klasse 10 · Vorher: Seite berechnen mit sin, cos und tan · Weiter: Teildreiecke und Vermessung
