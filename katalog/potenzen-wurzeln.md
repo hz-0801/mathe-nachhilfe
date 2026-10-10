@@ -139,7 +139,7 @@ quelle gültig bleiben.
 Serie: Vorher: Rechnen mit negativen Zahlen; Dezimalzahlen und Brüche malnehmen | Potenzen und Wurzeln: Potenzen; Zehnerpotenzen; Quadratwurzeln | Weiter: Satz des Pythagoras; Exponentielles Wachstum
 
 #### Lerneinheit 1 – Potenzen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung VUD · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 9 laut Katalog)
+Stand: 2026-10-10 · Kennung VUD · Kritiker: erledigt (Nachbesserung 10.10.: Beispiel D schriftlich teilen 1 : 8, T5 neue Personen je Stunde, A4 10 mm ohne Einheitenwechsel) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 9 laut Katalog)
 Form: abschnitte
 Ziel: Exponent bestimmen 2^x = 16, 4^x = 256 (2020-OS-B1h, 2024-OS-B1g); größte von drei Potenzen unterstreichen (2019-OS-B1d); negative Hochzahl gegen Dezimalzahl (2022-OS-B1j). Ziele aus Sachen: Ist das gefaltete Papier dicker als 1 cm? Wächst der Teich in einer Woche zu? Bekommen mehr als 1000 Personen das Video?
 Blatt: Klasse 9 · Vorher: Rechnen mit negativen Zahlen · Weiter: Zehnerpotenzen
