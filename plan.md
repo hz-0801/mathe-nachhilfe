@@ -76,10 +76,16 @@ Abo laufen.
    - Zurückgestellt bis zum Abitur: Abitur-Skript „Lernblatt mit
      Sie-Form“ (03.10.) gegen P10-Linie 04.10. und „kein Siezen“ (06.10.).
    Den Wortlaut der Originale liest der Setzer aus aufgabenbank-privat.
-5. Eine Datei je Frage: Ziel und Plan in plan.md; Handwerk in
-   bauregeln.md; Didaktik im Bauauftrag (bau/bauauftrag.md); Wörter in
-   begriffe.md; Zeilenform in bank.md. Regeln werden mit Namen zitiert,
-   nicht mit Nummern.
+5. Eine Datei je Sorte (Lehrer 10.10.; ersetzt „eine Datei je Frage“
+   vom 09.10.): Ziel und Entscheidungen in plan.md; je Sorte eine Datei
+   mit allem, was ihr Bau braucht (wie früher ein Prompt); was beide
+   Sorten gleich machen, einmal in einer gemeinsamen Datei; Zeilenform
+   in bank.md. Vor jeder Regel in einer Sortendatei prüfen, ob sie ins
+   Gemeinsame gehört – nichts doppelt. Reihenfolge: zuerst die Datei
+   Prüfung (P10 hat Vorrang), Gemeinsames dabei markiert und
+   ausgelagert; die Datei Allgemein erst, wenn P10 steht. bauregeln.md,
+   bauauftrag.md und begriffe.md gehen darin auf. Regeln werden mit
+   Namen zitiert, nicht mit Nummern.
 6. Der Lehrer urteilt an Stichproben (etwa jede zehnte Einheit) und am
    Prüfstein; Kritiker und Prüfskripte prüfen jede. Das ersetzt die Pflicht
    vom 01.10., dass der Lehrer Vollständigkeit und Reihenfolge je Eintrag
@@ -202,7 +208,8 @@ vollständig, dann ordnen, dann bauen.
    hier, Widerspruchsliste a). Restliche Widersprüche einzeln mit dem
    Lehrer klären, Geltendes mit Datum in plan.md tragen. Erledigt 10.10.:
    Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9.
-2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus).
+2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus),
+   Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
 3. Dann Bestand ordnen (welche Dateien gelten, Rest ins Archiv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
@@ -279,3 +286,5 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Abgleich vor Umzug. Jetzt = Entscheidungen vervollständigen, dann
   Datei Prüfung, dann ordnen (Lehrer). Messwert: Einsammeln ≈ 0,2 Mio
   Token → Woche 75 → 75 %, Fable 39 → 39 %.
+- 10.10.2026 (f): Linie 5 neu: eine Datei je Sorte plus eine gemeinsame;
+  zuerst Prüfung, Allgemein nach P10 (Lehrer).
