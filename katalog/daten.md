@@ -212,6 +212,63 @@ Zielmarke (Sek II): Einheit 1 – fhr: relative Häufigkeiten zweier Städte mit
 - Sek-II-Teil – Befunde: Die Anlage ohne Hilfsmittel enthält keine Statistik, [FS-IQB 1.4] nur Kenngrößen von Zufallsgrößen; das Lehrwerk deckt die Q2-Zeile „Lage- und Streumaße einer Stichprobe“ ausdrücklich nicht (*); der Pool prüft das Thema nur 2023 und 2026 und nur in Teil B, der abi-Katalog gar nicht – der Sek-II-Teil dieses Eintrags ist fast ganz fhr-Stoff (26 von 30 Zeilen). themen.csv führte die fhr- und iqb-Zeilen dieses Themas zunächst weiter mit Stufe „I“ (Annahme: die Stufenspalte bleibt bis zu einer eigenen Entscheidung unverändert); seit dem 2026-09-21 (Auftrag „Verweise nach E37 richten“) stehen sie auf „II“, die msa-Zeilen auf „I“ – zusammen die Stufe „Sek I + II“ des Kopfes.
 - Sek-II-Teil – Prüfskripte: `_pruef_katalog.py` prüft seit dem Abschnitt „Prüfungsform (fhr / abi / iqb)“ auch die Zählzeile unter „Typen je Lerneinheit“ (Sek-II-Typen mit Zeilenzahl in Klammern in den Einheiten 1, 4 und 6; die Sek-I-Einheiten 2, 3 und 5 zählen null) und die Profillisten gegen themen.csv; `_pruef_struktur.py` verlangt, dass die Zuordnungszeile jede Einheit nennt – deshalb trägt die P10-Zuordnung den Zusatz „Einheit 6 – kein P10-Typ“, die einzige Änderung in der P10-Prüfungsform. Alle 30 Sek-II-ids stehen im Eintrag (Fehler, Sprossen, Muster, Zielmarke).
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau T74/E2; die übrigen Einheiten
+noch nicht gebaut, ihre Stelle nach „Lerneinheiten“ und Lehrwerk).
+
+Folge | Grund für die Stelle:
+1. Häufigkeiten (Lerneinheit 1) | Erst zählen und ordnen, dann
+   darstellen: Strichliste und Tabelle liefern die Werte, die jedes
+   Diagramm zeigt.
+2. Säulen-, Balken- und Liniendiagramme (Lerneinheit 2) | Die Achse
+   lesen ist der Handgriff aller späteren Einheiten. Im Blatt: ablesen
+   (Kästchenwert, „in Tausend“) → vergleichen und auswählen (Unterschied,
+   Schwelle) → Liniendiagramm (Änderung) → zeichnen und Achse aus einer
+   bekannten Säule erschließen. Zeichnen zuletzt, weil es das Ablesen
+   umkehrt; die Achse ohne Zahlen (Prüfungshöhe) setzt beides voraus.
+3. Streifen- und Kreisdiagramm (Lerneinheit 3) | Anteile statt Anzahlen;
+   braucht Prozent (prozentrechnung.md) und die relative Häufigkeit aus 1.
+4. Kenngrößen (Lerneinheit 4) | Werte aus Liste, Tabelle und Diagramm
+   (aus 2) zusammenfassen.
+5. Diagramme beurteilen und Boxplot (Lerneinheit 5) | Setzt Ablesen (2)
+   und Kenngrößen (4) voraus; abgeschnittene Achse erst, wenn die Achse
+   sicher gelesen wird.
+6. Vierfeldertafel (Lerneinheit 7) | Anteile innerhalb einer Gruppe;
+   Klasse 9, eigenes Blatt.
+7. Kenngrößen aus Häufigkeitstabellen und Klassen (Lerneinheit 6, Sek II).
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (plan.md, 09.10.2026); fehlt er, ist die Einheit noch
+nicht gebaut. Steht hier am Ende statt nach „Lerneinheiten“, damit die
+Zeilennummern im Bankfeld quelle gültig bleiben (bau/befunde-M2.md).
+Form „abschnitte“ (Abschnitte A, B, … mit Satz, Formel, Beispiel,
+Aufgaben und Vorrat; aufgabenbank `bau/bauauftrag.md`).
+
+Serie: Vorher: Zahlen ordnen und Skalen ablesen | Daten darstellen: Häufigkeiten; Säulen-, Balken- und Liniendiagramme; Streifen- und Kreisdiagramm | Daten auswerten: Kenngrößen; Diagramme beurteilen und Boxplot | Weiter: Vierfeldertafel
+
+#### Lerneinheit 2 – Säulen-, Balken- und Liniendiagramme (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung T74 · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog, OS Kl. 5–6)
+Form: abschnitte
+Ziel: Achseneinteilung aus einer Säule mit bekanntem Wert, unbeschriftete Säule zuordnen, Säule ergänzen (2023-OS-K6d; 2018-OS-K3a); Wert mit „in Tausend“ vollständig angeben (2016-OS-K2b); Werte über einer Schwelle, Grenzwert zählt nicht (Typische Fehler)
+Blatt: Klasse 6 · Vorher: Häufigkeiten · Weiter: Streifen- und Kreisdiagramm
+Titel: Diagramme lesen und zeichnen
+Formel: Kästchenwert $=$ Abstand zweier Zahlen an der Achse $:$ Zahl der Kästchen dazwischen
+In Worten: Ein Kästchen reicht von einer Hilfslinie bis zur nächsten. Erst wenn du weißt, wie viel es wert ist, kannst du ablesen und zeichnen.
+Vorgehen: Achse lesen: Was wird gezählt, in welcher Einheit?; Kästchenwert bestimmen; ablesen oder zeichnen, dann rechnen; Antwort mit Einheit
+Bild: –
+Fehler: Säule ohne Namen nach der Reihenfolge der Tabelle zugeordnet. Richtig: erst ihren Wert ausrechnen, dann zuordnen.
+Fehler: Beim Balkendiagramm die Zahlen links gesucht. Bei Balken stehen die Zahlen unten.
+Tisch: Lies so genau ab, wie die Hilfslinien es zulassen.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Säulen ablesen | Bevor du einen Wert abliest, bestimmst du, wie viel ein Kästchen wert ist. Steht an der Achse „in Tausend“, ist jede Zahl mal $1000$ gemeint. | Wert $=$ Zahl an der Linie darunter $+$ Kästchen darüber $\cdot$ Kästchenwert | daten-e2-k2-s2-v4 | daten-e2-k2-s0-v5, daten-e2-k2-s2-v5, daten-e2-k2-s3-v4, daten-e2-k2-s3-v5 | daten-e2-k2-s1-v6, daten-e2-k2-s0-v6, daten-e2-k2-s2-v6, daten-e2-k2-s3-v6, daten-e2-k2-s3-v7 |
+| L2-B | Werte vergleichen und auswählen | Zum Vergleichen liest du erst jeden Wert ab, dann rechnest du. „Mehr als $150$“ heißt: Genau $150$ zählt nicht mit. | Unterschied $=$ größerer Wert $-$ kleinerer Wert | daten-e2-k2-s5-v4 | daten-e2-k2-s5-v5, daten-e2-k2-s4-v4, daten-e2-k2-s4-v5 | daten-e2-k2-s6-v4, daten-e2-k2-s5-v6, daten-e2-k2-s4-v6, daten-e2-k2-s4-v7 |
+| L2-C | Liniendiagramme lesen | Ein Liniendiagramm zeigt, wie sich ein Wert von Zeitpunkt zu Zeitpunkt ändert. Je steiler die Linie zwischen zwei Punkten, desto größer die Änderung. | Änderung $=$ späterer Wert $-$ früherer Wert \qquad {\small (Linie steigt: Zunahme; Linie fällt: Abnahme)} | daten-e2-k2-s10-v4 | daten-e2-k2-s10-v5, daten-e2-k2-s10-v6, daten-e2-k2-s10-v7 | daten-e2-k2-s10-v8, daten-e2-k2-s10-v9, daten-e2-k2-s10-v10, daten-e2-k2-s10-v11 |
+| L2-D | Säulen zeichnen und Achse einteilen | Zum Zeichnen rechnest du erst aus, wie viele Kästchen hoch die Säule wird. Fehlen die Zahlen an der Achse, findest du den Kästchenwert mit einer Säule, deren Wert du kennst. | Kästchen $=$ Wert $:$ Kästchenwert \qquad Kästchenwert $=$ bekannter Wert $:$ Kästchen dieser Säule | daten-e2-k2-s7-v4 | daten-e2-k2-s7-v5, daten-e2-k2-s8-v4, daten-e2-k2-s12-v5 | daten-e2-k2-s7-v6, daten-e2-k2-s7-v7, daten-e2-k2-s8-v5, daten-e2-k3-s1-v4, daten-e2-k2-s12-v6 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e2-k2-s11-v4, daten-e2-k2-s11-v5, daten-e2-k2-s11-v6, daten-e2-k2-s12-v7 | daten-e2-k2-s11-v7, daten-e2-k2-s12-v8 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
