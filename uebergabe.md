@@ -1,6 +1,6 @@
-# Übergabe verbessereBlaetter – 2026-10-10 spät nachts (Chat „start 23“, Opus → Fable 5.1)
+# Übergabe verbessereBlaetter – 2026-10-10 (Chat „start 24“, Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-10d.md. Nach plan.md
+Vorherige Übergabe: archiv/uebergabe-2026-10-10e.md. Nach plan.md
 Linie 8 nennt diese Übergabe keinen eigenen nächsten Schritt.
 Entscheidungen nur aus plan.md (§ 3 Linien, § 11 Register).
 
@@ -13,64 +13,49 @@ Blätter (plan.md § 1).
 ## 2 Arbeitsgrundlage
 
 - plan.md – Ziel, Linien, § 7 „Jetzt“, § 11 Register.
-- pruefung.md – Entwurf der Datei der Sorte Prüfung (aus offen.html und
-  den Prüfungsteilen von bauregeln.md; § 2 der festgelegte
-  P10-Zuschnitt; § 9 was aus offen.html nicht übernommen wurde und
-  warum). Gilt erst nach „gilt“ des Lehrers; bis dahin offen.html.
-- gemeinsam.md – Entwurf der gemeinsamen Datei (Rest von bauregeln.md
-  plus G-Zeilen aus § 11). Gilt erst nach „gilt“; bis dahin
-  bauregeln.md.
-- msa/gliederung/*.md – Quelle des Zuschnitts; daraus erzeugen
-  werkzeuge/gliederung-sichten.py die CSV und werkzeuge/
-  skript-zuschnitt.py p10 die Übersicht msa/skript-zuschnitt-p10.md.
-  CSV und Übersicht nie von Hand ändern.
-- msa/befund-zuschnitt-{daten,geometrie,funktionen}-2026-10-10.md –
-  Befunde der Fable-Kritiker, eingearbeitet; Beleg.
+- pruefung.md – Datei der Sorte Prüfung; gilt seit 10.10., ersetzt
+  offen.html und die Prüfungsteile von bauregeln.md.
+- gemeinsam.md – gemeinsame Datei; gilt seit 10.10., ersetzt
+  aufgabenbank bau/bauregeln.md. Daneben bauauftrag.md, begriffe.md.
+- blattbau/bankblatt.md v5.10 – Blatt-Prompt im Betrieb; liest die
+  Regeln per Raw-URL aus gemeinsam.md und pruefung.md.
 
 ## 3 Arbeitsstand
 
 Abgeschlossen in diesem Chat:
-- plan.md § 7 Schritt 2 zur Hälfte: Entwürfe pruefung.md und
-  gemeinsam.md geschrieben; P10-Zuschnitt an allen drei Gebieten
-  gegen die echten Aufgaben 2022–2026 geprüft, korrigiert und vom
-  Lehrer festgelegt (27 Einheiten, Einheit = Handgriff = Blatt).
-- Offen in Schritt 2: der Lehrer liest pruefung.md und gemeinsam.md
-  und sagt „gilt“ (oder nennt Änderungen); dann offen.html und
-  bauregeln.md ablösen (Hinweiszeile oben, Archiv nach Schritt 3).
-- Danach Schritt 3 (Bestand ordnen).
+- plan.md § 7 Schritt 2 ganz: pruefung.md und gemeinsam.md gelten;
+  offen.html und bauregeln.md tragen oben „Abgelöst am 10.10.2026“
+  (ins Archiv erst in Schritt 3).
+- Einstiege nachgezogen: CLAUDE.md und README.md (mathe-nachhilfe),
+  CLAUDE.md (aufgabenbank) nennen jetzt sechs geltende Dateien.
+- bankblatt.md v5.10 im Repo; vollständiger Text an den Lehrer
+  gegeben. Ob er im Projekt erzeugeBlatt(Bank) eingesetzt ist, ist
+  nicht bestätigt.
+- Projektanweisung im Repo auf Stand 2026-10-10c (Sortendateien statt
+  offen.html/bauregeln.md; Leser einer Regeldatei mit ablösen). Die
+  Einstellung des Lehrers stand auf 2026-10-10, das Repo schon auf
+  10-10b; der vollständige Text 10-10c ging an den Lehrer.
+- Als Nächstes laut plan.md § 7: Schritt 3, Bestand ordnen.
 
 ## 4 Rahmen
 
-- Kontingent (Anzeige 10.10. spät): Woche 78 %, Fable 42 %; „geht
-  Montag Morgen aus, Reset 18:00“. Lehrer 10.10.: Fable bis Montag
-  18:00 wie Opus verbrauchen, sinnvoll (Lesart des Chats: bis auf
-  etwa 10 % Rest); dieser Chat lief deshalb ab der Mitte auf Fable
-  5.1.
-- Messwert: enger Fable-Kritiker je Gebiet mit zwei Prüffragen ≈
-  0,13 Mio Token, 2½ min, Befund 20 Zeilen, brauchbar;
-  ≈ 0,25 Mio Fable je Fable-Punkt und je Wochenpunkt (plan.md § 8).
-- Repo mathe-nachhilfe mit Schreibzugang angehängt (Modus Manuell,
-  eine Karte); Klon unter /home/claude/mathe-nachhilfe. Die anderen
-  Repos nur lesend unter /tmp.
-- Fehler dieses Chats, nicht wiederholen: eine erzeugte Datei
-  (skript-zuschnitt-p10.csv) direkt geändert statt ihre Quelle; ein
-  Agent hat es nachgezogen.
+- Kontingent: zuletzt abgelesen 10.10. spät (Woche 78 %, Fable 42 %,
+  Fable-Reset Montag 18:00); in diesem Chat nicht neu abgelesen,
+  keine Agenten, nur kleine Commits.
+- Zugriff: mathe-nachhilfe, aufgabenbank, blattbau, anweisungen mit
+  Schreibzugang angehängt.
 
 ## 5 Offen und Verworfenes
 
-- Schlussstufe „erst entscheiden, dann rechnen“ hat vier statt sieben
-  Nebenplätze (Skript lässt keinen Nebenplatz im eigenen Abschnitt
-  zu); belassen.
-- Stolpersteine für den Bau stehen in pruefung.md § 2 (Normalform
-  vor Gleichsetzen, Winkelsumme vor Sinussatz, Baum-Sprossen vor
-  „Baum ergänzen“, Länge Blatt Prozent).
+- bank.md verweist noch auf „bauregeln.md“ (Leiter, Zahlen, Herkunft,
+  Offen); in Schritt 3 auf gemeinsam.md umstellen.
 - Offen aus voriger Übergabe unverändert: Bestellen in
   Alltagswörtern; „ein Blatt für alle“ Ende M3; Bauen nach Bedarf
   der aktiven Schüler; Projektanweisung erzeugeBlatt(Bank) als
-  Verweis.
-- Verworfen: eigenes Blatt „Pythagoras oder Winkelfunktion“ (die
-  Prüfung führt selbst: a) Pythagoras, b) Winkel); Punktprobe als
-  Stufe in Gerade/Parabel (Kopf-Schritt ist Einsetzen, wäre doppelt).
+  Verweis; Schlussstufe „erst entscheiden, dann rechnen“ mit vier
+  Nebenplätzen.
+- Verworfen: Prüfstein auf jedem Blatt (Blatt würde lang und fragt
+  Handgriffe ab, die es nicht lehrt; Lehrer 10.10.: je Kapitel).
 
 ## 6 Nächster Arbeitsschritt
 
