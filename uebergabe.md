@@ -57,9 +57,9 @@ Abgeschlossen in diesem Chat:
 - Offen: Bestellen in Alltagswörtern statt Knöpfen/Kennungen – an
   echten Bestellungen prüfen (plan.md § 9).
 - Offen: „Ein Blatt für alle“ – teils, Vergleich Ende M3.
-- Offen: Vorrang P10 bei vermutlich nur einem P10-Schüler unter den
-  aktiven – Lehrer: „es geht nicht darum, wer sie sind“; nicht
-  wieder aufmachen ohne Bestelldaten.
+- Offen: Bauen nach Bedarf der aktiven Schüler statt nach
+  Häufigkeit – von Claude vorgelegt, nicht entschieden; erst mit
+  Daten aus der Lieferliste wieder vorlegen.
 - Vorschlag ohne Entscheid: Projektanweisung von erzeugeBlatt(Bank)
   als Zweizeiler „lies blattbau/bankblatt.md“ statt Kopie.
 
