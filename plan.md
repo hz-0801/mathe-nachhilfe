@@ -169,16 +169,16 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: Treppe füllen, Probe Kathete berechnen (Lehrer 10.10.: „bessere,
-andere, weitere Aufgaben für den Katalog“; Aufgabe und Treppe getrennt,
-damit eine spätere andere Treppe keine Aufgabe anfasst). Form:
-aufgabenbank bank.md „Aufgaben ohne Treppe“ (Felder taetigkeit,
-merkmale; Dateien a<n>.jsonl). Erste Treppe nach der Lehrer-Vorlage:
-bank/pythagoras/treppe-e2-vorlage.md mit merkmale.md. Folge: Lehrer nickt
-die Treppe ab → ein Opus-Agent füllt nach bau/fuellauftrag.md (bank-pruef
-für a*.jsonl dabei erweitern) → Lehrer urteilt am Probesatz → Setzer
-wählt nach Merkmalen → Wellen je Thema (Treppe je Thema vorher vom
-Lehrer genickt). Runde 2 (38 Einheiten) und alte Ketten bleiben Vorrat.
+Jetzt: Bestand ordnen, bevor etwas gebaut wird (Lehrer 10.10.: „das
+Repository ist verwirrend, du überblickst es nicht“; „der alte Prompt hat
+einen Stand festgehalten“). Zwei Sorten getrennt halten – Allgemein
+(Schulstoff, Katalog) und Prüfung (P10 nach dem Baum, später Abitur) –,
+jede mit einem festen Stand in einer Datei, wie früher die Prompts. Erst
+eine Liste, welche Dateien gelten (je Sorte und für die gemeinsame
+Technik), alles andere ins Archiv; der Lehrer nickt die Liste ab. Ziel
+danach: P10 am Katalog fertig, ohne die Verallgemeinerung zu verlieren.
+Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
+Gefundenes, das bleiben soll: uebergabe.md Abschnitt 3.
 
 ## 8 Modelle und Kosten
 
@@ -240,3 +240,6 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 10.10.2026 (c): Aufgabe und Treppe getrennt (Lehrer: „was ist, wenn
   ich später eine andere Treppe haben möchte?“); Füllauftrag statt
   Bauauftrag für neue Aufgaben; Jetzt = Probe Kathete.
+- 10.10.2026 (d): Treppenweg angehalten (Spiegelung der Lehrer-Vorlage
+  misslang); drei Hefte nach altem Unterrichtsprompt gemessen; Jetzt =
+  Bestand ordnen, zwei Sorten mit je festem Stand (Lehrer).
