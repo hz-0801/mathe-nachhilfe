@@ -164,12 +164,12 @@ quelle gültig bleiben.
 Serie: Vorher: Rechnen mit negativen Zahlen | Terme: Termwerte berechnen; Terme aufstellen; Terme zusammenfassen; Terme malnehmen; Klammern auflösen; Ausklammern | Weiter: Gleichungen lösen
 
 #### Lerneinheit 5 – Termwerte berechnen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung MZE · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog)
+Stand: 2026-10-10 · Kennung MZE · Kritiker: erledigt (Nachbesserung 10.10.: T6 „Rechne zuerst v/10 aus.“; D3 mit b = 7 (Wert 2), T4 mit b = −2 (Wert −2), glatte Ergebnisse; Formel B −3 − 6 = −9 (weiter ins Minus); Formel S. 1 Strich von links nach rechts) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog)
 Form: abschnitte
 Ziel: Termwert mit negativer Zahl und Klammer, 5 · (x − 3) für x = −2 (2026-FOR-B1g, 2026-EBR-B1g); Bruchterm (a + b) : c mit negativen Zahlen (2016-OS-B1i, 2021-OS-B1g; GYM 2019-GYM-B1d); Quadrat bei negativer Einsetzung (2022-GYM-B2a). Ziele aus Sachen: reicht das Geld für den Fahrradverleih? kommt das Auto vor dem Kind zum Stehen?
 Blatt: Klasse 7 · Vorher: Rechnen mit negativen Zahlen · Weiter: Terme aufstellen
 Titel: Termwerte berechnen
-Formel: Klammer $\to$ Hochzahl $\to$ Punkt ($\cdot$\,,\,$:$) $\to$ Strich ($+$\,,\,$-$)
+Formel: Klammer $\to$ Hochzahl $\to$ Punkt ($\cdot$\,,\,$:$) $\to$ Strich ($+$\,,\,$-$) von links nach rechts
 In Worten: Malnehmen und Teilen: gleiche Vorzeichen ergeben Plus, verschiedene Minus: $(-2) \cdot (-3) = 6$, \ $(-6) : 2 = -3$.
 Fehler: $3 \cdot 4 = 12 + 6 = 18$ ist falsch geschrieben, denn $3 \cdot 4$ ist nicht $18$. Richtig: $3 \cdot 4 + 6 = 12 + 6 = 18$.
 Tisch: Ohne Taschenrechner.
@@ -177,7 +177,7 @@ Tisch: Ohne Taschenrechner.
 | Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
 |---|---|---|---|---|---|---|
 | L5-A | Zahl einsetzen und ausrechnen | Ein \textbf{Term} wie $4x - 3$ enthält eine \textbf{Variable} $x$: einen Platzhalter für eine Zahl. Setzt du für $x$ eine Zahl ein und rechnest aus, erhältst du den \textbf{Termwert}. | $4x - 3$ \ für \ $x = 5$: \quad $4 \cdot 5 - 3 = 20 - 3 = 17$ | terme-e5-k1-s7-v1 | terme-e5-k1-s1-v6, terme-e5-k1-s7-v2, terme-e5-k1-s8-v1, terme-e5-k1-s13-v1 | terme-e5-k1-s1-v7, terme-e5-k1-s7-v3, terme-e5-k1-s7-v4, terme-e5-k1-s8-v2, terme-e5-k1-s13-v2 |
-| L5-B | Negative Zahlen einsetzen | Eine negative Zahl setzt du in Klammern ein: Aus $3x$ wird $3 \cdot (-2)$. Dann rechnest du in der Reihenfolge von Seite 1. | $2x + 9$ \ für \ $x = -3$: \quad $2 \cdot (-3) + 9 = -6 + 9 = 3$ \par\vspace{3pt} $10 - x$ \ für \ $x = -4$: \quad $10 - (-4) = 10 + 4 = 14$ \par\vspace{3pt} $-2x$ \ für \ $x = -3$: \quad $-2 \cdot (-3) = 6$ | terme-e5-k1-s9-v1 | terme-e5-k1-s2-v4, terme-e5-k1-s2-v5, terme-e5-k1-s9-v2, terme-e5-k1-s10-v1 | terme-e5-k1-s2-v6, terme-e5-k1-s2-v7, terme-e5-k1-s9-v3, terme-e5-k1-s10-v2 |
+| L5-B | Negative Zahlen einsetzen | Eine negative Zahl setzt du in Klammern ein: Aus $3x$ wird $3 \cdot (-2)$. Dann rechnest du in der Reihenfolge von Seite 1. | $2x + 9$ \ für \ $x = -3$: \quad $2 \cdot (-3) + 9 = -6 + 9 = 3$ \par\vspace{3pt} $10 - x$ \ für \ $x = -4$: \quad $10 - (-4) = 10 + 4 = 14$ \par\vspace{3pt} $-2x$ \ für \ $x = -3$: \quad $-2 \cdot (-3) = 6$ \par\vspace{3pt} $-3 - 6 = -9$ \ (weiter ins Minus) | terme-e5-k1-s9-v1 | terme-e5-k1-s2-v4, terme-e5-k1-s2-v5, terme-e5-k1-s9-v2, terme-e5-k1-s10-v1 | terme-e5-k1-s2-v6, terme-e5-k1-s2-v7, terme-e5-k1-s9-v3, terme-e5-k1-s10-v2 |
 | L5-C | Quadrate | Setz eine negative Zahl auch beim Quadrat in Klammern ein. Dann gilt das Quadrat für die ganze Zahl mit Minus, und es kommt immer eine positive Zahl heraus. | $(-3)^2 = (-3) \cdot (-3) = 9$ \qquad $x^2 + 1$ \ für \ $x = -3$: \quad $(-3)^2 + 1 = 9 + 1 = 10$ | terme-e5-k1-s3-v4 | terme-e5-k1-s3-v5, terme-e5-k1-s3-v6, terme-e5-k1-s3-v7, terme-e5-k1-s8-v3 | terme-e5-k1-s3-v8, terme-e5-k1-s3-v9, terme-e5-k1-s3-v10, terme-e5-k1-s8-v4 |
 | L5-D | Zwei Variablen und Bruchstrich | Jede Variable bekommt ihre eigene Zahl. Ein Bruchstrich wirkt wie eine Klammer um Zähler und Nenner: erst oben und unten ausrechnen, dann teilen. | $\dfrac{a + b}{c} = (a + b) : c$ | terme-e5-k1-s12-v1 | terme-e5-k1-s11-v1, terme-e5-k1-s12-v2, terme-e5-k1-s12-v3, terme-e5-k1-s10-v3 | terme-e5-k1-s11-v2, terme-e5-k1-s11-v3, terme-e5-k1-s12-v4, terme-e5-k1-s12-v5, terme-e5-k1-s10-v4 |
 | L5-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | terme-e5-k1-s2-v8, terme-e5-k1-s9-v4, terme-e5-k1-s3-v11, terme-e5-k1-s12-v6, terme-e5-k1-s11-v4, terme-e5-k1-s13-v3 | terme-e5-k1-s13-v4, terme-e5-k1-s2-v9 |
