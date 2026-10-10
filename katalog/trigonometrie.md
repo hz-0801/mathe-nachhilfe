@@ -127,8 +127,8 @@ Zielmarke: **Einheit 1** – Hauptmarke 2017-OS-K4b (Niveau II, 2 Punkte): tan 3
 - Gewicht (Regel 02.10.2026): P zählt die Originale der Zuordnungszeile mit eigenem Typ der Einheit (Nebentyp-Klauseln nicht); K der Einheit 4 ist 0 (keine Klassenarbeit des Duden 9 fragt den Sinussatz, das Maß zählt trotzdem, weil der Eintrag Klasse-9-Werte hat); S in Prozent mit zwei Stellen.
 
 ### Thema-Weg
-Stand: 2026-10-10, angelegt beim ersten Bau (N9M, Lerneinheit 1); die
-Folge 2–4 ist noch nicht durch einen Bau bestätigt.
+Stand: 2026-10-10, angelegt beim ersten Bau (N9M, Lerneinheit 1);
+Folge 1–2 durch den Bau LT3 bestätigt, 3–4 noch nicht.
 
 Folge | Grund für die Stelle:
 1. Seite berechnen mit sin, cos und tan (Lerneinheit 1) | Zuerst die
@@ -140,7 +140,12 @@ Folge | Grund für die Stelle:
    2022-OS-K5d), weil die P10 nie sagt, welche Funktion passt.
 2. Winkel berechnen (Lerneinheit 2) | Umkehrung von 1: dieselben Brüche,
    jetzt mit der Umkehrtaste; setzt sicheres Benennen und Aufstellen
-   aus 1 voraus.
+   aus 1 voraus. Dann Steigungswinkel in Sachen (schräg gemessen =
+   Hypotenuse, 2024-OS-K6b) und Winkel in Figuren mit Höhe und
+   Nachweis (2022-OS-K5b, 2019-OS-K3b, 2026-FOR-K4b). Am Ende „Seite
+   oder Winkel?“ gemischt mit 1: Was 1 getrennt übte (mal, geteilt),
+   mischt 2 mit der Umkehrtaste, weil die P10 nie sagt, was zu tun ist
+   (2025-OS-K4a: erst Seite, dann Winkel).
 3. Teildreiecke und Vermessung (Lerneinheit 3) | Das Dreieck muss erst
    gefunden werden, dazu Hilfskathete, Gerätehöhe, Teilwinkel; braucht
    Seite und Winkel aus 1 und 2.
@@ -190,6 +195,32 @@ Tisch: Runde, wenn nichts anderes steht, auf eine Stelle nach dem Komma. Taschen
 | L1-C | Seite im Nenner: geteilt | Ist die Hypotenuse gesucht (oder beim Tangens die Ankathete), steht $x$ unten im Bruch. Dann rechnest du: gegebene Seite geteilt durch den Wert. | $\sin\alpha = \dfrac{G}{x}$ \ $\Rightarrow$ \ $x \cdot \sin\alpha = G$ \ $\Rightarrow$ \ $x = G : \sin\alpha$\par {\small Probe, nur wenn die Hypotenuse gesucht ist: Sie ist die längste Seite.} | trigonometrie-e1-k3-s7-v4 | trigonometrie-e1-k3-s7-v5, trigonometrie-e1-k3-s8-v4, trigonometrie-e1-k3-s10-v4, trigonometrie-e1-k3-s12-v4, trigonometrie-e1-k3-s15-v6 | trigonometrie-e1-k3-s7-v6, trigonometrie-e1-k3-s7-v7, trigonometrie-e1-k3-s8-v5, trigonometrie-e1-k3-s10-v5, trigonometrie-e1-k3-s12-v5, trigonometrie-e1-k3-s15-v7 |
 | L1-D | Welche Funktion? Figuren und Sachen | Jetzt sagt dir niemand, welche Funktion passt. Such das rechtwinklige Dreieck, benenne gegebene und gesuchte Seite vom Winkel aus. Die zwei Seiten wählen die Funktion. | G und H: $\sin$ \qquad A und H: $\cos$ \qquad G und A: $\tan$\par {\small $x$ oben im Bruch: mal. \ $x$ unten: geteilt.} | trigonometrie-e1-k3-s11-v4 | trigonometrie-e1-k3-s11-v5, trigonometrie-e1-k3-s13-v4, trigonometrie-e1-k3-s11-v6, trigonometrie-e1-k3-s15-v8 | trigonometrie-e1-k3-s11-v7, trigonometrie-e1-k3-s11-v8, trigonometrie-e1-k3-s11-v9, trigonometrie-e1-k3-s15-v9 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | trigonometrie-e1-k3-s2-v6, trigonometrie-e1-k3-s12-v6, trigonometrie-e1-k3-s14-v4, trigonometrie-e1-k3-s15-v10 | trigonometrie-e1-k3-s2-v7, trigonometrie-e1-k3-s12-v7, trigonometrie-e1-k3-s14-v5, trigonometrie-e1-k3-s15-v11 |
+
+#### Lerneinheit 2 – Winkel berechnen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung LT3 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: $\beta_1 \approx 48{,}4^\circ$ an der Seilbahn mit $\cos^{-1}$ (2024-OS-K6b); $\alpha \approx 63{,}6^\circ$ nachweisen, „also rund $64^\circ$“ (2019-OS-K3b); Winkel im Teildreieck mit der Höhe (2022-OS-K5b) und im Parallelogramm (2026-FOR-K4b); Winkel nach einer Seitenrechnung (2025-OS-K4a); „Seite oder Winkel?“ gemischt mit Lerneinheit 1
+Blatt: Klasse 10 · Vorher: Seite berechnen mit sin, cos und tan · Weiter: Teildreiecke und Vermessung
+Titel: Trigonometrie: Winkel berechnen
+Formel: $\alpha = \sin^{-1}\big(\tfrac{G}{H}\big)$ \enspace $\alpha = \cos^{-1}\big(\tfrac{A}{H}\big)$ \enspace $\alpha = \tan^{-1}\big(\tfrac{G}{A}\big)$
+In Worten: Zwei Seiten sind bekannt, der Winkel ist gesucht. Das Verhältnis bildest du wie in Lerneinheit 1; die Umkehrtaste macht daraus den Winkel.
+Vorgehen: rechten Winkel suchen, gegenüber liegt die Hypotenuse; vom gesuchten Winkel aus Gegenkathete und Ankathete benennen; die zwei bekannten Seiten wählen sin, cos oder tan; Verhältnis als Bruch, dann Umkehrtaste; auf eine Stelle nach dem Komma runden, Gradzeichen dazu
+Achtung: $\sin^{-1}$ heißt nicht „1 geteilt durch $\sin$“.
+Bild: trigonometrie-e1-k3-s0-v8
+Fehler: Umkehrtaste vergessen. $0{,}625$ ist kein Winkel; erst $\sin^{-1}(0{,}625)$ ist einer.
+Fehler: Katheten beim Tangens vertauscht. Dann kommt der andere spitze Winkel heraus.
+Fehler: Vom falschen Winkel aus benannt. Gegen- und Ankathete hängen am gesuchten Winkel.
+Fehler: Taschenrechner im Bogenmaß (RAD). Dann gibt $\sin^{-1}(0{,}5)$ etwa $0{,}52$ statt $30^\circ$.
+Fehler: Zwischenwert gerundet eingetippt. Tipp den Bruch ganz ein.
+Tisch: Runde Winkel auf eine Stelle nach dem Komma.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Winkel aus zwei Seiten | Zwei Seiten sind gegeben, der Winkel ist gesucht. Bilde das Verhältnis und nimm die \textbf{Umkehrtaste}. | $\sin\alpha = \dfrac{G}{H}$ \ $\Rightarrow$ \ $\alpha = \sin^{-1}\!\left(\dfrac{G}{H}\right)$ \qquad ebenso mit $\cos^{-1}$ und $\tan^{-1}$\par {\small Taste: SHIFT sin, die Anzeige zeigt $\sin^{-1}$.} | trigonometrie-e2-k1-s1-v6 | trigonometrie-e2-k1-s1-v7, trigonometrie-e2-k1-s2-v4, trigonometrie-e2-k1-s3-v4, trigonometrie-e2-k1-s4-v4, trigonometrie-e2-k1-s11-v4 | trigonometrie-e2-k1-s2-v5, trigonometrie-e2-k1-s1-v8, trigonometrie-e2-k1-s3-v5, trigonometrie-e2-k1-s4-v5, trigonometrie-e2-k1-s11-v5 |
+| L2-B | Steigungswinkel in Sachen | Die schräge Länge (Seil, Rampe, Straße) ist die Hypotenuse, die waagerechte Strecke die Ankathete, die Höhe die Gegenkathete des Steigungswinkels. | Höhe und schräg: $\sin^{-1}$ \qquad waagerecht und schräg: $\cos^{-1}$ \qquad Höhe und waagerecht: $\tan^{-1}$\par {\small Zweiter spitzer Winkel: $90^\circ - \alpha$. Der größere Winkel liegt der längeren Kathete gegenüber.} | trigonometrie-e2-k1-s7-v4 | trigonometrie-e2-k1-s7-v5, trigonometrie-e2-k1-s12-v13, trigonometrie-e2-k1-s5-v6, trigonometrie-e2-k1-s11-v6 | trigonometrie-e2-k1-s7-v6, trigonometrie-e2-k1-s6-v4, trigonometrie-e2-k1-s12-v14, trigonometrie-e2-k1-s5-v7, trigonometrie-e2-k1-s11-v7 |
+| L2-C | Winkel in Figuren und Nachweis | Such in der Figur das rechtwinklige Dreieck, in dem der Winkel liegt; eine eingezeichnete Höhe ist dort Kathete. Bei „Zeige, dass … rund …“ rechnest du den Winkel aus und schreibst, worauf er gerundet wird. | Antwortsatz beim Nachweis: \ $\alpha \approx 66{,}4^\circ$, also rund $66^\circ$. | trigonometrie-e2-k1-s9-v5 | trigonometrie-e2-k1-s9-v6, trigonometrie-e2-k1-s8-v4, trigonometrie-e2-k1-s10-v4, trigonometrie-e2-k1-s5-v8 | trigonometrie-e2-k1-s9-v7, trigonometrie-e2-k1-s8-v5, trigonometrie-e2-k1-s10-v5, trigonometrie-e2-k1-s9-v8, trigonometrie-e2-k1-s5-v9 |
+| L2-D | Seite oder Winkel? | Frag zuerst: Ist ein Winkel gegeben oder gesucht? | Winkel gegeben, Seite gesucht: Gleichung umstellen ($x$ oben: mal, $x$ unten: geteilt)\par Zwei Seiten gegeben, Winkel gesucht: $\sin^{-1}$, $\cos^{-1}$ oder $\tan^{-1}$ | trigonometrie-e2-k1-s11-v8 | trigonometrie-e2-k1-s11-v9, trigonometrie-e2-k1-s11-v10, trigonometrie-e2-k1-s11-v11 | trigonometrie-e2-k1-s11-v12, trigonometrie-e2-k1-s11-v13, trigonometrie-e2-k1-s11-v14, trigonometrie-e2-k1-s11-v15 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | trigonometrie-e2-k1-s4-v6, trigonometrie-e2-k1-s12-v15, trigonometrie-e2-k1-s12-v16, trigonometrie-e2-k1-s11-v16 | trigonometrie-e2-k1-s4-v7, trigonometrie-e2-k1-s12-v17, trigonometrie-e2-k1-s12-v18, trigonometrie-e2-k1-s11-v17 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
