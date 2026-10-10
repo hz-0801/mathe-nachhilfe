@@ -119,6 +119,59 @@ Zielmarke: Einheit 1 – Rechteckseite aus dem Umfang ohne Taschenrechner, erst 
 - [LISUM-PH, Nulltreffer 10h] Weder „Drachenviereck“ noch „Verschnitt“ kommen in den Planungshilfen vor; „Trapez“ nur einmal, in der Begriffszeile des Blocks „Geometrische Körper“ als „ggf. Trapezen“. Einheit 4 stützt sich damit auf den RLP („Dreiecke, Vierecke“) und die vier P10-Typen, nicht auf die Planungshilfen; Einheit 5 trägt den Verschnitt zu Recht als Vorrat.
 - Serlo 36520 und 1709 nur über Suchergebnisse gesichtet, nicht vollständig gelesen.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau 9WQ, Lerneinheit 1; die
+Einheiten 2 bis 5 sind noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Rechteck, Quadrat, Umfang (Lerneinheit 1) | Fläche gegen Umfang
+   unterscheiden ist der Kern aller späteren Einheiten (P10-Fehler
+   „Fläche und Umfang vertauscht“); rückwärts rechnen (Seite aus Fläche
+   oder Umfang) und Figuren aus Rechtecken gehören schon hierher, weil
+   sie nur das Rechteck brauchen.
+2. Parallelogramm (Lerneinheit 2) | Grundseite mal Höhe setzt das
+   Rechteck voraus; neu ist nur die Höhe statt der schrägen Seite.
+3. Dreieck (Lerneinheit 3) | halbes Parallelogramm; braucht die Höhe
+   aus 2.
+4. Trapez, Drachenviereck, Raute (Lerneinheit 4) | Formeln aus 2 und 3
+   zusammengesetzt.
+5. Zusammengesetzte Figuren (Lerneinheit 5) | braucht alle Formeln aus
+   1 bis 4 und den Kreis; das Zerlegen in Rechtecke ist in 1 schon
+   vorbereitet.
+
+Nicht in Lerneinheit 1 gebaut: Term zu Figur mit Variablen (Klasse 5
+kennt noch keine Variablen; Rand der Einheit, im Bestand k2-s8 und
+k5-s4) und Einheiten wechseln (Thema Einheiten).
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` (Form „abschnitte“, 10.10.2026); fehlt er, ist die
+Einheit noch nicht gebaut. Steht hier am Ende, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben.
+
+Serie: Vorher: Flächeneinheiten; Einmaleins und Teilen | Flächen: Rechteck, Quadrat, Umfang; Parallelogramm; Dreieck; Trapez, Drachen, Raute | Zusammengesetzte Figuren | Weiter: Kreis
+
+#### Lerneinheit 1 – Rechteck, Quadrat, Umfang (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 9WQ · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Rechteckseite aus dem Umfang, erst halbieren (2018-OS-B1f); Rechteckseite aus der Fläche (2023-OS-B1c); Quadratseite aus der Fläche, nicht durch 4 (2020-OS-B1d); Umfang Rechteck (2026-FOR-B1h); aus Rechtecken zusammengesetzte Fläche (2019-OS-K4b)
+Blatt: Klasse 5 · Vorher: Flächeneinheiten · Weiter: Parallelogramm
+Titel: Rechteck und Quadrat: Fläche und Umfang
+Formel: Rechteck: $A = a \cdot b$ \qquad $u = 2 \cdot a + 2 \cdot b$\par Quadrat: $A = a \cdot a$ \qquad $u = 4 \cdot a$
+In Worten: Fläche ist Länge mal Breite. Umfang ist alle Seiten zusammen.
+Vorgehen: entscheiden: innen (Fläche) oder Rand (Umfang)?; Formel aufschreiben, Zahlen einsetzen, rechnen; Einheit dazu: cm² oder m² bei der Fläche, cm oder m beim Umfang
+Bild: flaechen-e1-k2-s1-v6
+Fehler: Beim Umfang nur zwei Seiten addiert: Ein Rechteck hat vier Seiten, $u = 2 \cdot a + 2 \cdot b$.
+Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Fläche und Umfang | Die \textbf{Fläche} ist das, was innen liegt: Rasen, Teppich, Farbe. Der \textbf{Umfang} ist der Weg einmal außen herum: Zaun, Leiste, Rahmen. | Rechteck: $A = a \cdot b$ \qquad $u = 2 \cdot a + 2 \cdot b$\par Quadrat (alle Seiten gleich): $A = a \cdot a$ \qquad $u = 4 \cdot a$ | flaechen-e1-k2-s1-v6 | flaechen-e1-k2-s1-v7, flaechen-e1-k2-s3-v4, flaechen-e1-k2-s1-v8, flaechen-e1-k2-s3-v5 | flaechen-e1-k2-s0-v5, flaechen-e1-k2-s1-v9, flaechen-e1-k2-s3-v6, flaechen-e1-k2-s3-v7 |
+| L1-B | Eine Seite rückwärts finden | Kennst du die Fläche und eine Seite, teilst du die Fläche durch diese Seite. Kennst du den Umfang, halbierst du ihn zuerst: Die Hälfte ist eine Länge und eine Breite zusammen. | aus der Fläche: $b = A : a$ \qquad aus dem Umfang: $b = u : 2 - a$\par {\small Probe: Mit der gefundenen Seite $A$ oder $u$ noch einmal ausrechnen.} | flaechen-e1-k2-s5-v4 | flaechen-e1-k2-s5-v5, flaechen-e1-k2-s6-v4, flaechen-e1-k2-s5-v6, flaechen-e1-k2-s9-v3 | flaechen-e1-k2-s5-v7, flaechen-e1-k2-s6-v5, flaechen-e1-k2-s5-v8, flaechen-e1-k2-s6-v6, flaechen-e1-k2-s9-v4 |
+| L1-C | Die Seite eines Quadrats finden | Beim Quadrat sind alle vier Seiten gleich lang. Darum reicht eine Angabe – Fläche oder Umfang –, um die Seite zu finden. | aus dem Umfang: $a = u : 4$ \qquad aus der Fläche: $a \cdot a = A$, also $a = \sqrt{A}$\par {\small $\sqrt{A}$ (Wurzel) ist die Zahl, die mal sich selbst $A$ ergibt: $\sqrt{25} = 5$, weil $5 \cdot 5 = 25$.} | flaechen-e1-k2-s7-v4 | flaechen-e1-k2-s7-v5, flaechen-e1-k2-s3-v8, flaechen-e1-k2-s7-v6, flaechen-e1-k2-s7-v7 | flaechen-e1-k2-s7-v8, flaechen-e1-k2-s7-v9, flaechen-e1-k2-s3-v9, flaechen-e1-k2-s7-v10 |
+| L1-D | Figuren aus Rechtecken | Zerlege die Figur in Rechtecke und addiere ihre Flächen. Eine fehlende Seite findest du über die Seiten gegenüber. | $A = A_1 + A_2$ \qquad $u$ = alle Seiten am Rand zusammen | flaechen-e1-k3-s1-v4 | flaechen-e1-k2-s4-v4, flaechen-e1-k3-s1-v5, flaechen-e1-k3-s1-v6, flaechen-e1-k3-s1-v7 | flaechen-e1-k3-s1-v8, flaechen-e1-k3-s1-v9, flaechen-e1-k2-s4-v5, flaechen-e1-k3-s1-v10 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e1-k2-s1-v10, flaechen-e1-k2-s9-v5, flaechen-e1-k3-s1-v11, flaechen-e1-k2-s9-v6 | flaechen-e1-k2-s9-v7, flaechen-e1-k2-s7-v11, flaechen-e1-k2-s9-v8 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
