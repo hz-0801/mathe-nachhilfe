@@ -416,6 +416,8 @@ Werkstatt
   Frage mit Empfehlung; Alltagssprache; selbst machen; Unteragenten
   pushen; Token vom Ende her; Lehrer entscheidet Verbrauch → W
 - 03.10. Schülerdaten im Repo nur als Nummern → W
+- 10.10. Chat hängt alle fünf Repos selbst an, auch -privat; der
+  Lehrer erteilt Zugriff nicht je Chat → W
 - 26.09. Nur zwei Förderhefte kaufen; 28.09. Altlehrwerke sind
   Steinbruch; 03.10. OneNote-Weg ruht → W
 
