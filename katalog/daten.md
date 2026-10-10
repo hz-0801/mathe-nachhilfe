@@ -213,7 +213,7 @@ Zielmarke (Sek II): Einheit 1 – fhr: relative Häufigkeiten zweier Städte mit
 - Sek-II-Teil – Prüfskripte: `_pruef_katalog.py` prüft seit dem Abschnitt „Prüfungsform (fhr / abi / iqb)“ auch die Zählzeile unter „Typen je Lerneinheit“ (Sek-II-Typen mit Zeilenzahl in Klammern in den Einheiten 1, 4 und 6; die Sek-I-Einheiten 2, 3 und 5 zählen null) und die Profillisten gegen themen.csv; `_pruef_struktur.py` verlangt, dass die Zuordnungszeile jede Einheit nennt – deshalb trägt die P10-Zuordnung den Zusatz „Einheit 6 – kein P10-Typ“, die einzige Änderung in der P10-Prüfungsform. Alle 30 Sek-II-ids stehen im Eintrag (Fehler, Sprossen, Muster, Zielmarke).
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten T74/E2 und FWE/E3; die übrigen Einheiten
+Stand: 2026-10-10, vorläufig (aus den Bauten T74/E2, FWE/E3 und 4CR/E4; die übrigen Einheiten
 noch nicht gebaut, ihre Stelle nach „Lerneinheiten“ und Lehrwerk).
 
 Folge | Grund für die Stelle:
@@ -235,7 +235,14 @@ Folge | Grund für die Stelle:
    Streifen zuerst, weil 1 % = 1 mm ohne Winkel auskommt; Lesen zuletzt,
    weil die Prüfungshöhe Zuordnen und Winkelrechnung verbindet.
 4. Kenngrößen (Lerneinheit 4) | Werte aus Liste, Tabelle und Diagramm
-   (aus 2) zusammenfassen.
+   (aus 2) zusammenfassen. Im Blatt (Bau 4CR): Spannweite und Modalwert
+   (ordnen, Aussage prüfen) → Median (ordnen, Mitte; gerade Anzahl) →
+   Mittel (aus Diagramm, Anzahl zählen, sinnvoll runden) → Mittel
+   rückwärts und Änderungen (Summe = Mittel · Anzahl; fehlender Wert;
+   Werte streichen). Ordnen zuerst, weil Spannweite und Median es
+   brauchen; rückwärts zuletzt, weil die Prüfungshöhe (Wegfall zweier
+   Werte) Mittel und Summe verbindet. Notenspiegel (gewichtetes Mittel)
+   und Ausreißer (Mittel gegen Median) nicht im Blatt, nur Bank.
 5. Diagramme beurteilen und Boxplot (Lerneinheit 5) | Setzt Ablesen (2)
    und Kenngrößen (4) voraus; abgeschnittene Achse erst, wenn die Achse
    sicher gelesen wird.
@@ -296,6 +303,28 @@ Tisch: Miss mit dem Lineal auf den Millimeter und mit dem Geodreieck auf das Gra
 | L3-C | Kreisdiagramm zeichnen | Erst rechnest du alle Winkel aus und prüfst, ob sie zusammen $360^\circ$ ergeben. Dann trägst du die Sektoren mit dem Geodreieck nacheinander ab, jeden an der Linie des vorigen. | Ganzes $=$ Summe aller Teile \qquad Kontrolle: alle Winkel zusammen $360^\circ$ | daten-e3-k1-s9-v4 | daten-e3-k1-s8-v4, daten-e3-k1-s9-v5, daten-e3-k1-s9-v7 | daten-e3-k1-s9-v6, daten-e3-k1-s8-v5, daten-e3-k1-s9-v8, daten-e3-k1-s9-v9, daten-e3-k1-s9-v10 |
 | L3-D | Kreisdiagramme lesen und zuordnen | Der größte Anteil hat den größten Sektor. Ein Halbkreis ist die Hälfte, ein rechter Winkel ein Viertel. | Hälfte $= 50\,\% = 180^\circ$ \qquad Viertel $= 25\,\% = 90^\circ$ | daten-e3-k1-s10-v4 | daten-e3-k1-s10-v5, daten-e3-k2-s1-v4, daten-e3-k1-s12-v7 | daten-e3-k1-s10-v6, daten-e3-k1-s10-v7, daten-e3-k1-s12-v8, daten-e3-k1-s12-v9, daten-e3-k2-s1-v5 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e3-k1-s2-v8, daten-e3-k1-s6-v6, daten-e3-k1-s9-v11, daten-e3-k1-s12-v10 | daten-e3-k1-s11-v4, daten-e3-k1-s11-v5 |
+
+#### Lerneinheit 4 – Kenngrößen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 4CR · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, Stufe E: GYM Kl. 7, OS 7–8; E2 Diagramme lesen Vorwissen)
+Form: abschnitte
+Ziel: Durchschnittsalter aus elf Werten und begründen, warum es beim Wegfall der ältesten und der jüngsten Person bleibt (2025-OS-K6c); fehlender Wert aus Mittel und Anzahl, eintragen (2022-OS-B1d); Median aus sechs Werten (2024-OS-B1h); zwei Aussagen zu Kenngrößen prüfen und die falsche berichtigen (2025-OS-K6a); Mittel aus einem Säulendiagramm als Nachweis (2020-OS-K2c; 2026-FOR-K3b)
+Blatt: Klasse 7 · Vorher: Streifen- und Kreisdiagramm · Weiter: Diagramme beurteilen und Boxplot
+Titel: Kenngrößen
+Formel: Spannweite $=$ Max $-$ Min \qquad Mittel $=$ Summe $:$ Anzahl \newline Median $=$ Mitte der geordneten Liste
+In Worten: Kenngrößen fassen eine Liste in einer Zahl zusammen: wie stark die Werte schwanken (Spannweite) und welcher Wert typisch ist (Modalwert, Median, Mittel).
+Vorgehen: Werte ablesen und ordnen; zählen, wie viele es sind; Kenngröße bestimmen; mit Einheit antworten oder die Aussage prüfen
+Bild: –
+Fehler: Den Median an der ungeordneten Liste abgelesen. Richtig: erst ordnen, dann die Mitte suchen.
+Fehler: Durch die falsche Anzahl geteilt, ein Tag oder eine $0$ vergessen. Richtig: alle Werte zählen.
+Tisch: Ordne jede Liste zuerst und zähle die Werte.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L4-A | Spannweite und Modalwert | Ordne die Werte zuerst. Die Spannweite zeigt, wie stark die Werte schwanken; der Modalwert ist der Wert, der am häufigsten vorkommt. | Spannweite $=$ Maximum $-$ Minimum \qquad Modalwert $=$ häufigster Wert | daten-e4-k1-s2-v4 | daten-e4-k1-s2-v5, daten-e4-k1-s3-v4, daten-e4-k1-s2-v6, daten-e4-k1-s14-v4 | daten-e4-k1-s2-v7, daten-e4-k1-s3-v5, daten-e4-k1-s2-v8, daten-e4-k1-s14-v5, daten-e4-k1-s14-v6 |
+| L4-B | Median | Der Median steht in der Mitte der geordneten Liste. Bei einer geraden Anzahl liegt er genau zwischen den beiden mittleren Werten. | ungerade Anzahl: Median $=$ mittlerer Wert \newline gerade Anzahl: Median $=$ (linker $+$ rechter mittlerer Wert) $: 2$ | daten-e4-k1-s5-v4 | daten-e4-k1-s4-v4, daten-e4-k1-s5-v5, daten-e4-k1-s5-v6, daten-e4-k1-s5-v7 | daten-e4-k1-s4-v5, daten-e4-k1-s5-v8, daten-e4-k1-s5-v9, daten-e4-k1-s5-v10 |
+| L4-C | Arithmetisches Mittel | Das Mittel (der Durchschnitt) verteilt die Summe gleichmäßig auf alle Werte. Zähle jeden Wert mit, auch eine $0$. | Mittel $=$ Summe aller Werte $:$ Anzahl der Werte | daten-e4-k1-s9-v4 | daten-e4-k1-s6-v4, daten-e4-k1-s7-v4, daten-e4-k1-s11-v4, daten-e4-k1-s9-v5 | daten-e4-k1-s6-v5, daten-e4-k1-s7-v5, daten-e4-k1-s11-v5, daten-e4-k1-s9-v6, daten-e4-k1-s12-v4 |
+| L4-D | Mittel rückwärts und Änderungen | Aus dem Mittel bekommst du die Summe zurück. Fehlt ein Wert oder fällt einer weg, rechnest du mit der Summe weiter. | Summe $=$ Mittel $\cdot$ Anzahl \qquad fehlender Wert $=$ Summe $-$ bekannte Werte | daten-e4-k1-s13-v4 | daten-e4-k1-s13-v5, daten-e4-k1-s13-v6, daten-e4-k1-s15-v4, daten-e4-k1-s13-v7 | daten-e4-k1-s13-v8, daten-e4-k1-s13-v9, daten-e4-k1-s15-v5, daten-e4-k1-s13-v10 |
+| L4-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e4-k1-s5-v11, daten-e4-k1-s13-v11, daten-e4-k1-s14-v7, daten-e4-k1-s16-v3 | daten-e4-k1-s16-v4, daten-e4-k1-s14-v8 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
