@@ -152,6 +152,63 @@ Einheit 5 – kein P10-Original; Zielmarke nach Lehrwerk Kl. 9 (Duden WÜT 9 Kap
 - [LISUM-PH, geschlossen 11h] Die drei Befunde des 10e-Chats sind am 11h an der Quelle nachgeschlagen und abgearbeitet. Erstens die Lösungsmenge: beide Reihen verlangen das Angeben, schreiben aber keine Notation vor; benannt wird mit Indizes wie in den P10-Lösungswegen, der Begriff steht einmal als amtliches Wort auf dem Blatt (siehe Notation). Zweitens die quadratische Ergänzung: sie bleibt Vorrat, und die Begründung steht jetzt auf RLP-Zeile (12) und Gymnasialreihe Zeile 1953 statt auf der Behauptung „nur Gymnasium“. Drittens die fünfte Gleichungsform a · x² + b = c: sie steht in der Gymnasialreihe (Zeile 1950) und in der EBR/FOR-Reihe nicht, ist damit GYM und seit 11h als GYM-Sprosse in Einheit 1 aufgenommen. Zur Lesart dieser Zeile siehe den Textfassungs-Befund in der Verortung – ohne ihn liest sie sich als lineare Gleichung.
 - Prüfungskatalog, ins Repo melden (Kiste C2): 2022-OS-B1c trägt im Feld `bemerkung` die Angabe „Typ steht in typen.csv unter Quadratische Gleichungen, Zeile unter Lineare Gleichungen“. typen.csv führt den Typ „Lösung durch Einsetzen prüfen“ unter dem Thema Lineare Gleichungen; die Bemerkung beschreibt die Lage genau umgekehrt und passt auf 2025-OS-B1h, nicht auf 2022-OS-B1c. Feststellung, kein Fehler des Eintrags.
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau 2TB/E2; die übrigen Einheiten
+sind noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Wurzelziehen und Lösbarkeit (Lerneinheit 1) | Zuerst, weil x² = c
+   ohne neues Verfahren auskommt und „zwei, eine, keine Lösung“ an der
+   rechten Seite sichtbar wird; die Formel in 2 setzt das voraus.
+2. Normalform und p-q-Formel (Lerneinheit 2) | Das Verfahren hinter
+   sieben P10-Originalen (quadratische-funktionen.md Einheit 4).
+   Innen (Bau 2TB): Formel an der fertigen Normalform, nur „Zahl nach
+   links“ als Ordnen → Wurzel geht nicht auf, p ungerade, eine oder
+   keine Lösung → erst in Normalform bringen (x auf beiden Seiten,
+   Klammer, durch die Zahl vor x² teilen, auch −1) → Sachgleichungen
+   (Rechteck, Nachfolger). Die Zahl der Lösungen steht vor dem Ordnen,
+   weil sie nur die Formel braucht; das Ordnen steht vor den
+   Sachgleichungen, weil jede Sachgleichung erst geordnet wird. Ziele
+   jedes Abschnitts sind Zahlenrätsel oder Automaten: Die Gleichung
+   stellt der Schüler selbst auf. Im Bestand, nicht auf dem Blatt:
+   Vieta, grafisch lösen, Fehler finden, Begründen, Rückwärts.
+3. Satz vom Nullprodukt (Lerneinheit 3) | Abkürzung, wenn rechts 0 und
+   links ein Produkt steht; zurück zur Formel, wenn nicht.
+4. Sachaufgaben (Lerneinheit 4) | Vertieft das Aufstellen aus 2 D
+   (Quadrat mit Rand, Rückwärts, gemischt).
+5. Bruch- und Wurzelgleichungen, Ungleichungen (Lerneinheit 5) [GYM]
+   [Vorrat] | Führen auf die Gleichungen aus 1–3.
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+hier am Ende statt nach „Lerneinheiten“, damit die Zeilennummern im
+Bankfeld quelle gültig bleiben. Form „abschnitte“. Die Bankdateien
+tragen die Nummern vor dem Tausch vom 27.09. (e2 = Nullprodukt, e3 =
+p-q-Formel, e4 = Sachaufgaben); die Bank-ids im Block gelten so.
+
+Serie: Vorher: Quadratwurzel, binomische Formeln, Terme aufstellen | Lösen: Wurzelziehen und Lösbarkeit; Normalform und p-q-Formel; Satz vom Nullprodukt | Anwenden: Sachaufgaben; Nullstellen und Schnittpunkte (quadratische Funktionen) | Weiter: Bruch- und Wurzelgleichungen
+
+#### Lerneinheit 2 – Normalform und p-q-Formel (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung 2TB · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Normalform mit Wurzel als Ergebnis und Näherungswert (2025-OS-K5c, 2017-OS-K5d); vorher durch die Zahl vor $x^2$ teilen (2020-OS-K3e), auch durch $-1$ nach dem Ordnen (2023-OS-K4c); $x$ auf beiden Seiten ordnen wie beim Gleichsetzen (2021-OS-K2c, 2024-OS-K3d), Klammer zuerst (2022-OS-K3c); zwei, eine, keine Lösung; Rechteck aus Fläche und Seitenbeziehung (Einheit 4, RLP G)
+Blatt: Klasse 9 · Vorher: Wurzelziehen und Lösbarkeit · Weiter: Satz vom Nullprodukt
+Titel: Quadratische Gleichungen: Normalform und p-q-Formel
+Formel: $x^2 + px + q = 0$ \quad$\Rightarrow$\quad $x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}$
+In Worten: Erst die Gleichung in die Form $x^2 + px + q = 0$ bringen, dann $p$ und $q$ einsetzen. Das $\pm$ liefert meist zwei Lösungen.
+Fehler: Bei $x^2 - 8x + 7 = 0$ mit $-4 \pm \ldots$ gerechnet. Richtig: $-\frac{p}{2} = -\frac{-8}{2} = 4$.
+Fehler: $\sqrt{9 + 7}$ als $3 + \sqrt{7}$ gerechnet. Richtig: erst unter der Wurzel ausrechnen, $\sqrt{16} = 4$.
+Tisch: Bring jede Gleichung zuerst auf die Form $x^2 + px + q = 0$.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Die p-q-Formel | Eine Gleichung $x^2 + px + q = 0$ heißt \textbf{Normalform}: vorn allein $x^2$, rechts $0$. Du liest $p$ und $q$ mit ihrem Vorzeichen ab und setzt sie in die \textbf{p-q-Formel} ein. | $x^2 + px + q = 0$ \quad$\Rightarrow$\quad $x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}$\par {\small Steht rechts eine Zahl, bringst du sie zuerst nach links. Probe: eine Lösung in die Gleichung einsetzen.} | quadratische-gleichungen-e3-k3-s2-v4 | quadratische-gleichungen-e3-k3-s0-v5, quadratische-gleichungen-e3-k3-s1-v6, quadratische-gleichungen-e3-k3-s3-v4, quadratische-gleichungen-e4-k1-s2-v4 | quadratische-gleichungen-e3-k3-s0-v6, quadratische-gleichungen-e3-k3-s1-v7, quadratische-gleichungen-e3-k3-s1-v8, quadratische-gleichungen-e3-k3-s3-v6, quadratische-gleichungen-e4-k1-s2-v5 |
+| L2-B | Wurzel geht nicht auf – eine oder keine Lösung | Was unter der Wurzel steht, entscheidet: positiv – zwei Lösungen, $0$ – eine Lösung, negativ – keine Lösung. Geht die Wurzel nicht auf, lässt du sie stehen und rundest erst am Ende. | $x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}$\par {\small Ist $p$ ungerade, ist $\frac{p}{2}$ eine Dezimalzahl: $p = -5$ \;$\Rightarrow$\; $\frac{p}{2} = -2{,}5$ und $\left(\frac{p}{2}\right)^2 = 6{,}25$.} | quadratische-gleichungen-e3-k3-s12-v4 | quadratische-gleichungen-e3-k3-s5-v4, quadratische-gleichungen-e3-k3-s12-v5, quadratische-gleichungen-e3-k3-s8-v4, quadratische-gleichungen-e3-k3-s6-v4 | quadratische-gleichungen-e3-k3-s5-v5, quadratische-gleichungen-e3-k3-s12-v7, quadratische-gleichungen-e3-k3-s8-v6, quadratische-gleichungen-e3-k3-s7-v4 |
+| L2-C | Erst in Normalform bringen | Steht die Gleichung nicht als $x^2 + px + q = 0$ da, bringst du sie erst dahin: Klammern auflösen, alles auf die linke Seite, dann durch die Zahl vor $x^2$ teilen. | $a x^2 + b x + c = 0$ \quad $|:a$ \quad$\Rightarrow$\quad $x^2 + \frac{b}{a}x + \frac{c}{a} = 0$\par {\small Klammern: $x(x + 5) = x^2 + 5x$, \ $(x + 3)^2 = x^2 + 6x + 9$, \ $(x - 3)^2 = x^2 - 6x + 9$.} | quadratische-gleichungen-e3-k3-s15-v6 | quadratische-gleichungen-e3-k3-s3-v5, quadratische-gleichungen-e3-k3-s4-v4, quadratische-gleichungen-e3-k3-s15-v7, quadratische-gleichungen-e3-k3-s18-v4, quadratische-gleichungen-e3-k4-s1-v4 | quadratische-gleichungen-e3-k3-s3-v7, quadratische-gleichungen-e3-k3-s4-v7, quadratische-gleichungen-e3-k3-s15-v8, quadratische-gleichungen-e3-k3-s18-v5, quadratische-gleichungen-e3-k4-s1-v6 |
+| L2-D | Sachgleichungen | In Sachaufgaben stellst du die Gleichung selbst auf: das Gesuchte $x$ nennen, Skizze, Gleichung. Am Ende prüfst du, welche Lösung zur Sache passt: Eine Länge ist nie negativ, eine Zahl darf negativ sein. | Rechteck: Fläche $A = a \cdot b$, \quad Umfang $u = 2a + 2b$\par {\small Ist eine Seite um $3$ länger als die andere: $x$ und $x + 3$.} | quadratische-gleichungen-e4-k1-s4-v4 | quadratische-gleichungen-e4-k1-s4-v5, quadratische-gleichungen-e4-k1-s5-v4, quadratische-gleichungen-e4-k1-s3-v4, quadratische-gleichungen-e4-k1-s11-v4 | quadratische-gleichungen-e4-k1-s4-v6, quadratische-gleichungen-e4-k1-s5-v5, quadratische-gleichungen-e4-k1-s3-v5, quadratische-gleichungen-e4-k1-s11-v5 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. Nicht geschafft? Zurück zu dem Abschnitt, aus dem die Aufgabe stammt. | – | – | quadratische-gleichungen-e3-k3-s12-v6, quadratische-gleichungen-e3-k3-s4-v5, quadratische-gleichungen-e3-k3-s4-v6, quadratische-gleichungen-e3-k4-s1-v5, quadratische-gleichungen-e3-k3-s8-v5, quadratische-gleichungen-e4-k1-s8-v4 | quadratische-gleichungen-e3-k3-s12-v8, quadratische-gleichungen-e4-k1-s8-v5 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
