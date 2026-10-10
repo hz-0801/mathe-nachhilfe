@@ -120,8 +120,8 @@ Zielmarke: Einheit 1 – Rechteckseite aus dem Umfang ohne Taschenrechner, erst 
 - Serlo 36520 und 1709 nur über Suchergebnisse gesichtet, nicht vollständig gelesen.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau 9WQ, Lerneinheit 1; die
-Einheiten 2 bis 5 sind noch nicht gebaut).
+Stand: 2026-10-10, vorläufig (aus den Bauten 9WQ, Lerneinheit 1, und
+SC4, Lerneinheit 3; die Einheiten 2, 4 und 5 sind noch nicht gebaut).
 
 Folge | Grund für die Stelle:
 1. Rechteck, Quadrat, Umfang (Lerneinheit 1) | Fläche gegen Umfang
@@ -132,12 +132,20 @@ Folge | Grund für die Stelle:
 2. Parallelogramm (Lerneinheit 2) | Grundseite mal Höhe setzt das
    Rechteck voraus; neu ist nur die Höhe statt der schrägen Seite.
 3. Dreieck (Lerneinheit 3) | halbes Parallelogramm; braucht die Höhe
-   aus 2.
+   aus 2. Weil das Parallelogramm keine P10-Aufgabe hat und oft
+   übersprungen wird, führt der Bau SC4 die Höhe selbst ein (Abschnitte
+   A und B: Höhe innen, außen, zu einer schrägen Seite, als Abstand);
+   dazu Umfang und Term zu Figur (Abschnitt D, Klasse 7 kennt
+   Variablen).
 4. Trapez, Drachenviereck, Raute (Lerneinheit 4) | Formeln aus 2 und 3
    zusammengesetzt.
 5. Zusammengesetzte Figuren (Lerneinheit 5) | braucht alle Formeln aus
    1 bis 4 und den Kreis; das Zerlegen in Rechtecke ist in 1 schon
    vorbereitet.
+
+Nicht in Lerneinheit 3 gebaut: Fehler finden, Begründen (halbes
+Parallelogramm), Rechenweg beschreiben (2015-OS-K5d); Seiten über
+Pythagoras oder Trigonometrie bleiben bei diesen Einträgen.
 
 Nicht in Lerneinheit 1 gebaut: Term zu Figur mit Variablen (Klasse 5
 kennt noch keine Variablen; Rand der Einheit, im Bestand k2-s8 und
@@ -171,6 +179,27 @@ Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
 | L1-C | Die Seite eines Quadrats finden | Beim Quadrat sind alle vier Seiten gleich lang. Darum reicht eine Angabe – Fläche oder Umfang –, um die Seite zu finden. | aus dem Umfang: $a = u : 4$ \qquad aus der Fläche: $a \cdot a = A$, also $a = \sqrt{A}$\par {\small $\sqrt{A}$ (Wurzel) ist die Zahl, die mal sich selbst $A$ ergibt: $\sqrt{25} = 5$, weil $5 \cdot 5 = 25$.} | flaechen-e1-k2-s7-v4 | flaechen-e1-k2-s7-v5, flaechen-e1-k2-s3-v8, flaechen-e1-k2-s7-v6, flaechen-e1-k2-s7-v7 | flaechen-e1-k2-s7-v8, flaechen-e1-k2-s7-v9, flaechen-e1-k2-s3-v9, flaechen-e1-k2-s7-v10 |
 | L1-D | Figuren aus Rechtecken | Zerlege die Figur in Rechtecke und addiere ihre Flächen. Eine fehlende Seite findest du über die Seiten gegenüber. | $A = A_1 + A_2$ \qquad $u$ = alle Seiten am Rand zusammen | flaechen-e1-k3-s1-v4 | flaechen-e1-k2-s4-v4, flaechen-e1-k3-s1-v5, flaechen-e1-k3-s1-v6, flaechen-e1-k3-s1-v7 | flaechen-e1-k3-s1-v8, flaechen-e1-k3-s1-v9, flaechen-e1-k2-s4-v5, flaechen-e1-k3-s1-v10 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e1-k2-s1-v10, flaechen-e1-k2-s9-v5, flaechen-e1-k3-s1-v11, flaechen-e1-k2-s9-v6 | flaechen-e1-k2-s9-v7, flaechen-e1-k2-s7-v11, flaechen-e1-k2-s9-v8 |
+
+#### Lerneinheit 3 – Dreieck (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung SC4 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Grundseite aus Fläche und Höhe mit dem Faktor 2 (2020-OS-K7b); Flächeninhalt Dreieck mit der passenden Höhe, auch rechtwinklig und stumpfwinklig (2015-OS-K6c, 2022-OS-K5e ohne Pythagoras); Term zu Figur, Umfang $3 \cdot a$ und Fläche rechtwinklig (2024-OS-B1c, 2022-OS-B1e)
+Blatt: Klasse 7 · Vorher: Parallelogramm · Weiter: Trapez, Drachen, Raute
+Titel: Dreieck: Fläche und Umfang
+Formel: $A = g \cdot h : 2$ \qquad $u = a + b + c$
+In Worten: Grundseite mal Höhe, davon die Hälfte. Umfang: alle drei Seiten zusammen.
+Vorgehen: Grundseite und die Höhe dazu suchen; $A = g \cdot h : 2$ rechnen, Einheit cm² oder m²; rückwärts: Fläche mal 2, dann durch die bekannte Länge
+Bild: flaechen-e3-k1-s1-v6
+Fehler: Die Hälfte vergessen: $10 \cdot 6 = 60$ ist das Rechteck, das Dreieck ist halb so groß: $30$.
+Tisch: Ohne Taschenrechner. Rechne mit Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L3-A | Fläche aus Grundseite und Höhe | Die Fläche ist Grundseite mal Höhe, davon die Hälfte. Die Höhe steht senkrecht auf der Grundseite und geht bis zur Ecke gegenüber; die schräge Seite ist nicht die Höhe. | $A = g \cdot h : 2$\par rechtwinklig: $A = a \cdot b : 2$ \quad ($a$, $b$ am rechten Winkel) | flaechen-e3-k1-s1-v6 | flaechen-e3-k1-s1-v7, flaechen-e3-k1-s4-v4, flaechen-e3-k1-s2-v4, flaechen-e3-k4-s3-v4 | flaechen-e3-k1-s1-v8, flaechen-e3-k1-s2-v5, flaechen-e3-k1-s4-v5, flaechen-e3-k4-s3-v5 |
+| L3-B | Die passende Höhe finden | Jede Seite kann Grundseite sein; die Höhe gehört zu der Seite, auf der sie senkrecht steht. Bei einem stumpfen Winkel liegt sie außen, auf der Verlängerung der Seite. Die Höhe ist der Abstand der Ecke von der Grundseite. | $A = g \cdot h : 2$ \quad mit $h$ senkrecht auf $g$ | flaechen-e3-k1-s3-v4 | flaechen-e3-k1-s3-v5, flaechen-e3-k2-s1-v4, flaechen-e3-k1-s3-v6, flaechen-e3-k1-s3-v7 | flaechen-e3-k1-s3-v8, flaechen-e3-k2-s1-v5, flaechen-e3-k1-s3-v9 |
+| L3-C | Grundseite oder Höhe rückwärts | Kennst du die Fläche, rechnest du rückwärts: erst mal 2, dann durch die bekannte Länge. | $g = 2 \cdot A : h$ \qquad $h = 2 \cdot A : g$ | flaechen-e3-k1-s5-v4 | flaechen-e3-k1-s5-v5, flaechen-e3-k1-s5-v6, flaechen-e3-k1-s7-v3, flaechen-e3-k1-s5-v7 | flaechen-e3-k1-s5-v8, flaechen-e3-k1-s5-v9, flaechen-e3-k1-s7-v4, flaechen-e3-k1-s5-v10 |
+| L3-D | Umfang und Terme | Der Umfang ist der Weg einmal außen herum: alle drei Seiten zusammen. Mit Buchstaben schreibst du dieselbe Rechnung als Term. | $u = a + b + c$ \qquad drei gleiche Seiten: $u = 3 \cdot a$ | flaechen-e3-k3-s1-v4 | flaechen-e3-k3-s1-v5, flaechen-e3-k1-s6-v4, flaechen-e3-k1-s6-v5, flaechen-e3-k3-s1-v6 | flaechen-e3-k3-s1-v7, flaechen-e3-k3-s1-v8, flaechen-e3-k1-s6-v6, flaechen-e3-k3-s1-v9 |
+| L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 20 Minuten. | – | – | flaechen-e3-k1-s1-v9, flaechen-e3-k1-s7-v5, flaechen-e3-k1-s6-v7, flaechen-e3-k4-s3-v6 | flaechen-e3-k1-s1-v10, flaechen-e3-k1-s7-v6, flaechen-e3-k4-s3-v7 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
