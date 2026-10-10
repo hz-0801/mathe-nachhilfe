@@ -5,6 +5,7 @@ Kapitel: dreiecke
 Gebiet: Geometrie
 Name: Dreiecke
 Folge: 1
+Gruppen: Rechtwinklige Dreiecke = pythagoras, trigonometrie | Alle Dreiecke und Vierecke = winkel-dreiecke, symmetrie-abbildungen
 Bank: pythagoras | trigonometrie | winkel-dreiecke | symmetrie-abbildungen
 Katalog: katalog/pythagoras.md | katalog/trigonometrie.md | katalog/winkel-dreiecke.md | katalog/symmetrie-abbildungen.md
 
@@ -79,7 +80,8 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Kern:** nein – 2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme
 - **Originale:** 2026-FOR-B1c 2016-OS-B1e
 - **Bank:** winkel-dreiecke-e3-k2-s10(i) symmetrie-abbildungen-e2-k5-s1(i)
-- **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
+- **Zuschnitt:** Vierecke: Symmetrie und Eigenschaften
+- **Hinweis:** Lehrer 11.10.: nach Vierecke verschoben
 
 ### Winkelsumme
 - **Kern:** ja – 7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall
