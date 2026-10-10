@@ -183,7 +183,7 @@ Tisch: Ohne Taschenrechner.
 | L5-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | terme-e5-k1-s2-v8, terme-e5-k1-s9-v4, terme-e5-k1-s3-v11, terme-e5-k1-s12-v6, terme-e5-k1-s11-v4, terme-e5-k1-s13-v3 | terme-e5-k1-s13-v4, terme-e5-k1-s2-v9 |
 
 #### Lerneinheit 6 – Terme aufstellen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung BGG · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog und Thema-Weg)
+Stand: 2026-10-10 · Kennung BGG · Kritiker: durch, Nachbesserung erledigt (übernommen: D4 mit Tabelle für 2, 4, 6 Stunden, Fehler 2x + 3 gegen 2 · (x + 3), Beispiel D umgekehrt gelesen) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog und Thema-Weg)
 Form: abschnitte
 Ziel: Term zu Sachtext ankreuzen, Reihenfolge bei „vermindert um“ (2017-OS-B1i) und Klammer bei drei Anweisungen (2023-OS-B1h); Term zu Figur, Umfang u = 3 · a und Fläche a · (b + c) (2019-OS-B1e, 2024-OS-B1c, 2025-OS-B1i). Ziele aus Sachen: reichen 40 Euro im Kino? welcher Kanuverleih ist billiger? ab wann ist ein Fitnessstudio günstiger?
 Blatt: Klasse 7 · Vorher: Termwerte berechnen · Weiter: Terme zusammenfassen
@@ -191,6 +191,7 @@ Titel: Terme aufstellen
 Formel: Variable festlegen $\to$ Stück für Stück übersetzen $\to$ Klammer, wenn ein Ergebnis weiterverarbeitet wird $\to$ Probe mit einer Zahl
 In Worten: Ein Term ist eine Rechnung mit einer Variablen. Setzt du eine Zahl ein, muss dasselbe herauskommen wie beim Rechnen nach dem Text.
 Fehler: Ein Term ist kein Ergebnis: $3x + 4$ bleibt so stehen, es ist nicht $7x$.
+Fehler: $2x + 3$ ist nicht $2 \cdot (x + 3)$: verdoppelt wird nur $x$, nicht die Summe.
 Tisch: Ohne Taschenrechner.
 
 | Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
