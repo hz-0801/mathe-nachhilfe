@@ -1,6 +1,6 @@
-# Übergabe verbessereBlaetter – 2026-10-10 nachts (Chat „start 22“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-10 spät nachts (Chat „start 23“, Opus → Fable 5.1)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-10c.md. Nach plan.md
+Vorherige Übergabe: archiv/uebergabe-2026-10-10d.md. Nach plan.md
 Linie 8 nennt diese Übergabe keinen eigenen nächsten Schritt.
 Entscheidungen nur aus plan.md (§ 3 Linien, § 11 Register).
 
@@ -12,56 +12,65 @@ Blätter (plan.md § 1).
 
 ## 2 Arbeitsgrundlage
 
-- plan.md – Ziel, Linien, § 7 „Jetzt“, § 11 Register aller
-  Entscheidungen mit Datum und Ort des Wortlauts (P/G/A/K/B/W).
-- offen.html – Grundlage der Datei der Sorte Prüfung; vor jeder
-  Arbeit an Prüfung ganz lesen (≈ 207 000 Zeichen; eng lesen lassen).
-- msa/skript-zuschnitt-p10.md – Entwurf der P10-Einheiten, wird am
-  Anfang der Datei Prüfung festgelegt.
-- aufgabenbank-privat schueler.md – Schülerliste (18, Stand 04.10.).
-- aufgabenbank eingang/gebaut.csv + werkzeuge/lieferung.py –
-  Lieferliste je Schüler.
+- plan.md – Ziel, Linien, § 7 „Jetzt“, § 11 Register.
+- pruefung.md – Entwurf der Datei der Sorte Prüfung (aus offen.html und
+  den Prüfungsteilen von bauregeln.md; § 2 der festgelegte
+  P10-Zuschnitt; § 9 was aus offen.html nicht übernommen wurde und
+  warum). Gilt erst nach „gilt“ des Lehrers; bis dahin offen.html.
+- gemeinsam.md – Entwurf der gemeinsamen Datei (Rest von bauregeln.md
+  plus G-Zeilen aus § 11). Gilt erst nach „gilt“; bis dahin
+  bauregeln.md.
+- msa/gliederung/*.md – Quelle des Zuschnitts; daraus erzeugen
+  werkzeuge/gliederung-sichten.py die CSV und werkzeuge/
+  skript-zuschnitt.py p10 die Übersicht msa/skript-zuschnitt-p10.md.
+  CSV und Übersicht nie von Hand ändern.
+- msa/befund-zuschnitt-{daten,geometrie,funktionen}-2026-10-10.md –
+  Befunde der Fable-Kritiker, eingearbeitet; Beleg.
 
 ## 3 Arbeitsstand
 
 Abgeschlossen in diesem Chat:
-- plan.md § 7 Schritt 1: Widersprüche geklärt, Fehlliste als
-  Register § 11 (Weg B: plan.md verweist, Wortlaut in der
-  Sortendatei); Fünf-Minuten-Test 16.10. gestrichen.
-- Lieferliste: Lehrer nennt am Blatt-Chatanfang den Namen, Skript
-  werkzeuge/lieferung.py schreibt je Blatt eine Zeile (Nummer,
-  Datum, Eintrag, Ordner, Kennung); nachgetragen nur S02, S06 (die
-  übrigen Blätter seit 01.10. ohne belegten Schüler).
-- blattbau/bankblatt.md v5.9 (Name gilt für den Chat, Schülerliste
-  aus aufgabenbank-privat, Lieferliste per Skript); Lehrer hat sie
-  in erzeugeBlatt(Bank) eingesetzt.
-- Projektanweisung 10.10.b (Chat hängt alle Repos selbst an);
-  Lehrer hat sie eingesetzt.
+- plan.md § 7 Schritt 2 zur Hälfte: Entwürfe pruefung.md und
+  gemeinsam.md geschrieben; P10-Zuschnitt an allen drei Gebieten
+  gegen die echten Aufgaben 2022–2026 geprüft, korrigiert und vom
+  Lehrer festgelegt (27 Einheiten, Einheit = Handgriff = Blatt).
+- Offen in Schritt 2: der Lehrer liest pruefung.md und gemeinsam.md
+  und sagt „gilt“ (oder nennt Änderungen); dann offen.html und
+  bauregeln.md ablösen (Hinweiszeile oben, Archiv nach Schritt 3).
+- Danach Schritt 3 (Bestand ordnen).
 
 ## 4 Rahmen
 
-- Kontingent: Anzeige 10.10. „Nutzung geht Montag Nachmittag aus,
-  Reset 18:00“ – bis dahin Lesen und Entwurf, kein großer Bau. In
-  diesem Chat kein Agentenlauf; Messwert keiner.
-- Repo-Karten: kommen beim Anhängen je Repo (Modus Manuell, kein
-  „immer erlauben“). Einziger Weg ohne Karten: Projektform
-  „koordinieren lassen“ (Repos fest unter Environment) – Lehrer:
-  später (plan.md § 9). Doku: Threads Opus/hoch ab Werk, Koordinator
-  verbraucht eigene Token; Grenze Projektanweisung 16 000 Zeichen
-  (bankblatt.md hat 18 646).
-- Repos öffentlich unter /root (Shell-Klon), angehängte unter
-  /home/claude.
+- Kontingent (Anzeige 10.10. spät): Woche 78 %, Fable 42 %; „geht
+  Montag Morgen aus, Reset 18:00“. Lehrer 10.10.: Fable bis Montag
+  18:00 wie Opus verbrauchen, sinnvoll (Lesart des Chats: bis auf
+  etwa 10 % Rest); dieser Chat lief deshalb ab der Mitte auf Fable
+  5.1.
+- Messwert: enger Fable-Kritiker je Gebiet mit zwei Prüffragen ≈
+  0,13 Mio Token, 2½ min, Befund 20 Zeilen, brauchbar;
+  ≈ 0,25 Mio Fable je Fable-Punkt und je Wochenpunkt (plan.md § 8).
+- Repo mathe-nachhilfe mit Schreibzugang angehängt (Modus Manuell,
+  eine Karte); Klon unter /home/claude/mathe-nachhilfe. Die anderen
+  Repos nur lesend unter /tmp.
+- Fehler dieses Chats, nicht wiederholen: eine erzeugte Datei
+  (skript-zuschnitt-p10.csv) direkt geändert statt ihre Quelle; ein
+  Agent hat es nachgezogen.
 
 ## 5 Offen und Verworfenes
 
-- Offen: Bestellen in Alltagswörtern statt Knöpfen/Kennungen – an
-  echten Bestellungen prüfen (plan.md § 9).
-- Offen: „Ein Blatt für alle“ – teils, Vergleich Ende M3.
-- Offen: Bauen nach Bedarf der aktiven Schüler statt nach
-  Häufigkeit – von Claude vorgelegt, nicht entschieden; erst mit
-  Daten aus der Lieferliste wieder vorlegen.
-- Vorschlag ohne Entscheid: Projektanweisung von erzeugeBlatt(Bank)
-  als Zweizeiler „lies blattbau/bankblatt.md“ statt Kopie.
+- Schlussstufe „erst entscheiden, dann rechnen“ hat vier statt sieben
+  Nebenplätze (Skript lässt keinen Nebenplatz im eigenen Abschnitt
+  zu); belassen.
+- Stolpersteine für den Bau stehen in pruefung.md § 2 (Normalform
+  vor Gleichsetzen, Winkelsumme vor Sinussatz, Baum-Sprossen vor
+  „Baum ergänzen“, Länge Blatt Prozent).
+- Offen aus voriger Übergabe unverändert: Bestellen in
+  Alltagswörtern; „ein Blatt für alle“ Ende M3; Bauen nach Bedarf
+  der aktiven Schüler; Projektanweisung erzeugeBlatt(Bank) als
+  Verweis.
+- Verworfen: eigenes Blatt „Pythagoras oder Winkelfunktion“ (die
+  Prüfung führt selbst: a) Pythagoras, b) Winkel); Punktprobe als
+  Stufe in Gerade/Parabel (Kopf-Schritt ist Einsetzen, wäre doppelt).
 
 ## 6 Nächster Arbeitsschritt
 

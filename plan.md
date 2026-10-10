@@ -209,7 +209,9 @@ vollständig, dann ordnen, dann bauen.
    Lehrer klären, Geltendes mit Datum in plan.md tragen. Erledigt 10.10.:
    Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9;
    Rest als Register § 11. Schritt 1 erledigt.
-2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus);
+2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus)
+   – Entwurf pruefung.md liegt, dazu gemeinsam.md; Lehrer liest und
+   sagt „gilt“, dann offen.html und bauregeln.md ablösen;
    am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9) –
    erledigt 10.10.;
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
