@@ -298,6 +298,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 10.10.2026 (h): Einheiten zuerst durchgeplant, Übersicht folgt (Lehrer).
 - 10.10.2026 (i): § 11 Register der Entscheidungen (Weg B);
   Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
+- 10.10.2026 (j): Lieferliste je Schüler per Skript; bankblatt v5.9
+  (Lehrer).
 
 ## 11 Register der Entscheidungen
 
@@ -356,6 +358,9 @@ Bestellung
 - 26.09. Optionen: nur Neues / mit Wiederholung / mit Ausblick → G
 - 28.09. Ab vier Fertigkeiten einmal fragen; keine Seitengrenze → G
 - 07.10. „<Kennung> mehr“ zum Nachbestellen (Richtung) → G
+- 10.10. Lieferliste: Lehrer nennt am Chatanfang den Namen, alles
+  Weitere automatisch; eine Zeile je Blatt in aufgabenbank
+  eingang/gebaut.csv, geschrieben von werkzeuge/lieferung.py → G
 
 Blatt (beide Sorten)
 - 28.09./06.10. Ein Blatt für alle; die Lieferung ist die
