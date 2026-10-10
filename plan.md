@@ -368,6 +368,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   FOR-Niveau ausgeschrieben. Agenten erst nach Go (Lehrer 11.10.).
   Messwert Runde Dreiecke in aufgabenbank bau/befunde-M3.md.
 
+- 11.10.2026 (c): Durchsicht Winkel (Lehrer): Gruppen in der
+  Übersicht, Ausschnitt am Blattende, Sorte links oben auf jeder
+  Seite, Skizzenfeld, Winkelwerte im Bogen, Schülerfrage zuerst,
+  Einstieg = Handgriff der ersten echten, nichts über P10 (Zugabe nur
+  auf Bestellung; 3c gestrichen), α–δ; Stufe „Winkelbeziehungen“,
+  Trapez-Aussage 2026 nach Vierecke.
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
@@ -418,6 +425,9 @@ Prüfung
   Seitenzahl, Lösung mit Stufenköpfen, Buchstabenspalte, Lückentexte,
   Päckchen-Staffel, Skizzenregel, Stern = FOR-Niveau → G; Kopf
   „letzte 5 Jahre“, Schlussstufe Zuordnen, Blattnamen Dreiecke → P
+- 11.10. (c) Gruppen, Ausschnitt, Sorte im Kopf, Skizzenfeld, Winkel
+  im Bogen, Schülerfrage zuerst, Einstieg = Handgriff, Zugabe nur auf
+  Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders

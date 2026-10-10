@@ -59,13 +59,21 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   Kein grauer Zusatz. Rand-Blätter grau; das gelieferte Blatt ▸ fett,
   darunter eingerückt seine Stufen. Davor „Vorher“, danach „Weiter“ –
   die Nachbarthemen aus dem Katalog.
+- Gruppen (Lehrer 11.10.): In der Übersicht stehen die Einheiten eines
+  Kapitels unter Gruppen, die die erste Entscheidung des Schülers
+  nennen (Dreiecke: „Rechtwinklige Dreiecke“ · „Alle Dreiecke und
+  Vierecke“); Gruppe = Art, Einheit = Werkzeug, Stufe = Handgriff.
+  Die Gruppe steht als Zeile „Gruppe:“ in der Gliederungsdatei.
+- Ausschnitt am Blattende (Lehrer 11.10.): unter der Fundstellentabelle
+  drei graue Zeilen „Vorher: …“, „▸ <dieses Blatt>“, „Weiter: …“ mit
+  den Nachbarn aus der Lernfolge – der Schüler sieht, wo er steht.
 - Namen (Lehrer 11.10.): Der Einheitsname ist kurz und nennt das
   Werkzeug oder die Sache („Pythagoras“, „sin, cos, tan“, „Winkel“);
   die Stufen nennen den Handgriff als Reihe gleicher Form in
   Schülersprache („Gleichung aufstellen · Hypotenuse gesucht · Kathete
   gesucht · in Figuren versteckt“). Ein Zusatz in Worten nur, wo der
-  Name allein nicht trennt: „sin, cos, tan – im rechtwinkligen
-  Dreieck“, „Sinussatz – in jedem Dreieck“; keine Formel. Übersicht,
+  Name allein nicht trennt und die Gruppe es nicht schon sagt; keine
+  Formel. Übersicht,
   Titel, Titelzeile, Stufenköpfe und Lösung sind wortgleich.
 - Kern und Rand: Rand-Blätter stehen immer in der Serie; der Lehrer
   überspringt sie bei Bedarf (07./08.10.). Rand beim Prüfungsblatt nach
@@ -108,6 +116,25 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   Zahlart (glatt → krumm, runden), Fragerichtung (vorwärts →
   rückwärts), Einheiten (gleich → gemischt). Was die Teilaufgaben
   unterscheidet, steht nicht als Hinweis daneben („Wähle selbst …“).
+- Schülerfrage zuerst (Lehrer 11.10.; gibt „Erkennen vor Rechnen“
+  seinen Inhalt): Der Einstieg jeder Stufe beantwortet die Frage, die
+  der Schüler sich vor der ersten echten Aufgabe stellt – „was ist
+  das“, „woran erkenne ich es“ –, ohne Rechnung, in einer von vier
+  Formen: Zeigen („Welches der drei Dreiecke ist gleichschenklig?
+  Woran siehst du es?“), Unterscheiden („Was unterscheidet die
+  beiden?“), Ergänzen („Ein Trapez hat ___ parallele Seiten“),
+  Markieren („Markiere die gleichen Seiten und Winkel“). Eine
+  Erkennen-Stufe stellt das Merkmal gegen seinen Nachbarn
+  (gleichschenklig/gleichseitig, Raute/Parallelogramm). Der Bau
+  schreibt je Stufe zuerst die Schülerfrage in den Plan.
+- Einstieg = Handgriff der ersten echten (Lehrer 11.10.): Der Einstieg
+  einer Stufe übt denselben Handgriff wie ihre erste echte Aufgabe;
+  fehlt die Bankzeile, wird sie geschrieben – nie die nächstbeste
+  gedehnt.
+- Über der Prüfungshöhe nichts auf der Leiter (pruefung.md
+  „Füllfolge“); eine Aufgabe darüber nur als „Zugabe“, eingerückt
+  und grau markiert, und nur, wenn der Lehrer sie bestellt
+  (Lehrer 11.10.).
 - Skizze (Lehrer 11.10.): wenn die Figur selbst das Gelernte ist
   (Raute, Trapez – wiedererkennen) und bei der ersten Aufgabe jeder
   Stufe; die folgenden ohne. Eine echte Aufgabe hat die Skizze nur,
@@ -157,14 +184,14 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
 ## Satz
 
-- Kopf Seite 1: Name des Blatts, daneben klein das Niveau („P10“,
-  „Abitur GK“, „Klasse 8“); darunter eine graue Zeile mit den Stufen
-  des Blatts, wortgleich mit der Übersicht, auch bei einer Stufe
-  (Lehrer 11.10.). Jede Seite: rechts oben die Kennung klein und grau,
-  auf Folgeseiten links oben der Name klein grau (Lehrer 11.10.;
-  ersetzt „keine laufende Titelzeile“ vom 03.–08.10. – Blätter liegen
-  gemischt auf dem Tisch). Keine Blattart, kein Datum, keine
-  Namenszeile, kein Inhaltsverzeichnis.
+- Kopf jeder Seite (Lehrer 11.10.; ersetzt „keine Blattart, keine
+  laufende Titelzeile“ vom 03.–08.10. – es gibt zwei Sorten, und die
+  Blätter liegen gemischt auf dem Tisch): links oben klein grau Sorte
+  und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts oben
+  die Kennung; auf Folgeseiten links zusätzlich der Name. Seite 1
+  darunter der Titel (nur der Name), darunter eine graue Zeile mit den
+  Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
+  Stufe. Kein Datum, keine Namenszeile, kein Inhaltsverzeichnis.
 - Fuß jeder Seite: Seitenzahl mittig als „1/3“ (Lehrer 11.10.);
   kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg, kein
   Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
@@ -197,9 +224,16 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   „c² = ___ , c = ___“). Rechenraum nur bei Rechen- und
   Begründungsaufträgen: Zeilen = Rechenschritte der Musterlösung + 1,
   höchstens 8, Karo.
-- Skizzen: Längen neben der Linie, nach außen; Verhältnisse nicht
-  umgekehrt; rechter Winkel als Viertelkreis mit Punkt; was die Skizze
-  zeigt, beschreibt der Text nicht. Koordinatensysteme nur so groß wie
+- Skizzen: Längen neben der Linie, nach außen; Winkelwerte innen im
+  Bogen (Lehrer 11.10.; Bausteine in mathblatt.sty entsprechend);
+  Verhältnisse nicht umgekehrt; rechter Winkel als Viertelkreis mit
+  Punkt; was die Skizze zeigt, beschreibt der Text nicht.
+- Skizzenfeld (Lehrer 11.10.): beschreibt eine Aufgabe eine Figur und
+  zeigt keine (Viereck mit drei Winkeln, Körper mit Maßen, Punkte im
+  Koordinatensystem, Sachaufgabe ohne Bild), steht links ein leerer
+  Rahmen „Skizze“, rechts das Karo – die Anregung ohne Tipp. Nicht,
+  wenn nichts zu skizzieren ist (zwei Winkel im Dreieck) und nicht,
+  wo die Prüfung die Figur mitgibt. Koordinatensysteme nur so groß wie
   nötig; zwei im Paar gleich groß.
 - Tabellen mit Linien; Kopf im Textmodus („Zeit in h“); Text über der
   Tabelle; Pfeile auf beiden Seiten, ohne Beschriftung.
@@ -226,6 +260,8 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   Du-Form, auch im Wortlaut der Prüfungsaufgaben (28.09./03.10.).
 - Keine Frage nach Begriffen, die das Blatt nicht einführt; Fachwort
   mit Alltagswort daneben.
+- Winkel heißen α, β, γ, δ; in echten Aufgaben die Buchstaben des
+  Originals; kein ε und weiter (Lehrer 11.10.).
 - Schreibweise: Formelsammlung der Prüfung → Lehrwerke des Landes →
   Prüfungshefte nur für ihren Wortlaut. Strecke mit Überstrich;
   Division außerhalb von Formeln als Bruch; L = {…}; P(1 | 2 | 3); nur
