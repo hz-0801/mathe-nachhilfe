@@ -169,19 +169,16 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: Stufen füllen (Lehrer 10.10.: „ich wollte bessere, andere, weitere
-Aufgaben für den Katalog“). Die Stufenketten der Bank (kette/sprosse je
-Einheit) sind das Gerüst; je Thema werden ihre Stufen mit neuen Aufgaben
-in der Art der Lehrer-Vorlage gefüllt (aufgabenbank
-bau/proben/2026-10-10/vorlage-holger/: knapper Auftrag mit einem Verb,
-Schwierigkeit in der Figur, Gegenbeispiel und Falle statt Hinweis, glatt
-vor krumm, Schüler tut selbst etwas), mehrere je Stufe. Kästchen-Sprosse
-schwach. Maß für das Blatt daneben: M74 (ohne Nr. 2/3) und T6B tisch-alt.
-Zuerst: mit dem Lehrer den Auftrag dafür klären (kurz; der heutige
-bau/bauauftrag.md ist der Stand nach dem Nachrüst-Test, nicht geprüft für
-diese Aufgabe), dann ein Thema als Probe, Lehrer urteilt, dann Wellen.
-Runde 2 (09./10.10., 38 Einheiten P10 oft) gilt als Vorrat: Aufgaben
-bleiben in der Bank, Blätter gedriftet (Befunde M3, 10.10.).
+Jetzt: Treppe füllen, Probe Kathete berechnen (Lehrer 10.10.: „bessere,
+andere, weitere Aufgaben für den Katalog“; Aufgabe und Treppe getrennt,
+damit eine spätere andere Treppe keine Aufgabe anfasst). Form:
+aufgabenbank bank.md „Aufgaben ohne Treppe“ (Felder taetigkeit,
+merkmale; Dateien a<n>.jsonl). Erste Treppe nach der Lehrer-Vorlage:
+bank/pythagoras/treppe-e2-vorlage.md mit merkmale.md. Folge: Lehrer nickt
+die Treppe ab → ein Opus-Agent füllt nach bau/fuellauftrag.md (bank-pruef
+für a*.jsonl dabei erweitern) → Lehrer urteilt am Probesatz → Setzer
+wählt nach Merkmalen → Wellen je Thema (Treppe je Thema vorher vom
+Lehrer genickt). Runde 2 (38 Einheiten) und alte Ketten bleiben Vorrat.
 
 ## 8 Modelle und Kosten
 
@@ -240,3 +237,6 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 10.10.2026 (b): Runde 2 als gedriftet erkannt (Lehrer); Nachrüst-Test,
   Lehrer-Vorlage Hypotenuse; Jetzt = Stufen der Ketten mit neuen Aufgaben
   füllen.
+- 10.10.2026 (c): Aufgabe und Treppe getrennt (Lehrer: „was ist, wenn
+  ich später eine andere Treppe haben möchte?“); Füllauftrag statt
+  Bauauftrag für neue Aufgaben; Jetzt = Probe Kathete.
