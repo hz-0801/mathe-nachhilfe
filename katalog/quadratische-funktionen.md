@@ -131,8 +131,8 @@ Zielmarke: **Einheit 1** – Hauptmarke 2015-OS-K4b (Niveau II, 3 Punkte, Stern)
 - [LISUM-PH, 10e] **Geschlossen 11g: ja, angehoben.** Die Normalform x² + px + q steht in beiden Reihen im ersten Block unter Niveaustufe G; der RLP nennt sie nirgends, also trägt die Planungshilfe die Stufe allein. Einheit 3 ist G-Stoff für alle Bildungsgänge. Mit derselben Prüfung sind der Streckfaktor, das Modellieren und die Schnittpunkte zweier Parabeln aus dem Vorrat geholt worden. Zweitens: Beide Reihen schreiben die Scheitelpunktform mit Plus, y = a · (x + d)² + e, der Katalog nach P10 mit Minus – die Vorzeichenfalle beim Ablesen des Scheitelpunkts ist ein Wechsel zwischen zwei amtlichen Schreibweisen und gehört als Lesart auf dasselbe Blatt (A9) sowie in die Fehlerliste.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus den Bauten GHQ/E1, BP8/E2 und 7P7/E3;
-E4 noch nicht gebaut).
+Stand: 2026-10-10, endgültig (aus den Bauten GHQ/E1, BP8/E2, 7P7/E3 und
+GHD/E4).
 
 Folge | Grund für die Stelle:
 1. Normalparabel und Streckfaktor (Lerneinheit 1) | Zuerst, weil jede
@@ -163,6 +163,16 @@ Folge | Grund für die Stelle:
 4. Nullstellen und Schnittpunkte (Lerneinheit 4) | Zuletzt, weil es
    Scheitelpunkt- und Normalform und das Lösen quadratischer Gleichungen
    (quadratische-gleichungen.md) voraussetzt; die Stern-Aufgaben der P10.
+   Innen (Bau GHD): Nullstellen aus der Scheitelpunktform (Wurzelziehen)
+   → mit der p-q-Formel (Wurzel bleibt, keine/eine Lösung, vorher durch
+   die Zahl vor x² teilen) → x zu einem y-Wert (gleichsetzen mit einer
+   Zahl, ordnen) → Schnittpunkte Parabel und Gerade (gleichsetzen mit
+   einem Term, y über die Gerade, Punktprobe, kein gemeinsamer Punkt).
+   Wurzelziehen steht vor der p-q-Formel, weil es nur die
+   Scheitelpunktform aus 2 braucht; der y-Wert steht vor der Geraden,
+   weil „Term = Zahl“ der kleinere Schritt zu „Term = Term“ ist. Ohne
+   Blatt, nur im Bestand: zwei Parabeln schneiden, größter Flächeninhalt
+   (k1-s16, k1-s19).
 
 Vorher-Check (Zone): quadratische-funktionen-zone-f1-v4,
 quadratische-funktionen-zone-f1-v5, quadratische-funktionen-zone-f1-v7,
@@ -170,10 +180,13 @@ quadratische-funktionen-zone-f2-v2, quadratische-funktionen-zone-f2-v4,
 quadratische-funktionen-zone-f3-v1, quadratische-funktionen-zone-f3-v4,
 quadratische-funktionen-zone-f4-v3, quadratische-funktionen-zone-f5-v4,
 quadratische-funktionen-zone-f7-v3, quadratische-funktionen-zone-f8-v1
-Probetest (Originale, gemischt, schwerste zuletzt): 2026-FOR-B1e,
-2020-OS-K3b, 2021-OS-B1d, 2015-OS-K4b, 2016-OS-B1g, 2024-OS-K3b,
-2022-OS-K3b, 2020-OS-K3d, 2025-OS-K5b, 2017-OS-K5d, 2020-OS-K3e,
-2022-OS-K3c, 2018-OS-K5d, 2026-FOR-K5d
+Probetest (Originale, gemischt, schwerste zuletzt; endgültig mit Bau GHD,
+10.10.2026 – je Einheit mindestens ein Original, die Rechnungen aus 4
+nach den Ablese- und Formaufgaben, die Niveau-III-Aufgaben am Ende):
+2026-FOR-B1e, 2020-OS-K3b, 2021-OS-B1d, 2015-OS-K4b, 2016-OS-B1g,
+2024-OS-K3b, 2022-OS-K3b, 2020-OS-K3d, 2025-OS-K5b, 2017-OS-K5d,
+2020-OS-K3e, 2023-OS-K4c, 2014-OS-K7a, 2022-OS-K3c, 2014-OS-K7b,
+2018-OS-K5d, 2026-FOR-K5d
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -249,6 +262,26 @@ Tisch: Löse jede Klammer mit der binomischen Formel auf, mit Mittelglied.
 | L3-C | Scheitelpunktform aus dem Graphen | In der Normalform siehst du den Scheitel nicht. Du liest ihn am Graphen ab und setzt ihn in die Scheitelpunktform ein. | Scheitel $S(d{\vert}e)$ ablesen \quad$\Rightarrow$\quad $f(x) = (x - d)^2 + e$\par {\small Probe: $x = 0$ in die Scheitelpunktform einsetzen; es muss $q$ herauskommen.} | quadratische-funktionen-e3-k1-s7-v4 | quadratische-funktionen-e3-k1-s7-v5, quadratische-funktionen-e3-k1-s7-v6, quadratische-funktionen-e3-k1-s7-v7 | quadratische-funktionen-e3-k1-s6-v4, quadratische-funktionen-e3-k1-s7-v8, quadratische-funktionen-e3-k1-s7-v9 |
 | L3-D | Die passende Form wählen | Jede Form zeigt etwas anderes: die Scheitelpunktform den Scheitel und die Verschiebung, die Normalform den Schnittpunkt mit der $y$-Achse. Für eine Aussage nimmst du die Form, in der du es sofort siehst. | $f(x) = (x - d)^2 + e$: Scheitel $S(d{\vert}e)$, $d$ nach rechts, $e$ nach oben\par $f(x) = x^2 + px + q$: $(0{\vert}q)$ auf der $y$-Achse\par {\small Dieselbe Parabel? Erst $q$ vergleichen; sind beide gleich, ausmultiplizieren.} | quadratische-funktionen-e3-k1-s8-v4 | quadratische-funktionen-e3-k1-s8-v5, quadratische-funktionen-e3-k1-s10-v4, quadratische-funktionen-e3-k1-s10-v5, quadratische-funktionen-e3-k1-s10-v6 | quadratische-funktionen-e3-k1-s10-v7, quadratische-funktionen-e3-k1-s10-v8, quadratische-funktionen-e3-k1-s8-v6, quadratische-funktionen-e3-k1-s10-v9, quadratische-funktionen-e3-k1-s10-v10 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | quadratische-funktionen-e3-k1-s2-v11, quadratische-funktionen-e3-k1-s3-v8, quadratische-funktionen-e3-k1-s7-v10, quadratische-funktionen-e3-k1-s5-v8, quadratische-funktionen-e3-k1-s10-v11, quadratische-funktionen-e3-k1-s9-v4 | quadratische-funktionen-e3-k1-s7-v11, quadratische-funktionen-e3-k1-s5-v9, quadratische-funktionen-e3-k1-s9-v5 |
+
+#### Lerneinheit 4 – Nullstellen und Schnittpunkte berechnen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung GHD · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Nullstellen aus Normalform mit Wurzel als Ergebnis (2025-OS-K5c, 2017-OS-K5d) und nach Teilen durch die Zahl vor $x^2$ (2020-OS-K3e); $x$-Werte zu einem $y$-Wert an der nach unten geöffneten Parabel (2023-OS-K4c); Schnittpunkte von Gerade und Parabel in Normal- und Scheitelpunktform (2021-OS-K2c, 2024-OS-K3d, 2022-OS-K3c); Punktprobe als Schnittpunkt-Nachweis (2014-OS-K7a); Gerade ohne gemeinsamen Punkt angeben (2014-OS-K7b)
+Blatt: Klasse 9 · Vorher: Normalform · Weiter: Funktionsklassen und Eigenschaften
+Titel: Quadratische Funktionen: Nullstellen und Schnittpunkte
+Formel: Scheitelpunktform $f(x) = (x - d)^2 + e$ \qquad Normalform $f(x) = x^2 + px + q$
+In Worten: Beide Formen kennst du. In diesem Heft berechnest du, wo eine Parabel die $x$-Achse, eine waagerechte Linie oder eine Gerade trifft.
+Fehler: Aus $(x - 1)^2 = 9$ nur $x = 4$ gerechnet. Richtig: $x - 1 = 3$ oder $x - 1 = -3$, also auch $x = -2$.
+Fehler: Beim Schnittpunkt nur den $x$-Wert angegeben. Zum Punkt gehört auch der $y$-Wert.
+Tisch: Schreib bei jeder Aufgabe zuerst die Gleichung hin: $0 = f(x)$, $f(x) = $ Wert oder $f(x) = g(x)$.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L4-A | Nullstellen aus der Scheitelpunktform | Eine \textbf{Nullstelle} ist eine Stelle $x$, an der die Parabel die $x$-Achse trifft; dort ist $f(x) = 0$. In der Scheitelpunktform bringst du die Zahl hinten auf die andere Seite und ziehst die Wurzel. | $0 = (x - d)^2 + e$ \quad$\Rightarrow$\quad $(x - d)^2 = -e$ \quad$\Rightarrow$\quad $x - d = \sqrt{-e}$ \ oder \ $x - d = -\sqrt{-e}$\par {\small Nullstelle als Punkt: $N(x|0)$. Ein Quadrat ist nie negativ: Steht rechts eine negative Zahl, gibt es keine Nullstelle.} | quadratische-funktionen-e4-k1-s1-v6 | quadratische-funktionen-e4-k1-s1-v7, quadratische-funktionen-e4-k1-s1-v8, quadratische-funktionen-e4-k1-s2-v4, quadratische-funktionen-e4-k1-s1-v9 | quadratische-funktionen-e4-k1-s1-v10, quadratische-funktionen-e4-k1-s1-v11, quadratische-funktionen-e4-k1-s2-v5, quadratische-funktionen-e4-k1-s1-v12 |
+| L4-B | Nullstellen mit der p-q-Formel | In der Normalform löst du $0 = x^2 + px + q$ mit der \textbf{p-q-Formel}. Vor $x^2$ muss allein $x^2$ stehen; steht dort eine Zahl, teilst du vorher die ganze Gleichung durch sie. | $0 = x^2 + px + q$ \quad$\Rightarrow$\quad $x_{1,2} = -\frac{p}{2} \pm \sqrt{\left(\frac{p}{2}\right)^2 - q}$\par {\small Unter der Wurzel $0$: genau eine Nullstelle; negativ: keine. Geht die Wurzel nicht auf: erst $\sqrt{\ }$ stehen lassen, dann runden. In einer Sachaufgabe zählt nur die Lösung, die zur Sache passt.} | quadratische-funktionen-e4-k1-s3-v4 | quadratische-funktionen-e4-k1-s3-v5, quadratische-funktionen-e4-k1-s6-v4, quadratische-funktionen-e4-k1-s5-v4, quadratische-funktionen-e4-k1-s7-v4, quadratische-funktionen-e4-k2-s4-v4 | quadratische-funktionen-e4-k1-s3-v6, quadratische-funktionen-e4-k1-s3-v7, quadratische-funktionen-e4-k1-s6-v5, quadratische-funktionen-e4-k1-s5-v5, quadratische-funktionen-e4-k1-s7-v5, quadratische-funktionen-e4-k2-s4-v5 |
+| L4-C | Zu einem y-Wert die x-Werte | Gesucht sind die $x$, an denen $f(x)$ einen bestimmten Wert hat. Du setzt $f(x)$ gleich diesem Wert, bringst alles auf eine Seite und löst wie bei den Nullstellen. | $f(x) = 7$ \quad$\Rightarrow$\quad $x^2 + px + q = 7$ \quad$\Rightarrow$\quad $x^2 + px + q - 7 = 0$\par {\small In der Scheitelpunktform: nur die Zahl hinten hinüberbringen und die Wurzel ziehen. Zur Probe den $x$-Wert in $f$ einsetzen.} | quadratische-funktionen-e4-k1-s8-v4 | quadratische-funktionen-e4-k1-s8-v5, quadratische-funktionen-e4-k1-s8-v6, quadratische-funktionen-e4-k1-s22-v3, quadratische-funktionen-e4-k2-s4-v6 | quadratische-funktionen-e4-k1-s8-v7, quadratische-funktionen-e4-k1-s8-v8, quadratische-funktionen-e4-k1-s22-v4, quadratische-funktionen-e4-k2-s4-v7 |
+| L4-D | Schnittpunkte von Parabel und Gerade | Wo sich Parabel und Gerade schneiden, haben beide denselben $y$-Wert. Du setzt die Terme gleich, bringst alles auf eine Seite und löst. Den $y$-Wert rechnest du mit der Geraden aus. | $f(x) = g(x)$ \quad$\Rightarrow$\quad $\ldots = 0$ \quad$\Rightarrow$\quad $x_1$, $x_2$ \quad$\Rightarrow$\quad $y = g(x_1)$, $y = g(x_2)$\par {\small Keine Lösung: kein gemeinsamer Punkt; eine Lösung: die Gerade berührt die Parabel. Ist ein Punkt ein Schnittpunkt? In beide Funktionen einsetzen; beide müssen seinen $y$-Wert ergeben.} | quadratische-funktionen-e4-k1-s11-v4 | quadratische-funktionen-e4-k1-s11-v5, quadratische-funktionen-e4-k1-s10-v4, quadratische-funktionen-e4-k1-s14-v4, quadratische-funktionen-e4-k1-s13-v4, quadratische-funktionen-e4-k1-s15-v4 | quadratische-funktionen-e4-k1-s9-v4, quadratische-funktionen-e4-k1-s11-v6, quadratische-funktionen-e4-k1-s10-v5, quadratische-funktionen-e4-k1-s14-v5, quadratische-funktionen-e4-k1-s13-v5, quadratische-funktionen-e4-k1-s15-v5 |
+| L4-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | quadratische-funktionen-e4-k1-s18-v4, quadratische-funktionen-e4-k1-s21-v3, quadratische-funktionen-e4-k1-s7-v6, quadratische-funktionen-e4-k1-s22-v5, quadratische-funktionen-e4-k1-s20-v3, quadratische-funktionen-e4-k1-s18-v5 | quadratische-funktionen-e4-k1-s21-v4, quadratische-funktionen-e4-k1-s20-v4, quadratische-funktionen-e4-k1-s18-v6 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Rückwärts- und Mischsprosse je Kette vor der Prüfungshöhe (oder Grund unter „Offene Punkte“); krumme Zahlen oben; Gewicht je Einheit: Kern oder Rand mit Halbsatz, sonst keine Marke (Regel 02.10.2026 abends).
