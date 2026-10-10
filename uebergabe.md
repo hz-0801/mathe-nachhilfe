@@ -1,68 +1,64 @@
-# Übergabe verbessereBlaetter – 2026-10-09 (Chat 08./09.10., Opus)
+# Übergabe verbessereBlaetter – 2026-10-10 (Chat 09./10.10., Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-08b.md. Nach plan.md Linie 8
+Vorherige Übergabe: archiv/uebergabe-2026-10-09.md. Nach plan.md Linie 8
 nennt diese Übergabe keinen eigenen nächsten Schritt: maßgeblich ist
 plan.md § 7 („Jetzt“).
 
 ## 1 Ziel
 
-plan.md § 1: Der Lehrer bestellt mit wenigen Wörtern und bekommt in höchstens
-3 Minuten drei PDFs, die ein guter Didaktiker so bauen würde – zuerst P10,
-dann Abitur GK.
+Der Lehrer will bessere, andere und mehr Aufgaben in Katalog und Bank,
+aus denen ein Setzer ohne Modell gute Blätter macht (plan.md § 1).
 
 ## 2 Arbeitsgrundlage
 
-Einstieg über CLAUDE.md (beide Repos). Rangfolge: mathe-nachhilfe plan.md →
-aufgabenbank bau/bauregeln.md → bau/bauauftrag.md → bank.md → begriffe.md.
-Belege: pruefstand-2026-10-09/ (vier Leserberichte, Planentwurf), aufgabenbank
-bau/befunde-M2.md, befund-selbstlernheft-2026-10-09.md.
+- plan.md (mathe-nachhilfe) § 7 „Jetzt“: Stufen der Ketten füllen.
+- Maß für Aufgaben: aufgabenbank bau/proben/2026-10-10/vorlage-holger/
+  (README nennt jede Nummer mit den Worten des Lehrers).
+- Maß für Blätter: M74 (bau/proben/2026-10-09/hypotenuse-berechnen/, ohne
+  Nr. 2/3) und T6B (`werkzeuge/setzer.py --kennung T6B --sorte tisch-alt`).
+- Gerüst: Stufenketten der Bank (bank/<thema>/e<n>.jsonl, Felder
+  kette/sprosse/sprosse_text; z. B. pythagoras e1 Kette „Hypotenuse“ 0–15),
+  Musterbeispiele bank/<thema>/muster.md.
+- Befunde: aufgabenbank bau/befunde-M3.md, letzter Block (10.10.).
 
 ## 3 Arbeitsstand
 
-- M0 (K4W „Hypotenuse“, Lehrer „besser“), M1 (Plan, Einstieg, Bauauftrag,
-  Felder; Haiku-Abnahme) und M2 (T6B „Kathete berechnen“ von einem Agenten
-  nach Bauauftrag gebaut, 41 min, ≈ 0,23 Mio Token + Kritiker; Lehrer
-  „insgesamt gut“; werkzeuge/setzer.py setzt T6B in 3,7 s) sind erledigt.
-- Ende M2 eingearbeitet: „Für wen du baust“, je Schritt Formel, Beispiel,
-  leichtere und gleichwertige Aufgaben (nur Bank), Thema-Weg je Thema,
-  Mischen in der folgenden Einheit, Originalliste nur auf Prüfungsblättern,
-  Selbstlernheft als Sorte beschrieben (Wahl offen).
-- Archiviert: ziel.md, faellig.md, blatt-konzept.md, layout-befunde,
-  Streichliste, drei Vorschläge vom 27./28.09. (Stubs verweisen).
+- Runde 1 (09.10.): 9 Blätter (Pythagoras, Prozent) nach altem Auftrag,
+  Lehrer: M74 „ziemlich gut“, T6B „nah an früher“.
+- Runde 2 (09./10.10.): 38 Einheiten „P10 oft“ nach Musterauftrag, je mit
+  Fable-Kritiker und Nachbesserung; gedriftet (gröber, weniger Aufgaben,
+  Hinweise in Aufgaben, Ziel je Abschnitt). Aufgaben bleiben als Vorrat.
+- Setzer: drei Sorten (selbst, tisch, tisch-alt) aus denselben Daten;
+  Felder erklaerung, stufe; Layout-Zeilen „Layout: voll“, „Grau:“;
+  T6B byte-gleich. Kennung reservieren (`--reserviere`).
+- Nachrüst-Test H7U (Hypotenuse): Versuch 2 „besser“; danach Lehrer-
+  Vorlage von Hand gesetzt.
+- bau/bauauftrag.md ist der Stand nach dem Nachrüst-Test (Musterauftrag +
+  Stellschrauben) – für das Füllen der Stufen nicht geprüft.
 
 ## 4 Verbindliche Entscheidungen und Rahmen
 
-- plan.md gilt (Lehrer 09.10.: „plan gilt“); ändern nur der Lehrer.
-- Der Lehrer will nur die Linien entscheiden; Kleinigkeiten entscheidet der
-  Chat und sagt sie in einem Satz.
-- **Token sparen, vom Ende her gedacht (Lehrer 09.10.):** Das
-  Wochenkontingent ist knapp. Rückwärts rechnen: Ende = jede Bestellung ohne
-  Modell aus Lernweg + Bank. Jeder Token muss Daten erzeugen, die der Setzer
-  nutzt; Lesen nur, was im Bau landet. Messwert: eine gebaute Einheit ≈
-  0,3–0,4 Mio Token ≈ 1 Wochenpunkt; 54 P10-Kerneinheiten ≈ 55 Punkte;
-  dazu Abitur GK. Darum: Runden je Woche planen und nach jeder Runde
-  ablesen; Bau-Agent Opus, Kritiker kurz (Fable, ≤ 400 Wörter), Prüfungen
-  mit Skripten, Abnahme-Checks mit Haiku; keine Leser-Runden über den
-  Bestand mehr; Chat kurz halten und früh umziehen; Setzer statt Modell.
-- Abo kann verlängert werden, wenn geliefert wird.
-- Messwerte 09.10.: fünf Fable-Leser + Kritiker ≈ 1,4 Mio → Woche +4,
-  Fable +6 Punkte; M2 (Bau + Setzer) ≈ 0,4 Mio → Woche +1. Stand 09.10.
-  mittags: Woche 42 %, Fable 18 %; Reset Montag 18:00.
+- Linien entscheidet der Lehrer, Kleinigkeiten der Chat (ein Satz).
+- Lehrer 10.10.: keine neuen Regeln aus Einzelbefunden; Wünsche als Befund
+  sammeln, Regel erst nach Wiederholung und mit seiner Zustimmung.
+- Lernblätter nur neue Aufgaben; Original nur Vorbild, kein Muss.
+- Keine Rätsel-/Herleitungsbilder (Kästchen-Quadrate).
+- Kein Blatt an den Lehrer ohne unabhängigen Bildvergleich mit dem Maß
+  (Fable-Prüfer); Selbsturteil der Bau-Agenten reicht nicht.
+- Messwerte: Woche 42 → 48 (Runde 1) → 68 (Runde 2) → 69 % (Test);
+  Fable 18 → 20 → 32 %; ≈ 0,75 Mio Opus-Token je Wochenpunkt; Einheit
+  Runde 2 ≈ 0,4 Mio inkl. Kritik. Reset Montag 18:00.
+- Agenten: eigener Arbeitsordner /root/work/<x>, Hilfsskripte dort,
+  Kritiker startet der Chat (Unteragenten können keine starten).
 
 ## 5 Offen und Verworfenes
 
-- Feld `satz` doppelt aufgabe/loesung; setzer.py setzt die Originalliste noch
-  auf Lernblättern – beides in der ersten Setzerrunde von M3 beheben.
-- Projektanweisung (3 100 Wörter, davon ~1 100 über tote Wege) ist gekürzt:
-  anweisungen/projekt-verbessereBlaetter.md, Stand 2026-10-09 – der Lehrer
-  ersetzt sie im Claude-Projekt.
-- Verworfen: K4W nachträglich zerlegen (wird in M3 neu gebaut); Leser-Runde
-  „alles neu lesen“ wiederholen; Bau auf jede Bestellung als Regelweg (bleibt
-  Notweg für persönliche Hefte).
+- Offen für den Lehrer: Klasse Brüche E1 (7 statt 5), Terme-Folge,
+  Kosinussatz nur Vorrat, Form des Tischblatts (Setzer).
+- Verworfen: Musterauftrag als alleiniger Bauauftrag (Agenten erfinden
+  den Aufbau jedes Mal neu → Drift, nicht wiederholbar); Regeln nach jeder
+  Welle in die Aufträge schreiben; „höchstens 6 Seiten“.
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 „Jetzt“: M3 Runde 1 – zwei Agenten nebeneinander: Pythagoras
-ganz (Hypotenuse neu, Umkehrung, Das Dreieck erst finden, Thema-Weg) und
-Prozentrechnung; Schätzung 2–3 Mio Token; vorher Ablesen, danach Ablesen;
-Lehrer sieht eine Stichprobe. Modell: Opus im Chat und für Bau-Agenten.
+plan.md § 7 „Jetzt“.
