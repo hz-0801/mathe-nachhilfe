@@ -351,6 +351,8 @@ Ziel und Rahmen
 - 03.10. Fokusblätter auf Zuruf, nicht auf Vorrat → P
 
 Prüfung
+- 10.10. Prüfstein einmal je Kapitel (Ende Prüfungsheft), nicht auf
+  jedem Blatt; Blatt endet mit der schwersten echten Teilaufgabe → P
 - 04.10. Skript: echte Aufgaben nach Handgriff, leicht → schwer,
   „kommt das dran?“, Lücke per Freitext, Hilfen gestuft → P
 - 04.10. Skript nur Hauptteil; Basis bleibt ganz (Original,

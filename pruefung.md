@@ -227,8 +227,8 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
 **Aufbau des Blatts** (08.10., Linie 4 vom 10.10.)
 - Unten Einstieg aus der Bank (gemeinsam.md „Leiter“), dann echte
   Teilaufgaben, herausgelöst mit echter Sache (Marke „nach P10 ’24“),
-  leicht → schwer; am Ende der Prüfstein. Echte Aufgaben nicht
-  zuerst.
+  leicht → schwer; am Ende die schwerste echte Teilaufgabe des
+  Handgriffs. Echte Aufgaben nicht zuerst.
 - **Wie viele echte je Sorte** (Lehrer 10.10.): eine. Eine zweite oder
   dritte derselben Sorte, wenn beide gelten: (1) sie sieht anders aus
   – andere Sache, Darstellung oder Formulierung; nur andere Zahlen
@@ -237,11 +237,12 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   deutlich länger als die übrigen des Kapitels, fällt die zusätzliche
   zuerst weg; keine feste Seitenzahl. Der Rest steht in der
   Fundstellenliste und kommt mit „mehr“ zuerst.
-- **Prüfstein** (fest 04.10., 06.10.): am Ende jeder Einheit des
-  Prüfungshefts eine ganze echte Aufgabe aus den letzten fünf Jahren,
-  alle Teilaufgaben in Folge wie im Heft, eigener Wortlaut, Punkte,
-  ohne Überschriften, ohne Hilfen, ohne laufende Nummer. Nicht im
-  Fokusblatt. Abitur: Prüfstein je Gebiet (offen).
+- **Prüfstein** (fest 04.10., 06.10.; Lehrer 10.10.: einmal je
+  Kapitel, nicht auf jedem Blatt): am Ende des Prüfungshefts eines
+  Kapitels eine ganze echte Aufgabe aus den letzten fünf Jahren, alle
+  Teilaufgaben in Folge wie im Heft, eigener Wortlaut, Punkte, ohne
+  Überschriften, ohne Hilfen, ohne laufende Nummer. Nicht auf dem
+  einzelnen Blatt. Abitur: Prüfstein je Gebiet (offen).
 - **Stufenkopf** (06.10.): Überschrift = Stufenname, dahinter grau
   „in 3 der letzten 5 Prüfungen“, sonst „selten geprüft“ (Abitur:
   letzte fünf BB-Jahrgänge).
