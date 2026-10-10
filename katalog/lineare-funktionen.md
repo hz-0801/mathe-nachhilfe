@@ -108,7 +108,7 @@ Zuordnung: Einheit 1 – kein Typ (proportionale Funktion als Vorstufe, Typen be
 - Kastenzahlen: am 10c bereinigt, Skript-Treffer keine.
 
 ### Thema-Weg
-Stand: 2026-10-10, vorläufig (aus dem Bau VUC/E1; die übrigen Einheiten
+Stand: 2026-10-10, vorläufig (aus den Bauten VUC/E1 und NKP/E2; E3–E5
 sind in Abschnittsform noch nicht gebaut).
 
 Folge | Grund für die Stelle:
@@ -119,6 +119,10 @@ Folge | Grund für die Stelle:
 2. Lineare Funktion f(x) = m · x + n (Lerneinheit 2) | n verschiebt die
    Ursprungsgerade; das Steigungsdreieck („1 nach rechts, m nach oben“)
    aus E1 Abschnitt C wird hier geübt. Erst hier: m und n unterscheiden.
+   Folge im Bau NKP: zeichnen (m ganz, dann Bruch) → ablesen → deuten
+   ohne Zeichnung; m = 0 erst beim Ablesen (y = −2), dann benannt.
+   Bereitet E3 vor: „Liegt P auf der Geraden?“ und Schnitt mit der
+   x-Achse am Graphen.
 3. Punkte und Werte (Lerneinheit 3) | Rechnen an einer gegebenen Geraden,
    auch rückwärts; E1 Abschnitt D übt x = y : m schon vor.
 4. Gleichung bestimmen (Lerneinheit 4) | setzt m und n sicher voraus;
@@ -165,6 +169,29 @@ Tisch: Zeichne mit Lineal und Bleistift auf Karopapier.
 | L1-C | Gleichung am Graphen ablesen | Am Graphen findest du $m$ über einen Punkt, der genau auf einem Gitterkreuz liegt. Je steiler die Gerade, desto größer der Betrag von $m$; fällt die Gerade, ist $m$ negativ. Gehst du 1 nach rechts, geht sie $m$ nach oben. | Punkt $P(x \mid y)$ ablesen \ $\to$ \ $m = y : x$ \ $\to$ \ $y = m \cdot x$ | lineare-funktionen-e1-k3-s3-v4 | lineare-funktionen-e1-k3-s3-v5, lineare-funktionen-e1-k3-s3-v6, lineare-funktionen-e1-k3-s3-v7, lineare-funktionen-e1-k3-s3-v8, lineare-funktionen-e1-k3-s3-v9 | lineare-funktionen-e1-k1-s2-v4, lineare-funktionen-e1-k3-s3-v10, lineare-funktionen-e1-k3-s3-v11, lineare-funktionen-e1-k3-s3-v12, lineare-funktionen-e1-k3-s3-v13 |
 | L1-D | Sachaufgaben: m deuten, vorwärts und rückwärts | In Sachaufgaben ist $m$ der Wert für eine Einheit: Preis je kg, km je Stunde, Liter je Minute. Ist $y$ gegeben und $x$ gesucht, teilst du durch $m$. | $y = m \cdot x$ \ ($y$ gesucht) \qquad $x = y : m$ \ ($x$ gesucht)\par {\small Kontrolle mit dem Dreisatz: 1 Einheit $\to$ $m$.} | lineare-funktionen-e1-k1-s8-v6 | lineare-funktionen-e1-k3-s4-v4, lineare-funktionen-e1-k3-s4-v5, lineare-funktionen-e1-k2-s1-v4, lineare-funktionen-e1-k3-s4-v6 | lineare-funktionen-e1-k3-s4-v7, lineare-funktionen-e1-k3-s4-v8, lineare-funktionen-e1-k3-s4-v9, lineare-funktionen-e1-k2-s1-v5, lineare-funktionen-e1-k1-s8-v7 |
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | lineare-funktionen-e1-k3-s3-v14, lineare-funktionen-e1-k3-s3-v15, lineare-funktionen-e1-k1-s5-v6, lineare-funktionen-e1-k3-s3-v16, lineare-funktionen-e1-k3-s4-v10 | lineare-funktionen-e1-k3-s3-v17, lineare-funktionen-e1-k1-s4-v6, lineare-funktionen-e1-k3-s4-v11 |
+
+#### Lerneinheit 2 – Lineare Funktion f(x) = m·x + n (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung NKP · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Gerade aus der Gleichung mit n und Steigungsdreieck zeichnen, auch m negativ und als Bruch (2026-FOR-K5a, 2024-OS-K3a, 2024-OS-B1i); drei Geraden ihre Gleichung zuordnen, mit Sonderfall y = −2 (2019-OS-K2c); Gerade nach Eigenschaft wählen (2019-OS-K2b, 2016-OS-B1c)
+Blatt: Klasse 8 · Vorher: Proportionale Funktion · Weiter: Punkte und Werte
+Titel: Lineare Funktion: $f(x) = m \cdot x + n$
+Formel: $f(x) = m \cdot x + n$
+In Worten: $n$ ist die Stelle, an der die Gerade die $y$-Achse schneidet: im Punkt $(0 \mid n)$. $m$ heißt Steigung: Gehst du auf der Geraden 1 nach rechts, geht sie $m$ nach oben.
+Vorgehen: $(0 \mid n)$ auf der $y$-Achse markieren; von dort das Steigungsdreieck: 1 nach rechts, $m$ nach oben; das Ganze noch einmal; mit dem Lineal die Gerade durch die Punkte ziehen
+Bild: lineare-funktionen-e2-k4-s4-v4
+Fehler: $m$ und $n$ vertauscht. $m$ ist die Zahl beim $x$: In $f(x) = 3x + 2$ und in $f(x) = 2 + 3x$ ist $m = 3$ und $n = 2$.
+Fehler: $n$ auf der $x$-Achse eingetragen. Der Punkt $(0 \mid n)$ liegt immer auf der $y$-Achse.
+Fehler: Gerade nur zwischen den Punkten gezeichnet. Zieh sie mit dem Lineal über das ganze Koordinatensystem.
+Tisch: Zeichne mit Lineal und Bleistift auf Karopapier.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L2-A | Gerade zeichnen mit n und m | Starte auf der $y$-Achse bei $n$. Von dort gehst du 1 nach rechts und $m$ nach oben; ist $m$ negativ, gehst du nach unten. | $(0 \mid n)$ \ $\to$ \ 1 nach rechts, $m$ nach oben \ $\to$ \ noch einmal \ $\to$ \ Gerade ziehen | lineare-funktionen-e2-k4-s4-v4 | lineare-funktionen-e2-k4-s4-v5, lineare-funktionen-e2-k4-s5-v4, lineare-funktionen-e2-k7-s3-v4 | lineare-funktionen-e2-k4-s4-v6, lineare-funktionen-e2-k4-s4-v7, lineare-funktionen-e2-k4-s5-v5, lineare-funktionen-e2-k7-s3-v5 |
+| L2-B | Steigung als Bruch oder Dezimalzahl | Ist $m$ ein Bruch, gehst du so weit nach rechts, wie der Nenner sagt, und so weit nach oben, wie der Zähler sagt. Eine Dezimalzahl schreibst du vorher als Bruch. | $m = \dfrac{\text{nach oben}}{\text{nach rechts}}$ \qquad $m = \frac{2}{3}$: 3 nach rechts, 2 nach oben \qquad $0{,}5 = \frac{1}{2}$ | lineare-funktionen-e2-k4-s6-v5 | lineare-funktionen-e2-k4-s6-v6, lineare-funktionen-e2-k4-s8-v9, lineare-funktionen-e2-k7-s3-v6 | lineare-funktionen-e2-k4-s6-v7, lineare-funktionen-e2-k4-s6-v8, lineare-funktionen-e2-k4-s8-v10, lineare-funktionen-e2-k7-s3-v7 |
+| L2-C | Gleichung am Graphen ablesen | $n$ liest du dort ab, wo die Gerade die $y$-Achse schneidet. Für $m$ gehst du von einem Gitterpunkt der Geraden nach rechts bis zum nächsten Gitterpunkt und zählst, wie weit es nach oben oder nach unten geht. | $m = \dfrac{\text{nach oben (+) oder nach unten (}-\text{)}}{\text{nach rechts}}$ \ $\to$ \ $f(x) = m \cdot x + n$ | lineare-funktionen-e2-k5-s3-v4 | lineare-funktionen-e2-k5-s2-v4, lineare-funktionen-e2-k5-s4-v4, lineare-funktionen-e2-k5-s5-v4, lineare-funktionen-e2-k5-s6-v11 | lineare-funktionen-e2-k5-s2-v5, lineare-funktionen-e2-k5-s3-v5, lineare-funktionen-e2-k5-s4-v5, lineare-funktionen-e2-k5-s5-v5, lineare-funktionen-e2-k5-s6-v12 |
+| L2-D | Was m und n verraten – ohne Zeichnung | An $m$ siehst du, ob die Gerade steigt, fällt oder waagerecht ist und wie steil sie ist. Gleiches $m$ heißt: Die Geraden sind parallel. | $m > 0$: steigt \quad $m < 0$: fällt \quad $m = 0$: waagerecht, $f(x) = n$\par Je größer der Betrag von $m$ (die Zahl ohne Vorzeichen), desto steiler.\par Gleiches $n$: Die Geraden schneiden sich im Punkt $(0 \mid n)$. | lineare-funktionen-e2-k6-s1-v6 | lineare-funktionen-e2-k6-s1-v7, lineare-funktionen-e2-k7-s2-v4, lineare-funktionen-e2-k5-s6-v13, lineare-funktionen-e2-k6-s1-v8 | lineare-funktionen-e2-k6-s1-v9, lineare-funktionen-e2-k6-s1-v10, lineare-funktionen-e2-k7-s2-v5, lineare-funktionen-e2-k5-s6-v14, lineare-funktionen-e2-k6-s1-v11 |
+| L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel und ohne Taschenrechner. Etwa 20 Minuten. | – | – | lineare-funktionen-e2-k4-s8-v11, lineare-funktionen-e2-k5-s5-v6, lineare-funktionen-e2-k6-s1-v12, lineare-funktionen-e2-k7-s3-v8 | lineare-funktionen-e2-k4-s8-v12, lineare-funktionen-e2-k5-s5-v7, lineare-funktionen-e2-k7-s3-v9 |
 
 ## Prüfliste (vor Status „gegengelesen")
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
