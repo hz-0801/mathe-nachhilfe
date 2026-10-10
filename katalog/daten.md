@@ -283,13 +283,13 @@ Tisch: Lies so genau ab, wie die Hilfslinien es zulassen.
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e2-k2-s11-v4, daten-e2-k2-s11-v5, daten-e2-k2-s11-v6, daten-e2-k2-s12-v7 | daten-e2-k2-s11-v7, daten-e2-k2-s12-v8 |
 
 #### Lerneinheit 3 – Streifen- und Kreisdiagramm (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung FWE · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, OS Kl. 6–7, GYM 6; Prozentrechnung E1–E5 Vorwissen)
+Stand: 2026-10-10 · Kennung FWE · Kritiker: erledigt (Nachbesserung 10.10.: Formelkasten S. 1 „Rechnen: eine Stelle nach dem Komma. Zeichnen: ganze Grad.“; Beispiel C Schritt 4 Geodreieck drehen; Kreise in C und D kleiner, mehr Karo) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, OS Kl. 6–7, GYM 6; Prozentrechnung E1–E5 Vorwissen)
 Form: abschnitte
 Ziel: unbeschriftete Sektoren nach Größe zuordnen und den Winkel eines kleinen Anteils berechnen (2024-OS-K2c; 2022-OS-K4d); Kreisdiagramm aus Prozentangaben mit gerundeten Winkeln zeichnen (2017-OS-K2c); Streifendiagramm mit Rest zeichnen (2018-OS-K3c; 2021-OS-K5b); Anteil „von“ als Sektor (2025-OS-K6b)
 Blatt: Klasse 7 · Vorher: Säulen-, Balken- und Liniendiagramme · Weiter: Kenngrößen
 Titel: Streifen- und Kreisdiagramme
 Formel: $100\,\%$ $=$ ganzer Streifen $=$ ganzer Kreis $= 360^\circ$
-In Worten: Streifen und Kreis zeigen Anteile. Das Ganze ist immer $100\,\%$; jeder Abschnitt oder Sektor ist so groß wie sein Anteil.
+In Worten: Streifen und Kreis zeigen Anteile. Das Ganze ist immer $100\,\%$; jeder Abschnitt oder Sektor ist so groß wie sein Anteil. Rechnen: eine Stelle nach dem Komma. Zeichnen: ganze Grad.
 Vorgehen: Anteil bestimmen (Prozent, Bruch oder Teil von Ganzem); in Länge oder Winkel umrechnen; Summe prüfen; zeichnen und beschriften
 Bild: –
 Fehler: Prozent als Grad eingetragen: $16\,\%$ als $16^\circ$. Richtig: $0{,}16 \cdot 360^\circ$.
