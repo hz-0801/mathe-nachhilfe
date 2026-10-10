@@ -305,6 +305,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
 - 10.10.2026 (j): Lieferliste je Schüler per Skript; bankblatt v5.9
   (Lehrer).
+- 10.10.2026 (k): Echte Aufgaben je Sorte im Prüfungsblatt (Register
+  § 11); Entwürfe pruefung.md und gemeinsam.md für Schritt 2 (Lehrer).
 
 ## 11 Register der Entscheidungen
 
@@ -342,6 +344,8 @@ Prüfung
 - 07.10. GYM-Hefte sind keine P10; GYM nur bei Lücke, Marke
   „GYM ’xx“ → P
 - 04.10. Fundstellen-Liste am Blattende → P
+- 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
+  aussehend und Kern; Länge Richtwert, keine Seitenzahl → P
 - 04.10. Original: Heftseiten unverändert, Schnitt an
   Aufgabengrenzen; Original neu: besser gesetzt, amtliches
   Register → P
