@@ -169,19 +169,20 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M3 Runde 2 (Lehrer 09.10. abends: Go; Kontingent bis Montag 18:00
-sinnvoll verbrauchen). Runde 1 erfüllt: Pythagoras (M74, T6B, P9H, UV3) und
-Prozentrechnung (3Y5, 4NT, E5F, WFW, S2L) gebaut, Thema-Wege fertig, Kritik
-eingearbeitet; Lehrer zur Stichprobe M74: „der Rest passt“, schwach nur
-Quadratbild und Erklärtext (Regel gestrichen). Neu ab Runde 2: Aufgaben
-neu schreiben, Bank nur Vorbild (Linie 2 „Bank liefert“ so geändert);
-Kritiker gebündelt aus dem Chat mit Bildprüfung; Anfänger-Test.
-Runde 2: Einheiten mit „P10 oft“ (38 offen), dann Kern; vier Agenten
-nebeneinander, je Thema einer, einer davon mit Fable (misst, ob Fable die
-Woche mitverbraucht, und vergleicht die Qualität); nach jeder Welle
-Zwischenbericht und Sparprüfung (Log: aufgabenbank bau/runde2-log.md);
-Schluss bei geschätzt 95 % Woche. Offen für den Lehrer: Selbstlern-Vergleich
-(§ 3), gesetzt an E5F.
+Jetzt: M3 Runde 3 – übriger P10-Kern (Einheiten mit „P10“ ohne „oft“),
+dann Runde-1-Blätter (Pythagoras, Prozent) in die Abschnittsform, dann M4.
+Runde 2 erfüllt (09./10.10.): Bauauftrag auf den Musterauftrag umgestellt
+(Lehrer: „die Aufgaben sind gut“), Setzer setzt selbst/tisch/tisch-alt aus
+denselben Daten; alle 38 offenen Einheiten mit „P10 oft“ gebaut, je mit
+Fable-Kritiker und Nachbesserung; Thema-Wege für 15 Themen. Offen für den
+Lehrer: Klasse Brüche E1 (Fable setzte 7 statt 5); Terme-Folge
+(Thema-Weg Termwerte vor Zusammenfassen); Kosinussatz nur Vorrat; Form
+des Tischblatts (wird in M4 entschieden, Daten tragen alle Sorten).
+Ablauf je Welle (bewährt): fünf Bau-Agenten parallel, eigener Arbeitsordner,
+Kennung reservieren, Schritt-Zuordnung jeder Ziel-/T-Aufgabe zu einem
+Beispielschritt vor dem Setzen; dann fünf Fable-Kritiker; dann ein
+Nachbesserungs-Agent für die ganze Welle. Rückfragen: status gut bei
+nachgebesserten Zeilen prüfen.
 
 ## 8 Modelle und Kosten
 
@@ -195,6 +196,12 @@ Messwert Runde 1 (09.10.): 7 Einheiten + Kritik + Nacharbeit + Setzerfix
 ≈ 2,9 Mio Token → Woche 42 → 48 %, Fable 18 → 20 %; je fertige Einheit
 ≈ 0,85 Wochenpunkte; Fable-Kritiker 0,08 Mio je Blatt; Nacharbeit gebündelt
 0,08 Mio je Blatt statt 0,11–0,14 einzeln.
+
+Messwert Runde 2 (09./10.10.): eine Einheit ≈ 0,26 Mio Bau + 0,09
+Kritik (Fable) + 0,05 Nachbesserung (gebündelt) ≈ 0,4 Mio; Bau 10–20 min
+allein, 15–25 min bei fünf parallel. Schätzung Woche nach Runde 2 ≈ 85–90 %
+(nicht abgelesen). Schritt-Zuordnung senkte Kritikerbefunde „Schritt ohne
+Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
 ## 9 Später
 
@@ -227,3 +234,6 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 09.10.2026 (c): Runde 1 erfüllt; Aufgaben neu schreiben statt aus der Bank
   nehmen; Herleitungsbilder gestrichen; Runde 2 mit vier Agenten bis
   Montag (Lehrer: „ja“). Messwert Runde 1 in § 8.
+
+- 10.10.2026: Musterauftrag ersetzt den Bauauftrag (Lehrer: Go); Runde 2
+  erfüllt (38 Einheiten P10 oft); Jetzt = Runde 3. Messwert in § 8.
