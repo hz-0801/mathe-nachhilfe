@@ -207,7 +207,8 @@ vollständig, dann ordnen, dann bauen.
    (eingesammelt aus Repos, Commits, 38 Übergaben; 121 gelten, 72 fehlen
    hier, Widerspruchsliste a). Restliche Widersprüche einzeln mit dem
    Lehrer klären, Geltendes mit Datum in plan.md tragen. Erledigt 10.10.:
-   Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9.
+   Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9;
+   Rest als Register § 11. Schritt 1 erledigt.
 2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus);
    am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9);
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
@@ -295,3 +296,120 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   zuerst Prüfung, Allgemein nach P10 (Lehrer).
 - 10.10.2026 (g): § 8 Fable-Kontingent aufbrauchen (Lehrer).
 - 10.10.2026 (h): Einheiten zuerst durchgeplant, Übersicht folgt (Lehrer).
+- 10.10.2026 (i): § 11 Register der Entscheidungen (Weg B);
+  Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
+
+## 11 Register der Entscheidungen
+
+Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
+steht. Hier nur der Verweis, nichts doppelt. Quelle je Zeile:
+entscheidungen-2026-10-10.md.
+P = Datei Prüfung (bis sie steht: offen.html) · G = gemeinsame Datei
+(bis sie steht: bauregeln.md) · A = Datei Allgemein · K = Katalog ·
+B = bank.md · W = Projektanweisung
+
+Ziel und Rahmen
+- 19.09. Werkzeug für die eigene Arbeit, Lehrer einziger Anwender → W
+- 03.10. Alles geht am Handy und am PC → G
+- 08.10. Prüfungsblatt ist Brücke zum Stark-Heft → P
+- 28.09. Klassenarbeit, Test nur Anlass; einzige Prüfungsform
+  Probeprüfung aus Originalen → P
+- 28.09. Wachhalten und Altlehrwerke sind keine Blattart → G
+- 03.10. Fokusblätter auf Zuruf, nicht auf Vorrat → P
+
+Prüfung
+- 04.10. Skript: echte Aufgaben nach Handgriff, leicht → schwer,
+  „kommt das dran?“, Lücke per Freitext, Hilfen gestuft → P
+- 04.10. Skript nur Hauptteil; Basis bleibt ganz (Original,
+  Antwortbogen); Basisaufgaben zusätzlich als unterste Stufe → P
+- 04.10. Zuschnitt: Abhängigkeit kein Schnittgrund, Seltenes eigener
+  Abschnitt, Haupt- und Nebenplatz → P
+- 04.10. Themenknopf: höchstens jede siebte Teilaufgabe braucht ein
+  Ergebnis von anderswo (nicht für Skript) → P
+- 05.10. Originale bleiben beim Lehrer; Skript eigener Wortlaut mit
+  Fundstelle → P
+- 08.10. Echte Aufgaben nicht zuerst: in der Mitte herausgelöste
+  Teile, Original am Ende → P
+- 06.10. Quellenfolge BB/BE → andere Länder (nie schwerer) → eigene
+  nur für Lücken → P
+- 07.10. GYM-Hefte sind keine P10; GYM nur bei Lücke, Marke
+  „GYM ’xx“ → P
+- 04.10. Fundstellen-Liste am Blattende → P
+- 04.10. Original: Heftseiten unverändert, Schnitt an
+  Aufgabengrenzen; Original neu: besser gesetzt, amtliches
+  Register → P
+- 03.10. Basis: Antwortbogen statt Zettel; Lösungsstreifen nur in
+  der Basis → P
+- 03.10. EBR/FOR ein Blatt, Stern für FOR; „schwach“ nie Knopf → P
+- 03.10. Kein Prüfungsjahr abfragen bis Sommer 2027 → P
+- 06.10. Kein Siezen; Punkte nur beim Prüfstein, keine in der
+  Lösung; „Mehr zum Üben“ nur auf Zuruf → P
+- 03.10. Abitur-Baum Stufe 1/2 fest, Kurs vor dem Baum → P
+- 03.10. Baum nach den Sommerferien 2027 auf Format 2028 → P
+- 03.10. Handreichung P10 jährlich; EBR/FOR-Filter Sachaufgaben → P
+
+Bestellung
+- 03./04.10. Freitext geht immer, Unklares nachfragen; Name nur,
+  wenn keiner genannt; gleicher Ablauf, nur Knöpfe, die zu einem
+  Blatt führen → G (Knopf oder Kurzbefehl unter dem Gebiet offen,
+  § 9; Lehrer 10.10.)
+- 26.09. Optionen: nur Neues / mit Wiederholung / mit Ausblick → G
+- 28.09. Ab vier Fertigkeiten einmal fragen; keine Seitengrenze → G
+- 07.10. „<Kennung> mehr“ zum Nachbestellen (Richtung) → G
+
+Blatt (beide Sorten)
+- 28.09./06.10. Ein Blatt für alle; die Lieferung ist die
+  Stellschraube → G (teils; entschieden beim Vergleich am Ende von
+  M3, Lehrer 10.10.)
+- 07./08.10. Kurz; Blatt = Lerneinheit; keine Teilnummern,
+  Vorgänger/Nachfolger; Kern und Rand, Rand-Blatt immer da → G
+- 08.10. Versuch: Einstieg unten/normal/oben statt schwach/stark → G
+- 06./08.10. Rückblick nur, was die Leiter gleich braucht → G
+- 07.10. Grundform: Gruppen nach Art, eine Pflicht, Rest
+  eingerückt → G
+- 07./10.10. Erkennen vor Rechnen; Maß ist die Lehrer-Vorlage
+  Hypotenuse → G
+- 09.10. Keine Rätsel- und Fehleraufgaben → G
+- 02./08.10. Leiter: Rückwärts- und Mischsprosse vor Prüfungshöhe;
+  krumme Zahlen sparsam und oben; Sorte = anders denken → G
+- 06.10. Exakt zuerst, dann gerundet → G
+- 09.10. Rechnungen dienen der Prüfung (Zwischenergebnis) → G
+- 28.09./03.10. Kurze ganze Sätze, Lage vor Aufforderung; Du
+  überall, auch in Originalen → G
+- 03.10. „Leicht“ ist Lehrerurteil je Typ; Praxis vor Literatur → G
+
+Satz und Lösung
+- 03.–08.10. Rechter Winkel mit Bogen und Punkt; Ankreuzen höchstens
+  vier, untereinander; Fuß auf jedem Blatt, Herkunft links, ohne
+  Tipp, Ergebnisse kopfüber; Skizze links, Antwort rechts;
+  Rechenplatz; keine Hilfsmittel auf dem Zettel → G
+- 22.09. LaTeX mit xelatex → G
+- 03.–05.10. Lösung eigene Datei, Ergebnis mit Einheit, höchstens
+  ein Zwischenwert; Lösungsweg gestrichen → G
+
+Katalog und Bank
+- 08.10. Reihenfolge nur aus dem Katalog → K
+- 05.10. Beitabellen des Vorrats in den Katalog → K
+- 25./26.09. Marke = Klasse je Schulform; ordnet, filtert nicht → K
+- 30.09./01.10. Marken „P10 ’JJ“, „GYM“, „(kein P10-Stoff)“ → K
+- 01.10. Kastentexte pflegt der Lehrer, Läufe fassen sie nicht an → K
+- 23.09. Sek II ohne Zuruf Grundkurs → K
+- 27.09. Bank JSONL je Einheit, Prüfskript bis null Abweichungen → B
+- 30.09. Sperre: Zahlenpaar frei, zwei Punkte einer Quelle
+  gesperrt → B
+- 01.10. Blatt-Chat trägt Erfindungen selbst ein → A (bei M4 prüfen:
+  passt nicht zum Setzer ohne Modell)
+
+Werkstatt
+- 07.10. Claude prüft jedes Blatt, bevor der Lehrer es sieht → W
+- 22.09.–09.10. Erst Exemplar, dann Regel; Revisionsschranke; eine
+  Frage mit Empfehlung; Alltagssprache; selbst machen; Unteragenten
+  pushen; Token vom Ende her; Lehrer entscheidet Verbrauch → W
+- 03.10. Schülerdaten im Repo nur als Nummern → W
+- 26.09. Nur zwei Förderhefte kaufen; 28.09. Altlehrwerke sind
+  Steinbruch; 03.10. OneNote-Weg ruht → W
+
+Ersetzt
+- 27.09. „Opus Regelfall, Fable nur auf Wahl“ → § 8 (10.10.)
+- 02.10. Wiedervorlage, Fünf-Minuten-Test 16.10. → gestrichen
+  (Lehrer 10.10.)
