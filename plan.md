@@ -169,20 +169,19 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
 
-Jetzt: M3 Runde 3 – übriger P10-Kern (Einheiten mit „P10“ ohne „oft“),
-dann Runde-1-Blätter (Pythagoras, Prozent) in die Abschnittsform, dann M4.
-Runde 2 erfüllt (09./10.10.): Bauauftrag auf den Musterauftrag umgestellt
-(Lehrer: „die Aufgaben sind gut“), Setzer setzt selbst/tisch/tisch-alt aus
-denselben Daten; alle 38 offenen Einheiten mit „P10 oft“ gebaut, je mit
-Fable-Kritiker und Nachbesserung; Thema-Wege für 15 Themen. Offen für den
-Lehrer: Klasse Brüche E1 (Fable setzte 7 statt 5); Terme-Folge
-(Thema-Weg Termwerte vor Zusammenfassen); Kosinussatz nur Vorrat; Form
-des Tischblatts (wird in M4 entschieden, Daten tragen alle Sorten).
-Ablauf je Welle (bewährt): fünf Bau-Agenten parallel, eigener Arbeitsordner,
-Kennung reservieren, Schritt-Zuordnung jeder Ziel-/T-Aufgabe zu einem
-Beispielschritt vor dem Setzen; dann fünf Fable-Kritiker; dann ein
-Nachbesserungs-Agent für die ganze Welle. Rückfragen: status gut bei
-nachgebesserten Zeilen prüfen.
+Jetzt: Stufen füllen (Lehrer 10.10.: „ich wollte bessere, andere, weitere
+Aufgaben für den Katalog“). Die Stufenketten der Bank (kette/sprosse je
+Einheit) sind das Gerüst; je Thema werden ihre Stufen mit neuen Aufgaben
+in der Art der Lehrer-Vorlage gefüllt (aufgabenbank
+bau/proben/2026-10-10/vorlage-holger/: knapper Auftrag mit einem Verb,
+Schwierigkeit in der Figur, Gegenbeispiel und Falle statt Hinweis, glatt
+vor krumm, Schüler tut selbst etwas), mehrere je Stufe. Kästchen-Sprosse
+schwach. Maß für das Blatt daneben: M74 (ohne Nr. 2/3) und T6B tisch-alt.
+Zuerst: mit dem Lehrer den Auftrag dafür klären (kurz; der heutige
+bau/bauauftrag.md ist der Stand nach dem Nachrüst-Test, nicht geprüft für
+diese Aufgabe), dann ein Thema als Probe, Lehrer urteilt, dann Wellen.
+Runde 2 (09./10.10., 38 Einheiten P10 oft) gilt als Vorrat: Aufgaben
+bleiben in der Bank, Blätter gedriftet (Befunde M3, 10.10.).
 
 ## 8 Modelle und Kosten
 
@@ -199,8 +198,9 @@ Messwert Runde 1 (09.10.): 7 Einheiten + Kritik + Nacharbeit + Setzerfix
 
 Messwert Runde 2 (09./10.10.): eine Einheit ≈ 0,26 Mio Bau + 0,09
 Kritik (Fable) + 0,05 Nachbesserung (gebündelt) ≈ 0,4 Mio; Bau 10–20 min
-allein, 15–25 min bei fünf parallel. Schätzung Woche nach Runde 2 ≈ 85–90 %
-(nicht abgelesen). Schritt-Zuordnung senkte Kritikerbefunde „Schritt ohne
+allein, 15–25 min bei fünf parallel. Abgelesen nach Runde 2: Woche
+50 → 68 %, Fable 21 → 32 % (≈ 0,75 Mio Opus je Wochenpunkt; meine Schätzung
+85–90 % war falsch). Schritt-Zuordnung senkte Kritikerbefunde „Schritt ohne
 Beispiel“ von 8/10 (Welle 3–4) auf 2/5 (Welle 5–8).
 
 ## 9 Später
@@ -237,3 +237,6 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
 - 10.10.2026: Musterauftrag ersetzt den Bauauftrag (Lehrer: Go); Runde 2
   erfüllt (38 Einheiten P10 oft); Jetzt = Runde 3. Messwert in § 8.
+- 10.10.2026 (b): Runde 2 als gedriftet erkannt (Lehrer); Nachrüst-Test,
+  Lehrer-Vorlage Hypotenuse; Jetzt = Stufen der Ketten mit neuen Aufgaben
+  füllen.
