@@ -240,7 +240,7 @@ Tisch: Taschenrechner erlaubt. Runde Geldbeträge auf Cent.
 | L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | potenz-exponentialfunktionen-e1-k1-s8-v7, potenz-exponentialfunktionen-e1-k2-s6-v6, potenz-exponentialfunktionen-e1-k3-s5-v9, potenz-exponentialfunktionen-e1-k1-s7-v4 | potenz-exponentialfunktionen-e1-k1-s8-v8, potenz-exponentialfunktionen-e1-k1-s7-v5 |
 
 #### Lerneinheit 2 – Wachstumsfaktor und Wachstumstabelle (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung SLM · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung SLM · Kritiker: erledigt (Nachbesserung 10.10.: Fehlerkasten 2 Schritte à 12 %, Probe 45 : 1,5² im Beispiel D, Lösung A4 „Bank A und Bank B“, Rundung „Zwischenwerte nicht runden“) · Lehrer: –
 Form: abschnitte
 Ziel: Faktor als Quotient nachweisen (2025-OS-K7b) und Prozentsatz an einer Umsatztabelle nachweisen (2018-OS-K2a); zwei Tabellenfelder ergänzen, davon der Anfangswert (2026-FOR-K7a, 2020-OS-K4a); Werte über mehrere Schritte mit Potenz (2019-OS-K7a, 2017-OS-K7a); Wert und fehlende Zeitangabe in einer Zerfallstabelle (2016-OS-K4a)
 Blatt: Klasse 10 · Vorher: Lineares und exponentielles Wachstum unterscheiden · Weiter: Exponentialfunktion aufstellen und auswerten
@@ -248,11 +248,12 @@ Titel: Wachstum: Faktor und Tabelle
 Formel: \large Zunahme um $p\,\%$: \ $q = 1 + \frac{p}{100}$ \par Abnahme um $p\,\%$: \ $q = 1 - \frac{p}{100}$ \par aus der Tabelle: \ $q =$ neuer Wert $:$ alter Wert \par vorwärts: \ Wert $\cdot\, q$, \ $n$ Schritte: Wert $\cdot\, q^n$ \par zurück: \ Wert $:\, q$, \ $n$ Schritte: Wert $:\, q^n$
 In Worten: Der Faktor $q$ sagt, womit du bei jedem Schritt malnimmst. Über $1$ heißt Zunahme, unter $1$ Abnahme.
 Vorgehen: Prozentsatz in den Faktor umrechnen oder den Faktor als Quotient aus der Tabelle holen; Startwert in den Schritt $0$ schreiben; vorwärts mal $q$, über mehrere Schritte mal $q^n$; zurück durch $q$; fehlende Zeit: mal $q$, bis der Wert passt, Schritte zählen
-Achtung: Runde erst beim Eintragen: Geld auf Cent, Anzahlen auf ganze Zahlen, sonst auf eine Stelle nach dem Komma. Rechne im Taschenrechner mit dem genauen Wert weiter.
+Achtung: Runde erst beim Eintragen: Geld auf Cent, Anzahlen auf ganze Zahlen, sonst auf eine Stelle nach dem Komma. Zwischenwerte nicht runden: Rechne im Taschenrechner mit dem genauen Wert weiter.
 Bild: potenz-exponentialfunktionen-e2-k2-s5-v4
 Fehler: Den Faktor ohne die Eins gebildet: mal $0{,}05$ statt mal $1{,}05$. Dann schrumpft der Wert, statt zu wachsen.
 Fehler: Differenzen statt Quotienten gebildet, um den Faktor zu finden.
 Fehler: Zurück $4\,\%$ abgezogen: $208 - 4\,\% = 199{,}68$. Richtig: $208 : 1{,}04 = 200$.
+Fehler: $2$ Schritte à $12\,\%$ Abnahme als $24\,\%$ gerechnet. Richtig: $0{,}88 \cdot 0{,}88 = 0{,}7744$, also $22{,}56\,\%$.
 Tisch: Taschenrechner erlaubt. Runde erst beim Eintragen: Geld auf Cent, Anzahlen ganz, sonst eine Stelle nach dem Komma.
 
 | Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
