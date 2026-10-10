@@ -127,8 +127,8 @@ Zielmarke: **Einheit 1** – Hauptmarke 2017-OS-K4b (Niveau II, 2 Punkte): tan 3
 - Gewicht (Regel 02.10.2026): P zählt die Originale der Zuordnungszeile mit eigenem Typ der Einheit (Nebentyp-Klauseln nicht); K der Einheit 4 ist 0 (keine Klassenarbeit des Duden 9 fragt den Sinussatz, das Maß zählt trotzdem, weil der Eintrag Klasse-9-Werte hat); S in Prozent mit zwei Stellen.
 
 ### Thema-Weg
-Stand: 2026-10-10, angelegt beim ersten Bau (N9M, Lerneinheit 1);
-Folge 1–2 durch den Bau LT3 bestätigt, 3 durch 56N, 4 noch nicht.
+Stand: 2026-10-10, endgültig (angelegt beim Bau N9M, Lerneinheit 1;
+Folge 1–2 durch LT3 bestätigt, 3 durch 56N, 4 durch XAD).
 
 Folge | Grund für die Stelle:
 1. Seite berechnen mit sin, cos und tan (Lerneinheit 1) | Zuerst die
@@ -156,16 +156,26 @@ Folge | Grund für die Stelle:
    Dreiecke an derselben Höhe (2016-OS-K7c, 2026-FOR-K4c), weil erst
    dort ein Ergebnis zur Angabe des nächsten Dreiecks wird.
 4. Sinussatz (Lerneinheit 4) | Für Dreiecke ohne rechten Winkel; zuerst
-   „rechtwinklig oder nicht?“, darum nach 1–3.
+   „rechtwinklig oder nicht?“, darum nach 1–3. Folge im Bau XAD: Seite
+   aus einem ganzen Paar (falsche Paarung ist die Fehlerquelle in
+   sieben der neun Originale) → dritter Winkel aus der Winkelsumme
+   (2014-OS-K2b, 2020-OS-K7c) → Winkel aus der Figur: Nebenwinkel,
+   stumpfer Winkel, Teilwinkel (2025-OS-K4c, 2024-OS-K6d, 2019-OS-K3c)
+   → Ergebnis weitergeben: Weg, Rest, Nachweis nach einem
+   rechtwinkligen Teildreieck (2014-OS-K2b, 2020-OS-K7c, 2018-OS-K4c).
+   Kosinussatz und Winkel mit dem Sinussatz haben kein P10-Original:
+   nur Bank.
 
 Vorher-Check (Zone): trigonometrie-zone-f1-v1, trigonometrie-zone-f2-v1,
 trigonometrie-zone-f3-v1, trigonometrie-zone-f4-v1,
 trigonometrie-zone-f5-v1, trigonometrie-zone-f6-v1,
 trigonometrie-zone-f7-v1
-Probetest (Originale, gemischt, schwerste zuletzt): 2025-OS-B1g,
+Probetest (Originale, gemischt, schwerste zuletzt; endgültig mit XAD,
+10.10.2026 – je Einheit mindestens zwei Originale, der Sinussatz am
+Ende, weil er Winkelsumme und Teildreieck braucht): 2025-OS-B1g,
 2020-OS-B1c, 2020-OS-B1j, 2021-OS-K3a, 2021-OS-K3b, 2022-OS-K5d,
 2024-OS-K6b, 2019-OS-K3b, 2017-OS-K4b, 2023-OS-K7b, 2016-OS-K7c,
-2018-OS-K4c, 2019-OS-K3c
+2025-OS-K4c, 2018-OS-K4c, 2019-OS-K3c
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -252,6 +262,30 @@ Tisch: Runde Längen und Winkel auf eine Stelle nach dem Komma.
 | L3-C | Vermessung: Höhenwinkel und Gerätehöhe | Der \textbf{Höhenwinkel} liegt zwischen der Waagerechten und dem Blick nach oben. Das Dreieck beginnt am Messgerät, nicht am Boden; die Gerätehöhe kommt am Schluss dazu. | Höhe $=$ Abstand $\cdot \tan\alpha$ $+$ Gerätehöhe\par {\small Ist die schräge Länge gegeben (Leine, Blicklinie), nimm $\sin$.} | trigonometrie-e3-k1-s9-v4 | trigonometrie-e3-k1-s9-v5, trigonometrie-e3-k1-s10-v4, trigonometrie-e3-k1-s17-v4, trigonometrie-e3-k1-s9-v6 | trigonometrie-e3-k1-s9-v7, trigonometrie-e3-k1-s9-v8, trigonometrie-e3-k1-s10-v5, trigonometrie-e3-k1-s17-v5, trigonometrie-e3-k1-s9-v9 |
 | L3-D | Zwei Schritte: Teilwinkel und zwei Teildreiecke | Reicht ein Dreieck nicht, rechne im ersten die Strecke aus, die beide gemeinsam haben (oft die Höhe), und gib sie an das zweite weiter. Liegen zwei Winkel am selben Punkt, ist der Winkel im Teildreieck ihr \textbf{Unterschied}. | Dreieck 1 $\rightarrow$ gemeinsame Strecke $h$ $\rightarrow$ Dreieck 2\par Teilwinkel $=$ großer Winkel $-$ kleiner Winkel | trigonometrie-e3-k1-s12-v4 | trigonometrie-e3-k1-s12-v5, trigonometrie-e3-k1-s11-v4, trigonometrie-e3-k1-s13-v4, trigonometrie-e3-k1-s12-v6 | trigonometrie-e3-k1-s12-v7, trigonometrie-e3-k1-s12-v8, trigonometrie-e3-k1-s11-v5, trigonometrie-e3-k1-s13-v5, trigonometrie-e3-k1-s12-v9 |
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | trigonometrie-e3-k1-s18-v4, trigonometrie-e3-k1-s9-v10, trigonometrie-e3-k1-s15-v6, trigonometrie-e3-k1-s18-v5 | trigonometrie-e3-k1-s18-v6, trigonometrie-e3-k1-s9-v11, trigonometrie-e3-k1-s15-v7, trigonometrie-e3-k1-s18-v7 |
+
+#### Lerneinheit 4 – Sinussatz (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung XAD · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Seilbahn mit stumpfem Winkel, erst der dritte Winkel (2024-OS-K6d); Rampe: der stumpfe Winkel bleibt stumpf (2025-OS-K4c); Nachweis, das Dreieck nicht als rechtwinklig behandeln (2018-OS-K4c); Viereck nach zwei Teilwinkeln (2019-OS-K3c); Teilstrecke als Unterschied (2020-OS-K7c); Weglänge aus Sinussatz und Teilstrecke (2014-OS-K2b); Aussage über zwei Seiten prüfen (2021-OS-K3c)
+Blatt: Klasse 10 · Vorher: Teildreiecke in Figuren und Vermessung; Winkelsumme und Nebenwinkel · Weiter: Kosinussatz (nur Bank)
+Titel: Trigonometrie: Sinussatz
+Formel: $\dfrac{a}{\sin\alpha} = \dfrac{b}{\sin\beta} = \dfrac{c}{\sin\gamma}$
+In Worten: Teilst du eine Seite durch den Sinus des Winkels gegenüber, kommt für alle drei Seiten dieselbe Zahl heraus – in jedem Dreieck, auch ohne rechten Winkel.
+Vorgehen: Hat das Dreieck einen rechten Winkel? Dann sin, cos und tan wie bisher, sonst der Sinussatz; jede Seite mit dem Winkel gegenüber verbinden; ein ganz bekanntes Paar suchen und den Winkel gegenüber der gesuchten Seite; den Sinussatz mit diesen zwei Paaren aufschreiben; nach der Seite umstellen und ausrechnen
+Achtung: Skizzen sind nicht maßstabsgerecht. Nicht nachmessen, rechnen.
+Bild: trigonometrie-e4-k1-s0-v6
+Fehler: $\dfrac{b}{\sin\alpha}$ aufgeschrieben: $b$ und $\alpha$ liegen sich nicht gegenüber.
+Fehler: Bruch verkehrt herum: Der Sinus des Winkels gegenüber der gesuchten Seite gehört nach oben.
+Fehler: Zwischenergebnis grob gerundet weitergerechnet. Lass es im Taschenrechner.
+Tisch: Runde Längen auf eine Stelle nach dem Komma.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L4-A | Seite aus einem ganzen Paar | Eine Seite und der Winkel gegenüber bilden ein \textbf{Paar}. Kennst du ein Paar ganz und dazu den Winkel gegenüber der gesuchten Seite, liefert der Sinussatz die Seite. | $b = \dfrac{a \cdot \sin\beta}{\sin\alpha}$ | trigonometrie-e4-k1-s1-v6 | trigonometrie-e4-k1-s0-v5, trigonometrie-e4-k1-s1-v7, trigonometrie-e4-k1-s2-v4, trigonometrie-e4-k1-s6-v4 | trigonometrie-e4-k1-s0-v6, trigonometrie-e4-k1-s1-v8, trigonometrie-e4-k1-s2-v5, trigonometrie-e4-k1-s6-v5 |
+| L4-B | Erst den dritten Winkel | Fehlt der Winkel, der zu einer Seite gehört, rechne ihn aus der \textbf{Winkelsumme} aus: Die drei Winkel eines Dreiecks ergeben zusammen $180^\circ$. | $\gamma = 180^\circ - \alpha - \beta$ | trigonometrie-e4-k1-s3-v4 | trigonometrie-e4-k1-s3-v5, trigonometrie-e4-k1-s3-v6, trigonometrie-e4-k1-s6-v6, trigonometrie-e4-k1-s8-v4 | trigonometrie-e4-k1-s3-v7, trigonometrie-e4-k1-s3-v8, trigonometrie-e4-k1-s3-v9, trigonometrie-e4-k1-s6-v7, trigonometrie-e4-k1-s8-v5 |
+| L4-C | Winkel aus der Figur: Nebenwinkel und Teilwinkel | Oft steht in der Skizze nicht der Winkel im Dreieck. Liegt er an einer Geraden neben dem Dreieck, nimm den \textbf{Nebenwinkel}; teilt eine Linie einen Winkel, nimm den \textbf{Unterschied}. Ein stumpfer Winkel bleibt stumpf, der Taschenrechner kennt auch $\sin 140^\circ$. | Nebenwinkel $= 180^\circ - x$ \qquad Teilwinkel $=$ ganzer Winkel $-$ anderer Teil | trigonometrie-e4-k1-s5-v4 | trigonometrie-e4-k1-s5-v5, trigonometrie-e4-k1-s4-v4, trigonometrie-e4-k1-s9-v4, trigonometrie-e4-k1-s5-v6 | trigonometrie-e4-k1-s5-v7, trigonometrie-e4-k1-s5-v8, trigonometrie-e4-k1-s4-v5, trigonometrie-e4-k1-s9-v5, trigonometrie-e4-k1-s5-v9 |
+| L4-D | Ergebnis weitergeben: Weg, Rest, Nachweis | In Sachaufgaben ist die Seite aus dem Sinussatz oft nur ein Zwischenschritt. Schreib zuerst auf, welche Strecke am Ende gefragt ist. Dann rechne die fehlende Seite aus und gib sie weiter. | Weg $=$ Teilstrecke $+$ Teilstrecke \qquad Rest $=$ ganze Seite $-$ Teilstück | trigonometrie-e4-k1-s10-v4 | trigonometrie-e4-k1-s10-v5, trigonometrie-e4-k1-s10-v6, trigonometrie-e4-k1-s7-v4, trigonometrie-e4-k1-s10-v7 | trigonometrie-e4-k1-s10-v8, trigonometrie-e4-k1-s10-v9, trigonometrie-e4-k1-s10-v10, trigonometrie-e4-k1-s7-v5, trigonometrie-e4-k1-s10-v11 |
+| L4-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | trigonometrie-e4-k1-s2-v6, trigonometrie-e4-k1-s6-v8, trigonometrie-e4-k1-s9-v6, trigonometrie-e4-k1-s10-v12 | trigonometrie-e4-k1-s2-v7, trigonometrie-e4-k1-s6-v9, trigonometrie-e4-k1-s9-v7, trigonometrie-e4-k1-s10-v13 |
 
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
