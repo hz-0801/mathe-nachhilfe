@@ -56,7 +56,14 @@ Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
     sin, cos, tan (7 · 5; Schlussstufe „erst entscheiden, dann
     rechnen“ aus Nebenplätzen) · Winkel ohne Rechnung bestimmen oder
     begründen (7 · 4) · Seite im allgemeinen Dreieck, Sinussatz
-    (2 · 2) · Symmetrie (2 · 2)
+    (2 · 2) · Symmetrie (2 · 2). Blattnamen und Stufen (Lehrer
+    11.10., gemeinsam.md „Namen“): Pythagoras – Gleichung aufstellen ·
+    Hypotenuse gesucht · Kathete gesucht · in Figuren versteckt;
+    sin, cos, tan – Gleichung aufstellen · Winkel gesucht · Seite
+    gesucht · Pythagoras oder sin, cos, tan?; Winkel – Eigenschaften
+    kennen · Innenwinkelsumme: Dreieck · Viereck · gleichschenklig:
+    zwei gleiche Winkel · rechter Winkel: begründen; Sinussatz und
+    Symmetrie: Stufen beim Nachzug nach demselben Muster.
   - Flächen: Flächeninhalt und Umfang (12 · 5)
   - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild
     (3 · 3)
@@ -257,10 +264,18 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   einzelnen Blatt. Abitur: Prüfstein je Gebiet (offen).
 - **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.):
   Überschrift = Stufenname, dahinter grau die Prüfungsjahre der Stufe
-  aus den letzten fünf, jüngstes zuerst: „geprüft 2026 · 2024 · 2022“;
-  ohne Jahr „nicht geprüft“ (Abitur: letzte fünf BB-Jahrgänge).
-  Gezählt werden Hauptplätze. Die Zahl der Jahre und die Zahl der
-  echten Aufgaben auf dem Blatt sind unabhängig.
+  aus den letzten fünf, jüngstes zuerst, mit Zählbasis: „letzte
+  5 Jahre: 2026 · 2024 · 2022“; ohne Jahr „letzte 5 Jahre: –“ (Abitur:
+  letzte fünf BB-Jahrgänge). Gezählt werden Hauptplätze; eine Stufe
+  ohne Hauptplatz (Schlussstufe, Zwischenschritt) nennt die Jahre der
+  echten Aufgaben, die den Schritt enthalten. Die Zahl der Jahre und
+  die Zahl der echten Aufgaben auf dem Blatt sind unabhängig.
+- **Schlussstufe „Pythagoras oder sin, cos, tan?“** (Lehrer 11.10.):
+  Entscheiden üben, nicht rechnen – fünf bis sechs kleine Skizzen, je
+  nur das Werkzeug ankreuzen (Pythagoras · sin, cos, tan ·
+  Winkelsumme), danach eine echte Aufgabe mit beidem. Sie darf das
+  Ende des Blatts sein; „am Ende die schwerste echte“ gilt dann für
+  die Stufe davor.
 - **Marke** grau links, mit Fundstelle (Lehrer 11.10.): „P10 ’24 · 6a“
   nur bei voller echter Aufgabe, „nach P10 ’24 · 6a“ bei gekürzten und
   herausgelösten, fremde „BY ’23 · 2b“, „VERA ’24“, „GYM ’23 · 3b“;

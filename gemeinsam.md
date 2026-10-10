@@ -56,8 +56,17 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   (ein Blatt); auf einen Blick, was das Thema bietet (10.10.).
 - Form: Bereiche als Überschrift, darunter je Blatt eine Zeile mit dem
   Namen in Schülersprache; ein Fachwort daneben nur, wenn es neu ist.
-  Kein grauer Zusatz. Rand-Blätter grau; das gelieferte Blatt ▸ fett.
-  Davor „Vorher“, danach „Weiter“ – die Nachbarthemen aus dem Katalog.
+  Kein grauer Zusatz. Rand-Blätter grau; das gelieferte Blatt ▸ fett,
+  darunter eingerückt seine Stufen. Davor „Vorher“, danach „Weiter“ –
+  die Nachbarthemen aus dem Katalog.
+- Namen (Lehrer 11.10.): Der Einheitsname ist kurz und nennt das
+  Werkzeug oder die Sache („Pythagoras“, „sin, cos, tan“, „Winkel“);
+  die Stufen nennen den Handgriff als Reihe gleicher Form in
+  Schülersprache („Gleichung aufstellen · Hypotenuse gesucht · Kathete
+  gesucht · in Figuren versteckt“). Ein Zusatz in Worten nur, wo der
+  Name allein nicht trennt: „sin, cos, tan – im rechtwinkligen
+  Dreieck“, „Sinussatz – in jedem Dreieck“; keine Formel. Übersicht,
+  Titel, Titelzeile, Stufenköpfe und Lösung sind wortgleich.
 - Kern und Rand: Rand-Blätter stehen immer in der Serie; der Lehrer
   überspringt sie bei Bedarf (07./08.10.). Rand beim Prüfungsblatt nach
   Häufigkeit in der Prüfung, beim Lernblatt nach Lehrwerk und RLP.
@@ -94,6 +103,15 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   erkennen, üben von leicht nach schwer, am Ende ohne Hilfe.
 - Jede Stufe ändert eine Sache (Zahl, Darstellung, Fragerichtung,
   Sache); die Zahlen wachsen von Kopfrechnen bis Prüfung.
+- Päckchen = Leiter im Kleinen (Lehrer 11.10.): je Teilaufgabe kommt
+  ein Merkmal dazu, in dieser Folge: Darstellung (Skizze → nur Text),
+  Zahlart (glatt → krumm, runden), Fragerichtung (vorwärts →
+  rückwärts), Einheiten (gleich → gemischt). Was die Teilaufgaben
+  unterscheidet, steht nicht als Hinweis daneben („Wähle selbst …“).
+- Skizze (Lehrer 11.10.): wenn die Figur selbst das Gelernte ist
+  (Raute, Trapez – wiedererkennen) und bei der ersten Aufgabe jeder
+  Stufe; die folgenden ohne. Eine echte Aufgabe hat die Skizze nur,
+  wenn das Original eine hat.
   Gut: 6 und 8 cm → 36 und 15 cm → √97 → Bilderrahmen. Schlecht: zwei
   Aufgaben derselben Sorte hintereinander, nur mit anderer Zahl.
 - Rückwärts- und Mischsprosse vor der Prüfungshöhe; krumme Zahlen
@@ -139,17 +157,26 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
 ## Satz
 
-- Kopf: Name des Blatts, daneben klein das Niveau („P10“, „Abitur GK“,
-  „Klasse 8“); rechts außen die Kennung klein und grau (Lehrer 11.10.,
-  vorher im Fuß); keine Blattart, kein Datum, keine Namenszeile, keine
-  laufende Titelzeile, kein Inhaltsverzeichnis.
-- Fuß jeder Seite: Seitenzahl; kopfüber und klein nur die Ergebnisse
-  der Seite (kein Rechenweg, kein Tipp; Ausnahme Lösung der
-  Abrufaufgabe); Herkunft links.
+- Kopf Seite 1: Name des Blatts, daneben klein das Niveau („P10“,
+  „Abitur GK“, „Klasse 8“); darunter eine graue Zeile mit den Stufen
+  des Blatts, wortgleich mit der Übersicht, auch bei einer Stufe
+  (Lehrer 11.10.). Jede Seite: rechts oben die Kennung klein und grau,
+  auf Folgeseiten links oben der Name klein grau (Lehrer 11.10.;
+  ersetzt „keine laufende Titelzeile“ vom 03.–08.10. – Blätter liegen
+  gemischt auf dem Tisch). Keine Blattart, kein Datum, keine
+  Namenszeile, kein Inhaltsverzeichnis.
+- Fuß jeder Seite: Seitenzahl mittig als „1/3“ (Lehrer 11.10.);
+  kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg, kein
+  Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
 - Kennung: drei Zeichen aus 2–9 und A–Z ohne I und O, gegen das
   Register eindeutig.
 - Marke grau im linken Rand auf der Grundlinie der Nummer (Formen in
-  pruefung.md „Marke“); eigene ohne Marke; Stern nur für FOR.
+  pruefung.md „Marke“); eigene ohne Marke. Stern = FOR-Niveau: bei
+  Sternchenaufgaben der OS-Hefte bis 2025 und bei Aufgaben, die ab
+  2026 nur im FOR-Heft stehen (03.10., ausgeschrieben 11.10.).
+- Nummer und Teilaufgabe in zwei Spalten: die Buchstaben a), b), c)
+  stehen untereinander, abgesetzt von der Nummer – auf dem Blatt und
+  in der Lösung (Lehrer 11.10.).
 - Eingerückt: eine Schriftstufe kleiner, schwarz, Marke grau.
 - Zwei Spalten bei Skizze, Tabelle oder Graph: Text oben über volle
   Breite; darunter links, was man ansieht, rechts, was man tut;
@@ -161,6 +188,10 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   A, B, C, D, die Lösung nennt den Buchstaben (Lehrer 11.10.; wie das
   P10-Heft); kurze Optionen (zusammen höchstens 120 Zeichen) in einer
   Zeile, sonst untereinander. Wo gerechnet wird, steht eine Lücke.
+- Lückentexte und Zuordnungen untereinander, eine Zeile je
+  Teilaufgabe, Gleichheitszeichen untereinander, die Lücke in jeder
+  Zeile an derselben Stelle; verschiedene Lückenstellen sind
+  verschiedene Aufgaben (Lehrer 11.10.).
 - Antwortfeld: kurze Antwort rechts in derselben Zeile. Keine
   vorgegebene Ergebnisform, die einen Schritt erspart (kein
   „c² = ___ , c = ___“). Rechenraum nur bei Rechen- und
@@ -204,7 +235,9 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
 - Eigene Datei; eine Regel für alle Sorten: Tabelle, je Teilaufgabe
   eine Zeile, eine Aufgabe nie über Spalte oder Seite; zweispaltig nur,
-  wenn eine Seite wegfällt.
+  wenn eine Seite wegfällt. Die Stufenköpfe des Blatts stehen
+  wortgleich in der Lösung; eine zweite Seite ist dann erlaubt
+  (Lehrer 11.10.).
 - Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage;
   Begründen: das Urteil. Rechts klein nur, was zum Ergebnis führt: je
   Handgriff ein Zwischenergebnis als Ansatz ⇒ Wert; Begründen: der

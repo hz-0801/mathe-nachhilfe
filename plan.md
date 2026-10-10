@@ -359,6 +359,15 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Messwert Bau P4Z: Agent 0,23 Mio Token, 8 min; Woche 78 → 79 %,
   Fable 42 → 44 % (mit Chat und Nacharbeit).
 
+- 11.10.2026 (b): Durchsicht der Runde Dreiecke (Lehrer): Namen und
+  Stufenreihe, Titelzeile mit Stufen, Name und Kennung auf jeder
+  Seite, Seitenzahl „1/3“ mittig, Lösung mit Stufenköpfen,
+  Buchstabenspalte, Lückentexte untereinander, Kopf „letzte 5 Jahre“,
+  Päckchen als Leiter im Kleinen ohne Hinweis, Skizzenregel,
+  Schlussstufe „Pythagoras oder sin, cos, tan?“ als Zuordnen, Stern =
+  FOR-Niveau ausgeschrieben. Agenten erst nach Go (Lehrer 11.10.).
+  Messwert Runde Dreiecke in aufgabenbank bau/befunde-M3.md.
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
@@ -405,6 +414,10 @@ Prüfung
   wenn bestellbar → P, G
 - 11.10. Kennung oben rechts; Buchstaben vor Ankreuzoptionen;
   Teilaufgabe mit Skizze eigene Zeile; Einstieg knapp → G
+- 11.10. (b) Namen und Stufenreihe, Titelzeile, Kopf jeder Seite,
+  Seitenzahl, Lösung mit Stufenköpfen, Buchstabenspalte, Lückentexte,
+  Päckchen-Staffel, Skizzenregel, Stern = FOR-Niveau → G; Kopf
+  „letzte 5 Jahre“, Schlussstufe Zuordnen, Blattnamen Dreiecke → P
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
