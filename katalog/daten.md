@@ -305,12 +305,12 @@ Tisch: Miss mit dem Lineal auf den Millimeter und mit dem Geodreieck auf das Gra
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | daten-e3-k1-s2-v8, daten-e3-k1-s6-v6, daten-e3-k1-s9-v11, daten-e3-k1-s12-v10 | daten-e3-k1-s11-v4, daten-e3-k1-s11-v5 |
 
 #### Lerneinheit 4 – Kenngrößen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung 4CR · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, Stufe E: GYM Kl. 7, OS 7–8; E2 Diagramme lesen Vorwissen)
+Stand: 2026-10-10 · Kennung 4CR · Kritiker: durch, Nachbesserung erledigt (übernommen: Formelkasten mit Modalwert und Summe = Mittel · Anzahl, Rundungsregel im Beispiel C, C4 gerundet und Kästchenwert, Strich in A4/T3) · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 7 laut Katalog, Stufe E: GYM Kl. 7, OS 7–8; E2 Diagramme lesen Vorwissen)
 Form: abschnitte
 Ziel: Durchschnittsalter aus elf Werten und begründen, warum es beim Wegfall der ältesten und der jüngsten Person bleibt (2025-OS-K6c); fehlender Wert aus Mittel und Anzahl, eintragen (2022-OS-B1d); Median aus sechs Werten (2024-OS-B1h); zwei Aussagen zu Kenngrößen prüfen und die falsche berichtigen (2025-OS-K6a); Mittel aus einem Säulendiagramm als Nachweis (2020-OS-K2c; 2026-FOR-K3b)
 Blatt: Klasse 7 · Vorher: Streifen- und Kreisdiagramm · Weiter: Diagramme beurteilen und Boxplot
 Titel: Kenngrößen
-Formel: Spannweite $=$ Max $-$ Min \qquad Mittel $=$ Summe $:$ Anzahl \newline Median $=$ Mitte der geordneten Liste
+Formel: Spannweite $=$ Max $-$ Min \qquad Modalwert $=$ häufigster Wert \newline Median $=$ Mitte der geordneten Liste \newline Mittel $=$ Summe $:$ Anzahl \qquad Summe $=$ Mittel $\cdot$ Anzahl
 In Worten: Kenngrößen fassen eine Liste in einer Zahl zusammen: wie stark die Werte schwanken (Spannweite) und welcher Wert typisch ist (Modalwert, Median, Mittel).
 Vorgehen: Werte ablesen und ordnen; zählen, wie viele es sind; Kenngröße bestimmen; mit Einheit antworten oder die Aussage prüfen
 Bild: –
