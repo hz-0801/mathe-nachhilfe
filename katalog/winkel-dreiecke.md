@@ -181,7 +181,7 @@ Vorrat; aufgabenbank `bau/bauauftrag.md`).
 Serie: Vorher: Addieren und Subtrahieren bis 360°; Vierecksarten | Winkel: Winkel messen und zeichnen; Winkel an Geradenkreuzungen und Parallelen | Dreiecke und Vierecke: Winkelsummen, Dreiecke und Vierecke; Dreiecke konstruieren; Besondere Linien im Dreieck und Satz des Thales
 
 #### Lerneinheit 2 – Winkel an Geradenkreuzungen und Parallelen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung FP6 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung FP6 · Kritiker: erledigt (Nachbesserung 10.10.: A1, A2 vier einzelne Winkelbögen statt Vollkreis; Lösung T1 „Nebenwinkel“; Lösung T5 Kette Stufenwinkel, dann Scheitelwinkel; B3 „sieh im Bild nach, auf welcher Seite“) · Lehrer: –
 Form: abschnitte
 Ziel: Nebenwinkel des Stufenwinkels $180^\circ - 53^\circ$ (2015-OS-B1d); Wechselwinkel (2020-OS-B1g); Scheitelwinkel an verlängerten Seiten mit überflüssiger Angabe (2019-OS-B1a); Teilwinkel $50^\circ - 30^\circ$ an der Kreuzung (2014-OS-B1f); Nachbarwinkel im Parallelogramm (2026-FOR-B1i) und Trapez (2021-OS-B1i, 2023-OS-K2a)
 Blatt: Klasse 7 · Vorher: Winkel messen und zeichnen · Weiter: Winkelsummen, Dreiecke und Vierecke
