@@ -21,6 +21,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Bank:** daten-e4-k1-s1 daten-e4-k1-s2 daten-e4-k1-s9 daten-e4-k1-s8
 - **Verwechselbar:** Median | Mittelwert
 - **Zuschnitt:** Kenngrößen
+  - Minimum, Maximum, Spannweite [2022-OS-K4a 2023-OS-K6c 2026-FOR-K3a 2024-OS-K2a 2025-OS-K6a]
 
 ### Median
 - **Kern:** nein – 2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen
@@ -29,12 +30,19 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Verwechselbar:** Minimum, Maximum, Spannweite | Mittelwert
 - **Zuschnitt:** Kenngrößen
 
+### Modalwert
+- **Kern:** nein – kein Original 2014–2026, nur als Teilschritt (2025-OS-K6a); Stufe aus dem Zuschnitt (Lehrer 10.10.), damit die Kette Kenngrößen vollständig ist
+- **Originale:**
+- **Bank:** –
+- **Zuschnitt:** Kenngrößen
+
 ### Mittelwert
 - **Kern:** ja – 7 echte 2015–2026 (Niveau I/II), Bank-Kette Kenngrößen
 - **Originale:** 2026-FOR-K3b 2024-OS-K2b 2021-OS-B1f 2017-OS-B1h 2016-OS-B1a 2020-OS-K2c 2015-OS-K7a
 - **Bank:** daten-e4-k1-s6 daten-e4-k1-s7 daten-e4-k1-s10 daten-e4-k1-s11 daten-e4-k1-s12 daten-e4-k4-s4 daten-e6-k2-s3
 - **Verwechselbar:** Minimum, Maximum, Spannweite | Median
 - **Zuschnitt:** Kenngrößen
+  - Mittelwert [2026-FOR-K3b 2024-OS-K2b 2025-OS-K6c]
 
 ### rückwärts: fehlender Wert
 - **Kern:** nein – 1 echte (Basisteil 2022)
@@ -46,7 +54,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Kern:** nein – 2 echte, nur 2025 (Niveau II/III)
 - **Originale:** 2025-OS-K6a 2025-OS-K6c
 - **Bank:** daten-e4-k1-s14 daten-e4-k1-s15 daten-e4-k1-s16 daten-e4-k3-s1 daten-e4-k4-s2
-- **Zuschnitt:** Kenngrößen
 
 ### Winkel berechnen und beschriften
 - **Kern:** ja – 4 echte (2017, 2021, 2022, 2024), Bank-Kette Anteile darstellen mit Grundfall
@@ -59,6 +66,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Originale:** 2025-OS-K6b 2018-OS-K3c
 - **Bank:** daten-e3-k1-s2 daten-e3-k1-s3 daten-e3-k3-s3 daten-e3-k1-s12[2025-OS-K6b]
 - **Zuschnitt:** Kreisdiagramm
+  - aus Prozent darstellen (selten geprüft, auffüllen) [] neben [2025-OS-K6b]
 
 ### ergänzen
 - **Kern:** ja – 4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall

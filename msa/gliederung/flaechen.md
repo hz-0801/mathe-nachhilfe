@@ -35,14 +35,15 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Figur erst zerlegen oder Strecke erst berechnen
 - **Kern:** ja – 6 echte (2017 zweimal, 2018, 2022, 2023, 2025), Bank-Kette Zusammengesetzte Figuren mit Grundfall
-- **Originale:** 2022-OS-K5e 2023-OS-K2c 2025-OS-B1e 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b
-- **Bank:** flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) flaechen-e4-k2-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7 kreis-e3-k1-s11[2025-OS-B1e]
+- **Originale:** 2022-OS-K5e 2023-OS-K2c 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b
+- **Bank:** flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) flaechen-e4-k2-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7
 - **Zuschnitt:** Flächeninhalt und Umfang
+  - Figur erst zerlegen oder Strecke erst berechnen [2022-OS-K5e 2023-OS-K2c]
 
 ### Anteil in Prozent (Verschnitt)
-- **Kern:** nein – 1 echte (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“
-- **Originale:** 2023-OS-K5c
-- **Bank:** flaechen-e5-k3-s1
+- **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (Basisteil 2025, leichte Vorstufe, Befund Geometrie 10.10.) und Verschnitt (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“
+- **Originale:** 2025-OS-B1e 2023-OS-K5c
+- **Bank:** kreis-e3-k1-s11[2025-OS-B1e] flaechen-e5-k3-s1
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ## Plätze der Originale
@@ -91,7 +92,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-OS-K4a | Grundfigur berechnen |  |  | Hauptplatz nach typ „Kreisfläche berechnen“ |
 | 2025-GYM-B1b | Figur erst zerlegen oder Strecke erst berechnen |  |  | Hauptplatz nach typ „Flächeninhalt zusammengesetzter Figur berechnen“ |
 | 2025-GYM-K5a | Grundfigur berechnen |  |  | Hauptplatz nach typ „Flächeninhalt Trapez berechnen“ |
-| 2025-OS-B1e | Figur erst zerlegen oder Strecke erst berechnen | prozent:Prozentsatz |  | Hauptplatz nach typ „Kreissektor Anteil berechnen“. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6) |
+| 2025-OS-B1e | Anteil in Prozent (Verschnitt) | prozent:Prozentsatz |  | Hauptplatz nach Befund Geometrie 10.10.: nur 145 : 360, nichts wird zerlegt, keine Strecke. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6) |
 | 2025-OS-B1i | Formel oder Term zur Figur |  |  | Hauptplatz nach typ „Term zu Figur angeben“ |
 | 2025-OS-K2b | Grundfigur berechnen |  |  | Hauptplatz nach typ „Flächeninhalt Drachenviereck berechnen“ |
 | 2026-EBR-B1h | Grundfigur berechnen |  |  | EBR-Zwilling von 2026-FOR-B1h |

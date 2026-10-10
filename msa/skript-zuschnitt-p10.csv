@@ -4,9 +4,9 @@ Geometrie;Dreiecke;Länge mit Pythagoras;Hypotenuse gesucht;2025-OS-K4a;
 Geometrie;Dreiecke;Länge mit Pythagoras;Kathete gesucht;2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a;
 Geometrie;Dreiecke;Länge mit Pythagoras;Dreieck versteckt;2026-FOR-K2c 2022-OS-K2c;2025-OS-K2a
 Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Seitenverhältnis benennen;2025-OS-B1g;
-Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Winkel berechnen;2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b;
-Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Seite berechnen;2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b;
-Geometrie;Dreiecke;Pythagoras oder Winkelfunktion?;gemischt, ohne Überschrift je Aufgabe;;2022-OS-K5a 2022-OS-K5b 2024-OS-K6a 2024-OS-K6b 2026-FOR-K4a 2026-FOR-K4b
+Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Winkel berechnen;2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b;2025-OS-K4a
+Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Seite berechnen;2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b;2022-OS-K5e 2023-OS-K2c
+Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;erst entscheiden, dann rechnen;;2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2025-OS-K4a
 Geometrie;Dreiecke;Seite im allgemeinen Dreieck (Sinussatz);Seite berechnen;2024-OS-K6d 2025-OS-K4c;
 Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;Eigenschaft erkennen;2026-FOR-B1c;
 Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;Winkelsumme;2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i;
@@ -16,33 +16,34 @@ Geometrie;Dreiecke;Symmetrie;Symmetrieachsen zählen;2022-OS-B1i 2025-OS-K2a;
 Geometrie;Flächen;Flächeninhalt und Umfang;Formel oder Term zur Figur;2022-OS-B1e 2024-OS-B1c 2025-OS-B1i;
 Geometrie;Flächen;Flächeninhalt und Umfang;Grundfigur berechnen;2026-FOR-B1h 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b;
 Geometrie;Flächen;Flächeninhalt und Umfang;rückwärts: Seite aus Fläche;2023-OS-B1c;
-Geometrie;Flächen;Flächeninhalt und Umfang;Figur erst zerlegen oder Strecke erst berechnen;2022-OS-K5e 2023-OS-K2c 2025-OS-B1e;
-Geometrie;Flächen;Flächeninhalt und Umfang;Anteil in Prozent (Verschnitt);2023-OS-K5c;
+Geometrie;Flächen;Flächeninhalt und Umfang;Figur erst zerlegen oder Strecke erst berechnen;2022-OS-K5e 2023-OS-K2c;
+Geometrie;Flächen;Flächeninhalt und Umfang;Anteil in Prozent (Verschnitt);2025-OS-B1e 2023-OS-K5c;
 Geometrie;Körper;Volumen und Oberfläche;Volumen direkt;2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a;
-Geometrie;Körper;Volumen und Oberfläche;rückwärts: Radius oder Höhe aus Volumen;2022-OS-K2d 2023-OS-K5d;
 Geometrie;Körper;Volumen und Oberfläche;Restvolumen;2024-OS-K4c;
 Geometrie;Körper;Volumen und Oberfläche;Mantelfläche mit Kosten;2026-FOR-K2b;
+Geometrie;Körper;Volumen und Oberfläche;rückwärts: Radius oder Höhe aus Volumen;2022-OS-K2d 2023-OS-K5d;
 Geometrie;Körper;Volumen und Oberfläche;vergleichen und urteilen;2026-FOR-K2d;
 Geometrie;Körper;Netz und Schrägbild;Netz erkennen;2022-OS-K2a;
 Geometrie;Körper;Netz und Schrägbild;Netz mit Maßen skizzieren;2023-OS-K5a;
 Geometrie;Körper;Netz und Schrägbild;Körper im Schrägbild skizzieren;2024-OS-K4b;
 Funktionen;Lineare;Gerade zeichnen und ablesen;erkennen und ablesen;2025-OS-B1f 2024-OS-B1i;
 Funktionen;Lineare;Gerade zeichnen und ablesen;aus Gleichung zeichnen;2024-OS-K3a 2026-FOR-K5a 2022-OS-K3a;
-Funktionen;Lineare;Gerade zeichnen und ablesen;durch zwei Punkte, Gleichung ablesen;2025-OS-K5a;
 Funktionen;Lineare;Gerade zeichnen und ablesen;zeichnen und Aussagen prüfen;2023-OS-K4a;
-Funktionen;Lineare;Liegt der Punkt auf dem Graphen?;ankreuzen;2023-OS-B1i;
-Funktionen;Lineare;Liegt der Punkt auf dem Graphen?;rechnerisch an Gerade und Parabel;2026-FOR-K5b 2024-OS-K3c;
+Funktionen;Lineare;Gerade zeichnen und ablesen;durch zwei Punkte, Gleichung ablesen;2025-OS-K5a;
+Funktionen;Lineare;Einsetzen: Punktprobe und Lösung prüfen;Lösung prüfen;2025-OS-B1h;
+Funktionen;Lineare;Einsetzen: Punktprobe und Lösung prüfen;ankreuzen;2023-OS-B1i;
+Funktionen;Lineare;Einsetzen: Punktprobe und Lösung prüfen;rechnerisch an der Geraden;2026-FOR-K5b;
+Funktionen;Lineare;Einsetzen: Punktprobe und Lösung prüfen;rechnerisch an der Parabel;2024-OS-K3c;
 Funktionen;Lineare;Lineare Funktion im Sachzusammenhang;Endwert berechnen;2022-OS-K6a;
-Funktionen;Lineare;Lineare Funktion im Sachzusammenhang;Graph zum Tarif zuordnen;2023-OS-K3a;
 Funktionen;Lineare;Lineare Funktion im Sachzusammenhang;Gleichung aufstellen und rückwärts rechnen;2022-OS-K6b;
+Funktionen;Lineare;Lineare Funktion im Sachzusammenhang;Graph zum Tarif zuordnen;2023-OS-K3a;
 Funktionen;Lineare;Lineare Funktion im Sachzusammenhang;Tarife vergleichen;2023-OS-K3b;
 Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Wertetabelle zuordnen;2026-FOR-B1e;
-Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Scheitelpunkt ablesen;2022-OS-K3b 2026-FOR-K5c;
-Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Punkt auf der Parabel prüfen;;2024-OS-K3c
-Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Scheitelpunktform angeben;2023-OS-K4b 2025-OS-K5b;
+Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Scheitelpunkt ablesen;2022-OS-K3b 2026-FOR-K5c 2023-OS-K4b 2025-OS-K5b;
 Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Parabel skizzieren;2024-OS-K3b;
+Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Punkt auf der Parabel prüfen;;2024-OS-K3c
+Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Scheitelpunktform angeben;;
 Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Lage zweier Parabeln ohne Rechnung begründen;2026-FOR-K5d;
-Funktionen;Quadratische;Quadratische Gleichung lösen;Lösung prüfen;2025-OS-B1h;
 Funktionen;Quadratische;Quadratische Gleichung lösen;Nullstellen berechnen;2025-OS-K5c;
 Funktionen;Quadratische;Quadratische Gleichung lösen;x zu gegebenem y;2023-OS-K4c;
 Funktionen;Quadratische;Quadratische Gleichung lösen;Gerade und Parabel gleichsetzen;2022-OS-K3c 2024-OS-K3d;

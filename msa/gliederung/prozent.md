@@ -34,6 +34,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Bank:** prozentrechnung-e2-k3-s5 prozentrechnung-e2-k3-s6 prozentrechnung-e2-k3-s7 prozentrechnung-e2-k3-s9 prozentrechnung-e2-k5-s4
 - **Verwechselbar:** Prozentwert | Grundwert | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Prozent
+  - Prozentsatz [2023-OS-K6a 2023-OS-K6b 2025-OS-K4b 2025-OS-K6b] neben [2023-OS-K5c]
 
 ### Grundwert
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
@@ -41,6 +42,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
 - **Verwechselbar:** Prozentwert | Prozentsatz | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Prozent
+  - Grundwert (erst erkennen: Ganzes oder Teil?) [2023-OS-B1b 2025-OS-B1a]
 
 ### Erhöhung und Veränderung in Prozent
 - **Kern:** ja – 8 echte, die meisten der Prüfung (Niveau I/II), Bank-Einheit 5 mit Grundfall
@@ -48,19 +50,18 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Bank:** prozentrechnung-e5-k2-s3 prozentrechnung-e5-k2-s4 prozentrechnung-e5-k2-s5 prozentrechnung-e5-k2-s6 prozentrechnung-e5-k2-s8 prozentrechnung-e5-k2-s9[2026-FOR-K3c,2022-OS-K4b,2016-OS-K2c,2024-OS-B1e,2015-OS-K2b] prozentrechnung-e5-k3-s4
 - **Verwechselbar:** Prozentwert | Prozentsatz | Grundwert
 - **Zuschnitt:** Prozent
+  - Wert nach Erhöhung [2024-OS-B1e]
+  - Veränderung in Prozent [2022-OS-K4b 2026-FOR-K3c]
 
 ### Aussagen prüfen
 - **Kern:** nein – 4 echte, aber Niveau II und nur als Prüfungshöhe auf Prozentsatz gesetzt (keine eigene Kette mit Grundfall)
 - **Originale:** 2023-OS-K6b 2025-OS-K4b 2017-OS-K2b 2019-OS-K5b
 - **Bank:** prozentrechnung-e1-k1-s8[2023-OS-K6b,2019-OS-K5b,2017-OS-K2b,2021-OS-K5b] prozentrechnung-e1-k3-s4 prozentrechnung-e5-k2-s7 prozentrechnung-e5-k2-s9[2025-OS-K4b]
-- **Zuschnitt:** Prozent
 
 ### Prozent aus einer berechneten Fläche
 - **Kern:** nein – 1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie
 - **Originale:** 2023-OS-K5c
 - **Bank:** –
-- **Zuschnitt:** Prozent
-  - Prozent aus einer berechneten Fläche [] neben [2023-OS-K5c]
 
 ### Zinsen und Zinssatz
 - **Kern:** nein – 3 echte, zuletzt 2015, seit 2016 nicht geprüft, Zuschnitt 2022–2026 führt keine Zins-Stufe

@@ -32,6 +32,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Originale:** 2024-OS-K5b 2026-FOR-K6b 2020-OS-K6c 2019-OS-K6b 2015-OS-K7d 2014-OS-K6b
 - **Bank:** wahrscheinlichkeit-e3-k3-s1 wahrscheinlichkeit-e3-k3-s2 wahrscheinlichkeit-e3-k3-s11 wahrscheinlichkeit-e3-k4-s3 wahrscheinlichkeit-e4-k1-s2 wahrscheinlichkeit-e4-k1-s6
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+  - Baum ergänzen (Bank: reine Baum-Sprossen davor) [2024-OS-K5b 2026-FOR-K6b]
 
 ### Pfadregel
 - **Kern:** ja – 4 echte (2014, 2020, 2025 zweimal), Bank-Kette Mit Zurücklegen

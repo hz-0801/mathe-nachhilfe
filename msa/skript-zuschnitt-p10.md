@@ -13,13 +13,11 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Kathete gesucht – 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete), 2022-OS-K5a (Pythagoras Kathete)
 - neu: Dreieck versteckt – 2026-FOR-K2c (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
 
-#### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE
+#### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE · dazu 7 aus anderen Abschnitten
 - neu: Seitenverhältnis benennen – 2025-OS-B1g (Winkelfunktion Seitenverhältnis angeben)
-- neu: Winkel berechnen – 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen)
-- neu: Seite berechnen – 2022-OS-K5d (Seite im rechtwinkligen Dreieck berechnen), 2026-FOR-K4c (Seite im rechtwinkligen Dreieck berechnen), 2023-OS-K7b (Seite im rechtwinkligen Dreieck berechnen)
-
-#### Pythagoras oder Winkelfunktion? – keine eigenen Teilaufgaben · dazu 6 aus anderen Abschnitten
-- neu: gemischt, ohne Überschrift je Aufgabe – 2022-OS-K5a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“), 2024-OS-K6a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“), 2026-FOR-K4a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen; kennst du aus „Seite oder Winkel mit sin, cos, tan“)
+- neu: Winkel berechnen – 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen), 2025-OS-K4a (Pythagoras Hypotenuse; kennst du aus „Länge mit Pythagoras“)
+- neu: Seite berechnen – 2022-OS-K5d (Seite im rechtwinkligen Dreieck berechnen), 2026-FOR-K4c (Seite im rechtwinkligen Dreieck berechnen), 2023-OS-K7b (Seite im rechtwinkligen Dreieck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen; kennst du aus „Flächeninhalt und Umfang“), 2023-OS-K2c (Umfang Trapez berechnen; kennst du aus „Flächeninhalt und Umfang“)
+- neu: erst entscheiden, dann rechnen – 2022-OS-K5a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2024-OS-K6a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2026-FOR-K4a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2025-OS-K4a (Pythagoras Hypotenuse; kennst du aus „Länge mit Pythagoras“)
 
 #### Seite im allgemeinen Dreieck (Sinussatz) – 2 · 2 J · zuletzt 2025 · 7 BE
 - neu: Seite berechnen – 2024-OS-K6d (Sinussatz Seite berechnen), 2025-OS-K4c (Sinussatz Seite berechnen)
@@ -39,16 +37,16 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Formel oder Term zur Figur – 2022-OS-B1e (Term zu Figur angeben), 2024-OS-B1c (Term zu Figur angeben), 2025-OS-B1i (Term zu Figur angeben)
 - neu: Grundfigur berechnen – 2026-FOR-B1h (Umfang Rechteck berechnen), 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen)
 - neu: rückwärts: Seite aus Fläche – 2023-OS-B1c (Rechteckseite aus Fläche berechnen)
-- neu: Figur erst zerlegen oder Strecke erst berechnen – 2022-OS-K5e (Flächeninhalt Dreieck berechnen), 2023-OS-K2c (Umfang Trapez berechnen), 2025-OS-B1e (Kreissektor Anteil berechnen)
-- neu: Anteil in Prozent (Verschnitt) – 2023-OS-K5c (Verschnitt in Prozent berechnen)
+- neu: Figur erst zerlegen oder Strecke erst berechnen – 2022-OS-K5e (Flächeninhalt Dreieck berechnen), 2023-OS-K2c (Umfang Trapez berechnen)
+- neu: Anteil in Prozent (Verschnitt) – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen)
 
 ### Kapitel Körper
 
 #### Volumen und Oberfläche – 9 · 4 J · zuletzt 2026 · 22 BE
 - neu: Volumen direkt – 2026-FOR-B1f (Volumen Würfel berechnen), 2022-OS-K2b (Volumen Zylinder berechnen), 2023-OS-K5b (Volumen Zylinder berechnen), 2026-FOR-K2a (Volumen Zylinder berechnen)
-- neu: rückwärts: Radius oder Höhe aus Volumen – 2022-OS-K2d (Radius eines Zylinders aus Volumen berechnen), 2023-OS-K5d (Höhe eines Zylinders aus Volumen berechnen)
 - neu: Restvolumen – 2024-OS-K4c (Restvolumen berechnen)
 - neu: Mantelfläche mit Kosten – 2026-FOR-K2b (Mantelfläche Kegel berechnen)
+- neu: rückwärts: Radius oder Höhe aus Volumen – 2022-OS-K2d (Radius eines Zylinders aus Volumen berechnen), 2023-OS-K5d (Höhe eines Zylinders aus Volumen berechnen)
 - neu: vergleichen und urteilen – 2026-FOR-K2d (Volumen Kegel und Zylinder vergleichen)
 
 #### Netz und Schrägbild – 3 · 3 J · zuletzt 2024 · 10 BE
@@ -63,31 +61,32 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 #### Gerade zeichnen und ablesen – 7 · 5 J · zuletzt 2026 · 18 BE
 - neu: erkennen und ablesen – 2025-OS-B1f (Graph einer linearen Funktion erkennen), 2024-OS-B1i (y-Achsenabschnitt ablesen)
 - neu: aus Gleichung zeichnen – 2024-OS-K3a (Gerade aus Gleichung zeichnen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen), 2022-OS-K3a (Gerade aus Gleichung zeichnen)
-- neu: durch zwei Punkte, Gleichung ablesen – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
 - neu: zeichnen und Aussagen prüfen – 2023-OS-K4a (Gerade aus Gleichung zeichnen)
+- neu: durch zwei Punkte, Gleichung ablesen – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
 
-#### Liegt der Punkt auf dem Graphen? – 3 · 3 J · zuletzt 2026 · 5 BE
+#### Einsetzen: Punktprobe und Lösung prüfen – 4 · 4 J · zuletzt 2026 · 6 BE
+- neu: Lösung prüfen – 2025-OS-B1h (Lösung durch Einsetzen prüfen)
 - neu: ankreuzen – 2023-OS-B1i (Punktprobe durchführen)
-- neu: rechnerisch an Gerade und Parabel – 2026-FOR-K5b (Punktprobe durchführen), 2024-OS-K3c (Punktprobe durchführen)
+- neu: rechnerisch an der Geraden – 2026-FOR-K5b (Punktprobe durchführen)
+- neu: rechnerisch an der Parabel – 2024-OS-K3c (Punktprobe durchführen)
 
 #### Lineare Funktion im Sachzusammenhang – 4 · 2 J · zuletzt 2023 · 12 BE
 - neu: Endwert berechnen – 2022-OS-K6a (Endwert linearer Veränderung berechnen)
-- neu: Graph zum Tarif zuordnen – 2023-OS-K3a (Graph zu Tarif zuordnen)
 - neu: Gleichung aufstellen und rückwärts rechnen – 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen)
+- neu: Graph zum Tarif zuordnen – 2023-OS-K3a (Graph zu Tarif zuordnen)
 - neu: Tarife vergleichen – 2023-OS-K3b (Tarife vergleichen)
 
 ### Kapitel Quadratische
 
 #### Parabel: Scheitelpunkt und Skizze – 7 · 5 J · zuletzt 2026 · 12 BE · dazu 1 aus anderen Abschnitten
 - neu: Wertetabelle zuordnen – 2026-FOR-B1e (Wertetabelle einer Funktion zuordnen)
-- neu: Scheitelpunkt ablesen – 2022-OS-K3b (Scheitelpunkt ablesen), 2026-FOR-K5c (Scheitelpunkt ablesen)
-- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Liegt der Punkt auf dem Graphen?“)
-- neu: Scheitelpunktform angeben – 2023-OS-K4b (Scheitelpunkt ablesen), 2025-OS-K5b (Scheitelpunkt ablesen)
+- neu: Scheitelpunkt ablesen – 2022-OS-K3b (Scheitelpunkt ablesen), 2026-FOR-K5c (Scheitelpunkt ablesen), 2023-OS-K4b (Scheitelpunkt ablesen), 2025-OS-K5b (Scheitelpunkt ablesen)
 - neu: Parabel skizzieren – 2024-OS-K3b (Parabel aus Gleichung skizzieren)
+- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Einsetzen: Punktprobe und Lösung prüfen“)
+- neu: Scheitelpunktform angeben – 
 - neu: Lage zweier Parabeln ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
-#### Quadratische Gleichung lösen – 5 · 4 J · zuletzt 2025 · 16 BE
-- neu: Lösung prüfen – 2025-OS-B1h (Lösung durch Einsetzen prüfen)
+#### Quadratische Gleichung lösen – 4 · 4 J · zuletzt 2025 · 15 BE
 - neu: Nullstellen berechnen – 2025-OS-K5c (Nullstellen quadratische Funktion berechnen)
 - neu: x zu gegebenem y – 2023-OS-K4c (Argument zu Funktionswert berechnen)
 - neu: Gerade und Parabel gleichsetzen – 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen)
@@ -170,5 +169,3 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 #### Dreisatz – 4 · 3 J · zuletzt 2024 · 5 BE
 - neu: Dreisatz – 2022-OS-B1b (Proportionale Zuordnung Dreisatz), 2023-OS-B1a (Proportionale Zuordnung Dreisatz), 2024-OS-K2d (Kosten aus Menge und Preis berechnen), 2024-OS-K6c (Dauer aus Menge und Rate berechnen)
-
-Mehr Neben- als Hauptplätze: Pythagoras oder Winkelfunktion?.

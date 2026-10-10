@@ -22,12 +22,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Verwechselbar:** Mantelfläche mit Kosten
 - **Zuschnitt:** Volumen und Oberfläche
 
-### rückwärts: Radius oder Höhe aus Volumen
-- **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
-- **Originale:** 2022-OS-K2d 2023-OS-K5d
-- **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
-- **Zuschnitt:** Volumen und Oberfläche
-
 ### Restvolumen
 - **Kern:** nein – 1 echte (2024)
 - **Originale:** 2024-OS-K4c
@@ -39,6 +33,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Originale:** 2026-FOR-K2b 2018-OS-K6b
 - **Bank:** koerper-e4-k2-s6(i) koerper-e4-k2-s7(i) pyramide-kegel-kugel-e2-k2-s7(i) pyramide-kegel-kugel-e2-k2-s8(i) pyramide-kegel-kugel-e1-k5-s7(i) pyramide-kegel-kugel-e2-k2-s13 pyramide-kegel-kugel-e1-k5-s15
 - **Verwechselbar:** Volumen direkt
+- **Zuschnitt:** Volumen und Oberfläche
+
+### rückwärts: Radius oder Höhe aus Volumen
+- **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
+- **Originale:** 2022-OS-K2d 2023-OS-K5d
+- **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
 - **Zuschnitt:** Volumen und Oberfläche
 
 ### vergleichen und urteilen
