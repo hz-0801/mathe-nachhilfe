@@ -244,7 +244,7 @@ Tisch: Trage bei jeder Parabel zuerst den Scheitel ein.
 | L2-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 25 Minuten. | – | – | quadratische-funktionen-e2-k1-s2-v7, quadratische-funktionen-e2-k1-s7-v9, quadratische-funktionen-e2-k1-s4-v6, quadratische-funktionen-e2-k1-s15-v4, quadratische-funktionen-e2-k1-s12-v8, quadratische-funktionen-e2-k2-s4-v8 | quadratische-funktionen-e2-k1-s2-v8, quadratische-funktionen-e2-k1-s15-v5, quadratische-funktionen-e2-k2-s4-v9 |
 
 #### Lerneinheit 3 – Normalform (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung 7P7 · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung 7P7 · Kritiker: durch, erledigt (übernommen: A3d p bestimmen, D4 zweiteilig, T6 Breite 4 m, Beschriftung C1 und Beispiel A neben der Kurve) · Lehrer: –
 Form: abschnitte
 Ziel: Normalform als Behauptung nachweisen (2017-OS-K5d); Scheitel einer Normalform-Parabel am Graphen ablesen und die Scheitelpunktform notieren (2018-OS-K5b/c, 2025-OS-K5b); Aussagen zur Parabel beurteilen (2018-OS-K5a); Paare aus Scheitelpunkt- und Normalform vergleichen; Parabel zu Eigenschaften in der Normalform (nach 2018-OS-K5d)
 Blatt: Klasse 9 · Vorher: Scheitelpunktform · Weiter: Nullstellen und Schnittpunkte
