@@ -23,8 +23,11 @@ aufgabenbank bank.md. Regeln werden mit Namen zitiert.
 ## 2 P10: Zuschnitt der Einheiten
 
 Geprüft 10.10. (drei Fable-Kritiker, Befunde msa/befund-zuschnitt-*.md,
-eingetragen in msa/gliederung/*.md); wird vom Lehrer festgelegt, dann
-gilt er für jeden Bau (plan.md § 9). Quelle: msa/skript-zuschnitt-p10.md
+eingetragen in msa/gliederung/*.md); festgelegt vom Lehrer 10.10.,
+gilt für jeden Bau (plan.md § 9, § 11). Umbau ist billig: Zeile in
+der Gliederungsdatei ändern, gliederung-sichten.py und
+skript-zuschnitt.py laufen lassen; nur schon gebaute Einheiten wären
+neu zu bauen. Quelle: msa/skript-zuschnitt-p10.md
 (erzeugt aus msa/gliederung/*.md über gliederung-sichten.py und
 skript-zuschnitt.py; nie von Hand ändern – Änderungen in die
 Gliederungsdateien).

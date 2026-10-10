@@ -210,7 +210,8 @@ vollständig, dann ordnen, dann bauen.
    Sorten, Skript, Übersicht, Bank als Ergänzung (Linie 4), Linie 9;
    Rest als Register § 11. Schritt 1 erledigt.
 2. Datei der Sorte Prüfung aus offen.html (geordnet, Überholtes raus);
-   am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9);
+   am Anfang den P10-Zuschnitt der Einheiten festlegen (§ 9) –
+   erledigt 10.10.;
    Gemeinsames markiert und in die gemeinsame Datei (Linie 5).
 3. Dann Bestand ordnen (welche Dateien gelten, Rest ins Archiv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
@@ -313,6 +314,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Fünf-Minuten-Test gestrichen; Schritt 1 erledigt (Lehrer).
 - 10.10.2026 (j): Lieferliste je Schüler per Skript; bankblatt v5.9
   (Lehrer).
+- 10.10.2026 (n): P10-Zuschnitt festgelegt (Lehrer: „go“, nach der
+  Auskunft, dass ein Umbau billig ist – Zeile in msa/gliederung/*.md
+  ändern, zwei Skripte, kein Modell; nur schon gebaute Einheiten
+  wären neu zu bauen). Gilt für jeden Bau; Änderung nur, wenn ein
+  Blatt dagegen spricht (Linie 9).
 - 10.10.2026 (m): P10-Zuschnitt vollständig geprüft (Geometrie,
   Funktionen, Daten + Zufall) und in die Gliederung eingetragen; kein
   Blatt „Pythagoras oder Winkelfunktion“, Einsetzen eigenes Blatt
@@ -360,6 +366,8 @@ Prüfung
 - 07.10. GYM-Hefte sind keine P10; GYM nur bei Lücke, Marke
   „GYM ’xx“ → P
 - 04.10. Fundstellen-Liste am Blattende → P
+- 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
+  (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
   aussehend und Kern; Länge Richtwert, keine Seitenzahl → P
 - 04.10. Original: Heftseiten unverändert, Schnitt an
