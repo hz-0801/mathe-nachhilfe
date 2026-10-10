@@ -143,8 +143,9 @@ Zielmarke: Einheit 1 – den markierten Anteil eines in ungleich große Sektoren
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
 
 ### Thema-Weg
-Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung QG4); geprüft
-beim Bau von Lerneinheit 2 (A5D), 3 (FS9) und 4 (DXZ); wird mit jedem weiteren Bau geprüft.
+Stand: 2026-10-10, endgültig: erster Bau (Lerneinheit 1, Kennung QG4);
+geprüft beim Bau von Lerneinheit 2 (A5D), 3 (FS9), 4 (DXZ) und 5 (HMF,
+letzte Einheit); Vorher-Check und Probetest des Themas unten.
 
 Folge | Grund für die Stelle:
 1. Bruch als Anteil (Lerneinheit 1) | Ablesen, Einzeichnen, ungleiche
@@ -174,7 +175,28 @@ Folge | Grund für die Stelle:
    weit, wie eine Sache es braucht (Zeiten, Gramm).
 5. Vergleichen, Ordnen, Runden (Lerneinheit 5) | Zuletzt, weil die
    Prüfungsformen alle Darstellungen mischen (Bruch, Dezimalzahl,
-   Prozent, Potenz, Wurzel).
+   Prozent, Potenz, Wurzel). Bau HMF: stellenweise vergleichen und
+   ordnen (Nullen anhängen) → runden (auch Übertrag, Cent) → Zahl
+   dazwischen und Mitte (ohne Komma rechnen, halber Abstand) → Bruch,
+   Prozent und Quadrat erst in Dezimalzahlen, dann vergleichen. Das
+   Vergleichen steht vor dem Umwandeln, weil jede gemischte Aufgabe
+   am Ende ein Dezimalvergleich ist; Runden vor der Mitte, weil es nur
+   den Stellenwert braucht. Negative Zahlen und Wurzeln bleiben Vorrat
+   der Nachbareinträge (Kl. 6 allein).
+
+Vorher-Check (Zone): brueche-dezimalzahlen-zone-f1-v3, brueche-dezimalzahlen-zone-f2-v1,
+brueche-dezimalzahlen-zone-f3-v1, brueche-dezimalzahlen-zone-f4-v3,
+brueche-dezimalzahlen-zone-f5-v2, brueche-dezimalzahlen-zone-f6-v3,
+brueche-dezimalzahlen-zone-f7-v4
+Probetest (Originale, gemischt, schwerste zuletzt; endgültig mit HMF,
+10.10.2026 – alle 17 Originale des Themas; erst Anteil und Bruchteil
+aus 1, dann Kürzen mit Prozent (2) und die Zahl zwischen zwei Brüchen
+(3), dann Darstellungen vergleichen und Mitte (4–5), der Kreis mit
+ungleichen Sektoren als einzige Niveau-II-Aufgabe am Ende):
+2017-OS-B1a, 2021-OS-B1b, 2022-OS-B1a, 2023-OS-B1d, 2025-OS-B1c,
+2026-FOR-B1b, 2024-OS-B1b, 2018-OS-B1a, 2015-OS-B1h, 2014-OS-B1i,
+2014-OS-B1c, 2018-OS-B1d, 2023-OS-B1f, 2020-OS-B1f, 2015-OS-B1c,
+2014-OS-B1h, 2019-OS-B1c
 
 ### Lernweg
 Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
@@ -270,3 +292,23 @@ Tisch: Ohne Taschenrechner; schriftlich teilen nur durch einstellige Zahlen.
 | L4-C | Bruch und Dezimalzahl: erweitern und kürzen | Lässt sich der Nenner auf 10, 100 oder 1000 erweitern, wird der Bruch ein Zehnerbruch – den schreibst du wie in A. Umgekehrt schreibst du die Dezimalzahl als Zehnerbruch und kürzt. | Nenner 2, 5 $\to$ 10 \qquad Nenner 4, 20, 25, 50 $\to$ 100 \par\vspace{4pt} $\dfrac{3}{4} = \dfrac{75}{100} = 0{,}75$ \qquad $0{,}6 = \dfrac{6}{10} = \dfrac{3}{5}$ | brueche-dezimalzahlen-e4-k1-s5-v4 | brueche-dezimalzahlen-e4-k1-s5-v5, brueche-dezimalzahlen-e4-k1-s5-v6, brueche-dezimalzahlen-e4-k1-s6-v4, brueche-dezimalzahlen-e4-k4-s3-v4, brueche-dezimalzahlen-e4-k4-s4-v8 | brueche-dezimalzahlen-e4-k1-s5-v7, brueche-dezimalzahlen-e4-k1-s5-v8, brueche-dezimalzahlen-e4-k1-s6-v5, brueche-dezimalzahlen-e4-k4-s3-v5, brueche-dezimalzahlen-e4-k4-s4-v9 |
 | L4-D | Teilen: Zähler durch Nenner, auch periodisch | Passt kein Zehnerbruch, teilst du den Zähler durch den Nenner; geht es nicht auf, hängst du hinter dem Komma Nullen an. Kommt derselbe Rest immer wieder, wiederholen sich die Ziffern ohne Ende: Die Zahl ist \textbf{periodisch} und bekommt einen Strich. | $\dfrac{Z}{N} = Z : N$ \qquad $\dfrac{1}{3} = 0{,}333\ldots = 0{,}\overline{3}$ \par\vspace{4pt} Strich nur über die Ziffern, die sich wiederholen: $\dfrac{1}{6} = 0{,}1666\ldots = 0{,}1\overline{6}$ | brueche-dezimalzahlen-e4-k1-s7-v4 | brueche-dezimalzahlen-e4-k1-s7-v5, brueche-dezimalzahlen-e4-k1-s7-v6, brueche-dezimalzahlen-e4-k1-s8-v4, brueche-dezimalzahlen-e4-k4-s2-v4, brueche-dezimalzahlen-e4-k4-s4-v10 | brueche-dezimalzahlen-e4-k1-s7-v7, brueche-dezimalzahlen-e4-k1-s7-v8, brueche-dezimalzahlen-e4-k1-s8-v5, brueche-dezimalzahlen-e4-k4-s2-v5, brueche-dezimalzahlen-e4-k4-s4-v11 |
 | L4-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e4-k1-s3-v6, brueche-dezimalzahlen-e4-k1-s4-v9, brueche-dezimalzahlen-e4-k1-s6-v6, brueche-dezimalzahlen-e4-k1-s8-v6, brueche-dezimalzahlen-e4-k4-s2-v6, brueche-dezimalzahlen-e4-k4-s4-v12 | brueche-dezimalzahlen-e4-k1-s3-v7, brueche-dezimalzahlen-e4-k4-s4-v13 |
+
+#### Lerneinheit 5 – Vergleichen, Ordnen, Runden (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung HMF · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 6 laut Katalog)
+Form: abschnitte
+Ziel: P10-Typen „Zahlen in verschiedenen Darstellungen vergleichen“ (2023-OS-B1f: kleinster Wert aus Dezimalzahl, Quadrat und Prozent; 2018-OS-B1d: Prozent gegen Dezimalzahl; 2015-OS-B1c: wahre Ungleichung) und „Mitte zweier Zahlen“ (2020-OS-B1f), alle Niveau I; negative Zahlen und Wurzeln nur im Vorrat der Bank (rationale-zahlen.md, potenzen-wurzeln.md). Ziele aus Sachen: wer bekommt Silber beim Schwimmen? reicht das Geld für den gerundeten Bon? liegt der Rastplatz vor oder hinter der Bank in der Mitte? in welcher Klasse fahren anteilig die meisten Rad? welcher Krug ist am wenigsten süß?
+Blatt: Klasse 6 · Vorher: Dezimalzahlen · Weiter: Rechnen mit Brüchen (Bruchrechnung)
+Titel: Vergleichen, Ordnen, Runden
+Formel: $0{,}1 = \dfrac{1}{10}$ \qquad $0{,}01 = \dfrac{1}{100}$ \qquad $0{,}001 = \dfrac{1}{1000}$
+In Worten: Jede Stelle nach rechts ist zehnmal kleiner als die davor.
+Fehler: Nach der Länge verglichen: $2{,}09$ ist nicht größer als $2{,}1$, auch wenn $9 > 1$ ist.
+Fehler: Quadrat verdoppelt: $0{,}4^2$ ist nicht $0{,}8$, sondern $0{,}4 \cdot 0{,}4 = 0{,}16$.
+Tisch: Ohne Taschenrechner.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L5-A | Vergleichen und ordnen | Hänge Nullen an, bis beide Zahlen gleich viele Stellen nach dem Komma haben – das ändert den Wert nicht. Dann vergleichst du Stelle für Stelle von links: Die erste Stelle, an der sie sich unterscheiden, entscheidet. | $3{,}7 = 3{,}70 = 3{,}700$ \par\vspace{4pt} $3{,}70 > 3{,}68$, \ denn 7 Zehntel $>$ 6 Zehntel | brueche-dezimalzahlen-e5-k2-s4-v4 | brueche-dezimalzahlen-e5-k2-s1-v6, brueche-dezimalzahlen-e5-k2-s3-v4, brueche-dezimalzahlen-e5-k2-s4-v5, brueche-dezimalzahlen-e5-k2-s4-v6, brueche-dezimalzahlen-e5-k2-s4-v7 | brueche-dezimalzahlen-e5-k2-s1-v7, brueche-dezimalzahlen-e5-k2-s4-v8, brueche-dezimalzahlen-e5-k2-s4-v9, brueche-dezimalzahlen-e5-k2-s4-v10 |
+| L5-B | Runden | Beim Runden entscheidet die Ziffer rechts von der Rundungsstelle: Bei 0 bis 4 bleibt die Rundungsstelle, bei 5 bis 9 wird sie um 1 größer; alles dahinter fällt weg. Auf Cent oder Zentimeter heißt auf Hundertstel. | auf Zehntel: \ $7{,}24 \approx 7{,}2$ \qquad $7{,}25 \approx 7{,}3$ \par\vspace{4pt} 10 Zehntel $=$ 1 Einer, \ 10 Hundertstel $=$ 1 Zehntel | brueche-dezimalzahlen-e5-k2-s5-v4 | brueche-dezimalzahlen-e5-k2-s5-v5, brueche-dezimalzahlen-e5-k2-s5-v6, brueche-dezimalzahlen-e5-k2-s5-v7, brueche-dezimalzahlen-e5-k2-s5-v8, brueche-dezimalzahlen-e5-k6-s4-v4 | brueche-dezimalzahlen-e5-k2-s5-v9, brueche-dezimalzahlen-e5-k2-s5-v10, brueche-dezimalzahlen-e5-k2-s5-v11, brueche-dezimalzahlen-e5-k2-s5-v12, brueche-dezimalzahlen-e5-k6-s4-v5 |
+| L5-C | Dazwischen und genau in der Mitte | Zwischen zwei Dezimalzahlen liegen immer weitere: Hänge eine Null an, dann siehst du sie. Für die Mitte rechnest du ohne Komma und gehst den halben Abstand weiter. | Mitte $=$ kleinere Zahl $+$ Abstand $: 2$ \par\vspace{4pt} $1{,}3 = 1{,}30$ und $1{,}4 = 1{,}40$: \ dazwischen $1{,}31;\ 1{,}32;\ \ldots;\ 1{,}39$ | brueche-dezimalzahlen-e5-k2-s6-v4 | brueche-dezimalzahlen-e5-k3-s1-v4, brueche-dezimalzahlen-e5-k2-s6-v5, brueche-dezimalzahlen-e5-k2-s6-v6, brueche-dezimalzahlen-e5-k2-s6-v7, brueche-dezimalzahlen-e5-k2-s6-v8 | brueche-dezimalzahlen-e5-k2-s6-v9, brueche-dezimalzahlen-e5-k2-s6-v10, brueche-dezimalzahlen-e5-k2-s6-v11, brueche-dezimalzahlen-e5-k3-s1-v5, brueche-dezimalzahlen-e5-k2-s6-v12 |
+| L5-D | Bruch, Prozent, Quadrat: erst umwandeln | Bring alle Zahlen in dieselbe Form, am besten in Dezimalzahlen. Dann vergleichst du wie in A. | Bruch: erweitern auf 10 oder 100 \ (Nenner 2, 5 $\to$ 10; \ 4, 20, 25, 50 $\to$ 100) \par\vspace{4pt} Prozent: $p\,\% = \dfrac{p}{100}$ \qquad Quadrat: $0{,}a^2 = 0{,}a \cdot 0{,}a$ | brueche-dezimalzahlen-e5-k2-s10-v11 | brueche-dezimalzahlen-e5-k6-s3-v4, brueche-dezimalzahlen-e5-k2-s8-v4, brueche-dezimalzahlen-e5-k4-s1-v4, brueche-dezimalzahlen-e5-k5-s1-v4, brueche-dezimalzahlen-e5-k4-s1-v5 | brueche-dezimalzahlen-e5-k6-s3-v5, brueche-dezimalzahlen-e5-k2-s8-v5, brueche-dezimalzahlen-e5-k2-s10-v12, brueche-dezimalzahlen-e5-k4-s1-v6, brueche-dezimalzahlen-e5-k4-s1-v7 |
+| L5-T | Probetest | Gemischt, ohne Beispiel. Etwa 20 Minuten. | – | – | brueche-dezimalzahlen-e5-k2-s4-v11, brueche-dezimalzahlen-e5-k2-s5-v13, brueche-dezimalzahlen-e5-k2-s6-v13, brueche-dezimalzahlen-e5-k2-s8-v6, brueche-dezimalzahlen-e5-k2-s10-v13, brueche-dezimalzahlen-e5-k4-s1-v8 | brueche-dezimalzahlen-e5-k2-s6-v14, brueche-dezimalzahlen-e5-k2-s10-v14 |
