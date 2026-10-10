@@ -208,7 +208,7 @@ Tisch: Gib Wahrscheinlichkeiten als gekürzten Bruch an; Prozent, wenn es verlan
 | L3-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Taschenrechner erlaubt. Etwa 20 Minuten. | – | – | wahrscheinlichkeit-e3-k3-s2-v6, wahrscheinlichkeit-e3-k3-s4-v9, wahrscheinlichkeit-e3-k3-s6-v10, wahrscheinlichkeit-e3-k3-s11-v5, wahrscheinlichkeit-e3-k3-s10-v6 | wahrscheinlichkeit-e3-k3-s5-v6, wahrscheinlichkeit-e3-k3-s10-v7 |
 
 #### Lerneinheit 4 – Ohne Zurücklegen (Abschnitte, Form 10.10.)
-Stand: 2026-10-10 · Kennung XKT · Kritiker: offen · Lehrer: –
+Stand: 2026-10-10 · Kennung XKT · Kritiker: erledigt (Nachbesserung 10.10.: Beispiel C mit Schritt 5 „mindestens eine blaue“ über das Gegenteil; C3 mit Sorten Nora (1) und andere (7); T2 Ankreuzbrüche in einer Zeile; D1 „Das ist Ziehen ohne Zurücklegen“) · Lehrer: –
 Form: abschnitte
 Ziel: P(beide gleich) und Ereignis zur Rechnung (2018-OS-K7c); drei Züge, Behauptung 20 : 1 statt 2 : 1 (2019-OS-K6c); Klara als Zweite, 4/5 · 1/4 (2024-OS-K5c); unter den ersten drei (2015-OS-K7d); Zettel kommen zurück (2024-OS-K5b)
 Blatt: Klasse 9 · Vorher: Baumdiagramm und Pfadregeln · Weiter: Vierfeldertafel und bedingte Wahrscheinlichkeit
