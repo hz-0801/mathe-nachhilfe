@@ -1,0 +1,18 @@
+# Befund Zuschnitt Funktionen (P10, 2022–2026) – Fable-Kritiker, 10.10.2026
+
+## 1 Fehlplatzierungen (Kopf-Schritt)
+- Die beiden Scheitelpunktform-Aufgaben fangen mit dem Ablesen des Scheitels an (2023-OS-K4b: Scheitel vom Bild, dann Gleichung; 2025-OS-K5b: Scheitel vom Bild, dann Scheitelpunktform). Nach der Regel gehören sie zu „Scheitelpunkt ablesen“, die Form ist der zweite Schritt. Vorschlag: dorthin verschieben; „Scheitelpunktform angeben“ lebt dann von 2016–2020 (8 echte, bleibt Kern). Gleiches Blatt, der Bau ändert sich nicht.
+- Alles andere sitzt richtig: Zeichnen-Aufgaben fangen mit Zeichnen an (2022-OS-K3a, 2023-OS-K4a, 2024-OS-K3b), Sach- und Wachstumsketten mit dem genannten Handgriff (2022-OS-K6b, 2023-OS-K3b, 2025-OS-K7b, 2026-FOR-K7c), Gleichungssysteme ebenso (2024-OS-K7b).
+
+## 2 Stufen in falscher Folge
+- Gerade zeichnen: „durch zwei Punkte“ (2025-OS-K5a) verlangt m = (−1,5 − 6) : 5 und n aus einem Punkt – das ist Rechnen, schwerer als Zeichnen plus Aussagen prüfen (2023-OS-K4a), und K5a enthält das Aussagenprüfen schon. Richtige Folge: erkennen und ablesen → aus Gleichung zeichnen → zeichnen und Aussagen prüfen → durch zwei Punkte, Gleichung bestimmen.
+- Lineare im Sachzusammenhang: die Sparkette (2022-OS-K6a Endwert, K6b Gleichung) wird von der Tarifkette (2023-OS-K3a Graph, K3b Vergleich) zerschnitten. Richtige Folge: Endwert berechnen → Gleichung aufstellen und rückwärts rechnen → Graph zum Tarif zuordnen → Tarife vergleichen; so ändert sich je Stufe nur eine Sache.
+- Parabel: „Parabel skizzieren“ (2024-OS-K3b, braucht nur den Scheitel von x² − 4) steht hinter „Scheitelpunktform angeben“ (Bild → Gleichung, umgekehrte Richtung, bei 2025-OS-K5b sogar aus der Normalform). Richtige Folge: Wertetabelle → Scheitelpunkt ablesen → Parabel skizzieren → Punkt prüfen → Scheitelpunktform angeben → Lage begründen.
+- Quadratische Gleichung, Gleichungssysteme, Wachstum: Folge stimmt (y = 0 → y = −10 → y = Gerade; deuten → aufstellen → lösen; Tabelle → Punkte → Faktor und Gleichung → Graph).
+
+## 3 Punktprobe: eigenes Blatt oder Stufe?
+- Beleg: Einmal steht sie allein (2023-OS-B1i, drei Punkte an f(x) = −7x + 3, kein Bild). Zweimal steht sie mitten in der Kette, direkt nach dem Zeichnen derselben Funktion (2026-FOR-K5b nach K5a Gerade; 2024-OS-K3c nach K3b Parabel), aber immer „rechnerisch“, ohne das Bild zu brauchen: Der Schüler fängt mit Einsetzen an, nie mit dem Graphen.
+- Urteil: eigenes Blatt. Einsetzen und vergleichen ist ein anderer Handgriff als Zeichnen; als Stufe in „Gerade zeichnen“ wäre es der einzige Rechenschritt zwischen Zeichenstufen, und in „Parabel“ müsste er noch einmal stehen (Doppelplatz). Derselbe Handgriff trägt außerdem „Lösung prüfen“ (2025-OS-B1h: Werte in x(x + 5) = −6 einsetzen) und den Funktionswert in Wachstum (N(24), Miete 2040). Vorschlag: Blatt „Einsetzen: Punktprobe und Lösung prüfen“ mit 2025-OS-B1h als Stufe 1 (ankreuzen, Gleichung) → 2023-OS-B1i (ankreuzen, Gerade) → 2026-FOR-K5b (rechnerisch, Gerade) → 2024-OS-K3c (rechnerisch, Parabel); dann hat das Blatt vier Originale statt drei und „Quadratische Gleichung lösen“ beginnt mit Nullstellen.
+
+## 4 Was sonst beim Bau stolpert
+- Gleichsetzen (2022-OS-K3c) verlangt (x − 2)² − 4 = −2x + 3, also erst die binomische Formel ausmultiplizieren – diesen Schritt (Scheitelpunktform → Normalform) hat keine Stufe davor; 2025-OS-K5c startet schon in Normalform. Dazu: „aus Gleichung zeichnen“ (2022-OS-K3a) verlangt nebenbei die Nullstelle rechnerisch, und „Faktor bestimmen“ muss beide Wege können (Quotient aus Tabelle bei 2025-OS-K7b, 1,9 % → 1,019 bei 2026-FOR-K7c).
