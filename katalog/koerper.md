@@ -129,6 +129,54 @@ Zielmarke: Einheit 1 – im Würfelnetz die Gegenfläche einer markierten Fläch
 - Cavalieri (LS-AA Kl. 8 VII 3, RLP H) seit 02.10.2026 aufgenommen: Sprosse „schiefes Prisma“ in Einheit 3 (GYM, Vorrat; Beschluss des Lehrers 02.10., Abgleich Duden 9 Kap. 8); Kugelvolumen über Cavalieri → pyramide-kegel-kugel.md Einheit 3. Zweitafelprojektion (RLP G) nicht aufgenommen.
 - Abgleich Duden 9 Kap. 8 (02.10.2026) umgesetzt: neue Sprossen Maßzahlvergleich am Würfel (Einheit 2), Vieleckgrundfläche (Einheit 3), Hohlzylinder, gerolltes Rechteck, Größentabelle (Einheit 4); Rückwärts- und Mischsprossen nach der Leiterregel 02.10. in allen fünf Ketten (Einheit 4: Rückwärts mit h und r aus V schon da, Mischsprosse ist die Größentabelle).
 
+### Thema-Weg
+Stand: 2026-10-10, vorläufig (aus dem Bau L75/E1; E2–E5 noch nicht gebaut).
+
+Folge | Grund für die Stelle:
+1. Körper erkennen, Netze, Schrägbilder (Lerneinheit 1) | Namen, Bauweise
+   (Prisma, Pyramide), Netz und Schrägbild sind die Sprache aller
+   späteren Einheiten; das Quadernetz bereitet die Oberfläche vor.
+2. Quader und Würfel (Lerneinheit 2) | Volumen und Oberfläche am
+   einfachsten Körper; Oberfläche als Netz aus Einheit 1.
+3. Prisma (Lerneinheit 3) | Quader als Prisma; V = G · h verallgemeinert
+   Einheit 2; Netz vervollständigen setzt Einheit 1 voraus.
+4. Zylinder (Lerneinheit 4) | Prisma mit Kreis; braucht Kreis (kreis.md).
+5. Zusammengesetzte Körper und Anwendungen (Lerneinheit 5) | setzt alle
+   Teilkörper voraus.
+
+Probetest (Originale, gemischt, schwerste zuletzt): 2019-OS-B1f,
+2016-OS-B1j, 2017-OS-B1c, 2018-OS-B1i, 2015-OS-K6b, 2024-OS-K4b
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md`; fehlt er, ist die Einheit noch nicht gebaut. Steht
+hier am Ende, damit die Zeilennummern im Bankfeld quelle gültig bleiben.
+Form „abschnitte“ (Abschnitte A, B, … mit Satz, Formel, Beispiel,
+Aufgaben und Vorrat; aufgabenbank `bau/bauauftrag.md`).
+
+Serie: Vorher: Flächen (Rechteck, Quadrat, Dreieck) | Körper: Körper erkennen, Netze, Schrägbilder; Quader und Würfel; Prisma; Zylinder | Zusammengesetzte Körper | Weiter: Pyramide, Kegel, Kugel
+
+#### Lerneinheit 1 – Körper erkennen, Netze, Schrägbilder (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung L75 · Kritiker: offen · Lehrer: –
+Form: abschnitte
+Ziel: Kantenzahl der quadratischen Pyramide ohne Bild (2019-OS-B1f); Gegenfläche im Würfelnetz (2016-OS-B1j); Körper aus Netz oder Schrägbild benennen (2017-OS-B1c, 2018-OS-B1i); Körperhöhe im Schrägbild (2015-OS-K6b); Quadernetz und Schrägbild auf Kästchen (OS 5–6)
+Blatt: Klasse 6 · Vorher: Flächen (Rechteck, Quadrat, Dreieck) · Weiter: Quader und Würfel
+Titel: Körper erkennen, Netze, Schrägbilder
+Formel: Grundfläche mit $n$ Ecken:\par Prisma: Ecken $n + n$, Kanten $n + n + n$, Flächen $2 + n$\par Pyramide: Ecken $n + 1$, Kanten $n + n$, Flächen $1 + n$
+In Worten: Ein Netz ist der aufgeklappte Körper, ein Schrägbild der Körper auf Kästchen gezeichnet.
+Fehler: Ecken und Kanten verwechselt. Ecken sind Punkte, Kanten sind Linien.
+Fehler: Im Würfelnetz die Nachbarfläche als Gegenfläche genommen.
+Fehler: Im Schrägbild die Tiefe in voller Länge gezeichnet.
+Tisch: Zeichne auf Kästchenpapier (2 Kästchen = 1 cm).
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Körper erkennen und zählen | Ein \textbf{Prisma} hat zwei gleiche Flächen, die sich gegenüberliegen (Grund- und Deckfläche), dazwischen Rechtecke; Quader und Würfel sind Prismen. Eine \textbf{Pyramide} hat eine Grundfläche und Dreiecke, die sich in der Spitze treffen; Zylinder, Kegel und Kugel haben gekrümmte Flächen. | Prisma: Kanten $n + n + n$ \qquad Pyramide: Kanten $n + n$ \qquad {\small ($n$ Ecken der Grundfläche)} | koerper-e1-k1-s2-v4 | koerper-e1-k1-s1-v6, koerper-e1-k1-s2-v5, koerper-e1-k1-s2-v6, koerper-e1-k1-s10-v5 | koerper-e1-k1-s1-v7, koerper-e1-k1-s2-v7, koerper-e1-k1-s2-v8, koerper-e1-k1-s10-v6 |
+| L1-B | Würfelnetze: was liegt gegenüber? | Ein Würfelnetz besteht aus sechs Quadraten. In einer Reihe (waagerecht oder senkrecht) liegen sich zwei Flächen gegenüber, wenn genau eine Fläche dazwischen liegt. | \fbox{\strut A}\fbox{\strut B}\fbox{\strut C} \quad $\Rightarrow$ \quad A liegt C gegenüber. | koerper-e1-k1-s4-v4 | koerper-e1-k1-s4-v5, koerper-e1-k1-s3-v4, koerper-e1-k1-s4-v6, koerper-e1-k1-s10-v7 | koerper-e1-k1-s4-v7, koerper-e1-k1-s3-v5, koerper-e1-k1-s4-v8, koerper-e1-k1-s10-v8 |
+| L1-C | Netze von Quader und anderen Körpern | Ein Quader hat drei Paare gleicher Rechtecke: Boden und Deckel, vorn und hinten, die zwei Seiten. Am Netz erkennst du den Körper an den Formen seiner Flächen. | – | koerper-e1-k1-s5-v4 | koerper-e1-k1-s9-v4, koerper-e1-k1-s5-v5, koerper-e1-k1-s5-v6, koerper-e1-k1-s9-v5 | koerper-e1-k1-s9-v6, koerper-e1-k1-s5-v7, koerper-e1-k1-s5-v8, koerper-e1-k1-s9-v7 |
+| L1-D | Schrägbilder | Im Schrägbild zeichnest du die Vorderfläche in wahrer Größe. Kanten nach hinten gehen schräg und werden kürzer; verdeckte Kanten zeichnest du gestrichelt. | 1\,cm $=$ 2 Kästchen \qquad je 1\,cm nach hinten: 1 Kästchendiagonale ($\tfrac12$\,cm nach rechts, $\tfrac12$\,cm nach oben) | koerper-e1-k1-s6-v4 | koerper-e1-k1-s6-v5, koerper-e1-k3-s1-v4, koerper-e1-k1-s7-v4, koerper-e1-k1-s6-v6 | koerper-e1-k1-s6-v7, koerper-e1-k3-s1-v5, koerper-e1-k1-s7-v5, koerper-e1-k1-s6-v8 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Etwa 20 Minuten. | – | – | koerper-e1-k1-s10-v9, koerper-e1-k1-s10-v10, koerper-e1-k5-s4-v4, koerper-e1-k1-s6-v9, koerper-e1-k1-s9-v8 | koerper-e1-k1-s10-v11, koerper-e1-k1-s9-v9 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
