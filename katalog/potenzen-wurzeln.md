@@ -113,6 +113,53 @@ Zielmarke: Einheit 1 – eine Potenz mit negativer Hochzahl gegen eine Dezimalza
 - [LISUM-PH, 10e; am 11b erledigt] Die negativen Exponenten sind in der Jg.-8-Reihe „nur GYM“, in der Jg.-9-Reihe (reelle-zahlen.md) für alle Bildungsgänge. Nach der GYM-Regel überschreibt die Prüfungsvorbereitung die Marke, weil die P10 die Form 2⁻⁵ und 10⁻⁴ als Basisaufgabe prüft; die Sprossen der Einheit 1 und 2 tragen den Vermerk. Zweitens: Die Behauptung, die Reihe nenne eine Siebzigerregel und die Zinsrechnungs-Reihe eine Zweiundsiebzigerregel, ist am 11b berichtigt worden – beide Reihen nennen die 72er-Regel, eine Siebzigerregel steht nirgends in der Gesamtdatei. Der Katalog führt die 72er-Regel als Vorrat in zinsrechnung.md; hier bleibt sie außen vor.
 - Umsetzung Duden-Abgleich und Leiterregeln (02.10.2026): Rückwärtssprossen standen schon (Einheit 1 Exponent bestimmen, Einheit 2 fehlende Hochzahl eintragen und Zahl in Zehnerpotenzschreibweise schreiben), neu sind die Mischsprossen aller drei Ketten und die Rückwärtssprosse der Einheit 3; krumme Zahlen (Dezimalzahl, Bruch, negative Werte) stehen in allen drei Ketten auf den oberen Sprossen. Der Duden-Abgleich (katalog/_abgleich-duden9-kap1.md, A-B12) bringt hier nur Zusatzzeilen an vorhandenen Sprossen. Gewicht: P aus der Zuordnungszeile der Prüfungsform (Haupttyp der Einheit; fremde Typen wie „Zahlen in verschiedenen Darstellungen vergleichen“ zählen nicht), K aus katalog/_gewicht/ka-duden9.csv (keine Klassenarbeit des Duden 9 prüft den Eintrag, überall 0), S aus sa-seiten.csv (Titeltreffer je Einheit, Anteil am Inhaltsteil, Mittel über acht Reihen).
 
+### Thema-Weg
+Stand: 2026-10-10, erster Bau (Lerneinheit 1, Kennung VUD); vorläufig,
+wird mit jedem weiteren Bau geprüft.
+
+Folge | Grund für die Stelle:
+1. Potenzen (Lerneinheit 1) | Die Potenz als Malkette ist die
+   Grundvorstellung der beiden anderen Einheiten: 10ⁿ und 10⁻ⁿ sind
+   Potenzen, die Wurzel ist die Umkehrung des Quadrats. P10 fragt den
+   Exponenten und den Vergleich oft (Basisaufgabe 1).
+2. Zehnerpotenzen (Lerneinheit 2) | Setzt 10ⁿ als Malkette und die
+   negative Hochzahl als Bruch aus 1 voraus; Fehler „Nullen statt
+   Stellen“ erst, wenn der Exponent als Faktorenzahl sitzt.
+3. Quadratwurzeln (Lerneinheit 3) | Umkehrung des Quadrierens; braucht
+   die Quadratzahlen und die Klammerregel (−4)² aus 1. Das Lehrwerk
+   bringt sie in Kl. 8 vor dem Satz des Pythagoras; wer nur die Wurzel
+   für Pythagoras braucht, kann 3 direkt nach 1 nehmen.
+
+### Lernweg
+Je Lerneinheit ein Block, entsteht beim Bau nach aufgabenbank
+`bau/bauauftrag.md` in der Form „abschnitte“; fehlt er, ist die Einheit
+noch nicht gebaut. Steht am Ende, damit die Zeilennummern im Bankfeld
+quelle gültig bleiben.
+
+Serie: Vorher: Rechnen mit negativen Zahlen; Dezimalzahlen und Brüche malnehmen | Potenzen und Wurzeln: Potenzen; Zehnerpotenzen; Quadratwurzeln | Weiter: Satz des Pythagoras; Exponentielles Wachstum
+
+#### Lerneinheit 1 – Potenzen (Abschnitte, Form 10.10.)
+Stand: 2026-10-10 · Kennung VUD · Kritiker: offen · Lehrer: – (Opus-Bau nach bau/bauauftrag.md; Standardlage Klasse 9 laut Katalog)
+Form: abschnitte
+Ziel: Exponent bestimmen 2^x = 16, 4^x = 256 (2020-OS-B1h, 2024-OS-B1g); größte von drei Potenzen unterstreichen (2019-OS-B1d); negative Hochzahl gegen Dezimalzahl (2022-OS-B1j). Ziele aus Sachen: Ist das gefaltete Papier dicker als 1 cm? Wächst der Teich in einer Woche zu? Bekommen mehr als 1000 Personen das Video?
+Blatt: Klasse 9 · Vorher: Rechnen mit negativen Zahlen · Weiter: Zehnerpotenzen
+Titel: Potenzen
+Formel: $a^n = \underbrace{a \cdot a \cdot \ldots \cdot a}_{n \text{ Faktoren}}$ \qquad $a^{-n} = \dfrac{1}{a^n}$ \qquad $a^0 = 1$
+Vorgehen: \textbf{A} Potenz ausrechnen: Malkette hinschreiben, Schritt für Schritt malnehmen; \textbf{B} Minus in Klammern: gerade Hochzahl gibt plus, ungerade minus. Ohne Klammer bleibt das Minus vor dem Ergebnis; \textbf{B} Dezimalzahl: Kommastellen der Faktoren zusammenzählen. Bruch: Zähler und Nenner einzeln hoch nehmen; \textbf{C} Vergleichen: erst beide Potenzen ausrechnen, dann das Zeichen setzen; \textbf{C} Exponent finden: Basis malnehmen, bis der Wert dasteht, Faktoren zählen; \textbf{D} Minus im Exponenten: erst Bruch, dann Dezimalzahl
+Fehler: $6^3 = 18$ gerechnet (Basis mal Exponent). Richtig: $6^3 = 6 \cdot 6 \cdot 6 = 216$.
+Fehler: $0{,}3^2 = 0{,}6$ gerechnet (verdoppelt). Richtig: $0{,}3 \cdot 0{,}3 = 0{,}09$.
+Fehler: $5^{-2} = -25$ gerechnet. Richtig: $5^{-2} = \frac{1}{25}$, ein Bruch, keine negative Zahl.
+Fehler: Bei $3^x = 243$ geteilt: $243 : 3 = 81$. Richtig: Faktoren zählen, $x = 5$.
+Tisch: Ohne Taschenrechner.
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben (Blatt in Folge; die letzte ist das Ziel) | Vorrat (nur Bank) |
+|---|---|---|---|---|---|---|
+| L1-A | Potenz als Malkette | Eine Potenz ist eine Malkette aus gleichen Faktoren. Die \textbf{Basis} unten wird malgenommen, der \textbf{Exponent} oben (die Hochzahl) zählt, wie oft. Wird in einer Sache immer wieder mit derselben Zahl malgenommen (verdoppeln heißt mal 2), ist das eine Potenz. | $a^n = \underbrace{a \cdot a \cdot \ldots \cdot a}_{n \text{ Faktoren}}$ \qquad {\small $a^2$ Quadratzahl, \ $a^3$ Kubikzahl} | potenzen-wurzeln-e1-k3-s1-v6 | potenzen-wurzeln-e1-k3-s1-v7, potenzen-wurzeln-e1-k3-s2-v4, potenzen-wurzeln-e1-k3-s17-v1, potenzen-wurzeln-e1-k3-s17-v2 | potenzen-wurzeln-e1-k3-s1-v8, potenzen-wurzeln-e1-k3-s2-v5, potenzen-wurzeln-e1-k3-s17-v3, potenzen-wurzeln-e1-k3-s17-v4 |
+| L1-B | Minus und Komma in der Potenz | Steht eine negative Zahl in Klammern, wird sie mit ihrem Minus malgenommen. Ohne Klammer gehört der Exponent nur zur Zahl; das Minus bleibt davor. | $(-a)^n$: \ $n$ gerade $\to$ plus, \ $n$ ungerade $\to$ minus \qquad $-a^n = -(a^n)$\par $\left(\dfrac{p}{q}\right)^n = \dfrac{p^n}{q^n}$ \qquad {\small Dezimalzahl: Kommastellen zusammenzählen} | potenzen-wurzeln-e1-k3-s5-v4 | potenzen-wurzeln-e1-k3-s5-v5, potenzen-wurzeln-e1-k3-s6-v4, potenzen-wurzeln-e1-k3-s7-v5, potenzen-wurzeln-e1-k3-s15-v4 | potenzen-wurzeln-e1-k3-s5-v6, potenzen-wurzeln-e1-k3-s6-v5, potenzen-wurzeln-e1-k3-s7-v6, potenzen-wurzeln-e1-k3-s15-v5 |
+| L1-C | Vergleichen und Exponent finden | Welche Potenz größer ist, sieht man nicht an der Basis oder am Exponenten – rechne beide aus. Ist der Exponent gesucht, nimm die Basis so oft mal, bis der Wert dasteht. | $a^x = b$: \ $a,\ a \cdot a,\ a \cdot a \cdot a,\ \ldots$ bis $b$ \ $\to$ \ Zahl der Faktoren $= x$ | potenzen-wurzeln-e1-k3-s10-v4 | potenzen-wurzeln-e1-k3-s8-v4, potenzen-wurzeln-e1-k3-s10-v5, potenzen-wurzeln-e1-k3-s9-v4, potenzen-wurzeln-e1-k3-s17-v5 | potenzen-wurzeln-e1-k3-s8-v5, potenzen-wurzeln-e1-k3-s10-v6, potenzen-wurzeln-e1-k3-s9-v5, potenzen-wurzeln-e1-k3-s17-v6 |
+| L1-D | Negative Hochzahl und hoch null | Ein Minus im Exponenten macht keine negative Zahl, sondern einen Bruch. Jede Zahl außer $0$ hoch $0$ ist $1$. | $a^{-n} = \dfrac{1}{a^n}$ \qquad $a^0 = 1$ | potenzen-wurzeln-e1-k3-s13-v4 | potenzen-wurzeln-e1-k3-s13-v5, potenzen-wurzeln-e1-k3-s13-v6, potenzen-wurzeln-e1-k3-s14-v4, potenzen-wurzeln-e1-k3-s14-v5 | potenzen-wurzeln-e1-k3-s13-v7, potenzen-wurzeln-e1-k3-s13-v8, potenzen-wurzeln-e1-k3-s14-v6, potenzen-wurzeln-e1-k3-s14-v7 |
+| L1-T | Probetest | Gemischt wie in der Prüfung, ohne Beispiel. Ohne Taschenrechner. Etwa 15 Minuten. | – | – | potenzen-wurzeln-e1-k3-s16-v9, potenzen-wurzeln-e1-k3-s15-v6, potenzen-wurzeln-e1-k3-s16-v10, potenzen-wurzeln-e1-k3-s16-v11, potenzen-wurzeln-e1-k3-s17-v7 | potenzen-wurzeln-e1-k3-s16-v12, potenzen-wurzeln-e1-k3-s16-v13, potenzen-wurzeln-e1-k3-s17-v8 |
+
 ## Prüfliste (vor Status „gegengelesen“)
 - [x] Jeder Verfahrenstyp hat Sprossen; Grundfall zuerst, Prüfungshöhe zuletzt, je Sprosse ein Merkmal.
 - [x] Kastenzahlen kommen in keiner Sprosse und keinem Beispiel vor.
