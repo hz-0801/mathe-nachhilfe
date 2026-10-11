@@ -129,3 +129,13 @@ Offen mit Grund: keine Zeile hängt.
 - Netz-/Würfel-Ankreuzaufgaben ohne Zahlen (2016-OS-B1j, 2018-OS-B1i, 2017-OS-B1c) unverändert.
 
 Zeilen: 2026-FOR-B1f, 2022-OS-K2a, 2022-OS-K2b, 2022-OS-K2d, 2023-OS-K5a, 2023-OS-K5b, 2023-OS-K5d, 2026-FOR-K2a, 2026-FOR-K2b, 2026-FOR-K2d, 2021-OS-K4a, 2021-OS-K4b, 2016-OS-K3c, 2014-OS-K5a, 2014-OS-K5b, 2024-OS-K4b, 2024-OS-K4c, 2016-OS-B1j, 2018-OS-B1i, 2017-OS-B1c, 2020-OS-K5a, 2019-OS-K4a, 2015-OS-K6b, 2018-OS-K6b
+
+## Kapitel daten – 34 Zeilen
+
+Offen mit Grund: 2023-OS-K6c und 2023-OS-K6d: Wortlaut steht in wortlaut-eigen-prozent.csv, Zeile hier; 2021-OS-K5a und 2020-OS-K2d stehen in prozent (Hauptplatz auch hier, nicht doppelt).
+
+- Zahlen mit prozent abgestimmt: 2022-OS-K4 (1500 Jugendliche; 560, 530, 575, 585, 520), 2026-FOR-K3 (Benzinpreise 1,81 … 1,90), 2020-OS-K2 (Besucher 150, 120, 180, 155, 170, 210, 240; Durchschnitt 175), 2017-OS-K2 (48,7 / 35,1 / 11,8 / 4,4 %), 2021-OS-K5.
+- Tragende Struktur erhalten: 2025-OS-K6c (Durchschnittsalter bleibt, weil älteste + jüngste Person zusammen 2 · Mittelwert), 2026-FOR-K3e/3d (abgeschnittene Achse ab 1,78 €, Verdopplung der Säulenhöhe), 2018-OS-K3d (Anteil 12 % gegen „jede 12.“), 2019-OS-K5c.
+- Reihen mit glattem Mittelwert (Median glatt, Mittel ganzzahlig) wie im Original; Modalwert eindeutig (2025-OS-K6a: 3).
+
+Zeilen: 2026-FOR-K3a, 2026-FOR-K3b, 2026-FOR-K3d, 2026-FOR-K3e, 2024-OS-K2a, 2024-OS-K2b, 2024-OS-K2c, 2023-OS-K6c, 2023-OS-K6d, 2022-OS-K4a, 2022-OS-K4c, 2022-OS-K4d, 2019-OS-B1i, 2014-OS-K4a, 2014-OS-K4b, 2024-OS-B1h, 2015-OS-B1f, 2021-OS-B1f, 2017-OS-B1h, 2016-OS-B1a, 2020-OS-K2a, 2020-OS-K2c, 2015-OS-K7a, 2022-OS-B1d, 2025-OS-K6a, 2025-OS-K6b, 2025-OS-K6c, 2018-OS-K3a, 2018-OS-K3c, 2018-OS-K3d, 2017-OS-K2c, 2021-OS-K5b, 2019-OS-K5c, 2014-OS-K3d
