@@ -266,6 +266,17 @@ vollständig, dann ordnen, dann bauen.
       2026 FOR als Prüfstein gebaut (privat, originalneu.py).]
       Setzer für Sorte P (Wunschliste bau/befunde-M3.md) und
       Mehr-Block; dann Kapitel Flächen, Körper.
+   e) [12.10. früh, Runde 3, Lehrer: Kontingent aufbrauchen] Blätter
+      Sorte P aus Daten: Flächen (H37), Volumen und Oberfläche (AZL),
+      Netz und Schrägbild (EF4) – bau/pruefung/2026-10-12/; Setzer
+      v0.7 (Schülerfrage, grafik, form); Original neu alle 14 Hefte
+      (privat, originalneu/stand.md); Kritiker Mehr-Block Prozent +
+      Lineare: Zahlenregel trägt, 2 schwere Befunde (Fenster, Tabelle).
+      Offen (Lehrer) in bau/befunde-M3.md: 3 statt 2 Seiten bei fünf
+      Stufen; zwei Formen der Schülerfrage; Einstieg auf Prüfungshöhe.
+      Nächste Kapitel: Funktionen (Lineare, Quadratische), Prozent,
+      Daten, Wahrscheinlichkeit, Gleichungssysteme, Wachstum – 11
+      Einheiten.
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
@@ -333,6 +344,13 @@ Skizzen 0,26, Setzer P 0,24, Nachzug fünf Blätter 0,34, Original neu
 0,19, Warum-Liste 0,17), Wanduhr 21 min. Original neu je weiteres
 Heft ≈ 0,1 Mio. Lehre: Agenten teilen sich einen Klon – parallele
 Schreiber auf dasselbe Repo brauchen eigene Klone (autostash-Verlust).
+
+Messwert Runde 3 (12.10. früh, eigene Klone je Agent, keine
+Verluste): drei Fable-Blatt-Agenten 0,35 + 0,27 + 0,31 Mio (18–29
+min), Original neu 13 Hefte Sonnet 0,31 Mio (17 min), Fable-Kritiker
+zwei Kapitel 0,15 Mio; zusammen 1,39 Mio, Wanduhr 29 min. Ein Blatt
+P aus Daten ≈ 0,3 Mio Fable – teurer als der Hand-Satz, weil Daten
+und Setzer zugleich wachsen.
 
 ## 9 Später
 
