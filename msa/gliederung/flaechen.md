@@ -7,6 +7,7 @@ Name: Flächen
 Folge: 2
 Bank: flaechen | kreis
 Katalog: katalog/flaechen.md | katalog/kreis.md
+Anzeigenamen: Flächeninhalt und Umfang = Fläche und Umfang
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -16,24 +17,44 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ## Stufen
 
 ### Formel oder Term zur Figur
+- **Anzeigename:** Formel zur Figur
+- **Schülerfrage:** Welche Formel passt? Schreibe nur die Formel auf, rechne nicht.
+- **Schülerfrage-Fälle:** Rechteck, Fläche = A = a · b | Dreieck, Fläche = A = g · h : 2 | Kreis, Umfang = u = 2 · π · r | Trapez, Fläche = A = (a + c) : 2 · h
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Fläche: zwei Längen mal; Umfang: einmal herum
 - **Kern:** ja – 5 echte, Basisteil 2014, 2019, 2022, 2024, 2025 (Niveau I), Sprossen in jeder Figurenkette
 - **Originale:** 2022-OS-B1e 2024-OS-B1c 2025-OS-B1i 2019-OS-B1e 2014-OS-B1g
 - **Bank:** flaechen-e1-k2-s8(i) flaechen-e3-k1-s6(i) flaechen-e1-k5-s4(i) flaechen-e3-k4-s4(i) kreis-e2-k2-s1(i)
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### Grundfigur berechnen
+- **Anzeigename:** Fläche oder Umfang berechnen
+- **Schülerfrage:** Fläche oder Umfang? Kreuze an, wo die Fläche gefragt ist.
+- **Schülerfrage-Fälle:** Teppich für ein Zimmer = ja | Zaun um ein Beet = nein | Farbe für eine Wand = ja | Bordüre um eine Tischdecke = nein
+- **Schülerfrage-Form:** kreuz:Fläche
+- **Schülerfrage-Weg:** Fläche bedeckt (Teppich, Farbe), Umfang läuft herum (Zaun, Bordüre)
 - **Kern:** ja – 8 echte 2015–2026 (Niveau I), Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis mit Grundfall
 - **Originale:** 2026-FOR-B1h 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b 2016-OS-K3b 2015-OS-K5d 2015-OS-K6c 2019-OS-K4c
 - **Bank:** flaechen-e1-k2-s1(i) flaechen-e1-k2-s2(i) flaechen-e1-k2-s3(i) flaechen-e1-k2-s4(i) flaechen-e2-k1-s1(i) flaechen-e2-k1-s2(i) flaechen-e2-k1-s3(i) flaechen-e3-k1-s1(i) flaechen-e3-k1-s2(i) flaechen-e3-k1-s3(i) flaechen-e3-k1-s4(i) flaechen-e4-k1-s1(i) flaechen-e4-k1-s2(i) flaechen-e4-k1-s4(i) flaechen-e4-k1-s5(i) kreis-e1-k2-s1(i) kreis-e1-k2-s2(i) kreis-e1-k2-s3(i) kreis-e2-k1-s1(i) kreis-e2-k1-s2(i) kreis-e2-k1-s3(i) kreis-e2-k1-s8
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### rückwärts: Seite aus Fläche
+- **Anzeigename:** Seite aus Fläche oder Umfang
+- **Schülerfrage:** Was ist gesucht? Stelle die Formel nach der gesuchten Größe um, rechne nicht.
+- **Schülerfrage-Fälle:** Rechteck: A und a bekannt, b gesucht = b = A : a | Quadrat: A bekannt, a gesucht = a = √A | Rechteck: u und a bekannt, b gesucht = b = u : 2 − a
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** erst die Formel, dann umstellen
 - **Kern:** ja – 6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette
 - **Originale:** 2023-OS-B1c 2020-OS-B1d 2018-OS-B1f 2020-OS-K7b 2014-OS-K5c 2014-OS-K5d
 - **Bank:** flaechen-e1-k2-s5(i) flaechen-e1-k2-s6(i) flaechen-e1-k2-s7(i) flaechen-e2-k1-s5(i) flaechen-e3-k1-s5(i) flaechen-e4-k1-s3(i) flaechen-e4-k3-s1(i) kreis-e1-k2-s4(i) kreis-e1-k2-s5(i) kreis-e2-k1-s6(i) flaechen-e1-k2-s9 flaechen-e3-k1-s7 flaechen-e4-k1-s6
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### Figur erst zerlegen oder Strecke erst berechnen
+- **Anzeigename:** Figur erst zerlegen
+- **Schülerfrage:** Aus welchen Grundfiguren besteht die Figur? Schreibe sie auf, mit Plus oder Minus.
+- **Schülerfrage-Fälle:** Pool: Rechteck mit zwei Halbkreisen = Rechteck + Kreis | Hausumriss: Quadrat mit Dach = Quadrat + Dreieck | Rasen um einen runden Turm = Rechteck − Kreis
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** zusammensetzen heißt plus, ein Loch heißt minus
 - **Kern:** ja – 6 echte (2017 zweimal, 2018, 2022, 2023, 2025), Bank-Kette Zusammengesetzte Figuren mit Grundfall
 - **Originale:** 2022-OS-K5e 2023-OS-K2c 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b
 - **Bank:** flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) flaechen-e4-k2-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7
@@ -41,6 +62,11 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Figur erst zerlegen oder Strecke erst berechnen [2022-OS-K5e 2023-OS-K2c]
 
 ### Anteil in Prozent (Verschnitt)
+- **Anzeigename:** Anteil in Prozent
+- **Schülerfrage:** Was ist hier das Ganze (100 %)? Schreibe es auf.
+- **Schülerfrage-Fälle:** Grauer Sektor mit 125° im Kreis = 360° | Verschnitt beim Sägen aus einer Platte = die ganze Platte | Rasen auf einem Grundstück mit Haus = das ganze Grundstück
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Anteil = Teil : Ganzes, das Ganze ist 100 %
 - **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (Basisteil 2025, leichte Vorstufe, Befund Geometrie 10.10.) und Verschnitt (2023, Sternchen, Niveau III); dieselbe Stufe wie Prozent „Prozent aus einer berechneten Fläche“
 - **Originale:** 2025-OS-B1e 2023-OS-K5c
 - **Bank:** kreis-e3-k1-s11[2025-OS-B1e] flaechen-e5-k3-s1
