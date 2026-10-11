@@ -79,3 +79,13 @@ Offen mit Grund: keine Zeile hängt (alle Zahlen getauscht oder "keine Zahlen" v
 - auf_blatt = id steht als Aufgabe (auch herausgelöst) auf dem Blatt der Einheit (bau/pruefung/2026-10-10 und 2026-10-11); nur in der Fundstellentabelle zählt nicht.
 - rang je Einheit: BB/BE 2022–2026, dann ältere, dann andere; je Gruppe I → II → III, dann jüngstes Jahr zuerst, dann id.
 - Prüfung: python3 msa/mehr-pruef.py (Lösung gegen pruef, Vollständigkeit, Zahlen ≠ Original).
+
+## Kapitel prozent – 31 Zeilen
+
+Offen mit Grund: 2014-GYM-B1g, 2015-GYM-B1e, 2018-GYM-B1d, 2018-OS-B1d, 2022-OS-B1a, 2023-OS-B1d (Nebenplätze ohne Wortlaut in wortlaut-eigen, nichts zu ändern); 2025-OS-B1e (Nebenplatz; Hauptplatz flaechen, dort).
+
+- Hauptplätze in zwei Kapiteln (2021-OS-K5a, 2020-OS-K2d, 2020-OS-K4c, 2023-OS-K5c): Zeile steht hier (erstes Kapitel), später nicht doppelt.
+- Stufen alle Einheit „Prozent“; zahlart = Zahlentyp der Aufgabe (prozent, wenn ein Prozentsatz gegeben oder gesucht ist).
+- Diagramm- und Tabellenzahlen stehen in der Spalte abbildung; das Prüfskript vergleicht Wortlaut und abbildung mit dem Original.
+
+Zeilen: 2022-OS-B1f, 2020-OS-B1a, 2026-FOR-B1a, 2014-OS-B1a, 2017-OS-B1b, 2021-OS-B1c, 2019-OS-K5a, 2015-OS-K2a, 2015-OS-K2b, 2014-OS-K3a, 2014-OS-K3b, 2014-OS-K3c, 2015-OS-B1e, 2014-OS-B1e, 2023-OS-K6a, 2023-OS-K6b, 2018-OS-K7a, 2015-OS-K7c, 2023-OS-B1b, 2025-OS-B1a, 2024-OS-B1e, 2022-OS-K4b, 2026-FOR-K3c, 2016-OS-K2c, 2021-OS-K5a, 2020-OS-K2d, 2020-OS-K4c, 2025-OS-K4b, 2017-OS-K2b, 2019-OS-K5b, 2023-OS-K5c
