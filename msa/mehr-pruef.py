@@ -90,6 +90,8 @@ def main():
                 fehler.append(f'{i}: Teilergebnisse {len(ps)} pruef / {len(ls)} loesung')
             else:
                 for p, l in zip(ps, ls):
+                    if p in ('', '""'):
+                        continue  # Teil ohne Zahl (Figur, Urteil)
                     z = zahl(l)
                     if z is None:
                         fehler.append(f'{i}: keine Zahl in "{l}"'); continue
