@@ -1,8 +1,8 @@
 # Mehr-Block Dreiecke – Stand
 
-Fertig: 30 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 40 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
 
-Noch nicht bearbeitet: 29 (Reihenfolge der Zuordnung).
+Noch nicht bearbeitet: 19 (Reihenfolge der Zuordnung).
 
 ## Fertig
 
@@ -36,19 +36,19 @@ Noch nicht bearbeitet: 29 (Reihenfolge der Zuordnung).
 - 2022-OS-K5d (Seite oder Winkel mit sin, cos, tan; auf Blatt)
 - 2026-FOR-K4c (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
 - 2023-OS-K7b (Seite oder Winkel mit sin, cos, tan; auf Blatt)
+- 2021-OS-K3a (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2021-OS-K3b (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2018-OS-K4d (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2017-OS-K4b (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2016-OS-K7c (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2024-OS-K6d (Seite im allgemeinen Dreieck, Sinussatz; auf Blatt)
+- 2025-OS-K4c (Seite im allgemeinen Dreieck, Sinussatz; auf Blatt)
+- 2021-OS-K3c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2020-OS-K7c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2019-OS-K3c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
 
 ## Noch nicht bearbeitet
 
-- 2021-OS-K3a
-- 2021-OS-K3b
-- 2018-OS-K4d
-- 2017-OS-K4b
-- 2016-OS-K7c
-- 2024-OS-K6d
-- 2025-OS-K4c
-- 2021-OS-K3c
-- 2020-OS-K7c
-- 2019-OS-K3c
 - 2018-OS-K4c
 - 2017-OS-K4c
 - 2015-OS-K5c
