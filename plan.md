@@ -266,7 +266,15 @@ Chat, Bau-Agenten, Kritiker und Leser Fable, bis das Fable-Kontingent
 leer ist (Lehrer 10.10., 11.10.: nicht wieder Opus vorschlagen);
 danach Opus. Mechanik (Zahlen tauschen, Zeilen umformen, mit Skript
 geprüft) mit dem schwächsten Modell, das reicht – Sonnet, nicht
-Haiku bei Zahlwahl (Lehrer 11.10.: Fable für Anspruchsvolles sparen). Fable zählt aber auch auf die Woche (abgelesen 04.10.
+Haiku bei Zahlwahl (Lehrer 11.10.: Fable für Anspruchsvolles sparen).
+Fable zählt aber auch auf die Woche (abgelesen 04.10.
+
+Kontingent aufbrauchen (Lehrer 11.10. nachts, gilt vor Linie 8):
+Das Wochenkontingent (Woche und Fable) wird bis zum Reset verbraucht.
+Reichen die Schritte aus § 7 nicht, wird aus § 9 „Später“ vorgezogen,
+dann sonst Nützliches (Original neu). Go gilt je Runde (Liste der
+Läufe mit Schätzung), nicht je Agent; die Runde läuft, bis die Liste
+fertig ist. Der Lehrer will nicht je Lauf gefragt werden.
 und 09.10.).
 Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
 Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
