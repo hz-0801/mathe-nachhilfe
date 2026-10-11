@@ -306,9 +306,15 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Winkel bleibt ähnlich groß. Grenze: Die Aufgabe bleibt dieselbe –
   gleicher Zahlentyp, gleiche Glätte wie das Original (Basisteil
   glatt, Hauptteil krumm), gleiche Schwere; eine Zahl, die die
-  Aufgabe trägt (Tripel, besonderer Winkel), bekommt ein
-  gleichwertiges Gegenstück oder bleibt. Vorstufen dürfen schöner
-  sein (bank.md). Jede Lösung mit Skript nachgerechnet.
+  Aufgabe trägt (Tripel, besonderer Winkel wie 30°), bekommt ein
+  gleichwertiges Gegenstück oder bleibt. Eine Aufgabe mit mehreren
+  Teilen bekommt EINE Zahlenwahl (Vorspann und alle Teile a–d
+  dieselben Zahlen, „Gegeben: …“ nachgezogen); liefert das Original
+  gezielt ein glattes Ergebnis (7,00 m), liefert die neue Fassung
+  auch eins. Drei Zahlen im Original bleiben drei verschiedene.
+  Vorstufen dürfen schöner sein (bank.md). Jede Lösung mit Skript
+  nachgerechnet. (Grenzen ergänzt nach Kritiker 11.10., aufgabenbank
+  bau/befund-kritiker-mehr-dreiecke.md.)
 - **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): je Einheit
   alle Originale, die nicht aufs Blatt kamen, als Liste in
   `msa/mehr-p10.csv` (Spalten wie herausgeloest-p10.csv, dazu
