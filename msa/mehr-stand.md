@@ -99,3 +99,13 @@ Offen mit Grund: keine Zeile hängt.
 - 2024-OS-K3c steht hier (Wortlaut in wortlaut-eigen-quadratische.csv, Hauptplatz auch quadratische; dort nicht doppelt).
 
 Zeilen: 2025-OS-B1f, 2024-OS-B1i, 2016-OS-B1c, 2019-OS-K2a, 2019-OS-K2b, 2019-OS-K2c, 2024-OS-K3a, 2024-OS-K3c, 2026-FOR-K5a, 2026-FOR-K5b, 2022-OS-K3a, 2021-OS-K2a, 2021-OS-K2b, 2025-OS-K5a, 2017-OS-K5a, 2017-OS-K5b, 2015-OS-K4d, 2023-OS-K4a, 2023-OS-B1i, 2022-OS-K6a, 2022-OS-K6b, 2021-OS-K6a, 2021-OS-K6c, 2021-OS-K6d, 2021-OS-K7a, 2023-OS-K3a, 2023-OS-K3b, 2016-OS-K6a, 2016-OS-K6b, 2016-OS-K6c
+
+## Kapitel quadratische – 31 Zeilen
+
+Offen mit Grund: 2018-GYM-B1c, 2018-OS-B1c, 2022-OS-B1c (Nebenplätze ohne Wortlaut, nichts zu ändern).
+
+- Familien aus lineare nachgezogen: 2024-OS-K3, 2021-OS-K2, 2023-OS-K4, 2026-FOR-K5, 2015-OS-K4 (Fallschirm: −2t² + 2750 bis t = 25, dann −6t + 1650; Zeile in lineare angepasst), 2022-OS-K3 (f = −2x + 5, p = (x − 4)² − 6).
+- Einheit: „Punkt auf der Parabel prüfen“ zählt zu „Parabel: Scheitelpunkt und Skizze“, „Lösung prüfen“ zu „Quadratische Gleichung lösen“ (Entscheidung nach Stufenfolge in der Zuordnung).
+- 2024-OS-K3c steht in lineare (Zeile dort).
+
+Zeilen: 2026-FOR-B1e, 2015-OS-K4b, 2022-OS-K3b, 2022-OS-K3c, 2026-FOR-K5c, 2026-FOR-K5d, 2020-OS-K3a, 2020-OS-K3b, 2020-OS-K3c, 2020-OS-K3d, 2020-OS-K3e, 2017-OS-K5c, 2017-OS-K5d, 2017-OS-K5e, 2018-OS-K5a, 2018-OS-K5b, 2018-OS-K5c, 2018-OS-K5d, 2024-OS-K3b, 2024-OS-K3d, 2023-OS-K4b, 2023-OS-K4c, 2014-OS-K7a, 2014-OS-K7b, 2025-OS-B1h, 2025-OS-K5b, 2025-OS-K5c, 2021-OS-K2c, 2021-OS-B1d, 2016-OS-B1g, 2015-OS-B1i
