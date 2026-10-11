@@ -227,10 +227,12 @@ vollständig, dann ordnen, dann bauen.
    Festlegungen (§ 10, 11.10. a–c), T2U Winkel zweimal nachgezogen
    und gilt als Muster der Form.
 5. Jetzt (11.10. nachts, Lehrer: Umzug), in dieser Folge:
-   a) Zwei Linien entscheiden (vorgeschlagen 11.10., Lehrer-Wort
-      offen): **Stufe = eigener Handgriff**, sonst Einstieg + Reihe
-      leicht → schwer (Winkel hat einen Handgriff; die vier Stufen
-      waren Figuren); **Blatt + Mehr**: das Blatt schlank (eine echte
+   a) Zwei Linien entscheiden: **Stufe = eigener Handgriff**, sonst
+      Einstieg + Reihe leicht → schwer (Winkel hat einen Handgriff;
+      die vier Stufen waren Figuren) – Lehrer 11.10.: gilt als
+      Linie; der Kritiker prüft im Nachzug (c) jede Stufe der vier
+      Blätter darauf, umgebaut wird erst, wenn ein zweites Blatt
+      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer-Wort offen): das Blatt schlank (eine echte
       je Erscheinungsform, endet mit der typischen schwersten), dazu
       je Einheit ein Mehr-Block mit allen übrigen Originalen leicht →
       schwer, gruppiert, vom Setzer ohne Modell – Bedingungen: Blatt
@@ -412,6 +414,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Warum-Liste als Entwurf, Fable-Kritiker über vier Blätter; zwei
   Linien vorgeschlagen (§ 7 Schritt 5a). Lehrer 11.10.: Agenten erst
   nach Go; je Runde ein Muster und die Stichprobe, nicht alle Blätter.
+- 11.10.2026 (e): Linie „Stufe = eigener Handgriff“ (Lehrer 11.10.),
+  Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
 
 ## 11 Register der Entscheidungen
 
@@ -466,6 +470,8 @@ Prüfung
 - 11.10. (c) Gruppen, Ausschnitt, Sorte im Kopf, Skizzenfeld, Winkel
   im Bogen, Schülerfrage zuerst, Einstieg = Handgriff, Zugabe nur auf
   Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
+- 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
+  leicht → schwer; Umbau nach zweitem Blatt → P
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
