@@ -254,6 +254,37 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Teilaufgaben, herausgelöst mit echter Sache (Marke „nach P10 ’24“),
   leicht → schwer; am Ende die schwerste echte Teilaufgabe des
   Handgriffs. Echte Aufgaben nicht zuerst.
+- **Blatt = alle Originale der letzten fünf Jahre** (Lehrer 12.10.,
+  ersetzt „eine echte je Erscheinungsform“ vom 11.10.). Warum: Bei
+  vier Zeilen je Aufgabe passen die jungen Originale einer Einheit
+  fast immer auf zwei Seiten; dann ist nichts auszuwählen, nur zu
+  ordnen, und der Schüler weiß, dass er alles Junge gesehen hat.
+  Beispiel: Flächen 12 Originale 2022–2026 auf zwei Seiten; Dreiecke
+  (27) bleibt bei fünf Blättern. Grenze: Basisaufgaben immer alle
+  aufs Blatt; Ältere in den Mehr-Block; Einheiten mit höchstens vier
+  Originalen in fünf Jahren werden Stufe der Nachbareinheit, solange
+  das Blatt zwei Seiten hält und mit der schwersten echten endet
+  (ändert den Zuschnitt vom 10.10. für Lineare, Daten,
+  Wahrscheinlichkeit; Körper nicht, 3 Seiten).
+- **Marke mit B** (Lehrer 12.10.): Basisaufgaben tragen die Marke
+  „’25 · B1e“, einmal im Blattkopf „B = Basisteil, ohne
+  Taschenrechner“; ihre neuen Zahlen gehen im Kopf (Zahlenregel).
+- **Jahre im Stufenkopf** (Lehrer 12.10.): nur die Jahre, jüngstes
+  zuerst, zweistellig, alle mit Daten; die älteren als fünf Jahre
+  nach einem Strich und heller: „25 · 24 · 23 · 22 | 19 · 16“. Warum:
+  Der Schüler sieht, wie oft die Stufe zuletzt drankam, und dahinter,
+  dass sie alt und verlässlich ist. Stufenköpfe deutlicher: feine
+  graue Linie darüber, mehr Abstand, etwas größer; kein Kasten,
+  keine Farbe (mathblatt.sty, einmal für alle Blätter).
+- **Einstieg = erster Schritt des Originals** (Lehrer 12.10., Nr. 9
+  Flächen). Warum: Ein Einstieg bereitet den Ansatz vor, den der
+  Schüler im Original zuerst gehen muss; nach Leichtigkeit gewählte
+  Bankzeilen tun das nicht. Beispiel: vor „wie viel Prozent der
+  Kreisfläche sind grau“ die Frage an derselben Figur „Teil : Ganzes
+  – was ist hier der Teil, was das Ganze?“. Grenze: nur, wo der
+  Schüler ohne ihn vor dem Original stolpert; der Setzer nimmt keinen
+  Einstieg aus der Bank, nur den, der in der Gliederung steht; in
+  eigenen Worten, nie das Beispiel der Regel wörtlich.
 - **Eigene Aufgaben sparsam** (Lehrer 12.10., Blatt Flächen H37).
   Warum: Das Blatt tragen die Originale; eine eigene Aufgabe ist ein
   Denkanstoß dort, wo der Schüler sonst vor dem Original stolpert,

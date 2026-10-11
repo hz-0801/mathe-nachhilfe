@@ -354,6 +354,8 @@ P aus Daten ≈ 0,3 Mio Fable – teurer als der Hand-Satz, weil Daten
 und Setzer zugleich wachsen.
 
 ## 9 Später
+- Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
+  amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 
@@ -474,6 +476,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Warum-Liste als Entwurf, Fable-Kritiker über vier Blätter; zwei
   Linien vorgeschlagen (§ 7 Schritt 5a). Lehrer 11.10.: Agenten erst
   nach Go; je Runde ein Muster und die Stichprobe, nicht alle Blätter.
+- 12.10.2026: Blatt Flächen aus Daten (H37), Lehrer-Durchsicht: Blatt =
+  alle Originale der letzten fünf Jahre, Basis immer, Mehr = ältere;
+  kleine Einheiten (≤ 4 Originale) werden Stufe der Nachbareinheit;
+  Stufen nach dem Gesuchten (Linie Stufe = Handgriff bestätigt, Regel);
+  Einstieg = erster Schritt des Originals, nur aus der Gliederung;
+  eigene Aufgaben sparsam; Marke mit B; Jahre im Stufenkopf ohne
+  Füllwort; Stufenköpfe deutlicher (pruefung.md § 5).
 - 11.10.2026 (e): Linie „Stufe = eigener Handgriff“ (Lehrer 11.10.),
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
@@ -534,6 +543,9 @@ Prüfung
   Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
 - 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
   leicht → schwer; Umbau nach zweitem Blatt → P
+- 12.10. Blatt = alle Originale der letzten fünf Jahre, Basis immer,
+  Mehr = ältere; Einheiten ≤ 4 Originale → Stufe der Nachbareinheit;
+  Einstieg nur aus der Gliederung; Marke mit B → P
 - 11.10. (e) Blatt + Mehr: Mehr-Block je Einheit beim Bau, Setzer
   ohne Modell; Portionen je Seite, Ordnung Quelle → Schwere, reihum
   gemischt; nur Originale → P
