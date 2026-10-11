@@ -66,6 +66,12 @@ Offen mit Grund: keine Zeile hängt (alle Zahlen getauscht oder "keine Zahlen" v
 - 2025-OS-K2a (Vierecke; auf Blatt)
 - 2021-OS-B1j (Vierecke; nicht auf Blatt; keine Zahlen)
 
+## Nachzug 11.10. (Kritiker)
+
+- Familien mit eine Zahlenwahl je Aufgabe, Vorspann in jedem Teil: 2022-OS-K5a–d, 2026-FOR-K4a–c, 2019-OS-K3a–c, 2021-OS-K3a–c, 2016-OS-K7b/c, 2024-OS-K6a/b/d, 2017-OS-K4a–c, 2018-OS-K4b–d, 2023-OS-K7a/b.
+- Glatte Ergebnisse wie im Original: 2017-OS-K4c (BC 7,50 m), 2023-OS-K7b (BC 172,0 cm), 2022-OS-K5a (AD 11,0 m).
+- 2018-OS-K4d: 30° bleibt (γ 4°, Peilung D 34°); 2020-OS-K5b: Zahlen 11, 6, 14 (drei verschiedene); 2019-OS-K3c: nur Zahlen geändert.
+
 ## Hinweise
 
 - 61 verschiedene ids in zuordnung-dreiecke.csv; die zwei 2026-EBR-Zwillinge (K3a, K3b) stehen nur als Nebenplatz und tragen dieselbe Aufgabe wie 2026-FOR-K4a/K4b; sie haben keine eigene Zeile (mehr-pruef.py kennt die Ausnahme). Es bleiben 59 Zeilen.
