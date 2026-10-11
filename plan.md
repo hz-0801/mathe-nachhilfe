@@ -257,9 +257,10 @@ Abschnitt 3 gilt nur, soweit er hier steht.
 
 ## 8 Modelle und Kosten
 
-Bau-Agenten Opus; Kritiker und Leser Fable. Das Fable-Kontingent soll
-aufgebraucht werden (Lehrer 10.10.); Fable zählt aber auch auf die
-Woche (abgelesen 04.10. und 09.10.).
+Chat, Bau-Agenten, Kritiker und Leser Fable, bis das Fable-Kontingent
+leer ist (Lehrer 10.10., 11.10.: nicht wieder Opus vorschlagen);
+danach Opus. Fable zählt aber auch auf die Woche (abgelesen 04.10.
+und 09.10.).
 Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
 Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
 → die 54 P10-Kerneinheiten ≈ 0,3–1,6 Wochen Kontingent. M2 misst den Wert;
