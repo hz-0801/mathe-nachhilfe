@@ -298,8 +298,27 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   eigener Text; nie Heftseiten, kopierte Abbildungen, längere
   Passagen, Verlagslösungen. Du-Form, Operatoren in Du-Form, auch im
   Prüfstein (06.10.).
-- „mehr“ liefert zuerst die übrigen Originale (07.10.); Anhang „Mehr
-  zum Üben“ nur auf Zuruf (06.10.).
+- **Andere Zahlen** (Lehrer 11.10.): Jede Aufgabe aus einer Prüfung
+  trägt auf Blatt und im Mehr-Block andere Zahlen als das Original,
+  auch der Prüfstein. Warum: Die Originale bleiben unverbraucht für
+  die Generalprobe am Ende; der Schüler erkennt kein Ergebnis wieder.
+  Beispiel: 2024-OS-K6b (Seilbahn) mit anderer Höhe und Länge,
+  Winkel bleibt ähnlich groß. Grenze: Die Aufgabe bleibt dieselbe –
+  gleicher Zahlentyp, gleiche Glätte wie das Original (Basisteil
+  glatt, Hauptteil krumm), gleiche Schwere; eine Zahl, die die
+  Aufgabe trägt (Tripel, besonderer Winkel), bekommt ein
+  gleichwertiges Gegenstück oder bleibt. Vorstufen dürfen schöner
+  sein (bank.md). Jede Lösung mit Skript nachgerechnet.
+- **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): je Einheit
+  alle Originale, die nicht aufs Blatt kamen, als Liste in
+  `msa/mehr-p10.csv` (Spalten wie herausgeloest-p10.csv, dazu
+  einheit, schwere I–III aus niveau_geschaetzt, rang). Ordnung:
+  Quelle (BB/BE letzte fünf Jahre → ältere BB → andere Länder, IQB),
+  darin leicht → schwer; der Setzer druckt je „mehr“ die nächste
+  Portion (eine Seite), reihum aus leicht, mittel, schwer, endet mit
+  der schwersten; nur Originale, nichts Erfundenes – fehlen leichte,
+  ist die Portion schwer. Anhang „Mehr zum Üben“ nur auf Zuruf
+  (06.10.).
 
 ## 6 Lösung
 
