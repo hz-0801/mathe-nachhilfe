@@ -1,8 +1,8 @@
 # Mehr-Block Dreiecke – Stand
 
-Fertig: 10 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 20 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
 
-Noch nicht bearbeitet: 49 (Reihenfolge der Zuordnung).
+Noch nicht bearbeitet: 39 (Reihenfolge der Zuordnung).
 
 ## Fertig
 
@@ -16,19 +16,19 @@ Noch nicht bearbeitet: 49 (Reihenfolge der Zuordnung).
 - 2026-FOR-K4a (Länge mit Pythagoras; auf Blatt)
 - 2022-OS-K2c (Länge mit Pythagoras; auf Blatt)
 - 2020-OS-K7a (Länge mit Pythagoras; nicht auf Blatt)
+- 2019-OS-K3a (Länge mit Pythagoras; nicht auf Blatt)
+- 2016-OS-K7b (Länge mit Pythagoras; nicht auf Blatt)
+- 2026-FOR-K2c (Länge mit Pythagoras; nicht auf Blatt)
+- 2025-OS-K4a (Länge mit Pythagoras; auf Blatt)
+- 2018-OS-K6d (Länge mit Pythagoras; nicht auf Blatt; Zahl ohne Rechenwirkung (nur Durchmesser))
+- 2019-OS-K2d (Länge mit Pythagoras; nicht auf Blatt)
+- 2025-OS-B1g (Seite oder Winkel mit sin, cos, tan; auf Blatt; keine Zahlen)
+- 2020-OS-B1c (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
+- 2020-OS-B1j (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; 30° bleibt (besonderer Winkel), Zähler 7 → 9)
+- 2019-OS-B1h (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
 
 ## Noch nicht bearbeitet
 
-- 2019-OS-K3a
-- 2016-OS-K7b
-- 2026-FOR-K2c
-- 2025-OS-K4a
-- 2018-OS-K6d
-- 2019-OS-K2d
-- 2025-OS-B1g
-- 2020-OS-B1c
-- 2020-OS-B1j
-- 2019-OS-B1h
 - 2018-OS-B1g
 - 2017-OS-B1j
 - 2022-OS-K5b
