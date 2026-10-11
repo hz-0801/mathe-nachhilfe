@@ -232,8 +232,12 @@ vollständig, dann ordnen, dann bauen.
       die vier Stufen waren Figuren) – Lehrer 11.10.: gilt als
       Linie; der Kritiker prüft im Nachzug (c) jede Stufe der vier
       Blätter darauf, umgebaut wird erst, wenn ein zweites Blatt
-      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer 11.10.: ja; Portionen und Ordnung des
-      Mehr-Blocks in Klärung): das Blatt schlank (eine echte
+      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer 11.10.: ja). Mehr-Block = geordnete Liste in
+      der Bank, jedes „mehr“ druckt die nächste Portion (eine Seite);
+      Ordnung: Quelle (BB/BE jung → BB alt → andere Länder, IQB),
+      darin leicht → schwer, Portionen reihum gemischt als Mini-Blatt,
+      das mit der schwersten endet; nur Originale, nichts Erfundenes –
+      fehlen leichte, ist die Portion eben schwer (Lehrer 11.10.): das Blatt schlank (eine echte
       je Erscheinungsform, endet mit der typischen schwersten), dazu
       je Einheit ein Mehr-Block mit allen übrigen Originalen leicht →
       schwer, gruppiert, vom Setzer ohne Modell – Bedingungen: Blatt
@@ -477,7 +481,8 @@ Prüfung
 - 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
   leicht → schwer; Umbau nach zweitem Blatt → P
 - 11.10. (e) Blatt + Mehr: Mehr-Block je Einheit beim Bau, Setzer
-  ohne Modell → P
+  ohne Modell; Portionen je Seite, Ordnung Quelle → Schwere, reihum
+  gemischt; nur Originale → P
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
