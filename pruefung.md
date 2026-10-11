@@ -254,6 +254,35 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Teilaufgaben, herausgelöst mit echter Sache (Marke „nach P10 ’24“),
   leicht → schwer; am Ende die schwerste echte Teilaufgabe des
   Handgriffs. Echte Aufgaben nicht zuerst.
+- **Eigene Aufgaben sparsam** (Lehrer 12.10., Blatt Flächen H37).
+  Warum: Das Blatt tragen die Originale; eine eigene Aufgabe ist ein
+  Denkanstoß dort, wo der Schüler sonst vor dem Original stolpert,
+  nie eine Kopie auf gleicher Höhe – mehr kann er nachbestellen.
+  Beispiel: vor „stelle die Formel um“ reicht „A = a · b, stelle nach
+  a um“; ein Rechteck 8 × 3 neben dem Original 4,5 × 2,5 fällt weg.
+  Grenze: Ein Einstieg je Stufe höchstens, und nur, wenn die Stufe
+  ihn braucht; der Setzer setzt keinen Einstieg, wo keiner gesetzt
+  ist. Eher weniger, eher als Anstoß.
+- **Stufen heißen nach dem Gesuchten** (Lehrer 12.10.; bestätigt
+  Linie „Stufe = eigener Handgriff“ als zweites Blatt nach Winkel,
+  plan.md § 7 Schritt 5a – gilt damit als Regel). Warum: Der Schüler
+  sortiert nach dem, was er tun soll, nicht nach Figur oder
+  Einzelfall. Beispiel Flächen: Formeln · Fläche gesucht · Umfang
+  gesucht · Formeln umstellen; „Figur erst zerlegen“ (ein Original in
+  fünf Jahren) ist keine Stufe, sondern die schwerste Aufgabe unter
+  „Fläche gesucht“. Grenze: eine Stufe braucht einen eigenen ersten
+  Schritt und mehr als ein Original.
+- **Vom Ende her beim Einstieg** (Lehrer 12.10.). Warum: In der
+  Prüfung hat der Schüler die Formelsammlung; der nützliche Anstoß
+  ist, sie zu finden, nicht Formeln zu raten. Beispiel: „Auf welcher
+  Seite stehen die Flächenformeln? Seite __“ statt „Welche Formel
+  passt zur Figur?“. Grenze: als Einstieg, nicht als Teilaufgabe im
+  Original (Lehrer 11.10.).
+- **Skizze in Geometrie** (Lehrer 11./12.10.). Warum: Der Schüler
+  rechnet an der Figur, nicht am Text. Beispiel: eigene Aufgaben
+  und Teilaufgaben mit Figur bekommen eine Skizze oder ein
+  Skizzenfeld, in dem er selbst zeichnet. Grenze: wo sie hilft, nicht
+  bei jeder Aufgabe; nicht wörtlich nachbauen.
 - **Wie viele echte je Sorte** (Lehrer 10.10.): eine. Eine zweite oder
   dritte derselben Sorte, wenn beide gelten: (1) sie sieht anders aus
   – andere Sache, Darstellung oder Formulierung; nur andere Zahlen

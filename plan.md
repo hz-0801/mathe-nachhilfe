@@ -232,7 +232,8 @@ vollständig, dann ordnen, dann bauen.
       die vier Stufen waren Figuren) – Lehrer 11.10.: gilt als
       Linie; der Kritiker prüft im Nachzug (c) jede Stufe der vier
       Blätter darauf, umgebaut wird erst, wenn ein zweites Blatt
-      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer 11.10.: ja). Mehr-Block = geordnete Liste in
+      die Tendenz bestätigt – bestätigt 12.10. durch Blatt Flächen
+      (Lehrer), gilt als Regel (pruefung.md § 5). **Blatt + Mehr** (Lehrer 11.10.: ja). Mehr-Block = geordnete Liste in
       der Bank, jedes „mehr“ druckt die nächste Portion (eine Seite);
       Ordnung: Quelle (BB/BE jung → BB alt → andere Länder, IQB),
       darin leicht → schwer, Portionen reihum gemischt als Mini-Blatt,
