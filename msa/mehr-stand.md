@@ -89,3 +89,13 @@ Offen mit Grund: 2014-GYM-B1g, 2015-GYM-B1e, 2018-GYM-B1d, 2018-OS-B1d, 2022-OS-
 - Diagramm- und Tabellenzahlen stehen in der Spalte abbildung; das Prüfskript vergleicht Wortlaut und abbildung mit dem Original.
 
 Zeilen: 2022-OS-B1f, 2020-OS-B1a, 2026-FOR-B1a, 2014-OS-B1a, 2017-OS-B1b, 2021-OS-B1c, 2019-OS-K5a, 2015-OS-K2a, 2015-OS-K2b, 2014-OS-K3a, 2014-OS-K3b, 2014-OS-K3c, 2015-OS-B1e, 2014-OS-B1e, 2023-OS-K6a, 2023-OS-K6b, 2018-OS-K7a, 2015-OS-K7c, 2023-OS-B1b, 2025-OS-B1a, 2024-OS-B1e, 2022-OS-K4b, 2026-FOR-K3c, 2016-OS-K2c, 2021-OS-K5a, 2020-OS-K2d, 2020-OS-K4c, 2025-OS-K4b, 2017-OS-K2b, 2019-OS-K5b, 2023-OS-K5c
+
+## Kapitel lineare – 30 Zeilen
+
+Offen mit Grund: keine Zeile hängt.
+
+- Familien über Kapitelgrenzen: eine Zahlenwahl, in bemerkung der Zeile festgehalten und in den Kapiteln quadratische, gleichungssysteme, wachstum nachzuziehen: 2024-OS-K3 (f = 2x + 3, p = x² − 5, T(−4|10)), 2021-OS-K2 (f = 2x − 1, Parabel x² + 4x − 4), 2023-OS-K4 (p = −(x − 1)² + 5, f = 3x − 2, y = −11), 2026-FOR-K5 (f = −3x + 1, p = (x − 3)² − 1, q = −(x − 3)² − 1), 2021-OS-K6 (Kerze 36 cm, −0,3 cm je Minute), 2025-OS-K5b/c (p = x² − 8x + 13; 5a eigener Satz).
+- 2016-OS-K6a–c: Busfirmen 150 € + 1,20 €/km gegen 1,80 €/km; 6d (Zimmer) eigene Zahlen im Kapitel gleichungssysteme.
+- 2024-OS-K3c steht hier (Wortlaut in wortlaut-eigen-quadratische.csv, Hauptplatz auch quadratische; dort nicht doppelt).
+
+Zeilen: 2025-OS-B1f, 2024-OS-B1i, 2016-OS-B1c, 2019-OS-K2a, 2019-OS-K2b, 2019-OS-K2c, 2024-OS-K3a, 2024-OS-K3c, 2026-FOR-K5a, 2026-FOR-K5b, 2022-OS-K3a, 2021-OS-K2a, 2021-OS-K2b, 2025-OS-K5a, 2017-OS-K5a, 2017-OS-K5b, 2015-OS-K4d, 2023-OS-K4a, 2023-OS-B1i, 2022-OS-K6a, 2022-OS-K6b, 2021-OS-K6a, 2021-OS-K6c, 2021-OS-K6d, 2021-OS-K7a, 2023-OS-K3a, 2023-OS-K3b, 2016-OS-K6a, 2016-OS-K6b, 2016-OS-K6c

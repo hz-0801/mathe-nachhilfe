@@ -82,7 +82,7 @@ def main():
         if r['zahlart'] not in ('ganz', 'dezimal', 'bruch', 'prozent'):
             fehler.append(f'{i}: zahlart')
         for feld in ('wortlaut', 'loesung'):
-            if MINUS.search(r[feld]):
+            if MINUS.search(re.sub(r'\$[^$]*\$', '', r[feld])):
                 fehler.append(f'{i}: ASCII-Minus in {feld}')
         pr = r['pruef'].strip()
         if pr:
