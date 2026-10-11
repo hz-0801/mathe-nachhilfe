@@ -1,8 +1,8 @@
 # Mehr-Block Dreiecke – Stand
 
-Fertig: 20 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 30 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
 
-Noch nicht bearbeitet: 39 (Reihenfolge der Zuordnung).
+Noch nicht bearbeitet: 29 (Reihenfolge der Zuordnung).
 
 ## Fertig
 
@@ -26,19 +26,19 @@ Noch nicht bearbeitet: 39 (Reihenfolge der Zuordnung).
 - 2020-OS-B1c (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
 - 2020-OS-B1j (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; 30° bleibt (besonderer Winkel), Zähler 7 → 9)
 - 2019-OS-B1h (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
+- 2018-OS-B1g (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
+- 2017-OS-B1j (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt; keine Zahlen)
+- 2022-OS-K5b (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2024-OS-K6b (Seite oder Winkel mit sin, cos, tan; auf Blatt)
+- 2026-FOR-K4b (Seite oder Winkel mit sin, cos, tan; auf Blatt)
+- 2020-OS-K5b (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2019-OS-K3b (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2022-OS-K5d (Seite oder Winkel mit sin, cos, tan; auf Blatt)
+- 2026-FOR-K4c (Seite oder Winkel mit sin, cos, tan; nicht auf Blatt)
+- 2023-OS-K7b (Seite oder Winkel mit sin, cos, tan; auf Blatt)
 
 ## Noch nicht bearbeitet
 
-- 2018-OS-B1g
-- 2017-OS-B1j
-- 2022-OS-K5b
-- 2024-OS-K6b
-- 2026-FOR-K4b
-- 2020-OS-K5b
-- 2019-OS-K3b
-- 2022-OS-K5d
-- 2026-FOR-K4c
-- 2023-OS-K7b
 - 2021-OS-K3a
 - 2021-OS-K3b
 - 2018-OS-K4d
