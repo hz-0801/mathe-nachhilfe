@@ -264,7 +264,9 @@ Abschnitt 3 gilt nur, soweit er hier steht.
 
 Chat, Bau-Agenten, Kritiker und Leser Fable, bis das Fable-Kontingent
 leer ist (Lehrer 10.10., 11.10.: nicht wieder Opus vorschlagen);
-danach Opus. Fable zählt aber auch auf die Woche (abgelesen 04.10.
+danach Opus. Mechanik (Zahlen tauschen, Zeilen umformen, mit Skript
+geprüft) mit dem schwächsten Modell, das reicht – Sonnet, nicht
+Haiku bei Zahlwahl (Lehrer 11.10.: Fable für Anspruchsvolles sparen). Fable zählt aber auch auf die Woche (abgelesen 04.10.
 und 09.10.).
 Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
 Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
