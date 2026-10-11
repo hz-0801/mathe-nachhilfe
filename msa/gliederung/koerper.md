@@ -78,18 +78,22 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Originale:** 2022-OS-K2a 2016-OS-B1j 2018-OS-B1i 2017-OS-B1c
 - **Bank:** koerper-e1-k1-s1 koerper-e1-k1-s3 koerper-e1-k1-s4 koerper-e1-k5-s3 koerper-e1-k5-s4 koerper-e4-k2-s8 pyramide-kegel-kugel-e2-k2-s10 koerper-e1-k1-s10[2016-OS-B1j]
 - **Zuschnitt:** Netz und Schrägbild
+- **Frage:** „Welche Form haben die Flächen, und wie viele sind es?“
 
 ### Netz mit Maßen skizzieren
 - **Kern:** nein – 4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall
 - **Originale:** 2023-OS-K5a 2020-OS-K5a 2019-OS-K4a 2014-OS-K5b
 - **Bank:** koerper-e1-k1-s5 koerper-e3-k1-s9 koerper-e3-k2-s4 koerper-e4-k3-s4 pyramide-kegel-kugel-e1-k5-s11
 - **Zuschnitt:** Netz und Schrägbild
+- **Frage:** „Welche Kanten liegen nach dem Falten aneinander? Die sind gleich lang.“
 
 ### Körper im Schrägbild skizzieren
 - **Kern:** nein – 2 echte (2015, 2024)
 - **Originale:** 2024-OS-K4b 2015-OS-K6b
 - **Bank:** koerper-e1-k1-s6 koerper-e1-k1-s7 koerper-e1-k4-s1 pyramide-kegel-kugel-e1-k5-s12 pyramide-kegel-kugel-e2-k2-s9 pyramide-kegel-kugel-e1-k6-s3 pyramide-kegel-kugel-e2-k3-s3 pyramide-kegel-kugel-e3-k1-s6
 - **Zuschnitt:** Netz und Schrägbild
+- **Frage:** „Was liegt vorn in wahrer Größe, was läuft schräg nach hinten?“
+- **Anzeigename:** Schrägbild skizzieren
 
 ## Plätze der Originale
 
