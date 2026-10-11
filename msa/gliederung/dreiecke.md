@@ -137,7 +137,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2017-OS-B1j | Seitenverhältnis benennen |  |  | Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“ |
 | 2017-OS-K4a | Winkelsumme |  |  | Hauptplatz nach typ „Winkelsumme im Dreieck anwenden“ |
 | 2017-OS-K4b | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
-| 2017-OS-K4c | Seite berechnen (Sinussatz) |  | flaechen:Grundfigur berechnen | Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben |
+| 2017-OS-K4c | Seite berechnen (Sinussatz) |  | flaechen:Fläche gesucht | Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben |
 | 2018-GYM-B1g | Seitenverhältnis benennen |  |  | GYM-Zwilling von 2018-OS-B1g |
 | 2018-GYM-K2e | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach typ „Streckenlänge aus Koordinaten berechnen“ |
 | 2018-GYM-K3b | Winkel berechnen |  |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |

@@ -112,7 +112,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2019-OS-K2b | erkennen und ablesen |  |  | Hauptplatz nach typ „Graph nach Eigenschaft auswählen“ |
 | 2019-OS-K2c | erkennen und ablesen |  |  | Hauptplatz nach typ „Geradengleichung zu Graph zuordnen“ |
 | 2020-GYM-K3c |  |  | Gleichung aufstellen und rückwärts rechnen | Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben |
-| 2021-GYM-K3c | durch zwei Punkte, Gleichung ablesen |  | flaechen:Grundfigur berechnen | Hauptplatz nach typ „Geradengleichung aus zwei Punkten“. Trapezfläche unter der Geraden |
+| 2021-GYM-K3c | durch zwei Punkte, Gleichung ablesen |  | flaechen:Fläche gesucht | Hauptplatz nach typ „Geradengleichung aus zwei Punkten“. Trapezfläche unter der Geraden |
 | 2021-OS-K2a | aus Gleichung zeichnen |  |  | Hauptplatz nach typ „Gerade aus Gleichung zeichnen“ |
 | 2021-OS-K2b | zeichnen und Aussagen prüfen |  | rechnerisch an Gerade und Parabel | Hauptplatz nach typ „Eigenschaften eines Graphen beurteilen“. Zwischenschritt aus typ_neben |
 | 2021-OS-K6a | Endwert berechnen |  |  | Hauptplatz nach typ „Endwert linearer Veränderung berechnen“ |

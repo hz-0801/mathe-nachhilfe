@@ -110,7 +110,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2015-GYM-K4b |  |  | Mantelfläche mit Kosten; dreiecke:Dreieck erst in Figur oder Körper finden | Hauptplatz außerhalb der P10-Stufen. Mantellinie über Pythagoras im Kegel |
 | 2015-OS-K6b | Körper im Schrägbild skizzieren |  |  | Hauptplatz nach typ „Körperskizze beschriften“ |
 | 2016-GYM-B1j | Netz erkennen |  |  | GYM-Zwilling von 2016-OS-B1j |
-| 2016-GYM-K5b |  |  | Volumen direkt; flaechen:Grundfigur berechnen | Hauptplatz außerhalb der P10-Stufen. Fläche des gleichseitigen Dreiecks |
+| 2016-GYM-K5b |  |  | Volumen direkt; flaechen:Fläche gesucht | Hauptplatz außerhalb der P10-Stufen. Fläche des gleichseitigen Dreiecks |
 | 2016-OS-B1j | Netz erkennen |  |  | Hauptplatz nach typ „Gegenfläche im Würfelnetz bestimmen“ |
 | 2016-OS-K3c | Volumen direkt |  |  | Hauptplatz nach typ „Volumen Kugel berechnen“ |
 | 2017-GYM-B1c | Netz erkennen |  |  | GYM-Zwilling von 2017-OS-B1c |
