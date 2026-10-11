@@ -16,15 +16,17 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026; Stufen neu nach dem Ge
 
 ## Stufen
 
-Vier Stufen nach dem Gesuchten (Lehrer 12.10., pruefung.md § 5 „Stufen heißen nach dem Gesuchten“):
-Formeln · Fläche gesucht · Umfang gesucht · Formeln umstellen. „Figur erst zerlegen“ und „Anteil in
-Prozent“ sind keine Stufen mehr; ihre Originale stehen bei dem, was sie suchen (Fläche oder Umfang).
+Fünf Stufen (Lehrer 12.10., pruefung.md § 5 „Stufen heißen nach dem Gesuchten“):
+Formeln · Fläche gesucht · Umfang gesucht · Formeln umstellen · Anteil in Prozent. „Figur erst zerlegen“
+ist keine Stufe mehr; ihre Originale stehen bei dem, was sie suchen (Fläche oder Umfang). „Anteil in
+Prozent“ kam am 12.10. als fünfte Stufe zurück: eigener erster Schritt (Teil und Ganzes erkennen, dann
+teilen), zwei Originale.
 Einstieg nur, wo die Stufe ihn braucht (Schülerfrage ohne Rechnen); `Einstieg: nein` sperrt den
 Bank-Einstieg der Stufe.
 
 ### Formeln
 - **Anzeigename:** Formeln
-- **Schülerfrage:** In der Prüfung hast du die Formelsammlung. Auf welcher Seite stehen die Flächenformeln (Rechteck, Dreieck, Trapez, Kreis)? Schlag nach.
+- **Schülerfrage:** Auf welcher Seite stehen die Flächenformeln (Rechteck, Dreieck, Trapez, Kreis)? Schlag nach.
 - **Schülerfrage-Fälle:** Seite → nachschlagen (je nach Ausgabe)
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Seite merken, in der Prüfung sofort aufschlagen
@@ -37,9 +39,9 @@ Bank-Einstieg der Stufe.
 ### Fläche gesucht
 - **Anzeigename:** Fläche gesucht
 - **Einstieg:** nein
-- **Kern:** ja – 13 echte 2015–2025 (Niveau I–III): Fläche einer Grundfigur, einer zusammengesetzten Figur (2017, 2018, 2022) oder ihr Anteil in Prozent (2023, 2025); Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis, Zusammengesetzte Figuren
-- **Originale:** 2025-OS-B1i 2025-OS-B1e 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b 2019-OS-B1e 2016-OS-K3b 2022-OS-K5e 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b 2019-OS-K4c 2015-OS-K6c 2015-OS-K5d 2023-OS-K5c
-- **Bank:** flaechen-e1-k2-s1(i) flaechen-e1-k2-s2(i) flaechen-e1-k2-s3(i) flaechen-e2-k1-s1(i) flaechen-e2-k1-s2(i) flaechen-e2-k1-s3(i) flaechen-e3-k1-s1(i) flaechen-e3-k1-s2(i) flaechen-e3-k1-s3(i) flaechen-e3-k1-s4(i) flaechen-e4-k1-s1(i) flaechen-e4-k1-s2(i) flaechen-e4-k1-s4(i) flaechen-e4-k1-s5(i) kreis-e2-k1-s1(i) kreis-e2-k1-s2(i) kreis-e2-k1-s3(i) kreis-e2-k1-s8 kreis-e2-k2-s1(i) flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7 kreis-e3-k1-s11[2025-OS-B1e] flaechen-e5-k3-s1
+- **Kern:** ja – 13 echte 2015–2025 (Niveau I–III): Fläche einer Grundfigur oder einer zusammengesetzten Figur (2017, 2018, 2022); Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis, Zusammengesetzte Figuren
+- **Originale:** 2025-OS-B1i 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b 2019-OS-B1e 2016-OS-K3b 2022-OS-K5e 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b 2019-OS-K4c 2015-OS-K6c 2015-OS-K5d
+- **Bank:** flaechen-e1-k2-s1(i) flaechen-e1-k2-s2(i) flaechen-e1-k2-s3(i) flaechen-e2-k1-s1(i) flaechen-e2-k1-s2(i) flaechen-e2-k1-s3(i) flaechen-e3-k1-s1(i) flaechen-e3-k1-s2(i) flaechen-e3-k1-s3(i) flaechen-e3-k1-s4(i) flaechen-e4-k1-s1(i) flaechen-e4-k1-s2(i) flaechen-e4-k1-s4(i) flaechen-e4-k1-s5(i) kreis-e2-k1-s1(i) kreis-e2-k1-s2(i) kreis-e2-k1-s3(i) kreis-e2-k1-s8 kreis-e2-k2-s1(i) flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7 flaechen-e5-k3-s1
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### Umfang gesucht
@@ -60,6 +62,14 @@ Bank-Einstieg der Stufe.
 - **Kern:** ja – 6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette
 - **Originale:** 2023-OS-B1c 2020-OS-B1d 2018-OS-B1f 2020-OS-K7b 2014-OS-K5c 2014-OS-K5d
 - **Bank:** flaechen-e1-k2-s5(i) flaechen-e1-k2-s6(i) flaechen-e1-k2-s7(i) flaechen-e2-k1-s5(i) flaechen-e3-k1-s5(i) flaechen-e4-k1-s3(i) flaechen-e4-k3-s1(i) kreis-e1-k2-s4(i) kreis-e1-k2-s5(i) kreis-e2-k1-s6(i) flaechen-e1-k2-s9 flaechen-e3-k1-s7 flaechen-e4-k1-s6
+- **Zuschnitt:** Flächeninhalt und Umfang
+
+### Anteil in Prozent
+- **Anzeigename:** Anteil in Prozent
+- **Einstieg:** nein
+- **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (Basisteil 2025, Niveau I) und Verschnitt (2023, Sternchen, Niveau III); eigener erster Schritt: Teil und Ganzes erkennen, dann teilen
+- **Originale:** 2025-OS-B1e 2023-OS-K5c
+- **Bank:** kreis-e3-k1-s11[2025-OS-B1e]
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ## Plätze der Originale
@@ -108,7 +118,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-OS-K4a | Fläche gesucht |  |  | Hauptplatz nach typ „Kreisfläche berechnen“ |
 | 2025-GYM-B1b | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt zusammengesetzter Figur berechnen“ |
 | 2025-GYM-K5a | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt Trapez berechnen“ |
-| 2025-OS-B1e | Fläche gesucht | prozent:Prozentsatz |  | Hauptplatz nach Befund Geometrie 10.10.: nur 145 : 360, nichts wird zerlegt, keine Strecke. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6) |
+| 2025-OS-B1e | Anteil in Prozent | prozent:Prozentsatz |  | Hauptplatz nach Befund Geometrie 10.10.: nur 145 : 360, nichts wird zerlegt, keine Strecke. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6) |
 | 2025-OS-B1i | Fläche gesucht |  |  | Hauptplatz nach typ „Term zu Figur angeben“ |
 | 2025-OS-K2b | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt Drachenviereck berechnen“ |
 | 2026-EBR-B1h | Umfang gesucht |  |  | EBR-Zwilling von 2026-FOR-B1h |

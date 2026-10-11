@@ -348,7 +348,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2023-OS-K4c;quadratische:x zu gegebenem y;;quadratische:Nullstellen berechnen;Hauptplatz nach typ „Argument zu Funktionswert berechnen“. quadratische Gleichung mit p-q-Formel lösen
 2023-OS-K5a;koerper:Netz mit Maßen skizzieren;;;Hauptplatz nach typ „Mantelfläche Zylinder als Netz skizzieren“
 2023-OS-K5b;koerper:Volumen direkt;;;Hauptplatz nach typ „Volumen Zylinder berechnen“
-2023-OS-K5c;prozent:Prozent aus einer berechneten Fläche;flaechen:Fläche gesucht;prozent:Prozentsatz;Hauptplatz nach typ „Verschnitt in Prozent berechnen“. Zwischenschritt aus typ_neben
+2023-OS-K5c;prozent:Prozent aus einer berechneten Fläche;flaechen:Anteil in Prozent;prozent:Prozentsatz;Hauptplatz nach typ „Verschnitt in Prozent berechnen“. Zwischenschritt aus typ_neben
 2023-OS-K5d;koerper:rückwärts: Radius oder Höhe aus Volumen;;;Hauptplatz nach typ „Höhe eines Zylinders aus Volumen berechnen“
 2023-OS-K6a;prozent:Prozentsatz;;;Hauptplatz nach typ „Prozentsatz berechnen“
 2023-OS-K6b;prozent:Aussagen prüfen;;prozent:Prozentsatz;Hauptplatz nach typ „Anteilsaussage prüfen und korrigieren“. Anteile 3,9 : 7,8 und 1,95 : 7,8 berechnen
@@ -403,7 +403,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2025-GYM-K6a;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2025-GYM-K6b;;;prozent:Prozentwert;Hauptplatz außerhalb der P10-Stufen. 1,5 % von 1000 Chips
 2025-OS-B1a;prozent:Grundwert;;;Hauptplatz nach typ „Grundwert berechnen“
-2025-OS-B1e;flaechen:Fläche gesucht;prozent:Prozentsatz;;Hauptplatz nach Befund Geometrie 10.10.: nur 145 : 360, nichts wird zerlegt, keine Strecke. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6)
+2025-OS-B1e;flaechen:Anteil in Prozent;prozent:Prozentsatz;;Hauptplatz nach Befund Geometrie 10.10.: nur 145 : 360, nichts wird zerlegt, keine Strecke. 145° von 360° in Prozent ist der ganze Handgriff (wie Kästchen-Fälle, Beschluss N2.6)
 2025-OS-B1f;lineare:erkennen und ablesen;;;Hauptplatz nach typ „Graph einer linearen Funktion erkennen“
 2025-OS-B1g;dreiecke:Seitenverhältnis benennen;;;Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“
 2025-OS-B1h;lineare:Lösung prüfen;;;Hauptplatz nach typ „Lösung durch Einsetzen prüfen“

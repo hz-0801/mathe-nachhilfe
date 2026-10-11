@@ -119,7 +119,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2023-OS-B1b | Grundwert |  |  | Hauptplatz nach typ „Grundwert berechnen“ |
 | 2023-OS-B1d |  | Prozentwert | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 25 % von 24 Kästchen = Prozentwert (Beschluss N2.6), 25 % = 1/4 |
 | 2023-OS-B1f |  |  | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 44 % = 0,44 als Teilschritt |
-| 2023-OS-K5c | Prozent aus einer berechneten Fläche | flaechen:Fläche gesucht | Prozentsatz | Hauptplatz nach typ „Verschnitt in Prozent berechnen“. Zwischenschritt aus typ_neben |
+| 2023-OS-K5c | Prozent aus einer berechneten Fläche | flaechen:Anteil in Prozent | Prozentsatz | Hauptplatz nach typ „Verschnitt in Prozent berechnen“. Zwischenschritt aus typ_neben |
 | 2023-OS-K6a | Prozentsatz |  |  | Hauptplatz nach typ „Prozentsatz berechnen“ |
 | 2023-OS-K6b | Aussagen prüfen |  | Prozentsatz | Hauptplatz nach typ „Anteilsaussage prüfen und korrigieren“. Anteile 3,9 : 7,8 und 1,95 : 7,8 berechnen |
 | 2024-GYM-K5a | Erhöhung und Veränderung in Prozent |  | Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
