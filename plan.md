@@ -221,9 +221,33 @@ vollständig, dann ordnen, dann bauen.
    darauf in geltenden Dateien, Skripten und Einstiegen auf
    gemeinsam.md/pruefung.md – erledigt 10.10. Das volle Ordnen der
    Repos nach § 9.
-4. Erster Bau nach pruefung.md: eine P10-Einheit aus dem Zuschnitt
-   (§ 2) als Prüfungsblatt bauen, Kritiker, Lehrer sieht sie. Prüft,
-   ob die Sortendatei trägt, bevor die 27 Einheiten gebaut werden.
+4. Erster Bau nach pruefung.md – erledigt 10./11.10.: P4Z Pythagoras,
+   dann Runde Dreiecke (GYW, T2U, LXA, NUB); Lehrer: „gut
+   zusammengestellt, die Bereiche passen“; Durchsicht ergab 26
+   Festlegungen (§ 10, 11.10. a–c), T2U Winkel zweimal nachgezogen
+   und gilt als Muster der Form.
+5. Jetzt (11.10. nachts, Lehrer: Umzug), in dieser Folge:
+   a) Zwei Linien entscheiden (vorgeschlagen 11.10., Lehrer-Wort
+      offen): **Stufe = eigener Handgriff**, sonst Einstieg + Reihe
+      leicht → schwer (Winkel hat einen Handgriff; die vier Stufen
+      waren Figuren); **Blatt + Mehr**: das Blatt schlank (eine echte
+      je Erscheinungsform, endet mit der typischen schwersten), dazu
+      je Einheit ein Mehr-Block mit allen übrigen Originalen leicht →
+      schwer, gruppiert, vom Setzer ohne Modell – Bedingungen: Blatt
+      endet auf Prüfungshöhe, Mehr-Block gibt es für jede Einheit.
+   b) Warum-Liste abnehmen (aufgabenbank bau/warum-2026-10-11.md,
+      15 Regeln als Warum – Beispiel – Grenze; sieben Unklarheiten
+      aus bau/befund-kritiker-runde-dreiecke.md klären) und die
+      Regeln vom 11.10. in gemeinsam.md/pruefung.md in diese Form
+      bringen. Lehrer 11.10.: Regeln geben das Warum, nicht das Wie;
+      Beispiele sind eine Lösung von mehreren; Tendenz aus einem
+      Blatt wird Regel erst mit dem zweiten.
+   c) Nachzug der vier Blätter aus den Befundlisten
+      (bau/pruefung/*/befund-kritiker-2026-10-11.md) und Winkel ohne
+      Stufen; Fable-Kritiker gegen das Warum; der Lehrer sieht nur
+      sin, cos, tan (Stichprobe, Linie 6). Agenten erst nach Go.
+   d) Setzer für Sorte P (Wunschliste bau/befunde-M3.md) und
+      Mehr-Block; dann Kapitel Flächen, Körper.
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
@@ -258,6 +282,14 @@ Danach zwei Fable-Kritiker parallel (Geometrie, Funktionen; je 125 000
 Token, 2½ min) → Woche 76 → 77 %, Fable 40 → 41 %; dann ein
 Fable-Agent Eintragen in die Gliederung (166 000 Token, 5 min).
 ≈ 0,25 Mio Fable je Fable-Punkt und je Wochenpunkt.
+
+Messwert Runde Dreiecke (10./11.10.): Prüfungsblatt 0,15–0,23 Mio
+Token je Bau (8 min), Nachzug 0,15–0,24 Mio; vier Blätter parallel
+0,72 Mio in 9 min; Fable-Kritiker über vier Blätter 0,16 Mio. Keine
+neuen Bankzeilen in fünf Bauten (sechs beim Nachzug Winkel). Woche
+78 → 81 %, Fable 42 → 47 % (11.10. nachts, mit Chat und
+Durchsicht); Warnung der Anzeige: bei dem Tempo Ende vor dem Reset
+Montag 18:00. Restliche 22 Einheiten ≈ 4 Mio ≈ 5 Wochenpunkte.
 
 ## 9 Später
 
@@ -374,6 +406,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Einstieg = Handgriff der ersten echten, nichts über P10 (Zugabe nur
   auf Bestellung; 3c gestrichen), α–δ; Stufe „Winkelbeziehungen“,
   Trapez-Aussage 2026 nach Vierecke.
+
+- 11.10.2026 (d): Umzug. Winkel-Durchsicht: Nr. 2 und 4 gestrichen,
+  Innenwinkelsumme ohne Zusatz, Skizzenfeld ohne Rahmen (Lehrer);
+  Warum-Liste als Entwurf, Fable-Kritiker über vier Blätter; zwei
+  Linien vorgeschlagen (§ 7 Schritt 5a). Lehrer 11.10.: Agenten erst
+  nach Go; je Runde ein Muster und die Stichprobe, nicht alle Blätter.
 
 ## 11 Register der Entscheidungen
 
