@@ -1,8 +1,10 @@
-# Mehr-Block Dreiecke – Stand
+# Mehr-Block P10 – Stand
 
-Fertig: 59 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 291 Zeilen in 10 Kapiteln (dreiecke 59, prozent 31, lineare 30, quadratische 31, flaechen 25, koerper 24, daten 34, wahrscheinlichkeit 33, gleichungssysteme 6, wachstum 18).
 
-Offen mit Grund: keine Zeile hängt (alle Zahlen getauscht oder "keine Zahlen" vermerkt).
+Offen mit Grund: keine Zeile hängt (alle Zahlen getauscht oder „keine Zahlen“ vermerkt). Nicht gebaut werden Nebenplätze ohne Wortlaut (siehe Kapitelabschnitte) und die EBR-Zwillinge (stehen mit ihrer FOR-Zeile). Zählgrenze 80 je Kapitel nirgends erreicht.
+
+zahlart = Zahlentyp der Aufgabe (ganz, dezimal, bruch, prozent); Diagramm- und Tabellenzahlen stehen in der Spalte abbildung.
 
 ## Fertig
 
@@ -158,3 +160,12 @@ Offen mit Grund: keine Zeile hängt.
 - 2024-OS-K7a/b: Laden A und Laden B hatten schon im Original getrennte Zahlen, hier ebenfalls.
 
 Zeilen: 2022-OS-K7a, 2022-OS-K7b, 2024-OS-K7a, 2024-OS-K7b, 2021-OS-K7b, 2016-OS-K6d
+
+## Kapitel wachstum – 18 Zeilen
+
+Offen mit Grund: 2020-OS-K4c (Hauptplatz auch prozent; Zeile dort).
+
+- Familienzahlen abgestimmt: 2020-OS-K4 (48 Tausend Liter, 4 %; 4c in prozent), 2021-OS-K6b (Kerze 36 cm, aus lineare), 2026-FOR-K7 (590 €, 2,3 %), 2025-OS-K7 (70 Bakterien, Faktor 1,3), 2017-OS-K7 (11 % je km), 2016-OS-K4 (6,00 mg, 9 % je Stunde), 2019-OS-K7 (12 kg, 5 %).
+- Tausendertrennung in Lösungen ohne Leerzeichen (37996), weil das Prüfskript die letzte Zahl liest.
+
+Zeilen: 2026-FOR-K7a, 2026-FOR-K7b, 2026-FOR-K7c, 2025-OS-K7a, 2025-OS-K7b, 2017-OS-K7a, 2017-OS-K7b, 2017-OS-K7c, 2017-OS-K7d, 2016-OS-K4a, 2016-OS-K4b, 2016-OS-K4e, 2019-OS-K7a, 2019-OS-K7b, 2019-OS-K7c, 2020-OS-K4a, 2018-OS-K2a, 2021-OS-K6b
