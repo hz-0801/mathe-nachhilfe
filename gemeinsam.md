@@ -13,6 +13,17 @@ in einem Satz, dazu ein gutes und ein schlechtes Beispiel; kein Mittel
 ohne Zweck, im Zweifel fehlt es) · Lieferung und Übersicht (Schalter
 auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
+**Regeln als Warum, nicht als Wie** (Lehrer 11.10.): Warum: Vom Lehrer
+beschriebene Lösungen baut der Agent wörtlich nach, auch wo sie nicht
+passen; darum steht jede Regel als Warum (Zweck) – Beispiel (eine
+Lösung von mehreren) – Grenze (wo sie nicht gilt). Beispiel: die
+Regeln vom 11.10. in dieser Datei und in pruefung.md (eingearbeitet
+12.10., plan.md § 7 Schritt 5b). Grenze: Der Kritiker prüft, ob das
+Warum erreicht ist, nicht ob der Wortlaut befolgt wurde; eine Tendenz
+aus einem Blatt wird Regel erst mit dem zweiten – bis dahin steht
+„Tendenz (ein Blatt)“ dabei. „Offen (Lehrer): …“ nennt eine Frage,
+die der Lehrer noch entscheidet.
+
 ## Rahmen
 
 - Werkzeug für die eigene Arbeit, der Lehrer ist einziger Anwender
@@ -59,32 +70,44 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   Kein grauer Zusatz. Rand-Blätter grau; das gelieferte Blatt ▸ fett,
   darunter eingerückt seine Stufen. Davor „Vorher“, danach „Weiter“ –
   die Nachbarthemen aus dem Katalog.
-- Gruppen (Lehrer 11.10.): In der Übersicht stehen die Einheiten eines
-  Kapitels unter Gruppen, die die erste Entscheidung des Schülers
-  nennen (Dreiecke: „Rechtwinklige Dreiecke“ · „Alle Dreiecke und
-  Vierecke“); Gruppe = Art, Einheit = Werkzeug, Stufe = Handgriff.
-  Die Gruppe steht als Zeile „Gruppe:“ in der Gliederungsdatei.
-- Ausschnitt am Blattende (Lehrer 11.10.): unter der Fundstellentabelle
-  drei graue Zeilen „Vorher: …“, „▸ <dieses Blatt>“, „Weiter: …“ mit
-  den Nachbarn aus der Lernfolge – der Schüler sieht, wo er steht.
-- Namen (Lehrer 11.10.): Der Einheitsname ist kurz und nennt das
-  Werkzeug oder die Sache („Pythagoras“, „sin, cos, tan“, „Winkel“);
-  die Stufen nennen den Handgriff als Reihe gleicher Form in
-  Schülersprache („Gleichung aufstellen · Hypotenuse gesucht · Kathete
-  gesucht · in Figuren versteckt“). Ein Zusatz in Worten nur, wo der
-  Name allein nicht trennt und die Gruppe es nicht schon sagt; keine
-  Formel. Übersicht,
-  Titel, Titelzeile, Stufenköpfe und Lösung sind wortgleich.
+- **Gruppen** (Lehrer 11.10.): Warum: Der Schüler soll die Übersicht
+  als Reihe lesen, nicht als Liste von Fachwörtern; die Gruppe nennt
+  seine erste Entscheidung. Beispiel: In der Übersicht stehen die
+  Einheiten eines Kapitels unter Gruppen (Dreiecke: „Rechtwinklige
+  Dreiecke“ · „Alle Dreiecke und Vierecke“); Gruppe = Art, Einheit =
+  Werkzeug („Pythagoras“), Stufe = Handgriff („Hypotenuse gesucht“);
+  die Gruppe steht als Zeile „Gruppe:“ in der Gliederungsdatei.
+  Grenze: Wo Stufen zwei Achsen mischen (Werkzeug/Figur), ist die
+  Einteilung zu prüfen. Tendenz (ein Blatt). Offen (Lehrer): Einheit
+  „Vierecke“ ist Figur, „Pythagoras“ Werkzeug – eine Achse je Ebene
+  auch für Einheiten?
+- **Ausschnitt am Blattende** (Lehrer 11.10.): Warum: Das Blatt liegt
+  ohne Übersicht auf dem Tisch; der Schüler soll sehen, wo er steht.
+  Beispiel: unter der Fundstellentabelle drei graue Zeilen
+  „Vorher: …“, „▸ <dieses Blatt>“, „Weiter: …“ mit den Nachbarn aus
+  der Lernfolge. Grenze: trägt keinen Inhalt, der im Blatt steht.
+- **Namen** (Lehrer 11.10.): Warum: Übersicht, Titelzeile, Stufenkopf
+  und Lösung sind dieselbe Sache – andere Wörter heißen Suchen; und
+  die Stufen sollen sich als Reihe lesen. Beispiel: Der Einheitsname
+  ist kurz und nennt das Werkzeug oder die Sache („Pythagoras“,
+  „sin, cos, tan“, „Winkel“); die Stufen nennen den Handgriff als
+  Reihe gleicher Form in Schülersprache („Gleichung aufstellen ·
+  Hypotenuse gesucht · Kathete gesucht · in Figuren versteckt“);
+  Übersicht, Titel, Titelzeile, Stufenköpfe und Lösung sind
+  wortgleich. Grenze: Ein Zusatz in Worten nur, wo der Name allein
+  nicht trennt und die Gruppe es nicht schon sagt; keine Formel.
 - Kern und Rand: Rand-Blätter stehen immer in der Serie; der Lehrer
   überspringt sie bei Bedarf (07./08.10.). Rand beim Prüfungsblatt nach
   Häufigkeit in der Prüfung, beim Lernblatt nach Lehrwerk und RLP.
 - Keine Teilnummern. Am Ende jedes Blatts eine Zeile mit Vorgänger und
   empfohlenem Nachfolger; beim ersten Blatt eines Themas ist der
   Vorgänger die Voraussetzung aus dem Katalog, beim letzten der
-  Nachfolger das nächste Thema (08.10.). Genannt wird nur, was
-  bestellbar ist – ein Blatt der Sorte oder ein gebautes Lernblatt
-  mit Kennung; sonst entfällt „Vorher“ (Lehrer 11.10.; Prüfung:
-  pruefung.md „Lernfolge“).
+  Nachfolger das nächste Thema (08.10.). **Vorher nur, wenn
+  bestellbar** (Lehrer 11.10.): Warum: Ein Verweis, den der Schüler
+  nicht bestellen kann, ist ein leeres Versprechen. Beispiel: genannt
+  wird ein Blatt der Sorte oder ein gebautes Lernblatt mit Kennung.
+  Grenze: sonst entfällt „Vorher“ (Prüfung: pruefung.md
+  „Lernfolge“).
 - Die Kennung gehört zum gedruckten Blatt; ein Neubau bekommt eine neue.
 
 ## Zweck
@@ -111,36 +134,60 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   erkennen, üben von leicht nach schwer, am Ende ohne Hilfe.
 - Jede Stufe ändert eine Sache (Zahl, Darstellung, Fragerichtung,
   Sache); die Zahlen wachsen von Kopfrechnen bis Prüfung.
-- Päckchen = Leiter im Kleinen (Lehrer 11.10.): je Teilaufgabe kommt
-  ein Merkmal dazu, in dieser Folge: Darstellung (Skizze → nur Text),
-  Zahlart (glatt → krumm, runden), Fragerichtung (vorwärts →
-  rückwärts), Einheiten (gleich → gemischt). Was die Teilaufgaben
-  unterscheidet, steht nicht als Hinweis daneben („Wähle selbst …“).
-- Schülerfrage zuerst (Lehrer 11.10.; gibt „Erkennen vor Rechnen“
-  seinen Inhalt): Der Einstieg jeder Stufe beantwortet die Frage, die
-  der Schüler sich vor der ersten echten Aufgabe stellt – „was ist
-  das“, „woran erkenne ich es“ –, ohne Rechnung, in einer von vier
-  Formen: Zeigen („Welches der drei Dreiecke ist gleichschenklig?
-  Woran siehst du es?“), Unterscheiden („Was unterscheidet die
-  beiden?“), Ergänzen („Ein Trapez hat ___ parallele Seiten“),
-  Markieren („Markiere die gleichen Seiten und Winkel“). Eine
-  Erkennen-Stufe stellt das Merkmal gegen seinen Nachbarn
-  (gleichschenklig/gleichseitig, Raute/Parallelogramm). Der Bau
-  schreibt je Stufe zuerst die Schülerfrage in den Plan.
-- Einstieg = Handgriff der ersten echten (Lehrer 11.10.): Der Einstieg
-  einer Stufe übt denselben Handgriff wie ihre erste echte Aufgabe;
-  fehlt die Bankzeile, wird sie geschrieben – nie die nächstbeste
-  gedehnt.
-- Über der Prüfungshöhe nichts auf der Leiter (pruefung.md
-  „Füllfolge“); eine Aufgabe darüber nur als „Zugabe“, eingerückt
-  und grau markiert, und nur, wenn der Lehrer sie bestellt
-  (Lehrer 11.10.).
-- Skizze (Lehrer 11.10.): wenn die Figur selbst das Gelernte ist
-  (Raute, Trapez – wiedererkennen) und bei der ersten Aufgabe jeder
-  Stufe; die folgenden ohne. Eine echte Aufgabe hat die Skizze nur,
-  wenn das Original eine hat.
   Gut: 6 und 8 cm → 36 und 15 cm → √97 → Bilderrahmen. Schlecht: zwei
   Aufgaben derselben Sorte hintereinander, nur mit anderer Zahl.
+- **Päckchen = Leiter im Kleinen** (Lehrer 11.10.): Warum: Die
+  Teilaufgaben sollen je ein Merkmal weiter sein, sonst sind es drei
+  gleiche Aufgaben. Beispiel: je Teilaufgabe kommt ein Merkmal dazu,
+  in dieser Folge: Darstellung (Skizze → nur Text), Zahlart (glatt →
+  krumm, runden), Fragerichtung (vorwärts → rückwärts), Einheiten
+  (gleich → gemischt). Grenze: Was die Teilaufgaben unterscheidet,
+  steht nicht als Hinweis daneben („Wähle selbst …“ ist ein Tipp).
+  Tendenz (ein Blatt). Offen (Lehrer): gilt „kein Tipp im Text“ auch
+  für Einzelaufgaben (P4Z 10, 11), nicht nur im Päckchen?
+- **Schülerfrage zuerst** (Lehrer 11.10.; gibt „Erkennen vor Rechnen“
+  seinen Inhalt): Warum: Vor der ersten echten Aufgabe fragt sich
+  der Schüler „was ist das“, „woran erkenne ich es“, nicht „wie
+  rechne ich“; steht die Antwort als Hilfssatz im Aufgabentext, übt
+  er Rechnen, wo er Erkennen üben sollte. Beispiel: Der Einstieg
+  jeder Stufe beantwortet diese Frage ohne Rechnung, in einer von
+  vier Formen: Zeigen („Welches der drei Dreiecke ist
+  gleichschenklig? Woran siehst du es?“), Unterscheiden („Was
+  unterscheidet die beiden?“), Ergänzen („Ein Trapez hat ___
+  parallele Seiten“), Markieren („Markiere die gleichen Seiten und
+  Winkel“); eine Erkennen-Stufe stellt das Merkmal gegen seinen
+  Nachbarn (gleichschenklig/gleichseitig, Raute/Parallelogramm); der
+  Bau schreibt je Stufe zuerst die Schülerfrage in den Plan.
+  Grenze: Rechnen ist erlaubt, wenn es natürlich passt; eine
+  Rechenaufgabe nie verbiegen, damit sie passt – dann eine der vier
+  Formen; das Beispiel nicht wörtlich nachbauen. Tendenz (ein
+  Blatt). Offen (Lehrer): Schülerfrage (Erkennen) und Einstieg
+  (Handgriff der ersten echten) – zwei Aufgaben je Stufe oder eine?
+- **Einstieg = Handgriff der ersten echten** (Lehrer 11.10.): Warum:
+  Der Einstieg soll die unterste echte Aufgabe erreichbar machen;
+  eine gedehnte Nachbarzeile übt etwas anderes. Beispiel: Der
+  Einstieg einer Stufe übt denselben Handgriff wie ihre erste echte
+  Aufgabe – T2U rechter Winkel: Begründen an einfacher Figur vor dem
+  Drachen 2025. Grenze: fehlt die Bankzeile, wird sie geschrieben –
+  nie die nächstbeste gedehnt; eine Bankaufgabe, die schwerer ist
+  als die leichteste echte, steht falsch (Bank und echte sind eine
+  Reihe). Tendenz (ein Blatt).
+- **Nichts über der Prüfungshöhe** (Lehrer 11.10.): Warum: Zeit und
+  Vertrauen – was nie drankommt, kostet beides. Beispiel: über der
+  Prüfungshöhe nichts auf der Leiter (pruefung.md „Füllfolge“); T2U
+  3c (Viereck mit Gleichung) gestrichen. Grenze: eine Aufgabe
+  darüber nur als „Zugabe“, eingerückt und grau markiert, und nur,
+  wenn der Lehrer sie bestellt.
+- **Skizze, wo sie trägt** (Lehrer 11.10.): Warum: Die Figur selbst
+  ist Lernstoff (Raute, Trapez – wiedererkennen), und der erste Fall
+  einer Stufe braucht das Bild; danach soll der Schüler es sich
+  vorstellen. Beispiel: Viereck mit Winkeln in den Ecken (T2U 2b);
+  die erste Aufgabe jeder Stufe mit Skizze, die folgenden ohne.
+  Grenze: Eine echte Aufgabe hat die Skizze nur, wenn das Original
+  eine hat; wo eine Figur beschrieben, nicht gezeigt wird, steht das
+  Skizzenfeld („Satz“). Tendenz (ein Blatt). Offen (Lehrer): erster
+  Fall eines Text-Päckchens – Bild oder Skizzenfeld? Beides zugleich
+  geht nicht.
 - Rückwärts- und Mischsprosse vor der Prüfungshöhe; krumme Zahlen
   sparsam und oben; Sorte = anders denken (02./08.10.).
 - Erkennen vor Rechnen; Maß ist die Lehrer-Vorlage Hypotenuse
@@ -184,26 +231,38 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
 ## Satz
 
-- Kopf jeder Seite (Lehrer 11.10.; ersetzt „keine Blattart, keine
-  laufende Titelzeile“ vom 03.–08.10. – es gibt zwei Sorten, und die
-  Blätter liegen gemischt auf dem Tisch): links oben klein grau Sorte
-  und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts oben
-  die Kennung; auf Folgeseiten links zusätzlich der Name. Seite 1
-  darunter der Titel (nur der Name), darunter eine graue Zeile mit den
-  Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
-  Stufe. Kein Datum, keine Namenszeile, kein Inhaltsverzeichnis.
-- Fuß jeder Seite: Seitenzahl mittig als „1/3“ (Lehrer 11.10.);
-  kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg, kein
-  Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
+- **Kopf jeder Seite** (Lehrer 11.10.; ersetzt „keine Blattart, keine
+  laufende Titelzeile“ vom 03.–08.10.): Warum: Es gibt zwei Sorten,
+  und die Blätter liegen gemischt und ohne Übersicht auf dem Tisch –
+  jede Seite muss allein stehen. Beispiel: links oben klein grau
+  Sorte und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts
+  oben die Kennung; auf Folgeseiten links zusätzlich der Name; Seite
+  1 darunter der Titel (nur der Name), darunter eine graue Zeile mit
+  den Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
+  Stufe. Grenze: Kein Datum, keine Namenszeile, kein
+  Inhaltsverzeichnis; die Stufenzeile trägt keine Jahre und keine
+  Häufigkeit (das steht im Blatt).
+- **Fuß jeder Seite** (Seitenzahl Lehrer 11.10.): Warum: Lose Seiten
+  finden zueinander, und der Schüler sieht, ob eine fehlt. Beispiel:
+  Seitenzahl mittig als „1/3“. Grenze: Sie verdrängt nichts im Fuß –
+  kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg,
+  kein Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
 - Kennung: drei Zeichen aus 2–9 und A–Z ohne I und O, gegen das
   Register eindeutig.
 - Marke grau im linken Rand auf der Grundlinie der Nummer (Formen in
-  pruefung.md „Marke“); eigene ohne Marke. Stern = FOR-Niveau: bei
-  Sternchenaufgaben der OS-Hefte bis 2025 und bei Aufgaben, die ab
-  2026 nur im FOR-Heft stehen (03.10., ausgeschrieben 11.10.).
-- Nummer und Teilaufgabe in zwei Spalten: die Buchstaben a), b), c)
-  stehen untereinander, abgesetzt von der Nummer – auf dem Blatt und
-  in der Lösung (Lehrer 11.10.).
+  pruefung.md „Marke“); eigene ohne Marke. **Stern = FOR-Niveau**
+  (03.10., ausgeschrieben Lehrer 11.10.): Warum: Der Schüler soll mit
+  einem Zeichen, das er aus dem Heft kennt, sehen, was nur FOR
+  schreibt. Beispiel: Stern bei Sternchenaufgaben der OS-Hefte bis
+  2025 und bei Aufgaben, die ab 2026 nur im FOR-Heft stehen. Grenze:
+  was beide Hefte haben, ohne Stern; eigene ohne Marke und Stern.
+- **Buchstabenspalte** (Lehrer 11.10.): Warum: Nummer und Teilaufgabe
+  sind auf einen Blick zu finden, in Blatt und Lösung gleich – der
+  Lehrer prüft in einer Sekunde. Beispiel: Nummer und Teilaufgabe in
+  zwei Spalten: die Buchstaben a), b), c) stehen untereinander,
+  abgesetzt von der Nummer – auf dem Blatt und in der Lösung.
+  Grenze: nicht für Original und Original neu (Heftseiten wie im
+  Heft).
 - Eingerückt: eine Schriftstufe kleiner, schwarz, Marke grau.
 - Zwei Spalten bei Skizze, Tabelle oder Graph: Text oben über volle
   Breite; darunter links, was man ansieht, rechts, was man tut;
@@ -211,30 +270,42 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   die Skizze breiter als die linke Spalte ist. Skizze vor den
   Antwortmöglichkeiten.
 - Ankreuzen nur bei einer echten Entscheidung, höchstens vier
-  Optionen: Frage, dann Kästchen; vor jeder Option ein Großbuchstabe
-  A, B, C, D, die Lösung nennt den Buchstaben (Lehrer 11.10.; wie das
-  P10-Heft); kurze Optionen (zusammen höchstens 120 Zeichen) in einer
-  Zeile, sonst untereinander. Wo gerechnet wird, steht eine Lücke.
-- Lückentexte und Zuordnungen untereinander, eine Zeile je
-  Teilaufgabe, Gleichheitszeichen untereinander, die Lücke in jeder
-  Zeile an derselben Stelle; verschiedene Lückenstellen sind
-  verschiedene Aufgaben (Lehrer 11.10.).
+  Optionen: Frage, dann Kästchen; kurze Optionen (zusammen höchstens
+  120 Zeichen) in einer Zeile, sonst untereinander. Wo gerechnet
+  wird, steht eine Lücke. **Buchstaben vor Optionen** (Lehrer 11.10.;
+  wie das P10-Heft): Warum: Die Lösung nennt „B“, der Lehrer prüft in
+  einer Sekunde. Beispiel: vor jeder Option ein Großbuchstabe A, B,
+  C, D, die Lösung nennt den Buchstaben. Grenze: ja/nein ohne
+  Buchstaben; höchstens vier Optionen, auch bei echten.
+- **Lücken untereinander** (Lehrer 11.10.): Warum: Vergleichen ist
+  die Aufgabe; das Auge vergleicht in Spalten. Beispiel: Lückentexte
+  und Zuordnungen untereinander, eine Zeile je Teilaufgabe,
+  Gleichheitszeichen untereinander, die Lücke in jeder Zeile an
+  derselben Stelle. Grenze: verschiedene Lückenstellen sind
+  verschiedene Aufgaben. Tendenz (ein Blatt). Offen (Lehrer): Das
+  Beispiel „GYW Nr. 2 vier Brüche untereinander“ ist Sollzustand, das
+  Blatt hat 2×2 – gelten nur Beispiele aus dem Bestand?
 - Antwortfeld: kurze Antwort rechts in derselben Zeile. Keine
   vorgegebene Ergebnisform, die einen Schritt erspart (kein
   „c² = ___ , c = ___“). Rechenraum nur bei Rechen- und
   Begründungsaufträgen: Zeilen = Rechenschritte der Musterlösung + 1,
   höchstens 8, Karo.
-- Skizzen: Längen neben der Linie, nach außen; Winkelwerte innen im
-  Bogen (Lehrer 11.10.; Bausteine in mathblatt.sty entsprechend);
-  Verhältnisse nicht umgekehrt; rechter Winkel als Viertelkreis mit
-  Punkt; was die Skizze zeigt, beschreibt der Text nicht.
-- Skizzenfeld (Lehrer 11.10.): beschreibt eine Aufgabe eine Figur und
-  zeigt keine (Viereck mit drei Winkeln, Körper mit Maßen, Punkte im
-  Koordinatensystem, Sachaufgabe ohne Bild), steht links ein leerer
-  Rahmen „Skizze“, rechts das Karo – die Anregung ohne Tipp. Nicht,
-  wenn nichts zu skizzieren ist (zwei Winkel im Dreieck) und nicht,
-  wo die Prüfung die Figur mitgibt. Koordinatensysteme nur so groß wie
-  nötig; zwei im Paar gleich groß.
+- Skizzen: Längen neben der Linie, nach außen; Verhältnisse nicht
+  umgekehrt; rechter Winkel als Viertelkreis mit Punkt; was die
+  Skizze zeigt, beschreibt der Text nicht. **Winkelwerte im Bogen**
+  (Lehrer 11.10.): Warum: Der Wert gehört zum Winkel, nicht zur
+  Seite; außen steht er neben einer Länge und wird mit ihr
+  verwechselt. Beispiel: Winkelwerte innen im Bogen, Längen außen
+  (Bausteine in mathblatt.sty entsprechend). Grenze: keine bekannt.
+- **Skizzenfeld** (Lehrer 11.10.; ohne Rahmen Lehrer 11.10., plan.md
+  § 10 d): Warum: Wo eine Aufgabe eine Figur beschreibt und keine
+  zeigt, soll der Schüler sie sich selbst zeichnen – die Anregung
+  ohne Tipp. Beispiel: Viereck mit drei Winkeln, Körper mit Maßen,
+  Punkte im Koordinatensystem, Sachaufgabe ohne Bild: links das Wort
+  „Skizze“ (kein Rahmen), rechts das Karo. Grenze: Nicht, wenn
+  nichts zu skizzieren ist (zwei Winkel im Dreieck), und nicht, wo
+  die Prüfung die Figur mitgibt. Tendenz (ein Blatt).
+  Koordinatensysteme nur so groß wie nötig; zwei im Paar gleich groß.
 - Tabellen mit Linien; Kopf im Textmodus („Zeit in h“); Text über der
   Tabelle; Pfeile auf beiden Seiten, ohne Beschriftung.
 - Ruhe: Flattersatz; Abschnitte nur durch Abstand und Überschrift;
@@ -242,14 +313,19 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   die nächste Seite.
 - Ein Satz zum Auftrag je Aufgabe; gilt er für alle Teilaufgaben,
   einmal unter der Nummer; Teilaufgaben beginnen mit dem Prüfungsverb.
-  Im Bank-Einstieg unter einem gemeinsamen Auftrag genügen die
-  Angaben („a) Katheten 36 cm und 15 cm“); eine echte Aufgabe steht
-  immer für sich, denn der Stufenkopf ist Wegweiser, kein Aufgabentext
-  (Lehrer 11.10.).
-- Teilaufgaben mit Skizze: jede Teilaufgabe eine Zeile – links
-  Buchstabe, Text und darunter ihre Skizze, rechts ihr Karo; nie die
-  Skizze der einen unter dem Text der anderen (Lehrer 11.10., Befund
-  P4Z Nr. 4).
+  **Einstieg knapp, echte für sich** (Lehrer 11.10.): Warum: Der
+  Stufenkopf ist Wegweiser, kein Aufgabentext; eine echte Aufgabe
+  muss wie in der Prüfung allein lesbar sein. Beispiel: Im
+  Bank-Einstieg unter einem gemeinsamen Auftrag genügen die Angaben
+  („a) Katheten 36 cm und 15 cm“). Grenze: eine echte Aufgabe steht
+  immer für sich.
+- **Teilaufgabe mit Skizze = eigene Zeile** (Lehrer 11.10., Befund
+  P4Z Nr. 4): Warum: Der Schüler soll Text und Skizze einer
+  Teilaufgabe zusammen sehen – nie die Skizze der einen unter dem
+  Text der anderen. Beispiel: jede Teilaufgabe eine Zeile – links
+  Buchstabe, Text und darunter ihre Skizze, rechts ihr Karo. Grenze:
+  nur wo Teilaufgaben eigene Skizzen haben; eine gemeinsame Skizze
+  steht einmal („Zwei Spalten“).
 - Nebeneinander stehende Teile richten sich an gemeinsamen Linien aus.
 - Keine Hilfsmittel auf dem Zettel (03.–08.10.).
 
@@ -260,8 +336,11 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
   Du-Form, auch im Wortlaut der Prüfungsaufgaben (28.09./03.10.).
 - Keine Frage nach Begriffen, die das Blatt nicht einführt; Fachwort
   mit Alltagswort daneben.
-- Winkel heißen α, β, γ, δ; in echten Aufgaben die Buchstaben des
-  Originals; kein ε und weiter (Lehrer 11.10.).
+- **Sprache des Schülers** (Lehrer 11.10.): Warum: ε kennt ein
+  Zehntklässler nicht. Beispiel: Winkel heißen α, β, γ, δ;
+  Winkelbeziehungen heißen Nebenwinkel, Scheitelwinkel, Stufenwinkel.
+  Grenze: in echten Aufgaben die Buchstaben des Originals; kein ε und
+  weiter.
 - Schreibweise: Formelsammlung der Prüfung → Lehrwerke des Landes →
   Prüfungshefte nur für ihren Wortlaut. Strecke mit Überstrich;
   Division außerhalb von Formeln als Bruch; L = {…}; P(1 | 2 | 3); nur
@@ -271,9 +350,11 @@ auf Bank, Katalog, Prüfungsgliederung) · Handwerk (gilt immer).
 
 - Eigene Datei; eine Regel für alle Sorten: Tabelle, je Teilaufgabe
   eine Zeile, eine Aufgabe nie über Spalte oder Seite; zweispaltig nur,
-  wenn eine Seite wegfällt. Die Stufenköpfe des Blatts stehen
-  wortgleich in der Lösung; eine zweite Seite ist dann erlaubt
-  (Lehrer 11.10.).
+  wenn eine Seite wegfällt. **Stufenköpfe in der Lösung** (Lehrer
+  11.10.): Warum: Lösung und Blatt sind dieselbe Sache; der Schüler
+  findet die Stelle, ohne zu suchen. Beispiel: die Stufenköpfe des
+  Blatts stehen wortgleich in der Lösung. Grenze: eine zweite Seite
+  ist dann erlaubt.
 - Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage;
   Begründen: das Urteil. Rechts klein nur, was zum Ergebnis führt: je
   Handgriff ein Zwischenergebnis als Ansatz ⇒ Wert; Begründen: der

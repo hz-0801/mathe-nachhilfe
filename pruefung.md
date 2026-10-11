@@ -5,7 +5,9 @@ Prüfungsteile von aufgabenbank bau/bauregeln.md (2.2
 Prüfungsblatt/Prüfungsheft, 2.5, 4.9, 6.4 Punkte, 6.5). Über ihr steht
 plan.md (Ziel, Linien, Register § 11). Was beide Sorten gleich machen,
 steht in gemeinsam.md; die Zeilenform der Bank in aufgabenbank bank.md.
-Regeln werden mit Namen zitiert.
+Regeln werden mit Namen zitiert. Die Regeln vom 11.10. stehen seit
+12.10. als Warum – Beispiel – Grenze (gemeinsam.md „Regeln als Warum“,
+plan.md § 7 Schritt 5b).
 
 ## 1 Zweck
 
@@ -38,16 +40,18 @@ Gliederungsdateien).
   letzter Knopf, jeder Abschnitt auf neuer Seite“ (04.10.) und „Blatt =
   Lerneinheit“ (07./08.10.).
 - Die Übersicht vorn folgt diesen Einheiten (plan.md Linie 4).
-- **Lernfolge** (Lehrer 11.10.): Die Reihenfolge der Einheiten je
-  Kapitel unten ist die Lernfolge – wer eine Einheit braucht, steht
-  dahinter. Vor dem ersten Bau eines Kapitels wird sie an den
-  Stolpersteinen geprüft und umgestellt, wo eine Abhängigkeit dagegen
-  spricht. Das Prüfungsheft des Kapitels folgt ihr; auf dem Blatt
-  ist „Weiter“ die nächste Einheit der Folge, „Vorher“ nur die
-  Einheit, von der eine Abhängigkeit besteht, sonst leer; über die
-  Sorte hinaus („lernst du in …“) nur mit Kennung eines gebauten
-  Lernblatts. Dreiecke geprüft 11.10.: Winkel ohne Rechnung vor den
-  Sinussatz gezogen.
+- **Lernfolge** (Lehrer 11.10.): Warum: Wer eine Einheit braucht,
+  soll sie vorher gehabt haben; darum ist die Reihenfolge der
+  Einheiten je Kapitel unten die Lernfolge, und das Prüfungsheft des
+  Kapitels folgt ihr. Beispiel: Dreiecke geprüft 11.10. – Winkel
+  ohne Rechnung vor den Sinussatz gezogen, weil der Sinussatz den
+  dritten Winkel braucht; auf dem Blatt ist „Weiter“ die nächste
+  Einheit der Folge, „Vorher“ nur die Einheit, von der eine
+  Abhängigkeit besteht, sonst leer. Grenze: Vor dem ersten Bau eines
+  Kapitels wird die Folge an den Stolpersteinen geprüft und nur
+  umgestellt, wo eine Abhängigkeit dagegen spricht; über die Sorte
+  hinaus („lernst du in …“) nur mit Kennung eines gebauten
+  Lernblatts.
 
 Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
 
@@ -266,33 +270,45 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Teilaufgaben in Folge wie im Heft, eigener Wortlaut, Punkte, ohne
   Überschriften, ohne Hilfen, ohne laufende Nummer. Nicht auf dem
   einzelnen Blatt. Abitur: Prüfstein je Gebiet (offen).
-- **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.):
-  Überschrift = Stufenname, dahinter grau die Prüfungsjahre der Stufe
-  aus den letzten fünf, jüngstes zuerst, mit Zählbasis: „letzte
-  5 Jahre: 2026 · 2024 · 2022“; ohne Jahr „letzte 5 Jahre: –“ (Abitur:
-  letzte fünf BB-Jahrgänge). Gezählt werden Hauptplätze; eine Stufe
-  ohne Hauptplatz (Schlussstufe, Zwischenschritt) nennt die Jahre der
-  echten Aufgaben, die den Schritt enthalten. Die Zahl der Jahre und
-  die Zahl der echten Aufgaben auf dem Blatt sind unabhängig.
+- **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.): Warum:
+  „3 der letzten 5“ klingt nach Aufgabenzahl; Jahre sind konkret und
+  sagen dem Schüler, ob das drankommt. Beispiel: Überschrift =
+  Stufenname, dahinter grau die Prüfungsjahre der Stufe aus den
+  letzten fünf, jüngstes zuerst, mit Zählbasis: „letzte 5 Jahre:
+  2026 · 2024 · 2022“; ohne Jahr „letzte 5 Jahre: –“ (Abitur: letzte
+  fünf BB-Jahrgänge). Grenze: Gezählt werden Hauptplätze; eine Stufe
+  ohne Hauptplatz (Schlussstufe, Zwischenschritt) nennt die Jahre
+  der echten Aufgaben, die den Schritt enthalten; die Zahl der Jahre
+  und die Zahl der echten Aufgaben auf dem Blatt sind unabhängig.
+  Offen (Lehrer): Schlussstufe ohne eigene echte – welche Jahre im
+  Kopf („nicht geprüft“, Nebenplätze, nichts)?
 - **Schlussstufe „Pythagoras oder sin, cos, tan?“** (Lehrer 11.10.):
-  Entscheiden üben, nicht rechnen – fünf bis sechs kleine Skizzen, je
-  nur das Werkzeug ankreuzen (Pythagoras · sin, cos, tan ·
-  Winkelsumme), danach eine echte Aufgabe mit beidem. Sie darf das
-  Ende des Blatts sein; „am Ende die schwerste echte“ gilt dann für
-  die Stufe davor.
-- **Marke** grau links, mit Fundstelle (Lehrer 11.10.): „P10 ’24 · 6a“
-  nur bei voller echter Aufgabe, „nach P10 ’24 · 6a“ bei gekürzten und
-  herausgelösten, fremde „BY ’23 · 2b“, „VERA ’24“, „GYM ’23 · 3b“;
-  eigene ohne Marke.
+  Warum: In der Prüfung muss der Schüler erst entscheiden, welches
+  Werkzeug passt; das übt keine Rechenstufe. Beispiel: fünf bis
+  sechs kleine Skizzen, je nur das Werkzeug ankreuzen (Pythagoras ·
+  sin, cos, tan · Winkelsumme), danach eine echte Aufgabe mit
+  beidem. Grenze: Sie darf das Ende des Blatts sein; „am Ende die
+  schwerste echte“ gilt dann für die Stufe davor. Tendenz (ein
+  Blatt).
+- **Marke** grau links, mit Fundstelle (Lehrer 11.10.): Warum: Der
+  Schüler findet Original und Lösung im Stark-Heft, ohne eine Liste
+  zu suchen. Beispiel: „P10 ’24 · 6a“ nur bei voller echter Aufgabe,
+  „nach P10 ’24 · 6a“ bei gekürzten und herausgelösten, fremde
+  „BY ’23 · 2b“, „VERA ’24“, „GYM ’23 · 3b“. Grenze: eigene ohne
+  Marke. Offen (Lehrer): herausgelöste echte, die nur den Vorschritt
+  fragt (LXA 2) – Marke des Originals oder Zusatz?
 - **Punkte** nur beim Prüfstein (06.10.).
 - **Fundstellentabelle** (04./09.10.; Tabelle statt Liste Lehrer
-  11.10.): am Ende des Blatts klein über der Zeile Vorher/Weiter zwei
-  Zeilen: oben die Jahre 2026 … 2016 (jüngstes links; 2026 als
-  „26 FOR“ und „26 EBR“, wenn verschieden), darunter je Jahr die
-  Stellen (Aufgabe + Teilaufgabe, „4a 2c“), leer, wo nichts dran kam –
-  alle Originale der Einheit, auch die nicht aufs Blatt kamen, damit
-  der Schüler im Stark-Heft Original und Lösung findet und sieht, wie
-  oft die Einheit dran kommt.
+  11.10.): Warum: Der Schüler soll im Stark-Heft Original und Lösung
+  finden und auf einen Blick sehen, wie oft die Einheit dran kommt;
+  eine Liste zeigt die Lücken nicht. Beispiel: am Ende des Blatts
+  klein über der Zeile Vorher/Weiter zwei Zeilen: oben die Jahre
+  2026 … 2016 (jüngstes links; 2026 als „26 FOR“ und „26 EBR“, wenn
+  verschieden), darunter je Jahr die Stellen (Aufgabe + Teilaufgabe,
+  „4a 2c“), leer, wo nichts dran kam. Grenze: vollständig – alle
+  Originale der Einheit, auch die nicht aufs Blatt kamen; nur auf
+  dem Prüfungsblatt, das Lernblatt hat keine Fundstellen
+  (gemeinsam.md).
 - **Wortlaut** (04.10.): so nah wie erlaubt – innermathematisch fast
   wörtlich (Term, Zahlen, Operator), Sachaufgaben mit Idee und Zahlen,
   eigener Text; nie Heftseiten, kopierte Abbildungen, längere
@@ -315,16 +331,18 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Vorstufen dürfen schöner sein (bank.md). Jede Lösung mit Skript
   nachgerechnet. (Grenzen ergänzt nach Kritiker 11.10., aufgabenbank
   bau/befund-kritiker-mehr-dreiecke.md.)
-- **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): je Einheit
-  alle Originale, die nicht aufs Blatt kamen, als Liste in
-  `msa/mehr-p10.csv` (Spalten wie herausgeloest-p10.csv, dazu
-  einheit, schwere I–III aus niveau_geschaetzt, rang). Ordnung:
-  Quelle (BB/BE letzte fünf Jahre → ältere BB → andere Länder, IQB),
-  darin leicht → schwer; der Setzer druckt je „mehr“ die nächste
-  Portion (eine Seite), reihum aus leicht, mittel, schwer, endet mit
-  der schwersten; nur Originale, nichts Erfundenes – fehlen leichte,
-  ist die Portion schwer. Anhang „Mehr zum Üben“ nur auf Zuruf
-  (06.10.).
+- **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): Warum: Das
+  Blatt bleibt schlank (eine echte je Erscheinungsform, endet auf
+  Prüfungshöhe), und doch geht kein Original verloren; der Setzer
+  druckt „mehr“ ohne Modell. Beispiel: je Einheit alle Originale,
+  die nicht aufs Blatt kamen, als Liste in `msa/mehr-p10.csv`
+  (Spalten wie herausgeloest-p10.csv, dazu einheit, schwere I–III
+  aus niveau_geschaetzt, rang); Ordnung: Quelle (BB/BE letzte fünf
+  Jahre → ältere BB → andere Länder, IQB), darin leicht → schwer;
+  der Setzer druckt je „mehr“ die nächste Portion (eine Seite),
+  reihum aus leicht, mittel, schwer, endet mit der schwersten.
+  Grenze: nur Originale, nichts Erfundenes – fehlen leichte, ist die
+  Portion schwer; Anhang „Mehr zum Üben“ nur auf Zuruf (06.10.).
 
 ## 6 Lösung
 
