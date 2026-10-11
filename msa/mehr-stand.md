@@ -149,3 +149,12 @@ Offen mit Grund: keine Zeile hängt.
 - Einheit: „Zufallsgerät entwerfen“ und „Gegenereignis“ zählen zu „Baumdiagramm und Pfadregeln“ (Teilaufgaben 2022–2026 stimmen mit der Zählung 3 und 8 überein).
 
 Zeilen: 2025-OS-K3a, 2025-OS-K3b, 2025-OS-K3c, 2025-OS-K3d, 2020-OS-K6a, 2020-OS-K6b, 2020-OS-K6c, 2017-OS-B1f, 2024-OS-K5a, 2024-OS-K5b, 2024-OS-K5c, 2026-FOR-K6a, 2026-FOR-K6b, 2026-FOR-K6c, 2026-FOR-K6d, 2019-OS-K6a, 2019-OS-K6b, 2019-OS-K6c, 2018-OS-K7b, 2018-OS-K7c, 2017-OS-K6a, 2016-OS-K5c, 2016-OS-K5d, 2014-OS-K6a, 2014-OS-K6b, 2014-OS-K6c, 2016-OS-B1f, 2015-OS-B1a, 2014-OS-B1b, 2014-OS-B1d, 2015-OS-K7d, 2019-OS-B1g, 2018-OS-B1j
+
+## Kapitel gleichungssysteme – 6 Zeilen
+
+Offen mit Grund: keine Zeile hängt.
+
+- Zahlen sind aus dem Original nur geändert; Lösungen glatt in Cent wie im Original (24,60 / 33,40 €; 2,10 / 1,50 €; 6 Rosen, 9 Tulpen; 24,60 / 12,40 €; 6 und 8 Zimmer).
+- 2024-OS-K7a/b: Laden A und Laden B hatten schon im Original getrennte Zahlen, hier ebenfalls.
+
+Zeilen: 2022-OS-K7a, 2022-OS-K7b, 2024-OS-K7a, 2024-OS-K7b, 2021-OS-K7b, 2016-OS-K6d
