@@ -119,3 +119,13 @@ Offen mit Grund: 2023-OS-K5c (Hauptplatz auch prozent; Zeile dort).
 - Formelaufgaben ohne Zahlen (2022-OS-B1e, 2024-OS-B1c, 2025-OS-B1i, 2019-OS-B1e) unverändert („keine Zahlen“); 2014-OS-B1g: Kreuzbalken in der Abbildung 7 × 1 und 1 × 5.
 
 Zeilen: 2022-OS-B1e, 2024-OS-B1c, 2025-OS-B1i, 2019-OS-B1e, 2014-OS-B1g, 2026-FOR-B1h, 2024-OS-K4a, 2023-OS-K2b, 2023-OS-K2c, 2025-OS-K2b, 2016-OS-K3b, 2015-OS-K5d, 2015-OS-K6c, 2019-OS-K4c, 2023-OS-B1c, 2020-OS-B1d, 2018-OS-B1f, 2020-OS-K7b, 2014-OS-K5c, 2014-OS-K5d, 2022-OS-K5e, 2025-OS-B1e, 2018-OS-K6a, 2017-OS-K3a, 2017-OS-K3b
+
+## Kapitel koerper – 24 Zeilen
+
+Offen mit Grund: keine Zeile hängt.
+
+- Familienzahlen aus flaechen und dreiecke übernommen: 2024-OS-K4 (Kegel 25/60), 2015-OS-K6 (Pyramide 0,90/0,70), 2019-OS-K4 (Prisma 1,80/1,50), 2018-OS-K6 (Turm 5,8 m), 2014-OS-K5 (Vitrine), 2022-OS-K2 (Becher 7,5 cm, r = 3,4 cm), 2026-FOR-K2 (Turm 22,0/4,2/7,9), 2020-OS-K5 (5b: 11/6/14), 2023-OS-K5 (Dose r = 3,5 cm, h = 7 cm wie Deckel in prozent).
+- Abbildungsbeschreibungen mit Maßen (Netze auf Karo) sind angepasst, damit Setzer und Zeile zusammenpassen.
+- Netz-/Würfel-Ankreuzaufgaben ohne Zahlen (2016-OS-B1j, 2018-OS-B1i, 2017-OS-B1c) unverändert.
+
+Zeilen: 2026-FOR-B1f, 2022-OS-K2a, 2022-OS-K2b, 2022-OS-K2d, 2023-OS-K5a, 2023-OS-K5b, 2023-OS-K5d, 2026-FOR-K2a, 2026-FOR-K2b, 2026-FOR-K2d, 2021-OS-K4a, 2021-OS-K4b, 2016-OS-K3c, 2014-OS-K5a, 2014-OS-K5b, 2024-OS-K4b, 2024-OS-K4c, 2016-OS-B1j, 2018-OS-B1i, 2017-OS-B1c, 2020-OS-K5a, 2019-OS-K4a, 2015-OS-K6b, 2018-OS-K6b
