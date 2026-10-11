@@ -109,3 +109,13 @@ Offen mit Grund: 2018-GYM-B1c, 2018-OS-B1c, 2022-OS-B1c (Nebenplätze ohne Wortl
 - 2024-OS-K3c steht in lineare (Zeile dort).
 
 Zeilen: 2026-FOR-B1e, 2015-OS-K4b, 2022-OS-K3b, 2022-OS-K3c, 2026-FOR-K5c, 2026-FOR-K5d, 2020-OS-K3a, 2020-OS-K3b, 2020-OS-K3c, 2020-OS-K3d, 2020-OS-K3e, 2017-OS-K5c, 2017-OS-K5d, 2017-OS-K5e, 2018-OS-K5a, 2018-OS-K5b, 2018-OS-K5c, 2018-OS-K5d, 2024-OS-K3b, 2024-OS-K3d, 2023-OS-K4b, 2023-OS-K4c, 2014-OS-K7a, 2014-OS-K7b, 2025-OS-B1h, 2025-OS-K5b, 2025-OS-K5c, 2021-OS-K2c, 2021-OS-B1d, 2016-OS-B1g, 2015-OS-B1i
+
+## Kapitel flaechen – 25 Zeilen
+
+Offen mit Grund: 2023-OS-K5c (Hauptplatz auch prozent; Zeile dort).
+
+- Familien über Kapitelgrenzen (in bemerkung festgehalten, in koerper nachzuziehen): 2024-OS-K4 (Kegel r = 25 cm, h = 60 cm), 2015-OS-K6 (Pyramide Grundkante 0,90 m, Höhe 0,70 m), 2019-OS-K4 (Prisma: Seite 1,80 m, Höhe 1,50 m, Dreieckshöhe 1,56 m), 2018-OS-K6 (Turm 5,8 m), 2014-OS-K5 (Trapez 108/84, Schenkel 37, h = 35, Vitrine 150 cm hoch).
+- Aus dreiecke übernommen: 2023-OS-K2 (Trapez 24,20/16,20, 7,50 m, 62°), 2025-OS-K2 (Diagonalen 56 und 96), 2015-OS-K5 (AD 3,9 cm, δ 28°), 2020-OS-K7 (BC 15, AC 28), 2022-OS-K5 (h 7,3, B 49°, AD 11,0).
+- Formelaufgaben ohne Zahlen (2022-OS-B1e, 2024-OS-B1c, 2025-OS-B1i, 2019-OS-B1e) unverändert („keine Zahlen“); 2014-OS-B1g: Kreuzbalken in der Abbildung 7 × 1 und 1 × 5.
+
+Zeilen: 2022-OS-B1e, 2024-OS-B1c, 2025-OS-B1i, 2019-OS-B1e, 2014-OS-B1g, 2026-FOR-B1h, 2024-OS-K4a, 2023-OS-K2b, 2023-OS-K2c, 2025-OS-K2b, 2016-OS-K3b, 2015-OS-K5d, 2015-OS-K6c, 2019-OS-K4c, 2023-OS-B1c, 2020-OS-B1d, 2018-OS-B1f, 2020-OS-K7b, 2014-OS-K5c, 2014-OS-K5d, 2022-OS-K5e, 2025-OS-B1e, 2018-OS-K6a, 2017-OS-K3a, 2017-OS-K3b
