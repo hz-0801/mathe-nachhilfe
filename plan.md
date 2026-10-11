@@ -242,18 +242,29 @@ vollständig, dann ordnen, dann bauen.
       je Einheit ein Mehr-Block mit allen übrigen Originalen leicht →
       schwer, gruppiert, vom Setzer ohne Modell – Bedingungen: Blatt
       endet auf Prüfungshöhe, Mehr-Block gibt es für jede Einheit.
-   b) Warum-Liste abnehmen (aufgabenbank bau/warum-2026-10-11.md,
+   b) [12.10. nachts: Fable hat die Regeln vom 11.10. in pruefung.md/
+      gemeinsam.md als Warum – Beispiel – Grenze gefasst (7 + 22),
+      sieben Unklarheiten als „Offen (Lehrer)“ markiert – Abnahme
+      durch den Lehrer steht aus.] Warum-Liste abnehmen (aufgabenbank bau/warum-2026-10-11.md,
       15 Regeln als Warum – Beispiel – Grenze; sieben Unklarheiten
       aus bau/befund-kritiker-runde-dreiecke.md klären) und die
       Regeln vom 11.10. in gemeinsam.md/pruefung.md in diese Form
       bringen. Lehrer 11.10.: Regeln geben das Warum, nicht das Wie;
       Beispiele sind eine Lösung von mehreren; Tendenz aus einem
       Blatt wird Regel erst mit dem zweiten.
-   c) Nachzug der vier Blätter aus den Befundlisten
+   c) [12.10. nachts erledigt: fünf Blätter nachgezogen, Winkel ohne
+      Stufen, alle echten Aufgaben mit neuen Zahlen; Lehrer sieht nur
+      sin, cos, tan.] Nachzug der vier Blätter aus den Befundlisten
       (bau/pruefung/*/befund-kritiker-2026-10-11.md) und Winkel ohne
       Stufen; Fable-Kritiker gegen das Warum; der Lehrer sieht nur
       sin, cos, tan (Stichprobe, Linie 6). Agenten erst nach Go.
-   d) Setzer für Sorte P (Wunschliste bau/befunde-M3.md) und
+   d) [12.10. nachts: pruefheft.py v0.6 setzt Art „mehr“ (Portionen)
+      und Art „p“ (Sorte P aus Daten; Datenbedarf in
+      werkzeuge/pruefheft-p.md: grafik, form, Schülerfrage,
+      herausgelöste mit neuen Zahlen). Mehr-Block für alle zehn
+      Kapitel gebaut (msa/mehr-p10.csv, 291 Zeilen). Original neu
+      2026 FOR als Prüfstein gebaut (privat, originalneu.py).]
+      Setzer für Sorte P (Wunschliste bau/befunde-M3.md) und
       Mehr-Block; dann Kapitel Flächen, Körper.
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
@@ -314,6 +325,14 @@ ein Sonnet-Agent, 59 Zeilen mit neuen Zahlen, Lösung, pruef, Schwere,
 Rang, Prüfskript: 0,18 Mio Token, 7 min. Mit Chat (Linien 5a, fünf
 Regeln festgehalten): Woche 81 → 82 %, Fable 47 → 49 %. Anzeige
 warnt weiter: Ende Montag nachmittags vor dem Reset.
+
+Messwert Runde 1/2 (11./12.10. nachts, Kontingent aufbrauchen): Kette
+Mehr-Block neun Kapitel Sonnet 0,47 Mio (30 min); Mehr-Setzer Fable
+0,19 Mio; Runde 2 fünf Fable-Agenten parallel 1,21 Mio (Kritiker +
+Skizzen 0,26, Setzer P 0,24, Nachzug fünf Blätter 0,34, Original neu
+0,19, Warum-Liste 0,17), Wanduhr 21 min. Original neu je weiteres
+Heft ≈ 0,1 Mio. Lehre: Agenten teilen sich einen Klon – parallele
+Schreiber auf dasselbe Repo brauchen eigene Klone (autostash-Verlust).
 
 ## 9 Später
 
