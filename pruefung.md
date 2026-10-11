@@ -62,7 +62,7 @@ Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
     sin, cos, tan – Gleichung aufstellen · Winkel gesucht · Seite
     gesucht · Pythagoras oder sin, cos, tan?; Winkel –
     Winkelbeziehungen: Geraden kreuzen · Parallelen ·
-    Innenwinkelsumme: Dreieck · Viereck · gleichschenklig: zwei
+    Innenwinkelsumme · gleichschenklig: zwei
     gleiche Winkel · rechter Winkel: begründen; Vierecke: Symmetrie
     und Eigenschaften (Lehrer 11.10.: nimmt 2026-FOR-B1c Trapez-
     Aussage aus Winkel auf); Sinussatz. Gruppen (gemeinsam.md):
