@@ -63,7 +63,7 @@ def main():
     fehler = []
     with open(os.path.join(D, 'mehr-p10.csv'), encoding='utf-8', newline='') as f:
         rd = csv.DictReader(f, delimiter=';')
-        if rd.fieldnames != KOPF:
+        if rd.fieldnames not in (KOPF, KOPF + ['grafik', 'form']):   # grafik, form: Setzer-Felder (12.10.)
             fehler.append('Kopfzeile weicht ab')
         rows = list(rd)
     orig = vorlagen()
@@ -77,8 +77,6 @@ def main():
             fehler.append(f'{i}: kapitel')
         if r['auf_blatt'] not in ('ja', 'nein') or r['schwere'] not in ('I', 'II', 'III'):
             fehler.append(f'{i}: auf_blatt/schwere')
-        if r['auf_blatt'] == 'ja' and r['kapitel'] != 'dreiecke':
-            fehler.append(f'{i}: auf_blatt ja nur in dreiecke')
         if r['zahlart'] not in ('ganz', 'dezimal', 'bruch', 'prozent'):
             fehler.append(f'{i}: zahlart')
         for feld in ('wortlaut', 'loesung'):

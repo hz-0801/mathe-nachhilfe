@@ -79,6 +79,7 @@ zahlart = Zahlentyp der Aufgabe (ganz, dezimal, bruch, prozent); Diagramm- und T
 - 61 verschiedene ids in zuordnung-dreiecke.csv; die zwei 2026-EBR-Zwillinge (K3a, K3b) stehen nur als Nebenplatz und tragen dieselbe Aufgabe wie 2026-FOR-K4a/K4b; sie haben keine eigene Zeile (mehr-pruef.py kennt die Ausnahme). Es bleiben 59 Zeilen.
 - Einheit = erste Stufe, in der die id kein Nebenplatz ist (2025-OS-K2a: Vierecke, 2025-OS-K4a: Länge mit Pythagoras).
 - auf_blatt = id steht als Aufgabe (auch herausgelöst) auf dem Blatt der Einheit (bau/pruefung/2026-10-10 und 2026-10-11); nur in der Fundstellentabelle zählt nicht.
+- Spalten grafik und form (12.10., Setzer Art p, aufgabenbank werkzeuge/pruefheft-p.md): grafik = TikZ-Skizze zu den neuen Zahlen, form = text | teil | skizze; bisher nur koerper, Volumen und Oberfläche; auf_blatt = ja dort für die fünf echten des Blatts AZL.
 - rang je Einheit: BB/BE 2022–2026, dann ältere, dann andere; je Gruppe I → II → III, dann jüngstes Jahr zuerst, dann id.
 - Prüfung: python3 msa/mehr-pruef.py (Lösung gegen pruef, Vollständigkeit, Zahlen ≠ Original).
 

@@ -7,6 +7,7 @@ Name: Körper
 Folge: 3
 Bank: koerper | pyramide-kegel-kugel
 Katalog: katalog/koerper.md | katalog/pyramide-kegel-kugel.md
+Anzeigenamen: Volumen und Oberfläche = Volumen und Oberfläche
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -16,6 +17,11 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ## Stufen
 
 ### Volumen direkt
+- **Anzeigename:** Volumen berechnen
+- **Schülerfrage:** Welche Formel brauchst du? Schreibe nur die Formel auf, rechne nicht.
+- **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Fußball, Durchmesser 22 cm = V = 4/3 · π · r³ | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** a) Zylinder; b) Kugel; c) Prisma; d) Kegel
 - **Kern:** ja – 7 echte 2014–2026, fast jedes Jahr (Niveau I), Bank-Ketten Quader, Prisma, Zylinder, Pyramide, Kegel, Kugel mit Grundfall
 - **Originale:** 2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a 2021-OS-K4a 2016-OS-K3c 2014-OS-K5a
 - **Bank:** koerper-e2-k1-s1(i) koerper-e2-k1-s2(i) koerper-e3-k1-s1(i) koerper-e3-k1-s2(i) koerper-e3-k1-s3(i) koerper-e3-k1-s4(i) koerper-e3-k1-s5(i) koerper-e3-k1-s6(i) koerper-e4-k2-s1(i) koerper-e4-k2-s2(i) koerper-e4-k2-s3(i) koerper-e4-k2-s4(i) pyramide-kegel-kugel-e1-k5-s1(i) pyramide-kegel-kugel-e1-k5-s2(i) pyramide-kegel-kugel-e1-k5-s3(i) pyramide-kegel-kugel-e1-k5-s4(i) pyramide-kegel-kugel-e2-k2-s1(i) pyramide-kegel-kugel-e2-k2-s2(i) pyramide-kegel-kugel-e2-k2-s3(i) pyramide-kegel-kugel-e2-k2-s4(i) pyramide-kegel-kugel-e3-k1-s1(i) pyramide-kegel-kugel-e3-k1-s2(i) pyramide-kegel-kugel-e3-k1-s3(i) pyramide-kegel-kugel-e3-k1-s4(i) koerper-e2-k1-s10 koerper-e4-k2-s13 pyramide-kegel-kugel-e3-k1-s18[2016-OS-K3c]
@@ -23,12 +29,22 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Volumen und Oberfläche
 
 ### Restvolumen
+- **Anzeigename:** Restvolumen
+- **Schülerfrage:** Welcher Körper ist außen, welcher innen? Schreibe nur den Ansatz auf: groß minus klein.
+- **Schülerfrage-Fälle:** Tennisball in einer Würfelschachtel = V(Würfel) − V(Kugel) | Kegel in einer zylinderförmigen Verpackung = V(Zylinder) − V(Kegel) | Rohr: Außenzylinder und Innenzylinder = V(außen) − V(innen)
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** außen ist immer der Körper, in dem der andere steckt
 - **Kern:** nein – 1 echte (2024)
 - **Originale:** 2024-OS-K4c
 - **Bank:** koerper-e5-k1-s5 koerper-e5-k1-s11 koerper-e4-k2-s5 pyramide-kegel-kugel-e3-k1-s13
 - **Zuschnitt:** Volumen und Oberfläche
 
 ### Mantelfläche mit Kosten
+- **Anzeigename:** Mantelfläche und Kosten
+- **Schülerfrage:** Welche Fläche wird bezahlt? Schreibe hin: Mantel, Grundfläche oder ganze Oberfläche.
+- **Schülerfrage-Fälle:** Die Außenmauer eines runden Turms wird gestrichen = Mantel | Ein Kegeldach wird mit Ziegeln gedeckt = Mantel | Eine Geschenkbox (Quader) wird rundum mit Papier beklebt = ganze Oberfläche | Der Boden eines runden Beckens wird gefliest = Grundfläche
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** bezahlt wird, was bearbeitet wird: Mauer und Dach sind Mäntel, Papier rundum ist die ganze Oberfläche, der Boden die Grundfläche
 - **Kern:** nein – 2 echte (2018, 2026)
 - **Originale:** 2026-FOR-K2b 2018-OS-K6b
 - **Bank:** koerper-e4-k2-s6(i) koerper-e4-k2-s7(i) pyramide-kegel-kugel-e2-k2-s7(i) pyramide-kegel-kugel-e2-k2-s8(i) pyramide-kegel-kugel-e1-k5-s7(i) pyramide-kegel-kugel-e2-k2-s13 pyramide-kegel-kugel-e1-k5-s15
@@ -36,12 +52,22 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Volumen und Oberfläche
 
 ### rückwärts: Radius oder Höhe aus Volumen
+- **Anzeigename:** Radius oder Höhe aus dem Volumen
+- **Schülerfrage:** Gegeben ist das Volumen. Kreuze an, wo du am Ende eine Wurzel ziehen musst.
+- **Schülerfrage-Fälle:** Zylinder: V und h bekannt, r gesucht = ja | Zylinder: V und r bekannt, h gesucht = nein | Würfel: V bekannt, Kante a gesucht = ja | Quader: V, a und b bekannt, c gesucht = nein
+- **Schülerfrage-Form:** kreuz:Wurzel
+- **Schülerfrage-Weg:** a) r steht im Quadrat, c) a hoch drei; bei b) und d) nur teilen
 - **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
 - **Originale:** 2022-OS-K2d 2023-OS-K5d
 - **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
 - **Zuschnitt:** Volumen und Oberfläche
 
 ### vergleichen und urteilen
+- **Anzeigename:** vergleichen und urteilen
+- **Schülerfrage:** Wie oft so groß wird das Volumen? Schätze, ohne zu rechnen.
+- **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Kugel, der Radius wird verdoppelt = 8 | Würfel, die Kante wird verdreifacht = 27
+- **Schülerfrage-Form:** linie:-mal so groß
+- **Schülerfrage-Weg:** h steht einfach; r im Quadrat; r hoch drei; a hoch drei
 - **Kern:** nein – 2 echte (2021, 2026), Niveau III
 - **Originale:** 2026-FOR-K2d 2021-OS-K4b
 - **Bank:** koerper-e4-k2-s14 koerper-e4-k3-s2 pyramide-kegel-kugel-e2-k2-s14 pyramide-kegel-kugel-e2-k2-s16 pyramide-kegel-kugel-e3-k1-s15 pyramide-kegel-kugel-e1-k5-s14 pyramide-kegel-kugel-e2-k3-s2
