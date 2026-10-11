@@ -232,7 +232,8 @@ vollständig, dann ordnen, dann bauen.
       die vier Stufen waren Figuren) – Lehrer 11.10.: gilt als
       Linie; der Kritiker prüft im Nachzug (c) jede Stufe der vier
       Blätter darauf, umgebaut wird erst, wenn ein zweites Blatt
-      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer-Wort offen): das Blatt schlank (eine echte
+      die Tendenz bestätigt. **Blatt + Mehr** (Lehrer 11.10.: ja; Portionen und Ordnung des
+      Mehr-Blocks in Klärung): das Blatt schlank (eine echte
       je Erscheinungsform, endet mit der typischen schwersten), dazu
       je Einheit ein Mehr-Block mit allen übrigen Originalen leicht →
       schwer, gruppiert, vom Setzer ohne Modell – Bedingungen: Blatt
@@ -417,6 +418,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   nach Go; je Runde ein Muster und die Stichprobe, nicht alle Blätter.
 - 11.10.2026 (e): Linie „Stufe = eigener Handgriff“ (Lehrer 11.10.),
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
+  Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
+  Originalen entsteht beim Bau, Setzer druckt ihn ohne Modell.
 
 ## 11 Register der Entscheidungen
 
@@ -473,6 +476,8 @@ Prüfung
   Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
 - 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
   leicht → schwer; Umbau nach zweitem Blatt → P
+- 11.10. (e) Blatt + Mehr: Mehr-Block je Einheit beim Bau, Setzer
+  ohne Modell → P
 - 10.10. P10-Zuschnitt: 27 Einheiten, Einheit = Handgriff = Blatt → P
   (§ 2; Wortlaut msa/skript-zuschnitt-p10.md)
 - 10.10. Echte Aufgaben je Sorte: eine; zwei oder drei, wenn anders
