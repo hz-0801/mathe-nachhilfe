@@ -301,6 +301,12 @@ neuen Bankzeilen in fünf Bauten (sechs beim Nachzug Winkel). Woche
 Durchsicht); Warnung der Anzeige: bei dem Tempo Ende vor dem Reset
 Montag 18:00. Restliche 22 Einheiten ≈ 4 Mio ≈ 5 Wochenpunkte.
 
+Messwert Mehr-Block Dreiecke (11.10., Chat start 26, Fable im Chat):
+ein Sonnet-Agent, 59 Zeilen mit neuen Zahlen, Lösung, pruef, Schwere,
+Rang, Prüfskript: 0,18 Mio Token, 7 min. Mit Chat (Linien 5a, fünf
+Regeln festgehalten): Woche 81 → 82 %, Fable 47 → 49 %. Anzeige
+warnt weiter: Ende Montag nachmittags vor dem Reset.
+
 ## 9 Später
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
