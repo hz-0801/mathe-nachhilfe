@@ -139,3 +139,13 @@ Offen mit Grund: 2023-OS-K6c und 2023-OS-K6d: Wortlaut steht in wortlaut-eigen-p
 - Reihen mit glattem Mittelwert (Median glatt, Mittel ganzzahlig) wie im Original; Modalwert eindeutig (2025-OS-K6a: 3).
 
 Zeilen: 2026-FOR-K3a, 2026-FOR-K3b, 2026-FOR-K3d, 2026-FOR-K3e, 2024-OS-K2a, 2024-OS-K2b, 2024-OS-K2c, 2023-OS-K6c, 2023-OS-K6d, 2022-OS-K4a, 2022-OS-K4c, 2022-OS-K4d, 2019-OS-B1i, 2014-OS-K4a, 2014-OS-K4b, 2024-OS-B1h, 2015-OS-B1f, 2021-OS-B1f, 2017-OS-B1h, 2016-OS-B1a, 2020-OS-K2a, 2020-OS-K2c, 2015-OS-K7a, 2022-OS-B1d, 2025-OS-K6a, 2025-OS-K6b, 2025-OS-K6c, 2018-OS-K3a, 2018-OS-K3c, 2018-OS-K3d, 2017-OS-K2c, 2021-OS-K5b, 2019-OS-K5c, 2014-OS-K3d
+
+## Kapitel wahrscheinlichkeit – 33 Zeilen
+
+Offen mit Grund: keine Zeile hängt.
+
+- Würfelaufgaben (2020-OS-K6, 2014-OS-B1d): Ergebnis 1/6 bzw. 2/3 bleibt, weil der Würfel die Aufgabe trägt; geändert sind nur die genannten Augenzahlen.
+- Familien mit gemeinsamer Zahlenwahl: 2025-OS-K3 (Scheiben 2, 3, 3, 4 und 4, 2, 3, 2; Ziel 12,5 %), 2024-OS-K5 (6 Kinder), 2026-FOR-K6 (Würfel A 2, 2, 2, 3, 4, 5; B 1, 3, 3, 4, 5, 6; Summe 3), 2019-OS-K6 (24 Stifte), 2018-OS-K7 (40 Pfannkuchen, wie 7a in prozent), 2016-OS-K5 (Lose 101 bis 700), 2014-OS-K6 (Glücksrad mit 10 Feldern).
+- Einheit: „Zufallsgerät entwerfen“ und „Gegenereignis“ zählen zu „Baumdiagramm und Pfadregeln“ (Teilaufgaben 2022–2026 stimmen mit der Zählung 3 und 8 überein).
+
+Zeilen: 2025-OS-K3a, 2025-OS-K3b, 2025-OS-K3c, 2025-OS-K3d, 2020-OS-K6a, 2020-OS-K6b, 2020-OS-K6c, 2017-OS-B1f, 2024-OS-K5a, 2024-OS-K5b, 2024-OS-K5c, 2026-FOR-K6a, 2026-FOR-K6b, 2026-FOR-K6c, 2026-FOR-K6d, 2019-OS-K6a, 2019-OS-K6b, 2019-OS-K6c, 2018-OS-K7b, 2018-OS-K7c, 2017-OS-K6a, 2016-OS-K5c, 2016-OS-K5d, 2014-OS-K6a, 2014-OS-K6b, 2014-OS-K6c, 2016-OS-B1f, 2015-OS-B1a, 2014-OS-B1b, 2014-OS-B1d, 2015-OS-K7d, 2019-OS-B1g, 2018-OS-B1j
