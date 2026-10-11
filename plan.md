@@ -346,6 +346,15 @@ Skizzen 0,26, Setzer P 0,24, Nachzug fünf Blätter 0,34, Original neu
 Heft ≈ 0,1 Mio. Lehre: Agenten teilen sich einen Klon – parallele
 Schreiber auf dasselbe Repo brauchen eigene Klone (autostash-Verlust).
 
+Fable-Kontingent, nachgesehen (support.claude.com, 12.10.): Fable
+zieht aus dem normalen Wochenkontingent und darf höchstens 50 % davon
+ausmachen („up to 50% of your weekly usage limits on Fable“); die
+Fable-Anzeige ist dieses Teilkontingent, kein eigenes Budget. Ist die
+Woche bei 100 %, geht auch Fable nicht mehr. Folge: Fable lässt sich
+nur aufbrauchen, wenn von Anfang an mehr als die Hälfte des Verbrauchs
+Fable ist. Stand 12.10. 19:40: Woche 96 %, Fable 73 % (≈ 36 Wochen-
+punkte Fable, 60 andere) – diese Woche nicht mehr aufzubrauchen.
+
 Messwert Runde 3 (12.10. früh, eigene Klone je Agent, keine
 Verluste): drei Fable-Blatt-Agenten 0,35 + 0,27 + 0,31 Mio (18–29
 min), Original neu 13 Hefte Sonnet 0,31 Mio (17 min), Fable-Kritiker
