@@ -1,8 +1,8 @@
 # Mehr-Block Dreiecke – Stand
 
-Fertig: 40 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 50 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
 
-Noch nicht bearbeitet: 19 (Reihenfolge der Zuordnung).
+Noch nicht bearbeitet: 9 (Reihenfolge der Zuordnung).
 
 ## Fertig
 
@@ -46,19 +46,19 @@ Noch nicht bearbeitet: 19 (Reihenfolge der Zuordnung).
 - 2021-OS-K3c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
 - 2020-OS-K7c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
 - 2019-OS-K3c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2018-OS-K4c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2017-OS-K4c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2015-OS-K5c (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2014-OS-K2b (Seite im allgemeinen Dreieck, Sinussatz; nicht auf Blatt)
+- 2026-FOR-B1c (Vierecke; nicht auf Blatt; keine Zahlen)
+- 2016-OS-B1e (Vierecke; nicht auf Blatt; keine Zahlen)
+- 2022-OS-K5c (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt)
+- 2023-OS-K2a (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
+- 2026-FOR-B1i (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt)
+- 2021-OS-B1i (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
 
 ## Noch nicht bearbeitet
 
-- 2018-OS-K4c
-- 2017-OS-K4c
-- 2015-OS-K5c
-- 2014-OS-K2b
-- 2026-FOR-B1c
-- 2016-OS-B1e
-- 2022-OS-K5c
-- 2023-OS-K2a
-- 2026-FOR-B1i
-- 2021-OS-B1i
 - 2018-OS-K4b
 - 2017-OS-K4a
 - 2015-OS-K5b
