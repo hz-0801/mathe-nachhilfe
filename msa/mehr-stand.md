@@ -1,8 +1,8 @@
 # Mehr-Block Dreiecke – Stand
 
-Fertig: 50 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
+Fertig: 59 von 59 Zeilen (Kapitel Dreiecke, Prüfung P10).
 
-Noch nicht bearbeitet: 9 (Reihenfolge der Zuordnung).
+Offen mit Grund: keine Zeile hängt (alle Zahlen getauscht oder "keine Zahlen" vermerkt).
 
 ## Fertig
 
@@ -56,18 +56,15 @@ Noch nicht bearbeitet: 9 (Reihenfolge der Zuordnung).
 - 2023-OS-K2a (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
 - 2026-FOR-B1i (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt)
 - 2021-OS-B1i (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
-
-## Noch nicht bearbeitet
-
-- 2018-OS-K4b
-- 2017-OS-K4a
-- 2015-OS-K5b
-- 2023-OS-B1g
-- 2023-OS-K7a
-- 2025-OS-K2c
-- 2022-OS-B1i
-- 2025-OS-K2a
-- 2021-OS-B1j
+- 2018-OS-K4b (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt)
+- 2017-OS-K4a (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
+- 2015-OS-K5b (Winkel ohne Rechnung bestimmen oder begründen; nicht auf Blatt)
+- 2023-OS-B1g (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt)
+- 2023-OS-K7a (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt; tragende Zahl 45° bleibt, 65° → 58°)
+- 2025-OS-K2c (Winkel ohne Rechnung bestimmen oder begründen; auf Blatt; tragende Beziehung AF = FC = DF bleibt)
+- 2022-OS-B1i (Vierecke; auf Blatt; keine Zahlen)
+- 2025-OS-K2a (Vierecke; auf Blatt)
+- 2021-OS-B1j (Vierecke; nicht auf Blatt; keine Zahlen)
 
 ## Hinweise
 
