@@ -1,4 +1,4 @@
-# Übergabe verbessereBlaetter – 2026-10-12 abends (Chat „start 26“, Fable)
+# Übergabe verbessereBlaetter – 2026-10-12 abends (Chat „start 26“)
 
 Vorherige Übergabe: archiv/uebergabe-2026-10-11.md. Nach plan.md
 Linie 8 nennt diese Übergabe keinen eigenen nächsten Schritt.
@@ -43,18 +43,16 @@ schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
   Originale, 2 Seiten). Lehrer hat TAL und Flächen c durchgesehen:
   zehn Festlegungen in pruefung.md § 5 (12.10. b), Setzer und
   Daten noch nicht nachgezogen; Y5D (Flächen c) im Detail offen.
-- Woche neu seit 12.10. 18:00: 2 %, Fable 3 %. Für die Woche gilt:
-  > 50 % des Verbrauchs Fable, sonst wird Fable nicht voll.
+- Woche neu seit 12.10. 18:00: 2 %, Fable 3 % (19:55 Uhr).
 - Noch nicht gebaut: Prozent, Daten, Wahrscheinlichkeit,
   Gleichungssysteme, Wachstum, Quadratische Gleichung lösen.
 
 ## 4 Rahmen
 
-- Kontingent: Woche 96 %, Fable 73 % (12.10. 19:40, Reset Montag
-  18:00). Fable zieht aus der Woche, höchstens 50 % davon
-  (support.claude.com); voll nur, wenn > 50 % des Verbrauchs Fable
-  ist. Lehrer: Kontingent restlos verbrauchen, Fable statt Opus,
-  Sonnet nur Mechanik; Agenten erst nach Go je Runde.
+- Modell und Aufwand: nach anweisungen/modelle.md und plan.md § 8
+  (Weg B, Lehrer 12.10. – ersetzt „restlos verbrauchen, Fable statt
+  Opus“): Opus Standard, Fable nur nach belegtem Fehlschlag;
+  Agenten erst nach Go je Runde. Reset Montag 18:00.
 - Messwerte plan.md § 8: Blatt P aus Daten ≈ 0,3 Mio Fable; Mehr-Block
   je Kapitel ≈ 0,05 Mio Sonnet; Original neu je Heft ≈ 0,03 Mio.
 - Agenten brauchen je einen eigenen Klon (/home/claude/k1 … k5).
