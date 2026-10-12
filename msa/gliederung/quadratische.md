@@ -85,7 +85,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 |---|---|---|---|---|
 | 2014-GYM-B1d | Wertetabelle zuordnen |  |  | Hauptplatz nach typ „Parabelgleichung zu Graph zuordnen“ |
 | 2014-GYM-K2c |  |  | Parabel skizzieren; Scheitelpunktform angeben | Hauptplatz außerhalb der P10-Stufen. Scheitelpunktform als Ansatz |
-| 2014-OS-K7a | Punkt auf der Parabel prüfen |  | lineare:rechnerisch an Gerade und Parabel | Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe auch an der Geraden g |
+| 2014-OS-K7a | Punkt auf der Parabel prüfen |  | lineare:Punktprobe und Lösung prüfen | Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe auch an der Geraden g |
 | 2014-OS-K7b | Lage zweier Parabeln ohne Rechnung begründen |  |  | Hauptplatz nach typ „Gerade ohne gemeinsamen Punkt mit Parabel angeben“ |
 | 2015-GYM-B1h | Scheitelpunktform angeben |  |  | GYM-Zwilling von 2015-OS-B1i |
 | 2015-OS-B1i | Scheitelpunktform angeben |  |  | Hauptplatz nach typ „Parabel verschieben“ |
@@ -99,8 +99,8 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2017-OS-K5c | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2017-OS-K5d | Nullstellen berechnen |  |  | Hauptplatz nach Zuordnung |
 | 2017-OS-K5e | Scheitelpunktform angeben |  |  | Hauptplatz nach typ „Parabel verschieben“ |
-| 2018-GYM-B1c |  | lineare:Lösung prüfen |  | GYM-Zwilling von 2018-OS-B1c |
-| 2018-OS-B1c |  | lineare:Lösung prüfen |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
+| 2018-GYM-B1c |  | lineare:Punktprobe und Lösung prüfen |  | GYM-Zwilling von 2018-OS-B1c |
+| 2018-OS-B1c |  | lineare:Punktprobe und Lösung prüfen |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
 | 2018-OS-K5a | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Eigenschaften eines Graphen beurteilen“ |
 | 2018-OS-K5b | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2018-OS-K5c | Scheitelpunktform angeben |  |  | Hauptplatz nach typ „Scheitelpunktform aufstellen“ |
@@ -114,12 +114,12 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2020-OS-K3c | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Funktionswert berechnen“ |
 | 2020-OS-K3d | Scheitelpunktform angeben |  |  | Hauptplatz nach typ „Parabel an der y-Achse spiegeln“ |
 | 2020-OS-K3e | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
-| 2021-GYM-K6a | Punkt auf der Parabel prüfen |  | lineare:rechnerisch an Gerade und Parabel | Hauptplatz nach Urteil. Punktprobe an einer Parabel |
+| 2021-GYM-K6a | Punkt auf der Parabel prüfen |  | lineare:Punktprobe und Lösung prüfen | Hauptplatz nach Urteil. Punktprobe an einer Parabel |
 | 2021-GYM-K6b |  |  | Scheitelpunkt ablesen | Hauptplatz außerhalb der P10-Stufen. Achseneinteilung zu einer Parabel, keine Wachstumsstufe |
 | 2021-GYM-K6c |  |  | Nullstellen berechnen | Hauptplatz außerhalb der P10-Stufen. Stoßweite mit p-q-Formel richtig rechnen |
 | 2021-OS-B1d | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2021-OS-K2c | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
-| 2022-OS-B1c |  | lineare:Lösung prüfen |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
+| 2022-OS-B1c |  | lineare:Punktprobe und Lösung prüfen |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
 | 2022-OS-K3b | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2022-OS-K3c | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
 | 2023-GYM-K3a | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Punktprobe durchführen“ |
@@ -130,10 +130,10 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-GYM-K3a | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2024-GYM-K3b | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Funktionswert berechnen“ |
 | 2024-OS-K3b | Parabel skizzieren |  | Scheitelpunkt ablesen | Hauptplatz nach typ „Parabel aus Gleichung skizzieren“. Zwischenschritt aus typ_neben |
-| 2024-OS-K3c | Punkt auf der Parabel prüfen | lineare:rechnerisch an Gerade und Parabel |  | Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe an der Parabel, Thema Quadratische |
+| 2024-OS-K3c | Punkt auf der Parabel prüfen | lineare:Punktprobe und Lösung prüfen |  | Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe an der Parabel, Thema Quadratische |
 | 2024-OS-K3d | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
 | 2025-GYM-B2b | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
-| 2025-OS-B1h | lineare:Lösung prüfen |  |  | Hauptplatz nach typ „Lösung durch Einsetzen prüfen“ |
+| 2025-OS-B1h | lineare:Punktprobe und Lösung prüfen |  |  | Hauptplatz nach typ „Lösung durch Einsetzen prüfen“ |
 | 2025-OS-K5b | Scheitelpunkt ablesen |  | Scheitelpunktform angeben | Hauptplatz nach Kopf-Schritt (Befund Funktionen 10.10.): Scheitel vom Bild, dann Scheitelpunktform |
 | 2025-OS-K5c | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2026-EBR-B1e | Wertetabelle zuordnen |  |  | EBR-Zwilling von 2026-FOR-B1e |
