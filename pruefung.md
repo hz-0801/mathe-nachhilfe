@@ -390,7 +390,11 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   auch eins. Drei Zahlen im Original bleiben drei verschiedene.
   Vorstufen dürfen schöner sein (bank.md). Jede Lösung mit Skript
   nachgerechnet. (Grenzen ergänzt nach Kritiker 11.10., aufgabenbank
-  bau/befund-kritiker-mehr-dreiecke.md.)
+  bau/befund-kritiker-mehr-dreiecke.md.) Koordinatenfenster und
+  Gitter wandern mit den Zahlen; Schnittpunkte und abzulesende Punkte
+  liegen im Fenster und auf Gitterpunkten, wenn das Original sie dort
+  hatte (Kritiker 12.10., bau/befund-kritiker-mehr-prozent-lineare.md:
+  2024-K3 Schnittpunkt (4|11), 2026-FOR-K5a Gerade kaum im Bild).
 - **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): Warum: Das
   Blatt bleibt schlank (eine echte je Erscheinungsform, endet auf
   Prüfungshöhe), und doch geht kein Original verloren; der Setzer
