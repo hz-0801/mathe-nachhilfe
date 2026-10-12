@@ -33,13 +33,14 @@ schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
 - Schritt 5a–d erledigt (zwei Chats parallel, 11./12.10.); 5e: drei
   Blätter P aus Daten, Flächen nach Lehrer-Durchsicht zweimal
   nachgezogen (Stufe Anteil in Prozent zurück, Nr. 1 gekürzt).
-- Läuft beim Umzug (Agenten, Fable): Setzer-Umbau (Stufenkopf-Jahre
-  „25 · 24 | 19“, Hervorhebung in mathblatt.sty, Marke B, Einstieg
-  nur aus der Gliederung, Blatt = alle jungen Originale) mit Flächen
-  dritter Fassung; Lineare als ein Blatt (Gerade · Punktprobe ·
-  Sachzusammenhang); Quadratische (Parabel). Ergebnis: git log der
-  drei Repos nach 12.10. 12:00 UTC prüfen; Abbruch durch das
-  Wochenlimit möglich – dann Standdateien/Commits ansehen.
+- Runde 4 (12.10., vor dem Reset, 0,38 Mio Fable): mathblatt.sty
+  2026-10-12 (Stufenkopf mit Linie, \pfjahre jung | alt, B-Hinweis);
+  pruefheft.py v0.8 (alle Originale 2022–2026, Marke B, Einstieg nur
+  aus Gliederung); Flächen dritte Fassung bau/pruefung/2026-10-12/
+  flaechen-c (12 Originale, 3 Einstiege, 3 Seiten – Lehrer sieht
+  dieses Blatt als Muster); Lineare als ein Blatt (QGC, 14 Originale,
+  4 Seiten, Kritikerbefunde Fenster behoben); Parabel (XU6, 7
+  Originale, 2 Seiten). Nicht vom Lehrer gesehen.
 - Noch nicht gebaut: Prozent, Daten, Wahrscheinlichkeit,
   Gleichungssysteme, Wachstum, Quadratische Gleichung lösen.
 
@@ -57,8 +58,10 @@ schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
 
 ## 5 Offen und Verworfenes
 
-- Offen (Lehrer), bau/befunde-M3.md: 3 statt 2 Seiten bei fünf
-  Stufen; zwei Formen der Schülerfrage (kurz kursiv vs. mit Fällen);
+- Offen (Lehrer), bau/befunde-M3.md: Länge – „alle Originale der
+  letzten fünf Jahre“ ergibt 3–4 Seiten (Flächen 3, Lineare 4):
+  zwei Blätter je Einheit, Seitenzahl hinnehmen oder Einstiege
+  streichen; 3 statt 2 Seiten bei fünf Stufen; zwei Formen der Schülerfrage (kurz kursiv vs. mit Fällen);
   2024-1c als siebte echte; Ausgabe der Formelsammlung (Seite).
 - Zahlenregel braucht für Lineare „Koordinatenfenster wandert mit“
   und für Prozent „Tabelle verrät nicht den nächsten Teil“

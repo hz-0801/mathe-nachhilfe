@@ -277,7 +277,12 @@ vollständig, dann ordnen, dann bauen.
       Stufen; zwei Formen der Schülerfrage; Einstieg auf Prüfungshöhe.
       Nächste Kapitel: Funktionen (Lineare, Quadratische), Prozent,
       Daten, Wahrscheinlichkeit, Gleichungssysteme, Wachstum – 11
-      Einheiten.
+      Einheiten. Runde 4 (12.10. vor dem Reset): Vorlage und Setzer
+      nach den Regeln vom 12.10. (mathblatt.sty 2026-10-12, pruefheft
+      v0.8), Flächen dritte Fassung (3 S.), Lineare ein Blatt (QGC,
+      4 S.), Parabel (XU6, 2 S.). Befund: „alle jungen Originale“
+      sprengt zwei Seiten bei Lineare und Flächen – Lehrer entscheidet
+      (befunde-M3.md).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
@@ -354,6 +359,12 @@ Woche bei 100 %, geht auch Fable nicht mehr. Folge: Fable lässt sich
 nur aufbrauchen, wenn von Anfang an mehr als die Hälfte des Verbrauchs
 Fable ist. Stand 12.10. 19:40: Woche 96 %, Fable 73 % (≈ 36 Wochen-
 punkte Fable, 60 andere) – diese Woche nicht mehr aufzubrauchen.
+
+Messwert Runde 4 (12.10. 12–13 Uhr UTC): Setzer-Umbau + Flächen c
+0,09 Mio Fable (!), Lineare 0,17, Parabel 0,12; zusammen 0,38 Mio in
+7 min Wanduhr – Blätter aus Daten werden billiger, sobald Setzer und
+Gliederung stehen. Woche 97 → ?, Fable 75 → ? (vor dem Reset nicht
+mehr abgelesen).
 
 Messwert Runde 3 (12.10. früh, eigene Klone je Agent, keine
 Verluste): drei Fable-Blatt-Agenten 0,35 + 0,27 + 0,31 Mio (18–29
