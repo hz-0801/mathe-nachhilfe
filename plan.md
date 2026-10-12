@@ -297,19 +297,19 @@ Abschnitt 3 gilt nur, soweit er hier steht.
 
 ## 8 Modelle und Kosten
 
-Chat, Bau-Agenten, Kritiker und Leser Fable, bis das Fable-Kontingent
-leer ist (Lehrer 10.10., 11.10.: nicht wieder Opus vorschlagen);
-danach Opus. Mechanik (Zahlen tauschen, Zeilen umformen, mit Skript
-geprüft) mit dem schwächsten Modell, das reicht – Sonnet, nicht
-Haiku bei Zahlwahl (Lehrer 11.10.: Fable für Anspruchsvolles sparen).
-Fable zählt aber auch auf die Woche (abgelesen 04.10. und 09.10.).
+Modell und Aufwand nach anweisungen/modelle.md (Lehrer 12.10., Weg B;
+ersetzt „Fable aufbrauchen, nicht wieder Opus vorschlagen“ vom
+10./11.10.): Opus Standard für Chat, Bau und Kritiker (Bau und
+Kritiker high), Sonnet für Mechanik, Haiku für Abnahme-Checks; Fable
+nur, wo ein Kritiker Opus auf high/xhigh an derselben Aufgabe
+schlechter bewertet. Grund: Fable kostet je Arbeit ≈ 3× so viel Woche
+(Messwerte unten: 0,25 gegen 0,75 Mio Token je Wochenpunkt), Opus 5.5
+gilt laut Anthropic als gleichwertig.
 
-Kontingent aufbrauchen (Lehrer 11.10. nachts, gilt vor Linie 8):
-Das Wochenkontingent (Woche und Fable) wird bis zum Reset verbraucht.
-Reichen die Schritte aus § 7 nicht, wird aus § 9 „Später“ vorgezogen,
-dann sonst Nützliches (Original neu). Go gilt je Runde (Liste der
-Läufe mit Schätzung), nicht je Agent; die Runde läuft, bis die Liste
-fertig ist. Der Lehrer will nicht je Lauf gefragt werden.
+Go gilt je Runde (Liste der Läufe mit Modell, Aufwand und Schätzung),
+nicht je Agent; die Runde läuft, bis die Liste fertig ist. Der Lehrer
+will nicht je Lauf gefragt werden. Kontingent verbrauchen ist kein
+Ziel; Rest vor dem Reset nur für Arbeit aus § 7, dann § 9.
 
 Messwert: enge Agenten ≈ 0,5–0,7 Mio Token je Wochenpunkt. Bau einer
 Einheit geschätzt 0,3–1,5 Mio Token (Geradenheft 0,6 Mio ohne Bank-Lesen)
@@ -518,6 +518,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Blatt je Ast (Gerade und Parabel, Schnittpunkte); Einstieg Geraden
   = Erkennen; Formel-Frage einmal je Blatt; Handreichung = Landkarte
   der Prüfung, Form am Ende (pruefung.md § 5). Y5D-Durchsicht offen.
+- 12.10.2026 (c): § 8 Modellwahl Weg B (Lehrer): Opus Standard,
+  Fable nur nach belegtem Fehlschlag; Aufwand je Lauf; Regeln global
+  in anweisungen/modelle.md.
 - 11.10.2026 (e): Linie „Stufe = eigener Handgriff“ (Lehrer 11.10.),
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
@@ -671,6 +674,8 @@ Werkstatt
   Steinbruch; 03.10. OneNote-Weg ruht → W
 
 Ersetzt
+- 10./11.10. „Fable aufbrauchen, nicht wieder Opus vorschlagen“ →
+  § 8 Weg B (Lehrer 12.10.), anweisungen/modelle.md
 - 27.09. „Opus Regelfall, Fable nur auf Wahl“ → § 8 (10.10.)
 - 02.10. Wiedervorlage, Fünf-Minuten-Test 16.10. → gestrichen
   (Lehrer 10.10.)
