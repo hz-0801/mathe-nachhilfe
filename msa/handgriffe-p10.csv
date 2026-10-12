@@ -377,7 +377,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2024-OS-K2c;daten:Winkel berechnen und beschriften;;;Hauptplatz nach typ „Sektor im Kreisdiagramm zuordnen“
 2024-OS-K3a;lineare:Gerade zeichnen und ablesen;;;Hauptplatz nach typ „Gerade aus Gleichung zeichnen“ (bis 12.10.: aus Gleichung zeichnen)
 2024-OS-K3b;quadratische:Wertetabelle oder Skizze;;quadratische:Scheitelpunkt ablesen;Hauptplatz nach typ „Parabel aus Gleichung skizzieren“ (Stufe Wertetabelle oder Skizze, 12.10.). Zwischenschritt aus typ_neben
-2024-OS-K3c;quadratische:Punkt auf der Parabel prüfen;lineare:Punktprobe und Lösung prüfen;;Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe an der Parabel, Thema Quadratische
+2024-OS-K3c;lineare:Punktprobe und Lösung prüfen;quadratische:Punkt auf der Parabel prüfen;;Hauptplatz auf dem Blatt Einsetzen (Lehrer 10.10., 12.10.); Punktprobe an der Parabel, Thema Quadratische, dort Nebenplatz
 2024-OS-K3d;quadratische:Gerade und Parabel gleichsetzen;;quadratische:Nullstellen berechnen;Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen
 2024-OS-K4a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Kreisfläche berechnen“
 2024-OS-K4b;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körper in Schrägbild skizzieren“

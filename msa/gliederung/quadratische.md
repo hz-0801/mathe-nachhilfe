@@ -45,12 +45,12 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 ### Punkt auf der Parabel prüfen
 - **Anzeigename:** Punkt auf der Parabel prüfen
 - **Einstieg:** nein
-- **Kern:** nein – 5 echte (2014, 2018, 2020 zweimal, 2024), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare
-- **Originale:** 2024-OS-K3c 2020-OS-K3b 2020-OS-K3c 2014-OS-K7a 2018-OS-K5a
+- **Kern:** nein – 4 echte (2014, 2018, 2020 zweimal), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare, 2024-OS-K3c dort Hauptplatz (Blatt Einsetzen, Lehrer 10.10.), hier Nebenplatz
+- **Originale:** 2020-OS-K3b 2020-OS-K3c 2014-OS-K7a 2018-OS-K5a
 - **Bank:** quadratische-funktionen-e1-k1-s4(i) quadratische-funktionen-e3-k1-s2(i) quadratische-funktionen-e4-k1-s14(i)
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
   - Punkt auf der Parabel prüfen [] neben [2024-OS-K3c]
-- **Hinweis:** Lehrer 10.10.: Einsetzen eigenes Blatt (lineare); hier kein Original 2022–2026, die älteren im Mehr-Block
+- **Hinweis:** Lehrer 10.10.: Einsetzen eigenes Blatt (lineare); hier kein Original 2022–2026, die älteren im Mehr-Block – die Stufe entfällt auf dem Blatt
 
 ### Scheitelpunktform angeben
 - **Anzeigename:** Gleichung in Scheitelpunktform
@@ -145,7 +145,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-GYM-K3a | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2024-GYM-K3b | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Funktionswert berechnen“ |
 | 2024-OS-K3b | Wertetabelle oder Skizze |  | Scheitelpunkt ablesen | Hauptplatz nach typ „Parabel aus Gleichung skizzieren“ (Stufe Wertetabelle oder Skizze, 12.10.). Zwischenschritt aus typ_neben |
-| 2024-OS-K3c | Punkt auf der Parabel prüfen | lineare:Punktprobe und Lösung prüfen |  | Hauptplatz nach typ „Punktprobe durchführen“. Punktprobe an der Parabel, Thema Quadratische |
+| 2024-OS-K3c | lineare:Punktprobe und Lösung prüfen | Punkt auf der Parabel prüfen |  | Hauptplatz auf dem Blatt Einsetzen (Lehrer 10.10., 12.10.); Punktprobe an der Parabel, Thema Quadratische, dort Nebenplatz |
 | 2024-OS-K3d | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
 | 2025-GYM-B2b | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2025-OS-B1h | lineare:Punktprobe und Lösung prüfen |  |  | Hauptplatz nach typ „Lösung durch Einsetzen prüfen“ |
