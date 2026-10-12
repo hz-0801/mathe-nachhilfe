@@ -34,11 +34,11 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 ### Kapitel Flächen
 
 #### Flächeninhalt und Umfang – 12 · 5 J · zuletzt 2026 · 23 BE
-- neu: Formel oder Term zur Figur – 2022-OS-B1e (Term zu Figur angeben), 2024-OS-B1c (Term zu Figur angeben), 2025-OS-B1i (Term zu Figur angeben)
-- neu: Grundfigur berechnen – 2026-FOR-B1h (Umfang Rechteck berechnen), 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen)
-- neu: rückwärts: Seite aus Fläche – 2023-OS-B1c (Rechteckseite aus Fläche berechnen)
-- neu: Figur erst zerlegen oder Strecke erst berechnen – 2022-OS-K5e (Flächeninhalt Dreieck berechnen), 2023-OS-K2c (Umfang Trapez berechnen)
-- neu: Anteil in Prozent (Verschnitt) – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen)
+- neu: Formeln – 2024-OS-B1c (Term zu Figur angeben), 2022-OS-B1e (Term zu Figur angeben)
+- neu: Fläche gesucht – 2025-OS-B1i (Term zu Figur angeben), 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen)
+- neu: Umfang gesucht – 2026-FOR-B1h (Umfang Rechteck berechnen), 2023-OS-K2c (Umfang Trapez berechnen)
+- neu: Formeln umstellen – 2023-OS-B1c (Rechteckseite aus Fläche berechnen)
+- neu: Anteil in Prozent – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen)
 
 ### Kapitel Körper
 
@@ -58,32 +58,20 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Kapitel Lineare
 
-#### Gerade zeichnen und ablesen – 7 · 5 J · zuletzt 2026 · 18 BE
-- neu: erkennen und ablesen – 2025-OS-B1f (Graph einer linearen Funktion erkennen), 2024-OS-B1i (y-Achsenabschnitt ablesen)
-- neu: aus Gleichung zeichnen – 2024-OS-K3a (Gerade aus Gleichung zeichnen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen), 2022-OS-K3a (Gerade aus Gleichung zeichnen)
-- neu: zeichnen und Aussagen prüfen – 2023-OS-K4a (Gerade aus Gleichung zeichnen)
-- neu: durch zwei Punkte, Gleichung ablesen – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
-
-#### Einsetzen: Punktprobe und Lösung prüfen – 4 · 4 J · zuletzt 2026 · 6 BE
-- neu: Lösung prüfen – 2025-OS-B1h (Lösung durch Einsetzen prüfen)
-- neu: ankreuzen – 2023-OS-B1i (Punktprobe durchführen)
-- neu: rechnerisch an der Geraden – 2026-FOR-K5b (Punktprobe durchführen)
-- neu: rechnerisch an der Parabel – 2024-OS-K3c (Punktprobe durchführen)
-
-#### Lineare Funktion im Sachzusammenhang – 4 · 2 J · zuletzt 2023 · 12 BE
-- neu: Endwert berechnen – 2022-OS-K6a (Endwert linearer Veränderung berechnen)
-- neu: Gleichung aufstellen und rückwärts rechnen – 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen)
-- neu: Graph zum Tarif zuordnen – 2023-OS-K3a (Graph zu Tarif zuordnen)
-- neu: Tarife vergleichen – 2023-OS-K3b (Tarife vergleichen)
+#### Lineare Funktionen – 15 · 5 J · zuletzt 2026 · 36 BE
+- neu: Gerade zeichnen – 2025-OS-B1f (Graph einer linearen Funktion erkennen), 2024-OS-B1i (y-Achsenabschnitt ablesen), 2024-OS-K3a (Gerade aus Gleichung zeichnen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen), 2023-OS-K4a (Gerade aus Gleichung zeichnen)
+- neu: Gleichung ablesen oder aus Punkten aufstellen – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
+- neu: Nullstelle – 2022-OS-K3a (Gerade aus Gleichung zeichnen)
+- neu: Punktprobe – 2023-OS-B1i (Punktprobe durchführen), 2026-FOR-K5b (Punktprobe durchführen), 2024-OS-K3c (Punktprobe durchführen), 2025-OS-B1h (Lösung durch Einsetzen prüfen)
+- neu: Gleichung aus Text – 2022-OS-K6a (Endwert linearer Veränderung berechnen), 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen), 2023-OS-K3a (Graph zu Tarif zuordnen), 2023-OS-K3b (Tarife vergleichen)
 
 ### Kapitel Quadratische
 
 #### Parabel: Scheitelpunkt und Skizze – 7 · 5 J · zuletzt 2026 · 12 BE · dazu 1 aus anderen Abschnitten
-- neu: Wertetabelle zuordnen – 2026-FOR-B1e (Wertetabelle einer Funktion zuordnen)
-- neu: Scheitelpunkt ablesen – 2022-OS-K3b (Scheitelpunkt ablesen), 2026-FOR-K5c (Scheitelpunkt ablesen), 2023-OS-K4b (Scheitelpunkt ablesen), 2025-OS-K5b (Scheitelpunkt ablesen)
-- neu: Parabel skizzieren – 2024-OS-K3b (Parabel aus Gleichung skizzieren)
-- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Einsetzen: Punktprobe und Lösung prüfen“)
-- neu: Scheitelpunktform angeben – 
+- neu: Wertetabelle oder Skizze – 2026-FOR-B1e (Wertetabelle einer Funktion zuordnen), 2024-OS-K3b (Parabel aus Gleichung skizzieren)
+- neu: Scheitelpunkt ablesen – 2026-FOR-K5c (Scheitelpunkt ablesen), 2022-OS-K3b (Scheitelpunkt ablesen)
+- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Lineare Funktionen“)
+- neu: Scheitelpunktform angeben – 2025-OS-K5b (Scheitelpunkt ablesen), 2023-OS-K4b (Scheitelpunkt ablesen)
 - neu: Lage zweier Parabeln ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
 #### Quadratische Gleichung lösen – 4 · 4 J · zuletzt 2025 · 15 BE
