@@ -7,6 +7,9 @@ Name: Daten
 Folge: 9
 Bank: daten
 Katalog: katalog/daten.md
+Kennung: Kenngrößen = K9X
+Kennung: Kreisdiagramm = DGH
+Kennung: Diagramm ergänzen und beurteilen = 32A
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

@@ -7,6 +7,8 @@ Name: Wahrscheinlichk.
 Folge: 10
 Bank: wahrscheinlichkeit
 Katalog: katalog/wahrscheinlichkeit.md
+Kennung: Wahrscheinlichkeit einstufig = KWF
+Kennung: Baumdiagramm und Pfadregeln = VRK
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

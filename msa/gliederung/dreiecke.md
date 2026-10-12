@@ -8,6 +8,12 @@ Folge: 1
 Gruppen: Rechtwinklige Dreiecke = pythagoras, trigonometrie | Alle Dreiecke und Vierecke = winkel-dreiecke, symmetrie-abbildungen
 Bank: pythagoras | trigonometrie | winkel-dreiecke | symmetrie-abbildungen
 Katalog: katalog/pythagoras.md | katalog/trigonometrie.md | katalog/winkel-dreiecke.md | katalog/symmetrie-abbildungen.md
+Kennung: Länge mit Pythagoras = P4Z
+Kennung: Seite oder Winkel mit sin, cos, tan = GYW
+Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
+Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
+Kennung: Winkel ohne Rechnung bestimmen oder begründen = T2U
+Kennung: Symmetrie = NUB
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

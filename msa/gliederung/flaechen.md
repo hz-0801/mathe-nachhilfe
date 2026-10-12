@@ -8,6 +8,7 @@ Folge: 2
 Bank: flaechen | kreis
 Katalog: katalog/flaechen.md | katalog/kreis.md
 Anzeigenamen: Flächeninhalt und Umfang = Fläche und Umfang
+Kennung: Flächeninhalt und Umfang = Y5D
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

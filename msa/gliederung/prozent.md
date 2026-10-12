@@ -7,6 +7,7 @@ Name: Prozent
 Folge: 8
 Bank: prozentrechnung | zinsrechnung
 Katalog: katalog/prozentrechnung.md | katalog/zinsrechnung.md
+Kennung: Prozent = 5ZQ
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

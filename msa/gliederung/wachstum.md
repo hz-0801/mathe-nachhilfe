@@ -7,6 +7,7 @@ Name: Wachstum
 Folge: 7
 Bank: potenz-exponentialfunktionen
 Katalog: katalog/potenz-exponentialfunktionen.md
+Kennung: Exponentielles Wachstum = 74A
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
