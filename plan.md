@@ -283,6 +283,12 @@ vollständig, dann ordnen, dann bauen.
       4 S.), Parabel (XU6, 2 S.). Befund: „alle jungen Originale“
       sprengt zwei Seiten bei Lineare und Flächen – Lehrer entscheidet
       (befunde-M3.md).
+      Nächste Runde (neuer Chat): Setzer nach 12.10. (b) – rechte
+      Spalte, Häufigkeitswort, Bündel, kein Karo bei Zeichne,
+      Ausblenden; Buch-Gliederung je Kapitel als Daten (Sonnet);
+      Lineare und Flächen neu bauen, Lehrer sieht TAL neu und Y5D;
+      dann Gemischt-Blatt Funktionen, restliche Einheiten,
+      Handreichung als Muster.
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
@@ -503,6 +509,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Einstieg = erster Schritt des Originals, nur aus der Gliederung;
   eigene Aufgaben sparsam; Marke mit B; Jahre im Stufenkopf ohne
   Füllwort; Stufenköpfe deutlicher (pruefung.md § 5).
+- 12.10.2026 (b), Durchsicht Flächen c und TAL (Lehrer): Bedingungen
+  rechts (Basis · ohne TR / FOR) statt Stern; Basis am Platz ihrer
+  Stufe, kein Block; Häufigkeitswort im Stufenkopf; Stufen wie im
+  Buch, leere sichtbar in der Handreichung; gleichartige Originale
+  gebündelt; kein Karo bei Zeichne; Zweitthema ausblenden, Gemischt-
+  Blatt je Ast (Gerade und Parabel, Schnittpunkte); Einstieg Geraden
+  = Erkennen; Formel-Frage einmal je Blatt; Handreichung = Landkarte
+  der Prüfung, Form am Ende (pruefung.md § 5). Y5D-Durchsicht offen.
 - 11.10.2026 (e): Linie „Stufe = eigener Handgriff“ (Lehrer 11.10.),
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
@@ -563,6 +577,9 @@ Prüfung
   Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
 - 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
   leicht → schwer; Umbau nach zweitem Blatt → P
+- 12.10. (b) Bedingungen rechts statt Stern; Basis am Platz ihrer
+  Stufe; Häufigkeitswort; Stufen wie im Buch; Bündel; Gemischt-Blatt
+  je Ast; Handreichung = Landkarte → P
 - 12.10. Blatt = alle Originale der letzten fünf Jahre, Basis immer,
   Mehr = ältere; Einheiten ≤ 4 Originale → Stufe der Nachbareinheit;
   Einstieg nur aus der Gliederung; Marke mit B → P

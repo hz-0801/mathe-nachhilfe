@@ -1,4 +1,4 @@
-# Übergabe verbessereBlaetter – 2026-10-12 (Chat „start 26“, Fable)
+# Übergabe verbessereBlaetter – 2026-10-12 abends (Chat „start 26“, Fable)
 
 Vorherige Übergabe: archiv/uebergabe-2026-10-11.md. Nach plan.md
 Linie 8 nennt diese Übergabe keinen eigenen nächsten Schritt.
@@ -40,7 +40,11 @@ schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
   flaechen-c (12 Originale, 3 Einstiege, 3 Seiten – Lehrer sieht
   dieses Blatt als Muster); Lineare als ein Blatt (QGC, 14 Originale,
   4 Seiten, Kritikerbefunde Fenster behoben); Parabel (XU6, 7
-  Originale, 2 Seiten). Nicht vom Lehrer gesehen.
+  Originale, 2 Seiten). Lehrer hat TAL und Flächen c durchgesehen:
+  zehn Festlegungen in pruefung.md § 5 (12.10. b), Setzer und
+  Daten noch nicht nachgezogen; Y5D (Flächen c) im Detail offen.
+- Woche neu seit 12.10. 18:00: 2 %, Fable 3 %. Für die Woche gilt:
+  > 50 % des Verbrauchs Fable, sonst wird Fable nicht voll.
 - Noch nicht gebaut: Prozent, Daten, Wahrscheinlichkeit,
   Gleichungssysteme, Wachstum, Quadratische Gleichung lösen.
 
@@ -58,6 +62,8 @@ schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
 
 ## 5 Offen und Verworfenes
 
+- Muster der rechten Spalte („Basis · ohne TR / FOR“, ganz rechts)
+  dem Lehrer zeigen, bevor es Regel wird.
 - Offen (Lehrer), bau/befunde-M3.md: Länge – „alle Originale der
   letzten fünf Jahre“ ergibt 3–4 Seiten (Flächen 3, Lineare 4):
   zwei Blätter je Einheit, Seitenzahl hinnehmen oder Einstiege

@@ -266,9 +266,58 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   das Blatt zwei Seiten hält und mit der schwersten echten endet
   (ändert den Zuschnitt vom 10.10. für Lineare, Daten,
   Wahrscheinlichkeit; Körper nicht, 3 Seiten).
-- **Marke mit B** (Lehrer 12.10.): Basisaufgaben tragen die Marke
-  „’25 · B1e“, einmal im Blattkopf „B = Basisteil, ohne
-  Taschenrechner“; ihre neuen Zahlen gehen im Kopf (Zahlenregel).
+- **Marke mit B, Bedingungen rechts** (Lehrer 12.10. abends):
+  Basisaufgaben tragen die Marke „’25 · B1e“; am rechten Rand der
+  Aufgabe steht klein grau, unter welchen Bedingungen sie in der
+  Prüfung vorkommt: „Basis · ohne TR“, „FOR“ oder beides – aus den
+  Katalogfeldern block, hilfsmittel, stern; der Stern entfällt.
+  Warum: Der Schüler sieht an der Aufgabe, was gilt; ändert sich die
+  Hilfsmittelregel (2028?), ändern sich Daten, nicht die Vorlage.
+  Grenze: Muster der Spalte zeigt der nächste Bau (Lehrer: „ganz
+  rechts, zeigen“). Neue Zahlen der Basis gehen im Kopf.
+- **Basis am Platz ihrer Stufe** (Lehrer 12.10., ersetzt „Basis
+  immer alle“ vom Mittag): Basisaufgaben, deren Handgriff die
+  Einheit ist, stehen als erste Aufgabe ihrer Stufe; die übrigen nur
+  auf dem Basisblatt (04.10.). Kein Basis-Block oben.
+- **Häufigkeit im Stufenkopf** (Lehrer 12.10.): vor den Jahren ein
+  Wort – „immer“ (4–5 der letzten fünf Jahre), „oft“ (2–3), „selten“
+  (0–1); bei „selten“ bleiben alle Jahre stehen („selten · 23 | 19 ·
+  16“), bei „immer“ reichen die jungen. Fundstellentabelle unverändert.
+- **Stufen wie im Buch, leere bleiben sichtbar** (Lehrer 12.10.):
+  Stufenliste je Kapitel aus Lehrbuch/RLP (nicht nur aus den
+  Originalen), gefüllt aus den Prüfungen; eine Stufe ohne Original
+  steht auf dem Blatt nicht, in der Handreichung als „nicht geprüft
+  seit 2016“. Warum: Was die Prüfung nie fragt, soll der Lehrer
+  sehen, nicht suchen. Lineare: Gerade zeichnen · Gleichung ablesen
+  oder aus Punkten aufstellen · Nullstelle · Punktprobe · Gleichung
+  aus Text · Schnittpunkt zweier Geraden.
+- **Gleichartige Originale gebündelt** (Lehrer 12.10.): Originale,
+  die sich nur in den Zahlen unterscheiden, werden eine Nummer mit
+  a), b) (je eigenes kleines Koordinatensystem, kein Karo). Warum:
+  vollständig („alle jungen Originale“) und kurz zugleich.
+- **Kein Karo bei „Zeichne“** (12.10., TAL): Zeichenaufgaben haben
+  nur das Koordinatensystem; Karo nur, wo gerechnet wird.
+- **Zweitthema ausblenden, Gemischt-Blatt je Ast** (Lehrer 12.10.;
+  folgt aus „jede Teilaufgabe zu ihrem Handgriff“ 04.10.): Auf dem
+  Einheitsblatt wird der fremde Teil einer Aufgabe weggelassen (keine
+  Parabel auf dem Geraden-Blatt, Zwischenergebnis gegeben); die
+  ungekürzten gemischten Originale kommen je Ast auf ein eigenes
+  Blatt nach den Einheiten („Gemischt: Gerade und Parabel“, mit
+  Schnittpunkt Gerade–Parabel, pq-Formel). Warum: Der Hauptteil
+  mischt, also wird die Mischung nach den Teilen geübt.
+- **Einstieg Geraden = Erkennen** (Lehrer 12.10.): verschüttetes
+  Wissen über Wiedererkennen holen, nicht erklären – vier Terme,
+  lineare ankreuzen, an einem m und n benennen; dazu Nr. 1 (Graphen).
+- **Formel-Frage einmal je Blatt** (Lehrer 12.10.): bei der ersten
+  Stufe mit Formel ein Denkanstoß „wo steht die Formel“, Formulierung
+  wechselt je Blatt (Setzer hat drei, vier), nie je Aufgabe.
+- **Handreichung P10** (03.10., Inhalt 12.10.): Landkarte der
+  Prüfung für jeden Schüler am Anfang – je Kapitel Buch-Gliederung
+  mit Häufigkeitswort und Jahren, „nicht geprüft“, B, Kästchen zum
+  Abhaken, Blatt-Kennung; zwei Seiten, aus denselben Daten gesetzt,
+  jährlich neu. Form (Tabelle, Tendenz Lehrer, oder Baum) entscheidet
+  der Lehrer mit dem Muster in der Hand; die Übersicht je Kapitel
+  entfällt dann.
 - **Jahre im Stufenkopf** (Lehrer 12.10.): nur die Jahre, jüngstes
   zuerst, zweistellig, alle mit Daten; die älteren als fünf Jahre
   nach einem Strich und heller: „25 · 24 · 23 · 22 | 19 · 16“. Warum:
