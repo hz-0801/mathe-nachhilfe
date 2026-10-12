@@ -1,0 +1,102 @@
+kapitel;einheit;folge;stufe;stufe_gliederung;jahre;quelle
+dreiecke;Länge mit Pythagoras;1;Gleichung aufstellen;Gleichung aufstellen;2026 2024 2022 2021 2017;RLP E · Fundamente 8, 8.1
+dreiecke;Länge mit Pythagoras;2;Hypotenuse gesucht;Kathete oder Hypotenuse direkt;2022 2020;RLP E · Fundamente 8, 8.1–8.2
+dreiecke;Länge mit Pythagoras;3;Kathete gesucht;Kathete oder Hypotenuse direkt;2026 2024 2022 2019 2016;RLP E · Fundamente 8, 8.1–8.2
+dreiecke;Länge mit Pythagoras;4;Dreieck in Figur oder Körper finden;Dreieck erst in Figur oder Körper finden;2026 2025 2019 2018;RLP E (auch an Körpern) · Fundamente 8, 8.2
+dreiecke;Seite oder Winkel mit sin, cos, tan;5;sin, cos, tan aufschreiben;Seitenverhältnis benennen;2025 2020 2019 2018 2017;RLP F · Fundamente 9, 5.1–5.2
+dreiecke;Seite oder Winkel mit sin, cos, tan;6;Seite gesucht;Seite berechnen;2026 2023 2022 2021 2018 2017 2016;RLP F · Fundamente 9, 5.3
+dreiecke;Seite oder Winkel mit sin, cos, tan;7;Winkel gesucht;Winkel berechnen;2026 2024 2022 2020 2019;RLP F · Fundamente 9, 5.3
+dreiecke;Seite oder Winkel mit sin, cos, tan;8;erst wählen: Pythagoras oder sin, cos, tan;erst entscheiden, dann rechnen;2026 2025 2024 2022;RLP F · Fundamente 9, 5.7 (Vermischte Aufgaben)
+dreiecke;Seite im allgemeinen Dreieck (Sinussatz);9;Seite gesucht (Sinussatz);Seite berechnen (Sinussatz);2025 2024 2021 2020 2019 2018 2017;RLP G · Fundamente 9, 5.4
+dreiecke;Seite im allgemeinen Dreieck (Sinussatz);10;Winkel gesucht (Sinussatz);;;RLP G · Fundamente 9, 5.4
+dreiecke;Seite im allgemeinen Dreieck (Sinussatz);11;Seite gesucht (Kosinussatz);;;RLP G · Fundamente 9, 5.5
+dreiecke;Vierecke: Symmetrie und Eigenschaften;12;Eigenschaft eines Vierecks;Eigenschaft erkennen;2026 2016;RLP D · Fundamente 5, 3.5 · 6, 5.7
+dreiecke;Winkel ohne Rechnung bestimmen oder begründen;13;Winkel an Geraden und Parallelen;;2020 2019;RLP D · Fundamente 6, 3.5–3.6
+dreiecke;Winkel ohne Rechnung bestimmen oder begründen;14;Winkel im Dreieck oder Viereck;Winkelsumme;2026 2023 2022 2021 2018 2017;RLP E · Fundamente 7, 4.4 und 6.2
+dreiecke;Winkel ohne Rechnung bestimmen oder begründen;15;Winkel im gleichschenkligen Dreieck;gleichschenkliges Dreieck;2023;RLP E · Fundamente 6, 5.6
+dreiecke;Winkel ohne Rechnung bestimmen oder begründen;16;rechten Winkel begründen;rechten Winkel begründen;2025;RLP E (Thales, Umkehrung Pythagoras) · Fundamente 8, 7.2 und 8.3
+dreiecke;Symmetrie;17;Symmetrieachsen zählen;Symmetrieachsen zählen;2025 2022 2021;RLP D · Fundamente 5, 3.3
+dreiecke;Symmetrie;18;Spiegelbild finden;;2018;RLP D · Fundamente 5, 3.3–3.4
+flaechen;Flächeninhalt und Umfang;1;Formeln;Formeln;2024 2022;RLP D/E · Fundamente 5, 4.2 · 7, 6.1–6.4
+flaechen;Flächeninhalt und Umfang;2;Fläche gesucht;Fläche gesucht;2025 2024 2023 2022 2019 2018 2017 2016;RLP D/E/F · Fundamente 5, 4.2–4.4 · 7, 6.1–6.4 · 8, 7.4
+flaechen;Flächeninhalt und Umfang;3;Umfang gesucht;Umfang gesucht;2026 2023;RLP D/E · Fundamente 5, 4.5 · 8, 7.3
+flaechen;Flächeninhalt und Umfang;4;Formeln umstellen;Formeln umstellen;2023 2020 2018;RLP E (Umstellen von Formeln)
+flaechen;Flächeninhalt und Umfang;5;Kreisausschnitt oder Bogen gesucht;;;RLP E (Kreisteile) · Fundamente 8, 7.5
+flaechen;Flächeninhalt und Umfang;6;Anteil in Prozent;Anteil in Prozent;2025;RLP E (Prozent) · Fundamente 8, 7.5
+koerper;Volumen und Oberfläche;1;Volumen gesucht;Volumen direkt;2026 2023 2022 2021 2016;RLP E/F/G · Fundamente 8, 9.2, 9.4, 9.6 · 9, 4.2–4.3
+koerper;Volumen und Oberfläche;2;Oberfläche oder Mantel gesucht;Mantelfläche mit Kosten;2026 2018;RLP E/F/G · Fundamente 8, 9.1, 9.3, 9.5 · 9, 4.1, 4.4
+koerper;Volumen und Oberfläche;3;Radius oder Höhe aus dem Volumen;rückwärts: Radius oder Höhe aus Volumen;2023 2022;RLP E (Umstellen von Formeln)
+koerper;Volumen und Oberfläche;4;zusammengesetzter Körper oder Rest;Restvolumen;2024;RLP F/G (Zerlegen, Ergänzen) · Fundamente 9, 4.5
+koerper;Volumen und Oberfläche;5;Volumen vergleichen;vergleichen und urteilen;2026 2021;RLP F (Ergebnisse bewerten)
+koerper;Netz und Schrägbild;6;Ecken, Kanten, Flächen zählen;;2019;RLP D · Fundamente 5, 3.6
+koerper;Netz und Schrägbild;7;Körper zum Netz erkennen;Netz erkennen;2022 2018 2017 2016;RLP D · Fundamente 5, 3.6–3.7
+koerper;Netz und Schrägbild;8;Netz zeichnen;Netz mit Maßen skizzieren;2023 2020 2019;RLP E · Fundamente 8, 9.1, 9.3
+koerper;Netz und Schrägbild;9;Schrägbild zeichnen;Körper im Schrägbild skizzieren;2024;RLP D/E · Fundamente 5, 3.8 · 8, 9.7
+koerper;Netz und Schrägbild;10;Ansicht von oben zeichnen;;2021;RLP G (Zweitafelprojektion)
+lineare;Lineare Funktionen;1;Gerade zeichnen;Gerade zeichnen und ablesen;2026 2025 2024 2023 2022 2021 2017;RLP F · Fundamente 8, 4.4
+lineare;Lineare Funktionen;2;Gleichung ablesen oder aus Punkten aufstellen;Gerade zeichnen und ablesen;2025 2024 2021 2019 2016;RLP F, aus zwei Punkten G · Fundamente 8, 4.3–4.5
+lineare;Lineare Funktionen;3;Nullstelle;Gerade zeichnen und ablesen;2019;RLP F · Fundamente 8, 4.6
+lineare;Lineare Funktionen;4;Punktprobe;Punktprobe und Lösung prüfen;2026 2025 2023 2017;RLP E (Prüfen durch Einsetzen) · Fundamente 8, 4.4
+lineare;Lineare Funktionen;5;Gleichung aus Text;Lineare Funktion im Sachzusammenhang;2022 2021 2016;RLP F · Fundamente 8, 4.7
+lineare;Lineare Funktionen;6;Wert im Sachzusammenhang berechnen;Lineare Funktion im Sachzusammenhang;2022 2021;RLP F · Fundamente 8, 4.7
+lineare;Lineare Funktionen;7;Angebote vergleichen;Lineare Funktion im Sachzusammenhang;2023 2016;RLP F · Fundamente 8, 4.7
+lineare;Lineare Funktionen;8;Schnittpunkt zweier Geraden;;;RLP G · Fundamente 8, 5.2–5.3
+quadratische;Parabel: Scheitelpunkt und Skizze;1;Parabel zeichnen;Wertetabelle oder Skizze;2026 2024;RLP G · Fundamente 9, 3.1
+quadratische;Parabel: Scheitelpunkt und Skizze;2;Scheitelpunkt ablesen;Scheitelpunkt ablesen;2026 2022 2021 2020 2018 2017;RLP G · Fundamente 9, 3.5
+quadratische;Parabel: Scheitelpunkt und Skizze;3;Parabel verschieben oder spiegeln;Scheitelpunktform angeben;2020 2018 2017;RLP G (Parameter) · Fundamente 9, 3.2–3.4
+quadratische;Parabel: Scheitelpunkt und Skizze;4;Gleichung aus dem Scheitelpunkt;Scheitelpunktform angeben;2025 2023 2018 2016;RLP G · Fundamente 9, 3.5
+quadratische;Parabel: Scheitelpunkt und Skizze;5;Scheitelpunktform in Normalform;;;RLP G (binomische Formeln) · Fundamente 9, 3.6
+quadratische;Parabel: Scheitelpunkt und Skizze;6;Punktprobe an der Parabel;Punkt auf der Parabel prüfen;2020 2018;RLP E/G · Fundamente 9, 3.1
+quadratische;Parabel: Scheitelpunkt und Skizze;7;Lage zweier Parabeln begründen;Lage zweier Parabeln ohne Rechnung begründen;2026;RLP G (Einfluss der Parameter)
+quadratische;Quadratische Gleichung lösen;8;Nullstellen berechnen;Nullstellen berechnen;2025 2020 2017;RLP G · Fundamente 9, 3.9–3.10
+quadratische;Quadratische Gleichung lösen;9;x zu gegebenem y;x zu gegebenem y;2023;RLP G (d = ax² + bx + c) · Fundamente 9, 3.9
+quadratische;Quadratische Gleichung lösen;10;Anzahl der Lösungen;;2021;RLP G (Lösbarkeit) · Fundamente 9, 3.10
+quadratische;Quadratische Gleichung lösen;11;Schnittpunkte Gerade und Parabel;Gerade und Parabel gleichsetzen;2024 2022 2021;RLP G · Fundamente 9, 3.11
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;1;Gleichungssystem zeichnerisch lösen;;;RLP F · Fundamente 8, 5.2
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;2;Gleichungssystem rechnerisch lösen;lösen;2022;RLP G · Fundamente 8, 5.3–5.4
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;3;keine oder unendlich viele Lösungen;;;RLP F (Lösbarkeit) · Fundamente 8, 5.5
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;4;Bedeutung von x und y;Variablen deuten;2022;RLP F/G (Übersetzen) · Fundamente 8, 5.6
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;5;Gleichungssystem aus Text aufstellen;aufstellen;2024 2021 2016;RLP F · Fundamente 8, 5.6
+gleichungssysteme;Gleichungssystem im Sachzusammenhang;6;Gleichung in Worte fassen;Gleichung in Worte fassen und lösen;2024;RLP F (Situation zur Gleichung angeben)
+wachstum;Exponentielles Wachstum;1;Tabelle ergänzen;Tabelle ergänzen;2026 2020 2019 2017 2016;RLP G · Fundamente 10, 2.1
+wachstum;Exponentielles Wachstum;2;Wachstumsfaktor gesucht;Faktor bestimmen, Gleichung aufstellen;2025 2018;RLP G · Fundamente 10, 2.1
+wachstum;Exponentielles Wachstum;3;Gleichung aufstellen oder deuten;Faktor bestimmen, Gleichung aufstellen;2026 2019 2017;RLP G · Fundamente 10, 2.2
+wachstum;Exponentielles Wachstum;4;Wert nach n Jahren;Faktor bestimmen, Gleichung aufstellen;2020 2017 2016;RLP G · Fundamente 10, 2.2
+wachstum;Exponentielles Wachstum;5;Graph zeichnen;Punkte darstellen;2025 2021 2017 2016;RLP G (Darstellen, Achseneinteilung) · Fundamente 10, 2.2
+wachstum;Exponentielles Wachstum;6;Graph zuordnen;Graph zuordnen und begründen;2026 2019;RLP G (Funktionstypen gegenüberstellen) · Fundamente 10, 2.4
+wachstum;Exponentielles Wachstum;7;Zeit bis Verdopplung oder Schwelle;;2020 2018 2016;RLP G (Modellieren) · Fundamente 10, 2.1, 2.4
+prozent;Prozent;1;Prozent und Anteil umwandeln;Prozent und Anteil umwandeln;2022 2020;RLP E · Fundamente 7, 2.1–2.2
+prozent;Prozent;2;Prozentwert gesucht;Prozentwert;2026 2021 2019 2017;RLP E · Fundamente 7, 2.3
+prozent;Prozent;3;Prozentsatz gesucht;Prozentsatz;2023 2018;RLP E · Fundamente 7, 2.4
+prozent;Prozent;4;Grundwert gesucht;Grundwert;2025 2023;RLP E · Fundamente 7, 2.5
+prozent;Prozent;5;neuer Wert nach Erhöhung oder Rabatt;Erhöhung und Veränderung in Prozent;2024;RLP F (Rabatt) · Fundamente 7, 2.6
+prozent;Prozent;6;Veränderung in Prozent gesucht;Erhöhung und Veränderung in Prozent;2026 2022 2016;RLP F · Fundamente 7, 2.6
+prozent;Prozent;7;Prozentaussage prüfen;Aussagen prüfen;2025 2023 2019 2017;RLP F (Überprüfen von Ergebnissen)
+prozent;Prozent;8;Anteil einer berechneten Fläche;Prozent aus einer berechneten Fläche;2023;RLP E (Prozent), F (zusammengesetzte Flächen)
+prozent;Prozent;9;Zinsen oder Zinssatz gesucht;Zinsen und Zinssatz;;RLP F (Zinsen) · Fundamente 7, 2.7
+prozent;Prozent;10;Guthaben nach mehreren Jahren;Zinseszins und Guthabentabelle;;Lehrwerk, keine RLP-Zeile (katalog/zinsrechnung.md) · Fundamente 7, 2.7
+daten;Kenngrößen;1;relative Häufigkeit;;;RLP E · Fundamente 6, 6.1 · 7, 7.1
+daten;Kenngrößen;2;Spannweite;Minimum, Maximum, Spannweite;2026 2024 2023 2022 2021 2020 2019;RLP D · Fundamente 6, 6.4
+daten;Kenngrößen;3;Modalwert;Modalwert;;RLP E · Fundamente 7, 7.4
+daten;Kenngrößen;4;Median;Median;2024;RLP E · Fundamente 7, 7.4
+daten;Kenngrößen;5;Mittelwert;Mittelwert;2026 2024 2021 2020 2017 2016;RLP E · Fundamente 7, 7.4
+daten;Kenngrößen;6;fehlender Wert zum Mittelwert;rückwärts: fehlender Wert;2022;RLP E · Fundamente 7, 7.4
+daten;Kenngrößen;7;Aussage zu Kenngrößen prüfen;Aussagen prüfen, Auswirkung erklären;2025;RLP G (Auswerten, Beurteilen) · Fundamente 10, 4.2
+daten;Kenngrößen;8;Boxplot lesen;;;RLP F · Fundamente 7, 7.6
+daten;Kreisdiagramm;9;Winkel im Kreisdiagramm;Winkel berechnen und beschriften;2024 2022 2021 2017;RLP E · Fundamente 6, 6.2
+daten;Kreisdiagramm;10;Kreis- oder Streifendiagramm zeichnen;aus Prozent darstellen;2025 2018;RLP E · Fundamente 6, 6.2
+daten;Diagramm ergänzen und beurteilen;11;Wert aus Diagramm ablesen;;2020 2016;RLP C/D · Fundamente 5, 1.1
+daten;Diagramm ergänzen und beurteilen;12;Säule ergänzen;ergänzen;2026 2023 2020 2018;RLP D · Fundamente 7, 7.2
+daten;Diagramm ergänzen und beurteilen;13;Histogramm zeichnen;;;RLP F · Fundamente 7, 7.3
+daten;Diagramm ergänzen und beurteilen;14;Aussage zum Diagramm prüfen;Aussage prüfen;2022 2019 2018;RLP F/G · Fundamente 7, 7.2
+daten;Diagramm ergänzen und beurteilen;15;falschen Eindruck erklären;falschen Eindruck erklären;2026;RLP G (Manipulationen) · Fundamente 10, 4.3
+wahrscheinlichkeit;Wahrscheinlichkeit einstufig;1;Ergebnisse aufzählen;Ergebnisse aufzählen;2025 2020 2017;RLP E · Fundamente 8, 3.1
+wahrscheinlichkeit;Wahrscheinlichkeit einstufig;2;Anzahl der Möglichkeiten;;2017 2016;RLP D/E (systematisch zählen)
+wahrscheinlichkeit;Wahrscheinlichkeit einstufig;3;Wahrscheinlichkeit angeben;Wahrscheinlichkeit angeben;2026 2024 2019 2018 2017 2016;RLP E · Fundamente 8, 3.3
+wahrscheinlichkeit;Wahrscheinlichkeit einstufig;4;erwartete Anzahl;;;RLP E (Vorhersage von Häufigkeiten)
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;5;Baum ergänzen;Baum ergänzen;2026 2024 2020 2019;RLP G · Fundamente 8, 3.4
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;6;Pfad- und Summenregel;Pfadregel;2025 2020;RLP G · Fundamente 8, 3.5
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;7;ohne Zurücklegen;ohne Zurücklegen;2024 2019 2018;RLP G · Fundamente 10, 5.3
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;8;Gegenereignis;Gegenereignis;2026;RLP G
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;9;Zufallsgerät entwerfen;Zufallsgerät entwerfen;2026 2025 2019 2018;RLP D (Bedingungen verändern)
+wahrscheinlichkeit;Baumdiagramm und Pfadregeln;10;Vierfeldertafel;;;RLP G · Fundamente 10, 5.6
