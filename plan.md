@@ -383,6 +383,12 @@ und Setzer zugleich wachsen.
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
+- Duden Formeln und Werte bis Kl. 10 (Abschrift in
+  aufgabenbank-privat/formelsammlung/duden-sek1.md): Quelle für
+  Formel je Lernweg-Schritt (Datei Allgemein) und für den Kasten auf
+  Bestellung; erster bestellter Kasten = Exemplar, dann Regel.
+  Schreibweise nur für Schüler mit diesem Buch. Sek-II-Band erst zum
+  Abitur. Kein Kasten-Vorrat je P10-Einheit (Lehrer 12.10.).
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 
@@ -528,6 +534,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
   Originalen entsteht beim Bau, Setzer druckt ihn ohne Modell.
+- 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
+  Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
+  Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
+  0,26 Mio Token, 13 min.
 
 ## 11 Register der Entscheidungen
 
