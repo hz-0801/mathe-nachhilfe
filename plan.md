@@ -285,7 +285,8 @@ vollständig, dann ordnen, dann bauen.
       (befunde-M3.md).
       Nächste Runde (neuer Chat): Setzer nach 12.10. (b) – rechte
       Spalte, Häufigkeitswort, Bündel, kein Karo bei Zeichne,
-      Ausblenden; Buch-Gliederung je Kapitel als Daten (Sonnet);
+      Ausblenden; Kennung aus der Gliederung (nicht je Bau neu, H37
+      blieb nicht H37), Baudatum klein im Fuß (Lehrer 12.10.); Buch-Gliederung je Kapitel als Daten (Sonnet);
       Lineare und Flächen neu bauen, Lehrer sieht TAL neu und Y5D;
       dann Gemischt-Blatt Funktionen, restliche Einheiten,
       Handreichung als Muster.
