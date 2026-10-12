@@ -372,6 +372,10 @@ Messwert Runde 4 (12.10. 12–13 Uhr UTC): Setzer-Umbau + Flächen c
 7 min Wanduhr – Blätter aus Daten werden billiger, sobald Setzer und
 Gliederung stehen. Woche 97 → ?, Fable 75 → ? (vor dem Reset nicht
 mehr abgelesen).
+Stand nach dem Reset (12.10. abends, Lehrer): Fable 2 % – Rest aus
+Chat start 26 (Fable bis 20:02 Uhr: Lineare zweite Fassung, Parabel,
+Durchsicht, Umzug). Seit Weg B (20:24) alle Commits Opus; bleibt der
+Wert stehen, zieht nichts mehr Fable.
 
 Messwert Runde 3 (12.10. früh, eigene Klone je Agent, keine
 Verluste): drei Fable-Blatt-Agenten 0,35 + 0,27 + 0,31 Mio (18–29
