@@ -1,76 +1,75 @@
-# Übergabe verbessereBlaetter – 2026-10-11 (Chat „start 25“, Fable)
+# Übergabe verbessereBlaetter – 2026-10-12 (Chat „start 26“, Fable)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-10f.md. Nach plan.md
+Vorherige Übergabe: archiv/uebergabe-2026-10-11.md. Nach plan.md
 Linie 8 nennt diese Übergabe keinen eigenen nächsten Schritt.
-Entscheidungen nur aus plan.md (§ 3 Linien, § 10, § 11 Register).
+Entscheidungen nur aus plan.md (§ 3 Linien, § 7, § 10, § 11).
 
 ## 1 Ziel
 
-P10 fertig, ohne Abitur und Schulstoff aus den Augen zu verlieren:
-Der Lehrer bestellt mit wenigen Wörtern und bekommt schnell gute,
-kurze Blätter (plan.md § 1).
+P10 fertig: Der Lehrer bestellt mit wenigen Wörtern und bekommt
+schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md § 1).
 
 ## 2 Arbeitsgrundlage
 
-- plan.md – Ziel, Linien, § 7 „Jetzt“ (Schritt 5), § 11 Register.
-- pruefung.md, gemeinsam.md – Sortendatei und gemeinsame Datei;
-  tragen die 26 Festlegungen vom 11.10. noch als „Wie“.
-- aufgabenbank bau/warum-2026-10-11.md – Entwurf der Regeln als
-  Warum – Beispiel – Grenze (nicht abgenommen).
-- aufgabenbank bau/pruefung/2026-10-11/winkel-ohne-rechnung/ –
-  Muster der Blattform (T2U, dritte Fassung); dazu
-  bau/pruefung/*/befund-kritiker-2026-10-11.md und
-  bau/befund-kritiker-runde-dreiecke.md (Fable-Kritiker, 11.10.).
-- aufgabenbank bau/befunde-M3.md – Befunde und Setzer-Wunschliste.
-- blattbau mathblatt.sty 2026-10-11d – neue Makros der Sorte P
-  (\pflaufkopf[Sorte], \pfstufenzeile, \pfseitevon, \pfteil,
-  pfloesungb/\lzb, \pfkreuz, \pfblattende, \pfausschnitt,
-  \pfskizzenfeld, \pfwinkel, \pfrw); setzer.py kennt sie nicht.
+- plan.md – Ziel, Linien, § 7 „Jetzt“ (Schritt 5a–e), § 8 Messwerte
+  und Fable-Regel, § 10/§ 11 Entscheidungen vom 11./12.10.
+- pruefung.md § 5 – Regeln als Warum – Beispiel – Grenze, darunter
+  die vom 12.10. (Blatt = alle Originale der letzten fünf Jahre,
+  Stufen nach dem Gesuchten, Einstieg = erster Schritt, eigene
+  Aufgaben sparsam, Andere Zahlen, Mehr-Block, Marke B, Stufenkopf).
+- msa/mehr-p10.csv (291 Zeilen, alle zehn Kapitel, neue Zahlen,
+  Spalten grafik/form), msa/gliederung/<kapitel>.md (Stufen,
+  Schülerfrage, Einstieg), msa/mehr-pruef.py.
+- aufgabenbank werkzeuge/pruefheft.py v0.7 (Arten p und mehr),
+  werkzeuge/pruefheft-p.md (Datenbedarf); bau/pruefung/2026-10-12/
+  (Flächen H37 zweite Fassung = Muster, Volumen AZL, Netz EF4);
+  bau/befunde-M3.md „Offen (Lehrer)“; Kritikerbefunde
+  bau/befund-kritiker-mehr-*.md.
+- aufgabenbank-privat originalneu/ – Original neu für alle 14 Hefte.
+- anweisungen projekt-verbessereBlaetter.md Stand 2026-10-12.
 
 ## 3 Arbeitsstand
 
-- plan.md § 7 Schritt 3 gekürzt und erledigt (offen.html,
-  baum-offen.py, bauregeln.md im Archiv, Verweise nachgezogen).
-- Schritt 4 erledigt: fünf Prüfungsblätter Kapitel Dreiecke (P4Z
-  Pythagoras, GYW sin cos tan, T2U Winkel, LXA Sinussatz, NUB
-  Symmetrie → wird Vierecke); herausgelöste Fassungen in
-  msa/herausgeloest-p10.csv; Gliederung dreiecke.md: Gruppen-Zeile,
-  2026-FOR-B1c nach Vierecke.
-- T2U Winkel dreimal nachgezogen, gilt als Muster; die vier anderen
-  tragen noch die Form vom 10.10. und warten auf den Nachzug nach
-  den Befundlisten.
-- Kein Blatt ist geliefert (Lieferliste leer); Kennungen bleiben
-  beim Nachzug.
-- Winkel ist nach Lehrer 11.10. ohne Stufen zu bauen (ein Handgriff);
-  Entscheidung dazu offen (§ 7 Schritt 5a).
+- Schritt 5a–d erledigt (zwei Chats parallel, 11./12.10.); 5e: drei
+  Blätter P aus Daten, Flächen nach Lehrer-Durchsicht zweimal
+  nachgezogen (Stufe Anteil in Prozent zurück, Nr. 1 gekürzt).
+- Läuft beim Umzug (Agenten, Fable): Setzer-Umbau (Stufenkopf-Jahre
+  „25 · 24 | 19“, Hervorhebung in mathblatt.sty, Marke B, Einstieg
+  nur aus der Gliederung, Blatt = alle jungen Originale) mit Flächen
+  dritter Fassung; Lineare als ein Blatt (Gerade · Punktprobe ·
+  Sachzusammenhang); Quadratische (Parabel). Ergebnis: git log der
+  drei Repos nach 12.10. 12:00 UTC prüfen; Abbruch durch das
+  Wochenlimit möglich – dann Standdateien/Commits ansehen.
+- Noch nicht gebaut: Prozent, Daten, Wahrscheinlichkeit,
+  Gleichungssysteme, Wachstum, Quadratische Gleichung lösen.
 
 ## 4 Rahmen
 
-- Kontingent 11.10. nachts: Woche 81 %, Fable 47 %, Reset Montag
-  18:00; Anzeige warnt. Messwerte plan.md § 8.
-- Lehrer 11.10.: Agenten erst nach Go; je Runde ein Blatt als Muster
-  und die Stichprobe, nicht alle; Regeln als Warum, nicht als Wie.
-- Zugriff: mathe-nachhilfe, aufgabenbank, blattbau, anweisungen mit
-  Schreibzugang; aufgabenbank-privat lesend.
-- Projektanweisung im Repo auf 2026-10-11 (Agenten nach Go,
-  Stichprobe, Warum-Form); Einstellung des Lehrers stand auf
-  2026-10-10c.
+- Kontingent: Woche 96 %, Fable 73 % (12.10. 19:40, Reset Montag
+  18:00). Fable zieht aus der Woche, höchstens 50 % davon
+  (support.claude.com); voll nur, wenn > 50 % des Verbrauchs Fable
+  ist. Lehrer: Kontingent restlos verbrauchen, Fable statt Opus,
+  Sonnet nur Mechanik; Agenten erst nach Go je Runde.
+- Messwerte plan.md § 8: Blatt P aus Daten ≈ 0,3 Mio Fable; Mehr-Block
+  je Kapitel ≈ 0,05 Mio Sonnet; Original neu je Heft ≈ 0,03 Mio.
+- Agenten brauchen je einen eigenen Klon (/home/claude/k1 … k5).
+- Lehrer sieht je Runde ein Blatt als Muster (zuletzt Flächen).
 
 ## 5 Offen und Verworfenes
 
-- Sieben Unklarheiten der Warum-Liste (befund-kritiker-runde-
-  dreiecke.md): u. a. Schülerfrage und Einstieg eine oder zwei
-  Aufgaben; gilt „kein Tipp“ nur für Päckchen; Jahre der
-  Schlussstufe; Marke an herausgelöstem Vorschritt.
-- Kern-Grenze: Gliederung zählt seit 2014, pruefung.md fünf Jahre
-  (befunde-M3.md).
-- Blatt Vierecke (aus NUB): nimmt Raute und 2026-FOR-B1c auf; Stufen
-  nach Kritiker: Vierecke erkennen · Eigenschaften · Symmetrieachsen.
-- Formelsammlungs-Verweis als Teilaufgabe: Lehrer 11.10. „brauchen
-  wir nicht“ – nicht wieder vorschlagen.
-- bankblatt.md unverändert (v5.10); Zeile zu bauregeln.md stimmt
-  weiter.
+- Offen (Lehrer), bau/befunde-M3.md: 3 statt 2 Seiten bei fünf
+  Stufen; zwei Formen der Schülerfrage (kurz kursiv vs. mit Fällen);
+  2024-1c als siebte echte; Ausgabe der Formelsammlung (Seite).
+- Zahlenregel braucht für Lineare „Koordinatenfenster wandert mit“
+  und für Prozent „Tabelle verrät nicht den nächsten Teil“
+  (Kritiker 12.10.) – beim Bau Lineare nachziehen.
+- Warum-Liste 5b: sieben Unklarheiten „Offen (Lehrer)“ in
+  pruefung.md/gemeinsam.md, Abnahme steht aus.
+- Verworfen: „eine echte je Erscheinungsform“ (11.10.) – ersetzt
+  12.10. durch „alle Originale der letzten fünf Jahre“; „Figur erst
+  zerlegen“ als Stufe (ein Original); Formelsammlungs-Verweis als
+  Teilaufgabe (nur als Einstieg).
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 „Jetzt“, Schritt 5.
+plan.md § 7 „Jetzt“, Schritt 5e.
