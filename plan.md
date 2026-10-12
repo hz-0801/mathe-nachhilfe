@@ -285,8 +285,8 @@ vollständig, dann ordnen, dann bauen.
       (befunde-M3.md).
       Nächste Runde (neuer Chat): Setzer nach 12.10. (b) – rechte
       Spalte, Häufigkeitswort, Bündel, kein Karo bei Zeichne,
-      Ausblenden; Kennung aus der Gliederung (nicht je Bau neu, H37
-      blieb nicht H37), Baudatum klein im Fuß (Lehrer 12.10.); Buch-Gliederung je Kapitel als Daten (Sonnet);
+      Ausblenden; Kennung aus der Gliederung mit Fassung dahinter
+      (H373; Lehrer 12.10., ersetzt Baudatum im Fuß); Buch-Gliederung je Kapitel als Daten (Sonnet);
       Lineare und Flächen neu bauen, Lehrer sieht TAL neu und Y5D;
       dann Gemischt-Blatt Funktionen, restliche Einheiten,
       Handreichung als Muster.
@@ -518,6 +518,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Blatt je Ast (Gerade und Parabel, Schnittpunkte); Einstieg Geraden
   = Erkennen; Formel-Frage einmal je Blatt; Handreichung = Landkarte
   der Prüfung, Form am Ende (pruefung.md § 5). Y5D-Durchsicht offen.
+- 12.10.2026 (d): Kennung fest je Einheit, Fassung als Zahl dahinter
+  (H373), steigt nur bei geänderten Daten; ersetzt Baudatum und
+  „Neubau = neue Kennung“ (Lehrer, gemeinsam.md).
 - 12.10.2026 (c): § 8 Modellwahl Weg B (Lehrer): Opus Standard,
   Fable nur nach belegtem Fehlschlag; Aufwand je Lauf; Regeln global
   in anweisungen/modelle.md.

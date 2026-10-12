@@ -108,7 +108,12 @@ die der Lehrer noch entscheidet.
   wird ein Blatt der Sorte oder ein gebautes Lernblatt mit Kennung.
   Grenze: sonst entfällt „Vorher“ (Prüfung: pruefung.md
   „Lernfolge“).
-- Die Kennung gehört zum gedruckten Blatt; ein Neubau bekommt eine neue.
+- **Kennung mit Fassung** (Lehrer 12.10., ersetzt „ein Neubau bekommt
+  eine neue Kennung“ und das Baudatum): Die Kennung steht fest je
+  Einheit in der Gliederung; dahinter ohne Trenner die Fassung als
+  Zahl – H373 = Einheit H37, Fassung 3. Die Fassung steigt nur, wenn
+  sich die Daten der Einheit ändern (Fingerabdruck), nicht beim
+  Nachdruck; die Lieferliste vermerkt sie.
 
 ## Zweck
 
@@ -207,8 +212,8 @@ die der Lehrer noch entscheidet.
   Abschnitt mit Überschrift in Schülersprache; Erkennfragen mischen die
   Arten. Schlecht: unter „Kathete berechnen“ die Frage „Hypotenuse oder
   Kathete?“.
-- Menge: Jede Sorte steht einmal (Prüfung: Ausnahme in pruefung.md
-  „Wie viele echte je Sorte“). Sprossen, die nur die Zahlen ändern,
+- Menge: Jede Sorte steht einmal (Prüfung: alle Originale der
+  letzten fünf Jahre, pruefung.md). Sprossen, die nur die Zahlen ändern,
   kommen ins Päckchen der vorigen. Wo eine Rechnung sitzen muss, steht
   ein kurzes Päckchen (a, b, c – gleicher Bau, wenig Text). Mehr über
   Nachbestellung. Gilt nicht für Original und Original neu.
@@ -236,7 +241,7 @@ die der Lehrer noch entscheidet.
   und die Blätter liegen gemischt und ohne Übersicht auf dem Tisch –
   jede Seite muss allein stehen. Beispiel: links oben klein grau
   Sorte und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts
-  oben die Kennung; auf Folgeseiten links zusätzlich der Name; Seite
+  oben Kennung und Fassung (H373); auf Folgeseiten links zusätzlich der Name; Seite
   1 darunter der Titel (nur der Name), darunter eine graue Zeile mit
   den Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
   Stufe. Grenze: Kein Datum, keine Namenszeile, kein
@@ -248,14 +253,11 @@ die der Lehrer noch entscheidet.
   kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg,
   kein Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
 - Kennung: drei Zeichen aus 2–9 und A–Z ohne I und O, gegen das
-  Register eindeutig.
+  Register eindeutig; dahinter die Fassung (H373).
 - Marke grau im linken Rand auf der Grundlinie der Nummer (Formen in
-  pruefung.md „Marke“); eigene ohne Marke. **Stern = FOR-Niveau**
-  (03.10., ausgeschrieben Lehrer 11.10.): Warum: Der Schüler soll mit
-  einem Zeichen, das er aus dem Heft kennt, sehen, was nur FOR
-  schreibt. Beispiel: Stern bei Sternchenaufgaben der OS-Hefte bis
-  2025 und bei Aufgaben, die ab 2026 nur im FOR-Heft stehen. Grenze:
-  was beide Hefte haben, ohne Stern; eigene ohne Marke und Stern.
+  pruefung.md „Marke“); eigene ohne Marke. Stern entfällt (Lehrer 12.10.):
+  FOR und „Basis · ohne TR“ stehen als Bedingungen klein grau rechts
+  an der Aufgabe (pruefung.md „Marke mit B, Bedingungen rechts“).
 - **Buchstabenspalte** (Lehrer 11.10.): Warum: Nummer und Teilaufgabe
   sind auf einen Blick zu finden, in Blatt und Lösung gleich – der
   Lehrer prüft in einer Sekunde. Beispiel: Nummer und Teilaufgabe in

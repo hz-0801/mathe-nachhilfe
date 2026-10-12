@@ -363,16 +363,10 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   und Teilaufgaben mit Figur bekommen eine Skizze oder ein
   Skizzenfeld, in dem er selbst zeichnet. Grenze: wo sie hilft, nicht
   bei jeder Aufgabe; nicht wörtlich nachbauen.
-- **Wie viele echte je Sorte** (Lehrer 10.10.): eine. Eine zweite oder
-  dritte derselben Sorte, wenn beide gelten: (1) sie sieht anders aus
-  – andere Sache, Darstellung oder Formulierung; nur andere Zahlen
-  zählen nicht; (2) der Handgriff ist Kern (in mindestens drei der
-  letzten fünf Prüfungen). Die Länge bleibt Richtwert: würde das Blatt
-  deutlich länger als die übrigen des Kapitels, fällt die zusätzliche
-  zuerst weg; keine feste Seitenzahl. Der Rest steht in der
-  Fundstellentabelle und kommt mit „mehr“ zuerst. Sorte heißt
-  Erscheinungsform: Gleichung ankreuzen und Satz in Worten ankreuzen
-  sind zwei Sorten (Befund P4Z, 11.10.).
+- **Wie viele echte je Sorte** (Lehrer 10.10.): abgelöst 12.10. durch
+  „Blatt = alle Originale der letzten fünf Jahre“; Gleichartige werden
+  gebündelt (oben). Sorte heißt weiter Erscheinungsform (Befund P4Z,
+  11.10.).
 - **Prüfstein** (fest 04.10., 06.10.; Lehrer 10.10.: einmal je
   Kapitel, nicht auf jedem Blatt): am Ende des Prüfungshefts eines
   Kapitels eine ganze echte Aufgabe aus den letzten fünf Jahren, alle
@@ -445,8 +439,8 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   hatte (Kritiker 12.10., bau/befund-kritiker-mehr-prozent-lineare.md:
   2024-K3 Schnittpunkt (4|11), 2026-FOR-K5a Gerade kaum im Bild).
 - **Mehr-Block** (Lehrer 11.10., plan.md § 7 Schritt 5a): Warum: Das
-  Blatt bleibt schlank (eine echte je Erscheinungsform, endet auf
-  Prüfungshöhe), und doch geht kein Original verloren; der Setzer
+  Blatt trägt die Originale der letzten fünf Jahre und endet auf
+  Prüfungshöhe (12.10.), und doch geht kein Original verloren; der Setzer
   druckt „mehr“ ohne Modell. Beispiel: je Einheit alle Originale,
   die nicht aufs Blatt kamen, als Liste in `msa/mehr-p10.csv`
   (Spalten wie herausgeloest-p10.csv, dazu einheit, schwere I–III
