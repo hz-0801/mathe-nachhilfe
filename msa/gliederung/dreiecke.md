@@ -17,6 +17,7 @@ Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
 Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
 Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
 Kennung: Winkel ohne Rechnung bestimmen oder begründen = T2U
+Anzeigenamen: Vierecke: Symmetrie und Eigenschaften = Vierecke
 Kennung: Symmetrie = NUB
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
@@ -130,6 +131,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Seite berechnen [2024-OS-K6d 2025-OS-K4c]
 
 ### Eigenschaft erkennen
+- **Anzeigename:** Eigenschaften: welche Aussage gilt
+- **Schülerfrage:** Ein Trapez ist ein Viereck mit mindestens zwei parallelen Seiten. Ist das Viereck ein Trapez?
+- **Schülerfrage-Fälle:** Rechteck = ja | Parallelogramm = ja | Drachenviereck, das keine Raute ist = nein
+- **Schülerfrage-Form:** kreuz:Trapez
+- **Schülerfrage-Weg:** Rechteck und Parallelogramm haben sogar zwei Paare paralleler Seiten; im Drachenviereck ist keine Seite zu einer anderen parallel.
+- **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1c fragt, was für jedes Trapez gilt; der Anstoß zeigt, dass „mindestens zwei parallel“ auch Rechteck und Parallelogramm einschließt.
 - **Kern:** nein – 2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme
 - **Originale:** 2026-FOR-B1c 2016-OS-B1e
 - **Bank:** winkel-dreiecke-e3-k2-s10(i) symmetrie-abbildungen-e2-k5-s1(i)
@@ -173,6 +180,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### Symmetrieachsen zählen
+- **Anzeigename:** Symmetrieachsen zählen
+- **Schülerfrage:** Eine Symmetrieachse teilt die Figur so, dass beim Falten beide Hälften genau aufeinanderliegen. Wie viele Symmetrieachsen hat die Figur?
+- **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das kein Rechteck ist = 0
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Beim Rechteck die beiden Mittellinien; die Diagonalen sind keine Achsen – beim Parallelogramm passt keine Faltung.
+- **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 1i (gleichschenkliges Trapez) und ’25 · 2a (Drachen, ungekürzt mit BF und AB über Pythagoras) aufs Blatt; ’21 · 1j in den Mehr-Block. Der Anstoß übt die Falle Diagonale als Achse.
 - **Kern:** ja – 3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall
 - **Originale:** 2022-OS-B1i 2025-OS-K2a 2021-OS-B1j
 - **Bank:** symmetrie-abbildungen-e2-k2-s2(i) symmetrie-abbildungen-e2-k2-s3(i) symmetrie-abbildungen-e2-k2-s4(i) symmetrie-abbildungen-e2-k2-s5(i) symmetrie-abbildungen-e2-k2-s6(i) symmetrie-abbildungen-e2-k2-s7(i) symmetrie-abbildungen-e2-k2-s8(i) symmetrie-abbildungen-e2-k2-s11 symmetrie-abbildungen-e2-k2-s12
