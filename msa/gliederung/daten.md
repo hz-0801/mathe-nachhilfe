@@ -120,15 +120,12 @@ einer Stufe.
 
 ### ergänzen
 - **Anzeigename:** Säule ergänzen
-- **Schülerfrage:** Wie viel ist ein Schritt an der Achse eines Säulendiagramms wert?
-- **Schülerfrage-Fälle:** eine Säule für 60 ist 3 Kästchen hoch = 20 | von 2,00 bis 2,50 sind es 5 gleiche Schritte = 0,1
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Wert durch die Zahl der Schritte: 60 : 3 = 20; (2,50 − 2,00) : 5 = 0,1
+- **Frage:** Wie viel ist ein Schritt an der Achse wert, von einer Linie zur nächsten? Steht dort keine Zahl, hilft eine bekannte Säule: ihr Wert durch ihre Schritte.
 - **Kern:** ja – 4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall
 - **Originale:** 2026-FOR-K3d 2023-OS-K6d 2020-OS-K2a 2018-OS-K3a
 - **Bank:** daten-e2-k2-s7 daten-e2-k2-s8 daten-e2-k2-s9 daten-e2-k2-s12 daten-e2-k3-s1 daten-e2-k4-s3
 - **Zuschnitt:** Diagramme
-- **Durchsicht 13.10.:** Runde A: kursiver Hinweis („eine Hilfslinie“ – welche?) wird eine Frage, die für sich steht: zwei Fälle, Achse ohne Zahlen aus einer bekannten Säule (’23 · 6d) und Achse ab einem Startwert in gleichen Schritten (’26 · 3d).
+- **Durchsicht 13.10.:** Runde A: der kursive Hinweis begann mit „Erster Schritt“ und „eine Hilfslinie“ (welche?) – jetzt eine Frage, die für sich steht (ein Schritt an der Achse, ohne Zahlen aus einer bekannten Säule); als nummerierte Aufgabe mit zwei Fällen ging das Blatt auf 4 Seiten, darum kursiv geblieben.
 
 ### Aussage prüfen
 - **Anzeigename:** Aussage prüfen
