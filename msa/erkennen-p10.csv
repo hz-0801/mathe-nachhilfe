@@ -47,28 +47,28 @@ prozent;Zinseszins und Guthabentabelle;Lena hatte 612,08 €, bekam 12,24 € Zi
 prozent;Zinseszins und Guthabentabelle;"1 000 € werden 5 Jahre lang zu 3 % angelegt; die Zinsen bleiben auf dem Konto. Wie hoch ist das Guthaben nach 5 Jahren?";Zinseszins und Guthabentabelle;P10 2014 · 3c
 prozent;Zinseszins und Guthabentabelle;400 € liegen ein Jahr lang zu 2 % auf dem Konto. Wie viel Zinsen gibt es?;Zinsen und Zinssatz;P10 2015 · 1e
 prozent;Zinseszins und Guthabentabelle;Eine Miete von 310 € steigt jedes Jahr um 1,1 %. Wie hoch ist sie im sechsten Jahr?;Zinseszins und Guthabentabelle;P10 2017 GYM · 5a
-dreiecke;Kathete oder Hypotenuse direkt;"Eine 1,20 m hohe Wand steht senkrecht; der Winkel bei B ist 34,9°. Wie weit ist der Fuß der Wand von B entfernt?";Seite berechnen;P10 2017 · 4b
-dreiecke;Kathete oder Hypotenuse direkt;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete oder Hypotenuse direkt;P10 2019 · 3a
-dreiecke;Kathete oder Hypotenuse direkt;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie groß ist der Winkel bei A?";Winkel berechnen;P10 2019 · 3b
-dreiecke;Kathete oder Hypotenuse direkt;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Kathete oder Hypotenuse direkt;P10 2020 · 7a
-dreiecke;Kathete oder Hypotenuse direkt;Im Dreieck DEF ist FE = 11 m, der Winkel bei F 115° und der Winkel bei E 16°. Wie lang ist DE?;Seite berechnen (Sinussatz);P10 2020 · 7c
-dreiecke;Kathete oder Hypotenuse direkt;"Bei A ist ein rechter Winkel; die Diagonale BD ist 1 500 m lang, der Winkel bei D 55°. Wie lang ist AB?";Seite berechnen;P10 2021 · 3a
-dreiecke;Kathete oder Hypotenuse direkt;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie lang ist FA?";Kathete oder Hypotenuse direkt;P10 2024 · 6a
-dreiecke;Kathete oder Hypotenuse direkt;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie groß ist der Winkel bei B?";Winkel berechnen;P10 2024 · 6b
-dreiecke;Kathete oder Hypotenuse direkt;Im Dreieck ABC ist AB = 384 m, α = 38° und β = 108°. Wie lang ist BC?;Seite berechnen (Sinussatz);P10 2024 · 6d
+dreiecke;Kathete gesucht;"Eine 1,20 m hohe Wand steht senkrecht; der Winkel bei B ist 34,9°. Wie weit ist der Fuß der Wand von B entfernt?";Seite berechnen;P10 2017 · 4b
+dreiecke;Kathete gesucht;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete gesucht;P10 2019 · 3a
+dreiecke;Hypotenuse gesucht|Kathete gesucht;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie groß ist der Winkel bei A?";Winkel berechnen;P10 2019 · 3b
+dreiecke;Hypotenuse gesucht;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Hypotenuse gesucht;P10 2020 · 7a
+dreiecke;Hypotenuse gesucht|Kathete gesucht;Im Dreieck DEF ist FE = 11 m, der Winkel bei F 115° und der Winkel bei E 16°. Wie lang ist DE?;Seite berechnen (Sinussatz);P10 2020 · 7c
+dreiecke;Kathete gesucht;"Bei A ist ein rechter Winkel; die Diagonale BD ist 1 500 m lang, der Winkel bei D 55°. Wie lang ist AB?";Seite berechnen;P10 2021 · 3a
+dreiecke;Kathete gesucht;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie lang ist FA?";Kathete gesucht;P10 2024 · 6a
+dreiecke;Hypotenuse gesucht|Kathete gesucht;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie groß ist der Winkel bei B?";Winkel berechnen;P10 2024 · 6b
+dreiecke;Hypotenuse gesucht|Kathete gesucht;Im Dreieck ABC ist AB = 384 m, α = 38° und β = 108°. Wie lang ist BC?;Seite berechnen (Sinussatz);P10 2024 · 6d
 dreiecke;Winkel berechnen;"Eine 1,20 m hohe Wand steht senkrecht; der Winkel bei B ist 34,9°. Wie weit ist der Fuß der Wand von B entfernt?";Seite berechnen;P10 2017 · 4b
-dreiecke;Winkel berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete oder Hypotenuse direkt;P10 2019 · 3a
+dreiecke;Winkel berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete gesucht;P10 2019 · 3a
 dreiecke;Winkel berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie groß ist der Winkel bei A?";Winkel berechnen;P10 2019 · 3b
-dreiecke;Winkel berechnen;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Kathete oder Hypotenuse direkt;P10 2020 · 7a
+dreiecke;Winkel berechnen;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Hypotenuse gesucht;P10 2020 · 7a
 dreiecke;Winkel berechnen;Im Dreieck DEF ist FE = 11 m, der Winkel bei F 115° und der Winkel bei E 16°. Wie lang ist DE?;Seite berechnen (Sinussatz);P10 2020 · 7c
 dreiecke;Winkel berechnen;"Bei A ist ein rechter Winkel; die Diagonale BD ist 1 500 m lang, der Winkel bei D 55°. Wie lang ist AB?";Seite berechnen;P10 2021 · 3a
 dreiecke;Winkel berechnen;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie groß ist der Winkel bei B?";Winkel berechnen;P10 2024 · 6b
 dreiecke;Winkel berechnen;Im Dreieck ABC ist AB = 384 m, α = 38° und β = 108°. Wie lang ist BC?;Seite berechnen (Sinussatz);P10 2024 · 6d
 dreiecke;Winkel berechnen;Eine Rampe ist 16 cm hoch und waagerecht 170 cm lang. Wie groß ist der Anstiegswinkel?;Winkel berechnen;P10 2025 · 4a
 dreiecke;Seite berechnen;"Eine 1,20 m hohe Wand steht senkrecht; der Winkel bei B ist 34,9°. Wie weit ist der Fuß der Wand von B entfernt?";Seite berechnen;P10 2017 · 4b
-dreiecke;Seite berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete oder Hypotenuse direkt;P10 2019 · 3a
+dreiecke;Seite berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete gesucht;P10 2019 · 3a
 dreiecke;Seite berechnen;"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie groß ist der Winkel bei A?";Winkel berechnen;P10 2019 · 3b
-dreiecke;Seite berechnen;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Kathete oder Hypotenuse direkt;P10 2020 · 7a
+dreiecke;Seite berechnen;Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Hypotenuse gesucht;P10 2020 · 7a
 dreiecke;Seite berechnen;Im Dreieck DEF ist FE = 11 m, der Winkel bei F 115° und der Winkel bei E 16°. Wie lang ist DE?;Seite berechnen (Sinussatz);P10 2020 · 7c
 dreiecke;Seite berechnen;"Bei A ist ein rechter Winkel; die Diagonale BD ist 1 500 m lang, der Winkel bei D 55°. Wie lang ist AB?";Seite berechnen;P10 2021 · 3a
 dreiecke;Seite berechnen;Die Höhe von C auf AB ist 7,4 m lang, der Winkel bei B 52°. Wie lang ist die Seite a?;Seite berechnen;P10 2022 · 5d
@@ -76,9 +76,9 @@ dreiecke;Seite berechnen;"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. 
 dreiecke;Seite berechnen;Im Dreieck ABC ist AB = 384 m, α = 38° und β = 108°. Wie lang ist BC?;Seite berechnen (Sinussatz);P10 2024 · 6d
 dreiecke;Seite berechnen (Sinussatz);"Eine 1,20 m hohe Wand steht senkrecht; der Winkel bei B ist 34,9°. Wie weit ist der Fuß der Wand von B entfernt?";Seite berechnen;P10 2017 · 4b
 dreiecke;Seite berechnen (Sinussatz);Im Dreieck ACD ist CD = 12 m, γ = 5° und δ = 55°. Wie lang ist AC?;Seite berechnen (Sinussatz);P10 2018 · 4c
-dreiecke;Seite berechnen (Sinussatz);"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete oder Hypotenuse direkt;P10 2019 · 3a
+dreiecke;Seite berechnen (Sinussatz);"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie lang ist BC?";Kathete gesucht;P10 2019 · 3a
 dreiecke;Seite berechnen (Sinussatz);"Im Dreieck ABC ist bei B ein rechter Winkel; AB = 4 m, AC = 9 m. Wie groß ist der Winkel bei A?";Winkel berechnen;P10 2019 · 3b
-dreiecke;Seite berechnen (Sinussatz);Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Kathete oder Hypotenuse direkt;P10 2020 · 7a
+dreiecke;Seite berechnen (Sinussatz);Ein Dreieck hat bei C einen rechten Winkel, die Katheten sind 12 m und 34 m lang. Wie lang ist die dritte Seite?;Hypotenuse gesucht;P10 2020 · 7a
 dreiecke;Seite berechnen (Sinussatz);Im Dreieck DEF ist FE = 11 m, der Winkel bei F 115° und der Winkel bei E 16°. Wie lang ist DE?;Seite berechnen (Sinussatz);P10 2020 · 7c
 dreiecke;Seite berechnen (Sinussatz);"Bei A ist ein rechter Winkel; die Diagonale BD ist 1 500 m lang, der Winkel bei D 55°. Wie lang ist AB?";Seite berechnen;P10 2021 · 3a
 dreiecke;Seite berechnen (Sinussatz);"Bei F ist ein rechter Winkel; FB = 255 m, AB = 384 m. Wie groß ist der Winkel bei B?";Winkel berechnen;P10 2024 · 6b

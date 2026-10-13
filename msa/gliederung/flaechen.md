@@ -104,7 +104,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2014-OS-K5c | Formeln umstellen |  |  | Hauptplatz nach typ „Trapezhöhe aus Fläche berechnen“ |
 | 2014-OS-K5d | Formeln umstellen |  |  | Hauptplatz nach typ „Rechteckseite aus Fläche berechnen“ |
 | 2015-OS-K5d | Fläche gesucht |  | dreiecke:Seite berechnen | Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben |
-| 2015-OS-K6c | Fläche gesucht |  | dreiecke:Kathete oder Hypotenuse direkt | Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben |
+| 2015-OS-K6c | Fläche gesucht |  | dreiecke:Hypotenuse gesucht | Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben |
 | 2016-GYM-K2e | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt eines Dreiecks aus Koordinaten berechnen“ |
 | 2016-GYM-K4a | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt Rechteck berechnen“ |
 | 2016-OS-K3b | Fläche gesucht |  |  | Hauptplatz nach typ „Kreisfläche berechnen“ |
@@ -129,7 +129,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2023-OS-K2b | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt Trapez berechnen“ |
 | 2023-OS-K2c | Umfang gesucht |  | dreiecke:Seite berechnen | Hauptplatz nach dem Gesuchten (Umfang; Lehrer 12.10.), früher „Figur erst zerlegen“. Zwischenschritt aus typ_neben |
 | 2024-GYM-B1a | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt eines Dreiecks aus Koordinaten berechnen“ |
-| 2024-GYM-B2a | Umfang gesucht |  | dreiecke:Kathete oder Hypotenuse direkt | Hauptplatz nach typ „Umfang Trapez berechnen“. FB über Pythagoras |
+| 2024-GYM-B2a | Umfang gesucht |  | dreiecke:Kathete gesucht | Hauptplatz nach typ „Umfang Trapez berechnen“. FB über Pythagoras |
 | 2024-OS-B1c | Formeln |  |  | Hauptplatz nach typ „Term zu Figur angeben“ |
 | 2024-OS-K4a | Fläche gesucht |  |  | Hauptplatz nach typ „Kreisfläche berechnen“ |
 | 2025-GYM-B1b | Fläche gesucht |  |  | Hauptplatz nach typ „Flächeninhalt zusammengesetzter Figur berechnen“ |

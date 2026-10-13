@@ -35,19 +35,23 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Länge mit Pythagoras
   - Gleichung aufstellen [2026-FOR-B1j 2024-OS-B1f 2022-OS-B1g]
 
-### Kathete oder Hypotenuse direkt
-- **Anzeigename:** Hypotenuse oder Kathete gesucht
-- **Schülerfrage:** Ist die gesuchte Seite die Hypotenuse (gegenüber dem rechten Winkel) oder eine Kathete? Schreib die Gleichung für die gesuchte Seite auf; rechne nicht.
-- **Schülerfrage-Fälle:** Leiter 5 m, ihr Fuß 1,4 m vor der Wand; gesucht: Höhe h an der Wand → Kathete: h² = 5² − 1,4² | Rampe waagerecht 3 m, 0,4 m hoch; gesucht: Länge s → Hypotenuse: s² = 3² + 0,4²
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Die Leiter liegt dem rechten Winkel gegenüber, gesucht ist eine Kathete: abziehen. Bei der Rampe ist die schräge Seite gesucht: addieren.
-- **Durchsicht 13.10.:** Schritt B (Daten): Hypotenuse und Kathete als eine Stufe (eine Zuordnungsstufe), der Anstoß übt den ersten Schritt beider – erkennen, ob addiert oder abgezogen wird (typischer Fehler: Quadrate addiert, obwohl eine Kathete gesucht ist). Rampe ’25 · 4a hier ohne den Winkel α (sin, cos, tan), ungekürzt bei „erst entscheiden, dann rechnen“.
-- **Kern:** ja – 7 echte 2016–2026 (Niveau I/II), Bank-Ketten Hypotenuse und Kathete mit Grundfall
-- **Originale:** 2025-OS-K4a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2020-OS-K7a 2019-OS-K3a 2016-OS-K7b
-- **Bank:** pythagoras-e1-k2-s1(i) pythagoras-e1-k2-s2(i) pythagoras-e1-k2-s3(i) pythagoras-e1-k2-s4(i) pythagoras-e1-k2-s5(i) pythagoras-e2-k3-s1(i) pythagoras-e2-k3-s2(i) pythagoras-e2-k3-s3(i) pythagoras-e2-k3-s6(i) pythagoras-e1-k2-s10 pythagoras-e2-k3-s7 pythagoras-e1-k5-s3 pythagoras-e2-k6-s3 pythagoras-e1-k2-s15[2020-OS-K7a,2025-OS-K4a] pythagoras-e2-k3-s12[2022-OS-K5a,2024-OS-K6a]
-- **Verwechselbar:** Winkel berechnen | Seite berechnen | Seite berechnen (Sinussatz)
+### Hypotenuse gesucht
+- **Anzeigename:** Hypotenuse gesucht
+- **Trennung 13.10.:** wieder eigene Stufe wie im abgenommenen Blatt P4Z vom 10.10. und pruefung.md § 2 (Lehrer 13.10.: P4Z2 hatte Hypotenuse und Kathete zusammengelegt); vorher „Kathete oder Hypotenuse direkt“.
+- **Kern:** ja – 2 echte (2020, 2025), Bank-Kette Hypotenuse mit Grundfall
+- **Originale:** 2025-OS-K4a 2020-OS-K7a
+- **Bank:** pythagoras-e1-k2-s1(i) pythagoras-e1-k2-s2(i) pythagoras-e1-k2-s3(i) pythagoras-e1-k2-s4(i) pythagoras-e1-k2-s5(i) pythagoras-e1-k2-s10 pythagoras-e1-k5-s3 pythagoras-e1-k2-s15[2020-OS-K7a,2025-OS-K4a]
+- **Verwechselbar:** Kathete gesucht | Winkel berechnen | Seite berechnen | Seite berechnen (Sinussatz)
 - **Zuschnitt:** Länge mit Pythagoras
-  - Hypotenuse gesucht [2025-OS-K4a]
+
+### Kathete gesucht
+- **Anzeigename:** Kathete gesucht
+- **Trennung 13.10.:** wie bei „Hypotenuse gesucht“.
+- **Kern:** ja – 5 echte 2016–2026 (Niveau I/II), Bank-Kette Kathete mit Grundfall
+- **Originale:** 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2019-OS-K3a 2016-OS-K7b
+- **Bank:** pythagoras-e2-k3-s1(i) pythagoras-e2-k3-s2(i) pythagoras-e2-k3-s3(i) pythagoras-e2-k3-s6(i) pythagoras-e2-k3-s7 pythagoras-e2-k6-s3 pythagoras-e2-k3-s12[2022-OS-K5a,2024-OS-K6a]
+- **Verwechselbar:** Hypotenuse gesucht | Winkel berechnen | Seite berechnen | Seite berechnen (Sinussatz)
+- **Zuschnitt:** Länge mit Pythagoras
   - Kathete gesucht [2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a]
 
 ### Dreieck erst in Figur oder Körper finden
@@ -86,7 +90,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Kern:** ja – 5 echte (2019, 2020, 2022, 2024, 2026), Bank-Kette Winkel berechnen mit Grundfall
 - **Originale:** 2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b 2020-OS-K5b 2019-OS-K3b
 - **Bank:** trigonometrie-e2-k1-s1(i) trigonometrie-e2-k1-s2(i) trigonometrie-e2-k1-s3(i) trigonometrie-e2-k1-s4(i) trigonometrie-e2-k1-s5(i) trigonometrie-e2-k1-s6(i) trigonometrie-e2-k1-s8(i) trigonometrie-e2-k1-s9(i) trigonometrie-e2-k1-s10(i) trigonometrie-e2-k1-s7 trigonometrie-e2-k4-s3 trigonometrie-e2-k1-s12[2022-OS-K5b,2024-OS-K6b,2026-FOR-K4b,2019-OS-K3b]
-- **Verwechselbar:** Kathete oder Hypotenuse direkt | Seite berechnen | Seite berechnen (Sinussatz)
+- **Verwechselbar:** Hypotenuse gesucht | Kathete gesucht | Seite berechnen | Seite berechnen (Sinussatz)
 - **Zuschnitt:** Seite oder Winkel mit sin, cos, tan
   - Winkel berechnen [2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b] neben [2025-OS-K4a]
 
@@ -100,7 +104,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Kern:** ja – 8 echte 2016–2026, Bank-Ketten Seite berechnen und Teildreiecke mit Grundfall
 - **Originale:** 2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b 2021-OS-K3a 2021-OS-K3b 2018-OS-K4d 2017-OS-K4b 2016-OS-K7c
 - **Bank:** trigonometrie-e1-k3-s4(i) trigonometrie-e1-k3-s5(i) trigonometrie-e1-k3-s6(i) trigonometrie-e1-k3-s7(i) trigonometrie-e1-k3-s8(i) trigonometrie-e1-k3-s9(i) trigonometrie-e1-k3-s10(i) trigonometrie-e1-k3-s11(i) trigonometrie-e1-k3-s13(i) trigonometrie-e1-k3-s14(i) trigonometrie-e3-k1-s1(i) trigonometrie-e3-k1-s2(i) trigonometrie-e3-k1-s3(i) trigonometrie-e1-k3-s15 trigonometrie-e1-k7-s3 trigonometrie-e3-k1-s8 trigonometrie-e1-k3-s17[2022-OS-K5d,2021-OS-K3a,2021-OS-K3b,2017-OS-K4b] trigonometrie-e3-k1-s19[2026-FOR-K4c,2023-OS-K7b,2018-OS-K4d,2016-OS-K7c]
-- **Verwechselbar:** Kathete oder Hypotenuse direkt | Winkel berechnen | Seite berechnen (Sinussatz)
+- **Verwechselbar:** Hypotenuse gesucht | Kathete gesucht | Winkel berechnen | Seite berechnen (Sinussatz)
 - **Zuschnitt:** Seite oder Winkel mit sin, cos, tan
   - Seite berechnen [2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b] neben [2022-OS-K5e 2023-OS-K2c]
 
@@ -126,7 +130,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Kern:** ja – 9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall
 - **Originale:** 2024-OS-K6d 2025-OS-K4c 2021-OS-K3c 2020-OS-K7c 2019-OS-K3c 2018-OS-K4c 2017-OS-K4c 2015-OS-K5c 2014-OS-K2b
 - **Bank:** trigonometrie-e4-k1-s1(i) trigonometrie-e4-k1-s2(i) trigonometrie-e4-k1-s3(i) trigonometrie-e4-k1-s4(i) trigonometrie-e4-k1-s5(i) trigonometrie-e4-k1-s6(i) trigonometrie-e4-k1-s7(i) trigonometrie-e4-k1-s9(i) trigonometrie-e4-k2-s3(i) trigonometrie-e4-k1-s10 trigonometrie-e4-k1-s17
-- **Verwechselbar:** Kathete oder Hypotenuse direkt | Winkel berechnen | Seite berechnen
+- **Verwechselbar:** Hypotenuse gesucht | Kathete gesucht | Winkel berechnen | Seite berechnen
 - **Zuschnitt:** Seite im allgemeinen Dreieck (Sinussatz)
   - Seite berechnen [2024-OS-K6d 2025-OS-K4c]
 
@@ -210,7 +214,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2016-GYM-B1e | Eigenschaft erkennen |  |  | GYM-Zwilling von 2016-OS-B1e |
 | 2016-GYM-K4d | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 | 2016-OS-B1e | Eigenschaft erkennen |  |  | Hauptplatz nach typ „Eigenschaft einer Figur zuordnen“ |
-| 2016-OS-K7b | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Kathete“. Weg über sin 54° nur Alternative |
+| 2016-OS-K7b | Kathete gesucht |  |  | Hauptplatz nach typ „Pythagoras Kathete“. Weg über sin 54° nur Alternative |
 | 2016-OS-K7c | Seite berechnen |  | Winkelsumme | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“. Zwischenschritt aus typ_neben |
 | 2017-GYM-B1d | Gleichung aufstellen |  |  | GYM-Zwilling von 2017-OS-B1d |
 | 2017-GYM-B1j | Seitenverhältnis benennen |  |  | GYM-Zwilling von 2017-OS-B1j |
@@ -233,17 +237,17 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2018-OS-K4d | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 | 2018-OS-K6d | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach typ „Mantellinie Kegel bestimmen“ |
 | 2019-GYM-B1h | Seitenverhältnis benennen |  |  | GYM-Zwilling von 2019-OS-B1h |
-| 2019-GYM-K3b | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
+| 2019-GYM-K3b | Hypotenuse gesucht |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
 | 2019-OS-B1h | Seitenverhältnis benennen |  |  | Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“ |
 | 2019-OS-K2d | Dreieck erst in Figur oder Körper finden |  | Winkel berechnen | Hauptplatz nach typ „Streckenlänge aus Koordinaten berechnen“. Zwischenschritt aus typ_neben |
-| 2019-OS-K3a | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Kathete“ |
+| 2019-OS-K3a | Kathete gesucht |  |  | Hauptplatz nach typ „Pythagoras Kathete“ |
 | 2019-OS-K3b | Winkel berechnen |  |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |
 | 2019-OS-K3c | Seite berechnen (Sinussatz) |  | Winkelsumme | Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben |
-| 2020-GYM-B1a | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
+| 2020-GYM-B1a | Hypotenuse gesucht |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
 | 2020-OS-B1c | Seitenverhältnis benennen |  |  | Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“ |
 | 2020-OS-B1j | Seitenverhältnis benennen |  |  | Hauptplatz nach typ „Trigonometrische Gleichung nach Seite umstellen“ |
 | 2020-OS-K5b | Winkel berechnen |  |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |
-| 2020-OS-K7a | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
+| 2020-OS-K7a | Hypotenuse gesucht |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
 | 2020-OS-K7c | Seite berechnen (Sinussatz) |  | Winkelsumme | Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben |
 | 2021-GYM-K5b |  |  | Dreieck erst in Figur oder Körper finden | Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben |
 | 2021-OS-B1h | Gleichung aufstellen |  |  | Hauptplatz nach typ „Pythagoras Gleichung zuordnen“ |
@@ -253,16 +257,16 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2021-OS-K3b | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 | 2021-OS-K3c | Seite berechnen (Sinussatz) |  | Winkelsumme | Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben |
 | 2022-GYM-K4b | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach typ „Kegelhöhe aus Mantellinie und Radius berechnen“ |
-| 2022-GYM-K5a | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
+| 2022-GYM-K5a | Hypotenuse gesucht |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
 | 2022-OS-B1g | Gleichung aufstellen |  |  | Hauptplatz nach typ „Satz des Pythagoras formulieren“ |
 | 2022-OS-B1i | Symmetrieachsen zählen |  |  | Hauptplatz nach typ „Symmetrieachsen bestimmen“ |
 | 2022-OS-K2c | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach Zuschnitt „Dreieck versteckt“ (Befund Geometrie 10.10.): der Stab steckt im Zylinder, Pythagoras Hypotenuse |
-| 2022-OS-K5a | Kathete oder Hypotenuse direkt | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
+| 2022-OS-K5a | Kathete gesucht | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
 | 2022-OS-K5b | Winkel berechnen | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |
 | 2022-OS-K5c | Winkelsumme |  |  | Hauptplatz nach typ „Winkelsumme im Dreieck anwenden“ |
 | 2022-OS-K5d | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 | 2023-GYM-B2b | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach typ „Streckenlänge aus Koordinaten berechnen“. AE als Hypotenuse eines Teildreiecks |
-| 2023-GYM-K6a | Kathete oder Hypotenuse direkt |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
+| 2023-GYM-K6a | Hypotenuse gesucht |  |  | Hauptplatz nach typ „Pythagoras Hypotenuse“ |
 | 2023-GYM-K6d | Seite berechnen |  | Winkelsumme | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“. Basiswinkel (180° − 43,6°) : 2 |
 | 2023-OS-B1g | gleichschenkliges Dreieck |  | Winkelsumme | Hauptplatz nach typ „Gleichschenkliges Dreieck erkennen“. Zwischenschritt aus typ_neben |
 | 2023-OS-K2a | Winkelsumme |  |  | Hauptplatz nach typ „Winkel im Viereck berechnen“ |
@@ -270,7 +274,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2023-OS-K7b | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 | 2024-GYM-K6a |  |  | Winkel berechnen; Winkelsumme | Hauptplatz außerhalb der P10-Stufen. Winkel ADC über Winkelsumme |
 | 2024-OS-B1f | Gleichung aufstellen |  |  | Hauptplatz nach typ „Pythagoras Gleichung zuordnen“ |
-| 2024-OS-K6a | Kathete oder Hypotenuse direkt | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
+| 2024-OS-K6a | Kathete gesucht | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
 | 2024-OS-K6b | Winkel berechnen | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |
 | 2024-OS-K6d | Seite berechnen (Sinussatz) |  | Winkelsumme | Hauptplatz nach typ „Sinussatz Seite berechnen“. γ = 180° − 38° − 108° |
 | 2025-GYM-K4a | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
@@ -278,27 +282,27 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2025-OS-B1g | Seitenverhältnis benennen |  |  | Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“ |
 | 2025-OS-K2a | Symmetrieachsen zählen | Dreieck erst in Figur oder Körper finden |  | Hauptplatz nach typ „Symmetrieachsen bestimmen“. Symmetrieachse nach typ Hauptplatz, Pythagoras gehört zu D3 |
 | 2025-OS-K2c | rechten Winkel begründen |  | gleichschenkliges Dreieck | Hauptplatz nach typ „Rechten Winkel begründen“. Dreieck AFD gleichschenklig-rechtwinklig, Basiswinkel 45° |
-| 2025-OS-K4a | Kathete oder Hypotenuse direkt | erst entscheiden, dann rechnen | Winkel berechnen | Hauptplatz nach Zuschnitt „Hypotenuse gesucht“ (Befund Geometrie 10.10.): die Rampe ist ein nacktes Dreieck; Winkel im selben Teil mit tan |
+| 2025-OS-K4a | Hypotenuse gesucht | erst entscheiden, dann rechnen | Winkel berechnen | Hauptplatz nach Zuschnitt „Hypotenuse gesucht“ (Befund Geometrie 10.10.): die Rampe ist ein nacktes Dreieck; Winkel im selben Teil mit tan |
 | 2025-OS-K4c | Seite berechnen (Sinussatz) |  | Winkelsumme | Hauptplatz nach typ „Sinussatz Seite berechnen“. dritter Winkel 180° − 5° − 141° |
 | 2026-EBR-B1c | Eigenschaft erkennen |  |  | EBR-Zwilling von 2026-FOR-B1c |
 | 2026-EBR-B1i | Winkelsumme |  |  | EBR-Zwilling von 2026-FOR-B1i |
 | 2026-EBR-B1j | Gleichung aufstellen |  |  | EBR-Zwilling von 2026-FOR-B1j |
-| 2026-EBR-K3a | Kathete oder Hypotenuse direkt | erst entscheiden, dann rechnen |  | EBR-Zwilling von 2026-FOR-K4a |
+| 2026-EBR-K3a | Kathete gesucht | erst entscheiden, dann rechnen |  | EBR-Zwilling von 2026-FOR-K4a |
 | 2026-EBR-K3b | Winkel berechnen | erst entscheiden, dann rechnen |  | EBR-Zwilling von 2026-FOR-K4b |
 | 2026-FOR-B1c | Eigenschaft erkennen |  |  | Hauptplatz nach typ „Eigenschaft einer Figur zuordnen“ |
 | 2026-FOR-B1i | Winkelsumme |  |  | Hauptplatz nach typ „Winkel im Viereck berechnen“ |
 | 2026-FOR-B1j | Gleichung aufstellen |  |  | Hauptplatz nach typ „Pythagoras Gleichung zuordnen“ |
 | 2026-FOR-K2c | Dreieck erst in Figur oder Körper finden |  |  | Hauptplatz nach Zuordnung |
-| 2026-FOR-K4a | Kathete oder Hypotenuse direkt | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
+| 2026-FOR-K4a | Kathete gesucht | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Pythagoras Kathete“ |
 | 2026-FOR-K4b | Winkel berechnen | erst entscheiden, dann rechnen |  | Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“ |
 | 2026-FOR-K4c | Seite berechnen |  |  | Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“ |
 
 ## Fokus pythagoras-seite
 
-Titel: Steckbrief Pythagoras: Seite berechnen (P10-Stufen „Gleichung aufstellen“, „Kathete oder Hypotenuse direkt“, „Dreieck erst in Figur oder Körper finden“)
+Titel: Steckbrief Pythagoras: Seite berechnen (P10-Stufen „Gleichung aufstellen“, „Hypotenuse gesucht“, „Kathete gesucht“, „Dreieck erst in Figur oder Körper finden“)
 
 Kapitel: dreiecke
-Stufen: Gleichung aufstellen | Kathete oder Hypotenuse direkt | Dreieck erst in Figur oder Körper finden
+Stufen: Gleichung aufstellen | Hypotenuse gesucht | Kathete gesucht | Dreieck erst in Figur oder Körper finden
 Bank: pythagoras
 
 
@@ -442,7 +446,7 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 
 #### Hypotenuse gesucht
 - **Kurzname:** Die lange Seite gesucht
-- **Stufe:** Kathete oder Hypotenuse direkt
+- **Stufe:** Hypotenuse gesucht
 - **Zuschnitt:** Hypotenuse gesucht
 - **Beleg:** „Berechnung der Hypotenuse in einem rechtwinkligen Dreieck 39“
   (Mathematik 2023 Förder,
@@ -482,7 +486,7 @@ Länge halbieren oder verdoppeln / Längen aus Koordinaten), Lauf 07.10.
 
 #### Kathete gesucht
 - **Kurzname:** Eine kurze Seite gesucht
-- **Stufe:** Kathete oder Hypotenuse direkt
+- **Stufe:** Kathete gesucht
 - **Zuschnitt:** Kathete gesucht
 - **Beleg:** „Berechnung einer Kathete in einem rechtwinkligen Dreieck 40“
   (Mathematik 2023 Förder,

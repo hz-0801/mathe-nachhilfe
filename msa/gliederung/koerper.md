@@ -155,7 +155,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-OS-K4c | Volumen direkt |  |  | Hauptplatz nach typ „Restvolumen berechnen“; Restvolumen ist keine Stufe mehr (wie „Figur erst zerlegen“ bei Flächen; Lehrer 13.10.) |
 | 2025-GYM-K5b | Körper im Schrägbild skizzieren |  |  | Hauptplatz nach typ „Körper im Schrägbild darstellen“ |
 | 2025-GYM-K5c | Volumen direkt |  | prozent:Prozentwert | Hauptplatz nach typ „Volumen Prisma berechnen“. 80 % des Volumens |
-| 2025-GYM-K5d | Mantelfläche mit Kosten |  | dreiecke:Kathete oder Hypotenuse direkt | Hauptplatz nach typ „Mantelfläche Prisma berechnen“. Zwischenschritt aus typ_neben |
+| 2025-GYM-K5d | Mantelfläche mit Kosten |  | dreiecke:Hypotenuse gesucht | Hauptplatz nach typ „Mantelfläche Prisma berechnen“. Zwischenschritt aus typ_neben |
 | 2026-EBR-B1f | Volumen direkt |  |  | EBR-Zwilling von 2026-FOR-B1f |
 | 2026-EBR-K2a | Volumen direkt |  |  | EBR-Zwilling von 2026-FOR-K2a |
 | 2026-EBR-K2b | Mantelfläche mit Kosten |  |  | EBR-Zwilling von 2026-FOR-K2b |

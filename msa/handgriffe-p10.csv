@@ -52,7 +52,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2015-OS-B1f;daten:Median;;;Hauptplatz nach typ „Median bestimmen“
 2015-OS-B1i;quadratische:Scheitelpunktform angeben;;;Hauptplatz nach typ „Parabel verschieben“
 2015-OS-K2a;prozent:Prozentwert;;;Hauptplatz nach Zuordnung
-2015-OS-K2b;prozent:Erhöhung und Veränderung in Prozent;;prozent:Prozentwert;Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. Rabatt 20 % von 43,50 € (Muster beispiel-zwischenschritt.html)
+2015-OS-K2b;prozent:Wert nach Erhöhung;;prozent:Prozentwert;Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. Rabatt 20 % von 43,50 € (Muster beispiel-zwischenschritt.html)
 2015-OS-K4a;;;lineare:Nullstelle;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
 2015-OS-K4b;quadratische:Wertetabelle oder Skizze;;;Hauptplatz nach typ „Parabelgleichung zu Graph zuordnen“
 2015-OS-K4d;lineare:Gleichung aus zwei Punkten;;;Hauptplatz nach typ „Geradengleichung aus zwei Punkten“ (bis 12.10.: durch zwei Punkte, Gleichung ablesen)
@@ -60,7 +60,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2015-OS-K5c;dreiecke:Seite berechnen (Sinussatz);;;Hauptplatz nach typ „Sinussatz Seite berechnen“. rechtwinkliger Weg nur Alternative
 2015-OS-K5d;flaechen:Fläche gesucht;;dreiecke:Seite berechnen;Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben
 2015-OS-K6b;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körperskizze beschriften“
-2015-OS-K6c;flaechen:Fläche gesucht;;dreiecke:Kathete oder Hypotenuse direkt;Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben
+2015-OS-K6c;flaechen:Fläche gesucht;;dreiecke:Hypotenuse gesucht;Hauptplatz nach typ „Flächeninhalt Dreieck berechnen“. Zwischenschritt aus typ_neben
 2015-OS-K7a;daten:Mittelwert;;;Hauptplatz nach typ „Arithmetisches Mittel berechnen“
 2015-OS-K7c;prozent:Prozentsatz;;daten:Winkel berechnen und beschriften;Hauptplatz nach typ „Prozentsatz berechnen“. Zwischenschritt aus typ_neben
 2015-OS-K7d;wahrscheinlichkeit:Baum ergänzen;;wahrscheinlichkeit:ohne Zurücklegen;Hauptplatz nach typ „Baumdiagramm ergänzen“. Zwischenschritt aus typ_neben
@@ -102,7 +102,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2016-OS-K6b;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Tarife vergleichen“ (bis 12.10.: Tarife vergleichen)
 2016-OS-K6c;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Lineare Funktion aus Sachverhalt aufstellen“ (bis 12.10.: Gleichung aufstellen und rückwärts rechnen)
 2016-OS-K6d;gleichungssysteme:aufstellen;;gleichungssysteme:lösen;Hauptplatz nach typ „Lineares Gleichungssystem aufstellen“. Zwischenschritt aus typ_neben
-2016-OS-K7b;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Kathete“. Weg über sin 54° nur Alternative
+2016-OS-K7b;dreiecke:Kathete gesucht;;;Hauptplatz nach typ „Pythagoras Kathete“. Weg über sin 54° nur Alternative
 2016-OS-K7c;dreiecke:Seite berechnen;;dreiecke:Winkelsumme;Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“. Zwischenschritt aus typ_neben
 2017-GYM-B1b;prozent:Prozentwert;;;GYM-Zwilling von 2017-OS-B1b
 2017-GYM-B1c;koerper:Netz erkennen;;;GYM-Zwilling von 2017-OS-B1c
@@ -190,7 +190,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2019-GYM-K2a;;;quadratische:Wertetabelle oder Skizze | quadratische:Punkt auf der Parabel prüfen;Hauptplatz außerhalb der P10-Stufen. f(3,5) einsetzen
 2019-GYM-K2b;quadratische:Gerade und Parabel gleichsetzen;;;Hauptplatz nach typ „Schnittpunkte zweier Parabeln berechnen“
 2019-GYM-K2c;flaechen:Fläche gesucht;;quadratische:Punkt auf der Parabel prüfen;Hauptplatz nach typ „Flächeninhalt eines Dreiecks aus Koordinaten berechnen“. f(0,5) einsetzen
-2019-GYM-K3b;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
+2019-GYM-K3b;dreiecke:Hypotenuse gesucht;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
 2019-GYM-K3c;koerper:rückwärts: Radius oder Höhe aus Volumen;;;Hauptplatz nach typ „Höhe eines Zylinders aus Volumen berechnen“
 2019-GYM-K4a;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körper im Schrägbild darstellen“
 2019-GYM-K4b;koerper:Mantelfläche mit Kosten;;dreiecke:Dreieck erst in Figur oder Körper finden;Hauptplatz nach typ „Mantelfläche einer Pyramide berechnen“. Seitenhöhe über Pythagoras in der Pyramide
@@ -205,7 +205,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2019-OS-K2b;lineare:Gleichung aus Graph;;;Hauptplatz nach typ „Graph nach Eigenschaft auswählen“ (bis 12.10.: erkennen und ablesen)
 2019-OS-K2c;lineare:Gleichung aus Graph;;;Hauptplatz nach typ „Geradengleichung zu Graph zuordnen“ (bis 12.10.: erkennen und ablesen)
 2019-OS-K2d;dreiecke:Dreieck erst in Figur oder Körper finden;;dreiecke:Winkel berechnen;Hauptplatz nach typ „Streckenlänge aus Koordinaten berechnen“. Zwischenschritt aus typ_neben
-2019-OS-K3a;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Kathete“
+2019-OS-K3a;dreiecke:Kathete gesucht;;;Hauptplatz nach typ „Pythagoras Kathete“
 2019-OS-K3b;dreiecke:Winkel berechnen;;;Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“
 2019-OS-K3c;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben
 2019-OS-K4a;koerper:Netz mit Maßen skizzieren;;;Hauptplatz nach typ „Netz eines Prismas vervollständigen“
@@ -220,7 +220,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2019-OS-K7a;wachstum:Tabelle ergänzen;;;Hauptplatz nach typ „Wachstumstabelle ergänzen“
 2019-OS-K7b;wachstum:Faktor bestimmen, Gleichung aufstellen;;;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“
 2019-OS-K7c;wachstum:Graph zuordnen und begründen;;;Hauptplatz nach typ „Graph zu Wachstumsprozess zuordnen“
-2020-GYM-B1a;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
+2020-GYM-B1a;dreiecke:Hypotenuse gesucht;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
 2020-GYM-B2a;quadratische:x zu gegebenem y;;;Hauptplatz nach typ „Argument zu Funktionswert berechnen“
 2020-GYM-B2b;quadratische:Lage zweier Parabeln ohne Rechnung begründen;;;Hauptplatz nach Urteil. Lage zweier Parabeln am Scheitel begründen
 2020-GYM-K3c;;;lineare:Nullstelle;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
@@ -250,7 +250,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2020-OS-K6a;wahrscheinlichkeit:Ergebnisse aufzählen;;wahrscheinlichkeit:Wahrscheinlichkeit angeben;Hauptplatz nach typ „Ergebnismenge aufzählen“. Zwischenschritt aus typ_neben
 2020-OS-K6b;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2020-OS-K6c;wahrscheinlichkeit:Baum ergänzen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Baumdiagramm ergänzen“. Zwischenschritt aus typ_neben
-2020-OS-K7a;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
+2020-OS-K7a;dreiecke:Hypotenuse gesucht;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
 2020-OS-K7b;flaechen:Formeln umstellen;;;Hauptplatz nach typ „Grundseite aus Dreiecksfläche berechnen“
 2020-OS-K7c;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. Zwischenschritt aus typ_neben
 2021-GYM-K3a;wachstum:Punkte darstellen;;;Hauptplatz nach typ „Wertetabelle als Punkte darstellen“
@@ -287,7 +287,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2022-GYM-K4b;dreiecke:Dreieck erst in Figur oder Körper finden;;;Hauptplatz nach typ „Kegelhöhe aus Mantellinie und Radius berechnen“
 2022-GYM-K4c;;;koerper:Mantelfläche mit Kosten;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
 2022-GYM-K4d;;;koerper:Volumen direkt;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
-2022-GYM-K5a;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
+2022-GYM-K5a;dreiecke:Hypotenuse gesucht;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
 2022-GYM-K5c;prozent:Erhöhung und Veränderung in Prozent;;flaechen:Fläche gesucht | prozent:Prozentsatz;Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2)
 2022-GYM-K6a;daten:Winkel berechnen und beschriften;;;Hauptplatz nach typ „Kreisdiagramm zeichnen“
 2022-GYM-K6b;daten:Minimum, Maximum, Spannweite;;daten:Median;Hauptplatz nach typ „Spannweite berechnen“. Zwischenschritt aus typ_neben
@@ -306,18 +306,18 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2022-OS-K3a;lineare:Nullstelle;;lineare:Gerade zeichnen;Hauptplatz nach typ „Gerade aus Gleichung zeichnen“. Zwischenschritt aus typ_neben (bis 12.10.: aus Gleichung zeichnen)
 2022-OS-K3b;quadratische:Scheitelpunkt ablesen;;;Hauptplatz nach typ „Scheitelpunkt ablesen“
 2022-OS-K3c;quadratische:Gerade und Parabel gleichsetzen;;quadratische:Nullstellen berechnen;Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen
-2022-OS-K4a;daten:Minimum, Maximum, Spannweite;;daten:Mittelwert;Hauptplatz nach typ „Minimum und Maximum ablesen“. Zwischenschritt aus typ_neben
+2022-OS-K4a;daten:Mittelwert;;daten:Minimum, Maximum, Spannweite;steht bei dem, was sie zuletzt sucht (Durchschnitt; Runde 8, 13.10.); Minimum und Maximum als Zwischenschritt
 2022-OS-K4b;prozent:Erhöhung und Veränderung in Prozent;;prozent:Prozentsatz;Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2)
 2022-OS-K4c;daten:Aussage prüfen;;;Hauptplatz nach typ „Aussage zu Diagramm prüfen“
 2022-OS-K4d;daten:Winkel berechnen und beschriften;;;Hauptplatz nach typ „Sektor im Kreisdiagramm zuordnen“
-2022-OS-K5a;dreiecke:Kathete oder Hypotenuse direkt;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
+2022-OS-K5a;dreiecke:Kathete gesucht;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
 2022-OS-K5b;dreiecke:Winkel berechnen;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“
 2022-OS-K5c;dreiecke:Winkelsumme;;;Hauptplatz nach typ „Winkelsumme im Dreieck anwenden“
 2022-OS-K5d;dreiecke:Seite berechnen;;;Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“
 2022-OS-K5e;flaechen:Fläche gesucht;;dreiecke:Seite berechnen;Hauptplatz nach Zuordnung. Zwischenschritt aus typ_neben
 2022-OS-K6a;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Endwert linearer Veränderung berechnen“ (bis 12.10.: Endwert berechnen)
 2022-OS-K6b;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Lineare Funktion aus Sachverhalt aufstellen“ (bis 12.10.: Gleichung aufstellen und rückwärts rechnen)
-2022-OS-K7a;gleichungssysteme:Variablen deuten;;;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“
+2022-OS-K7a;gleichungssysteme:deuten;;;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“
 2022-OS-K7b;gleichungssysteme:lösen;;;Hauptplatz nach typ „Lineares Gleichungssystem lösen“
 2023-GYM-B1a;lineare:Nullstelle;;;Hauptplatz nach typ „Nullstelle lineare Funktion berechnen“ (bis 12.10.: Gleichung aufstellen und rückwärts rechnen)
 2023-GYM-B2a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Term zu Figur angeben“
@@ -330,7 +330,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2023-GYM-K5b;prozent:Erhöhung und Veränderung in Prozent;;prozent:Prozentsatz;Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2)
 2023-GYM-K5c;daten:Mittelwert;;;Hauptplatz nach typ „Arithmetisches Mittel berechnen“
 2023-GYM-K5d;daten:rückwärts: fehlender Wert;;;Hauptplatz nach typ „Fehlenden Wert aus Mittelwert bestimmen“
-2023-GYM-K6a;dreiecke:Kathete oder Hypotenuse direkt;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
+2023-GYM-K6a;dreiecke:Hypotenuse gesucht;;;Hauptplatz nach typ „Pythagoras Hypotenuse“
 2023-GYM-K6d;dreiecke:Seite berechnen;;dreiecke:Winkelsumme;Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“. Basiswinkel (180° − 43,6°) : 2
 2023-OS-B1b;prozent:Grundwert;;;Hauptplatz nach typ „Grundwert berechnen“
 2023-OS-B1c;flaechen:Formeln umstellen;;;Hauptplatz nach typ „Rechteckseite aus Fläche berechnen“
@@ -358,7 +358,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2023-OS-K7b;dreiecke:Seite berechnen;;;Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“
 2024-GYM-B1a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Flächeninhalt eines Dreiecks aus Koordinaten berechnen“
 2024-GYM-B1b;;;lineare:Gleichung aus zwei Punkten;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
-2024-GYM-B2a;flaechen:Umfang gesucht;;dreiecke:Kathete oder Hypotenuse direkt;Hauptplatz nach typ „Umfang Trapez berechnen“. FB über Pythagoras
+2024-GYM-B2a;flaechen:Umfang gesucht;;dreiecke:Kathete gesucht;Hauptplatz nach typ „Umfang Trapez berechnen“. FB über Pythagoras
 2024-GYM-K3a;quadratische:Nullstellen berechnen;;;Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“
 2024-GYM-K3b;quadratische:Punkt auf der Parabel prüfen;;;Hauptplatz nach typ „Funktionswert berechnen“
 2024-GYM-K4a;wachstum:Faktor bestimmen, Gleichung aufstellen;;;Hauptplatz nach typ „Funktionswert berechnen“
@@ -368,7 +368,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2024-GYM-K6a;;;dreiecke:Winkel berechnen | dreiecke:Winkelsumme;Hauptplatz außerhalb der P10-Stufen. Winkel ADC über Winkelsumme
 2024-GYM-K6b;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2024-OS-B1c;flaechen:Formeln;;;Hauptplatz nach typ „Term zu Figur angeben“
-2024-OS-B1e;prozent:Erhöhung und Veränderung in Prozent;;prozent:Prozentwert;Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. 20 % von 3,50 € = 0,70 € (Gegenprobe)
+2024-OS-B1e;prozent:Wert nach Erhöhung;;prozent:Prozentwert;Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. 20 % von 3,50 € = 0,70 € (Gegenprobe)
 2024-OS-B1f;dreiecke:Gleichung aufstellen;;;Hauptplatz nach typ „Pythagoras Gleichung zuordnen“
 2024-OS-B1h;daten:Median;;;Hauptplatz nach typ „Median bestimmen“
 2024-OS-B1i;lineare:Gerade zeichnen;;;Hauptplatz nach typ „y-Achsenabschnitt ablesen“ (bis 12.10.: erkennen und ablesen)
@@ -381,15 +381,15 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2024-OS-K3d;quadratische:Gerade und Parabel gleichsetzen;;quadratische:Nullstellen berechnen;Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen
 2024-OS-K4a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Kreisfläche berechnen“
 2024-OS-K4b;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körper in Schrägbild skizzieren“
-2024-OS-K4c;koerper:Volumen direkt;;;Hauptplatz nach typ „Restvolumen berechnen“; Restvolumen ist keine Stufe mehr (Lehrer 13.10.)
+2024-OS-K4c;koerper:Volumen direkt;;;Hauptplatz nach typ „Restvolumen berechnen“; Restvolumen ist keine Stufe mehr (wie „Figur erst zerlegen“ bei Flächen; Lehrer 13.10.)
 2024-OS-K5a;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2024-OS-K5b;wahrscheinlichkeit:Baum ergänzen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Baumdiagramm ergänzen“. Zwischenschritt aus typ_neben
 2024-OS-K5c;wahrscheinlichkeit:ohne Zurücklegen;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig ohne Zurücklegen“
-2024-OS-K6a;dreiecke:Kathete oder Hypotenuse direkt;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
+2024-OS-K6a;dreiecke:Kathete gesucht;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
 2024-OS-K6b;dreiecke:Winkel berechnen;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“
 2024-OS-K6d;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. γ = 180° − 38° − 108°
 2024-OS-K7a;gleichungssysteme:aufstellen;;;Hauptplatz nach typ „Lineares Gleichungssystem aufstellen“
-2024-OS-K7b;gleichungssysteme:Gleichung in Worte fassen und lösen;;gleichungssysteme:lösen;Hauptplatz nach Zuordnung. Zwischenschritt aus typ_neben
+2024-OS-K7b;gleichungssysteme:deuten;;gleichungssysteme:lösen;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“ (beginnt mit dem Satz zu Gleichung II). Zwischenschritt aus typ_neben
 2025-GYM-B1b;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Flächeninhalt zusammengesetzter Figur berechnen“
 2025-GYM-B2b;quadratische:Nullstellen berechnen;;;Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“
 2025-GYM-K3a;wachstum:Faktor bestimmen, Gleichung aufstellen;;;Hauptplatz nach Urteil. Punktprobe an einer Exponentialfunktion
@@ -399,7 +399,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2025-GYM-K5a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Flächeninhalt Trapez berechnen“
 2025-GYM-K5b;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körper im Schrägbild darstellen“
 2025-GYM-K5c;koerper:Volumen direkt;;prozent:Prozentwert;Hauptplatz nach typ „Volumen Prisma berechnen“. 80 % des Volumens
-2025-GYM-K5d;koerper:Mantelfläche mit Kosten;;dreiecke:Kathete oder Hypotenuse direkt;Hauptplatz nach typ „Mantelfläche Prisma berechnen“. Zwischenschritt aus typ_neben
+2025-GYM-K5d;koerper:Mantelfläche mit Kosten;;dreiecke:Hypotenuse gesucht;Hauptplatz nach typ „Mantelfläche Prisma berechnen“. Zwischenschritt aus typ_neben
 2025-GYM-K6a;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2025-GYM-K6b;;;prozent:Prozentwert;Hauptplatz außerhalb der P10-Stufen. 1,5 % von 1000 Chips
 2025-OS-B1a;prozent:Grundwert;;;Hauptplatz nach typ „Grundwert berechnen“
@@ -415,7 +415,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2025-OS-K3b;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2025-OS-K3c;wahrscheinlichkeit:Pfadregel;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig unabhängig“
 2025-OS-K3d;wahrscheinlichkeit:Zufallsgerät entwerfen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Zufallsgerät zu Wahrscheinlichkeit entwerfen“. Zwischenschritt aus typ_neben
-2025-OS-K4a;dreiecke:Kathete oder Hypotenuse direkt;dreiecke:erst entscheiden, dann rechnen;dreiecke:Winkel berechnen;Hauptplatz nach Zuschnitt „Hypotenuse gesucht“ (Befund Geometrie 10.10.): die Rampe ist ein nacktes Dreieck; Winkel im selben Teil mit tan
+2025-OS-K4a;dreiecke:Hypotenuse gesucht;dreiecke:erst entscheiden, dann rechnen;dreiecke:Winkel berechnen;Hauptplatz nach Zuschnitt „Hypotenuse gesucht“ (Befund Geometrie 10.10.): die Rampe ist ein nacktes Dreieck; Winkel im selben Teil mit tan
 2025-OS-K4b;prozent:Aussagen prüfen;;prozent:Prozentsatz;Hauptplatz nach typ „Steigung in Prozent deuten“. Steigung 16 : 170 in Prozent
 2025-OS-K4c;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. dritter Winkel 180° − 5° − 141°
 2025-OS-K5a;lineare:Gleichung aus zwei Punkten;;;Hauptplatz nach typ „Gerade durch zwei Punkte zeichnen“. Zwischenschritt aus typ_neben (bis 12.10.: durch zwei Punkte, Gleichung ablesen)
@@ -435,7 +435,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2026-EBR-B1j;dreiecke:Gleichung aufstellen;;;EBR-Zwilling von 2026-FOR-B1j
 2026-EBR-K2a;koerper:Volumen direkt;;;EBR-Zwilling von 2026-FOR-K2a
 2026-EBR-K2b;koerper:Mantelfläche mit Kosten;;;EBR-Zwilling von 2026-FOR-K2b
-2026-EBR-K3a;dreiecke:Kathete oder Hypotenuse direkt;dreiecke:erst entscheiden, dann rechnen;;EBR-Zwilling von 2026-FOR-K4a
+2026-EBR-K3a;dreiecke:Kathete gesucht;dreiecke:erst entscheiden, dann rechnen;;EBR-Zwilling von 2026-FOR-K4a
 2026-EBR-K3b;dreiecke:Winkel berechnen;dreiecke:erst entscheiden, dann rechnen;;EBR-Zwilling von 2026-FOR-K4b
 2026-EBR-K4a;daten:Minimum, Maximum, Spannweite;;;EBR-Zwilling von 2026-FOR-K3a
 2026-EBR-K4b;daten:Mittelwert;;;EBR-Zwilling von 2026-FOR-K3b
@@ -464,7 +464,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2026-FOR-K3c;prozent:Erhöhung und Veränderung in Prozent;;prozent:Prozentsatz;Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2)
 2026-FOR-K3d;daten:ergänzen;;;Hauptplatz nach typ „Säulen- oder Balkendiagramm ergänzen“
 2026-FOR-K3e;daten:falschen Eindruck erklären;;;Hauptplatz nach typ „Verzerrung eines Diagramms erklären“
-2026-FOR-K4a;dreiecke:Kathete oder Hypotenuse direkt;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
+2026-FOR-K4a;dreiecke:Kathete gesucht;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Pythagoras Kathete“
 2026-FOR-K4b;dreiecke:Winkel berechnen;dreiecke:erst entscheiden, dann rechnen;;Hauptplatz nach typ „Winkel im rechtwinkligen Dreieck berechnen“
 2026-FOR-K4c;dreiecke:Seite berechnen;;;Hauptplatz nach typ „Seite im rechtwinkligen Dreieck berechnen“
 2026-FOR-K5a;lineare:Gerade zeichnen;;;Hauptplatz nach typ „Gerade aus Gleichung zeichnen“ (bis 12.10.: aus Gleichung zeichnen)
@@ -473,7 +473,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2026-FOR-K5d;quadratische:Lage zweier Parabeln ohne Rechnung begründen;;;Hauptplatz nach typ „Lage zweier Parabeln begründen“
 2026-FOR-K6a;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2026-FOR-K6b;wahrscheinlichkeit:Baum ergänzen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Baumdiagramm ergänzen“. Zwischenschritt aus typ_neben
-2026-FOR-K6c;wahrscheinlichkeit:Gegenereignis;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Wahrscheinlichkeit über Gegenereignis berechnen“. Gegenereignis mit Pfadregel 3/6 · 1/6
+2026-FOR-K6c;wahrscheinlichkeit:Pfadregel;;;Typ „Wahrscheinlichkeit über Gegenereignis berechnen“; Gegenereignis ist keine Stufe (ein Original, 13.10.), Hauptplatz Pfadregel: 1 − 3/6 · 1/6
 2026-FOR-K6d;wahrscheinlichkeit:Zufallsgerät entwerfen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Zufallsgerät zu Wahrscheinlichkeit entwerfen“. Zwischenschritt aus typ_neben
 2026-FOR-K7a;wachstum:Tabelle ergänzen;;;Hauptplatz nach typ „Wachstumstabelle ergänzen“
 2026-FOR-K7b;wachstum:Graph zuordnen und begründen;;;Hauptplatz nach typ „Graph zu Wachstumsprozess zuordnen“
