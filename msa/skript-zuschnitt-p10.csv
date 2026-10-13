@@ -8,7 +8,7 @@ Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Winkel berechnen;2022-OS-
 Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;Seite berechnen;2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b;2022-OS-K5e 2023-OS-K2c
 Geometrie;Dreiecke;Seite oder Winkel mit sin, cos, tan;erst entscheiden, dann rechnen;;2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2025-OS-K4a
 Geometrie;Dreiecke;Seite im allgemeinen Dreieck (Sinussatz);Seite berechnen;2024-OS-K6d 2025-OS-K4c;
-Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;Eigenschaft erkennen;2026-FOR-B1c;
+Geometrie;Dreiecke;Vierecke: Symmetrie und Eigenschaften;Eigenschaft erkennen;2026-FOR-B1c;
 Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;Winkelsumme;2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i;
 Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;gleichschenkliges Dreieck;2023-OS-B1g 2023-OS-K7a;
 Geometrie;Dreiecke;Winkel ohne Rechnung bestimmen oder begründen;rechten Winkel begründen;2025-OS-K2c;
@@ -27,9 +27,10 @@ Geometrie;Körper;Netz und Schrägbild;Netz erkennen;2022-OS-K2a;
 Geometrie;Körper;Netz und Schrägbild;Netz mit Maßen skizzieren;2023-OS-K5a;
 Geometrie;Körper;Netz und Schrägbild;Körper im Schrägbild skizzieren;2024-OS-K4b;
 Funktionen;Lineare;Lineare Funktionen;Gerade zeichnen;2025-OS-B1f 2024-OS-B1i 2024-OS-K3a 2026-FOR-K5a 2023-OS-K4a;
-Funktionen;Lineare;Lineare Funktionen;Gleichung ablesen oder aus Punkten aufstellen;2025-OS-K5a;
+Funktionen;Lineare;Lineare Funktionen;Gleichung aus Graph;;
+Funktionen;Lineare;Lineare Funktionen;Gleichung aus zwei Punkten;2025-OS-K5a;
 Funktionen;Lineare;Lineare Funktionen;Nullstelle;2022-OS-K3a;
-Funktionen;Lineare;Lineare Funktionen;Punktprobe;2023-OS-B1i 2026-FOR-K5b 2024-OS-K3c 2025-OS-B1h;
+Funktionen;Lineare;Lineare Funktionen;Punktprobe;2023-OS-B1i 2026-FOR-K5b;
 Funktionen;Lineare;Lineare Funktionen;Gleichung aus Text;2022-OS-K6a 2022-OS-K6b 2023-OS-K3a 2023-OS-K3b;
 Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Wertetabelle oder Skizze;2026-FOR-B1e 2024-OS-K3b;
 Funktionen;Quadratische;Parabel: Scheitelpunkt und Skizze;Scheitelpunkt ablesen;2026-FOR-K5c 2022-OS-K3b;

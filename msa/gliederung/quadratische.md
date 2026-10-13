@@ -24,7 +24,7 @@ Scheitelpunktform · Lage zweier Parabeln begründen. „Wertetabelle zuordnen�
 eine Stufe (je ein Original in fünf Jahren, Gesuchtes beide Male: wie die Parabel aussieht);
 2023-OS-K4b und 2025-OS-K5b stehen bei dem, was sie suchen (Gleichung), das Ablesen ist dort der erste
 Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber kein Original 2022–2026
-(2024-OS-K3c ist Hauptplatz auf dem Blatt Einsetzen, lineare) – nur Mehr-Block. Einstieg: keiner
+(2024-OS-K3c steht seit 13.10. auf keinem Einheitsblatt, nur auf dem Gemischt-Blatt Gerade und Parabel) – nur Mehr-Block. Einstieg: keiner
 (`Einstieg: nein`; die Originale sind Niveau I bis auf die letzte Stufe).
 
 ### Wertetabelle oder Skizze
@@ -47,7 +47,7 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 ### Punkt auf der Parabel prüfen
 - **Anzeigename:** Punkt auf der Parabel prüfen
 - **Einstieg:** nein
-- **Kern:** nein – 4 echte (2014, 2018, 2020 zweimal), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare, 2024-OS-K3c dort Hauptplatz (Blatt Einsetzen, Lehrer 10.10.), hier Nebenplatz
+- **Kern:** nein – 4 echte (2014, 2018, 2020 zweimal), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare; 2024-OS-K3c hier Nebenplatz, Hauptplatz keiner (Gemischt-Blatt, Lehrer 13.10.)
 - **Originale:** 2020-OS-K3b 2020-OS-K3c 2014-OS-K7a 2018-OS-K5a
 - **Bank:** quadratische-funktionen-e1-k1-s4(i) quadratische-funktionen-e3-k1-s2(i) quadratische-funktionen-e4-k1-s14(i)
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
@@ -147,10 +147,10 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2024-GYM-K3a | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2024-GYM-K3b | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Funktionswert berechnen“ |
 | 2024-OS-K3b | Wertetabelle oder Skizze |  | Scheitelpunkt ablesen | Hauptplatz nach typ „Parabel aus Gleichung skizzieren“ (Stufe Wertetabelle oder Skizze, 12.10.). Zwischenschritt aus typ_neben |
-| 2024-OS-K3c | lineare:Punktprobe | Punkt auf der Parabel prüfen |  | Hauptplatz auf dem Blatt Einsetzen (Lehrer 10.10., 12.10.); Punktprobe an der Parabel, Thema Quadratische, dort Nebenplatz |
+| 2024-OS-K3c |  | lineare:Punktprobe; Punkt auf der Parabel prüfen |  | Punktprobe an der Parabel: auf dem Geraden-Blatt fremd, auf dem Parabel-Blatt ohne Original-Stufe; ungekürzt aufs Gemischt-Blatt Gerade und Parabel (Lehrer 13.10.; bis 13.10. Hauptplatz lineare:Punktprobe) |
 | 2024-OS-K3d | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
 | 2025-GYM-B2b | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
-| 2025-OS-B1h | lineare:Punktprobe |  |  | Hauptplatz nach typ „Lösung durch Einsetzen prüfen“ |
+| 2025-OS-B1h |  | lineare:Punktprobe |  | Lösung einer quadratischen Gleichung durch Einsetzen prüfen: gleicher Handgriff wie die Punktprobe, aber fremd auf dem Geraden-Blatt; ungekürzt aufs Gemischt-Blatt Gerade und Parabel (Lehrer 13.10.; bis 13.10. Hauptplatz lineare:Punktprobe) |
 | 2025-OS-K5b | Scheitelpunktform angeben |  | Scheitelpunkt ablesen | Hauptplatz nach dem Gesuchten (12.10.): Scheitelpunktform; erster Schritt Scheitel vom Bild |
 | 2025-OS-K5c | Nullstellen berechnen |  |  | Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“ |
 | 2026-EBR-B1e | Wertetabelle oder Skizze |  |  | EBR-Zwilling von 2026-FOR-B1e |

@@ -33,6 +33,17 @@ Figur angeben“ (eine Gleichung oder einen Term für eine Figur, keine Zahl) st
 ist die Formel, nicht die Fläche (2025-OS-B1i, 2019-OS-B1e, 2014-OS-B1g). Keine zwei Originale 2022–2026
 unterscheiden sich nur in den Zahlen; kein Bündel.
 
+Y5D3 (Lehrer und Kritiker 13.10.): „Umfang gesucht“ und „Fläche gesucht“ ohne sin/tan – beim Trapez
+(2023-OS-K2c) ist der Schenkel 8,50 m gegeben, beim Dreieck (2022-OS-K5e) DB ≈ 6,35 m (Spalten *_einheit;
+ungekürzt Gemischt-Blatt Geometrie). Anstöße mit Antwort statt Hinweis: „Formeln umstellen“ übt denselben
+Handgriff an einer anderen Formel (u = π · d), statt „a = ___“ vorzugeben; „Anteil in Prozent“ beginnt
+mit einer sicheren Zahl (ein Viertel = 90° = 25 %), damit Teil und Ganzes klar werden.
+
+Häufigkeit (pruefung.md § 5, Lehrer 13.10.; P10-Hefte 2014–2026 ohne GYM, msa/handgriffe-p10.csv): keine
+Stufe kam fast jedes Jahr. „Fläche gesucht“ kam 9 von 13 Jahren (2015–2019, 2022–2025), mit vier Lücken
+(2014, 2020, 2021, 2026) – zu viele für „fast immer“; Formeln 5, Formeln umstellen 4, Umfang 2, Anteil 2.
+Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
+
 ### Formeln
 - **Anzeigename:** Formeln
 - **Kern:** nein – 5 echte ohne Zahlen (2014, 2019, 2022, 2024, 2025, Basisteil, Niveau I): Formel oder Term einer Grundfigur oder einer zusammengesetzten Figur angeben oder ankreuzen
@@ -50,14 +61,17 @@ unterscheiden sich nur in den Zahlen; kein Bündel.
 
 ### Umfang gesucht
 - **Anzeigename:** Umfang gesucht
-- **Kern:** ja – 2 echte (2023, 2026, Niveau I–II): Umfang aus den Seiten oder mit einer Seite, die erst berechnet wird (Trapez 2023); Bank-Ketten Rechteck, Umfang Dreieck und Parallelogramm, Kreisumfang
+- **Kern:** ja – 2 echte (2023, 2026, Niveau I–II): Umfang aus den Seiten, alle Seiten gegeben oder am Bild abzulesen (Lehrer 13.10.: muss eine Seite erst mit sin, cos, tan oder Pythagoras berechnet werden, ist das Dreiecke-Handwerk – auf dem Einheitsblatt ist sie gegeben, Trapez 2023 mit Schenkel 8,50 m; ungekürzt Gemischt-Blatt Geometrie); Bank-Ketten Rechteck, Umfang Dreieck und Parallelogramm, Kreisumfang
 - **Originale:** 2026-FOR-B1h 2023-OS-K2c
 - **Bank:** flaechen-e1-k2-s4(i) flaechen-e2-k2-s1(i) flaechen-e3-k3-s1(i) flaechen-e4-k2-s1(i) kreis-e1-k2-s1(i) kreis-e1-k2-s2(i) kreis-e1-k2-s3(i)
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### Formeln umstellen
 - **Anzeigename:** Formeln umstellen
-- **Frage:** Fläche bekannt, Seite gesucht: Wie wird aus A = a · b eine Rechnung für a? a = ___
+- **Schülerfrage:** Derselbe Handgriff an einer anderen Formel: Stelle sie nach der gesuchten Größe um.
+- **Schülerfrage-Fälle:** Kreis: u = π · d, gesucht ist d → d = u : π
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** π steht mal d, also rückwärts durch π teilen: d = u : π (ebenso a = A : b beim Rechteck)
 - **Kern:** ja – 6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette
 - **Originale:** 2023-OS-B1c 2020-OS-B1d 2018-OS-B1f 2020-OS-K7b 2014-OS-K5c 2014-OS-K5d
 - **Bank:** flaechen-e1-k2-s5(i) flaechen-e1-k2-s6(i) flaechen-e1-k2-s7(i) flaechen-e2-k1-s5(i) flaechen-e3-k1-s5(i) flaechen-e4-k1-s3(i) flaechen-e4-k3-s1(i) kreis-e1-k2-s4(i) kreis-e1-k2-s5(i) kreis-e2-k1-s6(i) flaechen-e1-k2-s9 flaechen-e3-k1-s7 flaechen-e4-k1-s6
@@ -65,8 +79,11 @@ unterscheiden sich nur in den Zahlen; kein Bündel.
 
 ### Anteil in Prozent
 - **Anzeigename:** Anteil in Prozent
-- **Frage:** Prozent heißt Anteil am Ganzen: Was ist hier das Ganze, was der Anteil davon?
-- **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (Basisteil 2025, Niveau I) und Verschnitt (2023, Sternchen, Niveau III); eigener erster Schritt: Teil und Ganzes erkennen, dann teilen
+- **Schülerfrage:** Teil und Ganzes am Kreis: Ein Viertel des Kreises ist grau. Wie groß ist sein Winkel, und wie viel Prozent sind grau?
+- **Schülerfrage-Fälle:** Winkel und Prozent → 90° von 360° = 25 %
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** das Ganze ist der volle Kreis (360°), der Teil der graue Winkel; 90 : 360 = 1 : 4 = 25 %
+- **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (auf dem Blatt 144° = 40 %, im Kopf; Basisteil 2025, Niveau I) und Verschnitt (2023, Sternchen, Niveau III); eigener erster Schritt: Teil und Ganzes erkennen, dann teilen
 - **Originale:** 2025-OS-B1e 2023-OS-K5c
 - **Bank:** kreis-e3-k1-s11[2025-OS-B1e]
 - **Zuschnitt:** Flächeninhalt und Umfang
