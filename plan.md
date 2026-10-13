@@ -432,6 +432,13 @@ Woche 18 → 20 %, Fable 24 → 24 % (Anzeige, mit Chat). Wanduhr:
 Kritiker 18 min, Setzer 16 min (79 Schritte), Daten 75 min (82
 Schritte), Setzen im Chat 2 min. Schätzung 2–3 Wochenpunkte traf.
 
+Messwert Runde 7/8 (13.10. nachmittags, Opus medium, Teilen Sonnet):
+Woche 20 → 22 %, Fable 24 % (Anzeige, mit Chat). Setzer v0.11 35
+min; Teilen 10 min; vier Kapitel-Agenten parallel 25–82 min, 40–76
+Schritte, acht Blätter. Schätzung 7–9 Punkte, gemessen ≈ 2: die
+Schätzung beruhte auf Runde 5 (high, 100–230 Schritte). Regel: enge
+Kapitel-Agenten auf medium ≈ 0,5 Wochenpunkte je Kapitel schätzen.
+
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
