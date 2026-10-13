@@ -7,7 +7,9 @@ Name: Prozent
 Folge: 8
 Bank: prozentrechnung | zinsrechnung
 Katalog: katalog/prozentrechnung.md | katalog/zinsrechnung.md
+Anzeigenamen: Prozent = Anteil und Veränderung in Prozent | Grundwert = Prozentwert und Grundwert
 Kennung: Prozent = 5ZQ
+Kennung: Grundwert = HK3
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -16,50 +18,94 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Zwei Blätter (Runde 8, Lehrer 13.10.: Einheiten „Grundwert“ und „Prozent“), geschnitten nach dem Gesuchten
+(pruefung.md § 5 „Stufen heißen nach dem Gesuchten“): **Grundwert** (HK3) = ein Betrag ist gesucht – Prozentwert,
+Wert nach Erhöhung, Grundwert; erster Schritt „Ist das Ganze gegeben oder gesucht?“, genau dort wechselt der
+Basisteil ab (2021 und 2026 Prozentwert, 2023 und 2025 Grundwert; msa/befund-zuschnitt-daten-2026-10-10.md § 3).
+**Prozent** (5ZQ) = Prozent sind gesucht – Umwandeln, Anteil in Prozent (Teil : Ganzes), Veränderung in Prozent,
+Aussagen prüfen, Fläche; erster Schritt „Was ist der Teil, was das Ganze?“, dann teilen. „Wert nach Erhöhung“ ist
+von „Veränderung in Prozent“ getrennt (Buchstufen 5 und 6, msa/buchstufen-p10.csv; Zuschnitt-CSV führt sie
+getrennt): gesucht ist ein Betrag, nicht Prozent. Lehrer 13.10.: an „Anteil in Prozent“ scheitern viele – darum
+beginnt die Stufe mit einer sicheren Zahl (5 von 20 = ein Viertel = 25 %), und der Kreissektor 2025-OS-B1e (144° =
+40 %, Hauptplatz Flächen) steht als zweites Original auch hier (eine Aufgabe darf auf zwei Blättern stehen).
+Zinsen ohne Zuschnitt: seit 2016 nicht geprüft, nur Mehr-Block.
+Häufigkeit (pruefung.md § 5, P10-Hefte 2014–2026 ohne GYM, msa/handgriffe-p10.csv): keine Stufe kam fast jedes
+Jahr. Prozentwert 8 von 13 Jahren als ganze Aufgabe (Lücken 2016, 2018, 2020, 2024, 2025), Erhöhung und
+Veränderung zusammen 7, Prozentsatz 5, Aussagen 4, Umwandeln 3, Grundwert 2 – keine Zeile „Häufigkeit“, der Setzer
+druckt die Jahre.
+
 ### Prozent und Anteil umwandeln
+- **Anzeigename:** Prozent und Anteil umwandeln
 - **Kern:** ja – Basisteil 2020 und 2022 (Niveau I), Bank-Einheit 1 mit Grundfall, Grundlage aller Prozentaufgaben
 - **Originale:** 2022-OS-B1f 2020-OS-B1a
 - **Bank:** prozentrechnung-e1-k1-s3 prozentrechnung-e1-k1-s6 prozentrechnung-e1-k1-s8[2020-OS-B1a,2022-OS-B1f]
 - **Zuschnitt:** Prozent
 
 ### Prozentwert
+- **Anzeigename:** Prozentwert gesucht
 - **Kern:** ja – 6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall
 - **Originale:** 2026-FOR-B1a 2014-OS-B1a 2017-OS-B1b 2021-OS-B1c 2019-OS-K5a 2015-OS-K2a
 - **Bank:** prozentrechnung-e3-k1-s6 prozentrechnung-e3-k1-s7 prozentrechnung-e3-k1-s11 prozentrechnung-e3-k2-s1 prozentrechnung-e3-k3-s4
 - **Verwechselbar:** Prozentsatz | Grundwert | Erhöhung und Veränderung in Prozent
-- **Zuschnitt:** Prozent
+- **Zuschnitt:** Grundwert
+
+### Wert nach Erhöhung
+- **Anzeigename:** Neuer Wert nach Erhöhung oder Rabatt
+- **Kern:** ja – gesucht ist ein Betrag: erst der Prozentwert (Erhöhung oder Rabatt in Euro), dann dazu oder ab (Basisteil 2024, 2015; Niveau I/II); Buchstufe 5, Bank-Kette Veränderung mit Wachstumsfaktor
+- **Originale:** 2024-OS-B1e 2015-OS-K2b
+- **Bank:** prozentrechnung-e5-k3-s4 prozentrechnung-e5-k2-s9[2024-OS-B1e,2015-OS-K2b]
+- **Verwechselbar:** Prozentwert | Erhöhung und Veränderung in Prozent
+- **Zuschnitt:** Grundwert
 
 ### Prozentsatz
+- **Anzeigename:** Anteil in Prozent
+- **Schülerfrage:** Eine sichere Zahl zuerst: In einer Klasse sind 20 Kinder, 5 davon kommen mit dem Rad. Was ist der Teil, was das Ganze? Wie viel Prozent kommen mit dem Rad?
+- **Schülerfrage-Fälle:** Rad-Kinder in der Klasse → Teil 5, Ganzes 20, 25 %
+- **Schülerfrage-Form:** antwort:Teil|;Ganzes|;Anteil|%
+- **Schülerfrage-Weg:** Teil = die gezählten 5, Ganzes = alle 20; 5 : 20 = 1 : 4 = 25 %
 - **Kern:** ja – 3 echte (2015, 2018, 2023, Niveau I/II), Bank-Einheit 2 mit Grundfall, trägt Aussagen prüfen und Diagramme
-- **Originale:** 2023-OS-K6a 2018-OS-K7a 2015-OS-K7c
+- **Originale:** 2023-OS-K6a 2025-OS-B1e 2018-OS-K7a 2015-OS-K7c
 - **Bank:** prozentrechnung-e2-k3-s5 prozentrechnung-e2-k3-s6 prozentrechnung-e2-k3-s7 prozentrechnung-e2-k3-s9 prozentrechnung-e2-k5-s4
 - **Verwechselbar:** Prozentwert | Grundwert | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Prozent
   - Prozentsatz [2023-OS-K6a 2023-OS-K6b 2025-OS-K4b 2025-OS-K6b] neben [2023-OS-K5c]
 
 ### Grundwert
+- **Anzeigename:** Grundwert gesucht
+- **Schülerfrage:** Erst erkennen, nicht rechnen: Ist das Ganze (100 %) gegeben oder gesucht? Kreuze an, wo es gesucht ist.
+- **Schülerfrage-Fälle:** Gib 25 % von 80 € an. → nein | 25 % des Preises sind 80 €. → ja | Von 80 Losen gewinnen 20. Wie viel Prozent? → nein | 20 Lose gewinnen, das sind 25 % aller Lose. → ja
+- **Schülerfrage-Form:** kreuz:gesucht
+- **Schülerfrage-Weg:** gesucht ist das Ganze bei b) und d): der Betrag gehört zu den Prozent, nicht zu den 100 %; b) 80 € : 0,25 = 320 €, d) 20 : 0,25 = 80 Lose
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
 - **Originale:** 2023-OS-B1b 2025-OS-B1a
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
 - **Verwechselbar:** Prozentwert | Prozentsatz | Erhöhung und Veränderung in Prozent
-- **Zuschnitt:** Prozent
+- **Zuschnitt:** Grundwert
   - Grundwert (erst erkennen: Ganzes oder Teil?) [2023-OS-B1b 2025-OS-B1a]
 
 ### Erhöhung und Veränderung in Prozent
-- **Kern:** ja – 8 echte, die meisten der Prüfung (Niveau I/II), Bank-Einheit 5 mit Grundfall
-- **Originale:** 2024-OS-B1e 2022-OS-K4b 2026-FOR-K3c 2016-OS-K2c 2021-OS-K5a 2020-OS-K2d 2015-OS-K2b 2020-OS-K4c
-- **Bank:** prozentrechnung-e5-k2-s3 prozentrechnung-e5-k2-s4 prozentrechnung-e5-k2-s5 prozentrechnung-e5-k2-s6 prozentrechnung-e5-k2-s8 prozentrechnung-e5-k2-s9[2026-FOR-K3c,2022-OS-K4b,2016-OS-K2c,2024-OS-B1e,2015-OS-K2b] prozentrechnung-e5-k3-s4
+- **Anzeigename:** Veränderung in Prozent
+- **Schülerfrage:** Ein Eis kostet erst 2 €, dann 2,50 €. Um wie viel Euro steigt der Preis? Welcher Preis ist das Ganze? Um wie viel Prozent steigt er?
+- **Schülerfrage-Fälle:** Eis → 0,50 €, alter Preis 2 €, 25 %
+- **Schülerfrage-Form:** antwort:Unterschied|€;Ganzes|€;Steigerung|%
+- **Schülerfrage-Weg:** erst der Unterschied 2,50 € − 2 € = 0,50 €; das Ganze ist der alte Preis: 0,50 : 2 = 0,25 = 25 %
+- **Kern:** ja – 6 echte (Wert nach Erhöhung seit 13.10. eigene Stufe) (Niveau I/II), Bank-Einheit 5 mit Grundfall
+- **Originale:** 2022-OS-K4b 2026-FOR-K3c 2016-OS-K2c 2021-OS-K5a 2020-OS-K2d 2020-OS-K4c
+- **Bank:** prozentrechnung-e5-k2-s3 prozentrechnung-e5-k2-s4 prozentrechnung-e5-k2-s5 prozentrechnung-e5-k2-s6 prozentrechnung-e5-k2-s8 prozentrechnung-e5-k2-s9[2026-FOR-K3c,2022-OS-K4b,2016-OS-K2c]
 - **Verwechselbar:** Prozentwert | Prozentsatz | Grundwert
 - **Zuschnitt:** Prozent
-  - Wert nach Erhöhung [2024-OS-B1e]
   - Veränderung in Prozent [2022-OS-K4b 2026-FOR-K3c]
 
 ### Aussagen prüfen
+- **Anzeigename:** Aussagen prüfen
+- **Zuschnitt:** Prozent
 - **Kern:** nein – 4 echte, aber Niveau II und nur als Prüfungshöhe auf Prozentsatz gesetzt (keine eigene Kette mit Grundfall)
 - **Originale:** 2023-OS-K6b 2025-OS-K4b 2017-OS-K2b 2019-OS-K5b
 - **Bank:** prozentrechnung-e1-k1-s8[2023-OS-K6b,2019-OS-K5b,2017-OS-K2b,2021-OS-K5b] prozentrechnung-e1-k3-s4 prozentrechnung-e5-k2-s7 prozentrechnung-e5-k2-s9[2025-OS-K4b]
 
 ### Prozent aus einer berechneten Fläche
+- **Anzeigename:** Prozent aus einer Fläche
+- **Zuschnitt:** Prozent
 - **Kern:** nein – 1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie
 - **Originale:** 2023-OS-K5c
 - **Bank:** –
@@ -96,7 +142,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2015-GYM-B1e | Zinsen und Zinssatz | Prozentwert |  | GYM-Zwilling von 2015-OS-B1e |
 | 2015-OS-B1e | Zinsen und Zinssatz | Prozentwert |  | Hauptplatz nach Zuordnung. Zinsen = Prozentwert, ganze Aufgabe |
 | 2015-OS-K2a | Prozentwert |  |  | Hauptplatz nach Zuordnung |
-| 2015-OS-K2b | Erhöhung und Veränderung in Prozent |  | Prozentwert | Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. Rabatt 20 % von 43,50 € (Muster beispiel-zwischenschritt.html) |
+| 2015-OS-K2b | Wert nach Erhöhung |  | Prozentwert | Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. Rabatt 20 % von 43,50 € (Muster beispiel-zwischenschritt.html) |
 | 2015-OS-K7c | Prozentsatz |  | daten:Winkel berechnen und beschriften | Hauptplatz nach typ „Prozentsatz berechnen“. Zwischenschritt aus typ_neben |
 | 2016-GYM-K4b | Prozentwert |  |  | Hauptplatz nach typ „Prozentwert berechnen“ |
 | 2016-OS-K2c | Erhöhung und Veränderung in Prozent |  | Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
@@ -124,7 +170,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2023-OS-K6a | Prozentsatz |  |  | Hauptplatz nach typ „Prozentsatz berechnen“ |
 | 2023-OS-K6b | Aussagen prüfen |  | Prozentsatz | Hauptplatz nach typ „Anteilsaussage prüfen und korrigieren“. Anteile 3,9 : 7,8 und 1,95 : 7,8 berechnen |
 | 2024-GYM-K5a | Erhöhung und Veränderung in Prozent |  | Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
-| 2024-OS-B1e | Erhöhung und Veränderung in Prozent |  | Prozentwert | Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. 20 % von 3,50 € = 0,70 € (Gegenprobe) |
+| 2024-OS-B1e | Wert nach Erhöhung |  | Prozentwert | Hauptplatz nach typ „Wert nach prozentualer Erhöhung berechnen“. 20 % von 3,50 € = 0,70 € (Gegenprobe) |
 | 2025-GYM-K6b |  |  | Prozentwert | Hauptplatz außerhalb der P10-Stufen. 1,5 % von 1000 Chips |
 | 2025-OS-B1a | Grundwert |  |  | Hauptplatz nach typ „Grundwert berechnen“ |
 | 2025-OS-K4b | Aussagen prüfen |  | Prozentsatz | Hauptplatz nach typ „Steigung in Prozent deuten“. Steigung 16 : 170 in Prozent |
