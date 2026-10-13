@@ -46,6 +46,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Originale:** 2026-FOR-B1e 2024-OS-K3b 2015-OS-K4b
 - **Bank:** quadratische-funktionen-e1-k1-s8(i) quadratische-funktionen-e1-k1-s12(i) quadratische-funktionen-e1-k2-s3(i) quadratische-funktionen-e2-k1-s4(i) quadratische-funktionen-e1-k1-s9(i) quadratische-funktionen-e1-k1-s13 quadratische-funktionen-e1-k1-s14
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
+- **Durchsicht 13.10.:** Runde A: unverändert; Name sagt, was der Schüler tut, kein Anstoß nötig (Niveau I).
 
 ### Scheitelpunkt ablesen
 - **Anzeigename:** Scheitelpunkt angeben
@@ -55,6 +56,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Bank:** quadratische-funktionen-e2-k1-s1(i) quadratische-funktionen-e2-k1-s2(i) quadratische-funktionen-e2-k1-s3(i) quadratische-funktionen-e3-k1-s6(i)
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
   - Scheitelpunkt ablesen [2026-FOR-K5c 2022-OS-K3b]
+- **Durchsicht 13.10.:** Runde A: unverändert; das Vorzeichen in (x − d)² übt die folgende Stufe mit ihrem Anstoß.
 
 ### Punkt auf der Parabel prüfen
 - **Anzeigename:** Punkt auf der Parabel prüfen
@@ -65,22 +67,33 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
   - Punkt auf der Parabel prüfen [] neben [2024-OS-K3c]
 - **Hinweis:** Lehrer 10.10.: Einsetzen eigenes Blatt (lineare); hier kein Original 2022–2026 – seit Setzer v0.11 stehen die älteren P10-Originale auf dem Blatt (Runde 8)
+- **Durchsicht 13.10.:** Runde A: unverändert; kein Anstoß (Einsetzen kennt der Schüler von der Geraden).
 
 ### Scheitelpunktform angeben
 - **Anzeigename:** Gleichung in Scheitelpunktform
 - **Einstieg:** nein
+- **Schülerfrage:** Eine nach oben geöffnete Normalparabel wird verschoben. Schreib ihre Gleichung in Scheitelpunktform.
+- **Schülerfrage-Fälle:** 2 nach links und 1 nach oben → $y = (x + 2)^2 + 1$
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Scheitel S(−2 | 1); in (x − d)² steht d mit dem anderen Vorzeichen: nach links (d = −2) gibt x + 2; e = 1 steht hinten; Probe: x = −2 gibt y = 1
 - **Kern:** ja – 8 echte 2015–2025: aus dem Graphen (2023, 2025, erst Scheitel ablesen), mit Verschieben und Spiegeln (2015–2020); Bank-Kette Scheitelpunktform mit Grundfall
 - **Originale:** 2025-OS-K5b 2023-OS-K4b 2016-OS-B1g 2018-OS-K5c 2020-OS-K3d 2017-OS-K5e 2015-OS-B1i 2018-OS-K5d
 - **Bank:** quadratische-funktionen-e2-k1-s6(i) quadratische-funktionen-e2-k1-s7(i) quadratische-funktionen-e2-k1-s8(i) quadratische-funktionen-e2-k1-s9(i) quadratische-funktionen-e2-k1-s10(i) quadratische-funktionen-e2-k1-s11(i) quadratische-funktionen-e3-k1-s7(i) quadratische-funktionen-e3-k1-s11(i) quadratische-funktionen-e2-k1-s16 quadratische-funktionen-e2-k1-s17 quadratische-funktionen-e2-k1-s18 quadratische-funktionen-e3-k1-s12
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
+- **Durchsicht 13.10.:** Runde A: neu ein Anstoß mit einem Fall, weil der Schüler bei (x − d)² das Vorzeichen falsch übernimmt; anderer Scheitel als in ’25 · 5b und ’23 · 4b.
 
 ### Lage zweier Parabeln ohne Rechnung begründen
 - **Anzeigename:** Lage zweier Parabeln begründen
 - **Einstieg:** nein
+- **Schülerfrage:** Wohin ist die Parabel geöffnet, und wo liegt ihr Scheitel? Rechne nicht.
+- **Schülerfrage-Fälle:** $y = (x + 1)^2 + 2$ → nach oben, Scheitel bei x = −1, y = 2 | $y = -(x + 1)^2 + 2$ → nach unten, Scheitel bei x = −1, y = 2
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Das Minus vor der Klammer öffnet nach unten; Scheitel aus d und e. Gleicher Scheitel, eine nach oben, eine nach unten: Die Parabeln berühren sich nur im Scheitel
 - **Kern:** nein – 2 echte (2014, 2026), Niveau III, keine eigene Kette
 - **Originale:** 2026-FOR-K5d 2014-OS-K7b
 - **Bank:** quadratische-funktionen-e2-k1-s12(i) quadratische-funktionen-e4-k1-s15(i) quadratische-funktionen-e4-k1-s2(i)
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
+- **Durchsicht 13.10.:** Runde A: neu ein Anstoß mit zwei Fällen (Öffnung, Scheitel), weil der Schüler vor ’26 · 5d sonst rechnet oder zwei Schnittpunkte rät; andere Zahlen als das Original.
 
 ### Nullstellen berechnen
 - **Anzeigename:** Nullstellen berechnen
