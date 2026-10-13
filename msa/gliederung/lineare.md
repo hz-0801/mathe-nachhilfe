@@ -53,13 +53,14 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 ### Gerade zeichnen
 - **Anzeigename:** Gerade zeichnen
 - **Schülerfrage:** Welche Funktionen sind linear? Kreuze an. Wähl eine lineare aus und gib ihr m und n an: $m = \underline{\hspace{10mm}}$, $n = \underline{\hspace{10mm}}$.
-- **Schülerfrage-Fälle:** $f(x) = 3 - 2x$ → ja | $f(x) = x^2 + 1$ → nein | $f(x) = 0{,}5x$ → ja | $f(x) = \frac{4}{x}$ → nein
+- **Schülerfrage-Fälle:** $f(x) = 3 - 2x$ → ja | $f(x) = x^2 + 1$ → nein | $f(x) = 0{,}5x$ → ja
 - **Schülerfrage-Form:** kreuz:linear
-- **Schülerfrage-Weg:** linear sind a) und c): a) m = −2, n = 3 (die Zahl vor x ist m, auch hinten); c) m = 0,5, n = 0; x² und 4 : x geben keine Gerade
+- **Schülerfrage-Weg:** linear sind a) und c): a) m = −2, n = 3 (die Zahl vor x ist m, auch hinten); c) m = 0,5, n = 0; x² gibt keine Gerade
 - **Kern:** ja – Graph erkennen, y-Achsenabschnitt einzeichnen, Gerade aus der Gleichung zeichnen, Eigenschaften prüfen (Basisteil 2016, 2024, 2025; Niveau I–II); Bank-Kette Graph zeichnen mit Grundfall
 - **Originale:** 2025-OS-B1f 2024-OS-B1i 2024-OS-K3a 2026-FOR-K5a 2023-OS-K4a 2016-OS-B1c 2021-OS-K2a 2021-OS-K2b
 - **Bank:** lineare-funktionen-e2-k4-s5(i) lineare-funktionen-e2-k4-s6(i) lineare-funktionen-e2-k4-s7(i) lineare-funktionen-e2-k4-s8(i) lineare-funktionen-e2-k6-s1(i) lineare-funktionen-e2-k7-s2(i) lineare-funktionen-e4-k4-s2(i) lineare-funktionen-e3-k2-s7[2023-OS-K4a,2021-OS-K2b]
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: Anstoß steht für sich; drei statt vier Fälle (4 : x gestrichen – x² trägt schon „keine Gerade“), jeder trägt einen Gedanken: m hinten, keine Gerade, n = 0.
 
 ### Gleichung aus Graph
 - **Anzeigename:** Gleichung aus Graph
@@ -67,6 +68,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Originale:** 2019-OS-K2b 2019-OS-K2c
 - **Bank:** lineare-funktionen-e2-k5-s1(i) lineare-funktionen-e2-k5-s2(i) lineare-funktionen-e2-k5-s3(i) lineare-funktionen-e2-k5-s4(i) lineare-funktionen-e2-k5-s5(i) lineare-funktionen-e2-k5-s6(i)
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: unverändert; Name in der Reihe „Gleichung aus …“, kein Anstoß nötig.
 
 ### Gleichung aus zwei Punkten
 - **Anzeigename:** Gleichung aus zwei Punkten
@@ -75,20 +77,23 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Originale:** 2025-OS-K5a 2017-OS-K5a 2015-OS-K4d
 - **Bank:** lineare-funktionen-e4-k2-s1(i) lineare-funktionen-e4-k1-s3(i) lineare-funktionen-e4-k1-s4(i) lineare-funktionen-e4-k1-s5(i) lineare-funktionen-e4-k1-s6[v1,v2,v5,v6](i) lineare-funktionen-e4-k1-s6[v3,v4] lineare-funktionen-e4-k4-s4
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: unverändert; der Anstoß ist der einzige Hinweis auf die Formelsammlung und steht für sich.
 
 ### Nullstelle
-- **Anzeigename:** Nullstelle
+- **Anzeigename:** Nullstelle gesucht
 - **Kern:** nein – 2 echte (2019 ablesen, 2022 nach dem Zeichnen angeben), Niveau I; Bank Funktionswert null
 - **Originale:** 2022-OS-K3a 2019-OS-K2a
 - **Bank:** lineare-funktionen-e3-k2-s6(i) lineare-funktionen-e3-k5-s4(i)
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: Name „Nullstelle gesucht“ (Reihe … gesucht); kein Anstoß – ein Anstoß (beide Achsenpunkte einer anderen Geraden) kostete eine Seite, im Bericht gemeldet.
 
 ### Punktprobe
-- **Anzeigename:** Punktprobe
+- **Anzeigename:** Punkt auf der Geraden prüfen
 - **Kern:** ja – einsetzen und vergleichen an einer Geraden (2017, 2023, 2026; Befund Funktionen 10.10., Lehrer 10.10.: Einsetzen ist ein Handgriff); Bank-Kette Funktionswert mit Grundfall. Die Punktprobe an der Parabel (2024-OS-K3c) und die quadratische Gleichung durch Einsetzen (2025-OS-B1h) stehen nicht auf dem Geraden-Blatt (Lehrer 13.10., „Zweitthema ausblenden“): der Schüler soll hier die lineare Punktprobe üben, nicht quadrieren; beide ungekürzt fürs Gemischt-Blatt Gerade und Parabel (msa/mehr-p10.csv, Einheit „Gemischt: Gerade und Parabel“), hier nur „ganz auch“
 - **Originale:** 2023-OS-B1i 2026-FOR-K5b 2017-OS-K5b
 - **Bank:** lineare-funktionen-e3-k2-s5(i) lineare-funktionen-e3-k2-s7[2023-OS-B1i,2026-FOR-K5b,2017-OS-K5b,2019-OS-K2a,2021-OS-K6d,2022-OS-K3a] quadratische-funktionen-e1-k1-s4 quadratische-funktionen-e3-k1-s2 quadratische-funktionen-e4-k1-s14 quadratische-gleichungen-e1-k2-s12(i) quadratische-gleichungen-e2-k1-s5(i) quadratische-gleichungen-e3-k3-s13(i)
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: Name nach dem, was der Schüler tut, wie auf dem Parabel-Blatt („Punkt auf der Parabel prüfen“); kein Anstoß nötig.
 
 ### Gleichung aus Text
 - **Anzeigename:** Gleichung aus Text
@@ -102,12 +107,14 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Gleichungssysteme:** geprüft 13.10. (Lehrer: geht es um Gleichungen aus Text, bleibt es bei Lineare): keine Sachaufgabe dieser Stufe braucht zwei Gleichungen – 2022-OS-K6a/b und 2016-OS-K6c eine Gleichung, 2023-OS-K3a/b und 2016-OS-K6a/b vergleichen zwei Angebote durch Einsetzen (kein System), 2021-OS-K7a ordnet zu. Die Aufgaben mit zwei Gleichungen (2016-OS-K6d, 2021-OS-K7b, 2024-OS-K7a) stehen schon im Kapitel gleichungssysteme (Stufe „aufstellen“); nichts auszublenden
 - **Verwechselbar:** wachstum:Tabelle ergänzen | wachstum:Faktor bestimmen, Gleichung aufstellen
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 13.10.:** Runde A: unverändert; Anstoß steht für sich, zwei Fälle, je ein Gedanke (m und n trennen, m negativ beim Abnehmen).
 
 ### Gemischt: Gerade und Parabel
 - **Anzeigename:** Gerade und Parabel zusammen
 - **Zuschnitt:** Lineare Funktionen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
 - **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c
+- **Durchsicht 13.10.:** Runde A: unverändert, gleich auf Lineare und Quadratische.
 
 ## Plätze der Originale
 
