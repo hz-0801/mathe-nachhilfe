@@ -589,6 +589,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
   Originalen entsteht beim Bau, Setzer druckt ihn ohne Modell.
+- 13.10.2026 (b): Gemischt als letzter Abschnitt auf Lineare und
+  Quadratische (Weg C, ersetzt Gemischt-Blatt je Ast vom 12.10.);
+  Fenster verrät die Lösung nicht; Marke wie im Heft („’25 · 1f“),
+  rechts „Basis“; ältere Originale füllen eine Stufe ohne junges
+  (Lehrer).
 - 13.10.2026: Häufigkeit im Stufenkopf als Urteil („fast immer“/
   „immer“ ohne Jahre, sonst alle P10-Jahre; ersetzt immer/oft/selten
   vom 12.10.); rechts kein „Basis“, durchgestrichenes TR nur bei

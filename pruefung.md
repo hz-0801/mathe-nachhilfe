@@ -307,6 +307,20 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   vollständig („alle jungen Originale“) und kurz zugleich.
 - **Kein Karo bei „Zeichne“** (12.10., TAL): Zeichenaufgaben haben
   nur das Koordinatensystem; Karo nur, wo gerechnet wird.
+- **Gemischt als letzter Abschnitt auf beiden Blättern** (Lehrer
+  13.10., Weg C; ersetzt das eigene Gemischt-Blatt je Ast unten).
+  Warum: Der Schüler will wissen, was zu seinem Thema drankommen
+  kann – in der P10 kommen Gerade und Parabel zusammen. Beispiel:
+  die ungekürzten gemischten Originale (Gerade und Parabel) als
+  letzter Abschnitt auf Lineare und auf Quadratische, gleich gesetzt.
+  Grenze: in den Einheitsstufen davor bleibt der fremde Teil
+  ausgeblendet; das Blatt wird länger.
+- **Fenster verrät die Lösung nicht** (Lehrer 13.10.). Warum: Der
+  Schüler soll selbst finden, wo der Graph liegt, wie in der
+  Prüfung. Beispiel: Fenster des Originals; passt es ohne den
+  ausgeblendeten Teil nicht mehr, ein Fenster mit Raum um die
+  Lösung, nicht knapp an den Ablesepunkten. Grenze: ein Urteil je
+  Aufgabe, nicht zwingend symmetrisch, keine feste Zahl.
 - **Zweitthema ausblenden, Gemischt-Blatt je Ast** (Lehrer 12.10.;
   folgt aus „jede Teilaufgabe zu ihrem Handgriff“ 04.10.): Auf dem
   Einheitsblatt wird der fremde Teil einer Aufgabe weggelassen (keine
