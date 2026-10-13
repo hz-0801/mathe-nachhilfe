@@ -321,7 +321,19 @@ vollständig, dann ordnen, dann bauen.
       Stufe), K9X1 3 S., DGH1 3 S. – aufgabenbank
       bau/pruefung/2026-10-13/. Offen: Linie Länge (zwei Seiten hält
       kein Blatt), Gleichungssysteme, Wachstum, Dreiecke in Daten.]
-      4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
+      Ab 13.10. abends (Lehrer: „ja“ – erst ein Ergebnis, dann
+      sammeln), in dieser Folge:
+      A. Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
+         Abschnitten per Skript aus den Gliederungen; der Lehrer
+         prüft daran den Zuschnitt aller Kapitel auf einmal.
+      B. Restliche Einheiten bauen: Gleichungssysteme, Wachstum,
+         Dreiecke in Datenform (10 Zuschnitte); Kapitel-Agenten
+         parallel, Opus medium, ≈ 0,5 Wochenpunkte je Kapitel.
+      C. Verbesserungen gesammelt (bau/befunde-M3.md): Setzer am
+         Ende, alle Blätter neu gesetzt; Heranführung je Kapitel ein
+         Agent; Linie Länge (Lehrer neigt zu Weg A) erst, wenn alle
+         Blätter da sind.
+      (alt) 4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
          Handreichung als Muster (Daten: buchstufen-p10.csv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
