@@ -36,6 +36,7 @@ druckt die Jahre.
 
 ### Prozent und Anteil umwandeln
 - **Anzeigename:** Prozent und Anteil umwandeln
+- **Durchsicht 13.10.:** Name sagt, was der Schüler tut; keine Heranführung nötig.
 - **Kern:** ja – Basisteil 2020 und 2022 (Niveau I), Bank-Einheit 1 mit Grundfall, Grundlage aller Prozentaufgaben
 - **Originale:** 2022-OS-B1f 2020-OS-B1a
 - **Bank:** prozentrechnung-e1-k1-s3 prozentrechnung-e1-k1-s6 prozentrechnung-e1-k1-s8[2020-OS-B1a,2022-OS-B1f]
@@ -43,6 +44,7 @@ druckt die Jahre.
 
 ### Prozentwert
 - **Anzeigename:** Prozentwert gesucht
+- **Durchsicht 13.10.:** Name schon in der Reihe „… gesucht“; ein leichtes Basis-Original, keine Heranführung nötig.
 - **Kern:** ja – 6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall
 - **Originale:** 2026-FOR-B1a 2014-OS-B1a 2017-OS-B1b 2021-OS-B1c 2019-OS-K5a 2015-OS-K2a
 - **Bank:** prozentrechnung-e3-k1-s6 prozentrechnung-e3-k1-s7 prozentrechnung-e3-k1-s11 prozentrechnung-e3-k2-s1 prozentrechnung-e3-k3-s4
@@ -50,16 +52,17 @@ druckt die Jahre.
 - **Zuschnitt:** Grundwert
 
 ### Wert nach Erhöhung
-- **Anzeigename:** Neuer Wert nach Erhöhung oder Rabatt
+- **Anzeigename:** Neuer Wert gesucht
 - **Kern:** ja – gesucht ist ein Betrag: erst der Prozentwert (Erhöhung oder Rabatt in Euro), dann dazu oder ab (Basisteil 2024, 2015; Niveau I/II); Buchstufe 5, Bank-Kette Veränderung mit Wachstumsfaktor
 - **Originale:** 2024-OS-B1e 2015-OS-K2b
 - **Bank:** prozentrechnung-e5-k3-s4 prozentrechnung-e5-k2-s9[2024-OS-B1e,2015-OS-K2b]
 - **Verwechselbar:** Prozentwert | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Grundwert
+- **Durchsicht 13.10.:** Anzeigename in die Reihe „… gesucht“ (vorher „Neuer Wert nach Erhöhung oder Rabatt“); keine Heranführung.
 
 ### Prozentsatz
-- **Anzeigename:** Anteil in Prozent
-- **Schülerfrage:** Eine sichere Zahl zuerst: In einer Klasse sind 20 Kinder, 5 davon kommen mit dem Rad. Was ist der Teil, was das Ganze? Wie viel Prozent kommen mit dem Rad?
+- **Anzeigename:** Anteil in Prozent gesucht
+- **Schülerfrage:** In einer Klasse sind 20 Kinder, 5 davon kommen mit dem Rad. Was ist der Teil, was das Ganze? Wie viel Prozent kommen mit dem Rad?
 - **Schülerfrage-Fälle:** Rad-Kinder in der Klasse → Teil 5, Ganzes 20, 25 %
 - **Schülerfrage-Form:** antwort:Teil|;Ganzes|;Anteil|%
 - **Schülerfrage-Weg:** Teil = die gezählten 5, Ganzes = alle 20; 5 : 20 = 1 : 4 = 25 %
@@ -69,22 +72,24 @@ druckt die Jahre.
 - **Verwechselbar:** Prozentwert | Grundwert | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Prozent
   - Prozentsatz [2023-OS-K6a 2023-OS-K6b 2025-OS-K4b 2025-OS-K6b] neben [2023-OS-K5c]
+- **Durchsicht 13.10.:** Anzeigename mit „gesucht“; im Anstoß „Eine sichere Zahl zuerst:“ gestrichen (Satz über das Blatt); Anstoß bleibt – steht für sich, ein Fall, Teil und Ganzes sind der Fehler dahinter.
 
 ### Grundwert
 - **Anzeigename:** Grundwert gesucht
-- **Schülerfrage:** Erst erkennen, nicht rechnen: Ist das Ganze (100 %) gegeben oder gesucht? Kreuze an, wo es gesucht ist.
-- **Schülerfrage-Fälle:** Gib 25 % von 80 € an. → nein | 25 % des Preises sind 80 €. → ja | Von 80 Losen gewinnen 20. Wie viel Prozent? → nein | 20 Lose gewinnen, das sind 25 % aller Lose. → ja
-- **Schülerfrage-Form:** kreuz:gesucht
-- **Schülerfrage-Weg:** gesucht ist das Ganze bei b) und d): der Betrag gehört zu den Prozent, nicht zu den 100 %; b) 80 € : 0,25 = 320 €, d) 20 : 0,25 = 80 Lose
+- **Schülerfrage:** Der Prozentwert W ist der Teil, der Grundwert G das Ganze, p der Prozentsatz als Dezimalzahl. Stelle die Formel nach G um.
+- **Schülerfrage-Fälle:** W = G · p, gesucht ist G → G = W : p
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** beide Seiten durch p teilen: G = W : p; steht p in Prozent da, erst als Dezimalzahl schreiben (30 % = 0,3) oder W : 30 · 100 rechnen
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
 - **Originale:** 2023-OS-B1b 2025-OS-B1a
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
 - **Verwechselbar:** Prozentwert | Prozentsatz | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Grundwert
   - Grundwert (erst erkennen: Ganzes oder Teil?) [2023-OS-B1b 2025-OS-B1a]
+- **Durchsicht 13.10.:** Rückwärts-Abschnitt: statt vier Sätze ankreuzen („gegeben oder gesucht?“ – die Überschrift verrät es schon) die Formel W = G · p ohne Zahlen nach G umstellen, wie bei Körper und Flächen.
 
 ### Erhöhung und Veränderung in Prozent
-- **Anzeigename:** Veränderung in Prozent
+- **Anzeigename:** Veränderung in Prozent gesucht
 - **Schülerfrage:** Ein Eis kostet erst 2 €, dann 2,50 €. Um wie viel Euro steigt der Preis? Welcher Preis ist das Ganze? Um wie viel Prozent steigt er?
 - **Schülerfrage-Fälle:** Eis → 0,50 €, alter Preis 2 €, 25 %
 - **Schülerfrage-Form:** antwort:Unterschied|€;Ganzes|€;Steigerung|%
@@ -95,6 +100,7 @@ druckt die Jahre.
 - **Verwechselbar:** Prozentwert | Prozentsatz | Grundwert
 - **Zuschnitt:** Prozent
   - Veränderung in Prozent [2022-OS-K4b 2026-FOR-K3c]
+- **Durchsicht 13.10.:** Anzeigename mit „gesucht“; Anstoß bleibt: drei Teilfragen, je ein Gedanke von ’22 · 4b und ’26 · 3c (Unterschied, das Ganze ist der alte Wert, teilen).
 
 ### Aussagen prüfen
 - **Anzeigename:** Aussagen prüfen
@@ -102,13 +108,15 @@ druckt die Jahre.
 - **Kern:** nein – 4 echte, aber Niveau II und nur als Prüfungshöhe auf Prozentsatz gesetzt (keine eigene Kette mit Grundfall)
 - **Originale:** 2023-OS-K6b 2025-OS-K4b 2017-OS-K2b 2019-OS-K5b
 - **Bank:** prozentrechnung-e1-k1-s8[2023-OS-K6b,2019-OS-K5b,2017-OS-K2b,2021-OS-K5b] prozentrechnung-e1-k3-s4 prozentrechnung-e5-k2-s7 prozentrechnung-e5-k2-s9[2025-OS-K4b]
+- **Durchsicht 13.10.:** Name sagt, was der Schüler tut; keine Heranführung (Länge).
 
 ### Prozent aus einer berechneten Fläche
-- **Anzeigename:** Prozent aus einer Fläche
+- **Anzeigename:** Flächenanteil in Prozent gesucht
 - **Zuschnitt:** Prozent
 - **Kern:** nein – 1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie
 - **Originale:** 2023-OS-K5c
 - **Bank:** –
+- **Durchsicht 13.10.:** Anzeigename in die Reihe „… gesucht“ (vorher „Prozent aus einer Fläche“).
 
 ### Zinsen und Zinssatz
 - **Kern:** nein – 3 echte, zuletzt 2015, seit 2016 nicht geprüft, Zuschnitt 2022–2026 führt keine Zins-Stufe
