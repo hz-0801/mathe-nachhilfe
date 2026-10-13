@@ -469,7 +469,7 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Blatt trägt die Originale der letzten fünf Jahre und endet auf
   Prüfungshöhe (12.10.), und doch geht kein Original verloren; der Setzer
   druckt „mehr“ ohne Modell. Beispiel: je Einheit alle Originale,
-  die nicht aufs Blatt kamen, als Liste in `msa/mehr-p10.csv`
+  die nicht aufs Blatt kamen, als Liste in `msa/mehr-p10/` (eine CSV je Kapitel)
   (Spalten wie herausgeloest-p10.csv, dazu einheit, schwere I–III
   aus niveau_geschaetzt, rang); Ordnung: Quelle (BB/BE letzte fünf
   Jahre → ältere BB → andere Länder, IQB), darin leicht → schwer;

@@ -263,7 +263,7 @@ vollständig, dann ordnen, dann bauen.
       und Art „p“ (Sorte P aus Daten; Datenbedarf in
       werkzeuge/pruefheft-p.md: grafik, form, Schülerfrage,
       herausgelöste mit neuen Zahlen). Mehr-Block für alle zehn
-      Kapitel gebaut (msa/mehr-p10.csv, 291 Zeilen). Original neu
+      Kapitel gebaut (msa/mehr-p10/, je Kapitel eine CSV, 291 Zeilen). Original neu
       2026 FOR als Prüfstein gebaut (privat, originalneu.py).]
       Setzer für Sorte P (Wunschliste bau/befunde-M3.md) und
       Mehr-Block; dann Kapitel Flächen, Körper.

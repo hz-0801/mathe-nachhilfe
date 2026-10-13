@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Zieht in msa/mehr-p10.csv die Zahlen der Spalte abbildung auf die des
+"""Zieht in msa/mehr-p10/*.csv die Zahlen der Spalte abbildung auf die des
 wortlauts nach (Mehr-Block: wortlaut und loesung tragen neue Zahlen, die
 Skizzenbeschreibung oft noch alte).
 
@@ -16,7 +16,7 @@ Verfahren je Zeile mit Zahlen in abbildung:
    Diese Fälle werden von Hand bearbeitet.
 Aufruf: python3 msa/mehr-abbildung.py [--probe]   (--probe: nur melden)
 """
-import csv, io, os, re, sys
+import csv, glob, io, os, re, sys
 D = os.path.dirname(os.path.abspath(__file__))
 ZAHL = re.compile(r'[−-]?\d+(?:[,.]\d+)?')
 TOK = re.compile(r'[−-]?\d+(?:[,.]\d+)?|\$[^$]+\$|\w+|\S')
@@ -65,11 +65,15 @@ def vorlagen():
 
 def main():
     probe = '--probe' in sys.argv
-    pfad = os.path.join(D, 'mehr-p10.csv')
-    with open(pfad, encoding='utf-8', newline='') as f:
-        raw = f.read()
-    zeilen = list(csv.reader(io.StringIO(raw), delimiter=';'))
-    kopf, rows = zeilen[0], zeilen[1:]
+    dateien = sorted(glob.glob(os.path.join(D, 'mehr-p10', '*.csv')))
+    kopf, rows, teile = None, [], []
+    for pfad in dateien:
+        with open(pfad, encoding='utf-8', newline='') as f:
+            zeilen = list(csv.reader(io.StringIO(f.read()), delimiter=';'))
+        kopf = kopf or zeilen[0]
+        assert zeilen[0] == kopf, f'{pfad}: Kopfzeile weicht ab'
+        teile.append((pfad, zeilen[1:]))
+        rows += zeilen[1:]
     IA, IW, IL, IE, IB = (kopf.index(x) for x in ('abbildung', 'wortlaut', 'loesung', 'eltern_id', 'bemerkung'))
     orig = vorlagen()
     geaendert, meldungen = 0, []
@@ -124,9 +128,10 @@ def main():
         print('MELDUNG', m)
     print(f'{geaendert} Zahlen ersetzt, {len(meldungen)} Meldungen')
     if not probe:
-        out = io.StringIO()
-        csv.writer(out, delimiter=';', lineterminator='\n').writerows([kopf] + rows)
-        with open(pfad, 'w', encoding='utf-8', newline='') as f:
-            f.write(out.getvalue())
+        for pfad, zl in teile:   # zl enthält dieselben Zeilenobjekte wie rows, in der Datei des Kapitels
+            out = io.StringIO()
+            csv.writer(out, delimiter=';', lineterminator='\n').writerows([kopf] + zl)
+            with open(pfad, 'w', encoding='utf-8', newline='') as f:
+                f.write(out.getvalue())
 
 main()

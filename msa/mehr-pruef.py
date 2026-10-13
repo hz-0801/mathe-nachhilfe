@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prüft msa/mehr-p10.csv (Mehr-Block, alle Kapitel).
+"""Prüft msa/mehr-p10/*.csv (Mehr-Block, alle Kapitel).
 
 1. Jede pruef-Zeile wird mit eval (nur math) gerechnet und mit der Zahl in
    loesung verglichen (Rundung auf die Stellen der Lösung). Mehrere
@@ -21,7 +21,7 @@
    Stufe, höchstens drei, auf_blatt gleich.
 Aufruf: python3 msa/mehr-pruef.py [--teil]   (--teil: Vollständigkeit auslassen)
 Ohne Meldung = alles in Ordnung."""
-import csv, math, os, re, sys
+import csv, glob, math, os, re, sys
 D = os.path.dirname(os.path.abspath(__file__))
 ZWILLING = {'2026-EBR-K3a': '2026-FOR-K4a', '2026-EBR-K3b': '2026-FOR-K4b'}
 KOPF = 'id;marke;quelle;kapitel;einheit;stufe;art;eltern_id;auf_blatt;wortlaut;abbildung;loesung;pruef;zahlart;schwere;rang;bemerkung'.split(';')
@@ -93,11 +93,16 @@ def rechne(fehler, i, pr, lo):
 def main():
     teil = '--teil' in sys.argv
     fehler = []
-    with open(os.path.join(D, 'mehr-p10.csv'), encoding='utf-8', newline='') as f:
-        rd = csv.DictReader(f, delimiter=';')
-        if rd.fieldnames not in (KOPF, KOPF + SETZER, KOPF + SETZER + V09):
-            fehler.append('Kopfzeile weicht ab')
-        rows = list(rd)
+    rows = []
+    for pfad in sorted(glob.glob(os.path.join(D, 'mehr-p10', '*.csv'))):
+        with open(pfad, encoding='utf-8', newline='') as f:
+            rd = csv.DictReader(f, delimiter=';')
+            if rd.fieldnames not in (KOPF, KOPF + SETZER, KOPF + SETZER + V09):
+                fehler.append(f'{os.path.basename(pfad)}: Kopfzeile weicht ab')
+            teil_rows = list(rd)
+        if {r['kapitel'] for r in teil_rows} - {os.path.basename(pfad)[:-4]}:
+            fehler.append(f'{os.path.basename(pfad)}: Zeile mit fremdem kapitel')
+        rows += teil_rows
     orig = vorlagen()
     gesehen = {}
     buendel = {}
