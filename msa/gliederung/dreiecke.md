@@ -10,6 +10,7 @@ Bank: pythagoras | trigonometrie | winkel-dreiecke | symmetrie-abbildungen
 Katalog: katalog/pythagoras.md | katalog/trigonometrie.md | katalog/winkel-dreiecke.md | katalog/symmetrie-abbildungen.md
 Anzeigenamen: Länge mit Pythagoras = Pythagoras
 Kennung: Länge mit Pythagoras = P4Z
+Anzeigenamen: Seite oder Winkel mit sin, cos, tan = sin, cos, tan
 Kennung: Seite oder Winkel mit sin, cos, tan = GYW
 Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
 Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
@@ -60,12 +61,25 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Dreieck versteckt [2026-FOR-K2c 2022-OS-K2c] neben [2025-OS-K2a]
 
 ### Seitenverhältnis benennen
+- **Anzeigename:** Gleichung aufstellen
+- **Schülerfrage:** Benenne die Seiten des Dreiecks aus Sicht des Winkels α.
+- **Schülerfrage-Fälle:** Dreieck ABC mit dem rechten Winkel bei C = Gegenkathete a, Ankathete b, Hypotenuse c
+- **Schülerfrage-Form:** antwort:Gegenkathete|;Ankathete|;Hypotenuse|
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small,scale=0.8]\coordinate (C) at (0,0);\coordinate (B) at (3,0);\coordinate (A) at (0,2);\draw (A) -- (B) -- (C) -- cycle;\pfrw[0.35]{(C)}{0}\pfwinkel[0.7][0.62]{(A)}{-90}{-56.3}{\alpha}\node[anchor=south] at (A) {$A$};\node[anchor=west] at (B) {$B$};\node[anchor=north east] at (C) {$C$};\node[anchor=north] at (1.5,0) {$a$};\node[anchor=east] at (0,1) {$b$};\node[anchor=south west] at (1.5,1) {$c$};\end{tikzpicture}
+- **Schülerfrage-Weg:** Die Gegenkathete liegt α gegenüber, die Ankathete liegt an α und am rechten Winkel, die Hypotenuse liegt dem rechten Winkel gegenüber.
+- **Durchsicht 13.10.:** Schritt B (Daten): erst die Seiten aus Sicht des Winkels benennen (Lehrer 11.10. „benennen“), dann ’25 · 1g mit fremden Buchstaben.
 - **Kern:** ja – 6 echte, Basisteil 2017–2020 und 2025 (Niveau I), Grundfall der Bank-Kette Seite berechnen
 - **Originale:** 2025-OS-B1g 2020-OS-B1c 2020-OS-B1j 2019-OS-B1h 2018-OS-B1g 2017-OS-B1j
 - **Bank:** trigonometrie-e1-k3-s1(i) trigonometrie-e1-k3-s2(i) trigonometrie-e1-k4-s1(i) trigonometrie-e1-k3-s12(i) trigonometrie-e1-k3-s17[2020-OS-B1c,2020-OS-B1j,2025-OS-B1g]
 - **Zuschnitt:** Seite oder Winkel mit sin, cos, tan
 
 ### Winkel berechnen
+- **Anzeigename:** Winkel gesucht
+- **Schülerfrage:** Welche zwei Seiten kennst du aus Sicht des Winkels am Boden? Schreib sin oder cos dazu; rechne nicht.
+- **Schülerfrage-Fälle:** Leiter 5 m lang, sie reicht 4,8 m hoch an der Wand = Gegenkathete und Hypotenuse: sin | Leiter 5 m lang, ihr Fuß steht 1,4 m vor der Wand = Ankathete und Hypotenuse: cos
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Die Höhe an der Wand liegt dem Winkel am Boden gegenüber (sin), der Abstand zur Wand liegt an ihm an (cos); die Leiter ist die Hypotenuse.
+- **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 5b (sin) und ’24 · 6b, ’26 · 4b (cos) – der Anstoß übt nur, welche Funktion die beiden gegebenen Seiten verbindet.
 - **Kern:** ja – 5 echte (2019, 2020, 2022, 2024, 2026), Bank-Kette Winkel berechnen mit Grundfall
 - **Originale:** 2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b 2020-OS-K5b 2019-OS-K3b
 - **Bank:** trigonometrie-e2-k1-s1(i) trigonometrie-e2-k1-s2(i) trigonometrie-e2-k1-s3(i) trigonometrie-e2-k1-s4(i) trigonometrie-e2-k1-s5(i) trigonometrie-e2-k1-s6(i) trigonometrie-e2-k1-s8(i) trigonometrie-e2-k1-s9(i) trigonometrie-e2-k1-s10(i) trigonometrie-e2-k1-s7 trigonometrie-e2-k4-s3 trigonometrie-e2-k1-s12[2022-OS-K5b,2024-OS-K6b,2026-FOR-K4b,2019-OS-K3b]
@@ -74,6 +88,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Winkel berechnen [2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b] neben [2025-OS-K4a]
 
 ### Seite berechnen
+- **Anzeigename:** Seite gesucht
+- **Schülerfrage:** Stelle nach der gesuchten Seite um.
+- **Schülerfrage-Fälle:** sin α = a : c, gesucht ist a → a = c · sin α | sin α = a : c, gesucht ist c → c = a : sin α
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** steht die Seite oben im Bruch, mal sin α; steht sie unten, a durch sin α teilen
+- **Durchsicht 13.10.:** Schritt B (Daten): Umstellen an der einfachen Formel ohne Zahlen (befunde-M3 AZL2), die beiden Lagen kommen in ’23 · 7b (BF oben, BC unten) und ’22 · 5d, ’26 · 4c (unten) vor; ’23 · 7b als schwerste echte am Ende.
 - **Kern:** ja – 8 echte 2016–2026, Bank-Ketten Seite berechnen und Teildreiecke mit Grundfall
 - **Originale:** 2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b 2021-OS-K3a 2021-OS-K3b 2018-OS-K4d 2017-OS-K4b 2016-OS-K7c
 - **Bank:** trigonometrie-e1-k3-s4(i) trigonometrie-e1-k3-s5(i) trigonometrie-e1-k3-s6(i) trigonometrie-e1-k3-s7(i) trigonometrie-e1-k3-s8(i) trigonometrie-e1-k3-s9(i) trigonometrie-e1-k3-s10(i) trigonometrie-e1-k3-s11(i) trigonometrie-e1-k3-s13(i) trigonometrie-e1-k3-s14(i) trigonometrie-e3-k1-s1(i) trigonometrie-e3-k1-s2(i) trigonometrie-e3-k1-s3(i) trigonometrie-e1-k3-s15 trigonometrie-e1-k7-s3 trigonometrie-e3-k1-s8 trigonometrie-e1-k3-s17[2022-OS-K5d,2021-OS-K3a,2021-OS-K3b,2017-OS-K4b] trigonometrie-e3-k1-s19[2026-FOR-K4c,2023-OS-K7b,2018-OS-K4d,2016-OS-K7c]
@@ -82,11 +102,16 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Seite berechnen [2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b] neben [2022-OS-K5e 2023-OS-K2c]
 
 ### erst entscheiden, dann rechnen
+- **Anzeigename:** Pythagoras oder sin, cos, tan?
+- **Schülerfrage:** Womit rechnest du – Pythagoras oder sin, cos, tan? Rechne nicht.
+- **Schülerfrage-Fälle:** Du kennst zwei Seiten; gesucht ist die dritte Seite = Pythagoras | Du kennst zwei Seiten; gesucht ist ein Winkel = sin, cos, tan | Du kennst eine Seite und einen Winkel; gesucht ist eine Seite = sin, cos, tan
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Kommt ein Winkel vor (gegeben oder gesucht), dann sin, cos, tan; nur Seiten, dann Pythagoras.
+- **Durchsicht 13.10.:** Schritt B (Daten): Schlussstufe nur mit dem Anstoß, ohne eigene echte (Lehrer 11.10.: darf das Ende des Blatts sein). Echte am Ende: ’19 · 2d (Strecke BC mit Pythagoras, Winkel β mit tan, ungekürzt; älteres Original, Setzer v0.11). Die Rampe ’25 · 4a (x und α in einem Teil) wäre die junge Wahl, steht aber gekürzt auf Pythagoras; eine Zeile trägt nur eine Einheitsfassung – Wunsch im Bericht.
 - **Kern:** nein – Schlussstufe (Lehrer 10.10., Befund Geometrie § 3): Winkel gegeben oder gesucht → sin, cos, tan, nur Seiten → Pythagoras; die echten sind dieselben wie bei Pythagoras und Winkel (2025-OS-K4a hat beides in einem Teil), kein eigenes Blatt; Mischsprossen der Bank
-- **Originale:** 2022-OS-K5a 2022-OS-K5b 2024-OS-K6a 2024-OS-K6b 2026-FOR-K4a 2026-FOR-K4b 2025-OS-K4a
+- **Originale:** 
 - **Bank:** pythagoras-e2-k3-s11(i) trigonometrie-e2-k1-s11(i) trigonometrie-e4-k1-s16(i) trigonometrie-e3-k1-s14(i) pythagoras-e3-k2-s18
 - **Zuschnitt:** Seite oder Winkel mit sin, cos, tan
-  - erst entscheiden, dann rechnen [] neben [2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2025-OS-K4a]
 
 ### Seite berechnen (Sinussatz)
 - **Kern:** ja – 9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall
