@@ -81,7 +81,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 - **Anzeigename:** Anteil in Prozent
 - **Schülerfrage:** Teil und Ganzes am Kreis: Ein Viertel des Kreises ist grau. Wie groß ist sein Winkel, und wie viel Prozent sind grau?
 - **Schülerfrage-Fälle:** Winkel und Prozent → 90° von 360° = 25 %
-- **Schülerfrage-Form:** linie
+- **Schülerfrage-Form:** antwort:Winkel|°;Prozent|%
 - **Schülerfrage-Weg:** das Ganze ist der volle Kreis (360°), der Teil der graue Winkel; 90 : 360 = 1 : 4 = 25 %
 - **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (auf dem Blatt 144° = 40 %, im Kopf; Basisteil 2025, Niveau I) und Verschnitt (2023, Sternchen, Niveau III); eigener erster Schritt: Teil und Ganzes erkennen, dann teilen
 - **Originale:** 2025-OS-B1e 2023-OS-K5c
