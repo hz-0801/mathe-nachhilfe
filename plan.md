@@ -293,15 +293,23 @@ vollständig, dann ordnen, dann bauen.
       billiger (anweisungen/modelle.md § 6).]
       Jetzt, in dieser Folge (Sparregeln modelle.md § 4a: enge
       Aufträge, Schrittgrenze, Aufwand medium, high nur Kritiker):
-      1. TAL2 nachbessern – Parabel-Punktprobe 2024-3c und
-         quadratische Gleichung 2025-B1h aufs Gemischt-Blatt (Regel
-         „Zweitthema ausblenden“), rechte Lösungsspalte mit Ansatz
-         (Kritiker, aufgabenbank bau/vergleich-2026-10-12-lineare.md).
-      2. Kritiker über Y5D2, dann gebündelt nachbessern.
-      3. Lehrer sieht TAL2 und Y5D2 als Muster; mit dem Muster in der
-         Hand die Linie Länge entscheiden (beide halten zwei Seiten
-         nicht ohne Verlust; Wege in den bericht.md der Blätter und
-         bau/befunde-M3.md).
+      Runde 6 (Lehrer 13.10., Weg A: erst zeigen, dann einmal
+      nachbessern – spart einen zweiten Nachbesser-Durchgang, falls
+      die Länge den Zuschnitt ändert):
+      1. Kritiker über Y5D2 (Opus · high); zugleich sieht der Lehrer
+         TAL2 und Y5D2 mit der Liste bekannter Fehler.
+      2. Lehrer entscheidet mit dem Muster in der Hand die Linie
+         Länge (beide halten zwei Seiten nicht ohne Verlust; Wege in
+         den bericht.md der Blätter und bau/befunde-M3.md).
+      3. Beide gebündelt nachbessern (Opus · medium, je eigener
+         Klon), Länge eingeschlossen. TAL2: Parabel-Punktprobe
+         2024-3c und quadratische Gleichung 2025-B1h auf dem
+         Geraden-Blatt weglassen, ungekürzt aufs Gemischt-Blatt
+         (Regel „Zweitthema ausblenden“; Lehrer 13.10.: eine Aufgabe
+         darf auf zwei Blättern stehen, je ohne das Nebensächliche);
+         rechte Lösungsspalte mit Ansatz (aufgabenbank
+         bau/vergleich-2026-10-12-lineare.md). Y5D2: Befunde des
+         Kritikers.
       4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
          Handreichung als Muster (Daten: buchstufen-p10.csv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
@@ -417,6 +425,11 @@ beruhen auf ihr.
   Bestellung; erster bestellter Kasten = Exemplar, dann Regel.
   Schreibweise nur für Schüler mit diesem Buch. Sek-II-Band erst zum
   Abitur. Kein Kasten-Vorrat je P10-Einheit (Lehrer 12.10.).
+- Duden auf dem Blatt (Lehrer 13.10., gesondert besprechen): ab und
+  zu die Formelsammlung Duden nutzen, sparsam, nicht bei jeder
+  nötigen Formel. Berührt den Anstoß „Seite ___“ (pruefung.md
+  „Vom Ende her beim Einstieg“) und die offene Frage „welche
+  Formelsammlung“ (bericht.md Y5D2).
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 
