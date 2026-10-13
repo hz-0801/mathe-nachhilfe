@@ -346,6 +346,16 @@ vollständig, dann ordnen, dann bauen.
          in derselben Runde parallel laufen (andere Dateien). Der
          Lehrer sieht danach ein Blatt als Muster und die Stichprobe
          (Linie 6). Start erst nach Go auf Auftrag und Schätzung.]
+         [13.10. nachts erledigt: Runde A und B (§ 10 f), alle 19
+         Blätter aus Daten, Kritiker A/B in aufgabenbank
+         bau/runde-2026-10-13/. Jetzt, in dieser Folge (§ 10 g):
+         1. Gesamtheft per Skript (Bestellkarte, Inhalt, Sprungmarken
+            hin und zurück, Lösungen hinten); 2. Tafelwerk Hildebrandt
+            ablegen (privat); 3. Sammlung Heranführungen aus dem
+            Bestand und den Lehrer-Vorschlägen als Daten in die
+            Gliederungen, Pythagoras wieder getrennt, Prüfskript
+            Anzeigenamen; 4. Probe Erkennen + Formelsammlungs-Stups
+            an zwei ungesehenen Blättern; dann Schritt C.]
          (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
@@ -700,6 +710,19 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   (Weg B): acht Kapitel-Agenten Opus medium, Kritiker Opus high,
   Neusatz per Skript; neue Einheiten ohne zweiten Nachbesser-
   Durchgang, Befunde gesammelt für C (Lehrer).
+- 13.10.2026 (g): Heranführung auf dem Prüfungsblatt (Lehrer:
+  „beides“): kein eigener Unterbau – je Abschnitt höchstens ein
+  Erkennen-Schritt und ein Stups in die Formelsammlung (das Beste aus
+  Duden und Formelsammlung Regine-Hildebrandt-Schule, nicht deren
+  Seiten); Quelle zuerst der Bestand (abgenommene Blätter wie P4Z
+  10.10. „Hypotenuse markieren“, Vorschläge des Lehrers), dann
+  Fachdidaktik (Grundvorstellung, Fehlvorstellung), erst dann neu;
+  Bestand kommt als Daten in die Gliederung. Lehren gehört aufs
+  Lernblatt. Dazu: Stufen nur in der Gliederung, Skript prüft
+  Anzeigenamen gegen pruefung.md § 2 (Anlass: P4Z2 hat Hypotenuse/
+  Kathete wieder zusammengelegt). Gesamtheft aller P10-Blätter mit
+  Bestellkarte und Sprungmarken per Skript (Lehrer: „am
+  effektivsten“). Tafelwerk Hildebrandt kommt im nächsten Chat.
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
