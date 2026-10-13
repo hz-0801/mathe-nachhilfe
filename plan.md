@@ -575,6 +575,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
   Originalen entsteht beim Bau, Setzer druckt ihn ohne Modell.
+- 13.10.2026: Häufigkeit im Stufenkopf als Urteil („fast immer“/
+  „immer“ ohne Jahre, sonst alle P10-Jahre; ersetzt immer/oft/selten
+  vom 12.10.); rechts kein „Basis“, durchgestrichenes TR nur bei
+  hilfsmittel = nein, ohne Erklärung; eine Aufgabe darf auf zwei
+  Blättern stehen, je ohne das Nebensächliche; Runde 6 Weg A,
+  Länge Weg A angenommen (Lineare 4, Flächen 3 S.) (Lehrer).
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,

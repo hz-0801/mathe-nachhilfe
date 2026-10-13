@@ -269,8 +269,12 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
 - **Marke mit B, Bedingungen rechts** (Lehrer 12.10. abends):
   Basisaufgaben tragen die Marke „’25 · B1e“; am rechten Rand der
   Aufgabe steht klein grau, unter welchen Bedingungen sie in der
-  Prüfung vorkommt: „Basis · ohne TR“, „FOR“ oder beides – aus den
-  Katalogfeldern block, hilfsmittel, stern; der Stern entfällt.
+  Prüfung vorkommt: TR-Zeichen durchgestrichen, „FOR“ oder beides –
+  aus den Katalogfeldern hilfsmittel und stern; der Stern entfällt.
+  „Basis“ steht nicht rechts, das B der Marke sagt es schon; das
+  durchgestrichene TR nur, wo das Original ohne Rechner war
+  (hilfsmittel = nein), nie aus einer Annahme über 2028; ohne
+  Erklärung (Lehrer 13.10.).
   Warum: Der Schüler sieht an der Aufgabe, was gilt; ändert sich die
   Hilfsmittelregel (2028?), ändern sich Daten, nicht die Vorlage.
   Grenze: Muster der Spalte zeigt der nächste Bau (Lehrer: „ganz
@@ -279,10 +283,16 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   immer alle“ vom Mittag): Basisaufgaben, deren Handgriff die
   Einheit ist, stehen als erste Aufgabe ihrer Stufe; die übrigen nur
   auf dem Basisblatt (04.10.). Kein Basis-Block oben.
-- **Häufigkeit im Stufenkopf** (Lehrer 12.10.): vor den Jahren ein
-  Wort – „immer“ (4–5 der letzten fünf Jahre), „oft“ (2–3), „selten“
-  (0–1); bei „selten“ bleiben alle Jahre stehen („selten · 23 | 19 ·
-  16“), bei „immer“ reichen die jungen. Fundstellentabelle unverändert.
+- **Häufigkeit im Stufenkopf** (Lehrer 13.10., ersetzt die Zählregel
+  immer/oft/selten vom 12.10.). Warum: Der Schüler soll erkennen,
+  was sehr wahrscheinlich drankommt; sonst sieht er an den Jahren
+  selbst, wann und wie oft. Beispiel: kam die Stufe seit 2014 fast
+  jedes Jahr, mit ein, zwei Lücken, steht „fast immer“ ohne Jahre
+  (jedes Jahr: „immer“); sonst nur die Jahre, kein „oft“ oder
+  „selten“. Grenze: ein Urteil über die ganze Reihe, keine Zählregel
+  (Zahlen nicht wörtlich); nur Hefte der P10, keine Gymnasialhefte.
+  Das Urteil steht je Stufe in der Gliederung, der Setzer druckt es.
+  Fundstellentabelle unverändert.
 - **Stufen wie im Buch, leere bleiben sichtbar** (Lehrer 12.10.):
   Stufenliste je Kapitel aus Lehrbuch/RLP (nicht nur aus den
   Originalen), gefüllt aus den Prüfungen; eine Stufe ohne Original
@@ -318,7 +328,8 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   jährlich neu. Form (Tabelle, Tendenz Lehrer, oder Baum) entscheidet
   der Lehrer mit dem Muster in der Hand; die Übersicht je Kapitel
   entfällt dann.
-- **Jahre im Stufenkopf** (Lehrer 12.10.): nur die Jahre, jüngstes
+- **Jahre im Stufenkopf** (Lehrer 12.10.; entfällt bei „fast immer“
+  und „immer“, 13.10.): nur die Jahre, jüngstes
   zuerst, zweistellig, alle mit Daten; die älteren als fünf Jahre
   nach einem Strich und heller: „25 · 24 · 23 · 22 | 19 · 16“. Warum:
   Der Schüler sieht, wie oft die Stufe zuletzt drankam, und dahinter,
