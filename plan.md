@@ -421,6 +421,11 @@ anweisungen/modelle.md § 4a. Die Token-Zahl der Agenten-Rückmeldung
 (0,15–0,34 Mio) misst nicht die Kosten; ältere Umrechnungen hier
 beruhen auf ihr.
 
+Messwert Runde 6 (13.10., Opus, Kritiker high, Rest medium):
+Woche 18 → 20 %, Fable 24 → 24 % (Anzeige, mit Chat). Wanduhr:
+Kritiker 18 min, Setzer 16 min (79 Schritte), Daten 75 min (82
+Schritte), Setzen im Chat 2 min. Schätzung 2–3 Wochenpunkte traf.
+
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
@@ -430,6 +435,10 @@ beruhen auf ihr.
   Bestellung; erster bestellter Kasten = Exemplar, dann Regel.
   Schreibweise nur für Schüler mit diesem Buch. Sek-II-Band erst zum
   Abitur. Kein Kasten-Vorrat je P10-Einheit (Lehrer 12.10.).
+- TR-Zeichen für die Zukunft (Lehrer 13.10.: muss geregelt werden,
+  der Schüler braucht den Kontext bei Basisaufgaben): ab 2028 hat
+  die P10 einen hilfsmittelfreien Teil (10 BE, FB 10). Vorschlag:
+  das Zeichen richtet sich nach dem Prüfungsjahr des Schülers.
 - Duden auf dem Blatt (Lehrer 13.10., gesondert besprechen): ab und
   zu die Formelsammlung Duden nutzen, sparsam, nicht bei jeder
   nötigen Formel. Berührt den Anstoß „Seite ___“ (pruefung.md
