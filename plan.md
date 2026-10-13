@@ -683,6 +683,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Abschnitte nach dem Muster „… gesucht“; Lernblätter eher ein Thema
   und Blick nach Figur → § 9 (Lehrer). Regeln mit Warum – Beispiel –
   Grenze in aufgabenbank bau/befunde-M3.md, nach pruefung.md in C.
+- 13.10.2026 (f): Erst alle Lerneinheiten, noch nicht perfekt
+  („ich will irgendwann mal alle Lerneinheiten haben, sie müssen
+  (noch) nicht perfekt sein“) – Schritt A und B in einer Runde
+  (Weg B): acht Kapitel-Agenten Opus medium, Kritiker Opus high,
+  Neusatz per Skript; neue Einheiten ohne zweiten Nachbesser-
+  Durchgang, Befunde gesammelt für C (Lehrer).
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
