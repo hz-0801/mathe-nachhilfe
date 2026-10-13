@@ -267,11 +267,13 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   (ändert den Zuschnitt vom 10.10. für Lineare, Daten,
   Wahrscheinlichkeit; Körper nicht, 3 Seiten).
 - **Marke mit B, Bedingungen rechts** (Lehrer 12.10. abends):
-  Basisaufgaben tragen die Marke „’25 · B1e“; am rechten Rand der
+  Basisaufgaben tragen die Marke wie im Heft „’25 · 1e“ (13.10.,
+  vorher „B1e“); am rechten Rand der
   Aufgabe steht klein grau, unter welchen Bedingungen sie in der
   Prüfung vorkommt: TR-Zeichen durchgestrichen, „FOR“ oder beides –
   aus den Katalogfeldern hilfsmittel und stern; der Stern entfällt.
-  „Basis“ steht nicht rechts, das B der Marke sagt es schon; das
+  rechts steht „Basis“ als lesbares Wort (13.10.: das B links ist
+  Katalogkürzel und fällt weg); das
   durchgestrichene TR nur, wo das Original ohne Rechner war
   (hilfsmittel = nein), nie aus einer Annahme über 2028; ohne
   Erklärung (Lehrer 13.10.).
