@@ -17,7 +17,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2014-OS-B1b;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2014-OS-B1d;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2014-OS-B1e;prozent:Zinsen und Zinssatz;prozent:Prozentsatz;;Hauptplatz nach Zuordnung. Zinssatz = Prozentsatz, ganze Aufgabe
-2014-OS-B1g;flaechen:Umfang gesucht;;;Hauptplatz nach typ „Term zu Figur angeben“
+2014-OS-B1g;flaechen:Formeln;;;typ „Term zu Figur angeben“: gesucht ist ein Term, keine Zahl (Y5D2, 12.10.)
 2014-OS-B1i;;;prozent:Prozent und Anteil umwandeln;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
 2014-OS-K2b;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. Winkel bei J über Winkelsumme, rechtwinkliger Weg nur Alternative
 2014-OS-K3a;prozent:Zinsen und Zinssatz;prozent:Prozentwert;;Hauptplatz nach Zuordnung. Zinsen = Prozentwert, ganze Aufgabe
@@ -184,7 +184,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2018-OS-K7a;prozent:Prozentsatz;;;Hauptplatz nach typ „Prozentsatz berechnen“
 2018-OS-K7b;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2018-OS-K7c;wahrscheinlichkeit:ohne Zurücklegen;;wahrscheinlichkeit:Ergebnisse aufzählen;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig ohne Zurücklegen“. Zwischenschritt aus typ_neben
-2019-GYM-B1e;flaechen:Fläche gesucht;;;GYM-Zwilling von 2019-OS-B1e
+2019-GYM-B1e;flaechen:Formeln;;;GYM-Zwilling von 2019-OS-B1e
 2019-GYM-B1g;wahrscheinlichkeit:Zufallsgerät entwerfen;;prozent:Grundwert;GYM-Zwilling von 2019-OS-B1g
 2019-GYM-B1h;dreiecke:Seitenverhältnis benennen;;;GYM-Zwilling von 2019-OS-B1h
 2019-GYM-K2a;;;quadratische:Wertetabelle oder Skizze | quadratische:Punkt auf der Parabel prüfen;Hauptplatz außerhalb der P10-Stufen. f(3,5) einsetzen
@@ -197,7 +197,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2019-GYM-K4c;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Restfläche berechnen“
 2019-GYM-K5a;daten:Winkel berechnen und beschriften;;;Hauptplatz nach typ „Kreisdiagramm zeichnen“
 2019-GYM-K5c;;;wahrscheinlichkeit:Pfadregel;Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben
-2019-OS-B1e;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Term zu Figur angeben“
+2019-OS-B1e;flaechen:Formeln;;;typ „Term zu Figur angeben“: gesucht ist eine Gleichung, keine Zahl (Y5D2, 12.10.)
 2019-OS-B1g;wahrscheinlichkeit:Zufallsgerät entwerfen;;prozent:Grundwert;Hauptplatz nach typ „Zufallsgerät zu Wahrscheinlichkeit entwerfen“. 4 Kugeln sind 2/3, Ganzes 4 : 2/3 = 6 (Bruch-Grundwert)
 2019-OS-B1h;dreiecke:Seitenverhältnis benennen;;;Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“
 2019-OS-B1i;daten:Minimum, Maximum, Spannweite;;;Hauptplatz nach typ „Spannweite berechnen“
@@ -407,7 +407,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2025-OS-B1f;lineare:Gerade zeichnen;;;Hauptplatz nach typ „Graph einer linearen Funktion erkennen“ (bis 12.10.: erkennen und ablesen)
 2025-OS-B1g;dreiecke:Seitenverhältnis benennen;;;Hauptplatz nach typ „Winkelfunktion Seitenverhältnis angeben“
 2025-OS-B1h;lineare:Punktprobe;;;Hauptplatz nach typ „Lösung durch Einsetzen prüfen“
-2025-OS-B1i;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Term zu Figur angeben“
+2025-OS-B1i;flaechen:Formeln;;;typ „Term zu Figur angeben“: gesucht ist eine Gleichung, keine Zahl (Y5D2, 12.10.)
 2025-OS-K2a;dreiecke:Symmetrieachsen zählen;dreiecke:Dreieck erst in Figur oder Körper finden;;Hauptplatz nach typ „Symmetrieachsen bestimmen“. Symmetrieachse nach typ Hauptplatz, Pythagoras gehört zu D3
 2025-OS-K2b;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Flächeninhalt Drachenviereck berechnen“
 2025-OS-K2c;dreiecke:rechten Winkel begründen;;dreiecke:gleichschenkliges Dreieck;Hauptplatz nach typ „Rechten Winkel begründen“. Dreieck AFD gleichschenklig-rechtwinklig, Basiswinkel 45°

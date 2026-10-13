@@ -34,8 +34,8 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 ### Kapitel Flächen
 
 #### Flächeninhalt und Umfang – 12 · 5 J · zuletzt 2026 · 23 BE
-- neu: Formeln – 2024-OS-B1c (Term zu Figur angeben), 2022-OS-B1e (Term zu Figur angeben)
-- neu: Fläche gesucht – 2025-OS-B1i (Term zu Figur angeben), 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen)
+- neu: Formeln – 2024-OS-B1c (Term zu Figur angeben), 2022-OS-B1e (Term zu Figur angeben), 2025-OS-B1i (Term zu Figur angeben)
+- neu: Fläche gesucht – 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen)
 - neu: Umfang gesucht – 2026-FOR-B1h (Umfang Rechteck berechnen), 2023-OS-K2c (Umfang Trapez berechnen)
 - neu: Formeln umstellen – 2023-OS-B1c (Rechteckseite aus Fläche berechnen)
 - neu: Anteil in Prozent – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen)
