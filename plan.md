@@ -323,7 +323,11 @@ vollständig, dann ordnen, dann bauen.
       kein Blatt), Gleichungssysteme, Wachstum, Dreiecke in Daten.]
       Ab 13.10. abends (Lehrer: „ja“ – erst ein Ergebnis, dann
       sammeln), in dieser Folge:
-      A. Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
+      A. [Lehrer 13.10. abends, Weg B: statt Karte Blatt für Blatt
+         durch die 11 gesetzten Blätter, Folge der Gliederung;
+         Zuschnitt sofort in der Gliederung, Setzer neu; anderes in
+         bau/befunde-M3.md. Die acht fehlenden nach Schritt B.]
+         (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
       B. Restliche Einheiten bauen: Gleichungssysteme, Wachstum,
