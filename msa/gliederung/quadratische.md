@@ -41,6 +41,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Wertetabelle oder Skizze
 - **Anzeigename:** Wertetabelle oder Skizze
+- **Regine:** S. 32
 - **Einstieg:** nein
 - **Kern:** nein – 3 echte: Wertetabelle zuordnen (2015, Basisteil 2026) und Parabel skizzieren (2024); Zuordnen und Skizzieren auf der Kette Normalparabel, Grundfall ist das Ausfüllen
 - **Originale:** 2026-FOR-B1e 2024-OS-K3b 2015-OS-K4b
@@ -50,6 +51,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Scheitelpunkt ablesen
 - **Anzeigename:** Scheitelpunkt angeben
+- **Regine:** S. 32
 - **Einstieg:** nein
 - **Kern:** ja – 6 echte 2017–2026, fast jedes Jahr (Niveau I), Bank-Kette Scheitelpunktform mit Grundfall; 2023-OS-K4b und 2025-OS-K5b beginnen mit dem Ablesen, suchen aber die Gleichung (Stufe Scheitelpunktform angeben, 12.10.)
 - **Originale:** 2026-FOR-K5c 2022-OS-K3b 2021-OS-B1d 2020-OS-K3a 2018-OS-K5b 2017-OS-K5c
@@ -60,6 +62,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Punkt auf der Parabel prüfen
 - **Anzeigename:** Punkt auf der Parabel prüfen
+- **Regine:** S. 32
 - **Einstieg:** nein
 - **Kern:** nein – 4 echte (2014, 2018, 2020 zweimal), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare; 2024-OS-K3c hier Nebenplatz, Hauptplatz keiner (Gemischt-Blatt, Lehrer 13.10.)
 - **Originale:** 2020-OS-K3b 2020-OS-K3c 2014-OS-K7a 2018-OS-K5a
@@ -71,6 +74,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Scheitelpunktform angeben
 - **Anzeigename:** Gleichung in Scheitelpunktform
+- **Regine:** S. 32
 - **Einstieg:** nein
 - **Schülerfrage:** Eine nach oben geöffnete Normalparabel wird verschoben. Schreib ihre Gleichung in Scheitelpunktform.
 - **Schülerfrage-Fälle:** 2 nach links und 1 nach oben → $y = (x + 2)^2 + 1$
@@ -84,6 +88,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Lage zweier Parabeln ohne Rechnung begründen
 - **Anzeigename:** Lage zweier Parabeln begründen
+- **Regine:** S. 32
 - **Einstieg:** nein
 - **Schülerfrage:** Wohin ist die Parabel geöffnet, und wo liegt ihr Scheitel? Rechne nicht.
 - **Schülerfrage-Fälle:** $y = (x + 1)^2 + 2$ → nach oben, Scheitel bei x = −1, y = 2 | $y = -(x + 1)^2 + 2$ → nach unten, Scheitel bei x = −1, y = 2
@@ -97,6 +102,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Nullstellen berechnen
 - **Anzeigename:** Nullstellen gesucht
+- **Regine:** S. 21 · 32
 - **Schülerfrage:** Welche Gleichung löst du mit der p-q-Formel? Bring sie auf die Form $x^2 + px + q = 0$. Rechne nicht weiter.
 - **Schülerfrage-Fälle:** Nullstellen von $p(x) = x^2 - 6x + 5$ → $x^2 - 6x + 5 = 0$ | Nullstellen von $y = 3x^2 + 12x - 15$ → $x^2 + 4x - 5 = 0$ (durch 3 geteilt)
 - **Schülerfrage-Form:** linie
@@ -110,6 +116,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### x zu gegebenem y
 - **Anzeigename:** x zu gegebenem y gesucht
+- **Regine:** S. 21
 - **Frage:** Ist ein y-Wert gegeben, setzt du ihn für y ein und bringst alles auf eine Seite – nicht y = 0 wie bei den Nullstellen.
 - **Kern:** nein – 1 echte (2023)
 - **Originale:** 2023-OS-K4c
@@ -120,6 +127,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Gerade und Parabel gleichsetzen
 - **Anzeigename:** Schnittpunkte gesucht
+- **Regine:** S. 21
 - **Frage:** Wo sich eine Gerade und eine Parabel schneiden, haben beide denselben y-Wert: Setz die beiden Terme gleich.
 - **Kern:** ja – 3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall
 - **Originale:** 2022-OS-K3c 2024-OS-K3d 2021-OS-K2c
@@ -130,6 +138,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 
 ### Gemischt: Gerade und Parabel
 - **Anzeigename:** Gerade und Parabel zusammen
+- **Regine:** S. 21 · 31
 - **Zuschnitt:** Quadratische Gleichung lösen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
 - **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c

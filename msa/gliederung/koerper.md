@@ -20,6 +20,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Volumen direkt
 - **Anzeigename:** Volumen gesucht
+- **Regine:** S. 26 · 27
 - **Frage:** Such in deiner Formelsammlung das Volumen des Zylinders: Seite ___
 - **Schülerfrage:** Wie viel passt hinein? Schreibe nur die Formel auf, rechne nicht.
 - **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
@@ -34,6 +35,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Mantelfläche mit Kosten
 - **Anzeigename:** Oberfläche gesucht
+- **Regine:** S. 26 · 27
 - **Schülerfrage:** Du schneidest den Mantel eines Zylinders gerade auf und rollst ihn flach aus. Welche Figur entsteht, und wie lang sind ihre Seiten?
 - **Schülerfrage-Fälle:** Zylinder mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
 - **Schülerfrage-Form:** linie
@@ -47,6 +49,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### rückwärts: Radius oder Höhe aus Volumen
 - **Anzeigename:** Formeln umstellen
+- **Regine:** S. 26 · 27
 - **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Säule mit quadratischer Grundfläche: V = a² · h, gesucht ist a → a = √(V : h)
 - **Schülerfrage-Form:** linie
@@ -59,6 +62,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### vergleichen und urteilen
 - **Anzeigename:** vergleichen und urteilen
+- **Regine:** S. 26 · 27
 - **Schülerfrage:** Wie oft so groß wird das Volumen? Schätze, ohne zu rechnen.
 - **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Zylinder statt Kegel, Radius und Höhe gleich = 3
 - **Schülerfrage-Form:** linie:-mal so groß

@@ -39,6 +39,7 @@ Häufigkeit (pruefung.md § 5, Lehrer 13.10.; P10-Hefte 2014–2026 ohne GYM): G
 
 ### lösen
 - **Anzeigename:** x und y gesucht
+- **Regine:** S. 20 · 21
 - **Schülerfrage:** Beim Einsetzen stellst du eine Gleichung um und setzt sie in die andere ein. Fang so an:
 - **Schülerfrage-Fälle:** Stelle x + y = 10 nach y um → y = 10 − x | Setze y = 10 − x in 3x + 2y = 24 ein → 3x + 2 · (10 − x) = 24
 - **Schülerfrage-Form:** linie

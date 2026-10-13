@@ -41,6 +41,18 @@ die Gliederung verweist („→ katalog/…“), sie kopiert nicht.
     - **Zuschnitt:** <Abschnitt>       Abschnitt im Zuschnitt; ohne Unterpunkte eine Zeile mit dem
       - <Zeile> [ids] neben [ids]      Namen der Stufe und den Originalen ab 2022 ohne EBR; mit
                                        Unterpunkten genau diese Zeilen (Hauptplatz, Nebenplatz)
+    - **Regine:** S. 24 · 26        Seite(n) der Formel der Stufe im Tafelwerk „Formeln Tabellen
+                                       Wissenswertes Sek I“ (Duden Paetec, das die meisten Schüler
+                                       haben; Abschrift privat, aufgabenbank-privat formelsammlung/
+                                       regine-sek1.md); mehrere mit „ · “, nur Seitenzahlen, kein
+                                       Wortlaut; fehlt bei Stufen ohne Formel (13.10.2026). Leser:
+                                       Stufe regine [int]; ob ein Setzer es druckt, ist offen
+    - **Schülerfrage:** …              Heranführung als erste Aufgabe der Stufe (Felder -Fälle, -Form,
+      **Frage:** …                     -Weg, -Skizze; Frage = kurzer Anstoß kursiv unter dem Kopf);
+                                       Leser im Setzer aufgabenbank werkzeuge/pruefheft.py
+                                       (p_gliederung). Bestand und Herkunft: aufgabenbank
+                                       bau/heranfuehrungen-p10.md; je Abschnitt höchstens ein
+                                       Erkennen-Schritt und ein Stups in die Formelsammlung
     weitere Felder frei (Katalogstelle, didaktische Notizen); Text zwischen den
     Feldern ignoriert der Leser.
 
@@ -60,7 +72,7 @@ die Gliederung verweist („→ katalog/…“), sie kopiert nicht.
     - **Leiter:** → katalog/…          Verweis ohne Auswahl, nur für Menschen
 
 Leser: `gliederung.lies(pfad)` liefert Kopf, Stufen (name, kern, kern_grund, originale,
-bank, verwechselbar, abschnitt, zeilen, felder), Plätze und die Fokus-Blöcke roh;
+regine, bank, verwechselbar, abschnitt, zeilen, felder), Plätze und die Fokus-Blöcke roh;
 `gliederung.fokus_text(G, name)` gibt einen Fokus-Block als Steckbrief-Text zurück.
 Die Dateien entstanden am 08.10.2026 durch `werkzeuge/gliederung-extrakt.py` aus
 `zuordnung.py` (Stand a1c9fd3), den Zuschnitt-CSVs, `handgriffe-p10.csv` und den

@@ -52,6 +52,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gerade zeichnen
 - **Anzeigename:** Gerade zeichnen
+- **Regine:** S. 31
 - **Frage:** Wo steht die Gleichung der linearen Funktion mit m und n? Formelsammlung, Seite ___
 - **Heranführung:** Lehrer 13.10. (TAL3 Nr. 1 „besser mit Formelsammlung: allgemeine Gleichung, m und n“); der Stups zur Steigungsformel bei „Gleichung aus zwei Punkten“ entfällt (ein Formelsammlungs-Stups je Blatt).
 - **Schülerfrage:** Welche Funktionen sind linear? Kreuze an. Wähl eine lineare aus und gib ihr m und n an: $m = \underline{\hspace{10mm}}$, $n = \underline{\hspace{10mm}}$.
@@ -66,6 +67,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gleichung aus Graph
 - **Anzeigename:** Gleichung aus Graph
+- **Regine:** S. 31
 - **Kern:** ja – erster Schritt: n am Schnitt mit der y-Achse ablesen, dann m mit einem Steigungsdreieck (Graph nach Steigung auswählen, Gleichung zum Graphen zuordnen 2019; Niveau I–II); Bank-Kette Ablesen mit Grundfall. Kein Original 2022–2026: die Stufe entfällt auf dem Blatt, die Originale stehen im Mehr-Block (Lehrer 13.10.: geteilt, weil der erste Schritt ein anderer ist als bei zwei Punkten). 2024-OS-B1i bleibt bei „Gerade zeichnen“: dort wird n aus der Gleichung gelesen und eingezeichnet, gesucht ist ein Punkt im Bild, nicht die Gleichung
 - **Originale:** 2019-OS-K2b 2019-OS-K2c
 - **Bank:** lineare-funktionen-e2-k5-s1(i) lineare-funktionen-e2-k5-s2(i) lineare-funktionen-e2-k5-s3(i) lineare-funktionen-e2-k5-s4(i) lineare-funktionen-e2-k5-s5(i) lineare-funktionen-e2-k5-s6(i)
@@ -74,6 +76,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gleichung aus zwei Punkten
 - **Anzeigename:** Gleichung aus zwei Punkten
+- **Regine:** S. 31
 - **Kern:** ja – erster Schritt: m = Δy : Δx aus den Koordinaten, dann n durch Einsetzen eines Punktes (2015, 2017, 2025; Niveau I–II); Bank-Ketten Gerade durch zwei Punkte zeichnen und Gleichung bestimmen mit Grundfall. 2025-OS-K5a zeichnet erst und sucht zuletzt die Gleichung
 - **Originale:** 2025-OS-K5a 2017-OS-K5a 2015-OS-K4d
 - **Bank:** lineare-funktionen-e4-k2-s1(i) lineare-funktionen-e4-k1-s3(i) lineare-funktionen-e4-k1-s4(i) lineare-funktionen-e4-k1-s5(i) lineare-funktionen-e4-k1-s6[v1,v2,v5,v6](i) lineare-funktionen-e4-k1-s6[v3,v4] lineare-funktionen-e4-k4-s4
@@ -82,6 +85,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Nullstelle
 - **Anzeigename:** Nullstelle gesucht
+- **Regine:** S. 31
 - **Kern:** nein – 2 echte (2019 ablesen, 2022 nach dem Zeichnen angeben), Niveau I; Bank Funktionswert null
 - **Originale:** 2022-OS-K3a 2019-OS-K2a
 - **Bank:** lineare-funktionen-e3-k2-s6(i) lineare-funktionen-e3-k5-s4(i)
@@ -90,6 +94,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Punktprobe
 - **Anzeigename:** Punkt auf der Geraden prüfen
+- **Regine:** S. 31
 - **Kern:** ja – einsetzen und vergleichen an einer Geraden (2017, 2023, 2026; Befund Funktionen 10.10., Lehrer 10.10.: Einsetzen ist ein Handgriff); Bank-Kette Funktionswert mit Grundfall. Die Punktprobe an der Parabel (2024-OS-K3c) und die quadratische Gleichung durch Einsetzen (2025-OS-B1h) stehen nicht auf dem Geraden-Blatt (Lehrer 13.10., „Zweitthema ausblenden“): der Schüler soll hier die lineare Punktprobe üben, nicht quadrieren; beide ungekürzt fürs Gemischt-Blatt Gerade und Parabel (msa/mehr-p10.csv, Einheit „Gemischt: Gerade und Parabel“), hier nur „ganz auch“
 - **Originale:** 2023-OS-B1i 2026-FOR-K5b 2017-OS-K5b
 - **Bank:** lineare-funktionen-e3-k2-s5(i) lineare-funktionen-e3-k2-s7[2023-OS-B1i,2026-FOR-K5b,2017-OS-K5b,2019-OS-K2a,2021-OS-K6d,2022-OS-K3a] quadratische-funktionen-e1-k1-s4 quadratische-funktionen-e3-k1-s2 quadratische-funktionen-e4-k1-s14 quadratische-gleichungen-e1-k2-s12(i) quadratische-gleichungen-e2-k1-s5(i) quadratische-gleichungen-e3-k3-s13(i)
@@ -98,6 +103,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gleichung aus Text
 - **Anzeigename:** Gleichung aus Text
+- **Regine:** S. 31
 - **Schülerfrage:** Welche Zahl ist m, welche n? Rechne nicht.
 - **Heranführung:** TAL3 Nr. 10, Lehrer 13.10.: „Gedanke gut, Fassung zu lang“ – gekürzt.
 - **Schülerfrage-Fälle:** Handytarif: 8 € im Monat und 0,09 € je Minute = 8 ist n, 0,09 ist m | Kerze: 25 cm hoch, brennt je Stunde 2 cm ab = 25 ist n, −2 ist m
@@ -113,6 +119,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gemischt: Gerade und Parabel
 - **Anzeigename:** Gerade und Parabel zusammen
+- **Regine:** S. 21 · 31
 - **Zuschnitt:** Lineare Funktionen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
 - **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c

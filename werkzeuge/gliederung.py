@@ -17,6 +17,8 @@ Ein Kapitel G ist ein dict:
 Stufe: name, kern ('ja'|'nein'), kern_grund, originale [ids] (explizit oder aus den Zuschnitt-Zeilen),
     bank [(eintrag, sprosse, filter|None, 'inner'|'')]  – das Muster der Zuordnung,
     verwechselbar [(kapitel, stufe)], abschnitt (Zuschnitt), zeilen [(zeile, [ids], [neben])],
+    regine [Seiten als int]  – Seiten der Formel im Tafelwerk „Formeln Tabellen Wissenswertes Sek I“
+                               (Feld „- **Regine:** S. 24 · 26“, 13.10.2026; leer ohne Feld),
     felder {Schlüssel: Wert}  – alle Felder roh
 Platz: id, hauptplatz [kap:stufe], ganz_auch [..], zwischenschritt [..], begruendung
 """
@@ -148,7 +150,8 @@ def _stufe(name, f, G):
     if not orig and zeilen:
         for _, ids, _ in zeilen:
             orig += [i for i in ids if i not in orig]
-    return dict(name=name, kern=kern.strip(), kern_grund=grund.strip(), originale=orig,
+    regine = [int(x) for x in re.findall(r'\d+', f.get('Regine') or '')]
+    return dict(name=name, kern=kern.strip(), kern_grund=grund.strip(), originale=orig, regine=regine,
                 bank=muster(f.get('Bank', '')), verwechselbar=verw,
                 abschnitt=(f.get('Zuschnitt') or '').strip(), zeilen=zeilen, felder=f)
 

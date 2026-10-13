@@ -30,6 +30,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 
 ### Tabelle ergänzen
 - **Anzeigename:** Tabelle ergänzen
+- **Regine:** S. 19 · 36
 - **Schülerfrage:** Ein Betrag wächst jedes Jahr um denselben Prozentsatz. Mit welcher Zahl multiplizierst du ihn, um den Betrag im nächsten Jahr zu bekommen?
 - **Schülerfrage-Fälle:** Wachstum um 5 % = 1,05 | Wachstum um 2,3 % = 1,023
 - **Schülerfrage-Form:** linie
@@ -42,6 +43,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 
 ### Punkte darstellen
 - **Anzeigename:** Graph zeichnen
+- **Regine:** S. 36
 - **Kern:** ja – 4 echte (2016, 2017, 2021, 2025), Bank-Kette Wertepaare darstellen mit Grundfall
 - **Originale:** 2025-OS-K7a 2017-OS-K7b 2016-OS-K4b 2021-OS-K6b
 - **Bank:** potenz-exponentialfunktionen-e1-k3-s1 potenz-exponentialfunktionen-e1-k3-s2 potenz-exponentialfunktionen-e1-k3-s3 potenz-exponentialfunktionen-e1-k3-s4 potenz-exponentialfunktionen-e1-k3-s5 potenz-exponentialfunktionen-e1-k4-s3
@@ -49,6 +51,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 
 ### Faktor bestimmen, Gleichung aufstellen
 - **Anzeigename:** Faktor und Gleichung gesucht
+- **Regine:** S. 19 · 36
 - **Schülerfrage:** Eine Größe wächst in einem Jahr von 200 auf 210. Mit welcher Zahl wurde sie multipliziert, und um wie viel Prozent ist sie gewachsen?
 - **Schülerfrage-Fälle:** von 200 auf 210 → 210 : 200 = 1,05; 5 %
 - **Schülerfrage-Form:** antwort:Faktor|;Wachstum|%
@@ -61,6 +64,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 
 ### Graph zuordnen und begründen
 - **Anzeigename:** Graph zuordnen
+- **Regine:** S. 36
 - **Kern:** nein – 2 echte (2019, 2026), Niveau II/III
 - **Originale:** 2026-FOR-K7b 2019-OS-K7c
 - **Bank:** potenz-exponentialfunktionen-e1-k2-s3 potenz-exponentialfunktionen-e1-k2-s4 potenz-exponentialfunktionen-e1-k2-s5 potenz-exponentialfunktionen-e1-k2-s6 potenz-exponentialfunktionen-e1-k2-s7

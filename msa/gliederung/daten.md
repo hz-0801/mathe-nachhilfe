@@ -39,6 +39,7 @@ einer Stufe.
 
 ### Minimum, Maximum, Spannweite
 - **Anzeigename:** Spannweite gesucht
+- **Regine:** S. 42
 - **Kern:** ja – 8 echte 2014–2026 (2022-OS-K4a seit 13.10. unter Mittelwert), fast jedes Jahr Einstieg der Datenaufgabe (Niveau I), Bank-Kette Kenngrößen mit Grundfall
 - **Originale:** 2026-FOR-K3a 2024-OS-K2a 2023-OS-K6c 2021-OS-K5a 2020-OS-K2d 2019-OS-B1i 2014-OS-K4a 2014-OS-K4b
 - **Bank:** daten-e4-k1-s1 daten-e4-k1-s2 daten-e4-k1-s9 daten-e4-k1-s8
@@ -49,6 +50,7 @@ einer Stufe.
 
 ### Median
 - **Anzeigename:** Median gesucht
+- **Regine:** S. 42
 - **Schülerfrage:** Welcher Wert steht in der Mitte? Ordne die Werte zuerst der Größe nach.
 - **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 = 5 | 8; 2; 6; 4 = 5
 - **Schülerfrage-Form:** linie
@@ -62,6 +64,7 @@ einer Stufe.
 
 ### Modalwert
 - **Anzeigename:** Modalwert gesucht
+- **Regine:** S. 42
 - **Kern:** nein – kein Original 2014–2026, nur als Teilschritt (2025-OS-K6a); Stufe aus dem Zuschnitt (Lehrer 10.10.), damit die Kette Kenngrößen vollständig ist
 - **Originale:**
 - **Bank:** –
@@ -69,6 +72,7 @@ einer Stufe.
 
 ### Mittelwert
 - **Anzeigename:** Mittelwert gesucht
+- **Regine:** S. 42
 - **Kern:** ja – 8 echte 2015–2026 (Niveau I/II; mit 2022-OS-K4a), Bank-Kette Kenngrößen
 - **Originale:** 2026-FOR-K3b 2024-OS-K2b 2022-OS-K4a 2021-OS-B1f 2017-OS-B1h 2016-OS-B1a 2020-OS-K2c 2015-OS-K7a
 - **Bank:** daten-e4-k1-s6 daten-e4-k1-s7 daten-e4-k1-s10 daten-e4-k1-s11 daten-e4-k1-s12 daten-e4-k4-s4 daten-e6-k2-s3
@@ -79,6 +83,7 @@ einer Stufe.
 
 ### rückwärts: fehlender Wert
 - **Anzeigename:** Fehlender Wert gesucht
+- **Regine:** S. 42
 - **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Durchschnitt zweier Zahlen: m = (a + x) : 2, gesucht ist x → x = 2 · m − a
 - **Schülerfrage-Form:** linie
@@ -91,6 +96,7 @@ einer Stufe.
 
 ### Aussagen prüfen, Auswirkung erklären
 - **Anzeigename:** Aussagen zu Kenngrößen prüfen
+- **Regine:** S. 42
 - **Kern:** nein – 2 echte, nur 2025 (Niveau II/III)
 - **Originale:** 2025-OS-K6a 2025-OS-K6c
 - **Bank:** daten-e4-k1-s14 daten-e4-k1-s15 daten-e4-k1-s16 daten-e4-k3-s1 daten-e4-k4-s2
@@ -99,6 +105,7 @@ einer Stufe.
 
 ### Winkel berechnen und beschriften
 - **Anzeigename:** Winkel gesucht
+- **Regine:** S. 43
 - **Schülerfrage:** Ein Sektor im Kreisdiagramm steht für einen Anteil. Wie viel Grad hat er? Der ganze Kreis hat 360°.
 - **Schülerfrage-Fälle:** 10 % → 36 | 30 von 120 Befragten → 90
 - **Schülerfrage-Form:** linie:°
@@ -111,6 +118,7 @@ einer Stufe.
 
 ### aus Prozent darstellen
 - **Anzeigename:** Kreisdiagramm zeichnen
+- **Regine:** S. 43
 - **Kern:** nein – 2 echte (2018, 2025)
 - **Originale:** 2025-OS-K6b 2018-OS-K3c
 - **Bank:** daten-e3-k1-s2 daten-e3-k1-s3 daten-e3-k3-s3 daten-e3-k1-s12[2025-OS-K6b]

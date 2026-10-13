@@ -29,6 +29,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Gleichung aufstellen
 - **Anzeigename:** Gleichung aufstellen
+- **Regine:** S. 24
 - **Schülerfrage:** Markiere die Hypotenuse. Schreib dann die Gleichung des Satzes des Pythagoras auf.
 - **Schülerfrage-Fälle:** Dreieck mit den Seiten p, q und r → r² = p² + q²
 - **Schülerfrage-Form:** linie
@@ -43,6 +44,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Hypotenuse gesucht
 - **Anzeigename:** Hypotenuse gesucht
+- **Regine:** S. 24
 - **Schülerfrage:** Gesucht ist die Seite mit dem Fragezeichen. Kreuze an, wo die Hypotenuse gesucht ist.
 - **Schülerfrage-Fälle:** Dreieck a → ja | Dreieck b → nein | Dreieck c → ja
 - **Schülerfrage-Form:** kreuz:Hypotenuse
@@ -58,6 +60,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Kathete gesucht
 - **Anzeigename:** Kathete gesucht
+- **Regine:** S. 24
 - **Schülerfrage:** Kreuze an, mit welcher Gleichung du die Länge der Seite k berechnest.
 - **Schülerfrage-Fälle:** $k = \sqrt{m^2 + g^2}$ → nein | $k = \sqrt{m^2 - g^2}$ → ja | $k = \sqrt{g^2 - m^2}$ → nein
 - **Schülerfrage-Form:** kreuz:
@@ -74,6 +77,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Dreieck erst in Figur oder Körper finden
 - **Anzeigename:** in Figuren versteckt
+- **Regine:** S. 24
 - **Schülerfrage:** Welche Strecken bilden das rechtwinklige Dreieck? Nenne die beiden Katheten und die Hypotenuse.
 - **Schülerfrage-Fälle:** Kegel mit Radius r, Höhe h, Mantellinie s = Katheten r und h, Hypotenuse s | Zylinder mit Radius r, Höhe h; Stab vom Rand des Bodens schräg zum gegenüberliegenden oberen Rand = Katheten 2 · r und h, Hypotenuse der Stab
 - **Schülerfrage-Form:** linie
@@ -87,6 +91,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Seitenverhältnis benennen
 - **Anzeigename:** Gleichung aufstellen
+- **Regine:** S. 34
 - **Schülerfrage:** Benenne die Seiten des Dreiecks aus Sicht des Winkels α.
 - **Schülerfrage-Fälle:** Dreieck ABC mit dem rechten Winkel bei C = Gegenkathete a, Ankathete b, Hypotenuse c
 - **Schülerfrage-Form:** antwort:Gegenkathete|;Ankathete|;Hypotenuse|
@@ -100,6 +105,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Winkel berechnen
 - **Anzeigename:** Winkel gesucht
+- **Regine:** S. 34
 - **Schülerfrage:** Welche zwei Seiten kennst du aus Sicht des Winkels am Boden? Schreib sin oder cos dazu; rechne nicht.
 - **Schülerfrage-Fälle:** Leiter 5 m lang, sie reicht 4,8 m hoch an der Wand = Gegenkathete und Hypotenuse: sin | Leiter 5 m lang, ihr Fuß steht 1,4 m vor der Wand = Ankathete und Hypotenuse: cos
 - **Schülerfrage-Form:** linie
@@ -114,6 +120,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Seite berechnen
 - **Anzeigename:** Seite gesucht
+- **Regine:** S. 34
 - **Schülerfrage:** Stelle nach der gesuchten Seite um.
 - **Schülerfrage-Fälle:** sin α = a : c, gesucht ist a → a = c · sin α | sin α = a : c, gesucht ist c → c = a : sin α
 - **Schülerfrage-Form:** linie
@@ -128,6 +135,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### erst entscheiden, dann rechnen
 - **Anzeigename:** Pythagoras oder sin, cos, tan?
+- **Regine:** S. 24 · 34
 - **Schülerfrage:** Womit rechnest du – Pythagoras oder sin, cos, tan? Rechne nicht.
 - **Schülerfrage-Fälle:** Du kennst zwei Seiten; gesucht ist die dritte Seite = Pythagoras | Du kennst zwei Seiten; gesucht ist ein Winkel = sin, cos, tan | Du kennst eine Seite und einen Winkel; gesucht ist eine Seite = sin, cos, tan
 - **Schülerfrage-Form:** linie
@@ -140,6 +148,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Seite berechnen (Sinussatz)
 - **Anzeigename:** Seite gesucht
+- **Regine:** S. 36
 - **Schülerfrage:** Im Sinussatz steht jede Seite mit dem Winkel, der ihr gegenüberliegt. Im Dreieck ABC kennst du die Seite c und die Winkel α und β; gesucht ist die Seite a.
 - **Schülerfrage-Fälle:** Welchen Winkel rechnest du zuerst aus? → γ = 180° − α − β | Welche Gleichung stellst du dann auf? → a : sin α = c : sin γ
 - **Schülerfrage-Form:** linie
@@ -167,6 +176,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Winkelsumme
 - **Anzeigename:** Winkel gesucht
+- **Regine:** S. 23
 - **Schülerfrage:** Im Viereck sind die Innenwinkel zusammen 360°. Wie viel Grad sind es im Dreieck?
 - **Schülerfrage-Fälle:** Dreieck = 180
 - **Schülerfrage-Form:** linie:°

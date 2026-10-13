@@ -46,6 +46,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Formeln
 - **Anzeigename:** Formeln
+- **Regine:** S. 24 · 25 · 26
 - **Frage:** Schlag in deiner Formelsammlung Flächen und Umfänge auf: Seite ___
 - **Heranführung:** Formelsammlungs-Frage vor der ersten Stufe „Formeln“ (Lehrer 13.10., Y5D: Formelsammlung bis 2027 erlaubt; ab 2028 vor „Fläche gesucht“ – Ort nach Prüfungsjahr, Setzer).
 - **Kern:** nein – 5 echte ohne Zahlen (2014, 2019, 2022, 2024, 2025, Basisteil, Niveau I): Formel oder Term einer Grundfigur oder einer zusammengesetzten Figur angeben oder ankreuzen
@@ -55,6 +56,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Fläche gesucht
 - **Anzeigename:** Fläche gesucht
+- **Regine:** S. 24 · 25 · 26
 - **Kern:** ja – 11 echte 2015–2025 (Niveau I–III): Fläche einer Grundfigur oder einer zusammengesetzten Figur (2017, 2018, 2022); Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis, Zusammengesetzte Figuren
 - **Originale:** 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b 2016-OS-K3b 2022-OS-K5e 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b 2019-OS-K4c 2015-OS-K6c 2015-OS-K5d
 - **Bank:** flaechen-e1-k2-s1(i) flaechen-e1-k2-s2(i) flaechen-e1-k2-s3(i) flaechen-e2-k1-s1(i) flaechen-e2-k1-s2(i) flaechen-e2-k1-s3(i) flaechen-e3-k1-s1(i) flaechen-e3-k1-s2(i) flaechen-e3-k1-s3(i) flaechen-e3-k1-s4(i) flaechen-e4-k1-s1(i) flaechen-e4-k1-s2(i) flaechen-e4-k1-s4(i) flaechen-e4-k1-s5(i) kreis-e2-k1-s1(i) kreis-e2-k1-s2(i) kreis-e2-k1-s3(i) kreis-e2-k1-s8 kreis-e2-k2-s1(i) flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7 flaechen-e5-k3-s1
@@ -62,6 +64,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Umfang gesucht
 - **Anzeigename:** Umfang gesucht
+- **Regine:** S. 24 · 25 · 26
 - **Kern:** ja – 2 echte (2023, 2026, Niveau I–II): Umfang aus den Seiten, alle Seiten gegeben oder am Bild abzulesen (Lehrer 13.10.: muss eine Seite erst mit sin, cos, tan oder Pythagoras berechnet werden, ist das Dreiecke-Handwerk – auf dem Einheitsblatt ist sie gegeben, Trapez 2023 mit Schenkel 8,50 m; ungekürzt Gemischt-Blatt Geometrie); Bank-Ketten Rechteck, Umfang Dreieck und Parallelogramm, Kreisumfang
 - **Originale:** 2026-FOR-B1h 2023-OS-K2c
 - **Bank:** flaechen-e1-k2-s4(i) flaechen-e2-k2-s1(i) flaechen-e3-k3-s1(i) flaechen-e4-k2-s1(i) kreis-e1-k2-s1(i) kreis-e1-k2-s2(i) kreis-e1-k2-s3(i)
@@ -69,6 +72,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Formeln umstellen
 - **Anzeigename:** Formeln umstellen
+- **Regine:** S. 24 · 25 · 26
 - **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Kreis: u = π · d, gesucht ist d → d = u : π
 - **Schülerfrage-Form:** linie
@@ -80,6 +84,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Anteil in Prozent
 - **Anzeigename:** Anteil in Prozent
+- **Regine:** S. 26
 - **Schülerfrage:** Teil und Ganzes am Kreis: Ein Viertel des Kreises ist grau. Wie groß ist sein Winkel, und wie viel Prozent sind grau?
 - **Schülerfrage-Fälle:** Winkel und Prozent → 90° von 360° = 25 %
 - **Schülerfrage-Form:** antwort:Winkel|°;Prozent|%

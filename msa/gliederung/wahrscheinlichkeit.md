@@ -43,6 +43,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 
 ### Wahrscheinlichkeit angeben
 - **Anzeigename:** Wahrscheinlichkeit angeben
+- **Regine:** S. 40
 - **Kern:** ja – 12 echte 2014–2026, fast jedes Jahr Basis und Kontext (Niveau I), Bank-Kette Einstufig mit Grundfall
 - **Originale:** 2024-OS-K5a 2026-FOR-K6a 2019-OS-K6a 2018-OS-K7b 2017-OS-K6a 2016-OS-K5c 2016-OS-K5d 2014-OS-K6a 2016-OS-B1f 2015-OS-B1a 2014-OS-B1b 2014-OS-B1d
 - **Bank:** wahrscheinlichkeit-e2-k3-s1 wahrscheinlichkeit-e2-k3-s2 wahrscheinlichkeit-e2-k3-s3 wahrscheinlichkeit-e2-k3-s4 wahrscheinlichkeit-e2-k3-s5 wahrscheinlichkeit-e2-k3-s6 wahrscheinlichkeit-e2-k3-s10 wahrscheinlichkeit-e2-k3-s12 wahrscheinlichkeit-e2-k3-s13 wahrscheinlichkeit-e2-k4-s1 wahrscheinlichkeit-e2-k6-s3
@@ -51,6 +52,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 
 ### Baum ergänzen
 - **Anzeigename:** Baum ergänzen
+- **Regine:** S. 41
 - **Schülerfrage:** Ein Los gewinnt mit der Wahrscheinlichkeit $\frac{3}{8}$. Mit welcher Wahrscheinlichkeit ist es eine Niete? Rechne im Kopf.
 - **Schülerfrage-Fälle:** P(Niete) → $\frac{5}{8}$
 - **Schülerfrage-Form:** linie
@@ -63,6 +65,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 
 ### Pfadregel
 - **Anzeigename:** Pfadregeln anwenden
+- **Regine:** S. 41
 - **Schülerfrage:** Ein Glücksrad mit roten und blauen Feldern wird zweimal gedreht. Rechnest du mit den Wahrscheinlichkeiten mal oder plus? Rechne nicht.
 - **Schülerfrage-Fälle:** erst rot, dann blau → mal | einmal rot und einmal blau, egal in welcher Folge → je Pfad mal, dann plus
 - **Schülerfrage-Form:** linie
@@ -76,6 +79,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 
 ### ohne Zurücklegen
 - **Anzeigename:** ohne Zurücklegen rechnen
+- **Regine:** S. 38 · 41
 - **Schülerfrage:** In einer Dose liegen 5 Kugeln, 2 davon rot. Du ziehst eine blaue und legst sie nicht zurück. Was liegt jetzt noch in der Dose?
 - **Schülerfrage-Fälle:** nach dem Ziehen → 4 Kugeln, davon 2 rote
 - **Schülerfrage-Form:** antwort:Kugeln|;davon rote|
@@ -89,6 +93,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 
 ### Zufallsgerät entwerfen
 - **Anzeigename:** Zufallsgerät entwerfen
+- **Regine:** S. 40 · 41
 - **Schülerfrage:** Zwei Glücksräder mit je 4 gleich großen Feldern werden gedreht. Die Wahrscheinlichkeit, dass beide auf Rot stehen bleiben, soll $\frac{3}{16}$ sein. Wie viele rote Felder bekommt jedes Rad?
 - **Schülerfrage-Fälle:** rote Felder → 3 und 1
 - **Schülerfrage-Form:** antwort:erstes Rad|;zweites Rad|

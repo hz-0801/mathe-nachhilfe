@@ -36,6 +36,7 @@ druckt die Jahre.
 
 ### Prozent und Anteil umwandeln
 - **Anzeigename:** Prozent und Anteil umwandeln
+- **Regine:** S. 18
 - **Durchsicht 13.10.:** Name sagt, was der Schüler tut; keine Heranführung nötig.
 - **Kern:** ja – Basisteil 2020 und 2022 (Niveau I), Bank-Einheit 1 mit Grundfall, Grundlage aller Prozentaufgaben
 - **Originale:** 2022-OS-B1f 2020-OS-B1a
@@ -44,6 +45,7 @@ druckt die Jahre.
 
 ### Prozentwert
 - **Anzeigename:** Prozentwert gesucht
+- **Regine:** S. 18
 - **Durchsicht 13.10.:** Name schon in der Reihe „… gesucht“; ein leichtes Basis-Original, keine Heranführung nötig.
 - **Kern:** ja – 6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall
 - **Originale:** 2026-FOR-B1a 2014-OS-B1a 2017-OS-B1b 2021-OS-B1c 2019-OS-K5a 2015-OS-K2a
@@ -53,6 +55,7 @@ druckt die Jahre.
 
 ### Wert nach Erhöhung
 - **Anzeigename:** Neuer Wert gesucht
+- **Regine:** S. 18
 - **Kern:** ja – gesucht ist ein Betrag: erst der Prozentwert (Erhöhung oder Rabatt in Euro), dann dazu oder ab (Basisteil 2024, 2015; Niveau I/II); Buchstufe 5, Bank-Kette Veränderung mit Wachstumsfaktor
 - **Originale:** 2024-OS-B1e 2015-OS-K2b
 - **Bank:** prozentrechnung-e5-k3-s4 prozentrechnung-e5-k2-s9[2024-OS-B1e,2015-OS-K2b]
@@ -62,6 +65,7 @@ druckt die Jahre.
 
 ### Prozentsatz
 - **Anzeigename:** Anteil in Prozent gesucht
+- **Regine:** S. 18
 - **Schülerfrage:** In einer Klasse sind 20 Kinder, 5 davon kommen mit dem Rad. Was ist der Teil, was das Ganze? Wie viel Prozent kommen mit dem Rad?
 - **Schülerfrage-Fälle:** Rad-Kinder in der Klasse → Teil 5, Ganzes 20, 25 %
 - **Schülerfrage-Form:** antwort:Teil|;Ganzes|;Anteil|%
@@ -76,6 +80,7 @@ druckt die Jahre.
 
 ### Grundwert
 - **Anzeigename:** Grundwert gesucht
+- **Regine:** S. 18
 - **Schülerfrage:** Der Prozentwert W ist der Teil, der Grundwert G das Ganze, p der Prozentsatz als Dezimalzahl. Stelle die Formel nach G um.
 - **Schülerfrage-Fälle:** W = G · p, gesucht ist G → G = W : p
 - **Schülerfrage-Form:** linie
@@ -90,6 +95,7 @@ druckt die Jahre.
 
 ### Erhöhung und Veränderung in Prozent
 - **Anzeigename:** Veränderung in Prozent gesucht
+- **Regine:** S. 18
 - **Schülerfrage:** Ein Eis kostet erst 2 €, dann 2,50 €. Um wie viel Euro steigt der Preis? Welcher Preis ist das Ganze? Um wie viel Prozent steigt er?
 - **Schülerfrage-Fälle:** Eis → 0,50 €, alter Preis 2 €, 25 %
 - **Schülerfrage-Form:** antwort:Unterschied|€;Ganzes|€;Steigerung|%
@@ -104,6 +110,7 @@ druckt die Jahre.
 
 ### Aussagen prüfen
 - **Anzeigename:** Aussagen prüfen
+- **Regine:** S. 18
 - **Zuschnitt:** Prozent
 - **Kern:** nein – 4 echte, aber Niveau II und nur als Prüfungshöhe auf Prozentsatz gesetzt (keine eigene Kette mit Grundfall)
 - **Originale:** 2023-OS-K6b 2025-OS-K4b 2017-OS-K2b 2019-OS-K5b
@@ -112,6 +119,7 @@ druckt die Jahre.
 
 ### Prozent aus einer berechneten Fläche
 - **Anzeigename:** Flächenanteil in Prozent gesucht
+- **Regine:** S. 18 · 24
 - **Zuschnitt:** Prozent
 - **Kern:** nein – 1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie
 - **Originale:** 2023-OS-K5c
