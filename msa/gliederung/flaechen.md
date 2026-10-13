@@ -46,6 +46,8 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Formeln
 - **Anzeigename:** Formeln
+- **Frage:** Schlag in deiner Formelsammlung Flächen und Umfänge auf: Seite ___
+- **Heranführung:** Formelsammlungs-Frage vor der ersten Stufe „Formeln“ (Lehrer 13.10., Y5D: Formelsammlung bis 2027 erlaubt; ab 2028 vor „Fläche gesucht“ – Ort nach Prüfungsjahr, Setzer).
 - **Kern:** nein – 5 echte ohne Zahlen (2014, 2019, 2022, 2024, 2025, Basisteil, Niveau I): Formel oder Term einer Grundfigur oder einer zusammengesetzten Figur angeben oder ankreuzen
 - **Originale:** 2024-OS-B1c 2022-OS-B1e 2025-OS-B1i 2019-OS-B1e 2014-OS-B1g
 - **Bank:** flaechen-e3-k1-s6(i) flaechen-e1-k2-s8(i) flaechen-e1-k5-s4(i) flaechen-e3-k4-s4(i)
@@ -53,7 +55,6 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Fläche gesucht
 - **Anzeigename:** Fläche gesucht
-- **Frage:** Schlag in deiner Formelsammlung Flächen und Umfänge auf: Seite ___
 - **Kern:** ja – 11 echte 2015–2025 (Niveau I–III): Fläche einer Grundfigur oder einer zusammengesetzten Figur (2017, 2018, 2022); Bank-Ketten Rechteck, Parallelogramm, Dreieck, Trapez, Kreis, Zusammengesetzte Figuren
 - **Originale:** 2024-OS-K4a 2023-OS-K2b 2025-OS-K2b 2016-OS-K3b 2022-OS-K5e 2018-OS-K6a 2017-OS-K3a 2017-OS-K3b 2019-OS-K4c 2015-OS-K6c 2015-OS-K5d
 - **Bank:** flaechen-e1-k2-s1(i) flaechen-e1-k2-s2(i) flaechen-e1-k2-s3(i) flaechen-e2-k1-s1(i) flaechen-e2-k1-s2(i) flaechen-e2-k1-s3(i) flaechen-e3-k1-s1(i) flaechen-e3-k1-s2(i) flaechen-e3-k1-s3(i) flaechen-e3-k1-s4(i) flaechen-e4-k1-s1(i) flaechen-e4-k1-s2(i) flaechen-e4-k1-s4(i) flaechen-e4-k1-s5(i) kreis-e2-k1-s1(i) kreis-e2-k1-s2(i) kreis-e2-k1-s3(i) kreis-e2-k1-s8 kreis-e2-k2-s1(i) flaechen-e5-k1-s1(i) flaechen-e5-k1-s2(i) flaechen-e5-k1-s3(i) flaechen-e5-k1-s4(i) flaechen-e5-k1-s5(i) flaechen-e5-k1-s6(i) flaechen-e1-k3-s1(i) kreis-e3-k1-s5(i) kreis-e3-k1-s6(i) kreis-e3-k1-s8(i) flaechen-e5-k1-s7 flaechen-e5-k3-s1

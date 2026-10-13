@@ -29,6 +29,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Gleichung aufstellen
 - **Anzeigename:** Gleichung aufstellen
+- **Schülerfrage:** Markiere die Hypotenuse. Schreib dann die Gleichung des Satzes des Pythagoras auf.
+- **Schülerfrage-Fälle:** Dreieck mit den Seiten p, q und r → r² = p² + q²
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Die Hypotenuse r liegt dem rechten Winkel gegenüber; sie steht allein auf einer Seite der Gleichung.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.8]\coordinate (P1) at (0,0);\coordinate (P2) at (2.5,0);\coordinate (P3) at (0.9,1.2);\draw (P1) -- (P2) -- (P3) -- cycle;\pfrw[0.35]{(P3)}{-126.9}\node[font=\small,anchor=north] at (1.25,-0.08) {$r$};\node[font=\small,anchor=south east] at (0.40,0.62) {$p$};\node[font=\small,anchor=south west] at (1.75,0.62) {$q$};\end{tikzpicture}
+- **Heranführung:** P4Z 10.10. Nr. 1 (abgenommen), ein Dreieck in schiefer Lage statt drei (aufgabenbank bau/heranfuehrungen-p10.md).
 - **Kern:** ja – 5 echte, Basisteil 2017, 2021, 2022, 2024, 2026 (Niveau I), Bank-Kette Hypotenuse mit Grundfall
 - **Originale:** 2022-OS-B1g 2024-OS-B1f 2026-FOR-B1j 2021-OS-B1h 2017-OS-B1d
 - **Bank:** pythagoras-e1-k2-s6(i) pythagoras-e1-k2-s7(i) pythagoras-e1-k2-s8(i) pythagoras-e1-k5-s4(i) pythagoras-e2-k3-s5(i) pythagoras-e2-k6-s4(i)
@@ -37,6 +43,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Hypotenuse gesucht
 - **Anzeigename:** Hypotenuse gesucht
+- **Schülerfrage:** Gesucht ist die Seite mit dem Fragezeichen. Kreuze an, wo die Hypotenuse gesucht ist.
+- **Schülerfrage-Fälle:** Dreieck a → ja | Dreieck b → nein | Dreieck c → ja
+- **Schülerfrage-Form:** kreuz:Hypotenuse
+- **Schülerfrage-Weg:** Die Hypotenuse liegt dem rechten Winkel gegenüber: in a und c ist sie gesucht, in b ist sie gegeben (7 cm).
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.62,font=\footnotesize]\draw (0,0)--(2.2,0)--(2.2,1.3)--cycle;\pfrw[0.25]{(2.2,0)}{90}\node[anchor=north] at (1.1,-0.05) {$6$ cm};\node[anchor=west] at (2.25,0.65) {$4$};\node[anchor=south east] at (1.05,0.7) {?};\node[anchor=north] at (1.1,-0.6) {\textbf{a}};\begin{scope}[xshift=3.2cm]\draw (0,0)--(2.2,0)--(0,1.3)--cycle;\pfrw[0.25]{(0,0)}{0}\node[anchor=north] at (1.1,-0.05) {?};\node[anchor=east] at (-0.05,0.65) {$4$};\node[anchor=south west] at (1.15,0.7) {$7$ cm};\node[anchor=north] at (1.1,-0.6) {\textbf{b}};\end{scope}\begin{scope}[xshift=6.2cm]\draw (0,0.3)--(0.99,1.34)--(2.4,0)--cycle;\pfrw[0.25]{(0.99,1.34)}{-133.6}\node[anchor=south east] at (0.45,0.85) {$5$};\node[anchor=south west] at (1.75,0.75) {$6$ cm};\node[anchor=north] at (1.2,0.1) {?};\node[anchor=north] at (1.2,-0.6) {\textbf{c}};\end{scope}\end{tikzpicture}
+- **Heranführung:** P4Z 10.10. Nr. 4 (abgenommen; Lehrer 13.10. „wo ist die Hypotenuse gesucht“).
 - **Trennung 13.10.:** wieder eigene Stufe wie im abgenommenen Blatt P4Z vom 10.10. und pruefung.md § 2 (Lehrer 13.10.: P4Z2 hatte Hypotenuse und Kathete zusammengelegt); vorher „Kathete oder Hypotenuse direkt“.
 - **Kern:** ja – 2 echte (2020, 2025), Bank-Kette Hypotenuse mit Grundfall
 - **Originale:** 2025-OS-K4a 2020-OS-K7a
@@ -46,6 +58,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Kathete gesucht
 - **Anzeigename:** Kathete gesucht
+- **Schülerfrage:** Kreuze an, mit welcher Gleichung du die Länge der Seite k berechnest.
+- **Schülerfrage-Fälle:** $k = \sqrt{m^2 + g^2}$ → nein | $k = \sqrt{m^2 - g^2}$ → ja | $k = \sqrt{g^2 - m^2}$ → nein
+- **Schülerfrage-Form:** kreuz:
+- **Schülerfrage-Weg:** m ist die Hypotenuse (gegenüber dem rechten Winkel), k eine Kathete: von m² wird g² abgezogen.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.85]\coordinate (P1) at (0,0);\coordinate (P2) at (2.8,0);\coordinate (P3) at (0,1.7);\draw (P1) -- (P2) -- (P3) -- cycle;\pfrw[0.35]{(P1)}{0}\node[font=\small,anchor=north] at (1.4,-0.08) {$g$};\node[font=\small,anchor=east] at (-0.08,0.85) {$k$};\node[font=\small,anchor=south west] at (1.44,0.9) {$m$};\end{tikzpicture}
+- **Heranführung:** P4Z 10.10. Nr. 7 (abgenommen).
 - **Trennung 13.10.:** wie bei „Hypotenuse gesucht“.
 - **Kern:** ja – 5 echte 2016–2026 (Niveau I/II), Bank-Kette Kathete mit Grundfall
 - **Originale:** 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2019-OS-K3a 2016-OS-K7b
@@ -55,7 +73,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Kathete gesucht [2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a]
 
 ### Dreieck erst in Figur oder Körper finden
-- **Anzeigename:** in Figuren und Körpern versteckt
+- **Anzeigename:** in Figuren versteckt
 - **Schülerfrage:** Welche Strecken bilden das rechtwinklige Dreieck? Nenne die beiden Katheten und die Hypotenuse.
 - **Schülerfrage-Fälle:** Kegel mit Radius r, Höhe h, Mantellinie s = Katheten r und h, Hypotenuse s | Zylinder mit Radius r, Höhe h; Stab vom Rand des Bodens schräg zum gegenüberliegenden oberen Rand = Katheten 2 · r und h, Hypotenuse der Stab
 - **Schülerfrage-Form:** linie
@@ -149,10 +167,11 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Winkelsumme
 - **Anzeigename:** Winkel gesucht
-- **Schülerfrage:** Wie viel Grad sind es zusammen?
-- **Schülerfrage-Fälle:** die drei Winkel in einem Dreieck = 180° | zwei Winkel an derselben Seite zwischen zwei parallelen Seiten (wie unten links und oben links im Parallelogramm) = 180°
+- **Schülerfrage:** Im Viereck sind die Innenwinkel zusammen 360°. Wie viel Grad sind es im Dreieck?
+- **Schülerfrage-Fälle:** Dreieck = 180
 - **Schülerfrage-Form:** linie:°
-- **Schülerfrage-Weg:** Winkelsumme im Dreieck 180°; an Parallelen ergänzen sich die beiden Winkel an einer Seite zu 180°
+- **Schülerfrage-Weg:** Winkelsumme im Dreieck 180°; ein Viereck zerfällt längs einer Diagonale in zwei Dreiecke: 2 · 180° = 360°.
+- **Heranführung:** Lehrer 13.10. (T2U2 Nr. 1b unverständlich, besser „Viereck 360°, Dreieck?“).
 - **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1i und ’23 · 2a brauchen die Parallelen, ’22 · 5c die Winkelsumme im Teildreieck; 2018-OS-K4b (älter als fünf Jahre) in den Mehr-Block.
 - **Kern:** ja – 7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall
 - **Originale:** 2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i 2021-OS-B1i 2018-OS-K4b 2017-OS-K4a 2015-OS-K5b
@@ -161,10 +180,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### gleichschenkliges Dreieck
 - **Anzeigename:** gleichschenklig: zwei gleiche Winkel
-- **Schülerfrage:** Ein Dreieck hat zwei gleich große Winkel. Was weißt du dann über seine Seiten?
-- **Schülerfrage-Fälle:** zwei gleich große Winkel = die beiden Seiten gegenüber den gleichen Winkeln sind gleich lang
+- **Schülerfrage:** Trage alle Winkel ein. Was unterscheidet die beiden Dreiecke?
+- **Schülerfrage-Fälle:** Unterschied → links zwei gleiche Winkel (64°, 64°, 52°), rechts alle drei gleich (60°)
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** gleiche Basiswinkel ⇒ gleichschenklig; die Schenkel liegen den gleichen Winkeln gegenüber
+- **Schülerfrage-Weg:** Links zwei gleich lange Seiten: die Winkel gegenüber sind gleich, 180° − 2 · 64° = 52°. Rechts drei gleiche Seiten: 180° : 3 = 60°.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt]\draw (0,0)--(2.4,0)--(1.2,2.46)--cycle;\draw[line width=0.6pt] ($($(0,0)!0.5!(1.2,2.46)$)!0.11cm!90:(1.2,2.46)$) -- ($($(0,0)!0.5!(1.2,2.46)$)!0.11cm!-90:(1.2,2.46)$);\draw[line width=0.6pt] ($($(2.4,0)!0.5!(1.2,2.46)$)!0.11cm!90:(1.2,2.46)$) -- ($($(2.4,0)!0.5!(1.2,2.46)$)!0.11cm!-90:(1.2,2.46)$);\pfwinkel[0.8][0.6]{(0,0)}{0}{64}{64^\circ}\pfwinkel*[0.8]{(2.4,0)}{116}{180}{}\pfwinkel*[0.6]{(1.2,2.46)}{-116}{-64}{}\begin{scope}[xshift=3.1cm]\draw (0,0)--(2.4,0)--(1.2,2.078)--cycle;\draw[line width=0.6pt] ($($(0,0)!0.5!(2.4,0)$)!0.11cm!90:(2.4,0)$) -- ($($(0,0)!0.5!(2.4,0)$)!0.11cm!-90:(2.4,0)$);\draw[line width=0.6pt] ($($(0,0)!0.5!(1.2,2.078)$)!0.11cm!90:(1.2,2.078)$) -- ($($(0,0)!0.5!(1.2,2.078)$)!0.11cm!-90:(1.2,2.078)$);\draw[line width=0.6pt] ($($(2.4,0)!0.5!(1.2,2.078)$)!0.11cm!90:(1.2,2.078)$) -- ($($(2.4,0)!0.5!(1.2,2.078)$)!0.11cm!-90:(1.2,2.078)$);\pfwinkel*[0.7]{(0,0)}{0}{60}{}\pfwinkel*[0.7]{(2.4,0)}{120}{180}{}\pfwinkel*[0.7]{(1.2,2.078)}{-120}{-60}{}\end{scope}\end{tikzpicture}
+- **Heranführung:** T2U 11.10. Nr. 3 (abgenommen; Kritiker B 13.10.: weckt den Gedanken an der Figur, die Wissensfrage nicht).
 - **Durchsicht 13.10.:** Schritt B (Daten): ’23 · 1g (Seite ablesen, γ ausrechnen; je eine Antwortzeile) und ’23 · 7a (begründen).
 - **Kern:** nein – 2 echte, nur 2023
 - **Originale:** 2023-OS-B1g 2023-OS-K7a
@@ -173,10 +194,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### rechten Winkel begründen
 - **Anzeigename:** rechter Winkel: begründen
-- **Schülerfrage:** In einem rechtwinkligen Dreieck sind die beiden Katheten gleich lang. Wie groß sind die beiden anderen Winkel?
-- **Schülerfrage-Fälle:** Katheten gleich lang = je 45°
-- **Schülerfrage-Form:** linie:°
-- **Schülerfrage-Weg:** gleichschenklig, also gleiche Basiswinkel: (180° − 90°) : 2 = 45°
+- **Schülerfrage:** CD steht senkrecht auf AB. Trage die Winkel in den Dreiecken ADC und DBC ein. Warum ist γ = 90°?
+- **Schülerfrage-Fälle:** Begründung → in beiden Dreiecken je 45° bei C: 45° + 45° = 90°
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** ADC und DBC sind gleichschenklig-rechtwinklig (zwei Seiten 3 cm, rechter Winkel bei D), also je 45° an den beiden anderen Ecken.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.9]\draw (0,0)--(3,0)--(1.5,1.5)--cycle;\draw (1.5,1.5)--(1.5,0);\pfrw[0.28]{(1.5,0)}{0}\pfwinkel*[0.7]{(1.5,1.5)}{-135}{-45}{}\node[inner sep=0pt,font=\footnotesize] at ($(1.5,1.5)+(-108:0.45)$) {$\gamma$};\node[font=\small,anchor=north east] at (0,0) {$A$};\node[font=\small,anchor=north west] at (3,0) {$B$};\node[font=\small,anchor=south] at (1.5,1.5) {$C$};\node[font=\small,anchor=north] at (1.5,-0.02) {$D$};\node[font=\footnotesize,anchor=north] at (0.75,-0.02) {$3$ cm};\node[font=\footnotesize,anchor=north] at (2.25,-0.02) {$3$ cm};\node[font=\footnotesize,anchor=east] at (1.47,0.3) {$3$ cm};\end{tikzpicture}
+- **Heranführung:** T2U 11.10. Nr. 8 (abgenommen; Kritiker B 13.10.: macht den Gedanken für den Drachen ’25 · 2c vor).
 - **Durchsicht 13.10.:** Schritt B (Daten): der Anstoß trägt den Gedanken von ’25 · 2c (AF = DF, also 45° bei D, zweimal) ohne die Figur vorwegzunehmen.
 - **Kern:** nein – 1 echte (2025), Begründen auf mehreren Wegen (Winkelsumme, Umkehrung, Thales)
 - **Originale:** 2025-OS-K2c

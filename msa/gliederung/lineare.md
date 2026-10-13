@@ -52,6 +52,8 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gerade zeichnen
 - **Anzeigename:** Gerade zeichnen
+- **Frage:** Wo steht die Gleichung der linearen Funktion mit m und n? Formelsammlung, Seite ___
+- **Heranführung:** Lehrer 13.10. (TAL3 Nr. 1 „besser mit Formelsammlung: allgemeine Gleichung, m und n“); der Stups zur Steigungsformel bei „Gleichung aus zwei Punkten“ entfällt (ein Formelsammlungs-Stups je Blatt).
 - **Schülerfrage:** Welche Funktionen sind linear? Kreuze an. Wähl eine lineare aus und gib ihr m und n an: $m = \underline{\hspace{10mm}}$, $n = \underline{\hspace{10mm}}$.
 - **Schülerfrage-Fälle:** $f(x) = 3 - 2x$ → ja | $f(x) = x^2 + 1$ → nein | $f(x) = 0{,}5x$ → ja
 - **Schülerfrage-Form:** kreuz:linear
@@ -72,7 +74,6 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gleichung aus zwei Punkten
 - **Anzeigename:** Gleichung aus zwei Punkten
-- **Frage:** Erster Schritt bei zwei Punkten ist die Steigung m. Wo steht ihre Formel? Formelsammlung, Seite ___
 - **Kern:** ja – erster Schritt: m = Δy : Δx aus den Koordinaten, dann n durch Einsetzen eines Punktes (2015, 2017, 2025; Niveau I–II); Bank-Ketten Gerade durch zwei Punkte zeichnen und Gleichung bestimmen mit Grundfall. 2025-OS-K5a zeichnet erst und sucht zuletzt die Gleichung
 - **Originale:** 2025-OS-K5a 2017-OS-K5a 2015-OS-K4d
 - **Bank:** lineare-funktionen-e4-k2-s1(i) lineare-funktionen-e4-k1-s3(i) lineare-funktionen-e4-k1-s4(i) lineare-funktionen-e4-k1-s5(i) lineare-funktionen-e4-k1-s6[v1,v2,v5,v6](i) lineare-funktionen-e4-k1-s6[v3,v4] lineare-funktionen-e4-k4-s4
@@ -97,7 +98,8 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 
 ### Gleichung aus Text
 - **Anzeigename:** Gleichung aus Text
-- **Schülerfrage:** Anfangswert oder Änderung je Schritt? Schreib zu jeder Zahl, was sie in der Gleichung y = m · x + n ist (m oder n). Rechne nicht.
+- **Schülerfrage:** Welche Zahl ist m, welche n? Rechne nicht.
+- **Heranführung:** TAL3 Nr. 10, Lehrer 13.10.: „Gedanke gut, Fassung zu lang“ – gekürzt.
 - **Schülerfrage-Fälle:** Handytarif: 8 € im Monat und 0,09 € je Minute = 8 ist n, 0,09 ist m | Kerze: 25 cm hoch, brennt je Stunde 2 cm ab = 25 ist n, −2 ist m
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** n steht am Anfang (x = 0), m ist das, was je Monat, Minute oder Stunde dazukommt oder weggeht
