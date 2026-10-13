@@ -325,8 +325,11 @@ vollständig, dann ordnen, dann bauen.
       sammeln), in dieser Folge:
       A. [Lehrer 13.10. abends, Weg B: statt Karte Blatt für Blatt
          durch die 11 gesetzten Blätter, Folge der Gliederung;
-         Zuschnitt sofort in der Gliederung, Setzer neu; anderes in
-         bau/befunde-M3.md. Die acht fehlenden nach Schritt B.]
+         je Blatt erst alles sammeln (Zuschnitt in die Gliederung), dann einmal neu setzen (Lehrer
+         13.10.); anderes in bau/befunde-M3.md. Die acht fehlenden
+         nach Schritt B. Stand 13.10. 20:20: Flächen durch (Y5D4,
+         Abschnitte passen, ein Blatt); Körper AZL2, EF42 neu
+         gesetzt, noch nicht gezeigt – weiter dort.]
          (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
