@@ -310,6 +310,11 @@ vollständig, dann ordnen, dann bauen.
          rechte Lösungsspalte mit Ansatz (aufgabenbank
          bau/vergleich-2026-10-12-lineare.md). Y5D2: Befunde des
          Kritikers.
+      [13.10. erledigt 1–3: Kritiker Y5D2 Note 2; Setzer v0.10;
+      TAL3 (4 S., Stufe geteilt, „Gleichung aus Graph“ ohne junges
+      Original nur im Mehr-Block) und Y5D3 (3 S.) in aufgabenbank
+      bau/pruefung/2026-10-13/; neue Einheit „Gemischt: Gerade und
+      Parabel“ in den Daten; keine Stufe „fast immer“.]
       4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
          Handreichung als Muster (Daten: buchstufen-p10.csv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
