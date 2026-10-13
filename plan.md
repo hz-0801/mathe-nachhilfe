@@ -479,6 +479,14 @@ Kapitel-Agenten auf medium ≈ 0,5 Wochenpunkte je Kapitel schätzen.
   nötigen Formel. Berührt den Anstoß „Seite ___“ (pruefung.md
   „Vom Ende her beim Einstieg“) und die offene Frage „welche
   Formelsammlung“ (bericht.md Y5D2).
+- Lernblätter (Sorte Lernen, nicht P10): eher ein Thema je Blatt,
+  Fläche getrennt von Umfang, Volumen getrennt von Oberfläche (Lehrer
+  13.10.: „muss nicht unbedingt“); die Originale liegen ohnehin im
+  Mehr-Block und kommen zuletzt. Dazu ein zweiter Blickwinkel: Blatt
+  nach Körper oder Figur („alles zum Zylinder“), quer zu den
+  Handgriffen; Aufgaben dürfen dann auf mehreren Blättern stehen.
+  Braucht je Original die Figur als Feld; mit der Sorte Lernen
+  entscheiden.
 
 Bestellen unter dem Gebiet (Lehrer 10.10., offen): Der Baum gilt bis zum Gebiet (fest 03./04.10.); darunter Wahl aus einer Übersicht, evtl. als Vorstufe am Bildschirm (schnell, fertige Liste, handytauglich). Entschieden 10.10.: Die Einheiten werden zuerst durchgeplant, je Gebiet im Zusammenhang (für P10: Zuschnitt msa/skript-zuschnitt-p10.md festlegen, vor jedem Bau); die Übersicht folgt ihnen, nicht umgekehrt – „etwa 10 Zeilen“ ist Lesehilfe, keine Schnittregel. Offen nur noch die Form der Anzeige.
 

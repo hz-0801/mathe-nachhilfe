@@ -19,50 +19,43 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ## Stufen
 
 ### Volumen direkt
-- **Anzeigename:** Volumen berechnen
-- **Schülerfrage:** Welche Formel brauchst du? Schreibe nur die Formel auf, rechne nicht.
-- **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Fußball, Durchmesser 22 cm = V = 4/3 · π · r³ | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
+- **Anzeigename:** Volumen gesucht
+- **Frage:** Schlag in deiner Formelsammlung die Körper auf. Auf welcher Seite steht das Volumen des Zylinders? Seite ___
+- **Schülerfrage:** Wie viel passt hinein? Schreibe nur die Formel auf, rechne nicht.
+- **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** a) Zylinder; b) Kugel; c) Prisma; d) Kegel
+- **Schülerfrage-Weg:** a) Zylinder; b) Prisma; c) Kegel
 - **Kern:** ja – 7 echte 2014–2026, fast jedes Jahr (Niveau I), Bank-Ketten Quader, Prisma, Zylinder, Pyramide, Kegel, Kugel mit Grundfall
-- **Originale:** 2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a 2021-OS-K4a 2016-OS-K3c 2014-OS-K5a
-- **Bank:** koerper-e2-k1-s1(i) koerper-e2-k1-s2(i) koerper-e3-k1-s1(i) koerper-e3-k1-s2(i) koerper-e3-k1-s3(i) koerper-e3-k1-s4(i) koerper-e3-k1-s5(i) koerper-e3-k1-s6(i) koerper-e4-k2-s1(i) koerper-e4-k2-s2(i) koerper-e4-k2-s3(i) koerper-e4-k2-s4(i) pyramide-kegel-kugel-e1-k5-s1(i) pyramide-kegel-kugel-e1-k5-s2(i) pyramide-kegel-kugel-e1-k5-s3(i) pyramide-kegel-kugel-e1-k5-s4(i) pyramide-kegel-kugel-e2-k2-s1(i) pyramide-kegel-kugel-e2-k2-s2(i) pyramide-kegel-kugel-e2-k2-s3(i) pyramide-kegel-kugel-e2-k2-s4(i) pyramide-kegel-kugel-e3-k1-s1(i) pyramide-kegel-kugel-e3-k1-s2(i) pyramide-kegel-kugel-e3-k1-s3(i) pyramide-kegel-kugel-e3-k1-s4(i) koerper-e2-k1-s10 koerper-e4-k2-s13 pyramide-kegel-kugel-e3-k1-s18[2016-OS-K3c]
+- **Originale:** 2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a 2021-OS-K4a 2016-OS-K3c 2014-OS-K5a 2024-OS-K4c
+- **Bank:** koerper-e2-k1-s1(i) koerper-e2-k1-s2(i) koerper-e3-k1-s1(i) koerper-e3-k1-s2(i) koerper-e3-k1-s3(i) koerper-e3-k1-s4(i) koerper-e3-k1-s5(i) koerper-e3-k1-s6(i) koerper-e4-k2-s1(i) koerper-e4-k2-s2(i) koerper-e4-k2-s3(i) koerper-e4-k2-s4(i) pyramide-kegel-kugel-e1-k5-s1(i) pyramide-kegel-kugel-e1-k5-s2(i) pyramide-kegel-kugel-e1-k5-s3(i) pyramide-kegel-kugel-e1-k5-s4(i) pyramide-kegel-kugel-e2-k2-s1(i) pyramide-kegel-kugel-e2-k2-s2(i) pyramide-kegel-kugel-e2-k2-s3(i) pyramide-kegel-kugel-e2-k2-s4(i) pyramide-kegel-kugel-e3-k1-s1(i) pyramide-kegel-kugel-e3-k1-s2(i) pyramide-kegel-kugel-e3-k1-s3(i) pyramide-kegel-kugel-e3-k1-s4(i) koerper-e2-k1-s10 koerper-e4-k2-s13 pyramide-kegel-kugel-e3-k1-s18[2016-OS-K3c] koerper-e5-k1-s5 koerper-e5-k1-s11 koerper-e4-k2-s5 pyramide-kegel-kugel-e3-k1-s13
 - **Verwechselbar:** Mantelfläche mit Kosten
 - **Zuschnitt:** Volumen und Oberfläche
-
-### Restvolumen
-- **Anzeigename:** Restvolumen
-- **Schülerfrage:** Welcher Körper ist außen, welcher innen? Schreibe nur den Ansatz auf: groß minus klein.
-- **Schülerfrage-Fälle:** Tennisball in einer Würfelschachtel = V(Würfel) − V(Kugel) | Kegel in einer zylinderförmigen Verpackung = V(Zylinder) − V(Kegel) | Rohr: Außenzylinder und Innenzylinder = V(außen) − V(innen)
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** außen ist immer der Körper, in dem der andere steckt
-- **Kern:** nein – 1 echte (2024)
-- **Originale:** 2024-OS-K4c
-- **Bank:** koerper-e5-k1-s5 koerper-e5-k1-s11 koerper-e4-k2-s5 pyramide-kegel-kugel-e3-k1-s13
-- **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 13.10.:** Lehrer: Anzeigenamen wie bei Flächen (… gesucht, Formeln umstellen); Frage nach dem Volumen ausdrücklich („Wie viel passt hinein?“), sonst passt auch die Oberfläche; drei Fälle reichen; Anstoß Formelsammlung als Suchauftrag. Restvolumen (2024-OS-K4c) steht hier, wie „Figur erst zerlegen“ bei Flächen (Lehrer 13.10., Weg A).
 
 ### Mantelfläche mit Kosten
-- **Anzeigename:** Mantelfläche und Kosten
-- **Schülerfrage:** Welche Fläche wird bezahlt? Schreibe hin: Mantel, Grundfläche oder ganze Oberfläche.
-- **Schülerfrage-Fälle:** Die Außenmauer eines runden Turms wird gestrichen = Mantel | Ein Kegeldach wird mit Ziegeln gedeckt = Mantel | Eine Geschenkbox (Quader) wird rundum mit Papier beklebt = ganze Oberfläche | Der Boden eines runden Beckens wird gefliest = Grundfläche
+- **Anzeigename:** Oberfläche gesucht
+- **Schülerfrage:** Rolle den Mantel ab: Welche Figur entsteht, und wie lang sind ihre Seiten?
+- **Schülerfrage-Fälle:** Mantel eines Zylinders mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** bezahlt wird, was bearbeitet wird: Mauer und Dach sind Mäntel, Papier rundum ist die ganze Oberfläche, der Boden die Grundfläche
+- **Schülerfrage-Weg:** Rechteck; eine Seite ist der Kreisumfang 2 · π · r, die andere die Höhe h; Mantel = 2 · π · r · h
 - **Kern:** nein – 2 echte (2018, 2026)
 - **Originale:** 2026-FOR-K2b 2018-OS-K6b
 - **Bank:** koerper-e4-k2-s6(i) koerper-e4-k2-s7(i) pyramide-kegel-kugel-e2-k2-s7(i) pyramide-kegel-kugel-e2-k2-s8(i) pyramide-kegel-kugel-e1-k5-s7(i) pyramide-kegel-kugel-e2-k2-s13 pyramide-kegel-kugel-e1-k5-s15
 - **Verwechselbar:** Volumen direkt
 - **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 13.10.:** Lehrer: „Welche Fläche wird bezahlt“ zwanghaft; Heranführung erwünscht. Neu: Mantel abrollen (zeigt, warum Mantel = Umfang · Höhe; Kreisumfang als Zwischenschritt).
 
 ### rückwärts: Radius oder Höhe aus Volumen
-- **Anzeigename:** Radius oder Höhe aus dem Volumen
-- **Schülerfrage:** Gegeben ist das Volumen. Kreuze an, wo du am Ende eine Wurzel ziehen musst.
-- **Schülerfrage-Fälle:** Zylinder: V und h bekannt, r gesucht = ja | Zylinder: V und r bekannt, h gesucht = nein | Würfel: V bekannt, Kante a gesucht = ja | Quader: V, a und b bekannt, c gesucht = nein
-- **Schülerfrage-Form:** kreuz:Wurzel
-- **Schülerfrage-Weg:** a) r steht im Quadrat, c) a hoch drei; bei b) und d) nur teilen
+- **Anzeigename:** Formeln umstellen
+- **Schülerfrage:** Derselbe Handgriff an einer anderen Formel: Stelle sie nach der gesuchten Größe um.
+- **Schülerfrage-Fälle:** Quadratische Säule: V = a² · h, gesucht ist a → a = √(V : h)
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** erst durch h teilen: a² = V : h, dann die Wurzel ziehen: a = √(V : h) (ebenso r beim Zylinder, nur mit π)
 - **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
 - **Originale:** 2022-OS-K2d 2023-OS-K5d
 - **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
 - **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen.
 
 ### vergleichen und urteilen
 - **Anzeigename:** vergleichen und urteilen
@@ -146,7 +139,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2023-OS-K5b | Volumen direkt |  |  | Hauptplatz nach typ „Volumen Zylinder berechnen“ |
 | 2023-OS-K5d | rückwärts: Radius oder Höhe aus Volumen |  |  | Hauptplatz nach typ „Höhe eines Zylinders aus Volumen berechnen“ |
 | 2024-OS-K4b | Körper im Schrägbild skizzieren |  |  | Hauptplatz nach typ „Körper in Schrägbild skizzieren“ |
-| 2024-OS-K4c | Restvolumen |  | Volumen direkt | Hauptplatz nach typ „Restvolumen berechnen“. Zwischenschritt aus typ_neben |
+| 2024-OS-K4c | Volumen direkt |  |  | Hauptplatz nach typ „Restvolumen berechnen“; Restvolumen ist keine Stufe mehr (wie „Figur erst zerlegen“ bei Flächen; Lehrer 13.10.) |
 | 2025-GYM-K5b | Körper im Schrägbild skizzieren |  |  | Hauptplatz nach typ „Körper im Schrägbild darstellen“ |
 | 2025-GYM-K5c | Volumen direkt |  | prozent:Prozentwert | Hauptplatz nach typ „Volumen Prisma berechnen“. 80 % des Volumens |
 | 2025-GYM-K5d | Mantelfläche mit Kosten |  | dreiecke:Kathete oder Hypotenuse direkt | Hauptplatz nach typ „Mantelfläche Prisma berechnen“. Zwischenschritt aus typ_neben |

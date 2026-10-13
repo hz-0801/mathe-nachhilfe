@@ -381,7 +381,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2024-OS-K3d;quadratische:Gerade und Parabel gleichsetzen;;quadratische:Nullstellen berechnen;Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen
 2024-OS-K4a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Kreisfläche berechnen“
 2024-OS-K4b;koerper:Körper im Schrägbild skizzieren;;;Hauptplatz nach typ „Körper in Schrägbild skizzieren“
-2024-OS-K4c;koerper:Restvolumen;;koerper:Volumen direkt;Hauptplatz nach typ „Restvolumen berechnen“. Zwischenschritt aus typ_neben
+2024-OS-K4c;koerper:Volumen direkt;;;Hauptplatz nach typ „Restvolumen berechnen“; Restvolumen ist keine Stufe mehr (Lehrer 13.10.)
 2024-OS-K5a;wahrscheinlichkeit:Wahrscheinlichkeit angeben;;;Hauptplatz nach typ „Wahrscheinlichkeit einstufig“
 2024-OS-K5b;wahrscheinlichkeit:Baum ergänzen;;wahrscheinlichkeit:Pfadregel;Hauptplatz nach typ „Baumdiagramm ergänzen“. Zwischenschritt aus typ_neben
 2024-OS-K5c;wahrscheinlichkeit:ohne Zurücklegen;;;Hauptplatz nach typ „Wahrscheinlichkeit mehrstufig ohne Zurücklegen“
