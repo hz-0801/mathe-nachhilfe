@@ -477,6 +477,17 @@ Schritte, acht Blätter. Schätzung 7–9 Punkte, gemessen ≈ 2: die
 Schätzung beruhte auf Runde 5 (high, 100–230 Schritte). Regel: enge
 Kapitel-Agenten auf medium ≈ 0,5 Wochenpunkte je Kapitel schätzen.
 
+Messwert Runde 13.10. nachts (Schritt A und B, alles Opus, Chat
+medium): Woche 23 → 25 %, Fable 24 % (Anzeige, mit Chat). Acht
+Kapitel-Agenten 1,54 Mio Token (A je 0,11–0,16 Mio, 4–16 min; B
+Gleichungssysteme 0,15, Wachstum 0,19, Dreiecke 0,28 Mio / 56 min),
+zwei Kritiker 0,28 Mio (12–20 min), Neusatz 19 Blätter per Skript
+4 min. Schätzung 4,5–5 Punkte, gemessen 2 (Abweichung > Hälfte):
+die Regel 0,5 je Kapitel enthielt den Setzer-Agenten von Runde 7/8.
+Regel: über Token schätzen – ≈ 0,9 Mio Opus-Token je Wochenpunkt;
+enger Durchsicht-Agent ≈ 0,15 Mio, Bau-Agent 0,2–0,3 Mio, Kritiker
+≈ 0,15 Mio.
+
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
