@@ -74,22 +74,34 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Originale:** 2022-OS-K2a 2016-OS-B1j 2018-OS-B1i 2017-OS-B1c
 - **Bank:** koerper-e1-k1-s1 koerper-e1-k1-s3 koerper-e1-k1-s4 koerper-e1-k5-s3 koerper-e1-k5-s4 koerper-e4-k2-s8 pyramide-kegel-kugel-e2-k2-s10 koerper-e1-k1-s10[2016-OS-B1j]
 - **Zuschnitt:** Netz und Schrägbild
-- **Frage:** „Welche Form haben die Flächen, und wie viele sind es?“
+- **Schülerfrage:** Stell es dir im Kopf vor und antworte, ohne zu rechnen.
+- **Schülerfrage-Fälle:** Drei Quadrate hängen in einer Reihe aneinander; du faltest sie zu einem Teil eines Würfels. Wo liegt dann das dritte Quadrat, vom ersten aus gesehen? = gegenüber | Du rollst ein Rechteck zum Mantel eines Zylinders mit dem Durchmesser d. Wie lang ist die Seite, die einmal um den Kreis läuft? = π · d, gut dreimal so lang wie d
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** zwei Flächen mit genau einer dazwischen liegen sich gegenüber; die lange Seite des Mantels ist der Kreisumfang π · d
+- **Durchsicht 13.10.:** Runde A: „Welche Form haben die Flächen …“ setzte den Körper der Aufgabe voraus und unterschied die drei Becher-Netze nicht (alle haben einen Kreis); neu zwei Fälle für sich, je ein Gedanke: Gegenfläche im Würfelnetz (’16 · 1j), Mantel so lang wie der Kreisumfang (’22 · 2a).
 
 ### Netz mit Maßen skizzieren
 - **Kern:** nein – 4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall
 - **Originale:** 2023-OS-K5a 2020-OS-K5a 2019-OS-K4a 2014-OS-K5b
 - **Bank:** koerper-e1-k1-s5 koerper-e3-k1-s9 koerper-e3-k2-s4 koerper-e4-k3-s4 pyramide-kegel-kugel-e1-k5-s11
 - **Zuschnitt:** Netz und Schrägbild
-- **Frage:** „Welche Kanten liegen nach dem Falten aneinander? Die sind gleich lang.“
+- **Schülerfrage:** Ein Prisma hat als Grundfläche ein gleichseitiges Dreieck mit 2 cm Seitenlänge und ist 5 cm hoch. Im Netz hängt ein Rechteck des Mantels an einer Seite des Dreiecks.
+- **Schülerfrage-Fälle:** Wie lang ist die Seite des Rechtecks, die am Dreieck anliegt, und wie lang die andere? = 2 cm und 5 cm
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Kanten, die nach dem Falten aneinanderliegen, sind gleich lang; die andere Seite ist die Höhe des Prismas
+- **Durchsicht 13.10.:** Runde A: Die Frage „Welche Kanten liegen nach dem Falten aneinander? Die sind gleich lang.“ gab die Antwort vor und setzte ein Netz voraus; neu ein Fall für sich an einem kleinen Prisma (anliegende Kante gleich lang, andere Seite = Höhe), der Gedanke von ’19 · 4a (a = Rechteckbreite, nicht 1,50 m).
 
 ### Körper im Schrägbild skizzieren
 - **Kern:** nein – 2 echte (2015, 2024)
 - **Originale:** 2024-OS-K4b 2015-OS-K6b
 - **Bank:** koerper-e1-k1-s6 koerper-e1-k1-s7 koerper-e1-k4-s1 pyramide-kegel-kugel-e1-k5-s12 pyramide-kegel-kugel-e2-k2-s9 pyramide-kegel-kugel-e1-k6-s3 pyramide-kegel-kugel-e2-k3-s3 pyramide-kegel-kugel-e3-k1-s6
 - **Zuschnitt:** Netz und Schrägbild
-- **Frage:** „Was liegt vorn in wahrer Größe, was läuft schräg nach hinten?“
 - **Anzeigename:** Schrägbild skizzieren
+- **Schülerfrage:** Ein Kegel mit dem Radius 3 cm und der Höhe 8 cm steht aufrecht in einer Schachtel.
+- **Schülerfrage-Fälle:** Wie breit muss die Schachtel mindestens sein? = 6 cm, so breit wie der Durchmesser | Wie zeichnest du den Grundkreis im Schrägbild? = als flache Ellipse
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** die Schachtel muss den ganzen Grundkreis fassen, also den Durchmesser 2 · r; ein liegender Kreis erscheint im Schrägbild flach gedrückt
+- **Durchsicht 13.10.:** Runde A: „Was liegt vorn in wahrer Größe …“ übte eine Zeichenregel, die ’24 · 4b nicht prüft; neu zwei Fälle für sich: Schachtel so breit wie der Durchmesser, nicht der Radius (Falle 26 cm in ’24 · 4b), Grundkreis als Ellipse.
 
 ## Plätze der Originale
 
