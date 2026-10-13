@@ -68,7 +68,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Formeln umstellen
 - **Anzeigename:** Formeln umstellen
-- **Schülerfrage:** Derselbe Handgriff an einer anderen Formel: Stelle sie nach der gesuchten Größe um.
+- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Kreis: u = π · d, gesucht ist d → d = u : π
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** π steht mal d, also rückwärts durch π teilen: d = u : π (ebenso a = A : b beim Rechteck)

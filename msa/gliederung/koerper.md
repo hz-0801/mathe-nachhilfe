@@ -20,7 +20,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Volumen direkt
 - **Anzeigename:** Volumen gesucht
-- **Frage:** Schlag in deiner Formelsammlung die Körper auf. Auf welcher Seite steht das Volumen des Zylinders? Seite ___
+- **Frage:** Such in deiner Formelsammlung das Volumen des Zylinders: Seite ___
 - **Schülerfrage:** Wie viel passt hinein? Schreibe nur die Formel auf, rechne nicht.
 - **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
 - **Schülerfrage-Form:** linie
@@ -34,8 +34,8 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Mantelfläche mit Kosten
 - **Anzeigename:** Oberfläche gesucht
-- **Schülerfrage:** Rolle den Mantel ab: Welche Figur entsteht, und wie lang sind ihre Seiten?
-- **Schülerfrage-Fälle:** Mantel eines Zylinders mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
+- **Schülerfrage:** Du schneidest den Mantel eines Zylinders gerade auf und rollst ihn flach aus. Welche Figur entsteht, und wie lang sind ihre Seiten?
+- **Schülerfrage-Fälle:** Zylinder mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Rechteck; eine Seite ist der Kreisumfang 2 · π · r, die andere die Höhe h; Mantel = 2 · π · r · h
 - **Kern:** nein – 2 echte (2018, 2026)
@@ -47,26 +47,27 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### rückwärts: Radius oder Höhe aus Volumen
 - **Anzeigename:** Formeln umstellen
-- **Schülerfrage:** Derselbe Handgriff an einer anderen Formel: Stelle sie nach der gesuchten Größe um.
-- **Schülerfrage-Fälle:** Quadratische Säule: V = a² · h, gesucht ist a → a = √(V : h)
+- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
+- **Schülerfrage-Fälle:** Säule mit quadratischer Grundfläche: V = a² · h, gesucht ist a → a = √(V : h)
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** erst durch h teilen: a² = V : h, dann die Wurzel ziehen: a = √(V : h) (ebenso r beim Zylinder, nur mit π)
 - **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
 - **Originale:** 2022-OS-K2d 2023-OS-K5d
 - **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
 - **Zuschnitt:** Volumen und Oberfläche
-- **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen.
+- **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen. AZL3: ’23 · 5d (Höhe gesucht, ohne Wurzel) aufs Blatt – zweite Erscheinungsform neben ’22 · 2d (Radius, mit Wurzel).
 
 ### vergleichen und urteilen
 - **Anzeigename:** vergleichen und urteilen
 - **Schülerfrage:** Wie oft so groß wird das Volumen? Schätze, ohne zu rechnen.
-- **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Kugel, der Radius wird verdoppelt = 8 | Würfel, die Kante wird verdreifacht = 27
+- **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Zylinder statt Kegel, Radius und Höhe gleich = 3
 - **Schülerfrage-Form:** linie:-mal so groß
-- **Schülerfrage-Weg:** h steht einfach; r im Quadrat; r hoch drei; a hoch drei
+- **Schülerfrage-Weg:** h steht einfach; r steht im Quadrat; der Kegel ist ein Drittel des Zylinders
 - **Kern:** nein – 2 echte (2021, 2026), Niveau III
 - **Originale:** 2026-FOR-K2d 2021-OS-K4b
 - **Bank:** koerper-e4-k2-s14 koerper-e4-k3-s2 pyramide-kegel-kugel-e2-k2-s14 pyramide-kegel-kugel-e2-k2-s16 pyramide-kegel-kugel-e3-k1-s15 pyramide-kegel-kugel-e1-k5-s14 pyramide-kegel-kugel-e2-k3-s2
 - **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 13.10.:** Lehrer: Anstoß ist eine Anregung, keine Reihe; die Fälle kommen aus der folgenden Aufgabe (’26 · 2d: Radius verdoppelt, Kegel gegen Zylinder).
 
 ### Netz erkennen
 - **Kern:** ja – 4 echte, Basisteil 2016–2018, Kontext 2022 (Niveau I), Bank-Kette Körper und Netze mit Grundfall
