@@ -283,13 +283,27 @@ vollständig, dann ordnen, dann bauen.
       4 S.), Parabel (XU6, 2 S.). Befund: „alle jungen Originale“
       sprengt zwei Seiten bei Lineare und Flächen – Lehrer entscheidet
       (befunde-M3.md).
-      Nächste Runde (neuer Chat): Setzer nach 12.10. (b) – rechte
-      Spalte, Häufigkeitswort, Bündel, kein Karo bei Zeichne,
-      Ausblenden; Kennung aus der Gliederung mit Fassung dahinter
-      (H373; Lehrer 12.10., ersetzt Baudatum im Fuß); Buch-Gliederung je Kapitel als Daten (Sonnet);
-      Lineare und Flächen neu bauen, Lehrer sieht TAL neu und Y5D;
-      dann Gemischt-Blatt Funktionen, restliche Einheiten,
-      Handreichung als Muster.
+      [Runde 5, 12./13.10., Opus · high: Setzer v0.9 (Bedingungen
+      rechts, Häufigkeitswort, Bündel, kein Karo bei Zeichne,
+      Ausblenden, Kennung mit Fassung, Formel-Frage; Register
+      bau/fassungen.csv); Buch-Gliederung msa/buchstufen-p10.csv
+      (101 Stufen, 15 nie geprüft); TAL2 Lineare (4 S., fünf Stufen
+      nach dem Buch, alle 15 Originale) und Y5D2 Flächen (3 S.)
+      gebaut; Vergleich Opus/Fable an Lineare: Opus besser und
+      billiger (anweisungen/modelle.md § 6).]
+      Jetzt, in dieser Folge (Sparregeln modelle.md § 4a: enge
+      Aufträge, Schrittgrenze, Aufwand medium, high nur Kritiker):
+      1. TAL2 nachbessern – Parabel-Punktprobe 2024-3c und
+         quadratische Gleichung 2025-B1h aufs Gemischt-Blatt (Regel
+         „Zweitthema ausblenden“), rechte Lösungsspalte mit Ansatz
+         (Kritiker, aufgabenbank bau/vergleich-2026-10-12-lineare.md).
+      2. Kritiker über Y5D2, dann gebündelt nachbessern.
+      3. Lehrer sieht TAL2 und Y5D2 als Muster; mit dem Muster in der
+         Hand die Linie Länge entscheiden (beide halten zwei Seiten
+         nicht ohne Verlust; Wege in den bericht.md der Blätter und
+         bau/befunde-M3.md).
+      4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
+         Handreichung als Muster (Daten: buchstufen-p10.csv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
 Angehalten: Treppe füllen (Probe Kathete liegt als bank/pythagoras/a2.jsonl).
 Die Übergabe vom 10.10. abends schrieb dem Lehrer Ungeprüftes zu; ihr
