@@ -96,7 +96,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: neu ein Anstoß mit zwei Fällen (Öffnung, Scheitel), weil der Schüler vor ’26 · 5d sonst rechnet oder zwei Schnittpunkte rät; andere Zahlen als das Original.
 
 ### Nullstellen berechnen
-- **Anzeigename:** Nullstellen berechnen
+- **Anzeigename:** Nullstellen gesucht
 - **Schülerfrage:** Welche Gleichung löst du mit der p-q-Formel? Bring sie auf die Form $x^2 + px + q = 0$. Rechne nicht weiter.
 - **Schülerfrage-Fälle:** Nullstellen von $p(x) = x^2 - 6x + 5$ → $x^2 - 6x + 5 = 0$ | Nullstellen von $y = 3x^2 + 12x - 15$ → $x^2 + 4x - 5 = 0$ (durch 3 geteilt)
 - **Schülerfrage-Form:** linie
@@ -106,30 +106,34 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Bank:** quadratische-funktionen-e4-k1-s1(i) quadratische-funktionen-e4-k1-s3(i) quadratische-funktionen-e4-k1-s4(i) quadratische-funktionen-e4-k1-s5(i) quadratische-funktionen-e4-k1-s6(i) quadratische-funktionen-e4-k1-s7(i) quadratische-funktionen-e4-k1-s21 quadratische-gleichungen-e3-k3-s19[2025-OS-K5c,2020-OS-K3e,2017-OS-K5d]
 - **Verwechselbar:** x zu gegebenem y | Gerade und Parabel gleichsetzen
 - **Zuschnitt:** Quadratische Gleichung lösen
+- **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß bleibt (steht für sich, zwei Fälle: y = 0 setzen, durch die Zahl vor x² teilen).
 
 ### x zu gegebenem y
-- **Anzeigename:** x zu gegebenem y
-- **Frage:** Der y-Wert ist gegeben: Setz ihn für p(x) ein und bring alles auf eine Seite.
+- **Anzeigename:** x zu gegebenem y gesucht
+- **Frage:** Ist ein y-Wert gegeben, setzt du ihn für y ein und bringst alles auf eine Seite – nicht y = 0 wie bei den Nullstellen.
 - **Kern:** nein – 1 echte (2023)
 - **Originale:** 2023-OS-K4c
 - **Bank:** quadratische-funktionen-e4-k1-s8(i) quadratische-funktionen-e4-k1-s22 quadratische-gleichungen-e3-k3-s19[2023-OS-K4c]
 - **Verwechselbar:** Nullstellen berechnen | Gerade und Parabel gleichsetzen
 - **Zuschnitt:** Quadratische Gleichung lösen
+- **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß für sich verständlich (vorher „der y-Wert“, „p(x)“ aus der folgenden Aufgabe) und mit dem Fehler dahinter (y = 0 statt des gegebenen Werts).
 
 ### Gerade und Parabel gleichsetzen
-- **Anzeigename:** Schnittpunkte von Gerade und Parabel
-- **Frage:** Im Schnittpunkt haben beide denselben y-Wert: Setz die beiden Terme gleich.
+- **Anzeigename:** Schnittpunkte gesucht
+- **Frage:** Wo sich eine Gerade und eine Parabel schneiden, haben beide denselben y-Wert: Setz die beiden Terme gleich.
 - **Kern:** ja – 3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall
 - **Originale:** 2022-OS-K3c 2024-OS-K3d 2021-OS-K2c
 - **Bank:** quadratische-funktionen-e4-k1-s9(i) quadratische-funktionen-e4-k1-s10(i) quadratische-funktionen-e4-k1-s11(i) quadratische-funktionen-e4-k1-s12(i) quadratische-funktionen-e4-k1-s13(i) quadratische-funktionen-e4-k1-s20 quadratische-gleichungen-e3-k4-s1(i) quadratische-gleichungen-e3-k3-s19[2022-OS-K3c,2024-OS-K3d,2021-OS-K2c]
 - **Verwechselbar:** Nullstellen berechnen | x zu gegebenem y
 - **Zuschnitt:** Quadratische Gleichung lösen
+- **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß für sich verständlich („beide“ war ohne die folgende Aufgabe offen).
 
 ### Gemischt: Gerade und Parabel
 - **Anzeigename:** Gerade und Parabel zusammen
 - **Zuschnitt:** Quadratische Gleichung lösen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
 - **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c
+- **Durchsicht 13.10.:** Runde A: unverändert, gleich auf Lineare und Quadratische.
 
 ## Plätze der Originale
 
