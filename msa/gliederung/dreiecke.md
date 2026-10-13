@@ -8,6 +8,7 @@ Folge: 1
 Gruppen: Rechtwinklige Dreiecke = pythagoras, trigonometrie | Alle Dreiecke und Vierecke = winkel-dreiecke, symmetrie-abbildungen
 Bank: pythagoras | trigonometrie | winkel-dreiecke | symmetrie-abbildungen
 Katalog: katalog/pythagoras.md | katalog/trigonometrie.md | katalog/winkel-dreiecke.md | katalog/symmetrie-abbildungen.md
+Anzeigenamen: Länge mit Pythagoras = Pythagoras
 Kennung: Länge mit Pythagoras = P4Z
 Kennung: Seite oder Winkel mit sin, cos, tan = GYW
 Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
@@ -23,6 +24,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ## Stufen
 
 ### Gleichung aufstellen
+- **Anzeigename:** Gleichung aufstellen
 - **Kern:** ja – 5 echte, Basisteil 2017, 2021, 2022, 2024, 2026 (Niveau I), Bank-Kette Hypotenuse mit Grundfall
 - **Originale:** 2022-OS-B1g 2024-OS-B1f 2026-FOR-B1j 2021-OS-B1h 2017-OS-B1d
 - **Bank:** pythagoras-e1-k2-s6(i) pythagoras-e1-k2-s7(i) pythagoras-e1-k2-s8(i) pythagoras-e1-k5-s4(i) pythagoras-e2-k3-s5(i) pythagoras-e2-k6-s4(i)
@@ -30,6 +32,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Gleichung aufstellen [2026-FOR-B1j 2024-OS-B1f 2022-OS-B1g]
 
 ### Kathete oder Hypotenuse direkt
+- **Anzeigename:** Hypotenuse oder Kathete gesucht
+- **Schülerfrage:** Ist die gesuchte Seite die Hypotenuse (gegenüber dem rechten Winkel) oder eine Kathete? Schreib die Gleichung für die gesuchte Seite auf; rechne nicht.
+- **Schülerfrage-Fälle:** Leiter 5 m, ihr Fuß 1,4 m vor der Wand; gesucht: Höhe h an der Wand → Kathete: h² = 5² − 1,4² | Rampe waagerecht 3 m, 0,4 m hoch; gesucht: Länge s → Hypotenuse: s² = 3² + 0,4²
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Die Leiter liegt dem rechten Winkel gegenüber, gesucht ist eine Kathete: abziehen. Bei der Rampe ist die schräge Seite gesucht: addieren.
+- **Durchsicht 13.10.:** Schritt B (Daten): Hypotenuse und Kathete als eine Stufe (eine Zuordnungsstufe), der Anstoß übt den ersten Schritt beider – erkennen, ob addiert oder abgezogen wird (typischer Fehler: Quadrate addiert, obwohl eine Kathete gesucht ist). Rampe ’25 · 4a hier ohne den Winkel α (sin, cos, tan), ungekürzt bei „erst entscheiden, dann rechnen“.
 - **Kern:** ja – 7 echte 2016–2026 (Niveau I/II), Bank-Ketten Hypotenuse und Kathete mit Grundfall
 - **Originale:** 2025-OS-K4a 2022-OS-K5a 2024-OS-K6a 2026-FOR-K4a 2020-OS-K7a 2019-OS-K3a 2016-OS-K7b
 - **Bank:** pythagoras-e1-k2-s1(i) pythagoras-e1-k2-s2(i) pythagoras-e1-k2-s3(i) pythagoras-e1-k2-s4(i) pythagoras-e1-k2-s5(i) pythagoras-e2-k3-s1(i) pythagoras-e2-k3-s2(i) pythagoras-e2-k3-s3(i) pythagoras-e2-k3-s6(i) pythagoras-e1-k2-s10 pythagoras-e2-k3-s7 pythagoras-e1-k5-s3 pythagoras-e2-k6-s3 pythagoras-e1-k2-s15[2020-OS-K7a,2025-OS-K4a] pythagoras-e2-k3-s12[2022-OS-K5a,2024-OS-K6a]
@@ -39,8 +47,14 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Kathete gesucht [2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a]
 
 ### Dreieck erst in Figur oder Körper finden
+- **Anzeigename:** in Figuren und Körpern versteckt
+- **Schülerfrage:** Welche Strecken bilden das rechtwinklige Dreieck? Nenne die beiden Katheten und die Hypotenuse.
+- **Schülerfrage-Fälle:** Kegel mit Radius r, Höhe h, Mantellinie s = Katheten r und h, Hypotenuse s | Zylinder mit Radius r, Höhe h; Stab vom Rand des Bodens schräg zum gegenüberliegenden oberen Rand = Katheten 2 · r und h, Hypotenuse der Stab
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Die Höhe steht senkrecht auf dem Boden; quer über den Boden geht beim Stab der Durchmesser 2 · r, beim Kegel nur der Radius.
+- **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 2c (Turm, Kegelhöhe) und ’22 · 2c (Becher) hier; ’25 · 2a (Drachen, AB) nur auf Symmetrie (Hauptplatz, ungekürzt): eine Zeile je Original trägt nur eine Einheitsfassung, die Symmetrie-Frage ließe sich hier nicht ausblenden (Wunsch an den Setzer im Bericht).
 - **Kern:** ja – 5 echte (2018, 2019, 2025 zweimal, 2026), Bank-Kette Figuren und Körper mit Grundfall
-- **Originale:** 2026-FOR-K2c 2022-OS-K2c 2025-OS-K2a 2018-OS-K6d 2019-OS-K2d
+- **Originale:** 2026-FOR-K2c 2022-OS-K2c 2018-OS-K6d 2019-OS-K2d
 - **Bank:** pythagoras-e3-k2-s1(i) pythagoras-e3-k2-s2(i) pythagoras-e3-k2-s3(i) pythagoras-e3-k2-s4(i) pythagoras-e3-k2-s5(i) pythagoras-e3-k2-s6(i) pythagoras-e3-k2-s7(i) pythagoras-e3-k2-s8(i) pythagoras-e3-k2-s9(i) pythagoras-e3-k2-s10(i) pythagoras-e3-k2-s11(i) pythagoras-e3-k2-s12(i) pythagoras-e3-k2-s16(i) pythagoras-e3-k2-s17(i) pythagoras-e3-k2-s13 pythagoras-e3-k2-s14 pythagoras-e3-k2-s15 pythagoras-e3-k4-s3 pythagoras-e3-k2-s19[2026-FOR-K2c,2018-OS-K6d,2019-OS-K2d,2022-OS-K2c]
 - **Zuschnitt:** Länge mit Pythagoras
   - Dreieck versteckt [2026-FOR-K2c 2022-OS-K2c] neben [2025-OS-K2a]
