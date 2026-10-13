@@ -384,6 +384,16 @@ zwei Kapitel 0,15 Mio; zusammen 1,39 Mio, Wanduhr 29 min. Ein Blatt
 P aus Daten ≈ 0,3 Mio Fable – teurer als der Hand-Satz, weil Daten
 und Setzer zugleich wachsen.
 
+Messwert Runde 5 (12./13.10., Opus · high außer Vergleich, Chat
+Opus): Woche 2 → 18 %, Fable 3 → 24 %. Gewichtet aus dem Protokoll
+(Cache lesen 0,1, schreiben 2, Ausgabe 5): Chat 8,2 Mio, Setzer 7,9,
+Buch-Gliederung 4,4, Lineare Opus 16,1, Lineare Fable 22,1 (Vergleich,
+verworfen), Flächen 7,0, Kritiker 1,4. Teuer machen die Agenten
+100–230 Schritte mit wachsendem Verlauf; Sparregeln in
+anweisungen/modelle.md § 4a. Die Token-Zahl der Agenten-Rückmeldung
+(0,15–0,34 Mio) misst nicht die Kosten; ältere Umrechnungen hier
+beruhen auf ihr.
+
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
