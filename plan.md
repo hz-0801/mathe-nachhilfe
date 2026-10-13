@@ -350,8 +350,12 @@ vollständig, dann ordnen, dann bauen.
          Blätter aus Daten, Kritiker A/B in aufgabenbank
          bau/runde-2026-10-13/. Jetzt, in dieser Folge (§ 10 g):
          1. Gesamtheft per Skript (Bestellkarte, Inhalt, Sprungmarken
-            hin und zurück, Lösungen hinten); 2. Tafelwerk Hildebrandt
-            ablegen (privat); 3. Sammlung Heranführungen aus dem
+            hin und zurück; ohne Lösungen – die bleiben bei den
+            Einheiten, Lehrer 14.10.); 2. Tafelwerk Hildebrandt
+            ablegen (privat) – erledigt 14.10.: aufgabenbank-privat
+            formelsammlung/regine-sek1.md (Paetec Sek I, S. 5–43,
+            mit Seitenregister); Bezeichnungen aus Regine, Duden nur
+            wo besser (Lehrer 14.10.); 3. Sammlung Heranführungen aus dem
             Bestand und den Lehrer-Vorschlägen als Daten in die
             Gliederungen, Pythagoras wieder getrennt, Prüfskript
             Anzeigenamen; 4. Probe Erkennen + Formelsammlungs-Stups
@@ -546,6 +550,10 @@ Schüler in der privaten Schülerliste; Form, Fachplanung und Vorgehen kommen
 aus Sorte, Katalog und aufgabenbank bau/muster-auftrag.md (Lehrer 09.10.).
 Neues Projektformat von Claude Code („Claude koordiniert Threads“): später
 einmal klein mit einem Thread testen, um zu messen, wovon es zahlt.
+Formelsammlung auf P10-Blättern (Lehrer 14.10., offen): mindestens
+zwei Ebenen – zuerst nach der Seite in Regine fragen, als
+Heranführung einen Teil zeigen oder eine Eigenschaft abfragen;
+vom Ende her (wichtigstes Element), Fachdidaktik nachsehen.
 Zu M4: Bestelloptionen (Wiederholung, Ausblick) und Prüfungsprofile aus
 archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
