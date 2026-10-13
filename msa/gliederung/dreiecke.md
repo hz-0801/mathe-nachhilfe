@@ -182,7 +182,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ### Symmetrieachsen zählen
 - **Anzeigename:** Symmetrieachsen zählen
 - **Schülerfrage:** Eine Symmetrieachse teilt die Figur so, dass beim Falten beide Hälften genau aufeinanderliegen. Wie viele Symmetrieachsen hat die Figur?
-- **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das kein Rechteck ist = 0
+- **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das weder Rechteck noch Raute ist = 0
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Beim Rechteck die beiden Mittellinien; die Diagonalen sind keine Achsen – beim Parallelogramm passt keine Faltung.
 - **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 1i (gleichschenkliges Trapez) und ’25 · 2a (Drachen, ungekürzt mit BF und AB über Pythagoras) aufs Blatt; ’21 · 1j in den Mehr-Block. Der Anstoß übt die Falle Diagonale als Achse.
