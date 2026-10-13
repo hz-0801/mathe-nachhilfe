@@ -315,6 +315,12 @@ vollständig, dann ordnen, dann bauen.
       Original nur im Mehr-Block) und Y5D3 (3 S.) in aufgabenbank
       bau/pruefung/2026-10-13/; neue Einheit „Gemischt: Gerade und
       Parabel“ in den Daten; keine Stufe „fast immer“.]
+      [13.10. nachmittags, Runde 7/8: Setzer v0.11; mehr-p10.csv je
+      Kapitel geteilt (msa/mehr-p10/); gebaut TAL3 6 S., XU62 4 S.,
+      YYZ1 3 S., HK31 1 S., 5ZQ1 3 S., VRK1 4 S. (einstufig als
+      Stufe), K9X1 3 S., DGH1 3 S. – aufgabenbank
+      bau/pruefung/2026-10-13/. Offen: Linie Länge (zwei Seiten hält
+      kein Blatt), Gleichungssysteme, Wachstum, Dreiecke in Daten.]
       4. Dann Gemischt-Blatt Funktionen, restliche Einheiten,
          Handreichung als Muster (Daten: buchstufen-p10.csv).
 Ziel danach: P10 fertig, ohne die Verallgemeinerung zu verlieren.
