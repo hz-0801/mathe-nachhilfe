@@ -614,6 +614,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Prüfung im Nachzug, Umbau erst nach zweitem bestätigendem Blatt.
   Linie „Blatt + Mehr“ (Lehrer 11.10.): Mehr-Block mit allen übrigen
   Originalen entsteht beim Bau, Setzer druckt ihn ohne Modell.
+- 13.10.2026 (c, Claude im Lauf, Lehrer bestätigt mit Go):
+  Stufe „Gleichung ablesen oder aus Punkten“ geteilt (Handgriff vor
+  Buch); Formelsammlungs-Hinweis einmal je Blatt; je gefragte Größe
+  eine Antwortzeile; Anstöße ohne Kommentar; mehr-p10.csv je
+  Kapitel (msa/mehr-p10/). Zuschnitte der Agenten in Runde 8
+  (Wahrscheinlichkeit ein Blatt, Prozent zwei, Kreis- und
+  Säulendiagramme ein Blatt) sind Agentenurteil, trotz Marke
+  „Lehrer 13.10.“ in den Gliederungen – Prüfung in § 7 Schritt A.
 - 13.10.2026 (b): Gemischt als letzter Abschnitt auf Lineare und
   Quadratische (Weg C, ersetzt Gemischt-Blatt je Ast vom 12.10.);
   Fenster verrät die Lösung nicht; Marke wie im Heft („’25 · 1f“),
