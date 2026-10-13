@@ -309,6 +309,13 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   vollständig („alle jungen Originale“) und kurz zugleich.
 - **Kein Karo bei „Zeichne“** (12.10., TAL): Zeichenaufgaben haben
   nur das Koordinatensystem; Karo nur, wo gerechnet wird.
+- **Zwischenschritt auch auf sein Blatt** (Lehrer 13.10.). Warum:
+  In der Prüfung steckt ein Handgriff oft versteckt in einer
+  größeren Aufgabe; der Schüler muss erkennen, dass er ihn braucht.
+  Beispiel: Zylinder-Netz (’22 · 2a) auch auf Fläche und Umfang,
+  dort gekürzt auf den Kreisumfang, das Übrige gegeben. Grenze: nur
+  wo der Zwischenschritt erst erkannt werden muss; liegt er offen
+  (dritter Winkel als 180° minus zwei), bleibt die Aufgabe weg.
 - **Gemischt als letzter Abschnitt auf beiden Blättern** (Lehrer
   13.10., Weg C; ersetzt das eigene Gemischt-Blatt je Ast unten).
   Warum: Der Schüler will wissen, was zu seinem Thema drankommen

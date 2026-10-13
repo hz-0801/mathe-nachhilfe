@@ -333,7 +333,10 @@ vollständig, dann ordnen, dann bauen.
       B. Restliche Einheiten bauen: Gleichungssysteme, Wachstum,
          Dreiecke in Datenform (10 Zuschnitte); Kapitel-Agenten
          parallel, Opus medium, ≈ 0,5 Wochenpunkte je Kapitel.
-      C. Verbesserungen gesammelt (bau/befunde-M3.md): Setzer am
+      C. Verbesserungen gesammelt (bau/befunde-M3.md): Zwischen-
+         schritte auf ihr Blatt (Lehrer 13.10. (d): Spalte
+         zwischenschritt nachtragen, je Aufgabe festlegen, was
+         gegeben wird); Setzer am
          Ende, alle Blätter neu gesetzt; Heranführung je Kapitel ein
          Agent; Linie Länge (Lehrer neigt zu Weg A) erst, wenn alle
          Blätter da sind.
@@ -637,6 +640,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   hilfsmittel = nein, ohne Erklärung; eine Aufgabe darf auf zwei
   Blättern stehen, je ohne das Nebensächliche; Runde 6 Weg A,
   Länge Weg A angenommen (Lineare 4, Flächen 3 S.) (Lehrer).
+- 13.10.2026 (d): Zwischenschritt aufs Blatt seines Handgriffs,
+  wenn man ihn erst erkennen muss (pruefung.md § 5); umgesetzt in
+  Schritt C; Fläche/Umfang bleibt ein Blatt, Trennung danach am
+  Blatt prüfen. Grundlage: 78 von 327 P10-Teilaufgaben mit
+  Zwischenschritt (handgriffe-p10.csv, Lücken) (Lehrer).
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
@@ -697,6 +705,8 @@ Prüfung
   Bestellung, α–δ → G; Winkelbeziehungen, Vierecke → P
 - 11.10. (e) Stufe nur bei eigenem Handgriff, sonst Einstieg + Reihe
   leicht → schwer; Umbau nach zweitem Blatt → P
+- 13.10. Zwischenschritt aufs Blatt seines Handgriffs, nur wo er
+  erst erkannt werden muss → pruefung.md § 5
 - 12.10. (b) Bedingungen rechts statt Stern; Basis am Platz ihrer
   Stufe; Häufigkeitswort; Stufen wie im Buch; Bündel; Gemischt-Blatt
   je Ast; Handreichung = Landkarte → P
