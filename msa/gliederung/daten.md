@@ -7,9 +7,9 @@ Name: Daten
 Folge: 9
 Bank: daten
 Katalog: katalog/daten.md
+Anzeigenamen: Kenngrößen = Kenngrößen | Diagramme = Kreis- und Säulendiagramme
 Kennung: Kenngrößen = K9X
-Kennung: Kreisdiagramm = DGH
-Kennung: Diagramm ergänzen und beurteilen = 32A
+Kennung: Diagramme = DGH
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -18,15 +18,40 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Zwei Blätter (Runde 8, Lehrer 13.10.; pruefung.md § 5 „Blatt = alle Originale der letzten fünf Jahre“):
+Kenngrößen (K9X, 10 Originale 2022–2026) und Diagramme (DGH). Kreisdiagramm (3 Originale 2022–2026) und
+Diagramm ergänzen und beurteilen (4) haben je höchstens vier junge Originale und werden ein Blatt mit fünf
+Stufen (Grenze der Regel: zwei Seiten, endet mit der schwersten echten, 2026-FOR-K3e); Kennung 32A ist frei.
+Stufen wie im Buch (msa/buchstufen-p10.csv) und nach dem Gesuchten: Spannweite · Median · Modalwert ·
+Mittelwert · fehlender Wert · Aussagen zu Kenngrößen; Winkel im Kreisdiagramm · Kreisdiagramm zeichnen ·
+Säule ergänzen · Aussage zum Diagramm · falscher Eindruck. Modalwert hat kein Original (nur Teilschritt in
+2025-OS-K6a) und steht nur in der Handreichung; relative Häufigkeit, Boxplot, Histogramm, Wert ablesen sind
+Buchstufen ohne eigenes Original. 2022-OS-K4a (Minimum, Maximum, dann Durchschnitt) steht bei dem, was sie
+zuletzt sucht, unter Mittelwert (wie Lineare 12.10.); 2024-OS-K2b ohne Prozentteil (Zweitthema, Spalten
+*_einheit; 2024-OS-K2b-Prozent bleibt Kapitel Prozent).
+Einstiege nur, wo der Schüler vor dem Original stolpert: Median (erst ordnen), fehlender Wert (erst die
+Summe), Winkel (Anteil · 360°), Achse ohne Zahlen (ein Kästchen ist wie viel wert?).
+Häufigkeit (pruefung.md § 5, Lehrer 13.10.; P10-Hefte 2014–2026 ohne GYM, Hauptplatz, ganz auch und
+Zwischenschritt): Spannweite 9 von 13 Jahren (Lücken 2015–2018), Mittelwert 9 (Lücken 2014, 2018, 2019,
+2023), alle übrigen höchstens 4 – keine Stufe „fast immer“; der Setzer druckt die Jahre. Eine Datenaufgabe
+mit Spannweite oder Mittelwert kam allerdings seit 2014 jedes Jahr außer 2018 – das gilt dem Kapitel, nicht
+einer Stufe.
+
 ### Minimum, Maximum, Spannweite
-- **Kern:** ja – 9 echte 2014–2026, fast jedes Jahr Einstieg der Datenaufgabe (Niveau I), Bank-Kette Kenngrößen mit Grundfall
-- **Originale:** 2026-FOR-K3a 2024-OS-K2a 2023-OS-K6c 2022-OS-K4a 2021-OS-K5a 2020-OS-K2d 2019-OS-B1i 2014-OS-K4a 2014-OS-K4b
+- **Anzeigename:** Spannweite
+- **Kern:** ja – 8 echte 2014–2026 (2022-OS-K4a seit 13.10. unter Mittelwert), fast jedes Jahr Einstieg der Datenaufgabe (Niveau I), Bank-Kette Kenngrößen mit Grundfall
+- **Originale:** 2026-FOR-K3a 2024-OS-K2a 2023-OS-K6c 2021-OS-K5a 2020-OS-K2d 2019-OS-B1i 2014-OS-K4a 2014-OS-K4b
 - **Bank:** daten-e4-k1-s1 daten-e4-k1-s2 daten-e4-k1-s9 daten-e4-k1-s8
 - **Verwechselbar:** Median | Mittelwert
 - **Zuschnitt:** Kenngrößen
   - Minimum, Maximum, Spannweite [2022-OS-K4a 2023-OS-K6c 2026-FOR-K3a 2024-OS-K2a 2025-OS-K6a]
 
 ### Median
+- **Anzeigename:** Median
+- **Schülerfrage:** Erster Schritt beim Median: Ordne die Werte der Größe nach. Gib dann den mittleren Wert an.
+- **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 → geordnet 2; 4; 5; 7; 9, Median 5
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** erst ordnen, dann abzählen: bei fünf Werten ist der dritte die Mitte; bei sechs Werten liegt sie zwischen dem dritten und vierten (beide addieren, durch 2)
 - **Kern:** nein – 2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen
 - **Originale:** 2024-OS-B1h 2015-OS-B1f
 - **Bank:** daten-e4-k1-s4 daten-e4-k1-s5
@@ -34,60 +59,79 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Kenngrößen
 
 ### Modalwert
+- **Anzeigename:** Modalwert
 - **Kern:** nein – kein Original 2014–2026, nur als Teilschritt (2025-OS-K6a); Stufe aus dem Zuschnitt (Lehrer 10.10.), damit die Kette Kenngrößen vollständig ist
 - **Originale:**
 - **Bank:** –
 - **Zuschnitt:** Kenngrößen
 
 ### Mittelwert
-- **Kern:** ja – 7 echte 2015–2026 (Niveau I/II), Bank-Kette Kenngrößen
-- **Originale:** 2026-FOR-K3b 2024-OS-K2b 2021-OS-B1f 2017-OS-B1h 2016-OS-B1a 2020-OS-K2c 2015-OS-K7a
+- **Anzeigename:** Mittelwert
+- **Kern:** ja – 8 echte 2015–2026 (Niveau I/II; mit 2022-OS-K4a), Bank-Kette Kenngrößen
+- **Originale:** 2026-FOR-K3b 2024-OS-K2b 2022-OS-K4a 2021-OS-B1f 2017-OS-B1h 2016-OS-B1a 2020-OS-K2c 2015-OS-K7a
 - **Bank:** daten-e4-k1-s6 daten-e4-k1-s7 daten-e4-k1-s10 daten-e4-k1-s11 daten-e4-k1-s12 daten-e4-k4-s4 daten-e6-k2-s3
 - **Verwechselbar:** Minimum, Maximum, Spannweite | Median
 - **Zuschnitt:** Kenngrößen
   - Mittelwert [2026-FOR-K3b 2024-OS-K2b 2025-OS-K6c]
 
 ### rückwärts: fehlender Wert
+- **Anzeigename:** Fehlender Wert zum Mittelwert
+- **Schülerfrage:** Erster Schritt rückwärts: Aus dem Durchschnitt wird die Summe. Wie groß ist sie?
+- **Schülerfrage-Fälle:** drei Zahlen, Durchschnitt 6 → Summe 18
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Durchschnitt = Summe : Anzahl, also Summe = Durchschnitt · Anzahl = 6 · 3 = 18; der fehlende Wert ist dann Summe minus die bekannten Werte
 - **Kern:** nein – 1 echte (Basisteil 2022)
 - **Originale:** 2022-OS-B1d
 - **Bank:** daten-e4-k1-s13 daten-e6-k2-s4
 - **Zuschnitt:** Kenngrößen
 
 ### Aussagen prüfen, Auswirkung erklären
+- **Anzeigename:** Aussagen zu Kenngrößen prüfen
 - **Kern:** nein – 2 echte, nur 2025 (Niveau II/III)
 - **Originale:** 2025-OS-K6a 2025-OS-K6c
 - **Bank:** daten-e4-k1-s14 daten-e4-k1-s15 daten-e4-k1-s16 daten-e4-k3-s1 daten-e4-k4-s2
+- **Zuschnitt:** Kenngrößen
 
 ### Winkel berechnen und beschriften
+- **Anzeigename:** Winkel im Kreisdiagramm
+- **Schülerfrage:** Wie viel Grad hat der Sektor im Kreisdiagramm? Der ganze Kreis hat 360°.
+- **Schülerfrage-Fälle:** die Hälfte → 180 | 10 % → 36 | 30 von 120 Befragten → 90
+- **Schülerfrage-Form:** linie:°
+- **Schülerfrage-Weg:** Anteil · 360°: 0,5 · 360° = 180°; 0,10 · 360° = 36°; 30 : 120 = 0,25 und 0,25 · 360° = 90°
 - **Kern:** ja – 4 echte (2017, 2021, 2022, 2024), Bank-Kette Anteile darstellen mit Grundfall
 - **Originale:** 2022-OS-K4d 2024-OS-K2c 2017-OS-K2c 2021-OS-K5b
 - **Bank:** daten-e3-k1-s5 daten-e3-k1-s6 daten-e3-k1-s8 daten-e3-k1-s9 daten-e3-k1-s10 daten-e3-k1-s4 daten-e3-k3-s4 daten-e3-k1-s12[2017-OS-K2c,2024-OS-K2c]
-- **Zuschnitt:** Kreisdiagramm
+- **Zuschnitt:** Diagramme
 
 ### aus Prozent darstellen
+- **Anzeigename:** Kreisdiagramm zeichnen
 - **Kern:** nein – 2 echte (2018, 2025)
 - **Originale:** 2025-OS-K6b 2018-OS-K3c
 - **Bank:** daten-e3-k1-s2 daten-e3-k1-s3 daten-e3-k3-s3 daten-e3-k1-s12[2025-OS-K6b]
-- **Zuschnitt:** Kreisdiagramm
+- **Zuschnitt:** Diagramme
   - aus Prozent darstellen (selten geprüft, auffüllen) [] neben [2025-OS-K6b]
 
 ### ergänzen
+- **Anzeigename:** Säule ergänzen
+- **Frage:** Erster Schritt: Wie viel ist eine Hilfslinie oder ein Kästchen wert? Ohne Zahlen an der Achse: Wert einer bekannten Säule : ihre Kästchen.
 - **Kern:** ja – 4 echte (2018, 2020, 2023, 2026), Bank-Kette Diagramme lesen mit Grundfall
 - **Originale:** 2026-FOR-K3d 2023-OS-K6d 2020-OS-K2a 2018-OS-K3a
 - **Bank:** daten-e2-k2-s7 daten-e2-k2-s8 daten-e2-k2-s9 daten-e2-k2-s12 daten-e2-k3-s1 daten-e2-k4-s3
-- **Zuschnitt:** Diagramm ergänzen und beurteilen
+- **Zuschnitt:** Diagramme
 
 ### Aussage prüfen
+- **Anzeigename:** Aussage zum Diagramm prüfen
 - **Kern:** ja – 3 echte (2018, 2019, 2022), Bank-Kette Beurteilen mit Grundfall (Aussage mit einem Wert prüfen)
 - **Originale:** 2022-OS-K4c 2018-OS-K3d 2019-OS-K5c
 - **Bank:** daten-e5-k1-s1 daten-e5-k1-s2 daten-e5-k1-s3 daten-e5-k1-s4 daten-e5-k1-s5 daten-e5-k1-s7 daten-e5-k1-s8 daten-e5-k4-s4 daten-e5-k1-s11[2018-OS-K3d,2019-OS-K5c]
-- **Zuschnitt:** Diagramm ergänzen und beurteilen
+- **Zuschnitt:** Diagramme
 
 ### falschen Eindruck erklären
+- **Anzeigename:** Falscher Eindruck
 - **Kern:** nein – 2 echte (2014, 2026), Niveau III, eine Sprosse der Kette Beurteilen
 - **Originale:** 2026-FOR-K3e 2014-OS-K3d
 - **Bank:** daten-e5-k1-s6 daten-e5-k1-s9 daten-e5-k3-s1 daten-e5-k4-s1 daten-e5-k4-s2 daten-e5-k1-s11[2026-FOR-K3e]
-- **Zuschnitt:** Diagramm ergänzen und beurteilen
+- **Zuschnitt:** Diagramme
 
 ## Plätze der Originale
 
@@ -132,7 +176,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2022-GYM-K6b | Minimum, Maximum, Spannweite |  | Median | Hauptplatz nach typ „Spannweite berechnen“. Zwischenschritt aus typ_neben |
 | 2022-GYM-K6c | Aussage prüfen |  | falschen Eindruck erklären; prozent:Erhöhung und Veränderung in Prozent | Hauptplatz nach typ „Aussage zu Diagramm prüfen“. Abnahme 50 %, Achse beginnt nicht bei 0 |
 | 2022-OS-B1d | rückwärts: fehlender Wert |  |  | Hauptplatz nach typ „Fehlenden Wert aus Mittelwert bestimmen“ |
-| 2022-OS-K4a | Minimum, Maximum, Spannweite |  | Mittelwert | Hauptplatz nach typ „Minimum und Maximum ablesen“. Zwischenschritt aus typ_neben |
+| 2022-OS-K4a | Mittelwert |  | Minimum, Maximum, Spannweite | steht bei dem, was sie zuletzt sucht (Durchschnitt; Runde 8, 13.10.); Minimum und Maximum als Zwischenschritt |
 | 2022-OS-K4c | Aussage prüfen |  |  | Hauptplatz nach typ „Aussage zu Diagramm prüfen“ |
 | 2022-OS-K4d | Winkel berechnen und beschriften |  |  | Hauptplatz nach typ „Sektor im Kreisdiagramm zuordnen“ |
 | 2023-GYM-K5a | aus Prozent darstellen |  |  | Hauptplatz nach typ „Streifendiagramm zeichnen“ |
