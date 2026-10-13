@@ -27,6 +27,18 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 (2024-OS-K3c steht seit 13.10. auf keinem Einheitsblatt, nur auf dem Gemischt-Blatt Gerade und Parabel) – nur Mehr-Block. Einstieg: keiner
 (`Einstieg: nein`; die Originale sind Niveau I bis auf die letzte Stufe).
 
+Runde 8 (Lehrer 13.10., ersetzt XU6 vom 12.10.): „Punkt auf der Parabel prüfen“ steht wieder auf dem
+Blatt, gefüllt mit den älteren P10-Originalen 2020-OS-K3b/K3c, 2018-OS-K5a, 2014-OS-K7a (Setzer v0.11,
+leere Stufe aus älteren Originalen); Fenster wie im Original (Fenster verrät die Lösung nicht).
+
+Einheit „Quadratische Gleichung lösen“ (YYZ): Nullstellen berechnen · x zu gegebenem y · Schnittpunkte
+von Gerade und Parabel; erster Schritt jedes Originals ist dieselbe Normalform $x^2 + px + q = 0$
+(Schülerfrage der ersten Stufe, kurze Anstöße bei den anderen). Die jungen Schnittpunkt-Originale
+2024-OS-K3d und 2022-OS-K3c stehen ungekürzt im Abschnitt „Gemischt: Gerade und Parabel“ am Ende dieses
+Blatts und von Lineare; die Stufe selbst trägt 2021-OS-K2c. Häufigkeit (P10 2014–2026 ohne GYM): keine
+Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 und vier Zwischenschritte)
+– keine Zeile „Häufigkeit“.
+
 ### Wertetabelle oder Skizze
 - **Anzeigename:** Wertetabelle oder Skizze
 - **Einstieg:** nein
@@ -52,7 +64,7 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 - **Bank:** quadratische-funktionen-e1-k1-s4(i) quadratische-funktionen-e3-k1-s2(i) quadratische-funktionen-e4-k1-s14(i)
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
   - Punkt auf der Parabel prüfen [] neben [2024-OS-K3c]
-- **Hinweis:** Lehrer 10.10.: Einsetzen eigenes Blatt (lineare); hier kein Original 2022–2026, die älteren im Mehr-Block – die Stufe entfällt auf dem Blatt
+- **Hinweis:** Lehrer 10.10.: Einsetzen eigenes Blatt (lineare); hier kein Original 2022–2026 – seit Setzer v0.11 stehen die älteren P10-Originale auf dem Blatt (Runde 8)
 
 ### Scheitelpunktform angeben
 - **Anzeigename:** Gleichung in Scheitelpunktform
@@ -71,6 +83,11 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 - **Zuschnitt:** Parabel: Scheitelpunkt und Skizze
 
 ### Nullstellen berechnen
+- **Anzeigename:** Nullstellen berechnen
+- **Schülerfrage:** Welche Gleichung löst du mit der p-q-Formel? Bring sie auf die Form $x^2 + px + q = 0$. Rechne nicht weiter.
+- **Schülerfrage-Fälle:** Nullstellen von $p(x) = x^2 - 6x + 5$ → $x^2 - 6x + 5 = 0$ | Nullstellen von $y = 3x^2 + 12x - 15$ → $x^2 + 4x - 5 = 0$ (durch 3 geteilt)
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** Nullstelle heißt y = 0; vor x² muss eine 1 stehen, sonst durch die Zahl davor teilen
 - **Kern:** ja – 3 echte (2017, 2020, 2025), Bank-Kette Nullstellen und Schnittpunkte mit Grundfall, p-q-Formel trägt auch Gleichsetzen
 - **Originale:** 2025-OS-K5c 2020-OS-K3e 2017-OS-K5d
 - **Bank:** quadratische-funktionen-e4-k1-s1(i) quadratische-funktionen-e4-k1-s3(i) quadratische-funktionen-e4-k1-s4(i) quadratische-funktionen-e4-k1-s5(i) quadratische-funktionen-e4-k1-s6(i) quadratische-funktionen-e4-k1-s7(i) quadratische-funktionen-e4-k1-s21 quadratische-gleichungen-e3-k3-s19[2025-OS-K5c,2020-OS-K3e,2017-OS-K5d]
@@ -78,6 +95,8 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 - **Zuschnitt:** Quadratische Gleichung lösen
 
 ### x zu gegebenem y
+- **Anzeigename:** x zu gegebenem y
+- **Frage:** Der y-Wert ist gegeben: Setz ihn für p(x) ein und bring alles auf eine Seite.
 - **Kern:** nein – 1 echte (2023)
 - **Originale:** 2023-OS-K4c
 - **Bank:** quadratische-funktionen-e4-k1-s8(i) quadratische-funktionen-e4-k1-s22 quadratische-gleichungen-e3-k3-s19[2023-OS-K4c]
@@ -85,11 +104,19 @@ Schritt. „Punkt auf der Parabel prüfen“ bleibt Stufe der Einheit, hat aber 
 - **Zuschnitt:** Quadratische Gleichung lösen
 
 ### Gerade und Parabel gleichsetzen
+- **Anzeigename:** Schnittpunkte von Gerade und Parabel
+- **Frage:** Im Schnittpunkt haben beide denselben y-Wert: Setz die beiden Terme gleich.
 - **Kern:** ja – 3 echte (2021, 2022, 2024), jedes zweite Jahr letzte Funktionsteilaufgabe, auf der Kette Nullstellen und Schnittpunkte mit Grundfall
 - **Originale:** 2022-OS-K3c 2024-OS-K3d 2021-OS-K2c
 - **Bank:** quadratische-funktionen-e4-k1-s9(i) quadratische-funktionen-e4-k1-s10(i) quadratische-funktionen-e4-k1-s11(i) quadratische-funktionen-e4-k1-s12(i) quadratische-funktionen-e4-k1-s13(i) quadratische-funktionen-e4-k1-s20 quadratische-gleichungen-e3-k4-s1(i) quadratische-gleichungen-e3-k3-s19[2022-OS-K3c,2024-OS-K3d,2021-OS-K2c]
 - **Verwechselbar:** Nullstellen berechnen | x zu gegebenem y
 - **Zuschnitt:** Quadratische Gleichung lösen
+
+### Gemischt: Gerade und Parabel
+- **Anzeigename:** Gerade und Parabel zusammen
+- **Zuschnitt:** Quadratische Gleichung lösen
+- **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
+- **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c
 
 ## Plätze der Originale
 

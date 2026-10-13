@@ -38,6 +38,12 @@ Geraden-Blatt, sondern ungekürzt auf dem Gemischt-Blatt Gerade und Parabel (meh
 „Gemischt: Gerade und Parabel“; pruefung.md „Zweitthema ausblenden“). Koordinatensysteme breiter (Karo
 0,45 cm, Gerade über mehrere Einheiten mit Platz für ein Steigungsdreieck), Lösungen mit Ansatz.
 
+Runde 8 (Lehrer 13.10.): Fenster wie im Original, wo der fremde Teil nicht ausgeblendet ist (Fenster
+verrät die Lösung nicht); 2026-FOR-K5a eigenes Fenster ohne Parabel nicht mehr nötig, die Teilaufgabe
+steht ungekürzt im Abschnitt „Gemischt: Gerade und Parabel“ (am Ende, auch auf Quadratische), ebenso
+2023-OS-K4a; das Bündel 2024-3a/2026-5a ist aufgelöst. „Gleichung aus Graph“ wird mit den Originalen
+2019-OS-K2b/K2c gefüllt (Setzer v0.11, ältere füllen eine leere Stufe), Graphen f, g, h als grafik.
+
 Häufigkeit (pruefung.md § 5, Lehrer 13.10.; P10-Hefte 2014–2026 ohne GYM, Hauptplatz, ganz auch und
 Zwischenschritt aus msa/handgriffe-p10.csv): keine Stufe kam fast jedes Jahr. Gerade zeichnen 7 von 13
 Jahren (2016, 2021–2026), Punktprobe 9 (Lücken 2015, 2016, 2019, 2020), Gleichung aus Text 4, aus zwei
@@ -96,6 +102,12 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Gleichungssysteme:** geprüft 13.10. (Lehrer: geht es um Gleichungen aus Text, bleibt es bei Lineare): keine Sachaufgabe dieser Stufe braucht zwei Gleichungen – 2022-OS-K6a/b und 2016-OS-K6c eine Gleichung, 2023-OS-K3a/b und 2016-OS-K6a/b vergleichen zwei Angebote durch Einsetzen (kein System), 2021-OS-K7a ordnet zu. Die Aufgaben mit zwei Gleichungen (2016-OS-K6d, 2021-OS-K7b, 2024-OS-K7a) stehen schon im Kapitel gleichungssysteme (Stufe „aufstellen“); nichts auszublenden
 - **Verwechselbar:** wachstum:Tabelle ergänzen | wachstum:Faktor bestimmen, Gleichung aufstellen
 - **Zuschnitt:** Lineare Funktionen
+
+### Gemischt: Gerade und Parabel
+- **Anzeigename:** Gerade und Parabel zusammen
+- **Zuschnitt:** Lineare Funktionen
+- **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
+- **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c
 
 ## Plätze der Originale
 
