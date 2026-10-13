@@ -677,7 +677,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   neun Blätter, Lehrer sieht Muster und Stichprobe statt jedes Blatt
   (Grund: dieselben Fehler auf jedem Blatt, sonst nicht fertig);
   Restvolumen kein Abschnitt (Weg A, wie „Figur erst zerlegen“);
-  Heranführung für sich verständlich, Anregung statt Reihe (Lehrer).
+  Heranführung für sich verständlich, Anregung statt Reihe;
+  Abschnitt „rückwärts“ beginnt mit Umstellen an einer einfacheren
+  Formel ohne Zahlen (zweites Blatt nach Flächen → Regel); Namen der
+  Abschnitte nach dem Muster „… gesucht“; Lernblätter eher ein Thema
+  und Blick nach Figur → § 9 (Lehrer). Regeln mit Warum – Beispiel –
+  Grenze in aufgabenbank bau/befunde-M3.md, nach pruefung.md in C.
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
