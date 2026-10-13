@@ -47,20 +47,23 @@ einer Stufe.
 - **Zuschnitt:** Kenngrößen
   - Minimum, Maximum, Spannweite [2022-OS-K4a 2023-OS-K6c 2026-FOR-K3a 2024-OS-K2a 2025-OS-K6a]
 - **Durchsicht 13.10.:** Runde A: Anzeigename nach dem Gesuchten („Spannweite gesucht“); keine Heranführung, das erste Original (größter minus kleinster Preis) ist der Einstieg.
+- **Frage:** Kenngrößen in deiner Formelsammlung: Seite ___
+- **Probe 14.10.:** Ebene 1 (Seitenfrage, einmal je Blatt, an der ersten Stufe): Regine S. 42 hat alle Kenngrößen des Blatts auf einer Seite (Spannweite R, Zentralwert, Mittelwert, Modalwert); Lösung „S. 42“ aus Feld Regine.
 
 ### Median
 - **Anzeigename:** Median gesucht
 - **Regine:** S. 42
-- **Schülerfrage:** Welcher Wert steht in der Mitte? Ordne die Werte zuerst der Größe nach.
-- **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 = 5 | 8; 2; 6; 4 = 5
+- **Schülerfrage:** Zentralwert (Median): erst ordnen – die Mitte der ungeordneten Reihe ist es nicht.
+- **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 → 5 (nicht 7) | 8; 2; 6; 4 → 5 (nicht 4)
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** geordnet 2; 4; 5; 7; 9: bei fünf Werten ist der dritte die Mitte; geordnet 2; 4; 6; 8: bei vier Werten liegt die Mitte zwischen 4 und 6, (4 + 6) : 2 = 5
+- **Schülerfrage-Weg:** ungeordnet stünde 7 bzw. 2 und 6 in der Mitte; geordnet 2; 4; 5; 7; 9: der dritte, 5; geordnet 2; 4; 6; 8: zwischen 4 und 6, (4 + 6) : 2 = 5
 - **Kern:** nein – 2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen
 - **Originale:** 2024-OS-B1h 2015-OS-B1f
 - **Bank:** daten-e4-k1-s4 daten-e4-k1-s5
 - **Verwechselbar:** Minimum, Maximum, Spannweite | Mittelwert
 - **Zuschnitt:** Kenngrößen
 - **Durchsicht 13.10.:** Runde A: zwei Fälle statt einem – ungerade Anzahl (ordnen, Mitte abzählen) und gerade Anzahl (Mitte zwischen zwei Werten), denn ’24 · B1h hat sechs Werte; Satz „Erster Schritt beim Median“ weg, die Frage steht für sich.
+- **Probe 14.10.:** Ebene 2 (Eigenschaft abfragen): Wort wie Regine S. 42 („Zentralwert“, Duden S. 37 ebenso); Erkennen-Schritt gegen die Fehlvorstellung „Median ohne Sortieren“ – die Mitte der ungeordneten Liste ist der falsche Wert; gerader Fall bleibt (’24 · 1h hat sechs Werte).
 
 ### Modalwert
 - **Anzeigename:** Modalwert gesucht

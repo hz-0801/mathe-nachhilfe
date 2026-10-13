@@ -47,6 +47,8 @@ druckt die Jahre.
 - **Anzeigename:** Prozentwert gesucht
 - **Regine:** S. 18
 - **Durchsicht 13.10.:** Name schon in der Reihe „… gesucht“; ein leichtes Basis-Original, keine Heranführung nötig.
+- **Frage:** Prozentrechnung in deiner Formelsammlung: Seite ___
+- **Probe 14.10.:** Ebene 1 (Seitenfrage, einmal je Blatt, an der ersten Stufe): erst die Stelle in Regine finden (S. 18, Grundgleichung mit G, W, p); Lösung „S. 18“ aus Feld Regine.
 - **Kern:** ja – 6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall
 - **Originale:** 2026-FOR-B1a 2014-OS-B1a 2017-OS-B1b 2021-OS-B1c 2019-OS-K5a 2015-OS-K2a
 - **Bank:** prozentrechnung-e3-k1-s6 prozentrechnung-e3-k1-s7 prozentrechnung-e3-k1-s11 prozentrechnung-e3-k2-s1 prozentrechnung-e3-k3-s4
@@ -81,10 +83,10 @@ druckt die Jahre.
 ### Grundwert
 - **Anzeigename:** Grundwert gesucht
 - **Regine:** S. 18
-- **Schülerfrage:** Der Prozentwert W ist der Teil, der Grundwert G das Ganze, p der Prozentsatz als Dezimalzahl. Stelle die Formel nach G um.
-- **Schülerfrage-Fälle:** W = G · p, gesucht ist G → G = W : p
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** beide Seiten durch p teilen: G = W : p; steht p in Prozent da, erst als Dezimalzahl schreiben (30 % = 0,3) oder W : 30 · 100 rechnen
+- **Schülerfrage:** 6 Kinder sind 20 % der Klasse. Sind die 6 Kinder W oder G? Was ist gesucht?
+- **Schülerfrage-Fälle:** → 6 Kinder = W; gesucht G (die ganze Klasse)
+- **Schülerfrage-Form:** antwort:6 Kinder|;gesucht|
+- **Schülerfrage-Weg:** 6 Kinder sind ein Teil: W = 6; das Ganze fehlt: G gesucht, G = W · 100 : p = 6 · 100 : 20 = 30
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
 - **Originale:** 2023-OS-B1b 2025-OS-B1a
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
@@ -92,6 +94,7 @@ druckt die Jahre.
 - **Zuschnitt:** Grundwert
   - Grundwert (erst erkennen: Ganzes oder Teil?) [2023-OS-B1b 2025-OS-B1a]
 - **Durchsicht 13.10.:** Rückwärts-Abschnitt: statt vier Sätze ankreuzen („gegeben oder gesucht?“ – die Überschrift verrät es schon) die Formel W = G · p ohne Zahlen nach G umstellen, wie bei Körper und Flächen.
+- **Probe 14.10.:** Ebene 2 (Eigenschaft abfragen: Teil oder Ganzes?) statt Umstellen – Regine S. 18 hat G schon umgestellt; Stolperstein: gegebene Zahl fürs Ganze halten (Fehlvorstellung W/G verwechselt → 20 % von 6). Bezeichnungen wie Regine.
 
 ### Erhöhung und Veränderung in Prozent
 - **Anzeigename:** Veränderung in Prozent gesucht
