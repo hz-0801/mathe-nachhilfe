@@ -34,32 +34,37 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 ## Stufen
 
 ### Ergebnisse aufzählen
+- **Anzeigename:** Ergebnisse aufzählen
 - **Kern:** ja – 3 echte (2017, 2020, 2025), Einstieg der Zufallsaufgabe (Niveau I), Bank-Kette Zählen mit Grundfall
 - **Originale:** 2025-OS-K3a 2020-OS-K6a 2017-OS-B1f
 - **Bank:** wahrscheinlichkeit-e1-k1-s1 wahrscheinlichkeit-e1-k1-s3 wahrscheinlichkeit-e1-k1-s6 wahrscheinlichkeit-e1-k1-s7 wahrscheinlichkeit-e1-k2-s1 wahrscheinlichkeit-e1-k3-s3
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anzeigename ausdrücklich; keine Heranführung, das Aufzählen an zwei Scheiben braucht keine.
 
 ### Wahrscheinlichkeit angeben
+- **Anzeigename:** Wahrscheinlichkeit angeben
 - **Kern:** ja – 12 echte 2014–2026, fast jedes Jahr Basis und Kontext (Niveau I), Bank-Kette Einstufig mit Grundfall
 - **Originale:** 2024-OS-K5a 2026-FOR-K6a 2019-OS-K6a 2018-OS-K7b 2017-OS-K6a 2016-OS-K5c 2016-OS-K5d 2014-OS-K6a 2016-OS-B1f 2015-OS-B1a 2014-OS-B1b 2014-OS-B1d
 - **Bank:** wahrscheinlichkeit-e2-k3-s1 wahrscheinlichkeit-e2-k3-s2 wahrscheinlichkeit-e2-k3-s3 wahrscheinlichkeit-e2-k3-s4 wahrscheinlichkeit-e2-k3-s5 wahrscheinlichkeit-e2-k3-s6 wahrscheinlichkeit-e2-k3-s10 wahrscheinlichkeit-e2-k3-s12 wahrscheinlichkeit-e2-k3-s13 wahrscheinlichkeit-e2-k4-s1 wahrscheinlichkeit-e2-k6-s3
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anzeigename ausdrücklich; keine Heranführung (günstige durch mögliche an einem Würfel ist der Grundfall selbst).
 
 ### Baum ergänzen
 - **Anzeigename:** Baum ergänzen
-- **Schülerfrage:** Ein Ast an einer Verzweigung fehlt. Wie groß ist er? Rechne im Kopf.
-- **Schülerfrage-Fälle:** Los: Gewinn $\frac{3}{8}$, Niete? → $\frac{5}{8}$ | Glücksrad: Treffer 0,35, kein Treffer? → 0,65
+- **Schülerfrage:** Ein Los gewinnt mit der Wahrscheinlichkeit $\frac{3}{8}$. Mit welcher Wahrscheinlichkeit ist es eine Niete? Rechne im Kopf.
+- **Schülerfrage-Fälle:** P(Niete) → $\frac{5}{8}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** an jeder Verzweigung ergeben die Äste zusammen 1: 1 − 3/8 = 5/8; 1 − 0,35 = 0,65
+- **Schülerfrage-Weg:** Gewinn und Niete ergeben zusammen 1: 1 − 3/8 = 5/8; so ergänzt du an jeder Verzweigung den fehlenden Ast
 - **Kern:** ja – 6 echte 2014–2026 (Niveau I/II), Bank-Kette Mit Zurücklegen mit Grundfall (Baum zeichnen)
 - **Originale:** 2024-OS-K5b 2026-FOR-K6b 2020-OS-K6c 2019-OS-K6b 2015-OS-K7d 2014-OS-K6b
 - **Bank:** wahrscheinlichkeit-e3-k3-s1 wahrscheinlichkeit-e3-k3-s2 wahrscheinlichkeit-e3-k3-s11 wahrscheinlichkeit-e3-k4-s3 wahrscheinlichkeit-e4-k1-s2 wahrscheinlichkeit-e4-k1-s6
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anstoß steht für sich (ein Los statt „ein Ast fehlt“, den der Schüler noch nicht sieht); ein Fall statt zwei, der Dezimalfall trug keinen neuen Gedanken.
 
 ### Pfadregel
-- **Anzeigename:** Pfad- und Summenregel
-- **Schülerfrage:** Mal oder plus? Schreib zu jedem Fall die Rechenart. Rechne nicht.
-- **Schülerfrage-Fälle:** entlang eines Pfades (erst rot, dann blau) → mal | mehrere Pfade zusammen (rot-blau oder blau-rot) → plus
+- **Anzeigename:** Pfadregeln anwenden
+- **Schülerfrage:** Ein Glücksrad mit roten und blauen Feldern wird zweimal gedreht. Rechnest du mit den Wahrscheinlichkeiten mal oder plus? Rechne nicht.
+- **Schülerfrage-Fälle:** erst rot, dann blau → mal | einmal rot und einmal blau, egal in welcher Folge → je Pfad mal, dann plus
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Pfadregel: die Äste eines Pfades multiplizieren; Summenregel: die Pfade eines Ereignisses addieren
 - **Kern:** ja – 5 echte (2014, 2020, 2025 zweimal, 2026 über das Gegenereignis), Bank-Kette Mit Zurücklegen; 2026-FOR-K6c (Gegenereignis, ein Original) als schwerste Aufgabe der Stufe
@@ -67,29 +72,32 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Bank:** wahrscheinlichkeit-e3-k3-s3 wahrscheinlichkeit-e3-k3-s4 wahrscheinlichkeit-e3-k3-s5 wahrscheinlichkeit-e3-k3-s8 wahrscheinlichkeit-e3-k3-s9 wahrscheinlichkeit-e3-k4-s4 wahrscheinlichkeit-e3-k3-s6 wahrscheinlichkeit-e3-k3-s7 wahrscheinlichkeit-e2-k3-s7
 - **Verwechselbar:** ohne Zurücklegen
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anzeigename als Tätigkeit; Anstoß steht für sich (ein Glücksrad statt „entlang eines Pfades“ ohne Baum); zwei Fälle wie die zwei Gedanken von ’25 · 3b/3c.
 
 ### ohne Zurücklegen
-- **Anzeigename:** ohne Zurücklegen
-- **Schülerfrage:** In einer Dose liegen 5 Kugeln, 2 davon rot. Du ziehst eine rote und legst sie nicht zurück. Was liegt jetzt noch in der Dose?
-- **Schülerfrage-Fälle:** nach dem Ziehen → 4 Kugeln, davon 1 rote
+- **Anzeigename:** ohne Zurücklegen rechnen
+- **Schülerfrage:** In einer Dose liegen 5 Kugeln, 2 davon rot. Du ziehst eine blaue und legst sie nicht zurück. Was liegt jetzt noch in der Dose?
+- **Schülerfrage-Fälle:** nach dem Ziehen → 4 Kugeln, davon 2 rote
 - **Schülerfrage-Form:** antwort:Kugeln|;davon rote|
-- **Schülerfrage-Weg:** Nenner und Zähler werden je um 1 kleiner; der nächste Ast ist 1/4
+- **Schülerfrage-Weg:** es liegt eine Kugel weniger da, die roten sind alle noch drin; der nächste Ast „rot“ ist 2/4, nicht 2/5
 - **Kern:** ja – 3 echte (2018, 2019, 2024, Niveau II), Bank-Kette Ohne Zurücklegen mit Grundfall
 - **Originale:** 2024-OS-K5c 2019-OS-K6c 2018-OS-K7c
 - **Bank:** wahrscheinlichkeit-e4-k1-s1 wahrscheinlichkeit-e4-k1-s3 wahrscheinlichkeit-e4-k1-s4 wahrscheinlichkeit-e4-k1-s5 wahrscheinlichkeit-e4-k1-s7 wahrscheinlichkeit-e4-k1-s9 wahrscheinlichkeit-e4-k1-s10 wahrscheinlichkeit-e4-k2-s4
 - **Verwechselbar:** Pfadregel
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anzeigename als Tätigkeit; gezogen wird eine blaue statt einer roten – wie in ’24 · 5c (Benjamin zieht keinen Joker) bleibt der Zähler, nur der Nenner sinkt.
 
 ### Zufallsgerät entwerfen
 - **Anzeigename:** Zufallsgerät entwerfen
-- **Schülerfrage:** Schreib die Wahrscheinlichkeit als Produkt zweier Brüche mit dem Nenner 4.
-- **Schülerfrage-Fälle:** $\frac{3}{16}$ → $\frac{3}{4} \cdot \frac{1}{4}$
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** 16 = 4 · 4, also 3/16 = 3/4 · 1/4: links drei Felder mit der Ziffer, rechts eines
+- **Schülerfrage:** Zwei Glücksräder mit je 4 gleich großen Feldern werden gedreht. Die Wahrscheinlichkeit, dass beide auf Rot stehen bleiben, soll $\frac{3}{16}$ sein. Wie viele rote Felder bekommt jedes Rad?
+- **Schülerfrage-Fälle:** rote Felder → 3 und 1
+- **Schülerfrage-Form:** antwort:erstes Rad|;zweites Rad|
+- **Schülerfrage-Weg:** 16 = 4 · 4, also 3/16 = 3/4 · 1/4: ein Rad drei rote Felder, das andere eines
 - **Kern:** nein – 4 echte (2018, 2019, 2025, 2026), aber Niveau II/III und nur Sprossen ohne eigene Kette mit Grundfall
 - **Originale:** 2025-OS-K3d 2026-FOR-K6d 2019-OS-B1g 2018-OS-B1j
 - **Bank:** wahrscheinlichkeit-e2-k3-s9 wahrscheinlichkeit-e3-k3-s10 wahrscheinlichkeit-e2-k3-s8
 - **Zuschnitt:** Baumdiagramm und Pfadregeln
+- **Durchsicht 13.10.:** Runde A: Anstoß steht für sich (Glücksräder statt eines nackten Bruchs, der nur mit der folgenden Aufgabe Sinn ergibt); derselbe Gedanke: Wahrscheinlichkeit als Produkt, Zähler = Felder.
 
 ## Plätze der Originale
 
