@@ -7,6 +7,7 @@ Name: Wachstum
 Folge: 7
 Bank: potenz-exponentialfunktionen
 Katalog: katalog/potenz-exponentialfunktionen.md
+Anzeigenamen: Exponentielles Wachstum = Exponentielles Wachstum
 Kennung: Exponentielles Wachstum = 74A
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
@@ -16,7 +17,23 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
+Vier Stufen nach dem Gesuchten (pruefung.md § 5, Runde 13.10. Schritt B): Tabelle ergänzen · Graph
+zeichnen · Faktor und Gleichung gesucht · Graph zuordnen. Buchstufen (msa/buchstufen-p10.csv) „Wachstumsfaktor
+gesucht“, „Gleichung aufstellen oder deuten“ und „Wert nach n Jahren“ stehen zusammen unter „Faktor und
+Gleichung gesucht“: in den Originalen kommen sie in einer Teilaufgabe (’25 · 7b, ’26 · 7c). „Zeit bis
+Verdopplung oder Schwelle“ (2016, 2018, 2020) hat keine Stufe im Zuschnitt und kein Original 2022–2026.
+Blatt = alle Originale 2022–2026 (5: ’26 · 7a, 7b, 7c; ’25 · 7a, 7b), ältere im Mehr-Block. Kein Bündel.
+Stolperstein (pruefung.md § 2): der Wachstumsfaktor auf beiden Wegen – aus dem Prozentsatz (2,3 % → 1,023,
+nicht 1,23) vor „Tabelle ergänzen“, als Quotient aus der Tabelle vor „Faktor und Gleichung gesucht“.
+Häufigkeit (P10-Hefte 2014–2026): Wachstum kam 2016–2020, 2025 und 2026, Lücken 2014, 2015, 2021–2024 –
+keine Stufe „fast immer“; der Setzer druckt die Jahre.
+
 ### Tabelle ergänzen
+- **Anzeigename:** Tabelle ergänzen
+- **Schülerfrage:** Ein Betrag wächst jedes Jahr um denselben Prozentsatz. Mit welcher Zahl multiplizierst du ihn, um den Betrag im nächsten Jahr zu bekommen?
+- **Schülerfrage-Fälle:** Wachstum um 5 % = 1,05 | Wachstum um 2,3 % = 1,023
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** 100 % + 5 % = 105 % = 1,05; 100 % + 2,3 % = 102,3 % = 1,023 (nicht 1,23)
 - **Kern:** ja – 5 echte 2016–2026, Einstieg fast jeder Wachstumsaufgabe (Niveau I), Bank-Kette Wachstumstabelle fortschreiben mit Grundfall
 - **Originale:** 2026-FOR-K7a 2020-OS-K4a 2019-OS-K7a 2017-OS-K7a 2016-OS-K4a
 - **Bank:** potenz-exponentialfunktionen-e2-k2-s1 potenz-exponentialfunktionen-e2-k2-s2 potenz-exponentialfunktionen-e2-k2-s3 potenz-exponentialfunktionen-e2-k2-s4 potenz-exponentialfunktionen-e2-k2-s5 potenz-exponentialfunktionen-e2-k2-s6 potenz-exponentialfunktionen-e2-k2-s7 potenz-exponentialfunktionen-e2-k2-s8 potenz-exponentialfunktionen-e2-k3-s3
@@ -24,12 +41,18 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Exponentielles Wachstum
 
 ### Punkte darstellen
+- **Anzeigename:** Graph zeichnen
 - **Kern:** ja – 4 echte (2016, 2017, 2021, 2025), Bank-Kette Wertepaare darstellen mit Grundfall
 - **Originale:** 2025-OS-K7a 2017-OS-K7b 2016-OS-K4b 2021-OS-K6b
 - **Bank:** potenz-exponentialfunktionen-e1-k3-s1 potenz-exponentialfunktionen-e1-k3-s2 potenz-exponentialfunktionen-e1-k3-s3 potenz-exponentialfunktionen-e1-k3-s4 potenz-exponentialfunktionen-e1-k3-s5 potenz-exponentialfunktionen-e1-k4-s3
 - **Zuschnitt:** Exponentielles Wachstum
 
 ### Faktor bestimmen, Gleichung aufstellen
+- **Anzeigename:** Faktor und Gleichung gesucht
+- **Schülerfrage:** Eine Größe wächst in einem Jahr von 200 auf 210. Mit welcher Zahl wurde sie multipliziert, und um wie viel Prozent ist sie gewachsen?
+- **Schülerfrage-Fälle:** von 200 auf 210 → 210 : 200 = 1,05; 5 %
+- **Schülerfrage-Form:** antwort:Faktor|;Wachstum|%
+- **Schülerfrage-Weg:** neuer Wert durch alten Wert: 210 : 200 = 1,05; 1,05 = 105 %, also 5 % mehr
 - **Kern:** ja – 8 echte 2016–2026 (mit Funktionswert aus der Gleichung), Bank-Ketten Wachstumsfaktor und Exponentialfunktion aufstellen mit Grundfall
 - **Originale:** 2025-OS-K7b 2026-FOR-K7c 2018-OS-K2a 2017-OS-K7c 2019-OS-K7b 2020-OS-K4c 2017-OS-K7d 2016-OS-K4e
 - **Bank:** potenz-exponentialfunktionen-e2-k1-s1 potenz-exponentialfunktionen-e2-k1-s2 potenz-exponentialfunktionen-e2-k1-s3 potenz-exponentialfunktionen-e2-k1-s4 potenz-exponentialfunktionen-e2-k1-s5 potenz-exponentialfunktionen-e2-k1-s6 potenz-exponentialfunktionen-e2-k1-s7 potenz-exponentialfunktionen-e3-k1-s2 potenz-exponentialfunktionen-e3-k1-s3 potenz-exponentialfunktionen-e3-k1-s4 potenz-exponentialfunktionen-e3-k1-s5 potenz-exponentialfunktionen-e3-k1-s7 potenz-exponentialfunktionen-e3-k2-s2 potenz-exponentialfunktionen-e3-k2-s3 potenz-exponentialfunktionen-e3-k2-s5 potenz-exponentialfunktionen-e3-k2-s8 potenz-exponentialfunktionen-e3-k3-s3
@@ -37,6 +60,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Exponentielles Wachstum
 
 ### Graph zuordnen und begründen
+- **Anzeigename:** Graph zuordnen
 - **Kern:** nein – 2 echte (2019, 2026), Niveau II/III
 - **Originale:** 2026-FOR-K7b 2019-OS-K7c
 - **Bank:** potenz-exponentialfunktionen-e1-k2-s3 potenz-exponentialfunktionen-e1-k2-s4 potenz-exponentialfunktionen-e1-k2-s5 potenz-exponentialfunktionen-e1-k2-s6 potenz-exponentialfunktionen-e1-k2-s7
