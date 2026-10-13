@@ -12,6 +12,7 @@ Anzeigenamen: Länge mit Pythagoras = Pythagoras
 Kennung: Länge mit Pythagoras = P4Z
 Anzeigenamen: Seite oder Winkel mit sin, cos, tan = sin, cos, tan
 Kennung: Seite oder Winkel mit sin, cos, tan = GYW
+Anzeigenamen: Seite im allgemeinen Dreieck (Sinussatz) = Sinussatz
 Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
 Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
 Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
@@ -115,6 +116,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Seite oder Winkel mit sin, cos, tan
 
 ### Seite berechnen (Sinussatz)
+- **Anzeigename:** Seite gesucht
+- **Schülerfrage:** Im Sinussatz steht jede Seite mit dem Winkel, der ihr gegenüberliegt. Im Dreieck ABC kennst du die Seite c und die Winkel α und β; gesucht ist die Seite a.
+- **Schülerfrage-Fälle:** Welchen Winkel rechnest du zuerst aus? → γ = 180° − α − β | Welche Gleichung stellst du dann auf? → a : sin α = c : sin γ
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** zu c gehört der Gegenwinkel γ, den gibt die Winkelsumme; dann ein Paar bekannt (c, γ) und ein halbes (a, α)
+- **Durchsicht 13.10.:** Schritt B (Daten): beide jungen Originale brauchen zuerst den dritten Winkel (’24 · 6d: 35°, ’25 · 4c: 35°); der Anstoß übt genau das und das Paar Seite–Gegenwinkel, ohne Zahlen. ’25 · 4c (stumpfer Winkel, Stern) am Ende.
 - **Kern:** ja – 9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall
 - **Originale:** 2024-OS-K6d 2025-OS-K4c 2021-OS-K3c 2020-OS-K7c 2019-OS-K3c 2018-OS-K4c 2017-OS-K4c 2015-OS-K5c 2014-OS-K2b
 - **Bank:** trigonometrie-e4-k1-s1(i) trigonometrie-e4-k1-s2(i) trigonometrie-e4-k1-s3(i) trigonometrie-e4-k1-s4(i) trigonometrie-e4-k1-s5(i) trigonometrie-e4-k1-s6(i) trigonometrie-e4-k1-s7(i) trigonometrie-e4-k1-s9(i) trigonometrie-e4-k2-s3(i) trigonometrie-e4-k1-s10 trigonometrie-e4-k1-s17
