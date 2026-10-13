@@ -14,6 +14,7 @@ Anzeigenamen: Seite oder Winkel mit sin, cos, tan = sin, cos, tan
 Kennung: Seite oder Winkel mit sin, cos, tan = GYW
 Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
 Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
+Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
 Kennung: Winkel ohne Rechnung bestimmen oder begründen = T2U
 Kennung: Symmetrie = NUB
 
@@ -129,18 +130,36 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Hinweis:** Lehrer 11.10.: nach Vierecke verschoben
 
 ### Winkelsumme
+- **Anzeigename:** Winkel gesucht
+- **Schülerfrage:** Wie viel Grad sind es zusammen?
+- **Schülerfrage-Fälle:** die drei Winkel in einem Dreieck = 180° | zwei Winkel an derselben Seite zwischen zwei parallelen Seiten (wie unten links und oben links im Parallelogramm) = 180°
+- **Schülerfrage-Form:** linie:°
+- **Schülerfrage-Weg:** Winkelsumme im Dreieck 180°; an Parallelen ergänzen sich die beiden Winkel an einer Seite zu 180°
+- **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1i und ’23 · 2a brauchen die Parallelen, ’22 · 5c die Winkelsumme im Teildreieck; 2018-OS-K4b (älter als fünf Jahre) in den Mehr-Block.
 - **Kern:** ja – 7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall
 - **Originale:** 2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i 2021-OS-B1i 2018-OS-K4b 2017-OS-K4a 2015-OS-K5b
 - **Bank:** winkel-dreiecke-e3-k2-s1(i) winkel-dreiecke-e3-k2-s2(i) winkel-dreiecke-e3-k2-s4(i) winkel-dreiecke-e3-k2-s5(i) winkel-dreiecke-e3-k2-s6(i) winkel-dreiecke-e3-k2-s7(i) winkel-dreiecke-e3-k2-s11(i) winkel-dreiecke-e3-k4-s3(i) winkel-dreiecke-e2-k2-s9
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### gleichschenkliges Dreieck
+- **Anzeigename:** gleichschenklig: zwei gleiche Winkel
+- **Schülerfrage:** Ein Dreieck hat zwei gleich große Winkel. Was weißt du dann über seine Seiten?
+- **Schülerfrage-Fälle:** zwei gleich große Winkel = die beiden Seiten gegenüber den gleichen Winkeln sind gleich lang
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** gleiche Basiswinkel ⇒ gleichschenklig; die Schenkel liegen den gleichen Winkeln gegenüber
+- **Durchsicht 13.10.:** Schritt B (Daten): ’23 · 1g (Seite ablesen, γ ausrechnen; je eine Antwortzeile) und ’23 · 7a (begründen).
 - **Kern:** nein – 2 echte, nur 2023
 - **Originale:** 2023-OS-B1g 2023-OS-K7a
 - **Bank:** winkel-dreiecke-e3-k2-s3(i) winkel-dreiecke-e3-k2-s8(i) winkel-dreiecke-e3-k2-s13[2023-OS-B1g]
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### rechten Winkel begründen
+- **Anzeigename:** rechter Winkel: begründen
+- **Schülerfrage:** In einem rechtwinkligen Dreieck sind die beiden Katheten gleich lang. Wie groß sind die beiden anderen Winkel?
+- **Schülerfrage-Fälle:** Katheten gleich lang = je 45°
+- **Schülerfrage-Form:** linie:°
+- **Schülerfrage-Weg:** gleichschenklig, also gleiche Basiswinkel: (180° − 90°) : 2 = 45°
+- **Durchsicht 13.10.:** Schritt B (Daten): der Anstoß trägt den Gedanken von ’25 · 2c (AF = DF, also 45° bei D, zweimal) ohne die Figur vorwegzunehmen.
 - **Kern:** nein – 1 echte (2025), Begründen auf mehreren Wegen (Winkelsumme, Umkehrung, Thales)
 - **Originale:** 2025-OS-K2c
 - **Bank:** winkel-dreiecke-e3-k2-s9(i) winkel-dreiecke-e5-k1-s8(i) pythagoras-e2-k3-s9(i) winkel-dreiecke-e5-k1-s11 winkel-dreiecke-e3-k2-s13[2025-OS-K2c] pythagoras-e2-k3-s12[2025-OS-K2c]
