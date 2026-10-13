@@ -330,6 +330,22 @@ vollständig, dann ordnen, dann bauen.
          nach Schritt B. Stand 13.10. 20:20: Flächen durch (Y5D4,
          Abschnitte passen, ein Blatt); Körper AZL2, EF42 neu
          gesetzt, noch nicht gezeigt – weiter dort.]
+         [13.10. spät: Körper Volumen durchgesehen (AZL3, Daten
+         nachgezogen, Neusatz offen). Ab hier Weg B (Lehrer 13.10.
+         spät, ersetzt Blatt für Blatt für die übrigen neun): eine
+         Agentenrunde prüft die neun Blätter (Netz, Lineare, Parabel,
+         Quadratische Gleichung, Grundwert, Prozent, Kenngrößen,
+         Diagramme, Wahrscheinlichkeit) gegen die Regeln aus der
+         Durchsicht (aufgabenbank bau/befunde-M3.md, Block
+         „Durchsicht Blatt für Blatt“: Namen wie Flächen, Heranführung
+         für sich verständlich und als Anregung, Umstellen an
+         einfacherer Formel, kein Lehrersatz) und bessert die Daten
+         nach – fünf Kapitel-Agenten parallel (Opus medium, je
+         eigener Klon), dann Kritiker (Opus high) gegen das Warum,
+         dann Neusatz per Skript, AZL3 eingeschlossen. Schritt B darf
+         in derselben Runde parallel laufen (andere Dateien). Der
+         Lehrer sieht danach ein Blatt als Muster und die Stichprobe
+         (Linie 6). Start erst nach Go auf Auftrag und Schätzung.]
          (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
@@ -656,6 +672,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Schritt C; Fläche/Umfang bleibt ein Blatt, Trennung danach am
   Blatt prüfen. Grundlage: 78 von 327 P10-Teilaufgaben mit
   Zwischenschritt (handgriffe-p10.csv, Lücken) (Lehrer).
+- 13.10.2026 (e): Schritt A ab Körper Netz Weg B – Regeln aus der
+  Durchsicht von Flächen und Körper per Agentenrunde auf die übrigen
+  neun Blätter, Lehrer sieht Muster und Stichprobe statt jedes Blatt
+  (Grund: dieselben Fehler auf jedem Blatt, sonst nicht fertig);
+  Restvolumen kein Abschnitt (Weg A, wie „Figur erst zerlegen“);
+  Heranführung für sich verständlich, Anregung statt Reihe (Lehrer).
 - 12.10.2026 (e): Duden-Abschrift als Quelle (§ 9), kein Kasten-
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
