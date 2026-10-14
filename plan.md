@@ -372,6 +372,24 @@ vollständig, dann ordnen, dann bauen.
          bau/pruefung/2026-10-14/gesamtheft-p10.pdf (54 S., Skript
          werkzeuge/gesamtheft.py). Offen (Lehrer): Probe abnehmen;
          Seitenfrage ganz oben oder bei der ersten Formel-Stufe.]
+         [14.10. vormittags erledigt (§ 10, 14.10. a–e): Bestellkarte
+         je Gebiet (aufgabenbank werkzeuge/bestellkarte.py,
+         bau/pruefung/2026-10-14/bestellkarte.pdf, 3 S.), Lernfolge
+         über Kapitelgrenzen, Abschnittsnamen nach der Regel und vom
+         Lehrer gesehen, Feld „Kennung neu“ (PG10 …) in den
+         Gliederungen, Setzer v0.13. Jetzt, in dieser Folge:
+         1. Schritt 2 (ein Opus-Agent medium, ≈ 0,3 Punkte): Setzer
+            mit fünf Punkten im Stufenkopf und „zuletzt 19“ (§ 10 c),
+            neue Kennung mit Fassung PG50-3 (§ 10 b; Feld „Kennung
+            neu“ wird „Kennung“, Register umgeschlüsselt), Karte und
+            Gesamtheft lesen Folge und Ordner aus den Daten statt aus
+            Listen im Skript; Prüfskript anzeigenamen-pruef.py gegen
+            die Namen der Gliederung als Soll (pruefung.md § 2 auf
+            diese Namen nachziehen); Neusatz aller Blätter und
+            Gesamtheft per Skript.
+         2. Lehrer: Probe Grundwert/Kenngrößen abnehmen (Seitenfrage
+            oben oder bei der ersten Formel-Stufe).
+         3. Dann Schritt C.]
          (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
