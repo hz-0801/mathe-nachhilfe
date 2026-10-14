@@ -764,9 +764,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   bleibt): Sorte · Gebiet · Platz in der Lernfolge mit Zehnerlücken,
   Fassung mit Bindestrich – PG50-3. Erster Buchstabe: P = P10 (MSA),
   A = Abitur Grundkurs, L = Abitur Leistungskurs, F = FHR, S =
-  Schulstoff-Lernblatt mit Klasse (S9G10). Gebiet: P10 G Geometrie,
-  F Funktionen, D Daten und Zufall, B Basisteil; Abitur A Analysis,
-  G Geometrie, S Stochastik. Kennung fest, auch wenn sich die Folge
+  Schulstoff-Lernblatt mit Klasse (S9G10). Gebiet einheitlich über
+  alle Sorten (Lehrer: vereinheitlichen; Claude: ein Buchstabe):
+  G Geometrie, F Funktionen = Analysis, S Daten und Zufall =
+  Stochastik, Z Zahlen und Terme, B Basisteil (nur P10). Kennung fest, auch wenn sich die Folge
   später ändert (neues Blatt dazwischen: PG15); alte Kennungen im
   Register umgeschlüsselt.
 
