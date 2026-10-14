@@ -770,7 +770,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   später ändert (neues Blatt dazwischen: PG15); alte Kennungen im
   Register umgeschlüsselt.
 
-## 11 Register der Entscheidungen## 11 Register der Entscheidungen
+## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
 steht. Hier nur der Verweis, nichts doppelt. Quelle je Zeile:
