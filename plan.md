@@ -808,6 +808,22 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Abschnittsnamen der Bestellkarte vom 14.10. sonst wie gesetzt
   (Lehrer).
 
+- 14.10.2026 (f): Mappe P10 für den Lehrer (Lehrer, ändert
+  „Gesamtheft ohne Lösungen“ vom 14.10. nur für die Mappe; das
+  Schülerheft bleibt ohne Lösungen): Bestellkarte, je Einheit Blatt,
+  Lösung, Mehr vollständig mit Lösung, Basiszettel, Original neu und
+  Original je Jahr, jüngstes zuerst, Stichwortverzeichnis und
+  Fundstellenregister; per Skript aus den Daten. Zwei Ausgaben: mit
+  Originalen privat, ohne Originale in aufgabenbank.
+- 14.10.2026 (g): Original neu im Layout der Blätter (Kopf
+  „P10 · Original ’JJ“, Buchstabenspalte, Kennung mit Fassung;
+  Schnitt und Folge wie im Heft); ersetzt „Buchstabenspalte nicht
+  für Original neu“ (gemeinsam.md, 11.10.) und „Heftseiten wie im
+  Heft“ für Original neu (Lehrer). Original bleibt Heftseite.
+- 14.10.2026 (h): Handreichung = Bestellkarte mit allen Stufen der
+  Gliederung, nie geprüfte grau; erst als Muster, Form entscheidet
+  der Lehrer daran (Claude, Lehrer: Go).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
