@@ -94,7 +94,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Durchsicht 13.10.:** Runde A: Name „Nullstelle gesucht“ (Reihe … gesucht); kein Anstoß – ein Anstoß (beide Achsenpunkte einer anderen Geraden) kostete eine Seite, im Bericht gemeldet.
 
 ### Punktprobe
-- **Anzeigename:** Punkt auf der Geraden prüfen
+- **Anzeigename:** Punktprobe
 - **Regine:** S. 31
 - **Kern:** ja – einsetzen und vergleichen an einer Geraden (2017, 2023, 2026; Befund Funktionen 10.10., Lehrer 10.10.: Einsetzen ist ein Handgriff); Bank-Kette Funktionswert mit Grundfall. Die Punktprobe an der Parabel (2024-OS-K3c) und die quadratische Gleichung durch Einsetzen (2025-OS-B1h) stehen nicht auf dem Geraden-Blatt (Lehrer 13.10., „Zweitthema ausblenden“): der Schüler soll hier die lineare Punktprobe üben, nicht quadrieren; beide ungekürzt fürs Gemischt-Blatt Gerade und Parabel (msa/mehr-p10.csv, Einheit „Gemischt: Gerade und Parabel“), hier nur „ganz auch“
 - **Originale:** 2023-OS-B1i 2026-FOR-K5b 2017-OS-K5b
@@ -119,7 +119,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Durchsicht 13.10.:** Runde A: unverändert; Anstoß steht für sich, zwei Fälle, je ein Gedanke (m und n trennen, m negativ beim Abnehmen).
 
 ### Gemischt: Gerade und Parabel
-- **Anzeigename:** Gemischt: Gerade und Parabel
+- **Anzeigename:** Gerade und Parabel
 - **Regine:** S. 21 · 31
 - **Zuschnitt:** Lineare Funktionen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt

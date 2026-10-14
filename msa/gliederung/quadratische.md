@@ -63,7 +63,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: unverändert; das Vorzeichen in (x − d)² übt die folgende Stufe mit ihrem Anstoß.
 
 ### Punkt auf der Parabel prüfen
-- **Anzeigename:** Punkt auf der Parabel prüfen
+- **Anzeigename:** Punktprobe
 - **Regine:** S. 32
 - **Einstieg:** nein
 - **Kern:** nein – 4 echte (2014, 2018, 2020 zweimal), aber Teilschritt (Einsetzen), keine eigene Kette mit Grundfall; Kern in Lineare; 2024-OS-K3c hier Nebenplatz, Hauptplatz keiner (Gemischt-Blatt, Lehrer 13.10.)
@@ -139,7 +139,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß für sich verständlich („beide“ war ohne die folgende Aufgabe offen).
 
 ### Gemischt: Gerade und Parabel
-- **Anzeigename:** Gemischt: Gerade und Parabel
+- **Anzeigename:** Gerade und Parabel
 - **Regine:** S. 21 · 31
 - **Zuschnitt:** Quadratische Gleichung lösen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt

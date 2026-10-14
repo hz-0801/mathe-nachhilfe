@@ -570,9 +570,10 @@ Formelsammlung auf P10-Blättern (Lehrer 14.10., offen): mindestens
 zwei Ebenen – zuerst nach der Seite in Regine fragen, als
 Heranführung einen Teil zeigen oder eine Eigenschaft abfragen;
 vom Ende her (wichtigstes Element), Fachdidaktik nachsehen.
-Basisteil auf der Bestellkarte (14.10.): erst, wenn Basisblätter
-gebaut sind (msa/gliederung/_basisteil.md, sechs Abschnitte, noch
-ohne Blatt) – dann als eigenes Gebiet B.
+Basisteil auf der Bestellkarte (14.10.): Basishefte gibt es
+(aufgabenbank bau/hefte/basis-zahlen, -geometrie, -rest, Rezept H
+vom 06.10., alte Form); als Gebiet B auf die Karte – alte Hefte
+oder neue Blätter aus msa/gliederung/_basisteil.md (Lehrer).
 Zu M4: Bestelloptionen (Wiederholung, Ausblick) und Prüfungsprofile aus
 archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
@@ -782,6 +783,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
 - 14.10.2026 (d): Kopf bleibt „P10 · Prüfung“ (Lehrer, nach kurzem
   „P10 · MSA · Prüfung“).
+
+- 14.10.2026 (e): „Punktprobe“ statt „Punkt auf der Geraden/Parabel
+  prüfen“ (ersetzt 13.10.); „Gerade und Parabel“ ohne „Gemischt:“;
+  Abschnittsnamen der Bestellkarte vom 14.10. sonst wie gesetzt
+  (Lehrer).
 
 ## 11 Register der Entscheidungen
 
