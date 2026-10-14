@@ -570,10 +570,11 @@ Formelsammlung auf P10-Blättern (Lehrer 14.10., offen): mindestens
 zwei Ebenen – zuerst nach der Seite in Regine fragen, als
 Heranführung einen Teil zeigen oder eine Eigenschaft abfragen;
 vom Ende her (wichtigstes Element), Fachdidaktik nachsehen.
-Basisteil auf der Bestellkarte (14.10.): Basishefte gibt es
-(aufgabenbank bau/hefte/basis-zahlen, -geometrie, -rest, Rezept H
-vom 06.10., alte Form); als Gebiet B auf die Karte – alte Hefte
-oder neue Blätter aus msa/gliederung/_basisteil.md (Lehrer).
+Basisblätter (Lehrer 14.10.): zurückgestellt, sie sind fertig, aber
+abrufbar sein sollen sie – Basiszettel BAS-Z1–Z10 (aufgabenbank
+bau/zettel/, 28.09.), Original-Zettel, Basishefte bau/hefte/basis-*;
+auf die Karte als Gebiet B. Ordnung offen (gemischt wie in der
+Prüfung oder nach Gebiet).
 Zu M4: Bestelloptionen (Wiederholung, Ausblick) und Prüfungsprofile aus
 archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 
