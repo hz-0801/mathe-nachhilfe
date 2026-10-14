@@ -247,7 +247,7 @@ die der Lehrer noch entscheidet.
   laufende Titelzeile“ vom 03.–08.10.): Warum: Es gibt zwei Sorten,
   und die Blätter liegen gemischt und ohne Übersicht auf dem Tisch –
   jede Seite muss allein stehen. Beispiel: links oben klein grau
-  Sorte und Niveau („P10 · MSA · Prüfung“ seit 14.10., „Klasse 9 · Schulstoff“), rechts
+  Sorte und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts
   oben Kennung und Fassung (H373); auf Folgeseiten links zusätzlich der Name; Seite
   1 darunter der Titel (nur der Name), darunter eine graue Zeile mit
   den Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
