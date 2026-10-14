@@ -360,6 +360,18 @@ vollständig, dann ordnen, dann bauen.
             Gliederungen, Pythagoras wieder getrennt, Prüfskript
             Anzeigenamen; 4. Probe Erkennen + Formelsammlungs-Stups
             an zwei ungesehenen Blättern; dann Schritt C.]
+         [14.10. nachts erledigt 1, 3, 4: Heranführungen aus dem
+         Bestand als Daten (aufgabenbank bau/heranfuehrungen-p10.md;
+         45 Stufen mit Einstieg, 29 leer), Pythagoras getrennt,
+         Feld „Regine: S. n“ in 61 Stufen, Prüfskript
+         werkzeuge/anzeigenamen-pruef.py (15 Meldungen: pruefung.md
+         § 2 älter als die Zuschnitte vom 13.10. – Lehrer
+         entscheidet, ob § 2 nachgezogen wird); Probe HK32 Grundwert,
+         K9X2 Kenngrößen (Seitenfrage + ein Erkennen); alle 19
+         Blätter neu gesetzt; Gesamtheft aufgabenbank
+         bau/pruefung/2026-10-14/gesamtheft-p10.pdf (54 S., Skript
+         werkzeuge/gesamtheft.py). Offen (Lehrer): Probe abnehmen;
+         Seitenfrage ganz oben oder bei der ersten Formel-Stufe.]
          (alt) Übersicht (Bestellkarte) aller P10-Einheiten mit ihren
          Abschnitten per Skript aus den Gliederungen; der Lehrer
          prüft daran den Zuschnitt aller Kapitel auf einmal.
