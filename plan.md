@@ -772,6 +772,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   später ändert (neues Blatt dazwischen: PG15); alte Kennungen im
   Register umgeschlüsselt.
 
+- 14.10.2026 (c): Stufenkopf mit fünf Punkten für die letzten fünf
+  Jahre wie auf der Bestellkarte (ersetzt Jahre und „fast immer“ vom
+  12./13.10.); ältere Jahre entfallen, außer alle fünf sind leer –
+  dann „zuletzt 19“ (Lehrer).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut

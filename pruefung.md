@@ -285,7 +285,7 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   immer alle“ vom Mittag): Basisaufgaben, deren Handgriff die
   Einheit ist, stehen als erste Aufgabe ihrer Stufe; die übrigen nur
   auf dem Basisblatt (04.10.). Kein Basis-Block oben.
-- **Häufigkeit im Stufenkopf** (Lehrer 13.10., ersetzt die Zählregel
+- (abgelöst 14.10.) **Häufigkeit im Stufenkopf** (Lehrer 13.10., ersetzt die Zählregel
   immer/oft/selten vom 12.10.). Warum: Der Schüler soll erkennen,
   was sehr wahrscheinlich drankommt; sonst sieht er an den Jahren
   selbst, wann und wie oft. Beispiel: kam die Stufe seit 2014 fast
@@ -351,7 +351,13 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   jährlich neu. Form (Tabelle, Tendenz Lehrer, oder Baum) entscheidet
   der Lehrer mit dem Muster in der Hand; die Übersicht je Kapitel
   entfällt dann.
-- **Jahre im Stufenkopf** (Lehrer 12.10.; entfällt bei „fast immer“
+- **Punkte im Stufenkopf** (Lehrer 14.10., ersetzt die beiden
+  folgenden Absätze): Warum: Karte und Blatt tragen dasselbe Zeichen;
+  der Schüler sieht auf einen Blick, was sich lohnt. Beispiel: fünf
+  Punkte für 26 · 25 · 24 · 23 · 22, voll = in dem Jahr geprüft (nur
+  P10-Hefte). Grenze: ältere Jahre entfallen, außer alle fünf sind
+  leer – dann „zuletzt 19“; kein „fast immer“.
+- (abgelöst 14.10.) **Jahre im Stufenkopf** (Lehrer 12.10.; entfällt bei „fast immer“
   und „immer“, 13.10.): nur die Jahre, jüngstes
   zuerst, zweistellig, alle mit Daten; die älteren als fünf Jahre
   nach einem Strich und heller: „25 · 24 · 23 · 22 | 19 · 16“. Warum:
