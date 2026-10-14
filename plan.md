@@ -765,8 +765,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Fassung mit Bindestrich – PG50-3. Erster Buchstabe: P = P10 (MSA),
   A = Abitur Grundkurs, L = Abitur Leistungskurs, F = FHR, S =
   Schulstoff-Lernblatt mit Klasse (S9G10). Gebiet einheitlich über
-  alle Sorten (Lehrer: vereinheitlichen; Claude: ein Buchstabe):
-  G Geometrie, F Funktionen = Analysis, S Daten und Zufall =
+  alle Sorten (Lehrer: vereinheitlichen, A statt F; die Kennung muss
+  nur der Lehrer verstehen): G Geometrie, A Funktionen = Analysis,
+  S Daten und Zufall =
   Stochastik, Z Zahlen und Terme, B Basisteil (nur P10). Kennung fest, auch wenn sich die Folge
   später ändert (neues Blatt dazwischen: PG15); alte Kennungen im
   Register umgeschlüsselt.
