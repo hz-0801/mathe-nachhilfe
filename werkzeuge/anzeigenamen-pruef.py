@@ -4,6 +4,9 @@
 Anlass (plan.md § 10, 13.10.2026 g): Stufen stehen nur in der Gliederung (msa/gliederung/*.md);
 ein Agent, der aus den Daten baut, verliert eine Festlegung, die nur in pruefung.md steht (P4Z2 hat
 Hypotenuse und Kathete wieder zusammengelegt). Das Skript vergleicht, ändert nichts.
+Soll sind seit 14.10.2026 (plan.md § 7 Schritt 2) die Namen der Gliederung: eine Meldung heißt
+„pruefung.md § 2 auf die Gliederung nachziehen“ – außer der Lehrer hat in § 2 neu entschieden, dann
+umgekehrt.
 
 Gelesen aus pruefung.md § 2 („Hauptteil … Einheiten“ bis „Basisteil“):
   - je Kapitelzeile „- <Kapitel>: A (n · m) · B (…) …“ die Abschnitte (Einheiten = Blätter);
@@ -147,7 +150,7 @@ def pruefe():
             if a:
                 bekannt.add(a)
             elif n in p['abschnitte'] and not any(gleich(n, b) for b in p['blatt']):
-                meld.append(f'{g["datei"]}: Abschnitt „{n}“ (pruefung.md § 2) fehlt')
+                meld.append(f'{g["datei"]}: Abschnitt „{n}“ (pruefung.md § 2) fehlt in der Gliederung – § 2 nachziehen?')
         for a in ab_g:
             if a not in bekannt:
                 meld.append(f'{g["datei"]}: Abschnitt „{a}“ steht nicht in pruefung.md § 2 (umbenannt/neu)')
@@ -166,7 +169,7 @@ def pruefe():
                 if zus:
                     meld.append(f'{g["datei"]}: {bn} – Stufe „{s}“ zusammengelegt in „{zus[0]}“')
                 else:
-                    meld.append(f'{g["datei"]}: {bn} – Stufe „{s}“ (pruefung.md § 2) fehlt')
+                    meld.append(f'{g["datei"]}: {bn} – Stufe „{s}“ (pruefung.md § 2) fehlt in der Gliederung – § 2 nachziehen?')
             for i in ist:
                 if not any(gleich(s, i) for s in soll):
                     meld.append(f'{g["datei"]}: {bn} – Stufe „{i}“ steht nicht in pruefung.md § 2 (umbenannt/neu)')

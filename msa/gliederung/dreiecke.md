@@ -9,22 +9,28 @@ Gruppen: Rechtwinklige Dreiecke = pythagoras, trigonometrie | Alle Dreiecke und 
 Bank: pythagoras | trigonometrie | winkel-dreiecke | symmetrie-abbildungen
 Katalog: katalog/pythagoras.md | katalog/trigonometrie.md | katalog/winkel-dreiecke.md | katalog/symmetrie-abbildungen.md
 Anzeigenamen: Länge mit Pythagoras = Pythagoras
-Kennung: Länge mit Pythagoras = P4Z
+Kennung alt: Länge mit Pythagoras = P4Z
 Anzeigenamen: Seite oder Winkel mit sin, cos, tan = sin, cos, tan
-Kennung: Seite oder Winkel mit sin, cos, tan = GYW
+Kennung alt: Seite oder Winkel mit sin, cos, tan = GYW
 Anzeigenamen: Seite im allgemeinen Dreieck (Sinussatz) = Sinussatz
-Kennung: Seite im allgemeinen Dreieck (Sinussatz) = LXA
-Kennung: Vierecke: Symmetrie und Eigenschaften = 22A
+Kennung alt: Seite im allgemeinen Dreieck (Sinussatz) = LXA
+Kennung alt: Vierecke: Symmetrie und Eigenschaften = 22A
 Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
-Kennung: Winkel ohne Rechnung bestimmen oder begründen = T2U
+Kennung alt: Winkel ohne Rechnung bestimmen oder begründen = T2U
 Anzeigenamen: Vierecke: Symmetrie und Eigenschaften = Vierecke
-Kennung: Symmetrie = NUB
-Kennung neu: Winkel ohne Rechnung bestimmen oder begründen = PG10
-Kennung neu: Symmetrie = PG20
-Kennung neu: Vierecke: Symmetrie und Eigenschaften = PG30
-Kennung neu: Länge mit Pythagoras = PG50
-Kennung neu: Seite oder Winkel mit sin, cos, tan = PG60
-Kennung neu: Seite im allgemeinen Dreieck (Sinussatz) = PG70
+Kennung alt: Symmetrie = NUB
+Kennung: Winkel ohne Rechnung bestimmen oder begründen = PG10
+Kennung: Symmetrie = PG20
+Kennung: Vierecke: Symmetrie und Eigenschaften = PG30
+Kennung: Länge mit Pythagoras = PG50
+Kennung: Seite oder Winkel mit sin, cos, tan = PG60
+Kennung: Seite im allgemeinen Dreieck (Sinussatz) = PG70
+Ordner: Winkel ohne Rechnung bestimmen oder begründen = winkel
+Ordner: Symmetrie = symmetrie
+Ordner: Vierecke: Symmetrie und Eigenschaften = vierecke
+Ordner: Länge mit Pythagoras = pythagoras
+Ordner: Seite oder Winkel mit sin, cos, tan = sin-cos-tan
+Ordner: Seite im allgemeinen Dreieck (Sinussatz) = sinussatz
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

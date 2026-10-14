@@ -8,8 +8,9 @@ Folge: 7
 Bank: potenz-exponentialfunktionen
 Katalog: katalog/potenz-exponentialfunktionen.md
 Anzeigenamen: Exponentielles Wachstum = Wachstum
-Kennung: Exponentielles Wachstum = 74A
-Kennung neu: Exponentielles Wachstum = PA50
+Kennung alt: Exponentielles Wachstum = 74A
+Kennung: Exponentielles Wachstum = PA50
+Ordner: Exponentielles Wachstum = wachstum
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

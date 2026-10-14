@@ -8,10 +8,12 @@ Folge: 8
 Bank: prozentrechnung | zinsrechnung
 Katalog: katalog/prozentrechnung.md | katalog/zinsrechnung.md
 Anzeigenamen: Prozent = Prozent | Grundwert = Prozentwert und Grundwert
-Kennung: Prozent = 5ZQ
-Kennung: Grundwert = HK3
-Kennung neu: Prozent = PS10
-Kennung neu: Grundwert = PS20
+Kennung alt: Prozent = 5ZQ
+Kennung alt: Grundwert = HK3
+Kennung: Prozent = PS10
+Kennung: Grundwert = PS20
+Ordner: Prozent = prozent
+Ordner: Grundwert = grundwert
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

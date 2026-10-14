@@ -115,12 +115,15 @@ die der Lehrer noch entscheidet.
   wird ein Blatt der Sorte oder ein gebautes Lernblatt mit Kennung.
   Grenze: sonst entfällt „Vorher“ (Prüfung: pruefung.md
   „Lernfolge“).
-- **Kennung mit Fassung** (Lehrer 12.10., ersetzt „ein Neubau bekommt
-  eine neue Kennung“ und das Baudatum): Die Kennung steht fest je
-  Einheit in der Gliederung; dahinter ohne Trenner die Fassung als
-  Zahl – H373 = Einheit H37, Fassung 3. Die Fassung steigt nur, wenn
-  sich die Daten der Einheit ändern (Fingerabdruck), nicht beim
-  Nachdruck; die Lieferliste vermerkt sie.
+- **Kennung mit Fassung** (Lehrer 12.10.; sprechend seit 14.10., plan.md
+  § 10, 14.10. b): Warum: Der Lehrer liest an der Kennung, welches
+  Blatt in welcher Fassung auf dem Tisch liegt. Beispiel: PG50-3 =
+  P10 · Geometrie · Platz 50 der Lernfolge, Fassung 3; Sorte P, A, L,
+  F, S (S mit Klasse: S9G10), Gebiet G, A, S, Z, B. Grenze: Kennung
+  fest je Einheit in der Gliederung (Feld „Kennung“), Plätze mit
+  Zehnerlücken (neues Blatt dazwischen: PG55), auch wenn sich die
+  Folge ändert; die Fassung steigt nur mit den Daten der Einheit
+  (Fingerabdruck), nicht beim Nachdruck.
 
 ## Zweck
 
@@ -248,7 +251,7 @@ die der Lehrer noch entscheidet.
   und die Blätter liegen gemischt und ohne Übersicht auf dem Tisch –
   jede Seite muss allein stehen. Beispiel: links oben klein grau
   Sorte und Niveau („P10 · Prüfung“, „Klasse 9 · Schulstoff“), rechts
-  oben Kennung und Fassung (H373); auf Folgeseiten links zusätzlich der Name; Seite
+  oben Kennung und Fassung (PG50-3); auf Folgeseiten links zusätzlich der Name; Seite
   1 darunter der Titel (nur der Name), darunter eine graue Zeile mit
   den Stufen des Blatts, wortgleich mit der Übersicht, auch bei einer
   Stufe. Grenze: Kein Datum, keine Namenszeile, kein
@@ -259,8 +262,8 @@ die der Lehrer noch entscheidet.
   Seitenzahl mittig als „1/3“. Grenze: Sie verdrängt nichts im Fuß –
   kopfüber und klein nur die Ergebnisse der Seite (kein Rechenweg,
   kein Tipp; Ausnahme Lösung der Abrufaufgabe); Herkunft links.
-- Kennung: drei Zeichen aus 2–9 und A–Z ohne I und O, gegen das
-  Register eindeutig; dahinter die Fassung (H373).
+- Kennung: Sorte · Gebiet · Platz, Fassung mit Bindestrich (PG50-3;
+  „Kennung mit Fassung“); alte Kennungen im Register umgeschlüsselt.
 - Marke grau im linken Rand auf der Grundlinie der Nummer (Formen in
   pruefung.md „Marke“); eigene ohne Marke. Stern entfällt (Lehrer 12.10.):
   FOR und „Basis · ohne TR“ stehen als Bedingungen klein grau rechts
@@ -270,8 +273,8 @@ die der Lehrer noch entscheidet.
   Lehrer prüft in einer Sekunde. Beispiel: Nummer und Teilaufgabe in
   zwei Spalten: die Buchstaben a), b), c) stehen untereinander,
   abgesetzt von der Nummer – auf dem Blatt und in der Lösung.
-  Grenze: nicht für Original und Original neu (Heftseiten wie im
-  Heft).
+  Grenze: nicht für Original (Heftseiten wie im Heft; Original neu
+  hat sie, plan.md § 10, 14.10. g).
 - Eingerückt: eine Schriftstufe kleiner, schwarz, Marke grau.
 - Zwei Spalten bei Skizze, Tabelle oder Graph: Text oben über volle
   Breite; darunter links, was man ansieht, rechts, was man tut;

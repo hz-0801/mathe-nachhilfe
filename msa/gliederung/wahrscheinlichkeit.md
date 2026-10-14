@@ -8,8 +8,9 @@ Folge: 10
 Bank: wahrscheinlichkeit
 Katalog: katalog/wahrscheinlichkeit.md
 Anzeigenamen: Baumdiagramm und Pfadregeln = Wahrscheinlichkeit
-Kennung: Baumdiagramm und Pfadregeln = VRK
-Kennung neu: Baumdiagramm und Pfadregeln = PS50
+Kennung alt: Baumdiagramm und Pfadregeln = VRK
+Kennung: Baumdiagramm und Pfadregeln = PS50
+Ordner: Baumdiagramm und Pfadregeln = wahrscheinlichkeit
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

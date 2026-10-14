@@ -8,10 +8,12 @@ Folge: 3
 Bank: koerper | pyramide-kegel-kugel
 Katalog: katalog/koerper.md | katalog/pyramide-kegel-kugel.md
 Anzeigenamen: Volumen und Oberfläche = Volumen und Oberfläche
-Kennung: Volumen und Oberfläche = AZL
-Kennung: Netz und Schrägbild = EF4
-Kennung neu: Netz und Schrägbild = PG80
-Kennung neu: Volumen und Oberfläche = PG90
+Kennung alt: Volumen und Oberfläche = AZL
+Kennung alt: Netz und Schrägbild = EF4
+Kennung: Netz und Schrägbild = PG80
+Kennung: Volumen und Oberfläche = PG90
+Ordner: Netz und Schrägbild = koerper-netz
+Ordner: Volumen und Oberfläche = koerper-volumen
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

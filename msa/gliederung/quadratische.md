@@ -8,10 +8,12 @@ Folge: 5
 Bank: quadratische-funktionen | quadratische-gleichungen
 Katalog: katalog/quadratische-funktionen.md | katalog/quadratische-gleichungen.md
 Anzeigenamen: Parabel: Scheitelpunkt und Skizze = Parabel | Quadratische Gleichung lösen = Quadratische Gleichung
-Kennung: Parabel: Scheitelpunkt und Skizze = XU6
-Kennung: Quadratische Gleichung lösen = YYZ
-Kennung neu: Parabel: Scheitelpunkt und Skizze = PA30
-Kennung neu: Quadratische Gleichung lösen = PA40
+Kennung alt: Parabel: Scheitelpunkt und Skizze = XU6
+Kennung alt: Quadratische Gleichung lösen = YYZ
+Kennung: Parabel: Scheitelpunkt und Skizze = PA30
+Kennung: Quadratische Gleichung lösen = PA40
+Ordner: Parabel: Scheitelpunkt und Skizze = parabel
+Ordner: Quadratische Gleichung lösen = qgleichung
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

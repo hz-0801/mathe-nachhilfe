@@ -8,10 +8,12 @@ Folge: 9
 Bank: daten
 Katalog: katalog/daten.md
 Anzeigenamen: Kenngrößen = Kenngrößen | Diagramme = Diagramme
-Kennung: Kenngrößen = K9X
-Kennung: Diagramme = DGH
-Kennung neu: Kenngrößen = PS30
-Kennung neu: Diagramme = PS40
+Kennung alt: Kenngrößen = K9X
+Kennung alt: Diagramme = DGH
+Kennung: Kenngrößen = PS30
+Kennung: Diagramme = PS40
+Ordner: Kenngrößen = kenngroessen
+Ordner: Diagramme = diagramme
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

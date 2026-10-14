@@ -53,44 +53,66 @@ Gliederungsdateien).
   hinaus („lernst du in …“) nur mit Kennung eines gebauten
   Lernblatts.
 
-Hauptteil, 27 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge):
+Hauptteil, 19 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge; Namen
+wie in msa/gliederung/*.md, nachgezogen 14.10., Prüfskript
+werkzeuge/anzeigenamen-pruef.py):
 
 - Geometrie
   - Dreiecke: Länge mit Pythagoras (9 · 4) · Seite oder Winkel mit
-    sin, cos, tan (7 · 5; Schlussstufe „erst entscheiden, dann
-    rechnen“ aus Nebenplätzen) · Winkel ohne Rechnung bestimmen oder
-    begründen (7 · 4) · Seite im allgemeinen Dreieck, Sinussatz
-    (2 · 2) · Symmetrie (2 · 2). Blattnamen und Stufen (Lehrer
-    11.10., gemeinsam.md „Namen“): Pythagoras – Gleichung aufstellen ·
-    Hypotenuse gesucht · Kathete gesucht · in Figuren versteckt;
-    sin, cos, tan – Gleichung aufstellen · Winkel gesucht · Seite
-    gesucht · Pythagoras oder sin, cos, tan?; Winkel –
-    Winkelbeziehungen: Geraden kreuzen · Parallelen ·
-    Innenwinkelsumme · gleichschenklig: zwei
-    gleiche Winkel · rechter Winkel: begründen; Vierecke: Symmetrie
-    und Eigenschaften (Lehrer 11.10.: nimmt 2026-FOR-B1c Trapez-
-    Aussage aus Winkel auf); Sinussatz. Gruppen (gemeinsam.md):
-    Rechtwinklige Dreiecke – Pythagoras · sin, cos, tan; Alle
-    Dreiecke und Vierecke – Winkel · Sinussatz · Vierecke.
-  - Flächen: Flächeninhalt und Umfang (12 · 5)
-  - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild
-    (3 · 3)
+    sin, cos, tan (7 · 5) · Seite im allgemeinen Dreieck, Sinussatz
+    (2 · 2) · Vierecke: Symmetrie und Eigenschaften (1 · 1) · Winkel
+    ohne Rechnung bestimmen oder begründen (6 · 4) · Symmetrie (2 ·
+    2). Blattnamen und Stufen (Lehrer 11.10., gemeinsam.md „Namen“;
+    Vierecke nimmt 2026-FOR-B1c Trapez-Aussage aus Winkel auf, Lehrer
+    11.10.; Gruppen: Rechtwinklige Dreiecke – Pythagoras · sin, cos,
+    tan; Alle Dreiecke und Vierecke – Winkel · Sinussatz · Vierecke):
+    Pythagoras – Gleichung aufstellen · Hypotenuse gesucht · Kathete
+    gesucht · in Figuren versteckt; sin, cos, tan – Gleichung
+    aufstellen · Winkel gesucht · Seite gesucht · Pythagoras oder sin,
+    cos, tan?; Sinussatz – Seite gesucht; Vierecke – Eigenschaften
+    prüfen; Winkel – Winkel gesucht · Basiswinkel gesucht · rechten
+    Winkel begründen; Symmetrie – Symmetrieachsen gesucht.
+  - Flächen: Flächeninhalt und Umfang (12 · 5). Blattnamen und Stufen:
+    Fläche und Umfang – Formeln · Fläche gesucht · Umfang gesucht ·
+    Formeln umstellen · Flächenanteil gesucht.
+  - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild (3 ·
+    3). Blattnamen und Stufen: Volumen und Oberfläche – Volumen
+    gesucht · Oberfläche gesucht · Formeln umstellen · Körper
+    vergleichen; Netz und Schrägbild – Netz erkennen · Netz skizzieren
+    · Schrägbild skizzieren.
 - Funktionen
-  - Lineare: Gerade zeichnen und ablesen (7 · 5) · Einsetzen:
-    Punktprobe und Lösung prüfen (4 · 4) · Lineare Funktion im
-    Sachzusammenhang (4 · 2)
+  - Lineare: Lineare Funktionen (17 · 5). Blattnamen und Stufen:
+    Lineare Funktionen – Gerade zeichnen · Gleichung ablesen ·
+    Gleichung aus zwei Punkten · Nullstelle gesucht · Punktprobe ·
+    Gleichung aus Text · Gerade und Parabel.
   - Quadratische: Parabel: Scheitelpunkt und Skizze (7 · 5) ·
-    Quadratische Gleichung lösen (4 · 4)
-  - Gleichungssysteme: Gleichungssystem im Sachzusammenhang (4 · 2)
-  - Wachstum: Exponentielles Wachstum (5 · 2)
+    Quadratische Gleichung lösen (8 · 5). Blattnamen und Stufen:
+    Parabel – Parabel zeichnen · Scheitelpunkt angeben · Punktprobe ·
+    Scheitelpunktform aufstellen · Lage begründen; Quadratische
+    Gleichung – Nullstellen gesucht · x-Wert gesucht · Schnittpunkte
+    gesucht · Gerade und Parabel.
+  - Gleichungssysteme: Gleichungssystem im Sachzusammenhang (4 · 2).
+    Blattnamen und Stufen: Gleichungssystem – Gleichungen aufstellen ·
+    x und y gesucht · Bedeutung gesucht.
+  - Wachstum: Exponentielles Wachstum (5 · 2). Blattnamen und Stufen:
+    Wachstum – Tabelle ergänzen · Graph zeichnen · Gleichung gesucht ·
+    Graph zuordnen.
 - Daten + Zufall
-  - Prozent: Prozent (11 · 5; Stufen Umwandeln, Prozentwert,
-    Prozentsatz, Grundwert mit Erkennen am Anfang, Wert nach
-    Erhöhung, Veränderung in Prozent – Lehrer 10.10.)
-  - Daten: Kenngrößen (10 · 5, Stufe Modalwert ohne Original) ·
-    Kreisdiagramm (2 · 2) · Diagramm ergänzen und beurteilen (4 · 3)
-  - Wahrscheinlichkeit: Wahrscheinlichkeit einstufig (3 · 3) ·
-    Baumdiagramm und Pfadregeln (8 · 3)
+  - Prozent: Prozent (8 · 4) · Grundwert (4 · 4). Blattnamen und
+    Stufen: Prozent – Prozent und Anteil umwandeln · Prozentsatz
+    gesucht · Veränderung gesucht · Aussagen prüfen · Flächenanteil
+    gesucht; Prozentwert und Grundwert – Prozentwert gesucht · neuer
+    Wert gesucht · Grundwert gesucht.
+  - Daten: Kenngrößen (10 · 5) · Diagramme (6 · 4). Blattnamen und
+    Stufen: Kenngrößen – Spannweite gesucht · Median gesucht ·
+    Modalwert gesucht · Mittelwert gesucht · fehlender Wert gesucht ·
+    Aussagen prüfen; Diagramme – Winkel gesucht · Kreisdiagramm
+    zeichnen · Säule ergänzen · Aussagen prüfen · falschen Eindruck
+    erklären.
+  - Wahrscheinlichk.: Baumdiagramm und Pfadregeln (11 · 3). Blattnamen
+    und Stufen: Wahrscheinlichkeit – Ergebnisse aufzählen ·
+    Wahrscheinlichkeit gesucht · Baum ergänzen · Pfadregeln anwenden ·
+    ohne Zurücklegen rechnen · Zufallsgerät entwerfen.
 - Jeder Ast zuletzt „Weitere (RLP)“: Themen aus dem RLP bis
   Niveaustufe G, nie geprüft.
 
@@ -413,7 +435,7 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Teilaufgaben in Folge wie im Heft, eigener Wortlaut, Punkte, ohne
   Überschriften, ohne Hilfen, ohne laufende Nummer. Nicht auf dem
   einzelnen Blatt. Abitur: Prüfstein je Gebiet (offen).
-- **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.): Warum:
+- (abgelöst 14.10.) **Stufenkopf** (06.10.; Jahre statt Zählung Lehrer 11.10.): Warum:
   „3 der letzten 5“ klingt nach Aufgabenzahl; Jahre sind konkret und
   sagen dem Schüler, ob das drankommt. Beispiel: Überschrift =
   Stufenname, dahinter grau die Prüfungsjahre der Stufe aus den

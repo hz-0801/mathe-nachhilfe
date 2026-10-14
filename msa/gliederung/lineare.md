@@ -8,8 +8,9 @@ Folge: 4
 Bank: lineare-funktionen | quadratische-funktionen | quadratische-gleichungen
 Katalog: katalog/lineare-funktionen.md | katalog/quadratische-funktionen.md | katalog/quadratische-gleichungen.md
 Anzeigenamen: Lineare Funktionen = Lineare Funktionen
-Kennung: Lineare Funktionen = TAL
-Kennung neu: Lineare Funktionen = PA10
+Kennung alt: Lineare Funktionen = TAL
+Kennung: Lineare Funktionen = PA10
+Ordner: Lineare Funktionen = lineare
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

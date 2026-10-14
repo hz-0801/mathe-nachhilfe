@@ -28,6 +28,13 @@ die Gliederung verweist („→ katalog/…“), sie kopiert nicht.
     Bank: prozentrechnung | zinsrechnung   Bankeinträge (aufgabenbank/bank/<eintrag>)
     Katalog: katalog/prozentrechnung.md | …   Verweise, nur für Menschen
     Skript: nein                       nur Sammlungen ohne Bank (_basisteil, _hilfsmittelfrei)
+    Anzeigenamen: <Zuschnitt> = Name  Blattname in Schülersprache, mehrere mit „ | “
+    Kennung: <Zuschnitt> = PG50        sprechende Kennung je Einheit (plan.md § 10, 14.10. b; gemeinsam.md
+                                       „Kennung mit Fassung“): Sorte · Gebiet · Platz in der Lernfolge mit
+                                       Zehnerlücken; die Folge der Blätter über alle Kapitel ist der Platz
+    Kennung alt: <Zuschnitt> = P4Z     bis 14.10. gültige Kennung, nur zum Nachschlagen (Register umgeschlüsselt)
+    Ordner: <Zuschnitt> = pythagoras   Ausgabeordner unter aufgabenbank bau/pruefung/<datum>/ (seit 14.10.;
+                                       Leser aufgabenbank werkzeuge/p10einheiten.py für Karte, Gesamtheft, Mappe)
 
     ## Stufen                          Stufen in Lernreihenfolge (Heftreihenfolge)
     ### <Stufe>                        Name der Stufe (= Handgriff)
