@@ -759,7 +759,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Geometrie, Abnahme offen); Bezeichnungen aus Regine, Duden nur wo
   besser (Lehrer).
 
-## 11 Register der Entscheidungen
+- 14.10.2026 (b): Kennung sprechend (Claude, Lehrer: „ich folge
+  deiner Entscheidung“; ersetzt die Zufallskennung vom 12.10., Fassung
+  bleibt): Sorte · Gebiet · Platz in der Lernfolge mit Zehnerlücken,
+  Fassung mit Bindestrich – PG50-3. Erster Buchstabe: P = P10 (MSA),
+  A = Abitur Grundkurs, L = Abitur Leistungskurs, F = FHR, S =
+  Schulstoff-Lernblatt mit Klasse (S9G10). Gebiet: P10 G Geometrie,
+  F Funktionen, D Daten und Zufall, B Basisteil; Abitur A Analysis,
+  G Geometrie, S Stochastik. Kennung fest, auch wenn sich die Folge
+  später ändert (neues Blatt dazwischen: PG15); alte Kennungen im
+  Register umgeschlüsselt.
+
+## 11 Register der Entscheidungen## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
 steht. Hier nur der Verweis, nichts doppelt. Quelle je Zeile:
