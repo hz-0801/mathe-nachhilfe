@@ -7,9 +7,11 @@ Name: Daten
 Folge: 9
 Bank: daten
 Katalog: katalog/daten.md
-Anzeigenamen: Kenngrößen = Kenngrößen | Diagramme = Kreis- und Säulendiagramme
+Anzeigenamen: Kenngrößen = Kenngrößen | Diagramme = Diagramme
 Kennung: Kenngrößen = K9X
 Kennung: Diagramme = DGH
+Kennung neu: Kenngrößen = PS30
+Kennung neu: Diagramme = PS40
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -85,7 +87,7 @@ einer Stufe.
 - **Durchsicht 13.10.:** Runde A: Anzeigename nach dem Gesuchten; keine Heranführung (Summe durch Anzahl ist der Handgriff selbst, kein Stolperstein davor).
 
 ### rückwärts: fehlender Wert
-- **Anzeigename:** Fehlender Wert gesucht
+- **Anzeigename:** fehlender Wert gesucht
 - **Regine:** S. 42
 - **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Durchschnitt zweier Zahlen: m = (a + x) : 2, gesucht ist x → x = 2 · m − a
@@ -98,7 +100,7 @@ einer Stufe.
 - **Durchsicht 13.10.:** Runde A: Rückwärts-Regel – statt „Durchschnitt 6, Summe?“ mit Zahlen jetzt Umstellen ohne Zahlen am Durchschnitt zweier Zahlen (einfacher als die sieben Tage von ’22 · B1d); er trägt beide Schritte (Summe aus dem Schnitt, dann die Bekannten abziehen).
 
 ### Aussagen prüfen, Auswirkung erklären
-- **Anzeigename:** Aussagen zu Kenngrößen prüfen
+- **Anzeigename:** Aussagen prüfen
 - **Regine:** S. 42
 - **Kern:** nein – 2 echte, nur 2025 (Niveau II/III)
 - **Originale:** 2025-OS-K6a 2025-OS-K6c
@@ -139,7 +141,7 @@ einer Stufe.
 - **Durchsicht 13.10.:** Runde A: der kursive Hinweis begann mit „Erster Schritt“ und „eine Hilfslinie“ (welche?) – jetzt eine Frage, die für sich steht (ein Schritt an der Achse, ohne Zahlen aus einer bekannten Säule); als nummerierte Aufgabe mit zwei Fällen ging das Blatt auf 4 Seiten, darum kursiv geblieben.
 
 ### Aussage prüfen
-- **Anzeigename:** Aussage prüfen
+- **Anzeigename:** Aussagen prüfen
 - **Kern:** ja – 3 echte (2018, 2019, 2022), Bank-Kette Beurteilen mit Grundfall (Aussage mit einem Wert prüfen)
 - **Originale:** 2022-OS-K4c 2018-OS-K3d 2019-OS-K5c
 - **Bank:** daten-e5-k1-s1 daten-e5-k1-s2 daten-e5-k1-s3 daten-e5-k1-s4 daten-e5-k1-s5 daten-e5-k1-s7 daten-e5-k1-s8 daten-e5-k4-s4 daten-e5-k1-s11[2018-OS-K3d,2019-OS-K5c]
@@ -147,7 +149,7 @@ einer Stufe.
 - **Durchsicht 13.10.:** Runde A: Anzeigename kürzer als Reihe mit „… ergänzen“, „… erklären“; keine Heranführung.
 
 ### falschen Eindruck erklären
-- **Anzeigename:** Falschen Eindruck erklären
+- **Anzeigename:** falschen Eindruck erklären
 - **Kern:** nein – 2 echte (2014, 2026), Niveau III, eine Sprosse der Kette Beurteilen
 - **Originale:** 2026-FOR-K3e 2014-OS-K3d
 - **Bank:** daten-e5-k1-s6 daten-e5-k1-s9 daten-e5-k3-s1 daten-e5-k4-s1 daten-e5-k4-s2 daten-e5-k1-s11[2026-FOR-K3e]

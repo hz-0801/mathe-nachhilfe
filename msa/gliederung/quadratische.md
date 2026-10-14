@@ -7,9 +7,11 @@ Name: Quadratische
 Folge: 5
 Bank: quadratische-funktionen | quadratische-gleichungen
 Katalog: katalog/quadratische-funktionen.md | katalog/quadratische-gleichungen.md
-Anzeigenamen: Parabel: Scheitelpunkt und Skizze = Parabel: Scheitelpunkt und Skizze | Quadratische Gleichung lösen = Quadratische Gleichung lösen
+Anzeigenamen: Parabel: Scheitelpunkt und Skizze = Parabel | Quadratische Gleichung lösen = Quadratische Gleichung
 Kennung: Parabel: Scheitelpunkt und Skizze = XU6
 Kennung: Quadratische Gleichung lösen = YYZ
+Kennung neu: Parabel: Scheitelpunkt und Skizze = PA30
+Kennung neu: Quadratische Gleichung lösen = PA40
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -40,7 +42,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 – keine Zeile „Häufigkeit“.
 
 ### Wertetabelle oder Skizze
-- **Anzeigename:** Wertetabelle oder Skizze
+- **Anzeigename:** Parabel zeichnen
 - **Regine:** S. 32
 - **Einstieg:** nein
 - **Kern:** nein – 3 echte: Wertetabelle zuordnen (2015, Basisteil 2026) und Parabel skizzieren (2024); Zuordnen und Skizzieren auf der Kette Normalparabel, Grundfall ist das Ausfüllen
@@ -73,7 +75,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: unverändert; kein Anstoß (Einsetzen kennt der Schüler von der Geraden).
 
 ### Scheitelpunktform angeben
-- **Anzeigename:** Gleichung in Scheitelpunktform
+- **Anzeigename:** Scheitelpunktform aufstellen
 - **Regine:** S. 32
 - **Einstieg:** nein
 - **Schülerfrage:** Eine nach oben geöffnete Normalparabel wird verschoben. Schreib ihre Gleichung in Scheitelpunktform.
@@ -87,7 +89,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: neu ein Anstoß mit einem Fall, weil der Schüler bei (x − d)² das Vorzeichen falsch übernimmt; anderer Scheitel als in ’25 · 5b und ’23 · 4b.
 
 ### Lage zweier Parabeln ohne Rechnung begründen
-- **Anzeigename:** Lage zweier Parabeln begründen
+- **Anzeigename:** Lage begründen
 - **Regine:** S. 32
 - **Einstieg:** nein
 - **Schülerfrage:** Wohin ist die Parabel geöffnet, und wo liegt ihr Scheitel? Rechne nicht.
@@ -115,7 +117,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß bleibt (steht für sich, zwei Fälle: y = 0 setzen, durch die Zahl vor x² teilen).
 
 ### x zu gegebenem y
-- **Anzeigename:** x zu gegebenem y gesucht
+- **Anzeigename:** x-Wert gesucht
 - **Regine:** S. 21
 - **Frage:** Ist ein y-Wert gegeben, setzt du ihn für y ein und bringst alles auf eine Seite – nicht y = 0 wie bei den Nullstellen.
 - **Kern:** nein – 1 echte (2023)
@@ -137,7 +139,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Durchsicht 13.10.:** Runde A: Name in der Reihe „… gesucht“; Anstoß für sich verständlich („beide“ war ohne die folgende Aufgabe offen).
 
 ### Gemischt: Gerade und Parabel
-- **Anzeigename:** Gerade und Parabel zusammen
+- **Anzeigename:** Gemischt: Gerade und Parabel
 - **Regine:** S. 21 · 31
 - **Zuschnitt:** Quadratische Gleichung lösen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt

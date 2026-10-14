@@ -7,8 +7,9 @@ Name: Wachstum
 Folge: 7
 Bank: potenz-exponentialfunktionen
 Katalog: katalog/potenz-exponentialfunktionen.md
-Anzeigenamen: Exponentielles Wachstum = Exponentielles Wachstum
+Anzeigenamen: Exponentielles Wachstum = Wachstum
 Kennung: Exponentielles Wachstum = 74A
+Kennung neu: Exponentielles Wachstum = PA50
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -50,7 +51,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 - **Zuschnitt:** Exponentielles Wachstum
 
 ### Faktor bestimmen, Gleichung aufstellen
-- **Anzeigename:** Faktor und Gleichung gesucht
+- **Anzeigename:** Gleichung gesucht
 - **Regine:** S. 19 · 36
 - **Schülerfrage:** Eine Größe wächst in einem Jahr von 200 auf 210. Mit welcher Zahl wurde sie multipliziert, und um wie viel Prozent ist sie gewachsen?
 - **Schülerfrage-Fälle:** von 200 auf 210 → 210 : 200 = 1,05; 5 %

@@ -9,6 +9,7 @@ Bank: wahrscheinlichkeit
 Katalog: katalog/wahrscheinlichkeit.md
 Anzeigenamen: Baumdiagramm und Pfadregeln = Wahrscheinlichkeit
 Kennung: Baumdiagramm und Pfadregeln = VRK
+Kennung neu: Baumdiagramm und Pfadregeln = PS50
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -42,7 +43,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Durchsicht 13.10.:** Runde A: Anzeigename ausdrücklich; keine Heranführung, das Aufzählen an zwei Scheiben braucht keine.
 
 ### Wahrscheinlichkeit angeben
-- **Anzeigename:** Wahrscheinlichkeit angeben
+- **Anzeigename:** Wahrscheinlichkeit gesucht
 - **Regine:** S. 40
 - **Kern:** ja – 12 echte 2014–2026, fast jedes Jahr Basis und Kontext (Niveau I), Bank-Kette Einstufig mit Grundfall
 - **Originale:** 2024-OS-K5a 2026-FOR-K6a 2019-OS-K6a 2018-OS-K7b 2017-OS-K6a 2016-OS-K5c 2016-OS-K5d 2014-OS-K6a 2016-OS-B1f 2015-OS-B1a 2014-OS-B1b 2014-OS-B1d

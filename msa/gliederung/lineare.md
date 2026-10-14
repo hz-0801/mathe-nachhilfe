@@ -9,6 +9,7 @@ Bank: lineare-funktionen | quadratische-funktionen | quadratische-gleichungen
 Katalog: katalog/lineare-funktionen.md | katalog/quadratische-funktionen.md | katalog/quadratische-gleichungen.md
 Anzeigenamen: Lineare Funktionen = Lineare Funktionen
 Kennung: Lineare Funktionen = TAL
+Kennung neu: Lineare Funktionen = PA10
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -66,7 +67,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Durchsicht 13.10.:** Runde A: Anstoß steht für sich; drei statt vier Fälle (4 : x gestrichen – x² trägt schon „keine Gerade“), jeder trägt einen Gedanken: m hinten, keine Gerade, n = 0.
 
 ### Gleichung aus Graph
-- **Anzeigename:** Gleichung aus Graph
+- **Anzeigename:** Gleichung ablesen
 - **Regine:** S. 31
 - **Kern:** ja – erster Schritt: n am Schnitt mit der y-Achse ablesen, dann m mit einem Steigungsdreieck (Graph nach Steigung auswählen, Gleichung zum Graphen zuordnen 2019; Niveau I–II); Bank-Kette Ablesen mit Grundfall. Kein Original 2022–2026: die Stufe entfällt auf dem Blatt, die Originale stehen im Mehr-Block (Lehrer 13.10.: geteilt, weil der erste Schritt ein anderer ist als bei zwei Punkten). 2024-OS-B1i bleibt bei „Gerade zeichnen“: dort wird n aus der Gleichung gelesen und eingezeichnet, gesucht ist ein Punkt im Bild, nicht die Gleichung
 - **Originale:** 2019-OS-K2b 2019-OS-K2c
@@ -118,7 +119,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Durchsicht 13.10.:** Runde A: unverändert; Anstoß steht für sich, zwei Fälle, je ein Gedanke (m und n trennen, m negativ beim Abnehmen).
 
 ### Gemischt: Gerade und Parabel
-- **Anzeigename:** Gerade und Parabel zusammen
+- **Anzeigename:** Gemischt: Gerade und Parabel
 - **Regine:** S. 21 · 31
 - **Zuschnitt:** Lineare Funktionen
 - **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt

@@ -7,7 +7,9 @@ Name: Gleichungssysteme
 Folge: 6
 Bank: lineare-gleichungssysteme
 Katalog: katalog/lineare-gleichungssysteme.md
+Anzeigenamen: Gleichungssystem im Sachzusammenhang = Gleichungssystem
 Kennung: Gleichungssystem im Sachzusammenhang = 93F
+Kennung neu: Gleichungssystem im Sachzusammenhang = PA20
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

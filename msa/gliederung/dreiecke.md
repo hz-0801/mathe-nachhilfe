@@ -19,6 +19,12 @@ Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
 Kennung: Winkel ohne Rechnung bestimmen oder begründen = T2U
 Anzeigenamen: Vierecke: Symmetrie und Eigenschaften = Vierecke
 Kennung: Symmetrie = NUB
+Kennung neu: Winkel ohne Rechnung bestimmen oder begründen = PG10
+Kennung neu: Symmetrie = PG20
+Kennung neu: Vierecke: Symmetrie und Eigenschaften = PG30
+Kennung neu: Länge mit Pythagoras = PG50
+Kennung neu: Seite oder Winkel mit sin, cos, tan = PG60
+Kennung neu: Seite im allgemeinen Dreieck (Sinussatz) = PG70
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -162,7 +168,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Seite berechnen [2024-OS-K6d 2025-OS-K4c]
 
 ### Eigenschaft erkennen
-- **Anzeigename:** Eigenschaften: welche Aussage gilt
+- **Anzeigename:** Eigenschaften prüfen
 - **Schülerfrage:** Ein Trapez ist ein Viereck mit mindestens zwei parallelen Seiten. Ist das Viereck ein Trapez?
 - **Schülerfrage-Fälle:** Rechteck = ja | Parallelogramm = ja | Drachenviereck, das keine Raute ist = nein
 - **Schülerfrage-Form:** kreuz:Trapez
@@ -189,7 +195,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### gleichschenkliges Dreieck
-- **Anzeigename:** gleichschenklig: zwei gleiche Winkel
+- **Anzeigename:** Basiswinkel gesucht
 - **Schülerfrage:** Trage alle Winkel ein. Was unterscheidet die beiden Dreiecke?
 - **Schülerfrage-Fälle:** Unterschied → links zwei gleiche Winkel (64°, 64°, 52°), rechts alle drei gleich (60°)
 - **Schülerfrage-Form:** linie
@@ -203,7 +209,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### rechten Winkel begründen
-- **Anzeigename:** rechter Winkel: begründen
+- **Anzeigename:** rechten Winkel begründen
 - **Schülerfrage:** CD steht senkrecht auf AB. Trage die Winkel in den Dreiecken ADC und DBC ein. Warum ist γ = 90°?
 - **Schülerfrage-Fälle:** Begründung → in beiden Dreiecken je 45° bei C: 45° + 45° = 90°
 - **Schülerfrage-Form:** linie
@@ -217,7 +223,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Zuschnitt:** Winkel ohne Rechnung bestimmen oder begründen
 
 ### Symmetrieachsen zählen
-- **Anzeigename:** Symmetrieachsen zählen
+- **Anzeigename:** Symmetrieachsen gesucht
 - **Schülerfrage:** Eine Symmetrieachse teilt die Figur so, dass beim Falten beide Hälften genau aufeinanderliegen. Wie viele Symmetrieachsen hat die Figur?
 - **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das weder Rechteck noch Raute ist = 0
 - **Schülerfrage-Form:** linie

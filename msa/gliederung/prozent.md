@@ -7,9 +7,11 @@ Name: Prozent
 Folge: 8
 Bank: prozentrechnung | zinsrechnung
 Katalog: katalog/prozentrechnung.md | katalog/zinsrechnung.md
-Anzeigenamen: Prozent = Anteil und Veränderung in Prozent | Grundwert = Prozentwert und Grundwert
+Anzeigenamen: Prozent = Prozent | Grundwert = Prozentwert und Grundwert
 Kennung: Prozent = 5ZQ
 Kennung: Grundwert = HK3
+Kennung neu: Prozent = PS10
+Kennung neu: Grundwert = PS20
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -56,7 +58,7 @@ druckt die Jahre.
 - **Zuschnitt:** Grundwert
 
 ### Wert nach Erhöhung
-- **Anzeigename:** Neuer Wert gesucht
+- **Anzeigename:** neuer Wert gesucht
 - **Regine:** S. 18
 - **Kern:** ja – gesucht ist ein Betrag: erst der Prozentwert (Erhöhung oder Rabatt in Euro), dann dazu oder ab (Basisteil 2024, 2015; Niveau I/II); Buchstufe 5, Bank-Kette Veränderung mit Wachstumsfaktor
 - **Originale:** 2024-OS-B1e 2015-OS-K2b
@@ -66,7 +68,7 @@ druckt die Jahre.
 - **Durchsicht 13.10.:** Anzeigename in die Reihe „… gesucht“ (vorher „Neuer Wert nach Erhöhung oder Rabatt“); keine Heranführung.
 
 ### Prozentsatz
-- **Anzeigename:** Anteil in Prozent gesucht
+- **Anzeigename:** Prozentsatz gesucht
 - **Regine:** S. 18
 - **Schülerfrage:** In einer Klasse sind 20 Kinder, 5 davon kommen mit dem Rad. Was ist der Teil, was das Ganze? Wie viel Prozent kommen mit dem Rad?
 - **Schülerfrage-Fälle:** Rad-Kinder in der Klasse → Teil 5, Ganzes 20, 25 %
@@ -97,7 +99,7 @@ druckt die Jahre.
 - **Probe 14.10.:** Ebene 2 (Eigenschaft abfragen: Teil oder Ganzes?) statt Umstellen – Regine S. 18 hat G schon umgestellt; Stolperstein: gegebene Zahl fürs Ganze halten (Fehlvorstellung W/G verwechselt → 20 % von 6). Bezeichnungen wie Regine.
 
 ### Erhöhung und Veränderung in Prozent
-- **Anzeigename:** Veränderung in Prozent gesucht
+- **Anzeigename:** Veränderung gesucht
 - **Regine:** S. 18
 - **Schülerfrage:** Ein Eis kostet erst 2 €, dann 2,50 €. Um wie viel Euro steigt der Preis? Welcher Preis ist das Ganze? Um wie viel Prozent steigt er?
 - **Schülerfrage-Fälle:** Eis → 0,50 €, alter Preis 2 €, 25 %
@@ -121,7 +123,7 @@ druckt die Jahre.
 - **Durchsicht 13.10.:** Name sagt, was der Schüler tut; keine Heranführung (Länge).
 
 ### Prozent aus einer berechneten Fläche
-- **Anzeigename:** Flächenanteil in Prozent gesucht
+- **Anzeigename:** Flächenanteil gesucht
 - **Regine:** S. 18 · 24
 - **Zuschnitt:** Prozent
 - **Kern:** nein – 1 echte (2023, Sternchen, Niveau III), Nebenthema aus der Geometrie

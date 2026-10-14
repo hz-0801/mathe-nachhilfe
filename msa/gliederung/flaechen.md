@@ -9,6 +9,7 @@ Bank: flaechen | kreis
 Katalog: katalog/flaechen.md | katalog/kreis.md
 Anzeigenamen: Flächeninhalt und Umfang = Fläche und Umfang
 Kennung: Flächeninhalt und Umfang = Y5D
+Kennung neu: Flächeninhalt und Umfang = PG40
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -83,7 +84,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 - **Zuschnitt:** Flächeninhalt und Umfang
 
 ### Anteil in Prozent
-- **Anzeigename:** Anteil in Prozent
+- **Anzeigename:** Flächenanteil gesucht
 - **Regine:** S. 26
 - **Schülerfrage:** Teil und Ganzes am Kreis: Ein Viertel des Kreises ist grau. Wie groß ist sein Winkel, und wie viel Prozent sind grau?
 - **Schülerfrage-Fälle:** Winkel und Prozent → 90° von 360° = 25 %

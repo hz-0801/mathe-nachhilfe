@@ -10,6 +10,8 @@ Katalog: katalog/koerper.md | katalog/pyramide-kegel-kugel.md
 Anzeigenamen: Volumen und Oberfläche = Volumen und Oberfläche
 Kennung: Volumen und Oberfläche = AZL
 Kennung: Netz und Schrägbild = EF4
+Kennung neu: Netz und Schrägbild = PG80
+Kennung neu: Volumen und Oberfläche = PG90
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -61,7 +63,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen. AZL3: ’23 · 5d (Höhe gesucht, ohne Wurzel) aufs Blatt – zweite Erscheinungsform neben ’22 · 2d (Radius, mit Wurzel).
 
 ### vergleichen und urteilen
-- **Anzeigename:** vergleichen und urteilen
+- **Anzeigename:** Körper vergleichen
 - **Regine:** S. 26 · 27
 - **Schülerfrage:** Wie oft so groß wird das Volumen? Schätze, ohne zu rechnen.
 - **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Zylinder statt Kegel, Radius und Höhe gleich = 3
@@ -85,6 +87,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Durchsicht 13.10.:** Runde A: „Welche Form haben die Flächen …“ setzte den Körper der Aufgabe voraus und unterschied die drei Becher-Netze nicht (alle haben einen Kreis); neu zwei Fälle für sich, je ein Gedanke: Gegenfläche im Würfelnetz (’16 · 1j), Mantel so lang wie der Kreisumfang (’22 · 2a).
 
 ### Netz mit Maßen skizzieren
+- **Anzeigename:** Netz skizzieren
 - **Kern:** nein – 4 echte (2014, 2019, 2020, 2023), aber nur Sprossen ohne eigene Kette mit Grundfall
 - **Originale:** 2023-OS-K5a 2020-OS-K5a 2019-OS-K4a 2014-OS-K5b
 - **Bank:** koerper-e1-k1-s5 koerper-e3-k1-s9 koerper-e3-k2-s4 koerper-e4-k3-s4 pyramide-kegel-kugel-e1-k5-s11
@@ -96,6 +99,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Durchsicht 13.10.:** Runde A: Die Frage „Welche Kanten liegen nach dem Falten aneinander? Die sind gleich lang.“ gab die Antwort vor und setzte ein Netz voraus; neu ein Fall für sich an einem kleinen Prisma (anliegende Kante gleich lang, andere Seite = Höhe), der Gedanke von ’19 · 4a (a = Rechteckbreite, nicht 1,50 m).
 
 ### Körper im Schrägbild skizzieren
+- **Anzeigename:** Schrägbild skizzieren
 - **Kern:** nein – 2 echte (2015, 2024)
 - **Originale:** 2024-OS-K4b 2015-OS-K6b
 - **Bank:** koerper-e1-k1-s6 koerper-e1-k1-s7 koerper-e1-k4-s1 pyramide-kegel-kugel-e1-k5-s12 pyramide-kegel-kugel-e2-k2-s9 pyramide-kegel-kugel-e1-k6-s3 pyramide-kegel-kugel-e2-k3-s3 pyramide-kegel-kugel-e3-k1-s6
