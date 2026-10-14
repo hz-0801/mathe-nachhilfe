@@ -513,6 +513,10 @@ die Regel 0,5 je Kapitel enthielt den Setzer-Agenten von Runde 7/8.
 Regel: über Token schätzen – ≈ 0,9 Mio Opus-Token je Wochenpunkt;
 enger Durchsicht-Agent ≈ 0,15 Mio, Bau-Agent 0,2–0,3 Mio, Kritiker
 ≈ 0,15 Mio.
+Nachtpaket 14.10. (Regine-Abschrift 0,26 Mio, Heranführungen 0,36
+Mio, Probe 0,18 Mio, Neusatz und Gesamtheft per Skript): Woche
+25 → 26 % (Anzeige 14.10. morgens), Schätzung ≈ 1,2 Punkte; Regel
+über Token hält (0,8 Mio Agenten ≈ 1 Punkt).
 
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
@@ -747,6 +751,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Vorrat, keine Kastenregel vor dem ersten Exemplar (Lehrer).
   Messwert: Abschrift 38 Seiten, ein Opus-Agent Aufwand mittel,
   0,26 Mio Token, 13 min.
+
+- 14.10.2026: Kein Bedientext auf Gedrucktem (Lehrer: „blabla …
+  stell das zukünftig ab“) – gemeinsam.md; Gesamtheft ohne Lösungen;
+  Bestellkarte je Gebiet eine Seite, Abschnitte eingerückt unter dem
+  Blatt, Kästchen, ohne Kennung, mit Seite und Seitenzahl (Probe
+  Geometrie, Abnahme offen); Bezeichnungen aus Regine, Duden nur wo
+  besser (Lehrer).
 
 ## 11 Register der Entscheidungen
 

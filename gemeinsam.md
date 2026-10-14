@@ -86,6 +86,13 @@ die der Lehrer noch entscheidet.
   Beispiel: unter der Fundstellentabelle drei graue Zeilen
   „Vorher: …“, „▸ <dieses Blatt>“, „Weiter: …“ mit den Nachbarn aus
   der Lernfolge. Grenze: trägt keinen Inhalt, der im Blatt steht.
+- **Kein Bedientext auf Gedrucktem** (Lehrer 14.10.). Warum: Der
+  Schüler liest das Blatt, nicht eine Anleitung dazu; jeder Satz, der
+  erklärt, wie man das Dokument benutzt, ist Rauschen. Beispiel:
+  „Stand …, Einheit anklicken springt zum Blatt …“ und „↑ Bestell-
+  karte“ wurden zu nichts bzw. „↑“. Grenze: Was der Schüler zum
+  Lösen braucht (Aufgabentext, Formelsammlungs-Frage), bleibt; Kopf
+  und Fuß nach den Regeln unten.
 - **Namen** (Lehrer 11.10.): Warum: Übersicht, Titelzeile, Stufenkopf
   und Lösung sind dieselbe Sache – andere Wörter heißen Suchen; und
   die Stufen sollen sich als Reihe lesen. Beispiel: Der Einheitsname
