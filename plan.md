@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: PG10 bis PG60 durchgesehen (42 der 47
-     Kommentare), Entscheidungen § 10 l, o, p, q–y, 16.10. a; Antworten
+     Kommentare), Entscheidungen § 10 l, o, p, q–y, 16.10. a, b; Antworten
      aufgabenbank bau/durchsicht/pg10–60.json. Weiter mit PG70
      Sinussatz (S. 50, 2), PG80 Netz (S. 57, 1), PG90 Volumen
      (S. 64–65, 3). Offen dazu: Lösungsblatt-Gespräch auch mit
@@ -1096,6 +1096,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Worten allein. Beispiel: Kasten „Sinussatz“ mit Figur aus Formeln
   und Werte S. 27 oben unter dem Titel; die Frage „Welche Formel …
   Seite __“ fällt weg. Grenze: wie t (Tafelwerk des Schülers).
+  Umsetzung in Schritt C.
+- 16.10.2026 (b): Skizze in Geometrie (Lehrer, Weg A; Chat
+  Durchsicht, PG70, bestätigt durch PG90). Warum: Geometrie lebt von
+  der Anschauung, gerade bei schwachen Schülern, und die P10-
+  Originale zeigen fast immer eine Figur. Beispiel: jede Aufgabe in
+  Geometrie hat eine Figur – unsere Skizze oder das Skizzenfeld –,
+  nie nur Text. Grenze: ohne Figur nur, wo sie nichts zeigt (zwei
+  Winkel, dritter gesucht); eine echte Aufgabe ohne Figur im Original
+  bekommt das Skizzenfeld, keine Zeichnung von uns. Ersetzt in
+  gemeinsam.md „Skizze, wo sie trägt“ den Teil „die folgenden ohne“.
   Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
