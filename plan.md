@@ -610,6 +610,10 @@ Wanduhr 4 h 40 statt 3 h: der Agent Ableitung/Integral brauchte
 Graphen ≈ 25 min je Blatt, nicht 10.
 
 ## 9 Später
+- Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt): Duden
+  gesetzt (aufgabenbank-privat formelsammlung/duden-sek1.pdf, .json mit
+  265 Kästen, formelsammlung-satz.py --kasten <id>); offen: 140 Figuren
+  nur als Beschreibung, Abgleich mit den Scans, Regine, Hildebrandt.
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
