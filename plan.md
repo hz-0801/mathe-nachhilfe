@@ -656,7 +656,6 @@ Paetec Figuren S. 28–43 (15.10. nachts, Opus): 0,20 Mio (Schätzung
   geradestellen, aufhellen, Doppelseite teilen, Texterkennung
   (tesseract deu, ocrmypdf); erstes Buch Jesse = Cornelsen
   „Fundamente der Mathematik 10“, Marie-Curie-Gymnasium. Skript
-  bisher außerhalb der Repos (/home/claude/jesse) – beim Umzug nach
   aufgabenbank-privat werkzeuge/buch-durchsuchbar.py.
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
