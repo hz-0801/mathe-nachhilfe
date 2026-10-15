@@ -227,11 +227,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      für den Bestell-Chat klären (sechs Lücken, Bericht 15.10.),
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
-     [Stand 16.10.: PG10 bis PG60 durchgesehen (42 der 47
-     Kommentare), Entscheidungen § 10 l, o, p, q–y, 16.10. a, b; Antworten
-     aufgabenbank bau/durchsicht/pg10–60.json. Weiter mit PG70
-     Sinussatz (S. 50, 2), PG80 Netz (S. 57, 1), PG90 Volumen
-     (S. 64–65, 3). Offen dazu: Lösungsblatt-Gespräch auch mit
+     [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–c; Antworten
+     aufgabenbank bau/durchsicht/pg10–90.json. Offen dazu: Lösungsblatt-Gespräch auch mit
      Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
      Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Form
      der Begriffs-Einzeiler (Basiswinkel, Symmetrieachse – zwei
@@ -1107,6 +1105,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   bekommt das Skizzenfeld, keine Zeichnung von uns. Ersetzt in
   gemeinsam.md „Skizze, wo sie trägt“ den Teil „die folgenden ohne“.
   Umsetzung in Schritt C.
+- 16.10.2026 (c): Blatt Volumen und Oberfläche (Lehrer, Weg A; Chat
+  Durchsicht, PG90): Stufen Volumenformel aufstellen · Volumen
+  gesucht · Volumenformel umstellen · Oberfläche gesucht · Körper
+  vergleichen. Warum: parallel zu Pythagoras und sin, cos, tan
+  („… aufstellen“, u, y); umgestellt wird in den Originalen nur die
+  Volumenformel. Die Aufstell-Aufgabe mit Seitenfrage wandert in die
+  erste Stufe. Ändert pruefung.md § 2 (Stufen Volumen). Umsetzung in
+  Schritt C.
 
 ## 11 Register der Entscheidungen
 
