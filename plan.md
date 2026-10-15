@@ -1006,6 +1006,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Doppelpunkt bleibt nur, wo die Aufgabe selbst ihn zeigt (Maßstab,
   Verhältnis). Ersetzt gemeinsam.md „Division außerhalb von Formeln
   als Bruch“. Umsetzung in Schritt C.
+- 15.10.2026 (r): Mehr als eigene Datei (Lehrer, Weg A, Chat
+  Durchsicht, PG40): Jede Bestellung eines Prüfungsblatts liefert
+  drei Dateien – Blatt, Lösung, Mehr (Lösung des Mehr hinten im
+  Mehr); Dateinamen beginnen gleich (PG40-7 Blatt / Lösung / Mehr).
+  Warum: nichts wird gedruckt, was keiner braucht, und das Mehr ist
+  da, wenn der Schüler es braucht; der Setzer baut es ohne Modell.
+  Ersetzt pruefung.md „Anhang Mehr zum Üben nur auf Zuruf“ (06.10.)
+  für die Lieferung. Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
