@@ -616,12 +616,14 @@ Graphen ≈ 25 min je Blatt, nicht 10.
   „werk 1, regine.pdf“). Duden gesetzt (aufgabenbank-privat
   formelsammlung/duden-sek1.pdf, .json mit 265 Kästen,
   formelsammlung-satz.py --kasten <id>). Fahrplan, jeder Schritt erst
-  nach Absprache mit dem Lehrer: 1 Duden S. 22–39 nachscannen
-  (Lehrer; Scan „duden 1.pdf“ reicht bis S. 21); 2 Abschrift gegen
+  nach Absprache mit dem Lehrer: 1 Duden S. 22–23 nachscannen
+  (Lehrer; Scans „duden 1.pdf“ Vorsatz–S. 21, „duden 2.pdf“ S. 24–43; fehlen S. 22–23); 2 Abschrift gegen
   Scan abgleichen (Skript + Urteil nur bei Abweichung); 3 Figuren
   (140; Weg A ausschneiden oder B neu zeichnen – offen); 4 Paetec
   ebenso (Werkzeug an Tabellenköpfe anpassen); 5 fertige PDFs nach
-  Drive Mathe/Bücher. Später (frühestens So 18.10.): übrige Scans
+  Drive Mathe/Bücher. Nur Mathe-Auszug, Unwichtiges weglassen
+  (Lehrer 15.10.; Claude: Tabellen S. 40–43 Quadratzahlen/Wurzeln
+  entfallen). Später (vielleicht So 18.10.): übrige Scans
   im Ordner „bücher scanns“ (OneDrive-Desktop, 21 Dateien, teils
   leer/unvollständig) durchsuchbar; Originalhefte am Stück
   durchsuchbar mit Sprungmarken nach Drive Mathe/Prüfungen.
