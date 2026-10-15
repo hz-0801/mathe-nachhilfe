@@ -610,10 +610,21 @@ Wanduhr 4 h 40 statt 3 h: der Agent Ableitung/Integral brauchte
 Graphen ≈ 25 min je Blatt, nicht 10.
 
 ## 9 Später
-- Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt): Duden
-  gesetzt (aufgabenbank-privat formelsammlung/duden-sek1.pdf, .json mit
-  265 Kästen, formelsammlung-satz.py --kasten <id>); offen: 140 Figuren
-  nur als Beschreibung, Abgleich mit den Scans, Regine, Hildebrandt.
+- Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
+  Tafelwerke: Duden „Formeln und Werte“ und Paetec Sek I (das an der
+  Regine-Hildebrandt-Schule genutzte, Datei regine-sek1.md, Scan
+  „werk 1, regine.pdf“). Duden gesetzt (aufgabenbank-privat
+  formelsammlung/duden-sek1.pdf, .json mit 265 Kästen,
+  formelsammlung-satz.py --kasten <id>). Fahrplan, jeder Schritt erst
+  nach Absprache mit dem Lehrer: 1 Duden S. 22–39 nachscannen
+  (Lehrer; Scan „duden 1.pdf“ reicht bis S. 21); 2 Abschrift gegen
+  Scan abgleichen (Skript + Urteil nur bei Abweichung); 3 Figuren
+  (140; Weg A ausschneiden oder B neu zeichnen – offen); 4 Paetec
+  ebenso (Werkzeug an Tabellenköpfe anpassen); 5 fertige PDFs nach
+  Drive Mathe/Bücher. Später (frühestens So 18.10.): übrige Scans
+  im Ordner „bücher scanns“ (OneDrive-Desktop, 21 Dateien, teils
+  leer/unvollständig) durchsuchbar; Originalhefte am Stück
+  durchsuchbar mit Sprungmarken nach Drive Mathe/Prüfungen.
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
