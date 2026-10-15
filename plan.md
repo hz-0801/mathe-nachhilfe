@@ -535,6 +535,10 @@ Nachtpaket 14.10. (Regine-Abschrift 0,26 Mio, Heranführungen 0,36
 Mio, Probe 0,18 Mio, Neusatz und Gesamtheft per Skript): Woche
 25 → 26 % (Anzeige 14.10. morgens), Schätzung ≈ 1,2 Punkte; Regel
 über Token hält (0,8 Mio Agenten ≈ 1 Punkt).
+Runde 14.10. mittags (Setzer Schritt 1 + Mappe P10, ein Opus-Agent
+medium, 155 Schritte, 87 min, 0,33 Mio Token): Woche 27 → 28 %
+(Anzeige 14.10. mittags / 15.10.), Fable 24 %. Schätzung 0,8 Punkte,
+gemessen ≈ 1 mit Chat; Regel über Token hält.
 
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
