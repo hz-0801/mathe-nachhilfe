@@ -228,11 +228,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–e; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–f; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Offen dazu: Lösungsblatt-Gespräch auch mit
      Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
-     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Regel „Mehr aufs Blatt, solange zwei Seiten“
-     (Vorschlag, Lehrer: „mach eine“).]
+     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“). Noch nicht beim Lehrer: Bauauftrag
+     Bestell-Chat (sechs Lücken), Blatt „Stimmt das? Begründe.“.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
@@ -1125,6 +1125,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Grenze: nur Begriffe, die das Blatt einführt, höchstens einer je
   Stufe; ist kein Merkkasten (gemeinsam.md bleibt). Umsetzung in
   Schritt C.
+- 16.10.2026 (f): Mehr aufs Blatt, solange zwei Seiten (Lehrer,
+  Weg A; Chat Durchsicht, verallgemeinert p). Warum: Ein Mehr mit
+  ein, zwei Aufgaben ist eine eigene Datei für fast nichts; der
+  Schüler soll alles zum Handgriff auf einmal sehen. Beispiel:
+  Figuren – ältere Originale als letzter Abschnitt „Ältere
+  Prüfungsaufgaben“ auf dem Blatt. Grenze: nur solange das Blatt
+  zwei Seiten hält und mit der schwersten echten endet; sonst
+  bleibt das Mehr (r). Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
