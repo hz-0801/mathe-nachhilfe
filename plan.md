@@ -614,6 +614,10 @@ je Chat gewichtet aus dem Sitzungsprotokoll messen (modelle.md
 Wanduhr 4 h 40 statt 3 h: der Agent Ableitung/Integral brauchte
 193 min (7 Blätter, viele Graphen ohne Term). Regel: Daten-Agent mit
 Graphen ≈ 25 min je Blatt, nicht 10.
+Probe Figuren Duden S. 19 (15.10. abends, Opus, 1 Agent): 0,16 Mio
+Token (Schätzung 0,15), 7 min (Schätzung 25), 5 Figuren für 12
+Kästen; Anzeige 42 → 42 % (unter 1 Punkt). Regel: Figuren-Agent
+≈ 1–2 min je Figur, nicht 5.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
