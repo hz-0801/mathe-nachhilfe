@@ -226,7 +226,8 @@ Nachbarknopf zusammenlegen.
   Sprungmarken). Ein Jahr: Stichwortverzeichnis kompakt auf dem
   Lösungsblatt; mehrere Jahre: Inhaltsverzeichnis vorn,
   Stichwortverzeichnis hinten.
-- Original und Original neu baut pruefheft.py (plan.md Linie 4).
+- Original baut pruefheft.py (plan.md Linie 4), Original neu
+  werkzeuge/originalneu.py (Layout der Blätter, plan.md § 10, 14.10. g).
 - **Skript** (Prüfungsblatt, § 5); Prüfungsheft = die Blätter eines
   Kapitels hintereinander.
 - Wer bekommt was (alle Prüfungen): Original und Original neu sind für
