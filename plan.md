@@ -228,12 +228,10 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–d; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–e; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Offen dazu: Lösungsblatt-Gespräch auch mit
      Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
-     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Form
-     der Begriffs-Einzeiler (Basiswinkel, Symmetrieachse – zwei
-     Blätter, damit Regel), Regel „Mehr aufs Blatt, solange zwei Seiten“
+     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Regel „Mehr aufs Blatt, solange zwei Seiten“
      (Vorschlag, Lehrer: „mach eine“).]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
@@ -1117,6 +1115,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   sin, cos, tan; der Name sagt, was gegeben ist und was der Schüler
   tut. Stufen bleiben. Ändert pruefung.md § 2 (Blattname Winkel).
   Umsetzung in Schritt C (Gliederung, Karte, Übersicht).
+- 16.10.2026 (e): Begriffs-Einzeiler (Lehrer, Weg A; Chat
+  Durchsicht, PG10 Basiswinkel, PG20 Symmetrieachse – zwei Blätter,
+  damit Regel). Warum: Ein Begriff hilft nur, wenn er dasteht, bevor
+  die erste Aufgabe ihn braucht. Beispiel: grau, ohne Nummer, ohne
+  Rahmen über der ersten Aufgabe der Stufe, in der er zuerst
+  vorkommt: „Basiswinkel: die zwei gleichen Winkel an der Grundseite
+  des gleichschenkligen Dreiecks.“; wortgleich im Kern am Ende (w).
+  Grenze: nur Begriffe, die das Blatt einführt, höchstens einer je
+  Stufe; ist kein Merkkasten (gemeinsam.md bleibt). Umsetzung in
+  Schritt C.
 
 ## 11 Register der Entscheidungen
 
