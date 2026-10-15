@@ -240,7 +240,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Jetzt Bau: Lehrer sieht drei Muster (AA50, AG40, AS80) und
    entscheidet die vier offenen Punkte in befunde-M5.md (4 Seiten,
    Stufe am Ende, Rechenraum, ’26 · A1.3); dann Umsetzung gesammelt.
-   Durchsicht P10 unverändert.]
+   Durchsicht P10 unverändert.
+   Lehrer 15.10. abends: die vier Fragen zurückgestellt – am
+   16.10. erneut vorlegen, sofern er nicht selbst darauf kommt.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -596,7 +598,13 @@ Schätzung 2,1 Punkte, gemessen ≈ 2; Regel hält.
 Bau-Paket 15.10. (Opus, Chat medium; fünf Daten-Agenten 0,30–0,38
 Mio, 18–193 min, Kleinkram 0,21; Abgleich 0,22, Setzer 0,30;
 Kritiker 0,32 und 0,28, gelaufen auf medium statt high; Neusatz im
-Chat): Agenten 3,03 Mio. Schätzung 3,7 Punkte; Anzeige: ausstehend.
+Chat): Agenten 3,03 Mio. Schätzung 3,7 Punkte, gemessen Woche
+32 → 41 % (Anzeige 15.10. 18:15), Fable 24 %: 9 Punkte (Abweichung
+> Hälfte). Ursache vermutet: Chat Durchsicht P10 lief parallel und
+ist in der Anzeige mit drin; lange Agenten (bis 125 Schritte)
+tragen ihren Kontext je Schritt neu. Regel: bei parallelen Chats
+je Chat gewichtet aus dem Sitzungsprotokoll messen (modelle.md
+§ 4a), Agenten ≤ 60 Schritte schneiden.
 Wanduhr 4 h 40 statt 3 h: der Agent Ableitung/Integral brauchte
 193 min (7 Blätter, viele Graphen ohne Term). Regel: Daten-Agent mit
 Graphen ≈ 25 min je Blatt, nicht 10.
