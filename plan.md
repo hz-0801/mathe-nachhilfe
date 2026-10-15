@@ -549,6 +549,9 @@ Skizzen-Agenten 0,16–0,21 Mio, 6–10 min; Setzer/Mappe 0,19 Mio,
 24 %. Schätzung 1,7 Punkte, gemessen ≈ 1 (Abweichung > Hälfte):
 je Agent 0,3 Mio angesetzt, enge Daten-Agenten brauchten 0,2. Regel:
 enger Daten-Agent mit fertiger Vorlage ≈ 0,2 Mio.
+Runde 15.10. M4 (Opus medium 0,26 Mio, 77 Schritte, 41 min; Probe
+Sonnet 0,11 Mio, 2 min): Woche 29 → 30 % (Anzeige). Schätzung 0,55,
+gemessen ≈ 0,5 mit Chat; Regel hält.
 
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
