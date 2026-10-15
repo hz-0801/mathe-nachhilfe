@@ -985,6 +985,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   ohne Nummer direkt unter dem Titel, mit dem Stichwort der
   Formelsammlung, nur wo sie zum Handgriff etwas hat (Symmetrie
   nicht). Umsetzung in Schritt C.
+- 15.10.2026 (p): Symmetrie (PG20) und Vierecke (PG30) werden ein
+  Blatt mit zwei Abschnitten, die älteren Originale mit drauf, kein
+  eigenes Mehr (Lehrer; folgt aus pruefung.md „höchstens vier
+  Originale in fünf Jahren“). Name offen (Lehrer: „Symmetrie und
+  Eigenschaften“ nicht gut). Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
