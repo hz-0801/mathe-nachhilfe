@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–j; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–k; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
      Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
      Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
@@ -1193,6 +1193,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   ’25 · 1f übt dasselbe Erkennen, m und n zeigt der Formelkasten
   (t). Ersetzt pruefung.md „Einstieg Geraden = Erkennen“ (12.10.):
   das Erkennen übernimmt das Original. Umsetzung in Schritt C.
+- 16.10.2026 (k): Heranführen auf P10-Blättern (Lehrer, Weg B; Chat
+  Durchsicht, PA10 Nr. 10). Warum: Der Schüler kennt das Thema;
+  Formelkasten (t), Begriff (e) und Kern (w) tragen die Erinnerung,
+  eine eigene Aufgabe nur, wo er sonst vor dem Original stolpert.
+  Beispiel: Lineare Nr. 10 (m und n aus dem Text) bleibt – erster
+  Schritt von Nr. 11b. Grenze: höchstens ein Einstieg je Stufe und
+  nur, wo Formelkasten oder Begriff den ersten Schritt des Originals
+  nicht schon zeigen; die Regeln zum Heranführen gelten fürs
+  Lernblatt unverändert. Verschärft pruefung.md „Eigene Aufgaben
+  sparsam“. Umsetzung in Schritt C.
 - 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder
