@@ -626,6 +626,8 @@ Probe Figuren Duden S. 19 (15.10. abends, Opus, 1 Agent): 0,16 Mio
 Token (Schätzung 0,15), 7 min (Schätzung 25), 5 Figuren für 12
 Kästen; Anzeige 42 → 42 % (unter 1 Punkt). Regel: Figuren-Agent
 ≈ 1–2 min je Figur, nicht 5.
+Figuren Duden als Ausschnitt (15.10. abends, Opus, 1 Agent):
+0,25 Mio (Schätzung 0,2), 33 min (Schätzung 30), 123 Ausschnitte.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
@@ -637,7 +639,7 @@ Kästen; Anzeige 42 → 42 % (unter 1 Punkt). Regel: Figuren-Agent
   nach Absprache mit dem Lehrer: 1 Duden S. 22–23 nachscannen
   (Lehrer; Scans „duden 1.pdf“ Vorsatz–S. 21, „duden 2.pdf“ S. 24–43; fehlen S. 22–23); 2 Abschrift gegen
   Scan abgleichen (Skript + Urteil nur bei Abweichung); 3 Figuren
-  (140; neu zeichnen, Lehrer 15.10. Weg B, § 10 n); 4 Paetec
+  (140; Ausschnitt aus dem Original, § 10 o – Duden erledigt 15.10.: 134 Kästen mit Bild, S. 22 fehlt im Scan); 4 Paetec
   ebenso (Werkzeug an Tabellenköpfe anpassen); 5 fertige PDFs nach
   Drive Mathe/Bücher. Nur Mathe-Auszug, Unwichtiges weglassen
   (Lehrer 15.10.; Claude: Tabellen S. 40–43 Quadratzahlen/Wurzeln
@@ -985,6 +987,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   json und Scan), nicht aus den Fotos ausgeschnitten – die Kästen
   sollen auf Blätter passen. Gilt für Duden und Paetec. Erst Probe
   Duden S. 19 (12 Figuren), dann die übrigen 128.
+- 15.10.2026 (o): Figuren der Tafelwerke (Lehrer, ersetzt n
+  „neu zeichnen“ – zu teuer): Weg D, Text und Aufbau gesetzt, Figuren
+  als Ausschnitt aus dem entzerrten Originalfoto (Skript
+  aufgabenbank-privat werkzeuge/figuren-ausschnitt.py, Rahmen als
+  Daten figuren/duden-rahmen.csv). Neu gezeichnet wird eine Figur nur,
+  wenn ein Blatt den Kasten bestellt. Duden erledigt 15.10.
 - 15.10.2026 (o): Blattende der Prüfungsblätter (Lehrer, Weg A):
   Vorher, ▸ und Weiter fallen weg; dafür eine graue Zeile „Mehr: n
   Aufgaben“ (ersetzt gemeinsam.md „Ausschnitt am Blattende“ vom
