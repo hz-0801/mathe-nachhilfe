@@ -1074,6 +1074,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Formelkasten oben (t) bleibt daneben. Erst Probe an Pythagoras und
   Fläche und Umfang, dann die übrigen Einheiten. Umsetzung in
   Schritt C.
+- 15.10.2026 (x): Fundstellentabelle fällt weg (Lehrer, Weg A;
+  ersetzt pruefung.md „Fundstellentabelle“ vom 04./09./11.10.).
+  Warum: Seit das Mehr immer mitkommt (r), nennen die Marken auf
+  Blatt und Mehr jedes Original mit Jahr und Aufgabe; wie oft es
+  zuletzt drankam, zeigen die Punkte im Stufenkopf, den Überblick
+  die Karte. Die Lösung nutzt der Lehrer in P10 selten. Umsetzung
+  in Schritt C.
 
 ## 11 Register der Entscheidungen
 
