@@ -628,6 +628,8 @@ Figuren Duden als Ausschnitt (15.10. abends, Opus, 1 Agent):
 0,25 Mio (Schätzung 0,2), 33 min (Schätzung 30), 123 Ausschnitte.
 Paetec gesetzt + Titelbild beide (15.10. nachts, Opus, 1 Agent):
 0,27 Mio (Schätzung 0,35), 15 min (Schätzung 45).
+Paetec Figuren S. 28–43 (15.10. nachts, Opus): 0,20 Mio (Schätzung
+0,2), 13 min (Schätzung 25). Anzeige 43 % davor.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
@@ -639,7 +641,7 @@ Paetec gesetzt + Titelbild beide (15.10. nachts, Opus, 1 Agent):
   nach Absprache mit dem Lehrer: 1 Duden S. 22–23 nachscannen
   (Lehrer; Scans „duden 1.pdf“ Vorsatz–S. 21, „duden 2.pdf“ S. 24–43; fehlen S. 22–23); 2 Abschrift gegen
   Scan abgleichen (Skript + Urteil nur bei Abweichung); 3 Figuren
-  (140; Ausschnitt aus dem Original, § 10 o – Duden vollständig 15.10., in Drive Mathe/Bücher; Paetec gesetzt S. 6–43, Figuren nur S. 6–27 – Scan S. 28–51 fehlt, nicht abgelegt); 4 Paetec
+  (140; Ausschnitt aus dem Original, § 10 o – Duden und Paetec vollständig 15.10., in Drive Mathe/Bücher als „Tafelwerk Duden Sek I“, „Tafelwerk Paetec Sek I“; Paetec S. 2–4 Symbole vorerst verzichtet, Tafeln S. 44–51 weggelassen); 4 Paetec
   ebenso (Werkzeug an Tabellenköpfe anpassen); 5 fertige PDFs nach
   Drive Mathe/Bücher. Nur Mathe-Auszug, Unwichtiges weglassen
   (Lehrer 15.10.; Claude: Tabellen S. 40–43 Quadratzahlen/Wurzeln
@@ -650,6 +652,12 @@ Paetec gesetzt + Titelbild beide (15.10. nachts, Opus, 1 Agent):
 - Feld „Regine: S. n“ der P10-Gliederungen und pruefheft.py heißt
   nach dem Buch, nicht der Schule: „Paetec: S. n“ (Lehrer 15.10.;
   auf den Blättern unsichtbar, darum später).
+- Schulbücher durchsuchbar ohne Modell (Lehrer 15.10.): Skript
+  geradestellen, aufhellen, Doppelseite teilen, Texterkennung
+  (tesseract deu, ocrmypdf); erstes Buch Jesse = Cornelsen
+  „Fundamente der Mathematik 10“, Marie-Curie-Gymnasium. Skript
+  bisher außerhalb der Repos (/home/claude/jesse) – beim Umzug nach
+  aufgabenbank-privat werkzeuge/buch-durchsuchbar.py.
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
