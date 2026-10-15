@@ -159,7 +159,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2014-GYM-B1g |  | Prozentwert |  | Hauptplatz außerhalb der P10-Stufen. 8 % von 25 Kästchen = Prozentwert |
 | 2014-OS-B1a | Prozentwert |  |  | Hauptplatz nach typ „Prozentwert berechnen“ |
 | 2014-OS-B1e | Zinsen und Zinssatz | Prozentsatz |  | Hauptplatz nach Zuordnung. Zinssatz = Prozentsatz, ganze Aufgabe |
-| 2014-OS-B1i |  |  | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben |
+| 2014-OS-B1i | zahlen:Anteil gesucht |  | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. Zwischenschritt aus typ_neben |
 | 2014-OS-K3a | Zinsen und Zinssatz | Prozentwert |  | Hauptplatz nach Zuordnung. Zinsen = Prozentwert, ganze Aufgabe |
 | 2014-OS-K3b | Zinseszins und Guthabentabelle |  | Prozentwert | Hauptplatz nach typ „Guthabentabelle mit Zinsen ergänzen“. Zwischenschritt aus typ_neben |
 | 2014-OS-K3c | Zinseszins und Guthabentabelle |  |  | Hauptplatz nach typ „Zinseszins Endkapital berechnen“ |
@@ -183,13 +183,13 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2020-OS-B1a | Prozent und Anteil umwandeln |  |  | Hauptplatz nach typ „Prozent und Anteil umwandeln“ |
 | 2021-OS-B1c | Prozentwert |  |  | Hauptplatz nach typ „Prozentwert berechnen“ |
 | 2022-GYM-K5c | Erhöhung und Veränderung in Prozent |  | flaechen:Fläche gesucht; Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
-| 2022-OS-B1a |  | Prozentwert | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 20 % von 15 Kästchen = Prozentwert (Beschluss N2.6), 20 % = 1/5 |
+| 2022-OS-B1a | zahlen:Anteil gesucht | Prozentwert | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 20 % von 15 Kästchen = Prozentwert (Beschluss N2.6), 20 % = 1/5 |
 | 2022-OS-B1f | Prozent und Anteil umwandeln |  |  | Hauptplatz nach typ „Prozent und Anteil umwandeln“ |
 | 2022-OS-K4b | Erhöhung und Veränderung in Prozent |  | Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
 | 2023-GYM-K5b | Erhöhung und Veränderung in Prozent |  | Prozentsatz | Hauptplatz nach typ „Prozentuale Veränderung berechnen“. Veränderung geteilt durch Ausgangswert = Prozentsatz (Muster beispiel-zwischenschritt.html, Beispiel 2) |
 | 2023-OS-B1b | Grundwert |  |  | Hauptplatz nach typ „Grundwert berechnen“ |
-| 2023-OS-B1d |  | Prozentwert | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 25 % von 24 Kästchen = Prozentwert (Beschluss N2.6), 25 % = 1/4 |
-| 2023-OS-B1f |  |  | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 44 % = 0,44 als Teilschritt |
+| 2023-OS-B1d | zahlen:Anteil gesucht | Prozentwert | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 25 % von 24 Kästchen = Prozentwert (Beschluss N2.6), 25 % = 1/4 |
+| 2023-OS-B1f | zahlen:Zahlen vergleichen |  | Prozent und Anteil umwandeln | Hauptplatz außerhalb der P10-Stufen. 44 % = 0,44 als Teilschritt |
 | 2023-OS-K5c | Prozent aus einer berechneten Fläche | flaechen:Anteil in Prozent | Prozentsatz | Hauptplatz nach typ „Verschnitt in Prozent berechnen“. Zwischenschritt aus typ_neben |
 | 2023-OS-K6a | Prozentsatz |  |  | Hauptplatz nach typ „Prozentsatz berechnen“ |
 | 2023-OS-K6b | Aussagen prüfen |  | Prozentsatz | Hauptplatz nach typ „Anteilsaussage prüfen und korrigieren“. Anteile 3,9 : 7,8 und 1,95 : 7,8 berechnen |

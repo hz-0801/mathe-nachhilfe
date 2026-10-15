@@ -194,7 +194,7 @@ msa/handgriffe-p10.csv (werkzeuge/gliederung-sichten.py).
 | 2021-GYM-K6c |  |  | Nullstellen berechnen | Hauptplatz außerhalb der P10-Stufen. Stoßweite mit p-q-Formel richtig rechnen |
 | 2021-OS-B1d | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2021-OS-K2c | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
-| 2022-OS-B1c |  | lineare:Punktprobe |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
+| 2022-OS-B1c | zahlen:Lösung gesucht | lineare:Punktprobe |  | Hauptplatz außerhalb der P10-Stufen. Lösung durch Einsetzen prüfen, gleicher Handgriff wie Q7 (lineare Gleichung) |
 | 2022-OS-K3b | Scheitelpunkt ablesen |  |  | Hauptplatz nach typ „Scheitelpunkt ablesen“ |
 | 2022-OS-K3c | Gerade und Parabel gleichsetzen |  | Nullstellen berechnen | Hauptplatz nach typ „Schnittpunkte Gerade und Parabel berechnen“. quadratische Gleichung mit p-q-Formel lösen |
 | 2023-GYM-K3a | Punkt auf der Parabel prüfen |  |  | Hauptplatz nach typ „Punktprobe durchführen“ |

@@ -44,7 +44,7 @@ def zahlen(txt):
     return sorted(ZAHL.findall(txt))
 
 KAPITEL = ['dreiecke', 'prozent', 'lineare', 'quadratische', 'flaechen', 'koerper', 'daten',
-           'wahrscheinlichkeit', 'gleichungssysteme', 'wachstum']
+           'wahrscheinlichkeit', 'gleichungssysteme', 'wachstum', 'zahlen']
 MINUS = re.compile(r'(?<![\w−–])-\d')
 
 def vorlagen():

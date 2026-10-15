@@ -53,7 +53,7 @@ Gliederungsdateien).
   hinaus („lernst du in …“) nur mit Kennung eines gebauten
   Lernblatts.
 
-Hauptteil, 19 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge; Namen
+Hauptteil, 22 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge; Namen
 wie in msa/gliederung/*.md, nachgezogen 14.10., Prüfskript
 werkzeuge/anzeigenamen-pruef.py):
 
@@ -113,6 +113,13 @@ werkzeuge/anzeigenamen-pruef.py):
     und Stufen: Wahrscheinlichkeit – Ergebnisse aufzählen ·
     Wahrscheinlichkeit gesucht · Baum ergänzen · Pfadregeln anwenden ·
     ohne Zurücklegen rechnen · Zufallsgerät entwerfen.
+- Zahlen + Terme (seit 15.10., plan.md § 10, 14.10. b: Gebiet Z)
+  - Zahlen: Brüche, Zahlen und Potenzen (9 · 5) · Größen und Dreisatz
+    (8 · 5) · Terme und Gleichungen (5 · 5). Blattnamen und Stufen:
+    Brüche und Potenzen – Anteil gesucht · Zahlen vergleichen ·
+    Potenzen umwandeln; Größen und Dreisatz – Größen umrechnen ·
+    Dreisatz · Dauer gesucht; Terme und Gleichungen – Termwert
+    gesucht · Term gesucht · Lösung gesucht.
 - Jeder Ast zuletzt „Weitere (RLP)“: Themen aus dem RLP bis
   Niveaustufe G, nie geprüft.
 
@@ -120,7 +127,8 @@ Basisteil (22 Teilaufgaben, ohne Skript): Bruchteil einer Fläche ·
 Größen umrechnen · Zahlen vergleichen, Potenzen · Gleichung lösen ·
 Term zum Text · Dreisatz. Bleibt ganz und gemischt (Original,
 Antwortbogen); Basisaufgaben, deren Kopf-Schritt zu einer Einheit
-passt, stehen zusätzlich als unterste Stufe dort (04.10.).
+passt, stehen zusätzlich als unterste Stufe dort (04.10.). Seit 15.10. stehen alle sechs Gruppen
+zusätzlich auf den Blättern des Gebiets Zahlen und Terme (PZ10–PZ30).
 
 Entschieden 10.10. (Lehrer, aus den Befunden): Pythagoras oder
 Winkelfunktion ist kein eigenes Blatt (in allen vier Aufgaben mit
