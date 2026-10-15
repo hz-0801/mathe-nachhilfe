@@ -539,6 +539,12 @@ Runde 14.10. mittags (Setzer Schritt 1 + Mappe P10, ein Opus-Agent
 medium, 155 Schritte, 87 min, 0,33 Mio Token): Woche 27 → 28 %
 (Anzeige 14.10. mittags / 15.10.), Fable 24 %. Schätzung 0,8 Punkte,
 gemessen ≈ 1 mit Chat; Regel über Token hält.
+Runde 15.10. früh (fünf Agenten parallel, Opus medium: vier
+Skizzen-Agenten 0,16–0,21 Mio, 6–10 min; Setzer/Mappe 0,19 Mio,
+22 min; Neusatz im Chat 30 min): Woche 28 → 29 % (Anzeige), Fable
+24 %. Schätzung 1,7 Punkte, gemessen ≈ 1 (Abweichung > Hälfte):
+je Agent 0,3 Mio angesetzt, enge Daten-Agenten brauchten 0,2. Regel:
+enger Daten-Agent mit fertiger Vorlage ≈ 0,2 Mio.
 
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
