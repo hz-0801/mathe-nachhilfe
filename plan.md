@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–h; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–i; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
      Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
      Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
@@ -1181,6 +1181,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Lineare danach noch geteilt wird, zeigt die Seitenzahl nach dem
   Neusatz. Ändert pruefung.md „Gemischt als letzter Abschnitt auf
   beiden Blättern“. Umsetzung in Schritt C.
+- 16.10.2026 (i): Stufen Lineare Funktionen (Lehrer, Weg A; Chat
+  Durchsicht, PA10): Graph zeichnen · Gleichung aus Graph · Gleichung
+  aus zwei Punkten · Nullstelle gesucht · Punktprobe · Gleichung aus
+  Text. Warum: „Gleichung“ wie in der Prüfung („Gib eine Gleichung
+  an“), drei Stufen gleicher Form, „gesucht“ wie auf den anderen
+  Blättern. Ändert pruefung.md § 2 (Stufen Lineare). Umsetzung in
+  Schritt C.
 - 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder
