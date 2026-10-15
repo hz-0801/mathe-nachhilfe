@@ -999,6 +999,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Originale in fünf Jahren“). Name „Figuren“, Abschnitte A
   Symmetrieachsen gesucht · B Eigenschaft gesucht (Weg A; Lehrer:
   „mach mal“). Umsetzung in Schritt C.
+- 15.10.2026 (q): Division als Bruch, auch in Formeln und beim
+  Einsetzen (Lehrer, Chat Durchsicht, PG40). Warum: Der Schüler soll
+  die Formel der Formelsammlung auf Blatt und Lösung auf einen Blick
+  wiedererkennen (Duden und Paetec: A = e · f über 2). Grenze: Der
+  Doppelpunkt bleibt nur, wo die Aufgabe selbst ihn zeigt (Maßstab,
+  Verhältnis). Ersetzt gemeinsam.md „Division außerhalb von Formeln
+  als Bruch“. Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
