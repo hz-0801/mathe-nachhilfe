@@ -3,7 +3,7 @@
 Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv`; nie von Hand ändern. Grundlage: 146 Teilaufgaben 2022–2026 (OS, ab 2026 FOR). Je Abschnitt: Teilaufgaben · Jahrgänge · zuletzt · BE, gezählt nur Hauptplätze; Nebenplätze getrennt („dazu n aus anderen Abschnitten“). Stufen in Leiterfolge. Basisaufgaben (B1…) in den Gebieten stehen zusätzlich als unterste Stufe; der Basisteil bleibt ganz und gemischt (Original, Antwortbogen), ohne Skript (Lehrer 04.10.).
 
 
-## Geometrie (51 Teilaufgaben)
+## Geometrie (50 Teilaufgaben)
 
 ### Kapitel Dreiecke
 
@@ -13,17 +13,19 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Kathete gesucht – 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete), 2022-OS-K5a (Pythagoras Kathete)
 - neu: Dreieck versteckt – 2026-FOR-K2c (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
 
-#### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE · dazu 7 aus anderen Abschnitten
+#### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE · dazu 3 aus anderen Abschnitten
 - neu: Seitenverhältnis benennen – 2025-OS-B1g (Winkelfunktion Seitenverhältnis angeben)
 - neu: Winkel berechnen – 2022-OS-K5b (Winkel im rechtwinkligen Dreieck berechnen), 2024-OS-K6b (Winkel im rechtwinkligen Dreieck berechnen), 2026-FOR-K4b (Winkel im rechtwinkligen Dreieck berechnen), 2025-OS-K4a (Pythagoras Hypotenuse; kennst du aus „Länge mit Pythagoras“)
 - neu: Seite berechnen – 2022-OS-K5d (Seite im rechtwinkligen Dreieck berechnen), 2026-FOR-K4c (Seite im rechtwinkligen Dreieck berechnen), 2023-OS-K7b (Seite im rechtwinkligen Dreieck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen; kennst du aus „Flächeninhalt und Umfang“), 2023-OS-K2c (Umfang Trapez berechnen; kennst du aus „Flächeninhalt und Umfang“)
-- neu: erst entscheiden, dann rechnen – 2022-OS-K5a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2024-OS-K6a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2026-FOR-K4a (Pythagoras Kathete; kennst du aus „Länge mit Pythagoras“), 2025-OS-K4a (Pythagoras Hypotenuse; kennst du aus „Länge mit Pythagoras“)
+- neu: erst entscheiden, dann rechnen – 
 
 #### Seite im allgemeinen Dreieck (Sinussatz) – 2 · 2 J · zuletzt 2025 · 7 BE
 - neu: Seite berechnen – 2024-OS-K6d (Sinussatz Seite berechnen), 2025-OS-K4c (Sinussatz Seite berechnen)
 
-#### Winkel ohne Rechnung bestimmen oder begründen – 7 · 4 J · zuletzt 2026 · 10 BE
+#### Vierecke: Symmetrie und Eigenschaften – 1 · 1 J · zuletzt 2026 · 1 BE
 - neu: Eigenschaft erkennen – 2026-FOR-B1c (Eigenschaft einer Figur zuordnen)
+
+#### Winkel ohne Rechnung bestimmen oder begründen – 6 · 4 J · zuletzt 2026 · 9 BE
 - neu: Winkelsumme – 2022-OS-K5c (Winkelsumme im Dreieck anwenden), 2023-OS-K2a (Winkel im Viereck berechnen), 2026-FOR-B1i (Winkel im Viereck berechnen)
 - neu: gleichschenkliges Dreieck – 2023-OS-B1g (Gleichschenkliges Dreieck erkennen), 2023-OS-K7a (Gleichschenkliges Dreieck erkennen)
 - neu: rechten Winkel begründen – 2025-OS-K2c (Rechten Winkel begründen)
@@ -33,18 +35,17 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Kapitel Flächen
 
-#### Flächeninhalt und Umfang – 12 · 5 J · zuletzt 2026 · 23 BE
+#### Flächeninhalt und Umfang – 11 · 5 J · zuletzt 2026 · 19 BE · dazu 1 aus anderen Abschnitten
 - neu: Formeln – 2024-OS-B1c (Term zu Figur angeben), 2022-OS-B1e (Term zu Figur angeben), 2025-OS-B1i (Term zu Figur angeben)
 - neu: Fläche gesucht – 2024-OS-K4a (Kreisfläche berechnen), 2023-OS-K2b (Flächeninhalt Trapez berechnen), 2025-OS-K2b (Flächeninhalt Drachenviereck berechnen), 2022-OS-K5e (Flächeninhalt Dreieck berechnen)
 - neu: Umfang gesucht – 2026-FOR-B1h (Umfang Rechteck berechnen), 2023-OS-K2c (Umfang Trapez berechnen)
 - neu: Formeln umstellen – 2023-OS-B1c (Rechteckseite aus Fläche berechnen)
-- neu: Anteil in Prozent – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen)
+- neu: Anteil in Prozent – 2025-OS-B1e (Kreissektor Anteil berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen; kennst du aus „Prozent“)
 
 ### Kapitel Körper
 
 #### Volumen und Oberfläche – 9 · 4 J · zuletzt 2026 · 22 BE
-- neu: Volumen direkt – 2026-FOR-B1f (Volumen Würfel berechnen), 2022-OS-K2b (Volumen Zylinder berechnen), 2023-OS-K5b (Volumen Zylinder berechnen), 2026-FOR-K2a (Volumen Zylinder berechnen)
-- neu: Restvolumen – 2024-OS-K4c (Restvolumen berechnen)
+- neu: Volumen direkt – 2026-FOR-B1f (Volumen Würfel berechnen), 2022-OS-K2b (Volumen Zylinder berechnen), 2023-OS-K5b (Volumen Zylinder berechnen), 2026-FOR-K2a (Volumen Zylinder berechnen), 2024-OS-K4c (Restvolumen berechnen)
 - neu: Mantelfläche mit Kosten – 2026-FOR-K2b (Mantelfläche Kegel berechnen)
 - neu: rückwärts: Radius oder Höhe aus Volumen – 2022-OS-K2d (Radius eines Zylinders aus Volumen berechnen), 2023-OS-K5d (Höhe eines Zylinders aus Volumen berechnen)
 - neu: vergleichen und urteilen – 2026-FOR-K2d (Volumen Kegel und Zylinder vergleichen)
@@ -58,12 +59,14 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Kapitel Lineare
 
-#### Lineare Funktionen – 15 · 5 J · zuletzt 2026 · 36 BE
+#### Lineare Funktionen – 15 · 5 J · zuletzt 2026 · 36 BE · dazu 2 aus anderen Abschnitten
 - neu: Gerade zeichnen – 2025-OS-B1f (Graph einer linearen Funktion erkennen), 2024-OS-B1i (y-Achsenabschnitt ablesen), 2024-OS-K3a (Gerade aus Gleichung zeichnen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen), 2023-OS-K4a (Gerade aus Gleichung zeichnen)
-- neu: Gleichung ablesen oder aus Punkten aufstellen – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
+- neu: Gleichung aus Graph – 
+- neu: Gleichung aus zwei Punkten – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
 - neu: Nullstelle – 2022-OS-K3a (Gerade aus Gleichung zeichnen)
-- neu: Punktprobe – 2023-OS-B1i (Punktprobe durchführen), 2026-FOR-K5b (Punktprobe durchführen), 2024-OS-K3c (Punktprobe durchführen), 2025-OS-B1h (Lösung durch Einsetzen prüfen)
+- neu: Punktprobe – 2023-OS-B1i (Punktprobe durchführen), 2026-FOR-K5b (Punktprobe durchführen)
 - neu: Gleichung aus Text – 2022-OS-K6a (Endwert linearer Veränderung berechnen), 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen), 2023-OS-K3a (Graph zu Tarif zuordnen), 2023-OS-K3b (Tarife vergleichen)
+- neu: Gemischt: Gerade und Parabel – 2025-OS-B1h (Lösung durch Einsetzen prüfen), 2024-OS-K3c (Punktprobe durchführen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen; kennst du aus „Quadratische Gleichung lösen“), 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen; kennst du aus „Quadratische Gleichung lösen“)
 
 ### Kapitel Quadratische
 
@@ -74,18 +77,18 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Scheitelpunktform angeben – 2025-OS-K5b (Scheitelpunkt ablesen), 2023-OS-K4b (Scheitelpunkt ablesen)
 - neu: Lage zweier Parabeln ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
-#### Quadratische Gleichung lösen – 4 · 4 J · zuletzt 2025 · 15 BE
+#### Quadratische Gleichung lösen – 4 · 4 J · zuletzt 2025 · 15 BE · dazu 4 aus anderen Abschnitten
 - neu: Nullstellen berechnen – 2025-OS-K5c (Nullstellen quadratische Funktion berechnen)
 - neu: x zu gegebenem y – 2023-OS-K4c (Argument zu Funktionswert berechnen)
 - neu: Gerade und Parabel gleichsetzen – 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen)
+- neu: Gemischt: Gerade und Parabel – 2025-OS-B1h (Lösung durch Einsetzen prüfen; kennst du aus „Lineare Funktionen“), 2026-FOR-K5a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“), 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Lineare Funktionen“), 2023-OS-K4a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“)
 
 ### Kapitel Gleichungssysteme
 
 #### Gleichungssystem im Sachzusammenhang – 4 · 2 J · zuletzt 2024 · 11 BE
-- neu: Variablen deuten – 2022-OS-K7a (Gleichung im Sachzusammenhang deuten)
 - neu: aufstellen – 2024-OS-K7a (Lineares Gleichungssystem aufstellen)
 - neu: lösen – 2022-OS-K7b (Lineares Gleichungssystem lösen)
-- neu: Gleichung in Worte fassen und lösen – 2024-OS-K7b (Gleichung im Sachzusammenhang deuten)
+- neu: deuten – 2022-OS-K7a (Gleichung im Sachzusammenhang deuten), 2024-OS-K7b (Gleichung im Sachzusammenhang deuten)
 
 ### Kapitel Wachstum
 
@@ -95,65 +98,70 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Faktor bestimmen, Gleichung aufstellen – 2025-OS-K7b (Wachstumsfaktor aus Tabelle bestimmen), 2026-FOR-K7c (Exponentialfunktion aufstellen)
 - neu: Graph zuordnen und begründen – 2026-FOR-K7b (Graph zu Wachstumsprozess zuordnen)
 
-## Daten + Zufall (38 Teilaufgaben)
+## Daten + Zufall (39 Teilaufgaben)
 
 ### Kapitel Prozent
 
-#### Prozent – 11 · 5 J · zuletzt 2026 · 19 BE · dazu 1 aus anderen Abschnitten
+#### Prozent – 8 · 4 J · zuletzt 2026 · 19 BE
 - neu: Prozent und Anteil umwandeln – 2022-OS-B1f (Prozent und Anteil umwandeln)
+
+#### Grundwert – 4 · 4 J · zuletzt 2026 · 4 BE
 - neu: Prozentwert – 2026-FOR-B1a (Prozentwert berechnen)
-- neu: Prozentsatz – 2023-OS-K6a (Prozentsatz berechnen), 2023-OS-K6b (Anteilsaussage prüfen und korrigieren), 2025-OS-K4b (Steigung in Prozent deuten), 2025-OS-K6b (Prozentsatz berechnen), 2023-OS-K5c (Verschnitt in Prozent berechnen; kennst du aus „Flächeninhalt und Umfang“)
-- neu: Grundwert (erst erkennen: Ganzes oder Teil?) – 2023-OS-B1b (Grundwert berechnen), 2025-OS-B1a (Grundwert berechnen)
 - neu: Wert nach Erhöhung – 2024-OS-B1e (Wert nach prozentualer Erhöhung berechnen)
+
+#### Prozent – 8 · 4 J · zuletzt 2026 · 19 BE
+- neu: Prozentsatz – 2023-OS-K6a (Prozentsatz berechnen), 2025-OS-K6b (Prozentsatz berechnen)
+
+#### Grundwert – 4 · 4 J · zuletzt 2026 · 4 BE
+- neu: Grundwert (erst erkennen: Ganzes oder Teil?) – 2023-OS-B1b (Grundwert berechnen), 2025-OS-B1a (Grundwert berechnen)
+
+#### Prozent – 8 · 4 J · zuletzt 2026 · 19 BE
 - neu: Veränderung in Prozent – 2022-OS-K4b (Prozentuale Veränderung berechnen), 2026-FOR-K3c (Prozentuale Veränderung berechnen)
+- neu: Aussagen prüfen – 2023-OS-K6b (Anteilsaussage prüfen und korrigieren), 2025-OS-K4b (Steigung in Prozent deuten)
+- neu: Prozent aus einer berechneten Fläche – 2023-OS-K5c (Verschnitt in Prozent berechnen)
 
 ### Kapitel Daten
 
 #### Kenngrößen – 10 · 5 J · zuletzt 2026 · 22 BE
-- neu: Minimum, Maximum, Spannweite – 2022-OS-K4a (Minimum und Maximum ablesen), 2023-OS-K6c (Spannweite berechnen), 2026-FOR-K3a (Spannweite berechnen), 2024-OS-K2a (Spannweite berechnen), 2025-OS-K6a (Kenngrößen einer Liste prüfen)
+- neu: Minimum, Maximum, Spannweite – 2022-OS-K4a (Minimum und Maximum ablesen), 2023-OS-K6c (Spannweite berechnen), 2026-FOR-K3a (Spannweite berechnen), 2024-OS-K2a (Spannweite berechnen)
 - neu: Median – 2024-OS-B1h (Median bestimmen)
 - neu: Modalwert – 
-- neu: Mittelwert – 2026-FOR-K3b (Arithmetisches Mittel berechnen), 2024-OS-K2b (Arithmetisches Mittel berechnen), 2025-OS-K6c (Arithmetisches Mittel berechnen)
+- neu: Mittelwert – 2026-FOR-K3b (Arithmetisches Mittel berechnen), 2024-OS-K2b (Arithmetisches Mittel berechnen)
 - neu: rückwärts: fehlender Wert – 2022-OS-B1d (Fehlenden Wert aus Mittelwert bestimmen)
+- neu: Aussagen prüfen, Auswirkung erklären – 2025-OS-K6a (Kenngrößen einer Liste prüfen), 2025-OS-K6c (Arithmetisches Mittel berechnen)
 
-#### Kreisdiagramm – 2 · 2 J · zuletzt 2024 · 6 BE · dazu 1 aus anderen Abschnitten
+#### Diagramme – 6 · 4 J · zuletzt 2026 · 13 BE · dazu 1 aus anderen Abschnitten
 - neu: Winkel berechnen und beschriften – 2022-OS-K4d (Sektor im Kreisdiagramm zuordnen), 2024-OS-K2c (Sektor im Kreisdiagramm zuordnen)
 - neu: aus Prozent darstellen (selten geprüft, auffüllen) – 2025-OS-K6b (Prozentsatz berechnen; kennst du aus „Prozent“)
-
-#### Diagramm ergänzen und beurteilen – 4 · 3 J · zuletzt 2026 · 7 BE
 - neu: ergänzen – 2026-FOR-K3d (Säulen- oder Balkendiagramm ergänzen), 2023-OS-K6d (Achsenskalierung aus Säule bestimmen)
 - neu: Aussage prüfen – 2022-OS-K4c (Aussage zu Diagramm prüfen)
 - neu: falschen Eindruck erklären – 2026-FOR-K3e (Verzerrung eines Diagramms erklären)
 
 ### Kapitel Wahrscheinlichk.
 
-#### Wahrscheinlichkeit einstufig – 3 · 3 J · zuletzt 2026 · 3 BE
+#### Baumdiagramm und Pfadregeln – 11 · 3 J · zuletzt 2026 · 23 BE
 - neu: Ergebnisse aufzählen – 2025-OS-K3a (Ergebnismenge aufzählen)
 - neu: Wahrscheinlichkeit angeben – 2024-OS-K5a (Wahrscheinlichkeit einstufig), 2026-FOR-K6a (Wahrscheinlichkeit einstufig)
-
-#### Baumdiagramm und Pfadregeln – 8 · 3 J · zuletzt 2026 · 20 BE
-- neu: Baum ergänzen (Bank: reine Baum-Sprossen davor) – 2024-OS-K5b (Baumdiagramm ergänzen), 2026-FOR-K6b (Baumdiagramm ergänzen)
-- neu: Pfadregel – 2025-OS-K3b (Wahrscheinlichkeit mehrstufig unabhängig), 2025-OS-K3c (Wahrscheinlichkeit mehrstufig unabhängig)
+- neu: Baum ergänzen – 2024-OS-K5b (Baumdiagramm ergänzen), 2026-FOR-K6b (Baumdiagramm ergänzen)
+- neu: Pfadregel – 2025-OS-K3b (Wahrscheinlichkeit mehrstufig unabhängig), 2025-OS-K3c (Wahrscheinlichkeit mehrstufig unabhängig), 2026-FOR-K6c (Wahrscheinlichkeit über Gegenereignis berechnen)
 - neu: ohne Zurücklegen – 2024-OS-K5c (Wahrscheinlichkeit mehrstufig ohne Zurücklegen)
-- neu: Gegenereignis – 2026-FOR-K6c (Wahrscheinlichkeit über Gegenereignis berechnen)
 - neu: Zufallsgerät entwerfen – 2025-OS-K3d (Zufallsgerät zu Wahrscheinlichkeit entwerfen), 2026-FOR-K6d (Zufallsgerät zu Wahrscheinlichkeit entwerfen)
 
-## nur Basisteil (kein Skript) (22 Teilaufgaben)
+## Zahlen + Terme (22 Teilaufgaben)
 
-#### Bruchteil einer Fläche – 5 · 5 J · zuletzt 2026 · 5 BE
-- neu: markieren oder ablesen – 2022-OS-B1a (Bruchteil einer Fläche bestimmen), 2023-OS-B1d (Bruchteil einer Fläche bestimmen), 2024-OS-B1b (Bruchteil einer Fläche bestimmen), 2025-OS-B1c (Bruchteil einer Fläche bestimmen), 2026-FOR-B1b (Bruchteil einer Fläche bestimmen)
+### Kapitel Zahlen
 
-#### Größen umrechnen – 4 · 4 J · zuletzt 2026 · 4 BE
-- neu: umrechnen und vergleichen – 2026-FOR-B1d (Größen vergleichen), 2024-OS-B1a (Zeiteinheiten umrechnen), 2025-OS-B1b (Zeiteinheiten umrechnen), 2022-OS-B1h (Portionen aus Gesamtmenge berechnen)
+#### Brüche, Zahlen und Potenzen – 9 · 5 J · zuletzt 2026 · 9 BE
+- neu: Anteil gesucht – 2022-OS-B1a (Bruchteil einer Fläche bestimmen), 2023-OS-B1d (Bruchteil einer Fläche bestimmen), 2024-OS-B1b (Bruchteil einer Fläche bestimmen), 2025-OS-B1c (Bruchteil einer Fläche bestimmen), 2026-FOR-B1b (Bruchteil einer Fläche bestimmen)
+- neu: Zahlen vergleichen – 2023-OS-B1f (Zahlen in verschiedenen Darstellungen vergleichen), 2022-OS-B1j (Zahlen in verschiedenen Darstellungen vergleichen)
+- neu: Potenzen umwandeln – 2025-OS-B1d (Zehnerpotenzschreibweise umwandeln), 2024-OS-B1g (Exponent einer Potenz bestimmen)
 
-#### Zahlen vergleichen, Potenzen – 5 · 5 J · zuletzt 2026 · 5 BE
-- neu: vergleichen und rechnen – 2023-OS-B1f (Zahlen in verschiedenen Darstellungen vergleichen), 2022-OS-B1j (Zahlen in verschiedenen Darstellungen vergleichen), 2024-OS-B1g (Exponent einer Potenz bestimmen), 2025-OS-B1d (Zehnerpotenzschreibweise umwandeln), 2026-FOR-B1g (Termwert berechnen)
+#### Größen und Dreisatz – 8 · 5 J · zuletzt 2026 · 9 BE
+- neu: Größen umrechnen – 2025-OS-B1b (Zeiteinheiten umrechnen), 2024-OS-B1a (Zeiteinheiten umrechnen), 2026-FOR-B1d (Größen vergleichen), 2022-OS-B1h (Portionen aus Gesamtmenge berechnen)
+- neu: Dreisatz – 2022-OS-B1b (Proportionale Zuordnung Dreisatz), 2023-OS-B1a (Proportionale Zuordnung Dreisatz), 2024-OS-K2d (Kosten aus Menge und Preis berechnen)
+- neu: Dauer gesucht – 2024-OS-K6c (Dauer aus Menge und Rate berechnen)
 
-#### Gleichung lösen – 3 · 3 J · zuletzt 2024 · 3 BE
-- neu: lösen oder Lösung prüfen – 2022-OS-B1c (Lösung durch Einsetzen prüfen), 2023-OS-B1e (Lineare Gleichung lösen), 2024-OS-B1d (Lineare Gleichung lösen)
-
-#### Term zum Text – 1 · 1 J · zuletzt 2023 · 1 BE
-- neu: Term angeben – 2023-OS-B1h (Term zu Sachtext angeben)
-
-#### Dreisatz – 4 · 3 J · zuletzt 2024 · 5 BE
-- neu: Dreisatz – 2022-OS-B1b (Proportionale Zuordnung Dreisatz), 2023-OS-B1a (Proportionale Zuordnung Dreisatz), 2024-OS-K2d (Kosten aus Menge und Preis berechnen), 2024-OS-K6c (Dauer aus Menge und Rate berechnen)
+#### Terme und Gleichungen – 5 · 4 J · zuletzt 2026 · 5 BE
+- neu: Termwert gesucht – 2026-FOR-B1g (Termwert berechnen)
+- neu: Term gesucht – 2023-OS-B1h (Term zu Sachtext angeben)
+- neu: Lösung gesucht – 2024-OS-B1d (Lineare Gleichung lösen), 2023-OS-B1e (Lineare Gleichung lösen), 2022-OS-B1c (Lösung durch Einsetzen prüfen)

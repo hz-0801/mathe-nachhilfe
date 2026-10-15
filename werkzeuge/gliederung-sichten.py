@@ -30,7 +30,10 @@ HANDGRIFFE = 'msa/handgriffe-p10.csv'
 
 def zuschnitt(pruefung):
     out = ['gebiet;kapitel;abschnitt;stufe;ids;neben']
-    for kap, G in GL.alle(MN, pruefung).items():
+    alle = GL.alle(MN, pruefung)
+    haupt = _hauptplaetze(alle)
+    vergeben = set()
+    for kap, G in alle.items():
         if any('stufen' in e for e in G.get('einheiten', {}).values()):
             out += _zuschnitt_einheiten(G)
             continue
@@ -38,8 +41,51 @@ def zuschnitt(pruefung):
             if not st['abschnitt']:
                 continue
             for zeile, ids, neben in GL.zuschnitt_zeilen(st):
+                ids, neben = _platz(G, st, ids, neben, haupt, vergeben)
+                if not G['skript'] and not ids and not neben:
+                    continue   # Basisaufgabe hat ihren Platz im Skript (zahlen.md seit 15.10.)
                 out.append(';'.join([G['gebiet'], G['name'], st['abschnitt'], zeile, ' '.join(ids), ' '.join(neben)]))
     return '\n'.join(out) + '\n'
+
+
+def _hauptplaetze(alle):
+    """id -> (Kapitel, Stufe, Abschnitt) des Hauptplatzes laut Tabellen „Plätze der Originale“ (nur Plätze, deren
+    Stufe einen Zuschnitt-Abschnitt hat)."""
+    abschnitt = {(k, st['name']): st['abschnitt'] for k, G in alle.items() for st in G['stufen'] if st['abschnitt']}
+    # nur Stufen, deren Zuschnitt-Zeilen das Original auch nennen (sonst widersprechen sich Tabelle und Zeile,
+    # z. B. 2022-OS-K4a Hauptplatz Mittelwert, Zeile nur unter Spannweite: dann gilt das erste Vorkommen)
+    gelistet = {(k, st['name'], i) for k, G in alle.items() for st in G['stufen'] if st['abschnitt']
+                for _, ids, _ in GL.zuschnitt_zeilen(st) for i in ids}
+    haupt = {}
+    for G in alle.values():
+        for p in G['plaetze']:
+            for ref in p['hauptplatz']:
+                k, _, name = ref.partition(':')
+                if (k, name) in abschnitt and (k, name, p['id']) in gelistet:
+                    haupt.setdefault(p['id'], (k, name, abschnitt[(k, name)]))
+    return haupt
+
+
+def _platz(G, st, ids, neben, haupt, vergeben):
+    """Hauptplatz nur dort, wo die Tabelle „Plätze der Originale“ ihn hinlegt (15.10.2026; vorher wurde jedes
+    Original einer Stufe dort Hauptplatz – doppelte ids für die Gemischt-Abschnitte, Flächen/Prozent und die
+    Basisaufgaben, die zahlen.md seit 15.10. trägt). Steht ein Original auch anderswo, wird es dort Nebenplatz,
+    im eigenen Abschnitt fällt es weg; Sammlungen ohne Skript (_basisteil) behalten nur Originale ohne
+    Skript-Platz. Ohne Eintrag in der Tabelle gilt das erste Vorkommen (Folge der Kapitel)."""
+    # Nebenplatz nie im eigenen Abschnitt (skript-zuschnitt.py, Lehrer 04.10.)
+    hi, nb = [], [i for i in neben if not (haupt.get(i) and haupt[i][2] == st['abschnitt'])]
+    for i in ids:
+        h = haupt.get(i)
+        if h is None and i not in vergeben:
+            vergeben.add(i)
+            hi.append(i)
+        elif h is not None and (h[0], h[1]) == (G['kapitel'], st['name']):
+            hi.append(i)
+        elif not G['skript']:
+            continue
+        elif (h[2] if h else None) != st['abschnitt'] and i not in nb:
+            nb.append(i)
+    return hi, nb
 
 
 def _zuschnitt_einheiten(G):
