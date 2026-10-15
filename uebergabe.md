@@ -3,7 +3,8 @@
 Vorherige Übergabe: archiv/uebergabe-2026-10-15-nachmittags.md. Nach
 plan.md Linie 8 nennt diese Übergabe keinen eigenen nächsten
 Schritt. Entscheidungen nur aus plan.md (§ 10, 15.10. i–m). Zwei
-Chats nebeneinander: „Bau“ (dieser Nachfolger) und „Durchsicht P10“;
+Chats nebeneinander: „Bau“ (dieser Nachfolger) und „Durchsicht P10“
+(dessen Übergabe: uebergabe-durchsicht.md);
 der Schritt steht in plan.md § 7 (Absatz „15.10. abends erledigt …
 Jetzt Bau, zuerst“) und § 9 (Fahrplan Formelsammlungen).
 

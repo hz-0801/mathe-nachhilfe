@@ -227,6 +227,14 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      für den Bestell-Chat klären (sechs Lücken, Bericht 15.10.),
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
+     [Stand 15.10. abends: PG10, PG20, PG30 durchgesehen (25 der 47
+     Kommentare), Entscheidungen § 10 l, o, p; Antworten aufgabenbank
+     bau/durchsicht/pg10–30.json. Weiter ab PG40 (S. 23–32). Offen:
+     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Form
+     der Begriffs-Einzeiler (Basiswinkel, Symmetrieachse – zwei
+     Blätter, damit Regel), Name PG10 „Winkel aus Winkeln“
+     (Vorschlag), Regel „Mehr aufs Blatt, solange zwei Seiten“
+     (Vorschlag, Lehrer: „mach eine“).]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
@@ -988,8 +996,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 15.10.2026 (p): Symmetrie (PG20) und Vierecke (PG30) werden ein
   Blatt mit zwei Abschnitten, die älteren Originale mit drauf, kein
   eigenes Mehr (Lehrer; folgt aus pruefung.md „höchstens vier
-  Originale in fünf Jahren“). Name offen (Lehrer: „Symmetrie und
-  Eigenschaften“ nicht gut). Umsetzung in Schritt C.
+  Originale in fünf Jahren“). Name „Figuren“, Abschnitte A
+  Symmetrieachsen gesucht · B Eigenschaft gesucht (Weg A; Lehrer:
+  „mach mal“). Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
