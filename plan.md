@@ -640,6 +640,9 @@ Kästen; Anzeige 42 → 42 % (unter 1 Punkt). Regel: Figuren-Agent
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
+- Lernblatt „Figuren und Körper unterscheiden“ (Quadrat, Würfel,
+  Raute, Parallelogramm), Sorte Schulstoff (Lehrer 15.10., Durchsicht
+  Vierecke).
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
 - Duden Formeln und Werte bis Kl. 10 (Abschrift in
@@ -974,6 +977,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   json und Scan), nicht aus den Fotos ausgeschnitten – die Kästen
   sollen auf Blätter passen. Gilt für Duden und Paetec. Erst Probe
   Duden S. 19 (12 Figuren), dann die übrigen 128.
+- 15.10.2026 (o): Blattende der Prüfungsblätter (Lehrer, Weg A):
+  Vorher, ▸ und Weiter fallen weg; dafür eine graue Zeile „Mehr: n
+  Aufgaben“ (ersetzt gemeinsam.md „Ausschnitt am Blattende“ vom
+  11.10. für die Sorte Prüfung). Ein Blatt mit einem Abschnitt hat
+  keinen Abschnittskopf und keine Stufenzeile. Formelsammlungs-Zeile
+  ohne Nummer direkt unter dem Titel, mit dem Stichwort der
+  Formelsammlung, nur wo sie zum Handgriff etwas hat (Symmetrie
+  nicht). Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
