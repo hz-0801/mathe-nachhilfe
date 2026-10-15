@@ -845,6 +845,20 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Heranführung, Formelsammlung, vielleicht Merkkasten oder
   Kurzzusammenfassung (Schritt C; Merkkasten berührt gemeinsam.md
   „kein Merkkasten, außer bestellt“ – dann neu vorlegen).
+- 15.10.2026 (k): Bedienung Weg C (Lehrer; ersetzt den Bestellbaum
+  mit Knöpfen vom 03./04.10. und „Karte ohne Kennung“ vom 14.10.):
+  Bestellung „Name · Was · Zusatz“, Prüfung aus der Schülerliste;
+  der Chat fragt nur, was fehlt, höchstens einmal; vor dem Setzen
+  eine Zeile „Du bekommst: …“ ohne Rückfrage; Freitext führt immer
+  zum besten Treffer mit einer Zeile, was fehlt. Fälle: Gebiet
+  (Vorschlag nächstes Blatt + 2), Begriff, Kennung (auch nochmal),
+  mehr, Lösung, basis, Original, Original neu, Probeprüfung, Karte,
+  Handreichung, Gesamtheft, Mappe, Liste, ohne Namen. Lösungen
+  immer mit, Mappe nur auf Zuruf. Logik in werkzeuge/bestellen.py
+  aus Daten: neue Prüfung (Abitur, FHR) und Sorte Schulstoff ohne
+  Umbau; fehlt ein Lernblatt, wird es gebaut (Linie 3), ein
+  Prüfungsblatt nicht. Kennung klein grau auf der Karte; Abschnitte
+  als Sprungziele; Handy und PC.
 
 ## 11 Register der Entscheidungen
 
