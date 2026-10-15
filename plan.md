@@ -1055,6 +1055,22 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   eine Bestellung „Trigonometrie“ liefert dieses Blatt mit der Zeile
   „Sinussatz (nicht rechtwinklig): PG70“ (werkzeuge/bestellen.py).
   Umsetzung in Schritt C.
+- 15.10.2026 (w): Kern am Ende jedes Blatts (Lehrer, Weg B; Chat
+  Durchsicht, PG60). Warum: Wenige Aussagen tragen ein Thema –
+  Definition, Satz, Folgerung wie in einer Vorlesung; aus ihnen
+  lassen sich alle Aufgaben lösen, und sie soll der Schüler sich
+  merken. Beispiel Pythagoras: Hypotenuse liegt dem rechten Winkel
+  gegenüber · a² + b² = c² · c = √(a² + b²), a = √(c² − b²), die
+  Hypotenuse ist die längste Seite. Für das Kapitel Dreiecke dazu
+  der Entscheidungsbaum (Winkelsumme? · rechter Winkel? · nur
+  Seiten?) als fertiges Bild (Lehrer: „das würde reichen“).
+  Grenze: höchstens vier Zeilen und ein Bild; einmal je Einheit als
+  Feld „Kern“ in der Gliederung, ein Kritiker prüft, ob alle
+  Originale der Einheit daraus lösbar sind; der Setzer druckt ohne
+  Modell. Ist kein Merkkasten (gemeinsam.md bleibt), der
+  Formelkasten oben (t) bleibt daneben. Erst Probe an Pythagoras und
+  Fläche und Umfang, dann die übrigen Einheiten. Umsetzung in
+  Schritt C.
 
 ## 11 Register der Entscheidungen
 
