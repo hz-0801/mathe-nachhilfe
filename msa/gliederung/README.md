@@ -91,10 +91,11 @@ zwei Steckbriefen; seitdem werden sie von Hand gepflegt.
 
 Kopffelder der Prüfung für die Bestellung (plan.md § 10, 15.10.2026 k; Leser aufgabenbank
 `werkzeuge/bestellen.py`). Eine neue Prüfung bekommt diesen Block in ihrem `gliederung/README.md`,
-kein Code. Platzhalter: {kapitel}, {einheit}, {heft} (Dateiname eines Hefts ohne .pdf), {datum}, {ordner}.
+kein Code. „Vorgabe: ja“ = Prüfung einer Bestellung ohne Namen und ohne Prüfungswort (15.10.2026). Platzhalter: {kapitel}, {einheit}, {heft} (Dateiname eines Hefts ohne .pdf), {datum}, {ordner}.
 Pfade mit „privat “ liegen in aufgabenbank-privat, sonst in aufgabenbank.
 
 - Anzeige: P10
+- Vorgabe: ja
 - Sorte: P
 - Schülerliste: P10
 - Papier: FOR | EBR
