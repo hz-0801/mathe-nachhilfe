@@ -200,6 +200,10 @@ M4 Bestellung – bankblatt.md kurz, ruft Setzer. Abnahme: drei echte
    Bestellungen ≤ 3 min (für Einheiten mit Lernweg).
 M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    reicht.
+   [15.10. M4 technisch erledigt: werkzeuge/bestellen.py (33 Fälle
+   grün, P10-Blatt frisch 33 s, vorhanden 0,3 s), bankblatt.md v6
+   (56 Zeilen); Probe mit Sonnet 10 Bestellungen je ≤ 1 s. Abnahme
+   „drei echte Bestellungen“ durch den Lehrer offen.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
