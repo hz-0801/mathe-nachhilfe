@@ -242,7 +242,13 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Stufe am Ende, Rechenraum, ’26 · A1.3); dann Umsetzung gesammelt.
    Durchsicht P10 unverändert.
    Lehrer 15.10. abends: die vier Fragen zurückgestellt – am
-   16.10. erneut vorlegen, sofern er nicht selbst darauf kommt.]
+   16.10. erneut vorlegen, sofern er nicht selbst darauf kommt.
+   Jetzt Bau, zuerst (Lehrer 15.10. abends): die Tafelwerke gehören
+   zum Wichtigsten – der Lehrer arbeitet damit, wenn Schüler ihr
+   Buch vergessen, und Claude nutzt sie als Anregung. Erst Regeln
+   aufstellen, wie ein Buch-PDF entsteht (Zweck, Auszug, Figuren,
+   Abgleich, Kästen für Blätter, Ablage), dann Duden nach dem
+   Fahrplan in § 9, dann Paetec.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
