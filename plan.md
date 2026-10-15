@@ -204,6 +204,33 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    grün, P10-Blatt frisch 33 s, vorhanden 0,3 s), bankblatt.md v6
    (56 Zeilen); Probe mit Sonnet 10 Bestellungen je ≤ 1 s. Abnahme
    „drei echte Bestellungen“ durch den Lehrer offen.]
+   [15.10. nachmittags erledigt: Lernblatt-Bestellung repariert
+   (Register zuerst, Probebau FUR Kl. 8 in 10 min); P10-Gebiet
+   „Zahlen und Terme“ PZ10–PZ30 (BE 2022–2026 ohne Platz 26 → 3);
+   Original neu mit 104 Figuren; Mappe 372/215 S.; Abitur GK
+   Zuschnitt 33 Blätter (AA10–AA160, AG10–AG80, AS10–AS90, alle
+   246 Teilaufgaben mit Platz), Karte und Handreichung Abitur,
+   Setzer v0.16 mit Graphen, Pilot AA20 Nullstellen.
+   Jetzt, zwei Chats nebeneinander (Lehrer 15.10.):
+   Bau – Paket bis Woche 50 % (Go offen): übrige 32 Abitur-GK-
+     Blätter aus Daten (Weg A: voller Rechenraum, bis 3 Seiten,
+     Du-Form), Gebiets-Agenten, Kritiker high, Neusatz, Mappe
+     Abitur; P10-Kleinkram (’21 · 2b Mehr, Zahlen der Originale
+     in abitur/wortlaut-eigen-kurvenuntersuchung.csv öffentlich,
+     mappe-pruef.py, duplikate.py KeyError, skript-zuschnitt.py
+     doppelte Ids). Claude entscheidet Form selbst und führt die
+     Liste „Offen (Lehrer)“ unten.
+   Durchsicht P10 – die 47 Kommentare des Lehrers (aufgabenbank
+     bau/befunde-M3.md, „Kommentare in der Mappe“) Blatt für Blatt
+     ab PG10: je Kommentar Urteil und Vorschlag, Entscheidung des
+     Lehrers; Umsetzung gesammelt in Schritt C. Dazu: Bauauftrag
+     für den Bestell-Chat klären (sechs Lücken, Bericht 15.10.),
+     Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
+     Jahren) entscheiden.
+   Offen (Lehrer), von Claude vorläufig entschieden: Abitur
+   Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
+   Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
+   abitur/befund-zuschnitt-abi-gk-2026-10-15.md).]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -552,6 +579,10 @@ enger Daten-Agent mit fertiger Vorlage ≈ 0,2 Mio.
 Runde 15.10. M4 (Opus medium 0,26 Mio, 77 Schritte, 41 min; Probe
 Sonnet 0,11 Mio, 2 min): Woche 29 → 30 % (Anzeige). Schätzung 0,55,
 gemessen ≈ 0,5 mit Chat; Regel hält.
+Runde 1 und 2 (15.10., Opus medium: Lernblatt 0,30, Zahlen 0,34,
+Original neu 0,36, Zuschnitt Abitur 0,35, Setzer Abitur 0,33 Mio;
+Neusatz Mappe im Chat): Woche 30 → 32 % (Anzeige), Fable 24 %.
+Schätzung 2,1 Punkte, gemessen ≈ 2; Regel hält.
 
 ## 9 Später
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),

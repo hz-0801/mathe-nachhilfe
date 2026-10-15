@@ -1,79 +1,89 @@
-# Übergabe verbessereBlaetter – 2026-10-14 vormittags (Chat „start 32“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-15 nachmittags (Chat „start 33“, Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-13-mitternacht.md. Nach
+Vorherige Übergabe: archiv/uebergabe-2026-10-14-vormittags.md. Nach
 plan.md Linie 8 nennt diese Übergabe keinen eigenen nächsten
-Schritt. Entscheidungen nur aus plan.md (§ 10, 14.10.2026 a–e).
+Schritt. Entscheidungen nur aus plan.md (§ 10, 14.10. f–h, 15.10.
+i–k). Ab jetzt zwei Chats nebeneinander: „Bau“ und „Durchsicht
+P10“; der Schritt jedes Chats steht in plan.md § 7 (Absatz „15.10.
+nachmittags erledigt … Jetzt“). Ein neuer Chat sagt im ersten Satz,
+welcher der beiden er ist (der Lehrer nennt es im Startwort, sonst
+fragen).
 
 ## 1 Ziel
 
-P10 fertig: Der Lehrer bestellt mit wenigen Wörtern und bekommt
-schnell gute Blätter aus Daten, ohne Modell beim Setzen (plan.md
-§ 1). Schüler bekommen die Bestellkarte und die Blätter auf Zuruf;
-das Gesamtheft ist das Prüfstück des Lehrers.
+P10 fertig und verbessert, Abitur GK als Vorrat aus Daten; der
+Lehrer bestellt im Projekt erzeugeBlatt(Bank) mit „Name · Was ·
+Zusatz“ (plan.md § 10, 15.10. k) und bekommt die PDFs in Sekunden.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 (Absatz „14.10. vormittags erledigt … Jetzt“), § 10
-  (14.10. a–e), § 8 (Messwerte).
-- Daten: mathe-nachhilfe msa/gliederung/*.md – Anzeigenamen,
-  „Kennung neu“ (PG10 … PS50, Lernfolge), Feld „Regine: S. n“,
-  Heranführungen. Sammlung: aufgabenbank bau/heranfuehrungen-p10.md.
-- Skripte (aufgabenbank werkzeuge/): pruefheft.py v0.13 (Setzer),
-  bestellkarte.py (Karte je Gebiet; Folge noch als Liste im
-  Skript), gesamtheft.py (Karte alt + alle Blätter, ohne Lösungen;
-  Ordnerliste im Skript). mathe-nachhilfe
-  werkzeuge/anzeigenamen-pruef.py (prüft noch gegen das veraltete
-  pruefung.md § 2).
-- Blätter: aufgabenbank bau/pruefung/2026-10-14/<ordner>/ (19),
-  bestellkarte.pdf (3 S.), gesamtheft-p10.pdf (alter Stand vor den
-  neuen Namen). Neusatz: Schleife über die Liste EINHEITEN in
-  werkzeuge/gesamtheft.py (kapitel, einheit, ordner),
-  `python3 werkzeuge/pruefheft.py --kapitel <k> --art p --einheit
-  "<e>"`, Ausgabe nach bau/pruefung/<datum>/<ordner>/, Ordner
-  bau/pruefheft/*-p-*-<datum> danach löschen; Register-Pfade auf
-  bau/pruefung/<datum>/<ordner> umstellen.
-- Tafelwerk: aufgabenbank-privat formelsammlung/regine-sek1.md
-  (Paetec Sek I, S. 5–43, Seitenregister); duden-sek1.md daneben.
-- Basis: Original-Basisteile aller 14 Hefte privat
-  basis-originale.jsonl, gesetzt per `zusammenbau.py --zettel
-  original --heft <jahr>-<papier>`; Basiszettel BAS-Z1–Z10
-  (bau/zettel/); zurückgestellt (plan.md § 9).
+- plan.md § 7 (Absatz 15.10. nachmittags), § 10 (14.10. f – 15.10.
+  k), § 8 (Messwerte).
+- Bestellung: aufgabenbank werkzeuge/bestellen.py (Logik aus Daten;
+  Test werkzeuge/bestellen-test.py, 46 Fälle), blattbau
+  bankblatt.md v6 (vom Lehrer im Projekt eingesetzt 15.10.).
+- P10: mathe-nachhilfe msa/gliederung/*.md (Kopffelder Kennung,
+  Ordner, Anzeigenamen, Kurzwort), msa/mehr-p10/*.csv (Spalte grafik
+  mit Skizzen), msa/handgriffe-p10.csv. 22 Blätter in vier Gebieten
+  (neu PZ10–PZ30 Zahlen und Terme).
+- Abitur GK: abitur/gliederung/*.md (33 Blätter, Kennung AA/AG/AS),
+  abitur/befund-zuschnitt-abi-gk-2026-10-15.md, abitur/mehr-abi-gk/
+  kurvenuntersuchung.csv (Pilot AA20); aufgabenbank bau/befunde-M5.md.
+- Setzer: aufgabenbank werkzeuge/pruefheft.py v0.16 (P10 und
+  Abitur, Mehr mit Skizzen), p10punkte.py (Punkte je Handgriff),
+  originalneu.py v0.3 (Figuren privat bau/original-neu/grafik/),
+  mappe-p10.py, bestellkarte.py (Prüfung als Argument),
+  neusatz-p10.py. Neusatz: `cd aufgabenbank && python3
+  werkzeuge/neusatz-p10.py --datum <JJJJ-MM-TT> --mappe` (≈ 14 min,
+  länger als 10 min: im Hintergrund starten und abwarten).
+- Ausgaben 15.10.: aufgabenbank bau/pruefung/2026-10-15/ (Blätter,
+  Karte, Handreichung, Gesamtheft, mappe-p10-ohne.pdf, abitur/);
+  privat bau/mappe/2026-10-15/mappe-p10.pdf (372 S.).
+- Durchsicht: aufgabenbank bau/befunde-M3.md, Blöcke „Durchsicht
+  Mappe P10“ und „Kommentare in der Mappe“ (47 Kommentare wörtlich,
+  mit Seite und Kennung; die Seiten beziehen sich auf die Mappe vom
+  15.10. mittags, 334 S., vor Zahlen und Terme). Weitere
+  Kommentar-PDFs: Kommentare per pypdf (/Annots, /Contents) lesen.
 
 ## 3 Arbeitsstand
 
-- Erledigt 14.10.: Regine-Abschrift; Heranführungen als Daten (45
-  Stufen mit Einstieg, 29 leer); Pythagoras getrennt; Probe HK32
-  Grundwert, K9X2 Kenngrößen (Seitenfrage + Erkennen); Gesamtheft;
-  Bestellkarte; Abschnittsnamen neu und Lernfolge; Fallbeschreibung
-  neben Skizze entfernt (Setzer v0.13).
-- Lehrer hat die Namen auf der Karte gesehen; geändert nur
-  Punktprobe und „Gerade und Parabel“.
+- Erledigt 14./15.10.: Kennung PG50-3, Punkte je Handgriff,
+  Skizzen im Mehr, Mappe mit Inhalt, Handreichung, festen
+  Sprungzielen und Abschnittslinks; Bestellung Weg C (M4 technisch);
+  Lernblatt-Bestellung; Zahlen und Terme; Original neu mit Figuren;
+  Abitur-Zuschnitt, Karte, Setzer, Pilot.
+- Offen M4: drei echte Bestellungen des Lehrers.
+- Go für das Bau-Paket (bis Woche 50 %) ist noch nicht gegeben;
+  zuletzt sagte der Lehrer zweimal „gleich“ – das zählt nicht als Go.
 - Keine Agenten laufen.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 26 % (Anzeige 14.10. morgens), Fable 24 %, Reset Montag
-  18:00. Nachtpaket: Agenten 0,80 Mio Opus-Token ≈ 1 Punkt
-  (Schätzregel ≈ 0,9 Mio je Punkt hält).
-- Der Lehrer ist ungehalten über Kommentare auf Gedrucktem und über
-  Behauptungen, etwas gebe es nicht (Basisblätter): vor jeder
-  solchen Aussage register.csv, bau/, aufgabenbank-privat
-  durchsuchen.
-- Uhrzeit: Lehrer arbeitet in UTC+2.
+- Woche 32 % (Anzeige 15.10. nachmittags), Fable 24 %, Reset
+  Montag 18:00. Regel ≈ 0,9 Mio Opus-Token je Punkt hält; enger
+  Daten-Agent ≈ 0,2 Mio, Bau-/Setzer-Agent ≈ 0,3–0,35 Mio.
+- Lehrer: „zu viele Infos und Fragen auf einmal“ – Antworten kurz,
+  eine Frage, Vorschläge als Paket mit Grenze statt Go je Runde
+  (plan.md § 7). Warten kostet mehr als späteres Umwerfen: Form
+  liegt in Daten, Neusatz per Skript.
+- Lehrer arbeitet in UTC+2; Uhrzeiten in seiner Zeit nennen.
+- Kommentare des Lehrers kommen künftig als kommentiertes PDF
+  (Acrobat Reader/Edge); auslesen, wörtlich ablegen, im Chat
+  Durchsicht beantworten.
 
 ## 5 Offen und Verworfenes
 
-- Lineare endet mit „Gerade und Parabel“, die Parabel kommt erst
-  zwei Blätter später (Lernfolge); Lehrer nicht entschieden.
-- Prozent vor Grundwert: Folge der zwei Prozent-Blätter nicht
-  geprüft (Umwandeln vorn, Prozentwert/Grundwert danach).
-- Volumen und Oberfläche: Stufenfolge (Formeln umstellen vor
-  Oberfläche) nicht nach dem Muster Flächen.
-- Basisteil auf der Karte: nach Jahr, jüngstes zuerst, Kennung PB25
-  (Vorschlag, zurückgestellt).
-- Verworfen: Basiszettel nach Gebiet ordnen (Basisteil ist gemischt
-  wie in der Prüfung).
+- Offen (Lehrer), von Claude vorläufig entschieden: plan.md § 7
+  (Abitur Du-Form, bis 3 Seiten, PO24-1, Zuschnitt 33).
+- Bauauftrag für den Bestell-Chat: sechs Lücken (welche Einheit
+  bei bloßem Thema, ohne Kritiker liefern?, zweite Klasse derselben
+  Einheit, Blocktitel, Bauordner, duplikate.py) – Chat Durchsicht.
+- Aus Prozent/Lineare offen wie zuvor: Folge Gerade und Parabel,
+  Prozent vor Grundwert, Stufenfolge Volumen.
+- Verworfen: Bestellbaum mit Knöpfen (15.10. k); Mappe bei jeder
+  Bestellung mitliefern (zu groß fürs Handy).
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 (Folge „14.10. vormittags erledigt … Jetzt“, Schritt 1).
+plan.md § 7 (Absatz „15.10. nachmittags erledigt … Jetzt“), je nach
+Chat Bau oder Durchsicht P10.
