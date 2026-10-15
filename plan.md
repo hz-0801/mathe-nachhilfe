@@ -231,6 +231,16 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
    abitur/befund-zuschnitt-abi-gk-2026-10-15.md).]
+   [15.10. abends erledigt (Bau-Paket): alle 33 Abitur-GK-Blätter
+   aus Daten (mehr-abi-gk/, 9 CSVs), Setzer v0.17, neusatz-abi.py,
+   mappe-abi.py (246 S.), Bestellung findet alle 33 (Test 49/49),
+   abi-zahlen-pruef.py (eine Zahlenwahl je Original), zwei Kritiker
+   mit Nachbessern; P10-Kleinkram erledigt. Befunde aufgabenbank
+   bau/befunde-M5.md (Runde 32 Blätter).
+   Jetzt Bau: Lehrer sieht drei Muster (AA50, AG40, AS80) und
+   entscheidet die vier offenen Punkte in befunde-M5.md (4 Seiten,
+   Stufe am Ende, Rechenraum, ’26 · A1.3); dann Umsetzung gesammelt.
+   Durchsicht P10 unverändert.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -583,8 +593,18 @@ Runde 1 und 2 (15.10., Opus medium: Lernblatt 0,30, Zahlen 0,34,
 Original neu 0,36, Zuschnitt Abitur 0,35, Setzer Abitur 0,33 Mio;
 Neusatz Mappe im Chat): Woche 30 → 32 % (Anzeige), Fable 24 %.
 Schätzung 2,1 Punkte, gemessen ≈ 2; Regel hält.
+Bau-Paket 15.10. (Opus, Chat medium; fünf Daten-Agenten 0,30–0,38
+Mio, 18–193 min, Kleinkram 0,21; Abgleich 0,22, Setzer 0,30;
+Kritiker 0,32 und 0,28, gelaufen auf medium statt high; Neusatz im
+Chat): Agenten 3,03 Mio. Schätzung 3,7 Punkte; Anzeige: ausstehend.
+Wanduhr 4 h 40 statt 3 h: der Agent Ableitung/Integral brauchte
+193 min (7 Blätter, viele Graphen ohne Term). Regel: Daten-Agent mit
+Graphen ≈ 25 min je Blatt, nicht 10.
 
 ## 9 Später
+- Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
+  nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
+  (befunde-M5.md, 15.10.).
 - Basisteil 2028 hilfsmittelfrei? Vermutung des Lehrers (12.10.),
   amtlich nicht bestätigt; 2027 am Bildungsserver BB prüfen.
 - Duden Formeln und Werte bis Kl. 10 (Abschrift in
