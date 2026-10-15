@@ -266,9 +266,10 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Jesse (Cornelsen Fundamente 10) durchsuchbar mit Sprungmarken per
    Skript (aufgabenbank-privat werkzeuge/buch-durchsuchbar.py,
    buch-sprungmarken.py). Regeln § 10 (16.10. h).
-   Jetzt Bau: 1. Lehrer begutachtet die drei Buch-PDFs (Tafelwerke
-   mit „← zurück“ liegen in Drive noch ohne; Jesse noch nicht in
-   Drive), dann ablegen bzw. ersetzen. 2. Die vier Fragen aus
+   Jetzt Bau: 1. Tafelwerke in Drive (16.10., Kopfzeile repariert,
+   „← zurück“). Jesse: Fotos zu schwach (gewölbt, ~110 dpi); Probe
+   Weg A (Wölbung per Skript, page-dewarp) nur teilweise besser –
+   Lehrer entscheidet Weg A, neu scannen oder neu setzen (Weg C). 2. Die vier Fragen aus
    aufgabenbank bau/befunde-M5.md vorlegen (zurückgestellt bis
    16.10.). 3. Übrige Scans per Skript wie Jesse, nur nach
    Absprache.]
