@@ -227,10 +227,18 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      für den Bestell-Chat klären (sechs Lücken, Bericht 15.10.),
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
-     [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
+     [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
      Entscheidungen § 10 l, o, p, q–y, 16.10. a–g; Antworten
-     aufgabenbank bau/durchsicht/pg10–90.json. Noch nicht beim Lehrer: Bauauftrag
-     Bestell-Chat (sechs Lücken), Blatt „Stimmt das? Begründe.“.]
+     aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
+     Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
+     Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
+     bau/mappe/2026-10-16/mappe-p10-durchsicht-2.pdf, 117 S., PA10
+     bis PZ30 mit Lösung und Mehr). Weiter, sobald das kommentierte
+     PDF da ist: Kommentare auslesen, Blatt für Blatt wie bei
+     Geometrie. Erst danach: Bauauftrag Bestell-Chat (fünf Lücken
+     von Claude geklärt, offen nur „Kritiker vor Lieferung neuer
+     Lernblätter?“ Weg A danach / Weg B davor, Empfehlung A) und
+     Blatt „Stimmt das? Begründe.“.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
