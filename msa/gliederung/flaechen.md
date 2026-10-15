@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: flaechen
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Flächen
 Folge: 2
 Bank: flaechen | kreis

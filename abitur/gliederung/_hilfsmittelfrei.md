@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: _hilfsmittelfrei
 Gebiet: nur Hilfsmittelfrei (kein Skript)
+Kurzwort: hmf | hilfsmittelfrei | ohne hilfsmittel
 Name: –
 Folge: 10
 Skript: nein

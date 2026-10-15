@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: gleichungssysteme
 Gebiet: Funktionen
+Kurzwort: ana | analysis | funktionen
 Name: Gleichungssysteme
 Folge: 6
 Bank: lineare-gleichungssysteme

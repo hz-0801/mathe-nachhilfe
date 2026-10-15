@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: integral
 Gebiet: Analysis
+Kurzwort: ana | analysis | funktionen
 Name: Integral
 Folge: 3
 Bank: stammfunktion-und-hauptsatz | integrationsregeln | flaecheninhalt-durch-integration

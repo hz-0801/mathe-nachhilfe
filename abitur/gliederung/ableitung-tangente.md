@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: ableitung-tangente
 Gebiet: Analysis
+Kurzwort: ana | analysis | funktionen
 Name: Ableitung + Tangente
 Folge: 2
 Bank: tangente-normale-schnittwinkel | ableitung-und-aenderungsrate | ableitungsgraph-und-funktionsgraph

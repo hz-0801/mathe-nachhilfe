@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: prozent
 Gebiet: Daten + Zufall
+Kurzwort: daten | stoch | stochastik | zufall
 Name: Prozent
 Folge: 8
 Bank: prozentrechnung | zinsrechnung

@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: geraden-ebenen
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Geraden + Ebenen
 Folge: 6
 Bank: geraden | ebenen | lagebeziehungen | schnittmengen | spiegelung

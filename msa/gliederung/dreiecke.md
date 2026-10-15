@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: dreiecke
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Dreiecke
 Folge: 1
 Gruppen: Rechtwinklige Dreiecke = pythagoras, trigonometrie | Alle Dreiecke und Vierecke = winkel-dreiecke, symmetrie-abbildungen

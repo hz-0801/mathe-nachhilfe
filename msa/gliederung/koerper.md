@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: koerper
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Körper
 Folge: 3
 Bank: koerper | pyramide-kegel-kugel

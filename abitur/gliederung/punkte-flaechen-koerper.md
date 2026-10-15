@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: punkte-flaechen-koerper
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Punkte, Flächen, Körper
 Folge: 4
 Bank: punkte-und-strecken-im-koordinatensystem | vektoren-und-rechenoperationen | spiegelung | flaecheninhalt-und-volumen-im-raum

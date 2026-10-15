@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: wahrscheinlichkeit
 Gebiet: Daten + Zufall
+Kurzwort: daten | stoch | stochastik | zufall
 Name: Wahrscheinlichk.
 Folge: 10
 Bank: wahrscheinlichkeit

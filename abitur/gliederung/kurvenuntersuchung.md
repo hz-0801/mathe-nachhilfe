@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: kurvenuntersuchung
 Gebiet: Analysis
+Kurzwort: ana | analysis | funktionen
 Name: Kurvenuntersuchung
 Folge: 1
 Bank: kurvenuntersuchung | funktionsklassen-und-eigenschaften | grenzwerte-und-verhalten-im-unendlichen | rekonstruktion-von-funktionsgleichungen | extremalprobleme | gleichungen-loesen

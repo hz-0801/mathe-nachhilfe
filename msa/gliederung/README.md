@@ -25,6 +25,8 @@ die Gliederung verweist („→ katalog/…“), sie kopiert nicht.
     Gebiet: Daten + Zufall             Spalte gebiet des Zuschnitts
     Name: Prozent                      Spalte kapitel des Zuschnitts
     Folge: 8                           Platz des Kapitels im Zuschnitt (Reihenfolge der Dateien)
+    Kurzwort: daten | stoch            Kurzwörter des Gebiets für die Bestellung („Lena daten“), seit 15.10.2026;
+                                       Leser aufgabenbank werkzeuge/bestellen.py (alle Dateien eines Gebiets gleich)
     Bank: prozentrechnung | zinsrechnung   Bankeinträge (aufgabenbank/bank/<eintrag>)
     Katalog: katalog/prozentrechnung.md | …   Verweise, nur für Menschen
     Skript: nein                       nur Sammlungen ohne Bank (_basisteil, _hilfsmittelfrei)
@@ -84,3 +86,26 @@ regine, bank, verwechselbar, abschnitt, zeilen, felder), Plätze und die Fokus-B
 Die Dateien entstanden am 08.10.2026 durch `werkzeuge/gliederung-extrakt.py` aus
 `zuordnung.py` (Stand a1c9fd3), den Zuschnitt-CSVs, `handgriffe-p10.csv` und den
 zwei Steckbriefen; seitdem werden sie von Hand gepflegt.
+
+## Bestellung
+
+Kopffelder der Prüfung für die Bestellung (plan.md § 10, 15.10.2026 k; Leser aufgabenbank
+`werkzeuge/bestellen.py`). Eine neue Prüfung bekommt diesen Block in ihrem `gliederung/README.md`,
+kein Code. Platzhalter: {kapitel}, {einheit}, {heft} (Dateiname eines Hefts ohne .pdf), {datum}, {ordner}.
+Pfade mit „privat “ liegen in aufgabenbank-privat, sonst in aufgabenbank.
+
+- Anzeige: P10
+- Sorte: P
+- Schülerliste: P10
+- Papier: FOR | EBR
+- Blatt: werkzeuge/pruefheft.py --kapitel {kapitel} --art p --einheit "{einheit}"
+- Blattordner: bau/pruefung/{datum}/{ordner}
+- Mehr: werkzeuge/pruefheft.py --kapitel {kapitel} --art mehr --alle --einheit "{einheit}"
+- Hefte: privat hefte/{heft}.pdf
+- Original neu: werkzeuge/originalneu.py --heft {heft}
+- Original neu Ordner: privat bau/original-neu/{heft}/pdf
+- Basiszettel: bau/zettel/BAS-Z{n}/BAS-Z{n}.pdf
+- Karte: bau/pruefung/{datum}/bestellkarte.pdf
+- Handreichung: bau/pruefung/{datum}/handreichung-muster.pdf
+- Gesamtheft: bau/pruefung/{datum}/gesamtheft-p10.pdf
+- Mappe: privat bau/mappe/{datum}/mappe-p10.pdf

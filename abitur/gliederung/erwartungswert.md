@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: erwartungswert
 Gebiet: Stochastik
+Kurzwort: stoch | stochastik | daten | zufall
 Name: Erwartungswert
 Folge: 9
 Bank: kenngroessen-von-verteilungen | binomialverteilung | zufallsgroessen-und-verteilungen

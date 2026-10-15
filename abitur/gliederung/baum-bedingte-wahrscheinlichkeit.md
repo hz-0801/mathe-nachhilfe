@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: baum-bedingte-wahrscheinlichkeit
 Gebiet: Stochastik
+Kurzwort: stoch | stochastik | daten | zufall
 Name: Baumdiagramm + bedingte Wahrscheinlichkeit
 Folge: 7
 Bank: zufallsexperimente-und-pfadregeln | vierfeldertafel | bedingte-wahrscheinlichkeit-und-bayes | unabhaengigkeit

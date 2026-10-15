@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: daten
 Gebiet: Daten + Zufall
+Kurzwort: daten | stoch | stochastik | zufall
 Name: Daten
 Folge: 9
 Bank: daten

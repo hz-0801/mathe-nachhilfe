@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: quadratische
 Gebiet: Funktionen
+Kurzwort: ana | analysis | funktionen
 Name: Quadratische
 Folge: 5
 Bank: quadratische-funktionen | quadratische-gleichungen

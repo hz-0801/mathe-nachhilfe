@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: lineare
 Gebiet: Funktionen
+Kurzwort: ana | analysis | funktionen
 Name: Lineare
 Folge: 4
 Bank: lineare-funktionen | quadratische-funktionen | quadratische-gleichungen

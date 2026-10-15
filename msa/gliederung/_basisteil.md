@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: _basisteil
 Gebiet: nur Basisteil (kein Skript)
+Kurzwort: basis | basisteil
 Name: –
 Folge: 11
 Skript: nein

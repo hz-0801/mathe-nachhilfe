@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: binomialverteilung
 Gebiet: Stochastik
+Kurzwort: stoch | stochastik | daten | zufall
 Name: Binomialverteilung
 Folge: 8
 Bank: binomialverteilung | zufallsgroessen-und-verteilungen

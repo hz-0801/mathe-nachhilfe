@@ -3,6 +3,7 @@
 Prüfung: msa
 Kapitel: wachstum
 Gebiet: Funktionen
+Kurzwort: ana | analysis | funktionen
 Name: Wachstum
 Folge: 7
 Bank: potenz-exponentialfunktionen

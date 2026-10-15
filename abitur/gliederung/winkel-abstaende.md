@@ -3,6 +3,7 @@
 Prüfung: abitur
 Kapitel: winkel-abstaende
 Gebiet: Geometrie
+Kurzwort: geo | geometrie
 Name: Winkel + Abstände
 Folge: 5
 Bank: orthogonalitaet | skalarprodukt-und-winkel | abstaende
