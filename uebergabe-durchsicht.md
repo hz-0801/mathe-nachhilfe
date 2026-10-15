@@ -1,9 +1,9 @@
-# Übergabe verbessereBlaetter – 2026-10-15 abends (Chat „Durchsicht P10“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-16 (Chat „Durchsicht P10“, Opus)
 
 Eigene Datei, weil zwei Chats nebeneinander laufen; die Übergabe des
-Chats „Bau“ ist uebergabe.md. Nach plan.md Linie 8 kein eigener
-nächster Schritt; Entscheidungen nur aus plan.md (§ 10, 15.10. l, o,
-p).
+Chats „Bau“ ist uebergabe.md. Vorherige: archiv/uebergabe-durchsicht-
+2026-10-15-abends.md. Nach plan.md Linie 8 kein eigener nächster
+Schritt; Entscheidungen nur aus plan.md (§ 10, 15.10. l, o, p, q–y).
 
 ## 1 Ziel
 
@@ -13,33 +13,38 @@ Schritt C.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 (Absatz „Durchsicht P10“ mit Stand 15.10. abends),
-  § 10 (15.10. l, o, p).
+- plan.md § 7 (Absatz „Durchsicht P10“, Stand 16.10.), § 10 (15.10.
+  l, o, p, q–y).
 - Kommentare mit Stelle: aufgabenbank
-  bau/durchsicht/kommentare-mappe-2026-10-15.csv (Seite, Kennung,
-  Rechteck, markierter Text, Kommentar). Das kommentierte PDF:
+  bau/durchsicht/kommentare-mappe-2026-10-15.csv. Kommentiertes PDF:
   aufgabenbank-privat bau/mappe/2026-10-15/
-  mappe-p10-kommentiert-lehrer.pdf (334 S., Seiten wie in der Mappe
-  vom 15.10. mittags).
-- Antworten je Blatt: aufgabenbank bau/durchsicht/pg10.json,
-  pg20.json, pg30.json (Marke + Text je Kommentar, Reihenfolge wie
-  in der CSV).
-- Ansicht: `python3 -I werkzeuge/kommentare.py <pdf> <ordner>`
-  (Ausschnitte k-<seite>-<nr>.png), dann `python3 -I
-  werkzeuge/durchsicht.py bau/durchsicht/pg40.json <ordner>
-  <aus.html>`; als Artifact „Durchsicht P10“ veröffentlichen
-  (gleicher Dateipfad = gleiche Adresse nur im selben Chat; im
-  neuen Chat entsteht eine neue).
-- Regeln in global.md seit 15.10.: Kommentiertes PDF, Zeigen
-  (Ausschnitt, eine Spalte, nummeriert), Fragezeichen = Frage mit
-  knappem Urteil.
+  mappe-p10-kommentiert-lehrer.pdf.
+- Antworten je Blatt: aufgabenbank bau/durchsicht/pg10.json bis
+  pg60.json (Marke + Text je Kommentar, Reihenfolge wie in der CSV;
+  Marken: ändern, entschieden, Handwerk, Antwort, offen).
+- Ansicht: `python3 -I werkzeuge/kommentare.py <pdf> <ordner>`, dann
+  `python3 -I werkzeuge/durchsicht.py bau/durchsicht/pg70.json
+  <ordner> <aus.html>`; als Artifact „Durchsicht P10“ veröffentlichen
+  (im neuen Chat neue Adresse).
+- Tendenzen aus der Durchsicht: aufgabenbank bau/befunde-M3.md, Block
+  „Tendenzen aus der Durchsicht“ (Erkennen-Aufgaben knapp, ein Blatt).
 
 ## 3 Arbeitsstand
 
-- Durchgesehen: PG10 Winkel (16), PG20 Symmetrie (6), PG30 Vierecke
-  (2). Offen: PG40 Flächen (S. 23–32, 7), PG50 Pythagoras (S. 33,
-  5), PG60 sin, cos, tan (S. 41–43, 6), PG70 Sinussatz (S. 50, 2),
-  PG80 Netz (S. 57, 1), PG90 Volumen (S. 64–65, 3) – laut CSV.
+- Durchgesehen: PG10–PG30 (25), PG40 Fläche und Umfang (6), PG50
+  Pythagoras (5), PG60 sin, cos, tan (6) – 42 von 47.
+- Offen: PG70 Sinussatz (S. 50, 2), PG80 Netz (S. 57, 1), PG90
+  Volumen (S. 64–65, 3); PG90 enthält Wünsche zu Skizzen und
+  „Volumenformel aufstellen/umstellen“ – gegen § 10 w (Kern) und
+  „Skizze, wo sie trägt“ prüfen.
+- Neu entschieden in diesem Chat (§ 10): q Bruch auch in Formeln ·
+  r Mehr als eigene Datei je Bestellung · s Fläche und Umfang ·
+  t Formelkasten aus dem Tafelwerk (Versuch; Buchtitel vom Umschlag
+  mit Seite, beide Bücher sind von Duden) · u Pythagoras-Stufen ·
+  v Name sin, cos, tan bleibt · w Kern am Ende jedes Blatts (Probe
+  Pythagoras, Fläche und Umfang; Entscheidungsbaum Dreiecke als
+  Bild) · x Fundstellentabelle fällt weg · y sin, cos, tan.
+- Doppelte Marke (o) in § 10 bereinigt: Tafelwerk-Figuren heißen n2.
 - Noch nicht beim Lehrer: Bauauftrag für den Bestell-Chat (sechs
   Lücken), Blatt „Stimmt das? Begründe.“.
 - Keine Agenten laufen.
@@ -50,23 +55,29 @@ Schritt C.
   18:00. Dieser Chat: nur Skripte und Chat, kein Agent; nicht
   gesondert gemessen.
 - Lehrer: kleiner Bildschirm; eine Frage je Nachricht, Wege mit
-  Namen; je Blatt eine Ansicht.
-- Fakten, die der Lehrer korrigiert hat: Basisteil bis 2027 MIT
-  Hilfsmitteln (msa/msa.md, hilfsmittelfrei erst Muster 2028);
-  Regine S. 24/25 „Vierecke“ nennt keine Symmetrieachsen –
-  Stichworte der Formelsammlung vor dem Nennen nachsehen.
+  Namen; je Blatt eine Ansicht; Bilder (Diagramm) helfen bei
+  Entscheidungen („wie sieht das aus?“).
+- Fakten: Tafelwerke „Formeln und Werte“ (Duden Schulbuchverlag) und
+  „Formeln Tabellen Wissenswertes“ (Duden Paetec, Regine-Hildebrandt-
+  Schule, die meisten Schüler); Paetec laut Chat Bau gesetzt, Scan
+  S. 28–51 fehlt. Der Lehrer nutzt die Lösung in P10 selten.
+- Studyflix u. ä. haben keinen Werkzeug-Baum über Pythagoras/
+  Sinussatz, nur ein Schema innerhalb von sin, cos, tan.
 
 ## 5 Offen und Verworfenes
 
-- Offen, in plan.md § 7 gelistet: Layout Lösungsblatt (Weg A „wie
-  Buch“ / B „entschlackt“ – Lehrer will darüber reden, nicht
-  entscheiden), Form der Begriffs-Einzeiler, Name PG10 „Winkel aus
-  Winkeln“, Regel „Mehr aufs Blatt, solange zwei Seiten“, Namen
-  „Mehr · Winkel“ / „Lösungen · Winkel“ (Vorschlag).
-- Verworfen: „Winkel ohne Längen“ (verlangt ein Gegenstück);
-  „Symmetrie und Eigenschaften“ (Lehrer); ganze Seiten neben den
-  Kommentaren (hilft am kleinen Bildschirm nicht).
+- Offen (plan.md § 7): Layout Lösungsblatt (Gespräch; dazu
+  Schriftgröße, untereinander statt zwei Spalten), Form der
+  Begriffs-Einzeiler, Name PG10 „Winkel aus Winkeln“, Regel „Mehr
+  aufs Blatt, solange zwei Seiten“.
+- Handwerksfehler für Schritt C (in den json): Mehr-Lösung Nr. 14
+  PG40 (Angabe als Ergebnis), Stufenzeile des Mehr in falscher
+  Folge, Skizzen PG50 Nr. 5 überlappen, Winkelname γ außerhalb des
+  Bogens (PG60).
+- Verworfen: „Trigonometrie“ als Name (umfasst Sinussatz);
+  Fundstellentabelle aufs Lösungsblatt; Kern vorn beim
+  Prüfungsblatt; Merkkasten mit eigenem Merksatz statt Tafelwerk.
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7, Absatz „Durchsicht P10“ (Stand 15.10. abends).
+plan.md § 7, Absatz „Durchsicht P10“ (Stand 16.10.).
