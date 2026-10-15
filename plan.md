@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: PG10 bis PG60 durchgesehen (42 der 47
-     Kommentare), Entscheidungen § 10 l, o, p, q–y; Antworten
+     Kommentare), Entscheidungen § 10 l, o, p, q–y, 16.10. a; Antworten
      aufgabenbank bau/durchsicht/pg10–60.json. Weiter mit PG70
      Sinussatz (S. 50, 2), PG80 Netz (S. 57, 1), PG90 Volumen
      (S. 64–65, 3). Offen dazu: Lösungsblatt-Gespräch auch mit
@@ -1088,6 +1088,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Stufe „sin, cos, tan aufstellen“ (statt Gleichung aufstellen);
   bei „Ergänze sin γ = …“ fällt das Karo weg, das Antwortfeld steht
   rechts neben der Figur (keine Rechnung, kein Rechenraum).
+  Umsetzung in Schritt C.
+- 16.10.2026 (a): Blatt Sinussatz (Lehrer, Weg A; Chat Durchsicht,
+  PG70): Der Sinussatz kommt in die Liste der Formeln, die sitzen
+  müssen (15.10. t). Warum: Das Blatt übt eine einzige Formel; die
+  Seitenfrage allein lässt den Schüler danach mit einem Satz in
+  Worten allein. Beispiel: Kasten „Sinussatz“ mit Figur aus Formeln
+  und Werte S. 27 oben unter dem Titel; die Frage „Welche Formel …
+  Seite __“ fällt weg. Grenze: wie t (Tafelwerk des Schülers).
   Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
