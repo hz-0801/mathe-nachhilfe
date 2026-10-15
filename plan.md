@@ -649,6 +649,9 @@ Paetec gesetzt + Titelbild beide (15.10. nachts, Opus, 1 Agent):
   im Ordner „bücher scanns“ (OneDrive-Desktop, 21 Dateien, teils
   leer/unvollständig) durchsuchbar; Originalhefte am Stück
   durchsuchbar mit Sprungmarken nach Drive Mathe/Prüfungen.
+- Feld „Regine: S. n“ der P10-Gliederungen und pruefheft.py heißt
+  nach dem Buch, nicht der Schule: „Paetec: S. n“ (Lehrer 15.10.;
+  auf den Blättern unsichtbar, darum später).
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
