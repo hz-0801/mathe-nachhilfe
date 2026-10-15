@@ -1027,6 +1027,19 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Figuren („Formelsammlung: Dreiecke · Vierecke · Kreis“). Eigene
   Umstell-Aufgaben nennen Formel und Zielgröße in einem Satz
   („Stelle die Formel u = π · d nach d um.“). Umsetzung in Schritt C.
+- 15.10.2026 (t): Formelkasten aus dem Tafelwerk (Lehrer, Weg A,
+  Versuch; Chat Durchsicht, PG50). Warum: Die wenigen Formeln, die
+  sitzen müssen (Pythagoras, pq-Formel, Geradengleichung, sin/cos/
+  tan, Scheitelpunktform), soll der Schüler so sehen, wie er sie in
+  der Prüfung aufschlägt – Formel und Fundort zugleich. Beispiel:
+  Duden-Kasten „Rechtwinkliges Dreieck“ (S. 21) oben unter dem Titel
+  des Blatts Pythagoras, darunter klein „Tafelwerk S. 21“; er
+  ersetzt dort die Formelsammlungs-Zeile (15.10. o). Grenze: nur
+  diese Formeln, nur aus dem Tafelwerk des Schülers (Schülerliste;
+  ohne Namen Duden); Paetec erst, wenn dessen Kästen gesetzt sind.
+  Ändert gemeinsam.md „Kein Merkkasten, außer bestellt“ für diese
+  Formeln. Nach dem ersten Blatt neu ansehen. Umsetzung in
+  Schritt C.
 
 ## 11 Register der Entscheidungen
 
