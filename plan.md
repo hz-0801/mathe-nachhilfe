@@ -827,6 +827,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 14.10.2026 (h): Handreichung = Bestellkarte mit allen Stufen der
   Gliederung, nie geprüfte grau; erst als Muster, Form entscheidet
   der Lehrer daran (Claude, Lehrer: Go).
+- 15.10.2026 (i): Punkte auf Karte, Stufenkopf und Handreichung
+  zählen jeden Handgriff im Jahr – Hauptplatz, ganz auch,
+  Zwischenschritt (Lehrer: „Punktprobe nur 2 mal, kann ich nicht
+  glauben“; Befund: 36 Punkte in 21 von 74 Abschnitten fehlten).
+  Mappe ohne Heftseiten, mit Handreichung und Inhaltsverzeichnis;
+  Mehr mit gezeichneten Skizzen (Weg A) (Lehrer: Go).
+- 15.10.2026 (j): Nach dieser Runde in dieser Folge (Lehrer):
+  1. Bedienung im Bank-Prompt (M4: bankblatt.md ruft den Setzer);
+  2. Lernblätter P10 verbessern: Zuschnitt der Abschnitte,
+  Heranführung, Formelsammlung, vielleicht Merkkasten oder
+  Kurzzusammenfassung (Schritt C; Merkkasten berührt gemeinsam.md
+  „kein Merkkasten, außer bestellt“ – dann neu vorlegen).
 
 ## 11 Register der Entscheidungen
 
