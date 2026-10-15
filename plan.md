@@ -1014,6 +1014,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   da, wenn der Schüler es braucht; der Setzer baut es ohne Modell.
   Ersetzt pruefung.md „Anhang Mehr zum Üben nur auf Zuruf“ (06.10.)
   für die Lieferung. Umsetzung in Schritt C.
+- 15.10.2026 (s): Blatt Fläche und Umfang (Lehrer, Chat
+  Durchsicht): Titel bleibt; die Formelsammlungs-Zeile nennt die
+  Figuren („Formelsammlung: Dreiecke · Vierecke · Kreis“). Eigene
+  Umstell-Aufgaben nennen Formel und Zielgröße in einem Satz
+  („Stelle die Formel u = π · d nach d um.“). Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
