@@ -227,9 +227,12 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      für den Bestell-Chat klären (sechs Lücken, Bericht 15.10.),
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
-     [Stand 15.10. abends: PG10, PG20, PG30 durchgesehen (25 der 47
-     Kommentare), Entscheidungen § 10 l, o, p; Antworten aufgabenbank
-     bau/durchsicht/pg10–30.json. Weiter ab PG40 (S. 23–32). Offen:
+     [Stand 16.10.: PG10 bis PG60 durchgesehen (42 der 47
+     Kommentare), Entscheidungen § 10 l, o, p, q–y; Antworten
+     aufgabenbank bau/durchsicht/pg10–60.json. Weiter mit PG70
+     Sinussatz (S. 50, 2), PG80 Netz (S. 57, 1), PG90 Volumen
+     (S. 64–65, 3). Offen dazu: Lösungsblatt-Gespräch auch mit
+     Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
      Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Form
      der Begriffs-Einzeiler (Basiswinkel, Symmetrieachse – zwei
      Blätter, damit Regel), Name PG10 „Winkel aus Winkeln“
@@ -1051,7 +1054,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 15.10.2026 (u): Blatt Pythagoras (Lehrer, Chat Durchsicht):
   Stufen „Pythagoras aufstellen“ (statt Gleichung aufstellen) und
   „Pythagoras versteckt“ (statt in Figuren versteckt); sin, cos, tan
-  behält „Gleichung aufstellen“. Erkennen-Aufgabe mit gesuchten
+  entsprechend „sin, cos, tan aufstellen“ (y). Erkennen-Aufgabe mit gesuchten
   Seiten x, y, z und kurzer Frage (Tendenz „Erkennen-Aufgaben
   knapp“, aufgabenbank bau/befunde-M3.md). Umsetzung in Schritt C.
 - 15.10.2026 (v): Name „sin, cos, tan“ bleibt (Lehrer, Weg A);
@@ -1081,6 +1084,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   zuletzt drankam, zeigen die Punkte im Stufenkopf, den Überblick
   die Karte. Die Lösung nutzt der Lehrer in P10 selten. Umsetzung
   in Schritt C.
+- 15.10.2026 (y): Blatt sin, cos, tan (Lehrer, Chat Durchsicht):
+  Stufe „sin, cos, tan aufstellen“ (statt Gleichung aufstellen);
+  bei „Ergänze sin γ = …“ fällt das Karo weg, das Antwortfeld steht
+  rechts neben der Figur (keine Rechnung, kein Rechenraum).
+  Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
