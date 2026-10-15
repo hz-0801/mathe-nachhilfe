@@ -995,7 +995,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   json und Scan), nicht aus den Fotos ausgeschnitten – die Kästen
   sollen auf Blätter passen. Gilt für Duden und Paetec. Erst Probe
   Duden S. 19 (12 Figuren), dann die übrigen 128.
-- 15.10.2026 (o): Figuren der Tafelwerke (Lehrer, ersetzt n
+- 15.10.2026 (n2): Figuren der Tafelwerke (Lehrer, ersetzt n
   „neu zeichnen“ – zu teuer): Weg D, Text und Aufbau gesetzt, Figuren
   als Ausschnitt aus dem entzerrten Originalfoto (Skript
   aufgabenbank-privat werkzeuge/figuren-ausschnitt.py, Rahmen als
