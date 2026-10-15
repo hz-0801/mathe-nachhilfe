@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–g; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–h; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
      Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
      Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
@@ -1170,6 +1170,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Formel und Ansatz mit Wert, kein Satz; in die Sammelmappe kommen
   keine Lösungen, sie gehen nur mit der Bestellung (Claude).
   Ergänzt gemeinsam.md „Lösungen“. Umsetzung in Schritt C.
+- 16.10.2026 (h): „Gerade und Parabel“ nur noch am Ende von
+  Quadratische Gleichung (Lehrer, Weg A; Chat Durchsicht, PA10;
+  ersetzt 13.10. Weg C „auf beiden Blättern“). Warum: Neu ist im
+  gemischten Teil nur „Schnittpunkte Gerade–Parabel“, und das braucht
+  die pq-Formel; alles Übrige (Gerade zeichnen, Punktprobe) üben die
+  Stufen davor. Auf Lineare kommen die Zeichen- und Punktprobe-Teile
+  der gemischten Originale gekürzt in ihre Stufen (’26 · 5a, ’23 · 4a
+  unter Graph zeichnen); Lineare endet mit „Gleichung aus Text“. Ob
+  Lineare danach noch geteilt wird, zeigt die Seitenzahl nach dem
+  Neusatz. Ändert pruefung.md „Gemischt als letzter Abschnitt auf
+  beiden Blättern“. Umsetzung in Schritt C.
 - 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder
