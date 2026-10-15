@@ -228,10 +228,8 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–f; Antworten
-     aufgabenbank bau/durchsicht/pg10–90.json. Offen dazu: Lösungsblatt-Gespräch auch mit
-     Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
-     Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“). Noch nicht beim Lehrer: Bauauftrag
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–g; Antworten
+     aufgabenbank bau/durchsicht/pg10–90.json. Noch nicht beim Lehrer: Bauauftrag
      Bestell-Chat (sechs Lücken), Blatt „Stimmt das? Begründe.“.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
@@ -1140,6 +1138,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Prüfungsaufgaben“ auf dem Blatt. Grenze: nur solange das Blatt
   zwei Seiten hält und mit der schwersten echten endet; sonst
   bleibt das Mehr (r). Umsetzung in Schritt C.
+- 16.10.2026 (g): Lösungsblatt (Lehrer, Weg A mit zwei Spalten;
+  Chat Durchsicht, PG10, PG40). Warum: Die Lösung soll sich auf einen
+  Blick vom Aufgabenblatt unterscheiden und knapp sein; der Lehrer
+  prüft schnell. Beispiel: Kopf mit kräftigem Strich „Lösungen ·
+  Winkel aus Winkeln“, keine Stufenzeile, keine Punkte, Stufennamen
+  klein grau als Zwischenzeile, Schrift eine Stufe kleiner; links
+  das Ergebnis fett, rechts je Handgriff eine Zeile untereinander
+  (Gleichheitszeichen untereinander), etwa „α = β ⇒ BC = 7 cm“ /
+  „γ = 180° − 2 · 65° = 50°“. Grenze: rechts nicht viel mehr als
+  Formel und Ansatz mit Wert, kein Satz; in die Sammelmappe kommen
+  keine Lösungen, sie gehen nur mit der Bestellung (Claude).
+  Ergänzt gemeinsam.md „Lösungen“. Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
