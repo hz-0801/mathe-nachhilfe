@@ -940,6 +940,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Kommentar als Ausschnitt gezeigt (aufgabenbank
   werkzeuge/kommentare.py, durchsicht.py; global.md). Umsetzung in
   Schritt C.
+- 15.10.2026 (m): Materialablage (Lehrer, Weg A): Bücher, Scans,
+  Originalhefte in Google Drive „Mathe“ (nur Mathe; Lehrer legt
+  ab), Zugriff über Drive für Desktop gespiegelt und die
+  Verbindung zum Rechner; nicht OneDrive, nicht Repo. Formel-
+  sammlungen neu gesetzt (Weg B), erst Duden. Einzelheiten
+  anweisungen/wege.md „Ablage der Materialien“.
 
 ## 11 Register der Entscheidungen
 
