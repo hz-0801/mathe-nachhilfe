@@ -82,7 +82,7 @@ druckt die Jahre.
 - **Bank:** prozentrechnung-e2-k3-s5 prozentrechnung-e2-k3-s6 prozentrechnung-e2-k3-s7 prozentrechnung-e2-k3-s9 prozentrechnung-e2-k5-s4
 - **Verwechselbar:** Prozentwert | Grundwert | Erhöhung und Veränderung in Prozent
 - **Zuschnitt:** Prozent
-  - Prozentsatz [2023-OS-K6a 2023-OS-K6b 2025-OS-K4b 2025-OS-K6b] neben [2023-OS-K5c]
+  - Prozentsatz [2023-OS-K6a 2023-OS-K6b 2025-OS-K4b 2025-OS-K6b]
 - **Durchsicht 13.10.:** Anzeigename mit „gesucht“; im Anstoß „Eine sichere Zahl zuerst:“ gestrichen (Satz über das Blatt); Anstoß bleibt – steht für sich, ein Fall, Teil und Ganzes sind der Fehler dahinter.
 
 ### Grundwert
