@@ -625,7 +625,7 @@ Graphen ≈ 25 min je Blatt, nicht 10.
   nach Absprache mit dem Lehrer: 1 Duden S. 22–23 nachscannen
   (Lehrer; Scans „duden 1.pdf“ Vorsatz–S. 21, „duden 2.pdf“ S. 24–43; fehlen S. 22–23); 2 Abschrift gegen
   Scan abgleichen (Skript + Urteil nur bei Abweichung); 3 Figuren
-  (140; Weg A ausschneiden oder B neu zeichnen – offen); 4 Paetec
+  (140; neu zeichnen, Lehrer 15.10. Weg B, § 10 n); 4 Paetec
   ebenso (Werkzeug an Tabellenköpfe anpassen); 5 fertige PDFs nach
   Drive Mathe/Bücher. Nur Mathe-Auszug, Unwichtiges weglassen
   (Lehrer 15.10.; Claude: Tabellen S. 40–43 Quadratzahlen/Wurzeln
@@ -965,6 +965,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Verbindung zum Rechner; nicht OneDrive, nicht Repo. Formel-
   sammlungen neu gesetzt (Weg B), erst Duden. Einzelheiten
   anweisungen/wege.md „Ablage der Materialien“.
+- 15.10.2026 (n): Figuren der Tafelwerke (Lehrer, Weg B): neu
+  gezeichnet im Stil der Blätter (Vorlage Figurbeschreibung in der
+  json und Scan), nicht aus den Fotos ausgeschnitten – die Kästen
+  sollen auf Blätter passen. Gilt für Duden und Paetec. Erst Probe
+  Duden S. 19 (12 Figuren), dann die übrigen 128.
 
 ## 11 Register der Entscheidungen
 
