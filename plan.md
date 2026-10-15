@@ -261,6 +261,17 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    aufstellen, wie ein Buch-PDF entsteht (Zweck, Auszug, Figuren,
    Abgleich, Kästen für Blätter, Ablage), dann Duden nach dem
    Fahrplan in § 9, dann Paetec.]
+   [15./16.10. nachts erledigt (Chat Bau): Duden und Paetec gesetzt,
+   Figuren als Ausschnitt aus dem Original, Titelbild, „← zurück“;
+   Jesse (Cornelsen Fundamente 10) durchsuchbar mit Sprungmarken per
+   Skript (aufgabenbank-privat werkzeuge/buch-durchsuchbar.py,
+   buch-sprungmarken.py). Regeln § 10 (16.10. h).
+   Jetzt Bau: 1. Lehrer begutachtet die drei Buch-PDFs (Tafelwerke
+   mit „← zurück“ liegen in Drive noch ohne; Jesse noch nicht in
+   Drive), dann ablegen bzw. ersetzen. 2. Die vier Fragen aus
+   aufgabenbank bau/befunde-M5.md vorlegen (zurückgestellt bis
+   16.10.). 3. Übrige Scans per Skript wie Jesse, nur nach
+   Absprache.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -1158,6 +1169,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Formel und Ansatz mit Wert, kein Satz; in die Sammelmappe kommen
   keine Lösungen, sie gehen nur mit der Bestellung (Claude).
   Ergänzt gemeinsam.md „Lösungen“. Umsetzung in Schritt C.
+- 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
+  Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
+  mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder
+  Seite „← zurück“; Dateiname kurz und eindeutig („Tafelwerk Duden
+  Sek I“, „Tafelwerk Paetec Sek I“, „Lehrbuch Cornelsen Fundamente
+  10“); in Drive erst, wenn vollständig und vom Lehrer begutachtet.
+  Quelle im Kasten nach dem Buch („Paetec S. n“), nicht nach der
+  Schule. Paetec S. 2–4 vorerst verzichtet, Tafeln S. 44–51 weg.
+  Schulbücher nur per Skript (geradestellen, Texterkennung,
+  Sprungmarken), ohne Modell. Nutzer: Duden = Marie-Curie-Gymnasium
+  Hohen Neuendorf, Paetec = Regine-Hildebrandt-Schule.
 
 ## 11 Register der Entscheidungen
 

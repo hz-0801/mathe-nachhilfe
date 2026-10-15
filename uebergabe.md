@@ -1,86 +1,79 @@
-# Übergabe verbessereBlaetter – 2026-10-15 abends (Chat „Bau“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-16 nachts (Chat „Bau“, Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-15-nachmittags.md. Nach
+Vorherige Übergabe: archiv/uebergabe-2026-10-15-abends.md. Nach
 plan.md Linie 8 nennt diese Übergabe keinen eigenen nächsten
-Schritt. Entscheidungen nur aus plan.md (§ 10, 15.10. i–m). Zwei
-Chats nebeneinander: „Bau“ (dieser Nachfolger) und „Durchsicht P10“
-(dessen Übergabe: uebergabe-durchsicht.md);
-der Schritt steht in plan.md § 7 (Absatz „15.10. abends erledigt …
-Jetzt Bau, zuerst“) und § 9 (Fahrplan Formelsammlungen).
+Schritt. Entscheidungen nur aus plan.md (§ 10, 15.10. n, n2;
+16.10. h). Zwei Chats nebeneinander: „Bau“ (dieser Nachfolger) und
+„Durchsicht P10“ (eigene Übergabe uebergabe-durchsicht.md).
 
 ## 1 Ziel
 
-P10 fertig und verbessert, Abitur GK aus Daten; dazu die Tafelwerke
-als ansprechende, durchsuchbare PDFs mit Sprungstellen – für den
-Lehrer zum Arbeiten (vergessene Bücher) und für Claude als Anregung,
-die Kästen einzeln für Blätter nutzbar.
+P10 fertig und verbessert, Abitur GK aus Daten; dazu Bücher als
+ansprechende, durchsuchbare PDFs mit Sprungmarken – für den Lehrer
+zum Arbeiten (vergessene Bücher) und für Claude als Anregung.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 (Jetzt Bau), § 9 (Fahrplan Formelsammlungen), § 10
-  (15.10. m Materialablage), § 8 (Messwerte).
-- Tafelwerke: aufgabenbank-privat formelsammlung/duden-sek1.md
-  (Abschrift Duden „Formeln und Werte“, S. 4–39 + Vorsatz) und
-  regine-sek1.md (Paetec Sek I, das Tafelwerk der Regine-Hildebrandt-
-  Schule – kein eigenes Buch „Hildebrandt“). Gesetzt: duden-sek1.pdf
-  (65 S.), duden-sek1.json (265 Kästen), README.md. Werkzeuge:
-  aufgabenbank-privat werkzeuge/formelsammlung-satz.py (xelatex,
-  --kasten <id>), formelsammlung-pruef.py.
+- plan.md § 7 (Absatz „15./16.10. nachts erledigt … Jetzt Bau“),
+  § 9 (Formelsammlungen, Schulbücher), § 10 (16.10. h), § 8.
+- Tafelwerke: aufgabenbank-privat formelsammlung/ – duden-sek1.*,
+  paetec-sek1.* (Abschrift .md, Daten .json, Buch .pdf), figuren/
+  (Rahmen-CSV, Ausschnitte <kurz>-bild/, Umschlag), README.md mit
+  „Regeln für ein Buch-PDF“. Werkzeuge: formelsammlung-satz.py
+  (bricht ab, wenn ein Zeichen in der Schrift fehlt),
+  formelsammlung-pruef.py (Ziel 0 Meldungen), figuren-ausschnitt.py.
+- Schulbücher: werkzeuge/buch-durchsuchbar.py (Fotos → gerade,
+  helle Einzelseiten, ohne Modell), buch-sprungmarken.py (Inhalt,
+  Lesezeichen, „← zurück“), Lauf buch-durchsuchbar-jesse.sh.
 - Scans: Rechner des Lehrers `C:\Users\holge\OneDrive\Desktop\bücher
-  scanns` (Zugriff in diesem Chat gewährt; neuer Chat fragt neu an):
-  „duden 1.pdf“ (24 Fotos, Vorsatz–S. 21), „duden 2.pdf“ (20, S.
-  24–43), „duden 3“ (Nachscan S. 22–23, laut Lehrer da; um 20:45
-  noch nicht im Ordner – nachsehen), „werk 1, regine.pdf“ (Paetec,
-  248 MB). Holen mit device_stage_files (≤ 400 MB, ohne Token).
-- Drive: `C:\Users\holge\Meine Ablage\Mathe` (gespiegelt; Ordner
-  Bücher, Prüfungen, Eingang, _material). Nur fertige Produkte;
-  Regeln in anweisungen/wege.md „Ablage der Materialien“.
-- Abitur GK: 33 Blätter, aufgabenbank bau/pruefung/2026-10-15/abitur/,
-  neusatz-abi.py, mappe-abi.py, abi-zahlen-pruef.py; Befunde
-  bau/befunde-M5.md (Runde 32 Blätter).
+  scanns` (Zugriff je Chat neu anfragen); holen mit
+  device_stage_files (≤ 500 MB je Aufruf, große einzeln).
+- Drive: `C:\Users\holge\Meine Ablage\Mathe\Bücher`; Regeln
+  anweisungen/wege.md „Ablage der Materialien“.
 
 ## 3 Arbeitsstand
 
-- Erledigt 15.10. nachmittags/abends: Bau-Paket Abitur GK (alle 33
-  Blätter aus Daten, Setzer v0.17, Kritiker, Mappe 246 S.),
-  P10-Kleinkram, Duden neu gesetzt (Probe), Drive für Desktop
-  eingerichtet.
-- Offen beim Lehrer, zurückgestellt bis 16.10.: vier Punkte in
-  befunde-M5.md (4 Seiten AA30/AA130, Stufe am Blattende in 7
-  Blättern, Rechenraum, ’26 · A1.3). Am 16.10. erneut vorlegen,
-  sofern der Lehrer nicht selbst darauf kommt.
-- Muster für den Lehrer: AA50, AG40, AS80 (noch nicht angesehen).
+- Erledigt: Duden (60 S.) und Paetec (61 S.) gesetzt, Figuren als
+  Ausschnitt aus dem entzerrten Original, Titelbild, kurze Namen,
+  33 fehlende Zeichen (⊆ ∪ ∩ ∅ …) behoben, „← zurück“. In Drive
+  liegen beide noch ohne „← zurück“ (vor der Regel abgelegt).
+- Jesse = Cornelsen „Fundamente der Mathematik 10, Gymnasium“
+  (Dateien heißen „jesse 9“, Umschlag sagt 10): 256 S., 80 MB,
+  durchsuchbar, Inhalt klickbar (61 Verweise), 14 Lesezeichen,
+  „← zurück“ – dem Lehrer zum Begutachten geschickt, nicht in Drive.
+  Das PDF lag nur im Container dieses Chats; neu erzeugen mit
+  werkzeuge/buch-durchsuchbar-jesse.sh (≈ 15 min, ohne Modell,
+  braucht tesseract-ocr-deu, ocrmypdf, img2pdf, reportlab).
+- Offen beim Lehrer: Begutachtung der drei Buch-PDFs; die vier
+  Fragen aus aufgabenbank bau/befunde-M5.md (am 16.10. vorlegen).
 - Keine Agenten laufen.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 41 % (Anzeige 15.10. ≈ 20:30), Fable 24 %, Reset Mo 18:00.
-  Bau-Paket: Agenten 3,03 Mio, Anzeige 32 → 41 % (Schätzung 3,7;
-  Chat Durchsicht lief parallel). Duden-Satz 0,25 Mio, 18 min.
-- Lehrer: „geht mir zu schnell“ – je Nachricht ein Schritt, alles
-  vor dem Start absprechen, Handgriffe einzeln mit „Holger:“.
-- Drive-Zugang im Chat (Connector) überträgt Dateien als base64:
-  1 MB ≈ 0,4 Mio Token – keine PDFs darüber.
-- Scans sind iPhone-Fotos (schräg, farbig, Schatten): Figuren
-  ausschneiden sähe nach Foto aus.
+- Woche 43 % (Anzeige vor Paetec S. 28–43), Fable 24 %, Reset Mo
+  18:00. Agenten dieses Chats: Probe S. 19 0,16 Mio; Duden
+  Ausschnitte 0,25; Paetec + Titelbild 0,27; Paetec S. 28–43 0,20
+  (alle Opus, je unter oder an der Schätzung). Schulbuch per
+  Skript: fast kein Token.
+- Lehrer: „geht mir zu schnell“, „bevormunde ich nicht“ – keine
+  Uhrzeit-Vorgaben für ihn; teure Wege nicht ohne günstigere
+  Alternative vorschlagen.
+- Duden und Paetec sind beide Duden-Verlag; „Duden“ allein trennt
+  nicht (Lehrer 15.10., § 10 t).
 - Lehrer arbeitet in UTC+2.
 
 ## 5 Offen und Verworfenes
 
-- Figuren Duden (140): Weg A ausschneiden oder B neu zeichnen – offen,
-  Teil der Regeln für Buch-PDFs.
-- Inhaltszeile Duden: „Duden S. n“ steht vor den Punkten statt
-  dahinter – beim nächsten Satz richten.
-- Übrige Scans (Klasse 10, Jesse 9, Stochastik Stark/Jung, AH 6,
-  Z und G 7; „stochastik stark2.pdf“ 0 Byte, „10. 1“ ohne Endung)
-  und Originalhefte am Stück mit Sprungmarken nach Drive
-  Mathe/Prüfungen: vielleicht So 18.10., nur nach Absprache.
-- Setzer p_ergebnis (nur letzte Gleichung als Kontrollwert): plan.md
-  § 9.
-- Verworfen: Materialien im Repo oder in OneDrive; Drive-Zugang im
-  Chat für PDFs (Kosten).
+- Paetec S. 2–4 (Abkürzungen, Symbole): vorerst verzichtet.
+- Schwache Ausschnitte: Paetec S. 24 (Kritzelei), S. 33/34/36
+  (Fotorand); Duden S. 24 (Formelreste), S. 5 (blass).
+- Übrige Scans (Klasse 10, Stochastik Stark/Jung, AH 6, Z und G 7;
+  „stochastik stark2.pdf“ 0 Byte, „10. 1“ ohne Endung): per Skript
+  wie Jesse, nur nach Absprache.
+- Feld „Regine: S. n“ in den P10-Gliederungen → „Paetec“ (§ 9).
+- Verworfen: Figuren der Tafelwerke neu zeichnen (zu teuer; nur
+  auf Bestellung eines Blatts), ganze Scanseite ins PDF.
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 (Absatz „Jetzt Bau, zuerst“) und § 9 (Fahrplan
-Formelsammlungen).
+plan.md § 7 (Absatz „15./16.10. nachts erledigt … Jetzt Bau“).
