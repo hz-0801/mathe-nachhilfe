@@ -84,7 +84,9 @@ def muster_text(maps):
 
 
 def _zeile(t):
-    """„<Zeile> [ids] neben [ids]“ -> (zeile, [ids], [neben])."""
+    """„<Zeile> [ids] neben [ids]  ‹Erscheinungsform›“ -> (zeile, [ids], [neben]); die Erscheinungsform in ‹…›
+    ist eine Notiz (Abitur, 15.10.2026: Zeile = Stufe, ‹…› = frühere feinere Zeile) und wird nicht gelesen."""
+    t = re.sub(r'\s*‹[^›]*›\s*$', '', t)
     m = re.match(r'^(.*?)\s*\[([^\]]*)\](?:\s*neben\s*\[([^\]]*)\])?\s*$', t)
     if not m:
         raise ValueError(f'Zuschnitt-Zeile unlesbar: {t}')
@@ -97,6 +99,13 @@ def lies(pfad):
          'gebiet': '', 'name': '', 'folge': 0, 'skript': True, 'bank': [], 'katalog': [],
          'stufen': [], 'plaetze': [], 'fokus': {}}
     teile = re.split(r'^(?=## )', txt, flags=re.M)
+    # Einheiten (Blätter) aus den Kopfpaaren „Kennung: <Einheit> = AA10“, „Stufen: <Einheit> = a · b“ (Abitur, 15.10.2026)
+    G['einheiten'] = {}
+    for k, w in re.findall(r'^(Kennung|Ordner|Anzeigenamen|Stufen):\s*(.+)$', teile[0], re.M):
+        for teil in w.split(' | ') if k != 'Stufen' else [w]:
+            if '=' in teil:
+                e, v = (x.strip() for x in teil.rsplit('=', 1))
+                G['einheiten'].setdefault(e, {})[k.lower()] = [s.strip() for s in v.split(' · ')] if k == 'Stufen' else v
     for z in teile[0].splitlines():
         m = re.match(r'(Prüfung|Kapitel|Gebiet|Name|Folge|Bank|Katalog|Skript):\s*(.*)$', z)
         if not m:

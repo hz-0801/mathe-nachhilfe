@@ -202,7 +202,9 @@ Zeitraum. Jede Ebene, die sich aufteilt, endet mit „Alles“ (04.10.).
   Binomialverteilung · Erwartungswert (04.10.) · Testen (nur LK).
   Eine Quelle: KNOPF in werkzeuge/handreichung-abi.py.
 - Was nicht vorliegt, gibt es nicht (Berlin 2026, LK Berlin 2019–21).
-- Zuschnitt Abitur GK: abitur/skript-zuschnitt-abi-gk.md (Entwurf).
+- Zuschnitt Abitur GK: abitur/gliederung/*.md (33 Blätter AA, AG, AS;
+  geprüft 15.10., abitur/befund-zuschnitt-abi-gk-2026-10-15.md);
+  Übersicht abitur/skript-zuschnitt-abi-gk.md.
 - Zurückgestellt bis zum Abitur: Abitur-Skript „Lernblatt mit
   Sie-Form“ (03.10.) gegen P10-Linie 04.10. (plan.md Linie 4).
 

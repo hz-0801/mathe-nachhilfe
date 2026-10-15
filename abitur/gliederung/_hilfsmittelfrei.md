@@ -8,10 +8,11 @@ Name: –
 Folge: 10
 Skript: nein
 
-Teilaufgaben ohne Skript-Kapitel (nur Zuschnitt). Keine Bank, keine Zuordnung.
+Hilfsmittelfreier Teil wie der P10-Basisteil (Zuschnitt 15.10.2026): eigene Zettel, Teil A je Jahr ganz und
+gemischt (Original); jede A-Teilaufgabe hat ihren Hauptplatz auf einem Blatt der Gebiete und steht dort zusätzlich
+als unterste Höhe ihrer Stufe. Seit 15.10. hat jede A-Teilaufgabe 2022–2026 einen Blattplatz; „Ergebnisse und
+Anordnungen aufzählen“ (drei Teilaufgaben) ist Stufe „Ergebnisse aufzählen“ auf AS20 Ziehen ohne Zurücklegen.
+Keine Bank, keine Zuordnung, keine Stufen.
 
 ## Stufen
 
-### Ergebnisse und Anordnungen aufzählen: aufzählen und zählen
-- **Zuschnitt:** Ergebnisse und Anordnungen aufzählen
-  - aufzählen und zählen [2024-bebb-gk-A1.3a 2024-bebb-gk-A1.3b 2026-bb-gk-A1.3b]

@@ -5,14 +5,25 @@ Je Kapitel eine Datei, Format wie `msa/gliederung/README.md` (Prüfung: abitur; 
 `abitur/zuordnung-<kapitel>.csv` (`werkzeuge/zuordnung.py`) und
 `abitur/skript-zuschnitt-abi-gk.csv` (`werkzeuge/gliederung-sichten.py`).
 
+Einheiten (Blätter) seit 15.10.2026 (Befund `abitur/befund-zuschnitt-abi-gk-2026-10-15.md`): Kopffelder wie P10 –
+`Anzeigenamen`, `Kennung` (AA10 … Analysis, AG10 … Geometrie, AS10 … Stochastik; Platz = Lernfolge über
+Kapitelgrenzen), `Ordner`, `Kurzwort` (ana | geo | stoch) – und zusätzlich `Stufen: <Einheit> = a · b · c`
+(Stufen des Blatts in Lernfolge). Anders als P10: Stufe = Zuschnitt-Zeile (Unterpunkt), nicht der Block `###`;
+ein Block (Handgriffgruppe mit Kern und Bank) gehört mit `**Zuschnitt:**` zu genau einer Einheit, mehrere Blöcke
+können zu einer Einheit gehören, Zeilen gleichen Namens bilden zusammen eine Stufe. Hinter der Zeile steht in
+`‹…›` die frühere feinere Zeile (Erscheinungsform), nur für Menschen; `werkzeuge/gliederung.py` liest sie nicht.
+Punkte (fünf letzte Jahre, plan.md § 10, 15.10. i): Jahre der Teilaufgaben der Stufe (Hauptplatz und neben),
+nur GK BB/BE (2022–2025 bebb-gk, 2026 bb-gk); Leser aufgabenbank `werkzeuge/p10einheiten.py`.
+
 ## Bestellung
 
 Kopffelder für aufgabenbank `werkzeuge/bestellen.py`, Form wie `msa/gliederung/README.md`
-„Bestellung“ (15.10.2026). Blätter, Original neu und Basiszettel gibt es fürs Abitur noch nicht;
+„Bestellung“ (15.10.2026). Blätter, Original neu und Hilfsmittelfrei-Zettel gibt es fürs Abitur noch nicht (Bestellkarte und Handreichung GK seit 15.10.);
 was fehlt, sagt die Zeile „Fehlt“. Pfade mit „mn “ liegen in mathe-nachhilfe.
 
 - Anzeige: Abitur
 - Sorte: A = GK | L = LK
 - Schülerliste: Abitur
 - Fehlt: Blätter und Original neu gibt es fürs Abitur noch nicht; die Originale liegen beim Lehrer (hefte/abi/, abitur/abi-quellen.md § 8)
-- Handreichung: mn abitur/handreichung-abi-{kurs}-2027.pdf
+- Karte: bau/pruefung/{datum}/abitur/bestellkarte-abi-{kurs}.pdf
+- Handreichung: bau/pruefung/{datum}/abitur/handreichung-abi-{kurs}.pdf
