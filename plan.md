@@ -897,6 +897,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Umbau; fehlt ein Lernblatt, wird es gebaut (Linie 3), ein
   Prüfungsblatt nicht. Kennung klein grau auf der Karte; Abschnitte
   als Sprungziele; Handy und PC.
+- 15.10.2026 (l): Durchsicht P10, Blatt Winkel (Lehrer, Chat
+  Durchsicht): Nr. 5 (gleichschenklig/gleichseitig unterscheiden)
+  fällt weg – das Prinzip steckt im Original, kein Gewinn.
+  Abschnitte tragen Buchstaben A, B, C (Stufenzeile, Blatt, Lösung,
+  Karte, Bestellung „PG10 B mehr“), Aufgabennummern laufen durch;
+  Ankreuz-Optionen nur Kästchen ohne Buchstaben, die Lösung nennt
+  den Wert (Weg A; ersetzt gemeinsam.md „Buchstaben vor Optionen“
+  vom 11.10.). Kommentare im PDF werden mit Stelle gelesen und je
+  Kommentar als Ausschnitt gezeigt (aufgabenbank
+  werkzeuge/kommentare.py, durchsicht.py; global.md). Umsetzung in
+  Schritt C.
 
 ## 11 Register der Entscheidungen
 
