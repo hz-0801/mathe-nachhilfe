@@ -1033,8 +1033,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   tan, Scheitelpunktform), soll der Schüler so sehen, wie er sie in
   der Prüfung aufschlägt – Formel und Fundort zugleich. Beispiel:
   Duden-Kasten „Rechtwinkliges Dreieck“ (S. 21) oben unter dem Titel
-  des Blatts Pythagoras, darunter klein „Duden S. 21“ (das Buch
-  beim Namen, nicht „Tafelwerk“ – Lehrer 15.10.); er
+  des Blatts Pythagoras, darunter klein der Titel vom Umschlag mit
+  Seite: „Formeln und Werte S. 21“ bzw. „Formeln Tabellen
+  Wissenswertes S. …“ (beide Bücher sind von Duden, „Duden“ trennt
+  nicht – Lehrer 15.10.); er
   ersetzt dort die Formelsammlungs-Zeile (15.10. o). Grenze: nur
   diese Formeln, nur aus dem Tafelwerk des Schülers (Schülerliste;
   ohne Namen Duden); Paetec erst, wenn dessen Kästen gesetzt sind.
@@ -1047,6 +1049,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   behält „Gleichung aufstellen“. Erkennen-Aufgabe mit gesuchten
   Seiten x, y, z und kurzer Frage (Tendenz „Erkennen-Aufgaben
   knapp“, aufgabenbank bau/befunde-M3.md). Umsetzung in Schritt C.
+- 15.10.2026 (v): Name „sin, cos, tan“ bleibt (Lehrer, Weg A);
+  eine Bestellung „Trigonometrie“ liefert dieses Blatt mit der Zeile
+  „Sinussatz (nicht rechtwinklig): PG70“ (werkzeuge/bestellen.py).
+  Umsetzung in Schritt C.
 
 ## 11 Register der Entscheidungen
 
