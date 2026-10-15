@@ -228,13 +228,12 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: alle 47 Kommentare durchgesehen (PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–c; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–d; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Offen dazu: Lösungsblatt-Gespräch auch mit
      Schriftgröße und „untereinander statt zwei Spalten“ (PG40). Offen:
      Layout Lösungsblatt (Lehrer: „müssen wir noch mal reden“), Form
      der Begriffs-Einzeiler (Basiswinkel, Symmetrieachse – zwei
-     Blätter, damit Regel), Name PG10 „Winkel aus Winkeln“
-     (Vorschlag), Regel „Mehr aufs Blatt, solange zwei Seiten“
+     Blätter, damit Regel), Regel „Mehr aufs Blatt, solange zwei Seiten“
      (Vorschlag, Lehrer: „mach eine“).]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
@@ -1113,6 +1112,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Volumenformel. Die Aufstell-Aufgabe mit Seitenfrage wandert in die
   erste Stufe. Ändert pruefung.md § 2 (Stufen Volumen). Umsetzung in
   Schritt C.
+- 16.10.2026 (d): Blatt PG10 heißt „Winkel aus Winkeln“ (Lehrer,
+  Weg A; Chat Durchsicht). Warum: „Winkel“ allein trennt nicht von
+  sin, cos, tan; der Name sagt, was gegeben ist und was der Schüler
+  tut. Stufen bleiben. Ändert pruefung.md § 2 (Blattname Winkel).
+  Umsetzung in Schritt C (Gliederung, Karte, Übersicht).
 
 ## 11 Register der Entscheidungen
 
