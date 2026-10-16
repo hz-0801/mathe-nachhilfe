@@ -54,7 +54,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Eine Säule hat eine quadratische Grundfläche. Stelle die Formel V = a² · h nach a um.
 - **Schülerfrage-Fälle:** a = → $a = \sqrt{\frac{V}{h}}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** erst durch h teilen: a² = V/h, dann die Wurzel ziehen (ebenso r beim Zylinder, nur mit π)
 - **Schülerfrage-Skizze:** \quader{0.7}{0.7}{1.6}{a}{a}{h}
 - **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
 - **Originale:** 2022-OS-K2d 2023-OS-K5d
@@ -68,7 +67,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Du schneidest den Mantel eines Zylinders gerade auf und rollst ihn flach aus. Welche Figur entsteht, und wie lang sind ihre Seiten?
 - **Schülerfrage-Fälle:** Zylinder mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Rechteck; eine Seite ist der Kreisumfang 2 · π · r, die andere die Höhe h; Mantel = 2 · π · r · h
 - **Schülerfrage-Skizze:** \zylinder{0.6}{1.5}{r}{h}
 - **Kern:** nein – 2 echte (2018, 2026)
 - **Originale:** 2026-FOR-K2b 2018-OS-K6b
@@ -83,7 +81,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Wie oft so groß wird das Volumen? Schätze, ohne zu rechnen.
 - **Schülerfrage-Fälle:** Zylinder, die Höhe wird verdoppelt = 2 | Zylinder, der Radius wird verdoppelt = 4 | Zylinder statt Kegel, Radius und Höhe gleich = 3
 - **Schülerfrage-Form:** linie:-mal so groß
-- **Schülerfrage-Weg:** h steht einfach; r steht im Quadrat; der Kegel ist ein Drittel des Zylinders
 - **Kern:** nein – 2 echte (2021, 2026), Niveau III
 - **Originale:** 2026-FOR-K2d 2021-OS-K4b
 - **Bank:** koerper-e4-k2-s14 koerper-e4-k3-s2 pyramide-kegel-kugel-e2-k2-s14 pyramide-kegel-kugel-e2-k2-s16 pyramide-kegel-kugel-e3-k1-s15 pyramide-kegel-kugel-e1-k5-s14 pyramide-kegel-kugel-e2-k3-s2
@@ -98,7 +95,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Stell es dir im Kopf vor und antworte, ohne zu rechnen.
 - **Schülerfrage-Fälle:** Drei Quadrate hängen in einer Reihe aneinander; du faltest sie zu einem Teil eines Würfels. Wo liegt dann das dritte Quadrat, vom ersten aus gesehen? = gegenüber | Du rollst ein Rechteck zum Mantel eines Zylinders mit dem Durchmesser d. Wie lang ist die Seite, die einmal um den Kreis läuft? = π · d, gut dreimal so lang wie d
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** zwei Flächen mit genau einer dazwischen liegen sich gegenüber; die lange Seite des Mantels ist der Kreisumfang π · d
 - **Durchsicht 13.10.:** Runde A: „Welche Form haben die Flächen …“ setzte den Körper der Aufgabe voraus und unterschied die drei Becher-Netze nicht (alle haben einen Kreis); neu zwei Fälle für sich, je ein Gedanke: Gegenfläche im Würfelnetz (’16 · 1j), Mantel so lang wie der Kreisumfang (’22 · 2a).
 
 ### Netz mit Maßen skizzieren
@@ -110,7 +106,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Ein Prisma hat als Grundfläche ein gleichseitiges Dreieck mit 2 cm Seitenlänge und ist 5 cm hoch. Im Netz hängt ein Rechteck des Mantels an einer Seite des Dreiecks.
 - **Schülerfrage-Fälle:** Wie lang ist die Seite des Rechtecks, die am Dreieck anliegt, und wie lang die andere? = 2 cm und 5 cm
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Kanten, die nach dem Falten aneinanderliegen, sind gleich lang; die andere Seite ist die Höhe des Prismas
 - **Durchsicht 13.10.:** Runde A: Die Frage „Welche Kanten liegen nach dem Falten aneinander? Die sind gleich lang.“ gab die Antwort vor und setzte ein Netz voraus; neu ein Fall für sich an einem kleinen Prisma (anliegende Kante gleich lang, andere Seite = Höhe), der Gedanke von ’19 · 4a (a = Rechteckbreite, nicht 1,50 m).
 
 ### Körper im Schrägbild skizzieren
@@ -123,7 +118,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Ein Kegel mit dem Radius 3 cm und der Höhe 8 cm steht aufrecht in einer Schachtel.
 - **Schülerfrage-Fälle:** Wie breit muss die Schachtel mindestens sein? = 6 cm, so breit wie der Durchmesser | Wie zeichnest du den Grundkreis im Schrägbild? = als flache Ellipse
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** die Schachtel muss den ganzen Grundkreis fassen, also den Durchmesser 2 · r; ein liegender Kreis erscheint im Schrägbild flach gedrückt
 - **Durchsicht 13.10.:** Runde A: „Was liegt vorn in wahrer Größe …“ übte eine Zeichenregel, die ’24 · 4b nicht prüft; neu zwei Fälle für sich: Schachtel so breit wie der Durchmesser, nicht der Radius (Falle 26 cm in ’24 · 4b), Grundkreis als Ellipse.
 
 ## Plätze der Originale

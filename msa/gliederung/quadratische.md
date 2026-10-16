@@ -84,7 +84,7 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Schülerfrage:** Eine nach oben geöffnete Normalparabel wird verschoben. Schreib ihre Gleichung in Scheitelpunktform.
 - **Schülerfrage-Fälle:** 2 nach links und 1 nach oben → $y = (x + 2)^2 + 1$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Scheitel S(−2 | 1); in (x − d)² steht d mit dem anderen Vorzeichen: nach links (d = −2) gibt x + 2; e = 1 steht hinten; Probe: x = −2 gibt y = 1
+- **Schülerfrage-Weg:** S(−2 | 1)
 - **Kern:** ja – 8 echte 2015–2025: aus dem Graphen (2023, 2025, erst Scheitel ablesen), mit Verschieben und Spiegeln (2015–2020); Bank-Kette Scheitelpunktform mit Grundfall
 - **Originale:** 2025-OS-K5b 2023-OS-K4b 2016-OS-B1g 2018-OS-K5c 2020-OS-K3d 2017-OS-K5e 2015-OS-B1i 2018-OS-K5d
 - **Bank:** quadratische-funktionen-e2-k1-s6(i) quadratische-funktionen-e2-k1-s7(i) quadratische-funktionen-e2-k1-s8(i) quadratische-funktionen-e2-k1-s9(i) quadratische-funktionen-e2-k1-s10(i) quadratische-funktionen-e2-k1-s11(i) quadratische-funktionen-e3-k1-s7(i) quadratische-funktionen-e3-k1-s11(i) quadratische-funktionen-e2-k1-s16 quadratische-funktionen-e2-k1-s17 quadratische-funktionen-e2-k1-s18 quadratische-funktionen-e3-k1-s12
@@ -98,7 +98,6 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Schülerfrage:** Wohin ist die Parabel geöffnet, und wo liegt ihr Scheitel? Rechne nicht.
 - **Schülerfrage-Fälle:** $y = (x + 1)^2 + 2$ → nach oben, Scheitel bei x = −1, y = 2 | $y = -(x + 1)^2 + 2$ → nach unten, Scheitel bei x = −1, y = 2
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Das Minus vor der Klammer öffnet nach unten; Scheitel aus d und e. Gleicher Scheitel, eine nach oben, eine nach unten: Die Parabeln berühren sich nur im Scheitel
 - **Kern:** nein – 2 echte (2014, 2026), Niveau III, keine eigene Kette
 - **Originale:** 2026-FOR-K5d 2014-OS-K7b
 - **Bank:** quadratische-funktionen-e2-k1-s12(i) quadratische-funktionen-e4-k1-s15(i) quadratische-funktionen-e4-k1-s2(i)
@@ -111,7 +110,6 @@ Stufe kam fast jedes Jahr (Scheitelpunkt ablesen 6 Hauptplätze, Nullstellen 3 u
 - **Schülerfrage:** Welche Gleichung löst du mit der p-q-Formel? Bring sie auf die Form $x^2 + px + q = 0$. Rechne nicht weiter.
 - **Schülerfrage-Fälle:** Nullstellen von $p(x) = x^2 - 6x + 5$ → $x^2 - 6x + 5 = 0$ | Nullstellen von $y = 3x^2 + 12x - 15$ → $x^2 + 4x - 5 = 0$ (durch 3 geteilt)
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Nullstelle heißt y = 0; vor x² muss eine 1 stehen, sonst durch die Zahl davor teilen
 - **Kern:** ja – 3 echte (2017, 2020, 2025), Bank-Kette Nullstellen und Schnittpunkte mit Grundfall, p-q-Formel trägt auch Gleichsetzen
 - **Originale:** 2025-OS-K5c 2020-OS-K3e 2017-OS-K5d
 - **Bank:** quadratische-funktionen-e4-k1-s1(i) quadratische-funktionen-e4-k1-s3(i) quadratische-funktionen-e4-k1-s4(i) quadratische-funktionen-e4-k1-s5(i) quadratische-funktionen-e4-k1-s6(i) quadratische-funktionen-e4-k1-s7(i) quadratische-funktionen-e4-k1-s21 quadratische-gleichungen-e3-k3-s19[2025-OS-K5c,2020-OS-K3e,2017-OS-K5d]

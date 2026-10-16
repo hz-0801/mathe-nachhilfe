@@ -80,7 +80,6 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 - **Schülerfrage:** Stelle die Formel u = π · d nach d um.
 - **Schülerfrage-Fälle:** d = → $d = \frac{u}{\pi}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** π steht mal d, also rückwärts durch π teilen: d = u : π (ebenso a = A : b beim Rechteck)
 - **Kern:** ja – 6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette
 - **Originale:** 2023-OS-B1c 2020-OS-B1d 2018-OS-B1f 2020-OS-K7b 2014-OS-K5c 2014-OS-K5d
 - **Bank:** flaechen-e1-k2-s5(i) flaechen-e1-k2-s6(i) flaechen-e1-k2-s7(i) flaechen-e2-k1-s5(i) flaechen-e3-k1-s5(i) flaechen-e4-k1-s3(i) flaechen-e4-k3-s1(i) kreis-e1-k2-s4(i) kreis-e1-k2-s5(i) kreis-e2-k1-s6(i) flaechen-e1-k2-s9 flaechen-e3-k1-s7 flaechen-e4-k1-s6
@@ -92,7 +91,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 - **Schülerfrage:** Teil und Ganzes am Kreis: Ein Viertel des Kreises ist grau. Wie groß ist sein Winkel, und wie viel Prozent sind grau?
 - **Schülerfrage-Fälle:** Winkel und Prozent → 90° von 360° = 25 %
 - **Schülerfrage-Form:** antwort:Winkel|°;Prozent|%
-- **Schülerfrage-Weg:** das Ganze ist der volle Kreis (360°), der Teil der graue Winkel; 90 : 360 = 1 : 4 = 25 %
+- **Schülerfrage-Weg:** 90°/360° = 1/4
 - **Kern:** nein – 2 echte: Kreissektor-Anteil 145 : 360 (auf dem Blatt 144° = 40 %, im Kopf; Basisteil 2025, Niveau I) und Verschnitt (2023, Sternchen, Niveau III); eigener erster Schritt: Teil und Ganzes erkennen, dann teilen
 - **Originale:** 2025-OS-B1e 2023-OS-K5c
 - **Bank:** kreis-e3-k1-s11[2025-OS-B1e]

@@ -59,7 +59,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Schülerfrage:** Ein Los gewinnt mit der Wahrscheinlichkeit $\frac{3}{8}$. Mit welcher Wahrscheinlichkeit ist es eine Niete? Rechne im Kopf.
 - **Schülerfrage-Fälle:** P(Niete) → $\frac{5}{8}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Gewinn und Niete ergeben zusammen 1: 1 − 3/8 = 5/8; so ergänzt du an jeder Verzweigung den fehlenden Ast
+- **Schülerfrage-Weg:** 3/8 + P(Niete) = 1
 - **Kern:** ja – 6 echte 2014–2026 (Niveau I/II), Bank-Kette Mit Zurücklegen mit Grundfall (Baum zeichnen)
 - **Originale:** 2024-OS-K5b 2026-FOR-K6b 2020-OS-K6c 2019-OS-K6b 2015-OS-K7d 2014-OS-K6b
 - **Bank:** wahrscheinlichkeit-e3-k3-s1 wahrscheinlichkeit-e3-k3-s2 wahrscheinlichkeit-e3-k3-s11 wahrscheinlichkeit-e3-k4-s3 wahrscheinlichkeit-e4-k1-s2 wahrscheinlichkeit-e4-k1-s6
@@ -72,7 +72,6 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Schülerfrage:** Ein Glücksrad mit roten und blauen Feldern wird zweimal gedreht. Rechnest du mit den Wahrscheinlichkeiten mal oder plus? Rechne nicht.
 - **Schülerfrage-Fälle:** erst rot, dann blau → mal | einmal rot und einmal blau, egal in welcher Folge → je Pfad mal, dann plus
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Pfadregel: die Äste eines Pfades multiplizieren; Summenregel: die Pfade eines Ereignisses addieren
 - **Kern:** ja – 5 echte (2014, 2020, 2025 zweimal, 2026 über das Gegenereignis), Bank-Kette Mit Zurücklegen; 2026-FOR-K6c (Gegenereignis, ein Original) als schwerste Aufgabe der Stufe
 - **Originale:** 2025-OS-K3b 2025-OS-K3c 2026-FOR-K6c 2020-OS-K6b 2014-OS-K6c
 - **Bank:** wahrscheinlichkeit-e3-k3-s3 wahrscheinlichkeit-e3-k3-s4 wahrscheinlichkeit-e3-k3-s5 wahrscheinlichkeit-e3-k3-s8 wahrscheinlichkeit-e3-k3-s9 wahrscheinlichkeit-e3-k4-s4 wahrscheinlichkeit-e3-k3-s6 wahrscheinlichkeit-e3-k3-s7 wahrscheinlichkeit-e2-k3-s7
@@ -86,7 +85,6 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Schülerfrage:** In einer Dose liegen 5 Kugeln, 2 davon rot. Du ziehst eine blaue und legst sie nicht zurück. Was liegt jetzt noch in der Dose?
 - **Schülerfrage-Fälle:** nach dem Ziehen → 4 Kugeln, davon 2 rote
 - **Schülerfrage-Form:** antwort:Kugeln|;davon rote|
-- **Schülerfrage-Weg:** es liegt eine Kugel weniger da, die roten sind alle noch drin; der nächste Ast „rot“ ist 2/4, nicht 2/5
 - **Kern:** ja – 3 echte (2018, 2019, 2024, Niveau II), Bank-Kette Ohne Zurücklegen mit Grundfall
 - **Originale:** 2024-OS-K5c 2019-OS-K6c 2018-OS-K7c
 - **Bank:** wahrscheinlichkeit-e4-k1-s1 wahrscheinlichkeit-e4-k1-s3 wahrscheinlichkeit-e4-k1-s4 wahrscheinlichkeit-e4-k1-s5 wahrscheinlichkeit-e4-k1-s7 wahrscheinlichkeit-e4-k1-s9 wahrscheinlichkeit-e4-k1-s10 wahrscheinlichkeit-e4-k2-s4
@@ -100,7 +98,7 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 - **Schülerfrage:** Zwei Glücksräder mit je 4 gleich großen Feldern werden gedreht. Die Wahrscheinlichkeit, dass beide auf Rot stehen bleiben, soll $\frac{3}{16}$ sein. Wie viele rote Felder bekommt jedes Rad?
 - **Schülerfrage-Fälle:** rote Felder → 3 und 1
 - **Schülerfrage-Form:** antwort:erstes Rad|;zweites Rad|
-- **Schülerfrage-Weg:** 16 = 4 · 4, also 3/16 = 3/4 · 1/4: ein Rad drei rote Felder, das andere eines
+- **Schülerfrage-Weg:** 3/16 = 3/4 · 1/4
 - **Kern:** nein – 4 echte (2018, 2019, 2025, 2026), aber Niveau II/III und nur Sprossen ohne eigene Kette mit Grundfall
 - **Originale:** 2025-OS-K3d 2026-FOR-K6d 2019-OS-B1g 2018-OS-B1j
 - **Bank:** wahrscheinlichkeit-e2-k3-s9 wahrscheinlichkeit-e3-k3-s10 wahrscheinlichkeit-e2-k3-s8

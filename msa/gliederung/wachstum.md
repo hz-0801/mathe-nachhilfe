@@ -58,7 +58,6 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 - **Schülerfrage:** Eine Größe wächst in einem Jahr von 200 auf 210. Mit welcher Zahl wurde sie multipliziert, und um wie viel Prozent ist sie gewachsen?
 - **Schülerfrage-Fälle:** von 200 auf 210 → 210 : 200 = 1,05; 5 %
 - **Schülerfrage-Form:** antwort:Faktor|;Wachstum|%
-- **Schülerfrage-Weg:** neuer Wert durch alten Wert: 210 : 200 = 1,05; 1,05 = 105 %, also 5 % mehr
 - **Kern:** ja – 8 echte 2016–2026 (mit Funktionswert aus der Gleichung), Bank-Ketten Wachstumsfaktor und Exponentialfunktion aufstellen mit Grundfall
 - **Originale:** 2025-OS-K7b 2026-FOR-K7c 2018-OS-K2a 2017-OS-K7c 2019-OS-K7b 2020-OS-K4c 2017-OS-K7d 2016-OS-K4e
 - **Bank:** potenz-exponentialfunktionen-e2-k1-s1 potenz-exponentialfunktionen-e2-k1-s2 potenz-exponentialfunktionen-e2-k1-s3 potenz-exponentialfunktionen-e2-k1-s4 potenz-exponentialfunktionen-e2-k1-s5 potenz-exponentialfunktionen-e2-k1-s6 potenz-exponentialfunktionen-e2-k1-s7 potenz-exponentialfunktionen-e3-k1-s2 potenz-exponentialfunktionen-e3-k1-s3 potenz-exponentialfunktionen-e3-k1-s4 potenz-exponentialfunktionen-e3-k1-s5 potenz-exponentialfunktionen-e3-k1-s7 potenz-exponentialfunktionen-e3-k2-s2 potenz-exponentialfunktionen-e3-k2-s3 potenz-exponentialfunktionen-e3-k2-s5 potenz-exponentialfunktionen-e3-k2-s8 potenz-exponentialfunktionen-e3-k3-s3

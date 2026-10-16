@@ -91,7 +91,6 @@ druckt die Jahre.
 - **Schülerfrage:** 6 Kinder sind 20 % der Klasse. Sind die 6 Kinder W oder G? Was ist gesucht?
 - **Schülerfrage-Fälle:** → 6 Kinder = W; gesucht G (die ganze Klasse)
 - **Schülerfrage-Form:** antwort:6 Kinder|;gesucht|
-- **Schülerfrage-Weg:** 6 Kinder sind ein Teil: W = 6; das Ganze fehlt: G gesucht, G = W · 100 : p = 6 · 100 : 20 = 30
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
 - **Originale:** 2023-OS-B1b 2025-OS-B1a
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
@@ -107,7 +106,7 @@ druckt die Jahre.
 - **Schülerfrage:** Ein Eis kostet erst 2 €, dann 2,50 €. Um wie viel Euro steigt der Preis? Welcher Preis ist das Ganze? Um wie viel Prozent steigt er?
 - **Schülerfrage-Fälle:** Eis → 0,50 €, alter Preis 2 €, 25 %
 - **Schülerfrage-Form:** antwort:Unterschied|€;Ganzes|€;Steigerung|%
-- **Schülerfrage-Weg:** erst der Unterschied 2,50 € − 2 € = 0,50 €; das Ganze ist der alte Preis: 0,50 : 2 = 0,25 = 25 %
+- **Schülerfrage-Weg:** 2,50 € − 2 € = 0,50 €
 - **Kern:** ja – 6 echte (Wert nach Erhöhung seit 13.10. eigene Stufe) (Niveau I/II), Bank-Einheit 5 mit Grundfall
 - **Originale:** 2022-OS-K4b 2026-FOR-K3c 2016-OS-K2c 2021-OS-K5a 2020-OS-K2d 2020-OS-K4c
 - **Bank:** prozentrechnung-e5-k2-s3 prozentrechnung-e5-k2-s4 prozentrechnung-e5-k2-s5 prozentrechnung-e5-k2-s6 prozentrechnung-e5-k2-s8 prozentrechnung-e5-k2-s9[2026-FOR-K3c,2022-OS-K4b,2016-OS-K2c]

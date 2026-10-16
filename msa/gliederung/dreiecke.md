@@ -52,7 +52,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Markiere die Hypotenuse. Schreib dann die Gleichung des Satzes des Pythagoras auf.
 - **Schülerfrage-Fälle:** Dreieck mit den Seiten p, q und r → r² = p² + q²
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Die Hypotenuse r liegt dem rechten Winkel gegenüber; sie steht allein auf einer Seite der Gleichung.
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.8]\coordinate (P1) at (0,0);\coordinate (P2) at (2.5,0);\coordinate (P3) at (0.9,1.2);\draw (P1) -- (P2) -- (P3) -- cycle;\pfrw[0.35]{(P3)}{-126.9}\node[font=\small,anchor=north] at (1.25,-0.08) {$r$};\node[font=\small,anchor=south east] at (0.40,0.62) {$p$};\node[font=\small,anchor=south west] at (1.75,0.62) {$q$};\end{tikzpicture}
 - **Heranführung:** P4Z 10.10. Nr. 1 (abgenommen), ein Dreieck in schiefer Lage statt drei (aufgabenbank bau/heranfuehrungen-p10.md).
 - **Kern:** ja – 5 echte, Basisteil 2017, 2021, 2022, 2024, 2026 (Niveau I), Bank-Kette Hypotenuse mit Grundfall
@@ -67,7 +66,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Bei welcher Seite ist die Hypotenuse gesucht?
 - **Schülerfrage-Fälle:** x → ja | y → nein | z → ja
 - **Schülerfrage-Form:** kreuz:
-- **Schülerfrage-Weg:** Die Hypotenuse liegt dem rechten Winkel gegenüber: bei x und z ist sie gesucht, bei y ist sie gegeben (7 cm).
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.7,font=\footnotesize]\draw (0,0)--(2.4,0)--(2.4,1.6)--cycle;\pfrw[0.25]{(2.4,0)}{90}\node[anchor=north] at (1.2,-0.05) {$6$ cm};\node[anchor=west] at (2.45,0.8) {$4$ cm};\node[anchor=south east] at (1.2,0.85) {$x$};\begin{scope}[xshift=4.8cm]\draw (0,0)--(2.4,0)--(0,1.6)--cycle;\pfrw[0.25]{(0,0)}{0}\node[anchor=north] at (1.2,-0.05) {$y$};\node[anchor=east] at (-0.05,0.8) {$4$ cm};\node[anchor=south west] at (1.25,0.85) {$7$ cm};\end{scope}\begin{scope}[xshift=9.6cm]\draw (0,0.3)--(0.99,1.34)--(2.4,0)--cycle;\pfrw[0.25]{(0.99,1.34)}{-133.6}\node[anchor=south east] at (0.45,0.85) {$5$ cm};\node[anchor=south west] at (1.75,0.75) {$6$ cm};\node[anchor=north] at (1.2,0.1) {$z$};\end{scope}\end{tikzpicture}
 - **Heranführung:** P4Z 10.10. Nr. 4 (abgenommen; Lehrer 13.10. „wo ist die Hypotenuse gesucht“).
 - **Durchsicht 16.10.:** Erkennen-Aufgabe knapp (15.10. u): gesuchte Seiten x, y, z, kurze Frage; Skizzen größer, ohne Überlappung, jede Zahl mit Einheit.
@@ -84,7 +82,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Kreuze an, mit welcher Gleichung du die Länge der Seite k berechnest.
 - **Schülerfrage-Fälle:** $k = \sqrt{m^2 + g^2}$ → nein | $k = \sqrt{m^2 - g^2}$ → ja | $k = \sqrt{g^2 - m^2}$ → nein
 - **Schülerfrage-Form:** kreuz:
-- **Schülerfrage-Weg:** m ist die Hypotenuse (gegenüber dem rechten Winkel), k eine Kathete: von m² wird g² abgezogen.
+- **Schülerfrage-Weg:** m² = k² + g²
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.85]\coordinate (P1) at (0,0);\coordinate (P2) at (2.8,0);\coordinate (P3) at (0,1.7);\draw (P1) -- (P2) -- (P3) -- cycle;\pfrw[0.35]{(P1)}{0}\node[font=\small,anchor=north] at (1.4,-0.08) {$g$};\node[font=\small,anchor=east] at (-0.08,0.85) {$k$};\node[font=\small,anchor=south west] at (1.44,0.9) {$m$};\end{tikzpicture}
 - **Heranführung:** P4Z 10.10. Nr. 7 (abgenommen).
 - **Trennung 13.10.:** wie bei „Hypotenuse gesucht“.
@@ -101,7 +99,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Welche Strecken bilden das rechtwinklige Dreieck? Nenne die beiden Katheten und die Hypotenuse.
 - **Schülerfrage-Fälle:** Kegel mit Radius r, Höhe h, Mantellinie s = Katheten r und h, Hypotenuse s | Zylinder mit Radius r, Höhe h; Stab vom Rand des Bodens schräg zum gegenüberliegenden oberen Rand = Katheten 2 · r und h, Hypotenuse der Stab
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Die Höhe steht senkrecht auf dem Boden; quer über den Boden geht beim Stab der Durchmesser 2 · r, beim Kegel nur der Radius.
 - **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 2c (Turm, Kegelhöhe) und ’22 · 2c (Becher) hier; ’25 · 2a (Drachen, AB) nur auf Symmetrie (Hauptplatz, ungekürzt): eine Zeile je Original trägt nur eine Einheitsfassung, die Symmetrie-Frage ließe sich hier nicht ausblenden (Wunsch an den Setzer im Bericht).
 - **Kern:** ja – 5 echte (2018, 2019, 2025 zweimal, 2026), Bank-Kette Figuren und Körper mit Grundfall
 - **Originale:** 2026-FOR-K2c 2022-OS-K2c 2018-OS-K6d 2019-OS-K2d
@@ -116,7 +113,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage-Fälle:** Dreieck ABC mit dem rechten Winkel bei C = Gegenkathete a, Ankathete b, Hypotenuse c
 - **Schülerfrage-Form:** antwort:Gegenkathete|;Ankathete|;Hypotenuse|
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small,scale=0.8]\coordinate (C) at (0,0);\coordinate (B) at (3,0);\coordinate (A) at (0,2);\draw (A) -- (B) -- (C) -- cycle;\pfrw[0.35]{(C)}{0}\pfwinkel[0.7][0.62]{(A)}{-90}{-56.3}{\alpha}\node[anchor=south] at (A) {$A$};\node[anchor=west] at (B) {$B$};\node[anchor=north east] at (C) {$C$};\node[anchor=north] at (1.5,0) {$a$};\node[anchor=east] at (0,1) {$b$};\node[anchor=south west] at (1.5,1) {$c$};\end{tikzpicture}
-- **Schülerfrage-Weg:** Die Gegenkathete liegt α gegenüber, die Ankathete liegt an α und am rechten Winkel, die Hypotenuse liegt dem rechten Winkel gegenüber.
 - **Durchsicht 13.10.:** Schritt B (Daten): erst die Seiten aus Sicht des Winkels benennen (Lehrer 11.10. „benennen“), dann ’25 · 1g mit fremden Buchstaben.
 - **Kern:** ja – 6 echte, Basisteil 2017–2020 und 2025 (Niveau I), Grundfall der Bank-Kette Seite berechnen
 - **Originale:** 2025-OS-B1g 2020-OS-B1c 2020-OS-B1j 2019-OS-B1h 2018-OS-B1g 2017-OS-B1j
@@ -129,7 +125,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Welche zwei Seiten kennst du aus Sicht des Winkels am Boden? Schreib sin oder cos dazu; rechne nicht.
 - **Schülerfrage-Fälle:** Leiter 5 m lang, sie reicht 4,8 m hoch an der Wand = Gegenkathete und Hypotenuse: sin | Leiter 5 m lang, ihr Fuß steht 1,4 m vor der Wand = Ankathete und Hypotenuse: cos
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Die Höhe an der Wand liegt dem Winkel am Boden gegenüber (sin), der Abstand zur Wand liegt an ihm an (cos); die Leiter ist die Hypotenuse.
 - **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 5b (sin) und ’24 · 6b, ’26 · 4b (cos) – der Anstoß übt nur, welche Funktion die beiden gegebenen Seiten verbindet.
 - **Kern:** ja – 5 echte (2019, 2020, 2022, 2024, 2026), Bank-Kette Winkel berechnen mit Grundfall
 - **Originale:** 2022-OS-K5b 2024-OS-K6b 2026-FOR-K4b 2020-OS-K5b 2019-OS-K3b
@@ -144,7 +139,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Stelle die Formel $\sin\alpha = \frac{a}{c}$ um.
 - **Schülerfrage-Fälle:** nach a → $a = c \cdot \sin\alpha$ | nach c → $c = \frac{a}{\sin\alpha}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** steht die Seite oben im Bruch, mal sin α; steht sie unten, a durch sin α teilen
 - **Durchsicht 13.10.:** Schritt B (Daten): Umstellen an der einfachen Formel ohne Zahlen (befunde-M3 AZL2), die beiden Lagen kommen in ’23 · 7b (BF oben, BC unten) und ’22 · 5d, ’26 · 4c (unten) vor; ’23 · 7b als schwerste echte am Ende.
 - **Kern:** ja – 8 echte 2016–2026, Bank-Ketten Seite berechnen und Teildreiecke mit Grundfall
 - **Originale:** 2022-OS-K5d 2026-FOR-K4c 2023-OS-K7b 2021-OS-K3a 2021-OS-K3b 2018-OS-K4d 2017-OS-K4b 2016-OS-K7c
@@ -172,7 +166,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Im Sinussatz steht jede Seite mit dem Winkel, der ihr gegenüberliegt. Im Dreieck ABC kennst du die Seite c und die Winkel α und β; gesucht ist die Seite a.
 - **Schülerfrage-Fälle:** Welchen Winkel rechnest du zuerst aus? → γ = 180° − α − β | Welche Gleichung stellst du dann auf? → a : sin α = c : sin γ
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** zu c gehört der Gegenwinkel γ, den gibt die Winkelsumme; dann ein Paar bekannt (c, γ) und ein halbes (a, α)
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small,scale=0.9]\coordinate (A) at (0,0);\coordinate (B) at (3.4,0);\coordinate (C) at (1.1,1.9);\draw (A)--(B)--(C)--cycle;\pfwinkel[0.55][0.62]{(A)}{0}{59.9}{\alpha}\pfwinkel[0.55][0.62]{(B)}{140.4}{180}{\beta}\pfwinkel[0.45][0.62]{(C)}{-120.1}{-39.6}{\gamma}\node[anchor=north east] at (A) {$A$};\node[anchor=north west] at (B) {$B$};\node[anchor=south] at (C) {$C$};\node[anchor=north] at (1.7,0) {$c$};\node[anchor=south west] at (2.25,0.95) {$a$};\node[anchor=south east] at (0.55,0.95) {$b$};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): beide jungen Originale brauchen zuerst den dritten Winkel (’24 · 6d: 35°, ’25 · 4c: 35°); der Anstoß übt genau das und das Paar Seite–Gegenwinkel, ohne Zahlen. ’25 · 4c (stumpfer Winkel, Stern) am Ende.
 - **Kern:** ja – 9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall
@@ -188,7 +181,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Wie viele Symmetrieachsen hat die Figur?
 - **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das weder Rechteck noch Raute ist = 0
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Beim Rechteck die beiden Mittellinien; die Diagonalen sind keine Achsen – beim Parallelogramm passt keine Faltung.
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (0,0) rectangle (2,1.1);\node at (1,-0.35) {a)};\draw (2.8,0)--(4.6,0)--(5.2,1.1)--(3.4,1.1)--cycle;\node at (4,-0.35) {b)};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 1i (gleichschenkliges Trapez) und ’25 · 2a (Drachen, ungekürzt mit BF und AB über Pythagoras) aufs Blatt; ’21 · 1j in den Mehr-Block. Der Anstoß übt die Falle Diagonale als Achse.
 - **Kern:** ja – 3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall
@@ -201,7 +193,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Ein Trapez ist ein Viereck mit mindestens zwei parallelen Seiten. Ist das Viereck ein Trapez?
 - **Schülerfrage-Fälle:** Rechteck = ja | Parallelogramm = ja | Drachenviereck, das keine Raute ist = nein
 - **Schülerfrage-Form:** kreuz:Trapez
-- **Schülerfrage-Weg:** Rechteck und Parallelogramm haben sogar zwei Paare paralleler Seiten; im Drachenviereck ist keine Seite zu einer anderen parallel.
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (0,0) rectangle (1.6,1);\node at (0.8,-0.45) {a)};\draw (2.2,0)--(3.8,0)--(4.3,1)--(2.7,1)--cycle;\node at (3.25,-0.45) {b)};\draw (5.6,1.2)--(6.1,0.6)--(5.6,-0.3)--(5.1,0.6)--cycle;\node at (5.6,-0.6) {c)};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1c fragt, was für jedes Trapez gilt; der Anstoß zeigt, dass „mindestens zwei parallel“ auch Rechteck und Parallelogramm einschließt.
 - **Kern:** nein – 2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme
@@ -216,7 +207,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** Nenne die Innenwinkelsumme im Dreieck. Gib dann den Winkel mit dem Fragezeichen an.
 - **Schülerfrage-Fälle:** Innenwinkelsumme im Dreieck → 180 | Winkel mit dem Fragezeichen → 112
 - **Schülerfrage-Form:** linie:°
-- **Schülerfrage-Weg:** Im Dreieck sind die Innenwinkel zusammen 180°; an einer Geraden ergänzen sich zwei Winkel zu 180°: 180° − 68° = 112° (wie in den Originalen danach).
+- **Schülerfrage-Weg:** ? + 68° = 180°
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (-1.4,0)--(1.8,0);\draw (0,0)--(68:1.6);\pfwinkel[0.6][0.62]{(0,0)}{0}{68}{68^\circ}\pfwinkel[0.45][0.62]{(0,0)}{68}{180}{?}\end{tikzpicture}
 - **Heranführung:** Lehrer 13.10. (T2U2 Nr. 1b unverständlich, besser „Viereck 360°, Dreieck?“).
 - **Durchsicht 16.10.:** Nr. 1 neu (Durchsicht PG10 S. 10): Innenwinkelsumme und Nebenwinkel an einer Geraden – genau die Rechnung von ’26 · 1i und ’23 · 2a; „Viereck 360°“ verriet mehr, als es fragte.
@@ -241,7 +232,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage:** CD steht senkrecht auf AB. Trage die Winkel in den Dreiecken ADC und DBC ein. Warum ist γ = 90°?
 - **Schülerfrage-Fälle:** Begründung → in beiden Dreiecken je 45° bei C: 45° + 45° = 90°
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** ADC und DBC sind gleichschenklig-rechtwinklig (zwei Seiten 3 cm, rechter Winkel bei D), also je 45° an den beiden anderen Ecken.
+- **Schülerfrage-Weg:** AD = DC = DB = 3 cm ⇒ je 45°
 - **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.9]\draw (0,0)--(3,0)--(1.5,1.5)--cycle;\draw (1.5,1.5)--(1.5,0);\pfrw[0.28]{(1.5,0)}{0}\pfwinkel*[0.7]{(1.5,1.5)}{-135}{-45}{}\node[inner sep=0pt,font=\footnotesize] at ($(1.5,1.5)+(-108:0.45)$) {$\gamma$};\node[font=\small,anchor=north east] at (0,0) {$A$};\node[font=\small,anchor=north west] at (3,0) {$B$};\node[font=\small,anchor=south] at (1.5,1.5) {$C$};\node[font=\small,anchor=north] at (1.5,-0.02) {$D$};\node[font=\footnotesize,anchor=north] at (0.75,-0.02) {$3$ cm};\node[font=\footnotesize,anchor=north] at (2.25,-0.02) {$3$ cm};\node[font=\footnotesize,anchor=east] at (1.47,0.3) {$3$ cm};\end{tikzpicture}
 - **Heranführung:** T2U 11.10. Nr. 8 (abgenommen; Kritiker B 13.10.: macht den Gedanken für den Drachen ’25 · 2c vor).
 - **Durchsicht 13.10.:** Schritt B (Daten): der Anstoß trägt den Gedanken von ’25 · 2c (AF = DF, also 45° bei D, zweimal) ohne die Figur vorwegzunehmen.

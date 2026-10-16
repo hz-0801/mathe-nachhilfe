@@ -361,7 +361,7 @@ die der Lehrer noch entscheidet.
 ## Lösungen
 
 **Form der Lösung** (Lehrer 16.10., plan.md § 10, 16.10. l; bekräftigt
-03.–05.10. und 06.10.; Prüfskript aufgabenbank werkzeuge/loesung-pruef.py).
+03.–05.10. und 06.10.; Prüfskript aufgabenbank werkzeuge/loesung-pruef.py – der Setzer setzt ein P10-Blatt nur, wenn es nichts meldet).
 Warum: Der Lehrer will in Sekunden sehen, ob ein Ergebnis stimmt, und
 bei einem falschen, wo es hängt – mehr braucht die Lösung nicht; jedes
 weitere Wort verlangsamt das Prüfen. Beispiel:

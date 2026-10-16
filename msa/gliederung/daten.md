@@ -61,7 +61,7 @@ einer Stufe.
 - **Schülerfrage:** Zentralwert (Median): erst ordnen – die Mitte der ungeordneten Reihe ist es nicht.
 - **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 → 5 (nicht 7) | 8; 2; 6; 4 → 5 (nicht 4)
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** ungeordnet stünde 7 bzw. 2 und 6 in der Mitte; geordnet 2; 4; 5; 7; 9: der dritte, 5; geordnet 2; 4; 6; 8: zwischen 4 und 6, (4 + 6) : 2 = 5
+- **Schülerfrage-Weg:** geordnet: 2, 4, 5, 7, 9 und 2, 4, 6, 8
 - **Kern:** nein – 2 echte (Basisteil 2015, 2024), Sprosse der Kette Kenngrößen
 - **Originale:** 2024-OS-B1h 2015-OS-B1f
 - **Bank:** daten-e4-k1-s4 daten-e4-k1-s5
@@ -95,7 +95,7 @@ einer Stufe.
 - **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
 - **Schülerfrage-Fälle:** Durchschnitt zweier Zahlen: m = (a + x) : 2, gesucht ist x → x = 2 · m − a
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** rückwärts erst mal 2: a + x = 2 · m (aus dem Durchschnitt wird die Summe), dann a abziehen: x = 2 · m − a
+- **Schülerfrage-Weg:** a + x = 2 · m
 - **Kern:** nein – 1 echte (Basisteil 2022)
 - **Originale:** 2022-OS-B1d
 - **Bank:** daten-e4-k1-s13 daten-e6-k2-s4

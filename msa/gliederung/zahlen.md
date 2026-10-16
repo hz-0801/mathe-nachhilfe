@@ -84,7 +84,7 @@ die Punkte.
 - **Schülerfrage:** Ein Radfahrer fährt 5 m in jeder Sekunde. Wie viele Sekunden braucht er für 100 m?
 - **Schülerfrage-Fälle:** 100 m bei 5 m pro Sekunde → 20 s
 - **Schülerfrage-Form:** antwort:Zeit|s
-- **Schülerfrage-Weg:** in jeder Sekunde 5 m, also Menge durch Rate: 100 : 5 = 20 Sekunden
+- **Schülerfrage-Weg:** 5 · t = 100
 - **Kern:** nein – 4 echte (2014, 2015, 2017, 2024, Kontext): Dauer aus Menge und Rate (Liter pro Stunde, Meter pro Sekunde, km pro Stunde), oft mit Umrechnen der Einheit
 - **Originale:** 2024-OS-K6c 2017-OS-K3d 2014-OS-K2c 2015-OS-K3c
 - **Zuschnitt:** Größen und Dreisatz
