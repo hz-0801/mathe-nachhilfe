@@ -1287,6 +1287,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Sammlung der Originale ins Buch der Lernblätter, nicht hier. Titelseite
   mit Kasten zur kommenden Prüfung (Termin, Zeit, BE, Hilfsmittel),
   jährlich nach dem Fachbrief nachziehen (NAECHSTE im Skript).
+  Steuerung (zurück, Inhalt, Lösung) als Knöpfe am rechten Rand,
+  senkrecht mittig (unten rechts verdeckt der Seitenzähler des
+  Betrachters); Bereiche in festen Spalten; jedes Lösungsheft auf
+  eigener Seite (Lehrer 16.10.).
 
 ## 11 Register der Entscheidungen
 

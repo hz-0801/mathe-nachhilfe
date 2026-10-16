@@ -33,9 +33,14 @@ Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
 ## 3 Arbeitsstand
 
 - Erledigt 16.10.: Tafelwerke in Drive (Kopfzeile, „← zurück“);
-  Buch P10 Originalprüfungen, 182 S., vom Lehrer durchgesehen (fünf
-  Runden), Form § 10 (16.10. m); Lösungen darin vorerst
-  Kurzlösungen aus dem Katalog.
+  Buch P10 Originalprüfungen, 184 S., vom Lehrer durchgesehen (acht
+  Runden), Form § 10 (16.10. m): Titelseite in Stichpunkten mit
+  Kasten „Prüfung 2027“ und Quelle (Link, QR); S. 2 Prüfungen und
+  Lösungen; S. 3 Bereiche in festen Spalten mit Seitenbereichen;
+  Steuerung als Knöpfe am rechten Rand mittig; jedes Lösungsheft auf
+  eigener Seite. Lösungen vorerst Kurzlösungen aus dem Katalog.
+- Formelblatt der P10 fehlt in unseren Heften – Lehrer legt es in
+  „bücher scanns“, dann vorn ins Buch.
 - Noch nicht in Drive: Buch P10 (wartet auf die Lösungsblätter).
 - Stochastik: Dateinamen vertauscht – „stochastik stark 1/3/4“ =
   Daniel Jung (StudyHelp), „stochstik jung 1/2“ = Stark (March);
@@ -61,8 +66,8 @@ Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
 ## 5 Offen und Verworfenes
 
 - Lösungsblätter aus dem Nebenchat: je Heft eine PDF mit festem
-  Namen, Lesezeichen je Aufgabe (dem Nebenchat mitgeben – Lehrer
-  entscheidet noch).
+  Namen, Lesezeichen je Aufgabe, jedes Heft auf neuer Seite (Lehrer
+  gibt es dem Nebenchat mit).
 - Verworfen: Originale zugeschnitten und doppelt nach Bereich
   (gehört ins Buch der Lernblätter); Inhalt „nach Abschluss“, „nach
   Teil“, feines Themenregister; Kennzeichen „OS“.
