@@ -12,6 +12,10 @@ Anzeigenamen: Exponentielles Wachstum = Wachstum
 Kennung alt: Exponentielles Wachstum = 74A
 Kennung: Exponentielles Wachstum = PA50
 Ordner: Exponentielles Wachstum = wachstum
+Formelsammlung: Exponentielles Wachstum = Formeln und Werte S. 11: Kapital bei Zinseszinsen
+Kern am Ende: Exponentielles Wachstum = Wachstumsfaktor: die Zahl, mit der du in jedem Schritt malnimmst. Zunahme um p %: 1 + p/100 (2,3 % → 1,023); Abnahme um p %: 1 − p/100 (9 % → 0,91). | Gleichung: y = Anfangswert · Faktor^x, x zählt die Schritte (Jahre, Stunden, km). | Tabelle: jeden Wert mit dem Faktor malnehmen; Faktor aus der Tabelle: ein Wert geteilt durch den davor. | Graph: exponentiell = die Zunahme wird immer größer (Kurve), linear = gleiche Zunahme (Gerade); der Graph beginnt beim Anfangswert.
+
+Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe). Tafelwerk: Duden S. 33 (Exponentialfunktion y = aˣ) hat keine Wachstumsformel; die Zinseszinsformel S. 11 Kₙ = K₀ · ((100 + p)/100)ⁿ ist dieselbe Gleichung mit Geld.
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -39,6 +43,7 @@ keine Stufe „fast immer“; der Setzer druckt die Jahre.
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** 100 % + 5 % = 105 % = 1,05; 100 % + 2,3 % = 102,3 % = 1,023 (nicht 1,23)
 - **Kern:** ja – 5 echte 2016–2026, Einstieg fast jeder Wachstumsaufgabe (Niveau I), Bank-Kette Wachstumstabelle fortschreiben mit Grundfall
+- **Begriff:** Wachstumsfaktor: die Zahl, mit der du in jedem Schritt malnimmst.
 - **Originale:** 2026-FOR-K7a 2020-OS-K4a 2019-OS-K7a 2017-OS-K7a 2016-OS-K4a
 - **Bank:** potenz-exponentialfunktionen-e2-k2-s1 potenz-exponentialfunktionen-e2-k2-s2 potenz-exponentialfunktionen-e2-k2-s3 potenz-exponentialfunktionen-e2-k2-s4 potenz-exponentialfunktionen-e2-k2-s5 potenz-exponentialfunktionen-e2-k2-s6 potenz-exponentialfunktionen-e2-k2-s7 potenz-exponentialfunktionen-e2-k2-s8 potenz-exponentialfunktionen-e2-k3-s3
 - **Verwechselbar:** lineare:Gleichung aus Text
