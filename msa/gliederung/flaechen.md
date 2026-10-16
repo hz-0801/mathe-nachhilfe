@@ -50,7 +50,7 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 ### Formeln
 - **Anzeigename:** Formeln
 - **Regine:** S. 24 · 25 · 26
-- **Frage:** Schlag in deiner Formelsammlung Flächen und Umfänge auf: Seite ___
+- **Frage:** Formelsammlung: Dreiecke · Vierecke · Kreis
 - **Heranführung:** Formelsammlungs-Frage vor der ersten Stufe „Formeln“ (Lehrer 13.10., Y5D: Formelsammlung bis 2027 erlaubt; ab 2028 vor „Fläche gesucht“ – Ort nach Prüfungsjahr, Setzer).
 - **Kern:** nein – 5 echte ohne Zahlen (2014, 2019, 2022, 2024, 2025, Basisteil, Niveau I): Formel oder Term einer Grundfigur oder einer zusammengesetzten Figur angeben oder ankreuzen
 - **Originale:** 2024-OS-B1c 2022-OS-B1e 2025-OS-B1i 2019-OS-B1e 2014-OS-B1g
@@ -76,8 +76,8 @@ Darum keine Zeile „Häufigkeit“; der Setzer druckt die Jahre.
 ### Formeln umstellen
 - **Anzeigename:** Formeln umstellen
 - **Regine:** S. 24 · 25 · 26
-- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
-- **Schülerfrage-Fälle:** Kreis: u = π · d, gesucht ist d → d = u : π
+- **Schülerfrage:** Stelle die Formel u = π · d nach d um.
+- **Schülerfrage-Fälle:** d = → $d = \frac{u}{\pi}$
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** π steht mal d, also rückwärts durch π teilen: d = u : π (ebenso a = A : b beim Rechteck)
 - **Kern:** ja – 6 echte, Basisteil 2018, 2020, 2023, Kontext 2014 und 2020, Rückwärtssprossen in jeder Figurenkette

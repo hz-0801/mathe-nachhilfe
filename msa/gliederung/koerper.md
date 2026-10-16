@@ -31,6 +31,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** a) Zylinder; b) Prisma; c) Kegel
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (0,1.6) ellipse (0.5 and 0.17);\draw (-0.5,0)--(-0.5,1.6);\draw (0.5,0)--(0.5,1.6);\draw (-0.5,0) arc (180:360:0.5 and 0.17);\draw[dashed,line width=0.5pt] (-0.5,0) arc (180:0:0.5 and 0.17);\node at (0,-0.55) {a)};\draw (1.2,0)--(2.4,0)--(1.8,1.0)--cycle;\draw (2.4,0)--(3.1,0.5)--(2.5,1.5)--(1.8,1.0);\draw[dashed,line width=0.5pt] (1.2,0)--(1.9,0.5)--(3.1,0.5);\draw[dashed,line width=0.5pt] (1.9,0.5)--(2.5,1.5);\node at (2.1,-0.55) {b)};\draw (4.2,1.6) ellipse (0.5 and 0.17);\draw (3.7,1.6)--(4.2,0)--(4.7,1.6);\node at (4.2,-0.55) {c)};\end{tikzpicture}
 - **Kern:** nein – keine eigene echte Aufgabe (wie Pythagoras aufstellen): erster Schritt jedes Originals der Stufen danach, mit dem Tafelwerk; Seitenfrage und Aufstell-Aufgabe aus „Volumen gesucht“ hierher (plan.md § 10, 16.10. c)
 - **Originale:** 
 - **Bank:** koerper-e3-k1-s1(i) pyramide-kegel-kugel-e1-k5-s1(i)
@@ -50,10 +51,11 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ### rückwärts: Radius oder Höhe aus Volumen
 - **Anzeigename:** Volumenformel umstellen
 - **Regine:** S. 26 · 27
-- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
-- **Schülerfrage-Fälle:** Säule mit quadratischer Grundfläche: V = a² · h, gesucht ist a → a = √(V : h)
+- **Schülerfrage:** Eine Säule hat eine quadratische Grundfläche. Stelle die Formel V = a² · h nach a um.
+- **Schülerfrage-Fälle:** a = → $a = \sqrt{\frac{V}{h}}$
 - **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** erst durch h teilen: a² = V : h, dann die Wurzel ziehen: a = √(V : h) (ebenso r beim Zylinder, nur mit π)
+- **Schülerfrage-Weg:** erst durch h teilen: a² = V/h, dann die Wurzel ziehen (ebenso r beim Zylinder, nur mit π)
+- **Schülerfrage-Skizze:** \quader{0.7}{0.7}{1.6}{a}{a}{h}
 - **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
 - **Originale:** 2022-OS-K2d 2023-OS-K5d
 - **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
@@ -67,6 +69,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage-Fälle:** Zylinder mit Radius r und Höhe h = Rechteck, 2 · π · r lang und h hoch
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Rechteck; eine Seite ist der Kreisumfang 2 · π · r, die andere die Höhe h; Mantel = 2 · π · r · h
+- **Schülerfrage-Skizze:** \zylinder{0.6}{1.5}{r}{h}
 - **Kern:** nein – 2 echte (2018, 2026)
 - **Originale:** 2026-FOR-K2b 2018-OS-K6b
 - **Bank:** koerper-e4-k2-s6(i) koerper-e4-k2-s7(i) pyramide-kegel-kugel-e2-k2-s7(i) pyramide-kegel-kugel-e2-k2-s8(i) pyramide-kegel-kugel-e1-k5-s7(i) pyramide-kegel-kugel-e2-k2-s13 pyramide-kegel-kugel-e1-k5-s15

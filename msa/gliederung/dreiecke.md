@@ -60,12 +60,13 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ### Hypotenuse gesucht
 - **Anzeigename:** Hypotenuse gesucht
 - **Regine:** S. 24
-- **Schülerfrage:** Gesucht ist die Seite mit dem Fragezeichen. Kreuze an, wo die Hypotenuse gesucht ist.
-- **Schülerfrage-Fälle:** Dreieck a → ja | Dreieck b → nein | Dreieck c → ja
-- **Schülerfrage-Form:** kreuz:Hypotenuse
-- **Schülerfrage-Weg:** Die Hypotenuse liegt dem rechten Winkel gegenüber: in a und c ist sie gesucht, in b ist sie gegeben (7 cm).
-- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.62,font=\footnotesize]\draw (0,0)--(2.2,0)--(2.2,1.3)--cycle;\pfrw[0.25]{(2.2,0)}{90}\node[anchor=north] at (1.1,-0.05) {$6$ cm};\node[anchor=west] at (2.25,0.65) {$4$};\node[anchor=south east] at (1.05,0.7) {?};\node[anchor=north] at (1.1,-0.6) {\textbf{a}};\begin{scope}[xshift=3.2cm]\draw (0,0)--(2.2,0)--(0,1.3)--cycle;\pfrw[0.25]{(0,0)}{0}\node[anchor=north] at (1.1,-0.05) {?};\node[anchor=east] at (-0.05,0.65) {$4$};\node[anchor=south west] at (1.15,0.7) {$7$ cm};\node[anchor=north] at (1.1,-0.6) {\textbf{b}};\end{scope}\begin{scope}[xshift=6.2cm]\draw (0,0.3)--(0.99,1.34)--(2.4,0)--cycle;\pfrw[0.25]{(0.99,1.34)}{-133.6}\node[anchor=south east] at (0.45,0.85) {$5$};\node[anchor=south west] at (1.75,0.75) {$6$ cm};\node[anchor=north] at (1.2,0.1) {?};\node[anchor=north] at (1.2,-0.6) {\textbf{c}};\end{scope}\end{tikzpicture}
+- **Schülerfrage:** Bei welcher Seite ist die Hypotenuse gesucht?
+- **Schülerfrage-Fälle:** x → ja | y → nein | z → ja
+- **Schülerfrage-Form:** kreuz:
+- **Schülerfrage-Weg:** Die Hypotenuse liegt dem rechten Winkel gegenüber: bei x und z ist sie gesucht, bei y ist sie gegeben (7 cm).
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,scale=0.7,font=\footnotesize]\draw (0,0)--(2.4,0)--(2.4,1.6)--cycle;\pfrw[0.25]{(2.4,0)}{90}\node[anchor=north] at (1.2,-0.05) {$6$ cm};\node[anchor=west] at (2.45,0.8) {$4$ cm};\node[anchor=south east] at (1.2,0.85) {$x$};\begin{scope}[xshift=4.8cm]\draw (0,0)--(2.4,0)--(0,1.6)--cycle;\pfrw[0.25]{(0,0)}{0}\node[anchor=north] at (1.2,-0.05) {$y$};\node[anchor=east] at (-0.05,0.8) {$4$ cm};\node[anchor=south west] at (1.25,0.85) {$7$ cm};\end{scope}\begin{scope}[xshift=9.6cm]\draw (0,0.3)--(0.99,1.34)--(2.4,0)--cycle;\pfrw[0.25]{(0.99,1.34)}{-133.6}\node[anchor=south east] at (0.45,0.85) {$5$ cm};\node[anchor=south west] at (1.75,0.75) {$6$ cm};\node[anchor=north] at (1.2,0.1) {$z$};\end{scope}\end{tikzpicture}
 - **Heranführung:** P4Z 10.10. Nr. 4 (abgenommen; Lehrer 13.10. „wo ist die Hypotenuse gesucht“).
+- **Durchsicht 16.10.:** Erkennen-Aufgabe knapp (15.10. u): gesuchte Seiten x, y, z, kurze Frage; Skizzen größer, ohne Überlappung, jede Zahl mit Einheit.
 - **Trennung 13.10.:** wieder eigene Stufe wie im abgenommenen Blatt P4Z vom 10.10. und pruefung.md § 2 (Lehrer 13.10.: P4Z2 hatte Hypotenuse und Kathete zusammengelegt); vorher „Kathete oder Hypotenuse direkt“.
 - **Kern:** ja – 2 echte (2020, 2025), Bank-Kette Hypotenuse mit Grundfall
 - **Originale:** 2025-OS-K4a 2020-OS-K7a
@@ -136,8 +137,8 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ### Seite berechnen
 - **Anzeigename:** Seite gesucht
 - **Regine:** S. 34
-- **Schülerfrage:** Stelle nach der gesuchten Seite um.
-- **Schülerfrage-Fälle:** sin α = a : c, gesucht ist a → a = c · sin α | sin α = a : c, gesucht ist c → c = a : sin α
+- **Schülerfrage:** Stelle die Formel $\sin\alpha = \frac{a}{c}$ um.
+- **Schülerfrage-Fälle:** nach a → $a = c \cdot \sin\alpha$ | nach c → $c = \frac{a}{\sin\alpha}$
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** steht die Seite oben im Bruch, mal sin α; steht sie unten, a durch sin α teilen
 - **Durchsicht 13.10.:** Schritt B (Daten): Umstellen an der einfachen Formel ohne Zahlen (befunde-M3 AZL2), die beiden Lagen kommen in ’23 · 7b (BF oben, BC unten) und ’22 · 5d, ’26 · 4c (unten) vor; ’23 · 7b als schwerste echte am Ende.
@@ -168,6 +169,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage-Fälle:** Welchen Winkel rechnest du zuerst aus? → γ = 180° − α − β | Welche Gleichung stellst du dann auf? → a : sin α = c : sin γ
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** zu c gehört der Gegenwinkel γ, den gibt die Winkelsumme; dann ein Paar bekannt (c, γ) und ein halbes (a, α)
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small,scale=0.9]\coordinate (A) at (0,0);\coordinate (B) at (3.4,0);\coordinate (C) at (1.1,1.9);\draw (A)--(B)--(C)--cycle;\pfwinkel[0.55][0.62]{(A)}{0}{59.9}{\alpha}\pfwinkel[0.55][0.62]{(B)}{140.4}{180}{\beta}\pfwinkel[0.45][0.62]{(C)}{-120.1}{-39.6}{\gamma}\node[anchor=north east] at (A) {$A$};\node[anchor=north west] at (B) {$B$};\node[anchor=south] at (C) {$C$};\node[anchor=north] at (1.7,0) {$c$};\node[anchor=south west] at (2.25,0.95) {$a$};\node[anchor=south east] at (0.55,0.95) {$b$};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): beide jungen Originale brauchen zuerst den dritten Winkel (’24 · 6d: 35°, ’25 · 4c: 35°); der Anstoß übt genau das und das Paar Seite–Gegenwinkel, ohne Zahlen. ’25 · 4c (stumpfer Winkel, Stern) am Ende.
 - **Kern:** ja – 9 echte 2014–2025, fast jedes Jahr (Niveau II), Bank-Kette Sinussatz mit Grundfall
 - **Originale:** 2024-OS-K6d 2025-OS-K4c 2021-OS-K3c 2020-OS-K7c 2019-OS-K3c 2018-OS-K4c 2017-OS-K4c 2015-OS-K5c 2014-OS-K2b
@@ -178,10 +180,12 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### Symmetrieachsen zählen
 - **Anzeigename:** Symmetrieachsen gesucht
-- **Schülerfrage:** Eine Symmetrieachse teilt die Figur so, dass beim Falten beide Hälften genau aufeinanderliegen. Wie viele Symmetrieachsen hat die Figur?
+- **Begriff:** Symmetrieachse: Faltest du die Figur an ihr, liegen beide Hälften genau aufeinander.
+- **Schülerfrage:** Wie viele Symmetrieachsen hat die Figur?
 - **Schülerfrage-Fälle:** Rechteck, das kein Quadrat ist = 2 | Parallelogramm, das weder Rechteck noch Raute ist = 0
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** Beim Rechteck die beiden Mittellinien; die Diagonalen sind keine Achsen – beim Parallelogramm passt keine Faltung.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (0,0) rectangle (2,1.1);\node at (1,-0.35) {a)};\draw (2.8,0)--(4.6,0)--(5.2,1.1)--(3.4,1.1)--cycle;\node at (4,-0.35) {b)};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): ’22 · 1i (gleichschenkliges Trapez) und ’25 · 2a (Drachen, ungekürzt mit BF und AB über Pythagoras) aufs Blatt; ’21 · 1j in den Mehr-Block. Der Anstoß übt die Falle Diagonale als Achse.
 - **Kern:** ja – 3 echte, Basisteil 2021 und 2022, Kontext 2025 (Niveau I), Bank-Kette Symmetrieachsen bestimmen mit Grundfall
 - **Originale:** 2022-OS-B1i 2025-OS-K2a 2021-OS-B1j
@@ -194,6 +198,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Schülerfrage-Fälle:** Rechteck = ja | Parallelogramm = ja | Drachenviereck, das keine Raute ist = nein
 - **Schülerfrage-Form:** kreuz:Trapez
 - **Schülerfrage-Weg:** Rechteck und Parallelogramm haben sogar zwei Paare paralleler Seiten; im Drachenviereck ist keine Seite zu einer anderen parallel.
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (0,0) rectangle (1.6,1);\node at (0.8,-0.45) {a)};\draw (2.2,0)--(3.8,0)--(4.3,1)--(2.7,1)--cycle;\node at (3.25,-0.45) {b)};\draw (5.6,1.2)--(6.1,0.6)--(5.6,-0.3)--(5.1,0.6)--cycle;\node at (5.6,-0.6) {c)};\end{tikzpicture}
 - **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1c fragt, was für jedes Trapez gilt; der Anstoß zeigt, dass „mindestens zwei parallel“ auch Rechteck und Parallelogramm einschließt.
 - **Kern:** nein – 2 echte (Basisteil 2016, 2026), Ankreuzen als Sprosse der Kette Winkelsumme
 - **Originale:** 2026-FOR-B1c 2016-OS-B1e
@@ -204,11 +209,13 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ### Winkelsumme
 - **Anzeigename:** Winkel gesucht
 - **Regine:** S. 23
-- **Schülerfrage:** Im Viereck sind die Innenwinkel zusammen 360°. Wie viel Grad sind es im Dreieck?
-- **Schülerfrage-Fälle:** Dreieck = 180
+- **Schülerfrage:** Nenne die Innenwinkelsumme im Dreieck. Gib dann den Winkel mit dem Fragezeichen an.
+- **Schülerfrage-Fälle:** Innenwinkelsumme im Dreieck → 180 | Winkel mit dem Fragezeichen → 112
 - **Schülerfrage-Form:** linie:°
-- **Schülerfrage-Weg:** Winkelsumme im Dreieck 180°; ein Viereck zerfällt längs einer Diagonale in zwei Dreiecke: 2 · 180° = 360°.
+- **Schülerfrage-Weg:** Im Dreieck sind die Innenwinkel zusammen 180°; an einer Geraden ergänzen sich zwei Winkel zu 180°: 180° − 68° = 112° (wie in den Originalen danach).
+- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt,font=\small]\draw (-1.4,0)--(1.8,0);\draw (0,0)--(68:1.6);\pfwinkel[0.6][0.62]{(0,0)}{0}{68}{68^\circ}\pfwinkel[0.45][0.62]{(0,0)}{68}{180}{?}\end{tikzpicture}
 - **Heranführung:** Lehrer 13.10. (T2U2 Nr. 1b unverständlich, besser „Viereck 360°, Dreieck?“).
+- **Durchsicht 16.10.:** Nr. 1 neu (Durchsicht PG10 S. 10): Innenwinkelsumme und Nebenwinkel an einer Geraden – genau die Rechnung von ’26 · 1i und ’23 · 2a; „Viereck 360°“ verriet mehr, als es fragte.
 - **Durchsicht 13.10.:** Schritt B (Daten): ’26 · 1i und ’23 · 2a brauchen die Parallelen, ’22 · 5c die Winkelsumme im Teildreieck; 2018-OS-K4b (älter als fünf Jahre) in den Mehr-Block.
 - **Kern:** ja – 7 echte 2015–2026 (Niveau I), Bank-Kette Winkelsumme mit Grundfall
 - **Originale:** 2022-OS-K5c 2023-OS-K2a 2026-FOR-B1i 2021-OS-B1i 2018-OS-K4b 2017-OS-K4a 2015-OS-K5b
@@ -217,12 +224,8 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ### gleichschenkliges Dreieck
 - **Anzeigename:** Basiswinkel gesucht
-- **Schülerfrage:** Trage alle Winkel ein. Was unterscheidet die beiden Dreiecke?
-- **Schülerfrage-Fälle:** Unterschied → links zwei gleiche Winkel (64°, 64°, 52°), rechts alle drei gleich (60°)
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** Links zwei gleich lange Seiten: die Winkel gegenüber sind gleich, 180° − 2 · 64° = 52°. Rechts drei gleiche Seiten: 180° : 3 = 60°.
-- **Schülerfrage-Skizze:** \begin{tikzpicture}[line width=0.7pt]\draw (0,0)--(2.4,0)--(1.2,2.46)--cycle;\draw[line width=0.6pt] ($($(0,0)!0.5!(1.2,2.46)$)!0.11cm!90:(1.2,2.46)$) -- ($($(0,0)!0.5!(1.2,2.46)$)!0.11cm!-90:(1.2,2.46)$);\draw[line width=0.6pt] ($($(2.4,0)!0.5!(1.2,2.46)$)!0.11cm!90:(1.2,2.46)$) -- ($($(2.4,0)!0.5!(1.2,2.46)$)!0.11cm!-90:(1.2,2.46)$);\pfwinkel[0.8][0.6]{(0,0)}{0}{64}{64^\circ}\pfwinkel*[0.8]{(2.4,0)}{116}{180}{}\pfwinkel*[0.6]{(1.2,2.46)}{-116}{-64}{}\begin{scope}[xshift=3.1cm]\draw (0,0)--(2.4,0)--(1.2,2.078)--cycle;\draw[line width=0.6pt] ($($(0,0)!0.5!(2.4,0)$)!0.11cm!90:(2.4,0)$) -- ($($(0,0)!0.5!(2.4,0)$)!0.11cm!-90:(2.4,0)$);\draw[line width=0.6pt] ($($(0,0)!0.5!(1.2,2.078)$)!0.11cm!90:(1.2,2.078)$) -- ($($(0,0)!0.5!(1.2,2.078)$)!0.11cm!-90:(1.2,2.078)$);\draw[line width=0.6pt] ($($(2.4,0)!0.5!(1.2,2.078)$)!0.11cm!90:(1.2,2.078)$) -- ($($(2.4,0)!0.5!(1.2,2.078)$)!0.11cm!-90:(1.2,2.078)$);\pfwinkel*[0.7]{(0,0)}{0}{60}{}\pfwinkel*[0.7]{(2.4,0)}{120}{180}{}\pfwinkel*[0.7]{(1.2,2.078)}{-120}{-60}{}\end{scope}\end{tikzpicture}
-- **Heranführung:** T2U 11.10. Nr. 3 (abgenommen; Kritiker B 13.10.: weckt den Gedanken an der Figur, die Wissensfrage nicht).
+- **Begriff:** Basiswinkel: die zwei gleichen Winkel an der Grundseite des gleichschenkligen Dreiecks.
+- **Heranführung:** Nr. 5 fällt weg (plan.md § 10, 15.10. l: das Prinzip steckt im Original); der Begriff steht über der ersten Aufgabe (16.10. e).
 - **Durchsicht 13.10.:** Schritt B (Daten): ’23 · 1g (Seite ablesen, γ ausrechnen; je eine Antwortzeile) und ’23 · 7a (begründen).
 - **Kern:** nein – 2 echte, nur 2023
 - **Originale:** 2023-OS-B1g 2023-OS-K7a
