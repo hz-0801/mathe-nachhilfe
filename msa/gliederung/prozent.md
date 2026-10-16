@@ -15,6 +15,12 @@ Kennung: Prozent = PS10
 Kennung: Grundwert = PS20
 Ordner: Prozent = prozent
 Ordner: Grundwert = grundwert
+Formelsammlung: Prozent = Formeln und Werte S. 11: Grundgleichung
+Formelsammlung: Grundwert = Formeln und Werte S. 11: Grundgleichung
+Kern am Ende: Prozent = Prozentsatz = Teil : Ganzes, dann mal 100 % (1,2 : 8,0 = 0,15 = 15 %). | Veränderung in Prozent: erst den Unterschied (neu − alt), dann durch den alten Wert teilen. | Brüche kennen: 10 % = ein Zehntel, 25 % = ein Viertel, 50 % = die Hälfte; Steigung 8 % = 8 m Höhe auf 100 m. | Aussage prüfen: Anteil ausrechnen und mit der Aussage vergleichen.
+Kern am Ende: Grundwert = Grundwert: das Ganze, also 100 %. | Prozentwert = Grundwert · p % (40 % von 60 € = 0,4 · 60 €). | Neuer Wert: erst den Prozentwert, dann zum alten Wert dazu oder davon ab. | Grundwert gesucht: Prozentwert : p · 100 (7 € sind 25 % → 7 € · 4 = 28 €).
+
+Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe). Die Seitenfrage „Prozentrechnung in deiner Formelsammlung: Seite ___“ entfällt (pruefung.md § 5 Punkt 1).
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -52,7 +58,6 @@ druckt die Jahre.
 - **Anzeigename:** Prozentwert gesucht
 - **Regine:** S. 18
 - **Durchsicht 13.10.:** Name schon in der Reihe „… gesucht“; ein leichtes Basis-Original, keine Heranführung nötig.
-- **Frage:** Prozentrechnung in deiner Formelsammlung: Seite ___
 - **Probe 14.10.:** Ebene 1 (Seitenfrage, einmal je Blatt, an der ersten Stufe): erst die Stelle in Regine finden (S. 18, Grundgleichung mit G, W, p); Lösung „S. 18“ aus Feld Regine.
 - **Kern:** ja – 6 echte Teilaufgaben 2014–2026, fast jedes Jahr im Basisteil (Niveau I), Bank-Einheit 3 mit Grundfall
 - **Originale:** 2026-FOR-B1a 2014-OS-B1a 2017-OS-B1b 2021-OS-B1c 2019-OS-K5a 2015-OS-K2a
@@ -92,6 +97,7 @@ druckt die Jahre.
 - **Schülerfrage-Fälle:** → 6 Kinder = W; gesucht G (die ganze Klasse)
 - **Schülerfrage-Form:** antwort:6 Kinder|;gesucht|
 - **Kern:** ja – Basisteil 2023 und 2025 (Niveau I), Bank-Einheit 4 mit Grundfall
+- **Begriff:** Grundwert: das Ganze, also 100 %.
 - **Originale:** 2023-OS-B1b 2025-OS-B1a
 - **Bank:** prozentrechnung-e4-k2-s5 prozentrechnung-e4-k2-s6 prozentrechnung-e4-k2-s8 prozentrechnung-e4-k3-s4
 - **Verwechselbar:** Prozentwert | Prozentsatz | Erhöhung und Veränderung in Prozent
