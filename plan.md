@@ -254,6 +254,13 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      wie PA10 (bau/durchsicht/pa10.json). (3) Danach Bauauftrag
      Bestell-Chat, „Stimmt das? Begründe.“. Abitur-Lösungen später
      (Lehrer 16.10.).]
+     [Stand 16.10. Mittag: (1) erledigt – Lösungszeile im Setzer
+     (mathblatt.sty 16n \lzz, pruefheft.py), Stichwörter aufgabenbank
+     bau/stichworte-p10.csv (54), loesung-pruef.py prüft, was links
+     gedruckt wird; Neusatz und Mappe; Lehrer: Pythagoras passt.
+     Jetzt (2): Mappe ab PA20 zum Kommentieren. Vorher Neusatz mit dem
+     Katalog-Stand des Chats Bau (Lösungsfelder 16.10. neu), falls der
+     letzte Neusatz älter ist.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
@@ -689,6 +696,14 @@ Daten-Agent 0,30 Mio, 82 min; Neusatz 10 min, Mappe ≈ 15 min
 (16.10. morgens), ein zweiter Chat lief parallel – Runde ≤ 2 Punkte,
 Schätzung hält. Regel: Schrittgrenze im Auftrag hält nicht – Agent
 nach 60 Schritten abbrechen lassen oder Teile kleiner schneiden.
+
+Lösungszeile (16.10. Mittag, Sonnet, 1 Agent, Chat Durchsicht 4):
+Agent 0,16 Mio Token, 17 min (45 Schritte, Grenze 40 je Teil
+gehalten), Neusatz und Mappe zweimal je ≈ 25 min (Skripte).
+Schätzung 0,3 Punkte; Anzeige 46 → 48 % (Chat Bau lief parallel,
+Chat-Antworten nicht geschätzt). Regel: die Chat-Antworten einer
+Runde mitschätzen und die Anzeige vor dem Start abfragen, sonst
+lässt sich der Verbrauch keiner Runde zuordnen.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
