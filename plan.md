@@ -649,6 +649,13 @@ Paetec gesetzt + Titelbild beide (15.10. nachts, Opus, 1 Agent):
 Paetec Figuren S. 28–43 (15.10. nachts, Opus): 0,20 Mio (Schätzung
 0,2), 13 min (Schätzung 25). Anzeige 43 % davor.
 
+Schritt C Sparfassung (16.10. nachts, Opus medium, Chat Durchsicht):
+Setzer-Agent 0,27 Mio, 79 min (102 Schritte trotz Grenze 60);
+Daten-Agent 0,30 Mio, 82 min; Neusatz 10 min, Mappe ≈ 15 min
+(Skripte). Schätzung 0,75 Mio / 2–2,5 Punkte; Anzeige vorher 44 %,
+nachher offen. Regel: Schrittgrenze im Auftrag hält nicht – Agent
+nach 60 Schritten abbrechen lassen oder Teile kleiner schneiden.
+
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
   Tafelwerke: Duden „Formeln und Werte“ und Paetec Sek I (das an der
