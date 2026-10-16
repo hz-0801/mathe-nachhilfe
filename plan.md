@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–l; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–m; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
      Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
      Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
@@ -238,7 +238,22 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Geometrie. Erst danach: Bauauftrag Bestell-Chat (fünf Lücken
      von Claude geklärt, offen nur „Kritiker vor Lieferung neuer
      Lernblätter?“ Weg A danach / Weg B davor, Empfehlung A) und
-     Blatt „Stimmt das? Begründe.“.]
+     Blatt „Stimmt das? Begründe.“]
+     [Stand 16.10. mittags: Durchsicht 2 Etappe 1 (PA10 Lineare, 16
+     Kommentare) beantwortet und entschieden (16.10. h–k). Schritt C
+     Sparfassung umgesetzt (Setzer v0.18, Daten Geometrie/Lineare,
+     Neusatz, Mappe 280 S.); Lösungen in neuer Form (16.10. l),
+     loesung-pruef.py meldet 0, der Setzer setzt P10 nur ohne Meldung.
+     Jetzt, in dieser Folge: (1) Lösungszeile nach 16.10. m umsetzen
+     (Setzer: Zeile je Teilaufgabe, Nummer dicht, Punktlinie; Daten:
+     Optionstexte als Stichwort) – klein, ein Agent oder Chat-Skript,
+     mit Go; Neusatz, Muster Pythagoras-Lösung. (2) Lehrer bekommt die
+     neue Mappe ab PA20 (Funktionen ohne Lineare, Daten und Zufall,
+     Zahlen und Terme) zum Kommentieren, in Etappen; Kommentare
+     auslesen (werkzeuge/kommentare.py), Blatt für Blatt beantworten
+     wie PA10 (bau/durchsicht/pa10.json). (3) Danach Bauauftrag
+     Bestell-Chat, „Stimmt das? Begründe.“. Abitur-Lösungen später
+     (Lehrer 16.10.).]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
@@ -1239,6 +1254,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   direkt untereinander. Ersetzt „Stufenköpfe in der Lösung“
   (11.10.), die Zwischenzeile aus g und „Lösung“ in der Liste von
   15.10. l. Bekräftigt 03.–05.10. und 06.10.
+- 16.10.2026 (m): Lösungszeile (Lehrer, Weg A; Chat Durchsicht).
+  Eine Zeile je Teilaufgabe: a), b), c) je eigene Zeile, auch bei
+  zwei Handgriffen (dann „;“ in der Zeile statt untereinander –
+  ersetzt „je Handgriff eine Zeile“ aus l); Nummer dicht vor dem
+  Ergebnis, Punktlinie vom Ergebnis zum Ansatz; Ankreuz- und
+  Erkennen-Antworten als Stichwort statt Optionstext („x und z“).
+  Steht in gemeinsam.md „Form der Lösung“. Umsetzung offen (Setzer
+  und Kürzung der Optionstexte, plan.md § 7).
 - 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder

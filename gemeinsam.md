@@ -366,21 +366,25 @@ Warum: Der Lehrer will in Sekunden sehen, ob ein Ergebnis stimmt, und
 bei einem falschen, wo es hängt – mehr braucht die Lösung nicht; jedes
 weitere Wort verlangsamt das Prüfen. Beispiel:
 
-    8   h = √1188 ≈ 34,47 cm        h² + 16² = 38²
-    9   FA = √88172 ≈ 296,9 m       FA² + 262² = 396²
-    7   b)
-    3   w = √(u² + v²)
+    8   h = √1188 ≈ 34,47 cm ........ h² + 16² = 38²
+    12  H = 22,0 + √44,77 ≈ 28,7 m .. h² + 4,2² = 7,9²; H = 22,0 + h
+    5   x und z
+    11  a) r, h · s
+        b) 2r, h · Stab
 
 Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage,
 exakt zuerst, dann gerundet; Begründen: das Urteil. Rechts klein nur bei
 Rechenaufgaben der Ausgang der Rechnung – die Gleichung, mit der der
 Schüler anfängt, mit den Namen der Aufgabe (nicht die umgestellte
-Formel, nicht die Zahlenkette bis zum Ende); bei mehreren Handgriffen
-je einer eine Zeile, Gleichheitszeichen untereinander. Grenze: Rechts
+Formel, nicht die Zahlenkette bis zum Ende). Grenze: Rechts
 bleibt leer, wo die Aufgabe leicht ist (ankreuzen, aufstellen,
 erkennen, ablesen – die Antwort ist selbst der Schritt) oder rechts
-nur die Lösung wiederholte. Nie ein Satz, auch nicht verkürzt; alles
-linksbündig; keine Abschnittsköpfe, keine Stufenzeile, keine Punkte –
+nur die Lösung wiederholte. Nie ein Satz, auch nicht verkürzt;
+Ankreuz- und Erkennen-Antworten als Stichwort („x und z“), nicht der
+Optionstext. Eine Zeile je Teilaufgabe – a), b), c) je eigene Zeile;
+zwei Handgriffe stehen mit „;“ in derselben Zeile. Die Nummer steht
+dicht vor dem Ergebnis, eine Punktlinie führt zum Ansatz (Lehrer
+16.10., plan.md § 10 m). Alles linksbündig; keine Abschnittsköpfe, keine Stufenzeile, keine Punkte –
 die Nummern laufen durch und stehen direkt untereinander. Kopf mit
 kräftigem Strich „Lösungen · <Blattname>“, Schrift eine Stufe kleiner
 als das Blatt, zwei Spalten (plan.md § 10, 16.10. g).
