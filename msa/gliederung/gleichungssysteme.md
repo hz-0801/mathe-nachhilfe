@@ -30,7 +30,7 @@ dem Text die Gleichungen, dann lösen, dann deuten. „Variablen deuten“ (2022
 Worte fassen und lösen“ (2024-OS-K7b) sind eine Stufe: beide fragen zuerst, was eine Variable oder
 Gleichung in der Sache bedeutet (eigener erster Schritt; je ein Original wäre keine Stufe). Die Stufe
 steht zuletzt, weil ’24 · 7b danach noch lösen lässt und die schwerste Aufgabe ist (4 BE).
-Blatt = alle Originale 2022–2026 (4); ältere (2021-OS-K7b, 2016-OS-K6d) im Mehr-Block. Keine zwei
+Blatt = alle Originale 2022–2026 (4); ältere (2021-OS-K7b, 2016-OS-K6d) seit 16.10. mit auf dem Blatt am Ende von A (16.10. f, n: Blatt hält zwei Seiten, kein eigenes Mehr). Keine zwei
 Originale unterscheiden sich nur in den Zahlen; kein Bündel. Einziger Anstoß: vor „x und y gesucht“
 der erste Schritt des Einsetzens (umstellen, einsetzen mit Klammer) an einem einfacheren System ohne
 die Zahlen der Prüfung.
