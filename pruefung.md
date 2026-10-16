@@ -532,7 +532,7 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
 Warum hier: Die Entscheidungen aus der Durchsicht standen nur in
 plan.md § 10 mit „Umsetzung in Schritt C“ und in den Daten von
 Geometrie und Lineare; die übrigen Blätter blieben alt, und der
-Setzer ließ fehlende Felder still weg (16.10. n). Was ein P10-Blatt
+Setzer ließ fehlende Felder still weg (16.10. o). Was ein P10-Blatt
 haben muss, steht deshalb hier; `werkzeuge/regel-pruef.py`
 (aufgabenbank) prüft es je Einheit, der Setzer setzt P10 nur ohne
 Meldung. Gilt für jedes Blatt, nicht nur das, an dem es entschieden
@@ -562,7 +562,7 @@ wurde.
    gekürzt, jeder Teil steht in dem Abschnitt seines Handgriffs
    (Parabel zeichnen ohne „Gib den Scheitelpunkt an“; der kommt nach
    „Scheitelpunkt angeben“). Buchstaben A, B, C an den Abschnitten;
-   die Stufenzeile oben ohne Buchstaben (16.10. n).
+   die Stufenzeile oben ohne Buchstaben (16.10. o).
 6. Lösung nach gemeinsam.md „Form der Lösung“ (16.10. l, m), geprüft
    mit loesung-pruef.py; a), b) nur, wo das Blatt sie hat.
 

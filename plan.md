@@ -263,7 +263,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      letzte Neusatz älter ist.]
      [Stand 16.10. nachmittags: Etappe Funktionen kommentiert (11
      Kommentare, aufgabenbank bau/durchsicht/durchsicht-3-funktionen/);
-     Befund 16.10. n. Jetzt: Runde „Pflichtteile ab PA20“ (Go Lehrer
+     Befund 16.10. o. Jetzt: Runde „Pflichtteile ab PA20“ (Go Lehrer
      16.10.) – Setzer und regel-pruef.py, Daten aller Einheiten ab
      PA20, Neusatz; dann dem Lehrer die Etappe Funktionen erneut.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
@@ -344,6 +344,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
       0,35 Mio, ≈ 6 Wochenpunkte, 60 min. Offen bei der Arbeit:
       „Ankreuzen mit Begründung“ (2026 FOR 7b „B; A beginnt bei 0 €,
       C linear“) als Buchstabe; kurzer Grund – Lehrer ließ es stehen.]
+      [16.10. erledigt (Chat Bau 4): alle 14 Hefte --streng 0 (187
+      Zeilen, ein Commit je Heft); loesung-pruef: Mio./Mrd./hPa als
+      Einheit, Name vor „:“, Aufzählung je Glied; pruefungsbuch.py
+      setzt ₁ ₂ ′ ≙ ϱ. Buch neu (184 S., Lösungen 14 S.), Stichprobe
+      2025/2016 an den Lehrer. Jetzt: Blick des Lehrers, dann Punkt 2.]
    2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
       Lehrers).
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
@@ -1366,7 +1371,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   („Spannweite = 0,08 €/l“); ohne Namen bleiben Ankreuzen, Eintragen,
   Zeichnen, Urteil, Termwerte. loesung-pruef --streng meldet NAME.
 
-- 16.10.2026 (n): Durchsicht 3, Funktionen ab PA20 (Lehrer, Chat
+- 16.10.2026 (o): Durchsicht 3, Funktionen ab PA20 (Lehrer, Chat
   Durchsicht 5). Befund: Die Blätter ab PA20 hatten die Entscheidungen
   15.10. o bis 16.10. m nie bekommen – Schritt C lief nur über
   Geometrie und Lineare, die Regeln standen nur hier mit „Umsetzung
