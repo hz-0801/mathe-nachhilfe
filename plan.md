@@ -683,6 +683,13 @@ nach 60 Schritten abbrechen lassen oder Teile kleiner schneiden.
   (tesseract deu, ocrmypdf); erstes Buch Jesse = Cornelsen
   „Fundamente der Mathematik 10“, Marie-Curie-Gymnasium. Skript
   aufgabenbank-privat werkzeuge/buch-durchsuchbar.py.
+- Buch „P10 Originalprüfungen“ (Lehrer 16.10.): aufgabenbank-privat
+  werkzeuge/pruefungsbuch.py, ohne Modell aus dem Katalog; S. 2
+  Prüfungen und Lösungen, S. 3 nach Bereich. Lösungen vorerst
+  Kurzlösungen des Katalogs; sobald der Nebenchat die Lösungsblätter
+  nach Wunsch des Lehrers fertig hat, ersetzen sie diesen Teil
+  (je Heft eine PDF, Lesezeichen je Aufgabe, damit Hin- und
+  Rücksprung je Aufgabe gehen). Danach Abitur GK, LK, FHR gleich.
 - Setzer p_ergebnis: alle Gleichungen eines Teils als Kontrollwert,
   nicht die letzte; Antwortzeile nicht bei Lösung ohne Ziffer
   (befunde-M5.md, 15.10.).
