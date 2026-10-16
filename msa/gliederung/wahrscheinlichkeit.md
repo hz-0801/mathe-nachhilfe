@@ -12,6 +12,10 @@ Anzeigenamen: Baumdiagramm und Pfadregeln = Wahrscheinlichkeit
 Kennung alt: Baumdiagramm und Pfadregeln = VRK
 Kennung: Baumdiagramm und Pfadregeln = PS50
 Ordner: Baumdiagramm und Pfadregeln = wahrscheinlichkeit
+Formelsammlung: Baumdiagramm und Pfadregeln = Formeln und Werte S. 36: Baumdiagramm, Produktregel, Summenregel
+Kern am Ende: Baumdiagramm und Pfadregeln = Ergebnisse aufzählen: jede Möglichkeit der ersten Stufe mit jeder der zweiten. | Eine Stufe: Wahrscheinlichkeit = günstige : mögliche Ergebnisse; die Äste an einem Punkt ergeben zusammen 1. | Pfadregel: längs eines Pfades malnehmen, mehrere Pfade addieren; „nicht beide …“: 1 − Wahrscheinlichkeit des Gegenteils. | Ohne Zurücklegen: auf der zweiten Stufe ist einer weniger im Topf – Zähler und Nenner ändern sich.
+
+Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe).
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -69,6 +73,10 @@ Stufe „fast immer“; keine Zeile „Häufigkeit“, der Setzer druckt die Jah
 ### Pfadregel
 - **Anzeigename:** Pfadregeln anwenden
 - **Regine:** S. 41
+- **Teile (16.10. n):** Teile gemischter Originale, deren übriger Teil in einer anderen Stufe steht (Original · Wortlaut ⇒ Lösung)
+  - 2024-OS-K5b · Benjamin zieht in beiden Wochen den Joker: Weise nach, dass das die Wahrscheinlichkeit 1/36 hat. ⇒ 1/6 · 1/6 = 1/36
+  - 2026-FOR-K6b · Ermittle die Wahrscheinlichkeit, dass beide Würfel eine ungerade Zahl zeigen. ⇒ 2/6 · 4/6 = 2/9 ≈ 0,222
+- **Durchsicht 16.10.:** ’24 · 5b und ’26 · 6b stehen unter Baum ergänzen nur mit „Ergänze“ (Spalten *_einheit); die Pfadrechnung als Teil hier (16.10. n).
 - **Schülerfrage:** Ein Glücksrad mit roten und blauen Feldern wird zweimal gedreht. Rechnest du mit den Wahrscheinlichkeiten mal oder plus? Rechne nicht.
 - **Schülerfrage-Fälle:** erst rot, dann blau → mal | einmal rot und einmal blau, egal in welcher Folge → je Pfad mal, dann plus
 - **Schülerfrage-Form:** linie
