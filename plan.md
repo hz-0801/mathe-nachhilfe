@@ -279,6 +279,8 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
       gleich gebaut; Stochastik Jung und Stark per Skript – Go offen;
       Jesse: neu scannen am Kopierer oder einzeln, offen).
+   Vorschlag offen: Formelblatt der Prüfung (liegt den Heften bei,
+   fehlt in unseren PDFs) ins Buch, sobald es vorliegt.
    Daneben offen: die vier Fragen aus aufgabenbank
    bau/befunde-M5.md (seit 16.10. fällig).
 
@@ -1259,7 +1261,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Drucken. Buchseitenzahl auf jeder Seite, Sterne nur an
   Teilaufgaben, Lösungen hinten. Je Prüfung ein Buch (P10, Abitur
   GK, LK, FHR); IQB-Pool höchstens später eigener Band; thematische
-  Sammlung der Originale ins Buch der Lernblätter, nicht hier.
+  Sammlung der Originale ins Buch der Lernblätter, nicht hier. Titelseite
+  mit Kasten zur kommenden Prüfung (Termin, Zeit, BE, Hilfsmittel),
+  jährlich nach dem Fachbrief nachziehen (NAECHSTE im Skript).
 
 ## 11 Register der Entscheidungen
 
