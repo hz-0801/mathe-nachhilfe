@@ -15,6 +15,14 @@ Kennung: Terme und Gleichungen = PZ30
 Ordner: Brüche, Zahlen und Potenzen = brueche
 Ordner: Größen und Dreisatz = dreisatz
 Ordner: Terme und Gleichungen = terme
+Formelsammlung: Brüche, Zahlen und Potenzen = Formeln und Werte S. 10: Potenz, abgetrennte Zehnerpotenz
+Formelsammlung: Größen und Dreisatz = Formeln und Werte S. 12: Dreisatz
+Formelsammlung: Terme und Gleichungen = Formeln und Werte S. 13: Äquivalenzumformung
+Kern am Ende: Brüche, Zahlen und Potenzen = Anteil = Teil : Ganzes; zähle gleich große Stücke (25 % = 1/4, 30 % von 30 Kästchen = 9 Kästchen). | Vergleichen: alles als Dezimalzahl schreiben (33 % = 0,33; 0,3² = 0,09; 2⁻³ = 1/8 = 0,125). | Zehnerpotenz: 3 600 000 = 3,6 · 10⁶ – der Exponent zählt, um wie viele Stellen das Komma rückt. | Potenz: 5³ = 5 · 5 · 5 = 125.
+Kern am Ende: Größen und Dreisatz = Umrechnen: 1 h = 60 min, 1 m = 100 cm, 1 l = 1000 ml; erst die Einheiten angleichen, dann rechnen. | Dreisatz: erst auf 1 zurückrechnen (teilen), dann auf die gesuchte Menge (malnehmen). | Dauer = Menge : Rate (450 m : 2,5 m/s = 180 s), dann in die gesuchte Einheit umrechnen. | Kosten: Menge · Preis je Einheit, auf die Einheit achten (ct oder €).
+Kern am Ende: Terme und Gleichungen = Termwert: die Zahl für x einsetzen, Klammer zuerst (4 · (−1 − 5) = −24). | Term aus Text: Rechenwörter der Reihe nach übersetzen; was zuerst passiert, kommt in die Klammer. | Gleichung lösen: auf beiden Seiten dasselbe rechnen, bis x allein steht; Probe durch Einsetzen. | Ein Produkt ist 0, wenn ein Faktor 0 ist: 3 · (x − 4,5) = 0 ⇒ x = 4,5.
+
+Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe). Die Seitenfrage „Schlag in deiner Formelsammlung die Einheiten auf: Seite ___“ entfällt (pruefung.md § 5 Punkt 1; Duden hat keine Einheitentafel, die Einheiten trägt der Kern).
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026) für das Gebiet Z = Zahlen und Terme (plan.md § 10,
 14.10. b), angelegt 15.10.2026. Anlass: 26 BE der P10 2022–2026 hatten keinen Platz auf einem Blatt, alle
@@ -66,7 +74,6 @@ die Punkte.
 ### Größen umrechnen
 - **Anzeigename:** Größen umrechnen
 - **Regine:** S. 10 · 11
-- **Frage:** Schlag in deiner Formelsammlung die Einheiten auf: Seite ___
 - **Kern:** ja – 8 echte 2018–2026: Zeit, Länge, Volumen umrechnen oder vergleichen; Anzahl Portionen aus einer Gesamtmenge
 - **Originale:** 2025-OS-B1b 2024-OS-B1a 2026-FOR-B1d 2022-OS-B1h 2021-OS-B1a 2019-OS-B1b 2018-OS-B1e 2018-OS-B1b
 - **Zuschnitt:** Größen und Dreisatz
