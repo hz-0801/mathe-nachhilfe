@@ -266,13 +266,21 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Jesse (Cornelsen Fundamente 10) durchsuchbar mit Sprungmarken per
    Skript (aufgabenbank-privat werkzeuge/buch-durchsuchbar.py,
    buch-sprungmarken.py). Regeln § 10 (16.10. h).
-   Jetzt Bau: 1. Tafelwerke in Drive (16.10., Kopfzeile repariert,
-   „← zurück“). Jesse: Fotos zu schwach (gewölbt, ~110 dpi); Probe
-   Weg A (Wölbung per Skript, page-dewarp) nur teilweise besser –
-   Lehrer entscheidet Weg A, neu scannen oder neu setzen (Weg C). 2. Die vier Fragen aus
-   aufgabenbank bau/befunde-M5.md vorlegen (zurückgestellt bis
-   16.10.). 3. Übrige Scans per Skript wie Jesse, nur nach
-   Absprache.]
+   [16.10. erledigt (Chat Bau): Tafelwerke Duden und Paetec in Drive
+   Mathe/Bücher; Buch „P10 Originalprüfungen“ per Skript
+   (aufgabenbank-privat werkzeuge/pruefungsbuch.py, 182 S.), vom
+   Lehrer begutachtet, Form § 10 (16.10. m).]
+   Jetzt Bau, in dieser Folge (Lehrer 16.10.):
+   1. Warten auf die Lösungsblätter aus dem Nebenchat (je Heft eine
+      PDF, Lesezeichen je Aufgabe); dann statt der Kurzlösungen ins
+      Buch P10 einbinden, mit Sprung je Aufgabe hin und zurück.
+   2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
+      Lehrers).
+   3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
+      gleich gebaut; Stochastik Jung und Stark per Skript – Go offen;
+      Jesse: neu scannen am Kopierer oder einzeln, offen).
+   Daneben offen: die vier Fragen aus aufgabenbank
+   bau/befunde-M5.md (seit 16.10. fällig).
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -1240,6 +1248,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Schulbücher nur per Skript (geradestellen, Texterkennung,
   Sprungmarken), ohne Modell. Nutzer: Duden = Marie-Curie-Gymnasium
   Hohen Neuendorf, Paetec = Regine-Hildebrandt-Schule.
+- 16.10.2026 (m): Buch der Originalprüfungen (Lehrer, Chat Bau):
+  nur Originale, Hefte am Stück, neueste zuerst, ohne Deckblatt;
+  S. 1 Titel mit Deckblatt des jüngsten Hefts und Quelle
+  (Bildungsserver, Link und QR-Code); S. 2 Prüfungen und Lösungen,
+  gruppiert nach Prüfungsform (EBR und FOR getrennt / gemeinsam
+  Brandenburg / gemeinsam Berlin und Brandenburg), ohne
+  Jahresangaben; S. 3 Aufgaben nach Bereich (Basisaufgaben,
+  Funktionen, Geometrie, Daten und Zufall) mit Seitenbereichen zum
+  Drucken. Buchseitenzahl auf jeder Seite, Sterne nur an
+  Teilaufgaben, Lösungen hinten. Je Prüfung ein Buch (P10, Abitur
+  GK, LK, FHR); IQB-Pool höchstens später eigener Band; thematische
+  Sammlung der Originale ins Buch der Lernblätter, nicht hier.
 
 ## 11 Register der Entscheidungen
 
