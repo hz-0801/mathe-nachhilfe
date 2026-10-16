@@ -84,9 +84,8 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 ### Kapitel Gleichungssysteme
 
 #### Gleichungssystem im Sachzusammenhang – 4 · 2 J · zuletzt 2024 · 11 BE
-- neu: aufstellen – 2024-OS-K7a (Lineares Gleichungssystem aufstellen)
-- neu: lösen – 2022-OS-K7b (Lineares Gleichungssystem lösen)
-- neu: deuten – 2022-OS-K7a (Gleichung im Sachzusammenhang deuten), 2024-OS-K7b (Gleichung im Sachzusammenhang deuten)
+- neu: aufstellen – 2024-OS-K7a (Lineares Gleichungssystem aufstellen), 2022-OS-K7a (Gleichung im Sachzusammenhang deuten)
+- neu: lösen – 2022-OS-K7b (Lineares Gleichungssystem lösen), 2024-OS-K7b (Gleichung im Sachzusammenhang deuten)
 
 ### Kapitel Wachstum
 

@@ -353,7 +353,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2022-OS-K5e;flaechen:Fläche gesucht;;dreiecke:Seite berechnen;Hauptplatz nach Zuordnung. Zwischenschritt aus typ_neben
 2022-OS-K6a;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Endwert linearer Veränderung berechnen“ (bis 12.10.: Endwert berechnen)
 2022-OS-K6b;lineare:Gleichung aus Text;;;Hauptplatz nach typ „Lineare Funktion aus Sachverhalt aufstellen“ (bis 12.10.: Gleichung aufstellen und rückwärts rechnen)
-2022-OS-K7a;gleichungssysteme:deuten;;;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“
+2022-OS-K7a;gleichungssysteme:aufstellen;;;Bedeutung der Variablen = Gleichung ↔ Text (16.10. n; bis 16.10. deuten)
 2022-OS-K7b;gleichungssysteme:lösen;;;Hauptplatz nach typ „Lineares Gleichungssystem lösen“
 2023-GYM-B1a;lineare:Nullstelle;;;Hauptplatz nach typ „Nullstelle lineare Funktion berechnen“ (bis 12.10.: Gleichung aufstellen und rückwärts rechnen)
 2023-GYM-B2a;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Term zu Figur angeben“
@@ -434,7 +434,7 @@ id;hauptplatz;ganz_auch;zwischenschritt;begruendung
 2024-OS-K6c;zahlen:Dauer gesucht;zahlen:Größen umrechnen;;Weg durch Geschwindigkeit, Sekunden in Minuten
 2024-OS-K6d;dreiecke:Seite berechnen (Sinussatz);;dreiecke:Winkelsumme;Hauptplatz nach typ „Sinussatz Seite berechnen“. γ = 180° − 38° − 108°
 2024-OS-K7a;gleichungssysteme:aufstellen;;;Hauptplatz nach typ „Lineares Gleichungssystem aufstellen“
-2024-OS-K7b;gleichungssysteme:deuten;;gleichungssysteme:lösen;Hauptplatz nach typ „Gleichung im Sachzusammenhang deuten“ (beginnt mit dem Satz zu Gleichung II). Zwischenschritt aus typ_neben
+2024-OS-K7b;gleichungssysteme:lösen;;gleichungssysteme:aufstellen;„Löse das Gleichungssystem“ (16.10. n); der Satz zu Gleichung II steht als Teil unter aufstellen (bis 16.10. deuten)
 2025-GYM-B1b;flaechen:Fläche gesucht;;;Hauptplatz nach typ „Flächeninhalt zusammengesetzter Figur berechnen“
 2025-GYM-B2b;quadratische:Nullstellen berechnen;;;Hauptplatz nach typ „Nullstellen quadratische Funktion berechnen“
 2025-GYM-K3a;wachstum:Faktor bestimmen, Gleichung aufstellen;;;Hauptplatz nach Urteil. Punktprobe an einer Exponentialfunktion
