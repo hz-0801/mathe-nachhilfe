@@ -13,7 +13,7 @@ Kennung alt: Exponentielles Wachstum = 74A
 Kennung: Exponentielles Wachstum = PA50
 Ordner: Exponentielles Wachstum = wachstum
 Formelsammlung: Exponentielles Wachstum = Formeln und Werte S. 11: Kapital bei Zinseszinsen
-Kern am Ende: Exponentielles Wachstum = Wachstumsfaktor: die Zahl, mit der du in jedem Schritt malnimmst. Zunahme um p %: 1 + p/100 (2,3 % → 1,023); Abnahme um p %: 1 − p/100 (9 % → 0,91). | Gleichung: y = Anfangswert · Faktor^x, x zählt die Schritte (Jahre, Stunden, km). | Tabelle: jeden Wert mit dem Faktor malnehmen; Faktor aus der Tabelle: ein Wert geteilt durch den davor. | Graph: exponentiell = die Zunahme wird immer größer (Kurve), linear = gleiche Zunahme (Gerade); der Graph beginnt beim Anfangswert.
+Kern am Ende: Exponentielles Wachstum = Wachstumsfaktor: die Zahl, mit der du in jedem Schritt malnimmst. Zunahme um p %: 1 + p/100 (2,3 % → 1,023); Abnahme um p %: 1 − p/100 (9 % → 0,91). | Gleichung: y = Anfangswert · Faktor hoch x, x zählt die Schritte (Jahre, Stunden, km). | Tabelle: jeden Wert mit dem Faktor malnehmen; Faktor aus der Tabelle: ein Wert geteilt durch den davor. | Graph: exponentiell = die Zunahme wird immer größer (Kurve), linear = gleiche Zunahme (Gerade); der Graph beginnt beim Anfangswert.
 
 Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe). Tafelwerk: Duden S. 33 (Exponentialfunktion y = aˣ) hat keine Wachstumsformel; die Zinseszinsformel S. 11 Kₙ = K₀ · ((100 + p)/100)ⁿ ist dieselbe Gleichung mit Geld.
 
