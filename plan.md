@@ -286,6 +286,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    (aufgabenbank-privat werkzeuge/pruefungsbuch.py, 182 S.), vom
    Lehrer begutachtet, Form § 10 (16.10. m).]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
+   [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
+   Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
+   loesung-pruef 0 – Blick des Lehrers offen.]
    1. Lösungsblätter der Originale baut der Chat Bau selbst (Lehrer
       16.10., statt Warten auf den Nebenchat): je Heft eine PDF,
       Lesezeichen je Aufgabe, Originalzahlen aus dem Katalog
