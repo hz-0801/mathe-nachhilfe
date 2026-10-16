@@ -1335,6 +1335,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   senkrecht mittig (unten rechts verdeckt der Seitenzähler des
   Betrachters); Bereiche in festen Spalten; jedes Lösungsheft auf
   eigener Seite (Lehrer 16.10.).
+- 16.10.2026 (n): Lösungen der Originale (Lehrer, Chat Bau 3, Pilot
+  2026 FOR „besser“): Satz mit mathblatt.sty wie die Bank-Lösungen;
+  ein Wert mit Einheit trägt seinen Namen („V = 27 cm³“, nicht
+  „27 cm³“) – Name aus der Aufgabe, sonst kurz aus „gesucht“
+  („Spannweite = 0,08 €/l“); ohne Namen bleiben Ankreuzen, Eintragen,
+  Zeichnen, Urteil, Termwerte. loesung-pruef --streng meldet NAME.
 
 ## 11 Register der Entscheidungen
 

@@ -372,7 +372,8 @@ weitere Wort verlangsamt das Prüfen. Beispiel:
     11  a) r, h · s
         b) 2r, h · Stab
 
-Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage,
+Links das gefragte Ergebnis fett, mit Einheit und Namen („V = 27 cm³“;
+Lehrer 16.10., plan.md § 10 n), in der Form der Frage,
 exakt zuerst, dann gerundet; Begründen: das Urteil. Rechts klein nur bei
 Rechenaufgaben der Ausgang der Rechnung – die Gleichung, mit der der
 Schüler anfängt, mit den Namen der Aufgabe (nicht die umgestellte
