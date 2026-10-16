@@ -286,9 +286,14 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    (aufgabenbank-privat werkzeuge/pruefungsbuch.py, 182 S.), vom
    Lehrer begutachtet, Form § 10 (16.10. m).]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
-   1. Warten auf die Lösungsblätter aus dem Nebenchat (je Heft eine
-      PDF, Lesezeichen je Aufgabe); dann statt der Kurzlösungen ins
-      Buch P10 einbinden, mit Sprung je Aufgabe hin und zurück.
+   1. Lösungsblätter der Originale baut der Chat Bau selbst (Lehrer
+      16.10., statt Warten auf den Nebenchat): je Heft eine PDF,
+      Lesezeichen je Aufgabe, Originalzahlen aus dem Katalog
+      (kurzloesung, zwischenergebnis), Form gemeinsam.md „Form der
+      Lösung“, loesung-pruef.py meldet 0; dann statt der
+      Kurzlösungen ins Buch P10 einbinden, mit Sprung je Aufgabe hin
+      und zurück. Die Skript-Lösungen (andere Zahlen) bleiben im
+      Chat Durchsicht.
    2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
       Lehrers).
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
