@@ -652,8 +652,9 @@ Paetec Figuren S. 28–43 (15.10. nachts, Opus): 0,20 Mio (Schätzung
 Schritt C Sparfassung (16.10. nachts, Opus medium, Chat Durchsicht):
 Setzer-Agent 0,27 Mio, 79 min (102 Schritte trotz Grenze 60);
 Daten-Agent 0,30 Mio, 82 min; Neusatz 10 min, Mappe ≈ 15 min
-(Skripte). Schätzung 0,75 Mio / 2–2,5 Punkte; Anzeige vorher 44 %,
-nachher offen. Regel: Schrittgrenze im Auftrag hält nicht – Agent
+(Skripte). Schätzung 0,75 Mio / 2–2,5 Punkte; Anzeige 44 → 46 %
+(16.10. morgens), ein zweiter Chat lief parallel – Runde ≤ 2 Punkte,
+Schätzung hält. Regel: Schrittgrenze im Auftrag hält nicht – Agent
 nach 60 Schritten abbrechen lassen oder Teile kleiner schneiden.
 
 ## 9 Später
