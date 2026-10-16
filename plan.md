@@ -261,6 +261,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Jetzt (2): Mappe ab PA20 zum Kommentieren. Vorher Neusatz mit dem
      Katalog-Stand des Chats Bau (Lösungsfelder 16.10. neu), falls der
      letzte Neusatz älter ist.]
+     [Stand 16.10. nachmittags: Etappe Funktionen kommentiert (11
+     Kommentare, aufgabenbank bau/durchsicht/durchsicht-3-funktionen/);
+     Befund 16.10. n. Jetzt: Runde „Pflichtteile ab PA20“ (Go Lehrer
+     16.10.) – Setzer und regel-pruef.py, Daten aller Einheiten ab
+     PA20, Neusatz; dann dem Lehrer die Etappe Funktionen erneut.]
    Offen (Lehrer), von Claude vorläufig entschieden: Abitur
    Du-Form; Abitur-Blätter bis 3 Seiten statt teilen; Kennung
    Original neu PO24-1; Zuschnitt Abitur 33 Blätter (Befund
@@ -1360,6 +1365,21 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   „27 cm³“) – Name aus der Aufgabe, sonst kurz aus „gesucht“
   („Spannweite = 0,08 €/l“); ohne Namen bleiben Ankreuzen, Eintragen,
   Zeichnen, Urteil, Termwerte. loesung-pruef --streng meldet NAME.
+
+- 16.10.2026 (n): Durchsicht 3, Funktionen ab PA20 (Lehrer, Chat
+  Durchsicht 5). Befund: Die Blätter ab PA20 hatten die Entscheidungen
+  15.10. o bis 16.10. m nie bekommen – Schritt C lief nur über
+  Geometrie und Lineare, die Regeln standen nur hier mit „Umsetzung
+  in Schritt C“, und der Setzer ließ fehlende Felder still weg.
+  Abhilfe: Pflichtteile stehen in pruefung.md § 5 „Pflichtteile eines
+  P10-Blatts“; werkzeuge/regel-pruef.py prüft je Einheit, der Setzer
+  setzt P10 nur ohne Meldung; der Lehrer bekommt einen Block erst,
+  wenn regel-pruef 0 meldet. Linie: Eine Entscheidung gilt erst als
+  umgesetzt, wenn sie in der Sortendatei steht und ein Skript sie
+  erzwingt. Dazu: Gleichungssystem zwei Abschnitte (A System
+  aufstellen, mit Bedeutung · B System lösen, mit Rechenraum);
+  Tafelwerk dort nur als Zeile mit Seite, kein Formelkasten; die
+  Stufenzeile oben ohne Buchstaben, die Abschnitte behalten A, B, C.
 
 ## 11 Register der Entscheidungen
 

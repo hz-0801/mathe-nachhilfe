@@ -527,6 +527,45 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Grenze: nur Originale, nichts Erfundenes – fehlen leichte, ist die
   Portion schwer; Anhang „Mehr zum Üben“ nur auf Zuruf (06.10.).
 
+### Pflichtteile eines P10-Blatts (gesammelt 16.10.)
+
+Warum hier: Die Entscheidungen aus der Durchsicht standen nur in
+plan.md § 10 mit „Umsetzung in Schritt C“ und in den Daten von
+Geometrie und Lineare; die übrigen Blätter blieben alt, und der
+Setzer ließ fehlende Felder still weg (16.10. n). Was ein P10-Blatt
+haben muss, steht deshalb hier; `werkzeuge/regel-pruef.py`
+(aufgabenbank) prüft es je Einheit, der Setzer setzt P10 nur ohne
+Meldung. Gilt für jedes Blatt, nicht nur das, an dem es entschieden
+wurde.
+
+1. Tafelwerk (15.10. o, t; 16.10. a, n). Warum: Der Schüler soll die
+   Formel so sehen, wie er sie in der Prüfung aufschlägt. Entweder
+   Formelkasten (nur Formeln, die sitzen müssen: Pythagoras, sin/cos/
+   tan, Sinussatz, Geradengleichung, Scheitelpunktform, pq-Formel)
+   oder die Formelsammlungs-Zeile ohne Nummer unter dem Titel mit
+   Stichwort und Seite. Beispiel: Gleichungssystem „Formeln und Werte
+   S. 15: Einsetzungs-, Gleichsetzungs-, Additionsverfahren“. Grenze:
+   Gibt das Tafelwerk zum Handgriff nichts her (Symmetrie), steht das
+   als Grund in der Gliederung – nie stilles Fehlen. Die alte Zeile
+   „Schlag zuerst die Formel nach … Seite __“ gibt es nicht mehr.
+2. Kern am Ende (15.10. w): höchstens vier Aussagen und ein Bild, aus
+   denen alle Originale der Einheit lösbar sind.
+3. Begriff (16.10. e): ein Einzeiler über der ersten Aufgabe der
+   Stufe, die ihn braucht, wortgleich im Kern; nur wo das Blatt den
+   Begriff einführt.
+4. Mehr aufs Blatt (16.10. f): solange das Blatt zwei Seiten hält,
+   stehen die Mehr-Aufgaben als letzter Abschnitt „Ältere
+   Prüfungsaufgaben“ darauf; nie eine leere zweite Seite neben einem
+   eigenen Mehr.
+5. Abschnitte (15.10. l, o; 16.10. h, n). Warum: Der Schüler übt in
+   einem Abschnitt einen Handgriff. Ein gemischtes Original wird
+   gekürzt, jeder Teil steht in dem Abschnitt seines Handgriffs
+   (Parabel zeichnen ohne „Gib den Scheitelpunkt an“; der kommt nach
+   „Scheitelpunkt angeben“). Buchstaben A, B, C an den Abschnitten;
+   die Stufenzeile oben ohne Buchstaben (16.10. n).
+6. Lösung nach gemeinsam.md „Form der Lösung“ (16.10. l, m), geprüft
+   mit loesung-pruef.py; a), b) nur, wo das Blatt sie hat.
+
 ## 6 Lösung
 
 - Basis (P10): Antwortbogen zum amtlichen Heft (QR-Code, Antwortfeld je
