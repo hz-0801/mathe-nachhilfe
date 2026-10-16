@@ -16,7 +16,7 @@ Kennung alt: Seite oder Winkel mit sin, cos, tan = GYW
 Anzeigenamen: Seite im allgemeinen Dreieck (Sinussatz) = Sinussatz
 Kennung alt: Seite im allgemeinen Dreieck (Sinussatz) = LXA
 Kennung alt: Vierecke: Symmetrie und Eigenschaften = 22A
-Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel
+Anzeigenamen: Winkel ohne Rechnung bestimmen oder begründen = Winkel aus Winkeln
 Kennung alt: Winkel ohne Rechnung bestimmen oder begründen = T2U
 Anzeigenamen: Vierecke: Symmetrie und Eigenschaften = Vierecke
 Kennung alt: Symmetrie = NUB
@@ -41,7 +41,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 ## Stufen
 
 ### Gleichung aufstellen
-- **Anzeigename:** Gleichung aufstellen
+- **Anzeigename:** Pythagoras aufstellen
 - **Regine:** S. 24
 - **Schülerfrage:** Markiere die Hypotenuse. Schreib dann die Gleichung des Satzes des Pythagoras auf.
 - **Schülerfrage-Fälle:** Dreieck mit den Seiten p, q und r → r² = p² + q²
@@ -89,7 +89,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Kathete gesucht [2024-OS-K6a 2026-FOR-K4a 2022-OS-K5a]
 
 ### Dreieck erst in Figur oder Körper finden
-- **Anzeigename:** in Figuren versteckt
+- **Anzeigename:** Pythagoras versteckt
 - **Regine:** S. 24
 - **Schülerfrage:** Welche Strecken bilden das rechtwinklige Dreieck? Nenne die beiden Katheten und die Hypotenuse.
 - **Schülerfrage-Fälle:** Kegel mit Radius r, Höhe h, Mantellinie s = Katheten r und h, Hypotenuse s | Zylinder mit Radius r, Höhe h; Stab vom Rand des Bodens schräg zum gegenüberliegenden oberen Rand = Katheten 2 · r und h, Hypotenuse der Stab
@@ -103,7 +103,7 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
   - Dreieck versteckt [2026-FOR-K2c 2022-OS-K2c] neben [2025-OS-K2a]
 
 ### Seitenverhältnis benennen
-- **Anzeigename:** Gleichung aufstellen
+- **Anzeigename:** sin, cos, tan aufstellen
 - **Regine:** S. 34
 - **Schülerfrage:** Benenne die Seiten des Dreiecks aus Sicht des Winkels α.
 - **Schülerfrage-Fälle:** Dreieck ABC mit dem rechten Winkel bei C = Gegenkathete a, Ankathete b, Hypotenuse c

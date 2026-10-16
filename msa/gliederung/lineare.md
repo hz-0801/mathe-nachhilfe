@@ -54,7 +54,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 „Häufigkeit“; der Setzer druckt die Jahre.
 
 ### Gerade zeichnen
-- **Anzeigename:** Gerade zeichnen
+- **Anzeigename:** Graph zeichnen
 - **Regine:** S. 31
 - **Frage:** Wo steht die Gleichung der linearen Funktion mit m und n? Formelsammlung, Seite ___
 - **Heranführung:** Lehrer 13.10. (TAL3 Nr. 1 „besser mit Formelsammlung: allgemeine Gleichung, m und n“); der Stups zur Steigungsformel bei „Gleichung aus zwei Punkten“ entfällt (ein Formelsammlungs-Stups je Blatt).
@@ -69,7 +69,7 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Durchsicht 13.10.:** Runde A: Anstoß steht für sich; drei statt vier Fälle (4 : x gestrichen – x² trägt schon „keine Gerade“), jeder trägt einen Gedanken: m hinten, keine Gerade, n = 0.
 
 ### Gleichung aus Graph
-- **Anzeigename:** Gleichung ablesen
+- **Anzeigename:** Gleichung aus Graph
 - **Regine:** S. 31
 - **Kern:** ja – erster Schritt: n am Schnitt mit der y-Achse ablesen, dann m mit einem Steigungsdreieck (Graph nach Steigung auswählen, Gleichung zum Graphen zuordnen 2019; Niveau I–II); Bank-Kette Ablesen mit Grundfall. Kein Original 2022–2026: die Stufe entfällt auf dem Blatt, die Originale stehen im Mehr-Block (Lehrer 13.10.: geteilt, weil der erste Schritt ein anderer ist als bei zwei Punkten). 2024-OS-B1i bleibt bei „Gerade zeichnen“: dort wird n aus der Gleichung gelesen und eingezeichnet, gesucht ist ein Punkt im Bild, nicht die Gleichung
 - **Originale:** 2019-OS-K2b 2019-OS-K2c

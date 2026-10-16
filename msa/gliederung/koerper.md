@@ -23,20 +23,42 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 
 ## Stufen
 
-### Volumen direkt
-- **Anzeigename:** Volumen gesucht
+### Volumenformel aufstellen
+- **Anzeigename:** Volumenformel aufstellen
 - **Regine:** S. 26 · 27
 - **Frage:** Such in deiner Formelsammlung das Volumen des Zylinders: Seite ___
 - **Schülerfrage:** Wie viel passt hinein? Schreibe nur die Formel auf, rechne nicht.
 - **Schülerfrage-Fälle:** Konservendose, 7 cm hoch, Radius 3,5 cm = V = π · r² · h | Zelt, 4 m lang, Vorderseite ein Dreieck = V = G · h | Eistüte, Radius 3 cm, Höhe 12 cm = V = 1/3 · π · r² · h
 - **Schülerfrage-Form:** linie
 - **Schülerfrage-Weg:** a) Zylinder; b) Prisma; c) Kegel
+- **Kern:** nein – keine eigene echte Aufgabe (wie Pythagoras aufstellen): erster Schritt jedes Originals der Stufen danach, mit dem Tafelwerk; Seitenfrage und Aufstell-Aufgabe aus „Volumen gesucht“ hierher (plan.md § 10, 16.10. c)
+- **Originale:** 
+- **Bank:** koerper-e3-k1-s1(i) pyramide-kegel-kugel-e1-k5-s1(i)
+- **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 16.10.:** Stufe neu (Lehrer, Weg A, Durchsicht PG90): parallel zu Pythagoras und sin, cos, tan („… aufstellen“).
+
+### Volumen direkt
+- **Anzeigename:** Volumen gesucht
+- **Regine:** S. 26 · 27
 - **Kern:** ja – 7 echte 2014–2026, fast jedes Jahr (Niveau I), Bank-Ketten Quader, Prisma, Zylinder, Pyramide, Kegel, Kugel mit Grundfall
 - **Originale:** 2026-FOR-B1f 2022-OS-K2b 2023-OS-K5b 2026-FOR-K2a 2021-OS-K4a 2016-OS-K3c 2014-OS-K5a 2024-OS-K4c
 - **Bank:** koerper-e2-k1-s1(i) koerper-e2-k1-s2(i) koerper-e3-k1-s1(i) koerper-e3-k1-s2(i) koerper-e3-k1-s3(i) koerper-e3-k1-s4(i) koerper-e3-k1-s5(i) koerper-e3-k1-s6(i) koerper-e4-k2-s1(i) koerper-e4-k2-s2(i) koerper-e4-k2-s3(i) koerper-e4-k2-s4(i) pyramide-kegel-kugel-e1-k5-s1(i) pyramide-kegel-kugel-e1-k5-s2(i) pyramide-kegel-kugel-e1-k5-s3(i) pyramide-kegel-kugel-e1-k5-s4(i) pyramide-kegel-kugel-e2-k2-s1(i) pyramide-kegel-kugel-e2-k2-s2(i) pyramide-kegel-kugel-e2-k2-s3(i) pyramide-kegel-kugel-e2-k2-s4(i) pyramide-kegel-kugel-e3-k1-s1(i) pyramide-kegel-kugel-e3-k1-s2(i) pyramide-kegel-kugel-e3-k1-s3(i) pyramide-kegel-kugel-e3-k1-s4(i) koerper-e2-k1-s10 koerper-e4-k2-s13 pyramide-kegel-kugel-e3-k1-s18[2016-OS-K3c] koerper-e5-k1-s5 koerper-e5-k1-s11 koerper-e4-k2-s5 pyramide-kegel-kugel-e3-k1-s13
 - **Verwechselbar:** Mantelfläche mit Kosten
 - **Zuschnitt:** Volumen und Oberfläche
 - **Durchsicht 13.10.:** Lehrer: Anzeigenamen wie bei Flächen (… gesucht, Formeln umstellen); Frage nach dem Volumen ausdrücklich („Wie viel passt hinein?“), sonst passt auch die Oberfläche; drei Fälle reichen; Anstoß Formelsammlung als Suchauftrag. Restvolumen (2024-OS-K4c) steht hier, wie „Figur erst zerlegen“ bei Flächen (Lehrer 13.10., Weg A).
+
+### rückwärts: Radius oder Höhe aus Volumen
+- **Anzeigename:** Volumenformel umstellen
+- **Regine:** S. 26 · 27
+- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
+- **Schülerfrage-Fälle:** Säule mit quadratischer Grundfläche: V = a² · h, gesucht ist a → a = √(V : h)
+- **Schülerfrage-Form:** linie
+- **Schülerfrage-Weg:** erst durch h teilen: a² = V : h, dann die Wurzel ziehen: a = √(V : h) (ebenso r beim Zylinder, nur mit π)
+- **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
+- **Originale:** 2022-OS-K2d 2023-OS-K5d
+- **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
+- **Zuschnitt:** Volumen und Oberfläche
+- **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen. AZL3: ’23 · 5d (Höhe gesucht, ohne Wurzel) aufs Blatt – zweite Erscheinungsform neben ’22 · 2d (Radius, mit Wurzel).
 
 ### Mantelfläche mit Kosten
 - **Anzeigename:** Oberfläche gesucht
@@ -51,19 +73,6 @@ und Zuschnitt vom 08.10.2026, Steckbriefe vom 07.10.2026.
 - **Verwechselbar:** Volumen direkt
 - **Zuschnitt:** Volumen und Oberfläche
 - **Durchsicht 13.10.:** Lehrer: „Welche Fläche wird bezahlt“ zwanghaft; Heranführung erwünscht. Neu: Mantel abrollen (zeigt, warum Mantel = Umfang · Höhe; Kreisumfang als Zwischenschritt).
-
-### rückwärts: Radius oder Höhe aus Volumen
-- **Anzeigename:** Formeln umstellen
-- **Regine:** S. 26 · 27
-- **Schülerfrage:** Stelle die Formel nach der gesuchten Größe um.
-- **Schülerfrage-Fälle:** Säule mit quadratischer Grundfläche: V = a² · h, gesucht ist a → a = √(V : h)
-- **Schülerfrage-Form:** linie
-- **Schülerfrage-Weg:** erst durch h teilen: a² = V : h, dann die Wurzel ziehen: a = √(V : h) (ebenso r beim Zylinder, nur mit π)
-- **Kern:** nein – 2 echte (2022, 2023 mit Stern), Niveau II/III, Sprossen ohne eigenen Grundfall
-- **Originale:** 2022-OS-K2d 2023-OS-K5d
-- **Bank:** koerper-e2-k1-s6(i) koerper-e3-k1-s10(i) koerper-e4-k2-s10(i) koerper-e4-k2-s11(i) koerper-e2-k3-s1(i) pyramide-kegel-kugel-e1-k5-s13(i) pyramide-kegel-kugel-e2-k2-s11(i) pyramide-kegel-kugel-e2-k2-s12(i) pyramide-kegel-kugel-e3-k1-s12(i) koerper-e4-k2-s15
-- **Zuschnitt:** Volumen und Oberfläche
-- **Durchsicht 13.10.:** Lehrer: Ankreuzen der Wurzel kostet zu viel Kraft; wie bei Flächen eine einfache Formel ohne Zahlen umstellen lassen. AZL3: ’23 · 5d (Höhe gesucht, ohne Wurzel) aufs Blatt – zweite Erscheinungsform neben ’22 · 2d (Radius, mit Wurzel).
 
 ### vergleichen und urteilen
 - **Anzeigename:** Körper vergleichen

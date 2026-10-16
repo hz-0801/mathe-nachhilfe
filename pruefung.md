@@ -62,29 +62,31 @@ werkzeuge/anzeigenamen-pruef.py):
     sin, cos, tan (7 · 5) · Seite im allgemeinen Dreieck, Sinussatz
     (2 · 2) · Vierecke: Symmetrie und Eigenschaften (1 · 1) · Winkel
     ohne Rechnung bestimmen oder begründen (6 · 4) · Symmetrie (2 ·
-    2). Blattnamen und Stufen (Lehrer 11.10., gemeinsam.md „Namen“;
-    Vierecke nimmt 2026-FOR-B1c Trapez-Aussage aus Winkel auf, Lehrer
-    11.10.; Gruppen: Rechtwinklige Dreiecke – Pythagoras · sin, cos,
-    tan; Alle Dreiecke und Vierecke – Winkel · Sinussatz · Vierecke):
-    Pythagoras – Gleichung aufstellen · Hypotenuse gesucht · Kathete
-    gesucht · in Figuren versteckt; sin, cos, tan – Gleichung
-    aufstellen · Winkel gesucht · Seite gesucht · Pythagoras oder sin,
-    cos, tan?; Sinussatz – Seite gesucht; Vierecke – Eigenschaften
-    prüfen; Winkel – Winkel gesucht · Basiswinkel gesucht · rechten
-    Winkel begründen; Symmetrie – Symmetrieachsen gesucht.
+    2). Blattnamen und Stufen (Lehrer 11.10.; 15.10. u, y; 16.10. d;
+    gemeinsam.md „Namen“; Vierecke nimmt 2026-FOR-B1c Trapez-Aussage
+    aus Winkel auf, Lehrer 11.10.; Gruppen: Rechtwinklige Dreiecke –
+    Pythagoras · sin, cos, tan; Alle Dreiecke und Vierecke – Winkel
+    aus Winkeln · Sinussatz · Vierecke): Pythagoras – Pythagoras
+    aufstellen · Hypotenuse gesucht · Kathete gesucht · Pythagoras
+    versteckt; sin, cos, tan – sin, cos, tan aufstellen · Winkel
+    gesucht · Seite gesucht · Pythagoras oder sin, cos, tan?;
+    Sinussatz – Seite gesucht; Vierecke – Eigenschaften prüfen;
+    Winkel aus Winkeln – Winkel gesucht · Basiswinkel gesucht ·
+    rechten Winkel begründen; Symmetrie – Symmetrieachsen gesucht.
   - Flächen: Flächeninhalt und Umfang (12 · 5). Blattnamen und Stufen:
     Fläche und Umfang – Formeln · Fläche gesucht · Umfang gesucht ·
     Formeln umstellen · Flächenanteil gesucht.
   - Körper: Volumen und Oberfläche (9 · 4) · Netz und Schrägbild (3 ·
-    3). Blattnamen und Stufen: Volumen und Oberfläche – Volumen
-    gesucht · Oberfläche gesucht · Formeln umstellen · Körper
-    vergleichen; Netz und Schrägbild – Netz erkennen · Netz skizzieren
-    · Schrägbild skizzieren.
+    3). Blattnamen und Stufen (16.10. c): Volumen und Oberfläche –
+    Volumenformel aufstellen · Volumen gesucht · Volumenformel
+    umstellen · Oberfläche gesucht · Körper vergleichen; Netz und
+    Schrägbild – Netz erkennen · Netz skizzieren · Schrägbild
+    skizzieren.
 - Funktionen
-  - Lineare: Lineare Funktionen (17 · 5). Blattnamen und Stufen:
-    Lineare Funktionen – Gerade zeichnen · Gleichung ablesen ·
-    Gleichung aus zwei Punkten · Nullstelle gesucht · Punktprobe ·
-    Gleichung aus Text · Gerade und Parabel.
+  - Lineare: Lineare Funktionen (17 · 5). Blattnamen und Stufen
+    (16.10. i): Lineare Funktionen – Graph zeichnen · Gleichung aus
+    Graph · Gleichung aus zwei Punkten · Nullstelle gesucht ·
+    Punktprobe · Gleichung aus Text · Gerade und Parabel.
   - Quadratische: Parabel: Scheitelpunkt und Skizze (7 · 5) ·
     Quadratische Gleichung lösen (8 · 5). Blattnamen und Stufen:
     Parabel – Parabel zeichnen · Scheitelpunkt angeben · Punktprobe ·

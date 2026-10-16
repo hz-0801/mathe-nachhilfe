@@ -45,9 +45,10 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 ### Kapitel Körper
 
 #### Volumen und Oberfläche – 9 · 4 J · zuletzt 2026 · 22 BE
+- neu: Volumenformel aufstellen – 
 - neu: Volumen direkt – 2026-FOR-B1f (Volumen Würfel berechnen), 2022-OS-K2b (Volumen Zylinder berechnen), 2023-OS-K5b (Volumen Zylinder berechnen), 2026-FOR-K2a (Volumen Zylinder berechnen), 2024-OS-K4c (Restvolumen berechnen)
-- neu: Mantelfläche mit Kosten – 2026-FOR-K2b (Mantelfläche Kegel berechnen)
 - neu: rückwärts: Radius oder Höhe aus Volumen – 2022-OS-K2d (Radius eines Zylinders aus Volumen berechnen), 2023-OS-K5d (Höhe eines Zylinders aus Volumen berechnen)
+- neu: Mantelfläche mit Kosten – 2026-FOR-K2b (Mantelfläche Kegel berechnen)
 - neu: vergleichen und urteilen – 2026-FOR-K2d (Volumen Kegel und Zylinder vergleichen)
 
 #### Netz und Schrägbild – 3 · 3 J · zuletzt 2024 · 10 BE
