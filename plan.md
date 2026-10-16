@@ -228,7 +228,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
      Blatt „Stimmt das? Begründe.“ (36 Teilaufgaben, 12 von 13
      Jahren) entscheiden.
      [Stand 16.10.: Geometrie durchgesehen (47 Kommentare, PG10–PG90),
-     Entscheidungen § 10 l, o, p, q–y, 16.10. a–k; Antworten
+     Entscheidungen § 10 l, o, p, q–y, 16.10. a–l; Antworten
      aufgabenbank bau/durchsicht/pg10–90.json. Lehrer 16.10.: Die
      Durchsicht ist nicht fertig – er kommentiert jetzt Funktionen,
      Daten und Zufall, Zahlen und Terme (aufgabenbank-privat
@@ -1211,6 +1211,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   nicht schon zeigen; die Regeln zum Heranführen gelten fürs
   Lernblatt unverändert. Verschärft pruefung.md „Eigene Aufgaben
   sparsam“. Umsetzung in Schritt C.
+- 16.10.2026 (l): Form der Lösung (Lehrer, Weg A ohne Abschnitte;
+  Kommentare zur Lösung PG50-5, aufgabenbank
+  bau/durchsicht/kommentare-loesung-pg50-2026-10-16.csv). Steht als
+  Regel in gemeinsam.md „Lösungen“ (dort gilt sie); Prüfskript
+  aufgabenbank werkzeuge/loesung-pruef.py. Kurz: links Ergebnis
+  exakt, dann gerundet; rechts nur bei Rechenaufgaben der Ausgang
+  der Rechnung mit den Namen der Aufgabe, nie die Lösung noch
+  einmal; keine Sätze; linksbündig; keine Abschnittsköpfe, Nummern
+  direkt untereinander. Ersetzt „Stufenköpfe in der Lösung“
+  (11.10.), die Zwischenzeile aus g und „Lösung“ in der Liste von
+  15.10. l. Bekräftigt 03.–05.10. und 06.10.
 - 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder

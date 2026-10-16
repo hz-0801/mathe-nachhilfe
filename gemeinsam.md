@@ -360,22 +360,40 @@ die der Lehrer noch entscheidet.
 
 ## Lösungen
 
-- Eigene Datei; eine Regel für alle Sorten: Tabelle, je Teilaufgabe
-  eine Zeile, eine Aufgabe nie über Spalte oder Seite; zweispaltig nur,
-  wenn eine Seite wegfällt. **Stufenköpfe in der Lösung** (Lehrer
-  11.10.): Warum: Lösung und Blatt sind dieselbe Sache; der Schüler
-  findet die Stelle, ohne zu suchen. Beispiel: die Stufenköpfe des
-  Blatts stehen wortgleich in der Lösung. Grenze: eine zweite Seite
-  ist dann erlaubt.
-- Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage;
-  Begründen: das Urteil. Rechts klein nur, was zum Ergebnis führt: je
-  Handgriff ein Zwischenergebnis als Ansatz ⇒ Wert; Begründen: der
-  Kern; Grafik: die Merkmale.
-- Was mehrere Teilaufgaben brauchen, steht einmal im Kopf; baut b auf a
-  auf, verweist b „mit a)“.
-- Keine Punkte, keine Fundstellenzeile, kein Tipp, kein ausführlicher
-  Weg, kein Fehlerhinweis. Quelle: Katalogfeld kurzloesung. CAS: eine
+**Form der Lösung** (Lehrer 16.10., plan.md § 10, 16.10. l; bekräftigt
+03.–05.10. und 06.10.; Prüfskript aufgabenbank werkzeuge/loesung-pruef.py).
+Warum: Der Lehrer will in Sekunden sehen, ob ein Ergebnis stimmt, und
+bei einem falschen, wo es hängt – mehr braucht die Lösung nicht; jedes
+weitere Wort verlangsamt das Prüfen. Beispiel:
+
+    8   h = √1188 ≈ 34,47 cm        h² + 16² = 38²
+    9   FA = √88172 ≈ 296,9 m       FA² + 262² = 396²
+    7   b)
+    3   w = √(u² + v²)
+
+Links das gefragte Ergebnis fett, mit Einheit, in der Form der Frage,
+exakt zuerst, dann gerundet; Begründen: das Urteil. Rechts klein nur bei
+Rechenaufgaben der Ausgang der Rechnung – die Gleichung, mit der der
+Schüler anfängt, mit den Namen der Aufgabe (nicht die umgestellte
+Formel, nicht die Zahlenkette bis zum Ende); bei mehreren Handgriffen
+je einer eine Zeile, Gleichheitszeichen untereinander. Grenze: Rechts
+bleibt leer, wo die Aufgabe leicht ist (ankreuzen, aufstellen,
+erkennen, ablesen – die Antwort ist selbst der Schritt) oder rechts
+nur die Lösung wiederholte. Nie ein Satz, auch nicht verkürzt; alles
+linksbündig; keine Abschnittsköpfe, keine Stufenzeile, keine Punkte –
+die Nummern laufen durch und stehen direkt untereinander. Kopf mit
+kräftigem Strich „Lösungen · <Blattname>“, Schrift eine Stufe kleiner
+als das Blatt, zwei Spalten (plan.md § 10, 16.10. g).
+
+- Eigene Datei; eine Aufgabe nie über Spalte oder Seite.
+- Was mehrere Teilaufgaben brauchen, steht einmal; baut b auf a auf,
+  verweist b „mit a)“.
+- Keine Punkte, keine Fundstellenzeile, kein Tipp, kein Weg, kein
+  Fehlerhinweis. Quelle: Katalogfelder kurzloesung (links) und
+  zwischenergebnis (rechts), Spalte loesung der Mehr-CSV und der Bank;
+  die Form gilt für diese Felder, nicht erst für den Satz. CAS: eine
   Kleinzeile mit dem Gerätebefehl, wo der Weg anders ist.
+- Abgelöst: „Stufenköpfe in der Lösung“ (11.10.).
 
 ## Bis die Datei Allgemein steht
 
