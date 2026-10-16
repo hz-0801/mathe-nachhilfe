@@ -58,29 +58,28 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 
 ### Kapitel Lineare
 
-#### Lineare Funktionen – 15 · 5 J · zuletzt 2026 · 36 BE · dazu 2 aus anderen Abschnitten
+#### Lineare Funktionen – 13 · 5 J · zuletzt 2026 · 33 BE
 - neu: Gerade zeichnen – 2025-OS-B1f (Graph einer linearen Funktion erkennen), 2024-OS-B1i (y-Achsenabschnitt ablesen), 2024-OS-K3a (Gerade aus Gleichung zeichnen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen), 2023-OS-K4a (Gerade aus Gleichung zeichnen)
 - neu: Gleichung aus Graph – 
 - neu: Gleichung aus zwei Punkten – 2025-OS-K5a (Gerade durch zwei Punkte zeichnen)
 - neu: Nullstelle – 2022-OS-K3a (Gerade aus Gleichung zeichnen)
 - neu: Punktprobe – 2023-OS-B1i (Punktprobe durchführen), 2026-FOR-K5b (Punktprobe durchführen)
 - neu: Gleichung aus Text – 2022-OS-K6a (Endwert linearer Veränderung berechnen), 2022-OS-K6b (Lineare Funktion aus Sachverhalt aufstellen), 2023-OS-K3a (Graph zu Tarif zuordnen), 2023-OS-K3b (Tarife vergleichen)
-- neu: Gemischt: Gerade und Parabel – 2025-OS-B1h (Lösung durch Einsetzen prüfen), 2024-OS-K3c (Punktprobe durchführen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen; kennst du aus „Quadratische Gleichung lösen“), 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen; kennst du aus „Quadratische Gleichung lösen“)
 
 ### Kapitel Quadratische
 
 #### Parabel: Scheitelpunkt und Skizze – 7 · 5 J · zuletzt 2026 · 12 BE · dazu 1 aus anderen Abschnitten
 - neu: Wertetabelle oder Skizze – 2026-FOR-B1e (Wertetabelle einer Funktion zuordnen), 2024-OS-K3b (Parabel aus Gleichung skizzieren)
 - neu: Scheitelpunkt ablesen – 2026-FOR-K5c (Scheitelpunkt ablesen), 2022-OS-K3b (Scheitelpunkt ablesen)
-- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Lineare Funktionen“)
+- neu: Punkt auf der Parabel prüfen – 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Quadratische Gleichung lösen“)
 - neu: Scheitelpunktform angeben – 2025-OS-K5b (Scheitelpunkt ablesen), 2023-OS-K4b (Scheitelpunkt ablesen)
 - neu: Lage zweier Parabeln ohne Rechnung begründen – 2026-FOR-K5d (Lage zweier Parabeln begründen)
 
-#### Quadratische Gleichung lösen – 4 · 4 J · zuletzt 2025 · 15 BE · dazu 4 aus anderen Abschnitten
+#### Quadratische Gleichung lösen – 6 · 4 J · zuletzt 2025 · 18 BE · dazu 2 aus anderen Abschnitten
 - neu: Nullstellen berechnen – 2025-OS-K5c (Nullstellen quadratische Funktion berechnen)
 - neu: x zu gegebenem y – 2023-OS-K4c (Argument zu Funktionswert berechnen)
 - neu: Gerade und Parabel gleichsetzen – 2022-OS-K3c (Schnittpunkte Gerade und Parabel berechnen), 2024-OS-K3d (Schnittpunkte Gerade und Parabel berechnen)
-- neu: Gemischt: Gerade und Parabel – 2025-OS-B1h (Lösung durch Einsetzen prüfen; kennst du aus „Lineare Funktionen“), 2026-FOR-K5a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“), 2024-OS-K3c (Punktprobe durchführen; kennst du aus „Lineare Funktionen“), 2023-OS-K4a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“)
+- neu: Gemischt: Gerade und Parabel – 2025-OS-B1h (Lösung durch Einsetzen prüfen), 2024-OS-K3c (Punktprobe durchführen), 2026-FOR-K5a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“), 2023-OS-K4a (Gerade aus Gleichung zeichnen; kennst du aus „Lineare Funktionen“)
 
 ### Kapitel Gleichungssysteme
 

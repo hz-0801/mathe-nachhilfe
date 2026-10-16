@@ -12,6 +12,7 @@ Anzeigenamen: Lineare Funktionen = Lineare Funktionen
 Kennung alt: Lineare Funktionen = TAL
 Kennung: Lineare Funktionen = PA10
 Ordner: Lineare Funktionen = lineare
+Formelkasten: Lineare Funktionen = duden-s29-y-f-x-m-2
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -29,7 +30,8 @@ Punktprobe · Gleichung aus Text; „Schnittpunkt zweier Geraden“ ist Buchstuf
 (zeichnen, dann Gleichung) bei Gleichung aus zwei Punkten. Die drei Buchstufen des Sachzusammenhangs
 (Gleichung aus Text, Wert berechnen, Angebote vergleichen) sind eine Stufe: erster Schritt jedes Originals
 ist, Anfangswert und Änderung aus dem Text zu holen (Schülerfrage). Einstieg Geraden = Erkennen (Lehrer
-12.10.): vier Funktionen, die linearen ankreuzen, an einer m und n benennen; danach 2025-OS-B1f (Graphen).
+12.10.) übernimmt seit 16.10. das Original 2025-OS-B1f (plan.md § 10, 16.10. j). „Gerade und Parabel“
+steht nur noch am Ende von Quadratische (16.10. h); Lineare endet mit „Gleichung aus Text“.
 
 TAL3 (Lehrer 13.10.): „Gleichung ablesen oder aus Punkten aufstellen“ ist geteilt in „Gleichung aus
 Graph“ (erster Schritt: n am Graphen ablesen, dann Steigungsdreieck) und „Gleichung aus zwei Punkten“
@@ -56,16 +58,12 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 ### Gerade zeichnen
 - **Anzeigename:** Graph zeichnen
 - **Regine:** S. 31
-- **Frage:** Wo steht die Gleichung der linearen Funktion mit m und n? Formelsammlung, Seite ___
-- **Heranführung:** Lehrer 13.10. (TAL3 Nr. 1 „besser mit Formelsammlung: allgemeine Gleichung, m und n“); der Stups zur Steigungsformel bei „Gleichung aus zwei Punkten“ entfällt (ein Formelsammlungs-Stups je Blatt).
-- **Schülerfrage:** Welche Funktionen sind linear? Kreuze an. Wähl eine lineare aus und gib ihr m und n an: $m = \underline{\hspace{10mm}}$, $n = \underline{\hspace{10mm}}$.
-- **Schülerfrage-Fälle:** $f(x) = 3 - 2x$ → ja | $f(x) = x^2 + 1$ → nein | $f(x) = 0{,}5x$ → ja
-- **Schülerfrage-Form:** kreuz:linear
-- **Schülerfrage-Weg:** linear sind a) und c): a) m = −2, n = 3 (die Zahl vor x ist m, auch hinten); c) m = 0,5, n = 0; x² gibt keine Gerade
+- **Heranführung:** Einstieg (Terme ankreuzen, m und n) fällt weg (plan.md § 10, 16.10. j): ’25 · 1f übt dasselbe Erkennen, m und n zeigt der Formelkasten; die Formelsammlungs-Frage ersetzt der Formelkasten (15.10. t).
 - **Kern:** ja – Graph erkennen, y-Achsenabschnitt einzeichnen, Gerade aus der Gleichung zeichnen, Eigenschaften prüfen (Basisteil 2016, 2024, 2025; Niveau I–II); Bank-Kette Graph zeichnen mit Grundfall
 - **Originale:** 2025-OS-B1f 2024-OS-B1i 2024-OS-K3a 2026-FOR-K5a 2023-OS-K4a 2016-OS-B1c 2021-OS-K2a 2021-OS-K2b
 - **Bank:** lineare-funktionen-e2-k4-s5(i) lineare-funktionen-e2-k4-s6(i) lineare-funktionen-e2-k4-s7(i) lineare-funktionen-e2-k4-s8(i) lineare-funktionen-e2-k6-s1(i) lineare-funktionen-e2-k7-s2(i) lineare-funktionen-e4-k4-s2(i) lineare-funktionen-e3-k2-s7[2023-OS-K4a,2021-OS-K2b]
 - **Zuschnitt:** Lineare Funktionen
+- **Durchsicht 16.10.:** Die Zeichen-Teile von ’26 · 5a und ’23 · 4a stehen gekürzt (ohne Parabel, eigenes Fenster) zusätzlich hier: Spalten *_einheit der Zeilen der Einheit „Gemischt: Gerade und Parabel“; ungekürzt nur noch auf Quadratische (16.10. h).
 - **Durchsicht 13.10.:** Runde A: Anstoß steht für sich; drei statt vier Fälle (4 : x gestrichen – x² trägt schon „keine Gerade“), jeder trägt einen Gedanken: m hinten, keine Gerade, n = 0.
 
 ### Gleichung aus Graph
@@ -119,14 +117,6 @@ Punkten 3, aus Graph 1, Nullstelle 3; das ganze Kapitel fehlt 2014, 2018 und 202
 - **Verwechselbar:** wachstum:Tabelle ergänzen | wachstum:Faktor bestimmen, Gleichung aufstellen
 - **Zuschnitt:** Lineare Funktionen
 - **Durchsicht 13.10.:** Runde A: unverändert; Anstoß steht für sich, zwei Fälle, je ein Gedanke (m und n trennen, m negativ beim Abnehmen).
-
-### Gemischt: Gerade und Parabel
-- **Anzeigename:** Gerade und Parabel
-- **Regine:** S. 21 · 31
-- **Zuschnitt:** Lineare Funktionen
-- **Kern:** nein – Abschnitt am Ende (pruefung.md § 5 „Gemischt als letzter Abschnitt“, Lehrer 13.10., Weg C): die Teilaufgaben, die Gerade und Parabel zugleich brauchen, ungekürzt – 2025-OS-B1h, 2026-FOR-K5a (Gerade ins System mit der Parabel), 2024-OS-K3c/3d, 2023-OS-K4a (Schnittpunkt ablesen), 2022-OS-K3c (gleichsetzen); Zeilen einmal in mehr-p10 (einheit „Gemischt: Gerade und Parabel“), auf Lineare und Quadratische gleich gesetzt
-- **Originale:** 2025-OS-B1h 2026-FOR-K5a 2024-OS-K3c 2024-OS-K3d 2023-OS-K4a 2022-OS-K3c
-- **Durchsicht 13.10.:** Runde A: unverändert, gleich auf Lineare und Quadratische.
 
 ## Plätze der Originale
 

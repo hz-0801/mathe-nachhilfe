@@ -85,9 +85,9 @@ werkzeuge/anzeigenamen-pruef.py):
     skizzieren.
 - Funktionen
   - Lineare: Lineare Funktionen (17 · 5). Blattnamen und Stufen
-    (16.10. i): Lineare Funktionen – Graph zeichnen · Gleichung aus
-    Graph · Gleichung aus zwei Punkten · Nullstelle gesucht ·
-    Punktprobe · Gleichung aus Text · Gerade und Parabel.
+    (16.10. h, i): Lineare Funktionen – Graph zeichnen · Gleichung
+    aus Graph · Gleichung aus zwei Punkten · Nullstelle gesucht ·
+    Punktprobe · Gleichung aus Text.
   - Quadratische: Parabel: Scheitelpunkt und Skizze (7 · 5) ·
     Quadratische Gleichung lösen (8 · 5). Blattnamen und Stufen:
     Parabel – Parabel zeichnen · Scheitelpunkt angeben · Punktprobe ·

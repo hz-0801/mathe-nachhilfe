@@ -12,6 +12,7 @@ Anzeigenamen: Flächeninhalt und Umfang = Fläche und Umfang
 Kennung alt: Flächeninhalt und Umfang = Y5D
 Kennung: Flächeninhalt und Umfang = PG40
 Ordner: Flächeninhalt und Umfang = flaechen
+Kern am Ende: Flächeninhalt und Umfang = Fläche: Rechteck A = a · b, Dreieck A = ½ · g · h (rechtwinklig: g und h sind die Katheten), Kreis A = π · r² mit r = halber Durchmesser; Trapez und Drachen: Formel im Tafelwerk. | Umfang: alle Seiten zusammenzählen; Kreis u = π · d. | Zusammengesetzte Figur: in Grundfiguren zerlegen, Teilflächen addieren oder abziehen; Anteil: Teil geteilt durch Ganzes (Kreis: Winkel geteilt durch 360°). | Seite gesucht: Formel hinschreiben, Werte einsetzen, nach der Seite umstellen.
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die

@@ -38,9 +38,18 @@ die Gliederung verweist („→ katalog/…“), sie kopiert nicht.
     Ordner: <Zuschnitt> = pythagoras   Ausgabeordner unter aufgabenbank bau/pruefung/<datum>/ (seit 14.10.;
                                        Leser aufgabenbank werkzeuge/p10einheiten.py für Karte, Gesamtheft, Mappe)
 
+    Formelkasten: <Zuschnitt> = <id>   Kasten aus dem Tafelwerk oben unter dem Titel (plan.md § 10,
+                                       15.10. t, 16.10. a); id = eintraege[].id in aufgabenbank-privat
+                                       formelsammlung/duden-sek1.json; nur Formeln, die sitzen müssen
+    Kern am Ende: <Zuschnitt> = A | B  höchstens vier Aussagen in Schülersprache am Blattende (15.10. w),
+                                       Trenner „ | “; das erste „ = “ trennt die Einheit; aus ihnen muss
+                                       jedes Original der Einheit lösbar sein (Probe Pythagoras, Fläche)
+
     ## Stufen                          Stufen in Lernreihenfolge (Heftreihenfolge)
     ### <Stufe>                        Name der Stufe (= Handgriff)
     - **Kern:** ja – <Grund>           ja | nein, nach „ – “ der Grund (kern, kern_grund)
+    - **Begriff:** <Wort>: <Satz>      Begriffs-Einzeiler grau über der ersten Aufgabe der Stufe (16.10. e),
+                                       höchstens einer je Stufe, nur Begriffe, die das Blatt einführt
     - **Originale:** <ids>             echte Teilaufgaben der Stufe, alle Jahre (Urteil je Stufe);
                                        fehlt die Zeile, sind es die ids der Zuschnitt-Zeilen
     - **Bank:** <Muster>               Bank-Sprossen: eintrag-eN-kN-sN, dahinter [ids] = nur mit

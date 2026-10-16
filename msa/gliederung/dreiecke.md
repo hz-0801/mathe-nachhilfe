@@ -34,6 +34,10 @@ Ordner: Vierecke: Symmetrie und Eigenschaften = figuren
 Ordner: Länge mit Pythagoras = pythagoras
 Ordner: Seite oder Winkel mit sin, cos, tan = sin-cos-tan
 Ordner: Seite im allgemeinen Dreieck (Sinussatz) = sinussatz
+Formelkasten: Länge mit Pythagoras = duden-s21-rechtwinkliges-dreieck
+Formelkasten: Seite oder Winkel mit sin, cos, tan = duden-s27-trigonometrische-beziehungen
+Formelkasten: Seite im allgemeinen Dreieck (Sinussatz) = duden-s27-sinussatz
+Kern am Ende: Länge mit Pythagoras = Die Hypotenuse liegt dem rechten Winkel gegenüber; sie ist die längste Seite, die beiden anderen sind die Katheten. | a² + b² = c²: Die Quadrate über den Katheten sind zusammen so groß wie das Quadrat über der Hypotenuse c. | Hypotenuse gesucht: c = √(a² + b²); Kathete gesucht: a = √(c² − b²). | In Figur oder Körper: Such den rechten Winkel (eine Höhe steht senkrecht); die Strecken daran sind die Katheten (Höhe, Radius oder Durchmesser), gegenüber liegt die Hypotenuse.
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
