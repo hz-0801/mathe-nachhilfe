@@ -296,14 +296,35 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
    loesung-pruef 0 – Blick des Lehrers offen.]
-   1. Lösungsblätter der Originale baut der Chat Bau selbst (Lehrer
-      16.10., statt Warten auf den Nebenchat): je Heft eine PDF,
-      Lesezeichen je Aufgabe, Originalzahlen aus dem Katalog
-      (kurzloesung, zwischenergebnis), Form gemeinsam.md „Form der
-      Lösung“, loesung-pruef.py meldet 0; dann statt der
-      Kurzlösungen ins Buch P10 einbinden, mit Sprung je Aufgabe hin
-      und zurück. Die Skript-Lösungen (andere Zahlen) bleiben im
-      Chat Durchsicht.
+   1. Lösungsblätter der Originale (Lehrer 16.10., Auftrag aus dem
+      Chat Durchsicht; Go für den Pilot erteilt 16.10., Anzeige 48 %).
+      Bildvergleich: aufgabenbank bau/pruefung/2026-10-16/pythagoras/
+      pdf/PG50-6-loesung.pdf ist die abgenommene Form.
+      a) Satz nicht nachbauen: Lösungsseiten mit xelatex und blattbau
+         mathblatt.sty setzen (lzaufg, \lzz{Nr}{Buchst}{Ergebnis}
+         {Ansatz}, Version 16n), als PDF ins Buch; Lesezeichen je
+         Aufgabe, Sprung zurück wie bisher; Stern als Marke vor der
+         Nummer; mathblatt.sty nicht ändern, fehlt etwas: melden.
+      b) aufgabenbank werkzeuge/loesung-pruef.py --streng schärfen –
+         links: Wörter außer Einheit, Größenname, Stichwort bis 4
+         Wörter; Klammerzusätze; mehr als ein „≈“; „z. B.“; rechts:
+         „⇒“; Wörter außer Namen der Aufgabe; der Wert von links;
+         mehr als zwei Gleichungen. Gut: „6c) A = 0,4·√0,6224 ≈
+         0,32 m² …… h_s² = 0,68² + 0,40²; A = ½ · 0,80 · h_s“.
+         Schlecht: „…, Parabel nach unten geöffnet“; rechts „… ⇒ BD ≈
+         5,85 cm“; rechts „10 Auswahlen“. Grenze: Begründen links nur
+         das Urteil („ja: 256 ml < 375 ml“); Ankreuzen als Stichwort;
+         gefragte Rundung: exakt, dann diese.
+      c) Katalogfelder kurzloesung/zwischenergebnis nachziehen, bis
+         --streng 0 meldet; Zahlen nicht ändern, jede geänderte Zahl
+         per Skript nachrechnen.
+      Pilot erst 2026 FOR (Schätzung 0,15 Mio, 40 min), Bild an den
+      Lehrer, dann die übrigen 13 Hefte mit eigenem Go (≈ 0,3 Mio).
+      Nicht anfassen: pruefheft.py, msa/mehr-p10/, msa/gliederung/.
+      Stand 16.10. mittags: Katalog in zwei Runden schon vorgezogen
+      (163 Zeilen, loesung-pruef und --streng alter Fassung 0), Buch
+      setzt die Lösungen noch selbst (reportlab) – wird durch a)
+      ersetzt.
    2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
       Lehrers).
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK

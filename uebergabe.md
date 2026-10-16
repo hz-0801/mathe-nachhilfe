@@ -42,6 +42,10 @@ Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
 - Formelblatt der P10 fehlt in unseren Heften – Lehrer legt es in
   „bücher scanns“, dann vorn ins Buch.
 - Noch nicht in Drive: Buch P10 (wartet auf die Lösungsblätter).
+- Lösungen: Katalog P10 in zwei Runden umgeschrieben (163 Zeilen),
+  Lehrer noch unzufrieden – nächster Schritt ist der Auftrag in
+  plan.md § 7 Punkt 1 (Satz mit mathblatt.sty, Prüfskript schärfen,
+  Pilot 2026 FOR; Go erteilt).
 - Stochastik: Dateinamen vertauscht – „stochastik stark 1/3/4“ =
   Daniel Jung (StudyHelp), „stochstik jung 1/2“ = Stark (March);
   Scans flach und gut, Weg per Skript empfohlen, Go offen;
@@ -53,7 +57,7 @@ Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 43 % (letzte Anzeige 16.10. nachts), Reset Mo 18:00. Seit
+- Woche 48 % (Anzeige 16.10. mittags), Reset Mo 18:00. Seit
   dem Umzug fast nur Skripte, keine Agenten.
 - Lehrer will kurze, übersichtliche Verzeichnisse; denkt vom
   Gebrauch her (finden, drucken); Feineres gehört ins Buch der
