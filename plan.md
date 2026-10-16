@@ -348,9 +348,12 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
       Zeilen, ein Commit je Heft); loesung-pruef: Mio./Mrd./hPa als
       Einheit, Name vor „:“, Aufzählung je Glied; pruefungsbuch.py
       setzt ₁ ₂ ′ ≙ ϱ. Buch neu (184 S., Lösungen 14 S.), Stichprobe
-      2025/2016 an den Lehrer. Jetzt: Blick des Lehrers, dann Punkt 2.]
+      2025/2016 an den Lehrer: „ausreichend“.]
    2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
       Lehrers).
+      [16.10. erledigt (Chat Bau 4): Drive Mathe/Bücher „P10
+      Originalprüfungen.pdf“, 184 S., 19 MB (qpdf verlustfrei).
+      Jetzt: Punkt 3.]
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
       gleich gebaut; Stochastik Jung und Stark per Skript – Go offen;
       Jesse: neu scannen am Kopierer oder einzeln, offen).
