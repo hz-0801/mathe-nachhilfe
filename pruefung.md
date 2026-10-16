@@ -53,26 +53,27 @@ Gliederungsdateien).
   hinaus („lernst du in …“) nur mit Kennung eines gebauten
   Lernblatts.
 
-Hauptteil, 22 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge; Namen
+Hauptteil, 21 Einheiten (Teilaufgaben 2022–2026 · Jahrgänge; Namen
 wie in msa/gliederung/*.md, nachgezogen 14.10., Prüfskript
 werkzeuge/anzeigenamen-pruef.py):
 
 - Geometrie
   - Dreiecke: Länge mit Pythagoras (9 · 4) · Seite oder Winkel mit
     sin, cos, tan (7 · 5) · Seite im allgemeinen Dreieck, Sinussatz
-    (2 · 2) · Vierecke: Symmetrie und Eigenschaften (1 · 1) · Winkel
-    ohne Rechnung bestimmen oder begründen (6 · 4) · Symmetrie (2 ·
-    2). Blattnamen und Stufen (Lehrer 11.10.; 15.10. u, y; 16.10. d;
-    gemeinsam.md „Namen“; Vierecke nimmt 2026-FOR-B1c Trapez-Aussage
-    aus Winkel auf, Lehrer 11.10.; Gruppen: Rechtwinklige Dreiecke –
-    Pythagoras · sin, cos, tan; Alle Dreiecke und Vierecke – Winkel
-    aus Winkeln · Sinussatz · Vierecke): Pythagoras – Pythagoras
-    aufstellen · Hypotenuse gesucht · Kathete gesucht · Pythagoras
-    versteckt; sin, cos, tan – sin, cos, tan aufstellen · Winkel
-    gesucht · Seite gesucht · Pythagoras oder sin, cos, tan?;
-    Sinussatz – Seite gesucht; Vierecke – Eigenschaften prüfen;
-    Winkel aus Winkeln – Winkel gesucht · Basiswinkel gesucht ·
-    rechten Winkel begründen; Symmetrie – Symmetrieachsen gesucht.
+    (2 · 2) · Vierecke: Symmetrie und Eigenschaften (3 · 3) · Winkel
+    ohne Rechnung bestimmen oder begründen (6 · 4). Blattnamen und
+    Stufen (Lehrer 11.10.; 15.10. p, u, y; 16.10. d; gemeinsam.md
+    „Namen“; Figuren = Symmetrie und Vierecke auf einem Blatt, die
+    älteren Originale mit drauf, kein eigenes Mehr; Gruppen:
+    Rechtwinklige Dreiecke – Pythagoras · sin, cos, tan; Alle
+    Dreiecke und Vierecke – Winkel aus Winkeln · Sinussatz ·
+    Figuren): Pythagoras – Pythagoras aufstellen · Hypotenuse
+    gesucht · Kathete gesucht · Pythagoras versteckt; sin, cos, tan
+    – sin, cos, tan aufstellen · Winkel gesucht · Seite gesucht ·
+    Pythagoras oder sin, cos, tan?; Sinussatz – Seite gesucht;
+    Figuren – Symmetrieachsen gesucht · Eigenschaft gesucht; Winkel
+    aus Winkeln – Winkel gesucht · Basiswinkel gesucht · rechten
+    Winkel begründen.
   - Flächen: Flächeninhalt und Umfang (12 · 5). Blattnamen und Stufen:
     Fläche und Umfang – Formeln · Fläche gesucht · Umfang gesucht ·
     Formeln umstellen · Flächenanteil gesucht.

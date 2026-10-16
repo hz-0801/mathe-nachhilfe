@@ -11,7 +11,7 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 - neu: Gleichung aufstellen – 2026-FOR-B1j (Pythagoras Gleichung zuordnen), 2024-OS-B1f (Pythagoras Gleichung zuordnen), 2022-OS-B1g (Satz des Pythagoras formulieren)
 - neu: Hypotenuse gesucht – 2025-OS-K4a (Pythagoras Hypotenuse)
 - neu: Kathete gesucht – 2024-OS-K6a (Pythagoras Kathete), 2026-FOR-K4a (Pythagoras Kathete), 2022-OS-K5a (Pythagoras Kathete)
-- neu: Dreieck versteckt – 2026-FOR-K2c (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Symmetrie“)
+- neu: Dreieck versteckt – 2026-FOR-K2c (Pythagoras Kathete), 2022-OS-K2c (Pythagoras Hypotenuse), 2025-OS-K2a (Symmetrieachsen bestimmen; kennst du aus „Vierecke: Symmetrie und Eigenschaften“)
 
 #### Seite oder Winkel mit sin, cos, tan – 7 · 5 J · zuletzt 2026 · 16 BE · dazu 3 aus anderen Abschnitten
 - neu: Seitenverhältnis benennen – 2025-OS-B1g (Winkelfunktion Seitenverhältnis angeben)
@@ -22,16 +22,14 @@ Abgeleitet von `werkzeuge/skript-zuschnitt.py` aus `msa/skript-zuschnitt-p10.csv
 #### Seite im allgemeinen Dreieck (Sinussatz) – 2 · 2 J · zuletzt 2025 · 7 BE
 - neu: Seite berechnen – 2024-OS-K6d (Sinussatz Seite berechnen), 2025-OS-K4c (Sinussatz Seite berechnen)
 
-#### Vierecke: Symmetrie und Eigenschaften – 1 · 1 J · zuletzt 2026 · 1 BE
+#### Vierecke: Symmetrie und Eigenschaften – 3 · 3 J · zuletzt 2026 · 6 BE
+- neu: Symmetrieachsen zählen – 2022-OS-B1i (Symmetrieachsen bestimmen), 2025-OS-K2a (Symmetrieachsen bestimmen)
 - neu: Eigenschaft erkennen – 2026-FOR-B1c (Eigenschaft einer Figur zuordnen)
 
 #### Winkel ohne Rechnung bestimmen oder begründen – 6 · 4 J · zuletzt 2026 · 9 BE
 - neu: Winkelsumme – 2022-OS-K5c (Winkelsumme im Dreieck anwenden), 2023-OS-K2a (Winkel im Viereck berechnen), 2026-FOR-B1i (Winkel im Viereck berechnen)
 - neu: gleichschenkliges Dreieck – 2023-OS-B1g (Gleichschenkliges Dreieck erkennen), 2023-OS-K7a (Gleichschenkliges Dreieck erkennen)
 - neu: rechten Winkel begründen – 2025-OS-K2c (Rechten Winkel begründen)
-
-#### Symmetrie – 2 · 2 J · zuletzt 2025 · 5 BE
-- neu: Symmetrieachsen zählen – 2022-OS-B1i (Symmetrieachsen bestimmen), 2025-OS-K2a (Symmetrieachsen bestimmen)
 
 ### Kapitel Flächen
 
