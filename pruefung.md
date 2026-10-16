@@ -95,8 +95,8 @@ werkzeuge/anzeigenamen-pruef.py):
     Gleichung – Nullstellen gesucht · x-Wert gesucht · Schnittpunkte
     gesucht · Gerade und Parabel.
   - Gleichungssysteme: Gleichungssystem im Sachzusammenhang (4 · 2).
-    Blattnamen und Stufen: Gleichungssystem – Gleichungen aufstellen ·
-    x und y gesucht · Bedeutung gesucht.
+    Blattnamen und Stufen: Gleichungssystem – System aufstellen ·
+    System lösen (16.10. n).
   - Wachstum: Exponentielles Wachstum (5 · 2). Blattnamen und Stufen:
     Wachstum – Tabelle ergänzen · Graph zeichnen · Gleichung gesucht ·
     Graph zuordnen.
