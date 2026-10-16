@@ -325,6 +325,20 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
       (163 Zeilen, loesung-pruef und --streng alter Fassung 0), Buch
       setzt die Lösungen noch selbst (reportlab) – wird durch a)
       ersetzt.
+      [16.10. erledigt (Chat Bau 3): Pilot 2026 FOR – a) Satz mit
+      xelatex/mathblatt.sty in pruefungsbuch.py (--nur für ein Heft),
+      b) --streng geschärft (dazu NAME, § 10 n), c) 2026 FOR 0
+      Meldungen; Lehrer: „besser“. Jetzt: die übrigen 13 Hefte, Weg A
+      (Lehrer 16.10.: der Chat korrigiert selbst, kein Agent), Go
+      erteilt mit der Wahl. Sparsam: ein Skript zieht die gemeldeten
+      Zeilen (216 am 16.10.) als schmale Liste (id, gesucht, links,
+      rechts, Meldung), Korrektur als Tabelle, ein Skript schreibt sie
+      ein; Abnahme --streng 0, Zahlen links vorher = nachher (Skript),
+      neue Zahlen nachgerechnet; ein Commit je Heft; dann Buch neu,
+      zwei Lösungsseiten als Stichprobe an den Lehrer. Schätzung
+      0,35 Mio, ≈ 6 Wochenpunkte, 60 min. Offen bei der Arbeit:
+      „Ankreuzen mit Begründung“ (2026 FOR 7b „B; A beginnt bei 0 €,
+      C linear“) als Buchstabe; kurzer Grund – Lehrer ließ es stehen.]
    2. Buch P10 in Drive Mathe/Bücher ablegen (nach Blick des
       Lehrers).
    3. Mit dem Lehrer überlegen, welches Buch als nächstes (Abitur GK
@@ -725,6 +739,11 @@ Schätzung 0,3 Punkte; Anzeige 46 → 48 % (Chat Bau lief parallel,
 Chat-Antworten nicht geschätzt). Regel: die Chat-Antworten einer
 Runde mitschätzen und die Anzeige vor dem Start abfragen, sonst
 lässt sich der Verbrauch keiner Runde zuordnen.
+
+Pilot Lösungen 2026 FOR (16.10. mittags, Opus, Chat Bau 3, ohne
+Agent): Schätzung 0,15 Mio / 40 min; Wanduhr ≈ 25 min; Anzeige
+48 % davor (Nebenchat Durchsicht lief), nachher im neuen Chat
+erfragen und hier nachtragen.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
