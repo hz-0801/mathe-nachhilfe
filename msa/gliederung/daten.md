@@ -15,6 +15,12 @@ Kennung: Kenngrößen = PS30
 Kennung: Diagramme = PS40
 Ordner: Kenngrößen = kenngroessen
 Ordner: Diagramme = diagramme
+Formelsammlung: Kenngrößen = Formeln und Werte S. 37: Arithmetisches Mittel, Median, Modalwert, Spannweite
+Formelsammlung: Diagramme = Formeln und Werte S. 38: Säulendiagramm, Kreisdiagramm (100 % ≙ 360°)
+Kern am Ende: Kenngrößen = Spannweite = größter Wert − kleinster Wert (Maximum − Minimum). | Mittelwert = Summe aller Werte : Anzahl; fehlender Wert: Mittelwert · Anzahl − Summe der bekannten Werte. | Median: der Wert in der Mitte, wenn die Werte der Größe nach geordnet sind. Bei gerader Anzahl der Durchschnitt der beiden mittleren; Modalwert: der häufigste Wert. | Auswirkung erklären: Summe und Anzahl vorher und nachher vergleichen.
+Kern am Ende: Diagramme = Kreisdiagramm: Winkel = Anteil · 360° (Anteil = Teil : Ganzes); 1 % ≙ 3,6°. | Achse lesen: Wie viel ist ein Kästchen wert? Wert einer Säule geteilt durch ihre Kästchen. | Säule ergänzen: Wert durch den Wert eines Kästchens teilen, so viele Kästchen hoch. | Falscher Eindruck: Beginnt die Achse nicht bei 0, wirken Unterschiede größer; vergleiche die echten Werte.
+
+Pflichtteile (16.10. n): Tafelwerk-Zeile, Kern am Ende und Begriffe nach pruefung.md § 5 „Pflichtteile eines P10-Blatts“; Teile gemischter Originale in den Abschnitt ihres Handgriffs (Spalten *_einheit in msa/mehr-p10/, der andere Teil als Feld „Teile“ der Zielstufe). Die Seitenfrage „Kenngrößen in deiner Formelsammlung: Seite ___“ entfällt (pruefung.md § 5 Punkt 1).
 
 Prüfungsgliederung (Entscheidung A, plan.md 08.10.2026): Kapitel → Stufe → Bankaufgaben, Originale,
 didaktische Felder. Erzeugt daraus: zuordnung-<kapitel>.csv (werkzeuge/zuordnung.py), die
@@ -50,14 +56,16 @@ einer Stufe.
 - **Bank:** daten-e4-k1-s1 daten-e4-k1-s2 daten-e4-k1-s9 daten-e4-k1-s8
 - **Verwechselbar:** Median | Mittelwert
 - **Zuschnitt:** Kenngrößen
-  - Minimum, Maximum, Spannweite [2022-OS-K4a 2023-OS-K6c 2026-FOR-K3a 2024-OS-K2a 2025-OS-K6a]
+  - Minimum, Maximum, Spannweite [2023-OS-K6c 2026-FOR-K3a 2024-OS-K2a 2025-OS-K6a] neben [2022-OS-K4a]
+- **Teile (16.10. n):** Teile gemischter Originale, deren übriger Teil in einer anderen Stufe steht (Original · Wortlaut ⇒ Lösung)
+  - 2022-OS-K4a · Gib den kleinsten und den größten Wert im Diagramm an (Minimum und Maximum). ⇒ Minimum = 520, Maximum = 585 (Zahlen der Zeile in msa/mehr-p10/daten.csv); der Durchschnitt steht unter Mittelwert
 - **Durchsicht 13.10.:** Runde A: Anzeigename nach dem Gesuchten („Spannweite gesucht“); keine Heranführung, das erste Original (größter minus kleinster Preis) ist der Einstieg.
-- **Frage:** Kenngrößen in deiner Formelsammlung: Seite ___
 - **Probe 14.10.:** Ebene 1 (Seitenfrage, einmal je Blatt, an der ersten Stufe): Regine S. 42 hat alle Kenngrößen des Blatts auf einer Seite (Spannweite R, Zentralwert, Mittelwert, Modalwert); Lösung „S. 42“ aus Feld Regine.
 
 ### Median
 - **Anzeigename:** Median gesucht
 - **Regine:** S. 42
+- **Begriff:** Median: der Wert in der Mitte, wenn die Werte der Größe nach geordnet sind.
 - **Schülerfrage:** Zentralwert (Median): erst ordnen – die Mitte der ungeordneten Reihe ist es nicht.
 - **Schülerfrage-Fälle:** 9; 4; 7; 2; 5 → 5 (nicht 7) | 8; 2; 6; 4 → 5 (nicht 4)
 - **Schülerfrage-Form:** linie
