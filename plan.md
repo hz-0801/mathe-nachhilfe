@@ -742,8 +742,8 @@ lässt sich der Verbrauch keiner Runde zuordnen.
 
 Pilot Lösungen 2026 FOR (16.10. mittags, Opus, Chat Bau 3, ohne
 Agent): Schätzung 0,15 Mio / 40 min; Wanduhr ≈ 25 min; Anzeige
-48 % davor (Nebenchat Durchsicht lief), nachher im neuen Chat
-erfragen und hier nachtragen.
+48 % davor, 49 % danach mit Umzug (Nebenchat Durchsicht lief) –
+Chat Bau 3 samt Nebenchat ≤ 1 Punkt; Schätzung 0,15 Mio hält.
 
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei

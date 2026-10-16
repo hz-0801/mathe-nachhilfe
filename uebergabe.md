@@ -45,9 +45,8 @@ Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 48 % vor dem Pilot (16.10. ≈ 12 Uhr, Nebenchat lief), Reset
-  Mo 18:00; Anzeige danach noch nicht erfragt – zuerst erfragen und
-  in plan.md § 8 nachtragen.
+- Woche 48 % vor dem Pilot, 49 % nach Pilot und Umzug (16.10.
+  mittags, Nebenchat lief); Fable 24 %; Reset Mo 18:00.
 - Lehrer will tokensparend: schmale Listen aus Skripten statt
   Dateien lesen; Prüfung jeder Zeile, keine kleine Stichprobe.
 - Lösungen „nicht immer knapp, aber so lassen“ (Lehrer 16.10.).
