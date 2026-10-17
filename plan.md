@@ -361,6 +361,12 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    fehlt in unseren PDFs) ins Buch, sobald es vorliegt.
    Daneben offen: die vier Fragen aus aufgabenbank
    bau/befunde-M5.md (seit 16.10. fällig).
+   [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
+   Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
+   aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
+   buecher/jesse/, § 10 17.10. a). Nachzufotografieren: S. 40/41,
+   164/165, 236–238. Nächstes Buch erst nach dem Vergleich Lernblatt
+   mit/ohne Buch.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -761,8 +767,11 @@ Chat Bau 3 samt Nebenchat ≤ 1 Punkt; Schätzung 0,15 Mio hält.
 Register Jesse (17.10. früh, Chat Bau 4): Sonnet-Agenten je ~12
 Seiten nach Bild, 10 Läufe für 115 Seiten (Teil 1, 5, 6), zusammen
 ≈ 1,2 Mio Agenten-Token (≈ 10 000 je Seite, meist Cache), Wanduhr
-je Lauf 1–4 min. Teil 2–4 (≈ 140 S.) offen: Rechner nicht erreichbar.
-Schätzung vorher 1–2 Punkte für das Register; Anzeige nicht abgelesen.
+je Lauf 1–4 min. Anzeige 17.10. früh 51 % (49 % vor Bau 4; mit
+Nebenchat): Bau 4 (Lösungen 13 Hefte, Buch P10, Register Teil 1/5/6)
+≤ 2 Punkte. Danach Teil 2–4: 12 weitere Läufe, ≈ 1,5 Mio Agenten-
+Token; zusammen 22 Läufe ≈ 2,7 Mio für 256 Seiten. Schätzung vorher
+3 Punkte für Buch und Register; Anzeige nach Teil 2–4 offen.
 
 Pflichtteile ab PA20 und Muster Kapitelblatt (16./17.10., Chat
 Durchsicht 5, Opus): Setzer-Agent 0,24 Mio (mit drei Nachaufträgen),
