@@ -764,6 +764,15 @@ Seiten nach Bild, 10 Läufe für 115 Seiten (Teil 1, 5, 6), zusammen
 je Lauf 1–4 min. Teil 2–4 (≈ 140 S.) offen: Rechner nicht erreichbar.
 Schätzung vorher 1–2 Punkte für das Register; Anzeige nicht abgelesen.
 
+Pflichtteile ab PA20 und Muster Kapitelblatt (16./17.10., Chat
+Durchsicht 5, Opus): Setzer-Agent 0,24 Mio (mit drei Nachaufträgen),
+Daten-Agent 0,28 Mio, Muster Kapitelblatt 0,24 Mio, Neusatz und
+Prüfung Skripte; Summe Agenten ≈ 0,76 + 0,24 = 1,0 Mio (Messung je
+Agent aus der Abschlussmeldung, ohne Chat). Schätzung 0,6 + 0,3 Mio /
+etwa 3 Punkte mit Chat; Anzeige 48 → 51 % (17.10. morgens, kein
+paralleler Chat). Schätzung hält. Regel: Nachaufträge an einen
+laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
+
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
   Tafelwerke: Duden „Formeln und Werte“ und Paetec Sek I (das an der
