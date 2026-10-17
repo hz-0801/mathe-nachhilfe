@@ -1399,6 +1399,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Umsetzung mit der nächsten Runde (Setzer, regel-pruef, pruefung.md
   „Pflichtteile“ Punkte 1 und 2).
 
+- 17.10.2026 (b): Gleiche Formulierungen (Lehrer, Weg A; Durchsicht
+  3b). Warum: Eine wortgleiche Aufgabe übt nichts Neues; wie oft sie
+  drankam, ist aber wichtig. Beispiel: „Gib die Koordinaten des
+  Scheitelpunktes an“ (Graph mit Scheitelform) einmal gedruckt, Marke
+  „’26 · ’20 · ’17“. Grenze: gleich = gegeben, gesucht und Antwortform
+  gleich, Worte bis auf Sie/du und berechne/ermittle gleich; anders
+  formuliert bei gleichem Inhalt („Nullstellen“ / „Schnittpunkte mit
+  der x-Achse“) bleibt beides. Entwurf der Zuordnung Buchkapitel
+  für quadratische Funktionen: msa/buchkapitel-p10.csv (Spalte
+  gleich_mit). Offen: Linienwechsel Buchkapitel = Abschnitt, alle
+  lehrplangerechten Originale, kein Mehr, Bestellung je Abschnitt.
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut

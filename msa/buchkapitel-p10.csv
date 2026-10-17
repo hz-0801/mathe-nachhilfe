@@ -1,0 +1,36 @@
+id;kapitel;abschnitt;folge;gleich_mit;bemerkung
+2026-FOR-B1e;Normalparabel und Punkte;;1;2026-EBR-B1e;Wertetabelle zu y = ax² ankreuzen
+2026-EBR-B1e;Normalparabel und Punkte;;1;2026-FOR-B1e;wortgleich mit FOR
+2020-OS-K3b;Normalparabel und Punkte;;2;;Punkt auf der Parabel? ankreuzen
+2020-OS-K3c;Normalparabel und Punkte;;3;;y zu gegebenem x
+2024-OS-K3c;Normalparabel und Punkte;;4;;Punkt rechnerisch prüfen
+2018-OS-K5a;Normalparabel und Punkte;;5;;Aussagen wahr/falsch, gemischt
+2021-OS-B1d;Scheitelform;Scheitelpunkt angeben;1;;aus Graph ankreuzen
+2026-FOR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-EBR-K5c 2020-OS-K3a 2017-OS-K5c;aus Graph mit Scheitelform
+2026-EBR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;wortgleich mit FOR
+2020-OS-K3a;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
+2017-OS-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
+2025-OS-K5b;Scheitelform;Scheitelpunkt angeben;3;2018-OS-K5b;aus Graph mit Normalform; zweiter Teil unter Gleichung aufstellen
+2018-OS-K5b;Scheitelform;Scheitelpunkt angeben;3;2025-OS-K5b;
+2023-OS-K4b;Scheitelform;Scheitelpunkt angeben;4;;aus Graph, nach unten geöffnet; zweiter Teil unter Gleichung aufstellen
+2022-OS-K3b;Scheitelform;Scheitelpunkt angeben;5;;aus Gleichung ohne Graph
+2024-OS-K3b;Scheitelform;Scheitelpunkt angeben;6;;skizzieren und angeben
+2015-OS-B1i;Scheitelform;Scheitelpunkt angeben;7;;aus Verschiebung in Worten
+2016-OS-B1g;Scheitelform;Gleichung aufstellen;1;;aus Scheitelpunkt ankreuzen
+2018-OS-K5c;Scheitelform;Gleichung aufstellen;2;;aus Graph mit Normalform (mit 2025-OS-K5b Teil 2)
+2017-OS-K5e;Scheitelform;Gleichung aufstellen;4;;aus Verschieben und Spiegeln
+2020-OS-K3d;Scheitelform;Gleichung aufstellen;4;;Spiegeln an der y-Achse, skizzieren
+2018-OS-K5d;Scheitelform;Gleichung aufstellen;5;;Parabel zu Eigenschaften
+2015-OS-K4b;Scheitelform;Gleichung aufstellen;6;;Gleichung zu Graph, Sachaufgabe
+2026-FOR-K5d;Scheitelform;Gleichung aufstellen;7;;Lage zweier Parabeln ohne Rechnung
+2025-OS-B1h;Quadratische Gleichungen;;1;;Lösung durch Einsetzen ankreuzen
+2020-OS-K3e;Quadratische Gleichungen;;2;;Nullstellen berechnen
+2025-OS-K5c;Quadratische Gleichungen;;3;;Schnittpunkte mit der x-Achse (anders formuliert als 2020-OS-K3e, bleibt)
+2023-OS-K4c;Quadratische Gleichungen;;4;;x zu gegebenem y
+2021-OS-K7c;Quadratische Gleichungen;;5;;Anzahl der Lösungen
+2017-OS-K5d;Quadratische Gleichungen;;6;;Normalform zeigen, Nullstellen
+2024-OS-K3d;Schnittpunkte;;1;2022-OS-K3c;Gerade und Parabel aus Graphen
+2022-OS-K3c;Schnittpunkte;;1;2024-OS-K3d;
+2021-OS-K2c;Schnittpunkte;;2;;Gerade und Parabel aus Gleichungen im Text
+2014-OS-K7a;Schnittpunkte;;3;;Punkt auf beiden Graphen?
+2014-OS-K7b;Schnittpunkte;;4;;Gerade ohne gemeinsamen Punkt
