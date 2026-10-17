@@ -360,7 +360,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Vorschlag offen: Formelblatt der Prüfung (liegt den Heften bei,
    fehlt in unseren PDFs) ins Buch, sobald es vorliegt.
    Daneben offen: die vier Fragen aus aufgabenbank
-   bau/befunde-M5.md (seit 16.10. fällig).
+   bau/befunde-M5.md (seit 16.10. fällig; Lehrer 17.10. erneut
+   zurückgestellt – wieder vorlegen am Anfang des nächsten Chats,
+   spätestens Mo 19.10., in einfacher Sprache, eine je Nachricht).
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
