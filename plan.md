@@ -988,9 +988,6 @@ Mio, Wanduhr 50 min (17:10–18:00); Chat Opus. 228 Seiten. Schätzung
 Gruppen laufen parallel in 1–2 min.
 
 ## 9 Später
-- Basis zum Stundenbeginn (Lehrer 17.10., § 10 q): kurze Blätter aus
-  Basisaufgaben für den Anfang einer Stunde – Form (nach Thema, nach
-  Jahr, gemischt; wie viele) mit dem Lehrer klären; Daten liegen vor.
 - Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
   Stark und Jung fanden keine Lerneinheit für Ereignisalgebra/Mengen,
   relative Häufigkeit und Gesetz der großen Zahlen, Galton-Brett,
@@ -1843,7 +1840,10 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Die Zuordnung der Basisaufgaben zu Buchkapiteln bleibt als Daten
   (msa/buchkapitel-p10.csv), der Setzer filtert sie (kapitelblatt.py
   basis()). Ersetzt pruefung.md „Basis am Platz ihrer Stufe“ (12.10.)
-  für das Kapitelblatt.
+  für das Kapitelblatt; für den Stundenbeginn gibt es seit
+  28.09. die Basiszettel (aufgabenbank bank.md „Basisvorrat“,
+  bank/_basis/ 784 Aufgaben, bau/zettel/BAS-Z1–Z10, bestellbar mit
+  „basis“ über werkzeuge/bestellen.py).
 
 ## 11 Register der Entscheidungen
 
