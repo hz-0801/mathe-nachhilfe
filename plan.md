@@ -216,6 +216,12 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   katalog buecher/vera8/fehler.csv, 708 Zeilen zu 213 Aufgaben
   (210 falsche Antworten mit Denkfehler, 477 typische Fehler).
   Sonnet ≈ 1,1 Mio.]
+  [18.10. erledigt (Chat Stochastik 1, Go Lehrer): VERA-8 als Bankzeilen
+  (aufgabenbank bau/proben/2026-10-18/vera8/, 510 Zeilen in 23
+  Einträgen, 317 setzbar, 193 ruhen: Bild fehlt oder Sperre
+  P10-Original; vera-pruef.py ohne Befund); Register Länderprüfungen
+  (aufgabenbank-privat buecher/fremd/, 21 Reihen, 3 965 Teilaufgaben,
+  Lizenz je Reihe; Wortlaut nur Niedersachsen frei). Sonnet ≈ 8 Mio.]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
@@ -1044,6 +1050,18 @@ Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
 im Chat nicht abgelesen.
 
 ## 9 Später
+- VERA-Probe in die Bank übernehmen (Chat Stochastik 1, 18.10.): wohin
+  (bank/<eintrag>/ als eigene Zeilen „fremd“ oder eigene Datei), gekürzte
+  Stämme als „bearbeitet“ kennzeichnen, aus Bildern gelesene Werte
+  prüfen. Vorher Muster beim Lehrer.
+- Original-Bilder (VERA, Niedersachsen): 193 VERA-Zeilen ruhen nur wegen
+  des Bildes; Bilder sind nicht alle frei (Adobe Stock). Entscheidung:
+  Bilder je Bild prüfen und einbinden oder nachzeichnen.
+- Niedersachsen-Prüfungen (frei, unverändert mit Quelle) wie VERA als
+  Bankzeilen – Vermerk am Original prüfen.
+- Katalog Unterstufe: keine Lerneinheit für Teilbarkeit/Primzahlen,
+  schriftliches Rechnen, Zahlenfolgen/Muster, Ortslinien (Länder-
+  register „?“-Zeilen, buecher/fremd/).
 - Bauauftrag und bankblatt.md: VERA-8 als Quelle nennen – Frageformen
   (27 % Ankreuzen, 17 % Begründen/Entscheiden gegen 1–3 % / 11–15 %
   in den Büchern) und fehler.csv für Ablenker und Lösungshinweise;
