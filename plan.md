@@ -389,6 +389,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    bau/befunde-M5.md (seit 16.10. fällig; Lehrer 17.10. erneut
    zurückgestellt – wieder vorlegen am Anfang des nächsten Chats,
    spätestens Mo 19.10., in einfacher Sprache, eine je Nachricht).
+   [17.10. Chat Bau 5: Lehrer: Abitur unterscheidet sich deutlich
+   von P10, Gespräch darüber später; die vier Fragen ruhen bis dahin
+   (Form 17.10. d deckt drei davon für P10, nicht fürs Abitur).]
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
