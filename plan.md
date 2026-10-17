@@ -411,6 +411,17 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Abiturblätter vor dem Gespräch über das Abitur. Einstieg:
    uebergabe-abitur.md. Nicht anfassen: aufgabenbank-privat
    buecher/ und die Buchregister-Werkzeuge (Chat Bau 5).
+   [17.10. erledigt (Chat Abitur 1): Drive Mathe/Bücher „Abitur GK
+   Originalprüfungen.pdf“, 112 S., 12,6 MB, 2026–2017, ohne Lösungen;
+   Themenregister S. 108–112; Scans geradegerückt und zugeschnitten
+   (aufgabenbank-privat werkzeuge/abibuch.py, Anleitung „Neues Heft“
+   im Kopf). Offen: Lösungsteil (Gespräch mit dem Lehrer über die
+   Form, § 10 17.10. h CAS-Vermerk); Katalog-Nummern Teil-A-Wahl
+   2024/2025 (1.4–1.9) gegen Heft (1.4.1–1.5.3) prüfen.
+   Läuft (Lehrer 17.10., Go): Wortlaut der GK-Originale als Vorrat
+   wie P10 (aufgabenbank-privat abitur/gk-originale.jsonl), Pilot
+   2026, Rest erst mit Go. Danach Vorschlag: Buch LK gleich gebaut
+   (bb-ea 2017/2018, bebb-lk 2022–2025, bb-ea 2026; 2019–2021 fehlt).]
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
