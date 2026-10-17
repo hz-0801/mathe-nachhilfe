@@ -810,6 +810,13 @@ paralleler Chat). Schätzung hält. Regel: Nachaufträge an einen
 laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
 
 ## 9 Später
+- Bauauftrag (am Ende des Meilensteins, Linie 8): vor dem Lernweg
+  die Buchstellen der Einheit ansehen (aufgabenbank-privat
+  werkzeuge/buchregister.py katalog <id>) – Folge, Handgriffe und
+  Frageformen der Bücher als Vergleich und Vorrat für Einstiege und
+  Abwechslung; Buchaufgaben nur „nach <Buch> S. n/k“ mit anderen
+  Zahlen und eigenem Text. Kritiker prüft, ob die Frageformen auf dem
+  Blatt wechseln (Lehrer 17.10.).
 - Jesse neu bauen, sobald der Lehrer bessere Scans liefert (je eine
   Seite, auch S. 40/41, 164/165, 236–238; Lehrer 17.10.): dann ein
   Buch statt zwei Bände (auf dem Rechner zusammenfügen, die
