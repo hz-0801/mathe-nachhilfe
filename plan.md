@@ -490,6 +490,8 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    12,3 MB, 2026–2017 ohne 2021–2019, ohne Lösungen, Themenregister;
    abibuch.py --kurs gk|lk. GK-Buch trägt noch „Berlin 2026 nicht
    erhältlich“ (unbelegt; Skript berichtigt, beim nächsten GK-Bau weg).]
+   Reihenfolge (Lehrer 17.10., Chat Abitur 2): erst Buch FHR, dann
+   das Gespräch über den Lösungsteil der Prüfungsbücher.
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat

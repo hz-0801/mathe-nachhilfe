@@ -59,6 +59,8 @@ Setzer später Abiturblätter (Original neu, Skript) ohne Modell setzt.
 
 ## 5 Offene Punkte
 
+Reihenfolge (Lehrer 17.10.): erst Buch FHR, dann Lösungsteil.
+
 - Lösungsteil der Abiturbücher: Form mit dem Lehrer besprechen
   (Katalog-Kurzlösung stellenweise holprig; IQB-Verweis bei
   Pool-Dubletten; CAS-Vermerk 17.10. h; Heftnummer statt
