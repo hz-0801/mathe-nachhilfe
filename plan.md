@@ -317,8 +317,9 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Teilaufgaben – quadratische 35, trigonometrie 29, koerper 31,
    wachstum 23, potenzen 12; Abschnitte nach Sekundo 10, Wachstum nach
    Jesse Kap. 2 (Sekundo-Scan endet vor dem Kapitel). 2026-FOR-K5d nach
-   Schnittpunkte. Offen: vier Zweifel Buch gegen Schlüssel (Wachstum,
-   Spalte bemerkung „Zweifel“) beim Lehrer; 2025-OS-K5b und 2023-OS-K4b
+   Schnittpunkte. Vier Zweifel Buch gegen Schlüssel (Wachstum)
+   entschieden: Wachstumsmodelle (§ 10 17.10. g). Offen: 2025-OS-K5b
+   und 2023-OS-K4b
    „nicht teilen“ erst in der Baurunde (wortgleiche Partner 2018-OS-K5b/
    K5c hängen an den Teilen); übrige 288 Teilaufgaben nach Duden 9 und
    Klasse 7 (Chat Bau 4).]
@@ -819,6 +820,9 @@ Agent aus der Abschlussmeldung, ohne Chat). Schätzung 0,6 + 0,3 Mio /
 etwa 3 Punkte mit Chat; Anzeige 48 → 51 % (17.10. morgens, kein
 paralleler Chat). Schätzung hält. Regel: Nachaufträge an einen
 laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
+Zuordnung Schritt 2 (17.10., Chat Durchsicht P10 6, Opus, ohne
+Agenten, Skript und Urteil im Chat): Schätzung 1–2 Punkte; Anzeige
+52 → 54 % mit Nebenchat Bau 4 (Anteil nicht trennbar). Schätzung hält.
 
 ## 9 Später
 - Bauauftrag (am Ende des Meilensteins, Linie 8): vor dem Lernweg
@@ -1547,6 +1551,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   (16.10. o), Abschnitte nach Handgriff (pruefung.md § 2/§ 5, Linie 4
   „Skript“). Die alten Blätter bleiben bestellbar, bis die neuen
   stehen; pruefung.md wird mit der Baurunde nachgezogen.
+
+- 17.10.2026 (g): Vorhersage mit Modell (Lehrer, Weg A; Chat
+  Durchsicht P10 6). Warum: Stellt der Schüler erst ein Modell auf und
+  rechnet dann einen späteren Wert aus, ist das Aufstellen der schwere
+  Schritt; das Buch (Jesse 2.4) führt es unter Wachstumsmodelle.
+  Beispiel: Miete 2040 (2026-FOR-K7c), 2025-OS-K7b, 2020-OS-K4c,
+  2018-OS-K2c stehen unter Wachstumsmodelle, nicht unter Punkte und
+  Funktionswerte. Grenze des Schlüssels „zuletzt Gesuchtes“: Ein
+  Funktionswert aus einem selbst aufgestellten Modell zählt als
+  Modell; ist die Gleichung gegeben, bleibt es Punkte und
+  Funktionswerte.
 
 ## 11 Register der Entscheidungen
 
