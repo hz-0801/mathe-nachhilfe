@@ -14,7 +14,7 @@ die Schüler; zuerst Kurvendiskussion.
 
 - plan.md § 7 Strom D (Jetzt) und § 10 17.10. o, s (Lösungen).
 - mathe-nachhilfe fhr/loesung/: `schema-kurvendiskussion.tex/.pdf`
-  (Entwurf 3), `probeB.tex/.pdf` (FHR 2026 C 1 als amtlicher
+  (Entwurf 3, am 18.10. ersetzt durch ansaetze-kurvendiskussion.*), `probeB.tex/.pdf` (FHR 2026 C 1 als amtlicher
   Erwartungshorizont + drei Änderungen), `zuordnung-kurvendiskussion
   .csv` (449 Teilaufgaben: FHR 114 kern + 9 rand, Abitur 161 kern +
   165 rand).
@@ -37,6 +37,7 @@ die Schüler; zuerst Kurvendiskussion.
 - Schema Kurvendiskussion Entwurf 3 vom Lehrer gebilligt („so passt
   das“), mit Zahlenstrahl-Idee: Teilstriche mit x_E1, x_E2, x_S unter
   dem Wert (Vorschlag, noch nicht gesetzt).
+- 18.10.: Ansatzsammlung Kurvendiskussion (§ 10 18.10. a) abgelegt.
 - Wartet: Musterlösung des Lehrers zu FHR 2026 C 1 e).
 
 ## 4 Rahmen

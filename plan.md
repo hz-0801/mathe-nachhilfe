@@ -252,6 +252,7 @@ D FHR (Chat FHR, ab 17.10. abends; übernimmt „Buch FHR“ aus B):
   FHR.pdf“, 134 S., 10 MB, 16 Hefte 2026–2019 (alle auf dem
   Bildungsserver), Lösungen = amtlicher Erwartungshorizont hinten;
   werkzeuge/fhrbuch.py. Sonnet 0,18 Mio, 6 min.]
+  [18.10.: Ansatzsammlung Kurvendiskussion abgelegt, § 10 18.10. a.]
   Jetzt (§ 10 17.10. s): Lehrer lädt seine Musterlösung zu FHR 2026
   C 1 e) hoch; Claude überträgt sie auf eine zweite Kurvendiskussion
   (Abitur GK, Kern aus fhr/loesung/zuordnung-kurvendiskussion.csv);
@@ -1917,6 +1918,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Stand: Schema Kurvendiskussion Entwurf 3, Probe nach Weg B
   (Erwartungshorizont + Werkzeug, Bezeichner, Zahlenstrahl) „viel
   besser“ als eigene Fassungen; mathe-nachhilfe fhr/loesung/.
+- 18.10.2026 (a): Ansatzsammlung und Lösungsblatt Kurvendiskussion
+  (Lehrer, Chat FHR 1; Kasten „der erste gute“). Warum: Der Schüler
+  findet zum Stichwort der Aufgabe den Ansatz; die Lösung beginnt mit
+  diesem Ansatz und baut den Weg entlang der Bedingungen auf, darum
+  sieht jede Lösung derselben Frage gleich aus. Beispiel:
+  fhr/loesung/ansaetze-kurvendiskussion.pdf (Stichwort → Ansatz, vier
+  Blöcke, eine Seite). Lösung: Ansatz aus der Sammlung, nur
+  Zwischenergebnisse, Schrittweite so, dass die Kette mit ⇒ schließt;
+  keine Rechenwege, Kommentare, Dopplungen; ruhige Form in Zeilen und
+  sauberen Spalten, Einrücken, Grau für Nebensachen, Fett für
+  Ergebnisse. Grenze: Kürzen ohne Inhaltsverlust (eˣ-Regel bleibt);
+  Kern und Nebendinge evtl. trennen; Steckbrief ist eigene Art.
 
 ## 11 Register der Entscheidungen
 
