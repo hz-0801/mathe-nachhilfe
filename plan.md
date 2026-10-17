@@ -950,7 +950,8 @@ mit Nebenchats. Schätzung hält, Wanduhr zu hoch geschätzt. Regel:
 Agenten, die Seiten rendern, schreiben in einen eigenen Ordner, nie
 nach /tmp (2022: fremde Seiten gesehen, ein Lauf verloren).
 Buch Abitur LK (17.10., Chat Abitur 2, Sonnet-Agent): 0,16 Mio,
-7 min (Schätzung 0,15–0,3 Mio). Anzeige folgt.
+7 min (Schätzung 0,15–0,3 Mio). Anzeige 59 → 61 % mit Nebenchats
+(Anteil des Buchs nicht trennbar). Schätzung hält.
 
 ## 9 Später
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
@@ -1766,6 +1767,14 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   anwendungen bei Kegel und Pyramide“). Grenze: Hat das führende Buch
   nur eine Einheit für ein großes Gebiet (Duden 9 Kap. 9 Prozente und
   Zinsen), wartet das Gebiet auf ein Buch mit Unterteilung.
+- 17.10.2026 (n): Wortlaut der Abitur-GK-Originale jetzt, nicht erst
+  nach dem Gespräch über das Abitur (Lehrer, Weg A; Chat Abitur 2).
+  Warum: Abiturblätter kommen; Original neu und Skript brauchen den
+  Text in jedem Fall, das Gespräch entscheidet nur die Form.
+  Buch LK (Lehrer, Chat Abitur 2): Vorspann wie GK; „MMS, früher
+  CAS“; 2026 „Brandenburger Fassung“ statt „Berlin 2026 nicht
+  erhältlich“ (unbelegt), auch im GK; keine BE-Angabe je Jahr in der
+  Geschichte.
 
 ## 11 Register der Entscheidungen
 
