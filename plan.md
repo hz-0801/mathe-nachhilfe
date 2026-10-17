@@ -311,6 +311,17 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    5. Danach Abitur GK in derselben Form, dann das Lernblatt.
    Daneben offen: Kapitel A der Funktionsblätter „Punkte und
    Funktionswerte“ (17.10. c) ist Versuch.
+   [17.10. Stand Schritt 2 (Chat Durchsicht P10 6, Weg A): Zuordnung
+   für die Gebiete mit Register in msa/buchkapitel-p10.csv (neue Spalte
+   blatt; kapitelblatt.py liest nur die eigenen Zeilen): 130 von 418
+   Teilaufgaben – quadratische 35, trigonometrie 29, koerper 31,
+   wachstum 23, potenzen 12; Abschnitte nach Sekundo 10, Wachstum nach
+   Jesse Kap. 2 (Sekundo-Scan endet vor dem Kapitel). 2026-FOR-K5d nach
+   Schnittpunkte. Offen: vier Zweifel Buch gegen Schlüssel (Wachstum,
+   Spalte bemerkung „Zweifel“) beim Lehrer; 2025-OS-K5b und 2023-OS-K4b
+   „nicht teilen“ erst in der Baurunde (wortgleiche Partner 2018-OS-K5b/
+   K5c hängen an den Teilen); übrige 288 Teilaufgaben nach Duden 9 und
+   Klasse 7 (Chat Bau 4).]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;

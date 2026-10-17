@@ -1,36 +1,131 @@
-id;kapitel;abschnitt;folge;gleich_mit;bemerkung
-2026-FOR-B1e;Punkte und Funktionswerte;;1;2026-EBR-B1e;Wertetabelle zu y = ax² ankreuzen
-2026-EBR-B1e;Punkte und Funktionswerte;;1;2026-FOR-B1e;wortgleich mit FOR
-2020-OS-K3b;Punkte und Funktionswerte;;2;;Punkt auf der Parabel? ankreuzen
-2020-OS-K3c;Punkte und Funktionswerte;;3;;y zu gegebenem x
-2024-OS-K3c;Punkte und Funktionswerte;;4;;Punkt rechnerisch prüfen
-2018-OS-K5a;Punkte und Funktionswerte;;5;;Aussagen wahr/falsch, gemischt
-2021-OS-B1d;Scheitelform;Scheitelpunkt angeben;1;;aus Graph ankreuzen
-2026-FOR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-EBR-K5c 2020-OS-K3a 2017-OS-K5c;aus Graph mit Scheitelform
-2026-EBR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;wortgleich mit FOR
-2020-OS-K3a;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
-2017-OS-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
-2025-OS-K5b;Scheitelform;Scheitelpunkt angeben;3;2018-OS-K5b;aus Graph mit Normalform; zweiter Teil unter Gleichung aufstellen
-2018-OS-K5b;Scheitelform;Scheitelpunkt angeben;3;2025-OS-K5b;
-2023-OS-K4b;Scheitelform;Scheitelpunkt angeben;4;;aus Graph, nach unten geöffnet; zweiter Teil unter Gleichung aufstellen
-2022-OS-K3b;Scheitelform;Scheitelpunkt angeben;5;;aus Gleichung ohne Graph
-2024-OS-K3b;Scheitelform;Scheitelpunkt angeben;6;;skizzieren und angeben
-2015-OS-B1i;Scheitelform;Scheitelpunkt angeben;7;;aus Verschiebung in Worten
-2016-OS-B1g;Scheitelform;Gleichung aufstellen;1;;aus Scheitelpunkt ankreuzen
-2018-OS-K5c;Scheitelform;Gleichung aufstellen;2;;aus Graph mit Normalform (mit 2025-OS-K5b Teil 2)
-2017-OS-K5e;Scheitelform;Gleichung aufstellen;4;;aus Verschieben und Spiegeln
-2020-OS-K3d;Scheitelform;Gleichung aufstellen;4;;Spiegeln an der y-Achse, skizzieren
-2018-OS-K5d;Scheitelform;Gleichung aufstellen;5;;Parabel zu Eigenschaften
-2015-OS-K4b;Scheitelform;Gleichung aufstellen;6;;Gleichung zu Graph, Sachaufgabe
-2026-FOR-K5d;Scheitelform;Gleichung aufstellen;7;;Lage zweier Parabeln ohne Rechnung
-2025-OS-B1h;Quadratische Gleichungen;;1;;Lösung durch Einsetzen ankreuzen
-2020-OS-K3e;Quadratische Gleichungen;;2;;Nullstellen berechnen
-2025-OS-K5c;Quadratische Gleichungen;;3;;Schnittpunkte mit der x-Achse (anders formuliert als 2020-OS-K3e, bleibt)
-2023-OS-K4c;Quadratische Gleichungen;;4;;x zu gegebenem y
-2021-OS-K7c;Quadratische Gleichungen;;5;;Anzahl der Lösungen
-2017-OS-K5d;Quadratische Gleichungen;;6;;Normalform zeigen, Nullstellen
-2024-OS-K3d;Schnittpunkte;;1;2022-OS-K3c;Gerade und Parabel aus Graphen
-2022-OS-K3c;Schnittpunkte;;1;2024-OS-K3d;
-2021-OS-K2c;Schnittpunkte;;2;;Gerade und Parabel aus Gleichungen im Text
-2014-OS-K7a;Schnittpunkte;;3;;Punkt auf beiden Graphen?
-2014-OS-K7b;Schnittpunkte;;4;;Gerade ohne gemeinsamen Punkt
+id;blatt;kapitel;abschnitt;folge;gleich_mit;bemerkung
+2026-FOR-B1e;quadratische;Punkte und Funktionswerte;;1;2026-EBR-B1e;Wertetabelle zu y = ax² ankreuzen
+2026-EBR-B1e;quadratische;Punkte und Funktionswerte;;1;2026-FOR-B1e;wortgleich mit FOR
+2020-OS-K3b;quadratische;Punkte und Funktionswerte;;2;;Punkt auf der Parabel? ankreuzen
+2020-OS-K3c;quadratische;Punkte und Funktionswerte;;3;;y zu gegebenem x
+2024-OS-K3c;quadratische;Punkte und Funktionswerte;;4;;Punkt rechnerisch prüfen
+2018-OS-K5a;quadratische;Punkte und Funktionswerte;;5;;Aussagen wahr/falsch, gemischt
+2021-OS-B1d;quadratische;Scheitelform;Scheitelpunkt angeben;1;;aus Graph ankreuzen
+2026-FOR-K5c;quadratische;Scheitelform;Scheitelpunkt angeben;2;2026-EBR-K5c 2020-OS-K3a 2017-OS-K5c;aus Graph mit Scheitelform
+2026-EBR-K5c;quadratische;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;wortgleich mit FOR
+2020-OS-K3a;quadratische;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
+2017-OS-K5c;quadratische;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;
+2025-OS-K5b;quadratische;Scheitelform;Scheitelpunkt angeben;3;2018-OS-K5b;aus Graph mit Normalform,  zweiter Teil unter Gleichung aufstellen
+2018-OS-K5b;quadratische;Scheitelform;Scheitelpunkt angeben;3;2025-OS-K5b;
+2023-OS-K4b;quadratische;Scheitelform;Scheitelpunkt angeben;4;;aus Graph, nach unten geöffnet,  zweiter Teil unter Gleichung aufstellen
+2022-OS-K3b;quadratische;Scheitelform;Scheitelpunkt angeben;5;;aus Gleichung ohne Graph
+2024-OS-K3b;quadratische;Scheitelform;Scheitelpunkt angeben;6;;skizzieren und angeben
+2015-OS-B1i;quadratische;Scheitelform;Scheitelpunkt angeben;7;;aus Verschiebung in Worten
+2016-OS-B1g;quadratische;Scheitelform;Gleichung aufstellen;1;;aus Scheitelpunkt ankreuzen
+2018-OS-K5c;quadratische;Scheitelform;Gleichung aufstellen;2;;aus Graph mit Normalform (mit 2025-OS-K5b Teil 2)
+2017-OS-K5e;quadratische;Scheitelform;Gleichung aufstellen;4;;aus Verschieben und Spiegeln
+2020-OS-K3d;quadratische;Scheitelform;Gleichung aufstellen;4;;Spiegeln an der y-Achse, skizzieren
+2018-OS-K5d;quadratische;Scheitelform;Gleichung aufstellen;5;;Parabel zu Eigenschaften
+2015-OS-K4b;quadratische;Scheitelform;Gleichung aufstellen;6;;Gleichung zu Graph, Sachaufgabe
+2026-FOR-K5d;quadratische;Schnittpunkte;;1;;Lage zweier Parabeln: gemeinsame Punkte zählen
+2025-OS-B1h;quadratische;Quadratische Gleichungen;;1;;Lösung durch Einsetzen ankreuzen
+2020-OS-K3e;quadratische;Quadratische Gleichungen;;2;;Nullstellen berechnen
+2025-OS-K5c;quadratische;Quadratische Gleichungen;;3;;Schnittpunkte mit der x-Achse (anders formuliert als 2020-OS-K3e, bleibt)
+2023-OS-K4c;quadratische;Quadratische Gleichungen;;4;;x zu gegebenem y
+2021-OS-K7c;quadratische;Quadratische Gleichungen;;5;;Anzahl der Lösungen
+2017-OS-K5d;quadratische;Quadratische Gleichungen;;6;;Normalform zeigen, Nullstellen
+2024-OS-K3d;quadratische;Schnittpunkte;;1;2022-OS-K3c;Gerade und Parabel aus Graphen
+2022-OS-K3c;quadratische;Schnittpunkte;;1;2024-OS-K3d;
+2021-OS-K2c;quadratische;Schnittpunkte;;2;;Gerade und Parabel aus Gleichungen im Text
+2014-OS-K7a;quadratische;Schnittpunkte;;3;;Punkt auf beiden Graphen?
+2014-OS-K7b;quadratische;Schnittpunkte;;4;;Gerade ohne gemeinsamen Punkt
+2025-OS-B1g;trigonometrie;Winkelfunktionen im rechtwinkligen Dreieck;;1;;Winkelfunktion Seitenverhältnis angeben
+2020-OS-B1c;trigonometrie;Winkelfunktionen im rechtwinkligen Dreieck;;2;;Winkelfunktion Seitenverhältnis angeben
+2019-OS-B1h;trigonometrie;Winkelfunktionen im rechtwinkligen Dreieck;;3;2017-OS-B1j;Winkelfunktion Seitenverhältnis angeben
+2018-OS-B1g;trigonometrie;Winkelfunktionen im rechtwinkligen Dreieck;;4;;Winkelfunktion Seitenverhältnis angeben
+2017-OS-B1j;trigonometrie;Winkelfunktionen im rechtwinkligen Dreieck;;3;2019-OS-B1h;Winkelfunktion Seitenverhältnis angeben
+2026-FOR-K4b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;1;2026-EBR-K3b;Winkel im rechtwinkligen Dreieck berechnen
+2026-EBR-K3b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;1;2026-FOR-K4b;Winkel im rechtwinkligen Dreieck berechnen
+2024-OS-K6b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;2;;Winkel im rechtwinkligen Dreieck berechnen
+2022-OS-K5b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;3;;Winkel im rechtwinkligen Dreieck berechnen
+2019-OS-K3b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;4;;Winkel im rechtwinkligen Dreieck berechnen
+2020-OS-K5b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;5;;Winkel im rechtwinkligen Dreieck berechnen
+2020-OS-B1j;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;1;;Trigonometrische Gleichung nach Seite umstellen
+2022-OS-K5d;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;2;;Seite im rechtwinkligen Dreieck berechnen
+2021-OS-K3a;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;3;;Seite im rechtwinkligen Dreieck berechnen
+2021-OS-K3b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;4;;Seite im rechtwinkligen Dreieck berechnen
+2017-OS-K4b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;5;;Seite im rechtwinkligen Dreieck berechnen
+2026-FOR-K4c;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;6;;Seite im rechtwinkligen Dreieck berechnen
+2023-OS-K7b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;7;;Seite im rechtwinkligen Dreieck berechnen
+2018-OS-K4d;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;8;;Seite im rechtwinkligen Dreieck berechnen
+2016-OS-K7c;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;9;;Seite im rechtwinkligen Dreieck berechnen
+2018-OS-K4c;trigonometrie;Berechnungen in beliebigen Dreiecken;;1;;Sinussatz Seite berechnen
+2015-OS-K5c;trigonometrie;Berechnungen in beliebigen Dreiecken;;2;;Sinussatz Seite berechnen
+2025-OS-K4c;trigonometrie;Berechnungen in beliebigen Dreiecken;;3;;Sinussatz Seite berechnen
+2024-OS-K6d;trigonometrie;Berechnungen in beliebigen Dreiecken;;4;;Sinussatz Seite berechnen
+2017-OS-K4c;trigonometrie;Berechnungen in beliebigen Dreiecken;;5;;Sinussatz Seite berechnen
+2014-OS-K2b;trigonometrie;Berechnungen in beliebigen Dreiecken;;6;;Sinussatz Seite berechnen
+2021-OS-K3c;trigonometrie;Berechnungen in beliebigen Dreiecken;;7;;Sinussatz Seite berechnen
+2020-OS-K7c;trigonometrie;Berechnungen in beliebigen Dreiecken;;8;;Sinussatz Seite berechnen
+2019-OS-K3c;trigonometrie;Berechnungen in beliebigen Dreiecken;;9;;Sinussatz Seite berechnen
+2019-OS-B1f;koerper;Körper;;1;;Kantenzahl eines Körpers angeben
+2018-OS-B1i;koerper;Körper;;2;;Körper aus Netz oder Schrägbild benennen
+2017-OS-B1c;koerper;Körper;;3;;Körper aus Netz oder Schrägbild benennen
+2016-OS-B1j;koerper;Körper;;4;;Gegenfläche im Würfelnetz bestimmen
+2026-FOR-B1f;koerper;Prisma und Zylinder;Volumen;1;2026-EBR-B1f;Volumen Würfel berechnen
+2026-EBR-B1f;koerper;Prisma und Zylinder;Volumen;1;2026-FOR-B1f;Volumen Würfel berechnen
+2026-FOR-K2a;koerper;Prisma und Zylinder;Volumen;2;2026-EBR-K2a;Volumen Zylinder berechnen
+2026-EBR-K2a;koerper;Prisma und Zylinder;Volumen;2;2026-FOR-K2a;Volumen Zylinder berechnen
+2023-OS-K5b;koerper;Prisma und Zylinder;Volumen;3;;Volumen Zylinder berechnen
+2022-OS-K2b;koerper;Prisma und Zylinder;Volumen;4;;Volumen Zylinder berechnen
+2021-OS-K4a;koerper;Prisma und Zylinder;Volumen;5;;Volumen Zylinder berechnen
+2014-OS-K5a;koerper;Prisma und Zylinder;Volumen;6;;Volumen Prisma berechnen
+2021-OS-K4b;koerper;Prisma und Zylinder;Volumen;7;;Volumenänderung bei doppeltem Radius begründen
+2023-OS-K5d;koerper;Prisma und Zylinder;Volumen;8;;Höhe eines Zylinders aus Volumen berechnen
+2022-OS-K2d;koerper;Prisma und Zylinder;Volumen;9;;Radius eines Zylinders aus Volumen berechnen
+2019-OS-K4c;koerper;Prisma und Zylinder;Volumen;10;;Flächeninhalt Dreieck berechnen
+2020-OS-K5c;koerper;Prisma und Zylinder;Volumen;11;;Schachteln in der Kiste: Maße, kein Volumen
+2018-OS-K6b;koerper;Prisma und Zylinder;Oberfläche;1;;Mantelfläche Zylinder berechnen
+2020-OS-K5a;koerper;Prisma und Zylinder;Oberfläche;2;;Netz eines Prismas vervollständigen
+2019-OS-K4a;koerper;Prisma und Zylinder;Oberfläche;3;;Netz eines Prismas vervollständigen
+2023-OS-K5a;koerper;Prisma und Zylinder;Oberfläche;4;;Mantelfläche Zylinder als Netz skizzieren
+2022-OS-K2a;koerper;Prisma und Zylinder;Oberfläche;5;;Netz eines Zylinders erkennen
+2014-OS-K5b;koerper;Prisma und Zylinder;Oberfläche;6;;Netz eines Prismas vervollständigen
+2015-OS-K6b;koerper;Pyramide und Kegel;;1;;Körperskizze beschriften
+2026-FOR-K2b;koerper;Pyramide und Kegel;;2;2026-EBR-K2b;Mantelfläche Kegel berechnen
+2026-EBR-K2b;koerper;Pyramide und Kegel;;2;2026-FOR-K2b;Mantelfläche Kegel berechnen
+2024-OS-K4b;koerper;Pyramide und Kegel;;3;;Körper in Schrägbild skizzieren
+2026-FOR-K2d;koerper;Pyramide und Kegel;;4;;Volumen Kegel und Zylinder vergleichen
+2024-OS-K4c;koerper;Kugel und zusammengesetzte Körper;;1;;Restvolumen berechnen
+2017-OS-K3c;koerper;Kugel und zusammengesetzte Körper;;2;;Grundfläche Rechteck plus Halbkreis
+2016-OS-K3c;koerper;Kugel und zusammengesetzte Körper;;3;;Volumen Kugel berechnen
+2026-FOR-K7a;wachstum;Punkte und Funktionswerte;;1;2026-EBR-K7a;Wachstumstabelle ergänzen
+2026-EBR-K7a;wachstum;Punkte und Funktionswerte;;1;2026-FOR-K7a;Wachstumstabelle ergänzen
+2025-OS-K7a;wachstum;Punkte und Funktionswerte;;2;;Wertetabelle als Punkte darstellen
+2020-OS-K4a;wachstum;Punkte und Funktionswerte;;3;;Wachstumstabelle ergänzen
+2019-OS-K7a;wachstum;Punkte und Funktionswerte;;4;;Wachstumstabelle ergänzen
+2016-OS-K4e;wachstum;Punkte und Funktionswerte;;5;;Funktionswert berechnen
+2017-OS-K7a;wachstum;Punkte und Funktionswerte;;6;;Wachstumstabelle ergänzen
+2017-OS-K7d;wachstum;Punkte und Funktionswerte;;7;;Funktionswert berechnen
+2017-OS-K7c;wachstum;Exponentielles Wachstum;;1;;Exponentialfunktion aufstellen
+2018-OS-K2a;wachstum;Exponentielles Wachstum;;2;;Wachstumsfaktor aus Tabelle bestimmen
+2018-OS-K2b;wachstum;Exponentielles Wachstum;;3;;Wachstumsart begründen
+2016-OS-K4d;wachstum;Exponentielles Wachstum;;4;;Wachstumsart begründen
+2019-OS-K7b;wachstum;Exponentielles Wachstum;;5;;Gleichung im Sachzusammenhang deuten
+2026-FOR-K7b;wachstum;Exponentialfunktion;;1;2026-EBR-K7b;Graph zu Wachstumsprozess zuordnen
+2026-EBR-K7b;wachstum;Exponentialfunktion;;1;2026-FOR-K7b;Graph zu Wachstumsprozess zuordnen
+2019-OS-K7c;wachstum;Exponentialfunktion;;2;;Graph zu Wachstumsprozess zuordnen
+2016-OS-K4c;wachstum;Wachstumsmodelle;;1;;Verdopplungs- oder Halbwertszeit bestimmen
+2018-OS-K2c;wachstum;Wachstumsmodelle;;2;;Zweifel: Buch Wachstumsmodelle (Schwelle), Schlüssel zuletzt Umsatz -> A
+2016-OS-K4a;wachstum;Wachstumsmodelle;;3;;Wachstumstabelle ergänzen
+2026-FOR-K7c;wachstum;Wachstumsmodelle;;4;;Zweifel: Buch Wachstumsmodelle (Prognose), Schlüssel Funktionswert (Miete 2040) -> A
+2020-OS-K4b;wachstum;Wachstumsmodelle;;5;;Verdopplungs- oder Halbwertszeit bestimmen
+2020-OS-K4c;wachstum;Wachstumsmodelle;;6;;Zweifel: Buch Wachstumsmodelle (zwei Prognosen), Schlüssel Funktionswert -> A
+2025-OS-K7b;wachstum;Wachstumsmodelle;;7;;Zweifel: Buch Wachstumsmodelle, Schlüssel Aussage zum Funktionswert -> A
+2024-OS-B1g;potenzen;Potenzen;;1;;Exponent einer Potenz bestimmen
+2022-OS-B1j;potenzen;Potenzen;;2;;Zahlen in verschiedenen Darstellungen vergleichen
+2020-OS-B1h;potenzen;Potenzen;;3;;Exponent einer Potenz bestimmen
+2019-OS-B1d;potenzen;Potenzen;;4;;Zahlen in verschiedenen Darstellungen vergleichen
+2017-OS-B1e;potenzen;Potenzen;;5;;Zahlen vergleichen mit Zehnerpotenzen
+2025-OS-B1d;potenzen;Standardschreibweise;;1;;Zehnerpotenzschreibweise umwandeln
+2019-OS-B1j;potenzen;Standardschreibweise;;2;;Zehnerpotenzschreibweise umwandeln
+2017-OS-B1g;potenzen;Standardschreibweise;;3;;Zehnerpotenzschreibweise umwandeln
+2016-OS-B1h;potenzen;Standardschreibweise;;4;;Zehnerpotenzschreibweise umwandeln
+2015-OS-K3a;potenzen;Standardschreibweise;;5;;Große Zahl mit Zehnerpotenz multiplizieren
+2015-OS-K3b;potenzen;Standardschreibweise;;6;;Zehnerpotenzschreibweise umwandeln
+2015-OS-B1j;potenzen;Wurzeln;;1;;"Wurzel aus einem Quadrat; Klasse 8/9, Duden 9 prüfen"
