@@ -1389,6 +1389,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Tafelwerk dort nur als Zeile mit Seite, kein Formelkasten; die
   Stufenzeile oben ohne Buchstaben, die Abschnitte behalten A, B, C.
 
+- 17.10.2026 (a): Kern und Tafelwerk (Lehrer, Durchsicht 3b, PA30;
+  ersetzt 15.10. w und t, 16.10. a). Warum: Der Kern hält auf und
+  gehört ins Tafelwerk; kopierte Tafelwerk-Kästen sind unnütz (ohne
+  Normalform, ohne a, Verweise auf andere Seiten). Kein Kern am Ende.
+  Tafelwerk nur nennen oder nach der Seite fragen (ohne Nummer);
+  eine Formel oder Darstellungsform stellen wir selbst vor, wo der
+  Schüler sie üben soll, nicht stumpf aus dem Tafelwerk übernommen.
+  Umsetzung mit der nächsten Runde (Setzer, regel-pruef, pruefung.md
+  „Pflichtteile“ Punkte 1 und 2).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
