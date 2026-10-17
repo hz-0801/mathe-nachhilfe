@@ -1003,6 +1003,9 @@ Mio, Wanduhr 50 min (17:10–18:00); Chat Opus. 228 Seiten. Schätzung
 2,5 Punkte / 2 h; Anzeige 62 → 64 % mit Nebenchats. Schätzung hält
 (≈ 1 Punkt je 110 Seiten), Wanduhr zu hoch geschätzt: Register-
 Gruppen laufen parallel in 1–2 min.
+VERA-8-Register (17.10., Chat Stochastik 1): Sonnet 5 Läufe ≈ 0,86
+Mio, 15 min (Schätzung 0,8 Mio / ≈ 1 Punkt); Anzeige 64 → 64 % mit
+Nebenchats. Schätzung hält (unter einem Punkt).
 
 ## 9 Später
 - Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
