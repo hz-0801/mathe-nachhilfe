@@ -42,9 +42,9 @@ allgemeine Blätter.
   Seiten mit pdftoppm, Text eventuell schon vorhanden). Schätzung
   1,5–2 Punkte, Skript ≈ 0,3.
 - Offen: die vier Fragen aus aufgabenbank bau/befunde-M5.md (Abitur:
-  4 Seiten, Ende des Blatts, Rechenraum, ’26 · A1.3) – am Anfang des
-  neuen Chats vorlegen, einfache Sprache, eine je Nachricht (plan.md
-  § 7, spätestens Mo 19.10.).
+  4 Seiten, Ende des Blatts, Rechenraum, ’26 · A1.3) – am Anfang
+  des neuen Chats vorlegen, einfache Sprache, eine je Nachricht
+  (plan.md § 7, spätestens Mo 19.10.).
 - Offen beim Lehrer: Jesse neu scannen (je Seite; S. 40/41, 164/165,
   236–238), dann ein Buch statt zwei Bände (plan.md § 9).
 - Keine Agenten laufen.
