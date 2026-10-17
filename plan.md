@@ -193,6 +193,9 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   nachfotografieren (S. 40/41, 164/165, 236–238) und operator/
   frageform nachtragen, Bücher Klasse 8 (Lehrer liefert in ein paar
   Tagen). Zurückgestellt: Stochastik Jung, Stark (Sek II).
+  [17.10. abends (Lehrer, Chat FHR 1, § 10 17.10. p): nicht mehr
+  zurückgestellt – alle weiteren Scans verwerten, auch Stochastik
+  Jung und Stark (Teil 1), in einem neuen Chat Bau („Start.“).]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
@@ -1798,6 +1801,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   folgt in Chat FHR direkt nach dem Buch FHR, die Umsetzung je Buch
   im Chat seines Stroms. Ändert es die Form, wird das Buch FHR neu
   gesetzt (Skript, ohne Modell).
+- 17.10.2026 (p): Alle weiteren Scans verwerten, auch die
+  zurückgestellten Sek-II-Bücher Stochastik Jung und Stark (Lehrer,
+  Chat FHR 1). Warum: Das Kontingent bis Mo 18:00 reicht; ungenutzt
+  verfällt es. Wo: neuer Chat Bau (uebergabe.md), wie die übrigen
+  Bücher (Register, Katalog-Zuordnung, Drive). Hebt „zurückgestellt“
+  vom 17.10. auf.
 
 ## 11 Register der Entscheidungen
 
