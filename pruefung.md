@@ -96,7 +96,7 @@ werkzeuge/anzeigenamen-pruef.py):
     gesucht · Gerade und Parabel.
   - Gleichungssysteme: Gleichungssystem im Sachzusammenhang (4 · 2).
     Blattnamen und Stufen: Gleichungssystem – System aufstellen ·
-    System lösen (16.10. n).
+    System lösen (16.10. o).
   - Wachstum: Exponentielles Wachstum (5 · 2). Blattnamen und Stufen:
     Wachstum – Tabelle ergänzen · Graph zeichnen · Gleichung gesucht ·
     Graph zuordnen.
@@ -527,7 +527,7 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Grenze: nur Originale, nichts Erfundenes – fehlen leichte, ist die
   Portion schwer; Anhang „Mehr zum Üben“ nur auf Zuruf (06.10.).
 
-### Pflichtteile eines P10-Blatts (gesammelt 16.10.)
+### Pflichtteile eines P10-Blatts (gesammelt 16.10.; Punkte 1–2 und Mehr ersetzt durch plan.md § 10 17.10. a und d)
 
 Warum hier: Die Entscheidungen aus der Durchsicht standen nur in
 plan.md § 10 mit „Umsetzung in Schritt C“ und in den Daten von
@@ -538,7 +538,7 @@ haben muss, steht deshalb hier; `werkzeuge/regel-pruef.py`
 Meldung. Gilt für jedes Blatt, nicht nur das, an dem es entschieden
 wurde.
 
-1. Tafelwerk (15.10. o, t; 16.10. a, n). Warum: Der Schüler soll die
+1. Tafelwerk (15.10. o, t; 16.10. a, o). Warum: Der Schüler soll die
    Formel so sehen, wie er sie in der Prüfung aufschlägt. Entweder
    Formelkasten (nur Formeln, die sitzen müssen: Pythagoras, sin/cos/
    tan, Sinussatz, Geradengleichung, Scheitelpunktform, pq-Formel)
@@ -557,7 +557,7 @@ wurde.
    stehen die Mehr-Aufgaben als letzter Abschnitt „Ältere
    Prüfungsaufgaben“ darauf; nie eine leere zweite Seite neben einem
    eigenen Mehr.
-5. Abschnitte (15.10. l, o; 16.10. h, n). Warum: Der Schüler übt in
+5. Abschnitte (15.10. l, o; 16.10. h, o). Warum: Der Schüler übt in
    einem Abschnitt einen Handgriff. Ein gemischtes Original wird
    gekürzt, jeder Teil steht in dem Abschnitt seines Handgriffs
    (Parabel zeichnen ohne „Gib den Scheitelpunkt an“; der kommt nach

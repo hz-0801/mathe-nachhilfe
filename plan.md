@@ -380,7 +380,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
-   buecher/jesse/, § 10 17.10. a). Nachzufotografieren: S. 40/41,
+   buecher/jesse/, § 10 17.10. e). Nachzufotografieren: S. 40/41,
    164/165, 236–238. Nächstes Buch erst nach dem Vergleich Lernblatt
    mit/ohne Buch.]
 
@@ -1458,7 +1458,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   für quadratische Funktionen: msa/buchkapitel-p10.csv (Spalte
   gleich_mit). Offen: Linienwechsel Buchkapitel = Abschnitt, alle
   lehrplangerechten Originale, kein Mehr, Bestellung je Abschnitt.
-- 17.10.2026 (a): Schulbücher (Lehrer, Chat Bau 4, Jesse): kein
+- 17.10.2026 (e): Schulbücher (Lehrer, Chat Bau 4, Jesse): kein
   Wortlaut abgeschrieben; je Buch ein Register (aufgabenbank-privat
   buecher/<kurz>/register.csv: Seite, Nummer, Lerneinheit, Abschnitt,
   Stichwort in eigenen Worten, Handgriff, Felder wie bank.md, Schwere,
@@ -1494,7 +1494,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Abschnitt höchstens ein Begriffs-Einzeiler und höchstens eine eigene
   Einstiegsaufgabe (Lehrer, Weg B), sonst nur Originale; je
   bestellbarem Abschnitt Blatt und Lösung, 2–3 Seiten, mehr nur, wenn
-  sonst etwas fehlte. Zuordnung der Originale aus dem Register der
+  sonst etwas fehlte. Rechenraum voll, eher mehr – beim Lösen wird
+  gestrichen und verbessert (Lehrer 16.10. PA20, 17.10. PA20 3b). Zuordnung der Originale aus dem Register der
   Schulbücher (aufgabenbank-privat buecher/, Chat Bau 4), ein
   Bestimmungsschlüssel auf dem Katalogfeld „gesucht“ als Gegenprobe;
   bei mehreren Fragen einer Teilaufgabe entscheidet das zuletzt
@@ -1508,7 +1509,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Ersetzt: Kern (15.10. w), Formelkasten (15.10. t, 16.10. a), Mehr
   (15.10. r, 16.10. f), Heranführen (16.10. k, jetzt höchstens ein
   Einstieg je Abschnitt), Pflichtteile Kern/Formelkasten/Mehr
-  (16.10. n), Abschnitte nach Handgriff (pruefung.md § 2/§ 5, Linie 4
+  (16.10. o), Abschnitte nach Handgriff (pruefung.md § 2/§ 5, Linie 4
   „Skript“). Die alten Blätter bleiben bestellbar, bis die neuen
   stehen; pruefung.md wird mit der Baurunde nachgezogen.
 
