@@ -1,69 +1,79 @@
-# Übergabe verbessereBlaetter – 2026-10-16 (Chat „Bau 3“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-17 (Chat „Bau 4“, Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-16-mittags.md. Nach
+Vorherige Übergabe: archiv/uebergabe-2026-10-16-bau3.md. Nach
 plan.md Linie 8 kein eigener nächster Schritt. Entscheidungen nur
-aus plan.md (§ 10, 16.10. h, m, n). Daneben läuft der Chat
+aus plan.md § 10 (16.10. n; 17.10. e, f – Kennungen nach der
+Umnummerierung durch den Chat Durchsicht). Daneben läuft der Chat
 „Durchsicht P10“ (uebergabe-durchsicht.md).
 
 ## 1 Ziel
 
 P10 fertig und verbessert, Abitur GK aus Daten; dazu Bücher als
-übersichtliche, durchsuchbare PDFs mit Sprungmarken – Tafelwerke,
-Originalprüfungen je Prüfung, später ein Buch der Lernblätter.
+durchsuchbare PDFs in Drive und je Schulbuch ein Register (Aufgaben,
+Aufbau, Frageformen, Katalog-Zuordnung) als Vorrat für Prüfungs- und
+allgemeine Blätter.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 „Jetzt Bau, in dieser Folge (Lehrer 16.10.)“, Punkt 1
-  mit Stand [16.10. erledigt (Chat Bau 3) …]; § 10 (16.10. l, m, n).
-- gemeinsam.md „Form der Lösung“ (seit 16.10. mit Namen am Wert).
-- aufgabenbank werkzeuge/loesung-pruef.py: `--streng` (Buch der
-  Originale) meldet links RECHNUNG, WEG, KLAMMER, URTEIL, RUNDUNG,
-  WORT, ZB, NAME; rechts R-WEG, R-WORT, R-WERT, R-GLEICH;
-  `--heft "2026 FOR"` prüft ein Heft. Ohne `--streng` unverändert.
-- aufgabenbank-privat werkzeuge/pruefungsbuch.py: Lösungen mit
-  xelatex und blattbau mathblatt.sty (lzaufg, \lzz), Sprung je Zeile
-  per zref-savepos, setzt nicht bei fehlendem Zeichen oder
-  Überbreite; `--nur "2026 FOR"` baut ein Probebuch. Aufruf aus
-  aufgabenbank-privat: `python3 werkzeuge/pruefungsbuch.py --katalog
-  ../mathe-nachhilfe/msa --hefte hefte --aus "<pfad>/P10
-  Originalprüfungen.pdf"` (braucht blattbau daneben, xelatex mit
-  zref, reportlab, pypdf, poppler).
-- Muster: 2026 FOR im Katalog (msa/msa-katalog-basis.csv,
-  -kontext.csv, Zeilen 2026-FOR-*), Lehrer „besser“.
+- plan.md § 7 „Jetzt Durchsicht/P10“ (17.10. d), Punkt 1: Chat Bau
+  erfasst die Schulbücher als Register, zuerst Duden 9
+  („Buch_Mathe_Kl9.pdf“, OneDrive/Desktop/bücher scanns), dann die
+  übrigen (Reihenfolge im Stand Bau 4 dort).
+- aufgabenbank-privat buecher/ablauf.md: fester Ablauf je Buch
+  (Seiten, Register mit Sonnet je ~12 S., Katalog-Zuordnung, PDF mit
+  Lesezeichen, Ablage); buecher/register-auftrag.md (19 Felder, mit
+  operator und frageform); buecher/README.md.
+- Werkzeuge (aufgabenbank-privat werkzeuge/): buch-durchsuchbar.py
+  (Seiten, quer/kopfstehend erkannt), buchregister.py (bau, pruef,
+  such, aufbau, katalog <id>), buch-lesezeichen.py (Lesezeichen,
+  Inhalt, Fuß aus dem Register), buch-aufgabe.py (Ausschnitt bei
+  vergessenem Buch), pruefungsbuch.py (Buch P10, qpdf).
 
 ## 3 Arbeitsstand
 
-- Erledigt 16.10.: Pilot 2026 FOR (Satz, Prüfskript, 25 Zeilen
-  Katalog in Form und mit Namen). Commits mathe-nachhilfe,
-  aufgabenbank, aufgabenbank-privat.
-- Offen: übrige 13 Hefte – `--streng` meldet 216 Zeilen (NAME 76,
-  R-WORT 61, WORT 29, R-GLEICH 22, URTEIL 22, R-WERT 14, R-WEG 10,
-  ZB 7, RUNDUNG 7). Weg A gewählt: der Chat korrigiert selbst.
-  Ablauf und Schätzung in plan.md § 7.
-- Buch P10 noch nicht in Drive (nach Neusatz und Blick des Lehrers).
+- Erledigt 16./17.10.: Lösungen aller 14 P10-Hefte (--streng 0),
+  Buch „P10 Originalprüfungen“ in Drive; Jesse (Cornelsen
+  Fundamente 10, 2 Bände) und Sekundo 10 (Westermann, 1 Datei) in
+  Drive Mathe/Bücher; Register jesse (1 045 Aufgaben, ohne
+  frageform) und sekundo10 (960 Aufgaben); katalog.csv für beide.
+- Offen: Duden 9 – nächster Lauf, Go des Lehrers noch nicht erteilt.
+  Dabei ein Skript für die Schritte ohne Modell (ablauf.md 1 und 4)
+  schreiben, Duden 9 ist der erste Fall (vermutlich digitales PDF:
+  Seiten mit pdftoppm, Text eventuell schon vorhanden). Schätzung
+  1,5–2 Punkte, Skript ≈ 0,3.
+- Offen: die vier Fragen aus aufgabenbank bau/befunde-M5.md (Abitur:
+  4 Seiten, Ende des Blatts, Rechenraum, ’26 · A1.3) – am Anfang des
+  neuen Chats vorlegen, einfache Sprache, eine je Nachricht (plan.md
+  § 7, spätestens Mo 19.10.).
+- Offen beim Lehrer: Jesse neu scannen (je Seite; S. 40/41, 164/165,
+  236–238), dann ein Buch statt zwei Bände (plan.md § 9).
 - Keine Agenten laufen.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 48 % vor dem Pilot, 49 % nach Pilot und Umzug (16.10.
-  mittags, Nebenchat lief); Fable 24 %; Reset Mo 18:00.
-- Lehrer will tokensparend: schmale Listen aus Skripten statt
-  Dateien lesen; Prüfung jeder Zeile, keine kleine Stichprobe.
-- Lösungen „nicht immer knapp, aber so lassen“ (Lehrer 16.10.).
-- Rechtlich (Claude, kein Jurist): Bildungsserver-Hefte für den
-  eigenen Unterricht unbedenklich, nicht veröffentlichen.
-- Lehrer arbeitet in UTC+2.
+- Woche 54 % (17.10. mittags, mit Nebenchat), Reset Mo 18:00.
+  Bau 4 gesamt 49 → 54 %: Lösungen und Buch P10 ≈ 1, Jesse ≈ 2,
+  Sekundo ≈ 2 Punkte. Faustwert ≈ 1 Punkt je 90 Buchseiten (Sonnet,
+  ~10 000 Agenten-Token je Seite, meist Cache).
+- Kein Wortlaut aus Schulbüchern wird gesammelt (Claude lehnt die
+  Abschrift ab; Sonnet-Agenten ebenso). Erlaubt und gewollt:
+  Merkmale, Stichwort und Frageform in eigenen Worten, Aufgaben auf
+  Abruf als Ausschnitt oder „nach <Buch> S. n/k“ mit anderen Zahlen.
+- Rechner: Dateien einzeln holen; große Dateien nach Drive über
+  SendUserFile und dann device_commit_files mit fileUuid; Ablage
+  höchstens 30 MB je Datei. Meldet die Brücke „nicht verbunden“,
+  einmal neu versuchen und dem Lehrer die Meldung wörtlich nennen.
+- Lehrer arbeitet in UTC+2; will tokensparend arbeiten.
 
 ## 5 Offen und Verworfenes
 
-- Ankreuzen mit Begründung (2026 FOR 7b „B; A beginnt bei 0 €, C
-  linear“): stehen gelassen; gleiche Fälle so lassen.
-- Verworfen: Sonnet-Agent mit Stichprobe von 20 Zeilen (Lehrer: zu
-  wenig); Weg B' mit Opus-Kritiker über alle Zeilen (Lehrer wählte
-  Weg A).
-- Daneben offen aus plan.md § 7: Formelblatt ins Buch, die vier
-  Fragen aus aufgabenbank bau/befunde-M5.md.
+- Verworfen: Abschrift ganzer Bücher (auch nur P10-Kapitel); Buch-PDF
+  aus kleineren Bildern (Formeln unscharf) – stattdessen Bände.
+- msa/gliederung/*.md und uebergabe-durchsicht.md tragen noch „16.10.
+  n“ für die Durchsicht-Entscheidung, die in plan.md jetzt 16.10. o
+  heißt; nicht angefasst (Fassung der Blätter hängt an den Daten) –
+  Sache des Chats Durchsicht.
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 (Punkt 1, Stand „16.10. erledigt (Chat Bau 3)“).
+plan.md § 7 („Jetzt Durchsicht/P10“, Punkt 1; Stand Bau 4).
