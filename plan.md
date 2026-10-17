@@ -323,6 +323,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    „nicht teilen“ erst in der Baurunde (wortgleiche Partner 2018-OS-K5b/
    K5c hängen an den Teilen); übrige 288 Teilaufgaben nach Duden 9 und
    Klasse 7 (Chat Bau 4).]
+   [17.10. Schritt 3 Teil 1 erledigt (Chat Durchsicht P10 6): Satz-
+   Checkliste – aufgabenbank werkzeuge/satz-pruef.py (S1–S11, Muster
+   PA30 meldet 0, alter Stand vor den neun Punkten 17 Meldungen) und
+   bau/satz-checkliste.md (K1–K9, Kritiker mit Muster daneben). Offen
+   in Schritt 3: Baurunde der Kapitelblätter, pruefung.md nachziehen.]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
