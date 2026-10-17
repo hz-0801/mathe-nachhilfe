@@ -834,6 +834,16 @@ Sekundo 10 (172 S., 15 Läufe, ≈ 1,9 Mio Agenten-Token, dazu
 Katalog-Zuordnung): Anzeige 52 → 54 % ≈ 2 Punkte; Schätzung 1,5–2
 hält am oberen Rand. Faustwert neu: ≈ 1 Punkt je 90 Seiten.
 
+Bau 5 (17.10. mittags, Chat Opus): Register Duden 9, Zahlen und
+Größen 7, Mathematik plus 6 – 21 Register- und 3 Zuordnungsläufe
+Sonnet ≈ 2,7 Mio Agenten-Token (≈ 0,11 Mio je Lauf, Wanduhr 1–1,5
+min); Probe B7N Opus 0,19 Mio, 34 min (Schätzung 20). Anzeige 54 →
+56 % mit zwei Nebenchats (Durchsicht, Abitur 1). Schätzung 2,5–3
+Punkte (nach Seiten) lag zu hoch; nach Token (Jesse: ≈ 1,35 Mio
+Sonnet je Punkt) wären es ≈ 2 gewesen. Regel: Register-Runden nach
+Agenten-Token schätzen (≈ 0,11 Mio je 12 Seiten, ≈ 1,35 Mio je
+Punkt), nicht nach Seiten.
+
 Pflichtteile ab PA20 und Muster Kapitelblatt (16./17.10., Chat
 Durchsicht 5, Opus): Setzer-Agent 0,24 Mio (mit drei Nachaufträgen),
 Daten-Agent 0,28 Mio, Muster Kapitelblatt 0,24 Mio, Neusatz und
