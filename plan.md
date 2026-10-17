@@ -397,6 +397,14 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    [17.10. Chat Bau 5: Lehrer: Abitur unterscheidet sich deutlich
    von P10, Gespräch darüber später; die vier Fragen ruhen bis dahin
    (Form 17.10. d deckt drei davon für P10, nicht fürs Abitur).]
+   [17.10. erledigt (Chat Bau 5): Register und Katalog-Zuordnung
+   Duden 9 (358 Aufgaben), Zahlen und Größen 7 Arbeitsheft (201),
+   Mathematik plus 6 Arbeitsheft Teil 1 (159); alle drei in Drive
+   Mathe/Bücher, durchsuchbar mit Lesezeichen. Stochastik Jung und
+   Stark (Sek II) zurückgestellt (Lehrer 17.10.). Offen beim Lehrer:
+   Arbeitsheft 6 Teil 2 scannen („6. arbeitsheft 2.pdf“ ist eine
+   Kopie von „7. z und g 2.pdf“). Jetzt: Schritt 2, die übrigen 288
+   Teilaufgaben nach Duden 9 und Klasse 7 (Chat Durchsicht).]
    Daneben, eigener Chat „Abitur“ (Lehrer 17.10., Chat Bau 5):
    Buch „Abitur GK Originalprüfungen“ in der Form 16.10. q, ohne
    Modell wie das Buch P10 (pruefungsbuch.py). Keine neuen
