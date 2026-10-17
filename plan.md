@@ -1610,6 +1610,23 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   (geprüft 17.10.: 2019–2021 und 2026 kein Treffer „CAS“/„MMS“,
   abi-pruefungen.md § 4). Vermerk erst mit dem Lösungslauf.
 
+- 17.10.2026 (i): Bank als Vorrat für allgemeine Arbeitsblätter,
+  Buchregister als Werkzeug (Lehrer, Chat Bau 5). Warum: Jeder
+  gebaute Baustein, der ein künftiges Blatt schneller macht, soll
+  nicht mit dem Chat verloren gehen; die Register geben dem Bau Folge,
+  Schritte, Frageformen und Schwere fertig vor (Probe B7N „Brüche
+  addieren nach Mathematik plus 6, 2.1“, Lehrer: „passt“). Form: Was
+  gebaut wird – auch Proben –, geht als Bankzeilen mit Lernweg-Block
+  in Bank und Katalog, sobald es die Prüfskripte besteht. Neue Bücher
+  bekommen ein Register nach aufgabenbank-privat buecher/ablauf.md
+  (Skripte für Seiten, Zuordnungslisten, PDF), gepflegt wie die Bank.
+  Arbeitsweise „nach Buch“: Folge einer Buch-Einheit aus dem Register,
+  je Registerzeile eine eigene Aufgabe mit gleichem Handgriff, gleicher
+  Frageform, Darstellung und Schwere; Wortlaut, Zahlen, Sache und Bild
+  eigen (Grenze von Claude, 17.10.); das Buch selbst sieht der
+  Bau-Agent nicht. Grenze: Reihenfolge der Arbeit bleibt (P10 zuerst);
+  bestellbar „nach Buch und Kapitel“ wird es mit dem Lernblatt (§ 9).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut

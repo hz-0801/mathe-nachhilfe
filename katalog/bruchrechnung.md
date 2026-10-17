@@ -134,3 +134,20 @@ Zielmarke: keine aus einem eigenen P10-Typ; die Marken kommen aus den Nebenleist
 - [x] Kein Verlagstext übernommen; Serlo/ZUM mit Quellenzeile.
 - [x] Notation Berlin-Brandenburg (f(x) = m·x + n, Strich, wA/fA).
 - [x] [FD]/[FS]/[MO]-Angaben in „Offene Punkte“ gelistet.
+
+### Lernweg
+
+#### Lerneinheit 1 – Brüche addieren und subtrahieren (Probe nach Buch)
+Stand: 2026-10-17 · Kennung B7N · Kritiker: offen · Probe nach der Folge eines Arbeitshefts (aufgabenbank bau/proben/2026-10-17/nach-ah6-2-1)
+Form: abschnitte
+Ziel: Anteile zusammenzählen und urteilen, ob sie zusammenpassen; Bruchteile einer Menge
+Blatt: Klasse 6 · Vorher: Brüche erweitern und kürzen · Weiter: Gemischte Zahlen addieren
+Titel: Brüche addieren und subtrahieren
+Formel: $\frac{a}{n} + \frac{b}{n} = \frac{a+b}{n}$
+Grau: L1n-A L1n-B L1n-C
+
+| Abschnitt | Name | Satz | Formel | Beispiel | Aufgaben | Vorrat |
+|---|---|---|---|---|---|---|
+| L1n-A | Gleichnamige Brüche | Zähler rechnen, Nenner bleibt. | – | – | bruchrechnung-e1-k3-s1-v6+bruchrechnung-e1-k3-s1-v7+bruchrechnung-e1-k3-s1-v8+bruchrechnung-e1-k3-s1-v9+bruchrechnung-e1-k3-s1-v10+bruchrechnung-e1-k3-s1-v11, bruchrechnung-e1-k3-s2-v4+bruchrechnung-e1-k3-s2-v5+bruchrechnung-e1-k3-s2-v6+bruchrechnung-e1-k3-s2-v7+bruchrechnung-e1-k3-s2-v8+bruchrechnung-e1-k3-s2-v9, bruchrechnung-e1-k3-s1-v12+bruchrechnung-e1-k3-s1-v13+bruchrechnung-e1-k3-s1-v14+bruchrechnung-e1-k3-s1-v15, bruchrechnung-e1-k3-s0-v5+bruchrechnung-e1-k3-s0-v6+bruchrechnung-e1-k3-s0-v7+bruchrechnung-e1-k3-s0-v8 | – |
+| L1n-B | Ungleichnamige Brüche | Erst gleichnamig machen, dann rechnen. | – | – | bruchrechnung-e1-k3-s6-v4+bruchrechnung-e1-k3-s6-v5+bruchrechnung-e1-k3-s6-v6+bruchrechnung-e1-k3-s6-v7+bruchrechnung-e1-k3-s6-v8+bruchrechnung-e1-k3-s6-v9 | – |
+| L1n-C | Weiterführend | – | – | – | bruchrechnung-e1-k5-s2-v4, bruchrechnung-e1-k5-s3-v4+bruchrechnung-e1-k5-s3-v5+bruchrechnung-e1-k5-s3-v6, bruchrechnung-e1-k5-s4-v4+bruchrechnung-e1-k5-s4-v5+bruchrechnung-e1-k5-s4-v6+bruchrechnung-e1-k5-s4-v7+bruchrechnung-e1-k5-s4-v8+bruchrechnung-e1-k5-s4-v9 | – |
