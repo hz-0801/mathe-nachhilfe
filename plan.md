@@ -1859,6 +1859,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Reset übrig ist, verfällt. Wie: Vorrat ist erlaubt, auch ohne
   Abnehmer heute; der Vorschlag nennt, wer ihn später liest. Go je
   Runde bleibt. Erster Fall: VERA-8-Pool als Register (Weg A).
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
