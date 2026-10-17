@@ -860,6 +860,9 @@ Buch Abitur GK ohne Lösungen (17.10., Chat Abitur 1, Opus-Agent):
 Anzeige 54 → 56 % mit Nebenchats Bau 5 und Durchsicht P10 6 (Anteil
 nicht trennbar). Schätzung hält; Skript aus Vorbild (pruefungsbuch.py)
 spart, Texterkennung der Scans ist der größte Posten.
+Zuschnitt Scans und Themenregister (17.10., Chat Abitur 1,
+Opus-Agent): 0,24 Mio, 18 min (Schätzung 0,2 Mio / 2 Punkte);
+Anzeige 56 → 57 % mit Nebenchats. Schätzung hält.
 
 ## 9 Später
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
