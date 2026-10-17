@@ -230,6 +230,8 @@ nehmen); gemeinsam.md, loesung-pruef.py, pruefheft.py, mathblatt.sty
 nur nach Absprache im Chat des Lehrers.
 Bitte an B (Chat FHR, 17.10.): „Buch FHR“ liegt jetzt bei Chat FHR;
 in uebergabe-abitur.md § 5 bitte streichen oder darauf verweisen.
+Bitte an B (Chat FHR, 17.10.): das Gespräch über den Lösungsteil
+(ganze Sek II) führt Chat FHR nach dem Buch FHR (§ 10 17.10. o).
 Woche: 56 % am 17.10. gegen 14 Uhr (alle Chats). Grobe Verteilung bis
 Mo 18:00: C Baurunde 1 ≈ 9, B ≈ 3, C Zuordnung Kl. 7 ≈ 1,5, C
 Baurunde 2 ≈ 5 Punkte – zusammen ≈ 75 %; der Rest bleibt für die
@@ -1785,9 +1787,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 17.10.2026 (o): Buch FHR mit Lösungen hinten (Lehrer, Weg A; Chat
   FHR 1): die Seiten mit dem amtlichen Erwartungshorizont aus den
   Lehrerheften, ohne Gutachtenbogen, sonst Form 16.10. q. Warum: die
-  Lösungen stehen amtlich im Heft; die offenen Fragen zum Lösungsteil
-  (Kurzlösung, IQB-Verweis, CAS) betreffen nur das Abitur. Das
-  Gespräch darüber führt Chat Abitur.
+  Lösungen stehen amtlich im Heft. Das Gespräch über den Lösungsteil
+  gilt für die ganze Sek II (Abitur GK, LK, FHR; Lehrer 17.10.); es
+  folgt in Chat FHR direkt nach dem Buch FHR, die Umsetzung je Buch
+  im Chat seines Stroms. Ändert es die Form, wird das Buch FHR neu
+  gesetzt (Skript, ohne Modell).
 
 ## 11 Register der Entscheidungen
 
