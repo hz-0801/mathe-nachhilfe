@@ -796,6 +796,9 @@ Token; zusammen 22 Läufe ≈ 2,7 Mio für 256 Seiten. Schätzung vorher
 Nebenchat). Teil 2–4 (1,5 Mio Sonnet-Agenten-Token) ≈ 1 Punkt; ganzes
 Buch mit Register ≈ 2 Punkte, Schätzung 3 hält. Faustwert: Register
 je Buch (≈ 250 S.) mit Sonnet ≈ 2 Punkte.
+Sekundo 10 (172 S., 15 Läufe, ≈ 1,9 Mio Agenten-Token, dazu
+Katalog-Zuordnung): Anzeige 52 → 54 % ≈ 2 Punkte; Schätzung 1,5–2
+hält am oberen Rand. Faustwert neu: ≈ 1 Punkt je 90 Seiten.
 
 Pflichtteile ab PA20 und Muster Kapitelblatt (16./17.10., Chat
 Durchsicht 5, Opus): Setzer-Agent 0,24 Mio (mit drei Nachaufträgen),
