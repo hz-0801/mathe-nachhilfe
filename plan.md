@@ -385,7 +385,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    mit/ohne Buch.]
    [17.10. erledigt (Chat Bau 4): Sekundo 10 (Westermann) in Drive,
    Register 960 Aufgaben mit Frageform, Katalog-Zuordnung Jesse und
-   Sekundo (§ 10 17.10. b). Offen nach Reihenfolge, je mit Go:
+   Sekundo (§ 10 17.10. f). Offen nach Reihenfolge, je mit Go:
    Buch_Mathe_Kl9, 7. z und g, 6. Arbeitsheft, Stochastik Jung,
    Stark (Teil 2 fehlt); Jesse: operator/frageform nachtragen.]
 
@@ -1478,8 +1478,8 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Vergleich zum Lernweg. Das Register ist Werkzeug, kein viertes
   Objekt (Linie 1). Jesse ist Gymnasium: Muster, nicht Maß der Höhe.
   Weitere Bücher erst nach einem Vergleich Lernblatt mit/ohne Buch
-  (abgelöst durch 17.10. b).
-- 17.10.2026 (b): Bücher auf Vorrat (Lehrer, Chat Bau 4): alle
+  (abgelöst durch 17.10. f).
+- 17.10.2026 (f): Bücher auf Vorrat (Lehrer, Chat Bau 4): alle
   gescannten Bücher werden Register, auch für die allgemeinen Blätter
   und Bücher, die kein Schüler nutzt – Buch für Buch, je mit Go. Je
   Aufgabe zusätzlich operator und frageform (Satzmuster der Frage mit
