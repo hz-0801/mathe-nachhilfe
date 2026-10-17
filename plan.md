@@ -980,6 +980,12 @@ nach /tmp (2022: fremde Seiten gesehen, ein Lauf verloren).
 Buch Abitur LK (17.10., Chat Abitur 2, Sonnet-Agent): 0,16 Mio,
 7 min (Schätzung 0,15–0,3 Mio). Anzeige 59 → 61 % mit Nebenchats
 (Anteil des Buchs nicht trennbar). Schätzung hält.
+Bücher Stochastik Jung und Stark (17.10., Chat Stochastik 1):
+Sonnet 23 Läufe (21 Register zu je ≈ 0,12 Mio, 2 Zuordnungen) ≈ 2,7
+Mio, Wanduhr 50 min (17:10–18:00); Chat Opus. 228 Seiten. Schätzung
+2,5 Punkte / 2 h; Anzeige 62 → 64 % mit Nebenchats. Schätzung hält
+(≈ 1 Punkt je 110 Seiten), Wanduhr zu hoch geschätzt: Register-
+Gruppen laufen parallel in 1–2 min.
 
 ## 9 Später
 - Basis zum Stundenbeginn (Lehrer 17.10., § 10 q): kurze Blätter aus
