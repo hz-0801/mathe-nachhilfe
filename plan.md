@@ -1609,6 +1609,9 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   MMS-Fassung des IQB-Pools (frei); STARK kennzeichnet nichts
   (geprüft 17.10.: 2019–2021 und 2026 kein Treffer „CAS“/„MMS“,
   abi-pruefungen.md § 4). Vermerk erst mit dem Lösungslauf.
+- 17.10.2026 (i): Zeitspannen im Buch der Abiturprüfungen absteigend
+  („2026–2017“, „2025–2024“), passend zur Folge neueste zuerst
+  (Lehrer gegen Claudes Rat, Chat Abitur 1).
 
 - 17.10.2026 (i): Bank als Vorrat für allgemeine Arbeitsblätter,
   Buchregister als Werkzeug (Lehrer, Chat Bau 5). Warum: Jeder
