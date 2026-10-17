@@ -1,10 +1,10 @@
 id;kapitel;abschnitt;folge;gleich_mit;bemerkung
-2026-FOR-B1e;Normalparabel und Punkte;;1;2026-EBR-B1e;Wertetabelle zu y = ax² ankreuzen
-2026-EBR-B1e;Normalparabel und Punkte;;1;2026-FOR-B1e;wortgleich mit FOR
-2020-OS-K3b;Normalparabel und Punkte;;2;;Punkt auf der Parabel? ankreuzen
-2020-OS-K3c;Normalparabel und Punkte;;3;;y zu gegebenem x
-2024-OS-K3c;Normalparabel und Punkte;;4;;Punkt rechnerisch prüfen
-2018-OS-K5a;Normalparabel und Punkte;;5;;Aussagen wahr/falsch, gemischt
+2026-FOR-B1e;Punkte und Funktionswerte;;1;2026-EBR-B1e;Wertetabelle zu y = ax² ankreuzen
+2026-EBR-B1e;Punkte und Funktionswerte;;1;2026-FOR-B1e;wortgleich mit FOR
+2020-OS-K3b;Punkte und Funktionswerte;;2;;Punkt auf der Parabel? ankreuzen
+2020-OS-K3c;Punkte und Funktionswerte;;3;;y zu gegebenem x
+2024-OS-K3c;Punkte und Funktionswerte;;4;;Punkt rechnerisch prüfen
+2018-OS-K5a;Punkte und Funktionswerte;;5;;Aussagen wahr/falsch, gemischt
 2021-OS-B1d;Scheitelform;Scheitelpunkt angeben;1;;aus Graph ankreuzen
 2026-FOR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-EBR-K5c 2020-OS-K3a 2017-OS-K5c;aus Graph mit Scheitelform
 2026-EBR-K5c;Scheitelform;Scheitelpunkt angeben;2;2026-FOR-K5c;wortgleich mit FOR

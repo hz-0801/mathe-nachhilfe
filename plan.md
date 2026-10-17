@@ -1429,6 +1429,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Objekt (Linie 1). Jesse ist Gymnasium: Muster, nicht Maß der Höhe.
   Weitere Bücher erst nach einem Vergleich Lernblatt mit/ohne Buch.
 
+- 17.10.2026 (c): Abschnitte der Kapitelblätter (Lehrer, „versuchen
+  es“; Muster quadratische Funktionen). Warum: Die Ordnung soll von
+  außen kommen statt erfunden; Schulbuchkapitel kennt der Schüler.
+  Abschnitte sind die Buchkapitel; einzige Ausnahme ist der feste
+  Abschnitt „Punkte und Funktionswerte“ am Anfang jedes
+  Funktionsblatts, weil das Einsetzen in jedem Kapitel vorkommt und
+  keins es als Überschrift führt (Lineare: Punktprobe, Wachstum:
+  Tabelle ergänzen). Grenze: Wer einen anderen Abschnitt will, nennt
+  ein Buchkapitel. Versuch, Bewertung nach dem Muster.
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
