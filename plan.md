@@ -1854,6 +1854,11 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   bank/_basis/ 784 Aufgaben, bau/zettel/BAS-Z1–Z10, bestellbar mit
   „basis“ über werkzeuge/bestellen.py).
 
+- 17.10.2026 (r): Freies Kontingent bis zum Reset nutzen, wenn das
+  Ergebnis künftig hilft (Lehrer, Chat Stochastik 1). Warum: Was am
+  Reset übrig ist, verfällt. Wie: Vorrat ist erlaubt, auch ohne
+  Abnehmer heute; der Vorschlag nennt, wer ihn später liest. Go je
+  Runde bleibt. Erster Fall: VERA-8-Pool als Register (Weg A).
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
