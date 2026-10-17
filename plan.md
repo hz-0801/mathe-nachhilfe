@@ -482,7 +482,10 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Läuft (Lehrer 17.10., Go): Wortlaut der GK-Originale als Vorrat
    wie P10 (aufgabenbank-privat abitur/gk-originale.jsonl), Pilot
    2026 erledigt 17.10. (45 Zeilen, werkzeuge/abi-originale.py,
-   0,15 Mio, 6 min); Rest erst mit Go. Danach Vorschlag: Buch LK gleich gebaut
+   0,15 Mio, 6 min); Rest erst mit Go. [17.10. erledigt (Chat
+   Abitur 2): alle zehn GK-Hefte, 467 Zeilen, Abschrift je Heft in
+   abitur/abschrift/, heftnummer gefüllt (2022, 2024, 2025);
+   Zahlentabellen nur beschrieben.] Danach Vorschlag: Buch LK gleich gebaut
    (bb-ea 2017/2018, bebb-lk 2022–2025, bb-ea 2026; 2019–2021 fehlt).]
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
