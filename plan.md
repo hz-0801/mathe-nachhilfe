@@ -297,6 +297,20 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Mathe/Bücher; Buch „P10 Originalprüfungen“ per Skript
    (aufgabenbank-privat werkzeuge/pruefungsbuch.py, 182 S.), vom
    Lehrer begutachtet, Form § 10 (16.10. m).]
+   Jetzt Durchsicht/P10, in dieser Folge (Lehrer 17.10., § 10 17.10. d):
+   1. Chat Bau 4 erfasst die Schulbücher als Register: zuerst Duden 9
+      („Buch_Mathe_Kl9.pdf“), dann „10. 1–4“ (Oberschule Kl. 10).
+   2. Zuordnung aller P10-Originale zu Buchkapiteln aus dem Register,
+      Schlüssel auf „gesucht“ als Gegenprobe; der Lehrer sieht nur die
+      Zweifelsfälle. Übersetzung Register-Merkmale ↔ Katalogfelder
+      einmal als Tabelle.
+   3. Satz-Checkliste aus den Satzkommentaren seit 15.10. (Skript +
+      Kritiker); eine Baurunde aller P10-Kapitelblätter; Lehrer sieht
+      Muster und Stichprobe; pruefung.md nachziehen.
+   4. Abnahme M4: drei echte Bestellungen durch den Lehrer.
+   5. Danach Abitur GK in derselben Form, dann das Lernblatt.
+   Daneben offen: Kapitel A der Funktionsblätter „Punkte und
+   Funktionswerte“ (17.10. c) ist Versuch.
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
@@ -1466,6 +1480,37 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   keins es als Überschrift führt (Lineare: Punktprobe, Wachstum:
   Tabelle ergänzen). Grenze: Wer einen anderen Abschnitt will, nennt
   ein Buchkapitel. Versuch, Bewertung nach dem Muster.
+
+- 17.10.2026 (d): Kapitelblatt ist die Form des Prüfungsblatts P10
+  (Lehrer, Chat Durchsicht 5; Muster PA30 quadratische Funktionen,
+  aufgabenbank bau/kapitel/2026-10-17/quadratische/, werkzeuge/
+  kapitelblatt.py). Warum: Drei Formen in drei Tagen (15.–17.10.)
+  zeigen, dass erfundene Abschnitte und Beiwerk nicht tragen; die
+  Ordnung kommt von außen, der Setzer braucht nur Zuordnung und
+  Wortlaut. Form: Abschnitte = Buchkapitel (17.10. c), darin leicht →
+  schwer; alle lehrplangerechten Originale 2014–2026, wortgleiche
+  einmal mit allen Jahren in der Marke (17.10. b); „*“ an der Nummer =
+  nur FOR; kein Kern, kein Formelkasten (17.10. a), kein Mehr; je
+  Abschnitt höchstens ein Begriffs-Einzeiler und höchstens eine eigene
+  Einstiegsaufgabe (Lehrer, Weg B), sonst nur Originale; je
+  bestellbarem Abschnitt Blatt und Lösung, 2–3 Seiten, mehr nur, wenn
+  sonst etwas fehlte. Zuordnung der Originale aus dem Register der
+  Schulbücher (aufgabenbank-privat buecher/, Chat Bau 4), ein
+  Bestimmungsschlüssel auf dem Katalogfeld „gesucht“ als Gegenprobe;
+  bei mehreren Fragen einer Teilaufgabe entscheidet das zuletzt
+  Gesuchte, keine herausgelösten Teile. Satz prüfen Skript und
+  Kritiker gegen eine Satz-Checkliste; der Lehrer sieht Muster und
+  Stichprobe (Linie 6).
+  Gilt weiter: Lösungsform und Lösungszeile (16.10. l, m), Skizze in
+  Geometrie (16.10. b), Bruch beim Dividieren (15.10. q), Namen
+  (15.10. u, y; 16.10. d), Gerade und Parabel nur bei Schnittpunkten
+  (16.10. h), Ankreuzen nur Kästchen (15.10. l).
+  Ersetzt: Kern (15.10. w), Formelkasten (15.10. t, 16.10. a), Mehr
+  (15.10. r, 16.10. f), Heranführen (16.10. k, jetzt höchstens ein
+  Einstieg je Abschnitt), Pflichtteile Kern/Formelkasten/Mehr
+  (16.10. n), Abschnitte nach Handgriff (pruefung.md § 2/§ 5, Linie 4
+  „Skript“). Die alten Blätter bleiben bestellbar, bis die neuen
+  stehen; pruefung.md wird mit der Baurunde nachgezogen.
 
 ## 11 Register der Entscheidungen
 
