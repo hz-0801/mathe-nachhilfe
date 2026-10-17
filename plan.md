@@ -1782,6 +1782,12 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   CAS“; 2026 „Brandenburger Fassung“ statt „Berlin 2026 nicht
   erhältlich“ (unbelegt), auch im GK; keine BE-Angabe je Jahr in der
   Geschichte.
+- 17.10.2026 (o): Buch FHR mit Lösungen hinten (Lehrer, Weg A; Chat
+  FHR 1): die Seiten mit dem amtlichen Erwartungshorizont aus den
+  Lehrerheften, ohne Gutachtenbogen, sonst Form 16.10. q. Warum: die
+  Lösungen stehen amtlich im Heft; die offenen Fragen zum Lösungsteil
+  (Kurzlösung, IQB-Verweis, CAS) betreffen nur das Abitur. Das
+  Gespräch darüber führt Chat Abitur.
 
 ## 11 Register der Entscheidungen
 
