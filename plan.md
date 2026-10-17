@@ -432,6 +432,15 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Funktionen 27, Wahrscheinlichkeit 27, Kombinatorik 5, Winkel 9,
    Einheiten 6, Funktionen allgemein 4, Maßstab 3, 2017-OS-K2a und
    2016-OS-K2d (Sachrechnen ohne Kapitel).]
+   [17.10. Baurunden 1 und 2 erledigt (Chat Durchsicht P10 6): elf
+   Kapitelblätter in aufgabenbank bau/kapitel/2026-10-17/ – PA30, PG60,
+   PG50, PG90, PA50, PZ15, PA20, PS30, PS10, PG40, PZ20; 188 gedruckte
+   Aufgaben, Setzer, satz-pruef, loesung-pruef ohne Meldung; Muster an
+   den Lehrer: Körper, Prozent; Stichprobe Trigonometrie C. Offen:
+   Urteil des Lehrers zu den Mustern; Lineare Funktionen,
+   Wahrscheinlichkeit, Winkel u. a. nach Büchern Kl. 8; pruefung.md
+   nachziehen; Abnahme M4 (Bestellung der Kapitelblätter in
+   bestellen.py einhängen).]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
@@ -976,6 +985,11 @@ Agent aus der Abschlussmeldung, ohne Chat). Schätzung 0,6 + 0,3 Mio /
 etwa 3 Punkte mit Chat; Anzeige 48 → 51 % (17.10. morgens, kein
 paralleler Chat). Schätzung hält. Regel: Nachaufträge an einen
 laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
+Baurunden Kapitelblätter (17.10., Chat Durchsicht P10 6, Opus):
+Runde 1 sieben Agenten 1,51 Mio (Schätzung 2,1), Kritiker Daten
+0,12 Mio, Runde 2 drei Agenten 0,64 Mio (Schätzung 0,7); je Blatt
+0,12–0,29 Mio, Geometrie und Daten am teuersten (Figuren in TikZ).
+Anzeige nach den Runden: vom Lehrer noch nicht abgelesen.
 Zuordnung Schritt 2 (17.10., Chat Durchsicht P10 6, Opus, ohne
 Agenten, Skript und Urteil im Chat): Schätzung 1–2 Punkte; Anzeige
 52 → 54 % mit Nebenchat Bau 4 (Anteil nicht trennbar). Schätzung hält.
