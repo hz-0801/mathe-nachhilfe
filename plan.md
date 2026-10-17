@@ -847,6 +847,17 @@ Agenten, Skript und Urteil im Chat): Schätzung 1–2 Punkte; Anzeige
 52 → 54 % mit Nebenchat Bau 4 (Anteil nicht trennbar). Schätzung hält.
 
 ## 9 Später
+- Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
+  Chat Bau 5: „so nah wie möglich“), nach P10. Warum: Das Heft ist
+  beschrieben und unvollständig, sein Aufbau passt aber für Schüler
+  Kl. 7–8 mit Lücken bei Brüchen. So nah wie möglich heißt: dieselben
+  Einheiten in derselben Folge, je Einheit dieselben Lernschritte,
+  Frageformen, Handgriffe, Darstellungen und Schweren wie im Register
+  (aufgabenbank-privat buecher/ah6), Aufgabe für Aufgabe „nach Mathe
+  plus 6 S. n/k“. Grenze: Wortlaut, Zahlen, Sachsituationen und Bilder
+  eigen – kein Nachbau des Verlagshefts (Grenze von Claude, nicht
+  Linie des Lehrers). Layout wie unsere Blätter; Teil 2 erst mit einem
+  neuen Scan.
 - Bauauftrag (am Ende des Meilensteins, Linie 8): vor dem Lernweg
   die Buchstellen der Einheit ansehen (aufgabenbank-privat
   werkzeuge/buchregister.py katalog <id>) – Folge, Handgriffe und
