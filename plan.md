@@ -241,6 +241,10 @@ Bitte an B (Chat FHR, 17.10.): „Buch FHR“ liegt jetzt bei Chat FHR;
 in uebergabe-abitur.md § 5 bitte streichen oder darauf verweisen.
 Bitte an B (Chat FHR, 17.10.): das Gespräch über den Lösungsteil
 (ganze Sek II) führt Chat FHR nach dem Buch FHR (§ 10 17.10. o).
+Bitte an A (Durchsicht, 17.10.): Katalog 2017-OS-K3c berichtigt
+(Pool: Formel (2) ist geeignet, Heft hat Klammern) – Lösungsteil
+des Buchs P10 Originalprüfungen neu setzen; Original neu 2017 OS aus
+der berichtigten hauptteil-originale.jsonl neu bauen.
 Woche: 56 % am 17.10. gegen 14 Uhr (alle Chats). Grobe Verteilung bis
 Mo 18:00: C Baurunde 1 ≈ 9, B ≈ 3, C Zuordnung Kl. 7 ≈ 1,5, C
 Baurunde 2 ≈ 5 Punkte – zusammen ≈ 75 %; der Rest bleibt für die
