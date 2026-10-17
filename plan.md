@@ -1638,13 +1638,28 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   („2026–2017“, „2025–2024“), passend zur Folge neueste zuerst
   (Lehrer gegen Claudes Rat, Chat Abitur 1).
 - 17.10.2026 (k): Namen der PDFs in Drive Mathe/Bücher (Lehrer, Chat
-  Abitur 1): „<Art> <Verlag> <Titel> <Klasse>“ – Art: Lehrbuch,
-  Arbeitsheft, Übungsbuch, Tafelwerk, Originalprüfungen. Beispiele:
-  „Lehrbuch Westermann Sekundo 10“, „Arbeitsheft Cornelsen
-  Mathematik plus 6“, „Tafelwerk Duden Sek I“; Prüfungen ohne Verlag:
-  „Originalprüfungen P10“, „Originalprüfungen Abitur GK“ (LK
-  entsprechend). Bände: „… – Band 1“.
-
+  Abitur 1, Fassung des Lehrers): „<Art> <Klasse>. <Verlag> <Titel>“ –
+  Art vorn, dann Klasse, damit die Liste nach Art und Stufe sortiert.
+  Art: Lehrbuch, Arbeitsheft, Übungsbuch, Tafelwerk,
+  Originalprüfungen. Beispiele: „Lehrbuch 10. Westermann Sekundo“,
+  „Arbeitsheft 6. Cornelsen Mathematik plus“, „Übungsbuch 9. Duden
+  Mathematik“, „Tafelwerk Duden Sek I“ (ohne Klasse); Prüfungen ohne
+  Verlag: „Originalprüfungen P10“, „Originalprüfungen Abitur GK“
+  (LK entsprechend). Bände: „… – Band 1“.
+- 17.10.2026 (l): Form des Buchs Abitur GK (Lehrer, Chat Abitur 1;
+  ergänzt 16.10. q). Warum: Das Buch dient zum Üben und Drucken, nicht
+  zum Lesen über die Prüfung. Beispiel: „Originalprüfungen Abitur GK“
+  (abibuch.py). Grenze/Inhalt: nur Aufgaben- und Anlagenseiten, keine
+  Verlagstipps oder -lösungen; kein Deckblatt-Bild (jüngstes amtliches
+  ist 2018); Kasten zur nächsten Prüfung kurz – Termin, Zeit, BE,
+  Hilfsmittel; „Kurz zur Geschichte“ als Zeitspannen, keine Tabelle,
+  keine Bedien- und Gruppennotizen („blabla“); Inhalt nach Aufbau
+  gruppiert, nur durch Abstand; „Aufgaben nach Bereich“ mit Nummer
+  wie im Heft und Seite, Teil A 2018/2017 als Zeile „ohne
+  hilfsmittelfreien Teil“; Themenregister hinten (Gebiet → Thema →
+  Jahr), keine Typen, kein Stichwortverzeichnis; Scans geradegerückt
+  und zugeschnitten; Hinweis „nur für den eigenen Unterricht“ (Ver-
+  lagsseiten); Anleitung „neues Heft“ im Skript, nicht im Buch.
 - 17.10.2026 (i): Bank als Vorrat für allgemeine Arbeitsblätter,
   Buchregister als Werkzeug (Lehrer, Chat Bau 5). Warum: Jeder
   gebaute Baustein, der ein künftiges Blatt schneller macht, soll
