@@ -222,9 +222,14 @@ C Durchsicht: mathe-nachhilfe msa/buchkapitel-p10.csv,
   msa/kapitel-p10/, pruefung.md, uebergabe-durchsicht.md;
   aufgabenbank werkzeuge/kapitelblatt.py, satz-pruef.py,
   bau/kapitel/, bau/satz-checkliste.md.
+D FHR (Chat FHR, ab 17.10. abends; übernimmt „Buch FHR“ aus B):
+  aufgabenbank-privat fhr/, werkzeuge/fhrbuch.py (liest abibuch.py
+  nur); mathe-nachhilfe fhr/; uebergabe-fhr.md.
 Gemeinsam: plan.md (vor jeder neuen Kennung pullen, nächste freie
 nehmen); gemeinsam.md, loesung-pruef.py, pruefheft.py, mathblatt.sty
 nur nach Absprache im Chat des Lehrers.
+Bitte an B (Chat FHR, 17.10.): „Buch FHR“ liegt jetzt bei Chat FHR;
+in uebergabe-abitur.md § 5 bitte streichen oder darauf verweisen.
 Woche: 56 % am 17.10. gegen 14 Uhr (alle Chats). Grobe Verteilung bis
 Mo 18:00: C Baurunde 1 ≈ 9, B ≈ 3, C Zuordnung Kl. 7 ≈ 1,5, C
 Baurunde 2 ≈ 5 Punkte – zusammen ≈ 75 %; der Rest bleibt für die
