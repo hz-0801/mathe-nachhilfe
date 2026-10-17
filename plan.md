@@ -415,6 +415,15 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Bücher Klasse 7/8 (Lehrer liefert in ein paar Tagen): Lineare
    Funktionen, Prozent und Zinsen, Flächen ohne Kreis, Brüche, Größen,
    Zuordnungen, Winkel, Wahrscheinlichkeit.]
+   [17.10. Schritt 2 weiter (Chat Durchsicht P10 6): Zahlen und Größen 7
+   dazu – prozent 18 (Zinsen nach Duden 9 Kap. 9), flaechen 14,
+   zuordnungen 7; vier Zeilen in schon gebaute Blätter (trigonometrie
+   2025-OS-K4b, 2015-OS-K5d; koerper 2019-OS-K4b; daten 2015-OS-K7c),
+   Daten dafür in Baurunde 2. Hauptteil zugeordnet 199 von 282 (Basis
+   ohne Belang, 17.10. q). Offen nach Büchern Kl. 6/8: Lineare
+   Funktionen 27, Wahrscheinlichkeit 27, Kombinatorik 5, Winkel 9,
+   Einheiten 6, Funktionen allgemein 4, Maßstab 3, 2017-OS-K2a und
+   2016-OS-K2d (Sachrechnen ohne Kapitel).]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;

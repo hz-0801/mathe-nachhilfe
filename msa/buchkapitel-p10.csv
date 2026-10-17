@@ -208,3 +208,42 @@ id;blatt;kapitel;abschnitt;folge;gleich_mit;bemerkung
 2019-OS-K2d;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;99;;"Schlüssel: zuletzt Winkel β; BC aus Koordinaten"
 2026-FOR-K2c;koerper;Pyramide und Kegel;;99;;Sekundo: Pythagorasanwendungen bei Kegel
 2018-OS-K6d;koerper;Pyramide und Kegel;;99;;Sekundo: Pythagorasanwendungen bei Kegel
+2018-OS-K7a;prozent;Prozentsatz;;1;;Prozentsatz berechnen
+2023-OS-K6a;prozent;Prozentsatz;;2;;Prozentsatz berechnen
+2022-OS-K4b;prozent;Prozentsatz;;3;;Prozentuale Veränderung berechnen
+2021-OS-K5a;prozent;Prozentsatz;;4;;Schlüssel: zuletzt prozentuale Erhöhung
+2026-FOR-K3c;prozent;Prozentsatz;;5;2026-EBR-K4c;Prozentuale Veränderung berechnen
+2026-EBR-K4c;prozent;Prozentsatz;;5;2026-FOR-K3c;Prozentuale Veränderung berechnen
+2016-OS-K2c;prozent;Prozentsatz;;6;;Prozentuale Veränderung berechnen
+2024-OS-K2b;prozent;Prozentsatz;;7;;Schlüssel: zuletzt Prozentsatz
+2019-OS-K5a;prozent;Prozentwert;;1;;Prozentwert berechnen
+2015-OS-K2b;prozent;Prozentwert;;2;;Wert nach prozentualer Erhöhung berechnen
+2023-OS-K6b;prozent;Sachaufgaben zur Prozentrechnung;;1;;Anteilsaussage prüfen und korrigieren
+2019-OS-K5b;prozent;Sachaufgaben zur Prozentrechnung;;2;;Anteilsaussage prüfen und korrigieren
+2017-OS-K2b;prozent;Sachaufgaben zur Prozentrechnung;;3;;Anteilsaussage prüfen und korrigieren
+2015-OS-K2a;prozent;Sachaufgaben zur Prozentrechnung;;4;;Term zu Sachtext angeben
+2023-OS-K5c;prozent;Sachaufgaben zur Prozentrechnung;;5;;"Verschnitt in Prozent; Schlüssel zuletzt Prozent"
+2014-OS-K3a;prozent;Zinsen;;1;;Prozentwert berechnen
+2014-OS-K3b;prozent;Zinsen;;2;;Guthabentabelle mit Zinsen ergänzen
+2014-OS-K3c;prozent;Zinsen;;3;;Zinseszins Endkapital berechnen
+2017-OS-K3a;flaechen;Umfang und Flächeninhalt von Figuren;;1;;Figur in Teilflächen zerlegen
+2014-OS-K5d;flaechen;Umfang und Flächeninhalt von Figuren;;2;;Rechteckseite aus Fläche berechnen
+2017-OS-K3b;flaechen;Umfang und Flächeninhalt von Figuren;;3;;Flächeninhalt zusammengesetzter Figur berechnen
+2020-OS-K7b;flaechen;Flächeninhalt von Dreiecken;;1;;Grundseite aus Dreiecksfläche berechnen
+2022-OS-K5e;flaechen;Flächeninhalt von Dreiecken;;2;;Flächeninhalt Dreieck berechnen
+2015-OS-K6c;flaechen;Flächeninhalt von Dreiecken;;3;;Flächeninhalt Dreieck berechnen
+2023-OS-K2b;flaechen;Flächeninhalt von Trapezen;;1;;Flächeninhalt Trapez berechnen
+2023-OS-K2c;flaechen;Flächeninhalt von Trapezen;;2;;Umfang Trapez berechnen
+2014-OS-K5c;flaechen;Flächeninhalt von Trapezen;;3;;Trapezhöhe aus Fläche berechnen
+2025-OS-K2b;flaechen;Flächeninhalt von Drachen;;1;;Flächeninhalt Drachenviereck berechnen
+2024-OS-K2d;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;1;;Kosten aus Menge und Preis berechnen
+2024-OS-K6c;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;2;;Dauer aus Menge und Rate berechnen
+2014-OS-K4c;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;3;;Kosten aus Menge und Preis berechnen
+2015-OS-K4c;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;4;;Geschwindigkeit aus Weg und Zeit berechnen
+2014-OS-K4d;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;5;;Kosten aus Menge und Preis berechnen
+2014-OS-K2c;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;6;;Dauer aus Menge und Rate berechnen
+2015-OS-K3c;zuordnungen;Dreisatz bei proportionalen Zuordnungen;;7;;Dauer aus Menge und Rate berechnen
+2025-OS-K4b;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Seite gesucht;99;;"Sekundo: Steigungen in Prozent; Baurunde 2"
+2015-OS-K5d;trigonometrie;Berechnungen in beliebigen Dreiecken;;99;;"Sekundo: Flächenberechnung von Dreiecken mit Winkelfunktionen; Baurunde 2"
+2019-OS-K4b;koerper;Prisma und Zylinder;Oberfläche;99;;"Mantelfläche Prisma; Baurunde 2"
+2015-OS-K7c;daten;Grafische Darstellungen;Diagramme zeichnen;99;;"Schlüssel: zuletzt Sektor; Baurunde 2"
