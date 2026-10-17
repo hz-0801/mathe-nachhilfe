@@ -328,6 +328,14 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    PA30 meldet 0, alter Stand vor den neun Punkten 17 Meldungen) und
    bau/satz-checkliste.md (K1–K9, Kritiker mit Muster daneben). Offen
    in Schritt 3: Baurunde der Kapitelblätter, pruefung.md nachziehen.]
+   [17.10. Schritt 2 weiter (Chat Durchsicht P10 6, § 10 17.10. m):
+   Duden 9 dazu – pythagoras 15, gleichungen 15, daten 41, flaechen 4
+   (nur Kreis), dazu 4 Zeilen in trigonometrie/koerper; zusammen 209
+   von 418. Fertig zum Bau: quadratische, trigonometrie, koerper,
+   wachstum, potenzen, pythagoras, gleichungen, daten. Warten auf die
+   Bücher Klasse 7/8 (Lehrer liefert in ein paar Tagen): Lineare
+   Funktionen, Prozent und Zinsen, Flächen ohne Kreis, Brüche, Größen,
+   Zuordnungen, Winkel, Wahrscheinlichkeit.]
    Jetzt Bau, in dieser Folge (Lehrer 16.10.):
    [16.10. erledigt: Lösungen im Buch P10 in der Form, je Heft eigene
    Seite, Sprung je Aufgabe; 25 Lösungsfelder 2026 EBR nachgetragen;
@@ -1676,6 +1684,20 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   eigen (Grenze von Claude, 17.10.); das Buch selbst sieht der
   Bau-Agent nicht. Grenze: Reihenfolge der Arbeit bleibt (P10 zuerst);
   bestellbar „nach Buch und Kapitel“ wird es mit dem Lernblatt (§ 9).
+
+- 17.10.2026 (m): Führendes Buch der Kapitelblätter P10 (Lehrer, Weg A;
+  Chat Durchsicht P10 6). Warum: Keiner der P10-Schüler nutzt eines der
+  erfassten Bücher (Duden 9 ist eine Lernhilfe, „10. 1–4“ hat keiner);
+  von 17.10. (c) bleibt „Ordnung von außen statt erfunden“, und das
+  Oberschulbuch der Klasse 10 hat die Höhe der P10. Folge: Sekundo 10
+  gibt die Abschnitte; wo es kein Kapitel hat, füllt Duden 9, danach
+  die Bücher für Klasse 7/8, Jesse nur, wo keines etwas hat (Wachstum).
+  Ein später erfasstes Buch ändert eine bestehende Zuordnung nicht.
+  Beispiel: Pythagoras bekommt nach Duden 9 Kap. 6 ein eigenes Blatt;
+  Pythagoras am Kegel steht unter Körper (Sekundo „Pythagoras-
+  anwendungen bei Kegel und Pyramide“). Grenze: Hat das führende Buch
+  nur eine Einheit für ein großes Gebiet (Duden 9 Kap. 9 Prozente und
+  Zinsen), wartet das Gebiet auf ein Buch mit Unterteilung.
 
 ## 11 Register der Entscheidungen
 

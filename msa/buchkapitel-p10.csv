@@ -129,3 +129,82 @@ id;blatt;kapitel;abschnitt;folge;gleich_mit;bemerkung
 2015-OS-K3a;potenzen;Standardschreibweise;;5;;Große Zahl mit Zehnerpotenz multiplizieren
 2015-OS-K3b;potenzen;Standardschreibweise;;6;;Zehnerpotenzschreibweise umwandeln
 2015-OS-B1j;potenzen;Wurzeln;;1;;"Wurzel aus einem Quadrat; Klasse 8/9, Duden 9 prüfen"
+2026-FOR-B1j;pythagoras;Satz des Pythagoras;Gleichung aufstellen;1;2026-EBR-B1j;Pythagoras Gleichung zuordnen
+2026-EBR-B1j;pythagoras;Satz des Pythagoras;Gleichung aufstellen;1;2026-FOR-B1j;Pythagoras Gleichung zuordnen
+2024-OS-B1f;pythagoras;Satz des Pythagoras;Gleichung aufstellen;2;;Pythagoras Gleichung zuordnen
+2022-OS-B1g;pythagoras;Satz des Pythagoras;Gleichung aufstellen;3;;Satz des Pythagoras formulieren
+2021-OS-B1h;pythagoras;Satz des Pythagoras;Gleichung aufstellen;4;;Pythagoras Gleichung zuordnen
+2017-OS-B1d;pythagoras;Satz des Pythagoras;Gleichung aufstellen;5;;Pythagoras Gleichung zuordnen
+2020-OS-K7a;pythagoras;Satz des Pythagoras;Hypotenuse gesucht;1;;Pythagoras Hypotenuse
+2022-OS-K2c;pythagoras;Satz des Pythagoras;Hypotenuse gesucht;2;;Pythagoras Hypotenuse
+2025-OS-K2a;pythagoras;Satz des Pythagoras;Hypotenuse gesucht;3;;Symmetrieachsen bestimmen
+2026-FOR-K4a;pythagoras;Satz des Pythagoras;Kathete gesucht;1;2026-EBR-K3a;Pythagoras Kathete
+2026-EBR-K3a;pythagoras;Satz des Pythagoras;Kathete gesucht;1;2026-FOR-K4a;Pythagoras Kathete
+2024-OS-K6a;pythagoras;Satz des Pythagoras;Kathete gesucht;2;;Pythagoras Kathete
+2022-OS-K5a;pythagoras;Satz des Pythagoras;Kathete gesucht;3;;Pythagoras Kathete
+2019-OS-K3a;pythagoras;Satz des Pythagoras;Kathete gesucht;4;;Pythagoras Kathete
+2016-OS-K7b;pythagoras;Satz des Pythagoras;Kathete gesucht;5;;Pythagoras Kathete
+2024-OS-B1d;gleichungen;Lineare Gleichungen;;1;;Lineare Gleichung lösen
+2023-OS-B1e;gleichungen;Lineare Gleichungen;;2;;Lineare Gleichung lösen
+2022-OS-B1c;gleichungen;Lineare Gleichungen;;3;;Lösung durch Einsetzen prüfen
+2021-OS-B1e;gleichungen;Lineare Gleichungen;;4;;Term zu Sachtext angeben
+2020-OS-B1e;gleichungen;Lineare Gleichungen;;5;;Lineare Gleichung lösen
+2018-OS-B1c;gleichungen;Lineare Gleichungen;;6;;Lösung durch Einsetzen prüfen
+2016-OS-B1b;gleichungen;Lineare Gleichungen;;7;;Term zu Sachtext angeben
+2018-OS-K3b;gleichungen;Lineare Gleichungen;;8;;Lineare Gleichung aus Sachverhalt aufstellen
+2020-OS-K2e;gleichungen;Lineare Gleichungen;;9;;Lineare Gleichung aus Sachverhalt aufstellen
+2024-OS-K7a;gleichungen;Lineare Gleichungssysteme;;1;;Lineares Gleichungssystem aufstellen
+2022-OS-K7a;gleichungen;Lineare Gleichungssysteme;;2;;Gleichung im Sachzusammenhang deuten
+2022-OS-K7b;gleichungen;Lineare Gleichungssysteme;;3;;Lineares Gleichungssystem lösen
+2024-OS-K7b;gleichungen;Lineare Gleichungssysteme;;4;;Gleichung im Sachzusammenhang deuten
+2021-OS-K7b;gleichungen;Lineare Gleichungssysteme;;5;;Lineares Gleichungssystem aufstellen
+2016-OS-K6d;gleichungen;Lineare Gleichungssysteme;;6;;Lineares Gleichungssystem aufstellen
+2021-OS-B1f;daten;Kenngrößen;;1;;Arithmetisches Mittel berechnen
+2019-OS-B1i;daten;Kenngrößen;;2;;Spannweite berechnen
+2017-OS-B1h;daten;Kenngrößen;;3;;Arithmetisches Mittel berechnen
+2016-OS-B1a;daten;Kenngrößen;;4;;Arithmetisches Mittel berechnen
+2015-OS-B1f;daten;Kenngrößen;;5;;Median bestimmen
+2024-OS-B1h;daten;Kenngrößen;;6;;Median bestimmen
+2022-OS-B1d;daten;Kenngrößen;;7;;Fehlenden Wert aus Mittelwert bestimmen
+2026-FOR-K3a;daten;Kenngrößen;;8;2026-EBR-K4a;Spannweite berechnen
+2026-EBR-K4a;daten;Kenngrößen;;8;2026-FOR-K3a;Spannweite berechnen
+2015-OS-K7b;daten;Kenngrößen;;9;;Relative Häufigkeit angeben
+2026-FOR-K3b;daten;Kenngrößen;;10;2026-EBR-K4b;Arithmetisches Mittel berechnen
+2026-EBR-K4b;daten;Kenngrößen;;10;2026-FOR-K3b;Arithmetisches Mittel berechnen
+2025-OS-K6a;daten;Kenngrößen;;11;;Kenngrößen einer Liste prüfen
+2024-OS-K2a;daten;Kenngrößen;;12;;Spannweite berechnen
+2020-OS-K2c;daten;Kenngrößen;;13;;Arithmetisches Mittel berechnen
+2015-OS-K7a;daten;Kenngrößen;;14;;Arithmetisches Mittel berechnen
+2014-OS-K4a;daten;Kenngrößen;;15;;Minimum und Maximum ablesen
+2014-OS-K4b;daten;Kenngrößen;;16;;Spannweite berechnen
+2023-OS-K6c;daten;Kenngrößen;;17;;Spannweite berechnen
+2022-OS-K4a;daten;Kenngrößen;;18;;Minimum und Maximum ablesen
+2020-OS-K2d;daten;Kenngrößen;;19;;Spannweite berechnen
+2025-OS-K6c;daten;Kenngrößen;;20;;Arithmetisches Mittel berechnen
+2020-OS-K2b;daten;Grafische Darstellungen;Diagramme lesen;1;;Werte im Diagramm nach Bedingung auswählen
+2016-OS-K2a;daten;Grafische Darstellungen;Diagramme lesen;2;;Werte im Diagramm nach Bedingung auswählen
+2016-OS-K2b;daten;Grafische Darstellungen;Diagramme lesen;3;;Wert aus Diagramm ablesen
+2022-OS-K4c;daten;Grafische Darstellungen;Diagramme lesen;4;;Aussage zu Diagramm prüfen
+2018-OS-K3a;daten;Grafische Darstellungen;Diagramme lesen;5;;Achsenskalierung aus Säule bestimmen
+2023-OS-K6d;daten;Grafische Darstellungen;Diagramme lesen;6;;Achsenskalierung aus Säule bestimmen
+2018-OS-K3d;daten;Grafische Darstellungen;Diagramme lesen;7;;Aussage zu Diagramm prüfen
+2026-FOR-K3e;daten;Grafische Darstellungen;Diagramme lesen;8;;Verzerrung eines Diagramms erklären
+2019-OS-K5c;daten;Grafische Darstellungen;Diagramme lesen;9;;Aussage zu Diagramm prüfen
+2014-OS-K3d;daten;Grafische Darstellungen;Diagramme lesen;10;;Verzerrung eines Diagramms erklären
+2026-FOR-K3d;daten;Grafische Darstellungen;Diagramme zeichnen;1;2026-EBR-K4d;Säulen- oder Balkendiagramm ergänzen
+2026-EBR-K4d;daten;Grafische Darstellungen;Diagramme zeichnen;1;2026-FOR-K3d;Säulen- oder Balkendiagramm ergänzen
+2020-OS-K2a;daten;Grafische Darstellungen;Diagramme zeichnen;2;;Säulen- oder Balkendiagramm ergänzen
+2021-OS-K5b;daten;Grafische Darstellungen;Diagramme zeichnen;3;;Fehlenden Prozentanteil ergänzen
+2018-OS-K3c;daten;Grafische Darstellungen;Diagramme zeichnen;4;;Streifendiagramm zeichnen
+2025-OS-K6b;daten;Grafische Darstellungen;Diagramme zeichnen;5;;Prozentsatz berechnen
+2024-OS-K2c;daten;Grafische Darstellungen;Diagramme zeichnen;6;;Sektor im Kreisdiagramm zuordnen
+2022-OS-K4d;daten;Grafische Darstellungen;Diagramme zeichnen;7;;Sektor im Kreisdiagramm zuordnen
+2017-OS-K2c;daten;Grafische Darstellungen;Diagramme zeichnen;8;;Kreisdiagramm zeichnen
+2025-OS-B1e;flaechen;Kreis;;1;;Kreissektor (Duden 7.2)
+2024-OS-K4a;flaechen;Kreis;;2;;Kreisfläche berechnen
+2016-OS-K3b;flaechen;Kreis;;3;;Kreisfläche berechnen
+2018-OS-K6a;flaechen;Kreis;;4;;Rechteck ohne Kreis
+2025-OS-K4a;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;99;;"Schlüssel: zuletzt Winkel; Rampe erst mit Pythagoras"
+2019-OS-K2d;trigonometrie;Berechnungen im rechtwinkligen Dreieck;Winkel gesucht;99;;"Schlüssel: zuletzt Winkel β; BC aus Koordinaten"
+2026-FOR-K2c;koerper;Pyramide und Kegel;;99;;Sekundo: Pythagorasanwendungen bei Kegel
+2018-OS-K6d;koerper;Pyramide und Kegel;;99;;Sekundo: Pythagorasanwendungen bei Kegel
