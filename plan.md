@@ -245,9 +245,13 @@ D FHR (Chat FHR, ab 17.10. abends; übernimmt „Buch FHR“ aus B):
   [17.10. erledigt (Chat FHR 1): Drive Mathe/Bücher „Originalprüfungen
   FHR.pdf“, 134 S., 10 MB, 16 Hefte 2026–2019 (alle auf dem
   Bildungsserver), Lösungen = amtlicher Erwartungshorizont hinten;
-  werkzeuge/fhrbuch.py. Sonnet 0,18 Mio, 6 min. Jetzt: Probe
-  „Lösungsweg Sek II“, zehn Lösungen aus allen Gebieten zum
-  Kommentieren (Lehrer 17.10.).]
+  werkzeuge/fhrbuch.py. Sonnet 0,18 Mio, 6 min.]
+  Jetzt (§ 10 17.10. s): Lehrer lädt seine Musterlösung zu FHR 2026
+  C 1 e) hoch; Claude überträgt sie auf eine zweite Kurvendiskussion
+  (Abitur GK, Kern aus fhr/loesung/zuordnung-kurvendiskussion.csv);
+  passt sie, Form festhalten und Schema danach glätten. Offen: bleibt
+  die FHR beim amtlichen Erwartungshorizont (Vorschlag ja), Pilot
+  Lösungen Abitur GK 2026 mit Messung vor der Breite.
 Gemeinsam: plan.md (vor jeder neuen Kennung pullen, nächste freie
 nehmen); gemeinsam.md, loesung-pruef.py, pruefheft.py, mathblatt.sty
 nur nach Absprache im Chat des Lehrers.
@@ -1020,6 +1024,10 @@ Gruppen laufen parallel in 1–2 min.
 VERA-8-Register (17.10., Chat Stochastik 1): Sonnet 5 Läufe ≈ 0,86
 Mio, 15 min (Schätzung 0,8 Mio / ≈ 1 Punkt); Anzeige 64 → 64 % mit
 Nebenchats. Schätzung hält (unter einem Punkt).
+Buch FHR (17.10., Chat FHR 1): Sonnet 0,18 Mio, 6 min (Schätzung
+0,3 Mio / 30–40 min; digitale Hefte, kein Scan). Probe Lösungsweg
+Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
+im Chat nicht abgelesen.
 
 ## 9 Später
 - Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
@@ -1884,6 +1892,17 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Reset übrig ist, verfällt. Wie: Vorrat ist erlaubt, auch ohne
   Abnehmer heute; der Vorschlag nennt, wer ihn später liest. Go je
   Runde bleibt. Erster Fall: VERA-8-Pool als Register (Weg A).
+- 17.10.2026 (s): Lösungen Sek II je Aufgabenart (Lehrer, Chat FHR
+  1). Warum: Kommentar-Regeln widersprachen sich in vier Fassungen;
+  ein Beispiel trifft die Absicht genauer. Wie: (1) knappes Schema je
+  Aufgabenart wie im Tafelwerk (Art = z. B. Kurvendiskussion, nicht
+  Katalog-Typ); (2) Lehrer schreibt eine Musterlösung; (3) Claude
+  überträgt sie auf eine zweite Aufgabe; (4) passt sie, gilt die Form
+  für alle Teilaufgaben dieser Art. Zuordnung je Teilaufgabe, nicht je
+  Aufgabe. Bezeichner: x_N, x_E, x_W, x_S, Punkte H(x_E | f(x_E)).
+  Stand: Schema Kurvendiskussion Entwurf 3, Probe nach Weg B
+  (Erwartungshorizont + Werkzeug, Bezeichner, Zahlenstrahl) „viel
+  besser“ als eigene Fassungen; mathe-nachhilfe fhr/loesung/.
 
 ## 11 Register der Entscheidungen
 

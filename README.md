@@ -108,6 +108,7 @@ Die Bau-Skripte laufen im Ordner ihres Profils (`cd abitur && python abi-bau.py`
 - `fhr-vorgaben.md` – jährlicher Vorgabencheck.
 - `fhr-vorgaben-pruefung-2026-09.md` – Prüfung des Vorbehalts (Schritt 0, Auftrag Nacht Teil 3, 24.09.2026): jede Angabe aus § 1–3 gegen die Papiere gehalten, Ergebnis je Angabe.
 - `fhr-typenbibliothek.py`, `fhr-typenbibliothek.md` – Skript nach jeder Katalogänderung ausführen; die Bibliothek öffnen, wenn ein Blatt zu einem fhr-Typ geplant wird.
+- `loesung/` – Lösungsform Sek II (plan.md § 10, 17.10. s): `schema-kurvendiskussion.*` (Schema Entwurf 3), `probeB.*` (FHR 2026 C 1 als Erwartungshorizont + 3 Änderungen; braucht das Heft 26_FOS_Ma_LH_C.pdf als fhr26c.pdf daneben), `zuordnung-kurvendiskussion.csv` (449 Teilaufgaben FHR/Abitur mit Stufe kern/rand). Öffnen, wenn Lösungen geschrieben werden.
 
 ## abitur/ – Zentralabitur Berlin/Brandenburg (abi) und IQB-Aufgabenpool (iqb)
 
