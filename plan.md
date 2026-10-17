@@ -207,6 +207,24 @@ C P10-Kapitelblätter – Chat Durchsicht (uebergabe-durchsicht.md).
   Baurunde 2; Rest (Lineare Funktionen, Brüche, Größen, Winkel,
   Wahrscheinlichkeit) nach den Büchern Kl. 6/8; dann pruefung.md
   nachziehen, Abnahme M4.
+Dateien je Strom (Lehrer 17.10.: keiner kommt dem anderen in die
+Quere). Jeder Chat schreibt nur in seine Dateien; braucht er eine
+fremde Datei, schreibt er eine Zeile „Bitte an <Strom>: …“ unter
+diesen Absatz statt sie selbst zu ändern. Vor jedem Commit
+git pull --rebase und git diff --stat ansehen: steht eine fremde
+Datei darin, nicht committen.
+A Bau: aufgabenbank-privat buecher/, werkzeuge/buch*.py,
+  buchregister.py, pruefungsbuch.py; aufgabenbank bau/proben/, Bank
+  und Katalog der Proben „nach Buch“; uebergabe.md.
+B Abitur: aufgabenbank-privat abitur/, werkzeuge/abibuch.py,
+  abi-originale.py; mathe-nachhilfe abitur/; uebergabe-abitur.md.
+C Durchsicht: mathe-nachhilfe msa/buchkapitel-p10.csv,
+  msa/kapitel-p10/, pruefung.md, uebergabe-durchsicht.md;
+  aufgabenbank werkzeuge/kapitelblatt.py, satz-pruef.py,
+  bau/kapitel/, bau/satz-checkliste.md.
+Gemeinsam: plan.md (vor jeder neuen Kennung pullen, nächste freie
+nehmen); gemeinsam.md, loesung-pruef.py, pruefheft.py, mathblatt.sty
+nur nach Absprache im Chat des Lehrers.
 Woche: 56 % am 17.10. gegen 14 Uhr (alle Chats). Grobe Verteilung bis
 Mo 18:00: C Baurunde 1 ≈ 9, B ≈ 3, C Zuordnung Kl. 7 ≈ 1,5, C
 Baurunde 2 ≈ 5 Punkte – zusammen ≈ 75 %; der Rest bleibt für die

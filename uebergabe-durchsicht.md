@@ -14,6 +14,9 @@ derselben Form.
 
 ## 2 Arbeitsgrundlage
 
+- Eigene Dateien und Regel gegen Überschneidung: plan.md § 7
+  „Überblick – jetzt bis Mo 19.10.“, Absatz „Dateien je Strom“, C.
+
 - plan.md § 7 (Absatz „Jetzt Durchsicht/P10, in dieser Folge (Lehrer
   17.10.)“), § 10 17.10. (d) mit den Listen „gilt weiter“/„ersetzt“.
 - Muster: aufgabenbank bau/kapitel/2026-10-17/quadratische/ (blatt,
