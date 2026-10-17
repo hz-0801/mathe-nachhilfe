@@ -38,7 +38,7 @@ die Schüler; zuerst Kurvendiskussion.
   das“), mit Zahlenstrahl-Idee: Teilstriche mit x_E1, x_E2, x_S unter
   dem Wert (Vorschlag, noch nicht gesetzt).
 - 18.10.: Ansatzsammlung Kurvendiskussion (§ 10 18.10. a) abgelegt.
-- Wartet: Musterlösung des Lehrers zu FHR 2026 C 1 e).
+- Muster schreibt jetzt Claude, Lehrer korrigiert (18.10.).
 
 ## 4 Rahmen
 
