@@ -292,11 +292,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Figuren als Ausschnitt aus dem Original, Titelbild, „← zurück“;
    Jesse (Cornelsen Fundamente 10) durchsuchbar mit Sprungmarken per
    Skript (aufgabenbank-privat werkzeuge/buch-durchsuchbar.py,
-   buch-sprungmarken.py). Regeln § 10 (16.10. h).
+   buch-sprungmarken.py). Regeln § 10 (16.10. p).
    [16.10. erledigt (Chat Bau): Tafelwerke Duden und Paetec in Drive
    Mathe/Bücher; Buch „P10 Originalprüfungen“ per Skript
    (aufgabenbank-privat werkzeuge/pruefungsbuch.py, 182 S.), vom
-   Lehrer begutachtet, Form § 10 (16.10. m).]
+   Lehrer begutachtet, Form § 10 (16.10. q).]
    Jetzt Durchsicht/P10, in dieser Folge (Lehrer 17.10., § 10 17.10. d):
    1. Chat Bau 4 erfasst die Schulbücher als Register: zuerst Duden 9
       („Buch_Mathe_Kl9.pdf“), dann „10. 1–4“ (Oberschule Kl. 10).
@@ -393,7 +393,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    von P10, Gespräch darüber später; die vier Fragen ruhen bis dahin
    (Form 17.10. d deckt drei davon für P10, nicht fürs Abitur).]
    Daneben, eigener Chat „Abitur“ (Lehrer 17.10., Chat Bau 5):
-   Buch „Abitur GK Originalprüfungen“ in der Form 16.10. m, ohne
+   Buch „Abitur GK Originalprüfungen“ in der Form 16.10. q, ohne
    Modell wie das Buch P10 (pruefungsbuch.py). Keine neuen
    Abiturblätter vor dem Gespräch über das Abitur. Einstieg:
    uebergabe-abitur.md. Nicht anfassen: aufgabenbank-privat
@@ -1425,7 +1425,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Erkennen-Antworten als Stichwort statt Optionstext („x und z“).
   Steht in gemeinsam.md „Form der Lösung“. Umsetzung offen (Setzer
   und Kürzung der Optionstexte, plan.md § 7).
-- 16.10.2026 (h): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
+- 16.10.2026 (p): Buch-PDFs (Lehrer, Chat Bau, 15./16.10.): jedes
   Buch-PDF – Tafelwerk wie Schulbuch, auch künftige – hat Seite 1
   mit Umschlagfoto, klickbaren Inhalt, Lesezeichen und auf jeder
   Seite „← zurück“; Dateiname kurz und eindeutig („Tafelwerk Duden
@@ -1436,7 +1436,7 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Schulbücher nur per Skript (geradestellen, Texterkennung,
   Sprungmarken), ohne Modell. Nutzer: Duden = Marie-Curie-Gymnasium
   Hohen Neuendorf, Paetec = Regine-Hildebrandt-Schule.
-- 16.10.2026 (m): Buch der Originalprüfungen (Lehrer, Chat Bau):
+- 16.10.2026 (q): Buch der Originalprüfungen (Lehrer, Chat Bau):
   nur Originale, Hefte am Stück, neueste zuerst, ohne Deckblatt;
   S. 1 Titel mit Deckblatt des jüngsten Hefts und Quelle
   (Bildungsserver, Link und QR-Code); S. 2 Prüfungen und Lösungen,
