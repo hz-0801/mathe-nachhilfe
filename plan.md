@@ -225,6 +225,12 @@ C Durchsicht: mathe-nachhilfe msa/buchkapitel-p10.csv,
 D FHR (Chat FHR, ab 17.10. abends; übernimmt „Buch FHR“ aus B):
   aufgabenbank-privat fhr/, werkzeuge/fhrbuch.py (liest abibuch.py
   nur); mathe-nachhilfe fhr/; uebergabe-fhr.md.
+  [17.10. erledigt (Chat FHR 1): Drive Mathe/Bücher „Originalprüfungen
+  FHR.pdf“, 134 S., 10 MB, 16 Hefte 2026–2019 (alle auf dem
+  Bildungsserver), Lösungen = amtlicher Erwartungshorizont hinten;
+  werkzeuge/fhrbuch.py. Sonnet 0,18 Mio, 6 min. Jetzt: Probe
+  „Lösungsweg Sek II“, zehn Lösungen aus allen Gebieten zum
+  Kommentieren (Lehrer 17.10.).]
 Gemeinsam: plan.md (vor jeder neuen Kennung pullen, nächste freie
 nehmen); gemeinsam.md, loesung-pruef.py, pruefheft.py, mathblatt.sty
 nur nach Absprache im Chat des Lehrers.
