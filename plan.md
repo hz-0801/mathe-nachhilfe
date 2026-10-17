@@ -845,6 +845,11 @@ laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
 Zuordnung Schritt 2 (17.10., Chat Durchsicht P10 6, Opus, ohne
 Agenten, Skript und Urteil im Chat): Schätzung 1–2 Punkte; Anzeige
 52 → 54 % mit Nebenchat Bau 4 (Anteil nicht trennbar). Schätzung hält.
+Buch Abitur GK ohne Lösungen (17.10., Chat Abitur 1, Opus-Agent):
+0,18 Mio Agenten-Token, 15 min (Schätzung 0,25 Mio / 3 Punkte);
+Anzeige 54 → 56 % mit Nebenchats Bau 5 und Durchsicht P10 6 (Anteil
+nicht trennbar). Schätzung hält; Skript aus Vorbild (pruefungsbuch.py)
+spart, Texterkennung der Scans ist der größte Posten.
 
 ## 9 Später
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
