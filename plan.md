@@ -485,8 +485,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    0,15 Mio, 6 min); Rest erst mit Go. [17.10. erledigt (Chat
    Abitur 2): alle zehn GK-Hefte, 467 Zeilen, Abschrift je Heft in
    abitur/abschrift/, heftnummer gefüllt (2022, 2024, 2025);
-   Zahlentabellen nur beschrieben.] Danach Vorschlag: Buch LK gleich gebaut
-   (bb-ea 2017/2018, bebb-lk 2022–2025, bb-ea 2026; 2019–2021 fehlt).]
+   Zahlentabellen nur beschrieben.] [17.10. erledigt (Chat Abitur 2):
+   Drive Mathe/Bücher „Originalprüfungen Abitur LK.pdf“, 91 S.,
+   12,3 MB, 2026–2017 ohne 2021–2019, ohne Lösungen, Themenregister;
+   abibuch.py --kurs gk|lk. GK-Buch trägt noch „Berlin 2026 nicht
+   erhältlich“ (unbelegt; Skript berichtigt, beim nächsten GK-Bau weg).]
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
@@ -946,6 +949,8 @@ Wortlaut GK, 9 Hefte (17.10., Chat Abitur 2): Sonnet 5 Läufe
 mit Nebenchats. Schätzung hält, Wanduhr zu hoch geschätzt. Regel:
 Agenten, die Seiten rendern, schreiben in einen eigenen Ordner, nie
 nach /tmp (2022: fremde Seiten gesehen, ein Lauf verloren).
+Buch Abitur LK (17.10., Chat Abitur 2, Sonnet-Agent): 0,16 Mio,
+7 min (Schätzung 0,15–0,3 Mio). Anzeige folgt.
 
 ## 9 Später
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
