@@ -392,6 +392,12 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    [17.10. Chat Bau 5: Lehrer: Abitur unterscheidet sich deutlich
    von P10, Gespräch darüber später; die vier Fragen ruhen bis dahin
    (Form 17.10. d deckt drei davon für P10, nicht fürs Abitur).]
+   Daneben, eigener Chat „Abitur“ (Lehrer 17.10., Chat Bau 5):
+   Buch „Abitur GK Originalprüfungen“ in der Form 16.10. m, ohne
+   Modell wie das Buch P10 (pruefungsbuch.py). Keine neuen
+   Abiturblätter vor dem Gespräch über das Abitur. Einstieg:
+   uebergabe-abitur.md. Nicht anfassen: aufgabenbank-privat
+   buecher/ und die Buchregister-Werkzeuge (Chat Bau 5).
    [17.10. erledigt (Chat Bau 4): Jesse (Fundamente 10) in Drive
    Mathe/Bücher als zwei Bände (je ≤ 30 MB), Lesezeichen und Inhalt
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
