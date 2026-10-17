@@ -383,6 +383,11 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    buecher/jesse/, § 10 17.10. e). Nachzufotografieren: S. 40/41,
    164/165, 236–238. Nächstes Buch erst nach dem Vergleich Lernblatt
    mit/ohne Buch.]
+   [17.10. erledigt (Chat Bau 4): Sekundo 10 (Westermann) in Drive,
+   Register 960 Aufgaben mit Frageform, Katalog-Zuordnung Jesse und
+   Sekundo (§ 10 17.10. b). Offen nach Reihenfolge, je mit Go:
+   Buch_Mathe_Kl9, 7. z und g, 6. Arbeitsheft, Stochastik Jung,
+   Stark (Teil 2 fehlt); Jesse: operator/frageform nachtragen.]
 
 Jetzt (Lehrer 10.10. abends, ersetzt „Bestand ordnen“): erst plan.md
 vollständig, dann ordnen, dann bauen.
@@ -1469,7 +1474,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Beispiele 17.10., Lehrer: „passt“); Aufbau je Lerneinheit als
   Vergleich zum Lernweg. Das Register ist Werkzeug, kein viertes
   Objekt (Linie 1). Jesse ist Gymnasium: Muster, nicht Maß der Höhe.
-  Weitere Bücher erst nach einem Vergleich Lernblatt mit/ohne Buch.
+  Weitere Bücher erst nach einem Vergleich Lernblatt mit/ohne Buch
+  (abgelöst durch 17.10. b).
+- 17.10.2026 (b): Bücher auf Vorrat (Lehrer, Chat Bau 4): alle
+  gescannten Bücher werden Register, auch für die allgemeinen Blätter
+  und Bücher, die kein Schüler nutzt – Buch für Buch, je mit Go. Je
+  Aufgabe zusätzlich operator und frageform (Satzmuster der Frage mit
+  Platzhaltern, ≤ 12 Wörter, ohne Sachgeschichte; Wortlaute werden
+  nicht gesammelt); je Buch katalog.csv (Buch-Einheit → Katalog-
+  Einheit), Abfrage über alle Bücher: buchregister.py katalog <id>.
+  Jedes Buch als PDF in Drive Mathe/Bücher.
 
 - 17.10.2026 (c): Abschnitte der Kapitelblätter (Lehrer, „versuchen
   es“; Muster quadratische Funktionen). Warum: Die Ordnung soll von
