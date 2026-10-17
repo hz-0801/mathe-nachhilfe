@@ -786,6 +786,11 @@ paralleler Chat). Schätzung hält. Regel: Nachaufträge an einen
 laufenden Agenten in die Schätzung der Runde aufnehmen (hier +0,2 Mio).
 
 ## 9 Später
+- Jesse neu bauen, sobald der Lehrer bessere Scans liefert (je eine
+  Seite, auch S. 40/41, 164/165, 236–238; Lehrer 17.10.): dann ein
+  Buch statt zwei Bände (auf dem Rechner zusammenfügen, die
+  30-MB-Grenze gilt nur für die Ablage), Register neu (Rahmen und
+  Bildnamen ändern sich; ≈ 2 Punkte mit Sonnet).
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
   Tafelwerke: Duden „Formeln und Werte“ und Paetec Sek I (das an der
   Regine-Hildebrandt-Schule genutzte, Datei regine-sek1.md, Scan
