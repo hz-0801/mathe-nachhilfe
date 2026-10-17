@@ -210,6 +210,12 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   37, wahrscheinlichkeit 69, winkel-dreiecke 12, einheiten 12;
   abrufbar mit buchregister.py katalog <eintrag>. Sonnet ≈ 0,86 Mio,
   15 min.]
+  [17.10. erledigt (Chat Stochastik 1): Drive Mathe/Bücher
+  „Originalprüfungen VERA-8“ (359 S.) und „… – Lösungen“ (356 S.),
+  ohne Modell (aufgabenbank-privat werkzeuge/verabuch.py); Fehler-
+  katalog buecher/vera8/fehler.csv, 708 Zeilen zu 213 Aufgaben
+  (210 falsche Antworten mit Denkfehler, 477 typische Fehler).
+  Sonnet ≈ 1,1 Mio.]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
@@ -1030,6 +1036,11 @@ Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
 im Chat nicht abgelesen.
 
 ## 9 Später
+- Bauauftrag und bankblatt.md: VERA-8 als Quelle nennen – Frageformen
+  (27 % Ankreuzen, 17 % Begründen/Entscheiden gegen 1–3 % / 11–15 %
+  in den Büchern) und fehler.csv für Ablenker und Lösungshinweise;
+  Wortlaut CC BY mit Quelle (Chat Stochastik 1, 17.10.). Gesammelt
+  am Ende des Meilensteins (Linie 8).
 - Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
   Stark und Jung fanden keine Lerneinheit für Ereignisalgebra/Mengen,
   relative Häufigkeit und Gesetz der großen Zahlen, Galton-Brett,
