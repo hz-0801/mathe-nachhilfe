@@ -982,6 +982,9 @@ Buch Abitur LK (17.10., Chat Abitur 2, Sonnet-Agent): 0,16 Mio,
 (Anteil des Buchs nicht trennbar). Schätzung hält.
 
 ## 9 Später
+- Basis zum Stundenbeginn (Lehrer 17.10., § 10 q): kurze Blätter aus
+  Basisaufgaben für den Anfang einer Stunde – Form (nach Thema, nach
+  Jahr, gemischt; wie viele) mit dem Lehrer klären; Daten liegen vor.
 - Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
   Stark und Jung fanden keine Lerneinheit für Ereignisalgebra/Mengen,
   relative Häufigkeit und Gesetz der großen Zahlen, Galton-Brett,
@@ -1823,6 +1826,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   verfällt es. Wo: neuer Chat Bau (uebergabe.md), wie die übrigen
   Bücher (Register, Katalog-Zuordnung, Drive). Hebt „zurückgestellt“
   vom 17.10. auf.
+
+- 17.10.2026 (q): Keine Basisaufgaben auf dem Kapitelblatt (Lehrer;
+  Chat Durchsicht P10 6). Warum: Basisaufgaben sind schnelle, leichte
+  Aufgaben; der Lehrer lässt sie immer wieder am Anfang einer Stunde
+  lösen. Das Kapitelblatt ist der Platz für die rechenintensiveren
+  Aufgaben des Hauptteils. Beispiel: Pythagoras „Gleichung
+  aufstellen“ und Trigonometrie „Seitenverhältnis angeben“ fallen als
+  Abschnitte weg; Potenzen behält nur zwei Hauptteilaufgaben. Grenze:
+  Die Zuordnung der Basisaufgaben zu Buchkapiteln bleibt als Daten
+  (msa/buchkapitel-p10.csv), der Setzer filtert sie (kapitelblatt.py
+  basis()). Ersetzt pruefung.md „Basis am Platz ihrer Stufe“ (12.10.)
+  für das Kapitelblatt.
 
 ## 11 Register der Entscheidungen
 

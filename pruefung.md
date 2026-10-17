@@ -317,7 +317,8 @@ wo BB/BE fehlen, Marke „GYM ’xx“.
   Hilfsmittelregel (2028?), ändern sich Daten, nicht die Vorlage.
   Grenze: Muster der Spalte zeigt der nächste Bau (Lehrer: „ganz
   rechts, zeigen“). Neue Zahlen der Basis gehen im Kopf.
-- **Basis am Platz ihrer Stufe** (Lehrer 12.10., ersetzt „Basis
+- (Für das Kapitelblatt ersetzt durch plan.md § 10 17.10. q: keine
+  Basisaufgaben darauf.) **Basis am Platz ihrer Stufe** (Lehrer 12.10., ersetzt „Basis
   immer alle“ vom Mittag): Basisaufgaben, deren Handgriff die
   Einheit ist, stehen als erste Aufgabe ihrer Stufe; die übrigen nur
   auf dem Basisblatt (04.10.). Kein Basis-Block oben.
