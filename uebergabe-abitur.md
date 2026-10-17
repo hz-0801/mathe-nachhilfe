@@ -63,8 +63,8 @@ und der Wortlaut der GK-Originale als Datenvorrat wie bei P10.
   ist stellenweise holprig, z. B. „∫ von 0 bis 1“; IQB-Verweis bei
   Pool-Dubletten; CAS-Vermerk 17.10. h).
 - Katalognummern weichen vom Heft ab (Teil-A-Wahl 1.4–1.9 statt
-  1.4.1–1.5.3; Aufgabenteil 2 als f–i): Register/Lösungen sollen die
-  Heftnummer zeigen (Feld heftnummer im Wortlaut).
+  1.4.1–1.5.3; Aufgabenteil 2 als f–i): Register und Lösungen sollen
+  die Heftnummer zeigen (Feld heftnummer im Wortlaut).
 - 2025 S. 6 (Buchseite 19): Rest der Nachbarspalte rechts, Strich
   unten – Lehrer noch nicht geäußert.
 - Verworfen: Register nach Typen (341 Typen, 281 nur einmal);
