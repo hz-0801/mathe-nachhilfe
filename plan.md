@@ -179,6 +179,39 @@ Selbstlernheft Geraden. Muster: aufgabenbank bau/muster-auftrag.md.
 
 ## 7 Meilensteine
 
+**Überblick – jetzt bis Mo 19.10. 18:00** (Lehrer 17.10. nachmittags;
+gilt vor den älteren „Jetzt“-Absätzen unten, die als Stand bleiben).
+Ziel bis Montag: die gescannten Bücher und die Originalprüfungen
+fertig verarbeiten (Register, Katalog-Zuordnung, Drive Mathe/Bücher,
+Wortlaut als Vorrat); daneben die P10-Kapitelblätter. Drei Ströme,
+je ein Chat mit eigener Übergabe; keiner schreibt in die Dateien der
+anderen.
+A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
+  Drive: Jesse 10, Sekundo 10, Duden 9, Zahlen und Größen 7 (AH),
+  Mathematik plus 6 (AH, Teil 1). Offen: Arbeitsheft 6 Teil 2 neu
+  scannen (Lehrer; Datei ist eine Kopie von Kl. 7), Jesse
+  nachfotografieren (S. 40/41, 164/165, 236–238) und operator/
+  frageform nachtragen, Bücher Klasse 8 (Lehrer liefert in ein paar
+  Tagen). Zurückgestellt: Stochastik Jung, Stark (Sek II).
+B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
+  als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
+  Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
+  der übrigen 9 GK-Hefte (Go offen, ≈ 2–3 Punkte), Buch LK (≈ 0,5).
+  Nach dem Gespräch über das Abitur: Lösungsteil Abitur, die vier
+  Fragen aus befunde-M5.
+C P10-Kapitelblätter – Chat Durchsicht (uebergabe-durchsicht.md).
+  Zuordnung 209 von 418 Teilaufgaben (17.10. m); Baurunde 1 mit
+  sieben Blättern läuft 17.10. (Go, ≈ 9 Punkte), dann Muster und
+  Stichprobe. Danach Zuordnung mit Zahlen und Größen 7 (Prozent,
+  Flächen, Zuordnungen, rationale Zahlen, Terme, Daten) und
+  Baurunde 2; Rest (Lineare Funktionen, Brüche, Größen, Winkel,
+  Wahrscheinlichkeit) nach den Büchern Kl. 6/8; dann pruefung.md
+  nachziehen, Abnahme M4.
+Woche: 56 % am 17.10. gegen 14 Uhr (alle Chats). Grobe Verteilung bis
+Mo 18:00: C Baurunde 1 ≈ 9, B ≈ 3, C Zuordnung Kl. 7 ≈ 1,5, C
+Baurunde 2 ≈ 5 Punkte – zusammen ≈ 75 %; der Rest bleibt für die
+Bücher Klasse 8.
+
 M0 Prüfstein K4W „Hypotenuse berechnen“: Lehrer 09.10. „besser“ als
    Durchgang 1 – erfüllt; die Linie trägt so weit.
 M1 Grundlagen, klein – plan.md, CLAUDE.md/README-Einstieg, bauauftrag.md,
@@ -300,6 +333,8 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    Jetzt Durchsicht/P10, in dieser Folge (Lehrer 17.10., § 10 17.10. d):
    1. Chat Bau 4 erfasst die Schulbücher als Register: zuerst Duden 9
       („Buch_Mathe_Kl9.pdf“), dann „10. 1–4“ (Oberschule Kl. 10).
+      [17.10. erledigt; „10. 1–4“ hat kein Schüler, führend ist
+      Sekundo 10 (17.10. m).]
    2. Zuordnung aller P10-Originale zu Buchkapiteln aus dem Register,
       Schlüssel auf „gesucht“ als Gegenprobe; der Lehrer sieht nur die
       Zweifelsfälle. Übersetzung Register-Merkmale ↔ Katalogfelder
@@ -436,7 +471,7 @@ M5 Abitur GK – Setzer mit Graphen; dann wie M3, so weit das Kontingent
    aus dem Register; Register 1 045 Aufgaben (aufgabenbank-privat
    buecher/jesse/, § 10 17.10. e). Nachzufotografieren: S. 40/41,
    164/165, 236–238. Nächstes Buch erst nach dem Vergleich Lernblatt
-   mit/ohne Buch.]
+   mit/ohne Buch – abgelöst durch 17.10. f.]
    [17.10. erledigt (Chat Bau 4): Sekundo 10 (Westermann) in Drive,
    Register 960 Aufgaben mit Frageform, Katalog-Zuordnung Jesse und
    Sekundo (§ 10 17.10. f). Offen nach Reihenfolge, je mit Go:
