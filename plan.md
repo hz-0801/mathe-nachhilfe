@@ -771,7 +771,10 @@ je Lauf 1–4 min. Anzeige 17.10. früh 51 % (49 % vor Bau 4; mit
 Nebenchat): Bau 4 (Lösungen 13 Hefte, Buch P10, Register Teil 1/5/6)
 ≤ 2 Punkte. Danach Teil 2–4: 12 weitere Läufe, ≈ 1,5 Mio Agenten-
 Token; zusammen 22 Läufe ≈ 2,7 Mio für 256 Seiten. Schätzung vorher
-3 Punkte für Buch und Register; Anzeige nach Teil 2–4 offen.
+3 Punkte für Buch und Register; Anzeige nach Teil 2–4: 52 % (mit
+Nebenchat). Teil 2–4 (1,5 Mio Sonnet-Agenten-Token) ≈ 1 Punkt; ganzes
+Buch mit Register ≈ 2 Punkte, Schätzung 3 hält. Faustwert: Register
+je Buch (≈ 250 S.) mit Sonnet ≈ 2 Punkte.
 
 Pflichtteile ab PA20 und Muster Kapitelblatt (16./17.10., Chat
 Durchsicht 5, Opus): Setzer-Agent 0,24 Mio (mit drei Nachaufträgen),
