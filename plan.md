@@ -202,6 +202,14 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   „Übungsbuch Sek II Stark Stochastik“, 168 S., 607 Zeilen, 148
   Aufgaben mit Lösungsseite). Sonnet ≈ 2,7 Mio, 50 min. Blass: Stark
   Lösungen S. 120/121, 126/127. Weitere Scans liegen nicht vor.]
+  [17.10. erledigt (Chat Stochastik 1, § 10 17.10. r): VERA-8-Pool als
+  Register (aufgabenbank-privat buecher/vera8/, 509 Teilaufgaben je
+  mit Katalog-Lerneinheit, Handgriff, Frageform, AFB/Stufe; CC BY,
+  Wortlaut mit Quellenangabe nutzbar). Für C: Stoff Kl. 8 ohne Buch,
+  z. B. lineare-funktionen 22, bruchrechnung + brueche-dezimalzahlen
+  37, wahrscheinlichkeit 69, winkel-dreiecke 12, einheiten 12;
+  abrufbar mit buchregister.py katalog <eintrag>. Sonnet ≈ 0,86 Mio,
+  15 min.]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
