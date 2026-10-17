@@ -1636,6 +1636,13 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
 - 17.10.2026 (j): Zeitspannen im Buch der Abiturprüfungen absteigend
   („2026–2017“, „2025–2024“), passend zur Folge neueste zuerst
   (Lehrer gegen Claudes Rat, Chat Abitur 1).
+- 17.10.2026 (k): Namen der PDFs in Drive Mathe/Bücher (Lehrer, Chat
+  Abitur 1): „<Art> <Verlag> <Titel> <Klasse>“ – Art: Lehrbuch,
+  Arbeitsheft, Übungsbuch, Tafelwerk, Originalprüfungen. Beispiele:
+  „Lehrbuch Westermann Sekundo 10“, „Arbeitsheft Cornelsen
+  Mathematik plus 6“, „Tafelwerk Duden Sek I“; Prüfungen ohne Verlag:
+  „Originalprüfungen P10“, „Originalprüfungen Abitur GK“ (LK
+  entsprechend). Bände: „… – Band 1“.
 
 - 17.10.2026 (i): Bank als Vorrat für allgemeine Arbeitsblätter,
   Buchregister als Werkzeug (Lehrer, Chat Bau 5). Warum: Jeder
