@@ -758,6 +758,12 @@ Agent): Schätzung 0,15 Mio / 40 min; Wanduhr ≈ 25 min; Anzeige
 48 % davor, 49 % danach mit Umzug (Nebenchat Durchsicht lief) –
 Chat Bau 3 samt Nebenchat ≤ 1 Punkt; Schätzung 0,15 Mio hält.
 
+Register Jesse (17.10. früh, Chat Bau 4): Sonnet-Agenten je ~12
+Seiten nach Bild, 10 Läufe für 115 Seiten (Teil 1, 5, 6), zusammen
+≈ 1,2 Mio Agenten-Token (≈ 10 000 je Seite, meist Cache), Wanduhr
+je Lauf 1–4 min. Teil 2–4 (≈ 140 S.) offen: Rechner nicht erreichbar.
+Schätzung vorher 1–2 Punkte für das Register; Anzeige nicht abgelesen.
+
 ## 9 Später
 - Formelsammlungen als PDF (Lehrer 15.10., Weg B neu gesetzt), zwei
   Tafelwerke: Duden „Formeln und Werte“ und Paetec Sek I (das an der
@@ -1410,6 +1416,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   für quadratische Funktionen: msa/buchkapitel-p10.csv (Spalte
   gleich_mit). Offen: Linienwechsel Buchkapitel = Abschnitt, alle
   lehrplangerechten Originale, kein Mehr, Bestellung je Abschnitt.
+- 17.10.2026 (a): Schulbücher (Lehrer, Chat Bau 4, Jesse): kein
+  Wortlaut abgeschrieben; je Buch ein Register (aufgabenbank-privat
+  buecher/<kurz>/register.csv: Seite, Nummer, Lerneinheit, Abschnitt,
+  Stichwort in eigenen Worten, Handgriff, Felder wie bank.md, Schwere,
+  Rahmen). Nutzen: Buch vergessen → Ausschnitt aus dem Scan
+  (buch-aufgabe.py, ohne Modell); „ähnliche“ und Themen über das
+  Register; Lernblatt nur „nach Jesse S. n/k“ – gleiche Aufgabe,
+  andere Zahlen, eigener Text, sauber gesetzt (Abstand wie die
+  Beispiele 17.10., Lehrer: „passt“); Aufbau je Lerneinheit als
+  Vergleich zum Lernweg. Das Register ist Werkzeug, kein viertes
+  Objekt (Linie 1). Jesse ist Gymnasium: Muster, nicht Maß der Höhe.
+  Weitere Bücher erst nach einem Vergleich Lernblatt mit/ohne Buch.
 
 ## 11 Register der Entscheidungen
 
