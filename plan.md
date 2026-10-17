@@ -939,6 +939,13 @@ spart, Texterkennung der Scans ist der größte Posten.
 Zuschnitt Scans und Themenregister (17.10., Chat Abitur 1,
 Opus-Agent): 0,24 Mio, 18 min (Schätzung 0,2 Mio / 2 Punkte);
 Anzeige 56 → 57 % mit Nebenchats. Schätzung hält.
+Wortlaut GK, 9 Hefte (17.10., Chat Abitur 2): Sonnet 5 Läufe
+(2017–2021) 0,61 Mio, Opus 5 Läufe (2022–2025, einer verloren)
+0,68 Mio, zusammen 1,29 Mio Agenten-Token, Wanduhr 24 min (15:20–
+15:44). Schätzung 1,65 Mio / ≈ 3 Punkte / 60 min; Anzeige 57 → 59 %
+mit Nebenchats. Schätzung hält, Wanduhr zu hoch geschätzt. Regel:
+Agenten, die Seiten rendern, schreiben in einen eigenen Ordner, nie
+nach /tmp (2022: fremde Seiten gesehen, ein Lauf verloren).
 
 ## 9 Später
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
