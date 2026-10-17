@@ -1030,6 +1030,9 @@ Gruppen laufen parallel in 1–2 min.
 VERA-8-Register (17.10., Chat Stochastik 1): Sonnet 5 Läufe ≈ 0,86
 Mio, 15 min (Schätzung 0,8 Mio / ≈ 1 Punkt); Anzeige 64 → 64 % mit
 Nebenchats. Schätzung hält (unter einem Punkt).
+VERA-8-Buch (Skript) und Fehlerkatalog (17./18.10., Chat Stochastik
+1): Sonnet 5 Läufe ≈ 1,1 Mio; Anzeige 64 → 69 % mit Nebenchats über
+Nacht (eigener Anteil ≈ 1 Punkt, Rest andere Chats; nicht trennbar).
 Buch FHR (17.10., Chat FHR 1): Sonnet 0,18 Mio, 6 min (Schätzung
 0,3 Mio / 30–40 min; digitale Hefte, kein Scan). Probe Lösungsweg
 Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
