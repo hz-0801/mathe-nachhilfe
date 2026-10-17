@@ -196,6 +196,12 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   [17.10. abends (Lehrer, Chat FHR 1, § 10 17.10. p): nicht mehr
   zurückgestellt – alle weiteren Scans verwerten, auch Stochastik
   Jung und Stark (Teil 1), in einem neuen Chat Bau („Start.“).]
+  [17.10. erledigt (Chat Stochastik 1, Strom A): Jung und Stark mit
+  Register, Katalog-Zuordnung und Drive Mathe/Bücher („Übungsbuch Sek
+  II StudyHelp Stochastik“, 58 S., 246 Zeilen, keine Übungsaufgaben;
+  „Übungsbuch Sek II Stark Stochastik“, 168 S., 607 Zeilen, 148
+  Aufgaben mit Lösungsseite). Sonnet ≈ 2,7 Mio, 50 min. Blass: Stark
+  Lösungen S. 120/121, 126/127. Weitere Scans liegen nicht vor.]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
@@ -976,6 +982,12 @@ Buch Abitur LK (17.10., Chat Abitur 2, Sonnet-Agent): 0,16 Mio,
 (Anteil des Buchs nicht trennbar). Schätzung hält.
 
 ## 9 Später
+- Katalog Sek II Stochastik ergänzen (Chat Stochastik 1, 17.10.):
+  Stark und Jung fanden keine Lerneinheit für Ereignisalgebra/Mengen,
+  relative Häufigkeit und Gesetz der großen Zahlen, Galton-Brett,
+  Standardisieren/Moivre-Laplace, stetige Zufallsgrößen mit Dichte,
+  Alternativtest; zugeordnet „ersatzweise“ (aufgabenbank-privat
+  buecher/stark/katalog.csv, jung/katalog.csv). Vor Abitur/FHR.
 - Eigenes Arbeitsheft Kl. 6 nach Mathematik plus 6 (Lehrer 17.10.,
   Chat Bau 5: „so nah wie möglich“), nach P10. Warum: Das Heft ist
   beschrieben und unvollständig, sein Aufbau passt aber für Schüler
