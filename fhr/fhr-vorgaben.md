@@ -33,6 +33,8 @@ Vorgabencheck (§ 4) steht aus.
   Umfang). Bestätigt: beide Dateien geholt (je 2 Seiten), keine weiteren
   Jahrgänge im Verzeichnis (Prüfung 2026-09-24).
 - Rundschreiben des MBJS zu Terminen und Fristen: Ordner `Pruefungstermine/`,
+  Termin 2027 (Anlage 2, S. 125): Mathematik Fr 21.05.2027, 9 Uhr;
+  Nachprüfung 11.06.2027 (gelesen 17.10.2026, Chat FHR 1).
   zuletzt `MBJS_RS_07-26.pdf` vom 25.06.2026 (nennt die Ersatzaufgabe nach
   § 31 Absatz 1 FOSFHRV; fhr.md § 4). Bestätigt: MBJS_RS_07-26.pdf, S. 1
   (Datum) und Ziff. 1.1.2 (Ersatzaufgabe) (Prüfung 2026-09-24).
