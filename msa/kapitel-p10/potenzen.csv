@@ -1,0 +1,13 @@
+id;kapitel;abschnitt;folge;deckt;gruppe;vorspann;wortlaut;grafik;form;karo;loesung
+2020-OS-B1h;Potenzen;;1;2020-OS-B1h;;;Gib die Zahl $x$ an, für die die Gleichung $2^x = 16$ gilt.;;karo+werte:x;3;2⁴ = 16 ⇒ x = 4
+2024-OS-B1g;Potenzen;;2;2024-OS-B1g;;;Gib den Wert für $x$ an, so dass gilt: $4^x = 256$.;;karo+werte:x;3;4⁴ = 256 ⇒ x = 4
+2019-OS-B1d;Potenzen;;3;2019-OS-B1d;;;Unterstreiche die größte Zahl: $4^3$, \quad $8^4$, \quad $2^8$.;;karo;5;"4³ = 64; 8⁴ = 4096; 2⁸ = 256 ⇒ 8⁴"
+2017-OS-B1e;Potenzen;;4;2017-OS-B1e;;;Kreuze die kleinste Zahl an: $-0{,}01$ / $-10^3$ / $-10^2$ / $-0{,}1$.;;ankreuzen;;−10³ (zweite Option)
+2022-OS-B1j;Potenzen;;5;2022-OS-B1j;;;"Setze das richtige Zeichen ($<$, $=$, $>$) ein: \quad $2^{-5}\;\square\;0{,}25$";;karo;4;2⁻⁵ = 1/32 ≈ 0,031 ⇒ 2⁻⁵ < 0,25
+2017-OS-B1g;Standardschreibweise;;1;2017-OS-B1g;;;Schreib die Zahl $100\,000$ als Zehnerpotenz.;;karo+linie:100 000;3;100 000 = 10⁵
+2016-OS-B1h;Standardschreibweise;;2;2016-OS-B1h;;;Gib $8{,}5 \cdot 10^5$ ohne abgetrennte Zehnerpotenz an.;;karo+linie:;3;8,5 · 10⁵ = 8,5 · 100 000 ⇒ 850 000
+2025-OS-B1d;Standardschreibweise;;3;2025-OS-B1d;;;Gib den Exponenten der Zehnerpotenz so an, dass die Gleichung stimmt: $850\,000 = 8{,}5 \cdot 10^{\square}$;;karo+werte:Exponent;3;850 000 = 8,5 · 100 000 ⇒ Exponent = 5
+2015-OS-K3b;Standardschreibweise;;4;2015-OS-K3b;;;Welcher Zahl entspricht $9{,}46 \cdot 10^{12}$? Kreuze an: $94\,600\,000\,000\,000$ / $9\,460\,000\,000\,000$ / $946\,000\,000\,000\,000$.;;ankreuzen;;9 460 000 000 000 (zweite Option)
+2019-OS-B1j;Standardschreibweise;;5;2019-OS-B1j;;;Gib $2{,}1 \cdot 10^{-4}$ als Dezimalzahl an.;;karo+linie:;3;2,1 · 0,0001 ⇒ 0,00021
+2015-OS-K3a;Standardschreibweise;;6;2015-OS-K3a;;;Die Entfernung zwischen Sternen kann in Lichtjahren angegeben werden. Ein Lichtjahr ist die Strecke, die das Licht in einem Jahr zurücklegt. Es gilt: 1 Lichtjahr = $9\,460\,000\,000\,000$ km. Gib an, wie viele Kilometer 100 Lichtjahren entsprechen.;;karo+linie:100 Lichtjahre;4;100 · 9 460 000 000 000 km ⇒ 946 000 000 000 000 km
+2015-OS-B1j;Wurzeln;;1;2015-OS-B1j;;;Kreuze die wahre Aussage an: $\sqrt{(-4)^2} = -4$ / $\sqrt{(-4)^2} = +4$ / $\sqrt{(-4)^2}$ ist nicht definiert.;;ankreuzen;;+4 (zweite Option)
