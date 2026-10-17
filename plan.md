@@ -1595,6 +1595,15 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   Funktionswert aus einem selbst aufgestellten Modell zählt als
   Modell; ist die Gleichung gegeben, bleibt es Punkte und
   Funktionswerte.
+- 17.10.2026 (h): CAS/MMS im Buch der Abiturprüfungen (Lehrer, Chat
+  Abitur 1). Warum: Wer mit CAS/MMS schreibt, soll an der Teilaufgabe
+  sehen, ob seine Fassung anders lautet. Beispiel: 2017/2018 be-gk –
+  bei 1.1 a „CAS-Fassung abweichend“ (Zeilen 2017-be-gk-cas im
+  Katalog). Grenze: nur wo die CAS-Fassung vorliegt – amtlich bis
+  2018 (Bildungsserver), danach nur Poolaufgaben über die
+  MMS-Fassung des IQB-Pools (frei); STARK kennzeichnet nichts
+  (geprüft 17.10.: 2019–2021 und 2026 kein Treffer „CAS“/„MMS“,
+  abi-pruefungen.md § 4). Vermerk erst mit dem Lösungslauf.
 
 ## 11 Register der Entscheidungen
 
