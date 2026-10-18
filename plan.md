@@ -259,13 +259,14 @@ D FHR (Chat FHR, ab 17.10. abends; übernimmt „Buch FHR“ aus B):
   Bildungsserver), Lösungen = amtlicher Erwartungshorizont hinten;
   werkzeuge/fhrbuch.py. Sonnet 0,18 Mio, 6 min.]
   [18.10.: Ansatzsammlung Kurvendiskussion abgelegt, § 10 18.10. a.]
-  Jetzt (§ 10 17.10. s, 18.10. a; Lehrer 18.10.: Muster schreibt
-  Claude, Lehrer korrigiert), in dieser Folge: (1) Lösung FHR 2026 C
-  Aufgabe 1 a–f streng entlang fhr/loesung/ansaetze-kurvendiskussion
-  als Muster-Entwurf, PDF zum Kommentieren; korrigiert gilt sie als
-  Muster der Art Kurvendiskussion; (2) Übertrag auf eine zweite
-  Kurvendiskussion (Abitur GK, Kern aus zuordnung-kurvendiskussion
-  .csv); (3) Ansatzsammlung Integral und Flächen im selben Kasten.
+  [18.10. erledigt: Muster Kurvendiskussion Fassung 5
+  (fhr/loesung/muster-kurvendiskussion.*); Ansatzsammlung je Zeile
+  mit Grenze → Ersatz (§ 10 18.10. b; Chat FHR 2).]
+  Jetzt (§ 10 18.10. b), in dieser Folge: (1) Pilot FHR 2026 C, alle
+  drei Aufgaben, als Daten je Teilaufgabe + Setzer in der Form von
+  Fassung 5, Verbrauch messen; (2) Übertrag auf eine Kurvendiskussion
+  Abitur GK (Kern aus zuordnung-kurvendiskussion.csv); (3)
+  Ansatzsammlung Integral und Flächen im selben Kasten.
   Offen: FHR beim amtlichen Erwartungshorizont lassen (Vorschlag ja);
   Pilot Lösungen Abitur GK 2026 mit Messung; Kern/Nebendinge im
   Kasten (zwei Töne).
