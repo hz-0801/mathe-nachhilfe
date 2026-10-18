@@ -1968,6 +1968,20 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   wird meist schlecht. Umsetzung als Daten je Teilaufgabe + Setzer,
   Pilot FHR 2026 C (alle drei Aufgaben) mit Messung.
 
+- 18.10.2026 (c): Folge im Abschnitt eines Kapitelblatts (Lehrer, Weg B
+  mit Trennzeile und Sternchen zuletzt; Chat Durchsicht P10 6). Warum:
+  Wer nicht alles schafft, soll das Junge gesehen haben – die letzten
+  fünf Jahre zeigen am ehesten, wie 2027 gefragt wird; und ein EBR-
+  Schüler soll bis zur ersten Sternchenaufgabe rechnen und dort
+  aufhören können, statt mittendrin zu überspringen. Folge: erst
+  2022–2026, dann nach einer feinen grauen Linie mit grauer Zeile der
+  Jahre („2014–2021“) die älteren; in jeder Reihe erst ohne, dann mit
+  Sternchen (nur FOR); darin leicht → schwer wie bisher. Teile eines
+  Originals bleiben zusammen; maßgeblich ist das jüngste Jahr der
+  vertretenen Originale. Grenze: Abschnitte unter 6 Aufgaben haben
+  nur eine Reihe, dort nur Sternchen zuletzt. Umsetzung:
+  aufgabenbank werkzeuge/kapitelblatt.py reihen().
+
 ## 11 Register der Entscheidungen
 
 Weg B (Lehrer 10.10.): je Zeile Datum · Kurzname → wo der Wortlaut
