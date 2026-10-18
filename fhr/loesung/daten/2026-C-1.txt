@@ -1,0 +1,63 @@
+# 1 Differentialrechnung | FHR 2026 C · Lösung
+f: $f(x)=-6x^5+18{,}75x^4+20x^3-90x^2$
+bez: $x_N$ Nullstelle · $x_E$ Extremstelle · $x_W$ Wendestelle · $x_S$ Sattelstelle
+
+a) Welche Abbildung zeigt $G_f$?
+? Verhalten im Unendlichen?
+> $\lim f(x)=\lim\,(-6x^5)$
+| $\lim\limits_{x\to-\infty}f(x)=+\infty$; \ $\lim\limits_{x\to+\infty}f(x)=-\infty$ => Abb. 2 und 4 nicht
+? Verläuft $G_f$ durch den Ursprung?
+> $f(0)\overset{?}{=}0$
+| $f(0)=0$ => Abb. 1 nicht
+| => **Abbildung 3**
+
+b) (I) Nicht punktsymmetrisch zum Ursprung?
+> nur ungerade Exponenten $\Rightarrow$ punktsymmetrisch zu $O$
+| Exponenten 5, 4, 3, 2 – auch gerade => (I) **wahr**
+? (II) Liegen alle Nullstellen auf der $y$-Achse?
+> $f(a)>0$, $f(b)<0$ $\Rightarrow$ Nullstelle zwischen $a$ und $b$
+| $f(-3)=1626{,}75>0$; \ $f(-1)=-85{,}25<0$ => $x_N$ zwischen $-3$ und $-1$
+| => (II) **falsch**
+? (III) Wechselt die Krümmung öfter als die Monotonie?
+> Monotonie wechselt an Extremstellen, Krümmung an Wendestellen
+| 2 Extremstellen (e), 3 Wendestellen (f) => (III) **wahr**
+
+c) Ableitungen?
+! $f'(x)=-30x^4+75x^3+60x^2-180x$
+! $f''(x)=-120x^3+225x^2+120x-180$
+! $f'''(x)=-360x^2+450x+120$
+
+d) Welcher Punkt liegt auf $G_f$?
+> $y_P\overset{?}{=}f(x_P)$
+| $f(3)=-209{,}25\neq-200$ => $A\notin G_f$
+| $f(-2)=-28$ => **$B\in G_f$**
+? Tangente in $B$?
+> $t(x)=mx+n$ \ mit \ $m=f'(x_B)$, \ $t(x_B)=y_B$
+| $m=f'(-2)=-480$
+| $-480\cdot(-2)+n=-28$ => $n=-988$
+| => **$t(x)=-480x-988$**
+
+e) Anstieg null bei $x=-1{,}5$; \ $0$; \ $2$?
+> $f'(x)\overset{?}{=}0$
+| $f'(-1{,}5)=f'(0)=f'(2)=0$ => ja
+? Extrem- oder Sattelpunkte?
+> $f''<0$ Hochpunkt, \ $f''>0$ Tiefpunkt, \ $f''=0$ und $f'''\neq0$ Sattelpunkt
+| $f''(-1{,}5)=551{,}25>0$; \ $f(-1{,}5)\approx-129{,}52$ => Tiefpunkt **$T(-1{,}5\,|\,{-129{,}52})$**
+| $f''(0)=-180<0$; \ $f(0)=0$ => Hochpunkt **$H(0\,|\,0)$**
+| $f''(2)=0$; \ $f'''(2)=-420\neq0$; \ $f(2)=-92$ => Sattelpunkt **$S(2\,|\,{-92})$**
+? Monotonie?
+> Vorzeichen von $f'$ zwischen den Stellen
+~ -1,5/x_{E1}, 0/x_{E2}, 2/x_S ; -/fällt, +/steigt, -/fällt, -/fällt
+| => **fällt** für $x\le-1{,}5$
+| => **steigt** für $-1{,}5\le x\le0$
+| => **fällt** für $x\ge0$
+
+f) Wendepunkte?
+> $f''(x_W)=0$ \ und \ $f'''(x_W)\neq0$
+| $f''(2)=0$ \g{(raten)} => $x_{W1}=2$
+| $f''(x):(x-2)=-120x^2-15x+90$ \g{(Division)}
+| $x^2+0{,}125x-0{,}75=0$ \g{(pq-Formel)} => $x_{W2}\approx-0{,}93$; \ $x_{W3}\approx0{,}81$
+| $f'''(-0{,}93)\approx-610{,}7$; \ $f'''(0{,}81)\approx248{,}9$ => alle drei: Wendestellen \g{(2 aus e)}
+? Koordinaten?
+> $W(x_W\,|\,f(x_W))$
+! $W_1(2\,|\,{-92})$ \g{(= $S$)}, \quad $W_2(-0{,}93\,|\,{-75{,}83})$, \quad $W_3(0{,}81\,|\,{-42{,}11})$
