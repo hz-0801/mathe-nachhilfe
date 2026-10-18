@@ -1952,6 +1952,16 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   sauberen Spalten, Einrücken, Grau für Nebensachen, Fett für
   Ergebnisse. Grenze: Kürzen ohne Inhaltsverlust (eˣ-Regel bleibt);
   Kern und Nebendinge evtl. trennen; Steckbrief ist eigene Art.
+- 18.10.2026 (b): Muster Kurvendiskussion = Fassung 5 (Lehrer, Chat
+  FHR 1): je Teilfrage schwarz unterstrichen mit „?“, darunter Ansatz
+  in allgemeiner Form, dann Zeilen „Rechnung ⇒ Schluss“, Unterfrage
+  eingerückt; gleichartige Prüfungen in einer Zeile. Ansatzsammlung
+  bekommt je Zeile Grenze und Ersatz (z. B. f″(x_E) = 0 ⇒ VZW von f′;
+  „höchste Potenz“ nur ganzrational). Freiheit (Lehrer 18.10.): Die
+  Sammlung leitet, sie zwingt nicht; passt ein Ansatz nicht, nimmt
+  Claude den passenden und sagt es nicht eigens. Warum: Erzwungenes
+  wird meist schlecht. Umsetzung als Daten je Teilaufgabe + Setzer,
+  Pilot FHR 2026 C (alle drei Aufgaben) mit Messung.
 
 ## 11 Register der Entscheidungen
 
