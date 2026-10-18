@@ -1,9 +1,11 @@
-# Übergabe verbessereBlaetter – 2026-10-18 (Chat „Stochastik 1“, Strom A Bau, Opus)
+# Übergabe verbessereBlaetter – 2026-10-18
+
+Chat „Stochastik 1“ (Strom A Bau, Opus).
 
 Vorherige Übergabe: archiv/uebergabe-2026-10-17-bau5.md. Nach plan.md
 Linie 8 kein eigener nächster Schritt. Entscheidungen nur aus plan.md
-§ 10 (neu: 17.10. r). Daneben laufen Durchsicht (uebergabe-durchsicht.md),
-Abitur (uebergabe-abitur.md), FHR (uebergabe-fhr.md).
+§ 10 (neu: 17.10. r). Daneben laufen Durchsicht
+(uebergabe-durchsicht.md), Abitur (uebergabe-abitur.md), FHR (uebergabe-fhr.md).
 
 ## 1 Ziel
 
@@ -13,8 +15,9 @@ zieht; Register zum Finden von Frageformen, Handgriffen, Schweren.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 Überblick (Strom A) und § 9 „Später“ (vier neue Zeilen
-  vom 18.10.: VERA übernehmen, Bilder, Niedersachsen, Katalog Unterstufe).
+- plan.md § 7 Überblick (Strom A) und § 9 „Später“ (vier neue
+  Zeilen vom 18.10.: VERA übernehmen, Bilder, Niedersachsen,
+  Katalog Unterstufe).
 - aufgabenbank-privat buecher/README.md (alle Register), ablauf.md
   (Ablauf je Buch, Lehren 17.10.), vera8/ und fremd/ (Aufträge darin).
 - aufgabenbank bau/proben/2026-10-18/vera8/ (README, auftrag.md,
