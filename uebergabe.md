@@ -1,64 +1,66 @@
-# Übergabe verbessereBlaetter – 2026-10-17 (Chat „Bau 5“, Opus)
+# Übergabe verbessereBlaetter – 2026-10-18 (Chat „Stochastik 1“, Strom A Bau, Opus)
 
-Vorherige Übergabe: archiv/uebergabe-2026-10-17-bau4.md. Nach
-plan.md Linie 8 kein eigener nächster Schritt. Entscheidungen nur
-aus plan.md § 10 (17.10. i neu; Abitur-Chat: 17.10. h, j). Daneben
-laufen „Durchsicht P10“ (uebergabe-durchsicht.md) und „Abitur 1“
-(uebergabe-abitur.md).
+Vorherige Übergabe: archiv/uebergabe-2026-10-17-bau5.md. Nach plan.md
+Linie 8 kein eigener nächster Schritt. Entscheidungen nur aus plan.md
+§ 10 (neu: 17.10. r). Daneben laufen Durchsicht (uebergabe-durchsicht.md),
+Abitur (uebergabe-abitur.md), FHR (uebergabe-fhr.md).
 
 ## 1 Ziel
 
-P10 fertig und verbessert, Abitur GK aus Daten; Bank als Vorrat für
-schnelle allgemeine Arbeitsblätter, Buchregister als Werkzeug dafür
-(plan.md § 10, 17.10. i).
+Bank und Register als Vorrat für schnelle allgemeine Blätter, nicht nur
+P10: Originalaufgaben mit geprüfter Lösung, die der Setzer ohne Modell
+zieht; Register zum Finden von Frageformen, Handgriffen, Schweren.
 
 ## 2 Arbeitsgrundlage
 
-- plan.md § 7 „Jetzt Durchsicht/P10“, Schritte 2–5 (Stand Bau 5).
-- aufgabenbank-privat buecher/ablauf.md (Ablauf je Buch, neu § 6
-  „nach Buch bauen“ und Lehren), buecher/README.md (fünf Bücher),
-  werkzeuge/buch-katalogliste.py (Zuordnungslisten ohne Modell).
-- Muster „nach Buch“: aufgabenbank bau/proben/2026-10-17/nach-ah6-2-1
-  (Kennung B7N, Lehrer: „passt“), bestellbar als „Brüche addieren
-  Klasse 6“.
+- plan.md § 7 Überblick (Strom A) und § 9 „Später“ (vier neue Zeilen
+  vom 18.10.: VERA übernehmen, Bilder, Niedersachsen, Katalog Unterstufe).
+- aufgabenbank-privat buecher/README.md (alle Register), ablauf.md
+  (Ablauf je Buch, Lehren 17.10.), vera8/ und fremd/ (Aufträge darin).
+- aufgabenbank bau/proben/2026-10-18/vera8/ (README, auftrag.md,
+  vera-pruef.py).
 
 ## 3 Arbeitsstand
 
-- Erledigt 17.10. (Bau 5): Register und Katalog-Zuordnung Duden 9
-  (358 Aufgaben), Zahlen und Größen 7 Arbeitsheft (201), Mathematik
-  plus 6 Arbeitsheft Teil 1 (159); alle in Drive Mathe/Bücher.
-  Probe B7N in Bank (36 Zeilen) und Katalog (bruchrechnung,
-  Lernweg Lerneinheit 1). Übergabe für den Chat Abitur 1.
-- Gescannt und offen: nur Stochastik Jung und Stark (Sek II,
-  zurückgestellt, Lehrer 17.10.; Stark Teil 2 ist leer). Weitere
-  Hefte liegen im Ordner „bücher scanns“ nicht.
-- Offen beim Lehrer: Arbeitsheft 6 Teil 2 (Datei ist Kopie von
-  Klasse 7 Teil 2; neuer Scan nur bei Bedarf); Jesse neu scannen.
-- Keine Agenten laufen.
+- Erledigt 17./18.10.:
+  - Stochastik Jung (58 S., keine Übungsaufgaben) und Stark (168 S.,
+    148 Aufgaben mit Lösungsseite): Register, Katalog, Drive
+    „Übungsbuch Sek II StudyHelp/Stark Stochastik“.
+  - VERA-8 (IQB, CC BY): Register 509 Teilaufgaben, Fehlerkatalog
+    708 Zeilen, Drive „Originalprüfungen VERA-8“ + „– Lösungen“
+    (werkzeuge/verabuch.py, ohne Modell), Bankzeilen-Probe 510 Zeilen
+    (317 setzbar, 193 ruhen: Bild fehlt oder Sperre P10-Original).
+  - Länderprüfungen: Register 21 Reihen, 3 965 Teilaufgaben, Punkte,
+    Lizenz je Reihe (buecher/fremd/lizenz.csv).
+- Keine Agenten laufen. Keine Scans offen; Klasse-8-Buch fehlt noch.
 
 ## 4 Rahmen und Messwerte
 
-- Woche 56 % (17.10. ≈ 14 Uhr, mit zwei Nebenchats), Reset Mo
-  18:00. Bau 5 ≤ 2 Punkte: 24 Sonnet-Läufe ≈ 2,7 Mio, Probe Opus
-  0,19 Mio (34 min). Schätzen nach Token: ≈ 0,11 Mio je 12 Seiten,
-  ≈ 1,35 Mio Sonnet je Punkt (plan.md § 8).
+- Lehrer 18.10.: Kontingent nutzen, mehr je Runde erledigen (§ 10 r);
+  nicht alles nur auf P10 prüfen – allgemeine Blätter zählen.
+- Woche 71 % (18.10. ≈ 01:30), Reset Mo 18:00; geplant für Durchsicht
+  ≈ 14 Punkte. Messwert: Sonnet ≈ 2 Mio je Wochenpunkt (§ 8, 18.10.),
+  höchstens 20 Agenten gleichzeitig.
+- Lizenz: Wortlaut nur VERA (CC BY, bearbeitet kennzeichnen) und
+  Niedersachsen (frei, unverändert mit Quelle); sonst „nach Original“.
+  VERA-Bilder nicht alle frei.
+- Sperre P10-Original gilt auch für VERA-Zeilen (Kleinigkeit Claude,
+  18.10.: Zeile ruht, Wortlaut bleibt).
+- LibreOffice: je Word-Datei ein Aufruf, Profil MathTypeToMath=false,
+  sonst zerfallen die Formeln (verabuch.py, Kopf).
 - Grenze von Claude, nicht Linie des Lehrers: kein Nachbau von
-  Verlagsheften Aufgabe für Aufgabe; „nach Buch“ heißt gleiche Folge,
-  Handgriffe, Frageformen, Schwere, eigener Wortlaut, Zahlen, Bilder.
-  So benennen, nie als Entscheidung des Lehrers anführen.
-- Handschrift im Arbeitsheft 6 lässt sich per Farbfilter nicht sauber
-  entfernen (probiert); das Register enthält sie nicht.
-- Rechner: Ordner „bücher scanns“ und Drive „Meine Ablage/Mathe/
-  Bücher“ je Chat neu freigeben lassen; Ablage per SendUserFile und
-  device_commit_files (fileUuid).
+  Verlagsheften Aufgabe für Aufgabe.
+- Rechner: „bücher scanns“ und „Meine Ablage“ je Chat freigeben
+  (device_request_folder_access, Lehrer sagt „greife darauf zu“).
 
 ## 5 Offen und Verworfenes
 
-- Abitur: vier Fragen aus befunde-M5 ruhen bis zum Gespräch über das
-  Abitur (Lehrer 17.10.: Abitur unterscheidet sich deutlich von P10).
-- Verworfen: Arbeitsheft 6 mit Handschrift entfernen (Druck leidet);
-  Heft „so nah am Original“ als Nachbau (siehe Rahmen).
+- Vorschläge für die nächste Runde (je mit Go): Niedersachsen-Prüfungen
+  als Bankzeilen wie VERA; VERA-Probe in die Bank übernehmen (Muster
+  zeigen); Bilder entscheiden; Katalog Unterstufe ergänzen.
+- Verworfen: Wortlaut aus OCR (Pilot fehlerhaft), Formeln über MathType-
+  Umwandlung (zerstört).
 
 ## 6 Nächster Arbeitsschritt
 
-plan.md § 7 („Jetzt Durchsicht/P10“; Stand Bau 5).
+plan.md § 7 (Strom A) und § 9 „Später“.
