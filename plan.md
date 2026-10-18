@@ -1044,6 +1044,10 @@ Nebenchats. Schätzung hält (unter einem Punkt).
 VERA-8-Buch (Skript) und Fehlerkatalog (17./18.10., Chat Stochastik
 1): Sonnet 5 Läufe ≈ 1,1 Mio; Anzeige 64 → 69 % mit Nebenchats über
 Nacht (eigener Anteil ≈ 1 Punkt, Rest andere Chats; nicht trennbar).
+VERA-Bankzeilen (12 Läufe) und Länderregister (21 Läufe) (18.10.,
+Chat Stochastik 1): Sonnet ≈ 8 Mio, 01:00–01:20; Anzeige 67 → 71 %.
+Schätzung 7 Punkte, gemessen 4: Sonnet ≈ 2 Mio je Punkt (bisher
+1,35 angenommen); PDF-Lesen als Bild kostete weniger als befürchtet.
 Buch FHR (17.10., Chat FHR 1): Sonnet 0,18 Mio, 6 min (Schätzung
 0,3 Mio / 30–40 min; digitale Hefte, kein Scan). Probe Lösungsweg
 Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
