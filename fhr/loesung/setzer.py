@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Setzer Lösungen Sek II: Daten je Teilaufgabe -> LaTeX (xelatex).
 
-Aufruf: python setzer.py daten/2026-C-1.txt [ziel.tex]
+Aufruf: python setzer.py daten/2026-C-1.txt [ziel.tex] [--hinweise]
+--hinweise: nur Fragen und Ansätze (Hinweisblatt vor der Lösung).
 Form: plan.md § 10 18.10. b (Frage mit „?“, Ansatz in allgemeiner
 Form, Zeilen „Rechnung ⇒ Schluss“, Unterfrage); ⇒ in einer Spalte.
 
@@ -71,7 +72,7 @@ def zahlenstrahl(spec):
     return " ".join(t)
 
 
-def setze(zeilen):
+def setze(zeilen, hinweise=False):
     out = [KOPF]
     offen = False
     erste = True
@@ -88,6 +89,8 @@ def setze(zeilen):
             continue
         if z.startswith("# "):
             titel, _, rechts = z[2:].partition("|")
+            if hinweise:
+                rechts = rechts.replace("Lösung", "Hinweise")
             out.append(rf"{{\large\bfseries {titel.strip()}}}\hfill\g{{{rechts.strip()}}}\par")
             out.append(r"\vspace{2pt}\hrule height 1.2pt\vspace{5pt}")
             continue
@@ -108,6 +111,8 @@ def setze(zeilen):
             out.append(rf"\textbf{{{m.group(1)})}} & \multicolumn{{4}}{{l@{{}}}}{{{fett(m.group(2))}}}\\")
             continue
         kind, text = z[0], z[1:].strip()
+        if hinweise and kind in "|!~":
+            continue
         if kind == "?":
             out.append(rf"\rule{{0pt}}{{16pt}}& \multicolumn{{4}}{{l@{{}}}}{{{fett(text)}}}\\")
         elif kind == ">":
@@ -131,10 +136,12 @@ def setze(zeilen):
 
 
 if __name__ == "__main__":
-    quelle = sys.argv[1]
-    ziel = sys.argv[2] if len(sys.argv) > 2 else re.sub(r"\.txt$", ".tex", quelle)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    hinweise = "--hinweise" in sys.argv
+    quelle = args[0]
+    ziel = args[1] if len(args) > 1 else re.sub(r"\.txt$", ".tex", quelle)
     with open(quelle, encoding="utf-8") as fh:
-        tex = setze(fh)
+        tex = setze(fh, hinweise)
     with open(ziel, "w", encoding="utf-8") as fh:
         fh.write(tex)
     print(ziel)
