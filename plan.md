@@ -222,6 +222,10 @@ A Bücher – Chat Bau (uebergabe.md). Fertig mit Register, Katalog und
   P10-Original; vera-pruef.py ohne Befund); Register Länderprüfungen
   (aufgabenbank-privat buecher/fremd/, 21 Reihen, 3 965 Teilaufgaben,
   Lizenz je Reihe; Wortlaut nur Niedersachsen frei). Sonnet ≈ 8 Mio.]
+  [18.10. Go Lehrer (§ 10 18.10. d, Chat Bau 6): VERA-8 vollständig
+  in die Bank, voller Wortlaut aus den Word-Originalen, Kurzfassung
+  daneben, ruhende Zeilen mit; danach Vorschlag für Bücher und
+  Länderprüfungen.]
 B Originalprüfungen – Chat Abitur (uebergabe-abitur.md). Fertig: P10
   als Buch mit Lösungen in Drive (184 S.); Abitur GK als Buch ohne
   Lösungen in Drive (112 S.); Wortlaut GK 2026. Bis Montag: Wortlaut
@@ -1055,10 +1059,8 @@ Sek II, vier Fassungen und Schema im Chat (Opus) ohne Agent; Anzeige
 im Chat nicht abgelesen.
 
 ## 9 Später
-- VERA-Probe in die Bank übernehmen (Chat Stochastik 1, 18.10.): wohin
-  (bank/<eintrag>/ als eigene Zeilen „fremd“ oder eigene Datei), gekürzte
-  Stämme als „bearbeitet“ kennzeichnen, aus Bildern gelesene Werte
-  prüfen. Vorher Muster beim Lehrer.
+- VERA-Probe in die Bank übernehmen: läuft 18.10. (§ 10 18.10. d,
+  Chat Bau 6), siehe § 7 A.
 - Original-Bilder (VERA, Niedersachsen): 193 VERA-Zeilen ruhen nur wegen
   des Bildes; Bilder sind nicht alle frei (Adobe Stock). Entscheidung:
   Bilder je Bild prüfen und einbinden oder nachzeichnen.
@@ -1981,6 +1983,18 @@ archiv/ziel-2026-10-09.md § 3–4 übernehmen.
   vertretenen Originale. Grenze: Abschnitte unter 6 Aufgaben haben
   nur eine Reihe, dort nur Sternchen zuletzt. Umsetzung:
   aufgabenbank werkzeuge/kapitelblatt.py reihen().
+- 18.10.2026 (d): Alles Verwertete wird für die Bank nutzbar (Lehrer,
+  Chat Bau 6: „alles nutzbar machen für später“, „warum nicht
+  beides“). Warum: Gekürzt geht das Original verloren, aus dem
+  Original lässt sich jede Kurzform machen. Freie Originale (VERA,
+  später Niedersachsen) kommen vollständig mit Wortlaut in die Bank;
+  eine Kurzfassung steht daneben (aufgabe_kurz, „bearbeitet“);
+  Zeilen, die ein unfreies Bild brauchen oder unter die Sperre
+  P10-Original fallen, kommen mit „ruht“ hinein, damit sie nach der
+  Klärung sofort setzbar sind. Denkfehler (fallen) bleiben je
+  Zeile; ob sie aufs Lösungsblatt kommen, entscheidet das Blatt.
+  Verlagsbücher und Länderprüfungen ohne freien Wortlaut: Weg folgt
+  (Chat Bau 6). Ersetzt den Vorbehalt „vorher Muster“ in § 9.
 
 ## 11 Register der Entscheidungen
 
