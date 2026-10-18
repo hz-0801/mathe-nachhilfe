@@ -1,6 +1,7 @@
 # 1 Differentialrechnung | FHR 2026 C · Lösung
 f: $f(x)=-6x^5+18{,}75x^4+20x^3-90x^2$
 bez: $x_N$ Nullstelle · $x_E$ Extremstelle · $x_W$ Wendestelle · $x_S$ Sattelstelle
+@ -6*x^5+18.75*x^4+20*x^3-90*x^2 | -2.4:2.8 | -150:40 | T(-1.5|-129.52) H(0|0) S(2|-92) W_2(-0.93|-75.83) W_3(0.81|-42.11) | aufgabe
 
 a) Welche Abbildung zeigt $G_f$?
 ? Verhalten im Unendlichen?

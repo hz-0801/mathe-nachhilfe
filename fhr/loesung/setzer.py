@@ -16,6 +16,11 @@ Zeilen der Datei (LaTeX-Text, Formeln in $…$):
   | Rechnung => Schluss Zeile (=> und Schluss oder Rechnung dürfen fehlen)
   ! Ergebnis            Ergebniszeile, fett, über Rechnung und Schluss
   ~ 1/x_1, 2/x_2 ; -/fällt, +/steigt, -/fällt   Zahlenstrahl
+  @ Term | xmin:xmax | ymin:ymax | T(-1.5|-129.52) H(0|0) [| aufgabe]
+                        Skizze am Anfang (Term in pgf-Schreibweise, Punkte
+                        mit Dezimalpunkt); auf dem Hinweisblatt nur, wenn die
+                        Aufgabe selbst einen Graphen zeigt (| aufgabe), dann
+                        ohne Punkte
   **…**                 fett (auch Formeln)
 """
 import re
@@ -26,7 +31,8 @@ KOPF = r"""\documentclass[11pt,a4paper]{article}
 \setmainfont{DejaVu Sans}[Scale=0.9]
 \usepackage{amsmath,amssymb}
 \usepackage[left=16mm,right=16mm,top=14mm,bottom=14mm]{geometry}
-\usepackage{xcolor,array,tabularx,tikz}
+\usepackage{xcolor,array,tabularx,tikz,pgfplots}
+\pgfplotsset{compat=1.17}
 \definecolor{grau}{gray}{0.45}
 \definecolor{linie}{gray}{0.8}
 \pagestyle{empty}
@@ -72,6 +78,29 @@ def zahlenstrahl(spec):
     return " ".join(t)
 
 
+def skizze(spec, punkte_zeigen):
+    teile = [s.strip() for s in re.split(r"\s\|\s", spec)]
+    term, xb, yb = teile[0], teile[1], teile[2]
+    x0, x1 = xb.split(":")
+    y0, y1 = yb.split(":")
+    pkt = re.findall(r"([A-Za-z]+(?:_\w+)?)\(([-\d.]+)\|([-\d.]+)\)", teile[3]) if len(teile) > 3 else []
+    t = [r"\begin{center}\begin{tikzpicture}",
+         rf"\begin{{axis}}[width=9cm,height=4.8cm,axis lines=middle,"
+         rf"xmin={x0},xmax={x1},ymin={y0},ymax={y1},"
+         r"tick label style={font=\scriptsize,color=grau},axis line style={color=grau},"
+         r"xlabel={\scriptsize $x$},ylabel={\scriptsize $y$},clip mode=individual]",
+         rf"\addplot[thick,samples=200,domain={x0}:{x1},color=black!75] {{{term}}};"]
+    if punkte_zeigen:
+        for name, px, py in pkt:
+            unten = name.startswith("T")
+            pos = "below right" if unten else "above right"
+            lab = name if "_" not in name else name.split("_")[0] + "_{" + name.split("_")[1] + "}"
+            t.append(rf"\addplot[only marks,mark=*,mark size=1.4pt] coordinates {{({px},{py})}} "
+                     rf"node[{pos},font=\scriptsize] {{${lab}$}};")
+    t.append(r"\end{axis}\end{tikzpicture}\end{center}")
+    return "\n".join(t)
+
+
 def setze(zeilen, hinweise=False):
     out = [KOPF]
     offen = False
@@ -99,6 +128,16 @@ def setze(zeilen, hinweise=False):
             continue
         if z.startswith("bez: "):
             out.append(r"\g{" + z[5:] + r"}\par")
+            continue
+        if z.startswith("@ "):
+            spec = z[2:]
+            aus_aufgabe = spec.rstrip().endswith("aufgabe")
+            if aus_aufgabe:
+                spec = spec.rsplit(" | ", 1)[0]
+            if not hinweise:
+                out.append(skizze(spec, True))
+            elif aus_aufgabe:
+                out.append(skizze(spec, False))
             continue
         m = re.match(r"^([a-z])\)\s+(.*)$", z)
         if m:
