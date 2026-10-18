@@ -5,7 +5,8 @@ Chat „Stochastik 1“ (Strom A Bau, Opus).
 Vorherige Übergabe: archiv/uebergabe-2026-10-17-bau5.md. Nach plan.md
 Linie 8 kein eigener nächster Schritt. Entscheidungen nur aus plan.md
 § 10 (neu: 17.10. r). Daneben laufen Durchsicht
-(uebergabe-durchsicht.md), Abitur (uebergabe-abitur.md), FHR (uebergabe-fhr.md).
+(uebergabe-durchsicht.md), Abitur (uebergabe-abitur.md), FHR
+(uebergabe-fhr.md).
 
 ## 1 Ziel
 
