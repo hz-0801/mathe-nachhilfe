@@ -5,15 +5,15 @@ bez: $x_N$ Nullstelle · $x_E$ Extremstelle · $x_W$ Wendestelle · $x_S$ Sattel
 a) Welche Abbildung zeigt $G_f$?
 ? Verhalten im Unendlichen?
 > $\lim f(x)=\lim\,(-6x^5)$
-| $\lim\limits_{x\to-\infty}f(x)=+\infty$; \ $\lim\limits_{x\to+\infty}f(x)=-\infty$ => Abb. 2 und 4 nicht
+| $\lim\limits_{x\to-\infty}f(x)=+\infty$; \ $\lim\limits_{x\to+\infty}f(x)=-\infty$ => Abb. 2 und 4 fallen weg
 ? Verläuft $G_f$ durch den Ursprung?
 > $f(0)\overset{?}{=}0$
-| $f(0)=0$ => Abb. 1 nicht
+| $f(0)=0$ => Abb. 1 fällt weg
 | => **Abbildung 3**
 
 b) (I) Nicht punktsymmetrisch zum Ursprung?
-> nur ungerade Exponenten $\Rightarrow$ punktsymmetrisch zu $O$
-| Exponenten 5, 4, 3, 2 – auch gerade => (I) **wahr**
+> ganzrational: ein gerader Exponent $\Rightarrow$ nicht punktsymmetrisch zu $O$
+| Exponenten 5, 4, 3, 2: 4 und 2 gerade => (I) **wahr**
 ? (II) Liegen alle Nullstellen auf der $y$-Achse?
 > $f(a)>0$, $f(b)<0$ $\Rightarrow$ Nullstelle zwischen $a$ und $b$
 | $f(-3)=1626{,}75>0$; \ $f(-1)=-85{,}25<0$ => $x_N$ zwischen $-3$ und $-1$
@@ -54,10 +54,12 @@ e) Anstieg null bei $x=-1{,}5$; \ $0$; \ $2$?
 
 f) Wendepunkte?
 > $f''(x_W)=0$ \ und \ $f'''(x_W)\neq0$
-| $f''(2)=0$ \g{(raten)} => $x_{W1}=2$
+| $f''(2)=0$ \g{(ganzzahlig: raten)} => $x_{W1}=2$
 | $f''(x):(x-2)=-120x^2-15x+90$ \g{(Division)}
 | $x^2+0{,}125x-0{,}75=0$ \g{(pq-Formel)} => $x_{W2}\approx-0{,}93$; \ $x_{W3}\approx0{,}81$
-| $f'''(-0{,}93)\approx-610{,}7$; \ $f'''(0{,}81)\approx248{,}9$ => alle drei: Wendestellen \g{(2 aus e)}
+| $f'''(x_{W2})\approx-610{,}7$; \ $f'''(x_{W3})\approx248{,}9$ => alle drei: Wendestellen \g{(2 aus e)}
 ? Koordinaten?
 > $W(x_W\,|\,f(x_W))$
-! $W_1(2\,|\,{-92})$ \g{(= $S$)}, \quad $W_2(-0{,}93\,|\,{-75{,}83})$, \quad $W_3(0{,}81\,|\,{-42{,}11})$
+| $f(2)=-92$ => **$W_1(2\,|\,{-92})$** \g{(= $S$)}
+| $f(x_{W2})\approx-75{,}83$ => **$W_2(-0{,}93\,|\,{-75{,}83})$**
+| $f(x_{W3})\approx-42{,}11$ => **$W_3(0{,}81\,|\,{-42{,}11})$**
