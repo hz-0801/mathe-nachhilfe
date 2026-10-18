@@ -1,22 +1,24 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage{fontspec}
-\setmainfont{DejaVu Sans}[Scale=0.9]
+\setmainfont{DejaVu Sans}[Scale=0.82]
 \usepackage{amsmath,amssymb}
-\usepackage[left=16mm,right=16mm,top=11mm,bottom=10mm]{geometry}
+\usepackage[left=16mm,right=16mm,top=7mm,bottom=6mm]{geometry}
 \usepackage[table]{xcolor}
 \usepackage{array,tabularx,booktabs}
 \definecolor{grau}{gray}{0.45}
 \definecolor{band}{gray}{0.94}
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\renewcommand{\arraystretch}{1.36}
+\renewcommand{\arraystretch}{1.0}
 \setlength{\tabcolsep}{7pt}
 \newcommand{\g}[1]{{\small\color{grau}#1}}
-\newcommand{\block}[1]{\hiderowcolors\multicolumn{2}{@{}l}{\rule{0pt}{18pt}\color{grau}\small\bfseries\MakeUppercase{#1}}\\[-2pt]\showrowcolors}
-\newcolumntype{S}{>{\bfseries\raggedright\arraybackslash}p{5.2cm}}
+\newcommand{\block}[1]{\hiderowcolors\multicolumn{2}{@{}l}{\rule{0pt}{9pt}\color{grau}\small\bfseries\MakeUppercase{#1}}\\[-2pt]\showrowcolors}
+\newcolumntype{S}{>{\bfseries\raggedright\arraybackslash}p{5.0cm}}
+\newcolumntype{G}{>{\raggedright\arraybackslash}p{5.3cm}}
+\newcommand{\grenz}[1]{{\footnotesize\color{grau}#1}}
 \newcolumntype{A}{>{\raggedright\arraybackslash}X}
 \begin{document}
-{\Large\bfseries Kurvendiskussion}\hfill{\color{grau}Stichwort → Ansatz}\par
+{\Large\bfseries Kurvendiskussion}\hfill{\color{grau}Stichwort → Ansatz \quad Grenze → Ersatz}\par
 \vspace{3pt}\hrule height 1pt\vspace{6pt}
 \g{$x_N$ Nullstelle · $x_E$ Extremstelle · $x_W$ Wendestelle · $x_S$ Sattelstelle.
 Stelle = $x$-Wert, Punkt = $(x\,|\,y)$.}
@@ -25,36 +27,37 @@ Stelle = $x$-Wert, Punkt = $(x\,|\,y)$.}
 \rowcolors{1}{band}{white}
 \begin{tabularx}{\linewidth}{@{}SA@{}}
 \block{Bereiche und Symmetrie}
-Definitionsbereich & verboten: Nenner $=0$, Radikand $<0$, Argument von $\ln\le0$\\
-Wertebereich & vergleiche: Grenzwerte am Rand von $D$, \ $f(x_E)$, \ Randwerte\\
-Symmetrie zur $y$-Achse & $f(x)=f(-x)$ \quad \g{ganzrational: nur gerade Exponenten}\\
-Symmetrie zum Ursprung & $f(x)=-f(-x)$ \quad \g{ganzrational: nur ungerade Exponenten}\\
-keine Symmetrie & weder noch \quad \g{gilt nur für $y$-Achse und $O$}\\
+Definitionsbereich & verboten: Nenner $=0$, Radikand $<0$, Argument von $\ln\le0$\newline\grenz{Grenze: ganzrational: $D=\mathbb R$, nichts zu prüfen}\\
+Wertebereich & vergleiche: Grenzwerte am Rand von $D$, \ $f(x_E)$, \ Randwerte\newline\grenz{Grenze: nur mit allen Extrempunkten → sonst aus Graph und Monotonie}\\
+Symmetrie zur $y$-Achse & $f(x)=f(-x)$ \quad \g{ganzrational: nur gerade Exponenten}\newline\grenz{Grenze: Exponenten-Regel nur ganzrational → sonst $f(-x)$ einsetzen}\\
+Symmetrie zum Ursprung & $f(x)=-f(-x)$ \quad \g{ganzrational: nur ungerade Exponenten}\newline\grenz{Grenze: Exponenten-Regel nur ganzrational → sonst $-f(-x)$ einsetzen}\\
+keine Symmetrie & weder noch \quad \g{gilt nur für $y$-Achse und $O$}\newline\grenz{Grenze: nachweisen mit Gegenbeispiel: $f(1)\neq\pm f(-1)$}\\
 \block{Schnittpunkte und Unendlich}
-Nullstellen & $f(x_N)=0$\\
+Punktprobe & $y_P\overset{?}{=}f(x_P)$\\
+Nullstellen & $f(x_N)=0$\newline\grenz{Grenze: Grad $\ge3$: ausklammern, raten + Division → sonst $f(a)>0$, $f(b)<0$ ⇒ $x_N$ dazwischen}\\
 Schnittpunkte mit den Achsen & $S_x(x_N\,|\,0)$, \quad $S_y(0\,|\,f(0))$\\
-Schnittpunkte zweier Graphen & $f(x)=g(x)$, \ dann $y=f(x)$\\
-Verhalten im Unendlichen & $\lim\limits_{x\to\pm\infty}f(x)$: \ höchste Potenz entscheidet \quad \g{$\mathrm e^x$ wächst schneller als jede Potenz}\\
+Schnittpunkte zweier Graphen & $f(x)=g(x)$, \ dann $y=f(x)$\newline\grenz{Grenze: wie Nullstellen von $f-g$}\\
+Verhalten im Unendlichen & $\lim\limits_{x\to\pm\infty}f(x)$: \ höchste Potenz entscheidet \quad \g{$\mathrm e^x$ wächst schneller als jede Potenz}\newline\grenz{Grenze: „höchste Potenz“ nur ganzrational → $\mathrm e^x$-Regel}\\
 \block{Ableitung}
 Anstieg an der Stelle $x_0$ & $m=f'(x_0)$\\
-Steigungswinkel & $\tan\alpha=f'(x_0)$\\
+Steigungswinkel & $\tan\alpha=f'(x_0)$\newline\grenz{Grenze: $m<0$: $\alpha=180^\circ+\arctan m$}\\
 mittlere Änderungsrate & $\dfrac{f(b)-f(a)}{b-a}$ \quad \g{Sekantensteigung}\\
 momentane Änderungsrate & $f'(x_0)$ \quad \g{Einheit: Einheit von $f$ je Einheit von $x$}\\
-Extremstellen & $f'(x_E)=0$ \ und \ $f''(x_E)\neq0$\\
+Extremstellen & $f'(x_E)=0$ \ und \ $f''(x_E)\neq0$\newline\grenz{Grenze: $f''(x_E)=0$: kein Schluss → VZW von $f'$}\\
 Hochpunkt & $f'(x_E)=0$ \ und \ $f''(x_E)<0$: \ $H(x_E\,|\,f(x_E))$\\
 Tiefpunkt & $f'(x_E)=0$ \ und \ $f''(x_E)>0$: \ $T(x_E\,|\,f(x_E))$\\
-Wendestellen & $f''(x_W)=0$ \ und \ $f'''(x_W)\neq0$\\
+Wendestellen & $f''(x_W)=0$ \ und \ $f'''(x_W)\neq0$\newline\grenz{Grenze: $f'''(x_W)=0$: kein Schluss → VZW von $f''$}\\
 Wendepunkte & wie Wendestellen: \ $W(x_W\,|\,f(x_W))$\\
-Sattelstellen & $f'(x_S)=0$, \ $f''(x_S)=0$, \ $f'''(x_S)\neq0$\\
+Sattelstellen & $f'(x_S)=0$, \ $f''(x_S)=0$, \ $f'''(x_S)\neq0$\newline\grenz{Grenze: $f'''(x_S)=0$: kein Schluss → $f'$ ohne VZW ⇒ Sattel}\\
 Sattelpunkt & wie Sattelstellen: \ $S(x_S\,|\,f(x_S))$\\
-Vorzeichenwechsel & statt $f''$ bzw.\ $f'''$: \ $f'$: $+\to-$ $H$, \ $-\to+$ $T$, \ kein Wechsel $S$\\
+Vorzeichenwechsel & statt $f''$ bzw.\ $f'''$: \ $f'$: $+\to-$ $H$, \ $-\to+$ $T$, \ kein Wechsel $S$\newline\grenz{Grenze: Testwert zwischen je zwei Nullstellen von $f'$}\\
 \block{Verlauf}
-Monotonie & $f'>0$ steigt, \ $f'<0$ fällt \quad \g{Grenzen: Extremstellen}\\
+Monotonie & $f'>0$ steigt, \ $f'<0$ fällt \quad \g{Grenzen: Extremstellen}\newline\grenz{Grenze: Sattelstelle trennt nicht: Bereiche zusammenfassen}\\
 Krümmung & $f''>0$ links, \ $f''<0$ rechts \quad \g{Grenzen: Wendestellen}\\
-globale Extrema & $f(x_E)$ mit Randwerten und Grenzwerten vergleichen\\
-stärkste Zu- oder Abnahme & im Wendepunkt (Extremum von $f'$)\\
-Graph von $f$ aus Graph von $f'$ & Nullstelle von $f'$ mit VZW: Extremstelle von $f$; \ Extremstelle von $f'$: Wendestelle von $f$\\
+globale Extrema & $f(x_E)$ mit Randwerten und Grenzwerten vergleichen\newline\grenz{Grenze: Grenzwert $\pm\infty$ ⇒ kein globales Extremum}\\
+stärkste Zu- oder Abnahme & im Wendepunkt (Extremum von $f'$)\newline\grenz{Grenze: im Intervall auch $f'$ an den Rändern}\\
+Graph von $f$ aus Graph von $f'$ & Nullstelle von $f'$ mit VZW: Extremstelle von $f$; \ Extremstelle von $f'$: Wendestelle von $f$\newline\grenz{Grenze: Nullstelle von $f'$ ohne VZW: Sattelstelle}\\
 Tangente an der Stelle $x_0$ & $t(x)=mx+n$, \ $m=f'(x_0)$, \ $n$ aus $t(x_0)=f(x_0)$\\
-Normale an der Stelle $x_0$ & $n(x)=m_nx+b$, \ $m_n=-\dfrac{1}{f'(x_0)}$, \ $b$ aus $n(x_0)=f(x_0)$\\
+Normale an der Stelle $x_0$ & $n(x)=m_nx+b$, \ $m_n=-\dfrac{1}{f'(x_0)}$, \ $b$ aus $n(x_0)=f(x_0)$\newline\grenz{Grenze: $f'(x_0)=0$: Normale $x=x_0$}\\
 \end{tabularx}
 \end{document}
